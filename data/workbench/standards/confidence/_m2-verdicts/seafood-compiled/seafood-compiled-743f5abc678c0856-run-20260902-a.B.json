@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-743f5abc678c0856-run-20260902-a",
+  "evidence_key": "743f5abc678c0856",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|Pb",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_pb_cephalopods_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I 3.1.15.2 sets 0.30 mg/kg wet weight lead for 'cephalopods' (the animal without viscera), a content-basis maximum level in force since 2023 that covers uncanned octopus, squid and cuttlefish; no conversion applies. Every other non-gated content-basis Pb row scoped to cephalopods, molluscs or aquatic animals is looser (CR, GY, PA, GSO, IN, FJ, VN, MERCOSUR and PY cephalopods 1000; HK and CN other aquatic animals 1000; MX molluscs 1000; AU-NZ molluscs 2000; SG fish-crustaceans-molluscs 2000; UY foods in general 2000; TT marine animal products 10000), and the Guyana 25 ppb row is quarantined. 300 is the strictest applicable sovereign ML."
+    }
+  ]
+}

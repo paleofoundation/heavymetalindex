@@ -55,11 +55,6 @@
             "converted": false,
             "id": "ph_pns194_2017_meat_cattle_pigs_sheep_pb_100"
           },
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_pb_9_meat_fat_and_their_products_including_poultry_and_ga_100"
-          },
           "MERCOSUR": {
             "value": 100,
             "converted": false,
@@ -74,6 +69,11 @@
             "value": 100,
             "converted": false,
             "id": "hk_cap132v_pb_meat-of-cattle-pig-goat-and-sheep_100"
+          },
+          "CN": {
+            "value": 200,
+            "converted": false,
+            "id": "china_gb2762_2025_pb_meat_200"
           }
         },
         "feed_floor": [
@@ -92,16 +92,9 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_pb_formula_5000",
-            "scope": "compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -135,11 +128,6 @@
             "converted": false,
             "id": "py_decreto1335_2019_raw_meats_sausages_breaded_products_cd_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_cd_8_meat_and_meat_products_including_poultry_and_game_ex_50"
-          },
           "MERCOSUR": {
             "value": 50,
             "converted": false,
@@ -154,6 +142,11 @@
             "value": 50,
             "converted": false,
             "id": "hk_cap132v_cd_meat-of-cattle-pigs-goat-and-sheep_50"
+          },
+          "CN": {
+            "value": 100,
+            "converted": false,
+            "id": "china_gb2762_2025_cd_meat_and_meat_products_100"
           }
         },
         "feed_floor": [
@@ -172,16 +165,9 @@
             "scope": "complete feed for pet animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_cd_all_2000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -200,6 +186,11 @@
             "converted": false,
             "id": "in_fssai2016_tas_004_named_animal_fats_lard_rendered_pork_fat_premier_jus_and_edible_tallow_100"
           },
+          "CN": {
+            "value": 500,
+            "converted": false,
+            "id": "china_gb2762_2025_tas_meat_and_meat_products_500"
+          },
           "PY": {
             "value": 500,
             "converted": false,
@@ -214,11 +205,6 @@
             "value": 500,
             "converted": false,
             "id": "hk_cap132v_tas_meat-of-animal_500"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_8_meat_and_meat_products_including_poultry_and_game_ex_1000"
           }
         },
         "feed_floor": [
@@ -229,40 +215,58 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_tas_non_aquatic_formula_2000",
-            "scope": "non-aquatic/non-algae compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "iAs": {
-        "type": "read_across",
-        "human_grade": true,
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 20,
         "value_exact": 20,
-        "source_id": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20",
-        "source_jurisdiction": "IL",
-        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
-        "analog_scope": "Meat and meat products, including poultry and game, except listed categories",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (IL, 20 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
-        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
-        "per_country": {
-          "IL": {
-            "value": 20,
-            "converted": false,
-            "id": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20"
-          },
-          "EU": {
-            "value": 500,
-            "converted": false,
-            "id": "eu20251891_ias_fish_listed_500"
-          }
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "read_across",
+          "id": "eu20251891_ias_fish_listed_500",
+          "value": 500,
+          "jurisdiction": "EU",
+          "scope": null,
+          "basis": null,
+          "page": null
         },
+        "floor_cell": {
+          "type": "read_across",
+          "human_grade": true,
+          "value": 500,
+          "value_exact": 500,
+          "source_id": "eu20251891_ias_fish_listed_500",
+          "source_jurisdiction": "EU",
+          "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+          "analog_scope": "muscle meat of anglerfish, monkfish, giant stargazer, flatfishes, haddock, herring, ray, and shark",
+          "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (EU, 500 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+          "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+          "per_country": {
+            "EU": {
+              "value": 500,
+              "converted": false,
+              "id": "eu20251891_ias_fish_listed_500"
+            }
+          },
+          "feed_floor": [
+            {
+              "jurisdiction": "JP",
+              "value": 2000,
+              "id": "jp_petfood_2021_ias_2000",
+              "scope": "pet food",
+              "instrument": "feed maximum level",
+              "status": "statutory limit"
+            }
+          ]
+        },
+        "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 20 ug/kg, below the sovereign floor of 500 ug/kg (eu20251891_ias_fish_listed_500). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "feed_floor": [
           {
             "jurisdiction": "JP",
@@ -271,38 +275,37 @@
             "scope": "pet food",
             "instrument": "feed maximum level",
             "status": "statutory limit"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_ias_aquatic_algae_2000",
-            "scope": "pet feed containing aquatic animals/products or algae/products",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "per_country": {
+          "EU": {
+            "value": 500,
+            "converted": false,
+            "id": "eu20251891_ias_fish_listed_500"
+          }
+        }
       },
       "tHg": {
         "type": "read_across",
         "human_grade": true,
         "value": 50,
         "value_exact": 50,
-        "source_id": "hk_cap132v_thg_meat-of-animal_50",
-        "source_jurisdiction": "HK",
+        "source_id": "china_gb2762_2025_thg_meat_50",
+        "source_jurisdiction": "CN",
         "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
-        "analog_scope": "Meat of animal",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (HK, 50 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Meat (GB 2762-2025 Table 3, item 5.1); total mercury",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (CN, 50 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "CN": {
+            "value": 50,
+            "converted": false,
+            "id": "china_gb2762_2025_thg_meat_50"
+          },
           "HK": {
             "value": 50,
             "converted": false,
             "id": "hk_cap132v_thg_meat-of-animal_50"
-          },
-          "IL": {
-            "value": 200,
-            "converted": false,
-            "id": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200"
           }
         },
         "feed_floor": [
@@ -313,85 +316,111 @@
             "scope": "compound feed for dogs, cats, ornamental fish and fur animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 300,
-            "id": "cn_petfood_draft_thg_all_300",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "There is no methylmercury biomagnification pathway in terrestrial meat; bounded by total mercury, measured on every lot.",
-        "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only on an elevated total-Hg result.",
+        "subsumed_by": "tHg",
         "bounded_by": "tHg",
-        "feed_floor": null
+        "binding_total": 50,
+        "basis_class": "speciation-bounded",
+        "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (50 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
       },
       "Ni": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets a nickel maximum for meat or meat products; total nickel is measured on every lot as a mandatory surveillance control.",
-        "reference_method": "Total Ni by ICP-MS.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 800,
+        "value_exact": 800,
+        "source_id": "eu2024_ni_cereals_800",
+        "source_jurisdiction": "EU",
+        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+        "analog_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+        "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Tin is a can-migration analyte with no source in fresh, frozen, or refrigerated meat placed on market without a tin-coated container. Canned wet products are certified under the canned-wet tin read-across.",
-        "reference_method": "Total Sn by ICP-MS; any quantifiable tin on a non-canned product triggers a packaging investigation.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 50000,
+        "value_exact": 50000,
+        "source_id": "in_fssai2016_sn_020_cooked_cured_chopped_meat_for_products_in_other_containers_50000",
+        "source_jurisdiction": "IN",
+        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+        "analog_scope": "Cooked cured chopped meat (for products in other containers)",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (IN, 50000 µg/kg, as consumed basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
+        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+        "per_country": {
+          "IN": {
+            "value": 50000,
+            "converted": false,
+            "id": "in_fssai2016_sn_020_cooked_cured_chopped_meat_for_products_in_other_containers_50000"
+          },
+          "GSO": {
+            "value": 50000,
+            "converted": false,
+            "id": "gso193_2021_sn_cooked_cured_chopped_meat_50000"
+          }
+        },
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets an aluminium contaminant maximum for general (non-infant) human foods; the only human-food aluminium numbers are permitted additive-residue limits, not contaminant maxima. Aluminium is measured on every lot as a mandatory surveillance control.",
-        "reference_method": "Total Al by ICP-MS after microwave acid digestion.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+        "analog_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "read_across",
         "human_grade": true,
         "value": 1000,
         "value_exact": 1000,
-        "source_id": "hk_cap132v_crtotal_meat-of-animal_1000",
-        "source_jurisdiction": "HK",
+        "source_id": "china_gb2762_2025_crtotal_meat_and_meat_products_1000",
+        "source_jurisdiction": "CN",
         "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
-        "analog_scope": "Meat of animal",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (HK, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Meat and meat products (GB 2762-2025 Table 7, item 4.1); total Cr, not Cr-VI",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (CN, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": false,
+            "id": "china_gb2762_2025_crtotal_meat_and_meat_products_1000"
+          },
           "HK": {
             "value": 1000,
             "converted": false,
             "id": "hk_cap132v_crtotal_meat-of-animal_1000"
           }
         },
-        "feed_floor": [
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_crtotal_all_5000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Hexavalent chromium reduces to Cr(III) in a reducing meat matrix and carries no stable burden; bounded by total chromium, measured on every lot. Any quantifiable Cr(VI) on a total-Cr exceedance fails certification.",
-        "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 on a total-Cr exceedance.",
+        "subsumed_by": "Cr",
         "bounded_by": "Cr",
-        "feed_floor": null
+        "binding_total": 1000,
+        "basis_class": "speciation-bounded",
+        "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
       }
     }
   },

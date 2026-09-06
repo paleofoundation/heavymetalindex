@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-2559d6c78b422192-run-20260902-a",
+  "evidence_key": "2559d6c78b422192",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "fish-freshwater|both|Pb",
+      "derived_value": 200,
+      "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+      "same_basis_candidates": [],
+      "blind_value": 200,
+      "applicability": "confirmed",
+      "reason": "Fiji Food Safety Regulations 2009, Eleventh Schedule para (15), sets Pb 0.2 mg/Kg for 'Muscle meat of fish, excluding those listed below'; the carve-outs in the next row (bonito, horse mackerel or scad, sardine, sardinops, spotted seabass, tuna) are all marine species, so tilapia, catfish, trout and carp sit under the 0.2 row. Basis is muscle-meat content in mg/Kg, which for raw fish is the same wet-weight number as consumed, and the instrument is active (Legal Notice 20 of 2009, no amendment or repeal recorded). No non-gated Pb food-content row for fish is stricter: GY 25 is quarantined as a transcription artifact, EU 2023/915 and the GSO/HK/IN/PY/MERCOSUR/TH/VN/PH/PA rows sit at 300, AU-NZ at 500, SG at 2000."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Pb",
+      "derived_value": 200,
+      "derived_anchor_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+      "same_basis_candidates": [],
+      "blind_value": 200,
+      "applicability": "refuted",
+      "reason": "The anchor's scope is 'Muscle meat of fish, excluding those listed below', and the same Fiji table places sardine (Sardina pilchardus), sardinops and horse mackerel or scad at 0.4 mg/Kg (fj_fsr2009_pb_008); sardine is a named exemplar of this product form, so the anchor does not cover the form as written and condition (a) fails. The strictest sovereign row that covers every member including sardine is 300 (eu2023_pb_fish_muscle_300 'muscle meat of fish, general', with GSO, HK, IN, PY, MERCOSUR, TH, VN, PH and PA also at 300); no non-gated row is stricter than 200. Because 200 is at or below every member's strictest sovereign the number itself is publishable, but only if the sardine/sardinops/scad carve-out is scope-noted as a precautionary adoption for those species rather than presented as a Fiji lookup for the whole bucket; refuted on scope, not on value."
+    }
+  ]
+}

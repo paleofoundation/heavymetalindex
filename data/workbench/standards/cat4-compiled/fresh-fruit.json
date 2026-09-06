@@ -17,9 +17,12 @@
   "provenance_tags_allowed": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "precautionary",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "cells": {
     "Pb": {
@@ -56,11 +59,6 @@
           "id": "py_decreto1335_2019_fresh_fruits_excluding_berries_small_fruits_pb_100",
           "value": 100,
           "jurisdiction": "PY"
-        },
-        {
-          "id": "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
-          "value": 100,
-          "jurisdiction": "IL"
         },
         {
           "id": "ch_vhk_2026_pb_cranbeeren_200",
@@ -171,11 +169,6 @@
           "id": "py_decreto1335_2019_fresh_berries_and_small_fruits_cd_50",
           "value": 50,
           "jurisdiction": "PY"
-        },
-        {
-          "id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
-          "value": 50,
-          "jurisdiction": "IL"
         }
       ],
       "stricter_unselected": [],
@@ -211,11 +204,6 @@
           "id": "py_decreto1335_2019_fresh_berries_and_small_fruits_tas_300",
           "value": 300,
           "jurisdiction": "PY"
-        },
-        {
-          "id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
-          "value": 1000,
-          "jurisdiction": "IL"
         }
       ],
       "stricter_unselected": [],
@@ -223,44 +211,57 @@
       "substantiation": "Direct total-arsenic maximum levels for fresh fruit in an as-offered basis. Total arsenic is reported for its own sake and is never satisfied by the inorganic-arsenic cell; the inorganic-arsenic species limit for this row (60 ug/kg) is far stricter and is the operative arsenic constraint."
     },
     "iAs": {
-      "type": "gov",
+      "type": "precautionary",
+      "provenance": "precautionary",
       "value": 60,
       "value_exact": 60,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "IL",
-      "binding_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-      "basis": "product as placed on market",
-      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "candidates": [
-        {
-          "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-          "value": 60,
-          "jurisdiction": "IL"
-        }
-      ],
-      "stricter_unselected": [],
-      "label": "Israel MOH FCS-2016 category 3 sets the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables (60 ug/kg); the EU, Codex, FDA, AU-NZ, Hong Kong and Swiss instruments set inorganic-arsenic maximum levels only for rice, juices, seaweed and infant food.",
-      "substantiation": "Inorganic arsenic is the health-relevant arsenic species and is never satisfied by the total-arsenic cell; both are reported. This value is a direct maximum level for the product class, not a read-across, and it sits well below the total-arsenic ceiling for the same row, so the species cell is the binding arsenic constraint in practice."
+      "unit": "ug/kg",
+      "basis": "wet weight, fresh fruit as sold",
+      "sovereign_floor": {
+        "kind": "parent-total",
+        "parent": "tAs",
+        "id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300",
+        "value": 300,
+        "jurisdiction": "MERCOSUR",
+        "scope": null,
+        "basis": "wet weight, fresh fruit as sold"
+      },
+      "floor_cell": {
+        "type": "subsumed",
+        "value": null,
+        "provenance": "subsumed",
+        "subsumed_by": "tAs",
+        "bounded_by": "tAs",
+        "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+        "reference_method": null,
+        "basis_class": "speciation-bounded",
+        "regulatory_basis": "",
+        "jurisdictions_checked": "register scan 2026-09-02",
+        "substantiation": null
+      },
+      "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 60 ug/kg, below the sovereign floor of 300 ug/kg (mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tHg": {
       "type": "gov",
-      "value": 30,
-      "value_exact": 30,
+      "value": 20,
+      "value_exact": 20,
       "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "IL",
-      "binding_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
+      "binding_jurisdiction": "TH",
+      "binding_id": "th_moph414_2020_thg_food_other_20",
       "basis": "wet weight, fresh fruit as sold",
-      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "binding_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
       "candidates": [
         {
-          "id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
-          "value": 30,
-          "jurisdiction": "IL"
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH"
         }
       ],
       "stricter_unselected": [],
       "label": "Israel MOH FCS-2016 category 3 sets total mercury for fruits and vegetables at 30 ug/kg, the only sovereign total-mercury maximum level whose scope reaches fresh fruit.",
-      "substantiation": "Direct maximum level for the commodity class. Hong Kong Cap. 132V item 12 sets a stricter 10 ug/kg but its scope is 'vegetables, other than edible fungi' and does not reach fruit, so it is not applicable to this row; it binds the four vegetable rows and the pickled row instead."
+      "substantiation": null
     },
     "MeHg": {
       "type": "control",

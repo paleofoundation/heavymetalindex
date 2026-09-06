@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-55a07a92093f5887-run-20260902-a",
+  "evidence_key": "55a07a92093f5887",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Pb",
+      "derived_value": 80,
+      "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+      "same_basis_candidates": [],
+      "blind_value": 80,
+      "applicability": "refuted",
+      "reason": "The anchor record is internally inconsistent: its regulatory_limit_id, notes and row hash are those of the GB 2762-2025 'Fats, oils and their products' 80 ug/kg row (sha256 identical to the anchor of evidence 734d41bd319590ff), but its jurisdiction, authority, basis and product_scope fields describe Directive 2009/48/EC toy migration ('toys and toy components (soluble element migration)', EN 71-3 category III, mg/kg of material). No register row carries that scope, and the register's EU toy lead rows are 2000, 500 and 23000 ug/kg, not 80. As recorded the anchor fails (a) because a toy-migration scope does not cover cooking oil and (b) because migration is not the content basis of this cell; the value 80 reproduces only through the id, so the cell should rest on the clean record 734d41bd319590ff and this composite record should be repaired or dropped."
+    }
+  ]
+}

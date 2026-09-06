@@ -1,0 +1,315 @@
+{
+  "compiled_dir": "cat29-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_pb_cultivated_fungi_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "cultivated common, oyster and shiitake fungi",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "After washing and edible-part separation.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "38c67db8fcffba099a58fda7ae50cb0b45fbfc63d705f8b2095a7f876a01b53f",
+          "row_sha256": "38c67db8fcffba099a58fda7ae50cb0b45fbfc63d705f8b2095a7f876a01b53f"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_wild_fungi_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "800",
+          "basis": "wet weight",
+          "product_scope": "wild fungi",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "After washing and edible-part separation.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "155ba4f61fb29dcea04c76f71931c8005d6a61bfa4a51c090c34e37f120b919b",
+          "row_sha256": "155ba4f61fb29dcea04c76f71931c8005d6a61bfa4a51c090c34e37f120b919b"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|Pb",
+        "cultivated-mushrooms|both|Pb",
+        "wild-mushrooms|both|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_oyster_shiitake_150",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "150",
+          "basis": "wet weight",
+          "product_scope": "oyster mushroom and shiitake mushroom",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "59f4925252012f800b6c92a18b0200a8497301e602089902ef8f18174d755026",
+          "row_sha256": "59f4925252012f800b6c92a18b0200a8497301e602089902ef8f18174d755026"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_cultivated_fungi_50",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "wet weight",
+          "product_scope": "cultivated fungi, except oyster and shiitake",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a9d6444025739610bc2418189e9ddecd0e921a765033e2acbc312e1d519825a2",
+          "row_sha256": "a9d6444025739610bc2418189e9ddecd0e921a765033e2acbc312e1d519825a2"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_wild_fungi_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "wild fungi",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "After washing and edible-part separation.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "45d8494e398a183cae7755ce9a6d8100ea70961a4110e749e92af5b5c277b1d7",
+          "row_sha256": "45d8494e398a183cae7755ce9a6d8100ea70961a4110e749e92af5b5c277b1d7"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|Cd",
+        "cultivated-mushrooms|both|Cd",
+        "wild-mushrooms|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_agaricus_pleurotus_lentinula_lentinus_mushrooms_tas_300",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "300",
+          "basis": "product as offered to consumer",
+          "product_scope": "mushrooms of the genera Agaricus, Pleurotus, Lentinula, or Lentinus",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.3 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4e73c99098d22d6bee47ba1d759fa02295b5e8d3d92153666cd5f68a8b4e319e",
+          "row_sha256": "4e73c99098d22d6bee47ba1d759fa02295b5e8d3d92153666cd5f68a8b4e319e"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|tAs",
+        "cultivated-mushrooms-oyster-shiitake|both|iAs",
+        "cultivated-mushrooms|both|tAs",
+        "cultivated-mushrooms|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|tHg",
+        "cultivated-mushrooms-oyster-shiitake|both|MeHg",
+        "cultivated-mushrooms|both|tHg",
+        "cultivated-mushrooms|both|MeHg",
+        "wild-mushrooms|both|tHg",
+        "wild-mushrooms|both|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_fruiting_veg_400",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "400",
+          "basis": "wet weight",
+          "product_scope": "fruiting vegetables",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5",
+          "row_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|Ni",
+        "cultivated-mushrooms|both|Ni",
+        "wild-mushrooms|both|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_other_food_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "other food not specified in the Tenth Schedule",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(27) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+          "row_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|Sn",
+        "cultivated-mushrooms|both|Sn",
+        "wild-mushrooms|both|tAs",
+        "wild-mushrooms|both|iAs",
+        "wild-mushrooms|both|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "cultivated-mushrooms-oyster-shiitake|both|Cr",
+        "cultivated-mushrooms-oyster-shiitake|both|Cr-VI",
+        "cultivated-mushrooms|both|Cr",
+        "cultivated-mushrooms|both|Cr-VI",
+        "wild-mushrooms|both|Cr",
+        "wild-mushrooms|both|Cr-VI"
+      ]
+    }
+  ]
+}

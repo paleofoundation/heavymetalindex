@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-e253d63c28db7e96-run-20260902-a",
+  "evidence_key": "e253d63c28db7e96",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Cr",
+      "derived_value": 2000,
+      "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 7 item 6.2 'Milk powder and modified milk powder' 2.0 mg/kg total Cr, product as placed on market, entered into force on 2 September 2026 (today) with the value unchanged from GB 2762-2022, so the disclosed read-across is in force and on the cell's as-sold content basis. No sovereign instrument in the register sets a chromium ML for algae: GB 2762-2025 Table 7 has no algae line and its Annex A keeps algae (Table 1 group 6) distinct from vegetables (group 2), and HK Cap 132V lists 'Seaweed' as its own arsenic item separate from 'Vegetables', so the fresh-basis vegetable rows (china_gb2762_2025_crtotal_fresh_vegetables_500, hk_cap132v_crtotal_vegetables-other-than-pulses_500) do not cover this product and are not listed as candidates. The nearest same-instrument analogs, milk powder (dried product) and Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000, marine origin, includes dried products), both give 2000, so the number is stable whichever analog is cited; citing item 5.1 alongside 6.2 would strengthen the disclosure."
+    }
+  ]
+}

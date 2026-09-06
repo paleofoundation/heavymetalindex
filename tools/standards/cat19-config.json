@@ -73,14 +73,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the wash-active formulation and, for unit-dose and sheet formats, the polyvinyl-alcohol film or the sheet substrate, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -91,14 +89,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -174,14 +170,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the mineral or powder concentrate and, for unit-dose, tablet or sachet formats, the film, coating or wrapper, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -192,14 +186,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -275,14 +267,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the concentrate and, for stick and roll-on formats, the applicator wick or pad; trigger-spray and aerosol hardware in the product-contact path is sampled separately. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -293,14 +283,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -376,14 +364,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the bleaching concentrate and, for unit-dose or tablet formats, the film, coating or wrapper, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -394,14 +380,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -477,14 +461,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the finished emulsion for liquid formats and, for dryer sheets, the nonwoven substrate and the applied softener coating, each sampled and tested as a distinct component, because the substrate and the coating have separate supply chains and separate metal profiles. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -495,14 +477,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -578,14 +558,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the finished formulation for liquid and spray formats and, for sheets, the nonwoven substrate and the applied antistatic coating, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -596,14 +574,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -679,14 +655,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the liquid concentrate and, for aerosol formats, the propellant-charged formulation together with the valve and actuator hardware in the product-contact path, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -697,14 +671,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -780,14 +752,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the liquid concentrate and, for aerosol formats, the propellant-charged formulation together with the valve and actuator hardware in the product-contact path. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -798,14 +768,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -881,14 +849,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the concentrate or powder and, for unit-dose and sachet formats, the film or wrapper, each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -899,14 +865,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -982,14 +946,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself. The starch base is an agricultural feedstock, so crop-uptake metals travel into the product with the raw material. Rice starch in particular is drawn from a recognised arsenic accumulator, which is why total arsenic and the reflex inorganic-arsenic speciation carry additional weight on this row and why the declared starch botanical origin is recorded with every arsenic result.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the starch or sizing concentrate and, for aerosol formats, the propellant-charged formulation together with the valve and actuator hardware in the product-contact path. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1000,14 +962,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1083,14 +1043,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of the finish concentrate and, for aerosol and trigger-spray formats, the propellant-charged formulation together with the valve and actuator hardware in the product-contact path. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1101,14 +1059,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1184,14 +1140,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of each functional phase and each physical component separately — the wash-active phase, the softening or protective phase, any nonwoven substrate, and any film, coating or wrapper — each sampled and tested as a distinct component. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1202,14 +1156,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1285,14 +1237,12 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and a species of it (iAs <= tAs). No jurisdiction sets an inorganic-arsenic limit for a laundry product, a fabric-care product, a detergent or a cosmetic: every consumer-chemical arsenic instrument in the register regulates TOTAL arsenic (China NMPA 2015 Table 2, China GB 14930.1-2022, Korea MFDS Notice 2025-63 and 2024-9, Germany BVL 2017, Health Canada, the ASEAN Annex, and EU REACH Annex XVII entry 72 Appendix 12), and no sovereign speciates arsenic for any product in this category. The inorganic fraction is therefore governed by, and bounded by, the total-arsenic ceiling published on the tAs cell of this row. The determination is a governance statement about which cell carries the ceiling, not an assertion that inorganic arsenic is absent, and it is rebuttable: the only routed inorganic-arsenic measurement anywhere in this category's evidence base is zhang2026-cotton-arsenic-amf-calcium, which speciates inorganic arsenic in COTTON FIBRE as a soil-uptake pathway in the textile substrate, not as a contaminant of a product applied to the textile, so it does not rebut this determination for the product itself.",
-            "reference_method": "Reflex inorganic-arsenic speciation by HPLC-ICP-MS on the digest of the product as placed on the market, triggered whenever total arsenic exceeds one half of the published total-arsenic ceiling, whenever an arsenic-bearing mineral feedstock is declared, or whenever an agricultural (starch, cellulose or plant-derived surfactant) feedstock is declared. The sampling unit is one composite sample per production lot, drawn from the product as placed on the market, with component-level sampling of every physical component and functional phase of the article, enumerated in the applicant's Step 0 scope determination and each sampled and tested as a distinct component; solid and sheet formats are separated into substrate and applied coating. Escalation: a speciated inorganic-arsenic result is dispositioned against the total-arsenic ceiling under ALARA with raw-material trace-back to the declared feedstock, and the component disposition rule of this row governs here as it does on the numeric cells, so each sampled component is compared against that ceiling independently and the whole-article composite is reported but is never dispositive.",
+          "subsumed": {
             "bounded_by": "tAs",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets an inorganic-arsenic maximum level for a laundry, fabric-care, detergent or cosmetic product; every applicable consumer-chemical instrument regulates total arsenic. Inorganic arsenic is a species of and bounded by total arsenic (iAs <= tAs) and is governed through the tAs cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU Directive 2009/48/EC toy migration; EU RoHS 2011/65/EU; EU 2023/915, EU 2024/1987, Codex CXS 193, US FDA, FSANZ, UK and HK Cap. 132V (dietary, inapplicable on scope and basis); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP (no numeric contaminant limits). None sets an inorganic-arsenic limit for these product forms."
-          }
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "basis_label": "total total mercury content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1303,14 +1253,12 @@
           }
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a species of total mercury (MeHg <= tHg) formed by microbial methylation in aquatic food webs and concentrated by dietary bioaccumulation in fish muscle. A surfactant, quaternary-ammonium, silicone, starch or mineral laundry formulation has no methylation pathway, no aquatic food-web input and no dietary mercury source, and no routed source in this category's evidence base measures or speciates methylmercury in any product form — the sector standards and the product surveys measure TOTAL mercury. Any mercury present is governed by, and bounded by, the total-mercury ceiling published on the tHg cell of this row. No jurisdiction sets a methylmercury limit for a laundry, fabric-care, detergent or cosmetic product; sovereign methylmercury maximum levels are scoped to fish and seafood.",
-            "reference_method": "Total mercury is the reported screen (dedicated thermal-decomposition amalgamation atomic absorption, or acid digestion with cold-vapour AFS/ICP-MS, on the product as placed on the market). Methylmercury speciation by GC-ICP-MS or LC-ICP-MS is performed only in the event that a total-mercury result approaches the published ceiling and an organomercury source is identified in the formulation.",
+          "subsumed": {
             "bounded_by": "tHg",
-            "basis_class": "speciation-bounded",
-            "regulatory_basis": "No sovereign sets a methylmercury maximum level for a laundry, fabric-care, detergent or cosmetic product; methylmercury maximum levels are scoped to fish and seafood. Methylmercury is a species of and bounded by total mercury (MeHg <= tHg) and is governed through the tHg cell of this row, which carries a published ceiling.",
-            "jurisdictions_checked": "CN NMPA 2015 cosmetics Table 2; CN GB 14930.1-2022 detergents; KR MFDS Notice 2025-63 and Notice 2024-9; DE BVL 2017; Health Canada cosmetic impurity limits; ASEAN Cosmetic Directive Annex 2019 and the MY NPRA, SG HSA, ID BPOM, TW MoHW and NZ group-standard equivalents; HK Mercury Control Ordinance Cap. 640 (cosmetics); South Africa GN R1227 (cosmetic mercury preservatives); EAEU TR CU 009/2011; EU REACH Annex XVII entries 20, 23, 47, 72 and 75; EU 2023/915 and Codex CXS 193 (fish and seafood scope only); and the sector regimes Green Seal GS-48/GS-51, EPA Safer Choice/DfE, EU Ecolabel for detergents, California SB 258 and the New York DEC cleansing-product disclosure BMP. None sets a methylmercury limit for these product forms."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "basis_label": "total nickel content of the product as placed on the market (consumer-chemical product-content basis; disclosed read-across)",
@@ -1350,5 +1298,6 @@
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "26 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 52 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat19-compiled.json"
 }

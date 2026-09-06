@@ -35,11 +35,6 @@
             "converted": true,
             "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_pb_300"
           },
-          "IL": {
-            "value": 300,
-            "converted": true,
-            "id": "il_fcs2016_pb_10_fish_and_fish_products_300"
-          },
           "MERCOSUR": {
             "value": 300,
             "converted": true,
@@ -55,7 +50,8 @@
             "converted": true,
             "id": "fj_fsr2009_pb_008_muscle_meat_of_bonito_sarda_sarda_horse_mackerel_or_scad_trachurus_tra_400"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -69,8 +65,14 @@
             "value": 100,
             "converted": true,
             "id": "eu20251891_ias_fish_other_100"
+          },
+          "CN": {
+            "value": 100,
+            "converted": true,
+            "id": "china_gb2762_2025_ias_fish_and_fish_products_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -85,142 +87,45 @@
             "converted": true,
             "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000"
           },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_9_fish_and_fish_products_1000"
-          },
           "MERCOSUR": {
             "value": 1000,
             "converted": true,
             "id": "mercosur_gmc12_2011_fish_raw_frozen_refrigerated_tas_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
-        "value": 1000,
-        "value_exact": 1000,
+        "value": 500,
+        "value_exact": 500,
         "binding_jurisdiction": "EU",
-        "binding_id": "eu2023_hg_fish_high_1000",
-        "basis_note": "face value",
+        "binding_id": "eu2023_hg_fish_general_500",
+        "basis_note": "Regulation (EU) 2023/915 Annex I 3.3.1.1 mercury in fish other than the listed species (500 ug/kg): king mackerel is not a 3.3.1.2 listed species and every tuna other than southern bluefin sits at the FSANZ Schedule 19 other-fish level (500), so the group is certified at 500; the 1000 level applies in law only to the listed tuna, swordfish, shark, marlin and sailfish (M2 adjudication 2026-09-02 (two blind Fable verifiers agreed), tightened from 1000).",
         "per_country": {
           "EU": {
-            "value": 1000,
-            "converted": true,
-            "id": "eu2023_hg_fish_high_1000"
-          },
-          "AU-NZ": {
-            "value": 1000,
-            "converted": true,
-            "id": "aunz_sch19_hg_fish_listed_1000"
-          },
-          "IN": {
-            "value": 1000,
-            "converted": true,
-            "id": "in_fssai2016_thg_004_predatory_fish_tuna_marlin_sword_fish_elasmobranch_1000"
-          },
-          "CR": {
-            "value": 1000,
-            "converted": true,
-            "id": "cr_rtcr409_2008_thg_listed_predatory_fish_1000"
-          },
-          "GY": {
-            "value": 1000,
-            "converted": true,
-            "id": "gy2023_thg_tuna_marlin_bonito_rays_tunas_ppm_1000"
-          },
-          "PA": {
-            "value": 1000,
-            "converted": true,
-            "id": "pa_res368_2009_thg_listed_fish_1000"
-          },
-          "SG": {
-            "value": 1000,
-            "converted": true,
-            "id": "sg_foodregs_2026_predatory_fish_thg_1000"
-          },
-          "PY": {
-            "value": 1000,
-            "converted": true,
-            "id": "py_decreto1335_2019_predatory_fish_thg_1000"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_thg_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_1000"
-          },
-          "MA": {
-            "value": 1000,
-            "converted": true,
-            "id": "ma_2410_2022_thg_3_3_2_chair_musculaire_des_poissons_listes_au_point_3_3_2_notamment_baudroie_1000"
-          },
-          "FJ": {
-            "value": 1000,
-            "converted": true,
-            "id": "fj_fsr2009_thg_001_sharks_all_species_tuna_thunnus_spp_little_tuna_euthynnus_spp_bonito_s_1000"
-          },
-          "MERCOSUR": {
-            "value": 1000,
-            "converted": true,
-            "id": "mercosur_gmc12_2011_predatory_fish_thg_1000"
-          },
-          "VN": {
-            "value": 1000,
-            "converted": true,
-            "id": "vn_qcvn8_2_2011_thg_frogfish-catfish-tuna-eel-cardinal-fish-cod-fl_1000"
-          },
-          "GSO": {
-            "value": 1200,
-            "converted": true,
-            "id": "gso193_2021_thg_tuna_1200"
+            "value": 500,
+            "converted": false,
+            "id": "eu2023_hg_fish_general_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "gov",
-        "value": 1000,
-        "value_exact": 1000,
-        "binding_jurisdiction": "MX",
-        "binding_id": "mx_nom242_mehg_tuna_group_1000",
-        "basis_note": "face value",
+        "value": 500,
+        "value_exact": 500,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+        "basis_note": "Hong Kong Cap 132V methylmercury in fish other than tuna, marlin and shark (500 ug/kg) governs swordfish, king mackerel and sailfish; the GB 2762-2025 predatory-fish row (1000) expressly excludes tuna, marlin and shark, so the group is certified at 500 (M2 adjudication 2026-09-02 (two blind Fable verifiers agreed), tightened from 1000).",
         "per_country": {
-          "MX": {
-            "value": 1000,
-            "converted": true,
-            "id": "mx_nom242_mehg_tuna_group_1000"
-          },
-          "TH": {
-            "value": 1000,
-            "converted": true,
-            "id": "th_moph414_2020_mehg_predator_fish_other_1000"
-          },
-          "PH": {
-            "value": 1000,
-            "converted": true,
-            "id": "ph_pns194_2017_predatory_fish_mehg_1000"
-          },
-          "TT": {
-            "value": 1000,
-            "converted": true,
-            "id": "tt_fooddrugs_2007_predatory_fish_mehg_1000"
-          },
-          "VN": {
-            "value": 1000,
-            "converted": true,
-            "id": "vn_qcvn8_2_2011_mehg_carnivorous-fish-shark-swordfish-tuna-pike-etc_1000"
-          },
-          "GSO": {
-            "value": 1200,
-            "converted": true,
-            "id": "gso193_2021_mehg_tuna_1200"
-          },
           "HK": {
-            "value": 1200,
-            "converted": true,
-            "id": "hk_cap132v_mehg_tuna_1200"
+            "value": 500,
+            "converted": false,
+            "id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -269,23 +174,20 @@
             "value": 100,
             "converted": true,
             "id": "vn_qcvn8_2_2011_cd_anchovy-tuna-two-striped-bream-eel-mullet-japa_100"
-          },
-          "IL": {
-            "value": 250,
-            "converted": true,
-            "id": "il_fcs2016_cd_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_250"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
-        "value": 2000,
-        "value_exact": 2000,
-        "source_id": "eu2024_ni_husked_rice_2000",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "eu2024_ni_babyfood_500",
         "source_jurisdiction": "EU",
-        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "label": "Read-across from Regulation (EU) 2024/1987 nickel in baby food except juices (500 ug/kg, product as placed on market): no sovereign sets a nickel maximum level for fish, crustaceans, molluscs or cephalopods, and the wet-basis baby-food row, whose scope includes fish-based foods, is the nearest same-basis instrument; the dry husked-rice row (2000) the standard previously cited is a different basis and was refuted by M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "gov",
@@ -305,17 +207,37 @@
             "converted": true,
             "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "read_across",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 10,
         "value_exact": 10,
-        "source_id": "ca_swrcb_crvi_drinking_water_10",
-        "source_jurisdiction": "US-CA",
-        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean fish passes and a chromate-contaminated sample fails.",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "parent-total",
+          "parent": "Cr",
+          "id": "hk_cap132v_crtotal_fish_1000",
+          "value": 1000,
+          "jurisdiction": "HK",
+          "scope": null,
+          "basis": null
+        },
+        "floor_cell": {
+          "type": "subsumed",
+          "value": null,
+          "subsumed_by": "Cr",
+          "binding_parent_value": 1000,
+          "binding_parent_source": "HK",
+          "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+          "candidate": null
+        },
+        "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+        "label": "Precautionary: 10 ug/kg, below the sovereign floor of 1000 ug/kg (hk_cap132v_crtotal_fish_1000). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null
       },
       "Sn": {
         "type": "read_across",
@@ -325,7 +247,8 @@
         "source_jurisdiction": "EU",
         "label": "Tin is a can-migration analyte; no government sets a tin ML for non-canned seafood (every seafood tin ML is canned/tinplate-only). Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; fresh/frozen predatory fish has no tin source and passes. Canned product is certified under the canned-seafood subcategory.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -335,7 +258,8 @@
         "source_jurisdiction": "CN",
         "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       }
     }
   },

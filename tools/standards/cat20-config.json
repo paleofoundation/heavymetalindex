@@ -137,11 +137,12 @@
           "substantiation": "This is a TOTAL-arsenic value. It does not satisfy the inorganic-arsenic cell and is not satisfied by an inorganic-arsenic determination; inorganic arsenic is separately controlled by reflex speciation on the iAs cell and is bounded by this value by identity."
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_toothpaste_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "gov_ids": [
@@ -166,14 +167,12 @@
           "substantiation": "This is a TOTAL-mercury value and it bounds the methylmercury cell by identity. The US instrument named in the candidate set, 21 CFR 700.13, is a binding adulteration rule rather than a guidance figure; it is ten times looser than the German value and does not bind."
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -263,11 +262,12 @@
           "substantiation": "TOTAL arsenic. It neither satisfies nor is satisfied by the inorganic-arsenic cell, which is separately controlled by reflex speciation and bounded by this value."
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_cosmetics_general_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "gov_ids": [
@@ -291,14 +291,12 @@
           "substantiation": "TOTAL mercury; it bounds the methylmercury cell by identity."
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -388,11 +386,12 @@
           "substantiation": "TOTAL arsenic. It neither satisfies nor is satisfied by the inorganic-arsenic cell, which is separately controlled by reflex speciation and bounded by this value."
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_cosmetics_general_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "gov_ids": [
@@ -416,14 +415,12 @@
           "substantiation": "TOTAL mercury; it bounds the methylmercury cell by identity."
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -492,11 +489,12 @@
           }
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and no jurisdiction sets an inorganic-arsenic content limit for a consumer article; every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is governed by reflex speciation off the total-arsenic control rather than by an invented ceiling.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any component (bristle/filament tuft, the metal staple or anchor wire that retains the tuft, the handle polymer, any elastomeric overmould or grip, any pad-printed or in-mould graphic, and for electric brush heads the shaft, the drive coupling and any plated or metal part) whose total-arsenic screen is confirmed above the analytical reporting limit. The inorganic fraction is held under ALARA and triggers supplier corrective action on the identified component.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "control": {
@@ -505,11 +503,12 @@
           }
         },
         "MeHg": {
-          "control": {
-            "rationale": "Methylmercury has no formation pathway in a polymer filament, elastomer, wood stick or stainless-steel component, and no jurisdiction sets a methylmercury limit for a consumer article. It is held as a control rather than registered as a speciation-bounded not-material determination because this row's total-mercury parent is itself a control with no published ceiling: a speciation-bounded claim requires a published total-element parent to bound the species against, and this row has none. Mercury is therefore governed through the total-mercury control.",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold on each component (bristle/filament tuft, the metal staple or anchor wire that retains the tuft, the handle polymer, any elastomeric overmould or grip, any pad-printed or in-mould graphic, and for electric brush heads the shaft, the drive coupling and any plated or metal part). Methylmercury speciation (GC-ICP-MS, EPA 1630) is required only where a confirmed total-mercury result cannot be traced to an inorganic input.",
-            "bounded_by": "tHg"
-          }
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "control": {
@@ -575,11 +574,12 @@
           }
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and no jurisdiction sets an inorganic-arsenic content limit for a consumer article; every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is governed by reflex speciation off the total-arsenic control rather than by an invented ceiling.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any component (the filament or yarn (PTFE, nylon or silk), the wax, flavour or fluoride coating on it, the interdental brush wire and its polymer coating, the pick or handle polymer, any wooden or bamboo stick, and any accessible metal cutter on the dispenser) whose total-arsenic screen is confirmed above the analytical reporting limit. The inorganic fraction is held under ALARA and triggers supplier corrective action on the identified component.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "control": {
@@ -588,11 +588,12 @@
           }
         },
         "MeHg": {
-          "control": {
-            "rationale": "Methylmercury has no formation pathway in a polymer filament, elastomer, wood stick or stainless-steel component, and no jurisdiction sets a methylmercury limit for a consumer article. It is held as a control rather than registered as a speciation-bounded not-material determination because this row's total-mercury parent is itself a control with no published ceiling: a speciation-bounded claim requires a published total-element parent to bound the species against, and this row has none. Mercury is therefore governed through the total-mercury control.",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold on each component (the filament or yarn (PTFE, nylon or silk), the wax, flavour or fluoride coating on it, the interdental brush wire and its polymer coating, the pick or handle polymer, any wooden or bamboo stick, and any accessible metal cutter on the dispenser). Methylmercury speciation (GC-ICP-MS, EPA 1630) is required only where a confirmed total-mercury result cannot be traced to an inorganic input.",
-            "bounded_by": "tHg"
-          }
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "control": {
@@ -658,11 +659,12 @@
           }
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and no jurisdiction sets an inorganic-arsenic content limit for a consumer article; every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is governed by reflex speciation off the total-arsenic control rather than by an invented ceiling.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any component (the jet tip and nozzle, the tip polymer and any metal insert, the handle body, the accessible housing, and every wetted water-path component (reservoir, tubing, seals, pump wetted parts)) whose total-arsenic screen is confirmed above the analytical reporting limit. The inorganic fraction is held under ALARA and triggers supplier corrective action on the identified component.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "control": {
@@ -671,11 +673,12 @@
           }
         },
         "MeHg": {
-          "control": {
-            "rationale": "Methylmercury has no formation pathway in a polymer filament, elastomer, wood stick or stainless-steel component, and no jurisdiction sets a methylmercury limit for a consumer article. It is held as a control rather than registered as a speciation-bounded not-material determination because this row's total-mercury parent is itself a control with no published ceiling: a speciation-bounded claim requires a published total-element parent to bound the species against, and this row has none. Mercury is therefore governed through the total-mercury control.",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold on each component (the jet tip and nozzle, the tip polymer and any metal insert, the handle body, the accessible housing, and every wetted water-path component (reservoir, tubing, seals, pump wetted parts)). Methylmercury speciation (GC-ICP-MS, EPA 1630) is required only where a confirmed total-mercury result cannot be traced to an inorganic input.",
-            "bounded_by": "tHg"
-          }
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "control": {
@@ -763,11 +766,12 @@
           "substantiation": "TOTAL arsenic. It neither satisfies nor is satisfied by the inorganic-arsenic cell, which is separately controlled by reflex speciation and bounded by this value."
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_cosmetics_general_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "gov_ids": [
@@ -791,14 +795,12 @@
           "substantiation": "TOTAL mercury; it bounds the methylmercury cell by identity."
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -866,11 +868,12 @@
           }
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic and no jurisdiction sets an inorganic-arsenic content limit for a consumer article; every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is governed by reflex speciation off the total-arsenic control rather than by an invented ceiling.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any component (the scraping edge and blade (stainless steel, copper alloy or polymer), the handle or loop, any plating or surface treatment, and any elastomeric grip) whose total-arsenic screen is confirmed above the analytical reporting limit. The inorganic fraction is held under ALARA and triggers supplier corrective action on the identified component.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "control": {
@@ -879,11 +882,12 @@
           }
         },
         "MeHg": {
-          "control": {
-            "rationale": "Methylmercury has no formation pathway in a polymer filament, elastomer, wood stick or stainless-steel component, and no jurisdiction sets a methylmercury limit for a consumer article. It is held as a control rather than registered as a speciation-bounded not-material determination because this row's total-mercury parent is itself a control with no published ceiling: a speciation-bounded claim requires a published total-element parent to bound the species against, and this row has none. Mercury is therefore governed through the total-mercury control.",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold on each component (the scraping edge and blade (stainless steel, copper alloy or polymer), the handle or loop, any plating or surface treatment, and any elastomeric grip). Methylmercury speciation (GC-ICP-MS, EPA 1630) is required only where a confirmed total-mercury result cannot be traced to an inorganic input.",
-            "bounded_by": "tHg"
-          }
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "control": {
@@ -952,11 +956,12 @@
           "basis_label": "finished oral-care product as placed on market (total arsenic content, ug/kg as sold) — read across from the Germany BVL 2017 toothpaste tier"
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_toothpaste_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -967,14 +972,12 @@
           "basis_label": "finished oral-care product as placed on market (total mercury content, ug/kg as sold) — read across from the Germany BVL 2017 toothpaste tier"
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -1045,11 +1048,12 @@
           "basis_label": "finished oral-care product as placed on market (total arsenic content, ug/kg as sold) — read across from the Germany BVL 2017 toothpaste tier"
         },
         "iAs": {
-          "control": {
-            "rationale": "Inorganic arsenic is the toxic fraction of total arsenic. No jurisdiction sets an inorganic-arsenic content limit for any oral-care product: every sovereign arsenic value in the cosmetic instrument family (Germany BVL 2017, Health Canada, China NMPA 2015, Korea MFDS, Taiwan MOHW, ASEAN and its national transpositions, Kenya KS 2937, EAEU TR CU 009/2011) is a TOTAL-arsenic value, and every sovereign inorganic-arsenic maximum level in the register is a food, feed or fertiliser commodity value on a dietary or dry-matter basis (rice and rice products, fish and other marine products, fruit juice, milk and dairy, meat and offal, sugar, edible salt, edible oils and fats, gelatine and collagen, pet food, and the EU fertilising-product classes), and not one is scoped to a cosmetic, an oral-care product or a consumer article. The cell is therefore held under reflex speciation rather than given an invented ceiling; inorganic arsenic cannot exceed total arsenic by identity, so the published total-arsenic value (500 ug/kg) is its upper bound.",
-            "reference_method": "Reflex HPLC-ICP-MS inorganic-arsenic speciation on any lot whose total-arsenic screen exceeds 50% of the published total-arsenic value. The inorganic fraction is held under ALARA against the tightest available context and any unexplained inorganic arsenic triggers supplier corrective action on the abrasive, clay, mineral-pigment or botanical-extract input that carries it.",
-            "companion_ml": "de_bvl2017_tas_toothpaste_500"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -1060,14 +1064,12 @@
           "basis_label": "finished oral-care product as placed on market (total mercury content, ug/kg as sold) — read across from the Germany BVL 2017 toothpaste tier"
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is formed by microbial methylation in aquatic systems and bioaccumulates in fish muscle. A dentifrice, rinse, whitening or denture-care matrix has no methylating microbial community and no marine input; the mercury sources that reach this category are mineral-abrasive, clay and pigment impurities, which are inorganic. Methylmercury is a species of total mercury and cannot exceed it (MeHg <= tHg), so any mercury present is governed by and bounded by the published total-mercury ceiling of 100 ug/kg on this row.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury screen by microwave-assisted closed-vessel acid digestion (HNO3/H2O2) with ICP-MS determination, reported as ug/kg of product as sold or CV-AAS. No separate methylmercury determination is required for an oral-care matrix; any lot above 50% of the total-mercury ceiling is investigated to its mercury source before release.",
-            "regulatory_basis": "No jurisdiction sets a methylmercury limit for any oral-care or cosmetic product. Every sovereign methylmercury maximum level in the register is scoped to fish and seafood. The applicable oral-care mercury instrument (Germany BVL 2017 toothpaste tier, 100 ug/kg) is a TOTAL-mercury value, and it bounds methylmercury by identity.",
-            "jurisdictions_checked": "Germany BVL 2017 (toothpaste and general-cosmetic tiers); US FDA 21 CFR 700.13; Washington State Toxics-Free Cosmetics Act; Health Canada Guidance on Heavy Metal Impurities in Cosmetics; China NMPA 2015 Safety and Technical Standards; Korea MFDS Notice 2024-9 and Notice 2025-63; Taiwan MOHW 2024; ASEAN Cosmetic Directive 2019 and the Indonesian (BPOM 16/2024), Malaysian (NPRA 2022), Singaporean (HSA 2024) and Thai transpositions; India Cosmetics Rules 2020; Kenya KS 2937:2021; EAEU TR CU 009/2011 — none sets a methylmercury value."
-          }
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
           "read_across": {
@@ -1104,5 +1106,6 @@
       },
       "provisional_scaffold": true
     }
-  }
+  },
+  "_harvest_2026_09_02": "20 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 49 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat20-compiled.json"
 }

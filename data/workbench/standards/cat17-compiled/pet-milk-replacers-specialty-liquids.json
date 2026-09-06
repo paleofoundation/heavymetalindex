@@ -13,13 +13,18 @@
         "human_grade": true,
         "value": 20,
         "value_exact": 20,
-        "source_id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
-        "source_jurisdiction": "IN",
+        "source_id": "china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20",
+        "source_jurisdiction": "CN",
         "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
-        "analog_scope": "Secondary milk products (as consumed)",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the liquid milk and dairy products sold for human consumption (as consumed) (IN, 20 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Raw milk, pasteurized milk and sterilized milk (GB 2762-2025 Table 1, item 10.2)",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the liquid milk and dairy products sold for human consumption (as consumed) (CN, 20 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "CN": {
+            "value": 20,
+            "converted": false,
+            "id": "china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20"
+          },
           "IN": {
             "value": 20,
             "converted": false,
@@ -49,11 +54,6 @@
             "value": 20,
             "converted": false,
             "id": "py_decreto1335_2019_fluid_milk_dairy_no_addition_pb_20"
-          },
-          "IL": {
-            "value": 20,
-            "converted": false,
-            "id": "il_fcs2016_pb_1_1_dairy_products_20"
           },
           "MERCOSUR": {
             "value": 20,
@@ -87,16 +87,9 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_pb_formula_5000",
-            "scope": "compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -114,11 +107,6 @@
             "value": 50,
             "converted": false,
             "id": "py_decreto1335_2019_fluid_milk_dairy_no_addition_cd_50"
-          },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_cd_1_1_dairy_products_50"
           },
           "MERCOSUR": {
             "value": 50,
@@ -147,16 +135,9 @@
             "scope": "complete feed for pet animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_cd_all_2000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
@@ -184,11 +165,6 @@
             "value": 500,
             "converted": false,
             "id": "vn_qcvn8_2_2011_tas_fluid-milk-products_500"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_1_1_dairy_products_1000"
           }
         },
         "feed_floor": [
@@ -199,41 +175,19 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_tas_non_aquatic_formula_2000",
-            "scope": "non-aquatic/non-algae compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "iAs": {
-        "type": "control",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "The strictest sovereign total-arsenic ceiling for dairy is tighter than any separate sovereign inorganic-arsenic dairy maximum, so total arsenic is the binding ceiling and the inorganic fraction is controlled beneath it by reflex speciation: total arsenic is measured on every lot, and an elevated total-arsenic result triggers inorganic-arsenic speciation.",
-        "reference_method": "Total As by ICP-MS; inorganic As by HPLC-ICP-MS (EN 16802) on an elevated total-As result.",
+        "subsumed_by": "tAs",
         "bounded_by": "tAs",
-        "feed_floor": [
-          {
-            "jurisdiction": "JP",
-            "value": 2000,
-            "id": "jp_petfood_2021_ias_2000",
-            "scope": "pet food",
-            "instrument": "feed maximum level",
-            "status": "statutory limit"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_ias_aquatic_algae_2000",
-            "scope": "pet feed containing aquatic animals/products or algae/products",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "binding_total": 50,
+        "basis_class": "speciation-bounded",
+        "rationale": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (50 ug/kg); no separate iAs ceiling is published. iAs is speciated whenever tAs exceeds its reflex trigger."
       },
       "tHg": {
         "type": "read_across",
@@ -256,11 +210,6 @@
             "value": 50,
             "converted": false,
             "id": "vn_qcvn8_2_2011_thg_fluid-milk-products_50"
-          },
-          "IL": {
-            "value": 100,
-            "converted": false,
-            "id": "il_fcs2016_thg_1_1_dairy_products_100"
           }
         },
         "feed_floor": [
@@ -271,24 +220,19 @@
             "scope": "compound feed for dogs, cats, ornamental fish and fur animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 300,
-            "id": "cn_petfood_draft_thg_all_300",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "There is no methylmercury bioaccumulation pathway in dairy; bounded by total mercury, measured on every lot.",
-        "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only on an elevated total-Hg result.",
+        "subsumed_by": "tHg",
         "bounded_by": "tHg",
-        "feed_floor": null
+        "binding_total": 10,
+        "basis_class": "speciation-bounded",
+        "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (10 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
       },
       "Ni": {
         "type": "read_across",
@@ -302,15 +246,23 @@
         "label": "Human-grade read-across from the EU liquid milk-based formula nickel maximum (100 µg/kg, as consumed) where no general liquid-milk nickel maximum exists — the nearest human-food milk-matrix nickel limit.",
         "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
         "per_country": {},
-        "feed_floor": null
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Tin is a packaging-migration analyte; non-tin-coated liquid milk replacers have no intrinsic tin pathway. A tin-coated pack is certified under the canned-wet tin read-across.",
-        "reference_method": "Total Sn by ICP-MS; packaging declaration; any quantifiable tin triggers a packaging investigation.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
+        "analog_scope": "any food",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -324,38 +276,33 @@
         "label": "Human-grade read-across from the AU-NZ non-soy milk-based formula aluminium maximum (500 µg/kg, as consumed) where no general liquid-milk aluminium maximum exists — the nearest human-food milk-matrix aluminium limit.",
         "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
         "per_country": {},
-        "feed_floor": null
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "read_across",
         "human_grade": true,
         "value": 300,
         "value_exact": 300,
-        "source_id": "china_gb2762_cr_liquid_milk_300",
+        "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
         "source_jurisdiction": "CN",
-        "analog_label": "China GB 2762 total-chromium maximum for liquid milk",
-        "analog_scope": "raw, pasteurized, sterilized, modified and fermented milk (GB 2762-2022 Table 7, section 4.7); total Cr, not Cr-VI",
-        "label": "Human-grade read-across from China's GB 2762 total-chromium maximum for liquid milk (300 µg/kg, as consumed) — the nearest human-food milk-matrix total-chromium limit, and the value the human dairy standard adopts.",
+        "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
+        "analog_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+        "label": "GB 2762-2025 total chromium in liquid milk (300 ug/kg), the human-food maximum level for the dairy fraction (Cat-17 certifies to the strictest human-food ML); successor of the superseded GB 2762-2022 row the standard cited.",
         "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
         "per_country": {},
-        "feed_floor": [
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_crtotal_all_5000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Hexavalent chromium reduces to Cr(III) in the milk matrix; bounded by total chromium, measured on every lot.",
-        "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 on a total-Cr exceedance.",
+        "subsumed_by": "Cr",
         "bounded_by": "Cr",
-        "feed_floor": null
+        "binding_total": 300,
+        "basis_class": "speciation-bounded",
+        "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (300 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
       }
     }
   },

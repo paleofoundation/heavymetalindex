@@ -5,7 +5,19 @@
   "category": 29,
   "category_name": "Edible Fungi",
   "lineage": "Cat-29 government-limit-default compile (HMTc Method v2.0). Anchors: EU Reg. 2023/915 (wild fungi Pb 800 / Cd 500; cultivated fungi Pb 300 / Cd 50; oyster+shiitake Cd 150), Switzerland VHK 2026 (wilde Pilze Pb 800 / Cd 500; Agaricus bisporus Cd 50), MERCOSUR GMC 12/2011 and Paraguay Decreto 1335/2019 (Agaricus/Pleurotus/Lentinula tAs 300), Israel FCS-2016 (fruits and vegetables including mushrooms: tHg 30 / iAs 60 / tAs 1000). Cultivated-cadmium split (common Cd 50 vs oyster/shiitake Cd 150 → cultivated-mushrooms-oyster-shiitake) ratified 2026-08-13 per OI-20260813-cultivated-mushroom-cd-split.",
-  "panel": ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"],
+  "panel": [
+    "Pb",
+    "iAs",
+    "tAs",
+    "tHg",
+    "MeHg",
+    "Cd",
+    "Cr-VI",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr"
+  ],
   "default_read_across": {
     "Ni": {
       "control_only": true,
@@ -86,7 +98,66 @@
         "cantharel",
         "\\bcanned",
         "\\btoy"
-      ]
+      ],
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_fruiting_veg_400",
+          "label": "Surveillance read-across (not a fungi government limit): no credible sovereign sets a nickel maximum level for edible fungi in any jurisdiction — the EU 2024/1987 nickel regulation enumerates tree nuts, vegetables (incl. herbs/seaweed), legumes, oilseeds, cocoa, baby food, and juices but deliberately does not list fungi. HMTc nonetheless publishes a documented nickel surveillance ceiling by disclosed read-across from the nearest applicable sovereign value, the EU 2024/1987 fruiting-vegetable nickel ML (400 ug/kg, wet weight), rather than leaving nickel with no numeric ceiling. This is a surveillance value on the honest read-across basis, not a claimed sovereign fungi limit.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|cultivated-mushrooms|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "wild-mushrooms": {
       "name": "Wild mushrooms (foraged fungi — porcini/boletus, chanterelle, morel, wild Agaricus, other wild species)",
@@ -115,16 +186,85 @@
         "\\btoy"
       ],
       "analyte_scope": {
-        "tHg": { "include": ["including mushrooms"] },
-        "iAs": { "include": ["including mushrooms"] },
-        "tAs": { "include": ["including mushrooms"] }
+        "tHg": {
+          "include": [
+            "including mushrooms"
+          ]
+        },
+        "iAs": {
+          "include": [
+            "including mushrooms"
+          ]
+        },
+        "tAs": {
+          "include": [
+            "including mushrooms"
+          ]
+        }
       },
       "read_across": {
         "MeHg": {
-          "control_only": true,
-          "bounded_by": "tHg",
-          "control": "Wild fungi DO have a mercury-methylation pathway and are documented mercury hyperaccumulators, so methylmercury is not dismissed as not-material for this subcategory. However, no government sets a methylmercury ML for any fungi in any jurisdiction; the methylmercury fraction is controlled by and bounded by the total-mercury ceiling for wild mushrooms (Israel FCS-2016 mushrooms tHg 30 ug/kg). No methylmercury ML exists to look up, and occurrence cannot supply the number.",
-          "reference_method": "MeHg by GC-ICP-MS / EN 16801 on any wild-mushroom lot whose total mercury approaches the tHg ceiling; wild-fungi methylmercury can be a material fraction of a high total-mercury result and must be characterised on elevated lots."
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Ni": {
+          "source_id": "eu2024_ni_fruiting_veg_400",
+          "label": "Surveillance read-across (not a fungi government limit): no credible sovereign sets a nickel maximum level for edible fungi in any jurisdiction — the EU 2024/1987 nickel regulation enumerates tree nuts, vegetables (incl. herbs/seaweed), legumes, oilseeds, cocoa, baby food, and juices but deliberately does not list fungi. HMTc nonetheless publishes a documented nickel surveillance ceiling by disclosed read-across from the nearest applicable sovereign value, the EU 2024/1987 fruiting-vegetable nickel ML (400 ug/kg, wet weight), rather than leaving nickel with no numeric ceiling. This is a surveillance value on the honest read-across basis, not a claimed sovereign fungi limit.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
+        },
+        "tAs": {
+          "source_id": "sg_foodregs_2026_other_food_tas_1000",
+          "basis": "gov",
+          "label": "SG general-food maximum level (other food not specified in the Tenth Schedule)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → sg_foodregs_2026_other_food_tas_1000"
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|wild-mushrooms|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -162,9 +302,73 @@
       ],
       "analyte_scope": {
         "Cd": {
-          "exclude": ["\\bexcept\\b", "osim", "bisporus"]
+          "exclude": [
+            "\\bexcept\\b",
+            "osim",
+            "bisporus"
+          ]
+        }
+      },
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_fruiting_veg_400",
+          "label": "Surveillance read-across (not a fungi government limit): no credible sovereign sets a nickel maximum level for edible fungi in any jurisdiction — the EU 2024/1987 nickel regulation enumerates tree nuts, vegetables (incl. herbs/seaweed), legumes, oilseeds, cocoa, baby food, and juices but deliberately does not list fungi. HMTc nonetheless publishes a documented nickel surveillance ceiling by disclosed read-across from the nearest applicable sovereign value, the EU 2024/1987 fruiting-vegetable nickel ML (400 ug/kg, wet weight), rather than leaving nickel with no numeric ceiling. This is a surveillance value on the honest read-across basis, not a claimed sovereign fungi limit.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
+        },
+        "MeHg": {
+          "subsumed": {
+            "bounded_by": "tHg",
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr-VI": {
+          "subsumed": {
+            "bounded_by": "Cr",
+            "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "iAs": {
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
+        },
+        "tHg": {
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "basis": "gov",
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|cultivated-mushrooms-oyster-shiitake|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "18 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat29-compiled.json"
 }

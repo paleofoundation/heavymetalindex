@@ -53,8 +53,9 @@ function splitCsvLine(line) {
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 
 // --- status / basis gates (systemic; mirror compile-cat1.mjs) -----------------
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./provenance.mjs"
+import { STATUS_GATE } from "./register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
 // Canned/tinplate in the register's source languages: tin migrates from the can, so those limits govern
@@ -183,7 +184,7 @@ export function makeEngine(registerPath) {
       const src = byId.get(ra.source_id)
       if (!src) return { analyte, provenance: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
       const v = num(src.value_ug_kg)
-      return { analyte, provenance: "read-across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id, source_jurisdiction: src.jurisdiction, source_scope: src.product_scope, binding_page: src.regulation_page, binding_url: src.url, label: ra.label || `read-across from ${src.jurisdiction} (${src.product_scope})`, not_detectable: notDetectable(src.notes) }
+      return { analyte, provenance: "read-across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id, source_jurisdiction: src.jurisdiction, basis: src.basis || null, source_scope: src.product_scope, binding_page: src.regulation_page, binding_url: src.url, label: ra.label || `read-across from ${src.jurisdiction} (${src.product_scope})`, not_detectable: notDetectable(src.notes) }
     }
     if (spec.form_split) {
       const forms = []
@@ -243,6 +244,17 @@ export function makeEngine(registerPath) {
       if (!sub) { records.push({ slug, error: "no config for slug" }); continue }
       const cells = {}
       for (const a of PANEL) cells[a] = resolveCell(sub, a)
+      // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) with no in-force sovereign or read-across
+      // number of its own is bounded by its firm parent total (species <= total), never left as a gap.
+      for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+        if (!PANEL.includes(sp)) continue
+        const t = cells[tot], c = cells[sp]
+        const tv = t && typeof t.value === "number" ? t.value : null
+        if (tv == null || !(!c || c.cell_kind === "gap" || c.provenance === "gap" || c.error)) continue
+        cells[sp] = { analyte: sp, provenance: "subsumed", cell_kind: "subsumed", type: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
+          label: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${totName[0].toUpperCase() + totName.slice(1)} is measured on every lot; ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+      }
+      stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
       records.push({
         slug, name: sub.name, category: config.category, category_name: config.category_name,
         native_basis: sub.native_basis, native_basis_label: sub.native_basis_label,
@@ -284,7 +296,7 @@ export function runCli({ repo, configPath, defaultOutdir }) {
   }
 
   // VERIFY: provenance-tag legality, cell coverage, form_split id integrity, not-material registration.
-  const ALLOWED = new Set(["regulatory-alignment", "read-across", "not-material", "control"])
+  const ALLOWED = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
   const verify = { illegal_tags: [], gaps: [], unregistered_not_material: [], forms_with_errors: [] }
   const nmRegPath = path.join(repo, "data/evidence/standards-not-material.csv")
   const nmReg = fs.existsSync(nmRegPath) ? parseCsv(fs.readFileSync(nmRegPath, "utf8")) : []

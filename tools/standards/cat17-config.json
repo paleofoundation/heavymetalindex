@@ -1,14 +1,38 @@
 {
   "_doc": "Category 17 (Pet Foods) compiler config for compile-cat17.mjs. THE KEY DECISION: pet food is legally FEED (EU Directive 2002/32, FDA CVM guidance, AAFCO model regulations, Japan's enforced pet-food maxima, China's draft pet-food guidance), whose heavy-metal limits are generally LAXER than human food. HMTc deliberately overrides the feed floor and certifies each (subcategory, analyte) to the strictest applicable HUMAN-FOOD sovereign maximum for the nearest human-food analog, as a voluntary over-compliance. Every value is therefore a `read_across` with human_grade:true — never a `gov` cell, because no government sets this maximum for a pet product. The applicable feed-law floor is looked up from the register and disclosed on every cell (feed_floor) so the derivation states honestly: feed law permits X; HMTc certifies pets to the stricter human-food limit Y. Basis is never conflated: dry (as_sold) products read across only from dry human analogs; wet (as_consumed) products only from as_consumed analogs; no wet/dry conversion is performed.",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
   "feed_law_note": "Pet food is legally governed by feed law — EU Directive 2002/32/EC on undesirable substances in animal feed, FDA Center for Veterinary Medicine guidance, and AAFCO model regulations — whose maximum levels are generally laxer than the corresponding human-food limits. Japan (FAMIC pet-food standard) and China (draft pet-food guidance) set enforced or proposed pet-food maxima in the same lax range. The HMTc standard for each analyte is not the feed limit: it is the strictest applicable human-food sovereign maximum for the nearest human-food analog, adopted as a voluntary human-grade over-compliance. The feed floor is disclosed on every row and never selects the number.",
   "default_feed_floor": {
-    "Pb": ["eu2002_32_pb_complete_feed_5000", "jp_petfood_2021_pb_3000", "cn_petfood_draft_pb_formula_5000"],
-    "Cd": ["eu2002_32_cd_complete_pet_feed_2000", "jp_petfood_2021_cd_1000", "cn_petfood_draft_cd_all_2000"],
-    "tAs": ["eu2002_32_tas_complete_feed_2000", "cn_petfood_draft_tas_non_aquatic_formula_2000"],
-    "iAs": ["jp_petfood_2021_ias_2000", "cn_petfood_draft_ias_aquatic_algae_2000"],
-    "tHg": ["eu2002_32_thg_compound_feed_pet_fur_300", "cn_petfood_draft_thg_all_300"],
-    "Cr": ["cn_petfood_draft_crtotal_all_5000"]
+    "Pb": [
+      "eu2002_32_pb_complete_feed_5000",
+      "jp_petfood_2021_pb_3000"
+    ],
+    "Cd": [
+      "eu2002_32_cd_complete_pet_feed_2000",
+      "jp_petfood_2021_cd_1000"
+    ],
+    "tAs": [
+      "eu2002_32_tas_complete_feed_2000"
+    ],
+    "iAs": [
+      "jp_petfood_2021_ias_2000"
+    ],
+    "tHg": [
+      "eu2002_32_thg_compound_feed_pet_fur_300"
+    ],
+    "Cr": []
   },
   "profiles": {
     "dry-plant-composite": {
@@ -16,17 +40,73 @@
       "native_basis": "as_sold",
       "canned": false,
       "scope_include": [
-        "\\bcereal", "cereal grains", "processed cereals", "\\bgrain", "\\bwheat", "\\boat", "barley",
-        "\\bmaize", "\\bcorn\\b", "sorghum", "\\bmillet", "\\brye\\b", "buckwheat", "\\brice\\b",
-        "pulses", "\\blegume", "lentil", "chickpea", "\\bpotato", "root and tuber", "roots and tuber", "tuber vegetables"
+        "\\bcereal",
+        "cereal grains",
+        "processed cereals",
+        "\\bgrain",
+        "\\bwheat",
+        "\\boat",
+        "barley",
+        "\\bmaize",
+        "\\bcorn\\b",
+        "sorghum",
+        "\\bmillet",
+        "\\brye\\b",
+        "buckwheat",
+        "\\brice\\b",
+        "pulses",
+        "\\blegume",
+        "lentil",
+        "chickpea",
+        "\\bpotato",
+        "root and tuber",
+        "roots and tuber",
+        "tuber vegetables"
       ],
       "scope_exclude": [
-        "infant", "baby", "young child", "young-child", "toddler", "follow-on", "follow-up", "weaning",
-        "destined for", "production of food for", "under 2", "\\bdrink", "beverage", "\\bjuice", "milk",
-        "\\bwine", "brandy", "\\bbeer", "waffle", "\\btoy", "paint", "surface coat", "sticker", "jewel",
-        "crayon", "pencil", "money box", "cocoa", "chocolate", "cacao", "\\bfish", "seafood", "mollus",
-        "crustac", "seaweed", "\\balgae", "supplement", "\\boil\\b", "oils of", "cotton", "leguminous vegetables",
-        "canned", "tinplate"
+        "infant",
+        "baby",
+        "young child",
+        "young-child",
+        "toddler",
+        "follow-on",
+        "follow-up",
+        "weaning",
+        "destined for",
+        "production of food for",
+        "under 2",
+        "\\bdrink",
+        "beverage",
+        "\\bjuice",
+        "milk",
+        "\\bwine",
+        "brandy",
+        "\\bbeer",
+        "waffle",
+        "\\btoy",
+        "paint",
+        "surface coat",
+        "sticker",
+        "jewel",
+        "crayon",
+        "pencil",
+        "money box",
+        "cocoa",
+        "chocolate",
+        "cacao",
+        "\\bfish",
+        "seafood",
+        "mollus",
+        "crustac",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "\\boil\\b",
+        "oils of",
+        "cotton",
+        "leguminous vegetables",
+        "canned",
+        "tinplate"
       ],
       "read_across": {
         "iAs": {
@@ -82,13 +162,48 @@
       "native_basis": "as_consumed",
       "canned": false,
       "scope_include": [
-        "meat of", "muscle meat", "\\bmeat\\b", "poultry", "\\bbeef", "\\bpork\\b", "\\bbovine", "\\bpig\\b",
-        "\\bcattle", "\\bsheep", "edible offal", "\\boffal", "\\bliver\\b", "\\bkidney"
+        "meat of",
+        "muscle meat",
+        "\\bmeat\\b",
+        "poultry",
+        "\\bbeef",
+        "\\bpork\\b",
+        "\\bbovine",
+        "\\bpig\\b",
+        "\\bcattle",
+        "\\bsheep",
+        "edible offal",
+        "\\boffal",
+        "\\bliver\\b",
+        "\\bkidney"
       ],
       "scope_exclude": [
-        "infant", "baby", "young child", "toddler", "follow-on", "under 2", "\\bfish", "seafood", "mollus",
-        "crustac", "\\bcrab", "shrimp", "prawn", "bonito", "sardin", "\\btuna", "canned", "tinplate",
-        "tin-coated", "corned", "luncheon", "\\bmeal\\b", "supplement", "\\bfeed", "\\boil\\b", "meat and bone"
+        "infant",
+        "baby",
+        "young child",
+        "toddler",
+        "follow-on",
+        "under 2",
+        "\\bfish",
+        "seafood",
+        "mollus",
+        "crustac",
+        "\\bcrab",
+        "shrimp",
+        "prawn",
+        "bonito",
+        "sardin",
+        "\\btuna",
+        "canned",
+        "tinplate",
+        "tin-coated",
+        "corned",
+        "luncheon",
+        "\\bmeal\\b",
+        "supplement",
+        "\\bfeed",
+        "\\boil\\b",
+        "meat and bone"
       ],
       "read_across": {
         "iAs": {
@@ -148,10 +263,22 @@
       "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
       "native_basis": "as_consumed",
       "canned": false,
-      "scope_include": ["\\bfish\\b", "fishery", "aquatic"],
+      "scope_include": [
+        "\\bfish\\b",
+        "fishery",
+        "aquatic"
+      ],
       "scope_exclude": [
-        "fish, crustaceans, and mollusc", "\\bfeed\\b", "aquatic animals", "derived thereof", "\\boil",
-        "fats and oil", "infant", "baby", "canned", "tinplate",
+        "fish, crustaceans, and mollusc",
+        "\\bfeed\\b",
+        "aquatic animals",
+        "derived thereof",
+        "\\boil",
+        "fats and oil",
+        "infant",
+        "baby",
+        "canned",
+        "tinplate",
         "^(?!.*(lower|except|excluding|other than|exception|in general|\\bgeneral\\b)).*(predator|carnivorous|higher.?mercury|\\btuna\\b|\\bshark|swordfish|\\bmarlin\\b|sailfish|\\bpike\\b|elasmobranch|billfish|\\bbonito\\b|halibut|sturgeon|kingfish|\\bdogfish|snake mackerel|orange roughy|gemfish|barramundi|\\brays?\\b|scabbard|hairtail|\\bsierra\\b|alfonsino)"
       ],
       "read_across": {
@@ -186,20 +313,48 @@
         }
       },
       "feed_floor": {
-        "tHg": ["eu2002_32_thg_fish_aquatic_pet_fur_compound_1000", "cn_petfood_draft_thg_all_300"],
-        "tAs": ["eu2002_32_tas_complete_pet_fish_seaweed_10000", "cn_petfood_draft_tas_aquatic_algae_10000"],
-        "iAs": ["cn_petfood_draft_ias_aquatic_algae_2000"]
+        "tHg": [
+          "eu2002_32_thg_fish_aquatic_pet_fur_compound_1000"
+        ],
+        "tAs": [
+          "eu2002_32_tas_complete_pet_fish_seaweed_10000"
+        ],
+        "iAs": []
       }
     },
     "dairy-milk": {
       "analog_label": "liquid milk and dairy products sold for human consumption (as consumed)",
       "native_basis": "as_consumed",
       "canned": false,
-      "scope_include": ["raw milk", "fluid milk", "liquid milk", "dairy products", "secondary milk products", "milk and secondary milk products"],
+      "scope_include": [
+        "raw milk",
+        "fluid milk",
+        "liquid milk",
+        "dairy products",
+        "secondary milk products",
+        "milk and secondary milk products"
+      ],
       "scope_exclude": [
-        "powder", "formula", "infant", "baby", "young child", "toddler", "follow-on", "follow-up",
-        "cheese", "\\bcream", "condensed", "evaporated", "fermented", "yogurt", "yoghurt", "milk chocolate",
-        "tin-coated", "in tins", "canned", "tinplate"
+        "powder",
+        "formula",
+        "infant",
+        "baby",
+        "young child",
+        "toddler",
+        "follow-on",
+        "follow-up",
+        "cheese",
+        "\\bcream",
+        "condensed",
+        "evaporated",
+        "fermented",
+        "yogurt",
+        "yoghurt",
+        "milk chocolate",
+        "tin-coated",
+        "in tins",
+        "canned",
+        "tinplate"
       ],
       "read_across": {
         "iAs": {
@@ -213,11 +368,6 @@
           "source_id": "eu2024_ni_formula_liquid_100",
           "analog_label": "EU liquid infant/young-child formula nickel maximum",
           "label": "Human-grade read-across from the EU liquid milk-based formula nickel maximum (100 µg/kg, as consumed) where no general liquid-milk nickel maximum exists — the nearest human-food milk-matrix nickel limit."
-        },
-        "Cr": {
-          "source_id": "china_gb2762_cr_liquid_milk_300",
-          "analog_label": "China GB 2762 total-chromium maximum for liquid milk",
-          "label": "Human-grade read-across from China's GB 2762 total-chromium maximum for liquid milk (300 µg/kg, as consumed) — the nearest human-food milk-matrix total-chromium limit, and the value the human dairy standard adopts."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",
@@ -242,6 +392,11 @@
           "bounded_by": "tHg",
           "control": "There is no methylmercury bioaccumulation pathway in dairy; bounded by total mercury, measured on every lot.",
           "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only on an elevated total-Hg result."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "label": "GB 2762-2025 total chromium in liquid milk (300 ug/kg), the human-food maximum level for the dairy fraction (Cat-17 certifies to the strictest human-food ML); successor of the superseded GB 2762-2022 row the standard cited.",
+          "reanchor_note": "2026-09-02: GB 2762-2022 superseded; successor china_gb2762_2025_crtotal_liquid_milk_300"
         }
       }
     },
@@ -251,17 +406,73 @@
       "canned": false,
       "feed_law_note": "This subcategory covers a precision-fermented / single-cell / cultured PROTEIN INGREDIENT (spray-dried, heat-inactivated microbial biomass, e.g. Saccharomyces cerevisiae expressing an animal-identical protein) sold as a constituent of pet food. It is legally FEED (FDA CVM review, AAFCO, EU Directive 2002/32). Two read-across facts set the number honestly. First, a single-cell-protein biomass is not contamination-free by construction: anionic cell-wall groups biosorb Pb/Cd/Ni/Cr, arsenate is actively imported through the yeast phosphate transporters, and the metal load tracks the fermentation feedstock (plant sugars/molasses) and the mineral/trace-element premix — so Cd, Pb, and inorganic arsenic are real, load-bearing risks and are never marked not-material. Second, the strictest applicable HUMAN-FOOD analog on a dry as-sold basis is the plant-protein fraction (cereals, pulses, legumes), the same strict analog set the finished pet food already reads across; adopting it (rather than the looser same-class spec) keeps the ingredient limit at least as strict as any finished food it enters (Method v2.0 strictest-applicable rule, and the anti-circumvention guardrail against a looser ingredient tier laundering into a stricter finished food). The resulting toxic ceilings (Pb 20, Cd 40, tAs 100, iAs 100, tHg 20 ug/kg) are stricter on every toxic than the only governed same-class human-food spec, the EU novel-food Yarrowia lipolytica yeast-biomass Union-list contaminant limits (Pb 100, Cd 100, As 150, Hg 100 ug/kg; Reg (EU) 2019/760 amending 2017/2470), which is disclosed as the corroborating over-compliance floor and never selects the number. The applicable feed floor is disclosed on every row and never selects the number.",
       "scope_include": [
-        "\\bcereal", "cereal grains", "processed cereals", "\\bgrain", "\\bwheat", "\\boat", "barley",
-        "\\bmaize", "\\bcorn\\b", "sorghum", "\\bmillet", "\\brye\\b", "buckwheat", "\\brice\\b",
-        "pulses", "\\blegume", "lentil", "chickpea", "\\bpotato", "root and tuber", "roots and tuber", "tuber vegetables"
+        "\\bcereal",
+        "cereal grains",
+        "processed cereals",
+        "\\bgrain",
+        "\\bwheat",
+        "\\boat",
+        "barley",
+        "\\bmaize",
+        "\\bcorn\\b",
+        "sorghum",
+        "\\bmillet",
+        "\\brye\\b",
+        "buckwheat",
+        "\\brice\\b",
+        "pulses",
+        "\\blegume",
+        "lentil",
+        "chickpea",
+        "\\bpotato",
+        "root and tuber",
+        "roots and tuber",
+        "tuber vegetables"
       ],
       "scope_exclude": [
-        "infant", "baby", "young child", "young-child", "toddler", "follow-on", "follow-up", "weaning",
-        "destined for", "production of food for", "under 2", "\\bdrink", "beverage", "\\bjuice", "milk",
-        "\\bwine", "brandy", "\\bbeer", "waffle", "\\btoy", "paint", "surface coat", "sticker", "jewel",
-        "crayon", "pencil", "money box", "cocoa", "chocolate", "cacao", "\\bfish", "seafood", "mollus",
-        "crustac", "seaweed", "\\balgae", "supplement", "\\boil\\b", "oils of", "cotton", "leguminous vegetables",
-        "canned", "tinplate"
+        "infant",
+        "baby",
+        "young child",
+        "young-child",
+        "toddler",
+        "follow-on",
+        "follow-up",
+        "weaning",
+        "destined for",
+        "production of food for",
+        "under 2",
+        "\\bdrink",
+        "beverage",
+        "\\bjuice",
+        "milk",
+        "\\bwine",
+        "brandy",
+        "\\bbeer",
+        "waffle",
+        "\\btoy",
+        "paint",
+        "surface coat",
+        "sticker",
+        "jewel",
+        "crayon",
+        "pencil",
+        "money box",
+        "cocoa",
+        "chocolate",
+        "cacao",
+        "\\bfish",
+        "seafood",
+        "mollus",
+        "crustac",
+        "seaweed",
+        "\\balgae",
+        "supplement",
+        "\\boil\\b",
+        "oils of",
+        "cotton",
+        "leguminous vegetables",
+        "canned",
+        "tinplate"
       ],
       "read_across": {
         "iAs": {
@@ -316,59 +527,282 @@
   "subcategories": {
     "pet-food-dry-kibble": {
       "name": "Complete & balanced dry (kibble)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-dry-kibble|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-food-canned-wet": {
       "name": "Complete & balanced canned/wet",
       "profile": "wet-meat-composite",
       "canned": true,
       "analyte_scope": {
-        "Sn": { "exclude": ["cured", "corned", "luncheon", "chopped meat", "pork shoulder", "other container", "tinplate"] }
+        "Sn": {
+          "exclude": [
+            "cured",
+            "corned",
+            "luncheon",
+            "chopped meat",
+            "pork shoulder",
+            "other container",
+            "tinplate"
+          ]
+        }
       },
       "read_across": {
         "Sn": {
           "source_id": "eu2023_sn_canned_foods_200000",
           "analog_label": "EU canned-food tin maximum (canned foods other than beverages)",
           "label": "Human-grade read-across from the strictest general canned-food tin maximum that matches the container (EU 200,000 µg/kg for canned foods other than beverages, as consumed). Tin is material for canned wet pet food because it migrates from the tin-coated can, exactly as for canned human food; the cured-meat non-tinplate tin limits are a different container class and are not applied to a tin-canned product."
+        },
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-canned-wet|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
     "pet-food-semi-moist": {
       "name": "Semi-moist pet foods",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-semi-moist|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-food-raw": {
       "name": "Raw pet foods (frozen/chilled raw diets)",
-      "profile": "wet-meat-composite"
+      "profile": "wet-meat-composite",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-raw|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-food-freeze-dried": {
       "name": "Freeze-dried / dehydrated pet foods (including freeze-dried raw)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-freeze-dried|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-treats-snacks": {
       "name": "Pet treats / snacks",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-treats-snacks|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-chews-dental": {
       "name": "Pet chews (including dental chews)",
-      "profile": "dry-plant-composite"
+      "profile": "dry-plant-composite",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-chews-dental|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-toppers-mixers-broths": {
       "name": "Toppers / mixers / broths",
-      "profile": "wet-meat-composite"
+      "profile": "wet-meat-composite",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-toppers-mixers-broths|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "pet-milk-replacers-specialty-liquids": {
       "name": "Milk replacers and specialty pet liquids",
-      "profile": "dairy-milk"
+      "profile": "dairy-milk",
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-fish-marine-protein": {
       "name": "Fish-based / marine-protein complete diets",
-      "profile": "seafood-marine"
+      "profile": "seafood-marine",
+      "read_across": {
+        "Ni": {
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Sn": {
+          "source_id": "eu2023_sn_canned_foods_200000",
+          "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      }
     },
     "pet-food-fermentation-derived-protein": {
       "name": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
       "profile": "fermentation-derived-protein",
-      "provisional_scaffold": true
+      "provisional_scaffold": true,
+      "read_across": {
+        "Sn": {
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Human-grade read-across: Singapore Food Regulations tin in any food (250000 ug/kg, product as sold); the dried single-cell-protein ingredient is not a canned product, and no sovereign sets a tin level for it.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation)"
+        },
+        "Al": {
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Human-grade read-across: GB 2760-2024 aluminium (as Al, from aluminium-containing additives) in baked foods (100000 ug/kg, dry product), the strictest dry human-food aluminium row; no sovereign sets an aluminium content level for a fermentation-derived protein ingredient.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-fermentation-derived-protein|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     }
-  }
+  },
+  "_harvest_2026_09_02": "22 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 20 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat17-compiled.json"
 }

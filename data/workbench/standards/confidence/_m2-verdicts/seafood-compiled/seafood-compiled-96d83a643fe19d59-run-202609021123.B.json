@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-96d83a643fe19d59-run-202609021123",
+  "evidence_key": "96d83a643fe19d59",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Sn",
+      "derived_value": 100000,
+      "derived_anchor_id": "mx_nom242_sn_canned_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "NOM-242-SSA1-2009 section 7.1.8 sets tin at 100 mg/kg for processed fishery products 'canned products only' (register scope 'canned fishery products only'), which covers canned tuna and canned fish; it is a wet-weight content ML on an as-consumed content cell, in force since 2011-05-10 (the 2012 modification did not touch 7.1.8). Every other non-gated food-content tin row that reaches canned fish is looser: CR RTCR 409 canned fishery products 200000, IN FSSAI canned fish products 200000, EU 2023/915 canned foods 200000, CL Decreto 977 canned fish/shellfish 250000, Codex CXS 193 / AU-NZ Sch 19 / HK Cap 132V / CN GB 2762-2025 / TH / SG / UY 250000; the 50000 rows are infant-food or non-tinplate cured-meat scopes, not this product."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p4",
+  "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021123",
+  "evidence_key": "b25d29ae3469be77",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "shellfish|both|MeHg",
+      "derived_value": 500,
+      "derived_anchor_id": "mx_nom242_mehg_other_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "NOM-242-SSA1-2009 section 7.1.8 (fresh, refrigerated and frozen products) sets methylmercury at 1.0 mg/kg for 'fish such as tuna, marlin, grouper, and bonito' and 0.5 mg/kg for 'other fishery products', in a table whose cadmium and lead lines separately name molluscs and crustaceans, and the standard's scope expressly covers bivalve-mollusc capture areas and crustacean products; crustaceans and bivalve molluscs therefore fall directly inside 'other fishery products', and the processed-products table repeats 0.5 mg/kg for 'other processed fishery products', covering non-canned processed shellfish. The instrument has been in force since 2011-05-10 on a wet-weight basis matching the cell. This is direct sovereign coverage rather than a read-across (the cell's kind label should be gov), and it is corroborated at the same value by GB 2762-2025 Table 3 item 1.1 'Aquatic animals and their products, excluding predatory fish' (MeHg 0.5 mg/kg, in force 2026-09-02) and TH MOPH 414/2020 'other marine animals or plants' (0.5 mg/kg); no non-gated MeHg row is stricter, the FDA CPG 540.600 and GSO crustacean lines are looser at 1000, and the total-mercury ceilings for crustaceans and bivalves (EU 2023/915, AU/NZ, HK, MERCOSUR, PY, GY, CR, IN, VN) are also 500, so MeHg <= tHg <= 500 is internally consistent."
+    }
+  ]
+}

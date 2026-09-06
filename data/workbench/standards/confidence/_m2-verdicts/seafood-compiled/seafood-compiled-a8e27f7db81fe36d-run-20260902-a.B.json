@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-a8e27f7db81fe36d-run-20260902-a",
+  "evidence_key": "a8e27f7db81fe36d",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "fish-marine-non-predatory|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Paraguay Decree 1335/2019 incorporates MERCOSUR/GMC Resolution 12/11; the Annex Part II arsenic table sets total As 1 mg/kg for 'raw, frozen, or refrigerated fish', applied to the edible portion of the product as offered to the consumer, which is exactly fresh or frozen fillet on an as-consumed basis (no conversion). The decree has been in force since 20 February 2019 (status active). No stricter non-gated same-basis tAs row on fish exists (SG 1000 equal, MERCOSUR 1000 equal, AU-NZ 2000; GY 200 quarantined)."
+    },
+    {
+      "key": "fish-marine-predatory|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "'Raw, frozen, or refrigerated fish' carries no species carve-out in the Paraguay/MERCOSUR arsenic table, so fresh or frozen tuna, swordfish, shark, king mackerel, marlin and other billfish are covered at 1 mg/kg edible portion. In force since 2019-02-20; the as-offered-to-consumer basis matches the as-consumed cell. No same-basis non-gated tAs row on any of these species is stricter than 1000 (SG and MERCOSUR 1000 equal, AU-NZ fish 2000)."
+    }
+  ]
+}

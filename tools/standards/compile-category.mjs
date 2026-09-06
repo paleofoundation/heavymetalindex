@@ -16,13 +16,16 @@
 //   component_read_across  → strictest (min) over a NAMED set of principal-component register rows
 //                            (composite/multi-material forms), disclosed with the full candidate set
 //                            and the binding component. Tag: read-across.
+//   baseline_screen        → a testable limit-of-record at a PUBLISHED method's LOQ (analytical_methods.csv)
+//                            where no ML, no pathway, no occurrence and no analog exist. Tag: baseline-screen.
 //   not_material           → substantiated determination; no number. Must carry basis_class (from the
 //                            substantiation gate vocabulary), regulatory_basis and
 //                            jurisdictions_checked. Tag: not-material.
 //   control                → testing mandatory, no defensible sovereign number for this exact cell
 //                            and no supportable near-neighbour read-across. No number is invented.
 //                            Tag: control.
-// Allowed provenance tags: regulatory-alignment | read-across | not-material | control | ratchet.
+// Provenance vocabulary of record: tools/standards/lib/provenance.mjs (regulatory-alignment | read-across |
+// subsumed | baseline-screen | ratchet; control and not-material transitional). One source, every compiler.
 // The retired occurrence tags (literature-baseline, precautionary, feasibility-selected percentile)
 // are forbidden and never emitted.
 //
@@ -96,8 +99,9 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance, provenanceOf, CANONICAL_PROVENANCE, TRANSITIONAL_PROVENANCE } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Categorically non-contaminant-ML instruments, excluded from every scan (mirrors compile-cat1).
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
@@ -118,6 +122,12 @@ const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulat
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
 const PANEL = config.panel || FULL_PANEL
+// Published analytical-method LOQs for BASELINE-SCREEN cells (data/evidence/analytical_methods.csv —
+// one row per published standard method × analyte × matrix class × basis; see its README). Never a
+// lab's private LOQ. --methods= overrides the path for fixture tests only.
+const METHODS_PATH = args.get("methods") || path.join(REPO, "data/evidence/analytical_methods.csv")
+const methods = fs.existsSync(METHODS_PATH) ? parseCsv(fs.readFileSync(METHODS_PATH, "utf8")).filter((m) => m.method_id) : []
+const methodById = new Map(methods.map((m) => [m.method_id, m]))
 
 // `_category` carries every category-specific fact the record and the report need. A config that
 // omits it cannot be compiled — an unlabelled standard record is unciteable.
@@ -305,6 +315,29 @@ function resolveCell(sub, analyte) {
       basis_class: spec.subsumed.basis_class || "speciation-bounded", regulatory_basis: spec.subsumed.regulatory_basis || "",
       jurisdictions_checked: spec.subsumed.jurisdictions_checked || "", substantiation: spec.subsumed.substantiation || null, ...cited }
   }
+  if (spec.baseline_screen) {
+    // BASELINE SCREEN — the Certification-Readiness Ruling's third limit-of-record state: where no
+    // government limit, no exposure pathway, no occurrence data and no analogous matrix exist, the cell
+    // publishes a testable ceiling at a named PUBLISHED method's limit of quantification ("< LOQ by
+    // method X", established at baseline). The LOQ is taken ONLY from analytical_methods.csv; the config
+    // must record what was searched (no_ml_checked, no_analog_checked) and why no pathway exists
+    // (no_pathway_rationale). Any of those missing is a gap, never a default.
+    const bs = spec.baseline_screen
+    const m = bs.loq_source_id ? methodById.get(bs.loq_source_id) : null
+    if (!bs.loq_source_id) return { type: "gap", value: null, error: "baseline_screen names no loq_source_id" }
+    if (!m) return { type: "gap", value: null, error: `baseline_screen loq_source_id ${bs.loq_source_id} not in ${path.relative(REPO, METHODS_PATH)}` }
+    if (STATUS_GATE.test(m.status)) return { type: "gap", value: null, error: `method ${bs.loq_source_id} is gated (status='${m.status}')` }
+    if ((m.analyte || "").trim() !== analyte) return { type: "gap", value: null, error: `method ${bs.loq_source_id} is validated for ${m.analyte}, not ${analyte}` }
+    const loq = num(m.loq_ug_kg)
+    if (loq == null) return { type: "gap", value: null, error: `method ${bs.loq_source_id} has no numeric loq_ug_kg` }
+    if (guard && !guard.test(`${m.basis || ""} ${m.matrix_class || ""}`)) return { type: "gap", value: null, error: `method ${bs.loq_source_id} basis "${m.basis}" fails this row's basis_guard — refusing to mix bases` }
+    for (const k of ["no_ml_checked", "no_analog_checked", "no_pathway_rationale"]) if (!bs[k]) return { type: "gap", value: null, error: `baseline_screen missing ${k}` }
+    return { type: "baseline_screen", value: roundDisplay(loq), value_exact: loq, provenance: "baseline-screen",
+      reference_method: m.reference_method, loq_source_id: bs.loq_source_id, method_matrix_class: m.matrix_class || null,
+      basis: spec.basis_label || m.basis, method_source_doc: m.source_doc || null, method_url: m.url || null,
+      no_ml_checked: bs.no_ml_checked, no_analog_checked: bs.no_analog_checked, no_pathway_rationale: bs.no_pathway_rationale,
+      label: bs.label || `baseline screen at the ${m.reference_method} limit of quantification (${roundDisplay(loq)} µg/kg): no government limit, no analogous instrument and no exposure pathway for this cell; any quantifiable result fails`, ...cited }
+  }
   if (spec.control) {
     return { type: "control", value: null, provenance: "control", rationale: spec.control.rationale || spec.control,
       reference_method: spec.control.reference_method || null, bounded_by: spec.control.bounded_by || null, companion_ml: spec.control.companion_ml || null, ...cited }
@@ -359,7 +392,7 @@ function reconcileMercurySpeciation(cells) {
   const mv = typeof m.value_exact === "number" ? m.value_exact : typeof m.value === "number" ? m.value : null
   if (tv == null || mv == null) return
   if (mv >= tv) {
-    cells.MeHg = { type: "subsumed", value: null, provenance: "not-material", subsumed_by: "tHg", binding_tHg: t.value,
+    cells.MeHg = { type: "subsumed", value: null, provenance: "subsumed", subsumed_by: "tHg", bounded_by: "tHg", binding_tHg: t.value,
       label: `Methylmercury is a component of total mercury (MeHg <= tHg). No credible sovereign sets a methylmercury limit for this composite below the binding total-mercury ceiling (${t.value} ug/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.`,
       candidate: { type: m.type, value: m.value } }
   }
@@ -370,7 +403,7 @@ fs.mkdirSync(OUTDIR, { recursive: true })
 const slugs = only.length ? only : Object.keys(config.subcategories)
 let anyDefect = false
 const reportBlocks = []
-const provTag = (c) => c.provenance || (c.type === "gov" ? "regulatory-alignment" : c.type === "read_across" ? "read-across" : c.type === "not_material" || c.type === "subsumed" ? "not-material" : c.type === "control" ? "control" : "—")
+const provTag = (c) => provenanceOf(c) || "—"
 
 for (const slug of slugs) {
   const sub = config.subcategories[slug]
@@ -378,6 +411,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
   const missing = missingCanonicalAnalytes(PANEL)
   if (missing.length) { console.error(`!! panel missing canonical analytes: ${missing.join(", ")}`); anyDefect = true }
@@ -395,7 +429,7 @@ for (const slug of slugs) {
     material: sub.material || null, components: sub.components || null,
     basis_guard: sub.basis_guard || null, basis_guard_note: sub.basis_guard_note || null,
     method: CAT.method_label || "HMTc Method v2.0 (government-limit default; strictest applicable sovereign maximum in the row's native basis, disclosed read-across where the exact cell is unregulated; never occurrence-derived)",
-    provenance_tags_allowed: ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"],
+    provenance_tags_allowed: [...CANONICAL_PROVENANCE, ...TRANSITIONAL_PROVENANCE],
     cells, generated_from: "data/evidence/regulatory_limits.csv", config: path.relative(REPO, CONFIG_PATH),
     version: config.version || null, generated_at_note: "run date recorded in git commit; Date.now() intentionally not embedded",
   }
@@ -413,9 +447,10 @@ for (const slug of slugs) {
   lines.push(`|---|---|---|---|---|`)
   for (const a of PANEL) {
     const c = cells[a]
-    let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "control" : c.type === "subsumed" ? "subsumed" : c.type === "gap" ? "**GAP**" : "—") : (c.type === "screen" ? `screen ${c.value}` : String(c.value))
+    let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "control" : c.type === "subsumed" ? "subsumed" : c.type === "gap" ? "**GAP**" : "—") : (c.type === "screen" ? `screen ${c.value}` : c.type === "baseline_screen" ? `<LOQ ${c.value}` : String(c.value))
     if (c.not_detectable) v = `ND<${v}`
-    const bind = c.type === "read_across" && c.binding_component ? `${c.binding_id} (${c.binding_jurisdiction})`
+    const bind = c.type === "baseline_screen" ? `${c.reference_method} LOQ (${c.loq_source_id})`
+      : c.type === "read_across" && c.binding_component ? `${c.binding_id} (${c.binding_jurisdiction})`
       : (c.type === "gov" || c.type === "screen") ? `${c.binding_id || c.source_id} (${c.binding_jurisdiction || c.source_jurisdiction})`
       : c.type === "read_across" ? `${c.source_id} (${c.source_jurisdiction})`
       : c.bounded_by ? `bounded by ${c.bounded_by}` : (c.subsumed_by ? `subsumed by ${c.subsumed_by}` : "—")
@@ -442,9 +477,9 @@ for (const slug of slugs) {
     console.log(`\n### ${slug} — ${sub.name}${sub.provisional_scaffold ? "  (PROVISIONAL)" : ""}`)
     for (const a of PANEL) {
       const c = cells[a]
-      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "control" : c.type === "subsumed" ? "subsumed" : c.type === "gap" ? "GAP" : "—") : (c.type === "screen" ? `screen ${c.value}` : String(c.value))
+      let v = c.value == null ? (c.type === "not_material" ? "n/m" : c.type === "control" ? "control" : c.type === "subsumed" ? "subsumed" : c.type === "gap" ? "GAP" : "—") : (c.type === "screen" ? `screen ${c.value}` : c.type === "baseline_screen" ? `<LOQ ${c.value}` : String(c.value))
       if (c.not_detectable) v = `ND<${v}`
-      const src = c.type === "read_across" && c.binding_component ? `RA ${c.binding_component}/${c.binding_jurisdiction}`
+      const src = c.type === "baseline_screen" ? `baseline ${c.reference_method}` : c.type === "read_across" && c.binding_component ? `RA ${c.binding_component}/${c.binding_jurisdiction}`
         : c.type === "gov" ? `gov ${c.binding_jurisdiction}` : c.type === "screen" ? `screen ${c.binding_jurisdiction || c.source_jurisdiction}` : c.type === "read_across" ? `RA ${c.source_jurisdiction}` : c.type
       console.log(`    ${a.padEnd(6)} ${v.padStart(9)}   ${provTag(c).padEnd(20)} ${src}`)
       if (c.error) { console.log(`      !! ${c.error}`) }
@@ -467,7 +502,7 @@ const header = [
   `Credible-regulator set: ${[...CREDIBLE].join(", ")}.`,
   CAT.credible_note ? `Credible-set note: ${CAT.credible_note}` : ``,
   ``,
-  `Provenance tags: regulatory-alignment | read-across | not-material | control | ratchet.`,
+  `Provenance tags (lib/provenance.mjs): ${CANONICAL_PROVENANCE.join(" | ")}; transitional ${TRANSITIONAL_PROVENANCE.join(" | ")}.`,
   `STAFF / HMTc content — not public wiki (CLAUDE.md Part 19 firewall). Generated from`,
   `data/evidence/regulatory_limits.csv via tools/standards/compile-category.mjs + ${path.basename(CONFIG_PATH)}.`,
   config.version ? `Version: ${config.version}` : ``,

@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat32-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat32-compiled-468cf11a1ec9eed7-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat32-compiled-47550f3d7760cc51-run-202609021136",
+      "key": "fish-sauce|default|Cd",
+      "honest_verdict": "refuted"
+    }
+  }
+}

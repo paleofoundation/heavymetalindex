@@ -1,0 +1,514 @@
+{
+  "compiled_dir": "cat24-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_pb_cheese-products_20",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "20",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Cheese products",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table Pb row 3; source value 0.02 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "5b13a5c62cf9ce7adc1be04b339897b90355061face2db35dd1bba5fc790d4a3",
+          "row_sha256": "5b13a5c62cf9ce7adc1be04b339897b90355061face2db35dd1bba5fc790d4a3"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_cheese-products_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Cheese products",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 3; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "66b03ed86ec7b33f8907ab0db84124e8c1024a7952ef5eb728b7d07343bb2ca9",
+          "row_sha256": "66b03ed86ec7b33f8907ab0db84124e8c1024a7952ef5eb728b7d07343bb2ca9"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_cd_powder-milk-products_1000",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Powder milk products",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table Cd row 1; source value 1.0 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "aad2e4f50041ded651eb7d5c3f89ab3436b4998aca87f4d0c33032cb792155b3",
+          "row_sha256": "aad2e4f50041ded651eb7d5c3f89ab3436b4998aca87f4d0c33032cb792155b3"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_powder-milk-products_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Powder milk products",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 1; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2d7efd21ddc346c0f873784caec5d3bb98535fc86c3a40a8344f3e78b03c4978",
+          "row_sha256": "2d7efd21ddc346c0f873784caec5d3bb98535fc86c3a40a8344f3e78b03c4978"
+        }
+      ],
+      "cells": [
+        "dairy-cheese|_|Pb",
+        "dairy-cheese|_|tHg",
+        "dairy-cheese|_|MeHg",
+        "dairy-milk-powders|_|Cd",
+        "dairy-milk-powders|_|tHg",
+        "dairy-milk-powders|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_cheeses_cd_500",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "product as offered to consumer",
+          "product_scope": "cheeses",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.5 mg/kg normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a4cdb881e859332593135374546c0daf5bb825f55e691cb7e066c9b99eca5cf8",
+          "row_sha256": "a4cdb881e859332593135374546c0daf5bb825f55e691cb7e066c9b99eca5cf8"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_cheeses_tas_500",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as offered to consumer",
+          "product_scope": "cheeses",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.5 mg/kg normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6295212bff77c9ad1cb2e5717c7eb914f2e68c01b660291937c9774461325322",
+          "row_sha256": "6295212bff77c9ad1cb2e5717c7eb914f2e68c01b660291937c9774461325322"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_condensed_milk_dulce_de_leche_pb_200",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as offered to consumer",
+          "product_scope": "condensed milk and dulce de leche",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.2 mg/kg normalized to 200 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "0b8f770be43345482c9ac092624cf52dfa644d033006fc77e0aee3804688793b",
+          "row_sha256": "0b8f770be43345482c9ac092624cf52dfa644d033006fc77e0aee3804688793b"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_condensed_milk_dulce_de_leche_cd_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "condensed milk and dulce de leche",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a55e7ff26c8ea79a14ac4cbc510ddba8b44bab41373ca0f48605a750596c5c0e",
+          "row_sha256": "a55e7ff26c8ea79a14ac4cbc510ddba8b44bab41373ca0f48605a750596c5c0e"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_condensed_milk_dulce_de_leche_tas_100",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "condensed milk and dulce de leche",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "8132a6a5ad6eb417d53bd364305c7915b1ecdd9c32bf2d26307b2195900699db",
+          "row_sha256": "8132a6a5ad6eb417d53bd364305c7915b1ecdd9c32bf2d26307b2195900699db"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_fluid_milk_dairy_no_addition_cd_50",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "product as offered to consumer",
+          "product_scope": "fluid milk ready for consumption and dairy products without addition, undiluted and unconcentrated",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II cadmium table cadmium row; source value 0.05 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "53cb04124859732ca770d0cb6d7656cb4bc23223650004d7f4d9efb7d54120d4",
+          "row_sha256": "53cb04124859732ca770d0cb6d7656cb4bc23223650004d7f4d9efb7d54120d4"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_fluid_milk_dairy_no_addition_tas_50",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "50",
+          "basis": "product as offered to consumer",
+          "product_scope": "fluid milk ready for consumption and dairy products without addition, undiluted and unconcentrated",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.05 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "67f407af9d69e63ec97b6b5ff0d27bd9f094617cb27ecad4dbf601f347ab5b5d",
+          "row_sha256": "67f407af9d69e63ec97b6b5ff0d27bd9f094617cb27ecad4dbf601f347ab5b5d"
+        }
+      ],
+      "cells": [
+        "dairy-cheese|_|Cd",
+        "dairy-cheese|_|tAs",
+        "dairy-cheese|_|iAs",
+        "dairy-condensed-evaporated|_|Pb",
+        "dairy-condensed-evaporated|_|Cd",
+        "dairy-condensed-evaporated|_|tAs",
+        "dairy-condensed-evaporated|_|iAs",
+        "dairy-cream|_|Cd",
+        "dairy-cream|_|tAs",
+        "dairy-cream|_|iAs",
+        "dairy-milk-camel|_|Cd",
+        "dairy-milk-camel|_|tAs",
+        "dairy-milk-camel|_|iAs",
+        "dairy-milk-cow|_|Cd",
+        "dairy-milk-cow|_|tAs",
+        "dairy-milk-cow|_|iAs",
+        "dairy-milk-goat-sheep|_|Cd",
+        "dairy-milk-goat-sheep|_|tAs",
+        "dairy-milk-goat-sheep|_|iAs",
+        "dairy-yogurt-cultured|_|Cd",
+        "dairy-yogurt-cultured|_|tAs",
+        "dairy-yogurt-cultured|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "dairy-cheese|_|Sn",
+        "dairy-cream|_|Sn",
+        "dairy-milk-camel|_|Sn",
+        "dairy-milk-cow|_|Sn",
+        "dairy-milk-goat-sheep|_|Sn",
+        "dairy-milk-powders|_|Sn",
+        "dairy-yogurt-cultured|_|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_al_formula_nonsoy_500",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "500",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "infant formula, follow-on formula, and special medical purpose product for infants other than preterm-infant products",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Standard 1.4.1 / Schedule 19.",
+          "basis_class": "as_consumed",
+          "soy_class": "non-soy",
+          "_sha256": "bc7e03cddfce177ae9ecbbeb73fa4719335c259897c0bf78dc3cf558f900af77",
+          "row_sha256": "bc7e03cddfce177ae9ecbbeb73fa4719335c259897c0bf78dc3cf558f900af77"
+        }
+      ],
+      "cells": [
+        "dairy-cheese|_|Al",
+        "dairy-condensed-evaporated|_|Al",
+        "dairy-cream|_|Al",
+        "dairy-milk-camel|_|Al",
+        "dairy-milk-cow|_|Al",
+        "dairy-milk-goat-sheep|_|Al",
+        "dairy-milk-powders|_|Al",
+        "dairy-yogurt-cultured|_|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
+        }
+      ],
+      "cells": [
+        "dairy-condensed-evaporated|_|tHg",
+        "dairy-condensed-evaporated|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk and sterilized milk (GB 2762-2025 Table 1, item 10.2)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 10.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.02 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a",
+          "row_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_milk_products_other_200",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "Milk and milk products, excluding raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 1, item 10.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 10.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.2 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4df3080ccfe6140f8f6db612d3b6ed0bed4d11b34c5eb97f2931a6f4926aacb2",
+          "row_sha256": "4df3080ccfe6140f8f6db612d3b6ed0bed4d11b34c5eb97f2931a6f4926aacb2"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_tas_milk_powder_500",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 4, item 6.2); total arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.5 mg/kg; supersedes china_gb2762_tas_milk_powder_500 and cn_tas_milk-powder-and-modified-milk-powder-gen_500; Table 4 does not name infant formula; milk powder is the general dairy category; test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5",
+          "row_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_thg_liquid_milk_10",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "10",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 3, item 6.1); total mercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.01 mg/kg; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "5fba68e94947ed81fb929dd93c49b6ca94f5bf0b59ae45b17368fb7ed834deb6",
+          "row_sha256": "5fba68e94947ed81fb929dd93c49b6ca94f5bf0b59ae45b17368fb7ed834deb6"
+        }
+      ],
+      "cells": [
+        "dairy-cream|_|Pb",
+        "dairy-milk-camel|_|Pb",
+        "dairy-milk-cow|_|Pb",
+        "dairy-milk-goat-sheep|_|Pb",
+        "dairy-milk-powders|_|Pb",
+        "dairy-milk-powders|_|tAs",
+        "dairy-milk-powders|_|iAs",
+        "dairy-yogurt-cultured|_|Pb",
+        "dairy-yogurt-cultured|_|tHg",
+        "dairy-yogurt-cultured|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_secondary-milk-products_10",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "10",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Secondary milk products",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.01 mg/kg; Note 10: products that are, or are reconstituted to be, ready to drink",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "49120f30856ed06761dfa0a6540f598be60d5f73c163624582b4bd07ab943325",
+          "row_sha256": "49120f30856ed06761dfa0a6540f598be60d5f73c163624582b4bd07ab943325"
+        }
+      ],
+      "cells": [
+        "dairy-cream|_|tHg",
+        "dairy-cream|_|MeHg",
+        "dairy-milk-camel|_|tHg",
+        "dairy-milk-camel|_|MeHg",
+        "dairy-milk-cow|_|tHg",
+        "dairy-milk-cow|_|MeHg",
+        "dairy-milk-goat-sheep|_|tHg",
+        "dairy-milk-goat-sheep|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_powder_250",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "250",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, powder, except soy-isolate",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_sold",
+          "soy_class": "non-soy",
+          "_sha256": "c0a82abf156784c3e836f449313438bb1b0af36b8791a394a79ec444d5ea41d6",
+          "row_sha256": "c0a82abf156784c3e836f449313438bb1b0af36b8791a394a79ec444d5ea41d6"
+        }
+      ],
+      "cells": [
+        "dairy-milk-powders|_|Ni"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "batches": [
+    {
+      "batch_id": "seafood-compiled-743f5abc678c0856-run-20260902-a",
+      "evidence_key": "743f5abc678c0856",
+      "cells": [
+        {
+          "key": "cephalopods|both|Pb",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_pb_cephalopods_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Regulation (EU) 2023/915 Annex I 3.1.15.2 sets 0.30 mg/kg wet weight lead for 'cephalopods' (the animal without viscera), a content-basis maximum level in force since 2023 that covers uncanned octopus, squid and cuttlefish; no conversion applies. Every other non-gated content-basis Pb row scoped to cephalopods, molluscs or aquatic animals is looser (CR, GY, PA, GSO, IN, FJ, VN, MERCOSUR and PY cephalopods 1000; HK and CN other aquatic animals 1000; MX molluscs 1000; AU-NZ molluscs 2000; SG fish-crustaceans-molluscs 2000; UY foods in general 2000; TT marine animal products 10000), and the Guyana 25 ppb row is quarantined. 300 is the strictest applicable sovereign ML."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-8285ce28112bec0e-run-20260902-a",
+      "evidence_key": "8285ce28112bec0e",
+      "cells": [
+        {
+          "key": "cephalopods|both|Cd",
+          "derived_value": 1000,
+          "derived_anchor_id": "eu2023_cd_cephalopods_1000",
+          "same_basis_candidates": [],
+          "blind_value": 1000,
+          "applicability": "confirmed",
+          "reason": "Regulation (EU) 2023/915 Annex I cadmium fishery row 'cephalopods' sets 1.0 mg/kg wet weight (animal without viscera), content basis, in force; the eu-2023-915-cadmium page carries the same 1000 ug/kg row. Non-gated content-basis rows scoped to cephalopods or molluscs are equal or looser (CR, GY and FJ cephalopods 1000; SG molluscs 1000; TH, PH, GSO, IN, HK, CN, VN, MERCOSUR and PY cephalopods 2000; MX molluscs 2000). Three residual rows were considered and excluded as not covering this form: Uruguay 'solid foods in general except categories with particular limits' 200 (the particular limit Uruguay applies is the MERCOSUR GMC 12/11 cephalopod-molluscs row at 2000), Vietnam QCVN 8-2 'Aquatic products' 50 (the same table carries a specific 'Cephalopod mollusks (without internal organs)' row at 2000, which governs), and Singapore reg 31(5) 'other food' 200 (cephalopods sit under the specific 'molluscs' row at 1000)."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-6ef9f66b08852cbe-run-20260902-a",
+      "evidence_key": "6ef9f66b08852cbe",
+      "cells": [
+        {
+          "key": "cephalopods|both|tAs",
+          "derived_value": 1000,
+          "derived_anchor_id": "py_decreto1335_2019_cephalopod_molluscs_tas_1000",
+          "same_basis_candidates": [],
+          "blind_value": 1000,
+          "applicability": "confirmed",
+          "reason": "Paraguay Decree 1335/2019 (active from 2019-02-20; incorporates MERCOSUR GMC Res. 12/11) Annex Part II total-arsenic row 'cephalopod molluscs' sets 1 mg/kg on the product as offered to the consumer, a content basis that coincides with as-consumed for uncanned raw cephalopods; the regulation page confirms arsenic is total arsenic and that limits apply to the edible portion. No non-gated content-basis tAs row scoped to cephalopods, molluscs or seafood is stricter: MERCOSUR cephalopod molluscs, AU-NZ molluscs, Singapore fish-crustaceans-molluscs, Uruguay solid foods in general and Trinidad foods-not-named all sit at 1000, Trinidad marine animal products at 5000, India molluscs at 86000, Thailand's arsenic residual at 2000, and the Guyana 200 ppb row is quarantined. Inorganic-arsenic rows (EU 2025/1891 cephalopods 50; HK and CN aquatic animals other than fish 500) are a different analyte and not tAs candidates; the species bound iAs 50 <= tAs 1000 is satisfied."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-e2000dc0445e47fb-run-20260902-a",
+      "evidence_key": "e2000dc0445e47fb",
+      "cells": [
+        {
+          "key": "cephalopods|both|tHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Regulation (EU) 2023/915 Annex I 3.3.1.3 (introduced by Regulation (EU) 2022/617, in force 3 May 2022 and carried forward) sets 0.30 mg/kg wet weight total mercury for 'cephalopods, marine gastropods and the following fish', so the anchor covers all cephalopod species on a content basis; no conversion applies. Every other non-gated content-basis mercury row scoped to cephalopods, molluscs or aquatic animals is looser (EU general 500; GY, CR, PA, PY, MERCOSUR, IN, HK and VN 500; TH other marine animals MeHg 500; CN aquatic animals MeHg 500). Three residual total-mercury rows were considered and excluded as non-seafood fallbacks that do not govern cephalopods: Thailand 414 'food other than the listed total-mercury categories' 20 (mercury in aquatic animals is governed there by the methylmercury rows, with total mercury only a screen under Annex 1 note 4), Singapore reg 31(3)(c) 'other food' 50 (seafood falls under reg 31(3)(b) 'other fish or fish product' 500, and the Tenth Schedule treats fish, crustaceans and molluscs as one class) and Uruguay 'foods in general except categories with particular limits' 50 (the particular limit is the MERCOSUR GMC 12/11 cephalopod-molluscs row at 500)."
+        },
+        {
+          "key": "fish-freshwater|both|tHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "refuted",
+          "reason": "The anchor (Annex I 3.3.1.3, 0.30 mg/kg wet weight) lists carp (Cyprinidae), basa and striped/Mekong giant catfish (Pangasius and Pangasianodon), and salmon and trout (Salmo and Oncorhynchus except Salmo trutta), so it covers carp, pangasius catfish and farmed rainbow trout; it does not list tilapia, the row's first-named exemplar, nor channel catfish (Ictalurus) or brown trout, which fall under 3.3.1.1 'fishery products and muscle meat of fish, except species listed in 3.3.1.2 and 3.3.1.3' at 0.50 mg/kg (eu2023_hg_fish_general_500), while pike and eel sit at 1.0 under 3.3.1.2. The anchor's product_scope therefore does not cover the product form as defined and test (a) fails; 300 is the strictest ML among the row's members and is protective for all of them, so the number can stand as a strictest-member value, but the cell needs eu2023_hg_fish_general_500 as a co-anchor with the tilapia, Ictalurus catfish and brown-trout coverage at 500 disclosed rather than presented as direct governance at 300. No non-gated content-basis mercury row scoped to freshwater or general fish is stricter than 300 (SG other fish 500; UY fish muscle 500; PY and MERCOSUR fish except predators 500; CR, PA, GY, FJ and IN 500; VN aquatic products 500); Thailand's 20 ug/kg total-mercury residual is excluded because fish mercury is governed there by the methylmercury rows and the clause 4 Codex fallback, with total mercury only a screen."
+        },
+        {
+          "key": "fish-marine-non-predatory|both|tHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Annex I 3.3.1.3 (via Regulation (EU) 2022/617, in force 3 May 2022) sets 0.30 mg/kg wet weight for anchovy (Engraulis spp.), Atlantic cod (Gadus morhua), Atlantic herring (Clupea harengus), mackerel (Scomber spp.), salmon (Salmo and Oncorhynchus spp.) and sardine/pilchard (Sardina, Sardinops, Sardinella, Dussumieria), which are the row's six named exemplars in their principal commercial species, on muscle meat, content basis, no conversion. Marine non-predatory species outside the 3.3.1.3 list (for example Pacific cod or Pacific herring, which the list names only by their Atlantic binomials) are governed at 0.50 under 3.3.1.1, so 300 is the strictest-member ML for the row and should be disclosed as such for those species. No non-gated content-basis mercury row scoped to non-predatory or general marine fish is stricter than 300 (EU general 500; SG other fish 500; PY, MERCOSUR, CR, PA, GY, FJ, IN and UY 500; TH other marine animals MeHg 500); Thailand's 20 ug/kg total-mercury residual is excluded because fish mercury is governed there by the methylmercury rows with total mercury only a screen (Annex 1 note 4)."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-9b7d1101bd267369-run-20260902-a",
+      "evidence_key": "9b7d1101bd267369",
+      "cells": [
+        {
+          "key": "cephalopods|both|MeHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, from Regulation (EU) 2023/915 Annex I 3.3.1.3 (cephalopods at 0.30 mg/kg wet weight), a firm sovereign ML in force that covers all cephalopods on a content basis, so MeHg <= tHg <= 300 holds. No non-gated content-basis methylmercury row scoped to cephalopods, molluscs or aquatic animals is stricter than 300 (MX other fishery products 500; TH other marine animals 500; CN aquatic animals 500; HK, PH, TT and VN fish 500; FDA action level 1000)."
+        },
+        {
+          "key": "fish-freshwater|both|MeHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, which is a firm sovereign ML (Annex I 3.3.1.3) for carp, pangasius catfish and salmon/trout, so the species bound MeHg <= tHg <= 300 is valid and the subsumed test passes. It inherits the parent cell's scope caveat that tilapia, Ictalurus catfish and brown trout are governed by the EU at 0.50 total mercury under 3.3.1.1, so if the parent is re-anchored as a strictest-member value this bound should carry the same disclosure. No non-gated content-basis methylmercury row scoped to freshwater or non-predatory fish is stricter than 300 (VN fish excluding carnivorous 500; HK fish 500; PH fish 500; TT fish except predatory 500; CN aquatic animals 500; FDA 1000)."
+        },
+        {
+          "key": "fish-marine-non-predatory|both|MeHg",
+          "derived_value": 300,
+          "derived_anchor_id": "eu2023_hg_fish_low_300",
+          "same_basis_candidates": [],
+          "blind_value": 300,
+          "applicability": "confirmed",
+          "reason": "Subsumed cell: the derived value is the parent total-mercury value, 300 ug/kg, a firm sovereign ML (Annex I 3.3.1.3) covering the row's named species (anchovy, Atlantic cod, Atlantic herring, Scomber mackerel, salmon, sardine), so MeHg <= tHg <= 300 holds. No non-gated content-basis methylmercury row for non-predatory marine fish is stricter than 300 (MX other fishery products 500; TH other marine animals 500; HK, PH, TT, VN and CN 500; GSO crustaceans 1000; FDA 1000)."
+        }
+      ]
+    },
+    {
+      "batch_id": "seafood-compiled-87c5769139e19ee8-run-20260902-a",
+      "evidence_key": "87c5769139e19ee8",
+      "cells": [
+        {
+          "key": "cephalopods|both|Sn",
+          "derived_value": 200000,
+          "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+          "same_basis_candidates": [],
+          "blind_value": 200000,
+          "applicability": "refuted",
+          "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (cephalopods, expressly not canned) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+        },
+        {
+          "key": "fish-freshwater|both|Sn",
+          "derived_value": 200000,
+          "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+          "same_basis_candidates": [],
+          "blind_value": 200000,
+          "applicability": "refuted",
+          "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen freshwater finfish) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Sn",
+          "derived_value": 200000,
+          "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+          "same_basis_candidates": [],
+          "blind_value": 200000,
+          "applicability": "refuted",
+          "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen marine non-predatory fish fillet/muscle) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+        },
+        {
+          "key": "fish-marine-predatory|both|Sn",
+          "derived_value": 200000,
+          "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+          "same_basis_candidates": [],
+          "blind_value": 200000,
+          "applicability": "refuted",
+          "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (fresh or frozen marine predatory fish) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+        },
+        {
+          "key": "shellfish|both|Sn",
+          "derived_value": 200000,
+          "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+          "same_basis_candidates": [],
+          "blind_value": 200000,
+          "applicability": "refuted",
+          "reason": "Read-across cell: the anchor is Regulation (EU) 2023/915 Annex I 3.5.1, inorganic tin 200 mg/kg in 'canned foods other than canned beverages, except canned dried and canned powdered products', product as placed on the market; this product (crustaceans and bivalve molluscs, expressly not canned) is uncanned, so the anchor's product_scope does not cover this form and it is offered only as an analog. It is not the nearest same-basis sovereign instrument: three non-gated content-basis tin rows directly cover uncanned food of this kind, Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force 2026-01-30), Thailand MoPH Notification 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg), so this is not a cell that no government regulates and no read-across is needed; if a canned analog is nevertheless wanted, the fishery-specific canned rows (MX NOM-242 canned fishery products 100 mg/kg, CR RTCR 409 and IN FSSAI canned fish 200 mg/kg) are nearer than the EU general canned-food row. None of the directly applicable rows is stricter than 200000, so the magnitude is protective and I would keep 200000, but only re-tagged as a precautionary value sitting below the 250 mg/kg direct instruments (or anchored to them at 250000 under the government-limit default), not presented as the governing read-across."
+        }
+      ]
+    }
+  ]
+}

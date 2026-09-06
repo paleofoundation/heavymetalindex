@@ -23,8 +23,15 @@
 //                               speciation-bounded
 //   C8  control contract        a control names a reference method (a control without one is an
 //                               unenforceable obligation)
-//   C9  provenance vocabulary   only regulatory-alignment / read-across / not-material / control /
-//                               ratchet — the retired occurrence tags must never appear
+//   C9  provenance vocabulary   every resolved cell carries a tag from lib/provenance.mjs
+//                               (regulatory-alignment / read-across / subsumed / baseline-screen /
+//                               ratchet; control and not-material transitional); a MISSING tag fails;
+//                               the retired occurrence tags must never appear
+//   C11 tag/kind coherence      the tag matches the cell kind; a subsumed species names a parent that is
+//                               itself a firm numeric ceiling; ratchet carries a ratchet_event
+//   C12 baseline-screen contract a baseline screen names a published method in analytical_methods.csv
+//                               whose analyte, basis and LOQ match the cell, plus no_ml_checked /
+//                               no_analog_checked / no_pathway_rationale
 //   C10 basis disclosure        every numeric cell carries a basis string
 //   W1  stricter-unselected     a SAME-BASIS credible-regulator row stricter than the binding was left
 //                               unnamed (candidates outside the record's basis_guard are a different
@@ -45,13 +52,13 @@ const args = new Map(process.argv.slice(2).flatMap((a) => (a.startsWith("--") ? 
 const JSON_OUT = args.has("json")
 
 const FULL_PANEL = ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"]
-const ALLOWED_PROVENANCE = new Set(["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
-const RETIRED_PROVENANCE = /literature.baseline|precautionary|feasibility|occurrence|percentile|p\d{2}\b/i
 const CLASS_VOCAB = new Set([
   "speciation-bounded", "method-artifact", "additive-permitted",
   "natural-accumulator", "no-migration-pathway", "refined-partition",
 ])
-const GATED_STATUS = /draft|not for implementation|proposed|quarantin/i
+import { STATUS_GATE } from "./lib/register-gate.mjs"
+import { ALLOWED_PROVENANCE, RETIRED_PROVENANCE, provenanceFor, provenanceOf } from "./lib/provenance.mjs"
+const GATED_STATUS = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6, lib/register-gate.mjs)
 // species that must never be substituted for their total-element parent, or the reverse
 const SPECIES_OF = { iAs: "tAs", MeHg: "tHg", "Cr-VI": "Cr" }
 const METAL_TOKEN = {
@@ -75,6 +82,9 @@ function parseCsv(text) {
   return lines.slice(1).map((l) => Object.fromEntries(split(l).map((v, i) => [head[i], v])))
 }
 
+// Published-method LOQ register for baseline-screen cells (C12). HMTC_METHODS overrides for fixture tests.
+const METHODS_PATH = process.env.HMTC_METHODS || path.join(REPO, "data/evidence/analytical_methods.csv")
+const methodById = new Map((fs.existsSync(METHODS_PATH) ? parseCsv(fs.readFileSync(METHODS_PATH, "utf8")) : []).filter((m) => m.method_id).map((m) => [m.method_id, m]))
 const registerText = fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8")
 const register = parseCsv(registerText)
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
@@ -143,6 +153,8 @@ const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 // context ids are checked only for existence and liveness (C3, C4), never for species match or value.
 function bindingIds(cell) {
   const ids = []
+  // a precautionary cell's floor row is its anchor, unless the floor is the parent total (then the parent's row belongs to the parent cell; C13 checks the bound)
+  if (cell.sovereign_floor && cell.sovereign_floor.id && cell.sovereign_floor.kind !== "parent-total") ids.push(cell.sovereign_floor.id)
   if (cell.binding_id) ids.push(cell.binding_id)
   if (cell.source_id) ids.push(cell.source_id)
   for (const c of cell.components || []) if (c.source_id) ids.push(c.source_id)
@@ -154,128 +166,223 @@ function contextIds(cell) {
 }
 const anchorIds = (cell) => [...new Set([...bindingIds(cell), ...contextIds(cell)])]
 
+// One kind for the three compiled-cell schemas (variants+type, cells+type, cells+provenance-only as
+// compile-cat25 emits). `screen` is a gov / read_across cell carrying screen:true.
+const PROV_TO_KIND = { "regulatory-alignment": "gov", "read-across": "read_across", control: "control", "not-material": "not_material", subsumed: "subsumed", "baseline-screen": "baseline_screen", precautionary: "precautionary" }
+function kindOfCell(cell) {
+  if (!cell || typeof cell !== "object") return ""
+  let t = cell.type || cell.cell_kind || ""
+  if (!t) t = PROV_TO_KIND[provenanceOf(cell)] || ""
+  if (t === "screen") t = cell.source_id && !cell.binding_id ? "read_across" : "gov"
+  return t
+}
+// 8:1 powder↔prepared conversion (compile-cat1 formula rows). A converted cell publishes anchor×8
+// (as_sold) or anchor/8 (as_consumed); the record signals it via per_country[binding].converted or a
+// "×8" basis_note. C5 compares against the converted anchor in that case, never blindly.
+function conversionFactor(rec, cell) {
+  // ONLY the basis_note is trusted: compile-cat1 sets per_country[j].converted for every row whose
+  // note is not "same basis", which includes face-value rows ("face value"), so that flag cannot
+  // distinguish a real 8:1 conversion from none. The formula compiler writes "×8 as-consumed→as-sold"
+  // or "÷8 as-sold→as-consumed" on the cell when it actually converted.
+  const note = String(cell.basis_note || "")
+  if (/×\s*8\b/.test(note)) return 8
+  if (/÷\s*8\b|\/\s*8\b/.test(note)) return 1 / 8
+  return 1
+}
+
 function auditRecord(rec, file) {
   const fails = [], warns = []
   const F = (code, msg) => fails.push({ code, record: rec.slug, msg })
   const W = (code, msg) => warns.push({ code, record: rec.slug, msg })
 
   // Records come in two shapes: a flat `cells` object, or `variants` (a per-variant cells map, e.g.
-  // soy/non-soy or powder/RTF splits). Audit every variant's cells under one record verdict.
-  const variants = rec.variants && typeof rec.variants === "object" && !rec.cells ? rec.variants : { _: rec.cells || {} }
-  const cells = Object.assign({}, ...Object.values(variants))
-
-  // C1 panel completeness
-  for (const a of FULL_PANEL) if (!(a in cells)) F("C1", `missing panel analyte ${a}`)
-
+  // soy/non-soy or powder/RTF splits). EVERY variant is audited on its own — merging them would let
+  // the last variant mask a defect in the first (the soy variant hid the cow variant before 2026-09-02).
+  const variants = rec.variants && typeof rec.variants === "object" && !rec.cells ? Object.entries(rec.variants) : [["_", rec.cells || {}]]
+  const recGuard = rec.basis_guard ? new RegExp(rec.basis_guard, "i") : null
+  const FIRM_KINDS = new Set(["precautionary", "gov", "read_across", "form_split", "special"])
   let firm = 0
-  for (const [analyte, cell] of Object.entries(cells)) {
-    if (!cell || typeof cell !== "object") { F("C2", `${analyte}: empty cell`); continue }
-    const type = cell.type || ""
-    const prov = cell.provenance || ""
+  let anyControl = false
 
-    // C2 no unresolved cells
-    if (type === "gap" || type === "unspecified" || cell.error) {
-      F("C2", `${analyte}: unresolved cell (${type}${cell.error ? `: ${cell.error}` : ""})`)
-      continue
-    }
+  for (const [vk, cells] of variants) {
+    const V = vk === "_" ? "" : `[${vk}] `
+    // C1 panel completeness (every variant)
+    for (const a of FULL_PANEL) if (!(a in (cells || {}))) F("C1", `${V}missing panel analyte ${a}`)
 
-    // C9 provenance vocabulary
-    if (prov && !ALLOWED_PROVENANCE.has(prov)) F("C9", `${analyte}: provenance "${prov}" is not in the allowed vocabulary`)
-    if (RETIRED_PROVENANCE.test(prov)) F("C9", `${analyte}: retired occurrence-selected provenance "${prov}"`)
+    for (const [analyte, cell] of Object.entries(cells || {})) {
+      const L = `${V}${analyte}`
+      if (!cell || typeof cell !== "object") { F("C2", `${L}: empty cell`); continue }
+      const type = cell.type || cell.cell_kind || ""
+      const kind = kindOfCell(cell)
+      const prov = provenanceOf(cell)
 
-    const numeric = cell.value != null
-    if (numeric && (type === "gov" || type === "read_across" || type === "screen" || type === "form_split")) firm++
+      // C2 no unresolved cells
+      if (type === "gap" || type === "unspecified" || cell.error) {
+        F("C2", `${L}: unresolved cell (${type}${cell.error ? `: ${cell.error}` : ""})`)
+        continue
+      }
 
-    // C3 / C4 anchor existence and liveness — every id, binding or context
-    const binding = new Set(bindingIds(cell))
-    for (const id of anchorIds(cell)) {
-      const row = byId.get(id)
-      if (!row) { F("C3", `${analyte}: anchor id "${id}" is not in the register`); continue }
-      if (GATED_STATUS.test(row.status || "")) F("C4", `${analyte}: anchor "${id}" is gated (status="${row.status}")`)
-      // A context disclosure is allowed to name another analyte's instrument; only a binding source
-      // must match the cell's analyte.
-      if (!binding.has(id)) continue
+      // C9 provenance vocabulary — ONE vocabulary (lib/provenance.mjs); a missing tag FAILS, a tag
+      // outside the vocabulary FAILS, a retired occurrence-era tag FAILS. Tags change only via config →
+      // recompile, never by editing a compiled record to satisfy this check.
+      if (!prov) F("C9", `${L}: missing provenance tag (every resolved cell carries one of ${[...ALLOWED_PROVENANCE].join(" | ")})`)
+      else if (!ALLOWED_PROVENANCE.has(prov)) F("C9", `${L}: provenance "${prov}" is not in the vocabulary (${[...ALLOWED_PROVENANCE].join(" | ")})`)
+      if (RETIRED_PROVENANCE.test(prov)) F("C9", `${L}: retired occurrence-selected provenance "${prov}"`)
 
-      // C6 species integrity — the binding row's metal must match the cell's analyte
-      const rowMetal = (row.metal_species || "").trim()
-      const norm = rowMetal === "Cr-total" ? "Cr" : rowMetal
-      if (norm && norm !== analyte) {
-        const parent = SPECIES_OF[analyte]
-        const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
-        if (norm === parent || norm === childOf) {
-          F("C6", `${analyte}: anchor "${id}" is a ${norm} limit — a species and its total-element parent are never interchangeable`)
-        } else {
-          F("C6", `${analyte}: anchor "${id}" is a ${norm} limit, not ${analyte}`)
+      // C11 tag ↔ kind coherence and the subsumed / ratchet contracts
+      const expected = provenanceFor(cell)
+      if (prov && expected && prov !== expected && prov !== "ratchet") F("C11", `${L}: provenance "${prov}" does not match the cell kind ${kind} (expected "${expected}")`)
+      if (kind === "subsumed" || prov === "subsumed") {
+        const parent = cell.subsumed_by || cell.bounded_by
+        if (!parent) F("C11", `${L}: subsumed cell names no subsumed_by`)
+        else if (!(parent in cells)) F("C11", `${L}: subsumed_by ${parent} is not on the panel`)
+        else {
+          const p = cells[parent]
+          const pk = kindOfCell(p)
+          if (!p || p.value == null || !FIRM_KINDS.has(pk)) F("C11", `${L}: subsumed under ${parent}, which carries no firm numeric ceiling (${pk || "absent"}) — a species is bounded only by a firm parent total`)
         }
       }
-      // id-token cross-check catches a mislabelled register row the metal column alone would miss
-      const tok = METAL_TOKEN[analyte]
-      if (tok && norm === analyte && !tok.test(id) && !/^[a-z0-9]+_[a-z0-9]+_/.test(id)) {
-        W("C6", `${analyte}: anchor id "${id}" does not carry the analyte token`)
-      }
-    }
+      if (prov === "ratchet" && !cell.ratchet_event) F("C11", `${L}: ratchet provenance without a ratchet_event`)
 
-    // C5 value fidelity — the published number must equal the strictest named anchor
-    if (numeric) {
-      const named = bindingIds(cell)
-        .filter((id) => byId.has(id) && !GATED_STATUS.test(byId.get(id).status || ""))
-        .filter((id) => {
-          const m = (byId.get(id).metal_species || "").trim()
-          return (m === "Cr-total" ? "Cr" : m) === analyte
-        })
-        .map((id) => num(byId.get(id).value_ug_kg))
-        .filter((v) => v != null)
-      if (named.length) {
-        const strictest = roundDisplay(Math.min(...named))
-        if (strictest !== cell.value) {
-          F("C5", `${analyte}: published ${cell.value} but the strictest named anchor is ${strictest} — the number does not match the instrument it cites`)
+      // C12 baseline-screen contract — a baseline screen without a resolvable published method and a
+      // numeric LOQ that matches it is not a limit-of-record; it FAILS.
+      if (kind === "baseline_screen" || prov === "baseline-screen") {
+        if (kind !== "baseline_screen") F("C12", `${L}: baseline-screen provenance on a ${kind} cell`)
+        if (cell.value == null) F("C12", `${L}: baseline screen without a numeric LOQ`)
+        if (!cell.reference_method) F("C12", `${L}: baseline screen names no reference_method`)
+        if (!cell.loq_source_id) F("C12", `${L}: baseline screen names no loq_source_id`)
+        else {
+          const m = methodById.get(cell.loq_source_id)
+          if (!m) F("C12", `${L}: loq_source_id "${cell.loq_source_id}" is not in ${path.relative(REPO, METHODS_PATH)}`)
+          else {
+            if (GATED_STATUS.test(m.status || "")) F("C12", `${L}: method ${cell.loq_source_id} is gated (status="${m.status}")`)
+            if ((m.analyte || "").trim() !== analyte) F("C12", `${L}: method ${cell.loq_source_id} is validated for ${m.analyte}, not ${analyte}`)
+            const loq = num(m.loq_ug_kg)
+            if (loq == null || roundDisplay(loq) !== cell.value) F("C12", `${L}: publishes ${cell.value} but the method LOQ is ${loq == null ? "not numeric" : roundDisplay(loq)}`)
+            if (m.reference_method && cell.reference_method !== m.reference_method) F("C12", `${L}: reference_method "${cell.reference_method}" differs from the method register ("${m.reference_method}")`)
+            if (recGuard && !recGuard.test(`${m.basis || ""} ${m.matrix_class || ""}`)) F("C12", `${L}: method basis "${m.basis}" fails the record's basis_guard`)
+          }
         }
-      } else if (type !== "form_split") {
-        F("C5", `${analyte}: publishes ${cell.value} with no resolvable register anchor for this analyte`)
+        for (const k of ["no_ml_checked", "no_analog_checked", "no_pathway_rationale"]) if (!cell[k]) F("C12", `${L}: baseline screen missing ${k}`)
       }
-      // C10 basis disclosure
-      // basis may be recorded as `basis`, `basis_label`, `basis_note` or `binding_basis` depending on
-      // which compiler generation emitted the record; any one of them satisfies disclosure.
-      if (!cell.basis && !cell.basis_label && !cell.basis_note && !cell.binding_basis)
-        F("C10", `${analyte}: numeric cell carries no basis string`)
-    }
 
-    // C7 not-material contract
-    if (type === "not_material" || prov === "not-material") {
-      if (type === "subsumed") {
-        // a compiler-reconciled species cell; the bound is stated on the record
-      } else if (type === "not_material") {
-        const reg = nmRegistry.get(`${rec.slug}|${analyte}`) || {}
-        const where = cell.basis_class ? "record" : (reg.basis_class ? "registry" : "neither")
-        const cls = cell.basis_class || reg.basis_class || ""
-        const rationale = cell.rationale || reg.rationale || ""
-        const regBasis = cell.regulatory_basis || reg.regulatory_basis || ""
-        const juris = cell.jurisdictions_checked || reg.jurisdictions_checked || ""
-        const bounded = cell.bounded_by || reg.bounded_by || ""
-        if (!CLASS_VOCAB.has(cls)) F("C7", `${analyte}: not-material basis_class "${cls}" is not in the substantiation-gate vocabulary (checked ${where})`)
-        if (!rationale) F("C7", `${analyte}: not-material with no rationale`)
-        if (!regBasis) F("C7", `${analyte}: not-material with no regulatory_basis`)
-        if (!juris) F("C7", `${analyte}: not-material with no jurisdictions_checked`)
-        if (cls === "speciation-bounded" && !bounded) F("C7", `${analyte}: speciation-bounded not-material must name bounded_by`)
+      const numeric = cell.value != null
+      if (numeric && FIRM_KINDS.has(kind)) firm++
+      if (kind === "control") anyControl = true
+
+      // C3 / C4 anchor existence and liveness — every id, binding or context
+      const binding = new Set(bindingIds(cell))
+      for (const id of anchorIds(cell)) {
+        const row = byId.get(id)
+        if (!row) { F("C3", `${L}: anchor id "${id}" is not in the register`); continue }
+        if (GATED_STATUS.test(row.status || "")) F("C4", `${L}: anchor "${id}" is gated (status="${row.status}")`)
+        // A context disclosure is allowed to name another analyte's instrument; only a binding source
+        // must match the cell's analyte.
+        if (!binding.has(id)) continue
+
+        // C6 species integrity — the binding row's metal must match the cell's analyte
+        const rowMetal = (row.metal_species || "").trim()
+        const norm = rowMetal === "Cr-total" ? "Cr" : rowMetal
+        if (norm && norm !== analyte) {
+          const parent = SPECIES_OF[analyte]
+          const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
+          // C6d: a species instrument anchoring its TOTAL cell as a DISCLOSED protective read-across
+          // (species ≤ total by identity) is admitted when the cell declares
+          // species_direction "species-as-total-ceiling"; a total instrument never anchors a species.
+          if (norm === childOf && cell.species_direction === "species-as-total-ceiling" && kind === "read_across") {
+            W("C6d", `${L}: total-element cell anchored on the ${norm} instrument "${id}" as a disclosed species-as-total ceiling`)
+          } else if (norm === parent || norm === childOf) {
+            F("C6", `${L}: anchor "${id}" is a ${norm} limit — a species and its total-element parent are never interchangeable`)
+          } else {
+            F("C6", `${L}: anchor "${id}" is a ${norm} limit, not ${analyte}`)
+          }
+        }
+        // id-token cross-check catches a mislabelled register row the metal column alone would miss
+        const tok = METAL_TOKEN[analyte]
+        if (tok && norm === analyte && !tok.test(id) && !/^[a-z0-9]+_[a-z0-9]+_/.test(id)) {
+          W("C6", `${L}: anchor id "${id}" does not carry the analyte token`)
+        }
       }
-    }
 
-    // C8 control contract
-    if (type === "control") {
-      if (!cell.rationale) F("C8", `${analyte}: control with no rationale`)
-      if (!cell.reference_method) F("C8", `${analyte}: control with no reference_method — an unenforceable obligation`)
-    }
+      // C13 precautionary — a program value BELOW a disclosed, resolvable, in-force sovereign floor (or the parent total)
+      if (kind === "precautionary") {
+        const f = cell.sovereign_floor
+        if (!f || typeof f.value !== "number") F("C13", `${L}: precautionary cell has no resolvable sovereign floor`)
+        else {
+          if (!(cell.value < f.value)) F("C13", `${L}: precautionary value ${cell.value} is not below the sovereign floor ${f.value}`)
+          if (f.id) {
+            const r = byId.get(f.id)
+            if (!r) F("C13", `${L}: sovereign floor ${f.id} is not in the register`)
+            else if (GATED_STATUS.test(r.status || "")) F("C13", `${L}: sovereign floor ${f.id} is superseded or otherwise gated (${r.status})`)
+          } else if (!f.parent) F("C13", `${L}: precautionary floor names neither a register row nor a parent total`)
+        }
+      }
+      // C5 value fidelity — the published number must equal the strictest named anchor (a precautionary cell is checked by C13)
+      if (numeric && kind !== "precautionary") {
+        const named = bindingIds(cell)
+          .filter((id) => byId.has(id) && !GATED_STATUS.test(byId.get(id).status || ""))
+          .filter((id) => {
+            const m = (byId.get(id).metal_species || "").trim()
+            const norm = m === "Cr-total" ? "Cr" : m
+            if (norm === analyte) return true
+            // C6d: the species row IS the value-determining row of a species-as-total ceiling
+            const childOf = Object.entries(SPECIES_OF).find(([, p]) => p === analyte)?.[0]
+            return cell.species_direction === "species-as-total-ceiling" && norm === childOf
+          })
+          .map((id) => num(byId.get(id).value_ug_kg))
+          .filter((v) => v != null)
+        if (named.length) {
+          const factor = conversionFactor(rec, cell)
+          const strictest = roundDisplay(Math.min(...named) * factor)
+          if (strictest !== cell.value) {
+            F("C5", `${L}: published ${cell.value} but the strictest named anchor is ${strictest}${factor !== 1 ? ` (after the disclosed ×${factor === 8 ? "8" : "1/8"} basis conversion)` : ""} — the number does not match the instrument it cites`)
+          }
+        } else if (kind !== "form_split" && kind !== "special" && kind !== "baseline_screen") {
+          F("C5", `${L}: publishes ${cell.value} with no resolvable register anchor for this analyte`)
+        }
+        // C10 basis disclosure
+        // basis may be recorded as `basis`, `basis_label`, `basis_note` or `binding_basis` depending on
+        // which compiler generation emitted the record; any one of them satisfies disclosure.
+        if (!cell.basis && !cell.basis_label && !cell.basis_note && !cell.binding_basis)
+          F("C10", `${L}: numeric cell carries no basis string`)
+      }
 
-    // W1 stricter-unselected. Basis-aware: a candidate whose register basis falls outside the record's
-    // own basis_guard is not a stricter anchor at all, it is a different measured quantity (an
-    // element-migration or after-extraction value against a total-content ceiling). Warning on those
-    // buries a genuine same-basis miss in noise, so they are skipped here exactly as the compiler now
-    // skips them. Records compiled before `basis` was carried on the entry cannot be filtered and warn
-    // as before.
-    const recGuard = rec.basis_guard ? new RegExp(rec.basis_guard, "i") : null
-    for (const s of cell.stricter_unselected || []) {
-      if (recGuard && s.basis != null && !recGuard.test(s.basis)) continue
-      W("W1", `${analyte}: stricter credible row left unnamed — ${s.value} µg/kg [${s.jurisdiction}] ${s.id} ("${s.scope}")`)
+      // C7 not-material contract
+      if (kind === "not_material" || prov === "not-material") {
+        if (kind === "subsumed") {
+          // a compiler-reconciled species cell; the bound is stated on the record (C11 checks the parent)
+        } else if (kind === "not_material") {
+          const reg = nmRegistry.get(`${rec.slug}|${analyte}`) || {}
+          const where = cell.basis_class ? "record" : (reg.basis_class ? "registry" : "neither")
+          const cls = cell.basis_class || reg.basis_class || ""
+          const rationale = cell.rationale || reg.rationale || ""
+          const regBasis = cell.regulatory_basis || reg.regulatory_basis || ""
+          const juris = cell.jurisdictions_checked || reg.jurisdictions_checked || ""
+          const bounded = cell.bounded_by || reg.bounded_by || ""
+          if (!CLASS_VOCAB.has(cls)) F("C7", `${L}: not-material basis_class "${cls}" is not in the substantiation-gate vocabulary (checked ${where})`)
+          if (!rationale) F("C7", `${L}: not-material with no rationale`)
+          if (!regBasis) F("C7", `${L}: not-material with no regulatory_basis`)
+          if (!juris) F("C7", `${L}: not-material with no jurisdictions_checked`)
+          if (cls === "speciation-bounded" && !bounded) F("C7", `${L}: speciation-bounded not-material must name bounded_by`)
+        }
+      }
+
+      // C8 control contract
+      if (kind === "control") {
+        if (!cell.rationale) F("C8", `${L}: control with no rationale`)
+        if (!cell.reference_method) F("C8", `${L}: control with no reference_method — an unenforceable obligation`)
+      }
+
+      // W1 stricter-unselected. Basis-aware: a candidate whose register basis falls outside the record's
+      // own basis_guard is not a stricter anchor at all, it is a different measured quantity (an
+      // element-migration or after-extraction value against a total-content ceiling). Warning on those
+      // buries a genuine same-basis miss in noise, so they are skipped here exactly as the compiler now
+      // skips them. Records compiled before `basis` was carried on the entry cannot be filtered and warn
+      // as before.
+      for (const s of cell.stricter_unselected || []) {
+        if (recGuard && s.basis != null && !recGuard.test(s.basis)) continue
+        W("W1", `${L}: stricter credible row left unnamed — ${s.value} µg/kg [${s.jurisdiction}] ${s.id} ("${s.scope}")`)
+      }
     }
   }
 
@@ -285,14 +392,14 @@ function auditRecord(rec, file) {
   // unenforceable unless the record enumerates the components. Reported as a WARN rather than a FAIL
   // only because the pre-`components` compiler generation left this field off every record it emitted;
   // it flips to FAIL once every compiled dir has been rebuilt on a compiler that carries it.
-  if (Object.values(cells).some((c) => c && c.type === "control") && !rec.components)
+  if (anyControl && !rec.components)
     W("W3", `record has control cells but carries no component-level sampling plan — the control obligation is unenforceable as published`)
 
   return { file, slug: rec.slug, category: rec.category, firm, fails, warns }
 }
 
 function auditDir(dir) {
-  const abs = path.join(REPO, dir)
+  const abs = path.resolve(REPO, dir) // absolute paths (e.g. a cert dir) resolve as given
   if (!fs.existsSync(abs)) return { dir, error: "not found", records: [] }
   const records = []
   for (const f of fs.readdirSync(abs).sort()) {
@@ -354,4 +461,6 @@ if (JSON_OUT) {
 // compiler conventions; it reports but does not block. Naming dirs explicitly (or passing --block)
 // is the publication gate and exits non-zero on any FAIL.
 const blocking = !args.has("all") || args.has("block")
-process.exit(totalFails && blocking ? 1 : 0)
+// exitCode, not process.exit(): a large --json report to a pipe is written asynchronously and
+// process.exit() truncates it at the pipe buffer (observed at 64 KB on --all --json).
+process.exitCode = totalFails && blocking ? 1 : 0

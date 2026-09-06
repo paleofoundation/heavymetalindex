@@ -11,10 +11,15 @@
         "type": "gov",
         "value": 500,
         "value_exact": 500,
-        "binding_jurisdiction": "IN",
-        "binding_id": "in_fssai2016_pb_062_crustaceans_500",
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_pb_fish_crustaceans_500",
         "basis_note": "face value",
         "per_country": {
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_pb_fish_crustaceans_500"
+          },
           "IN": {
             "value": 500,
             "converted": true,
@@ -49,11 +54,6 @@
             "value": 500,
             "converted": true,
             "id": "py_decreto1335_2019_crustaceans_pb_500"
-          },
-          "IL": {
-            "value": 500,
-            "converted": true,
-            "id": "il_fcs2016_pb_10_1_crabs_muscle_500"
           },
           "MA": {
             "value": 500,
@@ -90,7 +90,8 @@
             "converted": true,
             "id": "sg_foodregs_2026_fish_crustaceans_molluscs_pb_2000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -104,8 +105,14 @@
             "value": 100,
             "converted": true,
             "id": "eu20251891_ias_crabs_prawns_shrimps_100"
+          },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_ias_aquatic_condiments_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -145,7 +152,8 @@
             "converted": true,
             "id": "mx_nom242_tas_crustaceans_bivalves_80000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
@@ -210,7 +218,8 @@
             "converted": true,
             "id": "gso193_2021_thg_fishery_products_and_muscle_meat_of_fish_with_exception_mentioned_crusta_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
         "type": "read_across",
@@ -231,7 +240,8 @@
             "converted": true,
             "id": "gso193_2021_mehg_crustaceans_and_crabs_1000"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "gov",
@@ -245,6 +255,11 @@
             "value": 500,
             "converted": true,
             "id": "eu2023_cd_crustaceans_500"
+          },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_cd_crustaceans_500"
           },
           "IN": {
             "value": 500,
@@ -275,11 +290,6 @@
             "value": 500,
             "converted": true,
             "id": "py_decreto1335_2019_crustaceans_cd_500"
-          },
-          "IL": {
-            "value": 500,
-            "converted": true,
-            "id": "il_fcs2016_cd_9_2_crabs_muscle_500"
           },
           "MA": {
             "value": 500,
@@ -316,17 +326,19 @@
             "converted": true,
             "id": "hk_cap132v_cd_crustaceans_2000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Ni": {
         "type": "read_across",
-        "value": 2000,
-        "value_exact": 2000,
-        "source_id": "eu2024_ni_husked_rice_2000",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "eu2024_ni_babyfood_500",
         "source_jurisdiction": "EU",
-        "label": "No government sets a nickel ML for animal seafood (EU 2024/1987 nickel covers plant foods and seaweed only). Read-across to the nearest whole-food nickel ceiling (EU 2024/1987 husked rice, 2000) that accommodates observed seafood nickel occurrence; clean product passes, grossly nickel-elevated product fails.",
+        "label": "Read-across from Regulation (EU) 2024/1987 nickel in baby food except juices (500 ug/kg, product as placed on market): no sovereign sets a nickel maximum level for fish, crustaceans, molluscs or cephalopods, and the wet-basis baby-food row, whose scope includes fish-based foods, is the nearest same-basis instrument; the dry husked-rice row (2000) the standard previously cited is a different basis and was refuted by M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "gov",
@@ -341,17 +353,37 @@
             "converted": true,
             "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "read_across",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 10,
         "value_exact": 10,
-        "source_id": "ca_swrcb_crvi_drinking_water_10",
-        "source_jurisdiction": "US-CA",
-        "label": "No government sets a hexavalent-chromium ML for food. Read-across to the California SWRCB drinking-water Cr(VI) MCL (10) as a conservative oral-intake species ceiling, kept below the total-chromium value. In a reducing animal-tissue matrix Cr(VI) reduces to Cr(III), so clean shellfish passes and a chromate-contaminated sample fails.",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "parent-total",
+          "parent": "Cr",
+          "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "value": 1000,
+          "jurisdiction": "HK",
+          "scope": null,
+          "basis": null
+        },
+        "floor_cell": {
+          "type": "subsumed",
+          "value": null,
+          "subsumed_by": "Cr",
+          "binding_parent_value": 1000,
+          "binding_parent_source": "HK",
+          "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+          "candidate": null
+        },
+        "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+        "label": "Precautionary: 10 ug/kg, below the sovereign floor of 1000 ug/kg (hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null
       },
       "Sn": {
         "type": "read_across",
@@ -361,7 +393,8 @@
         "source_jurisdiction": "EU",
         "label": "Tin is a can-migration analyte; no government sets a tin ML for non-canned seafood (every seafood tin ML is canned/tinplate-only). Read-across to the EU 2023/915 general canned-food inorganic-tin ML (200000) as a packaging-migration baseline; fresh/frozen shellfish has no tin source and passes. Canned shellfish is certified under the canned-seafood subcategory.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -371,7 +404,8 @@
         "source_jurisdiction": "CN",
         "label": "No government sets an aluminium contaminant ML for food; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI. Read-across to the nearest food aluminium instrument (China GB 2760 baked-foods aluminium, 100000) as a monitor/baseline ceiling; shellfish aluminium sits below it, so clean product passes while gross contamination fails. Flagged monitor/baseline, not per-lot-critical.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       }
     }
   },

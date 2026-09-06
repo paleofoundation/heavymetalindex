@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-f0284afb2a54974f-run-20260902-a",
+  "evidence_key": "f0284afb2a54974f",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "refuted",
+      "reason": "The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products' (Annex I 3.5.1, inorganic tin), does not reach dried seaweed sold uncanned, and its own exclusion of canned dried products means it would not reach this product even if canned, so 200000 is a read-across at face value. It is not the nearest same-basis sovereign instrument: Singapore Food Regulations reg. 31 'Any food' tin 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold, consolidation in force from 2026-01-30) and the Uruguay RBN general-food tin limit (uy_rbn_general_sn_foods_250mgkg, 250 mg/kg, 'foods in general except categories with particular limits') apply to dried seaweed directly on the as-sold basis, while every other tin instrument in the register (Codex CXS 193, FSANZ 'all canned foods', GB 2762-2025 Table 5 footnote a tinplate-only, Cap 132V since L.N. 113 of 2018) is confined to canned or tinplate-packaged food. 200000 can stand only as a disclosed precautionary tightening below the 250000 direct sovereign level, not as a canned-food read-across; no same-basis row stricter than 200000 covers this product."
+    }
+  ]
+}

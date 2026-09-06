@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-82a34805c720f325-run-20260902-a",
+  "evidence_key": "82a34805c720f325",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), whose 'and their products' wording reaches canned fish; Hong Kong Cap 132V 'Fish' total chromium 1000 (hk_cap132v_crtotal_fish_1000) would bind at 1000 if its food description is read to include canned fish, which the regulation page does not settle. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the parent total that certainly applies, 2000 (1000 if the HK 'Fish' description is confirmed to cover canned fish), disclosed as species-bounded, or carried as a disclosed baseline screen."
+    },
+    {
+      "key": "cephalopods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), the only parent-total row whose scope reaches non-fish aquatic animals; the Hong Kong 'Fish' row does not cover them and India 'All fishery products' 12000 is looser. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the parent total, 2000, disclosed as species-bounded, or carried as a disclosed baseline screen."
+    },
+    {
+      "key": "fish-freshwater|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): Hong Kong Cap 132V Part 2 'Fish' total chromium 1.0 mg/kg (hk_cap132v_crtotal_fish_1000) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), with India 'All fishery products' 12000 looser. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the stricter parent total, 1000, disclosed as a species-bounded value, or carried as a disclosed baseline screen."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): Hong Kong Cap 132V Part 2 'Fish' total chromium 1.0 mg/kg (hk_cap132v_crtotal_fish_1000) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), with India 'All fishery products' 12000 looser. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the stricter parent total, 1000, disclosed as a species-bounded value, or carried as a disclosed baseline screen."
+    },
+    {
+      "key": "fish-marine-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): Hong Kong Cap 132V Part 2 'Fish' total chromium 1.0 mg/kg (hk_cap132v_crtotal_fish_1000) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), with India 'All fishery products' 12000 looser. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the stricter parent total, 1000, disclosed as a species-bounded value, or carried as a disclosed baseline screen."
+    },
+    {
+      "key": "shellfish|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL of 0.010 mg/L for water delivered by public water systems (Title 22 section 64431), a ug/L water standard; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration', and the protocol treats a drinking-water row as a different basis family from a food-content cell, so (b) fails regardless of scope. No sovereign hexavalent-chromium food-content ML exists in the register (its 19 Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink, metal adornments and fertilisers), so the nearest same-basis sovereign instruments are the parent-total chromium rows that bound the species (Cr-VI is at most total Cr): GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000), the only parent-total row whose scope reaches non-fish aquatic animals; the Hong Kong 'Fish' row does not cover them and India 'All fishery products' 12000 is looser. A firm 10 ug/kg transposed from water is a manufactured number; the cell should be bounded by the parent total, 2000, disclosed as species-bounded, or carried as a disclosed baseline screen."
+    }
+  ]
+}

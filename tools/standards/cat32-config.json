@@ -1,6 +1,18 @@
 {
   "_doc": "Category-32 (Condiments, Sauces and Dressings) compiler config for tools/standards/compile-cat32.mjs — HMTc Method v2.0 (government-limit default). Numbers come ONLY from data/evidence/regulatory_limits.csv, selected per subcategory by explicit scope regex, strictest across jurisdictions, at FACE VALUE. Vinegar and tomato condiments have direct sovereign scopes (Vietnam QCVN 8-2 vinegar; Paraguay/MERCOSUR tomato concentrates; Singapore Food Regs ketchup). Soy sauce, fish sauce and mustard/mayo/dressings have NO direct sovereign ML and resolve by disclosed read-across from the nearest sovereign analog: Singapore 'tomato ketchup and other sauces' for the terrestrial condiment sauces; fish-muscle MLs for fish sauce (a fermented marine product); EU fruiting-vegetable nickel for tomato condiments. FISH SAUCE is the marine case: methylmercury IS material (aquatic methylation pathway) and is read across from the fish MeHg ML (Mexico NOM-242 500), then reconciled against the total-mercury read-across (EU lower-mercury fish 300) — where MeHg is not below tHg it is subsumed. No occurrence percentiles anywhere; every unregulated cell is a disclosed read-across, a control (reflex screen where a pathway exists), or a rebuttable not-material determination tested against the register each build.",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Cr", "Cr-VI", "Sn", "Al"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Cr",
+    "Cr-VI",
+    "Sn",
+    "Al"
+  ],
   "subcategories": {
     "vinegar": {
       "name": "Vinegar (distilled, wine, balsamic, cider, rice)",
@@ -8,7 +20,9 @@
       "canned": false,
       "lineage_note": "Vietnam QCVN 8-2 is the only sovereign that sets vinegar MLs (Pb 500, Cd 1000, tAs 200, tHg 50), so it governs directly. Hidden-hazard flag for the ratchet, NOT a missing limit: the FDA has issued balsamic- and wine-vinegar lead warning letters (grape-derived lead concentrated during must reduction, compounded historically by lead-bearing equipment), and measured balsamic lead can approach or exceed 500 ug/kg — so ALARA and the occurrence ratchet drive tightening after publication even though the sovereign ceiling is the correct initial value. Nickel and total chromium are held under a stainless-steel-migration screen because an acidic food in prolonged stainless contact leaches both.",
       "audit_scope": "vinegar",
-      "scope_include": ["vinegar"],
+      "scope_include": [
+        "vinegar"
+      ],
       "scope_exclude": [],
       "read_across": {
         "iAs": {
@@ -22,14 +36,15 @@
           "reference_method": null
         },
         "Ni": {
-          "control": true,
-          "rationale": "No sovereign nickel ML exists for vinegar, but an acidic food in prolonged contact with stainless steel (fermentation and storage vessels, tubing) leaches nickel. Because a real migration pathway exists, the cell is held under a reflex screen rather than declared not-material.",
-          "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context."
+          "source_id": "eu20202184_ni_drinking_water_20",
+          "label": "Ni 20 ug/kg: disclosed read-across from EU eu20202184_ni_drinking_water_20 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cr": {
-          "control": true,
-          "rationale": "No sovereign total-chromium ML exists for vinegar, but an acidic food in prolonged stainless-steel contact leaches chromium alongside nickel. Held under a reflex screen; any total-chromium exceedance triggers Cr(VI) speciation.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation (EPA 3060A + EPA 6800 / EN 15192) on any total-Cr exceedance."
+          "source_id": "nhmrc2025_crvi_drinking_water_50",
+          "label": "Cr 50 ug/kg: disclosed read-across from AU nhmrc2025_crvi_drinking_water_50 (drinking water). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis. The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell. Disclosed species-as-total ceiling: the anchor is a hexavalent-chromium limit applied as the ceiling for total chromium, which is at least as protective (total Cr ≤ the Cr-VI limit bounds Cr-VI as well); no sovereign sets a total-chromium level for this product on its basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
+          "species_direction": "species-as-total-ceiling"
         },
         "Cr-VI": {
           "control": true,
@@ -37,14 +52,26 @@
           "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "rationale": "Tin migrates only from tinplate cans; vinegar is sold in glass or plastic, not tinplate. A canned/tinned acidic product would fall under the canned-food tin ML and is out of this subcategory's scope.",
-          "reference_method": null
+          "source_id": "eu2023_sn_canned_beverages_100000",
+          "label": "Sn 100000 ug/kg: disclosed read-across from EU eu2023_sn_canned_beverages_100000 (canned beverages, including canned fruit and veg). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "not_material": true,
-          "rationale": "No sovereign aluminium ML exists for vinegar and no aluminium pathway operates in a bottled acid. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "eu20202184_al_drinking_water_200",
+          "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "gov_ids": [
+            "uy_rbn_general_cd_liquid_foods_0_1mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "gov_ids": [
+            "uy_rbn_general_tas_liquid_foods_0_1mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -54,7 +81,11 @@
       "canned": false,
       "lineage_note": "Soy sauce is a fermented seasoning SAUCE, so the Vietnam QCVN 8-2 generic 'Sauce' MLs govern directly (Pb 2000, Cd 1000, tAs 1000, tHg 50) — corroborated by the Singapore 'tomato ketchup and other sauces' finished-sauce ML (Pb 2000 / tAs 1000). These are loose ceilings flagged for the occurrence ratchet; soy sauce has a documented lead-contamination history (e.g. Hong Kong recalls). Nickel is held under a soy-accumulation screen because soybeans concentrate nickel (EU regulates soybean nickel at 15000) and no sovereign sets a sauce nickel ML.",
       "audit_scope": "soy sauce|soya sauce|\\bsauces?\\b",
-      "scope_include": ["soy sauce", "soya sauce", "\\bsauces?\\b"],
+      "scope_include": [
+        "soy sauce",
+        "soya sauce",
+        "\\bsauces?\\b"
+      ],
       "scope_exclude": [],
       "read_across": {
         "iAs": {
@@ -68,14 +99,14 @@
           "reference_method": null
         },
         "Ni": {
-          "control": true,
-          "rationale": "No sovereign nickel ML exists for soy sauce, but soybeans are strong nickel accumulators (EU regulates soybean nickel at 15000) and the ferment is soy-derived, so a real source pathway exists. Held under a reflex screen.",
-          "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context."
+          "source_id": "eu2024_ni_soy_beans_15000",
+          "label": "Ni 15000 ug/kg: disclosed read-across from EU eu2024_ni_soy_beans_15000 (soy beans, oilseed row). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for soy sauce; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "source_id": "china_gb2762_2025_crtotal_beans_legumes_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_beans_legumes_1000 (beans and bean products (legumes, pulses)). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_beans_legumes_1000 → successor china_gb2762_2025_crtotal_beans_legumes_1000"
         },
         "Cr-VI": {
           "control": true,
@@ -83,14 +114,32 @@
           "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "rationale": "Tin migrates only from tinplate cans; soy sauce is sold in glass or plastic, not tinplate. No non-canned tin pathway exists.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "not_material": true,
-          "rationale": "No sovereign aluminium ML exists for soy sauce and no aluminium pathway operates. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "gov_ids": [
+            "china_gb2762_2025_pb_condiments_excl_spices_1000"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_condiments_excl_spices_1000 → successor china_gb2762_2025_pb_condiments_excl_spices_1000"
+        },
+        "Cd": {
+          "gov_ids": [
+            "uy_rbn_general_cd_liquid_foods_0_1mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "tAs": {
+          "gov_ids": [
+            "uy_rbn_general_tas_liquid_foods_0_1mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -101,7 +150,10 @@
       "lineage_note": "No sovereign sets a fish-sauce ML. Fish sauce is a fermented marine product (anchovy hydrolysate), so every metal reads across from the fish-muscle sovereign MLs of the marine source: Pb 300 (EU muscle meat of fish), Cd 50 (Costa Rica fish in general), tAs 2000 (AU-NZ fish), iAs 100 (EU 2025/1891 muscle meat of fish), tHg 300 (EU lower-mercury fish). The generic Vietnam 'Sauce' MLs (tHg 50 etc.) are deliberately NOT applied: fish sauce is a marine fermentate whose contaminant profile follows its fish source, not the condiment-sauce category — and Vietnam, the world's largest fish-sauce producer, does not cap nuoc mam mercury at the generic-sauce 50 (anchovy-based fish sauce routinely exceeds it), which confirms nuoc mam sits outside that category. The generic-sauce values are retained in the audit trail as a different product form. Methylmercury IS material here — the aquatic methylation pathway is the whole point of a marine read-across — and is read across from the fish MeHg ML (Mexico NOM-242 500); it is then reconciled against total mercury, and because 500 is not below the 300 total-mercury ceiling it is subsumed (bounded by tHg, enforced by reflex speciation). Inorganic arsenic (100) is published alongside total arsenic (2000) because it is a strictly tighter toxic-species control: arsenic in fish is high but predominantly organic (arsenobetaine).",
       "audit_scope": "fish sauce|fish paste|\\bsauces?\\b",
       "audit_exclude_scope": "\\bsauces?\\b|tomato|ketchup|mango|soy",
-      "scope_include": ["fish sauce", "fish paste"],
+      "scope_include": [
+        "fish sauce",
+        "fish paste"
+      ],
       "scope_exclude": [],
       "read_across": {
         "Pb": {
@@ -129,14 +181,15 @@
           "label": "read-across from Mexico NOM-242 other-fishery methylmercury 500 — methylmercury IS material for a marine product (aquatic methylation pathway). Reconciled against total mercury: 500 is not below the 300 total-mercury ceiling, so methylmercury is subsumed and bounded by tHg."
         },
         "Ni": {
-          "not_material": true,
-          "rationale": "No sovereign nickel ML exists for fish sauce and fish are not nickel accumulators (the EU nickel regulation sets no fish ML). No concentration pathway comparable to a soybean or a hydrogenated fat operates. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "eu20202184_ni_drinking_water_20",
+          "label": "Ni 20 ug/kg: disclosed read-across from EU eu20202184_ni_drinking_water_20 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for fish sauce; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "source_id": "nhmrc2025_crvi_drinking_water_50",
+          "label": "Cr 50 ug/kg: disclosed read-across from AU nhmrc2025_crvi_drinking_water_50 (drinking water). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis. The source instrument writes the drinking-water chromium ceiling on the hexavalent species; it is adopted here as the total-chromium ceiling and disclosed as such, with the hexavalent fraction bound more tightly in the Cr-VI cell. Disclosed species-as-total ceiling: the anchor is a hexavalent-chromium limit applied as the ceiling for total chromium, which is at least as protective (total Cr ≤ the Cr-VI limit bounds Cr-VI as well); no sovereign sets a total-chromium level for this product on its basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
+          "species_direction": "species-as-total-ceiling"
         },
         "Cr-VI": {
           "control": true,
@@ -144,14 +197,14 @@
           "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "rationale": "Tin migrates only from tinplate cans; fish sauce is sold in glass or plastic, not tinplate. No non-canned tin pathway exists.",
-          "reference_method": null
+          "source_id": "eu2023_sn_canned_beverages_100000",
+          "label": "Sn 100000 ug/kg: disclosed read-across from EU eu2023_sn_canned_beverages_100000 (canned beverages, including canned fruit and veg). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "not_material": true,
-          "rationale": "No sovereign aluminium ML exists for fish sauce and no aluminium pathway operates. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "eu20202184_al_drinking_water_200",
+          "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -162,10 +215,24 @@
       "lineage_note": "Ketchup and salsa are certified against the stricter tomato-CONCENTRATE lead and total-arsenic MLs (Pb/tAs 500, Paraguay/MERCOSUR) rather than the looser finished-ketchup (Singapore 2000) or generic-sauce (Vietnam 'Sauce' Pb 2000 / tAs 1000) MLs — a protective, government-cited choice; the finished-ketchup, generic-sauce, and canned/preserved whole-tomato MLs (Pb 50) are retained in the per-country audit trail as different product forms. Cadmium (1000) and total mercury (50) are governed by the Vietnam generic 'Sauce' category (no tomato-specific value exists — tomatoes are explicitly carved OUT of the fruiting-vegetable cadmium ML). Nickel reads across from the EU fruiting-vegetable Ni ML (400) because tomatoes are fruiting vegetables. Canned tomato condiments fall under the canned-food tin ML and are out of this bottled subcategory's scope.",
       "audit_scope": "tomato|ketchup|\\bsauces?\\b",
       "audit_exclude_scope": "preserved|canned|juice|\\bdrink|excluding tomato|edible fungi|hot sauce|fruiting veget",
-      "scope_include": ["tomato ketchup", "tomato concentrate", "tomato puree", "tomato paste", "\\bsauces?\\b"],
-      "scope_exclude": ["preserved tomato", "canned tomato", "tomato juice"],
+      "scope_include": [
+        "tomato ketchup",
+        "tomato concentrate",
+        "tomato puree",
+        "tomato paste",
+        "\\bsauces?\\b"
+      ],
+      "scope_exclude": [
+        "preserved tomato",
+        "canned tomato",
+        "tomato juice"
+      ],
       "analyte_scope": {
-        "Sn": { "exclude": ["tomato"] }
+        "Sn": {
+          "exclude": [
+            "tomato"
+          ]
+        }
       },
       "read_across": {
         "iAs": {
@@ -183,9 +250,9 @@
           "label": "read-across from EU 2024/1987 fruiting-vegetables nickel 400 — tomatoes are fruiting vegetables; the source-commodity nickel ML applied at face value."
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for tomato condiments; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         },
         "Cr-VI": {
           "control": true,
@@ -193,14 +260,20 @@
           "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "rationale": "Tin migrates only from tinplate cans; this subcategory is bottled ketchup and salsa in glass or plastic. Canned tomato condiments carry the canned-food tin ML and are out of scope here.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "not_material": true,
-          "rationale": "No sovereign aluminium ML exists for tomato condiments and no aluminium pathway operates in a bottled product. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cd": {
+          "gov_ids": [
+            "uy_rbn_general_cd_solid_foods_0_2mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     },
@@ -211,8 +284,16 @@
       "lineage_note": "Prepared mustard, mayonnaise and salad dressings are condiment SAUCES, so the Vietnam QCVN 8-2 generic 'Sauce' MLs govern directly (Pb 2000, Cd 1000, tAs 1000, tHg 50) — corroborated by the Singapore 'tomato ketchup and other sauces' finished-sauce ML (Pb 2000 / tAs 1000). Loose ceilings flagged for the occurrence ratchet. Nickel is held under a seed/oil-derived screen (mustard is a brassica seed; mayonnaise and vinaigrettes are oil emulsions carrying nickel from the oil fraction). The register's mustard OIL (India vegetable-oils) and mustard GREENS (EU leafy) MLs are different product forms and are excluded from selection and downgraded in the audit.",
       "audit_scope": "\\bsauces?\\b|mayonnaise|salad dressing|\\bdressing|prepared mustard|\\bmustard",
       "audit_exclude_scope": "dried herbs|spices|vegetable oil|edible oil|spinach|leaves|\\bherbs|greens|hot sauce",
-      "scope_include": ["mayonnaise", "salad dressing", "prepared mustard", "\\bsauces?\\b"],
-      "scope_exclude": ["mustard oil", "vegetable oil"],
+      "scope_include": [
+        "mayonnaise",
+        "salad dressing",
+        "prepared mustard",
+        "\\bsauces?\\b"
+      ],
+      "scope_exclude": [
+        "mustard oil",
+        "vegetable oil"
+      ],
       "read_across": {
         "iAs": {
           "control": true,
@@ -225,14 +306,14 @@
           "reference_method": null
         },
         "Ni": {
-          "control": true,
-          "rationale": "No sovereign nickel ML exists for these condiments, but mustard is a brassica seed and mayonnaise and vinaigrettes are oil emulsions that carry any nickel from the oil fraction (residual hydrogenation catalyst in a hardened component). Held under a reflex screen.",
-          "reference_method": "Total nickel by ICP-MS on each lot; monitored under ALARA against the tightest available food nickel context."
+          "source_id": "eu2024_ni_cereals_800",
+          "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cr": {
-          "not_material": true,
-          "rationale": "No sovereign total-chromium ML exists for these condiments; the only food chromium MLs in the register are dairy. Rebuttable and audited each build.",
-          "reference_method": "Total Cr by ICP-MS screen; reflex Cr(VI) speciation on any total-Cr exceedance."
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "label": "Cr 1000 ug/kg: disclosed read-across from CN china_gb2762_crtotal_grains_1000 (grains and grain products including cereals and ). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         },
         "Cr-VI": {
           "control": true,
@@ -240,16 +321,29 @@
           "reference_method": "IC-ICP-MS Cr(VI) speciation on any total-Cr exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "rationale": "Tin migrates only from tinplate cans; these condiments are sold in glass or plastic, not tinplate. No non-canned tin pathway exists.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "not_material": true,
-          "rationale": "No sovereign aluminium ML exists for these condiments and no aluminium pathway operates. Rebuttable and audited each build.",
-          "reference_method": null
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Pb": {
+          "gov_ids": [
+            "china_gb2762_2025_pb_condiments_excl_spices_1000"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_pb_condiments_excl_spices_1000 → successor china_gb2762_2025_pb_condiments_excl_spices_1000"
+        },
+        "Cd": {
+          "gov_ids": [
+            "uy_rbn_general_cd_solid_foods_0_2mgkg"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "27 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 13 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat32-compiled.json"
 }

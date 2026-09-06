@@ -1,0 +1,323 @@
+{
+  "compiled_dir": "seafood-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2025/1891/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2025-1891-inorganic-arsenic-fish-seafood.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20251891_ias_fish_other_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "muscle meat of fish, species other than those listed under Annex I 3.4.5.2",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.5.1; inorganic arsenic is sum of As(III) and As(V); wet-weight value 0.10 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a6f020f83800f828e5415223b1741f7f667c6ae1abaaff177b0af4a294eacc8f",
+          "row_sha256": "a6f020f83800f828e5415223b1741f7f667c6ae1abaaff177b0af4a294eacc8f"
+        },
+        {
+          "regulatory_limit_id": "eu20251891_ias_cephalopods_50",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "50",
+          "basis": "wet weight",
+          "product_scope": "cephalopods",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.8; value applies to the animal without viscera; wet-weight value 0.050 mg/kg normalized to 50 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "44fce1babb29c819bbb66e569c0a9ae36915b0be065a305d2cf1cacfd9356921",
+          "row_sha256": "44fce1babb29c819bbb66e569c0a9ae36915b0be065a305d2cf1cacfd9356921"
+        },
+        {
+          "regulatory_limit_id": "eu20251891_ias_crabs_prawns_shrimps_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "crabs and crab-like crustaceans (Brachyura and Anomura), prawns, and shrimps",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.6.1; value applies to muscle meat from appendages for crabs and crab-like crustaceans; wet-weight value 0.10 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "c3588759dc6d78771d70da21babdb1b660f0ca0426bc1fcd5cb3b7ba025f6ede",
+          "row_sha256": "c3588759dc6d78771d70da21babdb1b660f0ca0426bc1fcd5cb3b7ba025f6ede"
+        }
+      ],
+      "cells": [
+        "canned-seafood|both|iAs",
+        "cephalopods|both|iAs",
+        "fish-freshwater|both|iAs",
+        "fish-marine-non-predatory|both|iAs",
+        "fish-marine-predatory|both|iAs",
+        "shellfish|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_babyfood_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "baby food except juices",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "3291dca8c9c771aefb74cba44c020df0a80f02d43fd9d4e951e186cdc45f58d5",
+          "row_sha256": "3291dca8c9c771aefb74cba44c020df0a80f02d43fd9d4e951e186cdc45f58d5"
+        }
+      ],
+      "cells": [
+        "canned-seafood|both|Ni",
+        "cephalopods|both|Ni",
+        "fish-freshwater|both|Ni",
+        "fish-marine-non-predatory|both|Ni",
+        "fish-marine-predatory|both|Ni",
+        "shellfish|both|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_fish_1000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fish",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 1 mg/kg; Note 2: edible portion after removal of the digestive tract (if any)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3e33af7d46ab85b891ebdd5df1283485a9477811cbb055a3f04531705b0fe375",
+          "row_sha256": "3e33af7d46ab85b891ebdd5df1283485a9477811cbb055a3f04531705b0fe375"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "MeHg",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fish (other than those fish specified in this item), fish balls and fish cakes",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 11 (Mercury (expressed as methyl-mercury)); source value 0.5 mg/kg; Note 2: edible portion after removal of the digestive tract (if any)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "376c81648276b13fcad5e1fd88a2158af09333b827f0fb9046e503f5f572ced2",
+          "row_sha256": "376c81648276b13fcad5e1fd88a2158af09333b827f0fb9046e503f5f572ced2"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Crabs, prawns and shrimps",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 1 mg/kg; Note 3: crabs — whole commodity (incl. gonads, liver and other digestive organs) after removal of shell and gills",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "7dd8fd6f8a0dfa5d5cf94296cac4d4789178d2fb3ed01e5d42d5fb7181a8b0fc",
+          "row_sha256": "7dd8fd6f8a0dfa5d5cf94296cac4d4789178d2fb3ed01e5d42d5fb7181a8b0fc"
+        }
+      ],
+      "cells": [
+        "canned-seafood|both|Cr",
+        "canned-seafood|both|Cr-VI",
+        "fish-freshwater|both|Cr",
+        "fish-freshwater|both|Cr-VI",
+        "fish-marine-non-predatory|both|Cr",
+        "fish-marine-non-predatory|both|Cr-VI",
+        "fish-marine-predatory|both|MeHg",
+        "fish-marine-predatory|both|Cr",
+        "fish-marine-predatory|both|Cr-VI",
+        "shellfish|both|Cr",
+        "shellfish|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/india-fssai-2016-heavy-metals-third-amendment",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/india-fssai-2016-heavy-metals-third-amendment.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "in_fssai2016_crtotal_001_all_fishery_products_12000",
+          "jurisdiction": "IN",
+          "authority": "Food Safety and Standards Authority of India",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "12000",
+          "basis": "parts per million by weight",
+          "product_scope": "All fishery products",
+          "regulation_page": "regulations/india-fssai-2016-heavy-metals-third-amendment",
+          "url": "",
+          "notes": "Food Safety and Standards (Contaminants, toxins and Residues) Third Amendment Regulations, 2016; regulation 2 table insertion against serial number 9 Chromium; source value 12 parts per million by weight. Chromium is unspecified, recorded as Cr-total.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "438222ae7fd1f68e8942c3616014becd4b34159d6d0d033a9adbacad8d153806",
+          "row_sha256": "438222ae7fd1f68e8942c3616014becd4b34159d6d0d033a9adbacad8d153806"
+        }
+      ],
+      "cells": [
+        "cephalopods|both|Cr",
+        "cephalopods|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_algae_products_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Algae products, excluding spirulina products (GB 2762-2025 Table 1, item 6.3)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 6.3; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.4; source value 1.0 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f00856e9a31182239d35521b6c5625d5f224f61fe9dff72d787e3b96beb441c6",
+          "row_sha256": "f00856e9a31182239d35521b6c5625d5f224f61fe9dff72d787e3b96beb441c6"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "seaweed-kelp-foods|both|Pb",
+        "seaweed-kelp-foods|both|Cr",
+        "seaweed-kelp-foods|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/france-cshpf-edible-seaweed",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/fr/."
+        ],
+        "wiki_page": null
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "fr_cshpf_seaweed_cd_500",
+          "jurisdiction": "FR",
+          "authority": "Conseil Superieur d Hygiene Publique de France (CSHPF) / DGCCRF",
+          "status": "recommended maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "dry weight (edible seaweed, human consumption)",
+          "product_scope": "edible seaweed (dried, human consumption)",
+          "regulation_page": "regulations/france-cshpf-edible-seaweed",
+          "url": "",
+          "notes": "France CSHPF recommendation on edible macroalgae for human consumption; French inorganic-arsenic edible-seaweed limit 3 mg/kg dw corroborated in-corpus by llorente-mirandes2011; companion set Cd 0.5 / Pb 5 / Hg 0.1 mg/kg dw. Restores the binding rows the live cert seaweed standard already cites (fr_cshpf_seaweed_*) that were absent from the register (provenance gap, 2026-08-25). PRIMARY DOC TO ARCHIVE in raw/regulatory/fr/.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "b3565fb6e69a2ec2201e462c86915ca80cd41b7241ebf8f4508c2f7ed0e3d57b",
+          "row_sha256": "b3565fb6e69a2ec2201e462c86915ca80cd41b7241ebf8f4508c2f7ed0e3d57b"
+        },
+        {
+          "regulatory_limit_id": "fr_cshpf_seaweed_thg_100",
+          "jurisdiction": "FR",
+          "authority": "Conseil Superieur d Hygiene Publique de France (CSHPF) / DGCCRF",
+          "status": "recommended maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "100",
+          "basis": "dry weight (edible seaweed, human consumption)",
+          "product_scope": "edible seaweed (dried, human consumption)",
+          "regulation_page": "regulations/france-cshpf-edible-seaweed",
+          "url": "",
+          "notes": "France CSHPF recommendation on edible macroalgae for human consumption; French inorganic-arsenic edible-seaweed limit 3 mg/kg dw corroborated in-corpus by llorente-mirandes2011; companion set Cd 0.5 / Pb 5 / Hg 0.1 mg/kg dw. Restores the binding rows the live cert seaweed standard already cites (fr_cshpf_seaweed_*) that were absent from the register (provenance gap, 2026-08-25). PRIMARY DOC TO ARCHIVE in raw/regulatory/fr/.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3d4dc9a96cd24681bad0531d1196dddde42ded8e3bd71cfb682fd91cc71b20ac",
+          "row_sha256": "3d4dc9a96cd24681bad0531d1196dddde42ded8e3bd71cfb682fd91cc71b20ac"
+        }
+      ],
+      "cells": [
+        "seaweed-kelp-foods|both|Cd",
+        "seaweed-kelp-foods|both|tHg",
+        "seaweed-kelp-foods|both|MeHg"
+      ]
+    }
+  ]
+}

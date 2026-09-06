@@ -1,0 +1,162 @@
+{
+  "packet_id": "m1-20260902-g3",
+  "run_id": "run-20260902-a",
+  "instruments": [
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8",
+          "row_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74",
+          "row_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "5000",
+          "basis": "product as placed on market",
+          "product_scope": "Dried seaweed",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 8.1; limit 5 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2e4fafdcf99f3f3637dbf578747afa9746ff4bfbe8099b84b0970e48e891462a",
+          "row_sha256": "2e4fafdcf99f3f3637dbf578747afa9746ff4bfbe8099b84b0970e48e891462a"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "5000",
+          "basis": "product as placed on market",
+          "product_scope": "Dried seaweed",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew arsenic table total-arsenic column; English commodity scope is translated from the source row. Source row 7.1; limit 5 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "103fae9d83d066d5c37514a7026d83836cf39af7ab174f37c2423bc278d33a0d",
+          "row_sha256": "103fae9d83d066d5c37514a7026d83836cf39af7ab174f37c2423bc278d33a0d"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_cephalopods_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "wet weight",
+          "product_scope": "cephalopods",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Fishery commodity row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "89fa0185ed7e26b5a49aa0cb56836c8601af9e0b8be7930442057c6a36753734",
+          "row_sha256": "89fa0185ed7e26b5a49aa0cb56836c8601af9e0b8be7930442057c6a36753734"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_crustaceans_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "crustaceans",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Fishery commodity row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a484c923be1a249c82779bb1a00a7dd88a0cf1744329b702bbf6e1f3b901512b",
+          "row_sha256": "a484c923be1a249c82779bb1a00a7dd88a0cf1744329b702bbf6e1f3b901512b"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+      "primary_text": {
+        "register_urls": [
+          "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/gso-193-2021-contaminants-toxins-food-feed.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "jurisdiction": "GSO",
+          "authority": "GCC Standardization Organization",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "muscle meat",
+          "product_scope": "Muscle meat of fish with exception mentioned",
+          "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a",
+          "row_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a"
+        }
+      ]
+    }
+  ],
+  "row_count": 7
+}

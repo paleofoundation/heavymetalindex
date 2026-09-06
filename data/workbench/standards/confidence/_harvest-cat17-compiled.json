@@ -1,0 +1,507 @@
+{
+  "compiled_dir": "cat17-compiled",
+  "generated": "2026-09-02T11:25:05.698Z",
+  "targets": 42,
+  "applied": [
+    {
+      "slug": "pet-chews-dental",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-chews-dental",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-canned-wet",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "pet-food-canned-wet",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-dry-kibble",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-food-dry-kibble",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-fish-marine-protein",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "pet-food-fish-marine-protein",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "eu2023_sn_canned_foods_200000"
+    },
+    {
+      "slug": "pet-food-fish-marine-protein",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-freeze-dried",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-food-freeze-dried",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-raw",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "pet-food-raw",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "eu2023_sn_canned_foods_200000"
+    },
+    {
+      "slug": "pet-food-raw",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-food-semi-moist",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-food-semi-moist",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-milk-replacers-specialty-liquids",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-toppers-mixers-broths",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "pet-toppers-mixers-broths",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 200000,
+      "anchor": "eu2023_sn_canned_foods_200000"
+    },
+    {
+      "slug": "pet-toppers-mixers-broths",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "pet-treats-snacks",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "pet-treats-snacks",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "pet-chews-dental",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-chews-dental",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-canned-wet",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-canned-wet",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-dry-kibble",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-dry-kibble",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-fish-marine-protein",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-freeze-dried",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-freeze-dried",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-raw",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-raw",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-semi-moist",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-food-semi-moist",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-milk-replacers-specialty-liquids",
+      "variant": "both",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-milk-replacers-specialty-liquids",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-milk-replacers-specialty-liquids",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-toppers-mixers-broths",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-toppers-mixers-broths",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-treats-snacks",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "pet-treats-snacks",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    }
+  ]
+}

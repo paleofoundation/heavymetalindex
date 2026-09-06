@@ -62,8 +62,14 @@
             "value": 200,
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_pb_200"
+          },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_pb_baijiu_huangjiu_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -96,7 +102,7 @@
           "CN": {
             "value": 60,
             "converted": true,
-            "id": "cn_cd_cereal-based-complementary-foods-for-inf_60"
+            "id": "china_gb2762_2025_cd_cereal_complementary_foods_infants_60"
           },
           "AU-NZ": {
             "value": 100,
@@ -143,17 +149,13 @@
             "converted": true,
             "id": "hk_cap132v_cd_cereals-other-than-buckwheat-ca-ihua-quinoa-wheat-and-r_100"
           },
-          "IL": {
-            "value": 200,
-            "converted": true,
-            "id": "il_fcs2016_cd_5_1_wheat_and_rice_200"
-          },
           "PH": {
             "value": 400,
             "converted": true,
             "id": "ph_pns194_2017_polished_rice_cd_400"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -178,45 +180,125 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_tas_300"
           },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_tas_cereals_excl_paddy_rice_500"
+          },
           "HK": {
             "value": 500,
             "converted": true,
             "id": "hk_cap132v_tas_cereals-other-than-rice_500"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_5_2_rice_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "subsumed",
-        "value": null,
-        "subsumed_by": "tAs",
-        "binding_parent_value": 50,
-        "binding_parent_source": "IN",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic; no separate iAs ceiling is published.",
-        "candidate": {
-          "type": "gov",
-          "value": 100,
-          "source_jurisdiction": "US",
-          "source_id": "fda2020_ias_infant_rice_cereal_100"
-        }
-      },
-      "tHg": {
         "type": "read_across",
-        "value": 8,
-        "value_exact": 8,
-        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "source_jurisdiction": "IL",
-        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
+        "value": 20,
+        "value_exact": 20,
+        "source_id": "eu2023_ias_babyfood_20",
+        "source_jurisdiction": "EU",
+        "label": "government read-across (infant-protective): EU 2023/915 inorganic-arsenic ML 0.020 mg/kg for baby foods applied to rice-based infant cereals and snacks in place of the rice-specific 0.10 mg/kg, so the species ceiling sits below the India total-arsenic 50 and is published as its own number (audit wf2uta7ck; CAT1-ARSENIC-UPSTREAM-RECONCILIATION)",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {
-          "IL": {
-            "value": 30,
+          "US": {
+            "value": 100,
             "converted": true,
-            "id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
+            "id": "fda2020_ias_infant_rice_cereal_100"
+          },
+          "CA": {
+            "value": 100,
+            "converted": true,
+            "id": "ca_ias_rice-based-foods-intended-specifically-f_100"
+          },
+          "GSO": {
+            "value": 100,
+            "converted": true,
+            "id": "gso193_2021_ias_rice_for_baby_and_infant_food_100"
+          },
+          "KR": {
+            "value": 100,
+            "converted": true,
+            "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
+          },
+          "EU": {
+            "value": 150,
+            "converted": true,
+            "id": "eu2023_ias_rice_milled_150"
+          },
+          "BR": {
+            "value": 150,
+            "converted": true,
+            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
+          },
+          "TH": {
+            "value": 200,
+            "converted": true,
+            "id": "th_moph414_2020_ias_polished_rice_200"
+          },
+          "SG": {
+            "value": 200,
+            "converted": true,
+            "id": "sg_foodregs_2026_polished_rice_ias_200"
+          },
+          "PH": {
+            "value": 200,
+            "converted": true,
+            "id": "ph_pns194_2017_polished_rice_ias_200"
+          },
+          "HK": {
+            "value": 200,
+            "converted": true,
+            "id": "hk_cap132v_ias_polished-rice_200"
+          }
+        },
+        "provenance": "read-across"
+      },
+      "tHg": {
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 8,
+        "value_exact": 8,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "value": 20,
+          "jurisdiction": "CN",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "CN",
+          "binding_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "CN": {
+              "value": 20,
+              "converted": false,
+              "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 8 ug/kg, below the sovereign floor of 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
+        "per_country": {
+          "CN": {
+            "value": 20,
+            "converted": false,
+            "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
           }
         }
       },
@@ -224,10 +306,11 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 20,
+        "binding_parent_source": "CN",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -242,7 +325,8 @@
             "converted": true,
             "id": "eu2024_ni_processed_cereal_babyfood_3000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -257,7 +341,8 @@
             "converted": true,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "read_across",
@@ -273,26 +358,34 @@
             "converted": true,
             "id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "Total-Cr reflex speciation: any lot with total Cr >100 ug/kg triggers hexavalent-chromium (Cr-VI) speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. Non-dairy grain matrix — the only register Cr value (China milk powder 2000) is a dairy analogy and is not read across.",
-        "reference_method": "Cr-VI by IC-ICP-MS (EPA 6800 / EN 15192 isotope-dilution speciation) on any total-Cr exceedance.",
-        "basis_class": "method-artifact",
-        "rationale": "Total-Cr reflex speciation: any lot with total Cr >100 ug/kg triggers hexavalent-chromium (Cr-VI) speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. Non-dairy grain matrix — the only register Cr value (China milk powder 2000) is a dairy analogy and is not read across.",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "basis_note": "face value",
+        "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": true,
+            "id": "china_gb2762_2025_crtotal_cereals_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

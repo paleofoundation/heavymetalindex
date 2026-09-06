@@ -28,7 +28,7 @@ function parseCSV(t){const r=[];let f=[],c="",q=false;for(let i=0;i<t.length;i++
 const rows=parseCSV(fs.readFileSync(path.isAbsolute(REGISTER)?REGISTER:path.join(REPO,REGISTER),"utf8"));
 const H=rows[0],I=n=>H.indexOf(n);
 const byId=new Map(rows.slice(1).map(r=>[r[I("regulatory_limit_id")],{val:+r[I("value_ug_kg")],jur:r[I("jurisdiction")],met:r[I("metal_species")],bc:r[I("basis_class")],basis:r[I("basis")],scope:r[I("product_scope")],stat:r[I("status")]}]));
-const GATED=/draft|withdrawn|superseded|quarantine|proposed|repealed/i;
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const GATED=STATUS_GATE; // unified register status gate + not-yet-in-force (Phase A6)
 const PARENT={iAs:"tAs",MeHg:"tHg","Cr-VI":"Cr"};
 const roundDisplay=x=>{if(x==null)return null;if(x>=100000)return Math.round(x/1000)*1000;if(x>=1000)return Math.round(x/100)*100;if(x>=100)return Math.round(x/10)*10;if(x>=10)return Math.round(x);if(x>=1)return Math.round(x*10)/10;return Math.round(x*100)/100};
 

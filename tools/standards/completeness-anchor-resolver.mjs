@@ -17,7 +17,7 @@ const rows=parseCSV(fs.readFileSync(path.join(REPO,"data/evidence/regulatory_lim
 const H=rows[0],I=n=>H.indexOf(n);
 const iId=I("regulatory_limit_id"),iJur=I("jurisdiction"),iMet=I("metal_species"),iVal=I("value_ug_kg"),iBC=I("basis_class"),iBasis=I("basis"),iScope=I("product_scope"),iStat=I("status");
 const REG=rows.slice(1).map(r=>({id:r[iId],jur:r[iJur],met:r[iMet],val:+r[iVal],bc:r[iBC],basis:r[iBasis],scope:(r[iScope]||"").toLowerCase(),stat:r[iStat]})).filter(r=>r.id&&!isNaN(r.val));
-const GATED=/draft|withdrawn|superseded|quarantine|proposed|repealed/i;
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const GATED=STATUS_GATE; // unified register status gate + not-yet-in-force (Phase A6)
 const PARENT={iAs:"tAs",MeHg:"tHg","Cr-VI":"Cr"};
 
 // general-food catch-all scope patterns (apply to any food, as-sold)

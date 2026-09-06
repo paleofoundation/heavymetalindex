@@ -1,0 +1,2233 @@
+{
+  "compiled_dir": "cat23-compiled",
+  "generated": "2026-09-02T10:34:15.643Z",
+  "targets": 232,
+  "applied": [
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cookware-nonstick-coated",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cookware-nonstick-coated",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cookware-nonstick-coated",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cutting-boards",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cutting-boards",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cutting-boards",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-cans-lids",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-cans-lids",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-cans-lids",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-caps-closures",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-caps-closures",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-caps-closures",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-flexible-pouches-films",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-flexible-pouches-films",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-flexible-pouches-films",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 5000,
+      "anchor": "cn_al_food-contact-metal-migration_5000"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250"
+    },
+    {
+      "slug": "food-packaging-foils-wraps",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-paperboard-cartons",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-paperboard-cartons",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-paperboard-cartons",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-packaging-plastic-tubs",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-packaging-plastic-tubs",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-packaging-plastic-tubs",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-prep-blender-jars",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-prep-blender-jars",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-prep-blender-jars",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-prep-processor-bowls",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-prep-processor-bowls",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-prep-processor-bowls",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-storage-lids-gaskets",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-storage-lids-gaskets",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-storage-lids-gaskets",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-storage-plastic-containers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-storage-plastic-containers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-storage-plastic-containers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "food-storage-silicone",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "food-storage-silicone",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "food-storage-silicone",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "tableware-plastic-drinkware",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tableware-plastic-drinkware",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tableware-plastic-drinkware",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "utensils-plastic-silicone-tools",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "utensils-plastic-silicone-tools",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "utensils-plastic-silicone-tools",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "bakeware",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1500,
+      "anchor": "uy_rbn_pb_cookware_storage_gt3l_1_5mgkg",
+      "why": "uy_rbn_pb_cookware_storage_gt3l_1_5mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100,
+      "anchor": "uy_rbn_cd_cookware_storage_gt3l_0_1mgkg",
+      "why": "uy_rbn_cd_cookware_storage_gt3l_0_1mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-ceramic-coated",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-metal-alloy",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-nonstick-coated",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cookware-specialty-alloy",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "cutting-boards",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu20202184_pb_drinking_water_5",
+      "why": "eu20202184_pb_drinking_water_5 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "nhmrc2025_cd_drinking_water_2",
+      "why": "nhmrc2025_cd_drinking_water_2 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu20202184_tas_drinking_water_10",
+      "why": "eu20202184_tas_drinking_water_10 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1,
+      "anchor": "eu20202184_thg_drinking_water_1",
+      "why": "eu20202184_thg_drinking_water_1 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu20202184_ni_drinking_water_20",
+      "why": "eu20202184_ni_drinking_water_20 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "eu2023_sn_canned_beverages_100000",
+      "why": "eu2023_sn_canned_beverages_100000 basis \"product as placed on market\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200",
+      "why": "eu20202184_al_drinking_water_200 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "filter-media-and-housings",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+      "why": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl basis \"drinking water; source unit mg/L\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-cans-lids",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-caps-closures",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-flexible-pouches-films",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_pb_sml_nd",
+      "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "eu_10_2011_cd_sml_nd",
+      "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-glass-jars",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-paperboard-cartons",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-packaging-plastic-tubs",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-blender-jars",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-coffee-maker-pathways",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-kettle-interiors",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-prep-processor-bowls",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_pb_sml_nd",
+      "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "eu_10_2011_cd_sml_nd",
+      "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-glass-containers",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-lids-gaskets",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-plastic-containers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "food-storage-silicone",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 4000,
+      "anchor": "uy_rbn_pb_ceramic_fillable_objects_4mgkg",
+      "why": "uy_rbn_pb_ceramic_fillable_objects_4mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 300,
+      "anchor": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg",
+      "why": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-ceramicware",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 4000,
+      "anchor": "uy_rbn_pb_ceramic_fillable_objects_4mgkg",
+      "why": "uy_rbn_pb_ceramic_fillable_objects_4mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 300,
+      "anchor": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg",
+      "why": "uy_rbn_cd_ceramic_fillable_objects_0_3mgkg basis \"source unit mg/kg or ppm as noted; product/migration basis preserved in notes\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-decorative-decals-coatings",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_pb_sml_nd",
+      "why": "eu_10_2011_pb_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "eu_10_2011_cd_sml_nd",
+      "why": "eu_10_2011_cd_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_tas_sml_nd",
+      "why": "eu_10_2011_tas_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu_10_2011_ni_sml",
+      "why": "eu_10_2011_ni_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "eu_10_2011_al_sml",
+      "why": "eu_10_2011_al_sml basis \"specific migration into food; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-glassware",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_crtotal_sml_nd",
+      "why": "eu_10_2011_crtotal_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-metal-bottles-tumblers",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "tableware-plastic-drinkware",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "cn_pb_food-contact-metal-migration_10",
+      "why": "cn_pb_food-contact-metal-migration_10 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_cd_food-contact-metal-migration_2",
+      "why": "cn_cd_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "cn_tas_food-contact-metal-migration_2",
+      "why": "cn_tas_food-contact-metal-migration_2 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu_10_2011_thg_sml_nd",
+      "why": "eu_10_2011_thg_sml_nd basis \"specific migration into food, not detectable at LOD; source unit mg/kg food\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 140,
+      "anchor": "cn_ni_food-contact-metal-migration_140",
+      "why": "cn_ni_food-contact-metal-migration_140 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "cn_sn_food-contact-metal-migration_100000",
+      "why": "cn_sn_food-contact-metal-migration_100000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000,
+      "anchor": "cn_al_food-contact-metal-migration_1000",
+      "why": "cn_al_food-contact-metal-migration_1000 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-metal",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 250,
+      "anchor": "cn_cr-total_food-contact-metal-migration_250",
+      "why": "cn_cr-total_food-contact-metal-migration_250 basis \"specific migration into food simulant (GB 31604.49-2016 Part Two; GB 31604.1 simulant selection)\" fails basis_guard"
+    },
+    {
+      "slug": "utensils-plastic-silicone-tools",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1000000,
+      "anchor": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "why": "eu_reach_entry20_dot_skin_contact_articles_0_1pct basis \"organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu20202184_pb_drinking_water_5",
+      "why": "eu20202184_pb_drinking_water_5 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 2,
+      "anchor": "nhmrc2025_cd_drinking_water_2",
+      "why": "nhmrc2025_cd_drinking_water_2 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "eu20202184_tas_drinking_water_10",
+      "why": "eu20202184_tas_drinking_water_10 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 1,
+      "anchor": "eu20202184_thg_drinking_water_1",
+      "why": "eu20202184_thg_drinking_water_1 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 20,
+      "anchor": "eu20202184_ni_drinking_water_20",
+      "why": "eu20202184_ni_drinking_water_20 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 100000,
+      "anchor": "eu2023_sn_canned_beverages_100000",
+      "why": "eu2023_sn_canned_beverages_100000 basis \"product as placed on market\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200",
+      "why": "eu20202184_al_drinking_water_200 basis \"water intended for human consumption\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "water-filters",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 10,
+      "anchor": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+      "why": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl basis \"drinking water; source unit mg/L\" fails basis_guard"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "compiled_dir": "cat26-compiled",
+  "generated": "2026-09-02T11:24:04.328Z",
+  "targets": 55,
+  "applied": [
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_parenteral_pb_500"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "ich_q3d_parenteral_cd_200"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1500,
+      "anchor": "ich_q3d_parenteral_tas_1500"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 300,
+      "anchor": "ich_q3d_parenteral_thg_300"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 2000,
+      "anchor": "ich_q3d_parenteral_ni_2000"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 60000,
+      "anchor": "ich_q3d_parenteral_sn_60000"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 25,
+      "anchor": "fda_21cfr201323_parenteral_al_25"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 110000,
+      "anchor": "ich_q3d_parenteral_cr_110000"
+    },
+    {
+      "slug": "aas-injectable",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_parenteral_pb_500"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "ich_q3d_parenteral_cd_200"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1500,
+      "anchor": "ich_q3d_parenteral_tas_1500"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 300,
+      "anchor": "ich_q3d_parenteral_thg_300"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 2000,
+      "anchor": "ich_q3d_parenteral_ni_2000"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 60000,
+      "anchor": "ich_q3d_parenteral_sn_60000"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 25,
+      "anchor": "fda_21cfr201323_parenteral_al_25"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 110000,
+      "anchor": "ich_q3d_parenteral_cr_110000"
+    },
+    {
+      "slug": "peptides-injectable-hormones",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_parenteral_pb_500"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "ich_q3d_parenteral_cd_200"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1500,
+      "anchor": "ich_q3d_parenteral_tas_1500"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 300,
+      "anchor": "ich_q3d_parenteral_thg_300"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 2000,
+      "anchor": "ich_q3d_parenteral_ni_2000"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 60000,
+      "anchor": "ich_q3d_parenteral_sn_60000"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 25,
+      "anchor": "fda_21cfr201323_parenteral_al_25"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 110000,
+      "anchor": "ich_q3d_parenteral_cr_110000"
+    },
+    {
+      "slug": "peptides-nasal-sublingual",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_oral_pb_500"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_oral_cd_500"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1500,
+      "anchor": "ich_q3d_oral_tas_1500"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 3000,
+      "anchor": "ich_q3d_oral_thg_3000"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 20000,
+      "anchor": "ich_q3d_oral_ni_20000"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 600000,
+      "anchor": "ich_q3d_oral_sn_600000"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1100000,
+      "anchor": "ich_q3d_oral_cr_1100000"
+    },
+    {
+      "slug": "research-chem-raw-powders",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Pb",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_oral_pb_500"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Cd",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "ich_q3d_oral_cd_500"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "tAs",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1500,
+      "anchor": "ich_q3d_oral_tas_1500"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "tHg",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 3000,
+      "anchor": "ich_q3d_oral_thg_3000"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 20000,
+      "anchor": "ich_q3d_oral_ni_20000"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 600000,
+      "anchor": "ich_q3d_oral_sn_600000"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 200,
+      "anchor": "eu20202184_al_drinking_water_200"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 1100000,
+      "anchor": "ich_q3d_oral_cr_1100000"
+    },
+    {
+      "slug": "sarms-oral",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": []
+}

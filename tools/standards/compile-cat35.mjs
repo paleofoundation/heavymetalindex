@@ -82,8 +82,9 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance, CANONICAL_PROVENANCE, TRANSITIONAL_PROVENANCE } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Categorically non-contaminant-ML instruments, excluded from every scan (mirrors compile-cat1).
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
@@ -283,6 +284,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
   const missing = missingCanonicalAnalytes(PANEL)
   if (missing.length) { console.error(`!! panel missing canonical analytes: ${missing.join(", ")}`); anyDefect = true }
@@ -294,7 +296,7 @@ for (const slug of slugs) {
     cross_reference: sub.cross_reference || null,
     native_basis: sub.native_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null,
     method: "HMTc Method v2.0 (government-limit default; COMPOSITE — disclosed read-across from strictest applicable principal-component sovereign ML; never occurrence-derived)",
-    provenance_tags_allowed: ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"],
+    provenance_tags_allowed: [...CANONICAL_PROVENANCE, ...TRANSITIONAL_PROVENANCE],
     cells, generated_from: "data/evidence/regulatory_limits.csv", config: path.relative(REPO, CONFIG_PATH),
     version: config.version || null, generated_at_note: "run date recorded in git commit; Date.now() intentionally not embedded",
   }

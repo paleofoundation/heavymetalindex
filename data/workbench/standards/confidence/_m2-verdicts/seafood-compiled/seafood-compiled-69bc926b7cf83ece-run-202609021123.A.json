@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p4",
+  "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021123",
+  "evidence_key": "69bc926b7cf83ece",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is the California SWRCB hexavalent-chromium MCL of 0.010 mg/L for water delivered by public water systems (scope 'drinking water'; the regulation page states it 'is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'); a drinking-water row is not a food-content row, so basis condition (b) fails for an as-sold dried-seaweed content cell. The register holds no food-content Cr-VI maximum level in any jurisdiction (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertiliser), and GB 2762-2025 Table 7 expressly sets total chromium only. The cell should be published as a species-bounded cell, Cr-VI <= total Cr, with the parent total as its number: 1000 on this packet's adjudication of the Cr parent (2000 if the milk-powder parent is retained), never a read-across from a water MCL."
+    }
+  ]
+}

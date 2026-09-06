@@ -1,0 +1,26 @@
+{
+  "packet_id": "m2-20260902-p5",
+  "batch_id": "seafood-compiled-42be502b999b13ba-run-20260902-a",
+  "evidence_key": "42be502b999b13ba",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "shellfish|both|Cd",
+      "derived_value": 500,
+      "derived_anchor_id": "eu2023_cd_crustaceans_500",
+      "same_basis_candidates": [
+        {
+          "id": "sg_foodregs_2026_other_food_cd_200",
+          "value_ug_kg": 200,
+          "why_it_applies": "Singapore Food Regulations reg 31(5) (informal consolidation in force from 2026-01-30, status maximum level) sets cadmium at 1 ppm for 'molluscs or dried mushrooms', 2 ppm seaweed, 0.5 ppm cocoa/salt and 0.2 ppm for 'other food'; there is no crustacean row, so crustaceans (the first half of this cell's product form) fall to the 0.2 ppm = 200 ug/kg residual. Basis 'product as sold or imported' is the same food-content family as the EU wet-weight row. Bivalve molluscs remain at the SG molluscs row (1000), which is looser than the derived value."
+        }
+      ],
+      "blind_value": 200,
+      "applicability": "refuted",
+      "reason": "Anchor eu2023_cd_crustaceans_500 (EU 2023/915 Annex I 3.2.16, 'crustaceans', 0.50 mg/kg wet weight, applying to muscle meat of appendages and abdomen and excluding brown crab meat and lobster head/thorax meat) is in force today, is a food-content ML on an as-consumed content cell, and covers the crustacean half of 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the EU bivalve-molluscs Cd ML on the regulation page is 1.0 mg/kg, so 500 is the strictest-of-union value and holds bivalves tighter than their own EU ceiling, which is protective rather than a scope failure. Conditions (a)-(c) therefore hold and the refute rests on (d) alone: the register carries a stricter, non-gated, same-basis sovereign row, Singapore reg 31(5) 'other food' 200 ug/kg, which is the operative Singapore cadmium limit for crustaceans because Singapore's cadmium paragraph names only molluscs, dried mushrooms, seaweed, cocoa and salt specifically; a crustacean product at 300 ug/kg Cd would pass this cell yet be unsaleable in Singapore. Two further sub-500 rows were considered and not listed: Vietnam QCVN 8-2:2011 'Aquatic products' 50 (row 38) is that instrument's generic fish-muscle default and is displaced for this product form by Vietnam's own specific crustacean (500, row 35) and bivalve (2000, row 36) rows; Uruguay RBN 'solid foods in general except categories with particular limits' 200 cannot be resolved from the register or the Uruguay page, which records no shellfish-specific Cd row and does not state whether MERCOSUR GMC 12/2011 (crustaceans 500, bivalves 2000) is internalised as a particular limit. Every other in-force seafood-specific Cd row in the register (China GB 2762-2025 effective 2026-09-02, Costa Rica, Panama, Fiji, MERCOSUR/Paraguay, India, GSO, Morocco, Vietnam, Mexico, Guyana ppm rows) sits at 500 for crustaceans and 1000-3000 for bivalves; Hong Kong is 2000; Israel FCS 2016 rows are gated as not in force and the Guyana ppb rows as quarantined."
+    }
+  ]
+}

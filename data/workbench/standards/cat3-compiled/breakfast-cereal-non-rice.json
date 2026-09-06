@@ -62,14 +62,24 @@
             "value": 200,
             "converted": true,
             "id": "vn_qcvn8_2_2011_pb_cereal_200"
+          },
+          "HK": {
+            "value": 200,
+            "converted": true,
+            "id": "hk_cap132v_pb_cereal-grains-other-than-buckwheat-ca-ihua-and-quinoa_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "control": "Corn/wheat/oat breakfast cereals do not hyperaccumulate arsenic; no non-rice grain iAs ML exists. Clean counterpart to rice-based breakfast cereal (row 6).",
-        "reference_method": null
+        "subsumed_by": "tAs",
+        "binding_parent_value": 200,
+        "binding_parent_source": "PY",
+        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). No jurisdiction sets a iAs limit for this product form below the binding total arsenic ceiling (200 µg/kg), so iAs is governed by and bounded by total arsenic; no separate iAs ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "tAs": {
         "type": "gov",
@@ -89,6 +99,16 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_wheat_derivatives_except_oil_tas_200"
           },
+          "CN": {
+            "value": 500,
+            "converted": true,
+            "id": "china_gb2762_2025_tas_cereals_excl_paddy_rice_500"
+          },
+          "HK": {
+            "value": 500,
+            "converted": true,
+            "id": "hk_cap132v_tas_cereals-other-than-rice_500"
+          },
           "AU-NZ": {
             "value": 1000,
             "converted": true,
@@ -99,33 +119,34 @@
             "converted": true,
             "id": "il_fcs2016_tas_5_cereals_and_cereal_products_except_listed_categories_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
         "type": "gov",
-        "value": 30,
-        "value_exact": 30,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
-        "basis_note": "face value",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+        "basis_note": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
         "per_country": {
-          "IL": {
-            "value": 30,
-            "converted": true,
-            "id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
-          },
-          "GSO": {
-            "value": 1000,
-            "converted": true,
-            "id": "gso193_2021_thg_wheat_pink_kernels_1000"
+          "HK": {
+            "value": 20,
+            "converted": false,
+            "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "MeHg": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
-        "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        "subsumed_by": "tHg",
+        "binding_parent_value": 20,
+        "binding_parent_source": "HK",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Cd": {
         "type": "gov",
@@ -194,14 +215,24 @@
             "value": 100,
             "converted": true,
             "id": "vn_qcvn8_2_2011_cd_cereal-excluding-wheat-rice-mash-and-germs_100"
+          },
+          "HK": {
+            "value": 100,
+            "converted": true,
+            "id": "hk_cap132v_cd_cereals-other-than-buckwheat-ca-ihua-quinoa-wheat-and-r_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
         "value": null,
-        "control": "Cr-VI (hexavalent chromium): No total-Cr ML for cereal products; reflex speciation control.",
-        "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+        "subsumed_by": "Cr",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -216,13 +247,19 @@
             "converted": true,
             "id": "eu2024_ni_cereals_800"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Canned-only analyte; boxed breakfast cereal not sold in tinplate.",
-        "reference_method": null
+        "type": "read_across",
+        "value": 250000,
+        "value_exact": 250000,
+        "source_id": "sg_foodregs_2026_any_food_sn_250000",
+        "source_jurisdiction": "SG",
+        "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -230,9 +267,26 @@
         "value_exact": 100000,
         "source_id": "cn_gb2760_2024_al_baked_foods_100000",
         "source_jurisdiction": "CN",
-        "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (leavened/additive subset)",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
+      },
+      "Cr": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "basis_note": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+        "per_country": {
+          "CN": {
+            "value": 1000,
+            "converted": false,
+            "id": "china_gb2762_2025_crtotal_cereals_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       }
     }
   },

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p4",
+  "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021123",
+  "evidence_key": "7b5e59f213e493bf",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "shellfish|both|Pb",
+      "derived_value": 500,
+      "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "The anchor's scope 'Fish and crustaceans (fresh and frozen) (GB 2762-2025 Table 1, item 9.2)' covers the crustacean member of this shellfish row on a wet-weight, product-as-placed-on-market basis, which for fresh and frozen shellfish is the same as the cell's as-consumed basis (no conversion). GB 2762-2025 entered into force today, 2026-09-02, and the line is unchanged from GB 2762-2022, so there is no gap in force. The bivalve-mollusc member is governed by looser sovereign lines (GB 2762-2025 item 9.3, EU 2023/915, HK Cap 132V, CR, PA, GY, GSO, IN, VN, MERCOSUR, PY, MA all 1500; MX NOM-242 molluscs 1000; AU/NZ molluscs 2000) and processed non-canned shellfish by GB item 9.4 at 1000, so 500 applied row-wide sits at or below every member's legal ceiling; every non-gated crustacean lead row in the register (HK, MX, CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY, MA) concurs at 500 and none is stricter (the GY 25 line is quarantined and excluded)."
+    }
+  ]
+}

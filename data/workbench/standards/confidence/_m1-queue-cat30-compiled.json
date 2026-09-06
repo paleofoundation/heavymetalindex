@@ -1,0 +1,93 @@
+{
+  "compiled_dir": "cat30-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "Cd",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "85a98993b75845e052eec473a9f857a95d3abeb279506229ad0484baf7e44e42",
+          "row_sha256": "85a98993b75845e052eec473a9f857a95d3abeb279506229ad0484baf7e44e42"
+        },
+        {
+          "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f8f8df18b064c8289c583a434aba959a8d55cc0e5ba389ac006e8bdab2da909e",
+          "row_sha256": "f8f8df18b064c8289c583a434aba959a8d55cc0e5ba389ac006e8bdab2da909e"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Cd",
+        "cooking-oils-other|default|tHg",
+        "cooking-oils-other|default|MeHg",
+        "olive-oil|default|Cd",
+        "olive-oil|default|tHg",
+        "olive-oil|default|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-10-2011-food-contact-plastics-sml.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_10_2011_al_sml",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "1000",
+          "basis": "specific migration into food; source unit mg/kg food",
+          "product_scope": "plastic food-contact materials and articles",
+          "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831",
+          "notes": "Regulation (EU) 10/2011 Annex II point 1, aluminium SML 1 mg/kg food (added by Reg (EU) 2016/1416).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912",
+          "row_sha256": "429007f7670853ffa84fafb460141ee508b1d6960b2905602f90a078b6b89912"
+        }
+      ],
+      "cells": [
+        "cooking-oils-other|default|Al",
+        "olive-oil|default|Al"
+      ]
+    }
+  ]
+}

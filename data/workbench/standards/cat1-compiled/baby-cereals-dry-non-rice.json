@@ -58,7 +58,8 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_pb_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -91,7 +92,7 @@
           "CN": {
             "value": 60,
             "converted": true,
-            "id": "cn_cd_cereal-based-complementary-foods-for-inf_60"
+            "id": "china_gb2762_2025_cd_cereal_complementary_foods_infants_60"
           },
           "IN": {
             "value": 100,
@@ -108,7 +109,8 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_cd_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -133,7 +135,8 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_tas_300"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -161,28 +164,62 @@
           "CN": {
             "value": 200,
             "converted": true,
-            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+            "id": "china_gb2762_2025_ias_cereal_complementary_foods_infants_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "read_across",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 8,
         "value_exact": 8,
-        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "source_jurisdiction": "IL",
-        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "TH",
+          "binding_id": "th_moph414_2020_thg_food_other_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "TH": {
+              "value": 20,
+              "converted": false,
+              "id": "th_moph414_2020_thg_food_other_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 8 ug/kg, below the sovereign floor of 20 ug/kg (th_moph414_2020_thg_food_other_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
+        "per_country": {
+          "TH": {
+            "value": 20,
+            "converted": false,
+            "id": "th_moph414_2020_thg_food_other_20"
+          }
+        }
       },
       "MeHg": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -197,7 +234,8 @@
             "converted": true,
             "id": "eu2024_ni_processed_cereal_babyfood_3000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -212,7 +250,8 @@
             "converted": true,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "read_across",
@@ -222,26 +261,34 @@
         "source_jurisdiction": "AU-NZ",
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail.",
-        "basis_class": "method-artifact",
-        "rationale": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_crtotal_cereals_1000",
+        "basis_note": "government maximum level by lookup: Hong Kong Cap 132V Schedule total chromium 1000 for cereals (the only sovereign total-Cr ML whose scope covers a cereal-based infant food; HK admitted to the credible set 2026-08-17)",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_cereals_1000"
+          }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 1000,
+        "binding_parent_source": "HK",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

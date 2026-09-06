@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a",
+  "evidence_key": "e8b5dd23b9f12a25",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 100,
+      "applicability": "refuted",
+      "reason": "GSO 193:2021 sets 0.05 mg/kg for 'Muscle meat of fish with exception mentioned', and the exceptions are the same instrument's species rows: 'Muscle meat of fish: mackerel, tuna and bichique' 0.10, 'bullet tuna' 0.15 and 'anchovy, swordfish and sardine' 0.25 mg/kg; canned tuna, the cell's named product, and the principal canned fish (sardine, anchovy, mackerel) therefore fall outside the 50 row, so scope test (a) fails, while the muscle-meat basis itself is sound for the drained fish content of a can (as sold = as consumed, no conversion) and the instrument is in force (effective 2021-07-01). No non-gated same-basis Cd row for fish sits below 50 (Guyana 10 is a quarantined transcription artifact), so 50 is correct for non-exception species only; the strictest sovereign ML that actually covers tuna is 100 (GSO tuna row; Guyana, Panama, Viet Nam and Mercosur/Paraguay concur) and for sardine and anchovy 100 (Costa Rica sardine; Panama, Fiji, Viet Nam, Mercosur), with GB 2762-2025 Table 2 item 8.5 'Canned fish' 200 looser and not binding. Publish 50 as a 'gov' value only for a non-exception-species row, adopt the law's own species split, or keep 50 for the whole row under a disclosed precautionary tag."
+    },
+    {
+      "key": "fish-freshwater|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 50,
+      "applicability": "confirmed",
+      "reason": "GSO 193:2021 'Muscle meat of fish with exception mentioned' (0.05 mg/kg, muscle meat) covers tilapia, catfish, trout and carp; none is in the instrument's exception rows (mackerel, tuna, bichique, bullet tuna, anchovy, swordfish, sardine). The row is a food-content ML on muscle meat, which for fresh or frozen finfish is the as-consumed basis without conversion, and GSO 193:2021 is in force (effective 2021-07-01, status active). No non-gated same-basis Cd row is stricter than 50 (Guyana 10 is a quarantined transcription artifact; Costa Rica and Guyana concur at 50; GB 2762-2025 Table 2 item 8.1 fish 100 is looser)."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 100,
+      "applicability": "refuted",
+      "reason": "The anchor's 50 covers salmon, cod and herring, but three of the six named species are the instrument's own exceptions: 'Muscle meat of fish: mackerel, tuna and bichique' 0.10 mg/kg and 'Muscle meat of fish: anchovy, swordfish and sardine' 0.25 mg/kg, so scope test (a) fails for the row as defined. Basis (muscle meat of fresh or frozen fish = as consumed) and in-force status (effective 2021-07-01) are sound, and no non-gated same-basis Cd row is stricter than 50 (Guyana 10 is quarantined). The strictest sovereign ML that covers sardine, anchovy and mackerel is 100 (Costa Rica 'sardine and eel'; Panama and Viet Nam anchovy/sardine; Fiji and Mercosur/Paraguay sardine and mackerel; GSO mackerel), so either adopt the law's species split (50 non-exception / 100 mackerel / 250 sardine and anchovy under GSO, or 100 under the strictest concurring sovereigns) or keep 50 for the whole row under a precautionary tag rather than a 'gov' tag."
+    }
+  ]
+}

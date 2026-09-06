@@ -57,8 +57,9 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 
 const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
@@ -191,6 +192,7 @@ for (const slug of slugs) {
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, category: 9, category_name: "Infant and Child Contact Products (Ages 0-5)",
     governing_basis: sub.governing_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null, cells,

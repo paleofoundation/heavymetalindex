@@ -1,0 +1,99 @@
+{
+ "packet_id": "m2-20260902-p4",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "A",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-7081da69b07981c9-run-20260902-a",
+   "evidence_key": "7081da69b07981c9",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|iAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "Schedule 19 lists 'Arsenic (inorganic) | Seaweed | 1 mg/kg', and the regulation page records that the before-drying calculation rule for dried, dehydrated or concentrated foods does not apply to seaweed, so the level is read against seaweed in the form sold and matches this dried as-sold cell at face value; the instrument (compilation F2024C00908, Schedule commenced 2016-03-01) is in force on 2026-09-02. No non-gated same-basis iAs row is stricter: Hong Kong Cap 132V Part 2 'Seaweed' concurs at 1000 (hk_cap132v_ias_seaweed_1000, and its Reg 3(2)(b) dried-food adjustment can only loosen it on a dried basis), Singapore reg. 31 'Seaweed' is 2000, the French CSHPF recommendation is 3000 dw, and neither EU 2023/915 as amended by 2025/1891 (fish, crustaceans, bivalves, cephalopods only) nor GB 2762-2025 Table 4 sets an inorganic-arsenic level for algae. The register's basis string 'portion ordinarily consumed' is the Standard 1.4.1 edible-portion rule, not a moisture conversion, so no conversion is owed."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-c8accec5d287b266-run-20260902-a",
+   "evidence_key": "c8accec5d287b266",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Ni",
+     "derived_value": 30000,
+     "derived_anchor_id": "eu2024_ni_seaweed_30000",
+     "same_basis_candidates": [],
+     "blind_value": 30000,
+     "applicability": "refuted",
+     "reason": "Annex I point 3.6.8.1 reads 'Seaweed except wakame' at 30 mg/kg on the product as placed on the market, applying from 2025-07-01, so it covers the nori, kombu, kelp and dulse members of this row on the as-sold basis; but the row expressly names wakame, which the anchor's own scope excludes and which the same instrument governs separately at point 3.6.8.2 (eu2024_ni_wakame_40000, 40 mg/kg; Switzerland VHK mirrors the split, ch_vhk_2026_ni_seetang_30000 'ausgenommen Wakame' and ch_vhk_2026_ni_wakame-undaria-pinnatifida_40000). The 30000 value is at least as protective as the law for every member, so the number stands, but a 'gov / firm' cell cannot cite a scope that excludes a named member of its product: the law splits seaweed from wakame and the row should adopt that split or disclose the wakame tightening as precautionary. No non-gated same-basis nickel row stricter than 30000 covers seaweed (CH VHK Seetang is equal at 30000)."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-f0284afb2a54974f-run-20260902-a",
+   "evidence_key": "f0284afb2a54974f",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "The anchor's scope, 'canned foods other than canned beverages, except canned dried and canned powdered products' (Annex I 3.5.1, inorganic tin), does not reach dried seaweed sold uncanned, and its own exclusion of canned dried products means it would not reach this product even if canned, so 200000 is a read-across at face value. It is not the nearest same-basis sovereign instrument: Singapore Food Regulations reg. 31 'Any food' tin 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold, consolidation in force from 2026-01-30) and the Uruguay RBN general-food tin limit (uy_rbn_general_sn_foods_250mgkg, 250 mg/kg, 'foods in general except categories with particular limits') apply to dried seaweed directly on the as-sold basis, while every other tin instrument in the register (Codex CXS 193, FSANZ 'all canned foods', GB 2762-2025 Table 5 footnote a tinplate-only, Cap 132V since L.N. 113 of 2018) is confined to canned or tinplate-packaged food. 200000 can stand only as a disclosed precautionary tightening below the 250000 direct sovereign level, not as a canned-food read-across; no same-basis row stricter than 200000 covers this product."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-e253d63c28db7e96-run-20260902-a",
+   "evidence_key": "e253d63c28db7e96",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Cr",
+     "derived_value": 2000,
+     "derived_anchor_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+     "same_basis_candidates": [],
+     "blind_value": 2000,
+     "applicability": "refuted",
+     "reason": "Table 7 item 6.2 'Milk powder and modified milk powder' (乳粉和调制乳粉) at 2.0 mg/kg total chromium is an as-sold line in force from 2026-09-02, but it does not cover algae, which GB 2762-2025 Annex A treats as their own category (Table 1 items 6.1 to 6.4) with no chromium line, so 2000 is a read-across at face value. Milk powder is not the nearest same-basis analog: within the same instrument the dry plant-food lines, item 3.1 beans (dried pulses) and items 1.1/1.2 cereals and milled cereal products, are as-sold dry-basis lines at 1000 (china_gb2762_2025_crtotal_beans_legumes_1000, china_gb2762_2025_crtotal_cereals_1000), and the marine-origin line item 5.1 'Aquatic animals and their products' concurs at 2000 (china_gb2762_2025_crtotal_aquatic_animals_and_products_2000); the dairy analog is the least defensible of the three and, if the program re-anchors to the nearest dry plant-food line, the value becomes 1000. Hong Kong Cap 132V 'Vegetables, other than pulses' 500 (hk_cap132v_crtotal_vegetables-other-than-pulses_500) is not listed as a stricter candidate because the Schedule names 'Seaweed' separately where it means seaweed and Reg 3(2)(b) scales dried-food maxima by the concentration change, so it is neither shown to cover seaweed nor stricter on a dried basis; no direct sovereign total-chromium level for seaweed exists in the register."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-69bc926b7cf83ece-run-20260902-a",
+   "evidence_key": "69bc926b7cf83ece",
+   "cells": [
+    {
+     "key": "seaweed-kelp-foods|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor is a drinking-water MCL (0.010 mg/L for 'community and nontransient-noncommunity public water systems', effective 2024-10-01) and the regulation page itself states it 'is a drinking-water standard, not a food limit' that 'should not be compared directly to a food-occurrence concentration'; carrying 10 µg/L onto a dried as-sold seaweed content cell crosses basis families, which condition (b) forbids, so the 10 derived at face value is not an applicable number. The register holds no food-content Cr-VI row for any food (its 19 Cr-VI rows are drinking water, EN 71-3 toy migration, textiles, leather, RoHS homogeneous materials, tattoo inks and fertilisers), so no same-basis sovereign instrument exists to read across from. The same-basis treatment available is species-bounded-by-parent (Cr-VI at or below the Cr-total cell, currently 2000) or a disclosed baseline screen, not the water MCL."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-7b5e59f213e493bf-run-20260902-a",
+   "evidence_key": "7b5e59f213e493bf",
+   "cells": [
+    {
+     "key": "shellfish|both|Pb",
+     "derived_value": 500,
+     "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "Table 1 item 9.2 'Fish and crustaceans (fresh and frozen)' (鱼类、甲壳类) at 0.5 mg/kg is in force from 2026-09-02 on the product as placed on the market, which for fresh or frozen shellfish is the same wet-weight quantity as this cell's as-consumed basis, so 500 is the correct face-value derivation for the crustacean half and is matched at 500 by Cap 132V 'Crustaceans', GSO 193, Mercosur and Paraguay, Morocco 3.1.9, India, Vietnam, Fiji, Costa Rica, Panama and Guyana (the register lacks the equivalent EU 2023/915 crustacean row at 0.50 mg/kg, which would concur). The anchor does not cover bivalve molluscs, which the same instrument governs separately at item 9.3 (china_gb2762_2025_pb_bivalve_molluscs_1500) and which every other sovereign puts at 1000 to 2000 (mx_nom242_pb_molluscs_1000 is the strictest; EU, HK, GSO, India, Vietnam, Mercosur 1500; FSANZ 'Molluscs' and Singapore 2000), so the row cites a scope that excludes a named member of its product. 500 is at least as protective as the law for both members and the number stands, but a 'gov / firm' cell should adopt the law's crustacean/bivalve split or disclose the bivalve tightening as precautionary; no non-gated same-basis lead row stricter than 500 covers crustaceans or bivalves (the Guyana 25 ppb row is quarantined)."
+    }
+   ]
+  }
+ ]
+}

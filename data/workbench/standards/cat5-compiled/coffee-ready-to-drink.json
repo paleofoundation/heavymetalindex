@@ -17,9 +17,11 @@
   "provenance_tags_allowed": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "cells": {
     "Pb": {
@@ -157,14 +159,14 @@
       "value": 50,
       "value_exact": 50,
       "provenance": "read-across",
-      "source_id": "nhmrc2025_crvi_drinking_water_50",
-      "source_jurisdiction": "AU",
-      "basis": "drinking water",
-      "source_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
-      "source_scope": "drinking water",
-      "label": "Total chromium 50 ug/kg is a disclosed read-across from the Australian NHMRC drinking-water chromium guideline (0.05 mg/L). Water sovereigns regulate chromium through the hexavalent species and set the drinking-water chromium guideline conservatively on that basis; the 50 is adopted as the total-chromium ceiling for this water-based beverage, with the stricter US-California hexavalent limit (10) binding the toxic fraction in the Cr-VI cell.",
+      "source_id": "hk_cap132v_crtotal_bottled-or-packaged-drinking-waters-other-than-natural_50",
+      "source_jurisdiction": "HK",
+      "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+      "source_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "source_scope": "Bottled or packaged drinking waters, other than natural mineral waters",
+      "label": "government read-across: Hong Kong Cap 132V total chromium 50 for bottled or packaged drinking waters, the nearest same-basis (liquid, as consumed) sovereign TOTAL-chromium ceiling for a ready-to-drink beverage. Replaces the NHMRC hexavalent-chromium drinking-water row, a species instrument that can never anchor a total-metal cell (audit C6, the brief's mandatory refute); value unchanged at 50.",
       "stricter_unselected": [],
-      "substantiation": "Disclosed read-across. No sovereign sets a total-chromium limit for a coffee beverage, and the register holds no as-consumed total-chromium cell because water regulators express chromium as the hexavalent species. The Australian drinking-water chromium guideline (0.05 mg/L, set on the conservative assumption that chromium is present as the hexavalent form) is the nearest applicable as-consumed chromium ceiling and is adopted as the total-chromium value; the health-relevant hexavalent fraction is bound more tightly at 10 ug/kg in the Cr-VI cell (US-California), so total chromium 50 and Cr-VI 10 are consistent (Cr-VI <= total Cr). The provenance is disclosed as a hexavalent-expressed drinking-water chromium value used as the total-chromium beverage ceiling. Register-sourced, not occurrence-derived."
+      "substantiation": null
     },
     "Cr-VI": {
       "type": "read_across",

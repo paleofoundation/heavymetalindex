@@ -25,7 +25,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Cd": {
         "type": "control",
@@ -41,7 +42,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "tAs": {
         "type": "control",
@@ -57,7 +59,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "iAs": {
         "type": "control",
@@ -73,7 +76,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "tHg": {
         "type": "control",
@@ -89,7 +93,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "MeHg": {
         "type": "not_material",
@@ -105,7 +110,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "not-material"
       },
       "Ni": {
         "type": "control",
@@ -121,7 +127,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Cr": {
         "type": "control",
@@ -137,7 +144,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Cr-VI": {
         "type": "control",
@@ -153,7 +161,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Sn": {
         "type": "control",
@@ -169,7 +178,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       },
       "Al": {
         "type": "control",
@@ -185,7 +195,8 @@
         "audit": {
           "same_form": [],
           "other_form": []
-        }
+        },
+        "provenance": "control"
       }
     }
   },
@@ -193,9 +204,11 @@
   "provenance_vocabulary": [
     "regulatory-alignment",
     "read-across",
-    "not-material",
+    "subsumed",
+    "baseline-screen",
+    "ratchet",
     "control",
-    "ratchet"
+    "not-material"
   ],
   "version": "v1.0 (2026-08-13, initial compilation)",
   "lineage_note": "Initial Cat-15 Feminine Care government-limit standard (HMTc Method v2.0). Flagship mucosal-exposure category. Device subcategories (tampons, pads, cups, discs, period underwear, other) carry no sovereign heavy-metal content limit (medical-device law governs ISO 10993 biocompatibility, not content) and resolve to mandatory control on every occurrence- or pathway-established metal (Pb, Cd, tAs, tHg, Ni, Cr, Sn, Al; iAs and Cr-VI reflex-speciation controls); methylmercury is the sole not-material cell (no biological methylation pathway; bounded by the total-mercury control). Cosmetic subcategories (feminine wipes, deodorants, douches, intimate washes) read across the German BVL 2017 sovereign cosmetic contaminant limits, adopting the mucosal-contact (toothpaste) tier for lead (500 vs the general-cosmetic 2000 ug/kg) because vaginal mucosa is more permeable than the oral mucosa those limits were written for; Cd/tAs/tHg bind the strictest general-cosmetic value (100/500/100), nickel the only sovereign cosmetic Ni limit (Korea MFDS 2025 = 10000). Materiality anchored to shearston2024, ica2024, ellison2026, carlin2020, nic-corcrain2025, marcelis2024. Direction: toward the literature (CLAUDE.md Part 2/19).",

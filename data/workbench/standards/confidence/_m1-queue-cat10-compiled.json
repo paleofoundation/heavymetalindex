@@ -1,0 +1,627 @@
+{
+  "compiled_dir": "cat10-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu-reach-2018-1513-cmr-textiles",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-reach-2018-1513-cmr-textiles.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_2018_1513_pb_consumer_textiles_1mgkg",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "homogeneous material after extraction; source unit mg/kg",
+          "product_scope": "consumer clothing, related accessories, textiles with skin contact similar to clothing, and footwear",
+          "regulation_page": "regulations/eu-reach-2018-1513-cmr-textiles",
+          "url": "",
+          "notes": "REACH Annex XVII entry 72 Appendix 12: lead and its compounds, 1 mg/kg after extraction expressed as Pb metal.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "9b6f9394b76c9cbb3140f9d1b8cd101508e047eae22155ccbf3879a6570fd81b",
+          "row_sha256": "9b6f9394b76c9cbb3140f9d1b8cd101508e047eae22155ccbf3879a6570fd81b"
+        },
+        {
+          "regulatory_limit_id": "eu_2018_1513_cd_consumer_textiles_1mgkg",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "homogeneous material after extraction; source unit mg/kg",
+          "product_scope": "consumer clothing, related accessories, textiles with skin contact similar to clothing, and footwear",
+          "regulation_page": "regulations/eu-reach-2018-1513-cmr-textiles",
+          "url": "",
+          "notes": "REACH Annex XVII entry 72 Appendix 12: cadmium and its compounds, 1 mg/kg after extraction expressed as Cd metal.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "f47a5a2024bc34b4c2b559c4e0d7142aa152b5dbad67e650968aca79d3afad7d",
+          "row_sha256": "f47a5a2024bc34b4c2b559c4e0d7142aa152b5dbad67e650968aca79d3afad7d"
+        },
+        {
+          "regulatory_limit_id": "eu_2018_1513_tas_consumer_textiles_1mgkg",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "homogeneous material after extraction; source unit mg/kg",
+          "product_scope": "consumer clothing, related accessories, textiles with skin contact similar to clothing, and footwear",
+          "regulation_page": "regulations/eu-reach-2018-1513-cmr-textiles",
+          "url": "",
+          "notes": "REACH Annex XVII entry 72 Appendix 12: arsenic compounds, 1 mg/kg after extraction expressed as As metal; mapped to tAs, not inorganic arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "8b7c093894e31f519b6299934a710002d5d1acb1aeed3575f189d559f788f2aa",
+          "row_sha256": "8b7c093894e31f519b6299934a710002d5d1acb1aeed3575f189d559f788f2aa"
+        },
+        {
+          "regulatory_limit_id": "eu_2018_1513_cr_vi_consumer_textiles_1mgkg",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "1000",
+          "basis": "homogeneous material after extraction; source unit mg/kg",
+          "product_scope": "consumer clothing, related accessories, textiles with skin contact similar to clothing, and footwear",
+          "regulation_page": "regulations/eu-reach-2018-1513-cmr-textiles",
+          "url": "",
+          "notes": "REACH Annex XVII entry 72 Appendix 12: chromium VI compounds, 1 mg/kg after extraction expressed as Cr VI.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "3bb2dbd1c2e2eb5e80aff7b4c367ce28c000cb1533c07a80089c8a0f342f43bb",
+          "row_sha256": "3bb2dbd1c2e2eb5e80aff7b4c367ce28c000cb1533c07a80089c8a0f342f43bb"
+        }
+      ],
+      "cells": [
+        "bibs|_|Pb",
+        "bibs|_|Cd",
+        "bibs|_|tAs",
+        "bibs|_|iAs",
+        "bibs|_|Cr-VI",
+        "blankets-and-sleep-sacks|_|Pb",
+        "blankets-and-sleep-sacks|_|Cd",
+        "blankets-and-sleep-sacks|_|tAs",
+        "blankets-and-sleep-sacks|_|iAs",
+        "blankets-and-sleep-sacks|_|Cr-VI",
+        "infant-clothing|_|Pb",
+        "infant-clothing|_|Cd",
+        "infant-clothing|_|tAs",
+        "infant-clothing|_|iAs",
+        "infant-clothing|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2009-48-toy-safety-migration-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_2009_48_cat2_thg_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "1900",
+          "basis": "element migration from liquid or sticky toy material (Category II); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category II migration limit; Mercury (total) 7.5/1.9/94 mg/kg; original 2009 text. 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "8b1c44771d533ac8fbec14599183eb556dad618174f9cffa74ea96900cc3b389",
+          "row_sha256": "8b1c44771d533ac8fbec14599183eb556dad618174f9cffa74ea96900cc3b389"
+        },
+        {
+          "regulatory_limit_id": "eu_2009_48_cat2_ni_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Ni",
+          "value_ug_kg": "18800",
+          "basis": "element migration from liquid or sticky toy material (Category II); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category II migration limit; Nickel 75/18.8/930 mg/kg; original 2009 text. 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "b0dd7cbd657b3583e760279130d3194a1aeb61319be5b3cf506b5d553005720c",
+          "row_sha256": "b0dd7cbd657b3583e760279130d3194a1aeb61319be5b3cf506b5d553005720c"
+        },
+        {
+          "regulatory_limit_id": "eu_2009_48_cat2_al_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "560000",
+          "basis": "element migration from liquid or sticky toy material (Category II); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category II migration limit; Aluminium amended to 2250/560/28130 mg/kg by Directive (EU) 2019/1922 (was 5625/1406/70000). 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "105d757ad2234bf971b61ec39f2881f8129b9c180ce94cd07566bb400e1df26b",
+          "row_sha256": "105d757ad2234bf971b61ec39f2881f8129b9c180ce94cd07566bb400e1df26b"
+        },
+        {
+          "regulatory_limit_id": "eu_2009_48_cat3_ni_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Ni",
+          "value_ug_kg": "930000",
+          "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category III migration limit; Nickel 75/18.8/930 mg/kg; original 2009 text. 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "76353fbd7a8b96a054e1e10d6223a2c4d96473abb3508d7c5665c55348b814c9",
+          "row_sha256": "76353fbd7a8b96a054e1e10d6223a2c4d96473abb3508d7c5665c55348b814c9"
+        },
+        {
+          "regulatory_limit_id": "eu_2009_48_cat3_sn_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Sn",
+          "value_ug_kg": "180000000",
+          "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category III migration limit; Tin 15000/3750/180000 mg/kg; original 2009 text. 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "61a74dda86e928eb9969ef9b283ad35c6e7958d6659f659643ca2351fa52790d",
+          "row_sha256": "61a74dda86e928eb9969ef9b283ad35c6e7958d6659f659643ca2351fa52790d"
+        },
+        {
+          "regulatory_limit_id": "eu_2009_48_cat3_al_toy_migration",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "28130000",
+          "basis": "element migration from scraped-off toy material (Category III); source unit mg/kg",
+          "product_scope": "toys (accessible toy material); pacifiers/soothers reached via the EN 1400 soother standard (excluded from the TSD itself, Annex I item 16); EN 71-3 test basis",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20240820",
+          "notes": "Toy Safety Directive 2009/48/EC Annex II Part III point 13, Category III migration limit; Aluminium amended to 2250/560/28130 mg/kg by Directive (EU) 2019/1922 (was 5625/1406/70000). 0.07 M HCl migration method (EN 71-3).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "d317a4be335e210965cbbf7828b2eef37688c54b75796f0bab114fcd8f1b4d8a",
+          "row_sha256": "d317a4be335e210965cbbf7828b2eef37688c54b75796f0bab114fcd8f1b4d8a"
+        }
+      ],
+      "cells": [
+        "bibs|_|tHg",
+        "bibs|_|MeHg",
+        "bibs|_|Ni",
+        "bibs|_|Al",
+        "blankets-and-sleep-sacks|_|tHg",
+        "blankets-and-sleep-sacks|_|MeHg",
+        "blankets-and-sleep-sacks|_|Ni",
+        "blankets-and-sleep-sacks|_|Al",
+        "car-seats|_|Ni",
+        "car-seats|_|Sn",
+        "car-seats|_|Al",
+        "clasps-fasteners-infant-products|_|Ni",
+        "clasps-fasteners-infant-products|_|Sn",
+        "clasps-fasteners-infant-products|_|Al",
+        "cribs-and-bassinets|_|Ni",
+        "cribs-and-bassinets|_|Sn",
+        "cribs-and-bassinets|_|Al",
+        "high-chairs-and-booster-seats|_|Ni",
+        "high-chairs-and-booster-seats|_|Sn",
+        "high-chairs-and-booster-seats|_|Al",
+        "infant-carriers|_|Ni",
+        "infant-carriers|_|Sn",
+        "infant-carriers|_|Al",
+        "infant-clothing|_|tHg",
+        "infant-clothing|_|MeHg",
+        "infant-clothing|_|Ni",
+        "infant-clothing|_|Al",
+        "play-yards-and-gates|_|Ni",
+        "play-yards-and-gates|_|Sn",
+        "play-yards-and-gates|_|Al",
+        "strollers|_|Ni",
+        "strollers|_|Sn",
+        "strollers|_|Al",
+        "swings-and-bouncers|_|Ni",
+        "swings-and-bouncers|_|Sn",
+        "swings-and-bouncers|_|Al",
+        "walkers|_|Ni",
+        "walkers|_|Sn",
+        "walkers|_|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-reach-2009-annex-xvii-entry-20-organotin",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R1907-20240101"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-reach-2009-annex-xvii-entry-20-organotin.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Sn",
+          "value_ug_kg": "1000000",
+          "basis": "organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight",
+          "product_scope": "textile articles intended to come into contact with the skin, childcare articles, and other consumer articles in skin contact (diapers, gloves)",
+          "regulation_page": "regulations/eu-reach-2009-annex-xvii-entry-20-organotin",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R1907-20240101",
+          "notes": "REACH Annex XVII entry 20 paragraph 4: DOT compounds shall not be used where the tin concentration exceeds 0.1 percent by weight = 1000 mg/kg = 1000000 ug/kg. DBT (para 3) same 0.1% ceiling for general-public articles; TBT/TPT (para 2) effectively prohibited above 0.1%. Organotin is a distinct speciation from the HMTc total/inorganic Sn cell; reflex organotin speciation (GC-ICP-MS) on a total-Sn detection.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "bef92a257f629788eb3760e212b436b6474cafce39f7b3953deb4d7bc81c636b",
+          "row_sha256": "bef92a257f629788eb3760e212b436b6474cafce39f7b3953deb4d7bc81c636b"
+        }
+      ],
+      "cells": [
+        "bibs|_|Sn",
+        "blankets-and-sleep-sacks|_|Sn",
+        "infant-clothing|_|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/canada-sor-2018-83-consumer-products-lead",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/canada-sor-2018-83-consumer-products-lead.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "ca_sor2018_83_pb_accessible_consumer_product_parts_90mgkg",
+          "jurisdiction": "CA",
+          "authority": "Government of Canada",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "90000",
+          "basis": "lead content in accessible part; source unit mg/kg",
+          "product_scope": "accessible parts of consumer products containing lead, including mouth-contact products, child clothing/accessories, child learning/play products, certain child printed products, and products for sleep, relaxation, hygiene, carrying, or transport of children under four",
+          "regulation_page": "regulations/canada-sor-2018-83-consumer-products-lead",
+          "url": "",
+          "notes": "SOR/2018-83 section 2(1): each accessible part must not contain more than 90 mg/kg lead; section 2(2) provides a conditional essential-characteristic exception with a 90 mg/kg release criterion.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2e7d4b237f0371c2acbd12fbc11984d4bca2dee27e4c4939584574958b215260",
+          "row_sha256": "2e7d4b237f0371c2acbd12fbc11984d4bca2dee27e4c4939584574958b215260"
+        }
+      ],
+      "cells": [
+        "car-seats|_|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F1996B03651/2026-07-13/2026-07-13/text/original/pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/australia-customs-prohibited-imports-heavy-metal-imports.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "au_customs_1956_cd_toys_coating_75mgkg",
+          "jurisdiction": "AU",
+          "authority": "Office of Parliamentary Counsel, Australia",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "75000",
+          "basis": "non-volatile content of coating material; source unit mg/kg",
+          "product_scope": "toys coated with a material",
+          "regulation_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
+          "url": "https://www.legislation.gov.au/F1996B03651/2026-07-13/2026-07-13/text/original/pdf",
+          "notes": "Schedule 2 item 2: imported goods containing more than the stated mg/kg value; arsenic, mercury, and chromium are unspecified species and mapped per ingest policy.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "b447361c250c9daed8efe20399fd8a6553573165abd2f3b19098287ec406a3b2",
+          "row_sha256": "b447361c250c9daed8efe20399fd8a6553573165abd2f3b19098287ec406a3b2"
+        },
+        {
+          "regulatory_limit_id": "au_customs_1956_tas_toys_coating_25mgkg",
+          "jurisdiction": "AU",
+          "authority": "Office of Parliamentary Counsel, Australia",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "25000",
+          "basis": "non-volatile content of coating material; source unit mg/kg",
+          "product_scope": "toys coated with a material",
+          "regulation_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
+          "url": "https://www.legislation.gov.au/F1996B03651/2026-07-13/2026-07-13/text/original/pdf",
+          "notes": "Schedule 2 item 2: imported goods containing more than the stated mg/kg value; arsenic, mercury, and chromium are unspecified species and mapped per ingest policy.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4d390957ea7bd86d85b78fc07e31db3fbcc6867af766e8a5274c5ce8e985f047",
+          "row_sha256": "4d390957ea7bd86d85b78fc07e31db3fbcc6867af766e8a5274c5ce8e985f047"
+        },
+        {
+          "regulatory_limit_id": "au_customs_1956_cr_total_toys_coating_60mgkg",
+          "jurisdiction": "AU",
+          "authority": "Office of Parliamentary Counsel, Australia",
+          "status": "statutory limit",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "60000",
+          "basis": "non-volatile content of coating material; source unit mg/kg",
+          "product_scope": "toys coated with a material",
+          "regulation_page": "regulations/australia-customs-prohibited-imports-heavy-metal-imports",
+          "url": "https://www.legislation.gov.au/F1996B03651/2026-07-13/2026-07-13/text/original/pdf",
+          "notes": "Schedule 2 item 2: imported goods containing more than the stated mg/kg value; arsenic, mercury, and chromium are unspecified species and mapped per ingest policy.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "19028f74ec774c5cfcad6419b2b664b5214d9b9b1bc91723cfe31278587abdb3",
+          "row_sha256": "19028f74ec774c5cfcad6419b2b664b5214d9b9b1bc91723cfe31278587abdb3"
+        }
+      ],
+      "cells": [
+        "car-seats|_|Cd",
+        "car-seats|_|tAs",
+        "car-seats|_|iAs",
+        "car-seats|_|Cr",
+        "clasps-fasteners-infant-products|_|Cd",
+        "clasps-fasteners-infant-products|_|tAs",
+        "clasps-fasteners-infant-products|_|iAs",
+        "clasps-fasteners-infant-products|_|Cr",
+        "cribs-and-bassinets|_|Cd",
+        "cribs-and-bassinets|_|tAs",
+        "cribs-and-bassinets|_|iAs",
+        "cribs-and-bassinets|_|Cr",
+        "high-chairs-and-booster-seats|_|Cd",
+        "high-chairs-and-booster-seats|_|tAs",
+        "high-chairs-and-booster-seats|_|iAs",
+        "high-chairs-and-booster-seats|_|Cr",
+        "infant-carriers|_|Cd",
+        "infant-carriers|_|tAs",
+        "infant-carriers|_|iAs",
+        "infant-carriers|_|Cr",
+        "play-yards-and-gates|_|Cd",
+        "play-yards-and-gates|_|tAs",
+        "play-yards-and-gates|_|iAs",
+        "play-yards-and-gates|_|Cr",
+        "strollers|_|Cd",
+        "strollers|_|tAs",
+        "strollers|_|iAs",
+        "strollers|_|Cr",
+        "swings-and-bouncers|_|Cd",
+        "swings-and-bouncers|_|tAs",
+        "swings-and-bouncers|_|iAs",
+        "swings-and-bouncers|_|Cr",
+        "walkers|_|Cd",
+        "walkers|_|tAs",
+        "walkers|_|iAs",
+        "walkers|_|Cr"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-reach-2011-494-cadmium-annex-xvii",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-reach-2011-494-cadmium-annex-xvii.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_494_2011_cd_painted_articles_0_1pct",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000000",
+          "basis": "paint on painted article; source unit percent by weight",
+          "product_scope": "painted articles",
+          "regulation_page": "regulations/eu-reach-2011-494-cadmium-annex-xvii",
+          "url": "",
+          "notes": "REACH Annex XVII entry 23 paragraph 2; cadmium expressed as Cd metal in the paint on the painted article.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "42b5d790a192e533dc251acd8d1e82198418c5c42707b30d624d10848560d46b",
+          "row_sha256": "42b5d790a192e533dc251acd8d1e82198418c5c42707b30d624d10848560d46b"
+        },
+        {
+          "regulatory_limit_id": "eu_494_2011_cd_plastic_materials_0_01pct",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "100000",
+          "basis": "plastic material; source unit percent by weight",
+          "product_scope": "mixtures and articles produced from listed synthetic organic polymers",
+          "regulation_page": "regulations/eu-reach-2011-494-cadmium-annex-xvii",
+          "url": "",
+          "notes": "REACH Annex XVII entry 23 paragraph 1; cadmium expressed as Cd metal; 0.01 percent = 100 mg/kg = 100000 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "ce996e7edd9c0b4aaeddaede60ffc73efe60c7d3d2604bbf4c1a22b5127e3fe7",
+          "row_sha256": "ce996e7edd9c0b4aaeddaede60ffc73efe60c7d3d2604bbf4c1a22b5127e3fe7"
+        },
+        {
+          "regulatory_limit_id": "eu_494_2011_cd_jewellery_metal_parts_0_01pct",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "100000",
+          "basis": "metal; source unit percent by weight",
+          "product_scope": "metal beads and other metal components for jewellery making; metal parts of jewellery and imitation jewellery articles; hair accessories",
+          "regulation_page": "regulations/eu-reach-2011-494-cadmium-annex-xvii",
+          "url": "",
+          "notes": "REACH Annex XVII entry 23 paragraph 10; older-article derogations not separately registered.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "0c090c20bc3125f422f342d02052f32c8e591e8fe205d42a114d1d466af8a2d1",
+          "row_sha256": "0c090c20bc3125f422f342d02052f32c8e591e8fe205d42a114d1d466af8a2d1"
+        }
+      ],
+      "cells": [
+        "car-seats|_|Cd",
+        "car-seats|_|Cd",
+        "clasps-fasteners-infant-products|_|Cd",
+        "clasps-fasteners-infant-products|_|Cd",
+        "cribs-and-bassinets|_|Cd",
+        "cribs-and-bassinets|_|Cd",
+        "high-chairs-and-booster-seats|_|Cd",
+        "high-chairs-and-booster-seats|_|Cd",
+        "infant-carriers|_|Cd",
+        "infant-carriers|_|Cd",
+        "play-yards-and-gates|_|Cd",
+        "play-yards-and-gates|_|Cd",
+        "strollers|_|Cd",
+        "strollers|_|Cd",
+        "swings-and-bouncers|_|Cd",
+        "swings-and-bouncers|_|Cd",
+        "walkers|_|Cd",
+        "walkers|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/canada-surface-coating-materials-heavy-metals-2016",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/canada-surface-coating-materials-heavy-metals-2016.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "ca_sor2016_193_thg_surface_coating_material_10000",
+          "jurisdiction": "CA",
+          "authority": "Government of Canada / Health Canada",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "10000",
+          "basis": "dried sample of surface coating material; source unit mg/kg",
+          "product_scope": "surface coating material",
+          "regulation_page": "regulations/canada-surface-coating-materials-heavy-metals-2016",
+          "url": "",
+          "notes": "Section 5 states not more than 10 mg/kg total mercury when a dried sample is tested using a method conforming to good laboratory practices.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "3a6b42680e86875aa56a94bab387debf3755095802d70ee77b98a768a48e5158",
+          "row_sha256": "3a6b42680e86875aa56a94bab387debf3755095802d70ee77b98a768a48e5158"
+        }
+      ],
+      "cells": [
+        "car-seats|_|tHg",
+        "car-seats|_|MeHg",
+        "clasps-fasteners-infant-products|_|tHg",
+        "clasps-fasteners-infant-products|_|MeHg",
+        "cribs-and-bassinets|_|tHg",
+        "cribs-and-bassinets|_|MeHg",
+        "high-chairs-and-booster-seats|_|tHg",
+        "high-chairs-and-booster-seats|_|MeHg",
+        "infant-carriers|_|tHg",
+        "infant-carriers|_|MeHg",
+        "play-yards-and-gates|_|tHg",
+        "play-yards-and-gates|_|MeHg",
+        "strollers|_|tHg",
+        "strollers|_|MeHg",
+        "swings-and-bouncers|_|tHg",
+        "swings-and-bouncers|_|MeHg",
+        "walkers|_|tHg",
+        "walkers|_|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-reach-2014-301-chromium-vi-leather",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-reach-2014-301-chromium-vi-leather.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu_301_2014_cr_vi_leather_articles_3mgkg",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "3000",
+          "basis": "total dry weight of leather; source unit mg/kg",
+          "product_scope": "leather articles and articles containing leather parts coming into contact with the skin",
+          "regulation_page": "regulations/eu-reach-2014-301-chromium-vi-leather",
+          "url": "",
+          "notes": "REACH Annex XVII entry 47 paragraphs 5 and 6 as added by Regulation (EU) No 301/2014; applies from 2015-05-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "22626e91cefa82aa650ad0b66c4af58c0ae03bed7b8f13ae42d5f0e1889ddc21",
+          "row_sha256": "22626e91cefa82aa650ad0b66c4af58c0ae03bed7b8f13ae42d5f0e1889ddc21"
+        }
+      ],
+      "cells": [
+        "car-seats|_|Cr-VI",
+        "clasps-fasteners-infant-products|_|Cr-VI",
+        "cribs-and-bassinets|_|Cr-VI",
+        "high-chairs-and-booster-seats|_|Cr-VI",
+        "infant-carriers|_|Cr-VI",
+        "play-yards-and-gates|_|Cr-VI",
+        "strollers|_|Cr-VI",
+        "swings-and-bouncers|_|Cr-VI",
+        "walkers|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/us-cpsia-lead-childrens-products",
+      "primary_text": {
+        "register_urls": [
+          "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1303",
+          "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1278a&num=0&edition=prelim"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/us-cpsia-lead-childrens-products.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "cpsia_pb_surface_coating_90ppm",
+          "jurisdiction": "US",
+          "authority": "US-CPSC",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "90000",
+          "basis": "paint and similar surface-coating materials; lead calculated as lead metal, weight of total nonvolatile content of the paint or dried paint film",
+          "product_scope": "consumer products bearing paint or similar surface coatings; toys and other articles intended for use by children; furniture articles",
+          "regulation_page": "regulations/us-cpsia-lead-childrens-products",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1303",
+          "notes": "16 CFR 1303.1 as amended by CPSIA s.101(f): 0.06 percent reduced to 0.009 percent effective 2009-08-14; 0.009 percent = 90 ppm = 90 mg/kg = 90,000 ug/kg. Registered for reference; not crosswalked (coating matrix, not whole-product substrate).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "1f58c9beb82a16be5fe7a4c5ec8470777354a7918a0aab2561dd789e48f9d230",
+          "row_sha256": "1f58c9beb82a16be5fe7a4c5ec8470777354a7918a0aab2561dd789e48f9d230"
+        }
+      ],
+      "cells": [
+        "clasps-fasteners-infant-products|_|Pb",
+        "cribs-and-bassinets|_|Pb",
+        "high-chairs-and-booster-seats|_|Pb",
+        "infant-carriers|_|Pb",
+        "play-yards-and-gates|_|Pb",
+        "strollers|_|Pb",
+        "swings-and-bouncers|_|Pb",
+        "walkers|_|Pb"
+      ]
+    }
+  ]
+}

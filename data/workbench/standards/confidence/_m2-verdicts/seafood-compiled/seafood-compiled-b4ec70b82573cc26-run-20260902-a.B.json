@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p5",
+  "batch_id": "seafood-compiled-b4ec70b82573cc26-run-20260902-a",
+  "evidence_key": "b4ec70b82573cc26",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "shellfish|both|tHg",
+      "derived_value": 500,
+      "derived_anchor_id": "eu2023_hg_fish_general_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "Anchor eu2023_hg_fish_general_500 (EU 2023/915 Annex I 3.3.1.1, 'crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels', 0.50 mg/kg wet weight) names both crustaceans and molluscs expressly, so it covers the whole product form 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the sibling 300 row (3.3.1.3) reaches only cephalopods, marine gastropods and the listed low-mercury fish, and the 1000 row only listed predatory fish, so neither displaces 500 for crustaceans or bivalves. The instrument is in force today (2026-09-02) and the row is a total-mercury food-content ML on an as-consumed content cell, so (a)-(c) hold. No stricter same-basis non-gated row covers this product form: every in-force seafood-specific tHg row in the register (Hong Kong Cap 132V 'aquatic animals, other than fish' 500; India FSSAI 'non-predatory fish, crustaceans, cephalopods, molluscs' 500; AU-NZ Schedule 19 'other fish, fish products, crustacea, and molluscs' 500 mean; MERCOSUR/Paraguay crustaceans and bivalves 500; Costa Rica crustaceans/cephalopods/bivalves 500; Panama 500; Vietnam crustaceans and aquatic products 500; Morocco 500; Guyana ppm rows 500) equals the derived value, and GSO 193:2021 is looser at 1000. The two sub-500 rows examined are residual catch-alls that do not displace those specific seafood rows: Singapore reg 31(3) 'other food' 50 sits beneath a 'fish or fish product' 500 tier that on the ordinary reading captures shellfish (Singapore's own Tenth Schedule groups 'fish, crustaceans, and molluscs' as one seafood row), and Uruguay RBN 'foods in general' 50 sits beneath a 'fish muscle' 500 particular row with no shellfish row recorded either way in the register or on the Uruguay page, so neither is shown to reach this product form. MeHg rows (FDA CPG 540.600, Mexico NOM-242, Thailand, China GB 2762-2025, Codex-mirror rows) are a different analyte and were not compared; Israel FCS 2016 rows are gated as not in force and the Guyana ppb rows as quarantined."
+    }
+  ]
+}

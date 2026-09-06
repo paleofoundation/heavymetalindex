@@ -1,0 +1,332 @@
+{
+  "compiled_dir": "cat25-compiled",
+  "generated": "2026-09-02T11:14:45.495Z",
+  "targets": 36,
+  "applied": [
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-concentrates",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-edibles",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-flower",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-tinctures-oils",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-topicals",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "Ni",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 800,
+      "anchor": "eu2024_ni_cereals_800"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "(none)",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cannabis-vape-cartridge-fill",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "(none)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": []
+}

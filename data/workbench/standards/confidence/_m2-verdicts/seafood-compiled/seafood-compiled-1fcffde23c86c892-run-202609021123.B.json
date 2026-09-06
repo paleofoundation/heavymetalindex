@@ -1,0 +1,65 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-1fcffde23c86c892-run-202609021123",
+  "evidence_key": "1fcffde23c86c892",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name canned seafood (canned tuna, canned fish), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+      "key": "cephalopods|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name cephalopods (octopus, squid, cuttlefish; not canned), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+      "key": "fish-freshwater|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name freshwater finfish (tilapia, catfish, trout, carp), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+      "key": "fish-marine-predatory|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+      "key": "shellfish|both|Al",
+      "derived_value": 100000,
+      "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+      "same_basis_candidates": [],
+      "blind_value": 100000,
+      "applicability": "confirmed",
+      "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name shellfish (crustaceans and bivalve molluscs, not canned), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-e2000dc0445e47fb-run-20260902-a",
+  "evidence_key": "e2000dc0445e47fb",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "EU 2023/915 Annex I 3.3.1.3 (the tier inserted by Reg. 2022/617) names 'cephalopods' and 'marine gastropods' expressly in the 0.30 mg/kg wet-weight total-mercury tier; edible-portion wet weight is the cell's content basis and the tier has applied since 3 May 2022. Every other cephalopod mercury row is equal or looser (Bosnia 3.3.3 mirror 300; MERCOSUR and Paraguay 'cephalopod molluscs' 500; CR, GY, Panama and India 500; Hong Kong 'aquatic animals other than fish' 500; Thailand 'other marine animals or plants' MeHg 500), so no stricter same-basis row is missing. Noted but not listed as a candidate: Singapore reg 31(3)(d) 'other food' 0.05 ppm would reach cephalopods only if they are not 'fish or fish product' under 31(3)(b), a definition the register and page do not settle, and Uruguay's residual 50 ug/kg general-food row yields to the MERCOSUR cephalopod limit."
+    },
+    {
+      "key": "fish-freshwater|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "refuted",
+      "reason": "The anchor's 0.30 mg/kg tier (Annex I 3.3.1.3) covers carp (Cyprinidae), salmon and trout (Salmo and Oncorhynchus, excluding Salmo trutta) and the Pangasius catfishes (basa, striped catfish, Mekong giant catfish), but it does not list tilapia (Oreochromis) or the Ictalurid channel catfish that 'catfish' means in the North American market, and it excludes brown trout; those species fall under 3.3.1.1 'muscle meat of fish' at 0.50 mg/kg wet weight. A cell whose product form is defined as 'tilapia, catfish, trout, carp' therefore cannot carry 300 as a firm sovereign number for the whole form: 300 is protective (no in-scope EU value is stricter) but for tilapia, channel catfish and brown trout it is a precautionary tightening of a 500 ug/kg ML, not regulatory alignment, so the category needs a species split or an explicit precautionary tag for the 500-tier species. No stricter non-gated same-basis row was found (Singapore 'other fish or fish product' 500, Uruguay fish muscle 500, MERCOSUR and Paraguay 'fish except predators' 500, Fiji, India, Guyana, CR and Panama 500); Thailand 414's residual total-mercury 'food other than the listed total-mercury categories' 0.02 mg/kg row is flagged because non-marine non-predatory fish have no methylmercury row there and the register scope wording leaves its reach undecided."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|tHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Every species the cell names is on the EU Annex I 3.3.1.3 0.30 mg/kg wet-weight list for muscle meat: sardine or pilchard (Sardina, Sardinops, Sardinella, Dussumieria), anchovy (Engraulis), salmon (Salmo and Oncorhynchus), Atlantic cod (Gadus morhua), Atlantic herring (Clupea harengus) and mackerel (Scomber); the basis matches and the tier has applied since 3 May 2022. No non-gated same-basis tHg row is stricter (Singapore 'other fish or fish product' 500, Uruguay fish muscle 500, MERCOSUR and Paraguay 500, CR, Panama, Guyana, Fiji, India and AU-NZ 500; Bosnia mirrors 300). The cell's scope must be read as the 3.3.1.3 species list rather than 'non-predatory' generally: Pacific cod, Pacific herring, Trachurus and Scomberomorus mackerels, haddock, hake, sea bass, sea bream and most flatfish other than common dab, European flounder, plaice and sole sit at 3.3.1.1's 500 ug/kg."
+    }
+  ]
+}

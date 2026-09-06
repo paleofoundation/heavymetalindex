@@ -1,0 +1,131 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-82a34805c720f325-run-20260902-a",
+  "evidence_key": "82a34805c720f325",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_crtotal_fish_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+        },
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for canned tuna and canned fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+      "key": "cephalopods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V has no cephalopod chromium row, so the only covering row is GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), a bound of 2000 ug/kg. The honest cell for cephalopods is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+      "key": "fish-freshwater|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_crtotal_fish_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+        },
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for freshwater finfish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_crtotal_fish_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+        },
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for marine non-predatory fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+      "key": "fish-marine-predatory|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_crtotal_fish_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+        },
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 1000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for marine predatory fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+      "key": "shellfish|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [
+        {
+          "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V 'Crabs, prawns and shrimps' total chromium 1.0 mg/kg, edible portion after shell removal; covers the crustacean members of the cell."
+        },
+        {
+          "id": "hk_cap132v_crtotal_oysters_1000",
+          "value_ug_kg": 1000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V 'Oysters' total chromium 1.0 mg/kg; covers oysters only, not other bivalves."
+        },
+        {
+          "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+          "value_ug_kg": 2000,
+          "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+        }
+      ],
+      "blind_value": 2000,
+      "applicability": "refuted",
+      "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Crabs, prawns and shrimps' 1.0 mg/kg and 'Oysters' 1.0 mg/kg cover the crustacean and oyster members, but mussels, clams and scallops fall only under GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), so the bound that covers the row as scoped is 2000 ug/kg (1000 for crustaceans and oysters). The honest cell for shellfish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    }
+  ]
+}

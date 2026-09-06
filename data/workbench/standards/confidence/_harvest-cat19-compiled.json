@@ -1,0 +1,763 @@
+{
+  "compiled_dir": "cat19-compiled",
+  "generated": "2026-09-02T10:34:15.329Z",
+  "targets": 78,
+  "applied": [
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "anti-static-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "anti-wrinkle-wrinkle-release-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "bleaching-whitening-additives",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-combination-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-contact-products-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-protectants",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-refresher-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fabric-softeners",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergent-boosters-additives",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-detergents",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-prewash-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "laundry-starch-sizing-fabric-finish",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "pre-treaters-stain-removers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

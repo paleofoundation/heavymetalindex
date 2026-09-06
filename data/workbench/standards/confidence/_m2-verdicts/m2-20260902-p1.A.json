@@ -1,0 +1,339 @@
+{
+ "packet_id": "m2-20260902-p1",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "A",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a",
+   "evidence_key": "e8b5dd23b9f12a25",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Cd",
+     "derived_value": 50,
+     "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+     "same_basis_candidates": [],
+     "blind_value": 100,
+     "applicability": "refuted",
+     "reason": "GSO 193:2021 sets 0.05 mg/kg for 'Muscle meat of fish with exception mentioned', and the exceptions are the same instrument's species rows: 'Muscle meat of fish: mackerel, tuna and bichique' 0.10, 'bullet tuna' 0.15 and 'anchovy, swordfish and sardine' 0.25 mg/kg; canned tuna, the cell's named product, and the principal canned fish (sardine, anchovy, mackerel) therefore fall outside the 50 row, so scope test (a) fails, while the muscle-meat basis itself is sound for the drained fish content of a can (as sold = as consumed, no conversion) and the instrument is in force (effective 2021-07-01). No non-gated same-basis Cd row for fish sits below 50 (Guyana 10 is a quarantined transcription artifact), so 50 is correct for non-exception species only; the strictest sovereign ML that actually covers tuna is 100 (GSO tuna row; Guyana, Panama, Viet Nam and Mercosur/Paraguay concur) and for sardine and anchovy 100 (Costa Rica sardine; Panama, Fiji, Viet Nam, Mercosur), with GB 2762-2025 Table 2 item 8.5 'Canned fish' 200 looser and not binding. Publish 50 as a 'gov' value only for a non-exception-species row, adopt the law's own species split, or keep 50 for the whole row under a disclosed precautionary tag."
+    },
+    {
+     "key": "fish-freshwater|both|Cd",
+     "derived_value": 50,
+     "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+     "same_basis_candidates": [],
+     "blind_value": 50,
+     "applicability": "confirmed",
+     "reason": "GSO 193:2021 'Muscle meat of fish with exception mentioned' (0.05 mg/kg, muscle meat) covers tilapia, catfish, trout and carp; none is in the instrument's exception rows (mackerel, tuna, bichique, bullet tuna, anchovy, swordfish, sardine). The row is a food-content ML on muscle meat, which for fresh or frozen finfish is the as-consumed basis without conversion, and GSO 193:2021 is in force (effective 2021-07-01, status active). No non-gated same-basis Cd row is stricter than 50 (Guyana 10 is a quarantined transcription artifact; Costa Rica and Guyana concur at 50; GB 2762-2025 Table 2 item 8.1 fish 100 is looser)."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Cd",
+     "derived_value": 50,
+     "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+     "same_basis_candidates": [],
+     "blind_value": 100,
+     "applicability": "refuted",
+     "reason": "The anchor's 50 covers salmon, cod and herring, but three of the six named species are the instrument's own exceptions: 'Muscle meat of fish: mackerel, tuna and bichique' 0.10 mg/kg and 'Muscle meat of fish: anchovy, swordfish and sardine' 0.25 mg/kg, so scope test (a) fails for the row as defined. Basis (muscle meat of fresh or frozen fish = as consumed) and in-force status (effective 2021-07-01) are sound, and no non-gated same-basis Cd row is stricter than 50 (Guyana 10 is quarantined). The strictest sovereign ML that covers sardine, anchovy and mackerel is 100 (Costa Rica 'sardine and eel'; Panama and Viet Nam anchovy/sardine; Fiji and Mercosur/Paraguay sardine and mackerel; GSO mackerel), so either adopt the law's species split (50 non-exception / 100 mackerel / 250 sardine and anchovy under GSO, or 100 under the strictest concurring sovereigns) or keep 50 for the whole row under a precautionary tag rather than a 'gov' tag."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-634e454b298b3a55-run-20260902-a",
+   "evidence_key": "634e454b298b3a55",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Cd",
+     "derived_value": 50,
+     "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+     "same_basis_candidates": [],
+     "blind_value": 100,
+     "applicability": "refuted",
+     "reason": "As presented, the anchor is Directive 2009/48/EC toy-material migration ('toys and toy components (soluble element migration)', EN 71-3 category III, mg/kg of material), a migration basis and a non-food scope, so tests (a) and (b) both fail for a food-content cell. The record is also internally inconsistent: its regulatory_limit_id, URL, notes and row hash belong to the GSO 193:2021 'Muscle meat of fish with exception mentioned' row (verified in regulatory_limits.csv as GSO, muscle meat, as_sold, 50), while jurisdiction, authority, basis, product_scope and regulation_page are the EU toy directive, and no EN 71-3 cadmium migration limit equals 50 ug/kg (the categories are 1300 / 300 / 17000). The evidence record needs repair; even read as the GSO fish row it does not cover canned tuna (GSO tuna 100; see the e8b5dd23b9f12a25 verdict), so the blind gov value for the cell as scoped is 100."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-96398ac8bfed9ac7-run-20260902-a",
+   "evidence_key": "96398ac8bfed9ac7",
+   "cells": [
+    {
+     "key": "canned-seafood|both|tAs",
+     "derived_value": 1000,
+     "derived_anchor_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "confirmed",
+     "reason": "Singapore Food Regulations Tenth Schedule (b)(2) sets 1 ppm total arsenic for 'canned fish and meat, meat extract, and hydrolysed protein' on the product as sold or imported, which for a canned product is the as-consumed basis without conversion; canned tuna and canned fish sit squarely inside 'canned fish'. The consolidation is in force from 30 January 2026 (status active). No non-gated same-basis tAs row is stricter than 1000 for canned or other fish (Guyana 200 is a quarantined transcription artifact; Singapore's 'fish, crustaceans, and molluscs' row is also 1000), and GB 2762-2025 governs fish arsenic as inorganic arsenic (Table 4 item 2.2, 100 ug/kg), a different analyte that does not bound total arsenic."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-20260902-a",
+   "evidence_key": "090e2ea3a3ec4ac4",
+   "cells": [
+    {
+     "key": "canned-seafood|both|MeHg",
+     "derived_value": 500,
+     "derived_anchor_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
+     "same_basis_candidates": [],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "GB 2762-2025 Table 3 item 1.1 (0.5 mg/kg) reads 'Aquatic animals and their products, excluding predatory fish and their products'; tuna is carved out to item 1.3 'Tuna and tuna products' at 1.2 mg/kg (item 1.2 predatory fish at 1.0), so the anchor does not cover canned tuna, the cell's named product, and scope test (a) fails, although it does cover canned non-predatory fish such as sardine and mackerel, the basis (product as placed on market) is as consumed for canned fish, and the instrument is in force today (effective 2026-09-02). No non-gated MeHg row stricter than 500 covers canned fish. The strictest sovereign MeHg instrument that covers tuna is 1000 (FDA CPG 540.600 action level for fish, fresh, frozen or processed; Mexico NOM-242 'fish such as tuna, marlin, grouper, and bonito'; Trinidad and Tobago and Viet Nam predatory/carnivorous fish including tuna), with Hong Kong, Thailand, GSO and China all setting tuna at 1200; either split the row (500 canned non-predatory fish / 1000 canned tuna) or keep 500 for tuna under a precautionary or literature-baseline tag, not a 'gov' tag."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-28df1c012f001db3-run-20260902-a",
+   "evidence_key": "28df1c012f001db3",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed canned tuna and canned fish (drained fish content), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+     "key": "cephalopods|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed cephalopod muscle (octopus, squid, cuttlefish), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+     "key": "fish-freshwater|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed freshwater finfish muscle (tilapia, catfish, trout, carp), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed marine non-predatory fish fillet (sardine, anchovy, salmon, cod, herring, mackerel), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+     "key": "fish-marine-predatory|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed marine predatory fish muscle (tuna, swordfish, shark, king mackerel, marlin, billfish), and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    },
+    {
+     "key": "shellfish|both|Ni",
+     "derived_value": 2000,
+     "derived_anchor_id": "eu2024_ni_husked_rice_2000",
+     "same_basis_candidates": [
+      {
+       "id": "eu2024_ni_babyfood_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Nearest same-basis sovereign read-across, not direct coverage: EU 2024/1987 point 3.6.15 'baby food except juices', 0.50 mg/kg on product as placed on market (wet, as consumed), the only EU nickel row whose scope contains fish (meat- and fish-based baby foods); in force since 2025-07-01."
+      },
+      {
+       "id": "ch_vhk_2026_ni_beikost-fur-sauglinge-und-kleinkinder_500",
+       "value_ug_kg": 500,
+       "why_it_applies": "Swiss VHK mirror of the same baby-food row at 500 ug/kg as consumed; concurring second sovereign for the nearer read-across, not direct coverage of adult seafood."
+      }
+     ],
+     "blind_value": 500,
+     "applicability": "refuted",
+     "reason": "No sovereign instrument in the register sets a nickel ML for fish, shellfish, cephalopods or any animal-tissue food, so this cell is a read-across whichever row is chosen; the test is which row is nearest. EU 2024/1987 point 3.6.11.3 'husked rice' (2.0 mg/kg, product as placed on market, a dry cereal at roughly 12-14 % moisture) is neither product-adjacent nor basis-adjacent to wet, as-consumed crustacean and bivalve mollusc meat, and the same instrument's wet-basis rows all sit far lower: 'baby food except juices' 0.50 mg/kg (point 3.6.15, as placed on market, a category that includes meat- and fish-based baby foods and is the only EU nickel row whose scope contains fish), fruiting vegetables 0.40, brassica and leafy vegetables 0.50, root/tuber/bulb vegetables 0.90 and legume vegetables 1.0 (wet weight). The husked-rice row is in force (applies from 2026-07-01) but is not the nearest same-basis sovereign instrument; the nearer one is the baby-food row at 500 ug/kg (Switzerland VHK mirrors it at 500 as consumed), so the read-across as claimed is refuted and the blind value is 500."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-82a34805c720f325-run-20260902-a",
+   "evidence_key": "82a34805c720f325",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_crtotal_fish_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for canned tuna and canned fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+     "key": "cephalopods|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 2000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V has no cephalopod chromium row, so the only covering row is GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), a bound of 2000 ug/kg. The honest cell for cephalopods is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+     "key": "fish-freshwater|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_crtotal_fish_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for freshwater finfish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_crtotal_fish_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for marine non-predatory fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+     "key": "fish-marine-predatory|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_crtotal_fish_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V Schedule 'Fish' total chromium 1.0 mg/kg, food content as sold = as consumed for fish; regulation 3(3) applies the maximum to the edible portion of any food with no canned carve-out; status active."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 1000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Fish' 1.0 mg/kg (regulation 3(3) applies each maximum to the edible portion of any food, no canned carve-out; status active) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), giving a bound of 1000 ug/kg via Hong Kong with China concurring at 2000. The honest cell for marine predatory fish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    },
+    {
+     "key": "shellfish|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [
+      {
+       "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V 'Crabs, prawns and shrimps' total chromium 1.0 mg/kg, edible portion after shell removal; covers the crustacean members of the cell."
+      },
+      {
+       "id": "hk_cap132v_crtotal_oysters_1000",
+       "value_ug_kg": 1000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: Hong Kong Cap 132V 'Oysters' total chromium 1.0 mg/kg; covers oysters only, not other bivalves."
+      },
+      {
+       "id": "china_gb2762_2025_crtotal_aquatic_animals_and_products_2000",
+       "value_ug_kg": 2000,
+       "why_it_applies": "Parent-total bound (Cr-VI <= total Cr), not a Cr-VI row: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total chromium 2.0 mg/kg, product as placed on market; the standard sets no hexavalent-chromium limit; in force from 2026-09-02."
+      }
+     ],
+     "blind_value": 2000,
+     "applicability": "refuted",
+     "reason": "The anchor is California's drinking-water MCL (0.010 mg/L on 'drinking water' delivered by community water systems; the regulation page itself states it is not a food limit and should not be compared directly to a food concentration), so its basis family is water, not food content, and test (b) fails outright for this as-consumed food cell. No sovereign instrument in the register sets a hexavalent-chromium ML in any food matrix (the only Cr-VI rows are drinking water, toy migration, textiles, leather, RoHS, tattoo ink and fertilisers), so the nearest same-basis instruments are the parent-total chromium MLs that bound Cr-VI <= total Cr: Hong Kong Cap 132V 'Crabs, prawns and shrimps' 1.0 mg/kg and 'Oysters' 1.0 mg/kg cover the crustacean and oyster members, but mussels, clams and scallops fall only under GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2.0 mg/kg (in force 2026-09-02), so the bound that covers the row as scoped is 2000 ug/kg (1000 for crustaceans and oysters). The honest cell for shellfish is therefore a bounded parent-total or a disclosed baseline-screen; a tighter policy number may be chosen, but it cannot be labelled a read-across from a water MCL."
+    }
+   ]
+  }
+ ]
+}

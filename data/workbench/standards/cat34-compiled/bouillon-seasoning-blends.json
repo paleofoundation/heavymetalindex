@@ -10,15 +10,23 @@
   "cells": {
     "Pb": {
       "analyte": "Pb",
-      "provenance": "read-across",
-      "value": 2000,
-      "value_exact": 2000,
-      "source_id": "vn_qcvn8_2_2011_pb_spices-including-curry-powder_2000",
-      "source_jurisdiction": "VN",
-      "source_scope": "Spices (including curry powder)",
-      "binding_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 1000,
+      "value_exact": 1000,
+      "binding_jurisdiction": "CN",
+      "binding_id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+      "basis": "product as placed on market",
+      "binding_page": "regulations/china-gb-2762-2025-contaminants",
       "binding_url": "",
-      "label": "no bouillon/seasoning-blend-specific ML exists; read across the nearest applicable sovereign — the spice-blend / curry-powder scope (Vietnam QCVN 8-2:2011 lead 2000 ug/kg; Singapore dried herbs and spices concurs at 2000). A seasoning blend is compositionally a spice blend (curry powder is the archetype)."
+      "concurring": [
+        {
+          "id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+          "value": 1000,
+          "jurisdiction": "CN"
+        }
+      ],
+      "stricter_unselected": []
     },
     "Cd": {
       "analyte": "Cd",
@@ -27,6 +35,7 @@
       "value_exact": 1000,
       "source_id": "vn_qcvn8_2_2011_cd_spices-including-curry-powder_1000",
       "source_jurisdiction": "VN",
+      "basis": "food as listed; source unit mg/kg or mg/l",
       "source_scope": "Spices (including curry powder)",
       "binding_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "binding_url": "",
@@ -39,6 +48,7 @@
       "value_exact": 1000,
       "source_id": "sg_foodregs_2026_curry_powder_tas_1000",
       "source_jurisdiction": "SG",
+      "basis": "product as sold or imported",
       "source_scope": "curry powder",
       "binding_page": "regulations/singapore-food-regulations-heavy-metals-2026",
       "binding_url": "",
@@ -46,15 +56,23 @@
     },
     "iAs": {
       "analyte": "iAs",
-      "type": "not_material",
-      "provenance": "not-material",
-      "value": null,
-      "basis_class": "speciation-bounded",
-      "bounded_by": "tAs",
-      "rationale": "No inorganic-arsenic maximum level for seasoning blends; the total-arsenic curry-powder limit (1000 ug/kg) bounds the inorganic fraction.",
-      "reference_method": "Total-arsenic screen; reflex speciation on elevation.",
-      "regulatory_basis": "Bounded by the read-across total-As curry-powder standard (1000); no inorganic-As blend ML anywhere",
-      "jurisdictions_checked": "Singapore; Vietnam; EU; FDA"
+      "provenance": "regulatory-alignment",
+      "cell_kind": "gov",
+      "value": 100,
+      "value_exact": 100,
+      "binding_jurisdiction": "CN",
+      "binding_id": "china_gb2762_2025_ias_compound_condiment_100",
+      "basis": "product as placed on market",
+      "binding_page": "regulations/china-gb-2762-2025-contaminants",
+      "binding_url": "",
+      "concurring": [
+        {
+          "id": "china_gb2762_2025_ias_compound_condiment_100",
+          "value": 100,
+          "jurisdiction": "CN"
+        }
+      ],
+      "stricter_unselected": []
     },
     "tHg": {
       "analyte": "tHg",
@@ -63,6 +81,7 @@
       "value_exact": 50,
       "source_id": "vn_qcvn8_2_2011_thg_spices-including-curry-powder_50",
       "source_jurisdiction": "VN",
+      "basis": "food as listed; source unit mg/kg or mg/l",
       "source_scope": "Spices (including curry powder)",
       "binding_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "binding_url": "",

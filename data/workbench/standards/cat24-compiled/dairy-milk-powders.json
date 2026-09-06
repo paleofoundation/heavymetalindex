@@ -14,14 +14,34 @@
   "lineage": "Step Zero lock docs/governance/category-24-step0-lock.md (2026-06-08); scaffold tools/autonomy/cat24-26-step0-scaffold.mjs; compiled by tools/standards/compile-cat24.mjs.",
   "cells": {
     "Pb": {
-      "type": "read_across",
-      "provenance": "read-across",
+      "type": "precautionary",
+      "provenance": "precautionary",
       "value": 20,
       "value_exact": 20,
-      "source_id": "il_fcs2016_pb_1_1_dairy_products_20",
-      "source_jurisdiction": "IL",
-      "label": "Sovereign general-dairy read-across from Israel's 20 ug/kg lead maximum where the government register has no exact dairy-form row.",
-      "basis_note": "nearest sovereign value, face value (disclosed read-across; no government ML for this product form)",
+      "unit": "ug/kg",
+      "basis": null,
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "china_gb2762_2025_pb_milk_products_other_200",
+        "value": 200,
+        "jurisdiction": "CN",
+        "scope": null,
+        "basis": null,
+        "page": null
+      },
+      "floor_cell": {
+        "type": "gov",
+        "provenance": "regulatory-alignment",
+        "value": 200,
+        "value_exact": 200,
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_pb_milk_products_other_200",
+        "basis_note": "government maximum level by lookup",
+        "per_country": {}
+      },
+      "rationale": "Published Pb of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_1_1_dairy_products_20) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_milk_products_other_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 20 ug/kg, below the sovereign floor of 200 ug/kg (china_gb2762_2025_pb_milk_products_other_200). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null,
       "per_country": {}
     },
     "Cd": {
@@ -45,26 +65,27 @@
       "value": 500,
       "value_exact": 500,
       "binding_jurisdiction": "CN",
-      "binding_id": "china_gb2762_tas_milk_powder_500",
-      "basis_note": "strictest applicable sovereign maximum (face value)",
+      "binding_id": "china_gb2762_2025_tas_milk_powder_500",
+      "basis_note": "government maximum level by lookup",
       "per_country": {
-        "CN": {
-          "value": 500,
-          "id": "china_gb2762_tas_milk_powder_500"
-        },
         "VN": {
           "value": 500,
           "id": "vn_qcvn8_2_2011_tas_powder-milk-products_500"
+        },
+        "CN": {
+          "value": 500,
+          "id": "china_gb2762_2025_tas_milk_powder_500"
         }
       }
     },
     "iAs": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "Dairy regulations set total-arsenic limits, not a separate inorganic-arsenic limit. Total arsenic is measured on every lot and bounds the iAs fraction; an elevated total-As result triggers arsenic speciation.",
-      "reference_method": "Total As by ICP-MS; iAs by HPLC-ICP-MS (EN 16802 or equivalent) on an elevated total-As result.",
-      "bounded_by": "tAs"
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "basis_class": "speciation-bounded",
+      "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell."
     },
     "tHg": {
       "type": "gov",
@@ -82,12 +103,13 @@
       }
     },
     "MeHg": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "There is no methylmercury bioaccumulation pathway in dairy and no sovereign dairy MeHg maximum. Total mercury is measured on every lot and bounds the methylmercury fraction.",
-      "reference_method": "Total Hg by EPA 7473 or ICP-MS; reflex MeHg speciation only if total Hg approaches the category ceiling.",
-      "bounded_by": "tHg"
+      "subsumed_by": "tHg",
+      "bounded_by": "tHg",
+      "basis_class": "speciation-bounded",
+      "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell."
     },
     "Ni": {
       "type": "read_across",
@@ -101,12 +123,15 @@
       "per_country": {}
     },
     "Sn": {
-      "type": "control",
-      "provenance": "control",
-      "value": null,
-      "control": "Tin is a packaging-migration analyte. Non-tinplate dairy products have no intrinsic tin pathway; products in tin-coated containers instead use the directly applicable canned/tin-coated dairy limit.",
-      "reference_method": "Packaging declaration plus total Sn by ICP-MS; route tin-coated packs to the canned/tin-coated limit.",
-      "bounded_by": null
+      "type": "read_across",
+      "provenance": "read-across",
+      "value": 250000,
+      "value_exact": 250000,
+      "source_id": "sg_foodregs_2026_any_food_sn_250000",
+      "source_jurisdiction": "SG",
+      "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+      "basis_note": "nearest sovereign value, face value (disclosed read-across; no government ML for this product form)",
+      "per_country": {}
     },
     "Al": {
       "type": "read_across",
@@ -125,22 +150,23 @@
       "value": 2000,
       "value_exact": 2000,
       "binding_jurisdiction": "CN",
-      "binding_id": "china_gb2762_cr_milk_powder_2000",
+      "binding_id": "china_gb2762_2025_crtotal_milk_powder_2000",
       "basis_note": "government maximum level by lookup",
       "per_country": {
         "CN": {
           "value": 2000,
-          "id": "china_gb2762_cr_milk_powder_2000"
+          "id": "china_gb2762_2025_crtotal_milk_powder_2000"
         }
       }
     },
     "Cr-VI": {
-      "type": "control",
-      "provenance": "control",
+      "type": "subsumed",
+      "provenance": "subsumed",
       "value": null,
-      "control": "Total chromium is measured on every lot. Any total-Cr result at or above 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails certification.",
-      "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 or equivalent.",
-      "bounded_by": "Cr"
+      "subsumed_by": "Cr",
+      "bounded_by": "Cr",
+      "basis_class": "speciation-bounded",
+      "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell."
     }
   }
 }

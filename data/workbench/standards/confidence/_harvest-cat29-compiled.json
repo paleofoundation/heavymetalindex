@@ -1,0 +1,170 @@
+{
+  "compiled_dir": "cat29-compiled",
+  "generated": "2026-09-02T10:41:58.122Z",
+  "targets": 18,
+  "applied": [
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 400,
+      "anchor": "eu2024_ni_fruiting_veg_400"
+    },
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "cultivated-mushrooms",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 400,
+      "anchor": "eu2024_ni_fruiting_veg_400"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "cultivated-mushrooms-oyster-shiitake",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "MeHg",
+      "from": "?",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "Ni",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 400,
+      "anchor": "eu2024_ni_fruiting_veg_400"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "Sn",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 250000,
+      "anchor": "sg_foodregs_2026_any_food_sn_250000"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "Al",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 100000,
+      "anchor": "cn_gb2760_2024_al_baked_foods_100000"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "read_across",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "wild-mushrooms",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "from": "(scope)",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ Cr"
+    }
+  ],
+  "skipped": []
+}

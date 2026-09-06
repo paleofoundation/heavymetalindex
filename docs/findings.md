@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-220 open item(s): 72 auto, 148 awaiting a decision.
+228 open item(s): 79 auto, 149 awaiting a decision.
+
+### OI-20260902-unmerged-standards-work-triage — Unmerged standards work classified (Phase B step 0): index PR #119 SUPERSEDED-except-rows, cert PRs #2/#42 SUPERSEDED, coffee branch ABSORBED; close or harvest
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/`, `data/workbench/standards/`, `data/evidence/regulatory_limits.csv`
+- repro: Index PR #119 (claude/reverent-driscoll-03cde0, 2026-08-14, 121 files): its 7 GB 2762 register rows now exist as GB 2762-2025 successors (ABSORBED); fr_cshpf/br_in160 rows were restored on main 2026-08-25; its 98 compiled/config edits predate the cert-side completion commits and are SUPERSEDED by the compile-from-config reconciliation (any anchor it carries that main lacks is harvested per category in Phase B). Index PR #118 closed as absorbed (byte-identical config+compiler on main). Cert feat/coffee-standard-completion: coffee.json cells identical to main (ABSORBED; branch can be deleted). Cert PR #2 (seafood MeHg, 2026-08-10): main seafood-compiled re-tagged 2026-08-25 (SUPERSEDED). Cert PR #42 (2026-08-17): rewrites the Cat-1 renderer prose to an 8-metal/10-analyte claim that the 11-cell panel widening replaces (SUPERSEDED). Cert PR #55 (retire P97/P45 public, adds retired-methodology-lint) not in scope of the brief: left open.
+- done when: Karen closes or reassigns index PR #119 and cert PRs #2/#42 (comment references this item); cert feat/coffee-standard-completion deleted or merged as a no-op; any #119 anchor absent from main is either in a catN-config.json or dispositioned in that category derivation-report
+- decision: _pending_
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -523,29 +531,55 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Karen rules: keep the minted em-dash titles as-is, or de-em-dash page+H1+index+DOI together in one credentialed pass
 - decision: _pending_
 
-### OI-20260902-readiness-lint-still-overcounts-complete — cert standard-readiness-lint (post PR #65) still overcounts COMPLETE: panel falls back to Object.keys(cells) so 9-key Cat-1 records pass; any non-null value is firm (valued control counts); only the first variant is read (soy never checked); provisional_scaffold records count; corrected is a pass-through of complete; committed readiness-manifest.json at HEAD is stale (107/107/0) and is what mint-dois.mjs gates on
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/standard-readiness-lint.mjs`, `data/standards/readiness-manifest.json`, `data/standards/cat1-pages.json`
-- repro: cd ~/Desktop/heavymetalcertified && sed -n 41,66p tools/standard-readiness-lint.mjs && node -e "const r=require(\"./data/standards/cat1-compiled/infant-formula-powder.json\");console.log(Object.keys(r.variants),Object.keys(r.variants.cow))" && git show HEAD:data/standards/readiness-manifest.json | head -30
-- done when: panel = canonical 11 constant; missing key = EMPTY; cell COMPLETE only for gov/read_across/form_split numeric with resolvable anchor, subsumed with firm parent, or baseline screen with numeric LOQ + reference_method; control/not_material always EMPTY; all variant keys iterated; provisional_scaffold reported separately, never COMPLETE; page→record via *-pages.json; recordless type:standard pages reported NOT COMPLETE; corrected computed from the confidence manifest, not complete; readiness-manifest.json regenerated and committed with the JSON it describes
-- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Phase A
-
-### OI-20260902-no-roundtrip-diff-tool-loosening-universal — No cert↔index round-trip diff tool exists (drift-map scratchpad scripts gone); copying today index recompiles to cert would LOOSEN ~31 live cells and DROP ~1,362 live firm/bounded cells across 22 of 32 dirs; the 2026-08-25 five-category gate is a sample, not the gate
+### OI-20260902-index-doi-suffix-collisions — Index mint-dois: 27 DOI suffix collisions (ingredients/<x> vs products/<x> share the hmi.<basename> suffix) — an execute run refuses until basenames are namespaced
 
 - scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `tools/standards/diff-compiled-vs-cert.mjs`, `data/evidence/outstanding/2026-08-25-cert-index-recompile-drift-map.md`
-- repro: ls tools/standards | grep -iE "diff|round|drift" (none); corpus scan cert vs index 11-panel: loosen/drop per dir cat1 0/12, cat2 0/96, cat3 12/59, cat13 0/109, cat15 0/90, cat22 0/90, cat23 0/226, cat27 1/20, cat28 8/36, cat32 8/32, cat34 2/2 (totals 31 / 1,362)
-- done when: tools/standards/diff-compiled-vs-cert.mjs exists: reads $CERT_REPO/data/standards/<dir>, iterates every variant, restricts to config/pages.json slugs, maps index cat1-compiled seafood slugs ↔ cert seafood-compiled; regression = numeric increase | non-null→null/absent | subsumed→non-subsumed-null | basis change | record disappears; prose-only reported separately; wired as a gate before any copy to cert
-- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Phase A(4)
+- paths: `tools/mint-dois.mjs`, `wiki/ingredients/`, `wiki/products/`
+- repro: node tools/mint-dois.mjs --dry-run → 27 collision(s), e.g. hmi.baby-food (wiki/ingredients/baby-food.md vs wiki/products/baby-food.md), hmi.coffee, hmi.chocolate, hmi.cashews. The basename-only suffix scheme (hmi.<basename>) was chosen to match the 24 live 10.83376 DOIs; the collision guard refuses an execute run but a dry run only warns.
+- done when: suffix scheme disambiguates products vs ingredients without changing the 24 live DOIs (e.g. hmi.products.<basename> for the colliding set only, or a per-dir namespace for new mints); node tools/mint-dois.mjs --dry-run reports 0 collisions; the change is recorded in docs/DOI-MINTING-LEDGER (index) before any index mint
 
-### OI-20260902-mint-dois-safety-index-executes-without-dryrun — SAFETY: index tools/mint-dois.mjs executes whenever DATACITE creds are in the environment unless --dry-run is passed (index .env.local now carries populated sandbox creds); cert datacite-preflight.mjs is a WRITE tool (POST/GET/DELETE a draft DOI, prints USER+PREFIX); TEST_PREFIXES in both mint-dois.mjs files lack the issued sandbox prefix 10.84435
+### OI-20260902-gb2762-2025-repoint-cat-configs — Re-point every config and live cert record from superseded GB 2762-2022 ids to the GB 2762-2025 successors (values unchanged)
 
 - scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `tools/mint-dois.mjs`, `../heavymetalcertified/tools/mint-dois.mjs`, `../heavymetalcertified/tools/datacite-preflight.mjs`
-- repro: sed -n 60,66p tools/mint-dois.mjs (dryRun = --dry-run || !credentialsReady); grep -cE "^DATACITE_(USER|PASSWORD|PREFIX)=.+" .env.local (3); grep -n TEST_PREFIXES tools/mint-dois.mjs ~/Desktop/heavymetalcertified/tools/mint-dois.mjs (no 10.84435); git -C ~/Desktop/heavymetalcertified show wip/stranded-datacite-cat23-b090435:tools/datacite-preflight.mjs | grep -n "method: \"POST\"\|DELETE"
-- done when: index mint-dois.mjs requires an explicit --live (or --execute) flag to deposit; credentials alone never execute; 10.84435 added to TEST_PREFIXES in both mint-dois.mjs files; datacite-preflight.mjs header states it creates+deletes a DataCite draft record and requires an explicit --execute flag; it never prints DATACITE_USER
-- evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Ground truth / Hard rules
+- paths: `tools/standards/cat1-config.json`, `tools/standards/cat17-config.json`, `tools/standards/cat30-config.json`, `tools/standards/cat24-config.json`, `tools/standards/cat5-config.json`, `tools/standards/seafood-config.json`, `data/workbench/standards/confidence/_gb2762-2025-registration.md`
+- repro: 29 GB 2762-2022 rows carry status superseded since 2026-09-02; audit C4 now fails every cell anchored on them (index cat1/17/24/30/5/seafood configs; live cert cat1, 3, 5, 16, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32, 34, seafood cite them). Successor ids and the old→new map are in the registration record; every value is unchanged, so the re-point is an anchor-change, not a numeric change.
+- done when: no config cites a superseded china_gb2762_/cn_ GB 2762-2022 id; audit C4 reports 0 gated GB 2762 anchors in every index and cert dir; diff-compiled-vs-cert classifies the re-pointed cells as anchor-change with zero regressions; OI-20260825-cat30-cr-gb2762-2025-recheck closed: value 300 confirmed unchanged in GB 2762-2025 Table 7 item 6.1
+- notes: Enacted category by category in the D→B→C→E pipeline of docs/tasks/standards-95-confidence-completion-brief.md; this item tracks the whole set.
+
+### OI-20260902-gb2762-2025-official-url — Capture the official NHC/SAMR posting URL for GB 2762-2025 into the raw manifest, the 169 register rows and the wiki page
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `raw/regulatory/_manifest-reg-all.csv`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/china-gb-2762-2025-contaminants.md`
+- repro: grep -i 2762 raw/regulatory/_manifest-reg-all.csv returns nothing; every china_gb2762_2025_* row has an empty url; the page carries source_url: null and source_file (raw path). Values were verified from the raw PDF, so this is a provenance-pointer gap, not a value gap.
+- done when: manifest row for cn/china-gb-2762-2025-effective-2026-09-02.pdf with the official URL; url filled on every china_gb2762_2025_* row; source_url set on the wiki page
+
+### OI-20260902-gb2760-regulation-page-missing — Regulation page china-gb-2760-2024-food-additives is cited by two aluminium register rows but does not exist under wiki/regulations/
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/regulations/china-gb-2760-2024-food-additives.md`, `data/evidence/regulatory_limits.csv`
+- repro: grep -l 2760 wiki/regulations/*.md returns nothing; rows cn_gb2760_2024_al_baked_foods_100000 and cn_gb2760_2024_al_starch_noodles_vermicelli_200000 cite regulations/china-gb-2760-2024-food-additives (found by M2 verifiers p2.B and p4.A, 2026-09-02)
+- done when: wiki/regulations/china-gb-2760-2024-food-additives.md exists with the 100 mg/kg baked-foods and 200 mg/kg starch-noodle aluminium residue rows on the dry-sample basis and the in-force date; no register row cites a regulation_page that does not exist (add the check to the register lint)
+
+### OI-20260902-fr-cshpf-seaweed-primary-archive — Archive a primary copy of the CSHPF 1988/1990 edible-seaweed avis (or the DGCCRF restatement) under raw/regulatory/fr/
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `raw/regulatory/fr/`, `data/evidence/regulatory_limits.csv`
+- repro: fr_cshpf_seaweed_cd_500 and fr_cshpf_seaweed_thg_100 have no reachable primary text: the CSHPF avis was never published in the JO, raw/regulatory/fr/ does not exist, and the DGCCRF PDF (CA_RS_Algues_Janvier2019.pdf) returns HTTP 403. M1 verifier A could only corroborate the values (Cd 0.5, Hg 0.1 mg/kg dry matter) via ANSES avis 2017-SA-0070 Tableau 3 and CEVA 2024; the cells stay cannot-verify.
+- done when: raw/regulatory/fr/ holds the CSHPF avis text or the DGCCRF seaweed recommendations PDF; the two register rows carry a url or a raw path resolving to it; re-run of the g4 packet yields match for both rows
+
+### OI-20260902-fiji-fsr2009-row-url-not-instrument — Fiji FSR 2009 register rows cite a URL that is the 2002 WHO/FAO/SPC Pacific consultation report, not the Regulations
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/fiji-food-safety-regulations-2009-chemical-contaminants.md`
+- repro: fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200 (and sibling fj_fsr2009_* rows) carry url https://biotech.law.lsu.edu/obesity/who/report_food_safety_consultation.pdf; pdftotext shows the WHO-WPRO consultation report (Nadi, 2002; 59 pp) with no Eleventh Schedule. Both M1 verifiers matched the value against the held raw/regulatory/fj/fiji-food-safety-regulations-2009-chemical-contaminants.pdf instead (byte-identical to the Ministry of Health copy, sha256 96f00728...).
+- done when: url on every fj_fsr2009_* row points to the Food Safety Regulations 2009 (L.N. 20 of 2009) copy (health.gov.fj); register_urls for the instrument no longer list the LSU/WHO report; the M1 packet for the instrument lists the raw path
+
+### OI-20260902-eu-successor-cells-missing-from-register — Register lacks the EU successor cells the Israel deep-read maps to (2023/915 s.3.3 mercury and s.3.5 inorganic tin, Reg 2018/73 mercury MRLs, Directive 2003/40/EC mineral water)
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `data/workbench/standards/confidence/_m1-deep/il-fcs2016-instrument.deep.json`
+- repro: grep -c eu2023_ data/evidence/regulatory_limits.csv shows Pb/Cd/iAs/Ni rows but no 2023/915 mercury (3.3.x) or inorganic-tin (3.5.x) rows, no Reg 2018/73 rows and no Directive 2003/40/EC rows, although the Israel deep-read maps 85 il_fcs2016 rows onto those cells
+- done when: EU 2023/915 s.3.3 mercury and s.3.5 inorganic tin rows present in regulatory_limits.csv with consolidated-text citations; Reg 2018/73 mercury MRLs and Directive 2003/40/EC Annex I limits ingested as EU rows or explicitly logged out-of-scope; every il_fcs2016 row carries status superseded (done 2026-09-02 by supersede-instrument.mjs)
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 
@@ -553,6 +587,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `tools/datacite-reconcile-media.mjs`, `tools/mint-dois.mjs`
 - repro: GET api.datacite.org/dois/10.83376/hmi.organic-certification-not-protective -> container:{}. mint-dois.mjs ~L301 sends container {type:Series,title:Heavy Metal Index} but the 24 synthesis DOIs predate that wiring. Backfill via REST PUT during the same credentialed pass as OI-20260901-datacite-media-apply.
 - done when: All 24 10.83376 synthesis DOIs carry container {type:Series,title:Heavy Metal Index}; Backfill runs idempotently alongside the media-apply reconcile
+
+### OI-20260902-completion-pass-wrong-basis-inventory — Completion-pass wrong-basis anchors on live cert cells (migration / water / as-consumed rows on content cells): 518 cells across cat2/10/13/14/19/20/22/23 plus Cat-15 (toy-migration Sn/Al/Cr-VI and water Cr-VI on feminine-care cosmetics) and Cat-18 Al (as-consumed formula row on an as-sold supplement)
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `data/workbench/standards/confidence/_c-inventory.json`, `tools/standards/cat15-config.json`, `tools/standards/cat18-config.json`
+- repro: node tools/standards/roundtrip-category.mjs --cat=15 shows 70 cert-valued-index-empty cells whose cert anchors are EU 2009/48 toy-migration rows (Sn 3750000, Al 560000, Cr-VI 5) and an NHMRC Cr-VI water row (Cr 50); the harvester refuses them (basis_guard) so the index keeps control/not-material; the cert stays on the wrong-basis numbers until Karen rules (Phase C: correct on the index side and hold, or keep as disclosed precautionary)
+- done when: every live cell in the inventory either cites a same-basis in-force row, is bounded by its parent, carries a disclosed baseline screen, or is ruled a precautionary retention with the tag the vocabulary provides; cat15/cat18 configs reproduce the ruled cells
+- decision: _pending_
 
 ### OI-20260902-cert-stranded-datacite-cat23 — Stranded local cert commit b090435 bundles datacite-preflight tool plus STALE Cat-23 standards edits; must not be pushed as-is
 
@@ -587,14 +629,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - evidence: Both pages carry iAs 30 ppb, so no numeric contradiction today, but the Cat 5 page has only 5 firm analytes vs 10 on the Cat 3 page: a brand choosing the Cat 5 page certifies against a thinner panel for the identical product
 - notes: Found during the 2026-09-02 subcategory completeness sweep. Inverse of a missing-subcategory defect (a duplicate), but it is the same register-coherence problem a retailer buyer or plaintiff expert would notice. Never renumber; retire-in-place per taxonomy governance.
 
-### OI-20260902-cert-doi-writeback-reset-gate0 — GATE 0: cert mint-dois.mjs writes cert_doi into rendered content/standards/*.md, but both renderers regenerate that line from pages.json (which carries no cert_doi), so the first prebuild after a mint resets every DOI to null and REGISTERED flips back to false
-
-- scope: **auto** · type: code-fix · status: open · repo: cert
-- paths: `tools/mint-dois.mjs`, `tools/build-cat1-standard-pages.mjs`, `tools/build-category-standard-pages.mjs`, `tools/standard-readiness-lint.mjs`, `data/standards/*-pages.json`
-- repro: cd ~/Desktop/heavymetalcertified && grep -c cert_doi data/standards/*-pages.json (0 for all 32) && grep -n "cert_doi" tools/build-cat1-standard-pages.mjs tools/build-category-standard-pages.mjs (emit from page.cert_doi || null) && sed -n 335,350p tools/mint-dois.mjs (writes into the .md). Also productionDoi(slug) in the readiness lint keys by RECORD slug so Cat-1 (9 pages ↔ 12 records via cat1-pages.json) can never become REGISTERED.
-- done when: write-back target is committed source (pages[].cert_doi or data/standards/doi-registry.json keyed by page slug) and both renderers read it; a lint fails when a rendered page cert_doi differs from the registry; productionDoi resolves page→record through the pages.json join; a prebuild after a (dry) write-back does not reset any cert_doi
-- evidence: found by the 2026-09-02 chip-brief verification workflow (4 fact-checkers, 4 red-teamers); brief: docs/tasks/standards-95-confidence-completion-brief.md Phase F GATE 0
-
 ### OI-20260902-cert-cat26-stale-framing-no-version-bump — Cat-26: framing + v1.1 bump landed (9ee27a5); RESIDUAL = no version-history record and no retained v1.0 edition PDF for the 5 pages
 
 - scope: **auto** · type: content · status: open · repo: cert
@@ -611,6 +645,34 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Register carries source-verified rows for China GB 4806.9-2023 (supersedes GB 4806.9-2016; effective 2024-09-06) metal food-contact MIGRATION limits into food simulant, ug/kg: Pb 10, Cd 2, tAs 2, Sb 40, Al 1000 (5000 uncoated aluminium), total Cr 250, Ni 140, Sn 100000; test-method chain cited as GB 31604.1 simulant selection + GB 31604.49-2016 (do not hardcode a simulant) — DONE index commit 095e4ff9b; CoE CM/Res(2013)9 specific release limits recorded as guidance/comparator, never as the binding ML — DONE index commit 095e4ff9b; Every Cat-23 record whose native_basis is release/migration into food carries only release-basis instruments; no cell in a release-basis row cites an alloy-composition (percent by weight) or toy scraped-material (EN 71-3) instrument; Ni/Sn/Al toy-migration cells replaced or reverted to control; A basis-guard lint fails the build when a cell basis kind (content / toy-migration / release / water) differs from the record native_basis kind; Recompiled Cat-23 pages render and export drift-check clean; live cookware-metal-alloy Pb is 10 ug/kg migration (GB 4806.9-2023), not a control cell and not 1,000,000
 - evidence: build log 2026-09-02: origin/main 8066338 green; live page renders Lead (Pb) 1000000 read-across · register grep: 0 rows for GB 4806.9 / Council of Europe / CM/Res(2013)9 / Italy DM 21/03/1973 · Index register targets built 2026-09-02 (index main 095e4ff9b): wiki/regulations/china-gb-4806-9-2023-food-contact-metal.md (CURRENT statutory instrument, supersedes GB 4806.9-2016) + wiki/regulations/coe-cm-res-2013-9-metals-alloys-food-contact.md (comparator, not sovereign law). +18 rows in regulatory_limits.csv: 9 GB statutory (cn_*_food-contact-metal-migration_*, status maximum level) + 9 CoE comparator (coe_*_food-contact-metal-srl_*, status guidance release limit (comparator)). Correct migration basis into food simulant (test GB 31604.49-2016), ug/kg: GB Pb 10, Cd 2, tAs 2, Sb 40, Al 1000 (5000 uncoated), Cr-total 250, Ni 140, Sn 100000. CoE SRL comparator ug/kg: Pb 10, Cd 5, tHg 3, tAs 2, Sb 40, Al 5000, Cr-total 250, Ni 140, Sn 100000. CRITICAL: use GB 4806.9-2023 not 2016 (2016 migration Pb 0.05 = 50 ug/kg, 5-20x looser). Verified vs USDA GAIN Tables 3-4 + EDQM Article 4 Tables 1-2 primary sources in raw/regulatory/{cn,coe}/. Cat-23 recompile can read-across the GB 4806.9-2023 migration ML in place of the KR alloy-composition cap.
 - notes: Wrong-number-live class (feedback: fix now). Not fixed in the audit session because another interactive session is mid-flight on Cat-23 (16/30 complete via read-across) in the same checkout; three local sessions were messaged. Mirrors the Cat-9 rule BASIS NEVER CONFLATED. CORRECTION 2026-09-02: the audit session originally quoted GB 4806.9-2016 values from memory (Pb 0.05 mg/kg etc.); the index session verified from USDA GAIN + EDQM that GB 4806.9-2023 superseded it with 5-20x tighter limits (Pb 10 ug/kg). Use the 2023 values only. Cr-total rows aliased to panel Cr for cat23 in cert commit 1b06d60be; recompile in progress by a parallel session.
+
+### OI-20260902-cat9-cat12-no-compiled-config — Cat-9 (contact products, 10-cell hand pages, no cert compiled dir) and Cat-12 (household cleaning, 21 live pages, no index config) have no config-driven compile, so the round-trip, audit and confidence pass cannot reach them
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/cat9-config.json`, `tools/standards/cat12-config.json`, `tools/standards/compile-category.mjs`, `data/workbench/standards/cat9-compiled`, `data/workbench/standards/cat12-compiled`
+- repro: node tools/standards/roundtrip-category.mjs --cat=9 and --cat=12 report no plan; the cert readiness lint counts 29 recordless pages from these two categories
+- done when: a cat9 config on the migration/release basis (BASIS NEVER CONFLATED) and a cat12 config (GB 14930.1 read-across per the live standard) compile to records whose projection matches the live pages with 0 regressions; both dirs carry a Lens 0 confidence manifest and enter the M1/M2 queues; the 29 recordless pages resolve through *-pages.json joins
+
+### OI-20260902-cat26-aluminium-anchor — Cat-26 aluminium on oral/nasal routes is anchored to a drinking-water row (EU 2020/2184, water intended for human consumption): cross-basis read-across on a PDE-class product; find a route-appropriate instrument or a baseline screen
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `tools/standards/cat26-config.json`, `tools/standards/compile-cat26.mjs`
+- repro: node tools/standards/compile-cat26.mjs: the Al cells for the non-parenteral routes cite a water row; ICH Q3D and USP <232> set no aluminium PDE, and only 21 CFR 201.323 (large-volume parenterals) is route-appropriate
+- done when: every Cat-26 Al cell cites a permitted-daily-exposure or route-appropriate drug-product instrument, or a disclosed baseline screen with an LOQ from data/evidence/analytical_methods.csv; the Al exemption in compile-cat26 verify is removed
+
+### OI-20260902-cat1-fruit-juice-apple-ias-form-split — Cat-1 fruit-juice: FDA 10 ppb inorganic-arsenic action level applies to apple juice only; publish as a form split rather than excluding it from the category scope
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `tools/standards/compile-cat1.mjs`
+- repro: cat1-config.json fruit-juice scope_exclude now carries "apple juice" so the whole-category ceiling is EU 2023/915 fruit juices iAs 20 (golden value, audit wf2uta7ck); the stricter apple-only rows fda2023_ias_apple_juice_10 and us_ias_apple-juice-single-strength-ready-to-dri_10 are therefore not published on the page. compile-cat1 has no form_split cell kind (the engine used by cat33/34 does).
+- done when: fruit-juice iAs renders as a form split: apple juice 10 (FDA), other fruit juices 20 (EU 2023/915); panel-coherence golden fruit-juice iAs = 20 preserved for the category ceiling; audit --dir cat1 0 FAIL after the change
+
+### OI-20260902-ca-crvi-final-regulation-text-not-held — Hold the SWRCB hexavalent-chromium MCL final regulation text in raw/ (held copy is the Feb 2024 proposed text) and record adoption/effective/compliance dates on the register row
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `raw/regulatory/us-ca/`, `data/evidence/regulatory_limits.csv`, `wiki/regulations/ca-swrcb-hexavalent-chromium-mcl.md`
+- repro: raw/regulatory/us-ca/ca-swrcb-hexavalent-chromium-mcl-regulation-text-2024.pdf is footed Regulation Text (proposed) with placeholder dates; the adopted text (waterboards.ca.gov .../2024/cr6-mcl-final-regulation-text.pdf, created 2024-07-25) carries the same MCL 0.010 mg/L with compliance dates 2026/2027/2028-10-01. Both M1 verifiers matched the value; the row has no url and no raw path in notes.
+- done when: final regulation text saved under raw/regulatory/us-ca/ with final in the filename; ca_swrcb_crvi_drinking_water_10 carries url + notes: adopted 2024-04-17 (Res. 2024-0015), OAL 2024-07-24, effective 2024-10-01, phased compliance; the M1 packet lists the final text
 
 ### OI-20260902-c5-formula-al-reconstitution-false-positive — audit-compiled-standards C5 false-positive on formula Al 8000 (8:1 reconstitution not modeled)
 
@@ -705,15 +767,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: a regulatory-watch impact record of class current-binding-limit-change opens a needs-version-bump + version-DOI-mint queue for its related_standard_urls; a limit change with no matching standard_version bump + versions[] entry fails a lint (content-hash or limit-diff tie); every one of the 351 standards has a version-history record
 - decision: _pending_
 - notes: Part of realizing the versioned-DOI-for-transparency plan (OI-20260831-doi-granularity-two-tier). This is the 'under-reacting / staleness' failure mode from the 2026-08-31 re-run adversarial audit -- the real risk that replaces 'frequent re-minting' once the COMPLETE + audit-passing publish-gate (Karen's churn-avoidance point) is enforced.
-
-### OI-20260831-published-panel-8-not-10-11 — Cat-1 (and reduced-panel categories) publish only 8 analyte cells; official HMTc panel is 10-11 — tAs, MeHg, Cr-VI missing on every subcategory (violates Certification-Readiness Ruling §1)
-
-- scope: **human-gated** · type: code-fix · status: open · repo: index
-- paths: `tools/standards/compile-cat1.mjs`, `tools/standards/cat1-config.json`
-- repro: compile-cat1.mjs DEFAULT_PANEL = [Pb, iAs, tHg, Cd, Cr-total, Ni, Sn, Al] (8). Cat-1 config has no panel override, so infant-formula-powder etc. emit exactly 8 cells (verified: node inspection of cat1-compiled/infant-formula-powder.json). The official HMTc certification panel (CLAUDE.md Part 14) is 10 (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), or 11 with total-Cr published as its own line alongside Cr-VI (v2.6 Species/screens ruling: the total metal is a first-class published limit, never hidden). Missing published cells on EVERY Cat-1 subcategory: tAs, MeHg, Cr-VI. Violates Certification-Readiness Ruling section 1 (species bounded by total — iAs<=tAs, MeHg<=tHg, Cr-VI<=total-Cr — are enforceable published ceilings, never blank). The prior 8/8 COMPLETE readiness/confidence read measured the wrong panel and is retracted.
-- done when: Cat-1 publishes the full 10-11 panel: tAs, MeHg, Cr-VI added as cells on every subcategory; MeHg emitted as bounded <= tHg (reconcileMercurySpeciation, already present once MeHg is in the panel) or a direct species ML where one exists; Cr-VI emitted as a bounded <= total-Cr published cell (compiler enhancement mirroring the mercury reconciliation), superseding the hidden not_material reflex-only treatment per the v2.6 ruling; tAs sourced from total-arsenic baby-food MLs or a disclosed read-across per subcategory; every Cat-1 subcategory (existing 9 + new fish/meats/dairy-desserts) recompiles COMPLETE against the full panel; the same reduced-panel gap is audited across the other category compilers
-- decision: _pending_
-- notes: Systemic: the reduced 8-panel is the compiler default and likely affects other categories (seafood already re-adds MeHg via config.panel; audit tAs/Cr-VI everywhere). MeHg + Cr-VI are bounded-derivable from totals the compiler already computes (near-free); tAs is the one needing genuine sourcing. Caught by Karen 2026-08-31 (10-or-11-cells question). This is the real completeness gate for Cat-1, upstream of the DOI mint; supersedes the 8-cell confidence scorecard.
 
 ### OI-20260831-onboarding-cadence-pr3-promote — Merge PR #3 (onboarding cadence redesign + template-path SignNow) to heavymetalcertified-app master; close superseded PR #2
 

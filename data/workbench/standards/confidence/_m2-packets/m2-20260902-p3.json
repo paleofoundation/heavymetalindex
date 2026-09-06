@@ -1,0 +1,301 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "run_id": "run-20260902-a",
+  "compiled_dir": "seafood-compiled",
+  "batches": [
+    {
+      "evidence_key": "2559d6c78b422192",
+      "analyte": "Pb",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+          "jurisdiction": "FJ",
+          "authority": "Fiji Food Safety Board",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "mg/Kg",
+          "product_scope": "Muscle meat of fish, excluding those listed below",
+          "regulation_page": "regulations/fiji-food-safety-regulations-2009-chemical-contaminants",
+          "url": "https://biotech.law.lsu.edu/obesity/who/report_food_safety_consultation.pdf",
+          "notes": "Food Safety Regulations 2009; Eleventh Schedule paragraph (15), fish and fisheries products table. Source value 0.2 mg/Kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f7c411adfc1263c022a86cd4fb5382ba1a61dcfe8a10c212c9794397d556d33d",
+          "row_sha256": "f7c411adfc1263c022a86cd4fb5382ba1a61dcfe8a10c212c9794397d556d33d"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-freshwater|both|Pb",
+          "slug": "fish-freshwater",
+          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Pb",
+          "slug": "fish-marine-non-predatory",
+          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-2559d6c78b422192-run-20260902-a"
+    },
+    {
+      "evidence_key": "8a034577272d83cf",
+      "analyte": "tAs",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "fish, crustaceans, and molluscs",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(15) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9",
+          "row_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-freshwater|both|tAs",
+          "slug": "fish-freshwater",
+          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "shellfish|both|tAs",
+          "slug": "shellfish",
+          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-8a034577272d83cf-run-20260902-a"
+    },
+    {
+      "evidence_key": "a8e27f7db81fe36d",
+      "analyte": "tAs",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as offered to consumer",
+          "product_scope": "raw, frozen, or refrigerated fish",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 1 mg/kg normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075",
+          "row_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-marine-non-predatory|both|tAs",
+          "slug": "fish-marine-non-predatory",
+          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-predatory|both|tAs",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-a8e27f7db81fe36d-run-20260902-a"
+    },
+    {
+      "evidence_key": "19561b03ce436ec9",
+      "analyte": "tHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_high_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "1000",
+          "basis": "wet weight",
+          "product_scope": "listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, sturgeon, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.2.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d",
+          "row_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-marine-predatory|both|tHg",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-19561b03ce436ec9-run-20260902-a"
+    },
+    {
+      "evidence_key": "1408b285ffb5df2f",
+      "analyte": "MeHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_mehg_predatory_fish_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "MeHg",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Predatory fish and their products, excluding tuna, alfonsino, marlin, shark and the products of those fish (GB 2762-2025 Table 3, item 1.2); methylmercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 1.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 1.0 mg/kg; screening rule: total mercury may be measured first and compliance concluded when it does not exceed the MeHg limit; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4dac981518f58c8f9f9f4f6edfafa4e9bf25c90636335566bb891cd699d97b8e",
+          "row_sha256": "4dac981518f58c8f9f9f4f6edfafa4e9bf25c90636335566bb891cd699d97b8e"
+        }
+      ],
+      "cells": [
+        {
+          "key": "fish-marine-predatory|both|MeHg",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-1408b285ffb5df2f-run-20260902-a"
+    },
+    {
+      "evidence_key": "9985c4eb34ed76ea",
+      "analyte": "tAs",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "1000",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "seaweed",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Inorganic arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
+          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|tAs",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-20260902-a"
+    }
+  ]
+}

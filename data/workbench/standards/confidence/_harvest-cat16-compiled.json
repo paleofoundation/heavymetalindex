@@ -1,0 +1,945 @@
+{
+  "compiled_dir": "cat16-compiled",
+  "generated": "2026-09-02T11:25:05.537Z",
+  "targets": 72,
+  "applied": [
+    {
+      "slug": "supplements-algae-seaweed-based",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-amino-acids-isolates",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-bars-labeled",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-botanicals-herbs",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-clay-mineral-earth",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-enzymes",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-greens-superfood",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-mushroom-fungal",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oil-based",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-liquids-droppers",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-liquids-shots",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-liquids-syrups",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-liquids-tinctures",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-capsules",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-effervescent",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-gummies",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-lozenges",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-powders",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-softgels",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-oral-solids-tablets",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-probiotics",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-protein-collagen-powders",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-teas-labeled",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    },
+    {
+      "slug": "supplements-vitamin-mineral",
+      "variant": "both",
+      "analyte": "Cr",
+      "from": "(scope)",
+      "to": "read_across",
+      "value": 1000,
+      "anchor": "china_gb2762_2025_crtotal_cereals_1000"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "supplements-algae-seaweed-based",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-algae-seaweed-based",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-amino-acids-isolates",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-amino-acids-isolates",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-bars-labeled",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-bars-labeled",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-botanicals-herbs",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-botanicals-herbs",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-clay-mineral-earth",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-clay-mineral-earth",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-enzymes",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-enzymes",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-greens-superfood",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-greens-superfood",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-mushroom-fungal",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-mushroom-fungal",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oil-based",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oil-based",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-droppers",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-droppers",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-shots",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-shots",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-syrups",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-syrups",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-tinctures",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-liquids-tinctures",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-capsules",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-capsules",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-effervescent",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-effervescent",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-gummies",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-gummies",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-lozenges",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-lozenges",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-powders",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-powders",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-softgels",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-softgels",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-tablets",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-oral-solids-tablets",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-probiotics",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-probiotics",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-protein-collagen-powders",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-protein-collagen-powders",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-teas-labeled",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-teas-labeled",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-vitamin-mineral",
+      "variant": "both",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    },
+    {
+      "slug": "supplements-vitamin-mineral",
+      "variant": "both",
+      "analyte": "Cr-VI",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "(scope)",
+      "why": "subsumed is derived from the parent by reconcileSpecies (harvest the parent)"
+    }
+  ]
+}

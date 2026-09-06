@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902b-p4",
+  "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021123",
+  "evidence_key": "42be502b999b13ba",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "shellfish|both|Cd",
+      "derived_value": 500,
+      "derived_anchor_id": "eu2023_cd_crustaceans_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "confirmed",
+      "reason": "The anchor's scope 'crustaceans' (EU 2023/915 Annex I, 0.50 mg/kg wet weight, muscle meat from appendages and abdomen, appendages only for crabs and crab-like crustaceans) covers the crustacean member on the cell's as-consumed wet-weight basis, and Regulation (EU) 2023/915 is in force. The bivalve member carries looser sovereign lines (EU 2023/915 bivalve molluscs 1000; GB 2762-2025 item 8.4, HK, TH, PH, GSO, IN, VN, MERCOSUR, PY 2000; MA 1000), so 500 row-wide is at or below every member's ceiling; GB 2762-2025 item 8.2, MX NOM-242 'other fishery products', CR, PA, GY, GSO, IN, FJ, VN, MERCOSUR, PY and MA concur at 500 for crustaceans and no non-gated row is stricter. The VN QCVN 8-2:2011 'Aquatic products' line at 50 (table row 38, 0.05 mg/kg) is a general line displaced by that instrument's own specific crustacean (row 35, 0.5) and bivalve (2.0) rows, so it does not bind shellfish, and the GY 10 line is quarantined; GB item 8.3 (sea crab and mantis shrimp, 3000) is looser and does not disturb the min."
+    }
+  ]
+}

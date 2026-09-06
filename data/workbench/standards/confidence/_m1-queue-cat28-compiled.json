@@ -1,0 +1,367 @@
+{
+  "compiled_dir": "cat28-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "Nuts and seeds, excluding raw (green) coffee beans and roasted coffee beans (GB 2762-2025 Table 1, item 7.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 7.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.2 mg/kg; supersedes china_gb2762_pb_nuts_and_seeds_200; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9ffed0bae33074fbc8a0840e7c7a86f7c5abe73e665df238b26e449e5643b4d8",
+          "row_sha256": "9ffed0bae33074fbc8a0840e7c7a86f7c5abe73e665df238b26e449e5643b4d8"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "cashews|both|Pb",
+        "cashews|both|Cr",
+        "cashews|both|Cr-VI",
+        "nut-seed-butters-other|both|Pb",
+        "nut-seed-butters-other|both|Cr",
+        "nut-seed-butters-other|both|Cr-VI",
+        "nuts-seeds-other|both|Pb",
+        "nuts-seeds-other|both|Cr",
+        "nuts-seeds-other|both|Cr-VI",
+        "sunflower-seed-butter|both|Cr",
+        "sunflower-seed-butter|both|Cr-VI",
+        "sunflower-seeds|both|Cr",
+        "sunflower-seeds|both|Cr-VI",
+        "tree-nuts-high-nickel|both|Pb",
+        "tree-nuts-high-nickel|both|Cr",
+        "tree-nuts-high-nickel|both|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2023-915-cadmium",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2023-915-cadmium.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_cd_tree_nuts_200",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "tree nuts, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Except higher listed rows (e.g., pine nuts).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "7882e178ae9a1b815038d0b57e3f0c63af6a4568b15285eabec24da1f749192d",
+          "row_sha256": "7882e178ae9a1b815038d0b57e3f0c63af6a4568b15285eabec24da1f749192d"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_oilseeds_general_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "oilseeds, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Except listed oilseed-specific rows.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "338eda0ade79046216cce48520835470a47c15e1429c5bf5359f3d4cd9b5a2ae",
+          "row_sha256": "338eda0ade79046216cce48520835470a47c15e1429c5bf5359f3d4cd9b5a2ae"
+        },
+        {
+          "regulatory_limit_id": "eu2023_cd_sunflower_linseed_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "commodity",
+          "product_scope": "linseeds and sunflower seeds",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.2.11.5.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "00f260bc0367804456e658da98f8f9d41a4ba0956e375b955b494bba7eb1689a",
+          "row_sha256": "00f260bc0367804456e658da98f8f9d41a4ba0956e375b955b494bba7eb1689a"
+        }
+      ],
+      "cells": [
+        "cashews|both|Cd",
+        "nut-seed-butters-other|both|Cd",
+        "nuts-seeds-other|both|Cd",
+        "sunflower-seed-butter|both|Cd",
+        "sunflower-seeds|both|Cd",
+        "tree-nuts-high-nickel|both|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/brazil-anvisa-in-160-2022-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.gov.br/agricultura/pt-br/assuntos/inspecao/produtos-animal/plano-de-nacional-de-controle-de-residuos-e-contaminantes/1-in_160_2022_comp.pdf"
+        ],
+        "raw_paths": [],
+        "wiki_page": null
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "br_in160_2022_tas_tree_nuts_800",
+          "jurisdiction": "BR",
+          "authority": "ANVISA (Agencia Nacional de Vigilancia Sanitaria)",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "800",
+          "basis": "food as placed on market",
+          "product_scope": "tree nuts (castanhas including walnuts, pistachios, hazelnuts, macadamia, almonds)",
+          "regulation_page": "regulations/brazil-anvisa-in-160-2022-contaminants",
+          "url": "https://www.gov.br/agricultura/pt-br/assuntos/inspecao/produtos-animal/plano-de-nacional-de-controle-de-residuos-e-contaminantes/1-in_160_2022_comp.pdf",
+          "notes": "Brazil ANVISA IN 160/2022 (Annex I, metals in foods) maximum tolerated limit. Restores a binding row the live cert cites but absent from the register (provenance gap, 2026-08-25); value PRIMARY-VERIFIED 2026-08-25 against the ANVISA IN 160/2022 official text (tree nuts 0,80 mg/kg).",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "faab01781f2ce6b7aa9438da9fd44357a0d68310600e0da93b4cc3440a9cfcea",
+          "row_sha256": "faab01781f2ce6b7aa9438da9fd44357a0d68310600e0da93b4cc3440a9cfcea"
+        }
+      ],
+      "cells": [
+        "cashews|both|tAs",
+        "cashews|both|iAs",
+        "nut-seed-butters-other|both|tAs",
+        "nut-seed-butters-other|both|iAs",
+        "nuts-seeds-other|both|tAs",
+        "nuts-seeds-other|both|iAs",
+        "tree-nuts-high-nickel|both|tAs",
+        "tree-nuts-high-nickel|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
+        },
+        {
+          "regulatory_limit_id": "th_moph414_2020_pb_food_other_1000",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed lead categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 lead residual row; value 1 mg/kg normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "ec8f89efe0f5de4b40148f34a33d0800402699df7940d13989757c0321f404e4",
+          "row_sha256": "ec8f89efe0f5de4b40148f34a33d0800402699df7940d13989757c0321f404e4"
+        }
+      ],
+      "cells": [
+        "cashews|both|tHg",
+        "cashews|both|MeHg",
+        "nut-seed-butters-other|both|tHg",
+        "nut-seed-butters-other|both|MeHg",
+        "nuts-seeds-other|both|tHg",
+        "nuts-seeds-other|both|MeHg",
+        "sunflower-seed-butter|both|Pb",
+        "sunflower-seed-butter|both|tHg",
+        "sunflower-seed-butter|both|MeHg",
+        "sunflower-seeds|both|Pb",
+        "sunflower-seeds|both|tHg",
+        "sunflower-seeds|both|MeHg",
+        "tree-nuts-high-nickel|both|tHg",
+        "tree-nuts-high-nickel|both|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_tree_nuts_listed_10000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "10000",
+          "basis": "edible part",
+          "product_scope": "chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "b325a702c13cf6ac94650d16341dc8008c5060c2b1e7e199d566de99da4fb36f",
+          "row_sha256": "b325a702c13cf6ac94650d16341dc8008c5060c2b1e7e199d566de99da4fb36f"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_tree_nuts_3500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "3500",
+          "basis": "edible part",
+          "product_scope": "tree nuts except chestnuts, pine nuts, walnuts, Brazil nuts, cashew nuts",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "47273756619c7e820927beb691e9da88ac29df151b136a6b6333aad044ec241a",
+          "row_sha256": "47273756619c7e820927beb691e9da88ac29df151b136a6b6333aad044ec241a"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_sunflower_seed_8000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "8000",
+          "basis": "edible part",
+          "product_scope": "sunflower seed",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "c4ee73d3cb838c9c53d97ce4a20e2b50918b29441c0f62d943f37d9ac5587705",
+          "row_sha256": "c4ee73d3cb838c9c53d97ce4a20e2b50918b29441c0f62d943f37d9ac5587705"
+        }
+      ],
+      "cells": [
+        "cashews|both|Ni",
+        "nut-seed-butters-other|both|Ni",
+        "nuts-seeds-other|both|Ni",
+        "sunflower-seed-butter|both|Ni",
+        "sunflower-seeds|both|Ni",
+        "tree-nuts-high-nickel|both|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_other_food_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "other food not specified in the Tenth Schedule",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(27) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+          "row_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508"
+        }
+      ],
+      "cells": [
+        "cashews|both|Sn",
+        "nut-seed-butters-other|both|Sn",
+        "nuts-seeds-other|both|Sn",
+        "sunflower-seed-butter|both|tAs",
+        "sunflower-seed-butter|both|iAs",
+        "sunflower-seed-butter|both|Sn",
+        "sunflower-seeds|both|tAs",
+        "sunflower-seeds|both|iAs",
+        "sunflower-seeds|both|Sn",
+        "tree-nuts-high-nickel|both|Sn"
+      ]
+    }
+  ]
+}

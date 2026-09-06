@@ -1,0 +1,434 @@
+{
+  "compiled_dir": "cat30-compiled",
+  "run_id": "run-202609061824",
+  "batches": [
+    {
+      "evidence_key": "734d41bd319590ff",
+      "analyte": "Pb",
+      "basis_class": "product as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_fats_and_oils_80",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "80",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils and their products (GB 2762-2025 Table 1, item 12.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 12.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.08 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c",
+          "row_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Pb",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|Pb",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-734d41bd319590ff-run-202609061824"
+    },
+    {
+      "evidence_key": "d561478561953845",
+      "analyte": "Pb",
+      "basis_class": "product as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_fats_and_oils_80",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "80",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 12.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.08 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c",
+          "row_sha256": "417c4cefb329aa4b97881e1588204c19b3abe91ec657f91eeb9831a61a271e9c"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Pb",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-d561478561953845-run-202609061824"
+    },
+    {
+      "evidence_key": "47819561a70268aa",
+      "analyte": "tAs",
+      "basis_class": "as sold",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "codex_tas_named-vegetable-oils_100",
+          "jurisdiction": "CODEX",
+          "authority": "Codex Alimentarius Commission",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "as sold",
+          "product_scope": "Named vegetable oils",
+          "regulation_page": "regulations/codex-fats-oils-contaminants",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "notes": "CXS 210-1999 Standard for Named Vegetable Oils Sec 5.1 / CXS 19-1981 Edible Fats and Oils Sec 4 set total arsenic 0.1 mg/kg (and lead 0.1 mg/kg) as commodity-standard MLs. Confirmed in force; CCFO29 (2024) directed CCCF to consolidate these As/Pb oil MLs into horizontal CXS 193. Loaded 2026-08-10 (oils not-material audit): closes the As-in-oil no-ML gap so olive-oil/cooking-oils tAs adopt a real ceiling under Method v2.0 rather than being mislabelled not-material.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917",
+          "row_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|tAs",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|tAs",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-47819561a70268aa-run-202609061824"
+    },
+    {
+      "evidence_key": "efa9adfcf227c732",
+      "analyte": "iAs",
+      "basis_class": "as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "codex_tas_named-vegetable-oils_100",
+          "jurisdiction": "CODEX",
+          "authority": "Codex Alimentarius Commission",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "as sold",
+          "product_scope": "Named vegetable oils",
+          "regulation_page": "regulations/codex-fats-oils-contaminants",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "notes": "CXS 210-1999 Standard for Named Vegetable Oils Sec 5.1 / CXS 19-1981 Edible Fats and Oils Sec 4 set total arsenic 0.1 mg/kg (and lead 0.1 mg/kg) as commodity-standard MLs. Confirmed in force; CCFO29 (2024) directed CCCF to consolidate these As/Pb oil MLs into horizontal CXS 193. Loaded 2026-08-10 (oils not-material audit): closes the As-in-oil no-ML gap so olive-oil/cooking-oils tAs adopt a real ceiling under Method v2.0 rather than being mislabelled not-material.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917",
+          "row_sha256": "a3f71cceb11b46535a0cc1abab3d8684dc2c2395582a9158b3f615c9565b2917"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|iAs",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "tAs"
+        },
+        {
+          "key": "olive-oil|default|iAs",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "tAs"
+        }
+      ],
+      "batch_id": "cat30-compiled-efa9adfcf227c732-run-202609061824"
+    },
+    {
+      "evidence_key": "a4d008e7f1ea835d",
+      "analyte": "Ni",
+      "basis_class": "product as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Ni",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|Ni",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-a4d008e7f1ea835d-run-202609061824"
+    },
+    {
+      "evidence_key": "a747c40f4ce5676b",
+      "analyte": "Sn",
+      "basis_class": "product as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Sn",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|Sn",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-a747c40f4ce5676b-run-202609061824"
+    },
+    {
+      "evidence_key": "945322db88c74903",
+      "analyte": "Cr",
+      "basis_class": "product as placed on market",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Cr",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|Cr",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-945322db88c74903-run-202609061824"
+    },
+    {
+      "evidence_key": "ac5fd7f234f35533",
+      "analyte": "Cr-VI",
+      "basis_class": "drinking water",
+      "conversion": null,
+      "native_basis": "as placed on market",
+      "category": 30,
+      "compiled_dir": "cat30-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
+          "jurisdiction": "US-CA",
+          "authority": "CA SWRCB",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+          "url": "",
+          "notes": "Hexavalent chromium MCL.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585",
+          "row_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cooking-oils-other|default|Cr-VI",
+          "slug": "cooking-oils-other",
+          "product": "Cooking oils, other (canola, sunflower, coconut, avocado, sesame)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "olive-oil|default|Cr-VI",
+          "slug": "olive-oil",
+          "product": "Olive oil (virgin, refined, pomace)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat30-compiled-ac5fd7f234f35533-run-202609061824"
+    }
+  ]
+}

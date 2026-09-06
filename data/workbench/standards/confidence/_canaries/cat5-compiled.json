@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat5-compiled",
+  "run_id": "run-202609021136",
+  "cells": {
+    "cat5-compiled-43d56a59dbadddcc-run-202609021136": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat5-compiled-865aa8f23f1575b6-run-202609021136",
+      "key": "coffee|_|Al",
+      "honest_verdict": "refuted"
+    }
+  }
+}

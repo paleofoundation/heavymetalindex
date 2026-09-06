@@ -1,0 +1,349 @@
+{
+  "packet_id": "m2-20260902b-p1",
+  "run_id": "run-202609021123",
+  "compiled_dir": "seafood-compiled",
+  "batches": [
+    {
+      "evidence_key": "2f68af6557623e66",
+      "analyte": "Pb",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+          "jurisdiction": "CR",
+          "authority": "SENASA / Ministerio de Agricultura y Ganaderia",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "tuna and bonito",
+          "regulation_page": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
+          "url": "https://www.imprentanacional.go.cr/pub/2008/08/",
+          "notes": "RTCR 409:2008 section 3.3 lead row 3; value 0.2 mg/kg normalized to 200 ug/kg; source table does not state wet/dry basis.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d0e635ad438438c85f64a373f63fd93b0f03c079e2f86e7e1621fa6ad09c6d30",
+          "row_sha256": "d0e635ad438438c85f64a373f63fd93b0f03c079e2f86e7e1621fa6ad09c6d30"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|Pb",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-predatory|both|Pb",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609021123"
+    },
+    {
+      "evidence_key": "bb87f3a68497eabc",
+      "analyte": "Pb",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cr_rtcr409_2008_pb_tuna_bonito_200",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://www.imprentanacional.go.cr/pub/2008/08/",
+          "notes": "RTCR 409:2008 section 3.3 lead row 3; value 0.2 mg/kg normalized to 200 ug/kg; source table does not state wet/dry basis.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d0e635ad438438c85f64a373f63fd93b0f03c079e2f86e7e1621fa6ad09c6d30",
+          "row_sha256": "d0e635ad438438c85f64a373f63fd93b0f03c079e2f86e7e1621fa6ad09c6d30"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|Pb",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-bb87f3a68497eabc-run-202609021123"
+    },
+    {
+      "evidence_key": "e8b5dd23b9f12a25",
+      "analyte": "Cd",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "jurisdiction": "GSO",
+          "authority": "GCC Standardization Organization",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "muscle meat",
+          "product_scope": "Muscle meat of fish with exception mentioned",
+          "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a",
+          "row_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|Cd",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Cd",
+          "slug": "fish-marine-non-predatory",
+          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-202609021123"
+    },
+    {
+      "evidence_key": "7fbb918c726855d1",
+      "analyte": "tHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cr_rtcr409_2008_thg_fish_general_500",
+          "jurisdiction": "CR",
+          "authority": "SENASA / Ministerio de Agricultura y Ganaderia",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "fish in general, except tuna, bonito, eel, marlin, ray, sharks, and swordfish",
+          "regulation_page": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
+          "url": "https://www.imprentanacional.go.cr/pub/2008/08/",
+          "notes": "RTCR 409:2008 section 3.1 mercury row 2; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.5 mg/kg normalized to 500 ug/kg; source table does not state wet/dry basis.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "c4d6bddd33f39ef50bbf2ef63f38389f04cc7a5e60133c3397e331b0815d7ee0",
+          "row_sha256": "c4d6bddd33f39ef50bbf2ef63f38389f04cc7a5e60133c3397e331b0815d7ee0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|tHg",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609021123"
+    },
+    {
+      "evidence_key": "090e2ea3a3ec4ac4",
+      "analyte": "MeHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_mehg_aquatic_animals_and_products_500",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "MeHg",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "Aquatic animals and their products, excluding predatory fish and their products (GB 2762-2025 Table 3, item 1.1); methylmercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.5 mg/kg; screening rule: total mercury may be measured first and compliance concluded when it does not exceed the MeHg limit; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2850ab50ce267403d9cdc06c06d6806da2455911a83ab307013b0f1afde07ae7",
+          "row_sha256": "2850ab50ce267403d9cdc06c06d6806da2455911a83ab307013b0f1afde07ae7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|MeHg",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609021123"
+    },
+    {
+      "evidence_key": "28df1c012f001db3",
+      "analyte": "Ni",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_husked_rice_2000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "husked rice",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f",
+          "row_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f"
+        }
+      ],
+      "cells": [
+        {
+          "key": "canned-seafood|both|Ni",
+          "slug": "canned-seafood",
+          "product": "Canned seafood (canned tuna, canned fish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cephalopods|both|Ni",
+          "slug": "cephalopods",
+          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-freshwater|both|Ni",
+          "slug": "fish-freshwater",
+          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-non-predatory|both|Ni",
+          "slug": "fish-marine-non-predatory",
+          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-predatory|both|Ni",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "shellfish|both|Ni",
+          "slug": "shellfish",
+          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-28df1c012f001db3-run-202609021123"
+    }
+  ]
+}

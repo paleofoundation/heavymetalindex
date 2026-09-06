@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-a4d008e7f1ea835d-run-20260902-a",
+  "evidence_key": "a4d008e7f1ea835d",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Ni",
+      "derived_value": 100,
+      "derived_anchor_id": "eu2024_ni_formula_liquid_100",
+      "same_basis_candidates": [],
+      "blind_value": 100,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 point 3.6.13.3 'infant/young-child formula, liquid' 0.10 mg/kg = 100 ug/kg applies from 2025-07-01 and is a content ML on the product as placed on market, but it is not the nearest same-basis sovereign nickel instrument for this product. GB 2762-2025 Table 6 item 1.1 'Hydrogenated vegetable oils and fat and oil products containing hydrogenated or partially hydrogenated fats and oils' (氢化植物油、含氢化和(或)部分氢化油脂的油脂制品), 1.0 mg/kg = 1000 ug/kg, register id china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000, is the only sovereign nickel ML in the fats-and-oils category, sits on the same as-placed-on-market content basis and is in force today; it does not directly cover non-hydrogenated canola, sunflower, coconut, avocado or sesame oil, but it is the product-nearer analog and should be the named read-across instrument. No stricter same-basis row covers oils (the nickel rows below 100 are drinking-water or food-contact-migration rows), so 100 reproduces at face value, but keeping a value ten times tighter than the nearest analog needs a disclosed precautionary rationale rather than a read-across from liquid formula."
+    },
+    {
+      "key": "olive-oil|default|Ni",
+      "derived_value": 100,
+      "derived_anchor_id": "eu2024_ni_formula_liquid_100",
+      "same_basis_candidates": [],
+      "blind_value": 100,
+      "applicability": "refuted",
+      "reason": "Regulation (EU) 2024/1987 point 3.6.13.3 'infant/young-child formula, liquid' 0.10 mg/kg = 100 ug/kg applies from 2025-07-01 and is a content ML on the product as placed on market, but it is not the nearest same-basis sovereign nickel instrument for this product. GB 2762-2025 Table 6 item 1.1 'Hydrogenated vegetable oils and fat and oil products containing hydrogenated or partially hydrogenated fats and oils' (氢化植物油、含氢化和(或)部分氢化油脂的油脂制品), 1.0 mg/kg = 1000 ug/kg, register id china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000, is the only sovereign nickel ML in the fats-and-oils category, sits on the same as-placed-on-market content basis and is in force today; it does not directly cover non-hydrogenated virgin, refined or pomace olive oil, but it is the product-nearer analog and should be the named read-across instrument. No stricter same-basis row covers oils (the nickel rows below 100 are drinking-water or food-contact-migration rows), so 100 reproduces at face value, but keeping a value ten times tighter than the nearest analog needs a disclosed precautionary rationale rather than a read-across from liquid formula."
+    }
+  ]
+}

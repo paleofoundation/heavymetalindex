@@ -59,8 +59,9 @@ const REPO = process.cwd()
 const REGISTER_PATH = path.join(REPO, "data/evidence/regulatory_limits.csv")
 
 // --- register gating patterns (systemic correctness guards, verbatim from the food engine) ------
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const PESTICIDE = /pesticide|residue level/i
 const FEED = /\bfeed\b/i
 const CANNED = /canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i
@@ -68,7 +69,7 @@ const CANNED = /canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "international", "US", "CA", "AU-NZ", "CH", "CN", "IN", "BR", "GSO", "KR", "MERCOSUR", "SG", "IL", "TH", "PY", "MX", "VN", "FJ", "CO", "CL", "MA", "TR", "EC", "ASEAN", "ID", "MY"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 
-const ALLOWED_TAGS = new Set(["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_TAGS = CANON_ALLOWED // lib/provenance.mjs is the vocabulary of record
 
 // The HMTc certification panel resolved per (subcategory, analyte): 8 totals + 2 reflex species +
 // methylmercury (always not-material here). Antimony (Sb) is a monitored supplementary leachable for
@@ -191,7 +192,7 @@ function resolveCell(register, byId, sub, analyte) {
     const src = byId.get(spec.source_id)
     if (!src) return { type: "gap", value: null, provenance_tag: null, error: `read_across source_id ${spec.source_id} not in register` }
     const v = num(src.value_ug_kg)
-    if (v != null) raResult = { value: v, source_id: spec.source_id, jur: src.jurisdiction, page: src.regulation_page || "", label: spec.label, scope: src.product_scope, note: spec.mucosal_note || null }
+    if (v != null) raResult = { value: v, source_id: spec.source_id, jur: src.jurisdiction, page: src.regulation_page || "", label: spec.label, scope: src.product_scope, basis: src.basis || src.basis_class || "", note: spec.mucosal_note || null }
   }
 
   // Government direct limit wins when it exists and is at least as strict as any read-across.
@@ -200,7 +201,7 @@ function resolveCell(register, byId, sub, analyte) {
     return {
       type: "gov", provenance_tag: "regulatory-alignment",
       value: roundDisplay(direct.value), value_exact: direct.value,
-      binding_jurisdiction: direct.jur, binding_id: direct.id, binding_scope: direct.scope,
+      binding_jurisdiction: direct.jur, binding_id: direct.id, binding_scope: direct.scope, basis: direct.basis || null,
       binding_instrument: direct.page, basis_note: spec.basis_note || null, per_country: perCountry, audit,
     }
   }
@@ -209,7 +210,7 @@ function resolveCell(register, byId, sub, analyte) {
     return {
       type: "read_across", provenance_tag: "read-across",
       value: roundDisplay(raResult.value), value_exact: raResult.value,
-      source_id: raResult.source_id, source_jurisdiction: raResult.jur, source_scope: raResult.scope,
+      source_id: raResult.source_id, source_jurisdiction: raResult.jur, source_scope: raResult.scope, basis: raResult.basis || null,
       binding_instrument: raResult.page, label: raResult.label || `read-across from ${raResult.jur}`,
       mucosal_note: raResult.note, per_country: perCountry, audit,
     }
@@ -241,8 +242,8 @@ function reconcileSpeciation(cells, speciesKey, totalKey, speciesName, totalName
   if (sv >= tv) {
     cells[speciesKey] = {
       type: "subsumed",
-      provenance_tag: t.provenance_tag === "read-across" ? "read-across" : "regulatory-alignment",
-      value: null, subsumed_by: totalKey, binding_total: t.value,
+      provenance_tag: "subsumed", provenance: "subsumed", // one vocabulary (lib/provenance.mjs): a bounded species is tagged subsumed, never with its parent's tag
+      value: null, subsumed_by: totalKey, bounded_by: totalKey, binding_total: t.value,
       binding_total_source: t.binding_jurisdiction || t.source_jurisdiction || null,
       label: `${speciesName} is a component of ${totalName} (${speciesKey} <= ${totalKey}). The ${speciesKey} value (${roundDisplay(sv)} ug/kg) is not below the binding ${totalName} ceiling (${t.value} ug/kg), so ${speciesName.toLowerCase()} is governed by and bounded by the ${totalName} ceiling; no separate ${speciesKey} ceiling is published. Enforced by reflex speciation whenever ${totalKey} is elevated.`,
       candidate: { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null },
@@ -532,6 +533,7 @@ function main() {
     for (const a of PANEL) cells[a] = resolveCell(register, byId, sub, a)
     reconcileSpeciation(cells, "MeHg", "tHg", "Methylmercury", "total mercury")
     reconcileSpeciation(cells, "iAs", "tAs", "Inorganic arsenic", "total arsenic")
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
     const record = {
       slug, name: sub.name, category: 15, category_name: "Feminine Care",

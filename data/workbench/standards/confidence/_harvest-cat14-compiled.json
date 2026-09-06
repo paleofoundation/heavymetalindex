@@ -1,0 +1,705 @@
+{
+  "compiled_dir": "cat14-compiled",
+  "generated": "2026-09-02T10:34:15.132Z",
+  "targets": 72,
+  "applied": [
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "bar-bath-soap",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "body-wash-shower-gel",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "conditioner-adult-rinse-out",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "deep-conditioning-treatments-rinse-off",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "exfoliants-scrubs",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "facial-cleansers",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "hair-dye-rinse-off",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "hair-removal-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "hand-soap",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "rinse-off-preparations-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "shampoo-adult",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "shaving-cream-gel-foam",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

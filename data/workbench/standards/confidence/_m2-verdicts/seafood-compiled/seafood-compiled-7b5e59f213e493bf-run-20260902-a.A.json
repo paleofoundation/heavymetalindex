@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-7b5e59f213e493bf-run-20260902-a",
+  "evidence_key": "7b5e59f213e493bf",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "shellfish|both|Pb",
+      "derived_value": 500,
+      "derived_anchor_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+      "same_basis_candidates": [],
+      "blind_value": 500,
+      "applicability": "refuted",
+      "reason": "Table 1 item 9.2 'Fish and crustaceans (fresh and frozen)' (鱼类、甲壳类) at 0.5 mg/kg is in force from 2026-09-02 on the product as placed on the market, which for fresh or frozen shellfish is the same wet-weight quantity as this cell's as-consumed basis, so 500 is the correct face-value derivation for the crustacean half and is matched at 500 by Cap 132V 'Crustaceans', GSO 193, Mercosur and Paraguay, Morocco 3.1.9, India, Vietnam, Fiji, Costa Rica, Panama and Guyana (the register lacks the equivalent EU 2023/915 crustacean row at 0.50 mg/kg, which would concur). The anchor does not cover bivalve molluscs, which the same instrument governs separately at item 9.3 (china_gb2762_2025_pb_bivalve_molluscs_1500) and which every other sovereign puts at 1000 to 2000 (mx_nom242_pb_molluscs_1000 is the strictest; EU, HK, GSO, India, Vietnam, Mercosur 1500; FSANZ 'Molluscs' and Singapore 2000), so the row cites a scope that excludes a named member of its product. 500 is at least as protective as the law for both members and the number stands, but a 'gov / firm' cell should adopt the law's crustacean/bivalve split or disclose the bivalve tightening as precautionary; no non-gated same-basis lead row stricter than 500 covers crustaceans or bivalves (the Guyana 25 ppb row is quarantined)."
+    }
+  ]
+}

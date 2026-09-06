@@ -1,0 +1,50 @@
+{
+ "packet_id": "m2-20260902-p5",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "A",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-42be502b999b13ba-run-20260902-a",
+   "evidence_key": "42be502b999b13ba",
+   "cells": [
+    {
+     "key": "shellfish|both|Cd",
+     "derived_value": 500,
+     "derived_anchor_id": "eu2023_cd_crustaceans_500",
+     "same_basis_candidates": [
+      {
+       "id": "sg_foodregs_2026_other_food_cd_200",
+       "value_ug_kg": 200,
+       "why_it_applies": "Singapore Food Regulations reg 31(5) (informal consolidation in force from 30 January 2026; cadmium paragraph amended S 195/2011 and S 695/2021) names 'molluscs or dried mushrooms' (1 ppm), 'seaweed' (2 ppm) and 'cocoa, cocoa products or salt' (0.5 ppm) and puts every other food at 0.2 ppm; crustaceans are not molluscs, so the crustacean constituent of this row falls in 'other food' at 200 ug/kg. Food-content basis (product as sold or imported), status 'maximum level', not gated. The bivalve constituent stays at the Singapore molluscs row (1000), which is looser than the derived value."
+      },
+      {
+       "id": "uy_rbn_general_cd_solid_foods_0_2mgkg",
+       "value_ug_kg": 200,
+       "why_it_applies": "Uruguay Reglamento Bromatologico Nacional section 1.2.14 general limit 'solid foods in general except categories with particular limits' (0.2 mg/kg, statutory, food-content basis). The register carries no particular Uruguayan cadmium row for crustaceans, bivalves or any fishery product (its only other Cd rows are ceramic migration rows), so on the register's own evidence the fallback reaches fresh and frozen shellfish. Conditional: if Uruguay has internalised MERCOSUR GMC Res 12/2011 (crustaceans 500, bivalve molluscs 2000) as the 'particular limits' the fallback yields to, this row does not bind; the register and regulation page cannot show that."
+      }
+     ],
+     "blind_value": 200,
+     "applicability": "refuted",
+     "reason": "The anchor itself is valid: eu2023_cd_crustaceans_500 (EU 2023/915 Annex I row 'Crustaceans', 0.50 mg/kg wet weight, muscle meat of appendages and abdomen, in force) is a content ML on a content cell and covers the crustacean constituent of 'Shellfish (crustaceans and bivalve molluscs, not canned)'; the bivalve constituent is governed by the EU 'Bivalve molluscs' row at 1.0 mg/kg (shown on regulations/eu-2023-915-cadmium but absent from the register), so 500 is the strictest EU member value and its application to bivalves is strictest-member precaution, not the bivalve ML. Confirmation fails on condition (d): Singapore reg 31(5) carves out 'molluscs or dried mushrooms' at 1 ppm and leaves crustaceans in 'other food' at 0.2 ppm = 200 ug/kg, a same-basis, non-gated, in-force sovereign content ML stricter than the derived value for the crustacean constituent, and Uruguay's 'solid foods in general' 200 nominally reaches shellfish because the register holds no particular Uruguayan fishery Cd row. Excluded as not covering this form: VN QCVN 8-2 'Aquatic products' 50 (the same table's specific 'Crustaceans' 500 and 'Bivalve mollusks' 2000 rows govern), and every other same-basis fishery row (CN GB 2762-2025, IN, MERCOSUR/PY, MA, GSO, CR, GY, PA, FJ, VN, HK, SG molluscs) is 500 or looser; Thailand has no crustacean or residual Cd row and falls back to Codex CXS 193, which sets no crustacean Cd ML. Blind value 200 for the row under the strictest-member rule the row already relies on; the alternative is to split crustaceans (200 if SG is admitted, else 500) from bivalves (1000) and to document any exclusion of residual catch-all rows from the pool."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-b4ec70b82573cc26-run-20260902-a",
+   "evidence_key": "b4ec70b82573cc26",
+   "cells": [
+    {
+     "key": "shellfish|both|tHg",
+     "derived_value": 500,
+     "derived_anchor_id": "eu2023_hg_fish_general_500",
+     "same_basis_candidates": [],
+     "blind_value": 500,
+     "applicability": "confirmed",
+     "reason": "Anchor eu2023_hg_fish_general_500 (EU 2023/915 Annex I 3.3.1.1, register scope 'crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels', 0.50 mg/kg wet weight; the Annex text applies it to crustaceans excluding brown meat of crab and head and thorax meat of lobster and similar large crustaceans) is a content ML on a content cell, in force today, and covers both constituents of 'Shellfish (crustaceans and bivalve molluscs, not canned)': crustaceans expressly and bivalve molluscs as fishery products outside the 0.30 mg/kg row (eu2023_hg_fish_low_300), which reaches only cephalopods, marine gastropods and listed fish species. No stricter same-basis non-gated row is established to cover this form: AU-NZ Schedule 19 'other fish, fish products, crustacea, and molluscs' 500, HK Cap 132V 'Aquatic animals, other than fish' 500, IN 'non-predatory fish, crustaceans, cephalopods, molluscs' 500, MERCOSUR/PY, CR, GY, PA, MA and VN crustacean and bivalve rows at 500 are equal, GSO 1000 is looser, CN GB 2762-2025 governs aquatic animals as MeHg 500 (different analyte), and TH 'food other than the listed total-mercury categories' 20 is excluded because Thai marine animals are governed by the MeHg 'other marine animals or plants' 500 row with total mercury as screening only. Two residual rows are flagged but not listed as applying: SG reg 31(3)(c) 'other food' 50 binds only if shellfish fall outside 'other fish or fish product' (reg 31(3)(b), 500), and UY 'foods in general except categories with particular limits' 50 binds only if shellfish fall outside RBN section 14.1.16 'fish muscle' 500; neither the register nor the regulation pages define 'fish' for those instruments, and the Singapore Tenth Schedule's separate listing of 'Fish, crustaceans, and molluscs' means that reading cannot be excluded, so it is surfaced for the register owner rather than treated as a refutation."
+    }
+   ]
+  }
+ ]
+}

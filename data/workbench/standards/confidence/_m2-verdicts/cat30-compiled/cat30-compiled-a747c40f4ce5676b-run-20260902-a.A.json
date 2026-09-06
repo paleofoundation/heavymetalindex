@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-a747c40f4ce5676b-run-20260902-a",
+  "evidence_key": "a747c40f4ce5676b",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 'canned foods other than canned beverages, except canned dried and canned powdered products', 200 mg/kg inorganic tin = 200000 ug/kg on the product as placed on market, covers a vegetable cooking oil (canola, sunflower, coconut, avocado, sesame) whenever it is packaged in tinplate, because oil is neither a beverage nor a dried or powdered product; for canned oil this is direct governance rather than an analogy, and for other packaging no tin ML exists in any instrument, so the read-across is the nearest same-basis sovereign instrument. It is the strictest in-force general canned-food tin ceiling: GB 2762-2025 Table 5 item 1.1 (foods in tinplate containers), Codex CXS 193-1995, HK Cap 132V, Singapore, Thailand, GSO 193:2021, India and Uruguay sit at 250 mg/kg and Colombia equals 200 mg/kg. The stricter tin rows (canned beverages 100 to 150 mg/kg, canned infant and baby foods 50 mg/kg, non-tinplate cured meats 50 mg/kg, India infant foods 5 mg/kg) are scoped to other products, the CN and CoE 100 mg/kg food-contact-metal rows are migration basis, and no oil-specific tin ML exists in the register."
+    },
+    {
+      "key": "olive-oil|default|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 200000,
+      "applicability": "confirmed",
+      "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 'canned foods other than canned beverages, except canned dried and canned powdered products', 200 mg/kg inorganic tin = 200000 ug/kg on the product as placed on market, covers olive oil (virgin, refined or pomace) whenever it is packaged in tinplate, because oil is neither a beverage nor a dried or powdered product; for canned oil this is direct governance rather than an analogy, and for other packaging no tin ML exists in any instrument, so the read-across is the nearest same-basis sovereign instrument. It is the strictest in-force general canned-food tin ceiling: GB 2762-2025 Table 5 item 1.1 (foods in tinplate containers), Codex CXS 193-1995, HK Cap 132V, Singapore, Thailand, GSO 193:2021, India and Uruguay sit at 250 mg/kg and Colombia equals 200 mg/kg. The stricter tin rows (canned beverages 100 to 150 mg/kg, canned infant and baby foods 50 mg/kg, non-tinplate cured meats 50 mg/kg, India infant foods 5 mg/kg) are scoped to other products, the CN and CoE 100 mg/kg food-contact-metal rows are migration basis, and no oil-specific tin ML exists in the register."
+    }
+  ]
+}

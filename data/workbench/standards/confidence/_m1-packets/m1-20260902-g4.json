@@ -1,0 +1,160 @@
+{
+  "packet_id": "m1-20260902-g4",
+  "run_id": "run-20260902-a",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_husked_rice_2000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "husked rice",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f",
+          "row_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_seaweed_30000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "30000",
+          "basis": "product as placed on market",
+          "product_scope": "seaweed except wakame",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "fbd84c906319e684ddd3b83d16614300c262080d255d0fdf28640107db58a855",
+          "row_sha256": "fbd84c906319e684ddd3b83d16614300c262080d255d0fdf28640107db58a855"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_canned_fish_meat_extract_hydrolysed_protein_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "canned fish and meat, meat extract, and hydrolysed protein",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(2) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "0c926d0cfa810ad98ad26bbbe9b31f58e2a0316a986a0dd14313005f66abf92a",
+          "row_sha256": "0c926d0cfa810ad98ad26bbbe9b31f58e2a0316a986a0dd14313005f66abf92a"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_fish_crustaceans_molluscs_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "fish, crustaceans, and molluscs",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(15) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9",
+          "row_sha256": "f5da925b5c4f1bc059c3871c418ab0d1f2dd8b0a8b8dcb82bf69e9fa38c2e3e9"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/france-cshpf-edible-seaweed",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/fr/."
+        ],
+        "wiki_page": null
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "fr_cshpf_seaweed_cd_500",
+          "jurisdiction": "FR",
+          "authority": "Conseil Superieur d Hygiene Publique de France (CSHPF) / DGCCRF",
+          "status": "recommended maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "dry weight (edible seaweed, human consumption)",
+          "product_scope": "edible seaweed (dried, human consumption)",
+          "regulation_page": "regulations/france-cshpf-edible-seaweed",
+          "url": "",
+          "notes": "France CSHPF recommendation on edible macroalgae for human consumption; French inorganic-arsenic edible-seaweed limit 3 mg/kg dw corroborated in-corpus by llorente-mirandes2011; companion set Cd 0.5 / Pb 5 / Hg 0.1 mg/kg dw. Restores the binding rows the live cert seaweed standard already cites (fr_cshpf_seaweed_*) that were absent from the register (provenance gap, 2026-08-25). PRIMARY DOC TO ARCHIVE in raw/regulatory/fr/.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "b3565fb6e69a2ec2201e462c86915ca80cd41b7241ebf8f4508c2f7ed0e3d57b",
+          "row_sha256": "b3565fb6e69a2ec2201e462c86915ca80cd41b7241ebf8f4508c2f7ed0e3d57b"
+        },
+        {
+          "regulatory_limit_id": "fr_cshpf_seaweed_thg_100",
+          "jurisdiction": "FR",
+          "authority": "Conseil Superieur d Hygiene Publique de France (CSHPF) / DGCCRF",
+          "status": "recommended maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "100",
+          "basis": "dry weight (edible seaweed, human consumption)",
+          "product_scope": "edible seaweed (dried, human consumption)",
+          "regulation_page": "regulations/france-cshpf-edible-seaweed",
+          "url": "",
+          "notes": "France CSHPF recommendation on edible macroalgae for human consumption; French inorganic-arsenic edible-seaweed limit 3 mg/kg dw corroborated in-corpus by llorente-mirandes2011; companion set Cd 0.5 / Pb 5 / Hg 0.1 mg/kg dw. Restores the binding rows the live cert seaweed standard already cites (fr_cshpf_seaweed_*) that were absent from the register (provenance gap, 2026-08-25). PRIMARY DOC TO ARCHIVE in raw/regulatory/fr/.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3d4dc9a96cd24681bad0531d1196dddde42ded8e3bd71cfb682fd91cc71b20ac",
+          "row_sha256": "3d4dc9a96cd24681bad0531d1196dddde42ded8e3bd71cfb682fd91cc71b20ac"
+        }
+      ]
+    }
+  ],
+  "row_count": 7
+}

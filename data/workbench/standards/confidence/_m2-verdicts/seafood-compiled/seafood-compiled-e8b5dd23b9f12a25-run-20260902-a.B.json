@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p1",
+  "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-20260902-a",
+  "evidence_key": "e8b5dd23b9f12a25",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "canned-seafood|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 50,
+      "applicability": "refuted",
+      "reason": "The anchor row reads 'Muscle meat of fish with exception mentioned' at 0.05 mg/kg, and the same GSO 193:2021 table carries the exceptions, including 'Muscle meat of fish: mackerel, tuna and bichique' at 0.1 mg/kg (gso193_2021_cd_muscle_meat_of_fish_mackerel_tuna_and_bichique_100), so by its own wording the anchor excludes tuna, the cell's leading example (canned tuna); its basis is fresh 'muscle meat', not a canned product as consumed, and the only register row that names canned fish is GB 2762-2025 Table 2 item 8.5 'Canned fish' at 200 (china_gb2762_2025_cd_canned_fish_200). No non-gated same-basis row stricter than 50 covers canned seafood (the Guyana 10 ppb row is quarantined); 50 remains the strictest value for canned non-exception fish (GSO general row, CR 'fish in general' 50, GY 'muscle meat of all fish' 50, VN 'Aquatic products' 50), but every in-force row that names tuna sets 100 (GSO, GY, PA, FJ, VN, MERCOSUR/PY), so 50 can stand for canned tuna only as a disclosed precautionary value or after splitting the cell, not as a gov lookup under this anchor. GSO 193:2021 is in force (Gulf Technical Regulation approved 2021-07-01; all 115 GSO 193 register rows carry status 'maximum level'), with the caveat that GSO 2783:2025 (catalog record published 2025-10-29, tables not transcribed) may later displace the Gulf metal rows."
+    },
+    {
+      "key": "fish-freshwater|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 50,
+      "applicability": "confirmed",
+      "reason": "'Muscle meat of fish with exception mentioned' at 0.05 mg/kg covers tilapia, catfish, trout and carp; none of them appears in the instrument's exception rows (mackerel/tuna/bichique 0.1, bullet tuna 0.15, anchovy/swordfish/sardine 0.25). The muscle-meat basis matches a fillet as consumed with no conversion, and GSO 193:2021 is in force (Gulf Technical Regulation approved 2021-07-01; all 115 GSO 193 register rows carry status 'maximum level'), with the caveat that GSO 2783:2025 (catalog record published 2025-10-29, tables not transcribed) may later displace the Gulf metal rows. No non-gated same-basis row stricter than 50 covers freshwater fish: the Guyana 10 ppb row is quarantined as a transcription artifact, and 50 is independently matched by CR 'fish in general, except sardine, eel, and swordfish' (cr_rtcr409_2008_cd_fish_general_50), GY 'muscle meat of all fish except where otherwise indicated', PA fish meat, PY/MERCOSUR raw, frozen or refrigerated fish, FJ muscle meat of fish and VN 'Aquatic products'; GB 2762-2025 fish 100, HK fish 100, IN fish 300 and TH fish 1000 are looser."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Cd",
+      "derived_value": 50,
+      "derived_anchor_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+      "same_basis_candidates": [],
+      "blind_value": 50,
+      "applicability": "refuted",
+      "reason": "The anchor covers salmon, cod and herring, but three of the six species the cell names are the instrument's own exceptions: 'Muscle meat of fish: mackerel, tuna and bichique' 0.1 mg/kg (gso193_2021_cd_muscle_meat_of_fish_mackerel_tuna_and_bichique_100) and 'Muscle meat of fish: anchovy, swordfish and sardine' 0.25 mg/kg (gso193_2021_cd_muscle_meat_of_fish_anchovy_swordfish_and_sardine_250), so 'with exception mentioned' excludes mackerel, anchovy and sardine and the cited anchor cannot carry 50 for them. The value 50 is nonetheless the strictest in-force same-basis value for those species through other rows: Guyana 'muscle meat of all fish except where otherwise indicated' 50 (gy2023_cd_fish_general_ppm_50; its exceptions are tunas, little tuna, plain bonito, marlin, rays, bullet tuna and swordfish, so sardine, anchovy and mackerel fall under it), Costa Rica 'fish in general, except sardine, eel, and swordfish' 50 (anchovy, mackerel) and Fiji 'muscle meat of fish, excluding those listed below' 50 (anchovy); VN QCVN 8-2 sets anchovy, sardines and herring at 100 and 'Aquatic products' at 50, and the EU-mirror instruments (GSO, MA, BA) set sardine and anchovy at 250. No stricter non-gated row exists (GY 10 ppb quarantined). Refuted on scope: the number stands, the citation does not; the cell should cite the GY/CR/FJ rows for the excepted species and disclose the 100 to 250 sovereign rows for sardine, anchovy and mackerel. GSO 193:2021 is in force (Gulf Technical Regulation approved 2021-07-01; all 115 GSO 193 register rows carry status 'maximum level'), with the caveat that GSO 2783:2025 (catalog record published 2025-10-29, tables not transcribed) may later displace the Gulf metal rows."
+    }
+  ]
+}

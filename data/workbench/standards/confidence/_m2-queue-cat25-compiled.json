@@ -1,0 +1,152 @@
+{
+  "compiled_dir": "cat25-compiled",
+  "run_id": "run-202609021136",
+  "batches": [
+    {
+      "evidence_key": "2d20593ce4a0fc94",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 25,
+      "compiled_dir": "cat25-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cannabis-concentrates|_|Al",
+          "slug": "cannabis-concentrates",
+          "product": "Cannabis concentrates and extracts",
+          "scope_note": "Concentrates span more than one route of use. The row is certified on the route-agnostic all-uses cannabis rules only (MA all-uses, Nevada, Israel), plus Maryland's inhalation total-chromium value as a route-protective disclosed read-across (a concentrate may be inhaled). A concentrate marketed exclusively for a single route must additionally satisfy that route's own row.",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cannabis-edibles|_|Al",
+          "slug": "cannabis-edibles",
+          "product": "Cannabis edibles",
+          "scope_note": "Ingested food-form route. Applicable pool = route-agnostic all-uses cannabis rules plus ingestion-specific rules (California non-inhalable, Colorado oral, MA ingestion-only, Maryland edible). Inhalation-route limits are not applied (see audit_excluded_ids).",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cannabis-flower|_|Al",
+          "slug": "cannabis-flower",
+          "product": "Cannabis flower and dried herb",
+          "scope_note": "Inhaled route. Applicable pool = route-agnostic all-uses cannabis rules plus inhalation-specific rules (California inhalable, Colorado inhaled/nasal, Maryland inhalation). Non-inhaled route limits are not applied.",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cannabis-tinctures-oils|_|Al",
+          "slug": "cannabis-tinctures-oils",
+          "product": "Cannabis tinctures and sublingual oils",
+          "scope_note": "Oral/sublingual route (not a food 'edible' form). Applicable pool = route-agnostic all-uses cannabis rules plus oral-route rules (California non-inhalable, Colorado oral, MA ingestion-only, Maryland oral). Inhalation-route limits are not applied (see audit_excluded_ids).",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cannabis-topicals|_|Al",
+          "slug": "cannabis-topicals",
+          "product": "Cannabis topicals",
+          "scope_note": "Cutaneous/dermal route. Applicable pool = route-agnostic all-uses cannabis rules plus dermal rules (California non-inhalable, Colorado topical/transdermal, Maryland cutaneous). Inhalation-route limits are not applied (see audit_excluded_ids); MA ingestion-only does not apply to a topical.",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "cannabis-vape-cartridge-fill|_|Al",
+          "slug": "cannabis-vape-cartridge-fill",
+          "product": "Cannabis vape cartridge fill (vape oil / 'juice')",
+          "scope_note": "The filled cartridge / vape oil is a finished INHALED cannabis product, directly governed by the inhaled-route sovereign limits (same applicable pool as flower). This row sets total-CONTENT limits for the consumable. It does NOT cover metal RELEASE from the device heating element into the inhaled aerosol, which is a different measured quantity (emissions basis, ug emitted) and remains reserved — see reserved.cannabis-vape-hardware.",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat25-compiled-2d20593ce4a0fc94-run-202609021136"
+    },
+    {
+      "evidence_key": "bcd0e2cb5d6bca16",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 25,
+      "compiled_dir": "cat25-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "cannabis-concentrates|_|Al",
+          "slug": "cannabis-concentrates",
+          "product": "Cannabis concentrates and extracts",
+          "scope_note": "Concentrates span more than one route of use. The row is certified on the route-agnostic all-uses cannabis rules only (MA all-uses, Nevada, Israel), plus Maryland's inhalation total-chromium value as a route-protective disclosed read-across (a concentrate may be inhaled). A concentrate marketed exclusively for a single route must additionally satisfy that route's own row.",
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat25-compiled-bcd0e2cb5d6bca16-run-202609021136"
+    }
+  ]
+}

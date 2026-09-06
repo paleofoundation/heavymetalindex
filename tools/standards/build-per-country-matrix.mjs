@@ -18,7 +18,7 @@ const rows = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_
 function parseCsv(t) { const L = t.replace(/\r/g, "").trim().split("\n"); const H = sp(L[0]); return L.slice(1).map((l) => Object.fromEntries(sp(l).map((v, i) => [H[i], v]))) }
 function sp(line) { const o = []; let c = "", q = false; for (const ch of line) { if (ch === '"') q = !q; else if (ch === "," && !q) { o.push(c); c = "" } else c += ch } o.push(c); return o.map((s) => s.replace(/^"|"$/g, "")) }
 const n = (v) => { const x = Number(v); return Number.isFinite(x) ? x : null }
-const draft = (x) => /draft|not for implementation/i.test((x.status || "") + " " + (x.notes || ""))
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const draft = (x) => STATUS_GATE.test(x.status) || /draft|not for implementation/i.test(x.notes || "")
 
 // formula rows (exclude cereal/complementary/meal/juice; canned handled separately for Sn)
 const FORM = rows.filter((x) => /formula|infant milk substitute/i.test(x.product_scope) &&

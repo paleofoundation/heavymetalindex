@@ -1,0 +1,12 @@
+{
+  "compiled_dir": "cat16-compiled",
+  "run_id": "run-202609061824",
+  "cells": {
+    "cat16-compiled-08063217a7f969a1-run-202609061824": {
+      "kind": "wrong-basis-anchor",
+      "of_batch": "cat16-compiled-295b86e6d4541038-run-202609061824",
+      "key": "supplements-algae-seaweed-based|both|Ni",
+      "honest_verdict": "refuted"
+    }
+  }
+}

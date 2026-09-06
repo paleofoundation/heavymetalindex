@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-6ef9f66b08852cbe-run-20260902-a",
+  "evidence_key": "6ef9f66b08852cbe",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_cephalopod_molluscs_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Paraguay Decree 1335/2019, the national incorporation of MERCOSUR GMC Res. 12/11, carries the arsenic-table row 'cephalopod molluscs' 1 mg/kg on 'product as offered to the consumer'; the page records it as total arsenic (the table says arsenic without inorganic speciation), a content ML that covers the product form and has been in force since the decree of 20 February 2019. Equal 1000 ug/kg total-arsenic rows cover the same product in AU-NZ Schedule 19 ('molluscs'), Singapore ('fish, crustaceans and molluscs'), MERCOSUR 12/11 itself and Uruguay's general solid-food limit, so nothing non-gated on the same basis is stricter; Guyana's 200 ppb row is quarantined and Israel FCS 2016 'seafood' 1000 is superseded. The EU 2025/1891 cephalopod value of 0.050 mg/kg is inorganic arsenic, a different analyte, and is not a same-analyte candidate."
+    }
+  ]
+}

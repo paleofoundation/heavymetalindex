@@ -1,0 +1,93 @@
+{
+  "packet_id": "m2-20260902-p5",
+  "run_id": "run-20260902-a",
+  "compiled_dir": "seafood-compiled",
+  "batches": [
+    {
+      "evidence_key": "42be502b999b13ba",
+      "analyte": "Cd",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_cd_crustaceans_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "crustaceans",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Fishery commodity row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a484c923be1a249c82779bb1a00a7dd88a0cf1744329b702bbf6e1f3b901512b",
+          "row_sha256": "a484c923be1a249c82779bb1a00a7dd88a0cf1744329b702bbf6e1f3b901512b"
+        }
+      ],
+      "cells": [
+        {
+          "key": "shellfish|both|Cd",
+          "slug": "shellfish",
+          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-42be502b999b13ba-run-20260902-a"
+    },
+    {
+      "evidence_key": "b4ec70b82573cc26",
+      "analyte": "tHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_general_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.1.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369",
+          "row_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369"
+        }
+      ],
+      "cells": [
+        {
+          "key": "shellfish|both|tHg",
+          "slug": "shellfish",
+          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-b4ec70b82573cc26-run-20260902-a"
+    }
+  ]
+}

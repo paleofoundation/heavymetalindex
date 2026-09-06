@@ -1,0 +1,240 @@
+{
+  "_doc": "Session-judged anchors for cells the re-anchor engine cannot bind deterministically (scan picks are leads, never anchors). Every id is an in-force register row checked on the date; the engine refuses a gated or unknown id. Keyed dir|slug|variant|analyte (variant * = all).",
+  "updated": "2026-09-02",
+  "items": {
+    "cat4-compiled|fresh-fruit|_|iAs": {
+      "subsumed": true,
+      "why": "no in-force sovereign iAs ML for fresh fruit; bounded by tAs (Paraguay 300)"
+    },
+    "cat4-compiled|fresh-fruit|_|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no fruit-specific tHg ML in force; Thailand MoPH 414/2020 general-food row governs (GB fresh vegetables 10 is not fruit)"
+    },
+    "cat4-compiled|fruit-snacks|_|Pb": {
+      "id": "china_gb2762_2025_pb_fruit_products_200",
+      "why": "fruit purees, leathers and jams are fruit products under GB 2762-2025 Table 1 (raise 100→200, held)"
+    },
+    "cat4-compiled|fruit-snacks|_|Cd": {
+      "id": "china_gb2762_2025_cd_fresh_fruit_50",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg): no sovereign sets a cadmium level for fruit snacks, and the fresh-fruit level is the source-commodity cell",
+      "why": "equal to the live value"
+    },
+    "cat4-compiled|dried-fruit|_|Cd": {
+      "id": "china_gb2762_2025_cd_fresh_fruit_50",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 fresh-fruit cadmium maximum level (50 ug/kg) applied to the dried product as sold; drying concentrates the fruit, so the fresh-fruit level is at least as protective on the dried basis",
+      "why": "equal to the live value"
+    },
+    "cat4-compiled|dried-fruit|_|Pb": {
+      "id": "china_gb2762_2025_pb_fruit_products_200",
+      "why": "dried fruit is a fruit product under GB 2762-2025 (raise 100→200, held)"
+    },
+    "cat8-compiled|bottled-drinking-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|infant-nursery-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|mineral-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat8-compiled|sparkling-carbonated-water|_|iAs": {
+      "id": "epa_mcl_ias_drinking_water_10",
+      "why": "US EPA MCL 10 ug/L (raise 6→10, held)"
+    },
+    "cat1-compiled|fruit-juice|*|Cd": {
+      "id": "eu2023_cd_infant_drinks_ready_20",
+      "why": "EU 2023/915 drinks for infants and young children, ready to drink (raise 10→20, held)"
+    },
+    "cat1-compiled|fruit-juice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no juice tHg ML in force; Thailand general-food row (raise 10→20, held)"
+    },
+    "cat1-compiled|fruit-purees-general|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|non-root-vegetable-purees|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|root-vegetable-purees-single-ingredient|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|mixed-meals-non-rice|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|mixed-meals-rice-containing|*|tHg": {
+      "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+      "why": "GB 2762-2025 canned complementary foods for infants (raise 8→20, held)"
+    },
+    "cat1-compiled|teething-and-snacks-rice-based|*|tHg": {
+      "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+      "why": "GB 2762-2025 cereals (raise 8→20, held)"
+    },
+    "cat1-compiled|teething-and-snacks-non-rice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "Thailand general-food row (raise 8→20, held)"
+    },
+    "cat1-compiled|baby-cereals-dry-non-rice|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "Thailand general-food row (raise 8→20, held)"
+    },
+    "cat1-compiled|baby-cereals-dry-rice-based|*|tHg": {
+      "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+      "why": "GB 2762-2025 cereals (raise 8→20, held)"
+    },
+    "cat1-compiled|infant-formula-powder|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no formula tHg ML in force anywhere; Thailand general-food row (raise 15→20, held)"
+    },
+    "cat1-compiled|infant-formula-rtf-liquid|*|tHg": {
+      "id": "th_moph414_2020_thg_food_other_20",
+      "why": "no formula tHg ML in force anywhere; Thailand general-food row (raise 4→20, held)"
+    },
+    "cat27-compiled|peanuts|*|Pb": {
+      "id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+      "why": "GB 2762-2025 nuts and seeds 200 (equal)"
+    },
+    "cat27-compiled|peanut-butter|*|Pb": {
+      "id": "china_gb2762_2025_pb_nuts_and_seeds_200",
+      "why": "GB 2762-2025 nuts and seeds 200 (equal)"
+    },
+    "cat31-compiled|refined-sugar|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat31-compiled|rice-grain-syrup|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat31-compiled|syrups-maple-agave-molasses|*|Cd": {
+      "id": "sg_foodregs_2026_other_food_cd_200",
+      "why": "no in-force sovereign Cd ML for sugars and syrups after the Israel supersession; Singapore Food Regulations general-food cadmium level (200) is the strictest in-force applicable row (raise 150→200, held); Viet Nam QCVN 8-2 sugar 1000 is looser"
+    },
+    "cat24-compiled|dairy-milk-cow|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-milk-goat-sheep|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-milk-camel|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "why": "GB 2762-2025 total chromium in liquid milk (300), direct sovereign ML; successor of the superseded GB 2762-2022 row the standard cited"
+    },
+    "cat24-compiled|dairy-cheese|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-cream|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-condensed-evaporated|*|Cr": {
+      "id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "read_across": true,
+      "label": "read-across from the GB 2762-2025 total-chromium maximum level for liquid milk (300 ug/kg), the source-commodity cell: no sovereign sets a total-chromium level for this dairy product on its own basis",
+      "why": "equal to the live value; successor of the superseded GB 2762-2022 row"
+    },
+    "cat24-compiled|dairy-milk-powders|*|Pb": {
+      "id": "china_gb2762_2025_pb_milk_products_other_200",
+      "why": "GB 2762-2025 lead in other milk products (200) on the product-as-placed-on-market basis is the strictest in-force sovereign row reaching milk powder as sold (the India FSSAI secondary-milk row is as-consumed; Cat-24 is no-reconstitution); raise 20→200, held. Verify whether GB 2762-2025 carries a separate milk-powder lead row (the 2022 text had 0.5 mg/kg) that the extraction missed."
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-vitamin-mineral|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-oils|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-probiotics-digestive|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-botanical-herbal|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-functional-blends|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-calming-behavioral|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|Pb": {
+      "id": "th_moph414_2020_pb_food_supplement_1000",
+      "why": "strictest in-force sovereign lead ML for a food supplement as sold (Thailand MoPH 414/2020, 1000; GSO/VN 3000; ASEAN/HSA 10000 guidance); the Israel special-dietary row (10) is not in force and the EU FSMP successor cells are infant-only and not in the register (raise 10→1000, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|Cd": {
+      "id": "th_moph414_2020_cd_food_supplement_300",
+      "why": "strictest in-force sovereign cadmium ML for a food supplement (Thailand MoPH 414/2020, 300; EU 2023/915 1000) (raise 5→300, held)"
+    },
+    "cat18-compiled|pet-supplements-other|_|tHg": {
+      "id": "gso193_2021_thg_food_supplements_100",
+      "why": "strictest in-force sovereign total-mercury ML for a food supplement (GSO 193:2021 and VN QCVN 8-2 both 100; Thailand 500) (raise 4→100, held)"
+    }
+  }
+}

@@ -33,6 +33,11 @@
             "converted": true,
             "id": "hk_cap132v_pb_ready-to-eat-complementary-food-other-than-cereal-based_20"
           },
+          "CN": {
+            "value": 30,
+            "converted": true,
+            "id": "china_gb2762_2025_pb_fruit_vegetable_juices_30"
+          },
           "MA": {
             "value": 30,
             "converted": true,
@@ -42,11 +47,6 @@
             "value": 50,
             "converted": true,
             "id": "uk_pb_processed-cereal-based-foods-and-baby-fo_50"
-          },
-          "IL": {
-            "value": 50,
-            "converted": true,
-            "id": "il_fcs2016_pb_18_3_juices_containing_only_berries_and_small_fruits_50"
           },
           "IN": {
             "value": 100,
@@ -98,7 +98,8 @@
             "converted": true,
             "id": "tt_fooddrugs_2007_div6_fresh_fruits_pb_7000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -133,11 +134,6 @@
             "converted": true,
             "id": "py_decreto1335_2019_fresh_fruits_excluding_berries_small_fruits_cd_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": true,
-            "id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50"
-          },
           "MA": {
             "value": 50,
             "converted": true,
@@ -151,14 +147,15 @@
           "CN": {
             "value": 60,
             "converted": true,
-            "id": "cn_cd_cereal-based-complementary-foods-for-inf_60"
+            "id": "china_gb2762_2025_cd_cereal_complementary_foods_infants_60"
           },
           "BR": {
             "value": 100,
             "converted": true,
             "id": "br_cd_transition-weaning-foods-for-infants-and_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "read_across",
@@ -184,11 +181,6 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300"
           },
-          "IL": {
-            "value": 1000,
-            "converted": true,
-            "id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000"
-          },
           "VN": {
             "value": 1000,
             "converted": true,
@@ -199,7 +191,8 @@
             "converted": true,
             "id": "tt_fooddrugs_2007_div6_fresh_fruits_tas_2000"
           }
-        }
+        },
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "gov",
@@ -214,11 +207,6 @@
             "converted": true,
             "id": "eu2023_ias_babyfood_20"
           },
-          "IL": {
-            "value": 60,
-            "converted": true,
-            "id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60"
-          },
           "BR": {
             "value": 150,
             "converted": true,
@@ -227,23 +215,50 @@
           "CN": {
             "value": 200,
             "converted": true,
-            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+            "id": "china_gb2762_2025_ias_cereal_complementary_foods_infants_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "read_across",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 8,
         "value_exact": 8,
-        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-        "source_jurisdiction": "IL",
-        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
-        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "value": 20,
+          "jurisdiction": "CN",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "CN",
+          "binding_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "CN": {
+              "value": 20,
+              "converted": false,
+              "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 8 ug/kg, below the sovereign floor of 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
-          "IL": {
-            "value": 30,
-            "converted": true,
-            "id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30"
+          "CN": {
+            "value": 20,
+            "converted": false,
+            "id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20"
           }
         }
       },
@@ -251,10 +266,11 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 8,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 20,
+        "binding_parent_source": "CN",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -269,7 +285,8 @@
             "converted": true,
             "id": "eu2024_ni_babyfood_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "read_across",
@@ -279,7 +296,8 @@
         "source_jurisdiction": "IN",
         "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Al": {
         "type": "read_across",
@@ -289,26 +307,29 @@
         "source_jurisdiction": "AU-NZ",
         "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
-        "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)",
-        "basis_class": "method-artifact",
-        "rationale": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "read_across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+        "source_jurisdiction": "CN",
+        "label": "government read-across: China GB 2762-2025 Table 7 total chromium 1000 for cereals (grain-based finger snacks and purée bases; no government sets a total-chromium ML for this exact infant food)",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 1000,
+        "binding_parent_source": "CN",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

@@ -1,0 +1,1474 @@
+{
+  "packet_id": "m1-deep-20260902-il-fcs2016",
+  "question": "Is the Israel Ministry of Health 2016 guideline on maximum levels of heavy metals (and tin) in food (fcs-reg-01022007, updated 01.05.2016) in force on 2026-09-02, and if not, what replaced it and from when?",
+  "regulation_pages": [
+    "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+  ],
+  "register_urls": [
+    "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+  ],
+  "raw_paths": [
+    "raw/regulatory/il/israel-moh-fcs-2016-heavy-metals-tin-food.pdf"
+  ],
+  "row_count": 162,
+  "rows": [
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_1_milk_20",
+      "row_sha256": "6419d76125b41ca771c51f049b407eae1ed3cd93056be74b2bde6bb6501de22e",
+      "metal_species": "Pb",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market",
+      "product_scope": "Milk",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_1_1_dairy_products_20",
+      "row_sha256": "836d68e8410d7774327e8e3f08032d6583ded3dba506d71c8aadaa9dd08bb190",
+      "metal_species": "Pb",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market",
+      "product_scope": "Dairy products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+      "row_sha256": "2c0e8a63770a89cc7d90ce4695cb8dfcd73f20ccd0bafaad77e59c2a2d4469a4",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
+      "row_sha256": "0ed9e6a1db7e42ac57dc09b4f1e35fa00929a2fd3b602d402ecd1870d3ca1a09",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Fruits and vegetables, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_300",
+      "row_sha256": "3b42f22ea8a1d2b9046271dd74104945f15d2735418f1c8fd5f6e17d9fda7427",
+      "metal_species": "Pb",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Leafy vegetables, celery, mushrooms, edible plants, herbs, brassicas, and horseradish",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1500",
+      "row_sha256": "145496518865628a46c7b8fcc82b7ba2cd32432d0707cbe0936c6b4b73e368dd",
+      "metal_species": "Pb",
+      "value_ug_kg": "1500",
+      "basis": "product as placed on market",
+      "product_scope": "Dried leafy vegetables, celery, mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_3_3_root_stem_and_tuber_vegetables_100",
+      "row_sha256": "0373d3fe32b5d0557df5027505b70fa202e488dd45b9350960937224fb5cd097",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Root, stem, and tuber vegetables",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_3_4_fruiting_vegetables_including_tomato_cucumber_pepper_50",
+      "row_sha256": "b73ddbe575a684b64d0e81f0bccf86300f1bc58b72784557bdc122d2acfcf1aa",
+      "metal_species": "Pb",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Fruiting vegetables (including tomato, cucumber, pepper, and similar vegetables)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_4_dried_legumes_except_listed_categories_200",
+      "row_sha256": "ff711d194458cfb630cc94692261261b63ae4386b9d2071c378fc4f0cbf5afec",
+      "metal_species": "Pb",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Dried legumes, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_4_1_peanuts_and_soybeans_200",
+      "row_sha256": "a76efe1b54d932e6b30ee2ef63aa2cfc2da44f0f3c9f56647ce997cc5ba01e9f",
+      "metal_species": "Pb",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Peanuts and soybeans",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_5_cereals_and_cereal_products_except_listed_categories_200",
+      "row_sha256": "5124b4e49c106e4bf5a076f60244aaa4eafa4d3665d977a1bff561a304b9ebb9",
+      "metal_species": "Pb",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Cereals and cereal products, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_6_oilseeds_and_olives_1000",
+      "row_sha256": "af7d7d3de6773974310467cd02912d6fc201f81ebee06a5f730171f77ecbef20",
+      "metal_species": "Pb",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Oilseeds and olives",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_7_raw_tea_and_plants_for_infusion_5000",
+      "row_sha256": "f3af6bab129b2d329bbe231cd9e04f91246ab76d4a241bce6a47a8250b439986",
+      "metal_species": "Pb",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Raw tea and plants for infusion",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_8_fresh_seaweed_1000",
+      "row_sha256": "5859de76168592cf68754ddfabfe881b93cf96de28d18707a64751233afb54aa",
+      "metal_species": "Pb",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fresh seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_8_1_dried_seaweed_5000",
+      "row_sha256": "2e4fafdcf99f3f3637dbf578747afa9746ff4bfbe8099b84b0970e48e891462a",
+      "metal_species": "Pb",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_9_meat_fat_and_their_products_including_poultry_and_ga_100",
+      "row_sha256": "e417a33374f82f7520536c0e020318b64b01f51318e1909d42da5bd8d08f84b9",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Meat, fat, and their products, including poultry and game, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_9_1_offal_of_cattle_sheep_and_poultry_500",
+      "row_sha256": "038b4bea9d26d40aae777b29a7e9fa9d4178897b3cb349b152ba9d0377098d44",
+      "metal_species": "Pb",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Offal of cattle, sheep, and poultry",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_10_fish_and_fish_products_300",
+      "row_sha256": "56c7e31e8716dc47ae0f8336fa0e164573669c238a8e40b931cd49928e17f553",
+      "metal_species": "Pb",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Fish and fish products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_10_1_crabs_muscle_500",
+      "row_sha256": "51851ae14ad19b03010f78f35a6b38f49ec815032b793ec1e0e6eb624f60fa10",
+      "metal_species": "Pb",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Crabs (muscle)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_10_2_shellfish_1500",
+      "row_sha256": "7f9dc0a78efeac1ec415aff5f60ed822a024fb006cc972ddd8e64ee452a2e3e0",
+      "metal_species": "Pb",
+      "value_ug_kg": "1500",
+      "basis": "product as placed on market",
+      "product_scope": "Shellfish",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_10_3_octopus_and_squid_300",
+      "row_sha256": "c05598c564ff77cf41a9697aeb35eb0c7373fc80b1d6add38c74119411f36d19",
+      "metal_species": "Pb",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Octopus and squid",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_11_eggs_and_egg_powder_100",
+      "row_sha256": "cd16cf7e445e5199493264f3267be2eb0d8ca4d08f48081791832595d85555a9",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Eggs and egg powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_12_sugar_500",
+      "row_sha256": "359f74f4ead26af85ed5b3011f2143d9a744f1fc337c15447884459397a0ce3e",
+      "metal_species": "Pb",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Sugar",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_13_salt_2000",
+      "row_sha256": "b5e8c80151487cdf33bf0a4ddbaddb0e78f527ae7fb9fdf75b18d674fb850c1c",
+      "metal_species": "Pb",
+      "value_ug_kg": "2000",
+      "basis": "product as placed on market",
+      "product_scope": "Salt",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_14_cocoa_powder_1000",
+      "row_sha256": "c982ebcaadc902708e898513154b9c501e1fd3d82039ef12208471910ebb9050",
+      "metal_species": "Pb",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Cocoa powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_15_infant_formula_ready_to_eat_and_follow_up_formula_10",
+      "row_sha256": "beab1a0b09e5a0f4a01277467cb3bb04b4a6b32787d90849856b19c5bb1fea5d",
+      "metal_species": "Pb",
+      "value_ug_kg": "10",
+      "basis": "as consumed",
+      "product_scope": "Infant formula ready-to-eat and follow-up formula",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_15_1_infant_formula_powder_50",
+      "row_sha256": "e3851537088c54060c7324ba44e413b5869654200ac347e79d1b61ecaca067f0",
+      "metal_species": "Pb",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant formula powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_15_2_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+      "row_sha256": "95fa7ac4f63c00d07e0d7f83315c34541c532d0c0a01640cd3aaf5b16f04eef1",
+      "metal_species": "Pb",
+      "value_ug_kg": "40",
+      "basis": "as consumed",
+      "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_15_3_porridges_and_other_foods_for_infants_and_toddlers_p_80",
+      "row_sha256": "e882bde9ab5efe8c4201e3f46595e403157abe5e7c9ef80724a368ef5ff3a166",
+      "metal_species": "Pb",
+      "value_ug_kg": "80",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Porridges and other foods for infants and toddlers, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_16_food_for_special_dietary_purpose_10",
+      "row_sha256": "84f19aade490e4bbbbef5b5db889807b4a87fcaf457c62469ee8751e386b0a8a",
+      "metal_species": "Pb",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Food for special dietary purpose",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_17_dietary_supplements_3000",
+      "row_sha256": "e4be26f3522aaabf980b55cc8582e671b443e276a5d2a341b66e767af94d4ef8",
+      "metal_species": "Pb",
+      "value_ug_kg": "3000",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_18_beverages_except_dairy_products_and_listed_categorie_20",
+      "row_sha256": "b59a000645d8cc5df405282e38e0e1d8f24ca2c796ea863ed6328df3a6805bd0",
+      "metal_species": "Pb",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market",
+      "product_scope": "Beverages, except dairy products and listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_18_1_bottled_drinking_water_and_mineral_water_10",
+      "row_sha256": "c652e4611f3569909dd23180c5d6b04fff865a315870cbe38ca72643750c59ec",
+      "metal_species": "Pb",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Bottled drinking water and mineral water",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_18_2_fruit_and_vegetable_juices_including_nectars_except_30",
+      "row_sha256": "d7b3944df215e4c249bd762d72635c8c37097cafca700ccb4522f7ea16dd9ca9",
+      "metal_species": "Pb",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Fruit and vegetable juices, including nectars, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_18_3_juices_containing_only_berries_and_small_fruits_50",
+      "row_sha256": "38b1c71bd0a8fb8d22bd8466bd21c46665a702e3855b291e3b221e5f99703545",
+      "metal_species": "Pb",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Juices containing only berries and small fruits",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_19_canned_fruits_except_listed_categories_100",
+      "row_sha256": "d113e32991a5b6924c5cdbe0332d53f5dfe2079e71d3c3cb6d5f86b06d7e157d",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Canned fruits, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_19_1_canned_small_fruits_raspberries_and_strawberries_1000",
+      "row_sha256": "b9799331f384287459d2c01f9d07f61557fffa72273b3bc9f578b0cc23dfadcf",
+      "metal_species": "Pb",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Canned small fruits (raspberries and strawberries)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_20_canned_vegetables_except_listed_categories_100",
+      "row_sha256": "0466169b3db3fabb92435b524304552781aad2c930951fb855c6e59e228dbbbe",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Canned vegetables, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_20_1_canned_brassica_and_leafy_vegetables_300",
+      "row_sha256": "1601eebbb519048c206dd18546c0c3841185d370ec26cd3e237f50cf86f7fe16",
+      "metal_species": "Pb",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Canned brassica and leafy vegetables",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_20_2_tomato_puree_paste_1500",
+      "row_sha256": "d5fe9708a0a926a6afd8be72b750453f2abe69a0985f63a0b0a24533d1060d4c",
+      "metal_species": "Pb",
+      "value_ug_kg": "1500",
+      "basis": "product as placed on market",
+      "product_scope": "Tomato puree/paste",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_21_jams_and_jellies_1000",
+      "row_sha256": "df9f421bd03b54870a99cd174c722d009d65c32f8f4f330161f4e21c295ad6b4",
+      "metal_species": "Pb",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Jams and jellies",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_22_wine_200",
+      "row_sha256": "e5e8bb7611ffd358e15f9ac6e4766807947df01987f80d98713b53e4f37d3b5c",
+      "metal_species": "Pb",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Wine",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_pb_23_honey_100",
+      "row_sha256": "b1cb1acb9988a610871ac9965e4513553a62e301b07798566d91f776b13ad8f3",
+      "metal_species": "Pb",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Honey",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_1_milk_5",
+      "row_sha256": "26fccbce59a659c7afde99e68277480352adadeb41c953c2a6d0db99e24ed61a",
+      "metal_species": "Cd",
+      "value_ug_kg": "5",
+      "basis": "product as placed on market",
+      "product_scope": "Milk",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_1_1_dairy_products_50",
+      "row_sha256": "2f5176d8828c510be037ad4c8df524c4780d3645c133344060b368588f7fe18a",
+      "metal_species": "Cd",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Dairy products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+      "row_sha256": "4471d7bf116b22bc12b3a78a4fe768a8328f757384f5abaeddd733b8c62257d8",
+      "metal_species": "Cd",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
+      "row_sha256": "29d5b3dc4a39d6673312fe15dde2aec880e0dcb51597bc09aeca68f00a75552a",
+      "metal_species": "Cd",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Fruits and vegetables, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_3_1_leafy_vegetables_celery_mushrooms_edible_plants_herb_200",
+      "row_sha256": "058ff660a7083804ab6ba28f0593df46822a5292909ccc24dc10ccb024294b89",
+      "metal_species": "Cd",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Leafy vegetables, celery, mushrooms, edible plants, herbs, and horseradish",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_3_2_dried_leafy_vegetables_celery_mushrooms_edible_plant_1000",
+      "row_sha256": "2922bd5cb7ef558500967d51743a397cbe219757e387e832e9fccfd932e16e5b",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried leafy vegetables, celery, mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_3_3_root_stem_and_tuber_vegetables_100",
+      "row_sha256": "cb0a575d4dbc01a152df84959c0f52848b07ee6145f5240b74520c7f255ca99a",
+      "metal_species": "Cd",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Root, stem, and tuber vegetables",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_4_dried_legumes_100",
+      "row_sha256": "9b6809e8b2c7729f20aedb26110ff80287f6cab1d208116af0860d2ef3e8b819",
+      "metal_species": "Cd",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Dried legumes",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_4_1_peanuts_and_soybeans_200",
+      "row_sha256": "4193d73abba64bcba4a953e90f8ae29928b57ec35bd78b47e3d5afc20674329a",
+      "metal_species": "Cd",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Peanuts and soybeans",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_5_cereals_and_cereal_products_except_listed_categories_100",
+      "row_sha256": "b909193eddff127cbcc6f5db8adacfb7e46f134853fdc0d56b709fe337e9abc5",
+      "metal_species": "Cd",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Cereals and cereal products, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_5_1_wheat_and_rice_200",
+      "row_sha256": "b1f09b2c500e61cfa9b5858e93648641f19ba4725a668193f27bc4ef70b43524",
+      "metal_species": "Cd",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Wheat and rice",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_5_2_oilseeds_500",
+      "row_sha256": "66772adae2ae76dbb59f6e5204b3458a5516df1e4fdc68dffd0b95b1f60e7895",
+      "metal_species": "Cd",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Oilseeds",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_6_raw_tea_and_plants_for_infusion_100",
+      "row_sha256": "f2f424946edefae29ebee0fe67379a3d122940194f5c83f52bc0922a7de0a893",
+      "metal_species": "Cd",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Raw tea and plants for infusion",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_7_fresh_seaweed_1000",
+      "row_sha256": "ae12209d12b57f036920e3a6f2daadf12aaabfdb2ff72624676cc207d57f727f",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fresh seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_7_1_dried_seaweed_5000",
+      "row_sha256": "1852a58be52930c08184336e46a27f12350df186bc7af2b3c8b0284ad3ea214d",
+      "metal_species": "Cd",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_8_meat_and_meat_products_including_poultry_and_game_ex_50",
+      "row_sha256": "ede766346e304902da42d3f4ae34bc060e5b4092a98aba207e5ab13214fe06b6",
+      "metal_species": "Cd",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Meat and meat products, including poultry and game, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_8_1_fat_and_offal_of_cattle_sheep_and_poultry_except_lis_500",
+      "row_sha256": "eb040d090152bbe88f0420e10bdcdd99411e24a2d542fb3276cf3e2416fb8621",
+      "metal_species": "Cd",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Fat and offal of cattle, sheep, and poultry, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_8_2_turkey_liver_1000",
+      "row_sha256": "90335b3ce7e15427608e267bbbadf7c3cbbe03078c533db428fd1aae756fd3c2",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Turkey liver",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_8_3_kidneys_of_cattle_lamb_pig_and_poultry_1000",
+      "row_sha256": "fb4b1cd708b47a507c2976366e7cd78ba53635b42cb01e29d9890f214560f18b",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Kidneys of cattle, lamb, pig, and poultry",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50",
+      "row_sha256": "9b2ec8143e9c32f0f0b13fa72caad3ed4801c4bf5d56599940ca8150e1c82b69",
+      "metal_species": "Cd",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Fish and fish products, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_250",
+      "row_sha256": "51c7068a647c99b3f913aae0ff6e787bc1f863bac5b6b5a71211bd90219711af",
+      "metal_species": "Cd",
+      "value_ug_kg": "250",
+      "basis": "product as placed on market",
+      "product_scope": "Pike, tuna, anchovy, sardines, swordfish, shark, and other predatory fish",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_9_2_crabs_muscle_500",
+      "row_sha256": "f0040bf81aa404915bfc731434c0dd16b7fe073ac7af89eedfb9a0ecae073399",
+      "metal_species": "Cd",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Crabs (muscle)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_9_3_shellfish_octopus_squid_and_cephalopods_1000",
+      "row_sha256": "49c74687fd330afad207eda90cb8e2cb120634b1e0d3e394b30f0ee575831010",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Shellfish, octopus, squid, and cephalopods",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_10_eggs_and_egg_powder_10",
+      "row_sha256": "5864fa8f50da837224c0b67577284d46f73c107db8f9be3de2ffa3fdc38b4140",
+      "metal_species": "Cd",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Eggs and egg powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_11_sugar_150",
+      "row_sha256": "cd29f6b305d865ce1105da943c43182b5478e4d62e7e86a76e46068c088e372a",
+      "metal_species": "Cd",
+      "value_ug_kg": "150",
+      "basis": "product as placed on market",
+      "product_scope": "Sugar",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_12_salt_500",
+      "row_sha256": "e587d8580534295a3849d0e73944ac90f8bcda050668c92b92eb1662ae98b3b6",
+      "metal_species": "Cd",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Salt",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_13_cocoa_chocolate_and_cocoa_chocolate_products_500",
+      "row_sha256": "754bf9098e71b2ec810e6cb0a21c9cea794a71f9a3f7c009a1b12504071ed540",
+      "metal_species": "Cd",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Cocoa, chocolate, and cocoa/chocolate products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_14_infant_and_toddler_formulas_ready_to_eat_5",
+      "row_sha256": "e2e627c56647e9ea84ee5efcf4a31ed07f4cb58e0a140aa6c4f20492d4cf6996",
+      "metal_species": "Cd",
+      "value_ug_kg": "5",
+      "basis": "as consumed",
+      "product_scope": "Infant and toddler formulas, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10",
+      "row_sha256": "219ab58e839d1b77f57ae61246730eee114c57f04990f55a5f8bb2d7ff56dfc6",
+      "metal_species": "Cd",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant and toddler formulas, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_14_2_infant_and_toddler_formulas_from_soy_or_containing_s_10",
+      "row_sha256": "68a72e1e24740cececf05672a6379be044c3033fd1d1322a01905f020e6d104c",
+      "metal_species": "Cd",
+      "value_ug_kg": "10",
+      "basis": "as consumed",
+      "product_scope": "Infant and toddler formulas from soy or containing soy, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_14_3_infant_and_toddler_formulas_from_soy_or_containing_s_20",
+      "row_sha256": "c20bd3260f7a21ac7ffbe4ece94bfcc6e979daa9db7f88d2523ae3ae85a122c6",
+      "metal_species": "Cd",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant and toddler formulas from soy or containing soy, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_14_4_porridges_and_other_foods_for_infants_and_toddlers_r_40",
+      "row_sha256": "bce8ad393ae7627fd9cb42a530418fe9c32b8d1c4f6dfd5862407d6882bb6d51",
+      "metal_species": "Cd",
+      "value_ug_kg": "40",
+      "basis": "as consumed",
+      "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_15_food_for_special_dietary_purpose_5",
+      "row_sha256": "ee068b3ecc65f865749603659511ae175ec01e36e539441527f7bbcd6304610d",
+      "metal_species": "Cd",
+      "value_ug_kg": "5",
+      "basis": "product as placed on market",
+      "product_scope": "Food for special dietary purpose",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_16_dietary_supplements_except_listed_categories_1000",
+      "row_sha256": "702333862e2fc09593e8d4aa6c01129373f3b1e070c55ce81dd6f208f7afcd29",
+      "metal_species": "Cd",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_16_1_dietary_supplements_mainly_containing_dried_seaweed_3000",
+      "row_sha256": "ad3390e3268266e4ca5bf9034c8cca103371a405a135f3daea426a76f4cbd805",
+      "metal_species": "Cd",
+      "value_ug_kg": "3000",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements mainly containing dried seaweed and seaweed products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_17_bottled_drinking_water_and_mineral_water_3",
+      "row_sha256": "07381340f428aaf4678ef87c145fbf63e9ddd79fb585e57351856e41f8709fa4",
+      "metal_species": "Cd",
+      "value_ug_kg": "3",
+      "basis": "product as placed on market",
+      "product_scope": "Bottled drinking water and mineral water",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10",
+      "row_sha256": "852be1d4ff50884807023f98992d43205fbbbe26ee071d3d7765e04241008366",
+      "metal_species": "Cd",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Beverages, juices, and nectars",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_1_milk_10",
+      "row_sha256": "ce66a671678170fc1940cf03c3c0751363b628b990f459ce7bb6dd1917dae3bd",
+      "metal_species": "tHg",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Milk",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_1_1_dairy_products_100",
+      "row_sha256": "43aa20d2694a840c8fdf229681a3ff50adceb654761d0942819fabbb4446316f",
+      "metal_species": "tHg",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Dairy products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+      "row_sha256": "ebd1578751d56f042e9b938f67ba6ac41f6e64c8671bea65579ef1a8bd72ed74",
+      "metal_species": "tHg",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market",
+      "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
+      "row_sha256": "b8606a6ebf8c072f288861bf5b9123935c4b66fabec91086ca3092668c67e7d4",
+      "metal_species": "tHg",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
+      "row_sha256": "f8b70f4aa1d2bc276b6d2d70a75e4c53c302f4894cb1f5c6b9e2b40f97fd4e2a",
+      "metal_species": "tHg",
+      "value_ug_kg": "150",
+      "basis": "product as placed on market",
+      "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30",
+      "row_sha256": "58445edfdbfdf6013dc2cfc14c3fd87286739f00b004f1715c061272817efdc5",
+      "metal_species": "tHg",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Cereals and cereal products, including wheat and rice",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_4_1_oilseeds_400",
+      "row_sha256": "b6b7643eea0b8fe27e7ead55a40af41a3e96f3063f09cddc923f0a7e4b99f38f",
+      "metal_species": "tHg",
+      "value_ug_kg": "400",
+      "basis": "product as placed on market",
+      "product_scope": "Oilseeds",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30",
+      "row_sha256": "617e45a80e9f28a7d35c90e4cdd01627e6d298d0e6d4fea07b7456e5875ecfa2",
+      "metal_species": "tHg",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Dried legumes, including peanuts and soybeans",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_6_raw_tea_and_plants_for_infusion_50",
+      "row_sha256": "c508e292bcf2171bc747cd4e9958355b2cc35dfa437d05ae6a589a851188cf16",
+      "metal_species": "tHg",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market",
+      "product_scope": "Raw tea and plants for infusion",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_7_fresh_seaweed_500",
+      "row_sha256": "299771e51fdf31be721cd4ff04bde9a09e2590bd8234368e9da18319dc9e8dc2",
+      "metal_species": "tHg",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Fresh seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_7_1_dried_seaweed_2500",
+      "row_sha256": "6c949b6563a3163fd164c1ea315a6ed91d129b68bf17f6d8adc3229d363355da",
+      "metal_species": "tHg",
+      "value_ug_kg": "2500",
+      "basis": "product as placed on market",
+      "product_scope": "Dried seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_8_meat_and_meat_products_including_poultry_game_and_of_200",
+      "row_sha256": "4288f3049963942c28e15568145d0d2786999083ca06db0c46efba8c6d07a3f9",
+      "metal_species": "tHg",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Meat and meat products, including poultry, game, and offal",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_9_fish_and_fish_products_except_listed_categories_500",
+      "row_sha256": "0cca1b4d69f39639256cff598bf7e78a6c2a1333ca31342b8cd0c451afdf9936",
+      "metal_species": "tHg",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Fish and fish products, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_9_1_pike_tuna_anchovy_sardines_swordfish_shark_and_other_1000",
+      "row_sha256": "a0597bffbade42477c032032a9f1a1083eee0390cc0cc366f4b1f9a14d1906c9",
+      "metal_species": "tHg",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Pike, tuna, anchovy, sardines, swordfish, shark, and other predatory fish",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_9_2_seafood_500",
+      "row_sha256": "875d46ee3f25f2efd92316872e0e80c656ebd30b0bbcfe63bb192b91fc39d846",
+      "metal_species": "tHg",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Seafood",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_10_eggs_and_egg_powder_30",
+      "row_sha256": "021fd33c02dff23ce22bc962277b0c6e13c44adad369e52881e12a4b67836021",
+      "metal_species": "tHg",
+      "value_ug_kg": "30",
+      "basis": "product as placed on market",
+      "product_scope": "Eggs and egg powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_11_sugar_100",
+      "row_sha256": "2fb250dc086e285dbf887b9940641297328a12e36b8dd3ff2282691396749ac4",
+      "metal_species": "tHg",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Sugar",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_12_salt_100",
+      "row_sha256": "6b7843432d2771426b986e31054917de6a8b13e18ca9d0416bddc40f994817a0",
+      "metal_species": "tHg",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Salt",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_13_cocoa_powder_200",
+      "row_sha256": "bb38c462b97b03b6e8ecadf2933f0465f1820fd88a29dc81da92702305693f62",
+      "metal_species": "tHg",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Cocoa powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
+      "row_sha256": "b9b021558cc12ee45d2d36081af37d2f13df37356c5f4502be23c74353ebe74d",
+      "metal_species": "tHg",
+      "value_ug_kg": "4",
+      "basis": "as consumed",
+      "product_scope": "Infant and toddler formulas, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
+      "row_sha256": "ed9ed548bf45b76fd6e6decd33b1161ac7ac9e8d69d1d150d12ec21c3423fb91",
+      "metal_species": "tHg",
+      "value_ug_kg": "15",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant and toddler formulas, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+      "row_sha256": "d5f186664841b691fd0abfb844cd3ba077c72c534497ae4bce8b77681ecb77f8",
+      "metal_species": "tHg",
+      "value_ug_kg": "8",
+      "basis": "as consumed",
+      "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_15_dietary_supplements_100",
+      "row_sha256": "526385e38cdd7d7e930ad3f9bbb1b0c899ee7d155dbf1b896d0ae2bfc11dfdf1",
+      "metal_species": "tHg",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_16_food_for_special_dietary_purpose_4",
+      "row_sha256": "077a16ce806c6652f79dce1cc9fe23587152d7072924f8823334f2f9f9bc6463",
+      "metal_species": "tHg",
+      "value_ug_kg": "4",
+      "basis": "product as placed on market",
+      "product_scope": "Food for special dietary purpose",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_17_bottled_drinking_water_and_mineral_water_1",
+      "row_sha256": "fcb1a197e75f518af4c43964b06aa7848e3df9f912518a37c0feabe080040078",
+      "metal_species": "tHg",
+      "value_ug_kg": "1",
+      "basis": "product as placed on market",
+      "product_scope": "Bottled drinking water and mineral water",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10",
+      "row_sha256": "a430b2441bee1b5bda979c8819e460c4f579c9224a1b13de7e8a880f0f03bb7d",
+      "metal_species": "tHg",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Beverages, juices, and nectars",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_1_milk_1000",
+      "row_sha256": "f3265f385e8893cbfb11bda5e19ba1871002e10edd673ed4cc5146030d98dba0",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Milk",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_1_milk_10",
+      "row_sha256": "74703945b018fb5086f0d371445d7ce24c19fb778097354de42d38bf767d662a",
+      "metal_species": "iAs",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Milk",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_1_1_dairy_products_1000",
+      "row_sha256": "c3c726d3c74347df3f3055090c0b2b9784c5f9a09b9b80b68565fc57e0020af7",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Dairy products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_1_1_dairy_products_100",
+      "row_sha256": "d7246c61e3ec9dcbd4bfe14ae1e513562dc29f7710b56a6d566dde6e09b72c21",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Dairy products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000",
+      "row_sha256": "48cbbd752e0256e8756d04155b25e5492aeec843859e4cf13947da184e66249d",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100",
+      "row_sha256": "180b07673e44671e33f1c02b1cd00704d05d26f8f095423a51df10eab0b0fd7d",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
+      "row_sha256": "ad6a4848a6bbd2da1a599ef9d9fb5b79365e0490cdf055a7bf1c5b48a592767f",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
+      "row_sha256": "70c523ef32c1bccddc3378395d6c4754185c49647d4b0d1b5e42c789492c66cc",
+      "metal_species": "iAs",
+      "value_ug_kg": "60",
+      "basis": "product as placed on market",
+      "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_5000",
+      "row_sha256": "c323d7c7a9efd3f595f1e13ab92d59becafdf51230cb03f55691b7541101f408",
+      "metal_species": "tAs",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
+      "row_sha256": "b8fcb65946c42800f9e29055d827b378fbbe0e8a1b7b608b98a2deabbb786558",
+      "metal_species": "iAs",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000",
+      "row_sha256": "0398790a8a5b06ae1db3474ae8f83c01a4803775add17c564ebfa77d33e4f7f0",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried legumes, including peanuts and soybeans",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100",
+      "row_sha256": "85f55ae76dfac5065e9cf8baada8193ca8687e1006ebeb52266a6b57b5298e71",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Dried legumes, including peanuts and soybeans",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_cereals_and_cereal_products_except_listed_categories_1000",
+      "row_sha256": "39bde4fcca0a2a3d2a3230f491a3cca0d3e0a2d36aad071a7d215e1355a6f355",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Cereals and cereal products, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_1_wheat_1000",
+      "row_sha256": "a6f2c68553d4cd3de9ba69e9c0083f819708a2e4618dd463cc828633fa8b6aa8",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Wheat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_2_rice_1000",
+      "row_sha256": "a44a538fd19c2ce103552801c0ea1c145c25583cd38eb2b6e5553bf8ae9ad0c1",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Rice",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_5_2_rice_200",
+      "row_sha256": "22c4fc38a085c1cb113d9d9376602d49eaaeabab3f75ca924c4482da4b59bbb2",
+      "metal_species": "iAs",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Rice",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_1000",
+      "row_sha256": "51b78139e01d996bcb0917f0fd2f4873b0b02f732624095c82d673741dda4d50",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Rice used for production of food for infants and toddlers",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_5_2_1_rice_used_for_production_of_food_for_infants_and_tod_100",
+      "row_sha256": "3e30155d1dac1bd4bc680e11e8537afb9b9d38da2300c4505b970df3d4f135f6",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Rice used for production of food for infants and toddlers",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_1000",
+      "row_sha256": "374ca8a1558091369b7dcd361fc4dbb8b0b56c9e68c16c838c6ff7a1d9b3c8b4",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Wafers, crackers, and cakes in which rice is a main ingredient",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_5_2_2_wafers_crackers_and_cakes_in_which_rice_is_a_main_in_300",
+      "row_sha256": "385d7ebf043c6c9c6d385b63e2c32c4d53dea898394960af0030edc96a9b4193",
+      "metal_species": "iAs",
+      "value_ug_kg": "300",
+      "basis": "product as placed on market",
+      "product_scope": "Wafers, crackers, and cakes in which rice is a main ingredient",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_5_3_oilseeds_1000",
+      "row_sha256": "c0d0a4b7faca703ed4bb6f91d28f484b30c1b5d97c224e16788418a09938e48c",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Oilseeds",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_6_raw_tea_and_plants_for_infusion_1000",
+      "row_sha256": "9fa22600757c60aaed73bad9e865e3058edb78b2a83d979e6f8cd63278a7479d",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Raw tea and plants for infusion",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_6_raw_tea_and_plants_for_infusion_100",
+      "row_sha256": "a2e432e0a23f0ddcf8ec5f7c2db671cc348aead51896ffb99c7f4434443ef417",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Raw tea and plants for infusion",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_7_fresh_seaweed_1000",
+      "row_sha256": "60b4a807d0de22a691b4d742c1166ee0837b3fb071e299ec78ba0eef402b225d",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fresh seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_7_1_dried_seaweed_5000",
+      "row_sha256": "103fae9d83d066d5c37514a7026d83836cf39af7ab174f37c2423bc278d33a0d",
+      "metal_species": "tAs",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Dried seaweed",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_8_meat_and_meat_products_including_poultry_and_game_ex_1000",
+      "row_sha256": "c45c3b6c29e6f1ea24427b763ba67d2cb39e3b9b6d98d19751cee817526359ed",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Meat and meat products, including poultry and game, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20",
+      "row_sha256": "99dc11fdd94013619998a276eb72901ecb7a4da626f07fe05ae29032b3413bb3",
+      "metal_species": "iAs",
+      "value_ug_kg": "20",
+      "basis": "product as placed on market",
+      "product_scope": "Meat and meat products, including poultry and game, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_1000",
+      "row_sha256": "1dc70dec4090f999b228478f84ba62581e3192f85547c1a3f3ee5a77dbe2930b",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Offal of cattle, sheep, and poultry, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_8_1_offal_of_cattle_sheep_and_poultry_except_listed_cate_200",
+      "row_sha256": "ca7d2a9cb7f61c2da5c6efc8c87ad0d3ba8531283a1cfacf742886fe41812a84",
+      "metal_species": "iAs",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Offal of cattle, sheep, and poultry, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_8_2_chicken_and_turkey_liver_1000",
+      "row_sha256": "eadc0d1368f98fa40f3336729762501d04f51a5d029447159bf585b542202b85",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Chicken and turkey liver",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_8_2_chicken_and_turkey_liver_500",
+      "row_sha256": "05f8b529feb469b438e41edba583533588c579e926d3359ed614e70b9851bb4c",
+      "metal_species": "iAs",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Chicken and turkey liver",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_9_fish_and_fish_products_1000",
+      "row_sha256": "f86e9f6b73fb89008e31931f7154d240142435d25f0d157e21d7267aa0bf7599",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fish and fish products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_9_1_seafood_1000",
+      "row_sha256": "c513970b286c61bc73cf30697320e27ebcdd3bd907a57d12d95ce64adb855596",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Seafood",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_10_eggs_and_egg_powder_1000",
+      "row_sha256": "4273115822e5a13d6f6cb0cde099e74cc4bc538712b6968dfd0994e9d765cc98",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Eggs and egg powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_11_sugar_1000",
+      "row_sha256": "e61ffd6e2a374afa91a5c159c78d9483b28520ae226e9b81e28af509664892f2",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Sugar",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_11_sugar_500",
+      "row_sha256": "5c64aa0f804f3297f174adbea18ced48f87a1ee8a07b66a7082012ecd9f5ab2a",
+      "metal_species": "iAs",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Sugar",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_12_salt_1000",
+      "row_sha256": "71878c2897f2ebcf406bfbfdb92c7a69be58d42484bc16a1e0f1557583c35ba3",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Salt",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_12_salt_500",
+      "row_sha256": "8248311251921569294c03b9510cd400d5e599124cd9bdd1d9e09d43c883fa7f",
+      "metal_species": "iAs",
+      "value_ug_kg": "500",
+      "basis": "product as placed on market",
+      "product_scope": "Salt",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_13_cocoa_powder_1000",
+      "row_sha256": "0877cad50f72ca41aace05fc721bfde8c63732f4c6d12f1966109d1f8bff1eb5",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Cocoa powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_14_infant_and_toddler_formulas_ready_to_eat_1000",
+      "row_sha256": "0d74bbb855ca98e91e4468ca02fd2fae67a38218b2972ec16d8ad086e2837562",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "as consumed",
+      "product_scope": "Infant and toddler formulas, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_14_infant_and_toddler_formulas_ready_to_eat_10",
+      "row_sha256": "8fb243605ca012d4f8bddee25c7e0fc8e79b1b3fec4d0ee8e7914a113bf1a5b3",
+      "metal_species": "iAs",
+      "value_ug_kg": "10",
+      "basis": "as consumed",
+      "product_scope": "Infant and toddler formulas, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000",
+      "row_sha256": "27cc787160860f66db0a1ae26fc9521df5eecfc00e495425a199cbd44d986f58",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant and toddler formulas, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50",
+      "row_sha256": "e39a714c909e091f15ed4bc01fbde7cb9600cb6838b26a5dac65e1aca167ef18",
+      "metal_species": "iAs",
+      "value_ug_kg": "50",
+      "basis": "product as placed on market, powder",
+      "product_scope": "Infant and toddler formulas, powder",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_1000",
+      "row_sha256": "a40b60b0b642cafd95567b9c4e5dc08aeffdee75b3a7ea58808fcda9efb5e594",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "as consumed",
+      "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_25",
+      "row_sha256": "d306369d4ee5080a9f297d4ec9c2ae96baea72a44503b753c54505ffa1196dc9",
+      "metal_species": "iAs",
+      "value_ug_kg": "25",
+      "basis": "as consumed",
+      "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_15_dietary_supplements_except_listed_categories_1000",
+      "row_sha256": "4831278dde8d20ff071d3dde2401a7cd205c3e3392b5d8606ebc8b62aac66162",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_15_1_dietary_supplements_mainly_containing_dried_seaweed_5000",
+      "row_sha256": "4bb94f515dca21d16b80b50c20caf5aa362b8e9f79adf9899228df6f78179f33",
+      "metal_species": "tAs",
+      "value_ug_kg": "5000",
+      "basis": "product as placed on market",
+      "product_scope": "Dietary supplements mainly containing dried seaweed and seaweed products",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_16_beverages_except_listed_categories_1000",
+      "row_sha256": "27e26a93cf75ab6ad584ebb05a856fa14f5007f864e2b6ab690dc466971ba23f",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Beverages, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_16_beverages_except_listed_categories_100",
+      "row_sha256": "11e8cdfad247733c7b462a1d8fdfe11a1cae5aa687bbfeefb7a0af12230b0931",
+      "metal_species": "iAs",
+      "value_ug_kg": "100",
+      "basis": "product as placed on market",
+      "product_scope": "Beverages, except listed categories",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_16_1_bottled_drinking_water_and_mineral_water_10",
+      "row_sha256": "9a09c500a580be5362e6ef6fa7decc4f8485b99cc923470680a3c013dc0dccb5",
+      "metal_species": "tAs",
+      "value_ug_kg": "10",
+      "basis": "product as placed on market",
+      "product_scope": "Bottled drinking water and mineral water",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
+      "row_sha256": "5f1d1d50147cb77559fc4a0d2619172b240aa5e247320218b4b554a5569df284",
+      "metal_species": "iAs",
+      "value_ug_kg": "6",
+      "basis": "product as placed on market",
+      "product_scope": "Bottled drinking water and mineral water",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_tas_16_2_fruit_and_vegetable_juices_including_nectars_1000",
+      "row_sha256": "3b58b15d2f1d2807ad4c9234aef43398a995a3761bd04408db7ec4656999b3d1",
+      "metal_species": "tAs",
+      "value_ug_kg": "1000",
+      "basis": "product as placed on market",
+      "product_scope": "Fruit and vegetable juices, including nectars",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_ias_16_2_fruit_and_vegetable_juices_including_nectars_200",
+      "row_sha256": "16693942cefc17480bcdf3b81d450b5d41b2bcfdafc522929104f3d86a0d29b6",
+      "metal_species": "iAs",
+      "value_ug_kg": "200",
+      "basis": "product as placed on market",
+      "product_scope": "Fruit and vegetable juices, including nectars",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_sn_1_canned_foods_except_beverages_200000",
+      "row_sha256": "8e2eb5e9db5ea34c074e57527c51db4b4d8033013b65e82664314e0ac4b3f2f6",
+      "metal_species": "Sn",
+      "value_ug_kg": "200000",
+      "basis": "product as placed on market",
+      "product_scope": "Canned foods, except beverages",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_sn_1_1_ready_to_eat_canned_foods_intended_for_infants_and_t_50000",
+      "row_sha256": "48b127511b1abb5efdd64e7b676dfc4551d806351605d3d313cfe33d14ee547d",
+      "metal_species": "Sn",
+      "value_ug_kg": "50000",
+      "basis": "as consumed",
+      "product_scope": "Ready-to-eat canned foods intended for infants and toddlers",
+      "status": "maximum level"
+    },
+    {
+      "regulatory_limit_id": "il_fcs2016_sn_1_2_canned_beverages_100000",
+      "row_sha256": "63075e937092ea5cbe53b8fc800c1bca3ffd79036857b4707ae00e50ccd7ee43",
+      "metal_species": "Sn",
+      "value_ug_kg": "100000",
+      "basis": "product as placed on market",
+      "product_scope": "Canned beverages",
+      "status": "maximum level"
+    }
+  ]
+}

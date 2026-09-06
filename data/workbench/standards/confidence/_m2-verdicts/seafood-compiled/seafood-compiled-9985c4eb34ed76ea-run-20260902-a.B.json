@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p3",
+  "batch_id": "seafood-compiled-9985c4eb34ed76ea-run-20260902-a",
+  "evidence_key": "9985c4eb34ed76ea",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "aunz_sch19_ias_seaweed_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "FSANZ Schedule 19 sets inorganic arsenic 1 mg/kg for 'seaweed', in force (compilation F2024C00908), and Schedule 19 expressly exempts seaweed from the rule that dried foods are assessed on the pre-drying food, so the level applies to dried seaweed as sold and matches this as-sold cell without conversion. The cell is a total-arsenic cell fed by an inorganic-arsenic instrument; because tAs is never less than iAs, a tAs ceiling of 1000 guarantees compliance with the anchor, so the read-across is protective and the anchor is the strictest in-force sovereign seaweed-arsenic line on this basis (HK Cap 132V seaweed iAs 1000 concurs but its regulation 3(2)(b) concentration adjustment leaves the dried-seaweed basis unclear; SG 2026 seaweed iAs 2000 and France CSHPF 3000 dry weight are looser). No non-gated total-arsenic row covering dried seaweed is stricter than 1000; the only same-analyte sovereign rows are catch-alls at the same value (SG Tenth Schedule (b)(27) other food 1000, UY RBN solid foods 1000; TH other food 2000) that could be cited as concurring instruments, and the Israeli dried-seaweed tAs 5000 row is superseded. Outside applicability, for the reconciler: marine macroalgae typically carry tens of mg/kg total arsenic dry weight, mostly arsenosugars, so a 1000 tAs ceiling functions as a near-total exclusion of the category; that is a policy question, not a scope defect."
+    }
+  ]
+}

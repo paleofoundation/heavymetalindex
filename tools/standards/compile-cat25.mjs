@@ -69,15 +69,16 @@ function splitCsvLine(line) {
   out.push(cur); return out.map((s) => s.replace(/^"|"$/g, ""))
 }
 const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance, ALLOWED_PROVENANCE as CANON_ALLOWED } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const CANNABIS = /cannabis|marijuana/i
 
 const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
 const PANEL = config.panel
-const ALLOWED_PROVENANCE = new Set(config.allowed_provenance || ["regulatory-alignment", "read-across", "not-material", "control", "ratchet"])
+const ALLOWED_PROVENANCE = new Set(config.allowed_provenance || [...CANON_ALLOWED]) // lib/provenance.mjs is the vocabulary of record
 const JUR_PRIORITY = config.jur_priority || []
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 
@@ -178,6 +179,11 @@ function controlCell(spec, analyte) {
 function resolveCell(sub, analyte, defects) {
   const spec = (sub.cells || {})[analyte]
 
+  // explicit subsumed spec (harvested from the published standard): a species bounded by its parent total
+  if (spec && spec.subsumed) {
+    const parent = spec.subsumed.bounded_by || spec.subsumed.subsumed_by || null
+    return { provenance: "subsumed", type: "subsumed", value: null, subsumed_by: parent, bounded_by: parent, basis_class: spec.subsumed.basis_class || "speciation-bounded", rationale: spec.subsumed.rationale || `${analyte} is a component of ${parent} and bounded by it` }
+  }
   // explicit control cell
   if (spec && spec.control !== undefined) return controlCell(spec, analyte)
 
@@ -244,6 +250,17 @@ for (const slug of slugs) {
       defects.push(`${slug}/${a}: disallowed provenance '${c.provenance}'`)
     cells[a] = c
   }
+  // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) left as a control or unresolved while its parent
+  // total is a firm number is bounded by that parent (species <= total); control is transitional.
+  for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+    if (!PANEL.includes(sp)) continue
+    const t = cells[tot], c = cells[sp]
+    const tv = t && typeof t.value === "number" ? t.value : null
+    if (tv == null || !c || !(c.provenance === "control" || c.provenance === "unresolved" || c.error)) continue
+    cells[sp] = { provenance: "subsumed", type: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
+      rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its route basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+  }
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, category: 25, category_name: config.category_name,
     row: sub.row, route: sub.route, native_basis: sub.native_basis,

@@ -11,7 +11,8 @@
 //   DATACITE_PREFIX   — assigned DOI prefix (e.g. 10.71234)
 //   DATACITE_MODE     — "test" (api.test.datacite.org) or "live" (api.datacite.org). Default test.
 //
-// Without those env vars the tool reports a dry-run plan and exits cleanly.
+// Without those env vars the tool reports a dry-run plan and exits cleanly. With them it STILL
+// reports a plan unless --live is passed explicitly (2026-09-02; credentials alone never execute).
 // This means the script can be run today to verify the plan; minting begins
 // the day Karen completes the DataCite account setup.
 //
@@ -61,7 +62,11 @@ const prefix = process.env.DATACITE_PREFIX || ""
 // accidentally triggering a live API call. The script only goes live when
 // Karen overwrites the placeholders with real DataCite credentials.
 const credentialsReady = user && !user.startsWith("PENDING") && prefix && !prefix.startsWith("PENDING")
-const dryRun = args.includes("--dry-run") || !credentialsReady
+// SAFETY (OI-20260902-mint-dois-safety-index-executes-without-dryrun): a live deposit requires an EXPLICIT
+// --live, exactly like the cert tool. Credentials in the environment (a populated .env.local loaded by
+// --env-file, or Vercel env) never make this tool execute on their own; --dry-run stays accepted.
+const wantLive = args.includes("--live")
+const dryRun = args.includes("--dry-run") || !wantLive || !credentialsReady
 const limitArg = args.find((a) => a.startsWith("--limit="))
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity
 const priorityArg = args.find((a) => a.startsWith("--priority="))
@@ -81,7 +86,7 @@ const DATACITE_MODE = (process.env.DATACITE_MODE || "test").toLowerCase()
 const DATACITE_API = DATACITE_MODE === "live" ? "https://api.datacite.org/dois" : "https://api.test.datacite.org/dois"
 // draft (no event, reserve) | register (Registered, not yet Findable) | publish (Findable). Default publish.
 const state = (args.find((a) => a.startsWith("--state=")) || "--state=publish").split("=")[1]
-const TEST_PREFIXES = ["10.5072", "10.82"] // datacite sandbox families (10.5072 retired; test repos get their own)
+const TEST_PREFIXES = ["10.5072", "10.82", "10.84435"] // datacite sandbox families + the issued sandbox prefix (must match standard-readiness-lint in cert)
 const isTestPrefix = (doi) => TEST_PREFIXES.some((p) => String(doi).startsWith(p))
 const persist = DATACITE_MODE === "live" // never stamp non-resolvable test DOIs into frontmatter
 // A DataCite record is permanent + public: screen each candidate title against a brand denylist so
@@ -224,7 +229,7 @@ candidates.sort((a, b) => a.priority - b.priority || a.filePath.localeCompare(b.
 
 const batch = candidates.slice(0, limit === Infinity ? candidates.length : limit)
 
-console.log(`mint-dois: ${dryRun ? "DRY-RUN" : "EXECUTING"} (mode=${DATACITE_MODE})`)
+console.log(`mint-dois: ${dryRun ? "DRY-RUN" : "EXECUTING"} (mode=${DATACITE_MODE})${!dryRun ? "" : credentialsReady && !wantLive ? "  (credentials present; pass --live to deposit)" : ""}`)
 console.log(`  candidates total:  ${candidates.length}`)
 console.log(`  this run will:     ${batch.length}`)
 

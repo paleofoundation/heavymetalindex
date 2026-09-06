@@ -119,11 +119,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a crib or bassinet; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because chromated-copper-arsenate and other arsenical preservative treatment of timber, together with residual arsenical pigments in coatings is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -141,15 +142,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a crib or bassinet: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -282,11 +280,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a play yard, playpen, safety gate or play enclosure; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenical pigments in coatings and printed decals, and arsenic carried in recycled-content polymer feedstock is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -304,15 +303,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a play yard, playpen, safety gate or play enclosure: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -445,11 +441,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a stroller or pram; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenical pigments in coatings and printed fabric, and arsenic carried in recycled-content polymer and rubber feedstock is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -467,15 +464,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a stroller or pram: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -608,11 +602,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for an infant walker or activity walker; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenical pigments in printed tray graphics and coatings, and arsenic carried in recycled-content polymer feedstock is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -630,15 +625,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in an infant walker or activity walker: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -771,11 +763,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for an infant swing, bouncer or rocker; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenical pigments in coatings, printed fabric and decals, and arsenic carried in recycled-content polymer feedstock is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -793,15 +786,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in an infant swing, bouncer or rocker: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -934,11 +924,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for an infant wrap or structured carrier; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenic in dyestuff and pigment feedstocks used on the textile panels and in coatings on the frame is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -956,15 +947,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in an infant wrap or structured carrier: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1100,11 +1088,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a high chair or booster seat; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because chromated-copper-arsenate and other arsenical preservative treatment of the timber components, together with residual arsenical pigments in coatings is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -1123,15 +1112,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a high chair or booster seat: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1263,11 +1249,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a child restraint system or booster car seat; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenic in dyestuff and pigment feedstocks used on the cover fabric and printed labels, and arsenic carried in recycled-content polymer feedstock is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -1285,15 +1272,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a child restraint system or booster car seat: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1413,15 +1397,12 @@
           ]
         },
         "iAs": {
-          "not_material": {
-            "rationale": "No credible sovereign sets an inorganic-arsenic limit for a textile. REACH Annex XVII entry 72 Appendix 12, the instrument that governs this row, limits arsenic compounds expressed as As metal — a total-element value, as the register records — and every other arsenic instrument that reaches a children's article is likewise unspeciated. Inorganic arsenic is a proper subset of total arsenic by identity, so the published 1 mg/kg extractable total-arsenic ceiling on this same row bounds it absolutely and a separate inorganic ceiling would add no protection. Arsenic in infant and toddler clothing arises as residual arsenic in dyestuff, pigment and mordant feedstocks rather than through a separate organoarsenical route, so the total ceiling is not evaded by speciation. Arsenic-based dyestuffs are obsolete in every jurisdiction checked and no residual arsenical finishing chemistry is in commercial use for infant apparel.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tAs",
-            "reference_method": "Total-arsenic determination on the entry 72 Appendix 12 extract by ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS reserved for any homogeneous material whose extractable total arsenic exceeds half the published ceiling. No routine speciation is required while the total sits below that trigger.",
-            "regulatory_basis": "REACH Annex XVII entry 72 Appendix 12 (arsenic compounds, 1 mg/kg after extraction, expressed as As metal) is published on this row's tAs cell as a firm sovereign ceiling in the row's own native basis; no jurisdiction publishes an inorganic-arsenic value for clothing, related accessories, textiles in clothing-like skin contact, or footwear.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 72; Directive 2009/48/EC), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-83), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no inorganic-arsenic row for any textile or article scope.",
-            "substantiation": "Bounded by a published sovereign number in the row's own native basis, so this is a speciation bound against a real ceiling rather than an assertion that arsenic is absent."
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "eu_2018_1513_tas_consumer_textiles_1mgkg"
           ]
@@ -1438,15 +1419,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in infant and toddler clothing: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the mandatory total-mercury control on this row, together with the 10 mg/kg Canadian surface-coating-material companion ceiling that binds any print or applied film, bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "no-migration-pathway",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Classified no-migration-pathway rather than speciation-bounded because this row publishes no total-mercury number in its native basis: REACH Annex XVII entry 72 Appendix 12 sets no mercury value, so the total-mercury parent is a mandatory control rather than a published ceiling and a speciation bound would have no published parent to bind against. The determination rests on the material argument instead — no organomercury input and no formation route in a finished textile — with the total-mercury control and the 10 mg/kg Canadian surface-coating-material companion criterion bounding any print or applied film."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1562,15 +1540,12 @@
           ]
         },
         "iAs": {
-          "not_material": {
-            "rationale": "No credible sovereign sets an inorganic-arsenic limit for a textile. REACH Annex XVII entry 72 Appendix 12, the instrument that governs this row, limits arsenic compounds expressed as As metal — a total-element value, as the register records — and every other arsenic instrument that reaches a children's article is likewise unspeciated. Inorganic arsenic is a proper subset of total arsenic by identity, so the published 1 mg/kg extractable total-arsenic ceiling on this same row bounds it absolutely and a separate inorganic ceiling would add no protection. Arsenic in an infant or toddler bib arises as residual arsenic in dyestuff, pigment and mordant feedstocks rather than through a separate organoarsenical route, so the total ceiling is not evaded by speciation. Arsenic-based dyestuffs are obsolete in every jurisdiction checked and no residual arsenical finishing chemistry is in commercial use for infant textiles.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tAs",
-            "reference_method": "Total-arsenic determination on the entry 72 Appendix 12 extract by ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS reserved for any homogeneous material whose extractable total arsenic exceeds half the published ceiling. No routine speciation is required while the total sits below that trigger.",
-            "regulatory_basis": "REACH Annex XVII entry 72 Appendix 12 (arsenic compounds, 1 mg/kg after extraction, expressed as As metal) is published on this row's tAs cell as a firm sovereign ceiling in the row's own native basis; no jurisdiction publishes an inorganic-arsenic value for clothing, related accessories, textiles in clothing-like skin contact, or footwear.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 72; Directive 2009/48/EC), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-83), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no inorganic-arsenic row for any textile or article scope.",
-            "substantiation": "Bounded by a published sovereign number in the row's own native basis, so this is a speciation bound against a real ceiling rather than an assertion that arsenic is absent."
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "eu_2018_1513_tas_consumer_textiles_1mgkg"
           ]
@@ -1587,15 +1562,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in an infant or toddler bib: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the mandatory total-mercury control on this row, together with the 10 mg/kg Canadian surface-coating-material companion ceiling that binds any print or applied film, bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "no-migration-pathway",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Classified no-migration-pathway rather than speciation-bounded because this row publishes no total-mercury number in its native basis: REACH Annex XVII entry 72 Appendix 12 sets no mercury value, so the total-mercury parent is a mandatory control rather than a published ceiling and a speciation bound would have no published parent to bind against. The determination rests on the material argument instead — no organomercury input and no formation route in a finished textile — with the total-mercury control and the 10 mg/kg Canadian surface-coating-material companion criterion bounding any print or applied film."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1711,15 +1683,12 @@
           ]
         },
         "iAs": {
-          "not_material": {
-            "rationale": "No credible sovereign sets an inorganic-arsenic limit for a textile. REACH Annex XVII entry 72 Appendix 12, the instrument that governs this row, limits arsenic compounds expressed as As metal — a total-element value, as the register records — and every other arsenic instrument that reaches a children's article is likewise unspeciated. Inorganic arsenic is a proper subset of total arsenic by identity, so the published 1 mg/kg extractable total-arsenic ceiling on this same row bounds it absolutely and a separate inorganic ceiling would add no protection. Arsenic in an infant blanket, swaddle or wearable sleep sack arises as residual arsenic in dyestuff, pigment and mordant feedstocks rather than through a separate organoarsenical route, so the total ceiling is not evaded by speciation. Arsenic-based dyestuffs are obsolete in every jurisdiction checked and no residual arsenical finishing chemistry is in commercial use for infant bedding textiles.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tAs",
-            "reference_method": "Total-arsenic determination on the entry 72 Appendix 12 extract by ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS reserved for any homogeneous material whose extractable total arsenic exceeds half the published ceiling. No routine speciation is required while the total sits below that trigger.",
-            "regulatory_basis": "REACH Annex XVII entry 72 Appendix 12 (arsenic compounds, 1 mg/kg after extraction, expressed as As metal) is published on this row's tAs cell as a firm sovereign ceiling in the row's own native basis; no jurisdiction publishes an inorganic-arsenic value for clothing, related accessories, textiles in clothing-like skin contact, or footwear.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 72; Directive 2009/48/EC), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-83), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no inorganic-arsenic row for any textile or article scope.",
-            "substantiation": "Bounded by a published sovereign number in the row's own native basis, so this is a speciation bound against a real ceiling rather than an assertion that arsenic is absent."
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "eu_2018_1513_tas_consumer_textiles_1mgkg"
           ]
@@ -1736,15 +1705,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in an infant blanket, swaddle or wearable sleep sack: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the mandatory total-mercury control on this row, together with the 10 mg/kg Canadian surface-coating-material companion ceiling that binds any print or applied film, bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "no-migration-pathway",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Classified no-migration-pathway rather than speciation-bounded because this row publishes no total-mercury number in its native basis: REACH Annex XVII entry 72 Appendix 12 sets no mercury value, so the total-mercury parent is a mandatory control rather than a published ceiling and a speciation bound would have no published parent to bind against. The determination rests on the material argument instead — no organomercury input and no formation route in a finished textile — with the total-mercury control and the 10 mg/kg Canadian surface-coating-material companion criterion bounding any print or applied film."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1879,11 +1845,12 @@
           ]
         },
         "iAs": {
-          "control": {
-            "rationale": "No credible sovereign publishes an inorganic-arsenic limit for a snap, zip, button, buckle, rivet, eyelet or other clasp or fastener on an infant product; every arsenic instrument that reaches this category regulates the total element (the Australian coating-content limit adopted for the tAs cell is explicitly an unspeciated arsenic value, and REACH Annex XVII entry 72 Appendix 12 likewise limits arsenic compounds expressed as As metal). Inorganic arsenic is nevertheless NOT declared not-material here, because residual arsenic in brass and zinc-alloy feedstock and in electroplating bath chemistry is a real inorganic-arsenic pathway in this article class and a not-material determination would be an affirmative claim the material contradicts. The species is therefore held under mandatory analytical control, bounded above by the published total-arsenic ceiling.",
-            "reference_method": "Mandatory total-arsenic content screen on every accessible component by microwave-assisted acid digestion and ICP-MS, with reflex inorganic-arsenic speciation by HPLC-ICP-MS (arsenite and arsenate, after a speciation-preserving extraction) on any component returning total arsenic above the reporting limit. Preservative-treated timber, arsenical pigments and recycled-content polymers are sampled as distinct components. Results are dispositioned under the HMTc control-and-escalation rule; inorganic arsenic can never exceed the published total-arsenic ceiling by identity.",
-            "bounded_by": "tAs"
-          }
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
+          },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -1901,15 +1868,12 @@
           ]
         },
         "MeHg": {
-          "not_material": {
-            "rationale": "Methylmercury is a marine-bioaccumulation species. It has no formation route and no established industrial source in a snap, zip, button, buckle, rivet, eyelet or other clasp or fastener on an infant product: the mercury that can occur here comes from pigment, catalyst and preservative residues in coatings, polymers and dyestuffs, all of which are inorganic or aryl-mercury chemistries, and organomercury fungicides in these materials have been withdrawn across every jurisdiction checked. Every sovereign mercury instrument that reaches this article class is written on TOTAL mercury; not one sets a methylmercury value for an article, a coating or a textile. Methylmercury is a proper subset of total mercury by identity, so the 10 mg/kg total-mercury ceiling published on this row by disclosed read-across bounds it absolutely and a separate methylmercury ceiling would add no protection.",
-            "basis_class": "speciation-bounded",
+          "subsumed": {
             "bounded_by": "tHg",
-            "reference_method": "Total-mercury content screen by microwave-assisted acid digestion with CV-AFS or ICP-MS on every accessible component, with reflex methylmercury speciation by GC-ICP-MS reserved for any component that both exceeds the total-mercury reporting limit and carries a declared organomercury input. No routine methylmercury determination is required.",
-            "regulatory_basis": "No credible sovereign sets a methylmercury limit for an article, a surface coating or a textile. The mercury instruments that reach this category are Canada SOR/2016-193 s.5 (10 mg/kg total mercury in a dried sample of surface coating material), Canada SOR/2011-17 s.23(1)(c) (10 mg/kg total mercury in accessible toy coatings), the Australian Customs (Prohibited Imports) Regulations 1956 Schedule 2 toy-coating value (60 mg/kg, unspeciated) and Directive 2009/48/EC Annex II Part III (total-mercury migration) — all total-element.",
-            "jurisdictions_checked": "EU (REACH Annex XVII entries 23, 27, 47, 63, 72; Directive 2009/48/EC; Directive 2011/65/EU RoHS; Regulation 10/2011), US (CPSIA s.101, 16 CFR 1303, ASTM F963 via CPSIA s.106), Canada (SOR/2016-193, SOR/2018-82, SOR/2018-83, SOR/2011-17), Australia (Customs (Prohibited Imports) Regulations 1956 Schedule 2), UK, Codex — register-checked, no methylmercury row for any article, coating or textile scope.",
-            "substantiation": "Bounded by the total-mercury cell on this same row, which publishes 10 mg/kg by disclosed read-across from Canada SOR/2016-193 s.5, landing on the value Canada SOR/2011-17 s.23(1)(c) writes for a coating applied to an accessible part of a child's article. The bound is therefore against a real, published, sovereign-derived ceiling carried on this record, not against an assertion that mercury is absent. It is described here as a read-across and not as a direct alignment because that is what the total-mercury cell on this record is."
+            "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
+            "basis_class": "speciation-bounded"
           },
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)",
           "companion_ids": [
             "ca_sor2016_193_thg_surface_coating_material_10000",
             "ca_sor2011_17_thg_accessible_toy_coating_10",
@@ -1968,5 +1932,6 @@
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "24 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 39 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat10-compiled.json"
 }

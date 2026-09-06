@@ -1,0 +1,939 @@
+{
+  "compiled_dir": "cat15-compiled",
+  "generated": "2026-09-02T11:34:29.173Z",
+  "targets": 90,
+  "applied": [
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "not_material",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Pb",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_pb_toothpaste_500"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Cd",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_cd_cosmetics_general_100"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "tAs",
+      "from": "control",
+      "to": "read_across",
+      "value": 500,
+      "anchor": "de_bvl2017_tas_cosmetics_general_500"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "tHg",
+      "from": "control",
+      "to": "read_across",
+      "value": 100,
+      "anchor": "de_bvl2017_thg_cosmetics_general_100"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Ni",
+      "from": "control",
+      "to": "read_across",
+      "value": 10000,
+      "anchor": "kr_mfds2025_ni_cosmetic_products_other_than_eye_makeup_or_color_makeup_products_10000"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Sn",
+      "from": "control",
+      "to": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Al",
+      "from": "control",
+      "to": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Cr",
+      "from": "control",
+      "to": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "to": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "douches-vaginal-irrigation",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "feminine-deodorants",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "feminine-wipes",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "intimate-washes-cleansers",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-cups",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-discs",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-intimate-products-other",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-pads",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "menstrual-tampons",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "iAs",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→control"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "control",
+      "cert_kind": "subsumed",
+      "from": "control",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    },
+    {
+      "slug": "period-underwear-reusable-garments",
+      "variant": "default",
+      "analyte": "MeHg",
+      "cls": "cert-bounded-index-empty",
+      "regressions": [
+        "R3:subsumed→not_material"
+      ],
+      "index": null,
+      "cert": null,
+      "index_kind": "not_material",
+      "cert_kind": "subsumed",
+      "from": "not_material",
+      "why": "subsumed is derived from the firm parent by reconcileSpeciation (harvest the parent)"
+    }
+  ]
+}

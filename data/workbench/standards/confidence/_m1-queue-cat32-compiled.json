@@ -1,0 +1,574 @@
+{
+  "compiled_dir": "cat32-compiled",
+  "run_id": "run-202609021136",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_pb_fish_muscle_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "muscle meat of fish, general",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Species-specific exceptions exist in Annex I.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "ffc6b25c2f75a9a322b01f536e2dc7635b4f264aa796c960a939c48f392336dd",
+          "row_sha256": "ffc6b25c2f75a9a322b01f536e2dc7635b4f264aa796c960a939c48f392336dd"
+        },
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_beverages_100000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market",
+          "product_scope": "canned beverages, including canned fruit and vegetable juices, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.2; inorganic tin.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c",
+          "row_sha256": "66329a2eb51146626006b80ff4e46512f62a9519b0ab3297df0d0bc66d689e0c"
+        }
+      ],
+      "cells": [
+        "fish-sauce|default|Pb",
+        "fish-sauce|default|Sn",
+        "vinegar|default|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_tas_fish_2000",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "2000",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "fish",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Total arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4435049f0b9b23cafea77d633a5ef1aadf2685c67fdc2aa1fcfe1d1f51932b88",
+          "row_sha256": "4435049f0b9b23cafea77d633a5ef1aadf2685c67fdc2aa1fcfe1d1f51932b88"
+        }
+      ],
+      "cells": [
+        "fish-sauce|default|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_ias_fish_sauce_condiments_100",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 4, item 8.3); inorganic arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 8.3; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.1 mg/kg; screening rule: total arsenic may be measured first and compliance concluded when it does not exceed the iAs limit; test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "27e97044956902a91eba77e38c3b2ba67cc6be50c13852e026843b193d8c3670",
+          "row_sha256": "27e97044956902a91eba77e38c3b2ba67cc6be50c13852e026843b193d8c3670"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Condiments, excluding spices (GB 2762-2025 Table 1, item 13.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 13.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 1.0 mg/kg; supersedes china_gb2762_pb_condiments_excl_spices_1000; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "697ff60a61252d06b8a45040910cdb30a2fffa81d21c76e0d415f9d002645214",
+          "row_sha256": "697ff60a61252d06b8a45040910cdb30a2fffa81d21c76e0d415f9d002645214"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_cd_fish_sauce_condiments_100",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Fish-based condiments (for example fish sauce) (GB 2762-2025 Table 2, item 10.2)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 2 item 10.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.1 mg/kg; test method GB 5009.15 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "00564a424f681decaf268bb0c9d77a5af0c376990bbf9a4d9189679fd85731cb",
+          "row_sha256": "00564a424f681decaf268bb0c9d77a5af0c376990bbf9a4d9189679fd85731cb"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_beans_legumes_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Beans (dried pulses and flours milled from dried pulses, per Annex A) (GB 2762-2025 Table 7, item 3.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 3.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_beans_legumes_1000; the old row described its scope as beans and bean products; the Table 7 line is 豆类 (beans) only and bean products carry no chromium limit in this standard; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
+          "row_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f"
+        }
+      ],
+      "cells": [
+        "fish-sauce|default|iAs",
+        "mustard-mayo-dressings|default|Pb",
+        "mustard-mayo-dressings|default|Cd",
+        "mustard-mayo-dressings|default|iAs",
+        "mustard-mayo-dressings|default|Cr",
+        "mustard-mayo-dressings|default|Cr-VI",
+        "soy-sauce-fermented|default|Pb",
+        "soy-sauce-fermented|default|Cd",
+        "soy-sauce-fermented|default|Cr",
+        "soy-sauce-fermented|default|Cr-VI",
+        "tomato-condiments|default|Cd",
+        "tomato-condiments|default|iAs",
+        "tomato-condiments|default|Cr",
+        "tomato-condiments|default|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2020-2184-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2020-2184-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20202184_ni_drinking_water_20",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Ni",
+          "value_ug_kg": "20",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204",
+          "row_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_al_drinking_water_200",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "200",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part C indicator parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7",
+          "row_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7"
+        }
+      ],
+      "cells": [
+        "fish-sauce|default|Ni",
+        "fish-sauce|default|Al",
+        "vinegar|default|Ni",
+        "vinegar|default|Al"
+      ]
+    },
+    {
+      "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/australia-nhmrc-adwg-6-v4-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "nhmrc2025_crvi_drinking_water_50",
+          "jurisdiction": "AU",
+          "authority": "National Health and Medical Research Council",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "50",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+          "url": "",
+          "notes": "Guideline text states hexavalent chromium should not exceed 0.05 mg/L; total chromium above this value triggers separate Cr(VI) analysis.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "90bc964823795bc69b983f609fd7482590e56c316349dafd38c001182c593a69",
+          "row_sha256": "90bc964823795bc69b983f609fd7482590e56c316349dafd38c001182c593a69"
+        }
+      ],
+      "cells": [
+        "fish-sauce|default|Cr",
+        "fish-sauce|default|Cr-VI",
+        "vinegar|default|Cr",
+        "vinegar|default|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_tomato_ketchup_sauces_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "tomato ketchup and other sauces",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(25) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "35178e8fdb164fa1d288df1e0107120d1bb6ef105c9521e93482459fe6cc478f",
+          "row_sha256": "35178e8fdb164fa1d288df1e0107120d1bb6ef105c9521e93482459fe6cc478f"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
+          "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        }
+      ],
+      "cells": [
+        "mustard-mayo-dressings|default|tAs",
+        "mustard-mayo-dressings|default|Sn",
+        "soy-sauce-fermented|default|Sn",
+        "tomato-condiments|default|Sn"
+      ]
+    },
+    {
+      "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_sauce_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Sauce",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 16; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d832534397ce308f56bf2366491b6540d5ff304b9ff6c84abc05a87951c17c57",
+          "row_sha256": "d832534397ce308f56bf2366491b6540d5ff304b9ff6c84abc05a87951c17c57"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_pb_vinegar_500",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Vinegar",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table Pb row 41; source value 0.5 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f82c94979a986c08684e3514fe9e8b30131e5edcb181e4c2515aa1eaaef96671",
+          "row_sha256": "f82c94979a986c08684e3514fe9e8b30131e5edcb181e4c2515aa1eaaef96671"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_vinegar_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Vinegar",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 17; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1dc84b056faa2030a1cddc4d7d4b4d3d229c30239df13e028d3be657f691d48c",
+          "row_sha256": "1dc84b056faa2030a1cddc4d7d4b4d3d229c30239df13e028d3be657f691d48c"
+        }
+      ],
+      "cells": [
+        "mustard-mayo-dressings|default|tHg",
+        "mustard-mayo-dressings|default|MeHg",
+        "soy-sauce-fermented|default|tHg",
+        "soy-sauce-fermented|default|MeHg",
+        "tomato-condiments|default|tHg",
+        "tomato-condiments|default|MeHg",
+        "vinegar|default|Pb",
+        "vinegar|default|tHg",
+        "vinegar|default|MeHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_cereals_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "800",
+          "basis": "product as placed on market",
+          "product_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4",
+          "row_sha256": "2b06d16ff257c8b225d54bdb09d54c3469a9fd3015550bb5c12413a391bb21b4"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_soy_beans_15000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "15000",
+          "basis": "edible part",
+          "product_scope": "soy beans, oilseed row",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "129a76e4e5810e5da7f8ffdd782a4849bfe28aaf42bb621fbb78795e91286651",
+          "row_sha256": "129a76e4e5810e5da7f8ffdd782a4849bfe28aaf42bb621fbb78795e91286651"
+        },
+        {
+          "regulatory_limit_id": "eu2024_ni_fruiting_veg_400",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "400",
+          "basis": "wet weight",
+          "product_scope": "fruiting vegetables",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5",
+          "row_sha256": "31a54f74fbf16ca14b8bd71cba309392634770a254bb5e1e3cdf055d03952ba5"
+        }
+      ],
+      "cells": [
+        "mustard-mayo-dressings|default|Ni",
+        "soy-sauce-fermented|default|Ni",
+        "tomato-condiments|default|Ni"
+      ]
+    },
+    {
+      "regulation_page": "regulations/uruguay-rbn-5th-edition-heavy-metal-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/uruguay-rbn-5th-edition-heavy-metal-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "uy_rbn_general_tas_liquid_foods_0_1mgkg",
+          "jurisdiction": "UY",
+          "authority": "Uruguay Ministerio de Salud Publica",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "source unit mg/kg or ppm as noted; product/migration basis preserved in notes",
+          "product_scope": "liquid foods in general except categories with particular limits",
+          "regulation_page": "regulations/uruguay-rbn-5th-edition-heavy-metal-limits",
+          "url": "",
+          "notes": "Reglamento Bromatologico Nacional fifth edition: general inorganic contaminant limit arsenic in liquid foods 0.1 mg/kg; normalized to ug/kg where source basis is mg/kg or ppm.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "75b0db59c5f145f2cdf5ba98537a832424307ed440988eab4a1c9cac9d547065",
+          "row_sha256": "75b0db59c5f145f2cdf5ba98537a832424307ed440988eab4a1c9cac9d547065"
+        },
+        {
+          "regulatory_limit_id": "uy_rbn_general_cd_liquid_foods_0_1mgkg",
+          "jurisdiction": "UY",
+          "authority": "Uruguay Ministerio de Salud Publica",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "100",
+          "basis": "source unit mg/kg or ppm as noted; product/migration basis preserved in notes",
+          "product_scope": "liquid foods in general except categories with particular limits",
+          "regulation_page": "regulations/uruguay-rbn-5th-edition-heavy-metal-limits",
+          "url": "",
+          "notes": "Reglamento Bromatologico Nacional fifth edition: general inorganic contaminant limit cadmium in liquid foods 0.1 mg/kg; normalized to ug/kg where source basis is mg/kg or ppm.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3bdf9000181ea100982ddc44010cfd1d382bce5e7661450eaa7790179412641c",
+          "row_sha256": "3bdf9000181ea100982ddc44010cfd1d382bce5e7661450eaa7790179412641c"
+        }
+      ],
+      "cells": [
+        "soy-sauce-fermented|default|tAs",
+        "soy-sauce-fermented|default|iAs",
+        "vinegar|default|Cd",
+        "vinegar|default|tAs",
+        "vinegar|default|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_tomato_concentrates_pb_500",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "product as offered to consumer",
+          "product_scope": "tomato concentrates",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II lead table lead row; source value 0.5 mg/kg normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "32ba2e38a6d61117564ca524cda9120a5198bc22977684c5584756c3c8b93693",
+          "row_sha256": "32ba2e38a6d61117564ca524cda9120a5198bc22977684c5584756c3c8b93693"
+        },
+        {
+          "regulatory_limit_id": "mercosur_gmc12_2011_tomato_concentrates_tas_500",
+          "jurisdiction": "MERCOSUR",
+          "authority": "MERCOSUR Grupo Mercado Comun",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as offered to consumer",
+          "product_scope": "tomato concentrates",
+          "regulation_page": "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
+          "url": "",
+          "notes": "Resolution Annex Part II arsenic table total arsenic row; source value 0.5 mg/kg normalized to 500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e77938361c6c60e4c2ff1410ef762ec256513a8a00fdb9b4ff3dc0f9d3779a94",
+          "row_sha256": "e77938361c6c60e4c2ff1410ef762ec256513a8a00fdb9b4ff3dc0f9d3779a94"
+        }
+      ],
+      "cells": [
+        "tomato-condiments|default|Pb",
+        "tomato-condiments|default|tAs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "compiled_dir": "cat31-compiled",
+  "run_id": "run-202609061824",
+  "batches": [
+    {
+      "evidence_key": "865aa8f23f1575b6",
+      "analyte": "Al",
+      "basis_class": "product as placed on market; dry sample, calculated as Al",
+      "conversion": null,
+      "native_basis": "as sold",
+      "category": 31,
+      "compiled_dir": "cat31-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "honey|default|Al",
+          "slug": "honey",
+          "product": "Honey",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "refined-sugar|default|Al",
+          "slug": "refined-sugar",
+          "product": "Refined sugar (white, dextrose)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "rice-grain-syrup|default|Al",
+          "slug": "rice-grain-syrup",
+          "product": "Rice and grain syrup (brown rice syrup, glucose/malt syrup)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "syrups-maple-agave-molasses|default|Al",
+          "slug": "syrups-maple-agave-molasses",
+          "product": "Syrups (maple, agave, molasses)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat31-compiled-865aa8f23f1575b6-run-202609061824"
+    },
+    {
+      "evidence_key": "db639e84244d4674",
+      "analyte": "Al",
+      "basis_class": "product as placed on market; dry sample, calculated as Al",
+      "conversion": null,
+      "native_basis": "as sold",
+      "category": 31,
+      "compiled_dir": "cat31-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "honey|default|Al",
+          "slug": "honey",
+          "product": "Honey",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "default",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat31-compiled-db639e84244d4674-run-202609061824"
+    }
+  ]
+}

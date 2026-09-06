@@ -8,17 +8,21 @@ metal: [Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr]
 matrix: foodstuffs
 limit_value: multiple
 limit_unit: "mg/kg; food-specific maximum levels"
-status: active
+status: superseded
 effective_date: 2023-06-30
+effective_until: 2026-09-02
+superseded_by: china-gb-2762-2025
 source_url: "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
-updated: 2026-05-18
+updated: 2026-09-02
 ---
 
 # China GB 2762-2022 - Maximum levels of contaminants in food
 
 ## Overview
+
+GB 2762-2022 was replaced by [[regulations/china-gb-2762-2025-contaminants|GB 2762-2025]] with effect from 2 September 2026. The 2025 standard carries the heavy-metal maximum levels of this standard forward unchanged and removes dried meat products from the dehydration-ratio conversion rule; the current limit schedule is on the 2025 page, and this page is retained as the historical record for the period 30 June 2023 to 1 September 2026.
 
 GB 2762-2022 is China's active National Food Safety Standard for maximum levels of contaminants in foods as of 18 May 2026. The National Health Commission and State Administration for Market Regulation announced it in 2022 as part of Announcement No. 3 of 2022. USDA FAS reports that it entered into force on 30 June 2023 and updated GB 2762-2017.
 

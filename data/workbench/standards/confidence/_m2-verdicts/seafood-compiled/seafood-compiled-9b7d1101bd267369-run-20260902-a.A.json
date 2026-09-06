@@ -1,0 +1,38 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-9b7d1101bd267369-run-20260902-a",
+  "evidence_key": "9b7d1101bd267369",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Bounded cell: methylmercury cannot exceed total mercury, and the parent tHg cell rests on a firm sovereign number, EU 2023/915 Annex I 3.3.1.3 'cephalopods' 0.30 mg/kg wet weight, in force since 3 May 2022. No non-gated methylmercury row on a content basis is stricter than 300 for cephalopods (Thailand 'other marine animals or plants' 500, China GB 2762-2025 'aquatic animals and their products' 500, FDA CPG 540.600 action level 1000), so the 300 bound stands."
+    },
+    {
+      "key": "fish-freshwater|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "refuted",
+      "reason": "Bounded by the parent tHg cell, whose anchor is refuted for this product form: EU 3.3.1.3 covers carp, Salmo and Oncorhynchus trout and the Pangasius catfishes but places tilapia, Ictalurid channel catfish and brown trout under 3.3.1.1 at 0.50 mg/kg, so the parent is not a firm sovereign number for every species the cell names. The 300 bound remains protective and no methylmercury row is stricter (Philippines, Vietnam, Hong Kong and Trinidad non-predatory fish 500, China 500, FDA 1000), but the cell inherits the parent's species-split or precautionary-tag fix."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|MeHg",
+      "derived_value": 300,
+      "derived_anchor_id": "eu2023_hg_fish_low_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "Bounded cell: the parent tHg number is a firm sovereign value, EU 2023/915 Annex I 3.3.1.3 at 0.30 mg/kg wet weight for the named sardine, anchovy, salmon, Atlantic cod, Atlantic herring and Scomber mackerel muscle meat, in force. No non-gated methylmercury row is stricter than 300 for these species (Philippines 'fish' 500, Vietnam 'fish excluding carnivorous fish' 500, Hong Kong 'fish other than those specified' 500, Trinidad 'all fish except predatory fish' 500, Mexico 'other fishery products' 500, China 500, FDA 1000), so MeHg is bounded at 300 subject to the same 3.3.1.3 species-list reading as the parent."
+    }
+  ]
+}

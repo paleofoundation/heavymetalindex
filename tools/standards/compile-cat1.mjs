@@ -38,13 +38,14 @@ const DEFAULT_PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"] // Cat-
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio)
-const DRAFT = /draft|not for implementation|proposed/i
+import { stampProvenance } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
 // Quarantined rows: transcription/units artifacts confirmed against the source document and excluded
 // from strictest-selection (their data stays in the register for reconstructibility; status gates them
 // out). Set on the four Guyana Schedule-Four "ppb table" rows (fish Pb 25 / Cd 10 / tHg 200 / tAs 200),
 // a source-gazette typesetting error that contradicts the same instrument's own ppm table — see the
 // Cat-6 audit (wf_925293b1-55f). Would drive HMTc seafood below every enforced government limit on Earth.
-const QUARANTINE = /quarantin/i
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) carry "feed" in the basis column. They are
 // not food MLs; categorically exclude them from food strictest-selection. Load-bearing because four EU
 // feed mercury rows (100-200 ug/kg) are STRICTER than the strictest food-fish tHg (300) and would wrongly
@@ -234,7 +235,7 @@ function resolveCell(sub, analyte, variant) {
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
-    if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label }
+    if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label, species_direction: ra.species_direction || null }
   }
 
   // basis:"gov" override — the borrowed register row is a government maximum level that DIRECTLY
@@ -248,7 +249,10 @@ function resolveCell(sub, analyte, variant) {
     return { type: "gov", value: roundDisplay(direct.value), value_exact: direct.value, binding_jurisdiction: direct.jur, binding_id: direct.id, basis_note: direct.note, per_country: perCountry }
   }
   if (raResult) {
-    return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry }
+    // C6d: a SPECIES instrument may anchor a TOTAL cell only as a disclosed protective read-across
+    // (species ≤ total by identity, so holding the total at the species limit is at least as protective);
+    // the cell carries species_direction so the audit admits the cross-species anchor knowingly.
+    return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry, ...(raResult.species_direction ? { species_direction: raResult.species_direction, audit_exception: "C6d" } : {}) }
   }
   if (ra && ra.not_material) {
     return {
@@ -357,6 +361,7 @@ for (const slug of slugs) {
     reconcileSpecies(cells, "iAs", "tAs")
     reconcileSpecies(cells, "MeHg", "tHg")
     reconcileSpecies(cells, "Cr-VI", "Cr")
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))

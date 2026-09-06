@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-8285ce28112bec0e-run-20260902-a",
+  "evidence_key": "8285ce28112bec0e",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|Cd",
+      "derived_value": 1000,
+      "derived_anchor_id": "eu2023_cd_cephalopods_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "EU 2023/915 cadmium row 'cephalopods' (1.0 mg/kg wet weight, without viscera) covers the product on the cell's content basis and the instrument is in force. Register rows at 50 to 500 ug/kg are fish-muscle rows or residual rows displaced by a specific cephalopod or mollusc row in the same instrument (Vietnam 'aquatic products' 50 versus its 'cephalopod mollusks' 2000; Mexico 'other fishery products' 500 versus its 'molluscs' 2000; Singapore 'other food' 200 versus its 'molluscs or dried mushrooms' 1000; CR, PA, GY, Fiji, GSO, Morocco, Bosnia and China fish-muscle rows versus their own cephalopod rows), and Uruguay's residual 'solid foods in general except categories with particular limits' 200 yields to the MERCOSUR 12/11 cephalopod limit (2000) that applies in states-party territory. Costa Rica, Guyana, Fiji and Singapore cephalopod or mollusc rows equal 1000; none is stricter."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p2",
+  "batch_id": "seafood-compiled-6ef9f66b08852cbe-run-20260902-a",
+  "evidence_key": "6ef9f66b08852cbe",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "cephalopods|both|tAs",
+      "derived_value": 1000,
+      "derived_anchor_id": "py_decreto1335_2019_cephalopod_molluscs_tas_1000",
+      "same_basis_candidates": [],
+      "blind_value": 1000,
+      "applicability": "confirmed",
+      "reason": "Paraguay Decree 1335/2019 (active from 2019-02-20; incorporates MERCOSUR GMC Res. 12/11) Annex Part II total-arsenic row 'cephalopod molluscs' sets 1 mg/kg on the product as offered to the consumer, a content basis that coincides with as-consumed for uncanned raw cephalopods; the regulation page confirms arsenic is total arsenic and that limits apply to the edible portion. No non-gated content-basis tAs row scoped to cephalopods, molluscs or seafood is stricter: MERCOSUR cephalopod molluscs, AU-NZ molluscs, Singapore fish-crustaceans-molluscs, Uruguay solid foods in general and Trinidad foods-not-named all sit at 1000, Trinidad marine animal products at 5000, India molluscs at 86000, Thailand's arsenic residual at 2000, and the Guyana 200 ppb row is quarantined. Inorganic-arsenic rows (EU 2025/1891 cephalopods 50; HK and CN aquatic animals other than fish 500) are a different analyte and not tAs candidates; the species bound iAs 50 <= tAs 1000 is satisfied."
+    }
+  ]
+}

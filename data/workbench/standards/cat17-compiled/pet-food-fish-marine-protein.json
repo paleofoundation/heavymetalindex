@@ -70,11 +70,6 @@
             "converted": false,
             "id": "ph_pns194_2017_fish_pb_300"
           },
-          "IL": {
-            "value": 300,
-            "converted": false,
-            "id": "il_fcs2016_pb_10_fish_and_fish_products_300"
-          },
           "MERCOSUR": {
             "value": 300,
             "converted": false,
@@ -94,6 +89,11 @@
             "value": 500,
             "converted": false,
             "id": "aunz_sch19_pb_fish_500"
+          },
+          "CN": {
+            "value": 500,
+            "converted": false,
+            "id": "china_gb2762_2025_pb_fish_crustaceans_500"
           },
           "MX": {
             "value": 500,
@@ -122,16 +122,9 @@
             "scope": "complete feed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_pb_formula_5000",
-            "scope": "compound pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "Cd": {
         "type": "read_across",
@@ -170,11 +163,6 @@
             "converted": false,
             "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_other_cd_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_cd_9_fish_and_fish_products_except_listed_categories_50"
-          },
           "FJ": {
             "value": 50,
             "converted": false,
@@ -189,6 +177,11 @@
             "value": 50,
             "converted": false,
             "id": "vn_qcvn8_2_2011_cd_aquatic-products_50"
+          },
+          "CN": {
+            "value": 100,
+            "converted": false,
+            "id": "china_gb2762_2025_cd_fresh_frozen_fish_100"
           },
           "HK": {
             "value": 100,
@@ -227,38 +220,31 @@
             "scope": "complete feed for pet animals",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_cd_all_2000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "tAs": {
         "type": "read_across",
         "human_grade": true,
-        "value": 1000,
-        "value_exact": 1000,
-        "source_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
-        "source_jurisdiction": "PY",
+        "value": 500,
+        "value_exact": 500,
+        "source_id": "china_gb2762_2025_tas_condiments_500",
+        "source_jurisdiction": "CN",
         "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
-        "analog_scope": "raw, frozen, or refrigerated fish",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (PY, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 10000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "analog_scope": "Condiments, excluding aquatic condiments, compound condiments and spices (GB 2762-2025 Table 4, item 8.1); total arsenic",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (CN, 500 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 10000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
+          "CN": {
+            "value": 500,
+            "converted": false,
+            "id": "china_gb2762_2025_tas_condiments_500"
+          },
           "PY": {
             "value": 1000,
             "converted": false,
             "id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_9_fish_and_fish_products_1000"
           },
           "MERCOSUR": {
             "value": 1000,
@@ -284,16 +270,9 @@
             "scope": "complete feed for pet animals containing fish, other aquatic animals and products derived thereof and/or seaweed meal and feed materials derived from seaweed",
             "instrument": "feed maximum level",
             "status": "maximum level"
-          },
-          {
-            "jurisdiction": "CN",
-            "value": 10000,
-            "id": "cn_petfood_draft_tas_aquatic_algae_10000",
-            "scope": "pet feed containing aquatic animals/products or algae/products",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "iAs": {
         "type": "read_across",
@@ -304,7 +283,7 @@
         "source_jurisdiction": "EU",
         "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
         "analog_scope": "muscle meat of fish, species other than those listed under Annex I 3.4.5.2",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (EU, 100 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (EU, 100 µg/kg, as consumed basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
           "EU": {
@@ -312,22 +291,19 @@
             "converted": false,
             "id": "eu20251891_ias_fish_other_100"
           },
+          "CN": {
+            "value": 100,
+            "converted": false,
+            "id": "china_gb2762_2025_ias_fish_and_fish_products_100"
+          },
           "HK": {
             "value": 100,
             "converted": false,
             "id": "hk_cap132v_ias_fish_100"
           }
         },
-        "feed_floor": [
-          {
-            "jurisdiction": "CN",
-            "value": 2000,
-            "id": "cn_petfood_draft_ias_aquatic_algae_2000",
-            "scope": "pet feed containing aquatic animals/products or algae/products",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "tHg": {
         "type": "read_across",
@@ -376,11 +352,6 @@
             "converted": false,
             "id": "py_decreto1335_2019_fish_except_predators_thg_500"
           },
-          "IL": {
-            "value": 500,
-            "converted": false,
-            "id": "il_fcs2016_thg_9_fish_and_fish_products_except_listed_categories_500"
-          },
           "FJ": {
             "value": 500,
             "converted": false,
@@ -409,14 +380,6 @@
         },
         "feed_floor": [
           {
-            "jurisdiction": "CN",
-            "value": 300,
-            "id": "cn_petfood_draft_thg_all_300",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          },
-          {
             "jurisdiction": "EU",
             "value": 1000,
             "id": "eu2002_32_thg_fish_aquatic_pet_fur_compound_1000",
@@ -424,7 +387,8 @@
             "instrument": "feed maximum level",
             "status": "maximum level"
           }
-        ]
+        ],
+        "provenance": "read-across"
       },
       "MeHg": {
         "type": "subsumed",
@@ -439,31 +403,53 @@
           "source_jurisdiction": "MX",
           "source_id": "mx_nom242_mehg_other_500"
         },
-        "feed_floor": null
+        "feed_floor": null,
+        "provenance": "subsumed"
       },
       "Ni": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets a nickel maximum for finfish; total nickel is measured on every lot as a mandatory surveillance control.",
-        "reference_method": "Total Ni by ICP-MS.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 800,
+        "value_exact": 800,
+        "source_id": "eu2024_ni_cereals_800",
+        "source_jurisdiction": "EU",
+        "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
+        "analog_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+        "label": "Ni 800 ug/kg: disclosed read-across from EU eu2024_ni_cereals_800 (cereals except durum/rice/husked-rice/pseudocere). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Sn": {
-        "type": "not_material",
-        "value": null,
-        "control": "Tin is a can-migration analyte; fresh, frozen, or refrigerated fish-based pet food has no tin source. Canned fish-based products are certified under the canned-wet tin read-across.",
-        "reference_method": "Total Sn by ICP-MS; any quantifiable tin on a non-canned product triggers a packaging investigation.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 200000,
+        "value_exact": 200000,
+        "source_id": "eu2023_sn_canned_foods_200000",
+        "source_jurisdiction": "EU",
+        "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
+        "analog_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+        "label": "Sn 200000 ug/kg: disclosed read-across from EU eu2023_sn_canned_foods_200000 (canned foods other than canned beverages, except). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Al": {
-        "type": "control",
-        "value": null,
-        "control": "No government sets an aluminium contaminant maximum for finfish or general human foods; the only human-food aluminium numbers are permitted additive-residue limits, not contaminant maxima. Aluminium is measured on every lot as a mandatory surveillance control.",
-        "reference_method": "Total Al by ICP-MS after microwave acid digestion.",
-        "bounded_by": null,
-        "feed_floor": null
+        "type": "read_across",
+        "human_grade": true,
+        "value": 100000,
+        "value_exact": 100000,
+        "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+        "source_jurisdiction": "CN",
+        "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
+        "analog_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+        "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+        "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+        "per_country": {},
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr": {
         "type": "read_across",
@@ -474,7 +460,7 @@
         "source_jurisdiction": "HK",
         "analog_label": "seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed)",
         "analog_scope": "Fish",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (HK, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the seafood — marine non-predatory finfish and forage fish sold for human consumption (as consumed) (HK, 1000 µg/kg, as consumed basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
         "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
         "per_country": {
           "HK": {
@@ -488,24 +474,18 @@
             "id": "in_fssai2016_crtotal_001_all_fishery_products_12000"
           }
         },
-        "feed_floor": [
-          {
-            "jurisdiction": "CN",
-            "value": 5000,
-            "id": "cn_petfood_draft_crtotal_all_5000",
-            "scope": "compound pet feed; pet additive premix feed; other pet feed",
-            "instrument": "draft feed guidance",
-            "status": "draft guidance; not for implementation"
-          }
-        ]
+        "feed_floor": null,
+        "provenance": "read-across"
       },
       "Cr-VI": {
-        "type": "not_material",
+        "type": "subsumed",
+        "provenance": "subsumed",
         "value": null,
-        "control": "Hexavalent chromium reduces to Cr(III) in the fish matrix; bounded by total chromium, measured on every lot.",
-        "reference_method": "Total Cr by ICP-MS; Cr(VI) by EPA 3060A with IC-ICP-MS / EN 15192 on a total-Cr exceedance.",
+        "subsumed_by": "Cr",
         "bounded_by": "Cr",
-        "feed_floor": null
+        "binding_total": 1000,
+        "basis_class": "speciation-bounded",
+        "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (1000 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
       }
     }
   },

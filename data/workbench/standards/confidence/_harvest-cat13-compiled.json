@@ -1,0 +1,1061 @@
+{
+  "compiled_dir": "cat13-compiled",
+  "generated": "2026-09-02T10:34:15.031Z",
+  "targets": 109,
+  "applied": [
+    {
+      "slug": "antiperspirant",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "antiperspirant",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "tattoo-inks",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "tattoo-inks",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "iAs",
+      "from": "control",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tAs"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "MeHg",
+      "from": "not_material",
+      "to": "subsumed",
+      "value": null,
+      "anchor": "≤ tHg"
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "antiperspirant",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "antiperspirant",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "antiperspirant",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "body-hand-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "deodorants",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-powder-cornstarch-adult",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "dusting-talc-powders-adult",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "eye-makeup",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "face-neck-leave-on-skin-care",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "fragrance-preparations",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-hair-preparations",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "leave-on-preparations-other",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "lipstick",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-body-paints-bases-fixatives",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "makeup-foundation-powders-blush",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "manicuring-preparations-leave-on",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "permanent-hair-dyes-tints",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-mineral",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "sun-suntan-products",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "Sn",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 3750000,
+      "anchor": "eu_2009_48_cat2_sn_toy_migration",
+      "why": "eu_2009_48_cat2_sn_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "Al",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 560000,
+      "anchor": "eu_2009_48_cat2_al_toy_migration",
+      "why": "eu_2009_48_cat2_al_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "Cr",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 50,
+      "anchor": "nhmrc2025_crvi_drinking_water_50",
+      "why": "nhmrc2025_crvi_drinking_water_50 basis \"drinking water\" fails basis_guard"
+    },
+    {
+      "slug": "traditional-eye-cosmetics",
+      "variant": "_",
+      "analyte": "Cr-VI",
+      "from": "control",
+      "cert_kind": "read_across",
+      "value": 5,
+      "anchor": "eu_2009_48_cat2_crvi_toy_migration",
+      "why": "eu_2009_48_cat2_crvi_toy_migration basis \"element migration from liquid or sticky toy material (Category II); source unit mg/kg\" fails basis_guard"
+    }
+  ]
+}

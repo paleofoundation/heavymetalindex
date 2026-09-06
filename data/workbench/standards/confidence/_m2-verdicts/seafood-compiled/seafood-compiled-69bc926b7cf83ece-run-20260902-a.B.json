@@ -1,0 +1,20 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "batch_id": "seafood-compiled-69bc926b7cf83ece-run-20260902-a",
+  "evidence_key": "69bc926b7cf83ece",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "B",
+  "cells": [
+    {
+      "key": "seaweed-kelp-foods|both|Cr-VI",
+      "derived_value": 10,
+      "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+      "same_basis_candidates": [],
+      "blind_value": 10,
+      "applicability": "refuted",
+      "reason": "The anchor is the California drinking-water MCL for hexavalent chromium, 0.010 mg/L for community and nontransient-noncommunity public water systems (scope 'drinking water'; regulation page: 'This is a drinking-water standard, not a food limit' and 'should not be compared directly to a food-occurrence concentration'), while the cell is an as-sold dried-food content cell, so criterion (b) fails: a water row is not a food-content row and the face-value transfer of 10 ug/L to 10 ug/kg of dried seaweed is supported by no instrument. The register holds no food-content Cr-VI sovereign row anywhere (the remaining Cr-VI rows are AU/CA water, EU toy migration, REACH textiles and leather, RoHS, tattoo ink and fertiliser), so no same-basis read-across exists; the defensible treatment is a subsumed cell bounded by the parent total-chromium cell (Cr-VI <= Cr-total 2000 as sold) or a disclosed baseline screen, not a firm 10 ug/kg."
+    }
+  ]
+}

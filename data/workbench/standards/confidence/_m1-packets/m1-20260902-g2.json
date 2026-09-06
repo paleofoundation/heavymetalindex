@@ -1,0 +1,177 @@
+{
+  "packet_id": "m1-20260902-g2",
+  "run_id": "run-20260902-a",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_cephalopods_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "cephalopods",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.1.15.2; the maximum level applies to the animal without viscera; wet-weight value 0.30 mg/kg normalized to 300 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "a4e345d31dc112e41c25c09d469c54854648f11ccffb8d8187d36f3dc2c443a5",
+          "row_sha256": "a4e345d31dc112e41c25c09d469c54854648f11ccffb8d8187d36f3dc2c443a5"
+        },
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_low_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.3.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
+          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
+        },
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_high_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "1000",
+          "basis": "wet weight",
+          "product_scope": "listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, sturgeon, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.2.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d",
+          "row_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d"
+        },
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_general_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.1.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369",
+          "row_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_cephalopod_molluscs_tas_1000",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as offered to consumer",
+          "product_scope": "cephalopod molluscs",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 1 mg/kg normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d725972ba6aa67f608bdf51aaf2f0a886d2b825f7a117a21edeab9bb370ffe5e",
+          "row_sha256": "d725972ba6aa67f608bdf51aaf2f0a886d2b825f7a117a21edeab9bb370ffe5e"
+        },
+        {
+          "regulatory_limit_id": "py_decreto1335_2019_fish_raw_frozen_refrigerated_tas_1000",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as offered to consumer",
+          "product_scope": "raw, frozen, or refrigerated fish",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 1 mg/kg normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075",
+          "row_sha256": "9e10a108fa956e0cdede957bad049ee458a808087bb16cfe3e702c5261179075"
+        }
+      ]
+    },
+    {
+      "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "primary_text": {
+        "register_urls": [
+          "https://www.legislation.gov.au/F2015L00454/latest"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "1000",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "seaweed",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Inorganic arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
+          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
+        }
+      ]
+    }
+  ],
+  "row_count": 8
+}

@@ -1,0 +1,587 @@
+{
+  "compiled_dir": "cat17-compiled",
+  "run_id": "run-202609061824",
+  "batches": [
+    {
+      "evidence_key": "2d20593ce4a0fc94",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-chews-dental|both|Al",
+          "slug": "pet-chews-dental",
+          "product": "Pet chews (including dental chews)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-dry-kibble|both|Al",
+          "slug": "pet-food-dry-kibble",
+          "product": "Complete & balanced dry (kibble)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-fermentation-derived-protein|both|Al",
+          "slug": "pet-food-fermentation-derived-protein",
+          "product": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-freeze-dried|both|Al",
+          "slug": "pet-food-freeze-dried",
+          "product": "Freeze-dried / dehydrated pet foods (including freeze-dried raw)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-semi-moist|both|Al",
+          "slug": "pet-food-semi-moist",
+          "product": "Semi-moist pet foods",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-treats-snacks|both|Al",
+          "slug": "pet-treats-snacks",
+          "product": "Pet treats / snacks",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-2d20593ce4a0fc94-run-202609061824"
+    },
+    {
+      "evidence_key": "f64b03df7a13b209",
+      "analyte": "Al",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-chews-dental|both|Al",
+          "slug": "pet-chews-dental",
+          "product": "Pet chews (including dental chews)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-f64b03df7a13b209-run-202609061824"
+    },
+    {
+      "evidence_key": "87c5769139e19ee8",
+      "analyte": "Sn",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-canned-wet|both|Sn",
+          "slug": "pet-food-canned-wet",
+          "product": "Complete & balanced canned/wet",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-fish-marine-protein|both|Sn",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-87c5769139e19ee8-run-202609061824"
+    },
+    {
+      "evidence_key": "1fcffde23c86c892",
+      "analyte": "Al",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-canned-wet|both|Al",
+          "slug": "pet-food-canned-wet",
+          "product": "Complete & balanced canned/wet",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-fish-marine-protein|both|Al",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-raw|both|Al",
+          "slug": "pet-food-raw",
+          "product": "Raw pet foods (frozen/chilled raw diets)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-toppers-mixers-broths|both|Al",
+          "slug": "pet-toppers-mixers-broths",
+          "product": "Toppers / mixers / broths",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-1fcffde23c86c892-run-202609061824"
+    },
+    {
+      "evidence_key": "2559d6c78b422192",
+      "analyte": "Pb",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "fj_fsr2009_pb_007_muscle_meat_of_fish_excluding_those_listed_below_200",
+          "jurisdiction": "FJ",
+          "authority": "Fiji Food Safety Board",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "mg/Kg",
+          "product_scope": "Muscle meat of fish, excluding those listed below",
+          "regulation_page": "regulations/fiji-food-safety-regulations-2009-chemical-contaminants",
+          "url": "https://biotech.law.lsu.edu/obesity/who/report_food_safety_consultation.pdf",
+          "notes": "Food Safety Regulations 2009; Eleventh Schedule paragraph (15), fish and fisheries products table. Source value 0.2 mg/Kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f7c411adfc1263c022a86cd4fb5382ba1a61dcfe8a10c212c9794397d556d33d",
+          "row_sha256": "f7c411adfc1263c022a86cd4fb5382ba1a61dcfe8a10c212c9794397d556d33d"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-fish-marine-protein|both|Pb",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-2559d6c78b422192-run-202609061824"
+    },
+    {
+      "evidence_key": "e8b5dd23b9f12a25",
+      "analyte": "Cd",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
+          "jurisdiction": "GSO",
+          "authority": "GCC Standardization Organization",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "50",
+          "basis": "muscle meat",
+          "product_scope": "Muscle meat of fish with exception mentioned",
+          "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a",
+          "row_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-fish-marine-protein|both|Cd",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-e8b5dd23b9f12a25-run-202609061824"
+    },
+    {
+      "evidence_key": "e2000dc0445e47fb",
+      "analyte": "tHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_low_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.3.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
+          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-fish-marine-protein|both|tHg",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-e2000dc0445e47fb-run-202609061824"
+    },
+    {
+      "evidence_key": "9b7d1101bd267369",
+      "analyte": "MeHg",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_hg_fish_low_300",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "wet weight",
+          "product_scope": "listed lower-mercury fish and cephalopods/marine gastropods, including cod, herring, mackerel, salmon/trout species listed, sardine/pilchard, sole, whiting, and others",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.3.1.3.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7",
+          "row_sha256": "20a62f600d2fdfb34d1d14e0c422b3edd3d8d58e03c4aaffcd68ed02a293c2f7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-fish-marine-protein|both|MeHg",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "tHg"
+        }
+      ],
+      "batch_id": "cat17-compiled-9b7d1101bd267369-run-202609061824"
+    },
+    {
+      "evidence_key": "733a7533cdf79609",
+      "analyte": "Ni",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-milk-replacers-specialty-liquids|both|Ni",
+          "slug": "pet-milk-replacers-specialty-liquids",
+          "product": "Milk replacers and specialty pet liquids",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-733a7533cdf79609-run-202609061824"
+    },
+    {
+      "evidence_key": "05375f0142564509",
+      "analyte": "Cr",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-milk-replacers-specialty-liquids|both|Cr",
+          "slug": "pet-milk-replacers-specialty-liquids",
+          "product": "Milk replacers and specialty pet liquids",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-05375f0142564509-run-202609061824"
+    },
+    {
+      "evidence_key": "0ca76d45e8affd2c",
+      "analyte": "Cr-VI",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "300",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 0.3 mg/kg; supersedes china_gb2762_cr_liquid_milk_300; old row used metal_species Cr; successor uses the register-dominant token Cr-total for the same total-chromium limit; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a",
+          "row_sha256": "d37f7ff858a8058b8c33a5534e79eb4bc57923da64a17cfda4c8cdc674bf6d6a"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-milk-replacers-specialty-liquids|both|Cr-VI",
+          "slug": "pet-milk-replacers-specialty-liquids",
+          "product": "Milk replacers and specialty pet liquids",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat17-compiled-0ca76d45e8affd2c-run-202609061824"
+    }
+  ]
+}

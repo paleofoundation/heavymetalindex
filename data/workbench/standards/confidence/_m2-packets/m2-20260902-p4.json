@@ -1,0 +1,265 @@
+{
+  "packet_id": "m2-20260902-p4",
+  "run_id": "run-20260902-a",
+  "compiled_dir": "seafood-compiled",
+  "batches": [
+    {
+      "evidence_key": "7081da69b07981c9",
+      "analyte": "iAs",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "aunz_sch19_ias_seaweed_1000",
+          "jurisdiction": "AU-NZ",
+          "authority": "FSANZ",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "1000",
+          "basis": "portion ordinarily consumed",
+          "product_scope": "seaweed",
+          "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+          "url": "https://www.legislation.gov.au/F2015L00454/latest",
+          "notes": "Inorganic arsenic.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c",
+          "row_sha256": "368397277d9f85ba52f631bf1d59185ee05d0b7b4e4a0189b92f13f00c1a074c"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|iAs",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-7081da69b07981c9-run-20260902-a"
+    },
+    {
+      "evidence_key": "c8accec5d287b266",
+      "analyte": "Ni",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_seaweed_30000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "30000",
+          "basis": "product as placed on market",
+          "product_scope": "seaweed except wakame",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "fbd84c906319e684ddd3b83d16614300c262080d255d0fdf28640107db58a855",
+          "row_sha256": "fbd84c906319e684ddd3b83d16614300c262080d255d0fdf28640107db58a855"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|Ni",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-c8accec5d287b266-run-20260902-a"
+    },
+    {
+      "evidence_key": "f0284afb2a54974f",
+      "analyte": "Sn",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|Sn",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-f0284afb2a54974f-run-20260902-a"
+    },
+    {
+      "evidence_key": "e253d63c28db7e96",
+      "analyte": "Cr",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|Cr",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-e253d63c28db7e96-run-20260902-a"
+    },
+    {
+      "evidence_key": "69bc926b7cf83ece",
+      "analyte": "Cr-VI",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
+          "jurisdiction": "US-CA",
+          "authority": "CA SWRCB",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+          "url": "",
+          "notes": "Hexavalent chromium MCL.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585",
+          "row_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585"
+        }
+      ],
+      "cells": [
+        {
+          "key": "seaweed-kelp-foods|both|Cr-VI",
+          "slug": "seaweed-kelp-foods",
+          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-69bc926b7cf83ece-run-20260902-a"
+    },
+    {
+      "evidence_key": "7b5e59f213e493bf",
+      "analyte": "Pb",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 6,
+      "compiled_dir": "seafood-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_fish_crustaceans_500",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "Fish and crustaceans (fresh and frozen) (GB 2762-2025 Table 1, item 9.2)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 9.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.5 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3bde615b847df4c8434b93f281746396c26a1c3de8e43a9aee011092d747c724",
+          "row_sha256": "3bde615b847df4c8434b93f281746396c26a1c3de8e43a9aee011092d747c724"
+        }
+      ],
+      "cells": [
+        {
+          "key": "shellfish|both|Pb",
+          "slug": "shellfish",
+          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "seafood-compiled-7b5e59f213e493bf-run-20260902-a"
+    }
+  ]
+}

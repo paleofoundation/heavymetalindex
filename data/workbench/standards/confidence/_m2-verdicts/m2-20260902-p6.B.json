@@ -1,0 +1,144 @@
+{
+ "packet_id": "m2-20260902-p6",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-a",
+ "agent": "B",
+ "batches": [
+  {
+   "batch_id": "cat30-compiled-734d41bd319590ff-run-20260902-a",
+   "evidence_key": "734d41bd319590ff",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Pb",
+     "derived_value": 80,
+     "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+     "same_basis_candidates": [],
+     "blind_value": 80,
+     "applicability": "confirmed",
+     "reason": "GB 2762-2025 Table 1 item 12.1 'Fats, oils and their products' (油脂及其制品) covers canola, sunflower, coconut, avocado and sesame cooking oils on a product-as-placed-on-market content basis, and the standard entered into force today, 2026-09-02, carrying the line unchanged from GB 2762-2022. No non-gated food-content Pb row covering edible oils is stricter than 80 µg/kg: Thailand MoPH 414/2020, GSO 193:2021 and Hong Kong Cap 132V all set 'edible fats and oils' at 80, while EU 2023/915 'fats and oils, including milk fat', Codex, India FSSAI, Singapore, MERCOSUR, Paraguay, Panama and Vietnam sit at 100. The 40 µg/kg rows (TH, SG, GSO) are scoped to 'fat spreads and blended spreads', an emulsified product form that does not cover cooking oils, and the 20 µg/kg Vietnam row is 'dairy fat products'."
+    },
+    {
+     "key": "olive-oil|default|Pb",
+     "derived_value": 80,
+     "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+     "same_basis_candidates": [],
+     "blind_value": 80,
+     "applicability": "confirmed",
+     "reason": "Virgin, refined and pomace olive oil are all fats and oils within GB 2762-2025 Table 1 item 12.1 'Fats, oils and their products', a product-as-placed-on-market content ML in force from today, 2026-09-02, and clause 3.3 applies the category limit to every food in the category absent a more specific line. No non-gated same-basis Pb row covering olive oil is stricter than 80 µg/kg: India FSSAI lists 'Olive oil, virgin', 'Olive oil, refined' and 'Olive, residue oil (olive pomace oil)' at 100, Fiji 'olive oils and olive pumice oils' at 100, EU 2023/915 fats and oils at 100, and the Thailand, GSO and Hong Kong 'edible fats and oils' rows are equal at 80. The stricter 'fat spreads and blended spreads' rows are a different product form."
+    }
+   ]
+  },
+  {
+   "batch_id": "cat30-compiled-55a07a92093f5887-run-20260902-a",
+   "evidence_key": "55a07a92093f5887",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Pb",
+     "derived_value": 80,
+     "derived_anchor_id": "china_gb2762_2025_pb_fats_and_oils_80",
+     "same_basis_candidates": [],
+     "blind_value": 80,
+     "applicability": "refuted",
+     "reason": "As cited, this anchor is internally inconsistent: its regulatory_limit_id, value (80), notes (GB 2762-2025 Table 1 item 12.1) and row hash are the China fats-and-oils row, but its jurisdiction (EU), authority (Directive 2009/48/EC), basis ('soluble element migration from toy material (EN 71-3 category III), mg/kg of material'), product_scope ('toys and toy components (soluble element migration)') and regulation page are those of the EU Toy Safety Directive, whose Category III lead migration limit is 23 mg/kg, not 80 µg/kg. Taken at face value the cited scope does not cover cooking oils and the basis is migration rather than food content, so conditions (a) and (b) both fail. The register row for this id is a valid content anchor at 80 µg/kg and already supports this cell through evidence 734d41bd319590ff; this duplicate record should be dropped or re-pointed, and the derived value above comes from the register row, not from the anchor as presented."
+    }
+   ]
+  },
+  {
+   "batch_id": "cat30-compiled-a4d008e7f1ea835d-run-20260902-a",
+   "evidence_key": "a4d008e7f1ea835d",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Ni",
+     "derived_value": 100,
+     "derived_anchor_id": "eu2024_ni_formula_liquid_100",
+     "same_basis_candidates": [],
+     "blind_value": 100,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2024/1987 point 3.6.13.3 'infant/young-child formula, liquid' is a content ML in force since 2025-07-01, but it is not the nearest same-basis sovereign instrument for canola, sunflower, coconut, avocado or sesame oil: GB 2762-2025 Table 6 item 1.1 sets nickel at 1.0 mg/kg (1000 µg/kg) for 'hydrogenated vegetable oils and fat and oil products containing hydrogenated or partially hydrogenated fats and oils' (氢化植物油、含氢化和(或)部分氢化油脂的油脂制品) on the same product-as-placed-on-market basis, in force 2026-09-02, and is the only sovereign nickel limit in the fats-and-oils food group (register id china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000). The EU instrument sets no fats-and-oils row and its oilseed rows (sunflower seed 8000, soy beans 15000, peanuts 12000) are edible-part limits that exempt crushing stock, so the EU deliberately leaves oils unregulated for nickel. The 100 µg/kg figure is tighter than the nearer instrument and can stand only as a labelled precautionary value with its own rationale, not as a read-across; no same-basis row stricter than 100 covers oils."
+    },
+    {
+     "key": "olive-oil|default|Ni",
+     "derived_value": 100,
+     "derived_anchor_id": "eu2024_ni_formula_liquid_100",
+     "same_basis_candidates": [],
+     "blind_value": 100,
+     "applicability": "refuted",
+     "reason": "The cited 'infant/young-child formula, liquid' nickel ML (Reg (EU) 2024/1987 point 3.6.13.3, in force 2025-07-01) is a content limit, but the nearer same-basis sovereign instrument for olive oil is GB 2762-2025 Table 6 item 1.1, nickel 1.0 mg/kg (1000 µg/kg) for 'hydrogenated vegetable oils and fat and oil products containing hydrogenated or partially hydrogenated fats and oils', the only nickel ML in the fats-and-oils group, on the same product-as-placed-on-market basis and in force 2026-09-02 (china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000). Virgin, refined and pomace olive oil are not hydrogenated, so neither instrument covers them directly, but the fats-and-oils-group row is the analog by food group and process, whereas liquid infant formula shares neither. Publishing 100 is a precautionary choice that must be labelled as such; it is not the nearest read-across, and no same-basis row stricter than 100 covers olive oil."
+    }
+   ]
+  },
+  {
+   "batch_id": "cat30-compiled-a747c40f4ce5676b-run-20260902-a",
+   "evidence_key": "a747c40f4ce5676b",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "confirmed",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 'canned foods other than canned beverages, except canned dried and canned powdered products' applies to cooking oil sold in tinplate cans, the only route by which inorganic tin reaches an oil, on a product-as-placed-on-market content basis, and the row is in force (carried unchanged from Reg (EC) 1881/2006 section 3.4). No jurisdiction in the register sets an oil-specific tin ML, and every other general canned-food ceiling is equal (Colombia, Bosnia, Morocco, Switzerland at 200 mg/kg) or looser (Codex CXS 193, AU-NZ, Thailand, GSO, India, Hong Kong, China GB 2762-2025 Table 5, Singapore, Paraguay, MERCOSUR, Uruguay, Vietnam at 250 mg/kg); the stricter tin rows (canned infant foods 50 mg/kg, canned beverages 100 to 150 mg/kg) are scoped to other products. The read-across is correctly disclosed: for oil not packed in tinplate the cell is a screen, and testing total tin against an inorganic-tin ceiling is conservative."
+    },
+    {
+     "key": "olive-oil|default|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "confirmed",
+     "reason": "Olive oil (virgin, refined, pomace) is widely retailed in tinplate cans, and Regulation (EU) 2023/915 Annex I point 3.5.1 'canned foods other than canned beverages, except canned dried and canned powdered products' covers it in that form on a product-as-placed-on-market content basis; the row is in force, carried unchanged from Reg (EC) 1881/2006. No jurisdiction in the register sets an olive-oil or fats-and-oils tin ML, so the general canned-food ceiling is the nearest same-basis instrument, and EU 200 mg/kg is strictest-equal (Colombia, Bosnia, Morocco, Switzerland 200; Codex, AU-NZ, Thailand, GSO, India, Hong Kong, China, Singapore, Paraguay, MERCOSUR, Uruguay, Vietnam 250); the stricter canned-infant-food and canned-beverage rows do not cover oil. For glass or PET-packed olive oil the cell is a screen, and measuring total tin against an inorganic-tin ceiling is conservative."
+    }
+   ]
+  },
+  {
+   "batch_id": "cat30-compiled-945322db88c74903-run-20260902-a",
+   "evidence_key": "945322db88c74903",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Cr",
+     "derived_value": 300,
+     "derived_anchor_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+     "same_basis_candidates": [],
+     "blind_value": 300,
+     "applicability": "confirmed",
+     "reason": "GB 2762-2025 Table 7 item 6.1 'raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk' is a total-chromium content ML (0.3 mg/kg) on a product-as-placed-on-market basis, in force from today, 2026-09-02, and the cell analyte is total Cr, matching the species. No jurisdiction in the register sets a total-Cr ML for fats and oils (GB 2762-2025 Table 7 has no fats-and-oils line and Hong Kong Cap 132V, India FSSAI and the Swiss VHK annex have none), so there is no nearer same-basis sovereign instrument to name for cooking oil, and among all food-content total-Cr rows this is the strictest (vegetables 500, cereals, beans and meat 1000, aquatic products and milk powder 2000, gelatin 10000). The read-across is therefore the closest available liquid-food content instrument and the most protective one; no same-basis row stricter than 300 covers oils."
+    },
+    {
+     "key": "olive-oil|default|Cr",
+     "derived_value": 300,
+     "derived_anchor_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+     "same_basis_candidates": [],
+     "blind_value": 300,
+     "applicability": "confirmed",
+     "reason": "The cited GB 2762-2025 Table 7 item 6.1 liquid-milk total-chromium ML (0.3 mg/kg, 'raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk') is a product-as-placed-on-market content limit in force from 2026-09-02, and the species (total Cr, not Cr-VI) matches the cell. No jurisdiction in the register regulates total chromium in olive oil or any fat or oil, so no nearer same-basis sovereign instrument exists; the liquid-milk line is the strictest food-content total-Cr ML in the register (the next are fresh vegetables at 500 in China and Hong Kong), so the read-across is both the closest available liquid-food content analog and the most protective. Nothing same-basis and stricter than 300 covers olive oil."
+    }
+   ]
+  },
+  {
+   "batch_id": "cat30-compiled-ac5fd7f234f35533-run-20260902-a",
+   "evidence_key": "ac5fd7f234f35533",
+   "cells": [
+    {
+     "key": "cooking-oils-other|default|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The California SWRCB hexavalent-chromium MCL of 10 µg/L applies to 'drinking water' delivered by public water systems, in force since 2024-10-01, and its own regulation page states it 'is a drinking-water standard, not a food limit' that 'should not be compared directly to a food-occurrence concentration'; a drinking-water row is not a food-content row, so condition (b) fails for a cell whose native basis is cooking oil as placed on the market. No jurisdiction in the register sets a food-content Cr-VI ML (all 19 Cr-VI rows are drinking-water, toy-migration, textile, leather, RoHS, tattoo-ink or fertiliser limits), so there is no same-basis sovereign instrument to read across from. The same-basis route for this cell is species-bounded-by-parent, i.e. subsumption under the total-Cr cell (300 µg/kg via the GB 2762-2025 liquid-milk read-across) or a disclosed baseline-screen, not a cross-basis water MCL."
+    },
+    {
+     "key": "olive-oil|default|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The cited anchor is California's drinking-water MCL for hexavalent chromium (10 µg/L, 'drinking water', public water systems, in force 2024-10-01), which the regulation page itself says 'is a drinking-water standard, not a food limit'; applied to olive oil as placed on the market it crosses basis families, so condition (b) fails. The register holds no food-content Cr-VI maximum level in any jurisdiction (its Cr-VI rows are water, toy-migration, textile, leather, RoHS, tattoo-ink and fertiliser limits), so no same-basis sovereign read-across exists for olive oil. The defensible same-basis handling is subsumption under the total-Cr cell (Cr-VI ≤ total Cr, 300 µg/kg) or a disclosed baseline-screen, with the cell relabelled accordingly."
+    }
+   ]
+  }
+ ]
+}

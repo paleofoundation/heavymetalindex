@@ -1,0 +1,225 @@
+{
+ "packet_id": "m2-20260902b-p2",
+ "model": "claude-fable-5-1",
+ "effort": "high",
+ "run_id": "run-20260902-b",
+ "agent": "B",
+ "batches": [
+  {
+   "batch_id": "seafood-compiled-96d83a643fe19d59-run-202609021123",
+   "evidence_key": "96d83a643fe19d59",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Sn",
+     "derived_value": 100000,
+     "derived_anchor_id": "mx_nom242_sn_canned_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "NOM-242-SSA1-2009 section 7.1.8 sets tin at 100 mg/kg for processed fishery products 'canned products only' (register scope 'canned fishery products only'), which covers canned tuna and canned fish; it is a wet-weight content ML on an as-consumed content cell, in force since 2011-05-10 (the 2012 modification did not touch 7.1.8). Every other non-gated food-content tin row that reaches canned fish is looser: CR RTCR 409 canned fishery products 200000, IN FSSAI canned fish products 200000, EU 2023/915 canned foods 200000, CL Decreto 977 canned fish/shellfish 250000, Codex CXS 193 / AU-NZ Sch 19 / HK Cap 132V / CN GB 2762-2025 / TH / SG / UY 250000; the 50000 rows are infant-food or non-tinplate cured-meat scopes, not this product."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-1fcffde23c86c892-run-202609021123",
+   "evidence_key": "1fcffde23c86c892",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name canned seafood (canned tuna, canned fish), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+     "key": "cephalopods|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name cephalopods (octopus, squid, cuttlefish; not canned), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+     "key": "fish-freshwater|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name freshwater finfish (tilapia, catfish, trout, carp), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+     "key": "fish-marine-predatory|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    },
+    {
+     "key": "shellfish|both|Al",
+     "derived_value": 100000,
+     "derived_anchor_id": "cn_gb2760_2024_al_baked_foods_100000",
+     "same_basis_candidates": [],
+     "blind_value": 100000,
+     "applicability": "confirmed",
+     "reason": "GB 2760-2024 finished-product aluminium residue cap of 100 mg/kg (dry sample, as Al) is scoped to 'baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder', in force since 2025-02-08; it does not name shellfish (crustaceans and bivalve molluscs, not canned), so the cell is a read-across, and the register holds no sovereign food-content Al ML nearer to this product (the only other food-content Al rows are the GB 2760 starch-noodle row at 200000, looser, and the AU-NZ Schedule 19 infant-formula rows at 500/1000, scoped to formula and not a required child analog for a category-6 row), so no nearer instrument can be named and no stricter same-basis candidate covers this product. Caveats carried with this confirmation: the anchor is stated on a dry-sample basis and is applied at face value to a wet-weight as-consumed cell with no conversion disclosed (lenient direction; 100 mg/kg dry corresponds to roughly 20 to 25 mg/kg wet at typical seafood moisture), it is an additive-residue ceiling for permitted aluminium leavening agents rather than a contaminant ML, and the cited page regulations/china-gb-2760-2024-food-additives does not exist under wiki/regulations/, so verification rests on the register row's primary-verified notes alone."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-82a34805c720f325-run-202609021123",
+   "evidence_key": "82a34805c720f325",
+   "cells": [
+    {
+     "key": "canned-seafood|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for canned seafood (canned tuna, canned fish). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total Cr 2000 ug/kg (effective 2026-09-02; explicitly reaches processed/canned fish products) and HK Cap 132V 'Fish' total Cr 1000 ug/kg where the Schedule's fish entry is read to reach canned fish in the edible portion. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+     "key": "cephalopods|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for cephalopods (octopus, squid, cuttlefish; not canned). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' total Cr 2000 ug/kg (effective 2026-09-02); HK Cap 132V carries no cephalopod chromium row and IN FSSAI 'all fishery products' 12000 is looser. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+     "key": "fish-freshwater|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for freshwater finfish (tilapia, catfish, trout, carp). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+     "key": "fish-marine-predatory|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Fish' total Cr 1000 ug/kg (as-sold edible portion, in force) and GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg (effective 2026-09-02). Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    },
+    {
+     "key": "shellfish|both|Cr-VI",
+     "derived_value": 10,
+     "derived_anchor_id": "ca_swrcb_crvi_drinking_water_10",
+     "same_basis_candidates": [],
+     "blind_value": 10,
+     "applicability": "refuted",
+     "reason": "The anchor ca_swrcb_crvi_drinking_water_10 is the California SWRCB drinking-water MCL (0.010 mg/L, Title 22 s.64431, effective 2024-10-01) scoped to 'drinking water' delivered by community and nontransient-noncommunity public water systems; the regulation page itself states it 'does not set ... a food contaminant level' and 'should not be compared directly to a food-occurrence concentration', and the protocol places drinking-water rows outside the food-content basis family, so tests (a) and (b) both fail for shellfish (crustaceans and bivalve molluscs, not canned). The register contains no sovereign Cr-VI food-content ML for any food, so the nearer same-basis instrument for this cell is the species-bounded-by-parent-total form (Cr-VI at or below total Cr) using the in-force total-chromium rows: HK Cap 132V Part 2 Schedule 'Crabs, prawns and shrimps' 1000 ug/kg and 'Oysters' 1000 ug/kg total Cr (in force), with GB 2762-2025 Table 7 item 5.1 'Aquatic animals and their products' 2000 ug/kg covering the remaining bivalves. Derived and blind values are the anchor's face value of 10 ug/kg because no stricter same-basis Cr-VI candidate exists; the number this adjudicator would actually publish on this basis is the total-Cr bound named above, disclosed as bounded rather than as a water-MCL read-across."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021123",
+   "evidence_key": "87c5769139e19ee8",
+   "cells": [
+    {
+     "key": "cephalopods|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach cephalopods (octopus, squid, cuttlefish; not canned), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+     "key": "fish-freshwater|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach freshwater finfish (tilapia, catfish, trout, carp), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+     "key": "fish-marine-non-predatory|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach marine non-predatory fish fillet/muscle (sardine, anchovy, salmon, cod, herring, mackerel; fresh or frozen), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+     "key": "fish-marine-predatory|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    },
+    {
+     "key": "shellfish|both|Sn",
+     "derived_value": 200000,
+     "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+     "same_basis_candidates": [],
+     "blind_value": 200000,
+     "applicability": "refuted",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.5.1 sets inorganic tin at 200 mg/kg for 'canned foods other than canned beverages, except canned dried and canned powdered products', a tinplate-can ceiling whose scope does not reach shellfish (crustaceans and bivalve molluscs, not canned), which is expressly not canned, so the cell is a read-across; a read-across is admissible only when no nearer same-basis sovereign instrument exists, and three in-force general-food tin MLs directly cover non-canned fish and seafood on the content basis: Singapore Food Regulations reg. 31 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, in force from 2026-01-30), Thailand MOPH Notification No. 414 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000, in force 2020-11-16) and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg). Those direct instruments are nearer than an EU canned-food row, so the read-across is refuted on provenance; none of them is stricter than 200000, so the published number is protective and the correction is to carry the cell as regulatory-alignment at 250000 to the direct instruments or to keep 200000 as a disclosed precautionary/packaging-screen choice, not as an EU read-across. Derived and blind values are 200000 because no stricter same-basis tin row covers this product (the 50000 rows are infant-food and non-tinplate cured-meat scopes; the pre-2019 HK 230 all-food row is superseded)."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609021123",
+   "evidence_key": "e2000dc0445e47fb",
+   "cells": [
+    {
+     "key": "fish-freshwater|both|tHg",
+     "derived_value": 300,
+     "derived_anchor_id": "eu2023_hg_fish_low_300",
+     "same_basis_candidates": [],
+     "blind_value": 300,
+     "applicability": "confirmed",
+     "reason": "Regulation (EU) 2023/915 Annex I point 3.3.1.3 (the 0.30 mg/kg wet-weight tier introduced by Regulation (EU) 2022/617, in force since 2022-05-03 and carried into 2023/915) lists 'Carp (Cyprinidae family)', 'Salmon and trout (Salmo species and Oncorhynchus species, except Salmo trutta)', basa and striped catfish (Pangasius/Pangasianodon) and Mekong giant catfish, so the anchor directly covers carp, rainbow trout and pangasius-type catfish in this freshwater-finfish row; tilapia (Oreochromis), channel catfish (Ictalurus) and brown trout are not listed and fall under point 3.3.1.1 'muscle meat of fish' at 0.50 mg/kg (eu2023_hg_fish_general_500), so 300 is the strictest anchor that applies within the row and is at least as protective for every member species. It is a wet-weight content ML on an as-consumed content cell, and no non-gated same-basis tHg row for fish is stricter than 300 (all other fish rows are 500 or 1000; Guyana 200 is quarantined as a transcription artifact; Singapore 'other food' 50 and Israel infant-porridge 8 are not fish rows and the Israel row is not in force; EU 2002/32 rows are feed-basis). Disclosure note: the 'gov' label is exact for carp, rainbow trout and pangasius and precautionary by one EU tier for tilapia, channel catfish and brown trout, which the rationale text should state."
+    }
+   ]
+  },
+  {
+   "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609021123",
+   "evidence_key": "9b7d1101bd267369",
+   "cells": [
+    {
+     "key": "fish-freshwater|both|MeHg",
+     "derived_value": 300,
+     "derived_anchor_id": "eu2023_hg_fish_low_300",
+     "same_basis_candidates": [],
+     "blind_value": 300,
+     "applicability": "confirmed",
+     "reason": "Subsumed cell: the derived value is the parent tHg cell's derived value of 300 ug/kg from Regulation (EU) 2023/915 Annex I point 3.3.1.3, which is a firm sovereign wet-weight ML in force and on the same as-consumed content basis, and methylmercury cannot exceed total mercury, so MeHg is bounded at 300. No non-gated same-basis MeHg row that reaches freshwater or non-predatory fish is stricter (Vietnam QCVN 8-2 fish excluding carnivorous fish 500, HK Cap 132V fish 500, GB 2762-2025 aquatic animals excluding predatory fish 500, MX NOM-242 other fishery products 500, PH PNS 194 fish 500, TT 500, FDA CPG 540.600 1000). The same scope disclosure as the parent applies: the EU 0.30 tier names carp, non-brown trout and pangasius directly, while tilapia, channel catfish and brown trout sit at the 0.50 general tier, so the bound is exact for the former and precautionary for the latter."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,465 @@
+{
+  "compiled_dir": "cat34-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_condiments_excl_spices_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Condiments, excluding spices (GB 2762-2025 Table 1, item 13.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 13.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 1.0 mg/kg; supersedes china_gb2762_pb_condiments_excl_spices_1000; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "697ff60a61252d06b8a45040910cdb30a2fffa81d21c76e0d415f9d002645214",
+          "row_sha256": "697ff60a61252d06b8a45040910cdb30a2fffa81d21c76e0d415f9d002645214"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_ias_compound_condiment_100",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "Compound condiments (fu he tiao wei liao: cooking wine, solid soup bases, chicken essence and powder, mayonnaise, salad dressing and similar, per Annex A) (GB 2762-2025 Table 4, item 8.4); inorganic arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 8.4; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.1 mg/kg; supersedes china_gb2762_ias_compound_condiment_100; screening rule: total arsenic may be measured first and compliance concluded when it does not exceed the iAs limit; test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "efdfc7e0483fe9871e88bc5eb603069aa80d75bd29c0029dc9674b47f61acb9c",
+          "row_sha256": "efdfc7e0483fe9871e88bc5eb603069aa80d75bd29c0029dc9674b47f61acb9c"
+        }
+      ],
+      "cells": [
+        "bouillon-seasoning-blends|_|Pb",
+        "bouillon-seasoning-blends|_|iAs",
+        "hot-chili-sauces|_|Pb",
+        "hot-chili-sauces|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_cd_spices-including-curry-powder_1000",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Spices (including curry powder)",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table Cd row 24; source value 1.0 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9afaaa0274521f7d02179e56ab800600dc9afbe5c8b026db5cd3f68e276d2164",
+          "row_sha256": "9afaaa0274521f7d02179e56ab800600dc9afbe5c8b026db5cd3f68e276d2164"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_spices-including-curry-powder_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Spices (including curry powder)",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 9; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "64fe7f6559d8971166b07d9dd03cf4bbf4136cfd0e0c6017a872828d6de3c788",
+          "row_sha256": "64fe7f6559d8971166b07d9dd03cf4bbf4136cfd0e0c6017a872828d6de3c788"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_cd_sauce_1000",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Sauce",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table Cd row 31; source value 1.0 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "2d70a871b9b960bc73b07c424ef4981d7b8d44d2905879b67bdb655974d9971d",
+          "row_sha256": "2d70a871b9b960bc73b07c424ef4981d7b8d44d2905879b67bdb655974d9971d"
+        },
+        {
+          "regulatory_limit_id": "vn_qcvn8_2_2011_thg_sauce_50",
+          "jurisdiction": "VN",
+          "authority": "Vietnam Ministry of Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "food as listed; source unit mg/kg or mg/l",
+          "product_scope": "Sauce",
+          "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
+          "url": "",
+          "notes": "QCVN 8-2:2011/BYT technical requirements table tHg row 16; source value 0.05 mg/kg or mg/l.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "d832534397ce308f56bf2366491b6540d5ff304b9ff6c84abc05a87951c17c57",
+          "row_sha256": "d832534397ce308f56bf2366491b6540d5ff304b9ff6c84abc05a87951c17c57"
+        }
+      ],
+      "cells": [
+        "bouillon-seasoning-blends|_|Cd",
+        "bouillon-seasoning-blends|_|tHg",
+        "hot-chili-sauces|_|Cd",
+        "hot-chili-sauces|_|tHg",
+        "spices|_|Cd",
+        "spices|_|tHg"
+      ]
+    },
+    {
+      "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/singapore-food-regulations-heavy-metals-2026.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_curry_powder_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "curry powder",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(9) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "f66821581c7c2b46ba4bcc973e1ed3f86bb805816ccee1d0db3239be04c67463",
+          "row_sha256": "f66821581c7c2b46ba4bcc973e1ed3f86bb805816ccee1d0db3239be04c67463"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_tomato_ketchup_sauces_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "tomato ketchup and other sauces",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(25) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "35178e8fdb164fa1d288df1e0107120d1bb6ef105c9521e93482459fe6cc478f",
+          "row_sha256": "35178e8fdb164fa1d288df1e0107120d1bb6ef105c9521e93482459fe6cc478f"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_dried_herbs_spices_mustard_tas_1500",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1500",
+          "basis": "product as sold or imported",
+          "product_scope": "dried herbs and spices including mustard",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(10) arsenic column; value 1.5 ppm normalized to 1500 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "754b41f8854aa9165fb797cc4add5f07103a8e330ef5814f7b90b9d8eec82f45",
+          "row_sha256": "754b41f8854aa9165fb797cc4add5f07103a8e330ef5814f7b90b9d8eec82f45"
+        }
+      ],
+      "cells": [
+        "bouillon-seasoning-blends|_|tAs",
+        "hot-chili-sauces|_|tAs",
+        "spices|_|tAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2023_pb_salt_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "salt",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "General food-grade salt.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "f054d9e1ace97c725ca002b69b9f1f38b59372ee684ff35a96f9e62596c11bc4",
+          "row_sha256": "f054d9e1ace97c725ca002b69b9f1f38b59372ee684ff35a96f9e62596c11bc4"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_salt_unrefined_2000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "unrefined salt (fleur de sel, grey salt, manually harvested)",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Higher allowance for traditional unrefined salt.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "bdac1da084e68056dd33f3e07b268dcaf6190996cd9a5bce797c95ad869ba341",
+          "row_sha256": "bdac1da084e68056dd33f3e07b268dcaf6190996cd9a5bce797c95ad869ba341"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_bark_2000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "2000",
+          "basis": "dried spice",
+          "product_scope": "bark spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., cinnamon, cassia).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "1d646720a178a6930da9656c9c019ec63a016be77ef534525b9dbb5aeabbc701",
+          "row_sha256": "1d646720a178a6930da9656c9c019ec63a016be77ef534525b9dbb5aeabbc701"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_bud_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "dried spice",
+          "product_scope": "bud spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., cloves).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "7706ba3223495297c524f975b46e4cf8cad89f7a5ec44d1e0381e19c563bc6f7",
+          "row_sha256": "7706ba3223495297c524f975b46e4cf8cad89f7a5ec44d1e0381e19c563bc6f7"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_flower_pistil_1000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1000",
+          "basis": "dried spice",
+          "product_scope": "flower pistil spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., saffron).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "b815e8c505e5cc092e22512a7b010ef4a0099bc8289aac1835b1efcc0cca9619",
+          "row_sha256": "b815e8c505e5cc092e22512a7b010ef4a0099bc8289aac1835b1efcc0cca9619"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_fruit_600",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "600",
+          "basis": "dried spice",
+          "product_scope": "fruit spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., paprika, allspice).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "535ba9c056c4289b1b165c133b61760dfa3e2483d453e56fe01c5b796bc5d715",
+          "row_sha256": "535ba9c056c4289b1b165c133b61760dfa3e2483d453e56fe01c5b796bc5d715"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_root_1500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "1500",
+          "basis": "dried spice",
+          "product_scope": "root and rhizome spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., turmeric, ginger).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "67d04292c0d14efce02e1e9fa013ade8f1e6140b3f2a3085fadd596febdfe150",
+          "row_sha256": "67d04292c0d14efce02e1e9fa013ade8f1e6140b3f2a3085fadd596febdfe150"
+        },
+        {
+          "regulatory_limit_id": "eu2023_pb_spice_seed_900",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "900",
+          "basis": "dried spice",
+          "product_scope": "seed spices",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Dried spice botanical category (e.g., cumin, coriander, fennel).",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "2a692eed598d0997c49cfcfc60665c541c229c4ea03772d50e643e90ad7a3e5d",
+          "row_sha256": "2a692eed598d0997c49cfcfc60665c541c229c4ea03772d50e643e90ad7a3e5d"
+        }
+      ],
+      "cells": [
+        "salt|_|Pb",
+        "salt|_|Pb",
+        "spices|_|Pb",
+        "spices|_|Pb",
+        "spices|_|Pb",
+        "spices|_|Pb",
+        "spices|_|Pb",
+        "spices|_|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+      "primary_text": {
+        "register_urls": [
+          "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/gso-193-2021-contaminants-toxins-food-feed.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "gso193_2021_cd_salt_food_grade_500",
+          "jurisdiction": "GSO",
+          "authority": "GCC Standardization Organization",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "500",
+          "basis": "whole commodity as prepared for wholesale or retail distribution",
+          "product_scope": "Salt, food grade",
+          "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
+          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "5150a5d7a3a605fcf00835eb638ef3081d7ff2723f61d4451dcaebc1a33c91df",
+          "row_sha256": "5150a5d7a3a605fcf00835eb638ef3081d7ff2723f61d4451dcaebc1a33c91df"
+        }
+      ],
+      "cells": [
+        "salt|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2025/1891/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2025-1891-inorganic-arsenic-fish-seafood.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20251891_tas_salt_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "salt",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.9 is restated in Regulation (EU) 2025/1891; total arsenic, not inorganic arsenic; value 0.50 mg/kg normalized to 500 ug/kg. The source page for EU 2023/915 already transcribed this value; this row loads the missing structured limit.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "567a978c5a801888c44e351c51635236ca89e4fed4aeaadf092948de1fa1b6a7",
+          "row_sha256": "567a978c5a801888c44e351c51635236ca89e4fed4aeaadf092948de1fa1b6a7"
+        }
+      ],
+      "cells": [
+        "salt|_|tAs",
+        "salt|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/eu-reg-2022-617-mercury-fish",
+      "primary_text": {
+        "register_urls": [
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-reg-2022-617-mercury-fish.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2022_617_hg_salt_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "100",
+          "basis": "wet weight",
+          "product_scope": "salt",
+          "regulation_page": "regulations/eu-reg-2022-617-mercury-fish",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617",
+          "notes": "Total mercury as Hg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "36861d64c2468f5472d6b4e38a0b63081b62c301aa59f8775c0d3efc0a21bb32",
+          "row_sha256": "36861d64c2468f5472d6b4e38a0b63081b62c301aa59f8775c0d3efc0a21bb32"
+        }
+      ],
+      "cells": [
+        "salt|_|tHg"
+      ]
+    }
+  ]
+}

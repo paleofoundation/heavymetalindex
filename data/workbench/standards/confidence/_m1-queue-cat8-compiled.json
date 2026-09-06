@@ -1,0 +1,354 @@
+{
+  "compiled_dir": "cat8-compiled",
+  "run_id": "run-202609061824",
+  "instruments": [
+    {
+      "regulation_page": "regulations/eu-2020-2184-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2020-2184-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu20202184_pb_drinking_water_5",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "5",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; source value 5 µg/l (water), to be met by 12 January 2036; transitional value until then is 10 µg/l.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1cbe12cc47fbe07203a34f20ea91ac2387c4dc035c621bb2e1955e8796673cf0",
+          "row_sha256": "1cbe12cc47fbe07203a34f20ea91ac2387c4dc035c621bb2e1955e8796673cf0"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_tas_drinking_water_10",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "tAs",
+          "value_ug_kg": "10",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; directive states arsenic without speciation, recorded as tAs; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "01d72a436935fbd3ad749b744a9f8d3039c068d6409729c47dcdf9fe02443850",
+          "row_sha256": "01d72a436935fbd3ad749b744a9f8d3039c068d6409729c47dcdf9fe02443850"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_thg_drinking_water_1",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "tHg",
+          "value_ug_kg": "1",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; directive states mercury without speciation, recorded as tHg; source value 1,0 µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382",
+          "row_sha256": "1999a5b21ffd1ecf7b389c32080eb8f80a42f34db0f9e0a2d0d2d26dbb9c0382"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_ni_drinking_water_20",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Ni",
+          "value_ug_kg": "20",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204",
+          "row_sha256": "ff193468a5419cecbe9a4feb6259e500007af63e270ab6452a326427c9ce8204"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_al_drinking_water_200",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "200",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part C indicator parameter; source unit µg/l (water).",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7",
+          "row_sha256": "ad0dab2b8fa0c80bd416c857c2e313c573389d155b3cf7cbb1595632ca2793a7"
+        },
+        {
+          "regulatory_limit_id": "eu20202184_crtotal_drinking_water_25",
+          "jurisdiction": "EU",
+          "authority": "European Union",
+          "status": "statutory limit",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "25",
+          "basis": "water intended for human consumption",
+          "product_scope": "water intended for human consumption",
+          "regulation_page": "regulations/eu-2020-2184-drinking-water",
+          "url": "",
+          "notes": "Annex I Part B chemical parameter; source value 25 µg/l (water), to be met by 12 January 2036; transitional value until then is 50 µg/l.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "2f38722fb22777779b28d5e658dfee2d7afe52909bdd1570761132d76f6ea724",
+          "row_sha256": "2f38722fb22777779b28d5e658dfee2d7afe52909bdd1570761132d76f6ea724"
+        }
+      ],
+      "cells": [
+        "bottled-drinking-water|_|Pb",
+        "bottled-drinking-water|_|tAs",
+        "bottled-drinking-water|_|tHg",
+        "bottled-drinking-water|_|Ni",
+        "bottled-drinking-water|_|Al",
+        "bottled-drinking-water|_|Cr",
+        "infant-nursery-water|_|Pb",
+        "infant-nursery-water|_|tAs",
+        "infant-nursery-water|_|tHg",
+        "infant-nursery-water|_|Ni",
+        "infant-nursery-water|_|Al",
+        "infant-nursery-water|_|Cr",
+        "mineral-water|_|Al",
+        "sparkling-carbonated-water|_|Pb",
+        "sparkling-carbonated-water|_|tAs",
+        "sparkling-carbonated-water|_|tHg",
+        "sparkling-carbonated-water|_|Ni",
+        "sparkling-carbonated-water|_|Al",
+        "sparkling-carbonated-water|_|Cr"
+      ]
+    },
+    {
+      "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/australia-nhmrc-adwg-6-v4-drinking-water.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "nhmrc2025_cd_drinking_water_2",
+          "jurisdiction": "AU",
+          "authority": "National Health and Medical Research Council",
+          "status": "maximum contaminant level",
+          "metal_species": "Cd",
+          "value_ug_kg": "2",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/australia-nhmrc-adwg-6-v4-drinking-water",
+          "url": "",
+          "notes": "Health-based guideline 0.002 mg/L; water conversion uses 1 mg/L = 1000 µg/kg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be",
+          "row_sha256": "91b158b019dd585e9652dee33c05fb183835885e836288fb4a5f3d7a121881be"
+        }
+      ],
+      "cells": [
+        "bottled-drinking-water|_|Cd",
+        "infant-nursery-water|_|Cd",
+        "mineral-water|_|Cd",
+        "sparkling-carbonated-water|_|Cd"
+      ]
+    },
+    {
+      "regulation_page": "regulations/epa-arsenic-mcl",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/epa-arsenic-mcl.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "epa_mcl_ias_drinking_water_10",
+          "jurisdiction": "US",
+          "authority": "US-EPA",
+          "status": "maximum contaminant level",
+          "metal_species": "iAs",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water (public water systems)",
+          "regulation_page": "regulations/epa-arsenic-mcl",
+          "url": "",
+          "notes": "Arsenic MCL; arsenic in drinking water is effectively inorganic. FDA adopts EPA MCLs for bottled water by reference.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "be63f00213d9c36612313692e13804fedd955be697e8a9321d7efa3c0c7738fc",
+          "row_sha256": "be63f00213d9c36612313692e13804fedd955be697e8a9321d7efa3c0c7738fc"
+        }
+      ],
+      "cells": [
+        "bottled-drinking-water|_|iAs",
+        "infant-nursery-water|_|iAs",
+        "mineral-water|_|iAs",
+        "sparkling-carbonated-water|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/california-swrcb-2024-inorganic-chemical-mcls.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "jurisdiction": "US-CA",
+          "authority": "California State Water Resources Control Board",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water; source unit mg/L",
+          "product_scope": "public water systems in California",
+          "regulation_page": "regulations/california-swrcb-2024-inorganic-chemical-mcls",
+          "url": "",
+          "notes": "Section 64431 Table 64431-A Chromium hexavalent MCL 0.01 mg/L, normalized as 10 ug/kg-equivalent for water.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047",
+          "row_sha256": "e44a9d5f900e37c24711a2c142cac729843facc79b48836d5738f5a9036dc047"
+        }
+      ],
+      "cells": [
+        "bottled-drinking-water|_|Cr-VI",
+        "infant-nursery-water|_|Cr-VI",
+        "mineral-water|_|Cr-VI",
+        "sparkling-carbonated-water|_|Cr-VI"
+      ]
+    },
+    {
+      "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/us-fda-21cfr165-110-bottled-water-2024.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "fda21cfr165110_pb_bottled_water_5",
+          "jurisdiction": "US",
+          "authority": "U.S. Food and Drug Administration",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "5",
+          "basis": "bottled water",
+          "product_scope": "bottled water",
+          "regulation_page": "regulations/us-fda-21cfr165-110-bottled-water-2024",
+          "url": "",
+          "notes": "21 CFR 165.110 allowable level 0.005 mg/L; water conversion uses 1 mg/L = 1000 µg/kg.",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "3bccdbc2f33faf313ffdf70f95e4b685921523e3f5ccfe9b69a7e97556607a71",
+          "row_sha256": "3bccdbc2f33faf313ffdf70f95e4b685921523e3f5ccfe9b69a7e97556607a71"
+        }
+      ],
+      "cells": [
+        "mineral-water|_|Pb"
+      ]
+    },
+    {
+      "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "primary_text": {
+        "register_urls": [
+          "https://www.elegislation.gov.hk/hk/cap132V"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/hong-kong-cap-132v-metallic-contamination.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "hk_cap132v_tas_natural-mineral-waters_10",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "10",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 2 (Arsenic (expressed as total arsenic)); source value 0.01 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "1cd903c17b967631c57e55adbf7912a9c94cda151f52b262b17043c0bb5f472a",
+          "row_sha256": "1cd903c17b967631c57e55adbf7912a9c94cda151f52b262b17043c0bb5f472a"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_thg_natural-mineral-waters_1",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "1",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.001 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "a1f5ba53867404ef302c1489dd3e37bfa529806bda50e65528322715bf4e3d37",
+          "row_sha256": "a1f5ba53867404ef302c1489dd3e37bfa529806bda50e65528322715bf4e3d37"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_ni_natural-mineral-waters_20",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "20",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 14 (Nickel); source value 0.02 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "d8e124430b9d65a214424e216c3056b2cd431c48d2757fcf79d4102ba8c42b16",
+          "row_sha256": "d8e124430b9d65a214424e216c3056b2cd431c48d2757fcf79d4102ba8c42b16"
+        },
+        {
+          "regulatory_limit_id": "hk_cap132v_crtotal_natural-mineral-waters_50",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "50",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Natural mineral waters",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.05 mg/kg",
+          "basis_class": "as_consumed",
+          "soy_class": "",
+          "_sha256": "fa88670ff15253ed7c6f3fb6de619ca0bc1a5ec8fdc44fe750d1313e1e0eccde",
+          "row_sha256": "fa88670ff15253ed7c6f3fb6de619ca0bc1a5ec8fdc44fe750d1313e1e0eccde"
+        }
+      ],
+      "cells": [
+        "mineral-water|_|tAs",
+        "mineral-water|_|tHg",
+        "mineral-water|_|Ni",
+        "mineral-water|_|Cr"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "_doc": "Resume file for docs/tasks/standards-95-confidence-completion-brief.md. Read first on every session start. Written by the session, never by a generator.",
+  "brief": "docs/tasks/standards-95-confidence-completion-brief.md",
+  "sessions": [
+    {
+      "id": "exciting-taussig-159366",
+      "started": "2026-09-02",
+      "model": "claude-fable-5-1",
+      "index_branch": "claude/exciting-taussig-159366",
+      "index_base": "5c6f8bd2c",
+      "cert_base": "c1d41c2"
+    }
+  ],
+  "phase": "wwsaid enactment (2026-09-06): precautionary provenance in force (docs/governance/decisions-under-standing-permission.md); all 104 held items enacted as precautionary cells with sovereign_floor; 25 dirs clean and copied to cert; remaining holds: cat1 3 non-page gap records, cat18 7 Al wrong-basis cells; Phase C wrong-basis dirs (cat2/10/13/14/15/19/20/22/23) open; M2 rounds blocked by the account monthly spend limit (re-dispatch seafood p1/p3/p4.B and cat30 p6.B when lifted, then a round on the precautionary cells per the protocol addendum). Earlier: Phase B/C/E 27 of 32 dirs reconciled; Lens 0 manifests for all 32; M2 round 1 done on seafood; Phase F dry runs executed; Phase G report delivered 2026-09-02 (session 1)",
+  "phase_a": {
+    "0_park_and_pull": "done (cert staged build output discarded by path; cert main == origin/main c1d41c2)",
+    "1_test_prefixes_gitignore": "done (index 671b62474; cert 48225b2)",
+    "2_harden_readiness_lint": "done (cert 259dbae; baseline 349 pages/230 COMPLETE/359 empty/29 recordless/2 scaffolds; mint gate cert 4651891)",
+    "3_land_datacite_preflight": "done (cert 1ec06c0 cherry-pick b090435, file only, never run)",
+    "4_diff_compiled_vs_cert": "done (index fdb9e25d0; baseline 1,400 regressions in 23/32 dirs)",
+    "5_provenance_vocabulary": "done (index 0f958a6af)",
+    "6_status_regex_in_force": "done (index 38dcd8953; lib/register-gate.mjs)",
+    "7_baseline_screen_contract": "done (index 10027edfa; cert 96d9358)",
+    "8_gb2762_2025_rows": "done (index 5ee436494: 169 rows, 29 superseded; OI-20260902-gb2762-2025-repoint-cat-configs, OI-20260902-gb2762-2025-official-url)"
+  },
+  "phase_b0_unmerged": "done (index PR #118 closed as absorbed; #119 rows absorbed via 2025 successors, rest superseded; cert coffee branch absorbed; cert PRs #2/#42 superseded; OI-20260902-unmerged-standards-work-triage)",
+  "categories": {
+    "cat30-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index 16be24b32, cert 2e73ca1; 0 regressions)",
+      "c_complete": "complete (22/22 cells) but 6 cells refuted at M1: Israel FCS 2016 superseded (Cd 30, tHg 20 on both records); tHg re-anchor candidate th_moph414_2020_thg_food_other_20 (same value); Cd has NO same-value in-force sovereign analog (raise to ≥100 would need ratification)",
+      "e_confidence": "manifest written; M1: 24 rows verified corpus-wide, 4 refuted (Israel), 2 needs-deep-read (France CSHPF, no primary); M2 not yet dispatched",
+      "pushed": false
+    },
+    "seafood-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index 16be24b32, cert 2e73ca1; scope fixes: condiments excluded, 'excluding predator' excluded)",
+      "c_complete": "complete (77/77) but seaweed Pb/tAs 5000 anchored on Israel (refuted); candidates: GB 2762-2025 algae products Pb 1000 (tightening; basis to verify), tAs needs the C6d species-as-total read-across contract (AU-NZ iAs seaweed 1000) — not built",
+      "e_confidence": "manifest written; 24 M2 batches queued; M1 pending rows 13 (packets g5 B, g6 B outstanding)",
+      "pushed": false
+    },
+    "cat1-compiled": {
+      "d_panel": "11-cell in cert (cert 66004b5: PANEL widened, _meta.panel, subsumed branches, mixed-meals rice variant, 9 PDFs)",
+      "b_reconciled": "done (index c085f422b; 0 regressions; Cr sovereign anchors; golden iAs/Cd reproduced; IL soy_class fix; apple-only rows excluded from juice scope)",
+      "c_complete": "complete (12 records / 9 pages)",
+      "e_confidence": "NOT started (Israel rows bind 15 Cat-1 cells: tHg on most rows, fruit-juice Cd/tHg — these will refute once the Israel status lands)",
+      "pushed": false
+    },
+    "cat4-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 8
+    },
+    "cat8-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 4
+    },
+    "cat11-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 9
+    },
+    "cat21-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 21
+    },
+    "cat33-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 3
+    },
+    "cat35-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index e447bacea; identical values; tags+basis added)",
+      "c_complete": "empty cells remain (control/not_material) — completion pass pending; W1 warnings to disposition in derivation-report",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 3
+    },
+    "cat5-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index d52f30733, cert a7cee61; coffee-rtd total-Cr → HK bottled-water total-Cr 50, GB 2762-2025 successors; 0 regressions)",
+      "c_complete": "108 empty cells remain (control/not_material) — completion pass",
+      "e_confidence": "not started",
+      "pushed": false
+    },
+    "cat2-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat10-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat13-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat14-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat18-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat19-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat20-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat22-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat23-compiled": {
+      "b_reconciled": "PARTIAL (index 74d39519f): harvest-cert-anchors applied guard-passing anchors; remaining cert-valued cells are wrong-basis (see _c-inventory.json) — C-phase corrections; NOT copied to cert",
+      "pushed": false
+    },
+    "cat3-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index ae2d68cc2, cert 97f5b15; Cr added; rice iAs 250→200 tightening)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 12
+    },
+    "cat27-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 4
+    },
+    "cat28-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 6
+    },
+    "cat29-compiled": {
+      "d_panel": "11-cell",
+      "b_reconciled": "done (index f0f080f45, cert 082033f)",
+      "c_complete": "empty cells remain for the completion pass unless noted",
+      "e_confidence": "not started",
+      "pushed": false,
+      "records": 3
+    }
+  },
+  "escalations_batched": [
+    "Claude API monthly spend limit reached 2026-09-02 ~12:20 UTC: six M2 verifiers died mid-run. Raise the limit (claude.ai/settings/usage) or accept that M2 rounds resume next month; each lost verifier is ~200k tokens."
+  ],
+  "notes": [
+    "2026-09-02: governor route standards-confidence added (index d3d60ba99); governor caps 12/h 60/day bind the confidence pass budget",
+    "DESIGN (2026-09-02): confidence-run computes every manifest and M2 packet against the CERT record bytes (the published standard). A held correction lives only in the index dir until ratified, so M2 keeps refuting the frozen cert cell (e.g. seafood seaweed Cr milk-powder anchor, Cr-VI water MCL) until the ratified fix is copied to cert; that is expected, not a regression."
+  ],
+  "phase_f": {
+    "gate0_registry": "done (cert fc7a463 + 9466c97: data/standards/doi-registry.json keyed by page slug; renderers + readiness read it; doi-registry-lint in prebuild)",
+    "gate2_dates_container": "done (cert fc7a463: publicationYear = mint year, dates Issued/Available, Series container, no fabricated version chain)",
+    "gate1_snapshot": "WRITTEN UP for Karen/counsel in cert docs/DOI-MINTING-LEDGER.md (not decided)",
+    "gate3_identity": "WRITTEN UP for counsel in cert docs/DOI-MINTING-LEDGER.md (payload diff, not applied)",
+    "datacite_media_port": "done (cert: tools/lib/datacite-media.mjs + tools/datacite-reconcile-media.mjs; never run)",
+    "dry_runs": "cert: node tools/mint-dois.mjs --manifest → 0 eligible (none CORRECTED yet); the prefix-only chained form and the index --dry-run are still to be run at the end"
+  },
+  "m1": {
+    "packets": "data/workbench/standards/confidence/_m1-packets/m1-20260902-g1..g6.json (20 instruments, 44 rows)",
+    "verdicts_received": [
+      "g1.A",
+      "g1.B",
+      "g2.A",
+      "g2.B",
+      "g3.A",
+      "g3.B",
+      "g4.A",
+      "g4.B",
+      "g5.A",
+      "g6.A"
+    ],
+    "verdicts_pending": [
+      "g5.B (running)",
+      "g6.B (not launched: governor hourly cap; lease needed)"
+    ],
+    "ingested": [
+      "g1",
+      "g2",
+      "g3",
+      "g4"
+    ],
+    "findings": [
+      "Israel FCS 2016 guideline NOT IN FORCE (gov.il 19.02.2026; EU 2023/915 adopted 2023-01-01): 162 register rows, 131 live cert binding cells across 17 dirs — OI-20260902-il-fcs2016-not-in-force (human-gated)",
+      "France CSHPF seaweed avis unreachable (OI-20260902-fr-cshpf-seaweed-primary-archive)",
+      "Fiji FSR 2009 row url is the wrong document (OI-20260902-fiji-fsr2009-row-url-not-instrument)",
+      "CA SWRCB held copy is the proposed text (OI-20260902-ca-crvi-final-regulation-text-not-held)"
+    ]
+  },
+  "governor": {
+    "used_today": 12,
+    "daily_cap": 60,
+    "hourly_cap": 12,
+    "note": "12 leases at ~10:05Z; next hour free ~11:05Z; work type standards-confidence",
+    "leases_2026_09_02": "g1-g5 A/B + g6.A + deep read + g6.B (11:06) + M2 seafood p1-p5 A/B (11:07, count 10)",
+    "window": "12/hour cap; next free ~12:06 UTC"
+  },
+  "next_steps": [
+    "ingest the 10 round-2 verdict files when they land (background agents; if this session ended, the files are on disk), rerun confidence-run for seafood and cat30, apply agreed fixes, --mirror when a dir passes block-mode lint",
+    "Karen: ratify/decline the 83 held items (confidence/_held-raises.json), rule OI-20260902-catch-all-rows-bind-program-wide, rule the wrong-basis inventory (Phase C), then push cert",
+    "M1 deep read: FSSAI 2016 chromium row (g6 disagreement) and the France CSHPF seaweed rows",
+    "cat9/cat12 configs per brief; EU successor rows (2023/915 Hg/Sn, 2018/73 MRLs) ingest"
+  ],
+  "closed_ois": [
+    "OI-20260902-readiness-lint-still-overcounts-complete",
+    "OI-20260902-no-roundtrip-diff-tool-loosening-universal",
+    "OI-20260902-cert-doi-writeback-reset-gate0",
+    "OI-20260902-mint-dois-safety-index-executes-without-dryrun",
+    "OI-20260831-published-panel-8-not-10-11"
+  ],
+  "opened_ois": [
+    "OI-20260902-gb2762-2025-official-url",
+    "OI-20260902-gb2762-2025-repoint-cat-configs",
+    "OI-20260902-unmerged-standards-work-triage",
+    "OI-20260902-il-fcs2016-not-in-force",
+    "OI-20260902-fr-cshpf-seaweed-primary-archive",
+    "OI-20260902-fiji-fsr2009-row-url-not-instrument",
+    "OI-20260902-ca-crvi-final-regulation-text-not-held",
+    "OI-20260902-cat1-fruit-juice-apple-ias-form-split",
+    "OI-20260902-index-doi-suffix-collisions"
+  ],
+  "remaining_categories": {
+    "wrong-basis (compile-category shape, harvest applied, C-phase corrections needed)": {
+      "dirs": [
+        "cat2",
+        "cat10",
+        "cat13",
+        "cat14",
+        "cat18",
+        "cat19",
+        "cat20",
+        "cat22",
+        "cat23"
+      ],
+      "pending_cells": 518,
+      "inventory": "data/workbench/standards/confidence/_c-inventory.json"
+    },
+    "legacy shapes needing a harvester variant + subsumed kind": {
+      "cat31/cat32 (food-limit-compiler; read_across map with control:true / not_material:true)": "cat31 26 regressions + 51 C7; cat32 34 regressions (5 R1) + 57 C7 — C7 = not_material cells without basis_class/regulatory_basis/jurisdictions_checked (compiler emits none)",
+      "cat34 (food-standards-engine)": "4 regressions: bouillon/hot-chili Pb 1000→2000 (R1) and iAs 100 dropped; 4 C10",
+      "cat24 (compile-cat24, scope-only config)": "31 regressions (24 bounded, 7 valued) + 38 C8 control-without-rationale + 6 C4 superseded GB 2762 anchors",
+      "cat25 (compile-cat25, gov_ids+provenance shape)": "36 regressions (18 bounded, 18 valued) + 36 C8",
+      "cat26 (compile-cat26, all control; PDE basis_guard still to add per brief)": "55 regressions (40 valued, 15 bounded) — live cert has firm PDE-derived cells the index config does not",
+      "cat15 (compile-cat15)": "90 regressions (70 valued incl. toy-migration Sn 3,750,000 on douches = wrong-basis, 20 bounded)",
+      "cat16 (profiles)": "72 regressions (48 bounded, 24 valued) + 72 C8",
+      "cat17 (compile-cat17)": "46 regressions + 124 C7 + 15 C8 + 1 C4 (superseded GB 2762) + 1 C5"
+    },
+    "no compiled record at all": {
+      "cat9": "index compile-cat9 (10-cell, no guards, no cert dir); cert has 8 hand pages",
+      "cat12": "nothing in either repo; 21 hand pages"
+    }
+  },
+  "updated": "2026-09-02T13:45Z",
+  "israel_supersession": {
+    "status": "APPLIED 2026-09-02 (index f975371e1)",
+    "basis": "M1 two-blind refutation + deep read (_m1-deep/il-fcs2016-instrument.deep.json): Ministry register page fcs-reg-01022007 marked not in force (2026-02-19); S.H. 3276 Amendment 10 Thirteenth Schedule Part B(9) displaces it; successor = EU 2023/915 adopted under PHP(Food) Law s.3A",
+    "rows": 162,
+    "fallout": "179 orphaned cert cells across 14 dirs (survey confidence/_reanchor-2026-09-02.json)",
+    "tools": "tools/standards/drop-gated-pins.mjs (93 pins dropped), tools/standards/reanchor-superseded.mjs (--apply; overrides in confidence/_reanchor-overrides.json; held raises in confidence/_held-raises.json), roundtrip --copy-clean (held record: index dir updated, cert dir frozen)",
+    "held_for_ratification": "cat1 15 cells (infant tHg 8/15/4→20, juice Cd 10→20), cat4 (dried-fruit/fruit-snacks Pb 100→200; 8 iAs firm→bounded), cat8 water iAs 6→10 ×4, cat27 4 iAs firm→bounded, cat29 3 iAs firm→bounded, cat30 oils Cd 30→200 ×2, cat34 salt iAs 500→bounded",
+    "open": "OI-20260902-eu-successor-cells-missing-from-register (EU 2023/915 s.3.3 Hg / s.3.5 Sn, Reg 2018/73 mercury MRLs, Dir 2003/40/EC not in register: they would tighten plant-commodity tHg cells); unreconciled dirs (cat16/17/18/24) still carry Israel-anchored cert cells — handled in their own reconciliation"
+  },
+  "m2": {
+    "seafood_round1": "p1-p5 A/B ingested: 17 confirmed, 31 refuted, 28 unverified (before the fixes); fixes applied in seafood-config (Cr-VI bounded, Ni→EU baby food 500, seaweed Cr→GB cereals 1000, predatory tHg/MeHg→500, Cd off GSO exceptions, disclosures)",
+    "seafood_round2": "DISPATCHED 12:09 UTC (lease-1788350934387): m2-20260902b-p1..p4 roles A+B; verdicts land in _m2-verdicts/; ingest with confidence-run --cat=seafood --ingest-m2=<file>",
+    "cat30": "DISPATCHED 12:09 UTC: m2-20260902-p6 roles A+B; ingest with --cat=30",
+    "policy_blocker": "OI-20260902-catch-all-rows-bind-program-wide (human-gated): residual-row anchors and Sn canned read-across stay refuted until ruled",
+    "round2_status": "4 of 10 verdicts landed and ingested (seafood p2.A, p2.B, p4.A; cat30 p6.A). SIX verifiers (seafood p1.A, p1.B, p3.A, p3.B, p4.B; cat30 p6.B) were terminated by the ACCOUNT MONTHLY SPEND LIMIT (HTTP 429: monthly spend limit, raise at claude.ai/settings/usage). Do NOT re-dispatch until Karen raises the limit or the month resets; the packets stay on disk (_m2-packets/m2-20260902b-p1, p3, p4 and m2-20260902-p6)."
+  },
+  "held_raises_file": "data/workbench/standards/confidence/_held-raises.json (83 items: index dir carries the honest value; cert dir frozen at the published value; roundtrip --copy-clean enforces)",
+  "categories_state": {
+    "clean_copied": [
+      "cat3",
+      "cat5",
+      "cat11",
+      "cat21",
+      "cat25",
+      "cat26",
+      "cat28",
+      "cat32",
+      "cat33",
+      "cat35"
+    ],
+    "held_records": {
+      "cat1": 12,
+      "cat4": 8,
+      "cat8": 4,
+      "cat16": 24,
+      "cat17": 9,
+      "cat18": 7,
+      "cat24": 1,
+      "cat27": 4,
+      "cat29": 3,
+      "cat30": 2,
+      "cat31": 3,
+      "cat34": 1,
+      "seafood": 7
+    },
+    "wrong_basis_phase_c_human_gated": [
+      "cat2",
+      "cat10",
+      "cat13",
+      "cat14",
+      "cat19",
+      "cat20",
+      "cat22",
+      "cat23",
+      "cat15 (toy-migration/water anchors)",
+      "cat18 Al"
+    ],
+    "no_config_per_brief": [
+      "cat9 (10-cell, hand pages)",
+      "cat12 (no config)"
+    ]
+  },
+  "dod9_dry_runs": {
+    "index": "node tools/mint-dois.mjs --dry-run → DRY-RUN mode=test, 763 candidates, 27 DOI suffix collisions (OI-20260902-index-doi-suffix-collisions)",
+    "cert": "standard-readiness-lint (349 pages, 239 COMPLETE, 331 empty cells, 29 recordless, 2 scaffolds, 110 not COMPLETE) && mint-dois --manifest --emit → eligible 0, skipped 351 (349 held), doi-manifest.csv 0 rows"
+  }
+}

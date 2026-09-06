@@ -1,0 +1,56 @@
+{
+  "packet_id": "m2-20260902b-p2",
+  "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021123",
+  "evidence_key": "87c5769139e19ee8",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-b",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cephalopods|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 250000,
+      "applicability": "refuted",
+      "reason": "The anchor is scoped to 'canned foods other than canned beverages, except canned dried and canned powdered products' (EU 2023/915 Annex I 3.5.1, inorganic tin), and the cell product is octopus, squid and cuttlefish expressly 'not canned', so the anchor's own wording excludes it and (a) fails. A read-across is warranted only where no same-basis sovereign instrument covers the product, but three live general-food tin MLs on the food-content basis cover non-canned seafood directly and are therefore nearer: Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported), Thailand MOPH Notification 414/2020 Annex 1 Table 1 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000), and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg); the pre-2019 HK 'all food' 230 mg/kg row is superseded and excluded. Blind value is the direct sovereign 250000; the published 200000 is tighter and can stand only if re-tagged as a precautionary staff choice rather than as a read-across of record. Note for the arbiter: these three jurisdictions sit outside the Method v2.0 core-regulator short list, so if the lookup is restricted to core regulators the EU canned row is the nearest in-core analog and this refute reduces to a provenance-disclosure fix."
+    },
+    {
+      "key": "fish-freshwater|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 250000,
+      "applicability": "refuted",
+      "reason": "The anchor is scoped to 'canned foods other than canned beverages, except canned dried and canned powdered products' (EU 2023/915 Annex I 3.5.1, inorganic tin), and the cell product is fresh or frozen freshwater finfish (tilapia, catfish, trout, carp), so the anchor's own wording excludes it and (a) fails. A read-across is warranted only where no same-basis sovereign instrument covers the product, but three live general-food tin MLs on the food-content basis cover non-canned seafood directly and are therefore nearer: Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported), Thailand MOPH Notification 414/2020 Annex 1 Table 1 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000), and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg); the pre-2019 HK 'all food' 230 mg/kg row is superseded and excluded. Blind value is the direct sovereign 250000; the published 200000 is tighter and can stand only if re-tagged as a precautionary staff choice rather than as a read-across of record. Note for the arbiter: these three jurisdictions sit outside the Method v2.0 core-regulator short list, so if the lookup is restricted to core regulators the EU canned row is the nearest in-core analog and this refute reduces to a provenance-disclosure fix."
+    },
+    {
+      "key": "fish-marine-non-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 250000,
+      "applicability": "refuted",
+      "reason": "The anchor is scoped to 'canned foods other than canned beverages, except canned dried and canned powdered products' (EU 2023/915 Annex I 3.5.1, inorganic tin), and the cell product is marine non-predatory fish 'fillet/muscle meat, fresh or frozen', so the anchor's own wording excludes it and (a) fails. A read-across is warranted only where no same-basis sovereign instrument covers the product, but three live general-food tin MLs on the food-content basis cover non-canned seafood directly and are therefore nearer: Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported), Thailand MOPH Notification 414/2020 Annex 1 Table 1 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000), and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg); the pre-2019 HK 'all food' 230 mg/kg row is superseded and excluded. Blind value is the direct sovereign 250000; the published 200000 is tighter and can stand only if re-tagged as a precautionary staff choice rather than as a read-across of record. Note for the arbiter: these three jurisdictions sit outside the Method v2.0 core-regulator short list, so if the lookup is restricted to core regulators the EU canned row is the nearest in-core analog and this refute reduces to a provenance-disclosure fix."
+    },
+    {
+      "key": "fish-marine-predatory|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 250000,
+      "applicability": "refuted",
+      "reason": "The anchor is scoped to 'canned foods other than canned beverages, except canned dried and canned powdered products' (EU 2023/915 Annex I 3.5.1, inorganic tin), and the cell product is marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish) as fresh or frozen product, so the anchor's own wording excludes it and (a) fails. A read-across is warranted only where no same-basis sovereign instrument covers the product, but three live general-food tin MLs on the food-content basis cover non-canned seafood directly and are therefore nearer: Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported), Thailand MOPH Notification 414/2020 Annex 1 Table 1 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000), and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg); the pre-2019 HK 'all food' 230 mg/kg row is superseded and excluded. Blind value is the direct sovereign 250000; the published 200000 is tighter and can stand only if re-tagged as a precautionary staff choice rather than as a read-across of record. Note for the arbiter: these three jurisdictions sit outside the Method v2.0 core-regulator short list, so if the lookup is restricted to core regulators the EU canned row is the nearest in-core analog and this refute reduces to a provenance-disclosure fix."
+    },
+    {
+      "key": "shellfish|both|Sn",
+      "derived_value": 200000,
+      "derived_anchor_id": "eu2023_sn_canned_foods_200000",
+      "same_basis_candidates": [],
+      "blind_value": 250000,
+      "applicability": "refuted",
+      "reason": "The anchor is scoped to 'canned foods other than canned beverages, except canned dried and canned powdered products' (EU 2023/915 Annex I 3.5.1, inorganic tin), and the cell product is crustaceans and bivalve molluscs expressly 'not canned', so the anchor's own wording excludes it and (a) fails. A read-across is warranted only where no same-basis sovereign instrument covers the product, but three live general-food tin MLs on the food-content basis cover non-canned seafood directly and are therefore nearer: Singapore Food Regulations reg 31(4) 'any food' 250 ppm (sg_foodregs_2026_any_food_sn_250000, product as sold or imported), Thailand MOPH Notification 414/2020 Annex 1 Table 1 'foods other than the listed tin categories' 250 mg/kg (th_moph414_2020_sn_food_other_250000), and Uruguay RBN 'foods in general except categories with particular limits' 250 mg/kg (uy_rbn_general_sn_foods_250mgkg); the pre-2019 HK 'all food' 230 mg/kg row is superseded and excluded. Blind value is the direct sovereign 250000; the published 200000 is tighter and can stand only if re-tagged as a precautionary staff choice rather than as a read-across of record. Note for the arbiter: these three jurisdictions sit outside the Method v2.0 core-regulator short list, so if the lookup is restricted to core regulators the EU canned row is the nearest in-core analog and this refute reduces to a provenance-disclosure fix."
+    }
+  ]
+}

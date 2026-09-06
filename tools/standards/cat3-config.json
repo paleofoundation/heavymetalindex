@@ -13,7 +13,8 @@
     "Cr-VI",
     "Ni",
     "Sn",
-    "Al"
+    "Al",
+    "Cr"
   ],
   "subcategories": {
     "flour-non-rice": {
@@ -109,7 +110,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -123,18 +126,31 @@
           "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Every government tin ML in the register is scoped to canned/tin-coated product; tin migrates from tinplate. Flour is not sold in tinplate, so tin is not a material contaminant. Canned grain products route to Category 7 and carry the tin flag there.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (self-rising/leavened subset)"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       },
       "analyte_scope": {
@@ -240,7 +256,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -254,19 +272,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; bread and baked goods are not sold in tinplate. Canned products route to Cat 7.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 baked-foods Al residue 100 mg/kg (dry, as Al); Codex concurs"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     },
@@ -356,7 +386,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -370,19 +402,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; dry pasta not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: plain pasta, no Al-additive pathway (UK FERA TDS ~1040 ppb; provisional)"
+          "source_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+          "label": "Al 200000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_starch_noodles_vermicelli_200000 (starch noodles and vermicelli (fensi/fentiao) in). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     },
@@ -435,7 +479,9 @@
         "non-parboiled milled rice",
         "polished rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Cr-VI": {
@@ -444,19 +490,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; dry rice pasta not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "value_ppb": 1500,
-          "basis": "occurrence",
-          "label": "occurrence: Western extruded rice pasta, no alum-firming (background; provisional)"
+          "source_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
+          "label": "Al 200000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_starch_noodles_vermicelli_200000 (starch noodles and vermicelli (fensi/fentiao) in). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       },
       "analyte_scope": {
@@ -555,7 +613,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -569,18 +629,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; boxed breakfast cereal not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (leavened/additive subset)"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     },
@@ -630,7 +703,9 @@
         "polished rice",
         "milled rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Cr-VI": {
@@ -639,18 +714,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; boxed rice cereal not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (provisional)"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       },
       "analyte_scope": {
@@ -716,7 +804,9 @@
         "galettes",
         "crackers de riz",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Cr-VI": {
@@ -725,19 +815,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; bulk rice not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "occurrence",
-          "label": "occurrence: plain milled/husked rice (UK FERA TDS ~590 ppb; provisional)"
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "face value",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     },
@@ -789,7 +891,9 @@
         "non-parboiled milled rice",
         "polished rice",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Cr-VI": {
@@ -798,18 +902,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; rice cakes/crackers not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "label": "read-across: China GB 2760-2024 baked-foods Al 100 mg/kg (baked rice crackers/cakes)"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       },
       "analyte_scope": {
@@ -867,7 +984,9 @@
         "rice cracker",
         "rice cake",
         "except listed",
-        "l'exclusion"
+        "l'exclusion",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Cr-VI": {
@@ -876,19 +995,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; dry rice noodles not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 starch-noodle/vermicelli Al residue 200 mg/kg (dry, as Al)"
+          "label": "Al 200000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_starch_noodles_vermicelli_200000 (starch noodles and vermicelli (fensi/fentiao) in). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       },
       "analyte_scope": {
@@ -923,43 +1054,45 @@
         "paint",
         "\\bsoy",
         "\\bmeat",
-        "fish"
+        "fish",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "Pb": {
-          "not_material": true,
-          "control": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets a lead ML specific to rice-based drinks; the EU 2023/915 beverage lead framework does not enumerate a rice-drink row. Lead is material in a rice-derived beverage but unregulated by ML; literature-baseline governs. iAs is the binding Tier-1 analyte for this subcategory.",
-          "reference_method": "Pb by ICP-MS on the as-consumed liquid."
+          "source_id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50",
+          "label": "Pb 50 ug/kg: disclosed read-across from MERCOSUR mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50 (non-alcoholic beverages excluding juices). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cd": {
-          "not_material": true,
-          "control": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets a cadmium ML specific to rice-based drinks. Material but unregulated by ML; literature-baseline governs.",
-          "reference_method": "Cd by ICP-MS on the as-consumed liquid."
+          "source_id": "nhmrc2025_cd_drinking_water_2",
+          "label": "Cd 2 ug/kg: disclosed read-across from AU nhmrc2025_cd_drinking_water_2 (drinking water). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
-          "not_material": true,
-          "control": "Mercury does not accumulate in a rice-derived beverage; the only cereal mercury MLs are dry-basis and no government sets a rice-drink mercury ML. Not a material contaminant in this matrix.",
-          "reference_method": null
+          "source_id": "eu20202184_thg_drinking_water_1",
+          "label": "tHg 1 ug/kg: disclosed read-across from EU eu20202184_thg_drinking_water_1 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cr-VI": {
-          "not_material": true,
-          "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice beverages; reflex speciation control on the as-consumed liquid.",
-          "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
+          "source_id": "us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl",
+          "label": "Cr-VI 10 ug/kg: disclosed read-across from US-CA us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl (public water systems in California). Direct species limit stricter than the parent-total bound; filled by the completeness sweep.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Ni": {
-          "not_material": true,
-          "control": "The EU 2024/1987 nickel MLs are scoped to cereal grains as commodities and to juices/nectars, not to a rice-based drink; no government sets a rice-drink nickel ML. Not a binding cell.",
-          "reference_method": null
+          "source_id": "eu2024_ni_juice_250",
+          "label": "Ni 250 ug/kg: disclosed read-across from EU eu2024_ni_juice_250 (fruit/vegetable juices and nectars, general). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; carton-packed rice milk is not tinplate-packaged.",
-          "reference_method": null
+          "source_id": "eu2023_sn_canned_beverages_100000",
+          "label": "Sn 100000 ug/kg: disclosed read-across from EU eu2023_sn_canned_beverages_100000 (canned beverages, including canned fruit and veg). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "value_ppb": 1000,
-          "basis": "precautionary",
-          "label": "precautionary read-across: plant-milk Al (soy 758 ppb as-consumed; provisional)"
+          "source_id": "eu20202184_al_drinking_water_200",
+          "label": "Al 200 ug/kg: disclosed read-across from EU eu20202184_al_drinking_water_200 (water intended for human consumption). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
@@ -967,9 +1100,13 @@
           "reference_method": null
         },
         "tAs": {
-          "not_material": true,
-          "control": "No government sets a total-arsenic ML for a rice-based beverage in any jurisdiction; the binding arsenic control for this subcategory is the inorganic-arsenic ML (30 ug/kg, EU 2023/915 non-alcoholic rice drinks). A dry \"rice and derivatives\" total-arsenic ceiling is not comparable at face value to a dilute as-consumed beverage, and total arsenic adds no ceiling beyond the inorganic-arsenic limit here.",
-          "reference_method": "tAs by ICP-MS on the as-consumed liquid; speciate to iAs on any elevated total-arsenic result."
+          "source_id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_tas_50",
+          "label": "tAs 50 ug/kg: disclosed read-across from MERCOSUR mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_tas_50 (non-alcoholic beverages excluding juices). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "hk_cap132v_crtotal_bottled-or-packaged-drinking-waters-other-than-natural_50",
+          "label": "government read-across: Hong Kong Cap 132V total chromium 50 for bottled or packaged drinking waters, the nearest same-basis (liquid, as consumed) sovereign TOTAL-chromium ceiling for a ready-to-drink rice beverage. Replaces the NHMRC hexavalent-chromium drinking-water row (a species instrument on a total cell, audit C6); value unchanged at 50."
         }
       },
       "analyte_scope": {
@@ -1074,7 +1211,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -1088,19 +1227,31 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; these grains are not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
-          "value_ppb": 5000,
-          "basis": "occurrence",
-          "label": "occurrence: plain oat/millet/quinoa/barley (UK FERA TDS 2.3-3.7 mg/kg; provisional)"
+          "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     },
@@ -1193,7 +1344,9 @@
         "rice and deriv",
         "rice, husked",
         "rice, polished",
-        "\\bdrink"
+        "\\bdrink",
+        "consumed principally by",
+        "intended to be consumed principally"
       ],
       "read_across": {
         "iAs": {
@@ -1207,21 +1360,35 @@
           "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
         },
         "Sn": {
-          "not_material": true,
-          "control": "Canned-only analyte; grain snacks not sold in tinplate.",
-          "reference_method": null
+          "source_id": "sg_foodregs_2026_any_food_sn_250000",
+          "label": "Sn 250000 ug/kg: disclosed read-across from SG sg_foodregs_2026_any_food_sn_250000 (any food). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Al": {
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "basis": "gov",
-          "label": "China GB 2760-2024 baked/fried-flour/batter Al residue 100 mg/kg (dry, as Al)"
+          "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "MeHg": {
           "not_material": true,
           "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
           "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
+        },
+        "tHg": {
+          "source_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+          "basis": "gov",
+          "label": "HK Cap 132V grain total mercury 20 ug/kg (0.02 mg/kg; rice, husked/polished rice, maize, maize flour, wheat, wheat flour) — the strictest sovereign grain total-Hg limit; supersedes the looser Israel FCS-2016 cereals-and-cereal-products 30. The EU 2018/73 'cereals' 10 is a pesticide-residue MRL, not a contaminant ML, and is excluded.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        },
+        "Cr": {
+          "source_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "basis": "gov",
+          "label": "China GB 2762-2022 Table 7 grains and milled-grain-products total chromium 1.0 mg/kg (total Cr, not Cr-VI); corroborated by HK Cap 132V Cereals Cr-total 1000.",
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B); china_gb2762_crtotal_grains_1000 → successor china_gb2762_2025_crtotal_cereals_1000"
         }
       }
     }
-  }
+  },
+  "_harvest_2026_09_02": "53 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 29 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat3-compiled.json",
+  "_reconciliation_2026_09_02": "Round-trip reconciliation against live cert cat3-compiled: Cr added to the panel (11-cell); live sovereign anchors harvested from the cert records (HK Cap 132V mercury 20 on grain rows; GB 2760-2024 alum residue as the aluminium read-across; GB 2762-2025 cereals chromium 1000; Singapore any-food tin 250000; EU 2020/2184 drinking water for the rice beverage) replacing the retired inline aluminium values (1500/1000/5000) that cited no register row; rice-beverage total chromium re-anchored to the HK total-chromium bottled-water row at the same value; infant-food rows ('consumed principally by infants and young children') excluded from every grain scope."
 }

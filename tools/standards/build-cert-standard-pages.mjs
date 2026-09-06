@@ -33,7 +33,7 @@ const rows = parse(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_lim
 function parse(t) { const L = t.replace(/\r/g, "").trim().split("\n"); const H = sp(L[0]); return L.slice(1).map((l) => Object.fromEntries(sp(l).map((v, i) => [H[i], v]))) }
 function sp(line) { const o = []; let c = "", q = false; for (const ch of line) { if (ch === '"') q = !q; else if (ch === "," && !q) { o.push(c); c = "" } else c += ch } o.push(c); return o.map((s) => s.replace(/^"|"$/g, "")) }
 const n = (v) => { const x = Number(v); return Number.isFinite(x) ? x : null }
-const draft = (x) => /draft|not for implementation/i.test((x.status || "") + " " + (x.notes || ""))
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const draft = (x) => STATUS_GATE.test(x.status) || /draft|not for implementation/i.test(x.notes || "")
 const FORM = rows.filter((x) => /formula|infant milk substitute/i.test(x.product_scope) &&
   !/cereal|complementary|weaning|transition|meal|juice/i.test(x.product_scope) && !draft(x) && x.basis_class)
 const canned = (x) => /canned/i.test(x.product_scope)

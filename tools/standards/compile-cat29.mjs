@@ -51,8 +51,9 @@ const SPECIES = new Set(["iAs", "Cr-VI", "MeHg"])
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CH", "CN", "IN", "BR", "GSO", "MERCOSUR", "TH", "PH", "PY", "IL", "CO", "VN", "SG", "MA", "PA", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio) — OFF here.
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 // Animal-feed limits (Directive 2002/32/EC and equivalents) carry "feed" in the basis column. They are
 // not food MLs; categorically exclude them from food strictest-selection.
 const FEED = /\bfeed\b/i
@@ -176,7 +177,7 @@ function resolveCell(sub, analyte, variant) {
   // ratchets the standard back up above a defensible near-neighbour value).
   const ra = (sub.read_across || {})[analyte] || (config.default_read_across || {})[analyte]
   let raResult = null
-  if (ra && !ra.not_material && !ra.control_only) {
+  if (ra && !ra.not_material && !ra.control_only && !ra.subsumed) {
     // Inline numeric read-across belonged to the retired occurrence/precautionary method. A current
     // numeric read-across must cite a sovereign register row by source_id; otherwise the cell is a gap.
     if (ra.value_ppb != null) {
@@ -199,6 +200,15 @@ function resolveCell(sub, analyte, variant) {
   }
   if (raResult) {
     return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest sovereign value; comparator vs any direct limit)", per_country: perCountry }
+  }
+  if (ra && ra.subsumed) {
+    // A toxic species bounded by its FIRM parent total (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ Cr): an enforceable
+    // limit-of-record (Certification-Readiness Ruling §1), tagged subsumed (lib/provenance.mjs); the audit
+    // (C11) and the readiness lint refuse it unless the parent carries a firm numeric ceiling.
+    const b = ra.subsumed.bounded_by || ra.subsumed.subsumed_by || null
+    return { type: "subsumed", value: null, provenance: "subsumed", subsumed_by: b, bounded_by: b, basis_class: ra.subsumed.basis_class || "speciation-bounded",
+      rationale: ra.subsumed.rationale || `${analyte} is a component of ${b} and is bounded by it (${analyte} <= ${b}); no sovereign sets a separate ${analyte} ceiling for this product, so the parent ceiling is the species ceiling, established at baseline and speciated on any lot whose total exceeds its limit.`,
+      regulatory_basis: ra.subsumed.regulatory_basis || null, jurisdictions_checked: ra.subsumed.jurisdictions_checked || null, reference_method: ra.subsumed.reference_method || null }
   }
   if (ra && ra.not_material) {
     return { type: "not_material", value: null, basis_class: ra.basis_class || null, control: ra.control || ra.rationale || "not material", reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null, regulatory_basis: ra.regulatory_basis || null, jurisdictions_checked: ra.jurisdictions_checked || null }
@@ -256,11 +266,11 @@ function reconcileMercurySpeciation(cells) {
 
 // --- VERIFY: certification contract -------------------------------------------
 function verifyCell(loc, analyte, cell, defects) {
-  const RESOLVED = new Set(["gov", "read_across", "not_material", "control", "subsumed"])
+  const RESOLVED = new Set(["precautionary", "gov", "read_across", "not_material", "control", "subsumed"])
   if (!cell || !RESOLVED.has(cell.type)) { defects.push(`${loc}: unresolved cell type ${cell?.type || "missing"}${cell?.error ? " — " + cell.error : ""}`); return }
   const numeric = typeof cell.value_exact === "number" || typeof cell.value === "number"
   const source = cell.binding_id || cell.source_id || null
-  if (numeric && !source) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
+  if (numeric && !source && !(cell.type === "precautionary" && cell.sovereign_floor)) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
   if (["control", "not_material"].includes(cell.type)) {
     if (!(cell.control || cell.rationale || cell.label)) defects.push(`${loc}: ${cell.type} determination has no explanation`)
     if (!cell.reference_method) defects.push(`${loc}: ${cell.type} determination has no reference method`)
@@ -290,6 +300,7 @@ for (const slug of slugs) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
     reconcileMercurySpeciation(cells)
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     for (const a of PANEL) {
       const c = cells[a]
       if (c.type === "gov" || c.type === "read_across") {

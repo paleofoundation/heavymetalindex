@@ -129,23 +129,16 @@
     },
     "iAs": {
       "analyte": "iAs",
-      "provenance": "regulatory-alignment",
-      "cell_kind": "gov",
-      "value": 500,
-      "value_exact": 500,
-      "binding_jurisdiction": "IL",
-      "binding_id": "il_fcs2016_ias_12_salt_500",
-      "basis": "food-grade salt (dry); inorganic arsenic. Israel FCS 2016 sets an explicit inorganic-arsenic salt limit (500 ug/kg), coincident with the total-As ceiling (iAs <= tAs).",
-      "binding_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "binding_url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-      "concurring": [
-        {
-          "id": "il_fcs2016_ias_12_salt_500",
-          "value": 500,
-          "jurisdiction": "IL"
-        }
-      ],
-      "stricter_unselected": []
+      "provenance": "subsumed",
+      "cell_kind": "subsumed",
+      "type": "subsumed",
+      "value": null,
+      "subsumed_by": "tAs",
+      "bounded_by": "tAs",
+      "binding_total": 500,
+      "basis_class": "speciation-bounded",
+      "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (500 ug/kg); no separate iAs ceiling is published. Total arsenic is measured on every lot; iAs is speciated whenever tAs exceeds its reflex trigger.",
+      "precautionary_refused": "precautionary value 500 is not below the sovereign floor 500"
     },
     "tHg": {
       "analyte": "tHg",

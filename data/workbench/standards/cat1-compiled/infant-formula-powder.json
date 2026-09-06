@@ -28,11 +28,6 @@
             "converted": false,
             "id": "uk_pb_infant-formulae-and-follow-on-formulae-m_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_pb_15_1_infant_formula_powder_50"
-          },
           "CODEX": {
             "value": 80,
             "converted": true,
@@ -51,7 +46,7 @@
           "CN": {
             "value": 80,
             "converted": false,
-            "id": "cn_pb_formula-food-for-infants-and-young-child_80"
+            "id": "china_gb2762_2025_pb_infant_formula_solid_80"
           },
           "BR": {
             "value": 80,
@@ -88,7 +83,8 @@
             "converted": false,
             "id": "in_pb_infant-milk-substitute-and-infant-foods_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
@@ -113,11 +109,6 @@
             "converted": false,
             "id": "gso193_2021_cd_powdered_formulae_manufactured_from_cows_milk_proteins_or_protein_hydrol_10"
           },
-          "IL": {
-            "value": 10,
-            "converted": false,
-            "id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10"
-          },
           "BR": {
             "value": 80,
             "converted": true,
@@ -128,7 +119,8 @@
             "converted": false,
             "id": "in_cd_infant-milk-substitute-and-infant-foods_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -147,18 +139,9 @@
             "value": 100,
             "converted": false,
             "id": "sg_foodregs_2026_infant_formula_tas_100"
-          },
-          "CN": {
-            "value": 500,
-            "converted": false,
-            "id": "cn_tas_milk-powder-and-modified-milk-powder-gen_500"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -173,30 +156,53 @@
             "converted": false,
             "id": "eu2023_ias_formula_powder_20"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50"
-          },
           "BR": {
             "value": 160,
             "converted": true,
             "id": "br_ias_pediatric-formula-for-enteral-nutrition_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "gov",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 15,
         "value_exact": 15,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
-        "basis_note": "same basis",
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "TH",
+          "binding_id": "th_moph414_2020_thg_food_other_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "TH": {
+              "value": 20,
+              "converted": false,
+              "id": "th_moph414_2020_thg_food_other_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 15 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 15 ug/kg, below the sovereign floor of 20 ug/kg (th_moph414_2020_thg_food_other_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
-          "IL": {
-            "value": 15,
+          "TH": {
+            "value": 20,
             "converted": false,
-            "id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15"
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         }
       },
@@ -204,10 +210,11 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 15,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (15 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -222,7 +229,8 @@
             "converted": false,
             "id": "eu2024_ni_formula_powder_250"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -237,7 +245,8 @@
             "converted": false,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "gov",
@@ -252,22 +261,19 @@
             "converted": true,
             "id": "aunz_sch19_al_formula_nonsoy_500"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr": {
-        "type": "gov",
+        "type": "read_across",
         "value": 2000,
         "value_exact": 2000,
-        "binding_jurisdiction": "CN",
-        "binding_id": "cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000",
-        "basis_note": "same basis",
-        "per_country": {
-          "CN": {
-            "value": 2000,
-            "converted": false,
-            "id": "cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000"
-          }
-        }
+        "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+        "source_jurisdiction": "CN",
+        "label": "government read-across (China GB 2762 milk powder → formula)",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
@@ -276,7 +282,8 @@
         "binding_parent_value": 2000,
         "binding_parent_source": "CN",
         "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (2000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       }
     },
     "soy": {
@@ -303,11 +310,6 @@
             "converted": false,
             "id": "uk_pb_infant-formulae-and-follow-on-formulae-m_50"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_pb_15_1_infant_formula_powder_50"
-          },
           "CODEX": {
             "value": 80,
             "converted": true,
@@ -326,7 +328,7 @@
           "CN": {
             "value": 80,
             "converted": false,
-            "id": "cn_pb_formula-food-for-infants-and-young-child_80"
+            "id": "china_gb2762_2025_pb_infant_formula_solid_80"
           },
           "BR": {
             "value": 80,
@@ -363,21 +365,17 @@
             "converted": false,
             "id": "in_pb_infant-milk-substitute-and-infant-foods_200"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cd": {
         "type": "gov",
-        "value": 10,
-        "value_exact": 10,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10",
+        "value": 20,
+        "value_exact": 20,
+        "binding_jurisdiction": "EU",
+        "binding_id": "eu2023_cd_formula_soy_powder_20",
         "basis_note": "same basis",
         "per_country": {
-          "IL": {
-            "value": 10,
-            "converted": false,
-            "id": "il_fcs2016_cd_14_1_infant_and_toddler_formulas_powder_10"
-          },
           "EU": {
             "value": 20,
             "converted": false,
@@ -403,7 +401,8 @@
             "converted": false,
             "id": "in_cd_infant-milk-substitute-and-infant-foods_100"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tAs": {
         "type": "gov",
@@ -422,18 +421,9 @@
             "value": 100,
             "converted": false,
             "id": "sg_foodregs_2026_infant_formula_tas_100"
-          },
-          "CN": {
-            "value": 500,
-            "converted": false,
-            "id": "cn_tas_milk-powder-and-modified-milk-powder-gen_500"
-          },
-          "IL": {
-            "value": 1000,
-            "converted": false,
-            "id": "il_fcs2016_tas_14_1_infant_and_toddler_formulas_powder_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "iAs": {
         "type": "gov",
@@ -448,30 +438,53 @@
             "converted": false,
             "id": "eu2023_ias_formula_powder_20"
           },
-          "IL": {
-            "value": 50,
-            "converted": false,
-            "id": "il_fcs2016_ias_14_1_infant_and_toddler_formulas_powder_50"
-          },
           "BR": {
             "value": 160,
             "converted": true,
             "id": "br_ias_pediatric-formula-for-enteral-nutrition_20"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "gov",
+        "type": "precautionary",
+        "provenance": "precautionary",
         "value": 15,
         "value_exact": 15,
-        "binding_jurisdiction": "IL",
-        "binding_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
-        "basis_note": "same basis",
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "TH",
+          "binding_id": "th_moph414_2020_thg_food_other_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "TH": {
+              "value": 20,
+              "converted": false,
+              "id": "th_moph414_2020_thg_food_other_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 15 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 15 ug/kg, below the sovereign floor of 20 ug/kg (th_moph414_2020_thg_food_other_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
-          "IL": {
-            "value": 15,
+          "TH": {
+            "value": 20,
             "converted": false,
-            "id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15"
+            "id": "th_moph414_2020_thg_food_other_20"
           }
         }
       },
@@ -479,10 +492,11 @@
         "type": "subsumed",
         "value": null,
         "subsumed_by": "tHg",
-        "binding_parent_value": 15,
-        "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (15 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
-        "candidate": null
+        "binding_parent_value": 20,
+        "binding_parent_source": "TH",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (20 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "candidate": null,
+        "provenance": "subsumed"
       },
       "Ni": {
         "type": "gov",
@@ -497,7 +511,8 @@
             "converted": false,
             "id": "eu2024_ni_formula_soy_powder_400"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Sn": {
         "type": "gov",
@@ -512,7 +527,8 @@
             "converted": false,
             "id": "in_sn_infant-milk-substitute-and-infant-foods_5000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Al": {
         "type": "gov",
@@ -527,22 +543,19 @@
             "converted": true,
             "id": "aunz_sch19_al_formula_soy_1000"
           }
-        }
+        },
+        "provenance": "regulatory-alignment"
       },
       "Cr": {
-        "type": "gov",
+        "type": "read_across",
         "value": 2000,
         "value_exact": 2000,
-        "binding_jurisdiction": "CN",
-        "binding_id": "cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000",
-        "basis_note": "same basis",
-        "per_country": {
-          "CN": {
-            "value": 2000,
-            "converted": false,
-            "id": "cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000"
-          }
-        }
+        "source_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+        "source_jurisdiction": "CN",
+        "label": "government read-across (China GB 2762 milk powder → formula)",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {},
+        "provenance": "read-across"
       },
       "Cr-VI": {
         "type": "subsumed",
@@ -551,7 +564,8 @@
         "binding_parent_value": 2000,
         "binding_parent_source": "CN",
         "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (2000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null
+        "candidate": null,
+        "provenance": "subsumed"
       }
     }
   },

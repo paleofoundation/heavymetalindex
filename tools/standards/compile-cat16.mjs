@@ -62,8 +62,9 @@ const QUIET = args.has("quiet")
 // Canonical HMTc panel: eight totals + the two core species (iAs, Cr-VI) + conditional MeHg.
 const FULL_PANEL = ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al", "Cr"]
 const SPECIES = new Set(["iAs", "Cr-VI", "MeHg"])
-const DRAFT = /draft|not for implementation|proposed/i
-const QUARANTINE = /quarantin/i
+import { stampProvenance } from "./lib/provenance.mjs"
+import { STATUS_GATE } from "./lib/register-gate.mjs"; const DRAFT = STATUS_GATE // unified register status gate + not-yet-in-force (Phase A6)
+const QUARANTINE = STATUS_GATE // same unified gate; kept as a name for the call sites
 const FEED = /\bfeed\b/i
 const PESTICIDE = /pesticide|residue level/i
 const CANNED = /canned|tinplate|tin-plate|tin-coated|tin coated|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i
@@ -162,6 +163,7 @@ function resolveCell(sub, analyte) {
     return {
       type: "control", value: null,
       control: ra.control || "no sovereign infant-food maximum; mandatory surveillance control",
+      rationale: ra.rationale || ra.control || "no sovereign infant-food maximum; mandatory surveillance control",
       reference_method: ra.reference_method || null, bounded_by: ra.bounded_by || null, adult_floor,
     }
   }
@@ -244,11 +246,11 @@ function reconcileMercurySpeciation(cells) {
 
 // --- VERIFY: certification contract -------------------------------------------
 function verifyCell(loc, analyte, cell, defects) {
-  const RESOLVED = new Set(["gov", "read_across", "not_material", "control", "subsumed"])
+  const RESOLVED = new Set(["precautionary", "gov", "read_across", "not_material", "control", "subsumed"])
   if (!cell || !RESOLVED.has(cell.type)) { defects.push(`${loc}: unresolved cell type ${cell?.type || "missing"}${cell?.error ? " — " + cell.error : ""}`); return }
   const numeric = typeof cell.value_exact === "number" || typeof cell.value === "number"
   const source = cell.binding_id || cell.source_id || null
-  if (numeric && !source) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
+  if (numeric && !source && !(cell.type === "precautionary" && cell.sovereign_floor)) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
   if (["control", "not_material"].includes(cell.type)) {
     if (!(cell.control || cell.rationale || cell.label)) defects.push(`${loc}: ${cell.type} determination has no explanation`)
     if (!cell.reference_method) defects.push(`${loc}: ${cell.type} determination has no reference method`)
@@ -281,6 +283,17 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
+  // Certification-readiness ruling: a species (iAs, MeHg, Cr-VI) left as a control or a gap while its parent total is
+  // a firm number is bounded by that parent (species <= total); control is transitional (lib/provenance.mjs).
+  for (const [sp, tot, spName, totName] of [["iAs", "tAs", "Inorganic arsenic", "total arsenic"], ["MeHg", "tHg", "Methylmercury", "total mercury"], ["Cr-VI", "Cr", "Hexavalent chromium", "total chromium"]]) {
+    if (!PANEL.includes(sp)) continue
+    const t = cells[tot], c = cells[sp]
+    const tv = t && typeof t.value === "number" ? t.value : null
+    if (tv == null || !c || !(c.type === "control" || c.type === "gap" || c.error)) continue
+    cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded", adult_floor: c.adult_floor,
+      rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
+  }
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   for (const a of PANEL) {
     const c = cells[a]
     if (c.type === "read_across") {

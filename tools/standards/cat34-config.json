@@ -4,7 +4,19 @@
   "category_name": "Herbs, Spices, Seasonings and Salt",
   "_nm_date": "2026-08-13",
   "method": "HMTc Method v2.0 (government-limit default; explicit-id lookup; legislated product-form splits preserved; dried-spice basis discipline)",
-  "panel": ["Pb", "Cd", "tAs", "iAs", "tHg", "MeHg", "Ni", "Sn", "Al", "Cr", "Cr-VI"],
+  "panel": [
+    "Pb",
+    "Cd",
+    "tAs",
+    "iAs",
+    "tHg",
+    "MeHg",
+    "Ni",
+    "Sn",
+    "Al",
+    "Cr",
+    "Cr-VI"
+  ],
   "subcategories": {
     "spices": {
       "name": "Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)",
@@ -19,21 +31,55 @@
             "basis": "dried spice as placed on the market (dry basis)",
             "instrument": "EU Reg. 2023/915 — lead in spices, set by botanical part. The controlling worldwide instrument for spice lead; carried as a form_split and preserved exactly. Certification applies the botanical part matching the spice.",
             "forms": [
-              { "form": "fruit spices (paprika, chili powder, black pepper, allspice)", "gov_ids": ["eu2023_pb_spice_fruit_600"] },
-              { "form": "seed spices (cumin, coriander, fennel, mustard)", "gov_ids": ["eu2023_pb_spice_seed_900"] },
-              { "form": "flower/pistil spices (saffron)", "gov_ids": ["eu2023_pb_spice_flower_pistil_1000"] },
-              { "form": "bud spices (cloves)", "gov_ids": ["eu2023_pb_spice_bud_1000"] },
-              { "form": "root and rhizome spices (turmeric, ginger)", "gov_ids": ["eu2023_pb_spice_root_1500"] },
-              { "form": "bark spices (cinnamon)", "gov_ids": ["eu2023_pb_spice_bark_2000"] }
+              {
+                "form": "fruit spices (paprika, chili powder, black pepper, allspice)",
+                "gov_ids": [
+                  "eu2023_pb_spice_fruit_600"
+                ]
+              },
+              {
+                "form": "seed spices (cumin, coriander, fennel, mustard)",
+                "gov_ids": [
+                  "eu2023_pb_spice_seed_900"
+                ]
+              },
+              {
+                "form": "flower/pistil spices (saffron)",
+                "gov_ids": [
+                  "eu2023_pb_spice_flower_pistil_1000"
+                ]
+              },
+              {
+                "form": "bud spices (cloves)",
+                "gov_ids": [
+                  "eu2023_pb_spice_bud_1000"
+                ]
+              },
+              {
+                "form": "root and rhizome spices (turmeric, ginger)",
+                "gov_ids": [
+                  "eu2023_pb_spice_root_1500"
+                ]
+              },
+              {
+                "form": "bark spices (cinnamon)",
+                "gov_ids": [
+                  "eu2023_pb_spice_bark_2000"
+                ]
+              }
             ]
           }
         },
         "Cd": {
-          "gov_ids": ["vn_qcvn8_2_2011_cd_spices-including-curry-powder_1000"],
+          "gov_ids": [
+            "vn_qcvn8_2_2011_cd_spices-including-curry-powder_1000"
+          ],
           "basis_label": "dried spice (dry basis); spice-specific dried-basis limit. Fresh fruiting-vegetable Cd (50) and fresh-herb Cd (200) are a different, wet-weight basis and do not govern a dried spice."
         },
         "tAs": {
-          "gov_ids": ["sg_foodregs_2026_dried_herbs_spices_mustard_tas_1500"],
+          "gov_ids": [
+            "sg_foodregs_2026_dried_herbs_spices_mustard_tas_1500"
+          ],
           "basis_label": "dried herbs and spices (dry basis). Fresh-herb tAs (300) is a wet-weight basis and does not govern a dried spice."
         },
         "iAs": {
@@ -44,7 +90,9 @@
           }
         },
         "tHg": {
-          "gov_ids": ["vn_qcvn8_2_2011_thg_spices-including-curry-powder_50"],
+          "gov_ids": [
+            "vn_qcvn8_2_2011_thg_spices-including-curry-powder_50"
+          ],
           "basis_label": "dried spice (dry basis)"
         },
         "MeHg": {
@@ -111,25 +159,50 @@
             "basis": "food-grade salt as placed on the market (dry)",
             "instrument": "EU Reg. 2023/915 — lead in salt, split refined (general food-grade) vs unrefined (fleur de sel, grey salt, manually harvested). The strictest sovereign salt-lead limit; Codex STAN 193 sets 2 mg/kg, so the EU refined value governs.",
             "forms": [
-              { "form": "refined / general food-grade salt (table salt)", "gov_ids": ["eu2023_pb_salt_1000", "gso193_2021_pb_salt_food_grade_1000", "ba_pravilnik_2022_pb_3_1_27a_1000"] },
-              { "form": "unrefined salt (fleur de sel, grey salt, manually harvested sea salt)", "gov_ids": ["eu2023_pb_salt_unrefined_2000"] }
+              {
+                "form": "refined / general food-grade salt (table salt)",
+                "gov_ids": [
+                  "eu2023_pb_salt_1000",
+                  "gso193_2021_pb_salt_food_grade_1000",
+                  "ba_pravilnik_2022_pb_3_1_27a_1000"
+                ]
+              },
+              {
+                "form": "unrefined salt (fleur de sel, grey salt, manually harvested sea salt)",
+                "gov_ids": [
+                  "eu2023_pb_salt_unrefined_2000"
+                ]
+              }
             ]
           }
         },
         "Cd": {
-          "gov_ids": ["gso193_2021_cd_salt_food_grade_500", "co_res4506_2013_cd_food_grade_salt_500", "th_moph414_2020_cd_food_grade_salt_500"],
+          "gov_ids": [
+            "gso193_2021_cd_salt_food_grade_500",
+            "co_res4506_2013_cd_food_grade_salt_500",
+            "th_moph414_2020_cd_food_grade_salt_500"
+          ],
           "basis_label": "food-grade salt (dry); Codex-aligned 0.5 mg/kg, concurred by many jurisdictions"
         },
         "tAs": {
-          "gov_ids": ["eu20251891_tas_salt_500", "aunz_sch19_tas_salt_500"],
+          "gov_ids": [
+            "eu20251891_tas_salt_500",
+            "aunz_sch19_tas_salt_500"
+          ],
           "basis_label": "food-grade salt (dry); total arsenic, EU Reg. 2025/1891 with FSANZ concurrence at 500"
         },
         "iAs": {
-          "gov_ids": ["il_fcs2016_ias_12_salt_500"],
-          "basis_label": "food-grade salt (dry); inorganic arsenic. Israel FCS 2016 sets an explicit inorganic-arsenic salt limit (500 ug/kg), coincident with the total-As ceiling (iAs <= tAs)."
+          "subsumed": {
+            "bounded_by": "tAs",
+            "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+            "jurisdictions_checked": "register scan 2026-09-02"
+          }
         },
         "tHg": {
-          "gov_ids": ["eu2022_617_hg_salt_100", "aunz_sch19_hg_salt_100"],
+          "gov_ids": [
+            "eu2022_617_hg_salt_100",
+            "aunz_sch19_hg_salt_100"
+          ],
           "basis_label": "food-grade salt (dry); total mercury, EU Reg. 2022/617 with FSANZ concurrence at 100"
         },
         "MeHg": {
@@ -187,7 +260,15 @@
           }
         }
       },
-      "scope_note": "Covers table salt, sea salt, and Himalayan/rock salt. Lead is a form_split refined (1000) vs unrefined (2000) per EU 2023/915; certification applies the form matching the product. Salt is an independent mineral row (not plant-uptake); cadmium/arsenic/mercury bind the Codex-aligned food-grade-salt limits. Aluminium is additive-permitted anti-caking, managed by additive law and TWI."
+      "scope_note": "Covers table salt, sea salt, and Himalayan/rock salt. Lead is a form_split refined (1000) vs unrefined (2000) per EU 2023/915; certification applies the form matching the product. Salt is an independent mineral row (not plant-uptake); cadmium/arsenic/mercury bind the Codex-aligned food-grade-salt limits. Aluminium is additive-permitted anti-caking, managed by additive law and TWI.",
+      "precautionary": {
+        "iAs": {
+          "value": 500,
+          "rationale": "Published iAs of 500 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_12_salt_500) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat34-compiled|salt|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "hot-chili-sauces": {
       "name": "Hot sauce and chili sauces",
@@ -198,29 +279,34 @@
       "audit_exclude_scope": "soy sauce|fish sauce|\\bsalt\\b|canned|tinplate",
       "cells": {
         "Pb": {
-          "gov_ids": ["sg_foodregs_2026_tomato_ketchup_sauces_pb_2000", "vn_qcvn8_2_2011_pb_sauce_2000"],
-          "basis_label": "sauce as consumed (liquid), general savoury-sauce category (Singapore 'tomato ketchup and other sauces' / Vietnam 'sauce', both 2000). Lead in a hot/chili sauce is chili-borne (the same adulteration platform as turmeric). DOCUMENTED EXCLUSION: Colombia Res. 4506/2013 sets a stricter Pb 1000 for 'mango hot sauce and canned mangoes' (co_res4506_2013_pb_mango_hot_sauce_canned_1000) — that is a FRUIT-PRODUCT entry (a mango/fruit sauce bundled with canned mangoes; fruit-borne lead, canned-fruit basis), a different product class and contamination platform, so it does not govern a bottled chili/pepper sauce and is not adopted. This exclusion is a product-class judgement, not the mechanical canned-token filter."
+          "gov_ids": [
+            "china_gb2762_2025_pb_condiments_excl_spices_1000"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cd": {
-          "gov_ids": ["vn_qcvn8_2_2011_cd_sauce_1000"],
+          "gov_ids": [
+            "vn_qcvn8_2_2011_cd_sauce_1000"
+          ],
           "basis_label": "sauce as consumed (liquid)"
         },
         "tAs": {
-          "gov_ids": ["sg_foodregs_2026_tomato_ketchup_sauces_tas_1000", "vn_qcvn8_2_2011_tas_sauce_1000"],
+          "gov_ids": [
+            "sg_foodregs_2026_tomato_ketchup_sauces_tas_1000",
+            "vn_qcvn8_2_2011_tas_sauce_1000"
+          ],
           "basis_label": "sauce as consumed (liquid)"
         },
         "iAs": {
-          "not_material": {
-            "basis_class": "speciation-bounded",
-            "bounded_by": "tAs",
-            "rationale": "No inorganic-arsenic maximum level for sauces; the total-arsenic sauce limit (1000 ug/kg) bounds the inorganic fraction (iAs <= tAs).",
-            "reference_method": "Total-arsenic screen; reflex speciation on elevation.",
-            "regulatory_basis": "Bounded by the total-As sauce standard (1000); no inorganic-As sauce ML anywhere",
-            "jurisdictions_checked": "Singapore; Vietnam; EU; FDA"
-          }
+          "gov_ids": [
+            "china_gb2762_2025_ias_compound_condiment_100"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
-          "gov_ids": ["vn_qcvn8_2_2011_thg_sauce_50"],
+          "gov_ids": [
+            "vn_qcvn8_2_2011_thg_sauce_50"
+          ],
           "basis_label": "sauce as consumed (liquid)"
         },
         "MeHg": {
@@ -283,10 +369,10 @@
       "audit_exclude_scope": "fresh|fruiting vegetable|leaf vegetable|leafy vegetable|\\bsalt\\b|\\btea\\b|\\boil\\b",
       "cells": {
         "Pb": {
-          "read_across": {
-            "source_id": "vn_qcvn8_2_2011_pb_spices-including-curry-powder_2000",
-            "label": "no bouillon/seasoning-blend-specific ML exists; read across the nearest applicable sovereign — the spice-blend / curry-powder scope (Vietnam QCVN 8-2:2011 lead 2000 ug/kg; Singapore dried herbs and spices concurs at 2000). A seasoning blend is compositionally a spice blend (curry powder is the archetype)."
-          }
+          "gov_ids": [
+            "china_gb2762_2025_pb_condiments_excl_spices_1000"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "Cd": {
           "read_across": {
@@ -301,14 +387,10 @@
           }
         },
         "iAs": {
-          "not_material": {
-            "basis_class": "speciation-bounded",
-            "bounded_by": "tAs",
-            "rationale": "No inorganic-arsenic maximum level for seasoning blends; the total-arsenic curry-powder limit (1000 ug/kg) bounds the inorganic fraction.",
-            "reference_method": "Total-arsenic screen; reflex speciation on elevation.",
-            "regulatory_basis": "Bounded by the read-across total-As curry-powder standard (1000); no inorganic-As blend ML anywhere",
-            "jurisdictions_checked": "Singapore; Vietnam; EU; FDA"
-          }
+          "gov_ids": [
+            "china_gb2762_2025_ias_compound_condiment_100"
+          ],
+          "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         },
         "tHg": {
           "read_across": {
@@ -370,5 +452,6 @@
       },
       "scope_note": "Covers bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy and seasoning packets). No sovereign sets a blend-specific ML, so lead, cadmium, total arsenic and total mercury read across the nearest applicable sovereign scope — the spice-blend / curry-powder limits (curry powder is the archetypal, explicitly-regulated seasoning blend). Chromium is screened as a lead-chromate adulteration co-marker for chili/paprika-forward blends. Salt-dominant bouillon cubes additionally sit at or below the food-grade-salt lead ceiling."
     }
-  }
+  },
+  "_harvest_2026_09_02": "4 cell spec(s) harvested from the live cert records by tools/standards/harvest-cert-anchors.mjs (Phase B reconciliation); 0 cert cell(s) NOT harvested (basis_guard / gated / non-harvestable) and left for the completion pass — see data/workbench/standards/confidence/_harvest-cat34-compiled.json"
 }

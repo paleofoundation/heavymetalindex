@@ -1,0 +1,29 @@
+{
+  "packet_id": "m2-20260902-p6",
+  "batch_id": "cat30-compiled-945322db88c74903-run-20260902-a",
+  "evidence_key": "945322db88c74903",
+  "model": "claude-fable-5-1",
+  "effort": "high",
+  "run_id": "run-20260902-a",
+  "agent": "A",
+  "cells": [
+    {
+      "key": "cooking-oils-other|default|Cr",
+      "derived_value": 300,
+      "derived_anchor_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 7 item 6.1 'Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk' (生乳、巴氏杀菌乳、灭菌乳、调制乳、发酵乳), 0.3 mg/kg total chromium = 300 ug/kg, entered into force 2026-09-02 unchanged from GB 2762-2022, is a content ML on the as-placed-on-market basis and is total Cr, matching this Cr cell for vegetable cooking oils. No sovereign chromium ML for fats or oils exists in the register: GB 2762-2025 Table 7 (cereals, milled cereals, fresh vegetables, beans, meat, aquatic animals, milk, milk powder) and HK Cap 132V (vegetables, pulses, cereals, meats, fish, shellfish, waters) list no oil line, and the India and Switzerland rows are gelatin, collagen and fishery products, so there is no product-nearer instrument to name and the liquid-milk line is the strictest in-force food-content Cr-total ML. The only stricter Cr-total rows (EU 2020/2184 water 25; WHO, Health Canada, California and HK waters 50; US EPA and FDA bottled water 100; EU 10/2011 plastics and CN/CoE food-contact-metal migration 10 to 250) are drinking-water or migration basis and are excluded."
+    },
+    {
+      "key": "olive-oil|default|Cr",
+      "derived_value": 300,
+      "derived_anchor_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+      "same_basis_candidates": [],
+      "blind_value": 300,
+      "applicability": "confirmed",
+      "reason": "GB 2762-2025 Table 7 item 6.1 'Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk' (生乳、巴氏杀菌乳、灭菌乳、调制乳、发酵乳), 0.3 mg/kg total chromium = 300 ug/kg, entered into force 2026-09-02 unchanged from GB 2762-2022, is a content ML on the as-placed-on-market basis and is total Cr, matching this Cr cell for olive oil. No sovereign chromium ML for fats or oils exists in the register: GB 2762-2025 Table 7 (cereals, milled cereals, fresh vegetables, beans, meat, aquatic animals, milk, milk powder) and HK Cap 132V (vegetables, pulses, cereals, meats, fish, shellfish, waters) list no oil line, and the India and Switzerland rows are gelatin, collagen and fishery products, so there is no product-nearer instrument to name and the liquid-milk line is the strictest in-force food-content Cr-total ML. The only stricter Cr-total rows (EU 2020/2184 water 25; WHO, Health Canada, California and HK waters 50; US EPA and FDA bottled water 100; EU 10/2011 plastics and CN/CoE food-contact-metal migration 10 to 250) are drinking-water or migration basis and are excluded."
+    }
+  ]
+}
