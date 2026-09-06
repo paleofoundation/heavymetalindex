@@ -176,20 +176,46 @@
         "provenance": "read-across"
       },
       "tHg": {
-        "type": "gov",
-        "value": 20,
-        "value_exact": 20,
-        "binding_jurisdiction": "CN",
-        "binding_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
-        "basis_note": "government maximum level by lookup",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 8,
+        "value_exact": 8,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "value": 20,
+          "jurisdiction": "CN",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "CN",
+          "binding_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "CN": {
+              "value": 20,
+              "converted": false,
+              "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 8 ug/kg, below the sovereign floor of 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
           "CN": {
             "value": 20,
             "converted": false,
             "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
           }
-        },
-        "provenance": "regulatory-alignment"
+        }
       },
       "MeHg": {
         "type": "subsumed",

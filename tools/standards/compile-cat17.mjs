@@ -316,7 +316,7 @@ for (const slug of slugs) {
     cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded", adult_floor: c.adult_floor,
       rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
   }
-  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   record.variants.both = cells
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
   summary.push(record)

@@ -19,374 +19,415 @@
     "read-across",
     "subsumed",
     "baseline-screen",
+    "precautionary",
     "ratchet",
     "control",
     "not-material"
   ],
   "cells": {
     "Pb": {
-      "type": "gov",
-      "value": 1000,
-      "value_exact": 1000,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "TH",
-      "binding_id": "th_moph414_2020_pb_food_supplement_1000",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 10,
+      "value_exact": 10,
+      "unit": "ug/kg",
       "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
-      "binding_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
-      "candidates": [
-        {
-          "id": "th_moph414_2020_pb_food_supplement_1000",
-          "value": 1000,
-          "jurisdiction": "TH"
-        }
-      ],
-      "stricter_unselected": [
-        {
-          "id": "eu2023_pb_fats_oils_100",
-          "value": 100,
-          "jurisdiction": "EU",
-          "basis": "product as placed on market",
-          "scope": "fats and oils, including milk fat"
-        },
-        {
-          "id": "in_fssai2016_pb_007_brassica_vegetables_excluding_kale_300",
-          "value": 300,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Brassica vegetables excluding Kale"
-        },
-        {
-          "id": "in_fssai2016_pb_008_bulb_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Bulb vegetables"
-        },
-        {
-          "id": "in_fssai2016_pb_009_fruiting_vegetables_cucurbits_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Fruiting vegetables, cucurbits"
-        },
-        {
-          "id": "in_fssai2016_pb_010_fruiting_vegetables_other_than_cucurbits_excluding_mushrooms_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Fruiting vegetables other than cucurbits (exclud"
-        },
-        {
-          "id": "in_fssai2016_pb_011_leafy_vegetables_including_brassica_leafy_vegetables_but_excluding_spi_300",
-          "value": 300,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Leafy vegetables (including brassica leafy veget"
-        },
-        {
-          "id": "in_fssai2016_pb_012_legume_vegetables_200",
-          "value": 200,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Legume vegetables"
-        },
-        {
-          "id": "in_fssai2016_pb_014_root_and_tuber_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Root and tuber vegetables"
-        },
-        {
-          "id": "in_fssai2016_pb_038_cereal_grains_except_buckwheat_canihua_and_quinoa_200",
-          "value": 200,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Cereal grains, except buckwheat, canihua and qui"
-        },
-        {
-          "id": "in_fssai2016_pb_054_vegetable_oils_crude_oils_of_arachis_babasu_coconut_cotton_seed_grape_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Vegetable oils, crude (oils of arachis, babasu, "
-        },
-        {
-          "id": "in_fssai2016_pb_055_vegetable_oils_edible_oils_of_arachis_babasu_coconut_cotton_seed_grape_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Vegetable oils, edible (oils of arachis, babasu,"
-        },
-        {
-          "id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
-          "value": 20,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight; as consumed",
-          "scope": "Secondary milk products (as consumed)"
-        },
-        {
-          "id": "hk_cap132v_pb_bulb-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Bulb vegetables"
-        },
-        {
-          "id": "hk_cap132v_pb_brassica-vegetables-other-than-brassica-leafy-vegetable_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Brassica vegetables, other than Brassica leafy v"
-        },
-        {
-          "id": "hk_cap132v_pb_fruiting-vegetables-cucurbits_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Fruiting vegetables, Cucurbits"
-        },
-        {
-          "id": "hk_cap132v_pb_fruiting-vegetables-other-than-cucurbits_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Fruiting vegetables, other than Cucurbits"
-        },
-        {
-          "id": "hk_cap132v_pb_leafy-vegetables-including-brassica-leafy-vegetables-ot_300",
-          "value": 300,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Leafy vegetables (including Brassica leafy veget"
-        },
-        {
-          "id": "hk_cap132v_pb_legume-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Legume vegetables"
-        },
-        {
-          "id": "hk_cap132v_pb_root-and-tuber-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Root and tuber vegetables"
-        },
-        {
-          "id": "hk_cap132v_pb_canned-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Canned vegetables"
-        },
-        {
-          "id": "hk_cap132v_pb_cereal-grains-other-than-buckwheat-ca-ihua-and-quinoa_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Cereal grains, other than buckwheat, cañihua and"
-        },
-        {
-          "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20",
-          "value": 20,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Cereal-based food intended to be consumed princi"
-        },
-        {
-          "id": "hk_cap132v_pb_poultry-eggs_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Poultry eggs"
-        },
-        {
-          "id": "hk_cap132v_pb_lime-preserved-eggs_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Lime preserved eggs"
-        }
-      ],
-      "label": null,
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "th_moph414_2020_pb_food_supplement_1000",
+        "value": 1000,
+        "jurisdiction": "TH",
+        "scope": null,
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "page": "regulations/thailand-moph-notification-414-2020-contaminants-food"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_pb_food_supplement_1000",
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "binding_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+        "candidates": [
+          {
+            "id": "th_moph414_2020_pb_food_supplement_1000",
+            "value": 1000,
+            "jurisdiction": "TH"
+          }
+        ],
+        "stricter_unselected": [
+          {
+            "id": "eu2023_pb_fats_oils_100",
+            "value": 100,
+            "jurisdiction": "EU",
+            "basis": "product as placed on market",
+            "scope": "fats and oils, including milk fat"
+          },
+          {
+            "id": "in_fssai2016_pb_007_brassica_vegetables_excluding_kale_300",
+            "value": 300,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Brassica vegetables excluding Kale"
+          },
+          {
+            "id": "in_fssai2016_pb_008_bulb_vegetables_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Bulb vegetables"
+          },
+          {
+            "id": "in_fssai2016_pb_009_fruiting_vegetables_cucurbits_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Fruiting vegetables, cucurbits"
+          },
+          {
+            "id": "in_fssai2016_pb_010_fruiting_vegetables_other_than_cucurbits_excluding_mushrooms_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Fruiting vegetables other than cucurbits (exclud"
+          },
+          {
+            "id": "in_fssai2016_pb_011_leafy_vegetables_including_brassica_leafy_vegetables_but_excluding_spi_300",
+            "value": 300,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Leafy vegetables (including brassica leafy veget"
+          },
+          {
+            "id": "in_fssai2016_pb_012_legume_vegetables_200",
+            "value": 200,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Legume vegetables"
+          },
+          {
+            "id": "in_fssai2016_pb_014_root_and_tuber_vegetables_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Root and tuber vegetables"
+          },
+          {
+            "id": "in_fssai2016_pb_038_cereal_grains_except_buckwheat_canihua_and_quinoa_200",
+            "value": 200,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Cereal grains, except buckwheat, canihua and qui"
+          },
+          {
+            "id": "in_fssai2016_pb_054_vegetable_oils_crude_oils_of_arachis_babasu_coconut_cotton_seed_grape_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Vegetable oils, crude (oils of arachis, babasu, "
+          },
+          {
+            "id": "in_fssai2016_pb_055_vegetable_oils_edible_oils_of_arachis_babasu_coconut_cotton_seed_grape_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Vegetable oils, edible (oils of arachis, babasu,"
+          },
+          {
+            "id": "in_fssai2016_pb_057_secondary_milk_products_as_consumed_20",
+            "value": 20,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight; as consumed",
+            "scope": "Secondary milk products (as consumed)"
+          },
+          {
+            "id": "hk_cap132v_pb_bulb-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Bulb vegetables"
+          },
+          {
+            "id": "hk_cap132v_pb_brassica-vegetables-other-than-brassica-leafy-vegetable_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Brassica vegetables, other than Brassica leafy v"
+          },
+          {
+            "id": "hk_cap132v_pb_fruiting-vegetables-cucurbits_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Fruiting vegetables, Cucurbits"
+          },
+          {
+            "id": "hk_cap132v_pb_fruiting-vegetables-other-than-cucurbits_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Fruiting vegetables, other than Cucurbits"
+          },
+          {
+            "id": "hk_cap132v_pb_leafy-vegetables-including-brassica-leafy-vegetables-ot_300",
+            "value": 300,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Leafy vegetables (including Brassica leafy veget"
+          },
+          {
+            "id": "hk_cap132v_pb_legume-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Legume vegetables"
+          },
+          {
+            "id": "hk_cap132v_pb_root-and-tuber-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Root and tuber vegetables"
+          },
+          {
+            "id": "hk_cap132v_pb_canned-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Canned vegetables"
+          },
+          {
+            "id": "hk_cap132v_pb_cereal-grains-other-than-buckwheat-ca-ihua-and-quinoa_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Cereal grains, other than buckwheat, cañihua and"
+          },
+          {
+            "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20",
+            "value": 20,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Cereal-based food intended to be consumed princi"
+          },
+          {
+            "id": "hk_cap132v_pb_poultry-eggs_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Poultry eggs"
+          },
+          {
+            "id": "hk_cap132v_pb_lime-preserved-eggs_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Lime preserved eggs"
+          }
+        ],
+        "label": null,
+        "substantiation": null
+      },
+      "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 10 ug/kg, below the sovereign floor of 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "Cd": {
-      "type": "gov",
-      "value": 300,
-      "value_exact": 300,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "TH",
-      "binding_id": "th_moph414_2020_cd_food_supplement_300",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 5,
+      "value_exact": 5,
+      "unit": "ug/kg",
       "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
-      "binding_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
-      "candidates": [
-        {
-          "id": "th_moph414_2020_cd_food_supplement_300",
-          "value": 300,
-          "jurisdiction": "TH"
-        }
-      ],
-      "stricter_unselected": [
-        {
-          "id": "eu2023_cd_chocolate_lowcocoa_100",
-          "value": 100,
-          "jurisdiction": "EU",
-          "basis": "product as placed on market",
-          "scope": "milk chocolate with less than 30 percent total d"
-        },
-        {
-          "id": "in_fssai2016_cd_001_brassica_vegetables_50",
-          "value": 50,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Brassica vegetables"
-        },
-        {
-          "id": "in_fssai2016_cd_002_bulb_vegetables_50",
-          "value": 50,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Bulb vegetables"
-        },
-        {
-          "id": "in_fssai2016_cd_003_fruiting_vegetables_cucurbits_50",
-          "value": 50,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Fruiting vegetables, cucurbits"
-        },
-        {
-          "id": "in_fssai2016_cd_004_fruiting_vegetables_other_than_cucurbits_excluding_tomatoes_and_edible_50",
-          "value": 50,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Fruiting vegetables other than cucurbits (exclud"
-        },
-        {
-          "id": "in_fssai2016_cd_005_leafy_vegetables_200",
-          "value": 200,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Leafy vegetables"
-        },
-        {
-          "id": "in_fssai2016_cd_006_legume_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Legume vegetables"
-        },
-        {
-          "id": "in_fssai2016_cd_009_root_and_tuber_vegetables_excluding_potato_and_celeriac_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Root and tuber vegetables, excluding potato and "
-        },
-        {
-          "id": "in_fssai2016_cd_010_stalk_and_stem_vegetables_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Stalk and stem vegetables"
-        },
-        {
-          "id": "in_fssai2016_cd_011_cereal_grains_except_buckwheat_canihua_and_quinoa_excluding_wheat_and_100",
-          "value": 100,
-          "jurisdiction": "IN",
-          "basis": "parts per million by weight",
-          "scope": "Cereal grains, except buckwheat, canihua and qui"
-        },
-        {
-          "id": "hk_cap132v_cd_vegetables-other-than-those-vegetables-specified-in-thi_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Vegetables (other than those vegetables specifie"
-        },
-        {
-          "id": "hk_cap132v_cd_bulb-vegetables_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Bulb vegetables"
-        },
-        {
-          "id": "hk_cap132v_cd_brassica-vegetables-other-than-brassica-leafy-vegetable_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Brassica vegetables, other than Brassica leafy v"
-        },
-        {
-          "id": "hk_cap132v_cd_fruiting-vegetables-cucurbits_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Fruiting vegetables, Cucurbits"
-        },
-        {
-          "id": "hk_cap132v_cd_fruiting-vegetables-other-than-cucurbits-and-tomatoes_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Fruiting vegetables, other than Cucurbits and to"
-        },
-        {
-          "id": "hk_cap132v_cd_leafy-vegetables-including-brassica-leafy-vegetables_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Leafy vegetables (including Brassica leafy veget"
-        },
-        {
-          "id": "hk_cap132v_cd_legume-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Legume vegetables"
-        },
-        {
-          "id": "hk_cap132v_cd_root-and-tuber-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Root and tuber vegetables"
-        },
-        {
-          "id": "hk_cap132v_cd_stalk-and-stem-vegetables_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Stalk and stem vegetables"
-        },
-        {
-          "id": "hk_cap132v_cd_cereals-other-than-buckwheat-ca-ihua-quinoa-wheat-and-r_100",
-          "value": 100,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Cereals, other than buckwheat, cañihua, quinoa, "
-        },
-        {
-          "id": "hk_cap132v_cd_husked-rice_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Husked rice"
-        },
-        {
-          "id": "hk_cap132v_cd_polished-rice_200",
-          "value": 200,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Polished rice"
-        }
-      ],
-      "label": null,
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "th_moph414_2020_cd_food_supplement_300",
+        "value": 300,
+        "jurisdiction": "TH",
+        "scope": null,
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "page": "regulations/thailand-moph-notification-414-2020-contaminants-food"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 300,
+        "value_exact": 300,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "TH",
+        "binding_id": "th_moph414_2020_cd_food_supplement_300",
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "binding_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+        "candidates": [
+          {
+            "id": "th_moph414_2020_cd_food_supplement_300",
+            "value": 300,
+            "jurisdiction": "TH"
+          }
+        ],
+        "stricter_unselected": [
+          {
+            "id": "eu2023_cd_chocolate_lowcocoa_100",
+            "value": 100,
+            "jurisdiction": "EU",
+            "basis": "product as placed on market",
+            "scope": "milk chocolate with less than 30 percent total d"
+          },
+          {
+            "id": "in_fssai2016_cd_001_brassica_vegetables_50",
+            "value": 50,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Brassica vegetables"
+          },
+          {
+            "id": "in_fssai2016_cd_002_bulb_vegetables_50",
+            "value": 50,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Bulb vegetables"
+          },
+          {
+            "id": "in_fssai2016_cd_003_fruiting_vegetables_cucurbits_50",
+            "value": 50,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Fruiting vegetables, cucurbits"
+          },
+          {
+            "id": "in_fssai2016_cd_004_fruiting_vegetables_other_than_cucurbits_excluding_tomatoes_and_edible_50",
+            "value": 50,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Fruiting vegetables other than cucurbits (exclud"
+          },
+          {
+            "id": "in_fssai2016_cd_005_leafy_vegetables_200",
+            "value": 200,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Leafy vegetables"
+          },
+          {
+            "id": "in_fssai2016_cd_006_legume_vegetables_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Legume vegetables"
+          },
+          {
+            "id": "in_fssai2016_cd_009_root_and_tuber_vegetables_excluding_potato_and_celeriac_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Root and tuber vegetables, excluding potato and "
+          },
+          {
+            "id": "in_fssai2016_cd_010_stalk_and_stem_vegetables_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Stalk and stem vegetables"
+          },
+          {
+            "id": "in_fssai2016_cd_011_cereal_grains_except_buckwheat_canihua_and_quinoa_excluding_wheat_and_100",
+            "value": 100,
+            "jurisdiction": "IN",
+            "basis": "parts per million by weight",
+            "scope": "Cereal grains, except buckwheat, canihua and qui"
+          },
+          {
+            "id": "hk_cap132v_cd_vegetables-other-than-those-vegetables-specified-in-thi_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Vegetables (other than those vegetables specifie"
+          },
+          {
+            "id": "hk_cap132v_cd_bulb-vegetables_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Bulb vegetables"
+          },
+          {
+            "id": "hk_cap132v_cd_brassica-vegetables-other-than-brassica-leafy-vegetable_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Brassica vegetables, other than Brassica leafy v"
+          },
+          {
+            "id": "hk_cap132v_cd_fruiting-vegetables-cucurbits_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Fruiting vegetables, Cucurbits"
+          },
+          {
+            "id": "hk_cap132v_cd_fruiting-vegetables-other-than-cucurbits-and-tomatoes_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Fruiting vegetables, other than Cucurbits and to"
+          },
+          {
+            "id": "hk_cap132v_cd_leafy-vegetables-including-brassica-leafy-vegetables_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Leafy vegetables (including Brassica leafy veget"
+          },
+          {
+            "id": "hk_cap132v_cd_legume-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Legume vegetables"
+          },
+          {
+            "id": "hk_cap132v_cd_root-and-tuber-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Root and tuber vegetables"
+          },
+          {
+            "id": "hk_cap132v_cd_stalk-and-stem-vegetables_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Stalk and stem vegetables"
+          },
+          {
+            "id": "hk_cap132v_cd_cereals-other-than-buckwheat-ca-ihua-quinoa-wheat-and-r_100",
+            "value": 100,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Cereals, other than buckwheat, cañihua, quinoa, "
+          },
+          {
+            "id": "hk_cap132v_cd_husked-rice_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Husked rice"
+          },
+          {
+            "id": "hk_cap132v_cd_polished-rice_200",
+            "value": 200,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Polished rice"
+          }
+        ],
+        "label": null,
+        "substantiation": null
+      },
+      "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 5 ug/kg, below the sovereign floor of 300 ug/kg (th_moph414_2020_cd_food_supplement_300). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tAs": {
       "type": "read_across",
@@ -417,46 +458,66 @@
       "substantiation": "EU 2023/915 writes its own powder/liquid split for formula inorganic arsenic, and the EU as-sold baby-food row (eu2023_ias_babyfood_20) sits at the same value, so the powder limb and the general as-sold baby-food limb agree. The liquid limb (eu2023_ias_formula_liquid_10) governs a ready-to-feed liquid, is classified as_consumed, and is not applicable to an as-sold concentrate. The rice-specific child-food rows (fda2020_ias_infant_rice_cereal_100, us_ias_rice-cereals-for-infants-all-types-white_100, ca_ias_rice-based-foods-intended-specifically-f_100, uk_ias_rice-destined-for-the-production-of-food_100) are laxer and commodity-scoped. Rice-derived carriers (rice maltodextrin, rice flour, rice hull) are a recognised inorganic-arsenic route into supplement dosage forms and are held to this ceiling, not to the rice-commodity ceiling. Stricter-unselected audit disposition for this cell. The audit scan, whose scope is now identical on all seven subcategories, surfaces exactly one stricter row on every one of them: the Israeli fluid-milk inorganic-arsenic ceiling il_fcs2016_ias_1_milk_10. It is not adopted. The independent as-sold sweep additionally returns il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6, a packaged drinking-water ceiling in a different matrix and consumption pattern that this compiler's water exclusion drops before the scan runs; it is named here rather than left out of scope, and it is not adopted. The general rule, stated once in _category.method_note and applied identically wherever it arises: the register's basis_class records whether a limit is written on the product as sold or as consumed, but it does not record how much water the commodity contains. A fresh vegetable and fluid milk are roughly seven-eighths to nine-tenths water, so their ceilings pass the as-sold basis guard while a face-value comparison against an as-sold dry concentrate understates them by close to an order of magnitude; on the dry-matter basis this row is sold in, each is looser than the anchor adopted here rather than stricter. They are also raw whole-commodity ceilings, and this category does not read a whole-commodity ceiling across to a concentrated dosage form. The reasoning is applicability reasoning only: no conversion is performed and no converted number is published anywhere in this category. The animal-feed floor that legally governs this cell is disclosed and never used: in the EU a pet supplement is complementary feed for pet animals or a feed additive under Directive 2002/32/EC and Regulation (EC) No 1831/2003 (register rows eu2002_32_pb_complementary_feed_10000, eu2002_32_cd_pet_complementary_feed_2000, eu2002_32_tas_complementary_feed_4000, eu2002_32_thg_mineral_feed_200, eu2002_32_pb_mineral_feed_15000, eu2002_32_cd_mineral_feed_materials_2000, eu2002_32_tas_mineral_feed_12000 and the trace-element and binder/anti-caking additive rows), with China's draft pet-feed guidance in the same range. Japan's Pet Food Safety Act is disclosed on the same footing and is the one pet-scoped floor that is neither draft nor guidance: the FAMIC Specifications and Standards of Pet Food set statutory maxima that the register records on an as-sold basis for lead, cadmium and inorganic arsenic only (jp_petfood_2021_pb_3000, jp_petfood_2021_cd_1000, jp_petfood_2021_ias_2000), and set nothing for the remaining panel analytes. Category 17, the live pet-foods standard this category builds on, names the same three rows, and Category 18 names them here for the same reason. They run one hundred to three hundred times above the corresponding values published in this category. They are outside this compiler's audit scan because Japan sits outside this category's credible-regulator set, not because any basis mechanism blocks them; the honest statement is that HMTc declines them as a floor, not that the machinery could not see them. The human food-supplement floor (eu2023_cd_food_supplements_1000, th_moph414_2020_pb_food_supplement_1000, il_fcs2016_pb_17_dietary_supplements_3000, il_fcs2016_cd_16_dietary_supplements_except_listed_categories_1000, il_fcs2016_thg_15_dietary_supplements_100, gso193_2021_thg_food_supplements_100, asean2017_pb_health_supplements_10000, hsa2024_pb_health_supplements_10000) is likewise disclosed and never used. Of the three floors, only the EU feed rows are unreachable by construction: they carry a 12%-moisture feed basis with no as_sold classification, so this row's basis guard blocks them and the audit scan drops any row whose basis names feed. The human food-supplement rows are not blocked by any mechanism at all — Israel's supplement rows are classified as-sold and match this row's audit scope — so they are declined by the declared analog-family filter alone, which is exactly why that filter is stated openly in _category.method_note instead of being left to the machinery to enforce silently. Divergence from HMTc Category 16, disclosed. Category 16 anchors inorganic arsenic on eu2023_ias_formula_liquid_10 and publishes 10 ug/kg for as-sold solid supplements; Category 18 declines that row because the register classifies it as_consumed, and reads the powder limb of the same instrument at 20 ug/kg instead. This category publishes the laxer of the two numbers and says so. The reason is the basis rule rather than a policy preference, and no stricter as-sold sovereign inorganic-arsenic instrument exists anywhere in the credible set for a non-water, non-fluid-commodity matrix, so there is nothing available to close the gap without performing the conversion Method v2.0 forbids. The reconciliation belongs on the Category 16 side and is logged with the aluminium item."
     },
     "tHg": {
-      "type": "gov",
-      "value": 100,
-      "value_exact": 100,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "GSO",
-      "binding_id": "gso193_2021_thg_food_supplements_100",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 4,
+      "value_exact": 4,
+      "unit": "ug/kg",
       "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
-      "binding_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
-      "candidates": [
-        {
-          "id": "gso193_2021_thg_food_supplements_100",
-          "value": 100,
-          "jurisdiction": "GSO"
-        }
-      ],
-      "stricter_unselected": [
-        {
-          "id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
-          "value": 10,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Vegetables, other than edible fungi"
-        },
-        {
-          "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
-          "value": 20,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Rice, husked rice, polished rice, maize, maize f"
-        },
-        {
-          "id": "hk_cap132v_thg_poultry-eggs_50",
-          "value": 50,
-          "jurisdiction": "HK",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "scope": "Poultry eggs"
-        }
-      ],
-      "label": null,
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "gso193_2021_thg_food_supplements_100",
+        "value": 100,
+        "jurisdiction": "GSO",
+        "scope": null,
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "page": "regulations/gso-193-2021-contaminants-toxins-food-feed"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 100,
+        "value_exact": 100,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "GSO",
+        "binding_id": "gso193_2021_thg_food_supplements_100",
+        "basis": "the supplement as sold (as-packaged concentrate) — dry weight for powders, chews, tablets and capsules, neat liquid for oils and drops; no reconstitution, dilution, or as-fed conversion is applied",
+        "binding_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
+        "candidates": [
+          {
+            "id": "gso193_2021_thg_food_supplements_100",
+            "value": 100,
+            "jurisdiction": "GSO"
+          }
+        ],
+        "stricter_unselected": [
+          {
+            "id": "hk_cap132v_thg_vegetables-other-than-edible-fungi_10",
+            "value": 10,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Vegetables, other than edible fungi"
+          },
+          {
+            "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
+            "value": 20,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Rice, husked rice, polished rice, maize, maize f"
+          },
+          {
+            "id": "hk_cap132v_thg_poultry-eggs_50",
+            "value": 50,
+            "jurisdiction": "HK",
+            "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+            "scope": "Poultry eggs"
+          }
+        ],
+        "label": null,
+        "substantiation": null
+      },
+      "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 4 ug/kg, below the sovereign floor of 100 ug/kg (gso193_2021_thg_food_supplements_100). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "MeHg": {
       "type": "subsumed",

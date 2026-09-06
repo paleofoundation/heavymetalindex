@@ -198,6 +198,14 @@
           },
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 6,
+          "rationale": "Published iAs of 6 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6) was superseded; the strictest in-force sovereign floor is 10 ug/kg (epa_mcl_ias_drinking_water_10). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat8-compiled|bottled-drinking-water|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "mineral-water": {
@@ -335,6 +343,14 @@
           },
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 6,
+          "rationale": "Published iAs of 6 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6) was superseded; the strictest in-force sovereign floor is 10 ug/kg (epa_mcl_ias_drinking_water_10). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat8-compiled|mineral-water|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "sparkling-carbonated-water": {
@@ -471,6 +487,14 @@
           },
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 6,
+          "rationale": "Published iAs of 6 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6) was superseded; the strictest in-force sovereign floor is 10 ug/kg (epa_mcl_ias_drinking_water_10). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat8-compiled|sparkling-carbonated-water|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "infant-nursery-water": {
@@ -606,6 +630,14 @@
             "substantiation": "The exact cell is unregulated, and the record says so on its face rather than asserting a maximum no government has written for this product form. No jurisdiction in the register sets a hexavalent-chromium maximum for bottled water, packaged water or natural mineral water, and neither of the two textual packaged-water bridges this category relies on reaches the species: FDA 21 CFR 165.110(b)(4)(iii) incorporates the EPA National Primary Drinking Water Regulation maximum contaminant levels and EPA sets no hexavalent-chromium MCL, and EU Directive 2020/2184 Annex I carries no hexavalent-chromium parameter. The nearest applicable sovereign value is therefore the California State Water Resources Control Board Title 22 section 64431 Table 64431-A maximum contaminant level of 10 µg/L (0.01 mg/L, us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl), re-adopted in 2024 after health-risk and feasibility analysis, and it is carried across as a DISCLOSED READ-ACROSS. Two hops are disclosed rather than argued around. First, SCOPE: the register records that instrument's product scope as 'public water systems in California', which is utility-delivered tap water and not a packaged good; HMTc has not identified, and does not cite, any California provision applying Title 22 section 64431 maximum contaminant levels to bottled water sold in the state, so this cell must not be read as an assertion that California enforces 10 µg/L against a packaged product. Second, SOVEREIGNTY: California is a sub-national government. The only alternative anywhere in the register is the NHMRC Australian Drinking Water Guidelines statement that hexavalent chromium should not exceed 50 µg/L (nhmrc2025_crvi_drinking_water_50), which is five times looser and carries the same drinking-water scope hop; it is named here and not selected because the method takes the strictest applicable value. The value is unchanged from the earlier compilation at 10 µg/L; only the provenance tag is corrected, from regulatory-alignment to read-across. HMTc publishes Cr-VI as its own cell in addition to total chromium: a hexavalent result never satisfies the total-chromium cell and a total-chromium result never satisfies this one, and the total-chromium cell on this row is a direct sovereign maximum for the product form that bounds this species from above. No infant-specific instrument checked sets a hexavalent-chromium value for water or for any other matrix, so this read-across is not displaced by an infant limit."
           },
           "basis_label": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 6,
+          "rationale": "Published iAs of 6 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6) was superseded; the strictest in-force sovereign floor is 10 ug/kg (epa_mcl_ias_drinking_water_10). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat8-compiled|infant-nursery-water|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

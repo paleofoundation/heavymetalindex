@@ -539,6 +539,14 @@
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-dry-kibble|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-food-canned-wet": {
@@ -574,6 +582,14 @@
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-canned-wet|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-food-semi-moist": {
@@ -589,6 +605,14 @@
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-semi-moist|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -611,6 +635,14 @@
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-raw|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-food-freeze-dried": {
@@ -626,6 +658,14 @@
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-freeze-dried|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -643,6 +683,14 @@
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-treats-snacks|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-chews-dental": {
@@ -658,6 +706,14 @@
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-chews-dental|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -679,6 +735,14 @@
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "Al 100000 ug/kg: disclosed read-across from CN cn_gb2760_2024_al_baked_foods_100000 (baked foods (bread, pastries, cakes, biscuits, c). Filled by the completeness sweep; nearest applicable sovereign for this matrix and basis.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 20,
+          "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-toppers-mixers-broths|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -728,6 +792,14 @@
           "source_id": "cn_gb2760_2024_al_baked_foods_100000",
           "label": "Human-grade read-across: GB 2760-2024 aluminium (as Al, from aluminium-containing additives) in baked foods (100000 ug/kg, dry product), the strictest dry human-food aluminium row; no sovereign sets an aluminium content level for a fermentation-derived protein ingredient.",
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation)"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat17-compiled|pet-food-fermentation-derived-protein|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

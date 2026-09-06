@@ -268,7 +268,7 @@ for (const slug of slugs) {
     cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
       rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
   }
-  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const record = {
     slug, name: sub.name, native_basis: sub.native_basis, canned: !!sub.canned,
     hmtc_category: 24, hmtc_category_name: "Dairy and Milk Products",

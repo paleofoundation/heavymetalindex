@@ -150,6 +150,7 @@ function classifyCell(ic, cc, ib, cb) {
     if (iv > cv) { regressions.push(`R1:numeric-increase ${cv}→${iv}`); cls = "cert-tighter" }
     else if (iv < cv) cls = "index-tighter"
     else cls = "identical-value"
+  } else if (cv != null && iv == null && ik === "subsumed" && (ic.binding_total === cv || ic.binding_parent_value === cv)) { cls = "bounded-equal" // the bound equals the old firm number: no loss of protection
   } else if (cv != null && iv == null) { regressions.push(`R2:non-null→null (${cv}→${ik})`); cls = "cert-valued-index-empty" }
   else if (cv == null && iv != null) cls = ck === "subsumed" ? "index-firm-cert-bounded" : "index-valued-cert-empty"
   else { // both null

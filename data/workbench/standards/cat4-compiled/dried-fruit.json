@@ -19,30 +19,51 @@
     "read-across",
     "subsumed",
     "baseline-screen",
+    "precautionary",
     "ratchet",
     "control",
     "not-material"
   ],
   "cells": {
     "Pb": {
-      "type": "gov",
-      "value": 200,
-      "value_exact": 200,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "CN",
-      "binding_id": "china_gb2762_2025_pb_fruit_products_200",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 100,
+      "value_exact": 100,
+      "unit": "ug/kg",
       "basis": "dried fruit as offered to the consumer (dry as-sold)",
-      "binding_page": "regulations/china-gb-2762-2025-contaminants",
-      "candidates": [
-        {
-          "id": "china_gb2762_2025_pb_fruit_products_200",
-          "value": 200,
-          "jurisdiction": "CN"
-        }
-      ],
-      "stricter_unselected": [],
-      "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg, product as placed on market) is the strictest sovereign lead maximum level that reaches dried fruit in this row's own dry as-sold basis; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write an express dried-fruits lead row at 800 ug/kg, which is named so the government-written dried-fruit split stays visible.",
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "china_gb2762_2025_pb_fruit_products_200",
+        "value": 200,
+        "jurisdiction": "CN",
+        "scope": null,
+        "basis": "dried fruit as offered to the consumer (dry as-sold)",
+        "page": "regulations/china-gb-2762-2025-contaminants"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 200,
+        "value_exact": 200,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_pb_fruit_products_200",
+        "basis": "dried fruit as offered to the consumer (dry as-sold)",
+        "binding_page": "regulations/china-gb-2762-2025-contaminants",
+        "candidates": [
+          {
+            "id": "china_gb2762_2025_pb_fruit_products_200",
+            "value": 200,
+            "jurisdiction": "CN"
+          }
+        ],
+        "stricter_unselected": [],
+        "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg, product as placed on market) is the strictest sovereign lead maximum level that reaches dried fruit in this row's own dry as-sold basis; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write an express dried-fruits lead row at 800 ug/kg, which is named so the government-written dried-fruit split stays visible.",
+        "substantiation": null
+      },
+      "rationale": "Published Pb of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 100 ug/kg, below the sovereign floor of 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "Cd": {
       "type": "read_across",
@@ -84,17 +105,37 @@
       "substantiation": "R1 direct maximum levels for the dried commodity on the dry as-sold basis. MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write an express dried-fruits total-arsenic row at 800 ug/kg and bind this cell; Israel's express dried category 3.1 at 5000 ug/kg is named and is looser. Israel's residual fruits-and-vegetables total-arsenic row (1000 ug/kg) is not the applicable Israeli category here, for the same reason as the inorganic-arsenic cell: Israel writes an express dried category for arsenic. It is looser than the binding value in any event. The inorganic-arsenic species limit for this row (300 ug/kg) is far stricter and is the operative arsenic constraint; total arsenic is reported for its own sake and is never satisfied by the species cell."
     },
     "iAs": {
-      "type": "subsumed",
-      "value": null,
-      "provenance": "subsumed",
-      "subsumed_by": "tAs",
-      "bounded_by": "tAs",
-      "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
-      "reference_method": null,
-      "basis_class": "speciation-bounded",
-      "regulatory_basis": "",
-      "jurisdictions_checked": "register scan 2026-09-02",
-      "substantiation": null
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 300,
+      "value_exact": 300,
+      "unit": "ug/kg",
+      "basis": "dried fruit as offered to the consumer (dry as-sold)",
+      "sovereign_floor": {
+        "kind": "parent-total",
+        "parent": "tAs",
+        "id": "mercosur_gmc12_2011_dried_fruits_tas_800",
+        "value": 800,
+        "jurisdiction": "MERCOSUR",
+        "scope": null,
+        "basis": "dried fruit as offered to the consumer (dry as-sold)"
+      },
+      "floor_cell": {
+        "type": "subsumed",
+        "value": null,
+        "provenance": "subsumed",
+        "subsumed_by": "tAs",
+        "bounded_by": "tAs",
+        "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+        "reference_method": null,
+        "basis_class": "speciation-bounded",
+        "regulatory_basis": "",
+        "jurisdictions_checked": "register scan 2026-09-02",
+        "substantiation": null
+      },
+      "rationale": "Published iAs of 300 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 300 ug/kg, below the sovereign floor of 800 ug/kg (mercosur_gmc12_2011_dried_fruits_tas_800). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tHg": {
       "type": "gov",

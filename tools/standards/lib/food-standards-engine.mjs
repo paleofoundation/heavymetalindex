@@ -254,7 +254,7 @@ export function makeEngine(registerPath) {
         cells[sp] = { analyte: sp, provenance: "subsumed", cell_kind: "subsumed", type: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded",
           label: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${totName[0].toUpperCase() + totName.slice(1)} is measured on every lot; ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
       }
-      stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+      stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
       records.push({
         slug, name: sub.name, category: config.category, category_name: config.category_name,
         native_basis: sub.native_basis, native_basis_label: sub.native_basis_label,

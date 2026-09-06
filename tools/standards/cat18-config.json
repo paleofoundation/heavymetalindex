@@ -130,6 +130,26 @@
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-vitamin-mineral|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-vitamin-mineral|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-vitamin-mineral|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-supplements-oils": {
@@ -225,6 +245,26 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-oils|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-oils|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-oils|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -322,6 +362,26 @@
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-probiotics-digestive|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-probiotics-digestive|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-probiotics-digestive|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-supplements-botanical-herbal": {
@@ -417,6 +477,26 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-botanical-herbal|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-botanical-herbal|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-botanical-herbal|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -514,6 +594,26 @@
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-functional-blends|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-functional-blends|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-functional-blends|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-supplements-calming-behavioral": {
@@ -610,6 +710,26 @@
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
         }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-calming-behavioral|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-calming-behavioral|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-calming-behavioral|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "pet-supplements-other": {
@@ -705,6 +825,26 @@
             "basis_class": "speciation-bounded"
           },
           "_harvest": "harvested 2026-09-02 from the live cert record (round-trip reconciliation, docs/tasks/standards-95-confidence-completion-brief.md Phase B)"
+        }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 5,
+          "rationale": "Published Cd of 5 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_15_food_for_special_dietary_purpose_5) was superseded; the strictest in-force sovereign floor is 300 ug/kg (th_moph414_2020_cd_food_supplement_300). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-other|_|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 10,
+          "rationale": "Published Pb of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_16_food_for_special_dietary_purpose_10) was superseded; the strictest in-force sovereign floor is 1000 ug/kg (th_moph414_2020_pb_food_supplement_1000). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-other|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_16_food_for_special_dietary_purpose_4) was superseded; the strictest in-force sovereign floor is 100 ug/kg (gso193_2021_thg_food_supplements_100). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat18-compiled|pet-supplements-other|_|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

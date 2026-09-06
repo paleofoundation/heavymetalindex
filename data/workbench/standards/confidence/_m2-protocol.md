@@ -62,3 +62,14 @@ Every batch and every cell in the packet must appear exactly once, with `batch_i
 and `key` copied verbatim. Finish with a four-line summary: confirmed / refuted / cannot-verify
 counts, and each refute or cannot-verify with its one-line reason. Do not paste file contents into
 your reply.
+
+## Addendum (decided 2026-09-02 under standing permission; docs/governance/decisions-under-standing-permission.md)
+
+- A sovereign residual row ("other food", "food other than the listed categories", "foods in general") is
+  a direct maximum level for any food the instrument does not list elsewhere: treat it as a same-basis
+  candidate and as an acceptable anchor.
+- A cell of kind `precautionary` publishes a program value BELOW a disclosed `sovereign_floor`. Verify it
+  by (a) confirming the floor row (or the parent total) applies to the product on its basis and is in
+  force today, and (b) confirming the published value is below the floor. Do not refute a precautionary
+  cell because a looser sovereign row exists; refute it only if a STRICTER same-basis in-force row
+  applies or the floor does not apply.

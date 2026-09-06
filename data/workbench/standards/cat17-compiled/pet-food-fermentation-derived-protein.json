@@ -270,16 +270,93 @@
         "provenance": "read-across"
       },
       "iAs": {
-        "type": "read_across",
-        "human_grade": true,
-        "value": 150,
-        "value_exact": 150,
-        "source_id": "eu2023_ias_rice_milled_150",
-        "source_jurisdiction": "EU",
-        "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
-        "analog_scope": "non-parboiled milled rice",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (EU, 150 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
-        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 100,
+        "value_exact": 100,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "read_across",
+          "id": "eu2023_ias_rice_milled_150",
+          "value": 150,
+          "jurisdiction": "EU",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "read_across",
+          "human_grade": true,
+          "value": 150,
+          "value_exact": 150,
+          "source_id": "eu2023_ias_rice_milled_150",
+          "source_jurisdiction": "EU",
+          "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+          "analog_scope": "non-parboiled milled rice",
+          "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (EU, 150 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+          "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+          "per_country": {
+            "EU": {
+              "value": 150,
+              "converted": false,
+              "id": "eu2023_ias_rice_milled_150"
+            },
+            "CN": {
+              "value": 200,
+              "converted": false,
+              "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
+            },
+            "GSO": {
+              "value": 200,
+              "converted": false,
+              "id": "gso193_2021_ias_rice_polished_200"
+            },
+            "TH": {
+              "value": 200,
+              "converted": false,
+              "id": "th_moph414_2020_ias_polished_rice_200"
+            },
+            "SG": {
+              "value": 200,
+              "converted": false,
+              "id": "sg_foodregs_2026_polished_rice_ias_200"
+            },
+            "PH": {
+              "value": 200,
+              "converted": false,
+              "id": "ph_pns194_2017_polished_rice_ias_200"
+            },
+            "HK": {
+              "value": 200,
+              "converted": false,
+              "id": "hk_cap132v_ias_polished-rice_200"
+            }
+          },
+          "feed_floor": [
+            {
+              "jurisdiction": "JP",
+              "value": 2000,
+              "id": "jp_petfood_2021_ias_2000",
+              "scope": "pet food",
+              "instrument": "feed maximum level",
+              "status": "statutory limit"
+            }
+          ]
+        },
+        "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 100 ug/kg, below the sovereign floor of 150 ug/kg (eu2023_ias_rice_milled_150). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
+        "feed_floor": [
+          {
+            "jurisdiction": "JP",
+            "value": 2000,
+            "id": "jp_petfood_2021_ias_2000",
+            "scope": "pet food",
+            "instrument": "feed maximum level",
+            "status": "statutory limit"
+          }
+        ],
         "per_country": {
           "EU": {
             "value": 150,
@@ -316,18 +393,7 @@
             "converted": false,
             "id": "hk_cap132v_ias_polished-rice_200"
           }
-        },
-        "feed_floor": [
-          {
-            "jurisdiction": "JP",
-            "value": 2000,
-            "id": "jp_petfood_2021_ias_2000",
-            "scope": "pet food",
-            "instrument": "feed maximum level",
-            "status": "statutory limit"
-          }
-        ],
-        "provenance": "read-across"
+        }
       },
       "tHg": {
         "type": "read_across",

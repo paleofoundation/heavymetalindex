@@ -29,15 +29,35 @@
         "provenance": "regulatory-alignment"
       },
       "iAs": {
-        "type": "subsumed",
-        "value": null,
-        "provenance": "subsumed",
-        "subsumed_by": "tAs",
-        "bounded_by": "tAs",
-        "basis_class": "speciation-bounded",
-        "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
-        "regulatory_basis": null,
-        "jurisdictions_checked": "register scan 2026-09-02",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 60,
+        "value_exact": 60,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "parent-total",
+          "parent": "tAs",
+          "id": "sg_foodregs_2026_other_food_tas_1000",
+          "value": 1000,
+          "jurisdiction": "SG",
+          "scope": null,
+          "basis": null
+        },
+        "floor_cell": {
+          "type": "subsumed",
+          "value": null,
+          "provenance": "subsumed",
+          "subsumed_by": "tAs",
+          "bounded_by": "tAs",
+          "basis_class": "speciation-bounded",
+          "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+          "regulatory_basis": null,
+          "jurisdictions_checked": "register scan 2026-09-02",
+          "reference_method": null
+        },
+        "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 60 ug/kg, below the sovereign floor of 1000 ug/kg (sg_foodregs_2026_other_food_tas_1000). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
         "reference_method": null
       },
       "tAs": {
@@ -82,7 +102,8 @@
         "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
         "regulatory_basis": null,
         "jurisdictions_checked": null,
-        "reference_method": null
+        "reference_method": null,
+        "binding_total": 20
       },
       "Cd": {
         "type": "gov",
@@ -115,7 +136,8 @@
         "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
         "regulatory_basis": null,
         "jurisdictions_checked": null,
-        "reference_method": null
+        "reference_method": null,
+        "binding_total": 1000
       },
       "Ni": {
         "type": "read_across",

@@ -533,7 +533,7 @@ function main() {
     for (const a of PANEL) cells[a] = resolveCell(register, byId, sub, a)
     reconcileSpeciation(cells, "MeHg", "tHg", "Methylmercury", "total mercury")
     reconcileSpeciation(cells, "iAs", "tAs", "Inorganic arsenic", "total arsenic")
-    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
     const record = {
       slug, name: sub.name, category: 15, category_name: "Feminine Care",

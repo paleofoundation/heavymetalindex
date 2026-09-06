@@ -361,7 +361,7 @@ for (const slug of slugs) {
     reconcileSpecies(cells, "iAs", "tAs")
     reconcileSpecies(cells, "MeHg", "tHg")
     reconcileSpecies(cells, "Cr-VI", "Cr")
-    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))

@@ -19,6 +19,7 @@
     "read-across",
     "subsumed",
     "baseline-screen",
+    "precautionary",
     "ratchet",
     "control",
     "not-material"
@@ -170,17 +171,37 @@
       "substantiation": "Direct maximum level for the exact product form. MERCOSUR's own decision to set roots and tubers at 200 ug/kg while holding other vegetable classes at 100 ug/kg is a government-written product-form split and is preserved rather than overridden with the stricter value from a class this row does not contain. The inorganic-arsenic species limit of 60 ug/kg remains the operative arsenic constraint."
     },
     "iAs": {
-      "type": "subsumed",
-      "value": null,
-      "provenance": "subsumed",
-      "subsumed_by": "tAs",
-      "bounded_by": "tAs",
-      "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
-      "reference_method": null,
-      "basis_class": "speciation-bounded",
-      "regulatory_basis": "",
-      "jurisdictions_checked": "register scan 2026-09-02",
-      "substantiation": null
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 60,
+      "value_exact": 60,
+      "unit": "ug/kg",
+      "basis": "wet weight, fresh root or tuber as sold",
+      "sovereign_floor": {
+        "kind": "parent-total",
+        "parent": "tAs",
+        "id": "mercosur_gmc12_2011_roots_and_tubers_tas_200",
+        "value": 200,
+        "jurisdiction": "MERCOSUR",
+        "scope": null,
+        "basis": "wet weight, fresh root or tuber as sold"
+      },
+      "floor_cell": {
+        "type": "subsumed",
+        "value": null,
+        "provenance": "subsumed",
+        "subsumed_by": "tAs",
+        "bounded_by": "tAs",
+        "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+        "reference_method": null,
+        "basis_class": "speciation-bounded",
+        "regulatory_basis": "",
+        "jurisdictions_checked": "register scan 2026-09-02",
+        "substantiation": null
+      },
+      "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 60 ug/kg, below the sovereign floor of 200 ug/kg (mercosur_gmc12_2011_roots_and_tubers_tas_200). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tHg": {
       "type": "gov",

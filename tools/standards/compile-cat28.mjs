@@ -266,11 +266,11 @@ function reconcileMercurySpeciation(cells) {
 
 // --- VERIFY: certification contract -------------------------------------------
 function verifyCell(loc, analyte, cell, defects) {
-  const RESOLVED = new Set(["gov", "read_across", "not_material", "control", "subsumed"])
+  const RESOLVED = new Set(["precautionary", "gov", "read_across", "not_material", "control", "subsumed"])
   if (!cell || !RESOLVED.has(cell.type)) { defects.push(`${loc}: unresolved cell type ${cell?.type || "missing"}${cell?.error ? " — " + cell.error : ""}`); return }
   const numeric = typeof cell.value_exact === "number" || typeof cell.value === "number"
   const source = cell.binding_id || cell.source_id || null
-  if (numeric && !source) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
+  if (numeric && !source && !(cell.type === "precautionary" && cell.sovereign_floor)) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
   if (["control", "not_material"].includes(cell.type)) {
     if (!(cell.control || cell.rationale || cell.label)) defects.push(`${loc}: ${cell.type} determination has no explanation`)
     if (!cell.reference_method) defects.push(`${loc}: ${cell.type} determination has no reference method`)
@@ -300,7 +300,7 @@ for (const slug of slugs) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
     reconcileMercurySpeciation(cells)
-    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     for (const a of PANEL) {
       const c = cells[a]
       if (c.type === "gov" || c.type === "read_across") {

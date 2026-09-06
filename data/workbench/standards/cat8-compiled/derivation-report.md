@@ -6,7 +6,7 @@ Two applicability rules govern every row in this category and are applied unifor
 Native basis family: dietary as-consumed, per litre of finished packaged water (µg/L, numerically interchangeable with µg/kg at unit density).
 Credible-regulator set: EU, UK, CODEX, international, US, AU-NZ, CA, HK, AU, US-CA, WHO, IL, IN, VN, GSO, CO, CL, FJ.
 Credible-set note: Category 8 is governed by two instrument families: national drinking-water regulations and the packaged-water lines of national food-contaminant schedules. The default credible set (EU, UK, Codex, international, US, AU-NZ, CA, HK) omits most of the authorities that actually publish a packaged-water metals line, which would leave the stricter-unselected audit scanning only a fraction of the applicable pool and would risk exactly the missed-stricter-anchor failure the audit exists to catch. The set is therefore widened to every jurisdiction in the register that publishes a drinking-water or packaged-water maximum for a panel analyte: AU (NHMRC Australian Drinking Water Guidelines), US-CA (California State Water Resources Control Board Title 22 section 64431 inorganic-chemical MCLs, the only enforceable hexavalent-chromium drinking-water maximum anywhere in the register), WHO (Guidelines for Drinking-water Quality), IL, IN, VN, GSO, CO, CL and FJ. Admission to the scan pool is not endorsement and does not by itself make a value binding: a row binds only where it is applicable to the exact product form AND is the strictest such value, and the widening is what makes the audit's silence meaningful. WHO guideline values are advisory rather than national law (the register records this on the rows themselves) and are carried for corroboration and audit completeness; no published value in this category rests on a WHO guideline value as its binding source. California is a sub-national government and its selection on the hexavalent-chromium cell is disclosed as such in that cell's substantiation.
-Provenance tags (lib/provenance.mjs): regulatory-alignment | read-across | subsumed | baseline-screen | ratchet; transitional control | not-material.
+Provenance tags (lib/provenance.mjs): regulatory-alignment | read-across | subsumed | baseline-screen | precautionary | ratchet; transitional control | not-material.
 STAFF / HMTc content — not public wiki (CLAUDE.md Part 19 firewall). Generated from
 data/evidence/regulatory_limits.csv via tools/standards/compile-category.mjs + cat8-config.json.
 Version: cat8-v1.1 (2026-08-17)
@@ -19,7 +19,7 @@ Version: cat8-v1.1 (2026-08-17)
 | Pb | 5 | regulatory-alignment | eu20202184_pb_drinking_water_5 (EU) | 5 [EU]; 5 [US]; 5 [CA]; 5 [AU]; 10 [HK]; 10 [WHO]; 10 [VN] |
 | Cd | 2 | read-across | nhmrc2025_cd_drinking_water_2 (AU) |  |
 | tAs | 10 | regulatory-alignment | eu20202184_tas_drinking_water_10 (EU) | 10 [EU]; 10 [HK]; 10 [US]; 10 [US]; 10 [CA]; 10 [AU]; 10 [US-CA]; 10 [WHO]; 10 [VN] |
-| iAs | 10 | regulatory-alignment | epa_mcl_ias_drinking_water_10 (US) | 10 [US] |
+| iAs | 6 | precautionary | — | Published iAs of 6 ug/kg is retained as a precautionary program value  |
 | tHg | 1 | regulatory-alignment | eu20202184_thg_drinking_water_1 (EU) | 1 [EU]; 1 [CA]; 1 [AU]; 2 [US]; 2 [US-CA]; 6 [VN] |
 | MeHg | n/m | not-material | bounded by tHg | Mercury in sealed packaged drinking water is present essentially as in |
 | Ni | 20 | regulatory-alignment | eu20202184_ni_drinking_water_20 (EU) | 20 [EU]; 20 [AU]; 70 [HK]; 70 [WHO]; 100 [US]; 100 [US-CA] |
@@ -48,7 +48,7 @@ Version: cat8-v1.1 (2026-08-17)
 | Pb | 5 | regulatory-alignment | fda21cfr165110_pb_bottled_water_5 (US) | 5 [US]; 5 [CA]; 5 [AU]; 10 [HK]; 10 [WHO]; 10 [IN]; 10 [VN]; 10 [GSO]; 10 [CO]; 50 [FJ] |
 | Cd | 2 | read-across | nhmrc2025_cd_drinking_water_2 (AU) |  |
 | tAs | 10 | regulatory-alignment | hk_cap132v_tas_natural-mineral-waters_10 (HK) | 10 [HK]; 10 [US]; 10 [CA]; 10 [AU]; 10 [WHO]; 10 [IN]; 10 [VN]; 10 [GSO]; 10 [CO]; 50 [FJ] |
-| iAs | 10 | regulatory-alignment | epa_mcl_ias_drinking_water_10 (US) | 10 [US] |
+| iAs | 6 | precautionary | — | Published iAs of 6 ug/kg is retained as a precautionary program value  |
 | tHg | 1 | regulatory-alignment | hk_cap132v_thg_natural-mineral-waters_1 (HK) | 1 [HK]; 1 [CA]; 1 [AU]; 1 [IN]; 1 [VN]; 1 [GSO]; 1 [CO]; 2 [US]; 2 [FJ] |
 | MeHg | n/m | not-material | bounded by tHg | Mercury in sealed packaged drinking water is present essentially as in |
 | Ni | 20 | regulatory-alignment | hk_cap132v_ni_natural-mineral-waters_20 (HK) | 20 [HK]; 20 [AU]; 70 [WHO]; 100 [US]; 100 [US-CA] |
@@ -78,7 +78,7 @@ Version: cat8-v1.1 (2026-08-17)
 | Pb | 5 | regulatory-alignment | eu20202184_pb_drinking_water_5 (EU) | 5 [EU]; 5 [US]; 5 [CA]; 5 [AU]; 10 [HK]; 10 [WHO]; 10 [VN] |
 | Cd | 2 | read-across | nhmrc2025_cd_drinking_water_2 (AU) |  |
 | tAs | 10 | regulatory-alignment | eu20202184_tas_drinking_water_10 (EU) | 10 [EU]; 10 [HK]; 10 [US]; 10 [US]; 10 [CA]; 10 [AU]; 10 [US-CA]; 10 [WHO]; 10 [VN] |
-| iAs | 10 | regulatory-alignment | epa_mcl_ias_drinking_water_10 (US) | 10 [US] |
+| iAs | 6 | precautionary | — | Published iAs of 6 ug/kg is retained as a precautionary program value  |
 | tHg | 1 | regulatory-alignment | eu20202184_thg_drinking_water_1 (EU) | 1 [EU]; 1 [CA]; 1 [AU]; 2 [US]; 2 [US-CA]; 6 [VN] |
 | MeHg | n/m | not-material | bounded by tHg | Mercury in sealed packaged drinking water is present essentially as in |
 | Ni | 20 | regulatory-alignment | eu20202184_ni_drinking_water_20 (EU) | 20 [EU]; 20 [AU]; 70 [HK]; 70 [WHO]; 100 [US]; 100 [US-CA] |
@@ -107,7 +107,7 @@ Version: cat8-v1.1 (2026-08-17)
 | Pb | 5 | regulatory-alignment | eu20202184_pb_drinking_water_5 (EU) | 5 [EU]; 5 [US]; 5 [CA]; 5 [AU]; 10 [HK]; 10 [WHO]; 10 [VN] |
 | Cd | 2 | read-across | nhmrc2025_cd_drinking_water_2 (AU) |  |
 | tAs | 10 | regulatory-alignment | eu20202184_tas_drinking_water_10 (EU) | 10 [EU]; 10 [HK]; 10 [US]; 10 [US]; 10 [CA]; 10 [AU]; 10 [US-CA]; 10 [WHO]; 10 [VN] |
-| iAs | 10 | regulatory-alignment | epa_mcl_ias_drinking_water_10 (US) | 10 [US] |
+| iAs | 6 | precautionary | — | Published iAs of 6 ug/kg is retained as a precautionary program value  |
 | tHg | 1 | regulatory-alignment | eu20202184_thg_drinking_water_1 (EU) | 1 [EU]; 1 [CA]; 1 [AU]; 2 [US]; 2 [US-CA]; 6 [VN] |
 | MeHg | n/m | not-material | bounded by tHg | Mercury in sealed packaged drinking water is present essentially as in |
 | Ni | 20 | regulatory-alignment | eu20202184_ni_drinking_water_20 (EU) | 20 [EU]; 20 [AU]; 70 [HK]; 70 [WHO]; 100 [US]; 100 [US-CA] |

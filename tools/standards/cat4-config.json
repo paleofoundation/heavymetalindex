@@ -168,6 +168,14 @@
             "bounded_by": "Cr (total chromium, itself a control for this row)"
           }
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|fresh-fruit|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "dried-fruit": {
@@ -262,6 +270,20 @@
             "bounded_by": "Cr (total chromium, itself a control for this row)"
           }
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 300,
+          "rationale": "Published iAs of 300 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|dried-fruit|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 100,
+          "rationale": "Published Pb of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|dried-fruit|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "fruit-snacks": {
@@ -353,6 +375,20 @@
             "reference_method": "Total chromium by ICP-MS on every lot. Any total-chromium result at or above 100 ug/kg triggers Cr(VI) speciation by EN 15192 or EPA 6800 IC-ICP-MS isotope dilution; any quantifiable Cr(VI) at LOQ fails the lot and the lot is held pending root-cause analysis.",
             "bounded_by": "Cr (total chromium, itself a control for this row)"
           }
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|fruit-snacks|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "Pb": {
+          "value": 100,
+          "rationale": "Published Pb of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|fruit-snacks|_|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -469,6 +505,14 @@
             "jurisdictions_checked": "EU Reg. 2023/915; EU Reg. 2024/1987 (nickel); Switzerland VHK 817.022.15 (2026 metal/metalloid annex); Hong Kong Cap. 132V Part 2 Schedule; AU-NZ Food Standards Code Schedule 19; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019; Israel MOH FCS-2016; Codex CXS 193-1995; US FDA (21 CFR, action levels)"
           }
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|leafy-vegetables-other|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "spinach": {
@@ -580,6 +624,14 @@
             "regulatory_basis": "No jurisdiction sets a Cr(VI) maximum level for any solid food. The register's ingested Cr(VI) parameters are drinking-water maxima only (AU NHMRC 50 ug/L; California SWRCB 10 ug/L), which are water-basis and do not reach produce; every other Cr(VI) row is an article or material limit (EU 2009/48 toys, EU 2018/1513 textiles, EU 301/2014 leather, EU 2019/1009 fertilisers, EU RoHS). Neither drinking-water issuer is admitted to this category's credible set as a food regulator for a solid produce row. The total-chromium parent for this row is published.",
             "jurisdictions_checked": "EU Reg. 2023/915; EU Reg. 2024/1987 (nickel); Switzerland VHK 817.022.15 (2026 metal/metalloid annex); Hong Kong Cap. 132V Part 2 Schedule; AU-NZ Food Standards Code Schedule 19; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019; Israel MOH FCS-2016; Codex CXS 193-1995; US FDA (21 CFR, action levels)"
           }
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|spinach|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -741,6 +793,14 @@
             "jurisdictions_checked": "EU Reg. 2023/915; EU Reg. 2024/1987 (nickel); Switzerland VHK 817.022.15 (2026 metal/metalloid annex); Hong Kong Cap. 132V Part 2 Schedule; AU-NZ Food Standards Code Schedule 19; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019; Israel MOH FCS-2016; Codex CXS 193-1995; US FDA (21 CFR, action levels)"
           }
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|non-root-vegetables|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "root-tuber-vegetables": {
@@ -857,6 +917,14 @@
             "regulatory_basis": "No jurisdiction sets a Cr(VI) maximum level for any solid food. The register's ingested Cr(VI) parameters are drinking-water maxima only (AU NHMRC 50 ug/L; California SWRCB 10 ug/L), which are water-basis and do not reach produce; every other Cr(VI) row is an article or material limit (EU 2009/48 toys, EU 2018/1513 textiles, EU 301/2014 leather, EU 2019/1009 fertilisers, EU RoHS). Neither drinking-water issuer is admitted to this category's credible set as a food regulator for a solid produce row. The total-chromium parent for this row is published.",
             "jurisdictions_checked": "EU Reg. 2023/915; EU Reg. 2024/1987 (nickel); Switzerland VHK 817.022.15 (2026 metal/metalloid annex); Hong Kong Cap. 132V Part 2 Schedule; AU-NZ Food Standards Code Schedule 19; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019; Israel MOH FCS-2016; Codex CXS 193-1995; US FDA (21 CFR, action levels)"
           }
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|root-tuber-vegetables|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -975,6 +1043,14 @@
             "regulatory_basis": "No jurisdiction sets a Cr(VI) maximum level for any solid food. The register's ingested Cr(VI) parameters are drinking-water maxima only (AU NHMRC 50 ug/L; California SWRCB 10 ug/L), which are water-basis and do not reach produce; every other Cr(VI) row is an article or material limit (EU 2009/48 toys, EU 2018/1513 textiles, EU 301/2014 leather, EU 2019/1009 fertilisers, EU RoHS). Neither drinking-water issuer is admitted to this category's credible set as a food regulator for a solid produce row. The total-chromium parent for this row is published.",
             "jurisdictions_checked": "EU Reg. 2023/915; EU Reg. 2024/1987 (nickel); Switzerland VHK 817.022.15 (2026 metal/metalloid annex); Hong Kong Cap. 132V Part 2 Schedule; AU-NZ Food Standards Code Schedule 19; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019; Israel MOH FCS-2016; Codex CXS 193-1995; US FDA (21 CFR, action levels)"
           }
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat4-compiled|pickled-fermented-vegetables|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

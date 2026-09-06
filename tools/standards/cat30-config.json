@@ -71,6 +71,14 @@
           "label": "SG general-food maximum level (other food)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → sg_foodregs_2026_other_food_cd_200"
         }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 30,
+          "rationale": "Published Cd of 30 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30) was superseded; the strictest in-force sovereign floor is 200 ug/kg (sg_foodregs_2026_other_food_cd_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat30-compiled|olive-oil|default|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "cooking-oils-other": {
@@ -134,6 +142,14 @@
           "basis": "gov",
           "label": "SG general-food maximum level (other food)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → sg_foodregs_2026_other_food_cd_200"
+        }
+      },
+      "precautionary": {
+        "Cd": {
+          "value": 30,
+          "rationale": "Published Cd of 30 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30) was superseded; the strictest in-force sovereign floor is 200 ug/kg (sg_foodregs_2026_other_food_cd_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat30-compiled|cooking-oils-other|default|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

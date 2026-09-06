@@ -154,6 +154,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat27-compiled|legumes-pulses-other|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "soy-products": {
@@ -249,6 +257,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat27-compiled|soy-products|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "peanuts": {
@@ -330,6 +346,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat27-compiled|peanuts|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "peanut-butter": {
@@ -410,6 +434,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 100,
+          "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat27-compiled|peanut-butter|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

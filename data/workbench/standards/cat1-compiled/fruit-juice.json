@@ -102,20 +102,46 @@
         "provenance": "regulatory-alignment"
       },
       "Cd": {
-        "type": "gov",
-        "value": 20,
-        "value_exact": 20,
-        "binding_jurisdiction": "EU",
-        "binding_id": "eu2023_cd_infant_drinks_ready_20",
-        "basis_note": "government maximum level by lookup",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 10,
+        "value_exact": 10,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "eu2023_cd_infant_drinks_ready_20",
+          "value": 20,
+          "jurisdiction": "EU",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "EU",
+          "binding_id": "eu2023_cd_infant_drinks_ready_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "EU": {
+              "value": 20,
+              "converted": false,
+              "id": "eu2023_cd_infant_drinks_ready_20"
+            }
+          }
+        },
+        "rationale": "Published Cd of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_17_1_beverages_juices_and_nectars_10) was superseded; the strictest in-force sovereign floor is 20 ug/kg (eu2023_cd_infant_drinks_ready_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 10 ug/kg, below the sovereign floor of 20 ug/kg (eu2023_cd_infant_drinks_ready_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
           "EU": {
             "value": 20,
             "converted": false,
             "id": "eu2023_cd_infant_drinks_ready_20"
           }
-        },
-        "provenance": "regulatory-alignment"
+        }
       },
       "tAs": {
         "type": "read_across",
@@ -166,20 +192,46 @@
         "provenance": "regulatory-alignment"
       },
       "tHg": {
-        "type": "gov",
-        "value": 20,
-        "value_exact": 20,
-        "binding_jurisdiction": "TH",
-        "binding_id": "th_moph414_2020_thg_food_other_20",
-        "basis_note": "government maximum level by lookup",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 10,
+        "value_exact": 10,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "gov",
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "gov",
+          "value": 20,
+          "value_exact": 20,
+          "binding_jurisdiction": "TH",
+          "binding_id": "th_moph414_2020_thg_food_other_20",
+          "basis_note": "government maximum level by lookup",
+          "per_country": {
+            "TH": {
+              "value": 20,
+              "converted": false,
+              "id": "th_moph414_2020_thg_food_other_20"
+            }
+          }
+        },
+        "rationale": "Published tHg of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_17_1_beverages_juices_and_nectars_10) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 10 ug/kg, below the sovereign floor of 20 ug/kg (th_moph414_2020_thg_food_other_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "per_country": {
           "TH": {
             "value": 20,
             "converted": false,
             "id": "th_moph414_2020_thg_food_other_20"
           }
-        },
-        "provenance": "regulatory-alignment"
+        }
       },
       "MeHg": {
         "type": "subsumed",

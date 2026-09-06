@@ -246,11 +246,11 @@ function reconcileMercurySpeciation(cells) {
 
 // --- VERIFY: certification contract -------------------------------------------
 function verifyCell(loc, analyte, cell, defects) {
-  const RESOLVED = new Set(["gov", "read_across", "not_material", "control", "subsumed"])
+  const RESOLVED = new Set(["precautionary", "gov", "read_across", "not_material", "control", "subsumed"])
   if (!cell || !RESOLVED.has(cell.type)) { defects.push(`${loc}: unresolved cell type ${cell?.type || "missing"}${cell?.error ? " — " + cell.error : ""}`); return }
   const numeric = typeof cell.value_exact === "number" || typeof cell.value === "number"
   const source = cell.binding_id || cell.source_id || null
-  if (numeric && !source) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
+  if (numeric && !source && !(cell.type === "precautionary" && cell.sovereign_floor)) defects.push(`${loc}: numeric cell has no sovereign source identifier`)
   if (["control", "not_material"].includes(cell.type)) {
     if (!(cell.control || cell.rationale || cell.label)) defects.push(`${loc}: ${cell.type} determination has no explanation`)
     if (!cell.reference_method) defects.push(`${loc}: ${cell.type} determination has no reference method`)
@@ -293,7 +293,7 @@ for (const slug of slugs) {
     cells[sp] = { type: "subsumed", provenance: "subsumed", value: null, subsumed_by: tot, bounded_by: tot, binding_total: tv, basis_class: "speciation-bounded", adult_floor: c.adult_floor,
       rationale: `${spName} is a component of ${totName} (${sp} <= ${tot}). No in-force sovereign sets a separate ${sp} maximum level for this product on its basis, so ${spName.toLowerCase()} is governed by and bounded by the ${totName} ceiling (${tv} ug/kg); no separate ${sp} ceiling is published. ${sp} is speciated whenever ${tot} exceeds its reflex trigger.` }
   }
-  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   for (const a of PANEL) {
     const c = cells[a]
     if (c.type === "read_across") {

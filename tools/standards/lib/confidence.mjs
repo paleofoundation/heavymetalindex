@@ -70,7 +70,7 @@ export function splitCsv(line) {
 }
 
 // --- cells ----------------------------------------------------------------------------------------
-const PROV_TO_KIND = { "regulatory-alignment": "gov", "read-across": "read_across", control: "control", "not-material": "not_material", subsumed: "subsumed", "baseline-screen": "baseline_screen" }
+const PROV_TO_KIND = { "regulatory-alignment": "gov", "read-across": "read_across", control: "control", "not-material": "not_material", subsumed: "subsumed", "baseline-screen": "baseline_screen" , precautionary: "precautionary" }
 export function kindOf(c) {
   if (!c || typeof c !== "object") return "absent"
   if (c.error) return "gap"
@@ -84,6 +84,7 @@ export function anchorIds(c) {
   const ids = []
   if (c.binding_id) ids.push(c.binding_id)
   if (c.source_id) ids.push(c.source_id)
+  if (c.sovereign_floor && c.sovereign_floor.id) ids.push(c.sovereign_floor.id)
   for (const x of c.components || []) if (x && x.source_id) ids.push(x.source_id)
   for (const x of c.forms || []) if (x && (x.binding_id || x.source_id || x.id)) ids.push(x.binding_id || x.source_id || x.id)
   return [...new Set(ids)].sort()
@@ -129,6 +130,14 @@ export function cellState(c, cells = {}, seen = new Set()) {
   if (k === "absent") return { state: "EMPTY", reason: "cell absent" }
   if (k === "gap" || k === "unspecified" || k === "unknown") return { state: "EMPTY", reason: `unresolved (${k})` }
   if (k === "control" || k === "not_material") return { state: "EMPTY", reason: `${k} carries no limit-of-record` }
+  if (k === "precautionary") {
+    if (!isNum(c.value)) return { state: "EMPTY", reason: "precautionary without a numeric value" }
+    const f = c.sovereign_floor
+    if (!f || !isNum(f.value)) return { state: "EMPTY", reason: "precautionary without a resolvable sovereign floor" }
+    if (!(c.value < f.value)) return { state: "EMPTY", reason: `precautionary value ${c.value} is not below the sovereign floor ${f.value}` }
+    if (!f.id && !f.parent) return { state: "EMPTY", reason: "precautionary floor names no register anchor or parent total" }
+    return { state: "firm", kind: k, floor: f }
+  }
   if (k === "gov" || k === "read_across" || k === "form_split" || k === "special") {
     if (!isNum(c.value)) return { state: "EMPTY", reason: `${k} without a numeric value` }
     if (k === "special") return (c.source_page || c.jurisdiction || c.source_jurisdiction) ? { state: "firm", kind: k } : { state: "EMPTY", reason: "special-basis cell names no source" }
@@ -157,6 +166,7 @@ export function cellState(c, cells = {}, seen = new Set()) {
 // read-across → disclosed-derivation; subsumed → species-identity; baseline → method-loq;
 // occurrence-derived (none exist) → statistical-95-one-sided.
 export function confidenceMeaning(c, state) {
+  if (state && state.kind === "precautionary") return "disclosed-derivation"
   if (state.state === "bounded") return "species-identity"
   if (state.state === "baseline") return "method-loq"
   const k = kindOf(c)

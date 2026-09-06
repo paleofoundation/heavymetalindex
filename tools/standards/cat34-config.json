@@ -260,7 +260,15 @@
           }
         }
       },
-      "scope_note": "Covers table salt, sea salt, and Himalayan/rock salt. Lead is a form_split refined (1000) vs unrefined (2000) per EU 2023/915; certification applies the form matching the product. Salt is an independent mineral row (not plant-uptake); cadmium/arsenic/mercury bind the Codex-aligned food-grade-salt limits. Aluminium is additive-permitted anti-caking, managed by additive law and TWI."
+      "scope_note": "Covers table salt, sea salt, and Himalayan/rock salt. Lead is a form_split refined (1000) vs unrefined (2000) per EU 2023/915; certification applies the form matching the product. Salt is an independent mineral row (not plant-uptake); cadmium/arsenic/mercury bind the Codex-aligned food-grade-salt limits. Aluminium is additive-permitted anti-caking, managed by additive law and TWI.",
+      "precautionary": {
+        "iAs": {
+          "value": 500,
+          "rationale": "Published iAs of 500 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_12_salt_500) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat34-compiled|salt|_|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "hot-chili-sauces": {
       "name": "Hot sauce and chili sauces",

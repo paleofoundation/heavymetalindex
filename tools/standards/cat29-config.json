@@ -149,6 +149,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|cultivated-mushrooms|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "wild-mushrooms": {
@@ -250,6 +258,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|wild-mushrooms|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "cultivated-mushrooms-oyster-shiitake": {
@@ -342,6 +358,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-tighter → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "iAs": {
+          "value": 60,
+          "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat29-compiled|cultivated-mushrooms-oyster-shiitake|both|iAs",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

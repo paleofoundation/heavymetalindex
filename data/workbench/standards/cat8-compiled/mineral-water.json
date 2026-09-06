@@ -19,6 +19,7 @@
     "read-across",
     "subsumed",
     "baseline-screen",
+    "precautionary",
     "ratchet",
     "control",
     "not-material"
@@ -169,24 +170,44 @@
       "substantiation": "Total arsenic at 10 µg/L is unanimous across every mineral-water-specific line in the pool (Hong Kong Cap 132V, India FSSAI 2016, GSO 193/2021, Colombia Res 4506/2013, Vietnam QCVN 8-2:2011, Israel FCS 2016) and across the packaged-water and drinking-water instruments that reach this form (FDA 21 CFR 165.110, NHMRC, Health Canada, WHO). Only Fiji is looser at 50 µg/L. There is no stricter sovereign total-arsenic value for mineral water anywhere in the register. REGISTER GAP ON THIS CELL: Commission Directive 2003/40/EC, the EU instrument that sets metals limits for natural mineral waters (Directive 2009/54/EC defines the product but sets no metals values), is absent from data/evidence/regulatory_limits.csv and is therefore absent from this cell's candidate set; it is logged as a register gap and no value is asserted for it. The row's scope note records the gap in full."
     },
     "iAs": {
-      "type": "gov",
-      "value": 10,
-      "value_exact": 10,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "US",
-      "binding_id": "epa_mcl_ias_drinking_water_10",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 6,
+      "value_exact": 6,
+      "unit": "ug/kg",
       "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
-      "binding_page": "regulations/epa-arsenic-mcl",
-      "candidates": [
-        {
-          "id": "epa_mcl_ias_drinking_water_10",
-          "value": 10,
-          "jurisdiction": "US"
-        }
-      ],
-      "stricter_unselected": [],
-      "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, whose scope names mineral water expressly)",
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "epa_mcl_ias_drinking_water_10",
+        "value": 10,
+        "jurisdiction": "US",
+        "scope": null,
+        "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+        "page": "regulations/epa-arsenic-mcl"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 10,
+        "value_exact": 10,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "US",
+        "binding_id": "epa_mcl_ias_drinking_water_10",
+        "basis": "µg/L of finished packaged water, as consumed (numerically equal to µg/kg at unit density)",
+        "binding_page": "regulations/epa-arsenic-mcl",
+        "candidates": [
+          {
+            "id": "epa_mcl_ias_drinking_water_10",
+            "value": 10,
+            "jurisdiction": "US"
+          }
+        ],
+        "stricter_unselected": [],
+        "label": "strictest applicable sovereign maximum for the exact product form (Israel FCS 2016 row 16.1, whose scope names mineral water expressly)",
+        "substantiation": null
+      },
+      "rationale": "Published iAs of 6 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6) was superseded; the strictest in-force sovereign floor is 10 ug/kg (epa_mcl_ias_drinking_water_10). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 6 ug/kg, below the sovereign floor of 10 ug/kg (epa_mcl_ias_drinking_water_10). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tHg": {
       "type": "gov",

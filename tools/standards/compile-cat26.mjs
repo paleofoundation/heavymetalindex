@@ -280,7 +280,7 @@ for (const slug of slugs) {
   if (!config.subcategories[slug]) { console.error(`!! no config for ${slug}`); anyDefect = true; continue }
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
-  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
   const tagsUsed = [...new Set(PANEL.map((a) => cells[a].provenance))].sort()
 
   const record = {

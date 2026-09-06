@@ -220,23 +220,53 @@
         "provenance": "read-across"
       },
       "iAs": {
-        "type": "read_across",
-        "human_grade": true,
-        "value": 500,
-        "value_exact": 500,
-        "source_id": "eu20251891_ias_fish_listed_500",
-        "source_jurisdiction": "EU",
-        "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
-        "analog_scope": "muscle meat of anglerfish, monkfish, giant stargazer, flatfishes, haddock, herring, ray, and shark",
-        "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (EU, 500 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
-        "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
-        "per_country": {
-          "EU": {
-            "value": 500,
-            "converted": false,
-            "id": "eu20251891_ias_fish_listed_500"
-          }
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 20,
+        "value_exact": 20,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "read_across",
+          "id": "eu20251891_ias_fish_listed_500",
+          "value": 500,
+          "jurisdiction": "EU",
+          "scope": null,
+          "basis": null,
+          "page": null
         },
+        "floor_cell": {
+          "type": "read_across",
+          "human_grade": true,
+          "value": 500,
+          "value_exact": 500,
+          "source_id": "eu20251891_ias_fish_listed_500",
+          "source_jurisdiction": "EU",
+          "analog_label": "the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed)",
+          "analog_scope": "muscle meat of anglerfish, monkfish, giant stargazer, flatfishes, haddock, herring, ray, and shark",
+          "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the animal-protein fraction of a complete diet — meat and meat products (adult/general human food, as consumed) (EU, 500 µg/kg, as consumed basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+          "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+          "per_country": {
+            "EU": {
+              "value": 500,
+              "converted": false,
+              "id": "eu20251891_ias_fish_listed_500"
+            }
+          },
+          "feed_floor": [
+            {
+              "jurisdiction": "JP",
+              "value": 2000,
+              "id": "jp_petfood_2021_ias_2000",
+              "scope": "pet food",
+              "instrument": "feed maximum level",
+              "status": "statutory limit"
+            }
+          ]
+        },
+        "rationale": "Published iAs of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 500 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 20 ug/kg, below the sovereign floor of 500 ug/kg (eu20251891_ias_fish_listed_500). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "feed_floor": [
           {
             "jurisdiction": "JP",
@@ -247,7 +277,13 @@
             "status": "statutory limit"
           }
         ],
-        "provenance": "read-across"
+        "per_country": {
+          "EU": {
+            "value": 500,
+            "converted": false,
+            "id": "eu20251891_ias_fish_listed_500"
+          }
+        }
       },
       "tHg": {
         "type": "read_across",

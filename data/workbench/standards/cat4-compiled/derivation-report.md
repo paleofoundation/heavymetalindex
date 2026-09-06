@@ -6,7 +6,7 @@ CELL RESOLUTION RULE, applied uniformly across all eight rows. (R1) Where a cred
 Native basis family: dietary as-sold; fresh and frozen produce and drained pickled product on a wet-weight edible-portion basis, dried fruit and manufactured fruit snacks on a dry or concentrated as-offered basis that is never conflated with the fresh wet-weight maximum levels.
 Credible-regulator set: EU, UK, CODEX, international, US, AU-NZ, CA, HK, CH, MERCOSUR, PY, IL.
 Credible-set note: The default credible-regulator set is widened by four members for this category, each of which contributes a comprehensive per-commodity produce contaminant schedule rather than a single opportune entry, and each of which is already treated as credible by the live Category 27, 28 and 29 plant-commodity compilers. Switzerland (VHK 817.022.15, 218 register rows) is an EU-aligned metal and metalloid annex whose per-class produce values mirror EU Reg. 2023/915 and EU Reg. 2024/1987 and which supplies the per-class cadmium and nickel rows that are absent from the register's EU coverage. MERCOSUR (GMC Res. 12/2011, 159 rows) is a supranational bloc instrument with a complete produce schedule for lead, cadmium and total arsenic on a product-as-offered-to-consumer basis, including the register's only dried-fruit maximum levels and its only total-arsenic table-olive row; Paraguay (Decreto 1335/2019, 159 rows) is its national enactment at identical values and is admitted so the audit scan sees the national instrument as well as the bloc resolution. MERCOSUR is not, however, the register's only table-olive source: Hong Kong Cap. 132V supplies the table-olive lead row (400 ug/kg) and Switzerland VHK 817.022.15 the table-olive cadmium row (20 ug/kg), and this config names both as anchors in the pickled-fermented-vegetables row; further table-olive rows exist from GSO, Thailand, Colombia and India and sit outside the admitted set. Israel (MOH FCS-2016, 166 rows) supplies the only inorganic-arsenic maximum level any credible government writes for fruits and vegetables and the only total-mercury and inorganic-arsenic rows for dried fruit. Every anchor in this config remains inside this set, and the audit scan runs across all twelve members. Regulators present in the register but NOT admitted here (China, Thailand, India, Vietnam, Singapore, GSO, Colombia, Panama, Uruguay, Trinidad and Tobago, Philippines, Morocco, Fiji) are not a judgment about their credibility; admitting them is a separate governance decision, and China GB 2762 in particular has no produce rows in the register at all (recorded as a register gap).
-Provenance tags (lib/provenance.mjs): regulatory-alignment | read-across | subsumed | baseline-screen | ratchet; transitional control | not-material.
+Provenance tags (lib/provenance.mjs): regulatory-alignment | read-across | subsumed | baseline-screen | precautionary | ratchet; transitional control | not-material.
 STAFF / HMTc content — not public wiki (CLAUDE.md Part 19 firewall). Generated from
 data/evidence/regulatory_limits.csv via tools/standards/compile-category.mjs + cat4-config.json.
 Version: cat4-v1.0 (2026-08-17)
@@ -18,7 +18,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 100 | regulatory-alignment | ch_vhk_2026_pb_obst_100 (CH) | 100 [CH]; 100 [AU-NZ]; 100 [HK]; 100 [MERCOSUR]; 100 [PY]; 200 [CH]; 200 [CH]; 200 [CH]; 200 [CH]; 200 [HK]; 200 [HK]; 200 [MERCOSUR]; 200 [PY] |
 | Cd | 20 | regulatory-alignment | ch_vhk_2026_cd_kernobst_20 (CH) | 20 [CH]; 20 [CH]; 20 [CH]; 20 [CH]; 30 [CH]; 40 [CH]; 50 [CH]; 50 [MERCOSUR]; 50 [MERCOSUR]; 50 [PY]; 50 [PY] |
 | tAs | 300 | regulatory-alignment | mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300 (MERCOSUR) | 300 [MERCOSUR]; 300 [MERCOSUR]; 300 [PY]; 300 [PY] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 20 | regulatory-alignment | th_moph414_2020_thg_food_other_20 (TH) | 20 [TH] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | control | control | — | No credible sovereign government sets a nickel maximum level for fruit |
@@ -38,10 +38,10 @@ Version: cat4-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 200 | regulatory-alignment | china_gb2762_2025_pb_fruit_products_200 (CN) | 200 [CN] |
+| Pb | 100 | precautionary | — | Published Pb of 100 ug/kg is retained as a precautionary program value |
 | Cd | 50 | read-across | china_gb2762_2025_cd_fresh_fruit_50 (CN) |  |
 | tAs | 800 | regulatory-alignment | mercosur_gmc12_2011_dried_fruits_tas_800 (MERCOSUR) | 800 [MERCOSUR]; 800 [PY] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 300 | precautionary | — | Published iAs of 300 ug/kg is retained as a precautionary program valu |
 | tHg | 20 | regulatory-alignment | th_moph414_2020_thg_food_other_20 (TH) | 20 [TH] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | control | control | — | No credible sovereign government sets a nickel maximum level for fruit |
@@ -58,10 +58,10 @@ Version: cat4-v1.0 (2026-08-17)
 
 | analyte | value (µg/kg) | provenance | binding source | component logic |
 |---|---|---|---|---|
-| Pb | 200 | regulatory-alignment | china_gb2762_2025_pb_fruit_products_200 (CN) | 200 [CN] |
+| Pb | 100 | precautionary | — | Published Pb of 100 ug/kg is retained as a precautionary program value |
 | Cd | 50 | read-across | china_gb2762_2025_cd_fresh_fruit_50 (CN) |  |
 | tAs | 300 | regulatory-alignment | mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300 (MERCOSUR) | 300 [MERCOSUR]; 300 [PY] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 20 | regulatory-alignment | th_moph414_2020_thg_food_other_20 (TH) | 20 [TH] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | control | control | — | No credible sovereign government sets a nickel maximum level for fruit |
@@ -71,8 +71,6 @@ Version: cat4-v1.0 (2026-08-17)
 | Cr-VI | control | control | bounded by Cr (total chromium, itself a control for this row) | No credible sovereign government sets a hexavalent-chromium maximum le |
 
 **Audit / substantiation notes**
-  - ?? **Pb stricter-unselected (same-basis audit):** 70 µg/kg [PY] py_decreto1335_2019_fruit_based_ice_cream_pb_70 — basis "product as offered to consumer", scope "fruit-based ice cream"
-  - ?? **Pb stricter-unselected (same-basis audit):** 70 µg/kg [MERCOSUR] mercosur_gmc12_2011_fruit_based_ice_cream_pb_70 — basis "product as offered to consumer", scope "fruit-based ice cream"
   - **tAs substantiation:** R1 direct maximum level for the manufactured product class in the row's own basis. MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 300 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets. Israel MOH FCS-2016 is looser for this analyte in both of its applicable categories (residual fruits and vegetables 1000 ug/kg; dried fruits and vegetables 5000 ug/kg), so it does not bind here, which is why this cell does not name the Israeli rows that bind the lead, cadmium, inorganic-arsenic and total-mercury cells of the same row. Total arsenic is never satisfied by the inorganic-arsenic cell; both are reported, and the inorganic-arsenic species value of 60 ug/kg is the operative arsenic constraint for this row. AUDIT DISPOSITION: the scan surfaces MERCOSUR and Paraguayan 'fruit-based ice cream' total arsenic at 100 ug/kg. FROZEN-DESSERT DISPOSITION (single wording used in every place this category states it): fruit-based ice cream and other frozen desserts are OUT OF SCOPE for this row and for Category 4 as a whole, and NO taxonomy row anywhere in hmtc-v2.json currently receives them. Category 24 (Dairy and Milk Products) has nine subcategories (cow milk; goat/sheep/other ruminant milk; camel milk; cheese; yogurt and cultured dairy; cream; milk powders; condensed and evaporated milks; butter and ghee) and contains no ice-cream or frozen-dessert row, so the earlier statement that these products 'route to Category 24' was false and has been removed. The consequence is recorded rather than buried: mercosur_gmc12_2011_fruit_based_ice_cream_pb_70 and py_decreto1335_2019_fruit_based_ice_cream_pb_70 (lead 70 ug/kg), the matching cadmium rows at 50 ug/kg, and mercosur_gmc12_2011_fruit_based_ice_cream_tas_100 with its Paraguayan twin (total arsenic 100 ug/kg) are STRICTER than this row's published lead and total-arsenic values and are currently orphaned, covered by no HMTc standard. This is logged as an open, human-gated taxonomy gap (a new frozen-dessert subcategory carrying those MERCOSUR and Paraguayan rows) and is not resolved by silently sweeping the frozen form into a produce row whose basis and product form it does not share.
   - ?? **tAs stricter-unselected (same-basis audit):** 100 µg/kg [PY] py_decreto1335_2019_fruit_based_ice_cream_tas_100 — basis "product as offered to consumer", scope "fruit-based ice cream"
   - ?? **tAs stricter-unselected (same-basis audit):** 100 µg/kg [MERCOSUR] mercosur_gmc12_2011_fruit_based_ice_cream_tas_100 — basis "product as offered to consumer", scope "fruit-based ice cream"
@@ -86,7 +84,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 100 | regulatory-alignment | aunz_sch19_pb_vegetables_100 (AU-NZ) | 100 [AU-NZ]; 300 [EU]; 300 [CH]; 300 [CH]; 300 [AU-NZ]; 300 [HK]; 300 [MERCOSUR]; 300 [PY] |
 | Cd | 100 | regulatory-alignment | eu2023_cd_leaf_vegetables_100 (EU) | 100 [EU]; 100 [CH]; 100 [CH]; 100 [AU-NZ]; 200 [HK]; 200 [MERCOSUR]; 200 [PY] |
 | tAs | 300 | regulatory-alignment | mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300 (MERCOSUR) | 300 [MERCOSUR]; 300 [PY]; 500 [HK] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 10 | regulatory-alignment | hk_cap132v_thg_vegetables-other-than-edible-fungi_10 (HK) | 10 [HK] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | 500 | regulatory-alignment | eu2024_ni_leafy_veg_500 (EU) | 500 [EU]; 500 [CH] |
@@ -112,7 +110,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 100 | regulatory-alignment | aunz_sch19_pb_vegetables_100 (AU-NZ) | 100 [AU-NZ]; 300 [EU]; 300 [CH]; 300 [MERCOSUR]; 300 [PY] |
 | Cd | 100 | regulatory-alignment | aunz_sch19_cd_leafy_100 (AU-NZ) | 100 [AU-NZ]; 200 [EU]; 200 [CH]; 200 [HK]; 200 [MERCOSUR]; 200 [PY] |
 | tAs | 300 | regulatory-alignment | mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300 (MERCOSUR) | 300 [MERCOSUR]; 300 [PY]; 500 [HK] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 10 | regulatory-alignment | hk_cap132v_thg_vegetables-other-than-edible-fungi_10 (HK) | 10 [HK] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | 500 | regulatory-alignment | eu2024_ni_leafy_veg_500 (EU) | 500 [EU]; 500 [CH] |
@@ -137,7 +135,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 50 | regulatory-alignment | ch_vhk_2026_pb_fruchtgemuse_50 (CH) | 50 [CH]; 50 [HK]; 50 [HK]; 100 [CH]; 100 [CH]; 100 [CH]; 100 [CH]; 100 [CH]; 100 [CH]; 100 [AU-NZ]; 100 [HK]; 100 [HK]; 100 [HK]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [PY]; 100 [PY]; 100 [PY]; 100 [PY]; 300 [AU-NZ]; 300 [MERCOSUR]; 300 [PY] |
 | Cd | 20 | regulatory-alignment | ch_vhk_2026_cd_fruchtgemuse_20 (CH) | 20 [CH]; 20 [CH]; 30 [CH]; 30 [CH]; 40 [CH]; 50 [HK]; 50 [HK]; 50 [HK]; 50 [HK]; 50 [MERCOSUR]; 50 [MERCOSUR]; 50 [MERCOSUR]; 50 [MERCOSUR]; 50 [PY]; 50 [PY]; 50 [PY]; 50 [PY]; 100 [HK]; 100 [HK]; 100 [MERCOSUR]; 100 [PY] |
 | tAs | 100 | regulatory-alignment | mercosur_gmc12_2011_bulb_vegetables_sheathing_leaves_tas_100 (MERCOSUR) | 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [PY]; 100 [PY]; 100 [PY]; 100 [PY]; 300 [MERCOSUR]; 300 [PY]; 500 [HK] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 10 | regulatory-alignment | hk_cap132v_thg_vegetables-other-than-edible-fungi_10 (HK) | 10 [HK] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | 400 | regulatory-alignment | eu2024_ni_fruiting_veg_400 (EU) | 400 [EU]; 400 [CH]; 400 [CH]; 500 [EU]; 500 [CH]; 900 [EU]; 900 [CH]; 1000 [EU]; 1000 [CH] |
@@ -163,7 +161,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 100 | regulatory-alignment | eu2023_pb_root_tuber_vegetables_100 (EU) | 100 [EU]; 100 [CH]; 100 [AU-NZ]; 100 [HK]; 100 [MERCOSUR]; 100 [PY]; 300 [CH] |
 | Cd | 50 | regulatory-alignment | ch_vhk_2026_cd_tropisches-wurzel-und-knollengemuse_50 (CH) | 50 [CH]; 50 [CH]; 100 [EU]; 100 [CH]; 100 [AU-NZ]; 100 [HK]; 100 [MERCOSUR]; 100 [PY]; 150 [CH]; 200 [CH] |
 | tAs | 200 | regulatory-alignment | mercosur_gmc12_2011_roots_and_tubers_tas_200 (MERCOSUR) | 200 [MERCOSUR]; 200 [PY]; 500 [HK] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 10 | regulatory-alignment | hk_cap132v_thg_vegetables-other-than-edible-fungi_10 (HK) | 10 [HK] |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | 900 | regulatory-alignment | eu2024_ni_root_tuber_bulb_veg_900 (EU) | 900 [EU]; 900 [CH] |
@@ -188,7 +186,7 @@ Version: cat4-v1.0 (2026-08-17)
 | Pb | 100 | regulatory-alignment | hk_cap132v_pb_pickled-cucumbers-also-known-as-cucumber-pickles_100 (HK) | 100 [HK]; 100 [HK]; 400 [HK]; 500 [MERCOSUR]; 500 [PY] |
 | Cd | 20 | regulatory-alignment | ch_vhk_2026_cd_tafeloliven_20 (CH) | 20 [CH]; 100 [HK] |
 | tAs | 100 | regulatory-alignment | mercosur_gmc12_2011_cucurbitaceae_fruiting_vegetables_tas_100 (MERCOSUR) | 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [MERCOSUR]; 100 [PY]; 100 [PY]; 100 [PY]; 200 [MERCOSUR]; 200 [PY]; 300 [MERCOSUR]; 300 [MERCOSUR]; 300 [MERCOSUR]; 300 [PY]; 300 [PY]; 300 [PY]; 500 [HK] |
-| iAs | subsumed | subsumed | bounded by tAs | No in-force sovereign or general-food iAs maximum level applies to thi |
+| iAs | 60 | precautionary | — | Published iAs of 60 ug/kg is retained as a precautionary program value |
 | tHg | 10 | read-across | hk_cap132v_thg_vegetables-other-than-edible-fungi_10 (HK) |  |
 | MeHg | control | control | bounded by tHg | No credible sovereign government sets a methylmercury maximum level fo |
 | Ni | 400 | read-across | eu2024_ni_fruiting_veg_400 (EU) |  |

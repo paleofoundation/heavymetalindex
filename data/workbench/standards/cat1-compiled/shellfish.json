@@ -357,14 +357,33 @@
         "provenance": "regulatory-alignment"
       },
       "Cr-VI": {
-        "type": "subsumed",
-        "value": null,
-        "subsumed_by": "Cr",
-        "binding_parent_value": 1000,
-        "binding_parent_source": "HK",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
-        "candidate": null,
-        "provenance": "subsumed"
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 10,
+        "value_exact": 10,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "parent-total",
+          "parent": "Cr",
+          "id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
+          "value": 1000,
+          "jurisdiction": "HK",
+          "scope": null,
+          "basis": null
+        },
+        "floor_cell": {
+          "type": "subsumed",
+          "value": null,
+          "subsumed_by": "Cr",
+          "binding_parent_value": 1000,
+          "binding_parent_source": "HK",
+          "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+          "candidate": null
+        },
+        "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+        "label": "Precautionary: 10 ug/kg, below the sovereign floor of 1000 ug/kg (hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null
       },
       "Sn": {
         "type": "read_across",

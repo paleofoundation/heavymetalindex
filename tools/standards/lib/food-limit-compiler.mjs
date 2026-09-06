@@ -364,7 +364,7 @@ export function compileCategory(opts) {
     reconcileSpeciation(cells, "MeHg", "tHg", "Methylmercury", "total mercury")
     reconcileSpeciation(cells, "iAs", "tAs", "Inorganic arsenic", "total arsenic")
     if (Object.prototype.hasOwnProperty.call(cells, "Cr-VI") || Object.prototype.hasOwnProperty.call(cells, "Cr")) reconcileSpeciation(cells, "Cr-VI", "Cr", "Hexavalent chromium", "total chromium")
-    stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+    stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
     const record = {
       slug, name: sub.name, category: categoryNumber, category_name: categoryName,
       native_basis: sub.native_basis || "as sold", canned: !!sub.canned,

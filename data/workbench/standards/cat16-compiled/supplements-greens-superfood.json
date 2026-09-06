@@ -160,17 +160,88 @@
         "provenance": "read-across"
       },
       "tHg": {
-        "type": "read_across",
-        "child_protective": true,
-        "value": 20,
-        "value_exact": 20,
-        "source_id": "th_moph414_2020_thg_food_other_20",
-        "source_jurisdiction": "TH",
-        "analog_label": "strictest sovereign infant-and-child-food maximum level (HMTc Category 1, Ages 0-5)",
-        "analog_scope": "food other than the listed total-mercury categories",
-        "over_compliance_x": 5,
-        "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
-        "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
+        "type": "precautionary",
+        "provenance": "precautionary",
+        "value": 4,
+        "value_exact": 4,
+        "unit": "ug/kg",
+        "basis": null,
+        "sovereign_floor": {
+          "kind": "read_across",
+          "id": "th_moph414_2020_thg_food_other_20",
+          "value": 20,
+          "jurisdiction": "TH",
+          "scope": null,
+          "basis": null,
+          "page": null
+        },
+        "floor_cell": {
+          "type": "read_across",
+          "child_protective": true,
+          "value": 20,
+          "value_exact": 20,
+          "source_id": "th_moph414_2020_thg_food_other_20",
+          "source_jurisdiction": "TH",
+          "analog_label": "strictest sovereign infant-and-child-food maximum level (HMTc Category 1, Ages 0-5)",
+          "analog_scope": "food other than the listed total-mercury categories",
+          "over_compliance_x": 5,
+          "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
+          "basis_note": "child-protective read-across (voluntary over-compliance; adult floor disclosed, never selected)",
+          "adult_floor": {
+            "strictest_supplement_ml": {
+              "jurisdiction": "GSO",
+              "value": 100,
+              "id": "gso193_2021_thg_food_supplements_100",
+              "scope": "Food supplements"
+            },
+            "laxest_supplement_ml": {
+              "jurisdiction": "SG",
+              "value": 500,
+              "id": "hsa2024_thg_health_supplements_500",
+              "scope": "health supplements; traditional medicines; medicated oils and balms; medicated plasters"
+            },
+            "supplement_mls": [
+              {
+                "jurisdiction": "GSO",
+                "value": 100,
+                "id": "gso193_2021_thg_food_supplements_100",
+                "scope": "Food supplements"
+              },
+              {
+                "jurisdiction": "VN",
+                "value": 100,
+                "id": "vn_qcvn8_2_2011_thg_dietary-supplements_100",
+                "scope": "Dietary supplements"
+              },
+              {
+                "jurisdiction": "TH",
+                "value": 500,
+                "id": "th_moph414_2020_thg_food_supplement_500",
+                "scope": "food supplement"
+              },
+              {
+                "jurisdiction": "ASEAN",
+                "value": 500,
+                "id": "asean2017_thg_health_supplements_500",
+                "scope": "health supplements"
+              },
+              {
+                "jurisdiction": "SG",
+                "value": 500,
+                "id": "hsa2024_thg_health_supplements_500",
+                "scope": "health supplements; traditional medicines; medicated oils and balms; medicated plasters"
+              }
+            ],
+            "usp_2232": {
+              "pde_ug_per_day": 15,
+              "conc_equiv_ug_per_kg_at_10g": 1500
+            },
+            "prop65_madl": null
+          }
+        },
+        "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+        "label": "Precautionary: 4 ug/kg, below the sovereign floor of 20 ug/kg (th_moph414_2020_thg_food_other_20). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+        "reference_method": null,
         "adult_floor": {
           "strictest_supplement_ml": {
             "jurisdiction": "GSO",
@@ -221,8 +292,7 @@
             "conc_equiv_ug_per_kg_at_10g": 1500
           },
           "prop65_madl": null
-        },
-        "provenance": "read-across"
+        }
       },
       "MeHg": {
         "type": "subsumed",

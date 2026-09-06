@@ -19,45 +19,66 @@
     "read-across",
     "subsumed",
     "baseline-screen",
+    "precautionary",
     "ratchet",
     "control",
     "not-material"
   ],
   "cells": {
     "Pb": {
-      "type": "gov",
-      "value": 200,
-      "value_exact": 200,
-      "provenance": "regulatory-alignment",
-      "binding_jurisdiction": "CN",
-      "binding_id": "china_gb2762_2025_pb_fruit_products_200",
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 100,
+      "value_exact": 100,
+      "unit": "ug/kg",
       "basis": "manufactured fruit snack as offered to the consumer",
-      "binding_page": "regulations/china-gb-2762-2025-contaminants",
-      "candidates": [
-        {
-          "id": "china_gb2762_2025_pb_fruit_products_200",
-          "value": 200,
-          "jurisdiction": "CN"
-        }
-      ],
-      "stricter_unselected": [
-        {
-          "id": "py_decreto1335_2019_fruit_based_ice_cream_pb_70",
-          "value": 70,
-          "jurisdiction": "PY",
-          "basis": "product as offered to consumer",
-          "scope": "fruit-based ice cream"
-        },
-        {
-          "id": "mercosur_gmc12_2011_fruit_based_ice_cream_pb_70",
-          "value": 70,
-          "jurisdiction": "MERCOSUR",
-          "basis": "product as offered to consumer",
-          "scope": "fruit-based ice cream"
-        }
-      ],
-      "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg) is the strictest sovereign lead maximum level applicable to a member of this row and binds it; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 200 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets, and Israel writes a separate jams-and-jellies row at 1000 ug/kg, both named so the government-written splits stay visible.",
-      "substantiation": null
+      "sovereign_floor": {
+        "kind": "gov",
+        "id": "china_gb2762_2025_pb_fruit_products_200",
+        "value": 200,
+        "jurisdiction": "CN",
+        "scope": null,
+        "basis": "manufactured fruit snack as offered to the consumer",
+        "page": "regulations/china-gb-2762-2025-contaminants"
+      },
+      "floor_cell": {
+        "type": "gov",
+        "value": 200,
+        "value_exact": 200,
+        "provenance": "regulatory-alignment",
+        "binding_jurisdiction": "CN",
+        "binding_id": "china_gb2762_2025_pb_fruit_products_200",
+        "basis": "manufactured fruit snack as offered to the consumer",
+        "binding_page": "regulations/china-gb-2762-2025-contaminants",
+        "candidates": [
+          {
+            "id": "china_gb2762_2025_pb_fruit_products_200",
+            "value": 200,
+            "jurisdiction": "CN"
+          }
+        ],
+        "stricter_unselected": [
+          {
+            "id": "py_decreto1335_2019_fruit_based_ice_cream_pb_70",
+            "value": 70,
+            "jurisdiction": "PY",
+            "basis": "product as offered to consumer",
+            "scope": "fruit-based ice cream"
+          },
+          {
+            "id": "mercosur_gmc12_2011_fruit_based_ice_cream_pb_70",
+            "value": 70,
+            "jurisdiction": "MERCOSUR",
+            "basis": "product as offered to consumer",
+            "scope": "fruit-based ice cream"
+          }
+        ],
+        "label": "Israel MOH FCS-2016 lead category 3 (fruits and vegetables except listed categories, 100 ug/kg) is the strictest sovereign lead maximum level applicable to a member of this row and binds it; MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 200 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets, and Israel writes a separate jams-and-jellies row at 1000 ug/kg, both named so the government-written splits stay visible.",
+        "substantiation": null
+      },
+      "rationale": "Published Pb of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 100 ug/kg, below the sovereign floor of 200 ug/kg (china_gb2762_2025_pb_fruit_products_200). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "Cd": {
       "type": "read_across",
@@ -114,17 +135,37 @@
       "substantiation": "R1 direct maximum level for the manufactured product class in the row's own basis. MERCOSUR GMC Res. 12/2011 and Paraguay Decreto 1335/2019 write 300 ug/kg for compotes, jellies, jams, marmalades and other fruit or vegetable sweets. Israel MOH FCS-2016 is looser for this analyte in both of its applicable categories (residual fruits and vegetables 1000 ug/kg; dried fruits and vegetables 5000 ug/kg), so it does not bind here, which is why this cell does not name the Israeli rows that bind the lead, cadmium, inorganic-arsenic and total-mercury cells of the same row. Total arsenic is never satisfied by the inorganic-arsenic cell; both are reported, and the inorganic-arsenic species value of 60 ug/kg is the operative arsenic constraint for this row. AUDIT DISPOSITION: the scan surfaces MERCOSUR and Paraguayan 'fruit-based ice cream' total arsenic at 100 ug/kg. FROZEN-DESSERT DISPOSITION (single wording used in every place this category states it): fruit-based ice cream and other frozen desserts are OUT OF SCOPE for this row and for Category 4 as a whole, and NO taxonomy row anywhere in hmtc-v2.json currently receives them. Category 24 (Dairy and Milk Products) has nine subcategories (cow milk; goat/sheep/other ruminant milk; camel milk; cheese; yogurt and cultured dairy; cream; milk powders; condensed and evaporated milks; butter and ghee) and contains no ice-cream or frozen-dessert row, so the earlier statement that these products 'route to Category 24' was false and has been removed. The consequence is recorded rather than buried: mercosur_gmc12_2011_fruit_based_ice_cream_pb_70 and py_decreto1335_2019_fruit_based_ice_cream_pb_70 (lead 70 ug/kg), the matching cadmium rows at 50 ug/kg, and mercosur_gmc12_2011_fruit_based_ice_cream_tas_100 with its Paraguayan twin (total arsenic 100 ug/kg) are STRICTER than this row's published lead and total-arsenic values and are currently orphaned, covered by no HMTc standard. This is logged as an open, human-gated taxonomy gap (a new frozen-dessert subcategory carrying those MERCOSUR and Paraguayan rows) and is not resolved by silently sweeping the frozen form into a produce row whose basis and product form it does not share."
     },
     "iAs": {
-      "type": "subsumed",
-      "value": null,
-      "provenance": "subsumed",
-      "subsumed_by": "tAs",
-      "bounded_by": "tAs",
-      "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
-      "reference_method": null,
-      "basis_class": "speciation-bounded",
-      "regulatory_basis": "",
-      "jurisdictions_checked": "register scan 2026-09-02",
-      "substantiation": null
+      "type": "precautionary",
+      "provenance": "precautionary",
+      "value": 60,
+      "value_exact": 60,
+      "unit": "ug/kg",
+      "basis": "manufactured fruit snack as offered to the consumer",
+      "sovereign_floor": {
+        "kind": "parent-total",
+        "parent": "tAs",
+        "id": "mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300",
+        "value": 300,
+        "jurisdiction": "MERCOSUR",
+        "scope": null,
+        "basis": "manufactured fruit snack as offered to the consumer"
+      },
+      "floor_cell": {
+        "type": "subsumed",
+        "value": null,
+        "provenance": "subsumed",
+        "subsumed_by": "tAs",
+        "bounded_by": "tAs",
+        "rationale": "No in-force sovereign or general-food iAs maximum level applies to this product on the dietary-content basis after the supersession of regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines; the species is bounded by its parent total (tAs) per the certification-readiness ruling (species ≤ total).",
+        "reference_method": null,
+        "basis_class": "speciation-bounded",
+        "regulatory_basis": "",
+        "jurisdictions_checked": "register scan 2026-09-02",
+        "substantiation": null
+      },
+      "rationale": "Published iAs of 60 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60) was superseded; the strictest in-force sovereign floor is the parent total that bounds iAs. HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+      "label": "Precautionary: 60 ug/kg, below the sovereign floor of 300 ug/kg (mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+      "reference_method": null
     },
     "tHg": {
       "type": "gov",

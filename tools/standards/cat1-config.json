@@ -66,6 +66,14 @@
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 15,
+          "rationale": "Published tHg of 15 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|infant-formula-powder|soy|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "fruit-juice": {
@@ -123,7 +131,21 @@
           ]
         }
       },
-      "_scope_note_2026_09_02": "The FDA inorganic-arsenic action level (10 ppb) and the US maximum level row are scoped to APPLE JUICE only; this subcategory covers every non-canned fruit juice for infants, so an apple-only instrument cannot be the category ceiling (it would assert a sovereign 10 ppb for pear or grape juice). The category ceiling is EU 2023/915 fruit juices 0.020 mg/kg (golden value 20, audit wf2uta7ck). Apple-juice products remain subject to FDA 10 ppb; publishing that as a form split is tracked in the ledger (OI-20260902-cat1-fruit-juice-apple-ias-form-split)."
+      "_scope_note_2026_09_02": "The FDA inorganic-arsenic action level (10 ppb) and the US maximum level row are scoped to APPLE JUICE only; this subcategory covers every non-canned fruit juice for infants, so an apple-only instrument cannot be the category ceiling (it would assert a sovereign 10 ppb for pear or grape juice). The category ceiling is EU 2023/915 fruit juices 0.020 mg/kg (golden value 20, audit wf2uta7ck). Apple-juice products remain subject to FDA 10 ppb; publishing that as a form split is tracked in the ledger (OI-20260902-cat1-fruit-juice-apple-ias-form-split).",
+      "precautionary": {
+        "Cd": {
+          "value": 10,
+          "rationale": "Published Cd of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_cd_17_1_beverages_juices_and_nectars_10) was superseded; the strictest in-force sovereign floor is 20 ug/kg (eu2023_cd_infant_drinks_ready_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|fruit-juice|both|Cd",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        },
+        "tHg": {
+          "value": 10,
+          "rationale": "Published tHg of 10 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_17_1_beverages_juices_and_nectars_10) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|fruit-juice|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "infant-formula-rtf-liquid": {
       "name": "Infant formula (ready-to-feed, liquid)",
@@ -174,7 +196,15 @@
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
       },
-      "reconstitution_8to1": true
+      "reconstitution_8to1": true,
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|infant-formula-rtf-liquid|soy|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "root-vegetable-purees-single-ingredient": {
       "name": "Root-vegetable purées (single-ingredient)",
@@ -216,6 +246,14 @@
           "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
           "basis": "gov",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|root-vegetable-purees-single-ingredient|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -262,7 +300,15 @@
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_rice_maize_wheat_20"
         }
       },
-      "exclude_as_consumed": true
+      "exclude_as_consumed": true,
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|baby-cereals-dry-rice-based|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "baby-cereals-dry-non-rice": {
       "name": "Baby cereals / grain products, dry (non-rice)",
@@ -298,7 +344,15 @@
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         }
       },
-      "exclude_as_consumed": true
+      "exclude_as_consumed": true,
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|baby-cereals-dry-non-rice|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "non-root-vegetable-purees": {
       "name": "Non-root vegetable purees",
@@ -335,6 +389,14 @@
           "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
           "basis": "gov",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|non-root-vegetable-purees|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -413,6 +475,14 @@
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|mixed-meals-rice-containing|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "mixed-meals-non-rice": {
@@ -485,6 +555,14 @@
           "source_id": "in_tas_infant-milk-substitute-and-infant-foods_50",
           "label": "government read-across — India FSSAI total-As 50 for \"Infant Milk substitute and Infant foods\", the strictest sovereign total-arsenic ML for any food intended for infants, applied at face value across all Cat-1 subcategories (parallels the existing India infant-foods tin read-across). Because iAs ≤ tAs by identity this ceiling also bounds inorganic arsenic; where a subcategory's direct iAs ML exceeds 50 (rice) the compiler subsumes iAs under tAs."
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|mixed-meals-non-rice|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "teething-and-snacks-rice-based": {
@@ -531,7 +609,15 @@
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_rice_maize_wheat_20"
         }
       },
-      "exclude_as_consumed": true
+      "exclude_as_consumed": true,
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_rice_maize_wheat_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|teething-and-snacks-rice-based|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "teething-and-snacks-non-rice": {
       "name": "Teething biscuits & finger snacks (non-rice)",
@@ -570,7 +656,15 @@
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → th_moph414_2020_thg_food_other_20"
         }
       },
-      "exclude_as_consumed": true
+      "exclude_as_consumed": true,
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|teething-and-snacks-non-rice|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "fruit-purees-general": {
       "name": "Fruit purées (general)",
@@ -616,6 +710,14 @@
           "source_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
           "basis": "gov",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_thg_canned_complementary_foods_infants_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 8,
+          "rationale": "Published tHg of 8 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8) was superseded; the strictest in-force sovereign floor is 20 ug/kg (china_gb2762_2025_thg_canned_complementary_foods_infants_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat1-compiled|fruit-purees-general|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },

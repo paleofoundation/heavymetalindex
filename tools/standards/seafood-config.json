@@ -76,7 +76,15 @@
       "_m2_2026_09_02": [
         "Cr-VI: California drinking-water MCL removed (water basis on a food-content cell); Cr-VI is bounded by total Cr"
       ],
-      "_m2_disclosure_Ni": "The nickel row cited (30000 ug/kg, seaweed except wakame) is applied to wakame as the group minimum; wakame is governed at 40000 (EU 2024/1987 3.6.8.2). Disclosed per M2 adjudication 2026-09-02 (two blind Fable verifiers agreed)."
+      "_m2_disclosure_Ni": "The nickel row cited (30000 ug/kg, seaweed except wakame) is applied to wakame as the group minimum; wakame is governed at 40000 (EU 2024/1987 3.6.8.2). Disclosed per M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|seaweed-kelp-foods|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "shellfish": {
       "name": "Shellfish (crustaceans and bivalve molluscs, not canned)",
@@ -128,7 +136,15 @@
       "_m2_2026_09_02": [
         "Cr-VI: California drinking-water MCL removed (water basis on a food-content cell); Cr-VI is bounded by total Cr"
       ],
-      "_m2_disclosure_Pb": "The lead row cited (500 ug/kg, crustaceans) is applied to bivalve molluscs as the group minimum; bivalves are governed at 1500 (EU 2023/915 3.1.15) and 1000 (MX NOM-242) in law. Disclosed per M2 adjudication 2026-09-02 (two blind Fable verifiers agreed)."
+      "_m2_disclosure_Pb": "The lead row cited (500 ug/kg, crustaceans) is applied to bivalve molluscs as the group minimum; bivalves are governed at 1500 (EU 2023/915 3.1.15) and 1000 (MX NOM-242) in law. Disclosed per M2 adjudication 2026-09-02 (two blind Fable verifiers agreed).",
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|shellfish|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "cephalopods": {
       "name": "Cephalopods (octopus, squid, cuttlefish; not canned)",
@@ -181,7 +197,15 @@
       },
       "_m2_2026_09_02": [
         "Cr-VI: California drinking-water MCL removed (water basis on a food-content cell); Cr-VI is bounded by total Cr"
-      ]
+      ],
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|cephalopods|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "fish-freshwater": {
       "name": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
@@ -224,7 +248,15 @@
       },
       "_m2_2026_09_02": [
         "Cr-VI: California drinking-water MCL removed (water basis on a food-content cell); Cr-VI is bounded by total Cr"
-      ]
+      ],
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|fish-freshwater|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     },
     "canned-seafood": {
       "name": "Canned seafood (canned tuna, canned fish)",
@@ -307,6 +339,14 @@
             "excluding the species listed"
           ]
         }
+      },
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|canned-seafood|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "fish-marine-non-predatory": {
@@ -357,6 +397,14 @@
             "GSO",
             "excluding the species listed"
           ]
+        }
+      },
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|fish-marine-non-predatory|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -462,7 +510,15 @@
       },
       "_m2_2026_09_02": [
         "Cr-VI: California drinking-water MCL removed (water basis on a food-content cell); Cr-VI is bounded by total Cr"
-      ]
+      ],
+      "precautionary": {
+        "Cr-VI": {
+          "value": 10,
+          "rationale": "Published Cr-VI of 10 ug/kg is retained as a precautionary program value. Its former anchor (ca_swrcb_crvi_drinking_water_10 (water MCL on a food-content cell; refuted by both M2 verifiers)) was a different-basis row and is not cited; the sovereign floor is the parent total that bounds Cr-VI.",
+          "held_item": "seafood-compiled|fish-marine-predatory|both|Cr-VI",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
+      }
     }
   },
   "_doc": "Category-6 (Seafood) config. Species-specific dual-mercury (tHg+MeHg), arsenic iAs+tAs, canned-tin gating, dedicated cephalopod subcategory. Built by derive workflow ws6q2oktn and corrected by adversarial audit wf_925293b1-55f (predatory Cd 100->50 CR general-fish; canned tHg/MeHg/Cd 1000/1000/100->500/500/50 general-fish floor; freshwater tHg 500->300 EU lower-mercury/trout; seaweed basis as_sold dried; cephalopods added) against the complete 2634-row register. 2026-08-25 Certification-Readiness completion: panel expanded to the full 11-analyte certification panel; every no-ML cell now carries a disclosed numeric limit-of-record. MeHg resolves to the strictest species-appropriate government methylmercury ML (predatory 1000, general/other-fishery 500) and is published firm where it is at or below the binding total-mercury ceiling (predatory/canned/shellfish), else bounded by tHg (reconcile threshold strict >). Ni read-across EU 2024/1987 husked-rice 2000 (matrix-nearest, occurrence-cleared; no animal-seafood nickel ML exists); Cr-VI read-across CA SWRCB drinking-water 10 (kept <= total Cr); non-canned Sn read-across EU 2023/915 canned-food inorganic tin 200000 (packaging-migration baseline); Al read-across China GB 2760 baked-foods 100000 (monitor/baseline; occurrence up to ~34000 in canned product would fail the generic 1000 FCM anchor); seaweed total Cr read-across China GB 2762 milk-powder 2000 (monitor; Cr-VI is the binding health control).",

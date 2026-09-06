@@ -153,6 +153,8 @@ const num = (v) => { const n = Number(v); return Number.isFinite(n) ? n : null }
 // context ids are checked only for existence and liveness (C3, C4), never for species match or value.
 function bindingIds(cell) {
   const ids = []
+  // a precautionary cell's floor row is its anchor, unless the floor is the parent total (then the parent's row belongs to the parent cell; C13 checks the bound)
+  if (cell.sovereign_floor && cell.sovereign_floor.id && cell.sovereign_floor.kind !== "parent-total") ids.push(cell.sovereign_floor.id)
   if (cell.binding_id) ids.push(cell.binding_id)
   if (cell.source_id) ids.push(cell.source_id)
   for (const c of cell.components || []) if (c.source_id) ids.push(c.source_id)
@@ -166,7 +168,7 @@ const anchorIds = (cell) => [...new Set([...bindingIds(cell), ...contextIds(cell
 
 // One kind for the three compiled-cell schemas (variants+type, cells+type, cells+provenance-only as
 // compile-cat25 emits). `screen` is a gov / read_across cell carrying screen:true.
-const PROV_TO_KIND = { "regulatory-alignment": "gov", "read-across": "read_across", control: "control", "not-material": "not_material", subsumed: "subsumed", "baseline-screen": "baseline_screen" }
+const PROV_TO_KIND = { "regulatory-alignment": "gov", "read-across": "read_across", control: "control", "not-material": "not_material", subsumed: "subsumed", "baseline-screen": "baseline_screen", precautionary: "precautionary" }
 function kindOfCell(cell) {
   if (!cell || typeof cell !== "object") return ""
   let t = cell.type || cell.cell_kind || ""
@@ -198,7 +200,7 @@ function auditRecord(rec, file) {
   // the last variant mask a defect in the first (the soy variant hid the cow variant before 2026-09-02).
   const variants = rec.variants && typeof rec.variants === "object" && !rec.cells ? Object.entries(rec.variants) : [["_", rec.cells || {}]]
   const recGuard = rec.basis_guard ? new RegExp(rec.basis_guard, "i") : null
-  const FIRM_KINDS = new Set(["gov", "read_across", "form_split", "special"])
+  const FIRM_KINDS = new Set(["precautionary", "gov", "read_across", "form_split", "special"])
   let firm = 0
   let anyControl = false
 
@@ -302,8 +304,21 @@ function auditRecord(rec, file) {
         }
       }
 
-      // C5 value fidelity — the published number must equal the strictest named anchor
-      if (numeric) {
+      // C13 precautionary — a program value BELOW a disclosed, resolvable, in-force sovereign floor (or the parent total)
+      if (kind === "precautionary") {
+        const f = cell.sovereign_floor
+        if (!f || typeof f.value !== "number") F("C13", `${L}: precautionary cell has no resolvable sovereign floor`)
+        else {
+          if (!(cell.value < f.value)) F("C13", `${L}: precautionary value ${cell.value} is not below the sovereign floor ${f.value}`)
+          if (f.id) {
+            const r = byId.get(f.id)
+            if (!r) F("C13", `${L}: sovereign floor ${f.id} is not in the register`)
+            else if (GATED_STATUS.test(r.status || "")) F("C13", `${L}: sovereign floor ${f.id} is superseded or otherwise gated (${r.status})`)
+          } else if (!f.parent) F("C13", `${L}: precautionary floor names neither a register row nor a parent total`)
+        }
+      }
+      // C5 value fidelity — the published number must equal the strictest named anchor (a precautionary cell is checked by C13)
+      if (numeric && kind !== "precautionary") {
         const named = bindingIds(cell)
           .filter((id) => byId.has(id) && !GATED_STATUS.test(byId.get(id).status || ""))
           .filter((id) => {

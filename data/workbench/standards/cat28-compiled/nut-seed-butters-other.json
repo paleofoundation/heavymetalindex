@@ -47,7 +47,8 @@
         "rationale": "iAs carries no product-specific sovereign cell; it is a component of and bounded by its parent total tAs (iAs <= tAs), an enforceable ceiling via reflex speciation rather than an empty cell.",
         "regulatory_basis": null,
         "jurisdictions_checked": null,
-        "reference_method": null
+        "reference_method": null,
+        "binding_total": 800
       },
       "tAs": {
         "type": "gov",
@@ -117,7 +118,8 @@
         "rationale": "MeHg carries no product-specific sovereign cell; it is a component of and bounded by its parent total tHg (MeHg <= tHg), an enforceable ceiling via reflex speciation rather than an empty cell.",
         "regulatory_basis": null,
         "jurisdictions_checked": null,
-        "reference_method": null
+        "reference_method": null,
+        "binding_total": 20
       },
       "Cd": {
         "type": "gov",
@@ -145,7 +147,8 @@
         "rationale": "Cr-VI carries no product-specific sovereign cell; it is a component of and bounded by its parent total Cr (Cr-VI <= Cr), an enforceable ceiling via reflex speciation rather than an empty cell.",
         "regulatory_basis": null,
         "jurisdictions_checked": null,
-        "reference_method": null
+        "reference_method": null,
+        "binding_total": 1000
       },
       "Ni": {
         "type": "gov",

@@ -189,6 +189,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-tablets|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-solids-capsules": {
@@ -207,6 +215,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-capsules|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-solids-softgels": {
@@ -224,6 +240,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-softgels|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -244,6 +268,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-gummies|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-solids-lozenges": {
@@ -261,6 +293,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-lozenges|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -280,6 +320,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-powders|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-solids-effervescent": {
@@ -298,6 +346,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-solids-effervescent|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-liquids-tinctures": {
@@ -315,6 +371,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-liquids-tinctures|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -335,6 +399,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-liquids-syrups|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-oral-liquids-shots": {
@@ -352,6 +424,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-liquids-shots|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -372,6 +452,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oral-liquids-droppers|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-teas-labeled": {
@@ -391,6 +479,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-teas-labeled|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-bars-labeled": {
@@ -408,6 +504,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-bars-labeled|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -428,6 +532,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-vitamin-mineral|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-botanicals-herbs": {
@@ -447,6 +559,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-botanicals-herbs|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-amino-acids-isolates": {
@@ -464,6 +584,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-amino-acids-isolates|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -483,6 +611,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-enzymes|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-probiotics": {
@@ -500,6 +636,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-probiotics|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -520,6 +664,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-algae-seaweed-based|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-protein-collagen-powders": {
@@ -538,6 +690,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-protein-collagen-powders|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -558,6 +718,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-oil-based|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-clay-mineral-earth": {
@@ -576,6 +744,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-clay-mineral-earth|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     },
@@ -596,6 +772,14 @@
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
         }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-mushroom-fungal|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "supplements-greens-superfood": {
@@ -614,6 +798,14 @@
           "basis": "gov",
           "label": "TH general-food maximum level (food other than the listed total-mercury categories)",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; catch-all-raise → th_moph414_2020_thg_food_other_20"
+        }
+      },
+      "precautionary": {
+        "tHg": {
+          "value": 4,
+          "rationale": "Published tHg of 4 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4) was superseded; the strictest in-force sovereign floor is 20 ug/kg (th_moph414_2020_thg_food_other_20). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat16-compiled|supplements-greens-superfood|both|tHg",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
         }
       }
     }

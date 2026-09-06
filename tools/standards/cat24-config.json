@@ -546,6 +546,14 @@
           "basis": "gov",
           "reanchor_note": "2026-09-02: regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines superseded; override-raise → china_gb2762_2025_pb_milk_products_other_200"
         }
+      },
+      "precautionary": {
+        "Pb": {
+          "value": 20,
+          "rationale": "Published Pb of 20 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016_pb_1_1_dairy_products_20) was superseded; the strictest in-force sovereign floor is 200 ug/kg (china_gb2762_2025_pb_milk_products_other_200). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+          "held_item": "cat24-compiled|dairy-milk-powders|both|Pb",
+          "decided": "2026-09-02 wwsaid (governance: Decisions enacted under standing permission)"
+        }
       }
     },
     "dairy-condensed-evaporated": {

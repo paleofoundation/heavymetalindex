@@ -411,7 +411,7 @@ for (const slug of slugs) {
   const cells = {}
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   reconcileMercurySpeciation(cells)
-  stampProvenance(cells) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
+  stampProvenance(cells, sub) // one provenance vocabulary (lib/provenance.mjs, Phase A5)
 
   const missing = missingCanonicalAnalytes(PANEL)
   if (missing.length) { console.error(`!! panel missing canonical analytes: ${missing.join(", ")}`); anyDefect = true }

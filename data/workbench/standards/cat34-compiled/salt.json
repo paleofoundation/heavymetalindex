@@ -137,7 +137,8 @@
       "bounded_by": "tAs",
       "binding_total": 500,
       "basis_class": "speciation-bounded",
-      "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (500 ug/kg); no separate iAs ceiling is published. Total arsenic is measured on every lot; iAs is speciated whenever tAs exceeds its reflex trigger."
+      "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). No in-force sovereign sets a separate iAs maximum level for this product on its basis, so inorganic arsenic is governed by and bounded by the total arsenic ceiling (500 ug/kg); no separate iAs ceiling is published. Total arsenic is measured on every lot; iAs is speciated whenever tAs exceeds its reflex trigger.",
+      "precautionary_refused": "precautionary value 500 is not below the sovereign floor 500"
     },
     "tHg": {
       "analyte": "tHg",
