@@ -3,11 +3,11 @@
   "compiled_dir": "cat24-compiled",
   "category": 24,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T11:36:16.198Z",
-  "register_commit": "a9a5d3764",
-  "cert_commit": "e4ee816",
+  "generated_at": "2026-09-06T18:24:51.898Z",
+  "register_commit": "7a2599c3c",
+  "cert_commit": "9ff16f2",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -18,13 +18,13 @@
     "records": 8,
     "cells": 88,
     "confirmed": 0,
-    "refuted": 3,
-    "unverified": 48,
+    "refuted": 1,
+    "unverified": 50,
     "blocked": 37,
     "stale": 0,
-    "lens0_fail": 3,
-    "m1_pending_rows": 8,
-    "m2_batches_pending": 7
+    "lens0_fail": 1,
+    "m1_pending_rows": 7,
+    "m2_batches_pending": 9
   },
   "cells": {
     "dairy-cheese|_|Pb": {
@@ -64,8 +64,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.192Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.889Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Cd": {
@@ -105,8 +105,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.192Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.890Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|tAs": {
@@ -146,8 +146,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.192Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.890Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|iAs": {
@@ -187,8 +187,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.192Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.890Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|tHg": {
@@ -228,8 +228,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.890Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|MeHg": {
@@ -269,8 +269,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Ni": {
@@ -310,8 +310,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Sn": {
@@ -351,8 +351,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Al": {
@@ -392,8 +392,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Cr": {
@@ -433,8 +433,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cheese|_|Cr-VI": {
@@ -474,8 +474,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Pb": {
@@ -515,8 +515,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Cd": {
@@ -556,8 +556,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.193Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.891Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|tAs": {
@@ -597,8 +597,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|iAs": {
@@ -638,8 +638,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|tHg": {
@@ -679,8 +679,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|MeHg": {
@@ -720,8 +720,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Ni": {
@@ -761,8 +761,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Sn": {
@@ -802,8 +802,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Al": {
@@ -843,8 +843,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Cr": {
@@ -884,8 +884,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-condensed-evaporated|_|Cr-VI": {
@@ -925,8 +925,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.892Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Pb": {
@@ -966,8 +966,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Cd": {
@@ -1007,8 +1007,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.194Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|tAs": {
@@ -1048,8 +1048,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|iAs": {
@@ -1089,8 +1089,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|tHg": {
@@ -1130,8 +1130,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|MeHg": {
@@ -1171,8 +1171,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Ni": {
@@ -1212,8 +1212,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Sn": {
@@ -1253,8 +1253,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Al": {
@@ -1294,8 +1294,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Cr": {
@@ -1335,8 +1335,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-cream|_|Cr-VI": {
@@ -1376,8 +1376,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Pb": {
@@ -1417,8 +1417,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Cd": {
@@ -1458,8 +1458,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|tAs": {
@@ -1499,8 +1499,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.893Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|iAs": {
@@ -1540,8 +1540,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|tHg": {
@@ -1581,8 +1581,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|MeHg": {
@@ -1622,8 +1622,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Ni": {
@@ -1663,8 +1663,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Sn": {
@@ -1704,8 +1704,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Al": {
@@ -1745,8 +1745,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.195Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Cr": {
@@ -1786,8 +1786,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.894Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-camel|_|Cr-VI": {
@@ -1827,8 +1827,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Pb": {
@@ -1868,8 +1868,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Cd": {
@@ -1909,8 +1909,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|tAs": {
@@ -1950,8 +1950,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|iAs": {
@@ -1991,8 +1991,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|tHg": {
@@ -2032,8 +2032,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|MeHg": {
@@ -2073,8 +2073,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Ni": {
@@ -2114,8 +2114,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Sn": {
@@ -2155,8 +2155,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Al": {
@@ -2196,8 +2196,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Cr": {
@@ -2237,8 +2237,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-cow|_|Cr-VI": {
@@ -2278,8 +2278,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Pb": {
@@ -2319,8 +2319,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.895Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Cd": {
@@ -2360,8 +2360,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|tAs": {
@@ -2401,8 +2401,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|iAs": {
@@ -2442,8 +2442,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.196Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|tHg": {
@@ -2483,8 +2483,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|MeHg": {
@@ -2524,8 +2524,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Ni": {
@@ -2565,8 +2565,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Sn": {
@@ -2606,8 +2606,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Al": {
@@ -2647,8 +2647,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Cr": {
@@ -2688,8 +2688,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-milk-goat-sheep|_|Cr-VI": {
@@ -2729,42 +2729,39 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Pb": {
+    "dairy-milk-powders|_|Pb": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Pb",
       "verdict": "refuted",
       "reasons": [
-        "C4:[both] Pb: anchor \"il_fcs2016_pb_1_1_dairy_products_20\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] Pb: publishes 20 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_pb_1_1_dairy_products_20 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "D9:published 20 ≠ strictest named anchor 200"
       ],
       "state": "firm",
-      "kind": "read_across",
+      "kind": "precautionary",
       "confidence_meaning": "disclosed-derivation",
       "published_value": 20,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_pb_1_1_dairy_products_20"
+        "china_gb2762_2025_pb_milk_products_other_200"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "121e39f5e0374b90",
-      "claim_sha256": "e1b02dbedfe59d53f713996ab3ae504ee4a6d9f07678994f1ec6b3e087885c3c",
-      "anchor_sha256": "5c47f189366111420fdcd38d9b518d6715a8298b4bf32263f5cb1ca78c86c833",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "457eccd0405b27c38401bcdde77d638c4482a6fe6f2f94b916a333051d329f0e",
+      "evidence_key": "7f8c8d267eab506f",
+      "claim_sha256": "d4501499c2f22672dad46a7170ba2585914008d1adfad75d1e68a0705ba6c1b9",
+      "anchor_sha256": "4df3080ccfe6140f8f6db612d3b6ed0bed4d11b34c5eb97f2931a6f4926aacb2",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "0ae256a08aa7e0613290180ec450fe00d3b8f2b798075565f29ed4e1f6735e24",
       "m1": {
         "verified": [],
         "pending": [
-          "il_fcs2016_pb_1_1_dairy_products_20"
+          "china_gb2762_2025_pb_milk_products_other_200"
         ],
         "blocked": []
       },
@@ -2773,13 +2770,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Cd": {
+    "dairy-milk-powders|_|Cd": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Cd",
       "verdict": "blocked",
       "reasons": [
@@ -2800,7 +2797,7 @@
       "claim_sha256": "201eaa727433e1d6c9237a8cf172f393248e82484df8d4ac4a1821887428985b",
       "anchor_sha256": "aad2e4f50041ded651eb7d5c3f89ab3436b4998aca87f4d0c33032cb792155b3",
       "instrument_sha256": "1ec80b5f1606ef98cb84fc75c329ed3f541cd18294054aae965be94aa5807c25",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
       "cell_sha256": "fb2b2a231f6bce92a3dd3c8bcb523b55b5a1b4a861b420edbe0b4e665bcee51a",
       "m1": {
         "verified": [],
@@ -2814,20 +2811,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|tAs": {
+    "dairy-milk-powders|_|tAs": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "tAs",
-      "verdict": "refuted",
+      "verdict": "unverified",
       "reasons": [
-        "C4:[both] tAs: anchor \"china_gb2762_tas_milk_powder_500\" is gated (status=\"superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation\")",
-        "C5:[both] tAs: publishes 500 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor china_gb2762_tas_milk_powder_500 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        "M1:pending china_gb2762_2025_tas_milk_powder_500"
       ],
       "state": "firm",
       "kind": "gov",
@@ -2835,21 +2829,21 @@
       "published_value": 500,
       "blind_value": null,
       "evidence_ids": [
-        "china_gb2762_tas_milk_powder_500"
+        "china_gb2762_2025_tas_milk_powder_500"
       ],
       "instrument_pages": [
-        "regulations/china-gb-2762-2022-contaminants"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "ce3a0dd53c7b3102",
-      "claim_sha256": "01224531e3cbdcec9ffae23d4a587d5fca5b3651d71308155f1a26710d886acc",
-      "anchor_sha256": "524f27565ec1f79a8c956d63d82298c06ff36a2a991b47254fcc59a528c99f05",
-      "instrument_sha256": "ba316da0b4519a635af78da41e9367bc4fee1bccea5db7a71940ee2508ff0002",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "a9492abb9e53b63d5c1087169997fdff95209872b7bd9909356655c283dc7e40",
+      "evidence_key": "915a4e68f65d70be",
+      "claim_sha256": "2f3654de5a00bda44c6b88c56bbfd4baa8a4f63fc93587c8ae202581b20e144e",
+      "anchor_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "acde1735ebd7346f07e17e6158ec6f8006032621cb5909b7394d429d96a57b68",
       "m1": {
         "verified": [],
         "pending": [
-          "china_gb2762_tas_milk_powder_500"
+          "china_gb2762_2025_tas_milk_powder_500"
         ],
         "blocked": []
       },
@@ -2858,17 +2852,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|iAs": {
+    "dairy-milk-powders|_|iAs": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "iAs",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_tas_milk_powder_500"
+        "M1:pending china_gb2762_2025_tas_milk_powder_500"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -2876,21 +2870,21 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "china_gb2762_tas_milk_powder_500"
+        "china_gb2762_2025_tas_milk_powder_500"
       ],
       "instrument_pages": [
-        "regulations/china-gb-2762-2022-contaminants"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "a8216e0c4c36687f",
+      "evidence_key": "18403d1ee15bfb4d",
       "claim_sha256": "dabc8d02ffbecc14cc9bf8186066fe61925ca671b6a35917ee970a6134e73abc",
-      "anchor_sha256": "524f27565ec1f79a8c956d63d82298c06ff36a2a991b47254fcc59a528c99f05",
-      "instrument_sha256": "ba316da0b4519a635af78da41e9367bc4fee1bccea5db7a71940ee2508ff0002",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "3d015fc5673aba2d28a927947a534ba1af094acb80607e5ce28f57be48742539",
+      "anchor_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "cb9e38e3bcfc3d99b4fdffc33ddcbe401517fe5a69b8bad867da820d6109f701",
       "m1": {
         "verified": [],
         "pending": [
-          "china_gb2762_tas_milk_powder_500"
+          "china_gb2762_2025_tas_milk_powder_500"
         ],
         "blocked": []
       },
@@ -2899,13 +2893,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.896Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|tHg": {
+    "dairy-milk-powders|_|tHg": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "tHg",
       "verdict": "blocked",
       "reasons": [
@@ -2926,7 +2920,7 @@
       "claim_sha256": "74b1d668d987738b305f287497b182f9bc7ce314518725b1295079536da06e50",
       "anchor_sha256": "2d7efd21ddc346c0f873784caec5d3bb98535fc86c3a40a8344f3e78b03c4978",
       "instrument_sha256": "1ec80b5f1606ef98cb84fc75c329ed3f541cd18294054aae965be94aa5807c25",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
       "cell_sha256": "11503e9ff34d1fff2add401f02760ffaed91f9b856295462c4e70172f1e598ca",
       "m1": {
         "verified": [],
@@ -2940,13 +2934,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|MeHg": {
+    "dairy-milk-powders|_|MeHg": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "MeHg",
       "verdict": "blocked",
       "reasons": [
@@ -2967,8 +2961,8 @@
       "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
       "anchor_sha256": "2d7efd21ddc346c0f873784caec5d3bb98535fc86c3a40a8344f3e78b03c4978",
       "instrument_sha256": "1ec80b5f1606ef98cb84fc75c329ed3f541cd18294054aae965be94aa5807c25",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "32f0dfc850ba5363253a320502fa84ff233bf0e24e721d4a4d38d46293975585",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "80792996c115aec59b9293817805d263f58d1c4a5193a6447155bd34c82dce7b",
       "m1": {
         "verified": [],
         "pending": [],
@@ -2981,13 +2975,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Ni": {
+    "dairy-milk-powders|_|Ni": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Ni",
       "verdict": "unverified",
       "reasons": [
@@ -3008,7 +3002,7 @@
       "claim_sha256": "eeecb3561089f59f46a68a275033c7861359202201f729f9f1475b3bb337ce65",
       "anchor_sha256": "c0a82abf156784c3e836f449313438bb1b0af36b8791a394a79ec444d5ea41d6",
       "instrument_sha256": "b41d706a48ba2021c58a6b3691f5ec290b1ca8ad37bdc5827d3902a67919bee5",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
       "cell_sha256": "8d2ef659aaacbe793d36d0878a4c871415c2db0af05994bd3a024b5b18e39be7",
       "m1": {
         "verified": [],
@@ -3022,13 +3016,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Sn": {
+    "dairy-milk-powders|_|Sn": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Sn",
       "verdict": "blocked",
       "reasons": [
@@ -3045,12 +3039,12 @@
       "instrument_pages": [
         "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "094beb2b81c07662",
-      "claim_sha256": "6e914cb96428a52bf693087f0cf7fbcd316803d6ea1d26bce82e0c4de1eac267",
+      "evidence_key": "543ff91b807ae480",
+      "claim_sha256": "2acc697522932a40bb584f3017f553a90413e1a2a8e239f9ef6c628612be5925",
       "anchor_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
       "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "a00d15427ac85bebe3cf8e4a5761311f295601af296d6477527948c158e6b76b",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "445f6ec7d7355f221ce79f153e31a191a6e6cfbe66ecceb93fca4bcecc48afa1",
       "m1": {
         "verified": [],
         "pending": [],
@@ -3063,13 +3057,13 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Al": {
+    "dairy-milk-powders|_|Al": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Al",
       "verdict": "unverified",
       "reasons": [
@@ -3090,7 +3084,7 @@
       "claim_sha256": "697fc3c93c3993d1c12066f1d06802fdde2a20f64aa463e721839cdc3bf48f6c",
       "anchor_sha256": "bc7e03cddfce177ae9ecbbeb73fa4719335c259897c0bf78dc3cf558f900af77",
       "instrument_sha256": "523527b8cc32b73e9d350de76b09cfe8d3a81e515cab68681a286878a3a1a117",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
       "cell_sha256": "a0f49597bcb2697c49b93519272570ba0bfcae9d6f37e9031e2b6b164ff81bae",
       "m1": {
         "verified": [],
@@ -3104,20 +3098,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Cr": {
+    "dairy-milk-powders|_|Cr": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Cr",
-      "verdict": "refuted",
+      "verdict": "unverified",
       "reasons": [
-        "C4:[both] Cr: anchor \"china_gb2762_cr_milk_powder_2000\" is gated (status=\"superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation\")",
-        "C5:[both] Cr: publishes 2000 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor china_gb2762_cr_milk_powder_2000 gated (superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation)"
+        "M2:no verdicts yet"
       ],
       "state": "firm",
       "kind": "gov",
@@ -3125,22 +3116,22 @@
       "published_value": 2000,
       "blind_value": null,
       "evidence_ids": [
-        "china_gb2762_cr_milk_powder_2000"
+        "china_gb2762_2025_crtotal_milk_powder_2000"
       ],
       "instrument_pages": [
-        "regulations/china-gb-2762-2022-contaminants"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "b599fc8b1deacbd8",
-      "claim_sha256": "fa4e36c0042a5ddf30f7bec2a71b9f35937a72b5800a5cba1119a393845e15a6",
-      "anchor_sha256": "fdaf61ca0daa637708ad1ead258ca1fd7c0ba60dcea8c34788def961b95703ae",
-      "instrument_sha256": "ba316da0b4519a635af78da41e9367bc4fee1bccea5db7a71940ee2508ff0002",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "38593fcf53381615d51e25d89cdd5ad72fd8028da9c16db56caba3ae6900703c",
+      "evidence_key": "e253d63c28db7e96",
+      "claim_sha256": "aaa469e40f0ad5805bd329916a51915d99506d65d9b639367125c645911c7f68",
+      "anchor_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "f45412bfd7c74a85f519dbbaadca4b0e07b3fa49d6d2667056b7a8a93828dd07",
       "m1": {
-        "verified": [],
-        "pending": [
-          "china_gb2762_cr_milk_powder_2000"
+        "verified": [
+          "china_gb2762_2025_crtotal_milk_powder_2000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -3148,17 +3139,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
-    "dairy-milk-powders|both|Cr-VI": {
+    "dairy-milk-powders|_|Cr-VI": {
       "slug": "dairy-milk-powders",
-      "variant": "both",
+      "variant": "_",
       "analyte": "Cr-VI",
       "verdict": "unverified",
       "reasons": [
-        "M1:pending china_gb2762_cr_milk_powder_2000"
+        "M2:no verdicts yet"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -3166,22 +3157,22 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "china_gb2762_cr_milk_powder_2000"
+        "china_gb2762_2025_crtotal_milk_powder_2000"
       ],
       "instrument_pages": [
-        "regulations/china-gb-2762-2022-contaminants"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "b58074a539b38931",
+      "evidence_key": "01819d57e4965f58",
       "claim_sha256": "7b79af461b678e21e69e74b2ca32e3bb0898bd3e50264c27485a3d5f8014ec05",
-      "anchor_sha256": "fdaf61ca0daa637708ad1ead258ca1fd7c0ba60dcea8c34788def961b95703ae",
-      "instrument_sha256": "ba316da0b4519a635af78da41e9367bc4fee1bccea5db7a71940ee2508ff0002",
-      "record_sha256": "b5c4ee249df79dd359c35118839cfe595f3d29cfbb0ed3cb5dac97bcd8624d77",
-      "cell_sha256": "5abee772702f2892bbc10f502de30ff40706ac49e1a766efc4ea084d273afd6c",
+      "anchor_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "a5b659049e6a73cddaf78a6ea3c781b9ad8a7eecc9ba391ef203c9cc9d3c4ff0",
+      "cell_sha256": "8a6568440c5704ea631c28761be1e669dd402a1c355f09acc781ec05b0919490",
       "m1": {
-        "verified": [],
-        "pending": [
-          "china_gb2762_cr_milk_powder_2000"
+        "verified": [
+          "china_gb2762_2025_crtotal_milk_powder_2000"
         ],
+        "pending": [],
         "blocked": []
       },
       "m2": {
@@ -3189,8 +3180,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.197Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Pb": {
@@ -3230,8 +3221,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Cd": {
@@ -3271,8 +3262,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|tAs": {
@@ -3312,8 +3303,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|iAs": {
@@ -3353,8 +3344,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|tHg": {
@@ -3394,8 +3385,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|MeHg": {
@@ -3435,8 +3426,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Ni": {
@@ -3476,8 +3467,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Sn": {
@@ -3517,8 +3508,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Al": {
@@ -3558,8 +3549,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.897Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Cr": {
@@ -3599,8 +3590,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.898Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "dairy-yogurt-cultured|_|Cr-VI": {
@@ -3640,8 +3631,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:16.198Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.898Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     }
   }

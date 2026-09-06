@@ -3,11 +3,11 @@
   "compiled_dir": "cat18-compiled",
   "category": 18,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T11:36:14.354Z",
-  "register_commit": "a9a5d3764",
-  "cert_commit": "e4ee816",
+  "generated_at": "2026-09-06T18:24:51.710Z",
+  "register_commit": "7a2599c3c",
+  "cert_commit": "9ff16f2",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -69,8 +69,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.345Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.698Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Cd": {
@@ -115,8 +115,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.345Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.699Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|tAs": {
@@ -156,8 +156,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.346Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.699Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|iAs": {
@@ -197,8 +197,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.346Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.699Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|tHg": {
@@ -243,8 +243,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.346Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.700Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|MeHg": {
@@ -284,8 +284,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.346Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.700Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Ni": {
@@ -325,8 +325,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.347Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.700Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Sn": {
@@ -366,8 +366,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.347Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.700Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Al": {
@@ -407,8 +407,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.347Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.700Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Cr": {
@@ -453,8 +453,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.347Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.701Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-botanical-herbal|_|Cr-VI": {
@@ -494,8 +494,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.347Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.701Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Pb": {
@@ -540,8 +540,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.348Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.702Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Cd": {
@@ -586,8 +586,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.348Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.702Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|tAs": {
@@ -627,8 +627,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.702Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|iAs": {
@@ -668,8 +668,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|tHg": {
@@ -714,8 +714,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|MeHg": {
@@ -755,8 +755,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Ni": {
@@ -796,8 +796,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Sn": {
@@ -837,8 +837,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Al": {
@@ -878,8 +878,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Cr": {
@@ -924,8 +924,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-calming-behavioral|_|Cr-VI": {
@@ -965,8 +965,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Pb": {
@@ -1011,8 +1011,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.349Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.703Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Cd": {
@@ -1057,8 +1057,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.704Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|tAs": {
@@ -1098,8 +1098,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.704Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|iAs": {
@@ -1139,8 +1139,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.704Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|tHg": {
@@ -1185,8 +1185,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|MeHg": {
@@ -1226,8 +1226,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Ni": {
@@ -1267,8 +1267,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Sn": {
@@ -1308,8 +1308,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Al": {
@@ -1349,8 +1349,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Cr": {
@@ -1395,8 +1395,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-functional-blends|_|Cr-VI": {
@@ -1436,8 +1436,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.350Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Pb": {
@@ -1482,8 +1482,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Cd": {
@@ -1528,8 +1528,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.705Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|tAs": {
@@ -1569,8 +1569,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|iAs": {
@@ -1610,8 +1610,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|tHg": {
@@ -1656,8 +1656,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|MeHg": {
@@ -1697,8 +1697,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Ni": {
@@ -1738,8 +1738,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Sn": {
@@ -1779,8 +1779,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Al": {
@@ -1820,8 +1820,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Cr": {
@@ -1866,8 +1866,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-oils|_|Cr-VI": {
@@ -1907,8 +1907,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.351Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.706Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Pb": {
@@ -1953,8 +1953,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Cd": {
@@ -1999,8 +1999,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|tAs": {
@@ -2040,8 +2040,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|iAs": {
@@ -2081,8 +2081,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|tHg": {
@@ -2127,8 +2127,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|MeHg": {
@@ -2168,8 +2168,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Ni": {
@@ -2209,8 +2209,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Sn": {
@@ -2250,8 +2250,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Al": {
@@ -2291,8 +2291,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Cr": {
@@ -2337,8 +2337,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-other|_|Cr-VI": {
@@ -2378,8 +2378,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.707Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Pb": {
@@ -2424,8 +2424,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.352Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Cd": {
@@ -2470,8 +2470,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|tAs": {
@@ -2511,8 +2511,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|iAs": {
@@ -2552,8 +2552,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|tHg": {
@@ -2598,8 +2598,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|MeHg": {
@@ -2639,8 +2639,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Ni": {
@@ -2680,8 +2680,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Sn": {
@@ -2721,8 +2721,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Al": {
@@ -2762,8 +2762,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Cr": {
@@ -2808,8 +2808,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-probiotics-digestive|_|Cr-VI": {
@@ -2849,8 +2849,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.708Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Pb": {
@@ -2895,8 +2895,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Cd": {
@@ -2941,8 +2941,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.353Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|tAs": {
@@ -2982,8 +2982,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|iAs": {
@@ -3023,8 +3023,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|tHg": {
@@ -3069,8 +3069,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|MeHg": {
@@ -3110,8 +3110,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Ni": {
@@ -3151,8 +3151,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Sn": {
@@ -3192,8 +3192,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Al": {
@@ -3233,8 +3233,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Cr": {
@@ -3279,8 +3279,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.709Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "pet-supplements-vitamin-mineral|_|Cr-VI": {
@@ -3320,8 +3320,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:14.354Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:51.710Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     }
   }

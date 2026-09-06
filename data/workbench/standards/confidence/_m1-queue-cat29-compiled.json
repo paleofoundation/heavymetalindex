@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat29-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
@@ -149,80 +149,42 @@
       ],
       "cells": [
         "cultivated-mushrooms-oyster-shiitake|both|tAs",
-        "cultivated-mushrooms|both|tAs"
+        "cultivated-mushrooms-oyster-shiitake|both|iAs",
+        "cultivated-mushrooms|both|tAs",
+        "cultivated-mushrooms|both|iAs"
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
       "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
+        "register_urls": [],
         "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "iAs",
-          "value_ug_kg": "60",
-          "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 3; limit 0.06 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5",
-          "row_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
           "metal_species": "tHg",
-          "value_ug_kg": "30",
+          "value_ug_kg": "20",
           "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.03 mg/kg.",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83",
-          "row_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_tas_3_fruits_and_vegetables_including_mushrooms_edible_pla_1000",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tAs",
-          "value_ug_kg": "1000",
-          "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table total-arsenic column; English commodity scope is translated from the source row. Source row 3; limit 1 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "87b64828459fb348813ac68ecf8dfc29ca4649842f48826f662d6d5c4ab22664",
-          "row_sha256": "87b64828459fb348813ac68ecf8dfc29ca4649842f48826f662d6d5c4ab22664"
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
         }
       ],
       "cells": [
-        "cultivated-mushrooms-oyster-shiitake|both|iAs",
         "cultivated-mushrooms-oyster-shiitake|both|tHg",
         "cultivated-mushrooms-oyster-shiitake|both|MeHg",
-        "cultivated-mushrooms|both|iAs",
         "cultivated-mushrooms|both|tHg",
         "cultivated-mushrooms|both|MeHg",
-        "wild-mushrooms|both|tAs",
-        "wild-mushrooms|both|iAs",
         "wild-mushrooms|both|tHg",
         "wild-mushrooms|both|MeHg"
       ]
@@ -285,11 +247,30 @@
           "soy_class": "",
           "_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
           "row_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea"
+        },
+        {
+          "regulatory_limit_id": "sg_foodregs_2026_other_food_tas_1000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "1000",
+          "basis": "product as sold or imported",
+          "product_scope": "other food not specified in the Tenth Schedule",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Tenth Schedule (b)(27) arsenic column; value 1 ppm normalized to 1000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+          "row_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508"
         }
       ],
       "cells": [
         "cultivated-mushrooms-oyster-shiitake|both|Sn",
         "cultivated-mushrooms|both|Sn",
+        "wild-mushrooms|both|tAs",
+        "wild-mushrooms|both|iAs",
         "wild-mushrooms|both|Sn"
       ]
     },

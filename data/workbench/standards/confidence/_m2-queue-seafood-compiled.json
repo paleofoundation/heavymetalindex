@@ -1,6 +1,6 @@
 {
   "compiled_dir": "seafood-compiled",
-  "run_id": "run-202609021342",
+  "run_id": "run-202609061824",
   "batches": [
     {
       "evidence_key": "2f68af6557623e66",
@@ -55,10 +55,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609021342"
+      "batch_id": "seafood-compiled-2f68af6557623e66-run-202609061824"
     },
     {
-      "evidence_key": "ba4005b742ea8abb",
+      "evidence_key": "3b9f5de2c66be85b",
       "analyte": "Pb",
       "basis_class": "as_consumed",
       "conversion": null,
@@ -98,10 +98,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-ba4005b742ea8abb-run-202609021342"
+      "batch_id": "seafood-compiled-3b9f5de2c66be85b-run-202609061824"
     },
     {
-      "evidence_key": "e8b5dd23b9f12a25",
+      "evidence_key": "618c5f56cc5185c4",
       "analyte": "Cd",
       "basis_class": "as_consumed",
       "conversion": null,
@@ -110,21 +110,21 @@
       "compiled_dir": "seafood-compiled",
       "anchors": [
         {
-          "regulatory_limit_id": "gso193_2021_cd_muscle_meat_of_fish_with_exception_mentioned_50",
-          "jurisdiction": "GSO",
-          "authority": "GCC Standardization Organization",
+          "regulatory_limit_id": "cr_rtcr409_2008_cd_fish_general_50",
+          "jurisdiction": "CR",
+          "authority": "SENASA / Ministerio de Agricultura y Ganaderia",
           "status": "maximum level",
           "metal_species": "Cd",
           "value_ug_kg": "50",
-          "basis": "muscle meat",
-          "product_scope": "Muscle meat of fish with exception mentioned",
-          "regulation_page": "regulations/gso-193-2021-contaminants-toxins-food-feed",
-          "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html",
-          "notes": "GSO 193:2021 table; mg/kg converted to ug/kg. Licensed source; raw copy is not redistributed.",
+          "basis": "product as placed on market",
+          "product_scope": "fish in general, except sardine, eel, and swordfish",
+          "regulation_page": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
+          "url": "https://www.imprentanacional.go.cr/pub/2008/08/",
+          "notes": "RTCR 409:2008 section 3.2 cadmium row 2; value 0.05 mg/kg normalized to 50 ug/kg; source table does not state wet/dry basis.",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a",
-          "row_sha256": "6899f6d3b6ecddbd381eea7d2a26a44788d7217beb354aae096d2740290c220a"
+          "_sha256": "96571d63056af6583630aca0103776f86d4341e410927720162653e9b5c1cca2",
+          "row_sha256": "96571d63056af6583630aca0103776f86d4341e410927720162653e9b5c1cca2"
         }
       ],
       "cells": [
@@ -151,9 +151,21 @@
           "kind": "gov",
           "state": "firm",
           "subsumed_by": null
+        },
+        {
+          "key": "fish-marine-predatory|both|Cd",
+          "slug": "fish-marine-predatory",
+          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-e8b5dd23b9f12a25-run-202609021342"
+      "batch_id": "seafood-compiled-618c5f56cc5185c4-run-202609061824"
     },
     {
       "evidence_key": "7fbb918c726855d1",
@@ -196,7 +208,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609021342"
+      "batch_id": "seafood-compiled-7fbb918c726855d1-run-202609061824"
     },
     {
       "evidence_key": "090e2ea3a3ec4ac4",
@@ -239,213 +251,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609021342"
-    },
-    {
-      "evidence_key": "28df1c012f001db3",
-      "analyte": "Ni",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2024_ni_husked_rice_2000",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "Ni",
-          "value_ug_kg": "2000",
-          "basis": "product as placed on market",
-          "product_scope": "husked rice",
-          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
-          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
-          "notes": "Applies from 2026-07-01.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f",
-          "row_sha256": "c28190bdca3003c2e40d8fd038a7208d3a7ccebec7489e391b89812e1f7d518f"
-        }
-      ],
-      "cells": [
-        {
-          "key": "canned-seafood|both|Ni",
-          "slug": "canned-seafood",
-          "product": "Canned seafood (canned tuna, canned fish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "cephalopods|both|Ni",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-freshwater|both|Ni",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-non-predatory|both|Ni",
-          "slug": "fish-marine-non-predatory",
-          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-predatory|both|Ni",
-          "slug": "fish-marine-predatory",
-          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "shellfish|both|Ni",
-          "slug": "shellfish",
-          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-28df1c012f001db3-run-202609021342"
-    },
-    {
-      "evidence_key": "82a34805c720f325",
-      "analyte": "Cr-VI",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
-          "jurisdiction": "US-CA",
-          "authority": "CA SWRCB",
-          "status": "maximum contaminant level",
-          "metal_species": "Cr-VI",
-          "value_ug_kg": "10",
-          "basis": "drinking water",
-          "product_scope": "drinking water",
-          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
-          "url": "",
-          "notes": "Hexavalent chromium MCL.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585",
-          "row_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585"
-        }
-      ],
-      "cells": [
-        {
-          "key": "canned-seafood|both|Cr-VI",
-          "slug": "canned-seafood",
-          "product": "Canned seafood (canned tuna, canned fish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "cephalopods|both|Cr-VI",
-          "slug": "cephalopods",
-          "product": "Cephalopods (octopus, squid, cuttlefish; not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-freshwater|both|Cr-VI",
-          "slug": "fish-freshwater",
-          "product": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-non-predatory|both|Cr-VI",
-          "slug": "fish-marine-non-predatory",
-          "product": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "fish-marine-predatory|both|Cr-VI",
-          "slug": "fish-marine-predatory",
-          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "shellfish|both|Cr-VI",
-          "slug": "shellfish",
-          "product": "Shellfish (crustaceans and bivalve molluscs, not canned)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-82a34805c720f325-run-202609021342"
+      "batch_id": "seafood-compiled-090e2ea3a3ec4ac4-run-202609061824"
     },
     {
       "evidence_key": "87c5769139e19ee8",
@@ -536,7 +342,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609021342"
+      "batch_id": "seafood-compiled-87c5769139e19ee8-run-202609061824"
     },
     {
       "evidence_key": "e2000dc0445e47fb",
@@ -579,7 +385,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609021342"
+      "batch_id": "seafood-compiled-e2000dc0445e47fb-run-202609061824"
     },
     {
       "evidence_key": "9b7d1101bd267369",
@@ -622,7 +428,7 @@
           "subsumed_by": "tHg"
         }
       ],
-      "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609021342"
+      "batch_id": "seafood-compiled-9b7d1101bd267369-run-202609061824"
     },
     {
       "evidence_key": "2559d6c78b422192",
@@ -665,53 +471,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2559d6c78b422192-run-202609021342"
+      "batch_id": "seafood-compiled-2559d6c78b422192-run-202609061824"
     },
     {
-      "evidence_key": "618c5f56cc5185c4",
-      "analyte": "Cd",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "cr_rtcr409_2008_cd_fish_general_50",
-          "jurisdiction": "CR",
-          "authority": "SENASA / Ministerio de Agricultura y Ganaderia",
-          "status": "maximum level",
-          "metal_species": "Cd",
-          "value_ug_kg": "50",
-          "basis": "product as placed on market",
-          "product_scope": "fish in general, except sardine, eel, and swordfish",
-          "regulation_page": "regulations/costa-rica-rtcr409-2008-fishery-contaminants",
-          "url": "https://www.imprentanacional.go.cr/pub/2008/08/",
-          "notes": "RTCR 409:2008 section 3.2 cadmium row 2; value 0.05 mg/kg normalized to 50 ug/kg; source table does not state wet/dry basis.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "96571d63056af6583630aca0103776f86d4341e410927720162653e9b5c1cca2",
-          "row_sha256": "96571d63056af6583630aca0103776f86d4341e410927720162653e9b5c1cca2"
-        }
-      ],
-      "cells": [
-        {
-          "key": "fish-marine-predatory|both|Cd",
-          "slug": "fish-marine-predatory",
-          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-618c5f56cc5185c4-run-202609021342"
-    },
-    {
-      "evidence_key": "19561b03ce436ec9",
+      "evidence_key": "b4ec70b82573cc26",
       "analyte": "tHg",
       "basis_class": "as_consumed",
       "conversion": null,
@@ -720,21 +483,21 @@
       "compiled_dir": "seafood-compiled",
       "anchors": [
         {
-          "regulatory_limit_id": "eu2023_hg_fish_high_1000",
+          "regulatory_limit_id": "eu2023_hg_fish_general_500",
           "jurisdiction": "EU",
           "authority": "European Commission",
           "status": "maximum level",
           "metal_species": "tHg",
-          "value_ug_kg": "1000",
+          "value_ug_kg": "500",
           "basis": "wet weight",
-          "product_scope": "listed higher-mercury fish including tuna, shark, swordfish, marlin, halibut, pike, sturgeon, and others",
+          "product_scope": "crustaceans, molluscs, and muscle meat of fish except species listed at lower or higher mercury levels",
           "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.3.1.2.",
+          "notes": "Annex I section 3.3.1.1.",
           "basis_class": "",
           "soy_class": "",
-          "_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d",
-          "row_sha256": "ca67bf39d299b7e4e11b70498e37164930e059f75350cddaae2edd43358dce0d"
+          "_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369",
+          "row_sha256": "55419fc8a7c1a809ff018f166371db86c7f915278483241bcd782b2d8f941369"
         }
       ],
       "cells": [
@@ -751,50 +514,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-19561b03ce436ec9-run-202609021342"
-    },
-    {
-      "evidence_key": "1408b285ffb5df2f",
-      "analyte": "MeHg",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "china_gb2762_2025_mehg_predatory_fish_1000",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "maximum level",
-          "metal_species": "MeHg",
-          "value_ug_kg": "1000",
-          "basis": "product as placed on market",
-          "product_scope": "Predatory fish and their products, excluding tuna, alfonsino, marlin, shark and the products of those fish (GB 2762-2025 Table 3, item 1.2); methylmercury",
-          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-          "url": "",
-          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 1.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 1.0 mg/kg; screening rule: total mercury may be measured first and compliance concluded when it does not exceed the MeHg limit; test method GB 5009.17 (natural mineral water GB 8538)",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "4dac981518f58c8f9f9f4f6edfafa4e9bf25c90636335566bb891cd699d97b8e",
-          "row_sha256": "4dac981518f58c8f9f9f4f6edfafa4e9bf25c90636335566bb891cd699d97b8e"
-        }
-      ],
-      "cells": [
-        {
-          "key": "fish-marine-predatory|both|MeHg",
-          "slug": "fish-marine-predatory",
-          "product": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "gov",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-1408b285ffb5df2f-run-202609021342"
+      "batch_id": "seafood-compiled-b4ec70b82573cc26-run-202609061824"
     },
     {
       "evidence_key": "c8accec5d287b266",
@@ -837,7 +557,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-c8accec5d287b266-run-202609021342"
+      "batch_id": "seafood-compiled-c8accec5d287b266-run-202609061824"
     },
     {
       "evidence_key": "f0284afb2a54974f",
@@ -880,7 +600,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-f0284afb2a54974f-run-202609021342"
+      "batch_id": "seafood-compiled-f0284afb2a54974f-run-202609061824"
     },
     {
       "evidence_key": "2d20593ce4a0fc94",
@@ -923,93 +643,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609021342"
-    },
-    {
-      "evidence_key": "e253d63c28db7e96",
-      "analyte": "Cr",
-      "basis_class": "as_sold",
-      "conversion": null,
-      "native_basis": "as_sold",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "maximum level",
-          "metal_species": "Cr-total",
-          "value_ug_kg": "2000",
-          "basis": "product as placed on market",
-          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
-          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-          "url": "",
-          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
-          "basis_class": "as_sold",
-          "soy_class": "both",
-          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
-          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
-        }
-      ],
-      "cells": [
-        {
-          "key": "seaweed-kelp-foods|both|Cr",
-          "slug": "seaweed-kelp-foods",
-          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-e253d63c28db7e96-run-202609021342"
-    },
-    {
-      "evidence_key": "69bc926b7cf83ece",
-      "analyte": "Cr-VI",
-      "basis_class": "as_sold",
-      "conversion": null,
-      "native_basis": "as_sold",
-      "category": 6,
-      "compiled_dir": "seafood-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
-          "jurisdiction": "US-CA",
-          "authority": "CA SWRCB",
-          "status": "maximum contaminant level",
-          "metal_species": "Cr-VI",
-          "value_ug_kg": "10",
-          "basis": "drinking water",
-          "product_scope": "drinking water",
-          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
-          "url": "",
-          "notes": "Hexavalent chromium MCL.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585",
-          "row_sha256": "30b9d9037dd3261a377e3e9915ebc6a65b27a0e34ff37e964bea6943223a1585"
-        }
-      ],
-      "cells": [
-        {
-          "key": "seaweed-kelp-foods|both|Cr-VI",
-          "slug": "seaweed-kelp-foods",
-          "product": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "seafood-compiled-69bc926b7cf83ece-run-202609021342"
+      "batch_id": "seafood-compiled-2d20593ce4a0fc94-run-202609061824"
     },
     {
       "evidence_key": "7b5e59f213e493bf",
@@ -1052,7 +686,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609021342"
+      "batch_id": "seafood-compiled-7b5e59f213e493bf-run-202609061824"
     },
     {
       "evidence_key": "42be502b999b13ba",
@@ -1095,7 +729,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-42be502b999b13ba-run-202609021342"
+      "batch_id": "seafood-compiled-42be502b999b13ba-run-202609061824"
     },
     {
       "evidence_key": "b25d29ae3469be77",
@@ -1138,7 +772,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609021342"
+      "batch_id": "seafood-compiled-b25d29ae3469be77-run-202609061824"
     }
   ]
 }

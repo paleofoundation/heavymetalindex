@@ -1,136 +1,57 @@
 {
   "compiled_dir": "cat4-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
       "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
         ],
-        "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_pb_3_fruits_and_vegetables_except_listed_categories_100",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "china_gb2762_2025_pb_fruit_products_200",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
           "metal_species": "Pb",
-          "value_ug_kg": "100",
+          "value_ug_kg": "200",
           "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, except listed categories",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.1 mg/kg.",
+          "product_scope": "Fruit products, excluding jam and fruit puree, preserved (candied) fruit and dried fruit (GB 2762-2025 Table 1, item 3.3)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 3.3; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.4; source value 0.2 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "d94b533258a02e4a0b7110b5a7b929fff092666911d0c74b07423b8f1adef6c6",
-          "row_sha256": "d94b533258a02e4a0b7110b5a7b929fff092666911d0c74b07423b8f1adef6c6"
+          "_sha256": "a0fabe35657092773eb28f9f1551b58b4f17c177dff5e34a1fa09a2ef9e2a421",
+          "row_sha256": "a0fabe35657092773eb28f9f1551b58b4f17c177dff5e34a1fa09a2ef9e2a421"
         },
         {
-          "regulatory_limit_id": "il_fcs2016_cd_3_fruits_and_vegetables_except_listed_categories_50",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "china_gb2762_2025_cd_fresh_fruit_50",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
           "metal_species": "Cd",
           "value_ug_kg": "50",
           "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, except listed categories",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.05 mg/kg.",
+          "product_scope": "Fresh fruit (GB 2762-2025 Table 2, item 3.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 2 item 3.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.7; source value 0.05 mg/kg; test method GB 5009.15 (packaged drinking water GB 8538)",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "81d762725f395f394874ab76d5cc3300a842225c1336b46e8951f31525c0c636",
-          "row_sha256": "81d762725f395f394874ab76d5cc3300a842225c1336b46e8951f31525c0c636"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_ias_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_300",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "iAs",
-          "value_ug_kg": "300",
-          "basis": "product as placed on market",
-          "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 3.1; limit 0.3 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "77598b38b5c9d53b66bdc8deced891bd28997df4bf7d87c29d241bddfd840293",
-          "row_sha256": "77598b38b5c9d53b66bdc8deced891bd28997df4bf7d87c29d241bddfd840293"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_3_1_dried_fruits_and_vegetables_including_mushrooms_edib_150",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tHg",
-          "value_ug_kg": "150",
-          "basis": "product as placed on market",
-          "product_scope": "Dried fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3.1; limit 0.15 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "92729967279ef01b00c8297712a6fff07566d9425c6c85e22609d49ee2d79149",
-          "row_sha256": "92729967279ef01b00c8297712a6fff07566d9425c6c85e22609d49ee2d79149"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_ias_3_fruits_and_vegetables_including_mushrooms_edible_pla_60",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "iAs",
-          "value_ug_kg": "60",
-          "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 3; limit 0.06 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5",
-          "row_sha256": "80dc809681934469c0efb93b113330edf49db147abcd95ff983b9472ffd706f5"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_3_fruits_and_vegetables_including_mushrooms_edible_pla_30",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tHg",
-          "value_ug_kg": "30",
-          "basis": "product as placed on market",
-          "product_scope": "Fruits and vegetables, including mushrooms, edible plants, and herbs",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 3; limit 0.03 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83",
-          "row_sha256": "18668406b800471232b0b74fd7794e196fbf78c7a01189057f0d70cf3d5fdd83"
+          "_sha256": "63a381275dbe869e8b9927efb895dd480157a27c184ea6ca2353ace1d853467e",
+          "row_sha256": "63a381275dbe869e8b9927efb895dd480157a27c184ea6ca2353ace1d853467e"
         }
       ],
       "cells": [
         "dried-fruit|_|Pb",
         "dried-fruit|_|Cd",
-        "dried-fruit|_|iAs",
-        "dried-fruit|_|tHg",
-        "fresh-fruit|_|iAs",
-        "fresh-fruit|_|tHg",
         "fruit-snacks|_|Pb",
-        "fruit-snacks|_|Cd",
-        "fruit-snacks|_|iAs",
-        "fruit-snacks|_|tHg",
-        "leafy-vegetables-other|_|iAs",
-        "non-root-vegetables|_|iAs",
-        "pickled-fermented-vegetables|_|iAs",
-        "root-tuber-vegetables|_|iAs",
-        "spinach|_|iAs"
+        "fruit-snacks|_|Cd"
       ]
     },
     {
@@ -263,13 +184,53 @@
       ],
       "cells": [
         "dried-fruit|_|tAs",
+        "dried-fruit|_|iAs",
         "fresh-fruit|_|tAs",
+        "fresh-fruit|_|iAs",
         "fruit-snacks|_|tAs",
+        "fruit-snacks|_|iAs",
         "leafy-vegetables-other|_|tAs",
+        "leafy-vegetables-other|_|iAs",
         "non-root-vegetables|_|tAs",
+        "non-root-vegetables|_|iAs",
         "pickled-fermented-vegetables|_|tAs",
+        "pickled-fermented-vegetables|_|iAs",
         "root-tuber-vegetables|_|tAs",
-        "spinach|_|tAs"
+        "root-tuber-vegetables|_|iAs",
+        "spinach|_|tAs",
+        "spinach|_|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
+        }
+      ],
+      "cells": [
+        "dried-fruit|_|tHg",
+        "fresh-fruit|_|tHg",
+        "fruit-snacks|_|tHg"
       ]
     },
     {

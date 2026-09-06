@@ -1,10 +1,10 @@
 {
   "compiled_dir": "cat29-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "cells": {
-    "cat29-compiled-414c45bd9cd9142e-run-202609021136": {
+    "cat29-compiled-c2698a310d571561-run-202609061824": {
       "kind": "wrong-basis-anchor",
-      "of_batch": "cat29-compiled-2d20593ce4a0fc94-run-202609021136",
+      "of_batch": "cat29-compiled-2d20593ce4a0fc94-run-202609061824",
       "key": "cultivated-mushrooms-oyster-shiitake|both|Al",
       "honest_verdict": "refuted"
     }

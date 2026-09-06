@@ -1,6 +1,6 @@
 {
   "compiled_dir": "seafood-compiled",
-  "run_id": "run-202609021342",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
@@ -74,6 +74,43 @@
       ]
     },
     {
+      "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "primary_text": {
+        "register_urls": [
+          "http://data.europa.eu/eli/reg/2024/1987/oj"
+        ],
+        "raw_paths": [],
+        "wiki_page": "wiki/regulations/eu-2024-1987-nickel-maximum-levels.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "eu2024_ni_babyfood_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "baby food except juices",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "3291dca8c9c771aefb74cba44c020df0a80f02d43fd9d4e951e186cdc45f58d5",
+          "row_sha256": "3291dca8c9c771aefb74cba44c020df0a80f02d43fd9d4e951e186cdc45f58d5"
+        }
+      ],
+      "cells": [
+        "canned-seafood|both|Ni",
+        "cephalopods|both|Ni",
+        "fish-freshwater|both|Ni",
+        "fish-marine-non-predatory|both|Ni",
+        "fish-marine-predatory|both|Ni",
+        "shellfish|both|Ni"
+      ]
+    },
+    {
       "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
       "primary_text": {
         "register_urls": [
@@ -101,6 +138,23 @@
           "row_sha256": "3e33af7d46ab85b891ebdd5df1283485a9477811cbb055a3f04531705b0fe375"
         },
         {
+          "regulatory_limit_id": "hk_cap132v_mehg_fish-other-than-those-fish-specified-in-this-item-fish_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "MeHg",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Fish (other than those fish specified in this item), fish balls and fish cakes",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 11 (Mercury (expressed as methyl-mercury)); source value 0.5 mg/kg; Note 2: edible portion after removal of the digestive tract (if any)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "376c81648276b13fcad5e1fd88a2158af09333b827f0fb9046e503f5f572ced2",
+          "row_sha256": "376c81648276b13fcad5e1fd88a2158af09333b827f0fb9046e503f5f572ced2"
+        },
+        {
           "regulatory_limit_id": "hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000",
           "jurisdiction": "HK",
           "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
@@ -120,10 +174,16 @@
       ],
       "cells": [
         "canned-seafood|both|Cr",
+        "canned-seafood|both|Cr-VI",
         "fish-freshwater|both|Cr",
+        "fish-freshwater|both|Cr-VI",
         "fish-marine-non-predatory|both|Cr",
+        "fish-marine-non-predatory|both|Cr-VI",
+        "fish-marine-predatory|both|MeHg",
         "fish-marine-predatory|both|Cr",
-        "shellfish|both|Cr"
+        "fish-marine-predatory|both|Cr-VI",
+        "shellfish|both|Cr",
+        "shellfish|both|Cr-VI"
       ]
     },
     {
@@ -153,7 +213,8 @@
         }
       ],
       "cells": [
-        "cephalopods|both|Cr"
+        "cephalopods|both|Cr",
+        "cephalopods|both|Cr-VI"
       ]
     },
     {
@@ -182,10 +243,29 @@
           "soy_class": "",
           "_sha256": "f00856e9a31182239d35521b6c5625d5f224f61fe9dff72d787e3b96beb441c6",
           "row_sha256": "f00856e9a31182239d35521b6c5625d5f224f61fe9dff72d787e3b96beb441c6"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
         }
       ],
       "cells": [
-        "seaweed-kelp-foods|both|Pb"
+        "seaweed-kelp-foods|both|Pb",
+        "seaweed-kelp-foods|both|Cr",
+        "seaweed-kelp-foods|both|Cr-VI"
       ]
     },
     {

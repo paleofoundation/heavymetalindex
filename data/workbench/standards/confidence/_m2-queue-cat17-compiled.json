@@ -1,11 +1,11 @@
 {
   "compiled_dir": "cat17-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "batches": [
     {
-      "evidence_key": "865aa8f23f1575b6",
+      "evidence_key": "2d20593ce4a0fc94",
       "analyte": "Al",
-      "basis_class": "product as placed on market; dry sample, calculated as Al",
+      "basis_class": "as_sold",
       "conversion": null,
       "native_basis": "as_sold",
       "category": 17,
@@ -34,18 +34,6 @@
           "key": "pet-chews-dental|both|Al",
           "slug": "pet-chews-dental",
           "product": "Pet chews (including dental chews)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "pet-food-canned-wet|both|Al",
-          "slug": "pet-food-canned-wet",
-          "product": "Complete & balanced canned/wet",
           "scope_note": null,
           "material": null,
           "basis_guard": null,
@@ -91,33 +79,9 @@
           "subsumed_by": null
         },
         {
-          "key": "pet-food-raw|both|Al",
-          "slug": "pet-food-raw",
-          "product": "Raw pet foods (frozen/chilled raw diets)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
           "key": "pet-food-semi-moist|both|Al",
           "slug": "pet-food-semi-moist",
           "product": "Semi-moist pet foods",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "pet-toppers-mixers-broths|both|Al",
-          "slug": "pet-toppers-mixers-broths",
-          "product": "Toppers / mixers / broths",
           "scope_note": null,
           "material": null,
           "basis_guard": null,
@@ -139,12 +103,12 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-865aa8f23f1575b6-run-202609021136"
+      "batch_id": "cat17-compiled-2d20593ce4a0fc94-run-202609061824"
     },
     {
-      "evidence_key": "4c8807a323c8925e",
+      "evidence_key": "f64b03df7a13b209",
       "analyte": "Al",
-      "basis_class": "product as placed on market; dry sample, calculated as Al",
+      "basis_class": "as_sold",
       "conversion": null,
       "native_basis": "as_sold",
       "category": 17,
@@ -182,7 +146,141 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-4c8807a323c8925e-run-202609021136"
+      "batch_id": "cat17-compiled-f64b03df7a13b209-run-202609061824"
+    },
+    {
+      "evidence_key": "87c5769139e19ee8",
+      "analyte": "Sn",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
+          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-canned-wet|both|Sn",
+          "slug": "pet-food-canned-wet",
+          "product": "Complete & balanced canned/wet",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-fish-marine-protein|both|Sn",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-87c5769139e19ee8-run-202609061824"
+    },
+    {
+      "evidence_key": "1fcffde23c86c892",
+      "analyte": "Al",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 17,
+      "compiled_dir": "cat17-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
+          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
+        }
+      ],
+      "cells": [
+        {
+          "key": "pet-food-canned-wet|both|Al",
+          "slug": "pet-food-canned-wet",
+          "product": "Complete & balanced canned/wet",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-fish-marine-protein|both|Al",
+          "slug": "pet-food-fish-marine-protein",
+          "product": "Fish-based / marine-protein complete diets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-food-raw|both|Al",
+          "slug": "pet-food-raw",
+          "product": "Raw pet foods (frozen/chilled raw diets)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "pet-toppers-mixers-broths|both|Al",
+          "slug": "pet-toppers-mixers-broths",
+          "product": "Toppers / mixers / broths",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat17-compiled-1fcffde23c86c892-run-202609061824"
     },
     {
       "evidence_key": "2559d6c78b422192",
@@ -225,7 +323,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-2559d6c78b422192-run-202609021136"
+      "batch_id": "cat17-compiled-2559d6c78b422192-run-202609061824"
     },
     {
       "evidence_key": "e8b5dd23b9f12a25",
@@ -268,7 +366,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-e8b5dd23b9f12a25-run-202609021136"
+      "batch_id": "cat17-compiled-e8b5dd23b9f12a25-run-202609061824"
     },
     {
       "evidence_key": "e2000dc0445e47fb",
@@ -311,7 +409,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-e2000dc0445e47fb-run-202609021136"
+      "batch_id": "cat17-compiled-e2000dc0445e47fb-run-202609061824"
     },
     {
       "evidence_key": "9b7d1101bd267369",
@@ -354,148 +452,7 @@
           "subsumed_by": "tHg"
         }
       ],
-      "batch_id": "cat17-compiled-9b7d1101bd267369-run-202609021136"
-    },
-    {
-      "evidence_key": "87c5769139e19ee8",
-      "analyte": "Sn",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 17,
-      "compiled_dir": "cat17-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "Sn",
-          "value_ug_kg": "200000",
-          "basis": "product as placed on market",
-          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
-          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
-        }
-      ],
-      "cells": [
-        {
-          "key": "pet-food-fish-marine-protein|both|Sn",
-          "slug": "pet-food-fish-marine-protein",
-          "product": "Fish-based / marine-protein complete diets",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "cat17-compiled-87c5769139e19ee8-run-202609021136"
-    },
-    {
-      "evidence_key": "1fcffde23c86c892",
-      "analyte": "Al",
-      "basis_class": "as_consumed",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 17,
-      "compiled_dir": "cat17-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission of China (NHC)",
-          "status": "maximum level",
-          "metal_species": "Al",
-          "value_ug_kg": "100000",
-          "basis": "product as placed on market; dry sample, calculated as Al",
-          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
-          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
-          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
-          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
-          "row_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166"
-        }
-      ],
-      "cells": [
-        {
-          "key": "pet-food-fish-marine-protein|both|Al",
-          "slug": "pet-food-fish-marine-protein",
-          "product": "Fish-based / marine-protein complete diets",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "cat17-compiled-1fcffde23c86c892-run-202609021136"
-    },
-    {
-      "evidence_key": "a747c40f4ce5676b",
-      "analyte": "Sn",
-      "basis_class": "product as placed on market",
-      "conversion": null,
-      "native_basis": "as_consumed",
-      "category": 17,
-      "compiled_dir": "cat17-compiled",
-      "anchors": [
-        {
-          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
-          "jurisdiction": "EU",
-          "authority": "European Commission",
-          "status": "maximum level",
-          "metal_species": "Sn",
-          "value_ug_kg": "200000",
-          "basis": "product as placed on market",
-          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
-          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
-          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
-          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0",
-          "row_sha256": "4929826bddf361429b06b7ae0270152223c53bf8f6fce6bf5ecb59767bd73ce0"
-        }
-      ],
-      "cells": [
-        {
-          "key": "pet-food-raw|both|Sn",
-          "slug": "pet-food-raw",
-          "product": "Raw pet foods (frozen/chilled raw diets)",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        },
-        {
-          "key": "pet-toppers-mixers-broths|both|Sn",
-          "slug": "pet-toppers-mixers-broths",
-          "product": "Toppers / mixers / broths",
-          "scope_note": null,
-          "material": null,
-          "basis_guard": null,
-          "variant": "both",
-          "kind": "read_across",
-          "state": "firm",
-          "subsumed_by": null
-        }
-      ],
-      "batch_id": "cat17-compiled-a747c40f4ce5676b-run-202609021136"
+      "batch_id": "cat17-compiled-9b7d1101bd267369-run-202609061824"
     },
     {
       "evidence_key": "733a7533cdf79609",
@@ -538,7 +495,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-733a7533cdf79609-run-202609021136"
+      "batch_id": "cat17-compiled-733a7533cdf79609-run-202609061824"
     },
     {
       "evidence_key": "05375f0142564509",
@@ -581,7 +538,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat17-compiled-05375f0142564509-run-202609021136"
+      "batch_id": "cat17-compiled-05375f0142564509-run-202609061824"
     },
     {
       "evidence_key": "0ca76d45e8affd2c",
@@ -624,7 +581,7 @@
           "subsumed_by": "Cr"
         }
       ],
-      "batch_id": "cat17-compiled-0ca76d45e8affd2c-run-202609021136"
+      "batch_id": "cat17-compiled-0ca76d45e8affd2c-run-202609061824"
     }
   ]
 }

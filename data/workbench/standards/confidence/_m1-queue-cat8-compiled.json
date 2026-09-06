@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat8-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/eu-2020-2184-drinking-water",
@@ -169,31 +169,29 @@
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/epa-arsenic-mcl",
       "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
+        "register_urls": [],
         "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/epa-arsenic-mcl.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_ias_16_1_bottled_drinking_water_and_mineral_water_6",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "epa_mcl_ias_drinking_water_10",
+          "jurisdiction": "US",
+          "authority": "US-EPA",
+          "status": "maximum contaminant level",
           "metal_species": "iAs",
-          "value_ug_kg": "6",
-          "basis": "product as placed on market",
-          "product_scope": "Bottled drinking water and mineral water",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table gives mg/kg for bottled drinking water and mineral water; treated as approximately mg/L for water-equivalent liquids. Source row 16.1; limit 0.006 mg/kg.",
-          "basis_class": "as_sold",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water (public water systems)",
+          "regulation_page": "regulations/epa-arsenic-mcl",
+          "url": "",
+          "notes": "Arsenic MCL; arsenic in drinking water is effectively inorganic. FDA adopts EPA MCLs for bottled water by reference.",
+          "basis_class": "",
           "soy_class": "",
-          "_sha256": "2a86fdc3dce5deaff3195898e275ab75915b51a820af9a8cdc6dc3cb649f8fd2",
-          "row_sha256": "2a86fdc3dce5deaff3195898e275ab75915b51a820af9a8cdc6dc3cb649f8fd2"
+          "_sha256": "be63f00213d9c36612313692e13804fedd955be697e8a9321d7efa3c0c7738fc",
+          "row_sha256": "be63f00213d9c36612313692e13804fedd955be697e8a9321d7efa3c0c7738fc"
         }
       ],
       "cells": [

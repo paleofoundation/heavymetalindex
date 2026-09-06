@@ -1,5 +1,399 @@
 {
   "compiled_dir": "cat16-compiled",
-  "run_id": "run-202609021136",
-  "batches": []
+  "run_id": "run-202609061824",
+  "batches": [
+    {
+      "evidence_key": "295b86e6d4541038",
+      "analyte": "Ni",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 16,
+      "compiled_dir": "cat16-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "supplements-algae-seaweed-based|both|Ni",
+          "slug": "supplements-algae-seaweed-based",
+          "product": "Ingredient class — algae/seaweed-based",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-amino-acids-isolates|both|Ni",
+          "slug": "supplements-amino-acids-isolates",
+          "product": "Ingredient class — amino acids & isolates",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-bars-labeled|both|Ni",
+          "slug": "supplements-bars-labeled",
+          "product": "Food-like forms: bars (when labeled as supplement)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-botanicals-herbs|both|Ni",
+          "slug": "supplements-botanicals-herbs",
+          "product": "Ingredient class — botanicals/herbs/traditional formulas",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-clay-mineral-earth|both|Ni",
+          "slug": "supplements-clay-mineral-earth",
+          "product": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-enzymes|both|Ni",
+          "slug": "supplements-enzymes",
+          "product": "Ingredient class — enzymes",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-greens-superfood|both|Ni",
+          "slug": "supplements-greens-superfood",
+          "product": "Ingredient class — greens/superfood blends",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-mushroom-fungal|both|Ni",
+          "slug": "supplements-mushroom-fungal",
+          "product": "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oil-based|both|Ni",
+          "slug": "supplements-oil-based",
+          "product": "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-capsules|both|Ni",
+          "slug": "supplements-oral-solids-capsules",
+          "product": "Oral solids: capsules",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-effervescent|both|Ni",
+          "slug": "supplements-oral-solids-effervescent",
+          "product": "Oral solids: effervescent tablets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-gummies|both|Ni",
+          "slug": "supplements-oral-solids-gummies",
+          "product": "Oral solids: gummies/chewables",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-lozenges|both|Ni",
+          "slug": "supplements-oral-solids-lozenges",
+          "product": "Oral solids: lozenges",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-powders|both|Ni",
+          "slug": "supplements-oral-solids-powders",
+          "product": "Oral solids: powders (bulk tubs, sachets, stick packs)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-softgels|both|Ni",
+          "slug": "supplements-oral-solids-softgels",
+          "product": "Oral solids: softgels/gelcaps",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-solids-tablets|both|Ni",
+          "slug": "supplements-oral-solids-tablets",
+          "product": "Oral solids: tablets/caplets",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-probiotics|both|Ni",
+          "slug": "supplements-probiotics",
+          "product": "Ingredient class — live microbials/probiotics",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-protein-collagen-powders|both|Ni",
+          "slug": "supplements-protein-collagen-powders",
+          "product": "Ingredient class — protein/collagen powders",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-teas-labeled|both|Ni",
+          "slug": "supplements-teas-labeled",
+          "product": "Food-like forms: teas (when labeled as supplement)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-vitamin-mineral|both|Ni",
+          "slug": "supplements-vitamin-mineral",
+          "product": "Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat16-compiled-295b86e6d4541038-run-202609061824"
+    },
+    {
+      "evidence_key": "08063217a7f969a1",
+      "analyte": "Ni",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 16,
+      "compiled_dir": "cat16-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council (Directive 2009/48/EC)",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "soluble element migration from toy material (EN 71-3 category III), mg/kg of material",
+          "product_scope": "toys and toy components (soluble element migration)",
+          "regulation_page": "regulations/eu-2009-48-toy-safety-migration-limits",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "supplements-algae-seaweed-based|both|Ni",
+          "slug": "supplements-algae-seaweed-based",
+          "product": "Ingredient class — algae/seaweed-based",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat16-compiled-08063217a7f969a1-run-202609061824"
+    },
+    {
+      "evidence_key": "733a7533cdf79609",
+      "analyte": "Ni",
+      "basis_class": "as_consumed",
+      "conversion": null,
+      "native_basis": "as_consumed",
+      "category": 16,
+      "compiled_dir": "cat16-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45",
+          "row_sha256": "b46358924f9e3e0cc253d0d6f788e5e93077e2fedfd26e52f04e7b230a024a45"
+        }
+      ],
+      "cells": [
+        {
+          "key": "supplements-oral-liquids-droppers|both|Ni",
+          "slug": "supplements-oral-liquids-droppers",
+          "product": "Oral liquids: droppers",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-liquids-shots|both|Ni",
+          "slug": "supplements-oral-liquids-shots",
+          "product": "Oral liquids: liquid shots",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-liquids-syrups|both|Ni",
+          "slug": "supplements-oral-liquids-syrups",
+          "product": "Oral liquids: syrups",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        },
+        {
+          "key": "supplements-oral-liquids-tinctures|both|Ni",
+          "slug": "supplements-oral-liquids-tinctures",
+          "product": "Oral liquids: tinctures/drops",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "both",
+          "kind": "read_across",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat16-compiled-733a7533cdf79609-run-202609061824"
+    }
+  ]
 }

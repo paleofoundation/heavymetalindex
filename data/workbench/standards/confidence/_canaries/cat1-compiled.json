@@ -1,10 +1,10 @@
 {
   "compiled_dir": "cat1-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "cells": {
-    "cat1-compiled-f75c930708426ddb-run-202609021136": {
+    "cat1-compiled-8979b314a7dc8ff8-run-202609061824": {
       "kind": "wrong-basis-anchor",
-      "of_batch": "cat1-compiled-e253d63c28db7e96-run-202609021136",
+      "of_batch": "cat1-compiled-e253d63c28db7e96-run-202609061824",
       "key": "infant-formula-powder|cow|Cr",
       "honest_verdict": "refuted"
     }

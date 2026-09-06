@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat16-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
@@ -305,31 +305,29 @@
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
       "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
+        "register_urls": [],
         "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
           "metal_species": "tHg",
-          "value_ug_kg": "4",
-          "basis": "as consumed",
-          "product_scope": "Infant and toddler formulas, ready-to-eat",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 14; limit 0.004 mg/kg.",
-          "basis_class": "as_consumed",
-          "soy_class": "both",
-          "_sha256": "1143a671330ee706089e047091b86160733659d69f1690ae67476c5612590b35",
-          "row_sha256": "1143a671330ee706089e047091b86160733659d69f1690ae67476c5612590b35"
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
         }
       ],
       "cells": [
@@ -384,32 +382,31 @@
       ]
     },
     {
-      "regulation_page": "regulations/china-gb-2762-2022-contaminants",
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
       "primary_text": {
-        "register_urls": [
-          "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=China+Releases+the+Standard+for+Maximum+Levels+of+Contaminants+in+Foods_Beijing_China+-+People%27s+Republic+of_CH2023-0040.pdf",
-          "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
         ],
-        "raw_paths": [],
-        "wiki_page": "wiki/regulations/china-gb-2762-2022-contaminants.md"
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "china_gb2762_crtotal_grains_1000",
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
           "jurisdiction": "CN",
-          "authority": "National Health Commission (NHC) and SAMR",
-          "status": "superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation",
-          "metal_species": "Cr",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
           "value_ug_kg": "1000",
-          "basis": "food as placed on market",
-          "product_scope": "grains and grain products including cereals and milled grain products",
-          "regulation_page": "regulations/china-gb-2762-2022-contaminants",
-          "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=China+Releases+the+Standard+for+Maximum+Levels+of+Contaminants+in+Foods_Beijing_China+-+People%27s+Republic+of_CH2023-0040.pdf",
-          "notes": "China GB 2762-2022 maximum level. Restores a binding/context row the live cert already cites but which was absent from the register (provenance gap, 2026-08-25); value PRIMARY-VERIFIED 2026-08-25 against the USDA FAS translation of GB 2762-2022 (report CH2023-0040), Tables 1/6/7.",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "d59382be8b90e8da8937b0b1bdbd030c420937ebf8f1644cab30766f2af3f3ef",
-          "row_sha256": "d59382be8b90e8da8937b0b1bdbd030c420937ebf8f1644cab30766f2af3f3ef"
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
         }
       ],
       "cells": [

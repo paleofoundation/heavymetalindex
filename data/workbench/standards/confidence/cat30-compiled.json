@@ -3,10 +3,10 @@
   "compiled_dir": "cat30-compiled",
   "category": 30,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-202609021218",
+  "run_id": "run-202609061824",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T12:18:09.528Z",
-  "register_commit": "735dad9b2",
+  "generated_at": "2026-09-06T18:24:52.646Z",
+  "register_commit": "7a2599c3c",
   "cert_commit": "9ff16f2",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
@@ -77,8 +77,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.524Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.643Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cd": {
@@ -121,8 +121,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.525Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.643Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|tAs": {
@@ -162,8 +162,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.525Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|iAs": {
@@ -203,8 +203,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.525Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|tHg": {
@@ -247,8 +247,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.525Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|MeHg": {
@@ -288,8 +288,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.525Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Ni": {
@@ -342,8 +342,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.526Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Sn": {
@@ -396,8 +396,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.526Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Al": {
@@ -437,8 +437,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.526Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.644Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cr": {
@@ -491,8 +491,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.645Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "cooking-oils-other|default|Cr-VI": {
@@ -545,8 +545,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.645Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Pb": {
@@ -599,8 +599,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.645Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cd": {
@@ -643,8 +643,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.645Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|tAs": {
@@ -684,8 +684,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|iAs": {
@@ -725,8 +725,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.527Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|tHg": {
@@ -769,8 +769,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|MeHg": {
@@ -810,8 +810,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Ni": {
@@ -864,8 +864,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Sn": {
@@ -918,8 +918,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Al": {
@@ -959,8 +959,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cr": {
@@ -1013,8 +1013,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "olive-oil|default|Cr-VI": {
@@ -1067,8 +1067,8 @@
           }
         ]
       },
-      "verified_at": "2026-09-02T12:18:09.528Z",
-      "run_id": "run-202609021218",
+      "verified_at": "2026-09-06T18:24:52.646Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     }
   }

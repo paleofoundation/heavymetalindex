@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat28-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "batches": [
     {
       "evidence_key": "2d20593ce4a0fc94",
@@ -103,10 +103,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat28-compiled-2d20593ce4a0fc94-run-202609021136"
+      "batch_id": "cat28-compiled-2d20593ce4a0fc94-run-202609061824"
     },
     {
-      "evidence_key": "a31a36aadfa7986b",
+      "evidence_key": "a5ec34859db14622",
       "analyte": "Al",
       "basis_class": "as_sold",
       "conversion": null,
@@ -146,7 +146,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat28-compiled-a31a36aadfa7986b-run-202609021136"
+      "batch_id": "cat28-compiled-a5ec34859db14622-run-202609061824"
     }
   ]
 }

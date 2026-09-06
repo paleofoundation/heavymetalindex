@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat34-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/china-gb-2762-2025-contaminants",
@@ -425,38 +425,7 @@
         }
       ],
       "cells": [
-        "salt|_|tAs"
-      ]
-    },
-    {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
-        "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "il_fcs2016_ias_12_salt_500",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "iAs",
-          "value_ug_kg": "500",
-          "basis": "product as placed on market",
-          "product_scope": "Salt",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 12; limit 0.5 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "cf6fd1e235201eb2d9d61ddebd523be3cc726a8d6fc9807fb46f91f3220ebda4",
-          "row_sha256": "cf6fd1e235201eb2d9d61ddebd523be3cc726a8d6fc9807fb46f91f3220ebda4"
-        }
-      ],
-      "cells": [
+        "salt|_|tAs",
         "salt|_|iAs"
       ]
     },

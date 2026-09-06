@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat31-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "batches": [
     {
       "evidence_key": "865aa8f23f1575b6",
@@ -79,10 +79,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat31-compiled-865aa8f23f1575b6-run-202609021136"
+      "batch_id": "cat31-compiled-865aa8f23f1575b6-run-202609061824"
     },
     {
-      "evidence_key": "568fed4b42f2b7df",
+      "evidence_key": "db639e84244d4674",
       "analyte": "Al",
       "basis_class": "product as placed on market; dry sample, calculated as Al",
       "conversion": null,
@@ -122,7 +122,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat31-compiled-568fed4b42f2b7df-run-202609021136"
+      "batch_id": "cat31-compiled-db639e84244d4674-run-202609061824"
     }
   ]
 }

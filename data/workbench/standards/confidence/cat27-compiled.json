@@ -3,11 +3,11 @@
   "compiled_dir": "cat27-compiled",
   "category": 27,
   "method_version": "HMTc Method v2.0 (government-limit default); governance v2.7 confidence standard",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "session": "exciting-taussig-159366",
-  "generated_at": "2026-09-02T11:36:17.064Z",
-  "register_commit": "a9a5d3764",
-  "cert_commit": "e4ee816",
+  "generated_at": "2026-09-06T18:24:52.084Z",
+  "register_commit": "7a2599c3c",
+  "cert_commit": "9ff16f2",
   "occurrence_statement": "0 occurrence-derived cells",
   "lens_models": {
     "lens0": "deterministic (audit-compiled-standards C1–C12, readiness cell classes, D-set)",
@@ -18,12 +18,12 @@
     "records": 4,
     "cells": 44,
     "confirmed": 0,
-    "refuted": 13,
-    "unverified": 24,
-    "blocked": 7,
-    "stale": 0,
-    "lens0_fail": 13,
-    "m1_pending_rows": 10,
+    "refuted": 3,
+    "unverified": 22,
+    "blocked": 19,
+    "stale": 44,
+    "lens0_fail": 3,
+    "m1_pending_rows": 7,
     "m2_batches_pending": 1
   },
   "cells": {
@@ -50,8 +50,8 @@
       "claim_sha256": "4aedd01064bf158f3e9c98de3fcbee0642d44de52ffa73976eae5a9c9a2f44ca",
       "anchor_sha256": "17361a64f2197ecad8ffee2b117ffab2fe3ff43a8a51af5bdf4de6518fabd7cf",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "edd0beda33c347619e41f398234d0ef4e3db56b6a67103d00276f2c7e969f4da",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "76946f7107a5488d21ba03cbab92f67d248731a2c792d52dd4febfac034fb92c",
       "m1": {
         "verified": [],
         "pending": [
@@ -64,8 +64,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.060Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.078Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Cd": {
@@ -91,7 +91,7 @@
       "claim_sha256": "0bcedca52d6727594ff4890f655b3fcee388835331101939067b6956453c6c69",
       "anchor_sha256": "4794571e80be2f6b663b33fa19db7aac7d090c6e1ef89ee7065f9609dcf7d155",
       "instrument_sha256": "bbe2fe75b430e0a09b10bbdbf2fde9fe8b1f493f7171ef89d315f5c35c99b07b",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
       "cell_sha256": "196c76c7cf886f63ff2f68274ac638e7f95fc44e5e5cb4c2534037dad4c2bdde",
       "m1": {
         "verified": [],
@@ -105,8 +105,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.078Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|tAs": {
@@ -132,8 +132,8 @@
       "claim_sha256": "40cb3371e24e638bc213dd5463ff7380dd05884847dc57a1156344184e088516",
       "anchor_sha256": "d871fdbf945384bc75322925744f2a1ec456bcb322cba717d4763377fd7c396b",
       "instrument_sha256": "150d824876fe545f38f16b7bcb70168aa225b2de22fca346e7d78694033192b0",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "5e34e439e7639ee319458fc764f51110d9d5502ecf00364dae01295d6de8c1d3",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "88144e9cac7eb020aad8b04c9f7d0e4359400d5d812b888caa074702d005645c",
       "m1": {
         "verified": [],
         "pending": [],
@@ -146,105 +146,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.079Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|iAs": {
       "slug": "legumes-pulses-other",
       "variant": "both",
       "analyte": "iAs",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] iAs: anchor \"il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] iAs: publishes 100 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
-      ],
-      "state": "firm",
-      "kind": "gov",
-      "confidence_meaning": "provenance-identity",
-      "published_value": 100,
-      "blind_value": null,
-      "evidence_ids": [
-        "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-      ],
-      "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
-      ],
-      "evidence_key": "1100f8dc4a83163f",
-      "claim_sha256": "c31a65ac46245903dceb140f9ccbce584b105a3e4b53ec3a6f58ed5320d9b1ef",
-      "anchor_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "5f089ebc7ae5c988634699598cd661f3d8b1e386d1b546df09fb68a0762b8ec6",
-      "m1": {
-        "verified": [],
-        "pending": [
-          "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-        ],
-        "blocked": []
-      },
-      "m2": {
-        "status": "pending",
-        "batch_ids": [],
-        "lenses": []
-      },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
-      "session": "exciting-taussig-159366"
-    },
-    "legumes-pulses-other|both|tHg": {
-      "slug": "legumes-pulses-other",
-      "variant": "both",
-      "analyte": "tHg",
-      "verdict": "refuted",
-      "reasons": [
-        "C4:[both] tHg: anchor \"il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tHg: publishes 30 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
-      ],
-      "state": "firm",
-      "kind": "gov",
-      "confidence_meaning": "provenance-identity",
-      "published_value": 30,
-      "blind_value": null,
-      "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-      ],
-      "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
-      ],
-      "evidence_key": "850ed74f43d3b5c9",
-      "claim_sha256": "d3bfd197adfcaf63be535cf9062ac09a46bce22eee6295c6228c068f3fda703a",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "a2fa06dd7409de332ed056241427311a49117be59213c78010de286ccbc656d9",
-      "m1": {
-        "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
-      },
-      "m2": {
-        "status": "pending",
-        "batch_ids": [],
-        "lenses": []
-      },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
-      "session": "exciting-taussig-159366"
-    },
-    "legumes-pulses-other|both|MeHg": {
-      "slug": "legumes-pulses-other",
-      "variant": "both",
-      "analyte": "MeHg",
-      "verdict": "unverified",
-      "reasons": [
-        "M1:pending il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "M1:no primary text for mercosur_gmc12_2011_leguminous_vegetables_tas_100"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -252,31 +164,113 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "mercosur_gmc12_2011_leguminous_vegetables_tas_100"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/mercosur-gmc-res-12-2011-inorganic-contaminants"
       ],
-      "evidence_key": "d0e6e125e7699f2e",
-      "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "1b52179ba492f64c62a8fc87d8f412c4ada87fb3b189638603f91c3b9a54886a",
+      "evidence_key": "8f9362f59ddbddb5",
+      "claim_sha256": "dabc8d02ffbecc14cc9bf8186066fe61925ca671b6a35917ee970a6134e73abc",
+      "anchor_sha256": "d871fdbf945384bc75322925744f2a1ec456bcb322cba717d4763377fd7c396b",
+      "instrument_sha256": "150d824876fe545f38f16b7bcb70168aa225b2de22fca346e7d78694033192b0",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "268f0381208cab7b7861301817a3e0bc66ba5c118597ec60dec4259780f1de11",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "mercosur_gmc12_2011_leguminous_vegetables_tas_100"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.079Z",
+      "run_id": "run-202609061824",
+      "session": "exciting-taussig-159366"
+    },
+    "legumes-pulses-other|both|tHg": {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "tHg",
+      "verdict": "blocked",
+      "reasons": [
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
+      ],
+      "state": "firm",
+      "kind": "gov",
+      "confidence_meaning": "provenance-identity",
+      "published_value": 20,
+      "blind_value": null,
+      "evidence_ids": [
+        "th_moph414_2020_thg_food_other_20"
+      ],
+      "instrument_pages": [
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
+      ],
+      "evidence_key": "a7a01587cc1b7726",
+      "claim_sha256": "b9fc29e1c78ff8fb62c1f0f4bd5429634a95fdbc23578ced26040d007216cc52",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "d3f2f4a02d2f4340d84a7d4d5efe77bb3faa51bf98ed7adba625dabc6d977518",
+      "m1": {
+        "verified": [],
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
+      },
+      "m2": {
+        "status": "pending",
+        "batch_ids": [],
+        "lenses": []
+      },
+      "verified_at": "2026-09-06T18:24:52.079Z",
+      "run_id": "run-202609061824",
+      "session": "exciting-taussig-159366"
+    },
+    "legumes-pulses-other|both|MeHg": {
+      "slug": "legumes-pulses-other",
+      "variant": "both",
+      "analyte": "MeHg",
+      "verdict": "blocked",
+      "reasons": [
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
+      ],
+      "state": "bounded",
+      "kind": "subsumed",
+      "confidence_meaning": "species-identity",
+      "published_value": null,
+      "blind_value": null,
+      "evidence_ids": [
+        "th_moph414_2020_thg_food_other_20"
+      ],
+      "instrument_pages": [
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
+      ],
+      "evidence_key": "af1fddf8ae16d527",
+      "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "074b792463ff5e33cecf0cbe7628b3af1b44eb890389fc48f5a7c7bb467042af",
+      "m1": {
+        "verified": [],
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
+      },
+      "m2": {
+        "status": "pending",
+        "batch_ids": [],
+        "lenses": []
+      },
+      "verified_at": "2026-09-06T18:24:52.079Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Ni": {
@@ -302,7 +296,7 @@
       "claim_sha256": "51f1a3d5bf2185c6c581c1fd548a6f2a4fa272d0f3de8c06bd47774f458e1ca0",
       "anchor_sha256": "dacc7d34207c9dbb165798c50e75090b6e71faded65ae2ec2f044a6b7354e1a3",
       "instrument_sha256": "b41d706a48ba2021c58a6b3691f5ec290b1ca8ad37bdc5827d3902a67919bee5",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
       "cell_sha256": "a957c05cab991f7cc3917643d75e639cafa0722c4d4aeadce2793ac356adfdb2",
       "m1": {
         "verified": [],
@@ -316,8 +310,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.079Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Sn": {
@@ -343,7 +337,7 @@
       "claim_sha256": "2acc697522932a40bb584f3017f553a90413e1a2a8e239f9ef6c628612be5925",
       "anchor_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
       "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
       "cell_sha256": "1911b32a9df3be33530013a9d3d37a718ccb9b99ed3278bb2e5d2a9ca02628f1",
       "m1": {
         "verified": [],
@@ -357,8 +351,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Al": {
@@ -384,7 +378,7 @@
       "claim_sha256": "05b25fe8081659570e873f6dd82d3e6edc9a7ae2f10d96c3cf48d2e5ec611917",
       "anchor_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
       "instrument_sha256": "1dffb577dab55815277753304fbd3843b3cd6992d319c8762562e056955aa5d6",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
       "cell_sha256": "4499af855715c9700fd6cba5cfeaae0a1df17354d9a693be6b0a457bdde0f756",
       "m1": {
         "verified": [
@@ -398,8 +392,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.061Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Cr": {
@@ -425,7 +419,7 @@
       "claim_sha256": "7b3b727ad2ccea83a54ad25cc1df454216ea087b5996c3af6f8f4234e0019b52",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
       "cell_sha256": "07e5351ea483242bc8a3fa0ca6e33c9bd259505e333609a9803d9c8beaa1d6aa",
       "m1": {
         "verified": [],
@@ -439,8 +433,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "legumes-pulses-other|both|Cr-VI": {
@@ -466,8 +460,8 @@
       "claim_sha256": "7b79af461b678e21e69e74b2ca32e3bb0898bd3e50264c27485a3d5f8014ec05",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "9de87ff77d51704001f917e7daad8be45255120d1f0b9be4979ffe1263f7a865",
-      "cell_sha256": "6a5413a103afca4ab893201cd829018a23c8349012b20d181530f7b685e593a8",
+      "record_sha256": "b0959556212d1f75e287fbb3fea41cb4e99850b9ce0b9995dbb595a0639610f6",
+      "cell_sha256": "8f1eae91fda71df436a4d63cad32ff5b13879c82a130c189ee7ed4a2c41f2ac3",
       "m1": {
         "verified": [],
         "pending": [
@@ -480,20 +474,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Pb": {
       "slug": "peanut-butter",
       "variant": "both",
       "analyte": "Pb",
-      "verdict": "refuted",
+      "verdict": "unverified",
       "reasons": [
-        "C4:[both] Pb: anchor \"il_fcs2016_pb_4_1_peanuts_and_soybeans_200\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] Pb: publishes 200 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_pb_4_1_peanuts_and_soybeans_200 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:pending china_gb2762_2025_pb_nuts_and_seeds_200"
       ],
       "state": "firm",
       "kind": "gov",
@@ -501,21 +492,21 @@
       "published_value": 200,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_pb_4_1_peanuts_and_soybeans_200"
+        "china_gb2762_2025_pb_nuts_and_seeds_200"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "9fe70767741a763d",
-      "claim_sha256": "a91b54be7f6d2f75d32852be0e4ceed598e1e1886b75180f5744eb2b4e663e28",
-      "anchor_sha256": "43c6b79fc8bcdabc1ce99d8ddc2cdd8e2a16499ad9a98c305597b3ab3cb957cd",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "784f7864b2bba4a718fe8fe3bc0f42443c463ec9b302ff98b430fefae715d13d",
+      "evidence_key": "4504acb20716de8e",
+      "claim_sha256": "b226f6c9096bf2941532cedd371d20a07b8592ee016d03e3203a506094c155bc",
+      "anchor_sha256": "9ffed0bae33074fbc8a0840e7c7a86f7c5abe73e665df238b26e449e5643b4d8",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "eda30589acfd4882b0ffd50dc36cd976e0df143e510a916960480426526ec660",
       "m1": {
         "verified": [],
         "pending": [
-          "il_fcs2016_pb_4_1_peanuts_and_soybeans_200"
+          "china_gb2762_2025_pb_nuts_and_seeds_200"
         ],
         "blocked": []
       },
@@ -524,8 +515,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Cd": {
@@ -551,8 +542,8 @@
       "claim_sha256": "c78b94eb8ef2b541b7c552bd281512ab554da479acb2c1558d885e9da15a526a",
       "anchor_sha256": "7d7b3e3717613a4de6af92a7c824fa565853d9658b94244362560a0bc4284c85",
       "instrument_sha256": "f2eae467710bedebe30e9c7e70ff3c6bb39e1faa7a6a1bd59e4c839aefe765c3",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "c8fe2a5d0b21aabbcbde1de1c6334aa6b270cf3d5f9635bda559a5d80a05dd66",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "aac641ee9494500ec434c32dd25ab0e95d89b824fe42ac4b25171664210c24a6",
       "m1": {
         "verified": [],
         "pending": [
@@ -565,20 +556,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.080Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|tAs": {
       "slug": "peanut-butter",
       "variant": "both",
       "analyte": "tAs",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tAs: anchor \"il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tAs: publishes 1000 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for sg_foodregs_2026_other_food_tas_1000"
       ],
       "state": "firm",
       "kind": "gov",
@@ -586,31 +574,31 @@
       "published_value": 1000,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "09103816c2190257",
-      "claim_sha256": "c52af6d550c53f522ca5d6c1d9f00eda5616d6eef23f958fbcacab40a82dc1b8",
-      "anchor_sha256": "2f390139afc9686dd35c565b7bb4cd83a12fdd284dbb7d267d1d8bd273cf3b6f",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "31569311386d08e119c076f349c148c1f03ff2af05736846a977e6a55c648939",
+      "evidence_key": "2114e3bc7195e690",
+      "claim_sha256": "7e7d1e1d2729e951a5849a58c3cebe5bc53345f91ad84fe867b40f5d71302b77",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "5cad4840286222a133a3f996a7c50cab60216a1887740a2ef75f8c47932c18a0",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|iAs": {
@@ -619,95 +607,89 @@
       "analyte": "iAs",
       "verdict": "refuted",
       "reasons": [
-        "C4:[both] iAs: anchor \"il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] iAs: publishes 100 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "D9:no same-analyte live anchor"
       ],
       "state": "firm",
-      "kind": "gov",
-      "confidence_meaning": "provenance-identity",
+      "kind": "precautionary",
+      "confidence_meaning": "disclosed-derivation",
       "published_value": 100,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "1100f8dc4a83163f",
-      "claim_sha256": "c31a65ac46245903dceb140f9ccbce584b105a3e4b53ec3a6f58ed5320d9b1ef",
-      "anchor_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "5f089ebc7ae5c988634699598cd661f3d8b1e386d1b546df09fb68a0762b8ec6",
+      "evidence_key": "328fc6d4189ba50c",
+      "claim_sha256": "bb56c24870cfb7ff512e5cf48ef0c46ee8d91670623e1160c466d4fb7228cd4d",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "cf20a0845e1029e395612d5c9cfb5d78e751a1b7fa2a3636a9379b46ccc3e7fa",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|tHg": {
       "slug": "peanut-butter",
       "variant": "both",
       "analyte": "tHg",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tHg: anchor \"il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tHg: publishes 30 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "firm",
       "kind": "gov",
       "confidence_meaning": "provenance-identity",
-      "published_value": 30,
+      "published_value": 20,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "850ed74f43d3b5c9",
-      "claim_sha256": "d3bfd197adfcaf63be535cf9062ac09a46bce22eee6295c6228c068f3fda703a",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "a2fa06dd7409de332ed056241427311a49117be59213c78010de286ccbc656d9",
+      "evidence_key": "a7a01587cc1b7726",
+      "claim_sha256": "b9fc29e1c78ff8fb62c1f0f4bd5429634a95fdbc23578ced26040d007216cc52",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "d3f2f4a02d2f4340d84a7d4d5efe77bb3faa51bf98ed7adba625dabc6d977518",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|MeHg": {
       "slug": "peanut-butter",
       "variant": "both",
       "analyte": "MeHg",
-      "verdict": "unverified",
+      "verdict": "blocked",
       "reasons": [
-        "M1:pending il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -715,31 +697,31 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "d0e6e125e7699f2e",
+      "evidence_key": "af1fddf8ae16d527",
       "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "1b52179ba492f64c62a8fc87d8f412c4ada87fb3b189638603f91c3b9a54886a",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "074b792463ff5e33cecf0cbe7628b3af1b44eb890389fc48f5a7c7bb467042af",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Ni": {
@@ -765,7 +747,7 @@
       "claim_sha256": "a511ed4c5f1138ca6453b3483b54fdbdce9af6c3152d03db290dbb0a2b5f0cc0",
       "anchor_sha256": "038291eec5bc7103dc7469cb762f6b0415f45e1ba87a6b9a1479b3d1e7317ffc",
       "instrument_sha256": "b41d706a48ba2021c58a6b3691f5ec290b1ca8ad37bdc5827d3902a67919bee5",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
       "cell_sha256": "2e3efde9b122daec3ab1710a4303da31abb8d58af973b4c8cd6cf5b2f93a71bd",
       "m1": {
         "verified": [],
@@ -779,8 +761,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Sn": {
@@ -806,7 +788,7 @@
       "claim_sha256": "2acc697522932a40bb584f3017f553a90413e1a2a8e239f9ef6c628612be5925",
       "anchor_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
       "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
       "cell_sha256": "1911b32a9df3be33530013a9d3d37a718ccb9b99ed3278bb2e5d2a9ca02628f1",
       "m1": {
         "verified": [],
@@ -820,8 +802,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.062Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Al": {
@@ -847,7 +829,7 @@
       "claim_sha256": "05b25fe8081659570e873f6dd82d3e6edc9a7ae2f10d96c3cf48d2e5ec611917",
       "anchor_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
       "instrument_sha256": "1dffb577dab55815277753304fbd3843b3cd6992d319c8762562e056955aa5d6",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
       "cell_sha256": "4499af855715c9700fd6cba5cfeaae0a1df17354d9a693be6b0a457bdde0f756",
       "m1": {
         "verified": [
@@ -861,8 +843,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Cr": {
@@ -888,7 +870,7 @@
       "claim_sha256": "47959645d89e8f69b09d62776c5836e73590881ac71dc7e25213695fa04b28ea",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
       "cell_sha256": "5de5c6403cd3300a3cbae19805f53092f974ea4ea7287586d543659a7e250027",
       "m1": {
         "verified": [],
@@ -902,8 +884,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanut-butter|both|Cr-VI": {
@@ -929,8 +911,8 @@
       "claim_sha256": "7b79af461b678e21e69e74b2ca32e3bb0898bd3e50264c27485a3d5f8014ec05",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "7f308362b5000731c81ea4336b42cbb308bd4e651c4985eb1e5feae1d4d37f2d",
-      "cell_sha256": "6a5413a103afca4ab893201cd829018a23c8349012b20d181530f7b685e593a8",
+      "record_sha256": "9d01f6fc1002ef6b11ee087f2f9bce0f3d79de54b630e9d0f81d152b18e177c3",
+      "cell_sha256": "8f1eae91fda71df436a4d63cad32ff5b13879c82a130c189ee7ed4a2c41f2ac3",
       "m1": {
         "verified": [],
         "pending": [
@@ -943,20 +925,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.081Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Pb": {
       "slug": "peanuts",
       "variant": "both",
       "analyte": "Pb",
-      "verdict": "refuted",
+      "verdict": "unverified",
       "reasons": [
-        "C4:[both] Pb: anchor \"il_fcs2016_pb_4_1_peanuts_and_soybeans_200\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] Pb: publishes 200 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_pb_4_1_peanuts_and_soybeans_200 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:pending china_gb2762_2025_pb_nuts_and_seeds_200"
       ],
       "state": "firm",
       "kind": "gov",
@@ -964,21 +943,21 @@
       "published_value": 200,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_pb_4_1_peanuts_and_soybeans_200"
+        "china_gb2762_2025_pb_nuts_and_seeds_200"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/china-gb-2762-2025-contaminants"
       ],
-      "evidence_key": "9fe70767741a763d",
-      "claim_sha256": "a91b54be7f6d2f75d32852be0e4ceed598e1e1886b75180f5744eb2b4e663e28",
-      "anchor_sha256": "43c6b79fc8bcdabc1ce99d8ddc2cdd8e2a16499ad9a98c305597b3ab3cb957cd",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "784f7864b2bba4a718fe8fe3bc0f42443c463ec9b302ff98b430fefae715d13d",
+      "evidence_key": "4504acb20716de8e",
+      "claim_sha256": "b226f6c9096bf2941532cedd371d20a07b8592ee016d03e3203a506094c155bc",
+      "anchor_sha256": "9ffed0bae33074fbc8a0840e7c7a86f7c5abe73e665df238b26e449e5643b4d8",
+      "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "eda30589acfd4882b0ffd50dc36cd976e0df143e510a916960480426526ec660",
       "m1": {
         "verified": [],
         "pending": [
-          "il_fcs2016_pb_4_1_peanuts_and_soybeans_200"
+          "china_gb2762_2025_pb_nuts_and_seeds_200"
         ],
         "blocked": []
       },
@@ -987,8 +966,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Cd": {
@@ -1014,8 +993,8 @@
       "claim_sha256": "c78b94eb8ef2b541b7c552bd281512ab554da479acb2c1558d885e9da15a526a",
       "anchor_sha256": "7d7b3e3717613a4de6af92a7c824fa565853d9658b94244362560a0bc4284c85",
       "instrument_sha256": "f2eae467710bedebe30e9c7e70ff3c6bb39e1faa7a6a1bd59e4c839aefe765c3",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "c8fe2a5d0b21aabbcbde1de1c6334aa6b270cf3d5f9635bda559a5d80a05dd66",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "aac641ee9494500ec434c32dd25ab0e95d89b824fe42ac4b25171664210c24a6",
       "m1": {
         "verified": [],
         "pending": [
@@ -1028,20 +1007,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|tAs": {
       "slug": "peanuts",
       "variant": "both",
       "analyte": "tAs",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tAs: anchor \"il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tAs: publishes 1000 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for sg_foodregs_2026_other_food_tas_1000"
       ],
       "state": "firm",
       "kind": "gov",
@@ -1049,31 +1025,31 @@
       "published_value": 1000,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "09103816c2190257",
-      "claim_sha256": "c52af6d550c53f522ca5d6c1d9f00eda5616d6eef23f958fbcacab40a82dc1b8",
-      "anchor_sha256": "2f390139afc9686dd35c565b7bb4cd83a12fdd284dbb7d267d1d8bd273cf3b6f",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "31569311386d08e119c076f349c148c1f03ff2af05736846a977e6a55c648939",
+      "evidence_key": "2114e3bc7195e690",
+      "claim_sha256": "7e7d1e1d2729e951a5849a58c3cebe5bc53345f91ad84fe867b40f5d71302b77",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "5cad4840286222a133a3f996a7c50cab60216a1887740a2ef75f8c47932c18a0",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|iAs": {
@@ -1082,95 +1058,89 @@
       "analyte": "iAs",
       "verdict": "refuted",
       "reasons": [
-        "C4:[both] iAs: anchor \"il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] iAs: publishes 100 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "D9:no same-analyte live anchor"
       ],
       "state": "firm",
-      "kind": "gov",
-      "confidence_meaning": "provenance-identity",
+      "kind": "precautionary",
+      "confidence_meaning": "disclosed-derivation",
       "published_value": 100,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "1100f8dc4a83163f",
-      "claim_sha256": "c31a65ac46245903dceb140f9ccbce584b105a3e4b53ec3a6f58ed5320d9b1ef",
-      "anchor_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "5f089ebc7ae5c988634699598cd661f3d8b1e386d1b546df09fb68a0762b8ec6",
+      "evidence_key": "328fc6d4189ba50c",
+      "claim_sha256": "bb56c24870cfb7ff512e5cf48ef0c46ee8d91670623e1160c466d4fb7228cd4d",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "cf20a0845e1029e395612d5c9cfb5d78e751a1b7fa2a3636a9379b46ccc3e7fa",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|tHg": {
       "slug": "peanuts",
       "variant": "both",
       "analyte": "tHg",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tHg: anchor \"il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tHg: publishes 30 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "firm",
       "kind": "gov",
       "confidence_meaning": "provenance-identity",
-      "published_value": 30,
+      "published_value": 20,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "850ed74f43d3b5c9",
-      "claim_sha256": "d3bfd197adfcaf63be535cf9062ac09a46bce22eee6295c6228c068f3fda703a",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "a2fa06dd7409de332ed056241427311a49117be59213c78010de286ccbc656d9",
+      "evidence_key": "a7a01587cc1b7726",
+      "claim_sha256": "b9fc29e1c78ff8fb62c1f0f4bd5429634a95fdbc23578ced26040d007216cc52",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "d3f2f4a02d2f4340d84a7d4d5efe77bb3faa51bf98ed7adba625dabc6d977518",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|MeHg": {
       "slug": "peanuts",
       "variant": "both",
       "analyte": "MeHg",
-      "verdict": "unverified",
+      "verdict": "blocked",
       "reasons": [
-        "M1:pending il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -1178,31 +1148,31 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "d0e6e125e7699f2e",
+      "evidence_key": "af1fddf8ae16d527",
       "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "1b52179ba492f64c62a8fc87d8f412c4ada87fb3b189638603f91c3b9a54886a",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "074b792463ff5e33cecf0cbe7628b3af1b44eb890389fc48f5a7c7bb467042af",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.082Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Ni": {
@@ -1228,7 +1198,7 @@
       "claim_sha256": "a511ed4c5f1138ca6453b3483b54fdbdce9af6c3152d03db290dbb0a2b5f0cc0",
       "anchor_sha256": "038291eec5bc7103dc7469cb762f6b0415f45e1ba87a6b9a1479b3d1e7317ffc",
       "instrument_sha256": "b41d706a48ba2021c58a6b3691f5ec290b1ca8ad37bdc5827d3902a67919bee5",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
       "cell_sha256": "2e3efde9b122daec3ab1710a4303da31abb8d58af973b4c8cd6cf5b2f93a71bd",
       "m1": {
         "verified": [],
@@ -1242,8 +1212,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Sn": {
@@ -1269,7 +1239,7 @@
       "claim_sha256": "2acc697522932a40bb584f3017f553a90413e1a2a8e239f9ef6c628612be5925",
       "anchor_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
       "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
       "cell_sha256": "1911b32a9df3be33530013a9d3d37a718ccb9b99ed3278bb2e5d2a9ca02628f1",
       "m1": {
         "verified": [],
@@ -1283,8 +1253,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Al": {
@@ -1310,7 +1280,7 @@
       "claim_sha256": "05b25fe8081659570e873f6dd82d3e6edc9a7ae2f10d96c3cf48d2e5ec611917",
       "anchor_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
       "instrument_sha256": "1dffb577dab55815277753304fbd3843b3cd6992d319c8762562e056955aa5d6",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
       "cell_sha256": "4499af855715c9700fd6cba5cfeaae0a1df17354d9a693be6b0a457bdde0f756",
       "m1": {
         "verified": [
@@ -1324,8 +1294,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Cr": {
@@ -1351,7 +1321,7 @@
       "claim_sha256": "47959645d89e8f69b09d62776c5836e73590881ac71dc7e25213695fa04b28ea",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
       "cell_sha256": "5de5c6403cd3300a3cbae19805f53092f974ea4ea7287586d543659a7e250027",
       "m1": {
         "verified": [],
@@ -1365,8 +1335,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "peanuts|both|Cr-VI": {
@@ -1392,8 +1362,8 @@
       "claim_sha256": "7b79af461b678e21e69e74b2ca32e3bb0898bd3e50264c27485a3d5f8014ec05",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "11b1b427f68e43f17c2dab69a4fd6716fc057d1f6d62709ca9ee55ffcac5d703",
-      "cell_sha256": "6a5413a103afca4ab893201cd829018a23c8349012b20d181530f7b685e593a8",
+      "record_sha256": "2c22b6a9bae33ca301553735410147b801f5282ba98ce6be909ebebf12077332",
+      "cell_sha256": "8f1eae91fda71df436a4d63cad32ff5b13879c82a130c189ee7ed4a2c41f2ac3",
       "m1": {
         "verified": [],
         "pending": [
@@ -1406,8 +1376,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Pb": {
@@ -1433,8 +1403,8 @@
       "claim_sha256": "8af5f06d58c92ed9b859a3336a98b8140c7a354738ae36a69e707b95b74f5049",
       "anchor_sha256": "7d1c340a1c89f0a3963aab452b414c37bca852914f0135ed9562e8cc10c11c67",
       "instrument_sha256": "150d824876fe545f38f16b7bcb70168aa225b2de22fca346e7d78694033192b0",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "f741f4ff2cf7a953efda557628cbee87883224a36c5f8b80ddab11d7ae6bd331",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "cd3aa50ae29604948c8979307fcddd1e0e854405e81155dfd271cca795291e91",
       "m1": {
         "verified": [],
         "pending": [],
@@ -1447,8 +1417,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.063Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Cd": {
@@ -1474,8 +1444,8 @@
       "claim_sha256": "c78b94eb8ef2b541b7c552bd281512ab554da479acb2c1558d885e9da15a526a",
       "anchor_sha256": "7d7b3e3717613a4de6af92a7c824fa565853d9658b94244362560a0bc4284c85",
       "instrument_sha256": "f2eae467710bedebe30e9c7e70ff3c6bb39e1faa7a6a1bd59e4c839aefe765c3",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "983d61d94b9f26e7091a6ada520151267b6707d13701c021f97627729f419a97",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "bd42665fc1a961d42651824c581f22f0b6c4952c160f9866f09343d5c46ede2f",
       "m1": {
         "verified": [],
         "pending": [
@@ -1488,20 +1458,17 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|tAs": {
       "slug": "soy-products",
       "variant": "both",
       "analyte": "tAs",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tAs: anchor \"il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tAs: publishes 1000 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for sg_foodregs_2026_other_food_tas_1000"
       ],
       "state": "firm",
       "kind": "gov",
@@ -1509,31 +1476,31 @@
       "published_value": 1000,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "09103816c2190257",
-      "claim_sha256": "c52af6d550c53f522ca5d6c1d9f00eda5616d6eef23f958fbcacab40a82dc1b8",
-      "anchor_sha256": "2f390139afc9686dd35c565b7bb4cd83a12fdd284dbb7d267d1d8bd273cf3b6f",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "0709f989c7c5b2e6e64eb73ce44622517306a8bd46de7c959c0c90885df9ff35",
+      "evidence_key": "2114e3bc7195e690",
+      "claim_sha256": "7e7d1e1d2729e951a5849a58c3cebe5bc53345f91ad84fe867b40f5d71302b77",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "c73f56e8ac54af6b9b0bdd6fb39397725365c7423edfbadaf4540f57433281da",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_tas_4_dried_legumes_including_peanuts_and_soybeans_1000"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|iAs": {
@@ -1542,95 +1509,89 @@
       "analyte": "iAs",
       "verdict": "refuted",
       "reasons": [
-        "C4:[both] iAs: anchor \"il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] iAs: publishes 100 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "D9:no same-analyte live anchor"
       ],
       "state": "firm",
-      "kind": "gov",
-      "confidence_meaning": "provenance-identity",
+      "kind": "precautionary",
+      "confidence_meaning": "disclosed-derivation",
       "published_value": 100,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
+        "sg_foodregs_2026_other_food_tas_1000"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/singapore-food-regulations-heavy-metals-2026"
       ],
-      "evidence_key": "1100f8dc4a83163f",
-      "claim_sha256": "c31a65ac46245903dceb140f9ccbce584b105a3e4b53ec3a6f58ed5320d9b1ef",
-      "anchor_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "5f089ebc7ae5c988634699598cd661f3d8b1e386d1b546df09fb68a0762b8ec6",
+      "evidence_key": "328fc6d4189ba50c",
+      "claim_sha256": "bb56c24870cfb7ff512e5cf48ef0c46ee8d91670623e1160c466d4fb7228cd4d",
+      "anchor_sha256": "6b02dea0a9002da48c99bc987715e9d29f2c0e5151f300ec39555c149f40e508",
+      "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "cf20a0845e1029e395612d5c9cfb5d78e751a1b7fa2a3636a9379b46ccc3e7fa",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "sg_foodregs_2026_other_food_tas_1000"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|tHg": {
       "slug": "soy-products",
       "variant": "both",
       "analyte": "tHg",
-      "verdict": "refuted",
+      "verdict": "blocked",
       "reasons": [
-        "C4:[both] tHg: anchor \"il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30\" is gated (status=\"superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation\")",
-        "C5:[both] tHg: publishes 30 with no resolvable register anchor for this analyte",
-        "D9:no same-analyte live anchor",
-        "D10:anchor il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30 gated (superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation)"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "firm",
       "kind": "gov",
       "confidence_meaning": "provenance-identity",
-      "published_value": 30,
+      "published_value": 20,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "850ed74f43d3b5c9",
-      "claim_sha256": "d3bfd197adfcaf63be535cf9062ac09a46bce22eee6295c6228c068f3fda703a",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "a2fa06dd7409de332ed056241427311a49117be59213c78010de286ccbc656d9",
+      "evidence_key": "a7a01587cc1b7726",
+      "claim_sha256": "b9fc29e1c78ff8fb62c1f0f4bd5429634a95fdbc23578ced26040d007216cc52",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "d3f2f4a02d2f4340d84a7d4d5efe77bb3faa51bf98ed7adba625dabc6d977518",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|MeHg": {
       "slug": "soy-products",
       "variant": "both",
       "analyte": "MeHg",
-      "verdict": "unverified",
+      "verdict": "blocked",
       "reasons": [
-        "M1:pending il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "M1:no primary text for th_moph414_2020_thg_food_other_20"
       ],
       "state": "bounded",
       "kind": "subsumed",
@@ -1638,31 +1599,31 @@
       "published_value": null,
       "blind_value": null,
       "evidence_ids": [
-        "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
+        "th_moph414_2020_thg_food_other_20"
       ],
       "instrument_pages": [
-        "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines"
+        "regulations/thailand-moph-notification-414-2020-contaminants-food"
       ],
-      "evidence_key": "d0e6e125e7699f2e",
+      "evidence_key": "af1fddf8ae16d527",
       "claim_sha256": "06da5675c306f418b814e9b94015656dab5f13f31966d70878c7fe1eb7571fec",
-      "anchor_sha256": "2ea1dd1451e468396e1c85f4520929829206d53e89cc247e9e2b22f80f0e9341",
-      "instrument_sha256": "11623340fdf71ef9832879be4e491c45f9a8f3aba807c533d8a8ff169487c09f",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "1b52179ba492f64c62a8fc87d8f412c4ada87fb3b189638603f91c3b9a54886a",
+      "anchor_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+      "instrument_sha256": "f860d4e900bf353869cd1337d09efb033860138bf7a762d44a2acaa136a5fac8",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "074b792463ff5e33cecf0cbe7628b3af1b44eb890389fc48f5a7c7bb467042af",
       "m1": {
         "verified": [],
-        "pending": [
-          "il_fcs2016_thg_5_dried_legumes_including_peanuts_and_soybeans_30"
-        ],
-        "blocked": []
+        "pending": [],
+        "blocked": [
+          "th_moph414_2020_thg_food_other_20"
+        ]
       },
       "m2": {
         "status": "pending",
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Ni": {
@@ -1688,7 +1649,7 @@
       "claim_sha256": "75263976ede25760fdc3b88d5fd1c336a795b2f01e16ec1c77a29cb19fa4eccf",
       "anchor_sha256": "007dad38e4543197f149a32ace67a0d83d3cdd85fb6d966937f67683dd012628",
       "instrument_sha256": "b41d706a48ba2021c58a6b3691f5ec290b1ca8ad37bdc5827d3902a67919bee5",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
       "cell_sha256": "a0e3cc3fcb7f6634ce136fbd5b1cb21c9bfcb790d37272553226f511d07337f7",
       "m1": {
         "verified": [],
@@ -1702,8 +1663,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Sn": {
@@ -1729,7 +1690,7 @@
       "claim_sha256": "2acc697522932a40bb584f3017f553a90413e1a2a8e239f9ef6c628612be5925",
       "anchor_sha256": "e30e3881e8b01cced28ffa88c46ca6b0e1de9d3933dfa52a7c040ab4296756ea",
       "instrument_sha256": "95fc211d4b79606878a0525147a7101a4f3ec213305c14bb7e9fdc5410af04c4",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
       "cell_sha256": "1911b32a9df3be33530013a9d3d37a718ccb9b99ed3278bb2e5d2a9ca02628f1",
       "m1": {
         "verified": [],
@@ -1743,8 +1704,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Al": {
@@ -1770,7 +1731,7 @@
       "claim_sha256": "05b25fe8081659570e873f6dd82d3e6edc9a7ae2f10d96c3cf48d2e5ec611917",
       "anchor_sha256": "1e8bc377986fbef2065ccdddbc90705d61427d92f7d5da66a7f3635edff78166",
       "instrument_sha256": "1dffb577dab55815277753304fbd3843b3cd6992d319c8762562e056955aa5d6",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
       "cell_sha256": "e07b94dd653972186b10941dde5e35c1ce21c926ead14d2a5e74e9b05c83d2a4",
       "m1": {
         "verified": [
@@ -1784,8 +1745,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Cr": {
@@ -1811,7 +1772,7 @@
       "claim_sha256": "7b3b727ad2ccea83a54ad25cc1df454216ea087b5996c3af6f8f4234e0019b52",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
       "cell_sha256": "eb47a7f6f8fa0bf636ad97814c37dbf69db70cb5eefb0b48b35977743804b102",
       "m1": {
         "verified": [],
@@ -1825,8 +1786,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.083Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     },
     "soy-products|both|Cr-VI": {
@@ -1852,8 +1813,8 @@
       "claim_sha256": "7b79af461b678e21e69e74b2ca32e3bb0898bd3e50264c27485a3d5f8014ec05",
       "anchor_sha256": "f99aa8f6b27e13b288c537da529717d3576480934f5ee84389b5a33914c4730f",
       "instrument_sha256": "395b00a1c86fc36812d2c65ce7e158c78e18eec942220609a2f31d9ace2719f3",
-      "record_sha256": "c57fabf43672181f9005193331ca3ff621a0651b6de07cbbd9eeb96ddecb5a29",
-      "cell_sha256": "6a5413a103afca4ab893201cd829018a23c8349012b20d181530f7b685e593a8",
+      "record_sha256": "6302912f3ed4e39c4a38e086a16ade2bd556666542eb8e94f0295165f8817a8f",
+      "cell_sha256": "8f1eae91fda71df436a4d63cad32ff5b13879c82a130c189ee7ed4a2c41f2ac3",
       "m1": {
         "verified": [],
         "pending": [
@@ -1866,8 +1827,8 @@
         "batch_ids": [],
         "lenses": []
       },
-      "verified_at": "2026-09-02T11:36:17.064Z",
-      "run_id": "run-202609021136",
+      "verified_at": "2026-09-06T18:24:52.084Z",
+      "run_id": "run-202609061824",
       "session": "exciting-taussig-159366"
     }
   }

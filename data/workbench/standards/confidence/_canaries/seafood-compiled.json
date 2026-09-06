@@ -1,10 +1,10 @@
 {
   "compiled_dir": "seafood-compiled",
-  "run_id": "run-202609021342",
+  "run_id": "run-202609061824",
   "cells": {
-    "seafood-compiled-ba4005b742ea8abb-run-202609021342": {
+    "seafood-compiled-3b9f5de2c66be85b-run-202609061824": {
       "kind": "wrong-basis-anchor",
-      "of_batch": "seafood-compiled-2f68af6557623e66-run-202609021342",
+      "of_batch": "seafood-compiled-2f68af6557623e66-run-202609061824",
       "key": "canned-seafood|both|Pb",
       "honest_verdict": "refuted"
     }

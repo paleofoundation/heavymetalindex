@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat24-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "batches": [
     {
       "evidence_key": "295b86e6d4541038",
@@ -55,10 +55,10 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-295b86e6d4541038-run-202609021136"
+      "batch_id": "cat24-compiled-295b86e6d4541038-run-202609061824"
     },
     {
-      "evidence_key": "dd9bda9796318a6b",
+      "evidence_key": "e65ec62bcf996877",
       "analyte": "Ni",
       "basis_class": "as_sold",
       "conversion": null,
@@ -98,7 +98,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-dd9bda9796318a6b-run-202609021136"
+      "batch_id": "cat24-compiled-e65ec62bcf996877-run-202609061824"
     },
     {
       "evidence_key": "123f76df027d9e22",
@@ -153,7 +153,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-123f76df027d9e22-run-202609021136"
+      "batch_id": "cat24-compiled-123f76df027d9e22-run-202609061824"
     },
     {
       "evidence_key": "b1c8b5e984ebc8be",
@@ -208,7 +208,7 @@
           "subsumed_by": "Cr"
         }
       ],
-      "batch_id": "cat24-compiled-b1c8b5e984ebc8be-run-202609021136"
+      "batch_id": "cat24-compiled-b1c8b5e984ebc8be-run-202609061824"
     },
     {
       "evidence_key": "f0284afb2a54974f",
@@ -251,7 +251,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-f0284afb2a54974f-run-202609021136"
+      "batch_id": "cat24-compiled-f0284afb2a54974f-run-202609061824"
     },
     {
       "evidence_key": "733a7533cdf79609",
@@ -342,7 +342,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-733a7533cdf79609-run-202609021136"
+      "batch_id": "cat24-compiled-733a7533cdf79609-run-202609061824"
     },
     {
       "evidence_key": "05375f0142564509",
@@ -433,7 +433,7 @@
           "subsumed_by": null
         }
       ],
-      "batch_id": "cat24-compiled-05375f0142564509-run-202609021136"
+      "batch_id": "cat24-compiled-05375f0142564509-run-202609061824"
     },
     {
       "evidence_key": "0ca76d45e8affd2c",
@@ -524,7 +524,93 @@
           "subsumed_by": "Cr"
         }
       ],
-      "batch_id": "cat24-compiled-0ca76d45e8affd2c-run-202609021136"
+      "batch_id": "cat24-compiled-0ca76d45e8affd2c-run-202609061824"
+    },
+    {
+      "evidence_key": "e253d63c28db7e96",
+      "analyte": "Cr",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-milk-powders|_|Cr",
+          "slug": "dairy-milk-powders",
+          "product": "Milk powders — whole, skim, and specialty",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "gov",
+          "state": "firm",
+          "subsumed_by": null
+        }
+      ],
+      "batch_id": "cat24-compiled-e253d63c28db7e96-run-202609061824"
+    },
+    {
+      "evidence_key": "01819d57e4965f58",
+      "analyte": "Cr-VI",
+      "basis_class": "as_sold",
+      "conversion": null,
+      "native_basis": "as_sold",
+      "category": 24,
+      "compiled_dir": "cat24-compiled",
+      "anchors": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_milk_powder_2000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "2000",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 7, item 6.2); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 2.0 mg/kg; supersedes china_gb2762_cr_milk_powder_2000 and cn_crtotal_milk-powder-and-modified-milk-powder-gen_2000; Table 7 does not name infant formula; milk powder is the general dairy category; old china_gb2762 row used metal_species Cr; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7",
+          "row_sha256": "4f50373fb1391a493b50c79a11b821384a63bdaf455bf3099a64447f4ba10ac7"
+        }
+      ],
+      "cells": [
+        {
+          "key": "dairy-milk-powders|_|Cr-VI",
+          "slug": "dairy-milk-powders",
+          "product": "Milk powders — whole, skim, and specialty",
+          "scope_note": null,
+          "material": null,
+          "basis_guard": null,
+          "variant": "_",
+          "kind": "subsumed",
+          "state": "bounded",
+          "subsumed_by": "Cr"
+        }
+      ],
+      "batch_id": "cat24-compiled-01819d57e4965f58-run-202609061824"
     }
   ]
 }

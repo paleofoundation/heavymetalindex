@@ -1,10 +1,10 @@
 {
   "compiled_dir": "cat31-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "cells": {
-    "cat31-compiled-568fed4b42f2b7df-run-202609021136": {
+    "cat31-compiled-db639e84244d4674-run-202609061824": {
       "kind": "wrong-basis-anchor",
-      "of_batch": "cat31-compiled-865aa8f23f1575b6-run-202609021136",
+      "of_batch": "cat31-compiled-865aa8f23f1575b6-run-202609061824",
       "key": "honey|default|Al",
       "honest_verdict": "refuted"
     }

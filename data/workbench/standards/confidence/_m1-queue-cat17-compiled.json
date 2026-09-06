@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat17-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
@@ -30,23 +30,6 @@
           "row_sha256": "42871198d64e22cbd77d665d6166ee373889cf7ea53c064fd12cf7cb9f6ec23a"
         },
         {
-          "regulatory_limit_id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20",
-          "jurisdiction": "HK",
-          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
-          "status": "maximum level",
-          "metal_species": "tHg",
-          "value_ug_kg": "20",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "product_scope": "Rice, husked rice, polished rice, maize, maize flour, wheat, wheat flour",
-          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
-          "url": "https://www.elegislation.gov.hk/hk/cap132V",
-          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.02 mg/kg",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "1013bd9c6315fe4b240b67e7a0af8ff0e8af40cfd32bd3264822ba8a76b61bd6",
-          "row_sha256": "1013bd9c6315fe4b240b67e7a0af8ff0e8af40cfd32bd3264822ba8a76b61bd6"
-        },
-        {
           "regulatory_limit_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
           "jurisdiction": "HK",
           "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
@@ -62,40 +45,6 @@
           "soy_class": "",
           "_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e",
           "row_sha256": "87a68485cd3bb91813761d4353372ced824b80fcf88360919eb000135f15132e"
-        },
-        {
-          "regulatory_limit_id": "hk_cap132v_thg_meat-of-animal_50",
-          "jurisdiction": "HK",
-          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
-          "status": "maximum level",
-          "metal_species": "tHg",
-          "value_ug_kg": "50",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "product_scope": "Meat of animal",
-          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
-          "url": "https://www.elegislation.gov.hk/hk/cap132V",
-          "notes": "Cap 132V Part 2 item 12 (Mercury (expressed as total mercury)); source value 0.05 mg/kg; Note 1: edible portion after removal of bones (if any) and fat from the meat",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "e508865ed2dbca7f908408f31837abe8c38eab6391220073e924f11d049530e2",
-          "row_sha256": "e508865ed2dbca7f908408f31837abe8c38eab6391220073e924f11d049530e2"
-        },
-        {
-          "regulatory_limit_id": "hk_cap132v_crtotal_meat-of-animal_1000",
-          "jurisdiction": "HK",
-          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
-          "status": "maximum level",
-          "metal_species": "Cr-total",
-          "value_ug_kg": "1000",
-          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
-          "product_scope": "Meat of animal",
-          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
-          "url": "https://www.elegislation.gov.hk/hk/cap132V",
-          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 1 mg/kg; Note 1: edible portion after removal of bones (if any) and fat from the meat",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "54e4931eb644da98d384aab2a90da6b4f2be4bf2e45f40fa7a39d112c0b5a2a1",
-          "row_sha256": "54e4931eb644da98d384aab2a90da6b4f2be4bf2e45f40fa7a39d112c0b5a2a1"
         },
         {
           "regulatory_limit_id": "hk_cap132v_crtotal_fish_1000",
@@ -134,49 +83,25 @@
       ],
       "cells": [
         "pet-chews-dental|both|Pb",
-        "pet-chews-dental|both|tHg",
-        "pet-chews-dental|both|MeHg",
         "pet-chews-dental|both|Cr",
         "pet-chews-dental|both|Cr-VI",
-        "pet-food-canned-wet|both|tHg",
-        "pet-food-canned-wet|both|MeHg",
-        "pet-food-canned-wet|both|Cr",
-        "pet-food-canned-wet|both|Cr-VI",
         "pet-food-dry-kibble|both|Pb",
-        "pet-food-dry-kibble|both|tHg",
-        "pet-food-dry-kibble|both|MeHg",
         "pet-food-dry-kibble|both|Cr",
         "pet-food-dry-kibble|both|Cr-VI",
         "pet-food-fermentation-derived-protein|both|Pb",
-        "pet-food-fermentation-derived-protein|both|tHg",
-        "pet-food-fermentation-derived-protein|both|MeHg",
         "pet-food-fermentation-derived-protein|both|Cr",
         "pet-food-fermentation-derived-protein|both|Cr-VI",
         "pet-food-fish-marine-protein|both|Cr",
         "pet-food-fish-marine-protein|both|Cr-VI",
         "pet-food-freeze-dried|both|Pb",
-        "pet-food-freeze-dried|both|tHg",
-        "pet-food-freeze-dried|both|MeHg",
         "pet-food-freeze-dried|both|Cr",
         "pet-food-freeze-dried|both|Cr-VI",
-        "pet-food-raw|both|tHg",
-        "pet-food-raw|both|MeHg",
-        "pet-food-raw|both|Cr",
-        "pet-food-raw|both|Cr-VI",
         "pet-food-semi-moist|both|Pb",
-        "pet-food-semi-moist|both|tHg",
-        "pet-food-semi-moist|both|MeHg",
         "pet-food-semi-moist|both|Cr",
         "pet-food-semi-moist|both|Cr-VI",
         "pet-milk-replacers-specialty-liquids|both|tHg",
         "pet-milk-replacers-specialty-liquids|both|MeHg",
-        "pet-toppers-mixers-broths|both|tHg",
-        "pet-toppers-mixers-broths|both|MeHg",
-        "pet-toppers-mixers-broths|both|Cr",
-        "pet-toppers-mixers-broths|both|Cr-VI",
         "pet-treats-snacks|both|Pb",
-        "pet-treats-snacks|both|tHg",
-        "pet-treats-snacks|both|MeHg",
         "pet-treats-snacks|both|Cr",
         "pet-treats-snacks|both|Cr-VI"
       ]
@@ -311,60 +236,165 @@
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
       "primary_text": {
         "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
         ],
         "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/eu2023-contaminants-maximum-levels.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_ias_4_dried_legumes_including_peanuts_and_soybeans_100",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "eu2023_ias_rice_milled_150",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
           "metal_species": "iAs",
-          "value_ug_kg": "100",
+          "value_ug_kg": "150",
           "basis": "product as placed on market",
-          "product_scope": "Dried legumes, including peanuts and soybeans",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 4; limit 0.1 mg/kg.",
-          "basis_class": "as_sold",
+          "product_scope": "non-parboiled milled rice",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Rice as defined in Codex Standard 198-1995.",
+          "basis_class": "",
           "soy_class": "",
-          "_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b",
-          "row_sha256": "37b35bf80f6d94d4d766d5dc7be2f498a372d6a8306f4897743eb3a37311dc7b"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_ias_8_meat_and_meat_products_including_poultry_and_game_ex_20",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "iAs",
-          "value_ug_kg": "20",
-          "basis": "product as placed on market",
-          "product_scope": "Meat and meat products, including poultry and game, except listed categories",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew arsenic table inorganic-arsenic column; English commodity scope is translated from the source row. Source row 8; limit 0.02 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "f6d0ae35c5674e79578bbe32fb15f9d5ccfea07f491d7c0be5dba4e5bc42eec3",
-          "row_sha256": "f6d0ae35c5674e79578bbe32fb15f9d5ccfea07f491d7c0be5dba4e5bc42eec3"
+          "_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da",
+          "row_sha256": "95889c096e0cff36ffe10a278b12727bdda2c685b4b376720acc47afb1dca7da"
         }
       ],
       "cells": [
         "pet-chews-dental|both|iAs",
-        "pet-food-canned-wet|both|iAs",
         "pet-food-dry-kibble|both|iAs",
         "pet-food-fermentation-derived-protein|both|iAs",
         "pet-food-freeze-dried|both|iAs",
-        "pet-food-raw|both|iAs",
         "pet-food-semi-moist|both|iAs",
-        "pet-toppers-mixers-broths|both|iAs",
         "pet-treats-snacks|both|iAs"
+      ]
+    },
+    {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Paddy rice (as brown rice, footnote b), brown rice, rice and rice flour, maize, maize flour, maize grits, wheat and wheat flour (GB 2762-2025 Table 3, item 2.1); total mercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 2.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.02 mg/kg; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1b6f3bdf10329a22d80ffb232bdadb78ca4877bcea006cff5e18457550ebd48d",
+          "row_sha256": "1b6f3bdf10329a22d80ffb232bdadb78ca4877bcea006cff5e18457550ebd48d"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_thg_meat_50",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "50",
+          "basis": "product as placed on market",
+          "product_scope": "Meat (GB 2762-2025 Table 3, item 5.1); total mercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 5.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.05 mg/kg; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "48a4697b1487bc9644ee5170bb050d30919c8e361f2c64e3f6e17b7f6d60d10b",
+          "row_sha256": "48a4697b1487bc9644ee5170bb050d30919c8e361f2c64e3f6e17b7f6d60d10b"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_meat_and_meat_products_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Meat and meat products (GB 2762-2025 Table 7, item 4.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 4.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; dried meat products are no longer eligible for the dehydration-ratio conversion in clause 3.5, so they must meet this limit directly (change listed in the 2025 foreword); test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "0ce08fb553c9c0ad86b051b8f8543d96ae24c6681f3f438ff768abc96396e03f",
+          "row_sha256": "0ce08fb553c9c0ad86b051b8f8543d96ae24c6681f3f438ff768abc96396e03f"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_tas_condiments_500",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "Condiments, excluding aquatic condiments, compound condiments and spices (GB 2762-2025 Table 4, item 8.1); total arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 8.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.5 mg/kg; registered directly as a 2025 row (total arsenic in condiments); test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "a4a4aaeaf561b75ca73618f5605182eba650c5b6d69c303a01c379f8ba58a99f",
+          "row_sha256": "a4a4aaeaf561b75ca73618f5605182eba650c5b6d69c303a01c379f8ba58a99f"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Raw milk, pasteurized milk and sterilized milk (GB 2762-2025 Table 1, item 10.2)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 10.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.02 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a",
+          "row_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a"
+        }
+      ],
+      "cells": [
+        "pet-chews-dental|both|tHg",
+        "pet-chews-dental|both|MeHg",
+        "pet-food-canned-wet|both|tHg",
+        "pet-food-canned-wet|both|MeHg",
+        "pet-food-canned-wet|both|Cr",
+        "pet-food-canned-wet|both|Cr-VI",
+        "pet-food-dry-kibble|both|tHg",
+        "pet-food-dry-kibble|both|MeHg",
+        "pet-food-fermentation-derived-protein|both|tHg",
+        "pet-food-fermentation-derived-protein|both|MeHg",
+        "pet-food-fish-marine-protein|both|tAs",
+        "pet-food-freeze-dried|both|tHg",
+        "pet-food-freeze-dried|both|MeHg",
+        "pet-food-raw|both|tHg",
+        "pet-food-raw|both|MeHg",
+        "pet-food-raw|both|Cr",
+        "pet-food-raw|both|Cr-VI",
+        "pet-food-semi-moist|both|tHg",
+        "pet-food-semi-moist|both|MeHg",
+        "pet-milk-replacers-specialty-liquids|both|Pb",
+        "pet-toppers-mixers-broths|both|tHg",
+        "pet-toppers-mixers-broths|both|MeHg",
+        "pet-toppers-mixers-broths|both|Cr",
+        "pet-toppers-mixers-broths|both|Cr-VI",
+        "pet-treats-snacks|both|tHg",
+        "pet-treats-snacks|both|MeHg"
       ]
     },
     {
@@ -520,62 +550,31 @@
           "soy_class": "",
           "_sha256": "dfcc0535d50633d5c8fc1e663f5485b8bc77e0820cb7fead040e67c0df3c2d28",
           "row_sha256": "dfcc0535d50633d5c8fc1e663f5485b8bc77e0820cb7fead040e67c0df3c2d28"
+        },
+        {
+          "regulatory_limit_id": "in_fssai2016_sn_020_cooked_cured_chopped_meat_for_products_in_other_containers_50000",
+          "jurisdiction": "IN",
+          "authority": "Food Safety and Standards Authority of India",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "50000",
+          "basis": "parts per million by weight",
+          "product_scope": "Cooked cured chopped meat (for products in other containers)",
+          "regulation_page": "regulations/india-fssai-2016-heavy-metals-third-amendment",
+          "url": "",
+          "notes": "Food Safety and Standards (Contaminants, toxins and Residues) Third Amendment Regulations, 2016; regulation 2 table insertion against serial number 4 Tin; source value 50 parts per million by weight.",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "e0290823c91475ae0b65a78440cc1b3ab3b6074775382923421874b7455ac235",
+          "row_sha256": "e0290823c91475ae0b65a78440cc1b3ab3b6074775382923421874b7455ac235"
         }
       ],
       "cells": [
         "pet-food-canned-wet|both|tAs",
         "pet-food-raw|both|tAs",
-        "pet-toppers-mixers-broths|both|tAs"
-      ]
-    },
-    {
-      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-      "primary_text": {
-        "register_urls": [],
-        "raw_paths": [
-          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
-        ],
-        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "china_gb2762_2025_tas_condiments_500",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "maximum level",
-          "metal_species": "tAs",
-          "value_ug_kg": "500",
-          "basis": "product as placed on market",
-          "product_scope": "Condiments, excluding aquatic condiments, compound condiments and spices (GB 2762-2025 Table 4, item 8.1); total arsenic",
-          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-          "url": "",
-          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 8.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.5 mg/kg; registered directly as a 2025 row (total arsenic in condiments); test method GB 5009.11 (packaged drinking water GB 8538)",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "a4a4aaeaf561b75ca73618f5605182eba650c5b6d69c303a01c379f8ba58a99f",
-          "row_sha256": "a4a4aaeaf561b75ca73618f5605182eba650c5b6d69c303a01c379f8ba58a99f"
-        },
-        {
-          "regulatory_limit_id": "china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "maximum level",
-          "metal_species": "Pb",
-          "value_ug_kg": "20",
-          "basis": "product as placed on market",
-          "product_scope": "Raw milk, pasteurized milk and sterilized milk (GB 2762-2025 Table 1, item 10.2)",
-          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-          "url": "",
-          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 10.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.02 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a",
-          "row_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a"
-        }
-      ],
-      "cells": [
-        "pet-food-fish-marine-protein|both|tAs",
-        "pet-milk-replacers-specialty-liquids|both|Pb"
+        "pet-food-raw|both|Sn",
+        "pet-toppers-mixers-broths|both|tAs",
+        "pet-toppers-mixers-broths|both|Sn"
       ]
     },
     {
@@ -588,6 +587,23 @@
         "wiki_page": "wiki/regulations/eu-2025-1891-inorganic-arsenic-fish-seafood.md"
       },
       "rows": [
+        {
+          "regulatory_limit_id": "eu20251891_ias_fish_listed_500",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "500",
+          "basis": "wet weight",
+          "product_scope": "muscle meat of anglerfish, monkfish, giant stargazer, flatfishes, haddock, herring, ray, and shark",
+          "regulation_page": "regulations/eu-2025-1891-inorganic-arsenic-fish-seafood",
+          "url": "http://data.europa.eu/eli/reg/2025/1891/oj",
+          "notes": "Annex I section 3.4.5.2; inorganic arsenic is sum of As(III) and As(V); wet-weight value 0.50 mg/kg normalized to 500 ug/kg.",
+          "basis_class": "",
+          "soy_class": "",
+          "_sha256": "69d3b4739a05e969d7d4cb1b04647cbebaf3733bf62487fb08935da9ea503b31",
+          "row_sha256": "69d3b4739a05e969d7d4cb1b04647cbebaf3733bf62487fb08935da9ea503b31"
+        },
         {
           "regulatory_limit_id": "eu20251891_ias_fish_other_100",
           "jurisdiction": "EU",
@@ -607,7 +623,10 @@
         }
       ],
       "cells": [
-        "pet-food-fish-marine-protein|both|iAs"
+        "pet-food-canned-wet|both|iAs",
+        "pet-food-fish-marine-protein|both|iAs",
+        "pet-food-raw|both|iAs",
+        "pet-toppers-mixers-broths|both|iAs"
       ]
     }
   ]

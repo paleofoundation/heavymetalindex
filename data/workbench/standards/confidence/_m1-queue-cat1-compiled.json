@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat1-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
@@ -204,6 +204,23 @@
           "row_sha256": "9e50a8a2b5968d038540dc03e78c8aba301cee3308704c280713253a0140a065"
         },
         {
+          "regulatory_limit_id": "eu2023_cd_infant_drinks_ready_20",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "20",
+          "basis": "ready to use",
+          "product_scope": "drinks for infants and young children labelled and placed on the market as such, liquid or reconstituted, except formula and young-child formulae",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.2.19.1; includes fruit juices within the covered infant/young-child drink scope.",
+          "basis_class": "as_consumed",
+          "soy_class": "both",
+          "_sha256": "fe50daae38f661daa1de365405b3e7ab5788495c3b505706f9b353338429e160",
+          "row_sha256": "fe50daae38f661daa1de365405b3e7ab5788495c3b505706f9b353338429e160"
+        },
+        {
           "regulatory_limit_id": "eu2023_cd_formula_cow_powder_10",
           "jurisdiction": "EU",
           "authority": "European Commission",
@@ -275,6 +292,7 @@
       "cells": [
         "baby-cereals-dry-non-rice|both|Cd",
         "baby-cereals-dry-rice-based|both|Cd",
+        "fruit-juice|both|Cd",
         "fruit-purees-general|both|Cd",
         "infant-formula-powder|cow|Cd",
         "infant-formula-powder|soy|Cd",
@@ -365,111 +383,36 @@
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+      "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
       "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
+        "register_urls": [],
         "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
+        "wiki_page": "wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md"
       },
       "rows": [
         {
-          "regulatory_limit_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
+          "regulatory_limit_id": "th_moph414_2020_thg_food_other_20",
+          "jurisdiction": "TH",
+          "authority": "Thailand Ministry of Public Health",
+          "status": "maximum level",
           "metal_species": "tHg",
-          "value_ug_kg": "8",
-          "basis": "as consumed",
-          "product_scope": "Porridges and other foods for infants and toddlers, ready-to-eat",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 14.2; limit 0.008 mg/kg.",
-          "basis_class": "as_consumed",
-          "soy_class": "",
-          "_sha256": "944b7c95fdea0e9d1957a7c87c7e2bdbfdb1432674e38000ff3fd573d6af2e49",
-          "row_sha256": "944b7c95fdea0e9d1957a7c87c7e2bdbfdb1432674e38000ff3fd573d6af2e49"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_cd_17_1_beverages_juices_and_nectars_10",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "Cd",
-          "value_ug_kg": "10",
+          "value_ug_kg": "20",
           "basis": "product as placed on market",
-          "product_scope": "Beverages, juices, and nectars",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 17.1; limit 0.01 mg/kg.",
+          "product_scope": "food other than the listed total-mercury categories",
+          "regulation_page": "regulations/thailand-moph-notification-414-2020-contaminants-food",
+          "url": "",
+          "notes": "Annex 1 Table 1 mercury residual row; source heading is mercury without methylmercury speciation, recorded as tHg; value 0.02 mg/kg normalized to 20 ug/kg.",
           "basis_class": "as_sold",
           "soy_class": "",
-          "_sha256": "9355a078d34a055cdf64246bf04a77780f43d5dcc863395a54ff3500abf4584a",
-          "row_sha256": "9355a078d34a055cdf64246bf04a77780f43d5dcc863395a54ff3500abf4584a"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_17_1_beverages_juices_and_nectars_10",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tHg",
-          "value_ug_kg": "10",
-          "basis": "product as placed on market",
-          "product_scope": "Beverages, juices, and nectars",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 17.1; limit 0.01 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "1f4385555e41225299e111366c4e980e7bf8df909cf7bb92a09a2df53236f5d2",
-          "row_sha256": "1f4385555e41225299e111366c4e980e7bf8df909cf7bb92a09a2df53236f5d2"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_14_1_infant_and_toddler_formulas_powder_15",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tHg",
-          "value_ug_kg": "15",
-          "basis": "product as placed on market, powder",
-          "product_scope": "Infant and toddler formulas, powder",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 14.1; limit 0.015 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "both",
-          "_sha256": "e3edc0738e72380904bd57956b8003f21c4b425876ba16984ae6f3e87f6a84a7",
-          "row_sha256": "e3edc0738e72380904bd57956b8003f21c4b425876ba16984ae6f3e87f6a84a7"
-        },
-        {
-          "regulatory_limit_id": "il_fcs2016_thg_14_infant_and_toddler_formulas_ready_to_eat_4",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "tHg",
-          "value_ug_kg": "4",
-          "basis": "as consumed",
-          "product_scope": "Infant and toddler formulas, ready-to-eat",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 14; limit 0.004 mg/kg.",
-          "basis_class": "as_consumed",
-          "soy_class": "both",
-          "_sha256": "1143a671330ee706089e047091b86160733659d69f1690ae67476c5612590b35",
-          "row_sha256": "1143a671330ee706089e047091b86160733659d69f1690ae67476c5612590b35"
+          "_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00",
+          "row_sha256": "98a4b35dc92e28c1fdc94a6afc490a7287cf3644875d815f5f58a353b5583b00"
         }
       ],
       "cells": [
         "baby-cereals-dry-non-rice|both|tHg",
         "baby-cereals-dry-non-rice|both|MeHg",
-        "baby-cereals-dry-rice-based|both|tHg",
-        "baby-cereals-dry-rice-based|both|MeHg",
-        "fruit-juice|both|Cd",
         "fruit-juice|both|tHg",
         "fruit-juice|both|MeHg",
-        "fruit-purees-general|both|tHg",
-        "fruit-purees-general|both|MeHg",
         "infant-formula-powder|cow|tHg",
         "infant-formula-powder|cow|MeHg",
         "infant-formula-powder|soy|tHg",
@@ -478,18 +421,8 @@
         "infant-formula-rtf-liquid|cow|MeHg",
         "infant-formula-rtf-liquid|soy|tHg",
         "infant-formula-rtf-liquid|soy|MeHg",
-        "mixed-meals-non-rice|both|tHg",
-        "mixed-meals-non-rice|both|MeHg",
-        "mixed-meals-rice-containing|both|tHg",
-        "mixed-meals-rice-containing|both|MeHg",
-        "non-root-vegetable-purees|both|tHg",
-        "non-root-vegetable-purees|both|MeHg",
-        "root-vegetable-purees-single-ingredient|both|tHg",
-        "root-vegetable-purees-single-ingredient|both|MeHg",
         "teething-and-snacks-non-rice|both|tHg",
-        "teething-and-snacks-non-rice|both|MeHg",
-        "teething-and-snacks-rice-based|both|tHg",
-        "teething-and-snacks-rice-based|both|MeHg"
+        "teething-and-snacks-non-rice|both|MeHg"
       ]
     },
     {
@@ -745,6 +678,91 @@
       ]
     },
     {
+      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+      "primary_text": {
+        "register_urls": [],
+        "raw_paths": [
+          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+        ],
+        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
+      },
+      "rows": [
+        {
+          "regulatory_limit_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Paddy rice (as brown rice, footnote b), brown rice, rice and rice flour, maize, maize flour, maize grits, wheat and wheat flour (GB 2762-2025 Table 3, item 2.1); total mercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 2.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.8; source value 0.02 mg/kg; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "1b6f3bdf10329a22d80ffb232bdadb78ca4877bcea006cff5e18457550ebd48d",
+          "row_sha256": "1b6f3bdf10329a22d80ffb232bdadb78ca4877bcea006cff5e18457550ebd48d"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_thg_canned_complementary_foods_infants_20",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Canned complementary foods for infants and young children (no methylmercury limit is set for this category) (GB 2762-2025 Table 3, item 10.1); total mercury",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 3 item 10.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.9; source value 0.02 mg/kg; supersedes cn_thg_canned-complementary-foods-for-infants-a_20; test method GB 5009.17 (natural mineral water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "ae4de13a60d234412ec1245f5c4d9467d04bb59005693049e055c7612625bee6",
+          "row_sha256": "ae4de13a60d234412ec1245f5c4d9467d04bb59005693049e055c7612625bee6"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "1000",
+          "basis": "product as placed on market",
+          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
+          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
+        }
+      ],
+      "cells": [
+        "baby-cereals-dry-rice-based|both|tHg",
+        "baby-cereals-dry-rice-based|both|MeHg",
+        "fruit-purees-general|both|tHg",
+        "fruit-purees-general|both|MeHg",
+        "fruit-purees-general|both|Cr",
+        "fruit-purees-general|both|Cr-VI",
+        "mixed-meals-non-rice|both|tHg",
+        "mixed-meals-non-rice|both|MeHg",
+        "mixed-meals-rice-containing|both|tHg",
+        "mixed-meals-rice-containing|both|MeHg",
+        "non-root-vegetable-purees|both|tHg",
+        "non-root-vegetable-purees|both|MeHg",
+        "root-vegetable-purees-single-ingredient|both|tHg",
+        "root-vegetable-purees-single-ingredient|both|MeHg",
+        "teething-and-snacks-non-rice|both|Cr",
+        "teething-and-snacks-non-rice|both|Cr-VI",
+        "teething-and-snacks-rice-based|both|tHg",
+        "teething-and-snacks-rice-based|both|MeHg",
+        "teething-and-snacks-rice-based|both|Cr",
+        "teething-and-snacks-rice-based|both|Cr-VI"
+      ]
+    },
+    {
       "regulation_page": "regulations/fda2025-lead-processed-baby-foods",
       "primary_text": {
         "register_urls": [
@@ -777,43 +795,6 @@
         "mixed-meals-non-rice|both|Pb",
         "mixed-meals-rice-containing|both|Pb",
         "non-root-vegetable-purees|both|Pb"
-      ]
-    },
-    {
-      "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-      "primary_text": {
-        "register_urls": [],
-        "raw_paths": [
-          "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
-        ],
-        "wiki_page": "wiki/regulations/china-gb-2762-2025-contaminants.md"
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "china_gb2762_2025_crtotal_cereals_1000",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "maximum level",
-          "metal_species": "Cr-total",
-          "value_ug_kg": "1000",
-          "basis": "product as placed on market",
-          "product_scope": "Cereals (paddy rice calculated as brown rice, footnote a) (GB 2762-2025 Table 7, item 1.1); total Cr, not Cr-VI",
-          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
-          "url": "",
-          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 7 item 1.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.11; source value 1.0 mg/kg; supersedes china_gb2762_crtotal_grains_1000; the old row bundled cereals and milled cereal products; Table 7 lists them as two lines at the same value, the milled line is china_gb2762_2025_crtotal_milled_cereal_products_1000; test method GB 5009.123",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd",
-          "row_sha256": "3fe25d24df81c76352e7e14377508436759ba91291a5545813afd018e59f87cd"
-        }
-      ],
-      "cells": [
-        "fruit-purees-general|both|Cr",
-        "fruit-purees-general|both|Cr-VI",
-        "teething-and-snacks-non-rice|both|Cr",
-        "teething-and-snacks-non-rice|both|Cr-VI",
-        "teething-and-snacks-rice-based|both|Cr",
-        "teething-and-snacks-rice-based|both|Cr-VI"
       ]
     }
   ]

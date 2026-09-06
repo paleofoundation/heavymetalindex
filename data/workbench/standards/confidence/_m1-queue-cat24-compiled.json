@@ -1,6 +1,6 @@
 {
   "compiled_dir": "cat24-compiled",
-  "run_id": "run-202609021136",
+  "run_id": "run-202609061824",
   "instruments": [
     {
       "regulation_page": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
@@ -83,9 +83,9 @@
         "dairy-cheese|_|Pb",
         "dairy-cheese|_|tHg",
         "dairy-cheese|_|MeHg",
-        "dairy-milk-powders|both|Cd",
-        "dairy-milk-powders|both|tHg",
-        "dairy-milk-powders|both|MeHg"
+        "dairy-milk-powders|_|Cd",
+        "dairy-milk-powders|_|tHg",
+        "dairy-milk-powders|_|MeHg"
       ]
     },
     {
@@ -273,7 +273,7 @@
         "dairy-milk-camel|_|Sn",
         "dairy-milk-cow|_|Sn",
         "dairy-milk-goat-sheep|_|Sn",
-        "dairy-milk-powders|both|Sn",
+        "dairy-milk-powders|_|Sn",
         "dairy-yogurt-cultured|_|Sn"
       ]
     },
@@ -312,7 +312,7 @@
         "dairy-milk-camel|_|Al",
         "dairy-milk-cow|_|Al",
         "dairy-milk-goat-sheep|_|Al",
-        "dairy-milk-powders|both|Al",
+        "dairy-milk-powders|_|Al",
         "dairy-yogurt-cultured|_|Al"
       ]
     },
@@ -375,6 +375,40 @@
           "row_sha256": "9ce91f22c8cbd72c6d245a09260bf798fc317931bfda82539cb4600482c4613a"
         },
         {
+          "regulatory_limit_id": "china_gb2762_2025_pb_milk_products_other_200",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "200",
+          "basis": "product as placed on market",
+          "product_scope": "Milk and milk products, excluding raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 1, item 10.1)",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 1 item 10.1; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.5; source value 0.2 mg/kg; test method GB 5009.12 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "",
+          "_sha256": "4df3080ccfe6140f8f6db612d3b6ed0bed4d11b34c5eb97f2931a6f4926aacb2",
+          "row_sha256": "4df3080ccfe6140f8f6db612d3b6ed0bed4d11b34c5eb97f2931a6f4926aacb2"
+        },
+        {
+          "regulatory_limit_id": "china_gb2762_2025_tas_milk_powder_500",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission and SAMR",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "500",
+          "basis": "product as placed on market",
+          "product_scope": "Milk powder and modified milk powder (GB 2762-2025 Table 4, item 6.2); total arsenic",
+          "regulation_page": "regulations/china-gb-2762-2025-contaminants",
+          "url": "",
+          "notes": "GB 2762-2025 (published 2025-09-02, effective 2026-09-02) Table 4 item 6.2; unchanged from GB 2762-2022; primary text raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf p.10; source value 0.5 mg/kg; supersedes china_gb2762_tas_milk_powder_500 and cn_tas_milk-powder-and-modified-milk-powder-gen_500; Table 4 does not name infant formula; milk powder is the general dairy category; test method GB 5009.11 (packaged drinking water GB 8538)",
+          "basis_class": "as_sold",
+          "soy_class": "both",
+          "_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5",
+          "row_sha256": "4e60e10ccdef004882cb1177e71205bbd1e015e1dfba6d7ddc2192d2bd23c6c5"
+        },
+        {
           "regulatory_limit_id": "china_gb2762_2025_thg_liquid_milk_10",
           "jurisdiction": "CN",
           "authority": "National Health Commission and SAMR",
@@ -397,6 +431,9 @@
         "dairy-milk-camel|_|Pb",
         "dairy-milk-cow|_|Pb",
         "dairy-milk-goat-sheep|_|Pb",
+        "dairy-milk-powders|_|Pb",
+        "dairy-milk-powders|_|tAs",
+        "dairy-milk-powders|_|iAs",
         "dairy-yogurt-cultured|_|Pb",
         "dairy-yogurt-cultured|_|tHg",
         "dairy-yogurt-cultured|_|MeHg"
@@ -442,91 +479,6 @@
       ]
     },
     {
-      "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-      "primary_text": {
-        "register_urls": [
-          "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf"
-        ],
-        "raw_paths": [],
-        "wiki_page": "wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md"
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "il_fcs2016_pb_1_1_dairy_products_20",
-          "jurisdiction": "IL",
-          "authority": "Israel Ministry of Health - National Food Service",
-          "status": "superseded — not in force (Ministry of Health register page fcs-reg-01022007 marked לא בתוקף, updated 2026-02-19); displaced by Regulation (EU) 2023/915 adopted under the Public Health Protection (Food) Law 5776-2015 s.3A (Amendment 10, S.H. 3276, Thirteenth Schedule Part B(9)); not for implementation",
-          "metal_species": "Pb",
-          "value_ug_kg": "20",
-          "basis": "product as placed on market",
-          "product_scope": "Dairy products",
-          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
-          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
-          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 1.1; limit 0.02 mg/kg.",
-          "basis_class": "as_sold",
-          "soy_class": "",
-          "_sha256": "5c47f189366111420fdcd38d9b518d6715a8298b4bf32263f5cb1ca78c86c833",
-          "row_sha256": "5c47f189366111420fdcd38d9b518d6715a8298b4bf32263f5cb1ca78c86c833"
-        }
-      ],
-      "cells": [
-        "dairy-milk-powders|both|Pb"
-      ]
-    },
-    {
-      "regulation_page": "regulations/china-gb-2762-2022-contaminants",
-      "primary_text": {
-        "register_urls": [
-          "https://gain.fas.usda.gov/#/search",
-          "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
-        ],
-        "raw_paths": [],
-        "wiki_page": "wiki/regulations/china-gb-2762-2022-contaminants.md"
-      },
-      "rows": [
-        {
-          "regulatory_limit_id": "china_gb2762_tas_milk_powder_500",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation",
-          "metal_species": "tAs",
-          "value_ug_kg": "500",
-          "basis": "product as placed on market",
-          "product_scope": "milk powder and modified milk powder (GB 2762-2022 Table 4, sections 4.4.1-4.4.2); total arsenic",
-          "regulation_page": "regulations/china-gb-2762-2022-contaminants",
-          "url": "https://gain.fas.usda.gov/#/search",
-          "notes": "Category mapping to infant formula powder is a proposed fit; GB 2762 Table 4 does not name infant formula separately and 'modified milk powder' is the nearest category. Non-binding here: pooled tAs sits far below. Testing per GB 5009.11.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "524f27565ec1f79a8c956d63d82298c06ff36a2a991b47254fcc59a528c99f05",
-          "row_sha256": "524f27565ec1f79a8c956d63d82298c06ff36a2a991b47254fcc59a528c99f05"
-        },
-        {
-          "regulatory_limit_id": "china_gb2762_cr_milk_powder_2000",
-          "jurisdiction": "CN",
-          "authority": "National Health Commission and SAMR",
-          "status": "superseded — replaced by GB 2762-2025 effective 2026-09-02; not for implementation",
-          "metal_species": "Cr",
-          "value_ug_kg": "2000",
-          "basis": "product as placed on market",
-          "product_scope": "milk powder and modified milk powder (GB 2762-2022 Table 7, section 4.7); total Cr, not Cr-VI",
-          "regulation_page": "regulations/china-gb-2762-2022-contaminants",
-          "url": "https://gain.fas.usda.gov/#/search",
-          "notes": "Category mapping to infant formula powder is a proposed fit: Table 7 does not name infant formula as its own row and 'modified milk powder' is the nearest category; confirm against GB 2762 Appendix A before treating as binding. Testing per GB 5009.123. The standard uses an 8:1 liquid:powder ratio, not the engine's 1:7.",
-          "basis_class": "",
-          "soy_class": "",
-          "_sha256": "fdaf61ca0daa637708ad1ead258ca1fd7c0ba60dcea8c34788def961b95703ae",
-          "row_sha256": "fdaf61ca0daa637708ad1ead258ca1fd7c0ba60dcea8c34788def961b95703ae"
-        }
-      ],
-      "cells": [
-        "dairy-milk-powders|both|tAs",
-        "dairy-milk-powders|both|iAs",
-        "dairy-milk-powders|both|Cr",
-        "dairy-milk-powders|both|Cr-VI"
-      ]
-    },
-    {
       "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
       "primary_text": {
         "register_urls": [
@@ -555,7 +507,7 @@
         }
       ],
       "cells": [
-        "dairy-milk-powders|both|Ni"
+        "dairy-milk-powders|_|Ni"
       ]
     }
   ]
