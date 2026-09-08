@@ -513,7 +513,54 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-220 open item(s): 72 auto, 148 awaiting a decision.
+228 open item(s): 74 auto, 154 awaiting a decision.
+
+### OI-20260908-wikibiome-lift-metals-microbiome-framework — Lift metals-microbiome-disease-pathogenesis framework to WikiBiome
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/synthesis/metals-microbiome-disease-pathogenesis.md`
+- repro: Foundational framework published on HMI at /synthesis/metals-microbiome-disease-pathogenesis with wikibiome_crosswalk: metals-microbiome-disease-pathogenesis. Federate to WikiBiome with minimal edits, one-way, per CLAUDE.md Part 3. NOTE stale path: the live WikiBiome repo is ~/Desktop/microbiomemedicine (remote paleofoundation/microbiomemedicine), NOT ~/Desktop/wikibiome as Part 3 states — worth correcting in CLAUDE.md.
+- done when: Framework federated to WikiBiome keyed to the crosswalk anchor; One-way link only (public HMI never imports from WikiBiome); HMI page remains the canonical DOI-bearing record
+- decision: _pending_
+
+### OI-20260908-testing-asymmetry-publish-blocked — the-testing-asymmetry.md is publication-blocked by its own adversarial audit; honest rewrite (Part A) not done
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `data/workbench/public-briefings/the-testing-asymmetry.md`, `data/workbench/public-briefings/the-testing-asymmetry-ADVERSARIAL-AUDIT.md`
+- repro: Adversarial audit (committed alongside the briefing) rules the strong claim ('insane not to test / testing safer even for the dirtiest brand') NOT earned — overstated in 4 load-bearing places. CRITICAL program-design findings F1 (certifier as subpoenable serial adverse witness / honeypot), F2 (RFR 417 + formula 412 mandatory-reporting collision), F3 (negligent-certification / E&O). Part A (argument corrections) is model-doable; Part B is counsel's (Ira Sacks). Briefing must not publish at current strength.
+- done when: the-testing-asymmetry.md rewritten to the audit's honest narrower thesis (Part A, model-doable); publication stays gated until counsel signs off on F1/F2/F3 (Part B); cross-linked to OI-20260820-certifier-liability-half (the Part-B liability half already in the ledger)
+- decision: _pending_
+
+### OI-20260908-taxonomy-panel-metals-8-vs-11 — Taxonomy panel_metals lists 8 analytes but compiled Cat standards carry the 11-key panel
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/taxonomy/hmtc-v2.json`, `data/workbench/standards/cat1-compiled/infant-formula-powder.json`
+- done when: taxonomy panel_metals reconciled to the compiled 11-key panel (Pb,Cd,tAs,iAs,tHg,MeHg,Ni,Sn,Al,Cr,Cr-VI) OR a documented rationale for the 8-vs-11 split
+- evidence: Agent inventory 2026-09-08: taxonomy stores 8-metal panel_metals; cat1-compiled/*.json all carry 11 keys
+- decision: _pending_
+
+### OI-20260908-ingest-metals-microbiome-review-citations — Ingest the 46 not-yet-in-corpus citations from the metals-microbiome review
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `wiki/synthesis/metals-microbiome-disease-pathogenesis.md`
+- repro: Published review cites 50 works; only 4 have HMI source pages (coryell2019, hoen2018, soto-ocana2024, coe2023). Triage the other 46 (Works cited) for corpus ingestion via /discover so claims gain per-source provenance and anchor_sources can deepen.
+- done when: Cited works triaged against corpus; Qualifying open-access papers fetched and ingested as source pages; anchor_sources updated where new corpus pages back the framework claims
+
+### OI-20260908-hardstop-merge-blocked-unattended — P0 mis-certification hard-stop is PASSed but unmerged: feat/registry-engine-context never promoted to master
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `~/Desktop/heavymetalcertified-app`
+- repro: heavymetalcertified-app: master == origin/master (0/0); feat/registry-engine-context = master + exactly one commit 75264d7 (clean ff). Karen PASS recorded in docs/ELON_BRIDGE.md H-5 2026-09-08T14:08Z, but the hourly unattended bridge runner is kill-gated against push/deploy (push = LIVE auto-deploy), so the merge did not fire. Live effect while unmerged: readiness certifies on the loosened selected-market floor and governmentLimits is undefined so the government hard-stop never trips.
+- done when: Working tree reconciled; npx tsc --noEmit clean and vitest suite green (expect 81/81) on feat/registry-engine-context; git checkout master && git merge --ff-only feat/registry-engine-context && git push origin master; master auto-deploy confirmed live; merge SHA + deploy status posted as a CLAUDE->ELON STATUS in docs/ELON_BRIDGE.md; Readiness pass/fail path confirmed reading engine-context (strictest-floor + revived hard-stop); Follow-on: migrate scope-panel, application/completion-cost, compute-readiness monitored-decision, reporting-limits floor off the old looser finder
+- decision: _pending_
+
+### OI-20260908-cat12-rendered-no-compiled — Cat-12 cleaning renders ~15 cert standards with no matching cat12-compiled JSON in the index
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards`, `heavymetalcertified/content/standards`
+- done when: each rendered Cat-12 cleaning standard has a matching compiled JSON under data/workbench/standards/cat12-compiled OR the rendered pages are confirmed compiled elsewhere
+- evidence: Agent inventory 2026-09-08: cert renders all-purpose-cleaners etc.; no cat12-compiled dir under data/workbench/standards
+- decision: _pending_
 
 ### OI-20260902-synthesis-title-emdash-housestyle — 4 synthesis page titles plus their minted DOIs use an em-dash subtitle separator, against the Index em-dash-avoidance house style
 
@@ -521,6 +568,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/synthesis/aquaculture-vs-wild-contamination-differential.md`, `wiki/synthesis/bivalve-cadmium-amplification.md`, `wiki/synthesis/cooking-does-not-reduce-mehg.md`, `wiki/synthesis/se-hg-molar-ratio-certification-debate.md`
 - repro: aquaculture/bivalve/cooking/se-hg titles use an em-dash as the title-to-subtitle separator; the /synthesis/ index now renders them with a colon or comma. page title = H1 = minted 10.83376 DOI title (em-dash). Unifying to colons everywhere would require updating the live DataCite titles on 4 permanent Findable records (needs repo DataCite creds). NOT a DOI/Scholar-parity problem (index anchor is not the citation surface); purely house-style.
 - done when: Karen rules: keep the minted em-dash titles as-is, or de-em-dash page+H1+index+DOI together in one credentialed pass
+- decision: _pending_
+
+### OI-20260902-scope-notes-not-rendered-on-live-standards — Workbench scope_note text renders on 1 of 352 live cert standard pages (butter-and-ghee only); Cat 4/33 pages promise "every collapsed split is named in that row's scope_note" but publish no scope at all
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/standards/cat4-config.json`, `tools/standards/cat33-config.json`, `content/standards/dried-fruit.md`, `content/standards/confectionery-candy.md`, `content/standards/fruit-snacks.md`
+- repro: grep -l "Sun-dried, tunnel-dried" ~/Desktop/heavymetalcertified/content/standards/*.md returns nothing although cat4-config.json dried-fruit.scope_note carries that text; grep -l -E "id=\"scope\"|>Scope" content/standards/*.md matches only butter-and-ghee.md. Found while skeptic-checking sweep candidate C158 (preserved/salted/candied fruit): the routing rules already exist in the workbench (confectionery-candy scope_note names imported/ethnic sweets tamarind/chili and similar; fruit-snacks scope_note routes sugar-predominant fruit product to Cat 33) but a brand reading the live site cannot see any of them.
+- done when: Every compiled standard page renders its workbench scope_note (or an explicit Scope section) so a brand can tell which row applies without reading repo JSON; The dried-fruit/fruit-snacks/confectionery-candy live pages show their scope text; the method_note claim about scope_note is no longer false on the live page; Optional in the same pass: append saladitos/chamoy plums, Chinese-Taiwanese preserved plums, li hing mui/crack seed, candied and glace fruit to the existing confectionery-candy scope_note as named imported/ethnic sweets (no new row, no seasoning split)
 - decision: _pending_
 
 ### OI-20260902-readiness-lint-still-overcounts-complete — cert standard-readiness-lint (post PR #65) still overcounts COMPLETE: panel falls back to Object.keys(cells) so 9-key Cat-1 records pass; any non-null value is firm (valued control counts); only the first variant is read (soy never checked); provisional_scaffold records count; corrected is a pass-through of complete; committed readiness-manifest.json at HEAD is stale (107/107/0) and is what mint-dois.mjs gates on
@@ -546,6 +601,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: sed -n 60,66p tools/mint-dois.mjs (dryRun = --dry-run || !credentialsReady); grep -cE "^DATACITE_(USER|PASSWORD|PREFIX)=.+" .env.local (3); grep -n TEST_PREFIXES tools/mint-dois.mjs ~/Desktop/heavymetalcertified/tools/mint-dois.mjs (no 10.84435); git -C ~/Desktop/heavymetalcertified show wip/stranded-datacite-cat23-b090435:tools/datacite-preflight.mjs | grep -n "method: \"POST\"\|DELETE"
 - done when: index mint-dois.mjs requires an explicit --live (or --execute) flag to deposit; credentials alone never execute; 10.84435 added to TEST_PREFIXES in both mint-dois.mjs files; datacite-preflight.mjs header states it creates+deletes a DataCite draft record and requires an explicit --execute flag; it never prints DATACITE_USER
 - evidence: found by the 2026-09-02 chip-brief verification workflow; brief: docs/tasks/standards-95-confidence-completion-brief.md Ground truth / Hard rules
+
+### OI-20260902-gb2762-general-food-cells-missing-from-register — GB 2762 general-food Pb cells (confectionery+cocoa 500, frozen drinks 300, jelly/guodong 400, puffed food 500, other dairy 200) absent from regulatory_limits.csv; cert china-gb-2762 page shows only 20 infant/dairy cells; GB 2762-2025 (effective 2026-09-02) retains them verbatim
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/china-gb-2762-2022-contaminants.md`, `raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf`
+- repro: grep -i gb2762 data/evidence/regulatory_limits.csv returns 13 rows (milk powder, liquid milk, FSMP, grains, legumes, nuts, condiments, spices, peanuts, soy milk) and no confectionery, frozen-drink, jelly, puffed-food or other-dairy row. pdftotext -raw raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf shows Table 1 lead: 可可制品、巧克力和巧克力制品以及糖果 0.5; 冷冻饮品 0.3; 果冻 0.4; 膨化食品 0.5; 乳及乳制品(生乳/巴氏/灭菌/调制/发酵乳除外) 0.2; Annex A classes candies (including gum-based candies), frozen drinks (ice cream, ice lolly, slush, edible ice), jelly. Identical lines in the 2022 PDF. Coverage-sweep lens coverage-6 (dessert/gum residual) needs the jelly and frozen-drink cells as criterion-1 anchors.
+- done when: regulatory_limits.csv carries china_gb2762_2025_* rows for confectionery+cocoa Pb 500, frozen drinks Pb 300, jelly Pb 400, puffed food Pb 500, other dairy products Pb 200 with basis as placed on market and instrument GB 2762-2025; cert regulations/china-gb-2762 page regenerated and shows the new cells; existing GB 2762-2022 rows re-verified against GB 2762-2025 values (no change expected for the 13 present rows)
+- evidence: raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf Table 1 lines 137-153 (raw pdftotext) · raw/regulatory/_source-packages/2026-08-03-infant-child-global/extracted/China_GB2762-2022_English_MAST.txt lines 388-455, 2378-2448
 
 ### OI-20260902-datacite-container-backfill — 24 out-of-band-minted synthesis DOIs lack the container(Series Heavy Metal Index) the current mint code now sets
 

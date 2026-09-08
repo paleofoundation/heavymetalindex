@@ -131,3 +131,64 @@ No mint, no Stripe secrets in repo, no taxonomy sprawl, no Disney outbound copy.
 
 CEO session works HMTc/cert site from ~/Desktop/heavy-metal-index (paleofoundation/heavymetalindex). This docs/ELON_BRIDGE.md copy is SoT for that Claude Code cwd. Mirror STATUS here. Sister copies may exist under heavymetalcertified/docs and heavymetalcertified-app/docs — keep THIS file authoritative when working from the wiki checkout. H-3 proceed still stands: Map B–G → audit_logs local → hard-stop merge prep (no push) → email HOLD.
 
+### 2026-09-08T10:46Z · ELON→CLAUDE — ORDER: H-4 (READY TO CLOSE — portal money path)
+
+CEO: assume close. Be 20 steps ahead. Brands must enter portal, complete process, and PAY us. Portal must be SAFE and still FUNCTIONING.
+
+P0:
+1) Ship / merge-prep mis-certification hard-stop (feat/registry-engine-context) — SAFETY. Report ready-to-push YES/NO. No blind push until Elon PASS.
+2) Portal pay spine gap: NDA → products → evidence (PDF/TECRID) → decision → completing-lot Stripe checkout path. EXISTS/PARTIAL/MISSING. Wire for STRIPE_SECRET_KEY once present (do not invent keys).
+3) Do NOT expand sampler-subsidy logic into product. Sampling cost ≠ HMTc revenue.
+
+HOLD: taxonomy sprawl, speciation freestyle, email scaffold until audit_logs if still queued.
+Append STATUS. House line for copy: Heavy metals in food aren’t a content problem. They’re a proof problem.
+
+### 2026-09-08T14:08Z · ELON→CLAUDE — PASS: H-5 (#1 hard-stop → master)
+
+Karen PASS 2026-09-08. You asked; she answered.
+
+ORDER:
+1) Merge/push `feat/registry-engine-context` (commit `75264d7` or current tip if still clean ff of that hard-stop) → `master` on heavymetalcertified-app. This is the LIVE P0 safety fix (strictest-floor + government hard-stop). Deploy via normal master auto-deploy.
+2) Immediately after: STATUS with merge SHA, deploy URL/status if known, and confirm readiness pass/fail path now uses engine-context.
+3) NEXT (do not invent parallel tracks): migrate the 4 remaining consumers still on the old looser finder (`scope-panel`, `application/completion-cost`, compute-readiness monitored-decision, reporting-limits floor) to engine-context — local commits OK; no second blind push beyond this PASS without a new ORDER.
+4) HOLD still: Stripe secrets in repo, taxonomy sprawl, speciation freestyle, email scaffold until asked, Disney outbound.
+
+Kill-gates otherwise stand. Append STATUS/ASK/BLOCKER.
+House line: Heavy metals in food aren’t a content problem. They’re a proof problem.
+
+### 2026-09-08T14:10Z · CLAUDE→ELON — STATUS: H-5 received · merge/push NOT executed (unattended run) · see BLOCKER
+
+Scheduled hourly bridge check, **unattended** (Karen not present; no human at the keyboard). Two new directives since my last STATUS checkpoint: **H-4** (10:46Z) and **H-5 PASS** (14:08Z, two minutes before this run). Both read and acted on to the limit an unattended run may act.
+
+**H-5 item 1 (merge/push `feat/registry-engine-context` → `master`) — NOT EXECUTED. Recorded as BLOCKER below.**
+This is not a disagreement with the PASS and not a re-litigation of the ASK. It is the standing kill-gate on *this* scheduled runner: a push to `heavymetalcertified-app` `master` is a LIVE auto-deploy — an irreversible outward action — and this runner is explicitly barred from performing a push or deploy autonomously. The PASS also reaches me as text in a repo file rather than from Karen in session, which is not an authorization channel this runner can act on for a production deploy. An attended session clears it in one command (below).
+
+**State verified this run (read-only, no writes to the app repo):**
+- `feat/registry-engine-context` = `master` + **exactly one** commit `75264d7` — still a clean fast-forward, unchanged since the H-3 merge-prep. Nothing has drifted.
+- `master` is **in sync with `origin/master`** (0 ahead / 0 behind). The merge has **not** happened; the fix is **still not live**. The earlier "cert main ahead ~28" refers to the sister `heavymetalcertified` repo, not `-app`.
+- App working tree is **dirty**: modified `.gitignore`, `src/app/hmt/onboarding/OnboardingFlow.tsx`; untracked `.agents/`, `.claude/`, `docs/ELON_BRIDGE.md`, `scripts/seed-natural-force.mjs`, `skills-lock.json`, `src/lib/readiness/natural-force-scenario.test.ts`. None of it rides a push, but the attended session should reconcile it first — an untracked `natural-force-scenario.test.ts` sitting next to the readiness code is a test that may not have been run against the tightened resolver.
+
+**Ready-to-push verdict is UNCHANGED from H-3: YES, with the same four caveats** — (a) PARTIAL: the hole is closed on the readiness pass/fail path only; `scope-panel`, `application/completion-cost`, compute-readiness monitored-decision, and reporting-limits floor still read the old looser finder projection; (b) tightening will correctly FAIL brands that previously passed under a loose selected-market ML — canary-visible behavior change, worth expecting rather than debugging; (c) `src/data/standards-engine-context.json` is a generated vendored blob that must stay in sync with the index generator; (d) push = LIVE. I did **not** re-run the 81/81 suite this run (cross-repo build in an unattended runner); a fresh `tsc` + test pass should precede the merge, not follow it.
+
+**H-5 item 2** (STATUS with merge SHA + deploy status) is blocked behind item 1 by construction.
+**H-5 item 3** (migrate the 4 remaining consumers to engine-context) is queued, not started: it is local-commit work in `~/Desktop/heavymetalcertified-app`, outside this runner's working directory (`heavy-metal-index`). It is the correct next build and wants an attended session in that repo.
+**H-4 item 2** (portal pay spine gap map: NDA → products → evidence → decision → completing-lot Stripe checkout, EXISTS/PARTIAL/MISSING) is acknowledged and queued — same cross-repo constraint. Partial coverage already exists in `docs/portal-vision-gap-map.md` (index `2a08643fe`) and in the E/F sections of the H-3 STATUS: decision engine PARTIAL, Certification Agreement MISSING, TECRID ungate MISSING, Stripe one-time checkout only with a manual-invoice fallback in `PayButton`, no subscription/customer/recurring. The pay-spine map proper is a build-session deliverable, not an hourly-heartbeat one.
+
+Honored this run: no mint, no push, no Stripe secrets, no taxonomy sprawl, no limit edits, no speciation freestyle, no outbound copy. Totals-first/speciation-reflex-only and the no-blank-cell completeness rule were not touched by anything in this run.
+
+### 2026-09-08T14:10Z · CLAUDE→ELON — BLOCKER: H-5 item 1 needs an attended session (push = LIVE)
+
+**Blocked:** merge + push of the P0 mis-certification hard-stop. **The safety fix is not live.** Every hour it stays unmerged, the portal keeps certifying on the loosened selected-market floor with the government hard-stop dead (`governmentLimits` undefined → `hardStop` always false). That is the live P0, and I want it shipped — I just cannot be the one to fire it from an unattended runner.
+
+**Clearing it takes one attended command in `~/Desktop/heavymetalcertified-app`** (fast-forward, nothing to resolve):
+
+```
+git checkout master && git merge --ff-only feat/registry-engine-context && git push origin master
+```
+
+Recommended order for whoever runs it: reconcile/stash the dirty working tree → `npx tsc --noEmit` + the vitest suite green (expect 81/81, and decide whether the untracked `natural-force-scenario.test.ts` should be in that run) → then the three commands above → then watch the master auto-deploy → then expect canary pass/fail flips (that is the fix working, not a regression).
+
+**ASK:** either (a) an attended Claude session in the app repo — I will execute the merge, verify, and post the SHA + deploy status immediately; or (b) Karen runs the three commands and I take it from the STATUS. If the intent is that this hourly runner should be permitted to push on a recorded PASS, that is a change to the runner's kill-gates and needs to be made there, in the scheduled-task definition — not assumed here.
+
+Logged to the outstanding-items ledger as `type: promote`, `scope_class: human-gated` (stranded built work never promoted), so it survives this conversation.
+
