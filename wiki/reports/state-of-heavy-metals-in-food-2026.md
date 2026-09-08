@@ -19,7 +19,7 @@ This first edition is a cross-corpus report, not a new pooled meta-analysis. It 
 
 ## The evidence base at publication
 
-The repository contained **3,058 source pages**, including **2,542 peer-reviewed source pages**, **177 government source pages**, and **1,496 A-tier records**, spanning **187 jurisdiction labels**. The structured layer contained **695 evidence records** and **6,412 source-to-destination audit rows**. Those repository-wide counts provide context; this report itself is limited to **24 promoted synthesis findings** and **122 disclosed anchor-source relationships**.
+The repository contained **3,058 source pages**, including **2,542 peer-reviewed source pages**, **177 government source pages**, and **1,496 A-tier records**, spanning **187 jurisdiction labels**. The structured layer contained **695 evidence records** and **6,412 source-to-destination audit rows**. Those repository-wide counts provide context; this report itself is limited to **25 promoted synthesis findings** and **126 disclosed anchor-source relationships**.
 
 Downloads: [machine-readable JSON](/static/data/state-of-heavy-metals-in-food-2026.json) · [finding register CSV](/static/data/state-of-heavy-metals-in-food-2026.csv)
 
@@ -53,6 +53,7 @@ The EU framework has changed through successive matrix- and analyte-specific ins
 
 | Theme | Findings | Disclosed anchor-source relationships |
 | --- | ---: | ---: |
+| Microbiome-mediated pathogenesis | 1 | 4 |
 | Botanical and agricultural pathways | 6 | 33 |
 | Processing, contact, and adulteration | 2 | 10 |
 | Infant and vulnerable-population exposure | 3 | 20 |
@@ -64,6 +65,7 @@ The EU framework has changed through successive matrix- and analyte-specific ins
 
 | Finding | Metals | Anchor sources | Theme | External review state |
 | --- | --- | ---: | --- | --- |
+| [Heavy metal exposure and compartment-specific metal dyshomeostasis can act upstream of the microbial functions that drive disease, defining a falsifiable metal-conditioned disease endotype for microbiome medicine](https://heavymetalindex.com/synthesis/metals-microbiome-disease-pathogenesis) | Ni, Zn, Fe, iAs, Cd | 4 | Microbiome-mediated pathogenesis | preprint; no external verdict recorded |
 | [Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](https://heavymetalindex.com/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | Botanical and agricultural pathways | preprint; no external verdict recorded |
 | [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](https://heavymetalindex.com/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | Processing, contact, and adulteration | preprint; no external verdict recorded |
 | [Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance](https://heavymetalindex.com/synthesis/breastmilk-heavy-metal-exposure-pathway) | Pb, Cd, tAs, tHg, Al, Cr | 6 | Infant and vulnerable-population exposure | preprint; no external verdict recorded |
@@ -74,13 +76,13 @@ The EU framework has changed through successive matrix- and analyte-specific ins
 | [Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness](https://heavymetalindex.com/synthesis/cookware-utensil-metal-leaching-pathway) | Pb, Cd, Ni, Cr, Al, tAs | 5 | Processing, contact, and adulteration | preprint; no external verdict recorded |
 | [Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports](https://heavymetalindex.com/synthesis/tea-multi-metal-bioaccumulation) | Al, Pb, Cd, Cr, tAs | 8 | Botanical and agricultural pathways | preprint; no external verdict recorded |
 | [Aquaculture vs wild-caught contamination differential: why farmed fish carry systematically lower MeHg](https://heavymetalindex.com/synthesis/aquaculture-vs-wild-contamination-differential) | MeHg, tHg, Cd, Pb, tAs | 3 | Aquatic food systems | preprint; no external verdict recorded |
-| [Bivalve cadmium amplification through filter feeding: why mussels and oysters need a different threshold than finfish](https://heavymetalindex.com/synthesis/bivalve-cadmium-amplification) | Cd, Pb, tHg | 5 | Aquatic food systems | preprint; no external verdict recorded |
+| [Bivalve cadmium amplification through filter feeding: why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish](https://heavymetalindex.com/synthesis/bivalve-cadmium-amplification) | Cd, Pb, tHg | 5 | Aquatic food systems | preprint; no external verdict recorded |
 | [Cooking does not reduce methylmercury, and why this matters for consumer messaging](https://heavymetalindex.com/synthesis/cooking-does-not-reduce-mehg) | MeHg, tHg | 3 | Aquatic food systems | preprint; no external verdict recorded |
 | [EU heavy-metals regulatory framework timeline (2001-2023 and beyond)](https://heavymetalindex.com/synthesis/eu-regulatory-framework-timeline) | Pb, Cd, tHg, MeHg, iAs, Sn | 6 | Regulatory and toxicological interpretation | preprint; no external verdict recorded |
-| [Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings: the certification debate](https://heavymetalindex.com/synthesis/se-hg-molar-ratio-certification-debate) | MeHg, tHg | 3 | Aquatic food systems | preprint; no external verdict recorded |
+| [Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings: the scientific debate](https://heavymetalindex.com/synthesis/se-hg-molar-ratio-certification-debate) | MeHg, tHg | 3 | Aquatic food systems | preprint; no external verdict recorded |
 | [Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline](https://heavymetalindex.com/synthesis/climate-fish-mehg-projections) | tHg, MeHg | 3 | Aquatic food systems | preprint; no external verdict recorded |
 | [Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories](https://heavymetalindex.com/synthesis/mining-impacted-freshwater-fish) | tHg, MeHg, Pb, Cd, Cr, Ni | 10 | Aquatic food systems | preprint; no external verdict recorded |
-| [Organic certification is not protective against heavy-metal contamination, and is associated with elevated loads in several food categories](https://heavymetalindex.com/synthesis/organic-certification-not-protective) | Pb, Cd, Al, Ni, tAs | 7 | Botanical and agricultural pathways | preprint; no external verdict recorded |
+| [Organic certification is not protective against heavy-metal contamination, and in some food matrices is associated with higher loads](https://heavymetalindex.com/synthesis/organic-certification-not-protective) | Pb, Cd, Al, Ni, tAs | 7 | Botanical and agricultural pathways | preprint; no external verdict recorded |
 | [Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize](https://heavymetalindex.com/synthesis/seaweed-cd-as-contamination) | Cd, tAs, iAs, Pb | 3 | Botanical and agricultural pathways | preprint; no external verdict recorded |
 | [Climate adaptation creates new heavy-metal trade-offs](https://heavymetalindex.com/synthesis/climate-metals-tradeoffs) | iAs, Cd, MeHg, tHg | 3 | Regulatory and toxicological interpretation | preprint; no external verdict recorded |
 | [Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure](https://heavymetalindex.com/synthesis/combined-exposure-underprotection) | Pb, Cd, iAs, MeHg, Ni, Al | 3 | Regulatory and toxicological interpretation | preprint; no external verdict recorded |

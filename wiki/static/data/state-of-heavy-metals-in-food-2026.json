@@ -7,8 +7,8 @@
   "methodology_url": "https://heavymetalindex.com/methodology",
   "report_url": "https://heavymetalindex.com/reports/state-of-heavy-metals-in-food-2026",
   "metrics": {
-    "synthesis_findings": 24,
-    "disclosed_anchor_source_relationships": 122,
+    "synthesis_findings": 25,
+    "disclosed_anchor_source_relationships": 126,
     "source_pages": 3058,
     "peer_reviewed_source_pages": 2542,
     "government_source_pages": 177,
@@ -16,11 +16,19 @@
     "jurisdictions": 187,
     "ingredient_pages": 257,
     "product_pages": 416,
-    "regulation_pages": 180,
+    "regulation_pages": 182,
     "structured_evidence_records": 695,
     "routing_audit_rows": 6412
   },
   "themes": [
+    {
+      "theme": "Microbiome-mediated pathogenesis",
+      "finding_count": 1,
+      "anchor_source_relationships": 4,
+      "slugs": [
+        "metals-microbiome-disease-pathogenesis"
+      ]
+    },
     {
       "theme": "Botanical and agricultural pathways",
       "finding_count": 6,
@@ -89,6 +97,22 @@
     }
   ],
   "findings": [
+    {
+      "slug": "metals-microbiome-disease-pathogenesis",
+      "title": "Heavy metal exposure and compartment-specific metal dyshomeostasis can act upstream of the microbial functions that drive disease, defining a falsifiable metal-conditioned disease endotype for microbiome medicine",
+      "metals": [
+        "Ni",
+        "Zn",
+        "Fe",
+        "iAs",
+        "Cd"
+      ],
+      "anchor_sources": 4,
+      "added": "2026-09-08",
+      "theme": "Microbiome-mediated pathogenesis",
+      "review_state": "preprint; no external verdict recorded",
+      "url": "https://heavymetalindex.com/synthesis/metals-microbiome-disease-pathogenesis"
+    },
     {
       "slug": "dietary-nickel-plant-staple-accumulation",
       "title": "Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source",
@@ -243,7 +267,7 @@
     },
     {
       "slug": "bivalve-cadmium-amplification",
-      "title": "Bivalve cadmium amplification through filter feeding: why mussels and oysters need a different threshold than finfish",
+      "title": "Bivalve cadmium amplification through filter feeding: why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish",
       "metals": [
         "Cd",
         "Pb",
@@ -287,7 +311,7 @@
     },
     {
       "slug": "se-hg-molar-ratio-certification-debate",
-      "title": "Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings: the certification debate",
+      "title": "Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings: the scientific debate",
       "metals": [
         "MeHg",
         "tHg"
@@ -330,7 +354,7 @@
     },
     {
       "slug": "organic-certification-not-protective",
-      "title": "Organic certification is not protective against heavy-metal contamination, and is associated with elevated loads in several food categories",
+      "title": "Organic certification is not protective against heavy-metal contamination, and in some food matrices is associated with higher loads",
       "metals": [
         "Pb",
         "Cd",

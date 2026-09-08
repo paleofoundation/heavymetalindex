@@ -37,6 +37,7 @@ const themeBySlug = new Map([
   ["combined-exposure-underprotection", "Regulatory and toxicological interpretation"],
   ["organoarsenical-inertness-assumption", "Regulatory and toxicological interpretation"],
   ["climate-metals-tradeoffs", "Regulatory and toxicological interpretation"],
+  ["metals-microbiome-disease-pathogenesis", "Microbiome-mediated pathogenesis"],
 ])
 
 const sourceTypeMap = new Map([
@@ -110,7 +111,7 @@ function parseSynthesisIndex(markdown) {
       url: `${INDEX_ORIGIN}${relativeUrl}`,
     })
   }
-  if (records.length !== 24) throw new Error(`Expected 24 synthesis findings; found ${records.length}`)
+  if (records.length !== 25) throw new Error(`Expected 25 synthesis findings; found ${records.length}`)
   return records
 }
 

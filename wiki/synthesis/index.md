@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Heavy metal exposure and compartment-specific metal dyshomeostasis can act upstream of the microbial functions that drive disease, defining a falsifiable metal-conditioned disease endotype for microbiome medicine](/synthesis/metals-microbiome-disease-pathogenesis) | Ni, Zn, Fe, iAs, Cd | 4 | 2026-09-08 |
 | [Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-08-11 |
 | [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | 2026-07-27 |
 | [Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance](/synthesis/breastmilk-heavy-metal-exposure-pathway) | Pb, Cd, tAs, tHg, Al, Cr | 6 | 2026-07-27 |
@@ -73,6 +74,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [78f55c804](https://github.com/paleofoundation/heavymetalindex/commit/78f55c804) | 2026-09-01 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

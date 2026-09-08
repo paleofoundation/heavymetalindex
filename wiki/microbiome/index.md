@@ -9,6 +9,8 @@ updated: 2026-04-24
 
 Microbiome pages address the subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link. Pages are written so that they can be lifted to [WikiBiome](https://wikibiome.com) with minimal editing; broader microbiome medicine, including clinical metallomics outside the food and supply-chain context, is covered at WikiBiome rather than here. Each page covers the mechanism of action, taxon-level effects at genus or species resolution where the source supports it, functional and metabolic consequences, the evidence base separating human from animal studies, and disease-process implications.
 
+The foundational framework for this section, which connects metal exposure and disrupted metal allocation to microbial function and disease across nutritional immunity, redox handling, mismetallation, and several organ-system case studies, is [[synthesis/metals-microbiome-disease-pathogenesis|Heavy metal exposure, microbial metal ecology, and disease pathogenesis]].
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
