@@ -63,6 +63,18 @@ ignored in favor of whichever principle feels most urgent in the moment.
 
 ## The Locked Standards Math
 
+> **RETIRED 2026-09-08 — the limit-setting percentile mechanism below is no
+> longer in force.** Method v2.0 sets every limit from the strictest applicable
+> government limit, a disclosed derivation (read-across / bounded species /
+> baseline-screen), or a documented `precautionary` value; occurrence
+> percentiles (P10/P45/P90/P95/P97) no longer set limits. See
+> [[docs/governance/2026-09-08-retire-v1-percentile-methodology]]. Of the two
+> percentile mechanisms described in this section, only the **Ratchet trigger**
+> (80th percentile of Status A lot results, further below) survives — a separate
+> post-publication mechanism on internal lot data, retained unchanged. The
+> limit-setting subsections that follow are kept for the historical and
+> cross-examination record.
+
 The HMTc Program uses percentile-based thresholds at two distinct points,
 operating at two different moments in the program lifecycle. The framing
 below leads with **intent** (the row-level pass rate the program is
@@ -160,6 +172,11 @@ supply-chain practices improve. The gap between literature-baseline and
 the final value, if any, is stated honestly.
 
 ### Ratchet trigger (revision cycle, distinct from limit-setting)
+
+> **Retained (2026-09-08).** This is the one percentile mechanism that survives
+> the retirement of the V1 limit-setting percentiles. It tightens an
+> already-published limit using the program's own lot data; it never sets an
+> initial limit. See [[docs/governance/2026-09-08-retire-v1-percentile-methodology]].
 
 After initial publication, the Standards Ratchet operates on
 HMTc-internal lot-testing data. The ratchet for a given analyte fires
@@ -480,18 +497,20 @@ the bare word "bounded" and never a blank.
 ## Scope
 
 This methodology applies to every category in the HMTc index, not to
-Category 1 (infant and child foods) alone. The pooling engine, admission
-rule, native-basis convention, and P97/P45 percentiles are the same for
-beverages, supplements, dry goods, condiments, and every other category as
-they are for infant and child foods. Per-category exceptions require an
+Category 1 (infant and child foods) alone. The Method v2.0 government-limit
+rule, the disclosed-derivation ladder, and the native-basis convention are the
+same for beverages, supplements, dry goods, condiments, and every other
+category as they are for infant and child foods (the retired pooling engine and
+P97/P45 percentiles were program-wide too). Per-category exceptions require an
 explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.7 — August 2026**
+**Version 2.8 — September 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.8 | 2026-09-08 | **Retired the V1 limit-setting percentile methodology and its calculator.** Occurrence pooling (P10/P45/P90/P95/P97), the clean/dirty per-analyte uplift, and the `literature-baseline` tag are no longer a way to set a limit; Method v2.0 is now a pure government-limit + disclosed-derivation (read-across / bounded species / baseline-screen) + `precautionary` method. The Standards Ratchet's 80th-percentile trigger (post-publication tightening on internal lot data) is explicitly **retained**. No published value changed — zero cells were occurrence-derived at retirement. Enacted in CLAUDE.md Part 19, this document ("The Locked Standards Math" banner + ratchet note), `docs/standards-methodology.md` (banner-retired), and fail-closed code guards (`tools/lib/v1-retired.mjs`, override `HMTC_ALLOW_RETIRED_V1=1`) on the pooling engine, the Standards Workbench, and the catalog builder. Ratified by Karen 2026-09-08; decision record `docs/governance/2026-09-08-retire-v1-percentile-methodology.md`. |
 | 2.7 | 2026-08-31 | Added **the confidence standard on the numbers (DOI-mint Rule #1)**, clarifying the §3 gate: "≥95% confidence in the numbers" is defined per cell against the §1 limit-of-record taxonomy. Sovereign-ML lookups and disclosed read-across / bounded / baseline cells are firm by provenance (confidence is definitional); the ≥95% *statistical* bar applies only to the Method v2.0 occurrence-derived pooling cells (the Tier-1 toxics where occurrence binds). A literal ≥95%-occurrence bar on all ten analytes is unmeetable — the corpus carries percentile occurrence depth only for Pb/Cd/tAs (+ iAs on rice/cereal/juice), while Ni/Cr/Al/Sn/MeHg are lookup or read-across by design — so the literal reading would make every category permanently un-mintable. Surfaced by the 2026-08-31 Cat-1 corpus audit; ratified as Karen's DOI-mint Rule #1 (Rule #2 = §1; Rule #3 = the DOI naming + version-history discipline, enacted in the versioning system). |
 | 2.6 | 2026-08-25 | Added **Species, screens: display + terminology** (complements the Required-Testing-Panel Ruling): the total metal is a first-class published limit shown as its own line (never hidden — the total-chromium portal defect); "baseline" is measurement and "reflex" is the ongoing-lot regime (never conflate — corrected the "enforced by reflex speciation" wording on baseline records); bounded species render as an explicit "≤ total" ceiling, never "bounded" or a blank. Applied in the cert standard-page renderer, the readiness portal, and the compiler speciation labels. |
 | 2.5 | 2026-08-25 | Added and ratified the **Required-Testing-Panel Ruling** (Karen: "if we say we test every product for 8 analytes, we should — test 8 totals universally, trigger speciation from findings"), then refined it the same day after a program-wide stress-test across all 13 category archetypes and every public claim surface. Separates the per-lot testing obligation from the published limit set, and the *screened* axis from the *governed* axis. The 8-metal set is universal but **basis-appropriate** (content ICP-MS for ingestibles/topicals; element-release/migration for contact materials; USP PDE for pharmacopeial-only classes). Guardrail: `conditional`/`baseline_monitor`/`not_applicable` forbidden on the four Tier-1 toxic totals; permitted for a Tier-2 total with no pathway and no sovereign limit. Reflex trigger corrected to `min(species limit, 50% of parent-total limit)` (flat-50% under-catches water Cr-VI, seaweed iAs). Mandatory speciation expanded (iAs: rice + fruit juice + seaweed/algae/clay supplements; MeHg: fish/marine + composites/sauces/broths + marine pet food; Cr-VI: water + toys/crafts + leather/textiles + pigment cosmetics/tattoo) and given a structural trigger (species limit with no parent total, e.g. apple-juice iAs). Two items flagged for a separate program/counsel decision: organotin speciation (net-new analyte class) and public-claim gating on the completion sweep. Registry `data/workbench/standards/required-analytes.json` (Cat-30 pilot; Sn flipped conditional→per_lot_total), validated + fanned by `tools/standards/build-required-analytes.mjs`. Downstream: DOI'd public content (the-big-8.md et al.) reword is human-gated, tracked in the ledger. |

@@ -31,6 +31,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { writeStableJsonSummary } from "./stable-json-summary.mjs"
+import { refuseRetiredV1 } from "../lib/v1-retired.mjs"
 
 const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
@@ -949,6 +950,8 @@ function rationaleTag(targetValue, regCap, poolUsable) {
 // ---- Main loop
 
 function main() {
+  // V1 percentile methodology retired 2026-09-08 — this is the pooling engine.
+  refuseRetiredV1("tools/evidence/build-hmtc-aggregate-distributions.mjs")
   const products = readProductPages()
   const summaryRows = loadStructuredRows()
   const sampleRows = loadSampleRows()

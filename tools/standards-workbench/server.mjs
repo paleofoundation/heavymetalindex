@@ -10,6 +10,7 @@ import {
 import http from "node:http";
 import { dirname, extname, join, normalize, resolve } from "node:path";
 import matter from "gray-matter";
+import { refuseRetiredV1 } from "../lib/v1-retired.mjs";
 
 const repoRoot = resolve(".");
 const publicRoot = resolve("tools/standards-workbench/public");
@@ -107,6 +108,11 @@ const server = http.createServer(async (request, response) => {
     );
   }
 });
+
+// V1 percentile methodology retired 2026-09-08 — the Standards Workbench is the
+// staff tool that computes/serves the retired P97/P45 selection arithmetic.
+// Fail closed before binding the port so it cannot be started by accident.
+refuseRetiredV1("tools/standards-workbench/server.mjs");
 
 server.listen(port, host, () => {
   console.log(`HMI Standards Workbench listening at http://${host}:${port}`);

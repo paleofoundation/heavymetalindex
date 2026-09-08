@@ -41,6 +41,7 @@ import { execSync } from "node:child_process"
 // monitor and the per-ingredient scorecard import, so the catalog can never
 // silently disagree with them (tools/evidence/lib/standards-readiness.mjs).
 import { classifyCell, num } from "../evidence/lib/standards-readiness.mjs"
+import { refuseRetiredV1 } from "../lib/v1-retired.mjs"
 
 const repoRoot = process.cwd()
 const distPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
@@ -65,6 +66,10 @@ const PREPARED_BASES = new Set(["prepared_for_feeding", "as_consumed"])
 main()
 
 function main() {
+  // Retired 2026-09-08: this catalog builder derives firm values from the V1
+  // pooling output (data/evidence/hmtc_aggregate_distributions.csv). Fail closed
+  // so a retired V1 number can never be emitted to the certification catalog.
+  refuseRetiredV1("tools/standards/build-standards-catalog.mjs")
   const args = parseArgs(process.argv.slice(2))
   const onlyProduct = args.get("product") || null
   const checkOnly = args.has("check")

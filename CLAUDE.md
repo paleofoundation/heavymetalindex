@@ -269,34 +269,27 @@ Binding, from `docs/governance/hmtc-governing-principles.md` §"Required-Testing
 
 The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
-#### Method v2.0 — government-limit default (ratified 2026-08-03)
+#### Method v2.0 — government-limit method (ratified 2026-08-03; occurrence percentiles retired 2026-09-08)
 
-**The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada), converted to the row's native basis.** This is a lookup, not a computation; it is maximally defensible (the standard cites sovereign limits, so there is no novel methodology to attack under Daubert) and it is the speed and scale lever for covering the whole program. Where the law itself splits a limit by formulation (e.g. EU nickel 250 cow-milk / 400 soy; AU/NZ aluminium 3500 / 7000 powder-basis), the standard adopts the law's own split and cites it — this dissolves the single-vs-envelope question entirely.
+**The standard for any (product, analyte) is the strictest maximum level set by a credible government regulator (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada), converted to the row's native basis.** This is a lookup, not a computation; it is maximally defensible (the standard cites sovereign limits, so there is no novel methodology to attack under Daubert) and it is the speed and scale lever for covering the whole program. Where the law itself splits a limit by formulation (e.g. EU nickel 250 cow-milk / 400 soy; AU/NZ aluminium 3500 / 7000 powder-basis), the standard adopts the law's own split and cites it — this dissolves the single-vs-envelope question entirely.
 
-Occurrence pooling is retained, but **selective**, in exactly two situations:
+> **RETIRED 2026-09-08 — occurrence pooling / percentiles are no longer a limit-setting method.** See [[docs/governance/2026-09-08-retire-v1-percentile-methodology]]. The pooling engine and staff Standards Workbench fail closed (`tools/lib/v1-retired.mjs`); the `literature-baseline` tag is retired. The Standards Ratchet's 80th-percentile trigger (a separate, post-publication mechanism on internal lot data) is **not** retired.
 
-1. **Tier 1 toxics (Pb, Cd, iAs, MeHg/tHg)** — standard = `min(occurrence percentile, strictest government ML)`. These four metals have no established safe threshold, so where clean producers demonstrably beat the government floor the tighter occurrence value governs and the ratchet is preserved. This is where the pooled-corpus authority earns its keep.
-2. **Cells no government regulates** (e.g. mercury, tin, Cr in formula) — the occurrence value (or a not-material / process-screen determination) is the sole basis, because a lookup returns nothing.
+The limit for every (product, analyte) cell resolves in this order, and never by a computed percentile:
 
-For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly; occurrence is not computed for them unless no government ML exists. The generator is `tools/standards/build-government-limit-standard.mjs`. The clean/dirty subcategory split, market stratification, and P97/P45 uplift below now run **only on the Tier 1 toxic and no-ML cells**, not on every cell. The Status A–E framework, the Tier-1/Tier-2 toxicological tiering, the 150% Tier-2 transitional allowance, the regulatory hard-stop, basis conversion, and lot testing are **unchanged** — they operate downstream of the limit regardless of how it was set.
+1. **The strictest applicable government maximum level**, converted to the row's native basis (the default above).
+2. **Where no government ML exists** — a **disclosed read-across** to the nearest same-basis sovereign instrument, a **species bounded by its parent total** (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr), or a **baseline-screen** at a named method LOQ. Each wears its true provenance and is disclosed as a derivation, never as direct governance.
+3. **A `precautionary` value below the government floor** when staff document the rationale and record the `sovereign_floor` on the cell. This replaces the retired "a clean subcategory beats the floor via pooled occurrence" path: protection below the law is now a documented decision, not a computed percentile.
 
-The v1.0 pooled-percentile rule below is retained verbatim because it still governs the selective occurrence cells.
+For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly. The generator is `tools/standards/build-government-limit-standard.mjs`. The Status A–E framework, the Tier-1/Tier-2 toxicological tiering, the 150% Tier-2 transitional allowance, the regulatory hard-stop, basis conversion, and lot testing are **unchanged** — they operate downstream of the limit regardless of how it was set.
 
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~90% row-level pass; measured 94% on FDA per-sample lot data (2026-08).
-
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~40% row-level pass (updated 2026-08-03 from the legacy 30%); measured 42% on FDA per-sample lot data. Calibration is anchored to that measurement, not to the earlier assumed analyte-correlation of 0.6 (measured ~0.27).
-
-**Per-analyte standard for an independent (no within-pair partner) row = P97** of that row's marginal distribution, treated as clean-by-default. Override slot exists for rows where evidence justifies dirty treatment.
-
-**The pool is restricted to the certification-relevant market (target-market stratification, ratified 2026-08-03).** An occurrence percentile estimates a population; a pool mixing jurisdictions that enforce binding MLs for the product class with jurisdictions that do not estimates a market no certified brand ships into. The admission criterion is **regulatory-equivalence, not geography** — the criterion, never a country list, is what may ever be published. Sources with no jurisdiction recorded are retained, not dropped. Stratification is rolled out per-category as each is validated (a global flip empties ~100 non-target-market-only cells across the corpus); it is configured machine-side in `data/workbench/standards/subcategory-roles.json` (`stratify: true` + `target_markets`), never in public frontmatter. This refines the older "geography is not a hard exclusion" line in [[docs/standards-methodology]].
-
-**The program admits roughly 80% of brands overall — a monitored average, not a per-category quota.** The subcategory targets (≈90% clean, ≈40% dirty) roll up by clean/dirty market share to ~80%. A category with no dirty sibling admits ~90%; a mostly-dirty one less. A sustained material deviation from ~80% is a signal to re-examine calibration, never a lever to force a category to a headcount.
+> **RETIRED 2026-09-08.** The per-analyte percentile rules that stood here — P97 for a clean subcategory, P45 for a dirty one, P97 for an independent row, the certification-relevant-market pool stratification, and the ~90/40/80 row-pass calibration they delivered — are retired as a limit-setting mechanism. The ~90% clean / ~40% dirty / ~80% program figures were the calibration *intent* of that uplift; under Method v2.0, admission is an *observed outcome* of government-derived limits, not an engineered percentile target. The retired detail is preserved in [[docs/governance/hmtc-governing-principles]] ("The Locked Standards Math") and [[docs/standards-methodology]], both banner-marked retired.
 
 **Certify against the subcategory split, not the element-wise-max "envelope."** Each product is certified against its own subcategory row. Publishing the higher-of-the-two-rows number per analyte as the pass/fail instrument is prohibited: it certifies product above its own legal ceiling (the envelope Ni 400 exceeds the EU non-soy formula ML of 250) and leaks the ratchet (measured soy pass 42%→68% under the envelope). The envelope may be published only as a category-ceiling summary, never as the certification instrument.
 
 **Each row's standard is in the native basis of the product form.** Powder rows use powder-as-placed-on-market. RTF liquid rows use as-consumed. Dry cereal rows use dry-as-sold. Puree rows use as-consumed. Sources reporting in other bases are converted into the row's native basis during pooling, never the other way around. The 1:7 reconstitution factor lives in `tools/evidence/basis-conversion.mjs`.
 
-**Final HMT&C value = `min(per-analyte percentile, lowest applicable regulatory ceiling)`** with both in the row's native basis. Auto-emitted rationale tag is `literature-baseline` when the pooled percentile binds and `regulatory-alignment` when the cap binds.
+**Final HMT&C value = the strictest applicable government maximum level in the row's native basis** — or, where none exists, the disclosed read-across / bounded-species / baseline-screen value from the ladder above. The rationale tag is `regulatory-alignment` when a government cap binds, the corresponding derivation tag otherwise, and `precautionary` when staff set a documented value below the floor. The retired `literature-baseline` (pooled-percentile) tag is no longer emitted.
 
 **ALARA + the §80th-percentile ratchet trigger** (per Governing Principles §"Two Percentile Mechanisms") drive tightening *after* publication. Remediation plans handle initial-publication brands above the limit. The standards-setting math here is for initial publication only.
 
@@ -304,14 +297,14 @@ The v1.0 pooled-percentile rule below is retained verbatim because it still gove
 
 When a decision is staged in the workbench, one rationale tag is required:
 
-- `literature-baseline` — the pooled per-analyte percentile is the binding value.
-- `regulatory-alignment` — the lowest applicable regulatory cap is the binding value.
-- `precautionary` — staff selects a value lower than both the pooled percentile and the regulatory cap, with documented rationale.
-- `feasibility-driven` — staff selects a value higher than the pooled percentile because current methods or supply-chain realities do not support the tighter value, paired with a sunset plan.
+- `regulatory-alignment` — the lowest applicable government cap is the binding value.
+- `read-across` / bounded / `baseline-screen` — where no government cap exists, a disclosed derivation is the binding value (see the ladder above).
+- `precautionary` — staff select a value below the government floor, with documented rationale and the `sovereign_floor` recorded on the cell.
+- `feasibility-driven` — staff select a value higher than the government floor because current methods or supply-chain realities do not support the tighter value, paired with a sunset plan.
 
-The gap between literature-baseline and the final value is stated honestly. Failing to name the rationale is the lint failure.
+The retired `literature-baseline` tag (a published value equal to a pooled occurrence percentile) is no longer permitted; see [[docs/governance/2026-09-08-retire-v1-percentile-methodology]]. The gap between the government floor and the final value, if any, is stated honestly. Failing to name the rationale is the lint failure.
 
-See [[docs/standards-methodology]] for the pool admission rules, pooling math, sensitivity-band thresholds, the row-pass calibration math behind P97/P45, and the clean/dirty subcategory classification framework. See [[docs/schema-history]] for the deprecated "clean-platform / contaminated-platform" P90/P10/P20 framework.
+See [[docs/standards-methodology]] (RETIRED 2026-09-08, kept for the record) for the historical pool admission rules, pooling math, sensitivity-band thresholds, the row-pass calibration math behind P97/P45, and the clean/dirty subcategory classification framework, and [[docs/governance/2026-09-08-retire-v1-percentile-methodology]] for the retirement decision. See [[docs/schema-history]] for the earlier "clean-platform / contaminated-platform" P90/P10/P20 framework.
 
 ## Parts 20-23 — Courses, app, microbiome, images
 
