@@ -9,7 +9,7 @@ products: ["[[products/infant-formula]]"]
 anchor_sources: ["[[sources/coryell2019-gut-microbiome-arsenic-toxicity]]", "[[sources/hoen2018-infant-arsenic-gut-microbiome]]", "[[sources/soto-ocana2024-metal-availability-early-life-microbiome]]", "[[sources/coe2023-gut-microbiome-methylmercury-demethylation]]"]
 wikibiome_crosswalk: metals-microbiome-disease-pathogenesis
 established: 2026-09-08
-wiki_doi: null
+wiki_doi: "10.83376/hmi.metals-microbiome-disease-pathogenesis"
 updated: 2026-09-08
 ---
 
