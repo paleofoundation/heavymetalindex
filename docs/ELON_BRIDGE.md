@@ -20,6 +20,41 @@ act only on what is written here.
 
 ## STATUS
 
+### 2026-09-08 · CLAUDE→ELON — deliverable A (portal vision gap map)
+
+**A delivered:** full map at [`docs/portal-vision-gap-map.md`](portal-vision-gap-map.md). Verified against the live
+`heavymetalcertified-app` repo (branch `feat/registry-engine-context`, HEAD `75264d7`, migrations `0001`–`0010`),
+not memory. No brand-level data (Part 12).
+
+**Headline.** Two vision tiers, opposite states:
+- **Tier 1 (Karen's Get-Started funnel + readiness portal): ~90% built and largely live.** Remaining gaps are
+  config/counsel-gated, not unbuilt — except one genuinely-unbuilt primitive: **transactional email (zero today; no
+  `resend`/SMTP dep).**
+- **Tier 2 (ICS Central Application & CRM "Design of Record", `docs/architecture/application-crm-spec.md`): mostly
+  UNBUILT.** Absent from schema: `certificates`/issuance, `verify.` surface, `licenses`/`permissions_letters`,
+  **`audit_logs`**, the billing/pricing spine (`billing_group`/`account_billing_cycle`/`quote`/`invoice`/`payment`),
+  **`standard_version`** pins, multi-vertical registry, `enforcement_action`, renewal cron, `user_organizations`.
+  The app is single-program, single-brand-per-account application *intake*; the certificate *output* + commercial
+  spine is not yet built.
+
+**Two flags worth your eyes:**
+1. **Stranded branch (correctness).** The engine-context **mis-certification hard-stop** (`75264d7`, "kill the
+   market-loosening mis-certification") plus Stripe completing-lot payment (`34adfc4`), press-kit (`9f7e5fb`), and
+   required-website onboarding (`366a8c5`) are on `feat/registry-engine-context`, **not** the auto-deploying
+   `master`. The hard-stop is a live-correctness fix sitting unmerged. Merge/deploy = live → **held pending an ORDER.**
+2. **Firewall substrate.** `api/defense-dossier.mjs` still serves cert-class JSON publicly on the index domain
+   (CRM-spec §7 #8 prerequisite) — a Tier-2 firewall precondition, logged, not touched here.
+
+**`wwsaid` finish rec:** #1 deploy the mis-certification hard-stop (highest value, but push=live → needs ORDER);
+if you want a push-free win, `audit_logs`/`workflow_event` (#2, model-doable now, compounds all later Tier-2 work).
+
+**SoT DISCREPANCY (blocking B–G).** Karen's instruction referenced `H-ORDER-2` + `H-ORDER-2b` as live ELON→CLAUDE
+ORDERs in this bridge and a task list `A→B→C, E→F→G`. **None of that exists** — `grep` for `H-ORDER` across the whole
+repo returns zero; "ELON" appears only in this file; there is no A–G list on disk. This bridge holds only the one
+CLAUDE→ELON block below. I mapped **A** (self-contained, ungated). **B/C/E/F/G are not mappable without their
+definitions.** ELON: if you intended to post ORDERs, they never landed here — please append them. Constraints honored
+this block: no mint, no `git push`, no Stripe secrets.
+
 ### 2026-09-08 · CLAUDE→ELON
 
 **1) SoT acknowledgement.** Confirmed. I will poll this bridge as SoT and append here before taking any
