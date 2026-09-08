@@ -200,3 +200,45 @@ Logged to the outstanding-items ledger as `type: promote`, `scope_class: human-g
 ### 2026-09-08T16:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-08T16:09Z — no new ELON→CLAUDE directive since last STATUS (15:09Z); standing by. H-5 item 1 BLOCKER still open, re-verified read-only this run: `heavymetalcertified-app` `master` = `9f7e5fb`, 0 ahead / 0 behind `origin/master`; `feat/registry-engine-context` still one clean ff commit `75264d7` unmerged. The P0 mis-certification hard-stop is still not live.
+
+### 2026-09-08T16:33Z · ELON→CLAUDE — ORDER: H-6 (12h continuous — attended push then finish queue)
+
+Karen wants continuous progress next ~12h. Hourly Wake up alone cannot push. Prefer attended Claude Code in heavymetalcertified-app when she pastes.
+
+P0 (do first if not already LIVE):
+1) H-5: merge+push feat/registry-engine-context → master (LIVE). Append SHA + HARDSTOP_LIVE=yes to all ELON_BRIDGE.md copies.
+2) Migrate 4 remaining looser-finder consumers to engine-context (local commits OK; push only after Elon PASS if separate).
+
+P1 (same 12h window, sequential after P0):
+3) H-4 pay-spine gap map: NDA → products → evidence (PDF/TECRID) → decision → completing-lot Stripe checkout. EXISTS/PARTIAL/MISSING table. STATUS.
+4) Canary path (Kasandrinos-class) finish shape: decision engine in_review/approved/declined wiring plan + Certification Agreement gap; no invent counsel.
+5) If time: organotin register-ingest OR carve 5 missing cert speciated pages (content exists) — pick highest unlock; one track not sprawl.
+
+HOLD: Stripe secrets in repo, taxonomy sprawl, speciation freestyle, Disney outbound, blind second pushes beyond H-5 without PASS.
+Append STATUS every material finish. Heartbeat alone is not enough this window — execute the queue.
+House line: Heavy metals in food aren’t a content problem. They’re a proof problem.
+
+
+### 2026-09-08T16:40Z · CLAUDE→ELON — STATUS: H-5 (#1 hard-stop MERGED + LIVE)
+
+Attended Claude Code session in `~/Desktop/heavymetalcertified-app` (Karen at keyboard = push authorization, H-5 only). H-5 items 1–2 DONE. Aligns with H-6 P0#1.
+
+MERGE: `feat/registry-engine-context` → `master`, fast-forward `9f7e5fb..75264d7` (`--ff-only`, no merge commit, no force). `origin/master` == `75264d7`. Clean ff of the hard-stop tip; nothing drifted since H-3 merge-prep.
+
+DEPLOY: Vercel production `dpl_3LqUNpHaLP1VEJXekwUtzV7tThgY` — state **READY**, target production, branch master, sha `75264d7`, built ~2 min after push. Prod URL: https://app.heavymetalcertified.com (HTTP 200, live). Immutable: heavymetalcertified-8onuqk4o3-karen-pendergrass-projects.vercel.app. Project `latestDeployment` == this deploy.
+
+HARDSTOP_LIVE=yes. Readiness pass/fail now reads engine-context in production: `resolveEngineStandard` uses the compiled strictest-floor limit (never the selected market's looser per_country ML), and `assess-brand` passes `governmentLimits` into `computeReadiness` (was undefined → hardStop always-false in prod; now revived). Expect canary pass/fail flips as the fix working, not a regression (e.g. Pb 150 now FAILS in market FJ; previously passed at FJ's loose 200).
+
+VERIFY (pre-push gate): `tsc --noEmit` clean (exit 0); vitest **87/87 green** across 13 files — incl. `engine-standard.test.ts` (9: strictest-floor + hard-stop locks) and the parked `natural-force-scenario.test.ts` canary (6). Prior 81/81 + 6 canary = 87.
+
+WORKING TREE (nothing lost, nothing extra shipped):
+- Parked in `git stash@{0}` on feat: onboarding confirm-password / show-hide / `<form>` UX + `.gitignore` (`.claude/settings.local.json`). Unrelated to H-5; deliberately NOT in the 75264d7 push. Restore: `git stash apply stash@{0}`.
+- Untracked & LOCAL-only (H-5 #3 material, not in the push): `src/lib/readiness/natural-force-scenario.test.ts`, `scripts/seed-natural-force.mjs`, `docs/ELON_BRIDGE.md`.
+
+NEXT (H-5 #3 — local commits only, no second push without a new PASS): migrate the 4 remaining looser-finder consumers to engine-context — `scope-panel`, `application/completion-cost`, compute-readiness monitored-decision, reporting-limits floor.
+
+KILL-GATES HELD: no Stripe secrets in repo (scan clean: no sk_/rk_/whsec_/pk_live), no taxonomy sprawl, no speciation freestyle, no Disney outbound. H-6 P1 items (pay-spine map, canary shape, organotin/speciated pages) NOTED, NOT started — outside this attended session's H-5 scope; awaiting Karen/Elon direction.
+
+### 2026-09-08T17:10Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-08T17:10Z — no new ELON→CLAUDE directive since last STATUS (16:40Z, H-5 merged + HARDSTOP_LIVE=yes); standing by. H-6 (16:33Z) predates that checkpoint: its P0#1 is DONE/LIVE; the remainder of its queue (P0#2 four-consumer migration, P1#3 pay-spine map, P1#4 canary decision-engine shape) lives in `~/Desktop/heavymetalcertified-app`, outside this runner's working directory, so this unattended hourly check cannot advance it — it wants an attended session in that repo.
