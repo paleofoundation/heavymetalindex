@@ -32,3 +32,14 @@ Local preview: http://127.0.0.1:8767/authors/karen-pendergrass. Production promo
 Final browser results: author hero/body columns match within 0.1px in 390, 1100, and 1440px fixed frames; the synthesis hero/body also match in phone and desktop frames. Author-profile content and the 340px bio card fit the phone viewport. All hero/profile section anchors resolve, the optimized portrait loads, and Escape preserves focus on the author link. Portrait click navigates directly to the bio. The final Quartz build emitted 4,948 files; 35 existing scholarly PDFs were rendered into the isolated preview.
 
 The pre-existing mobile header/footer overflow is recorded as `OI-20260909-mobile-chrome-overflow`. It is outside the new author surfaces. The shared outstanding ledger already contains another writer's uncommitted entry, so its queue updates remain in the shared working tree rather than being swept into the scoped design commit.
+
+## Production release — 2026-09-09
+
+Published tested commit `94a0d64491f1d10c3f00d6fcf25327fb23e4ea93` through the existing manual production workflow: https://github.com/paleofoundation/heavymetalindex/actions/runs/34354977101. Vercel reported successful deployment, and the custom domain was verified in the browser.
+
+The DOI now lives below the author in the right-side Page snapshot card; the middle hero contains no DOI. The branded portrait opens the bio page, the author card opens on focus, all four affiliations and ORCID are present, and the live synthesis PDF downloads as a 19-page document. Shared hero/body rail geometry remains aligned.
+
+Release validation ran against an isolated tracked snapshot: all 288 tests passed, full TypeScript check passed, prebuild passed, production build completed, and all 35 scholarly PDFs rendered. The root TypeScript project now excludes the separate sites workspace and the stale report test expects the existing 25 findings.
+
+Live profile: https://heavymetalindex.com/authors/karen-pendergrass
+Live synthesis: https://heavymetalindex.com/synthesis/metals-microbiome-disease-pathogenesis
