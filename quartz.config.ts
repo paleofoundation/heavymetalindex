@@ -140,6 +140,12 @@ const config: QuartzConfig = {
       // links so the inline cite-card renders the mm-style hover card. After
       // ResolveLinkTitles so data-slug is present. See sourceCiteMeta.ts.
       Plugin.SourceCiteMeta(),
+      // Render numbered in-text citations ([1, 2]) on authored review pages that
+      // carry a `## Works cited` bibliography into superscript links (reusing the
+      // sup.cite CSS), and id the bibliography rows wc-N as their targets. No-op
+      // on pages without a Works-cited list. Runs after CrawlLinks so the emitted
+      // #wc-N hash links are not reprocessed as page links. See numberedCitations.ts.
+      Plugin.NumberedCitations(),
       // Fold question-style <h3> sections into `.qa` collapsibles (proof accordion)
       // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.
       Plugin.CollapsibleQuestions(),

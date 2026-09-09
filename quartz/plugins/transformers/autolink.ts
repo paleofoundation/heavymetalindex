@@ -136,6 +136,12 @@ export const AutoLink: QuartzTransformerPlugin = () => {
           if (!pattern) return
           const curSlug = (file.data.slug ?? "") as string
           if (curSlug === "index" || curSlug.startsWith("tags/")) return
+          // Per-page opt-out. An authored narrative review cites its own
+          // bibliography; auto-linking commodity terms ("soy-based formula" ->
+          // ingredients/soy, "Human milk" -> ingredients/breastmilk) mid-argument
+          // reads as inappropriate cross-marketing. Set `autolink: false` in
+          // frontmatter to suppress. See CLAUDE.md Part 3 (metals-microbiome review).
+          if ((file.data.frontmatter as any)?.autolink === false) return
 
           const linkedSlugs = new Set<string>([normalize(curSlug)]) // never self-link
           collectLinkedSlugs(tree, linkedSlugs) // respect existing explicit links

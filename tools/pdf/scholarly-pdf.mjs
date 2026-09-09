@@ -79,10 +79,10 @@ function stripEmphasis(s) {
 // Plain text: no links, no emphasis markers. For headings, labels, table cells.
 const clean = (s) => stripEmphasis(stripWiki(s)).replace(/\s+/g, " ").trim()
 
-// Split a line into styled runs, honouring **bold** and *italic* / _italic_,
-// so body prose keeps its emphasis instead of flattening to one weight.
-function inlineRuns(s) {
-  const text = stripWiki(s)
+// Split an already-wiki-stripped line into styled runs, honouring **bold** and
+// *italic* / _italic_, so body prose keeps its emphasis instead of flattening to
+// one weight.
+function emphasisRuns(text) {
   const runs = []
   const re = /\*\*([^*]+)\*\*|(?<![A-Za-z0-9])[_*]([^_*\n]+)[_*](?![A-Za-z0-9])/g
   let last = 0
@@ -95,6 +95,82 @@ function inlineRuns(s) {
   }
   if (last < text.length) runs.push({ text: text.slice(last) })
   return runs.length ? runs : [{ text }]
+}
+
+// Split a RAW markdown line into an ordered run list. Emphasis is honoured on
+// every page; on synthesis pages in-text citations are additionally pulled out
+// and turned into superscript link runs that jump to the reference list. The
+// citation markers must be found on the RAW string BEFORE stripWiki dissolves
+// them, so the scan happens here rather than after stripWiki. Two authoring
+// styles are supported, one per page, selected by the `cite` context:
+//   numbered  — literal "[6]" / "[1, 2]" markers into a "## Works cited" list
+//               (href "#wc-<n>"); the number is authoritative and validated
+//               against the parsed list so a stray "[99]" stays literal text.
+//   wikilink  — "[[sources/<key>|Author Year]]" into the "## References" list
+//               (href "#ref-<n>"); a key absent from the list falls back to the
+//               plain alias/basename text stripWiki would have produced.
+// Any other mode (or no cite context, e.g. the metal reference pages) runs the
+// legacy path: stripWiki then emphasis, byte-identical to before.
+function inlineRuns(s, cite) {
+  const mode = cite && cite.mode
+  // Ordered segments: { raw } is raw markdown to stripWiki+emphasise; { plain }
+  // is already-resolved fallback text (emit verbatim); { cite } raises links.
+  const segs = []
+  if (mode === "numbered") {
+    const re = /\[(\d+(?:\s*,\s*\d+)*)\](?!\()/g
+    let last = 0
+    let m
+    while ((m = re.exec(s))) {
+      const nums = m[1].split(",").map((x) => x.trim()).filter(Boolean)
+      // Only lift the marker when every number resolves to a real row; otherwise
+      // leave it in place as literal text (do not advance `last`).
+      if (!nums.length || !nums.every((n) => cite.numSet && cite.numSet.has(Number(n)))) continue
+      if (m.index > last) segs.push({ raw: s.slice(last, m.index) })
+      segs.push({ cite: nums.map((n) => ({ num: n, href: `#wc-${n}` })) })
+      last = re.lastIndex
+    }
+    if (last < s.length) segs.push({ raw: s.slice(last) })
+  } else if (mode === "wikilink") {
+    const re = /\[\[sources\/([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]+))?\]\]/g
+    let last = 0
+    let m
+    while ((m = re.exec(s))) {
+      const key = m[1]
+      const alias = m[2]
+      const n = cite.keyToNum ? cite.keyToNum[key] : undefined
+      if (m.index > last) segs.push({ raw: s.slice(last, m.index) })
+      if (n != null) segs.push({ cite: [{ num: String(n), href: `#ref-${n}` }] })
+      else segs.push({ plain: alias != null ? alias : key.split("/").pop() })
+      last = re.lastIndex
+    }
+    if (last < s.length) segs.push({ raw: s.slice(last) })
+  } else {
+    segs.push({ raw: s })
+  }
+  if (!segs.length) segs.push({ raw: s })
+
+  // Attach a superscript to the word before it (journal style): drop a single
+  // trailing space from the text segment that immediately precedes a citation.
+  for (let i = 0; i < segs.length - 1; i++) {
+    if (!segs[i + 1].cite) continue
+    if (segs[i].raw != null) segs[i].raw = segs[i].raw.replace(/[ \t]$/, "")
+    else if (segs[i].plain != null) segs[i].plain = segs[i].plain.replace(/[ \t]$/, "")
+  }
+
+  const runs = []
+  for (const seg of segs) {
+    if (seg.cite) {
+      seg.cite.forEach((c, j) => {
+        if (j > 0) runs.push({ citeSep: true })
+        runs.push({ sup: true, num: c.num, href: c.href })
+      })
+    } else if (seg.plain != null) {
+      if (seg.plain) runs.push({ text: seg.plain })
+    } else {
+      runs.push(...emphasisRuns(stripWiki(seg.raw)))
+    }
+  }
+  return runs.length ? runs : [{ text: "" }]
 }
 
 // ── frontmatter + body parsing ──────────────────────────────────────────────
@@ -113,7 +189,7 @@ export function parse(md) {
 }
 
 const isApparatus = (heading) =>
-  /^(references|sources|update history|peer review state)$/i.test(heading)
+  /^(references|works cited|sources|update history|peer review state)$/i.test(heading)
 
 // Everything before the first H2 is the lede; each H2 opens a section.
 export function sectionize(body) {
@@ -250,7 +326,13 @@ function parseRefs(section) {
     // (Stripping the whole trailing [[sources/…]] before resolving would delete
     // the title itself.)
     const head = clean(rest.replace(/<span[\s\S]*$/, "")).replace(/\s*Source record\.?\s*$/i, "").trim()
-    out.push({ n: Number(m[1]), head, meta, tag })
+    // The source-record slug (from the leading [[sources/<key>|Title]] wikilink),
+    // captured from the RAW line before clean() dissolves the wikilink. This is
+    // the join key that maps a prose [[sources/<key>]] citation to its numbered
+    // row in wikilink mode. Not every reference line has one (plain-format rows
+    // and the numbered "Works cited" bibliography do not); those get key: null.
+    const keyMatch = rest.match(/\[\[sources\/([^\]|#\s]+)/)
+    out.push({ n: Number(m[1]), head, meta, tag, key: keyMatch ? keyMatch[1] : null })
   }
   return out
 }
@@ -293,10 +375,16 @@ function buildModel(fm, body, cfg) {
 
   const { sections, preamble } = sectionize(body)
   const overview = sections.find((s) => /^overview$/i.test(s.heading))
+  const abstractSec = sections.find((s) => /^abstract$/i.test(s.heading))
   const ledeFirst = firstProsePara(preamble)
   const overviewFirst = overview && firstProsePara(overview.lines)
-  const abstract = clean(fm.dek || ledeFirst || overviewFirst || "")
-  const skipLine = fm.dek ? null : ledeFirst || overviewFirst
+  const abstractSecFirst = abstractSec && firstProsePara(abstractSec.lines)
+  // An authored review carries an explicit `## Abstract`; corpus-emergent pages
+  // lead with a lede paragraph or `## Overview`. Feed the abstract box from
+  // whichever exists (frontmatter dek wins), and skip that source paragraph in
+  // its home section so it is not printed twice.
+  const abstract = clean(fm.dek || abstractSecFirst || ledeFirst || overviewFirst || "")
+  const skipLine = fm.dek || abstractSec ? null : ledeFirst || overviewFirst
 
   const ledeBlocks = parseBlocks(
     (skipLine ? preamble.filter((l) => l.trim() !== skipLine.trim()) : preamble).filter((l) => l.trim()),
@@ -304,14 +392,34 @@ function buildModel(fm, body, cfg) {
   )
 
   const bodySections = sections
-    .filter((s) => !isApparatus(s.heading))
+    .filter((s) => !isApparatus(s.heading) && !/^abstract$/i.test(s.heading))
     .map((s) => ({
       heading: s.heading,
       blocks: parseBlocks(s.lines, s === overview && !fm.dek ? skipLine : null),
     }))
     .filter((s) => s.blocks.length)
 
-  const references = parseRefs(sections.find((s) => /^references$/i.test(s.heading)))
+  // Citation model. A page carries ONE style. A "## Works cited" section marks
+  // numbered mode (prose "[6]" markers into an authored bibliography); otherwise
+  // the generated "## References" list is the target for inline "[[sources/…]]"
+  // (wikilink mode). Both are excluded from bodySections by isApparatus above.
+  // In-text superscripts are emitted only for synthesis pages; the metal
+  // reference pages render exactly as before (mode "none").
+  const worksCited = sections.find((s) => /^works cited$/i.test(s.heading))
+  const numbered = !!worksCited
+  const references = parseRefs(worksCited || sections.find((s) => /^references$/i.test(s.heading)))
+  const refsHeading = numbered ? "Works cited" : "References"
+  const refPrefix = numbered ? "wc" : "ref"
+  const keyToNum = Object.create(null)
+  if (!numbered) for (const r of references) if (r.key) keyToNum[r.key] = r.n
+  const cite =
+    cfg.pathSeg === "synthesis"
+      ? {
+          mode: numbered ? "numbered" : "wikilink",
+          keyToNum,
+          numSet: numbered ? new Set(references.map((r) => r.n)) : null,
+        }
+      : { mode: "none" }
 
   const citeAs = `Pendergrass K. "${title}". Heavy Metal Index${year ? ", " + year : ""}. ${url}${doi ? " (DOI: " + doi + ")" : ""}. CC BY 4.0.`
 
@@ -336,6 +444,9 @@ function buildModel(fm, body, cfg) {
     ledeBlocks,
     bodySections,
     references,
+    refsHeading,
+    refPrefix,
+    cite,
     url,
     doi,
     pathSeg: cfg.pathSeg,
@@ -402,6 +513,12 @@ const s = StyleSheet.create({
   refMeta: { fontFamily: "Inter", fontSize: 7.3, color: MUTE, lineHeight: 1.4, marginTop: 1 },
   refTag: { fontFamily: "IBMPlexMono", fontSize: 6.4, color: BURGUNDY, letterSpacing: 0.4, textTransform: "uppercase", marginTop: 1 },
 
+  // In-text citation superscripts: a raised burgundy number linked to its
+  // reference row. citeLink drops the default link underline so only the
+  // raised numeral shows.
+  cite: { fontFamily: "Inter", fontSize: 7, color: BURGUNDY, verticalAlign: "super" },
+  citeLink: { textDecoration: "none" },
+
   backGrid: { flexDirection: "row", flexWrap: "wrap", marginTop: 4 },
   backBlock: { width: "50%", paddingRight: 22, marginBottom: 12 },
   backText: { fontFamily: "Inter", fontSize: 7.8, color: MUTE, lineHeight: 1.5 },
@@ -410,24 +527,34 @@ const s = StyleSheet.create({
 })
 
 // ── inline text ─────────────────────────────────────────────────────────────
-function InlineText(str, style, key) {
-  const runs = inlineRuns(str)
+function InlineText(str, style, key, cite) {
+  const runs = inlineRuns(str, cite)
   return h(
     Text,
     { key, style },
-    runs.map((r, i) =>
-      h(
+    runs.map((r, i) => {
+      // Superscript citation: a raised number wrapped in an internal Link that
+      // jumps to the matching reference row (id "wc-<n>" / "ref-<n>").
+      if (r.sup)
+        return h(
+          Link,
+          { key: i, src: r.href, style: s.citeLink },
+          h(Text, { style: s.cite }, r.num),
+        )
+      // Separator between numbers of one multi-source marker (e.g. [1, 2] -> ¹,²).
+      if (r.citeSep) return h(Text, { key: i, style: s.cite }, ",")
+      return h(
         Text,
         { key: i, style: { fontWeight: r.bold ? 600 : 400, fontStyle: r.italic ? "italic" : "normal" } },
         r.text,
-      ),
-    ),
+      )
+    }),
   )
 }
 
 // ── block renderers ─────────────────────────────────────────────────────────
-function Block(b, key) {
-  if (b.type === "para") return InlineText(b.text, s.para, key)
+function Block(b, key, cite) {
+  if (b.type === "para") return InlineText(b.text, s.para, key, cite)
   if (b.type === "h3") return h(Text, { key, style: s.h3 }, b.text)
   if (b.type === "quote") return h(Text, { key, style: s.quote }, b.text)
   if (b.type === "list")
@@ -437,7 +564,7 @@ function Block(b, key) {
       b.items.map((it, i) =>
         h(View, { key: i, style: s.listItem, wrap: false }, [
           h(Text, { key: "b", style: s.bullet }, "•"),
-          InlineText(it, s.listText, "t"),
+          InlineText(it, s.listText, "t", cite),
         ]),
       ),
     )
@@ -488,7 +615,7 @@ function TableBlock(b, key) {
 // wrap:false could exceed a page and crash react-pdf, so those flow separately.
 // (minPresenceAhead, the tidier tool for this, triggers a Yoga NaN on these
 // pages and cannot be used.)
-function Section(sec, idx) {
+function Section(sec, idx, cite) {
   const head = h(Text, { key: "hd", style: s.sectionHead }, `${idx + 1}  |  ${sec.heading}`)
   const first = sec.blocks[0]
   // Only group when the first block is genuinely short — an h3, or a paragraph
@@ -499,11 +626,11 @@ function Section(sec, idx) {
     first && (first.type === "h3" || (first.type === "para" && first.text.length < 360))
   const children = []
   if (keepTogether) {
-    children.push(h(View, { key: "grp", wrap: false }, [head, Block(first, "b0")]))
-    children.push(...sec.blocks.slice(1).map((b, i) => Block(b, i + 1)))
+    children.push(h(View, { key: "grp", wrap: false }, [head, Block(first, "b0", cite)]))
+    children.push(...sec.blocks.slice(1).map((b, i) => Block(b, i + 1, cite)))
   } else {
     children.push(head)
-    children.push(...sec.blocks.map((b, i) => Block(b, i)))
+    children.push(...sec.blocks.map((b, i) => Block(b, i, cite)))
   }
   return h(View, { key: idx, style: { marginBottom: 4 } }, children)
 }
@@ -601,11 +728,13 @@ function OrcidBadge(orcid, key) {
 
 function ScholarlyDocument(m) {
   const children = [
+    // Title leads page 1 (Google Scholar's PDF title extraction wants the
+    // largest element at the very top); the masthead line follows beneath it.
+    h(Text, { key: "t", style: s.title }, m.title),
     h(View, { key: "mr", style: s.mastheadRow }, [
       h(Text, { key: "m", style: s.masthead }, m.masthead),
       m.dateLabel ? h(Text, { key: "d", style: s.mastheadDate }, m.dateLabel) : null,
     ]),
-    h(Text, { key: "t", style: s.title }, m.title),
     h(View, { key: "a", style: s.authorRow }, [
       // Byline: "Name  [ORCID iD glyph]  · Affiliation". The iD is a vector glyph
       // with no text layer, so the separators must NOT flank it — otherwise text
@@ -640,15 +769,17 @@ function ScholarlyDocument(m) {
           h(Text, { key: "b", style: s.abstractBody }, m.abstract),
         ])
       : null,
-    ...m.ledeBlocks.map((b, i) => Block(b, `lede-${i}`)),
-    ...m.bodySections.map((sec, i) => Section(sec, i)),
+    ...m.ledeBlocks.map((b, i) => Block(b, `lede-${i}`, m.cite)),
+    ...m.bodySections.map((sec, i) => Section(sec, i, m.cite)),
   ]
 
   if (m.references.length) {
-    children.push(h(Text, { key: "rh", style: s.refsHead }, "References"))
+    children.push(h(Text, { key: "rh", style: s.refsHead }, m.refsHeading))
     m.references.forEach((r) =>
       children.push(
-        h(View, { key: `ref-${r.n}`, style: s.refRow, wrap: false }, [
+        // id is the internal-link anchor the in-text superscripts jump to
+        // ("wc-<n>" numbered / "ref-<n>" wikilink).
+        h(View, { key: `${m.refPrefix}-${r.n}`, id: `${m.refPrefix}-${r.n}`, style: s.refRow, wrap: false }, [
           h(Text, { key: "n", style: s.refNum }, `[${r.n}]`),
           h(View, { key: "t", style: { flex: 1 } }, [
             h(Text, { key: "h", style: s.refText }, r.head),

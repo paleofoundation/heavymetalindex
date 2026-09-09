@@ -2,7 +2,9 @@
 type: synthesis
 title: "Heavy metal exposure, microbial metal ecology, and disease pathogenesis: a first-principles framework for microbiome medicine"
 slug: metals-microbiome-disease-pathogenesis
+description: "A first-principles framework in which heavy metal exposure and disrupted metal allocation act upstream of the microbial functions that contribute to disease pathogenesis."
 audience: [regulator, educator, researcher]
+autolink: false
 metals: [Ni, Zn, Fe, iAs, Cd, Cu, Mn]
 ingredients: ["[[ingredients/infant-formula]]"]
 products: ["[[products/infant-formula]]"]
@@ -10,12 +12,10 @@ anchor_sources: ["[[sources/coryell2019-gut-microbiome-arsenic-toxicity]]", "[[s
 wikibiome_crosswalk: metals-microbiome-disease-pathogenesis
 established: 2026-09-08
 wiki_doi: "10.83376/hmi.metals-microbiome-disease-pathogenesis"
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 
 # Heavy metal exposure, microbial metal ecology, and disease pathogenesis: a first-principles framework for microbiome medicine
-
-_Critical narrative review and mechanistic framework._
 
 ## Abstract
 
@@ -362,5 +362,9 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [66cd061b9](https://github.com/paleofoundation/heavymetalindex/commit/66cd061b9) | 2026-09-08 | major | 4 sources added; 34 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
