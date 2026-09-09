@@ -10,7 +10,9 @@ function applyCiteSuperscripts() {
   // link is eaten and rendered as a bare "[1]".
   if ((document.body.dataset.slug ?? "") === "index") return
 
-  // The trailing apparatus — References, Sources, Update history — is not prose.
+  // The trailing apparatus — Works cited, Anchor sources, References, Sources,
+  // Update history — is not prose. Authored bibliographies must keep their full
+  // linked titles, just like generated reference lists and source inventories.
   // Its source links are the reference list and the corpus table, not citations,
   // and must be left alone. They were meant to be excluded by
   // a.closest("#references, #sources, ...") — but those ids sit on the HEADINGS,
@@ -22,7 +24,9 @@ function applyCiteSuperscripts() {
   // without the script eating it.
   const apparatus = Array.from(
     content.querySelectorAll(
-      "h2#references, h2#sources, h2[id='update-history'], h2[id='page-history']",
+      "h2#works-cited, h2#bibliography, h2[id^='anchor-sources'], h2#references, " +
+      "h2#sources, h2#source-inventory, h2#source-evidence-inventory, " +
+      "h2[id='update-history'], h2[id='page-history']",
     ),
   ).sort((a, b) =>
     a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1,

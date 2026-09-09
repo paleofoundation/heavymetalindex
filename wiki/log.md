@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-09] maintenance | wiki navigation and article readability
+
+Pages touched: [[synthesis/metals-microbiome-disease-pathogenesis]] and shared navigation, table-of-contents, and automatic-linking components.
+Notes: Restored contextual wiki linking on the authored review, linked matching existing source records, split the abstract into three paragraphs while preserving every word, and supplied concise sidebar labels without changing article headings or anchors. Shared fixes remove excess home-page header spacing and expand automatic discovery of eligible concept pages. This is a presentation and navigation correction toward accessible literature; no scientific claims, evidence values, or certification thresholds changed.
+
 ## [2026-08-06] batch | regulatory-ingest — P2 Taiwan cosmetic residual limits
 Pages touched: 1 regulation page, 1 source page, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: Loaded 4 statutory Taiwan cosmetic residual heavy-metal rows (Hg 1 ppm, As 3 ppm, Cd 5 ppm, Pb 10 ppm) from the 2024 MOHW prohibited-ingredients amendment. Seventeen gap records cover UK/Ukraine/EU-style cosmetics frameworks, FDA supporting context already represented elsewhere, Turkey cancelled/uncertain guidance and amendments, Prop 65 chemical-list context, Thailand frameworks, UAE companion-standard adoption, prior Taiwan amendments, and New York's binary mercury prohibition without a numeric concentration limit.

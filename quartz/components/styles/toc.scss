@@ -47,12 +47,14 @@
   }
 
   & li.toc-section:hover > ul.toc-subsections,
+  & li.toc-section:focus-within > ul.toc-subsections,
   & li.toc-section:has(.in-view) > ul.toc-subsections {
     display: block;
   }
 
   & a {
     display: block;
+    overflow-wrap: anywhere;
     border-radius: 7px;
     color: var(--darkgray);
     transition:

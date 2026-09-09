@@ -138,13 +138,23 @@ function citedKeysInOrder(raw) {
 // short form is only defensible because each title still resolves to the source
 // record that carries the receipt, the hash, and the extracted values. No em
 // dash (writing-style lint); the count is dropped, per the v3 design.
-const INTRO =
-  "Works cited in this page's text, in first-appearance order. This is not the full corpus " +
-  "for this page; it is only what the prose above draws on. The complete set of sources is " +
-  "listed under [Sources](#sources) below. Each title links to its source record, which carries " +
-  "the ingest receipt, the extracted values, and the file hash of the document it was built from."
+function renderIntro(raw) {
+  // Synthesis pages often call this section "Anchor sources". Some pages have
+  // neither section; never emit a fragment link or completeness claim by default.
+  const sourceSection = /^#{1,6}[ \t]+Sources[ \t]*$/im.test(raw)
+    ? "[Sources](#sources)"
+    : /^#{1,6}[ \t]+Anchor sources[ \t]*$/im.test(raw)
+      ? "[Anchor sources](#anchor-sources)"
+      : null
+  const inventory = sourceSection ? ` See ${sourceSection} for this page's source inventory.` : ""
+  return (
+    "Works cited in this page's text, in first-appearance order." + inventory +
+    " Each title links to its source record, which carries the ingest receipt, the extracted " +
+    "values, and the file hash of the document it was built from."
+  )
+}
 
-function renderBlock(entries) {
+function renderBlock(entries, raw) {
   // Each item is a markdown list line whose content is a source wikilink (the
   // title) plus two inline spans the stylesheet lays out. The `${i + 1}.` marker
   // is what makes it an <ol>; CSS hides it and renders `[n]` from a counter, so
@@ -156,7 +166,7 @@ function renderBlock(entries) {
   return `${BEGIN_MARKER}
 ## References
 
-${INTRO}
+${renderIntro(raw)}
 
 ${items}
 ${END_MARKER}`
@@ -171,7 +181,12 @@ function upsert(raw, block) {
     `\\n*${escapeRegExp(BEGIN_MARKER)}[\\s\\S]*?${escapeRegExp(END_MARKER)}\\n*`,
   )
   if (existing.test(raw)) {
-    return block ? raw.replace(existing, `\n\n${block}\n\n`) : raw.replace(existing, "\n\n")
+    if (!block) return raw.replace(existing, "\n\n")
+    return raw.replace(existing, (match, offset) => {
+      // Match the single final newline used when a block is first appended.
+      const suffix = offset + match.length === raw.length ? "\n" : "\n\n"
+      return `\n\n${block}${suffix}`
+    })
   }
   if (!block) return raw
 
@@ -211,7 +226,7 @@ for (const targetDir of TARGETS) {
     if (entries.length === 0) noCitations += 1
     totalRefs += entries.length
 
-    const next = upsert(raw, entries.length ? renderBlock(entries) : null)
+    const next = upsert(raw, entries.length ? renderBlock(entries, raw) : null)
     if (next === raw) {
       unchanged += 1
       continue

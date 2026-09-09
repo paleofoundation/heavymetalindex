@@ -2,6 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { type FullSlug } from "../util/path"
 import { concatenateResources } from "../util/resources"
 import { modelForType } from "../content-model"
+import { getTocLabel } from "../util/tocLabels"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
@@ -78,7 +79,8 @@ function RailNote() {
   return <p class="snav-note">Page-specific detail nests under a rail; it never becomes one.</p>
 }
 
-type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }
+type NavHeading = { slug?: string; text?: string }
+type Sec = NavHeading & { subs: NavHeading[]; fold: boolean }
 
 export default (() => {
   const Snav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
@@ -89,6 +91,21 @@ export default (() => {
     const fmAny = (fileData.frontmatter ?? {}) as any
     const sourceCount = fmAny.n_sources ?? fmAny.corpus_count ?? (fileData as any).corpusCount
     const sourceCountLabel = sourceCount != null ? String(sourceCount) : undefined
+    const headingLink = (heading: NavHeading, className: "sec" | "sub", preferredLabel?: string) => {
+      const text = heading.text ?? ""
+      const label = getTocLabel(text, heading.slug ?? "", fmAny.toc_labels, preferredLabel ?? text)
+      return (
+        <a
+          class={className}
+          href={`#${heading.slug}`}
+          data-for={heading.slug}
+          title={text}
+          aria-label={label === text ? undefined : `${label}: ${text}`}
+        >
+          {label}
+        </a>
+      )
+    }
 
     let entries = toc.filter((e) => !DROP.test((e.text ?? "").trim()))
     const sections: Sec[] = []
@@ -100,7 +117,7 @@ export default (() => {
       let cur: Sec | null = null
       for (const e of entries) {
         if (e.depth === secD || !cur) {
-          cur = { slug: e.slug, text: e.text, subs: [] as any[], fold: FOLD.test(e.text ?? "") }
+          cur = { slug: e.slug, text: e.text, subs: [], fold: FOLD.test(e.text ?? "") }
           sections.push(cur)
         } else {
           cur.subs.push(e)
@@ -155,22 +172,14 @@ export default (() => {
                   // "Overview" section under the "Overview" parent) — the parent
                   // header already links to it.
                   .filter((s) => (relabel(s.text) ?? "").trim().toLowerCase() !== parent.label.toLowerCase())
-                  .map((s) => (
-                    <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
-                      {relabel(s.text)}
-                    </a>
-                  ))}
+                  .map((s) => headingLink(s, "sub", relabel(s.text)))}
               </div>
             ),
           )}
           {ungrouped.length > 0 && (
             <details class="grp snav-further">
               <summary class="sec">Further detail</summary>
-              {ungrouped.map((s) => (
-                <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
-                  {s.text}
-                </a>
-              ))}
+              {ungrouped.map((s) => headingLink(s, "sub"))}
             </details>
           )}
           <Apparatus toc={toc} count={sourceCountLabel} />
@@ -187,24 +196,14 @@ export default (() => {
       <>
         {core.map((s) => (
           <div class="grp">
-            <a class="sec" href={`#${s.slug}`} data-for={s.slug}>
-              {s.text}
-            </a>
-            {s.subs.map((c: any) => (
-              <a class="sub" href={`#${c.slug}`} data-for={c.slug}>
-                {c.text}
-              </a>
-            ))}
+            {headingLink(s, "sec")}
+            {s.subs.map((c) => headingLink(c, "sub"))}
           </div>
         ))}
         {further.length > 0 && (
           <details class="grp snav-further">
             <summary class="sec">Further detail</summary>
-            {further.map((s) => (
-              <a class="sub" href={`#${s.slug}`} data-for={s.slug}>
-                {s.text}
-              </a>
-            ))}
+            {further.map((s) => headingLink(s, "sub"))}
           </details>
         )}
         <Apparatus toc={toc} count={sourceCountLabel} />

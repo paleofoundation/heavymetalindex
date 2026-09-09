@@ -24,7 +24,7 @@ Project Resolution 07/23 remained in internal consultation among Argentina, Braz
 
 ## Intended relationship
 
-The project is framed as a replacement for MERCOSUR Resolutions GMC 12/11 and 18/21. That intended repeal has not been applied to HMI's active register because the project has not been verified as adopted.
+The project is framed as a replacement for MERCOSUR Resolutions [[regulations/mercosur-gmc-res-12-2011-inorganic-contaminants|GMC 12/11]] and 18/21. That intended repeal has not been applied to HMI's active register because the project has not been verified as adopted.
 
 ## Numerical treatment
 
@@ -37,5 +37,9 @@ No proposed value is loaded into `regulatory_limits.csv`, and no proposal can bi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [9d6d3491f](https://github.com/paleofoundation/heavymetalindex/commit/9d6d3491f) | 2026-08-24 | correction | 1 source added; contamination-profile values revised; 5 sections added |
 <!-- END: hmi-page-history -->

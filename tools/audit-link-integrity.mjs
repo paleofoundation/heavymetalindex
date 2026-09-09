@@ -18,6 +18,9 @@
 // A fourth class, DEAD_LINKS (a [[wikilink]] to a page that does not exist), is
 // reported as a WARNING: the corpus has a long tail of these and draining it is
 // content work, but the count must not grow silently.
+// Every missing body-link origin/target pair is also preserved in the sorted,
+// deterministic data/evidence/link-integrity-gaps.csv repair ledger. This is a
+// source-markdown audit, not an assertion that every row survives rendering.
 //
 // CONNECTION LOGIC KEPT IN SYNC WITH quartz/components/relatedGraph.ts. The
 // render-time rail and this lint must agree on what "a connection" is, or the
@@ -262,6 +265,7 @@ for (const s of productIndexRefs) if (aliasToCanonical.has(`products/${s}`)) sur
 // ======================= CHECKS =======================
 const fails = { orphan: [], empty: [], routing: [] }
 const warns = { emptyMetal: [], emptyScaffold: [], deadLinks: new Map() }
+const missingLinkRows = []
 
 for (const p of pages.values()) {
   if (p.isIndex || p.retired) continue
@@ -315,13 +319,37 @@ for (const p of pages.values()) {
     if (t.includes("...") || t.endsWith("/")) continue
     if (realSlugs.has(t) || aliasToCanonical.has(t)) continue
     warns.deadLinks.set(t, (warns.deadLinks.get(t) ?? 0) + 1)
+    missingLinkRows.push({
+      origin_page: `wiki/${p.rel}.md`,
+      target_slug: t,
+      origin_family: p.dir,
+      target_family: cat,
+      origin_type: p.type ?? "",
+      issue: "missing_body_wikilink_target",
+    })
   }
 }
+
+// Persist the complete repair queue, not just the console's top 15 targets.
+// One row per origin/target pair matches the existing reference counts above;
+// repeated mentions within a page do not inflate the queue. No timestamps or
+// filesystem-order dependence, so an unchanged audit produces identical bytes.
+missingLinkRows.sort((a, b) => {
+  const first = a.target_slug < b.target_slug ? -1 : a.target_slug > b.target_slug ? 1 : 0
+  return first || (a.origin_page < b.origin_page ? -1 : a.origin_page > b.origin_page ? 1 : 0)
+})
+const gapColumns = ["origin_page", "target_slug", "origin_family", "target_family", "origin_type", "issue"]
+const csvCell = (value) => /[",\r\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value
+const gapCsv = [gapColumns.join(","), ...missingLinkRows.map((row) => gapColumns.map((key) => csvCell(row[key])).join(","))].join("\n") + "\n"
+const gapPath = path.join(repoRoot, "data/evidence/link-integrity-gaps.csv")
+fs.mkdirSync(path.dirname(gapPath), { recursive: true })
+if (!fs.existsSync(gapPath) || fs.readFileSync(gapPath, "utf8") !== gapCsv) fs.writeFileSync(gapPath, gapCsv)
 
 // ======================= REPORT =======================
 const nFail = fails.orphan.length + fails.empty.length + fails.routing.length
 const deadTotal = [...warns.deadLinks.values()].reduce((a, b) => a + b, 0)
 console.log(`link-integrity: ${nFail} fail-class finding(s); warnings: ${warns.emptyMetal.length} thin metal stub(s), ${warns.emptyScaffold.length} thin scaffold(s), ${warns.deadLinks.size} dead-link target(s) (${deadTotal} refs)`)
+console.log(`  Complete missing-link ledger: data/evidence/link-integrity-gaps.csv (${missingLinkRows.length} origin/target pairs)`)
 
 const show = (label, arr, fmt = (x) => x) => {
   if (!arr.length) return

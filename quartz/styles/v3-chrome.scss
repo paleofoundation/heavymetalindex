@@ -388,6 +388,9 @@ footer.site-footer {
    never centred there either, it just sat against the left edge. v3's header
    carries no ternary, so these hold at every width. */
 .hmi-topnav-shell {
+  // The global bar has no outer spacing on any page, including pages with
+  // their own hero. Override Quartz's generic `header { margin: 2rem 0 }`.
+  margin: 0;
   background: #fffdfb;
   border-bottom: 1px solid #e8e1db;
 }
@@ -708,6 +711,19 @@ footer.site-footer {
   display: block;
   padding: 0;
   max-width: none;
+}
+
+// Keep the document rail hidden when the narrow layout makes .snav flex.
+.proof-home .snav,
+.proof-home .rail,
+.proof-home .page-header {
+  display: none;
+}
+
+.proof-home .proof-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* /ask is an app surface (Heavy Metal Index v3.dc.html, ASK THE INDEX branch).

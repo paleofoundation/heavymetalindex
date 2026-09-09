@@ -1,6 +1,7 @@
 import { QuartzTransformerPlugin } from "../types"
 import { Root, Text, ElementContent } from "hast"
 import { GENERATED_TERMS } from "./autolink-terms.generated"
+import { FullSlug, stripSlashes, transformLink } from "../../util/path"
 
 // Auto-link the first prose mention of a concept (metal, ingredient, product,
 // regulation, regulator) to its page, so the corpus gains the high-weight
@@ -17,7 +18,7 @@ import { GENERATED_TERMS } from "./autolink-terms.generated"
 //     They are already the most explicitly-linked terms and lose nothing.
 //     "methylmercury" and "inorganic arsenic" recover the high-value Hg/As
 //     links unambiguously.
-//   - The ingredient/product/regulation/regulator vocabulary is generated from
+//   - The topical-page/regulation/regulator vocabulary is generated from
 //     page frontmatter (title + aliases) by tools/build-autolink-terms.mjs, which
 //     enforces the same discipline: single common words (rice, salt, honey,
 //     water, juice) never link on their own — only their unambiguous multi-word
@@ -33,7 +34,12 @@ const MAX_AUTOLINKS_PER_PAGE = 25
 // aren't derivable from a title, and the bare-word exclusions above are load-bearing.
 const METALS: Record<string, string> = {
   "inorganic arsenic": "metals/arsenic-inorganic",
+  "total arsenic": "metals/arsenic-total",
+  "total mercury": "metals/mercury-total",
   "hexavalent chromium": "metals/chromium-hexavalent",
+  "chromium(vi)": "metals/chromium-hexavalent",
+  "chromium (vi)": "metals/chromium-hexavalent",
+  "inorganic tin": "metals/tin-inorganic",
   methylmercury: "metals/mercury-methyl",
   molybdenum: "metals/molybdenum",
   manganese: "metals/manganese",
@@ -80,6 +86,12 @@ const SKIP_TAGS = new Set([
   "option",
 ])
 
+const REFERENCE_SECTIONS = new Set(["references", "works cited", "sources", "update history"])
+
+function nodeText(node: any): string {
+  return node.type === "text" ? node.value : (node.children ?? []).map(nodeText).join("")
+}
+
 function normalize(slug: string): string {
   return slug
     .replace(/^\/+/, "")
@@ -88,26 +100,42 @@ function normalize(slug: string): string {
     .replace(/\/index$/, "")
 }
 
-function collectLinkedSlugs(node: any, into: Set<string>): void {
+function collectLinkedSlugs(
+  node: any,
+  into: Set<string>,
+  curSlug: FullSlug,
+  allSlugs: FullSlug[],
+): void {
   if (node?.type === "element") {
     if (node.tagName === "a" && typeof node.properties?.href === "string") {
       const href = node.properties.href as string
-      if (!/^(https?:|#|mailto:|tel:)/.test(href)) into.add(normalize(href))
+      if (!/^(?:[a-z][a-z\d+.-]*:|\/\/|#)/i.test(href)) {
+        // Use the same resolution as CrawlLinks, including short wikilinks,
+        // .md extensions and ../ paths. Plain string stripping misses these.
+        const dest = transformLink(curSlug, href, { strategy: "shortest", allSlugs })
+        const url = new URL(dest, `https://hmi.invalid/${stripSlashes(curSlug, true)}`)
+        into.add(normalize(decodeURIComponent(url.pathname)))
+      }
     }
-    for (const c of node.children ?? []) collectLinkedSlugs(c, into)
   }
+  // HAST starts with a Root, not an Element. Traversal must start there too.
+  for (const c of node.children ?? []) collectLinkedSlugs(c, into, curSlug, allSlugs)
 }
 
 function walk(node: any, blocked: boolean, repl: (t: Text) => ElementContent[] | null): void {
   if (!node.children) return
   const out: ElementContent[] = []
+  let referenceSection = false
   for (const child of node.children) {
-    if (child.type === "text" && !blocked) {
+    if (child.type === "element" && child.tagName === "h2") {
+      referenceSection = REFERENCE_SECTIONS.has(nodeText(child).trim().toLowerCase())
+    }
+    if (child.type === "text" && !blocked && !referenceSection) {
       const replaced = repl(child)
       out.push(...(replaced ?? [child]))
     } else {
       if (child.type === "element") {
-        walk(child, blocked || SKIP_TAGS.has(child.tagName), repl)
+        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl)
       }
       out.push(child)
     }
@@ -120,14 +148,14 @@ export const AutoLink: QuartzTransformerPlugin = () => {
     name: "AutoLink",
     htmlPlugins(ctx) {
       const allSlugs = new Set((ctx.allSlugs ?? []) as string[])
-      const terms = Object.keys(TERMS).filter((t) => allSlugs.has(TERMS[t]))
+      const terms = Object.keys(TERMS)
       // Longest term first so "inorganic arsenic" wins over "arsenic".
       terms.sort((a, b) => b.length - a.length)
       const pattern =
         terms.length > 0
           ? new RegExp(
-              `\\b(${terms.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`,
-              "gi",
+              `(?<![\\p{L}\\p{N}_])(${terms.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/ /g, "\\s+")).join("|")})(?![\\p{L}\\p{N}_])`,
+              "giu",
             )
           : null
 
@@ -136,15 +164,12 @@ export const AutoLink: QuartzTransformerPlugin = () => {
           if (!pattern) return
           const curSlug = (file.data.slug ?? "") as string
           if (curSlug === "index" || curSlug.startsWith("tags/")) return
-          // Per-page opt-out. An authored narrative review cites its own
-          // bibliography; auto-linking commodity terms ("soy-based formula" ->
-          // ingredients/soy, "Human milk" -> ingredients/breastmilk) mid-argument
-          // reads as inappropriate cross-marketing. Set `autolink: false` in
-          // frontmatter to suppress. See CLAUDE.md Part 3 (metals-microbiome review).
+          // Explicit opt-out for a page whose authored link structure must be
+          // preserved. Narrative reviews otherwise use the same wiki defaults.
           if ((file.data.frontmatter as any)?.autolink === false) return
 
           const linkedSlugs = new Set<string>([normalize(curSlug)]) // never self-link
-          collectLinkedSlugs(tree, linkedSlugs) // respect existing explicit links
+          collectLinkedSlugs(tree, linkedSlugs, curSlug as FullSlug, ctx.allSlugs)
           let added = 0 // cap total autolinks per page so prose isn't a sea of blue
 
           walk(tree, false, (textNode: Text): ElementContent[] | null => {
@@ -157,8 +182,11 @@ export const AutoLink: QuartzTransformerPlugin = () => {
             let m: RegExpExecArray | null
             while ((m = pattern.exec(value)) !== null) {
               if (added >= MAX_AUTOLINKS_PER_PAGE) break
-              const slug = TERMS[m[1].toLowerCase()]
-              if (!slug) continue
+              const slug = TERMS[m[1].toLowerCase().replace(/\s+/g, " ")]
+              // Match the complete vocabulary, then validate the destination.
+              // If a species page is absent, consume the whole phrase without
+              // falling back to its shorter parent (inorganic arsenic → arsenic).
+              if (!slug || !allSlugs.has(slug)) continue
               const norm = normalize(slug)
               if (linkedSlugs.has(norm)) continue // self or already linked
               if (m.index > last) parts.push({ type: "text", value: value.slice(last, m.index) })

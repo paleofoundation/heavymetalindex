@@ -8,6 +8,7 @@ import script from "./scripts/toc.inline"
 import { i18n } from "../i18n"
 import OverflowListFactory from "./OverflowList"
 import { concatenateResources } from "../util/resources"
+import { getTocLabel } from "../util/tocLabels"
 
 interface Options {
   layout: "modern" | "legacy"
@@ -77,14 +78,14 @@ export default ((opts?: Partial<Options>) => {
 
     const isProductCategory =
       fileData.frontmatter?.type === "product-category" && fileData.slug?.startsWith("products/")
-    const tocEntries = isProductCategory
-      ? fileData.toc
-          .filter((entry) => entry.depth <= 2 && productTocLabels.has(entry.text))
-          .map((entry) => ({
-            ...entry,
-            text: productTocLabels.get(entry.text) ?? entry.text,
-          }))
-      : fileData.toc
+    const tocEntries = (
+      isProductCategory
+        ? fileData.toc.filter((entry) => entry.depth <= 2 && productTocLabels.has(entry.text))
+        : fileData.toc
+    ).map((entry) => ({
+      ...entry,
+      label: isProductCategory ? (productTocLabels.get(entry.text) ?? entry.text) : entry.text,
+    }))
 
     if (tocEntries.length === 0) return null
 
@@ -95,7 +96,9 @@ export default ((opts?: Partial<Options>) => {
       // Apparatus sections (Sources / Page history) are reached via the page
       // foot and the utility links, not the section nav — drop them so the nav
       // stays a curated reading map.
-      let entries = tocEntries.filter((e) => !/^(sources|references|page history|update history)$/i.test((e.text ?? "").trim()))
+      let entries = tocEntries.filter(
+        (e) => !/^(sources|references|page history|update history)$/i.test((e.text ?? "").trim()),
+      )
       if (entries.length === 0) entries = tocEntries
       const minD = Math.min(...entries.map((e) => e.depth))
       const topCount = entries.filter((e) => e.depth === minD).length
@@ -104,12 +107,17 @@ export default ((opts?: Partial<Options>) => {
         entries = entries.filter((e) => e.depth > minD)
       }
       const sectionD = entries.length ? Math.min(...entries.map((e) => e.depth)) : 0
-      const sections: any[] = []
+      type SectionEntry = (typeof tocEntries)[number]
+      const sections: (SectionEntry & { children: SectionEntry[] })[] = []
       for (const e of entries) {
+        const entry = {
+          ...e,
+          label: getTocLabel(e.text, e.slug, fileData.frontmatter?.toc_labels, e.label),
+        }
         if (e.depth === sectionD || sections.length === 0) {
-          sections.push({ slug: e.slug, text: e.text, children: [] as any[] })
+          sections.push({ ...entry, children: [] })
         } else {
-          sections[sections.length - 1].children.push(e)
+          sections[sections.length - 1].children.push(entry)
         }
       }
       const leftTitle = opts?.title ?? "On this page"
@@ -119,15 +127,26 @@ export default ((opts?: Partial<Options>) => {
           <ul class="toc-tree">
             {sections.map((s) => (
               <li class={s.children.length ? "toc-section has-sub" : "toc-section"}>
-                <a class="toc-section-link" href={`#${s.slug}`} data-for={s.slug}>
-                  {s.text}
+                <a
+                  class="toc-section-link"
+                  href={`#${s.slug}`}
+                  data-for={s.slug}
+                  title={s.text}
+                  aria-label={s.label === s.text ? undefined : `${s.label}: ${s.text}`}
+                >
+                  {s.label}
                 </a>
                 {s.children.length > 0 ? (
                   <ul class="toc-subsections">
-                    {s.children.map((c: any) => (
+                    {s.children.map((c) => (
                       <li>
-                        <a href={`#${c.slug}`} data-for={c.slug}>
-                          {c.text}
+                        <a
+                          href={`#${c.slug}`}
+                          data-for={c.slug}
+                          title={c.text}
+                          aria-label={c.label === c.text ? undefined : `${c.label}: ${c.text}`}
+                        >
+                          {c.label}
                         </a>
                       </li>
                     ))}
@@ -173,7 +192,7 @@ export default ((opts?: Partial<Options>) => {
           {tocEntries.map((tocEntry) => (
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
-                {tocEntry.text}
+                {tocEntry.label}
               </a>
             </li>
           ))}

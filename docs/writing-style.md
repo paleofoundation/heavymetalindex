@@ -22,6 +22,14 @@ Bullets require justification. Before using a bullet list in wiki content, pause
 - consumer-facing explanations of risk (use prose, contextualize the dose)
 - implications sections (use prose, reason through the implications)
 
+## Paragraphs and navigation
+
+Give each paragraph one main idea, and start a new paragraph when the argument moves from background to evidence, qualification, or implication. For web reading, roughly 40–100 words is a useful working range, not a quota. Review paragraphs above 120 words for a natural break; preserve the connection between claims, caveats, and citations. Abstracts can use several short paragraphs to separate the framework, evidence and limitations, and implications. An abstract does not need to be a single block.
+
+Keep automatic internal linking enabled on normal wiki articles. It supplies first-mention links for recognized, unambiguous concepts; it cannot infer every relationship. Add explicit contextual wikilinks for relevant concepts the dictionary cannot safely resolve, especially ambiguous metal names and specialized mechanisms. Existing bibliography entries can link to corpus records after verifying that they describe the same work. Do not disable linking merely because a page is an authored review.
+
+Use concise navigation labels for long article headings. The `toc_labels` frontmatter mapping accepts the full heading text or its existing anchor as a key, and a short descriptive label as its value. Keep the full heading in the article and preserve its anchor; labels should identify the topic without repeating a sentence-length heading.
+
 ## Tables
 
 Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them.

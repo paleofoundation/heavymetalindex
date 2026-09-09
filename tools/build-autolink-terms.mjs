@@ -38,7 +38,12 @@ const repoRoot = process.cwd()
 const wikiDir = path.join(repoRoot, "wiki")
 const outPath = path.join(repoRoot, "quartz/plugins/transformers/autolink-terms.generated.ts")
 
-const TARGET_DIRS = ["ingredients", "products", "regulations", "regulators"]
+// Topical pages can become destinations as soon as they are published. Source
+// records, operational reports and private pages are deliberately not vocabulary.
+const CONCEPT_DIRS = [
+  "ingredients", "products", "health", "microbiome", "testing",
+  "synthesis", "mitigation", "supply-chain", "methodology",
+]
 const MAX_WORDS = 7 // titles longer than this never appear verbatim in prose
 const MAX_CHARS = 60
 const MIN_FOOD_CHARS = 4 // a food/product term shorter than this is too collidable
@@ -55,6 +60,11 @@ const SINGLE_WORD_ALLOWLIST = new Set([
   "seaweed", "spinach", "strawberries", "swordfish", "turmeric", "walnuts",
   "watermelon", "applesauce", "cornbread", "mayonnaise", "margarine", "ketchup",
   "chapattis", "grapes",
+  // Scientific concepts with no common-prose homograph; titles/aliases still
+  // have to exist on an eligible page before these can become links.
+  "glutathione", "metallothionein", "metallothioneins", "calprotectin",
+  "ferroptosis", "ferritinophagy", "mismetallation", "lactoferrin",
+  "dysbiosis", "metallomics", "endometriosis", "hepcidin",
 ])
 
 // Terms never allowed, whatever the source. Two groups:
@@ -71,6 +81,10 @@ const HARD_EXCLUDE = new Set([
   "other products", "refill materials", "dispensing system", "food products",
   "consumer products", "personal care products", "cleaning products",
   "case-by-case", "by functional use-case",
+  // These aliases occur on narrower pages, but the phrase alone does not
+  // establish either the packaging material or the formula's product form.
+  "formula packaging", "foil pouch", "laminate carton",
+  "soy-based formula", "soya-based formula",
 ])
 
 // Regulator abbreviations that are too short or ambiguous to link.
@@ -107,6 +121,7 @@ function badMultiWord(term) {
 // the ingredient (concept) page over a same-named product page, else drop.
 const claims = new Map() // termKey -> { display, slugs:Map<slug, tier> }
 const dropped = [] // { term, slug, reason } for the report
+const unavailableTitles = new Set()
 
 function claim(term, slug, tier) {
   const t = normTerm(term)
@@ -125,10 +140,34 @@ function claim(term, slug, tier) {
 function readFm(dir, file) {
   try {
     const raw = fs.readFileSync(path.join(wikiDir, dir, file), "utf8")
-    return matter(raw).data ?? {}
-  } catch {
-    return {}
+    const { data, content } = matter(raw)
+    // Mirror TitleHeading: older wiki pages carry their title only in the H1.
+    const heading = content.trimStart().match(/^#\s+(.+?)(?:\s+#+)?\s*$/m)?.[1]
+    return { ...data, title: data.title || heading }
+  } catch (error) {
+    throw new Error(`Cannot read autolink destination ${dir}/${file}: ${error.message}`)
   }
+}
+
+function eligible(fm) {
+  const allowed = fm.draft !== true && fm.draft !== "true" &&
+    fm.retired !== true && fm.provisional_scaffold !== true &&
+    fm.status !== "tier1-stub" && fm.evidence_tier !== "pending"
+  // A missing/unpublished exact concept must not redirect readers into a
+  // narrower alias owner, e.g. "mushrooms" → "canned mushrooms".
+  if (!allowed && fm.title) unavailableTitles.add(normTerm(fm.title).toLowerCase())
+  return allowed
+}
+
+function markdownFiles(dir) {
+  const abs = path.join(wikiDir, dir)
+  if (!fs.existsSync(abs)) return []
+  return fs.readdirSync(abs, { recursive: true, withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .map((entry) => path.relative(abs, path.join(entry.parentPath ?? entry.path, entry.name)))
+    .filter((file) => !file.split(path.sep).some((part) => part.startsWith(".") || part.startsWith("_")) &&
+      path.basename(file) !== "index.md")
+    .sort()
 }
 
 function aliasList(fm) {
@@ -138,14 +177,11 @@ function aliasList(fm) {
   return []
 }
 
-// --- ingredients + products: title + aliases -------------------------------
-for (const dir of ["ingredients", "products"]) {
-  const abs = path.join(wikiDir, dir)
-  if (!fs.existsSync(abs)) continue
-  for (const file of fs.readdirSync(abs).sort()) {
-    if (!file.endsWith(".md") || file === "index.md") continue
+// --- topical pages: title + aliases ---------------------------------------
+for (const dir of CONCEPT_DIRS) {
+  for (const file of markdownFiles(dir)) {
     const fm = readFm(dir, file)
-    if (fm.draft === true) continue
+    if (!eligible(fm)) continue
     const slug = slugOf(dir, file)
     // tier 0 = own title, tier 1 = alias.
     const candidates = [
@@ -182,7 +218,7 @@ for (const dir of ["ingredients", "products"]) {
     for (const file of fs.readdirSync(abs).sort()) {
       if (!file.endsWith(".md") || file === "index.md" || file === "by-metal.md") continue
       const fm = readFm(dir, file)
-      if (fm.type !== "regulator") continue
+      if (!eligible(fm) || fm.type !== "regulator") continue
       const slug = slugOf(dir, file)
       const primary = new Set() // tier 0
       const derived = new Set() // tier 1
@@ -217,7 +253,7 @@ for (const dir of ["ingredients", "products"]) {
     for (const file of fs.readdirSync(abs).sort()) {
       if (!file.endsWith(".md") || file === "index.md") continue
       const fm = readFm(dir, file)
-      if (fm.type !== "regulation") continue
+      if (!eligible(fm) || fm.type !== "regulation") continue
       const slug = slugOf(dir, file)
       const raw = [fm.short_title, fm.title].filter(Boolean)
       for (const r of raw) {
@@ -244,6 +280,10 @@ for (const dir of ["ingredients", "products"]) {
 const finalMap = {}
 let ambiguous = 0
 for (const [key, rec] of [...claims.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+  if (unavailableTitles.has(key) && Math.min(...rec.slugs.values()) > 0) {
+    dropped.push({ term: rec.display, slug: [...rec.slugs.keys()].join(" | "), reason: "exact title unavailable" })
+    continue
+  }
   if (rec.slugs.size === 1) {
     finalMap[key] = [...rec.slugs.keys()][0]
     continue
@@ -276,7 +316,7 @@ const header = `// AUTO-GENERATED by tools/build-autolink-terms.mjs — DO NOT E
 // Regenerate: node tools/build-autolink-terms.mjs
 //
 // Lowercased in-prose term -> target slug, derived from wiki frontmatter
-// (ingredients/products title+aliases, regulator name/abbreviation, regulation
+// (topical page title/H1+aliases, regulator name/abbreviation, regulation
 // short_title/title). Precision rules live in the generator; see its header and
 // CLAUDE.md Part 2. autolink.ts merges this under its curated metals map and
 // validates every slug against the real build graph before linking.
