@@ -1,0 +1,33 @@
+{
+  "product_slug": "baby-cereals-dry-rice-based",
+  "category": "cat1",
+  "document_noun": "standard",
+  "concept_doi": null,
+  "current_version": "1.0",
+  "scaffolded": false,
+  "versions": [
+    {
+      "version": "1.0",
+      "status": "current",
+      "effective_date": "2026-09-09T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:734a304772f65a596a6e2792c9ff51e6dddbb7f88929fc77b077fc2cb2e83456",
+      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "frozen_artifact": null,
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "standard_pdf_sha256": "cc346626cd1f78e6d48b363606c6fa109a4c0e494e2babc31f7a0c398bc3f36b",
+        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
+        "note": "S-DOI-1c canary bundle (freeze + deposit-edition) staged locally, NOT shipped to static/, NOT minted, NOT deposited, no cert push. frozen_artifact stays null until custody is actually sealed — the edition is claim-hash-pinned (silent-change-guarded) but not yet frozen-resolvable, so the site never asserts a resolvability it does not provide (Daubert honesty invariant). Timestamp/custody pending by design (offline, verify-don't-fabricate)."
+      },
+      "change": {
+        "what_changed": "Initial publication (S-DOI-1c canary edition). Government-limit standard (HMTc Method v2.0): each analyte is the strictest applicable finalized sovereign maximum by lookup, converted to the as-sold basis, with disclosed read-across where no government regulates the exact product form and reflex Cr-VI speciation where total chromium is not a material toxic in the matrix. 11-cell panel verified 11/11 against primary instrument text (canary A): Pb 20 (EU 2023/915 3.1.26), Cd 40 (EU 3.2.20), tAs 50 (FSSAI 2011), iAs subsumed by tAs (EU 3.4 routes rice cereal via 3.4.1 rice-products, not 3.4.3 baby-food; strictest finished iAs 100 bounded to 50 by tAs), tHg 8 read-across (Israel FCS-2016), MeHg subsumed by tHg, Ni 3000 (EU 2024/1987 processed-cereal-infant-food), Sn 5000 (FSSAI 2011, non-canned), Al 500 read-across (FSANZ Sch19, no gov Al ML for cereal), Cr not-material/reflex-control, Cr-VI subsumed by Cr.",
+        "why": "Establish the immutable-edition contract on the S-DOI-1b page of record before any bulk fan-out.",
+        "changed_at": "2026-09-09T00:00:00Z",
+        "verified_against_commit": "5247f5a293e16ae249a50c701fc420e2b0781f0e"
+      }
+    }
+  ]
+}
