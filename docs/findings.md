@@ -513,7 +513,54 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-228 open item(s): 74 auto, 154 awaiting a decision.
+234 open item(s): 77 auto, 157 awaiting a decision.
+
+### OI-20260909-mobile-chrome-overflow — Existing mobile header and footer links overflow the viewport
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `quartz/styles/v3-chrome.scss`, `quartz/components/styles/topNav.scss`, `quartz/components/styles/footer.scss`
+- repro: At a 390px fixed browser frame, the shared Index Pro link extends to x469 and footer links to x405. The author-profile body and hero fit within 390px and their columns align. The same overflow is present on the synthesis page.
+- done when: Header and footer fit a 390px viewport while preserving navigation access; No document-level horizontal scrolling on reference or author pages
+- notes: Outside the author/profile changes; recorded during responsive verification.
+
+### OI-20260909-method-v2-spec-percentile-reconcile — Reconcile canonical Method v2.0 spec to the government-limit CEO lock (percentile still defined as live)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/method/method-v2.json`, `CLAUDE.md`, `tools/standards/method-drift-lint.mjs`
+- repro: Cert-repo C-1 STATUS (2026-09-09T10:46Z, heavymetalcertified/docs/ELON_BRIDGE.md) raised an ASK that is index-repo work and was not ledgered in either repo: data/method/method-v2.json, the method-drift lint, and CLAUDE.md Part 19 still define selective percentile-pooling (P97/P45, literature-baseline) as live Method v2.0, while the shipped data and the cert public pages have moved to strictest-government-limit + disclosed read-across. Two named options: (A) retire percentile from the spec and flip the percentile signatures requires_anchor->forbidden in the lint - the forbidden regex must NOT match the ~85 generated pages that cite descriptive occurrence P95/P97 or the build breaks; or (B) keep it dormant-but-documented if NOT LIVE means not currently producing cells. Human-gated: it is a policy-doc/method-definition edit awaiting a named A-or-B decision from Elon/Karen, and it blocks a clean C-PUSH on the cert repo.
+- done when: A named decision (A or B) is recorded before any edit to data/method/method-v2.json or CLAUDE.md Part 19; If A: percentile-pooling retired from the spec, method-drift-lint percentile signatures flipped to forbidden, and a full build proves the forbidden regex does not match the ~85 generated pages citing descriptive occurrence P95/P97; If B: the spec and Part 19 state explicitly that percentile-pooling is dormant and not producing cells, with no lint change; Part 19 of CLAUDE.md and data/method/method-v2.json agree with each other and with the shipped government-limit data after the change
+- decision: _pending_
+
+### OI-20260909-hero-preview-promotion — Promote the burgundy article hero after release checks pass
+
+- scope: **auto** · type: promote · status: open · repo: index · blocked_on: OI-20260909-hero-baseline-validation
+- paths: `quartz/components/HeroBand.tsx`, `quartz/components/styles/heroBand.scss`, `quartz/styles/v3-chrome.scss`, `quartz/static/authors/karen-pendergrass.png`, `quartz/styles/article-layout.scss`, `quartz/styles/custom.scss`, `quartz/components/authorIdentity.tsx`, `quartz/components/scripts/authorCard.inline.ts`, `quartz/components/pages/Content.tsx`, `quartz/components/Rail.tsx`, `quartz/styles/author-profile.scss`, `quartz/static/authors/karen-pendergrass-hmi.webp`, `wiki/authors/karen-pendergrass.md`, `wiki/about.md`
+- repro: The local hero preview now includes the supplied branded portrait, accessible author hover card, dedicated author profile, exact rail geometry, and prominent synthesis DOI treatment. Production has not been deployed.
+- done when: Resolve OI-20260909-hero-baseline-validation; Run normal release checks and deploy verified hero and article-layout changes without unrelated working-tree edits
+- notes: Author facts and work history verified against public ORCID and WikiBiome. See docs/design/author-profile-2026-09-09.md. Existing unrelated release blockers retained.
+
+### OI-20260909-hero-baseline-validation — Repository-wide checks fail outside the HMI hero redesign
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tsconfig.json`, `tools/publication/build-state-of-food-report.test.mjs`
+- repro: npm run check includes the separate untracked sites/ics Next/vinext app and fails its types; npm test fails the state-of-food report count assertion (25 actual, 24 expected). Focused Quartz type check and site build pass.
+- done when: npm run check exits zero for the intended HMI TypeScript project; npm test passes with the current synthesis inventory
+
+### OI-20260909-h7-onboarding-finder-ungate — ORDER H-7: un-gate the onboarding Standards Finder (single-standard lock is wrong for multi-product brands)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `~/Desktop/heavymetalcertified-app/src/app/hmt/onboarding/OnboardingFlow.tsx`, `~/Desktop/heavymetalcertified-app/src/app/hmt/onboarding/page.tsx`, `~/Desktop/heavymetalcertified-app/src/app/hmt/onboarding/actions.ts`
+- repro: /hmt/onboarding step 5 (FINDER_STEP) renders "Choose your product's standard" and canAdvance gates on finderComplete, so category+product+form+market must be picked before an account can be created. CEO intent (2026-09-09): brand enters portal -> products/SKUs (plural) -> suggested categories -> evidence -> decision -> pay; no single-standard lock-in during early onboarding. Unattended bridge runner is sandboxed to the index repo and cannot write to the app repo, so this needs an attended session there.
+- done when: FINDER_STEP is skippable: canAdvance is true at FINDER_STEP and account creation never blocks on finderSelection; Any finder preview is explicitly optional and labelled example only - not your locked program scope; Singular your product's standard copy retired in OnboardingFlow.tsx heading/dek and onboarding/page.tsx metadata description; Real per-product/SKU standard selection documented as living in the portal products/readiness flow; tsc --noEmit clean and vitest suite green; local commit only, no push without Elon PASS
+- decision: _pending_
+
+### OI-20260909-citation-as-subject-prose — Synthesis prose uses citations as sentence subjects, rendering as leading superscripts
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/synthesis/`
+- repro: On many synthesis pages the inline [[sources/..|Author Year]] citation is authored AS the sentence subject (e.g. "Porwollik and Jafari 2026, published in PLOS ONE, found..."). The superscript-citation system (website client script + now the PDF) replaces the author-year with a raised number, so the sentence reads "1, published in PLOS ONE, found..." — grammatically the subject is gone. This is pre-existing website behavior, now mirrored in the PDF (parity). Fixing requires re-authoring the prose so the citation is clause-final/parenthetical rather than the subject. Not a rendering bug.
+- done when: Audit synthesis pages for citation-as-subject constructions; Re-author so superscript citations attach to a complete clause, not replace the subject; Web and PDF both read as narrative prose with trailing superscripts
+- decision: _pending_
 
 ### OI-20260908-wikibiome-lift-metals-microbiome-framework — Lift metals-microbiome-disease-pathogenesis framework to WikiBiome
 
