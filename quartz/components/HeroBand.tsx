@@ -3,15 +3,9 @@ import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/pat
 import style from "./styles/heroBand.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 
-// v3 hero band. Replaces the glyph/pill/card hero wholesale — this is a
-// re-layout, not a re-skin. Reference: "Heavy Metal Index v3.dc.html" lines
-// 362-405 (markup) and 2011 (grid). renderPage.tsx lifts this outside
-// #quartz-root so it spans the viewport; the root class stays `hero-band` so
-// that lift keeps working.
-//
-// BEFORE THIS LANDS: delete the `.hero-*` block from quartz/styles/proof-design.scss
-// (the run beginning "── microbiomemedicine-style hero band ──", ~lines 251-285).
-// Those rules style the old three-column glyph layout and will fight this file.
+// Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
+// and research-hero styles. HMI keeps its own typography, metadata and actions.
+// renderPage.tsx lifts this outside #quartz-root to span the viewport.
 
 // CHROME-SPEC §3, the screen map. TWO defects live on the site come from this
 // table not existing:
@@ -58,15 +52,31 @@ const DETAIL: Record<string, Screen> = {
 const INDEX: Record<string, Screen> = {
   metals: { crumb: "Metals", leaf: "All metals", badge: "Reference layer" },
   products: { crumb: "Products", leaf: "All categories", badge: "Catalogue" },
-  regulations: { crumb: "Regulations", leaf: "All instruments", badge: "Register" },
+  regulations: {
+    crumb: "Regulations",
+    leaf: "All instruments",
+    badge: "Register",
+  },
   synthesis: { crumb: "Evidence", leaf: "All findings", badge: "Directory" },
   // Not among v3's fifteen, but they are indexes, so the rule applies.
-  ingredients: { crumb: "Ingredients", leaf: "All ingredients", badge: "Directory" },
+  ingredients: {
+    crumb: "Ingredients",
+    leaf: "All ingredients",
+    badge: "Directory",
+  },
   sources: { crumb: "Sources", leaf: "All sources", badge: "Directory" },
   regulators: { crumb: "Regulators", leaf: "All bodies", badge: "Directory" },
   testing: { crumb: "Testing", leaf: "All methods", badge: "Directory" },
-  mitigation: { crumb: "Mitigation", leaf: "All strategies", badge: "Directory" },
-  "supply-chain": { crumb: "Supply chain", leaf: "All pathways", badge: "Directory" },
+  mitigation: {
+    crumb: "Mitigation",
+    leaf: "All strategies",
+    badge: "Directory",
+  },
+  "supply-chain": {
+    crumb: "Supply chain",
+    leaf: "All pathways",
+    badge: "Directory",
+  },
   microbiome: { crumb: "Microbiome", leaf: "All pages", badge: "Directory" },
   corpus: { crumb: "Corpus", leaf: "All views", badge: "Directory" },
   audits: { crumb: "Evidence", leaf: "All audits", badge: "Directory" },
@@ -86,7 +96,11 @@ function screenFor(parts: string[]): Screen {
     return { crumb: DETAIL[section]?.crumb ?? section, badge: CATEGORY_BADGE }
   }
   if (inCategories && isIndex) {
-    return { crumb: DETAIL[section]?.crumb ?? section, leaf: "All categories", badge: "Directory" }
+    return {
+      crumb: DETAIL[section]?.crumb ?? section,
+      leaf: "All categories",
+      badge: "Directory",
+    }
   }
   if (isIndex) {
     return (
@@ -139,7 +153,7 @@ type Row = { k: string; v: string }
 // Snapshot rows come from frontmatter where present. A page that declares
 // `snapshot: [{k, v}]` wins; otherwise assemble from the counts the frontmatter
 // already carries. Never render an empty box — if there is nothing to say, the
-// column collapses and the hero runs full width.
+// snapshot is omitted while the author panel remains visible.
 //
 // `citedBy` is the number of wiki pages that link to this one, counted from the
 // live link graph (the same source the Backlinks component reads). It is the
@@ -167,7 +181,8 @@ function snapshotRows(
   }
 
   const rows: Row[] = []
-  const num = (x: unknown) => (typeof x === "number" || typeof x === "string" ? String(x) : undefined)
+  const num = (x: unknown) =>
+    typeof x === "number" || typeof x === "string" ? String(x) : undefined
   const str = (x: unknown) => (typeof x === "string" && x.trim() ? x.trim() : undefined)
   const cited = (label: string): Row | null =>
     citedBy > 0 ? { k: label, v: `${citedBy} page${citedBy === 1 ? "" : "s"}` } : null
@@ -179,7 +194,9 @@ function snapshotRows(
     return [
       cited("Cited by"),
       metals ? { k: "Metals measured", v: String(metals) } : null,
-      str(fm.evidence_tier) ? { k: "Evidence tier", v: String(fm.evidence_tier).toUpperCase() } : null,
+      str(fm.evidence_tier)
+        ? { k: "Evidence tier", v: String(fm.evidence_tier).toUpperCase() }
+        : null,
       num(fm.year) ? { k: "Year", v: String(fm.year) } : null,
     ].filter((r): r is Row => r !== null)
   }
@@ -187,7 +204,9 @@ function snapshotRows(
   // A REGULATION instrument: how many pages invoke it, whose law it is, which
   // metal, and when it took effect.
   if (!isIndex && section === "regulations") {
-    const metal = str(fm.metal) ?? (Array.isArray(fm.metals) && fm.metals.length === 1 ? str(fm.metals[0]) : undefined)
+    const metal =
+      str(fm.metal) ??
+      (Array.isArray(fm.metals) && fm.metals.length === 1 ? str(fm.metals[0]) : undefined)
     return [
       cited("Referenced by"),
       str(fm.jurisdiction) ? { k: "Jurisdiction", v: String(fm.jurisdiction) } : null,
@@ -279,8 +298,24 @@ export default (() => {
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
 
     return (
-      <div class={rows.length ? "hero-band" : "hero-band hero-band--nosnapshot"}>
+      <div class="hero-band">
         <div class="hero-grid">
+          <div class="hero-subject" aria-hidden="true">
+            <div class="hero-subject-art">
+              {symbol ? (
+                <span class="hero-element">{symbol}</span>
+              ) : (
+                <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M24 28h28a12 12 0 0 1 12 12v57a18 18 0 0 0-15-8H24V28Zm80 0H76a12 12 0 0 0-12 12v57a18 18 0 0 1 15-8h25V28Z" />
+                  <path d="M34 43h16M34 54h16M34 65h16M78 43h16M78 54h16M78 65h16" />
+                </svg>
+              )}
+            </div>
+            <div class="hero-subject-caption">
+              <span>Heavy Metal Index</span>
+              <span>{crumb || "Research & reference"}</span>
+            </div>
+          </div>
           <div class="hero-main">
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>
@@ -292,32 +327,16 @@ export default (() => {
               ) : null}
               <span aria-hidden="true">/</span>
               <span class="cur">{leaf}</span>
+              {kind ? <span class="hero-kind">{kind}</span> : null}
             </nav>
 
             <div class="hero-titlerow">
               <h1 class="hero-title">{title}</h1>
-              {kind ? <span class="hero-kind">{kind}</span> : null}
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
 
             <div class="hero-meta">
-              <span>
-                Author{" "}
-                <a class="hero-author" href={resolveRelative(slug, "about" as SimpleSlug)}>
-                  Karen Pendergrass
-                </a>{" "}
-                <a
-                  class="hero-orcid"
-                  href={`https://orcid.org/${ORCID}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`ORCID iD ${ORCID}`}
-                  title={`ORCID iD ${ORCID}`}
-                >
-                  <OrcidIdIcon />
-                </a>
-              </span>
               {wikiDoi ? (
                 <a
                   class="hero-doi"
@@ -329,15 +348,7 @@ export default (() => {
                   DOI {wikiDoi}
                 </a>
               ) : null}
-              {updated ? <span class="hero-stamp">UPDATED {updated}</span> : null}
-              {rev ? <span class="hero-stamp">REV {rev}</span> : null}
 
-              {/* Grouped so the three actions stay on one line. `.hero-meta` is
-                  a wrapping flex row (v3 artifact 380: `flex-wrap: wrap`), and
-                  v3's row carries only TWO buttons — Download PDF is ours. That
-                  third item pushed past the 892px main column at 1440 and wrapped
-                  alone onto a second line. Wrapping them in their own flex group
-                  lets the meta text reflow while the buttons travel together. */}
               <span class="hero-acts">
                 <a class="hero-act" href="#cite-this-page">
                   Cite this page
@@ -361,19 +372,57 @@ export default (() => {
             </div>
           </div>
 
-          {rows.length ? (
-            <div class="hero-snapshot">
-              <div class="hero-snapshot-head">Page snapshot</div>
-              <div class="hero-snapshot-body">
-                {rows.map((r) => (
-                  <div class="hero-snapshot-row">
-                    <span class="hero-snapshot-k">{r.k}</span>
-                    <span class="hero-snapshot-v">{r.v}</span>
-                  </div>
-                ))}
+          <aside class="hero-sidebar" aria-label="Page author and snapshot">
+            <div class="hero-author-panel">
+              <a
+                class="hero-author-portrait"
+                href={resolveRelative(slug, "about" as SimpleSlug)}
+                aria-label="About Karen Pendergrass"
+              >
+                <img
+                  src="/static/authors/karen-pendergrass.png"
+                  alt="Karen Pendergrass"
+                  width="72"
+                  height="72"
+                />
+              </a>
+              <p class="hero-author-label">Author</p>
+              <div class="hero-author-name">
+                <a class="hero-author" href={resolveRelative(slug, "about" as SimpleSlug)}>
+                  Karen Pendergrass
+                </a>{" "}
+                <a
+                  class="hero-orcid"
+                  href={`https://orcid.org/${ORCID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`ORCID iD ${ORCID}`}
+                  title={`ORCID iD ${ORCID}`}
+                >
+                  <OrcidIdIcon />
+                </a>
               </div>
+              {updated ? (
+                <p class="hero-stamp">
+                  Last updated: <time dateTime={updated}>{updated}</time>
+                </p>
+              ) : null}
+              {rev ? <p class="hero-stamp">Revision {rev}</p> : null}
             </div>
-          ) : null}
+            {rows.length ? (
+              <section class="hero-snapshot" aria-label="Page snapshot">
+                <div class="hero-snapshot-head">Page snapshot</div>
+                <div class="hero-snapshot-body">
+                  {rows.map((r) => (
+                    <div class="hero-snapshot-row" key={r.k}>
+                      <span class="hero-snapshot-k">{r.k}</span>
+                      <span class="hero-snapshot-v">{r.v}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+          </aside>
         </div>
       </div>
     )
