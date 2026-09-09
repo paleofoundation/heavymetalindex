@@ -2,6 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/heroBand.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
+import { KAREN, AuthorPortrait, AuthorProfileHero, OrcidIdIcon } from "./authorIdentity"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -114,40 +115,6 @@ function screenFor(parts: string[]): Screen {
   return DETAIL[section] ?? { crumb: section, badge: "" }
 }
 
-const ORCID = "0000-0002-2348-7259"
-
-// The official ORCID iD icon (green disc + "iD"). This is the customary way an
-// ORCID iD is surfaced in a journal-article byline worldwide: the icon stands
-// in for the spelled-out identifier, which lives on the link target and in the
-// accessible label. Inline SVG (no external asset) so it survives the static
-// build. Colours are the ORCID brand green (#A6CE39) on white and are the same
-// on any background, so it reads on both the burgundy hero and light surfaces.
-const OrcidIdIcon = () => (
-  <svg
-    class="orcid-id-icon"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 256 256"
-    width="16"
-    height="16"
-    aria-hidden="true"
-    focusable="false"
-  >
-    <path
-      fill="#A6CE39"
-      d="M256,128c0,70.7-57.3,128-128,128C57.3,256,0,198.7,0,128C0,57.3,57.3,0,128,0C198.7,0,256,57.3,256,128z"
-    />
-    <path fill="#FFFFFF" d="M86.3,186.2H70.9V79.1h15.4v48.4V186.2z" />
-    <path
-      fill="#FFFFFF"
-      d="M108.9,79.1h41.6c39.6,0,57,28.3,57,53.6c0,27.5-21.5,53.6-56.8,53.6h-41.8V79.1z M124.3,172.4h24.5c34.9,0,42.9-26.5,42.9-39.7c0-21.5-13.7-39.7-43.7-39.7h-23.7V172.4z"
-    />
-    <path
-      fill="#FFFFFF"
-      d="M88.7,56.8c0,5.5-4.5,10.1-10.1,10.1c-5.6,0-10.1-4.6-10.1-10.1c0-5.6,4.5-10.1,10.1-10.1C84.2,46.7,88.7,51.3,88.7,56.8z"
-    />
-  </svg>
-)
-
 type Row = { k: string; v: string }
 
 // Snapshot rows come from frontmatter where present. A page that declares
@@ -239,6 +206,7 @@ export default (() => {
   const HeroBand: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
+    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} />
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
     const isIndex = parts[parts.length - 1] === "index"
@@ -378,30 +346,19 @@ export default (() => {
 
           <aside class="hero-sidebar" aria-label="Page author and snapshot">
             <div class="hero-author-panel">
-              <a
-                class="hero-author-portrait"
-                href={resolveRelative(slug, "about" as SimpleSlug)}
-                aria-label="About Karen Pendergrass"
-              >
-                <img
-                  src="/static/authors/karen-pendergrass.png"
-                  alt="Karen Pendergrass"
-                  width="72"
-                  height="72"
-                />
-              </a>
+              <AuthorPortrait slug={slug} />
               <p class="hero-author-label">Author</p>
               <div class="hero-author-name">
-                <a class="hero-author" href={resolveRelative(slug, "about" as SimpleSlug)}>
+                <a class="hero-author" href={resolveRelative(slug, KAREN.slug)}>
                   Karen Pendergrass
                 </a>{" "}
                 <a
                   class="hero-orcid"
-                  href={`https://orcid.org/${ORCID}`}
+                  href={`https://orcid.org/${KAREN.orcid}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`ORCID iD ${ORCID}`}
-                  title={`ORCID iD ${ORCID}`}
+                  aria-label={`ORCID iD ${KAREN.orcid}`}
+                  title={`ORCID iD ${KAREN.orcid}`}
                 >
                   <OrcidIdIcon />
                 </a>

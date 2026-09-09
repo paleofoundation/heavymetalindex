@@ -6,6 +6,7 @@ import { concatenateResources } from "../util/resources"
 import citeScript from "./scripts/citeSuperscript.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import railLdScript from "./scripts/railLd.inline"
+import { KAREN, OrcidIdIcon } from "./authorIdentity"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
 //
@@ -93,6 +94,16 @@ function ShareRow({ hrefs }: { hrefs: Record<string, string> }) {
 export default (() => {
   const Rail: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
     const slug = fileData.slug
+    if (slug && String(slug) === KAREN.slug) {
+      return <nav class="author-profile-links" aria-label="Research profiles">
+        <h2>Research profiles</h2>
+        <a href={`https://orcid.org/${KAREN.orcid}`}><OrcidIdIcon /> ORCID record ↗</a>
+        <a href={`https://www.wikibiome.com/researchers/${KAREN.orcid}`}>WikiBiome researcher profile ↗</a>
+        <a href="#public-works">Selected public works</a>
+        <a href="#heavy-metal-index-syntheses">Heavy Metal Index syntheses</a>
+        <a href={resolveRelative(slug, "contact" as SimpleSlug)}>Contact the Index</a>
+      </nav>
+    }
     // Absolute canonical URL for the share icons (matches Head.tsx's socialUrl),
     // so a shared link is always the production page, not a relative or local one.
     const canonical = cfg?.baseUrl && slug ? `https://${cfg.baseUrl}/${simplifySlug(slug)}` : ""

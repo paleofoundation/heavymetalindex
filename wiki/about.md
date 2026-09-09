@@ -21,6 +21,8 @@ Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (
 
 ## Governance
 
+[Karen Pendergrass](/authors/karen-pendergrass) is the architect of the Heavy Metal Index evidence system. Her author profile includes affiliations, work history, ORCID, and selected public works.
+
 Methodology, selection criteria, extraction approach, quality-assurance audit procedures, and error-handling workflow are documented on the [methodology page](/methodology). The wiki is version-controlled in git; every substantive change is committed with provenance, and the commit log is the authoritative record of who changed what and when.
 
 ## Relationship to sibling properties
