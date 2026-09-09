@@ -122,6 +122,8 @@ If the kept-chunk list is empty, return the `no_evidence_loaded` JSON envelope (
 
 ## Generation
 
+The model receives a 1,800-token completion budget so qualified prose and long canonical citation slugs can finish without truncation. Both default and brand-legal instructions target two to four short paragraphs, usually 250–350 words including citations, and reserve room for the closing “See also:” links. Short questions should receive shorter answers.
+
 When retrieval succeeds, the endpoint forwards the question + retrieved excerpts to the Vercel AI Gateway with model string `anthropic/claude-opus-4-7`. The Gateway is OpenAI-compatible; the endpoint POSTs to `https://ai-gateway.vercel.sh/v1/chat/completions` with `Authorization: Bearer ${AI_GATEWAY_API_KEY}` and `{ model, messages, stream: true }`. The Gateway response is a chunked SSE stream which the endpoint passes through to the client.
 
 ### System prompt (Ask the Index instructions)
@@ -143,10 +145,10 @@ Traceability rules:
 - Do not provide medical, legal, or regulatory advice. Frame answers as reference summaries of the wiki.
 
 Output:
-- Markdown prose, two to five short paragraphs at most.
+- Markdown prose, two to four short paragraphs, usually 250–350 words including citations. Use fewer words when the question is simple.
 - Inline citations as wikilinks or URLs.
 - No headings, no bullet lists unless the question is explicitly enumerative.
-- End with a brief "See also:" line of 2-3 wikilinks to related pages.
+- Complete the answer within that length, reserving room for the closing "See also:" line of 2-3 wikilinks to related pages.
 ```
 
 ### User-message format

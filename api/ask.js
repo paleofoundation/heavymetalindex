@@ -481,10 +481,10 @@ Traceability rules:
 - Do not provide medical, legal, or regulatory advice. Frame answers as reference summaries of the wiki.
 
 Output:
-- Markdown prose, two to five short paragraphs at most.
+- Markdown prose, two to four short paragraphs, usually 250–350 words including citations. Use fewer words when the question is simple.
 - Inline citations as wikilinks or URLs.
 - No headings, no bullet lists unless the question is explicitly enumerative.
-- End with a brief "See also:" line of 2-3 wikilinks to related pages.`
+- Complete the answer within that length, reserving room for the closing "See also:" line of 2-3 wikilinks to related pages.`
 
 // Brand-legal preset (POST { mode: "brand-legal" }). Same hard evidence
 // boundary and traceability rules as the default, tuned for a brand general
@@ -513,10 +513,10 @@ Firewall (do not cross):
 - Do not characterize any specific brand.
 
 Output:
-- Markdown prose, two to five short paragraphs.
+- Markdown prose, two to four short paragraphs, usually 250–350 words including citations. Use fewer words when the question is simple.
 - Inline citations as wikilinks or URLs, favoring source and regulation pages.
 - Where relevant, note that a version-pinned, hash-verified evidence packet for any cited page is available at /api/evidence-packet?slug=<slug> and a full per-category defense dossier at /api/defense-dossier?slug=<product-slug>.
-- End with a brief "See also:" line of 2-3 wikilinks to the most defensible related pages.`
+- Complete the answer within that length, reserving room for the closing "See also:" line of 2-3 wikilinks to the most defensible related pages.`
 
 function buildUserMessage(question, retrieval, pageSlug) {
   const context = retrieval.context
@@ -550,7 +550,9 @@ async function streamGatewayResponse(res, question, retrieval, pageSlug, mode) {
         { role: "system", content: systemPrompt },
         { role: "user", content: buildUserMessage(question, retrieval, pageSlug) },
       ],
-      max_tokens: 900,
+      // Long canonical citation slugs also consume tokens. Leave enough room
+      // for complete qualified prose and the closing links, even at 350 words.
+      max_tokens: 1800,
     }),
   })
 

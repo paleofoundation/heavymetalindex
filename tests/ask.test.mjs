@@ -175,3 +175,62 @@ test("expanded metal lists cannot overwhelm the reader's original topic words", 
   })
   assert.equal(retrieve("Microbial metal ecology", expanded).context[0]?.slug, "synthesis/metals-microbiome-disease-pathogenesis")
 })
+
+test("generation streams complete prose, closing links and the upstream stop marker after citation metadata", async () => {
+  const originalFetch = globalThis.fetch
+  const originalKey = process.env.AI_GATEWAY_API_KEY
+  process.env.AI_GATEWAY_API_KEY = "unit-test-key"
+  const answer = "Olive oil has source-traceable coverage in the Index. [[ingredients/olive-oil]]\n\nThe cited evidence distinguishes fruit uptake, processing and packaging; missing measurements on one product table do not erase that coverage. [[products/olive-oil]]\n\nSee also: [[ingredients/olive-oil]], [[sources/olive-oil-study]]"
+  const upstream = [
+    `data: ${JSON.stringify({ choices: [{ delta: { content: answer }, finish_reason: null }] })}\n\n`,
+    `data: ${JSON.stringify({ choices: [{ delta: {}, finish_reason: "stop" }] })}\n\n`,
+    "data: [DONE]\n\n",
+  ].join("")
+  let gatewayCalls = 0
+  globalThis.fetch = async (url, options) => {
+    if (String(url).includes("/static/askIndex.json")) return new Response(JSON.stringify(index))
+    assert.equal(String(url), "https://ai-gateway.vercel.sh/v1/chat/completions")
+    gatewayCalls++
+    const request = JSON.parse(options.body)
+    assert.equal(request.stream, true)
+    assert.ok(request.messages.some((message) => message.role === "user" && message.content.includes("ingredients/olive-oil")))
+    const bytes = new TextEncoder().encode(upstream)
+    return new Response(new ReadableStream({
+      start(controller) {
+        // Providers can divide their stream anywhere, including inside JSON.
+        controller.enqueue(bytes.slice(0, 41))
+        controller.enqueue(bytes.slice(41, 129))
+        controller.enqueue(bytes.slice(129))
+        controller.close()
+      },
+    }), { headers: { "Content-Type": "text/event-stream" } })
+  }
+  try {
+    const { default: handler } = await import(`../api/ask.js?stream-test=${Date.now()}`)
+    const headers = new Map()
+    let output = "", ended = false
+    const response = {
+      statusCode: 0,
+      setHeader(name, value) { headers.set(name, value) },
+      write(chunk) { output += chunk },
+      end() { ended = true },
+      status() { throw new Error("Expected successful SSE response") },
+    }
+    await handler({ method: "POST", body: { q: "olive oil" }, headers: {} }, response)
+    assert.equal(gatewayCalls, 1)
+    assert.equal(response.statusCode, 200)
+    assert.equal(headers.get("Content-Type"), "text/event-stream; charset=utf-8")
+    assert.ok(output.startsWith("event: meta\ndata: "))
+    const boundary = output.indexOf("\n\n")
+    const metadata = JSON.parse(output.slice("event: meta\ndata: ".length, boundary))
+    assert.equal(metadata.citations[0].slug, "ingredients/olive-oil")
+    assert.equal(output.slice(boundary + 2), upstream)
+    assert.ok(output.includes('"finish_reason":"stop"'))
+    assert.ok(output.endsWith("data: [DONE]\n\n"))
+    assert.equal(ended, true)
+  } finally {
+    globalThis.fetch = originalFetch
+    if (originalKey === undefined) delete process.env.AI_GATEWAY_API_KEY
+    else process.env.AI_GATEWAY_API_KEY = originalKey
+  }
+})
