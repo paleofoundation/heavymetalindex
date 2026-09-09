@@ -359,3 +359,244 @@ Cert connect pack #2: stale percentile prose kill + Cat-1 drift map + push HOLD 
 
 2026-09-09T11:09Z — no new ELON→CLAUDE directive since last STATUS (10:09Z); standing by. The 10:12Z entry on this file is an ELON NOTE, not an ORDER/LIFT/HOLD to this runner: it points at ORDER C-1 (CERT connect pack #2), which lives on `heavymetalcertified/docs/ELON_BRIDGE.md` and was already executed there — C-1a stale-percentile prose kill DONE (local commit `43b31b3`, not pushed), C-1b Cat-1 drift map DELIVERED, C-1c push-prep READY-TO-PUSH **NO / HOLD** at 29 commits ahead awaiting PASS: C-PUSH. Nothing in C-1 is index-repo execution work. Latest directive addressed to this repo remains H-7 (08:28Z): index-repo part DONE (`30760cbd`, gap-map FLAG); items 1–4 are code edits in `~/Desktop/heavymetalcertified-app`, which this sandboxed runner cannot write to (09:15Z BLOCKER) — they need an attended session there. Ledgered: `OI-20260909-h7-onboarding-finder-ungate`. One thing added this run, logging only, no execution: C-1's open ASK — that `data/method/method-v2.json`, `method-drift-lint`, and CLAUDE.md Part 19 still define selective percentile-pooling (P97/P45) as live Method v2.0 while the data and cert pages have moved to government-limit + read-across — is **index-repo** work and was ledgered in neither repo, so it is now `OI-20260909-method-v2-spec-percentile-reconcile` (human-gated / decision) pending the named A-or-B call. It blocks a clean C-PUSH. Kill-gates held: nothing pushed, no secrets, no taxonomy sprawl, no limit or panel edits, no blank cell touched.
 
+### 2026-09-09T11:32Z · ELON→CLAUDE — ORDER: C-2 (retire percentile from LIVE method DEFINITION) + C-1 PASS notes
+
+CEO lock (already frozen): LIVE Method v2.0 = lowest applicable finalized government limit per metal×subcategory; if none → read-across / not-material / control with provenance; never blank; precautionary = stricter-than-gov OK; dual-percentile / P97-P45 occurrence pooling is NOT LIVE.
+
+**C-1 STATUS clocked:**
+- C-1a PASS (43b31b3) — public method prose aligned.
+- C-1b PASS (967169b) — Cat-1 drift one-pager; Elon rules intentional **scope split** (cert Cat-1 = true infant/child FOOD forms; seafood/fish/dairy-meat live under their own cats). Do NOT recompile/overwrite cert Cat-1 from index without a later PASS.
+- C-1c HOLD push (READY-TO-PUSH: NO stands until C-2 local + fresh push-prep).
+
+**ORDER C-2 — Option A (retire percentile):**
+1) Rewrite `data/method/method-v2.json` statement + rationale_tags to LIVE vocabulary only: regulatory-alignment / read-across / subsumed / precautionary / not-material / control / baseline-screen (as used by shipped cells). Remove percentile-pooling as a LIVE limit-setting mechanism.
+2) `method-drift-lint`: move percentile limit-setting signatures to **forbidden** for LIVE method. Craft regex so it does **NOT** false-positive ~85 generated pages that cite descriptive occurrence P95/P97 as literature facts (descriptive stats ≠ limit derivation).
+3) Reconcile `CLAUDE.md` Part 19 to the same CEO lock. Archive old percentile text as RETIRED / historical if needed — never as LIVE Method v2.0.
+4) Do NOT invent dual-percentile revival. Do NOT change published numeric ceilings in this ORDER.
+5) Run the GREEN gate suite (method-drift, claim-discipline, etc.). Append STATUS with paths + before/after.
+6) Local commits OK. **No git push** until ELON→CLAUDE PASS: C-PUSH after you re-run C-1c push-prep (commit count + risks).
+
+Correct the record: connect-pack #2 "0 P97 hits" was a false negative; C-1a actually removed live percentile prose. Noted.
+
+### 2026-09-09T15:22Z · ELON→CODEX/CLAUDE — ORDER: S-DOI-1 (mechanical standards → mint-ready)
+
+CEO speed lock: standards numbers must be mint-ready for DataCite. Claude inventing/arguing blanks is FAIL. Prefer **Codex/ChatGPT** on `paleofoundation/heavymetalindex` (heavy-metal-index Desktop) for mechanical work.
+
+METHOD (frozen):
+- LIVE = lowest applicable finalized government limit per metal×subcategory
+- If none on earth → mandatory read-across from HMI library / related gov with provenance (never invent ppb)
+- Never blank. Dual-percentile/v5 NOT LIVE. Totals-first; speciation reflex only.
+
+ORDER S-DOI-1:
+1) Build/repair a **mechanical Regulatory Floor Table** lookup (no LLM inventing ceilings). Source: existing HMI regulatory evidence + compiled standards. Output: every metal×subcategory cell with kind = regulatory-alignment | read-across | subsumed | precautionary | not-material | control | baseline-screen + provenance citation.
+2) Kill remaining literature-baseline / percentile residue on live cells (OI-20260909-literature-baseline-tag-residue) at compiled/generator source — retag only, no silent number change without STATUS listing deltas.
+3) Produce mint-prep STATUS: which standard pages are REGISTERED-ready vs blocked; DOI registry gaps; what still needs Karen DataCite prefix / GATE 1.
+4) Do NOT mint without Karen prefix + GATE 1. Do NOT blind push cert LIVE without C-PUSH.
+5) Append STATUS every material finish on heavy-metal-index docs/ELON_BRIDGE.md (and cert bridge if touching cert compile).
+
+Wake: Karen pastes to ChatGPT/Codex in Chrome for heavymetalindex.
+
+### 2026-09-09T15:55Z · ELON→CLAUDE/CODEX — ORDER: S-DOI-1b (fail-close Method 1 + one-page canary)
+
+SUPERSEDES S-DOI-1 "mint-ready" language. Karen lock 2026-09-09: **no mint** until every metal×subcategory cell (totals + speciations: iAs, MeHg, Cr-VI, organotins where in-program) clears **>95% confidence** that the number is the **tightest finalized government floor worldwide** (or a disclosed read-across from a named sovereign instrument). Never blank. No Method 1.
+
+C-2 already retired LIVE spec (`method-v2.json`, Part 19, method-drift-lint). Remaining poison: `docs/standards-methodology.md` still opened as live v1.0 pooling. That file now has a RETIRED banner. `AGENTS.md` now has a LIVE method lock. If you still follow methodology.md as live, FAIL.
+
+**Runner:** Claude Code / Codex on this Desktop clone with `/Volumes/HMI-Library` mounted. ChatGPT-in-Chrome cannot see the volume. Confirm `node -e` driveStatus.mounted === true before any cell work.
+
+**ORDER S-DOI-1b (do in this order, stop on FAIL):**
+
+A) Fail-close (local commits OK, no push, no mint):
+1. Confirm banner on `docs/standards-methodology.md` and LIVE lock in `AGENTS.md`. If missing, restore from this ORDER.
+2. Confirm C-2: cert `data/method/method-v2.json` has retired_2026_09_09 + no LIVE percentile tags; `method-drift-lint` forbids percentile limit-setting (descriptive P95/P97 pages must still pass).
+3. Kill `literature-baseline` residue at compiled/generator source (OI-20260909-literature-baseline-tag-residue). Retag only. If a number would change, STATUS the delta and HOLD the number change.
+
+B) One-page METHOD canary (not hundreds). Page of record: Cat-1 `baby-cereals-dry` rice-based record (`baby-cereals-dry-rice-based`). Full 11-cell panel: Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Sn, Al, Cr, Cr-VI.
+For EACH cell:
+1. Current compiled value + type + anchor id.
+2. Strictest same-basis in-force row in `data/evidence/regulatory_limits.csv`.
+3. Primary instrument text: register `url` OR PDF under `/Volumes/HMI-Library` / `raw/`. Wiki regulation pages are pointers, not evidence.
+4. Library/register gap: is there a tighter finalized government instrument in the Library (or a known successor, e.g. GB 2762-2025 vs 2022) missing from the register? If yes: ingest the row from primary text, do not publish the looser number.
+5. Verdict: confirmed / refuted / cannot-verify. Refute if looser than a verified tighter floor, wrong basis, superseded, or invented.
+
+Do NOT fill other categories in this ORDER. Canary PASS = 11/11 cells confirmed or cannot-verify with a named missing primary (no invented fill). Append a one-page STATUS table.
+
+C) Kill-gates:
+- Do not mint. Do not claim mint-ready. Do not `git push` cert (C-PUSH still HOLD).
+- Do not expand taxonomy. Do not revive calculator / Method 1.
+- Do not invent ppb. Empty cell = STATUS gap + ingest path, not a made-up number.
+
+Append STATUS on this file when A done and when B done.
+
+### 2026-09-09T16:04Z · ELON→CLAUDE/CODEX — ORDER: S-DOI-1c (immutable editions + visible change history + brand pin)
+
+Karen lock: every minted standard is a living concept with immutable, separately resolvable editions. A brand/certificate is pinned to the exact edition used for its decision. Every material change is visible on the standard page with notes. No silent edits. No mint until S-DOI-1b confidence gate + this contract + GATE 1.
+
+Existing design is REAL but fragmented: `docs/standards/version-pinning.md`, `tools/standards/build-version-pages.mjs`, cert `tools/build-cert-version-history.mjs`, cert `docs/DOI-MINTING-LEDGER.md`, portal `StandardVersion` architecture. Current gaps: only ~18/351 standards have version-history records; freeze-on-mint and version-DOI revision flow are not wired; regulatory changes do not force a bump; screenshots are absent.
+
+**Edition evidence bundle (one per slug + material version):**
+1. Canonical compiled JSON used to render the limits.
+2. Rendered scholarly PDF.
+3. Full-page PNG screenshot of the production version route after deploy (supplemental rendering proof; never the canonical data record).
+4. Preserved HTML snapshot OR deterministic render input sufficient to reproduce the page.
+5. `manifest.json`: slug, version, effective timestamp UTC, capture timestamp UTC, source commit SHA, deployment URL/SHA, methodology version, all file SHA-256 hashes, DOI(s), governing register commit, and third-party timestamp/deposit metadata.
+6. Third-party timestamp receipt (`.tsr` + TSA cert chain / verification instructions) OR neutral external deposit, per GATE 1 decision. Build both adapters; do not choose or mint without Karen/counsel. Recommended defensibility target for decision: RFC-3161 immediate tamper evidence + neutral custody deposit for each edition.
+
+**Stable routes and page history:**
+- Concept: `/standards/<slug>` = current edition + complete version history.
+- Immutable edition: `/standards/<slug>/v<version>` = exact frozen edition, never overwritten.
+- Every history row must show version, effective date/time, status (current/superseded/corrected), what changed, why, affected analytes with old→new values when numeric, named government instrument / correction source, DOI, and frozen evidence link. Typo-only changes may remain same material version but still log a dated correction note; numeric/basis/scope/method changes MUST bump version.
+
+**Mechanical fail-closed gates:**
+- Every published standard gets a `data/standards/version-history/<page-slug>.json` record before mint (target 351/351; page slug, not compiled-record slug).
+- Compute a canonical claim hash over all limit cells + basis + provenance + anchor ids + panel + scope. If this hash changes without (a) version bump, (b) history note, (c) regenerated evidence bundle, FAIL build.
+- Any regulatory-watch event `current-binding-limit-change`, supersession, or newly verified tighter in-force government limit opens a needs-version-bump queue. Affected standards cannot remain current without adjudication.
+- A material revision mints a version DOI chained `IsVersionOf` concept + `IsNewVersionOf` prior edition; concept DOI receives `HasVersion`. First mint does not fabricate prior editions.
+- Freeze/capture runs only after confidence + lint battery + production deploy verification. Hash screenshot/PDF/JSON/HTML into one manifest; timestamp the manifest hash.
+
+**Brand/certificate pin:**
+Persist immutable `standard_version_id`, page slug, version, effective timestamp, canonical claim hash, version DOI, frozen-route URL, and methodology version on the certification decision/certificate. The brand is judged against that edition for that certification event/term; later page revisions never rewrite historical decisions. Pinning does not override later applicable law: a government change triggers legal/regulatory review + renewal/remediation workflow while preserving the historical record.
+
+**Canary only:** implement + verify this on S-DOI-1b `baby-cereals-dry` before bulk fan-out. Deliver one captured bundle, one visible page history, one simulated brand pin, and tests proving a silent numeric change fails. No DataCite live write. No cert push without C-PUSH.
+
+Append STATUS with (1) what already existed, (2) what was added, (3) remaining GATE 1 decision, (4) canary evidence paths, (5) exact bulk fan-out count.
+
+
+### 2026-09-09T16:08:44Z · CODEX→ELON — STATUS: S-DOI-1 (mechanical lookup + source cleanup; mint HOLD)
+
+```text
+ORDER: S-DOI-1
+LOCAL IMPLEMENTATION: applied to current Desktop heavy-metal-index + heavymetalcertified; local/uncommitted. No git push, DOI mint, DataCite preflight, or DataCite network mutation. No taxonomy expansion or per-lot/speciation-policy change.
+
+REGULATORY FLOOR LOOKUP:
+- tools/standards/build-regulatory-floor-table.mjs; npm run standards:floor / standards:floor:check. Legacy build-government-limit-standard.mjs now delegates to this read-only lookup; occurrence never supplies a ceiling.
+- Output: HMI data/workbench/standards/regulatory-floor/regulatory-floor-table.json + .csv + regulatory-floor-status.md; docs/S-DOI-1-REGULATORY-FLOOR.md documents the contract.
+- 335 compiled subcategories, 3,707 metal/variant cells. Current cert records take precedence by slug; 12 HMI-only subcategories stay unpublished. Every canonical metal and every source variant is represented. Legal form splits stay separate; no min/max envelope.
+- 2,063 ANCHOR_VERIFIED; 327 nonnumeric dispositions; 1,317 BLOCKED (includes 8 absent Cr cells on HMI-only Cat-9 records). UNRESOLVED is a failed diagnostic, NOT an invented eighth admitted kind or fabricated control. Numeric completion is NOT claimed.
+- Gov-first selection uses the named compiled applicability set; disclosed read-across only after no direct candidate. Finalized status, effective date, exact source value, species, basis and explicit conversion are checked. Every selected record carries source path/pointer/hash; 335 applied source hashes verified current.
+- A blocked row exposes neither an authoritative numeric limit nor a government floor. Partial candidate minima are diagnostic only. ANCHOR_VERIFIED is not worldwide-coverage proof, CORRECTED, or permission to mint. No universal ppb label is imposed on release/extraction quantities.
+- 54 lookup/source scalar discrepancies are listed in regulatory-floor/lookup-source-deltas.json; NONE applied. 320 upstream/current-source divergences are recorded.
+
+SOURCE RESIDUE CLOSED:
+- cert occurrence-section renderer no longer falls back to historical occurrence values, tags, government floors or materiality. It reads the current compiled/catalog descriptor; unsupported occurrence-derived publication fails closed.
+- Infant-formula tHg displays its existing 15 precautionary value (was falsely rendered as 1 mg/kg literature-baseline); mixed meals displays existing 8 precautionary (was falsely rendered as 2.7 ppb); butter Pb context stays 100 government alignment, with development hold retained. These are renderer corrections, not changes to source ceilings.
+- Removed active literature-baseline control prose at HMI cat3/cat34 config sources and both compiled mirrors. Public method labels now read canonical method-v2.json. Historical, explicitly retired audit references remain history.
+- HMI legacy catalog publication cannot round/select an occurrence candidate into a live limit. It requires exact, register-verified government-cap provenance and fails before writing if absent.
+- SOURCE NUMERIC DELTAS: ZERO across all 323 cert compiled records and touched HMI config/compiled records. Existing source values preserved.
+
+EXPORT + FINDER:
+- Schema 1.1.0 retains source values/units/basis, explicit precautionary/control/screen kinds and valid species-parent links. Missing/cyclic/wrong parents and numeric child bounds without numeric parents fail. All 18 legal forms remain individually addressable, never replaced by a summary scalar.
+- 3,577 CSV rows: ZERO blank limit_of_record, ZERO active literature-baseline residues. Nonnumeric controls carry their actual conditions; they are NOT invented ppb or certification-complete numbers.
+- Finder now carries source values, units, conditions and separate forms through to display; unknown units point to the standard for basis. Market comparisons only use compatible ppb fields. It no longer claims certification is available merely because some values are published.
+- Generated export was stale: 309 -> 321 pages; 3,408 -> 3,577 cells. 178 existing-source cells added, 9 obsolete variant cells removed; 1,333 old nulls now resolve to existing source/parent values; 32 existing scalar values reconciled; 6 obsolete form-summary scalars replaced with their form lists; 967 status differences. No new subcategory was created by this task.
+- Nested form reconciliation: unrefined-salt Pb 1000 -> 2000 reflects the already-existing compiled form, not a source change. This increase is explicitly HOLD for publication review.
+- EVERY old/new record, provenance, unit, addition/removal and nested form is listed in cert data/standards/s-doi-1/export-*.csv and docs/S-DOI-1-EXPORT-DELTAS.md. These export changes are local and MUST NOT be mistaken for authorized LIVE threshold changes.
+
+Numeric-to-numeric export synchronization (existing source values; no source change):
+- canned-seafood / all / Ni: 2000 -> 500 [ug/kg]
+- cashews / all / tHg: 400 -> 20 [ug/kg]
+- cephalopods / all / Ni: 2000 -> 500 [ug/kg]
+- cultivated-mushrooms / all / tHg: 30 -> 20 [ug/kg]
+- cultivated-mushrooms-oyster-shiitake / all / tHg: 30 -> 20 [ug/kg]
+- dairy-condensed-evaporated / all / tHg: 100 -> 20 [ug/kg]
+- dried-fruit / all / tHg: 150 -> 20 [ug/kg]
+- fish-freshwater / all / Ni: 2000 -> 500 [ug/kg]
+- fish-marine-non-predatory / all / Ni: 2000 -> 500 [ug/kg]
+- fish-marine-predatory / all / MeHg: 1000 -> 500 [ug/kg]
+- fish-marine-predatory / all / Ni: 2000 -> 500 [ug/kg]
+- fish-marine-predatory / all / tHg: 1000 -> 500 [ug/kg]
+- fresh-fruit / all / tHg: 30 -> 20 [ug/kg]
+- fruit-snacks / all / tHg: 30 -> 20 [ug/kg]
+- legumes-pulses-other / all / tHg: 30 -> 20 [ug/kg]
+- mustard-mayo-dressings / all / Cd: 200 -> 100 [source-normalized units; see basis]
+- nut-seed-butters-other / all / tHg: 400 -> 20 [ug/kg]
+- nuts-seeds-other / all / tHg: 400 -> 20 [ug/kg]
+- pasta-rice-based / all / iAs: 250 -> 200 [ug/kg]
+- peanut-butter / all / tHg: 30 -> 20 [ug/kg]
+- peanuts / all / tHg: 30 -> 20 [ug/kg]
+- rice-noodles / all / iAs: 250 -> 200 [ug/kg]
+- seaweed-kelp-foods / all / Cr: 2000 -> 1000 [ug/kg]
+- seaweed-kelp-foods / all / Pb: 5000 -> 1000 [ug/kg]
+- seaweed-kelp-foods / all / tAs: 5000 -> 1000 [ug/kg]
+- shellfish / all / Ni: 2000 -> 500 [ug/kg]
+- soy-products / all / tHg: 30 -> 20 [ug/kg]
+- sunflower-seed-butter / all / tHg: 400 -> 20 [ug/kg]
+- sunflower-seeds / all / tHg: 400 -> 20 [ug/kg]
+- tomato-condiments / all / Cd: 200 -> 100 [source-normalized units; see basis]
+- tree-nuts-high-nickel / all / tHg: 400 -> 20 [ug/kg]
+- wild-mushrooms / all / tHg: 30 -> 20 [ug/kg]
+- salt / all / Pb / unrefined-salt form: 1000 -> 2000 [existing nested source form; source unchanged].
+
+MINT PREP:
+- Scope is ORDER S-DOI-1. The later S-DOI-1b worldwide-confidence canary and S-DOI-1c immutable-edition implementation are additional open prerequisites, not completed or implied by this lookup. Their no-mint and no-push holds remain in force.
+- 349 standard pages: 239 COMPLETE but unconfirmed; 81 mapped incomplete; 29 recordless. REGISTERED=0; CORRECTED=0; READY=0; MINT-ELIGIBLE=0. All page slugs/reasons: docs/S-DOI-1-DOI-AUDIT.md + cert data/standards/s-doi-1/doi-page-audit.csv.
+- No per-category confidence manifests exist. Current readiness lint reports 331 limit-of-record failures (192 controls, 133 not-material, 6 form-split scalar failures) plus two scaffolds. Those are existing source/readiness gaps, not permission to invent numbers. Form-specific export resolution does not bypass the separate readiness gate.
+- Registry has one existing Zenodo manual DOI, no standard-page DOI; batch manifest is header-only. DataCite live-mode credentials and a non-sandbox prefix ARE configured locally; assignment/authentication remain unverified. Do not repeat the stale claim that credentials/prefix are absent.
+- HOLD: Karen prefix verification + GATE 1 immutable-edition evidence/approval; recorded identity/GATE 3 decisions; COMPLETE/CORRECTED confidence gates. No minting. C-PUSH still required for cert production.
+- Specific source blockers include 53 missing CN-2025 anchor IDs, including the mixed-meal mercury floor, and legacy catalog fish-Cd anchor eu2023_cd_fish_muscle_50 absent from the current HMI register. Basis/species conflicts and all other failed cells remain explicit in the floor report.
+
+VALIDATION:
+- HMI floor tests: 16/16 PASS (also run in applied checkout). Independent adversarial re-review passed.
+- Cert source/export/Finder tests: 25/25 PASS (also run in applied checkout); TypeScript --noEmit exit 0.
+- Final Quartz static build exit 0; npm run check:v3 exit 0, 103 rendered assertions PASS including Finder.
+- Export/page drift, design, method, firewall and claim lints: exit 0.
+- EXPECTED HOLDS: floor --strict exit 1; readiness --strict exit 1; legacy catalog --check exit 1 on the missing fish-Cd source. These are not green publication gates.
+- Applied file hashes match reviewed staging. No DOI, confidence approval, immutable snapshot or production release was created.
+```
+
+### 2026-09-09T20:05Z · CLAUDE→ELON — STATUS: S-DOI-1b + S-DOI-1c CANARY PASS (baby-cereals-dry-rice-based only)
+
+Attended Claude Code, cwd `heavy-metal-index`. Codex S-DOI-1 STATUS (line 465) treated as a claim to VERIFY, not PASS. Honored all kill-gates: **no mint, no cert push, no invented ppb, no fan-out.** All work local (index repo, commit `e7a1ce7028`, not pushed; index deploy is manual regardless).
+
+**CONFIRM (all 4 pass):**
+1. `/Volumes/HMI-Library` mounted — `library-root.mjs` driveStatus `mounted:true`, root `/Volumes/HMI-Library`.
+2. `docs/standards-methodology.md` carries the RETIRED banner (status RETIRED-AS-LIMIT-SETTING, 2026-09-09); `AGENTS.md` §"LIVE standards method lock (2026-09-09)" present (line 12). NOTE: AGENTS.md lines 72–124 still carry Evidence-Fitness percentile prose incl. "clean = pooled P97 / dirty = pooled P45" — descriptive-fitness guidance, but line 124 reads as live limit-setting and contradicts the lock. Logged as a residue finding (does not affect canary).
+3. Floor artifacts exist (`data/workbench/standards/regulatory-floor/` + `docs/S-DOI-1-*.md`); `standards:floor --strict` exits **1** on 1,317 BLOCKED cells (fails closed, confirmed).
+4. Kill-gates locked.
+
+**A) METHOD CANARY (S-DOI-1b) — 11/11 CONFIRMED = PASS. No invented fill.**
+Page of record: `baby-cereals-dry-rice-based` (native basis as_sold). Compiled = `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`. Every anchor verified present in `data/evidence/regulatory_limits.csv`.
+
+| Cell | Value | Type | Anchor / strictest same-basis floor | Primary text | Verdict |
+|---|---|---|---|---|---|
+| Pb | 20 | gov | eu2023_pb_babyfood_cereal_20 (EU as_sold); US dry-infant-cereal 20, CODEX/BR/HK 20; the 10-values are formula/other-baby-food (diff matrix) | EU 2023/915 §3.1.26 = 0,020 "Baby food AND processed cereal-based food"; FDA dry infant cereal 20 | CONFIRMED |
+| Cd | 40 | gov | eu2023_cd_babyfood_cereal_40 (EU as_sold); GSO/UK 40; 5–20 are formula | EU 2023/915 §3.2.20 = 0,040 | CONFIRMED |
+| tAs | 50 | gov | in_tas_infant...50 (IN as_sold); SG 100; rest ≥300 | FSSAI 2011 2.1.1(2) item 3, PRIMARY-CONFIRMED | CONFIRMED |
+| iAs | null (subsumed→tAs 50) | subsumed | candidate US 100 (fda2020 infant rice cereal); bounded by tAs 50 (stricter) | EU 2023/915 §3.4: iAs applies to 3.4.1–3.4.4; rice cereal routes via **3.4.1 (rice products; 3.4.1.5=100)**, NOT §3.4.3 "Baby food" (20) — the iAs row omits "processed cereal-based food" (unlike Pb/Cd). EU-20 does NOT apply. Strictest finished iAs = 100; 50 < 100, so subsumption is more protective | CONFIRMED |
+| tHg | 8 | read_across | il_fcs2016 porridges 8 (IL as_consumed) | Israel FCS-2016 row 14.2 = 0.008 mg/kg | CONFIRMED (precautionary; conservative — see basis flag) |
+| MeHg | null (subsumed→tHg) | subsumed | no MeHg ML below tHg bound | — | CONFIRMED |
+| Ni | 3000 | gov | eu2024_ni_processed_cereal_babyfood_3000 (EU as_sold) — specific matrix; baby-food 500 is a different category | EU 2024/1987 (in force 2025-07-01) | CONFIRMED |
+| Sn | 5000 | gov | in_sn_infant...5000 (IN as_sold, non-canned); all others 50000 (canned) | FSSAI 2011 2.1.1(2) item 4, BASIS SETTLED 2026-08-05 | CONFIRMED |
+| Al | 500 | read_across | aunz_sch19_al_formula_nonsoy_500; ONLY gov Al MLs anywhere are AU-NZ formula 500/1000; none for cereal | FSANZ Sch19 / Std 1.4.1 | CONFIRMED (disclosed read-across; basis flag) |
+| Cr | null (not-material) | control | no gov total-Cr ML for non-dairy infant food (14 juris checked); reflex Cr-VI speciation control | — | CONFIRMED (control) |
+| Cr-VI | null (subsumed→Cr) | subsumed | reflex speciation: any quantifiable Cr-VI fails | — | CONFIRMED |
+
+GB 2762 successor check: GB 2762 (2022 and any 2025 revision) EXCLUDES infant/young-child foods (governed by GB 10769/10765/10770); no Chinese infant value is stricter than any pick. Successor does not threaten this page. Primary EU text read from `/Volumes/HMI-Library/nMKEGZikaGiqOfcG/docs/EU_Regulation_2023-915_text.md`; GB from `/Volumes/HMI-Library/Regulatory documents/China_GB2762-2022_English_MAST.pdf` (+ USDA GAIN CH2025-0202).
+
+**FINDING (not a refute of this page, logged): read-across basis inconsistency.** tHg (IL as_consumed) and Al (AU-NZ as_consumed formula) are applied at FACE VALUE to an as_sold dry product. Both are over-strict (fail-safe) — never looser than any applicable law, so they pass the method-lock — but the basis mismatch is a provenance-cleanliness issue that recurs across every read-across cell in the corpus. Not fixed here (would change no number on this page, and any corpus-wide basis policy is out of canary scope).
+
+**B) EDITION CANARY (S-DOI-1c) — DELIVERED. Both adapters built; GATE 1 undecided; nothing minted/deposited/pushed.**
+What already existed: `freeze-standard-version.mjs` (RFC-3161 adapter — JSON→scholarly PDF→SHA-256→TSA token w/ pending fallback→manifest→verify), `lint-version-integrity.mjs` (R/M/P checks), 18 version-history records, `version-pinning.md`.
+What was added (commit `e7a1ce7028`):
+- `tools/standards/claim-hash.mjs` — canonical claim hash over limit cells + basis + provenance/anchor ids + panel + scope; `--check`/`--check-all` fail closed on silent numeric change; excludes cosmetic prose (typo-safe).
+- `tools/standards/deposit-edition.mjs` — **NEUTRAL-DEPOSIT adapter** (2nd custody mechanism) + full edition-bundle assembler; never chooses GATE 1, never mints, never fabricates a custody receipt.
+- `data/standards/version-history/baby-cereals-dry-rice-based.json` — edition 1.0 record w/ claim_hash `sha256:734a3047…`; `frozen_artifact:null` (custody pending — no false resolvability claim; passes integrity lint).
+- `tools/standards/claim-hash.test.mjs` — 6/6 green, proves a silent numeric change FAILS the build (fail-closed).
+
+Canary evidence bundle (staged local, NOT shipped/minted): `…/scratchpad/canary-editions/baby-cereals-dry-rice-based/v1/` — `standard.pdf` (sha256 cc346626…), `compiled.json`, `render-input.json` (deterministic repro input; HTML/PNG substitute — no production render captured, PNG absent by design), `bundle-manifest.json` (all file SHA-256s + claim hash + source commit 5247f5a2 + governing-register commit + methodology v2.0 + both custody adapters, both `pending`), `deposit-request.json`/`deposit-receipt.json` (neutral-deposit, pending), `standard.pdf.tsq` (RFC-3161 request, timestamp pending). Simulated brand StandardVersion pin: `…/scratchpad/canary-editions/simulated-brand-pin.json` (pins standard_version_id `baby-cereals-dry-rice-based@1.0`, claim hash, effective ts, methodology; no real brand — Part 12 firewall).
+Gates green: `lint-version-integrity` PASS; `claim-hash --check` exit 0; `--check-all` 1 guarded / 0 drift; silent-change test 6/6.
+
+**REMAINING BLOCKERS / open items (report-only, all HELD):**
+- Custody sealing (RFC-3161 + neutral deposit) is `pending` — needs network + GATE 1 decision (Karen/counsel choose RFC-3161 / neutral deposit / both). Not chosen here.
+- No PNG screenshot in bundle (no production deploy of the version route). Requires a deployed `/standards/<slug>/v1` route.
+- Slug mismatch: pre-existing version-history record uses `baby-cereals-dry`; the S-DOI-1b page of record is `baby-cereals-dry-rice-based`. New record created under the correct slug; reconciling/merging the older `baby-cereals-dry` record is out of canary scope.
+- claim-hash guard is NOT yet in `prebuild` (mirrors `lint:version-integrity`, also standalone). Wiring `standards:claim-hash:check` into prebuild is the build-blocking promotion step for fan-out.
+- AGENTS.md percentile-prose residue (line 124) — index-repo finding.
+- Working tree carries Codex's uncommitted S-DOI-1 run (~4,755 files incl. `package.json` floor scripts); my `package.json` script additions left uncommitted to avoid entangling that lane.
+
+**EXACT NEXT FAN-OUT COUNT (if PASS accepted — HELD until ELON PASS, do NOT fan out):**
+- Fan-out universe = **337** compiled standard records (Codex page-slug audit: 349 pages).
+- S-DOI-1c edition contract: **336** compiled records remain without a claim-hash-guarded version-history record (337 − 1 canary). 318 have no version-history record at all; 18 have a record but no claim_hash. Order's stated 351/351 page-slug target ⇒ **350** remaining.
+- S-DOI-1b method-confidence 11-cell verification: **348** pages remain (Codex 349 − 1 canary): **239** COMPLETE-unconfirmed (fan-out-ready for the >95% confidence pass), **81** mapped-incomplete (blocked on missing/BLOCKED floor rows), **29** recordless (need records first).
+
+ASK: accept canary PASS and name the fan-out lane (S-DOI-1c edition records vs S-DOI-1b confidence pass) and batch size, OR name GATE 1 custody first. Holding mint/push/deposit/fan-out until a named ORDER.
