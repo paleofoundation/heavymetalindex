@@ -3,6 +3,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import script from "./scripts/citeThisPage.inline"
 import style from "./styles/citeThisPage.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
+import { getShareContent } from "../util/share"
+import { concatenateResources } from "../util/resources"
+import { simplifySlug } from "../util/path"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import shareScript from "./scripts/railShare.inline"
 
 // Per-page "Cite this page" footer block. Visible only on public reference
 // pages (ingredients/, products/, metals/, regulations/, synthesis/,
@@ -83,7 +88,7 @@ function todayIsoDate(): string {
   return new Date().toISOString().slice(0, 10)
 }
 
-const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
   const slug = fileData.slug
   if (!isCitable(slug)) return null
 
@@ -95,7 +100,7 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
   const title = frontmatter?.title ? String(frontmatter.title) : (slug as string)
   const wikiDoi = frontmatter ? frontmatterString(frontmatter.wiki_doi) : undefined
-  const canonicalUrl = `https://heavymetalindex.com/${slug}`
+  const canonicalUrl = `https://${cfg.baseUrl ?? "heavymetalindex.com"}/${simplifySlug(slug!)}`
   const packetUrl = `/api/evidence-packet?slug=${encodeURIComponent(slug as string)}&download=1`
   const today = todayIsoDate()
 
@@ -123,7 +128,7 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     ? `Pendergrass K. "${title}". Heavy Metal Index, ${year}. ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
     : `Heavy Metal Index. "${title}". ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
 
-  const shareText = `${title} — Heavy Metal Index`
+  const share = getShareContent({ frontmatter, slug, description: fileData.description, canonicalUrl })
 
   return (
     <aside
@@ -183,11 +188,12 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           </button>
           <span data-hmi-cite-copy-status role="status" aria-live="polite"></span>
         </div>
-        <div class="hmi-cite-share">
+        <div class="hmi-cite-share" data-hmi-share data-hmi-share-post={share.post}>
           <span class="hmi-cite-share-label">Share</span>
           <button type="button" data-hmi-cite-copylink>Copy link</button>
+          <button type="button" data-hmi-share-copy-post>Copy post</button>
           <a
-            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(canonicalUrl)}`}
+            href={share.xUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -201,12 +207,13 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
             LinkedIn
           </a>
           <a
-            href={`mailto:?subject=${encodeURIComponent(shareText)}&body=${encodeURIComponent(
-              canonicalUrl,
+            href={`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(
+              share.post,
             )}`}
           >
             Email
           </a>
+          <span data-hmi-share-status role="status" aria-live="polite" />
         </div>
         <p class="hmi-cite-note">
           The evidence packet is a JSON manifest pinning this page to its current
@@ -222,7 +229,7 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   )
 }
 
-CiteThisPage.afterDOMLoaded = script
+CiteThisPage.afterDOMLoaded = concatenateResources(script, shareScript)
 CiteThisPage.css = style
 
 export default (() => CiteThisPage) satisfies QuartzComponentConstructor

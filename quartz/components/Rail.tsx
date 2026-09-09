@@ -2,10 +2,13 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { joinSegments, pathToRoot, resolveRelative, simplifySlug, type SimpleSlug } from "../util/path"
 import { GROUPS, relatedByCategory } from "./relatedGraph"
 import { concatenateResources } from "../util/resources"
+import { getShareContent } from "../util/share"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import citeScript from "./scripts/citeSuperscript.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import railLdScript from "./scripts/railLd.inline"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import shareScript from "./scripts/railShare.inline"
 import { KAREN, OrcidIdIcon } from "./authorIdentity"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
@@ -72,9 +75,9 @@ const SHARE_ITEMS: { key: string; label: string; external: boolean }[] = [
   { key: "facebook", label: "Share on Facebook", external: true },
   { key: "email", label: "Email a link", external: false },
 ]
-function ShareRow({ hrefs }: { hrefs: Record<string, string> }) {
+function ShareRow({ hrefs, post }: { hrefs: Record<string, string>; post: string }) {
   return (
-    <div class="rail-share">
+    <div class="rail-share" data-hmi-share data-hmi-share-post={post}>
       <span class="rail-share-label">Share</span>
       {SHARE_ITEMS.map((it) => (
         <a
@@ -87,6 +90,8 @@ function ShareRow({ hrefs }: { hrefs: Record<string, string> }) {
           {shareIcon(SHARE_GLYPH[it.key])}
         </a>
       ))}
+      <button class="rail-share-copy" type="button" data-hmi-share-copy-post title="Copy the suggested post, link, and hashtags">Copy post</button>
+      <span class="rail-share-status" data-hmi-share-status role="status" aria-live="polite" />
     </div>
   )
 }
@@ -108,13 +113,14 @@ export default (() => {
     // so a shared link is always the production page, not a relative or local one.
     const canonical = cfg?.baseUrl && slug ? `https://${cfg.baseUrl}/${simplifySlug(slug)}` : ""
     const shareTitle = String(fileData.frontmatter?.title ?? "")
+    const share = getShareContent({ frontmatter: fileData.frontmatter, slug, description: fileData.description, canonicalUrl: canonical })
     const encShare = encodeURIComponent
     const shareHrefs: Record<string, string> = {
-      x: `https://twitter.com/intent/tweet?url=${encShare(canonical)}&text=${encShare(shareTitle)}`,
+      x: share.xUrl,
       linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encShare(canonical)}`,
-      reddit: `https://www.reddit.com/submit?url=${encShare(canonical)}&title=${encShare(shareTitle)}`,
+      reddit: `https://www.reddit.com/submit?url=${encShare(canonical)}&title=${encShare(share.text)}`,
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${encShare(canonical)}`,
-      email: `mailto:?subject=${encShare(shareTitle)}&body=${encShare(canonical + "\n\n")}`,
+      email: `mailto:?subject=${encShare(shareTitle)}&body=${encShare(share.post)}`,
     }
     // Gate the in-page anchor on the section existing, the way Snav's utility
     // links do — index pages carry no References heading.
@@ -147,7 +153,7 @@ export default (() => {
 
     return (
       <>
-        <ShareRow hrefs={shareHrefs} />
+        <ShareRow hrefs={shareHrefs} post={share.post} />
 
         {connections.length > 0 ? (
           <nav class="rail-connections" aria-label="Connections">
@@ -196,6 +202,6 @@ export default (() => {
       </>
     )
   }
-  Rail.afterDOMLoaded = concatenateResources(citeScript, railLdScript)
+  Rail.afterDOMLoaded = concatenateResources(citeScript, railLdScript, shareScript)
   return Rail
 }) satisfies QuartzComponentConstructor

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-09] maintenance | page-specific sharing text
+
+Pages touched: [[synthesis/metals-microbiome-disease-pathogenesis]] and shared sharing components.
+Notes: Added a concise, article-specific sharing hook and relevant hashtags. Share links and copied posts use the same text and canonical URL. The hook preserves the review's proposed upstream framework and evidentiary uncertainty; the article body and scientific evidence are unchanged.
+
 ## [2026-09-09] maintenance | wiki navigation and article readability
 
 Pages touched: [[synthesis/metals-microbiome-disease-pathogenesis]] and shared navigation, table-of-contents, and automatic-linking components.

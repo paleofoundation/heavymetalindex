@@ -30,6 +30,17 @@ Keep automatic internal linking enabled on normal wiki articles. It supplies fir
 
 Use concise navigation labels for long article headings. The `toc_labels` frontmatter mapping accepts the full heading text or its existing anchor as a key, and a short descriptive label as its value. Keep the full heading in the article and preserve its anchor; labels should identify the topic without repeating a sentence-length heading.
 
+## Sharing copy
+
+When creating or substantively revising an authored synthesis, write a page-specific `shareText` hook and two or three relevant `shareHashtags` in frontmatter. Lead with why the work matters, rather than repeating its academic title. Keep the full title and citations in the article. Strong framing must retain the evidence's scope: a proposed mechanism stays a proposal, an association stays an association, and an upstream contribution does not become a universal cause. Do not remove qualifications merely to make the post more provocative.
+
+Use roughly 140–200 characters for `shareText`, with hashtags provided separately as an array without `#`. The share builder reserves room for the canonical URL and hashtags. An authored hook that exceeds the post budget fails the build rather than silently losing its closing qualification. X share links and “Copy post” use the same compiled text; pages without authored hooks fall back to their existing description and conservative topic hashtags. Ordinary URL pastes into another application cannot force that application's post text.
+
+```yaml
+shareText: "A short, source-faithful statement of the page's central insight."
+shareHashtags: [Microbiome, HeavyMetals]
+```
+
 ## Tables
 
 Structured data belongs in frontmatter YAML or two-column tables, not in bullets. Regulatory limits, concentration values, study details, and test method parameters are reference data, not analytical claims. They go in YAML where the app can parse them, or in two-column tables where humans can scan them.
