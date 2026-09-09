@@ -18,9 +18,9 @@
  * emitter copies it to public/static/og-image.png on build; this script also
  * writes public/static directly so a local preview updates without a rebuild.
  *
- * Brand tokens are mirrored from quartz.config.ts (answerthis-derived palette,
- * Inter + IBM Plex Mono). Copy is the site's own voice (wiki/index.md hero), not
- * invented marketing language — per CLAUDE.md Part 15 register.
+ * Brand tokens follow docs/design/METHOD.md: burgundy, warm white, blush,
+ * Lora display type, Inter body, and IBM Plex Mono labels. The shared card
+ * represents the public reference; page-specific titles live in link metadata.
  *
  * Run: node tools/brand/build-og-card.mjs
  */
@@ -34,22 +34,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, "..", "..")
 const FONT_CACHE = path.join(ROOT, "quartz", ".quartz-cache", "fonts")
 
-// --- Brand tokens (mirror quartz.config.ts lightMode) -----------------------
+// --- Brand tokens (docs/design/METHOD.md) -----------------------------------
 const C = {
-  bg: "#fdfdfc", // --light
-  panel: "#ffffff", // tile fill
-  ink: "#1a1d24", // --dark (wordmark)
-  body: "#3f4249", // tagline (between --darkgray and --gray, AA on bg)
-  gray: "#767067", // --gray (AA secondary text)
-  hairline: "#e6e3dd", // ~ --lightgray, tile + frame borders
-  burgundy: "#8B2A4A", // --secondary, used sparingly
+  burgundy: "#8b2a4a",
+  deep: "#6f2139",
+  white: "#fffdfb",
+  blush: "#f6ecf0",
+  pink: "#eddfe4",
 }
 
-// The eight metals behind the HMT&C analyte list (number, symbol, name) —
-// Pb, Cd, As, Hg + Ni, Al, Sn, Cr. Rendered as a periodic strip so the card
-// mirrors the full certification roster, not just the headline four.
-// (The analyte list splits As→tAs/iAs, Hg→tHg/MeHg, Cr→Cr-VI; tiles show the
-// parent element + atomic number, which is the legible motif here.)
+// Representative elements covered by the public index. Tiles identify elements
+// and atomic numbers only; they do not imply species equivalence or thresholds.
 const METALS = [
   ["82", "Pb", "LEAD"],
   ["48", "Cd", "CADMIUM"],
@@ -85,9 +80,9 @@ async function fetchTtf(rawName, weight) {
 
 async function loadFonts() {
   const specs = [
+    ["Lora", 400],
     ["Inter", 400],
     ["Inter", 600],
-    ["Inter", 800],
     ["IBM Plex Mono", 500],
     ["IBM Plex Mono", 600],
   ]
@@ -98,28 +93,28 @@ async function loadFonts() {
 // --- tiny hyperscript helper for satori vnodes ------------------------------
 const h = (type, style, children) => ({ type, props: { style, children } })
 
-function metalTile([num, sym, name]) {
+function metalTile([num, sym, name], index) {
   return h(
     "div",
     {
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-between",
-      width: 114,
-      height: 114,
-      padding: "11px 11px 10px",
-      border: `1px solid ${C.hairline}`,
-      borderRadius: 12,
-      backgroundColor: C.panel,
+      width: 125,
+      height: 126,
+      padding: "12px 15px 13px",
+      borderRadius: 3,
+      backgroundColor: index % 2 === 0 ? C.white : C.pink,
+      color: C.deep,
     },
     [
-      h("div", { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 14, color: C.gray }, num),
+      h("div", { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 14 }, num),
       h(
         "div",
-        { display: "flex", flex: 1, alignItems: "center", fontFamily: "IBM Plex Mono", fontWeight: 600, fontSize: 34, color: C.ink },
+        { display: "flex", flex: 1, alignItems: "center", fontFamily: "IBM Plex Mono", fontWeight: 600, fontSize: 43 },
         sym,
       ),
-      h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 10.5, letterSpacing: 0.5, color: C.gray }, name),
+      h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 11, letterSpacing: 0.8 }, name),
     ],
   )
 }
@@ -129,63 +124,37 @@ function card() {
     "div",
     {
       display: "flex",
+      flexDirection: "column",
       width: 1200,
       height: 630,
-      backgroundColor: C.bg,
-      border: `1px solid ${C.hairline}`,
+      backgroundColor: C.burgundy,
+      color: C.white,
     },
     [
-      // Burgundy spine — the one sparing use of the accent, frames the card in-feed.
-      h("div", { display: "flex", width: 10, height: 630, backgroundColor: C.burgundy }, []),
-      // Content column
       h(
         "div",
         {
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          flex: 1,
-          padding: "74px 80px 70px",
+          height: 390,
+          padding: "52px 64px 40px",
         },
         [
-          // Top: header row (kicker left, domain/attribution right) + wordmark + tagline
-          h("div", { display: "flex", flexDirection: "column" }, [
-            h("div", { display: "flex", justifyContent: "space-between", alignItems: "flex-start" }, [
-              h("div", { display: "flex", alignItems: "center", marginTop: 4 }, [
-                h("div", { display: "flex", width: 13, height: 13, backgroundColor: C.burgundy, marginRight: 14 }, []),
-                h(
-                  "div",
-                  { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 23, letterSpacing: 3, color: C.gray },
-                  "PUBLIC EVIDENCE INDEX",
-                ),
-              ]),
-              h("div", { display: "flex", flexDirection: "column", alignItems: "flex-end" }, [
-                h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 25, color: C.ink }, "heavymetalindex.com"),
-                h(
-                  "div",
-                  { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 17, color: C.gray, marginTop: 7 },
-                  "Operated by the Institute of Contaminant Standards (ICS)",
-                ),
-              ]),
+          h("div", { display: "flex", justifyContent: "space-between", alignItems: "center" }, [
+            h("div", { display: "flex", alignItems: "center" }, [
+              h("div", { display: "flex", width: 9, height: 9, backgroundColor: C.pink, marginRight: 13 }, []),
+              h("div", { display: "flex", fontFamily: "IBM Plex Mono", fontWeight: 500, fontSize: 18, letterSpacing: 2.5, color: C.pink }, "PUBLIC EVIDENCE INDEX"),
             ]),
-            h(
-              "div",
-              { display: "flex", fontFamily: "Inter", fontWeight: 800, fontSize: 96, letterSpacing: -2, color: C.ink, marginTop: 26, lineHeight: 1.02 },
-              "Heavy Metal Index",
-            ),
-            h(
-              "div",
-              { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 35, color: C.body, marginTop: 24, maxWidth: 880, lineHeight: 1.32 },
-              "Trace heavy-metal evidence from food to source.",
-            ),
+            h("div", { display: "flex", fontFamily: "Inter", fontWeight: 600, fontSize: 21 }, "heavymetalindex.com"),
           ]),
-          // Bottom band: ruled divider, then the eight HMT&C metals as a full-width strip
-          h("div", { display: "flex", flexDirection: "column" }, [
-            h("div", { display: "flex", height: 1, backgroundColor: C.hairline, marginBottom: 32 }, []),
-            h("div", { display: "flex", justifyContent: "space-between" }, METALS.map(metalTile)),
-          ]),
+          h("div", { display: "flex", fontFamily: "Lora", fontWeight: 400, fontSize: 105, letterSpacing: -2.8, marginTop: 46, lineHeight: 1.12 }, "Heavy Metal Index"),
+          h("div", { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 31, color: C.blush, marginTop: 24, lineHeight: 1.4 }, "Trace heavy-metal evidence from food to source."),
         ],
       ),
+      h("div", { display: "flex", flexDirection: "column", height: 240, padding: "31px 64px 28px", backgroundColor: C.deep }, [
+        h("div", { display: "flex", justifyContent: "space-between" }, METALS.map(metalTile)),
+        h("div", { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 17, color: C.pink, marginTop: 29 }, "Operated by the Institute of Contaminant Standards"),
+      ]),
     ],
   )
 }
