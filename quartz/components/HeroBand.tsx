@@ -304,20 +304,6 @@ export default (() => {
               <h1 class="hero-title">{title}</h1>
             </div>
 
-            {wikiDoi ? (
-              <a
-                class="hero-doi"
-                href={`https://doi.org/${wikiDoi}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={`Digital Object Identifier ${wikiDoi}`}
-                aria-label={`DOI ${wikiDoi}`}
-              >
-                <span class="hero-doi-label">DOI</span>
-                <span>{wikiDoi}</span>
-              </a>
-            ) : null}
-
             {dek ? <p class="hero-dek">{dek}</p> : null}
 
             <div class="hero-meta">
@@ -370,7 +356,7 @@ export default (() => {
               ) : null}
               {rev ? <p class="hero-stamp">Revision {rev}</p> : null}
             </div>
-            {rows.length ? (
+            {rows.length || wikiDoi ? (
               <section class="hero-snapshot" aria-label="Page snapshot">
                 <div class="hero-snapshot-head">Page snapshot</div>
                 <div class="hero-snapshot-body">
@@ -381,6 +367,19 @@ export default (() => {
                     </div>
                   ))}
                 </div>
+            {wikiDoi ? (
+              <a
+                class="hero-doi"
+                href={`https://doi.org/${wikiDoi}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Digital Object Identifier ${wikiDoi}`}
+                aria-label={`DOI ${wikiDoi}`}
+              >
+                <span class="hero-doi-label">DOI</span>
+                <span>{wikiDoi}</span>
+              </a>
+            ) : null}
               </section>
             ) : null}
           </aside>
