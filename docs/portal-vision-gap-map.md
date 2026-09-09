@@ -18,7 +18,7 @@ The vision: cert Home CTA → scroll-gated education → Standards Finder → pr
 
 | Capability | Built? | Gap / gate |
 |---|---|---|
-| Get-Started → education → finder → NDA → account → portal shell | ✅ live | — |
+| Get-Started → education → finder → NDA → account → portal shell | ⚠️ live, **finder step is debt** | shell is live, but the Standards Finder sits on the hard path as a one-shot single-standard gate — see flag 3 below |
 | Readiness engine (analytes, 3-lot baseline, resolve-standard, nondetect-aware, fresh-compute) | ✅ live | — |
 | AI COA extraction (Vercel AI Gateway, `ai@6`) | ✅ built | on-Vercel gateway path works; `ANTHROPIC_API_KEY` still un-set (fallback = manual) |
 | Pre-executed confidentiality undertaking (`NdaDoc.tsx`, SignNow optional) | ✅ live | **counsel:** Ira Sacks final review to drop the "draft pending final counsel review" footer; confirm signatory name/title |
@@ -33,10 +33,11 @@ The vision: cert Home CTA → scroll-gated education → Standards Finder → pr
 | Transactional email (welcome, NDA-ready, receipts, reminders) | ❌ **none** | no `resend`/SMTP dep; app sends zero email today — Tier-1 launch gap |
 | Real cost/pricing numbers | ⚠️ placeholder | Karen enters real figures at `/admin/costs` |
 
-**Two structural flags inside Tier 1:**
+**Three structural flags inside Tier 1:**
 
 1. **Stranded feature branch.** The recent portal work — Stripe completing-lot payment (`34adfc4`), press-kit (`9f7e5fb`), required-website-at-signup onboarding (`366a8c5`), and the engine-context *mis-certification hard-stop* (`75264d7`, described as "kill the market-loosening mis-certification") — is committed on `feat/registry-engine-context`, **not** the `master` branch that auto-deploys to production. Confirm merge/deploy status; the hard-stop in particular is a correctness fix that should not sit unmerged. (Merge/push = live deploy → held pending an ORDER.)
 2. **Zero transactional email** is the one genuinely-unbuilt Tier-1 primitive. Every lifecycle nudge (account created, NDA ready, changes requested, receipt, renewal) has no delivery path. Needs an API key + sender domain (Karen/config), then build.
+3. **FLAG (2026-09-09, ELON→CLAUDE ORDER H-7): the Standards Finder in onboarding is NOT aligned with the CEO multi-product vision. Treat it as debt, not ✅.** Step 5 of `/hmt/onboarding` (`OnboardingFlow.tsx`, `FINDER_STEP`) asks the brand to "Choose your product's standard" — singular — and gates advancement on `finderComplete`, so a category, product, form, and single market must be picked before an account can be created. The intended shape is the reverse: brand enters the portal, adds products and SKUs (plural), gets suggested categories, supplies evidence (PDF and/or TECRID), receives a decision, then pays. A brand with a portfolio must not be funnelled into one standard before that portfolio exists, and nothing about the canary close needs the lock. Required correction: drop `FINDER_STEP` from the hard path (skip/continue without a selection, and never block account creation on `finderSelection`); keep any finder preview explicitly optional and labelled "example only — not your locked program scope"; move real selection to the per-product portal readiness flow; and retire the singular "your product's standard" copy wherever it implies one product forever. Open sub-question for that work: whether an optional preview should still seed `brand_readiness_profile.product_slug` / `variant_key` / `market` at all, given the profile is currently the only carrier of scope. **Not executed:** the edits live in `~/Desktop/heavymetalcertified-app`, outside the index repo; the unattended bridge runner is sandboxed to this repo and cannot write there. Needs an attended session in the app repo.
 
 ---
 
@@ -79,13 +80,14 @@ The vision (`docs/architecture/application-crm-spec.md`, v1.0): one authenticate
 
 | # | Finish | Leverage | Readiness | Gate |
 |---|---|---|---|---|
-| 1 | Merge + deploy the engine-context **mis-certification hard-stop** (`75264d7`) to master | High — it's a *correctness* fix ("market-loosening mis-certification") sitting unmerged | Committed, tests presumably green | push = live → ORDER |
+| ~~1~~ | ~~Merge + deploy the engine-context **mis-certification hard-stop** (`75264d7`) to master~~ — **DONE 2026-09-08T16:40Z**, fast-forwarded to master and live in production (`HARDSTOP_LIVE=yes`, 87/87 tests green) | High — it was a *correctness* fix ("market-loosening mis-certification") | Shipped | — |
+| 1 | **Un-gate the onboarding Standards Finder** (ORDER H-7): skip/optional finder, never block account creation on `finderSelection`, per-product selection in the portal | High — the current one-shot single-standard lock is wrong for every multi-product brand and blocks the canary close | Model-doable, contained to `OnboardingFlow.tsx` + its metadata copy | app repo; local commit OK, push = ORDER |
 | 2 | `audit_logs` / immutable `workflow_event` table + wire the application state machine to write it | High — directly buys the litigation-insurance value prop; cheap now, painful to backfill | Model-doable, additive migration | none (local build) |
 | 3 | Transactional-email scaffold (templates + send-service seam), keyed but dormant | High — the one unbuilt Tier-1 primitive; unblocks every lifecycle nudge | Model-doable; delivery gated on key | key = Karen |
 | 4 | `standard_version` pin object (per-cert immutable snapshot + content hash) | Medium-high — Daubert reconstructability per certificate | Model-doable; needs the finder→version mapping decided | none (local build) |
 | 5 | Certificate issuance + `verify.` read surface (minimum: issue → verify by link) | High — brands currently cannot *receive* a certificate | Larger; depends on #4 | design call + push |
 
-**`wwsaid` recommendation:** #1 (deploy the mis-certification hard-stop) is the highest-value single finish because it is a live-correctness fix, not a feature — but it is push=live, so it needs an ORDER. If you want a push-free finish, #2 (audit_logs) is the best model-doable-now win and compounds every later Tier-2 item.
+**`wwsaid` recommendation (updated 2026-09-09):** the mis-certification hard-stop is shipped, so the highest-value single finish is now #1, un-gating the onboarding finder — it is small, it is on the canary's critical path, and every day it stays up it mis-shapes the first brands through the door. It is push-free if committed locally in the app repo. If you want a finish inside the index repo instead, #2 (audit_logs) remains the best model-doable-now win and compounds every later Tier-2 item.
 
 ---
 

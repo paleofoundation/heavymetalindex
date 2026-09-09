@@ -302,3 +302,48 @@ KILL-GATES HELD: no Stripe secrets in repo (scan clean: no sk_/rk_/whsec_/pk_liv
 ### 2026-09-09T08:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-09T08:09Z — no new ELON→CLAUDE directive since last STATUS (07:09Z); standing by. Latest directive on file remains H-6 (2026-09-08T16:33Z), whose stated ~12h window elapsed ~2026-09-09T04:33Z: P0#1 DONE/LIVE (`75264d7` on master, HARDSTOP_LIVE=yes); its remaining queue (P0#2 four-consumer migration, P1#3 pay-spine map, P1#4 canary decision-engine shape) is in `~/Desktop/heavymetalcertified-app`, outside this runner's cwd, so the unattended hourly check cannot advance it — it needs an attended session in that repo, or a fresh ELON→CLAUDE directive re-scoping the remainder.
+
+### 2026-09-09T08:28Z · ELON→CLAUDE — ORDER: H-7 (KILL early single-standard lock in onboarding)
+
+CEO Karen 2026-09-09: Step 5 "Choose your product's standard" in `/hmt/onboarding` (`OnboardingFlow.tsx`) does NOT make sense for canary close.
+
+CEO intent (ecosystem vision):
+- Brand enters portal → products / SKUs (plural) → suggested categories → evidence (PDF and/or TECRID) → decision → pay.
+- Do NOT force lock-in to one product/category/market during early onboarding.
+- Brands with multiple products must not be funneled into a single standard before the portfolio exists.
+
+ORDER (heavymetalcertified-app):
+1) Remove or defer FINDER_STEP from the hard path: allow Skip / Continue without selecting a category. Do not block account creation on finderSelection.
+2) If a finder preview is useful educationally, make it optional and clearly "example only — not your locked program scope."
+3) Real standard selection belongs later, per product/SKU in the portal products/readiness flow (multi-product), not as a one-shot onboarding gate.
+4) Update copy that says "your product's standard" (singular) wherever it implies one product forever.
+5) Append STATUS: what changed, routes affected, tests. Local commit OK. No blind push to master unless Elon PASS (H-5 hard-stop still separate).
+
+Also update `docs/portal-vision-gap-map.md` (or mirror in app docs) with a FLAG: Tier-1 "Standards Finder in onboarding" is NOT aligned with CEO multi-product vision — treat as debt, not ✅.
+
+Kill-gates stand: no Stripe secrets in repo, no taxonomy sprawl, totals-first elsewhere.
+
+
+### 2026-09-09T09:15Z · CLAUDE→ELON — STATUS: H-7 (gap-map FLAG done; app-repo edits BLOCKED, see BLOCKER)
+
+New directive H-7 (08:28Z) picked up by the unattended hourly runner. Executed the part that lives in this repo; the app-repo part is hard-blocked, not deferred by choice.
+
+DONE (index repo, `docs/portal-vision-gap-map.md`):
+- Tier-1 row "Get-Started → education → finder → NDA → account → portal shell" demoted from ✅ live to ⚠️ live, finder step is debt.
+- New structural flag 3, verbatim to the ORDER: the Standards Finder in onboarding is NOT aligned with the CEO multi-product vision; treat as debt, not ✅. Records the exact defect (`FINDER_STEP` gates `canAdvance` on `finderComplete`, so category+product+form+market are mandatory before an account exists), the intended shape (portal → products/SKUs plural → suggested categories → evidence → decision → pay), and the four required corrections from the ORDER.
+- Logged the open sub-question for whoever does the work: whether an optional preview should still seed `brand_readiness_profile.product_slug`/`variant_key`/`market`, since that profile is currently the only carrier of scope. Flagged as a question, not resolved unilaterally.
+- Ranked-finish table corrected: old #1 (merge+deploy the hard-stop) struck as DONE/LIVE 2026-09-08T16:40Z; H-7 un-gating installed as the new #1 with its gate (app repo, local commit OK, push = ORDER); `wwsaid` recommendation rewritten to match.
+
+RECON (read-only, app repo): `docs/H-7-ONBOARDING-STANDARD-LOCK.md` there is a 257-byte stub written at the ORDER timestamp — H-7 was unstarted. Branch `feat/registry-engine-context` at `acf1348` (one commit past the merged `75264d7`: scope-panel PDF now reads engine-context — H-6 P0#2 consumer 1 of 4 already migrated locally). Working tree clean apart from known untracked files; `stash@{0}` still parked. Note for whoever executes H-7: that stash touches the same file (`OnboardingFlow.tsx`, +52/−6, password/`<form>` UX), so apply it before or after H-7 deliberately, not blind.
+
+CONFIRMED SAFE (read-only): skipping the finder does not break signup. `createAccountFromOnboarding` already defaults `finderSelection` to `{}` and inserts `product_slug`/`variant_key`/`market` as `?? null`, so `brand_readiness_profile` tolerates an empty selection today. Un-gating is a UI/copy change, not a schema change.
+
+KILL-GATES HELD: nothing pushed (index repo commit only, local); no Stripe or other secrets touched; no taxonomy sprawl; totals-first/speciation untouched; no blank metal×subcategory cell created or altered.
+
+### 2026-09-09T09:15Z · CLAUDE→ELON — BLOCKER: H-7 items 1–4 cannot be executed by the unattended runner
+
+The code edits H-7 asks for live in `~/Desktop/heavymetalcertified-app`. This hourly bridge runner is sandboxed to `~/Desktop/heavy-metal-index`; every write into the app repo is refused by the harness permission layer (attempted twice, both denied). This is an environment boundary, not a judgment call and not a kill-gate — reads succeed, writes do not. Prior heartbeats' "needs an attended session in that repo" was therefore literal.
+
+To unblock: run H-7 from an attended Claude Code session with `~/Desktop/heavymetalcertified-app` as the working directory. Everything needed is scoped and small — `OnboardingFlow.tsx` (`canAdvance`, the `FINDER_STEP` heading/dek, an "example only — not your locked program scope" note, a Skip control, and a preview_only/skipped marker on the ack payload) plus the singular-standard copy in `src/app/hmt/onboarding/page.tsx` metadata. Grep confirms those two files are the only places the singular "your product's standard" framing appears; the "your standard" strings in `portal/schedule`, `portal/rewards`, and `lib/readiness/trends.ts` are per-product portal context and are correct as-is.
+
+Ledgered so it cannot die with this session: `OI-20260909-h7-onboarding-finder-ungate` (human-gated / code-fix / repo: cert), with the five acceptance criteria and the note that it is push-free until an Elon PASS.
