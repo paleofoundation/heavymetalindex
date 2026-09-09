@@ -1,11 +1,13 @@
 // Ask the Index — Vercel function. Per docs/ask-the-index-spec.md.
 //
 // Accepts POST { q | question, pageSlug? }. Retrieves up to 10 chunks from the
-// public wiki corpus (public/static/contentIndex.json). If retrieval is empty,
+// public wiki corpus (public/static/askIndex.json). If retrieval is empty,
 // returns a no-evidence-loaded JSON envelope. Otherwise streams the model
 // response from the Vercel AI Gateway (model: anthropic/claude-opus-4-7) back
 // to the client as Server-Sent Events, prefixed with a meta event carrying
 // the citation envelope.
+
+import { readFile } from "node:fs/promises"
 
 const DEFAULT_MODEL = "anthropic/claude-opus-4-7"
 const GATEWAY_URL = "https://ai-gateway.vercel.sh/v1/chat/completions"
@@ -63,14 +65,9 @@ const ENTITY_GROUPS = [
   ["zinc"],
 ]
 
-const PUBLIC_PREFIXES = [
-  "about","contact","editorial-standards","health/","index","ingredients/","metals/","methodology",
-  "microbiome/","privacy","products/","regulations/","sources/","supply-chain/","terms","testing/",
-]
+const PRIVATE_PREFIXES = ["app", "certification", "courses", "lint", "log", "queries", "tags", "batch-reports", "workbench", "private", "templates"]
 
-const PRIVATE_PREFIXES = ["app/","certification/","courses/","lint/","log","queries/","tags/"]
-
-let cachedCorpus
+const getCorpus = createCorpusLoader()
 
 export default async function handler(req, res) {
   setSecurityHeaders(res)
@@ -103,14 +100,14 @@ export default async function handler(req, res) {
       return
     }
 
-    const corpus = await getCorpus(req)
+    const corpus = await getCorpus()
     const retrieval = retrieve(question, corpus, pageSlug)
 
     if (retrieval.context.length === 0) {
       res.status(200).json({
         mode: "no_evidence_loaded",
         answer:
-          "Heavy Metal Index does not yet have wiki pages indexed for that question. Try a question about a specific food, metal, or regulation — for example, 'lead in cocoa' or 'EU mercury limit for tuna'.",
+          "I couldn’t find a sufficiently relevant passage for that wording. This does not mean the Index has no coverage. Try the food, product, metal, or topic name, or use Search the index to browse matching pages.",
         confidence: "insufficient",
         limits: "Retrieval matched zero wiki pages above the relevance threshold.",
         citations: [],
@@ -159,56 +156,79 @@ async function readJsonBody(req) {
   return raw ? JSON.parse(raw) : {}
 }
 
-async function getCorpus(req) {
-  if (cachedCorpus) return cachedCorpus
+export function createCorpusLoader(loadIndex = loadContentIndex) {
+  let cachedCorpus
+  return function getCorpus() {
+    // Share cold-start work across concurrent requests. Failed loads must be
+    // retryable; they are service errors, never evidence-absence answers.
+    cachedCorpus ??= loadIndex().then(buildCorpus).catch((error) => {
+      cachedCorpus = undefined
+      throw error
+    })
+    return cachedCorpus
+  }
+}
 
-  const contentIndex = await loadContentIndex(req)
+// The build emits complete published page text specifically for Ask. The
+// browser's contentIndex is a compact search digest and is not evidence context.
+export function buildCorpus(contentIndex) {
   const pages = Object.entries(contentIndex)
-    .filter(([slug]) => isPublicSlug(slug))
+    .filter(([slug, page]) => isPublicSlug(slug) && !page.noindex && !page.retired &&
+      page.status !== "tier1-stub" && page.evidence_tier !== "pending")
     .map(([slug, page]) => ({
       slug,
       title: cleanText(page.title || slug),
-      url: slug === "index" ? "/" : `/${slug}`,
+      url: slug === "index" ? "/" : `/${slug.replace(/\/index$/, "")}`,
       content: cleanText(page.content || ""),
+      aliases: Array.isArray(page.aliases) ? page.aliases : [],
       tags: Array.isArray(page.tags) ? page.tags : [],
       links: Array.isArray(page.links) ? page.links : [],
     }))
     .filter((page) => page.content.length > 80)
 
-  const chunks = []
-  for (const page of pages) chunks.push(...chunkPage(page))
-
-  cachedCorpus = { pages, chunks }
-  return cachedCorpus
+  const chunks = pages.flatMap(chunkPage)
+  const topics = pages.flatMap((page) => {
+    const leaf = page.slug.split("/").pop()
+    return [page.title, leaf === "index" ? "" : leaf, ...page.aliases]
+      .map(normalizeTopic)
+      .filter((phrase) => phrase.length >= 3 && tokenize(phrase).length > 0)
+      .map((phrase) => ({ phrase, slug: page.slug }))
+  })
+  return { pages, chunks, topics }
 }
 
-async function loadContentIndex(req) {
-  const baseUrl = getBaseUrl(req)
-  const indexUrl = new URL("/static/contentIndex.json", baseUrl)
-
+export async function loadContentIndex(read = readFile, fetchIndex = fetch) {
+  // Prefer the artifact bundled with this exact function deployment. This
+  // avoids stale production aliases and protected deployment-URL self-fetches.
   try {
-    const response = await fetch(indexUrl, { headers: { accept: "application/json" } })
-    if (response.ok) return await response.json()
+    return JSON.parse(await read(new URL("../public/static/askIndex.json", import.meta.url), "utf8"))
   } catch {
-    // Local-test fallback below.
+    // Local/manual runtimes without a bundled artifact may use the same public
+    // compiled output. Never fall back to the browser's truncated search index.
   }
 
-  const fs = await import("node:fs/promises")
-  const local = await fs.readFile(new URL("../public/static/contentIndex.json", import.meta.url), "utf8")
-  return JSON.parse(local)
+  const indexUrl = new URL("/static/askIndex.json", getBaseUrl())
+  const response = await fetchIndex(indexUrl, {
+    headers: { accept: "application/json" },
+    signal: AbortSignal.timeout(10_000),
+  })
+  if (!response.ok) throw new Error(`Ask index unavailable (${response.status})`)
+  return await response.json()
 }
 
-function getBaseUrl(req) {
-  const host = req.headers["x-forwarded-host"] || req.headers.host || "heavymetalindex.com"
-  const proto = req.headers["x-forwarded-proto"] || "https"
-  return `${proto}://${host}`
+function getBaseUrl() {
+  // VERCEL_URL pins retrieval to this deployment's compiled artifact. Never
+  // trust caller-supplied Host / X-Forwarded-Host as an evidence source.
+  return process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://heavymetalindex.com"
 }
 
 function isPublicSlug(slug) {
-  if (PRIVATE_PREFIXES.some((prefix) => slug === prefix.replace("/", "") || slug.startsWith(prefix))) {
-    return false
-  }
-  return PUBLIC_PREFIXES.some((prefix) => slug === prefix || slug.startsWith(prefix))
+  // Publication/noindex filtering happens in the emitter. Do not maintain a
+  // second public-family allowlist: it silently excluded new synthesis and
+  // regulator pages. Keep only explicit internal/provenance exclusions here.
+  return !PRIVATE_PREFIXES.some((prefix) => slug === prefix || slug.startsWith(`${prefix}/`))
 }
 
 function cleanText(value) {
@@ -223,19 +243,27 @@ function cleanText(value) {
 }
 
 function chunkPage(page) {
-  const paragraphs = page.content.split(/(?<=\.)\s+(?=[A-Z0-9])/)
   const chunks = []
-  let buffer = ""
-  for (const paragraph of paragraphs) {
-    const next = buffer ? `${buffer} ${paragraph}` : paragraph
-    if (next.length > 1300 && buffer.length > 350) {
-      chunks.push(createChunk(page, buffer, chunks.length))
-      buffer = paragraph
-    } else {
-      buffer = next
+  let start = 0
+  while (start < page.content.length) {
+    const remaining = page.content.slice(start)
+    let length = Math.min(1500, remaining.length)
+    if (length < remaining.length) {
+      const candidate = remaining.slice(0, length)
+      const sentences = [...candidate.matchAll(/[.!?]\s+/g)]
+      const boundary = sentences.at(-1)
+      const sentenceEnd = boundary ? boundary.index + boundary[0].length : 0
+      length = sentenceEnd > 750 ? sentenceEnd : candidate.lastIndexOf(" ")
+      if (length < 750) length = 1500
     }
+    chunks.push(createChunk(page, remaining.slice(0, length).trim(), chunks.length))
+    if (start + length >= page.content.length) break
+    // Keep an overlap for qualifications across boundaries, including long
+    // tables/paragraphs. Every part of the full page remains retrievable.
+    let nextStart = start + Math.max(1, length - 180)
+    while (nextStart > start + 1 && /\S/.test(page.content[nextStart - 1])) nextStart--
+    start = nextStart
   }
-  if (buffer.length > 80) chunks.push(createChunk(page, buffer, chunks.length))
   return chunks
 }
 
@@ -250,9 +278,9 @@ function createChunk(page, text, chunkIndex) {
   }
 }
 
-// Domain-relevance gate: the question must signal it's in scope for Heavy
-// Metal Index. If the question names no metal and no domain term, we treat
-// it as out-of-corpus regardless of incidental keyword matches.
+// Broad domain vocabulary supports natural-language questions. Published page
+// titles and aliases also establish relevance, so new foods/topics work as soon
+// as their compiled pages are published (without hand-editing this list).
 const DOMAIN_TERMS = [
   "metal","metals","heavy","contamination","contaminated","contaminant","exposure","occurrence",
   "food","foods","ingredient","ingredients","product","products","commodity","commodities",
@@ -264,21 +292,35 @@ const DOMAIN_TERMS = [
   "lead","cadmium","arsenic","mercury","nickel","aluminum","aluminium","chromium","tin","zinc","manganese","methylmercury",
 ]
 
-function questionInDomain(question) {
+function normalizeTopic(value) {
+  return String(value).normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim()
+}
+
+function matchTopics(question, corpus) {
+  const normalized = ` ${normalizeTopic(question)} `
+  return new Set(corpus.topics
+    .filter(({ phrase }) => normalized.includes(` ${phrase} `))
+    .map(({ slug }) => slug))
+}
+
+function questionInDomain(question, topicMatches) {
+  if (topicMatches.size > 0) return true
   const normalized = ` ${question.toLowerCase()} `
   return DOMAIN_TERMS.some((t) => new RegExp(`\\b${escapeRegExp(t)}\\b`, "i").test(normalized))
 }
 
 const MIN_TOP_SCORE = 20
 
-function retrieve(question, corpus, pageSlug) {
-  if (!questionInDomain(question)) return { context: [] }
+export function retrieve(question, corpus, pageSlug = "") {
+  const topicMatches = matchTopics(question, corpus)
+  if (!questionInDomain(question, topicMatches)) return { context: [] }
 
-  const queryTokens = expandTokens(tokenize(question))
+  const originalTokens = tokenize(question)
+  const queryTokens = expandTokens(originalTokens)
   const requiredEntities = findRequiredEntities(question)
   const scored = corpus.chunks
     .filter((chunk) => matchesRequiredEntities(chunk, requiredEntities))
-    .map((chunk) => ({ ...chunk, score: scoreChunk(chunk, queryTokens, question, pageSlug) }))
+    .map((chunk) => ({ ...chunk, score: scoreChunk(chunk, queryTokens, question, pageSlug, topicMatches, originalTokens) }))
     .filter((chunk) => chunk.score > 0)
     .sort((a, b) => b.score - a.score)
 
@@ -332,18 +374,25 @@ const METAL_TOKEN_SET = new Set([
   "nickel","ni","aluminum","aluminium","al","chromium","cr","tin","sn","zinc","zn","manganese","mn","uranium","u",
 ])
 
-function scoreChunk(chunk, tokens, rawQuestion, pageSlug) {
+function scoreChunk(chunk, tokens, rawQuestion, pageSlug, topicMatches, originalTokens) {
   const title = chunk.title.toLowerCase()
   const slug = chunk.slug.toLowerCase()
   const slugLeaf = slug.includes("/") ? slug.split("/").pop() : slug
   const text = chunk.text.toLowerCase()
   const question = rawQuestion.toLowerCase()
   let score = 0
+  if (topicMatches.has(chunk.slug)) {
+    score += chunk.category === "ingredients" ? 140 : 110
+  }
   for (const token of tokens) {
-    if (title.includes(token)) score += 12
-    if (slug.includes(token)) score += 8
-    const matches = text.match(new RegExp(escapeRegExp(token), "g"))?.length || 0
-    score += Math.min(matches, 8)
+    const pattern = `\\b${escapeRegExp(token)}\\b`
+    // Expansion is a recall aid, not permission for generic metal lists to
+    // outrank the actual topic words the reader used (e.g. microbial ecology).
+    const weight = originalTokens.includes(token) ? 1 : 0.25
+    if (new RegExp(pattern).test(title)) score += 12 * weight
+    if (new RegExp(pattern).test(slug)) score += 8 * weight
+    const matches = text.match(new RegExp(pattern, "g"))?.length || 0
+    score += Math.min(matches, 8) * weight
   }
   // Specific-commodity boost: when a non-metal query token matches the chunk's
   // slug-leaf (e.g. "turmeric" matches "ingredients/turmeric"), the matching
@@ -426,7 +475,8 @@ Evidence boundary:
 Traceability rules:
 - Every substantive factual claim must cite the relevant excerpt by Obsidian wikilink (e.g., [[ingredients/turmeric]]) or by full URL (e.g., https://heavymetalindex.com/ingredients/turmeric).
 - Use only slugs/URLs that appear in the provided excerpts.
-- If the excerpts do not support an answer, say "Heavy Metal Index does not yet contain enough evidence to answer that" and cite the closest related pages.
+- If the excerpts do not support an answer, say "The retrieved excerpts do not contain enough evidence to answer that" and cite the closest related pages.
+- Distinguish missing measurements on one page from absence of coverage across the Index. A scaffold or data-gap note does not negate substantive evidence on another cited page.
 - For comparative questions ("most contaminated", "highest", "best"), answer only if the excerpts support the comparison. Otherwise explain the evidence gap and cite the closest relevant pages.
 - Do not provide medical, legal, or regulatory advice. Frame answers as reference summaries of the wiki.
 
@@ -455,6 +505,7 @@ Traceability rules (the point of this mode):
 - Prefer the most directly cited, source-traceable statement. When the excerpts name a source page ([[sources/...]]), surface it so the reader can follow the chain to the primary literature.
 - When the excerpts distinguish a regulatory cap from cited field findings, state both and name the gap plainly. Do not collapse them.
 - If the excerpts do not support an answer, say so and cite the closest related pages rather than reaching.
+- Distinguish a data gap or scaffold on one page from the substantive coverage in other retrieved pages; never infer whole-Index absence from a local gap note.
 
 Firewall (do not cross):
 - Do not give legal, regulatory, or compliance advice. You summarize what the literature and regulations in the excerpts say.

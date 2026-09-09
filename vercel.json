@@ -10,7 +10,8 @@
   "cleanUrls": true,
   "functions": {
     "api/ask.js": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "includeFiles": "public/static/askIndex.json"
     },
     "api/contamination.mjs": {
       "maxDuration": 15

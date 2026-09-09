@@ -513,7 +513,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-234 open item(s): 77 auto, 157 awaiting a decision.
+235 open item(s): 78 auto, 157 awaiting a decision.
+
+### OI-20260909-olive-oil-product-summary-coverage — Trace olive-oil source coverage into the product occurrence summary
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `wiki/products/olive-oil.md`, `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`, `data/evidence/product_source_routing_audit.csv`
+- repro: The olive-oil product page lists 21 source records, but its generated Literature Evidence Summary reports no concentration data loaded for Pb, Cd, tAs, and Ni. On 2026-09-09 the routing audit classifies all 21 olive-oil routes as source_on_page_no_structured_value with value_record_count 0. The summary generator reads seven category-1/category-5 occurrence-summary CSVs; all seven have zero olive-oil rows. This confirms a source-to-table coverage gap, not proof that the renderer dropped eligible rows or that no olive-oil literature exists. Determine whether usable source facts await extraction/adjudication, live in another approved register the summary does not read, or are legitimately context-only.
+- done when: Trace every olive-oil source route to approved product-row occurrence records or an explicit context-only/extraction-pending disposition, preserving source, analyte species, basis, statistic type, censoring, and provenance.; If eligible occurrence records already exist outside the current seven CSV inputs, repair the central product-summary input path and verify the regenerated olive-oil summary includes them; do not patch generated wiki regions by hand.; If structured extraction is absent or ineligible, retain the specific documented gap and describe zero table rows as incomplete structured coverage, never as absence of olive-oil literature.; Do not promote source presence alone to numeric evidence; do not set certification limits, revive retired occurrence-based limit-setting, or claim ingest completion without the ingest gates.
+- evidence: wiki/products/olive-oil.md source legend: 21 rows; generated summary: four analytes with zero source count. · data/evidence/product_source_routing_audit.csv: 21 exact product_slug=olive-oil rows; all direct_evidence/source_on_page_no_structured_value/value_record_count=0. · tools/evidence/apply-product-hmtc-evidence-summaries.mjs occurrenceSummaryFiles lists seven category-1/category-5 CSVs; readOccurrenceRows loads only those files and occurrenceRowsFor filters exact row_slug and species; no olive-oil rows found in those inputs.
+- notes: Logged separately from the Ask retrieval and search UX repair. The stale blanket no-coverage prose has been corrected; this item concerns the preexisting structured product table only. No primary-text extraction or certification work was performed while logging it.
 
 ### OI-20260909-mobile-chrome-overflow — Existing mobile header and footer links overflow the viewport
 

@@ -4,6 +4,7 @@ import { pathToRoot, resolveRelative, type SimpleSlug, type FullSlug } from "../
 import { i18n } from "../i18n"
 import { utilityLinks } from "./topNavLinks"
 import { MegaMenu } from "./MegaMenu"
+import { SearchField } from "./SearchField"
 import style from "./styles/topNav.scss"
 // @ts-ignore — inline script, resolved by Quartz's esbuild loader
 import script from "./scripts/topNav.inline"
@@ -30,7 +31,6 @@ import askScript from "./scripts/askindex.inline"
 // All hrefs resolve relative to the current page so the bar is correct at any
 // directory depth. Active state is computed server-side from the current slug.
 
-
 // The reference plane's single outbound handoff to the member application.
 // Set to null to remove it in one edit: the apex is not serving yet (404 as of
 // 2026-07-31, see docs/findings.md F-13), so this must not reach production
@@ -45,8 +45,6 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
     const slug = (fileData.slug ?? "index") as FullSlug
     const baseDir = pathToRoot(slug)
     const wordmark = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
-    const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
-
 
     return (
       <div class={classNames(displayClass, "hmi-topnav")}>
@@ -108,49 +106,8 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
           <div class="hmi-topnav-spacer" aria-hidden="true"></div>
 
           <div class="hmi-topnav-actions">
-            {/*
-              Quartz's Search markup, rendered inline in the bar. It is NOT a
-              nested <Search/> component call: Quartz collects css/afterDOMLoaded
-              by walking the layout arrays, so a nested component's resources
-              would never be emitted. The DOM shape has to match search.inline.ts
-              (`.search` > `.search-button` + `.search-container .search-bar`
-              + `.search-layout`), which is what wires this up; the script
-              iterates every `.search` element on the page, so the homepage
-              hero's own search block is wired by the same bundle.
-            */}
-            <div class="search hmi-topnav-search" role="search">
-              <button class="search-button" type="button" aria-label={searchPlaceholder}>
-                {/* v3 line 55: the search mark is the mono glyph ⌕, not an SVG
-                    magnifier. The accessible name stays on the button, so the
-                    control is still announced; only the drawn icon changes. */}
-                <span class="hmi-topnav-glyph" aria-hidden="true">
-                  ⌕
-                </span>
-                {/* v3's search box reads "Search the index" (artifact 55), not the
-                    generic i18n search title. Scoped to the top bar rather than
-                    changed in i18n, because `components.search.title` also labels
-                    the search modal, where "Search" is correct. */}
-                <p>Search the index</p>
-                {/* v3 line 56: the "/" affordance sits inside the box, pushed
-                    right by an auto margin. Hidden below 1150px, where the
-                    whole box collapses to a 36px icon square. */}
-                <span class="hmi-topnav-kbd" aria-hidden="true">
-                  /
-                </span>
-              </button>
-              <div class="search-container">
-                <div class="search-space">
-                  <input
-                    autocomplete="off"
-                    class="search-bar"
-                    name="search"
-                    type="text"
-                    aria-label={searchPlaceholder}
-                    placeholder={searchPlaceholder}
-                  />
-                  <div class="search-layout" data-preview="true"></div>
-                </div>
-              </div>
+            <div class="search hmi-topnav-search hmi-inline-search">
+              <SearchField shortcut />
             </div>
             {/* v3 line 60: a plain 12.5px text link, not a filled pill. The
                 header carries exactly one filled control, Index Pro; a second

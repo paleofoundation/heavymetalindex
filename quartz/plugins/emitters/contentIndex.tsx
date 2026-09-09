@@ -15,6 +15,7 @@ export type ContentDetails = {
   title: string
   links: SimpleSlug[]
   tags: string[]
+  aliases?: string[]
   content: string
   richContent?: string
   date?: Date
@@ -156,10 +157,30 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     async *emit(ctx, content) {
       const cfg = ctx.cfg.configuration
       const linkIndex: ContentIndexMap = new Map()
+      const askIndex: Record<string, {
+        title: string
+        aliases: string[]
+        content: string
+        tags: string[]
+        links: SimpleSlug[]
+      }> = {}
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
         const noindex = isNoindex(file.data.frontmatter?.noindex)
+        const frontmatter = file.data.frontmatter
+        const aliases = Array.isArray(frontmatter?.aliases)
+          ? frontmatter.aliases.filter((alias): alias is string => typeof alias === "string")
+          : []
+        if (isAskEligible(slug, frontmatter as Record<string, unknown>)) {
+          askIndex[slug] = {
+            title: frontmatter?.title ?? slug,
+            aliases,
+            content: file.data.text ?? "",
+            tags: frontmatter?.tags ?? [],
+            links: file.data.links ?? [],
+          }
+        }
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
           linkIndex.set(slug, {
             slug,
@@ -167,6 +188,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             title: file.data.frontmatter?.title!,
             links: file.data.links ?? [],
             tags: file.data.frontmatter?.tags ?? [],
+            aliases,
             content: searchDigest(
               tree as Root,
               file.data.text ?? "",
@@ -209,15 +231,21 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         Array.from(linkIndex)
           .filter(([_, content]) => !content.noindex)
           .map(([slug, content]) => {
-            // remove description and from content index as nothing downstream
-            // actually uses it. we only keep it in the index as we need it
-            // for the RSS feed
-            delete content.description
+            // Keep descriptions and aliases for concise inline suggestions.
             delete content.date
             delete content.noindex
             return [slug, content]
           }),
       )
+
+      // Ask retrieves full compiled evidence without making every browser
+      // download/index the entire wiki. This is never imported by search UI.
+      yield write({
+        ctx,
+        content: JSON.stringify(askIndex),
+        slug: "static/askIndex" as FullSlug,
+        ext: ".json",
+      })
 
       yield write({
         ctx,
@@ -247,4 +275,15 @@ function isNoindex(value: unknown): boolean {
   if (typeof value === "boolean") return value
   if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
   return false
+}
+
+// This is the same publication boundary as browser search, tightened for
+// evidence use: pending source stubs and retired redirect pages cannot become
+// answer excerpts. New public topic families are included automatically.
+export function isAskEligible(slug: string, frontmatter: Record<string, unknown> = {}): boolean {
+  const internal = ["app", "certification", "courses", "lint", "log", "queries", "tags", "batch-reports", "workbench", "private", "templates"]
+  return !internal.some((prefix) => slug === prefix || slug.startsWith(`${prefix}/`)) &&
+    !isNoindex(frontmatter.noindex) && !isNoindex(frontmatter.draft) &&
+    !isNoindex(frontmatter.retired) && frontmatter.status !== "tier1-stub" &&
+    frontmatter.evidence_tier !== "pending"
 }
