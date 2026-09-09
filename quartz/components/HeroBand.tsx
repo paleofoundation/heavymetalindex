@@ -298,7 +298,9 @@ export default (() => {
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
 
     return (
-      <div class="hero-band">
+      <div
+        class={section === "synthesis" && !isIndex ? "hero-band hero-band--synthesis" : "hero-band"}
+      >
         <div class="hero-grid">
           <div class="hero-subject" aria-hidden="true">
             <div class="hero-subject-art">
@@ -334,21 +336,23 @@ export default (() => {
               <h1 class="hero-title">{title}</h1>
             </div>
 
+            {wikiDoi ? (
+              <a
+                class="hero-doi"
+                href={`https://doi.org/${wikiDoi}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Digital Object Identifier ${wikiDoi}`}
+                aria-label={`DOI ${wikiDoi}`}
+              >
+                <span class="hero-doi-label">DOI</span>
+                <span>{wikiDoi}</span>
+              </a>
+            ) : null}
+
             {dek ? <p class="hero-dek">{dek}</p> : null}
 
             <div class="hero-meta">
-              {wikiDoi ? (
-                <a
-                  class="hero-doi"
-                  href={`https://doi.org/${wikiDoi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title={`Digital Object Identifier ${wikiDoi}`}
-                >
-                  DOI {wikiDoi}
-                </a>
-              ) : null}
-
               <span class="hero-acts">
                 <a class="hero-act" href="#cite-this-page">
                   Cite this page

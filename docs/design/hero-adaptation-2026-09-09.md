@@ -20,3 +20,13 @@ The author photograph is Karen's existing public portrait, identified by Microbi
 - Removed legacy hero grid/action overrides and the inherited header margin on pages with a hero.
 
 The unrelated check failures are recorded as `OI-20260909-hero-baseline-validation`. This change is a local design preview, not a production deployment. Generator refreshes from validation are separate from the design commit.
+
+## Panel alignment and synthesis follow-up
+
+Karen identified that matching text insets did not align the actual rail panels. The old body used 236/312-pixel rails plus 56-pixel gaps; the hero used 264/340-pixel side panels without gaps. `quartz/styles/article-layout.scss` now supplies one grid, maximum width, outer gutter, and inner padding for both halves. A light reading-panel background makes the continuous center boundary visible. Quartz's intermediate mobile body padding is explicitly removed, and both grids switch to a single column at the same breakpoint.
+
+Synthesis titles retain their complete text with a more suitable 32–44-pixel scale. Existing page DOIs now appear directly under the title with a visible DOI label; the DOI metadata, citation action, history action and scholarly PDF link are retained. No DOI, publication status, or evidence claim is invented.
+
+Verification uses the DOI-bearing `synthesis/metals-microbiome-disease-pathogenesis` page. Fixed-width frames isolate phone/tablet/desktop geometry from other tasks resizing the shared browser. The isolated preview build avoids concurrent writers to `public/`. Focused HMI types pass; the same unrelated state-of-food test count assertion remains (290/291 tests passing).
+
+Final checks: all three panel boundaries match within 0.1 pixels at 1440 and 1920 pixels; the stacked center and right panels match at 390 and 1100 pixels. Hero content and DOI fit at all four widths. The synthesis DOI equals `citation_doi`; citation/history anchors resolve; the preview PDF exists and has a valid PDF header. The final isolated Quartz build passed (4,944 emitted files), and the existing renderer generated 25 synthesis PDFs and 10 metal PDFs in the preview folder.

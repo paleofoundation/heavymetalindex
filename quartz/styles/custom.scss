@@ -35,3 +35,6 @@
 @import "references-v3";
 @import "v3-primitives";
 @import "products-v3";
+
+// Shared article columns must remain identical above and below the hero.
+@import "article-layout";
