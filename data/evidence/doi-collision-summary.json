@@ -1,7 +1,7 @@
 {
   "generated_note": "Source pages sharing a DOI. Canonical suggested by inbound refs, key quality, frontmatter richness. Verify same-paper (title/authors) before deleting; a confabulated page can carry a wrong DOI and will NOT cluster here.",
-  "source_pages_with_doi": 2611,
-  "distinct_dois": 2611,
+  "source_pages_with_doi": 2632,
+  "distinct_dois": 2632,
   "duplicate_clusters": 0,
   "collapsible_pages": 0,
   "high_confidence_clusters": 0,

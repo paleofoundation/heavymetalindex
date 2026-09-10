@@ -1,19 +1,19 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "dataset": "hmi-sources",
   "title": "Heavy Metal Index — source corpus DOI locator",
   "description": "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
   "site": "https://heavymetalindex.com",
   "page_url_template": "https://heavymetalindex.com/sources/{slug}",
-  "generated_at": "2026-09-10T09:01:00.460Z",
-  "generated_commit": "b75e9c7f116567290fe99cc3ed2df8867b2f9dbd",
+  "generated_at": "2026-09-10T10:29:15.239Z",
+  "generated_commit": "d92be2f7aa6a0e0323c8909a017d26a1f0883b86",
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
-  "record_count": 2611,
+  "record_count": 2631,
   "by_doi": {
     "10.21315/jps2018.29.s3.8": {
       "slug": "ab-manan2018-oil-palm-soil-metals",
@@ -129,6 +129,11 @@
       "slug": "abuawad2023-folic-creatine-arsenic-methylation",
       "tier": "A",
       "year": 2023
+    },
+    "10.54219/arr.03.1.2025.418": {
+      "slug": "abubakar2025-faisalabad-sewage-vegetables",
+      "tier": "A",
+      "year": 2025
     },
     "10.58916/jhas.v8i5.106": {
       "slug": "aburas2023-libyan-honey-lead-cadmium",
@@ -4815,6 +4820,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.32686/1812-5220-2021-18-4-48-65": {
+      "slug": "bashkin2021-vegetable-risk-review",
+      "tier": "A",
+      "year": 2021
+    },
     "10.1007/s00128-023-03723-7": {
       "slug": "bauer2023-brazilian-sardine-metal-risk",
       "tier": "B",
@@ -5500,6 +5510,11 @@
       "tier": "A",
       "year": 2024
     },
+    "10.3390/foods13081151": {
+      "slug": "chen2024-shanghai-hydroponic-vegetables",
+      "tier": "A",
+      "year": 2024
+    },
     "10.1016/j.fochx.2024.101958": {
       "slug": "chen2024-trimodal-hg-food-sensor",
       "tier": "A",
@@ -6120,6 +6135,11 @@
       "tier": "B",
       "year": 2019
     },
+    "10.14258/jcprm.20230211725": {
+      "slug": "dyakova2023-voronezh-medicinal-plant-metals",
+      "tier": "A",
+      "year": 2023
+    },
     "10.3390/toxics13050377": {
       "slug": "dziubanek2025-upper-silesia-soil-children",
       "tier": "A",
@@ -6384,6 +6404,11 @@
       "slug": "engineering2024-process-effects-on-ammonia-chromium-total-suspended-solid",
       "tier": "B",
       "year": 2024
+    },
+    "10.54905/disssi.v9i10.e2ijad3057": {
+      "slug": "enogbe2025-bwari-chocolate-metals",
+      "tier": "A",
+      "year": 2025
     },
     "10.5334/aogh.3044": {
       "slug": "ericson2020-georgian-spices-lead",
@@ -6770,6 +6795,11 @@
       "tier": "B",
       "year": 2023
     },
+    "10.1186/1752-153x-6-156": {
+      "slug": "gergen2012-banat-mining-vegetable-pca",
+      "tier": "A",
+      "year": 2012
+    },
     "10.1371/journal.pone.0200792": {
       "slug": "gerofke2018-wild-game-lead",
       "tier": "A",
@@ -6809,6 +6839,11 @@
       "slug": "gintamo2022-groundwater-quality-oromia-ethiopia",
       "tier": "A",
       "year": 2022
+    },
+    "10.32622/ijrat.732019166": {
+      "slug": "giri2019-vigna-root-arsenic-speciation",
+      "tier": "A",
+      "year": 2019
     },
     "10.1007/s12011-021-02822-y": {
       "slug": "gnonsoro2021-hydroalcoholic-gels-abidjan",
@@ -6899,6 +6934,11 @@
       "slug": "groleau2025-inuit-fish-broth-metals-pregnancy",
       "tier": "A",
       "year": 2025
+    },
+    "10.18619/2072-9146-2017-5-74-75": {
+      "slug": "gromakova2017-rostov-root-crop-amendment",
+      "tier": "A",
+      "year": 2017
     },
     "10.3390/foods13050742": {
       "slug": "grzadka2024-tea-radioisotopes-heavy-metals",
@@ -7815,6 +7855,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.37933/jete/7.4.2025.2568": {
+      "slug": "joseph2025-gobbiya-dam-vegetable-metals",
+      "tier": "A",
+      "year": 2025
+    },
     "10.15406/ijh.2017.01.00032": {
       "slug": "joshi2017-charcoal-point-of-use-water-filter",
       "tier": "B",
@@ -7899,6 +7944,11 @@
       "slug": "kamouh2024-heavy-metals-chicken-meat-egypt",
       "tier": "A",
       "year": 2024
+    },
+    "10.46488/nept.2026.v25i01.d1830": {
+      "slug": "kananke2026-sri-lanka-leaf-bioaccessibility",
+      "tier": "A",
+      "year": 2026
     },
     "10.1007/s10653-024-02187-w": {
       "slug": "kanazawa2024-hg-speciation-asgm-kenya",
@@ -8399,6 +8449,11 @@
       "slug": "leskova2024-transbaikal-wild-mushrooms-elements",
       "tier": "A",
       "year": 2024
+    },
+    "10.12911/22998993/151092": {
+      "slug": "lestari2022-lead-vegetable-phytoextraction",
+      "tier": "A",
+      "year": 2022
     },
     "10.1038/s41370-023-00597-z": {
       "slug": "levin2024-us-drinking-water-contaminants",
@@ -9530,6 +9585,11 @@
       "tier": "A",
       "year": 2024
     },
+    "10.70729/se24205180530": {
+      "slug": "narayana-murthy2024-premna-village-elements",
+      "tier": "A",
+      "year": 2024
+    },
     "10.3329/bjar.v43i1.36157": {
       "slug": "naser2018-leafy-vegetables-bangladesh-metals",
       "tier": "A",
@@ -9915,6 +9975,11 @@
       "tier": "A",
       "year": 2024
     },
+    "10.52846/aamc.v52i1.1370": {
+      "slug": "oprea2022-sibiu-celery-root-metals",
+      "tier": "A",
+      "year": 2022
+    },
     "10.1089/wound.2015.0642": {
       "slug": "oranges2015-skin-physiology-neonate-infant-clinical",
       "tier": "B",
@@ -9989,6 +10054,11 @@
       "slug": "owusuadoma2024-ghana-lettuce-metals",
       "tier": "A",
       "year": 2024
+    },
+    "10.36948/ijfmr.2025.v07i05.56267": {
+      "slug": "ozarkar2025-nickel-cobalt-bioremediation",
+      "tier": "A",
+      "year": 2025
     },
     "10.5772/60770": {
       "slug": "ozarkar2025-phytoremediation-in-mitigation-of-heavy-metals",
@@ -10330,6 +10400,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.36560/19320262200": {
+      "slug": "prestes2026-stingless-bee-oxidative-stress-review",
+      "tier": "A",
+      "year": 2026
+    },
     "10.17794/rgn.2022.1.3": {
       "slug": "prevendar-crnic2022-rasa-coal-birds-htes",
       "tier": "A",
@@ -10444,6 +10519,11 @@
       "slug": "rahim2020-toxic-heavy-metals-fruits-pakistan",
       "tier": "A",
       "year": 2020
+    },
+    "10.25130/tjas.23.2.13": {
+      "slug": "rahim2023-iraq-irrigation-broccoli-cauliflower",
+      "tier": "A",
+      "year": 2023
     },
     "10.3390/pharmaceutics14020433": {
       "slug": "rahma2022-infant-skin-barrier-function-review",
@@ -11200,6 +11280,11 @@
       "tier": "C",
       "year": 2021
     },
+    "10.54393/mjz.v3i1.37": {
+      "slug": "shamsher2022-aloe-zinc-adsorption",
+      "tier": "A",
+      "year": 2022
+    },
     "10.1080/15569543.2016.1252932": {
       "slug": "sharafatichaleshtori2016-iran-rice-heavy-metals-review",
       "tier": "B",
@@ -11699,6 +11784,11 @@
       "slug": "sultana2022-dhaka-root-leafy-vegetables",
       "tier": "A",
       "year": 2022
+    },
+    "10.3233/ajw190036": {
+      "slug": "sumalatha2019-bangalore-sludge-washing",
+      "tier": "A",
+      "year": 2019
     },
     "10.46234/ccdcw2023.094": {
       "slug": "sun2022-china-cadmium-ptmi-rice",
@@ -12425,6 +12515,11 @@
       "tier": "B",
       "year": 2018
     },
+    "10.54097/hset.v26i.4008": {
+      "slug": "wen2022-mercury-water-removal-review",
+      "tier": "A",
+      "year": 2022
+    },
     "10.3389/fneur.2023.1124943": {
       "slug": "weyde2023-gestational-metals-cerebral-palsy",
       "tier": "A",
@@ -12792,6 +12887,11 @@
     },
     "10.3389/fpls.2023.1109467": {
       "slug": "zakrzewska2023-cadmium-soil-micp-parsley",
+      "tier": "A",
+      "year": 2023
+    },
+    "10.1016/j.jhazmat.2023.130992": {
+      "slug": "zandi2023-rice-root-chromium-speciation",
       "tier": "A",
       "year": 2023
     },

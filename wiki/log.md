@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] ingest | twenty-paper Library drain
+
+Twenty previously unprocessed Library papers were read, extracted and independently audited. Preserved 3,437 numeric/context observations and two attributed qualitative claims with source-native units, matrix, statistic and geographic qualifiers. Updated 50 destination pages, including product and ingredient evidence routes. Source contradictions, missing supplements, experimental-only matrices and reused cohorts remain explicit. See [[sources/oprea2022-sibiu-celery-root-metals]], [[sources/kananke2026-sri-lanka-leaf-bioaccessibility]], and [[mitigation/remediation-evidence]]. Direction: toward the literature; this batch publishes no certification thresholds.
+
+
 ## [2026-09-10] correction | FDA TDS full-data reconciliation and corpus integrity repair
 
 Restored 68,993 analytical results across 307 foods and routed every food to an ingredient destination. Corrected 299 profile cells, preserved non-detect reporting limits and source-specific observations, and added 103 provisional food destinations. Source and companion: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/fda-tds-elements-2018-2020]]. Evidence download, export and revision verification now share reproducible contracts. Scientific statements and earlier editorial records remain traceable. Direction: toward the primary evidence; no certification thresholds changed.

@@ -197,7 +197,7 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/ahmed2023-trace-metals-tomato-wastewater|Trace metal concentrations in tomato fruits irrigated with industrial wastewater in Cairo and health risk assessment (2023)]]
 - [[sources/abusalem2023-benisuef-groundwater|Unraveling the hydrogeochemical evolution and pollution sources of shallow aquifer using multivariate statistical analysis and hydrogeochemical techniques: a case study of the Quaternary aquifer in Beni Suef area, Egypt (2023)]]
 
-**Iraq** (25)
+**Iraq** (26)
 
 - [[sources/grandjean2010-methylmercury-health-research|Adverse Effects of Methylmercury: Environmental Health Research Implications (2010)]]
 - [[sources/alsabagh2025-canned-products-baghdad-heavy-metals|Assessment of heavy metal and nitrate contamination in canned products from local markets in Baghdad (2025)]]
@@ -224,8 +224,9 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/haider2022-biscuits-basrah-iraq-safety|Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq (2022)]]
 - [[sources/alfaraji2023-infant-formula-baghdad-minerals|The detection of some minerals in infant formula available in local markets (2023)]]
 - [[sources/matloob2016-iraq-spices-heavy-metals|Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq (2016)]]
+- [[sources/rahim2023-iraq-irrigation-broccoli-cauliflower|Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower) (2023)]]
 
-**Saudi Arabia** (24)
+**Saudi Arabia** (23)
 
 - [[sources/althobiti2021-wheat-miswak-bioaccessible-lead|An Isotopic Study of Bio-accessible Lead in Wheat, Miswak Toothbrush and Miswak Fruit Using the Continuous On-line Leaching Method with Inductively Coupled Plasma Mass Spectrometry (2021)]]
 - [[sources/alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia|Chemical analysis of toxic elements: total cadmium, lead, mercury, arsenic and inorganic arsenic in local and imported rice consumed in the Kingdom of Saudi Arabia (2024)]]
@@ -246,7 +247,6 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/farid2010-fruit-juices-jeddah-trace-elements|Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia (2010)]]
 - [[sources/cicero2022-minerals-spices-aromatic-herbs|Mineral and Microbiological Analysis of Spices and Aromatic Herbs (2022)]]
 - [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia (2023)]]
-- [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia (2020)]]
 - [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations (2022)]]
 - [[sources/aljubiri2024-sewage-sludge-carbon-cadmium-lead|Recycling of Sewage Sludge: Synthesis and Application of Sludge-Based Activated Carbon in the Efficient Removal of Cadmium (II) and Lead (II) from Wastewater (2024)]]
 - [[sources/al-otaibi2024-wadi-hanifah-metals-args|Screening for Antibiotic Resistance Genes in Bacteria and the Presence of Heavy Metals in the Upstream and Downstream Areas of the Wadi Hanifah Valley in Riyadh, Saudi Arabia (2024)]]

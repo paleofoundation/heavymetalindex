@@ -6,7 +6,7 @@ name: Manganese
 species: [Mn2+, Mn3+, total-manganese]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 165
+sources: 168
 wiki_doi: null
 updated: 2026-05-17
 n_sources: 2
@@ -79,6 +79,9 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 2. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 3. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -88,9 +91,17 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [c8506edd81](https://github.com/paleofoundation/heavymetalindex/commit/c8506edd81) | 2026-09-10 | major | 2 sources added; 2 sections added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 8 sections added; narrative text revised |
 | [41191f2c9c](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9c) | 2026-08-02 | major | 1 section added |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sources added; 9 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/narayana-murthy2024-premna-village-elements|G. Narayana Murthy, 2024]].** Premna latifolia leaves collected in three Andhra Pradesh villages had different reported elemental concentrations. Village-specific values are preserved as local leafy-vegetable evidence; the paper supplies no replicate counts or uncertainty estimates. Supports geographic variation in six elements in a specific wild edible leaf. It does not establish nutritional adequacy, safety, or a regional market distribution. The source’s characterization of aluminium as an essential nutrient is not adopted.
+
+**[[sources/bashkin2021-vegetable-risk-review|Vladimir N. Bashkin, 2021]].** Bashkin and Galiulina review vegetable-associated metal exposure assessment and microbial/agronomic risk-management approaches. Chinese and Russian case-study values are secondary reports; they remain traceable to the cited studies and are not counted as new independent occurrence samples. Supports exposure-method and remediation literature discovery. Bacterial effects can increase as well as decrease uptake depending on organism, metal and plant; the review does not establish a universal inoculant intervention. Secondary model outputs are not contemporary health or certification thresholds.
+
+**[[sources/gergen2012-banat-mining-vegetable-pca|Iosif Gergen, 2012]].** Gergen and Harmanescu analyze metal contamination patterns across two historic Romanian mining areas and a reference area. Their PCA study reproduces vegetable concentrations and male hazard quotients from the earlier Harmanescu 2011 study; these remain linked secondary observations rather than additional independent samples. Supports legacy mining and tissue/region differences. Parsley root and leaf remain distinct, as do carrot root and leaf. The fresh-matter food table is retained with cohort linkage so that a reanalysis cannot inflate the evidence pool. Source THQ rankings are model results, not clinical outcomes.

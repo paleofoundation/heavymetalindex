@@ -50,16 +50,28 @@ Reading the aquatic literature correctly requires holding three sources of withi
 
 Source pages reporting seawater, freshwater, sediment, atmospheric-deposition, or discharge-inventory data are upstream evidence in exactly the sense set out above. They attach to the [seafood](/ingredients/seafood) and aquatic-species [ingredients](/ingredients) they inform as exposure and mechanism context rather than as direct food-occurrence evidence, preserving the separation between an ambient concentration and a food concentration, and they support the synthesis of why a given species carries the contamination profile it does. The routing layer connects each upstream source to the consumable it informs, so that the methylation and biomagnification literature is visible from the [methylmercury](/metals/mercury-methyl) and [total mercury](/metals/mercury-total) pages and from the predator-fish ingredient pages, the bivalve and crustacean cadmium literature from the [cadmium](/metals/cadmium) page and the [bivalve molluscs](/ingredients/bivalve-molluscs) and [shellfish](/ingredients/shellfish) pages, the seaweed speciation literature from the [inorganic arsenic](/metals/arsenic-inorganic) page and the [seaweed](/ingredients/seaweed) page, and the nearshore lead and organotin literature from the [lead](/metals/lead) and [organotins](/metals/organotins) pages, in each case without being mistaken for a measured food concentration or promoted into a threshold percentile. The regulatory counterparts to this pathway, the methylmercury limits for fish in [Regulation (EU) 2022/617](/regulations/eu-reg-2022-617-mercury-fish) and the United States [FDA action level for methylmercury in fish](/regulations/fda-cpg-540-600-methylmercury-fish), and the mollusc and crustacean cadmium limits in [Regulation (EU) 2023/915](/regulations/eu-2023-915-cadmium), are written against the species, tissue, and trophic structure this hub describes. The element-by-element and species-by-species causal accounts build on this hub as dedicated synthesis pages, and the actionable downstream counterpart for harvest-site and sourcing controls is developed on the [supply-chain screening](/mitigation/supply-chain-screening) page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/wen2022-mercury-water-removal-review|Jiayue Wen, 2022]].** Wen reviews historical mercury releases from combustion, mining and natural exchange, then discusses adsorption and carbon-dot-modified chitosan fabrics. The review is useful for discovery and pathway context but contains chemical and numerical errors that preclude treating its broad safety or efficacy statements as verified findings. Supports mercury source-pathway and removal-material discovery. Claims that mercury compounds are generally harmless or that only elemental mercury is toxic are rejected; the paper itself contradicts them in its introduction. No current emissions trend or safe discharge concentration is inferred.

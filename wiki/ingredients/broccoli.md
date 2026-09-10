@@ -234,6 +234,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 5. [[sources/chiutula2025-wastewater-vegetables-malawi|Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi]]<span class="hmi-ref-meta">Chiutula C, Mtewa AG, Abraham A, Mvula RLS, Maluwa A, Eregno FE, et al. · International Journal of Environmental Research and Public Health · 2025 · [doi.org/10.3390/ijerph22111614](https://doi.org/10.3390/ijerph22111614)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 7. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
+8. [[sources/rahim2023-iraq-irrigation-broccoli-cauliflower|Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower)]]<span class="hmi-ref-meta">Bayan Rashid Rahim · Tikrit Journal for Agricultural Sciences 23(2):162–170 · 2023 · [doi.org/10.25130/tjas.23.2.13](https://doi.org/10.25130/tjas.23.2.13)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -260,9 +261,13 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | major | 2 sources added; contamination-profile values revised; 2 sections added and 1 removed |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 2 sources added; narrative text revised |
 | [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
 | [942bc6b1bb](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1bb) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/rahim2023-iraq-irrigation-broccoli-cauliflower|Bayan Rashid Rahim, 2023]].** Rahim measured lead, cadmium, iron and copper in dried edible broccoli and cauliflower heads grown under three irrigation regimes in Sulaymaniyah, Iraq. The tables preserve crop-specific differences: wastewater-irrigated broccoli had the largest listed values for the four metals, whereas cauliflower cadmium was greatest under alternating irrigation. The paired treatment summaries contribute source-native vegetable occurrence and irrigation-pathway evidence. The dried basis is not interchangeable with fresh vegetables. The experiment is site- and season-specific and does not characterize all river water, all Iraqi produce or long-term dietary exposure.

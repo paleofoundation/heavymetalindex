@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 26
+sources: 27
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
@@ -187,6 +187,8 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 6. [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina|Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso]]<span class="hmi-ref-meta">Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, et al. · Frontiers in Water · 2021 · [doi.org/10.3389/frwa.2021.667308](https://doi.org/10.3389/frwa.2021.667308)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 7. [[sources/schaefer2020-cadmium-mitigation-strategies|Cadmium: Mitigation strategies to reduce dietary exposure]]<span class="hmi-ref-meta">Schaefer HR, Dennis S, and Fitzpatrick S · Journal of Food Science · 2020 · [doi.org/10.1111/1750-3841.14997](https://doi.org/10.1111/1750-3841.14997)</span><span class="hmi-ref-tag">Review</span>
 8. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+9. [[sources/chen2024-shanghai-hydroponic-vegetables|Occurrence and Risk Assessment of Pesticides, Phthalates, and Heavy Metal Residues in Vegetables from Hydroponic and Conventional Cultivation]]<span class="hmi-ref-meta">Shanshan Chen, Chunxia Yao, Jiaxin Zhou, Haiyao Ma, Jing Jin, Weiguo Song, et al. · Foods 13, 1151 · 2024 · [doi.org/10.3390/foods13081151](https://doi.org/10.3390/foods13081151)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -222,6 +224,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 24 | [[sources/schaefer2020-cadmium-mitigation-strategies\|Schaefer et al. 2020]]. *Cadmium: Mitigation strategies to reduce dietary exposure*, Journal of Food Science | 2020 | Review | Cadmium dietary-exposure mitigation review covering agronomic and processing levers for leafy crops |
 | 25 | [[sources/alimohammadi2018-tehran-supermarket-vegetables\|Alimohammadi et al. 2018]]. *Heavy metal(oid)s concentration in Tehran supermarket vegetables: carcinogenic and non-carcinogenic health risk assessment*, Toxin Reviews | 2018 | Peer-reviewed | IR tAs, Cd, Cr, Cu, Ni, Pb, Zn occurrence in Six vegetable types (lettuce, cabbage, tomato, cucumber, potato, carrot; n=16 each, 96 total) collected from Tehran central fruit... (n=96) |
 | 26 | [[sources/salehipour2015-iran-isfahan-cereals-vegetables-metals\|Salehipour et al. 2015]]. *Health Risks from Heavy Metals via Consumption of Cereals and Vegetables in Isfahan Province, Iran*, Human and Ecological Risk Assessment: An International Journal | 2015 | Peer-reviewed | IR Pb, tAs, Ni, Zn, Cu occurrence in Seventy edible-part samples of nine commodities — onion (Allium cepa), leek (Allium pp.; species not stated by authors),... (n=70) |
+| 27 | [[sources/gergen2012-banat-mining-vegetable-pca\|Gergen et al. 2012]]. *Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas*, Chemistry Central Journal6:156 | 2012 | Peer-reviewed | RO Fe, Mn, Zn, Cu, Ni, Cd, Pb occurrence in Three Banat areas: Ruschita,MoldovaNoua and Borlova reference;27soil composites from10grabs each;27vegetable/tissue-region summaries reused from Harmanescu2011. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -231,9 +234,15 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 6 sources removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | minor | Narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 6 sources added; 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/chen2024-shanghai-hydroponic-vegetables|Shanshan Chen, 2024]].** Shanghai farm samples had lower reported lead and cadmium concentrations under hydroponic cultivation than conventional soil cultivation. The element-specific summaries combine four vegetables, while commodity-specific means combine lead with cadmium; neither split can be reconstructed into commodity-by-element concentrations from the preserved main paper. Supports a local cultivation-system comparison and the soil/irrigation pathway. It does not establish commodity-specific Pb or Cd distributions or universal hydroponic safety. Mixed-contaminant hazard indices include pesticides and phthalates; their interpretation remains source-reported.
+
+**[[sources/gergen2012-banat-mining-vegetable-pca|Iosif Gergen, 2012]].** Gergen and Harmanescu analyze metal contamination patterns across two historic Romanian mining areas and a reference area. Their PCA study reproduces vegetable concentrations and male hazard quotients from the earlier Harmanescu 2011 study; these remain linked secondary observations rather than additional independent samples. Supports legacy mining and tissue/region differences. Parsley root and leaf remain distinct, as do carrot root and leaf. The fresh-matter food table is retained with cohort linkage so that a reanalysis cannot inflate the evidence pool. Source THQ rankings are model results, not clinical outcomes.

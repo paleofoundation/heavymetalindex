@@ -213,6 +213,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 9. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 10. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants]]<span class="hmi-ref-meta">Kumar A and et al. · Environmental Health 23(1) · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 11. [[sources/fsai2016-total-diet-study-ireland-2012-2014|Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014]]<span class="hmi-ref-meta">Food Safety Authority of Ireland (FSAI) · FSAI Chemical Monitoring and Surveillance Series · 2016 · [www.fsai.ie](https://www.fsai.ie/publications/total-diet-study-2012-2014)</span><span class="hmi-ref-tag">Government</span>
+12. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -277,9 +278,13 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | major | 3 sources added; contamination-profile values revised; 2 sections added and 1 removed |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 4 sources removed; narrative text revised |
 | [e0f4705c7e](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7e) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 4 sources added; narrative text revised |
 | [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
-| [942bc6b1bb](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1bb) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/gromakova2017-rostov-root-crop-amendment|N. V. Gromakova, 2017]].** A 2015 Rostov-region field experiment measured copper, zinc and lead in beetroot and potato grown on artificially metal-amended chernozem. Adding mineral fertilizer reduced several crop concentrations relative to the metal-only treatment, while yield responses differed between crops. Supports crop-specific agronomic mitigation and soil-to-crop transfer evidence. Artificially amended experimental crops are not a market-occurrence distribution. Paper limit comparisons remain secondary context.

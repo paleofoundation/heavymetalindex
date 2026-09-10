@@ -99,7 +99,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 8
+sources: 9
 ---
 
 # Celery
@@ -237,6 +237,8 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 3. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis]]<span class="hmi-ref-meta">Dearing C, Ye Z, and Robertshaw G · F1000Research · 2025 · [doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment]]<span class="hmi-ref-meta">Wu Z · International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 · 2024 · [doi.org/10.62051/10.62051/ijnres.v2n1.21](https://doi.org/10.62051/10.62051/ijnres.v2n1.21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/islam2007-dietary-toxicity-vegetables-food-crops|Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops]]<span class="hmi-ref-meta">Islam EU, Yang XE, He ZL, and Mahmood Q · Journal of Zhejiang University Science B · 2007 · [doi.org/10.1631/jzus.2007.B0001](https://doi.org/10.1631/jzus.2007.B0001)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/chen2024-shanghai-hydroponic-vegetables|Occurrence and Risk Assessment of Pesticides, Phthalates, and Heavy Metal Residues in Vegetables from Hydroponic and Conventional Cultivation]]<span class="hmi-ref-meta">Shanshan Chen, Chunxia Yao, Jiaxin Zhou, Haiyao Ma, Jing Jin, Weiguo Song, et al. · Foods 13, 1151 · 2024 · [doi.org/10.3390/foods13081151](https://doi.org/10.3390/foods13081151)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -251,9 +253,10 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 3 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*, Horticulturae | 2022 | Peer-reviewed | RO/EU tAs, Cd, Pb, Zn occurrence in 80 fruit and vegetable samples from Galați County, Romania (45 from vegetable/fruit market, 35 from amateur farmers), collected... (n=80) |
 | 4 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 5 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Celery, raw (n=27); detectable concentrations for Cd, Cr, Ni, tAs |
-| 6 | [[sources/sadee2022-erbil-vegetables\|Sadee 2022]]. *Determination of trace metals in vegetables using ICP-MS*, ZANCO Journal of Pure and Applied Sciences | 2022 | Peer-reviewed | IQ tAs, Cd, Cr, Pb, Cu occurrence in ten common vegetables from local markets in Erbil, Kurdistan Region, Iraq (n=10) |
-| 7 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Concentration of cadmium and lead in vegetables and fruits*, Scientific Reports | 2021 | Peer-reviewed | PL Cd, Pb occurrence in 370 samples drawn from the Polish retail market and analysed under Polish State Sanitary Inspection (n=292 by the... (n=370) |
-| 8 | [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|Islam EU 2007]]. *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*, Journal of Zhejiang University Science B | 2007 | Review | Cd accumulation in celery shoot and root tissue from Zhejiang pot experiments with soil-Cd threshold derivation for safe vegetable production |
+| 6 | [[sources/oprea2022-sibiu-celery-root-metals\|Oprea et al. 2022]]. *HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA*, Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 | 2022 | Peer-reviewed | RO Cd, Pb, Zn, Cu occurrence in Paired soil and celery-root collections from26households in seven Copsa Mica-area settlements,SibiuCounty,2021–2022. (n=26) |
+| 7 | [[sources/sadee2022-erbil-vegetables\|Sadee 2022]]. *Determination of trace metals in vegetables using ICP-MS*, ZANCO Journal of Pure and Applied Sciences | 2022 | Peer-reviewed | IQ tAs, Cd, Cr, Pb, Cu occurrence in ten common vegetables from local markets in Erbil, Kurdistan Region, Iraq (n=10) |
+| 8 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Concentration of cadmium and lead in vegetables and fruits*, Scientific Reports | 2021 | Peer-reviewed | PL Cd, Pb occurrence in 370 samples drawn from the Polish retail market and analysed under Polish State Sanitary Inspection (n=292 by the... (n=370) |
+| 9 | [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|Islam EU 2007]]. *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*, Journal of Zhejiang University Science B | 2007 | Review | Cd accumulation in celery shoot and root tissue from Zhejiang pot experiments with soil-Cd threshold derivation for safe vegetable production |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -263,9 +266,15 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | major | 2 sources added; contamination-profile values revised; 2 sections added and 1 removed |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 2 sources removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 2 sources added; narrative text revised |
 | [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
 | [942bc6b1bb](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1bb) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/chen2024-shanghai-hydroponic-vegetables|Shanshan Chen, 2024]].** Shanghai farm samples had lower reported lead and cadmium concentrations under hydroponic cultivation than conventional soil cultivation. The element-specific summaries combine four vegetables, while commodity-specific means combine lead with cadmium; neither split can be reconstructed into commodity-by-element concentrations from the preserved main paper. Supports a local cultivation-system comparison and the soil/irrigation pathway. It does not establish commodity-specific Pb or Cd distributions or universal hydroponic safety. Mixed-contaminant hazard indices include pesticides and phthalates; their interpretation remains source-reported.
+
+**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; product routing is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.

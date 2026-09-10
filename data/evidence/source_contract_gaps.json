@@ -16280,6 +16280,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/gergen2012-banat-mining-vegetable-pca.md",
+      "cite_key": "gergen2012-banat-mining-vegetable-pca",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/gerofke2018-wild-game-lead.md",
       "cite_key": "gerofke2018-wild-game-lead",
       "metadata_complete": false,
@@ -24637,6 +24648,17 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/ozarkar2025-nickel-cobalt-bioremediation.md",
+      "cite_key": "ozarkar2025-nickel-cobalt-bioremediation",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/ozarkar2025-phytoremediation-in-mitigation-of-heavy-metals.md",
       "cite_key": "ozarkar2025-phytoremediation-in-mitigation-of-heavy-metals",
       "metadata_complete": false,
@@ -25409,6 +25431,17 @@
     {
       "page": "wiki/sources/prasanna2025-betwa-yamuna-metal-pollution.md",
       "cite_key": "prasanna2025-betwa-yamuna-metal-pollution",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/prestes2026-stingless-bee-oxidative-stress-review.md",
+      "cite_key": "prestes2026-stingless-bee-oxidative-stress-review",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -30679,6 +30712,17 @@
     {
       "page": "wiki/sources/welna2018-brown-rice-inorganic-arsenic.md",
       "cite_key": "welna2018-brown-rice-inorganic-arsenic",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "evidence_fitness",
+        "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/wen2022-mercury-water-removal-review.md",
+      "cite_key": "wen2022-mercury-water-removal-review",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [

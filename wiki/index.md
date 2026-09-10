@@ -37,11 +37,11 @@ updated: 2026-09-10
     <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-10</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,550</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,562</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,507</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">1,365</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,519</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">4,804</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
@@ -121,7 +121,7 @@ updated: 2026-09-10
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,067</span>
+    <span class="hmi-v3-registry-n">3,079</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -142,49 +142,49 @@ updated: 2026-09-10
     <tbody>
       <tr>
         <td class="hmi-metal-name"><a href="metals/cadmium/">Cadmium</a> <span>Cd</span></td>
-        <td class="hmi-metal-n">1,575</td>
+        <td class="hmi-metal-n">1,580</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Cocoa, leafy greens, root vegetables, offal</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,447</td>
+        <td class="hmi-metal-n">1,453</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/chromium/">Chromium</a> <span>Cr</span></td>
-        <td class="hmi-metal-n">874</td>
+        <td class="hmi-metal-n">879</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Processing contact, drinking water</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/nickel/">Nickel</a> <span>Ni</span></td>
-        <td class="hmi-metal-n">770</td>
+        <td class="hmi-metal-n">776</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EU maximum levels</span></td>
         <td class="hmi-metal-drivers">Legumes, nuts, cocoa, equipment contact</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/aluminum/">Aluminum</a> <span>Al</span></td>
-        <td class="hmi-metal-n">534</td>
+        <td class="hmi-metal-n">535</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Additives, packaging contact, botanicals</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/arsenic-total/">Arsenic</a> <span>As</span></td>
-        <td class="hmi-metal-n">368</td>
+        <td class="hmi-metal-n">369</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Rice, seaweed, drinking water, apple juice</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/mercury-total/">Mercury</a> <span>Hg</span></td>
-        <td class="hmi-metal-n">274</td>
+        <td class="hmi-metal-n">276</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">JECFA PTWI, MeHg</span></td>
         <td class="hmi-metal-drivers">Predatory fish, shellfish</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/tin/">Tin</a> <span>Sn</span></td>
-        <td class="hmi-metal-n">227</td>
+        <td class="hmi-metal-n">228</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Codex ML</span></td>
         <td class="hmi-metal-drivers">Canned foods, acidic matrices</td>
       </tr>
@@ -311,3 +311,7 @@ updated: 2026-09-10
 <!-- END: hmi-home-recently-updated -->
 
 </div>
+
+## Geographic variation and remediation literature
+
+Recently added Library evidence includes [[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Sri Lankan leafy-vegetable digestion experiments]], [[sources/oprea2022-sibiu-celery-root-metals|Romanian celery-root and soil measurements]], and [[sources/sumalatha2019-bangalore-sludge-washing|Indian sludge-washing experiments]]. Further source-specific findings are routed through [[supply-chain/soil-to-plant-transfer]] and [[mitigation/remediation-evidence]].

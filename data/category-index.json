@@ -472,7 +472,7 @@
     {
       "slug": "dairy-and-eggs",
       "label": "Dairy & eggs",
-      "count": 11,
+      "count": 12,
       "samples": [
         "Cheddar cheese",
         "Chocolate reduced-fat milk",
@@ -516,12 +516,12 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 83,
+      "count": 187,
       "samples": [
         "Almond",
-        "Baby Cereals Dry",
-        "Baby Food",
-        "Bee Pollen"
+        "Almond beverage",
+        "Apple pie",
+        "Baby Cereals Dry"
       ]
     }
   ],
@@ -535,7 +535,7 @@
           "slug": "metals/aluminum",
           "title": "Aluminum",
           "symbol": "Al",
-          "count": 534
+          "count": 535
         },
         {
           "slug": "metals/antimony",
@@ -547,31 +547,31 @@
           "slug": "metals/arsenic",
           "title": "Arsenic",
           "symbol": "As",
-          "count": 876
+          "count": 875
         },
         {
           "slug": "metals/arsenic-inorganic",
           "title": "Arsenic, Inorganic",
           "symbol": "iAs",
-          "count": 106
+          "count": 107
         },
         {
           "slug": "metals/arsenic-total",
           "title": "Arsenic, Total",
           "symbol": "tAs",
-          "count": 365
+          "count": 369
         },
         {
           "slug": "metals/cadmium",
           "title": "Cadmium",
           "symbol": "Cd",
-          "count": 1570
+          "count": 1580
         },
         {
           "slug": "metals/chromium",
           "title": "Chromium",
           "symbol": "Cr",
-          "count": 871
+          "count": 879
         },
         {
           "slug": "metals/chromium-hexavalent",
@@ -583,7 +583,7 @@
           "slug": "metals/lead",
           "title": "Lead",
           "symbol": "Pb",
-          "count": 1440
+          "count": 1453
         },
         {
           "slug": "metals/mercury",
@@ -595,7 +595,7 @@
           "slug": "metals/mercury-total",
           "title": "Mercury, Total",
           "symbol": "tHg",
-          "count": 271
+          "count": 276
         },
         {
           "slug": "metals/mercury-methyl",
@@ -607,7 +607,7 @@
           "slug": "metals/nickel",
           "title": "Nickel",
           "symbol": "Ni",
-          "count": 767
+          "count": 776
         },
         {
           "slug": "metals/organotins",
@@ -619,7 +619,7 @@
           "slug": "metals/tin",
           "title": "Tin",
           "symbol": "Sn",
-          "count": 227
+          "count": 228
         },
         {
           "slug": "metals/tin-inorganic",
@@ -644,7 +644,7 @@
           "slug": "metals/barium",
           "title": "Barium",
           "symbol": "Ba",
-          "count": 45
+          "count": 46
         },
         {
           "slug": "metals/beryllium",
@@ -662,13 +662,13 @@
           "slug": "metals/cobalt",
           "title": "Cobalt",
           "symbol": "Co",
-          "count": 134
+          "count": 138
         },
         {
           "slug": "metals/copper",
           "title": "Copper",
           "symbol": "Cu",
-          "count": 314
+          "count": 327
         },
         {
           "slug": "metals/gold",
@@ -680,7 +680,7 @@
           "slug": "metals/iron",
           "title": "Iron",
           "symbol": "Fe",
-          "count": 173
+          "count": 180
         },
         {
           "slug": "metals/lithium",
@@ -698,13 +698,13 @@
           "slug": "metals/manganese",
           "title": "Manganese",
           "symbol": "Mn",
-          "count": 165
+          "count": 168
         },
         {
           "slug": "metals/molybdenum",
           "title": "Molybdenum",
           "symbol": "Mo",
-          "count": 28
+          "count": 29
         },
         {
           "slug": "metals/palladium",
@@ -752,7 +752,7 @@
           "slug": "metals/zinc",
           "title": "Zinc",
           "symbol": "Zn",
-          "count": 284
+          "count": 292
         }
       ]
     }
@@ -761,7 +761,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1344,
+      "count": 1346,
       "samples": [
         "United States",
         "Canada",
@@ -772,7 +772,7 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 152,
+      "count": 153,
       "samples": [
         "Brazil",
         "Peru",
@@ -783,7 +783,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 594,
+      "count": 599,
       "samples": [
         "European Union",
         "Poland",
@@ -794,7 +794,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 285,
+      "count": 286,
       "samples": [
         "Iran",
         "Turkey",
@@ -805,7 +805,7 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 190,
+      "count": 192,
       "samples": [
         "Nigeria",
         "Ethiopia",
@@ -816,18 +816,18 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 227,
+      "count": 234,
       "samples": [
         "India",
         "Bangladesh",
         "Pakistan",
-        "Kazakhstan"
+        "Sri Lanka"
       ]
     },
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 440,
+      "count": 445,
       "samples": [
         "China",
         "Japan",
@@ -849,7 +849,7 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 261,
+      "count": 260,
       "samples": [
         "International / multi-country",
         "EAC",

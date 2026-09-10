@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-08-11
+updated: 2026-09-10
 noindex: false
 ---
 
@@ -12,7 +12,7 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-08-11** from the current state of the corpus.
+This page was regenerated on **2026-09-10** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
@@ -32,21 +32,21 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
  │
  │ Papers from year ≥ 2020: 14,343
  ▼
- Eligibility: 3066 source pages currently in wiki/sources/
+ Eligibility: 3080 source pages currently in wiki/sources/
  │
- │ evidence_tier A: 1502
- │ evidence_tier B: 1460
+ │ evidence_tier A: 1519
+ │ evidence_tier B: 1457
  │ evidence_tier C: 103
  │ evidence_tier unknown: 1
  ▼
  Included: Source pages routed to destination pages
  │
- │ Routing rows in product_source_routing_audit.csv: 6443
+ │ Routing rows in product_source_routing_audit.csv: 6453
  ▼
  Synthesized: Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 3066 have been promoted to source pages — 13.2% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
+**Of the 23,260 papers identified in the literature search, 3080 have been promoted to source pages — 13.2% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -54,29 +54,29 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 3066 |
-| Ingredient profiles | 257 |
+| Source pages | 3080 |
+| Ingredient profiles | 363 |
 | Product-category rows (total) | 416 |
 | Product-category rows (non-stub, has scaffold or content) | 150 |
 | Metal profiles | 36 |
-| Regulation pages | 175 |
+| Regulation pages | 182 |
 | Mitigation pages | 7 |
 | Microbiome pages | 1 |
 | Testing-method pages | 2 |
 
 ## HMTc Taxonomy v2.0 coverage
 
-Total subcategories defined by the taxonomy: **356**. Pages scaffolded or content-filled against the taxonomy: **347** (97%).
+Total subcategories defined by the taxonomy: **362**. Pages scaffolded or content-filled against the taxonomy: **352** (97%).
 
-Of the 347 matched: 341 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 6 are matched by slug-alias to legacy pages (frontmatter needs backfill). Pages still to be created: **0**.
+Of the 352 matched: 344 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 8 are matched by slug-alias to legacy pages (frontmatter needs backfill). Pages still to be created: **1**.
 
 | Cat | Name | Total | Exact | By alias | Missing | Coverage |
 |----:|------|------:|------:|---------:|--------:|---------:|
-| 1 | Infant and Child Foods (Ages 0-5) | 9 | 9 | 0 | 0 | 100% |
+| 1 | Infant and Child Foods (Ages 0-5) | 12 | 12 | 0 | 0 | 100% |
 | 2 | Infant and Child Personal Care (Ages 0-5) | 16 | 16 | 0 | 0 | 100% |
 | 3 | Grains, Cereals, and Rice Products | 12 | 12 | 0 | 0 | 100% |
 | 4 | Fruits, Vegetables, and Produce | 8 | 8 | 0 | 0 | 100% |
-| 5 | Beverages | 17 | 17 | 0 | 0 | 100% |
+| 5 | Beverages | 18 | 17 | 1 | 0 | 100% |
 | 6 | Seafood | 6 | 6 | 0 | 0 | 100% |
 | 7 | Oils, Condiments, and Specialty Foods | 12 | 0 | 3 | 0 | 25% |
 | 8 | Water and Water-Based Products | 4 | 3 | 1 | 0 | 100% |
@@ -99,8 +99,8 @@ Of the 347 matched: 341 carry exact hmtc_category + hmtc_row frontmatter (locked
 | 25 | Cannabis, Hemp, and CBD Products | 6 | 6 | 0 | 0 | 100% |
 | 26 | Peptides, SARMs, and Research Chemicals | 5 | 5 | 0 | 0 | 100% |
 | 27 | Legumes and Pulses | 4 | 4 | 0 | 0 | 100% |
-| 28 | Nuts, Seeds, and Their Butters | 5 | 5 | 0 | 0 | 100% |
-| 29 | Edible Fungi | 2 | 2 | 0 | 0 | 100% |
+| 28 | Nuts, Seeds, and Their Butters | 6 | 5 | 0 | 1 | 83% |
+| 29 | Edible Fungi | 3 | 2 | 1 | 0 | 100% |
 | 30 | Culinary Oils and Fats | 2 | 2 | 0 | 0 | 100% |
 | 31 | Sweeteners and Syrups | 4 | 4 | 0 | 0 | 100% |
 | 32 | Condiments, Sauces and Dressings | 5 | 5 | 0 | 0 | 100% |
@@ -108,7 +108,7 @@ Of the 347 matched: 341 carry exact hmtc_category + hmtc_row frontmatter (locked
 | 34 | Herbs, Spices, Seasonings and Salt | 4 | 4 | 0 | 0 | 100% |
 | 35 | Prepared and Packaged Meals | 2 | 2 | 0 | 0 | 100% |
 
-Every taxonomy subcategory has a destination page on the wiki. Source-page declarations of `products: [<row-slug>]` route to the page they expect to land on; no source is dropped due to a missing destination.
+Of the **1 taxonomy subcategories** without a destination page, ingest is blocked: a source whose frontmatter declares one of these slugs cannot be routed. These pages are the priority queue for the next scaffold pass.
 
 ## Why this page matters
 

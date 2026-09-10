@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 876
+sources: 875
 ---
 
 # Mercury
@@ -216,7 +216,7 @@ See also [[studies/mercury-primary-literature]] for the citable index of mercury
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/atsdr-mercury-toxprofile-2024|Toxicological Profile for Mercury]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2024 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/epa-iris-mercuric-chloride|Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 1995 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692)</span><span class="hmi-ref-tag">Government</span>
@@ -227,18 +227,23 @@ Works cited in this page's text, in first-appearance order. This is not the full
 7. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 8. [[sources/fda-epa-fish-consumption-advice|Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years]]<span class="hmi-ref-meta">U.S. Food and Drug Administration and U.S. Environmental Protection Agency · U.S. FDA and U.S. EPA · 2017 · [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish)</span><span class="hmi-ref-tag">Government</span>
 9. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+10. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 7 sections added; narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 9 sources added; 9 sections added and 1 removed; narrative text revised |
-| [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 8 sources added; 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 7 sections added; narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 9 sources added; 9 sections added and 1 removed; narrative text revised |
+| [c26d921166](https://github.com/paleofoundation/heavymetalindex/commit/c26d921166) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
+
+## Additional geographic and remediation evidence
+
+**[[sources/wen2022-mercury-water-removal-review|Jiayue Wen, 2022]].** Wen reviews historical mercury releases from combustion, mining and natural exchange, then discusses adsorption and carbon-dot-modified chitosan fabrics. The review is useful for discovery and pathway context but contains chemical and numerical errors that preclude treating its broad safety or efficacy statements as verified findings. Supports mercury source-pathway and removal-material discovery. Claims that mercury compounds are generally harmless or that only elemental mercury is toxic are rejected; the paper itself contradicts them in its introduction. No current emissions trend or safe discharge concentration is inferred.
