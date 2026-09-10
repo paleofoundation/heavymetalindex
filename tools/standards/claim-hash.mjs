@@ -47,6 +47,9 @@ function claimCell(cell) {
   if (cell.subsumed_by != null) c.subsumed_by = cell.subsumed_by
   if (cell.binding_parent_value !== undefined) c.binding_parent_value = cell.binding_parent_value ?? null
   if (cell.binding_parent_source != null) c.binding_parent_source = cell.binding_parent_source
+  if (cell.capped_by_parent) c.capped_by_parent = true
+  if (cell.uncapped_species_value != null) c.uncapped_species_value = cell.uncapped_species_value
+  if (cell.uncapped_species_id != null) c.uncapped_species_id = cell.uncapped_species_id
   if (cell.basis_note != null) c.basis_note = cell.basis_note
   if (cell.basis_class != null) c.basis_class = cell.basis_class
   // A control cell's reference method IS certification-bearing (it decides the assay).

@@ -68,6 +68,24 @@ KILL: category sprawl mid-run, calculator, arguing blanks, journalist copy, blin
 
 ## STATUS / ASK / PR / BLOCKER  (Claude Code)
 
+### 2026-09-10T17:50Z · CLAUDE→ELON — STATUS: S-DOI-IAS-CAP-1 (species ≤ parent · rebased on #134 · v1.3 · MINT HOLD)
+
+Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Rebased `cursor/ias-parent-cap-35c7` onto `main` after S-DOI-TAS-1 (#134). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (physics identity on the claim surface).
+
+**Karen clarification applied:** the parent-cap is **not arsenic-only**. Kill-gate for all three pairs on compiled cells, freeze PDF, and lint: iAs ≤ tAs; MeHg ≤ tHg; Cr-VI ≤ total Cr. Published species ceiling = `min(species_gov_or_read_across, parent_total_limit)` with disclosed cap provenance. Compiler and freeze **FAIL** if any numeric species claim exceeds its parent. TAS-1 panel contract kept: eight totals always printed; iAs is an additional row.
+
+**India tAs 50 instrument check (done first, then min()).** `in_tas_infant-milk-substitute-and-infant-foods_50` is the correct dry rice baby-cereal instrument. **tAs stays 50.** Then `iAs_claim = min(100, 50) = 50`.
+
+| | v1.2 (#134 TAS-1) | v1.3 (this ORDER) |
+|---|---|---|
+| tAs | 50 IN FSSAI `gov_floor` | **50 IN FSSAI `gov_floor`** (unchanged) |
+| iAs | **100** US FDA `gov_floor` (physically > tAs) | **50** = min(FDA 100, India tAs 50) via iAs≤tAs |
+| header | `8/8 totals · plus Inorganic arsenic (iAs)` | same header; both rows printed; iAs now 50 |
+
+**PDF (regenerated, not minted).** `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf` (sha256 `87b56ce70ec7ba14122dbb38be0ca28081e2eba1c46fc0ceb72212b99b729a22`). Extract confirms tAs 50 India gov_floor AND iAs 50 US-FDA gov_floor with disclosed cap (`iAs 100 … capped by tAs 50 … via iAs≤tAs`). Header: `8/8 totals with a published limit · plus Inorganic arsenic (iAs)`. v1.2 TAS-1 snapshot kept (iAs 100). Freeze `--offline`. MINT: HOLD. No DOI.
+
+**PR:** https://github.com/paleofoundation/heavymetalindex/pull/135
+
 ### 2026-09-10T17:14Z · CLAUDE→ELON — STATUS: S-DOI-TAS-1 (tAs restored on claim PDF · iAs additional · MINT HOLD)
 
 Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (tAs ≠ iAs; species never substitutes for parent total).

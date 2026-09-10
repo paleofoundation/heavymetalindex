@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "1.2",
+  "current_version": "1.3",
   "scaffolded": false,
   "versions": [
     {
@@ -60,7 +60,8 @@
     },
     {
       "version": "1.2",
-      "status": "current",
+      "status": "superseded",
+      "superseded_by": "1.3",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -73,7 +74,7 @@
         "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf",
         "standard_pdf_sha256": "bb791b66c21a3f8abc46f1b4c63d7d7e191803958d0702521eabb4977edd0684",
         "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
-        "note": "S-DOI-TAS-1 canary. Freeze now prints Total arsenic (tAs) 50 India gov_floor AND Inorganic arsenic (iAs) 100 FDA gov_floor. Species no longer occupies the tAs slot. Header is 8/8 totals plus iAs. No DataCite mint. Custody pending. MINT: HOLD."
+        "note": "S-DOI-TAS-1 canary. Freeze prints Total arsenic (tAs) 50 India gov_floor AND Inorganic arsenic (iAs) 100 FDA gov_floor. Species no longer occupies the tAs slot. Header is 8/8 totals plus iAs. No DataCite mint. Custody pending. MINT: HOLD. Superseded by S-DOI-IAS-CAP-1 v1.3."
       },
       "change": {
         "what_changed": "Claim PDF renderer listed iAs in the tAs slot (ANALYTES hardcoded iAs instead of tAs). v1.1 printed only Inorganic arsenic (iAs) 100 FDA and labeled the panel 8/8 analytes, omitting Total arsenic (tAs) 50 India. v1.2 prints both rows: Total arsenic (tAs) 50 India gov_floor and Inorganic arsenic (iAs) 100 FDA gov_floor. Header is now 8/8 totals plus iAs. Compiled claim numbers unchanged (same claim hash).",
@@ -82,6 +83,33 @@
         "affected_analytes": {
           "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "restored to claim PDF; was omitted by freeze ANALYTES substitution" },
           "iAs": { "old": 100, "old_type": "gov", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "remains an additional species row; no longer occupies the tAs slot" }
+        }
+      }
+    },
+    {
+      "version": "1.3",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:a7b99717dfdc6d58584be0903eb20844fb7d84f5880a0b819fbfe533f60a3715",
+      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.3/",
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf",
+        "standard_pdf_sha256": "87b56ce70ec7ba14122dbb38be0ca28081e2eba1c46fc0ceb72212b99b729a22",
+        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
+        "note": "S-DOI-IAS-CAP-1 canary. Published iAs = min(FDA 100, tAs 50) = 50 with disclosed parent cap. PDF prints tAs 50 AND iAs 50 as separate rows. Header remains 8/8 totals plus iAs. No DataCite mint. Custody pending. MINT: HOLD."
+      },
+      "change": {
+        "what_changed": "Published species claim cannot exceed its parent total. Canary iAs 100 FDA gov_floor was physically above tAs 50 India. v1.3 publishes iAs 50 = min(FDA 100, India tAs 50) with capped_by_parent + uncapped_species_value 100 disclosed. Kill-gate is the three pairs iAs≤tAs, MeHg≤tHg, Cr-VI≤total Cr on compiled cells, freeze, and lint. v1.2 TAS-1 artifacts retained (tAs 50 and iAs 100 as separate rows).",
+        "why": "ORDER S-DOI-IAS-CAP-1: a published species number above its parent total is a physics identity failure, not a policy choice. Compiler and freeze FAIL if any numeric species exceeds its parent. Cap is disclosed; the uncapped species instrument remains in the derivation.",
+        "changed_at": "2026-09-10T17:50:00Z",
+        "affected_analytes": {
+          "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "unchanged; FSSAI infant-foods arsenic 50 verified as the parent" },
+          "iAs": { "old": 100, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "capped_by_parent": true, "uncapped_species_value": 100, "note": "published ceiling is min(FDA 100, tAs 50) via iAs≤tAs" }
         }
       }
     }
