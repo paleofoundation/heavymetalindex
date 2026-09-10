@@ -166,7 +166,7 @@ function injectHomepage() {
     isPartOf: { "@id": siteId },
     publisher: PUBLISHER,
     license: LICENSE_URL,
-    dateModified: fm.updated ? String(fm.updated) : undefined,
+    dateModified: toIso(fm.updated),
     hasPart: [
       { "@type": "CollectionPage", name: "Metals", url: `${SITE}/metals` },
       { "@type": "CollectionPage", name: "Ingredients", url: `${SITE}/ingredients` },
@@ -196,7 +196,7 @@ function injectAbout() {
   const objects = buildAboutPageGraph({
     title: fm.title,
     description: fm.description,
-    dateModified: fm.updated ? String(fm.updated) : undefined,
+    dateModified: toIso(fm.updated),
     publisher: PUBLISHER,
     author: AUTHOR,
   })

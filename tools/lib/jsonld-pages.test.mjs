@@ -1,7 +1,7 @@
 import test from "node:test"
 import assert from "node:assert/strict"
 import { HMI_ORGANIZATION_ID, HMI_WEBSITE_ID, karenEntity, organizationEntity } from "./entity-graph.mjs"
-import { buildAboutPageGraph, citationEdgesFromHtml, stripSourceLegendHtml } from "./jsonld-pages.mjs"
+import { buildAboutPageGraph, citationEdgesFromHtml, stripSourceLegendHtml, toIsoDate } from "./jsonld-pages.mjs"
 
 const publisher = organizationEntity()
 const author = karenEntity()
@@ -28,6 +28,20 @@ test("about graph is AboutPage + homepage Organization/WebSite @ids, not Breadcr
   assert.equal(about.publisher, publisher)
   const serialized = JSON.stringify(objects)
   assert.equal(/parentOrganization|subOrganization|memberOf/.test(serialized), false)
+  assert.equal(about.dateModified, "2026-04-24")
+})
+
+test("AboutPage dateModified normalizes gray-matter Date values to ISO-8601", () => {
+  const parsed = new Date("2026-04-24T00:00:00.000Z")
+  assert.equal(toIsoDate(parsed), "2026-04-24")
+  assert.notEqual(String(parsed), "2026-04-24")
+  const [, , about] = buildAboutPageGraph({
+    title: "About",
+    dateModified: parsed,
+    publisher,
+    author,
+  })
+  assert.equal(about.dateModified, "2026-04-24")
 })
 
 test("citation edges skip the source-legend inventory and keep in-prose ScholarlyArticle cites", () => {

@@ -86,8 +86,19 @@ export function buildAboutPageGraph({ title, description, dateModified, publishe
     publisher,
     author,
     license: "https://creativecommons.org/licenses/by/4.0/",
-    dateModified: dateModified || undefined,
+    dateModified: toIsoDate(dateModified),
   }
 
   return [organization, website, aboutPage]
+}
+
+/** gray-matter parses unquoted YAML dates as Date; schema.org wants YYYY-MM-DD. */
+export function toIsoDate(value) {
+  if (!value) return undefined
+  if (value instanceof Date) return value.toISOString().slice(0, 10)
+  const s = String(value).trim()
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10)
+  const parsed = new Date(s)
+  if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10)
+  return undefined
 }
