@@ -640,6 +640,52 @@ footer.site-footer {
   }
 }
 
+// The desktop gutters and gaps consume too much of a phone's width. Keep the
+// bar at 68px while giving its wordmark, navigation, search, and Pro link room.
+@media (max-width: 600px) {
+  .hmi-topnav-inner {
+    padding: 0 16px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+
+  .hmi-topnav-brand {
+    padding-right: 0;
+  }
+
+  .hmi-topnav-wordmark {
+    font-size: 18px;
+  }
+
+  .hmi-topnav-spacer {
+    display: none;
+  }
+
+  .hmi-topnav-actions {
+    flex: 0 0 auto;
+    gap: 8px;
+  }
+
+  .hmi-topnav-pro {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hmi-topnav-inner {
+    padding: 0 8px;
+    gap: 6px;
+  }
+
+  .hmi-topnav-wordmark {
+    font-size: 16px;
+  }
+
+  .hmi-topnav-actions {
+    gap: 6px;
+  }
+}
+
 /* ══ radii, search overlay (CHROME-SPEC §2: 2-3px everywhere) ══════════════
    search.scss predates the v3 geometry and ships 7px on the input and the
    layout and 5px on the results pane. The modal is exempt from the no-shadow

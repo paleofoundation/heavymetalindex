@@ -77,6 +77,20 @@ async function _navigate(url: URL, isBack: boolean = false) {
 
   if (!contents) return
 
+  const html = p.parseFromString(contents, "text/html")
+  normalizeRelativeURLs(html, url)
+  const stylesheets = (doc: Document) =>
+    Array.from(
+      doc.head.querySelectorAll<HTMLLinkElement>('link[rel="stylesheet"][data-persist]'),
+      (link) => link.href,
+    )
+  // Persisted CSS and scripts belong to the current build. A changed stylesheet
+  // URL signals a deployment change: load that document with its matching assets.
+  if (JSON.stringify(stylesheets(document)) !== JSON.stringify(stylesheets(html))) {
+    window.location.assign(url)
+    return
+  }
+
   // notify about to nav
   const event: CustomEventMap["prenav"] = new CustomEvent("prenav", { detail: {} })
   document.dispatchEvent(event)
@@ -84,9 +98,6 @@ async function _navigate(url: URL, isBack: boolean = false) {
   // cleanup old
   cleanupFns.forEach((fn) => fn())
   cleanupFns.clear()
-
-  const html = p.parseFromString(contents, "text/html")
-  normalizeRelativeURLs(html, url)
 
   let title = html.querySelector("title")?.textContent
   if (title) {

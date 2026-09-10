@@ -24,27 +24,28 @@ updated: 2026-07-31
           </div>
         </div>
       </div>
-      <div class="hmi-v3-hero-links">
-        <a href="synthesis/">Explore the evidence syntheses <span aria-hidden="true">&rarr;</span></a>
-        <a href="methodology/">Our methods <span aria-hidden="true">&rarr;</span></a>
-      </div>
+      <nav class="hmi-v3-hero-links" aria-label="Explore the library">
+        <a class="hmi-v3-hero-action hmi-v3-hero-action--primary" href="synthesis/">Explore syntheses <span aria-hidden="true">&rarr;</span></a>
+        <a class="hmi-v3-hero-action hmi-v3-hero-action--secondary" href="methodology/">Our methods <span aria-hidden="true">&rarr;</span></a>
+      </nav>
     </div>
 
 <!-- BEGIN: hmi-corpus-counter -->
 <div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Library at a glance</span>
-    <span class="hmi-v3-ledger-refresh">UPDATED 2026-08-18</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-10</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,547</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">179</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,542</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,503</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,496</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">695</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
-    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection. <a href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a></p>
+    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
+  <a class="hmi-v3-ledger-coverage" href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a>
 </div>
 <!-- END: hmi-corpus-counter -->
 
@@ -115,12 +116,12 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
   </a>
   <a class="hmi-v3-registry" href="regulations/">
-    <span class="hmi-v3-registry-n">174</span>
+    <span class="hmi-v3-registry-n">180</span>
     <span class="hmi-v3-registry-t">Regulations</span>
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,066</span>
+    <span class="hmi-v3-registry-n">3,058</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -141,19 +142,19 @@ updated: 2026-07-31
     <tbody>
       <tr>
         <td class="hmi-metal-name"><a href="metals/cadmium/">Cadmium</a> <span>Cd</span></td>
-        <td class="hmi-metal-n">1,572</td>
+        <td class="hmi-metal-n">1,570</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Cocoa, leafy greens, root vegetables, offal</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,440</td>
+        <td class="hmi-metal-n">1,437</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/chromium/">Chromium</a> <span>Cr</span></td>
-        <td class="hmi-metal-n">871</td>
+        <td class="hmi-metal-n">870</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Processing contact, drinking water</td>
       </tr>

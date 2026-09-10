@@ -200,6 +200,8 @@
   }
   .hmi-topnav-search.hmi-inline-search {
     height: 36px;
+    min-width: 36px;
+    max-width: none;
   }
 }
 @media (max-width: 600px) {

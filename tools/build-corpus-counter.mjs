@@ -216,8 +216,9 @@ function renderBlock(c, refreshDate) {
   </div>
   <div class="hmi-v3-ledger-body">
 ${body}
-    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection. <a href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a></p>
+    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
+  <a class="hmi-v3-ledger-coverage" href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a>
 </div>
 ${endMarker}`
 }
