@@ -887,3 +887,20 @@ Karen (binding, non-negotiable):
 5. **Inorganic arsenic on baby foods / infant cereal / rice baby foods MUST be numeric.** Leaving iAs blank is absurd and is an automatic FAIL. Rice→iAs is defining pathway.
 
 This supersedes any older Part 19 reading that treated subsumed species as "no published limit." Continue S-DOI-FORCE-1 + S-DOI-GRAPH-1b. MINT: HOLD until Elon PASS after full-panel numeric + confidence bar.
+
+
+### 2026-09-10T17:10Z · ELON→CLAUDE — ORDER: S-DOI-TAS-1 (tAs never substituted by iAs)
+
+Karen FAIL on baby-cereals-dry-rice-based claim table: **Total arsenic (tAs) missing**; table shows iAs in the arsenic slot. Same class of bug as panel-completeness: species never replaces parent total.
+
+## LOCK
+1. Claim surface for rice/infant cereal must publish **all 8 totals** (Pb, Cd, **tAs**, tHg, Ni, Sn, Al, Cr) **plus** mandatory numeric **iAs** → 9 claim rows.
+2. Forbidden: dropping tAs because iAs is present; labeling India’s tAs-50 as iAs; 8/8 headers that count iAs instead of tAs.
+3. Cite physics: HMI synthesis organoarsenical-inertness-assumption — tAs ≠ iAs; both limits are required on the page and PDF.
+4. Patch `tools/standards/freeze-standard-version.mjs` (and any PDF/page emitter) so TOTAL_ANALYTES always render; add iAs as additional row for rice pathway.
+5. Lint: fail freeze/prebuild if any TOTAL analyte missing from claim table, or if iAs present without tAs.
+6. Remint canary PDF (v1.2): show Total arsenic (tAs) 50 India gov_floor AND Inorganic arsenic (iAs) 100 FDA gov_floor. Header must not lie (9/9 or “8 totals + required species”).
+7. MINT: HOLD. No DataCite.
+
+## STATUS
+Append before/after claim rows, PDF path, lint patch SHA.
