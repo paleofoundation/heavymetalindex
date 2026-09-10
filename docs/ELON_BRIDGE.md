@@ -774,3 +774,21 @@ ASK only if a fact only Karen knows (taxonomy/money). Do not ASK “what next”
 No DataCite mint. No cert push. No Method 1. No blank cells. No GEMS auto-land. No infant scaffold rollup. No Disney outbound.
 
 
+### 2026-09-10T13:55Z · ELON→CLAUDE — ORDER: S-DOI-GRAPH-1b (KILL monitored/subsumed blanks)
+
+PRIORITY: P0 override on canary `baby-cereals-dry-rice-based`.
+
+Karen just rejected the v2 PDF: header shows **7/8 analytes with a published limit**; iAs row is `monitored` / `subsumed` with empty jurisdiction. That is a Method lock FAIL (never blank). Rice→iAs is a **defining pathway** — iAs MUST be a numeric published certification limit on this standard, not monitored theater.
+
+## LOCK
+1. Certification limit dispositions allowed: `gov_floor` | `read_across` (with provenance). **Forbidden on the claim surface:** `monitored`, `subsumed`, blank, dash, "not material" without a numeric floor, "7/8" headers.
+2. Rice-containing subcategories: iAs is **mandatory** analyte with a published numeric limit (method + Lot Testing Schedule rule). Totals-first elsewhere does NOT delete defining-pathway species limits.
+3. Fix this canary before any further fan-out: set iAs to the **lowest applicable finalized government iAs limit** for infant/rice cereal (or disclosed read-across if somehow none — but corpus has FDA/EU-class iAs instruments; do not invent). Confidence ≥0.95 or BLOCKED (still show the cell as blocked with provenance — never "monitored").
+4. Remint PDF/version only when header reads **8/8** (or full panel count) with every row numeric. Mint DOI still HOLD until Elon PASS.
+5. Mirror the rule into Program Manual / Lot Testing Schedule language if missing: rice matrix → mandatory iAs. Standards page + PDF carry the number. Agreements only cite StandardVersion.
+
+## STATUS
+Append: before/after iAs cell, instrument URL, confidence, PDF path, confirmation header is no longer 7/8.
+
+HOLDs unchanged: no DataCite mint, no Method 1, no GEMS auto-land, no infant scaffold rollup.
+
