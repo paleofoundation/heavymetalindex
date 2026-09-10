@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] correction | mahmood2026-nanomaterial-water-remediation
+
+Pages touched: [[sources/mahmood2026-nanomaterial-water-remediation]]. Notes: Same-DOI Library rollup; six contextual numeric records, five attributed claims and five retrieval gaps. Narrative remediation review, with no original metal-removal data; unrelated shellfish/sunscreen/US routes removed. Direction: toward the literature.
+
+
 ## [2026-09-10] correction | nkosi2024-durban-cosmetic-clays
 
 Pages touched: [[sources/nkosi2024-durban-cosmetic-clays]], [[ingredients/cosmetic-clay]]. Notes: Same-DOI rollup; 18 measured XRF cells and two nondetections, dry preparation retained. Routed to traditional topical cosmetic clay and broad sun/suntan use. Direction: toward the literature; no ingredient profile values inferred.
