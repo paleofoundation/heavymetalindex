@@ -235,7 +235,7 @@
         "Cr": {
           "source_id": "hk_cap132v_crtotal_cereals_1000",
           "basis": "gov",
-          "label": "government limit (regulatory-alignment) — Hong Kong Cap 132V item 7 Chromium, \"Cereals\" = 1 mg/kg (1000 ug/kg, total Cr, food as placed on market / as_sold), corroborated by China GB 2762-2022 \"grains and grain products including cereals and milled grain products\" = 1.0 mg/kg. A dry rice-based infant cereal is a cereal/grain product, so these general-cereal total-Cr MLs apply directly on the native as_sold basis; a null/not-material cell would be looser than a verified 1000 ug/kg floor, which the frozen method lock forbids (never blank; lowest applicable finalized government limit binds). Corrected 2026-09-10 under ORDER S-DOI-GRAPH-1 after the diamond-graph canary (independent finder + two adversarial verifiers) refuted the prior not-material determination; Cr(VI) remains bounded beneath this total by reflex speciation (any quantifiable Cr(VI) fails)."
+          "label": "government limit (regulatory-alignment) — HK Cap 132V item 7 Chromium, Cereals 1 mg/kg (1000 ug/kg, total Cr, as_sold); corroborated by China GB 2762-2022 grains 1.0 mg/kg. Cr(VI) reflex-bounded beneath the total."
         },
         "Al": {
           "source_id": "aunz_sch19_al_formula_nonsoy_500",

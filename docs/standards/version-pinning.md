@@ -11,6 +11,25 @@ material change; each version resolves to an immutable frozen snapshot; supersed
 versions stay resolvable so prior citations never break; a **concept DOI** resolves to
 "latest".
 
+## Material vs non-material (the version rule; Karen, 2026-09-10)
+
+A **non-material change does NOT make a new version.** Layout, wording, prose, a longer
+or shorter derivation sentence, any label / rationale / `basis_note` text, the method
+string — none of these bump the version. Only a change to a certification-bearing field
+is material and mints a new edition: a limit **value**, its **type**, a **provenance
+anchor id**, `basis_class` (controlled vocabulary), the per-country derivation, **panel
+membership**, or **scope** (native basis / canned).
+
+This is enforced **mechanically**, not by discipline: the canonical claim hash
+(`tools/standards/claim-hash.mjs`, schema `hmtc-claim-hash/v2`) hashes only the
+certification-bearing projection and excludes every free-text prose field, so a
+prose/layout edit is structurally incapable of changing the hash — and it is the hash,
+not a human, that decides whether the build demands a version bump. A regression test
+asserts a `basis_note` reword does not drift the hash. (Schema v2, 2026-09-10, dropped
+`basis_note` from the hash, which v1 wrongly included; the material "was this value
+converted across a basis" fact is retained via `per_country[].converted`. Editions
+recorded under v1 keep their v1 hash + algorithm id in history.)
+
 ## Files
 
 | File | Role |

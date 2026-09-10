@@ -182,14 +182,19 @@ function limitsTable(variantObj, key) {
       { v: x.tier },
       { v: limit, mono: true },
       { v: jname(c.binding_jurisdiction) },
-      { v: c.basis_note || "—" },
       { v: rationale },
     ]
   })
+  // The limits table stays scannable: analyte → tier → limit → binding jurisdiction →
+  // rationale tag. The free-text basis derivation prose is NOT a narrow table column
+  // (a long sentence there renders as an unreadable vertical wall); the full "show your
+  // work" flows horizontally in the Per-jurisdiction derivation section below, and the
+  // rationale KIND (regulatory-alignment / read_across / subsumed / not-material) is the
+  // Rationale column. This is a layout choice and carries no version weight.
   return Table(
-    ["Analyte", "Tier", "Limit (ppb)", "Binding jurisdiction", "Basis derivation", "Rationale"],
+    ["Analyte", "Tier", "Limit (ppb)", "Binding jurisdiction", "Rationale"],
     rows,
-    [2.0, 0.9, 1.0, 1.6, 1.7, 1.7],
+    [2.0, 0.9, 1.1, 1.8, 1.7],
     key,
   )
 }

@@ -44,9 +44,13 @@ test("changing only prose / labels does NOT move the claim hash (typo-safe)", ()
   const cosmetic = std()
   cosmetic.method = "totally different prose string"
   cosmetic.variants.both.Pb.label = "reworded label"
+  // basis_note is free-text prose (schema v2) — a longer/shorter derivation sentence,
+  // or a layout-driven rewrite, must NOT force a version bump.
+  cosmetic.variants.both.Pb.basis_note =
+    "a much longer, completely reworded derivation sentence that would render very differently on the page but changes no certification-bearing value, type, anchor, basis_class, panel, or scope"
   // note: Cr.label / rationale are cosmetic; value/type/anchors unchanged
   const after = claimHash(cosmetic)
-  assert.equal(after, before, "cosmetic-only edits must not force a version bump")
+  assert.equal(after, before, "cosmetic-only edits (incl. basis_note prose) must not force a version bump")
 })
 
 test("the --check guard FAILS the build on a silent numeric change (fail-closed)", () => {

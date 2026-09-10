@@ -39,7 +39,7 @@
       "effective_date_precision": "date",
       "doi": null,
       "legacy_pdf": null,
-      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
       "frozen_artifact": null,
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
@@ -81,9 +81,10 @@
         ],
         "why": "S-DOI-GRAPH-1 diamond-graph method canary (independent per-cell finder + two perspective-diverse adversarial verifiers, corroborating at 0.90/0.95) refuted the prior not-material determination: two finalized in-force sovereign total-Cr MLs for cereals on the exact as_sold basis already existed in the register, and a dry rice-based infant cereal is a cereal/grain product. Under the frozen method lock a null ceiling is looser than a verified 1000 floor (never blank; lowest applicable finalized government limit binds), so the not-material/null cell was a method-lock violation.",
         "changed_at": "2026-09-10T00:00:00Z",
-        "verified_against_commit": "6a4a7d3706c3edfb52e8c231ec3d2129a5e024e0"
+        "verified_against_commit": "6a4a7d3706c3edfb52e8c231ec3d2129a5e024e0",
+        "non_material_note": "basis_note/label prose trimmed for layout on 2026-09-10 — NOT a version bump (schema v2 excludes free-text prose from the claim hash); claim_hash re-recorded under algorithm v2 (same certification content: Cr 1000 gov HK)."
       },
-      "claim_hash": "sha256:3f43df5140cbb88c0853f6942480c49dd532d5425effcefc367b2a7746391065"
+      "claim_hash": "sha256:63ee4bf3b851659f800fe1208fb7b63ad9d58c4b5185b656d031751d4ccf2db2"
     }
   ]
 }
