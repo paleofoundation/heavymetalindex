@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-06-08T19:26:46.955Z",
+  "generated_at": "2026-09-10T08:44:30.907Z",
   "product_filter": "all",
-  "total_adjudication_rows": 102,
+  "total_adjudication_rows": 108,
   "by_priority": {
-    "P0": 26,
-    "P1": 12,
-    "P2": 64
+    "P0": 27,
+    "P1": 13,
+    "P2": 68
   },
   "by_machine_task": {
     "extract_local_source_to_structured_rows": 25,
-    "validate_and_promote_local_candidate_rows": 1,
-    "discover_or_route_species_specific_source": 3,
-    "verify_pdf_provenance_before_extraction": 9,
-    "find_or_route_fit_product_evidence": 64
+    "validate_and_promote_local_candidate_rows": 2,
+    "discover_or_route_species_specific_source": 5,
+    "verify_pdf_provenance_before_extraction": 8,
+    "find_or_route_fit_product_evidence": 68
   },
   "by_aggregate_status": {
     "BLOCKED: local extraction pending": 25,
-    "BLOCKED: local candidate review pending": 1,
-    "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: PDF match review pending": 9,
-    "BLOCKED: no structured evidence loaded": 64
+    "BLOCKED: local candidate review pending": 2,
+    "BLOCKED: species-specific evidence missing": 5,
+    "BLOCKED: PDF match review pending": 8,
+    "BLOCKED: no structured evidence loaded": 68
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 84,
+    "independent_p97_pooled": 90,
     "clean_p97_pooled": 18
   },
-  "public_claim_blockers": 102,
-  "hmtc_threshold_blockers": 102,
+  "public_claim_blockers": 108,
+  "hmtc_threshold_blockers": 108,
   "human_role": "source retrieval, low-confidence exception review, policy-conflict resolution, and final governance approval",
   "top_adjudications": [
     {
@@ -55,21 +55,21 @@
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-freshwater",
-      "metal_species": "Pb; MeHg"
+      "metal_species": "Pb; Cd; MeHg; tHg"
     },
     {
       "adjudication_order": 5,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-marine-non-predatory",
-      "metal_species": "Cd; iAs; MeHg; tHg"
+      "metal_species": "Pb; Cd; iAs; MeHg; tHg"
     },
     {
       "adjudication_order": 6,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
       "product_slug": "fish-marine-predatory",
-      "metal_species": "Cd; MeHg; tHg"
+      "metal_species": "Pb; Cd; MeHg; tHg"
     },
     {
       "adjudication_order": 7,

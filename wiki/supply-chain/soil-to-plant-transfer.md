@@ -40,16 +40,28 @@ Soil metal burdens arise from two broad origins that the literature treats diffe
 
 Source pages reporting soil, irrigation-water, fertiliser, or atmospheric-deposition data are upstream evidence. They attach to the [ingredients](/ingredients) they inform as exposure context rather than as direct food-occurrence evidence, preserving the separation set out above, and they support the synthesis of why a commodity carries its contamination profile. The index currently holds a substantial body of such evidence, and the routing layer connects each upstream source to the crop it studies so that the soil literature for rice arsenic, cacao cadmium, and leafy-vegetable cadmium is visible from the corresponding ingredient page without being mistaken for a measured food concentration. The element-by-element and crop-by-crop causal accounts build on this hub as dedicated synthesis pages.
 
+## Valle del Cauca agricultural-soil survey
+
+[[sources/rueda-saa2025-valle-del-cauca-agricultural-soils]] reports soil measurements from 489 sites across 13 watersheds in Colombia, with analyses conducted during 2017–2019. Its watershed-specific tables preserve geographic variation, while the absence of paired crop measurements prevents inference of edible-tissue concentrations or transfer factors. The source record retains the original censoring limitations and conflicting soil-order sample labels.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils|Baseline concentration of heavy metals in agricultural soils]]<span class="hmi-ref-meta">Germán Rueda-Saa, Gilberto Eduardo Marín-Pimentel, and Juan Carlos Menjivar-Flores · Revista de Ciencias Agrícolas 42(2): e2259 · 2025 · [doi.org/10.22267/rcia.20254202.259](https://doi.org/10.22267/rcia.20254202.259)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [a2f3a812b](https://github.com/paleofoundation/heavymetalindex/commit/a2f3a812b) | 2026-05-31 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [a2f3a812b5](https://github.com/paleofoundation/heavymetalindex/commit/a2f3a812b5) | 2026-05-31 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

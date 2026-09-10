@@ -5,15 +5,15 @@
   "description": "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
   "site": "https://heavymetalindex.com",
   "page_url_template": "https://heavymetalindex.com/sources/{slug}",
-  "generated_at": "2026-08-18T17:44:45.010Z",
-  "generated_commit": "3f549345c820e1fd1454caf648bf024adfb586bb",
+  "generated_at": "2026-09-10T09:01:00.460Z",
+  "generated_commit": "b75e9c7f116567290fe99cc3ed2df8867b2f9dbd",
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
-  "record_count": 2610,
+  "record_count": 2611,
   "by_doi": {
     "10.21315/jps2018.29.s3.8": {
       "slug": "ab-manan2018-oil-palm-soil-metals",
@@ -2885,11 +2885,6 @@
       "tier": "B",
       "year": 2023
     },
-    "10.1002/ansa.202300062": {
-      "slug": "authors2023-to-understand-their-physical-chemical-and-biological-characteristics",
-      "tier": "B",
-      "year": 2023
-    },
     "10.1016/j.toxrep.2023.09.018": {
       "slug": "authors2023-toxicology-reports-11-2023-295-306",
       "tier": "B",
@@ -4150,11 +4145,6 @@
       "tier": "B",
       "year": 2026
     },
-    "10.5281/zenodo.20225839": {
-      "slug": "authors2026-application-of-nanomaterials-for-the-removal-of-toxic",
-      "tier": "B",
-      "year": 2026
-    },
     "10.1007/s00244-025-01179-w": {
       "slug": "authors2026-archives-of-environmental-contamination-and-toxicology-2026-90",
       "tier": "B",
@@ -4167,11 +4157,6 @@
     },
     "10.1265/ehpm.25-00128": {
       "slug": "authors2026-assessed-the-risks-and-benefits-of-selenium-se",
-      "tier": "B",
-      "year": 2026
-    },
-    "10.1007/s00431-026-06919-1": {
-      "slug": "authors2026-association-of-exposure-to-synthetic-phenols-and-metal",
       "tier": "B",
       "year": 2026
     },
@@ -8870,6 +8855,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.5281/zenodo.20225839": {
+      "slug": "mahmood2026-nanomaterial-water-remediation",
+      "tier": "B",
+      "year": 2026
+    },
     "10.3390/inorganics7070080": {
       "slug": "maier-benoit-2019-nickel-microbial-pathogenesis",
       "tier": "A",
@@ -9675,6 +9665,11 @@
       "tier": "A",
       "year": 2022
     },
+    "10.1002/ansa.202300062": {
+      "slug": "nkosi2024-durban-cosmetic-clays",
+      "tier": "A",
+      "year": 2024
+    },
     "10.1016/j.scitotenv.2022.154092": {
       "slug": "nkrumah2022-farming-battery-metals",
       "tier": "C",
@@ -9864,6 +9859,11 @@
       "slug": "olgunoglu2025-scorpionfish-izmir-metals",
       "tier": "A",
       "year": 2025
+    },
+    "10.1007/s00431-026-06919-1": {
+      "slug": "olivas-martinez2026-spanish-girls-urinary-metals",
+      "tier": "A",
+      "year": 2026
     },
     "10.1016/j.foodcont.2020.107455": {
       "slug": "oliveira2021-cocoa-beans-cd-pb-brazil-processing",
@@ -10729,6 +10729,11 @@
       "slug": "rudy2019-hunted-animals-toxic-elements-review",
       "tier": "B",
       "year": 2019
+    },
+    "10.22267/rcia.20254202.259": {
+      "slug": "rueda-saa2025-valle-del-cauca-agricultural-soils",
+      "tier": "A",
+      "year": 2025
     },
     "10.1007/s10646-022-02608-5": {
       "slug": "rundio2022-mercury-trout-california",

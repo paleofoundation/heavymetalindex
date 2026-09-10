@@ -92,31 +92,35 @@ Drivers:
 - B-tier — As paddy soil develops anaerobic conditions, porewater inorganic arsenic decreases while methylated arsenic species rise, indicating redox state is a soil-stage driver of arsenic speciation available to rice. (modulates) [[sources/begum2024-rice-fertilization-arsenic]]
 - B-tier — Choice of fertilizer source (mineral, wood ash, pig slurry) did not materially shift rice-grain arsenic speciation in this chamber study, even though fertilization vs no fertilization did. (modulates) [[sources/begum2024-rice-fertilization-arsenic]]
 
-
 See also [[mitigation/agronomic]], [[supply-chain/soil-to-plant-transfer]].
+
+## Nanomaterials for water treatment: secondary review context
+
+[[sources/mahmood2026-nanomaterial-water-remediation]] reviews adsorption, surface functionalization, regeneration and recovery of water-treatment nanomaterials. It reports no original metal-removal experiment, concentration dataset, adsorption capacity or removal efficiency. Its numerical pH and contact-time examples concern a mixed treatment discussion including surfactants, so they do not supply metal-removal operating specifications. The source record preserves incomplete reference trails as primary-study retrieval gaps.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/blommaert2022-cd-cacao-translocation|Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms]]<span class="hmi-ref-meta">Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, et al. · Frontiers in Plant Science · 2022 · [doi.org/10.3389/fpls.2022.1055912](https://doi.org/10.3389/fpls.2022.1055912)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/cao2023-lead-pakchoi-eps-bacteria|EPS-producing bacteria reduce lead accumulation in edible pakchoi under soil lead contamination]]<span class="hmi-ref-meta">Cao X, Sun L, Ren Y, Zhang Y, Zhao W, Wang H, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1117312](https://doi.org/10.3389/fmicb.2023.1117312)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/guo2024-cadmium-bioaccessibility-pak-choi|Effects of wollastonite and phosphate treatments on cadmium bioaccessibility and health risk in pak choi (Brassica rapa ssp. chinensis) grown in contaminated soil]]<span class="hmi-ref-meta">Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, et al. · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1337996](https://doi.org/10.3389/fnut.2024.1337996)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/hossain2024-rice-cadmium-soil-ph|Effects of soil pH and organic matter on the accumulation of cadmium in the grains of salt tolerant rice genotypes grown in Cd contaminated soil]]<span class="hmi-ref-meta">Hossain M Z, Islam M A, Islam M A, and Kibria K Q · Khulna University Studies · 2024 · [doi.org/10.53808/kus.2024.21.01.1133-ls](https://doi.org/10.53808/kus.2024.21.01.1133-ls)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/begum2024-rice-fertilization-arsenic|Fertilization Enhances Grain Inorganic Arsenic Assimilation in Rice]]<span class="hmi-ref-meta">Begum M, Li L, Young E, Carey M, Meharg AA, Meharg C, et al. · Exposure and Health · 2024 · [doi.org/10.1007/s12403-023-00563-y](https://doi.org/10.1007/s12403-023-00563-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/mahmood2026-nanomaterial-water-remediation|Application of Nanomaterials for the Removal of Toxic Elements from Water]]<span class="hmi-ref-meta">Mahmood S, Iqbal R, Rehman M, Nawaz A, Azhar M, and Arif A · Spectrum of Engineering Sciences · 2026 · [doi.org/10.5281/zenodo.20225839](https://doi.org/10.5281/zenodo.20225839)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 5 sources added; 1 section added; narrative text revised |
-| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 5 sources removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 5 sources added; 1 section added; narrative text revised |
+| [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

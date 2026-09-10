@@ -69,7 +69,6 @@ Reference traceability is incomplete. The references attached to the copper oxid
 
 The bibliography includes Raul et al. 2022, “Toward a feasible solution for removing toxic mercury and chromium from water using copper oxide nanoparticles,” Frontiers in Nanotechnology 4, article 805698. That is a candidate primary-study retrieval lead; its methods and results have not been verified during this review ingest. Bibliographic entries for further reviews likewise provide discovery leads without transferring their claims into this source's evidence record.
 
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -77,6 +76,5 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3ca2007c5](https://github.com/paleofoundation/heavymetalindex/commit/3ca2007c5) | 2026-08-03 | major | 5 sections added; narrative text revised |
+| [8639daf97d](https://github.com/paleofoundation/heavymetalindex/commit/8639daf97d) | 2026-09-10 | correction | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] maintenance | bounded Library fire routing refresh
+
+Pages touched: four source records, [[ingredients/cosmetic-clay]], [[products/sun-suntan-products]], [[supply-chain/soil-to-plant-transfer]], [[mitigation/remediation-evidence]], and relevant metal pages. Notes: One new ingest and three fully corrected duplicate source pages reached this fire's four-page cap. Routed 670 reviewed structured records; all four independent five-check source audits returned PROMOTE. Generated indexes, product routing, source references and exports were refreshed. Three in-scope conference abstracts remain metadata/retrieval gaps; one further matched duplicate retains a separately logged canonical-metadata correction. Intentional empty arrays for the three non-product sources still trigger nonblocking routing advisories. Direction: toward the literature; source-native soil, urinary and remediation records retain their matrix boundaries.
+
+
 ## [2026-09-10] correction | mahmood2026-nanomaterial-water-remediation
 
 Pages touched: [[sources/mahmood2026-nanomaterial-water-remediation]]. Notes: Same-DOI Library rollup; six contextual numeric records, five attributed claims and five retrieval gaps. Narrative remediation review, with no original metal-removal data; unrelated shellfish/sunscreen/US routes removed. Direction: toward the literature.

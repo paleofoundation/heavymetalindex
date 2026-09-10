@@ -83,7 +83,6 @@ The full 12-page PDF was read through layout-preserving text extraction, and the
 
 The sampling geography comes from Section 2.1, not the Bangladesh arsenic search folder. No named consumer brand is linked to these samples. The study does not measure marine fish, baby sunscreen, soil-to-crop transfer, industrial source apportionment or metal remediation. A provisional cosmetic-clay ingredient page provides a destination. The broad sun/suntan product route represents the reported direct topical sun-protection use, not formulated or infant sunscreen. Y and Zr remain fully transcribed here even though dedicated metal pages are absent.
 
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -91,6 +90,5 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3ca2007c5](https://github.com/paleofoundation/heavymetalindex/commit/3ca2007c5) | 2026-08-03 | major | 5 sections added; narrative text revised |
+| [e626490c3e](https://github.com/paleofoundation/heavymetalindex/commit/e626490c3e) | 2026-09-10 | correction | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

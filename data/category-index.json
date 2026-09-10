@@ -516,7 +516,7 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 82,
+      "count": 83,
       "samples": [
         "Almond",
         "Baby Cereals Dry",
@@ -547,7 +547,7 @@
           "slug": "metals/arsenic",
           "title": "Arsenic",
           "symbol": "As",
-          "count": 878
+          "count": 876
         },
         {
           "slug": "metals/arsenic-inorganic",
@@ -559,13 +559,13 @@
           "slug": "metals/arsenic-total",
           "title": "Arsenic, Total",
           "symbol": "tAs",
-          "count": 364
+          "count": 365
         },
         {
           "slug": "metals/cadmium",
           "title": "Cadmium",
           "symbol": "Cd",
-          "count": 1572
+          "count": 1570
         },
         {
           "slug": "metals/chromium",
@@ -589,13 +589,13 @@
           "slug": "metals/mercury",
           "title": "Mercury",
           "symbol": "Hg",
-          "count": 876
+          "count": 875
         },
         {
           "slug": "metals/mercury-total",
           "title": "Mercury, Total",
           "symbol": "tHg",
-          "count": 270
+          "count": 271
         },
         {
           "slug": "metals/mercury-methyl",
@@ -607,7 +607,7 @@
           "slug": "metals/nickel",
           "title": "Nickel",
           "symbol": "Ni",
-          "count": 766
+          "count": 767
         },
         {
           "slug": "metals/organotins",
@@ -662,7 +662,7 @@
           "slug": "metals/cobalt",
           "title": "Cobalt",
           "symbol": "Co",
-          "count": 133
+          "count": 134
         },
         {
           "slug": "metals/copper",
@@ -680,7 +680,7 @@
           "slug": "metals/iron",
           "title": "Iron",
           "symbol": "Fe",
-          "count": 172
+          "count": 173
         },
         {
           "slug": "metals/lithium",
@@ -698,7 +698,7 @@
           "slug": "metals/manganese",
           "title": "Manganese",
           "symbol": "Mn",
-          "count": 164
+          "count": 165
         },
         {
           "slug": "metals/molybdenum",
@@ -740,19 +740,19 @@
           "slug": "metals/titanium",
           "title": "Titanium",
           "symbol": "Ti",
-          "count": 10
+          "count": 11
         },
         {
           "slug": "metals/vanadium",
           "title": "Vanadium",
           "symbol": "V",
-          "count": 34
+          "count": 35
         },
         {
           "slug": "metals/zinc",
           "title": "Zinc",
           "symbol": "Zn",
-          "count": 283
+          "count": 284
         }
       ]
     }
@@ -761,7 +761,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1347,
+      "count": 1344,
       "samples": [
         "United States",
         "Canada",
@@ -772,7 +772,7 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 150,
+      "count": 152,
       "samples": [
         "Brazil",
         "Peru",
@@ -783,7 +783,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 593,
+      "count": 594,
       "samples": [
         "European Union",
         "Poland",
@@ -805,7 +805,7 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 189,
+      "count": 190,
       "samples": [
         "Nigeria",
         "Ethiopia",
@@ -816,7 +816,7 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 226,
+      "count": 227,
       "samples": [
         "India",
         "Bangladesh",
@@ -827,7 +827,7 @@
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 439,
+      "count": 440,
       "samples": [
         "China",
         "Japan",
@@ -849,12 +849,12 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 258,
+      "count": 261,
       "samples": [
         "International / multi-country",
         "EAC",
-        "KS",
-        "EAEU"
+        "GSO",
+        "KS"
       ]
     }
   ]

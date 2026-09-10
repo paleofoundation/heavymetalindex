@@ -79,8 +79,8 @@ Evidence Fitness: EF-4 for product-occurrence use. The study directly supports g
 ## Wiki pages this source may touch
 
 - [[supply-chain/soil-to-plant-transfer]]
-- [[metals/arsenic]]
-- [[metals/mercury]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
@@ -94,3 +94,13 @@ The byline, title, journal, year and DOI were checked against the primary PDF. T
 Tables 1–3 and analytical detection limits were transcribed with source-native precision and visually checked. Table 3 labels inceptisol n = 128 and vertisol n = 90, while Methods reverses those sample sizes. The extraction preserves the table labels and flags the conflict; no soil-order inference depends on choosing a correction. Table 3 also prints Hg means of 0.00 for all three orders despite Table 1's mean of 0.01 and an inceptisol maximum of 3.01. These discrepancies remain visible, without inventing corrected values.
 
 No concentration was converted to a food basis. Total Cr does not represent Cr(VI); total As does not represent inorganic As; total Hg does not represent methylmercury. No annual split was reconstructed from the analysis-year range. The primary source's statements of environmental safety or permissible ranges are not adopted as independently verified health or legal conclusions.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8b5a47da8c](https://github.com/paleofoundation/heavymetalindex/commit/8b5a47da8c) | 2026-09-10 | major | 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

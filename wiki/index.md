@@ -40,8 +40,8 @@ updated: 2026-07-31
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,542</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,496</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">695</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,499</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">1,365</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
@@ -106,7 +106,7 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-d">Category risk profiles built from the ingredients that drive them.</span>
   </a>
   <a class="hmi-v3-registry" href="ingredients/">
-    <span class="hmi-v3-registry-n">257</span>
+    <span class="hmi-v3-registry-n">258</span>
     <span class="hmi-v3-registry-t">Ingredients</span>
     <span class="hmi-v3-registry-d">Why a commodity accumulates a metal, and how much the literature reports.</span>
   </a>
@@ -121,7 +121,7 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,058</span>
+    <span class="hmi-v3-registry-n">3,059</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -148,19 +148,19 @@ updated: 2026-07-31
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,437</td>
+        <td class="hmi-metal-n">1,440</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/chromium/">Chromium</a> <span>Cr</span></td>
-        <td class="hmi-metal-n">870</td>
+        <td class="hmi-metal-n">871</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Processing contact, drinking water</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/nickel/">Nickel</a> <span>Ni</span></td>
-        <td class="hmi-metal-n">766</td>
+        <td class="hmi-metal-n">767</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EU maximum levels</span></td>
         <td class="hmi-metal-drivers">Legumes, nuts, cocoa, equipment contact</td>
       </tr>
@@ -172,13 +172,13 @@ updated: 2026-07-31
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/arsenic-total/">Arsenic</a> <span>As</span></td>
-        <td class="hmi-metal-n">364</td>
+        <td class="hmi-metal-n">366</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Rice, seaweed, drinking water, apple juice</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/mercury-total/">Mercury</a> <span>Hg</span></td>
-        <td class="hmi-metal-n">270</td>
+        <td class="hmi-metal-n">272</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">JECFA PTWI, MeHg</span></td>
         <td class="hmi-metal-drivers">Predatory fish, shellfish</td>
       </tr>
@@ -266,8 +266,8 @@ updated: 2026-07-31
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-11">11 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/black-pepper/">Black Pepper</a>
+      <time class="hmi-v3-rev-d" datetime="2026-09-10">10 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/cosmetic-clay/">Cosmetic clay</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -282,7 +282,7 @@ updated: 2026-07-31
     </div>
     <div class="hmi-v3-rev-row">
       <time class="hmi-v3-rev-d" datetime="2026-06-11">11 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/rice/">Rice</a>
+      <a class="hmi-v3-rev-t" href="ingredients/black-pepper/">Black Pepper</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -296,8 +296,8 @@ updated: 2026-07-31
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-02">2 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/chitosan/">Chitosan</a>
+      <time class="hmi-v3-rev-d" datetime="2026-06-11">11 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/rice/">Rice</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">

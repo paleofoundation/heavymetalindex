@@ -89,11 +89,9 @@ The absence of controls at HUVA, unequal case/control ages, one urine measuremen
 
 ## Implications
 
-
 The study supports source-native urinary medians, detection frequencies and associations with contemporaneous pubertal diagnoses. It is an exposure and health-effect source (lane a4), with urine as its matrix and Spain as its population jurisdiction. Product and ingredient arrays are empty because a research-pull query mentioning sunscreen does not establish a measured product or an exposure source.
 
 The case–control design and a single urine sample cannot establish exposure before puberty onset or a causal effect. Arsenic and mercury were measured without reported speciation: their results are retained as total/unspeciated elemental measurements, not inorganic arsenic or methylmercury. The values cannot supply product contamination concentrations, ingredient contamination profiles, product-specific exposure attribution or clinical risk thresholds. Detailed analytical quality-control information and several sensitivity analyses are delegated to a supplement absent from the preserved main PDF.
-
 
 This source contributes urinary exposure and reproductive-health context to the relevant metal pages. It separates individual-metal associations from a mixture signal driven primarily by BPA, and keeps negative or inconclusive findings visible alongside the zinc association. It neither identifies the products responsible for exposure nor supports individual clinical predictions.
 
@@ -122,7 +120,6 @@ Table 2 is retained over contradictory narrative: arsenic medians are 22.23 and 
 
 Methods calls the phenol-family sums molecular-weight-based molar sums while the Table 2 heading uses ng/mL. Those sums are retained in structured evidence with this unit ambiguity and are not converted or combined with individual mass concentrations. The full supplementary methods, exact categorical estimates shown only graphically, and participant-level data remain explicit extraction gaps. Source-native values were preserved without concentration conversion; arsenic species, mercury species, urinary and product matrices remain separate.
 
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -130,6 +127,5 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3ca2007c5](https://github.com/paleofoundation/heavymetalindex/commit/3ca2007c5) | 2026-08-03 | major | 5 sections added; narrative text revised |
+| [946711780e](https://github.com/paleofoundation/heavymetalindex/commit/946711780e) | 2026-09-10 | correction | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
