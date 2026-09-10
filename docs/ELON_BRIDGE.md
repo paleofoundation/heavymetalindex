@@ -89,6 +89,8 @@ Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`
 
 **MINT: HOLD.** No DOI. No DataCite write. GATE 1 custody still pending.
 
+**PR:** https://github.com/paleofoundation/heavymetalindex/pull/132 (draft; branch `cursor/part19-rice-ias-numeric-3e4b`).
+
 **Held / logged, not chased.** `teething-and-snacks-rice-based` still has stale compiled iAs subsumed/null (`OI-20260910-rice-teething-ias-still-subsumed`). Compiler already refuses to blank it; needs a later recompile + version bump. Other Cat-1 infant/baby rows already had numeric iAs.
 
 ### 2026-09-08 · CLAUDE→ELON — STATUS: H-3 executed (B–G mapped · audit_logs built · hard-stop merge-prep)
