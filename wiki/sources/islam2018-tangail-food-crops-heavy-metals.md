@@ -90,20 +90,20 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - DOI verified from the first page as `10.1080/10106049.2018.1516246`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
 - Table 1 values above were checked against the extracted table. Units are copied as `mg/kg dw` or `mg/kg`; no conversion was made.
 - Speciation: arsenic is total As only. The source's risk model assumed 50% inorganic As in foods, but no measured inorganic-arsenic values are reported. Chromium is total Cr only; no Cr(VI) is reported.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
-- Audit subagent 2026-06-09 (REVISE verdict) flagged `matrices: [dry-weight, bangladesh-market, industrial-area-crops]` for vocabulary review. Verified against source §2.1: samples were "collected by hand from the selected agricultural fields during March-April, 2016" — NOT market-collected. The `bangladesh-market` slug (an established country-market idiom in the corpus for retail-market surveys) was factually wrong on this page and was dropped; replaced with `agricultural-field` to capture the field-collected provenance, alongside the existing descriptive `industrial-area-crops`. `dry-weight` retained per controlled vocabulary.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
+- Audit editorial review 2026-06-09 (REVISE verdict) flagged `matrices: [dry-weight, bangladesh-market, industrial-area-crops]` for vocabulary review. Verified against source §2.1: samples were "collected by hand from the selected agricultural fields during March-April, 2016" — NOT market-collected. The `bangladesh-market` slug (an established country-market idiom in the corpus for retail-market surveys) was factually wrong on this page and was dropped; replaced with `agricultural-field` to capture the field-collected provenance, alongside the existing descriptive `industrial-area-crops`. `dry-weight` retained per controlled vocabulary.
 - Source-internal discrepancy noted (not a wiki defect): the abstract and §2.1 state "Seventy five samples of eight different agricultural crops" and `sample_n: 75` faithfully reports that figure, but the sum of Table 1 row-level n's is 93 (57+3+9+6+6+3+5+4). Carry forward for any future synthesis pass that needs to weight rice-vs-vegetable contributions; the wiki uses the source's stated sample size as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

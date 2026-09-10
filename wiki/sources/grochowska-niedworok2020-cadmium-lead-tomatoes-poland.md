@@ -92,8 +92,7 @@ Courses: Illustrates that organic production does not reliably reduce heavy meta
 
 App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb values 0.006–0.022 mg/kg fw (6–22 ppb) for most varieties. Tomato concentrate in metal cans may run higher for Cd (64 ppb fw observed). These values can seed tomato and tomato-product contamination profiles.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/tomato]]
 - [[ingredients/tomato-paste]]
 - [[ingredients/canned-tomatoes]]
@@ -108,7 +107,7 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 
 ## Verification notes
 
-- 2026-05-18 Codex merge-enhance from duplicate manual-fetch copy `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf`; SHA-256 matches the existing `raw_path`, so no second source page was created.
+- 2026-05-18 Codex merge-enhance from duplicate manual-fetch copy the archived source file; SHA-256 matches the existing `raw_path`, so no second source page was created.
 - Corrected stale routing links: `[[ingredients/tomatoes]]`, `[[ingredients/tomato-products]]`, `[[products/tomato-juice]]`, and `[[regulations/eu-1881-2006]]` do not exist as live wiki pages. Routed fresh tomato to `[[ingredients/tomato]]`, tomato juice to `[[products/vegetable-juices-non-root]]`, and linked Commission Regulation (EC) No 1881/2006 to its superseded-regulation page.
 - Part 2 firewall: softened the HMT&C sentence from a standards recommendation to source-level occurrence and packaging-pathway evidence.
 - Cross-vendor audit (Codex, 2026-05-18) retained the source-specific matrix labels `[fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]` as custom matrix descriptors because the current common matrices vocabulary does not have a clean fresh-tomato / tomato-product equivalent; downstream routing is carried by the live ingredient and product wikilinks above.
@@ -116,13 +115,13 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

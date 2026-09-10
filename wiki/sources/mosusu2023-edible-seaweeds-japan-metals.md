@@ -64,25 +64,25 @@ The source provides geographic-origin signal for Kombu and Wakame consumed in Ja
 
 - Source-document scope: only the one-page Japanese-format master's thesis abstract was provided in the manual-fetch folder. The full thesis is not in the corpus.
 - No DOI; access_url left null. Source type is `thesis` (master's level); evidence tier C reflects abstract-only access and absence of peer review.
-- Metals frontmatter lists only HMI analyte-vocabulary intersect (Cr, Ni, Cd, Pb, U). Non-tracked elements measured in the underlying study (V, Se, Mn, Fe, Cu, Zn, Mo, Co, Th) are documented in the Key numbers body table but not lifted to frontmatter.
+- Metals source metadata lists only HMI analyte-vocabulary intersect (Cr, Ni, Cd, Pb, U). Non-tracked elements measured in the underlying study (V, Se, Mn, Fe, Cu, Zn, Mo, Co, Th) are documented in the Key numbers body table but not lifted to source metadata.
 - Jurisdictions include JP (sale and analysis), CN, and KR (packaging-declared origin countries for sample subset).
 - Matrices include `kelp` because the species set includes *Laminaria spp.* (Kombu) which is a brown kelp; `macroalgae` and `edible-seaweed` cover the full species panel.
 - No brand names were present in the abstract. Brand firewall: not engaged.
 - Speciation: arsenic not measured; chromium reported as total Cr (Cr-VI not distinguished).
 - Numerical values: none in the abstract; the Key numbers table records only the qualitative ranking statements the source actually makes.
-- Audit subagent (2026-06-04) flagged `matrices: [edible-seaweed, macroalgae, kelp, dry-weight]` for vocabulary verification (⚠️). Verified against existing corpus: all four slugs are in active use across `wiki/sources/*.md` — `dry-weight` appears alongside `red-seaweed` in `aziz2021-gracilaria-seaweed-bangladesh.md`; `edible-seaweed`, `macroalgae`, and `kelp` each appear across multiple source pages. The basis-vs-matrix critique on `dry-weight` is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; finding logged as false positive against current corpus convention.
-- Audit subagent (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, `docs/ingest-workflows`) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
+- Audit editorial review (2026-06-04) flagged `matrices: [edible-seaweed, macroalgae, kelp, dry-weight]` for vocabulary verification (⚠️). Verified against existing corpus: all four slugs are in active use across the linked reference record — `dry-weight` appears alongside `red-seaweed` in `aziz2021-gracilaria-seaweed-bangladesh.md`; `edible-seaweed`, `macroalgae`, and `kelp` each appear across multiple source pages. The basis-vs-matrix critique on `dry-weight` is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; finding logged as false positive against current corpus convention.
+- Audit editorial review (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, the editorial record) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

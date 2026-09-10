@@ -122,7 +122,7 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 
 ## Verification notes
 
-**2026-05-19 (Claude Code, merge-enhance from prior 2026-05-14 page).** The prior revision had several defects corrected here:
+**2026-05-19 (automated editorial review, merge-enhance from prior 2026-05-14 page).** The prior revision had several defects corrected here:
 
 (a) `raw_path:` was truncated to `…insights from.pdf` and pointed to a non-existent file; corrected to the full filename `Heavy metal concentrations in Chinese chicken eggs_ insights from comparative study of urban and mining areas.pdf` (verified the real file exists at that path).
 
@@ -136,13 +136,13 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 
 (f) The legacy heading `## Wiki pages updated on ingest` was renamed to `## Wiki pages this source may touch` per current Part 6 template. The metal list under that section was extended to use the speciation-correct slugs (`arsenic-total` not `arsenic`, given the paper does not separate iAs from tAs).
 
-(g) `metals:` retained as `[Cr, tAs, Cd, Pb, Ni]` — these are the five metals the paper measures that are HMTc-analyte-relevant or that map to existing metal pages with carcinogenic-risk computation in the source. The full ten-metal panel is preserved in the `## Key numbers` table; the frontmatter `metals:` field carries the routing-relevant subset.
+(g) `metals:` retained as `[Cr, tAs, Cd, Pb, Ni]` — these are the five metals the paper measures that are HMTc-analyte-relevant or that map to existing metal pages with carcinogenic-risk computation in the source. The full ten-metal panel is preserved in the `## Key numbers` table; the source metadata `metals:` field carries the routing-relevant subset.
 
 **Sample size.** `sample_n` = 90 = 70 free-range + 20 commercial, consistent with Sampling and pre-treatment (p.4).
 
 **Speciation.** The paper measures total As (no inorganic-vs-total speciation); `metals:` uses `tAs` and the body refers to "As (total)". The paper does not measure any mercury species; no Hg entries are made. The paper measures total Cr (no Cr-VI speciation); `metals:` uses `Cr` and the metal-pages list links `[[metals/chromium]]` (total Cr) rather than `[[metals/chromium-hexavalent]]`.
 
-**Brand firewall.** No consumer-brand names appear in the source paper. The methods section names instrument and software vendors (ThermoFisher iCAP RQ; Crystal Ball v11.1.2.4 / Oracle; SPSS 26.0 / IBM; ArcGIS Desktop 10.8 / Esri; Origin Pro 2024) and reference materials (VAR-CAL-2, CLMS-1); these are retained per the 2026-05-17 scientific-method exception (Check 4 of `docs/gpt-collaboration/audit-prompt.md`). No brand-by-brand contamination ranking exists in the source or this page.
+**Brand firewall.** No consumer-brand names appear in the source paper. The methods section names instrument and software vendors (ThermoFisher iCAP RQ; Crystal Ball v11.1.2.4 / Oracle; SPSS 26.0 / IBM; ArcGIS Desktop 10.8 / Esri; Origin Pro 2024) and reference materials (VAR-CAL-2, CLMS-1); these are retained per the 2026-05-17 scientific-method exception (Check 4 of the editorial record). No brand-by-brand contamination ranking exists in the source or this page.
 
 **Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made. The `## Implications` section limits itself to what this single paper contributes to threshold work and explicitly does not propose certification values.
 
@@ -151,13 +151,13 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

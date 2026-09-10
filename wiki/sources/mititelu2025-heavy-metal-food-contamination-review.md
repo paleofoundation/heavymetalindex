@@ -122,7 +122,7 @@ The authors describe a qualitative narrative-review workflow using PubMed, Scopu
 
 - Arsenic is discussed as both total arsenic and inorganic arsenic, with toxicity concentrated in inorganic As(III) and As(V). Rice/rice-cereal regulatory comparisons should use iAs where the legal standard is iAs-specific.
 - Mercury is discussed as total mercury, inorganic mercury, and methylmercury. Fish-consumption risk language should not substitute total Hg for MeHg unless the source or regulation permits that mapping.
-- Frontmatter includes iAs and MeHg because the review discusses those species and cites species-specific regulatory/toxicological contexts. The occurrence tables summarized above should still be treated as total-or-unspecified arsenic and mercury unless the cited primary study confirms species.
+- source metadata includes iAs and MeHg because the review discusses those species and cites species-specific regulatory/toxicological contexts. The occurrence tables summarized above should still be treated as total-or-unspecified arsenic and mercury unless the cited primary study confirms species.
 - Tin is treated as total Sn in the occurrence tables, with the mechanistic discussion focused on inorganic tin migration from canned-food packaging.
 - The chromium limit row in Table 1 mixes a Cr(VI) label with "total Cr" language. Do not use that row as a clean species-specific Cr(VI) regulatory value.
 
@@ -136,8 +136,7 @@ App: The tin section is useful for flagging canned-food packaging as a risk modi
 
 Microbiome: Not addressed in this review.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/tin]]
@@ -159,7 +158,7 @@ Microbiome: Not addressed in this review.
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
 - Corrected the prior Pb baby-food line: Table 1 lists candy at 0.1 mg/kg and proposed FDA baby-food Pb at 0.01 mg/kg, not a baby-food range of 0.10/0.01 mg/kg.
 - Corrected the prior Cd grouping: Table 1 lists legumes at 0.10 mg/kg, while fish/seafood and meat excluding offal are 0.05 mg/kg.
 - Clarified that the Codex tin 150/250 mg/kg values come from the review's tin narrative rather than Table 1.
@@ -170,13 +169,13 @@ Microbiome: Not addressed in this review.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -57,8 +57,7 @@ The cancer NSRL is route-specific to inhalation, consistent with the carcinogeni
 
 A Proposition 65 listing governs warning obligations for consumer-product and workplace exposures in California. It is not a food maximum level and not a drinking-water standard; the enforceable California drinking-water limit for hexavalent chromium is the separate State Water Resources Control Board MCL covered at [[regulations/ca-swrcb-hexavalent-chromium-mcl]]. Where the wiki cites this listing, it is cited as a hazard-identification and labeling instrument, with the carcinogen and reproductive-toxicity findings attributed to their respective listing dates and mechanisms, and with the safe-harbor levels labeled by route.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[regulations/oehha-chromium-vi-prop65]]
@@ -66,13 +65,13 @@ A Proposition 65 listing governs warning obligations for consumer-product and wo
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
-| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 5 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
+| [25c92d7ad0](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad0) | 2026-06-22 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

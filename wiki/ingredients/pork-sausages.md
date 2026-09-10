@@ -28,12 +28,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-16
   tAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::19::arsenic-total","role":"value","food_id":"19","food_name":"Pork sausage (link/patty), pan-cooked","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -111,7 +114,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=3 | 0–4.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=1 dataset; composites=27 | ND (<3; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]], [[sources/zhang2022-pork-heavy-metals-china\|3]] |
 | Ni | n=3 | 0–10 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/manfredi2025-nickel-meat-italy\|2]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|3]] |
 | Al | data gap | — | — | — |
@@ -184,31 +187,36 @@ No US FDA action level for Cd or Pb in pork sausage applies under the current re
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 19, "Pork sausage (link/patty), pan-cooked." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pork sausage (link/patty), pan-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 1.3 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 43 | in profile |
-| Pb | 27 | 0 | 4.9 | in profile |
-| U | 27 | 0 | 1.9 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 19: Pork sausage (link/patty), pan-cooked | tAs | 27 | 0 | ND in all composites | 3 |
+| 19: Pork sausage (link/patty), pan-cooked | Cd | 27 | 2 | 1–1.3 | 1 |
+| 19: Pork sausage (link/patty), pan-cooked | Cr | 27 | 0 | ND in all composites | 50 |
+| 19: Pork sausage (link/patty), pan-cooked | Pb | 27 | 6 | 4.1–4.9 | 4 |
+| 19: Pork sausage (link/patty), pan-cooked | tHg | 27 | 0 | ND in all composites | 1 |
+| 19: Pork sausage (link/patty), pan-cooked | Ni | 27 | 1 | 43 | 40 |
+| 19: Pork sausage (link/patty), pan-cooked | U | 27 | 7 | 1.1–1.9 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tAs.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/manfredi2025-nickel-meat-italy|Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population]]<span class="hmi-ref-meta">Manfredi A, Varra MO, Zanardi E, Vitellino M, Peloso M, Lorusso P, et al. · Italian Journal of Food Safety · 2025 · [doi.org/10.4081/ijfs.2025.13840](https://doi.org/10.4081/ijfs.2025.13840)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan]]<span class="hmi-ref-meta">Maikanov BS, Ismagulova GT, Auteleyeva LT, Kemeshov ZO, and Zhanabayeva DK · Veterinary World 14(6):1615-1621 · 2021 · [doi.org/10.14202/vetworld.2021.1615-1621](https://doi.org/10.14202/vetworld.2021.1615-1621)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/zhang2022-pork-heavy-metals-china|Risk assessment of heavy metals contamination in pork]]<span class="hmi-ref-meta">Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. · Food Control · 2022 · [doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -229,13 +237,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [20b813b5b](https://github.com/paleofoundation/heavymetalindex/commit/20b813b5b) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 4 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 4 sources added; narrative text revised |
+| [20b813b5bc](https://github.com/paleofoundation/heavymetalindex/commit/20b813b5bc) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

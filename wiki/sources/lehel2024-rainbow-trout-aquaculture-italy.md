@@ -93,8 +93,7 @@ Courses: useful for illustrating the distinction between exceeding a per-sample 
 
 App: total-As, Cd, total-Hg, and Pb data for farmed freshwater rainbow trout contribute to species- and product-level contamination profiles; values are wet-weight muscle from a single Italian aquaculture source.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
@@ -105,21 +104,21 @@ App: total-As, Cd, total-Hg, and Pb data for farmed freshwater rainbow trout con
 
 ## Verification notes
 
-Fresh-context audit subagent (2026-05-30) verdict PROMOTE; all five checks clean against the source PDF. Two ⚠️/optional items resolved as follows:
-- Audit noted the bottom heading is "Wiki pages updated on ingest" rather than the audit-prompt's expected "Wiki pages this source may touch"; verified — "Wiki pages updated on ingest" is the current template heading (docs/page-templates.md) used across the corpus. False positive; no change.
+Fresh-context audit editorial review (2026-05-30) verdict PROMOTE; all five checks clean against the source PDF. Two ⚠️/optional items resolved as follows:
+- Audit noted the bottom heading is "Wiki pages updated on ingest" rather than the audit-prompt's expected "Wiki pages this source may touch"; verified — "Wiki pages updated on ingest" is the current template heading (the editorial record) used across the corpus. False positive; no change.
 - Audit noted the source prints its mussel reference material inconsistently (ERM-CE278k in the Methods text, ERM-CE287k in the Table 2 header); verified against PDF p6 vs p7 — correct, this is a typo in the source itself. Added a clarifying parenthetical to the Methods section so future readers do not flag the page's "278k" as an error. The wiki follows the Methods-prose form.
 - Numerical fidelity (Tables 1–3, text §3.1–3.5), speciation (tAs total with iAs estimated at 5%; tHg with no MeHg speciation), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

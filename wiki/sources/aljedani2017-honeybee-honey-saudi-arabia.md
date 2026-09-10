@@ -87,8 +87,7 @@ Courses: The dual-matrix design (bee body burden plus honey product concentratio
 
 App: The ND values for Pb, Cd, Mn, and Ni in honey from these four Saudi agricultural regions represent a low-contamination baseline scenario. Because the dry-ash digestion at 450 °C may underreport volatile metals (Cd, Hg) and because the paper does not publish LOD/LOQ values, these NDs should not be treated as confirmed absences; they are below-detection findings with a sensitivity caveat.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/honey]]
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -101,7 +100,7 @@ App: The ND values for Pb, Cd, Mn, and Ni in honey from these four Saudi agricul
 
 ## Verification notes
 
-Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
+Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
 
 - **Corrected transposed Honey Cu Al-Baha value.** Prior revision had Cu Al-Baha honey = "0.159 ± 0.000". Verified against Table 3 (p. 5) of the source PDF: Cu Al-Baha honey is 0.000 ± 0.001 (effectively ND). The 0.159 value belongs to Cr Al-Baha honey (Table 3, Cr row; prose on p. 4 also gives 0.1599 with extra precision). The transposition matters because Cu in Al-Baha honey was the value mistakenly elevated; the corrected page now reports Cu Al-Baha as ND, consistent with the paper's prose statement on p. 4 that "Heavy metals Cu was a region of Asir free of any pollution and not found in honey samples and the mean ± SD reached (0.000 ± 0.000) and the area of Jazan was found in the concentration (0.039 ± 0.001)" — i.e., Cu was effectively absent from Asir and Al-Baha honey, present only in Jazan and Makkah.
 - **Corrected Honeybee Mn Makkah value.** Prior revision had 2.067 ± 0.018; Table 1 (p. 4) shows 2.066 ± 0.018. The paper's narrative on p. 3 reports 2.0669 ± 0.018 (rounds to 2.067), creating a paper-internal precision discrepancy. Adopted Table 1 as authoritative since the table is the primary data presentation; the difference (2.066 vs 2.0669/2.067) is within rounding tolerance and does not affect interpretation.
@@ -112,20 +111,20 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Corrected `sample_population`** to clarify that n=3 refers to analytical replicates per region per matrix, not biological replicates; the paper does not state how many bees or hives contributed to each composited sample.
 - **Source ambiguity flagged, not perpetuated.** The paper's Sampling section (p. 2) reports "were collected 50 (mg/g) of bees and 20 (mg/L) of honey," which are units of concentration rather than collection amounts and almost certainly an editorial error in the source. The previous revision repeated this phrasing; the corrected page omits this sentence as nonsensical and uses only the 5 g analytical sample weight stated in the Method section (p. 3), which is unambiguous.
 - **Internal precision discrepancy noted.** Cr Al-Baha honey is reported as 0.1599 in the paper's prose (p. 4) and as 0.159 in Table 3 (p. 5); the higher-precision prose value is shown in Key numbers, consistent with the prior revision.
-- Preserved cite_key, raw_handle, license, access_url, sample_n, frontmatter slugs, and the overall page structure. No new ingredient, product, or regulation pages proposed; all metals referenced are in the current `wiki/metals/` taxonomy.
+- Preserved cite_key, raw_handle, license, access_url, sample_n, source metadata slugs, and the overall page structure. No new ingredient, product, or regulation pages proposed; all metals referenced are in the current the linked reference record taxonomy.
 
-2026-06-08 byte-identical filesystem-copy enhancement: added `raw_sha256` (`71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing frontmatter changed).
+2026-06-08 byte-identical filesystem-copy enhancement: added `raw_sha256` (`71bd6c3131c0ef4a160e3c26afc45f57cf8a3a83c8ac00c0b36ed3013c4a692f`) and a `duplicate_filesystem_copies` block recording a second filesystem location of the canonical PDF at the archived source file. Verified byte-identical via `shasum -a 256` against the canonical `raw_path` copy. Surfaced via the June 8 re-extraction batch placing the paper a second time under the processed-foods/snacks/beverages subfolder of the corruption-issue tree. Both filesystem locations now resolve to this canonical source page so future manual-fetch identity-check cycles in the June 8 batch skip re-ingest. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. Metadata-only enhancement; no new audit cycle spawned per 2026-06-02 precedent (no body or evidence-bearing source metadata changed).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [7bf1c3ea4](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [7bf1c3ea4d](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4d) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

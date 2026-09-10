@@ -52,7 +52,7 @@ The SCCS final opinion on hydroxyapatite (nano) evaluates the safety of a notifi
 | Mn | mg/kg | SM | 1.7 | 1.7 | 0.16 |
 | Ni | mg/kg | SM | 1.1 | 1.1 | 0.27 |
 
-- Other Table 3 elements not routed through HMI metal frontmatter because no current metal slug exists for them: potassium `11`, `9.9`, `7.5 mg/kg`; sodium `82`, `86`, `110 mg/kg`; strontium `43`, `44`, `24 mg/kg`.
+- Other Table 3 elements not routed through HMI metal source metadata because no current metal slug exists for them: potassium `11`, `9.9`, `7.5 mg/kg`; sodium `82`, `86`, `110 mg/kg`; strontium `43`, `44`, `24 mg/kg`.
 - Solubility: the material is described as insoluble or practically insoluble in water, with solubility `0.0065 g/L at 20 deg C` by EU method A.6 under GLP, and soluble at low pH.
 
 ## Methods (brief)
@@ -93,18 +93,18 @@ App: If oral-care ingredient context is surfaced, this source can support an EU 
 - Speciation: arsenic is recorded as `tAs` because the source reports only `Arsenic (As)`. No Cr(VI), iAs, MeHg, or tHg values are reported.
 - Brand firewall: the source gives a trade name for the notified ingredient material. This page uses the generic phrase "notified hydroxyapatite nano paste ingredient" around impurity values and does not attach consumer-product brands to contamination values.
 - Evidence tier: `A` because this is an EU SCCS final regulatory opinion with DOI-backed publication metadata. The measured impurity values remain ingredient-context, not finished-product occurrence evidence.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` oral-care product routing rows (`toothpaste` and `mouthwash-oral-rinse`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv` because no hydroxyapatite ingredient slug exists.
+- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` oral-care product routing rows (`toothpaste` and `mouthwash-oral-rinse`), was absent from the structured evidence record, and had only the expected nonblocking `ingredients` advisory in the structured evidence record because no hydroxyapatite ingredient slug exists.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

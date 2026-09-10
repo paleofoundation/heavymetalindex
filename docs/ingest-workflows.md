@@ -4,7 +4,7 @@ This document is the operational reference for ingest. The rule-grade summary li
 
 ## Source-file handling (this project's specific input)
 
-Input to this wiki is 23,262 Marker-converted markdown files. Each paper sits in its own folder under `raw/markdown/`, named by its filesystem handle (an `FM_XXXXXXX` identifier from Karen's triage pipeline), and contains the markdown file plus any extracted figure images and a metadata JSON.
+The source corpus includes primary datasets, agency instruments and reports, PDFs, and Marker-converted Markdown. Legacy Marker papers sit under `raw/markdown/` by filesystem handle (`FM_XXXXXXX`), with extracted images and metadata where available. Current primary-library and regulatory-register records take precedence over stale inventory counts; preserve immutable originals and record their identity.
 
 The frontmatter the model fills on each source page is the input to the routing layer described in CLAUDE.md Part 5b. Routing fan-out, ingredient `contamination_profile` updates, and product-page table regeneration all depend on this frontmatter being accurate and at the right level of specificity.
 
@@ -58,17 +58,17 @@ matrices: <from manifest text-mining>
 jurisdictions: <from manifest text-mining>
 ```
 
-These are draft values. Claude verifies each field against the actual paper content during ingest and corrects any errors. Silent correction is fine; a large disagreement (manifest says `[Pb]` but paper is clearly about arsenic only) is flagged to Karen for review.
+These are draft values. Verify each field against the source and record material corrections in an audit. Resolve routine tagging disagreements from the primary content; reserve human review for missing evidence, low-confidence extraction, policy conflicts, and consequential governance decisions.
 
 ### Existing-pages-aware ingest
 
-Source-page frontmatter is the routing layer's input. The model is responsible for declaring `products:` and `ingredients:` against the **existing** wiki taxonomy, not inventing slugs from the paper's text. Before writing any source page, check `wiki/products/` and `wiki/ingredients/` to know what slugs exist. Declared slugs are selected from that vocabulary; new slugs are not invented mid-ingest.
+Source-page frontmatter is the routing layer's input. Check the existing product and ingredient taxonomy and aliases before declaring routes. Reuse the matching page or broad-scope token; if a routeable finding lacks a destination, create a valid provisional stub through the maintained scaffold path before publishing the finding. Do not invent a full category or claim a Step 0 Lock.
 
-Empty `products: []` on a food or personal-care paper is a defect. A paper that measures heavy metals in any food product, personal-care product, dietary supplement, cosmetic, or any matrix that maps to a consumer-product category must declare at least one slug in `products:`. The one exception: if the natural match is a category Karen has not yet locked (no Step 0 Lock, no scaffolded row pages), the source declares `products: []` AND sets `pending_category_lock: <category-name>` in frontmatter. The routing audit picks the source up after the lock lands. Without the flag, the routing-discipline lint (`tools/audit-routing-discipline.mjs`) flags the source as a Phase 1 defect.
+Empty `products: []` on product-occurrence evidence requires an explicit disposition. Where the matrix maps to a known product row or broad-scope token, declare that route. If the certification category is not locked, retain the applicable provisional evidence destination and mark the certification mapping `pending_category_lock`; if no valid product mapping is yet possible, keep the empty field with that explicit gap rather than fabricate row fit. Ingredient and other usable routes still proceed. The routing-discipline audit distinguishes unresolved scope from a silently omitted product connection.
 
 Broad-scope tokens are preferred over invented row-level slugs when the paper does not resolve the row split. If a paper measures "infant formula" generally without specifying powdered vs RTF vs soy vs non-soy, declare `products: [infant-formula]`, not `products: [infant-formula-powder-non-soy]`. The routing audit's `broadProductScopes` vocabulary fans broad scopes out via `route_kind: broad_formula_context`. Overspecifying frontmatter is worse than under-specifying it.
 
-When the model writes the source page, it does not auto-create destination pages. Sources referencing an ingredient slug that doesn't exist surface as a `routing_unresolved.csv` entry; the autonomy loop's `tools/autonomy/create-missing-pages.mjs` creates ingredient stubs at frequency >= 2. Sources referencing a product slug that doesn't exist also surface in `routing_unresolved.csv` but the autonomy loop does **not** create the product stub — product pages are HMTc governance units requiring Karen's Step 0 Lock plus a scaffold-script commit. See CLAUDE.md Part 10 and `docs/order-of-operations.md` for the workflow.
+Missing destinations remain in `routing_unresolved.csv` until resolved. Create ingredient stubs and provisional product destinations as needed to preserve routeable evidence; do not wait for a second paper or routine human approval to give a finding a home. Full-page promotion and certification taxonomy remain governed by CLAUDE.md Part 10 and the Step 0 Lock. A stub is an evidence destination, not a new certification standard.
 
 ## Three workflows
 
@@ -76,39 +76,30 @@ Three distinct workflows with different constraints.
 
 ### Phase 0 prerequisite (before any ingest into a new HMTc category)
 
-Before ingest into a new HMTc category begins, the session verifies four things: the category's Step 0 Lock document exists, the scaffold script has created the row pages in `wiki/products/`, `wiki/products/index.md` includes a section for the category, and the master rollup page exists. If any of these are missing, the ingest defers all sources touching the category by setting `pending_category_lock: <category-name>` in source frontmatter and leaving `products: []`. The routing layer picks the source up after the lock lands. The model does not invent row-level slugs for not-yet-locked categories; doing so produces governance drift. See `docs/order-of-operations.md` Phase 0.
+Before asserting that a source belongs to a locked HMTc row, verify the Step 0 Lock and its scaffolded taxonomy. A missing lock does not prevent reading, extraction, or provisional evidence routing. Keep the provisional status explicit and use a broad-scope token or provisional destination where appropriate. Record `pending_category_lock` if the certification mapping is unresolved; never present that provisional mapping as a completed governance decision.
 
 ### Compiled-wiki rule
 
-For this build, ingest means compiling a source into the persistent wiki system. It does not mean "the file is searchable now." The work is split across actors: **model** writes prose (source pages, narrative wiki content where appropriate); **system** scripts handle routing and structured-evidence emission; **generators** rebuild product-page tables and other compiled views; **Karen** decides scope, names new pages, and approves limit-setting work.
+For this build, ingest means compiling evidence into the persistent wiki. The model reads, extracts or implements deterministic extraction, adjudicates evidence fitness and row fit, and writes the source narrative. System scripts own routing artifacts; generators own compiled page sections. Routine extraction and routing are completed by the ingest workflow. Human review is reserved for exceptions and governance decisions.
 
-A source is not counted as ingested until all applicable steps below are complete:
+A source is not counted as ingested until all applicable steps are complete:
 
-1. [Karen] preserve the raw source and verify provenance.
-2. [model] create or update the canonical source page at `wiki/sources/<cite-key>.md`, filling in frontmatter accurately (especially `products`, `ingredients`, `matrices`, `metals`, `jurisdictions`).
-3. [system, future] extract deterministic evidence into `data/evidence/` with basis, species, unit, statistic-type, and row-fit metadata. Until the structured-extraction tooling exists, the model may manually transcribe a small number of key tables per Karen's request, but this is not the default.
-4. [system, per CLAUDE.md Part 5b] route the source by rebuilding `data/evidence/product_source_routing_audit.csv`. The model does not write routing rows.
-5. [model, on Karen's approval] create a stub page if the destination doesn't exist (a `routing_unresolved` ingredient or product). The model proposes; Karen approves; the model creates the stub with required frontmatter.
-6. [generator] regenerate affected product-page evidence surfaces (marker-bounded sections written by `tools/evidence/apply-product-*.mjs` and `tools/apply-product-crosswalk-sections.mjs`). Do not edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` markers.
-7. [model, then Karen] update `index.md` and `log.md` (until auto-emitted), run `npm run prebuild` and `npm run check`, commit.
+1. Preserve the original source, verify identity and provenance, and record primary-artifact hash, access, rights, and evidence tier.
+2. Create or update the canonical source page using [[docs/page-templates]], with explicit Evidence Fitness and accurate routing metadata.
+3. Capture routeable values and claims in `data/evidence/`, with source location, basis, species, units, statistic type, N, censoring, sampling scope, row fit, and review state. Use existing deterministic extraction where possible; implement or transcribe a bounded extraction with verification when necessary. Extraction is a current requirement, not future work.
+4. Create missing provisional destinations before findings are published; let the routing generator create the routing artifacts. Never hand-edit generator-owned routing rows.
+5. Review and route every usable row or grouped finding. A multi-food dataset requires a full coverage reconciliation, not one source-page route. Persist exclusions and unresolved placements in routing audits or gap records.
+6. Regenerate affected public evidence sections and downloadable datasets. Keep sample/summary values and censoring labels consistent across the evidence register, page summaries, and exports. Do not edit inside generated markers.
+7. Trigger the appropriate separate synthesis pass under CLAUDE.md Part 9; do not pretend an existing synthesis was updated merely because the source was routed. If synthesis must remain pending, preserve reviewed evidence and record the precise synthesis gap.
+8. Update `index.md` and `wiki/log.md`, run the applicable source-routes, local-reingest, standards-gaps, AI-adjudication, prebuild, test, type-check, and build checks listed in AGENTS.md, and commit only the intended files by pathspec.
 
-If automation cannot place evidence cleanly, do not silently drop the source. The routing audit emits `routing_unresolved.csv` and `routing_malformed.csv` when source frontmatter does not connect or is malformed; the structured-evidence reingest queue flags value-level extraction work. Missing placements stay visible and recoverable.
+If evidence cannot be placed or reviewed, keep it visible in the structured audit or recovery queue and report the remaining gap. A candidate or Tier-1 source record is not a completed ingest and does not publish as reviewed evidence. Source-page-only staging is allowed only when explicitly requested and is labeled as staging.
 
 ### Single-paper ingest (Karen drops one file and says "ingest this")
 
-When Karen drops a file into `raw/` and says "ingest this", the model's deliverable is the source page plus a list of any new pages the routing layer flags as unresolved. Routing fan-out, ingredient `contamination_profile` updates, and product-page table regeneration are downstream system passes, not part of the ingest itself.
+Read the actual source, including the tables and figures needed to verify its findings. Share a concise progress update and continue the authorized ingest; do not wait for routine summary or stub approval. Complete the compiled-wiki gate above, including structured extraction, provisional destinations, routing, affected generators, checks, and scoped commit.
 
-1. [model] Read the file. For PDFs, actually extract and read text. For Marker-converted markdown, read the markdown. For images or figures, view them.
-2. [model] Tell Karen the TL;DR first, three to five sentences, before writing anything. Wait for her reaction so she can redirect.
-3. [model] Create the source page using the template in [[docs/page-templates]]. Frontmatter accuracy is load-bearing because it feeds the routing layer; fill `products`, `ingredients`, `matrices`, `metals`, `jurisdictions` at the level of specificity the source actually states.
-4. [system] Rebuild the routing audit by running `npm run evidence:source-routes` (or letting the watcher pick up the new source page). The audit names the affected product, ingredient, metal, and regulation pages.
-5. [model, on Karen's approval] If the routing audit flags a `routing_unresolved` entry, surface the proposal to Karen. She approves; you create the stub. Do not silently create new pages.
-6. [generator] Run `npm run prebuild` (or `npm run crosswalk:apply`) so affected product-page generators regenerate their marker-bounded sections.
-7. [model, where Part 9 applies] If the source contributes to an ingredient's `contamination_profile`, advance `status` from `pending` to `in_progress` or `populated` for analytes the source addresses and populate `confidence`, `n_studies`, `last_reviewed`. Apply the coverage rule: any remaining `pending` sub-blocks on the same page advance to `populated` with `n_studies: 0`. Update the body table. Where a (metal, ingredient) combination already has loaded synthesis, run Part 9 incremental-update rules.
-8. [model, until auto-emit] Append a one-line entry to `log.md` and update `index.md` if a new page was created.
-9. [model] Commit to git with a message that mirrors the log entry. Report back with a summary.
-
-Bias toward surfacing surprises. If a new source contradicts the wiki's current synthesis, say so loudly. The synthesis pass per CLAUDE.md Part 9 is where contradictions get resolved into updated values; the ingest itself just notes the contradiction.
+Report source pages touched, evidence rows generated, product or ingredient pages updated, and unresolved gaps. A source page plus a list of hoped-for downstream work is not a completed ingest. When a finding conflicts with the current synthesis, record the contradiction and run the applicable synthesis workflow or preserve an explicit unresolved review item; never silently overwrite or omit contrary evidence.
 
 ### Bulk ingest (23,000-paper corpus)
 
@@ -121,13 +112,14 @@ When ingesting the full Marker-converted corpus (or any batch over ~20 papers), 
 5. At the end of each batch, produce a batch report at `wiki/batch-reports/batch-NN.md` containing:
    - Number of papers ingested, number skipped (with reasons)
    - New source pages created (list of cite-keys)
-   - New metals, ingredients, or products encountered not previously in the wiki (proposals for new pages, not creations)
+   - Provisional destinations created, unresolved routes, and any full-page or taxonomy decisions requiring governance review
+   - Structured evidence rows, reviewed versus pending counts, exports regenerated, and checks completed
    - Any papers that failed to ingest and why
    - Any papers whose manifest-provided metadata disagreed substantially with actual content
-6. Karen reads batch reports at her own pace. Karen's Lab runs linting across batches.
+6. Run the applicable checks and generators before declaring the batch complete. Karen can read the report at her own pace; routine validation does not depend on that review.
 7. Do not pause for per-paper TL;DR approval during bulk ingest. The batch report is the review artifact.
 
-**The model's only output during bulk ingest is source pages.** Bulk ingest sessions do not edit product-category page tables, do not edit `data/evidence/product_source_routing_audit.csv`, do not edit `data/evidence/values.jsonl`, and do not advance `contamination_profile` blocks on ingredient pages. Those layers are downstream artifacts. If a bulk session finds itself wanting to update a product page or routing audit by hand, that is a signal to stop and surface the misunderstanding to Karen.
+Bulk ingest has the same completion contract as a single source, applied at batch scope. Source pages, structured evidence, route coverage, regenerated outputs, and explicit gaps are required. Scripts own the routing audit and generated product sections; the session runs or repairs those scripts rather than hand-editing their output. Source facts are not stranded until an unspecified later pass. Ingredient synthesis remains a distinct triggered workflow under CLAUDE.md Part 9, with its state and unresolved work recorded accurately.
 
 Frontmatter accuracy on source pages is load-bearing because it feeds the routing layer. A source that does not split soy vs non-soy formula gets `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`. Overspecifying to "pre-decide" routing is worse than leaving the routing layer to handle fan-out.
 
@@ -145,7 +137,7 @@ Output format can vary by question: markdown page, comparison table, chart (matp
 
 The 23,000-paper corpus is too large to ingest without prioritization. The triage manifest assigns priority signals to every paper. Claude ingests in this order.
 
-**Priority 1 — HMT&C Path A candidates.** Papers flagged in the manifest as HMT&C Path A source candidates. Directly relevant to certification threshold setting: report concentration values for specific metals in specific food matrices, adequate sample size, credible methods. Target: complete Priority 1 before beginning Priority 2.
+**Priority 1 — legacy Path A occurrence candidates.** The historical triage label identifies matrix-specific concentration data with usable methods and sampling information. Preserve that priority signal for occurrence extraction and evidence-gap repair; it does not authorize deriving live limits from occurrence. Current regulatory verification and missing-primary-source needs follow the live method lock.
 
 **Priority 2 — LOQ source candidates.** Papers flagged as Limit of Quantification source candidates. Ground the testing methodology discussion.
 
@@ -163,7 +155,7 @@ Some sources (especially agency reports and COAs) have critical information in f
 
 - Read the text first.
 - Then explicitly view the figures and tables that matter. For Marker-converted input, figures are extracted as separate image files in the source's `raw/markdown/FM_XXXXX/` folder.
-- If a figure contains data we need structured (a concentration distribution), transcribe it into a markdown table on the source page.
+- If a figure contains routeable values, capture them in structured evidence with the figure identifier and extraction limitations; summarize them on the source page only after review.
 - Store extracted images in `raw/assets/<cite-key>/` if the source does not already have them attached.
 
 ## Kickoff procedure
@@ -171,8 +163,8 @@ Some sources (especially agency reports and COAs) have critical information in f
 When Karen drops the first batch of Marker-converted markdown:
 
 1. Propose a manifest summary: total papers, breakdown by priority tier, any unusual flags from the triage data.
-2. Propose an initial top-level skeleton — which metal pages, ingredient pages, regulation pages, and testing pages to create as stubs before ingesting, so ingests have somewhere to attach. Wait for Karen's approval.
+2. Reuse the existing skeleton and create valid provisional evidence destinations where needed before publishing findings. Escalate full taxonomy or governance changes, not routine evidence stubs.
 3. Create `index.md`, `log.md`, `overview.md`, and `synthesis.md` as stubs.
 4. Initialize git if not already initialized. Make the first commit with CLAUDE.md and the stub files.
 5. Begin ingesting in priority order, processing in batches of 200. Produce batch reports after each batch. Commit after each batch.
-6. Karen reads batch reports and runs Karen's Lab lint checks at her own pace. Escalations from batch reports get handled before the next batch begins if they affect downstream ingests; otherwise queue for end-of-corpus review.
+6. Run checks before completion, publish the batch report, and preserve unresolved exceptions. Resolve routine issues autonomously; governance decisions remain explicit and do not block independent extraction or routing work.

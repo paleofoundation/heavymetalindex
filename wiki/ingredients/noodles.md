@@ -21,12 +21,15 @@ contamination_profile:
     n_studies: 1
     last_reviewed: 2026-05-13
   iAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: []
+    evidence_note: "The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified."
   tHg:
     status: populated
     typical_ppb: [0, 3.3]
@@ -83,7 +86,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 15
+sources: 16
 ---
 
 # Noodles
@@ -104,7 +107,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=1 | 0–41 | low | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
 | Cd | n=1 | 0–21.8 | low | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
-| iAs | n=1 | 0 | low | — |
+| iAs | Source context | Not quantified | — | — |
 | tAs | data gap | — | — | — |
 | tHg | n=1 | 0–3.3 | low | — |
 | Ni | data gap | — | — | — |
@@ -163,10 +166,18 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 and the predecessor regulation EU 2023/915 amending Regulation (EC) No 1881/2006 set a maximum level of 0.10 mg/kg Cd for cereal products and pasta, and 0.20 mg/kg Pb for the same category [[regulations/eu2023-contaminants-maximum-levels]]. These limits apply to noodles as a cereal-based product. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets Pb maximum levels for cereal-based products; Cd limits for pasta and noodles have been addressed through Codex discussions that reference EU-level data. See [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu-2023-915-cadmium]], and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
@@ -183,28 +194,29 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 3 | [[sources/kongta2023-noodle-products-aluminum-thailand\|Kongta et al. 2023]]. *Assessment of Exposure to Aluminum through Consumption of Noodle Products*, Foods | 2023 | Peer-reviewed | TH Al occurrence in Twenty samples each of rice stick noodles, egg noodles, wide rice noodles, and Thai rice noodles collected from... (n=80) |
 | 4 | [[sources/safwan2023-instant-soup-chicken-stock-jordan\|Safwan et al. 2023]]. *Assessment and health risk study of some heavy metals in instant soup and chicken stock products from Jordanian market*, African Journal of Food, Agriculture, Nutrition and Development | 2023 | Peer-reviewed | JO Mn, Cr, Cd, Pb occurrence in Ten soup powder, chicken-stock powder, and instant-noodle products purchased from local markets in Jordan in 2020. (n=10) |
 | 5 | [[sources/mohammed2021-salah-al-din-noodles-metals\|Mohammed et al. 2021]]. *Evaluation of mycotoxins and heavy metals pollution in some types of noodles in local markets*, Journal of Physics: Conference Series | 2021 | Peer-reviewed | IQ Cu, Cd, Pb occurrence in Ten types of noodles collected from markets in Salah Al-din Governorate, Iraq, with three replicates; the heavy-metal method... (n=10) |
-| 6 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | CA Pb, Cd, tAs occurrence in Thirty packets of instant noodles from six brands available in large grocery stores in the Canadian market; dry... (n=30) |
-| 7 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
-| 8 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biological Chemistry | 2019 | Peer-reviewed | Pb, Cd, tAs, and Al migration from Korean wheat-flour and sweet-potato glass noodles to boiling water, quantifying cooking-loss as a processing lever |
-| 9 | [[sources/shamsani2019-instant-noodles-heavy-metals-malaysia\|Shamsani et al. 2019]]. *Heavy Metals (Pb, Cd, As) Content in Instant Noodles From Malaysian Market*, Malaysian Journal of Medicine and Health Sciences, Vol. 15 Supp. 3 (Proceedings of the Summer Crash Course Programme 2018) | 2019 | Peer-reviewed | MY Pb, Cd, tAs occurrence in Seven commercially popular brands of instant noodles randomly purchased from the Malaysian retail market; noodles and accompanying seasoning/flavouring... (n=7) |
-| 10 | [[sources/otitoju2018-noodle-products-nigeria-metals\|Otitoju et al. 2018]]. *Heavy Metal Quantification of Noodle Products Commonly Consumed in Nigeria*, Journal of Home Economics Research | 2018 | Peer-reviewed | NG tAs, Cd, Cr, Pb, tHg occurrence in Eleven instant-noodle products sold in Nigerian markets, collected from a major market in Enugu State and anonymized in... (n=11) |
-| 11 | [[sources/tajdar-oranj2018-iran-instant-noodles-metals\|Tajdar-oranj et al. 2018]]. *The concentration of heavy metals in noodle samples from Iran's market: probabilistic health risk assessment*, Environmental Science and Pollution Research | 2018 | Peer-reviewed | IR Pb, Cr, Cd, Al occurrence in 27 instant noodle samples drawn from four commercial brands sold on the Tehran market in Spring 2017: three... (n=27) |
-| 12 | [[sources/charles2017-instant-noodles-nigeria-risk\|Charles et al. 2017]]. *Health risk assessment of instant noodles commonly consumed in Port Harcourt, Nigeria*, Environmental Science and Pollution Research | 2017 | Peer-reviewed | NG Pb, tAs, Ni, tHg, Cu, Cd, Al, Cr occurrence in Six commercial instant-noodle brands commonly consumed in Port Harcourt, Nigeria, purchased from retail shops in Choba, Alakahia, Rumuosi,... (n=6) |
-| 13 | [[sources/guo2017-asian-rice-derived-products-metals\|Guo et al. 2017]]. *Trace Elements and Heavy Metals in Asian Rice-Derived Food Products*, Water, Air, & Soil Pollution | 2017 | Peer-reviewed | US/CN/VN Cr, Cu, Zn, tAs, Se, Cd, tHg, Pb occurrence in Six rice-noodle products, five rice vinegar/wine products, and five rice-snack products purchased from local oriental markets in Jackson,... (n=16) |
-| 14 | [[sources/iyabo2015-ekiti-staple-foods-metals\|Iyabo et al. 2015]]. *Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria*, International Journal of Chemistry | 2015 | Peer-reviewed | NG Zn, Cu, Cd, Pb occurrence in Thirty listed staple food items identified from a questionnaire of 200 volunteered Ekiti State University students and purchased... (n=30) |
-| 15 | [[sources/solidum2013-metro-manila-junk-food-metals\|Solidum et al. 2013]]. *Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines*, Advanced Materials Research | 2013 | Peer-reviewed | PH Pb, Cd, Cr occurrence in Thirty-six junk-food samples randomly selected from sari-sari stores in Metro Manila, Philippines, in June 2012. (n=36) |
+| 6 | [[sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\|Elsheikh et al. 2020]]. *Evaluation of Some Toxic and Essential Trace Elements in Children Foods and Infant Formulae by Using ICP-OES*, Asian Journal of Chemistry 32(6):1273-1278 | 2020 | Peer-reviewed | SA Al, Pb, Cd, tAs, Mn, Ni, V, Si, Ba occurrence in Fifty-seven samples covering 19 different brands purchased in Turabah province, Saudi Arabia: 3 brands of infant formula (including... (n=57) |
+| 7 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | CA Pb, Cd, tAs occurrence in Thirty packets of instant noodles from six brands available in large grocery stores in the Canadian market; dry... (n=30) |
+| 8 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
+| 9 | [[sources/lee2019-food-processing-heavy-metals-migration\|Lee et al. 2019]]. *Effects of food processing methods on migration of heavy metals to food*, Applied Biological Chemistry | 2019 | Peer-reviewed | Pb, Cd, tAs, and Al migration from Korean wheat-flour and sweet-potato glass noodles to boiling water, quantifying cooking-loss as a processing lever |
+| 10 | [[sources/shamsani2019-instant-noodles-heavy-metals-malaysia\|Shamsani et al. 2019]]. *Heavy Metals (Pb, Cd, As) Content in Instant Noodles From Malaysian Market*, Malaysian Journal of Medicine and Health Sciences, Vol. 15 Supp. 3 (Proceedings of the Summer Crash Course Programme 2018) | 2019 | Peer-reviewed | MY Pb, Cd, tAs occurrence in Seven commercially popular brands of instant noodles randomly purchased from the Malaysian retail market; noodles and accompanying seasoning/flavouring... (n=7) |
+| 11 | [[sources/otitoju2018-noodle-products-nigeria-metals\|Otitoju et al. 2018]]. *Heavy Metal Quantification of Noodle Products Commonly Consumed in Nigeria*, Journal of Home Economics Research | 2018 | Peer-reviewed | NG tAs, Cd, Cr, Pb, tHg occurrence in Eleven instant-noodle products sold in Nigerian markets, collected from a major market in Enugu State and anonymized in... (n=11) |
+| 12 | [[sources/tajdar-oranj2018-iran-instant-noodles-metals\|Tajdar-oranj et al. 2018]]. *The concentration of heavy metals in noodle samples from Iran's market: probabilistic health risk assessment*, Environmental Science and Pollution Research | 2018 | Peer-reviewed | IR Pb, Cr, Cd, Al occurrence in 27 instant noodle samples drawn from four commercial brands sold on the Tehran market in Spring 2017: three... (n=27) |
+| 13 | [[sources/charles2017-instant-noodles-nigeria-risk\|Charles et al. 2017]]. *Health risk assessment of instant noodles commonly consumed in Port Harcourt, Nigeria*, Environmental Science and Pollution Research | 2017 | Peer-reviewed | NG Pb, tAs, Ni, tHg, Cu, Cd, Al, Cr occurrence in Six commercial instant-noodle brands commonly consumed in Port Harcourt, Nigeria, purchased from retail shops in Choba, Alakahia, Rumuosi,... (n=6) |
+| 14 | [[sources/guo2017-asian-rice-derived-products-metals\|Guo et al. 2017]]. *Trace Elements and Heavy Metals in Asian Rice-Derived Food Products*, Water, Air, & Soil Pollution | 2017 | Peer-reviewed | US/CN/VN Cr, Cu, Zn, tAs, Se, Cd, tHg, Pb occurrence in Six rice-noodle products, five rice vinegar/wine products, and five rice-snack products purchased from local oriental markets in Jackson,... (n=16) |
+| 15 | [[sources/iyabo2015-ekiti-staple-foods-metals\|Iyabo et al. 2015]]. *Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria*, International Journal of Chemistry | 2015 | Peer-reviewed | NG Zn, Cu, Cd, Pb occurrence in Thirty listed staple food items identified from a questionnaire of 200 volunteered Ekiti State University students and purchased... (n=30) |
+| 16 | [[sources/solidum2013-metro-manila-junk-food-metals\|Solidum et al. 2013]]. *Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines*, Advanced Materials Research | 2013 | Peer-reviewed | PH Pb, Cd, Cr occurrence in Thirty-six junk-food samples randomly selected from sari-sari stores in Metro Manila, Philippines, in June 2012. (n=36) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

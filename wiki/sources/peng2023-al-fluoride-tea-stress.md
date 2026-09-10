@@ -106,26 +106,25 @@ Microbiome: not addressed in this paper. The paper measures root organic-acid ex
 
 ## Provenance notes
 
-Open-access MDPI article published under CC BY 4.0 on 27 February 2023 (received 31 January 2023; revised 21 February 2023; accepted 23 February 2023). Raw PDF retrieved via the `discover` autopilot skill into `raw/Manual Fetch Discovery/peng2023-matcha-heavy-metal.pdf`. SHA-256 verified at ingest. Supplementary materials (Supplemental Figures S1–S6, Supplemental Tables S1–S4, including the qRT-PCR primer list, full pathway figures, and per-replicate organic-acid concentrations) are hosted at https://www.mdpi.com/article/10.3390/ijms24054640/s1 and were not retrieved into the corpus; tissue Al/F values were read off Figure 7 axis bars directly, and exact per-bar numerical values would require Supplemental Table S1 (organic-acid concentrations) and the figure-source numerical tables, which the paper does not embed in the body text. NCBI BioProject PRJNA748249 holds the transcriptome data.
+Open-access MDPI article published under CC BY 4.0 on 27 February 2023 (received 31 January 2023; revised 21 February 2023; accepted 23 February 2023). Raw PDF retrieved via the `discover` autopilot skill into the archived source file. SHA-256 verified at ingest. Supplementary materials (Supplemental Figures S1–S6, Supplemental Tables S1–S4, including the qRT-PCR primer list, full pathway figures, and per-replicate organic-acid concentrations) are hosted at https://www.mdpi.com/article/10.3390/ijms24054640/s1 and were not retrieved into the corpus; tissue Al/F values were read off Figure 7 axis bars directly, and exact per-bar numerical values would require Supplemental Table S1 (organic-acid concentrations) and the figure-source numerical tables, which the paper does not embed in the body text. NCBI BioProject PRJNA748249 holds the transcriptome data.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/tea]]
 - [[metals/aluminum]]
 - [[products/tea]]
 
 ## Verification notes
 
-Fresh ingest 2026-06-08 (Claude Opus 4.7, autonomous /ingest-next-manual-fetch-pdf cycle from `raw/Manual Fetch Discovery/`).
+Fresh ingest 2026-06-08 (automated editorial review, autonomous /ingest-next-manual-fetch-pdf cycle from the archived source file).
 
-- **Filename–content mismatch documented.** The source PDF was auto-fetched by the discover skill into `raw/Manual Fetch Discovery/peng2023-matcha-heavy-metal.pdf` with the suffix `-matcha-heavy-metal`, which appears to be a generic discover-skill template suffix rather than an accurate paper descriptor. The paper does not measure matcha. The paper is a hydroponic plant-physiology study on Camellia sinensis seedlings under controlled Al and F stress. The cite_key `peng2023-al-fluoride-tea-stress` describes the actual paper; the raw_handle `MFD_peng2023-matcha-heavy-metal` preserves the original auto-fetch filename for traceability per the existing MFD ingest pattern (cf. [[sources/el-daouk2020-aluminum-food-lebanon]] and [[sources/masri2025-toxicant-foods-california]], which followed the same convention for similarly-templated MFD filenames).
-- **Routing scope kept broad.** Frontmatter declares `products: [tea]` (umbrella) and `ingredients: [tea]` (umbrella) only. The paper studies tea plant tissue in general, not any specific tea product form (black, green, white, oolong, matcha, kombucha, supplement). Broad scope is the correct routing-layer input for a paper of this kind; the routing layer is responsible for any downstream fan-out, not this source page.
+- **Filename–content mismatch documented.** The source PDF was auto-fetched by the discover skill into the archived source file with the suffix `-matcha-heavy-metal`, which appears to be a generic discover-skill template suffix rather than an accurate paper descriptor. The paper does not measure matcha. The paper is a hydroponic plant-physiology study on Camellia sinensis seedlings under controlled Al and F stress. The cite_key `peng2023-al-fluoride-tea-stress` describes the actual paper; the raw_handle `MFD_peng2023-matcha-heavy-metal` preserves the original auto-fetch filename for traceability per the existing MFD ingest pattern (cf. [[sources/el-daouk2020-aluminum-food-lebanon]] and [[sources/masri2025-toxicant-foods-california]], which followed the same convention for similarly-templated MFD filenames).
+- **Routing scope kept broad.** source metadata declares `products: [tea]` (umbrella) and `ingredients: [tea]` (umbrella) only. The paper studies tea plant tissue in general, not any specific tea product form (black, green, white, oolong, matcha, kombucha, supplement). Broad scope is the correct routing-layer input for a paper of this kind; the routing layer is responsible for any downstream fan-out, not this source page.
 - **Fluoride not declared in `metals:`.** Fluoride is not a heavy metal and is not in the HMTc 10-analyte slate. The paper measures fluoride extensively but metal-name vocabulary, only Al is declared. The fluoride findings are preserved verbatim in Key numbers, Methods, and Implications because they are integral to interpreting the Al data (Al–F antagonism is a central finding of the paper).
 - **Evidence Fitness set to EF-4 Context only.** The Al/F tissue values are produced by 10-day hydroponic step-change exposures at 0.4–2.5 mM Al and 10 mM F, not by ordinary field cultivation. They are not representative of consumer-form tea or matcha. The Evidence Fitness section explicitly states what this source can and cannot support, per the EF-X schema. This page should not be pooled into any tea or matcha contamination_profile.
 - **No brand naming.** Methods sections name instrument vendors (Agilent 1100, NanoDrop 2000, Hitachi L-8900, Illumina HiSeq2500, Tiangen Biotech, Takara, Sigma-Aldrich, Aladdin, Wako, TBtools v1.108, SPSS v18) Exception 2 (scientific-method vendor/material allowance). No consumer-product brand names appear in the source.
 - **No new pages proposed.** The source's slugs (`tea` ingredient, `tea` product, `aluminum` metal, China jurisdiction, `tea-leaves` matrix) all exist in the current taxonomy. No ingredient or product scaffold-creation triggers fired during this ingest.
 
-Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROMOTE):
+Phase 2 audit application 2026-06-08 (fresh-context Agent editorial review, verdict PROMOTE):
 
 - All five audit checks returned ✅ clean (numerical fidelity, slug vocabulary, speciation and methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall).
 - **False positive rejected: alleged "SwScript" vs "SweScript" typo in Methods.** The auditor's only ⚠️ finding was that the Methods section "says SwScript RT (Takara) in one place but SweScript RT I First Strand cDNA Synthesis Kit (Takara, Dalian, China) elsewhere." Verified by grep against the committed page: the page uses "SweScript" once and contains no instance of "SwScript". The auditor appears to have misread the single SweScript occurrence as two distinct strings. No correction applied; no false-positive correction necessary because the typo does not exist in the page.
@@ -134,13 +133,13 @@ Phase 2 audit application 2026-06-08 (fresh-context Agent subagent, verdict PROM
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -46,7 +46,7 @@ The highest rice-grain values in Table 3 were Ni `5.53 x 10^4 µg/kg` in Field-I
 
 Supply-chain context from Table 2, not finished-grain occurrence: irrigation-water Pb was `1.03 x 10^3 µg/L` in Field-I, `7.68 x 10^2 µg/L` in Field-II, and `7.43 x 10^2 µg/L` in Field-III; irrigation-water Cd was `1.02 x 10^2`, `9.29 x 10^1`, and `5.85 x 10^1 µg/L`, respectively. Soil Pb was `5.91 x 10^4`, `6.95 x 10^4`, and `6.65 x 10^2 µg/kg` across Fields I-III, respectively.
 
-Table 4 reports pesticide co-contaminants in `µg/g`: diazinon in rice grain was `0.56 +/- 0.23` in Field-I, `0.94 +/- 0.20` in Field-II, and `1.68 +/- 0.089` in Field-III; fenitrothion in rice grain was `BDL` in Field-I, `0.45 +/- 0.079` in Field-II, and `BDL` in Field-III. These pesticide values are not metals and are not listed in frontmatter metals.
+Table 4 reports pesticide co-contaminants in `µg/g`: diazinon in rice grain was `0.56 +/- 0.23` in Field-I, `0.94 +/- 0.20` in Field-II, and `1.68 +/- 0.089` in Field-III; fenitrothion in rice grain was `BDL` in Field-I, `0.45 +/- 0.079` in Field-II, and `BDL` in Field-III. These pesticide values are not metals and are not listed in source metadata metals.
 
 ## Methods (brief)
 
@@ -71,7 +71,7 @@ This source supports a local, industrial-area rice occurrence route for harveste
 
 - Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s10661-024-12927-1`, `MFK_a-potential-toxicological-risk-assessment-of-heavy`, or `huda2024-irrigated-rice-metals-pesticides`.
 - Source text and rendered Table 3 pages were both checked because the PDF text layer column-wrapped the table. The final rice-grain rows above were transcribed from the rotated page image of Table 3 and rechecked against the surrounding extracted text.
-- Speciation: the paper reports As and Hg without speciation. Frontmatter and prose therefore use tAs and tHg; no iAs or MeHg claims were created.
+- Speciation: the paper reports As and Hg without speciation. source metadata and prose therefore use tAs and tHg; no iAs or MeHg claims were created.
 - Units preserved: rice-grain Table 3 values remain in `µg/kg`; irrigation-water values remain in `µg/L`; pesticide Table 4 values remain in `µg/g`; no unit conversions were performed.
 - Matrix separation: soil, irrigation water, husk, and stem values are documented only as context. The routeable product occurrence values are rice grain only.
 - Table/prose discrepancy: the narrative paragraph on p. 7 states that Field-III Pb was higher in stems at `5966.54 µg/kg` and husks at `497.93 µg/kg`, but Table 3 places approximately `5.96 x 10^3 µg/kg` under Field-III husk and `4.97 x 10^2 µg/kg` under Field-III stem. This page follows Table 3 and flags the discrepancy rather than silently swapping labels.
@@ -80,13 +80,13 @@ This source supports a local, industrial-area rice occurrence route for harveste
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

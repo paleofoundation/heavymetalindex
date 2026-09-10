@@ -80,27 +80,27 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 
 ## Verification notes
 
-- raw_handle MFK_rose2007 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.fct.2007.01.007 confirmed on the article header. (A duplicate of this PDF, "10.1016@j.fct.2011.11.024", is a different paper and is not this source.)
+- raw_handle MFK_rose2007 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.fct.2007.01.007 confirmed on the article header. (A duplicate of this PDF, "10.1016@j.fct.2011.11.024", is a different paper and is not this source.)
 - Evidence tier A: peer-reviewed FSA/Defra-CSL survey, ICP-MS, ISO 17025-accredited total-As method, documented QC.
-- Speciation: both total As and inorganic As reported; lifted to frontmatter as tAs and iAs and kept distinct. Inorganic-As values below 0.3 mg/kg are the method LOD (censored) and are recorded as "<0.3", not as numeric values, for all non-hijiki varieties. No mercury, lead, or cadmium measured.
+- Speciation: both total As and inorganic As reported; lifted to source metadata as tAs and iAs and kept distinct. Inorganic-As values below 0.3 mg/kg are the method LOD (censored) and are recorded as "<0.3", not as numeric values, for all non-hijiki varieties. No mercury, lead, or cadmium measured.
 - Units/basis preserved exactly: "as sold" values are dry weight; "prepared" and "soaking water" values are wet weight; both labelled throughout and not converted. Hijiki as-sold inorganic-As range 67–96 mg/kg matches the abstract and Table 1.
 - Censoring: arame/wakame/kombu/nori inorganic arsenic all <0.3 mg/kg dw (below_lod, limit 0.3 mg/kg). One kombu sample shows [0.3] (above LOD, below LOQ) — flagged in the table per the source's square-bracket convention.
 - Brand firewall: not engaged. Samples are described only by seaweed variety and generic retail-channel terms ("specialist retailers", "major supermarket chains"); no commercial brand names appear.
 - Jurisdiction GB (UK retail market); samples imported, origin not individually specified, so sampling_locations left empty. sampling_year_range 2003 (collection period Oct–Dec 2003).
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per established corpus convention; `kelp` included because kombu (*Laminaria*) is among the varieties. Kept broad for the routing layer.
 - Instrument/vendor name (Perkin-Elmer Multiwave) retained in Methods as permitted scientific reporting.
-- Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
+- Audit editorial review (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

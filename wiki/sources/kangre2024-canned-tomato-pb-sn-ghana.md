@@ -126,8 +126,7 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 
 **App.** Canned tomato mix (Ghana, single brand, n = 32): Pb 0.038–0.052 mg/kg mean (range 0.00–0.51 mg/kg, P95 0.03–0.05); Sn 2.3–2.7 mg/kg mean (range 0.65–4.01 mg/kg). B-tier (MPhil thesis, single brand, single site, West Africa); not generalisable beyond the studied brand and municipality.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/tomato]]
 - [[products/tomato-paste]]
 - [[products/canned-tomatoes]]
@@ -138,8 +137,8 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 
 2026-05-28 enhance pass (Claude): re-read source thesis (pp. 88–130 verified in full; abstract p. xiii). Schema reconciled to the post-2026-05-14 source template and several substantive defects corrected against the source. Specifically:
 
-- Frontmatter `products` corrected from `[products/canned-tomato, products/tomato-sauce]` (the first slug does not exist in `wiki/products/`; the second slug names a thinner product than the "tomato mix" the source describes) to `[products/tomato-paste, products/canned-tomatoes]`. "Tomato mix" in the Ghanaian / West African retail context is a concentrated canned tomato paste; routing to the paste page is the literal match, and the canned-tomatoes page captures the can-lining migration angle that the source emphasises.
-- Body language "Tasty Tom" / "Tasty Tom brand" dropped from prose and frontmatter sample_population brand firewall. The fact that the study examines a single brand is preserved (as a methods detail and a limitation), but the brand name is not propagated through the wiki.
+- source metadata `products` corrected from `[products/canned-tomato, products/tomato-sauce]` (the first slug does not exist in the linked reference record; the second slug names a thinner product than the "tomato mix" the source describes) to `[products/tomato-paste, products/canned-tomatoes]`. "Tomato mix" in the Ghanaian / West African retail context is a concentrated canned tomato paste; routing to the paste page is the literal match, and the canned-tomatoes page captures the can-lining migration angle that the source emphasises.
+- Body language "Tasty Tom" / "Tasty Tom brand" dropped from prose and source metadata sample_population brand firewall. The fact that the study examines a single brand is preserved (as a methods detail and a limitation), but the brand name is not propagated through the wiki.
 - "±" labeling corrected from SD to SE throughout. Table 4 (p. 103) and Table 3 (p. 118) of the thesis both label the dispersion as standard error, not standard deviation.
 - Pb display-model claim corrected. The prior wiki said "Pb was significantly higher in sunlight-exposed products"; the source (p. 107) explicitly reports the independent-samples t-test as p > 0.05 and states "the null hypothesis was maintained". The means are numerically higher in sunlight-exposed product but not statistically significantly so; the wiki now reflects that.
 - Sn values added. The prior wiki recorded Sn as "consistent" with no numeric values; Table 4 reports enclosed-shop mean 2.656 ± 0.79 mg/kg (SE) and sunlight-exposed mean 2.304 ± 0.83 mg/kg (SE), and Table 3 reports the underlying per-sample range and percentiles. Sn was numerically lower (not equal) in the sunlight-exposed stratum, and the independent t-test for Sn was also non-significant (p > 0.05).
@@ -153,13 +152,13 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

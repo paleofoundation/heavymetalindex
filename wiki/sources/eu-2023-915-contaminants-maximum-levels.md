@@ -80,8 +80,8 @@ The full Annex I covers many contaminants. HMI extracts the rows most relevant t
 
 ## Data Files Created Or Updated
 
-- `data/evidence/regulatory_limits.csv` now carries selected EU 2023/915 maximum-level rows normalized to `ug/kg`.
-- `data/evidence/product_regulatory_crosswalk.csv` routes selected EU rows into formula, baby-food, cereal, juice, and rice-beverage product pages.
+- the structured evidence record now carries selected EU 2023/915 maximum-level rows normalized to `ug/kg`.
+- the structured evidence record routes selected EU rows into formula, baby-food, cereal, juice, and rice-beverage product pages.
 - [[regulations/eu2023-contaminants-maximum-levels]] is the canonical regulation hub for the extracted metal rows.
 - [[regulations/eu-2023-915-cadmium]] is the cadmium-specific ingredient/matrix page.
 
@@ -95,7 +95,7 @@ The local raw PDF is the original Official Journal version supplied for ingest. 
 - [[regulations/eu-2023-915-cadmium]]
 - [[regulations/eu2023-arsenic-rice-based-drinks]]
 - [[products/regulatory-crosswalk-field-findings]]
-- Formula product rows, baby-food product rows, cereal rows, fruit-juice rows, and rice-based plant milk rows through `data/evidence/product_regulatory_crosswalk.csv`
+- Formula product rows, baby-food product rows, cereal rows, fruit-juice rows, and rice-based plant milk rows through the structured evidence record
 - Ingredient pages for rice, wheat, potatoes, spinach, sunflower seeds, cocoa, chocolate, fish, bivalve molluscs, wild mushrooms, and organ meats where EU 2023/915 provides matrix-specific context.
 
 ## Key numbers
@@ -216,18 +216,18 @@ Decimal commas are preserved from the source. Wet-weight basis applies unless th
 
 ## Verification notes
 
-Merge-enhance pass 2026-06-02. The 2026-05-02 revision of this page had the correct overall framing and Annex-section summary table but several frontmatter defects flagged by `routing_malformed.csv`:
+Merge-enhance pass 2026-06-02. The 2026-05-02 revision of this page had the correct overall framing and Annex-section summary table but several source metadata defects flagged by `routing_malformed.csv`:
 
 - `products:` array mixed a bare string (`"infant-formula"`) with quoted wikilinks, and named two slugs (`infant-formula-rtf-liquid`, `mixed-meals`) that were retired in favour of the soy/non-soy and rice-containing/non-rice splits.
 - `ingredients:` field was absent; the routing layer fell back to broad scope for every ingredient this regulation touches.
 
 Both fixes are conservative re-mappings to the current taxonomy snapshot, not new claims. `products:` now references the split RTF-liquid and mixed-meals slugs the wiki actually has on disk. `infant-formula`, `infant-and-child-foods-master`, and `salt` umbrellas are kept so the routing fan-out reaches the broad master pages as well as the form-specific children. `ingredients:` is populated with the eleven slugs the regulation singles out by name in Annex I metals rows (rice, cocoa, chocolate, honey, spinach, sunflower-seeds, wheat, fish, bivalve-molluscs, salt, turmeric).
 
-A `near_duplicates` entry was added for the Kimi-agent manual-fetch copy at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/10_EU_2023_915_contaminants.pdf` (sha256 `b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515`). Both files are the same Official Journal text; the canonical raw_path under `raw/reports/` is preserved.
+A `near_duplicates` entry was added for the source-retrieval manual-fetch copy at the archived source file (sha256 `b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515`). Both files are the same Official Journal text; the canonical raw_path under the archived source file is preserved.
 
-A second `near_duplicates` entry was added 2026-06-02 for the byte-identical Kimi copy at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/EU_2023-915_Maximum_Levels_Contaminants_Food.pdf` (same sha256 `b382ed1d...`). The Kimi agent filed the same Official Journal PDF in two subfolders of the condiments2 corruption-issue folder tree; both paths now point back to this canonical source page so future manual-fetch cycles recognize either copy as already-ingested.
+A second `near_duplicates` entry was added 2026-06-02 for the byte-identical source-retrieval copy at the archived source file (same sha256 `b382ed1d...`). The source-retrieval agent filed the same Official Journal PDF in two subfolders of the condiments2 corruption-issue folder tree; both paths now point back to this canonical source page so future manual-fetch cycles recognize either copy as already-ingested.
 
-A third `near_duplicates` entry was added 2026-06-09 for the same byte-identical copy under the daemon's June 8 staging folder tree at `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/10_EU_2023_915_contaminants.pdf` (same sha256 `b382ed1d...`). The manual-fetch loop reached this PDF via the new staging path and the duplicate was confirmed by sha256 against the canonical raw_path; no body changes were made because the existing page is post-2026-05-14 clean and PROMOTE-audited on 2026-06-02.
+A third `near_duplicates` entry was added 2026-06-09 for the same byte-identical copy under the daemon's June 8 staging folder tree at the archived source file (same sha256 `b382ed1d...`). The manual-fetch loop reached this PDF via the new staging path and the duplicate was confirmed by sha256 against the canonical raw_path; no body changes were made because the existing page is post-2026-05-14 clean and PROMOTE-audited on 2026-06-02.
 
 A `## Key numbers` section was added with the major heavy-metal Annex I rows transcribed directly from the source PDF's tables 3.1 (lead), 3.2 (cadmium), 3.3 (mercury), 3.4 (arsenic — inorganic and total), and 3.5 (inorganic tin). Decimal commas are preserved verbatim from the Official Journal text. The section is a quick-reference for downstream synthesis and product-page work and is bounded to the metals HMI tracks; PAH, mycotoxin, dioxin, melamine, perchlorate, and POP rows are not transcribed here.
 
@@ -241,13 +241,13 @@ No body claims were softened or strengthened. No HMTc threshold inference was ad
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [f526bc0ca](https://github.com/paleofoundation/heavymetalindex/commit/f526bc0ca) | 2026-06-09 | minor | Narrative text revised |
-| [46367af58](https://github.com/paleofoundation/heavymetalindex/commit/46367af58) | 2026-06-02 | minor | Narrative text revised |
-| [921d4040a](https://github.com/paleofoundation/heavymetalindex/commit/921d4040a) | 2026-06-02 | major | 8 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f526bc0ca9](https://github.com/paleofoundation/heavymetalindex/commit/f526bc0ca9) | 2026-06-09 | minor | Narrative text revised |
+| [46367af586](https://github.com/paleofoundation/heavymetalindex/commit/46367af586) | 2026-06-02 | minor | Narrative text revised |
+| [921d4040a6](https://github.com/paleofoundation/heavymetalindex/commit/921d4040a6) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

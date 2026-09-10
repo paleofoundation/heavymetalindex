@@ -80,18 +80,18 @@ ICP-OES (PerkinElmer AVIO 200) with acid digestion and external-standard calibra
 - Speciation: total metals by ICP-OES; arsenic recorded as tAs.
 - PDE thresholds (Pb 5 µg/day, Cd 2 µg/day parenteral / 15 µg/day oral, As 15 µg/day, Ni 20 parenteral / 200 oral µg/day) are the authors' citations to ICH Q3D / TGA guidance, reported as context, not as HMI/HMTc thresholds.
 - Merge-enhance 2026-06-08 (same-day): re-read Table 2 to verify ranges. Corrected Pb injectable max from 3.38 to 2.01 µg/mL (Table 2 row "Lead (μg/mL) Av (min–max) 1.57 (1.13–2.01)"); corrected raw-powder Al mean from 517.3 to 51.73 µg/g (Table 2 row "Aluminium Raw (μg/g) 51.73 (29.57–73.89)" — prior value was a decimal-place error); revised Summary to note Cd was quantifiable only in injectables (oral and raw both <5 µg/g); added oral Cd PDE (15 µg/day) and oral Cr PDE annotation; added explicit min–max ranges to raw-powder cells for Pb, As, Al and Cr.
-- Audit subagent (2026-06-08) flagged `[[metals/aluminium]]` wikilinks; verified against `wiki/metals/` directory — the canonical page is `wiki/metals/aluminum.md` (US spelling). Corrected the two wikilinks to `[[metals/aluminum]]`. Narrative prose retains "aluminium" where it directly mirrors the source paper's Australian spelling.
-- Scaffold-introducing slugs not yet in `docs/gpt-collaboration/taxonomy-snapshot.md`: `products/research-chemicals-peptides-sarms` (page exists at `wiki/products/research-chemicals-peptides-sarms.md`; snapshot is stale and will pick it up on next refresh) and the four AAS matrix labels `anabolic-androgenic-steroids`, `injectable-aas`, `oral-aas`, `raw-aas-powder` (introduced for this category). Surfaced for the next taxonomy-snapshot regeneration.
+- Audit editorial review (2026-06-08) flagged `[[metals/aluminium]]` wikilinks; verified against the linked reference record directory — the canonical page is the linked reference record (US spelling). Corrected the two wikilinks to `[[metals/aluminum]]`. Narrative prose retains "aluminium" where it directly mirrors the source paper's Australian spelling.
+- Scaffold-introducing slugs not yet in the editorial record: `products/research-chemicals-peptides-sarms` (page exists at the linked reference record; snapshot is stale and will pick it up on next refresh) and the four AAS matrix labels `anabolic-androgenic-steroids`, `injectable-aas`, `oral-aas`, `raw-aas-powder` (introduced for this category). Surfaced for the next taxonomy-snapshot regeneration.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [d0470d948](https://github.com/paleofoundation/heavymetalindex/commit/d0470d948) | 2026-06-08 | major | 1 section added; narrative text revised |
-| [4dcfa39fb](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39fb) | 2026-06-08 | major | 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [d0470d9481](https://github.com/paleofoundation/heavymetalindex/commit/d0470d9481) | 2026-06-08 | major | 1 section added; narrative text revised |
+| [4dcfa39fb1](https://github.com/paleofoundation/heavymetalindex/commit/4dcfa39fb1) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

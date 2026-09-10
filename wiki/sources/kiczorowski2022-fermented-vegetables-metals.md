@@ -76,20 +76,20 @@ The source reports ug/g fresh matter for Pb and Cd in Table 6. The Cd standard-d
 
 The raw Pb values themselves are also high for fresh vegetables: 4.28 to 8.28 ug/g fresh matter equals 4.28 to 8.28 mg/kg, which is roughly 40x the EU 2023/915 maximum level for leafy and other vegetables (0.10 mg/kg). The values are also higher than the certified Pb load of the INCT-TL-1 Tea Leaves CRM (1.78 mg/kg). Pb concentrations of this magnitude in farm-grown Polish vegetables are not consistent with comparable Polish vegetable surveys; the paper offers no explanation. The wiki records the values as the source reports them, but synthesis passes should treat this paper as an outlier on level, not on the fermentation-effect direction, until corroborated.
 
-The paper calls its Capsicum annuum sample only "pepper" without specifying color. The HMI ingredient vocabulary has `green-bell-pepper` and `black-pepper` but no generic `pepper` or `bell-pepper` slug; the green-bell-pepper slug was removed from frontmatter rather than overspecify the source. The Capsicum annuum ingredient is flagged here for routing's attention.
+The paper calls its Capsicum annuum sample only "pepper" without specifying color. The HMI ingredient vocabulary has `green-bell-pepper` and `black-pepper` but no generic `pepper` or `bell-pepper` slug; the green-bell-pepper slug was removed from source metadata rather than overspecify the source. The Capsicum annuum ingredient is flagged here for routing's attention.
 
 The matrices values `raw-vegetables` and `fermented-vegetables` are not in the canonical example list in the system prompt; they are added here because none of the canonical examples (leafy-vegetable, root-vegetable, vegetable-puree) faithfully describes a fermentation before/after pair across multiple vegetable types.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [434c53603](https://github.com/paleofoundation/heavymetalindex/commit/434c53603) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [434c53603f](https://github.com/paleofoundation/heavymetalindex/commit/434c53603f) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

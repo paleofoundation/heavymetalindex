@@ -101,18 +101,18 @@ App: Adds farmed and wild New England sugar kelp occurrence data with species an
 
 Per-sample concentration distributions and site-level means live in Supplementary Tables S1-S12 of the source (deposited at https://github.com/BriKS0213/Shaughnessy_Metals_2022, DOI 10.5281/zenodo.7126448). The main-text "% of MCL" and "grams safe to eat" values reported here are reproduced from Tables 3 and 4. Synthesis pools should pull the supplementary per-sample data rather than relying on the summary percentages.
 
-The matrices vocabulary entry `sugar-kelp` is not in the standard taxonomy-snapshot list but is used consistently across sugar-kelp papers in `wiki/sources/`; `seaweed` and `kelp` are added alongside it for fan-out routing. Mercury was measured as total mercury without speciation; `tHg` is used in `metals:` accordingly.
+The matrices vocabulary entry `sugar-kelp` is not in the standard taxonomy-snapshot list but is used consistently across sugar-kelp papers in the linked reference record; `seaweed` and `kelp` are added alongside it for fan-out routing. Mercury was measured as total mercury without speciation; `tHg` is used in `metals:` accordingly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [169946999](https://github.com/paleofoundation/heavymetalindex/commit/169946999) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1699469993](https://github.com/paleofoundation/heavymetalindex/commit/1699469993) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

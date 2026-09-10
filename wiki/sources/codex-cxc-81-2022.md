@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["cocoa-beans"]
 type: source
 cite_key: codex-cxc-81-2022
 title: "Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-03
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # Codex CXC 81-2022 — Code of Practice for Cadmium in Cocoa Beans
@@ -39,7 +43,7 @@ Required citation per the document: "FAO and WHO. 2023. Code of practice for the
 
 License: CC BY-NC-SA 3.0 IGO. ISBN 978-92-5-137812-0 (FAO). Adopted 2022; published Rome 2023.
 
-Retrieved as PDF from FAO's Codex Standards web service via WebFetch on 2026-05-03; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to `raw/standards/`. The agency-website reference and the document's CC license are sufficient primary-source citations for the values recorded here.
+Retrieved as PDF from FAO's Codex Standards web service via WebFetch on 2026-05-03; SHA-256 of the canonical FAO PDF is pending future ingestion when the document is added to the archived source file. The agency-website reference and the document's CC license are sufficient primary-source citations for the values recorded here.
 
 ## Scope (Section 2)
 
@@ -121,8 +125,7 @@ The CoP specifies eight transport-stage practices: cover loading and unloading a
 - App: the CoP does not contain finished-product cocoa cadmium concentration values; it is a process document, not an occurrence document. App-layer cocoa cadmium values come from [[sources/codex-cxs-193-1995|CXS 193-1995]] (matrix MLs) and from [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] (population exposure assessment), not from this CoP.
 - Mitigation: this is the load-bearing source for [[mitigation/agronomic|agronomic]], [[mitigation/processing|processing]], and parts of [[mitigation/formulation|formulation]] cocoa-cadmium mitigation content. The four mitigation strategy pages cite this CoP for the cocoa-specific intervention specifics.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
@@ -135,12 +138,12 @@ The CoP specifies eight transport-stage practices: cover loading and unloading a
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 3 sources added; 12 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [215477918a](https://github.com/paleofoundation/heavymetalindex/commit/215477918a) | 2026-05-03 | major | 3 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

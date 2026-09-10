@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+ingredients: ["baby-food"]
 type: source
 raw_handle: Digest/TEP-AsPbCdHg-TEP-FY2009-FY2024-12162024.pdf
 cite_key: fda2024-toxic-elements-baby-food-compliance-2009-2024
@@ -25,7 +28,8 @@ derived_files: [data/evidence/category1_fda_baby_food_compliance_summary.csv, da
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-29
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # FDA 2024 - Toxic Elements Compliance Results For Baby And Young Child Foods
@@ -38,10 +42,10 @@ This source does not cover infant formula, fruit juice, fish-containing baby foo
 
 ## Extracted Files
 
-- `data/evidence/category1_fda_baby_food_compliance_samples.csv`: 1,944 parsed sample/analyte rows.
-- `data/evidence/category1_fda_baby_food_compliance_summary.csv`: 39 row/product/analyte summary records.
-- `data/evidence/values.jsonl`: 39 machine-extracted value records with prefix `category1-fda-baby-food-compliance-`.
-- `data/evidence/sources.jsonl`: source metadata record for this PDF.
+- the structured evidence record: 1,944 parsed sample/analyte rows.
+- the structured evidence record: 39 row/product/analyte summary records.
+- the structured evidence record: 39 machine-extracted value records with prefix `category1-fda-baby-food-compliance-`.
+- the structured evidence record: source metadata record for this PDF.
 
 ## Source Tables
 
@@ -131,13 +135,13 @@ Microbiome: no direct microbiome endpoint.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [a36b7b56b](https://github.com/paleofoundation/heavymetalindex/commit/a36b7b56b) | 2026-04-29 | major | 7 sections added and 3 removed; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
+| [a36b7b56bc](https://github.com/paleofoundation/heavymetalindex/commit/a36b7b56bc) | 2026-04-29 | major | 7 sections added and 3 removed; narrative text revised |
 <!-- END: hmi-page-history -->

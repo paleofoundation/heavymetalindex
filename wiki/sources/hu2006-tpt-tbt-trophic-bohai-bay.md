@@ -132,8 +132,8 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 
 ## Verification notes
 
-- 2026-06-04 fresh ingest from `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish/`. PDF SHA-256 517dc7ae…7e9347. DOI 10.1021/es0514747 verified against page header. Three identity checks (DOI, raw_handle, cite-key) returned no prior wiki page.
-- The source measures organotin compounds (TBT, TPT, and their MBT/DBT/MPT/DPT degradation products), not inorganic tin. Frontmatter uses `metals: [Sn]` for element-level routing consistent with the [[cfs2019-organotin-aquatic-hongkong]] precedent; downstream synthesis must link the toxicology to [[metals/organotins]] and must not pool these values with inorganic Sn occurrence used for canned-food / canned-tuna threshold work.
+- 2026-06-04 fresh ingest from the archived source file. PDF SHA-256 517dc7ae…7e9347. DOI 10.1021/es0514747 verified against page header. Three identity checks (DOI, raw_handle, cite-key) returned no prior wiki page.
+- The source measures organotin compounds (TBT, TPT, and their MBT/DBT/MPT/DPT degradation products), not inorganic tin. source metadata uses `metals: [Sn]` for element-level routing consistent with the [[cfs2019-organotin-aquatic-hongkong]] precedent; downstream synthesis must link the toxicology to [[metals/organotins]] and must not pool these values with inorganic Sn occurrence used for canned-food / canned-tuna threshold work.
 - No `ingredients/crustaceans` slug in the current taxonomy; crab and burrowing shrimp are routed under `ingredients/shellfish` for the wiki layer while preserving their specific identification in the per-species Key numbers table.
 - No `ingredients/plankton` or matrices term for plankton in the current vocabulary; phytoplankton/seston and zooplankton are retained in the body-table for completeness as trophic-baseline rows, not as routed ingredients.
 - The seawater results (TBT and TPT in 14 sites) are cited from the companion paper Gao et al. 2004 (Bull. Environ. Contam. Toxicol. 72:945, ref. 35 in this article) rather than measured in this article itself; the authors use them as the surface-water surrogate for input-vs-trophic-magnification interpretation. Reproduced here exactly as the authors report them and attributed in the table notes.
@@ -143,13 +143,13 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

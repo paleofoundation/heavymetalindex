@@ -1,7 +1,6 @@
 # HMTc Governing Principles
 
-**This document governs every decision in the HMTc Program. Read it before
-reading any other HMTc document. Apply it at every step.**
+**This document governs decisions in the HMTc Program. For live limit-setting, read the September 9, 2026 method lock and CLAUDE.md Part 19 first, then the canonical Method v2.0 specification, then this document. The later source does not override the earlier lock. Apply the principles below at every step.**
 
 ---
 
@@ -31,7 +30,7 @@ The HMTc Program exists to serve five objectives simultaneously:
    claim must cite a real regulation with a real section number. No HMTc
    limit may exceed a government maximum level. The methodology must
    withstand scrutiny from regulators, litigators, and competitors. The
-   pooling math is in code, deterministic, and reproducible. Standards
+   regulatory selection and basis conversion are documented, deterministic, and reproducible. Standards
    arithmetic does not live in `wiki/`; the wiki is the public literature
    evidence layer, the staff Standards Workbench (and `data/workbench/`)
    carries the threshold math.
@@ -61,103 +60,25 @@ ignored in favor of whichever principle feels most urgent in the moment.
 
 ---
 
-## The Locked Standards Math
+## The Locked Standards Method
 
-The HMTc Program uses percentile-based thresholds at two distinct points,
-operating at two different moments in the program lifecycle. The framing
-below leads with **intent** (the row-level pass rate the program is
-designed to deliver) and follows with **mechanism** (the per-analyte
-percentile math that delivers it). Adversarial readers attacking "why P97
-and not P95" must instead attack "why 90% and not 85%" — and the answer
-to that traces directly to the Governing Principles.
+Method v2.0, as amended by the September 9, 2026 lock, controls initial limit-setting for every category. The canonical machine-readable method is `heavymetalcertified/data/method/method-v2.json`; CLAUDE.md Part 19 and the live lock state its precedence. Occurrence pooling, the P97/P45 calibration, and the `literature-baseline` / `feasibility-driven` rationale tags are retired as limit-setting mechanisms. They produce no live published cell.
 
-### Limit-setting (initial publication) — the 90/40 row-pass intent
+### Initial publication: government limits and disclosed derivations
 
-The HMTc Standards are calibrated to deliver the following row-level
-outcomes at initial publication:
+The default is the strictest applicable finalized government maximum verified from primary text, expressed on the row's native basis. Verify both the regulatory register and the mounted primary-instrument library; a missing tighter instrument must enter the register before a looser register-only value can be published. Claims of strictness state the verified instrument set and its date or commit.
 
-- Approximately **90%** of clean-subcategory brands pass row-level
-  certification on day one.
-- Approximately **40%** of dirty-subcategory brands pass row-level
-  certification on day one.
+Where no government regulates the exact cell, use a disclosed read-across to the nearest applicable sovereign value on the same basis. A species may be bounded by its parent total under the existing species and testing rules. Every cell remains complete and testable under the Certification-Readiness Ruling below; uncertainty is not permission to invent a number or publish a blank. A substantiated control or not-material determination does not bypass that readiness ruling. A supported precautionary value below the applicable government maximum remains a disclosed program choice. The gap and its rationale are named.
 
-These targets are the policy choice. They sit at the intersection of all
-five Governing Principles: too tight (e.g., 50/10) violates Principles 3
-and 5 because brands cannot recruit and the program cannot scale; too
-loose (e.g., 99/80) violates Principles 1 and 3 because the mark loses
-meaning and clean brands lose differentiation. 90/40 is the policy answer
-to all five simultaneously.
+Rationale vocabulary is `regulatory-alignment`, `read-across`, `subsumed`, `precautionary`, `not-material`, `control`, and `baseline-screen`, applied with the existing completeness and honesty conditions. No value may be looser than the strictest applicable verified law. Basis conversion is explicit and logged; product content, prepared-food content, migration/release, and dose-based ceilings are never silently interchanged.
 
-### Limit-setting (initial publication) — the per-analyte mechanism
+### Occurrence evidence remains descriptive
 
-To deliver the 90/40 row-level intent, per-analyte limits are set as
-follows:
+Preserve sample-level findings and all source-reported summaries, including mean, median, range, maximum, SD, IQR, and lower/upper-bound estimates. Summary-only sources remain usable evidence. Where a descriptive analysis reconstructs a distribution by moment matching, disclose assumptions, distinguish pseudo-samples from observations, and retain fit and sensitivity information. Pool admission remains specific to market, product form, basis, species, collection period, method, and censoring. These analyses characterize occurrence and may inform testing or surveillance; they do not choose a live limit.
 
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's
-marginal occurrence distribution for that analyte.
+### Historical calibration
 
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's
-marginal occurrence distribution for that analyte.
-
-**Why P97 and P45, not P90 and P30 (the row-pass calibration):**
-
-To certify, a brand must be at-or-below the limit on all ten HMTc analytes
-simultaneously. Under independence, per-analyte limits set at P90 (clean)
-would deliver 0.9^10 = 35% joint row-pass; per-analyte limits at P30 (dirty)
-would deliver effectively 0% joint row-pass. Real-world analytes correlate
-(supply-chain hygiene drives multiple metals together), so the actual joint
-pass rate sits between independence and perfect correlation — typically
-50-70% for clean and 10-15% for dirty at raw P90/P30. Both fall well short
-of the 90% / 40% targets.
-
-The heuristic uplift from P90 → P97 (clean) and P30 → P45 (dirty) brings
-the joint row-pass rate close to the 90/40 target. The calibration is
-anchored to measured lot data, not an assumed correlation — the FDA 2026
-special survey delivered 94% clean and 42% dirty row-pass against the
-P97/P45 limits, confirming the 90/40 targets (the measured cross-analyte
-correlation is ~0.27, not the ≈0.6 once assumed). It is not a relaxation:
-it is the per-analyte percentile that delivers the row-level outcome the
-program promises.
-
-The uplift is uniform across all analytes today. Per-analyte differentiation
-(e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a
-Tier 2 calibration deferred until HMTc has lot-testing data to measure the
-actual joint pass rate empirically. Target review: 6-12 months post-launch.
-
-### Pool admission and basis
-
-Every source loaded for a (row, metal) cell contributes to the pooled
-distribution unless explicitly dispositioned out with a stated reason.
-Sample-level data uses raw values. Summary-only sources (mean, median, max,
-SD, lb/ub, IQR) contribute via moment-matching pseudo-sample expansion
-under log-normal or gamma assumptions; the methodology is the standard
-practice in environmental exposure assessment (WHO/JECFA pooled TDS
-methodology; EFSA Scientific Opinions on Pb and Cd in food). Sources are
-weighted by their reported N, capped at twice the median per-source N to
-prevent any one large survey from dominating.
-
-Each row's standard is in the native basis of the product form: powder
-rows in powder-as-placed-on-market, RTF rows in as-consumed, dry cereal
-rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in
-their product's native form; the standard matches that form. Sources
-reporting in other bases get converted into the row's native basis during
-pooling, not the other way around. Conversions are logged per source.
-
-### Regulatory cap
-
-The final HMTc value is `min(per-analyte pooled percentile, lowest
-applicable regulatory ceiling)`, with both expressed in the row's native
-basis. The cap is converted into native basis if it was published in a
-different one. The rationale tag is `literature-baseline` when the pooled
-percentile binds and `regulatory-alignment` when the cap binds.
-
-A standard may be set lower than both the pooled percentile and the cap
-when staff documents a `precautionary` rationale (vulnerable population
-concern, cumulative exposure, scientific uncertainty). A standard may be
-set higher than the pooled percentile only via a `feasibility-driven`
-rationale paired with a sunset plan to tighten as analytical methods or
-supply-chain practices improve. The gap between literature-baseline and
-the final value, if any, is stated honestly.
+Earlier editions used a 90/40 row-pass intent and a P97/P45 per-analyte calibration. That initial limit-setting mechanism was retired on September 9, 2026. The historical derivation remains in `docs/standards-methodology.md` and the changelog below. The five Governing Principles remain in force; a historical pass-rate target cannot override a verified government ceiling or reintroduce occurrence-based limit-setting.
 
 ### Ratchet trigger (revision cycle, distinct from limit-setting)
 
@@ -180,11 +101,7 @@ per ratchet event. Transition is 12–18 months from announcement to
 enforcement; Status A certifications grandfather for the transition
 period. Full mechanics are specified in Governance Policy §12.
 
-The ratchet trigger uses HMTc-internal lot-testing data. The
-limit-setting math uses external survey data (FDA, EFSA, peer-reviewed
-studies, EU basket surveys, jurisdictional total-diet studies). The two
-mechanisms operate at different times, on different data sources, and
-serve different functions.
+The ratchet trigger uses HMTc-internal lot-testing data after publication. Initial limit-setting uses verified sovereign instruments and disclosed derivations under Method v2.0. External occurrence surveys remain descriptive evidence. These functions stay separate; the ratchet does not revive the retired initial percentile mechanism.
 
 ALARA (As Low As Reasonably Achievable) and the brand remediation-plan
 infrastructure govern the ongoing relationship between certified brands
@@ -257,38 +174,17 @@ reserved for categories that clear all three gates.
 
 ### The confidence standard on the numbers (Rule #1, ratified 2026-08-31)
 
-The gate above requires a standard's numbers to be *correct*; this fixes what "≥95%
-confidence in the numbers" means, because read literally it would make every category
-permanently un-mintable. Under Method v2.0 most cells are not occurrence estimates at
-all — they are sovereign maximum levels or disclosed read-across, whose confidence is a
-matter of provenance, not statistics. The corpus carries percentile-grade occurrence
-depth only for Pb, Cd, tAs (and iAs on rice, cereal, and juice); Ni, Cr/Cr-VI, Al, Sn,
-and MeHg have little or no occurrence anywhere (nickel has no milk or formula occurrence
-in the corpus and is governed entirely by the EU 2024/1987 lookup). A literal
-≥95%-occurrence bar on all ten analytes is unmeetable on any category.
+The gate above requires every cell's number and scope to be correct. Under the September 9, 2026 Method v2.0 lock, no live cell is an occurrence-percentile estimate. Confidence is established by the provenance and applicability of the chosen instrument or disclosed derivation, not by requiring a food-occurrence distribution for every analyte.
 
-The confidence standard is therefore defined per cell, matching the §1 limit-of-record
-taxonomy. A cell is **firm** — and clears the gate — when it is:
+A cell is firm only when its pathway is documented and verified:
 
-- a **sovereign maximum level** by lookup (`regulatory-alignment`): confidence is
-  definitional, the number is the law;
-- a **disclosed read-across**, a **species bounded by its parent total**, or a
-  **baseline / LOQ screen**: confidence is in the disclosed, honestly-labeled
-  derivation (§2);
-- an **occurrence-derived value** — the Method v2.0 selective-pooling cells (the Tier-1
-  toxics where a clean subcategory's pooled occurrence binds below the government floor):
-  here, and only here, the ≥95% statistical-confidence standard applies to the estimate
-  itself (the classifier's `firm` state and a stable sensitivity band).
+- A sovereign maximum (`regulatory-alignment`) requires primary-text verification of the number, product scope, analyte species, legal status, and native-basis conversion.
+- A disclosed read-across requires the sovereign source and the applicability rationale to be explicit and verified. A parent-bounded species requires a verified parent ceiling and the existing species rules.
+- A baseline/LOQ screen requires a published reference method and a supported, testable value under the completeness ruling. Any precautionary choice or other permitted disposition carries its actual provenance and does not bypass the no-fabrication or never-blank rules.
 
-A category clears the confidence gate when every cell of every subcategory is firm in
-one of these senses; it still fails any cell that is provisional, pending, or an
-undisclosed guess. This does not weaken the ≥95% intent — it recognizes that a
-government-limit-default method earns most of its confidence from sovereign provenance,
-and reserves the statistical bar for the cells actually estimated from data. (Karen's
-DOI-mint Rule #1. Rule #2 is §1 above — a limit for every analyte, read-across
-permitted. Rule #3 — the DOI naming and version-history discipline, every change logged
-with what changed, why, and the date and time — is enacted in the DOI-versioning
-system.)
+A category clears the confidence gate only when every cell of every subcategory is confirmed in the corresponding sense. Provisional records, missing primary text, unresolved scope or basis, and undisclosed guesses fail. Merely labeling a number “the law” is not verification. The ≥95% intent is assessed through the documented confirmation process; no statistical confidence interval is manufactured for a lookup.
+
+The earlier selective-pooling branch of this confidence rule is retired for live limits. Statistical confidence and sensitivity remain relevant to descriptive occurrence analyses, but those analyses carry no compliance weight. Rule #2 remains the limit-of-record requirement; Rule #3 remains DOI naming and version history with each substantive change recorded. Nothing in this reconciliation authorizes minting, changes registration gates, or declares a category ready.
 
 ### 4. Enforcement
 
@@ -480,18 +376,16 @@ the bare word "bounded" and never a blank.
 ## Scope
 
 This methodology applies to every category in the HMTc index, not to
-Category 1 (infant and child foods) alone. The pooling engine, admission
-rule, native-basis convention, and P97/P45 percentiles are the same for
-beverages, supplements, dry goods, condiments, and every other category as
-they are for infant and child foods. Per-category exceptions require an
+Category 1 (infant and child foods) alone. The government-limit default, disclosed derivations, native-basis convention, completeness rule, and provenance-confidence checks apply to beverages, supplements, dry goods, condiments, and every other category as they do to infant and child foods. Per-category exceptions require an
 explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.7 — August 2026**
+**Version 2.8 — September 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.8 | 2026-09-10 | Reconciled active method and confidence prose to the September 9 lock: retired occurrence-based initial limits and the selective-pooling confidence branch; retained descriptive summary evidence, native-basis safeguards, all five principles, never-blank readiness, and the post-publication ratchet. No limits, testing obligations, DOI permissions, or historical changelog entries changed. |
 | 2.7 | 2026-08-31 | Added **the confidence standard on the numbers (DOI-mint Rule #1)**, clarifying the §3 gate: "≥95% confidence in the numbers" is defined per cell against the §1 limit-of-record taxonomy. Sovereign-ML lookups and disclosed read-across / bounded / baseline cells are firm by provenance (confidence is definitional); the ≥95% *statistical* bar applies only to the Method v2.0 occurrence-derived pooling cells (the Tier-1 toxics where occurrence binds). A literal ≥95%-occurrence bar on all ten analytes is unmeetable — the corpus carries percentile occurrence depth only for Pb/Cd/tAs (+ iAs on rice/cereal/juice), while Ni/Cr/Al/Sn/MeHg are lookup or read-across by design — so the literal reading would make every category permanently un-mintable. Surfaced by the 2026-08-31 Cat-1 corpus audit; ratified as Karen's DOI-mint Rule #1 (Rule #2 = §1; Rule #3 = the DOI naming + version-history discipline, enacted in the versioning system). |
 | 2.6 | 2026-08-25 | Added **Species, screens: display + terminology** (complements the Required-Testing-Panel Ruling): the total metal is a first-class published limit shown as its own line (never hidden — the total-chromium portal defect); "baseline" is measurement and "reflex" is the ongoing-lot regime (never conflate — corrected the "enforced by reflex speciation" wording on baseline records); bounded species render as an explicit "≤ total" ceiling, never "bounded" or a blank. Applied in the cert standard-page renderer, the readiness portal, and the compiler speciation labels. |
 | 2.5 | 2026-08-25 | Added and ratified the **Required-Testing-Panel Ruling** (Karen: "if we say we test every product for 8 analytes, we should — test 8 totals universally, trigger speciation from findings"), then refined it the same day after a program-wide stress-test across all 13 category archetypes and every public claim surface. Separates the per-lot testing obligation from the published limit set, and the *screened* axis from the *governed* axis. The 8-metal set is universal but **basis-appropriate** (content ICP-MS for ingestibles/topicals; element-release/migration for contact materials; USP PDE for pharmacopeial-only classes). Guardrail: `conditional`/`baseline_monitor`/`not_applicable` forbidden on the four Tier-1 toxic totals; permitted for a Tier-2 total with no pathway and no sovereign limit. Reflex trigger corrected to `min(species limit, 50% of parent-total limit)` (flat-50% under-catches water Cr-VI, seaweed iAs). Mandatory speciation expanded (iAs: rice + fruit juice + seaweed/algae/clay supplements; MeHg: fish/marine + composites/sauces/broths + marine pet food; Cr-VI: water + toys/crafts + leather/textiles + pigment cosmetics/tattoo) and given a structural trigger (species limit with no parent total, e.g. apple-juice iAs). Two items flagged for a separate program/counsel decision: organotin speciation (net-new analyte class) and public-claim gating on the completion sweep. Registry `data/workbench/standards/required-analytes.json` (Cat-30 pilot; Sn flipped conditional→per_lot_total), validated + fanned by `tools/standards/build-required-analytes.mjs`. Downstream: DOI'd public content (the-big-8.md et al.) reword is human-gated, tracked in the ledger. |

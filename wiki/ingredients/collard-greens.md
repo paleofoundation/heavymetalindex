@@ -60,12 +60,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::108::chromium","role":"context","food_id":"108","food_name":"Collards, fresh/frozen, boiled","metal_species":"Cr","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":26,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":75,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified."
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -115,7 +118,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | tHg | n=2 | 0–1.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–51 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | Source context | Not quantified | — | — |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–2.4 | low | — |
 
@@ -132,22 +135,19 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Collards, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 7.1 | 65 | in profile |
-| Cr | 27 | 0 | 75 | in profile |
-| Ni | 27 | 0 | 72 | in profile |
-| Pb | 27 | 0 | 5.9 | in profile |
-| U | 27 | 0 | 5.4 | in profile |
-| tAs | 27 | 0 | 7.2 | in profile |
-| tHg | 27 | 0 | 1.4 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 108: Collards, fresh/frozen, boiled | tAs | 27 | 8 | 3.6–7.2 | 3 |
+| 108: Collards, fresh/frozen, boiled | Cd | 27 | 27 | 7.1–65 | 1 |
+| 108: Collards, fresh/frozen, boiled | Cr | 27 | 1 | 75 | 50 |
+| 108: Collards, fresh/frozen, boiled | Pb | 27 | 6 | 4.1–5.9 | 4 |
+| 108: Collards, fresh/frozen, boiled | tHg | 27 | 9 | 1–1.4 | 1 |
+| 108: Collards, fresh/frozen, boiled | Ni | 27 | 4 | 43–72 | 40 |
+| 108: Collards, fresh/frozen, boiled | U | 27 | 9 | 1.2–5.4 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -202,12 +202,20 @@ The European Union under Regulation (EC) No 1881/2006 as amended, including [[re
 
 No US federal maximum level for lead or cadmium in leafy vegetables has been finalized as of 2026. FDA's Closer to Zero program addresses metals in infant and toddler foods; adult leafy vegetable products are not subject to specific US federal ML as of this date. Codex Alimentarius sets a maximum level of 0.30 mg/kg for lead in leafy vegetables (Codex General Standard for Contaminants and Toxins, CXS 193-1995 and revisions).
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**Cr.** The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -223,13 +231,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

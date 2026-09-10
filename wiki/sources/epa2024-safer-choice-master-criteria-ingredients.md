@@ -179,7 +179,7 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 
 ## Provenance
 
-- Source PDF: `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal/EPA_Safer_Choice_Master_Criteria_Ingredients.pdf`
+- Source PDF: the archived source file
 - SHA-256: `134d7ebb67a941a6931469c58efe568152a130a8cfaf94209b9baccbcbe9bf26`
 - File size: 430 KB; 31 pages (cover with Safer Choice logo, ToC on p. 1, body §§1-6 on pp. 2-26, References [1]-[109] on pp. 27-30).
 - Publisher: U.S. Environmental Protection Agency, Office of Pollution Prevention & Toxics (OPPT), Washington, DC.
@@ -190,7 +190,7 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - DOI: none assigned (federal-agency criteria document).
 - License: U.S. Government Work (public domain under 17 USC § 105).
 - Access date: 2026-06-03.
-- Acquisition path: included in Kimi Agent Download Corruption Issue (KADC) folder `household_papers/06_Regulatory_EPA_GreenSeal/`, alongside other regulatory and voluntary-standards content (David Suzuki Foundation consumer-education article and other EPA / Green Seal references).
+- Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/06_Regulatory_EPA_GreenSeal/`, alongside other regulatory and voluntary-standards content (David Suzuki Foundation consumer-education article and other EPA / Green Seal references).
 
 ## Wiki pages this source may touch
 
@@ -220,9 +220,9 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - Evidence tier set to A on the basis of: (i) authoritative federal-agency primary record from US EPA OPPT, the office that administers Safer Choice and DfE; (ii) versioned (V2.1) and dated (October 2024) criteria text; (iii) full references list (pp. 27-30; 109 numbered citations); (iv) document is the primary source of its own assertions (no secondary-source dependence for the criteria themselves); (v) published openly via the epa.gov/saferchoice programme web presence.
 - License set to "U.S. Government Work (public domain, 17 USC § 105)" because the document is authored by a federal agency in the course of official duties; per 17 USC § 105 such works are not subject to copyright in the United States.
 - Source type set to `gov-guidance` rather than `gov-regulation` because Safer Choice and DfE are voluntary certification programmes administered by EPA, not statutory regulations under TSCA or any other US law. A chemical failing the Master Criteria is excluded from Safer Choice / DfE-labelled products but is not, by that fact, prohibited in commerce.
-- `metals: []` is intentional: the document does not measure or enumerate any specific heavy metal. The HMI relevance is indirect (via Prop 65, IARC, NTP, EU CLP, NIOSH cross-references in §5) and is documented in the body prose, not via frontmatter routing. Putting a metal list in the frontmatter would mis-route this source onto metal pages where it has no quantitative content to contribute.
+- `metals: []` is intentional: the document does not measure or enumerate any specific heavy metal. The HMI relevance is indirect (via Prop 65, IARC, NTP, EU CLP, NIOSH cross-references in §5) and is documented in the body prose, not via source metadata routing. Putting a metal list in the source metadata would mis-route this source onto metal pages where it has no quantitative content to contribute.
 - `ingredients: []` is intentional: the document is generic criteria, not specific to any one ingredient. The §3.21 inorganic-phosphate boundary and the §3.20 "an ingredient may be one chemical or a blend of multiple chemicals that are intentionally added" definitions are general framing, not specific-ingredient claims.
-- `products: [...]` lists every household-cleaning-product taxonomy slug currently in `wiki/products/` that is within Safer Choice / DfE scope per §1.3 (the programme covers cleaning and detergent products broadly; Direct Release products such as graffiti removers and marine cleaners — §1.3 examples — are caught by `household-specialty-cleaners-other`). Routing fan-out is `broad_product_context`, not `direct_evidence`, because no contamination values are reported.
+- `products: [...]` lists every household-cleaning-product taxonomy slug currently in the linked reference record that is within Safer Choice / DfE scope per §1.3 (the programme covers cleaning and detergent products broadly; Direct Release products such as graffiti removers and marine cleaners — §1.3 examples — are caught by `household-specialty-cleaners-other`). Routing fan-out is `broad_product_context`, not `direct_evidence`, because no contamination values are reported.
 - `matrices: [household-cleaning-product]` matches the matrix already in use on [[sources/davidsuzuki2014-toxic-household-cleaners]] and [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]].
 - `jurisdictions: [US]` because the document is the federal-government criteria text from US EPA. The criteria cross-reference EU CLP and GHS (international) but the criteria document itself is the US-jurisdictional primary record.
 - Wiki/HMTc firewall (Part 2): the document is upstream of any HMTc threshold-setting work; no Part 2 drift risk in the body of this page. The Implications section does not propose HMTc thresholds.
@@ -230,19 +230,19 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - The §5.10 eutrophication cap (0.5 weight % phosphorus; no inorganic-phosphate contribution) is documented as the closest the criteria come to a quantitative concentration limit; phosphorus is out of HMI heavy-metal scope and the cap is recorded here for regulatory-context completeness rather than as a heavy-metal threshold.
 - The document references CAS 13977-65-6 (monopotassium phosphonic acid) once, in §3.21. This is the only CAS number cited in the document. It is not a heavy-metal compound; no ingredient page is touched.
 - Quantitative content in this page (Tables 1a, 2, 3, 4, 5a, 5b, 6a, 6b, 7, 8, 12) is reproduced exactly from the source PDF (Version 2.1, October 2024) with page locators throughout.
-- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
+- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in source metadata draws only on existing the linked reference record slugs.
 - No new regulation page was created. If a `regulations/epa-safer-choice-master-criteria.md` page is ever needed (Step 0 Lock decision), it would inherit from this source and the broader Safer Choice / DfE Standard document referenced as [1] (USEPA, EPA's Safer Choice and Design for the Environment (DfE) Standard. 2024). That Standard document is not in the present KADC PDF set.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

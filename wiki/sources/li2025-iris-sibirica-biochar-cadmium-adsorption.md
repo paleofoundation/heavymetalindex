@@ -133,24 +133,24 @@ Courses: Useful for teaching how feedstock organ (root vs stem vs leaf) and pyro
 
 This page was built from the full PDF, including the abstract, Section 2 Materials and Methods (feedstock collection, pyrolysis at 900 degrees C, batch adsorption protocol, ICP-MS quantification, characterization suite), Table 1 biochar properties, Table 2 kinetic parameters, Tables 3-4 Langmuir and Freundlich isotherm parameters, Figures 3-7 (pH/electrolyte/Zeta potential, kinetic model fits, elution mechanism partitioning, recycling cycles), and Section 4 conclusions.
 
-Products and ingredients are intentionally empty in frontmatter because this is a wastewater-remediation methodology study. The Iris sibirica biomass is the biochar feedstock, not a food ingredient; the wiki has no `ingredients/iris-sibirica` page and should not gain one from this source. The routing layer therefore records this source as advisory-malformed for missing products/ingredients, which is the expected behavior for remediation-only evidence and is not a defect to fix.
+Products and ingredients are intentionally empty in source metadata because this is a wastewater-remediation methodology study. The Iris sibirica biomass is the biochar feedstock, not a food ingredient; the wiki has no `ingredients/iris-sibirica` page and should not gain one from this source. The routing layer therefore records this source as advisory-malformed for missing products/ingredients, which is the expected behavior for remediation-only evidence and is not a defect to fix.
 
 The abstract states the order BC_S (19.92 mg/g) > BC_L (19.89 mg/g) > BC_R (13.22 mg/g) but later (Section 3.2.1) reports BC_R 13.22, BC_L 19.89, BC_S 19.92 mg/g and removal efficiencies 66.1%, 99.45%, 99.60% respectively. These are consistent values; the abstract ordering is by qe descending. No internal contradiction.
 
-Source-side anomaly in Table 1 (BC_L): the reported micropore area of 274.80 m2/g exceeds the BC_L BET surface area of 16.68 m2/g. Micropore area is physically a subset of total BET surface area, so these two values are mutually inconsistent. The wiki table reproduces the source values verbatim because the source prints them as shown; the inconsistency is a paper-side issue, not a wiki transcription error. Fresh-context audit subagent (2026-06-02) confirmed the verbatim reproduction matches the printed Table 1 and recommended disclosing the anomaly here.
+Source-side anomaly in Table 1 (BC_L): the reported micropore area of 274.80 m2/g exceeds the BC_L BET surface area of 16.68 m2/g. Micropore area is physically a subset of total BET surface area, so these two values are mutually inconsistent. The wiki table reproduces the source values verbatim because the source prints them as shown; the inconsistency is a paper-side issue, not a wiki transcription error. Fresh-context audit editorial review (2026-06-02) confirmed the verbatim reproduction matches the printed Table 1 and recommended disclosing the anomaly here.
 
 Matrices vocabulary: `biochar`, `aqueous-sorption-test`, and `wastewater-remediation` are precedented slugs already used by other remediation source pages (e.g., wang2020-lignin-residue-biochar-heavy-metal-remediation, lin2025-coffee-waste-metal-dye-removal). `iris-sibirica-biomass` is a descriptive kebab-case feedstock token introduced by this paper and should be confirmed against the matrices controlled vocabulary on the next Karen review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

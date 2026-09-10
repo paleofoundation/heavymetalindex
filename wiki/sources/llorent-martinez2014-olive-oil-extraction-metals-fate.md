@@ -107,28 +107,28 @@ The paper does not propose certification thresholds, does not measure individual
 
 ## Verification notes
 
-- Source identity confirmed against DOI 10.1007/s11746-014-2511-5 (J Am Oil Chem Soc 2014, 91:1823–1830). Three identity checks (DOI grep, raw_handle grep, cite-key grep on `wiki/sources/`) returned no prior page; this is a fresh ingest.
-- Arsenic speciation: paper monitored 75As only (total). Frontmatter uses `tAs` accordingly; no iAs claim is made.
-- Chromium speciation: paper monitored 53Cr only (total Cr). Frontmatter uses `Cr`; no Cr-VI claim is made.
+- Source identity confirmed against DOI 10.1007/s11746-014-2511-5 (J Am Oil Chem Soc 2014, 91:1823–1830). Three identity checks (DOI grep, raw_handle grep, cite-key grep on the linked reference record) returned no prior page; this is a fresh ingest.
+- Arsenic speciation: paper monitored 75As only (total). source metadata uses `tAs` accordingly; no iAs claim is made.
+- Chromium speciation: paper monitored 53Cr only (total Cr). source metadata uses `Cr`; no Cr-VI claim is made.
 - Mercury and tin are not in the analyte panel and are not claimed.
 - No brand names appear in the source's contamination data — cultivar names (Picual, Hojiblanca, Arbequina) are botanical varieties, not brands, so Part 12 does not apply. Instrument and reagent vendors (Agilent 7500a, CEM MARSXpress, Sigma, Merck, SCP Science, Millipore Milli-Q, Gilson, Savillex) appear in Methods only and fall under the Exception 2 scientific-method allowance.
 - IOC trade standard COI/T.15/NC No. 3/Rev. 7 is cited by the paper but is not present in the current regulations taxonomy snapshot; not linked. EU Regulation (EC) No. 1881/2006 maps to the existing `regulations/eu-1881-2006-contaminants-superseded` slug.
-- `olives` and `olive-oil` are both present in the ingredients taxonomy snapshot (and have wiki pages); used as-is. The matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` lists common matrices but explicitly allows adding new terms when none fit, flagged here: `olives` and `olive-oil` are reported as matrices because they are the analytical phases the paper measured (raw olive fruit including stone; the extracted VOO). `olive-pomace` is a new matrix term added here for the third analytical phase; no `ingredients/olive-pomace` or `products/olive-pomace` slug exists and none is invented.
+- `olives` and `olive-oil` are both present in the ingredients taxonomy snapshot (and have wiki pages); used as-is. The matrices vocabulary in the editorial record lists common matrices but explicitly allows adding new terms when none fit, flagged here: `olives` and `olive-oil` are reported as matrices because they are the analytical phases the paper measured (raw olive fruit including stone; the extracted VOO). `olive-pomace` is a new matrix term added here for the third analytical phase; no `ingredients/olive-pomace` or `products/olive-pomace` slug exists and none is invented.
 - Conclusion-paragraph average retention is stated as "at least 90 %" in the abstract and "93 %" in the Conclusion; both are preserved in the Key numbers summary to keep the source-stated wording intact.
-- Audit subagent (2026-06-01) flagged `[[ingredients/olives]]` as not in the taxonomy snapshot. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md` line 40 — `olives` IS in the Ingredients snapshot and `wiki/ingredients/olives.md` exists. Finding rejected as false positive; slug retained.
-- Audit subagent (2026-06-01) flagged the Arbequina natural-baseline pomace rows (Cu 2,380 ± 80 ng/g, Fe 9,900 ± 300 ng/g, both with VOO <MDL) as omitted from Key numbers; verified against Table 5 and added.
-- Audit subagent (2026-06-01) flagged "consistent with prior reports of higher Cu in pomace oils than in VOO" in Implications as cross-source synthesis; verified against the paper's own Discussion (p. 1829) where the authors cite their 2011 paper (ref [7]) for exactly this comparison. Rewritten to attribute the comparison explicitly to the source's own citation, removing the wiki-side synthesis framing.
+- Audit editorial review (2026-06-01) flagged `[[ingredients/olives]]` as not in the taxonomy snapshot. Verified against the editorial record line 40 — `olives` IS in the Ingredients snapshot and the linked reference record exists. Finding rejected as false positive; slug retained.
+- Audit editorial review (2026-06-01) flagged the Arbequina natural-baseline pomace rows (Cu 2,380 ± 80 ng/g, Fe 9,900 ± 300 ng/g, both with VOO <MDL) as omitted from Key numbers; verified against Table 5 and added.
+- Audit editorial review (2026-06-01) flagged "consistent with prior reports of higher Cu in pomace oils than in VOO" in Implications as cross-source synthesis; verified against the paper's own Discussion (p. 1829) where the authors cite their 2011 paper (ref [7]) for exactly this comparison. Rewritten to attribute the comparison explicitly to the source's own citation, removing the wiki-side synthesis framing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

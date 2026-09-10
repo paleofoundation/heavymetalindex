@@ -106,18 +106,18 @@ App: Route as context for waste-derived soil amendments and soil-to-plant transf
 
 ## Verification notes
 
-The PDF has author attribution and DOI `10.3390/app13053246`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The PDF labels the article type as "Review," and the tables cite prior literature rather than reporting new samples. Table 5's heading prints the ash dose as "t/h," while the surrounding text describes t/ha; this page uses t/ha and flags the source as secondary context. Table 1's unit column is blank for several minor elements, including Hg, Mn, B, and Se; this page treats them as part of the table's concentration context rather than as product-benchmark values. The review uses total elemental symbols without speciation; `tAs` and `tHg` in frontmatter mean unspecified total arsenic and total mercury, not inorganic arsenic or methylmercury.
+The PDF has author attribution and DOI `10.3390/app13053246`; no DOI conflict was observed. Names in the source metadata are ASCII transliterations of the byline. The PDF labels the article type as "Review," and the tables cite prior literature rather than reporting new samples. Table 5's heading prints the ash dose as "t/h," while the surrounding text describes t/ha; this page uses t/ha and flags the source as secondary context. Table 1's unit column is blank for several minor elements, including Hg, Mn, B, and Se; this page treats them as part of the table's concentration context rather than as product-benchmark values. The review uses total elemental symbols without speciation; `tAs` and `tHg` in source metadata mean unspecified total arsenic and total mercury, not inorganic arsenic or methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

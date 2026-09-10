@@ -83,20 +83,20 @@ Educational clinical bulletin; not an analytical study. Sources of information c
 - Brand firewall (Part 12): Prime Research (Sherbrooke, QC) and Canada Peptide are named, but only inside the regulatory-event context (Health Canada enforcement / seizures). The Zycubo (FDA-approved copper histidinate) and EGRIFTA SV (FDA-approved tesamorelin) references are pharmacological context for the peptide-class discussion, not contamination attributions, and are kept on that basis. No per-brand contamination values are reported.
 - Wiki/HMT&C firewall (Part 2): no synthesis claims, no threshold proposals, no consumer risk advisories carried into the wiki page; the bulletin's own consumer-facing advisories ("Any dose is an overdose") are summarised as documentation of the clinical-guidance stance, not echoed as wiki claims.
 - Speciation: the bulletin says "arsenic," not "inorganic arsenic." Recorded as `tAs` (total arsenic) on this page. The cited Janvier 2018 source IS speciation-confirmed iAs, and the iAs designation appears on the Janvier source page; this tertiary citation does not carry speciation forward.
-- `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in `docs/gpt-collaboration/system-prompt.md`. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
-- Product slug `research-chemicals-peptides-sarms` exists in `wiki/products/` as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
+- `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in the editorial record. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
+- Product slug `research-chemicals-peptides-sarms` exists in the linked reference record as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
 - Sample sizes (`sample_n:`) intentionally null because the four cases are clinical reports, not analytical samples; the underlying contamination claims have their own sample sizes on the cited primary sources.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -65,7 +65,7 @@ App: The source can support a low-confidence note that menstrual-product exposur
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1570.txt`; because the source is a one-page poster, the full extracted text was re-read.
-- Identity checks before creation: the candidate cite key `nic-corcrain2025-menstrual-products-metal-leaching`, raw handle `MFK_f1000research-777517`, raw SHA-256 `ecfc4d7e696181419f88b9be66bdb36cd880de7b26a1f2c973e184882c741dce`, and title phrase were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: the candidate cite key `nic-corcrain2025-menstrual-products-metal-leaching`, raw handle `MFK_f1000research-777517`, raw SHA-256 `ecfc4d7e696181419f88b9be66bdb36cd880de7b26a1f2c973e184882c741dce`, and title phrase were searched in the linked reference record and evidence files; no existing source page was found.
 - The intake CSV DOI `10.3390/pathogens11060618` belongs to a cited Pathogens article on vaginal mucosa, not to this poster; the poster itself has no DOI in the extracted text or PDF metadata.
 - Units are preserved as `ppb`; no conversion to `µg/L` was made.
 - Speciation: arsenic is listed as a target analyte but no arsenic number is used because the poster reports background contamination.
@@ -74,13 +74,13 @@ App: The source can support a low-confidence note that menstrual-product exposur
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

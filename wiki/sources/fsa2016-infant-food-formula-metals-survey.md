@@ -1,4 +1,8 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["infant-formula-powder", "infant-formula-rtf-liquid", "commercial-infant-food", "non-infant-specific-composite-food"]
+ingredients: ["infant-formula", "baby-food"]
 type: source
 cite_key: fsa2016-infant-food-formula-metals-survey
 title: "Survey of metals in commercial infant foods, infant formula and non-infant specific foods"
@@ -20,7 +24,8 @@ jurisdictions: [UK]
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-07
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # FSA 2016 — Infant Food And Formula Metals Survey
@@ -29,7 +34,7 @@ updated: 2026-05-07
 
 This UK Food Standards Agency survey measured metals and related elements in 47 infant formula samples, 200 commercial infant food samples, and 50 composite non-infant-specific food samples used in infant diets. It is useful for Category 1 because it provides category-level average concentration tables for formula formats and infant-food groupings.
 
-The Digest batch contains two byte-identical copies of this report; both have been recorded in frontmatter as duplicate raw paths rather than added as separate source pages.
+The Digest batch contains two byte-identical copies of this report; both have been recorded in source metadata as duplicate raw paths rather than added as separate source pages.
 
 ## Key numbers
 
@@ -63,8 +68,7 @@ The survey reports grouped averages rather than brand-level results. Some commer
 - App: Supports row-level and ingredient-list caution for soy formula, snacks, cereal-based foods, fruit-based foods, and meat/fish infant foods.
 - Microbiome: No direct microbiome endpoint.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
 - [[products/infant-formula-rtf-liquid-non-soy]]
@@ -85,13 +89,13 @@ The survey reports grouped averages rather than brand-level results. Some commer
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [eb84e982a](https://github.com/paleofoundation/heavymetalindex/commit/eb84e982a) | 2026-05-07 | minor | Narrative text revised |
-| [bb5ca4715](https://github.com/paleofoundation/heavymetalindex/commit/bb5ca4715) | 2026-05-07 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [eb84e982a5](https://github.com/paleofoundation/heavymetalindex/commit/eb84e982a5) | 2026-05-07 | minor | Narrative text revised |
+| [bb5ca47152](https://github.com/paleofoundation/heavymetalindex/commit/bb5ca47152) | 2026-05-07 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

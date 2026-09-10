@@ -87,7 +87,7 @@ Use for downstream products of this wiki:
 
 This page was merge-enhanced on 2026-05-20 by re-reading the source PDF directly. Defects in the prior 2026-05-14 ingest corrected:
 
-- **Invalid product slug removed.** Prior frontmatter listed `[[products/fruit-juice]]`; no such page exists in current taxonomy (snapshot 2026-05-18). Removed; valid slugs `fruit-juice-not-canned` and `fruit-juices-apple-containing` retained.
+- **Invalid product slug removed.** Prior source metadata listed `[[products/fruit-juice]]`; no such page exists in current taxonomy (snapshot 2026-05-18). Removed; valid slugs `fruit-juice-not-canned` and `fruit-juices-apple-containing` retained.
 - **raw_path corrected.** Prior path was truncated to `...Apple Fruit.pdf`; the actual file on disk is `...Apple Fruit Juices.pdf`. Restored.
 - **Missing metals added.** Prior `metals:` array was `[Pb, Cd, tAs, Ni, Cr, U]`. The paper reports nine elements (Cu, Cr, Ni, Zn, Pb, Co, As, Cd, U) in Table 1. Added Co, Cu, Zn to match the measurement scope.
 - **Range values corrected to match Table 1.** Prior page reported "Cr 10.6–252 µg/L" and "Cu 35.6–1224 µg/L" in the overall range line. Those numbers come from the paper's Conclusions narrative (page 5–6: "Cu 35.6–1224 µg/L, Cr 10.6–252 µg/L"), which does not reconcile with the regional min/max in Table 1. Table 1 yields Cr overall max 144.84 µg/L (Cluj) and Cu overall min 130.00 µg/L (Maramures). The Conclusions narrative also disagrees with Table 1 on Zn (narrative 47–523 vs Table-1 derived 56.80–523.60). Table 1 numbers are taken as authoritative because they are the structured per-region data; the narrative discrepancy is documented here rather than propagated. The corrected page reports Table 1 ranges throughout.
@@ -118,13 +118,13 @@ No brand names appear in this paper (no commercial brands sampled — the 31 jui
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

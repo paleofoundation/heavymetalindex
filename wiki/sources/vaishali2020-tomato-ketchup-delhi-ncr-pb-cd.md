@@ -60,8 +60,7 @@ Samples were collected in sterilised sealed glass containers from street vendors
 
 **App:** Contributes context for ketchup/tomato sauce as a Pb-relevant condiment category in informal-market settings; Cd signal here is null (BDL), consistent with the study's tomato-ketchup matrix.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/condiments-general]]
 - [[ingredients/tomato]]
 - [[ingredients/ketchup]]
@@ -71,18 +70,18 @@ Samples were collected in sterilised sealed glass containers from street vendors
 - 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected `raw_path`, changed unsupported `license: "CC BY"` to `unknown` because the PDF states open access but does not state a Creative Commons license, and replaced missing `[[products/ketchup]]` with live product route `[[products/condiments-general]]`.
 - Numerical table checked against Table 1 and Table 2: Pb means/ranges for Delhi, Gurugram, Faridabad, and Noida match the source; Cd is BDL in all four locales; ANOVA p = 0.42 matches Table 1.
 - Cross-vendor audit (Codex, 2026-05-18) retained `matrices: [ketchup]` as a source-specific matrix label because the common matrices vocabulary does not include a clean tomato-ketchup or condiment matrix; routing is carried by live `[[ingredients/ketchup]]` and `[[products/condiments-general]]` links.
-- 2026-05-28 Claude Opus 4.7 merge-enhance against the source PDF: (1) replaced placeholder `raw_handle: manual-fetch-kimi` with the MFK_-prefixed slug `MFK_a-comparative-study-on-presence-of-heavy-metals-le` per the manual-fetch handle convention; (2) added `raw_sha256` computed from the local PDF; (3) added `access_url` from the DOI; (4) restored `license: "CC BY-NC"` after re-reading the source — the Creative Commons BY-NC mark is rendered as an icon in the page-1 footer below the "Copyright (c) 2020: Advanced Research Publications" line, which the 2026-05-18 text-only pass missed. Body content was unchanged because the 2026-05-18 numerical table check still holds against Tables 1 and 2.
+- 2026-05-28 automated editorial review merge-enhance against the source PDF: (1) replaced placeholder `raw_handle: manual-fetch-source-retrieval` with the MFK_-prefixed slug `MFK_a-comparative-study-on-presence-of-heavy-metals-le` per the manual-fetch handle convention; (2) added `raw_sha256` computed from the local PDF; (3) added `access_url` from the DOI; (4) restored `license: "CC BY-NC"` after re-reading the source — the Creative Commons BY-NC mark is rendered as an icon in the page-1 footer below the "Copyright (c) 2020: Advanced Research Publications" line, which the 2026-05-18 text-only pass missed. Body content was unchanged because the 2026-05-18 numerical table check still holds against Tables 1 and 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -71,10 +71,10 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 
 ## Verification notes
 
-- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) flagged a Figure 2A bar-label misread ("benzo[a]pyrene" → should be "bifenthrin"; the abstract names "chlorpyrifos, carbendazim, and bifenthrin" as the three pesticide examples and the bar-chart label is bifenthrin), a Figure 2A pie-slice misread (microbiological 32.0% → should be 32.1%), and an editorial-framing concern that the Certification implications line called heavy metals "a secondary signal in the regulator's recent enforcement attention." Verified all three against the page-3 figure: cadmium and lead are AT THE TOP of the Figure 2A chemical-hazard bar chart, so the "secondary signal" framing was wrong on its own terms (the paper does not rank them, and the chart contradicts the framing). All three findings applied: bifenthrin substituted for benzo[a]pyrene, pie-slice corrected to 32.1% with a sum-to-99.1% rounding note, Certification line rewritten to point at the bar-chart top-listing rather than a secondary-signal framing.
-- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1 prior to audit): page was originally created 2026-05-14 in the kimi-cond05 batch ingest with generic `raw_handle: manual-fetch-kimi`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
+- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit editorial review (Phase 2) flagged a Figure 2A bar-label misread ("benzo[a]pyrene" → should be "bifenthrin"; the abstract names "chlorpyrifos, carbendazim, and bifenthrin" as the three pesticide examples and the bar-chart label is bifenthrin), a Figure 2A pie-slice misread (microbiological 32.0% → should be 32.1%), and an editorial-framing concern that the Certification implications line called heavy metals "a secondary signal in the regulator's recent enforcement attention." Verified all three against the page-3 figure: cadmium and lead are AT THE TOP of the Figure 2A chemical-hazard bar chart, so the "secondary signal" framing was wrong on its own terms (the paper does not rank them, and the chart contradicts the framing). All three findings applied: bifenthrin substituted for benzo[a]pyrene, pie-slice corrected to 32.1% with a sum-to-99.1% rounding note, Certification line rewritten to point at the bar-chart top-listing rather than a secondary-signal framing.
+- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 1 prior to audit): page was originally created 2026-05-14 in the source-retrieval-cond05 batch ingest with generic `raw_handle: manual-fetch-source-retrieval`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
   - Set per-PDF `raw_handle: MFK_assessment-of-the-chemical-hazards-in-herbs-consum`.
-  - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk path.
+  - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch source-retrieval ") matching the on-disk path.
   - Added `raw_sha256` and `access_url`.
   - Added `tier_rationale` documenting why this is B, not A, given the conference-proceedings format and absence of primary data.
   - Cleaned the Certification implications line to remove the explicit "HMT&C threshold-setting" phrasing (Part 2 wiki/HMTc-firewall hygiene); the underlying point — that this source contributes no quantitative heavy-metals data — is preserved.
@@ -82,8 +82,7 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 - The original RASFF totals (1,133; 135 chlorpyrifos; 104 EtO), the plant-family counts (Lamiaceae 82, Apiaceae 60, Piperaceae 50, Solanaceae 17), and the pepper-50/oregano-39 product counts were verified against the page text and Figure 2 caption on a re-read; numbers are unchanged.
 - DOI, title, authors, year, publication, license, and source_type were unchanged.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[products/spices]]
 - [[metals/lead]]
@@ -93,13 +92,13 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

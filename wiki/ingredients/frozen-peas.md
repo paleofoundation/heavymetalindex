@@ -28,12 +28,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-16
   tAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::46::arsenic-total","role":"value","food_id":"46","food_name":"Peas, green, frozen, boiled","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -105,7 +108,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=2 | 0–5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]] |
 | Cd | n=3 | 0.3–2.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=1 dataset; composites=3 | ND (<3; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]] |
 | Ni | n=3 | 15.2–151.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
@@ -132,22 +135,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 46, "Peas, green, frozen, boiled." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Peas, green, frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 0 | 3.2 | in profile |
-| Cr | 3 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 170 | in profile |
-| Pb | 3 | 0 | 0 | in profile |
-| U | 3 | 0 | 1.7 | in profile |
-| tAs | 3 | 0 | 0 | in profile |
-| tHg | 3 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 46: Peas, green, frozen, boiled | tAs | 3 | 0 | ND in all composites | 3 |
+| 46: Peas, green, frozen, boiled | Cd | 3 | 2 | 1.5–3.2 | 1 |
+| 46: Peas, green, frozen, boiled | Cr | 3 | 0 | ND in all composites | 50 |
+| 46: Peas, green, frozen, boiled | Pb | 3 | 0 | ND in all composites | 4 |
+| 46: Peas, green, frozen, boiled | tHg | 3 | 0 | ND in all composites | 1 |
+| 46: Peas, green, frozen, boiled | Ni | 3 | 2 | 76–170 | 40 |
+| 46: Peas, green, frozen, boiled | U | 3 | 1 | 1.7 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -192,13 +192,21 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in vegetables (general) is 0.10 mg/kg wet weight, and for Cd in vegetables (general) it is 0.050 mg/kg wet weight. These limits apply to frozen peas as a vegetable product placed on the market. There is no specific EU maximum level for Ni in vegetables at the time of this writing, despite Ni being the most consistently detectable analyte in this matrix in the FDA TDS data. In the United States, FDA has not established action levels for metals in frozen vegetables; the FDA TDS provides a reference distribution against which new measurements can be compared, but no enforcement threshold exists for this matrix.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tAs.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment]]<span class="hmi-ref-meta">Wu Z · International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 · 2024 · [doi.org/10.62051/10.62051/ijnres.v2n1.21](https://doi.org/10.62051/10.62051/ijnres.v2n1.21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
@@ -215,13 +223,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [0a907f56a](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a) | 2026-08-09 | correction | Narrative text revised |
-| [942bc6b1b](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1b) | 2026-08-09 | correction | 2 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 source added; narrative text revised |
+| [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
+| [942bc6b1bb](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1bb) | 2026-08-09 | correction | 2 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

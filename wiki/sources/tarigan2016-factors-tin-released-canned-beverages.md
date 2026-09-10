@@ -59,8 +59,7 @@ The "expiry-2014 versus expiry-2015" framing is a proxy for time-since-canning r
 - Certification: Useful B-tier supporting evidence that tin release in canned beverages remains substantially below EU 2023/915 / EC 1881/2006 maximum levels (200 ppm canned food, 100 ppm canned beverages) under typical Southeast Asian market conditions, even past printed expiry. Not sufficient on its own for HMTc threshold setting; complements primary toxicology in [[sources/benoy1971-tin-toxicity-canned-fruit-juices]] and the comprehensive ATSDR review.
 - Courses: Demonstrates the pH-and-storage-time tin-release relationship that underlies why canned acidic juices and fruit cocktails are the highest-tin canned-food category.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/tin-inorganic]]
 - [[ingredients/apple-juice]]
 - [[products/fruit-juices-non-apple]]
@@ -68,12 +67,12 @@ The "expiry-2014 versus expiry-2015" framing is a proxy for time-since-canning r
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 1 source added; 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [d04abbc18e](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18e) | 2026-05-08 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

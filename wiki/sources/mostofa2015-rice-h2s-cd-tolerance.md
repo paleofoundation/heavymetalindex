@@ -78,26 +78,26 @@ App: Contributes mechanism context for the rice ingredient page; does not contri
 
 ## Verification notes
 
-Source PDF: `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2015_10-1038-srep14078.pdf`. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a hydroponic rice–Cd–H2S mechanism study, not a mineral-water occurrence survey. The slug was assigned upstream by the discovery harness and is preserved in `raw_handle:` for provenance only; frontmatter `matrices:`, `ingredients:`, and `products:` reflect the actual content. No mineral-water content in this paper.
+Source PDF: the archived source file. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a hydroponic rice–Cd–H2S mechanism study, not a mineral-water occurrence survey. The slug was assigned upstream by the discovery harness and is preserved in `raw_handle:` for provenance only; source metadata `matrices:`, `ingredients:`, and `products:` reflect the actual content. No mineral-water content in this paper.
 
 Evidence tier B reflects the mechanistic / pharmacological-dose nature of the experiment; the work is well-controlled and peer-reviewed but the Cd concentrations are not field-relevant and the values are seedling-tissue, not rice-grain-as-consumed.
 
 No brand-attributed contamination data. Methods name instrument category (flame AAS) and reagents (HNO3:HClO4, hypotaurine, NaHS) without vendor brand attribution; nothing to redact under Part 12.
 
-Audit subagent (2026-05-30) flagged two transposed values in `## Key numbers` (Cd accumulation leaf-Cd1 26% should be 23%; Cd concentration root values 30%/30% should be 26%/30% and leaf-Cd1 26% should be 30%); verified against PDF p.2 ("decreased by 20 and 19% in roots and 23 and 41% in leaves... Cd content was reduced by 26 and 30% in roots, and 30 and 65% in leaves") — both corrections applied.
+Audit editorial review (2026-05-30) flagged two transposed values in `## Key numbers` (Cd accumulation leaf-Cd1 26% should be 23%; Cd concentration root values 30%/30% should be 26%/30% and leaf-Cd1 26% should be 30%); verified against PDF p.2 ("decreased by 20 and 19% in roots and 23 and 41% in leaves... Cd content was reduced by 26 and 30% in roots, and 30 and 65% in leaves") — both corrections applied.
 
-Audit subagent also flagged the Certification implication's "supplier specifications for low-Cd rice" framing as policy-flavored (Part 2 concern); softened to describe the paper's mechanistic contribution without prescribing a supplier-spec posture.
+Audit editorial review also flagged the Certification implication's "supplier specifications for low-Cd rice" framing as policy-flavored (Part 2 concern); softened to describe the paper's mechanistic contribution without prescribing a supplier-spec posture.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["powdered-milk", "rice-cereal", "fruit-puree", "fish-baby-food", "meat-baby-food", "cheese-baby-food"]
 type: source
 cite_key: meli2024-chemical-characterization-baby-food-italy
 title: "Chemical characterization of baby food consumed in Italy"
@@ -24,7 +27,8 @@ jurisdictions: [EU, Italy]
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-02
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # Meli 2024 — Chemical Characterization Of Baby Food Consumed In Italy
@@ -67,10 +71,9 @@ The sample size is small and European/Italian market-specific. The paper does no
 
 ## Provenance notes
 
-The raw PDF is held locally under `raw/studies/` and the machine-generated markdown used for extraction is held under `raw/markdown/`. The PLOS ONE article is open access under a Creative Commons Attribution License (`CC-BY-4.0`). SHA-256 for the local raw PDF: `1ffb3e4aa1afc3d7dccb06c16412d07609ad8b3b759ee8352263d6711a16fea6`.
+The raw PDF is held locally under the archived source file and the machine-generated markdown used for extraction is held under the archived source file. The PLOS ONE article is open access under a Creative Commons Attribution License (`CC-BY-4.0`). SHA-256 for the local raw PDF: `1ffb3e4aa1afc3d7dccb06c16412d07609ad8b3b759ee8352263d6711a16fea6`.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/infant-formula-powder-non-soy]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/fruit-purees]]
@@ -80,13 +83,13 @@ The raw PDF is held locally under `raw/studies/` and the machine-generated markd
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [5a4b804a3](https://github.com/paleofoundation/heavymetalindex/commit/5a4b804a3) | 2026-05-02 | minor | Narrative text revised |
-| [a3876723b](https://github.com/paleofoundation/heavymetalindex/commit/a3876723b) | 2026-05-02 | major | 2 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [5a4b804a3c](https://github.com/paleofoundation/heavymetalindex/commit/5a4b804a3c) | 2026-05-02 | minor | Narrative text revised |
+| [a3876723b9](https://github.com/paleofoundation/heavymetalindex/commit/a3876723b9) | 2026-05-02 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

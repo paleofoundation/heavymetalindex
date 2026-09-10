@@ -114,7 +114,7 @@ No brand names appear in the paper or on this page. The paper does not name any 
 
 Instrument and reagent references — Thermo Scientific Xseries 2 ICP-MS iCAP Q under Qtegra software; NIST SRM 981 and NIST SRM 997 reference materials; Millipore Simplicity 185 ultra-pure water system; Merck reagents; TraceCERT/Fluka Hg stock; NCSS statistical software (Hintze 2001); PLS_Toolbox / MATLAB — are reproduced under the methods-vendor exception (Part 12, Exception 2: scientific reproducibility requires naming the instrument doing the measuring, the reference material, the digestion equipment and the statistical software).
 
-The metals frontmatter list contains only Pb, the single analyte measured. Thallium isotopes (²⁰³Tl, ²⁰⁵Tl) appear in the body only as the NIST SRM 997 internal standard for mass-bias correction; Tl is not a measured analyte in the wine samples and does not enter the metals frontmatter. Mercury appears only as ²⁰⁴Hg in the context of isobaric interference correction on the ²⁰⁴Pb measurement; Hg is not a measured analyte and does not enter the metals frontmatter.
+The metals source metadata list contains only Pb, the single analyte measured. Thallium isotopes (²⁰³Tl, ²⁰⁵Tl) appear in the body only as the NIST SRM 997 internal standard for mass-bias correction; Tl is not a measured analyte in the wine samples and does not enter the metals source metadata. Mercury appears only as ²⁰⁴Hg in the context of isobaric interference correction on the ²⁰⁴Pb measurement; Hg is not a measured analyte and does not enter the metals source metadata.
 
 Pb content values in Table 2 are printed in µg/L. The paper uses µg/L consistently across Table 2, the body text and the box-and-whisker plot (Figure 2). The OIV reference is 150 µg/L (OIV International Code of Oenological Practices, 2019, p. 5 of the source). The wet-weight basis is implicit (wine is a liquid measured as-is at 1:10 dilution); the source does not report dry-weight equivalents.
 
@@ -126,18 +126,18 @@ The Pearson r values in Figure 7A (²⁰⁶Pb/²⁰⁷Pb vs 1/C_Pb) are Belgrade
 
 Provisional product scaffolds were not required: the source touches [[products/fermented-beverages-non-tea-based]], which already exists in the taxonomy. No new ingredient pages are proposed; grapes is the only ingredient slug and already exists.
 
-Audit subagent (2026-06-06) flagged a Check 5 ⚠️ in the original Implications/Certification bullet: a wiki-side cross-source comparison to [[bora2015-vineyard-wine-heavy-metals-romania]] ("wider margin to OIV than the bora2015 micro-vinified wines") that the Đurđić paper itself does not make. Verified against the source — the paper compares the Serbian wines to European/Australian/Romanian-Moldavian wines from the LIR literature only, not to the Bora 2015 Cu/Pb wine values. The cross-source synthesis was added by Claude during drafting and violates Part 2 (synthesis is a separate Part 9 workflow, not a per-source contribution). Comparison stripped; the within-paper OIV-ratio framing retained. All other audit checks ✅ clean (Checks 1, 2, 3, 4); Check 5 has no other concerns.
+Audit editorial review (2026-06-06) flagged a Check 5 ⚠️ in the original Implications/Certification bullet: a wiki-side cross-source comparison to [[bora2015-vineyard-wine-heavy-metals-romania]] ("wider margin to OIV than the bora2015 micro-vinified wines") that the Đurđić paper itself does not make. Verified against the source — the paper compares the Serbian wines to European/Australian/Romanian-Moldavian wines from the LIR literature only, not to the Bora 2015 Cu/Pb wine values. The cross-source synthesis was added by Claude during drafting and violates Part 2 (synthesis is a separate Part 9 workflow, not a per-source contribution). Comparison stripped; the within-paper OIV-ratio framing retained. All other audit checks ✅ clean (Checks 1, 2, 3, 4); Check 5 has no other concerns.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [dd145bd16](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd16) | 2026-06-06 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
+| [dd145bd161](https://github.com/paleofoundation/heavymetalindex/commit/dd145bd161) | 2026-06-06 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

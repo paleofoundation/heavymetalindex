@@ -105,12 +105,12 @@ App: not suitable as a primary data source for `contamination_profile` values du
 
 ## Verification notes
 
-Page was first ingested under the legacy `raw_handle: manual-fetch-kimi` and last `updated: 2026-05-14`. Merge-enhanced on 2026-05-28 via the v2 autonomous manual-fetch ingest skill against the source PDF. Changes:
+Page was first ingested under the legacy `raw_handle: manual-fetch-source-retrieval` and last `updated: 2026-05-14`. Merge-enhanced on 2026-05-28 via the v2 autonomous manual-fetch ingest skill against the source PDF. Changes:
 
 - **Critical data correction**: the previously-published "Cipressina skin" and "Leccino skin" rows in Key numbers were transposed. Verified against Table 3 (page 11 of the PDF): row ordering in the table is Carolea → Leccino → Cipressina → Bidni. The values previously labelled "Cipressina skin" (Fe 3.7 ± 2.6, Cu 15.0 ± 2.0, Sr 0.8 ± 0.7) are in fact Leccino skin, and the values previously labelled "Leccino skin" (Fe 5.2 ± 2.8, Cu 51.0 ± 1.5, Ni 12.8 ± 3.7, Sr 1.9 ± 0.7) are in fact Cipressina skin. Rows have been corrected to match the source table.
 - Removed `table-olives` from `matrices` because the source explicitly states "the olives tested in this study weren't table olives, but olives which are used in the production of olive oil" (page 9) and "no olive oil was tested in this study" (page 16). Page title updated to reflect "oil-olive cultivars" to prevent the same misclassification on re-read.
 - Changed `products` from `non-root-vegetables` to `olive-oil` to reflect the actual product class of the sampled material (oil-production olives). The skin/pit fractions are precursors entering the olive-oil supply chain, not vegetable-category food.
-- Replaced legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_investigation-on-the-concentration-of-heavy-metals` handle derived from the PDF filename.
+- Replaced legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_investigation-on-the-concentration-of-heavy-metals` handle derived from the PDF filename.
 - Corrected `raw_path` filename from the truncated "Investigation on the Concentration of Heavy Metals found in Olive.pdf" to the actual on-disk name "Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf".
 - Added the journal volume/issue ("Vol. 8, Issue 2") to the `publication` field.
 - Expanded Key numbers to include pit and liquid-waste rows by cultivar (previously only skin was published, and the Bidni-pit cadmium rejection asterisk was not surfaced).
@@ -118,18 +118,18 @@ Page was first ingested under the legacy `raw_handle: manual-fetch-kimi` and las
 - Added Statistical results paragraph distinguishing media-pairwise from cultivar-pairwise outcomes (no cultivar-pairwise significance for any metal; significant media-pairwise differences concentrated on the SW–LW and Pit–LW boundaries, with Cd showing significance across nearly all media pairs).
 - Added comparison-with-prior-literature paragraph summarising Table 4.
 
-Preserved unchanged: `cite_key`, `doi: null` / `no_doi_assigned: true`, `license: unknown`, `near_duplicates: []`, evidence tier B, `sample_n: 4`, `jurisdictions: [MT]`, and the metals list (Sr was reported in the source but is not in the wiki metals taxonomy, so it is mentioned in Key numbers without being declared in frontmatter).
+Preserved unchanged: `cite_key`, `doi: null` / `no_doi_assigned: true`, `license: unknown`, `near_duplicates: []`, evidence tier B, `sample_n: 4`, `jurisdictions: [MT]`, and the metals list (Sr was reported in the source but is not in the wiki metals taxonomy, so it is mentioned in Key numbers without being declared in source metadata).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -74,15 +74,15 @@ Routing scope: this source is for pet-food product-category pages only. It does 
 
 Brand handling: the paper lists 34 manufacturer company names with product counts in the Analyzed Foods section (largest contributors 4 products each). Per Part 12 brand firewall (strict reading locked 2026-05-17), the manufacturer list is not reproduced and brand names are not named here either. Contamination values are reported only at the ingredient-group level (fish/poultry/red-meat), which is the appropriate aggregate.
 
-Speciation: total As and total Hg only; iAs and MeHg fractions not reported. The metals frontmatter uses tAs and tHg accordingly.
+Speciation: total As and total Hg only; iAs and MeHg fractions not reported. The metals source metadata uses tAs and tHg accordingly.
 
 Matrix: `pet-food` is retained as the matrix because it is the controlled-vocabulary slug already used by the pet-food source subcorpus (du2025, kalicharan2025, and others) and is the least misleading choice for dry kibble. Product slug is `pet-food-dry-kibble`; the alternative pet-food product slugs (canned-wet, freeze-dried, raw, semi-moist) are not routed because the study explicitly restricted to dry foods.
 
-Ingredients frontmatter empty by design: per Part 12 / Part 5b, dog-food protein source labels do not route to human ingredient pages. No pet-food-specific ingredient pages currently exist in the wiki taxonomy.
+Ingredients source metadata empty by design: per Part 12 / Part 5b, dog-food protein source labels do not route to human ingredient pages. No pet-food-specific ingredient pages currently exist in the wiki taxonomy.
 
-2026-05-28 (Claude Code, merge-enhance pass on auto-fetched duplicate):
+2026-05-28 (automated editorial review, merge-enhance pass on auto-fetched duplicate):
 
-A second copy of this paper arrived in `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-thg_2018_10-3389-fvets-2018-00264.pdf` (a third copy as `ing-meat-poultry-tas_2018_10-3389-fvets-2018-00264.pdf` also sits in the same folder). The paper had been ingested previously against the `ing-meat-poultry-pb_2018_…` copy in `ingested/`; `raw_path` continues to reference that copy. DOI 10.3389/fvets.2018.00264 identity-checked across all three filenames. Page was advisory-flagged in `routing_malformed.csv` for missing optional routing-input fields (the empty `ingredients: []`, which is intentional for pet-food sources). This pass enhances rather than rewrites.
+A second copy of this paper arrived in the archived source file (a third copy as `ing-meat-poultry-tas_2018_10-3389-fvets-2018-00264.pdf` also sits in the same folder). The paper had been ingested previously against the `ing-meat-poultry-pb_2018_…` copy in `ingested/`; `raw_path` continues to reference that copy. DOI 10.3389/fvets.2018.00264 identity-checked across all three filenames. Page was advisory-flagged in `routing_malformed.csv` for missing optional routing-input fields (the empty `ingredients: []`, which is intentional for pet-food sources). This pass enhances rather than rewrites.
 
 Defects corrected from the prior wiki revision (updated 2026-05-27):
 
@@ -95,9 +95,9 @@ Defects corrected from the prior wiki revision (updated 2026-05-27):
 
 Preserved unchanged per the v2 skill rules: `cite_key`, `raw_handle: auto-fetched`, `raw_path`, `license`, `doi`, `source_type`, `evidence_tier`, `metals`, `ingredients: []`, `products`, `matrices`, `jurisdictions`, `sample_n`.
 
-No brand-firewall violations introduced or remaining. No HMT&C drift. Total As / total Hg consistent with metals frontmatter (tAs, tHg).
+No brand-firewall violations introduced or remaining. No HMT&C drift. Total As / total Hg consistent with metals source metadata (tAs, tHg).
 
-2026-05-28 (fresh-context audit subagent, verdict REVISE):
+2026-05-28 (fresh-context audit editorial review, verdict REVISE):
 
 Checks 1, 2, 3, 5 returned ✅. Check 4 raised one ⚠️ finding: the Brand-handling paragraph above named two manufacturers as examples ("e.g., Nestle-Purina n=4, Zignature n=4"). Verified against source — the paper does list these on page 2, but per the strict Part 12 reading (locked 2026-05-17), ANY brand name in source-page content must be removed unless it falls under Exception 1 (regulatory-event subject) or Exception 2 (scientific-method vendor/material). These are commercial product manufacturers, not method vendors, so neither exception applies. Corrected — illustrative brand names removed; rephrased to "largest contributors 4 products each". All other content (numerical fidelity for Table 1, fold-difference arithmetic, methods, speciation, taxonomy slugs, HMT&C firewall) audited clean.
 
@@ -112,13 +112,13 @@ Checks 1, 2, 3, 5 returned ✅. Check 4 raised one ⚠️ finding: the Brand-han
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -39,12 +39,15 @@ contamination_profile:
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::77::mercury","role":"value","food_id":"77","food_name":"Cereal, oat ring","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"},{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::513::mercury","role":"value","food_id":"513","food_name":"Cereal, oat ring, honey","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Ni:
     status: populated
     typical_ppb: [2080, 3040]
@@ -87,7 +90,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 2
+sources: 3
 ---
 
 # Oat ring cereal
@@ -112,7 +115,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 16.6–23.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 24.8–33.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 dataset; composites=6 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 2080–3040 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 10–250 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
@@ -132,22 +135,26 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Cereal, oat ring" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 16 | 25 | in profile |
-| Cr | 3 | 0 | 300 | in profile |
-| Ni | 3 | 2000 | 3200 | in profile |
-| Pb | 3 | 0 | 6.4 | in profile |
-| U | 3 | 7.1 | 9.2 | in profile |
-| tAs | 3 | 24 | 35 | in profile |
-| tHg | 3 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 77: Cereal, oat ring | tAs | 3 | 3 | 24–35 | 3 |
+| 77: Cereal, oat ring | Cd | 3 | 3 | 16–25 | 1 |
+| 77: Cereal, oat ring | Cr | 3 | 2 | 50–300 | 50 |
+| 77: Cereal, oat ring | Pb | 3 | 2 | 4.4–6.4 | 4 |
+| 77: Cereal, oat ring | tHg | 3 | 0 | ND in all composites | 1 |
+| 77: Cereal, oat ring | Ni | 3 | 3 | 2000–3200 | 40 |
+| 77: Cereal, oat ring | U | 3 | 3 | 7.1–9.2 | 1 |
+| 513: Cereal, oat ring, honey | tAs | 3 | 3 | 17–24 | 3 |
+| 513: Cereal, oat ring, honey | Cd | 3 | 3 | 11–16 | 1 |
+| 513: Cereal, oat ring, honey | Cr | 3 | 2 | 200 | 50 |
+| 513: Cereal, oat ring, honey | Pb | 3 | 3 | 6–6.7 | 4 |
+| 513: Cereal, oat ring, honey | tHg | 3 | 0 | ND in all composites | 1 |
+| 513: Cereal, oat ring, honey | Ni | 3 | 3 | 1300–2000 | 40 |
+| 513: Cereal, oat ring, honey | U | 3 | 3 | 7.8–8.3 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -192,12 +199,20 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level of 0.10 mg/kg Cd for processed cereal-based foods (including ready-to-eat breakfast cereals) and 0.20 mg/kg Pb. The EU cadmium limit for cereal-based products including oat-based breakfast cereals is established under [[regulations/eu-2023-915-cadmium]]. No specific EU maximum level for Ni applies to oat ring cereal or oat-based foods generally; Ni exposure is managed through dietary assessment rather than per-food limits in European regulatory practice. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) provides Pb reference levels for cereal products. See [[regulations/eu2023-contaminants-maximum-levels]], [[regulations/eu-2023-915-cadmium]], and [[regulations/codex-cadmium-mls]] for applicable regulatory reference pages.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -209,18 +224,19 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 2 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Cereal, oat ring (n=3); detectable concentrations for Cd, Cr, Ni, Pb, U, tAs |
+| 3 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

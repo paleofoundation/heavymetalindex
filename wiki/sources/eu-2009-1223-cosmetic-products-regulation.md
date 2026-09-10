@@ -120,7 +120,7 @@ Metals: the full set covers Annex II prohibitions (Pb, Cd, tAs, tHg, Sb, Cr, Be,
 
 ## Verification notes
 
-Audit subagent (2026-06-02, fresh-context general-purpose Agent) returned REVISE verdict with the following findings; corrections applied to the page on the same date:
+Audit editorial review (2026-06-02, fresh-context general-purpose Agent) returned REVISE verdict with the following findings; corrections applied to the page on the same date:
 
 - **Annex III entry 57 — missing (b) row.** First-pass page presented entry 57 as oral-products-only at 3.5 % (as strontium). Verified against PDF p. L 342/151: the entry has two product-type rows — (a) oral products 3.5 % AND (b) shampoo and face products 2.1 %, each with a mixed-strontium-compound total cap. Corrected to include row (b) and the mixed-compound caps.
 - **Annex III entry 57 — substance name.** First-pass page used INCI form "Strontium chloride." Verified against PDF p. L 342/151: chemical-name column reads "Strontium chloride hexahydrate"; INCI-name column reads "Strontium chloride." Corrected to lead with the chemical name and note the INCI parenthetical.
@@ -130,19 +130,19 @@ Audit subagent (2026-06-02, fresh-context general-purpose Agent) returned REVISE
 
 Audit findings reviewed and judged not to require changes:
 
-- Frontmatter metals `Be`, `Se`, `Sr`, `Tl`, `Zr` are not on the canonical HMI 12-analyte abbreviation list (which targets the food-contamination panel: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). For this regulation the first-encounter signal is more useful preserved than dropped; routing audit does not block on unrecognized metals (verified: no `routing_unresolved` row was generated for any of these). Per Part 10, future metal pages can be created when corpus frequency warrants. `tellurium.md` and other rare-element pages already exist.
-- The lead paragraph and Routing Rationale section make legal-architecture statements about how downstream EU heavy-metal-in-cosmetics literature operates under Article 17. The subagent flagged this as edging toward synthesis framing. Judged acceptable: these statements are about the regulation's legal structure (which is the source's own subject matter), not about heavy-metal contamination synthesis across multiple primary studies. No HMTc threshold is proposed and the wiki/HMTc firewall is preserved.
+- source metadata metals `Be`, `Se`, `Sr`, `Tl`, `Zr` are not on the canonical HMI 12-analyte abbreviation list (which targets the food-contamination panel: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). For this regulation the first-encounter signal is more useful preserved than dropped; routing audit does not block on unrecognized metals (verified: no `routing_unresolved` row was generated for any of these). Per Part 10, future metal pages can be created when corpus frequency warrants. `tellurium.md` and other rare-element pages already exist.
+- The lead paragraph and Routing Rationale section make legal-architecture statements about how downstream EU heavy-metal-in-cosmetics literature operates under Article 17. The editorial review flagged this as edging toward synthesis framing. Judged acceptable: these statements are about the regulation's legal structure (which is the source's own subject matter), not about heavy-metal contamination synthesis across multiple primary studies. No HMTc threshold is proposed and the wiki/HMTc firewall is preserved.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

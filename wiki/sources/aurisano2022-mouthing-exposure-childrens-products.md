@@ -59,19 +59,19 @@ Systematic literature review of chemical migration rates from children's product
 
 - No heavy-metal occurrence data. `metals: []` is correct.
 - Mouthing-duration values (3.4, 1.8 min/h pacifier average; 37.3, 46.3 min/h 99th percentile) are reusable for any metal-mouthing exposure calculation.
-- Audit subagent (2026-05-17) added "in PP" matrix attribution to the BDE-183 lower-bound migration rate per p. 96 col 2 of the source ("for the brominated flame retardant 2,2',3,4,4',5',6-heptabromodiphenyl ether (BDE-183...) in PP to 32.7 µg/10 cm²/min..."). Applied.
-- Audit subagent (2026-05-17) flagged the E_mouthing,pred lower bound "4 × 10⁻⁸" as wrong, claiming the source says "8 × 10⁻⁸"; verified against PDF p. 99 col 2 — the source clearly reads "E_mouthing,pred = 4 × 10⁻⁸ to 252 µg/kgBW/d." Finding was a false positive (OCR misread of "4" as "8"). Wiki value retained.
+- Audit editorial review (2026-05-17) added "in PP" matrix attribution to the BDE-183 lower-bound migration rate per p. 96 col 2 of the source ("for the brominated flame retardant 2,2',3,4,4',5',6-heptabromodiphenyl ether (BDE-183...) in PP to 32.7 µg/10 cm²/min..."). Applied.
+- Audit editorial review (2026-05-17) flagged the E_mouthing,pred lower bound "4 × 10⁻⁸" as wrong, claiming the source says "8 × 10⁻⁸"; verified against PDF p. 99 col 2 — the source clearly reads "E_mouthing,pred = 4 × 10⁻⁸ to 252 µg/kgBW/d." Finding was a false positive (OCR misread of "4" as "8"). Wiki value retained.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

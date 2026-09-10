@@ -65,26 +65,26 @@ This source is high-value broad Category 1 evidence for infant foods and formula
 
 ## Verification notes
 
-- This was a DOI duplicate of an existing source page (`amarh2023-ghana-infant-food-heavy-metals.md`) that had `updated: 2026-04-29`, legacy headings, converted ppb equivalents, and bare product slugs. The page was merge-enhanced from the manual-fetch PDF at `raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Health-risk-assessment-of-some-selected-heavy-metals-in-infant-food-sold-in-Wa-Ghana.pdf`; the MFK handle was added to `near_duplicates`.
+- This was a DOI duplicate of an existing source page (`amarh2023-ghana-infant-food-heavy-metals.md`) that had `updated: 2026-04-29`, legacy headings, converted ppb equivalents, and bare product slugs. The page was merge-enhanced from the manual-fetch PDF at the archived source file; the MFK handle was added to `near_duplicates`.
 - PDF text extracted with `pdftotext -layout`; the extracted text contained readable methods, Tables 1-6, conclusion, DOI, and license statement.
 - DOI verified from the PDF title page and metadata as `10.1016/j.heliyon.2023.e16225`.
 - Concentration means and ranges were checked against Table 1 and sections 3.1.1-3.1.8. The Cd range in Key numbers follows Table 1 / abstract (`0.043-0.064 mg/kg`); section 3.1.2 prints `0.0043-0.064 mg/kg`, which appears inconsistent with the table.
 - Units are preserved as reported (`mg/kg`, `mg/kg/day`, `g/day`); the previous page's approximate ppb conversions were removed.
 - Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
 - Brand firewall: the paper states that 22 brands were sampled, but the extracted text uses coded sample IDs. This page does not attach brand names to contamination values.
-- Frontmatter product and ingredient slugs were corrected to existing taxonomy-snapshot slugs. The source mentions infant formula broadly, but powder/liquid and soy/non-soy status are not resolved in the extracted text, so formula is kept as matrix context rather than overspecified as a formula product row.
-- Audited 2026-06-09 against `raw/markdown/FM_10196951/FM_10196951.md`: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — `wiki/products/baby-food.md` exists and the slug is in the canonical product list.
+- source metadata product and ingredient slugs were corrected to existing taxonomy-snapshot slugs. The source mentions infant formula broadly, but powder/liquid and soy/non-soy status are not resolved in the extracted text, so formula is kept as matrix context rather than overspecified as a formula product row.
+- Audited 2026-06-09 against the archived source file: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — the linked reference record exists and the slug is in the canonical product list.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [94b95d8c1](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c1) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [94b95d8c14](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c14) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

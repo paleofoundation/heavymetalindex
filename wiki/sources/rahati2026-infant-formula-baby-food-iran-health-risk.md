@@ -174,8 +174,8 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 
 ## Verification notes
 
-- 2026-05-17 merge-enhance pass (Claude Code, manual-fetch-kimi ingest cycle, `/ingest-next-manual-fetch-pdf` skill v2.0): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision against the source PDF:
-  - `raw_handle: manual-fetch-kimi` (generic placeholder) → `MFK_monte-carlo-simulation-approach-for-health-risk-an` (per the MFK_<slugified-filename> convention).
+- 2026-05-17 merge-enhance pass (automated editorial review, manual-fetch-source-retrieval ingest cycle, `/ingest-next-manual-fetch-pdf` skill v2.0): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision against the source PDF:
+  - `raw_handle: manual-fetch-source-retrieval` (generic placeholder) → `MFK_monte-carlo-simulation-approach-for-health-risk-an` (per the MFK_<slugified-filename> convention).
   - `raw_path` truncated to `Monte Carlo simulation approach for health risk analysis of .pdf` → full filename `Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`.
   - `access_url` added (DOI URL).
   - `near_duplicates: []` added.
@@ -196,19 +196,19 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 - Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 standard-deviation transcriptions for infant formula Cu/Mn/Se and baby food Ba/Co/Cr/Se against Table 2, p. 6; it also made explicit the source-side contradiction where the abstract/discussion summarize Cr cancer risk to 3.57 × 10⁻⁴ while Table 3 reports 3.75 × 10⁻⁴ for the 18–24 month infant-formula stratum, and where Results text lists Cd among exceeded elements despite Table 2 and the same paragraph reporting Cd below LOD.
 - Paper-internal note: the Results-and-discussion paragraph on p. 5 lists cadmium among elements exceeding FAO/WHO permissible limits ("aluminium, cadmium, cobalt, chromium, copper, iron, and zinc"), but Table 2 on p. 6 reports cadmium as `nd` (below the 0.03 mg/kg LOD) in all 80 infant formula and all 27 baby food samples, and the abstract also omits Cd from the exceedance list. The wiki's exceedance summary follows Table 2 and the abstract (Al, Co, Cr, Cu, Fe, Zn) rather than the contradicted p. 5 sentence.
 - Paper-internal note: the authors substitute the inhalation-route Cancer Slope Factor for Cr in place of the (non-established) oral-route CSF (limitation 2, p. 14). This is explicitly named in the source; downstream Cr threshold work should treat the CR values as a methodological-uncertainty signal, not as direct evidence for an oral Cr-VI carcinogenicity endpoint.
-- 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf` v2.0) returned PROMOTE on all five checks against the source PDF. Optional enhancement applied: the p. 5 / Table 2 Cd inconsistency note above. No corrections required; no false positives recorded.
-- 2026-05-17 second-pass merge-enhance (Claude Code, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior subagent PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
+- 2026-05-17 audit editorial review (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf` v2.0) returned PROMOTE on all five checks against the source PDF. Optional enhancement applied: the p. 5 / Table 2 Cd inconsistency note above. No corrections required; no false positives recorded.
+- 2026-05-17 second-pass merge-enhance (automated editorial review, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior editorial review PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

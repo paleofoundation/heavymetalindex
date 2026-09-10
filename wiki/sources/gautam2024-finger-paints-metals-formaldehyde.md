@@ -145,23 +145,23 @@ App: If a children's art-material exposure card is built, this source can supply
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; Tables 1-6, 8-11, the executive summary, and the conclusions were checked against this page.
-- Identity checks before creation: exact title, report number `FW24026`, raw handle `MFK_cat21-04-formaldehyde-heavy-metals-finger-paints`, raw SHA-256 `b99c26343a2bf6d5b49ec27ce6e63835ebee108006157c09ca5ab2570737e4d8`, and candidate cite key `gautam2024-finger-paints-metals-formaldehyde` were searched in `wiki/sources/` and `data/evidence/audit-queue.csv`; no existing source page was found. DOI is not assigned on the report landing page, so `no_doi_assigned: true` is set with the PHF Science/ESR access URL.
+- Identity checks before creation: exact title, report number `FW24026`, raw handle `MFK_cat21-04-formaldehyde-heavy-metals-finger-paints`, raw SHA-256 `b99c26343a2bf6d5b49ec27ce6e63835ebee108006157c09ca5ab2570737e4d8`, and candidate cite key `gautam2024-finger-paints-metals-formaldehyde` were searched in the linked reference record and the structured evidence record; no existing source page was found. DOI is not assigned on the report landing page, so `no_doi_assigned: true` is set with the PHF Science/ESR access URL.
 - Units are copied as printed (`mg/kg`, `mg/kg bw/day`, `g`, `mg`, `%`, and MOS unitless values). No unit conversion was performed.
 - Speciation: the report writes arsenic as `As`, not inorganic arsenic, so this source page records occurrence/exposure inputs as total arsenic (`tAs`). The report discusses Cr(III) and Cr(VI) regulatory limits and skin effects, but no finger-paint occurrence input is speciated; measured `Cr` is kept as total chromium.
 - Brand firewall: Table 5 names recalled finger-paint products. This source page does not reproduce those names next to contamination values; it reports recall examples at the product-category level only.
 - Evidence tier: `A` because this is an ESR/Health New Zealand agency risk-assessment report with transparent exposure equations and regulatory tables. Its occurrence contribution is secondary/contextual, not primary market sampling.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` product routing rows (`art-craft-materials` and `toys-crafts-other`), was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients;matrices` advisory in `data/evidence/routing_malformed.csv` because this is a non-food hard-goods/craft-material source with no ingredient matrix.
+- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` product routing rows (`art-craft-materials` and `toys-crafts-other`), was absent from the structured evidence record, and had only the expected nonblocking `ingredients;matrices` advisory in the structured evidence record because this is a non-food hard-goods/craft-material source with no ingredient matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -79,10 +79,10 @@ Samples were drawn from those already collected for the companion FSANZ iodine s
 
 ## Verification notes
 
-- raw_handle MFK_survey-of-inorganic-arsenic-in-seaweed-and-seaweed derived from the PDF filename (slugified, truncated); raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/" preserving the trailing space before ".pdf". No DOI (agency report); access_url left null.
+- raw_handle MFK_survey-of-inorganic-arsenic-in-seaweed-and-seaweed derived from the PDF filename (slugified, truncated); raw_path under "the archived source file". No DOI (agency report); access_url left null.
 - Evidence tier A: government surveillance report, NATA-accredited validated method (HG-ICP-MS), documented QC and uncertainty analysis.
 - source_type gov-report per corpus convention for agency surveillance reports (cf. efsa2014-dietary-exposure-iAs).
-- Speciation: the survey measures inorganic arsenic only (arsenite + arsenate); recorded as iAs. Total arsenic was not measured in these samples (tAs context in the report is drawn from the separate Australian Total Diet Study), so tAs is not lifted to frontmatter. The conservative possible-MMA inclusion is noted in Methods, not treated as a separate species.
+- Speciation: the survey measures inorganic arsenic only (arsenite + arsenate); recorded as iAs. Total arsenic was not measured in these samples (tAs context in the report is drawn from the separate Australian Total Diet Study), so tAs is not lifted to source metadata. The conservative possible-MMA inclusion is noted in Methods, not treated as a separate species.
 - Units/basis preserved exactly (mg/kg dried seaweed; the single 85%-hydration figure of 1.4 mg/kg for the exceeding hijiki sample is labelled). Non-detects recorded as "<0.05" (the LOR), with the report's upper-bound (0.05 mg/kg) convention noted where it computes means; numeric value columns left censored for non-detects.
 - Censoring: many product samples and one seaweed sample are <0.05 mg/kg (below_lod, LOR 0.05 mg/kg).
 - Brand firewall: not engaged. The report describes composites by "same brand"/"different brands" as a sampling-design detail but names no commercial brands; no brand-by-brand values appear.
@@ -94,13 +94,13 @@ Samples were drawn from those already collected for the companion FSANZ iodine s
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

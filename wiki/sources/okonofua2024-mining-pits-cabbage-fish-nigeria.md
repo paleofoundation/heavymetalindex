@@ -136,10 +136,10 @@ Limitations: small n per matrix (n = 8 cabbage and 8 fish across two seasons, on
 
 ## Verification notes
 
-- **2026-05-18 (Claude session, merge-enhance):** Re-read of full 7-page PDF against the prior page (updated 2026-05-14, `raw_handle: papers-cube`). The prior page captured the broad strokes but was incomplete on the data tables and contained one invented methods detail. Corrections below.
+- **2026-05-18 (editorial review, merge-enhance):** Re-read of full 7-page PDF against the prior page (updated 2026-05-14, `raw_handle: papers-cube`). The prior page captured the broad strokes but was incomplete on the data tables and contained one invented methods detail. Corrections below.
   - `raw_handle` updated from legacy `papers-cube` to canonical v2.0 `PCMF_article-2-copy-4`.
   - Added missing `raw_sha256` (`f8af4c35…9471`) and `access_url` (DOI link).
-  - `metals` frontmatter expanded from `[Pb, Cd, tHg, Ni]` to `[Pb, Cd, tHg, Cu, Ni, Mn, Zn, U]` to reflect the full eight-metal panel measured. All eight are reported in Tables 2–7. Speciation: paper measured total Hg by AAS without speciation, so `tHg` is correct; no As or Cr-VI measured.
+  - `metals` source metadata expanded from `[Pb, Cd, tHg, Ni]` to `[Pb, Cd, tHg, Cu, Ni, Mn, Zn, U]` to reflect the full eight-metal panel measured. All eight are reported in Tables 2–7. Speciation: paper measured total Hg by AAS without speciation, so `tHg` is correct; no As or Cr-VI measured.
   - `matrices` rationalised from `[cabbage, fish, surface-water, irrigation-water]` to the controlled vocabulary `[surface-water, irrigation-water, leafy-vegetable, freshwater-fish]`. Cabbage is captured as an ingredient; the matrix is `leafy-vegetable`. Tilapia from contaminated pits is `freshwater-fish` rather than the bare `fish` matrix.
   - `ingredients` extended to include `[[ingredients/freshwater-fish]]` alongside `[[ingredients/cabbage]]` (both pages exist in the live taxonomy).
   - `products: [[products/fresh-fish]]` retained: the paper describes tilapia from these pits being raised by local fishermen for local consumption, which is the freshwater-fish supply-chain context. The cabbage side has no commercial product slug in the current taxonomy.
@@ -152,8 +152,7 @@ Limitations: small n per matrix (n = 8 cabbage and 8 fish across two seasons, on
   - Wiki/HMTc firewall (Part 2): Implications section confined to routing relevance and pedagogical use; no threshold proposals, no consumer-audience risk advisory, no synthesis claims comparing this paper to other literature. The literature-similarity sentence in the prior page's Implications block ("Nigerian regulatory framework aligns roughly with international standards") was a cross-source synthesis claim and has been removed; NESREA standards are now reported by value only.
   - Legacy heading `## Wiki pages updated on ingest` retained for consistency with the current Part 6 template and with sibling sources (e.g. [[sources/afonne2020-heavy-metals-plant-foods]]).
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[metals/manganese]]
 - [[metals/mercury-total]]
@@ -169,13 +168,13 @@ Limitations: small n per matrix (n = 8 cabbage and 8 fish across two seasons, on
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -94,7 +94,7 @@ Selected non-cancer-risk outputs:
 | If iAs is assumed to be 52% of tAs | the number of samples with iAs HQ > 1 remains the same in the source's iAs sensitivity scenario; the authors state that 10 samples might present human-health risk under that assumption |
 | Elements with HQ < 1 in all evaluated samples | Ag, B, Ba, Co, Cr, Ni, Sr, Al, and Pb |
 
-The sample-level Table 3 extraction for five structured-extraction analytes (tAs, Al, Ni, Cd, Pb) is retained at `data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv`; the source page does not use that extraction as an independent study count.
+The sample-level Table 3 extraction for five structured-extraction analytes (tAs, Al, Ni, Cd, Pb) is retained at the structured evidence record; the source page does not use that extraction as an independent study count.
 
 ## Methods
 
@@ -128,8 +128,7 @@ Courses: The paper is useful for teaching how speciation assumptions move arseni
 
 App: The Table 3 sample extraction can support jurisdiction-labeled Brazilian occurrence context for baby-cereal displays, but it should be labeled as Brazilian-market data acquired in 2014-2015 and as a small sample set.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
 - [[metals/aluminum]]
@@ -149,22 +148,22 @@ App: The Table 3 sample extraction can support jurisdiction-labeled Brazilian oc
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter, while retaining the earlier JATS and sample-extraction paths.
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata, while retaining the earlier JATS and sample-extraction paths.
 - Fresh-context audit (Codex, 2026-05-18) caught an ambiguous 52% iAs non-cancer-risk row; clarified that the unchanged HQ count refers to the source's iAs sensitivity scenario and the authors' 10-sample risk statement, not the overall 18-of-18 all-element count.
-- Removed the unsupported `Sn` frontmatter metal from the older page; tin appears in the Brazilian infant-food regulation background but was not one of the paper's reported infant-cereal concentration analytes.
+- Removed the unsupported `Sn` source metadata metal from the older page; tin appears in the Brazilian infant-food regulation background but was not one of the paper's reported infant-cereal concentration analytes.
 - Replaced older cross-study HMTc comparison prose with source-only risk-assessment results to preserve the wiki/HMTc firewall.
 - Strict brand-firewall check: the source says the 18 samples came from eight brands, but this page does not name or rank any sampled brand.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

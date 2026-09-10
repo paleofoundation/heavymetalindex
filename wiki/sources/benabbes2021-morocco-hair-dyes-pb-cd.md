@@ -123,8 +123,8 @@ Per the source's discussion: "ten products have rates outside the acceptance lim
 
 ## Verification notes
 
-- **2026-05-29 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill).** New page; no prior wiki revision. DOI grep (10.4152/pea.202101037), raw_handle grep (MFK_lead-and-cadmium-in-synthetic-food-colors-and-hair), and `benabbes2021` cite-key grep against `wiki/sources/` all returned zero matches before ingest.
-- **Folder placement is misleading.** The source PDF is filed under `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/` despite being a hair-dye / cosmetics paper, not a spices / condiments paper. The Kimi-generated filename ("Lead and Cadmium in Synthetic Food Colors and Hair Dyes.pdf") additionally describes the paper as covering food colors, but the paper's actual title and content are about synthetic and natural hair dyes only — no food colors are measured. Frontmatter `products:` and `matrices:` reflect the actual paper content (hair dyes), not the folder placement.
+- **2026-05-29 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill).** New page; no prior wiki revision. DOI grep (10.4152/pea.202101037), raw_handle grep (MFK_lead-and-cadmium-in-synthetic-food-colors-and-hair), and `benabbes2021` cite-key grep against the linked reference record all returned zero matches before ingest.
+- **Folder placement is misleading.** The source PDF is filed under the archived source file despite being a hair-dye / cosmetics paper, not a spices / condiments paper. The source-retrieval-generated filename ("Lead and Cadmium in Synthetic Food Colors and Hair Dyes.pdf") additionally describes the paper as covering food colors, but the paper's actual title and content are about synthetic and natural hair dyes only — no food colors are measured. source metadata `products:` and `matrices:` reflect the actual paper content (hair dyes), not the folder placement.
 - **Brand-firewall compliance (Part 12 strict, 2026-05-17 lock).** The source anonymizes the tested brands as "Brand-1" through "Brand-6" with shade descriptors only; no commercial brand names are printed in the source's Table 1 or Table 3. No brand attribution had to be stripped from this ingest. Product codes (e.g., "1a", "4c") are the source's own anonymization codes, not wiki-side brand identifiers.
 - **Wiki/HMTc firewall (Part 2).** No synthesis-across-papers claims, no HMTc threshold proposals, no consumer risk advisories appear in this page. The source's own discussion references to prior literature (Ozbek 2016 natural-henna-vs-synthetic, Jallad 2008 henna paint-on-tattooing, Hussein 2015 Iraq hair dyes, Sani 2016 Nigeria cosmetics) are reported as attributions to the source's own narrative, not as cross-source wiki synthesis.
 - **Paper-internal r-value attribution inconsistency.** Table 2 reports r = 0.992 for Pb and r = 0.999 for Cd. The Results narrative ("Method validation" subsection, p. 40) states "correlation coefficient values (r) of 0.992 and 0.999 for Cd and Pb, respectively" — which inverts Table 2. The abstract ("the method was linear with a correlation coefficient value (r) that ranged from 0.992 to 0.999") is consistent with either reading. Table 2 is treated as authoritative in this transcription.
@@ -140,18 +140,18 @@ Per the source's discussion: "ten products have rates outside the acceptance lim
 ## Ingest log
 
 - 2021 (publication): Portugaliae Electrochimica Acta 39(1):37-44. Received 2018-06-05, accepted 2020-08-05.
-- 2026-05-29 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in full (8 pages: abstract, introduction, materials & methods, results including Tables 1-3, discussion, conclusion, references). Source page written, routing audit queued.
+- 2026-05-29 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against the linked reference record (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in full (8 pages: abstract, introduction, materials & methods, results including Tables 1-3, discussion, conclusion, references). Source page written, routing audit queued.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -59,7 +59,7 @@ This source supports context only. It restates qualitative conclusions and a sma
 
 ## Provenance notes
 
-Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` indicates the second copy of fact sheet #55 in the Manual Fetch Kimi June 3 batch). The fact sheet is a US government work and is in the public domain. The canonical URL points to ATSDR's hosted PDF at atsdr.cdc.gov; the document is referenced as "TIN AND TIN COMPOUNDS — Division of Toxicology ToxFAQs — August 2005" in its own header. The single reference cited by the fact sheet is the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update), which is the sibling source page [[sources/atsdr2005-tin-toxicological-profile]]. No DOI is assigned.
+Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` indicates the second copy of fact sheet #55 in the Manual Fetch source-retrieval June 3 batch). The fact sheet is a US government work and is in the public domain. The canonical URL points to ATSDR's hosted PDF at atsdr.cdc.gov; the document is referenced as "TIN AND TIN COMPOUNDS — Division of Toxicology ToxFAQs — August 2005" in its own header. The single reference cited by the fact sheet is the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update), which is the sibling source page [[sources/atsdr2005-tin-toxicological-profile]]. No DOI is assigned.
 
 ## Wiki pages this source may touch
 
@@ -73,21 +73,21 @@ Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` in
 - `metals:` carries `Sn` only because the fact sheet is tin-specific; `species:` enumerates the inorganic and organotin compounds the fact sheet names by name (stannous chloride, stannous sulfide, stannic oxide on the inorganic side; dibutyltin, tributyltin, tributyltin oxide, triphenyltin, triphenyltin hydroxide, trimethyltin, triethyltin on the organotin side).
 - `ingredients:` and `products:` are intentionally empty. The fact sheet's only ingredient/product mentions are qualitative ("food contaminated with these compounds," "canned products," "seafood from coastal waters," "tin-lined cans for food, beverages, and aerosols") and do not carry any per-ingredient or per-product occurrence value. The routing audit will record `products` and `ingredients` as advisory-missing, which is the correct posture for a federal consumer-health fact sheet with no occurrence data.
 - The OSHA workplace-air limits quoted (0.1 mg/m³ organotins, 2.0 mg/m³ inorganic tin except oxides) are taken verbatim from the fact sheet's "Has the federal government made recommendations to protect human health?" section, page 2. No interpretive synthesis is added.
-- Audit subagent (2026-06-04) flagged that an earlier revision attached "(eight-hour time-weighted average)" to the OSHA PEL values; verified against the PDF — the fact sheet does not state an averaging period. The 8-hour TWA is in fact how OSHA expresses these PELs in the underlying CFR, but to keep this source page strictly faithful to what the fact sheet itself reports, the parenthetical TWA framing has been removed from the Key numbers bullet and the contextual note added in its place.
-- Audit subagent (2026-06-04) flagged that `matrices: [drinking-water]` overstated the PDF, which discusses water only as an environmental compartment (binding to sediment, persistence in water for organotin) and not as a human drinking-water exposure route. Verified; `drinking-water` removed from `matrices:`. Remaining matrices (`canned-food`, `seafood`, `workplace-air`) are the three the fact sheet explicitly frames as human exposure routes.
+- Audit editorial review (2026-06-04) flagged that an earlier revision attached "(eight-hour time-weighted average)" to the OSHA PEL values; verified against the PDF — the fact sheet does not state an averaging period. The 8-hour TWA is in fact how OSHA expresses these PELs in the underlying CFR, but to keep this source page strictly faithful to what the fact sheet itself reports, the parenthetical TWA framing has been removed from the Key numbers bullet and the contextual note added in its place.
+- Audit editorial review (2026-06-04) flagged that `matrices: [drinking-water]` overstated the PDF, which discusses water only as an environmental compartment (binding to sediment, persistence in water for organotin) and not as a human drinking-water exposure route. Verified; `drinking-water` removed from `matrices:`. Remaining matrices (`canned-food`, `seafood`, `workplace-air`) are the three the fact sheet explicitly frames as human exposure routes.
 - The fact sheet uses the phrase "metallic tin and inorganic tin compounds have been found in at least 214 of the 1,662 National Priority List (NPL) sites" on page 1; "Organic tin compounds have been identified in at least 8 of the NPL sites" follows immediately. Both NPL counts are reproduced verbatim.
 - No brand-firewall or wiki/HMTc-firewall concerns surfaced; the fact sheet names no brands and makes no HMT&C-comparable threshold claims.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

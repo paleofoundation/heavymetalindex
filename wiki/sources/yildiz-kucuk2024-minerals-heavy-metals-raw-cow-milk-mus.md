@@ -61,8 +61,7 @@ App: Supports raw-milk geographic context only; it does not provide finished dai
 
 Microbiome: Not addressed in this study.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/whole-milk]]
 - [[metals/lead]]
@@ -76,25 +75,25 @@ Microbiome: Not addressed in this study.
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
 - DOI identity check matched the existing source page; no duplicate source page was found.
-- Replaced the older `manual-fetch-kimi` handle, truncated raw path, invalid `ingredients/milk` link, and non-vocabulary `raw-cow-milk` matrix.
+- Replaced the older `manual-fetch-source-retrieval` handle, truncated raw path, invalid `ingredients/milk` link, and non-vocabulary `raw-cow-milk` matrix.
 - Corrected Pb range to Table 2's full 0.19-0.44 mg/L range; the abstract's 0.40 mg/L maximum appears to omit S10.
 - Removed unsupported EU cadmium-limit language; the paper says the Turkish regulation specifies the Pb raw-milk comparator and not limits for the other measured elements.
 - The cited 2011 Turkish Food Codex Contaminants Regulation was repealed by the 2023 regulation. The current Turkish raw-milk Pb anchor is [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk]].
-- Inline audit (Claude Opus 4.7, 2026-05-18): PROMOTE. Codex ingest stopped before its fresh-context audit sub-task could spawn (agent thread limit reached); Claude audited inline as carry-over clearance. Numerical fidelity matches body Key numbers, slug vocabulary all valid against current taxonomy, speciation discipline correct (Pb/Cd as bulk metals), Methods names instrument vendor per Exception 2 of strict brand-firewall, zero consumer-brand naming, no Part 2 firewall violations.
-- Fresh-context audit (v2 skill subagent, 2026-05-19): PROMOTE. All five checks ✅: numerical fidelity confirmed for Pb/Cd/Fe/Cu/Mn/Mg/Zn ranges and Ca/Na/K maxima against Table 2 p. 3; slug vocabulary all in taxonomy snapshot; speciation correct (no As/Hg measured, no false speciation); brand firewall clean (only instrument-vendor mention is Agilent 240FS AA, permitted per Exception 2); wiki/HMTc firewall clean. No corrections required.
+- Inline audit (automated editorial review, 2026-05-18): PROMOTE. editorial review stopped before its fresh-context audit sub-task could spawn (agent thread limit reached); Claude audited inline as carry-over clearance. Numerical fidelity matches body Key numbers, slug vocabulary all valid against current taxonomy, speciation discipline correct (Pb/Cd as bulk metals), Methods names instrument vendor per Exception 2 of strict brand-firewall, zero consumer-brand naming, no Part 2 firewall violations.
+- Fresh-context audit (v2 skill editorial review, 2026-05-19): PROMOTE. All five checks ✅: numerical fidelity confirmed for Pb/Cd/Fe/Cu/Mn/Mg/Zn ranges and Ca/Na/K maxima against Table 2 p. 3; slug vocabulary all in taxonomy snapshot; speciation correct (no As/Hg measured, no false speciation); brand firewall clean (only instrument-vendor mention is Agilent 240FS AA, permitted per Exception 2); wiki/HMTc firewall clean. No corrections required.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

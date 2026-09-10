@@ -147,13 +147,13 @@ Internal inconsistency in the source's brand-count narrative: the Materials and 
 
 Arsenic speciation: the authors did not perform inorganic-arsenic speciation; the reported "As" values are total arsenic (tAs) per the Materials and Methods ICP-MS protocol. The Discussion contextualizes the rice and hemp milk arsenic values against the WHO inorganic arsenic provisional tolerable daily intake of 2.1 µg/kg body weight per day, which is an inorganic-As reference framework being applied to total-As measurements without an explicit iAs/tAs conversion factor; this introduces an interpretive limitation that future synthesis touching this paper should preserve.
 
-Mercury (total or methyl) was not measured. Other priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: frontmatter array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
+Mercury (total or methyl) was not measured. Other priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: source metadata array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
 
 Hemp does not have a dedicated ingredient slug in the current taxonomy snapshot (no `ingredients/hemp.md`); the Wiki-pages-this-source-may-touch list routes hemp milk to `[[ingredients/non-rice-grains]]` as the closest umbrella slug for cereal/seed-derived plant beverages. If a `hemp` or `hemp-seed` ingredient page is created via Karen's Step 0 Lock in the future, this source should be added to its inbound routing.
 
-Cow milk is included in the source's heavy-metal, macronutrient, micronutrient, and OCP tables as the comparator group. There is no dedicated `products/milk-and-dairy.md` page in the current product taxonomy, so the products: frontmatter array does not include a cow-milk product slug; the ingredient-level routing via `[[ingredients/milk-and-dairy]]` captures the cow-milk data. If a cow-milk product page is created via Karen's Step 0 Lock in the future, this source should be added to its inbound routing.
+Cow milk is included in the source's heavy-metal, macronutrient, micronutrient, and OCP tables as the comparator group. There is no dedicated `products/milk-and-dairy.md` page in the current product taxonomy, so the products: source metadata array does not include a cow-milk product slug; the ingredient-level routing via `[[ingredients/milk-and-dairy]]` captures the cow-milk data. If a cow-milk product page is created via Karen's Step 0 Lock in the future, this source should be added to its inbound routing.
 
-The OCPs (24 compounds) are not part of HMI's heavy-metals scope and are not surfaced in the metals: frontmatter array. They are retained in the Key numbers and methods sections of this page because they are a primary deliverable of the source paper and provide methodological context for the heavy-metals findings (the same 22 samples were measured for both heavy metals via ICP-MS and OCPs via GC-ECD). Downstream synthesis on this source should focus on the Cr/As/Cd/Pb rows.
+The OCPs (24 compounds) are not part of HMI's heavy-metals scope and are not surfaced in the metals: source metadata array. They are retained in the Key numbers and methods sections of this page because they are a primary deliverable of the source paper and provide methodological context for the heavy-metals findings (the same 22 samples were measured for both heavy metals via ICP-MS and OCPs via GC-ECD). Downstream synthesis on this source should focus on the Cr/As/Cd/Pb rows.
 
 Methods note: the source's Materials and Methods section contains the editorial placeholder text "need to add reference #31 here" embedded mid-sentence in the ICP-MS instrumentation paragraph (source p. 2). This appears to be an unresolved author/editor note that survived final publication; it does not affect the reported numerical data or analytical methodology described. The placeholder is faithfully noted in the Methods (brief) section above.
 
@@ -161,18 +161,18 @@ Brand attribution: the source does not name individual brands in any of the four
 
 License confirmed CC-BY 4.0 from source p. 11 (Additional information / Open Access statement). DOI 10.1038/s41598-026-44766-0 resolves to the Nature Scientific Reports article; received 14 August 2025, accepted 13 March 2026, published online 09 April 2026; volume 16, article 16730. Funding: U.S. National Science Foundation grant 2306877. Competing interests: none declared.
 
-Audit subagent (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
+Audit editorial review (2026-06-08, agent a4f698242d203b557) flagged that the Cashew Cd standard deviation was reported in this page as 0.03 ± 0.01 but source Table 1 (p. 3) reports 0.03 ± 0.02; verified independently against PDF Table 1 — source confirms 0.03 ± 0.02. Cashew Cd SD corrected to 0.03 ± 0.02. The Cashew Cd mean (0.03) is unchanged and the cross-milk-type "Cd 0.03 to 0.17 µg/L (lowest cow/cashew)" range statement remains correct. All other audit checks (slug vocabulary, speciation, methods, Part 12 brand-firewall, Part 2 wiki/HMTc firewall) returned ✅ clean; verdict REVISE with this single SD typo correction.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

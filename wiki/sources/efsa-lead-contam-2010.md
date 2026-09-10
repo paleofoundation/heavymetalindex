@@ -168,16 +168,16 @@ Microbiome: Not directly addressed by this opinion.
 
 - Merge-enhanced 2026-06-03 from the prior 2026-04-25 page by reading the full PDF (151 pp.) end-to-end. The prior page had a thin Key numbers table covering only the three BMDLs and the country-range exposures; this revision adds the EU-pooled occurrence statistics by food category, the margin-of-exposure table, the toxicokinetic anchors, the non-dietary pathway estimates, and the breast-milk / infant-formula concentration data, all keyed to the source tables and page numbers.
 - The pre-2026-05-14 page used legacy `## Summary` and `## Wiki pages updated on ingest` headings; replaced with the current opening-prose convention and removed the trailing wikilink stub (routing is handled by the audit layer per Part 5b).
-- The Kimi PDF copy (`raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2010 - - Scientific Opinion on Lead in Food (1).pdf`, sha 61e2e32d…) is recorded as a near-duplicate of the existing curated raw file at `raw/reports/scientific-opinion-on-lead-in-food-2010.pdf` (sha 897e8bc3…). Both are the same EFSA opinion, DOI 10.2903/j.efsa.2010.1570, EFSA Journal 2010;8(4):1570; the second download came from the Wiley Online Library mirror and the bit-level mismatch is the Wiley re-publication wrapper, not a content difference.
+- The source-retrieval PDF copy (the archived source file, sha 61e2e32d…) is recorded as a near-duplicate of the existing curated raw file at the archived source file (sha 897e8bc3…). Both are the same EFSA opinion, DOI 10.2903/j.efsa.2010.1570, EFSA Journal 2010;8(4):1570; the second download came from the Wiley Online Library mirror and the bit-level mismatch is the Wiley re-publication wrapper, not a content difference.
 - Prior `products: []` was a Phase 1 defect; populated with the product-category slugs the opinion supplies measurement data for (infant formula powder, infant and child foods master, bottled and mineral water, breakfast cereals, fresh and canned fish, processed meats, game meats). No new product slugs were proposed.
-- Frontmatter scope deliberately kept broad: `infant-formula-powder` rather than soy/non-soy splits because the EFSA category "infant and follow-on formulae" does not separate them, and `wild-mushrooms` rather than narrower fungi sub-classes because Table 8 reports the broader category. Routing audit fans broad scopes to sibling pages.
+- source metadata scope deliberately kept broad: `infant-formula-powder` rather than soy/non-soy splits because the EFSA category "infant and follow-on formulae" does not separate them, and `wild-mushrooms` rather than narrower fungi sub-classes because Table 8 reports the broader category. Routing audit fans broad scopes to sibling pages.
 - Game-meat numbers retain the source's own attribution as "high consumer" exposures rather than category means — the 867 mg/kg maximum is for wild pig muscle near a shot wound (sample retained by EFSA after removal of a 3,090 mg/kg outlier). This is the cleanest defensible reading of Table 14 and the surrounding paragraph.
 - No brand names appear in this source (it is a pooled regulatory occurrence assessment), so the Part 12 firewall is not engaged.
 - No HMTc threshold proposals or consumer-translation language added; opinion's published conclusions on PTWI inappropriateness are quoted but not extended.
 
-### 2026-06-03 audit-subagent corrections applied
+### 2026-06-03 audit-editorial review corrections applied
 
-Fresh-context general-purpose audit subagent (verdict REVISE) flagged six numerical / attribution defects; all six were independently re-verified against the source PDF and corrected:
+Fresh-context general-purpose audit editorial review (verdict REVISE) flagged six numerical / attribution defects; all six were independently re-verified against the source PDF and corrected:
 
 - BMDL₀₁ = 8.1 µg/g tibia bone moved from the developmental-neurotoxicity row to the SBP row. Verified against PDF p. 99 ("Effects on SBP in adults: BMDL₀₁ = 8.1 µg/g (TB-Pb)") and Table 34 p. 97 (TB-Pb BMDL₀₁ derived from Cheng 2001 = 6.5 and Glenn 2003 = 9.7, arithmetic mean 8.1, both for SBP not IQ). The 12 µg/L B-Pb is the only BMDL for developmental neurotoxicity.
 - Dry herbs mean corrected from 0.5500/0.5500 (LB/UB) to 0.8809/0.8896. The 0.5500 figures are the medians per Table 18 p. 44; the means are 0.8809 LB and 0.8896 UB.
@@ -187,18 +187,18 @@ Fresh-context general-purpose audit subagent (verdict REVISE) flagged six numeri
 - Diet/water-Pb→B-Pb conversion row reworded from "Soil→B-Pb conversion (child) +1.6 µg/L per 1 µg/day from soil" to "Diet- or water-Pb→B-Pb conversion: +1.6 µg/L per 1 µg/day in children; +0.4 µg/L per 1 µg/day in adults (Carlisle and Wade, 1992, cited p. 68)." The original wording misattributed the pathway as soil; the source p. 68 specifies diet or water for the 1.6 / 0.4 µg/L coefficients.
 - Bone-burden row attribution reworded to cite Section 8.1.2 p. 66 (where the 70 % figure appears with no inline citation) and to clarify that Aufderheide and Wittmers (1992) is cited there only for the trabecular-vs-cortical distribution.
 
-Subagent's minor-stylistic concerns about children's survey-count attributions ("9 surveys" for 1–3 y, "9–13 surveys" for 4–7 y) and vegetarian "5 countries" were retained as-is after independent verification: Table 24 actually shows surveys per age 1=6, 2=8, 3=9 and 4=13, 5=13, 6=13, 7=9, so the wiki ranges reflect endpoint counts, which is conventional rather than incorrect; and Section 6.3 p. 48 confirms 65 lacto-ovo-vegetarians from 5 countries (DK was the sixth language-screened country and contributed zero). Subagent's audit did not flag any wiki/HMTc, brand-firewall, or speciation issues; verdict was REVISE only on numerical fidelity.
+editorial review's minor-stylistic concerns about children's survey-count attributions ("9 surveys" for 1–3 y, "9–13 surveys" for 4–7 y) and vegetarian "5 countries" were retained as-is after independent verification: Table 24 actually shows surveys per age 1=6, 2=8, 3=9 and 4=13, 5=13, 6=13, 7=9, so the wiki ranges reflect endpoint counts, which is conventional rather than incorrect; and Section 6.3 p. 48 confirms 65 lacto-ovo-vegetarians from 5 countries (DK was the sixth language-screened country and contributed zero). editorial review's audit did not flag any wiki/HMTc, brand-firewall, or speciation issues; verdict was REVISE only on numerical fidelity.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -121,23 +121,23 @@ App: If surfaced, the source can support a food-packaging-material context card 
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the overview, sample preparation, analytical conditions, Tables 2-5, contact-time paragraph, conclusion, and references were checked against this page.
-- Identity checks before creation: title phrase, Application News number `AD-0207`, raw SHA-256 `b9e53b47d199040dcf9bae2b8ffa620d1cb53f1ddaace538152b835281c22567`, raw handle `MFK_evaluation-of-heavy-metal-migration-from-plastic`, and cite key `li2019-plastic-packaging-metal-migration` were searched in `wiki/sources/` and evidence files; only intake/tracker CSV rows were found.
+- Identity checks before creation: title phrase, Application News number `AD-0207`, raw SHA-256 `b9e53b47d199040dcf9bae2b8ffa620d1cb53f1ddaace538152b835281c22567`, raw handle `MFK_evaluation-of-heavy-metal-migration-from-plastic`, and cite key `li2019-plastic-packaging-metal-migration` were searched in the linked reference record and evidence files; only intake/tracker CSV rows were found.
 - DOI status: no DOI is printed in the PDF metadata or extracted text. The page uses `doi: null` and `no_doi_assigned: true`.
 - Unit fidelity: Tables 4 and 5 label migration values as `µg/kg`; the surrounding prose describes Table 4 values as `µg/L`. I retained the table units for tabular values and explicitly flagged the source-internal conflict rather than converting.
-- Speciation: arsenic and chromium are not speciated. The source reports elemental ICP-MS leachate results, so frontmatter uses `tAs` for arsenic and `Cr` for total chromium; no Cr(VI) or inorganic arsenic values are inferred.
+- Speciation: arsenic and chromium are not speciated. The source reports elemental ICP-MS leachate results, so source metadata uses `tAs` for arsenic and `Cr` for total chromium; no Cr(VI) or inorganic arsenic values are inferred.
 - Brand firewall: the Shimadzu instrument/vendor name is retained only as method/source identity. No consumer brand names from sampled packaging are reported or attached to values.
 - Closed-vocabulary check: product routing uses broad existing plastic packaging rows. Exact PS-container, PP-container, and PE-film forms are retained in the source text and not invented as product slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

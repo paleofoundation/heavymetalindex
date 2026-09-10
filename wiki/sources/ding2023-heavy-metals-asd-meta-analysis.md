@@ -88,12 +88,12 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 - Paper-internal inconsistency on Cd geographic subgroup: section 3.3 text states "patients in Australia [SMD = −0.52, 95%CI (−1.04, −0.01), P < 0.05]" but Table 2 reports the same numbers under "North America" (5 studies, P=0.048). Table 1 confirms Australia contributed only one study (Wright 2012), which measured Hg only — so an Australia-only Cd subgroup is structurally impossible. The Table 2 attribution to North America matches the structurally available data; the body text is a labeling error. Recorded both readings above with Table 2 as the authoritative source.
 - Section 3.6 (Hg) opens "There were 34 studies reporting the difference in As concentration" — another paper-internal typo. Context, table headings, and the figure caption confirm this is the Hg analysis with 34 contributing studies. Treated as a typographic slip.
 - Africa Hg subgroup mentioned in body text (section 3.6: "in Africa [SMD = 0.10, 95%CI (−0.16, 0.36), P > 0.05]") does not appear in Table 2. Table 2's Hg/Area block lists only North America, Asia, and Europe. Recorded only the Table 2 values above; flagged the textual Africa figure as potentially mis-attributed or from a subgroup not shown in the published table.
-- Metals frontmatter uses `tAs` and `tHg` per Part 14 speciation rule because the included primary studies predominantly measured total forms; iAs/MeHg are not the pooled quantities.
+- Metals source metadata uses `tAs` and `tHg` per Part 14 speciation rule because the included primary studies predominantly measured total forms; iAs/MeHg are not the pooled quantities.
 - Matrices field uses `hair`, `blood`, `urine` from the controlled vocabulary; the paper also reports fingernail and teeth measurements as a smaller fraction of contributing studies. No bare-string matrices were invented.
 - `jurisdictions: [international]` follows the global-review convention; the included primary studies span 22 countries across five continents.
 - Products and ingredients are both empty because no food product or ingredient is measured. This source contributes exposure/health-outcomes evidence to the four metal pages only.
-- Audit subagent 2026-05-18 flagged Hg publication-bias values as Begg's P=0.003 / Egger's P<0.001 instead of the PDF's "P = 0.002 in Begg's test and P = 0.008 in Egger's test" (Section 3.6); verified against PDF page 6 — corrected to Begg's P=0.002, Egger's P=0.008 in both `## Key numbers` Mercury bullet and `method_quality_caveat`.
-- Audit subagent 2026-05-18 flagged the Certification (HMTc) implications bullet as edging into prescriptive language ("motivates tight thresholds", "needs to account for regional exposure mix"); softened to neutral contribution-only framing per Part 2.
+- Audit editorial review 2026-05-18 flagged Hg publication-bias values as Begg's P=0.003 / Egger's P<0.001 instead of the PDF's "P = 0.002 in Begg's test and P = 0.008 in Egger's test" (Section 3.6); verified against PDF page 6 — corrected to Begg's P=0.002, Egger's P=0.008 in both `## Key numbers` Mercury bullet and `method_quality_caveat`.
+- Audit editorial review 2026-05-18 flagged the Certification (HMTc) implications bullet as edging into prescriptive language ("motivates tight thresholds", "needs to account for regional exposure mix"); softened to neutral contribution-only framing per Part 2.
 
 ## Wiki pages this source may touch
 
@@ -105,13 +105,13 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

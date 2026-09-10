@@ -93,13 +93,13 @@ The guidance is non-binding: FDA states it will consider analytical confidence a
 
 ## Verification notes
 
-Merge-enhanced 2026-05-19 from existing 2026-05-12 page during MFK ingest pass (MFK_arsenic-in-pear-juice-analytical-results-from-2005). The PDF filename in the Manual Fetch Kimi folder ("Arsenic in Pear Juice Analytical Results from 2005-2011.pdf") is mislabeled; the actual content is FDA's June 2023 Apple Juice action level guidance. The MFK PDF is byte-identical (SHA256 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454) to the previously-ingested raw/reports/fda2023-ias-apple-juice-guidance.pdf, so the existing cite-key and raw_path are preserved.
+Merge-enhanced 2026-05-19 from existing 2026-05-12 page during MFK ingest pass (MFK_arsenic-in-pear-juice-analytical-results-from-2005). The PDF filename in the Manual Fetch source-retrieval folder ("Arsenic in Pear Juice Analytical Results from 2005-2011.pdf") is mislabeled; the actual content is FDA's June 2023 Apple Juice action level guidance. The MFK PDF is byte-identical (SHA256 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454) to the previously-ingested the archived source file, so the existing cite-key and raw_path are preserved.
 
 Enhancements applied:
 
 - Added raw_handle to record the MFK manual-fetch identity.
 - Renamed legacy `sha256:` field to current `raw_sha256:` schema.
-- Added `audience` frontmatter.
+- Added `audience` source metadata.
 - Added `tAs` to metals (the guidance reports total arsenic surveillance data alongside speciated iAs).
 - Dropped `products/fresh-fruit` from products: the guidance is exclusively apple juice and apple cider; fresh fruit is out of scope.
 - Removed legacy `## Wiki pages updated on ingest` heading.
@@ -107,7 +107,7 @@ Enhancements applied:
 - Strengthened Methods to name ICP-MS (total) and HPLC-ICP-MS (speciation), LOQs, consumption inputs (NHANES, WWEIA), and the Taiwanese dose-response basis.
 - Tightened the opening prose and Limitations to reflect the cancer + neurodevelopmental dual basis and the conservative total-As substitution in disease-rate modeling.
 
-Audit subagent (2026-05-19, fresh-context general-purpose) flagged two ⚠️ concerns; both verified against the source and applied:
+Audit editorial review (2026-05-19, fresh-context general-purpose) flagged two ⚠️ concerns; both verified against the source and applied:
 
 - Check 3 ⚠️: Methods section attributed the analytical methods to "FDA EAM 4.7 series" — the PDF footnote 9 only links to FDA lab method PDFs (UCM377005.pdf for total As; media/86499/download for HPLC-ICPMS speciation) and does not literally name "EAM 4.7." Corrected to "FDA in-house method (link cited in guidance footnote 9)" for both methods.
 - Check 5 ⚠️: Implications → Certification bullet proposed a "market-ratcheting target near 5 ppb iAs" derived from achievability data, which crosses the Part 2 boundary between describing occurrence data and proposing HMTc threshold values. Rewrote the bullet to surface the FY2011 and FY2013-2022 achievability percentages as occurrence inputs to the Standards Workbench, and to state explicitly that threshold selection is a workbench decision per Part 2 / Part 19.
@@ -117,13 +117,13 @@ Checks 1, 2, 4 returned clean. No false-positive rejections this pass.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

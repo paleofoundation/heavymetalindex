@@ -91,22 +91,22 @@ App: Surface as context that insect-meal/spirulina pet-treat prototypes measured
 
 ## Verification notes
 
-The PDF has author attribution and DOI `10.3390/app13052806`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The source reports dry-matter concentrations as mg/100 g DM; this page converts to mg/kg DM by multiplying by 10 and preserves the native units beside each conversion. The paper does not report arsenic or mercury in the trace-element table. It reports Cd, Pb, Co, Cr, and Ni as `nd` but does not provide LOD/LOQ, so downstream routing should keep those as nondetect-without-limit rather than numeric censored rows.
+The PDF has author attribution and DOI `10.3390/app13052806`; no DOI conflict was observed. Names in the source metadata are ASCII transliterations of the byline. The source reports dry-matter concentrations as mg/100 g DM; this page converts to mg/kg DM by multiplying by 10 and preserves the native units beside each conversion. The paper does not report arsenic or mercury in the trace-element table. It reports Cd, Pb, Co, Cr, and Ni as `nd` but does not provide LOD/LOQ, so downstream routing should keep those as nondetect-without-limit rather than numeric censored rows.
 
-Matrices vocabulary: `pet-treat` and `dog-snack-prototype` are bare-string additions outside the human-food-centric matrices list in `docs/gpt-collaboration/system-prompt.md`. No standard term covers self-produced experimental pet-treat prototypes, so these two are proposed novel matrices flagged here per the system-prompt guidance. Earlier process- and formulation-specific tokens (`extruded-dog-snack`, `baked-dog-snack`, `insect-meal-formulation`, `spirulina-formulation`) were removed as over-granular for a four-prototype study without per-formulation metal contrasts.
+Matrices vocabulary: `pet-treat` and `dog-snack-prototype` are bare-string additions outside the human-food-centric matrices list in the editorial record. No standard term covers self-produced experimental pet-treat prototypes, so these two are proposed novel matrices flagged here per the system-prompt guidance. Earlier process- and formulation-specific tokens (`extruded-dog-snack`, `baked-dog-snack`, `insect-meal-formulation`, `spirulina-formulation`) were removed as over-granular for a four-prototype study without per-formulation metal contrasts.
 
-Audit subagent (2026-06-02) flagged two ⚠️ concerns: matrices over-granularity (applied — collapsed to `pet-treat` plus `dog-snack-prototype` and flagged as novel-vocabulary proposals) and incomplete Methods statement on the toxic-metal analytical gap (applied — Methods now states explicitly that the paper describes no analytical procedure or LOD for Cd/Pb/Co/Cr/Ni or Mo). Numerical fidelity, brand firewall, and HMTc firewall checks were clean.
+Audit editorial review (2026-06-02) flagged two ⚠️ concerns: matrices over-granularity (applied — collapsed to `pet-treat` plus `dog-snack-prototype` and flagged as novel-vocabulary proposals) and incomplete Methods statement on the toxic-metal analytical gap (applied — Methods now states explicitly that the paper describes no analytical procedure or LOD for Cd/Pb/Co/Cr/Ni or Mo). Numerical fidelity, brand firewall, and HMTc firewall checks were clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

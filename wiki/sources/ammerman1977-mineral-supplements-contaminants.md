@@ -85,7 +85,7 @@ The paper documents a plausible livestock supply-chain pathway: feed-grade miner
 
 - Identity checks before writing found no existing source page for the title, first author, raw handle `MFK_ammerman1977`, or cite key `ammerman1977-mineral-supplements-contaminants`.
 - Source scope: supply-chain context for domestic-animal feed mineral supplements. `products: []` is intentional because the current closed taxonomy has no livestock feed-grade mineral-supplement product row; the closest human and pet supplement rows would mis-route the matrix.
-- Slug note: no exact `animal-feed-mineral-supplements` product or ingredient slug exists in the taxonomy snapshot. Frontmatter uses downstream livestock ingredient pages (`meat-and-poultry`, `milk-and-dairy`) and descriptive matrix terms.
+- Slug note: no exact `animal-feed-mineral-supplements` product or ingredient slug exists in the taxonomy snapshot. source metadata uses downstream livestock ingredient pages (`meat-and-poultry`, `milk-and-dairy`) and descriptive matrix terms.
 - All Table 2 values above were rechecked against `/tmp/hmi-june9-077.txt` extracted with `pdftotext -layout`. The 9 ppb Hg statement is from the narrative immediately below Table 2, not a separate row in the rendered table.
 - Speciation check: As and Hg are not speciated in Table 2 or the summary text; they are recorded as tAs and tHg. The review discusses methylmercury in secondary toxicology examples, but no feed-grade supplement MeHg occurrence value is reported.
 - Units and basis are preserved as printed (`ppm`, `ppb`, dry matter, wet tissue, or wet tissue basis where stated). No values were converted or normalized.
@@ -94,13 +94,13 @@ The paper documents a plausible livestock supply-chain pathway: feed-grade miner
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

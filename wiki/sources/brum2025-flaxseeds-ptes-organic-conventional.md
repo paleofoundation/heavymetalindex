@@ -114,7 +114,7 @@ Merge-enhanced 2026-05-25 from a pre-existing 2026-05-14 page that contained cat
 8. Headline claimed "organic flaxseeds had statistically significantly higher Pb concentrations than conventional samples" — this is false. The paper's asterisks and Discussion identify three statistically significant differences: Al higher in conventional (p = 0.0312), Ni higher in conventional (p = 0.0142), Na higher in organic (p = 0.0072). Pb and Cd differences between groups are not statistically significant.
 
 Other enhancements:
-- Added raw_sha256 of the source PDF; corrected raw_handle from generic `manual-fetch-kimi` to PDF-specific `MFK_p0304-assessment-of-essential-elements-and-potenti`; corrected raw_path to full original filename.
+- Added raw_sha256 of the source PDF; corrected raw_handle from generic `manual-fetch-source-retrieval` to PDF-specific `MFK_p0304-assessment-of-essential-elements-and-potenti`; corrected raw_path to full original filename.
 - Added complete element panel summary to Key numbers (all 20 elements, mean concentrations).
 - Added explicit EDI values for Cd and Pb from Table 3.
 - Added Reference Dose values from Table 1 with note explaining the USEPA Pb RfD context driving extreme Pb HI values.
@@ -122,22 +122,22 @@ Other enhancements:
 - Removed Part 2 wiki/HMTc-firewall borderline content from prior Implications section (cross-source synthesis comparison to "peanut Pb levels" and forward-looking HMT&C threshold-setting language); replaced with what-this-source-contributes framing per Part 2.
 - Removed inline µg/kg parenthetical conversions that risked silent unit drift; values reported in the paper's native mg/kg dry-weight basis throughout.
 
-Audit subagent (2026-05-25) verdict REVISE; two ⚠️ findings reviewed:
-- Check 2: `ingredients/flaxseeds` slug not yet in `docs/gpt-collaboration/taxonomy-snapshot.md` (snapshot dated 2026-05-18). Verified against `wiki/ingredients/` — no `flaxseeds.md` page exists yet, and three source pages now reference the slug (brum2025, lee2019, nazari2023). The slug therefore qualifies for the ≥freq-2 auto-stub via `tools/autonomy/create-missing-pages.mjs`. Action: leave the slug in place; the auto-stub will create the ingredient page and the taxonomy snapshot will pick it up on its next regeneration. No correction needed.
-- Check 2: `matrices: [seed, oilseed]` flagged as unconfirmed against a controlled matrices vocabulary. Verified — matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` is documented as bare strings with broad-scope guidance rather than a closed list; `oilseed` is already in use in `wiki/sources/lee2019-food-processing-heavy-metals-migration.md`. False positive; no change.
+Audit editorial review (2026-05-25) verdict REVISE; two ⚠️ findings reviewed:
+- Check 2: `ingredients/flaxseeds` slug not yet in the editorial record (snapshot dated 2026-05-18). Verified against the linked reference record — no `flaxseeds.md` page exists yet, and three source pages now reference the slug (brum2025, lee2019, nazari2023). The slug therefore qualifies for the ≥freq-2 auto-stub via the editorial record. Action: leave the slug in place; the auto-stub will create the ingredient page and the taxonomy snapshot will pick it up on its next regeneration. No correction needed.
+- Check 2: `matrices: [seed, oilseed]` flagged as unconfirmed against a controlled matrices vocabulary. Verified — matrices vocabulary in the editorial record is documented as bare strings with broad-scope guidance rather than a closed list; `oilseed` is already in use in the linked reference record. False positive; no change.
 
 All five audit checks otherwise clean (numerical fidelity verified across Tables 1/2/3 and the p. 5 HI narrative; speciation/methods accurate; brand firewall clean; wiki/HMTc firewall clean including Implications section).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

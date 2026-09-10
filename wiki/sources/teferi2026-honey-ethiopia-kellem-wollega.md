@@ -67,8 +67,7 @@ Courses: Demonstrates the biomonitoring utility of honey for regional environmen
 
 App: The extreme Pb and Cd values reported here are outliers at the high end of the global honey distribution; representing them as typical for "honey" without a geographic qualifier (artisanal-mining-impacted region, Ethiopia) would misstate background risk substantially.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/honey]]
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -77,24 +76,24 @@ App: The extreme Pb and Cd values reported here are outliers at the high end of 
 
 ## Verification notes
 
-Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle):
+Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle):
 - **Corrected transposed Table 4 values.** Prior revision (2026-05-13) had the seven-metal × three-site table rotated by one column: the Dambi Dollo column held Gawo Kebe's values, the Gawo Kebe column held Anafilo's values, and the Anafilo column held Dambi Dollo's values. Verified each cell against Table 4 (p. 7) of the source PDF; values now match the paper. Re-checked against the paper's prose rankings on p. 9 ("Cu, Fe, Mn, Ni, and Cd ranked Dambi Dollo > Gawo Kebe > Anafilo; Zn, Anafilo > Gawo Kebe > Dambi Dollo; and Pb, Anafilo > Gawo Kebe > Dambi Dollo"). The corrected table is now internally consistent with the paper's reported rankings.
 - **Corrected truncated `raw_path`.** Prior `raw_path` ended at "Associated Health Ris.pdf"; actual file name is "Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia.pdf". Fixed.
 - **Corrected regulation wikilink.** Prior `[[regulations/eu-2023-915]]` is not a valid slug; the wiki page is `[[regulations/eu-2023-915-cadmium]]`. Fixed.
 - **Expanded Methods (brief)** with instrument vendor/model (PerkinElmer Optima 8000), digestion parameters, calibration standard (Buck Scientific PuroGraphic), and filter (Whatman No. 41) per the verification-checklist Exception 2 for scientific-method vendor naming. Speciation status (none performed; all values are total metal) made explicit.
 - **Expanded Key numbers** with Ni and Cd TCR ranges, Pb THQ range, and source-citation page numbers for the audit trail.
-- Preserved cite_key, raw_handle, license, frontmatter slugs (all in taxonomy snapshot), and the overall page structure.
+- Preserved cite_key, raw_handle, license, source metadata slugs (all in taxonomy snapshot), and the overall page structure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

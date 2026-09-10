@@ -77,8 +77,7 @@ GF-AAS (graphite furnace atomic absorption spectroscopy, Varian Spectr AA 880). 
 
 **App:** Dried herbs are a distinct ingredient class from fresh herbs in the risk model. The app should not apply fresh-herb contamination profiles to dried herb ingredients. The ingredient matrix field must distinguish these (dried-herbs vs. fresh-herbs), and contamination profiles should be maintained separately.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/dried-herbs]]
 - [[ingredients/fresh-herbs]]
@@ -94,11 +93,11 @@ Merge-enhance pass 2026-05-29 (manual-fetch ingest, MFK condiment_papers/05_PB_V
 - Re-verified per-species exceedances against Figs. 2–4: Cd > 0.3 mg/kg dry-matter MPL in dried coriander (mean 0.419) and dried estragon (mean 0.427); Pb > 0.3 mg/kg fresh-herb MPL in watercress, jiaogulan, celery, basil, and dill (Fig. 3b); no spice sample exceeded its applicable Pb MPL. Matches source.
 - Re-verified exposure metrics against Table 4: EWI Cd 6.57×10⁻⁴ µg/kg bw for dried herbs corresponding to 3.75×10⁻⁴ % TWI; EWI Pb 2.69×10⁻³ µg/kg bw corresponding to 3.65×10⁻⁴ % BMDL01 and 8.72×10⁻⁴ % BMDL10; all THQ and HI(Cd+Pb) < 1. Matches source.
 - Re-verified analytical figures of merit and CRM recoveries against Table 2; all values match.
-- Frontmatter defects corrected: `raw_handle` changed from generic `manual-fetch-kimi` to per-paper `MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo`; `raw_path` corrected from truncated `...Use.pdf` (file did not resolve) to the full filename `...Used in Polish Cuisine.pdf`; `raw_sha256`, `access_url`, and `tier_rationale` added; `sampling_locations` populated with Lublin grocery retail per the Material and Methods section.
+- source metadata defects corrected: `raw_handle` changed from generic `manual-fetch-source-retrieval` to per-paper `MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo`; `raw_path` corrected from truncated `...Use.pdf` (file did not resolve) to the full filename `...Used in Polish Cuisine.pdf`; `raw_sha256`, `access_url`, and `tier_rationale` added; `sampling_locations` populated with Lublin grocery retail per the Material and Methods section.
 - Paper-internal inconsistencies noted (also captured in `tier_rationale`) and do not affect downstream synthesis: the methods narrative lists 15 fresh-herb species summing to 187 samples while the abstract and Table 3 report n=184; and the methods narrative names "pink peppercorn (n=8)" for the same single-component spice that Table 1 lists as "Rose pepper / Schinus terebinthifolius (n=10)" (botanically the same species).
 - Brand-firewall check: source reports only species-level and category-level means; no brand-by-brand attribution is present in the paper, so no firewall-violating content to remove.
 
-Audit subagent pass 2026-05-29 (v2.0 fresh-context general-purpose Agent, verdict REVISE): four findings applied, three rejected as not actionable.
+Audit editorial review pass 2026-05-29 (v2.0 fresh-context general-purpose Agent, verdict REVISE): four findings applied, three rejected as not actionable.
 
 Applied:
 - ❌ Broken slug `[[regulations/eu-reg-1881-2006]]` corrected to `[[regulations/eu-1881-2006-contaminants-superseded]]` — verified via `ls wiki/regulations/`; the eu-reg-* form does not exist for 1881/2006.
@@ -114,13 +113,13 @@ Rejected (verified false-positive or not actionable):
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [5c8045fb3](https://github.com/paleofoundation/heavymetalindex/commit/5c8045fb3) | 2026-05-29 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [5c8045fb3d](https://github.com/paleofoundation/heavymetalindex/commit/5c8045fb3d) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

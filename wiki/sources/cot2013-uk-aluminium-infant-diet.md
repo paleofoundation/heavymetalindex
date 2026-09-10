@@ -133,7 +133,7 @@ Statement integrates four UK data streams and the international peer-reviewed an
 
 ## Provenance notes
 
-Statement is published under the UK Open Government Licence by the UK Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment, an independent scientific advisory committee. Cite-key follows the institutional-author convention used elsewhere in the corpus (e.g., `efsa-aluminium-afc-2008`). The Statement number is COT 2013/01; published June 2013. Original retrieval through Kimi agent corruption-folder workflow (May 2026); raw_path reflects the Kimi-fetch folder structure. Currently published-canonical access URL maintained by the UK Food Standards Agency (`cot.food.gov.uk`); when retrieving for verification, the COT subdomain may redirect to the FSA archive. The original FSA cot.food.gov.uk footnote URLs in the Statement are now archived to the National Archives webarchive in places.
+Statement is published under the UK Open Government Licence by the UK Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment, an independent scientific advisory committee. Cite-key follows the institutional-author convention used elsewhere in the corpus (e.g., `efsa-aluminium-afc-2008`). The Statement number is COT 2013/01; published June 2013. Original retrieval through source-retrieval agent corruption-folder workflow (May 2026); raw_path reflects the source-retrieval-fetch folder structure. Currently published-canonical access URL maintained by the UK Food Standards Agency (`cot.food.gov.uk`); when retrieving for verification, the COT subdomain may redirect to the FSA archive. The original FSA cot.food.gov.uk footnote URLs in the Statement are now archived to the National Archives webarchive in places.
 
 ## Wiki pages this source may touch
 
@@ -162,21 +162,21 @@ Statement is published under the UK Open Government Licence by the UK Committee 
 ## Verification notes
 
 - 2026-06-01: Fresh ingest via v2.0 manual-fetch autonomous skill (cot2013-uk-aluminium-infant-diet).
-- Subagent audit (2026-06-01) verdict REVISE; two findings handled:
-  - Check 2 ❌ flagged `[[products/biscuits]]` as missing from the 2026-05-18 taxonomy snapshot, suggesting retarget to `snacks-crackers-biscuits`. **Verified false positive**: `wiki/products/biscuits.md` exists in the current wiki as a provisional scaffold created 2026-05-19 (post-snapshot, via heal-gaps from `original2020-original-a` declaration). The routing audit routes this source to `products/biscuits` cleanly as `locked_hmtc_row direct_evidence`. No change applied to the wiki page; the taxonomy snapshot itself is stale and should be regenerated separately.
+- editorial review audit (2026-06-01) verdict REVISE; two findings handled:
+  - Check 2 ❌ flagged `[[products/biscuits]]` as missing from the 2026-05-18 taxonomy snapshot, suggesting retarget to `snacks-crackers-biscuits`. **Verified false positive**: the linked reference record exists in the current wiki as a provisional scaffold created 2026-05-19 (post-snapshot, via heal-gaps from `original2020-original-a` declaration). The routing audit routes this source to `products/biscuits` cleanly as `locked_hmtc_row direct_evidence`. No change applied to the wiki page; the taxonomy snapshot itself is stale and should be regenerated separately.
   - Check 5 ⚠️ flagged "Drinking water rarely binds for infant Al exposure" in the Certification block as an HMTc-mechanics paraphrase that overreaches paragraph 50. **Verified concern correct**: paragraph 50 states "even unusually high concentrations of aluminium in public water are unlikely to take total intake above the PTWI." Implications/Certification paragraph revised to attribute the claim to paragraph 50 directly and to use the source's own wording.
 - Checks 1, 3, 4 returned ✅ clean; numerical fidelity verified across Tables 1–8 and conclusion paragraphs 49–51 / 58–61.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
-| [ee4990cb3](https://github.com/paleofoundation/heavymetalindex/commit/ee4990cb3) | 2026-06-01 | major | 1 section added; narrative text revised |
-| [0a4868ad0](https://github.com/paleofoundation/heavymetalindex/commit/0a4868ad0) | 2026-06-01 | major | 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c660ae7053](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7053) | 2026-06-01 | major | 1 section added |
+| [ee4990cb3c](https://github.com/paleofoundation/heavymetalindex/commit/ee4990cb3c) | 2026-06-01 | major | 1 section added; narrative text revised |
+| [0a4868ad0a](https://github.com/paleofoundation/heavymetalindex/commit/0a4868ad0a) | 2026-06-01 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -98,14 +98,14 @@ For the EU regulatory-framework timeline page (see [[synthesis/eu-regulatory-fra
 
 ## Verification notes
 
-- Ingested 2026-06-02 from the Kimi-agent download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). PDF is a two-page Commission consumer information leaflet, dated by context to 2019 (filename year and content focus on the 1 January 2019 enforcement deadline).
+- Ingested 2026-06-02 from the source-retrieval download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). PDF is a two-page Commission consumer information leaflet, dated by context to 2019 (filename year and content focus on the 1 January 2019 enforcement deadline).
 - The leaflet uses decimal points (e.g., "0.10 mg/kg") in the as-displayed graphic. The numbers are preserved verbatim from the leaflet rather than converted to the decimal-comma convention used in the Official Journal text of 488/2014 and 2021/1323; readers comparing the two should not infer numerical disagreement from the punctuation difference. The four cadmium ceilings for cocoa products in the leaflet match the four cadmium ceilings in [[sources/eu-2021-1323-cadmium-foodstuffs-amendment]] sections 3.2.13.1 through 3.2.13.4 exactly.
 - The leaflet refers to "milk chocolate" only in the < 30 % bin. The legal text in 488/2014 (and 2021/1323) carves out milk chocolate explicitly in two of the four rows; the leaflet's simplified four-bin display does not reproduce that carve-out distinction. The maximum-levels table above reproduces the leaflet's simplified display verbatim; for the legally precise milk-chocolate carve-out, cite [[sources/eu-2021-1323-cadmium-foodstuffs-amendment]] or the underlying 488/2014 text.
 - No brand names appear in the leaflet; no Part 12 redaction was required.
 - No HMTc threshold inference or synthesis claim added. The `## Implications` section describes regulatory-context routing for chocolate and cocoa pages, not HMTc threshold proposals.
-- No DOI assigned to the leaflet (Commission consumer-information document, not a peer-reviewed publication). `no_doi_assigned: true` is recorded in frontmatter.
+- No DOI assigned to the leaflet (Commission consumer-information document, not a peer-reviewed publication). `no_doi_assigned: true` is recorded in source metadata.
 - The leaflet was likely also issued in other EU languages; only the English version is ingested here.
-- Audit subagent (2026-06-02, fresh-context general-purpose) verdict PROMOTE. Two ⚠️ housekeeping concerns raised: (1) `## Methods (brief)` should more explicitly flag that the EFSA CONTAM 2009 TWI (2,5 µg/kg bw) and Codex-alignment details come from the regulatory-historical record for 488/2014 rather than from the leaflet's own text — applied: a one-clause aside was added clarifying that the leaflet's own framing is the brief "EU undertook a risk analysis / in line with Codex" wording and the specific underlying references are from the regulatory-historical record; (2) `[[synthesis/eu-regulatory-framework-timeline]]` wikilink was flagged as a possible orphan reference because the auditor could not verify it against the closed taxonomy snapshot (which lists only ingredients/products/metals/regulations, not synthesis pages) — verified false positive against `wiki/synthesis/eu-regulatory-framework-timeline.md` (page exists on disk); the synthesis namespace is intentionally out of the taxonomy snapshot's scope and the wikilink is retained.
+- Audit editorial review (2026-06-02, fresh-context general-purpose) verdict PROMOTE. Two ⚠️ housekeeping concerns raised: (1) `## Methods (brief)` should more explicitly flag that the EFSA CONTAM 2009 TWI (2,5 µg/kg bw) and Codex-alignment details come from the regulatory-historical record for 488/2014 rather than from the leaflet's own text — applied: a one-clause aside was added clarifying that the leaflet's own framing is the brief "EU undertook a risk analysis / in line with Codex" wording and the specific underlying references are from the regulatory-historical record; (2) `[[synthesis/eu-regulatory-framework-timeline]]` wikilink was flagged as a possible orphan reference because the auditor could not verify it against the closed taxonomy snapshot (which lists only ingredients/products/metals/regulations, not synthesis pages) — verified false positive against the linked reference record (page exists on disk); the synthesis namespace is intentionally out of the taxonomy snapshot's scope and the wikilink is retained.
 
 ## Sources
 
@@ -118,13 +118,13 @@ For the EU regulatory-framework timeline page (see [[synthesis/eu-regulatory-fra
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc0](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc0) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

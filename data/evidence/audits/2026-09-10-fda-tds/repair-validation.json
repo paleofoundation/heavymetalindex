@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-10",
+  "status": "local-validation-passed",
+  "tests": {
+    "command": "npm test",
+    "passed": 396,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "command": "python3 tools/evidence/build-fda-tds-evidence.py --check",
+      "exit_code": 0
+    },
+    {
+      "command": "node tools/evidence/check-fda-tds-generated.mjs --check-generated",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run evidence:source-routes",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run evidence:local-reingest",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run evidence:standards-gaps",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run evidence:ai-adjudication",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run prebuild",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run check",
+      "exit_code": 0
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0
+    }
+  ],
+  "source_prose": {
+    "pages": 2551,
+    "substitutions": 5648,
+    "preserved_archives": 3109
+  },
+  "publication": "release verification follows scoped content commit"
+}

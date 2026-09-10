@@ -102,20 +102,20 @@ For risk-calculation context, the HRI and PI tables are source-side calculations
 ## Verification notes
 
 - Manual-fetch merge-enhance (Codex, 2026-05-18): matched DOI and raw path to P0175, corrected raw_handle and PDF SHA-256 provenance, replaced invalid `ingredients/sardines` with existing broader tinned-fish/fish/seafood routing, replaced brand-code value listings with product-form ranges, and removed old HMTc/course/app language.
-- Fresh-context audit (Codex subagent, 2026-05-18) returned REVISE for narrow HRI wording and matrix-vocabulary cleanup; revised the Al/As HRI sentence and changed `matrices` to broad `fish`.
+- Fresh-context audit (automated editorial review, 2026-05-18) returned REVISE for narrow HRI wording and matrix-vocabulary cleanup; revised the Al/As HRI sentence and changed `matrices` to broad `fish`.
 - The source tables use coded company identifiers. This page intentionally reports ranges by product form rather than company-code rows to satisfy the strict Part 12 brand firewall.
 - Paper-internal inconsistency: Table 2 reports Ni below LOD in all canned-sardine concentration rows, but Table 6 reports one canned-sardine Ni HRI value of 4.08. This page preserves the Table 2 concentration result and flags the HRI inconsistency rather than treating Ni as a measured above-LOD sardine contaminant.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

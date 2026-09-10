@@ -102,7 +102,7 @@ The retail-survey subset (n=9, 5 anonymized product groups) is too small to anch
 ## Sources
 
 - Ormaza-Gonzalez FI, Ponce-Villao GE, Pin-Hidalgo GM. 2020. "Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific." *Heliyon* 6:e04576. DOI: 10.1016/j.heliyon.2020.e04576.
-- Manual-fetch PDF: `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory/Low Mercury, Cadmium and Lead Concentrations in Tuna Products from the Eastern Pacific.pdf` (SHA-256 `4e1bcae61ab033f68704f9d48c92ef4979ef5f927b074e58c6f6b756bc34cf28`).
+- Manual-fetch PDF: the archived source file (SHA-256 `4e1bcae61ab033f68704f9d48c92ef4979ef5f927b074e58c6f6b756bc34cf28`).
 
 ## Verification notes
 
@@ -111,18 +111,18 @@ The retail-survey subset (n=9, 5 anonymized product groups) is too small to anch
 - Analyte speciation: Hg method is cold-vapor AAS on total digest (no MeHg speciation), so `metals: [tHg]` rather than `[MeHg]` or `[tHg, MeHg]`.
 - The paper's filename mentions "Eastern Pacific" - the work is on Ecuadorean canneries processing eastern-Pacific catches; jurisdictions tag retains EC (Ecuador, production and retail) and EU (the regulatory comparator under which the dataset was generated for export QA).
 - The paper engages only EU Commission Regulation 1881/2006 and FDA as comparator frameworks; it does not cite Ecuador NTE INEN 184:2013. The `[[regulations/ecuador-nte-inen-184-2013-canned-tuna]]` cross-link in the touch-points section is therefore jurisdictional context (this is the Ecuadorian rule that applies to the product category the paper studies), not a regulation the paper itself analyzes.
-- 2026-06-03 Claude audit subagent (fresh context) verdict: PROMOTE. 5/5 checks clean. One minor polish applied: clarified NTE INEN 184 cross-link as jurisdictional context per the subagent's Check 2 note.
+- 2026-06-03 editorial review editorial review (fresh context) verdict: PROMOTE. 5/5 checks clean. One minor polish applied: clarified NTE INEN 184 cross-link as jurisdictional context per the editorial review's Check 2 note.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

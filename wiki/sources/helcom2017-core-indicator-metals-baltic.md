@@ -164,7 +164,7 @@ This is an A-tier intergovernmental status assessment that provides reconstructa
 - Lead: primary water (surface 1-5.5 m); secondary fish liver (LI) wet weight, mussel SB wet weight, and sediment Al-normalised dry weight. Species sampled for fish liver: herring and cod (open sea), flounder, sole, eelpout, perch (coastal).
 - Mercury: primary biota fish muscle ('fillet') wet weight; secondary mussel SB wet weight. Species sampled: herring, cod (open sea); flounder, sole, eelpout, perch (coastal).
 
-Mercury was measured as total Hg in fish muscle; the report does not separately speciate methylmercury, so frontmatter and synthesis carry `tHg` per the speciation-discipline convention.
+Mercury was measured as total Hg in fish muscle; the report does not separately speciate methylmercury, so source metadata and synthesis carry `tHg` per the speciation-discipline convention.
 
 **Statistical method:** the assessment used the agreed MIME R script (http://dome.ices.dk/osparmime/help_methods_biota_metals.html for biota and the parallel sediment URL) that returns the upper bound of the 95 percent confidence level as the representative concentration where long-term series exist. For stations with 1-2 years of data, the average value is used as an initial-status assessment with reduced confidence. Contamination ratio (CR) = representative concentration ÷ threshold; good status if CR ≤ 1.
 
@@ -183,12 +183,11 @@ Mercury was measured as total Hg in fish muscle; the report does not separately 
 
 ## Provenance notes
 
-PDF retrieved as part of the Kimi Agent Download Corruption Issue manual-fetch batch; this is a 32-page HELCOM core indicator report (web-based version July 2017) of the HOLAS II component. Karen's suggested handle `KADC_helcom-core-indicator-metals-lead-cadmium-and-merc` is preserved verbatim. Cite-key follows the corporate-author + year + short-slug convention (`helcom2017-core-indicator-metals-baltic`). The report has a follow-on final-report version anticipated for June 2018 with 2016 data added; if and when that supersedes the 2017 web-based version, this page should record the newer version under `superseded_by`. License recorded as `public-redistribute` per the report's stated access-and-use clause ("data and resulting data products available on the indicator web pages can be used freely given that the source is cited").
+PDF retrieved as part of the source-retrieval Agent Download Corruption Issue manual-fetch batch; this is a 32-page HELCOM core indicator report (web-based version July 2017) of the HOLAS II component. Karen's suggested handle `KADC_helcom-core-indicator-metals-lead-cadmium-and-merc` is preserved verbatim. Cite-key follows the corporate-author + year + short-slug convention (`helcom2017-core-indicator-metals-baltic`). The report has a follow-on final-report version anticipated for June 2018 with 2016 data added; if and when that supersedes the 2017 web-based version, this page should record the newer version under `superseded_by`. License recorded as `public-redistribute` per the report's stated access-and-use clause ("data and resulting data products available on the indicator web pages can be used freely given that the source is cited").
 
 Two internal source-text inconsistencies are recorded faithfully rather than silently resolved: (1) the cadmium-in-mussel paragraph on page 7 enumerates two different representative concentrations for the Kattegat (168.9 µg/kg ww above threshold and 152.6 µg/kg ww below threshold) in adjacent paragraphs; (2) the same paragraph states "six assessed areas" exceeded the Cd threshold but enumerates five. These do not affect the use of the report for occurrence work but should be flagged if the value is propagated to an ingredient `contamination_profile`.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
@@ -204,13 +203,13 @@ Two internal source-text inconsistencies are recorded faithfully rather than sil
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

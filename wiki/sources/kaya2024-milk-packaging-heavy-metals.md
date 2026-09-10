@@ -119,7 +119,7 @@ Cochrane usability: the dataset is admissible for packaging-matrix occurrence at
 
 ## Verification notes
 
-Merge-enhance pass 2026-05-18 against the PDF at `raw/Papers Cube Manual Fetch/10.30931-jetas.1395566-3557768.pdf` (DOI 10.30931/jetas.1395566). Changes relative to the prior 2026-05-14 revision:
+Merge-enhance pass 2026-05-18 against the PDF at the archived source file (DOI 10.30931/jetas.1395566). Changes relative to the prior 2026-05-14 revision:
 
 - **Milk Co range corrected** from 0.219–0.239 (the abstract's mis-labelled value, which is actually Cd) to 0.081–0.393 (Table 5 actual Co milk column). Documented the abstract's paper-internal error.
 - **Milk Cd range added** (was previously "not reported in milk ranges summary"): 0.219–0.239 mg/kg per Table 5, confirmed by §3 body text ("cadmium levels in milk and packaging samples were determined as 0.219–1.209 mg/kg").
@@ -134,9 +134,9 @@ Merge-enhance pass 2026-05-18 against the PDF at `raw/Papers Cube Manual Fetch/1
 - **Legacy section heading** `## Wiki pages updated on ingest` replaced with current convention `## Wiki pages this source may touch`.
 - **Speciation:** `metals: [Pb, tAs, Cd, Ni, Al]` retained — the paper measures total elemental As (no speciation), so `tAs` is correct.
 
-Fresh-context audit (2026-05-18, general-purpose subagent) verdict: REVISE.
+Fresh-context audit (2026-05-18, general-purpose editorial review) verdict: REVISE.
 
-- ⚠️ Audit finding: `products: []` on a food paper flagged as a Phase 1 frontmatter defect. **Verified false positive.** Per lint, the "missing products field on food/personal-care paper" rule fires only when `matrices:` contains product-shaped slugs (i.e., slugs in the products taxonomy). For this paper, `matrices: [milk, food-packaging, packaging-material]` — none of those are product-taxonomy slugs (verified against the taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md`). The convention for milk papers is `products: []` with ingredient routing via `milk-and-dairy` — established by other milk papers (e.g., `abdelnaby2022-lead-cadmium-milk.md`) that share the identical pattern and produce the same advisory-only severity entry in `data/evidence/routing_malformed.csv`. The current products taxonomy does not include a "fluid milk in aseptic carton" product page; milk is intentionally represented at the ingredient level. No frontmatter change applied.
+- ⚠️ Audit finding: `products: []` on a food paper flagged as a Phase 1 source metadata defect. **Verified false positive.** Per lint, the "missing products field on food/personal-care paper" rule fires only when `matrices:` contains product-shaped slugs (i.e., slugs in the products taxonomy). For this paper, `matrices: [milk, food-packaging, packaging-material]` — none of those are product-taxonomy slugs (verified against the taxonomy snapshot at the editorial record). The convention for milk papers is `products: []` with ingredient routing via `milk-and-dairy` — established by other milk papers (e.g., `abdelnaby2022-lead-cadmium-milk.md`) that share the identical pattern and produce the same advisory-only severity entry in the structured evidence record. The current products taxonomy does not include a "fluid milk in aseptic carton" product page; milk is intentionally represented at the ingredient level. No source metadata change applied.
 - ⚠️ Audit borderline note on matrices duplication (`food-packaging` vs `packaging-material`). Retained both: `food-packaging` flags the paper as a food-contact-material study; `packaging-material` flags the data as in-substrate concentrations on the packaging itself. They route distinct intents.
 - Checks 1, 3, 4, 5 all ✅ from the audit, including independent verification of every Key numbers value against Table 5.
 
@@ -152,13 +152,13 @@ Fresh-context audit (2026-05-18, general-purpose subagent) verdict: REVISE.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

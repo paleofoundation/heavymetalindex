@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["infant-formula-powder", "infant-formula-liquid", "baby-food", "processed-cereal-based-infant-food", "infant-young-child-drinks"]
 type: source
 cite_key: eu2023-915-lead-infant-young-child-foods
 title: "Commission Regulation (EU) 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-03
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # EU 2023/915 — Lead in infant and young-child foods
@@ -42,20 +46,19 @@ Commission Regulation (EU) 2023/915 sets binding maximum levels for contaminants
 
 The conversion used by HMI is `1 mg/kg = 1000 ug/kg = 1000 ppb`, so `0.020 mg/kg = 20 ppb` and `0.010 mg/kg = 10 ppb`.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[regulations/eu-2023-915-lead-infant-young-child-foods]]
 - [[products/lead-benchmark-context]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1e18eb986](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb986) | 2026-05-03 | major | 3 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [1e18eb9868](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9868) | 2026-05-03 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

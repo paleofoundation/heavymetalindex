@@ -107,13 +107,13 @@ Dietary surveys for Infants and Toddlers are limited in number and sample size, 
 
 ## Verification notes
 
-- Wrote 2026-06-03 from a fresh read of the EFSA 2024 Scientific Opinion PDF at `raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2024 -  - Risk assessment of small organoarsenic species in food.pdf` (SHA256 25e6a3c…3e3a). No prior wiki source page existed for DOI 10.2903/j.efsa.2024.8844 (confirmed by `grep` over `wiki/`); the sibling `efsa2024-risk-assessment-iAs-update.md` is a different 2024 EFSA Opinion (DOI 10.2903/j.efsa.2024.8488, inorganic arsenic).
+- Wrote 2026-06-03 from a fresh read of the EFSA 2024 Scientific Opinion PDF at the archived source file (SHA256 25e6a3c…3e3a). No prior wiki source page existed for DOI 10.2903/j.efsa.2024.8844 (confirmed by `grep` over the linked reference record); the sibling `efsa2024-risk-assessment-iAs-update.md` is a different 2024 EFSA Opinion (DOI 10.2903/j.efsa.2024.8488, inorganic arsenic).
 - Verified all reference points, MOEs, and occurrence values against PDF pages 5–7 (Summary), p.49 (RP derivation), p.52–57 (Tables 8–11), pp.59–64 (Tables 12–17), pp.65–68 (Tables 18–19), and p.62 Table 14 (rice-based infant formula scenario). Per-table footnotes preserved (HRP = highest reliable percentile, Table 9; 95th percentile reported only when n ≥ 59, Tables 8/10/12).
 - `metals: [tAs]` selected because the paper is about organoarsenic forms (MMA, DMA) of total arsenic; the wiki abbreviation vocabulary does not have separate iAs/oAs slugs, and iAs would be incorrect because this Opinion explicitly excludes inorganic arsenic from its scope (which is covered by the companion 2024 EFSA Opinion).
 - `products:` includes the rice-based infant formula scenario (umbrella `infant-formula-powder`) because the Opinion derives a dedicated scenario with documented MOEs for it. The narrower scope `infant-formula-powder-non-soy` was avoided per the verification checklist's "scope is broad, not narrow" rule, since hydrolysed-rice formulas are neither dairy nor soy-based and the umbrella covers all powder forms.
 - No brand names appear in the body or Key numbers (EFSA aggregate Opinion; brand names not used in EFSA outputs). The single literature reference to a commercial seaweed dietary supplement category (Spirulina, chlorella) names ingredient categories, not brands.
 - Implications report contribution to HMT&C scope and app weighting without proposing certification thresholds; Part 2 wiki/HMT&C firewall observed.
-- Audit subagent (2026-06-03, general-purpose fresh-context) verdict PROMOTE with one ⚠️ Check 5 finding on the Implications Certification bullet ("strengthens the case for monitoring DMA(V) separately…" reading as a directive to HMT&C on analyte scope). Verified against Part 2 rules — agreed, this is exactly the directional language Part 2 prohibits. APPLIED: reworded to neutral literature-contribution framing ("The Opinion supplies the first EU regulatory-grade occurrence and toxicology dataset on DMA(V) in rice-based infant formula and seaweed"). All Check 1 numerical fidelity, Check 2 slugs, Check 3 speciation/methods, Check 4 brand firewall ✅ clean.
+- Audit editorial review (2026-06-03, general-purpose fresh-context) verdict PROMOTE with one ⚠️ Check 5 finding on the Implications Certification bullet ("strengthens the case for monitoring DMA(V) separately…" reading as a directive to HMT&C on analyte scope). Verified against Part 2 rules — agreed, this is exactly the directional language Part 2 prohibits. APPLIED: reworded to neutral literature-contribution framing ("The Opinion supplies the first EU regulatory-grade occurrence and toxicology dataset on DMA(V) in rice-based infant formula and seaweed"). All Check 1 numerical fidelity, Check 2 slugs, Check 3 speciation/methods, Check 4 brand firewall ✅ clean.
 
 ## Wiki pages this source may touch
 
@@ -139,13 +139,13 @@ Dietary surveys for Infants and Toddlers are limited in number and sample size, 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

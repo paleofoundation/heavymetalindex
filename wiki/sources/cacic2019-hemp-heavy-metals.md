@@ -83,23 +83,23 @@ App: The source can inform `herbal-botanicals` supply-chain context for hemp-der
 ## Verification notes
 
 - Identity checks on 2026-06-09: DOI `10.5513/JCEA01/20.2.2201`, raw handle `MFK_10.5513-jcea01-20.2.2201`, and cite-key `cacic2019-hemp-heavy-metals` returned no existing source page hits before creation.
-- Author metadata conflict: the extracted PDF title page renders the first author as `Marija GALIĆ`, but the article running header says `Ćaćić et al.`, the corresponding email is `mcacic@agr.hr`, and the Journal of Central European Agriculture landing page lists `Marija Ćaćić`. The cite_key and frontmatter use the journal landing-page/running-header form.
+- Author metadata conflict: the extracted PDF title page renders the first author as `Marija GALIĆ`, but the article running header says `Ćaćić et al.`, the corresponding email is `mcacic@agr.hr`, and the Journal of Central European Agriculture landing page lists `Marija Ćaćić`. The cite_key and source metadata use the journal landing-page/running-header form.
 - All Key numbers ranges were calculated directly from Table 3 in `/tmp/hmi-june9-007.txt` extracted with `pdftotext -layout`; spot checks include Cd acid-root values 2.82/0.6/0.88/0.24, Pb acid-root values 6.66/12.3/9.32/14.6, and Zn acid-root values 349.4/427.8/688.6/69.5.
-- Speciation check: the paper reports total elements only. Frontmatter records `tAs` and `tHg`; no iAs, MeHg, or Cr-VI is claimed.
+- Speciation check: the paper reports total elements only. source metadata records `tAs` and `tHg`; no iAs, MeHg, or Cr-VI is claimed.
 - The source is B-tier because it is a controlled pot/phytoaccumulation experiment rather than a retail food, supplement, or personal-care occurrence survey.
 - No product brand names are present. Variety names are cultivars, not sampled commercial brands, and are retained as study design variables.
-- Missing slug note: there is no dedicated `hemp` or `cannabis` ingredient slug in the current taxonomy snapshot; frontmatter uses the broad existing `[[ingredients/herbal-botanicals]]` slug and records `hemp`/`cannabis` only as matrix descriptors.
+- Missing slug note: there is no dedicated `hemp` or `cannabis` ingredient slug in the current taxonomy snapshot; source metadata uses the broad existing `[[ingredients/herbal-botanicals]]` slug and records `hemp`/`cannabis` only as matrix descriptors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
-| [1476f4427](https://github.com/paleofoundation/heavymetalindex/commit/1476f4427) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
+| [1476f44272](https://github.com/paleofoundation/heavymetalindex/commit/1476f44272) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -119,10 +119,10 @@ Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is
 
 ## Verification notes
 
-- 2026-05-20 — Merge-enhance pass against the source PDF (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Heavy Metals Assessment in Selected Leafy Vegetables from Malaysian Wet Markets.pdf). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
+- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
   - `metals:` previously listed `[Al, Cd, Cr, Pb, Fe]` — missing Cu, even though the paper measures six metals (Al, Cd, Cr, Cu, Fe, Pb) and Table 1 reports Cu as ND <0.01 mg/kg across all vegetables. Updated to `[Al, Cd, Cr, Cu, Fe, Pb]`.
   - `raw_path:` was truncated to `…Malaysi.pdf`; corrected to the full filename `…Malaysian Wet Markets.pdf`.
-  - `raw_handle:` was the generic `manual-fetch-kimi`; updated to the specific `MFK_heavy-metals-assessment-in-selected-leafy-vegetabl` form per current convention.
+  - `raw_handle:` was the generic `manual-fetch-source-retrieval`; updated to the specific `MFK_heavy-metals-assessment-in-selected-leafy-vegetabl` form per current convention.
   - `matrices:` previously listed `[leafy-vegetable, fresh-weight]`; `fresh-weight` is a basis, not a matrix, and has been removed. Native basis is documented narratively (fresh weight throughout).
   - `ingredients:` previously contained broken wikilinks `[[ingredients/mustard-greens]]` (alias on `leafy-greens`, not a page) and `[[ingredients/pak-choi]]` (no page). Replaced with `[[ingredients/leafy-greens]]` (which already aliases mustard-greens) and noted both species' routing destination explicitly in the Wiki pages section.
   - `products:` previously empty (`[]`), triggering the products-missing routing advisory in `routing_malformed.csv`. Populated with `[spinach, leafy-vegetables-other]` — the two existing HMTc-locked Row 4 / Row 5 product pages that this paper provides direct context for. No new product pages were created (Step 0 Lock remains Karen's call).
@@ -134,8 +134,8 @@ Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is
 - Speciation discipline: the paper measures total Cr (ICP-OES, no Cr-VI separation) and does not measure As or Hg at all. `metals: [Cr ...]` is correct (not Cr-VI). No speciation flags required.
 - Brand firewall: no brand names appear in the source or this page; the paper samples market-level vendor lots without brand attribution.
 - Routing: `products: [spinach, leafy-vegetables-other]` routes this source as broad context to both Row 4 (clean benchmark) and Row 5 (higher-contamination sibling) of the HMTc fruits-and-vegetables category. `matrices: [leafy-vegetable]` retained; `fresh-weight` removed as it is a basis label, not a matrix.
-- 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged three findings; all three were verified against the source and corrected:
-  - ❌ Check 2: `[[metals/aluminium]]` (British spelling) — verified against the taxonomy snapshot (line 50) and `wiki/metals/`: the canonical slug is `aluminum` (US spelling). Corrected to `[[metals/aluminum]]`.
+- 2026-05-20 — Fresh-context audit editorial review (verdict REVISE) flagged three findings; all three were verified against the source and corrected:
+  - ❌ Check 2: `[[metals/aluminium]]` (British spelling) — verified against the taxonomy snapshot (line 50) and the linked reference record: the canonical slug is `aluminum` (US spelling). Corrected to `[[metals/aluminum]]`.
   - ⚠️ Check 5: "Al EDI from spinach alone contributing ~12% of the adult Al PTWI-derived MTDI" — verified against PDF p.227: this 12% (adult) / 4% (children) figure is explicitly attributed by See et al. to Martín-León et al. (2023), not to their own data. Reattributed in the Courses Implication so the cited authorship is preserved.
   - ⚠️ Check 5: "due to sourcing from cleaner growing regions (Cameron Highlands suppliers)" — verified against PDF p.217: the paper mentions Cameron Highlands as a supply region but does not conclude that the wet-market non-detections are caused by Cameron Highlands sourcing. Softened to factual mention without the causal "due to" framing.
   - The auditor's ⚠️ on the Al Total EDI typo handling (Check 1) was explicitly noted as acceptable disclosure; no further action required.
@@ -143,13 +143,13 @@ Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

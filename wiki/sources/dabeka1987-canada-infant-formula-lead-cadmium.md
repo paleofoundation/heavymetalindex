@@ -1,4 +1,9 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+jurisdictions: ["CA"]
+matrices: ["market-milk", "infant-formula-powder", "infant-formula-concentrated-liquid", "infant-formula-rtf-liquid"]
+ingredients: ["milk-and-dairy", "infant-formula"]
 type: source
 cite_key: dabeka1987-canada-infant-formula-lead-cadmium
 title: "Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada"
@@ -24,7 +29,8 @@ access_url: https://doi.org/10.1093/jaoac/70.4.754
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-29
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # Dabeka 1987 - Canada Infant Formula Lead And Cadmium
@@ -88,13 +94,13 @@ The lead powder table does not separate milk-base from soy-base formula powders;
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [e9ee7e689](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e689) | 2026-05-07 | minor | Narrative text revised |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [e9ee7e6891](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e6891) | 2026-05-07 | minor | Narrative text revised |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

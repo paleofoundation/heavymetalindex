@@ -110,13 +110,13 @@ Statistical analysis: descriptive statistics and Mann–Whitney non-parametric t
 
 ## Verification notes
 
-- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned REVISE with one ❌ and two ⚠️ items. All three verified independently against the PDF and taxonomy snapshot, and all three applied:
- - ❌ "[[metals/aluminium]]" in the Wiki pages section used the British spelling, which is not in `docs/gpt-collaboration/taxonomy-snapshot.md` (snapshot lists `aluminum`, and the on-disk file is `wiki/metals/aluminum.md`). Corrected to `[[metals/aluminum]]`.
+- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit editorial review (Phase 2) returned REVISE with one ❌ and two ⚠️ items. All three verified independently against the PDF and taxonomy snapshot, and all three applied:
+ - ❌ "[[metals/aluminium]]" in the Wiki pages section used the British spelling, which is not in the editorial record (snapshot lists `aluminum`, and the on-disk file is the linked reference record). Corrected to `[[metals/aluminum]]`.
  - ⚠️ "ID" (Indonesia) appeared in `jurisdictions:` but Table 1 (page 3) does not list Indonesia as a country of origin for any of the 69 commercial samples — Indonesia is mentioned only on page 9 as a passing prior-study comparator ("cinnamon from Indonesia contributes about 94% of TWI"). Removed ID. Remaining jurisdictions re-verified against Table 1: AU (retail), IN, CN, LK, VN, BD, MY, EG, FJ, ES.
  - ⚠️ `tier_rationale` claimed recoveries "89–106% except Al at 68.5%" but Table 3 (page 5) shows Cr ERM-CE-278K recovery is 73.5%, below the stated lower bound. Rewrote to honestly report the actual recovery range (73.5–105.7%) with both sub-89% elements (Al 68.5%, Cr 73.5%) named, while preserving the paper's own statement (page 4) that recoveries were within the certified-value uncertainty ranges except for Al.
-- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1): page was originally created 2026-05-14 in the kimi-cond05 batch ingest. Phase 1 enhancements applied:
- - Set per-PDF `raw_handle: MFK_heavy-metal-analysis-in-commercial-spices-and-herb` (was the generic batch handle `manual-fetch-kimi`).
- - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk filename "Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure.pdf" (prior path truncated the filename mid-title at "ICP-MS and.pdf").
+- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 1): page was originally created 2026-05-14 in the source-retrieval-cond05 batch ingest. Phase 1 enhancements applied:
+ - Set per-PDF `raw_handle: MFK_heavy-metal-analysis-in-commercial-spices-and-herb` (was the generic batch handle `manual-fetch-source-retrieval`).
+ - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch source-retrieval ") matching the on-disk filename "Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure.pdf" (prior path truncated the filename mid-title at "ICP-MS and.pdf").
  - Added `raw_sha256` (d05e1c20…75c0c), `access_url` (https://doi.org/10.20517/jeea.2025.10), and `tier_rationale` documenting the A-tier placement (full ICP-MS QC, two CRMs, LOD/LOR for all elements, NMI proficiency-test participation).
  - Expanded `jurisdictions` to include all country-of-origin codes named in Table 1 (was missing EG, ID, FJ, ES; AU is the retail jurisdiction).
  - Added `sampling_locations: [Queensland]` (retail-market jurisdiction).
@@ -126,7 +126,7 @@ Statistical analysis: descriptive statistics and Mann–Whitney non-parametric t
  - Expanded Methods (brief) to include the full ICP-MS operating conditions (Table 2), the three-step microwave-digestion programme, both CRMs with per-element recoveries, LOD and LOR values for all eight elements, and the statistical software versions.
  - Added an explicit speciation line: total arsenic and total mercury only; no iAs or MeHg speciation. The exposure calculation conservatively benchmarks tAs against the EFSA iAs BMDL01.
  - Rewrote the Implications > Certification paragraph to remove the prior "HMT&C sourcing specifications for cinnamon should include Pb and Al screening, with Vietnam and India as elevated-risk origins" sentence — that is a forward-looking HMT&C-policy recommendation, which belongs on HMT&C certification pages rather than on a single-source page. The factual content (Pb 7.0/2.5 mg/kg in Vietnamese/Indian cinnamon vs EU 2.0 and FSANZ 0.1 mg/kg limits; co-occurring Pb/Al/Cr/Ni extremes consistent with stainless-steel leaching pathway discussed in the paper) is preserved because the paper itself makes those comparisons.
- - Replaced the legacy `## Wiki pages updated on ingest` heading with the current template `## Wiki pages this source may touch` (the legacy heading is flagged by `docs/gpt-collaboration/verification-checklist.md`).
+ - Replaced the legacy `## Wiki pages updated on ingest` heading with the current template `## Wiki pages this source may touch` (the legacy heading is flagged by the editorial record).
 - DOI (10.20517/jeea.2025.10), title, authors (Tinggi U; Farrell M; Porter J; Mitchell S; Jurd S), year (2025), publication (J. Environ. Expo. Assess.), licence (CC BY 4.0), and metals list (Al, tAs, Cd, Cr, Pb, tHg, Ni; Sr also measured but not currently in the metals taxonomy) verified against page 1 citation block and Tables 2–6.
 - All Table 4 / Table 5 / Table 6 values reproduced exactly from the source PDF; no rounding, no unit conversion (mg/kg in source = mg/kg in wiki; µg/g in Table 6 = mg/kg).
 - Brand firewall (Part 12): the source does not name any brands of spice or herb; commodity × country-of-origin breakdowns are reproduced without brand attribution. The methods section names instrument vendors (Agilent, CEM, Seastar Chemicals, Aqua Cure, IBM SPSS) and reference-material suppliers (ERM, NIST), which is preserved per the 2026-05-17 scientific-method vendor-name exception.
@@ -149,13 +149,13 @@ Statistical analysis: descriptive statistics and Mann–Whitney non-parametric t
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

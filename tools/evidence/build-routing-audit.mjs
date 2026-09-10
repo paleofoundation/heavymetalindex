@@ -22,10 +22,8 @@
 //
 // Per Part 5b, this script runs on three triggers: the chokidar watcher in
 // `npm run serve`, the pre-commit hook on commits touching `wiki/sources/`,
-// and the `prebuild` script in `npm run build`. The build fails if
-// `routing_malformed.csv` has truly broken entries (missing cite_key or
-// completely empty frontmatter); missing optional fields are reported but do
-// not block the build during the migration period.
+// and the `prebuild` script in `npm run build`. Missing required declarations,
+// missing grade/type, and unresolved declared targets all block publication.
 //
 // The model does not write routing rows by hand. If a session is editing this
 // CSV or its siblings manually, that is a system failure to surface to Karen.
@@ -78,8 +76,8 @@ const broadProductScopes = BROAD_PRODUCT_SCOPE_SET
 // routing layer. Severity tiers:
 //   blocking: missing cite_key → cannot identify the source at all
 //   strict:   missing any of source_type, evidence_tier → policy violation
-//   advisory: missing any of products/ingredients/matrices/metals/jurisdictions
-//             → routing layer falls back to broad scope; reported but not blocked
+//   declaration: missing any of products/ingredients/matrices/metals/jurisdictions
+//             → blocks build; [] is a valid explicit declaration, gaps remain audited
 const blockingFields = ["cite_key"]
 const strictFields = ["source_type", "evidence_tier"]
 const advisoryFields = ["products", "ingredients", "matrices", "metals", "jurisdictions"]
@@ -112,7 +110,7 @@ for (const file of sourceFiles) {
   if (missingBlocking.length > 0 || missingStrict.length > 0 || missingAdvisory.length > 0) {
     const severity =
       missingBlocking.length > 0 ? "blocking" : missingStrict.length > 0 ? "strict" : "advisory"
-    if (severity === "blocking") blockingMalformedCount += 1
+    blockingMalformedCount += 1
 
     malformed.push({
       source_id: sourceId,
@@ -124,8 +122,8 @@ for (const file of sourceFiles) {
       note: severity === "blocking"
         ? "Source has no cite_key; routing cannot identify it. Fix before next build."
         : severity === "strict"
-          ? "Source is missing source_type or evidence_tier required by Part 13. Routing places the source but evidence-grading lint will fail."
-          : "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.",
+          ? "Source is missing source_type or evidence_tier required by Part 13. This blocks publication."
+          : "Required routing declarations are missing. Resolve from the source, or declare an empty array with an explicit routing_input_gaps record; do not invent a route.",
     })
   }
   if (missingBlocking.length > 0) continue
@@ -208,9 +206,9 @@ console.log(
 )
 
 // --- 4. Build gate.
-if (blockingMalformedCount > 0) {
+if (blockingMalformedCount > 0 || unresolved.length > 0) {
   console.error(
-    `Routing audit failed: ${blockingMalformedCount} source page(s) are blocking-malformed (missing cite_key). See ${malformedPath}.`,
+    `Routing audit failed: ${blockingMalformedCount} malformed source page(s), ${unresolved.length} unresolved target(s). See ${malformedPath} and ${unresolvedPath}.`,
   )
   process.exit(1)
 }
@@ -267,9 +265,11 @@ function slugifyAlias(alias) {
 function hasFrontmatterValue(data, field) {
   const value = data[field]
   if (value === null || value === undefined) return false
-  if (Array.isArray(value)) return value.length > 0
+  // An explicitly empty routing declaration is different from a missing key.
+  // Undetermined inputs must also leave a routing_input_gaps disposition.
+  if (Array.isArray(value)) return true
   if (typeof value === "string") return value.trim().length > 0
-  return true
+  return false
 }
 
 function isDuplicateSource(data) {

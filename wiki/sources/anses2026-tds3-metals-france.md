@@ -81,7 +81,7 @@ App: The source supports broad French-market context for seafood MeHg, crustacea
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1449.txt`; Tables 3, 5, 6, 7, 8, and 9 plus the methods were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_anses-2019-tds3`, raw SHA-256 `b993c882f1ef1c3d104dcedabd88f45cde22664271f36f3f9fd687b17e0412d0`, and cite key `anses2026-tds3-metals-france` were searched in `wiki/sources/`; no existing source page was found.
+- Identity checks before creation: title phrase, raw handle `MFK_anses-2019-tds3`, raw SHA-256 `b993c882f1ef1c3d104dcedabd88f45cde22664271f36f3f9fd687b17e0412d0`, and cite key `anses2026-tds3-metals-france` were searched in the linked reference record; no existing source page was found.
 - Units are preserved as printed: concentrations use `mg/kg fresh weight` for aluminum and `µg/kg fresh weight` for silver, cadmium, mercury, and lead; exposure uses `µg (kg bw-1) day-1` or `µg (kg bw-1) week-1`.
 - Speciation: methylmercury, inorganic mercury, and total/inorganic mercury assumptions are kept distinct. This page does not promote total mercury to methylmercury.
 - Brand firewall: INCA3 could record brands, but ANSES reports composite food groups and exposure categories; no brand-linked values are used.
@@ -89,13 +89,13 @@ App: The source supports broad French-market context for seafood MeHg, crustacea
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

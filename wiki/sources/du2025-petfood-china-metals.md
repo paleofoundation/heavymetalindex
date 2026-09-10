@@ -121,7 +121,7 @@ App: Pet-food matrix; not applicable to the human-food contamination-profile dat
 
 ## Verification notes
 
-2026-05-18 (Claude Code, merge-enhance pass on PCMF preprint ingest):
+2026-05-18 (automated editorial review, merge-enhance pass on PCMF preprint ingest):
 
 This wiki page exists for the published Scientific Reports version of the study (FM_12006530, Marker source). The Research Square preprint of the same study (PCMF_individual-and-combined-contamination-of-the-heavy; DOI 10.21203/rs.3.rs-4838876/v1, posted 2024-09-08) was added to the manual-fetch queue. Cross-checking the two versions against the page:
 
@@ -136,7 +136,7 @@ Defects corrected from the prior wiki revision (updated 2026-05-13):
 - Cd contamination rate was reported as "17.20%" — wrong. Actual: 31.18% above LOQ (Table 2). No clear source for the 17.20% figure.
 - Chinese Hygienical Standard limits were stated as "Pb ≤5, Cd ≤0.5, Cr ≤5, Hg ≤0.1, As ≤4 mg/kg" — three of five were wrong. Actual (published Table 2 row "Legal limits"): Pb 5, Cd 2, Cr 5, Hg 0.3, As 10 mg/kg.
 - aHI ranking stated as "Cr poses highest aHI followed by Pb and As" — wrong direction between Pb and As. Corrected to "Cr ≫ As > Pb > Hg > Cd" per the published Discussion.
-- Products frontmatter listed only `pet-food-dry-kibble`; added `pet-food-canned-wet` since the paper covers 14 canned samples (12 cat, 2 dog) explicitly. Both product pages exist in current taxonomy.
+- Products source metadata listed only `pet-food-dry-kibble`; added `pet-food-canned-wet` since the paper covers 14 canned samples (12 cat, 2 dog) explicitly. Both product pages exist in current taxonomy.
 - Added `preprint_doi: 10.21203/rs.3.rs-4838876/v1` to capture the Research Square preprint citation. The published Sci Reports DOI is not in the Marker extraction and cannot be reconstructed without going to the Nature URL; left as null.
 - Added PCMF preprint handle to `near_duplicates` so the routing audit can track that both raw sources point to the same study.
 - Kept `no_doi_assigned: true` (the published Sci Reports version surely has a DOI but it was not extracted from the Marker PDF and cannot be reconstructed without going to the Nature URL; the preprint DOI is captured in the separate `preprint_doi` field).
@@ -146,9 +146,9 @@ Defects corrected from the prior wiki revision (updated 2026-05-13):
 
 No brand-firewall violations to remove (the study does not name brands; sample identification is by country of origin only). No HMT&C threshold proposals or consumer risk advisories in the page.
 
-2026-05-18 (fresh-context audit subagent, verdict REVISE):
+2026-05-18 (fresh-context audit editorial review, verdict REVISE):
 
-Checks 1, 3, 4, 5 returned ✅. Check 2 raised a ⚠️ finding that `products/pet-food-dry-kibble` and `products/pet-food-canned-wet` are not present in the 2026-05-17 taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified false positive: both pages exist in live `wiki/products/` (`ls wiki/products/ | grep '^pet-food-'` returns the expected files), and the routing audit successfully generated direct-evidence rows for both targets without raising unresolved entries. The snapshot is stale relative to live state — pet-food product pages were added after the snapshot's `generated: 2026-05-17` timestamp. No correction to the source page is needed; flagged here so the snapshot can be regenerated in a separate housekeeping pass.
+Checks 1, 3, 4, 5 returned ✅. Check 2 raised a ⚠️ finding that `products/pet-food-dry-kibble` and `products/pet-food-canned-wet` are not present in the 2026-05-17 taxonomy snapshot at the editorial record. Verified false positive: both pages exist in live the linked reference record (`ls wiki/products/ | grep '^pet-food-'` returns the expected files), and the routing audit successfully generated direct-evidence rows for both targets without raising unresolved entries. The snapshot is stale relative to live state — pet-food product pages were added after the snapshot's `generated: 2026-05-17` timestamp. No correction to the source page is needed; flagged here so the snapshot can be regenerated in a separate housekeeping pass.
 
 All other findings ✅: full Table 1-6 numerical fidelity verified, Methods/speciation correct (tHg + tAs, no Cr-VI speciation noted), brand firewall clean (Methods instrument/reagent vendors are Exception 2 permitted), wiki/HMTc firewall clean (Implications appropriately scopes to indirect supply-chain framing without proposing thresholds).
 
@@ -165,13 +165,13 @@ All other findings ✅: full Table 1-6 numerical fidelity verified, Methods/spec
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

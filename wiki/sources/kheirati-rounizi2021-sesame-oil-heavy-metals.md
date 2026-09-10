@@ -80,20 +80,20 @@ Courses: Useful for teaching processing effects, seed-to-oil contaminant partiti
 
 This page was built from the full PDF, including the sample-preparation methods, microwave digestion section, Table 2 recovery data, Table 5 heavy-metal concentrations, Table 6 EDI/HQ/HI values, and the discussion/conclusion. The source reports total arsenic only; no arsenic speciation was performed. The paper contains an internal Pb concentration conflict: Table 5 reports Pb in Ardeh, virgin sesame, and refined sesame oil as 0.37, 0.25, and 0.20 mg/kg, and Table 6 EDI/HQ values are consistent with those Table 5 concentrations. The narrative text instead says 3.72, 2.59, and 2.33 ppm. This page follows Table 5 and the internally consistent risk table, while flagging the conflict for audit.
 
-Audit subagent 2026-06-02 flagged the `matrices:` array as overspecified (six tokens including narrow processing variants ardeh-oil, sesame-paste-oil, virgin-sesame-oil, refined-sesame-oil). Verified against the system-prompt matrices guidance ("pick the broadest term") and sibling oil source pages (chen2001, mehri2024) that use `sesame-oil` as the broader matrix token. Collapsed to `[sesame-seed, sesame-oil, edible-oil]`; processing-variant detail is retained in the body prose where it belongs.
+Audit editorial review 2026-06-02 flagged the `matrices:` array as overspecified (six tokens including narrow processing variants ardeh-oil, sesame-paste-oil, virgin-sesame-oil, refined-sesame-oil). Verified against the system-prompt matrices guidance ("pick the broadest term") and sibling oil source pages (chen2001, mehri2024) that use `sesame-oil` as the broader matrix token. Collapsed to `[sesame-seed, sesame-oil, edible-oil]`; processing-variant detail is retained in the body prose where it belongs.
 
-Audit subagent 2026-06-02 also raised a license-field fidelity nit: paper p.1 footer says "Creative Commons Attribution License" without version. License retained as `"CC BY 4.0"` because Wiley Food Science & Nutrition open-access publications in 2021 default to CC BY 4.0; this is the most accurate version and matches the wider corpus convention.
+Audit editorial review 2026-06-02 also raised a license-field fidelity nit: paper p.1 footer says "Creative Commons Attribution License" without version. License retained as `"CC BY 4.0"` because Wiley Food Science & Nutrition open-access publications in 2021 default to CC BY 4.0; this is the most accurate version and matches the wider corpus convention.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

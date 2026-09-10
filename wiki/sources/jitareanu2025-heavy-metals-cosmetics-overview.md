@@ -100,19 +100,19 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 - 2026-05-17 enhancement: Added Table 2 highlights to Key numbers (talcum baby powder, toothpastes, kohl, face paints, lip products from cited primary studies). The review's Table 2 compendium is its main value-add and was thin in the prior revision. Numbers are presented as the review reports them with reference numbers traceable to the underlying primary studies; specific values belong on those primary-study source pages, not synthesized here.
 - Cross-vendor audit (Codex, 2026-05-17) corrected three Table 2 transcription errors: talcum baby powder Cr `5.886` -> `5.846` ppm; kohl Jordan Pb unit `mg/kg` -> source-reported `mg/g`; Algeria/Saudi Arabia/India/Pakistan kohl max Pb `85.87` -> `85.57` µg/g. The Syria/Sudan/Jordan kohl row preserves the review's mixed-unit reporting and should be checked against the primary Massadeh et al. paper before reuse as occurrence evidence.
 - Empty `ingredients:` and `matrices:` are intentional: the review covers metals as contaminants/intentional additives in finished cosmetic products; it does not focus on specific ingredients (the products themselves are the unit of analysis) and `matrices:` is a food-vocabulary field that does not apply to cosmetics. Routing audit flags this as an "advisory" (optional fields empty), not a malformed error.
-- Audit subagent (2026-05-17) flagged Iwegbue product list dropped "pencils" from Section 3 p. 3 — verified against source; corrected to "lip products, eye shadows and pencils, mascaras, blushes, and face powders" to match exact source wording.
-- Audit subagent (2026-05-17) flagged Implications Certification line restated EU/Germany/US/CA/CN regulatory values already in Key numbers — verified the duplication was stylistically redundant; tightened to a single sentence referencing Key numbers (Part 2 firewall not violated either way, but cleaner without the duplicate).
+- Audit editorial review (2026-05-17) flagged Iwegbue product list dropped "pencils" from Section 3 p. 3 — verified against source; corrected to "lip products, eye shadows and pencils, mascaras, blushes, and face powders" to match exact source wording.
+- Audit editorial review (2026-05-17) flagged Implications Certification line restated EU/Germany/US/CA/CN regulatory values already in Key numbers — verified the duplication was stylistically redundant; tightened to a single sentence referencing Key numbers (Part 2 firewall not violated either way, but cleaner without the duplicate).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

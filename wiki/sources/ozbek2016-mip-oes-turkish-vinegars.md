@@ -68,9 +68,9 @@ App: Pb in Turkish grape and apple vinegars in this sample set: typical 10–80 
 
 ## Verification notes
 
-Page was originally drafted under the legacy manual-fetch-kimi handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
+Page was originally drafted under the legacy manual-fetch-source-retrieval handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
 
-- Replace legacy `raw_handle: manual-fetch-kimi` with the canonical MFK handle.
+- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical MFK handle.
 - Correct `raw_path` to the actual filename (the prior path was truncated).
 - Correct `sample_n` from 32 to 35 (Table 4 contains 17 grape + 12 apple + 3 balsamic + 1 pomegranate + 1 fig + 1 homemade = 35).
 - Expand `metals` from the five HMTc-adjacent analytes to all ten analytes the paper actually measures (routing layer only generates rows for HMTc-mapped abbreviations Al, Pb, Cr; the additional analytes are recorded for documentary fidelity).
@@ -81,18 +81,18 @@ Page was originally drafted under the legacy manual-fetch-kimi handle and last u
 - Correct recovery range from 91–104% to the table-derived 92.1–104.2% (the abstract gives the rounded 93–104%; the table is authoritative).
 - Explicitly note which HMTc-panel analytes are NOT measured (Cd, As, Hg, Ni, Sn).
 
-Auto-audit subagent (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
+Auto-audit editorial review (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

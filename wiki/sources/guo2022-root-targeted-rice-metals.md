@@ -63,24 +63,24 @@ The thesis supports a mitigation-context claim: in a controlled hydroponic seedl
 
 ## Verification notes
 
-- Identity checks: the thesis has no DOI in the extracted text. Greps for the raw handle `MFK_43-root-targeted-over-expression-of-heavy-metal`, the title phrase, the author/title phrase "Joy Guo" / "Root targeted over-expression", and candidate cite key `guo2022-root-targeted-rice-metals` returned no existing `wiki/sources/` page or audit-queue row before creation.
+- Identity checks: the thesis has no DOI in the extracted text. Greps for the raw handle `MFK_43-root-targeted-over-expression-of-heavy-metal`, the title phrase, the author/title phrase "Joy Guo" / "Root targeted over-expression", and candidate cite key `guo2022-root-targeted-rice-metals` returned no existing the linked reference record page or audit-queue row before creation.
 - Raw PDF SHA-256 verified as `887700432afd889535ece0059a305d65045ea35ee927f28167f0ef39a9fe39c6`.
 - Speciation: Cd is total cadmium in plant tissue. The exposure solution for the TaPCS1 experiment was As(III), but tissue As was measured by ICP-MS after digestion; the page therefore records arsenic as total arsenic context (`tAs`) and does not promote it to inorganic arsenic occurrence evidence.
 - Numerical fidelity: every number in the Key numbers and Methods sections was rechecked against `/tmp/hmi-june8-019.txt`. No plotted bar values were estimated because the extracted text does not table the concentration values behind Figures 2-4.
-- Slug vocabulary: frontmatter uses only `rice` from the closed ingredient vocabulary and `Cd` / `tAs` from the metal abbreviation vocabulary. `products` and `matrices` are intentionally empty because rice roots and shoots from a hydroponic seedling experiment are not rice grain, rice bulk product, or any listed product/matrix slug in the taxonomy snapshot.
+- Slug vocabulary: source metadata uses only `rice` from the closed ingredient vocabulary and `Cd` / `tAs` from the metal abbreviation vocabulary. `products` and `matrices` are intentionally empty because rice roots and shoots from a hydroponic seedling experiment are not rice grain, rice bulk product, or any listed product/matrix slug in the taxonomy snapshot.
 - Brand firewall: the thesis uses hydroponic nutrient and lab-method context, but no commercial food, supplement, or personal-care brand is attached to a contamination value.
 - HMTc firewall: no HMTc thresholds, consumer certification claims, or wiki-side risk translations are introduced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

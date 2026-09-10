@@ -21,19 +21,25 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"EURO\",\"Raw\",\"as_consumed\",\"2009\",\"2009\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_consumed","food_state":"Raw","geography":"EURO","year_min":2009,"year_max":2009,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":2,"p10_ppb":1.69,"p90_ppb":5.61,"p95_ppb":5.855,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"EURO\",\"Raw\",\"as_is\",\"2009\",\"2009\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"EURO","year_min":2009,"year_max":2009,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":2,"p10_ppb":1.69,"p90_ppb":5.61,"p95_ppb":5.855,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"EURO\",\"\",\"as_consumed\",\"2017\",\"2018\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"EURO","year_min":2017,"year_max":2018,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":10,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"European Union\",\"Raw\",\"as_is\",\"2009\",\"2009\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"European Union","year_min":2009,"year_max":2009,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":2,"p10_ppb":1.69,"p90_ppb":5.61,"p95_ppb":5.855,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"WPRO\",\"Cooked\",\"as_consumed\",\"2010\",\"2011\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_consumed","food_state":"Cooked","geography":"WPRO","year_min":2010,"year_max":2011,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":4,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"VB 0400\",\"Broccoli\",\"iAs\",\"WPRO\",\"Cooked\",\"as_is\",\"2022\",\"2022\"]","role":"context","food_id":"VB 0400","food_name":"Broccoli","metal_species":"iAs","basis":"as_is","food_state":"Cooked","geography":"WPRO","year_min":2022,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":1,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"}]
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::113::arsenic-total","role":"value","food_id":"113","food_name":"Broccoli, fresh/frozen, boiled","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -83,7 +89,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 7
+sources: 8
 ---
 
 # Broccoli
@@ -104,8 +110,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=3 | 0–8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Cd | n=3 | 6.7–27.6 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
-| iAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | Source context | Not quantified | — | — |
+| tAs | n=1 dataset; composites=27 | ND (<3; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Ni | n=3 | 0–130 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
@@ -132,22 +138,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 113, "Broccoli, fresh/frozen, boiled." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Broccoli, fresh/frozen, boiled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 3.9 | 84 | in profile |
-| Cr | 27 | 0 | 300 | in profile |
-| Ni | 27 | 0 | 170 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 4 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 113: Broccoli, fresh/frozen, boiled | tAs | 27 | 0 | ND in all composites | 3 |
+| 113: Broccoli, fresh/frozen, boiled | Cd | 27 | 27 | 3.9–84 | 1 |
+| 113: Broccoli, fresh/frozen, boiled | Cr | 27 | 1 | 300 | 50 |
+| 113: Broccoli, fresh/frozen, boiled | Pb | 27 | 0 | ND in all composites | 4 |
+| 113: Broccoli, fresh/frozen, boiled | tHg | 27 | 0 | ND in all composites | 1 |
+| 113: Broccoli, fresh/frozen, boiled | Ni | 27 | 19 | 42–170 | 40 |
+| 113: Broccoli, fresh/frozen, boiled | U | 27 | 5 | 1.2–4 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -194,17 +197,43 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in vegetables (excluding leafy vegetables, fresh herbs, and fungi) of 0.050 mg/kg (50 ppb) wet weight; broccoli falls under this limit as a brassica vegetable. For Pb, the EU limit for vegetables is 0.10 mg/kg (100 ppb) wet weight. The Codex Alimentarius [[sources/codex-cxs-193-1995|Codex 1995]] sets a Cd maximum level of 0.05 mg/kg for vegetables, consistent with EU limits. The FDA does not currently impose specific action levels for Cd or Pb in broccoli for general consumers. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], action levels for Pb in foods for young children are being developed across vegetable categories; broccoli purees intended for infant consumption would fall within that scope.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+WHO GEMS/Food retains the following distinct records. The ranges are source-scope lower-bound P10–P90 summaries; they are not a pooled typical value for this ingredient. Food-group records remain broader context. Differences in basis, period and geography are preserved. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Food / state | Region | Years | Basis | Records | Source LB P10–P90 (ppb) |
+| --- | --- | --- | --- | ---: | --- |
+| Broccoli / Raw | EURO | 2009–2009 | as_consumed | 2 | 1.69–5.61 |
+| Broccoli / Raw | EURO | 2009–2009 | as_is | 2 | 1.69–5.61 |
+| Broccoli / not specified | EURO | 2017–2018 | as_consumed | 10 | 0–0 |
+| Broccoli / Raw | European Union | 2009–2009 | as_is | 2 | 1.69–5.61 |
+| Broccoli / Cooked | WPRO | 2010–2011 | as_consumed | 4 | 0–0 |
+| Broccoli / Cooked | WPRO | 2022–2022 | as_is | 1 | 0–0 |
+
+Recovered WHO summaries alone do not resolve incompatible basis labels or establish that zero-coded results were measured zeros.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/codex-cxs-193-1995]].
+
+**tAs.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment]]<span class="hmi-ref-meta">Wu Z · International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 · 2024 · [doi.org/10.62051/10.62051/ijnres.v2n1.21](https://doi.org/10.62051/10.62051/ijnres.v2n1.21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis]]<span class="hmi-ref-meta">Dearing C, Ye Z, and Robertshaw G · F1000Research · 2025 · [doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/chiutula2025-wastewater-vegetables-malawi|Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi]]<span class="hmi-ref-meta">Chiutula C, Mtewa AG, Abraham A, Mvula RLS, Maluwa A, Eregno FE, et al. · International Journal of Environmental Research and Public Health · 2025 · [doi.org/10.3390/ijerph22111614](https://doi.org/10.3390/ijerph22111614)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -218,21 +247,22 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 2 | [[sources/barber2025-baby-food-elements-us\|Barber et al. 2025]]. *Toxic elements in baby and young children's foods in the US and correlation to ingredients*, Food Additives & Contaminants: Part B | 2025 | Peer-reviewed | US tAs, iAs, Cd, tHg, MeHg, Pb, Tl occurrence in Non-targeted 2023 FDA convenience survey of 566 foods intended for babies, young children, pregnant women, and nursing mothers:... (n=566) |
 | 3 | [[sources/chiutula2025-wastewater-vegetables-malawi\|Chiutula et al. 2025]]. *Assessment of Heavy Metal Accumulation in Wastewater–Receiving Soil–Exotic and Indigenous Vegetable Systems and Its Potential Health Risks: A Case Study from Blantyre, Malawi*, International Journal of Environmental Research and Public Health | 2025 | Peer-reviewed | Measured Cd, Cr, and Pb in Brassica and indigenous leafy vegetables irrigated with WWTP effluent in Blantyre, Malawi; wastewater-irrigation contamination transfer context for brassica crops |
 | 4 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg, Ni, Cu, Zn occurrence in 244 retail food samples purchased from 13 sampling points (6 supermarkets, 6 farmers' markets, 1 wholesale market) across... (n=244) |
-| 5 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in boiled broccoli (TDS Food 113; n=27 per analyte) |
-| 6 | [[sources/kiczorowski2022-fermented-vegetables-metals\|Kiczorowski et al. 2022]]. *Effect of fermentation of chosen vegetables on the nutrient, mineral, and biocomponent profile in human and animal nutrition*, Scientific Reports | 2022 | Peer-reviewed | PL Pb, Cd occurrence in Raw and fermented broccoli, carrot, cucumber, pepper, and red beet, four repetitions per vegetable combination (n=40) |
-| 7 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
+| 5 | [[sources/rahim2023-iraq-irrigation-broccoli-cauliflower\|Rahim 2023]]. *Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower)*, Tikrit Journal for Agricultural Sciences 23(2):162–170 | 2023 | Peer-reviewed | IQ Pb, Cd, Fe, Cu occurrence in Broccoli and cauliflower field experiment; three irrigation regimes and three replicate blocks per treatment, 2018–2019 |
+| 6 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in boiled broccoli (TDS Food 113; n=27 per analyte) |
+| 7 | [[sources/kiczorowski2022-fermented-vegetables-metals\|Kiczorowski et al. 2022]]. *Effect of fermentation of chosen vegetables on the nutrient, mineral, and biocomponent profile in human and animal nutrition*, Scientific Reports | 2022 | Peer-reviewed | PL Pb, Cd occurrence in Raw and fermented broccoli, carrot, cucumber, pepper, and red beet, four repetitions per vegetable combination (n=40) |
+| 8 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [0a907f56a](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a) | 2026-08-09 | correction | Narrative text revised |
-| [942bc6b1b](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1b) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 2 sources added; narrative text revised |
+| [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
+| [942bc6b1bb](https://github.com/paleofoundation/heavymetalindex/commit/942bc6b1bb) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

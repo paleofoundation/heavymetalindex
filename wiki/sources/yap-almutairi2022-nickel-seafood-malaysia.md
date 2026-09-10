@@ -102,7 +102,7 @@ This paper is also useful as a worked example of the EFSA-TDI-to-PTWI recalculat
 
 ## Verification notes
 
-- PDF source provenance: 20-page PDF (`pdfinfo` confirms 20 pages) residing in `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory/`. Despite the parent folder being named after the Kimi-agent download corruption batch, this PDF is intact: title, abstract, all results sections, all figures, full discussion, conclusions, and references read cleanly. SHA-256 `7ee0a433fbde838914ef8c2f52115fb93f36ec170e3525514fa273828b2a4934`. Supplementary materials (Tables S1–S10) are referenced in the body and the Supplementary Materials section but are not bundled into the PDF copy under review; they are available from `https://www.mdpi.com/article/10.3390/biology11030376/s1`.
+- PDF source provenance: 20-page PDF (`pdfinfo` confirms 20 pages) residing in the archived source file. Despite the parent folder being named after the source-retrieval download corruption batch, this PDF is intact: title, abstract, all results sections, all figures, full discussion, conclusions, and references read cleanly. SHA-256 `7ee0a433fbde838914ef8c2f52115fb93f36ec170e3525514fa273828b2a4934`. Supplementary materials (Tables S1–S10) are referenced in the body and the Supplementary Materials section but are not bundled into the PDF copy under review; they are available from `https://www.mdpi.com/article/10.3390/biology11030376/s1`.
 - Cite-key construction: `yap-almutairi2022-nickel-seafood-malaysia` — first author surname hyphenated with second author surname (consistent with the two-author byline) + year + analyte + matrix + jurisdiction. No collision with other Yap papers in the corpus as of 2026-06-03 (`ls wiki/sources/ | grep -i yap` returned no matches; the cited self-reference Yap et al. 2016 [35] is not yet ingested).
 - Brand firewall (Part 12): no brand names, no commercial product identifiers, no retail purchase data. Sampling sites are public fishing landing sites (Kampong Fikri, Kampung Rhu Sepuluh) and named ecological sites (Belanak/Juru for snails, Pantai Jeram for cockles). Documented as geographic provenance, not as brand attribution.
 - Wiki/HMTc firewall (Part 2): no HMTc threshold proposals, no comparison to certification values, no consumer translation. The FDA molluscan-shellfish 80 mg/kg WW action level, the EFSA Ni TDI of 13 µg/kg-bw/day, and the authors' recalculated PTWI of 91 µg/kg-bw/week are recorded as the comparators the paper used, not as wiki-endorsed thresholds.
@@ -115,13 +115,13 @@ This paper is also useful as a worked example of the EFSA-TDI-to-PTWI recalculat
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

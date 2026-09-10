@@ -187,7 +187,7 @@ For methylmercury, the Committee re-examined the PTWI of 1.6 µg/kg b.w./week th
 
 License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms. Redistribution permitted non-commercially with attribution and under the same or equivalent license. Heavy Metal Index extracts numerical findings and Committee conclusions as facts and paraphrases narrative content; no verbatim passages of substantial length are reproduced.
 
-The PDF as held in `raw/` (SHA-256 `782f8a3326e26b4aada1c3837fa90f83f54ba77e1159f6c7e5e0653068a84195`) is the official WHO publication (ISBN 92 4 120940 2, ISBN 978 92 4 120940 3, ISSN 0512-3054), published by WHO Geneva in 2007, typeset in Hong Kong and printed in Singapore. Cover and title-page typography identify "WHO Technical Report Series 940" and the meeting as "Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives." The Contents lists five food-additive items (annatto extracts, lycopene synthetic, lycopene from Blakeslea trispora, natamycin, propyl paraben), seven specifications-only revisions (acetylated oxidized starch, carob bean gum, guar gum, DL-malic acid and salts, maltitol, titanium dioxide, zeaxanthin synthetic), and three contaminant items (aluminium, chloropropanols, methylmercury). Only aluminium and methylmercury are summarized on this page.
+The PDF as held in the archived source file (SHA-256 `782f8a3326e26b4aada1c3837fa90f83f54ba77e1159f6c7e5e0653068a84195`) is the official WHO publication (ISBN 92 4 120940 2, ISBN 978 92 4 120940 3, ISSN 0512-3054), published by WHO Geneva in 2007, typeset in Hong Kong and printed in Singapore. Cover and title-page typography identify "WHO Technical Report Series 940" and the meeting as "Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives." The Contents lists five food-additive items (annatto extracts, lycopene synthetic, lycopene from Blakeslea trispora, natamycin, propyl paraben), seven specifications-only revisions (acetylated oxidized starch, carob bean gum, guar gum, DL-malic acid and salts, maltitol, titanium dioxide, zeaxanthin synthetic), and three contaminant items (aluminium, chloropropanols, methylmercury). Only aluminium and methylmercury are summarized on this page.
 
 The 67th-meeting report (TRS 940) is the high-level summary document. The detailed toxicological monographs for each agenda compound are published as the companion volume, WHO Food Additive Series 58 (Safety evaluation of certain food additives and contaminants), which is in preparation at the time of TRS 940 publication and is a separate primary document not included in this source page. Where TRS 940 cites "Annex 1" reference numbers for prior JECFA meetings, those refer to the Annex 1 reports/documents list rather than to underlying primary literature.
 
@@ -195,7 +195,7 @@ The 67th-meeting report (TRS 940) is the high-level summary document. The detail
 
 - **Aluminium PTWI regulation page proposal (Karen review):** The 1 mg Al/kg b.w./week PTWI established at this meeting would, in the regulation taxonomy, justify a new `regulations/jecfa-aluminium-ptwi.md` page parallel to the existing `regulations/jecfa-methylmercury-ptwi.md`. The ingest layer should not create regulation pages on its own (Part 10, regulation slugs have hard agency identifiers). Surfacing here so Karen can decide whether to scaffold the regulation page; ATSDR Al MRLs ([[regulations/atsdr-aluminum-mrls|atsdr-aluminum-mrls]]) and the EFSA Al TWI ([[regulations/efsa-aluminium-twi|efsa-aluminium-twi]]) exist as siblings, but the JECFA Al PTWI rule itself is missing.
 - **Access URL left null:** WHO IRIS handle for TRS 940 was not verified against a primary lookup at ingest time; rather than invent a URL, this field is left null and can be added by `access_url` patch after Karen confirms the IRIS handle (the [[sources/jecfa-64th-cadmium-tin-2006|64th-meeting]] page uses `https://iris.who.int/handle/10665/43258` for TRS 930, and the 940 handle would follow the same domain pattern).
-- **Year field set to 2007 (publication year):** Following the [[sources/jecfa-64th-cadmium-tin-2006|JECFA 64th]] convention (meeting Feb 2005, year frontmatter 2006 = TRS publication year), the meeting was held June 2006 but the cite-key and `year:` field follow the TRS 940 publication year 2007.
+- **Year field set to 2007 (publication year):** Following the [[sources/jecfa-64th-cadmium-tin-2006|JECFA 64th]] convention (meeting Feb 2005, year source metadata 2006 = TRS publication year), the meeting was held June 2006 but the cite-key and `year:` field follow the TRS 940 publication year 2007.
 
 ## Wiki pages this source may touch
 
@@ -225,13 +225,13 @@ The 67th-meeting report (TRS 940) is the high-level summary document. The detail
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

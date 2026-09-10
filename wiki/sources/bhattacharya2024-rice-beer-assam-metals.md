@@ -102,7 +102,7 @@ The paper exhibits an internal framing tension between its abstract-level safety
 
 No brand names appear in the paper or on this page. The community and beer-style names recorded here (Pati Rabha, Koch Rabha, Rangdani Rabha, Sonowal Kachari, "Janga", "Rohi") are ethnographic identifiers of indigenous brewing traditions in named geographic districts, not commercial brand names; Part 12 brand-firewall does not apply. Method-vendor references (SPSS Inc., Chicago) are reproduced under the methods-vendor exception.
 
-Chromium is total Cr (no hexavalent speciation in the source); the frontmatter uses `Cr`, not `Cr-VI`, accordingly. Arsenic and mercury were not measured, so iAs, tAs, MeHg, and tHg are absent from the metals list.
+Chromium is total Cr (no hexavalent speciation in the source); the source metadata uses `Cr`, not `Cr-VI`, accordingly. Arsenic and mercury were not measured, so iAs, tAs, MeHg, and tHg are absent from the metals list.
 
 The per-beer concentrations in this page are back-calculated from the EDI table (Table 2) using the authors' formula C = EDI × W / V with W = 60 kg and V = 250 mL, then cross-checked against the abstract ranges. The Average Daily Dose values printed in Table 3 are numerically identical to the EDI values in Table 2 and inherit the same back-calculation. Figure 1 ("% of metals in traditional rice beers") shows the same per-beer concentrations rendered as a stacked bar with axis values that match the back-calculated concentrations after unit scaling, providing a third independent check.
 
@@ -113,13 +113,13 @@ The authors' choice of EPA oral RfD for Pb (1.5 mg/kg/day, Table 4) is not consi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

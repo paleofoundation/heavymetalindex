@@ -63,7 +63,7 @@ AAS (Thermo Scientific i3000, flame air-acetylene) for Ca, K, Mg, Na, P, Mn, Fe,
 
 ## Limitations
 
-Small sample sizes per origin (2 India samples is notably thin). Samples purchased from a Polish retail market — all labelled origins are trust-dependent. No As or Hg measured. Pb levels are unusually high in dry tea leaf (mg/100g range); this is a known dry-leaf characteristic that overstates as-consumed exposure, which the leaching data addresses but the frontmatter cannot fully capture. Mn concentrations are very high in tea generally (Mn > Al > Ba... as found in Hangzhou study) but not emphasised here.
+Small sample sizes per origin (2 India samples is notably thin). Samples purchased from a Polish retail market — all labelled origins are trust-dependent. No As or Hg measured. Pb levels are unusually high in dry tea leaf (mg/100g range); this is a known dry-leaf characteristic that overstates as-consumed exposure, which the leaching data addresses but the source metadata cannot fully capture. Mn concentrations are very high in tea generally (Mn > Al > Ba... as found in Hangzhou study) but not emphasised here.
 
 ## Implications
 
@@ -71,8 +71,7 @@ Small sample sizes per origin (2 India samples is notably thin). Samples purchas
 - Courses: Key geographic differentiation paper for green tea. Demonstrates that origin fingerprinting via mineral composition is analytically feasible (K, P, Mn, Fe, Cu, Co, Cd as origin markers).
 - App: Dry-leaf Pb/Cd values are not directly usable for contamination_profile without conversion to as-consumed infusion basis. Flag for synthesis pass with other tea papers.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[ingredients/tea]]
@@ -80,13 +79,13 @@ Small sample sizes per origin (2 India samples is notably thin). Samples purchas
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

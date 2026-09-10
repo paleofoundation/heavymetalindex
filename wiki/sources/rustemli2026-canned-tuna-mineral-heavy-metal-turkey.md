@@ -134,9 +134,9 @@ Speciation discipline: the paper measured total arsenic and total mercury; downs
 
 The published paper contains an internal inconsistency on the page reporting the arsenic exceedance proportions. The Results / Regulatory compliance paragraph (page 5) states that arsenic concentrations exceeded the FAO/WHO guideline in "80% of oil-packed, 80% of sauce-packed, and 74.29% of water-packed samples." The Discussion (page 10) and Figure 2 (page 6) instead report 80% sauce-packed, 100% oil-packed, and 74.29% (≈75% per the figure label) water-packed. The abstract is consistent with the Discussion/Figure 2 wording, stating that arsenic was "frequently detected across all packaging types (74–100% of samples)." This source page reports the Discussion/Figure 2/abstract-consistent values (80/100/74.29%), which match the visualization in Figure 2. The page-5 "80% of oil-packed" figure appears to be a typographical error in the Results text.
 
-Audit subagent (2026-06-04, fresh-context general-purpose Agent) flagged that the Chromium (Cr) oil-packed row in Table 1 was reported here as "0.60 (0.37–2.10)" with no SD; re-reading PDF page 4 confirmed the SD 0.34 is in fact printed in the cell ("0.60 ± 0.34"). The initial transcription dropped the "± 0.34" portion of the cell during the first PDF read. The cell was corrected to "0.60 ± 0.34 (0.37–2.10) ᵃ" against PDF page 4 Table 1.
+Audit editorial review (2026-06-04, fresh-context general-purpose Agent) flagged that the Chromium (Cr) oil-packed row in Table 1 was reported here as "0.60 (0.37–2.10)" with no SD; re-reading PDF page 4 confirmed the SD 0.34 is in fact printed in the cell ("0.60 ± 0.34"). The initial transcription dropped the "± 0.34" portion of the cell during the first PDF read. The cell was corrected to "0.60 ± 0.34 (0.37–2.10) ᵃ" against PDF page 4 Table 1.
 
-Mercury is reported throughout as total mercury (tHg) with no methylmercury speciation, per the authors' methods description. Arsenic is reported throughout as total arsenic (tAs) with no inorganic/total speciation, as the authors explicitly state in the Discussion. The metals frontmatter and key-numbers text use `tHg` and `tAs` accordingly, per the wiki's non-substitution rule.
+Mercury is reported throughout as total mercury (tHg) with no methylmercury speciation, per the authors' methods description. Arsenic is reported throughout as total arsenic (tAs) with no inorganic/total speciation, as the authors explicitly state in the Discussion. The metals source metadata and key-numbers text use `tHg` and `tAs` accordingly, per the wiki's non-substitution rule.
 
 Brand identities were withheld by the authors for ethical reasons; no brand names appear in the paper or on this page. The seven domestic Turkish brands are referenced only as a count, which is consistent with both the source's ethical framing and the wiki's Part 12 brand firewall.
 
@@ -145,13 +145,13 @@ The CRM is referred to in the abstract as "DORM-4 Fish Protein" and in the refer
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

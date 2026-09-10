@@ -1,4 +1,15 @@
 ---
+ingest_status: complete
+audience: [regulator, researcher, educator]
+evidence_fitness:
+  supports:
+    - Study design and narrative interpretation of FDA FY2018-FY2020 food composites
+    - Source-reported summary statistics, with exact analytical values routed through the reconciled companion dataset
+  does_not_support:
+    - Independent replication of the same analytical dataset
+    - Treating narrative next-highest values as maxima or dataset totals as per-analyte sample sizes
+    - Species substitution, brand ranking, or current retail compliance inference
+reconciliation_path: data/evidence/fda_tds_fy2018_2020_reconciliation.json
 type: source
 raw_handle: manual-fetch-kimi
 cite_key: fda-tds-elements-2018-2020
@@ -10,9 +21,12 @@ doi: null
 no_doi_assigned: true
 access_url: "https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results"
 source_type: gov-report
+extraction_authority: primary-structured
+data_path: data/evidence/fda_tds_fy2018_2020_element_results_samples.csv
+summary_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
 evidence_tier: A
 license: "us-government-work"
-raw_path: "raw/reports/2022_07_14_TDSElementsReport_1436.pdf"
+raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf"
 sha256: ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef
 duplicate_filesystem_copies:
   - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf"
@@ -35,7 +49,7 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-08
+updated: 2026-09-10
 ---
 
 # FDA TDS — Fiscal Years 2018-2020 Elements Data Report
@@ -83,7 +97,7 @@ The July 2022 FDA Total Diet Study Report is the first analytical report from th
 | Apple juice (FDA draft guidance for Pb in juice, FDA 2022d-context) | Pb | 10 ppb | All apple-juice samples below 10 ppb |
 | Apple juice (FDA 2013 iAs draft guidance) | iAs | 10 ppb iAs (speciation runs at 10 ppb tAs trigger; FDA 2013 is the iAs action-level draft guidance) | No apple-juice sample exceeded 10 ppb tAs; no speciation needed |
 | Chocolate and hard candy (FDA 2006 guidance) | Pb | 100 ppb | All 9 chocolate/sugar-candy results below 100 ppb; max detect 8.3 ppb; 6 of 9 ND |
-| Infant rice cereal (FDA 2020a guidance) | iAs | 100 ppb | All infant-rice-cereal iAs results below 100 ppb (infant rice cereal was the food with the largest number of speciated samples and all of its iAs results were below the AL; see §4.1.2). Separately, *crisped* rice cereal — a different TDS food — had a mean iAs of 93 ppb across 3 speciated samples ranging 8.9–103 ppb; one of the three crisped-rice-cereal samples reached 103 ppb on speciation but the mean stayed below the 100 ppb AL (the AL is set for infant rice cereal specifically). |
+| Infant rice cereal (FDA 2020a guidance) | iAs | 100 ppb | All infant-rice-cereal iAs results below 100 ppb (infant rice cereal was the food with the largest number of speciated samples and all of its iAs results were below the AL; see §4.1.2). Separately, *crisped* rice cereal — a different TDS food — had a mean iAs of 93 ppb across 3 speciated samples (the narrative prints 8.9–103 ppb, but the primary analytical file reports 85.8, 90.4 and 103 ppb); one of the three crisped-rice-cereal samples reached 103 ppb on speciation but the mean stayed below the 100 ppb AL (the AL is set for infant rice cereal specifically). |
 | Bottled water (21 CFR 165.110) | Pb | 5 ppb | All bottled-water samples below 5 ppb |
 | Bottled water (21 CFR 165.110) | Total arsenic | 10 ppb | All bottled-water samples below 10 ppb |
 | Bottled water (21 CFR 165.110) | Cd | 5 ppb | All bottled-water samples below 5 ppb |
@@ -118,7 +132,7 @@ The 540.600 ppm-level Action Level governs methylmercury; the TDS measures total
 | Leaf lettuce | ~15 | ~60 | ~200 |
 | Spinach (raw) | ~100 | ~220 | ~400 |
 
-Exact per-food means and percentiles for these and all other TDS foods are available in the row-level dataset and summary captured by [[sources/fda2022-tds-elements-fy2018-fy2020]] and at the TDS results page (FDA 2022c).
+Exact per-food analytical records, source-reported means and SDs, and explicitly labelled lower/upper-bound descriptive summaries are available in the complete reconciled dataset captured by [[sources/fda2022-tds-elements-fy2018-fy2020]] and at the TDS results page (FDA 2022c).
 
 **Total-arsenic in fruits** (Figure 12, ten fruits with highest mean tAs; values rounded to ppb-level resolution from the bar chart):
 
@@ -200,7 +214,7 @@ The four water-only analytes (antimony, barium, beryllium, thallium) are include
 
 **Courses.** The TDS is the canonical example of long-term food-monitoring methodology in the US. Its continuous operation since 1961 (with the modernization beginning in FY2018) supplies the longitudinal data backbone for population-level trend analysis of dietary toxic-element exposure. The modernization narrative (move from convenience to population-based sampling, food-list refresh, expanded baby-food sampling, addition of arsenic speciation) is a useful teaching case for how a national monitoring program updates to track changing diet patterns and changing scientific consensus on health-relevant analyte species.
 
-**App.** Per-food mean and percentile values from FY2018–FY2020 are high-confidence input for the app contamination_profile layer for foods covered by the modernized TDS market basket. The row-level dataset is captured by [[sources/fda2022-tds-elements-fy2018-fy2020]] which is the structured-data destination; this narrative report supplies the context and methodology any app-side claim needs to cite.
+**App.** Per-food FY2018–FY2020 findings support source-specific occurrence context. Confidence depends on composite sample count, tested preparation and censoring; an all-non-detect group must not populate a measured zero, and small-N percentiles must not be presented as a stable market distribution. The row-level dataset is captured by [[sources/fda2022-tds-elements-fy2018-fy2020]] which is the structured-data destination; this narrative report supplies the context and methodology any app-side claim needs to cite.
 
 **Microbiome.** No direct microbiome endpoint.
 
@@ -211,8 +225,8 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 ## Verification notes
 
 - 2026-05-20 merge-enhance pass: page predates the 2026-05-08 template refresh and the 2026-05-17 schema lockdown. Changes applied:
-  - Frontmatter: removed invalid metal `MeHg` (this report measures total mercury only; the only references to MeHg are to the 1 ppm CPG 540.600 Action Level, against which total-mercury results are compared as a screening surrogate) and `Al` (aluminum was not in the 25-analyte food panel or the 22-analyte water panel; cross-checked against Appendix B Tables 7, 8, 9 and Figure 4). Added `U` and `Sb` (both measured per Figure 4 and Appendix B). Promoted `Cu, Fe, Zn, Mn, Mo` to a separate `other_elements_in_file` field per the convention used on [[sources/fda2022-tds-elements-fy2018-fy2020]], to keep the `metals:` array scoped to HMI-relevant toxic/heavy metals.
-  - Added `raw_handle: manual-fetch-kimi` (this PDF was supplied via the Manual Fetch Kimi /01_Fruits_and_Fruit_Products folder; SHA-256 matches `raw/reports/2022_07_14_TDSElementsReport_1436.pdf` exactly, so `raw_path` was preserved as the original-location path rather than re-rooted to the MFK copy).
+  - source metadata: removed invalid metal `MeHg` (this report measures total mercury only; the only references to MeHg are to the 1 ppm CPG 540.600 Action Level, against which total-mercury results are compared as a screening surrogate) and `Al` (aluminum was not in the 25-analyte food panel or the 22-analyte water panel; cross-checked against Appendix B Tables 7, 8, 9 and Figure 4). Added `U` and `Sb` (both measured per Figure 4 and Appendix B). Promoted `Cu, Fe, Zn, Mn, Mo` to a separate `other_elements_in_file` field per the convention used on [[sources/fda2022-tds-elements-fy2018-fy2020]], to keep the `metals:` array scoped to HMI-relevant toxic/heavy metals.
+  - Added `raw_handle: manual-fetch-source-retrieval` (this PDF was supplied via the Manual Fetch source-retrieval /01_Fruits_and_Fruit_Products folder; SHA-256 matches the archived source file exactly, so `raw_path` was preserved as the original-location path rather than re-rooted to the MFK copy).
   - Added `near_duplicates` to point at the two companion source pages (CSV dataset and analytical key) so the routing audit and reader both understand the trio is one underlying body of evidence with three filed artifacts.
   - Added `sample_n: 3276` and a `sample_population` description with the sampling-design summary.
   - Populated `products` with the five product categories the narrative report discusses with explicit Action-Level or standards comparisons (chocolate, bottled drinking water, apple-containing fruit juices, infant cereal, baby food). Per-food routing is delegated to the CSV companion to avoid double-routing the same underlying values.
@@ -222,19 +236,18 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - Numerical fidelity note: Figure 10 and Figure 12 values are read from bar charts; the source does not provide tabular per-vegetable or per-fruit min/mean/max for the top-10 panels, so values in the wiki tables are stated as approximate and rounded to ppb-level resolution. The exact per-food values are available in the row-level CSV captured by [[sources/fda2022-tds-elements-fy2018-fy2020]].
 - Brand firewall: report names no brand names in body text; instrument/reference-material vendor names (Agilent) are method-vendor names permitted by the 2026-05-17 Part 12 exception 2 and are retained in `## Methods (brief)`.
 - HMTc firewall: this page reports what FDA measured and what FDA's Action Levels are; no HMTc threshold inferences are made.
-- 2026-05-20 audit-subagent pass (verdict REVISE): four ❌/⚠️ findings applied; one ⚠️ rejected as false positive; remaining ✅ checks (Check 4 brand firewall, Check 5 HMTc firewall, Check 1 numerical-fidelity bulk, Check 3 speciation/methods bulk) confirmed clean.
+- 2026-05-20 audit-editorial review pass (verdict REVISE): four ❌/⚠️ findings applied; one ⚠️ rejected as false positive; remaining ✅ checks (Check 4 brand firewall, Check 5 HMTc firewall, Check 1 numerical-fidelity bulk, Check 3 speciation/methods bulk) confirmed clean.
   - Applied (Check 1 ⚠️ infant-vs-crisped rice cereal conflation): rewrote the infant-rice-cereal AL row to detach the 8.9–103 ppb range and 93 ppb mean from infant rice cereal; those values belong to crisped rice cereal per p20. Infant rice cereal's claim is restated as "all iAs below 100 ppb AL; largest number of speciated samples"; the 8.9–103 / 93 ppb numbers are now correctly stated against crisped rice cereal, with a note that the 100 ppb AL is set for infant rice cereal specifically.
   - Applied (Check 1 ⚠️ apple-juice Pb regulatory attribution): re-split the apple-juice Action-Level rows so the 10 ppb Pb row no longer cites FDA 2013 (which p20 explicitly identifies as the iAs apple-juice draft guidance). FDA 2013 is now correctly attached to the iAs row only.
   - Applied (Check 2 ❌ wrong regulation slug): replaced `[[regulations/fda-juice-haccp-lead-50ppb]]` (the 50 ppb HACCP juice-Pb action) with `[[regulations/fda2022-draft-lead-juice]]` (the 10 ppb apple-juice Pb draft action level that the TDS report actually compares against).
   - Applied (Check 3 ⚠️ thallium narrative inversion): rewrote the water-only-analytes sentence in Methods so it correctly states that Sb, Ba, Be, and Tl were all detected in regular bottled water and Tl was additionally also detected in BF water (per Table 3 footnote 13). The prior phrasing had inverted the meaning by implying Tl was detected only in BF water.
   - Applied (Check 2 ⚠️ coverage gap): added `[[regulations/fda-cpg-540-600-methylmercury-fish]]` to "Wiki pages updated on ingest" since CPG 540.600 is explicitly discussed in the Action-Level table.
-  - Rejected (Check 2 ⚠️ matrices vocabulary): subagent flagged `total-diet-study-prepared-food` in `matrices:` as not in the supplied taxonomy snapshot. False positive: the matrices field uses its own controlled vocabulary that is not enumerated in `docs/gpt-collaboration/taxonomy-snapshot.md` (only ingredients/products/metals/regulations are in that file). The matrices label `total-diet-study-prepared-food` is the established convention used by the companion source page [[sources/fda2022-tds-elements-analytical-key]] (verified: that page's frontmatter carries `matrices: [total-diet-study-prepared-food]`). Keeping the same label here is intentional and correct.
-  - Figure 10 / Figure 12 approximation flags: subagent confirmed approximations are directionally consistent with the source bar charts and the explicit "approximate, rounded" caveat in the wiki body is appropriate. No change needed.
-- 2026-06-02 byte-identical filesystem-copy enhancement: added `duplicate_filesystem_copies` block recording the second filesystem location of the canonical July 2022 TDS Elements report PDF at `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf` (sha256 `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`, byte-identical to the canonical `raw_path` under `raw/reports/`). Kimi agent filed the same report PDF in two locations; both now resolve back to this canonical source page. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
-- 2026-06-08 byte-identical filesystem-copy enhancement: added a third entry to `duplicate_filesystem_copies` recording the Kimi agent's June 8 placement of the same report PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf` (sha256 verified byte-identical to canonical `raw_path`). Manual-fetch loop now recognizes this third Kimi-folder location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+  - Rejected (Check 2 ⚠️ matrices vocabulary): editorial review flagged `total-diet-study-prepared-food` in `matrices:` as not in the supplied taxonomy snapshot. False positive: the matrices field uses its own controlled vocabulary that is not enumerated in the editorial record (only ingredients/products/metals/regulations are in that file). The matrices label `total-diet-study-prepared-food` is the established convention used by the companion source page [[sources/fda2022-tds-elements-analytical-key]] (verified: that page's source metadata carries `matrices: [total-diet-study-prepared-food]`). Keeping the same label here is intentional and correct.
+  - Figure 10 / Figure 12 approximation flags: editorial review confirmed approximations are directionally consistent with the source bar charts and the explicit "approximate, rounded" caveat in the wiki body is appropriate. No change needed.
+- 2026-06-02 byte-identical filesystem-copy enhancement: added `duplicate_filesystem_copies` block recording the second filesystem location of the canonical July 2022 TDS Elements report PDF at the archived source file (sha256 `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`, byte-identical to the canonical `raw_path` under the archived source file). source-retrieval agent filed the same report PDF in two locations; both now resolve back to this canonical source page. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
+- 2026-06-08 byte-identical filesystem-copy enhancement: added a third entry to `duplicate_filesystem_copies` recording the source-retrieval agent's June 8 placement of the same report PDF under the archived source file (sha256 verified byte-identical to canonical `raw_path`). Manual-fetch loop now recognizes this third source-retrieval-folder location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
@@ -274,16 +287,22 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - [[regulations/fda2022-draft-lead-juice]]
 - [[regulations/fda-cpg-540-600-methylmercury-fish]]
 
+## Analytical-file reconciliation
+
+The complete primary analytical file contains 68,993 results for 307 food identities. The companion extract was corrected on 2026-09-10 after an audit found a truncated 29,148-row prefix. All 6,449 regular-analyte groups now reconcile with the independently published FDA summary workbook on N, detects, non-detects and extrema; source-reported means and SDs remain separate from derived lower/upper-bound statistics. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+The primary crisped-rice-cereal iAs records are 85.8, 90.4 and 103 ppb. The narrative report's 8.9 ppb lower endpoint conflicts with those records. The analytical values are used for the occurrence extract; the printed discrepancy is retained as a source-context disposition.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [91de7ee31](https://github.com/paleofoundation/heavymetalindex/commit/91de7ee31) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [91de7ee312](https://github.com/paleofoundation/heavymetalindex/commit/91de7ee312) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

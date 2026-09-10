@@ -98,19 +98,19 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 
 - 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash from the original manual-fetch placeholder and verified the sample count (341 total; 201 fish, 31 crustaceans, 109 molluscs), detection rates, Table 2 maxima, Table 3 means, and exposure ranges against the report text.
 - The source separates crustaceans from molluscs analytically, but there is no `ingredients/crustaceans` page in the current taxonomy. Routing uses `ingredients/shellfish` plus `ingredients/molluscs`, while retaining `crustaceans` as a source-specific matrix descriptor.
-- Frontmatter keeps `metals: [Sn]` for element-level routing; the toxicological and methods discussion should be treated as organotin-specific and linked to [[metals/organotins]], not pooled with inorganic tin.
+- source metadata keeps `metals: [Sn]` for element-level routing; the toxicological and methods discussion should be treated as organotin-specific and linked to [[metals/organotins]], not pooled with inorganic tin.
 - 2026-05-30 manual-fetch merge-enhance re-verified all Key numbers against Tables 1–4 and the per-species appendices (I–IV). Corrected a species-attribution error: the DBT maximum of 8.8 mcg/kg (4.5 as Sn) occurs in coral clam (Appendix II, mollusc group), not Chinese noodle fish — the prior merge had mis-copied the TBT maximum's Chinese-noodle-fish attribution onto DBT. Chinese noodle fish DBT reaches only 4.3 mcg/kg (2.2 as Sn). TBT maximum (60 mcg/kg / 24 as Sn) in Chinese noodle fish, all TPT per-species means/ranges (mangrove snapper 450 / 41–1400; giant grouper 220 / 11–1400; sea bass 140; golden thread 130; tuna 130), and the no-detectable-TBT species list (salmon, grass carp, eel, grey mullet, cod, sole, turbot) all re-confirmed correct.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [669db40ac](https://github.com/paleofoundation/heavymetalindex/commit/669db40ac) | 2026-05-30 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [669db40ac8](https://github.com/paleofoundation/heavymetalindex/commit/669db40ac8) | 2026-05-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

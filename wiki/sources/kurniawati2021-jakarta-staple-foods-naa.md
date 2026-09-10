@@ -116,7 +116,7 @@ Key methodological scope limitation for the wiki: NAA in this study measured onl
 
 Enhancement run 2026-05-18 (cite-key existed before 2026-05-14 with several defects). Defects corrected against the source PDF:
 
-- Expanded `metals:` from `[Cr, tHg]` to `[Cr, tHg, Co, Zn]` — Co and Zn are explicitly measured for all 14 commodities and reported in Table 3 alongside Cr and Hg. The prior frontmatter omitted half the studied panel.
+- Expanded `metals:` from `[Cr, tHg]` to `[Cr, tHg, Co, Zn]` — Co and Zn are explicitly measured for all 14 commodities and reported in Table 3 alongside Cr and Hg. The prior source metadata omitted half the studied panel.
 - Corrected `ingredients/soybean` (invented slug, not in taxonomy) → `ingredients/soy` (current taxonomy slug). Added `[[ingredients/fish]]`, `[[ingredients/chicken]]`, `[[ingredients/meat]]` since the paper measures mackerel, chicken, and meat as distinct commodities.
 - Expanded `products:` from `[fresh-fish]` to `[fresh-fish, snacks-crackers-biscuits]` — the paper measures kerupuk (Indonesian crackers) as a distinct commodity with the second-highest Hg concentration in the panel (0.25 mg/kg), which is product-grade information. Both target pages exist on disk.
 - Replaced `matrices:` `[staple-food, rice, vegetables, legumes, meat, fish, egg]` (mostly non-vocabulary) with `[rice, legumes, leafy-vegetable, root-vegetable, fruit, fish, egg, meat, poultry, snack-cracker]` aligned with the system-prompt matrix vocabulary and reflecting all 14 commodities. Free-form matrix labels are accepted per the routing-layer convention.
@@ -152,13 +152,13 @@ Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `source_type`, `evidence
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

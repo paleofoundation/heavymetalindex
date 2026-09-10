@@ -80,22 +80,22 @@ Courses: Useful for teaching non-detect notation, table-vs-text contradictions, 
 
 This page was built from the full PDF, including Table I sample rows and summary statistics, the digestion and ICP-OES method description, the discussion sections for each metal, Table II correlations, and the conclusion. Three internal inconsistencies were retained rather than silently corrected: Table I reports an average Cr concentration of 0.072 mg/kg while the discussion text gives 0.026 mg/kg; the Mn discussion text on page 981 reports an average of 0.002 mg/kg while Table I gives 0.006 mg/kg; and the Pb discussion says "16 of the 37 samples" although the study and Table I describe 54 samples. This page follows the Table I summary statistics for concentration values and flags all three conflicts for audit. A separate paper-side typo where the Cd discussion paragraph opens with "Ca was detected in 14 of the 54 samples" is also noted; the paper clearly intends Cd given the surrounding numbers and FAO/WHO Cd limit.
 
-Audit subagent 2026-06-02 flagged Se / selenium as outside the current Metals taxonomy (no `metals/selenium.md` page; `selenium` not in the snapshot's Metals list). Verified — Se was dropped from `metals:` frontmatter and the `[[metals/selenium]]` bullet was removed from "Wiki pages this source may touch". The selenium data in Table I (range 0.05-0.89 mg/kg, average 0.172 mg/kg, strong correlation with total As at 0.997) remains in the Key numbers table and is preserved here for the day a selenium metal page is added; flagging selenium as a proposed Metals slug addition for Karen.
+Audit editorial review 2026-06-02 flagged Se / selenium as outside the current Metals taxonomy (no `metals/selenium.md` page; `selenium` not in the snapshot's Metals list). Verified — Se was dropped from `metals:` source metadata and the `[[metals/selenium]]` bullet was removed from "Wiki pages this source may touch". The selenium data in Table I (range 0.05-0.89 mg/kg, average 0.172 mg/kg, strong correlation with total As at 0.997) remains in the Key numbers table and is preserved here for the day a selenium metal page is added; flagging selenium as a proposed Metals slug addition for Karen.
 
-Audit subagent 2026-06-02 flagged `matrices: [edible-oil, vegetable-oil, soybean-oil, palm-oil, olive-oil]` as over-specified because Table I sample rows are not labeled by oil type. Verified — the page's own Implications already states that values should not be split into soybean-oil/palm-oil/olive-oil benchmark pools. Collapsed matrices to `[edible-oil, vegetable-oil]` per the system-prompt broad-scope rule.
+Audit editorial review 2026-06-02 flagged `matrices: [edible-oil, vegetable-oil, soybean-oil, palm-oil, olive-oil]` as over-specified because Table I sample rows are not labeled by oil type. Verified — the page's own Implications already states that values should not be split into soybean-oil/palm-oil/olive-oil benchmark pools. Collapsed matrices to `[edible-oil, vegetable-oil]` per the system-prompt broad-scope rule.
 
-`[[testing/icp-oes]]` is referenced in the "Wiki pages this source may touch" section but no `wiki/testing/icp-oes.md` exists yet. Retained because five other source pages use the same placeholder; flagging `testing/icp-oes` as a proposed testing-methods page (companion to the existing `wiki/testing/icp-ms.md`).
+`[[testing/icp-oes]]` is referenced in the "Wiki pages this source may touch" section but no the linked reference record exists yet. Retained because five other source pages use the same placeholder; flagging `testing/icp-oes` as a proposed testing-methods page (companion to the existing the linked reference record).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

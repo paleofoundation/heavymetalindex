@@ -73,9 +73,9 @@ The HSAB-framework classification, the donor-atom preferences of peptide side ch
 ## Verification notes
 
 - PDF read in full (28 pages) via the Read tool in three 10-page chunks; abstract, introduction, all body sections, Tables 1–3, Figures 1–5, and acknowledgements/funding/conflicts/data-availability statements reviewed.
-- Identity checks against `wiki/sources/`: DOI `10.3390/separations9110370` (zero hits), raw_handle `MFK_48-metal-chelating-peptides-separation-using-immob` (zero hits), and author/year `irankunda` (one incidental hit in `lu2022-metal-chelating-peptides-review.md`, which is a different paper by Lu and Dong on Ca/Fe/Zn/Cu chelating peptides — confirmed by reading that page's frontmatter; not a duplicate of this Irankunda review). No existing wiki source page for this paper.
+- Identity checks against the linked reference record: DOI `10.3390/separations9110370` (zero hits), raw_handle `MFK_48-metal-chelating-peptides-separation-using-immob` (zero hits), and author/year `irankunda` (one incidental hit in `lu2022-metal-chelating-peptides-review.md`, which is a different paper by Lu and Dong on Ca/Fe/Zn/Cu chelating peptides — confirmed by reading that page's source metadata; not a duplicate of this Irankunda review). No existing wiki source page for this paper.
 - The paper is open access under CC-BY 4.0 per the masthead and copyright notice on page 1; recorded as `license: cc-by-4.0`.
-- Metals discussed are framed as immobilized affinity targets (Ni²⁺, Cu²⁺, Fe²⁺/³⁺, Co²⁺, Zn²⁺, Ca²⁺) and as classifications in the HSAB table (which incidentally places Pb²⁺ borderline and Cd²⁺/Hg²⁺/As³⁺ in their respective categories). None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured. `metals:` is therefore `[]`; routing this source to `wiki/metals/lead.md` or similar pages on the basis of an HSAB table mention would misrepresent the paper.
+- Metals discussed are framed as immobilized affinity targets (Ni²⁺, Cu²⁺, Fe²⁺/³⁺, Co²⁺, Zn²⁺, Ca²⁺) and as classifications in the HSAB table (which incidentally places Pb²⁺ borderline and Cd²⁺/Hg²⁺/As³⁺ in their respective categories). None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured. `metals:` is therefore `[]`; routing this source to the linked reference record or similar pages on the basis of an HSAB table mention would misrepresent the paper.
 - The paper reports no contamination values for any food matrix; `ingredients:` and `products:` are `[]`. Food protein sources are cited as MCP feedstocks for functional-food manufacture, not as products in which HMI heavy-metal contamination is being quantified. Routing to ingredient or product pages would be misleading.
 - `matrices: [protein-hydrolysates, review-context]` mirrors the established convention for methodological-review sources in this corpus (cf. [[lu2022-metal-chelating-peptides-review]]).
 - `jurisdictions: [GLOBAL]` because the review compiles international literature; the authors are at Université de Lorraine, France, but the scope is not French-regulatory.
@@ -87,13 +87,13 @@ The HSAB-framework classification, the donor-atom preferences of peptide side ch
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

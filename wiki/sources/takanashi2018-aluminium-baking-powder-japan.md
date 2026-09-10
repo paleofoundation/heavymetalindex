@@ -71,15 +71,15 @@ For app work the presence of baking powder, alum, potassium alum, or aluminium-p
 
 ## Verification notes
 
-- 2026-05-29 merge-enhance: existing page (dated 2026-05-14) was structurally correct but carried several frontmatter and routing defects; the underlying numerical content was verified against the PDF and is preserved.
-  - `raw_handle` corrected from generic `manual-fetch-kimi` to the per-file MFK_ form `MFK_survey-of-aluminium-content-of-processed-food-usin` (matches the abdolahpour2023 / aguilar-miranda2024 MFK_<slug> convention adopted post-2026-05-17).
+- 2026-05-29 merge-enhance: existing page (dated 2026-05-14) was structurally correct but carried several source metadata and routing defects; the underlying numerical content was verified against the PDF and is preserved.
+  - `raw_handle` corrected from generic `manual-fetch-source-retrieval` to the per-file MFK_ form `MFK_survey-of-aluminium-content-of-processed-food-usin` (matches the abdolahpour2023 / aguilar-miranda2024 MFK_<slug> convention adopted post-2026-05-17).
   - `raw_path` filename corrected from "...Baking Powder.pdf" to the actual filename "...Baking Powder (2015-2016).pdf" — the prior path did not resolve.
   - Added `access_url` to the JSTAGE DOI URL.
   - Added `raw_sha256: 6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f` for the verified PDF.
   - `source_type` changed from non-vocabulary `government-report` to `peer-reviewed`. The paper is a peer-reviewed article in *Shokuhin Eiseigaku Zasshi* (the same journal as watanabe2017-retail-fish-mercury-methylmercury-japan, which uses `peer-reviewed`); the conducting institution being TMIPH does not change the publication venue's classification.
   - Added `sampling_year_range: "2015-2016"` per the title and Methods.
   - `sample_population` clarified to name all four product groups and the alum-selection criterion.
-  - Body link `[[metals/aluminium]]` corrected to `[[metals/aluminum]]` — the existing wiki metal page is `wiki/metals/aluminum.md`; no `aluminium.md` exists.
+  - Body link `[[metals/aluminium]]` corrected to `[[metals/aluminum]]` — the existing wiki metal page is the linked reference record; no `aluminium.md` exists.
   - Body link `[[regulations/jecfa-al-ptwi-2011]]` removed from "Wiki pages this source may touch" because no such regulation page exists. The JECFA-74 (2011) PTWI revision and the Japan FSC 2017 TWI setting are documented in the Key numbers section; a JECFA-Al PTWI regulation page is a Karen-approved page-creation (Part 10 / skill stop condition), not auto-created during ingest.
   - Heading "## Wiki pages updated on ingest" renamed to "## Wiki pages this source may touch" per current convention (the prior heading is a legacy phrasing that implied the ingest did downstream edits, which the routing layer now owns).
   - Implications section reworded to remove the prior version's two Part 2 wiki/HMTc-firewall slips: "HMT&C product standards for baked goods should flag Al as a process-additive analyte" and "requiring Al-free leavening agents in certified products is feasible." Both proposed HMTc design choices rather than reporting what the source contributes. Reworked to describe what occurrence data and serving-size assumptions the source contributes for downstream threshold work, without proposing a threshold or a supplier-specification lever.
@@ -90,13 +90,13 @@ For app work the presence of baking powder, alum, potassium alum, or aluminium-p
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

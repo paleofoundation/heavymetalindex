@@ -127,7 +127,7 @@ Source contributes:
 
 - Identity checks: DOI grep for `10.1016/j.toxrep.2024.05.005` returned no prior page; `raw_handle` grep for `MFK_evaluation-of-carcinogenic` returned no prior page; cite-key glob for `mohammadi2024*` returned only an unrelated `mohammadian-hafshejani2024-cadmium-prostate-cancer-meta.md`. This is a fresh NEW-path ingest.
 - License: paper carries a CC BY-NC license per the masthead ("This is an open access article under the CC BY-NC license").
-- Speciation: paper measures total Pb, Cd, Ni, Zn by ICP-AES with no speciation. `metals:` frontmatter uses `Pb`, `Cd`, `Ni`, `Zn` accordingly. No As or Hg in the analyte panel; not claimed.
+- Speciation: paper measures total Pb, Cd, Ni, Zn by ICP-AES with no speciation. `metals:` source metadata uses `Pb`, `Cd`, `Ni`, `Zn` accordingly. No As or Hg in the analyte panel; not claimed.
 - Paper-internal data anomaly 1: Table 1 reports Pb Lordegan Min 0.0200 mg/kg and Max 0.2100 mg/kg, but the Mean (1.1265 mg/kg) and SD (0.0634) cannot be reconciled with that Min/Max range. The Mean is consistent with the paper's text claim that Lordegan Pb is "7 times" the 0.15 mg/kg Iranian limit (1.1265/0.15 ≈ 7.5). The reported Min/Max for Pb Lordegan appear to be a typesetting error in the source table; preserved as printed and flagged here, not silently corrected.
 - Paper-internal data anomaly 2: Table 1 reports Ahvaz means higher than Lordegan means for all four metals (consistent with the paper's framing of Ahvaz as the more industrially impacted city), but Table 2's "Lordegan" CR/HQ values are systematically higher than the "Ahvaz" CR/HQ values across Pb, Cd, and Ni. EDI scales linearly with concentration, so given the Table 1 means, Ahvaz CRs should be higher, not lower. The most likely explanation is that the city labels in Table 2 (and the matching Section 3.2 prose) are swapped. The values are preserved as the paper prints them and the inconsistency is flagged here rather than corrected; downstream synthesis should treat the CR/HQ outputs as advisory and rely on the Table 1 concentration values.
 - Paper-internal data anomaly 3: the paper writes the children EDI averaging time as "2190 for children and 10,950 kg for adults" — the "kg" is a units typo; AT is in days (2,190 days = 6 years × 365 days × ... actually 6 years; 10,950 days = 30 years). The Section 2.4 sentence is preserved verbatim in Key numbers; no correction was applied to the values.
@@ -141,13 +141,13 @@ Source contributes:
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

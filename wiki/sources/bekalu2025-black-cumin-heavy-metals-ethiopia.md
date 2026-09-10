@@ -82,23 +82,23 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - The PDF prints DOI `10.1007/s44371-025-00300-1`, journal Discover Chemistry, and article metadata for Bekalu et al. (2025) 2:223. The PDF states open access under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-- `matrices: [spices]` is used as the broad routed matrix for black cumin seeds because the source describes Nigella sativa as a culinary and medicinal seed. Dry-weight basis is documented in Key numbers and Methods rather than in frontmatter `matrices`.
+- `matrices: [spices]` is used as the broad routed matrix for black cumin seeds because the source describes Nigella sativa as a culinary and medicinal seed. Dry-weight basis is documented in Key numbers and Methods rather than in source metadata `matrices`.
 - Table 3 prints Sinan Cu as 22.24 +/- 2.03 mg/kg, and the abstract repeats the Cu range as 9.18 +/- 0.22 to 22.24 +/- 2.03. Some discussion passages later state 18.24 +/- 2.03 for Sinan Cu. This page follows Table 3 and the abstract, and treats the 18.24 value as a paper-side text inconsistency.
 - The source text contains one apparent decimal typo in discussion, describing Cd as 1.2 +/- 0.04 in Gozamen. Table 3 gives 0.12 +/- 0.004 mg/kg, which is also consistent with the abstract range and with the cited WHO Cd limit comparison. This page uses Table 3.
 - Table 1 gives Pb calibration R2 as 0.9987, while the discussion text describes Pb R2 as 0.9889. This page follows Table 1 for the calibration summary and records the discussion value as a source-internal inconsistency.
 - Table 1 also prints Pb LOQ as 0.015 mg/kg, below the Pb LOD of 0.016 mg/kg. The Methods section therefore quotes Cd LOD/LOQ and avoids using the anomalous Pb LOQ as a quality-control anchor.
-- The paper describes 81 samples overall and reports district means as mean +/- SD with n=3 in Table 3. The frontmatter `sample_n` captures the overall sample count; the table note captures the district-mean reporting basis.
+- The paper describes 81 samples overall and reports district means as mean +/- SD with n=3 in Table 3. The source metadata `sample_n` captures the overall sample count; the table note captures the district-mean reporting basis.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

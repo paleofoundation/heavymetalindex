@@ -61,27 +61,27 @@ Narrative critical review. The authors searched SCOPUS using keywords (marine al
 
 ## Verification notes
 
-- raw_handle MFK_camurati2019 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1080/10937404.2019.1672364 confirmed on the article header.
+- raw_handle MFK_camurati2019 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1080/10937404.2019.1672364 confirmed on the article header.
 - Evidence tier B and source_type review: this is a critical review (J. Toxicol. Environ. Health Part B is a reviews journal). Per Part 13, review claims are B-tier attributed and are recorded here as context/leads, explicitly not as primary occurrence data for the pooling/extraction pass. sample_n is null (no samples).
-- Speciation: the review discusses total As and inorganic As (As(III)+As(V)) plus organic species (arsenosugars, AB, AC, DMA, MMA, arsenolipids); only tAs and iAs are lifted to frontmatter as the index-relevant analytes. No primary speciated values are claimed by this source.
+- Speciation: the review discusses total As and inorganic As (As(III)+As(V)) plus organic species (arsenosugars, AB, AC, DMA, MMA, arsenolipids); only tAs and iAs are lifted to source metadata as the index-relevant analytes. No primary speciated values are claimed by this source.
 - Units/basis: figures are reproduced as the review states them (mg/kg dw, µg/g, µg/L, %), each attributed to its primary source; no conversions applied. These are not to be pooled.
 - jurisdictions [AR]: although the review synthesizes global literature, it is Argentine-authored, devotes substantial analysis to the Argentine Food Code, and is explicitly motivated by the growing South America / Argentina seaweed market, so AR is its regulatory/market lens. (Set to AR rather than [] both to reflect that framing and to clear the non-blocking routing advisory that empty jurisdictions triggers.) The multi-jurisdiction legislation summary (ANZ, France, USA, EU) is content, captured in the body, not additional jurisdiction tags.
 - Brand firewall: not engaged (review; no products or brands named).
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` retained because the review treats *Laminaria* prominently. Kept broad.
 - Instrument/CRM names (SRM 3232, BCR-279, NMIJ 7405-a, NIES 09) retained in the analytical note as permitted scientific reporting.
-- Audit subagent (2026-06-08, fresh-context) returned REVISE; all numbers, speciation labels (tAs/iAs; As(V) not mislabeled as iAs), slugs, and both firewalls verified clean, and the B-tier/review/not-poolable framing and `jurisdictions: [AR]` confirmed defensible. One ⚠️ applied: the legislation summary had attributed an "EU: Commission Regulations" framing the review never makes (the review's actual statement is generic — existing food/water limits refer only to total or inorganic As); reworded the legislation line and its Implications echo to the review's actual unattributed wording. No numeric/speciation corrections needed.
+- Audit editorial review (2026-06-08, fresh-context) returned REVISE; all numbers, speciation labels (tAs/iAs; As(V) not mislabeled as iAs), slugs, and both firewalls verified clean, and the B-tier/review/not-poolable framing and `jurisdictions: [AR]` confirmed defensible. One ⚠️ applied: the legislation summary had attributed an "EU: Commission Regulations" framing the review never makes (the review's actual statement is generic — existing food/water limits refer only to total or inorganic As); reworded the legislation line and its Implications echo to the review's actual unattributed wording. No numeric/speciation corrections needed.
 - Cross-source note: this review cites several primary studies also held in this folder (e.g., Almela 2002, Rose 2007, Ronan 2017, Taylor & Jackson 2016, Llorente-Mirandes 2010/2011); cross-source synthesis against them belongs to the Part 9 synthesis pass, not this source page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

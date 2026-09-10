@@ -81,8 +81,8 @@ The authors' regulatory framing compares the sample-mean EDI against Codex TDI/P
 
 ## Verification notes
 
-- 2026-05-17 merge-enhance pass (Claude Code, manual-fetch ingest cycle): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision:
-  - `raw_handle: manual-fetch-kimi` (legacy placeholder) → `MFK_investigation-heavy-metals-infant-formula-zahedan`
+- 2026-05-17 merge-enhance pass (automated editorial review, manual-fetch ingest cycle): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision:
+  - `raw_handle: manual-fetch-source-retrieval` (legacy placeholder) → `MFK_investigation-heavy-metals-infant-formula-zahedan`
   - `raw_path` truncated to `Investigation of heavy metal concentrations and health risk .pdf` → full filename `Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf`
   - `matrices` contained the non-vocabulary slug `wet-weight` (basis is not a matrix); removed. Native basis (as-sampled dry powder / dry cereal) clarified in body.
   - `products: [[products/baby-cereals-dry-rice-based]]` was an invented/overspecified slug — the paper does not characterize the cereal samples as rice-based vs non-rice and reports them generically as "baby food" / "infant cereals". Routed to the umbrella `[[products/infant-cereal]]` instead, per Part 5b broad-scope rule.
@@ -92,18 +92,18 @@ The authors' regulatory framing compares the sample-mean EDI against Codex TDI/P
 - The paper publication year (2024) reflects the journal volume; underlying field/lab work was 2019-2020. Both dates are stated up front in the page intro.
 - The Cd-cereals HRI value of 0.7 at 6-12 months in Table 3 (p. 618) is internally inconsistent with the other HRI cells (all 0.04-0.12) and with the corresponding EDI of 0.007 µg/kg·day·bw shown in the same column; treated here as a probable print-error and flagged in Key numbers rather than propagated as a contamination signal.
 - Authors' citation of the "Codex standard" for cadmium as "zero" (p. 615) does not correspond to any active Codex CXS 193-2009 maximum level for cadmium in infant formula. The wiki page reports the authors' framing without endorsing the underlying claim; downstream regulation-page synthesis should use the regulation pages, not this paper, as the source of record for Codex Cd limits.
-- 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf`) returned REVISE with one ❌ on Check 2, asserting that `[[ingredients/infant-cereal-ingredients]]` was not in the taxonomy snapshot. Verified against `wiki/ingredients/infant-cereal-ingredients.md` (exists) and `docs/gpt-collaboration/taxonomy-snapshot.md` (slug present in the Ingredients line). Finding is a false positive — the subagent's snapshot scan missed the entry. No change applied. All ⚠️ items in Check 1 were re-verified against Tables 1-3 (pp. 617-618) and confirmed correct. Effective verdict: PROMOTE.
+- 2026-05-17 audit editorial review (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf`) returned REVISE with one ❌ on Check 2, asserting that `[[ingredients/infant-cereal-ingredients]]` was not in the taxonomy snapshot. Verified against the linked reference record (exists) and the editorial record (slug present in the Ingredients line). Finding is a false positive — the editorial review's snapshot scan missed the entry. No change applied. All ⚠️ items in Check 1 were re-verified against Tables 1-3 (pp. 617-618) and confirmed correct. Effective verdict: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

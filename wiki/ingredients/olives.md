@@ -35,12 +35,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-15
   tHg:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
     n_studies: 1
-    last_reviewed: 2026-05-15
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::299::mercury","role":"value","food_id":"299","food_name":"Olives, black, pitted","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Ni:
     status: populated
     typical_ppb: [20, 200]
@@ -83,7 +86,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 9
+sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -109,7 +112,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 10–100 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/vella2024-malta-olive-cultivars-aas\|2]] |
 | iAs | data gap | — | — | — |
 | tAs | data gap | — | — | — |
-| tHg | n=1 | 0 | low | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]] |
+| tHg | n=1 dataset; composites=3 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 20–200 | low | [[sources/vella2024-malta-olive-cultivars-aas\|1]], [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|2]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 10–100 | low | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|1]] |
@@ -158,14 +161,41 @@ Glass jars eliminate can-leaching. Modern fully-welded steel cans with food-grad
 
 The Codex Alimentarius General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) sets a lead maximum of 0.10 mg/kg for canned products in the broader food contaminants framework. EU Regulation 2023/915 establishes the lead maximum for "vegetables, including fungi, root and tuber vegetables, leguminous vegetables, leaf vegetables and fresh herbs, excluding [exceptions]" at 0.10 mg/kg fresh weight, and for table olives specifically the EU applies general fruit-vegetable limits depending on the preparation. No olive-specific FDA action level has been established. The Iranian survey's finding that canned olives in the Tehran market commonly exceed the Codex 0.10 mg/kg canned-product Pb limit reflects an enforcement gap rather than the absence of a regulatory framework.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 299: Olives, black, pitted | tAs | 3 | 1 | 3.1 | 3 |
+| 299: Olives, black, pitted | Cd | 3 | 0 | ND in all composites | 1 |
+| 299: Olives, black, pitted | Cr | 3 | 0 | ND in all composites | 50 |
+| 299: Olives, black, pitted | Pb | 3 | 0 | ND in all composites | 4 |
+| 299: Olives, black, pitted | tHg | 3 | 0 | ND in all composites | 1 |
+| 299: Olives, black, pitted | Ni | 3 | 3 | 64–69 | 40 |
+| 299: Olives, black, pitted | U | 3 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran]].
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives|Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey]]<span class="hmi-ref-meta">Karatasli M · Nuclear Technology & Radiation Protection · 2018 · [doi.org/10.2298/NTRP180702007K](https://doi.org/10.2298/NTRP180702007K)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/vella2024-malta-olive-cultivars-aas|Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS]]<span class="hmi-ref-meta">Vella I, Costa C, and Lia F · MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 · 2024</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers]]<span class="hmi-ref-meta">Shavali-gilani P, Abedini A, Irshad N, Maleknezhad S, Yazdanfar N, and Sadighara P · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-06896-9](https://doi.org/10.1038/s41598-025-06896-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -178,24 +208,25 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 1 | [[sources/sallam2025-olive-oil-libya-traditional-modern\|Sallam et al. 2025]]. *Traditional vs. Modern Olive Oil Extraction in Libya: A Comparative Study of Fatty Acids and Heavy Metal Contamination*, The North African Journal of Scientific Publishing (NAJSP) | 2025 | Peer-reviewed | LY Pb, Cd, tAs, tHg occurrence in Olive oil and olive mill wastewater (OMWW) collected from one traditional (manual/mechanical pressing, no temperature control or centrifugation)... (n=12) |
 | 2 | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers*, Scientific Reports | 2025 | Peer-reviewed | IR Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg occurrence in 49 canned samples (tomato paste, olives, pickled cucumbers) from five popular brands in Tehran, Iran (n=49) |
 | 3 | [[sources/vella2024-malta-olive-cultivars-aas\|Vella et al. 2024]]. *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*, MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 | 2024 | Peer-reviewed | Maltese cultivar-vs-fraction Ni, Cu, Cr distribution across skin, pit, solid waste, and liquid waste; demonstrates processing-fraction lever |
-| 4 | [[sources/liang-yang2019-olive-leaves-cu-zn-stress\|Liang et al. 2019]]. *Effects of Zinc and Copper Stress on Antioxidant System of Olive Leaves*, IOP Conference Series: Earth and Environmental Science | 2019 | Peer-reviewed | CN Cu, Zn occurrence in Annual Olea europaea L. cv. 'Foao' cutting seedlings (plant height ~55-65 cm, soil weight ~3 kg per pot)... (n=50) |
-| 5 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | CY Cu, Cd, Pb, Cr, tAs, Ni occurrence in Fifteen olive-oil observations from northern Cyprus, including oils from olives harvested from the ground, olives harvested directly from... (n=15) |
-| 6 | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|Karatasli 2018]]. *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*, Nuclear Technology & Radiation Protection | 2018 | Peer-reviewed | Turkish-Mediterranean table-olive Pb, Ni, Cr, and trace-metal occurrence distribution across 26 districts |
-| 7 | [[sources/llorent-martinez2014-olive-oil-extraction-metals-fate\|Llorent-Martínez et al. 2014]]. *Quantitation of Metals During the Extraction of Virgin Olive Oil from Olives Using ICP-MS after Microwave-assisted Acid Digestion*, Journal of the American Oil Chemists' Society | 2014 | Peer-reviewed | ES/EU Al, V, Cr, Fe, Co, Ni, Cu, tAs, Cd, Sb, Pb occurrence in Picual, Hojiblanca, and Arbequina olive fruits collected January 2012/13 from an irrigated orchard in Jaén (Andalusia), Spain; analyzed... |
-| 8 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
-| 9 | [[sources/la-pera2010-sicily-olive-oil-metals-selenium\|La et al. 2010]]. *Classification of Sicilian Olive Oils According to Heavy Metal and Selenium Levels Using Canonical Discriminant Analysis (CDA)*, Olives and Olive Oil in Health and Disease Prevention (Elsevier, ISBN 978-0-12-374420-3), Chapter 18, pp. 155–163 | 2010 | Book chapter | IT Pb, Cd, Cu, Zn, Se occurrence in 49 virgin olive oil samples from three Sicilian PDO/PGI cultivars (Nocellara del Belice n=18; Biancolilla n=18; Cerasuola n=13)... (n=49) |
+| 4 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 5 | [[sources/liang-yang2019-olive-leaves-cu-zn-stress\|Liang et al. 2019]]. *Effects of Zinc and Copper Stress on Antioxidant System of Olive Leaves*, IOP Conference Series: Earth and Environmental Science | 2019 | Peer-reviewed | CN Cu, Zn occurrence in Annual Olea europaea L. cv. 'Foao' cutting seedlings (plant height ~55-65 cm, soil weight ~3 kg per pot)... (n=50) |
+| 6 | [[sources/luka2019-northern-cyprus-olive-oil-metals\|Luka et al. 2019]]. *Investigation of trace metals in different varieties of olive oils from northern Cyprus and their variation in accumulation using ICP-MS and multivariate techniques*, Environmental Earth Sciences | 2019 | Peer-reviewed | CY Cu, Cd, Pb, Cr, tAs, Ni occurrence in Fifteen olive-oil observations from northern Cyprus, including oils from olives harvested from the ground, olives harvested directly from... (n=15) |
+| 7 | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|Karatasli 2018]]. *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*, Nuclear Technology & Radiation Protection | 2018 | Peer-reviewed | Turkish-Mediterranean table-olive Pb, Ni, Cr, and trace-metal occurrence distribution across 26 districts |
+| 8 | [[sources/llorent-martinez2014-olive-oil-extraction-metals-fate\|Llorent-Martínez et al. 2014]]. *Quantitation of Metals During the Extraction of Virgin Olive Oil from Olives Using ICP-MS after Microwave-assisted Acid Digestion*, Journal of the American Oil Chemists' Society | 2014 | Peer-reviewed | ES/EU Al, V, Cr, Fe, Co, Ni, Cu, tAs, Cd, Sb, Pb occurrence in Picual, Hojiblanca, and Arbequina olive fruits collected January 2012/13 from an irrigated orchard in Jaén (Andalusia), Spain; analyzed... |
+| 9 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
+| 10 | [[sources/la-pera2010-sicily-olive-oil-metals-selenium\|La et al. 2010]]. *Classification of Sicilian Olive Oils According to Heavy Metal and Selenium Levels Using Canonical Discriminant Analysis (CDA)*, Olives and Olive Oil in Health and Disease Prevention (Elsevier, ISBN 978-0-12-374420-3), Chapter 18, pp. 155–163 | 2010 | Book chapter | IT Pb, Cd, Cu, Zn, Se occurrence in 49 virgin olive oil samples from three Sicilian PDO/PGI cultivars (Nocellara del Belice n=18; Biancolilla n=18; Cerasuola n=13)... (n=49) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 3 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -99,10 +99,10 @@ Direct evidence on contamination of canned legumes, canned corn, and canned mush
 
 ## Verification notes
 
-- **2026-05-25 merge-enhance** (Claude Code, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had multiple schema-era and content defects, all corrected in this pass:
-  - `raw_handle: manual-fetch-kimi` (generic parent-folder placeholder) → `MFK_p0315-environmental-exposure-assessment-of-cadmium` per the v2 manual-fetch handle convention.
+- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had multiple schema-era and content defects, all corrected in this pass:
+  - `raw_handle: manual-fetch-source-retrieval` (generic parent-folder placeholder) → `MFK_p0315-environmental-exposure-assessment-of-cadmium` per the v2 manual-fetch handle convention.
   - `raw_path` shortened to a non-existent stub `P0315.pdf` → corrected to the full filename present in the source folder.
-  - `metals: [Cd, Pb]` → `[Cd, Pb, Cu, Zn]` (the paper's analyte list is all four; the prior frontmatter omitted Cu and Zn even though they are central to the study).
+  - `metals: [Cd, Pb]` → `[Cd, Pb, Cu, Zn]` (the paper's analyte list is all four; the prior source metadata omitted Cu and Zn even though they are central to the study).
   - `ingredients` had two invented slugs (`canned-beans`, `chickpeas`) that do not exist in the current taxonomy. Replaced with the canonical `beans` and `legumes` umbrella slugs; kept `canned-corn` and `canned-mushrooms` which do exist.
   - `products: [canned-foods]` referenced a non-existent slug. Replaced with `canned-vegetables` (covers canned corn, canned mushroom; the conventional umbrella for non-fruit non-fish canned plant foods in the current taxonomy) and `legumes-pulses-other` (covers canned beans and chickpeas as a legumes product).
   - Added `no_doi_assigned: false`, `access_url`, and `raw_sha256` fields (absent in prior version).
@@ -112,20 +112,20 @@ Direct evidence on contamination of canned legumes, canned corn, and canned mush
 - **Wiki/HMTc firewall (Part 2).** Prior Implications section contained certification-facing guidance ("this source should be used with caution as a secondary reference"; "heavier reliance on sources with explicit mg/kg reporting and validated LODs is recommended"), course-facing language, and app-facing risk advisories. All deleted; the new Implications section reports what the data are useful for (synthesis input) and flags the unit-basis caveat as a methodological observation, without proposing HMTc thresholds or consumer translations.
 - **Paper-internal Cu-range discrepancy (typesetting, not data-integrity).** The abstract gives Cu range 0.79–3.97 mg/L; the discussion paragraph on page 3 gives 0.79–2.97 mg/L; Table 1 maximum Cu value is 3.25 mg/L (UAE-origin canned beans). Both the abstract and discussion text appear to be transcription errors; Table 1 is authoritative. The Key numbers section reports 0.79–3.25 mg/L as observed from the table and footnotes the prose-text discrepancy.
 - **Cd reverse-engineered mg/kg estimate withdrawn.** The prior page asserted that on a mg/kg-food basis the highest Cd (0.322 mg/L × 10 = 3.22 mg/kg) "would indicate severe contamination that far exceeds any known regulatory limit." The 5 g → 50 mL dilution factor is correct, but the paper itself reports throughout in mg/L without performing this conversion, and the abstract/conclusion frame the result against mg/L permissible-limit references. The mg/L-vs-mg/kg reconciliation belongs in Part 9 synthesis on the relevant ingredient and product pages, not in this source page. The mg/L value is reported here as the paper reports it; the basis caveat is flagged.
-- **Speciation.** No speciation performed; total Cd, Pb, Cu, Zn only. Frontmatter uses unspeciated metal symbols accordingly.
+- **Speciation.** No speciation performed; total Cd, Pb, Cu, Zn only. source metadata uses unspeciated metal symbols accordingly.
 - **LOD/LOQ.** Not reported in the paper. Two mushroom Cd values and two bean Pb values are listed as "ND" in Table 1; the practical detection floor is not stated.
 - **Sample-size limitation.** n=16 (4 per product type) from a single supermarket on a single occasion. The authors acknowledge this as a baseline study limitation; treat reported ranges as indicative rather than representative of the Palestinian canned-food supply chain.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

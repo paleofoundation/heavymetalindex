@@ -64,21 +64,20 @@ Total arsenic determined by atomic absorption spectrophotometry with hydride gen
 
 This study provides biomonitoring evidence for placental transfer and breast-milk excretion of arsenic in a population chronically exposed through drinking water at 47.7 µg/L (nearly fivefold the WHO standard of 10 µg/L). The persistence of elevated urinary arsenic in neonates 4 days after birth despite theoretical elimination kinetics supports breast milk as a continuing exposure source. The paper notes that, despite high maternal drinking-water exposure, arsenic levels in breast milk were relatively low (approximately 10-fold lower than water levels), attributed to efficient maternal methylation and excretion during lactation. This finding supports a protective effect of exclusive breastfeeding compared to formula reconstituted with arsenic-contaminated water in high-exposure areas. The study identifies a vulnerable exposure window in utero and early postnatal period and notes that neonates in the exposed region may experience more severe health outcomes than reported in lower-exposure US cohorts, underscoring the importance of follow-up for comorbidity associations in later life.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/arsenic]]
 - [[ingredients/breast-milk]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d0](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d0) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53e](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53e) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 <!-- END: hmi-page-history -->

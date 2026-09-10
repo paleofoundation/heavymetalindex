@@ -155,7 +155,7 @@ For inorganic tin, the Committee's task was a re-examination of the basis for es
 
 License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms. Redistribution permitted non-commercially with attribution and under the same or equivalent license. Heavy Metal Index extracts numerical findings and Committee conclusions as facts and paraphrases narrative content; no verbatim passages of substantial length are reproduced.
 
-The PDF as held in `raw/` (SHA-256 `fb94852b5c3cc476c779d2378cc7610ca6f9e025d483ebb9c14b6b08875cbbb7`) is the official WHO publication (ISBN 92 4 120930 5, ISSN 0512-3054), published by WHO Geneva in 2006 and printed in Singapore. Cover and title-page typography identify "WHO Technical Report Series 930" and the meeting as "Sixty-fourth report of the Joint FAO/WHO Expert Committee on Food Additives." The Contents lists six agenda compounds: acrylamide, cadmium (impact assessment of different maximum limits), ethyl carbamate, inorganic tin, polybrominated diphenyl ethers, and polycyclic aromatic hydrocarbons.
+The PDF as held in the archived source file (SHA-256 `fb94852b5c3cc476c779d2378cc7610ca6f9e025d483ebb9c14b6b08875cbbb7`) is the official WHO publication (ISBN 92 4 120930 5, ISSN 0512-3054), published by WHO Geneva in 2006 and printed in Singapore. Cover and title-page typography identify "WHO Technical Report Series 930" and the meeting as "Sixty-fourth report of the Joint FAO/WHO Expert Committee on Food Additives." The Contents lists six agenda compounds: acrylamide, cadmium (impact assessment of different maximum limits), ethyl carbamate, inorganic tin, polybrominated diphenyl ethers, and polycyclic aromatic hydrocarbons.
 
 The 64th-meeting report (TRS 930) is the high-level summary document for the meeting. The detailed toxicological monographs for each agenda compound are published as the companion volume, WHO Food Additives Series 55 (2006), which is a separate primary document not included in this source page. Where this page references "Annex 1 reference 24" for the newly available tomato-juice tin study, the underlying primary paper is the FAS 55 inorganic-tin monograph reference and would need to be ingested separately if its primary data are needed.
 
@@ -182,13 +182,13 @@ The 64th-meeting report (TRS 930) is the high-level summary document for the mee
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -61,18 +61,18 @@ Milk values are directly routeable for dairy context. Rice bran and paddy straw 
 
 - Source identity checked against DOI 10.30954/2277-940X.03.2022.11 and the downloaded PDF.
 - 2026-06-09 autonomous audit (verdict QUARANTINE) corrected two cross-row transpositions in `## Key numbers`: the "rice bran Pb" sentence had been populated with soil-Cd values (D0 0.44, D1 0.56, D2 0.52, D3 0.40), and the "Cd in soil" sentence had been populated with soil-Cr values (D2 22.57, D3 17.28, D0 15.49) plus a fabricated D1 value 23.89±0.27 that appeared in no Table 1 cell. The actual values were transcribed directly from Table 1 (p. 385): rice bran Pb D0 2.58, D1 4.52, D2 4.64, D3 3.18 mg/kg; soil Cd D0 0.44, D1 0.56, D2 0.52, D3 0.40 mg/kg; soil Cr D0 15.49, D1 22.50, D2 22.57, D3 17.28 mg/kg. Statistic type is Mean±SE per the Table 1 caption.
-- Independent verification caught: the `publication` frontmatter field previously read "International Journal of Agriculture, Environment and Biotechnology"; the PDF first-page header reads "Journal of Animal Research: v.12 n.3, p. 381-388, June 2022". Corrected.
+- Independent verification caught: the `publication` source metadata field previously read "International Journal of Agriculture, Environment and Biotechnology"; the PDF first-page header reads "Journal of Animal Research: v.12 n.3, p. 381-388, June 2022". Corrected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [ca48ab9e6](https://github.com/paleofoundation/heavymetalindex/commit/ca48ab9e6) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [ca48ab9e62](https://github.com/paleofoundation/heavymetalindex/commit/ca48ab9e62) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

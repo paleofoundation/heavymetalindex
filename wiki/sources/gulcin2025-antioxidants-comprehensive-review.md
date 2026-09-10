@@ -115,13 +115,13 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 
 ## Verification notes
 
-**Existing-page check.** DOI grep (`10.1007/s00204-025-03997-2`), raw_handle grep (`MFK_35-antioxidants`), and cite-key glob (`gulcin2025-*`) over `wiki/sources/` on 2026-06-08 returned no hits. The only Cd-toxicity/antioxidant-vitamin page (sitek2022) is a different paper by different authors. This is a NEW source page with no prior version to merge-enhance.
+**Existing-page check.** DOI grep (`10.1007/s00204-025-03997-2`), raw_handle grep (`MFK_35-antioxidants`), and cite-key glob (`gulcin2025-*`) over the linked reference record on 2026-06-08 returned no hits. The only Cd-toxicity/antioxidant-vitamin page (sitek2022) is a different paper by different authors. This is a NEW source page with no prior version to merge-enhance.
 
 **Evidence tier.** B (peer-reviewed narrative review). The paper reports no primary measurements, declares no systematic search strategy, and offers no risk-of-bias assessment. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither. The author is an established methodologist at Atatürk University with a substantial publication record in antioxidant chemistry methodology, and Archives of Toxicology is a Springer Nature toxicology journal indexed in PubMed/MEDLINE, which supports B over C.
 
-**Metals frontmatter.** Recording [Pb, Cd, tAs, tHg] — the four HMTc-priority metals the review explicitly names as toxic heavy metals (in the metal-chelating-assay introduction: "Examples include lead (Pb), cadmium (Cd), mercury (Hg), and arsenic (As)") and that EDTA is described as treating ("FDA has approved EDTA for treating lead and mercury poisoning"). The paper uses "Hg" and "As" without speciation; recording as `tHg` and `tAs` (the unspeciated/total tags) per the speciation discipline in [[docs/conventions]]. `iAs` and `MeHg` are not separately discussed and are omitted. `Cr` is mentioned only in the Fenton-like reagent context (Cr³⁺ + H₂O₂) without contamination relevance and is omitted; `Cr-VI` is not discussed. `Ni`, `Al`, `Sn` are not in scope of the review. Out-of-HMTc-vocabulary metals heavily discussed (Fe, Cu, Zn, Mn) drive the review's chemistry content but do not appear in HMTc analyte vocabulary frontmatter.
+**Metals source metadata.** Recording [Pb, Cd, tAs, tHg] — the four HMTc-priority metals the review explicitly names as toxic heavy metals (in the metal-chelating-assay introduction: "Examples include lead (Pb), cadmium (Cd), mercury (Hg), and arsenic (As)") and that EDTA is described as treating ("FDA has approved EDTA for treating lead and mercury poisoning"). The paper uses "Hg" and "As" without speciation; recording as `tHg` and `tAs` (the unspeciated/total tags) per the speciation discipline in [[docs/conventions]]. `iAs` and `MeHg` are not separately discussed and are omitted. `Cr` is mentioned only in the Fenton-like reagent context (Cr³⁺ + H₂O₂) without contamination relevance and is omitted; `Cr-VI` is not discussed. `Ni`, `Al`, `Sn` are not in scope of the review. Out-of-HMTc-vocabulary metals heavily discussed (Fe, Cu, Zn, Mn) drive the review's chemistry content but do not appear in HMTc analyte vocabulary source metadata.
 
-**Ingredients, products, matrices frontmatter.** All empty. The review measures nothing in any food, beverage, personal-care, or environmental matrix; it surveys antioxidant assay chemistry without primary sampling. Food constituents discussed (fruits, vegetables, tea, olive oil, polyphenol-rich extracts, curcumin, resveratrol, quercetin, usnic acid) are referenced in the context of antioxidant assay performance, not heavy-metal occurrence. Routing these to ingredient pages would misrepresent the source as occurrence-side evidence.
+**Ingredients, products, matrices source metadata.** All empty. The review measures nothing in any food, beverage, personal-care, or environmental matrix; it surveys antioxidant assay chemistry without primary sampling. Food constituents discussed (fruits, vegetables, tea, olive oil, polyphenol-rich extracts, curcumin, resveratrol, quercetin, usnic acid) are referenced in the context of antioxidant assay performance, not heavy-metal occurrence. Routing these to ingredient pages would misrepresent the source as occurrence-side evidence.
 
 **Jurisdictions.** [TR]. The author is at Atatürk University in Erzurum, Türkiye; open-access funding from TÜBİTAK (Scientific and Technological Research Council of Türkiye). The review cites US regulatory framing (FDA approval of EDTA) but the review itself is Turkish-sited methodological work, not a US, EU, or international monograph. Recording TR only.
 
@@ -133,9 +133,9 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 
 **HMTc firewall (Part 2).** The review contains no HMTc-threshold language and no consumer-audience risk advisories. The closest is the statement that EDTA "is also effective in eliminating excess iron from the body" and "the FDA has approved EDTA for treating lead and mercury poisoning" — clinical-pharmacology context, not a consumer or threshold claim. The review is upstream of any HMTc rationale tagging.
 
-**Speciation discipline.** The review uses unspeciated "Hg," "mercury," "As," and "arsenic" throughout the heavy-metals background section. The chelation-target list ("lead, cadmium, mercury, and arsenic") is unspeciated. Following [[docs/conventions]], `tHg` and `tAs` (total/unspeciated tags) are recorded in frontmatter; `iAs` and `MeHg` are not added since the paper does not separately distinguish the species.
+**Speciation discipline.** The review uses unspeciated "Hg," "mercury," "As," and "arsenic" throughout the heavy-metals background section. The chelation-target list ("lead, cadmium, mercury, and arsenic") is unspeciated. Following [[docs/conventions]], `tHg` and `tAs` (total/unspeciated tags) are recorded in source metadata; `iAs` and `MeHg` are not added since the paper does not separately distinguish the species.
 
-**Date arithmetic.** Received 31 January 2025, accepted 18 February 2025, published online 15 April 2025 — consistent with year frontmatter (2025). Article DOI 10.1007/s00204-025-03997-2 resolves to *Archives of Toxicology* Volume 99, pp 1893-1997.
+**Date arithmetic.** Received 31 January 2025, accepted 18 February 2025, published online 15 April 2025 — consistent with year source metadata (2025). Article DOI 10.1007/s00204-025-03997-2 resolves to *Archives of Toxicology* Volume 99, pp 1893-1997.
 
 **Open-access license.** The paper is published by Springer Nature under the Creative Commons Attribution 4.0 International License ("This article is licensed under a Creative Commons Attribution 4.0 International License, which permits any use, sharing, adaptation, distribution and reproduction in any medium or format..."). Recorded as CC-BY-4.0.
 
@@ -144,13 +144,13 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

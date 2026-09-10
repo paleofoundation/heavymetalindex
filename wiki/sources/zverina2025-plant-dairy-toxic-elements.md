@@ -148,17 +148,17 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 
 ## Verification notes
 
-**Existing-page check.** DOI grep (`10.1007/s00217-025-04775-1`), raw_handle grep (`MFD_zverina2025-plant-dairy-toxic-elements`), and cite-key glob (`zverina*`) over `wiki/sources/` all returned no hits on 2026-06-08. This is a NEW source page — no prior version to merge-enhance.
+**Existing-page check.** DOI grep (`10.1007/s00217-025-04775-1`), raw_handle grep (`MFD_zverina2025-plant-dairy-toxic-elements`), and cite-key glob (`zverina*`) over the linked reference record all returned no hits on 2026-06-08. This is a NEW source page — no prior version to merge-enhance.
 
 **Abstract vs Table 3 Cd value for homemade poppy-seed milk.** The abstract states "homemade poppy seed milk, exhibiting an elevated cadmium level (0.052 ± 0.04 mg/kg)" (= 52 ± 40 µg/kg); Table 3 reports the homemade poppy-seed milk Cd median as 58.8 µg/kg (range 13.4–85.0). The abstract value is most consistent with the mean ± SD across the three poppy-milk samples, whereas Table 3 reports the median; the two are not contradictory (a median of 58.8 with a wide range of 13.4–85.0 is consistent with a sample mean near 52 if the three values span the reported range). Both values are quoted on this page in their respective contexts (Table 3 as median, abstract narrative as mean ± SD) with no silent reconciliation.
 
 **Brand firewall (Part 12).** The source identifies samples only by product type (store-bought milk alternative, homemade flax-seed milk, etc.) and seed source. No brand names appear in the source text or in the wiki page. The methods section names instrument and reagent vendors (Analytika, Analpure, Anton Paar Multiwave Go plus, Analytik Jena ContrAA 800G/300, Merck, Suprapur, INCT, NIST 1570a, OriginPro) and one supplier-side reference (Czech Statistical Office for the 1.12 L/week consumption figure); these are scientific-method-vendor references permitted under the 2026-05-17 strict-reading exception to Part 12.
 
-**Speciation.** The source measured total Cd and total Pb only — no isotopic or chemical-form speciation is reported. The metals: frontmatter entries are Cd and Pb accordingly. The paper did not measure As, Hg, Ni, Al, Cr, Sn, Sb, or any other element from the HMTc priority list.
+**Speciation.** The source measured total Cd and total Pb only — no isotopic or chemical-form speciation is reported. The metals: source metadata entries are Cd and Pb accordingly. The paper did not measure As, Hg, Ni, Al, Cr, Sn, Sb, or any other element from the HMTc priority list.
 
 **Matrices vocabulary.** The matrices array uses `plant-based-drink`, `dairy-alternative`, and `soy-product` per the broad-matrix convention established for begday2026 and good2026. The source covers six PBDA categories (milk alternatives, cream alternatives, yogurt alternatives, cheese alternatives, tofu, homemade seed milks) but only three of these have product slugs in the current taxonomy: plant-milks-non-soy-non-rice, plant-milks-soy-based, plant-milks-rice-based (for the seed-milk and store-bought milk categories), and soy-products (for tofu). Plant-based yogurt, cream, and cheese alternative categories do not have product slugs in the snapshot dated 2026-05-18 and so the cream/yogurt/cheese-alternative findings are not routed to a dedicated product page; they remain associated with the source page itself and will be retrievable when those categories are added to the taxonomy.
 
-**Ingredient slug coverage.** The five oilseed types used to prepare homemade milks (flax, hemp, poppy, pumpkin, sesame) are not currently in the wiki ingredient taxonomy. The closest available umbrella slug (`plant-milk`) and the present-but-unrelated `sunflower-seeds` slug do not capture them. The seed-specific Cd findings are recorded in the Key numbers table on this page; downstream synthesis will need flax-, hemp-, poppy-, pumpkin-, and sesame-specific ingredient pages before per-seed contamination_profile values can be populated. This is a stub-creation candidate for tools/autonomy/create-missing-pages.mjs once the ≥freq-2 threshold is reached (e.g., by ingest of independent flax-seed or poppy-seed contamination studies).
+**Ingredient slug coverage.** The five oilseed types used to prepare homemade milks (flax, hemp, poppy, pumpkin, sesame) are not currently in the wiki ingredient taxonomy. The closest available umbrella slug (`plant-milk`) and the present-but-unrelated `sunflower-seeds` slug do not capture them. The seed-specific Cd findings are recorded in the Key numbers table on this page; downstream synthesis will need flax-, hemp-, poppy-, pumpkin-, and sesame-specific ingredient pages before per-seed contamination_profile values can be populated. This is a stub-creation candidate for the editorial record once the ≥freq-2 threshold is reached (e.g., by ingest of independent flax-seed or poppy-seed contamination studies).
 
 **Czech-Republic jurisdiction code.** The samples were collected in Brno, Czech Republic; jurisdictions: uses `CZ` (ISO 3166-1 alpha-2) and `EU` per the system-prompt vocabulary.
 
@@ -169,13 +169,13 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -60,18 +60,18 @@ Certification: Turkey sunflower-seed occurrence evidence with regional sampling.
 
 Values are from the abstract and confirmed against the figures on page 3. The reported µg/kg unit is unusually low for seed mineral measurements (typical sunflower seed Fe and Zn are ~50 mg/kg, ~1000× higher than what the paper reports); the paper's unit declaration is likely a mg/kg vs µg/kg labelling error, but the wiki page transcribes the source as printed. Do not pool these values into ingredient `contamination_profile` until the unit question is resolved.
 
-Cite-key/handle mismatch (2026-06-09 audit): the file's `cite_key: ozyazici2021-sunflower-seeds-metals` and `raw_handle: AUTO_gap-sunflower-seeds-cd-2021-10-31590-ejosat-873311` were generated from an autopilot stub that misattributed authorship. The PDF at `raw_path` is genuinely Gül V. & Kul S. (2021), DOI 10.31590/ejosat.873311 — the same DOI listed in frontmatter. Ozyazici/Dengiz/Aygun do not appear on this paper. Cite-key rename is locked to Karen; the page body and frontmatter authors/title were corrected on 2026-06-09 to reflect the actual paper. A future cite-key migration to `gul2021-sunflower-seeds-metals` (or similar) is recommended.
+Cite-key/handle mismatch (2026-06-09 audit): the file's `cite_key: ozyazici2021-sunflower-seeds-metals` and `raw_handle: AUTO_gap-sunflower-seeds-cd-2021-10-31590-ejosat-873311` were generated from an autopilot stub that misattributed authorship. The PDF at `raw_path` is genuinely Gül V. & Kul S. (2021), DOI 10.31590/ejosat.873311 — the same DOI listed in source metadata. Ozyazici/Dengiz/Aygun do not appear on this paper. Cite-key rename is locked to Karen; the page body and source metadata authors/title were corrected on 2026-06-09 to reflect the actual paper. A future cite-key migration to `gul2021-sunflower-seeds-metals` (or similar) is recommended.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c39f24bfe](https://github.com/paleofoundation/heavymetalindex/commit/c39f24bfe) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c39f24bfeb](https://github.com/paleofoundation/heavymetalindex/commit/c39f24bfeb) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

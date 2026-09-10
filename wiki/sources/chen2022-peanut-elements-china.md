@@ -79,16 +79,16 @@ Speciation and limitations: arsenic reported as total As (no inorganic/organic s
 
 ## Provenance notes
 
-Open-access article distributed under Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC) per the title-page licensing statement. Royal Society of Chemistry publication; *RSC Advances*, 2022, **12**, 16790–16797. DOI 10.1039/d2ra02148j confirmed against the article header. PDF retrieved into `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/` via the manual-fetch Kimi sweep.
+Open-access article distributed under Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC) per the title-page licensing statement. Royal Society of Chemistry publication; *RSC Advances*, 2022, **12**, 16790–16797. DOI 10.1039/d2ra02148j confirmed against the article header. PDF retrieved into the archived source file via the manual-fetch source-retrieval sweep.
 
 Source-internal note: the paper's CRM is GBW10011 (soybean, per Section 2.2 reagents/instrumentation) but the validation table (Table 2) and Section 2.4 reference GBW10013 as the assessment CRM. Both are soybean reference materials from the Institute of Geophysical and Geochemical Exploration of China; the methods text uses GBW10011 for digestion validation and GBW10013 for accuracy/precision assessment. The wiki preserves the GBW10013 reference because that is the CRM whose values are reported in the validation table.
 
 ## Verification notes
 
-- **2026-05-28 merge-enhance (Claude Opus 4.7, autonomous v2.0 manual-fetch skill).** EXISTING path: DOI grep against `wiki/sources/` matched this same page (`chen2022-peanut-elements-china.md`, DOI 10.1039/d2ra02148j). Prior page dated `updated: 2026-05-14`; full PDF re-read end-to-end (8 pages; Tables 1, 2, 3, 4 and 5 re-verified).
+- **2026-05-28 merge-enhance (automated editorial review, autonomous v2.0 manual-fetch skill).** EXISTING path: DOI grep against the linked reference record matched this same page (`chen2022-peanut-elements-china.md`, DOI 10.1039/d2ra02148j). Prior page dated `updated: 2026-05-14`; full PDF re-read end-to-end (8 pages; Tables 1, 2, 3, 4 and 5 re-verified).
 - **Preserved from prior page:** cite_key, evidence_tier (`A`), source_type (`peer-reviewed`), sample_n (66), publication, authors, year, DOI, metals list, ingredient and product slugs, matrices, jurisdictions, near_duplicates (empty).
-- **`raw_handle` updated** from legacy `manual-fetch-kimi` (folder placeholder, not a unique handle) to `MFK_determination-of-macro-micro-and-toxic-element-con` per current MFK_-prefix convention (matches the v2.0 skill's suggested handle and the sibling Manual Fetch Kimi naming pattern, e.g. `MFK_determination-of-heavy-metals-concentration-in-tra`).
-- **`raw_path` corrected** from truncated `"raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Determination of macro, micro and toxic element content in peanut.pdf"` to the actual filename `"...peanuts from six provinces in China.pdf"` (trailing-space convention in parent directory preserved).
+- **`raw_handle` updated** from legacy `manual-fetch-source-retrieval` (folder placeholder, not a unique handle) to `MFK_determination-of-macro-micro-and-toxic-element-con` per current MFK_-prefix convention (matches the v2.0 skill's suggested handle and the sibling Manual Fetch source-retrieval naming pattern, e.g. `MFK_determination-of-heavy-metals-concentration-in-tra`).
+- **`raw_path` corrected** from truncated `"the archived source file"` to the actual filename `"...peanuts from six provinces in China.pdf"` (trailing-space convention in parent directory preserved).
 - **`raw_sha256` added:** `ea2907a05664103ee24b16c2b4c1789b38ce98319f322bf2bd66b609b313354d` (computed locally from the PDF).
 - **`access_url` added:** `https://doi.org/10.1039/d2ra02148j` (DOI canonical resolver).
 - **`no_doi_assigned: false` added** to match the current source-page schema.
@@ -96,7 +96,7 @@ Source-internal note: the paper's CRM is GBW10011 (soybean, per Section 2.2 reag
 - **`sample_population` expanded** with per-province n breakdown (Jilin 10, Liaoning 10, Hebei 15, Henan 19, Guangxi 5, Guangdong 7), sampling protocol (≥3 kg lots from acquisition stations near harvest), and the fresh-weight basis. Prior version named only the provinces.
 - **Removed editorial Cd EU-ML comparison from Implications.** The prior page asserted that the maximum observed Cd (0.204 mg/kg) "is well below EU ML (0.20 mg/kg for peanuts — note: EU ML coincides with highest observed here)". This claim has two defects: (a) the paper does not cite the EU regulation, so the comparison is borderline-synthesis under Part 2; and (b) the math is wrong (0.204 mg/kg is *above* 0.20 mg/kg, not below). Removed; the Implications section now states only the regulatory comparisons the paper itself makes (China GB2762-2017 and Australia/NZ Food Standards Code).
 - **Removed HMTc-threshold-relevance phrasing from Implications.** The prior page said Ni concentrations "relevant for HMT&C Ni standards," which is a Part 2 wiki/HMTc firewall violation (the wiki reports what the literature says; it does not editorialize about HMTc threshold inputs on source pages). Removed; the Implications section now describes the Ni dataset on its own terms.
-- **Legacy heading `## Wiki pages updated on ingest` removed.** Replaced by the standard `## Provenance notes` + `## Verification notes` structure per current Part 6 / v2.0 template; downstream wiki pages this source routes to are derived from frontmatter by the routing layer, not maintained as a body-list.
+- **Legacy heading `## Wiki pages updated on ingest` removed.** Replaced by the standard `## Provenance notes` + `## Verification notes` structure per current Part 6 / v2.0 template; downstream wiki pages this source routes to are derived from source metadata by the routing layer, not maintained as a body-list.
 - **Key numbers section expanded** to add per-province Duncan-group letter codes for Cd and Ni (preserved verbatim from Table 3), to add the LDA classification numbers (Table 5), to add per-province Al and Ca values (Table 3), and to add the source-cited regulatory limits (China GB2762-2017 Cd and Cr; Australia 2009 ANZ Food Standards Code Cd). The prior page collapsed the LOD/LOQ list and omitted the Duncan-grouping superscripts that the paper uses to distinguish statistically significant provincial differences.
 - **Methods (brief) section expanded** to include digestion temperature ramp, RF power, isotope-per-element table, CRM source institution, ultrapure-water resistivity, statistical-software package, and the GBW10011 vs GBW10013 source-internal CRM discrepancy that prompts the note in Provenance.
 - **Numerical fidelity re-verified** against the PDF tables: Cd by province (Table 3), Pb by province (Table 3), As by province (Table 3), Cr by province (Table 3), Ni by province (Table 3), Al by province (Table 3), LODs and LOQs (Table 2), CRM recoveries (Table 2), LDA correct-classification 97.0% original / 78.8% cross-validated (Table 5), ANOVA p-values for non-significant elements (Pb p=0.516, Cr p=0.263, As p=0.077, Al p=0.222) — all verified verbatim from the paper.
@@ -106,13 +106,13 @@ Source-internal note: the paper's CRM is GBW10011 (soybean, per Section 2.2 reag
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

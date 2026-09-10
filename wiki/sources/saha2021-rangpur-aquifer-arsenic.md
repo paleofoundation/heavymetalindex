@@ -51,7 +51,7 @@ The abstract and results text report mean groundwater arsenic as 1.1793 μg/L. T
 
 Table 3 reports that sediment arsenic correlated significantly with iron at p < 0.05, with Pearson r = 0.648. Figure 3f gives R2 = 0.4199 for sediment As versus Fe, and Figure 4 gives R2 = 0.0902 for groundwater As versus sediment As. The authors interpret the positive correlations with sediment As, Fe, and Cu as evidence that groundwater arsenic derived from geogenic dissolution of arsenic-bearing aquifer minerals such as pyrite and arsenopyrite.
 
-The abstract notes that contemporary arsenic-speciation work in Bangladesh shows As(III) is common in natural water and foodstuffs and that arsenic is inorganic from source, but this study's own sediment and groundwater measurements are reported as arsenic without a study-specific species split. The frontmatter therefore uses `tAs`.
+The abstract notes that contemporary arsenic-speciation work in Bangladesh shows As(III) is common in natural water and foodstuffs and that arsenic is inorganic from source, but this study's own sediment and groundwater measurements are reported as arsenic without a study-specific species split. The source metadata therefore uses `tAs`.
 
 ## Methods (brief)
 
@@ -83,13 +83,13 @@ Numbers were checked against the abstract, Table 2, Table 3, Figures 3-4 text, t
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

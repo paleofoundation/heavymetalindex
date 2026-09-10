@@ -111,18 +111,18 @@ Systematic literature review of edible vegetable oils for consumption, 2015–20
 - 2026-05-17 Codex merge-enhance: identity checked against DOI 10.3390/app13053020 and the manual-fetch PDF at the updated `raw_path`; corrected legacy `raw_handle`/truncated path, added product routes for olive oil and other cooking oils, replaced rounded study-frequency percentages with the source's exact values, and corrected the Pb country attribution so 8.546–18.783 mg/kg is Iran/Italy olive oil while Pakistan olive oil is 1.321–7.249 mg/kg (Table 4).
 - `edible-oil`, `olive-oil`, `sunflower-oil`, `corn-oil`, and `rapeseed-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - The source discusses Codex named-vegetable-oil limits, Commission Regulation (EU) 2021/1317 for lead, Commission Regulation (EU) 2021/1323 for cadmium, GB/T23347-2021, and Spain RD 308/1983, but no exact regulation pages exist for several of those identifiers in the current wiki taxonomy. Surface these as regulation-page candidates rather than inventing slugs.
-- 2026-05-18 Cross-vendor audit (Codex) corrected Methods wording: detection-limit reporting is the Table 1 sensitivity-comparison filter, not a whole-review inclusion criterion, per pp. 2 and 5–6 of the PDF. Added the missing `[[metals/nickel]]` touch-link to match the frontmatter and source discussion of Ni among the reviewed metals.
+- 2026-05-18 Cross-vendor audit (Codex) corrected Methods wording: detection-limit reporting is the Table 1 sensitivity-comparison filter, not a whole-review inclusion criterion, per pp. 2 and 5–6 of the PDF. Added the missing `[[metals/nickel]]` touch-link to match the source metadata and source discussion of Ni among the reviewed metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

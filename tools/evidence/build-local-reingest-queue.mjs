@@ -38,6 +38,10 @@ const rawInventoryRows = fs.existsSync(rawInventoryPath) ? parseCsv(fs.readFileS
 const contextDispositionRows = fs.existsSync(contextDispositionPath)
   ? parseCsv(fs.readFileSync(contextDispositionPath, "utf8"))
   : []
+// A source may route to many product rows. Resolve it once, and inventory each
+// search root once; repeated recursive scans made the completion gate stall.
+const localSourceCache = new Map()
+const rootFileCache = new Map()
 const sourcePages = readSourcePages()
 const rawInventoryBySource = indexRawInventoryBySource(rawInventoryRows)
 const contextDispositionKeys = new Set(
@@ -101,7 +105,8 @@ console.log(`Wrote local reingest summary to ${path.relative(repoRoot, summaryPa
 
 function buildQueueRow(row) {
   const source = sourcePages.get(row.source_id) ?? {}
-  const localPdf = resolveLocalPdf(row.source_id, source)
+  if (!localSourceCache.has(row.source_id)) localSourceCache.set(row.source_id, resolveLocalPdf(row.source_id, source))
+  const localPdf = localSourceCache.get(row.source_id)
   const priority = queuePriority(row, localPdf)
 
   return {
@@ -185,7 +190,7 @@ function searchRawRootsByBasename(basename) {
 
 function findByBasename(root, basename) {
   if (!root || !fs.existsSync(root)) return ""
-  for (const filePath of walk(root)) {
+  for (const filePath of filesUnder(root)) {
     if (path.basename(filePath) === basename) return filePath
   }
   return ""
@@ -193,7 +198,7 @@ function findByBasename(root, basename) {
 
 function fuzzyFindPdf(sourceId, title = "") {
   const needles = new Set([sourceId, ...String(title).split(/\W+/).filter((word) => word.length >= 6)].map(normalizeText))
-  const pdfs = [...walk(path.join(repoRoot, "raw"))].filter((filePath) => /\.pdf$/i.test(filePath))
+  const pdfs = filesUnder(path.join(repoRoot, "raw")).filter((filePath) => /\.pdf$/i.test(filePath))
 
   let best = null
   for (const pdfPath of pdfs) {
@@ -342,6 +347,11 @@ function indexRawInventoryBySource(rows) {
     }
   }
   return indexed
+}
+
+function filesUnder(root) {
+  if (!rootFileCache.has(root)) rootFileCache.set(root, [...walk(root)])
+  return rootFileCache.get(root)
 }
 
 function* walk(dir) {

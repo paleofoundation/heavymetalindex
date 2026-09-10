@@ -64,9 +64,9 @@ App: If home-air emission product context is surfaced, this source can flag that
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the abstract, Methods, Tables 1-3, Supplementary Table 1 headings, and Supplementary Table 2 entry for tetracarbonylnickel were checked against this page.
-- Identity checks before creation: DOI `10.1007/s11869-020-00886-8`, exact title, raw handle `MFK_cat21-12-car-air-fresheners-volatile-emissions`, raw SHA-256 `16f085d20707bf560106aa193f97bacfe025c6edddf375de33ab75c875d721b7`, and candidate cite key `steinemann2020-car-air-freshener-vocs` were searched in `wiki/sources/` and `data/evidence/audit-queue.csv`; no existing source page was found.
+- Identity checks before creation: DOI `10.1007/s11869-020-00886-8`, exact title, raw handle `MFK_cat21-12-car-air-fresheners-volatile-emissions`, raw SHA-256 `16f085d20707bf560106aa193f97bacfe025c6edddf375de33ab75c875d721b7`, and candidate cite key `steinemann2020-car-air-freshener-vocs` were searched in the linked reference record and the structured evidence record; no existing source page was found.
 - Units: the key routeable metal-related result is prevalence count (`1` product), not a concentration. No mg/kg, ug/m3, or other concentration unit is reported for tetracarbonylnickel in the extracted text.
-- Speciation: the source reports `tetracarbonylnickel`, an organonickel species. The page routes this under `Ni` only because no closed frontmatter slug exists for tetracarbonylnickel, and it does not collapse the finding into total nickel.
+- Speciation: the source reports `tetracarbonylnickel`, an organonickel species. The page routes this under `Ni` only because no closed source metadata slug exists for tetracarbonylnickel, and it does not collapse the finding into total nickel.
 - Brand firewall: the paper does not report brand-specific values in the extracted text; product identities are treated as car air-freshener types only.
 - Product slug note: no exact car-air-freshener product slug exists in the current taxonomy. The page routes through `home-air-emission-products-other`.
 - Evidence tier: `B` because this is a peer-reviewed emissions study with transparent analytical methods, but it is not a quantitative metal occurrence study and the nickel-related result is presence/prevalence only.
@@ -74,13 +74,13 @@ App: If home-air emission product context is surfaced, this source can flag that
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -202,12 +202,12 @@ For HMTc category work, the regulation supplies:
 
 ## Verification notes
 
-- Ingested 2026-06-02 from the Kimi-agent download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). The filename references "488_2014" but the PDF content is the 2021/1323 amendment text itself; the filename is a misnomer carried over from the Kimi agent's batch naming. The actual regulation is 2021/1323, which superseded the cadmium rows that 488/2014 had set in 1881/2006.
+- Ingested 2026-06-02 from the source-retrieval download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). The filename references "488_2014" but the PDF content is the 2021/1323 amendment text itself; the filename is a misnomer carried over from the source-retrieval agent's batch naming. The actual regulation is 2021/1323, which superseded the cadmium rows that 488/2014 had set in 1881/2006.
 - The regulation page for this rule already exists at [[regulations/eu-2021-1323-cadmium-cereals-superseded]] (created 2026-05-18 during the Gacal et al. 2023 bread ingest with a cereals-only focus). The current source page transcribes the full Annex 3.2 row set, not just the cereal rows, since the regulation's scope is comprehensive across food categories.
 - Decimal commas in the maximum-level column are preserved verbatim from the Official Journal text. No silent conversion to decimal points or to µg/kg was performed.
 - No brand names appear in this regulation; no Part 12 redaction was required.
 - No HMTc threshold inference or synthesis claim added. The `## Implications` section describes occurrence-data routing and product-page-split alignment, not HMTc threshold proposals.
-- Audit subagent (2026-06-02) flagged `[[ingredients/salt]]` as a possible missing-slug proposal; verified against `wiki/ingredients/salt.md` (page exists on disk) and `docs/gpt-collaboration/taxonomy-snapshot.md` (the slug `salt` is present in the ingredients comma-separated list, immediately before `saltine-crackers`) — finding was a false positive. The slug is valid and is retained.
+- Audit editorial review (2026-06-02) flagged `[[ingredients/salt]]` as a possible missing-slug proposal; verified against the linked reference record (page exists on disk) and the editorial record (the slug `salt` is present in the ingredients comma-separated list, immediately before `saltine-crackers`) — finding was a false positive. The slug is valid and is retained.
 
 ## Sources
 
@@ -220,13 +220,13 @@ For HMTc category work, the regulation supplies:
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
-| [f61cce5b7](https://github.com/paleofoundation/heavymetalindex/commit/f61cce5b7) | 2026-06-02 | minor | Narrative text revised |
-| [3ca521600](https://github.com/paleofoundation/heavymetalindex/commit/3ca521600) | 2026-06-02 | major | 20 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc0](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc0) | 2026-06-02 | major | 1 section added |
+| [f61cce5b7c](https://github.com/paleofoundation/heavymetalindex/commit/f61cce5b7c) | 2026-06-02 | minor | Narrative text revised |
+| [3ca521600a](https://github.com/paleofoundation/heavymetalindex/commit/3ca521600a) | 2026-06-02 | major | 20 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

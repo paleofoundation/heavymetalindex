@@ -75,20 +75,20 @@ The paper provides product-level occurrence and feeding-direction intake estimat
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 powder row count from n=7 to n=8 and cow-milk-based powder count from n=6 to n=7; reassigned the 863.0 µg/L ready-made replicate maximum to the preterm product per Table 1; removed avoidable product-name-attributed values from Key numbers; and corrected `raw_path` to the matching SHA-256 PDF.
 - The current product taxonomy has no preterm-formula slug; the preterm-formula evidence is captured under `infant-formula-rtf-liquid-non-soy` for routing purposes but is a distinct subcategory in the literature. Flag for Karen per Part 10: consider `infant-formula-preterm-rtf` as a future product page if more preterm-formula evidence accumulates.
-- This page was enhanced 2026-05-17 from a Mode B (direct PDF) GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed product-name-specific values in Key numbers (Part 12 violation); aggregated to format/category level using product-form descriptors (preterm, soya-based, ready-made, powder) without naming sampled products. Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
+- This page was enhanced 2026-05-17 from a Mode B (direct PDF) automated editorial review fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed product-name-specific values in Key numbers (Part 12 violation); aggregated to format/category level using product-form descriptors (preterm, soya-based, ready-made, powder) without naming sampled products. Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
 - Strict Part 12 recheck (Codex, 2026-05-17) removed sampled-product names from the page body. The method instrument vendor/model remains in Methods because the current Part 12 Exception 2 permits scientific-method vendor names for reproducibility.
-- Manual-fetch recheck (Codex, 2026-05-18) updated the provenance to the `MFK_` PDF path, which is byte-identical to the older `raw/studies/1471-2431-10-63.pdf` file (SHA-256 `3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279`), and rewrote the legacy Certification/Courses/App implications into source-evidence context only.
+- Manual-fetch recheck (Codex, 2026-05-18) updated the provenance to the `MFK_` PDF path, which is byte-identical to the older the archived source file file (SHA-256 `3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279`), and rewrote the legacy Certification/Courses/App implications into source-evidence context only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

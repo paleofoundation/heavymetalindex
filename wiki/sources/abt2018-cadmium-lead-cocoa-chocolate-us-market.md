@@ -60,8 +60,7 @@ This is a convenience sample and not a market-representative sample of U.S. coco
 - Courses: Strong worked example of how percent cocoa and geographic origin together explain a substantial fraction of Cd variance in finished chocolate products. Useful for teaching the agronomic-to-finished-product chain that drives observed contamination.
 - App: Supports per-product-type and per-percent-cocoa risk profiles in chocolate-containing finished products. Cocoa-powder ingredients flagged at higher risk than cocoa-butter (which carries the fat fraction with little Cd) and at much higher risk than milk-chocolate finished products.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
 - [[metals/cadmium]]
@@ -70,12 +69,12 @@ This is a convenience sample and not a market-representative sample of U.S. coco
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [745aeed95](https://github.com/paleofoundation/heavymetalindex/commit/745aeed95) | 2026-05-08 | major | 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [745aeed959](https://github.com/paleofoundation/heavymetalindex/commit/745aeed959) | 2026-05-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

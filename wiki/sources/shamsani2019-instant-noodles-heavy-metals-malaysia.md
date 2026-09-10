@@ -100,7 +100,7 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 
 - Publication: Malaysian Journal of Medicine and Health Sciences Vol. 15 Supp. 3 (Aug 2019), eISSN 2636-9346, pages 143–146. Conference-proceedings extended abstract, not a peer-reviewed full article; evidence tier B reflects this. ResearchGate DOI mint is the upload landing page, not a journal-assigned DOI; `no_doi_assigned: true`.
 - Sample identifiers in the source paper are anonymous letter codes A–G with flavour descriptors (Curry, Tom Yam, Original Fried noodle, Chicken, Original seafood). These are flavour descriptors, not brand names; reproducing the source table is brand-firewall compliant.
-- Speciation: arsenic is total only; the source reports "As" without inorganic/organic split and uses the value against a Codex cereal-grain comparator that itself does not speciate. Frontmatter uses `tAs` and the wiki-link list uses `[[metals/arsenic-total]]`.
+- Speciation: arsenic is total only; the source reports "As" without inorganic/organic split and uses the value against a Codex cereal-grain comparator that itself does not speciate. source metadata uses `tAs` and the wiki-link list uses `[[metals/arsenic-total]]`.
 - Routing: instant noodles in the Malaysian market are wheat-based (paper explicitly states "Wheat flour is the main raw materials in making and processing of noodles"); routed to `pasta-wheat-based` only. No rice-based instant noodles in this sample, so `rice-noodles` is not declared. The earlier `katyal2020-instant-noodles-canada-metals` source declared both because it compared rice-based and wheat-based instant noodles directly.
 - Matrices: `instant-noodles-dry` and `dry-seasoning-pack` retained for parity with `katyal2020-instant-noodles-canada-metals`. The composite homogenate caveat (noodles+seasoning measured together, not separately) is in Limitations.
 - Sample-collection year is inferred (2018) from the "Proceedings of the Summer Crash Course Programme 2018" framing; not source-stated. `sampling_year_range` left as `[2018, 2018]` with this caveat in Limitations.
@@ -110,13 +110,13 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

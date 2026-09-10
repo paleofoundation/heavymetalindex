@@ -170,8 +170,7 @@ Courses: useful as a case study in educator-audience modules on (i) the differen
 
 Microbiome: not applicable.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -191,11 +190,11 @@ Microbiome: not applicable.
 - Reformatted `authors:` array from full-name strings to the project-standard `[Last F, Last F,...]` form and restored Polish diacritics: Wiśniewska, Kamiński. Author given-name initials verified against the title page.
 - Added missing provenance fields: `access_url` (DOI link) and `raw_sha256` (computed locally on the manual-fetch PDF, value d8e67c4657e4edbc1d5cd2364610fd6b853ce0d0f86fb2fa3cca8d1ba0b78a48).
 - Added `sampling_locations` and reformatted `sample_population` to make the soil-origin / pot-experiment distinction explicit.
-- **Plant-uptake ordering correction.** Prior revision stated "the authors summarize plant uptake as Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots" without distinguishing the SC control from the carbon-amended contaminated soils. Page 10 actually reports three orderings: (i) SC control roots = Zn > Cu > Pb > Ni > Cr > Cd; (ii) SC control shoots = Zn > Cu > Ni > Pb > Cr > Cd (Ni precedes Pb in shoots because shoot Ni 2.19 > shoot Pb 1.75); (iii) amended-contaminated-soil ordering = Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots, with the S4-with-carbon roots being an exception (Zn > Cu > Pb > Cr > Ni > Cd). Updated the Key numbers section to preserve all three orderings with their attributions. (Audit subagent on 2026-06-02 flagged that my first merge-enhance pass had collapsed the SC root and SC shoot orderings together as identical; verified against page 10 of the PDF — finding was correct, applied.)
+- **Plant-uptake ordering correction.** Prior revision stated "the authors summarize plant uptake as Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots" without distinguishing the SC control from the carbon-amended contaminated soils. Page 10 actually reports three orderings: (i) SC control roots = Zn > Cu > Pb > Ni > Cr > Cd; (ii) SC control shoots = Zn > Cu > Ni > Pb > Cr > Cd (Ni precedes Pb in shoots because shoot Ni 2.19 > shoot Pb 1.75); (iii) amended-contaminated-soil ordering = Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots, with the S4-with-carbon roots being an exception (Zn > Cu > Pb > Cr > Ni > Cd). Updated the Key numbers section to preserve all three orderings with their attributions. (Audit editorial review on 2026-06-02 flagged that my first merge-enhance pass had collapsed the SC root and SC shoot orderings together as identical; verified against page 10 of the PDF — finding was correct, applied.)
 - **Paper-internal typo on the S4-roots exception ordering (page 16).** The source text on page 16 paragraph 1 prints the S4-with-carbon roots exception as "Zn > Cu > Pb > Cr > Ni > As > Cd" — with "As" appearing in the chain. The paper never measures arsenic (Cu, Pb, Zn, Cd, Cr, Ni are the only six metals analyzed). This is a typesetting error in the source. The wiki silently presents the corrected ordering "Zn > Cu > Pb > Cr > Ni > Cd" (dropping the spurious As). Flagged here, not silently resolved.
 - **SEM model-number typo on page 4 of the source.** PDF page 4 prints the JEOL scanning electron microscope as "JJSM-6380 LA" with a double-J. The correct manufacturer catalog name is "JSM-6380 LA" (single J, JEOL JSM series). The wiki silently normalizes to the correct catalog name; the discrepancy is a source-side typo, not a wiki defect.
 - Updated legacy heading `## Wiki pages this source may touch` to the current convention `## Wiki pages updated on ingest`.
-- Removed `[[supply-chain/wastewater-irrigation]]` from the wiki-pages list. The page does not exist in `wiki/supply-chain/` and the paper does not discuss wastewater irrigation at all (the study is pot-experiment phytostabilization on industrial-waste soils, not field irrigation). Added `[[supply-chain/soil-to-plant-transfer]]` (page exists at `wiki/supply-chain/soil-to-plant-transfer.md`) and `[[mitigation/agronomic]]` + `[[mitigation/remediation-evidence]]` (both exist) as the correct routing targets for this paper's evidence.
+- Removed `[[supply-chain/wastewater-irrigation]]` from the wiki-pages list. The page does not exist in the linked reference record and the paper does not discuss wastewater irrigation at all (the study is pot-experiment phytostabilization on industrial-waste soils, not field irrigation). Added `[[supply-chain/soil-to-plant-transfer]]` (page exists at the linked reference record) and `[[mitigation/agronomic]]` + `[[mitigation/remediation-evidence]]` (both exist) as the correct routing targets for this paper's evidence.
 - Added page-number citations throughout the Key numbers section.
 - Added Conclusions (page 16) ordered-reduction strings for shoots (Cr 18.2 > Zn 11.5 > Ni 10.7 > Cu 10.3 > Cd 8.9 > Pb 2.4) and roots (Cu 13.3 > Cr 12.5 > Zn 10.5 > Pb 9.0 > Ni 5.7 > Cd 4.6) verbatim from the abstract and conclusions. Values match the prior revision's table; ordering is now preserved.
 - Added Forage Suitability Level (FSL) and Industrial Suitability Level (ISL) detail from Figure 5 / page 11 (only S4 with both double carbon doses met FSL on all six metals; ISL met for Pb except S4-with-carbon; etc.).
@@ -212,13 +211,13 @@ Microbiome: not applicable.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

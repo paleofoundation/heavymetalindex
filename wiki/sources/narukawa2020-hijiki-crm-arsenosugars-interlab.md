@@ -70,9 +70,9 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 
 ## Verification notes
 
-- raw_handle MFK_narukawa2020 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". No DOI was present in the extracted text; publication recorded as Analytical Sciences 2020, 36, 233–239 (The Japan Society for Analytical Chemistry); no_doi_assigned true, access_url null.
+- raw_handle MFK_narukawa2020 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". No DOI was present in the extracted text; publication recorded as Analytical Sciences 2020, 36, 233–239 (The Japan Society for Analytical Chemistry); no_doi_assigned true, access_url null.
 - Evidence tier A: peer-reviewed inter-laboratory metrology study with SI-traceable standards and full uncertainty budgets. Note this is a CRM-characterization, not a market survey — occurrence weight is limited to two hijiki reference materials (flagged in Implications for the extraction pass).
-- Speciation: total As and inorganic As reported; the inorganic measure here is specifically As(V) (the dominant inorganic species in hijiki; CRM 7405-a is certified for As(V), not for the As(III)+As(V) sum). Recorded as iAs in frontmatter with the As(V)-specific basis stated in Key numbers; As(III) was not separately certified/quantified. Arsenosugars (Sugar-408/328/482/392) and DMA were measured and tabulated but NOT lifted to frontmatter — they are not HMI analyte-vocabulary tokens and recording any of them as iAs would be a speciation error.
+- Speciation: total As and inorganic As reported; the inorganic measure here is specifically As(V) (the dominant inorganic species in hijiki; CRM 7405-a is certified for As(V), not for the As(III)+As(V) sum). Recorded as iAs in source metadata with the As(V)-specific basis stated in Key numbers; As(III) was not separately certified/quantified. Arsenosugars (Sugar-408/328/482/392) and DMA were measured and tabulated but NOT lifted to source metadata — they are not HMI analyte-vocabulary tokens and recording any of them as iAs would be a speciation error.
 - Units/basis preserved exactly (mg/kg dry mass; method LODs in ng/g). The candidate-material combined values (Table 2) are weighted means across the two labs; per-lab values are noted where relevant.
 - sample_n=2 reflects the two hijiki reference materials with reported arsenic values (candidate 7405-b and control 7405-a); the inter-lab design used 18 sub-samples per lab (6 bottles × 3 sub-samples), described in the body.
 - Brand firewall: not engaged. The materials are research reference materials (NMIJ/NIST CRMs); instrument and reference-material vendor names (Agilent, Thermo, Waters, NMIJ, NIST) are scientific-method reporting, permitted under Exception 2. No food brands.
@@ -82,13 +82,13 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

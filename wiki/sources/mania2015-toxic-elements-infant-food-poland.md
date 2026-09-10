@@ -127,19 +127,19 @@ Microbiome: Not addressed in this study.
 
 - Ingested 2026-05-18 from the gap-driven auto-fetch queue. The same PDF was downloaded four times for baby-cereals-dry-non-rice Cd, iAs, tAs, and tHg wishlist cells; all four files have identical SHA-256 `7d521247d2ced1b880a35d0648b4362666a3e8d0b813ce99bb5aac6fb90a74f8`. This page uses the Cd-targeted ingested path as `raw_path` and treats the other three paths as duplicate fetches for the same DOI.
 - DOI identity check found no existing wiki source page for `10.15244/pjoes/59306`; matches were only reference-list citations in other source markdown and wishlist-audit rows.
-- Speciation: frontmatter uses `tAs` and `tHg` because the paper measures total arsenic and total mercury. The exposure section discusses methylmercury and inorganic mercury as risk-assessment assumptions, not measured species.
+- Speciation: source metadata uses `tAs` and `tHg` because the paper measures total arsenic and total mercury. The exposure section discusses methylmercury and inorganic mercury as risk-assessment assumptions, not measured species.
 - Product routing follows the source's product groups. Rice gruel and milk/rice-based products route to rice-based baby cereal context; wheat gruel and mixed cereals route to non-rice baby cereal context; biscuits route to teething/snack context; ready-to-eat vegetable, vegetable-meat, fish, fruit, and juice categories route to the closest infant-food product pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

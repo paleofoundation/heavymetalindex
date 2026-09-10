@@ -36,6 +36,8 @@ import fs from "node:fs"
 import path from "node:path"
 import { randomUUID } from "node:crypto"
 import matter from "gray-matter"
+import { pathToFileURL } from "node:url"
+import { evidenceSources, renderNonDetect } from "./evidence/lib/ingredient-profile-evidence.mjs"
 
 const INGREDIENTS_DIR = path.join(process.cwd(), "wiki/ingredients")
 const AUDIT_LOG = path.join(process.cwd(), "data/evidence/wiki_edit_audit.jsonl")
@@ -43,6 +45,7 @@ const METALS = ["Pb", "Cd", "iAs", "tAs", "tHg", "Ni", "Al", "Cr", "Sn", "U"]
 const HEADING = "Heavy metal contamination profile"
 const APPLY = process.argv.includes("--apply")
 const CHECK = process.argv.includes("--check")
+const ONLY = process.argv.find((arg) => arg.startsWith("--only="))?.slice(7).split(",")
 
 const HEADER = "| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |"
 const SEP = "|---------|----------|---------------|------------|-------------|"
@@ -51,7 +54,8 @@ let scanned = 0
 let changed = 0
 const changedFiles = []
 
-for (const file of fs.readdirSync(INGREDIENTS_DIR).filter((f) => f.endsWith(".md")).sort()) {
+if (import.meta.url === pathToFileURL(process.argv[1] || "").href) {
+for (const file of fs.readdirSync(INGREDIENTS_DIR).filter((f) => f.endsWith(".md") && (!ONLY || ONLY.includes(f.replace(/\.md$/, "")))).sort()) {
   const filePath = path.join(INGREDIENTS_DIR, file)
   const content = fs.readFileSync(filePath, "utf8")
   const fm = content.match(/^---\n([\s\S]*?)\n---\n/)
@@ -96,10 +100,11 @@ console.log(
 if (!APPLY && !CHECK && changed > 0) {
   console.log("Sample:", changedFiles.slice(0, 8).join(", "))
 }
+}
 
 // ---------------------------------------------------------------------------
 
-function regenerate(content) {
+export function regenerate(content) {
   const headingRe = new RegExp(`^#{1,6}\\s+${escapeRegex(HEADING)}\\b.*$`, "m")
   const hm = content.match(headingRe)
   if (!hm) return content // no contamination-profile section on this page
@@ -108,7 +113,11 @@ function regenerate(content) {
   const afterHeading = hm.index + hm[0].length
 
   // Locate the first markdown table block after the heading.
-  const region = content.slice(afterHeading)
+  const tail = content.slice(afterHeading)
+  // A missing profile table must not make us overwrite a Sources or measured
+  // occurrence table in the next section (new source-bearing stubs hit this).
+  const nextHeading = tail.search(/\n#{1,6}\s/)
+  const region = nextHeading < 0 ? tail : tail.slice(0, nextHeading)
   const tableMatch = region.match(/\n(\|[^\n]*\|\n\|[\s|:-]+\|\n(?:\|[^\n]*\|\n?)*)/)
 
   const existingSources = tableMatch ? extractKeySources(tableMatch[1]) : {}
@@ -128,10 +137,16 @@ function buildTable(cp, existingSources) {
   for (const metal of METALS) {
     const c = cp[metal] || {}
     const coverage = renderCoverage(c)
-    const typical = renderTypical(c.typical_ppb)
+    const typical = c.value_kind === "source_non_detect" ? renderNonDetect(c)
+      : c.value_kind === "unquantified" ? "Not quantified"
+      : c.value_kind === "source_summary" ? `${renderTypical(c.typical_ppb)} (source LB)` : renderTypical(c.typical_ppb)
     const confidence = renderScalar(c.confidence)
     const hasValue = typical !== "—"
-    const sources = hasValue ? existingSources[metal] || "—" : "—"
+    // New or adjudicated profiles derive numbers and citations from the same
+    // record. Never carry a legacy FDA citation onto a WHO replacement value.
+    const ids = evidenceSources(c)
+    const sources = c.evidence ? (ids.map((id, index) => `[[sources/${id}\\|${index + 1}]]`).join(", ") || "—")
+      : hasValue ? existingSources[metal] || "—" : "—"
     lines.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }
   return lines.join("\n")
@@ -157,6 +172,7 @@ function extractContaminationProfile(content) {
     const c = cp[metal]
     if (!c || typeof c !== "object") continue
     out[metal] = {
+      ...c,
       status: c.status ?? null,
       typical_ppb: c.typical_ppb ?? null,
       p95_ppb: c.p95_ppb ?? null,
@@ -184,6 +200,8 @@ function extractKeySources(tableText) {
 }
 
 function renderCoverage(c) {
+  if (c.value_kind === "source_non_detect") return `n=${evidenceSources(c).length} dataset; composites=${(c.evidence || []).filter((e) => e.role === "value").reduce((n, e) => n + (Number(e.n) || 0), 0)}`
+  if (c.value_kind === "unquantified") return "Source context"
   if (!c.status) return "—"
   if (c.status === "pending") return "pending"
   if (c.status === "in_progress") return `n=${c.n_studies} (in progress)`

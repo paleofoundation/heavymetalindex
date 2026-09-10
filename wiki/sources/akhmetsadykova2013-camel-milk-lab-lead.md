@@ -76,7 +76,7 @@ App: Not directly informative for ingredient priors. The diet baseline value is 
 
 The PDF filename uses 2012 (submission/received year, 12 April 2012); the paper was published in Emir. J. Food Agric. Vol. 25 Issue 4, December 2012 online with formal 2013 issue dating. Cite-key uses publication year 2013 per HMI convention; raw_handle preserves the discover-skill filename.
 
-The fermentation substrate in this study was cow milk, not camel milk; the camel-milk connection is genealogical (LAB strains were isolated from fermented camel milk / shubat). Frontmatter matrix is therefore `cow-milk`, not `camel-milk` or `fermented-milk`, and the ingredient route is `milk-and-dairy` rather than a camel-specific ingredient slug.
+The fermentation substrate in this study was cow milk, not camel milk; the camel-milk connection is genealogical (LAB strains were isolated from fermented camel milk / shubat). source metadata matrix is therefore `cow-milk`, not `camel-milk` or `fermented-milk`, and the ingredient route is `milk-and-dairy` rather than a camel-specific ingredient slug.
 
 The 320 ppb Pb in the cow milk diet baseline is unusually high (16× the Codex limit). The paper does not state whether this is one composite sample, replicated, or a literature-imported value. It is presented in a single sentence: "Diet was slightly contaminated: in milk 0.32, water 0.12, and fodder 0.32, HNO3 0.1 ppm of lead was found." The Key numbers section quotes the value verbatim and flags the missing methods context rather than treating it as a survey-grade measurement.
 
@@ -89,13 +89,13 @@ No brand names appear in the source (Part 12 compliant). Method-vendor names (Ca
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

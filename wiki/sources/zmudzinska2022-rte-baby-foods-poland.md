@@ -149,13 +149,13 @@ Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fet
 
 4. **Key numbers expanded** with the full Table 3 (per-category exceedance counts), Table 5 (EDI/EWI/PTWI/BMDL by category), Table 6 (THQ/CR by category), and Table 7 (age-subgroup means). Prior version had only the abstract-level summary.
 
-5. **Speciation flagging clarified.** Page now states explicitly: As reported as total As (no inorganic-As speciation); Hg reported as total Hg (no MeHg speciation). `metals:` frontmatter correctly uses `tAs` and `tHg`.
+5. **Speciation flagging clarified.** Page now states explicitly: As reported as total As (no inorganic-As speciation); Hg reported as total Hg (no MeHg speciation). `metals:` source metadata correctly uses `tAs` and `tHg`.
 
-6. **Products field expanded** from 4 slugs (fish-containing-baby-foods, fruit-purees, meat-and-poultry-purees, baby-cereals-dry-non-rice) to 12, reflecting the six product categories the paper actually distinguishes (drinks, snacks, mousses, porridges, dinners, dairy partial). The prior `baby-cereals-dry-non-rice` slug was incorrect — the porridges are wet/ready-mixed, not dry-as-sold; replaced with `infant-cereal` (broad slug). Added: mixed-meals-non-rice, mixed-meals-rice-containing, non-root-vegetable-purees, infant-cereal, teething-and-snacks-non-rice, teething-and-snacks-rice-based, fruit-juices-apple-containing, fruit-juices-non-apple, flavored-waters. All slugs verified against `docs/gpt-collaboration/taxonomy-snapshot.md` (2026-05-17 snapshot).
+6. **Products field expanded** from 4 slugs (fish-containing-baby-foods, fruit-purees, meat-and-poultry-purees, baby-cereals-dry-non-rice) to 12, reflecting the six product categories the paper actually distinguishes (drinks, snacks, mousses, porridges, dinners, dairy partial). The prior `baby-cereals-dry-non-rice` slug was incorrect — the porridges are wet/ready-mixed, not dry-as-sold; replaced with `infant-cereal` (broad slug). Added: mixed-meals-non-rice, mixed-meals-rice-containing, non-root-vegetable-purees, infant-cereal, teething-and-snacks-non-rice, teething-and-snacks-rice-based, fruit-juices-apple-containing, fruit-juices-non-apple, flavored-waters. All slugs verified against the editorial record (2026-05-17 snapshot).
 
 7. **Ingredients field expanded** from 2 slugs (fish, fruit) to 6 (added vegetables, rice, milk-and-dairy, meat-and-poultry) to reflect the multi-ingredient compositional analysis. The `rice` slug is significant because the paper explicitly identifies rice as the carrier of As across snacks (fruit-bar-with-rice) and the hake/rice/vegetable Hg-max dinner.
 
-8. **Matrices field corrected.** Prior version had `[ready-to-eat-baby-foods, wet-weight]`; "ready-to-eat-baby-foods" is not in the matrices vocabulary (`docs/gpt-collaboration/system-prompt.md`) and "wet-weight" is a basis indicator, not a matrix. Replaced with valid matrix terms: `baby-food-puree, baby-snack, fruit-puree, vegetable-puree, infant-cereal, fruit-juice`. Wet-weight basis is now documented in Methods.
+8. **Matrices field corrected.** Prior version had `[ready-to-eat-baby-foods, wet-weight]`; "ready-to-eat-baby-foods" is not in the matrices vocabulary (the editorial record) and "wet-weight" is a basis indicator, not a matrix. Replaced with valid matrix terms: `baby-food-puree, baby-snack, fruit-puree, vegetable-puree, infant-cereal, fruit-juice`. Wet-weight basis is now documented in Methods.
 
 9. **Legacy heading replaced.** "## Wiki pages updated on ingest" → "## Wiki pages this source may touch" per current schema. No content inside the section was generator-owned (no marker blocks), so direct rewrite is safe.
 
@@ -168,13 +168,13 @@ Preserved from prior revision: cite_key, raw_handle, raw_path, license, access_u
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

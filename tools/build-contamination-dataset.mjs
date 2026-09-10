@@ -16,6 +16,8 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { profileEvidenceForExport } from "./evidence/lib/ingredient-profile-evidence.mjs"
+import { isPublicWikiRecord } from "./lib/source-publication.mjs"
 
 const repoRoot = process.cwd()
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
@@ -35,6 +37,7 @@ for (const file of files) {
   const slug = file.replace(/\.md$/, "")
   const raw = fs.readFileSync(path.join(ingredientsDir, file), "utf8")
   const fm = matter(raw).data
+  if (!isPublicWikiRecord(fm, `ingredients/${slug}`)) continue
   if (!fm.contamination_profile || typeof fm.contamination_profile !== "object") continue
 
   // Skip provisional / stub pages that don't yet have populated values for any
@@ -44,6 +47,7 @@ for (const file of files) {
   for (const [metal, cell] of Object.entries(fm.contamination_profile)) {
     if (!cell || typeof cell !== "object") continue
     metals[metal] = {
+      ...profileEvidenceForExport(cell),
       status: cell.status || "pending",
       typical_ppb: cell.typical_ppb ?? null,
       p95_ppb: cell.p95_ppb ?? null,
@@ -73,7 +77,7 @@ records.sort((a, b) => a.ingredient.localeCompare(b.ingredient))
 
 const dataset = {
   generated_at: generatedAt,
-  schema_version: "1.0.0",
+  schema_version: "1.1.0",
   license: {
     prose: "CC BY 4.0",
     structured_data: "EU database rights reserved — see https://heavymetalindex.com/licensing",

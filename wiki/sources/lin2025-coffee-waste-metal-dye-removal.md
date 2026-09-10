@@ -92,25 +92,25 @@ This page was built from the full PDF, including the abstract, reagents and synt
 
 The paper has four internal inconsistencies that the source page records without resolving:
 
-1. **Iron species:** the abstract and the FeCl3.6H2O method identify Fe3+, while Section 3.2 and the Figure 4 captions refer to Fe2+. Frontmatter uses broad Fe.
+1. **Iron species:** the abstract and the FeCl3.6H2O method identify Fe3+, while Section 3.2 and the Figure 4 captions refer to Fe2+. source metadata uses broad Fe.
 2. **CB activation energy:** Table 3 reports Ea = 53.7 kJ/mol for CB, while the body text on page 12 reports Ea = 39.8 kJ/mol (R2 = 0.839) for the same material. Figure 5f labels match the body text. The page reports Table 3 values in the body and flags the discrepancy here.
 3. **Cu/CB activation energy:** Table 3 reports Ea = 35.6 kJ/mol for Cu/CB, while the body text on page 12 reports Ea = 38.2 kJ/mol (R2 = 0.871). Figure 5f labels match the body text. The page reports Table 3 values in the body and flags the discrepancy here.
 4. **Fe/CB maximum pH removal:** the body text on page 12 states a maximum methylene blue removal of 95.2% at pH 4, but Figure 6b does not include a pH-4 condition and its highest value is 91.0% at pH 6.
 
-Products and ingredients are intentionally empty in frontmatter because this is a coffee-waste remediation study (Coffee Powder Trimmings used as engineered adsorbent and biochar precursor), not a coffee-food occurrence study. The routing layer therefore records this source as advisory-malformed for missing products/ingredients, which is the expected behavior for remediation-only evidence and is not a defect to fix.
+Products and ingredients are intentionally empty in source metadata because this is a coffee-waste remediation study (Coffee Powder Trimmings used as engineered adsorbent and biochar precursor), not a coffee-food occurrence study. The routing layer therefore records this source as advisory-malformed for missing products/ingredients, which is the expected behavior for remediation-only evidence and is not a defect to fix.
 
-Matrices vocabulary: `biochar`, `aqueous-sorption-test`, and `wastewater-remediation` are precedented slugs already used by other remediation source pages. `coffee-powder-trimmings` and `spent-coffee-grounds` are descriptive kebab-case tokens introduced by this paper and should be confirmed against the matrices controlled vocabulary on the next Karen review. Fresh-context audit subagent (2026-06-02) raised this as an advisory vocabulary note; no fidelity defects were found.
+Matrices vocabulary: `biochar`, `aqueous-sorption-test`, and `wastewater-remediation` are precedented slugs already used by other remediation source pages. `coffee-powder-trimmings` and `spent-coffee-grounds` are descriptive kebab-case tokens introduced by this paper and should be confirmed against the matrices controlled vocabulary on the next Karen review. Fresh-context audit editorial review (2026-06-02) raised this as an advisory vocabulary note; no fidelity defects were found.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

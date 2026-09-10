@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["food", "drinking-water"]
 type: source
 cite_key: epa-iris-cadmium-1989
 title: "Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-25
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # EPA IRIS — Cadmium Chemical Assessment Summary (1989)
@@ -46,9 +50,9 @@ This is the operative US Environmental Protection Agency Integrated Risk Informa
 
 ## Provenance notes
 
-License `us-government-work`. The primary source is the EPA IRIS database web page, which is the canonical agency reference for the assessment summary; values cited here are extracted directly from the EPA IRIS web resource at `iris.epa.gov`. The companion PDF "IRIS Summary" referenced on the EPA IRIS page is a 13-page document not currently held in `raw/`; SHA-256 verification of the raw PDF is pending future ingestion. The agency-website reference is a sufficient primary-source citation for the values recorded above because the IRIS database itself is the EPA's authoritative publication channel for chemical assessment summaries.
+License `us-government-work`. The primary source is the EPA IRIS database web page, which is the canonical agency reference for the assessment summary; values cited here are extracted directly from the EPA IRIS web resource at `iris.epa.gov`. The companion PDF "IRIS Summary" referenced on the EPA IRIS page is a 13-page document not currently held in the archived source file; SHA-256 verification of the raw PDF is pending future ingestion. The agency-website reference is a sufficient primary-source citation for the values recorded above because the IRIS database itself is the EPA's authoritative publication channel for chemical assessment summaries.
 
-The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft (separately retained in `raw/reports/EPA_IRIS_Cadmium_ToxicologicalReview.pdf`, ingested as a "deferred historical" document at [[sources/]] but without a finalized source page) proposed a reassessment that was never adopted. The 1989 values therefore remain the operative US federal cadmium oral reference doses.
+The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft (separately retained in the archived source file, ingested as a "deferred historical" document at [[sources/]] but without a finalized source page) proposed a reassessment that was never adopted. The 1989 values therefore remain the operative US federal cadmium oral reference doses.
 
 ## Implications
 
@@ -56,8 +60,7 @@ The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft 
 - Courses: the route-specific RfD distinction (water 0.5 vs food 1.0 µg/kg/day) is a teachable example of how EPA accounts for absorption-efficiency variation across exposure routes in the same metal.
 - App: the food RfD of 1 × 10⁻³ mg/kg/day (1.0 µg/kg/day) is the operationally relevant value for dietary exposure benchmarking. The water RfD applies separately for drinking-water contributions and should be tracked as a distinct exposure route.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[regulations/epa-iris-cadmium-rfd]]
 - [[synthesis]]
@@ -65,13 +68,13 @@ The 1989 assessment is the operative EPA IRIS RfD; a 1999 external review draft 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [7c398715c](https://github.com/paleofoundation/heavymetalindex/commit/7c398715c) | 2026-04-25 | major | 3 sources added; 5 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
+| [7c398715cb](https://github.com/paleofoundation/heavymetalindex/commit/7c398715cb) | 2026-04-25 | major | 3 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -120,18 +120,18 @@ Speciation absence: tAs and Cr values are total-element only. Any future use of 
 
 The Codex Stan 193-1995 raw-milk Pb maximum residue level cited by the authors (20 ng/g) is the General Standard for Contaminants and Toxins in Food and Feed limit, not the canned-foods Sn standard. The HMI regulation slug `codex-cxs-193-1995-tin-canned-foods` is the canned-tin standard and is not the appropriate wikilink target for the Pb finding here; the prose summary states the limit numerically without wikilinking.
 
-Audit subagent (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
+Audit editorial review (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

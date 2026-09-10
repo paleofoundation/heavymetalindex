@@ -82,8 +82,7 @@ App: Pork tissue type (lean vs marbled vs fat) is a candidate modifier of Cr(VI)
 
 Microbiome: Not applicable.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[ingredients/meat]]
@@ -100,23 +99,23 @@ Microbiome: Not applicable.
   - **"Naturally chromium-contaminated pork...from domestic market sampling":** the prior draft attributed the 80–85% / 20–35% / 2–4% free-Cr(VI) values to a naturally-contaminated cohort. The source applies these to spiked CCFP / CCMP / CCLP samples (Figure 1 caption; p. 4). The pork was purchased from a market but Cr(VI) was added in vitro. Corrected.
   - **Total-Cr method (ICP-OES claim):** prior draft asserted "total Cr by ICP-OES." The extracted PDF text does not name an ICP-OES instrument or method for total-Cr quantification. The DPC UV-vis method is specific to Cr(VI). Removed the unsupported ICP-OES claim.
   - **Authors:** prior draft listed authors as "Ren J, Wang Z, Yang F, Bie X, Lu F" — those names do not appear on the title page. Title page lists Jingya Ren, Guilong Zhang, Dongfang Wang, Jie Han, Zhengyan Wu, and Dongqing Cai. Corrected.
-- **Frontmatter slug correction:** prior draft used `[[ingredients/pork]]`, which is not a taxonomy slug (snapshot dated 2026-05-17). Replaced with `[[ingredients/meat]]` (umbrella anchor), plus `[[ingredients/pork-chop]]` (lean pork preparation, the CCLP analog) and `[[ingredients/pork-bacon]]` (fatty pork preparation, the CCFP analog) to give the routing layer enough to fan the source out to the right ingredient pages.
+- **source metadata slug correction:** prior draft used `[[ingredients/pork]]`, which is not a taxonomy slug (snapshot dated 2026-05-17). Replaced with `[[ingredients/meat]]` (umbrella anchor), plus `[[ingredients/pork-chop]]` (lean pork preparation, the CCLP analog) and `[[ingredients/pork-bacon]]` (fatty pork preparation, the CCFP analog) to give the routing layer enough to fan the source out to the right ingredient pages.
 - **Matrices vocabulary:** `pork` and `meat` are not in the standard matrices vocabulary in system-prompt.md (which centers on infant-formula, rice, fish, etc.). Retained the prior draft's `[pork, meat]` because no closer match exists; flagging for taxonomy review. If a `red-meat` or `pork-tissue` matrix is added, this page should be revisited.
 - **Jurisdictions:** changed from `[]` to `[CN]`. Study performed in Hefei, China; authors from Chinese Academy of Sciences; pork sourced from a Hefei market. This is a methods/mitigation study with no jurisdictional limit-comparison content, but the experimental context is unambiguously Chinese.
-- **Removed `[[mitigation/electron-beam-irradiation]]`** from the Wiki-pages-updated-on-ingest section; no such page exists. The mitigation framing belongs in `wiki/processing.md` or a future dedicated electron-beam page; this source page does not create that page.
-- **2026-05-18 audit-application (fresh-context subagent, verdict REVISE).** Subagent flagged the prior wording "approximately 96–98% RE in CCLP at 20 kGy/150 ppm (Figure 2A)" as a misreading of Figure 2A. Verified against PDF: page 1 Introduction explicitly states "a reductive efficiency of approximately 80% for the free Cr(VI)" as the paper's general headline result, with the 98.03% in the abstract being the single highest-condition maximum across the study (not specifically CCLP at 20 kGy/150 ppm baseline). Visual reading of Figure 2A bars at 20 kGy/150 ppm sits in the ~80–85% band; the abstract's 98.03% peak is more consistent with stress-condition panels (Figure 3) or CCMP/CCFP at specific conditions. Corrected the Key numbers framing to: paper's "approximately 80%" headline + 98.03% as study-wide maximum (panel unspecified) + tissue-specific visual readings (CCLP ~80–85%, CCMP ~95% at 20 kGy/150 ppm).
-- Subagent also downgraded its Check 2 concern about `pork-chop`/`pork-bacon` as analog ingredient slugs from ❌ to ⚠️ on closer read (the slugs are valid taxonomy entries; the mapping is a routing-discipline judgment). Left as-is; the routing rationale is already documented in this Verification notes block and the page benefits from fanning out to the lean (pork-chop) and fatty (pork-bacon) ingredient anchors that this study's findings differentially apply to. Acknowledged without change.
+- **Removed `[[mitigation/electron-beam-irradiation]]`** from the Wiki-pages-updated-on-ingest section; no such page exists. The mitigation framing belongs in the linked reference record or a future dedicated electron-beam page; this source page does not create that page.
+- **2026-05-18 audit-application (fresh-context editorial review, verdict REVISE).** editorial review flagged the prior wording "approximately 96–98% RE in CCLP at 20 kGy/150 ppm (Figure 2A)" as a misreading of Figure 2A. Verified against PDF: page 1 Introduction explicitly states "a reductive efficiency of approximately 80% for the free Cr(VI)" as the paper's general headline result, with the 98.03% in the abstract being the single highest-condition maximum across the study (not specifically CCLP at 20 kGy/150 ppm baseline). Visual reading of Figure 2A bars at 20 kGy/150 ppm sits in the ~80–85% band; the abstract's 98.03% peak is more consistent with stress-condition panels (Figure 3) or CCMP/CCFP at specific conditions. Corrected the Key numbers framing to: paper's "approximately 80%" headline + 98.03% as study-wide maximum (panel unspecified) + tissue-specific visual readings (CCLP ~80–85%, CCMP ~95% at 20 kGy/150 ppm).
+- editorial review also downgraded its Check 2 concern about `pork-chop`/`pork-bacon` as analog ingredient slugs from ❌ to ⚠️ on closer read (the slugs are valid taxonomy entries; the mapping is a routing-discipline judgment). Left as-is; the routing rationale is already documented in this Verification notes block and the page benefits from fanning out to the lean (pork-chop) and fatty (pork-bacon) ingredient anchors that this study's findings differentially apply to. Acknowledged without change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

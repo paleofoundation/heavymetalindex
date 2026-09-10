@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: []
 type: source
 cite_key: oehha-lead-prop65-listing
 title: "Lead and Lead Compounds — Proposition 65 Chemical Listing"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-03
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # OEHHA Prop 65 — Lead and Lead Compounds Listing
@@ -42,21 +46,20 @@ This is the California Office of Environmental Health Hazard Assessment Proposit
 | NSRL (No Significant Risk Level, oral cancer) | 15 ug/day |
 | MADL (Maximum Allowable Dose Level, reproductive toxicity) | 0.5 ug/day |
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[regulations/oehha-lead-prop65]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1e18eb986](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb986) | 2026-05-03 | minor | Narrative text revised |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [1e18eb9868](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9868) | 2026-05-03 | minor | Narrative text revised |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

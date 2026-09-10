@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+ingredients: ["infant-rice-cereal", "baby-cereals-dry", "oat-ring-cereal", "grape-juice", "peanut-butter", "quinoa", "raisins", "apple", "baby-food"]
 type: source
 cite_key: fda2016-infant-toddler-foods-inorganic-arsenic
 title: "Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers"
@@ -30,7 +33,8 @@ sample_n: 415
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-08
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # FDA 2016 - Infant/Toddler Foods Inorganic Arsenic
@@ -41,10 +45,10 @@ FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total
 
 ## Structured Extracts
 
-- `data/evidence/category1_fda2016_infant_cereal_ias_samples.csv`: sample-level iAs for FDA's `Cereal - Infant/Toddler (rice)` (n=76, all rice as only grain), `Cereal - Infant/Toddler (multigrain)` (n=6, contains rice and other grains), and `Cereal - Infant/Toddler (non-rice)` (n=30, oats/corn/wheat/multigrain with no rice). Trace `TR (x.x)` values preserved as reported.
-- `data/evidence/category1_fda2016_infant_cereal_ias_summary.csv`: per-row distributional statistics derived from the sample-level extract above, for rice-based and non-rice cereal subcategories.
-- `data/evidence/category5_grape_juice_inorganic_arsenic_samples.csv`: sample-level extract for the FDA `Juice - Grape` rows.
-- `data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv`: deterministic quantified-cell iAs summary rows for non-apple juice and broader not-canned fruit-juice context.
+- the structured evidence record: sample-level iAs for FDA's `Cereal - Infant/Toddler (rice)` (n=76, all rice as only grain), `Cereal - Infant/Toddler (multigrain)` (n=6, contains rice and other grains), and `Cereal - Infant/Toddler (non-rice)` (n=30, oats/corn/wheat/multigrain with no rice). Trace `TR (x.x)` values preserved as reported.
+- the structured evidence record: per-row distributional statistics derived from the sample-level extract above, for rice-based and non-rice cereal subcategories.
+- the structured evidence record: sample-level extract for the FDA `Juice - Grape` rows.
+- the structured evidence record: deterministic quantified-cell iAs summary rows for non-apple juice and broader not-canned fruit-juice context.
 
 ## Key Numbers
 
@@ -98,13 +102,13 @@ Microbiome: No direct microbiome endpoint.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

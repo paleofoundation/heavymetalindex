@@ -68,7 +68,7 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 ## Verification notes
 
 - PDF read in full (25 pages) via the Read tool; abstract, sections 1–10, Figures 1–6, and the full references list (94 entries) all reviewed.
-- DOI `10.3390/biom15091311`, raw handle `MFK_49-dual-perspectives-on-peptide-zinc-complexation-`, and cite-key `han2025-peptide-zinc-complexation-aquatic-review` checked against `wiki/sources/`; no existing page (DOI/handle/cite-key greps all empty).
+- DOI `10.3390/biom15091311`, raw handle `MFK_49-dual-perspectives-on-peptide-zinc-complexation-`, and cite-key `han2025-peptide-zinc-complexation-aquatic-review` checked against the linked reference record; no existing page (DOI/handle/cite-key greps all empty).
 - Open access under CC-BY 4.0 per Wrexham University Research Online cover page and the MDPI Copyright notice on the first body page; recorded as `license: cc-by-4.0`.
 - Metals discussed are Zn²⁺ (primary), with brief mentions of Cu²⁺ (Alzheimer's branched peptides), Fe²⁺ (intestinal transport proxy for clinical-trial design discussion), Ca²⁺ (CPP zinc/calcium phytate nanocomplexes), and Aβ–Zn aggregation chemistry. None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured or reviewed; `metals:` is therefore `[]`.
 - The paper reports peptide sequences, molecular weights, chelation rates, and dissociation constants, not contamination occurrence values in food matrices; `ingredients:` and `products:` are therefore `[]`. The aquatic protein sources cited (oyster, scallop, Alaska pollock skin, Antarctic krill, octopus, sea cucumber, tilapia, pufferfish, silver carp) are framed as carrier feedstocks for nutritional supplement manufacture and as protein-by-product valorization opportunities, not as products in which HMI heavy-metal contamination is being measured. Routing this source to ingredient or product pages would misrepresent the paper.
@@ -82,13 +82,13 @@ The peptide–zinc coordination chemistry the review describes — coordination 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

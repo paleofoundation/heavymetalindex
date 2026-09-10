@@ -68,14 +68,14 @@ Narrative review; no primary measurements. The authors aggregate values from app
 - Enhanced 2026-05-18 from prior 2026-05-14 revision. Cite_key, DOI, raw_path, license preserved.
 - **Numerical corrections to Table 2 transcription.** The prior revision had column-shifted values for Rice, Water Spinach, and Watercress rows. Corrected against the source PDF Table 2 (p.8): Rice Pb is 0.01–0.53* (not 0.12–0.37), Rice Cr is 0.12–0.37 (not 2.6–5.3), Rice Cu is 2.6–5.3 (not previously reported), Rice Ni is 0.25* (not 0.01–0.53). Water spinach Cd is 0.06–1.10* (not Pb), water spinach Hg is 1.44* (not Cd); Zn 16–36 belongs to the Rice row, not Water Spinach. Watercress Cr is 0.34 (not 0.30), watercress Co is 0.30* (newly included), watercress Ni 0.34* added. All values cross-verified to Table 2 columns.
 - **Paper-internal Hg inconsistency for water spinach.** The body (p.4) cites Göthberg et al. 2002 as "Hg concentrations of up to 1.440 µg kg⁻¹ dry weight"; Table 2 summarizes the same reference as 1.44 (mg/kg wet produce). The difference is three orders of magnitude. Reported here as the paper presents both, without choosing one over the other. Downstream synthesis should consult Göthberg et al. 2002 directly before using either value.
-- **Speciation discipline.** The review does not separate iAs/tAs or MeHg/tHg in its occurrence tables, so frontmatter uses tAs and tHg. The metals field expanded from the prior revision to include Cu, Zn, and Co because Table 2 reports occurrence values for those three across the cited species.
+- **Speciation discipline.** The review does not separate iAs/tAs or MeHg/tHg in its occurrence tables, so source metadata uses tAs and tHg. The metals field expanded from the prior revision to include Cu, Zn, and Co because Table 2 reports occurrence values for those three across the cited species.
 - **Raw handle correction.** Changed from non-standard `papers-cube` to `PCMF_article-1-copy-5` per the manual-fetch handle convention.
-- **Matrices.** Updated from `[rice, aquatic-vegetables, irrigation-water]` to `[rice, leafy-vegetable, root-vegetable, irrigation-water]` to align with the controlled vocabulary in `docs/gpt-collaboration/system-prompt.md`; aquatic-vegetables is not in the vocabulary, and leafy-vegetable + root-vegetable better describe what the review actually compiles (water spinach/watercress leaves; lotus tuber, taro corm).
+- **Matrices.** Updated from `[rice, aquatic-vegetables, irrigation-water]` to `[rice, leafy-vegetable, root-vegetable, irrigation-water]` to align with the controlled vocabulary in the editorial record; aquatic-vegetables is not in the vocabulary, and leafy-vegetable + root-vegetable better describe what the review actually compiles (water spinach/watercress leaves; lotus tuber, taro corm).
 - **Routing advisory.** `products: []` is correct for this review — it is a synthesis across food-source categories, not a product-category study; the advisory entry in `routing_malformed.csv` is expected and non-blocking for a review of this kind.
-- **Missing-ingredient-slug proposals.** Four declared ingredient slugs do not currently exist as wiki pages (verified 2026-05-18 against `wiki/ingredients/` directory): `water-spinach`, `lotus-root`, `watercress`, `taro`. Each is contributed to by this A-tier review; the freq-2+ auto-stub script will pick them up if a second contributing source appears, per Part 10. Documenting here so the audit's slug-vocabulary finding is explicit rather than implicit.
-- **Implications-section tightening 2026-05-18 (subagent audit).** Audit subagent (2026-05-18) flagged two Implications phrasings as boundary-extrapolating beyond what this single review supports ("rice-based infant cereals and rice flours" — verified not in source; "root-vegetable certification" scope decision — verified not in source). Both verified against source and softened to stay strictly within "contributes occurrence data" framing.
+- **Missing-ingredient-slug proposals.** Four declared ingredient slugs do not currently exist as wiki pages (verified 2026-05-18 against the linked reference record directory): `water-spinach`, `lotus-root`, `watercress`, `taro`. Each is contributed to by this A-tier review; the freq-2+ auto-stub script will pick them up if a second contributing source appears, per Part 10. Documenting here so the audit's slug-vocabulary finding is explicit rather than implicit.
+- **Implications-section tightening 2026-05-18 (editorial review audit).** Audit editorial review (2026-05-18) flagged two Implications phrasings as boundary-extrapolating beyond what this single review supports ("rice-based infant cereals and rice flours" — verified not in source; "root-vegetable certification" scope decision — verified not in source). Both verified against source and softened to stay strictly within "contributes occurrence data" framing.
 
-## Wiki pages updated on ingest
+## Related evidence
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -94,13 +94,13 @@ Narrative review; no primary measurements. The authors aggregate values from app
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

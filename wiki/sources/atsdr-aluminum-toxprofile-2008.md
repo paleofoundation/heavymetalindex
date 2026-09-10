@@ -127,18 +127,18 @@ The prior revision also omitted the soy-based and milk-based infant formula conc
 
 The prior revision's Implications block contained a wiki/HMTc firewall violation: "HMT&C calibration to the EFSA TWI is the more conservative posture" is a synthesis claim about HMTc policy that does not belong on a source page. The block has been removed; the literature comparison between ATSDR's MRL and EFSA's TWI is a legitimate observation, but the framing as guidance to HMTc belongs in a synthesis page or HMTc certification document, not here.
 
-Audit subagent (2026-06-04) flagged two Check 2 concerns: (1) `ingredients/soy-based-infant-formula` and `ingredients/milk-based-infant-formula` not in `docs/gpt-collaboration/taxonomy-snapshot.md`, and (2) `antacid-medication` not in the documented matrices vocabulary. Verified against the live wiki: `wiki/ingredients/soy-based-infant-formula.md` and `wiki/ingredients/milk-based-infant-formula.md` both exist (the taxonomy snapshot is generated 2026-05-18 and is stale; the ingredient pages predate it). False positive — slugs retained. The matrices concern was real: `antacid-medication` is not in the documented matrices list in `docs/gpt-collaboration/system-prompt.md` and antacids are pharmaceuticals rather than a food matrix. Removed `antacid-medication` from the matrices array; the source's antacid exposure data remains in Key numbers narrative form.
+Audit editorial review (2026-06-04) flagged two Check 2 concerns: (1) `ingredients/soy-based-infant-formula` and `ingredients/milk-based-infant-formula` not in the editorial record, and (2) `antacid-medication` not in the documented matrices vocabulary. Verified against the live wiki: the linked reference record and the linked reference record both exist (the taxonomy snapshot is generated 2026-05-18 and is stale; the ingredient pages predate it). False positive — slugs retained. The matrices concern was real: `antacid-medication` is not in the documented matrices list in the editorial record and antacids are pharmaceuticals rather than a food matrix. Removed `antacid-medication` from the matrices array; the source's antacid exposure data remains in Key numbers narrative form.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

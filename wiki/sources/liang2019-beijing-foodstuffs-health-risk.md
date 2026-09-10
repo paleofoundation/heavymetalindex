@@ -152,8 +152,8 @@ App: The source is best treated as regional dietary-exposure context for China r
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full Manual Fetch Kimi PDF. The previous page used the generic `manual-fetch-kimi` raw handle, a truncated raw path, empty product routing, and invalid links to nonexistent wheat-flour, millet, and China GB 2762 pages.
-- Fresh-context audit (Codex subagent, 2026-05-18) caught two source-fidelity errors in the merge-enhance: sample replicates were corrected from 75 to 300 (25 foodstuff types x four sites x three replicates per type per site), and digestion mass was corrected from 0.50 g to 0.2 g per Methods.
+- Merge-enhanced 2026-05-18 from the full Manual Fetch source-retrieval PDF. The previous page used the generic `manual-fetch-source-retrieval` raw handle, a truncated raw path, empty product routing, and invalid links to nonexistent wheat-flour, millet, and China GB 2762 pages.
+- Fresh-context audit (automated editorial review, 2026-05-18) caught two source-fidelity errors in the merge-enhance: sample replicates were corrected from 75 to 300 (25 foodstuff types x four sites x three replicates per type per site), and digestion mass was corrected from 0.50 g to 0.2 g per Methods.
 - Paper-internal food-list caveat: the Methods section names 25 foodstuff types and lists cereals as millet, flour, corn, and rice, while Table 1 visibly reports millet, corn flour, and wheat flour, omits a separate rice row, and prints onion twice. This page records both rather than forcing the Table 1 list to reconcile to 25 named types.
 - Paper-internal caveat: the Results text says Pb in chicken, fish, white gourd, and pork exceeded China's 0.2 mg/kg Pb limit. Table 1 supports chicken, multiple fish/shellfish entries, and white gourd; it reports pork Pb as 0.029 +/- 0.049 mg/kg and beef Pb as 0.201 +/- 0.111 mg/kg. This page preserves the mismatch rather than silently substituting beef for pork.
 - Paper-internal rounding/text caveat: the abstract says vegetables contributed 38.8% of the total TTHQ, while the Results section says 38.2%; Table 4 supports approximately 38.3% from 0.88 / 2.30.
@@ -162,13 +162,13 @@ App: The source is best treated as regional dietary-exposure context for China r
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

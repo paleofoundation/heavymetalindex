@@ -71,18 +71,18 @@ Microbiome: Not directly addressed. Later thesis chapters develop menstrual-bloo
 
 ## Verification notes
 
-Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-23-okwuegbuna-2025-thesis-menstrual-metals`, cite key `okwuegbuna2025-tampon-metal-release-thesis`, author/title strings, or local filename. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `ab95c759c5b503edcc3f19cbaa69d58d099787d3d8779a64a35a8e7a57618dbc`. Tables 7-12 and Sections 2.2-2.4 were re-opened from `/tmp/hmi-fem-015.txt`; all values preserve the source's reported units or signal-intensity labels, and no units were converted. Brand firewall: the source names four brands, but this page omits the names and reports only anonymized regular-cotton/organic-cotton product categories. Speciation firewall: Cd, Pb, and Cu are total elemental targets in digestion/SWV standards; no inorganic arsenic, methylmercury, Cr-VI, total tin, or organotin is reported. Zn is mentioned only as the author's possible explanation for an unidentified peak and is not routed as a measured metal.
+Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-23-okwuegbuna-2025-thesis-menstrual-metals`, cite key `okwuegbuna2025-tampon-metal-release-thesis`, author/title strings, or local filename. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `ab95c759c5b503edcc3f19cbaa69d58d099787d3d8779a64a35a8e7a57618dbc`. Tables 7-12 and Sections 2.2-2.4 were re-opened from `/tmp/hmi-fem-015.txt`; all values preserve the source's reported units or signal-intensity labels, and no units were converted. Brand firewall: the source names four brands, but this page omits the names and reports only anonymized regular-cotton/organic-cotton product categories. Speciation firewall: Cd, Pb, and Cu are total elemental targets in digestion/SWV standards; no inorganic arsenic, methylmercury, Cr-VI, total tin, or organotin is reported. Zn is mentioned only as the author's possible explanation for an unidentified peak and is not routed as a measured metal.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

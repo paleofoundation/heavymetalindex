@@ -20,7 +20,8 @@
       "maxDuration": 15
     },
     "api/evidence-packet.mjs": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "includeFiles": "wiki/static/evidence-packet-index.json"
     },
     "api/defense-dossier.mjs": {
       "maxDuration": 15

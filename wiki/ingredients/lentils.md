@@ -21,12 +21,15 @@ contamination_profile:
     n_studies: 11
     last_reviewed: 2026-05-16
   iAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: []
+    evidence_note: "The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified."
   tHg:
     status: populated
     typical_ppb: [0, 10]
@@ -83,7 +86,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 24
+sources: 25
 ---
 
 # Lentils
@@ -104,7 +107,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=8 | 13.8–46.3 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
 | Cd | n=11 | 0–10 | high | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| iAs | n=2 | 0 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=6 | 10–50 | low | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
 | tHg | n=5 | 0–10 | medium | [[sources/chaura2026-phaseolus-multiomics-ionomics\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
 | Ni | n=4 | 400–1500 | low | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/galal2021-heavy-metals-pisum-sativum\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
@@ -163,10 +166,36 @@ Lentils sold dry are not packaged in tin-lined cans; Sn migration is not applica
 
 EU Regulation 2023/915 sets a maximum level for Cd in dried legumes (pulses) of 0.10 mg/kg wet weight, applicable to lentils [[regulations/eu-2023-915-cadmium]]. The Pb limit for dried legumes under the EU framework is 0.10 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. These limits apply to the product as placed on the market (dry weight basis for dry lentils). Codex Alimentarius sets a maximum of 0.10 mg/kg for Cd in pulses under the General Standard for Contaminants and Toxins [[regulations/codex-cadmium-mls]], consistent with the EU limit. The United States does not set a statutory maximum for Pb or Cd in lentils. EFSA's 2009 Cd opinion established the EU tolerable weekly intake (TWI) of 2.5 µg/kg body weight per week and identified vegetarians, who consume legumes at high frequency, as a population subgroup approaching or exceeding this TWI from dietary sources alone [[sources/efsa-cadmium-contam-2009|7]].
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 546: Lentils, dry, cooked | tAs | 1 | 0 | ND in all composites | 3 |
+| 546: Lentils, dry, cooked | Cd | 1 | 1 | 1.5 | 1 |
+| 546: Lentils, dry, cooked | Cr | 1 | 0 | ND in all composites | 50 |
+| 546: Lentils, dry, cooked | Pb | 1 | 0 | ND in all composites | 4 |
+| 546: Lentils, dry, cooked | tHg | 1 | 0 | ND in all composites | 1 |
+| 546: Lentils, dry, cooked | Ni | 1 | 1 | 650 | 40 |
+| 546: Lentils, dry, cooked | U | 1 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The former exact-zero concentration had no supported measured-zero interpretation. Source observations are retained separately; a population concentration is not quantified.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review]], [[sources/codex-cxs-193-1995]].
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
@@ -175,6 +204,9 @@ Works cited in this page's text, in first-appearance order. This is not the full
 5. [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution]]<span class="hmi-ref-meta">Bandara JMRS, Wijewardena HVP, Liyanege J, Upul MA, and Bandara JMUA · Toxicology Letters 198(1):33–39 · 2010 · [doi.org/10.1016/j.toxlet.2010.04.016](https://doi.org/10.1016/j.toxlet.2010.04.016)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/ventura2025-portuguese-total-diet-study-trace-elements|Dietary Exposure to Essential and Toxic Trace Elements in the Portuguese Population: A Total Diet Study Approach]]<span class="hmi-ref-meta">Ventura M, Rego A, Gueifão S, Delgado I, and Coelho I · Foods · 2025 · [doi.org/10.3390/foods15050838](https://doi.org/10.3390/foods15050838)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 7. [[sources/valizadeh2023-canned-beans-iran-health-risk|Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran]]<span class="hmi-ref-meta">Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, and Kashi G · Scientific Reports (published 2023; open access) · 2023 · [doi.org/10.1038/s41598-025-34271-1](https://doi.org/10.1038/s41598-025-34271-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+9. [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review|Quality and sources of food and water consumed by people with chronic kidney disease of unknown etiology in Sri Lanka: a systematic review]]<span class="hmi-ref-meta">Uthayarajan N, Jayawardene KLTD, and Weerasekara I · Journal of Nephrology · 2025 · [doi.org/10.1007/s40620-024-02174-5](https://doi.org/10.1007/s40620-024-02174-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -194,32 +226,33 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 8 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | EU/NO/SE Cr occurrence in Scoping review for Nordic Nutrition Recommendations 2023; literature search on chromium in diet, supplementation, and health outcomes; Nordic... |
 | 9 | [[sources/sandil2023-arsenic-bean-lettuce\|Sandil et al. 2023]]. *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | HU tAs occurrence in Bean (Phaseolus vulgaris) and lettuce (Lactuca sativa) grown in controlled chamber conditions, irrigated with As-contaminated water at 0.1,... |
 | 10 | [[sources/valizadeh2023-canned-beans-iran-health-risk\|Valizadeh et al. 2023]]. *Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran*, Scientific Reports (published 2023; open access) | 2023 | Peer-reviewed | tAs, Cd, Pb, Sn, and tHg in 90 canned pinto and fava bean samples from 12 brands in Gilan Province, Iran (ICP-OES/EPA 7473); Hg below LOD in all samples, Cd detected in pinto beans only (max 4 ppb wet weight) |
-| 11 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
-| 12 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | EG Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V occurrence in Pisum sativum (garden pea) plants from 2 non-polluted farms and 2 polluted farms (5 quadrats per farm, 1... (n=20) |
-| 13 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
-| 14 | [[sources/efsa-nickel-contam-2020\|EFSA 2020]]. *Update of the Risk Assessment of Nickel in Food and Drinking Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | EFSA Ni risk assessment (TDI 13 µg/kg bw/day) drawing on >47,000 European occurrence data points, identifying legumes including lentils among the principal dietary Ni contributors; anchors the acute LOAEL of 4.3 µg/kg bw for Ni-sensitised individuals |
-| 15 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
-| 16 | [[sources/tatahmentan2020-rice-grains-elements\|TatahMentan et al. 2020]]. *Toxic and Essential Elements in Rice and Other Grains from the United States and Other Countries*, International Journal of Environmental Research and Public Health | 2020 | Peer-reviewed | US/CA/TH tAs, Pb, Cd, Cu, Fe, Mn, Zn occurrence in Rice and other grains purchased from local stores in Louisiana, USA: 28 white rice samples, 11 brown rice... |
-| 17 | [[sources/alam2019-lentil-arsenic-accumulation\|Alam et al. 2019]]. *Arsenic accumulation in lentil (Lens culinaris) genotypes and risk associated with the consumption of grains*, Scientific Reports | 2019 | Peer-reviewed | US tAs occurrence in Controlled greenhouse pot experiment at Washington State University using three lentil genotypes (pardina, red chief, and precoz), three... (n=81) |
-| 18 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | IR Pb, Cd occurrence in 21 cereal composites (7 grain types — rice, wheat, barley, peas, beans, corn, lentil — × 3 local... (n=21) |
-| 19 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook chapter on Cd toxicology (pp. 667–716) covering toxicokinetics, renal tubular endpoint, carcinogenicity, and risk assessment, with food occurrence data for legumes including lentils as dietary Cd contributors |
-| 20 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | IR Pb, Cd, Cr, Ni, Zn, Cu occurrence in 150 packed cereal samples representing 7 commodity types (rice, wheat, corn, peas, lentil, bean, split peas) collected from... (n=150) |
-| 21 | [[sources/islam2014-bangladesh-cereals-pulses-metals\|Islam et al. 2014]]. *Heavy Metals in Cereals and Pulses: Health Implications in Bangladesh*, Journal of Agricultural and Food Chemistry | 2014 | Peer-reviewed | BD Cr, Ni, Cu, Zn, tAs, Cd, Pb occurrence in Composite samples of rice, wheat, maize, lentil, and black gram collected from agricultural fields in the Bogra district... (n=144) |
-| 22 | [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|JMRS et al. 2010]]. *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*, Toxicology Letters 198(1):33–39 | 2010 | Peer-reviewed | Cd in rice, pulses (lentils and other legumes), and fish from Sri Lanka's North Central Province (ICP-AAS; n≈140 samples), establishing the pulse contribution alongside rice in the dietary Cd load linked to an epidemic of chronic renal failure |
-| 23 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion establishing the EU TWI of 2.5 µg/kg bw/week and reporting dietary Cd occurrence across European food groups including legumes; identifies vegetarians — high legume consumers — as an exposure subgroup exceeding the TWI by roughly twofold |
-| 24 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni concentrations in 2,221 food samples from the Danish National Food Institute literature survey (AAS/PIXE, 1969–1982), reporting lentils among the high-Ni foods alongside soy, oats, and cocoa, with a load factor analysis quantifying per-food contribution to total dietary Ni intake |
+| 11 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 12 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
+| 13 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | EG Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V occurrence in Pisum sativum (garden pea) plants from 2 non-polluted farms and 2 polluted farms (5 quadrats per farm, 1... (n=20) |
+| 14 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
+| 15 | [[sources/efsa-nickel-contam-2020\|EFSA 2020]]. *Update of the Risk Assessment of Nickel in Food and Drinking Water*, EFSA Journal 2020;18(11):6268 | 2020 | Government report | EFSA Ni risk assessment (TDI 13 µg/kg bw/day) drawing on >47,000 European occurrence data points, identifying legumes including lentils among the principal dietary Ni contributors; anchors the acute LOAEL of 4.3 µg/kg bw for Ni-sensitised individuals |
+| 16 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
+| 17 | [[sources/tatahmentan2020-rice-grains-elements\|TatahMentan et al. 2020]]. *Toxic and Essential Elements in Rice and Other Grains from the United States and Other Countries*, International Journal of Environmental Research and Public Health | 2020 | Peer-reviewed | US/CA/TH tAs, Pb, Cd, Cu, Fe, Mn, Zn occurrence in Rice and other grains purchased from local stores in Louisiana, USA: 28 white rice samples, 11 brown rice... |
+| 18 | [[sources/alam2019-lentil-arsenic-accumulation\|Alam et al. 2019]]. *Arsenic accumulation in lentil (Lens culinaris) genotypes and risk associated with the consumption of grains*, Scientific Reports | 2019 | Peer-reviewed | US tAs occurrence in Controlled greenhouse pot experiment at Washington State University using three lentil genotypes (pardina, red chief, and precoz), three... (n=81) |
+| 19 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | IR Pb, Cd occurrence in 21 cereal composites (7 grain types — rice, wheat, barley, peas, beans, corn, lentil — × 3 local... (n=21) |
+| 20 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook chapter on Cd toxicology (pp. 667–716) covering toxicokinetics, renal tubular endpoint, carcinogenicity, and risk assessment, with food occurrence data for legumes including lentils as dietary Cd contributors |
+| 21 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | IR Pb, Cd, Cr, Ni, Zn, Cu occurrence in 150 packed cereal samples representing 7 commodity types (rice, wheat, corn, peas, lentil, bean, split peas) collected from... (n=150) |
+| 22 | [[sources/islam2014-bangladesh-cereals-pulses-metals\|Islam et al. 2014]]. *Heavy Metals in Cereals and Pulses: Health Implications in Bangladesh*, Journal of Agricultural and Food Chemistry | 2014 | Peer-reviewed | BD Cr, Ni, Cu, Zn, tAs, Cd, Pb occurrence in Composite samples of rice, wheat, maize, lentil, and black gram collected from agricultural fields in the Bogra district... (n=144) |
+| 23 | [[sources/bandara2010-cadmium-rice-sri-lanka-crf\|JMRS et al. 2010]]. *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*, Toxicology Letters 198(1):33–39 | 2010 | Peer-reviewed | Cd in rice, pulses (lentils and other legumes), and fish from Sri Lanka's North Central Province (ICP-AAS; n≈140 samples), establishing the pulse contribution alongside rice in the dietary Cd load linked to an epidemic of chronic renal failure |
+| 24 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA CONTAM Cd opinion establishing the EU TWI of 2.5 µg/kg bw/week and reporting dietary Cd occurrence across European food groups including legumes; identifies vegetarians — high legume consumers — as an exposure subgroup exceeding the TWI by roughly twofold |
+| 25 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Ni concentrations in 2,221 food samples from the Danish National Food Institute literature survey (AAS/PIXE, 1969–1982), reporting lentils among the high-Ni foods alongside soy, oats, and cocoa, with a load factor analysis quantifying per-food contribution to total dietary Ni intake |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 3 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

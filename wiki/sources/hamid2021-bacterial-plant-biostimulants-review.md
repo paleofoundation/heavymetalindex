@@ -55,7 +55,7 @@ This is a narrative review with no primary measurements. The only quantitative i
 
 ### Table 1 commercial PGPR product inventory (pp. 4–5)
 
-Table 1 lists ~20 commercial PGPR-based biostimulant products (FZB24, Rhizovital 42, Inomix, BactoFil B10/A10, Bio-Gold, Cedomon, Rhizosum N, Liquid PSA, Micosat F, Bioscrop BT16, Amase, PGA, Nitroguard, TwinN, Symbion-N/P/K, Ceres, Gmax) with manufacturer, PGPR strain composition, target crops, and target function. None of these entries address heavy-metals contamination of the products themselves; they describe biostimulant formulations applied to crops. This is agricultural-input product data, not HMI food-and-supply-chain product data, so the commercial products are not loaded into HMI frontmatter `products:`.
+Table 1 lists ~20 commercial PGPR-based biostimulant products (FZB24, Rhizovital 42, Inomix, BactoFil B10/A10, Bio-Gold, Cedomon, Rhizosum N, Liquid PSA, Micosat F, Bioscrop BT16, Amase, PGA, Nitroguard, TwinN, Symbion-N/P/K, Ceres, Gmax) with manufacturer, PGPR strain composition, target crops, and target function. None of these entries address heavy-metals contamination of the products themselves; they describe biostimulant formulations applied to crops. This is agricultural-input product data, not HMI food-and-supply-chain product data, so the commercial products are not loaded into HMI source metadata `products:`.
 
 ## Methods (brief)
 
@@ -95,25 +95,25 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 
 ## Verification notes
 
-- Frontmatter `metals:` uses `tAs` (not `iAs`) and `tHg` (not `MeHg`) per Part 14 speciation discipline: the review names "As" and "Hg" as toxic metals in §3.3.5 without separating inorganic vs organic forms; the conservative reading is total. `[[metals/mercury-methyl]]` is intentionally not included in the wiki-pages bulleted list because the paper makes no specific mention of methylmercury (unlike Aishwarya 2024 which discusses MerB organomercurial lyase).
-- Frontmatter `ingredients:` and `products:` are intentionally empty. The paper measures and recommends nothing for any HMI ingredient or product category. The commercial PGPR biostimulants in Table 1 are agricultural inputs (biofertilizers/biostimulants applied to crops in the field), not food or personal-care products in HMI's scope, and they are not loaded into `products:`.
-- Frontmatter `matrices:` uses `[rhizosphere, contaminated-soil, plant-root]`. `rhizosphere` and `plant-root` are descriptive matrix slugs new to this source page; they are plausible analogues to `agricultural-soil` and `plant-tissue` already in the matrices vocabulary but should be confirmed on the next taxonomy review. `contaminated-soil` is precedented (see [[sources/aishwarya2024-extremophiles-bioremediation-review]]).
+- source metadata `metals:` uses `tAs` (not `iAs`) and `tHg` (not `MeHg`) per Part 14 speciation discipline: the review names "As" and "Hg" as toxic metals in §3.3.5 without separating inorganic vs organic forms; the conservative reading is total. `[[metals/mercury-methyl]]` is intentionally not included in the wiki-pages bulleted list because the paper makes no specific mention of methylmercury (unlike Aishwarya 2024 which discusses MerB organomercurial lyase).
+- source metadata `ingredients:` and `products:` are intentionally empty. The paper measures and recommends nothing for any HMI ingredient or product category. The commercial PGPR biostimulants in Table 1 are agricultural inputs (biofertilizers/biostimulants applied to crops in the field), not food or personal-care products in HMI's scope, and they are not loaded into `products:`.
+- source metadata `matrices:` uses `[rhizosphere, contaminated-soil, plant-root]`. `rhizosphere` and `plant-root` are descriptive matrix slugs new to this source page; they are plausible analogues to `agricultural-soil` and `plant-tissue` already in the matrices vocabulary but should be confirmed on the next taxonomy review. `contaminated-soil` is precedented (see [[sources/aishwarya2024-extremophiles-bioremediation-review]]).
 - `jurisdictions:` is empty because the review does not focus on any single country's heavy-metals contamination; the only jurisdiction-specific reference is to EU Regulation 2019/1009 on biostimulants as fertilizing products (§1, p. 2), which is a fertilizer-regulation not a heavy-metals-contamination regulation and does not match any current HMI regulations slug.
 - No brand firewall (Part 12) concerns identified. Table 1 names commercial biostimulant products with manufacturers (FZB24/ABiTEP, Inomix/Iabiotec, BactoFil/AGRO.bio Hungary, etc.), but these are agricultural-input vendors named in a product inventory, not contamination measurements attached to consumer-facing brands. The Part 12 firewall targets brand-name attribution of CONTAMINATION VALUES to sampled food/personal-care products; this paper has no such attribution. The commercial-product inventory is retained at the table-row count in Key numbers without per-row brand reproduction.
 - No wiki/HMTc firewall (Part 2) concerns identified. The review proposes no certification thresholds and makes no comparison to any HMTc framework.
 - This paper is borderline for HMI scope (single-paragraph heavy-metals coverage in a 24-page biostimulants review). Surfaced for Karen's awareness as a relevance edge-case; the source page is written at C-tier with explicit leads-only framing per the Aishwarya 2024 precedent.
-- Audit subagent (2026-06-02, PROMOTE verdict, all 5 checks clean) flagged one minor descriptive overreach in Limitations: an earlier draft claimed Cr was "discussed only in §3.4 contexts" — verified against the source that §3.4 (Disease Suppression) does not discuss Cr in any heavy-metals sense; the Limitations bullet was corrected to remove that overreach. No other findings.
+- Audit editorial review (2026-06-02, PROMOTE verdict, all 5 checks clean) flagged one minor descriptive overreach in Limitations: an earlier draft claimed Cr was "discussed only in §3.4 contexts" — verified against the source that §3.4 (Disease Suppression) does not discuss Cr in any heavy-metals sense; the Limitations bullet was corrected to remove that overreach. No other findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

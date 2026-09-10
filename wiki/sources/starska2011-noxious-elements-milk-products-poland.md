@@ -112,9 +112,9 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 
 ## Verification notes
 
-**2026-05-19 (Claude Code, merge-enhance against the source PDF).** The previous version of this page (dated 2026-05-14) had four classes of defect that this revision corrects:
+**2026-05-19 (automated editorial review, merge-enhance against the source PDF).** The previous version of this page (dated 2026-05-14) had four classes of defect that this revision corrects:
 
-1. **Invented or wrong slugs in frontmatter.** Previous `ingredients:` listed `ingredients/milk` and `ingredients/cheese`, neither of which exists in the current taxonomy. Replaced with `[[ingredients/milk-and-dairy]]` and `[[ingredients/whole-milk]]`, plus retained `[[ingredients/yogurt]]` and `[[ingredients/butter]]`. Cheese is carried in `matrices:` (cottage-cheese, maturing-cheese) rather than as an ingredient slug because no `cheese` ingredient page exists; only `cheddar-cheese` does, and this paper does not measure cheddar. Previous `products:` listed `products/mixed-meals-non-rice`, which is not applicable to a paper that measures milk, yogurt, cheese, butter, and ice cream; removed. `[[products/butter-and-ghee]]` is retained because the paper measures 61 butter samples explicitly.
+1. **Invented or wrong slugs in source metadata.** Previous `ingredients:` listed `ingredients/milk` and `ingredients/cheese`, neither of which exists in the current taxonomy. Replaced with `[[ingredients/milk-and-dairy]]` and `[[ingredients/whole-milk]]`, plus retained `[[ingredients/yogurt]]` and `[[ingredients/butter]]`. Cheese is carried in `matrices:` (cottage-cheese, maturing-cheese) rather than as an ingredient slug because no `cheese` ingredient page exists; only `cheddar-cheese` does, and this paper does not measure cheddar. Previous `products:` listed `products/mixed-meals-non-rice`, which is not applicable to a paper that measures milk, yogurt, cheese, butter, and ice cream; removed. `[[products/butter-and-ghee]]` is retained because the paper measures 61 butter samples explicitly.
 
 2. **Wrong compliance statement.** Previous wording read "No exceedances of the 0.020 mg/kg Pb limit for liquid milk were detected." Source page 4 explicitly states: "two samples of milk did not meet the 0.020 mg Pb/kg threshold provided for in the legislation; the highest result was 0.05 mg/kg." Corrected accordingly in both the opening prose and the Key numbers / Implications sections.
 
@@ -133,13 +133,13 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

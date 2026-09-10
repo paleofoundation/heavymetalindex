@@ -82,19 +82,19 @@ This source contributes historical Belgian duplicate-diet exposure context for m
 - Table 2 values were checked against the extracted text. Units are preserved as printed (`mg` and `µg` per 24-hour diet); no conversion to concentration units was performed.
 - Speciation: arsenic is total As and mercury is total Hg. The source does not report iAs or MeHg.
 - Routeability: this is duplicate-meal exposure evidence, not product concentration evidence. It is routed only to the broad mixed-meal row and should remain context-only for product standards unless a later method explicitly handles duplicate-diet composites.
-- Calcium was measured and reported in the Key numbers table as printed in the source, but Ca is not a Part 14 canonical HMI metal abbreviation and the taxonomy snapshot does not list a `metals/calcium` page, so Ca is omitted from the `metals:` frontmatter array and no calcium wiki-link is added.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+- Calcium was measured and reported in the Key numbers table as printed in the source, but Ca is not a Part 14 canonical HMI metal abbreviation and the taxonomy snapshot does not list a `metals/calcium` page, so Ca is omitted from the `metals:` source metadata array and no calcium wiki-link is added.
+- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

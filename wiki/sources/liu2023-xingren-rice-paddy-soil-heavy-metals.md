@@ -108,20 +108,20 @@ Speciation guardrails: the source reports total As and total Hg, not inorganic a
 
 Paper-internal caution: Figure 2/table text shows Pb soil SD as 38.20 mg/kg in the repeated caption, while one prose extraction line renders 36.57 mg/kg. The repeated Figure 2 caption value is used here and the discrepancy is flagged rather than silently harmonized. The abstract/conclusion also refer to risk caused by ingesting "rice husk," although the methods state that husks were removed before grain analysis; this page treats the concentration values as dehulled rice-grain data because that is the stated analytical matrix.
 
-Matrices vocabulary note (added 2026-06-02 post-audit): the matrix strings `paddy-soil`, `dehulled-rice-grain`, `rice-root`, `rice-stem`, and `rice-leaf` extend the common matrices vocabulary documented in `docs/gpt-collaboration/system-prompt.md`. `paddy-soil` has precedent in five other source pages; the four rice-tissue matrices are shared with `seyfferth2025-rice-water-management-as-hg-cd`. They are retained here for analytical precision (the paper reports tissue-level transfer factors that the canonical `rice` matrix would erase). Flagging per the system-prompt rule that vocabulary extensions be surfaced.
+Matrices vocabulary note (added 2026-06-02 post-audit): the matrix strings `paddy-soil`, `dehulled-rice-grain`, `rice-root`, `rice-stem`, and `rice-leaf` extend the common matrices vocabulary documented in the editorial record. `paddy-soil` has precedent in five other source pages; the four rice-tissue matrices are shared with `seyfferth2025-rice-water-management-as-hg-cd`. They are retained here for analytical precision (the paper reports tissue-level transfer factors that the canonical `rice` matrix would erase). Flagging per the system-prompt rule that vocabulary extensions be surfaced.
 
-Audit (2026-06-02 v2 skill subagent): verdict REVISE with two ⚠️ concerns. Concern on `[[mitigation/agronomic]]` and `[[testing/index]]` as out-of-snapshot wiki targets verified as a false positive — both pages exist in `wiki/mitigation/agronomic.md` and `wiki/testing/index.md`; the taxonomy snapshot only enumerates ingredient/product/metal/regulation slugs by design and is not a complete cross-namespace target list. Concern on non-canonical matrices verified as partially correct and documented in the matrices-vocabulary note above. Numerical fidelity, speciation, brand firewall, and HMTc firewall checks were all ✅ clean.
+Audit (2026-06-02 v2 skill editorial review): verdict REVISE with two ⚠️ concerns. Concern on `[[mitigation/agronomic]]` and `[[testing/index]]` as out-of-snapshot wiki targets verified as a false positive — both pages exist in the linked reference record and the linked reference record; the taxonomy snapshot only enumerates ingredient/product/metal/regulation slugs by design and is not a complete cross-namespace target list. Concern on non-canonical matrices verified as partially correct and documented in the matrices-vocabulary note above. Numerical fidelity, speciation, brand firewall, and HMTc firewall checks were all ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

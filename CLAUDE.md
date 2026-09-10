@@ -251,7 +251,7 @@ See [[docs/conventions]] for index and log structures.
 
 See [[docs/lint]] for the complete check list, the audit script behind each check, and which failures block the build.
 
-Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; currently `--warn-only` in prebuild while a pre-existing backlog drains, flips to build-blocking at zero), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`, build-blocking: no certification-program, outside-product, or toolchain vocabulary inside a generated `## Update history` or `## References` block), the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
+Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; build-blocking for unsupported zero profiles regardless of confidence or study count), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`) and whole source-body guard (`tools/clean-source-public-prose.mjs --check`), both build-blocking; source provenance/completion gaps are recorded by `tools/evidence/audit-source-contract.mjs` and false complete declarations block builds, the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
 
 ## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
 
@@ -297,20 +297,23 @@ For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly, 
 
 **Final HMT&C value = `min(per-analyte percentile, lowest applicable regulatory ceiling)`** with both in the row's native basis. Auto-emitted rationale tag is `literature-baseline` when the pooled percentile binds and `regulatory-alignment` when the cap binds.
 
-**ALARA + the §80th-percentile ratchet trigger** (per Governing Principles §"Two Percentile Mechanisms") drive tightening *after* publication. Remediation plans handle initial-publication brands above the limit. The standards-setting math here is for initial publication only.
+**ALARA + the §80th-percentile ratchet trigger** (per Governing Principles §"Two Percentile Mechanisms") drive tightening *after* publication. Remediation plans handle initial-publication brands above the limit. This paragraph is NOT part of the retired material above: the ratchet trigger is a post-publication tightening mechanism, not a limit-setting one, and it remains live under the CEO lock. It is the second of the two percentile mechanisms, and only the first (occurrence pooling for initial limit-setting) was retired on 2026-09-09.
 
 ### Rationale tagging on staged standards
 
-When a decision is staged in the workbench, one rationale tag is required:
+When a decision is staged in the workbench, one rationale tag is required. The vocabulary below is the live set, and it is the same set the canonical spec carries in `heavymetalcertified/data/method/method-v2.json` `rationale_tags` (amended 2026-09-09 under ORDER C-2). `literature-baseline` and `feasibility-driven` are RETIRED with the percentile mechanism and must not be applied to a new cell.
 
-- `literature-baseline` — the pooled per-analyte percentile is the binding value.
-- `regulatory-alignment` — the lowest applicable regulatory cap is the binding value.
-- `precautionary` — staff selects a value lower than both the pooled percentile and the regulatory cap, with documented rationale.
-- `feasibility-driven` — staff selects a value higher than the pooled percentile because current methods or supply-chain realities do not support the tighter value, paired with a sunset plan.
+- `regulatory-alignment` — the strictest applicable finalized government maximum is the binding value, converted to the row's native basis. Direct governance.
+- `read-across` — no government anywhere regulates the cell, so the nearest applicable sovereign value on that basis is adopted and disclosed as a read-across. Never presented as direct governance.
+- `subsumed` — a speciated analyte with no separate limit of its own (iAs, MeHg, Cr-VI) bounded by its parent total and measured by reflex when the total is exceeded.
+- `precautionary` — the program holds the cell below the strictest applicable government floor as a disclosed choice, with documented rationale. A published value is never looser than the strictest applicable law.
+- `not-material` — a substantiated, rebuttable determination that the analyte is not material to the cell, subject to the not-material integrity gate.
+- `control` — the cell is governed by a process control rather than a numeric ceiling.
+- `baseline-screen` — no ML, pathway, occurrence or analog exists, so the cell resolves to a method-LOQ baseline limit-of-record.
 
-The gap between literature-baseline and the final value is stated honestly. Failing to name the rationale is the lint failure.
+The gap between the government floor and the final value is stated honestly. Failing to name the rationale is the lint failure.
 
-See [[docs/standards-methodology]] for the pool admission rules, pooling math, sensitivity-band thresholds, the row-pass calibration math behind P97/P45, and the clean/dirty subcategory classification framework. See [[docs/schema-history]] for the deprecated "clean-platform / contaminated-platform" P90/P10/P20 framework.
+See [[docs/standards-methodology]] and [[docs/schema-history]] for the RETIRED percentile material (pool admission rules, pooling math, sensitivity bands, the row-pass calibration behind P97/P45, the clean/dirty subcategory framework, and the older "clean-platform / contaminated-platform" P90/P10/P20 framework). That material is historical reference only. It sets no live cell, and descriptive occurrence percentiles cited on generated pages are literature facts carrying no compliance weight.
 
 ## Parts 20-23 — Courses, app, microbiome, images
 

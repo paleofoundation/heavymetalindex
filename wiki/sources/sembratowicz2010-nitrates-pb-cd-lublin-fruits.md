@@ -119,15 +119,15 @@ Page rewritten 2026-05-19 from a 2026-05-14 revision against the source PDF. Cor
 - **Cd table expanded from one fruit to all five.** The prior revision listed cadmium values only for white grape and described the other species in prose; the source Table 2 reports the full five-fruit × two-site cadmium matrix, including the significant strawberry city-centre-versus-surroundings difference (0.04 a vs 0.01 b). All ten Cd rows added from the source.
 - **Dry-mass table (Table 3) added.** The prior revision only mentioned that dry-weight values existed; the full ten-row dry-mass table is now reproduced.
 - **Nitrate (III) and (V) table added.** The prior revision did not report the nitrate data even though nitrates are half of what the paper measures. The paper's framing is that nitrates in these fruits are well below the levels seen in leafy vegetables and below the EU ADI; reproducing the table preserves that result without crossing the wiki/HMTc boundary (nitrates are not in the HMTc analyte list).
-- **`raw_handle:`** corrected from `manual-fetch-kimi` (parent-folder placeholder, not a per-paper handle) to `MFK_contents-of-nitrates-iii-and-v-lead-and-cadmium` per the v2 manual-fetch handle convention.
+- **`raw_handle:`** corrected from `manual-fetch-source-retrieval` (parent-folder placeholder, not a per-paper handle) to `MFK_contents-of-nitrates-iii-and-v-lead-and-cadmium` per the v2 manual-fetch handle convention.
 - **`raw_path:`** corrected from the truncated `…Cadmium in the Selec.pdf` to the actual PDF filename `…Cadmium in the Selected Domestic Fruits from Lublin Region.pdf`.
 - **`raw_sha256:`** added (`b7a71ffc9da2312225e0845723f8c7a74fc0001af85741c6238aa923b2443b65`).
-- **`ingredients:`** corrected `[[ingredients/apples]]` (no such slug; `wiki/ingredients/apples.md` does not exist) to `[[ingredients/apple]]` (the actual slug, singular). All four other ingredient slugs (`plums`, `strawberries`, `raspberries`, `grapes`) were valid and were retained as-is.
+- **`ingredients:`** corrected `[[ingredients/apples]]` (no such slug; the linked reference record does not exist) to `[[ingredients/apple]]` (the actual slug, singular). All four other ingredient slugs (`plums`, `strawberries`, `raspberries`, `grapes`) were valid and were retained as-is.
 - **`sample_n:`** corrected from `108` to `54` per-site (with the 108 figure relocated into `sample_population` as the total across both sites × five species). The prior figure conflated per-site lot count with total determinations.
 - **`sample_population:`** rewritten to include the rural-allotment village names from the source (Niedrzwica Duża, Niedrzwica Kościelna, Krężnica Jara, Łuszczów, Biskupice), the harvest window (July–September 2007), and the duplicate-determination structure.
 - **Implications section rewritten** to reflect what the paper actually reports, with the corrected Pb-table site labels driving the species-specific conclusions about city versus surroundings effects.
 - **Legacy `## Wiki pages updated on ingest` section** replaced with `## Wiki pages this source may touch` per the current Part 6 source-page template.
-- Audit subagent (2026-05-19, fresh-context QA) flagged the wording "non-flame (graphite-furnace) AAS" in the summary and Methods as an inference (the PDF says only "non-flame AAS technique" without naming graphite-furnace, though PN-EN 14082's non-flame pathway is graphite-furnace and the LODs are consistent). Softened both occurrences to make the inference explicit rather than implicit: the lead paragraph now says "non-flame AAS … per PN-EN 14082," and the Methods paragraph carries a parenthetical noting that the PDF specifies "non-flame AAS" while PN-EN 14082's non-flame pathway is graphite-furnace.
+- Audit editorial review (2026-05-19, fresh-context QA) flagged the wording "non-flame (graphite-furnace) AAS" in the summary and Methods as an inference (the PDF says only "non-flame AAS technique" without naming graphite-furnace, though PN-EN 14082's non-flame pathway is graphite-furnace and the LODs are consistent). Softened both occurrences to make the inference explicit rather than implicit: the lead paragraph now says "non-flame AAS … per PN-EN 14082," and the Methods paragraph carries a parenthetical noting that the PDF specifies "non-flame AAS" while PN-EN 14082's non-flame pathway is graphite-furnace.
 
 ## Wiki pages this source may touch
 
@@ -144,13 +144,13 @@ Page rewritten 2026-05-19 from a 2026-05-14 revision against the source PDF. Cor
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

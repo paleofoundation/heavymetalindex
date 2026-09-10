@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:05:02.023Z",
+  "generated_at": "2026-09-10T09:52:55.464Z",
   "product_filter": "all",
   "include_structured": false,
   "include_visible_broad_context": false,
@@ -7,19 +7,21 @@
   "excluded_context_disposition_rows": 0,
   "excluded_visible_broad_context_rows": 1420,
   "excluded_visible_context_node_rows": 101,
-  "total_queue_rows": 4814,
+  "total_queue_rows": 4819,
   "by_priority": {
+    "P0-promote-direct-product-source": 4,
     "P1-extract-or-document-context-only": 4547,
     "P2-review": 17,
     "P2-confirm-local-pdf-match": 50,
-    "P3-find-local-pdf-or-web-copy": 200
+    "P3-find-local-pdf-or-web-copy": 201
   },
   "by_local_pdf_status": {
-    "local_pdf_found": 4564,
+    "local_pdf_found": 4568,
     "candidate_local_pdf_needs_review": 50,
-    "missing_local_pdf": 200
+    "missing_local_pdf": 201
   },
   "by_route_status": {
+    "missing_direct_product_route": 5,
     "source_on_page_no_structured_value": 4782,
     "partial_structured_values_present": 32
   }

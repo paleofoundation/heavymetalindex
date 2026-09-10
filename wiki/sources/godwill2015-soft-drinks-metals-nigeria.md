@@ -66,22 +66,22 @@ App: The source can contribute Cd, Pb, and tHg occurrence context for `beverages
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_565.txt`; the abstract, Materials and methods, Results, Table 2, Table 3, Discussion, and Conclusion were checked against this page.
-- DOI `10.1016/j.toxrep.2015.01.014`, raw handle `MFK_determination-of-some-soft-drink-constituents`, and cite-key path `wiki/sources/godwill2015-soft-drinks-metals-nigeria.md` were checked before creation; no existing source page was found.
+- DOI `10.1016/j.toxrep.2015.01.014`, raw handle `MFK_determination-of-some-soft-drink-constituents`, and cite-key path the linked reference record were checked before creation; no existing source page was found.
 - Numbers in Key numbers are copied from Table 2, Table 3, the abstract, and Results without unit conversion. The mercury range discrepancy is source-internal: Table 3 includes quantified values below `0.29 mg/L`, while the abstract/results prose states `0.29` to `11.32 mg/L`.
 - Speciation: the paper reports cadmium, lead, and mercury by AAS with no species separation. Mercury is therefore recorded as `tHg`, not MeHg.
 - Brand firewall: the original table lists named beverages. This page omits sample names and reports only aggregate/category-level findings.
-- Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `beverage` and `soft-drink` are matrix descriptors rather than product or ingredient slugs.
+- source metadata slugs were checked against the editorial record; `beverage` and `soft-drink` are matrix descriptors rather than product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

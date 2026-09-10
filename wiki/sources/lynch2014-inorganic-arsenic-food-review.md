@@ -64,26 +64,26 @@ Comprehensive literature search (PubMed, Scopus, Toxline, Agricola) for studies 
 
 ## Verification notes
 
-- raw_handle MFK_lynch2014 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.scitotenv.2014.07.032 confirmed on the article header.
+- raw_handle MFK_lynch2014 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.scitotenv.2014.07.032 confirmed on the article header.
 - Evidence tier B, source_type review: this is a literature meta-analysis (secondary). Per Part 13, its claims are B-tier attributed context/leads. sample_n is null (no primary samples); the per-group n values (e.g., seaweed inAs n=312) are counts of compiled literature data points, recorded in Key numbers, and are explicitly flagged as not-poolable to prevent double-counting the primary studies.
-- Speciation: total As, total inorganic As, and the inAs³⁺/inAs⁵⁺ split are reported and kept distinct (lifted to frontmatter as tAs, iAs). MMA and DMA are reported and summarised but NOT lifted to frontmatter (not HMI analyte-vocabulary tokens); recording them as iAs would be a speciation error.
+- Speciation: total As, total inorganic As, and the inAs³⁺/inAs⁵⁺ split are reported and kept distinct (lifted to source metadata as tAs, iAs). MMA and DMA are reported and summarised but NOT lifted to source metadata (not HMI analyte-vocabulary tokens); recording them as iAs would be a speciation error.
 - Units/basis: all figures reproduced as the review reports them (µg/kg; the main analysis combines dry and wet weight, with the dry-weight sensitivity result noted). Not for pooling.
 - jurisdictions [US]: although the compiled data are global, the analysis is US-framed (US dietary-intake/risk-assessment purpose, US EPA IRIS slope factor, US FDA/NRC context, US authors, EPRI funding); US is its analytical lens, parallel to other regionally-framed reviews. The seaweed data origins themselves are global (Denmark, China, Bangladesh, etc.), noted here.
 - Brand firewall: not engaged. The EPRI funding source and the Gradient affiliation are disclosure facts, not brand-by-contamination attributions; no food brands are named.
 - matrices [edible-seaweed, macroalgae, dry-weight] and products [seaweed-kelp-foods]: this is a multi-food review, but it is ingested here for its seaweed content and routed to the seaweed row; its rice/seafood/infant-food figures are captured in Key numbers as cross-food context but the routing is intentionally scoped to seaweed (a future session may enhance routing to other product rows if desired). `kelp` omitted from matrices because the review reports the aggregate "seaweed/algae" group, not Laminaria specifically.
-- Audit subagent (2026-06-08, fresh-context) returned REVISE; all ~30 other values, speciation labels (tAs/iAs; MMA/DMA not mislabeled), slugs, and both firewalls verified clean, and the not-poolable / B-tier / [US] framing confirmed appropriate. One ❌ applied: the dry-weight sensitivity figure had been transposed from the wrong Table 4.1 row — the +77% is the seafood row; the actual seaweed dry-weight-only value is −38% (a cross-study data-availability artifact). Corrected the figure and removed the dependent (and reversed) inference that the dry basis "trends higher" for seaweed. (The error was seeded by the ingest instruction; the auditor caught it against the source.)
+- Audit editorial review (2026-06-08, fresh-context) returned REVISE; all ~30 other values, speciation labels (tAs/iAs; MMA/DMA not mislabeled), slugs, and both firewalls verified clean, and the not-poolable / B-tier / [US] framing confirmed appropriate. One ❌ applied: the dry-weight sensitivity figure had been transposed from the wrong Table 4.1 row — the +77% is the seafood row; the actual seaweed dry-weight-only value is −38% (a cross-study data-availability artifact). Corrected the figure and removed the dependent (and reversed) inference that the dry basis "trends higher" for seaweed. (The error was seeded by the ingest instruction; the auditor caught it against the source.)
 - Cross-source note: this meta-analysis aggregates many primary studies, several held in this same folder (e.g., Almela, Rose, Llorente-Mirandes, Narukawa); any cross-source reconciliation belongs to the Part 9 synthesis pass, not this page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

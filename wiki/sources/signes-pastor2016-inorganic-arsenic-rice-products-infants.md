@@ -166,11 +166,11 @@ App: contributes Asi occurrence data (UK market) for the rice → baby-cereals-d
 
 Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fetch ingest workflow. Changes from the prior version:
 
-1. **Added `raw_handle: MFK_inorganic-arsenic-in-rice-based-products-for-infan` and corrected `raw_path`** to the actual PDF location under `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/`. The prior path `raw/studies/...` did not exist on the filesystem.
+1. **Added `raw_handle: MFK_inorganic-arsenic-in-rice-based-products-for-infan` and corrected `raw_path`** to the actual PDF location under the archived source file. The prior path the archived source file did not exist on the filesystem.
 
-2. **Frontmatter slug fields converted to quoted-wikilink form** per current schema and `docs/gpt-collaboration/system-prompt.md`): `products` and `ingredients` are now `["[[products/...]]",...]` instead of bare strings.
+2. **source metadata slug fields converted to quoted-wikilink form** per current schema and the editorial record): `products` and `ingredients` are now `["[[products/...]]",...]` instead of bare strings.
 
-3. **Added `matrices: [rice, infant-cereal, baby-snack]`** (was absent). Values picked from the controlled vocabulary in `docs/gpt-collaboration/system-prompt.md` — `rice` for raw-ingredient context, `infant-cereal` for baby-rice and rice-cereal products, `baby-snack` for rice crackers.
+3. **Added `matrices: [rice, infant-cereal, baby-snack]`** (was absent). Values picked from the controlled vocabulary in the editorial record — `rice` for raw-ingredient context, `infant-cereal` for baby-rice and rice-cereal products, `baby-snack` for rice crackers.
 
 4. **`jurisdictions` corrected to `[GB, EU]`** (was `[EU, US]`). The paper's primary sampling is UK-only (36 UK retailers); the US data are a reanalysis of the published US FDA 2014 rice/rice-products survey, not independent sampling by this paper. Source-page jurisdictions should reflect where this paper sampled, not where comparison-context data originated. The GB code matches related Carey/Meharg-lab papers (e.g., `carey2018-rice-dilution-infant-food-eu-arsenic.md`).
 
@@ -179,7 +179,7 @@ Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fet
 6. **`product_metal_scope` widened** from `[iAs]` only to `[iAs, tAs]` for both routed product pages. The paper reports both Asi and ΣAs (total speciated As) for UK samples and additionally cites US FDA total As; tAs is in-scope as a routed metal alongside iAs.
 
 7. **Body restructured to current schema:**
- - Legacy `## Summary` heading replaced with un-headed opening paragraph per current `wiki/sources/` template.
+ - Legacy `## Summary` heading replaced with un-headed opening paragraph per current the linked reference record template.
  - `## Key Numbers` (title-case) → `## Key numbers` (sentence-case per schema).
  - `## Evidence Fitness`, `## Routing Notes`, `## Limitations`, and `## Wiki Pages Updated On Ingest` sections replaced by `## Methods (brief)`, `## Implications`, `## Wiki pages this source may touch`, and `## Verification notes`. The "evidence fitness" content (medians/ranges only, not sample-level values) is preserved inside `## Implications` under Certification.
 
@@ -197,7 +197,7 @@ Preserved from prior revision: `cite_key`, `doi`, `evidence_tier`, `license`, `a
 
 ### Audit application (2026-05-17)
 
-Fresh-context audit subagent verdict: REVISE. Each ❌/⚠️ finding independently verified by re-reading Table 1, Table 2, Table 3, and the relevant prose against the source PDF. Applied:
+Fresh-context audit editorial review verdict: REVISE. Each ❌/⚠️ finding independently verified by re-reading Table 1, Table 2, Table 3, and the relevant prose against the source PDF. Applied:
 
 - **Manufacturer-code listing for rice crackers corrected.** Previously written as "spanning M001, M005–M021" which implied a contiguous range. Source Table 1 rice-cracker section lists 15 codes: M001, M005, M006, M009, M011, M012, M013, M014, M015, M016, M017, M018, M019, M020, M021 — non-contiguous. Replaced with the full list.
 - **"~2%" / "~1%" hedges removed.** Source §3.2 and §3.3 state "2% of the rice cereal samples" and "1% of the rice crackers samples" without hedging. Wiki now matches exact source wording.
@@ -217,13 +217,13 @@ Audit Checks 2, 3, 4, 5 returned ✅ or only minor ⚠️ already addressed abov
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

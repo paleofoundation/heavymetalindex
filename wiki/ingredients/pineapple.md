@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 16
+sources: 17
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -117,12 +117,29 @@ updated: 2026-05-19
 
 The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 396: Pineapple, raw/frozen | tAs | 27 | 1 | 4.4 | 3 |
+| 396: Pineapple, raw/frozen | Cd | 27 | 2 | 1–26 | 1 |
+| 396: Pineapple, raw/frozen | Cr | 27 | 0 | ND in all composites | 50 |
+| 396: Pineapple, raw/frozen | Pb | 27 | 0 | ND in all composites | 4 |
+| 396: Pineapple, raw/frozen | tHg | 27 | 0 | ND in all composites | 1 |
+| 396: Pineapple, raw/frozen | Ni | 27 | 7 | 41–91 | 40 |
+| 396: Pineapple, raw/frozen | U | 27 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/unaegbu2016-fruit-heavy-metals-enugu|Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria]]<span class="hmi-ref-meta">Magdalene Unaegbu, Vincent C. I. Eze, Ebere C. I. Omeje, Ezinne A. O. Agbo, and Ebere V. Chukwuma · International Journal of Food Contamination · 2016 · [doi.org/10.1186/s40550-016-0031-9](https://doi.org/10.1186/s40550-016-0031-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -140,14 +157,15 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 6 | [[sources/apilux2023-rayong-tropical-fruits-metals\|Apilux et al. 2023]]. *Determination of Heavy Metal Residues in Tropical Fruits near Industrial Estates in Rayong Province, Thailand: A Risk Assessment Study*, Environment and Natural Resources Journal | 2023 | Peer-reviewed | TH tAs, Cd, Cu, tHg, Pb, Zn occurrence in Tropical fruits from three districts and markets in Rayong Province, Thailand |
 | 7 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee et al. 2023]]. *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*, Applied Biological Chemistry | 2023 | Peer-reviewed | KR tAs, Sb, Ba, Cd, Cr, Ni, Pb occurrence in Fresh fruits collected from supermarkets in six South Korean regions (Seoul, Gyeonggi-do, Chungcheong-do, Jeolla-do, Kyungsang-do, Gangwon-do), 14 fruit... (n=207) |
 | 8 | [[sources/uchenna2023-ihiala-fruits-heavy-metals\|Uchenna et al. 2023]]. *Assessment of Heavy Metals in Edible Fruits Sold in Selected Markets in Ihiala Local Government Area, Anambra State*, Journal of Sustainability and Environmental Management | 2023 | Peer-reviewed | NG Zn, Ni, Cu, Pb, Cr, tAs, Fe occurrence in Edible fruits from selected markets in Ihiala Local Government Area, Anambra State, Nigeria |
-| 9 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
-| 10 | [[sources/subedi2022-fruit-juices-heavy-metals\|Subedi et al. 2022]]. *Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley*, Journal of Balkumari College | 2022 | Peer-reviewed | NP Fe, Mn, Zn, Pb occurrence in Fresh juices, packaged juices, and powdered fruit drink mixes sold in Kathmandu Valley, Nepal |
-| 11 | [[sources/samitha2021-pineapple-kerala-heavy-metals\|Samitha et al. 2021]]. *Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India*, International Journal of Current Science Research and Review | 2021 | Peer-reviewed | IN Pb, Ni, Cd, Fe occurrence in Pineapple cultivated tracts in Ernakulam district, Kerala, India |
-| 12 | [[sources/abdullahi2019-fruits-vegetables-heavy-metals\|Abdullahi 2019]]. *Analysis and Evaluation of the Effect of Heavy Metals in Fruits and Vegetables*, International Journal of Trend in Scientific Research and Development | 2019 | Peer-reviewed | NG Zn, Cu, Fe, Cd, Ni, Pb occurrence in Orange, pineapple, waterleaf, and pumpkin leaf samples from a local market in Nigeria |
-| 13 | [[sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\|Mariadi et al. 2017]]. *Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent*, Science and Technology Indonesia | 2017 | Peer-reviewed | ID Pb, tHg occurrence in Juaro fish treated with citric acid from pineapple extract |
-| 14 | [[sources/alzagtat2016-fruit-nectars-libya-heavy-metals\|Alzagtat et al. 2016]]. *Conformity of Fruit Nectar Samples to Libyan Specification Standards*, Turkish Journal of Agriculture - Food Science and Technology | 2016 | Peer-reviewed | LY Cu, Zn, Fe, tAs, Pb, Cd occurrence in Local and imported fruit nectar samples from Libyan markets |
-| 15 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
-| 16 | [[sources/blunden2003-tin-canned-food-review\|Blunden et al. 2003]]. *Tin in canned food: a review and understanding of occurrence and effect*, Food and Chemical Toxicology, Vol. 41, Issue 12, pp. 1651-1662 | 2003 | Peer-reviewed | UK/EU/US Sn occurrence in Narrative review of tin-in-canned-food literature commissioned by ITRI Ltd (the International Tin Research Institute) compiling published primary clinical,... |
+| 9 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 10 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
+| 11 | [[sources/subedi2022-fruit-juices-heavy-metals\|Subedi et al. 2022]]. *Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley*, Journal of Balkumari College | 2022 | Peer-reviewed | NP Fe, Mn, Zn, Pb occurrence in Fresh juices, packaged juices, and powdered fruit drink mixes sold in Kathmandu Valley, Nepal |
+| 12 | [[sources/samitha2021-pineapple-kerala-heavy-metals\|Samitha et al. 2021]]. *Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India*, International Journal of Current Science Research and Review | 2021 | Peer-reviewed | IN Pb, Ni, Cd, Fe occurrence in Pineapple cultivated tracts in Ernakulam district, Kerala, India |
+| 13 | [[sources/abdullahi2019-fruits-vegetables-heavy-metals\|Abdullahi 2019]]. *Analysis and Evaluation of the Effect of Heavy Metals in Fruits and Vegetables*, International Journal of Trend in Scientific Research and Development | 2019 | Peer-reviewed | NG Zn, Cu, Fe, Cd, Ni, Pb occurrence in Orange, pineapple, waterleaf, and pumpkin leaf samples from a local market in Nigeria |
+| 14 | [[sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\|Mariadi et al. 2017]]. *Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent*, Science and Technology Indonesia | 2017 | Peer-reviewed | ID Pb, tHg occurrence in Juaro fish treated with citric acid from pineapple extract |
+| 15 | [[sources/alzagtat2016-fruit-nectars-libya-heavy-metals\|Alzagtat et al. 2016]]. *Conformity of Fruit Nectar Samples to Libyan Specification Standards*, Turkish Journal of Agriculture - Food Science and Technology | 2016 | Peer-reviewed | LY Cu, Zn, Fe, tAs, Pb, Cd occurrence in Local and imported fruit nectar samples from Libyan markets |
+| 16 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
+| 17 | [[sources/blunden2003-tin-canned-food-review\|Blunden et al. 2003]]. *Tin in canned food: a review and understanding of occurrence and effect*, Food and Chemical Toxicology, Vol. 41, Issue 12, pp. 1651-1662 | 2003 | Peer-reviewed | UK/EU/US Sn occurrence in Narrative review of tin-in-canned-food literature commissioned by ITRI Ltd (the International Tin Research Institute) compiling published primary clinical,... |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -166,13 +184,13 @@ The five most recent substantive edits to this page. The full version history li
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

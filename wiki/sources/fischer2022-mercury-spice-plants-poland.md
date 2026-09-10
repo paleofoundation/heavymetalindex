@@ -114,8 +114,7 @@ Study limitations: small group sizes (notably n=4 organic commercial samples; n=
 - Paper-internal labelling discrepancy noted, not flagged as a wiki error: paper page 8 reports "For the tested cultivated plants, the EDI value was 0.0000515 mg/kg/day, and in the group of commercial products it was 0.0000947 mg/kg/day" — but the underlying means (Table 2: cultivated 9.47 µg/kg, commercial 5.15 µg/kg) imply the reverse assignment, and EDI = concentration × intake / bw confirms cultivated → 0.0000947 and commercial → 0.0000515. The wiki page assigns EDI values to the group that matches each group's reported mean; the paper text has the two labels switched.
 - Paper-internal location-naming discrepancy noted: Table 1 lists five collection points (Katowice, Mysłowice, Jastrząb, Płoki, Jemielnica), but Figure 3 plots a slightly different five-name set (Dąbrówka Mała, Mysłowice, Płoki, Poraj, Jemielnica). Treated as the paper's own inconsistency; not amended on the wiki page.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/dried-herbs]]
 - [[ingredients/fresh-herbs]]
@@ -126,13 +125,13 @@ Study limitations: small group sizes (notably n=4 organic commercial samples; n=
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [5b2a96ddb](https://github.com/paleofoundation/heavymetalindex/commit/5b2a96ddb) | 2026-05-29 | major | 1 section added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [5b2a96ddbe](https://github.com/paleofoundation/heavymetalindex/commit/5b2a96ddbe) | 2026-05-29 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

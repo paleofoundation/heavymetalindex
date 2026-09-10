@@ -133,7 +133,7 @@ Merge-enhance pass 2026-05-18 from the original `papers-cube` raw_handle:
 
 No brand names appear in this paper; the brand firewall is not triggered. No HMTc threshold proposals are made.
 
-Audit subagent pass 2026-05-18 (fresh-context general-purpose Agent; verdict REVISE) — applied findings:
+Audit editorial review pass 2026-05-18 (fresh-context general-purpose Agent; verdict REVISE) — applied findings:
 
 - Audit flagged Pendergrass and Butcher 2006 As LOD as transposed: wiki said "(5 µg/g instrument LOD)" for As. Verified against PDF p.R766 ("instrumental detection limits (5 µg/g and 15 µg/g, respectively)" with Pb listed first, As second). Corrected — carrot-root As LOD is 15 µg/g; Pb LOD is 5 µg/g.
 - Audit flagged Table 6 UK Ni intake as mixing Stasinos and Kirkillis columns to fabricate a 134.7 µg/d total. Verified against PDF p.R778 and p.R777 (source text gives 115.3 µg/d for Asopos-region Ni in UK). Corrected to the Kirkillis-column-consistent values: 7.1 / 5.9 / 102.4 / total 115.4 µg/d. Added an explanatory parenthetical naming the parallel Stasinos column values so the bullet is unambiguous about which column is used. Cr-intake bullet relabeled to identify the Stasinos-column source it actually uses.
@@ -142,11 +142,11 @@ Audit subagent pass 2026-05-18 (fresh-context general-purpose Agent; verdict REV
 - Audit flagged omission of statistically-significant onion-shoot Ni effects from Stasinos and Zabetakis 2013. Verified against PDF p.R769 (shoot Ni +39.1% at 10 mg/L and +55.0% at 250 mg/L, both statistically significant). Added.
 - Audit flagged Stasinos and Zabetakis 2013 unit inconsistency (irrigation water 0–250 µg/L vs. ladder values in mg/L). Verified — the inconsistency is in the source itself. Added an annotation noting the source-side inconsistency rather than silently smoothing it.
 
-Audit subagent finding rejected as false positive:
+Audit editorial review finding rejected as false positive:
 
-- Audit flagged `products: [root-tuber-vegetables]` and `[[products/root-tuber-vegetables]]` as missing from the closed taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified against the live wiki: `wiki/products/root-tuber-vegetables.md` exists (Cat 4 Step 0 lock scaffold, created 2026-05-16 by `cat4_step0_scaffold_2026_05_16`, locked as `hmtc_row: 7` / `hmtc_category: 4`). The routing audit (`npm run evidence:source-routes`) returned 0 unresolved entries for this source and routed it cleanly to `root-tuber-vegetables` as a `locked_hmtc_row` direct-evidence row. The page is real and the slug is canonical; the taxonomy snapshot (generated 2026-05-17 from commit `e442cbe`) appears not to have been refreshed after the 2026-05-16 Cat 4 scaffold landed. The taxonomy-snapshot file is the stale artifact, not the page. No change to the source-page frontmatter or wikilinks.
+- Audit flagged `products: [root-tuber-vegetables]` and `[[products/root-tuber-vegetables]]` as missing from the closed taxonomy snapshot at the editorial record. Verified against the live wiki: the linked reference record exists (Cat 4 Step 0 lock scaffold, created 2026-05-16 by `cat4_step0_scaffold_2026_05_16`, locked as `hmtc_row: 7` / `hmtc_category: 4`). The routing audit (`npm run evidence:source-routes`) returned 0 unresolved entries for this source and routed it cleanly to `root-tuber-vegetables` as a `locked_hmtc_row` direct-evidence row. The page is real and the slug is canonical; the taxonomy snapshot (generated 2026-05-17 from commit `e442cbe`) appears not to have been refreshed after the 2026-05-16 Cat 4 scaffold landed. The taxonomy-snapshot file is the stale artifact, not the page. No change to the source-page source metadata or wikilinks.
 
-Audit subagent ⚠️ findings on Implications-section app/certification framing were judged not load-bearing — the section restates the paper's occurrence-data contribution without proposing HMTc threshold values or rendering consumer risk advisories, which stays inside the Part 2 boundary. The mention of "Cat 4 Root and Tuber Vegetables row" is descriptive of the routing destination, not a synthesis claim, and is retained.
+Audit editorial review ⚠️ findings on Implications-section app/certification framing were judged not load-bearing — the section restates the paper's occurrence-data contribution without proposing HMTc threshold values or rendering consumer risk advisories, which stays inside the Part 2 boundary. The mention of "Cat 4 Root and Tuber Vegetables row" is descriptive of the routing destination, not a synthesis claim, and is retained.
 
 ## Wiki pages this source may touch
 
@@ -172,13 +172,13 @@ Audit subagent ⚠️ findings on Implications-section app/certification framing
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

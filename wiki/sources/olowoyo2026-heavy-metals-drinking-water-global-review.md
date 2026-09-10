@@ -165,19 +165,19 @@ No risk-of-bias appraisal, no quality scoring, no weighting by sample size, no m
 
 ## Provenance notes
 
-PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publication under CC BY 4.0; the publisher's redistribution terms permit retention and reproduction with attribution. Published online 8 April 2026 (Water 18(8): 886). DOI 10.3390/w18080886. SHA256 of raw PDF: `4e7dfb46e3a19a5be1f1859e697e95c37a1df8102aeb5fdb39bf1076dd36aa05`.
+PDF retrieved via the Manual Fetch source-retrieval pipeline (P0316). MDPI open-access publication under CC BY 4.0; the publisher's redistribution terms permit retention and reproduction with attribution. Published online 8 April 2026 (Water 18(8): 886). DOI 10.3390/w18080886. SHA256 of raw PDF: `4e7dfb46e3a19a5be1f1859e697e95c37a1df8102aeb5fdb39bf1076dd36aa05`.
 
 ## Verification notes
 
-- **2026-05-25 merge-enhance** (Claude Code, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had the following defects, all corrected here:
-  1. `raw_handle: manual-fetch-kimi` — generic, not file-specific. Updated to `MFK_p0316-heavy-metals-burden-in-drinking-water`.
+- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had the following defects, all corrected here:
+  1. `raw_handle: manual-fetch-source-retrieval` — generic, not file-specific. Updated to `MFK_p0316-heavy-metals-burden-in-drinking-water`.
   2. `raw_path` pointed to `P0316.pdf` (filename stub); the actual file is `P0316_Heavy Metals Burden in Drinking Water.pdf`. Path corrected.
   3. `metals: [Pb, Cd, tAs, tHg, Ni, Cr, Al]` listed Al. **The review does not discuss aluminum anywhere** (not in Tables 1–5, not in Table 5 summary, not in the narrative). Al removed. Cu, Fe, Zn, U, Mn, Sb, Se added — all are discussed in the review with per-source ranges.
   4. `access_url`, `raw_sha256`, `no_doi_assigned`, `publication` volume/issue, `sample_n` absent. Added.
   5. Cd Key numbers stated "highest in groundwater from Ghana (2.23 mg/L)". This is incorrect: the review's narrative and Table 5 both attribute the 2.23 mg/L Ghana Cd value to surface water (Cobbina et al., ref [5]), not groundwater. Corrected.
   6. Mercury Key numbers contained "Groundwater: ND to ~0.026 mg/L tap water; ND to ~126.0 µg/L surface water" — internally muddled (tap-water value mislabeled as groundwater; the 126 µg/L attribution belongs to Cr, not Hg). Replaced with the four matrix-type ranges as actually reported in Tables 1–4 and the overall maximum from Table 5.
   7. Cr, Fe, Cu, Zn, U, Mn, Sb, Se absent from Key numbers despite being in (or warranting addition to) the metals list and discussed extensively in the review. Added.
-  8. `matrices: [tap-water, groundwater, surface-water, bottled-water]` used non-canonical splits. Collapsed to `[drinking-water]` (the controlled-vocabulary umbrella per `docs/gpt-collaboration/system-prompt.md`); the four sub-types are now described in the body and in Key numbers per the review's own Table 1–4 structure.
+  8. `matrices: [tap-water, groundwater, surface-water, bottled-water]` used non-canonical splits. Collapsed to `[drinking-water]` (the controlled-vocabulary umbrella per the editorial record); the four sub-types are now described in the body and in Key numbers per the review's own Table 1–4 structure.
 
 - **Paper-internal contradictions reproduced as flagged here (faithful to source, not silently corrected):**
   - Pb overall maximum: review narrative and abstract attribute 0.791 mg/L to groundwater (Ghana); Table 5 summary row lists it as "Tap water." The narrative/abstract reading is internally consistent with Table 4 (groundwater table). The wiki reproduces the narrative attribution as the primary statement and flags the Table 5 disagreement.
@@ -191,7 +191,7 @@ PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publi
   - Se units in Table 3 and the narrative: Algeria 7.70–12.20 mg/L and Ethiopia 0.015–2.64 mg/L would be 192× and 66× the WHO 40 µg/L guideline. Almost certainly a µg/L source paper reproduced as mg/L by the review; flagged.
   - Cu in narrative: China "up to 3816.50 mg/L" and Pakistan/India "up to 2325 mg/L" (paragraph on page 8) are not in Tables 1–4 at these magnitudes and are almost certainly mg/L vs µg/L unit-transcription errors in the original studies that the review reproduced uncritically; flagged.
 
-- **Speciation.** Paper measures total As (no inorganic/total split), total Hg (no methylmercury speciation), total Cr (the review explicitly says no included study separated Cr-III from Cr-VI). Frontmatter `metals:` uses `tAs, tHg, Cr` accordingly.
+- **Speciation.** Paper measures total As (no inorganic/total split), total Hg (no methylmercury speciation), total Cr (the review explicitly says no included study separated Cr-III from Cr-VI). source metadata `metals:` uses `tAs, tHg, Cr` accordingly.
 
 - **Brand firewall (Part 12):** no consumer-brand contamination values reported (the included studies report by country/region and analytical instrument, not by brand). No content stripped on this pass. Instrument vendor mentions (ICP-MS, ICP-OES, AAS, GFAAS, FAAS, SWASV, HPLC/ICP-DRC-MS, ACP-AES, laser fluorimeter) are scientific-method references retained per the 2026-05-17 audit exception.
 
@@ -199,7 +199,7 @@ PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publi
 
 - **Evidence tier.** Tier B (peer-reviewed but narrative review without meta-analysis, formal quality appraisal, or risk-of-bias scoring). Useful for global occurrence context and for source-pointing to the 66 underlying primary studies, less useful as a standalone evidence source for any quantitative claim.
 
-- **Audit subagent 2026-05-25 (REVISE)** — three Check-1 findings verified against the PDF and applied: (1) Pb surface-water highest restated as Ghana 0.259 mg/L from Table 3 (the previous draft named Bangladesh 64.00 µg/L, but Table 3 row 1 shows Ghana 0.005–0.259 ** mg/L = up to 259 µg/L, and the abstract confirms "ND to 0.259 mg/L (surface water)" for Pb); the Pb/Hg cross-attribution at Ghana 0.259 mg/L is now documented as a second paper-internal contradiction. (2) Mn tap-water highest in Table 1 restated as Ecuador 3.000–122.0 µg/L (ref [92], ICP-OES); the previous draft incorrectly named Costa Rica 0.34–86.8 µg/L as highest while listing the higher Ecuador entry in the same bullet. (3) Sri Lanka Mn groundwater range corrected to 2.477–2,241 µg/L per Table 4's `*` (µg/L) notation; the previous draft printed "2,477–2,241" with the leading decimal dropped, producing an inverted high-to-low range. Also tightened: the Cr-overall-maximum framing now correctly states that Tables 4 and 5 agree on mg/L (disagreeing only on water-source type) while only the narrative summary on p6 prints µg/L, rather than the previous "Table 4 µg/L vs Table 5 mg/L" framing. Audit verdict: REVISE; Checks 2–5 clean on first pass.
+- **Audit editorial review 2026-05-25 (REVISE)** — three Check-1 findings verified against the PDF and applied: (1) Pb surface-water highest restated as Ghana 0.259 mg/L from Table 3 (the previous draft named Bangladesh 64.00 µg/L, but Table 3 row 1 shows Ghana 0.005–0.259 ** mg/L = up to 259 µg/L, and the abstract confirms "ND to 0.259 mg/L (surface water)" for Pb); the Pb/Hg cross-attribution at Ghana 0.259 mg/L is now documented as a second paper-internal contradiction. (2) Mn tap-water highest in Table 1 restated as Ecuador 3.000–122.0 µg/L (ref [92], ICP-OES); the previous draft incorrectly named Costa Rica 0.34–86.8 µg/L as highest while listing the higher Ecuador entry in the same bullet. (3) Sri Lanka Mn groundwater range corrected to 2.477–2,241 µg/L per Table 4's `*` (µg/L) notation; the previous draft printed "2,477–2,241" with the leading decimal dropped, producing an inverted high-to-low range. Also tightened: the Cr-overall-maximum framing now correctly states that Tables 4 and 5 agree on mg/L (disagreeing only on water-source type) while only the narrative summary on p6 prints µg/L, rather than the previous "Table 4 µg/L vs Table 5 mg/L" framing. Audit verdict: REVISE; Checks 2–5 clean on first pass.
 
 ## Wiki pages this source may touch
 
@@ -221,13 +221,13 @@ PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -71,21 +71,21 @@ This source provides dry-weight occurrence data for cultivated Malaysian seaweed
 - PDF text extracted with `pdftotext -layout`; title page, sample preparation, Tables 1-5, arsenic-speciation discussion, and conclusions were readable.
 - DOI `10.3390/foods10020381`, raw handle `MFK_khandaker2021`, and cite-key checks found no existing source page before creation.
 - Table 3 concentration values, Table 2 LoDs, Table 1 recovery checks, Table 4 intake estimates, and Table 5 risk estimates were checked against extracted text. Units are preserved as `microgram per gram`, `µg/kg`, `mg/kg`, and `Microgram Per Kilogram/kg/Day`; no conversion was performed.
-- Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI` in Table 3. The analytical method, however, was ICP-OES with no chromatographic step. The arsenic-speciation discussion on page 11 acknowledges that ICP-OES provides elemental `75As` rather than a particular species and infers inorganic As(III) only by analogy to Zhao et al. [45], who used HPLC-ICP-MS on different seaweed samples. The chromium discussion on page 10 provides no chromatographic speciation evidence at all; `Cr-VI` is asserted on toxicological grounds. The `metals:` frontmatter therefore routes this paper as `tAs` and `Cr` (the species the method actually measured), while the body preserves the source's own `As (III)` and `Cr-VI` labels in Table 3 transcription.
+- Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI` in Table 3. The analytical method, however, was ICP-OES with no chromatographic step. The arsenic-speciation discussion on page 11 acknowledges that ICP-OES provides elemental `75As` rather than a particular species and infers inorganic As(III) only by analogy to Zhao et al. [45], who used HPLC-ICP-MS on different seaweed samples. The chromium discussion on page 10 provides no chromatographic speciation evidence at all; `Cr-VI` is asserted on toxicological grounds. The `metals:` source metadata therefore routes this paper as `tAs` and `Cr` (the species the method actually measured), while the body preserves the source's own `As (III)` and `Cr-VI` labels in Table 3 transcription.
 - Source-internal anomalies preserved without correction: (a) Table 3's overall mean for Cr-VI is reported as `26.0 µg/g`, which is not consistent with the LKW/SPN/KBL location means of 40.57, 30.3, and 40.15; an n-weighted mean of the three locations is approximately 36.6, not 26.0. (b) The arsenic-speciation paragraph on page 11 states "SPN (1.6 ± 5.86 µg/g)" while Table 3 reports SPN As (III) as `6.3 ± 2.86`. Table 3 was used as the authoritative source for both values in this page.
 - Brand firewall: no sampled product brands are attached to contamination values. Instrument and standard vendors appear only in Methods.
-- Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

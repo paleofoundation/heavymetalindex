@@ -73,35 +73,34 @@ Cross-sectional analytical study. Twenty tomato sauce samples in four packaging 
 
 **App:** Tomato sauce Cd: ~0.004–0.006 mg/kg (4–6 µg/kg); Pb: ~0.016–0.049 mg/kg (16–49 µg/kg); Cr (total): ~0.27–0.39 mg/kg (270–390 µg/kg); Sn: ~0.020–0.258 mg/kg depending on packaging (canned 125–258 µg/kg). Note: total As ~0.029–0.035 mg/kg; no iAs speciation.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/tomato]]
 - [[products/tomato-sauce]]
 - [[supply-chain/food-packaging]]
 
 ## Verification notes
 
-2026-05-28 enhance pass (Claude): re-read source PDF in full and reconciled frontmatter to current schema. License corrected from "unknown" to "CC BY" — the Food Sci. Technol. (Campinas) issue page bears a Creative Commons BY logo on page 1 of the article. Added `access_url` (DOI URL) and `no_doi_assigned: false`. Fixed an internal Key-numbers contradiction in the previous revision: bullet 1 claimed "Sn was the only element with significantly different concentrations" while bullet 2 stated Ni was also significantly higher in metallic packaging; the abstract is explicit that both Sn and Ni differed significantly (p<0.05), with all other elements showing no packaging-type effect. Bullet rewritten to match. All numerical values in the Key numbers table were verified against Table 5 of the source and left unchanged.
+2026-05-28 enhance pass (Claude): re-read source PDF in full and reconciled source metadata to current schema. License corrected from "unknown" to "CC BY" — the Food Sci. Technol. (Campinas) issue page bears a Creative Commons BY logo on page 1 of the article. Added `access_url` (DOI URL) and `no_doi_assigned: false`. Fixed an internal Key-numbers contradiction in the previous revision: bullet 1 claimed "Sn was the only element with significantly different concentrations" while bullet 2 stated Ni was also significantly higher in metallic packaging; the abstract is explicit that both Sn and Ni differed significantly (p<0.05), with all other elements showing no packaging-type effect. Bullet rewritten to match. All numerical values in the Key numbers table were verified against Table 5 of the source and left unchanged.
 
 Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 0.27 mg kg⁻¹ in products stored in cellulosic packaging" while Table 5 reports cellulosic Cr = 0.322 ± 0.05 mg/kg (the actual lowest mean is metallic at 0.276). The wiki tracks Table 5 values, which are the authoritative measurements. The summary range "0.27–0.39 mg/kg" is retained because it spans both the prose figure and the table extremes and is internally defensible.
 
-2026-05-28 audit-application pass (Claude, fresh-context subagent verdict REVISE):
+2026-05-28 audit-application pass (Claude, fresh-context editorial review verdict REVISE):
 - ❌ Sn Glass range corrected 0.057–0.059 → 0.057–0.058 (Table 5 reads 0.057–0.058; prior wiki had a single-digit transposition on the upper bound). Verified against source PDF page 5 Table 5.
 - ⚠️ SD precision restored to source values across the Key numbers table: Cd Metallic 0.001 → 0.0008, Cd Glass 0.001 → 0.0008, Cr Glass 0.04 → 0.036 (Table 5); Cr in cellulosic packaging "74 mg/kg" → "74 ± 4 mg/kg" (Table 7).
 - ⚠️ Part 2 wiki/HMTc-firewall language tightened in the Implications block: "compliance gap in European/global markets" softened to a statement of fact about EU Regulation 1881/2006's scope, and "Cd, Pb, As pose no regulatory concerns" reworded to "below all applicable Brazilian and EU ML values" (literature-native phrasing, no risk-advisory framing).
-- ⚠️ Subagent flagged `matrices: [tomato-sauce, food-packaging-simulant]` and `[[supply-chain/food-packaging]]` as not in the taxonomy-snapshot vocabulary. Rejected as false positives: the `matrices` field and `supply-chain/*` references are not enumerated in the snapshot's controlled vocabulary (which covers ingredients, products, metals, regulations only) and function as descriptive metadata, not routing targets. No change.
-- ⚠️ Subagent noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
+- ⚠️ editorial review flagged `matrices: [tomato-sauce, food-packaging-simulant]` and `[[supply-chain/food-packaging]]` as not in the taxonomy-snapshot vocabulary. Rejected as false positives: the `matrices` field and `supply-chain/*` references are not enumerated in the snapshot's controlled vocabulary (which covers ingredients, products, metals, regulations only) and function as descriptive metadata, not routing targets. No change.
+- ⚠️ editorial review noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

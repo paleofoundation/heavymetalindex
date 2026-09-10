@@ -15,14 +15,13 @@
  *      collapsed — a degenerate single-value pool published as if it were a
  *      distribution. (Rice iAs typical [41.6, 41.6] p95 41.6 n=74.)
  *
- *   2. censored-zero: typical_ppb [0, 0] AND p95_ppb 0 when EITHER confidence is
- *      high OR n_studies >= 3. Exact-zero point AND tail across 3+ studies (or at
- *      high confidence) almost always means below-LOQ non-detects were coded as
- *      literal 0 and pooled as 0 (FDA TDS reports non-detects as 0; the reporting
- *      limit, not 0, is the defensible upper bound). (Rice Pb/tHg/Cr [0,0] p95 0.)
- *      The trigger is keyed on n_studies, not only the confidence label, so that
- *      clamping an over-claimed confidence down to its n_studies ceiling cannot
- *      silently hide the underlying censoring artifact from this audit.
+ *   2. censored-zero: a populated exact-zero typical and upper tail, at ANY
+ *      study count or confidence. A lower confidence does not turn a censored
+ *      observation into a measured zero. Explicit non-detect profiles have null
+ *      numeric estimates and carry their source reporting-limit metadata.
+ *
+ * Also checks evidence-row identity, food/species fit, basis, source-summary
+ * values, ND count/limit freshness, and FDA citations in public per-metal tables.
  *
  * Both block the build (exit 1) unless --warn-only is passed. Per CLAUDE.md
  * Part 18, integrity drift that understates contamination must fail the build,
@@ -41,6 +40,8 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import matter from "gray-matter"
+import { FDA_SOURCE, readProfileEvidence, validateProfileEvidence } from "./evidence/lib/ingredient-profile-evidence.mjs"
 
 const repoRoot = process.cwd()
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
@@ -55,6 +56,7 @@ const DEGENERATE_N_THRESHOLD = 5
 
 const failures = []
 const advisories = []
+const registers = readProfileEvidence(repoRoot)
 
 for (const file of fs.readdirSync(ingredientsDir).sort()) {
   if (!file.endsWith(".md") || file === "index.md") continue
@@ -62,24 +64,42 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
   const raw = fs.readFileSync(path.join(ingredientsDir, file), "utf8")
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/)
   if (!fmMatch) continue
-  const blocks = parseContaminationProfile(fmMatch[1])
+  const profile = matter(raw).data.contamination_profile || {}
+  const blocks = Object.entries(profile).map(([metal, c]) => ({
+    ...c, metal, typicalLo: c.typical_ppb?.[0] ?? null, typicalHi: c.typical_ppb?.[1] ?? null,
+    p95: c.p95_ppb ?? null, nStudies: Number(c.n_studies) || 0,
+  }))
+  for (const [metal, cell] of Object.entries(profile)) {
+    for (const signature of validateProfileEvidence(cell, slug, metal, registers)) {
+      failures.push({ page: `wiki/ingredients/${slug}.md`, slug, metal, signature, detail: "Cell provenance must resolve to the same food, species and basis as its evidence row." })
+    }
+  }
+  // Source-level ingredient and analyte arrays are not a valid Cartesian
+  // product: FDA's speciation subset must resolve to an actual food row.
+  for (const line of raw.split("\n")) {
+    const match = line.match(/^\| (Pb|Cd|iAs|tAs|tHg|Ni|Al|Cr|Sn|U) \|/)
+    if (!match || !line.includes(`sources/${FDA_SOURCE}`)) continue
+    const metal = match[1]
+    if (!registers.fda.some((r) => r.ingredient_slug === slug && r.metal_species === metal)) {
+      failures.push({ page: `wiki/ingredients/${slug}.md`, slug, metal, signature: "unsupported-fda-table-citation", detail: "The cited FDA dataset contains no row for this ingredient/species pair." })
+    }
+  }
   for (const b of blocks) {
     if (b.status !== "populated") continue
     const { metal, typicalLo, typicalHi, p95, confidence, nStudies } = b
 
-    // Signature 2: censored-zero — at high confidence OR across 3+ studies.
+    // A lower study count does not turn a non-detect into a measured zero.
     if (
       typicalLo === 0 &&
       typicalHi === 0 &&
-      p95 === 0 &&
-      (confidence === "high" || nStudies >= 3)
+      p95 === 0
     ) {
       failures.push({
         page: `wiki/ingredients/${slug}.md`,
         slug,
         metal,
         signature: "censored-zero",
-        detail: `typical_ppb [0, 0], p95_ppb 0, confidence ${confidence}, n_studies ${nStudies}. Exact-zero point AND tail ${nStudies >= 3 ? `across ${nStudies} studies` : "at high confidence"} — below-LOQ non-detects coded as literal 0. Re-synthesize with the reporting limit as the censored upper bound.`,
+        detail: `typical_ppb [0, 0], p95_ppb 0, confidence ${confidence}, n_studies ${nStudies}. Label the source censoring/LB statistic and retain its reporting limit; an exact-zero population profile is unsupported regardless of confidence.`,
       })
       continue
     }

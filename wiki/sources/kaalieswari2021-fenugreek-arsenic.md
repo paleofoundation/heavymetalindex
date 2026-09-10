@@ -59,7 +59,7 @@ App: Treat as contaminated-growing-condition context for fenugreek and spices ra
 
 ## Verification notes
 
-- The PDF title spells the botanical name as "Trigonellna Foenum- Granecum"; this page preserves the printed title in frontmatter.
+- The PDF title spells the botanical name as "Trigonellna Foenum- Granecum"; this page preserves the printed title in source metadata.
 - The study describes fenugreek seeds as spices and fenugreek leaves as vegetables, but no dedicated fenugreek ingredient page exists; existing broad spice and herbs-and-spices slugs are used.
 - The measured plant values are handled as total arsenic. They are not inorganic-arsenic occurrence values for standards pooling.
 - Audit 2026-06-09 caught that the source PDF's Table 6 ILTCR columns are numerically identical to Table 5 HQ columns, which is internally inconsistent and looks like a printing error in the paper itself; the wiki page flags this so future synthesis sessions do not propagate the duplicated values.
@@ -67,13 +67,13 @@ App: Treat as contaminated-growing-condition context for fenugreek and spices ra
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c90943bc0](https://github.com/paleofoundation/heavymetalindex/commit/c90943bc0) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c90943bc06](https://github.com/paleofoundation/heavymetalindex/commit/c90943bc06) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

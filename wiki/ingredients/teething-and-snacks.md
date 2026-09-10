@@ -83,7 +83,7 @@ used_in_products: [teething-and-snacks-non-rice, teething-and-snacks-rice-based]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Teething And Snacks
@@ -117,9 +117,16 @@ This node is linked from [[products/teething-and-snacks-non-rice]], [[products/t
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Teething and snacks is the aggregate ingredient label for infant teething products and toddler snack foods consumed during the 6-month-to-3-year age range. The product family includes teething biscuits, rice-based teething wafers, freeze-dried fruit and vegetable snacks, cracker-style snacks, puff cereals, and yogurt-based melts. The dominant heavy-metal concern is [[ingredients/rice-puffs|rice-based]] teething and snack products, which inherit the source-rice [[metals/arsenic-inorganic|iAs]] profile documented on [[ingredients/rice-cereal|rice cereal]] and [[ingredients/rice-flour|rice flour]] pages. Non-rice teething-and-snack products (oat-based, fruit-and-vegetable-based, dairy-based) sit at substantially lower per-product iAs but carry their own per-ingredient profiles.
@@ -160,25 +167,51 @@ Teething-and-snacks products route into the Cat 1 infant-and-young-child food fa
 - Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets infant-and-young-child food category limits.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to teething-and-snacks products sold in California.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 317: BF, teething biscuits | tAs | 8 | 8 | 21–27 | 4 |
+| 317: BF, teething biscuits | Cd | 8 | 8 | 16–26 | 2 |
+| 317: BF, teething biscuits | Cr | 8 | 0 | ND in all composites | 130 |
+| 317: BF, teething biscuits | Pb | 8 | 8 | 16–19 | 5 |
+| 317: BF, teething biscuits | tHg | 8 | 0 | ND in all composites | 1 |
+| 317: BF, teething biscuits | Ni | 8 | 8 | 90–150 | 60 |
+| 317: BF, teething biscuits | iAs | 8 | 8 | 19.6–28.8 | 1 |
+| 317: BF, teething biscuits | U | 8 | 8 | 17–38 | 2 |
+| 733: BF, finger foods, puffed snack | tAs | 8 | 8 | 38–46 | 3 |
+| 733: BF, finger foods, puffed snack | Cd | 8 | 8 | 12–17 | 1 |
+| 733: BF, finger foods, puffed snack | Cr | 8 | 8 | 64–300 | 50 |
+| 733: BF, finger foods, puffed snack | Pb | 8 | 2 | 11–18 | 4 |
+| 733: BF, finger foods, puffed snack | tHg | 8 | 1 | 1 | 1 |
+| 733: BF, finger foods, puffed snack | Ni | 8 | 8 | 510–800 | 40 |
+| 733: BF, finger foods, puffed snack | iAs | 8 | 8 | 25.4–33.6 | 1 |
+| 733: BF, finger foods, puffed snack | U | 8 | 6 | 1.2–1.7 | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 2. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -7,12 +7,15 @@ aliases: [pears, Pears, "ingredients/pears"]
 category: taxonomy-placeholder
 contamination_profile:
   Pb:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::85::lead","role":"value","food_id":"85","food_name":"Pear, with peel, raw","metal_species":"Pb","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Cd:
     status: populated
     typical_ppb: [0, 1.8]
@@ -21,12 +24,15 @@ contamination_profile:
     n_studies: 2
     last_reviewed: 2026-05-13
   iAs:
-    status: populated
-    typical_ppb: [2, 15]
+    status: "in_progress"
+    typical_ppb: [null,null]
     p95_ppb: null
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-16
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FP 0230\",\"Pear\",\"iAs\",\"EURO\",\"\",\"as_consumed\",\"2016\",\"2023\"]","role":"context","food_id":"FP 0230","food_name":"Pear","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"EURO","year_min":2016,"year_max":2023,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":8,"p10_ppb":0,"p90_ppb":5.972,"p95_ppb":7.281,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FP 0230\",\"Pear\",\"iAs\",\"PAHO\",\"\",\"as_consumed\",\"2011\",\"2014\"]","role":"context","food_id":"FP 0230","food_name":"Pear","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"PAHO","year_min":2011,"year_max":2014,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":8,"p10_ppb":0,"p90_ppb":0.876,"p95_ppb":1.898,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FP 0230\",\"Pear\",\"iAs\",\"WPRO\",\"Raw\",\"as_consumed\",\"2010\",\"2010\"]","role":"context","food_id":"FP 0230","food_name":"Pear","metal_species":"iAs","basis":"as_consumed","food_state":"Raw","geography":"WPRO","year_min":2010,"year_max":2010,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":4,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FP 0230\",\"Pear\",\"iAs\",\"WPRO\",\"Raw\",\"as_is\",\"2022\",\"2022\"]","role":"context","food_id":"FP 0230","food_name":"Pear","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"WPRO","year_min":2022,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":1,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"}]
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
     status: populated
     typical_ppb: [0, 7.9]
@@ -35,12 +41,15 @@ contamination_profile:
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::85::mercury","role":"value","food_id":"85","food_name":"Pear, with peel, raw","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Ni:
     status: populated
     typical_ppb: [0, 102.8]
@@ -56,12 +65,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   Cr:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::85::chromium","role":"value","food_id":"85","food_name":"Pear, with peel, raw","metal_species":"Cr","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -70,12 +82,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::85::uranium","role":"value","food_id":"85","food_name":"Pear, with peel, raw","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -104,16 +119,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Pb | n=1 dataset; composites=27 | ND (<4; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=2 | 0–1.8 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| iAs | n=2 | 2–15 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=2 | 0–7.9 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=2 | 0 | low | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–102.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 dataset; composites=27 | ND (<50; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| U | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Routing
 
@@ -128,22 +143,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 85, "Pear, with peel, raw." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Pear, with peel, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 4 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 130 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 9.3 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 85: Pear, with peel, raw | tAs | 27 | 18 | 3.4–9.3 | 3 |
+| 85: Pear, with peel, raw | Cd | 27 | 12 | 1.1–4 | 1 |
+| 85: Pear, with peel, raw | Cr | 27 | 0 | ND in all composites | 50 |
+| 85: Pear, with peel, raw | Pb | 27 | 0 | ND in all composites | 4 |
+| 85: Pear, with peel, raw | tHg | 27 | 0 | ND in all composites | 1 |
+| 85: Pear, with peel, raw | Ni | 27 | 20 | 41–130 | 40 |
+| 85: Pear, with peel, raw | U | 27 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -190,12 +202,47 @@ Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-lev
 
 FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) addresses lead in fruit purees and juices consumed by infants; pear is within scope as a commonly consumed infant fruit. Codex Alimentarius sets guidance levels for contaminants in fruit generally ([[regulations/codex-cadmium-mls]]). The UK post-Brexit Contaminants Regulation applies the same ML values as the EU for pear in domestic commerce.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**Pb.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/bair2022-infant-toddler-food-heavy-metals-policy]].
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+WHO GEMS/Food retains the following distinct records. The ranges are source-scope lower-bound P10–P90 summaries; they are not a pooled typical value for this ingredient. Food-group records remain broader context. Differences in basis, period and geography are preserved. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Food / state | Region | Years | Basis | Records | Source LB P10–P90 (ppb) |
+| --- | --- | --- | --- | ---: | --- |
+| Pear / not specified | EURO | 2016–2023 | as_consumed | 8 | 0–5.972 |
+| Pear / not specified | PAHO | 2011–2014 | as_consumed | 8 | 0–0.876 |
+| Pear / Raw | WPRO | 2010–2010 | as_consumed | 4 | 0–0 |
+| Pear / Raw | WPRO | 2022–2022 | as_is | 1 | 0–0 |
+
+Recovered WHO summaries alone do not resolve incompatible basis labels or establish that zero-coded results were measured zeros.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/bair2022-infant-toddler-food-heavy-metals-policy]].
+
+**tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/bair2022-infant-toddler-food-heavy-metals-policy]].
+
+**Cr.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/bair2022-infant-toddler-food-heavy-metals-policy|A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy]]<span class="hmi-ref-meta">Emily C. Bair · Frontiers in Nutrition · 2022 · [doi.org/10.3389/fnut.2022.919913](https://doi.org/10.3389/fnut.2022.919913)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -219,13 +266,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

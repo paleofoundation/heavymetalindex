@@ -83,7 +83,7 @@ used_in_products: [vegetable-juices-non-root, vegetable-juices-root-vegetable-co
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Vegetable juice
@@ -117,9 +117,24 @@ This node is linked from [[products/vegetable-juices-non-root]], [[products/vege
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Vegetable juice is the liquid extracted or processed from vegetables (tomato juice, carrot juice, beet juice, celery juice, and mixed-vegetable products like V8). Vegetable juice carries the source-[[ingredients/vegetables|vegetable]] heavy-metal profile, concentrated per-mass via water-content removal during juicing or evaporation. Different vegetable types contribute different baseline metal profiles: [[ingredients/tomato-paste|tomato]] juice carries source-tomato Cd; [[ingredients/carrots|carrot]] juice carries source-carrot Pb and Cd at moderate concentrations; [[ingredients/beet|beet]] juice can carry higher Pb because beet (Beta vulgaris) is a moderate Pb accumulator; leafy-vegetable juice (kale, spinach, parsley juices in cold-pressed and craft-juice formulations) carries the leafy-greens Cd and Pb at concentrated per-mass levels. The HMTc panel concerns for vegetable juice are Pb and Cd (dominant), iAs in juice from vegetables grown in As-affected regions, and Sn for canned vegetable juices including canned tomato juice.
@@ -158,16 +173,32 @@ Vegetable juice routes into the [[products/vegetable-juices-non-root|vegetable-j
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to vegetable-juice products sold in California.
 - EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned beverages including canned vegetable juice.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 525: Juice, tomato-vegetable | tAs | 3 | 1 | 1.3 | 1 |
+| 525: Juice, tomato-vegetable | Cd | 3 | 3 | 9–15 | 1 |
+| 525: Juice, tomato-vegetable | Cr | 3 | 0 | ND in all composites | 25 |
+| 525: Juice, tomato-vegetable | Pb | 3 | 1 | 1.6 | 1 |
+| 525: Juice, tomato-vegetable | tHg | 3 | 0 | ND in all composites | 1 |
+| 525: Juice, tomato-vegetable | Ni | 3 | 2 | 52–65 | 20 |
+| 525: Juice, tomato-vegetable | U | 3 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1ccaea44e3](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e3) | 2026-06-14 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

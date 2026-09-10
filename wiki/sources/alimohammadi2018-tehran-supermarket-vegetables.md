@@ -111,20 +111,20 @@ Six vegetable types (Lactuca sativa, Brassica oleracea var. capitata, Solanum ly
 - Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisory language carried over from the source.
 - products: [] is intentional. This is raw fresh produce (not packaged formats); no product-page slug applies. Routing-malformed advisory for the missing products array is expected and does not indicate a defect.
 - Slug choices: paper categorizes tomato and cucumber as "fruits" (botanically fruit vegetables); routed via [[ingredients/non-root-vegetables]] umbrella plus the specific [[ingredients/tomato]] and [[ingredients/cucumber]] slugs. Potato routed as [[ingredients/potatoes]] (plural form is the canonical ingredient slug).
-- Audit subagent (2026-06-01) flagged `[[ingredients/non-root-vegetables]]` as an invented slug not in the taxonomy snapshot — verified against `docs/gpt-collaboration/taxonomy-snapshot.md` line 40 and `wiki/ingredients/non-root-vegetables.md`; both confirm the slug exists. False positive; no change applied.
-- Audit subagent (2026-06-01) recommended rewording the "consistent with Paltseva 2018 and Gorospe 2012 patterns reported elsewhere" parenthetical for unambiguous attribution; reworded to make clear the comparison is the source's own framing (PDF p. 4 §3.1) and not a wiki-side cross-source synthesis.
-- Audit subagent (2026-06-01) noted that the Ni-in-potato autumn 2.115 mg/kg exceedance call is faithful to Table 5 (bolded cell, 1.5 mg/kg parenthetical limit) but is the wiki's inference from the table rather than direct §3.1 prose. Acceptable as-is per subagent; no change applied.
+- Audit editorial review (2026-06-01) flagged `[[ingredients/non-root-vegetables]]` as an invented slug not in the taxonomy snapshot — verified against the editorial record line 40 and the linked reference record; both confirm the slug exists. False positive; no change applied.
+- Audit editorial review (2026-06-01) recommended rewording the "consistent with Paltseva 2018 and Gorospe 2012 patterns reported elsewhere" parenthetical for unambiguous attribution; reworded to make clear the comparison is the source's own framing (PDF p. 4 §3.1) and not a wiki-side cross-source synthesis.
+- Audit editorial review (2026-06-01) noted that the Ni-in-potato autumn 2.115 mg/kg exceedance call is faithful to Table 5 (bolded cell, 1.5 mg/kg parenthetical limit) but is the wiki's inference from the table rather than direct §3.1 prose. Acceptable as-is per editorial review; no change applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

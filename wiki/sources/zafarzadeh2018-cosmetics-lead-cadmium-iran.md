@@ -114,19 +114,19 @@ App: If adult personal-care product profiles are added later, the Table 1 produc
 - Source-internal inconsistency: the Discussion reports highest Pb concentrations as `63.42`, `52.19`, and `48.75 μg/g` for selected product/country/color examples, while the color paragraph later gives dark-red Pb as `52.19-47.75 μg/g`. Because the per-sample table is not published, this page avoids using those disputed individual maxima beyond the overall Pb max `63.42 µg/g` and the Table 1 group means.
 - Brand firewall: Table 1 uses anonymized brand letters only; no consumer brand names are printed in the extracted table. This page omits even the letter-coded brand column and reports only product/country rows and aggregate source findings.
 - Evidence tier: `B` because the paper is peer-reviewed and reports a primary 264-sample analytical survey, but the journal/method detail does not meet A-tier expectations. The paper does not report CRM recovery, blanks, LOD/LOQ values in finished-product units, or per-sample raw data; it also contains several source-side transposition/caption inconsistencies.
-- Routing: all product slugs used in frontmatter appear in `docs/gpt-collaboration/taxonomy-snapshot.md`. Missing exact slugs: the snapshot has no non-retired adult `lip-products` page despite a planned product-index row, no eye-makeup-remover slug, and no explicit pancake-makeup slug. The page uses `lipstick` for exact closed-vocabulary continuity, `facial-cleansers` for eye makeup remover, and `makeup-foundation-powders-blush` for pancake makeup.
+- Routing: all product slugs used in source metadata appear in the editorial record. Missing exact slugs: the snapshot has no non-retired adult `lip-products` page despite a planned product-index row, no eye-makeup-remover slug, and no explicit pancake-makeup slug. The page uses `lipstick` for exact closed-vocabulary continuity, `facial-cleansers` for eye makeup remover, and `makeup-foundation-powders-blush` for pancake makeup.
 - Speciation: Cd and Pb are elemental total-metal measurements only; no cadmium/lead species distinction is reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

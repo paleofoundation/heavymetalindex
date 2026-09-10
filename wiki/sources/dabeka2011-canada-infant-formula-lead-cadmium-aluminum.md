@@ -103,8 +103,7 @@ App: Supports formula-format, soy/non-soy, and preparation-state risk estimation
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
 - [[products/infant-formula-rtf-liquid-non-soy]]
@@ -124,13 +123,13 @@ Microbiome: No direct microbiome endpoint.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [2b85e7c76](https://github.com/paleofoundation/heavymetalindex/commit/2b85e7c76) | 2026-04-29 | major | 3 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
+| [2b85e7c769](https://github.com/paleofoundation/heavymetalindex/commit/2b85e7c769) | 2026-04-29 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

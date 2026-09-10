@@ -62,7 +62,7 @@ Plants were propagated from T. officinale seed in sterile soil in a greenhouse a
 
 Total RNA was extracted with Trizol and quantified by NanoDrop ND-100 (260/280 > 1.8 for all samples). miR398 was reverse-transcribed using the Takara Mir-X miRNA First-Strand Synthesis Kit and quantified by SYBR Green real-time PCR on a Stratagene Mx300SP thermocycler with U6 snRNA as constitutive reference. CSD2 was reverse-transcribed using the Thermo Scientific First Strand cDNA Synthesis Kit and quantified by SYBR Green qPCR (Thermo Maxima kit) on a BIORAD MJ Mini thermocycler with KNOX-1 of Taraxacum as constitutive reference; relative expression was computed by the 2^(-ΔΔCt) algorithm (Livak & Schmittgen 2001). MTT-reduction assay used 1 cm² of leaf homogenised in 0.9% saline, centrifuged at 10,000 rpm, incubated with 5 mg/mL MTT in PBS for 24 h at 37 °C, dissolved in HCl/NP40/isopropanol, and quantified at 590 nm with 620 nm background correction.
 
-The paper does not separate Cr-VI from total Cr (frontmatter therefore records Cr, not Cr-VI). Arsenic and mercury were not measured. Because the concentration data are presented primarily as figures rather than tabulated values, exact means below the values quoted above must be read off Fig. 1 with attendant precision loss; this limits the paper's utility for quantitative occurrence synthesis but does not undermine its biomonitoring conclusions.
+The paper does not separate Cr-VI from total Cr (source metadata therefore records Cr, not Cr-VI). Arsenic and mercury were not measured. Because the concentration data are presented primarily as figures rather than tabulated values, exact means below the values quoted above must be read off Fig. 1 with attendant precision loss; this limits the paper's utility for quantitative occurrence synthesis but does not undermine its biomonitoring conclusions.
 
 ## Relevance to this wiki
 
@@ -82,7 +82,7 @@ Microbiome: none.
 
 This page was originally drafted 2026-05-15 from a thinner pass over the source. Re-ingested 2026-05-18 with the full PDF re-read to correct the following defects:
 
-- Frontmatter `metals` previously listed only [Pb, Cd, Al, Cr, Ni, Mn]; Fe and V were measured and reported (Fig. 1, eight-metal panel) and have been added.
+- source metadata `metals` previously listed only [Pb, Cd, Al, Cr, Ni, Mn]; Fe and V were measured and reported (Fig. 1, eight-metal panel) and have been added.
 - Previous body text stated "CCA showing higher Pb in the rainy season ... attributed to atmospheric re-suspension of street dust." The paper does not say this. Table 1 lists Pb as significantly increased only at Altzomoni in both seasons; Pb at CCA was not significantly above control. The atmospheric-re-suspension attribution is not in the source. Corrected.
 - Previous body text listed the five metals elevated at Altzomoni in the dry season as "aluminum, cadmium, chromium, nickel, and lead." Table 1 of the source lists Al, Cd, Cr, Mn, Ni (manganese, not lead). Pb was elevated at Altzomoni but in both seasons, separately. Corrected.
 - Previous body text framed CCA as showing "high vanadium and cadmium concentrations" — Table 1 actually lists three metals elevated at CCA dry (Cd, Mn, V). Corrected and Mn added.
@@ -90,20 +90,19 @@ This page was originally drafted 2026-05-15 from a thinner pass over the source.
 - Previous version lacked a `## Key numbers` section as required by the source-page template. Added with values from Fig. 1, Table 1, and the Results narrative.
 - `sample_n` previously null; set to 20 (plants per group per station per season, per Materials and methods).
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[supply-chain/soil]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

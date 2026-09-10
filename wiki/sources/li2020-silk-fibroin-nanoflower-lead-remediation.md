@@ -100,18 +100,18 @@ This page was built from the full PDF, including the self-assembly synthesis met
 
 The matrices slugs (silk-fibroin, protein-inorganic-hybrid-nanoflower, aqueous-sorption-test, wastewater-remediation) are remediation-domain proposals outside the current controlled food-matrix vocabulary; they follow the precedent set by wang2020-lignin-residue-biochar-heavy-metal-remediation and are flagged here for a future taxonomy refresh that adds a remediation-matrix controlled vocabulary.
 
-Audit subagent 2026-06-02 (v2 skill, fresh-context general-purpose agent) returned PROMOTE on all five checks; two optional completeness concerns were applied to the Key numbers Pb(II) isotherms and thermodynamics paragraph (added the 80-500 mg/L isotherm-fitting concentration range that the paper used because 5-50 mg/L was fully adsorbed, and added the source's absolute delta H magnitudes of 64.30 and 17.91 kJ/mol at 100 and 500 mg/L Pb(II)).
+Audit editorial review 2026-06-02 (v2 skill, fresh-context general-purpose agent) returned PROMOTE on all five checks; two optional completeness concerns were applied to the Key numbers Pb(II) isotherms and thermodynamics paragraph (added the 80-500 mg/L isotherm-fitting concentration range that the paper used because 5-50 mg/L was fully adsorbed, and added the source's absolute delta H magnitudes of 64.30 and 17.91 kJ/mol at 100 and 500 mg/L Pb(II)).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

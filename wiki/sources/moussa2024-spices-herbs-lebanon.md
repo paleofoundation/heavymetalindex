@@ -72,26 +72,26 @@ Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 a
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-29 against the manual-fetch PDF in `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/`. The PDF is the same paper as the Marker-converted `raw/markdown/FM_11343411/FM_11343411.md` already referenced in `raw_path`; raw_handle preserved as the FM_ identity.
+- Merge-enhanced 2026-05-29 against the manual-fetch PDF in the archived source file. The PDF is the same paper as the Marker-converted the archived source file already referenced in `raw_path`; raw_handle preserved as the FM_ identity.
 - Expanded `ingredients:` from a single umbrella (`herbal-botanicals`) to include the umbrella plus the specific commodity slugs that actually exist in the wiki and that the paper measures distinctly (`cinnamon`, `black-pepper`, `herbs-and-spices`). The other 10 measured spices (thyme, thyme mix, paprika, cumin, oregano, garlic powder, red chili, white pepper, dried mint, sesame, sumac) do not yet have wiki ingredient pages and are not pre-emptively created here per Part 10 / skill stop conditions.
 - Added per-spice exceedance percentages from Table 2 for completeness (the prior page summarized only the highest-exceedance and most-affected categories; the full table is now in the page).
 - Added the sampling-design paragraph clarifying the 480 → 96 composite-sampling structure that drives the n/N denominators in Tables 1 and 2.
 - Brand firewall (Part 12, strict): the paper does not name any of the 5 brands used per composite; composite values are reported only at the spice × category × collection-period level. Method-vendor names (Thermo Fisher Scientific GF95Z, Milestone DMA-80, Milestone Ethos Plus, Sigma-Aldrich reagents, BOECO UV/UF water system, IBM SPSS) are retained under the Part 12 scientific-method exception.
 - Wiki/HMTc firewall (Part 2): no threshold proposals; the Certification implication describes the occurrence baseline against the Codex MPL but does not recommend an HMTc value.
 - Speciation note (Part 14): paper uses GF-AAS for As (no inorganic speciation) and DMA-80 for Hg (no methyl speciation); metals listed as `tAs` and `tHg` accordingly.
-- Audit subagent (2026-05-29) flagged "BOECEL" as a vendor-name transcription error; verified against PDF p.3 §2.3 — paper text is "BOECO pure (Boeckel, Hamburg, Germany)" — corrected to BOECO.
-- Audit subagent (2026-05-29) noted that `matrices: [spices, dried-herbs]` cannot be verified against an enumerated controlled vocabulary; both slugs are used consistently across the merge-enhanced sibling spice-source pages (huff2025-spices-lancaster-pa, tinggi2025-spices-herbs-queensland, munarso2024-vanilla-indonesia-quality) and are retained as-is.
+- Audit editorial review (2026-05-29) flagged "BOECEL" as a vendor-name transcription error; verified against PDF p.3 §2.3 — paper text is "BOECO pure (Boeckel, Hamburg, Germany)" — corrected to BOECO.
+- Audit editorial review (2026-05-29) noted that `matrices: [spices, dried-herbs]` cannot be verified against an enumerated controlled vocabulary; both slugs are used consistently across the merge-enhanced sibling spice-source pages (huff2025-spices-lancaster-pa, tinggi2025-spices-herbs-queensland, munarso2024-vanilla-indonesia-quality) and are retained as-is.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [5f41c6f28](https://github.com/paleofoundation/heavymetalindex/commit/5f41c6f28) | 2026-05-29 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [5f41c6f286](https://github.com/paleofoundation/heavymetalindex/commit/5f41c6f286) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

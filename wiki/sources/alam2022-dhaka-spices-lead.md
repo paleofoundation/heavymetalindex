@@ -94,21 +94,21 @@ Microbiome: Not addressed.
 
 - The PDF is a Research Square preprint posted September 22, 2022, with DOI `10.21203/rs.3.rs-2087533/v1` and CC BY 4.0 license text in the PDF. The wishlist audit also contained skip rows for a later published DOI candidate, `10.1007/s12011-022-03553-4`; this source page is based on the actual PDF in the auto-fetched folder and uses the DOI printed in that PDF.
 - The full Table 2 extraction is not clean enough to reconstruct every individual sample cell without visual PDF review, so the Key numbers section uses the complete lead ranges stated in the abstract and body narrative. This is a source-ingest limitation, not a reason to drop the source, because the PDF provides extractable concentration ranges and category-level occurrence findings.
-- `matrices: [spices]` is used rather than `powdered-spices` or a basis label. The source basis is powdered spice as sold; basis is documented in the Key numbers and Methods sections instead of being placed in frontmatter `matrices`.
-- Audit subagent (2026-06-02) returned QUARANTINE because the first ingest mislabeled the source table's carcinogenic-risk (`CR`) values as target-hazard-quotient (`THQ`) values. The exposure table now carries separate THQ and CR columns from the source table.
+- `matrices: [spices]` is used rather than `powdered-spices` or a basis label. The source basis is powdered spice as sold; basis is documented in the Key numbers and Methods sections instead of being placed in source metadata `matrices`.
+- Audit editorial review (2026-06-02) returned QUARANTINE because the first ingest mislabeled the source table's carcinogenic-risk (`CR`) values as target-hazard-quotient (`THQ`) values. The exposure table now carries separate THQ and CR columns from the source table.
 - Speciation is straightforward: lead is reported as Pb only. No arsenic, cadmium, mercury, nickel, chromium, tin, aluminum, uranium, or antimony values are measured in this source.
 - The source has category labels for branded and nonbranded products but does not disclose consumer brand names. The page therefore remains brand-firewall compliant.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -122,7 +122,7 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
-- Filed in `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/` but the paper's sampled population is the adult tertiary-institution populace (students, lecturers, staff, visitors), not children. Routed to `body-hand-leave-on-skin-care` (Cat 13 Row 4) rather than to baby/children's personal-care slugs. The folder-vs-content mismatch is noted for the manual-fetch tracker; this is a Karen-side filing decision, not a content defect.
+- Filed in the archived source file but the paper's sampled population is the adult tertiary-institution populace (students, lecturers, staff, visitors), not children. Routed to `body-hand-leave-on-skin-care` (Cat 13 Row 4) rather than to baby/children's personal-care slugs. The folder-vs-content mismatch is noted for the manual-fetch tracker; this is a Karen-side filing decision, not a content defect.
 - DOI: not reported on the article; ISSN 2354-2918 (SEAHI Publications). Set to `null`; access_url points to the publisher's hosted PDF. Evidence tier B reflects: peer-reviewed but small-journal venue, no QC/recovery/LOD data reported, narrative-vs-table inconsistencies (below) that downgrade analytical confidence.
 - Paper-internal narrative-vs-table inconsistencies (recorded for downstream synthesis to handle correctly):
  - Abstract (p. 24) reports tAs pooled range "<0.001 – 0.063 ppm" but neither Table 1 nor Table 2 contains any tAs value >0.043 (CMBCC). The 0.063 figure is not traceable to either per-sample table. Tables are authoritative for the per-sample data; the abstract value is treated as an unreconciled author drift.
@@ -138,13 +138,13 @@ Microbiome: Not addressed.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

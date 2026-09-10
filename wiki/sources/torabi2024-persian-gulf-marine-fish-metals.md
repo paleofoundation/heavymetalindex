@@ -66,7 +66,7 @@ App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1546.txt`; Table 3 and Figure 2 were also checked against rendered PDF pages because the units conflict.
-- Identity checks before creation: DOI `10.1007/s12011-023-03946-z`, raw handle `MFK_health-risk-assessment-of-heavy-metals-in-marine`, raw SHA-256 `c4c8744f2490c5f09df3f72fcaa771f0aafb55e5de1a627e9703b80eb62848fa`, and cite key `torabi2024-persian-gulf-marine-fish-metals` were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: DOI `10.1007/s12011-023-03946-z`, raw handle `MFK_health-risk-assessment-of-heavy-metals-in-marine`, raw SHA-256 `c4c8744f2490c5f09df3f72fcaa771f0aafb55e5de1a627e9703b80eb62848fa`, and cite key `torabi2024-persian-gulf-marine-fish-metals` were searched in the linked reference record and evidence files; no existing source page was found.
 - Units are preserved exactly as printed: aggregate means are in `µg/g wet weight`; Table 3 is described with the paper's `milligrams per gram of wet weight` caption; Figure 2 is noted as `µg metal/g dw`.
 - Speciation: the paper measured total elemental Ni, Zn, Cu, Pb, and Cd in fish muscle. It did not measure Hg, MeHg, arsenic, or metal speciation.
 - Brand firewall is not relevant; samples are wild fish species and ports, not brands.
@@ -75,13 +75,13 @@ App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

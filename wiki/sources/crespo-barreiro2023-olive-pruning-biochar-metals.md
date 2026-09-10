@@ -114,20 +114,20 @@ App: Route as agricultural-input context for biochar and soil amendments, especi
 
 The PDF has author attribution and DOI `10.3390/agriculture13051064`; no DOI conflict was observed. The source measures an agricultural soil amendment, not an edible commodity, so `ingredients` and `products` are intentionally empty. The table reports total As and total Hg only; no arsenic or mercury speciation is available. Censored values such as As <4 mg/kg and Cd <0.8 mg/kg are retained as censored biochar evidence rather than converted to zero. Company/supplier name from the methods section is omitted under the brand firewall.
 
-Audit subagent (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a paper-internal oddity: Table 4 in the published PDF prints mean and SD as the same numeric, which is almost certainly a source typo (the other four Zn rows have SD values one to two orders of magnitude smaller than the mean). The wiki page faithfully reproduces what the source prints; downstream synthesis should treat the BMEC Zn uncertainty as unreliable rather than as a genuine +/- 51.31 mg/kg interval.
+Audit editorial review (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a paper-internal oddity: Table 4 in the published PDF prints mean and SD as the same numeric, which is almost certainly a source typo (the other four Zn rows have SD values one to two orders of magnitude smaller than the mean). The wiki page faithfully reproduces what the source prints; downstream synthesis should treat the BMEC Zn uncertainty as unreliable rather than as a genuine +/- 51.31 mg/kg interval.
 
-Audit subagent (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in `docs/gpt-collaboration/system-prompt.md`. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at `wiki/supply-chain/soil-to-plant-transfer.md` and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
+Audit editorial review (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in the editorial record. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at the linked reference record and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

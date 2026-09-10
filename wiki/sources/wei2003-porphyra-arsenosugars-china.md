@@ -101,20 +101,20 @@ This paper adds direct seaweed occurrence evidence for Chinese-market *Porphyra*
 - Text was extracted to `/tmp/hmi-seaweed-066.txt` with `pdftotext -layout`; the title, abstract, Materials and Methods, Table 3, Table 4, heating section, urine-metabolism section, Figures 4-7 captions, and conclusion were readable.
 - All Key numbers were checked against `/tmp/hmi-seaweed-066.txt`, especially Table 3 total/extractable arsenic values, Table 4 arsenosugar concentrations and HPLC peak percentages, the `100 °C`/`10 min` heating test, the `15 g (dry weight)` ingestion amount, `∼324 µg` ingested arsenic, `10-30 ng/mL` pre-ingestion urine range, `92.5 µg/L` peak-window urine value, and the `<30 ng/mL` final urine statement.
 - Units and bases are preserved as `mg/kg as arsenic dry weight`, `%`, `°C`, `min`, `g (dry weight)`, `µg`, `ng/mL`, and `µg/L`; no unit conversion was performed.
-- Speciation check: total arsenic, arsenosugar PO4, arsenosugar OH, DMA in urine, AsB, MMA, arsenite, and arsenate are kept distinct. The paper does not report a Porphyra inorganic-arsenic concentration, so frontmatter uses `metals: [tAs]` only.
+- Speciation check: total arsenic, arsenosugar PO4, arsenosugar OH, DMA in urine, AsB, MMA, arsenite, and arsenate are kept distinct. The paper does not report a Porphyra inorganic-arsenic concentration, so source metadata uses `metals: [tAs]` only.
 - Brand firewall: samples were public-market Porphyra by location, not named brands.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact *Porphyra* and nori/zicai terminology remains in source text while frontmatter routes broadly to seaweed/kelp foods.
+- Missing-slug check: no missing product or ingredient slug blockers. Exact *Porphyra* and nori/zicai terminology remains in source text while source metadata routes broadly to seaweed/kelp foods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

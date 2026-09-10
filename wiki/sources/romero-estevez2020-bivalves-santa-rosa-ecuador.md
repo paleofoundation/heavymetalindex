@@ -145,7 +145,7 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 ## Sources
 
 - Romero-Estévez D, Yánez-Jácome GS, Dazzini Langdon M, Simbaña-Farinango K, Rebolledo Monsalve E, Durán Cobo G, Navarrete H. 2020. "An overview of cadmium, chromium, and lead content in bivalves consumed by the community of Santa Rosa Island (Ecuador) and its health risk assessment." *Frontiers in Environmental Science* 8:134. DOI: 10.3389/fenvs.2020.00134.
-- Manual-fetch PDF: `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish/An Overview of Cadmium, Chromium, and Lead Content in Bivalves Consumed by the Community of Santa Ro.pdf` (SHA-256 `5404a94bfb82b4cf2ff9581f78d3a4bc984e778061f46a0a82dc4e7469ef76f4`).
+- Manual-fetch PDF: the archived source file (SHA-256 `5404a94bfb82b4cf2ff9581f78d3a4bc984e778061f46a0a82dc4e7469ef76f4`).
 
 ## Verification notes
 
@@ -156,11 +156,11 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 - The 1881/2006 cross-link is to the superseded EU contaminants framework because that is the version the paper itself cites (the paper is from 2020; EU 2023/915 came after publication).
 - Sediment and *Rhizophora mangle* leaves are environmental matrices, not food. They are included in Key numbers because they are part of the paper's Cd / Cr / Pb story and inform the discussion of bioaccumulation pathways, but they do not route to product or ingredient pages.
 - Bivalve species *Protothaca asperrima* and *Polymesoda inflata* are mentioned in the Results as single-composite passing samples; they are not assessed for human-health risk and the page records them as a single bullet under "Other bivalve species" rather than treating them as quantitative occurrence data.
-- 2026-06-03 Claude audit subagent (fresh context) verdict: REVISE. Three findings applied:
-  - Check 1 — *Protothaca asperrima* spelling: subagent flagged the Key numbers bullet and an earlier Verification note as "*Prototheca asperrima*" (typo); verified against PDF p. 5 — the paper reads "*Protothaca asperrima*". Frontmatter `sample_population` already used the correct spelling. Body and notes corrected.
-  - Check 1 — *Rhizophora mangle* leaf means: subagent flagged the prior rendering "Cd 2.21 / 2.23 / 4.38; Cr 4.22; Pb 3.29 / 3.35" as confusing (the "4.38" is in fact the body-text Cr mean, not a Cd value). Verified against PDF p. 1 (Abstract) and p. 6 (Discussion) — the two passages give slightly different leaf means (body Cd 2.21 / Cr 4.38 / Pb 3.29; abstract Cd 2.23 / Cr 4.22 / Pb 3.35). Rewritten to state both source passages explicitly and to attribute each value to the right analyte.
+- 2026-06-03 editorial review editorial review (fresh context) verdict: REVISE. Three findings applied:
+  - Check 1 — *Protothaca asperrima* spelling: editorial review flagged the Key numbers bullet and an earlier Verification note as "*Prototheca asperrima*" (typo); verified against PDF p. 5 — the paper reads "*Protothaca asperrima*". source metadata `sample_population` already used the correct spelling. Body and notes corrected.
+  - Check 1 — *Rhizophora mangle* leaf means: editorial review flagged the prior rendering "Cd 2.21 / 2.23 / 4.38; Cr 4.22; Pb 3.29 / 3.35" as confusing (the "4.38" is in fact the body-text Cr mean, not a Cd value). Verified against PDF p. 1 (Abstract) and p. 6 (Discussion) — the two passages give slightly different leaf means (body Cd 2.21 / Cr 4.38 / Pb 3.29; abstract Cd 2.23 / Cr 4.22 / Pb 3.35). Rewritten to state both source passages explicitly and to attribute each value to the right analyte.
   - Check 2 — `[[regulations/epa-iris-lead-rfd]]` cross-link: the source explicitly states "There is no US EPA RfD value for Pb" (PDF p. 2) and uses the FDA 2019 interim reference level (0.003 mg/day children, 0.0125 mg/day adults) as its Pb comparator. The EPA IRIS Pb RfD page is therefore not the right routing target. Removed the cross-link. No `regulations/fda-pb-interim-reference-level` slug exists in the current taxonomy snapshot; flagging here for Karen's review as a candidate regulation page rather than inventing a slug.
-- 2026-06-03 Claude audit subagent (second pass, fresh context) verdict: REVISE. Four findings applied:
+- 2026-06-03 editorial review editorial review (second pass, fresh context) verdict: REVISE. Four findings applied:
   - Check 1 — Pb RSD at *A. tuberculosa* E2 "Playa la Tumba": prior version recorded **5.39**; verified against PDF p. 5, Table 1 — the cell reads "0.311* 3.94 98.26". Corrected to **3.94**.
   - Check 1 — Cr accuracy upper bound at *A. similis* E3 "Playa al otro lado": prior version recorded **100.11**; verified against PDF p. 5, Table 1 — the Cr accuracy column reads "91.01–100.00". Corrected to **100.00**.
   - Check 3 — Methods terminology: prior version said "in-house natural-flour method"; verified against PDF p. 4 — the paper reads "natural food method validated for its use in plant tissues (Romero-Estévez et al., 2019)". Corrected to "natural food method".
@@ -169,13 +169,13 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

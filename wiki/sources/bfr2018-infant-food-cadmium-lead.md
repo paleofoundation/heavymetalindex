@@ -82,22 +82,22 @@ App: The source can support infant-food Cd/Pb context, especially formula powder
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_572.txt`; the title page, assessment object, Table 1, Section 3.2.1, Tables 2-3, Table 5, Table 6, Table 8, and Table 9 were checked against this page.
-- DOI `10.17590/20181205-132313-0`, raw handle `MFK_cadmium-in-food-scientific-opinion-reference`, and candidate cite-key path `wiki/sources/bfr2018-infant-food-cadmium-lead.md` were checked before creation; no existing source page was found.
+- DOI `10.17590/20181205-132313-0`, raw handle `MFK_cadmium-in-food-scientific-opinion-reference`, and candidate cite-key path the linked reference record were checked before creation; no existing source page was found.
 - Units are copied exactly as printed: occurrence values use `mg per kg`; exposure values use `µg per kg body weight and day`; percentages and MoE values are not converted.
 - Speciation: the source reports cadmium and lead totals only; no iAs/tAs, MeHg/tHg, or Cr/Cr(VI) substitution issue is present.
 - The source-reported EU maximum levels in Table 1 are regulatory context only. This page does not propose, justify, or compare against any HMTc threshold.
-- Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; matrix descriptors such as `rusk-biscuits` are not product or ingredient slugs.
+- source metadata slugs were checked against the editorial record; matrix descriptors such as `rusk-biscuits` are not product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

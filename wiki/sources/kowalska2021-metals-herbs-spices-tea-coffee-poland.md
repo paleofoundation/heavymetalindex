@@ -133,7 +133,7 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 2026-05-29 merge-enhance pass (v2.0 skill): re-read PDF cover-to-cover including all four tables and full sections 3.1–3.5.
 
 - Cleaned overview-paragraph Pb statistic: prior wording said "24 samples (18% of 131 herb samples that had data) exceeded the WHO limit for Pb (10 mg/kg) only when interpreted against some measures." Per section 3.2 of the paper, zero herb samples exceeded the WHO 10 mg/kg limit; the 24 (18%) figure from the abstract maps to the EU 420/2011 converted limit per section 3 framing. The "131 samples" denominator is not in the paper and has been removed.
-- Cd exceedance species list (correction-of-correction after Phase 2 audit): the initial merge-enhance dropped "yellow bedstraw" from the 9-species exceedance list and introduced a spurious "9-vs-8 mismatch" framing. The Phase 2 fresh-context audit subagent caught this; re-reading section 3.1 page 5 confirmed the paper names nine species including yellow bedstraw. List restored to the source's nine species.
+- Cd exceedance species list (correction-of-correction after Phase 2 audit): the initial merge-enhance dropped "yellow bedstraw" from the 9-species exceedance list and introduced a spurious "9-vs-8 mismatch" framing. The Phase 2 fresh-context audit editorial review caught this; re-reading section 3.1 page 5 confirmed the paper names nine species including yellow bedstraw. List restored to the source's nine species.
 - Overview species counts (correction after Phase 2 audit): prior wording carried over the earlier page's "37 herb species" and "12 spice species" counts. Direct count of Table 2 entries yields 40 herb species and 11 spice species; the overview now uses those counts.
 - Added arsenic detail for herbs: prior page omitted the herb As findings (12 samples / 7% detection: nine valerian-root samples at 0.111–0.535 mg/kg and three blackcurrant-leaf samples at 0.166–0.202 mg/kg). Restored from section 3.3.
 - Added mercury detail for herbs: prior page said "Only field horsetail had notable Hg at mean 0.015 mg/kg." Per section 3.4, the dataset maximum for Hg was European blueberry leaves at 0.030 mg/kg, not field horsetail; both are now reported, along with the 45/163 (28%) herb detection rate.
@@ -142,13 +142,12 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 - Added per-analyte THQmax breakdown for herbs (the highest-loading category) from Table 3 and disambiguated carcinogenic-risk values (spices max 1.29×10⁻⁵ vs herbs max 8.03×10⁻⁶) from Table 4.
 - Removed cross-source synthesis from `## Implications`: prior page text "This is the reference study cited by both Fischer 2022 and Winiarska-Mieczan 2023 for Polish herb/spice background context" was a citation-network claim about other wiki sources, which belongs at the synthesis layer, not on a single-source page. Also removed an iAs-vs-tAs threshold comparison against an external regulatory value, replaced with neutral speciation-caveat wording.
 - Methods: added Altec, Czech Republic for AMA 254; added Mulgrave, Australia for Varian 820-MS; added MARS Express microwave mineraliser model and supplier; added WPS 50 SX moisture analyser; added analyte-specific reference doses, As cancer slope factor, and noncarcinogen-vs-carcinogen treatment per section 2.6.
-- Frontmatter: populated `sampling_year_range: "2015–2018"` (was null).
+- source metadata: populated `sampling_year_range: "2015–2018"` (was null).
 - Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` initially fixed to `[[regulations/eu-1881-2006-contaminants-superseded]]`, then removed entirely after Phase 2 audit. The paper does not directly discuss EU 1881/2006; the regulation it actually cites for fresh-herb Pb limits is Commission Regulation (EU) No. 420/2011 (which amends 1881/2006 for herbs), and no slug for 420/2011 exists in the current regulations taxonomy. Per (do not create new regulation pages mid-ingest), the regulation entry is dropped from the page-touch list.
 - Flagged European blueberry leaves Pb mean-below-range-minimum inconsistency in Table 2 (parallel to the China-tea Cd issue), added during Phase 2 audit application.
 - Paper-internal data-integrity issue preserved as-printed (not corrected on the wiki page): Table 2 reports China-tea Cd range 0.069–0.098 with mean 0.034 — mathematically impossible since mean lies below range minimum; section 3.1 text gives the tea+coffee Cd range as "<LOQ (0.020 mg/kg) to 0.098 mg/kg," so the printed lower bound 0.069 in Table 2 appears to be a typo. Wiki page reports as printed and flags the inconsistency.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/dried-herbs]]
 - [[ingredients/tea]]
@@ -162,13 +161,13 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

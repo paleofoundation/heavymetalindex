@@ -103,18 +103,18 @@ Microbiome: The tampon discussion mentions toxic shock syndrome and vaginal micr
 
 ## Verification notes
 
-Identity checks before drafting found no existing `wiki/sources/` hit for raw handle `MFK_paper-24-carlin-2020-thesis-tampons`, cite key `carlin2020-tampons-eyeshadows-chemistry`, the Digital Commons handle `theses_etds/5847`, or the exact title. The repository citation lists the work as `2020`, while the title page says Sarasota, Florida, December 2019; the cite key and `year` follow the repository/work-list year and the date discrepancy is recorded here. The thesis has no DOI printed; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `17ff24948afc70bb33f3dcc53f274b38d0b48b25bd4862b0e6ef7af30143f811`. Tables 4-8 and Sections 2.2-2.3 were re-opened from `/tmp/hmi-fem-016.txt`; units are preserved without conversion. Table 8's Cd LOD/LOQ ordering is copied as displayed even though the LOD value exceeds the LOQ value. The thesis labels arsenic as `Ar` in Table 7, but the row text says Arsenic; this page routes it as total arsenic (`tAs`) because no inorganic-arsenic speciation is reported. The brand firewall is clean: this page reports sample/location codes and aggregate literature values, not brand-linked contamination values.
+Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-24-carlin-2020-thesis-tampons`, cite key `carlin2020-tampons-eyeshadows-chemistry`, the Digital Commons handle `theses_etds/5847`, or the exact title. The repository citation lists the work as `2020`, while the title page says Sarasota, Florida, December 2019; the cite key and `year` follow the repository/work-list year and the date discrepancy is recorded here. The thesis has no DOI printed; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `17ff24948afc70bb33f3dcc53f274b38d0b48b25bd4862b0e6ef7af30143f811`. Tables 4-8 and Sections 2.2-2.3 were re-opened from `/tmp/hmi-fem-016.txt`; units are preserved without conversion. Table 8's Cd LOD/LOQ ordering is copied as displayed even though the LOD value exceeds the LOQ value. The thesis labels arsenic as `Ar` in Table 7, but the row text says Arsenic; this page routes it as total arsenic (`tAs`) because no inorganic-arsenic speciation is reported. The brand firewall is clean: this page reports sample/location codes and aggregate literature values, not brand-linked contamination values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

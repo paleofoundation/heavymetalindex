@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] correction | FDA TDS full-data reconciliation and corpus integrity repair
+
+Restored 68,993 analytical results across 307 foods and routed every food to an ingredient destination. Corrected 299 profile cells, preserved non-detect reporting limits and source-specific observations, and added 103 provisional food destinations. Source and companion: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/fda-tds-elements-2018-2020]]. Evidence download, export and revision verification now share reproducible contracts. Scientific statements and earlier editorial records remain traceable. Direction: toward the primary evidence; no certification thresholds changed.
+
+
 ## [2026-09-10] maintenance | bounded Library fire routing refresh
 
 Pages touched: four source records, [[ingredients/cosmetic-clay]], [[products/sun-suntan-products]], [[supply-chain/soil-to-plant-transfer]], [[mitigation/remediation-evidence]], and relevant metal pages. Notes: One new ingest and three fully corrected duplicate source pages reached this fire's four-page cap. Routed 670 reviewed structured records; all four independent five-check source audits returned PROMOTE. Generated indexes, product routing, source references and exports were refreshed. Three in-scope conference abstracts remain metadata/retrieval gaps; one further matched duplicate retains a separately logged canonical-metadata correction. Intentional empty arrays for the three non-product sources still trigger nonblocking routing advisories. Direction: toward the literature; source-native soil, urinary and remediation records retain their matrix boundaries.

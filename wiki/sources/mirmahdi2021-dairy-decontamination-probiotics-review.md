@@ -121,24 +121,24 @@ Narrative review (declared "review article" by the journal; received 17 April 20
 
 ## Verification notes
 
-- **Filename mismatch.** The source PDF was filed in `raw/Manual Fetch Discovery/` under the filename `mirmahdi2021-camel-milk-heavy-metals.pdf`, which suggests a camel-milk study. The paper is in fact a general dairy biodecontamination review; camel milk is mentioned only as the substrate for Leben in Table 3's supply-chain inventory. The cite-key was set to `mirmahdi2021-dairy-decontamination-probiotics-review` to reflect actual scope; the raw file path is preserved as-fetched.
+- **Filename mismatch.** The source PDF was filed in the archived source file under the filename `mirmahdi2021-camel-milk-heavy-metals.pdf`, which suggests a camel-milk study. The paper is in fact a general dairy biodecontamination review; camel milk is mentioned only as the substrate for Leben in Table 3's supply-chain inventory. The cite-key was set to `mirmahdi2021-dairy-decontamination-probiotics-review` to reflect actual scope; the raw file path is preserved as-fetched.
 - **IDF Cu / Cd magnitude orientation.** The review prints (p. 79): "Maximum permissible limits of heavy metal contents in milk (considered by International Dairy Federation) are 2.6 µg/kg for Copper, 10 µg/kg for Cadmium, 20 µg/kg for lead, and 328 µg/kg for zinc." The 2.6 µg/kg Cu / 10 µg/kg Cd assignment is unusual — the IDF / Codex Cd ML for milk is commonly cited at lower magnitude than Cu. The wording is reproduced as printed; the IDF reference should be cross-checked against Malhat et al. 2012 before this is used as a regulatory anchor.
 - **Table 1 unit and country attribution preserved verbatim.** "lg/kg" in the Serbia row of the printed table is a typesetting artefact for µg/kg. The Iraq / Brazil rows use µg/L rather than mg/L; Pakistan / Mexico use mg/kg; Egypt / Bangladesh use mg/L; Iran / Serbia use µg/kg. Reading-across countries without unit harmonisation will give wrong magnitudes — this is the review's own framing, not a transcription change.
 - **Brand firewall (Part 12).** No commercial dairy brand names appear in the source or this page. Scientific vendor / strain names retained per the 2026-05-17 carve-out (e.g., *L. acidophilus*, *S. cerevisiae*, *Lactococcus lactis*, *Kluyveromyces marxianus*).
 - **Wiki/HMT&C firewall (Part 2).** This page reports what the review reports; no synthesis across other wiki sources, no HMT&C threshold proposals.
 - **Products array intentionally empty.** The review covers milk and several fermented dairy products at the supply-chain level but does not present primary contamination data tied to a specific HMTc-locked product row. Routing to ingredient pages and metal pages is the appropriate scope.
-- **Mycotoxin content not extracted in detail.** Table 2 (AFM1 / AFB1 / OA / ZEA / α-ZEA across 21 countries) and Table 4 (aflatoxin decontamination by LAB / yeast / kefir) are summarised in the body text but not transcribed in full; HMI's metals-and-supply-chain remit deprioritises mycotoxin primary numbers. The Table 2 country set is referenced (CN, HR, RS, IR, MK, PK, AR, BA, IT, TZ, MY, XK, SV, TR, ET, KE, BR, EC, ES, IN, MA, MW) but kept off the `jurisdictions:` frontmatter to avoid implying heavy-metal coverage for those countries.
+- **Mycotoxin content not extracted in detail.** Table 2 (AFM1 / AFB1 / OA / ZEA / α-ZEA across 21 countries) and Table 4 (aflatoxin decontamination by LAB / yeast / kefir) are summarised in the body text but not transcribed in full; HMI's metals-and-supply-chain remit deprioritises mycotoxin primary numbers. The Table 2 country set is referenced (CN, HR, RS, IR, MK, PK, AR, BA, IT, TZ, MY, XK, SV, TR, ET, KE, BR, EC, ES, IN, MA, MW) but kept off the `jurisdictions:` source metadata to avoid implying heavy-metal coverage for those countries.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

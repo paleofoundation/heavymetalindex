@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 10
+sources: 12
 ---
 
 # Quinoa
@@ -119,12 +119,29 @@ Direct evidence for quinoa lands here. Andean-wide multi-crop surveys also touch
 
 All ten contamination_profile sub-blocks are `pending`. Cd will be the first synthesis target given six contributing source pages already in scope; geographic variance (Peru vs Bolivia vs Ecuador, valley vs altiplano, mining-proximate vs non-proximate) is the principal organizing axis for that synthesis.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 522: Quinoa, cooked | tAs | 3 | 1 | 10 | 3 |
+| 522: Quinoa, cooked | Cd | 3 | 3 | 2.5–19 | 1 |
+| 522: Quinoa, cooked | Cr | 3 | 1 | 300 | 50 |
+| 522: Quinoa, cooked | Pb | 3 | 1 | 11 | 4 |
+| 522: Quinoa, cooked | tHg | 3 | 0 | ND in all composites | 1 |
+| 522: Quinoa, cooked | Ni | 3 | 2 | 140–160 | 40 |
+| 522: Quinoa, cooked | U | 3 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -139,11 +156,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 3 | [[sources/gul2024-quinoa-cadmium-lead-stress\|Gül et al. 2024]]. *Effects of cadmium and lead stress on quinoa (Chenopodium quinoa Willd.) plant growth and antioxidant enzyme activities*, Turkish Journal of Nature and Science | 2024 | Peer-reviewed | Greenhouse pot study on Cd and Pb phytotoxicity and tissue accumulation in quinoa under spiked-soil conditions; phytotoxicity framing rather than ambient occurrence |
 | 4 | [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|Bedoya-Perales et al. 2023]]. *Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru*, Scientific Data | 2023 | Peer-reviewed | Open-access occurrence dataset for tAs, Cd, Pb, Cu, and Zn in food crops and soils from Moquegua mining region, Peru (341 sites); includes quinoa samples |
 | 5 | [[sources/rosales-huamani2023-quinoa-peru-ptes\|Rosales-Huamani et al. 2023]]. *Determination of Potentially Toxic Elements in Quinoa Crops Located in the Huacaybamba-Huanuco-Peru Area*, International Journal of Membrane Science and Technology | 2023 | Peer-reviewed | Measured tAs, Pb, Cd, Cu, and Zn in 50 agricultural soil samples from a quinoa-producing area in Huancaybamba, Peru; 100% of Cd samples exceeded Peruvian soil quality standards |
-| 6 | [[sources/eu-2021-1323-cadmium-foodstuffs-amendment\|EU 2021]]. *Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs*, Official Journal of the European Union (OJ L 288, 11.8.2021, p. 13–18) | 2021 | Regulation | EU Cd concentrations |
-| 7 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | Measured tAs, Cd, Sn, Pb, and tHg in quinoa and rice grains plus processed grain products from Arequipa, Peru (n=53); Pb dramatically elevated in processed vs raw grain |
-| 8 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
-| 9 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | 697-sample iAs/tAs dataset covering rice types and alternative grains; quinoa showed significantly lower inorganic arsenic than rice of any type tested |
-| 10 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | international Cd, Pb, Hg, MeHg, iAs, tAs, Sn concentrations |
+| 6 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 7 | [[sources/eu-2021-1323-cadmium-foodstuffs-amendment\|EU 2021]]. *Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs*, Official Journal of the European Union (OJ L 288, 11.8.2021, p. 13–18) | 2021 | Regulation | EU Cd concentrations |
+| 8 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | Measured tAs, Cd, Sn, Pb, and tHg in quinoa and rice grains plus processed grain products from Arequipa, Peru (n=53); Pb dramatically elevated in processed vs raw grain |
+| 9 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | US iAs, tAs, Pb, Cd, tHg occurrence in Internal company testing records (ingredient pre-shipment tests and finished-product tests) subpoenaed from seven major US baby-food manufacturers covering... |
+| 10 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |
+| 11 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | 697-sample iAs/tAs dataset covering rice types and alternative grains; quinoa showed significantly lower inorganic arsenic than rice of any type tested |
+| 12 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | international Cd, Pb, Hg, MeHg, iAs, tAs, Sn concentrations |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -187,13 +206,13 @@ Quinoa derivatives include whole quinoa seeds (white, red, black, multicolored),
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

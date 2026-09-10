@@ -92,23 +92,23 @@ App: If tableware context is surfaced, this source can support a low-detection P
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; abstract, Materials and Methods, Table 1, Results, Discussion, Conclusions, and the reference list were checked against this page.
-- Identity checks before creation: title phrase, first author, journal citation `Rocz Panstw Zakl Hig 2016;67(3):247-252`, raw SHA-256 `d385d6d97625c2f4bad997acb44811c8ca22cb87645d8df29a47ea9cd0d2a95f`, raw handle `MFK_migration-studies-of-nickel-and-chromium-from`, and cite key `szynal2016-polish-ceramic-glassware-ni-cr` were searched in `wiki/sources/` and evidence files; only intake/tracker CSV rows and related but distinct Rebeniak/Mania source pages were found.
+- Identity checks before creation: title phrase, first author, journal citation `Rocz Panstw Zakl Hig 2016;67(3):247-252`, raw SHA-256 `d385d6d97625c2f4bad997acb44811c8ca22cb87645d8df29a47ea9cd0d2a95f`, raw handle `MFK_migration-studies-of-nickel-and-chromium-from`, and cite key `szynal2016-polish-ceramic-glassware-ni-cr` were searched in the linked reference record and evidence files; only intake/tracker CSV rows and related but distinct Rebeniak/Mania source pages were found.
 - DOI status: no DOI is printed in the extracted text or PDF metadata. The page uses `doi: null` and `no_doi_assigned: true`.
 - Count discrepancy: the abstract reports `172` ceramic and `52` glassware samples; the Results paragraph says `171` test ceramic vessels. I kept `sample_n: 224` from the explicit abstract and Materials/Methods counts while flagging the inconsistency.
 - Units are preserved as printed: migration results and validation parameters use `mg/L`; contextual comparisons use `mg/kg`, `μg/kg bw/day`, `µg/L`, and `μg/mL` as printed.
-- Speciation: chromium is reported as chromium migration by FAAS, not hexavalent chromium. Frontmatter uses `Cr`, and the page does not substitute Cr(VI).
+- Speciation: chromium is reported as chromium migration by FAAS, not hexavalent chromium. source metadata uses `Cr`, and the page does not substitute Cr(VI).
 - Closed-vocabulary check: product slugs are the broad ceramic tableware, glassware, and decorative decals/coatings rows in the current taxonomy snapshot. No over-specified bowl, dish, or decorated-rim slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

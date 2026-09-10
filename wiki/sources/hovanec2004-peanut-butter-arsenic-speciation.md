@@ -94,19 +94,18 @@ Key limitations: small n = 6 commercial peanut butter spread samples (plus one w
 ## Verification notes
 
 Merge-enhanced 2026-05-28 from the v2.0 ingest-next-manual-fetch-pdf workflow. Defects corrected:
-- `raw_handle` was `manual-fetch-kimi` (generic literal); corrected to canonical `MFK_arsenic-speciation-in-commercially-available-peanu` to match the manual-fetch handle convention.
-- `raw_path` filename was truncated (`...peanut butter spread.pdf`) and missing the trailing space in `Manual Fetch Kimi`; corrected to the on-disk filename `Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS.pdf` under `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/`.
+- `raw_handle` was `manual-fetch-source-retrieval` (generic literal); corrected to canonical `MFK_arsenic-speciation-in-commercially-available-peanu` to match the manual-fetch handle convention.
+- `raw_path` filename was truncated (`...peanut butter spread.pdf`) and missing the trailing space in `Manual Fetch source-retrieval`; corrected to the on-disk filename `Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS.pdf` under the archived source file.
 - Added `access_url` (DOI link) and `raw_sha256` (SHA-256 of the on-disk PDF).
 - Added an explicit sample-counting note in `sample_population` to disambiguate the abstract's "six peanut butter spread samples" from the eight values reported in Table 3 (six spreads + one whole-peanut + one SRM).
 - Reframed SRM 2387 speciation in Key numbers: prior version labelled the first-replicate values (DMA 8.9, MMA 5.5) as "average", which is incorrect — those are first-replicate values; the abstract's averages across both replicates are DMA 8.3 / MMA 4.7. Both replicate values are now shown with the abstract averages alongside.
 - Tightened the opening prose to reflect that inorganic-As species were detected in only one of the three speciated spreads, and added Table-reference citations to Key-numbers blocks for auditability.
 
-`license` was previously `unknown`; updated to `subscription` (RSC J. Anal. At. Spectrom. is a paywalled journal; the manuscript copy in `raw/` is for internal evidence-grading use only). No structural taxonomy slugs changed; routing target set (`products/peanut-butter`, `ingredients/peanut-butter`, `ingredients/peanuts`, `metals/arsenic`) was already correct.
+`license` was previously `unknown`; updated to `subscription` (RSC J. Anal. At. Spectrom. is a paywalled journal; the manuscript copy in the archived source file is for internal evidence-grading use only). No structural taxonomy slugs changed; routing target set (`products/peanut-butter`, `ingredients/peanut-butter`, `ingredients/peanuts`, `metals/arsenic`) was already correct.
 
-Audit subagent (2026-05-28) flagged the Certification/Implications phrase "low relative to rice-based ingredients" as a cross-source comparative claim the paper itself does not make. Verified against the source — the Hovanec 2004 manuscript reports peanut-butter values in isolation and does not benchmark them against rice. The rice comparison was synthesis-pass content authored into the source page; removed per Part 5 source-page discipline (cross-source synthesis belongs in the Part 9 workflow, not on individual source pages). All other audit checks (1 numerical fidelity, 2 slug vocabulary, 3 speciation/methods, 4 Part 12 brand firewall) returned clean.
+Audit editorial review (2026-05-28) flagged the Certification/Implications phrase "low relative to rice-based ingredients" as a cross-source comparative claim the paper itself does not make. Verified against the source — the Hovanec 2004 manuscript reports peanut-butter values in isolation and does not benchmark them against rice. The rice comparison was synthesis-pass content authored into the source page; removed per Part 5 source-page discipline (cross-source synthesis belongs in the Part 9 workflow, not on individual source pages). All other audit checks (1 numerical fidelity, 2 slug vocabulary, 3 speciation/methods, 4 Part 12 brand firewall) returned clean.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/peanut-butter]]
 - [[ingredients/peanuts]]
 - [[products/peanut-butter]]
@@ -115,13 +114,13 @@ Audit subagent (2026-05-28) flagged the Certification/Implications phrase "low r
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

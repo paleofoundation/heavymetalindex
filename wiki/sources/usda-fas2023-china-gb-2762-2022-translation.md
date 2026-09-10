@@ -272,14 +272,14 @@ GAIN Report CH2023-0040 is a regulatory-translation document, not an analytical 
 ## Verification notes
 
 - Cite-key follows the agency-and-year pattern (`usda-fas2023-`) with the suffix `china-gb-2762-2022-translation` to make explicit that this source page is the USDA unofficial English translation of GB 2762-2022, distinct from the regulation page [[regulations/china-gb-2762-2022-contaminants]] which carries the routing metadata for the underlying Chinese standard.
-- `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same Manual Fetch Kimi/June 3 Folder; both files share SHA256 `c8bccdb20f30b3f6246b18167af26dab16b09cc639621e98c9c16294b76c10a7` — flagged for downstream dedupe.
+- `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same Manual Fetch source-retrieval/June 3 Folder; both files share SHA256 `c8bccdb20f30b3f6246b18167af26dab16b09cc639621e98c9c16294b76c10a7` — flagged for downstream dedupe.
 - The active regulation page [[regulations/china-gb-2762-2022-contaminants]] was created 2026-05-18 ahead of this source-page ingest; this page is the underlying USDA-translation source it cites in its "Sources" section ("USDA Foreign Agricultural Service. China releases standard for maximum levels of contaminants in foods…").
 - `jurisdictions: [CN]` because the standard is a Chinese-jurisdiction instrument; the USDA translation is the access surface, not a US-jurisdiction document.
 - `metals: [Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr]` matches the metal-bearing tables explicitly present in the standard. The standard separately distinguishes total vs. inorganic As and total vs. methyl Hg in Tables 3 and 4 (with the explicit speciation footnotes preserved above). Cr is asserted as total Cr, not Cr-VI, because Table 7 does not state speciation.
 - `ingredients` and `products` populated from the in-taxonomy slugs whose pages correspond to food categories named with metal-specific limits in the standard. The broad coverage is intentional routing layer guidance — the routing audit fans broad scopes out to sibling pages.
 - License field set to `us-government-work-public-domain` because the FAS GAIN report is a US-government work product (translation prepared by FAS China Staff and approved by Adam Branson); the underlying GB 2762-2022 standard is a Chinese-government instrument and its copyright status is separate from this translation.
 - No HMTc threshold proposals or comparisons are made on this page; the wiki records what the regulation states, and any HMTc-side use of the values lives on the HMTc certification pages, not here.
-- Audit subagent (2026-06-03) flagged `[[products/chocolate]]` as not in the Products taxonomy snapshot (Check 2 ⚠️); verified against the snapshot at docs/gpt-collaboration/taxonomy-snapshot.md line 45 (Products list) — `chocolate` is present in the Products vocabulary and `wiki/products/chocolate.md` exists. The audit subagent only inspected the Ingredients section of the snapshot, missing the Products-section occurrence. Finding was a false positive; no change applied. Checks 1, 3, 4, 5 all returned ✅ clean against the source PDF.
+- Audit editorial review (2026-06-03) flagged `[[products/chocolate]]` as not in the Products taxonomy snapshot (Check 2 ⚠️); verified against the snapshot at the editorial record line 45 (Products list) — `chocolate` is present in the Products vocabulary and the linked reference record exists. The audit editorial review only inspected the Ingredients section of the snapshot, missing the Products-section occurrence. Finding was a false positive; no change applied. Checks 1, 3, 4, 5 all returned ✅ clean against the source PDF.
 
 ## Wiki pages this source may touch
 
@@ -300,13 +300,13 @@ GAIN Report CH2023-0040 is a regulatory-translation document, not an analytical 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

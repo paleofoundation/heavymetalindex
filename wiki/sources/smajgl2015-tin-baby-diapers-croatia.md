@@ -97,20 +97,19 @@ App: For diapers, the consumer-app signal from this paper is "total Sn in diaper
 
 Microbiome: Not addressed in this paper. Organotin effects on the developing gut microbiome are documented elsewhere; cross-reference [[microbiome/]] when those source pages exist.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/tin]]
 - [[products/diapers-and-components]] (Cat 9 Row 7)
 - [[products/children-personal-care]]
 
 ## Verification notes
 
-- 2026-05-18 (Claude Opus 4.7, autonomous manual-fetch v2.0 enhancement): merge-enhance pass against prior 2026-05-14 page.
+- 2026-05-18 (automated editorial review, autonomous manual-fetch v2.0 enhancement): merge-enhance pass against prior 2026-05-14 page.
  - **Corrected transposed detection counts.** Prior page narrative said "Tin appears in 4 of 6 diapers' top sheets and 2 of 6 in adhesive tape system." Paper abstract (p. 1) says the opposite: "Almost all diapers contained tin in the adhesive tape system (four of five), and two of six samples contained tin in top sheet." Table 1 confirms: top sheet detections in Diapers 2 (23.1) and 6 (2.0) only = 2/6; tape system detections in Diapers 1 (9.5), 2 (22.4), 4 (12.2), 6 (22.4) = 4/5 measured (Diaper 5 was n.a.). The numbers were swapped between rows.
- - **Corrected HMTc category assignment.** Prior page assigned this to "HMTc Cat 2 disposable baby diapers row." `wiki/products/diapers-and-components.md` is HMTc Cat 9 Row 7 (Infant and Child Contact Products, Ages 0-5). Cat 2 is `children-personal-care`, a different (broader) category. Implications section updated to Cat 9 Row 7.
+ - **Corrected HMTc category assignment.** Prior page assigned this to "HMTc Cat 2 disposable baby diapers row." the linked reference record is HMTc Cat 9 Row 7 (Infant and Child Contact Products, Ages 0-5). Cat 2 is `children-personal-care`, a different (broader) category. Implications section updated to Cat 9 Row 7.
  - **Removed Part 5 threshold proposal.** Prior page Implications #4 said "warrants a precautionary threshold below 2 mg/kg total Sn in any diaper layer with skin contact." Per and the audit-prompt Check 5 boundary, source pages report occurrence data and may describe what a paper contributes to threshold work, but must not propose threshold values. Reworded to note the methodological limitation of total-Sn screening and recommend speciation as orthogonal confirmation, without proposing a numeric ceiling.
  - **Corrected speciation-methods description.** Prior page said "GC or LC with ICP-MS or AAS." Paper text (p. 1) lists "atomic absorption analysis, inductively coupled plasma atomic emission spectrometry or inductively coupled plasma mass spectrometry." Added ICP-OES to the list.
- - **Fixed invalid product slug.** Prior page declared `products/disposable-baby-diapers` as a routing target; that page does not exist in `wiki/products/`. Replaced with `products/diapers-and-components` (the existing HMTc Cat 9 Row 7 product page; matches sibling diaper sources nyamukamba2023, lai2025, bae2018).
+ - **Fixed invalid product slug.** Prior page declared `products/disposable-baby-diapers` as a routing target; that page does not exist in the linked reference record. Replaced with `products/diapers-and-components` (the existing HMTc Cat 9 Row 7 product page; matches sibling diaper sources nyamukamba2023, lai2025, bae2018).
  - **Fixed matrices vocabulary.** Prior page used `[cosmetic-personal-care, dermal-contact-product]`. Sibling diaper sources use `matrices: [diaper]`; aligned to that convention.
  - **Fixed sample_population precision.** Prior version said "Top sheet and adhesive tape system analyzed separately for total tin." Tightened to specify EDXRF as the analytical method.
  - **Removed speculative app statement.** Prior page said "the consumer app should flag high-Sn brands (any layer >10 mg/kg total Sn) as concerning." That is a threshold proposal and a brand-flag prescription. Reworded to describe what is and is not available as consumer-facing data; no numeric ceiling and no flagging-rule proposed.
@@ -120,13 +119,13 @@ Microbiome: Not addressed in this paper. Organotin effects on the developing gut
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

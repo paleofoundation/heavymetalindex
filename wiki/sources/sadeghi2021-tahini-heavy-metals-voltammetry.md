@@ -96,8 +96,7 @@ Courses: a teaching example of why method choice and reference-material reportin
 
 App: occurrence data for Pb (0.001–0.048 µg/100g across 37 brands), Cd (0.003–0.028 µg/100g across 37 brands), Cu (0.16–2.79 µg/100g), and Zn (0.27–7.99 µg/100g) in tahini from the Tehran retail market in 2021. For category occurrence modelling, hold these values separately from the Italian-market Potortì 2026 distribution rather than pooling — the order-of-magnitude offset is not reconcilable from the published methods alone.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[ingredients/sesame]]
@@ -107,7 +106,7 @@ App: occurrence data for Pb (0.001–0.048 µg/100g across 37 brands), Cd (0.003
 
 ## Verification notes
 
-Source written 2026-06-02 from raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/06_Sadeghi_tahini_heavy_metals_2021.pdf (SHA256 26c2cc6e27c2bfeb1ce1c5a804495ad34e122c67714081fc41ad1147d3106e0b). DOI 10.30502/jhhhm.2021.288521.1034 verified from the journal masthead on page 1. License is CC BY-NC 4.0 per the masthead statement.
+Source written 2026-06-02 from the archived source file (SHA256 26c2cc6e27c2bfeb1ce1c5a804495ad34e122c67714081fc41ad1147d3106e0b). DOI 10.30502/jhhhm.2021.288521.1034 verified from the journal masthead on page 1. License is CC BY-NC 4.0 per the masthead statement.
 
 Paper-internal Cd/Cu abstract transposition: the abstract conclusion (p. 40) states "Concentration of Zn, Cd, Pb, and Cu was calculated as 3.79 ±2.43, 1.48 ±0.08, 0.015 ±0.01, and 0.012 ±0.007 µg/100 g, respectively." Cross-check against Table 1 (pp. 42–43) and Figure 1 (p. 43): Table 1 Cd values range from 0.003 to 0.028 µg/100g across all 37 brands, with a typical sample around 0.01 µg/100g, and Table 1 Cu values range from 0.16 to 2.79 µg/100g with most samples between 0.5 and 2.5 µg/100g. Figure 1's bar chart shows simple-Cu ~1.5, flavored-Cu ~0.6, with Pb and Cd both visually near zero. The mean values 1.48 ± 0.08 and 0.012 ± 0.007 therefore correspond to Cu and Cd respectively, not Cd and Cu as the abstract states. The Discussion text on p. 43 — "but higher amount of Cu in non-flavored samples was detected compared to flavored samples (P = 0.022)" — also confirms Cu is the ~1.5 µg/100g element. This wiki page reports the correct attribution (Cu mean 1.48, Cd mean 0.012) in the Key numbers and Implications sections, and notes the abstract transposition explicitly in the tier_rationale and here so downstream synthesis or app ingest does not propagate the abstract's mis-labelled values.
 
@@ -115,7 +114,7 @@ Basis convention: the paper reports concentrations per 2 g of original (pre-dryi
 
 Cross-paper comparison: Sadeghi 2021 Pb and Cd values are roughly two to three orders of magnitude below those reported by [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Potortì et al. 2026]] in seven Italian-market tahini brands. Both papers cite EU/Codex limits in the same mg/kg basis and both report Pb and Cd below those limits for the bulk of their samples (Potortì's T-1 exceeds both limits substantially; Sadeghi reports no exceedances). No paper-side methodological bridge resolves the order-of-magnitude gap; the wiki carries both as separate distributions and flags the discrepancy for any future synthesis pass.
 
-Audit subagent (2026-06-02) flagged the Implications/Certification subsection's category-level inferences — specifically the phrases "favours treating tahini as a generally low-Pb/Cd commodity in well-sourced markets" and "the Potortì high outlier (T-1) confirms that origin/supplier screening matters" — as drifting from source-page reporting into Part 9 synthesis / Part 2 policy territory. Verified: the audit's reading is correct; those sentences extrapolate from a single survey + a cross-paper comparison to a category-level supplier-screening lesson, which is the synthesis workflow's job, not a source page's. Revised the paragraph to drop the generalising sentences and keep only the cross-paper offset observation and the no-HMT&C-tightening boundary statement.
+Audit editorial review (2026-06-02) flagged the Implications/Certification subsection's category-level inferences — specifically the phrases "favours treating tahini as a generally low-Pb/Cd commodity in well-sourced markets" and "the Potortì high outlier (T-1) confirms that origin/supplier screening matters" — as drifting from source-page reporting into Part 9 synthesis / Part 2 policy territory. Verified: the audit's reading is correct; those sentences extrapolate from a single survey + a cross-paper comparison to a category-level supplier-screening lesson, which is the synthesis workflow's job, not a source page's. Revised the paragraph to drop the generalising sentences and keep only the cross-paper offset observation and the no-HMT&C-tightening boundary statement.
 
 Brand firewall: per Part 12, no brand names are disclosed in the source — samples are coded 1–37 in Table 1. No Part 12 redaction was needed. The brand-by-brand range and extremes are reported here as code numbers only.
 
@@ -126,13 +125,13 @@ Regulation slug note: the paper cites "Codex" maximum levels for Zn (4 mg/kg), C
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc0](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc0) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

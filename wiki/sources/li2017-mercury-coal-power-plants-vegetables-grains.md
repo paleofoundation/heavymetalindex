@@ -90,8 +90,7 @@ Courses: Demonstrates foliar deposition as the dominant pathway for Hg in terres
 
 App: For geographic risk-scoring of leafy vegetables and rice, the model should flag crops described as sourced from or near high-coal-energy regions in eastern China. The supply-chain flag is distance- and operational-duration-dependent; short-operating plants in this study (3–4 years) already produce 4–10× background soil Hg.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/rice]]
 - [[ingredients/tomato]]
@@ -101,13 +100,13 @@ App: For geographic risk-scoring of leafy vegetables and rice, the model should 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d0](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d0) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53e](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53e) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 <!-- END: hmi-page-history -->

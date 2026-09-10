@@ -95,7 +95,7 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - PDF metadata, title page, and article footer identify the paper as Environmental Earth Sciences 78:578 with DOI `10.1007/s12665-019-8581-9`, published online September 25, 2019.
-- The PDF front matter shows Springer copyright but does not state an open license; frontmatter therefore records `license: "not stated in PDF"`.
+- The PDF front matter shows Springer copyright but does not state an open license; source metadata therefore records `license: "not stated in PDF"`.
 - The paper mentions that some samples include different brands, but no brand names are needed for this source page and none are reproduced.
 - `sample_n: 15` records the fifteen Table 5 observations. Table 5 reports each as mean +/- SD with n=3.
 - The discussion says the As range is 0.03-0.75 ug/g and also states that values are below CODEX STAN 193-1995 at 0.1 mg/kg for As, Pb, and Cd. Because 1 ug/g is equivalent to 1 mg/kg, several Table 5 As and Pb values are above 0.1 mg/kg. This page preserves Table 5 and treats the broad "below Codex" statement as a source-side inconsistency.
@@ -104,13 +104,13 @@ Microbiome: Not addressed.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

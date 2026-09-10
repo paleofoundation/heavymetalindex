@@ -95,7 +95,7 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 - Strawberries range in source Table 4 prints "61–34", which is a typographic artifact in the journal. Per the regional breakdown in Table 7, the actual species-wide range is 6 (lowest in Lubelskie) to 134 µg/kg (highest in Mazowieckie). The page records 6–134 with this reconstruction.
 - Paper-internal contradiction noted but not edited away: the abstract and Table 4 both give a wheat-grain mean of 39 µg/kg, while the discussion text on page 3 writes 37 µg/kg in the same sentence as the strawberry and cucumber means. The 39 µg/kg value is carried since two of three source locations agree on it and Table 4 is the authoritative tabulation.
 - Parallel paper-internal contradiction on potatoes: Table 4 gives a mean of 3 µg/kg while the discussion text on page 3 ("Apples, carrots, cabbages and potatoes contained smaller amounts of this element, mean values being 11, 6, 6 and 4 µg/kg respectively") and the page-4 summary ("potatoes – 4 µg/kg") both state 4 µg/kg. The page carries 3 µg/kg from Table 4 on the same Table-4-is-authoritative basis.
-- Audit subagent (2026-05-19) flagged the Mazowieckie strawberries median (Table 7 row) as recorded "28" versus source "25"; verified against the page — the page records 25, which matches Table 7. Finding was a false positive; no change applied.
+- Audit editorial review (2026-05-19) flagged the Mazowieckie strawberries median (Table 7 row) as recorded "28" versus source "25"; verified against the page — the page records 25, which matches Table 7. Finding was a false positive; no change applied.
 - Paper-internal sample-count discrepancy: the abstract states 272 total samples; the Materials section reports 224 fresh edible plants plus 30 beverages (254 total). The Table 4 column sums to 223 solid samples and Table 5 sums to 30 beverages (253). `sample_n` is carried at the abstract's stated 272 with this discrepancy documented; no resolution is given in the source.
 - Speciation discipline: this study measures total chromium by ZETAAS. The page records `metals: [Cr]`, not `Cr-VI`. Cr(VI) requires explicit speciation (typically ion chromatography or co-precipitation), which this paper does not perform.
 - Brand firewall: the source describes wines, beers, and juices as "purchased on the domestic market" with country-of-provenience grouping (Polish, European), and notes "large differences in Cr levels detected, even between food products of the same brand," without naming any commercial brand. No brand-firewall edits were required.
@@ -103,8 +103,7 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 - Products field expanded on this pass beyond the prior `[[products/fresh-fruit]]` to add `root-tuber-vegetables`, `non-root-vegetables`, `fruit-juice-not-canned`, and `fermented-beverages-non-tea-based`, all from the current taxonomy snapshot. The routing layer fans the source out to its sibling product pages.
 - Matrices normalized to the system-prompt vocabulary: `root-vegetable`, `leafy-vegetable`, `cereal-grain`, `fruit-juice`, `wine`, `beer` replace the prior less-canonical `fresh-vegetable`, `grain`, `beverages` triple.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium]]
 - [[ingredients/strawberries]]
 - [[ingredients/apples]]
@@ -117,13 +116,13 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

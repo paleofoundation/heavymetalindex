@@ -152,31 +152,31 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
-- 2026-05-18 merge-enhance (Claude Opus 4.7) against the original PDF (17 pp.):
+- 2026-05-18 merge-enhance (automated editorial review) against the original PDF (17 pp.):
   - **Key numbers section rewritten** — prior page said "Specific per-element concentrations are tabulated in the paper but not in the abstract-level excerpts read here." Replaced with the full Table 3 (per-PTE n, mean, min-max, P95 for face paints and pancakes), Table 4 risk summary (cancer + HQ by sex, pathway, age group), and the color-stratification statistical signals from §3.1. USEPA model parameters from Table 1 and toxicity-value sources from Table 2 added.
   - **`metals:` array expanded** from [Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn] to [Al, tAs, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr] to cover all 12 PTEs actually measured. **Removed Cr-VI** from `metals:` because the paper explicitly did not speciate (Section 2.5: "the entire concentration of total chromium determined was considered hexavalent chromium"). Per Part 14 speciation discipline, total-Cr-only papers list `Cr`, not `Cr-VI`. The Cr(VI) assumption is preserved in Methods and Implications as a worst-case modelling choice.
-  - **`products/costume-cosmetics` removed** from frontmatter — not in current taxonomy (taxonomy snapshot 2026-05-17). The face-paint product page covers the form; children-personal-care and childrens-makeup cover the audience. Added childrens-makeup as a closer-fit slug than the deprecated costume-cosmetics.
+  - **`products/costume-cosmetics` removed** from source metadata — not in current taxonomy (taxonomy snapshot 2026-05-17). The face-paint product page covers the form; children-personal-care and childrens-makeup cover the audience. Added childrens-makeup as a closer-fit slug than the deprecated costume-cosmetics.
   - **Jurisdictions narrowed from [BR, US] to [BR]** — the paper samples are 100% Brazilian-manufactured and Brazil-purchased; the US references are background-literature citations only, not study samples.
   - **Synthesis claim deleted** from opening paragraph: prior page said "This complements the Arshad 2020 Pakistani cosmetics finding... both papers converge on the conclusion that chronic dermal exposure...is the dominant carcinogenic risk pathway" — Part 2 firewall (no cross-source synthesis on source pages; synthesis is a Part 9 workflow).
   - **HMTc threshold-policy proposals reframed** in Implications. Prior numbered items 1–6 contained recommendations like "HMTc Cat 2 thresholds for face paints should anchor on dermal-absorbed-dose × lifetime-application-frequency" and "HMTc Cat 2 face-paint certification needs to default to 'regular use' assumptions." Per Part 2 boundary (allowed: "contributes occurrence data"; not allowed: "suggests HMTc should certify at Y"), reframed as a description of the occurrence and exposure-pathway data the paper contributes, without recommending threshold logic or scenario defaults.
-  - **Legacy heading "## Wiki pages updated on ingest" removed** along with the bulleted-wikilink list — current schema uses the routing audit to compute fan-out automatically from frontmatter, not a hand-curated list at the bottom of the source page.
+  - **Legacy heading "## Wiki pages updated on ingest" removed** along with the bulleted-wikilink list — current schema uses the routing audit to compute fan-out automatically from source metadata, not a hand-curated list at the bottom of the source page.
   - **Two anomalous Table 3 values preserved as printed** (Ba pancakes P95 = 0.21 vs min 3.42; Pb pancakes P95 = 72.97 vs max 11.69) with a one-line note that they look like typesetting transpositions but the wiki defaults to faithful transcription. Flag for any future synthesis pass that wants to use the pancake P95s.
-- Preserved from prior page: cite_key, raw_handle (kimi-children-personal-care-salles2023 — pre-MFK_ format), raw_path, license, evidence_tier, sample_n.
-- 2026-05-18 audit-application (Claude Opus 4.7, fresh-context subagent verdict REVISE, 3 ⚠️):
+- Preserved from prior page: cite_key, raw_handle (source-retrieval-children-personal-care-salles2023 — pre-MFK_ format), raw_path, license, evidence_tier, sample_n.
+- 2026-05-18 audit-application (automated editorial review, fresh-context editorial review verdict REVISE, 3 ⚠️):
   - **Applied (Table 4 attribution)**: prior "Cancer risk: 6.51 × 10⁻³ to 6.82 × 10⁻³ (female total) and 2.67 × 10⁻⁴ to 3.65 × 10⁻³ (male)" was a loose attribution — 6.51 × 10⁻³ is female *dermal*, not female total. Restated as: female 3.09 × 10⁻⁴ (ingestion) to 6.82 × 10⁻³ (total), with female dermal 6.51 × 10⁻³; male 2.67 × 10⁻⁴ (ingestion) to 3.65 × 10⁻³ (total), with male dermal 3.39 × 10⁻³. Verified against PDF Table 4 p. 9.
   - **Applied (BVL non-compliance range)**: prior prose said "1.1%–12.7% non-compliance rate" but the BVL exceedances are Pb 2.2%, Sb 2.7%, As 10.9%, Cd 12.7% (range floor is 2.2%, not 1.1%). The 1.1% is Health Canada Pb. Restated as "2.2%–12.7%" with per-element percentages spelled out. Verified against PDF p. 11.
-  - **Rejected (Ni face paints min — false positive)**: subagent flagged Ni face paints min as "<0.01" (claimed wiki's "0.45" was a misread). Independent re-verification against PDF Table 3 p. 8: PDF prints "0.45–1.24" for Ni face paints. Wiki value is correct; subagent finding was a transcription error on the subagent's part, not the wiki's. No change.
+  - **Rejected (Ni face paints min — false positive)**: editorial review flagged Ni face paints min as "<0.01" (claimed wiki's "0.45" was a misread). Independent re-verification against PDF Table 3 p. 8: PDF prints "0.45–1.24" for Ni face paints. Wiki value is correct; editorial review finding was a transcription error on the editorial review's part, not the wiki's. No change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

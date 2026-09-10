@@ -118,22 +118,22 @@ App: Route as context for soil-remediation, biochar amendment evaluation, and me
 
 ## Verification notes
 
-The PDF has author attribution and DOI `10.3390/agronomy13051282`; no DOI conflict was observed. This is primary laboratory evidence, but not food-occurrence evidence. `ingredients` and `products` are intentionally empty because the paper does not measure edible rice, infant cereal, rice-based products, or any consumer product matrix. The source specifies Cu(II) and Pb(II) in aqueous nitrate solutions; frontmatter uses the repo's broader Cu and Pb metal slugs while this page preserves oxidation-state specificity in prose and tables. The paper's supplementary Table S1 specific-surface-area values are cited by the authors but not reproduced in the PDF text extracted here, so the source page records the qualitative SSA finding rather than inventing values.
+The PDF has author attribution and DOI `10.3390/agronomy13051282`; no DOI conflict was observed. This is primary laboratory evidence, but not food-occurrence evidence. `ingredients` and `products` are intentionally empty because the paper does not measure edible rice, infant cereal, rice-based products, or any consumer product matrix. The source specifies Cu(II) and Pb(II) in aqueous nitrate solutions; source metadata uses the repo's broader Cu and Pb metal slugs while this page preserves oxidation-state specificity in prose and tables. The paper's supplementary Table S1 specific-surface-area values are cited by the authors but not reproduced in the PDF text extracted here, so the source page records the qualitative SSA finding rather than inventing values.
 
 Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, while the Methods equation glossary (Equation 1) labels K_L as mg/L. The wiki tables reproduce the K_L numeric values but do not assert a unit, since the source itself is inconsistent.
 
-Audit subagent 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against `wiki/supply-chain/soil-to-plant-transfer.md`; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
+Audit editorial review 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against the linked reference record; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

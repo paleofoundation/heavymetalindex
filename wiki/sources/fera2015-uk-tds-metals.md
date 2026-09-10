@@ -155,23 +155,23 @@ Microbiome: Not addressed in this study.
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
 - Corrected an earlier table-column alignment error: Table 5's iodine column had been misread as Hg/Pb in several group rows. The page now uses the report's actual Cd, Hg, and Pb columns from the second half of each table.
 - Replaced product-empty routing and non-vocabulary matrices with controlled product routes and broad matrices.
 - Replaced invalid wiki links such as `ingredients/wheat-flour`, `ingredients/breakfast-cereals`, `ingredients/milk`, `metals/mercury`, and `regulations/uk-fsa-tds`.
 - Strict brand-firewall check: no sampled consumer brands are named; contractor, instrument, utensil/material, reagent, and reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
-- Fresh-context audit subagent (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against `docs/gpt-collaboration/system-prompt.md` matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
+- Fresh-context audit editorial review (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against the editorial record matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

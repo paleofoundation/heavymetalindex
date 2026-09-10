@@ -169,8 +169,7 @@ The 1st HKTDS purchased 150 commonly consumed food items (based on the Hong Kong
 
 Seaweeds — which can contain very high inorganic arsenic levels (hijiki 30,000–130,000 µg/kg per literature; other seaweed typically below 2,000 µg/kg) — were not included in the TDS food list because the Hong Kong Population-Based Food Consumption Survey 2005-2007 captured only limited consumption data for them. This may underestimate iAs exposure in subpopulations who consume seaweed regularly (e.g., sushi consumers). Conversely, treatment of non-detects with ½ LOD substitution may overestimate exposure from the non-alcoholic beverages group (95% of which were below LOD); if a zero-substitution rule were applied, the beverage contribution would fall from 13.0% to approximately 1% of total exposure.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/rice]]
 - [[ingredients/cereals]]
 - [[ingredients/leafy-vegetables]]
@@ -204,23 +203,23 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite_key, raw_handle, 
 8. **Brand-firewall scan (Part 12):** the source uses commodity descriptors only (water spinach, oyster, salted egg, tomato paste/ketchup, soya sauce) — no manufacturer brand names anywhere in the report. No redactions required.
 9. **Wiki/HMTc-firewall scan (Part 2):** removed the prior "support the wiki's rice iAs profile" phrasing in favour of the literature-baseline phrasing "contribute occurrence data to the wiki's rice iAs profile"; no HMTc threshold proposals or synthesis-across-papers claims appear in the rewritten Implications.
 
-**Audit subagent (2026-05-28, fresh-context general-purpose) returned REVISE** with all five checks otherwise clean (Check 1 ⚠️ x2; Checks 2-5 ✅). Both Check 1 ⚠️ findings independently verified against the source PDF and applied:
+**Audit editorial review (2026-05-28, fresh-context general-purpose) returned REVISE** with all five checks otherwise clean (Check 1 ⚠️ x2; Checks 2-5 ✅). Both Check 1 ⚠️ findings independently verified against the source PDF and applied:
 
 - **Water spinach Table 5 attribution (⚠️ → applied).** Auditor noted the prior wording attributed the 98 µg/kg occasion-1 value purely to the white-stem cultivar; PDF Table 5 (p.22) shows occasion 1 was a mixed composite of 2 green-stem + 1 white-stem samples at 98 µg/kg, occasion 2 was 3 white-stem samples only at 120 µg/kg, occasions 3 and 4 were 3 green-stem each at 43 and 35 µg/kg. The wiki paragraph now reports the composite composition per occasion accurately and uses comparative language ("composites containing white-stem samples... had higher iAs than composites containing only green-stem samples") rather than attributing per-cultivar concentrations the composite design cannot isolate.
 - **Cooking-water removal "additional" framing (⚠️ → applied).** Auditor noted that PDF para 34 reports cooking-removal as 35%/45% "as compared with the uncooked rice" — i.e. cooking vs uncooked, not cumulative with the rinse-washing reduction. The Courses paragraph dropped the word "additional" and now explicitly clarifies that both reductions are referenced to the same uncooked baseline (not cumulative).
 
-No false positives; no findings rejected. Subagent verdict: REVISE (now resolved). Updated audit-queue.csv status to audited-revised.
+No false positives; no findings rejected. editorial review verdict: REVISE (now resolved). Updated audit-queue.csv status to audited-revised.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

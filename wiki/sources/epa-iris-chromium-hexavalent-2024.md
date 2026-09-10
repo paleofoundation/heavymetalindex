@@ -112,23 +112,22 @@ EPA conducted a systematic review per the Cr(VI) IRIS Assessment Protocol (Appen
 
 ## Provenance notes
 
-License `us-government-work`. The PDF was retrieved as `EPA/635/R-24/164Fa` (August 2024) and resides locally at `raw/Manual Fetch Kimi / EPA:635:R-24:164Fa www.epa.gov:iris IRIS Toxicological Review of Hexavalent Chromium [Cr(VI)] CASRN 18540-29-9.pdf` (SHA-256 `b21931b404750dd9efcd6cabb33c2232ed4533152fb6b44d6b0a1c506fbbafc0`). The canonical access channel is the EPA IRIS website (`epa.gov/iris`); the assessment-specific landing page typically resolves through the IRIS Substance Quick View by CASRN 18540-29-9. The August 2024 assessment supersedes the 1998 IRIS Cr(VI) assessment for both oral and inhalation reference-value derivation. Supplemental Information (Appendices A through G), including the full systematic review protocol, dose-response modeling appendices, and public comment responses, is published as a separate Volume 2 and is not included in the raw PDF processed here.
+License `us-government-work`. The PDF was retrieved as `EPA/635/R-24/164Fa` (August 2024) and resides locally at the archived source file (SHA-256 `b21931b404750dd9efcd6cabb33c2232ed4533152fb6b44d6b0a1c506fbbafc0`). The canonical access channel is the EPA IRIS website (`epa.gov/iris`); the assessment-specific landing page typically resolves through the IRIS Substance Quick View by CASRN 18540-29-9. The August 2024 assessment supersedes the 1998 IRIS Cr(VI) assessment for both oral and inhalation reference-value derivation. Supplemental Information (Appendices A through G), including the full systematic review protocol, dose-response modeling appendices, and public comment responses, is published as a separate Volume 2 and is not included in the raw PDF processed here.
 
 This source warrants a dedicated regulation page (suggested `regulations/epa-iris-chromium-hexavalent-rfd-osf`) capturing the chronic oral RfD (9 × 10⁻⁴ mg/kg-day), chronic inhalation RfC (3 × 10⁻⁵ mg/m³), lifetime oral slope factor (0.27 per mg/kg-day with ADAFs), and lifetime inhalation unit risk (1.8 × 10⁻² per µg/m³ with ADAFs). That page is not created in this ingest cycle; the source values are captured here for routing.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium-hexavalent]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [092df30b6](https://github.com/paleofoundation/heavymetalindex/commit/092df30b6) | 2026-05-29 | major | 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
+| [092df30b65](https://github.com/paleofoundation/heavymetalindex/commit/092df30b65) | 2026-05-29 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

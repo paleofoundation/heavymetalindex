@@ -95,7 +95,7 @@ For US urban garden soils, this review anchors the literature baseline that Pb i
 
 ## Verification notes
 
-- **2026-05-18 (Claude session, merge-enhance):** Re-read full PDF (15 content pages plus references) against the prior page version (`updated: 2026-05-14`, `raw_handle: papers-cube`).
+- **2026-05-18 (editorial review, merge-enhance):** Re-read full PDF (15 content pages plus references) against the prior page version (`updated: 2026-05-14`, `raw_handle: papers-cube`).
 - `raw_handle`: corrected from the legacy placeholder `papers-cube` to the current convention `PCMF_article-2-copy-6` (filename-derived).
 - `raw_sha256`: added (`8f5830a58035600fb7ec02f6840aa6ca1f31d37fa2ded752aaff9b6d93c05c3d`).
 - `metals`: corrected from `[Pb, tAs, Cd]` to `[Pb, tAs, Cd, Zn]`. Zn is one of the four analytes the paper reviews (named in abstract, Keywords, Table 2, and §3.4) and was incorrectly omitted in the prior page.
@@ -112,23 +112,23 @@ For US urban garden soils, this review anchors the literature baseline that Pb i
 - Added the environmental-justice numbers from §6: Baltimore household-income gradient (USD 75,692 → 38,757 cold-spot to hot-spot), demographic deltas (74.9% Black resident increase, 14.2% unemployment increase, 29.1% SNAP increase), Boston neighborhood demographics for Dorchester (45%) and Roxbury (53%), and the USD 4000 topsoil-replacement cost. The prior page mentioned environmental justice as a "cross-cutting theme" without these specifics.
 - Methods (brief) section added — the prior page conflated methodology with limitations under "Methods (brief)" but did not separately describe the search strategy. Now includes the database pulls (13,971/3719/8852/1824), the keyword-refinement sequence, the deduplication to 52, and the second-pass screen to 34 primary studies.
 - Limitations section added — the prior page lacked this mandatory section. Now flags the heterogeneity of the underlying primary studies, the rows missing analytes in Table 2, the missing means/ranges for some rows, the Boston footnote interpretation, and the absence of meta-analytic pooling.
-- Removed the legacy "## Wiki pages updated on ingest" heading. Page routing is now handled entirely by the routing audit reading frontmatter; wiki-page-to-source-page references are not maintained in source-page body. Implications section retains the relevant page references inline (`[[ingredients/...]]`, `[[metals/...]]`).
+- Removed the legacy "## Wiki pages updated on ingest" heading. Page routing is now handled entirely by the routing audit reading source metadata; wiki-page-to-source-page references are not maintained in source-page body. Implications section retains the relevant page references inline (`[[ingredients/...]]`, `[[metals/...]]`).
 - Removed the prior `## Implications` subsections "Certification:", "Courses:", and "App:" — Part 2 firewall guidance reserves Implications for what the paper contributes to the literature record, not what HMTc, course content, or the app should do with it. Implications now describes the source's literature-baseline contribution without proposing certification thresholds or app modifiers.
 - "Natural background US soil: 22 ppm Pb" retained, moved into the Plant-uptake/exposure-findings block where the paper actually cites it (p. 5).
-- **Audit subagent 2026-05-18** flagged two ⚠️ items in Check 1, both verified against the source and applied:
-  - Subagent noted that the wiki page labeled the California background-arsenic value as "California 1991 background arsenic level 5 ppm" but the paper (p. 7) says only "California has elevated levels of arsenic in its soils … with a median background level of 5 ppm [25]" with no originating year. Verified: the "1991" attribution was a Claude error in the first ingest pass. Corrected to "California median-background arsenic level 5 ppm" with a note that the paper cites Clarke 2007 (ref [25]) without an originating year for the background measurement.
-  - Subagent noted that the US EPA Technical Review Workgroups Lead Committee 100 ppm recommendation was dated "2013" in Key numbers and "2014" in Implications. Verified: the paper itself is internally inconsistent (p. 2 says "In 2014, they suggested…", p. 5 says "In 2013, the US EPA Technical Review Workgroups Lead Committee created a recommendation of 100 ppm"). Reconciled to a single mention noting the paper's own year inconsistency; removed the conflicting 2013/2014 phrasing from Implications.
+- **Audit editorial review 2026-05-18** flagged two ⚠️ items in Check 1, both verified against the source and applied:
+  - editorial review noted that the wiki page labeled the California background-arsenic value as "California 1991 background arsenic level 5 ppm" but the paper (p. 7) says only "California has elevated levels of arsenic in its soils … with a median background level of 5 ppm [25]" with no originating year. Verified: the "1991" attribution was a Claude error in the first ingest pass. Corrected to "California median-background arsenic level 5 ppm" with a note that the paper cites Clarke 2007 (ref [25]) without an originating year for the background measurement.
+  - editorial review noted that the US EPA Technical Review Workgroups Lead Committee 100 ppm recommendation was dated "2013" in Key numbers and "2014" in Implications. Verified: the paper itself is internally inconsistent (p. 2 says "In 2014, they suggested…", p. 5 says "In 2013, the US EPA Technical Review Workgroups Lead Committee created a recommendation of 100 ppm"). Reconciled to a single mention noting the paper's own year inconsistency; removed the conflicting 2013/2014 phrasing from Implications.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

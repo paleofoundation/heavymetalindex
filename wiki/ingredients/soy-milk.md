@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 8
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -117,6 +117,30 @@ updated: 2026-05-17
 
 The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 506: Beverage, soy (non-dairy) | tAs | 3 | 2 | 3.1–4.1 | 1 |
+| 506: Beverage, soy (non-dairy) | Cd | 3 | 3 | 2.5–3.1 | 1 |
+| 506: Beverage, soy (non-dairy) | Cr | 3 | 2 | 34–65 | 25 |
+| 506: Beverage, soy (non-dairy) | Pb | 3 | 2 | 1–1.1 | 1 |
+| 506: Beverage, soy (non-dairy) | tHg | 3 | 0 | ND in all composites | 1 |
+| 506: Beverage, soy (non-dairy) | Ni | 3 | 3 | 200–270 | 20 |
+| 506: Beverage, soy (non-dairy) | U | 3 | 3 | 4.1–4.9 | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -129,9 +153,10 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 | 3 | [[sources/andrade2023-cow-milk-soy-metals\|Andrade et al. 2023]]. *Metals in Cow Milk and Soy Beverages: Is There a Concern?*, Toxics | 2023 | Peer-reviewed | PT Pb, Cd, Mn occurrence in Twenty-eight beverages purchased on the Portuguese retail market in Lisbon between February and May 2019: 14 cow milk... (n=28) |
 | 4 | [[sources/hariono2023-soy-milk-cookware-metals\|Hariono et al. 2023]]. *Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers*, Aceh Nutrition Journal, 8(4): 526-532 | 2023 | Peer-reviewed | ID Pb, Cu, Zn, tHg, tAs occurrence in Soy milk from one industrial-scale producer in Sumbersari District, Jember Regency, East Java, Indonesia, compared after processing in... (n=2) |
 | 5 | [[sources/usda-fas2023-china-gb-2762-2022-translation\|USDA 2023]]. *China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)*, USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 | 2023 | Regulation | CN Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr occurrence in null |
-| 6 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | EU/Spain Pb, tHg, Ni, U, V occurrence in Thirty-two retail milk and plant-based drink composites purchased from supermarkets in Reus, Catalonia, Spain in January 2021. Selection... (n=32) |
-| 7 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 8 | [[sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\|Maduabuchi et al. 2007]]. *Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern*, International Journal of Environmental Research and Public Health | 2007 | Peer-reviewed | NG tAs, Cr occurrence in Fifty commonly consumed canned and non-canned beverages purchased in Nigeria in March 2005: 21 canned beverages and 29... (n=50) |
+| 6 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 7 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | EU/Spain Pb, tHg, Ni, U, V occurrence in Thirty-two retail milk and plant-based drink composites purchased from supermarkets in Reus, Catalonia, Spain in January 2021. Selection... (n=32) |
+| 8 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
+| 9 | [[sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\|Maduabuchi et al. 2007]]. *Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern*, International Journal of Environmental Research and Public Health | 2007 | Peer-reviewed | NG tAs, Cr occurrence in Fifty commonly consumed canned and non-canned beverages purchased in Nigeria in March 2005: 21 canned beverages and 29... (n=50) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -147,13 +172,13 @@ The five most recent substantive edits to this page. The full version history li
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -62,7 +62,7 @@ App: The source supports eye-makeup contamination profiles for Pb, Cd, Co, Cr, a
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1586.txt`; Tables 1 and 3 plus the Methods were re-read before writing.
-- Identity checks before creation: DOI `10.1016/j.microc.2011.10.008`, raw handle `MFK_volpe2012`, raw SHA-256 `23996b57850f4ac5d72faa36ba086c47882024b463e36652223b18a9dc4472e0`, and cite key `volpe2012-eye-shadow-cosmetics-metals` were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: DOI `10.1016/j.microc.2011.10.008`, raw handle `MFK_volpe2012`, raw SHA-256 `23996b57850f4ac5d72faa36ba086c47882024b463e36652223b18a9dc4472e0`, and cite key `volpe2012-eye-shadow-cosmetics-metals` were searched in the linked reference record and evidence files; no existing source page was found.
 - Units are preserved exactly as printed: Pb in `µg g-1 wet weight`, Cd/Co/Cr/Ni in `ng g-1 wet weight`.
 - Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
 - Brand firewall: sample group/brand identifiers are not used to create brand claims; values are summarized at eye-shadow product level.
@@ -70,13 +70,13 @@ App: The source supports eye-makeup contamination profiles for Pb, Cd, Co, Cr, a
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

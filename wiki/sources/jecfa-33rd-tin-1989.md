@@ -116,7 +116,7 @@ The PTWI of 14 mg Sn/kg body weight per week is a direct numerical conversion of
 
 License `CC-BY-NC-SA-3.0-IGO` (WHO/IPCS standard publication terms). Redistribution permitted non-commercially with attribution and under the same or equivalent license. Heavy Metal Index extracts numerical findings and Committee conclusions as facts and paraphrases narrative content; no verbatim passages of substantial length are reproduced.
 
-The PDF as held in `raw/` (SHA-256 `15b6d319bd5f923fc297ead2c5c635bff298837eb352e8283ad6950bd0846833`) is a print-rendered capture of the INCHEM HTML at https://www.inchem.org/documents/jecfa/jecmono/v024je13.htm, dated 6/3/2026 in the footer.
+The PDF as held in the archived source file (SHA-256 `15b6d319bd5f923fc297ead2c5c635bff298837eb352e8283ad6950bd0846833`) is a print-rendered capture of the INCHEM HTML at https://www.inchem.org/documents/jecfa/jecmono/v024je13.htm, dated 6/3/2026 in the footer.
 
 The monograph carries one phrasing artifact worth noting: the "Comments and evaluation" section reads "the Committee converted the previously established tolerable daily intake of 14 mg of inorganic tin per kg of body weight into a PTWI." Read literally this is internally inconsistent with the same monograph's "Explanation" section, which states the prior PMTDI as 2 mg/kg body weight per day; the arithmetically consistent reading is that the Committee converted the prior 2 mg/kg/day PMTDI (equivalent to 14 mg/kg/week) into a PTWI of 14 mg/kg body weight per week. Subsequent JECFA documents (FAS 46, 2001; FAS 55, 2005) and the Codex CCFAC literature cite the JECFA 33rd PTWI as 14 mg/kg body weight per week, consistent with this reading.
 
@@ -126,10 +126,10 @@ The 33rd-meeting tin monograph is referenced in its "See Also" footer alongside 
 
 ## Verification notes
 
-Fresh-context audit subagent (Claude Opus 4.7, 2026-06-03) returned verdict REVISE with two actionable items, plus several ⚠️ concerns and one false positive.
+Fresh-context audit editorial review (automated editorial review, 2026-06-03) returned verdict REVISE with two actionable items, plus several ⚠️ concerns and one false positive.
 
 - Applied: corrected the "Source meeting" cell in the chronic-intake table. The original draft cited "JECFA 14th (1971), reaffirmed 17th (1973), 19th (1975), 22nd (1978), 26th (1982)" — but the monograph's "Explanation" section enumerates only years (1966, 1970, 1971, 1975, 1978, 1982) with no meeting numbers, and "17th (1973)" specifically is not in the PDF. Replaced with the PDF's verbatim year-only enumeration to avoid claiming structure the monograph does not provide. Verified against PDF p. 1 paragraph 1.
-- Rejected as false positive: audit Check 2 ❌ flagged `[[products/canned-foods-general]]` as a non-snapshot slug. The taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md` is stale on this point — `wiki/products/canned-foods-general.md` exists on disk and the routing audit accepted the slug, generating one of the three routing rows for this source page (`canned-foods-general,locked_hmtc_row,jecfa-33rd-tin-1989,...,direct_evidence,...`). The operational source of truth is the routing audit's resolution against the live wiki tree, not the snapshot. Slug retained.
+- Rejected as false positive: audit Check 2 ❌ flagged `[[products/canned-foods-general]]` as a non-snapshot slug. The taxonomy snapshot at the editorial record is stale on this point — the linked reference record exists on disk and the routing audit accepted the slug, generating one of the three routing rows for this source page (`canned-foods-general,locked_hmtc_row,jecfa-33rd-tin-1989,...,direct_evidence,...`). The operational source of truth is the routing audit's resolution against the live wiki tree, not the snapshot. Slug retained.
 - Documented but not changed: audit Check 2 ⚠️ noted that the PDF does not explicitly enumerate `Sn2+` and `Sn4+` as analyte forms. The `species:` field is structural metadata defining the chemistry scope of "inorganic tin" rather than a claim about the source's analytical speciation, and the precedent pages `benoy1971-tin-toxicity-canned-fruit-juices` and `eu-scf-2002-acute-tin-canned-foods` both use the same `species: [Sn2+, Sn4+]` convention for analogous inorganic-tin documents. Retained for cross-source comparability.
 - Documented but not changed: audit Check 1 noted minor losses in the case-series table (Barker & Runte 1972 corroded-can range 381-477 ppm summarized as mean 418 only; Calloway & McMullen 1966 daily-average 163 mg/day omitted; Nehring 1972 nitrite 1.7 ppm omitted from "trace Zn/Cd/Pb/Cu/Cl" summary). These are condensations that preserve the values used in the Committee's evaluation; the omitted values are secondary and do not change the symptomatic-threshold finding. Retained as written.
 
@@ -150,13 +150,13 @@ Otherwise PROMOTE per audit Checks 3, 4, 5 (speciation/methods, brand firewall, 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

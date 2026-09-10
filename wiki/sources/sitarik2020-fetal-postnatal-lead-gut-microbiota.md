@@ -93,16 +93,15 @@ Limitations stated by authors: small analytical sample (n = 146), particularly f
 
 **Microbiome:** Single-paper evidence for lead → mycobiome and lead → specific bacterial taxa axes. Fungal genera affected by fetal Pb (relative to controls): Candida (−), Aspergillus (−), Penicillium (− postnatally at 6 months), Malassezia restricta and M. globosa (+), Saccharomyces (+ at 1 month / − at 6 months). Bacterial genera affected: Collinsella aerofaciens (+ at 1 month), Bilophila (+ at 6 months), and several Bacteroides OTUs (−). Candidate for WikiBiome federation as a primary source on lead-mycobiome interactions in human infants.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[testing/la-icp-ms]]
 
 ## Verification notes
 
-Enhanced 2026-05-18 from the source PDF (`raw/Papers Cube Manual Fetch/article (1).pdf`) under skill v2.0 merge-enhance path. The prior revision (dated 2026-05-14) carried several defects against the source:
+Enhanced 2026-05-18 from the source PDF (the archived source file) under skill v2.0 merge-enhance path. The prior revision (dated 2026-05-14) carried several defects against the source:
 
-- **Authors list was hallucinated.** Prior frontmatter listed `[Sitarik AR, Bobbitt KR, Havstad SL, Fujimura KE, Levin AM, Zoratti EM, Kim H, Johnson CC, Lynch SV, Ownby DR, Wegienka GR]`, which appears to be a WHEALS-cohort author roster from a different publication. The actual author list per the PDF title page is the one now in frontmatter: Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, Lynch SV, Park SK, Wu KH, Yong GJM, Cassidy-Bushrow AE. Manish Arora and Christine Austin (Mount Sinai/Lautenberg) ran the LA-ICP-MS work; Bielak (U-Michigan epidemiology) provided cohort statistical input; Park (U-Michigan environmental health) co-authored.
+- **Authors list was hallucinated.** Prior source metadata listed `[Sitarik AR, Bobbitt KR, Havstad SL, Fujimura KE, Levin AM, Zoratti EM, Kim H, Johnson CC, Lynch SV, Ownby DR, Wegienka GR]`, which appears to be a WHEALS-cohort author roster from a different publication. The actual author list per the PDF title page is the one now in source metadata: Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, Lynch SV, Park SK, Wu KH, Yong GJM, Cassidy-Bushrow AE. Manish Arora and Christine Austin (Mount Sinai/Lautenberg) ran the LA-ICP-MS work; Bielak (U-Michigan epidemiology) provided cohort statistical input; Park (U-Michigan environmental health) co-authored.
 - **Title corrected** from "Fetal and early postnatal lead exposure and the infant gut microbiota in a birth cohort" to the published title "Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota" (Environment International 144 (2020) 106062, DOI 10.1016/j.envint.2020.106062).
 - **Sequencing platform reversed.** Prior version stated 16S was run on Illumina MiSeq; the paper states the 16S V4 amplicon library was loaded onto the Illumina NextSeq cartridge (Methods §2.3), while ITS2 was run on Illumina MiSeq. Corrected.
 - **ITS region misidentified.** Prior version said "ITS1 sequencing (fungal)"; the paper states "The internal transcribed spacer region (ITS) 2 of the rRNA gene was amplified using the primer pair fITS7... and ITS4" (Methods §2.3). Corrected to ITS2.
@@ -113,7 +112,7 @@ Enhanced 2026-05-18 from the source PDF (`raw/Papers Cube Manual Fetch/article (
 
 Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `evidence_tier: A`, `jurisdictions: [US]`, `metals: [Pb]`, `ingredients: []`, `products: []`, `matrices: [tooth-dentin, stool, infant-gut-microbiome]`, `near_duplicates: []`, `sample_n: 146`.
 
-**Audit subagent (2026-05-18) — REVISE verdict, two findings applied:**
+**Audit editorial review (2026-05-18) — REVISE verdict, two findings applied:**
 
 - Audit flagged the bacterial-subset breakdown as "81 / 35 / 68" being inconsistent with the source. Verified against PDF p. 3 §2.7, which reads: "Of these 146 children, 35 had 1-month bacterial microbiota only, 35 had 6-month bacterial microbiota only, and 68 had bacterial microbiota at both time points." The "81" was a transcription error introduced in the merge-enhance pass. Corrected to "35 / 35 / 68."
 - Audit flagged the Prenatal-indoor-pets p-values reported as "0.058, 0.038, 0.213 — 3rd trimester reaching p = 0.019" as both internally inconsistent and not matching Table 1. Verified against PDF p. 5 Table 1 row "Prenatal indoor pets": the across-time-point p-values are 0.058 (2nd trim), 0.019 (3rd trim, bolded as significant), and 0.19 (postnatal). The "0.038" and "0.213" values are not in the source. The wiki now reads "p = 0.019" for the 3rd-trimester significant association, "p = 0.058" trend for 2nd trimester, and "p = 0.19" non-significant for postnatal — matching the source exactly.
@@ -123,13 +122,13 @@ Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

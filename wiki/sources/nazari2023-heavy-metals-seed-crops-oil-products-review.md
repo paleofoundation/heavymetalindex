@@ -156,7 +156,7 @@ Enhancement on 2026-05-25 from prior 2026-05-14 revision:
 - Removed invented `[[ingredients/oilseeds]]` slug — not in current taxonomy snapshot. Replaced the umbrella with the specific oil/seed ingredient slugs that the paper actually reports values for.
 - Removed `[[ingredients/flaxseeds]]` from the (renamed) wiki-touch section — not in current taxonomy snapshot.
 - Renamed legacy `## Wiki pages updated on ingest` heading to current-schema `## Wiki pages this source may touch`.
-- Fixed `raw_handle` from the placeholder `manual-fetch-kimi` to the canonical handle `MFK_p0329-impacts-of-heavy-metals-in-seed-crops-and-oi`.
+- Fixed `raw_handle` from the placeholder `manual-fetch-source-retrieval` to the canonical handle `MFK_p0329-impacts-of-heavy-metals-in-seed-crops-and-oi`.
 - Fixed `raw_path` filename to include the actual file basename (the prior path truncated the title).
 - Expanded `metals:` from `[tAs, Pb, Cd, tHg, Ni, Cr]` to `[Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI]` because the review explicitly discusses iAs (EFSA 17-country survey, p. 110), MeHg (JECFA PTWI, p. 118), and Cr-VI (genotoxicity, p. 118) as distinct from the umbrella values, alongside tAs/tHg/Cr values that appear in Table 1.
 - Added `access_url`, expanded `jurisdictions:` to reflect the 14 countries whose primary studies are compiled (global, EU, IR, TR, ES, BR, SE, FR, IT, KSA, PL, NG, CN, US).
@@ -167,7 +167,7 @@ Enhancement on 2026-05-25 from prior 2026-05-14 revision:
 
 No brand names appear in this review's compilations (samples are referenced by oil type and country, not by manufacturer); no Part 12 redaction was required. No HMTc threshold proposals appear in the review and none were inserted (Part 2 firewall observed).
 
-Audit subagent (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attributing the matrix as "Soybean — Europe" when the review explicitly says "455 oilseed samples"; verified against PDF p. 111 §2.5 — corrected to "Oilseeds — Europe". Audit subagent also flagged the JECFA Cd PTMI as a silent unit correction (review prints "25 µg/g body weight" on p. 116; wiki had written "25 µg/kg body weight" without note); verified against the source and against the canonical JECFA Cd PTMI (25 µg/kg bw/month) — retained the canonical value but added an inline transcription note matching the pattern used for the Bakkali 2012 Cd inconsistency. Audit subagent also noted matrices `[oilseed, vegetable-oil, seed-oil]` are not in the loaded taxonomy snapshot (matrices uses its own controlled vocabulary per `docs/gpt-collaboration/system-prompt.md`); no change applied because matrices vocabulary verification is out of scope for this audit and the existing values match prior usage in the corpus for oilseed-and-vegetable-oil reviews.
+Audit editorial review (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attributing the matrix as "Soybean — Europe" when the review explicitly says "455 oilseed samples"; verified against PDF p. 111 §2.5 — corrected to "Oilseeds — Europe". Audit editorial review also flagged the JECFA Cd PTMI as a silent unit correction (review prints "25 µg/g body weight" on p. 116; wiki had written "25 µg/kg body weight" without note); verified against the source and against the canonical JECFA Cd PTMI (25 µg/kg bw/month) — retained the canonical value but added an inline transcription note matching the pattern used for the Bakkali 2012 Cd inconsistency. Audit editorial review also noted matrices `[oilseed, vegetable-oil, seed-oil]` are not in the loaded taxonomy snapshot (matrices uses its own controlled vocabulary per the editorial record); no change applied because matrices vocabulary verification is out of scope for this audit and the existing values match prior usage in the corpus for oilseed-and-vegetable-oil reviews.
 
 ## Wiki pages this source may touch
 
@@ -203,13 +203,13 @@ Audit subagent (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attribut
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

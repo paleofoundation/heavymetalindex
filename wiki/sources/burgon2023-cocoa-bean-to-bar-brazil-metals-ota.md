@@ -133,8 +133,7 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 - **Courses:** Useful worked example of the bean-to-finished-product Cd attenuation pathway (Amazonas beans 0.68 → Amazonas dark chocolate 0.145 mean, max 0.74). Also useful for the post-harvest ochratoxin A risk pathway, with the drying stage identified as the critical control point as water activity drops.
 - **App:** Brazilian regional Cd-in-cocoa-bean and Cd-in-chocolate geographic-breakdown data for the `[[ingredients/cocoa]]` and `[[ingredients/chocolate]]` `contamination_profile` synthesis pass. Per-region maxima and means supplied; not a market basket.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
 - [[metals/cadmium]]
@@ -148,19 +147,19 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 - Source-internal inconsistencies in Tabela 9 (p.97): the Amazonas bean-to-bar chocolate row reports "0,50 (<0,04–0,16)" — mean 0.50 µg/kg above the stated maximum 0.16 µg/kg, which is mathematically impossible; the Bahia bean-to-bar chocolate row reports "0,01 (<0,04–1,11)" — mean 0.01 µg/kg appears inconsistent with 6 of 34 positive samples reaching 1.11 µg/kg. Values are reproduced verbatim from the thesis table; downstream synthesis should treat Tabela 9's mean column as unreliable and use the range column plus positive-sample counts instead.
 - The thesis Resumo (p.viii) reports ochratoxin A "em 20% e 30% das amostras" while the Chapter 3 results (Tabela 9, §3.3) document 13/43 = 30% bean detection and 12/62 ≈ 19% chocolate detection. The wiki page uses the table-derived figures (30% beans, ~19% chocolates) rather than the abstract figures.
 - Cocoa-bean ICP-OES LOD for Pb is 0.057 mg/kg and for Cd is 0.171 mg/kg; several bean values are left-censored at "<0,17" or "<0,06" in source tables and the per-region "mean" lines include these censored values. The single Bahia bean Pb maximum of 0.313 mg/kg is the only quantified value driving the all-region Pb mean. Treat bean Pb/Cd quantification as left-censored-dominant.
-- Audit subagent (2026-05-30) flagged matrices field as overspecified (used `cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate`); corrected to the broad-scope canonical vocabulary `[cocoa, chocolate]` per docs/gpt-collaboration/system-prompt.md matrices guidance.
-- Audit subagent (2026-05-30) flagged Implications/Certification "flag for cobalt to enter HMTc cocoa-derivative analyte review" as crossing toward HMTc governance proposal; softened to a factual note that Co is not currently in the HMTc ten-analyte panel.
+- Audit editorial review (2026-05-30) flagged matrices field as overspecified (used `cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate`); corrected to the broad-scope canonical vocabulary `[cocoa, chocolate]` per the editorial record matrices guidance.
+- Audit editorial review (2026-05-30) flagged Implications/Certification "flag for cobalt to enter HMTc cocoa-derivative analyte review" as crossing toward HMTc governance proposal; softened to a factual note that Co is not currently in the HMTc ten-analyte panel.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9658f6be52](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be52) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -168,15 +168,15 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 20 of
 
 **Sample population.** The source samples are the ten most commonly consumed energy-drink brands sold in the Jordanian retail market. Country of origin is named in Table 1 for each sample, but commercial brand identities are not disclosed; samples are labelled by number 1–10 only. No brand-firewall handling was required because the source itself does not name commercial brands. The sample-population breakdown by country of origin is: Jordan (n=2, samples 1 and 4), Poland (n=2, samples 2 and 6), Austria (n=2, samples 3 and 7), Saudi Arabia (n=2, samples 5 and 10), USA (n=1, sample 8), Jamaica (n=1, sample 9).
 
-**Speciation handling.** This source measures total elemental Pb, Cu, Ni, Cd, and Fe by AAS without speciation. Pb, Cu, Ni, Cd, Fe are recorded as such in the `metals:` frontmatter field (no iAs/tAs, MeHg/tHg, or Cr-VI/Cr distinctions applicable to this panel). Mercury, arsenic, chromium, aluminum, tin, antimony, and uranium were not in the source's analyte panel and are not recorded. Among the ten HMTc/HMI analytes, this source covers Pb and Cd only (two of ten); the remaining three metals it measures (Cu, Ni, Fe) sit outside the HMTc certification panel but are tracked in the HMI wiki vocabulary as `copper`, `nickel`, and `iron`.
+**Speciation handling.** This source measures total elemental Pb, Cu, Ni, Cd, and Fe by AAS without speciation. Pb, Cu, Ni, Cd, Fe are recorded as such in the `metals:` source metadata field (no iAs/tAs, MeHg/tHg, or Cr-VI/Cr distinctions applicable to this panel). Mercury, arsenic, chromium, aluminum, tin, antimony, and uranium were not in the source's analyte panel and are not recorded. Among the ten HMTc/HMI analytes, this source covers Pb and Cd only (two of ten); the remaining three metals it measures (Cu, Ni, Fe) sit outside the HMTc certification panel but are tracked in the HMI wiki vocabulary as `copper`, `nickel`, and `iron`.
 
-**Products frontmatter.** The `products:` frontmatter lists `sports-energy-drinks` only. The source's matrix is energy drinks, which the wiki taxonomy locates as HMTc Category 5 row 9 ("Sports/energy drinks") per `wiki/products/sports-energy-drinks.md`. The energy drinks measured are commercially defined energy drinks (caffeine + taurine + vitamin matrix) and not as carbonated soft drinks; routing to `soft-drinks-carbonated-beverages` as a second product would over-route on a category basis. The conservative routing is to `sports-energy-drinks` only.
+**Products source metadata.** The `products:` source metadata lists `sports-energy-drinks` only. The source's matrix is energy drinks, which the wiki taxonomy locates as HMTc Category 5 row 9 ("Sports/energy drinks") per the linked reference record. The energy drinks measured are commercially defined energy drinks (caffeine + taurine + vitamin matrix) and not as carbonated soft drinks; routing to `soft-drinks-carbonated-beverages` as a second product would over-route on a category basis. The conservative routing is to `sports-energy-drinks` only.
 
-**Ingredients frontmatter.** The `ingredients:` field is empty. The energy drinks measured are finished beverages, not single-ingredient measurements. The source does not measure heavy-metal content at the ingredient level.
+**Ingredients source metadata.** The `ingredients:` field is empty. The energy drinks measured are finished beverages, not single-ingredient measurements. The source does not measure heavy-metal content at the ingredient level.
 
-**Matrices frontmatter.** The `matrices:` field uses `energy-drinks` (established vocabulary, used in czarnek2024-heavy-metals-energy-drinks, babayo2026-heavy-metals-energy-drinks-nigeria, salaheldin2025-multimatrix-foods-egypt).
+**Matrices source metadata.** The `matrices:` field uses `energy-drinks` (established vocabulary, used in czarnek2024-heavy-metals-energy-drinks, babayo2026-heavy-metals-energy-drinks-nigeria, salaheldin2025-multimatrix-foods-egypt).
 
-**Jurisdictions frontmatter.** `JO` (Jordan). The sample population is restricted to the Jordanian retail market. The samples themselves originate from six countries (Jordan, Poland, Austria, Saudi Arabia, USA, Jamaica) but the relevant jurisdiction for occurrence-evidence purposes is the country of sale (Jordan), per the convention used elsewhere in the wiki for market-survey sources.
+**Jurisdictions source metadata.** `JO` (Jordan). The sample population is restricted to the Jordanian retail market. The samples themselves originate from six countries (Jordan, Poland, Austria, Saudi Arabia, USA, Jamaica) but the relevant jurisdiction for occurrence-evidence purposes is the country of sale (Jordan), per the convention used elsewhere in the wiki for market-survey sources.
 
 **Paper-internal inconsistencies flagged for synthesis-pass attention.** The source has several internal data-reporting inconsistencies that the wiki records faithfully but cannot reconcile:
 
@@ -201,13 +201,13 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 20 of
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

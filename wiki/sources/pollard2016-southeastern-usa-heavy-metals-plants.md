@@ -96,8 +96,8 @@ Open-access via BioOne's full-text URL (`bioone.org/doi/full/10.2179/16-084`); t
 
 ## Verification notes
 
-- **2026-05-18 (Claude session, fresh ingest):** New page; no prior wiki source page existed. Three identity checks (DOI grep, raw_handle grep, cite-key grep) all negative across `wiki/sources/`.
-- **2026-05-18 (audit subagent verdict PROMOTE; one ⚠️ applied):** Subagent ⚠️-flagged the Figure 1 per-species N attribution ("N approximately 30 leaves per species across the three dates") as an unstated inference — the source reports only the pooled N=146, not per-species or per-date N. Verified against PDF p. 261 ("Leaves were collected in June, July, and October 2005, from the five most-common woody species at each sampling point") and PDF p. 262 (pooled N=146). Corrected to "the source does not report per-species or per-date N; only the pooled total N=146 is given." The second ⚠️ (February spike attribution wording) was judged "faithful in substance" by the auditor; no change applied.
+- **2026-05-18 (editorial review, fresh ingest):** New page; no prior wiki source page existed. Three identity checks (DOI grep, raw_handle grep, cite-key grep) all negative across the linked reference record.
+- **2026-05-18 (audit editorial review verdict PROMOTE; one ⚠️ applied):** editorial review ⚠️-flagged the Figure 1 per-species N attribution ("N approximately 30 leaves per species across the three dates") as an unstated inference — the source reports only the pooled N=146, not per-species or per-date N. Verified against PDF p. 261 ("Leaves were collected in June, July, and October 2005, from the five most-common woody species at each sampling point") and PDF p. 262 (pooled N=146). Corrected to "the source does not report per-species or per-date N; only the pooled total N=146 is given." The second ⚠️ (February spike attribution wording) was judged "faithful in substance" by the auditor; no change applied.
 - **Matrices vocabulary note:** This paper measures `soil` (serpentine A- and O-horizon at Buck Creek; mine soil in Cherokee County, SC) and `plant-tissue` (foliar Ni and Mn). `plant-tissue` is not in the system-prompt matrices vocabulary (which is food-matrix-oriented). Recorded here as a bare matrix string; downstream taxonomy review may want to add `plant-tissue` and `leaf-tissue` to the matrices vocabulary, or rule that plant-ecology measurements should be matrix-tagged as `[]` (the paper is then routable via metals and jurisdictions only). Flagged for Karen's review rather than silently dropped.
 - **Scope-fit note:** This source is plant ecology, not food / supply chain. The wiki's primary mandate is the food-and-supply-chain heavy-metals literature; this paper is upstream context for Ni, Mn, Co soil-plant biogeochemistry rather than direct evidence for any ingredient `contamination_profile` or HMTc threshold. Routing is expected to fan out to `metals/nickel`, `metals/manganese`, and `metals/cobalt` only (no ingredients, no products). If the routing audit produces zero rows because no product or ingredient slugs are declared, that is the correct outcome for this source's evidence content.
 - **Reading-from-figure caveat:** Foliar Ni means by species and date (Figure 1) and soil Ni values (Figure 2) are read from bar charts and log-scale plots; the source provides no underlying data table for these figures. Values reported here are stated as approximate where chart readout cannot resolve a single decimal. The pooled mean (15.3 µg g⁻¹, N=146, SEM=0.85), the Phytolacca survey table (means, N, SEM, maxima), and the ANOVA statistics are stated exactly as the source's text reports them.
@@ -105,8 +105,7 @@ Open-access via BioOne's full-text URL (`bioone.org/doi/full/10.2179/16-084`); t
 - **Brand firewall:** Methods section names instrument vendor and model (`Instrumentation Laboratory model IL551, Wilmington, MA`) under the locked 2026-05-17 Exception 2 (scientific-method vendor names are permitted; only contamination-value brand attribution is forbidden).
 - **Part 2 firewall check:** No HMTc threshold proposals, no consumer translations, no synthesis claims comparing this paper to other literature. `Implications` describes upstream-context value only.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/nickel]]
 - [[metals/manganese]]
 - [[metals/cobalt]]
@@ -115,13 +114,13 @@ Open-access via BioOne's full-text URL (`bioone.org/doi/full/10.2179/16-084`); t
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

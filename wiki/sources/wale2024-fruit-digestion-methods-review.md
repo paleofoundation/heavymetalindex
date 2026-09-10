@@ -97,10 +97,9 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 - Wiki/HMTc firewall (Part 2): no HMTc threshold claims, no certification-comparison sentences, no synthesis-grade claims about category contamination levels. The paper's normative claim is method-comparative (preferred digestion technique), not contamination-quantitative.
 - Author overlap: this paper is by the same Kasahun Wale at the Ethiopian Institute of Agricultural Research, Jimma, as the prior wale2023-heavy-metals-fruits-vegetables-overview review, listed in `near_duplicates`. The two papers are subject-distinct (2023 = contamination overview; 2024 = digestion methodology) but share Table 1 of the 2024 paper / Table 2 of the 2023 paper. Both tables are tertiary citations of Ihesinachi and Eresiya 2014.
 - Palladium framing flagged on both Wale papers; downstream metal-page synthesis should not treat the Wale series as evidence supporting Pd-in-produce surveillance.
-- Audit subagent (2026-06-07) flagged dual `ingredients/fruit` + `ingredients/fruits` listing as a snapshot-level singular/plural duplication; reconciled to plural-only `fruits` to match the wale2023-heavy-metals-fruits-vegetables-overview sibling pattern.
+- Audit editorial review (2026-06-07) flagged dual `ingredients/fruit` + `ingredients/fruits` listing as a snapshot-level singular/plural duplication; reconciled to plural-only `fruits` to match the wale2023-heavy-metals-fruits-vegetables-overview sibling pattern.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
@@ -117,13 +116,13 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

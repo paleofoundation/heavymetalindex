@@ -60,18 +60,18 @@ App: Can support a processed-seaweed qualifier if synthesis distinguishes raw, P
 
 ## Verification notes
 
-The DOI was minted with a 2025 identifier and the PDF was published online in 2025, but the journal issue is Journal of Applied Phycology 38:933-945 (2026); the frontmatter year follows the PDF issue year. The extracted text did not preserve all Table 3 PTE concentration rows cleanly, so those rows should be verified from the rendered PDF before structured benchmark pooling.
+The DOI was minted with a 2025 identifier and the PDF was published online in 2025, but the journal issue is Journal of Applied Phycology 38:933-945 (2026); the source metadata year follows the PDF issue year. The extracted text did not preserve all Table 3 PTE concentration rows cleanly, so those rows should be verified from the rendered PDF before structured benchmark pooling.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -87,18 +87,17 @@ This page is a 2026-05-20 merge-enhance pass over the 2026-05-14 initial-ingest 
 - **Bound table**: Table 1 (the lower/middle/upper-bound assignment scheme) was made explicit so readers can interpret the LB/MB/UB means without re-fetching the source.
 - **AU vs NZ Tables 3 and 4 detail**: the 2026-05-14 page reported only the combined and partial sub-group means. The enhanced version reports all three of AU / NZ / combined for both total and inorganic arsenic across the middle-bound and the ≥LOR-only columns, matching Tables 3 and 4.
 - **Wiki pages updated on ingest**: removed the prior reference to `regulations/fda-ctz-iAs-apple-juice-10ppb`. That page does not exist in the regulations directory and per the skill stop conditions this session does not create new regulation pages. The FDA action-level context is captured in the body prose.
-- **ingredients/pear-juice**: declared in this page's frontmatter but the wiki ingredient page did not yet exist at the time of the 2026-05-14 ingest. A provisional ingredient scaffold is being created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` in this enhance pass so the routing audit is clean.
+- **ingredients/pear-juice**: declared in this page's source metadata but the wiki ingredient page did not yet exist at the time of the 2026-05-14 ingest. A provisional ingredient scaffold is being created via the editorial record in this enhance pass so the routing audit is clean.
 
 Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with total arsenic 13.3 µg/kg) was identified by cross-walking Attachment 1's sample-level table; sample 46 is the only NZ & Imported sample in the table with AsIII+AsV = 0.0113 mg/kg. The other ≥10 µg/kg iAs sample is sample 6 (NZ & Imported, total As 0.0157626 mg/kg, AsV 0.0103 mg/kg = iAs 10.3 µg/kg).
 
-2026-05-20 subagent audit (Agent tool, fresh context) returned REVISE with 2 ⚠️ findings, 0 ❌:
+2026-05-20 editorial review audit (Agent tool, fresh context) returned REVISE with 2 ⚠️ findings, 0 ❌:
 - Finding 1 (Check 1 numerical fidelity): the "AsV was the predominant inorganic species when quantifiable: 41% of speciated samples had AsV at trace level and 59% had AsV ≥LOR" sentence conflated AsV ≥LOR with iAs (AsIII+AsV) ≥LOR. Source p.7 text "Fourteen (41%) samples had trace amounts of AsV and 20 (59%) of samples analysed for inorganic arsenic had concentrations greater than 2.5 µg/kg" attributes the 59% to total iAs ≥LOR, not to AsV ≥LOR specifically. **Applied:** revised the Arsenic speciation paragraph to attribute 59% to combined iAs ≥LOR with AsV the quantifiable component (since AsIII never exceeded trace).
-- Finding 2 (Check 2 slug vocabulary): `ingredients/pear-juice` is not in the taxonomy snapshot. **Already addressed in the ingest commit** — provisional ingredient scaffold was created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` and committed alongside the source page; taxonomy snapshot will pick it up on the next refresh.
+- Finding 2 (Check 2 slug vocabulary): `ingredients/pear-juice` is not in the taxonomy snapshot. **Already addressed in the ingest commit** — provisional ingredient scaffold was created via the editorial record and committed alongside the source page; taxonomy snapshot will pick it up on the next refresh.
 
-**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the Kimi agent's June 8 placement of the same FSANZ report PDF under `raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Survey of total arsenic and inorganic arsenic in apple and pear juice.pdf`. SHA-256 verified byte-identical to the canonical `raw_path` (`6bd162cc2e489587c62aa70e2ae6146311b73005dc41e81e53ca605a42669ca0`); the same hash also appears at three other Kimi-corruption-issue paths (`May 21 .../papers/01_Fruits_and_Fruit_Products/`, `June 8/.../papers/01_Fruits_and_Fruit_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing frontmatter changed.
+**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the source-retrieval agent's June 8 placement of the same FSANZ report PDF under the archived source file. SHA-256 verified byte-identical to the canonical `raw_path` (`6bd162cc2e489587c62aa70e2ae6146311b73005dc41e81e53ca605a42669ca0`); the same hash also appears at three other source-retrieval-corruption-issue paths (`May 21 .../papers/01_Fruits_and_Fruit_Products/`, `June 8/.../papers/01_Fruits_and_Fruit_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/apple-juice]]
 - [[ingredients/pear-juice]]
 - [[metals/arsenic]]
@@ -109,13 +108,13 @@ Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [db58db798](https://github.com/paleofoundation/heavymetalindex/commit/db58db798) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [db58db798c](https://github.com/paleofoundation/heavymetalindex/commit/db58db798c) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

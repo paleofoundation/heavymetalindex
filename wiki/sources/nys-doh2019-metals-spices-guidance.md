@@ -102,16 +102,15 @@ Key limitations: guidance values express concentration in any single spice, not 
 
 ## Verification notes
 
-- 2026-05-29 Claude merge-enhance from the source PDF (manual-fetch-kimi, condiment_papers/05_PB_Vanilla_Spices). Fixed `metals:` frontmatter from `[iAs, Cd, Cr, Pb]` to `[iAs, Cd, Cr-VI, Pb]` — the document derives values for hexavalent chromium specifically (Cr-III treated only in a footnote as a sensitivity check), and Part 14 requires the speciated slug when the source has speciated.
+- 2026-05-29 Claude merge-enhance from the source PDF (manual-fetch-source-retrieval, condiment_papers/05_PB_Vanilla_Spices). Fixed `metals:` source metadata from `[iAs, Cd, Cr, Pb]` to `[iAs, Cd, Cr-VI, Pb]` — the document derives values for hexavalent chromium specifically (Cr-III treated only in a footnote as a sensitivity check), and Part 14 requires the speciated slug when the source has speciated.
 - Fixed methods-section misattribution: prior page said "Cd RfD from ATSDR/EPA"; Table B.1 shows the selected Cd noncancer toxicity value is 1.1 × 10⁻⁵ mg/kg/day, which is the CA EPA (2005) child-specific RfD (chRfD), not the ATSDR RfD of 1 × 10⁻⁴. Prior page said "Pb BMDL from EFSA/EPA"; the selected Pb noncancer value of 1.2 × 10⁻⁴ mg/kg/day is NYS DOH's own IEUBK-derived value built on the CA EPA (2009) framework, not directly from EFSA or US EPA.
 - Pared Part 2 firewall risk in Implications. Prior page said "HMT&C standards for spice and herb categories should reference these values as the health-protective floor when the certification is being positioned as a more protective alternative to EU or FDA status-quo limits" — reworded to contribute reference values without prescribing HMTc certification strategy. App-section consumer advisory ("users who report high spice consumption may have exposures near or above the child-scenario-based guidance values") reworded to state the consumption-rate finding without the advisory framing.
 - Added Table B.1 selected toxicity values, the 8-spice list, race/ethnic-stratified consumption rate ranges (Supplementary Tables 10, 11), and EPA-EFH body-weight bands.
-- The body wikilink `[[regulations/nys-metals-spices-guidance-2019]]` references a page that does not yet exist as of this update; preserved as an aspirational link (not declared in routing frontmatter). The prior `[[health/vulnerable-populations]]` link was removed in this pass — `health/` is not an existing wiki namespace per the taxonomy snapshot.
+- The body wikilink `[[regulations/nys-metals-spices-guidance-2019]]` references a page that does not yet exist as of this update; preserved as an aspirational link (not declared in routing source metadata). The prior `[[health/vulnerable-populations]]` link was removed in this pass — `health/` is not an existing wiki namespace per the taxonomy snapshot.
 - No brand names appear in the source; Part 12 firewall not engaged.
-- 2026-05-29 audit-application pass (fresh-context subagent audit, verdict REVISE; this pass): added Pb cancer comparison value of 2.64 mg/kg from Table 1 to the Key numbers table (the prior page text noted "no threshold" but had omitted the published Table 1 cancer-equation value); preserved Table B.1 footnote framing that this is a screening comparison value, not a threshold. Reworded Implications/Certification to remove "far below typical international regulatory maxima" cross-source comparative (Part 2 firewall ⚠️ flag); kept the EU 2023/915 context out of the Certification paragraph and let the bare guidance-value enumeration stand. Reworded Implications/App to drop the "2-4×" derived multiplier framing and report the consumption rate ranges directly as the source presents them. Removed dead body wikilink `[[health/vulnerable-populations]]`.
+- 2026-05-29 audit-application pass (fresh-context editorial review audit, verdict REVISE; this pass): added Pb cancer comparison value of 2.64 mg/kg from Table 1 to the Key numbers table (the prior page text noted "no threshold" but had omitted the published Table 1 cancer-equation value); preserved Table B.1 footnote framing that this is a screening comparison value, not a threshold. Reworded Implications/Certification to remove "far below typical international regulatory maxima" cross-source comparative (Part 2 firewall ⚠️ flag); kept the EU 2023/915 context out of the Certification paragraph and let the bare guidance-value enumeration stand. Reworded Implications/App to drop the "2-4×" derived multiplier framing and report the consumption rate ranges directly as the source presents them. Removed dead body wikilink `[[health/vulnerable-populations]]`.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/sesame-seeds]]
 - [[metals/lead]]
@@ -123,13 +122,13 @@ Key limitations: guidance values express concentration in any single spice, not 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

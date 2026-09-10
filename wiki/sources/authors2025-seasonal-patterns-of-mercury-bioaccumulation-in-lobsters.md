@@ -107,7 +107,7 @@ This page makes the source discoverable for category-level evidence routing. Val
 
 ## Verification notes
 
-- Identity check: DOI, raw handle, candidate cite-key, and SHA-256 were compared against existing `wiki/sources/` pages before creation.
+- Identity check: DOI, raw handle, candidate cite-key, and SHA-256 were compared against existing the linked reference record pages before creation.
 - Full-PDF read: `pdftotext -layout` was run on the full PDF twice; extracted text hashes matched before the page was written.
 - Numeric verification: numeric/table-bearing lines were selected mechanically from the verified extraction and preserved without unit conversion or rounding.
 - Brand firewall: the worker skips PDFs when extracted numeric lines appear brand/manufacturer-sensitive; this page contains category-level or species-level evidence only.
@@ -116,12 +116,12 @@ This page makes the source discoverable for category-level evidence routing. Val
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [9df161fe2](https://github.com/paleofoundation/heavymetalindex/commit/9df161fe2) | 2026-08-03 | major | 5 sections added; narrative text revised |
-| [621be2545](https://github.com/paleofoundation/heavymetalindex/commit/621be2545) | 2026-07-29 | correction | 5 sections removed; narrative text revised |
-| [2b27b348c](https://github.com/paleofoundation/heavymetalindex/commit/2b27b348c) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
+| [9df161fe24](https://github.com/paleofoundation/heavymetalindex/commit/9df161fe24) | 2026-08-03 | major | 5 sections added; narrative text revised |
+| [621be2545c](https://github.com/paleofoundation/heavymetalindex/commit/621be2545c) | 2026-07-29 | correction | 5 sections removed; narrative text revised |
+| [2b27b348c1](https://github.com/paleofoundation/heavymetalindex/commit/2b27b348c1) | 2026-07-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -64,21 +64,21 @@ Limitation for HMI scope: HMI-scope toxic metals (Pb, Cd, iAs, tAs, MeHg, tHg, N
 - Certification (HMTc): No direct contribution. The paper does not measure any of the 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) or the broader HMI metal vocabulary (which adds Cr, Sb, U). It is useful as a methodology reference for ICP-OES on maize-grain matrices and as a citation pointer to Abebe et al. 2017 and Dada & Kutu 2022, which do report heavy metals in popcorn.
 - Courses: Teachable contrast between bio-fortification literature (essential-element framing) and contamination literature (toxic-element framing), and how the wiki must distinguish essential trace elements (Cu, Mn, Zn, Fe) from toxic species (Pb, Cd, iAs, etc.) when they share analytical platforms.
 - App: Does not advance any HMTc analyte sub-block on [[ingredients/corn]] or [[ingredients/maize]]. The Ca, Mg, Fe, Cu, Mn, Zn data are out of scope for the `contamination_profile` schema.
-- Routing fan-out: matrix `popcorn` maps to `[[products/snacks-crackers-biscuits]]` per `data/evidence/matrix-to-product-map.json`; the source contributes context (not occurrence evidence) to that product page.
+- Routing fan-out: matrix `popcorn` maps to `[[products/snacks-crackers-biscuits]]` per the structured evidence record; the source contributes context (not occurrence evidence) to that product page.
 
 ## Verification notes
 
-This page was merge-enhanced on 2026-05-29 against the original PDF (raw/Manual Fetch Kimi /Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes.pdf):
+This page was merge-enhanced on 2026-05-29 against the original PDF (the archived source file):
 
 - **`metals:` field corrected and completed.** Prior listing was `[Cu, Mn, Zn]` which omitted the macro-minerals the paper actually quantified (Ca, Mg) and the Fe values prominently reported in Table 4 and the Implications. Replaced with `[Ca, Mg, Fe, Cu, Mn, Zn]`, matching the sibling convention used for Abebe et al. 2017 popcorn (list all measured analytes regardless of HMI scope). None of these are HMI-scope toxic metals; the page remains EF-4 (Context only) for HMTc purposes.
-- **`matrices:` expanded** from `[cereal-grain]` to `[popcorn, cereal-grain]`. The paper measures both raw kernels (cereal-grain matrix) and microwave-popped flakes (popcorn matrix). The `popcorn` matrix key is recognized in `data/evidence/matrix-to-product-map.json` and routes to `[[products/snacks-crackers-biscuits]]`.
+- **`matrices:` expanded** from `[cereal-grain]` to `[popcorn, cereal-grain]`. The paper measures both raw kernels (cereal-grain matrix) and microwave-popped flakes (popcorn matrix). The `popcorn` matrix key is recognized in the structured evidence record and routes to `[[products/snacks-crackers-biscuits]]`.
 - **`products:` populated** from `[]` to `["[[products/snacks-crackers-biscuits]]"]` per the matrix-to-product map (`popcorn → snacks-crackers-biscuits`). This clears the routing-malformed advisory entry that prior `products: []` triggered. Did not propose any new product pages — Step 0 Lock is Karen's separate workflow per Part 10.
 - **Mg upper-range typo corrected** from 2094.9 to 2094.7 µg/g. The PDF Table 4 (p. 281) reports H11 Mg = 2094.7 ± 66.8 µg/g; the prior wiki value of 2094.9 was a single-digit transposition. Verified against Table 4 directly.
 - **Phytic P maxima attributed to correct hybrids.** Prior page reported the kernel/flake Pphy ranges (2.94-3.50 / 2.78-3.46 mg/g) without naming the responsible hybrids. Added: kernel max in H6 (3.50 ± 0.04), flake max in H7 (3.46 ± 0.02). Verified against Table 3 (p. 281).
 - **Range-and-attribution detail added throughout `## Key numbers`** to make each min/max value individually re-derivable against Tables 3, 4, and 6.
 - **Limitation paragraph added** to `## Methods (brief)` explicitly noting which HMI-scope analytes are absent and that no LOD/LOQ data are reported for any element.
 - **Legacy `## Wiki pages this source may touch` section removed.** Per the 2026-05-17 cleanup of `## Wiki pages updated on ingest` legacy headings (and the sibling Abebe 2017 popcorn merge-enhance on 2026-05-29), the routing layer (not the source page) is responsible for fan-out to metal and ingredient pages. The metals/copper, metals/manganese, metals/zinc, metals/iron pages do exist as wiki pages but are not HMI-scope; the source's lack of HMI-scope metal measurements means it does not advance the `contamination_profile` for any ingredient page anyway.
-- **Frontmatter additions** to align with current schema landed in the 2026-05-28 10-year architecture commit (10eef01): `evidence_fitness: EF-4` (Context only — no HMI-scope metals measured), `public_evidence_label: Context only`, `review_state: approved_for_internal`, `claim_classes: []` (no HMI-scope claims supported), `access_url` (DOI link), `access_date: 2026-05-29`, `raw_sha256` (computed via shasum -a 256 against the source PDF), `sampling_locations: ["Zemun Polje, Belgrade"]`, `sampling_year_range: "2021-2022"`, `ingest_method: manual_phase1_priority`, `created_by: claude_opus_47_session`.
+- **source metadata additions** to align with current schema landed in the 2026-05-28 10-year architecture commit (10eef01): `evidence_fitness: EF-4` (Context only — no HMI-scope metals measured), `public_evidence_label: Context only`, `review_state: approved_for_internal`, `claim_classes: []` (no HMI-scope claims supported), `access_url` (DOI link), `access_date: 2026-05-29`, `raw_sha256` (computed via shasum -a 256 against the source PDF), `sampling_locations: ["Zemun Polje, Belgrade"]`, `sampling_year_range: "2021-2022"`, `ingest_method: manual_phase1_priority`, `created_by: claude_opus_47_session`.
 - **Sample population expanded** to include all twelve hybrid identifiers and the 4 × 100 kernels-per-replicate popping detail.
 - **Authors string** updated to include the full author list (was previously truncated in `authors:` array order; now matches PDF p. 277 byline exactly).
 - **Publication string** updated to "Chilean Journal of Agricultural Research 85(2): 277-286" (was 277-285; the article runs through p. 286 per the PDF page numbering).
@@ -88,13 +88,13 @@ This page was merge-enhanced on 2026-05-29 against the original PDF (raw/Manual 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

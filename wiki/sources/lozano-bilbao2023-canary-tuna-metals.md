@@ -142,24 +142,24 @@ The study was funded by the FoodE H2020 grant (Agreement 862663) and the Tuna An
 
 ## Verification notes
 
-- Paper-internal inconsistency on the metal panel: the abstract lists "Al, Cd, Cr, Cu, Fe, Li, Ni, Pb and Zn" as the metals determined by ICP-OES, but Table 1 (method LODs/LOQs) and Table 2 (results) list only eight metals (Al, Cd, Cr, Cu, Fe, Li, Pb, Zn) with no Ni row in either table. The metals frontmatter and the body of this source page follow Table 1/Table 2 (the actual measured set, eight metals); the abstract's mention of Ni is treated as a manuscript error and is not propagated.
+- Paper-internal inconsistency on the metal panel: the abstract lists "Al, Cd, Cr, Cu, Fe, Li, Ni, Pb and Zn" as the metals determined by ICP-OES, but Table 1 (method LODs/LOQs) and Table 2 (results) list only eight metals (Al, Cd, Cr, Cu, Fe, Li, Pb, Zn) with no Ni row in either table. The metals source metadata and the body of this source page follow Table 1/Table 2 (the actual measured set, eight metals); the abstract's mention of Ni is treated as a manuscript error and is not propagated.
 - Paper-internal inconsistency on T. thynnus Cu units: page 7 prose states "T. thynnus is also the species with the highest concentration of Cu, with 1526 ± 1114 mg/kg," but Table 2 reports T. thynnus Cu as mean 1.526 ± 1.114 mg/kg. The Table 2 value is taken as authoritative (consistent with the per-species panel and with the maximum 4.539 mg/kg in Table 2); the prose figure is a decimal-shift typo.
 - Apparent regulatory miscitation on cadmium: the discussion (page 10) cites "Directive 2006/66/EC" as establishing a 0.3 mg/kg total cadmium limit for tuna. Directive 2006/66/EC is the EU Batteries Directive and does not set a 0.3 mg/kg cadmium limit for tuna meat. The page reports the citation as the authors wrote it; the substantive Cd comparison the authors make against a 0.05 mg/kg fish-meat limit is consistent with Regulation (EC) No 1881/2006 as amended by Regulation (CE) No 420/2011, which is the contemporaneous EU framework for cadmium in fish at the time of the study. Slug `eu-1881-2006-contaminants-superseded` is included in the routing pointer for the Pb exceedance discussion; no slug is added for "Directive 2006/66/EC" because it is not the relevant instrument.
 - Apparent paper-internal inconsistency on Pb exceedance: page 7 discussion reads "Regarding Pb, ... none of the species exceeded the maximum permissible concentration of 0.30 mg/kg of fresh weight for fish meat"; the abstract and conclusions report that 40% of T. thynnus specimens exceeded 0.30 mg/kg. Reconciliation: T. thynnus species-mean Pb (0.280 mg/kg) is below 0.30; the 40% figure refers to a per-specimen tally, with the species maximum 0.683 mg/kg from Table 2 documenting that individual specimens are above the limit. Both readings are reported on the page.
 - Mercury is not in the dataset: the authors explicitly note (page 3) that because little sample tissue was available, "the analysis of Hg and isotopes [was left] for later studies." This source therefore does not contribute to mercury occurrence on the metal page for these species.
-- Chromium is total Cr (no Cr(VI) speciation); `Cr` is used in the metals frontmatter, not `Cr-VI`.
+- Chromium is total Cr (no Cr(VI) speciation); `Cr` is used in the metals source metadata, not `Cr-VI`.
 - All values are wet-weight (mg/kg w.w.) per the authors' Section 2.1; no dry-weight conversion is applied here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -126,11 +126,11 @@ The Table 1 cadmium values were transcribed directly from PDF page 5; the table 
 
 The review reports the French seafood-consumer dietary cadmium ingestion as `2.4 ± 3.3 mg/kg bodyweight/week` and the mean urinary cadmium as `0.65 ± 0.45 mg/g creatinine` (PDF p.16); both figures as printed are approximately three orders of magnitude above their plausible scale (the dietary intake is ~1000x the EFSA TWI of 2.5 µg/kg body weight per week; the urinary value at 0.65 mg/g creatinine is ~1000x typical population means in the µg/g creatinine range), which strongly suggests a units typo (likely µg, not mg) in the review itself. Both values are preserved on this page exactly as the review prints them and flagged here; downstream synthesis should not propagate either interpretation without consulting the underlying primary source.
 
-2026-06-03 audit application (fresh-context Claude Opus 4.7 audit subagent, verdict REVISE):
+2026-06-03 audit application (fresh-context automated editorial review, verdict REVISE):
 - Finding 1 (⚠️ Check 1, JECFA TMI/PTMI label mismatch with the regulations/jecfa-cadmium-ptmi slug): verified against PDF p.14 ("The JECFA established a tolerable monthly intake of 25 µg/kg/bodyweight per month") — the review uses the non-canonical short "TMI" form while the JECFA standard designation and the wiki regulation slug both use "PTMI" (provisional tolerable monthly intake). Applied: the body now uses "provisional tolerable monthly intake (PTMI)" to match the slug, with an explicit parenthetical noting that the review itself omits the "provisional" qualifier.
 - Finding 2 (⚠️ Check 1, French cohort body-vs-Verification-notes inconsistency): verified against PDF p.16 — the review verbatim prints "2.4 ± 3.3 mg/kg bodyweight/week" and "0.65 ± 0.45 mg/g creatinine", while the previous body text silently converted both to µg, contradicting the Verification notes' own claim that the values were "preserved here exactly as the review prints it." Applied: the body now reproduces both values verbatim as the review prints them (mg) with an inline flag pointing to the typo discussion in these notes.
 - Finding 3 (⚠️ Check 1 minor, Table 2 high-exposure PRC integer-vs-one-decimal stylistic normalization for wheat flour 2.0/meat 2.0/fish 1.0): verified — the PDF Table 2 prints these as integers (2, 2, 1) where the wiki normalizes to one decimal; the numeric values are identical. Not applied — judged stylistic, not a fidelity error.
-- All Check 2/3/4/5 findings clean per subagent. Routing audit re-run after fix: 0 blocking changes.
+- All Check 2/3/4/5 findings clean per editorial review. Routing audit re-run after fix: 0 blocking changes.
 
 Brand firewall (Part 12): the review does not name commercial brands; no brand-firewall edits were required. Scientific-method vendor names are not present in the underlying primary studies as cited in Table 1 (only the analytical-method abbreviation: FAAS or ICP-MS). The CAS-system reference materials and instrument-vendor identifiers cited in some of the underlying primary studies should be captured when those primary studies are ingested individually, not retrofitted from this review.
 
@@ -141,13 +141,13 @@ Speciation: the review measures (or summarizes) total cadmium only, which is the
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

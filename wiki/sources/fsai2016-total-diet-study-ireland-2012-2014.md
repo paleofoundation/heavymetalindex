@@ -87,7 +87,7 @@ App: Irish dietary exposure data for adults and children across a broad food lis
 
 - `raw_path` updated to the actual PDF filename (previous value was truncated to `…Authority of Ireland (FSAI TDS).pdf` → `…Authority of Ireland (FSAI TDS).pdf` full filename including the full `Food Safety Authority of Ireland` title).
 - `access_url` added (FSAI publication URL).
-- `ingredients` cleanup: removed `tuna` (no `wiki/ingredients/tuna.md` exists). Added `canned-tuna` and `tinned-fish`, the two valid ingredient slugs for the fish-and-fishery-products subcategories actually sampled by the TDS (Annex II: "Canned Tuna" and "Tinned Fish excl. salmon & tuna" are distinct sub-samples) and dominant contributors to mercury exposure on the report's own breakdown.
+- `ingredients` cleanup: removed `tuna` (no the linked reference record exists). Added `canned-tuna` and `tinned-fish`, the two valid ingredient slugs for the fish-and-fishery-products subcategories actually sampled by the TDS (Annex II: "Canned Tuna" and "Tinned Fish excl. salmon & tuna" are distinct sub-samples) and dominant contributors to mercury exposure on the report's own breakdown.
 - `products` cleanup: removed `infant-cereal`. FSAI TDS Annex II does not include infant cereal as a sampled food category (the cereal scope is white flour, wholemeal flour, breads, biscuits, cakes, pasta, rice, breakfast cereals — no infant cereal). `canned-fish` retained as a valid product-category routing target.
 - Chromium contributor attribution for children corrected: prior page said "fruit juices (16%)", but Figure 4 (children) shows non-alcoholic beverages 16%; fruit juices are a subset but not the whole. Updated to "non-alcoholic beverages 16%".
 - Methods section enhanced with ICP-MS attribution and per-analyte LOD/LOQ values from Annex I.
@@ -99,7 +99,7 @@ App: Irish dietary exposure data for adults and children across a broad food lis
 - Implications → Certification: removed the phrase "consistent with European TDS literature" (Part 2 cross-source synthesis comparison). Reframed the oils-specific limitation (iAs not analysed) so the page is honest about what this source does and does not support for the oils category.
 - `updated` set to 2026-05-26.
 
-2026-05-26 audit pass: Auto-audit subagent verdict REVISE. Findings applied:
+2026-05-26 audit pass: Auto-audit editorial review verdict REVISE. Findings applied:
 
 - Check 1 ❌ iAs MoE attribution corrected. The earlier wording ("2–62 across population subgroups vs. BMDL01 8 µg/kg bw/day; 2–30 vs. BMDL01 0.3 µg/kg bw/day") conflated two different denominator columns of Table 7 (p.28). Per Table 7 the cross-subgroup range vs. BMDL01 8 is 57–800 (children 97.5th percentile UB → adult mean LB), and the cross-subgroup range vs. BMDL01 0.3 is 2–30. Page now reports both ranges with endpoint attribution.
 - Check 2 ❌ Three dead-wikilink slugs corrected: `ingredients/dairy` → `ingredients/milk-and-dairy` (the canonical page; `dairy` is an alias the routing audit resolved via the alias index, but the rendered wikilink would not navigate); `metals/aluminium` → `metals/aluminum` (canonical filename uses US spelling); `regulations/eu-1881-2006-contaminants` → `regulations/eu-1881-2006-contaminants-superseded` (the page on disk).
@@ -110,8 +110,7 @@ Findings rejected (false positives):
 - Check 5 ⚠️ "Conflating the two would misallocate exposure attribution by roughly an order of magnitude" flagged as synthesis-adjacent. The contrast is between two figures inside this single source (tAs fish dominance 95% vs. iAs cereal dominance 81–94%) — i.e., the source's own data, not cross-source synthesis. Sentence kept.
 - Check 2 audit also flagged `ingredients/meat` and `ingredients/dairy` against a possibly-stale taxonomy snapshot; `ingredients/meat.md` exists on disk so `meat` is kept; the `dairy` correction is for the dead-link reason above, not snapshot mismatch.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
@@ -132,13 +131,13 @@ Findings rejected (false positives):
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

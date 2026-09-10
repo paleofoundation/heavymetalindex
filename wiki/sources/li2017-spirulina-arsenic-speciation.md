@@ -76,7 +76,7 @@ For most arsenic species, about `0.04 g` spirulina powder was extracted in `12.0
 
 ## Implications
 
-This source adds a primary arsenic-speciation dataset for food-grade spirulina powder from China. It is routeable to algae/seaweed-based supplement and dietary-supplement powder rows, but the frontmatter leaves `ingredients: []` because the closed vocabulary has no exact Spirulina/cyanobacteria ingredient slug. As(III) and As(V) are kept as source-reported species and are not collapsed into a hand-calculated iAs total.
+This source adds a primary arsenic-speciation dataset for food-grade spirulina powder from China. It is routeable to algae/seaweed-based supplement and dietary-supplement powder rows, but the source metadata leaves `ingredients: []` because the closed vocabulary has no exact Spirulina/cyanobacteria ingredient slug. As(III) and As(V) are kept as source-reported species and are not collapsed into a hand-calculated iAs total.
 
 ## Wiki pages this source may touch
 
@@ -89,23 +89,23 @@ This source adds a primary arsenic-speciation dataset for food-grade spirulina p
 ## Verification notes
 
 - Identity checks before writing found no DOI/title/cite-key duplicate for DOI `10.1002/jssc.201700618` or cite key `li2017-spirulina-arsenic-speciation`.
-- The raw filename handle `MFK_li2017` is already used by `wiki/sources/li2017-jiangsu-rice-cadmium-transfer.md`, a different Li et al. 2017 rice/cadmium paper from `raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/li2017.pdf` with DOI `10.1039/C6EM00631K`. This page therefore uses disambiguated raw handle `MFK_li2017-spirulina-arsenic-speciation` and records the collision in `near_duplicates`.
+- The raw filename handle `MFK_li2017` is already used by the linked reference record, a different Li et al. 2017 rice/cadmium paper from the archived source file with DOI `10.1039/C6EM00631K`. This page therefore uses disambiguated raw handle `MFK_li2017-spirulina-arsenic-speciation` and records the collision in `near_duplicates`.
 - All Key numbers were rechecked against `/tmp/hmi-seaweed-039.txt`, extracted with `pdftotext -layout`. Table 1 species values, footnotes, and method-performance values are transcribed directly.
 - Units and bases are preserved as `ng g-1`, `µg g-1`, `ng L-1`, `%`, `g`, `mL`, `°C`, and `min`; no unit conversion was performed.
 - Speciation check: As(III), As(V), DMA(V), MMA(V), and unknown organic arsenic species remain separate. No total arsenic value is promoted to iAs, and no source-unreported As(III)+As(V) sum is calculated.
 - Brand firewall: the source reports production-site provinces, not consumer brands; no brand-linked contamination values are reproduced.
-- Missing-slug check: taxonomy snapshot has no exact `spirulina` or cyanobacteria ingredient slug. Frontmatter leaves `ingredients: []` and uses existing product slugs for algae/seaweed-based supplements, dietary supplements, and oral-solid powders.
+- Missing-slug check: taxonomy snapshot has no exact `spirulina` or cyanobacteria ingredient slug. source metadata leaves `ingredients: []` and uses existing product slugs for algae/seaweed-based supplements, dietary supplements, and oral-solid powders.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

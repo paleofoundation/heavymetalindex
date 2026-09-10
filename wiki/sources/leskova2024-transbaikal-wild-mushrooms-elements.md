@@ -30,7 +30,7 @@ Leskova et al. measured chemical elements in six edible wild mushroom species fr
 
 ## Key numbers
 
-The English abstract states that the study measured Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, and Pb in edible wild mushrooms. The frontmatter routes the elements with existing metal pages; titanium is discussed here as a source-reported non-routed element because no titanium metal page exists in the current wiki taxonomy.
+The English abstract states that the study measured Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn, and Pb in edible wild mushrooms. The source metadata routes the elements with existing metal pages; titanium is discussed here as a source-reported non-routed element because no titanium metal page exists in the current wiki taxonomy.
 
 Source-reported summary findings:
 
@@ -85,13 +85,13 @@ Evidence Fitness: routeable for wild edible mushroom element occurrence and geog
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc0](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc0) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

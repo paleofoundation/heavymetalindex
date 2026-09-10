@@ -113,8 +113,8 @@ Field collection from Ta-Peng Bay lagoon at four sampling times (12/2005, 03/200
 
 Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by an earlier ingest pass and to extract Tables 1, 2, 4, and 5 in full.
 
-- Audit subagent (2026-05-18) flagged Cd–Pb correlation as p < 0.01; verified against Table 2 — the cell reads "0.290*" with a single asterisk, and the table footer defines `*` as p < 0.05 (and `**` as p < 0.01). Corrected to p < 0.05.
-- Audit subagent (2026-05-18) flagged Cr summer A. squamosa value of "5.24 µg/g, range 0.22–10.3" as wrong, claiming Table 1 reads 0.75 (0.34–1.08). Verified against Table 1 (06/2006 summer row, Cr line): the value 5.24 (0.22~10.3) is in the A. squamosa column; 0.75 (0.34~1.08) is in the P. viridis column. The subagent misread the column. Wiki value retained.
+- Audit editorial review (2026-05-18) flagged Cd–Pb correlation as p < 0.01; verified against Table 2 — the cell reads "0.290*" with a single asterisk, and the table footer defines `*` as p < 0.05 (and `**` as p < 0.01). Corrected to p < 0.05.
+- Audit editorial review (2026-05-18) flagged Cr summer A. squamosa value of "5.24 µg/g, range 0.22–10.3" as wrong, claiming Table 1 reads 0.75 (0.34–1.08). Verified against Table 1 (06/2006 summer row, Cr line): the value 5.24 (0.22~10.3) is in the A. squamosa column; 0.75 (0.34~1.08) is in the P. viridis column. The editorial review misread the column. Wiki value retained.
 - Earlier version stated tissues were "lyophilized (freeze-dried)". The source says "Dried samples were dried at 105 ºC to keep a constant dry weight" (Methods, Sampling and Pretreatment paragraph) — i.e., oven-drying. Corrected.
 - Earlier version stated the digestion was "HNO3/HClO4". The source describes 10 mL HNO₃ + 2 mL 30% H₂O₂ (Methods, Analysis for Heavy Metals paragraph). Perchloric acid is not used. Corrected.
 - Earlier version stated "Zeeman background correction" on the Hitachi Z-5000. The source identifies only "AAS, HITACHI, Z-5000, Japan" with "air-acetylene flame / Graphite Atomizer". Zeeman is not in the source. Removed; the limitation now notes absence of stated background-correction technique.
@@ -126,8 +126,7 @@ Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by
 - Paper-internal inconsistency between "Scapharca satowi" (Methods) and "Anadara antiquata" (abstract, results, tables) noted under Limitations.
 - A broken outbound link to `[[supply-chain/mariculture-taiwan]]` was removed; no such page exists.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/shellfish]]
 - [[ingredients/bivalve-molluscs]]
 - [[ingredients/molluscs]]
@@ -143,13 +142,13 @@ Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

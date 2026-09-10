@@ -174,9 +174,9 @@ National (Romanian) maximum allowable limits (MAL; M.Of 173/13 March 2002) and E
 
 ## Verification notes
 
-Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original PDF (Manual Fetch Kimi / condiment_papers / 02_Vinegars). Changes:
+Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original PDF (Manual Fetch source-retrieval / condiment_papers / 02_Vinegars). Changes:
 
-- `raw_handle` corrected from generic `manual-fetch-kimi` to canonical `MFK_quantification-and-reduction-in-heavy-metal-residu`.
+- `raw_handle` corrected from generic `manual-fetch-source-retrieval` to canonical `MFK_quantification-and-reduction-in-heavy-metal-residu`.
 - `raw_path` corrected from truncated `…Some Frui.pdf` to the actual filename ending `…A Case Study Gal.pdf`.
 - `license` clarified from `CC BY` to `CC BY 4.0` (article footer specifies version).
 - `access_url` and `raw_sha256` added.
@@ -190,18 +190,18 @@ Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original P
 - HMTc firewall: no threshold proposals; observation-data only. The Codex As/Pb exceedance flags are the paper's own regulatory framing, not synthesis claims.
 - Speciation discipline: ⁷⁵As measured (total As, no iAs/MMA/DMA/AsB speciation), so `metals` uses `tAs`, not `iAs`. Zn included as the paper's microelement, treated here as an additional analyte without speciation.
 
-Auto-audit subagent (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: `wiki/ingredients/onions.md` declares `aliases: [onion, garlic, allium-vegetables]` and `wiki/ingredients/squash.md` declares `aliases: [zucchini]`; the routing audit script (`tools/evidence/build-routing-audit.mjs` line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
+Auto-audit editorial review (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: the linked reference record declares `aliases: [onion, garlic, allium-vegetables]` and the linked reference record declares `aliases: [zucchini]`; the routing audit script (the editorial record line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

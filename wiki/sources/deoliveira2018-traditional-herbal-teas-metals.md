@@ -75,22 +75,22 @@ App: The source can support `tea`, `camellia-sinensis`, and `herbal-botanicals` 
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_567.txt`; the abstract, Sections 2.1-2.4, Results text, Table 1, Table 2, Table 3, and Conclusion were checked against this page.
-- DOI `10.1016/j.scitotenv.2018.03.215`, raw handle `MFK_metal-concentrations-in-traditional-and-herbal-teas`, and cite-key path `wiki/sources/deoliveira2018-traditional-herbal-teas-metals.md` were checked before creation; no existing source page was found.
+- DOI `10.1016/j.scitotenv.2018.03.215`, raw handle `MFK_metal-concentrations-in-traditional-and-herbal-teas`, and cite-key path the linked reference record were checked before creation; no existing source page was found.
 - Units are copied as printed: dry tea values in `mg kg-1`, Al infusion values in `mg L-1`, and As/Cd/Cr/Pb infusion values in `µg L-1`. No conversions were performed.
 - Speciation: As is total arsenic and Cr is total chromium. The page does not promote tAs to iAs or Cr to Cr(VI).
 - Brand firewall: Table 1-3 name individual tea brands/products. This page reports tea-type and category-level values only and omits brand names.
-- Frontmatter slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; `herbal-tea` and `tea-infusion` are matrix descriptors rather than product or ingredient slugs.
+- source metadata slugs were checked against the editorial record; `herbal-tea` and `tea-infusion` are matrix descriptors rather than product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

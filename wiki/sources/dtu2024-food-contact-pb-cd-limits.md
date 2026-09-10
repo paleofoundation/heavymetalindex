@@ -88,25 +88,25 @@ App: If surfaced, this source can support a food-contact-material warning that P
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the title page, Danish and English memo openings, Tables 1-5, the health-based limit calculations, the data-on-migration section, and the references were checked against this page.
-- Identity checks before creation: title, DTU DOCX no. `24/1014518`, raw handle `MFK_0-5-micrograms-ml`, raw SHA-256 `8cd6d7dccf96c916b4c1be581517d40be993ad14aa72f814a8a17121a5dda29a`, and cite key `dtu2024-food-contact-pb-cd-limits` were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: title, DTU DOCX no. `24/1014518`, raw handle `MFK_0-5-micrograms-ml`, raw SHA-256 `8cd6d7dccf96c916b4c1be581517d40be993ad14aa72f814a8a17121a5dda29a`, and cite key `dtu2024-food-contact-pb-cd-limits` were searched in the linked reference record and evidence files; no existing source page was found.
 - DOI status: no DOI is printed in the PDF or the DTU Orbit cover page. The page uses `doi: null` and `no_doi_assigned: true`.
 - Units are copied as printed in the memo. No conversion was performed between `µg/dm2`, `µg/L`, `µg/kg`, `µg/product`, `mg`, or `mg/g`.
 - Speciation: the memo reports lead and cadmium migration as total Pb and total Cd regulatory endpoints. There is no arsenic, mercury, chromium, tin, or organotin speciation issue.
 - The `sample_n: 47` field refers only to the DVFA 2023 Danish ceramic testing summary. The BfR, Bulut, Rebeniak, Mania, Braikova, Haldimann/Zimmerli, Hight, and Turner numbers are secondary summaries copied from this memo, not fresh primary extraction from those original papers.
 - Brand firewall: no brand names are attached to contamination values. The memo reports categories and cited-study summaries, not brand-by-brand product results.
 - HMTc firewall: the suggested maximum limits are DTU/DVFA source-side regulatory proposals, not HMTc thresholds. The Implications section does not propose HMTc values or compare against certification thresholds.
-- Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact enamelled-cast-iron and lead-crystal-glass sub-slugs are not available; they are retained in prose rather than invented in frontmatter.
+- Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact enamelled-cast-iron and lead-crystal-glass sub-slugs are not available; they are retained in prose rather than invented in source metadata.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -162,8 +162,8 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 ## Verification notes
 
 - **Duplicate consolidation (2026-05-18).** Two wiki source pages previously covered this paper: this page (`alharbi2023-baby-foods-saudi-arabia-heavy-metals.md`, prior revision 2026-05-12) and `original2020-original-a.md` (prior revision 2026-05-14). The latter cite-key was a manifest text-mining artifact (first author parsed as "original" from "ORIGINAL ARTICLE"; year mined incorrectly as 2020 from cited material), and the page itself carried `suggested_cite_key_rename: alharbi2023-baby-foods-heavy-metals-saudi-arabia` as a rename flag. This page is the canonical surviving cite-key; the duplicate has been removed in the same commit.
-- **Re-verified against the manuscript PDF (2026-05-18).** Source consulted: `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf` (DOI 10.1002/fsn3.3485, Food Sci Nutr 2023;11:5270–5282). The retired `original2020-original-a` page transposed the As means between cereal-based meals (15.5 µg/kg) and biscuits (11.1 µg/kg); the correct attribution is restored here.
-- **Speciation discipline.** Paper measures total As; frontmatter `metals:` uses `tAs`, not `iAs`. The risk-assessment THQ applies the USEPA iAs RfD (0.30 µg/kg bw/day) to total As as a conservative simplification, which is methods detail rather than a speciation measurement.
+- **Re-verified against the manuscript PDF (2026-05-18).** Source consulted: the archived source file (DOI 10.1002/fsn3.3485, Food Sci Nutr 2023;11:5270–5282). The retired `original2020-original-a` page transposed the As means between cereal-based meals (15.5 µg/kg) and biscuits (11.1 µg/kg); the correct attribution is restored here.
+- **Speciation discipline.** Paper measures total As; source metadata `metals:` uses `tAs`, not `iAs`. The risk-assessment THQ applies the USEPA iAs RfD (0.30 µg/kg bw/day) to total As as a conservative simplification, which is methods detail rather than a speciation measurement.
 - **Brand firewall.** No brand names appear in the manuscript's results or in this page; SFDA NFMP data are reported in aggregate by product category. Domestic-vs-imported split is reported as a sampling-frame descriptor only.
 - **Routing scope.** Stage 1 and stage 2 formulas are entered under the umbrella `products/infant-formula-powder` slug because the paper does not separate soy from non-soy. Cereal-based meals and biscuits are entered under both rice-based and non-rice slugs because the paper does not separate by grain type (the discussion notes rice is the dominant grain in Saudi infant cereals but does not stratify the dataset by grain).
 - **Body-weight and consumption assumptions.** Body weights (5.45 kg at 0–6 mo; 8.90 kg at 7–12 mo) cite Ministry of Health Saudi Arabia 2021. Label-recommended consumption was used; the paper notes that consumption data specific to Saudi infants under one year is sparse and that label portions may not reflect actual intake — a documented limitation of the EDI estimates.
@@ -173,13 +173,13 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

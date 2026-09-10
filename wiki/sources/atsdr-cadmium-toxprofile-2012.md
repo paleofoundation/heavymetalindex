@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: []
 type: source
 cite_key: atsdr-cadmium-toxprofile-2012
 title: "Toxicological Profile for Cadmium"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-24
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # ATSDR 2012 — Toxicological Profile for Cadmium
@@ -102,7 +106,7 @@ Limitations the profile itself acknowledges: the cut-off values used to define "
 
 ## Implications
 
-- Certification: ATSDR's chronic oral MRL of 0.1 µg Cd/kg/day is the tightest major reference value for cadmium and is below typical US dietary cadmium intake. This is important for HMT&C's defensibility story: an HMT&C threshold calibrated to ATSDR is more conservative than one calibrated to EFSA TWI or JECFA PTMI, and the calibration-to-ATSDR rationale is "US public health agency reference value, most conservative of the options, explicitly acknowledged by the agency to be below typical US intake, most defensible for a certification program asserting population-level health protection." A calibration to EFSA or JECFA instead would require the rationale-for-deviation statement per the CLAUDE.md firewall rule.
+- Certification: ATSDR's chronic oral MRL of 0.1 µg Cd/kg/day is the tightest major reference value for cadmium and is below typical US dietary cadmium intake. This is important for HMT&C's defensibility story: an HMT&C threshold calibrated to ATSDR is more conservative than one calibrated to EFSA TWI or JECFA PTMI, and the calibration-to-ATSDR rationale is "US public health agency reference value, most conservative of the options, explicitly acknowledged by the agency to be below typical US intake, most defensible for a certification program asserting population-level health protection." A calibration to EFSA or JECFA instead would require the rationale-for-deviation statement per the the editorial policy firewall rule.
 - Courses: the ATSDR methodology (meta-analysis of environmental exposure studies, UCDL10 as point of departure, pharmacokinetic translation to dietary intake) is a different procedural anchor than either EFSA CONTAM or EPA IRIS; the three-way contrast is a teachable pattern.
 - App: the ATSDR chronic oral MRL gives the app an additional per-ingredient exposure threshold to evaluate against, potentially tighter than the EFSA TWI. The profile's own observation that its MRL is below typical US dietary intake (~3x lower) is also material to consumer-facing risk communication, which should not describe typical US dietary cadmium as "safe" but rather as exceeding the public-health agency's derived risk threshold.
 - Microbiome: the profile touches on gut microbiome effects briefly but does not focus on them; dedicated ingest needed for microbiome-specific synthesis.
@@ -111,8 +115,7 @@ Limitations the profile itself acknowledges: the cut-off values used to define "
 
 License `us-government-work`. Document is a federal agency publication under 17 U.S.C. § 105 and freely redistributable. The profile supersedes the September 2008 draft-for-public-comment version; any prior references to the 2008 draft for cadmium should be treated as superseded. SHA-256 provenance recorded. The canonical access URL is ATSDR's tp5.pdf, which is the numbered profile file for cadmium in ATSDR's series.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[regulations/atsdr-cadmium-mrls]]
 - [[synthesis]]
@@ -120,13 +123,13 @@ License `us-government-work`. Document is a federal agency publication under 17 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

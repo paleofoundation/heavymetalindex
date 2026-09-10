@@ -87,7 +87,7 @@ Per-brand concentration values are reported in the source's Tables 10 and 11 und
 
 The basis throughout this page is μg/L of liquid beverage as-purchased and as-analyzed, matching the source's reporting basis. The source does not convert its values to μg/kg in the results tables; the single μg/L-to-μg/kg conversion the authors perform is the comparison of their CM lead mean (19.3 μg/L) to the EU 20 μg/kg ceiling using a cited cow-milk density of 1.030 kg/L. Downstream pooling that requires per-kilogram bases should apply that density conversion explicitly.
 
-The source provides no speciation for any of the three metals; all values are total Pb, total Cd, and total Mn by GFAAS on acid-digested samples. The species labels in this page's metals frontmatter therefore stay as the totals (Pb, Cd, Mn).
+The source provides no speciation for any of the three metals; all values are total Pb, total Cd, and total Mn by GFAAS on acid-digested samples. The species labels in this page's metals source metadata therefore stay as the totals (Pb, Cd, Mn).
 
 The source's Mann-Whitney p-value for cadmium is reported in the abstract as p < 0.05, in Figure 2 as p < 0.05 with an asterisk, and in the Results text consistently as p < 0.05. The source's Mann-Whitney p-value for manganese is reported identically (p < 0.05 in abstract, Figure 3, and Results text). The source's Mann-Whitney p-value for lead is reported in Figure 1 and in the Results text as p > 0.05 (not significant). This page preserves all three p-value reportings verbatim.
 
@@ -95,18 +95,18 @@ The paper's Conclusions characterize the SB mean Mn (117.4 μg/L) as "about 20 t
 
 The source reports its cow-milk Cd and Mn global means at two different precisions: the abstract and Discussion narrative give CM Cd as 2.15 ± 1.84 μg/L and CM Mn as 5.93 ± 1.21 μg/L, while Table 10's "Global mean / Global SD" rows round these to 2.2 ± 1.8 and 5.9 ± 1.2 respectively. This page uses the higher-precision abstract values throughout because they are what downstream readers will most often see cited. Two minor source-internal precision mismatches are preserved without reconciliation: the abstract reports SB Mn SD as 30.3 while Table 11 reports 30.4, and the abstract reports SB Pb SD as 9.6 while Table 11 reports 9.7; in both cases this page follows Table 11 because the table is the primary data record.
 
-Audit subagent (2026-06-08) flagged `products/milk-and-dairy` as absent from `docs/gpt-collaboration/taxonomy-snapshot.md`; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. `wiki/products/milk-and-dairy.md` exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No frontmatter change applied. Audit subagent (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
+Audit editorial review (2026-06-08) flagged `products/milk-and-dairy` as absent from the editorial record; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. the linked reference record exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No source metadata change applied. Audit editorial review (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

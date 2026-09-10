@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+ingredients: ["baby-cereals-dry"]
 type: source
 cite_key: depaiva2020-aluminum-cereal-based-baby-foods-brazil
 title: "Aluminum content and effect of in vitro digestion on bioaccessible fraction in cereal-based baby foods"
@@ -21,7 +24,8 @@ acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/depaiva20
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-09
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # de Paiva et al. 2020 — Aluminum in cereal-based baby foods (Brazil)
@@ -106,7 +110,7 @@ Microbiome: No direct microbiome endpoint, though the authors discuss antinutrit
 
 ## Provenance Notes
 
-Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/external-fetch/depaiva2020.pdf`. The paper was substituted from the wishlist's Al-baby-cereal slot (originally Filippini 2020 PMID 32247442 was queued; de Paiva 2020 covers the same gap with Brazilian instead of European data). Published in *Food Research International* under standard Elsevier paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1016/j.foodres.2019.108965).
+Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. The paper was substituted from the wishlist's Al-baby-cereal slot (originally Filippini 2020 PMID 32247442 was queued; de Paiva 2020 covers the same gap with Brazilian instead of European data). Published in *Food Research International* under standard Elsevier paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1016/j.foodres.2019.108965).
 
 ## Wiki Pages Updated On Ingest
 
@@ -117,13 +121,13 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

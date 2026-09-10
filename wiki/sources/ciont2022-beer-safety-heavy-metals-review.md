@@ -95,26 +95,26 @@ The review is a narrative review, not a systematic review or meta-analysis. The 
 
 The HACCP critical limit of 0.04 mg/L for heavy metals at the raw-materials reception CCP (Table 4, page 13) is reproduced as the review states it. The review does not cite the specific regulation, codex standard, or industry guideline underlying this figure and treats heavy metals and mycotoxins as sharing the same 0.04 mg/L critical limit; this should be treated as a review-level claim rather than a regulatory baseline pending confirmation against the cited references [21, 68, 72, 89] grouped at that table row.
 
-The `metals:` frontmatter list includes Cu, Mn, and Zn because the review reports concentration values for them (Eticha and Hymete data) even though those three are outside the HMTc 10-analyte certification list. Aluminium and tin are included as HMTc analytes with qualitative-only coverage in the source; iAs, tAs, MeHg, tHg, Ni, and Cr-VI are not discussed in the heavy-metals section and are therefore absent from the metals list.
+The `metals:` source metadata list includes Cu, Mn, and Zn because the review reports concentration values for them (Eticha and Hymete data) even though those three are outside the HMTc 10-analyte certification list. Aluminium and tin are included as HMTc analytes with qualitative-only coverage in the source; iAs, tAs, MeHg, tHg, Ni, and Cr-VI are not discussed in the heavy-metals section and are therefore absent from the metals list.
 
-The `ingredients:` frontmatter is empty: the review discusses barley, malt, hops, water, and adjuncts as beer ingredients, but none of these are present in the current ingredients taxonomy as primary HMI tracking targets. The `products:` frontmatter uses [[products/fermented-beverages-non-tea-based]] as the closest existing umbrella; no beer-specific product page exists in the current taxonomy.
+The `ingredients:` source metadata is empty: the review discusses barley, malt, hops, water, and adjuncts as beer ingredients, but none of these are present in the current ingredients taxonomy as primary HMI tracking targets. The `products:` source metadata uses [[products/fermented-beverages-non-tea-based]] as the closest existing umbrella; no beer-specific product page exists in the current taxonomy.
 
 The jurisdictions list includes GLOBAL because the review draws on European, Asian, African, and South American primary sources, and ET (Ethiopia) because the only primary quantitative heavy-metals dataset cited (Eticha and Hymete 2014) is from Ethiopia.
 
 The source PDF has an internal citation-numbering inconsistency in its heavy-metals section: the in-text citation numbers in the body do not match the slot numbers in the reference list for at least two papers in Section 4.2. Page 11 cites Blanco's 2010 aluminium-in-beer paper as "[73]" in the body, but reference-list slot [73] is Soares and Soares 2012 ("Bioremediation of industrial effluents containing heavy metals using brewing cells of Saccharomyces cerevisiae as a green technology"); the Blanco paper is at slot [79]. Page 12 cites Han's 2006 Cu/Pb biosorption paper as "[80]" in the body, but reference-list slot [80] is Redan et al. 2019 ("Factors affecting transfer of the heavy metals arsenic, lead, and cadmium from diatomaceous-earth filter aids to alcoholic beverages during laboratory-scale filtration"); the Han paper is at slot [86]. This page resolves the ambiguity by using the reference-list slot numbers throughout (Blanco=[79], Han=[86]), because those are the numbers that correctly resolve to the cited papers; the body-text numbers are noted parenthetically where each paper first appears so a later reader who is comparing this wiki page to the PDF body text can find the alignment without losing time to the PDF's own bookkeeping defect. The Eticha and Hymete reference is at slot [72] in both the body text and the reference list, so that citation is unambiguous.
 
-Audit subagent (2026-06-06) raised both reference-number mismatches as ⚠️ concerns; both verified against the source PDF reference list (pages 16–19) and applied as a citation-bookkeeping correction with this verification note.
+Audit editorial review (2026-06-06) raised both reference-number mismatches as ⚠️ concerns; both verified against the source PDF reference list (pages 16–19) and applied as a citation-bookkeeping correction with this verification note.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

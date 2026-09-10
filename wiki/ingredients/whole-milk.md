@@ -28,12 +28,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-16
   tAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::1::arsenic-total","role":"value","food_id":"1","food_name":"Milk, whole, fluid","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -70,12 +73,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-16
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::1::uranium","role":"value","food_id":"1","food_name":"Milk, whole, fluid","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -105,13 +111,13 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Pb | n=5 | 1–20 | medium | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/chen2020-milk-types-elements-china\|2]], [[sources/davidov2019-cow-milk-heavy-metals\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|4]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|5]] |
 | Cd | n=5 | 0–2 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/chen2020-milk-types-elements-china\|2]], [[sources/davidov2019-cow-milk-heavy-metals\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|4]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|5]] |
 | iAs | data gap | — | — | — |
-| tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=4 | 0–1 | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|4]] |
 | Ni | n=3 | 0–120 | low | [[sources/davidov2019-cow-milk-heavy-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 0–20 | low | [[sources/davidov2019-cow-milk-heavy-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]] |
+| U | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Synthesis basis and censoring treatment
 
@@ -132,22 +138,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 1, "Milk, whole, fluid." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Milk, whole, fluid" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 0 | 0 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 0 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 1: Milk, whole, fluid | tAs | 27 | 0 | ND in all composites | 1 |
+| 1: Milk, whole, fluid | Cd | 27 | 0 | ND in all composites | 1 |
+| 1: Milk, whole, fluid | Cr | 27 | 0 | ND in all composites | 25 |
+| 1: Milk, whole, fluid | Pb | 27 | 0 | ND in all composites | 1 |
+| 1: Milk, whole, fluid | tHg | 27 | 0 | ND in all composites | 1 |
+| 1: Milk, whole, fluid | Ni | 27 | 0 | ND in all composites | 20 |
+| 1: Milk, whole, fluid | U | 27 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -192,13 +195,25 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The European Union sets a maximum level for Pb in raw milk, heat-treated milk, and milk-based products of 0.020 mg/kg (20 ppb) under [[regulations/eu2023-contaminants-maximum-levels]]. No EU maximum level is set for Cd in fluid milk because Cd transfer to milk from contaminated feed is very low. No maximum level for Hg in milk is promulgated under current EU contaminant regulations. In the US, no FDA action level for Pb, Cd, or Hg in fluid cow milk is currently enforced under the [[regulations/fda-closer-to-zero]] programme, which focuses on processed infant foods and baby foods rather than raw milk constituents. [[regulations/codex-cadmium-mls]] includes provisions for Pb in milk at 0.020 mg/kg, consistent with the EU limit.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tAs.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/marques2021-trace-elements-milks-plant-based-drinks]].
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks]]<span class="hmi-ref-meta">Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. · Biological Trace Element Research · 2021 · [doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/starska2011-noxious-elements-milk-products-poland|Noxious Elements in Milk and Milk Products in Poland]]<span class="hmi-ref-meta">Starska K, Wojciechowska-Mazurek M, Mania M, Brulinska-Ostrowska E, Biernat U, and Karlowski K · Polish Journal of Environmental Studies · 2011</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/chen2020-milk-types-elements-china|Analysis of 17 elements in cow, goat, buffalo, yak, and camel milk by inductively coupled plasma mass spectrometry (ICP-MS)]]<span class="hmi-ref-meta">Chen L, Li X, Li Z, and Deng L · RSC Advances · 2020 · [doi.org/10.1039/d0ra00390e](https://doi.org/10.1039/d0ra00390e)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -229,13 +244,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [7fe044a3d](https://github.com/paleofoundation/heavymetalindex/commit/7fe044a3d) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 6 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 5 sources added; narrative text revised |
+| [7fe044a3de](https://github.com/paleofoundation/heavymetalindex/commit/7fe044a3de) | 2026-08-09 | correction | 5 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

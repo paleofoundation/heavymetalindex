@@ -56,27 +56,27 @@ Narrative review (received 2019, published 2020). The authors survey the arsenic
 
 ## Verification notes
 
-- raw_handle MFK_luvonga2020 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/acs.jafc.9b04525 confirmed on the article header.
+- raw_handle MFK_luvonga2020 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/acs.jafc.9b04525 confirmed on the article header.
 - Evidence tier B, source_type review: an analytical-methods review (secondary). Per Part 13, recorded as context/leads. sample_n null (no primary samples); no poolable occurrence data.
 - Read coverage: introduction/toxicity-and-regulatory framing, sample-handling, extraction, cleanup, and separation sections were read in full, plus the full reference list (which confirms a methods-only scope with no occurrence-data tables); the detection/characterization sections (ICP-MS/HG-AFS; XANES/MS) are summarised from the review's Figure 1 pipeline and abstract. No occurrence/contamination concentration tables exist in this review.
-- Speciation: the review's whole subject is arsenic speciation; tAs and iAs are the index-relevant analytes lifted to frontmatter. Organoarsenical classes (arsenosugars, AsHCs, AsFAs, AsB, DMA, MMA) are discussed but not lifted (not HMI analyte-vocabulary tokens, and not contamination measurements here).
+- Speciation: the review's whole subject is arsenic speciation; tAs and iAs are the index-relevant analytes lifted to source metadata. Organoarsenical classes (arsenosugars, AsHCs, AsFAs, AsB, DMA, MMA) are discussed but not lifted (not HMI analyte-vocabulary tokens, and not contamination measurements here).
 - Units/basis: the few cited values (e.g., arsenosugars ~10–40 µg/g dry weight) are reproduced as the review states them and attributed as cited literature, not measurements.
 - jurisdictions [US]: a global methods review, but US-authored (NIST); US recorded as the institutional lens (and to avoid the empty-jurisdictions routing advisory). The methodology is not jurisdiction-bound; no occurrence geography applies.
 - Brand firewall: not engaged. Instrument/technique vendor names are scientific-method reporting (Exception 2); no food brands.
 - matrices [edible-seaweed, macroalgae, dry-weight] and products [seaweed-kelp-foods]: the review spans all edible marine species (fish, shellfish, seaweed), but is ingested here for its seaweed relevance and routed to the seaweed row; fish/shellfish method relevance noted in body. `kelp` matrix token omitted because the review reports no kelp-specific occurrence data (it mentions kelp only as method examples — e.g., NIST SRM 3232 kelp powder, ribbon-kelp extraction); routing via the `seaweed-kelp-foods` product slug is sufficient.
-- Audit subagent (2026-06-08, fresh-context) returned REVISE; all concentration values, units, the analytical pipeline, speciation discipline (tAs/iAs lifted; organoarsenicals not mislabeled), and both firewalls verified clean. Two attribution ⚠️ applied: the page had labeled DMA "IARC group 2B" and iAs "IARC Group 1," but this source says "tumour promotor" and "Class A carcinogen" (US EPA) respectively and assigns no IARC group numbers — reworded to the source's actual wording (the IARC classifications are externally true but not stated by this source). Kelp verification note also tightened (the review does mention kelp in method examples).
+- Audit editorial review (2026-06-08, fresh-context) returned REVISE; all concentration values, units, the analytical pipeline, speciation discipline (tAs/iAs lifted; organoarsenicals not mislabeled), and both firewalls verified clean. Two attribution ⚠️ applied: the page had labeled DMA "IARC group 2B" and iAs "IARC Group 1," but this source says "tumour promotor" and "Class A carcinogen" (US EPA) respectively and assigns no IARC group numbers — reworded to the source's actual wording (the IARC classifications are externally true but not stated by this source). Kelp verification note also tightened (the review does mention kelp in method examples).
 - Cross-source note: this review cites many primary speciation studies, some held in this folder (e.g., Llorente-Mirandes, Narukawa); cross-source reconciliation belongs to the Part 9 synthesis pass.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

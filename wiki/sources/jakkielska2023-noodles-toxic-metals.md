@@ -66,23 +66,23 @@ This source contributes occurrence data for processed non-rice grain pasta/noodl
 - DOI verified from the title page as `10.2478/aucft-2023-0008`; DOI, raw handle `MFK_10-2478-aucft-2023-0008`, and cite-key checks found no existing source page before creation.
 - All concentration means, ranges, ADI, THQ, HI, CR, and LOD values above were checked against the extracted title-page abstract, Results text, methods LOD sentence, and Table 2.
 - Units are preserved as reported (`μg·kg-1`, `μg·kg-1 bw·day-1`, `µg·L-1`); no ppb/ppm conversion was performed.
-- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per, `iAs` was removed from the frontmatter `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
-- Frontmatter slug check (2026-06-09 autonomous audit): GPT-style audit flagged `[[ingredients/non-rice-grains]]` as off-vocabulary. Verified false positive — the slug appears in `docs/gpt-collaboration/taxonomy-snapshot.md` ingredients list and `wiki/ingredients/non-rice-grains.md` exists. No change applied.
+- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per, `iAs` was removed from the source metadata `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
+- source metadata slug check (2026-06-09 autonomous audit): GPT-style audit flagged `[[ingredients/non-rice-grains]]` as off-vocabulary. Verified false positive — the slug appears in the editorial record ingredients list and the linked reference record exists. No change applied.
 - ADI unit correction (2026-06-09 autonomous audit): the source defines ADIHMs in `μg·kg-1 bw·day-1` (body-weight normalized); earlier draft dropped the `bw` qualifier. Corrected in Key numbers and verification-notes unit list.
 - Brand firewall: the source's sample-characterization table names commercial pasta products. This page reports only aggregated product-form descriptors and does not attach brand names to contamination values.
 - The source text has an internal tension between a prose sentence listing ADI values near the Table 2 maxima and Table 2's mean ADI row. This page uses the table-labeled mean and min-max values and notes the table source.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

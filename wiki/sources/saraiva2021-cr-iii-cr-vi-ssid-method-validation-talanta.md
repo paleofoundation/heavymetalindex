@@ -115,8 +115,7 @@ Detection: ICP-MS iCAP Q (ThermoFisher Scientific, Courtaboeuf, France) with PFA
 
 **Microbiome.** No direct microbiome endpoint measured. Cr(III) at the levels reported (2–5 µg/kg) is below the dose range where gut-axis modulation has been reported, so this paper does not contribute to a microbiome synthesis.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
 - [[ingredients/semi-skimmed-milk]]
@@ -128,23 +127,23 @@ Detection: ICP-MS iCAP Q (ThermoFisher Scientific, Courtaboeuf, France) with PFA
 
 ## Verification notes
 
-- Cite-key disambiguation: this is the **Talanta 222 (2021) 121538** paper — the methodological foundation paper. Two other Saraiva 2021 first-author papers exist in `wiki/sources/` (see `near_duplicates`): the *Food Additives & Contaminants Part A* paper (DOI 10.1080/19440049.2020.1859144; raw/cooked milk and meat, n=30) and the *Journal of Food Composition and Analysis* paper (DOI 10.1016/j.jfca.2021.103991; bread and breakfast cereals). All three share authorship and methodological core; the Talanta paper is the method paper, the other two are applications.
+- Cite-key disambiguation: this is the **Talanta 222 (2021) 121538** paper — the methodological foundation paper. Two other Saraiva 2021 first-author papers exist in the linked reference record (see `near_duplicates`): the *Food Additives & Contaminants Part A* paper (DOI 10.1080/19440049.2020.1859144; raw/cooked milk and meat, n=30) and the *Journal of Food Composition and Analysis* paper (DOI 10.1016/j.jfca.2021.103991; bread and breakfast cereals). All three share authorship and methodological core; the Talanta paper is the method paper, the other two are applications.
 - Baby-milk sample format: the methods describe "baby milk (500 mL)" purchased in retail shops in France with no further format specification (powder vs RTF). In French/European retail context, "baby milk" sold by the litre is typically a follow-on or infant formula RTF liquid; routing to `products/infant-formula-rtf-liquid-non-soy` reflects this best-fit reading. The companion F&CT 2021 application paper resolves any ambiguity (Cr(VI) <LOQ in n=10 infant formula milk samples) on the same product slug.
 - Sample size: this paper analyses one composite per food matrix, with replicate counts of n=2 for Cr(Tot) and n=5 for speciation. `sample_n` is set to 3 (the count of distinct matrices); per-replicate counts are documented inside `sample_population` and in the Key numbers tables.
 - Speciation labels: `metals: [Cr, Cr-VI]` per Part 14 abbreviation rules (Cr-III and Cr-total are not separate slugs; Cr covers both Cr(III) and total).
 - Steak beef and semi-skimmed milk: these are not infant-and-child-foods product categories and therefore have no HMTc product slug. Routing for these matrices is by ingredient (`semi-skimmed-milk`, `beef`) and matrix only. The Cr(VI) <LOQ findings in these matrices still support the wiki's chromium page, but they do not populate any HMTc product page.
-- Audit 2026-05-18 (fresh-context subagent): three ⚠️ findings applied. (1) Table 3 standard-solution row had unit-column header conflict (paper's footnote c flags µg/L for the standard solution row vs µg/kg for food-matrix rows); table now uses a unit-per-row format with explanatory note. (2) `matrices:` updated from `[baby-milk, semi-skimmed-milk, beef]` to `[infant-formula, semi-skimmed-milk, beef-muscle]` to align with established matrix-vocabulary precedent in the corpus. (3) Implications/Certification paragraph reworded to attribute the "prior detections are artefact" framing to the paper's introduction citing Milačič and Ščančar 2020, rather than asserting a synthesis claim about prior-literature re-evaluation. No QUARANTINE findings; no numerical or brand-firewall issues.
+- Audit 2026-05-18 (fresh-context editorial review): three ⚠️ findings applied. (1) Table 3 standard-solution row had unit-column header conflict (paper's footnote c flags µg/L for the standard solution row vs µg/kg for food-matrix rows); table now uses a unit-per-row format with explanatory note. (2) `matrices:` updated from `[baby-milk, semi-skimmed-milk, beef]` to `[infant-formula, semi-skimmed-milk, beef-muscle]` to align with established matrix-vocabulary precedent in the corpus. (3) Implications/Certification paragraph reworded to attribute the "prior detections are artefact" framing to the paper's introduction citing Milačič and Ščančar 2020, rather than asserting a synthesis claim about prior-literature re-evaluation. No QUARANTINE findings; no numerical or brand-firewall issues.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

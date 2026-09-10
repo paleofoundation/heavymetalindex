@@ -172,7 +172,7 @@ Quality control used the following certified reference materials: DORM-2, DORM-4
 
 ## Verification notes
 
-**Enhancement 2026-05-18 (Claude Code, manual-fetch ingest):** The previously committed page (2026-05-14) had multiple defects fixed here:
+**Enhancement 2026-05-18 (automated editorial review, manual-fetch ingest):** The previously committed page (2026-05-14) had multiple defects fixed here:
 
 - Wrong title — the previous version's title ("Heavy metals, trace elements, and nutrients in traditional Inuit country foods…") does not match the paper. The actual title is "Improving nutritional intakes and reducing metal(loid) exposures from wild fish broth among Inuit pregnant women".
 - Wrong authors — the previous version listed Dallaire R, Bherer L, Dewailly E, Ayotte P among the authors; the actual authors are Tania Groleau, Mélanie Lemire, Dominic E. Ponton, and Marc Amyot.
@@ -184,10 +184,10 @@ Quality control used the following certified reference materials: DORM-2, DORM-4
 - Lucky Iron Fish (LIF) is named once in Methods because the device is the explicit subject of one of the four experiments in the paper and the finding cannot be discussed coherently without the identifier. Per Part 12 strict reading this is a borderline case; the device is a social-enterprise public-health product evaluated against its own marketing claim, not a consumer-product brand under contamination ranking. Flagging for audit.
 - Legacy headings — replaced `## Wiki pages updated on ingest` (legacy) with a verification-notes section per current schema.
 - `bivalve-molluscs` added to ingredients (paper substantively measures mussels and clams).
-- `Ca`, `Mg`, `Zn` added to metals frontmatter (paper measures these alongside the heavy-metal panel as nutrient elements; consistent with the existing inclusion of `Fe`, `K`, `Se`).
+- `Ca`, `Mg`, `Zn` added to metals source metadata (paper measures these alongside the heavy-metal panel as nutrient elements; consistent with the existing inclusion of `Fe`, `K`, `Se`).
 - `access_url` added (CC BY 4.0 open access via DOI).
 
-**Audit application 2026-05-18 (fresh-context subagent, verdict REVISE):**
+**Audit application 2026-05-18 (fresh-context editorial review, verdict REVISE):**
 
 Findings applied:
 - Lake trout cheek/tongue/brain THg attribution corrected. Previous version had "Lake trout brain: 0.03–0.3 µg/g ww"; PDF p. 8 attributes 0.03–0.3 to Arctic char cheeks, not lake trout brain. Lake trout tongue and brain are reported only as a combined range (0.154 to 0.640 µg/g ww). Arctic char tongue/brain reported separately as <0.002 µg/g ww.
@@ -196,20 +196,20 @@ Findings applied:
 
 Findings rejected (false positives):
 - Audit flagged "Cd in broths: all below the potable-water RMRV of 7 µg/L" as a missing exception. Verified against PDF p. 8: the source reads "THg (1 µg/L, except one lake trout broth), Cd (7 µg/L), and Pb (5 µg/L, except a few lake trout broths)." The "except one lake trout broth" parenthetical applies to THg, not Cd; Cd is parenthesized alone with no exception. Wiki claim is correct as written.
-- Audit flagged the Arctic char broth row of Table 1 as having mismatched values (Ca, Fe, Zn). Verified against PDF p. 6 Table 1 directly: Arctic char Broth (NF), n=4: K 26 ± 5, Ca 12.0 ± 1.9, Mg 14.5 ± 0.8, Fe 4.4 ± 2.0, Zn 3.2 ± 2.0, Se 94 ± 20. Wiki matches exactly. The audit subagent appears to have parsed the table with a one-column offset.
-- Audit flagged `drinking-water` as a non-snapshot matrices slug. Verified against `docs/gpt-collaboration/system-prompt.md` matrices vocabulary list: "drinking-water" is in the controlled vocab.
+- Audit flagged the Arctic char broth row of Table 1 as having mismatched values (Ca, Fe, Zn). Verified against PDF p. 6 Table 1 directly: Arctic char Broth (NF), n=4: K 26 ± 5, Ca 12.0 ± 1.9, Mg 14.5 ± 0.8, Fe 4.4 ± 2.0, Zn 3.2 ± 2.0, Se 94 ± 20. Wiki matches exactly. The audit editorial review appears to have parsed the table with a one-column offset.
+- Audit flagged `drinking-water` as a non-snapshot matrices slug. Verified against the editorial record matrices vocabulary list: "drinking-water" is in the controlled vocab.
 - Audit deferred the Lucky Iron Fish naming as a borderline Part 12 call. Decision retained: the device is the explicit subject of one of the four experiments in the paper and is being evaluated against its own marketing claim (not ranked against competitors for contamination). Without naming it, the finding cannot be traced to the cited Armstrong 2016 and Charles 2012 references. The Part 12 spirit (no brand-ranking-by-contamination) is preserved because the value attached is *non-contamination* (sub-marketed iron release). Karen-level policy override welcome.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

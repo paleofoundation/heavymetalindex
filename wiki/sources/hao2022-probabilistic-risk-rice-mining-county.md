@@ -71,26 +71,26 @@ This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, 
 
 ## Verification notes
 
-- This was a DOI duplicate of an existing source page, so the page was merge-enhanced from the manual-fetch PDF at `raw/Manual Fetch Kimi /June 8 New Folder With Items 3 2/Probabilistic-health-risk-assessment-of-inorganic-arsenic-and-some-heavy-metals-in-rice-produced.pdf`; the MFK handle was added to `near_duplicates`.
+- This was a DOI duplicate of an existing source page, so the page was merge-enhanced from the manual-fetch PDF at the archived source file; the MFK handle was added to `near_duplicates`.
 - PDF text extracted with `pdftotext -layout`; the extracted text contained the title, DOI, methods, Table 1, Table 2, Table 4, discussion, and conclusions.
 - DOI verified from the PDF as `10.1007/s11356-021-16583-7`; DOI grep found this existing page before enhancement.
 - Table 2 values were checked against the extracted text. Units are preserved as `mg·kg−1`; the previous page's ppb/µg/kg conversions were removed.
 - Speciation: arsenic is reported as both tAs and iAs, which are kept separate. Mercury is total Hg only; no methylmercury value is reported. Chromium is total Cr only; no Cr-VI value is reported.
 - Soil and mining-area information is source-attribution context. Only rice concentration values were routed as product occurrence evidence.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 - Autonomous audit 2026-06-09: removed `mining-area-rice` from `matrices` because it is a study-context descriptor, not a standard matrix slug; mining-area provenance is captured in the body and in this notes block.
 - Autonomous audit 2026-06-09 flagged Adult HI P95 as 5.51 (per narrative on p.11515) vs the wiki's 5.50 (per Table 4 on p.11517); verified against PDF — Table 4 reports 5.50 and Table 4 is the canonical tabular source. The narrative line ("5.51 for adults and ... 6.16 for children") is internally inconsistent with the table (6.21 for children), so the wiki tracks Table 4 throughout. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [598ebf521](https://github.com/paleofoundation/heavymetalindex/commit/598ebf521) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [598ebf5211](https://github.com/paleofoundation/heavymetalindex/commit/598ebf5211) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

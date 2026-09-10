@@ -21,12 +21,15 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FI 0326\",\"Avocado\",\"iAs\",\"EURO\",\"\",\"as_consumed\",\"2019\",\"2019\"]","role":"context","food_id":"FI 0326","food_name":"Avocado","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"EURO","year_min":2019,"year_max":2019,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":2,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"FI 0326\",\"Avocado\",\"iAs\",\"WPRO\",\"Raw\",\"as_is\",\"2022\",\"2022\"]","role":"context","food_id":"FI 0326","food_name":"Avocado","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"WPRO","year_min":2022,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":1,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"}]
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
     status: populated
     typical_ppb: [0, 25.6]
@@ -70,12 +73,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-16
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::97::uranium","role":"value","food_id":"97","food_name":"Avocado, raw","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -106,14 +112,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=3 | 0–12 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|3]] |
 | Cd | n=3 | 2.9–18 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=3 | 0–25.6 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | tHg | n=3 | 0–0.4 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=3 | 105.2–374 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|2]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| U | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Synthesis basis and censoring treatment
 
@@ -134,22 +140,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 97, "Avocado, raw." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Avocado, raw" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 2.1 | 59 | in profile |
-| Cr | 27 | 0 | 0 | in profile |
-| Ni | 27 | 66 | 580 | in profile |
-| Pb | 27 | 0 | 12 | in profile |
-| U | 27 | 0 | 0 | in profile |
-| tAs | 27 | 0 | 50 | in profile |
-| tHg | 27 | 0 | 1.3 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 97: Avocado, raw | tAs | 27 | 6 | 3.6–50 | 3 |
+| 97: Avocado, raw | Cd | 27 | 27 | 2.1–59 | 1 |
+| 97: Avocado, raw | Cr | 27 | 0 | ND in all composites | 50 |
+| 97: Avocado, raw | Pb | 27 | 1 | 12 | 4 |
+| 97: Avocado, raw | tHg | 27 | 3 | 1–1.3 | 1 |
+| 97: Avocado, raw | Ni | 27 | 27 | 66–580 | 40 |
+| 97: Avocado, raw | U | 27 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -194,15 +197,35 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 In the European Union, Regulation (EU) 2023/915 applies the fresh fruit maximum levels to avocado: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), both wet weight as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML for Ni in fresh avocado exists; Ni is not currently regulated by ML in EU food contaminant legislation for this matrix. In the United States, no FDA action level for Pb, Cd, or Ni in fresh or processed avocado exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). No Codex Alimentarius ML for heavy metals in avocado appears in the current corpus. For processed avocado products in infant food pouches, the applicable limits would derive from the product category, and the FDA Closer to Zero action levels for processed foods consumed by babies and young children may apply when finalized; those action levels are evolving and should be checked against the [[regulations/fda-closer-to-zero]] page for current status.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+WHO GEMS/Food retains the following distinct records. The ranges are source-scope lower-bound P10–P90 summaries; they are not a pooled typical value for this ingredient. Food-group records remain broader context. Differences in basis, period and geography are preserved. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Food / state | Region | Years | Basis | Records | Source LB P10–P90 (ppb) |
+| --- | --- | --- | --- | ---: | --- |
+| Avocado / not specified | EURO | 2019–2019 | as_consumed | 2 | 0–0 |
+| Avocado / Raw | WPRO | 2022–2022 | as_is | 1 | 0–0 |
+
+Recovered WHO summaries alone do not resolve incompatible basis labels or establish that zero-coded results were measured zeros.
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf|Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF]]<span class="hmi-ref-meta">Anastario M, Watkins D, Specht AJ, Zilch A, Armendáriz Arnez C, and Roper C · BMC Research Notes · 2025 · [doi.org/10.1186/s13104-025-07430-w](https://doi.org/10.1186/s13104-025-07430-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/yoplac2026-peruvian-avocado-metals-health-risk|Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach]]<span class="hmi-ref-meta">Yoplac-Navarro M, Grandez-Yoplac DE, Rituay P, Campos Trigoso JA, García L, Arellanos E, et al. · Foods 15(1): 82 · 2026 · [doi.org/10.3390/foods15010082](https://doi.org/10.3390/foods15010082)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -223,13 +246,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [10bb2e5ec](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ec) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 2 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 2 sources added; narrative text revised |
+| [10bb2e5ecb](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ecb) | 2026-08-09 | correction | 3 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

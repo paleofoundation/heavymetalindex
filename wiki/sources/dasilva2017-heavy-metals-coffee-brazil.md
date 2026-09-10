@@ -122,7 +122,7 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - Fresh auto-fetch ingest 2026-05-19 from the gap-driven coffee-Cd wishlist PDF.
-- Merge-enhance 2026-05-20 against the source PDF in `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of heavy metals in the roasted and ground coffee beans and brew.pdf`. The prior revision was missing the Mn cross-matrix Pearson correlation (r=0.744) flagged as significant in Table 4, the paper's four-cup-per-day exposure estimates (Mn, Zn, Cr, Cd, Pb percent of upper-limit), and the detection-frequency caveats explaining Table 2 Cu min=max and the Pb/Ni infusion descriptive statistics. The pending-audit-spawn-failed row in `data/evidence/audit-queue.csv` was the trigger for this pass. The audit ran successfully under v2 of the manual-fetch skill after this enhancement.
+- Merge-enhance 2026-05-20 against the source PDF in the archived source file. The prior revision was missing the Mn cross-matrix Pearson correlation (r=0.744) flagged as significant in Table 4, the paper's four-cup-per-day exposure estimates (Mn, Zn, Cr, Cd, Pb percent of upper-limit), and the detection-frequency caveats explaining Table 2 Cu min=max and the Pb/Ni infusion descriptive statistics. The pending-audit-spawn-failed row in the structured evidence record was the trigger for this pass. The audit ran successfully under v2 of the manual-fetch skill after this enhancement.
 - Table 1 and Table 2 are preserved as printed. Table 1 Cd mean is below the printed detected minimum because the paper also states Cd was detected in only 10 of 50 samples (60% non-detect treated as zero in the descriptive statistics). Table 2 Zn median (0.1025 mg/50 mL) appears anomalously high relative to the printed mean (0.0131 mg/50 mL) but lies below the printed maximum (0.1292 mg/50 mL); the value is preserved as printed; the paper's body text does not separately discuss Zn infusion median, so the layout-vs-typo question cannot be resolved from the published text alone.
 - Strict brand firewall: the paper reports municipalities and anonymized sample handling only; no commercial coffee brands are named in this source page.
 - Methods vendor/equipment names (Varian, ROD-bel, Probat Leogap, Tecnal) are retained under Part 12 Exception 2.
@@ -130,13 +130,13 @@ Microbiome: Not addressed.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

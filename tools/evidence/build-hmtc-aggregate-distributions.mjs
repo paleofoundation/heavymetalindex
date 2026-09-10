@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// HISTORICAL METHOD: retired for live limit-setting on 2026-09-09.
+// Outputs support descriptive occurrence analysis and historical reproducibility only.
+// Live limits come from the government-floor method in CLAUDE.md Part 19.
 /**
  * HMTc pooling engine.
  *
@@ -1237,6 +1240,8 @@ function main() {
     sensitivity_band_distribution: countBy(outputRows, (r) => r.sens_band),
     pool_starvation: starvation.summary,
     methodology: {
+      status: "retired-for-live-limit-setting",
+      purpose: "descriptive occurrence and historical reproducibility only; live method is government-floor lookup",
       clean_target: "P97 of pooled clean-subcategory distribution",
       dirty_target: "P45 of pooled dirty-subcategory distribution",
       uplift_rationale:

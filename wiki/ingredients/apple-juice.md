@@ -21,12 +21,15 @@ contamination_profile:
     n_studies: 4
     last_reviewed: 2026-08-09
   iAs:
-    status: populated
-    typical_ppb: [0, 3.6]
-    p95_ppb: 5.5
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: []
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
     status: populated
     typical_ppb: [1.4, 4]
@@ -70,12 +73,15 @@ contamination_profile:
     n_studies: 4
     last_reviewed: 2026-05-16
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::99::uranium","role":"value","food_id":"99","food_name":"Juice, apple, bottled","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"},{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::230::uranium","role":"value","food_id":"230","food_name":"BF, juice, apple","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":8,"non_detect_n":8,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -83,7 +89,7 @@ used_in_products: [fruit-juice-not-canned]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 19
+sources: 20
 ---
 
 # Apple juice
@@ -106,14 +112,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=4 | 0.3–2.5 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
 | Cd | n=4 | 0–1.6 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/paula2015-fruit-juices-elements-portugal\|3]], [[sources/desouza2022-fruit-juice-trace-elements\|4]] |
-| iAs | n=4 | 0–3.6 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=5 | 1.4–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
 | tHg | n=1 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 0–16 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
 | Al | n=1 | 0–2560 | low | — |
 | Cr | n=5 | 0–19 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]], [[sources/paula2015-fruit-juices-elements-portugal\|4]], [[sources/desouza2022-fruit-juice-trace-elements\|5]] |
 | Sn | n=4 | 0–8.9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
-| U | n=2 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
+| U | n=1 dataset; composites=11 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Synthesis basis and censoring treatment
 
@@ -134,22 +140,26 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 99, "Juice, apple, bottled." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Juice, apple, bottled" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 0 | 0 | in profile |
-| Cr | 3 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 20 | in profile |
-| Pb | 3 | 0 | 2.7 | in profile |
-| U | 3 | 0 | 0 | in profile |
-| tAs | 3 | 1.1 | 4.4 | in profile |
-| tHg | 3 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 99: Juice, apple, bottled | tAs | 3 | 3 | 1.1–4.4 | 1 |
+| 99: Juice, apple, bottled | Cd | 3 | 0 | ND in all composites | 1 |
+| 99: Juice, apple, bottled | Cr | 3 | 0 | ND in all composites | 25 |
+| 99: Juice, apple, bottled | Pb | 3 | 2 | 1.5–2.7 | 1 |
+| 99: Juice, apple, bottled | tHg | 3 | 0 | ND in all composites | 1 |
+| 99: Juice, apple, bottled | Ni | 3 | 1 | 20 | 20 |
+| 99: Juice, apple, bottled | U | 3 | 0 | ND in all composites | 1 |
+| 230: BF, juice, apple | tAs | 8 | 8 | 2.1–5.1 | 1 |
+| 230: BF, juice, apple | Cd | 8 | 0 | ND in all composites | 1 |
+| 230: BF, juice, apple | Cr | 8 | 0 | ND in all composites | 25 |
+| 230: BF, juice, apple | Pb | 8 | 5 | 1.3–2.7 | 1 |
+| 230: BF, juice, apple | tHg | 8 | 0 | ND in all composites | 1 |
+| 230: BF, juice, apple | Ni | 8 | 0 | ND in all composites | 20 |
+| 230: BF, juice, apple | U | 8 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -194,16 +204,30 @@ As noted under processing levers, non-metallic packaging eliminates the Sn conta
 
 The FDA has established a final action level of 10 ppb inorganic arsenic (iAs) for apple juice and apple cider, applicable to product as placed on the market (single-strength, ready-to-drink basis) ([[sources/fda2023-ias-apple-juice-guidance|FDA 2023]]). For lead in juice, the FDA's FY2005-FY2018 compliance program data ([[sources/fda2018-lead-in-juice-fy2005-fy2018|FDA 2018]]) underpin ongoing action level development under the Closer to Zero program; the current FDA guidance for juice Pb is the 50 ppb level referenced in the HACCP juice regulation ([[regulations/fda-juice-haccp-lead-50ppb]]), though this is expected to tighten under Closer to Zero. In the European Union, Regulation (EU) 2023/915 sets a Pb ML of 0.050 mg/kg (50 ppb) for fruit juices generally, with a stricter 0.020 mg/kg (20 ppb) ML for fruit juices intended for infants and young children ([[regulations/eu2023-contaminants-maximum-levels]]). The EU also sets a maximum for inorganic tin (Sn) in canned beverages at 100 mg/kg (100,000 ppb) for non-carbonated drinks and 150 mg/kg for carbonated drinks. No specific EU ML for Cd in fruit juice appears in the current corpus as a binding ML; Cd MLs in EU Regulation 2023/915 focus on solid food matrices. Codex Alimentarius maximum levels for contaminants in fruit juices are not yet extracted into the corpus.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/fda2023-ias-apple-juice-guidance]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda]].
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/magdas2012-romanian-apple-juice-isotopic-elemental]].
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/fda2011-arsenic-apple-juice-2005-2011|Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program]]<span class="hmi-ref-meta">US Food and Drug Administration · 2011 · [www.fda.gov](https://www.fda.gov/food/environmental-contaminants-food/arsenic-apple-juice-analytical-results-2005-2011-toxic-elements-food-and-foodware-program)</span><span class="hmi-ref-tag">Dataset</span>
 3. [[sources/tarigan2016-factors-tin-released-canned-beverages|Factors are Affecting Tin Released in Canned Beverages]]<span class="hmi-ref-meta">Rida Evalina Tarigan, Jansen Silalahi, and Muchlisyam · International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 · 2016 · [sphinxsai.com](https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/benoy1971-tin-toxicity-canned-fruit-juices|The Toxicity of Tin in Canned Fruit Juices and Solid Foods]]<span class="hmi-ref-meta">Christine J. Benoy, Patricia A. Hooper, and R. Schneider · Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 · 1971 · [doi.org/10.1016/0015-6264(71)90152-0](https://doi.org/10.1016/0015-6264(71)90152-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+5. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 6. [[sources/magdas2012-romanian-apple-juice-isotopic-elemental|Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices]]<span class="hmi-ref-meta">Magdas DA, Dehelean A, and Puscas R · The Scientific World Journal · 2012 · [doi.org/10.1100/2012/878242](https://doi.org/10.1100/2012/878242)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 7. [[sources/paula2015-fruit-juices-elements-portugal|Effects of Pre- and Post-Harvest Factors on the Selected Elements Contents in Fruit Juices]]<span class="hmi-ref-meta">Paula FJA, Guine RPF, Cruz-Lopes L, Duarte AC, Fragata AOS, and Reis MAL · Czech Journal of Food Sciences · 2015 · [doi.org/10.17221/531/2014-CJFS](https://doi.org/10.17221/531/2014-CJFS)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 8. [[sources/desouza2022-fruit-juice-trace-elements|Determination of the Trace Element Contents of Fruit Juice Samples by ICP OES and ICP-MS]]<span class="hmi-ref-meta">Max Jose Belo de Souza, Maria Carmen Barciela-Alonso, Manuel Aboal-Somoza, and Pilar Bermejo-Barrera · Brazilian Journal of Analytical Chemistry · 2022 · [doi.org/10.30744/brjac.2179-3425.AR-87-2021](https://doi.org/10.30744/brjac.2179-3425.AR-87-2021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -212,6 +236,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 11. [[sources/fda2018-lead-in-juice-fy2005-fy2018|Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA analytical results table · 2018</span><span class="hmi-ref-tag">Dataset</span>
 12. [[sources/fda2023-ias-apple-juice-guidance|Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry]]<span class="hmi-ref-meta">FDA CFSAN · U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition · 2023 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice)</span><span class="hmi-ref-tag">Guidance</span>
 13. [[sources/atsdr2005-tin-toxicological-profile|Toxicological Profile for Tin and Tin Compounds]]<span class="hmi-ref-meta">Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry · U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry · 2005 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf)</span><span class="hmi-ref-tag">Government</span>
+14. [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda|Quantitative Determination of Arsenic Species from Fruit Juices Using Acidic Extraction with HPLC-ICPMS]]<span class="hmi-ref-meta">Kubachka KM, Hanley T, Mantha M, Wilson RA, Falconer TM, Mounicou S, et al. · Food Analytical Methods · 2019 · [doi.org/10.1007/s12161-019-01636-y](https://doi.org/10.1007/s12161-019-01636-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -235,23 +260,24 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 12 | [[sources/paula2015-fruit-juices-elements-portugal\|Paula et al. 2015]]. *Effects of Pre- and Post-Harvest Factors on the Selected Elements Contents in Fruit Juices*, Czech Journal of Food Sciences | 2015 | Peer-reviewed | PT Cd, Cr, Pb, Ni, Zn, Fe occurrence in 62 packs of 100% fruit juices acquired randomly from major supermarkets in Portugal; samples covered multiple fruit species,... (n=62) |
 | 13 | [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|Zealand 2012]]. *Survey of total arsenic and inorganic arsenic in apple and pear juice*, Food Standards Australia New Zealand (FSANZ) targeted analytical survey, published February 2013 | 2012 | Government report | Government survey tAs and iAs distribution in 96 Australian and New Zealand apple juices including the 11.3 µg/kg iAs maximum |
 | 14 | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|Magdas et al. 2012]]. *Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices*, The Scientific World Journal | 2012 | Peer-reviewed | Pb, Cd, tAs, Ni, Cr, and U occurrence by region in 31 organic single-strength Romanian apple juices |
-| 15 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | FDA tAs sample-level dataset for 160 apple juice and concentrate samples FY2005-FY2011 with country-of-origin breakdown; underpins the FDA iAs action level rationale for this matrix |
-| 16 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid et al. 2010]]. *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*, Medical Journal of Islamic World Academy of Sciences | 2010 | Peer-reviewed | Total Cr and Ni concentrations in 42 commercial apple juice samples from Jeddah by GFAAS |
-| 17 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2005 | Government report | ATSDR comprehensive Sn toxicological profile; provides inorganic vs organotin species distinction, MRLs, and canned-juice occurrence context for apple juice Sn risk framing |
-| 18 | [[sources/schafer1984-tin-toxic-heavy-metal-review\|Schafer et al. 1984]]. *Tin — A Toxic Heavy Metal? A Review of the Literature*, Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69 | 1984 | Peer-reviewed | Foundational European literature review on inorganic vs organotin toxicology; establishes that inorganic Sn from canned food (including fruit juices) acts via gastrointestinal irritation rather than systemic accumulation |
-| 19 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Outbreak investigation linking a 1967 Kuwait gastrointestinal event to canned orange and apple juice at 250-385 ppm Sn; establishes the gastrointestinal NOAEL/LOAEL thresholds underpinning international canned-beverage Sn limits |
+| 15 | [[sources/fda2011-apple-juice-arsenic-speciation\|FDA 2011]]. *Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)*, U.S. Food and Drug Administration | 2011 | Government dataset | US-FDA iAs, tAs concentrations (n=94) |
+| 16 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | FDA tAs sample-level dataset for 160 apple juice and concentrate samples FY2005-FY2011 with country-of-origin breakdown; underpins the FDA iAs action level rationale for this matrix |
+| 17 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid et al. 2010]]. *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*, Medical Journal of Islamic World Academy of Sciences | 2010 | Peer-reviewed | Total Cr and Ni concentrations in 42 commercial apple juice samples from Jeddah by GFAAS |
+| 18 | [[sources/atsdr2005-tin-toxicological-profile\|Harper et al. 2005]]. *Toxicological Profile for Tin and Tin Compounds*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2005 | Government report | ATSDR comprehensive Sn toxicological profile; provides inorganic vs organotin species distinction, MRLs, and canned-juice occurrence context for apple juice Sn risk framing |
+| 19 | [[sources/schafer1984-tin-toxic-heavy-metal-review\|Schafer et al. 1984]]. *Tin — A Toxic Heavy Metal? A Review of the Literature*, Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69 | 1984 | Peer-reviewed | Foundational European literature review on inorganic vs organotin toxicology; establishes that inorganic Sn from canned food (including fruit juices) acts via gastrointestinal irritation rather than systemic accumulation |
+| 20 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | Outbreak investigation linking a 1967 Kuwait gastrointestinal event to canned orange and apple juice at 250-385 ppm Sn; establishes the gastrointestinal NOAEL/LOAEL thresholds underpinning international canned-beverage Sn limits |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [10bb2e5ec](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ec) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 7 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 5 sources added; narrative text revised |
+| [10bb2e5ecb](https://github.com/paleofoundation/heavymetalindex/commit/10bb2e5ecb) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

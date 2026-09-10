@@ -79,8 +79,7 @@ App: The source can support jurisdictional regulatory context for AU/NZ product 
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-rtf-liquid]]
@@ -91,16 +90,16 @@ Microbiome: No direct microbiome endpoint.
 
 ## Verification notes
 
-- Ingested from `raw/regulatory` on 2026-08-03.
+- Ingested from the archived source file on 2026-08-03.
 - Numeric values were checked against the PDF text twice during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [6abef4583](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583) | 2026-08-03 | major | 5 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
+| [6abef4583e](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583e) | 2026-08-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

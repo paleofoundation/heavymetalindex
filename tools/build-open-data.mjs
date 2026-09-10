@@ -53,6 +53,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import { execSync } from "node:child_process"
+import matter from "gray-matter"
+import { evidenceSources, profileEvidenceForExport, renderNonDetect } from "./evidence/lib/ingredient-profile-evidence.mjs"
+import { isPublicWikiRecord } from "./lib/source-publication.mjs"
 
 const repoRoot = process.cwd()
 const CHECK = process.argv.includes("--check")
@@ -65,7 +68,7 @@ const REGULATIONS_JSON = path.join(repoRoot, "wiki/static/regulations.json")
 const OUT_DIR = path.join(repoRoot, "wiki/static/data")
 
 const SITE = "https://heavymetalindex.com"
-const SCHEMA_VERSION = "1.0.0"
+const SCHEMA_VERSION = "1.1.0"
 const METALS = ["Pb", "Cd", "iAs", "tAs", "tHg", "Ni", "Al", "Cr", "Sn", "U"]
 
 const LICENSE = {
@@ -124,7 +127,8 @@ function parseIngredientTables() {
       const typical = cells[3] ?? ""
       const nMatch = coverage.match(/n\s*=\s*(\d+)/i)
       const typicalNums = (typical.match(/-?\d+(?:\.\d+)?/g) || []).map(Number)
-      table[analyte] = { n: nMatch ? Number(nMatch[1]) : null, typicalNums, coverage, typical }
+      const composites = coverage.match(/composites\s*=\s*(\d+)/i)
+      table[analyte] = { n: nMatch ? Number(nMatch[1]) : null, composites: composites ? Number(composites[1]) : null, typicalNums, coverage, typical }
     }
     map[slug] = { table, sources }
   }
@@ -160,6 +164,17 @@ function driftCheck(contamination, tables) {
       if (cell.n_studies != null && row.n != null && cell.n_studies !== row.n) {
         problems.push(`${rec.ingredient}/${metal}: n_studies JSON=${cell.n_studies} page=${row.n}`)
       }
+      if (cell.value_kind === "source_non_detect") {
+        const count = (cell.evidence || []).filter((e) => e.role === "value").reduce((n, e) => n + Number(e.n || 0), 0)
+        if (row.composites !== count) problems.push(`${rec.ingredient}/${metal}: composite count JSON=${count} page=${row.composites}`)
+        if (row.typical !== renderNonDetect(cell)) problems.push(`${rec.ingredient}/${metal}: non-detect reporting-limit display disagrees with exported evidence`)
+      }
+      if (cell.value_kind === "unquantified" && row.typical !== "Not quantified") problems.push(`${rec.ingredient}/${metal}: unquantified profile rendered as a numeric claim`)
+      if (cell.value_kind) {
+        const expected = evidenceSources(cell).sort()
+        const actual = [...new Set(parsed.sources[metal] || [])].sort()
+        if (JSON.stringify(expected) !== JSON.stringify(actual)) problems.push(`${rec.ingredient}/${metal}: source provenance JSON=${expected.join(",")} page=${actual.join(",")}`)
+      }
       // Every non-null typical endpoint must appear in the page's Typical cell.
       const endpoints = (Array.isArray(cell.typical_ppb) ? cell.typical_ppb : [cell.typical_ppb]).filter((v) => v != null)
       for (const v of endpoints) {
@@ -188,13 +203,14 @@ function buildOccurrence(contamination, tables) {
     const analytes = {}
     for (const [metal, cell] of Object.entries(rec.metals)) {
       analytes[metal] = {
+        ...profileEvidenceForExport(cell),
         status: cell.status ?? null,
         typical_ppb: cell.typical_ppb ?? null,
         p95_ppb: cell.p95_ppb ?? null,
         confidence: cell.confidence ?? null,
         n_studies: cell.n_studies ?? null,
         last_reviewed: cell.last_reviewed ?? null,
-        sources: parsedSources[metal] ? parsedSources[metal].map((k) => `sources/${k}`) : [],
+        sources: cell.value_kind ? evidenceSources(cell).map((k) => `sources/${k}`) : parsedSources[metal] ? parsedSources[metal].map((k) => `sources/${k}`) : [],
       }
     }
     return {
@@ -243,6 +259,10 @@ function occurrenceCsv(occurrence) {
     "last_reviewed",
     "sources",
     "page_url",
+    "value_kind",
+    "evidence_json",
+    "evidence_note",
+    "basis_conversion_json",
   ]
   const rows = [header]
   for (const rec of occurrence.records) {
@@ -264,6 +284,10 @@ function occurrenceCsv(occurrence) {
         cell.last_reviewed ?? "",
         (cell.sources || []).join("; "),
         rec.page_url,
+        cell.value_kind ?? "",
+        JSON.stringify(cell.evidence || []),
+        cell.evidence_note ?? "",
+        cell.basis_conversion ? JSON.stringify(cell.basis_conversion) : "",
       ])
     }
   }
@@ -279,8 +303,8 @@ function occurrenceCsv(occurrence) {
 // cert consumes this PUBLIC index (like any reader), and never reads Index private
 // data. It is literature-native (bibliographic locator + our public evidence tier),
 // carries no certification threshold, and only maps DOIs that resolve to a live,
-// non-draft /sources/<slug> page (RemoveDrafts is active, so the built set == the
-// non-draft set). The key is a bare, lowercased DOI (10.xxxx/yyyy); DOIs are
+// public /sources/<slug> page. Pending sources and drafts use the same exclusion
+// rule as the page build. The key is a bare, lowercased DOI (10.xxxx/yyyy); DOIs are
 // case-insensitive, so consumers must lowercase before lookup.
 function normalizeDoi(raw) {
   if (raw == null) return null
@@ -318,11 +342,11 @@ function buildSources() {
     const raw = fs.readFileSync(path.join(SOURCES_DIR, file), "utf8")
     const block = frontmatterBlock(raw)
     if (!block) continue
-    if (/^draft:[ \t]*true[ \t]*$/m.test(block)) continue // excluded from the public build
+    const slug = file.replace(/\.md$/, "")
+    if (!isPublicWikiRecord(matter(raw).data, `sources/${slug}`)) continue
     scanned++
     const doi = normalizeDoi(fmValue(block, "doi"))
     if (!doi) continue
-    const slug = file.replace(/\.md$/, "")
     const title = fmValue(block, "title") || slug
     const tier = fmValue(block, "evidence_tier") || null
     const yearRaw = fmValue(block, "year")
@@ -595,7 +619,7 @@ fs.writeFileSync(path.join(OUT_DIR, "catalog.json"), JSON.stringify(catalog, nul
 
 console.log(
   `build-open-data: wrote sources.{json,csv} — ${sourceStats.mapped} DOI→source mappings ` +
-    `from ${sourceStats.scanned} non-draft source page(s)` +
+    `from ${sourceStats.scanned} public source page(s)` +
     (sourceStats.collisions ? `, ${sourceStats.collisions} residual DOI collision(s) skipped (first wins)` : "") +
     ".",
 )

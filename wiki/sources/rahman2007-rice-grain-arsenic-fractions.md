@@ -67,7 +67,7 @@ App: The source adds a rice ingredient contamination-profile example for `tAs` o
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`. The extracted text was checked against the rendered PDF pages because Table 1 extracted cleanly but some later table bodies were not present in the text layer.
-- Identity checks before creation: DOI `10.1016/j.chemosphere.2007.05.044`, exact title phrase, raw handle `MFK_07-remediation-method`, raw SHA-256 `7fede1d0286d9029caf4deae1e0941e2719a4504a803ef9f839596725e646c0c`, and cite key `rahman2007-rice-grain-arsenic-fractions` were searched in `wiki/sources/` and evidence files. No existing source page was found; only intake/tracker metadata and unrelated log references appeared.
+- Identity checks before creation: DOI `10.1016/j.chemosphere.2007.05.044`, exact title phrase, raw handle `MFK_07-remediation-method`, raw SHA-256 `7fede1d0286d9029caf4deae1e0941e2719a4504a803ef9f839596725e646c0c`, and cite key `rahman2007-rice-grain-arsenic-fractions` were searched in the linked reference record and evidence files. No existing source page was found; only intake/tracker metadata and unrelated log references appeared.
 - DOI disambiguation: the manuscript reference list cites a related Rahman et al. Ecotoxicology and Environmental Safety article with DOI `10.1016/j.ecoenv.2007.01.005`; that is not the identity DOI for this raw PDF. The title of this PDF resolves to Chemosphere DOI `10.1016/j.chemosphere.2007.05.044`.
 - Units and basis are preserved as printed: rice and plant-tissue values use `mg kg-1 dry weight` or `mg of As kg-1 dry weight`; water uses `mg l-1`; tomato-leaf CRM values use `µg g-1`.
 - Speciation: the method is HG-AAS total arsenic after digestion. The page uses `tAs` and does not substitute inorganic arsenic (`iAs`).
@@ -78,13 +78,13 @@ App: The source adds a rice ingredient contamination-profile example for `tAs` o
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

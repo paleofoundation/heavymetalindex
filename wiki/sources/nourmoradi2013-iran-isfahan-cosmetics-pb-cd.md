@@ -125,7 +125,7 @@ Speciation: total Pb and total Cd only; no inorganic-vs-organic speciation step.
 
 ## Verification notes
 
-- 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1155/2013/962727` not present; `raw_handle: MFK_nourmoradi2013` not present; cite-key stem `nourmoradi2013` not present. PDF SHA-256 `13678df35fc79efef88745594462139957480606a7fbd6afb214e297df6bc55e`.
+- 2026-06-01 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against the linked reference record returned no hits: DOI `10.1155/2013/962727` not present; `raw_handle: MFK_nourmoradi2013` not present; cite-key stem `nourmoradi2013` not present. PDF SHA-256 `13678df35fc79efef88745594462139957480606a7fbd6afb214e297df6bc55e`.
 - `metals: [Pb, Cd]` uses total Pb and total Cd. The paper does not perform inorganic-vs-organic speciation and the matrix (cosmetic powder/wax/oil base) is not one where Pb or Cd speciation is conventionally distinguished; the bare `Pb` and `Cd` symbols are the correct entries per Part 14 speciation discipline.
 - `evidence_tier: B` rather than A: the paper is peer-reviewed (Hindawi *Journal of Environmental and Public Health*, Article ID 962727, with Academic Editor David O. Carpenter named) and uses a sound primary analytical method (GFAAS with stated 0.1 ppb LOD). Several methodological items are weaker than the A-tier bar: (a) no recovery from a certified reference material is reported; (b) no LOQ beyond the LOD is enumerated; (c) blank-correction and rinse-protocol detail is not stated; (d) the sample frame is small (n = 35 lipsticks, n = 15 eye shadows) from a single city; (e) per-color sample size is uneven (lipsticks have 5 colors × 7 brands = 35 covering all combinations; eye shadows have 3 colors × 5 brands = 15); (f) the paper carries internal data-integrity inconsistencies catalogued below.
 - `license: "CC BY"`: the article's copyright statement reads "Copyright © 2013 H. Nourmoradi et al. This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited." This is recorded as generic CC BY (Hindawi's 2013 OA articles do not always pin a specific CC BY version in the article footer).
@@ -149,13 +149,13 @@ Speciation: total Pb and total Cd only; no inorganic-vs-organic speciation step.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

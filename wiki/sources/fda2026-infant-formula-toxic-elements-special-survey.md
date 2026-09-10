@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+ingredients: ["infant-formula"]
 type: source
 raw_handle: Digest/toxic_element_infant_formula_prepared_for_posting_20260324.pdf
 cite_key: fda2026-infant-formula-toxic-elements-special-survey
@@ -26,7 +29,8 @@ review_state: machine_extracted
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-29
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # FDA 2026 — Infant Formula Toxic Elements Special Survey
@@ -39,10 +43,10 @@ The structured ingest now keeps all 1,248 sample/analyte rows. Four FDA labels m
 
 ## Extracted Files
 
-- `data/evidence/category1_formula_special_survey_samples.csv` — 1,248 sample/analyte rows with product-label mapping and `row_fit` notes.
-- `data/evidence/category1_formula_concentration_summary.csv` — 45 formula summary rows: 28 FDA lower-bound p-value rows plus 17 Digest paper summary/range rows.
-- `data/evidence/values.jsonl` — machine-extracted value records under prefix `category1-formula-digest-`.
-- `data/evidence/sources.jsonl` — source metadata record for this FDA PDF.
+- the structured evidence record — 1,248 sample/analyte rows with product-label mapping and `row_fit` notes.
+- the structured evidence record — 45 formula summary rows: 28 FDA lower-bound p-value rows plus 17 Digest paper summary/range rows.
+- the structured evidence record — machine-extracted value records under prefix `category1-formula-digest-`.
+- the structured evidence record — source metadata record for this FDA PDF.
 
 ## FDA Source Tables Ingested
 
@@ -168,18 +172,18 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-rtf-liquid-soy-based]]
 - [[products/infant-formula-concentrated-liquid-non-soy]]
 - [[products/infant-formula-concentrated-liquid-soy-based]]
-- `raw/Digest/INGESTED.md`
+- the archived source file
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [35055e47a](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a) | 2026-05-04 | minor | Narrative text revised |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [35055e47a4](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a4) | 2026-05-04 | minor | Narrative text revised |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

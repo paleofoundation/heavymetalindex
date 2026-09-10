@@ -21,12 +21,15 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-13
   iAs:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 2.5
-    confidence: low
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"EURO\",\"\",\"as_is\",\"2019\",\"2023\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"as_is","food_state":"","geography":"EURO","year_min":2019,"year_max":2023,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":43,"p10_ppb":0,"p90_ppb":7.1,"p95_ppb":9.18,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"EURO\",\"\",\"as_consumed\",\"2015\",\"2023\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"EURO","year_min":2015,"year_max":2023,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":172,"p10_ppb":0,"p90_ppb":0,"p95_ppb":2.45,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"PAHO\",\"Raw\",\"as_is\",\"2017\",\"2021\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"PAHO","year_min":2017,"year_max":2021,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":4,"p10_ppb":12,"p90_ppb":100,"p95_ppb":100,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"PAHO\",\"\",\"dry_weight\",\"2018\",\"2020\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"dry_weight","food_state":"","geography":"PAHO","year_min":2018,"year_max":2020,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":14,"p10_ppb":0,"p90_ppb":2.13,"p95_ppb":2.424,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"WPRO\",\"Raw\",\"as_is\",\"2020\",\"2022\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"WPRO","year_min":2020,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":29,"p10_ppb":0,"p90_ppb":30,"p95_ppb":40.4,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"WS 0125\",\"MARINE FISHES\",\"iAs\",\"WPRO\",\"Cooked\",\"as_is\",\"2020\",\"2022\"]","role":"context","food_id":"WS 0125","food_name":"MARINE FISHES","metal_species":"iAs","basis":"as_is","food_state":"Cooked","geography":"WPRO","year_min":2020,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":14,"p10_ppb":0,"p90_ppb":88.8,"p95_ppb":104.4,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"}]
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
     status: populated
     typical_ppb: [682, 810]
@@ -104,7 +107,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=3 | 0–3.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Cd | n=3 | 11.2–12.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=2 | 682–810 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=3 | 5.7–9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 93.2–134 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
@@ -126,22 +129,19 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 FDA's FY2018-FY2020 Total Diet Study dataset includes this page's routed matrix as TDS Food 34, "Fish sticks or patty, frozen, oven-cooked." The normalized row-level data is stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, with per-food/per-analyte summaries in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. Concentrations are retained as FDA reported them, with reporting limits preserved separately; reported zeroes are not rewritten as `<LOD` without a source-specific rule. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Fish sticks or patty, frozen, oven-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 11 | 13 | in profile |
-| Cr | 3 | 200 | 400 | in profile |
-| Ni | 3 | 89 | 140 | in profile |
-| Pb | 3 | 0 | 4.2 | in profile |
-| U | 3 | 0 | 1.6 | in profile |
-| tAs | 3 | 650 | 810 | in profile |
-| tHg | 3 | 5.6 | 9.8 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 34: Fish sticks or patty, frozen, oven-cooked | tAs | 3 | 3 | 650–810 | 3 |
+| 34: Fish sticks or patty, frozen, oven-cooked | Cd | 3 | 3 | 11–13 | 1 |
+| 34: Fish sticks or patty, frozen, oven-cooked | Cr | 3 | 3 | 200–400 | 50 |
+| 34: Fish sticks or patty, frozen, oven-cooked | Pb | 3 | 1 | 4.2 | 4 |
+| 34: Fish sticks or patty, frozen, oven-cooked | tHg | 3 | 3 | 5.6–9.8 | 1 |
+| 34: Fish sticks or patty, frozen, oven-cooked | Ni | 3 | 3 | 89–140 | 40 |
+| 34: Fish sticks or patty, frozen, oven-cooked | U | 3 | 2 | 1.1–1.6 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -186,13 +186,35 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Under EU Regulation (EC) No 1881/2006 as amended by [[regulations/eu2023-contaminants-maximum-levels]], fish muscle (the primary ingredient in fish fingers) is subject to a Pb maximum level of 0.30 mg/kg wet weight and a Cd maximum level of 0.050 mg/kg wet weight. These limits apply to the muscle fraction as placed on the market. The breaded composite format is not separately enumerated in current EU regulations, and the applicable limit is therefore the most restrictive limit applicable to any ingredient fraction; in practice, the fish muscle limits govern. There is no EU maximum level for total arsenic in fish products; arsenic regulation in seafood focuses on inorganic arsenic, for which a specific limit applies to fish-based dietary supplements but not to fresh or frozen fish or fish products at the time of this writing. The FSA/Fera survey [[sources/fsa2016-infant-food-formula-metals-survey]] measured fish fingers in the context of the UK total diet study framework, which benchmarks against the same EU limits. No specific US FDA action level applies to total metals in fish finger products; the FDA's mercury guidance for fish applies to commercial fish species by species rather than to processed composite products.
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+WHO GEMS/Food retains the following distinct records. The ranges are source-scope lower-bound P10–P90 summaries; they are not a pooled typical value for this ingredient. Food-group records remain broader context. Differences in basis, period and geography are preserved. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Food / state | Region | Years | Basis | Records | Source LB P10–P90 (ppb) |
+| --- | --- | --- | --- | ---: | --- |
+| MARINE FISHES / not specified | EURO | 2019–2023 | as_is | 43 | 0–7.1 |
+| MARINE FISHES / not specified | EURO | 2015–2023 | as_consumed | 172 | 0–0 |
+| MARINE FISHES / Raw | PAHO | 2017–2021 | as_is | 4 | 12–100 |
+| MARINE FISHES / not specified | PAHO | 2018–2020 | dry_weight | 14 | 0–2.13 |
+| MARINE FISHES / Raw | WPRO | 2020–2022 | as_is | 29 | 0–30 |
+| MARINE FISHES / Cooked | WPRO | 2020–2022 | as_is | 14 | 0–88.8 |
+
+Recovered WHO summaries alone do not resolve incompatible basis labels or establish that zero-coded results were measured zeros.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+3. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -209,13 +231,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -54,8 +54,7 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - Courses: Teaching reference for the distinction between "total," "soluble," and "bioaccessible" metal in occupational/consumer dermal exposure assessment. Pairs with the OEHHA and ATSDR dermal-absorption guidance.
 - App: Not relevant to ingredient contamination_profile (no food-matrix data).
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/nickel]]
 - [[metals/beryllium]]
 - [[metals/chromium]]
@@ -67,18 +66,18 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - This paper is methodology + materials-science occurrence, not finished-product surveillance. The 1/2500 Cr bioaccessibility ratio is for chromium carbide powder; ratios for Cr-VI in cosmetic pigments may differ and would need source-specific measurement.
 - Cr-VI half-life in artificial sweat ("hours, decayed over 420 min" per Results) is a non-trivial finding for the Cr-VI vs total-Cr discipline in dermal exposure assessment.
 - 2026-05-17 merge-enhance pass: corrected sweat-volume calculation unit description (1.08 L/h whole-body output × 5% body-area fraction for hands, not L/h/m²); renamed "Wiki pages this source may touch" to template-standard "Wiki pages updated on ingest"; added replicate-sample structure note (triplicate samples at each temperature).
-- 2026-05-17 audit-application pass (fresh-context subagent REVISE verdict, 2 concerns applied, 0 rejected): restored potassium (K+ 6.1 mM) to the artificial-sweat highest-concentration components list (verified PDF p. 344); split conflated initial-rapid-phase half-times so Be is 4-6 h and Cr is 3-5 h separately (verified PDF p. 345). Soft-flags on Implications framing and limitations gloss reviewed and left as-is: both stay within Part 2 bounds (no HMTc threshold proposal, no consumer risk advisory) and within faithful source rendering.
+- 2026-05-17 audit-application pass (fresh-context editorial review REVISE verdict, 2 concerns applied, 0 rejected): restored potassium (K+ 6.1 mM) to the artificial-sweat highest-concentration components list (verified PDF p. 344); split conflated initial-rapid-phase half-times so Be is 4-6 h and Cr is 3-5 h separately (verified PDF p. 345). Soft-flags on Implications framing and limitations gloss reviewed and left as-is: both stay within Part 2 bounds (no HMTc threshold proposal, no consumer risk advisory) and within faithful source rendering.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

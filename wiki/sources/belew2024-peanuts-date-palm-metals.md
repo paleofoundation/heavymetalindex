@@ -32,7 +32,7 @@ Belew and coauthors measured Fe, Zn, Cu, total As, Pb, and total Cr in peanut an
 
 ## Key numbers
 
-- Sample design: six peanut samples (P1–P6, *Arachis hypogaea*) and six date palm samples (D1–D6, *Phoenix dactylifera*) purchased in February 2024 from different shops in Jigjiga, Ethiopia. Each sample was analyzed in triplicate (n=3 per sample, 36 total measurements). The `sample_n: "12"` frontmatter records the count of sample types, not measurements.
+- Sample design: six peanut samples (P1–P6, *Arachis hypogaea*) and six date palm samples (D1–D6, *Phoenix dactylifera*) purchased in February 2024 from different shops in Jigjiga, Ethiopia. Each sample was analyzed in triplicate (n=3 per sample, 36 total measurements). The `sample_n: "12"` source metadata records the count of sample types, not measurements.
 - Peanut means in mg/kg (Table 8 and Section 3.2): Fe 27.6 ± 2.3, Zn 24.3 ± 1.67, Cu 6.50 ± 0.47, total As 0.017 ± 0.002, Pb 0.02 ± 0.004, total Cr 0.145 ± 0.007. Peanut sample ranges (Table 8): Pb 0.01 to 0.04 mg/kg; total As 0.001 to 0.05 mg/kg; total Cr 0.01 to 0.5 mg/kg.
 - Date palm means in mg/kg (Table 9 and Section 3.2): Fe 21.8 ± 1.8, Zn 36.7 ± 3.3, Cu 7.17 ± 0.17, total As 0.003 ± 0.0008, Pb 0.07 ± 0.002, total Cr 0.050 ± 0.001. Date palm sample ranges (Table 9): Pb 0.03 to 0.2 mg/kg; total As 0.001 to 0.006 mg/kg; total Cr 0.020 to 0.15 mg/kg.
 - All measured concentrations were below WHO/FAO recommended limits (Table 10 comparison: WHO/FAO Pb cap 2.30 mg/kg, As cap 0.300 mg/kg, Cr cap not stated alongside the others).
@@ -59,10 +59,10 @@ Certification: occurrence evidence for total As, Pb, and total Cr in Ethiopian m
 
 The PDF abstract reports peanut means of Fe 12.6, Zn 5.3, Cu 3.53, As 0.001, Pb 0.01, Cr 0.02 mg/kg and date palm means of Fe 40.23, Zn 48.31, Cu 10.65, As 0.05, Pb 0.2, Cr 0.5 mg/kg. These abstract values are internally inconsistent with the paper's own Table 8, Table 9, Table 10, and Section 3.2 body discussion, which together report the correct means recorded above. The abstract appears to mix individual per-sample rows (for example, Fe 12.6 ± 0.54 is the D6 date palm value, Zn 48.31 ± 0.8 is the D4 date palm value, Cu 3.53 ± 0.33 is the D6 date palm value) into what is presented as the mean. This wiki page treats Tables 8/9/10 and Section 3.2 as authoritative and disregards the abstract.
 
-Locked frontmatter fields with known errors that ingestion constraints prevent this audit from editing:
+Locked source metadata fields with known errors that ingestion constraints prevent this audit from editing:
 
 - `license: "CC BY 4.0"` is incorrect. The PDF Open Access notice states the article is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
-- `raw_path` points to `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/...`. The PDF has since been moved to `raw/manual-fetch/seasonal-geographic-variance/ingested/gap-peanuts-pb_2024_10-1007-s44274-024-00151-0.pdf`.
+- `raw_path` points to the archived source file. The PDF has since been moved to the archived source file.
 - `raw_handle` is `AUTO_gap-peanuts-pb-2024-10-1007-s44274-024-00151-0` (with hyphens) but the upstream ingest record uses underscores in the year separator (`AUTO_gap-peanuts-pb_2024_10-1007-s44274-024-00151-0`).
 
 No date ingredient or product slug exists in the current taxonomy snapshot. Date palm findings are material (HI > 1, female TILCR > 1 × 10⁻⁴) and would be routable to a future `ingredients/dates` or product page. The `matrices: [date-palm]` entry may register as routing-unresolved until that slug is created.
@@ -70,13 +70,13 @@ No date ingredient or product slug exists in the current taxonomy snapshot. Date
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [a85d0968e](https://github.com/paleofoundation/heavymetalindex/commit/a85d0968e) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [a85d0968ef](https://github.com/paleofoundation/heavymetalindex/commit/a85d0968ef) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

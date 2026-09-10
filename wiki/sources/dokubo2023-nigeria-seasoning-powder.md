@@ -82,8 +82,7 @@ Courses: Useful case study for the processed-foods module: bouillon-style season
 
 App: Commercial seasoning / bouillon powders in West African markets are a flag for Pb, Cd, and Ni exposure; the ingredient-list cue is "flavor enhancer" / "seasoning powder" / "bouillon" as a discrete product, not a single spice or vegetable.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/condiments-general]]
 - [[products/spices]]
 - [[metals/lead]]
@@ -94,8 +93,8 @@ App: Commercial seasoning / bouillon powders in West African markets are a flag 
 
 2026-05-18 merge-enhance pass (Claude, /ingest-next-manual-fetch-pdf v2):
 - Corrected `raw_handle` from the legacy placeholder `papers-cube` to the per-skill handle `PCMF_ijshr12`.
-- Added `raw_sha256` (`207c26632a…`) and `access_url` (DOI resolver) to frontmatter for provenance.
-- Set `ingredients: []`: the previous values `[[ingredients/seasoning-powder]]` and `[[ingredients/bouillon]]` were invented slugs (no such pages exist in the current taxonomy). The paper measures contamination at the finished-product level, not at any isolated single ingredient; product-level routing via `condiments-general` and `spices` captures the actual scope without overspecifying frontmatter.
+- Added `raw_sha256` (`207c26632a…`) and `access_url` (DOI resolver) to source metadata for provenance.
+- Set `ingredients: []`: the previous values `[[ingredients/seasoning-powder]]` and `[[ingredients/bouillon]]` were invented slugs (no such pages exist in the current taxonomy). The paper measures contamination at the finished-product level, not at any isolated single ingredient; product-level routing via `condiments-general` and `spices` captures the actual scope without overspecifying source metadata.
 - Expanded `metals:` to the full set of analytes the paper measured, including the As and Cr non-detections (Cr, tAs added) and the non-toxicology trace metals (Fe, Co, Cu, Mn, V) the paper reported alongside Pb/Cd/Ni. As is recorded as tAs because FAAS does not speciate.
 - Replaced the previous flat "above the acceptable range" CR statement with the actual Table 6 data: per-metal Pb CR was inside the acceptable range in every brand; the binding finding is the ILCR sum exceeding 1×10⁻⁴, driven primarily by Cd.
 - Added derived per-brand values for SP2 Pb (≈1.11 mg/kg) and SP3 Cd (≈0.25 mg/kg) back-calculated from the Table 4 EDI values, flagged as derived. The paper omits these specific brand cells from the text but they are recoverable from the EDI arithmetic.
@@ -104,21 +103,21 @@ App: Commercial seasoning / bouillon powders in West African markets are a flag 
 - Strengthened the Methods section with the omitted-QA detail: no LOD/LOQ, no CRM, no replicate digestion, no recovery data reported.
 - Brand-firewall check: Table 1 of the paper names four commercial brands (Spicity Stew and Jollof, Lasor Chicken, Kitchen Glory, Onga Classic). The wiki page deliberately preserves only the anonymous SP1–SP4 codes per Part 12. No brand names appear anywhere on this page.
 
-2026-05-18 audit-subagent pass (general-purpose Agent, fresh context):
-- ⚠️ Subagent flagged the original "dominant per-metal CR contributor was Cd" claim as over-broad. Verified against Table 6 (PDF p. 5): Cd-dominant holds for SP1 (95.8×10⁻⁴ Cd vs 4.27×10⁻⁴ Ni) and SP2 (29.2×10⁻⁴ Cd vs 2.78×10⁻⁴ Ni); Ni-dominant for SP3 (3.70×10⁻⁴ Ni vs 2.43×10⁻⁴ Cd) and SP4 (11.5×10⁻⁴ Ni vs 5.05×10⁻⁴ Cd). The subagent caught SP4 but missed SP3; the wiki was wrong in both. Corrected the Key-numbers sentence to enumerate by brand.
-- ⚠️ Subagent flagged `products/condiments-general` as not present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified independently — `wiki/products/condiments-general.md` exists in the live wiki (the routing audit also produces a row for it for this source). The taxonomy snapshot is stale; the slug is valid. False positive against the source page, real flag against the snapshot. Leaving slug in place.
-- Subagent verdict: REVISE. All other findings (numerical fidelity, speciation/methods, brand firewall, Part 2 firewall) were clean.
+2026-05-18 audit-editorial review pass (general-purpose Agent, fresh context):
+- ⚠️ editorial review flagged the original "dominant per-metal CR contributor was Cd" claim as over-broad. Verified against Table 6 (PDF p. 5): Cd-dominant holds for SP1 (95.8×10⁻⁴ Cd vs 4.27×10⁻⁴ Ni) and SP2 (29.2×10⁻⁴ Cd vs 2.78×10⁻⁴ Ni); Ni-dominant for SP3 (3.70×10⁻⁴ Ni vs 2.43×10⁻⁴ Cd) and SP4 (11.5×10⁻⁴ Ni vs 5.05×10⁻⁴ Cd). The editorial review caught SP4 but missed SP3; the wiki was wrong in both. Corrected the Key-numbers sentence to enumerate by brand.
+- ⚠️ editorial review flagged `products/condiments-general` as not present in the editorial record. Verified independently — the linked reference record exists in the live wiki (the routing audit also produces a row for it for this source). The taxonomy snapshot is stale; the slug is valid. False positive against the source page, real flag against the snapshot. Leaving slug in place.
+- editorial review verdict: REVISE. All other findings (numerical fidelity, speciation/methods, brand firewall, Part 2 firewall) were clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

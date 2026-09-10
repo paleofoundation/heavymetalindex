@@ -94,24 +94,24 @@ Significant methodological limitations relevant to downstream use:
 ## Verification notes
 
 - Merge-enhance ingest 2026-05-20 from the original 2026-05-13 page (pre-2026-05-14 schema): re-read the PDF end-to-end and reconciled all numerical values against Tables I, II, and III.
-- Frontmatter changes: added `Cu` to `metals:` (the paper measures four metals — the prior version omitted Cu); changed `[[ingredients/potato]]` to the correct slug `[[ingredients/potato-chips]]` (the prior slug is not in the taxonomy and the measured form is the fried chip, not the raw tuber); removed `[[products/root-tuber-vegetables]]` (the paper measures finished snack products, not whole root vegetables; root-tuber-vegetables is for raw produce); replaced `matrices: [snack, potato-chip, corn-chip]` with `matrices: [snacks, potato-chips, corn-chips, processed-foods]`; added `near_duplicates: []`.
+- source metadata changes: added `Cu` to `metals:` (the paper measures four metals — the prior version omitted Cu); changed `[[ingredients/potato]]` to the correct slug `[[ingredients/potato-chips]]` (the prior slug is not in the taxonomy and the measured form is the fried chip, not the raw tuber); removed `[[products/root-tuber-vegetables]]` (the paper measures finished snack products, not whole root vegetables; root-tuber-vegetables is for raw produce); replaced `matrices: [snack, potato-chip, corn-chip]` with `matrices: [snacks, potato-chips, corn-chips, processed-foods]`; added `near_duplicates: []`.
 - Numerical reconciliation against Tables I/II/III: pooled means and SDs now use the exact table values (e.g., potato Pb mean 0.30406 with SD 0.128244, rather than the previous rounded 0.304/0.128); the prior version's non-branded Cu range "0.018–0.060" used the abstract value, which conflicts with Table III's location minimum 0.02114; this page now uses Table III as authoritative and notes the abstract/table mismatch explicitly under "Paper-internal discrepancies."
 - Documented three further paper-internal discrepancies (non-branded Pb abstract vs. Table III, transposed corn-Cr abstract range, two-locations-labeled-Town-1 ambiguity) so downstream synthesis is not blindsided by them.
-- Removed the legacy `## Wiki pages updated on ingest` heading per current source-page schema; relevant page targets are routed via frontmatter and the routing audit.
+- Removed the legacy `## Wiki pages updated on ingest` heading per current source-page schema; relevant page targets are routed via source metadata and the routing audit.
 - Strict Part 12 brand firewall: the paper names 9 potato brands and 3 corn brands by trade name in Tables I and II. None of those brand names appear on this page; per-brand values are aggregated as ranges of brand means and pooled SDs only. Brand-by-brand attribution belongs in the private brand-intelligence build (Part 26), not here.
-- Chromium speciation: paper measures total Cr only; metals frontmatter uses `Cr` (not `Cr-VI`) per Part 14, and the chromium-speciation caveat is surfaced in the lede, Key numbers, Methods, and Implications.
+- Chromium speciation: paper measures total Cr only; metals source metadata uses `Cr` (not `Cr-VI`) per Part 14, and the chromium-speciation caveat is surfaced in the lede, Key numbers, Methods, and Implications.
 - Cu added to `metals:` because the paper measures Pb/Cd/Cr/Cu, but Cu is reported as low across both branded and non-branded samples and does not bind any HMTc analyte (Cu is not in the HMTc 10-analyte vocabulary); it is included for fidelity to the source and routes to [[metals/copper]] only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

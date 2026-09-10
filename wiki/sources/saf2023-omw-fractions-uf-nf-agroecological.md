@@ -89,25 +89,25 @@ Limitations: the study reports K, P, Ca, Mg and Fe as nutrients but does not mea
 
 ## Verification notes
 
-- Paper does not measure Pb, Cd, As, Hg, Ni, Cr, Al, Sn or any other regulated heavy metal in OMW, soil, or plant tissue. The `metals: [Fe]` frontmatter entry captures the only HMI-vocabulary metal reported, and it is reported as a nutrient (mg·L⁻¹ in aqueous effluent), not as a contamination measurement in a food matrix.
+- Paper does not measure Pb, Cd, As, Hg, Ni, Cr, Al, Sn or any other regulated heavy metal in OMW, soil, or plant tissue. The `metals: [Fe]` source metadata entry captures the only HMI-vocabulary metal reported, and it is reported as a nutrient (mg·L⁻¹ in aqueous effluent), not as a contamination measurement in a food matrix.
 - `matrices` uses bare-string descriptors per system-prompt guidance: `olive-mill-wastewater` for the effluent and its fractions, `maize-seedling` / `flax-seedling` for the experimental plant material. None of these are food matrices.
 - Evidence tier set to **C** because the paper does not contribute direct food-contamination occurrence data for any HMI metal. It is a peer-reviewed agronomic study but its HMI-relevant content is upstream-context only.
 - No brand names appear in this paper. Equipment vendors named per Part 12 Exception 2 (Firmus pilot system, Orelis Kleansep UF membrane, Suez DK NF membrane, Ecograph T data acquisition by Endress+Hauser, HAWITA Gruppe potting soil, Murashige-Skoog medium from Duchefa biochimie, Sigma-Aldrich, BIO-RAD Bradford reagent, IBM SPSS Statistics v22).
 - DOI 10.1016/j.jenvman.2023.117467 verified against the journal-page banner on the first page of the PDF.
 - Funding acknowledged: PHC TOUBKAL program grant 19/77: 41474 PK; GESTAD UMR1347 AGROECOLOGIE INRAE Centre de Dijon (weed seed supply).
-- Audit subagent (2026-06-01) flagged P (UFR) SD as "510 ± 10"; verified against PDF Table 3 — corrected to "510 ± 11".
-- Audit subagent (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
+- Audit editorial review (2026-06-01) flagged P (UFR) SD as "510 ± 10"; verified against PDF Table 3 — corrected to "510 ± 11".
+- Audit editorial review (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -108,14 +108,14 @@ The source contributes mechanism evidence for [[ingredients/rice]] arsenic accum
 
 Fresh ingest 2026-05-28 from the source PDF at the verified `raw_path`. SHA-256 35b5c5c4… recorded.
 
-- **Scope:** This is a mechanism / plant-physiology paper (hydroponic exposure, root and shoot tissues only); it does not measure rice grain or any market product. Frontmatter `products: []` reflects this. `matrices: [rice]` is the closest broad matrix term but tags rice plant material rather than rice food matrix; downstream routing should treat this as a mechanism source, not an occurrence source.
+- **Scope:** This is a mechanism / plant-physiology paper (hydroponic exposure, root and shoot tissues only); it does not measure rice grain or any market product. source metadata `products: []` reflects this. `matrices: [rice]` is the closest broad matrix term but tags rice plant material rather than rice food matrix; downstream routing should treat this as a mechanism source, not an occurrence source.
 - **Metals vocabulary extension.** `MA` and `DMA` are not in the system-prompt's controlled metal abbreviation list (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U), but the paper centrally speciates them and reports finding-bearing results on them. They are included here following the precedent established in [[sources/carey2015-rice-arsenic-percolating-cooking]] (which uses `DMA`). Flagged for taxonomy-vocab review.
 - **Jurisdictions.** `DE` because the experimental work was performed at UFZ Helmholtz Centre for Environmental Research, Leipzig, Germany. `IN` because the rice cultivar (Triguna, subsp. indica) is a West Bengal variety from an authenticated Kolkata seed supplier, and the Discussion frames Indian Bengal soils as the disease-context motivation for the study.
 - **`sample_n: 12`** reflects the As-speciation/accumulation replicate count, which is the basis of the speciation findings reported in `## Key numbers`. Growth measurements used n=30 plants per treatment (recorded in the inline text).
 - **Brand firewall (Part 12).** The methods section names instrument vendors (Thermo Fisher Element XR, Agilent 1100 HPLC, VG PQ EXCELL, Agilent 6130 quadrupole, Agilent 7500ce), reference-material suppliers (NRCC SLRS-5, NIST 1643e, NIST 1568a), reagent suppliers (Alfa Aesar, Sigma, PAMOL, Merck, Tritisol), hydroponic-system supplier (Araponics SA), peptide supplier (Clonestar Peptide Services) and statistical software (SigmaPlot 11, SPSS Science). These are scientific-method vendor names permitted under Part 12 Exception 2 (locked 2026-05-17); they are not brand-by-brand contamination attributions and do not violate the brand firewall.
 - **No HMTc threshold work.** This paper does not propose any contamination limit and is upstream of grain-occurrence data; it is not routed to any product page.
 
-Audit subagent (2026-05-28) flagged the following; verified against source and applied or rejected:
+Audit editorial review (2026-05-28) flagged the following; verified against source and applied or rejected:
 
 - **Root length reduction TRANSPOSED.** Initial ingest reported AsV 23%, MAV 16% (max). Source p. 2 ¶3: "Maximum reduction in root length (16%) was in AsV exposed plants while in MAV exposed plant (23%)…" Verified — corrected so AsV = 16% and MAV = 23%.
 - **AsV pre-experiment concentration WRONG.** Initial ingest gave the 47 ± 8.3% root-length-inhibition figure at 10 µM AsV. Source p. 2 ¶2: "The AsV at 20 µM caused severe toxicity after 7d (47 ± 8.3% inhibition in root length) (data not shown)." Verified — corrected to 20 µM and rephrased to note that 10 µM AsV vs 50 µM MAV/DMAV were chosen for the main experiment because total accumulation was comparable at those concentrations.
@@ -123,18 +123,18 @@ Audit subagent (2026-05-28) flagged the following; verified against source and a
 - **Arsenate standard chemistry wrong.** Initial ingest wrote "As2O3 in water; Tritisol, Merck." Source p. 11: "arsenate (Arsenic standard 1000 mg As L−1 [As2O5 in water] Titrisol, Merck)." Verified — As2O3 was incorrect (arsenic trioxide is AsIII; arsenate derives from As2O5, AsV). Corrected to As2O5, brand spelling corrected Tritisol → Titrisol, and the As-concentration of the standard (1000 mg As L−1) and the AsIII standard's separate Merck citation (sodium arsenite 0.05 M) added for completeness.
 - **78% denominator clarified.** Initial ingest wrote "~78% of As in MAV-exposed plants bound to GSH and homologues of GSH." Source p. 4: "Approximately 78% of total bound As in MAV exposed plant was bound to GSH and homologues of GSH…" Verified — the 78% is a fraction of the thiol-bound pool (which itself is ~83% of root As), not of total As. Corrected phrasing to "of the total thiol-bound pool."
 - **"Of root As" precision clarified.** Initial ingest opening said "up to 48% of AsV-exposed As and 83% of MAV-exposed As." Source abstract: "up to 48 and 83% of root As in AsV and MAV exposed plants…" Verified — corrected to "up to 48% of root As in AsV-exposed plants and 83% of root As in MAV-exposed plants."
-- **Extraction-efficiency sample size n=48** flagged by audit subagent as a transcription error. Source p. 2 ¶3 actually states "The extraction efficiency of As was 91 ± 5.3% (n = 32)"; Fig 3 caption does not mention n=48. Audit finding was a false positive — wiki value n=32 matches the source. No correction applied.
+- **Extraction-efficiency sample size n=48** flagged by audit editorial review as a transcription error. Source p. 2 ¶3 actually states "The extraction efficiency of As was 91 ± 5.3% (n = 32)"; Fig 3 caption does not mention n=48. Audit finding was a false positive — wiki value n=32 matches the source. No correction applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

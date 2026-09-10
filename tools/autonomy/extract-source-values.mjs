@@ -117,6 +117,7 @@ function main() {
   let processed = 0
   let pagesWithKeyNumbers = 0
   let pagesWithoutKeyNumbers = 0
+  let pagesWithPrimaryExtraction = 0
 
   const files = fs.readdirSync(sourcesDir).filter((f) => f.endsWith(".md")).slice(0, limit)
   for (const file of files) {
@@ -125,6 +126,16 @@ function main() {
     const text = fs.readFileSync(filepath, "utf8")
     const fm = parseFrontmatter(text)
     if (fm.type && fm.type !== "source") continue
+    // A reviewed primary-data extractor owns these facts. Re-parsing narrative
+    // highlights loses food-level scope, substitutes global N and can mistake
+    // a next-highest value for a maximum (FDA TDS audit, 2026-09-10).
+    if (fm.extraction_authority === "primary-structured") {
+      if (!fm.data_path || !fs.existsSync(path.join(repoRoot, String(fm.data_path)))) {
+        throw new Error(`Missing primary extraction declared by ${file}`)
+      }
+      pagesWithPrimaryExtraction++
+      continue
+    }
     const sourceId = String(fm.cite_key || fm.raw_handle || file.replace(/\.md$/, ""))
     const declaredMetals = arrayField(fm.metals)
     const declaredProducts = arrayField(fm.products).map((p) =>
@@ -190,6 +201,7 @@ function main() {
     `- Source pages processed: ${processed}`,
     `- Pages with \`## Key numbers\` section: ${pagesWithKeyNumbers}`,
     `- Pages without Key numbers section (skipped): ${pagesWithoutKeyNumbers}`,
+    `- Pages owned by primary structured extraction (not re-parsed): ${pagesWithPrimaryExtraction}`,
     `- Structured rows extracted: ${extractedRows.length}`,
     `- Values stranded (unit unresolved — NOT emitted as ppb): ${unitUnresolved.length}`,
     `- Pages with Key numbers but no parseable values: ${unparseable.length}`,

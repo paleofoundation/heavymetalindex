@@ -171,24 +171,24 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 ## Verification notes
 
 - Single-sample study (n=1 soil composite); the dominant findings are formulation and temperature effects on dermal bioaccessibility, not site-specific exposure estimates. Numerical concentrations in this page are reported for the one bulk composite, not as population estimates.
-- `products: []` and `ingredients: []` are correct for this paper: it is a soil bioaccessibility methodology study, not a food or personal-care product study. The matrix is soil from an e-waste site; the artificial sweats are extractants, not sampled matrices. The advisory routing-malformed entry on this source reflects empty products/ingredients lists; not a frontmatter defect for a methodology paper.
+- `products: []` and `ingredients: []` are correct for this paper: it is a soil bioaccessibility methodology study, not a food or personal-care product study. The matrix is soil from an e-waste site; the artificial sweats are extractants, not sampled matrices. The advisory routing-malformed entry on this source reflects empty products/ingredients lists; not a source metadata defect for a methodology paper.
 - Prior page revision (2026-05-17 earlier) included `artificial-sweat` as a matrix; corrected to `[soil]` because matrices are sampled matrices (the soil), not extractants (the sweat solutions).
 - Prior page revision included only abstract-level claims in Key numbers; expanded to include Table 3 pseudototal concentrations, Table 4 bioaccessible concentrations and %BA values across all five formulations at 37 °C, Table 5 pH values, the Section 3.4 statistical analysis results, and the spike-recovery QC. This is required for downstream HMTc threshold work and for the Cochrane bar (exact figures, not paraphrases).
 - Speciation: paper measured total As (⁷⁵As by ICP-MS), no inorganic/total split; total Cr (⁵³Cr), no Cr-VI split. Metals tagged `tAs` (per speciation discipline: when paper does not separate iAs/tAs, use `tAs`) and bare `Cr` (no separate `tCr` convention).
-- Audit subagent (2026-05-17) flagged bare `As` vs `tAs` and missing `[[metals/iron]]` wikilink; both verified against source — `As` corrected to `tAs` in frontmatter; `[[metals/iron]]` added to "Wiki pages this source may touch" (Fe is reported in Tables 3 and 4 alongside the other eight analytes).
+- Audit editorial review (2026-05-17) flagged bare `As` vs `tAs` and missing `[[metals/iron]]` wikilink; both verified against source — `As` corrected to `tAs` in source metadata; `[[metals/iron]]` added to "Wiki pages this source may touch" (Fe is reported in Tables 3 and 4 alongside the other eight analytes).
 - Brand-firewall compliance: method-section vendor names (Agilent ICP-MS, CEM MARS Xpress digester, Sigma Aldrich Acrodisc filters, Stuart SI500 incubator, Qmx Laboratories calibrants, Minitab software) retained per Part 12 Exception 2 (scientific reproducibility). No sampled-product brand names present.
 - Provisional ingredient/product scaffolds not applicable (no product/ingredient declarations).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

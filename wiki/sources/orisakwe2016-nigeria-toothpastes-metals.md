@@ -75,23 +75,23 @@ App: If oral-care product profiles are surfaced, this source can support a Niger
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_nigeria_toothpaste_toxic_metals.txt`. The title/byline, abstract, Materials and Methods, Tables 1-3, Results/Discussion, conclusion, and received/accepted dates were checked against this page.
-- No DOI is printed in the extracted PDF. Identity checks before creation found no existing source page for the exact title, no raw-handle hit for `MFK_potential-hazards-of-toxic-metals-found-in-toothpastes`, no raw-SHA hit for `d8add8482deac85716a118765a6e9d7bb4638ddd25dee944e6bb9f187100d3fe`, and no cite-key page at `wiki/sources/orisakwe2016-nigeria-toothpastes-metals.md`.
+- No DOI is printed in the extracted PDF. Identity checks before creation found no existing source page for the exact title, no raw-handle hit for `MFK_potential-hazards-of-toxic-metals-found-in-toothpastes`, no raw-SHA hit for `d8add8482deac85716a118765a6e9d7bb4638ddd25dee944e6bb9f187100d3fe`, and no cite-key page at the linked reference record.
 - Numbers and units were copied from the extracted text without conversion. The range summaries were computed directly from Tables 1 and 2 while preserving censored values as `<0.001` where that is the lower bound.
 - Speciation: chromium is recorded as total Cr only. The paper does not report Cr(VI), so no Cr(VI) route or claim is made.
 - Brand firewall: the source names commercial toothpaste products in Tables 1 and 2 and in the abstract's examples. This page suppresses brand-by-value rows and reports only local/imported and all-sample ranges.
 - Evidence tier: `B` because this is a peer-reviewed finished-product occurrence study with 35 market samples, triplicate AAS measurements, and reported LODs, but no DOI, no CRM/recovery data, and no non-Nigerian market coverage.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from `data/evidence/routing_unresolved.csv`, and had only the expected nonblocking `ingredients` advisory in `data/evidence/routing_malformed.csv`.
+- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from the structured evidence record, and had only the expected nonblocking `ingredients` advisory in the structured evidence record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

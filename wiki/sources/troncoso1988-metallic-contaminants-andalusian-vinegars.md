@@ -69,9 +69,9 @@ App: For Andalusian (Sherry-region) wine vinegar in this 16-sample set — Pb 20
 
 ## Verification notes
 
-Page was originally drafted under the legacy `manual-fetch-kimi` handle and last updated 2026-05-14. Merge-enhanced on 2026-05-28 against the source PDF (v2 skill autonomous ingest) to:
+Page was originally drafted under the legacy `manual-fetch-source-retrieval` handle and last updated 2026-05-14. Merge-enhanced on 2026-05-28 against the source PDF (v2 skill autonomous ingest) to:
 
-- Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_metallic-contaminants-in-andalusian-vinegars` handle.
+- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_metallic-contaminants-in-andalusian-vinegars` handle.
 - Add `raw_sha256: 859e8b195eff1d32772fb606ae3928c691172469441120a5765ed857e756768b` (was missing).
 - Correct the Cu range minimum from `0–6.14 ppm` to `0.07–6.14 ppm`. Sample 2 (the prior minimum-by-rounding) has Cu = 0.07 ± 0.00 ppm per Table 2; no sample is at exactly 0 ppm.
 - Correct the iron exceedance count from "Three samples exceeded the Fe limit associated with 'hazy phenomena' (>10–15 ppm)" to "Two samples exceeded 15 ppm (no. 8 and 9)" per the explicit statement on page 745: "no type of hazy phenomena was observed in those samples exceeding 15 ppm for iron (samples no. 8 and 9)." Added the broader "5 samples >10 ppm" count for completeness (no. 2, 7, 8, 9, 10) and the Codex Fe ceiling of 30 mg/kg (no exceedances).
@@ -90,8 +90,7 @@ Brand firewall (Part 12): the paper does not name commercial brands; samples are
 
 Speciation (Part 14): arsenic is reported as total arsenic (hydride generation following standard addition); the page uses `tAs` in `metals:` accordingly. Mercury, chromium speciation, and other HMTc analytes were not measured by this paper.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/vinegar]]
 - [[ingredients/wine-vinegar]]
 - [[metals/lead]]
@@ -103,13 +102,13 @@ Speciation (Part 14): arsenic is reported as total arsenic (hydride generation f
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -102,12 +102,12 @@ Narrative literature review. No PRISMA protocol stated; no search strategy, data
 
 ## Provenance notes
 
-PDF auto-fetched into `raw/Manual Fetch Discovery/` by the `discover` skill on 2026-05-30 under the handle `afzal2024-camel-milk-heavy-metals.pdf`. The handle is misleading: the paper is a general livestock veterinary review and does not discuss camels. The cite-key (`afzal2024-livestock-heavy-metals-review`) reflects actual content; the raw_handle and raw_path preserve the filesystem state so future sessions can locate the PDF. Open access under Creative Commons Attribution (CC BY) per the journal's policy statement on the title page. SHA256 recorded in frontmatter. No conflict of interest declared by the authors; no funding disclosed.
+PDF auto-fetched into the archived source file by the `discover` skill on 2026-05-30 under the handle `afzal2024-camel-milk-heavy-metals.pdf`. The handle is misleading: the paper is a general livestock veterinary review and does not discuss camels. The cite-key (`afzal2024-livestock-heavy-metals-review`) reflects actual content; the raw_handle and raw_path preserve the filesystem state so future sessions can locate the PDF. Open access under Creative Commons Attribution (CC BY) per the journal's policy statement on the title page. SHA256 recorded in source metadata. No conflict of interest declared by the authors; no funding disclosed.
 
 ## Verification notes
 
-- Audit subagent (2026-05-30, general-purpose) flagged the Cu liver/kidney toxic-threshold sentence as garbled species-and-organ attribution; verified against PDF p.7 — corrected from "Liver Cu toxic threshold: >250 ppm in cattle, >250 ppm and 10 ppm in cattle/sheep, >18 ppm in goats" to "Cu toxic thresholds in cattle: liver >250 ppm, kidney 10 ppm; in goats: liver >250 ppm, kidney >18 ppm." Source states: *"Toxic levels in liver and kidneys are >250 ppm and 10 ppm in cattle, >250 ppm and >18 ppm in goats."*
-- Audit subagent flagged a silent units-correction of the WHO As acceptable-intake value (wiki had "3.0 µg/kg BW"; PDF p.10 prints "3.0 g/kg BW"); verified against source — the source has a unit typo, but the wiki silently fixing it without flagging was wrong. Reverted to reproduce the source verbatim with an explicit note that the typo almost certainly intends µg/kg BW (matching the WHO/JECFA inorganic-As provisional intake ballpark) and that the figure should not be propagated as a quantitative reference.
+- Audit editorial review (2026-05-30, general-purpose) flagged the Cu liver/kidney toxic-threshold sentence as garbled species-and-organ attribution; verified against PDF p.7 — corrected from "Liver Cu toxic threshold: >250 ppm in cattle, >250 ppm and 10 ppm in cattle/sheep, >18 ppm in goats" to "Cu toxic thresholds in cattle: liver >250 ppm, kidney 10 ppm; in goats: liver >250 ppm, kidney >18 ppm." Source states: *"Toxic levels in liver and kidneys are >250 ppm and 10 ppm in cattle, >250 ppm and >18 ppm in goats."*
+- Audit editorial review flagged a silent units-correction of the WHO As acceptable-intake value (wiki had "3.0 µg/kg BW"; PDF p.10 prints "3.0 g/kg BW"); verified against source — the source has a unit typo, but the wiki silently fixing it without flagging was wrong. Reverted to reproduce the source verbatim with an explicit note that the typo almost certainly intends µg/kg BW (matching the WHO/JECFA inorganic-As provisional intake ballpark) and that the figure should not be propagated as a quantitative reference.
 - All other audit checks (Table 1 row-by-row numerical fidelity for 16 feed/forage/complete-feed rows; Table 2 row-by-row for 5 metal dose-limit rows; speciation discipline; slug vocabulary; brand firewall; Part 2 wiki/HMTc firewall) passed clean.
 
 ## Wiki pages this source may touch
@@ -126,13 +126,13 @@ PDF auto-fetched into `raw/Manual Fetch Discovery/` by the `discover` skill on 2
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

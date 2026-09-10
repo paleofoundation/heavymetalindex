@@ -82,8 +82,7 @@ App: Breast milk is not in the app's ingredient-list model. This source informs 
 
 Microbiome: High tAs exposure to the infant gut during the 0–6 month colonization window, combined with Cd and Pb, has implications for gut microbiome development; cross-link when relevant pages exist.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -92,18 +91,18 @@ Microbiome: High tAs exposure to the infant gut during the 0–6 month colonizat
 
 ## Verification notes
 
-2026-05-19 (Claude Opus 4.7, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
+2026-05-19 (automated editorial review, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

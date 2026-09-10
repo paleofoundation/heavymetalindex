@@ -80,10 +80,9 @@ ICP-MS (Agilent 7500CX with Octapole Reaction System) following microwave acid d
 
 Paper-internal inconsistencies kept as paper-text values (lower than Table 4 minima): As range "0.003–0.339 mg/kg" matches paper §3.2.5 text although Table 4(c) shows G (black pepper) at 0.002; Hg range "0.001–0.010 mg/kg" matches paper text although Table 4(c) minimum is 0.002. These are paper-internal discrepancies between text and tables, not extraction errors.
 
-Audit subagent (2026-05-29) verdict REVISE: numerical fidelity all ✅ (Table 4(c) chia-seeds aluminium re-attribution verified correct); slug vocabulary and speciation all ✅; brand firewall ✅; Part 2 wiki/HMTc firewall ⚠️ on three Implications phrasings — applied: replaced "HMT&C supplier assessment should include..." directive with occurrence-data contribution framing; replaced "warrants investigation" with neutral "notable accumulation outlier"; reframed Courses "does not guarantee clean supply" as descriptive Pb-vs-other-metal observation tied to the study's own findings rather than cross-source synthesis. No false positives to reject.
+Audit editorial review (2026-05-29) verdict REVISE: numerical fidelity all ✅ (Table 4(c) chia-seeds aluminium re-attribution verified correct); slug vocabulary and speciation all ✅; brand firewall ✅; Part 2 wiki/HMTc firewall ⚠️ on three Implications phrasings — applied: replaced "HMT&C supplier assessment should include..." directive with occurrence-data contribution framing; replaced "warrants investigation" with neutral "notable accumulation outlier"; reframed Courses "does not guarantee clean supply" as descriptive Pb-vs-other-metal observation tied to the study's own findings rather than cross-source synthesis. No false positives to reject.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cinnamon]]
 - [[ingredients/black-pepper]]
@@ -91,13 +90,13 @@ Audit subagent (2026-05-29) verdict REVISE: numerical fidelity all ✅ (Table 4(
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [b71668e40](https://github.com/paleofoundation/heavymetalindex/commit/b71668e40) | 2026-05-29 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b71668e40a](https://github.com/paleofoundation/heavymetalindex/commit/b71668e40a) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

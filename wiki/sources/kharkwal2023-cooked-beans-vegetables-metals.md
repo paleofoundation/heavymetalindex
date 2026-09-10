@@ -64,20 +64,20 @@ This source provides cooked-food occurrence evidence for household-prepared legu
 - PDF text was extracted with `pdftotext -layout`; Table 3 values were checked against rendered page images because the text layer wrapped the table columns and flattened some exponent signs.
 - DOI `10.1002/fsn3.3678`, raw handle `MFK_fsn3-11-7581`, and cite-key checks found no existing source page before creation.
 - All Table 3 concentration values above were checked against the extracted text and rendered Table 3 image; units are preserved as source-reported `mg/kg`, with no conversion.
-- Speciation: source labels are arsenic, cadmium, lead, and mercury. No inorganic arsenic or methylmercury measurements are reported, so frontmatter uses `tAs` and `tHg`.
-- Frontmatter uses broad closed-vocabulary slugs for beans/legumes and vegetables; missing narrow cooked-food product slugs include `cooked-beans`, `dal`, `sabji`, and `cooked-vegetable-preparations`.
+- Speciation: source labels are arsenic, cadmium, lead, and mercury. No inorganic arsenic or methylmercury measurements are reported, so source metadata uses `tAs` and `tHg`.
+- source metadata uses broad closed-vocabulary slugs for beans/legumes and vegetables; missing narrow cooked-food product slugs include `cooked-beans`, `dal`, `sabji`, and `cooked-vegetable-preparations`.
 - Brand firewall: no product brand names were reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

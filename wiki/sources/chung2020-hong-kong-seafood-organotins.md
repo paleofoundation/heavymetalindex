@@ -106,10 +106,10 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 - PDF text extracted with `pdftotext -layout`; title page, Tables 1-4, methods, and discussion were readable.
 - DOI `10.1016/j.marpolbul.2020.111116`, raw handle `MFK_chung2020`, and cite-key checks found no existing source page before creation.
 - Tables 1-3 were checked against the extracted text. Units are preserved as `μg Sn kg−1 wet weight`; no conversion was performed.
-- Speciation: all values are organotin species (DBT, TBT, TPhT, DOT), not total Sn or inorganic tin. The frontmatter uses `Sn` only to route organometallic tin evidence.
+- Speciation: all values are organotin species (DBT, TBT, TPhT, DOT), not total Sn or inorganic tin. The source metadata uses `Sn` only to route organometallic tin evidence.
 - Brand firewall: seafood samples were grouped by species/food item and no sampled product brand values were reported.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
-- Audit subagent 2026-06-09 (REVISE verdict) recommended switching `metals: [Sn]` to `metals: [organotins]`. Verified against corpus convention: 9 sibling organotin source pages (chen2019, ho2014, ho2016, jiang2026, lee2016, shu2023, uc-peraza2022, zanon2008, cfs2019) all use `metals: [Sn]` per the taxonomy-snapshot.md note that frontmatter `metals:` uses the abbreviation vocabulary (Sn) and not the page slug. False positive against established corpus convention — rejected.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
+- Audit editorial review 2026-06-09 (REVISE verdict) recommended switching `metals: [Sn]` to `metals: [organotins]`. Verified against corpus convention: 9 sibling organotin source pages (chen2019, ho2014, ho2016, jiang2026, lee2016, shu2023, uc-peraza2022, zanon2008, cfs2019) all use `metals: [Sn]` per the taxonomy-snapshot.md note that source metadata `metals:` uses the abbreviation vocabulary (Sn) and not the page slug. False positive against established corpus convention — rejected.
 - Same audit flagged the `ingredients/seafood` + `products/seafood` co-routing as redundant. Verified: 185 source pages in this corpus use this same dual-route pattern (the routing layer treats `seafood` as both an ingredient bucket and an umbrella product). False positive — rejected.
 - Same audit suggested removing `wet-weight` from `matrices` as "a basis, not a matrix." Verified: 8 of 9 sibling organotin pages encode `wet-weight`/`dry-weight` inside `matrices` for downstream basis routing. Corpus convention — rejected.
 - Same audit caught real issues: `matrices` was missing the `organotins` speciation token (6+ sibling pages include it); `market-fish` was an idiomatic outlier (corpus uses `market-samples` or `<country>-market`). Both fixed. `products/seafood` added to capture the broad multi-group scope per lee2016-taiwan-seafood-organotins precedent.
@@ -117,13 +117,13 @@ This source contributes broad Hong Kong market seafood occurrence evidence for o
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

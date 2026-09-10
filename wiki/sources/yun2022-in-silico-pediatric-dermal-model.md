@@ -65,19 +65,19 @@ Model construction: extension of the Dancik et al. 2013 three-compartment (SC, v
 - Author name in the paper's Tables 2-3 is rendered "Barret et al." but the reference list (entries 29, 30, 87) shows "Barrett, D.A." The reference-list spelling is canonical.
 - Funding: NSERC grants 2016-01382 and 2020-547790. No declared conflicts of interest. No HMTc, brand, or industry funding.
 - 2026-05-17 enhancement: tightened the buprenorphine predictive-performance summary using Table 7 and the Discussion (the original "acceptable" wording was a faithful abstract restatement but elided the 30-fold sample-pair discrepancy that the authors themselves attribute to experimental error). All other fields preserved (cite_key, raw_handle, raw_path, license, jurisdictions, near_duplicates).
-- Audit subagent (2026-05-17) flagged that the prior "epidermis reaches adult values at ~100 days" wording conflated the Table 4 / Figure 2B plateau with the body-text claim of "four months of age" (p. 8); verified against source — corrected to "approximately 4 months (~120 days)" with the curve-plateau range stated separately.
-- Audit subagent (2026-05-17) flagged that the prior "8-20% thinner (Stamatas, Liu); 22% thinner inner arm" gloss obscured per-study attribution (p. 8 actually pairs Stamatas with 20% and Liu with 8% on thigh; Liu with 22% on inner arm); verified against source — corrected to per-study attribution.
+- Audit editorial review (2026-05-17) flagged that the prior "epidermis reaches adult values at ~100 days" wording conflated the Table 4 / Figure 2B plateau with the body-text claim of "four months of age" (p. 8); verified against source — corrected to "approximately 4 months (~120 days)" with the curve-plateau range stated separately.
+- Audit editorial review (2026-05-17) flagged that the prior "8-20% thinner (Stamatas, Liu); 22% thinner inner arm" gloss obscured per-study attribution (p. 8 actually pairs Stamatas with 20% and Liu with 8% on thigh; Liu with 22% on inner arm); verified against source — corrected to per-study attribution.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

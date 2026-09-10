@@ -85,20 +85,20 @@ This page was built from the full PDF text, including the abstract, Table 1 anim
 
 The source contains a small internal dose discrepancy: the animal-methods paragraph states 1.3 x 10^9 CFU of L. acidophilus KLDS 1.1003 in 0.5 ml skimmed milk, while Table 1's note states 1.4 x 10^9 CFU. Both are recorded above; this does not block routeability because the direction and magnitude of Pb body-burden endpoints are clear.
 
-Calcium was measured in Table 4 alongside Zn, Mg, and Fe, but is omitted from the `metals:` frontmatter because calcium is not in the HMI metals vocabulary (no metals/calcium page; tracked only as an essential-element companion to Pb exposure). Ca values are retained in the body table for completeness.
+Calcium was measured in Table 4 alongside Zn, Mg, and Fe, but is omitted from the `metals:` source metadata because calcium is not in the HMI metals vocabulary (no metals/calcium page; tracked only as an essential-element companion to Pb exposure). Ca values are retained in the body table for completeness.
 
-The matrices vocabulary used here (probiotic-biosorption, mouse-blood, mouse-liver, mouse-kidney, lead-spiked-drinking-water) is ad-hoc but consistent with the established pattern for mitigation and animal-model source pages, which lack a food-form-oriented controlled vocabulary. GPT-5.5-style audit (2026-06-09) flagged these as out-of-controlled-vocab; verified against sibling mitigation pages (e.g., chen2023-clinoptilolite-cd-mitigation uses cd-spiked-drinking-water, mouse-liver-tissue, clinoptilolite-feed-additive in the same pattern), so the finding was a false positive.
+The matrices vocabulary used here (probiotic-biosorption, mouse-blood, mouse-liver, mouse-kidney, lead-spiked-drinking-water) is ad-hoc but consistent with the established pattern for mitigation and animal-model source pages, which lack a food-form-oriented controlled vocabulary. automated editorial review audit (2026-06-09) flagged these as out-of-controlled-vocab; verified against sibling mitigation pages (e.g., chen2023-clinoptilolite-cd-mitigation uses cd-spiked-drinking-water, mouse-liver-tissue, clinoptilolite-feed-additive in the same pattern), so the finding was a false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

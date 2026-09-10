@@ -107,7 +107,7 @@ Harvest at day 50. Plant tissue dried at 70 °C for 48 h. Quadruplicate analyses
 - Metals set to `[Cd]` only. The paper measures plant tissue N, P, K, Ca, Mg, Fe, Cu, Mn, Zn, B, and Cl, but these are plant mineral-nutrient measurements (essential elements for plant nutrition), not heavy-metal contamination measurements. Including Cu, Mn, Zn in the metals field would mischaracterize the paper as a Cu/Mn/Zn contamination study.
 - Evidence tier: B. Greenhouse pot study with a single cultivar in a single soil type with a commercial soil-amendment product whose manufacturer is named as a funding acknowledger. Solid experimental design with quadruplicate measurements, but the funding tie and the single-system scope keep this below A-tier.
 - Cd reduction figure: the abstract reports a 95% reduction in Cd uptake at 7000 mg/L HA+FA at 200 mg/kg soil Cd; Table 5 computation gives 96.9% at 200 mg/kg Cd and 97.4% at 100 mg/kg Cd. The wiki page reports both the abstract figure (as the paper states it) and the Table-5-derived figure, with the abstract framing flagged as a rounded approximation.
-- Audit subagent (2026-05-30, fresh-context general-purpose agent) returned REVISE with three ⚠️ concerns; verified all three against the PDF and applied:
+- Audit editorial review (2026-05-30, fresh-context general-purpose agent) returned REVISE with three ⚠️ concerns; verified all three against the PDF and applied:
   - (a) Audit flagged that the abstract's "+537% MP" claim contradicts Table 2's at-same-Cd-dose decrease (41.94 → 37.88). Verified against PDF p.4 Results text and Table 2 — the +537% only reconciles vs the 0/0 absolute control. Applied: added paper-internal-inconsistency caveat in Speciation and methods caveats.
   - (b) Audit flagged that the abstract's Mn +143% / Cu +1% figures do not reconcile with Tables 4–5. Verified against PDF p.5 Table 5 (Mn cell 200/7000 = 16.93 vs 200/0 = 16.90 ≈ +0.2%; Cu cell 200/7000 = 7.90 vs 200/0 = 3.24 ≈ +144%) — confirmed Mn and Cu values are transposed in the abstract. Applied: corrected Key numbers paragraph to flag the transposition with cell-level values; preserved the abstract figures for traceability.
   - (c) Audit flagged Powhumus composition conflated "ash content (mass)" with "element content on ash-free basis" and truncated the "10–12% K2O" range to "12% K2O". Verified against PDF p.2 — confirmed. Applied: rewrote the Powhumus composition line to separate ash content (22.9%), Powhumus product element content (C 2, H 2.8, N 1.3 % mass), and ash-free element content (C 47.1, H 3.63, N 1.69, O 47.58 % wt), and restored the 10–12% K2O range.
@@ -116,13 +116,13 @@ Harvest at day 50. Plant tissue dried at 70 °C for 48 h. Quadruplicate analyses
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

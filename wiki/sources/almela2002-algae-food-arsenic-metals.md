@@ -84,9 +84,9 @@ Eighteen dried algae food products (12 brown, 4 red, 2 green) bought in Valencia
 
 ## Verification notes
 
-- raw_handle MFK_almela2002 derived from the PDF filename; raw_path is the manual-fetch PDF under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/jf0110250 confirmed on the article header.
+- raw_handle MFK_almela2002 derived from the PDF filename; raw_path is the manual-fetch PDF under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/jf0110250 confirmed on the article header.
 - Evidence tier A: peer-reviewed primary occurrence study with triplicate analysis, validated speciation method, and CRM-based QC.
-- Speciation: arsenic reported as both total As and inorganic As [As(III)+As(V)] — both lifted to frontmatter as tAs and iAs and kept distinct in Key numbers; never collapsed. Mercury reported as total Hg only (CV-AFS, no speciation) → tHg. Chromium and nickel not measured.
+- Speciation: arsenic reported as both total As and inorganic As [As(III)+As(V)] — both lifted to source metadata as tAs and iAs and kept distinct in Key numbers; never collapsed. Mercury reported as total Hg only (CV-AFS, no speciation) → tHg. Chromium and nickel not measured.
 - Units preserved exactly as the source reports: As/Pb/Cd in mg/kg dry weight, Hg in µg/kg dry weight. No conversions applied. Basis is dry weight, as-sold (products sold dried) — recorded in matrices as `dry-weight`.
 - Brand firewall: not engaged. The source identifies products only by alga species and generic processed-product names (wakame, kombu, nori, yakinori, hijiki, arame, dulse, AO-nori); no commercial brand names appear.
 - Jurisdiction ES (point of retail sale, Valencia). Products are of mixed/Japanese-style origin but the survey samples the Spanish retail market; sampling_locations left empty as the paper gives no harvest geocoordinates.
@@ -96,13 +96,13 @@ Eighteen dried algae food products (12 brown, 4 red, 2 green) bought in Valencia
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

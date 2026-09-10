@@ -76,20 +76,20 @@ This A-tier EFSA report contributes occurrence and exposure context for seaweed-
 - Units are preserved as `µg/kg`, `µg/kg bw per week`, and `µg/kg bw per day`; no conversion was performed. The PDF extraction renders the micro sign as `l` in some places, but the table headings are EFSA microgram units.
 - Speciation is preserved: total arsenic and inorganic arsenic are separate EFSA occurrence tables; total mercury is not treated as methylmercury. The summary notes that only a few methylmercury and arsenobetaine data were available.
 - Brand firewall: no brand-level values were reported in the PDF-visible tables.
-- Frontmatter ingredient and product slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented. Missing closed slugs noted for halophytes, seaweed snacks, seaweed pasta, seaweed tea, and seaweed condiments/relishes.
+- source metadata ingredient and product slugs were checked against the editorial record; no new slug was invented. Missing closed slugs noted for halophytes, seaweed snacks, seaweed pasta, seaweed tea, and seaweed condiments/relishes.
 - LC% cells shown as `0` in the occurrence table reflect source cells printed as `–` in Tables 3, 5, and 6 (Brown algae unspecified Cd/tAs, Snacks Cd, Relishes tAs). In every such cell the source reports `LB = UB`, so `0%` left-censored is the correct semantic; the wiki normalizes the dash for readability.
-- 2026-06-09 audit pass (autonomous QA subagent) verified all Table 3-7 occurrence values, all Table 23 exposure values, and the Cd/Pb/tAs/iAs/tHg occurrence-count totals against the PDF; verdict PROMOTE with the LC%-dash normalization above as the only adjusted item.
+- 2026-06-09 audit pass (autonomous QA editorial review) verified all Table 3-7 occurrence values, all Table 23 exposure values, and the Cd/Pb/tAs/iAs/tHg occurrence-count totals against the PDF; verdict PROMOTE with the LC%-dash normalization above as the only adjusted item.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [977b4b50f](https://github.com/paleofoundation/heavymetalindex/commit/977b4b50f) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [977b4b50f9](https://github.com/paleofoundation/heavymetalindex/commit/977b4b50f9) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

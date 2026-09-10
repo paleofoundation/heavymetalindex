@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: []
 type: source
 cite_key: farina-rocha-aschner-2011-mehg-mechanism
 title: "Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies"
@@ -21,7 +24,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-25
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # Farina, Rocha, and Aschner 2011 — Mechanisms of Methylmercury Neurotoxicity
@@ -30,20 +34,19 @@ updated: 2026-04-25
 
 This 2011 mechanistic review by Marcelo Farina (Universidade Federal de Santa Catarina, Brazil), João B. T. Rocha (Universidade Federal de Santa Maria, Brazil), and Michael Aschner (Vanderbilt; subsequently Albert Einstein College of Medicine) consolidates the molecular mechanisms by which methylmercury produces developmental and adult neurotoxicity. Methylmercury crosses the blood-brain barrier, binds cysteine residues on glutathione and other thiols, accumulates in the developing brain, and induces oxidative stress, glutamate excitotoxicity, and disruption of cellular calcium homeostasis. The review provides the molecular-level explanation underlying the developmental neurotoxicity endpoint that anchors EFSA 2012, JECFA 61st meeting, EPA IRIS, and the FDA/EPA fish consumption advice.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [eb85df33d](https://github.com/paleofoundation/heavymetalindex/commit/eb85df33d) | 2026-04-25 | major | 2 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
+| [eb85df33db](https://github.com/paleofoundation/heavymetalindex/commit/eb85df33db) | 2026-04-25 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -110,8 +110,8 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 
 ## Verification notes
 
-- 2026-06-09 (Manual Fetch Discovery ingest, Claude Opus 4.7 v2 skill, fresh path): wrote source page from the PDF in `raw/Manual Fetch Discovery/`. Three identity checks (DOI 10.3390/nu13072358, raw_handle MFD_mielech2021, cite-key author/year) all returned no hit; this is a fresh ingest.
-- 2026-06-09 (auto-audit application, fresh-context subagent verdict QUARANTINE → revised here): the audit subagent caught three numerical-fidelity errors in the initial ingest. Each was independently verified against the source and corrected:
+- 2026-06-09 (Manual Fetch Discovery ingest, automated editorial review v2 skill, fresh path): wrote source page from the PDF in the archived source file. Three identity checks (DOI 10.3390/nu13072358, raw_handle MFD_mielech2021, cite-key author/year) all returned no hit; this is a fresh ingest.
+- 2026-06-09 (auto-audit application, fresh-context editorial review verdict QUARANTINE → revised here): the audit editorial review caught three numerical-fidelity errors in the initial ingest. Each was independently verified against the source and corrected:
   - **Igweze ↔ Iwegbue Nigeria attribution swap**: the initial ingest assigned the 96%/53% Pb/Cd finding to Igweze 2020 [9] and the "1 sample exceeded PTWI" finding to Iwegbue 2010 [14], following the review's prose paragraph in Section 3.1. Re-reading the source: Table 2 (pp. 5–6) shows the n=26 row with 96%/53% pointing to ref [14] = Iwegbue and the n=190 row with "1 sample exceeded PTWI" pointing to ref [9] = Igweze. The review's own prose and Table 2 disagree on which reference the 96%/53% finding belongs to. The page now follows Table 2's structured attribution and flags the source-internal contradiction transparently in the Key numbers bullet.
   - **Melø 2008 As/Hg transposition**: the initial ingest reported As=6 µg/g and Hg=1.02 µg/g for fish. The review states "fish had the highest concentrations of As and Hg (1.02 µg/g, 6 µg/g, respectively) [24]", where "respectively" maps to the "As, Hg" order: As=1.02 µg/g, Hg=6 µg/g. Corrected. (The 6 µg/g Hg figure is very high for fish and likely reflects either a unit issue in the original Melø 2008 paper or a transcription decision by the review authors; this page reports the value as the review states it without re-interpretation, per the review's own no-re-normalization posture.)
   - **Cd 65% misattribution to Gardener 2019**: the initial ingest attributed the "Cd was detected in 65% of samples; potatoes, cookie cereal bars, vegetables, bread; 2.5% > TWI" finding to Gardener 2019. Source p. 4 attributes this to ref [14] = Iwegbue 2010, not Gardener (ref [10]). Re-attributed to Iwegbue 2010 and flagged that the food-category list does not fit Iwegbue 2010's commercial-infant-formula scope, suggesting a further source-internal reference error that we reproduce faithfully rather than silently correct.
@@ -128,13 +128,13 @@ Microbiome: Not applicable — the review does not address microbiome outcomes.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

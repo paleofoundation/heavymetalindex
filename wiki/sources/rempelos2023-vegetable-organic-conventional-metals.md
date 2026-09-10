@@ -102,18 +102,18 @@ App: Route to vegetable ingredient pages as UK fresh-weight occurrence context f
 
 The PDF has author attribution and DOI `10.3390/agronomy13051225`; no DOI conflict was observed. Brand and supplier names used for seed/transplant sources are omitted under the brand firewall. The source reports Cd, Ni, and Pb only; no arsenic, mercury, chromium, or aluminum concentrations are reported for harvested crops. All toxic-metal values are fresh-weight main-effect means from Table 10, not sample-level rows. Because the source does not publish individual concentration records in the PDF and states that data are available on reasonable request, `sample_n` is left null and the multi-year scope is described in `sample_population` and Methods.
 
-Merge-enhance pass 2026-06-02 (Claude): the page is faithful to Table 10 across every cell of both contrast tables (crop-protection/fertilization and pre-crop). Audit subagent (Agent tool, general-purpose, agent ID a8740e5f581900d2c) returned REVISE on Check 1 because the in-prose potato Cd NPK-vs-FYM increase had been silently substituted with the value computed from Table 10 (62.5%, rounded to 63%) when the paper's own Section 3.6 (p. 16) explicitly states 50% for potato — an internal inconsistency in the source between prose and table. Per Cochrane discipline (faithful reproduction with the inconsistency flagged, not silent substitution), the potato figure is reverted to the paper's stated 50% and the inconsistency is now flagged inline. Section 3.6 is the correct reference for the per-crop percentages, not Section 4.3.
+Merge-enhance pass 2026-06-02 (Claude): the page is faithful to Table 10 across every cell of both contrast tables (crop-protection/fertilization and pre-crop). Audit editorial review (Agent tool, general-purpose, agent ID a8740e5f581900d2c) returned REVISE on Check 1 because the in-prose potato Cd NPK-vs-FYM increase had been silently substituted with the value computed from Table 10 (62.5%, rounded to 63%) when the paper's own Section 3.6 (p. 16) explicitly states 50% for potato — an internal inconsistency in the source between prose and table. Per Cochrane discipline (faithful reproduction with the inconsistency flagged, not silent substitution), the potato figure is reverted to the paper's stated 50% and the inconsistency is now flagged inline. Section 3.6 is the correct reference for the per-crop percentages, not Section 4.3.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

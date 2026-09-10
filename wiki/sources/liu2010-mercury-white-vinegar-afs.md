@@ -84,9 +84,9 @@ Microbiome: Not applicable; the paper does not address gut-microbial endpoints.
 
 ## Verification notes
 
-Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
+Page was originally drafted under the legacy `manual-fetch-source-retrieval` raw_handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
 
-- Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_direct-determination-of-mercury-in-white-vinegar-b` handle, matching the convention used on sibling vinegar source pages ([[ndungu2004-lead-vinegar-icpms-gfaas]], [[karavoltsos2020-copper-trace-metals-vinegars-greece]], [[saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]).
+- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_direct-determination-of-mercury-in-white-vinegar-b` handle, matching the convention used on sibling vinegar source pages ([[ndungu2004-lead-vinegar-icpms-gfaas]], [[karavoltsos2020-copper-trace-metals-vinegars-greece]], [[saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]).
 - Correct truncated `raw_path` (prior value cut off at "matrix assist.pdf"; corrected to the full filename "…matrix assisted photochemical vapor generation a.pdf").
 - Soften the `sample_population` field. Prior version asserted "from local markets in Beijing, China"; the paper says only "purchased from local markets" without specifying the city. The Beijing inference is reasonable because the author is at the Beijing Center for Physical and Chemical Analysis, but the inference should be marked as such rather than presented as paper-stated.
 - Verified the Key numbers against the PDF (Table 2, Section 3.5): all reported LODs, RSDs, CRM recoveries, real-sample concentrations, and speciation findings reproduce the source. Added the calibration line equation (Y = 15.62 C + 2.25, r² = 0.9995) and the upper linear range (1 mg/L) that the prior version omitted.
@@ -96,18 +96,18 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - Remove the legacy `## Wiki pages updated on ingest` heading per current Part 6 practice; downstream-page fan-out lives in the routing audit, not on the source page.
 - License kept as "All rights reserved" — Spectrochimica Acta Part B (Elsevier) 2010 paywall paper; no open-access notice on the PDF.
 
-Auto-audit subagent (2026-05-26) verdict REVISE; Checks 2, 3, 4, 5 clean. Check 1 ⚠️ flagged that "Sugar interference > ±10% on Hg signal at sugar concentration as low as 1% v/v" overstated the source — paper Section 3.4 reports the >±10% effect at 1% v/v but does not test below 1% v/v, so "as low as" implied an untested lower bound. Verified against the PDF and applied: reworded to "exceeds ±10% on Hg signal at 1% v/v sugar," and added the paper's stated ±5% relative-error tolerance threshold for completeness as the audit suggested.
+Auto-audit editorial review (2026-05-26) verdict REVISE; Checks 2, 3, 4, 5 clean. Check 1 ⚠️ flagged that "Sugar interference > ±10% on Hg signal at sugar concentration as low as 1% v/v" overstated the source — paper Section 3.4 reports the >±10% effect at 1% v/v but does not test below 1% v/v, so "as low as" implied an untested lower bound. Verified against the PDF and applied: reworded to "exceeds ±10% on Hg signal at 1% v/v sugar," and added the paper's stated ±5% relative-error tolerance threshold for completeness as the audit suggested.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

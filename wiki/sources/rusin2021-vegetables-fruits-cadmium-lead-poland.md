@@ -160,13 +160,13 @@ Page rewritten 2026-05-19 from a 2026-05-12 revision against the source PDF (DOI
 - **`products:`** previously `[fresh-fruit]` only — the paper covers fresh, dried, canned/jarred (jam, marmalade, syrup), and 100%-juice fruit products and fresh/frozen/dried/processed vegetable products. Expanded to `[fresh-fruit, dried-fruit, canned-fruit, fruit-juice-not-canned, root-tuber-vegetables, canned-vegetables]`.
 - **`matrices:`** previously listed product-shaped strings; replaced with the standard matrix vocabulary used elsewhere in the corpus: `[fresh-fruit, frozen-fruit, dried-fruit, processed-fruit, fresh-vegetable, frozen-vegetable, dried-vegetable, processed-vegetable]`.
 - **`raw_handle:`** added the per-paper handle `MFK_concentration-of-cadmium-and-lead-in-vegetables-an` (the prior page had no `raw_handle` field).
-- **`raw_path:`** updated from the stale `raw/studies/...` location to the canonical Manual Fetch Kimi path (the file at the prior location has the same SHA-256 and is a copy of the MFK PDF; the MFK location is the ingest source).
+- **`raw_path:`** updated from the stale the archived source file location to the canonical Manual Fetch source-retrieval path (the file at the prior location has the same SHA-256 and is a copy of the MFK PDF; the MFK location is the ingest source).
 - **`raw_sha256:`** field renamed from `sha256:` (value preserved verbatim: `75277429df4ab9cae5b91c476c9437ed795d7ad3ca3b7a458098fdbda1810bae`).
 - **`sample_population:`** added; previously absent.
 - **Implications section:** prior version contained fabricated claims about "dried herbs and mushrooms as high-Cd ingredients" — removed. Rewritten to reflect what the paper actually contributes (Polish retail occurrence data for ten named commodities across four processing forms, with specific MPL exceedances).
 - **Legacy `## Wiki pages updated on ingest` section removed** per the current Part 6 source-page template.
 
-Freq-1 ingredient flag: `cranberries` / `cranberry` is not in the current taxonomy snapshot (no `wiki/ingredients/cranberry.md` or `cranberries.md` exists). The paper measures 13 cranberry samples across fresh, dried, and processed forms; a provisional ingredient scaffold via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` would let this page route to a cranberry ingredient destination on a future ingest. Flagged for the autonomy daemon to handle on its next provisional-scaffold sweep; not creating during this ingest per the per-skill constraint that source-page ingest does not create new ingredient pages by hand.
+Freq-1 ingredient flag: `cranberries` / `cranberry` is not in the current taxonomy snapshot (no the linked reference record or `cranberries.md` exists). The paper measures 13 cranberry samples across fresh, dried, and processed forms; a provisional ingredient scaffold via the editorial record would let this page route to a cranberry ingredient destination on a future ingest. Flagged for the autonomy daemon to handle on its next provisional-scaffold sweep; not creating during this ingest per the per-skill constraint that source-page ingest does not create new ingredient pages by hand.
 
 ## Wiki pages this source may touch
 
@@ -192,13 +192,13 @@ Freq-1 ingredient flag: `cranberries` / `cranberry` is not in the current taxono
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

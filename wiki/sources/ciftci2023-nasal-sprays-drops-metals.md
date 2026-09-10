@@ -71,22 +71,22 @@ App: The source can support a product-detail note for saline or sea-water nasal 
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1541.txt`; Table 4, Table 5, Table 6, and the Results bullets were re-read before writing.
-- Identity checks before creation: DOI `10.1007/s11356-023-29133-0`, raw handle `MFK_determination-of-heavy-metals-and-essential-elements-in`, raw SHA-256 `a18932754afbd03728682a8a214f8d52a14c23cec5b50c42040f16efb2d94abc`, and cite key `ciftci2023-nasal-sprays-drops-metals` were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: DOI `10.1007/s11356-023-29133-0`, raw handle `MFK_determination-of-heavy-metals-and-essential-elements-in`, raw SHA-256 `a18932754afbd03728682a8a214f8d52a14c23cec5b50c42040f16efb2d94abc`, and cite key `ciftci2023-nasal-sprays-drops-metals` were searched in the linked reference record and evidence files; no existing source page was found.
 - Units are preserved as `µg/L`; no conversion to ppb or mg/L was made.
 - Speciation: ICP-MS measured elemental arsenic after direct liquid analysis. This page labels arsenic as `tAs` and does not infer inorganic arsenic.
 - Brand firewall: the source uses sample codes only; no brand names are reported or attached to values.
-- Closed-vocabulary note: no nasal-spray product slug exists in `docs/gpt-collaboration/taxonomy-snapshot.md`, so `products: []` is intentional and the matrix terms are descriptive.
+- Closed-vocabulary note: no nasal-spray product slug exists in the editorial record, so `products: []` is intentional and the matrix terms are descriptive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

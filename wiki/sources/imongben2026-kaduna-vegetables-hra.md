@@ -169,10 +169,10 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 
 ## Verification notes
 
-- 2026-05-20 — Merge-enhance pass against the source PDF (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Some Heavy Metals and Their Potential Risk in Selected Vegetables on Sale within Kaduna Metropolis.pdf). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
+- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
   - `metals:` previously listed only `[Cr, Ni]`; the paper reports eight metals (Cr, Mn, Fe, Co, Ni, Cu, Mo, Zn). Updated.
   - Prior Key numbers section reported "Spinach: 2.8 ± 0.26" for Cr, which was a transposition with Lettuce. Table 1 of the source shows Spinach Cr = 28.8 ± 0.26 and Lettuce Cr = 2.8 ± 0.26. Corrected.
-  - `raw_handle:` was generic `manual-fetch-kimi`; updated to the specific MFK_ form per current convention.
+  - `raw_handle:` was generic `manual-fetch-source-retrieval`; updated to the specific MFK_ form per current convention.
   - Replaced legacy `## Wiki pages updated on ingest` heading with `## Wiki pages this source may touch` per current schema.
   - Added complete Table 1, Table 2, Table 3, and Table 4 transcriptions (all 12 vegetables × all 8 metals) so downstream synthesis can read every value rather than the handful previously surfaced.
   - Removed editorial commentary that had crept into the prior page (statements like "may reflect... and the biological significance is uncertain", "warrants independent verification" for Cu values, "study notes possible measurement or unit interpretation issues"). The source page reports what the authors found; uncertainty about Fe HQ magnitudes or Cu concentration plausibility is for downstream synthesis to flag, not for the source page to editorialise.
@@ -182,18 +182,18 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - Speciation discipline: Cr is reported as total chromium (paper used ED-XRF, no Cr-VI speciation); `metals: [Cr ...]` is correct (not Cr-VI). No As/Hg/Pb/Cd analyses are reported by this paper, so no speciation flags apply.
 - Brand firewall: no brand names appear in the source page; no aggregation of brand-level data was required because the source does not report brand-level data — only market-aggregated composites from five general markets.
 - Routing: products: [] is intentional (paper measures raw fresh produce; no packaged-product slug applies). matrices: includes leafy-vegetable, root-vegetable, fruit-vegetable, and the generic fresh-vegetable to cover the 12 vegetable types that span those plant-part classes.
-- 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
+- 2026-05-20 — Fresh-context audit editorial review (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -33,7 +33,7 @@ Author, year, and title are taken from the Crossref record for the DOI, not scra
 
 ## Key numbers
 
-Each analyte named in `metals:` is listed below with the measurement-bearing lines that caused it to be asserted. Lines are copied from the verified extraction and retain the source units and wording where legible. An analyte with no lines here would not appear in the frontmatter.
+Each analyte named in `metals:` is listed below with the measurement-bearing lines that caused it to be asserted. Lines are copied from the verified extraction and retain the source units and wording where legible. An analyte with no lines here would not appear in the source metadata.
 
 ### Cd
 
@@ -77,7 +77,7 @@ This page makes the source discoverable for category-level evidence routing. Val
 
 ## Verification notes
 
-- Identity check: DOI, raw handle, cite-key, and SHA-256 were compared against existing `wiki/sources/` pages before creation.
+- Identity check: DOI, raw handle, cite-key, and SHA-256 were compared against existing the linked reference record pages before creation.
 - Provenance: first author and publication year resolved from Crossref for DOI `10.1186/s12940-019-0452-z`. PDFs whose DOI does not resolve are skipped, not given a fallback key.
 - Full-PDF read: `pdftotext -layout` was run twice and the extraction hashes compared before the page was written.
 - Analyte scope: each metal is asserted only where its spelled-out name appears on a line carrying a measurement. Element symbols alone never assert an analyte.
@@ -87,13 +87,13 @@ This page makes the source discoverable for category-level evidence routing. Val
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [1c0b678ac](https://github.com/paleofoundation/heavymetalindex/commit/1c0b678ac) | 2026-07-30 | major | 1 section added |
-| [6543561d1](https://github.com/paleofoundation/heavymetalindex/commit/6543561d1) | 2026-07-30 | major | 8 sections added; narrative text revised |
-| [04bef2fbd](https://github.com/paleofoundation/heavymetalindex/commit/04bef2fbd) | 2026-07-30 | major | 8 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [1c0b678acb](https://github.com/paleofoundation/heavymetalindex/commit/1c0b678acb) | 2026-07-30 | major | 1 section added |
+| [6543561d1b](https://github.com/paleofoundation/heavymetalindex/commit/6543561d1b) | 2026-07-30 | major | 8 sections added; narrative text revised |
+| [04bef2fbd5](https://github.com/paleofoundation/heavymetalindex/commit/04bef2fbd5) | 2026-07-30 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

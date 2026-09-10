@@ -105,8 +105,7 @@ Courses: the MT, PC, HMA, NRAMP, and ZIP narrative is appropriate for educator-a
 
 App: no per-product or per-ingredient occurrence data; this review does not contribute to ingredient `contamination_profile` values directly.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[mitigation/agronomic]]
 
 ## Verification notes
@@ -123,20 +122,20 @@ App: no per-product or per-ingredient occurrence data; this review does not cont
 - Replaced defective `raw_handle: papers-cube` with stable `raw_handle: PCMF_article-1-copy-8`.
 - Added `access_url` (DOI link) and `raw_sha256` provenance fields.
 - Added `water` to matrices to cover the rhizofiltration and aquatic-plant content.
-- Audit subagent (2026-05-18) flagged the Key numbers wording on the Lu et al. 2017 biochar entry as conflating two adjacent paper sentences — verified against page 7: the 38–42% figure refers to the proportion of total Pb²⁺ adsorbed via biochar functional-group contact, NOT to the Lu et al. 2017 four-metal reduction (which has no per-metal percentage in the source). Corrected: Lu et al. 2017 entry now reports the 5% (w/w) amendment without a percentage, and the 38–42% Pb²⁺ figure is given separately as a mechanism statement.
-- Audit subagent (2026-05-18) flagged `plant-tissue` as a possibly non-vocabulary matrix slug — verified against `wiki/sources/`: the slug is in active use in multiple existing source pages, so it is a recognized matrix value not a vocabulary defect. False positive; no change.
-- Audit subagent (2026-05-18) flagged `[[mitigation/agronomic]]` as possibly a missing page — verified `wiki/mitigation/agronomic.md` exists in the repo. False positive; no change.
+- Audit editorial review (2026-05-18) flagged the Key numbers wording on the Lu et al. 2017 biochar entry as conflating two adjacent paper sentences — verified against page 7: the 38–42% figure refers to the proportion of total Pb²⁺ adsorbed via biochar functional-group contact, NOT to the Lu et al. 2017 four-metal reduction (which has no per-metal percentage in the source). Corrected: Lu et al. 2017 entry now reports the 5% (w/w) amendment without a percentage, and the 38–42% Pb²⁺ figure is given separately as a mechanism statement.
+- Audit editorial review (2026-05-18) flagged `plant-tissue` as a possibly non-vocabulary matrix slug — verified against the linked reference record: the slug is in active use in multiple existing source pages, so it is a recognized matrix value not a vocabulary defect. False positive; no change.
+- Audit editorial review (2026-05-18) flagged `[[mitigation/agronomic]]` as possibly a missing page — verified the linked reference record exists in the repo. False positive; no change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

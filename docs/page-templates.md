@@ -6,6 +6,16 @@ Every wiki page starts with YAML frontmatter. Fields vary by page type but alway
 
 ## Source page (`wiki/sources/<cite-key>.md`)
 
+A public source page is a critical summary of the original evidence, not an ingest work log. Its metadata supplies identity and routing; its body explains findings and limitations to a reader. A completed ingest also requires structured extraction, destination coverage, regenerated outputs, checks, and a versioned record under [[docs/ingest-workflows]].
+
+An evidence tier describes the source's evidence class; it is not an ingest-completion badge. Set `ingest_status: complete` only after the compiled-wiki gate is satisfied and its extraction/reconciliation and routing audits are present. The source-contract check rejects a claimed complete ingest with missing required metadata. Historical metadata gaps remain a recovery queue and must not be mistaken for a scientific rejection of the source.
+
+Required metadata includes `type`, `cite_key`, `title`, authors/issuing body, publication year, `source_type`, `evidence_tier`, `raw_handle`, `raw_path`, a verified primary-artifact hash (`raw_sha256`, or a documented canonical `sha256` equivalent), `access_url`, rights/license information, `updated`, `sources`, and `audience`. Use a DOI when assigned; a verified no-DOI source carries `no_doi_assigned: true`. Preserve retrieval provenance. A supplement hash does not substitute for the primary dataset or paper's hash.
+
+Routing metadata includes explicit `products`, `ingredients`, `matrices`, `metals`, and `jurisdictions` arrays at the specificity the source supports. Evidence Fitness must be explicit: `evidence_fitness.supports` and `evidence_fitness.does_not_support` record uses and boundaries, with the reasoning in the body. Empty or unknown fields must be addressed or recorded as a gap; placeholder metadata does not establish a completed ingest.
+
+Illustrative template below: compute the hash and verify retrieval/rights metadata from the actual source. Do not copy bracketed placeholders into a completed source record.
+
 ```yaml
 ---
 type: source
@@ -16,10 +26,13 @@ authors: [He P, Lu Y, Liang Y, Chen B, Wu M, Li S, He G, Jin T]
 year: 2013
 publication: "BMC Public Health"
 doi: 10.1186/1471-2458-13-590
+access_url: https://doi.org/10.1186/1471-2458-13-590
+retrieval_date: "<verified retrieval date>"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_3750310/FM_3750310.md
+raw_sha256: "<SHA-256 computed from the primary artifact at raw_path>"
 metals: [Cd]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/seafood]]", "[[ingredients/tobacco]]"]
 products: []
@@ -28,33 +41,58 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 207
 sample_population: "Shanghai adults over 40"
+evidence_fitness:
+  supports: [population-specific-dietary-exposure]
+  does_not_support: [brand-level-contamination, certification-limits]
+audience: [regulator, researcher, consumer, app]
+sources: 0
 updated: 2026-04-23
 ---
 ```
 
+### Public source sections
+
+Use unheaded opening prose below the H1, followed by `## Key numbers`, `## Methods (brief)`, `## Evidence fitness`, `## Limitations`, and `## Related evidence`. A source with no reportable numerical findings says so rather than inventing a Key numbers table. Related evidence links to the pages the findings actually support. Additional reader-facing sections may describe data coverage, preparation, geographic variation, verified corrections, or regulatory context where relevant.
+
+Do not generate `Certification / Courses / App / Microbiome` planning bullets, `Wiki pages updated on ingest`, agent identities, local file paths, internal handles, extraction commands, or recovery work logs in the public body. Keep those operational details in structured metadata and internal audits. Public correction notes describe the corrected finding and its evidence, not the toolchain that performed the edit.
+
 ```markdown
 # He et al. 2013 — Dietary cadmium exposure in Shanghai adults
 
-Two to four sentences of un-headed opening prose summarizing what the authors measured, what they found, and why it matters. The prose sits directly under the `# H1` title with no `## TL;DR` heading; the wiki reads as authoritative reference, not as a list of casual TL;DRs. Source pages created before 2026-05-08 may still carry the legacy heading; remove it on touch.
+Two to four sentences describing what was measured, what the source found, and the population or matrix to which the finding applies.
 
 ## Key numbers
-Pull exact figures: sample sizes, means, 95th percentiles, LODs, geographic breakdown. Include page and table references from the source markdown. Preserve units and do not round.
+Exact reported figures, with units, basis, species, statistic labels, denominators, and source table/page identifiers. Distinguish source-reported numbers from derived statistics. Preserve every reportable statistic in the structured evidence even when the public summary selects only the most useful figures.
 
 ## Methods (brief)
-Analytical method, speciation or total, sample prep, LOD/LOQ. Flag any limitations.
+Sampling frame, analytical method, preparation, total versus speciated analytes, detection/reporting limits, and censoring treatment.
 
-## Implications
-Certification: ...
-Courses: ...
-App: ...
-Microbiome (if applicable): ...
+## Evidence fitness
+Explain what these data support and what they cannot establish. A study reporting only summary statistics is still usable evidence; a modelled distribution is labeled as modelled, never as observed samples.
 
-## Wiki pages updated on ingest
+## Limitations
+Scope, sampling uncertainty, basis or species restrictions, missing fields, and any limits on comparison with another dataset or legal instrument.
+
+## Related evidence
 - [[metals/cadmium]]
 - [[ingredients/rice]]
-- [[ingredients/leafy-vegetables]]
-- [[regulations/china-gb-2762-2005]]
 ```
+
+### Dataset downloads
+
+Where redistribution is permitted, publish the source's actual structured samples, summaries, and routes as applicable. The source frontmatter declares `data_downloads` entries with a reader-facing `label` and a site-local `path` under `static/data/`; supported extensions are CSV and JSON. The export must exist before the source advertises it. The manifest records each download's hash and bytes, and the page rail exposes the links. Internal `data_path`, `summary_path`, or route-register pointers are not public download URLs.
+
+```yaml
+data_downloads:
+  - label: Analytical results (CSV)
+    path: static/data/source-results.csv
+  - label: Summary statistics (CSV)
+    path: static/data/source-summary.csv
+  - label: Food-to-ingredient routes (CSV)
+    path: static/data/source-routes.csv
+```
+
+For a reviewed primary structured dataset, `extraction_authority: primary-structured` identifies the authoritative extraction and prevents a prose-table heuristic from being treated as an equivalent source of sample values. That field is not a review approval by itself. Pending source records (`status: tier1-stub` or `evidence_tier: pending`) remain recovery items and are excluded from public pages and evidence manifests.
 
 ## Metal page (`wiki/metals/<metal>.md`)
 

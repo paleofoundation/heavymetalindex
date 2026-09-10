@@ -70,7 +70,7 @@ App: The source can support product/ingredient profiles for seafood and shellfis
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1550.txt`; Table 2, Table 4, Table 5, and the Methods were re-read before writing.
-- Identity checks before creation: DOI `10.1016/j.marpolbul.2023.114581`, raw handle `MFK_metal-pollution-and-potential-human-health-risk`, raw SHA-256 `35927a13d569997080692ddf7020c6bfb5db552f7559bb773d93fa9e6297677a`, and cite key `haseeb-ur-rehman2023-pakistan-seafood-metals` were searched in `wiki/sources/` and evidence files; no existing source page was found.
+- Identity checks before creation: DOI `10.1016/j.marpolbul.2023.114581`, raw handle `MFK_metal-pollution-and-potential-human-health-risk`, raw SHA-256 `35927a13d569997080692ddf7020c6bfb5db552f7559bb773d93fa9e6297677a`, and cite key `haseeb-ur-rehman2023-pakistan-seafood-metals` were searched in the linked reference record and evidence files; no existing source page was found.
 - Units are preserved as `mg kg-1 w.w` and `µg/g, w.w` where printed; no conversion between equivalent units was made.
 - Speciation: mercury is total mercury/nondetect context (`tHg`); no methylmercury values are reported or inferred.
 - Brand firewall: samples came from processing plants/export consignments, but no plant or brand names are attached to values.
@@ -79,13 +79,13 @@ App: The source can support product/ingredient profiles for seafood and shellfis
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

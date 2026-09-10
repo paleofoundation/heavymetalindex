@@ -82,21 +82,21 @@ This source contributes shellfish occurrence evidence for organotin tin species 
 - DOI `10.1016/j.scitotenv.2018.09.310`, raw handle `MFK_chen2019`, and cite-key checks found no existing source page before creation.
 - Tables 1 and 2 were checked against the extracted text. Units are preserved as `ng Sn g−1 dw`; no conversion was performed. The commercial-oyster table repeats SHS1 and SHS2 labels in the extracted text; the labels were copied as extracted rather than corrected.
 - Internal-paper discrepancy: the abstract states the commercial-oyster total range as `251 to 1949 ng Sn g−1 dw`, but Table 1's maximum total is `2328 ± 35 ng Sn g−1 dw` (site SHS6). The wiki reports the abstract figure verbatim; the table's higher maximum is also preserved as the row value in the Table 1 block above. The discrepancy is in the source itself.
-- Speciation: all values are organotin species, not total Sn or inorganic tin. Following the established convention for organotin source pages in this wiki (ho2014, ho2016, uc-peraza2022, shu2023, jiang2026, efsa2004), the frontmatter uses `metals: [Sn]` with `organotins` added to `matrices:` to signal that downstream routing must treat these values as organotin-species evidence, not bulk Sn.
+- Speciation: all values are organotin species, not total Sn or inorganic tin. Following the established convention for organotin source pages in this wiki (ho2014, ho2016, uc-peraza2022, shu2023, jiang2026, efsa2004), the source metadata uses `metals: [Sn]` with `organotins` added to `matrices:` to signal that downstream routing must treat these values as organotin-species evidence, not bulk Sn.
 - Brand firewall: the source uses market/site codes and city locations only; no sampled product brand names were reported.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 - Audit 2026-06-09 (autonomous): GPT-style audit flagged `metals: [Sn]` as a speciation error; verified against repo convention — eight other organotin source pages use the same `metals: [Sn]` plus `organotins` in matrices, so the bare `Sn` tag is correct but the missing `organotins` matrix entry was a real defect (added). Audit also flagged the abstract-vs-Table-1 discrepancy and the softened `significantly greater` qualifier; both applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

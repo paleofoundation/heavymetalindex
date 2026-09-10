@@ -83,21 +83,21 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 
 - 2026-05-17 Codex merge-enhance: identity checked against DOI 10.2478/ata-2019-0012 and the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, rerouted from `products/cooking-oils-other` to `products/olive-oil`, corrected Italian Table 1 transcriptions (non-flavoured Pb/As and fungi vs vegetable Ni), aggregated the four Iranian anonymized series into ranges to avoid brand/series-level ranking, and changed legacy headings to current source-page headings.
 - Strict Part 12 cleanup: source reports four anonymized Iranian series; the wiki page now reports the range across the series rather than listing series-by-series values with a highest-series callout.
-- Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; frontmatter therefore retains `tAs` pending cross-audit.
+- Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; source metadata therefore retains `tAs` pending cross-audit.
 - `edible-oil`, `olive-oil`, and `flavoured-olive-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - 2026-05-18 Cross-vendor audit (Codex) made the source-internal Ni contradiction explicit: Table 3 reports Iranian Ni lower than Italian Ni (9.579 vs 12.253 µg/g), while the narrative says Iranian Ni was higher. Also tightened the regulatory note so Codex/USDA 0.1 mg/kg is not over-attributed to Cd.
-- 2026-05-25 Claude cross-audit (fresh-context subagent): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
+- 2026-05-25 Claude cross-audit (fresh-context editorial review): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

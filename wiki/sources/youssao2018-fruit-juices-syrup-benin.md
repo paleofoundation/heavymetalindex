@@ -119,18 +119,18 @@ Microbiome: Not addressed.
 - The paper reports total As and total Hg only; no arsenic or mercury speciation was performed.
 - Strict brand firewall: processing units are anonymized by code in the paper and no commercial juice brands are named in this source page.
 - Methods vendor/equipment/software names are retained under Part 12 Exception 2.
-- Fresh-context audit (Claude subagent, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against Tables 8/9/10/11 (percentiles, means, JUA6/OJA3/VIP3/FRU4/FRU5/FRE2/FRE4 high-end values all match); slug vocabulary valid (auditor flagged `products/fruit-juices-non-apple` as missing but the page exists on disk — auditor was working from stale taxonomy snapshot, no edit needed); speciation correct (tAs/tHg, no speciation performed); brand firewall clean (3-letter anonymized processor codes preserved as in source); HMTc firewall clean (no percentile arithmetic). 0 findings applied.
+- Fresh-context audit (Claude editorial review, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against Tables 8/9/10/11 (percentiles, means, JUA6/OJA3/VIP3/FRU4/FRU5/FRE2/FRE4 high-end values all match); slug vocabulary valid (auditor flagged `products/fruit-juices-non-apple` as missing but the page exists on disk — auditor was working from stale taxonomy snapshot, no edit needed); speciation correct (tAs/tHg, no speciation performed); brand firewall clean (3-letter anonymized processor codes preserved as in source); HMTc firewall clean (no percentile arithmetic). 0 findings applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

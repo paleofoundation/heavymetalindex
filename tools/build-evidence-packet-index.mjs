@@ -7,10 +7,9 @@
 //   slug, title, description, page_type, audience
 //   wiki_doi (placeholder until DataCite minting lands)
 //   canonical_url
-//   content_sha256 (over the raw markdown body, frontmatter stripped — the
-//     hash is stable across cosmetic frontmatter edits but changes the
-//     moment a substantive claim changes)
-//   last_commit (short sha) + last_commit_date (ISO date) — the git pin
+//   content_sha256 (authored Markdown only; exact scheme in shared utility)
+//   metadata_sha256 (semantic frontmatter) + exact published-byte checksums
+//   git_commit_sha (full verified SHA) + last_commit metadata — the git pin
 //     downstream readers cite against
 //   contributing_sources where the frontmatter declares them (synthesis,
 //     ingredient contamination profiles, regulation source_refs)
@@ -21,16 +20,13 @@
 import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
-import { execSync } from "node:child_process"
-import yaml from "js-yaml"
+import { execFileSync } from "node:child_process"
+import { pathToFileURL } from "node:url"
+import { contentHashes, parsePage, sameContent, isVerifiedPin, EVIDENCE_PACKET_SCHEMA } from "./lib/evidence-packet.mjs"
+import { isPublicWikiRecord } from "./lib/source-publication.mjs"
+import { sourceContract } from "./lib/source-contract.mjs"
+import { publicDataDownloads } from "./lib/public-data-downloads.mjs"
 
-const repoRoot = process.cwd()
-const wikiDir = path.join(repoRoot, "wiki")
-// Written into wiki/static/ so Quartz's Assets emitter copies it to
-// public/static/ at build time. /api/evidence-packet reads from the
-// deployed /static/ URL with a bundled local fallback at
-// ../wiki/static/evidence-packet-index.json.
-const outPath = path.join(repoRoot, "wiki/static/evidence-packet-index.json")
 const CANONICAL_BASE = "https://heavymetalindex.com"
 
 // Mirror the public-surface filter the existing public artifacts use.
@@ -93,14 +89,6 @@ function walk(dir, base = "") {
   return out
 }
 
-function parseFrontmatter(raw) {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n?/)
-  if (!match) return { data: {}, body: raw }
-  let data = {}
-  try { data = yaml.load(match[1]) || {} } catch {}
-  return { data, body: raw.slice(match[0].length) }
-}
-
 function extractContributingSources(frontmatter, body) {
   const out = new Set()
   const arr = frontmatter.contributing_sources || frontmatter.source_refs || frontmatter.sources_ref || []
@@ -123,46 +111,57 @@ function extractContributingSources(frontmatter, body) {
   return Array.from(out).sort()
 }
 
-// Single-pass git log to attribute last commit to every file under wiki/.
-//
-// GUARDED. `vercel deploy` from the CLI uploads a source tarball WITHOUT `.git`,
-// so this exec threw `fatal: not a git repository` and took the entire prebuild
-// — and therefore every CLI deploy — down with it. Empirically, not
-// theoretically: deployment dpl_CgibHnyhTq5p36yWX1o2s4mCJjQE failed exactly
-// this way (docs/findings.md:58).
-//
-// The guard is a try/catch that degrades to an EMPTY index rather than a
-// fallback that fabricates attribution: with no git history there is no honest
-// last-commit date, and inventing one would put a wrong date on a provenance
-// artifact. Callers already handle a missing entry.
-//
-// Same family as the shallow-clone trap, but worse: a shallow clone yields one
-// commit per file, this yields zero repository at all.
-function buildGitIndex() {
-  let log
-  try {
-    log = execSync(
-      `git log --name-only --pretty=format:"COMMIT|%h|%ai" -- 'wiki'`,
-      { cwd: repoRoot, encoding: "utf8", maxBuffer: 200 * 1024 * 1024, stdio: ["ignore", "pipe", "ignore"] },
-    )
-  } catch {
-    console.warn(
-      "build-evidence-packet-index: no git history available (CLI deploy uploads without .git); " +
-        "emitting index with no commit attribution.",
-    )
-    return new Map()
+// Read one immutable Git tree. Canonical hashes ignore generated history and
+// references, so normal prebuild decoration cannot invalidate an authored pin.
+function buildGitSnapshot(repoRoot) {
+  const git = (args, options = {}) => execFileSync("git", args, {
+    cwd: repoRoot, encoding: "utf8", maxBuffer: 200 * 1024 * 1024,
+    stdio: ["pipe", "pipe", "ignore"], ...options,
+  })
+  let commit
+  try { commit = git(["rev-parse", "--verify", "HEAD"]).trim() } catch { return null }
+  const entries = git(["ls-tree", "-r", "-z", commit, "--", "wiki"])
+    .split("\0").filter(Boolean).map(line => {
+      const match = line.match(/^\d+ blob ([a-f0-9]+)\t(.+)$/)
+      return match && match[2].endsWith(".md") ? { sha: match[1], file: match[2] } : null
+    }).filter(Boolean)
+  const blobs = git(["cat-file", "--batch"], { encoding: null, input: entries.map(e => e.sha).join("\n") + "\n" })
+  let offset = 0
+  const files = new Map()
+  for (const entry of entries) {
+    const end = blobs.indexOf(10, offset)
+    const size = Number(blobs.subarray(offset, end).toString().split(" ")[2])
+    offset = end + 1
+    files.set(entry.file, blobs.subarray(offset, offset + size).toString("utf8"))
+    offset += size + 1
   }
-  const map = new Map()
+  const lastCommits = new Map()
   let current = null
-  for (const line of log.split("\n")) {
+  for (const line of git(["log", commit, "--name-only", "--pretty=format:COMMIT|%H|%cs", "--", "wiki"]).split("\n")) {
     if (line.startsWith("COMMIT|")) {
-      const [, sha, isoDate] = line.split("|")
-      current = { sha, date: isoDate.slice(0, 10) }
-    } else if (line.trim() && current && !map.has(line)) {
-      map.set(line, current)
-    }
+      const [, sha, date] = line.split("|")
+      current = { sha, date }
+    } else if (line && current && !lastCommits.has(line)) lastCommits.set(line, current)
   }
-  return map
+  return { commit, files, lastCommits }
+}
+
+function readPrior(outPath) {
+  try {
+    const payload = JSON.parse(fs.readFileSync(outPath, "utf8"))
+    if (payload.schema_version !== EVIDENCE_PACKET_SCHEMA || !Array.isArray(payload.records)) return new Map()
+    return new Map(payload.records.map(record => [record.slug, record]))
+  } catch { return new Map() }
+}
+
+function downloadsFor(data, repoRoot) {
+  const entries = publicDataDownloads(data.data_downloads)
+  if (data.data_downloads && entries.length !== data.data_downloads.length) throw new Error("Invalid public data_downloads entry")
+  return entries.map(entry => {
+    const bytes = fs.readFileSync(path.join(repoRoot, "wiki", entry.path))
+    return { ...entry, url: `${CANONICAL_BASE}/${entry.path}`, bytes: bytes.length,
+      sha256: crypto.createHash("sha256").update(bytes).digest("hex") }
+  })
 }
 
 function pickPageType(slug, frontmatter) {
@@ -176,45 +175,45 @@ function pickPageType(slug, frontmatter) {
   return "reference"
 }
 
-const gitIndex = buildGitIndex()
-const pages = walk(wikiDir)
-const records = []
-let skipped = 0
-for (const { slug, fullPath } of pages) {
-  if (!isPublic(slug)) { skipped++; continue }
-  const raw = fs.readFileSync(fullPath, "utf8")
-  const { data, body } = parseFrontmatter(raw)
-  const contentSha256 = crypto.createHash("sha256").update(body).digest("hex")
-  const repoRelative = path.relative(repoRoot, fullPath)
-  const git = gitIndex.get(repoRelative) || null
-  records.push({
-    slug,
-    title: data.title || slug,
-    description: data.description || null,
-    page_type: pickPageType(slug, data),
-    audience: Array.isArray(data.audience) ? data.audience : [],
-    wiki_doi: data.wiki_doi || null,
-    canonical_url: `${CANONICAL_BASE}/${slug}`,
-    content_sha256: contentSha256,
-    content_bytes: Buffer.byteLength(body, "utf8"),
-    last_commit_sha: git?.sha || null,
-    last_commit_date: git?.date || null,
-    contributing_sources: extractContributingSources(data, body),
-  })
+export function buildEvidencePacketIndex({ repoRoot = process.cwd(), outPath = path.join(repoRoot, "wiki/static/evidence-packet-index.json"), generatedAt = new Date().toISOString() } = {}) {
+  const wikiDir = path.join(repoRoot, "wiki")
+  const git = buildGitSnapshot(repoRoot)
+  const prior = readPrior(outPath)
+  const records = []
+  let skipped = 0
+  for (const { slug, fullPath } of walk(wikiDir)) {
+    if (!isPublic(slug)) { skipped++; continue }
+    const raw = fs.readFileSync(fullPath, "utf8")
+    const { data, body } = parsePage(raw)
+    if (!isPublicWikiRecord(data, slug)) { skipped++; continue }
+    const hashes = contentHashes(raw)
+    const relative = path.relative(repoRoot, fullPath).split(path.sep).join("/")
+    const committedRaw = git?.files.get(relative)
+    const committedHashes = committedRaw === undefined ? null : contentHashes(committedRaw)
+    const previous = prior.get(slug)
+    let pin = { pin_status: "unpinned", pin_reason: git ? "Authored content or semantic metadata differs from the committed Git tree." : "Git history and a matching verified prior manifest are unavailable.", git_commit_sha: null, last_commit_sha: null, last_commit_date: null }
+    if (committedHashes && sameContent(committedHashes, hashes)) {
+      const last = git.lastCommits.get(relative)
+      pin = { pin_status: "verified_git", pin_reason: null, git_commit_sha: git.commit, last_commit_sha: last?.sha || git.commit, last_commit_date: last?.date || null }
+    } else if (!git && isVerifiedPin(previous) && sameContent(previous, hashes)) {
+      pin = { pin_status: "preserved_verified_git", pin_reason: null, git_commit_sha: previous.git_commit_sha, last_commit_sha: previous.last_commit_sha, last_commit_date: previous.last_commit_date }
+    }
+    records.push({
+      slug, title: data.title || slug, description: data.description || null,
+      page_type: pickPageType(slug, data), audience: Array.isArray(data.audience) ? data.audience : [],
+      wiki_doi: data.wiki_doi || null, canonical_url: `${CANONICAL_BASE}/${slug}`,
+      ...hashes, ...pin, contributing_sources: extractContributingSources(data, body),
+      data_downloads: downloadsFor(data, repoRoot),
+      ...(pickPageType(slug, data) === "source" ? { ingest_contract: sourceContract(data) } : {}),
+    })
+  }
+  records.sort((a, b) => a.slug.localeCompare(b.slug))
+  const payload = { generated_at: generatedAt, schema_version: EVIDENCE_PACKET_SCHEMA,
+    canonical_base: CANONICAL_BASE, record_count: records.length, records }
+  fs.mkdirSync(path.dirname(outPath), { recursive: true })
+  fs.writeFileSync(outPath, JSON.stringify(payload, null, 2) + "\n", "utf8")
+  console.error(`[evidence-packet-index] wrote ${records.length} records (${records.filter(isVerifiedPin).length} verified pins), skipped ${skipped} non-public pages, output ${outPath}`)
+  return payload
 }
-records.sort((a, b) => a.slug.localeCompare(b.slug))
 
-const payload = {
-  generated_at: new Date().toISOString(),
-  schema_version: "1.0.0",
-  canonical_base: CANONICAL_BASE,
-  record_count: records.length,
-  records,
-}
-
-fs.mkdirSync(path.dirname(outPath), { recursive: true })
-fs.writeFileSync(outPath, JSON.stringify(payload, null, 2) + "\n", "utf8")
-
-console.error(
-  `[evidence-packet-index] wrote ${records.length} records, skipped ${skipped} non-public pages, output ${outPath}`,
-)
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) buildEvidencePacketIndex()

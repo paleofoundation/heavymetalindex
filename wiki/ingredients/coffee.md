@@ -83,7 +83,7 @@ used_in_products: [coffee]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 28
+sources: 29
 ---
 
 # Coffee
@@ -117,6 +117,30 @@ This node is linked from [[products/coffee]].
 
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 305: Coffee, brewed from ground | tAs | 3 | 0 | ND in all composites | 1 |
+| 305: Coffee, brewed from ground | Cd | 3 | 0 | ND in all composites | 1 |
+| 305: Coffee, brewed from ground | Cr | 3 | 0 | ND in all composites | 25 |
+| 305: Coffee, brewed from ground | Pb | 3 | 0 | ND in all composites | 1 |
+| 305: Coffee, brewed from ground | tHg | 3 | 0 | ND in all composites | 1 |
+| 305: Coffee, brewed from ground | Ni | 3 | 3 | 22–40 | 20 |
+| 305: Coffee, brewed from ground | U | 3 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -138,20 +162,21 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 | 12 | [[sources/zergui2023-coffee-metals-origin-icp-ms\|Zergui et al. 2023]]. *Evaluation of trace metallic element levels in coffee by ICP-MS: a comparative study among different origins, forms, and packaging types and consumer risk assessment*, Biological Trace Element Research | 2023 | Peer-reviewed | Ni, Cr, Pb, Cd, tAs, and Al in 44 coffee samples (instant, ground, capsule) from Algerian market by ICP-MS; multi-origin and form comparison; B-tier caveat on CDI exceedances for Cd |
 | 13 | [[sources/abraheem2022-tea-coffee-lead-cadmium\|Mohammad et al. 2022]]. *Determination of Lead and Cadmium Concentration in Different Samples of Tea and Coffee Circulating in the Libyan Market*, International Journal of Science and Research | 2022 | Peer-reviewed | LY Pb, Cd occurrence in Seventeen tea samples and eleven coffee samples circulating in Tripoli, Libya during 2018-2019 (n=28) |
 | 14 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | German MEAL Study Ni concentrations for the coffee, cocoa, and tea food group |
-| 15 | [[sources/winiarska-mieczan2022-cd-pb-instant-coffee-poland\|Winiarska-Mieczan et al. 2022]]. *Cadmium and Lead Concentration in Drinking Instant Coffee, Instant Coffee Drinks and Coffee Substitutes: Safety and Health Risk Assessment*, Biological Trace Element Research | 2022 | Peer-reviewed | PL Cd, Pb occurrence in 49 instant coffee, instant coffee drink, and coffee-substitute products bought in grocery stores in Chelm, Zamosc, and Lublin,... (n=49) |
-| 16 | [[sources/albals2021-coffee-jordan-icpms\|Albals et al. 2021]]. *Multi-element determination of essential and toxic metals in green and roasted coffee beans: A comparative study among different origins using ICP-MS*, Science Progress | 2021 | Peer-reviewed | Pb, Cd, Al, Cr, Ni, and U in green and roasted coffee beans across five origins by ICP-MS, including roasting effects on concentrations |
-| 17 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, and tHg in Arabica roasted coffee beans from the Polish market |
-| 18 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
-| 19 | [[sources/truzzi2020-insect-biomass-feed-metals\|Truzzi et al. 2020]]. *A Chemically Safe Way to Produce Insect Biomass for Possible Application in Feed and Food Production*, International Journal of Environmental Research and Public Health | 2020 | Peer-reviewed | IT/EU Cd, Pb, tHg, tAs, Ni occurrence in Hermetia illucens prepupae reared in five replicates per substrate group on coffee-silverskin substrates with or without microalgae additions (n=45) |
-| 20 | [[sources/adler2019-selected-metals-coffee-bosnia\|Adler et al. 2019]]. *Concentrations of selected metals (Na, K, Ca, Mg, Fe, Cu, Zn, Al, Ni, Pb, Cd) in coffee*, Zdravstveno Varstvo / Slovenian Journal of Public Health | 2019 | Peer-reviewed | BA Al, Ni, Pb, Cd, Cu, Zn, Fe, Mg occurrence in Two green coffee bean samples and six roasted coffee bean samples purchased in small local stores in Sarajevo,... (n=8) |
-| 21 | [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals\|Chaiyasut et al. 2018]]. *Formulation and stability assessment of Arabica and Civet coffee extracts based cosmetic preparations*, Asian Journal of Pharmaceutical and Clinical Research | 2018 | Peer-reviewed | TH Pb, tAs, tHg occurrence in Arabica and civet coffee extract body lotion and hand moisturizing cream formulations after 3 months at 40°C (n=12) |
-| 22 | [[sources/dasilva2017-heavy-metals-coffee-brazil\|Silva et al. 2017]]. *Determination of heavy metals in the roasted and ground coffee beans and brew*, African Journal of Agricultural Research | 2017 | Peer-reviewed | BR Cd, Cr, Cu, Mn, Ni, Pb, Zn occurrence in 50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais,... (n=50) |
-| 23 | [[sources/stahl2017-aluminum-food-contact-part1\|Stahl et al. 2017]]. *Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods*, Environmental Sciences Europe | 2017 | Peer-reviewed | DE/EU Al occurrence in Hessian State Laboratory aluminum results for 1,825 foodstuff samples across 30 product groups, plus Part I study-design context... (n=1825) |
-| 24 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS coffee concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
-| 25 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
-| 26 | [[sources/efsa-chromium-contam-2014\|EFSA 2014]]. *Scientific Opinion on the risks to public health related to the presence of chromium in food and drinking water*, EFSA Journal 2014;12(3):3595 | 2014 | Government report | EU Cr, Cr-VI occurrence in Analytical results submitted to EFSA on chromium in food (27,074) and drinking water (52,735) reported by EU Member... (n=79809) |
-| 27 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
-| 28 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EU iAs, tAs concentrations |
+| 15 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 16 | [[sources/winiarska-mieczan2022-cd-pb-instant-coffee-poland\|Winiarska-Mieczan et al. 2022]]. *Cadmium and Lead Concentration in Drinking Instant Coffee, Instant Coffee Drinks and Coffee Substitutes: Safety and Health Risk Assessment*, Biological Trace Element Research | 2022 | Peer-reviewed | PL Cd, Pb occurrence in 49 instant coffee, instant coffee drink, and coffee-substitute products bought in grocery stores in Chelm, Zamosc, and Lublin,... (n=49) |
+| 17 | [[sources/albals2021-coffee-jordan-icpms\|Albals et al. 2021]]. *Multi-element determination of essential and toxic metals in green and roasted coffee beans: A comparative study among different origins using ICP-MS*, Science Progress | 2021 | Peer-reviewed | Pb, Cd, Al, Cr, Ni, and U in green and roasted coffee beans across five origins by ICP-MS, including roasting effects on concentrations |
+| 18 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, and tHg in Arabica roasted coffee beans from the Polish market |
+| 19 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
+| 20 | [[sources/truzzi2020-insect-biomass-feed-metals\|Truzzi et al. 2020]]. *A Chemically Safe Way to Produce Insect Biomass for Possible Application in Feed and Food Production*, International Journal of Environmental Research and Public Health | 2020 | Peer-reviewed | IT/EU Cd, Pb, tHg, tAs, Ni occurrence in Hermetia illucens prepupae reared in five replicates per substrate group on coffee-silverskin substrates with or without microalgae additions (n=45) |
+| 21 | [[sources/adler2019-selected-metals-coffee-bosnia\|Adler et al. 2019]]. *Concentrations of selected metals (Na, K, Ca, Mg, Fe, Cu, Zn, Al, Ni, Pb, Cd) in coffee*, Zdravstveno Varstvo / Slovenian Journal of Public Health | 2019 | Peer-reviewed | BA Al, Ni, Pb, Cd, Cu, Zn, Fe, Mg occurrence in Two green coffee bean samples and six roasted coffee bean samples purchased in small local stores in Sarajevo,... (n=8) |
+| 22 | [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals\|Chaiyasut et al. 2018]]. *Formulation and stability assessment of Arabica and Civet coffee extracts based cosmetic preparations*, Asian Journal of Pharmaceutical and Clinical Research | 2018 | Peer-reviewed | TH Pb, tAs, tHg occurrence in Arabica and civet coffee extract body lotion and hand moisturizing cream formulations after 3 months at 40°C (n=12) |
+| 23 | [[sources/dasilva2017-heavy-metals-coffee-brazil\|Silva et al. 2017]]. *Determination of heavy metals in the roasted and ground coffee beans and brew*, African Journal of Agricultural Research | 2017 | Peer-reviewed | BR Cd, Cr, Cu, Mn, Ni, Pb, Zn occurrence in 50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais,... (n=50) |
+| 24 | [[sources/stahl2017-aluminum-food-contact-part1\|Stahl et al. 2017]]. *Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods*, Environmental Sciences Europe | 2017 | Peer-reviewed | DE/EU Al occurrence in Hessian State Laboratory aluminum results for 1,825 foodstuff samples across 30 product groups, plus Part I study-design context... (n=1825) |
+| 25 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS coffee concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
+| 26 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 27 | [[sources/efsa-chromium-contam-2014\|EFSA 2014]]. *Scientific Opinion on the risks to public health related to the presence of chromium in food and drinking water*, EFSA Journal 2014;12(3):3595 | 2014 | Government report | EU Cr, Cr-VI occurrence in Analytical results submitted to EFSA on chromium in food (27,074) and drinking water (52,735) reported by EU Member... (n=79809) |
+| 28 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
+| 29 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | EU iAs, tAs concentrations |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -214,13 +239,13 @@ Mushroom coffee, adaptogen coffee, and similar functional-coffee products sold w
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

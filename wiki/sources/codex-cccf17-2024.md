@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: ["quinoa", "cereals", "vegetables", "fish", "seafood", "cocoa-beans"]
 type: source
 cite_key: codex-cccf17-2024
 title: "Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-24
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # Codex CCCF17 2024 — Session Report (REP24/CF17)
@@ -49,7 +53,7 @@ Context on the new Code of Practice work (paragraphs 130 to 133): the US introdu
 
 ## Methods (brief)
 
-Codex session reports document the deliberations and decisions of a Codex Committee meeting rather than presenting primary scientific analysis. The cadmium-specific content in this report reflects (a) the Committee's risk-management deliberation on the quinoa ML following a prior JECFA analysis of quinoa cadmium occurrence data presented via the Joint FAO/WHO JECFA Secretariats, and (b) the Committee's decision to initiate new standards-setting work on a Code of Practice drawing on risk management practices reported in the literature and by Member States. No new toxicological assessment or reference value was derived at this session; the JECFA PTMI of 25 µg/kg b.w./month remains in force and is not revisited in this report. Primary quantitative substance lives in the prior JECFA monographs (73rd meeting 2010 for the PTMI; 91st meeting 2020 for the updated dietary exposure assessment) and in Codex Standard CXS 193-1995 for the matrix-level MLs.
+automated editorial review reports document the deliberations and decisions of a Codex Committee meeting rather than presenting primary scientific analysis. The cadmium-specific content in this report reflects (a) the Committee's risk-management deliberation on the quinoa ML following a prior JECFA analysis of quinoa cadmium occurrence data presented via the Joint FAO/WHO JECFA Secretariats, and (b) the Committee's decision to initiate new standards-setting work on a Code of Practice drawing on risk management practices reported in the literature and by Member States. No new toxicological assessment or reference value was derived at this session; the JECFA PTMI of 25 µg/kg b.w./month remains in force and is not revisited in this report. Primary quantitative substance lives in the prior JECFA monographs (73rd meeting 2010 for the PTMI; 91st meeting 2020 for the updated dietary exposure assessment) and in Codex Standard CXS 193-1995 for the matrix-level MLs.
 
 Limitations of this document for wiki purposes: most matrix-level Codex cadmium MLs that regulators and market participants reference (for rice, cereals, leafy vegetables, edible offal, bivalve molluscs, and so on) do not appear in this session report. They are defined in Codex Standard CXS 193-1995 and its amendments, which are separate documents pending ingest. The wiki's regulation page cites the quinoa ML from this session report and flags the broader matrix-level MLs as pending until CXS 193-1995 is in the corpus.
 
@@ -62,7 +66,7 @@ Limitations of this document for wiki purposes: most matrix-level Codex cadmium 
 
 ## Provenance notes
 
-License class `public-reference-only` applied as a conservative default. The extracted text of this document does not contain an explicit Creative Commons or FAO/WHO license block; Codex session reports are working documents of the Codex Alimentarius Commission and are widely treated as freely citable but not explicitly licensed for redistribution. If the full PDF back cover or Codex website indicates a CC license such as CC-BY-NC-SA-3.0-IGO as FAO/WHO typically apply, the `license` field on this source page should be updated accordingly. Factual content from this report (meeting date, participants, ML values, Committee decisions, project document structure) is not subject to copyright in any case.
+License class `public-reference-only` applied as a conservative default. The extracted text of this document does not contain an explicit Creative Commons or FAO/WHO license block; automated editorial review reports are working documents of the Codex Alimentarius Commission and are widely treated as freely citable but not explicitly licensed for redistribution. If the full PDF back cover or Codex website indicates a CC license such as CC-BY-NC-SA-3.0-IGO as FAO/WHO typically apply, the `license` field on this source page should be updated accordingly. Factual content from this report (meeting date, participants, ML values, Committee decisions, project document structure) is not subject to copyright in any case.
 
 Two follow-up ingests this source flags:
 
@@ -70,8 +74,7 @@ First, Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins
 
 Second, CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans). Not in the current corpus. This document is the precedent on which the new broader CoP is being built and is directly relevant to the wiki's cocoa and chocolate content anchored by the JECFA 91st meeting 2020 finding.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[regulations/codex-cadmium-mls]]
 - [[synthesis]]
@@ -79,13 +82,13 @@ Second, CXC 81-2022 (Code of Practice for the Prevention and Reduction of Cadmiu
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [3d5deb8ad](https://github.com/paleofoundation/heavymetalindex/commit/3d5deb8ad) | 2026-04-24 | major | 6 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9a3fa9ddf1](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf1) | 2026-04-30 | major | 1 section added and 1 removed |
+| [3d5deb8ad9](https://github.com/paleofoundation/heavymetalindex/commit/3d5deb8ad9) | 2026-04-24 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

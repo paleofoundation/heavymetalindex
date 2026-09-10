@@ -96,22 +96,22 @@ Courses: Good teaching example for separating environmental remediation data fro
 
 This page was built from the full PDF, including the abstract, Table 1 soil concentrations, Figure 1 soil summaries, Table 2 root/stem/leaf concentrations, Figure 2 organ plots, Table 3 genotype comparisons and CDA results, the discussion, materials and methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source does not measure edible commodities or consumer products. The source reports total elemental concentrations after digestion; arsenic and chromium species are not separated.
 
-Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
+Audit editorial review (2026-06-02) flagged source metadata `metals: [..., As]` as inconsistent with, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected source metadata to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
 
-Audit subagent (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
+Audit editorial review (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
 
-Audit subagent (2026-06-02) flagged the five `matrices:` strings (mining-basin-soil, salix-root, salix-stem, salix-leaf, phytoremediation-trial) as outside the standard matrices vocabulary. Per the systemic-vocab-gap precedent established by jarwar2023, houston2023, yang2023, and tang2024 retro-audits on 2026-06-02, non-standard remediation-domain matrices are documented as a systemic vocabulary gap rather than a per-page defect; matrices are retained as descriptive bare strings.
+Audit editorial review (2026-06-02) flagged the five `matrices:` strings (mining-basin-soil, salix-root, salix-stem, salix-leaf, phytoremediation-trial) as outside the standard matrices vocabulary. Per the systemic-vocab-gap precedent established by jarwar2023, houston2023, yang2023, and tang2024 retro-audits on 2026-06-02, non-standard remediation-domain matrices are documented as a systemic vocabulary gap rather than a per-page defect; matrices are retained as descriptive bare strings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

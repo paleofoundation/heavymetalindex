@@ -136,19 +136,19 @@ App: Drinking water can be added to the per-age aluminum exposure model using th
 - Part 12 brand firewall: source contains no brand-attributed contamination data; method/vendor exception N/A (no analytical instrument vendors named in the source-level method summaries; APHA/EPA standard method numbers only).
 - Part 2 wiki/HMTc firewall: this page reports the Health Canada guideline values, derivation steps, occurrence data, and international comparators as the document presents them. No comparison to HMT&C thresholds, no consumer risk advisories, no proposals for HMT&C certification levels.
 - Brand-firewall exception 1 (regulatory event subject) does not apply — the document does not name any branded products as the subject of a regulatory action.
-- Audit subagent (2026-06-04) flagged a Manitoba/Saskatchewan jurisdictional mis-attribution in the Canadian occurrence block: the non-municipal-ground row `0.003 / 0.023 / 0.011 / 14.000` (n = 1 983/4 128) was attributed to Manitoba but belongs to Saskatchewan per source Table 2 (page 5). Manitoba's actual non-municipal-ground row is `0.002 / 0.010 / 0.014 / 0.266` (n = 51/144). Verified against source page 5 — finding correct; corrected.
-- Audit subagent (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
+- Audit editorial review (2026-06-04) flagged a Manitoba/Saskatchewan jurisdictional mis-attribution in the Canadian occurrence block: the non-municipal-ground row `0.003 / 0.023 / 0.011 / 14.000` (n = 1 983/4 128) was attributed to Manitoba but belongs to Saskatchewan per source Table 2 (page 5). Manitoba's actual non-municipal-ground row is `0.002 / 0.010 / 0.014 / 0.266` (n = 51/144). Verified against source page 5 — finding correct; corrected.
+- Audit editorial review (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

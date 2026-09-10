@@ -86,12 +86,11 @@ Not synthesised — single-paper source page.
 
 ## Provenance notes
 
-PDF was retrieved by the autonomous discover skill into `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/` under the auto-generated filename `auto-fruit-snacks-tas-product_2023_10-33088-jp-v2i1-365.pdf`. The "fruit-snacks" portion of that auto-handle is a discovery-time heuristic; the actual matrix is a steamed banana sponge cake (bolu kukus), classified by the paper itself under the Indonesian SNI 01-3840-1995 bread/baked-goods standard, so the page routes to `products/bread-and-baked-goods` rather than `products/fruit-snacks`. License CC BY-NC-SA 4.0 per Jurnal Pharmacopoeia footer; open access.
+PDF was retrieved by the autonomous discover skill into the archived source file under the auto-generated filename `auto-fruit-snacks-tas-product_2023_10-33088-jp-v2i1-365.pdf`. The "fruit-snacks" portion of that auto-handle is a discovery-time heuristic; the actual matrix is a steamed banana sponge cake (bolu kukus), classified by the paper itself under the Indonesian SNI 01-3840-1995 bread/baked-goods standard, so the page routes to `products/bread-and-baked-goods` rather than `products/fruit-snacks`. License CC BY-NC-SA 4.0 per Jurnal Pharmacopoeia footer; open access.
 
-The paper title as printed on page 23 reads "Musa acuminta Colla" (typographic error in the source); the body text and methods consistently use the correct binomial "Musa acuminata Colla." The frontmatter title preserves the printed typo per Cochrane-bar verbatim-title convention.
+The paper title as printed on page 23 reads "Musa acuminta Colla" (typographic error in the source); the body text and methods consistently use the correct binomial "Musa acuminata Colla." The source metadata title preserves the printed typo per Cochrane-bar verbatim-title convention.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[metals/copper]]
@@ -106,18 +105,18 @@ The paper title as printed on page 23 reads "Musa acuminta Colla" (typographic e
 
 Fresh ingest 2026-05-31. PDF read in two passes (pages 1–6 and 7–11) for the 11-page article. Numerical values for Table 2 (microbial), Table 3 (metals), and Table 4 (statistics) cross-checked against both the abstract numbers (page 23) and the discussion text (pages 27–30); no internal contradictions found. Speciation flagged as tAs per AAS-without-hydride-generation convention; the paper itself only writes "arsen (As)." Brand firewall (Part 12) not engaged — no commercial brand names appear in the source. Wiki/HMTc firewall (Part 2) not engaged — no synthesis or HMTc-threshold claims authored. Provisional matrices slugs `banana-steamed-sponge-cake` and `prepared-snack` are descriptive rather than canonical taxonomy entries; product routing is to the existing `bread-and-baked-goods` slug per the SNI 01-3840-1995 classification cited by the paper. Palm sugar listed in the formula but not added to the `ingredients:` array — single research-formulation use does not warrant routing fan-out to a sugar-form ingredient page that does not yet exist.
 
-Audit subagent 2026-05-31 returned PROMOTE; flagged that the `metals:` frontmatter array carried Cu and Zn but the "Wiki pages updated on ingest" list omitted `[[metals/copper]]` and `[[metals/zinc]]` — applied (both metal pages exist; frontmatter ↔ wiki-pages-list consistency restored). Audit also flagged the provisional matrices slugs already documented in the paragraph above as borderline; left as-is per protocol (descriptive matrices flagged in verification notes are acceptable when the canonical taxonomy lacks a tight fit and the product-route is correct).
+Audit editorial review 2026-05-31 returned PROMOTE; flagged that the `metals:` source metadata array carried Cu and Zn but the "Wiki pages updated on ingest" list omitted `[[metals/copper]]` and `[[metals/zinc]]` — applied (both metal pages exist; source metadata ↔ wiki-pages-list consistency restored). Audit also flagged the provisional matrices slugs already documented in the paragraph above as borderline; left as-is per protocol (descriptive matrices flagged in verification notes are acceptable when the canonical taxonomy lacks a tight fit and the product-route is correct).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [324868f704](https://github.com/paleofoundation/heavymetalindex/commit/324868f704) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

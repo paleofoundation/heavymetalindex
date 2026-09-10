@@ -1,4 +1,7 @@
 ---
+routing_input_gaps: []
+routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. All originally missing declarations resolved, including intentional empty context-only fields where applicable."
+matrices: []
 type: source
 cite_key: jecfa-73rd-lead-2010
 title: "Lead (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants"
@@ -22,7 +25,8 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-08-09
+updated: 2026-09-10
+routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
 ---
 
 # JECFA 73rd Meeting (2010) — Lead Re-evaluation (WHO TRS 960 / FAS 64)
@@ -45,10 +49,9 @@ The seventy-second meeting (Rome, 16-25 February 2010, WHO Technical Report Seri
 
 ## Provenance notes
 
-Primary source is the local WHO Food Additives Series No. 64 volume (`raw/reports/9789241660648_eng.pdf`, SHA-256 `00e91ef8…`), which contains the seventy-third-meeting lead addendum and is the same document of record used by [[sources/jecfa-73rd-cadmium-2010]]. The report of record for the meeting's conclusions is WHO Technical Report Series 960 (access URL above). License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms; factual data extracted, no verbatim passages reproduced.
+Primary source is the local WHO Food Additives Series No. 64 volume (the archived source file, SHA-256 `00e91ef8…`), which contains the seventy-third-meeting lead addendum and is the same document of record used by [[sources/jecfa-73rd-cadmium-2010]]. The report of record for the meeting's conclusions is WHO Technical Report Series 960 (access URL above). License `CC-BY-NC-SA-3.0-IGO` per WHO standard publication terms; factual data extracted, no verbatim passages reproduced.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
 - [[synthesis]]
@@ -56,10 +59,11 @@ Primary source is the local WHO Food Additives Series No. 64 volume (`raw/report
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ee52c633b](https://github.com/paleofoundation/heavymetalindex/commit/ee52c633b) | 2026-08-09 | correction | 1 source added; 1 section removed; narrative text revised |
-| [c7b9a1591](https://github.com/paleofoundation/heavymetalindex/commit/c7b9a1591) | 2026-08-09 | correction | 5 sections added; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 section added |
+| [ee52c633b8](https://github.com/paleofoundation/heavymetalindex/commit/ee52c633b8) | 2026-08-09 | correction | 1 source added; 1 section removed; narrative text revised |
+| [c7b9a1591d](https://github.com/paleofoundation/heavymetalindex/commit/c7b9a1591d) | 2026-08-09 | correction | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

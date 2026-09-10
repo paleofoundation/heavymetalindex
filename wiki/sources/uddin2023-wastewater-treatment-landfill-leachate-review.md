@@ -99,21 +99,21 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 
 ## Verification notes
 
-- Frontmatter `metals:` uses `[Pb, Cd, Cr, Ni, Cu, Mn, Zn]`. Cr-VI is not listed separately because the chapter discusses Cr3+ (the nanofiltration vignette) and unspeciated "chromium" (the GAC vignette) but does not measure Cr-VI specifically. The chapter does not raise Cr-VI in any of its heavy-metal vignettes. Cu, Mn, and Zn are off the canonical HMTc 10-analyte list but are explicitly named in the chapter's heavy-metal vignettes and are precedented in earlier source pages (e.g., [[sources/aishwarya2024-extremophiles-bioremediation-review]] which carries Cu and Zn). Fe is mentioned in the lime-precipitation vignette but is not listed in `metals:` because Fe is not within the HMI metals taxonomy; it appears in the body text only.
-- Frontmatter `matrices:` uses `[landfill-leachate, municipal-solid-waste]`. These are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`leachate`, `industrial-waste`, `e-waste` precedented elsewhere) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
+- source metadata `metals:` uses `[Pb, Cd, Cr, Ni, Cu, Mn, Zn]`. Cr-VI is not listed separately because the chapter discusses Cr3+ (the nanofiltration vignette) and unspeciated "chromium" (the GAC vignette) but does not measure Cr-VI specifically. The chapter does not raise Cr-VI in any of its heavy-metal vignettes. Cu, Mn, and Zn are off the canonical HMTc 10-analyte list but are explicitly named in the chapter's heavy-metal vignettes and are precedented in earlier source pages (e.g., [[sources/aishwarya2024-extremophiles-bioremediation-review]] which carries Cu and Zn). Fe is mentioned in the lime-precipitation vignette but is not listed in `metals:` because Fe is not within the HMI metals taxonomy; it appears in the body text only.
+- source metadata `matrices:` uses `[landfill-leachate, municipal-solid-waste]`. These are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`leachate`, `industrial-waste`, `e-waste` precedented elsewhere) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
 - `ingredients: []`, `products: []`, `jurisdictions: []` are intentionally empty: the chapter is a treatment-engineering review with no food-supply-chain, food-product, or jurisdiction-specific occurrence findings.
 - `sample_n: null`, `sample_population` is the review's authorship/affiliation framing rather than a sample-size claim (no primary measurement in the chapter).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -1,10 +1,9 @@
 import { QuartzFilterPlugin } from "../types"
+import { isPublicWikiRecord } from "../../../tools/lib/source-publication.mjs"
 
 export const RemoveDrafts: QuartzFilterPlugin<{}> = () => ({
   name: "RemoveDrafts",
   shouldPublish(_ctx, [_tree, vfile]) {
-    const draftFlag: boolean =
-      vfile.data?.frontmatter?.draft === true || vfile.data?.frontmatter?.draft === "true"
-    return !draftFlag
+    return isPublicWikiRecord(vfile.data?.frontmatter ?? {}, vfile.data?.slug ?? "")
   },
 })

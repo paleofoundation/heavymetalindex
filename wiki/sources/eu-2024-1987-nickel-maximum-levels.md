@@ -101,18 +101,18 @@ This regulation establishes the EU finished-product nickel maximum levels record
 
 ## Verification notes
 
-Ingested 2026-06-22 from the Official Journal PDF (`raw/Manual Resourcing/OJ_L_202401987_EN_nickel-maximum-levels.pdf`, sha256 41242a9d…, 7 pages), read in full: recitals 1–12, Articles 1–2, and the complete Annex (entry 3.6.1–3.6.16). The maximum-level values and application dates above are transcribed verbatim from the Annex; the WebFetch small-model preview of this table was garbled and was discarded in favour of the primary PDF. ELI: http://data.europa.eu/eli/reg/2024/1987/oj. This ingest resolves the open provenance item flagged on [[sources/eu-2024-907-nickel-monitoring-recommendation]] (the exact amending instrument and its application dates are now primary-confirmed).
+Ingested 2026-06-22 from the Official Journal PDF (the archived source file, sha256 41242a9d…, 7 pages), read in full: recitals 1–12, Articles 1–2, and the complete Annex (entry 3.6.1–3.6.16). The maximum-level values and application dates above are transcribed verbatim from the Annex; the WebFetch small-model preview of this table was garbled and was discarded in favour of the primary PDF. ELI: http://data.europa.eu/eli/reg/2024/1987/oj. This ingest resolves the open provenance item flagged on [[sources/eu-2024-907-nickel-monitoring-recommendation]] (the exact amending instrument and its application dates are now primary-confirmed).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | 2 sources added; 6 sections added; narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 2 sources added; 6 sections added; narrative text revised |
+| [38cedd1112](https://github.com/paleofoundation/heavymetalindex/commit/38cedd1112) | 2026-08-04 | major | 2 sources added; 6 sections added; narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 2 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

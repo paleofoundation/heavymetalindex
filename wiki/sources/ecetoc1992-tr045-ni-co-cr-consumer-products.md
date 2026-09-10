@@ -148,7 +148,7 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 
 ## Provenance
 
-- Source PDF: `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor/ECETOC_TR045_Ni_Co_Cr_Consumer_Products_1993.pdf`
+- Source PDF: the archived source file
 - SHA-256: `f738b75e7df80254a9784f7fbf6fd4202b498f7cd77dcb297c27f34dea00d6b7`
 - File size: 6.26 MB; 90 numbered pages (front matter pp. i-ii; main text pp. 1-35; tables pp. 36-65; bibliography pp. 67-75; appendices pp. 76-89).
 - Publisher: European Chemical Industry Ecology and Toxicology Centre (ECETOC), 4 Av. E. Van Nieuwenhuyse (Bte 6), 1160 Brussels, Belgium.
@@ -157,7 +157,7 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 - DOI: none assigned (pre-DOI-era technical report).
 - License: © ECETOC 1992, all rights reserved. Copyrighted; not open access. The original ECETOC website now provides PDF download to registered users at https://www.ecetoc.org/publication/tr-045-nickel-cobalt-and-chromium-in-consumer-products-allergic-contact-dermatitis/ ; verify access terms before redistribution.
 - Access date: 2026-06-02.
-- Acquisition path: included in Kimi Agent Download Corruption Issue (KADC) folder `household_papers/01_AP_Countertop_Tile_Floor/`.
+- Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/01_AP_Countertop_Tile_Floor/`.
 
 ## Wiki pages this source may touch
 
@@ -189,27 +189,27 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 
 ## Verification notes
 
-- Audit subagent (2026-06-02) flagged D/Mueller 1985 (n=19) detergent row Cr max as 0.6; verified against PDF p. 48 — Cr max for that row is **0.4** (mean 0.4±0.2). The 0.6 Cr max belongs to the *second* Mueller 1985 row (D 10/2, n=12), which is correctly transcribed. Finding was a false positive; no change applied.
-- Audit subagent (2026-06-02) flagged I/Kokelj 1984 detergent row sample size as n=1; verified against PDF p. 48 — n is **7** (a row with n=1 cannot have a mean±SD). Corrected to n=7.
-- Audit subagent (2026-06-02) flagged conflation of Feuerman 1971 Cr outlier 21.4 ppm (footnote 11) with Nava 1987 Ni 77 ppm hard-surface-cleaner outlier (Comment to Table 6, p. 51); verified against PDF — these are separate outliers from separate studies and metals. Corrected the footnote-11 annotation and rewrote the Table 6 footnote summary to keep the two outlier sets distinct.
-- Audit subagent (2026-06-02) flagged Dishwashing/E/Vilaplana 1987 Cr min as missing (—); verified against PDF p. 49 — Cr min is **0.9** (mean 2.6±1.6, max 4.7). Corrected.
-- Audit subagent (2026-06-02) flagged Mascaras row country code as A (Austria), not EU; verified against PDF p. 49 — country code is indeed **A** with blank p/l column. Corrected.
-- Audit subagent (2026-06-02) flagged Cosmetics row Cr min as 1.0, not <1; verified against PDF p. 49 — printed value is **1.0** without the "<" prefix (the Ni and Co columns clearly carry "<1"). Corrected. Note that mean Cr <0.1 with min 1.0 and max 1.2 is internally surprising but matches the printed table; the two between-15-and-20-ppm Cr outliers in footnote 18 are excluded.
-- Audit subagent (2026-06-02) flagged footnote 16 attribution to Ni column in Kokelj+Nava cleaners row; verified against PDF p. 50 — footnote 16 text reads "additional two outliers of the same product 0.23 ppm Cr were found", which is a Cr-column outlier. The printed table marker placement is ambiguous; corrected the wiki annotation to attribute footnote 16 to the Cr column per the footnote text, with footnote 15 (Ni outlier) attached to the Ni column.
-- Audit subagent (2026-06-02) flagged Implications #3 (Danish 0.5 µg/cm²/week vs ECETOC ≤1 ppm parallel) as asserting equivalence in wiki voice; verified that ECETOC's own framing in Section 5 / Section 7 is what supports the parallel and the two limits are not numerically equivalent. Rewrote the bullet to attribute the parallel to ECETOC's framing and note that the wiki has not independently verified equivalence.
-- Audit subagent (2026-06-02) flagged Mascaras "2 Unilever mascaras" phrasing as borderline brand-attribution; tightened to "2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling)" to make the data-source-attribution framing unambiguous per Part 12 firewall.
+- Audit editorial review (2026-06-02) flagged D/Mueller 1985 (n=19) detergent row Cr max as 0.6; verified against PDF p. 48 — Cr max for that row is **0.4** (mean 0.4±0.2). The 0.6 Cr max belongs to the *second* Mueller 1985 row (D 10/2, n=12), which is correctly transcribed. Finding was a false positive; no change applied.
+- Audit editorial review (2026-06-02) flagged I/Kokelj 1984 detergent row sample size as n=1; verified against PDF p. 48 — n is **7** (a row with n=1 cannot have a mean±SD). Corrected to n=7.
+- Audit editorial review (2026-06-02) flagged conflation of Feuerman 1971 Cr outlier 21.4 ppm (footnote 11) with Nava 1987 Ni 77 ppm hard-surface-cleaner outlier (Comment to Table 6, p. 51); verified against PDF — these are separate outliers from separate studies and metals. Corrected the footnote-11 annotation and rewrote the Table 6 footnote summary to keep the two outlier sets distinct.
+- Audit editorial review (2026-06-02) flagged Dishwashing/E/Vilaplana 1987 Cr min as missing (—); verified against PDF p. 49 — Cr min is **0.9** (mean 2.6±1.6, max 4.7). Corrected.
+- Audit editorial review (2026-06-02) flagged Mascaras row country code as A (Austria), not EU; verified against PDF p. 49 — country code is indeed **A** with blank p/l column. Corrected.
+- Audit editorial review (2026-06-02) flagged Cosmetics row Cr min as 1.0, not <1; verified against PDF p. 49 — printed value is **1.0** without the "<" prefix (the Ni and Co columns clearly carry "<1"). Corrected. Note that mean Cr <0.1 with min 1.0 and max 1.2 is internally surprising but matches the printed table; the two between-15-and-20-ppm Cr outliers in footnote 18 are excluded.
+- Audit editorial review (2026-06-02) flagged footnote 16 attribution to Ni column in Kokelj+Nava cleaners row; verified against PDF p. 50 — footnote 16 text reads "additional two outliers of the same product 0.23 ppm Cr were found", which is a Cr-column outlier. The printed table marker placement is ambiguous; corrected the wiki annotation to attribute footnote 16 to the Cr column per the footnote text, with footnote 15 (Ni outlier) attached to the Ni column.
+- Audit editorial review (2026-06-02) flagged Implications #3 (Danish 0.5 µg/cm²/week vs ECETOC ≤1 ppm parallel) as asserting equivalence in wiki voice; verified that ECETOC's own framing in Section 5 / Section 7 is what supports the parallel and the two limits are not numerically equivalent. Rewrote the bullet to attribute the parallel to ECETOC's framing and note that the wiki has not independently verified equivalence.
+- Audit editorial review (2026-06-02) flagged Mascaras "2 Unilever mascaras" phrasing as borderline brand-attribution; tightened to "2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling)" to make the data-source-attribution framing unambiguous per Part 12 firewall.
 - Audit also flagged ACD prevalence anchors (Moeller 1990 "one in four women" Swedish quote; cobalt and chromium prevalence trend characterisations) as unverified from the pages re-checked. These remain in the wiki as paraphrases of the ECETOC report's own narrative summary in Section 3.2.2.4 and Tables 1-2; the quantitative figures are sourced from the cohort-by-cohort rows of Tables 1-2 rather than from a single quote and are not the primary contribution of this source page to HMI (the contamination-data tables are). Flagging for future fact-check pass without altering the paraphrase.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

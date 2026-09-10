@@ -163,7 +163,7 @@ No new analytical measurements are reported. The document operates as a synthesi
 
 ## Verification notes
 
-- Cite-key uses the `hc` (Health Canada) agency abbreviation with the publication year (2020), consistent with other Health Canada source pages in `wiki/sources/` (e.g., `hc2008-aluminum-food-additives-industry-request`, `hc2008-review-dietary-exposure-aluminum`).
+- Cite-key uses the `hc` (Health Canada) agency abbreviation with the publication year (2020), consistent with other Health Canada source pages in the linked reference record (e.g., `hc2008-aluminum-food-additives-industry-request`, `hc2008-review-dietary-exposure-aluminum`).
 - The sibling file `drinking-water-quality-guideline-cadmium.pdf` in the same folder is byte-identical (SHA-256 match) to `raw_path`; listed in `near_duplicates`.
 - `matrices` includes general drinking-water descriptors (drinking-water, tap-water, source-water, raw-water, treated-water, distribution-water) that span the document's data tables; no closer-fitting canonical matrix slug for treated/distributed water exists in the system-prompt list.
 - No matching `[[regulations/canada-cadmium-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for cadmium in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock).
@@ -171,10 +171,10 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Document references but does not reproduce the underlying primary leaching datasets (Viraraghavan et al. 2000, Samuels and Meranger 1984, Schock and Neff 1988, Subramanian et al. 1991); Key numbers explicitly attributes leaching ranges to the document's own citation chain rather than direct measurement here.
 - No brand names appear in the source's contamination data; vendor names in the analytical-methods table (U.S. EPA, APHA) are method-publishing standards bodies, not Part 12 violations.
 - Page numbers in Key numbers cite the PDF's internal page numbers (e.g., "p. 29-30" = the document's Section 10.0 heading on PDF-page 29 of 50).
-- Audit subagent (2026-06-04) flagged the original Statistics Canada 2015 age-trend block as "UCd GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19"; verified against source p. 8 — the source explicitly attributes these values to **blood cadmium**, not urinary cadmium. Block corrected to BCd and a separate sentence added noting the Garner and Levallois (2016) age-dependent UCd increases.
-- Audit subagent (2026-06-04) flagged the Viraraghavan et al. (2000) copper-plumbing block for conflating "samples" (the three sequential within-round sample volumes — 125/500/125 mL — drawn per dwelling) with "rounds" (monthly repeats); verified against source p. 17 — finding correct. Block restructured to separate within-round samples (first/second/third sample 125/500/125 mL, values <DL–171/<DL–39/<DL–102 µg/L) from cross-round maxima (133, 101 µg/L in second and third rounds).
-- Audit subagent (2026-06-04) flagged App-audience phrasing ("tail risk for app users with old housing stock", "typical baseline") as edging into the Part 2 wiki/HMTc firewall (consumer-risk-advisory framing and app-data threshold proposal); reframed to describe what the document's dataset contains (median band, well/raw outliers, plumbing attribution) without prescribing a downstream HMI app default value or advisory.
-- Audit subagent (2026-06-04) flagged "Oral LD₅₀ in rats" as narrower than source attribution; verified against source p. 25 — source says "in rats and mice". Corrected.
+- Audit editorial review (2026-06-04) flagged the original Statistics Canada 2015 age-trend block as "UCd GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19"; verified against source p. 8 — the source explicitly attributes these values to **blood cadmium**, not urinary cadmium. Block corrected to BCd and a separate sentence added noting the Garner and Levallois (2016) age-dependent UCd increases.
+- Audit editorial review (2026-06-04) flagged the Viraraghavan et al. (2000) copper-plumbing block for conflating "samples" (the three sequential within-round sample volumes — 125/500/125 mL — drawn per dwelling) with "rounds" (monthly repeats); verified against source p. 17 — finding correct. Block restructured to separate within-round samples (first/second/third sample 125/500/125 mL, values <DL–171/<DL–39/<DL–102 µg/L) from cross-round maxima (133, 101 µg/L in second and third rounds).
+- Audit editorial review (2026-06-04) flagged App-audience phrasing ("tail risk for app users with old housing stock", "typical baseline") as edging into the Part 2 wiki/HMTc firewall (consumer-risk-advisory framing and app-data threshold proposal); reframed to describe what the document's dataset contains (median band, well/raw outliers, plumbing attribution) without prescribing a downstream HMI app default value or advisory.
+- Audit editorial review (2026-06-04) flagged "Oral LD₅₀ in rats" as narrower than source attribution; verified against source p. 25 — source says "in rats and mice". Corrected.
 
 ## Wiki pages this source may touch
 
@@ -188,13 +188,13 @@ No new analytical measurements are reported. The document operates as a synthesi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

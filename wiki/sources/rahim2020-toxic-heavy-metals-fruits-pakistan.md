@@ -77,7 +77,7 @@ Courses: useful illustration that fruit heavy-metal loadings vary with regional 
 
 App: supports a low-contamination prior for fresh apple, peach, apricot, grapes, mango, banana, orange, pomegranate, guava, lemon and cherry sourced from low-industry regions, with the caveat that the data are DW-basis and need conversion before comparison with as-consumed limits.
 
-## Wiki pages updated on ingest
+## Related evidence
 - [[metals/chromium]]
 - [[metals/cobalt]]
 - [[metals/nickel]]
@@ -96,20 +96,20 @@ App: supports a low-contamination prior for fresh apple, peach, apricot, grapes,
 
 Merge-enhanced 2026-05-19 from the 2026-05-14 revision against the source PDF (Journal of Physical Science 31(2):61–73, 2020; DOI 10.21315/jps2020.31.2.5). Changes:
 
-- `raw_handle` standardised from the generic `manual-fetch-kimi` to `MFK_analysis-of-toxic-heavy-metal-content-of-the-most-`.
-- `raw_path` corrected from a truncated filename (`...Most Widely Used Fru.pdf`) to the full filename under `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/`.
+- `raw_handle` standardised from the generic `manual-fetch-source-retrieval` to `MFK_analysis-of-toxic-heavy-metal-content-of-the-most-`.
+- `raw_path` corrected from a truncated filename (`...Most Widely Used Fru.pdf`) to the full filename under the archived source file.
 - `metals` extended from `[Cr, Ni, Cd, Pb]` to `[Cr, Co, Ni, Cd, Pb]`: cobalt is one of the five analytes the paper measures and reports in Table 2, omitted in the prior revision.
-- `ingredients` revised: `[[ingredients/orange]]` corrected to the existing slug `[[ingredients/oranges]]`; `[[ingredients/lemon]]` removed (no current taxonomy slug — paper-level coverage retained in body); apricot, cherry and pomegranate not declared in frontmatter (no current taxonomy slugs — paper-level coverage retained in body).
+- `ingredients` revised: `[[ingredients/orange]]` corrected to the existing slug `[[ingredients/oranges]]`; `[[ingredients/lemon]]` removed (no current taxonomy slug — paper-level coverage retained in body); apricot, cherry and pomegranate not declared in source metadata (no current taxonomy slugs — paper-level coverage retained in body).
 - `matrices` simplified from `[fresh-fruit, fruit-flesh, dry-weight]` to `[fresh-fruit]`: `dry-weight` is a reporting basis, not a matrix; `fruit-flesh` was not supported by the paper's preparation (whole sliced fruit, no peel removal described).
 - `sample_population` rewritten to make the 11×28 = 308 design and the triplicate / duplicate-run structure explicit.
 - `## Key numbers`: body table now includes the Co column (previously only summarised in prose) and reports Mean ± SD as in Table 2 (prior revision reported means only). All other numerical values cross-checked against Table 2 and unchanged.
 - Per-metal extremes block added, lifted directly from the source's Figures 1–5 commentary.
 - `## Methods (brief)` expanded with the 11×28 market design, sample mass, acid ratio, and the detection-limit table values; recovery/CRM limitation called out explicitly.
-- Frontmatter `updated` advanced to 2026-05-19.
+- source metadata `updated` advanced to 2026-05-19.
 
 Existing `cite_key`, `doi`, `license`, `evidence_tier`, `near_duplicates`, `sample_n` and `products` preserved as in the prior revision.
 
-Post-ingest audit (fresh-context subagent, 2026-05-19): verdict REVISE.
+Post-ingest audit (fresh-context editorial review, 2026-05-19): verdict REVISE.
 
 - Check 5 ⚠️ on the Courses bullet phrase "arsenic-groundwater regions" — verified against §3 Discussion (p. 64): the paper attributes low KPK values to "almost negligible industrialisation" and "negligible" pesticide application through 2011 only; it does not invoke arsenic-groundwater context. Applied: Courses bullet rewritten to track the paper's own attribution.
 - Check 5 ⚠️ on the Certification bullet phrase "HMTc per-row standards" — audit itself rated this on the allowed side of the Part 2 boundary (contributes occurrence data, does not propose a threshold value). No change applied; leaving the phrase as written.
@@ -120,13 +120,13 @@ Post-ingest audit (fresh-context subagent, 2026-05-19): verdict REVISE.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

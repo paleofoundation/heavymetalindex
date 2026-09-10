@@ -25,12 +25,15 @@ contamination_profile:
     n_studies: 11
     last_reviewed: 2026-05-16
   iAs:
-    status: populated
-    typical_ppb: [1, 2]
-    p95_ppb: 2
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    status: "in_progress"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: "2026-09-10"
+    value_kind: "unquantified"
+    evidence: [{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"SO 0697\",\"Peanut\",\"iAs\",\"EURO\",\"\",\"as_consumed\",\"2017\",\"2017\"]","role":"context","food_id":"SO 0697","food_name":"Peanut","metal_species":"iAs","basis":"as_consumed","food_state":"","geography":"EURO","year_min":2017,"year_max":2017,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":17,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"SO 0697\",\"Peanut\",\"iAs\",\"WPRO\",\"Cooked\",\"as_consumed\",\"2010\",\"2011\"]","role":"context","food_id":"SO 0697","food_name":"Peanut","metal_species":"iAs","basis":"as_consumed","food_state":"Cooked","geography":"WPRO","year_min":2010,"year_max":2011,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":4,"p10_ppb":3.3,"p90_ppb":8.9,"p95_ppb":9.95,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"SO 0697\",\"Peanut\",\"iAs\",\"WPRO\",\"Raw\",\"as_is\",\"2020\",\"2021\"]","role":"context","food_id":"SO 0697","food_name":"Peanut","metal_species":"iAs","basis":"as_is","food_state":"Raw","geography":"WPRO","year_min":2020,"year_max":2021,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":2,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"},{"source_id":"who-gemsfood-heavy-metal-contaminants","evidence_path":"data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv","row_key":"[\"who-gemsfood-heavy-metal-contaminants\",\"SO 0697\",\"Peanut\",\"iAs\",\"WPRO\",\"Cooked\",\"as_is\",\"2022\",\"2022\"]","role":"context","food_id":"SO 0697","food_name":"Peanut","metal_species":"iAs","basis":"as_is","food_state":"Cooked","geography":"WPRO","year_min":2022,"year_max":2022,"period_scope":"record_collection_period","statistic_type":"source_lower_bound_summary","n":1,"p10_ppb":0,"p90_ppb":0,"p95_ppb":0,"censoring":"Recovered WHO lower-bound summary; zero does not establish absence; raw rows require reconciliation"}]
+    evidence_note: "The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis."
   tAs:
     status: populated
     typical_ppb: [5, 30]
@@ -74,12 +77,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::48::uranium","role":"value","food_id":"48","food_name":"Peanuts, dry roasted, salted","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -110,14 +116,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=6 | 0–60 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|4]], [[sources/bielecka2021-nuts-toxic-elements-poland\|5]], [[sources/belew2024-peanuts-date-palm-metals\|6]] |
 | Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
-| iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
+| iAs | Source context | Not quantified | — | — |
 | tAs | n=6 | 5–30 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/bielecka2021-nuts-toxic-elements-poland\|4]], [[sources/belew2024-peanuts-date-palm-metals\|5]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|6]] |
 | tHg | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/blair2017-us-peanut-heavy-metals\|2]], [[sources/bielecka2021-nuts-toxic-elements-poland\|3]] |
 | Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Al | data gap | — | — | — |
 | Cr | n=5 | 150–290 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]], [[sources/belew2024-peanuts-date-palm-metals\|4]], [[sources/alatise2025-fruit-nuts-metals\|5]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| U | n=1 dataset; composites=3 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Synthesis basis and censoring treatment
 
@@ -184,30 +190,50 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Peanuts, dry roasted, salted" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 35 | 45 | in profile |
-| Cr | 3 | 0 | 0 | in profile |
-| Ni | 3 | 400 | 550 | in profile |
-| Pb | 3 | 0 | 0 | in profile |
-| U | 3 | 0 | 0 | in profile |
-| tAs | 3 | 0 | 5 | in profile |
-| tHg | 3 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 48: Peanuts, dry roasted, salted | tAs | 3 | 2 | 4.9–5 | 3 |
+| 48: Peanuts, dry roasted, salted | Cd | 3 | 3 | 35–45 | 1 |
+| 48: Peanuts, dry roasted, salted | Cr | 3 | 0 | ND in all composites | 50 |
+| 48: Peanuts, dry roasted, salted | Pb | 3 | 0 | ND in all composites | 4 |
+| 48: Peanuts, dry roasted, salted | tHg | 3 | 0 | ND in all composites | 1 |
+| 48: Peanuts, dry roasted, salted | Ni | 3 | 3 | 400–550 | 40 |
+| 48: Peanuts, dry roasted, salted | U | 3 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
+
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**iAs.** The FDA dataset does not measure this food/species pair. The former generic concentration is withdrawn; available evidence is retained by its actual source, matrix and basis.
+
+WHO GEMS/Food retains the following distinct records. The ranges are source-scope lower-bound P10–P90 summaries; they are not a pooled typical value for this ingredient. Food-group records remain broader context. Differences in basis, period and geography are preserved. [[sources/who-gemsfood-heavy-metal-contaminants]]
+
+| Food / state | Region | Years | Basis | Records | Source LB P10–P90 (ppb) |
+| --- | --- | --- | --- | ---: | --- |
+| Peanut / not specified | EURO | 2017–2017 | as_consumed | 17 | 0–0 |
+| Peanut / Cooked | WPRO | 2010–2011 | as_consumed | 4 | 3.3–8.9 |
+| Peanut / Raw | WPRO | 2020–2021 | as_is | 2 | 0–0 |
+| Peanut / Cooked | WPRO | 2022–2022 | as_is | 1 | 0–0 |
+
+Recovered WHO summaries alone do not resolve incompatible basis labels or establish that zero-coded results were measured zeros.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/codex-cccf17-2024]], [[sources/hovanec2004-peanut-butter-arsenic-speciation]].
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Nickel Content of Food and Estimation of Dietary Intake]]<span class="hmi-ref-meta">Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen · Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 · 1984 · [doi.org/10.1007/BF01043419](https://doi.org/10.1007/BF01043419)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
 4. [[sources/nordberg2015-cadmium-chapter|Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals]]<span class="hmi-ref-meta">Nordberg GF, Nogawa K, and Nordberg M · Academic Press / Elsevier, Amsterdam · 2015 · [doi.org/10.1016/B978-0-444-59453-2.00032-9](https://doi.org/10.1016/B978-0-444-59453-2.00032-9)</span><span class="hmi-ref-tag">Textbook</span>
@@ -220,6 +246,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 11. [[sources/hovanec2004-peanut-butter-arsenic-speciation|Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS]]<span class="hmi-ref-meta">Hovanec BM · Journal of Analytical Atomic Spectrometry · 2004 · [doi.org/10.1039/b402561j](https://doi.org/10.1039/b402561j)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 12. [[sources/zhang2026-trace-metals-five-crops-chongqing|Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China]]<span class="hmi-ref-meta">Zhang Y, Li X, and Kong F · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-37535-6](https://doi.org/10.1038/s41598-026-37535-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 13. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
+14. [[sources/who-gemsfood-heavy-metal-contaminants|GEMS/Food Contaminants database heavy-metal exports]]<span class="hmi-ref-meta">World Health Organization · GEMS/Food Contamination Monitoring and Assessment Programme · 2026 · [extranet.who.int](https://extranet.who.int/gemsfood/?DisplayFormat=1)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -271,13 +298,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [0a907f56a](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a) | 2026-08-09 | correction | Narrative text revised |
-| [4365cdb39](https://github.com/paleofoundation/heavymetalindex/commit/4365cdb39) | 2026-08-09 | correction | 8 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 8 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 7 sources added; narrative text revised |
+| [0a907f56a4](https://github.com/paleofoundation/heavymetalindex/commit/0a907f56a4) | 2026-08-09 | correction | Narrative text revised |
+| [4365cdb39b](https://github.com/paleofoundation/heavymetalindex/commit/4365cdb39b) | 2026-08-09 | correction | 8 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

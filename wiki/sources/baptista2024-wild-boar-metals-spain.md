@@ -73,20 +73,20 @@ This source adds a Castile and Leon, Spain wild-boar offal dataset to the game-m
 - Table 1 was re-opened from `/tmp/hmi-june9-034.txt` before drafting. Liver and kidney means, SDs, and source-calculated Cd/Pb ML values are transcribed from the table without unit conversion.
 - Units preserved: occurrence values remain in `mg/kg dry weight`; the paper separately states the wet-weight regulatory values it converted from, but this page does not convert the source's analytical values to wet weight.
 - Speciation: As is recorded as tAs because the ICP-MS method does not speciate inorganic arsenic; Cr is total Cr, not Cr-VI. The paper does not report Hg or MeHg.
-- Matrix boundary: only liver and kidney tissues were measured. Frontmatter includes `[[products/game-meats]]` for the hunted wild-boar product family and `[[ingredients/organ-meats]]` for the measured edible-offal matrices, but the body states that no muscle occurrence values are available.
+- Matrix boundary: only liver and kidney tissues were measured. source metadata includes `[[products/game-meats]]` for the hunted wild-boar product family and `[[ingredients/organ-meats]]` for the measured edible-offal matrices, but the body states that no muscle occurrence values are available.
 - Jurisdictions: `ES` records the sampling country; `EU` records the paper's explicit Commission Regulation (EU) 2023/915 comparator for Cd and Pb.
 - Brand firewall: the study uses hunted animals and names no commercial meat brand. Instrument and certified-reference-material names are scientific method details.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

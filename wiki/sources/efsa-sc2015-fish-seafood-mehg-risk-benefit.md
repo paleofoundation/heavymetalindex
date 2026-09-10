@@ -232,18 +232,18 @@ This statement contributes the operative EU-level synthesis of how methylmercury
 - **Product slug selection:** uses both the broad `fresh-fish`/`canned-fish`/`seafood`/`shellfish` umbrella slugs and the form-specific `fish-marine-predatory`/`fish-marine-non-predatory`/`fish-freshwater` slugs because the per-species data clearly route to all three predator/non-predator/freshwater subgroups.
 - **Sample size:** `sample_n: null` because this is a scenario-based risk-benefit assessment, not a primary occurrence study; the occurrence and consumption datasets it integrates have their own sample sizes documented in CONTAM (2012) and the EFSA Comprehensive Food Consumption Database respectively.
 - **Brand firewall:** no commercial brand names appear in this paper; all species are identified by common species name or by the FoodEx grouping (Fish meat, Fish products). Cohort/study names (DIPP, STRIP, NUT INK05, Aesan-Fiab, enKid, NFA, INCA2, INRAN SCAI, FINDIET, DONALD, NUTRICHILD, SISP04, etc.) are dietary survey identifiers, not commercial brands, and are retained as method context.
-- **Audit subagent (2026-06-03, fresh-context general-purpose) verdict PROMOTE.** All five checks ✅ except Check 1 ⚠️ on the Belgian worked-example per-contributor values (6.48/2.05/0.45/0.14 µg/week). Verified against source as a false positive: PDF page 13's contributor table prints rounded values 6.5/2.1/0.5/0.1, but PDF page 14 explicitly writes the per-serving MeHg computation as `[(6.48+2.05+0.45+0.14)/(0.86×17.88)] = 0.6 µg/kg bw/week`. The wiki page reproduces the page-14 unrounded equation verbatim. No correction applied; subagent saw the p. 13 table but missed the p. 14 explicit equation.
+- **Audit editorial review (2026-06-03, fresh-context general-purpose) verdict PROMOTE.** All five checks ✅ except Check 1 ⚠️ on the Belgian worked-example per-contributor values (6.48/2.05/0.45/0.14 µg/week). Verified against source as a false positive: PDF page 13's contributor table prints rounded values 6.5/2.1/0.5/0.1, but PDF page 14 explicitly writes the per-serving MeHg computation as `[(6.48+2.05+0.45+0.14)/(0.86×17.88)] = 0.6 µg/kg bw/week`. The wiki page reproduces the page-14 unrounded equation verbatim. No correction applied; editorial review saw the p. 13 table but missed the p. 14 explicit equation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

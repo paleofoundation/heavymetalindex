@@ -198,8 +198,7 @@ The Panel concludes that, overall, the dietary exposure to iAs calculated in thi
 - App: Main dietary iAs contributors for the general European population by descending importance: 'Grain-based processed products (non rice-based)' > 'Milk and dairy products' > 'Rice' > 'Drinking water', with wheat bread and rolls the dominant sub-contributor within the leading food group. For infants and toddlers, the order is 'Milk and dairy products' > 'Drinking water' > 'Grain-based processed products (non rice-based)' > 'Food for infants and young children', with rice contributing up to 14–25 % depending on bound. Rice-based fine bakery wares (260.6 µg iAs/kg) and rice-based cereal infant foods (133.1 µg iAs/kg) are the highest-occurrence single sub-categories the public-facing app should weight.
 - Microbiome: Not primary topic; no microbiome endpoints.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/arsenic]]
 - [[ingredients/rice]]
 - [[ingredients/water]]
@@ -214,26 +213,26 @@ The Panel concludes that, overall, the dietary exposure to iAs calculated in thi
 
 ## Verification notes
 
-Fresh-context audit subagent (2026-06-03, REVISE verdict) flagged five Check 1 items, two Check 2 items, plus borderline items. Applied corrections after independent re-verification against the PDF:
+Fresh-context audit editorial review (2026-06-03, REVISE verdict) flagged five Check 1 items, two Check 2 items, plus borderline items. Applied corrections after independent re-verification against the PDF:
 
-- Audit subagent flagged tap-water mean LB as 1.3 µg/kg; verified against PDF Table 18 (p. 34: Tap water LB/MB/UB = 1.1 / 1.6 / 2.0, n=15,383) — corrected LB to 1.1 and added the N. The 1.3 value belonged to Drinking water (unspecified).
-- Audit subagent flagged the Hijiki seaweed row as labelling 66,700 / 77,400 / 96,100 µg/kg under LB/MB/UB columns when PDF p. 20 reports those as min / mean / max of the raw distribution ("from 66.7 mg/kg to 96.1 mg/kg, mean = 77.4 mg/kg"); verified — relabelled the row to make min/mean/max explicit. The 11,000 µg/kg LB=MB=UB value in the Table 26 high-consumer scenario (sourced from FSA 2004) remains separate and correct.
-- Audit subagent flagged the data-cleaning narrative for swapping 700 (pre-2003 exclusions) with 4,325 (no-LOD/LOQ exclusions); verified against PDF p. 9 ("Only the most recent occurrence data were used (sampling years 2003-2012), resulting in the exclusion of 700 analytical results. Some 4 325 analytical results were also excluded as they provided neither a limit of detection (LOD) nor a limit of quantification (LOQ)") — corrected the attribution.
-- Audit subagent flagged sampling_locations as containing 23 ISO codes including NL and SE while PDF Figure 1 (p. 10) shows 21 occurrence-data countries; verified — removed NL and SE, which are consumption-survey countries (per Table 2 p. 16) but not occurrence-data reporting countries.
-- Audit subagent flagged the "65 % objective sampling / 28 % no sampling-strategy" claim as unverified; verified against PDF p. 53 ("In this report, 65 % of the samples were collected using objective sampling (random sampling). However, for 28 % of the samples included in the final dataset no information on the sampling strategy was provided") — finding was a false positive, the claim is sourced.
-- Audit subagent flagged `products/infant-formula-rtf-dairy` and `products/milk-and-dairy` as invented slugs not in `docs/gpt-collaboration/taxonomy-snapshot.md`; verified by listing `wiki/products/` — both pages exist (`wiki/products/infant-formula-rtf-dairy.md`, `wiki/products/milk-and-dairy.md`) and the routing audit accepts the references cleanly. False positives caused by a stale taxonomy snapshot; no changes applied.
-- Audit subagent flagged matrices vocabulary item `dietary-intake` as a concept rather than a food medium; left in place — the predecessor source page ([[sources/efsa2021-chronic-exposure-iAs]]) uses the same convention, and changing it here without a taxonomy-level fix would create a single-page divergence.
+- Audit editorial review flagged tap-water mean LB as 1.3 µg/kg; verified against PDF Table 18 (p. 34: Tap water LB/MB/UB = 1.1 / 1.6 / 2.0, n=15,383) — corrected LB to 1.1 and added the N. The 1.3 value belonged to Drinking water (unspecified).
+- Audit editorial review flagged the Hijiki seaweed row as labelling 66,700 / 77,400 / 96,100 µg/kg under LB/MB/UB columns when PDF p. 20 reports those as min / mean / max of the raw distribution ("from 66.7 mg/kg to 96.1 mg/kg, mean = 77.4 mg/kg"); verified — relabelled the row to make min/mean/max explicit. The 11,000 µg/kg LB=MB=UB value in the Table 26 high-consumer scenario (sourced from FSA 2004) remains separate and correct.
+- Audit editorial review flagged the data-cleaning narrative for swapping 700 (pre-2003 exclusions) with 4,325 (no-LOD/LOQ exclusions); verified against PDF p. 9 ("Only the most recent occurrence data were used (sampling years 2003-2012), resulting in the exclusion of 700 analytical results. Some 4 325 analytical results were also excluded as they provided neither a limit of detection (LOD) nor a limit of quantification (LOQ)") — corrected the attribution.
+- Audit editorial review flagged sampling_locations as containing 23 ISO codes including NL and SE while PDF Figure 1 (p. 10) shows 21 occurrence-data countries; verified — removed NL and SE, which are consumption-survey countries (per Table 2 p. 16) but not occurrence-data reporting countries.
+- Audit editorial review flagged the "65 % objective sampling / 28 % no sampling-strategy" claim as unverified; verified against PDF p. 53 ("In this report, 65 % of the samples were collected using objective sampling (random sampling). However, for 28 % of the samples included in the final dataset no information on the sampling strategy was provided") — finding was a false positive, the claim is sourced.
+- Audit editorial review flagged `products/infant-formula-rtf-dairy` and `products/milk-and-dairy` as invented slugs not in the editorial record; verified by listing the linked reference record — both pages exist (the linked reference record, the linked reference record) and the routing audit accepts the references cleanly. False positives caused by a stale taxonomy snapshot; no changes applied.
+- Audit editorial review flagged matrices vocabulary item `dietary-intake` as a concept rather than a food medium; left in place — the predecessor source page ([[sources/efsa2021-chronic-exposure-iAs]]) uses the same convention, and changing it here without a taxonomy-level fix would create a single-page divergence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -72,7 +72,7 @@ Microbiome: No microbiome endpoints.
 
 - Recovered under the 2026-06-10 inclusion-by-default rule, lane a1 product occurrence. Prior non-ingest was a metadata/DOI gate failure, not a scope failure.
 - Title, authors, journal, sample count, sampling year, countries of manufacture/origin, colour panel, Figure 1 colour means, text ranges, source-quoted Canadian comparator values, and methods were checked against the extracted PDF text on 2026-06-11.
-- DOI: no DOI is visible in the extracted PDF text; frontmatter sets `doi: null` and `no_doi_assigned: true`.
+- DOI: no DOI is visible in the extracted PDF text; source metadata sets `doi: null` and `no_doi_assigned: true`.
 - Units: Figure 1 labels the plotted colour means as `µg/ml`, while the text ranges and method paragraph also use `µg/g` and state `Mean(μg/g)±SE or Mean(μg/ml)±SE`. The page preserves the source's units where printed and records this as a source-side unit inconsistency.
 - Speciation: arsenic is total As (`tAs`); chromium is total Cr (`Cr`). The paper discusses chromium VI toxicity in background text but does not measure Cr-VI.
 - Brand firewall: the source names product brands in narrative passages, but this page reports only colour-level, country-origin, and product-category values. No brand name is attached to a contamination value.
@@ -81,13 +81,13 @@ Microbiome: No microbiome endpoints.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

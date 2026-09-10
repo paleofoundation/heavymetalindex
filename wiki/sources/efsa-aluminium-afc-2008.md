@@ -164,13 +164,13 @@ Microbiome: not applicable. The opinion does not address gut-microbiome effects 
 
 ## Verification notes
 
-Merge-enhanced 2026-06-03 from the prior 2026-04-25 revision (raw_path 9d04359da…) using the re-downloaded copy in the Kimi June 3 Folder (2.pdf, sha256 183affd8…) under the [[ingest-next-manual-fetch-pdf]] skill. Enhancements:
+Merge-enhanced 2026-06-03 from the prior 2026-04-25 revision (raw_path 9d04359da…) using the re-downloaded copy in the source-retrieval June 3 Folder (2.pdf, sha256 183affd8…) under the [[ingest-next-manual-fetch-pdf]] skill. Enhancements:
 
 - Removed the legacy `## Summary` heading per the post-2026-05-08 schema; converted that section into the un-headed opening prose under the H1.
-- Removed the legacy `## Wiki pages updated on ingest` heading; routing destinations are now derived from frontmatter `metals`, `ingredients`, `products`, `matrices` and `jurisdictions` arrays by the routing audit.
-- Added `raw_handle: MFK_efsa-journal-2008-safety-of-aluminium-from-dietary` to record the Kimi-folder origin of the re-downloaded copy.
+- Removed the legacy `## Wiki pages updated on ingest` heading; routing destinations are now derived from source metadata `metals`, `ingredients`, `products`, `matrices` and `jurisdictions` arrays by the routing audit.
+- Added `raw_handle: MFK_efsa-journal-2008-safety-of-aluminium-from-dietary` to record the source-retrieval-folder origin of the re-downloaded copy.
 - Added `near_duplicates` with the two byte-distinct copies in the June 3 Folder (sha256 3ed580ef… and 183affd8…); the 3.pdf is byte-identical to the 2.pdf so a single near_duplicates entry covers both.
-- Added `products` array (umbrella scopes: `infant-formula-dairy`, `infant-formula-dairy-free`, `bread-and-baked-goods`, `bottled-drinking-water`, `food-packaging-foils-wraps`, `cookware-metal-alloy`) — the opinion covers infant formulae split by milk/soya base, the bread-and-baked-goods category as the leading bakery-additive-exposure driver, drinking-water under Directive 98/83/EC, and aluminium migration from food-contact foils/wraps and cookware. This fixes the `products: []` advisory recorded against this source in `data/evidence/routing_malformed.csv` (row 218 as of 2026-06-03).
+- Added `products` array (umbrella scopes: `infant-formula-dairy`, `infant-formula-dairy-free`, `bread-and-baked-goods`, `bottled-drinking-water`, `food-packaging-foils-wraps`, `cookware-metal-alloy`) — the opinion covers infant formulae split by milk/soya base, the bread-and-baked-goods category as the leading bakery-additive-exposure driver, drinking-water under Directive 98/83/EC, and aluminium migration from food-contact foils/wraps and cookware. This fixes the `products: []` advisory recorded against this source in the structured evidence record (row 218 as of 2026-06-03).
 - Added `matrices: [dietary-intake]` consistent with the convention used on the EFSA CONTAM 2009 and 2010 opinion pages.
 - Added broader ingredient slugs that the opinion discusses materially (`cereals`, `bread`, `tea`, `cocoa`, `herbs-and-spices`, `vegetables`) on top of the prior `water` and `infant-formula-ingredients`.
 - Replaced the thin parameter table with explicit exposure tables (adults by country, children/toddler 97.5th percentile, infants by age group, infants by formula form including the 4× brand-loyal variance) and the LOAEL/NOAEL table by endpoint that anchor the TWI derivation. All values verified against the PDF pages 1–4 (Summary, Conclusions), 16–18 (Section 4 Dietary Exposure), 21–23 (Sections 5.3 / 5.6 / 5.7 Subchronic, Reproductive, Neurotoxicity) and 28–29 (Section 7 Conclusions).
@@ -179,10 +179,10 @@ Merge-enhanced 2026-06-03 from the prior 2026-04-25 revision (raw_path 9d04359da
 - Added a Methods (brief) section per current schema; the opinion is a regulatory synthesis so the section documents what it compiles rather than primary analytical methods.
 - Added an Implications section per current schema (Certification / Courses / App / Microbiome), keeping it descriptive of the source's own findings — no HMT&C threshold proposals or wiki-side synthesis claims.
 
-Audit subagent (2026-06-03, fresh-context general-purpose agent invoked via the [[ingest-next-manual-fetch-pdf]] skill v2.0) verdict REVISE. Findings applied:
+Audit editorial review (2026-06-03, fresh-context general-purpose agent invoked via the [[ingest-next-manual-fetch-pdf]] skill v2.0) verdict REVISE. Findings applied:
 
 - Check 1 ⚠️ on "10th-decile dietary exposure" for the 1988 former-West-Germany duplicate diet row — verified against PDF p. 17 ("10% of children aged 5-8 years had an exposure higher than 0.38 mg/kg bw/week"). The original phrasing was ambiguous (a reader could read "10th decile" as either top or bottom). Rewrote as "90th-percentile dietary exposure (the value above which 10% of children fell)" to anchor the statistic explicitly.
-- Check 1 ⚠️ on an unanchored "2025 dietary-exposure update" reference and a `[[sources/efsa-cef-aluminium-additives-2013]]` wikilink in Implications — verified independently: there is no `wiki/sources/efsa-cef-aluminium-additives-2013.md`, so the wikilink was an orphan. Removed both the 2013 wikilink and the 2025 reference; replaced the synthesis-pointer with `[[sources/efsa2021-aluminium-food-qa]]`, which exists in `wiki/sources/` and is the natural later-EFSA Al publication to read against this page.
+- Check 1 ⚠️ on an unanchored "2025 dietary-exposure update" reference and a `[[sources/efsa-cef-aluminium-additives-2013]]` wikilink in Implications — verified independently: there is no the linked reference record, so the wikilink was an orphan. Removed both the 2013 wikilink and the 2025 reference; replaced the synthesis-pointer with `[[sources/efsa2021-aluminium-food-qa]]`, which exists in the linked reference record and is the natural later-EFSA Al publication to read against this page.
 - Check 4 ⚠️ on the Implications/Certification paragraph leaning into HMT&C-ratcheting framing ("the literature anchor for any ratcheted aluminium standard tighter than current regulatory ceilings") — verified against: the original phrasing crossed the wiki/HMT&C boundary by naming ratcheting as the use case. Rewrote to descriptive source-contribution language ("contributes the EU-level TWI … and a quantified exposure distribution against that TWI") that reports what the opinion supplies without invoking HMT&C policy logic.
 
 Findings noted but not changed:
@@ -194,13 +194,13 @@ All five audit-check categories were verified. Numerical fidelity ✅ across ~25
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -105,8 +105,7 @@ The percentages above the Egyptian Standards limits (8.3 % for Pb, 6.7 % for Cd,
 
 Microbiome: not addressed.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[ingredients/meat]]
@@ -117,28 +116,28 @@ Microbiome: not addressed.
 
 ## Verification notes
 
-- 2026-05-29 enhancement (Claude Opus 4.7, manual-fetch ingest v2): merge-enhance pass against the existing 2026-05-14 page. Original cite_key, raw_handle, raw_path, and license preserved. Added raw_sha256 from the source PDF.
-- Frontmatter slug corrections: removed `[[ingredients/processed-meat]]` (not in current taxonomy snapshot); replaced `[[products/processed-meat]]` with `[[products/processed-meats]]` (correct plural form per taxonomy); removed `[[products/mixed-meals-non-rice]]` (mis-routed — the four product types in this paper are processed meats, not mixed meals); added `[[products/beef-product]]` (covers minced meat / beef burger). Tightened `matrices` from `[whole-food, processed-food]` to `[minced-meat, beef-burger, sausage, luncheon-meat, processed-meat]`, matching the bare-string convention used elsewhere in the corpus (e.g., altalib2025-frozen-meat-libya).
+- 2026-05-29 enhancement (automated editorial review, manual-fetch ingest v2): merge-enhance pass against the existing 2026-05-14 page. Original cite_key, raw_handle, raw_path, and license preserved. Added raw_sha256 from the source PDF.
+- source metadata slug corrections: removed `[[ingredients/processed-meat]]` (not in current taxonomy snapshot); replaced `[[products/processed-meat]]` with `[[products/processed-meats]]` (correct plural form per taxonomy); removed `[[products/mixed-meals-non-rice]]` (mis-routed — the four product types in this paper are processed meats, not mixed meals); added `[[products/beef-product]]` (covers minced meat / beef burger). Tightened `matrices` from `[whole-food, processed-food]` to `[minced-meat, beef-burger, sausage, luncheon-meat, processed-meat]`, matching the bare-string convention used elsewhere in the corpus (e.g., altalib2025-frozen-meat-libya).
 - Part 2 firewall: removed prior body text that compared this paper to Rabeey 2025 (cross-source synthesis), proposed HMTc-Cat-1 threshold structure for processed meat, and gave consumer-app risk advisories. Per Part 2, this source page reports what the paper found; cross-source synthesis is the Part 9 workflow's job.
 - Part 12 brand firewall: no brand names appear in the source — the paper aggregates by product type rather than by brand, so no redaction was needed.
 - Numerical fidelity: all values in the Key numbers tables verified directly against Tables 1–6 in the PDF (pages 2–3 of the published article).
 - Paper-internal observation (not a defect to fix here, just flagged): the reported standard errors on Pb (SE = 0.01 mg/kg across all four product types) are tight relative to the min–max ranges (e.g., 0.02–0.25 for sausage, 0.07–0.38 for luncheon). With n = 15, that implies an SD ≈ 0.04 — plausible but on the low side given the spread. If this paper is later considered for pooled percentile work, the underlying per-sample data should be requested rather than relied on from the summary table.
-- 2026-05-29 audit (Phase 2 fresh-context Agent subagent): verdict REVISE; one ❌ on matrices vocabulary, one ⚠️ on the `frankfurter` routing fit, two minor ⚠️ on phrasing/method-naming. Disposition:
-  - Frankfurter ⚠️ (applied): the paper studies generic Egyptian retail "sausage," not specifically frankfurters. Removed `[[ingredients/frankfurter]]` from frontmatter and from `## Wiki pages updated on ingest`. The sausage findings still reach the wiki via `[[ingredients/meat]]` and `[[products/processed-meats]]`.
-  - Matrices ❌ (rejected as false positive): the subagent flagged `minced-meat, beef-burger, sausage, luncheon-meat, processed-meat` as not in the taxonomy snapshot. Verified against `docs/gpt-collaboration/system-prompt.md` (matrices vocabulary section) which is explicitly bare-string and open-ended ("Add a new term only if none of these fits; flag the addition in verification notes"). All five tokens are already established in the corpus via existing source pages (grep confirms `minced-meat`, `beef-burger`, `sausage`, `luncheon-meat`, `processed-meat` all appear in other `wiki/sources/*.md` matrices arrays). The auditor's snapshot does not enumerate matrices, which is by design per its own notes — the snapshot covers ingredients/products/metals/regulations only.
+- 2026-05-29 audit (Phase 2 fresh-context Agent editorial review): verdict REVISE; one ❌ on matrices vocabulary, one ⚠️ on the `frankfurter` routing fit, two minor ⚠️ on phrasing/method-naming. Disposition:
+  - Frankfurter ⚠️ (applied): the paper studies generic Egyptian retail "sausage," not specifically frankfurters. Removed `[[ingredients/frankfurter]]` from source metadata and from `## Wiki pages updated on ingest`. The sausage findings still reach the wiki via `[[ingredients/meat]]` and `[[products/processed-meats]]`.
+  - Matrices ❌ (rejected as false positive): the editorial review flagged `minced-meat, beef-burger, sausage, luncheon-meat, processed-meat` as not in the taxonomy snapshot. Verified against the editorial record (matrices vocabulary section) which is explicitly bare-string and open-ended ("Add a new term only if none of these fits; flag the addition in verification notes"). All five tokens are already established in the corpus via existing source pages (grep confirms `minced-meat`, `beef-burger`, `sausage`, `luncheon-meat`, `processed-meat` all appear in other the linked reference record matrices arrays). The auditor's snapshot does not enumerate matrices, which is by design per its own notes — the snapshot covers ingredients/products/metals/regulations only.
   - Pb-limit phrasing ⚠️ (rejected as false positive / no-op): the audit flagged "above the Egyptian Standards lead limit of < 0.1 mg/kg" as awkward. Phrasing mirrors the source's own PL column notation; no change.
   - AAS vs spectrophotometer ⚠️ (rejected as false positive): the audit flagged that the abstract says "spectrophotometer" while Methods references "the digital scale of AAS." The paper's calculation equation explicitly names AAS, so the wiki's "atomic absorption spectrometry" identification is correct. The abstract's "spectrophotometer" is generic shorthand for absorption spectrometry.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [509e65914](https://github.com/paleofoundation/heavymetalindex/commit/509e65914) | 2026-05-29 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [509e65914e](https://github.com/paleofoundation/heavymetalindex/commit/509e65914e) | 2026-05-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

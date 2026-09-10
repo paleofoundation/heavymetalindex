@@ -61,18 +61,18 @@ The source supports fish/seafood total-mercury surveillance context for Slovakia
 
 - Source identity checked against DOI 10.26444/aaem/84934 and the downloaded PDF.
 - The paper reports total mercury, not methylmercury.
-- Autonomous audit 2026-06-09 (kimakova2018-fish-products-slovakia-mercury): removed routing to swordfish and shark from frontmatter and from "Wiki pages this source may touch" — neither species was measured in this study; both appear only in the Conclusions/Recommendations text as a general FDA/EPA-derived consumer advisory citing refs 8, 47, 48. King mackerel WAS measured (retail max 3.722 mg/kg) and is preserved as a matrix. Added [[ingredients/freshwater-fish]] and [[products/fish-freshwater]] because the 10 reservoir species and the maximum-value sample (asp from Ružín reservoir) are freshwater. Refined Key numbers to show source-reported precision and to name the species (asp) underlying the 6.552 mg/kg maximum.
+- Autonomous audit 2026-06-09 (kimakova2018-fish-products-slovakia-mercury): removed routing to swordfish and shark from source metadata and from "Wiki pages this source may touch" — neither species was measured in this study; both appear only in the Conclusions/Recommendations text as a general FDA/EPA-derived consumer advisory citing refs 8, 47, 48. King mackerel WAS measured (retail max 3.722 mg/kg) and is preserved as a matrix. Added [[ingredients/freshwater-fish]] and [[products/fish-freshwater]] because the 10 reservoir species and the maximum-value sample (asp from Ružín reservoir) are freshwater. Refined Key numbers to show source-reported precision and to name the species (asp) underlying the 6.552 mg/kg maximum.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [f2d7295cd](https://github.com/paleofoundation/heavymetalindex/commit/f2d7295cd) | 2026-06-09 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f2d7295cdc](https://github.com/paleofoundation/heavymetalindex/commit/f2d7295cdc) | 2026-06-09 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

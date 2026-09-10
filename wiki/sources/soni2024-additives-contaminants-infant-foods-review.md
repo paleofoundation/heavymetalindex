@@ -82,7 +82,7 @@ Microbiome: The review touches probiotic safety (E234 nisin, E235 natamycin), po
 
 ## Provenance notes
 
-PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for Teething & Snacks heavy metal contamination context. Open Access publication under Creative Commons Attribution 4.0 International License (BMC Springer Nature). DOI verified at the publisher PDF as `10.1186/s43014-024-00238-4`; raw SHA-256 computed from the local PDF as `95d02d24f92e43993b1424bc67adc963cdba6acaee8500adb753174012d3966a`. DOI, raw-handle, and cite-key checks against `wiki/sources/` returned no prior match before creation.
+PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for Teething & Snacks heavy metal contamination context. Open Access publication under Creative Commons Attribution 4.0 International License (BMC Springer Nature). DOI verified at the publisher PDF as `10.1186/s43014-024-00238-4`; raw SHA-256 computed from the local PDF as `95d02d24f92e43993b1424bc67adc963cdba6acaee8500adb753174012d3966a`. DOI, raw-handle, and cite-key checks against the linked reference record returned no prior match before creation.
 
 ## Wiki pages this source may touch
 
@@ -100,25 +100,25 @@ PDF retrieved during the 2026-06-09 multi-database `/discover` autopilot run for
 
 - PDF read in three passes (pages 1-8, 9-16, 17-23); the abstract, introduction, all six tables, the immunological-pathway figures (Figs. 3-4), the Regulations and challenges in formulation section, the Future prospects section, the conclusion, the abbreviations list, and the full reference list were read.
 - DOI verified from the article title page as `10.1186/s43014-024-00238-4`; access URL is the publisher landing page.
-- The review's heavy-metal content is qualitative and limited to a generic mention of mercury, lead, cadmium, and arsenic as infant-food hazards plus a citation to Bair 2022 for FDA Closer-to-Zero context. Frontmatter `metals: [Al]` reflects the only metal for which the review offers an HMI-relevant qualitative discussion (Fig. 3 immunological pathway). No quantitative aluminum exposure or occurrence values are provided. Pb/Cd/iAs/tHg are intentionally omitted from `metals:` because the review does not provide analyte-specific values, thresholds, or occurrence ranges for them.
-- Product slugs verified against `docs/gpt-collaboration/taxonomy-snapshot.md`; all slugs (`infant-formula-powder`, `infant-formula-rtf-liquid-non-soy`, `baby-cereals-dry-rice-based`, `baby-cereals-dry-non-rice`, `infant-and-child-foods-master`, `fruit-purees`, `teething-and-snacks-non-rice`) exist in current taxonomy.
+- The review's heavy-metal content is qualitative and limited to a generic mention of mercury, lead, cadmium, and arsenic as infant-food hazards plus a citation to Bair 2022 for FDA Closer-to-Zero context. source metadata `metals: [Al]` reflects the only metal for which the review offers an HMI-relevant qualitative discussion (Fig. 3 immunological pathway). No quantitative aluminum exposure or occurrence values are provided. Pb/Cd/iAs/tHg are intentionally omitted from `metals:` because the review does not provide analyte-specific values, thresholds, or occurrence ranges for them.
+- Product slugs verified against the editorial record; all slugs (`infant-formula-powder`, `infant-formula-rtf-liquid-non-soy`, `baby-cereals-dry-rice-based`, `baby-cereals-dry-non-rice`, `infant-and-child-foods-master`, `fruit-purees`, `teething-and-snacks-non-rice`) exist in current taxonomy.
 - Ingredients listed as broad routing destinations only (`infant-formula-ingredients`, `infant-cereal-ingredients`): the review's discussion is by additive class and product matrix, not by single-food-commodity ingredient origin. No commodity-specific ingredient slug (rice, sweet potato, etc.) is supported as `direct_evidence` by this source.
 - Brand firewall: the review does not name specific consumer brands. No brand-firewall risk.
 - HMTc firewall: the review does not endorse or critique any certification program. No HMTc-drift risk in the source itself; the page implication language was written to avoid promoting any Soni 2024 numeric value into an HMTc threshold rationale.
 - Evidence tier: B-tier. The journal *Food Production, Processing and Nutrition* is peer-reviewed and BMC-published, but this is a narrative review with no systematic-review methodology, no PRISMA, and no quantitative synthesis. A-tier is reserved for original measurements and systematic reviews/meta-analyses. The Bair 2022 narrative review carries A-tier because of its uniqueness as the primary US-policy consolidation for infant heavy metals; Soni 2024 does not fill an equivalent unique-source role.
 - Evidence fitness: EF-4 (Context only). The review establishes regulatory landscape and qualitative additive/contaminant overview but contains no measurements, no occurrence percentiles, and no metal-specific dietary-exposure modeling that an HMI cell could ingest as a contributing source.
-- Autonomous audit subagent 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
+- Autonomous audit editorial review 2026-06-09 flagged MSG unit assignment in the Key numbers TDI table; verified against p.12 of the PDF — initial draft had transposed the per-pound and per-kilogram labels relative to the source. Source text is "14 mg per pound (30 mg per kilogram of body weight per day)" (Appaiah 2010); table now mirrors the source exactly. The two values are internally consistent (14 mg/lb × 2.2 lb/kg ≈ 30.8 mg/kg). All other audit checks returned clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

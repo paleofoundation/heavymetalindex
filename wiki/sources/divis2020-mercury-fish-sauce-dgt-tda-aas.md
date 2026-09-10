@@ -75,8 +75,7 @@ Analytical methods: the paper is methodologically important for demonstrating th
 
 Speciation gap: the analyte is total dissolved Hg only. MeHg fraction in fermented fish products is reported elsewhere in the literature to be the dominant Hg species, but this paper does not measure it; downstream uses of these numbers should be flagged as tHg, not as MeHg.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/mercury-total]]
 - [[ingredients/fish-sauce]]
 - [[ingredients/anchovy]]
@@ -95,23 +94,23 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite-key, raw_handle, 
 6. **Effective diffusion coefficient De = (3.42 ± 0.23) × 10⁻⁶ cm²/s** and **DBL = 50 µm** added to Key numbers; these are the DGT-specific validation outputs that future methods-development reads will care about.
 7. **EDI and highest-sample EWI numbers** added from Section 3.4. Prior revision included only the mean-based EWI.
 8. **Implications section trimmed** to remove an HMT&C-program scope speculation ("For HMT&C, fish sauce is not currently a primary product category but is relevant to condiment and fermented-food modules") that crossed the wiki/HMT&C firewall. Also removed prior `## Implications → Courses` and `→ App` audience translations, which are audience-rendering decisions made downstream of the source page, not source-page content.
-9. **Methods (brief) expanded** with the Purolite S924 milling protocol (0.5–0.8 mm milled to ~0.1 mm), agarose gel preparation, DGT piston / membrane filter vendor detail, 5-fold dilution and 24 h deployment timing, the diffusive-gel thicknesses tested for DBL determination, the XLstat statistical package, and the four limitations stated by the authors (sample size, single-purchase, no speciation, no fish-sauce CRM). Vendor-name retention follows the methods-vendor carve-out in `docs/gpt-collaboration/verification-checklist.md` §4.
-10. **Wiki pages updated on ingest** expanded to include `[[metals/mercury-total]]` and the two product slugs, both of which the source's frontmatter declares but the prior list did not surface.
+9. **Methods (brief) expanded** with the Purolite S924 milling protocol (0.5–0.8 mm milled to ~0.1 mm), agarose gel preparation, DGT piston / membrane filter vendor detail, 5-fold dilution and 24 h deployment timing, the diffusive-gel thicknesses tested for DBL determination, the XLstat statistical package, and the four limitations stated by the authors (sample size, single-purchase, no speciation, no fish-sauce CRM). Vendor-name retention follows the methods-vendor carve-out in the editorial record §4.
+10. **Wiki pages updated on ingest** expanded to include `[[metals/mercury-total]]` and the two product slugs, both of which the source's source metadata declares but the prior list did not surface.
 
 No brand names appear in either the existing page or the source paper itself — fish sauces are coded FS1…FS10 throughout the paper with only origin country and label-stated anchovy fraction, so no Part 12 redaction was required.
 
-Audit subagent (2026-05-28, fresh-context general-purpose) returned PROMOTE: numerical fidelity ✅ (full Table 1 / Table 2 / Section 3.4 cross-check passed), speciation and methods ✅, Part 12 brand firewall ✅, Part 2 wiki/HMTc firewall ✅. The one ⚠️ concern was that `ingredients/fish-sauce`, `ingredients/anchovy`, and `products/fish-sauce` are not yet entries in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified: the routing audit (`npm run evidence:source-routes`) resolves all three under the provisional-scaffold mechanism, with zero unresolved and zero malformed entries for this source. Slugs are descriptively accurate to the paper (fish sauce as the analyte matrix; anchovy as the dominant fish source in 9 of 10 samples; fish-sauce as the product form distinct from the umbrella `condiments-general` row). Retained without change.
+Audit editorial review (2026-05-28, fresh-context general-purpose) returned PROMOTE: numerical fidelity ✅ (full Table 1 / Table 2 / Section 3.4 cross-check passed), speciation and methods ✅, Part 12 brand firewall ✅, Part 2 wiki/HMTc firewall ✅. The one ⚠️ concern was that `ingredients/fish-sauce`, `ingredients/anchovy`, and `products/fish-sauce` are not yet entries in the editorial record. Verified: the routing audit (`npm run evidence:source-routes`) resolves all three under the provisional-scaffold mechanism, with zero unresolved and zero malformed entries for this source. Slugs are descriptively accurate to the paper (fish sauce as the analyte matrix; anchovy as the dominant fish source in 9 of 10 samples; fish-sauce as the product form distinct from the umbrella `condiments-general` row). Retained without change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

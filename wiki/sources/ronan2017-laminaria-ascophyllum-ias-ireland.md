@@ -63,9 +63,9 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 
 ## Verification notes
 
-- raw_handle MFK_ronan2017 from the PDF filename; raw_path under "raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.chemosphere.2017.07.076 confirmed on the accepted-manuscript cover. This is the accepted-manuscript version (Chemosphere, CHEM 19609).
+- raw_handle MFK_ronan2017 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.chemosphere.2017.07.076 confirmed on the accepted-manuscript cover. This is the accepted-manuscript version (Chemosphere, CHEM 19609).
 - Evidence tier A: peer-reviewed, HPLC-ICP-MS speciation with CRM-based QC and ESI-MS confirmation of inorganic As as As(V).
-- Speciation: total As and inorganic As (measured as As(V) after As(III)→As(V) oxidation) both reported and kept distinct; lifted to frontmatter as tAs and iAs. No mercury/cadmium/lead/chromium measured.
+- Speciation: total As and inorganic As (measured as As(V) after As(III)→As(V) oxidation) both reported and kept distinct; lifted to source metadata as tAs and iAs. No mercury/cadmium/lead/chromium measured.
 - Units/basis preserved exactly (mg/kg dry weight). Inorganic-As ranges (2.2–87 for L. digitata; 0.007–0.703 for A. nodosum) and total-As ranges (36–131; 38–111) taken from the Results text; per-thallus-part mean values shown only graphically (Figure 2) and in supplementary Table S1 (not reproduced numerically here beyond the text-stated ranges and gradient, to avoid reading approximate values off a bar chart). The blade-only ranges (total As 59–114, iAs 30–62) are the source's Table 1 "this study" row, footnoted as blades of five thalli with stipe and meristem excluded.
 - sample_n=30 reflects the L. digitata thallus-part samples (5 thalli × 6 parts); the 25 A. nodosum thalli (annual-segment pooled samples) are described in sample_population — recorded this way because L. digitata is the food-relevant (kelp/kombu) subject for the seaweed-kelp-foods row.
 - Matrix fit: L. digitata is harvested as a sea vegetable/kombu and for feed; A. nodosum is mainly feed/fertiliser/alginate but is edible macroalgae. Both are in-scope for the seaweed/macroalgae ingredient and the seaweed-kelp-foods product row as wild-harvested raw material; this is a wild intra-thallus distribution study, not a retail-product survey (noted for the occurrence-extraction pass, which may weight retail surveys differently).
@@ -73,18 +73,18 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 - Jurisdiction IE; sampling_locations records the Galway Bay (Spiddal) site; sampling_year_range 2015.
 - matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` is directly warranted (L. digitata).
 - Instrument/CRM/vendor names (Agilent, Hamilton, Mars 5/Ethos Up, BCR-211, ERM-CD200) retained in Methods as permitted scientific reporting.
-- Audit subagent (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
+- Audit editorial review (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

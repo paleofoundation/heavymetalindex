@@ -82,7 +82,7 @@ Statistical analysis: Bayesian inference of univariate and multiple linear regre
 
 ## Verification notes
 
-Merge-enhanced 2026-05-18 from the PCMF PDF (`raw/Papers Cube Manual Fetch/Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children's Study.pdf`, SHA-256 `bd8cbc44...264f`). Page was created 2026-05-14 with `raw_handle: papers-cube` placeholder and was in `routing_malformed.csv` (advisory: empty optional routing fields).
+Merge-enhanced 2026-05-18 from the PCMF PDF (the archived source file, SHA-256 `bd8cbc44...264f`). Page was created 2026-05-14 with `raw_handle: papers-cube` placeholder and was in `routing_malformed.csv` (advisory: empty optional routing fields).
 
 Defects corrected:
 - **Title**: prior page used "and the association between blood lead levels and low birth weight"; published Environment International title is "and their effect on low birth weight: the Japan Environment and Children's Study". Corrected.
@@ -91,18 +91,17 @@ Defects corrected:
 - **Pb-LBW OR label**: prior page asserted "adjusted OR=1.50 per quartile Q4 vs Q1, 95% CI 1.36-1.64" — this conflated two distinct statistics. Per Table 3, the Q4 vs Q1 adjusted OR for blood Pb is **1.44 (1.34, 1.56)** and the per-log2-doubling adjusted OR is **1.50 (1.36, 1.64)**. Both now reported separately with correct labels.
 - **"23% lower odds of Pb-associated LBW" for BDS Q4 vs Q1**: not supported by Table 3. Q4 BDS adjusted OR for LBW = 0.87 (0.79, 0.96), which is a 13% lower-odds figure, not 23%. Removed.
 - **Methods "Agilent 7700" model**: paper specifies "Agilent Technologies, Tokyo, Japan" without instrument model and refers to Nakayama et al. 2019 for full method detail. Model number removed to avoid fabricated specificity.
-- **Hg → tHg**: paper measures total Hg without speciation (no separate MeHg). Per Part 14 convention, the speciated label `tHg` is used on this page; metals frontmatter updated.
+- **Hg → tHg**: paper measures total Hg without speciation (no separate MeHg). Per Part 14 convention, the speciated label `tHg` is used on this page; metals source metadata updated.
 - **access_url** and **raw_sha256** added for provenance.
 
-Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `jurisdictions: [JP]`, `sample_n: 72317`, `near_duplicates: []`, `matrices: [blood, maternal-blood]`, `products: []`, `ingredients: []` (paper measures blood biomarkers and dietary patterns, not food contamination; product/ingredient frontmatter correctly empty — advisory-only routing_malformed entry expected).
+Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `jurisdictions: [JP]`, `sample_n: 72317`, `near_duplicates: []`, `matrices: [blood, maternal-blood]`, `products: []`, `ingredients: []` (paper measures blood biomarkers and dietary patterns, not food contamination; product/ingredient source metadata correctly empty — advisory-only routing_malformed entry expected).
 
-**Audit subagent (2026-05-18, fresh-context general-purpose):** REVISE verdict. Three findings; two applied, one rejected as false positive.
+**Audit editorial review (2026-05-18, fresh-context general-purpose):** REVISE verdict. Three findings; two applied, one rejected as false positive.
 - ⚠️ Check 1 BDS-range phrasing — applied. Tightened "BDS range across the cohort: 13.1–70.0" to distinguish observed quartile cutoffs (13.1–70.0) from the 1st–99th percentile range (27.7–62.6, per §3.1 p.5).
 - ⚠️ Check 5 "supports stringent dietary-Pb minimisation" — applied. Reworded Implications-Certification closing to data-contribution framing per Part 2 (literature-reports, does-not-advocate).
-- ❌ Check 3 "Agilent 7700 instrument-model regression" — **rejected as false positive.** Re-read of PDF p.2 §2.2 confirms the published paper text reads "...inductively coupled plasma-mass spectrometry analysis (Agilent Technologies, Tokyo, Japan)" with no model number. The subagent's quoted text "(Agilent 7700, Agilent Technologies, Tokyo, Japan)" does not appear in this paper; the model "Agilent 7700" likely came from a citing reference (Nakayama et al. 2019 is cited for full method detail) and was incorrectly attributed to the present paper. The wiki page's correction (removing "Agilent 7700") is faithful to the source.
+- ❌ Check 3 "Agilent 7700 instrument-model regression" — **rejected as false positive.** Re-read of PDF p.2 §2.2 confirms the published paper text reads "...inductively coupled plasma-mass spectrometry analysis (Agilent Technologies, Tokyo, Japan)" with no model number. The editorial review's quoted text "(Agilent 7700, Agilent Technologies, Tokyo, Japan)" does not appear in this paper; the model "Agilent 7700" likely came from a citing reference (Nakayama et al. 2019 is cited for full method detail) and was incorrectly attributed to the present paper. The wiki page's correction (removing "Agilent 7700") is faithful to the source.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
@@ -112,13 +111,13 @@ Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

@@ -110,7 +110,7 @@ App: Not suitable as primary input for `contamination_profile` synthesis on infa
 
 Merge-enhance pass 2026-05-17 from prior 2026-05-13 page to current schema:
 
-- **Frontmatter fixes:** `raw_handle` changed from `manual-fetch-kimi` (a folder name, not a handle) to `MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`. `raw_path` corrected from truncated `"...assessment of baby.pdf"` to the actual full filename. `metals` array updated from `[Pb, Cd, Ni, Cr]` to `[Pb, Cd, Ni, Cr, Cu]` — added Cu (paper treats Cu as a heavy-metal contaminant in Table 2 and the HI framework). Fe, Mn, and Zn were measured but as nutritional micro-minerals at typical food levels, not as contamination signals, so they are not included in the metals routing-input array; the wiki-pages section references them via the discussion text rather than as contamination-page links. `matrices` corrected: removed invalid `dry-weight` token; replaced with `[infant-formula-powder, infant-cereal]` (precise system-prompt tokens for the milk-based powdered BM and cereal-based IF products respectively). `ingredients` populated with `milk-and-dairy` and `cereals` (broad slugs for the milk-substrate BM products and cereal-substrate IF products). `products` expanded to include `infant-cereal` (the "Infant Formula" samples in this paper are functionally cereal-based complementary foods, not powdered cow-milk infant formula). Added `access_url`. `publication` updated to include volume/article number. Body H1 retitled to current convention.
+- **source metadata fixes:** `raw_handle` changed from `manual-fetch-source-retrieval` (a folder name, not a handle) to `MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`. `raw_path` corrected from truncated `"...assessment of baby.pdf"` to the actual full filename. `metals` array updated from `[Pb, Cd, Ni, Cr]` to `[Pb, Cd, Ni, Cr, Cu]` — added Cu (paper treats Cu as a heavy-metal contaminant in Table 2 and the HI framework). Fe, Mn, and Zn were measured but as nutritional micro-minerals at typical food levels, not as contamination signals, so they are not included in the metals routing-input array; the wiki-pages section references them via the discussion text rather than as contamination-page links. `matrices` corrected: removed invalid `dry-weight` token; replaced with `[infant-formula-powder, infant-cereal]` (precise system-prompt tokens for the milk-based powdered BM and cereal-based IF products respectively). `ingredients` populated with `milk-and-dairy` and `cereals` (broad slugs for the milk-substrate BM products and cereal-substrate IF products). `products` expanded to include `infant-cereal` (the "Infant Formula" samples in this paper are functionally cereal-based complementary foods, not powdered cow-milk infant formula). Added `access_url`. `publication` updated to include volume/article number. Body H1 retitled to current convention.
 
 - **Section-heading update:** legacy `## Wiki pages updated on ingest` → current `## Wiki pages this source may touch`. Added `## Verification notes` section.
 
@@ -125,11 +125,11 @@ Merge-enhance pass 2026-05-17 from prior 2026-05-13 page to current schema:
 
 These inconsistencies are documented for downstream synthesis use; this page reports what the paper reports rather than imputing corrections.
 
-Audit-pass 2026-05-17 by fresh-context subagent (REVISE verdict): 1 ❌ + 4 ⚠️ findings; 3 applied, 2 informational/no-change:
+Audit-pass 2026-05-17 by fresh-context editorial review (REVISE verdict): 1 ❌ + 4 ⚠️ findings; 3 applied, 2 informational/no-change:
 - ❌ Cr THQ for sample C: original draft said "THQ 4.2 per Table 3" — verified against Table 3 (PDF p. 13) which has no Cr column; 4.2 is the Cd value for sample C. Corrected to "Table 3 does not include a Cr THQ column; computed from Table 2 gives 1.4."
 - ⚠️ BM Ni exceedance count: original said "6 of 8 exceeded WHO 0.07 mg/kg." Recounted from Table 2: only B, E, F, G, H exceed (5 of 8). Corrected.
 - ⚠️ Body-text-vs-Table 2 Cr highest-sample contradiction (A vs C): added to inconsistencies list above.
-- ⚠️ Metals frontmatter Fe/Mn/Zn: removed from metals array (these are nutritional, not contamination; were polluting routing). Documented above.
+- ⚠️ Metals source metadata Fe/Mn/Zn: removed from metals array (these are nutritional, not contamination; were polluting routing). Documented above.
 - ⚠️ Matrix `baby-food`: removed (not in system-prompt matrix vocab); precise tokens `infant-formula-powder` + `infant-cereal` cover both product types.
 
 - **Brand-firewall compliance (Part 12).** The paper uses coded sample identifiers (A–H for BM, I–T for IF) and does not name sampled product brands. Cross-vendor audit (Codex, 2026-05-17) generalized the named retailer in `sample_population` to "supermarket and grocery retailers" under the strict 2026-05-17 brand-firewall reading. Product-form descriptors ("milk-based powdered baby milk," "cereal-based infant formula / functionally infant cereal") are used throughout.
@@ -141,13 +141,13 @@ Audit-pass 2026-05-17 by fresh-context subagent (REVISE verdict): 1 ❌ + 4 ⚠�
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

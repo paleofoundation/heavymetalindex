@@ -132,9 +132,9 @@ Evidence tier set to B rather than A. The journal is peer-reviewed and the metho
 
 No brand names appear in the paper or on this page. Cultivar names (Feteasca albă, Feteasca regală, Riesling italian) are Vitis vinifera grapevine varieties, not commercial wine brands; Part 12 brand-firewall does not apply. The regional geographic indication "Sătmar Hills" identifies the production area, not a brand. Instrument and reagent references (Perkin Elmer AAnalyst 800; Berghof MWS-2 microwave; Merck standard solutions; Barnstead Easypure RoDi D13321) are reproduced under the methods-vendor exception (Part 12, Exception 2).
 
-The metals frontmatter list contains only the six measured trace/heavy metals (Pb, Cd, Cu, Zn, Ni, Co); the four measured macroelements (Na, Ca, Mg, Fe) are reported in the body where relevant to soil context but are not in the frontmatter metals list, in line with HMI scope on toxic metals plus Cu/Zn/Ni as toxic-borderline elements. Arsenic, mercury and chromium were not measured, so iAs, tAs, MeHg, tHg, Cr and Cr-VI are absent.
+The metals source metadata list contains only the six measured trace/heavy metals (Pb, Cd, Cu, Zn, Ni, Co); the four measured macroelements (Na, Ca, Mg, Fe) are reported in the body where relevant to soil context but are not in the source metadata metals list, in line with HMI scope on toxic metals plus Cu/Zn/Ni as toxic-borderline elements. Arsenic, mercury and chromium were not measured, so iAs, tAs, MeHg, tHg, Cr and Cr-VI are absent.
 
-The matrices `grape-leaves` and `grape-canes` are new bare-string additions to the matrices vocabulary, consistent with the existing pattern (`olive-leaves`, `rapeseed-leaves`, `cacao-leaf`). `wine`, `grape-juice` and `soil` are already in use across `wiki/sources/`.
+The matrices `grape-leaves` and `grape-canes` are new bare-string additions to the matrices vocabulary, consistent with the existing pattern (`olive-leaves`, `rapeseed-leaves`, `cacao-leaf`). `wine`, `grape-juice` and `soil` are already in use across the linked reference record.
 
 Wine values in Table 4 ("This study" row) are the 3-cultivar mean. Per-cultivar wine Cu values are quoted in the text (Feteasca albă 0.23, Feteasca regală 0.32, Riesling italian 0.15 mg/L), which average to 0.233 mg/L, consistent with the 0.23 mg/L printed in Table 4. Figure 1 reports per-cultivar wine bar heights for Cd, Cu, Ni, Pb and Zn but the axis values are read from a bar chart and are not tabulated; this page does not reproduce figure-derived per-cultivar wine concentrations to avoid attributing precision the source does not print.
 
@@ -147,13 +147,13 @@ Tables 1, 2 and 3 in the source print "Average" rows whose ± values are implaus
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

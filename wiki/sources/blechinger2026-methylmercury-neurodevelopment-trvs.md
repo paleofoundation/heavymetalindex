@@ -77,14 +77,13 @@ Speciation discipline: the review is about methylmercury toxicological reference
 
 **Microbiome:** No microbiome findings.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]
 
 ## Verification notes
 
-**Identity checks.** On 2026-07-27, DOI grep for `10.1007/s00204-026-04345-8`, DOI-slug grep for `s00204-026-04345-8`, raw-handle grep for `RPHG_10-1007-s00204-026-04345-8`, checksum grep for `925d67f9713b31fb292477aec4532e79d16561473eab8eac65ddc1326b60ac0d`, author grep for `Blechinger`, and cite-key collision checks found no existing `wiki/sources/` page. This is a fresh source page.
+**Identity checks.** On 2026-07-27, DOI grep for `10.1007/s00204-026-04345-8`, DOI-slug grep for `s00204-026-04345-8`, raw-handle grep for `RPHG_10-1007-s00204-026-04345-8`, checksum grep for `925d67f9713b31fb292477aec4532e79d16561473eab8eac65ddc1326b60ac0d`, author grep for `Blechinger`, and cite-key collision checks found no existing the linked reference record page. This is a fresh source page.
 
 **Raw artifact.** The PDF has `29` pages, file size `2066516` bytes, and SHA-256 `925d67f9713b31fb292477aec4532e79d16561473eab8eac65ddc1326b60ac0d`. `pdfinfo` reports Adobe InDesign/PDF Library metadata and no encryption. `pdfimages -list` found no embedded image objects; the tables are text/vector layout. Rendered checks of the Table 1, Table 2, Table 3, and Table 4 pages matched the extracted text used above.
 
@@ -97,13 +96,13 @@ Speciation discipline: the review is about methylmercury toxicological reference
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
-| [6bf226424](https://github.com/paleofoundation/heavymetalindex/commit/6bf226424) | 2026-07-27 | major | 5 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d0](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d0) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [6bf2264245](https://github.com/paleofoundation/heavymetalindex/commit/6bf2264245) | 2026-07-27 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

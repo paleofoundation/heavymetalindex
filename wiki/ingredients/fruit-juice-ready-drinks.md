@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 0
+sources: 1
 ---
 
 # Fruit juice ready drinks
@@ -163,28 +163,58 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU general food law maximum level for Pb in fruit juices under [[regulations/eu2023-contaminants-maximum-levels]] is 0.050 mg/kg (50 ppb), which is stricter than the general food Pb limit and reflects the elevated Pb levels historically observed in concentrated and processed juice products. For fruit juices specifically intended for infants and young children (labeled as such), the EU applies an even stricter maximum Pb limit. No EU maximum level exists for total arsenic in fruit juice; the regulatory focus for arsenic in food is on inorganic arsenic in specific high-risk commodities (cereals, rice). In the United States, FDA has established a guidance level for Pb in juice (all types) of 50 ppb, issued in the context of the juice HACCP regulation and available at [[regulations/fda-juice-haccp-lead-50ppb]], which applies to juice as a food safety reference point. For arsenic in apple juice specifically, FDA has issued draft guidance recommending a limit of 10 ppb for inorganic arsenic, consistent with the drinking water MCL, though this guidance had not been finalized as of the current date.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+<!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 193: Fruit drink, from powder | tAs | 3 | 0 | ND in all composites | 1 |
+| 193: Fruit drink, from powder | Cd | 3 | 0 | ND in all composites | 1 |
+| 193: Fruit drink, from powder | Cr | 3 | 0 | ND in all composites | 25 |
+| 193: Fruit drink, from powder | Pb | 3 | 0 | ND in all composites | 1 |
+| 193: Fruit drink, from powder | tHg | 3 | 0 | ND in all composites | 1 |
+| 193: Fruit drink, from powder | Ni | 3 | 0 | ND in all composites | 20 |
+| 193: Fruit drink, from powder | U | 3 | 0 | ND in all composites | 1 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | tAs | 3 | 1 | 1.1 | 1 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | Cd | 3 | 0 | ND in all composites | 1 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | Cr | 3 | 0 | ND in all composites | 25 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | Pb | 3 | 0 | ND in all composites | 1 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | tHg | 3 | 0 | ND in all composites | 1 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | Ni | 3 | 0 | ND in all composites | 20 |
+| 307: Fruit drink (5% - 25% juice), canned or bottled | U | 3 | 1 | 1.4 | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -121,18 +121,18 @@ This page was built from the full PDF, including the abstract, Tables 1-8, Figur
 
 Merge-enhance pass 2026-06-02: trimmed `matrices:` from five entries to the two actual measurement matrices (paddy-soil, brown-rice-grain); the prior `rice-variety-field-trial`, `soil-conditioner-field-trial`, and `foliar-barrier-field-trial` entries described the experimental design rather than what was measured, and are removed.
 
-Audit-application 2026-06-02 (subagent PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (`wiki/mitigation/`, `wiki/testing/`), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
+Audit-application 2026-06-02 (editorial review PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (the linked reference record, the linked reference record), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

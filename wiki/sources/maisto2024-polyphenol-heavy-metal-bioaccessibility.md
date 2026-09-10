@@ -98,18 +98,18 @@ The PDF has author attribution and DOI `10.3390/antiox13050610`; no DOI conflict
 
 Merge-enhance pass 2026-06-02: matrices field normalized from study-specific descriptors to neighbor-consistent vocabulary (standardized-water, in-vitro-digestion, polyphenol-formulation), aligning with related in-vitro bioaccessibility sources (liu2023-arsenic-seafood-digestion, de-paiva-2020-aluminium-infant-foods-bioaccessibility, nencioni2026-zeolite-cream-metal-adsorption). Empty products and ingredients arrays are correct: the source uses artificial standardized metal-spiked water, not a food, ingredient, or product sample, so routing-malformed advisory severity is the appropriate steady state for this page.
 
-Audit subagent (2026-06-02) flagged the calibration-range sentence as ambiguous; verified against Table 1 — only Cd uses the 0-10 ppb linear range while Hg, As, Cu, Pb, Sb, Zn, and Fe all use 0-20 ppb. Sentence rewritten to state ranges precisely.
+Audit editorial review (2026-06-02) flagged the calibration-range sentence as ambiguous; verified against Table 1 — only Cd uses the 0-10 ppb linear range while Hg, As, Cu, Pb, Sb, Zn, and Fe all use 0-20 ppb. Sentence rewritten to state ranges precisely.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

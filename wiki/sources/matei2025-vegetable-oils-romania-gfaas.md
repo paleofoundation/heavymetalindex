@@ -187,13 +187,13 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 
 ## Verification notes
 
-- 2026-06-01 Fresh ingest from raw/Manual Fetch Kimi /June 1/applsci-15-06269.pdf. Three identity checks (DOI 10.3390/app15116269 grep, raw_handle MFK_applsci-15-06269 grep, cite-key matei2025* grep) all returned no existing pages.
+- 2026-06-01 Fresh ingest from the archived source file. Three identity checks (DOI 10.3390/app15116269 grep, raw_handle MFK_applsci-15-06269 grep, cite-key matei2025* grep) all returned no existing pages.
 - The paper labels its trace-metal method "Graphite Atomic Absorption Spectrometry" / "GTAAS" and uses an Analytik Jena ContraA 800D instrument. ContraA 800D is a high-resolution continuum-source AAS that supports graphite-furnace operation; the paper uses the GF mode. The methods section captures the paper's "GF-AAS" / "GTAAS" labels verbatim.
-- "Rice oil" is the paper's term throughout. Rice bran is the only commercial source of edible rice-derived oil, and the paper's own comparison literature ([Mohajer 2019, ref 61; Bakota et al. 2015, ref 68]) is explicitly about rice bran oil. The page uses [[ingredients/rice-bran-oil]] in the ingredients frontmatter to route the rice-oil signal to the appropriate existing wiki page; matrices uses bare `rice-bran-oil` for consistency.
+- "Rice oil" is the paper's term throughout. Rice bran is the only commercial source of edible rice-derived oil, and the paper's own comparison literature ([Mohajer 2019, ref 61; Bakota et al. 2015, ref 68]) is explicitly about rice bran oil. The page uses [[ingredients/rice-bran-oil]] in the ingredients source metadata to route the rice-oil signal to the appropriate existing wiki page; matrices uses bare `rice-bran-oil` for consistency.
 - The blend oil is a flax + rapeseed + pumpkin-seed combination. Flaxseed-oil and pumpkin-seed-oil ingredient pages do not exist in the current taxonomy snapshot. Routing the blend-oil signal to [[ingredients/rapeseed-oil]] (the one shared component with an existing wiki page) and to [[ingredients/vegetable-oils]] preserves traceability without overspecifying. Flagged for Karen: a `flaxseed-oil` (alias `linseed-oil`) ingredient page may be worth creating once a second source measuring flax-derived oil is encountered.
 - "Grapeseed oil" and "walnut oil" do not have dedicated ingredient pages in the taxonomy snapshot. [[ingredients/walnuts]] is used to route walnut-oil contamination data to the existing walnuts ingredient page (the closest taxonomic anchor for the same plant). Grapeseed-oil signal is routed to [[ingredients/vegetable-oils]] only. Flagged for Karen: grapeseed-oil and walnut-oil ingredient pages may be worth creating once a second source measuring these specifically is encountered.
 - Matrices uses bare strings (`olive-oil`, `sunflower-oil`, `rapeseed-oil`, `walnut-oil`, `grapeseed-oil`, `rice-bran-oil`, `blend-oil`, `edible-oil`) following the convention established in [[sources/acar2012-vegetable-oils-olives-turkey-etaas]] and [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]. Per the audit note on those pages, bare-string matrices outside the system-prompt list are advisory only.
-- Authors measure total Pb, total Cd, and total Cr (no speciation). Frontmatter uses `Pb`, `Cd`, `Cr` accordingly (not iAs/tAs/MeHg-style speciation markers; Cr is not `Cr-VI`).
+- Authors measure total Pb, total Cd, and total Cr (no speciation). source metadata uses `Pb`, `Cd`, `Cr` accordingly (not iAs/tAs/MeHg-style speciation markers; Cr is not `Cr-VI`).
 - Reagent and instrument vendor names (Merck KGaA, Berghof, Analytik Jena, Atago, Jasco, Fluka, Redox, Millipore) are preserved per Part 12 Exception 2 (scientific-method vendor names). No sampled-product brand names appear in the paper; the eight oil categories are labeled by type and provenance only.
 - The paper cites several regulatory benchmarks (FAO/WHO 2002 limits at 0.1 mg/kg Cu and Pb; Codex CXS 210-1999 for physicochemical indices; WHO 0.2% moisture cap; EU 2023/915 for Cd in foods generally). Of these, only [[regulations/eu-2023-915-cadmium]] is in the current taxonomy snapshot; the other limits are preserved in prose without wikilinks rather than asserted as cross-page facts.
 - Author affiliation: Department of Chemistry and Chemical Engineering, Ovidius University Constanta, 124 Mamaia Blvd., 900527 Constanta, Romania. Correspondence: sbirghila@univ-ovidius.ro (S.B.); asoceanu@univ-ovidius.ro (A.S.).
@@ -202,13 +202,13 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c3909aad72](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad72) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

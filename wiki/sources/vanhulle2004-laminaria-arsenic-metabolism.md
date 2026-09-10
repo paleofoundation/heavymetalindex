@@ -90,20 +90,20 @@ This source is useful as seaweed exposure-context evidence, not as a broad occur
 - Text was extracted to `/tmp/hmi-seaweed-064.txt` with `pdftotext -layout`; title/authorship, Methods, Table 1, Table 2, Table 3, Results/Discussion, and Figure 7 caption text were readable.
 - All Key numbers were checked against `/tmp/hmi-seaweed-064.txt`, especially the `43.2 ± 0.4 mg kg-1` Laminaria total-arsenic statement, urinary peak values, Table 3 blood-compartment values, and the simulated-gastric-fluid text.
 - Units and bases are preserved as `mg kg-1`, `g (dry mass)`, `ng mL-1`, `ng g-1`, `h`, `min`, `mL`, `°C`, and `Da`; no unit conversion was performed.
-- Speciation check: total arsenic in Laminaria, urinary DMA/MA/DMAE, arsenosugars, and the `254 Da` compound are kept distinct. The source does not report seaweed iAs, so the frontmatter uses `metals: [tAs]` only.
+- Speciation check: total arsenic in Laminaria, urinary DMA/MA/DMAE, arsenosugars, and the `254 Da` compound are kept distinct. The source does not report seaweed iAs, so the source metadata uses `metals: [tAs]` only.
 - Brand firewall: the Chinese supermarket source is retained only as market/geographic context; no store or brand name is reported.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact *Laminaria* ingestion and human-biological matrices remain in source text while frontmatter routes the food matrix broadly to seaweed/kelp foods.
+- Missing-slug check: no missing product or ingredient slug blockers. Exact *Laminaria* ingestion and human-biological matrices remain in source text while source metadata routes the food matrix broadly to seaweed/kelp foods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

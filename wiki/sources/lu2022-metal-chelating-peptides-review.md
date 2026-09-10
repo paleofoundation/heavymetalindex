@@ -68,7 +68,7 @@ The peptide-metal coordination chemistry described in this review — binding of
 ## Verification notes
 
 - PDF read in full (8 pages) via the Read tool; abstract, body sections, Table 1, and references all reviewed.
-- DOI `10.53388/FH20221101019`, raw handle `MFK_47-research-progress-of-metal-chelating-peptides`, and cite-key `lu2022-metal-chelating-peptides-review` checked against `wiki/sources/`; no existing page.
+- DOI `10.53388/FH20221101019`, raw handle `MFK_47-research-progress-of-metal-chelating-peptides`, and cite-key `lu2022-metal-chelating-peptides-review` checked against the linked reference record; no existing page.
 - The paper is open access under CC-BY 4.0 per the title page; recorded as `license: cc-by-4.0`.
 - Metals discussed are Ca, Fe, Zn, Cu — all essential elements in the paper's framing. None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured or reviewed; `metals:` is therefore `[]`. Iron and copper have wiki metal pages but are not the contamination focus here.
 - The paper reports binding constants, chelation rates, molecular weight ranges, and peptide sequences, not contamination occurrence in food matrices; `ingredients:` and `products:` are therefore `[]`. The protein sources cited (cod bone, deer bone, walnut meal, sesame protein, β-lactoglobulin, etc.) are framed as carrier feedstocks for nutritional supplement manufacture, not as products in which HMI heavy metal contamination is being measured. Routing this source to ingredient or product pages would be misleading.
@@ -80,13 +80,13 @@ The peptide-metal coordination chemistry described in this review — binding of
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [aca5e2155a](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155a) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

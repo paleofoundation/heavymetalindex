@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 24
+sources: 25
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 6
@@ -158,10 +158,26 @@ Glass is the baseline-cleanest option for retail product. PET is comparable on m
 
 The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets specific heavy-metals provisions for individual oils with iron at 1.5 mg/kg max and copper at 0.1 mg/kg max (virgin oils). The EU Regulation 2023/915 applies the general fats-and-oils Pb maximum of 0.10 mg/kg to vegetable oils. The FDA has not set vegetable-oil-specific action levels but the general adulteration framework applies. The systematic-review and probabilistic-risk literature consistently finds commercial vegetable oils below the EU Pb maximum, with worst-case-tail product (cold-pressed unrefined, certain origin combinations) approaching but not exceeding the limit in most retail surveys.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 379: Oil, vegetable | tAs | 3 | 0 | ND in all composites | 4 |
+| 379: Oil, vegetable | Cd | 3 | 0 | ND in all composites | 2 |
+| 379: Oil, vegetable | Cr | 3 | 0 | ND in all composites | 130 |
+| 379: Oil, vegetable | Pb | 3 | 0 | ND in all composites | 5 |
+| 379: Oil, vegetable | tHg | 3 | 0 | ND in all composites | 1 |
+| 379: Oil, vegetable | Ni | 3 | 0 | ND in all composites | 60 |
+| 379: Oil, vegetable | U | 3 | 0 | ND in all composites | 2 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review|Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils]]<span class="hmi-ref-meta">González-Torres P, Puentes JG, Moya AJ, and La Rubia MD · Applied Sciences · 2023 · [doi.org/10.3390/app13053020](https://doi.org/10.3390/app13053020)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes|A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran]]<span class="hmi-ref-meta">Mehri F, Heshmati A, Talebi Ghane E, Khazaei M, Mahmudiono T, and Fakhri Y · BMC Public Health · 2024 · [doi.org/10.1186/s12889-023-17624-1](https://doi.org/10.1186/s12889-023-17624-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -169,6 +185,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 4. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)]]<span class="hmi-ref-meta">Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM · Grasas y Aceites · 2008 · [doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/tayeb2025-olive-corn-oil-iran-pb-cd|Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis]]<span class="hmi-ref-meta">Tayeb J and Movassaghghazani M · Toxicology Reports · 2025 · [doi.org/10.1016/j.toxrep.2025.101922](https://doi.org/10.1016/j.toxrep.2025.101922)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia]]<span class="hmi-ref-meta">Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D · BMC Public Health · 2024 · [doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -192,26 +209,27 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 12 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | Global systematic review of 35 vegetable oil types from 24 countries (2015-2022 literature) |
 | 13 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | Global seed-crops-to-oil-products review with seed-to-finished-oil metal-load partitioning |
 | 14 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | IR/CN/GR Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn occurrence in Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and... |
-| 15 | [[sources/sadighara2021-food-organotin-review\|Sadighara et al. 2021]]. *The organotin contaminants in food: Sources and methods for detection: A systematic review and meta-analysis*, Food Chemistry: X | 2021 | Peer reviewed review | JP/IT/CL Sn occurrence in Systematic review and meta-analysis of published food-matrix organotin studies; 123 database records were screened, 9 studies were selected,... |
-| 16 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | SA Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs occurrence in Fifty-four edible vegetable oil samples, described as soybean, palm, and olive oils, collected from supermarkets around Riyadh, Saudi... (n=54) |
-| 17 | [[sources/hussain2019-plant-food-heavy-metal-review\|Hussain et al. 2019]]. *Arsenic and Heavy Metal (Cadmium, Lead, Mercury and Nickel) Contamination in Plant-Based Foods*, Plant and Human Health, Volume 2 | 2019 | Book chapter | GLOBAL tAs, Cd, Pb, tHg, Ni occurrence in Review chapter compiling published occurrence ranges for arsenic, cadmium, lead, mercury, and nickel in plant-based foods including cereal... |
-| 18 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | ET Cu, Zn, Fe occurrence in Four branded edible-oil samples purchased around the Merkato commercial center in Ethiopia: two imported palm-oil samples and two... (n=4) |
-| 19 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
-| 20 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | CN Cu, Zn, Fe, Mn, Cd, Ni, Pb, tAs occurrence in 109 commercial edible vegetable oil samples purchased from Chinese supermarkets during 2009-2010: 13 soybean, 12 corn, 14 peanut,... (n=109) |
-| 21 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil 9-metal panel by ICP-AES (n=17); broad-coverage methodological reference |
-| 22 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | TW tAs occurrence in Twenty-one market samples of edible fats and oils in Taiwan, including peanut oil, sesame oil, olive oil, sunflower... (n=21) |
+| 15 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 16 | [[sources/sadighara2021-food-organotin-review\|Sadighara et al. 2021]]. *The organotin contaminants in food: Sources and methods for detection: A systematic review and meta-analysis*, Food Chemistry: X | 2021 | Peer reviewed review | JP/IT/CL Sn occurrence in Systematic review and meta-analysis of published food-matrix organotin studies; 123 database records were screened, 9 studies were selected,... |
+| 17 | [[sources/alrajhi2020-riyadh-edible-oils-trace-metals\|Alrajhi et al. 2020]]. *Concentration of Trace Metals in Some Major Edible Oils of Riyadh*, Revista Internacional de Contaminacion Ambiental | 2020 | Peer-reviewed | SA Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, tAs occurrence in Fifty-four edible vegetable oil samples, described as soybean, palm, and olive oils, collected from supermarkets around Riyadh, Saudi... (n=54) |
+| 18 | [[sources/hussain2019-plant-food-heavy-metal-review\|Hussain et al. 2019]]. *Arsenic and Heavy Metal (Cadmium, Lead, Mercury and Nickel) Contamination in Plant-Based Foods*, Plant and Human Health, Volume 2 | 2019 | Book chapter | GLOBAL tAs, Cd, Pb, tHg, Ni occurrence in Review chapter compiling published occurrence ranges for arsenic, cadmium, lead, mercury, and nickel in plant-based foods including cereal... |
+| 19 | [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia\|Tesfaye et al. 2016]]. *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*, Advances in Chemistry | 2016 | Peer-reviewed | ET Cu, Zn, Fe occurrence in Four branded edible-oil samples purchased around the Merkato commercial center in Ethiopia: two imported palm-oil samples and two... (n=4) |
+| 20 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Zn occurrence in 53 vegetable oil samples (8 soybean, 12 sunflower, 8 flower-seed, 8 nut, 8 corn, 9 olive) and 70... (n=123) |
+| 21 | [[sources/zhu2011-edible-vegetable-oils-china-8-metals\|Zhu et al. 2011]]. *Health risk assessment of eight heavy metals in nine varieties of edible vegetable oils consumed in China*, Food and Chemical Toxicology | 2011 | Peer-reviewed | CN Cu, Zn, Fe, Mn, Cd, Ni, Pb, tAs occurrence in 109 commercial edible vegetable oil samples purchased from Chinese supermarkets during 2009-2010: 13 soybean, 12 corn, 14 peanut,... (n=109) |
+| 22 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil 9-metal panel by ICP-AES (n=17); broad-coverage methodological reference |
+| 23 | [[sources/chen2001-edible-fats-oils-arsenic\|Chen et al. 2001]]. *Determination of arsenic in edible fats and oils by focused microwave digestion and atomic fluorescence spectrometer*, Journal of Food and Drug Analysis | 2001 | Peer-reviewed | TW tAs occurrence in Twenty-one market samples of edible fats and oils in Taiwan, including peanut oil, sesame oil, olive oil, sunflower... (n=21) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 5 sources added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 5 sources removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 5 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 5 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

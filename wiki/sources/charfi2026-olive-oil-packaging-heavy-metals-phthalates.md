@@ -125,11 +125,11 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 
 ## Verification notes
 
-- Initial ingest (2026-05-14): created from Manual Fetch Kimi /condiment_papers/01_Oils.
+- Initial ingest (2026-05-14): created from Manual Fetch source-retrieval /condiment_papers/01_Oils.
 - Merge-enhance pass (Claude Opus, 2026-05-25, v2 autonomous skill) addressed the following defects against the source PDF:
   - **raw_path truncation fixed**: prior path "Food safety in the production of olive oils. Presence of heavy me.pdf" did not match any file on disk; corrected to the full filename "Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using.pdf".
   - **products field populated**: added `products: [olive-oil]` to resolve the `routing_malformed.csv` advisory entry; the page now routes to the locked HMTc Category 7 Row 1 (Olive oil) product page.
-  - **metals frontmatter expanded** from 6 (Pb, Cd, Ni, tAs, Al, Cr) to 12 (Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg) to match the analytes actually reported in Table 3 and Figure 2 of the source.
+  - **metals source metadata expanded** from 6 (Pb, Cd, Ni, tAs, Al, Cr) to 12 (Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg) to match the analytes actually reported in Table 3 and Figure 2 of the source.
   - **Cu data attribution corrected**: prior version stated "OPO (0.12 ± 0.01 to 0.18 ± 0.01)" conflating across campaigns; the 0.18 ± 0.05 belongs to EVPR¹ (ceramic, 2021/2022), while 0.18 ± 0.01 is OPO² (2022/2023). Per-campaign breakdown added.
   - **Mn and Mg data added**: prior version omitted these reported analytes.
   - **Detailed Fe, Zn, Al, Ni per-sample breakdown added**.
@@ -137,9 +137,9 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
   - **License clarified** from "CC BY" to "CC BY 4.0" per the source page footer.
   - **access_url added**.
   - **"Wiki pages updated on ingest" heading renamed** to "Wiki pages this source may touch" to match current convention (the routing layer, not the ingest session, updates downstream pages).
-- Auto-audit pass (general-purpose subagent, 2026-05-25) — REVISE verdict. Findings applied:
-  - **Zn 2022/2023 range corrected from 0.12–0.25 to 0.04–0.10** — independent verification confirmed I had conflated Fe 2022/2023 (0.12–0.25 mg/kg, highest in olive pomace oils) with Zn 2022/2023 (0.04–0.10 mg/kg, similar to 2021/2022) per p.772 text. The subagent flagged this as a partial concern about the "highest in EVPR²" attribution but missed the more material range error; both have been addressed.
-  - **Broken wikilink fixed**: `[[supply-chain/packaging-materials]]` does not exist in `wiki/supply-chain/`; the relevant existing page is `[[supply-chain/aluminum-based-packaging]]`, which captures the most distinctive packaging-vs-metal finding from this paper (EVAL¹ aluminium container Al 0.67 mg/kg).
+- Auto-audit pass (general-purpose editorial review, 2026-05-25) — REVISE verdict. Findings applied:
+  - **Zn 2022/2023 range corrected from 0.12–0.25 to 0.04–0.10** — independent verification confirmed I had conflated Fe 2022/2023 (0.12–0.25 mg/kg, highest in olive pomace oils) with Zn 2022/2023 (0.04–0.10 mg/kg, similar to 2021/2022) per p.772 text. The editorial review flagged this as a partial concern about the "highest in EVPR²" attribution but missed the more material range error; both have been addressed.
+  - **Broken wikilink fixed**: `[[supply-chain/packaging-materials]]` does not exist in the linked reference record; the relevant existing page is `[[supply-chain/aluminum-based-packaging]]`, which captures the most distinctive packaging-vs-metal finding from this paper (EVAL¹ aluminium container Al 0.67 mg/kg).
   - **Internal source discrepancy flagged**: Table 3 reports EVOO-P¹ Ni = 0.20 ± 0.08, but p.773 text says "the highest [Ni] concentration was detected in the case of EVOO-P with a concentration of 0.21 ± 0.09 mg/kg oil." This is a paper-internal text/table inconsistency, not a wiki extraction error. The wiki retains the Table 3 value (more granular and aligned with the per-sample table) for routing consistency.
 
 ## Wiki pages this source may touch
@@ -162,13 +162,13 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

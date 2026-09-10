@@ -74,12 +74,15 @@ contamination_profile:
     n_studies: 0
     last_reviewed: 2026-05-12
   U:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::172::uranium","role":"value","food_id":"172","food_name":"Honey","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
@@ -115,7 +118,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Al | n=3 | 50–500 | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
 | Cr | n=3 | 10–90 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
 | Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| U | n=1 dataset; composites=3 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 
 ## Synthesis basis and censoring treatment
 
@@ -136,22 +139,19 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Honey" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 3 | 0 | 0 | in profile |
-| Cr | 3 | 0 | 0 | in profile |
-| Ni | 3 | 0 | 0 | in profile |
-| Pb | 3 | 0 | 0 | in profile |
-| U | 3 | 0 | 0 | in profile |
-| tAs | 3 | 0 | 0 | in profile |
-| tHg | 3 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 172: Honey | tAs | 3 | 0 | ND in all composites | 3 |
+| 172: Honey | Cd | 3 | 0 | ND in all composites | 1 |
+| 172: Honey | Cr | 3 | 0 | ND in all composites | 50 |
+| 172: Honey | Pb | 3 | 0 | ND in all composites | 4 |
+| 172: Honey | tHg | 3 | 0 | ND in all composites | 1 |
+| 172: Honey | Ni | 3 | 0 | ND in all composites | 40 |
+| 172: Honey | U | 3 | 0 | ND in all composites | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -196,12 +196,20 @@ Glass packaging avoids any plastic-leachate pathway; Sn migration is not relevan
 
 The EU sets a maximum level for Pb in honey of 0.10 mg/kg (100 ppb) wet weight [[regulations/eu2023-contaminants-maximum-levels]]. No EU maximum level for Cd in honey has been set as of the current corpus state. The finding of Naccari et al. 2025 that 80 percent of Italian wildflower honey samples exceeded this Pb limit illustrates that the EU limit is an active regulatory constraint for this commodity, not a comfortable ceiling [[sources/naccari2025-honey-toxic-metals-microelements|2]]. The United States does not set a statutory maximum for Pb or Cd in honey. Codex Alimentarius does not list honey in its specific ML tables for Pb or Cd [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**U.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/naccari2025-honey-toxic-metals-microelements|Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety]]<span class="hmi-ref-meta">Naccari C, Ferrantelli V, Cammilleri G, Barbaccia G, Riolo P, Ferrante MC, et al. · Foods 2025, 14, 1986 · 2025 · [doi.org/10.3390/foods14111986](https://doi.org/10.3390/foods14111986)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/abeslami2025-moroccan-honey-minerals|Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco]]<span class="hmi-ref-meta">Abeslami A, El Farissi H, Cacciola F, Oulad El Majdoub Y, Mondello L, El Bachiri A, et al. · Molecules · 2025 · [doi.org/10.3390/molecules30010150](https://doi.org/10.3390/molecules30010150)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/wise2025-elevated-metals-us-honeys|Elevated Metal Levels in U.S. Honeys: Is There a Concern for Human Health?]]<span class="hmi-ref-meta">Wise JP Jr, Wise RM, Hoffert A, Wise JTF, and Specht AJ · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-024-04295-1](https://doi.org/10.1007/s12011-024-04295-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -243,13 +251,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [1b9dc36c8](https://github.com/paleofoundation/heavymetalindex/commit/1b9dc36c8) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 11 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 4 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 3 sources added; narrative text revised |
+| [1b9dc36c81](https://github.com/paleofoundation/heavymetalindex/commit/1b9dc36c81) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sources added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

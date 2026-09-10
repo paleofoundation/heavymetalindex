@@ -127,10 +127,10 @@ No reference materials, LOD/LOQ values, recovery percentages, blank corrections,
 - Fig. 5 shows Cu = 0 mg/L for the well water and filtered tap water columns and Cr = 0 mg/L for the Diyala River, Khirisan River, tap water, and bottled drinking water columns. These are read here as "below detection" rather than literal zero, since no LOD is stated.
 - Page numbers cited are from the published version (pp. 471–476).
 - Brand names: the bottled drinking water is sourced from "two companies" in Baquba but the companies are not named in the paper; no brand-firewall concern.
-- Iraqi Standard IQS 417 (Drinking-Water Standard, Central Organization for Quality Control and Standardization, Council of Ministers, Republic of Iraq, 2001) is cited in the limits table but is not an existing wiki regulation slug; not added to frontmatter.
+- Iraqi Standard IQS 417 (Drinking-Water Standard, Central Organization for Quality Control and Standardization, Council of Ministers, Republic of Iraq, 2001) is cited in the limits table but is not an existing wiki regulation slug; not added to source metadata.
 - Cd well-water multiplier reported as "274×" per the source text on p. 473 ("Cd concentrations found in well water are by 274 times more than limit value"); the strict arithmetic 0.820 ÷ 0.003 = 273.3× is noted in the Key numbers table parenthetically. The wiki defaults to the source's stated figure to preserve source fidelity.
-- The `matrices:` field uses six terms — `drinking-water` (in the common matrices vocabulary list in `docs/gpt-collaboration/system-prompt.md`), plus `bottled-drinking-water`, `tap-water`, `filtered-water`, `well-water`, and `river-water` as established extensions already in active use across the source corpus. These extensions preserve the geographic/source-type distinctions the synthesis pass and downstream product-routing need. The system-prompt explicitly allows extensions when the common list does not fit and asks that they be flagged in verification notes; this entry is that flag.
-- Audit subagent (2026-05-30) flagged Cd well-water multiplier as 273× vs source's 274× (Check 1) — verified against p. 473 of the source; the source text indeed says "274 times" while the strict arithmetic gives 273.3×; corrected the page to mirror the source's stated figure with a parenthetical noting the arithmetic. Audit also flagged the matrices vocabulary as undocumented (Check 2) — verified as in-active-use extensions of the open-ended matrices vocabulary, added this verification-notes entry to flag them per system-prompt convention; matrices field unchanged.
+- The `matrices:` field uses six terms — `drinking-water` (in the common matrices vocabulary list in the editorial record), plus `bottled-drinking-water`, `tap-water`, `filtered-water`, `well-water`, and `river-water` as established extensions already in active use across the source corpus. These extensions preserve the geographic/source-type distinctions the synthesis pass and downstream product-routing need. The system-prompt explicitly allows extensions when the common list does not fit and asks that they be flagged in verification notes; this entry is that flag.
+- Audit editorial review (2026-05-30) flagged Cd well-water multiplier as 273× vs source's 274× (Check 1) — verified against p. 473 of the source; the source text indeed says "274 times" while the strict arithmetic gives 273.3×; corrected the page to mirror the source's stated figure with a parenthetical noting the arithmetic. Audit also flagged the matrices vocabulary as undocumented (Check 2) — verified as in-active-use extensions of the open-ended matrices vocabulary, added this verification-notes entry to flag them per system-prompt convention; matrices field unchanged.
 
 ## Wiki pages this source may touch
 
@@ -144,13 +144,13 @@ No reference materials, LOD/LOQ values, recovery percentages, blank corrections,
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9658f6be52](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be52) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

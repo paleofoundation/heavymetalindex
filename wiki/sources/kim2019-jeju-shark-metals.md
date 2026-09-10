@@ -91,8 +91,7 @@ Speciation discipline: arsenic is total arsenic by ICP-MS, not inorganic arsenic
 
 **Microbiome:** No microbiome findings.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[products/fish-marine-predatory]]
 - [[ingredients/shark]]
 - [[ingredients/fish]]
@@ -111,7 +110,7 @@ Speciation discipline: arsenic is total arsenic by ICP-MS, not inorganic arsenic
 
 ## Verification notes
 
-**Identity checks.** On 2026-07-27, DOI grep for `10.1371/journal.pone.0212410`, DOI-slug grep for `10-1371-journal-pone-0212410`, raw-handle grep for `RPHG_10-1371-journal-pone-0212410`, checksum grep for `1b0fd005196f21eab524337d0192e8cf1b21b4ea38c3af2ec951804ec32f524d`, author/title grep for `Sang Wha Kim` / `shark meat`, and cite-key collision checks found no existing `wiki/sources/` page. This is a fresh source page.
+**Identity checks.** On 2026-07-27, DOI grep for `10.1371/journal.pone.0212410`, DOI-slug grep for `10-1371-journal-pone-0212410`, raw-handle grep for `RPHG_10-1371-journal-pone-0212410`, checksum grep for `1b0fd005196f21eab524337d0192e8cf1b21b4ea38c3af2ec951804ec32f524d`, author/title grep for `Sang Wha Kim` / `shark meat`, and cite-key collision checks found no existing the linked reference record page. This is a fresh source page.
 
 **Raw artifact.** The PDF has `18` pages, file size `1339157` bytes, title metadata `Heavy metal accumulation in and food safety of shark meat from Jeju island, Republic of Korea`, and SHA-256 `1b0fd005196f21eab524337d0192e8cf1b21b4ea38c3af2ec951804ec32f524d`. `pdfimages -list` reports article figures on pages 4, 9, and 11 plus recurring PLOS header images.
 
@@ -124,13 +123,13 @@ Speciation discipline: arsenic is total arsenic by ICP-MS, not inorganic arsenic
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sections added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
-| [19697b379](https://github.com/paleofoundation/heavymetalindex/commit/19697b379) | 2026-07-27 | major | 5 sections added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d0](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d0) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [19697b3794](https://github.com/paleofoundation/heavymetalindex/commit/19697b3794) | 2026-07-27 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

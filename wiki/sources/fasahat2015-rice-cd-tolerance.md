@@ -73,7 +73,7 @@ App: No occurrence or consumption-anchored values for the rice ingredient profil
 
 ## Verification notes
 
-Source PDF: `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2015_10-9755-ejfa-v27i1-17870.pdf`. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a rice-Cd plant-science review, not a mineral-water occurrence survey. The slug was assigned upstream by the discover-skill harness against a Cd × product gap query and is preserved in `raw_handle:` and `raw_path:` for provenance only; frontmatter `matrices:`, `ingredients:`, and `products:` reflect the actual content (rice, plant-tissue, soil; rice ingredient; no products). No mineral-water content in this paper. Same "mineral-water-cd-product" filename pattern as `mostofa2015-rice-h2s-cd-tolerance` in this folder.
+Source PDF: the archived source file. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a rice-Cd plant-science review, not a mineral-water occurrence survey. The slug was assigned upstream by the discover-skill harness against a Cd × product gap query and is preserved in `raw_handle:` and `raw_path:` for provenance only; source metadata `matrices:`, `ingredients:`, and `products:` reflect the actual content (rice, plant-tissue, soil; rice ingredient; no products). No mineral-water content in this paper. Same "mineral-water-cd-product" filename pattern as `mostofa2015-rice-h2s-cd-tolerance` in this folder.
 
 Evidence tier B reflects the peer-reviewed narrative-review character — substantive Cd-in-rice synthesis with traceable cited primary sources, but no original measurements and no systematic-review methodology. The tier is downgraded from A because all numerical anchors are secondhand; it is held above C because the review is peer-reviewed in an indexed journal and the consolidated source set is correctly attributed to its primary literature.
 
@@ -83,18 +83,18 @@ Cadmium is reported throughout as total Cd; no inorganic vs. organo-Cd speciatio
 
 Tables and figures: Table 1 (QTL analysis of cadmium concentration in rice, p.97) was read in full; the QTL rows are summarised above and were cross-checked against the cited population, marker interval, and reference fields. Figure 1 (p.96, Cd transport schematic) is reproduced from Uraguchi and Fujiwara (2012) and contributes no original data.
 
-Audit subagent (2026-05-30) flagged the >80%-root-Cd attribution as ambiguous between Cui 2004 and Cui 2008; verified against PDF p.96 — Fasahat cites "(Cui et al., 2004; Liu et al., 2007;...)" for the >80% claim, while Cui 2008 is cited only for the adjacent "higher Cd remains in roots" statement. Wiki Key numbers corrected from "Cui et al., 2008" to "Cui et al., 2004" for the >80% figure.
+Audit editorial review (2026-05-30) flagged the >80%-root-Cd attribution as ambiguous between Cui 2004 and Cui 2008; verified against PDF p.96 — Fasahat cites "(Cui et al., 2004; Liu et al., 2007;...)" for the >80% claim, while Cui 2008 is cited only for the adjacent "higher Cd remains in roots" statement. Wiki Key numbers corrected from "Cui et al., 2008" to "Cui et al., 2004" for the >80% figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

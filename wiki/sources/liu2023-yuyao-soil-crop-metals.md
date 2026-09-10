@@ -72,25 +72,25 @@ This source supports a local China occurrence route for rice grain, fresh fruit,
 ## Verification notes
 
 - Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s12205-023-2459-9`, `MFK_enrichment-characteristics-and-health-risk-assessm`, or `liu2023-yuyao-soil-crop-metals`.
-- Speciation: As and Hg are reported without speciation. Frontmatter and text therefore use tAs and tHg; no iAs or MeHg values were inferred.
+- Speciation: As and Hg are reported without speciation. source metadata and text therefore use tAs and tHg; no iAs or MeHg values were inferred.
 - Units preserved: crop and soil values remain in `mg/kg`; no wet/dry conversion was performed.
 - Basis caveat: the paper states rice samples were mixed into a `500 g dry sample`, while mustard and bayberry were collected as fresh/rinsed samples. It does not cleanly state one common dry-weight or fresh-weight basis for Table 3, so this page preserves the source unit and flags the ambiguity.
 - Detection-limit caveat: Table 2 lists crop detection limits in `mg/kg` as Cr `0.5`, Cu `1`, Pb `0.1`, Cd `0.1`, As `0.3`, and Hg `0.01`, yet Table 3 reports several crop means below those values. The page preserves the published means and records the inconsistency rather than applying censoring.
 - Source-side narrative caveat: the Results text says rice HI reached `2.44`, but a later discussion/conclusion sentence says there were no non-carcinogenic and carcinogenic risks associated with rice intake. This page reports Table 5 values and notes the contradiction.
 - Matrix separation: soil rows are excluded from product occurrence values; they are only soil-crop pathway context.
-- Missing slug note: the taxonomy snapshot has no exact `bayberry` or fresh-mustard crop slug. Frontmatter uses broad existing `[[ingredients/fruit]]`, `[[ingredients/leafy-vegetables]]`, `[[products/fresh-fruit]]`, and `[[products/leafy-vegetables-other]]` slugs.
+- Missing slug note: the taxonomy snapshot has no exact `bayberry` or fresh-mustard crop slug. source metadata uses broad existing `[[ingredients/fruit]]`, `[[ingredients/leafy-vegetables]]`, `[[products/fresh-fruit]]`, and `[[products/leafy-vegetables-other]]` slugs.
 - No brand names were present.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -94,8 +94,7 @@ Courses: useful for illustrating how aquaculture water source and commercial fee
 
 App: total-Hg, Cd, and Pb data for farmed freshwater rainbow trout contribute to species- and product-level contamination profiles; values are dry-weight and from a single Iranian region.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/mercury]]
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -104,7 +103,7 @@ App: total-Hg, Cd, and Pb data for farmed freshwater rainbow trout contribute to
 
 ## Verification notes
 
-Fresh-context audit subagent (2026-05-30) verdict REVISE; all five checks were clean except minor Check 2 concerns, resolved as follows:
+Fresh-context audit editorial review (2026-05-30) verdict REVISE; all five checks were clean except minor Check 2 concerns, resolved as follows:
 - Audit flagged the per-group sample-size note as incomplete for omitting Fig. 3's "six fish per group"; verified against PDF p. 5 (Fig. 3 caption) — correct, added Fig. 3's six-fish count to the reconciliation note.
 - Audit flagged matrices `fish-tissue` as not enumerated in the four-list taxonomy snapshot; verified — `fish-tissue` is an established bare-string matrices value used on 21 existing source pages (e.g. zolfaghari2018, melnyk2021). False positive; no change.
 - Audit flagged `WHO` in `jurisdictions:` as loose; verified — `WHO` is an established jurisdictions value across the corpus (e.g. zolfaghari2018, meng2023). False positive; no change.
@@ -113,13 +112,13 @@ Fresh-context audit subagent (2026-05-30) verdict REVISE; all five checks were c
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [22b1fecd0b](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0b) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

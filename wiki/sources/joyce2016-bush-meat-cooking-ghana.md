@@ -86,7 +86,7 @@ The paper does not report: instrument make or model, digestion conditions (tempe
 
 ## Verification notes
 
-- Identity verified against the PDF at `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-cd_2016_10-4172-2157-7110-1000617.pdf` (sha256 `271331a32c509b8b5a18c356ee1395156cfe443f5a1fad6da9f1764c7e895d55`). DOI 10.4172/2157-7110.1000617; J Food Process Technol Vol 7 Issue 9, article 617; received July 2016, accepted August 2016.
+- Identity verified against the PDF at the archived source file (sha256 `271331a32c509b8b5a18c356ee1395156cfe443f5a1fad6da9f1764c7e895d55`). DOI 10.4172/2157-7110.1000617; J Food Process Technol Vol 7 Issue 9, article 617; received July 2016, accepted August 2016.
 - **Internal Pb-boiled discrepancy:** Table 1 records boiled Pb as 13.93 ppm. The Results narrative on page 2 reads "After boiling, it increased to 13.73 ppm and increased to 17.32 ppm after frying." The 13.93 vs 13.73 difference is a single-digit transcription error in the narrative; Table 1 is treated as the authoritative figure on this page. Flagged here because the table-vs-text inconsistency was not corrected at proof.
 - **Cd uniformity:** the paper reports Cd at exactly 0.10 ppm for all six cooking-state groups with p=1.00 and is silent on detection limits, replicate counts, and recoveries. A perfectly uniform mean across six groups with no variance is consistent with values sitting at the instrument's reporting floor (and being rounded or reported as the floor) rather than with genuine biological constancy. Page values are reported as the authors state them; the QA-gap caveat is what the C-tier evidence rating reflects.
 - **Evidence tier C** reflects the publishing venue (J Food Process Technol, OMICS open-access), the absence of any reported QA controls (no LOD/LOQ, no reference materials, no recoveries, no replicate structure), the small smoked-meat group (n=5), the unstated digestion details, and the Cd-uniformity reporting pattern. Findings are usable as occurrence data for cooked vs raw bush-meat Pb dynamics in Ghana but should not be pooled with A- or B-tier datasets.
@@ -97,13 +97,13 @@ The paper does not report: instrument make or model, digestion conditions (tempe
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

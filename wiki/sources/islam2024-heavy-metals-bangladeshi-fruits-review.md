@@ -79,23 +79,23 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 
 ## Verification notes
 
-- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, changed unspeciated arsenic from `As` to `tAs`, added Mn/Cu/Zn to frontmatter because the review reports those metals, removed non-taxonomy ingredient slugs (`papaya`, `jackfruit`) in favor of `fruits`, removed invented matrix `edible-fruit-flesh`, and modernized the wiki-link section. The source itself reports Pb as ND-2.4 mg/kg in the abstract/table while the narrative names mango at 0.75 mg/kg as the highest Pb level; the Key numbers row now flags that internal source tension rather than assigning 2.4 to mango.
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, changed unspeciated arsenic from `As` to `tAs`, added Mn/Cu/Zn to source metadata because the review reports those metals, removed non-taxonomy ingredient slugs (`papaya`, `jackfruit`) in favor of `fruits`, removed invented matrix `edible-fruit-flesh`, and modernized the wiki-link section. The source itself reports Pb as ND-2.4 mg/kg in the abstract/table while the narrative names mango at 0.75 mg/kg as the highest Pb level; the Key numbers row now flags that internal source tension rather than assigning 2.4 to mango.
 - 2026-05-19 brand-firewall recheck under stricter 2026-05-17 Part 12 reading: no commercial brand names in page body; the only varietal-name references in the underlying PDF (Bangla kola, Chapa kola, Sabri kola, Sagor kola — banana cultivars from Sajib et al. 2013) are botanical/cultivar identifiers, not commercial brands, and were never carried into this wiki page. Page is clean.
 - 2026-05-19 corrected Zn row in Key numbers: previously stated "Banana (134 max)", but Table 2 shows banana Zn range is 0.24–102 mg/kg. The 134 max value corresponds to papaya per Table 2, while the narrative on p.7 names banana at 134 ("banana contained the highest concentration of Zn (134 mg/kg of FW) followed by papaya and guava") — internal source contradiction now flagged in the table row.
-- Audit subagent (2026-05-19) flagged Cd row as missing an internal-contradiction flag (claiming Table 2 stone-apple = 0.51 vs narrative 0.64). Verified against Table 2 p.6 — stone-apple Cd IS 0.64 in Table 2 (the subagent confused stone-apple with indian gooseberry/tamarind, both at 0.51). Table and narrative agree on stone-apple 0.64; no contradiction exists. Finding rejected as false positive.
-- Audit subagent (2026-05-19) flagged Mn/Cu/Zn missing from "Wiki pages this source may touch" despite being in `metals:` frontmatter. Verified; added [[metals/manganese]], [[metals/copper]], [[metals/zinc]] for symmetry.
+- Audit editorial review (2026-05-19) flagged Cd row as missing an internal-contradiction flag (claiming Table 2 stone-apple = 0.51 vs narrative 0.64). Verified against Table 2 p.6 — stone-apple Cd IS 0.64 in Table 2 (the editorial review confused stone-apple with indian gooseberry/tamarind, both at 0.51). Table and narrative agree on stone-apple 0.64; no contradiction exists. Finding rejected as false positive.
+- Audit editorial review (2026-05-19) flagged Mn/Cu/Zn missing from "Wiki pages this source may touch" despite being in `metals:` source metadata. Verified; added [[metals/manganese]], [[metals/copper]], [[metals/zinc]] for symmetry.
 - Potential future ingredient slugs surfaced for Karen if the fruit corpus accumulates enough independent papers: `papaya`, `jackfruit`, `litchi`, `blackberry`, `pineapple`, `pomegranate`, and `tamarind`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

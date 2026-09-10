@@ -150,8 +150,7 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 
 **Microbiome:** Not addressed in this paper; cocoa polyphenols are mentioned (citing Martín & Ramos 2016) but no microbiome data are reported.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[ingredients/cocoa]]
@@ -166,18 +165,18 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 
 ## Verification notes
 
-- 2026-06-02 — Fresh-context audit subagent (general-purpose) returned REVISE with two ⚠️ in Check 2 and three ⚠️ in Check 5. Applied: (i) softened the cross-source "consistent with" framing in §3.3 to an observational note that defers cross-source reconciliation to a synthesis pass; (ii) reworded the Implications/Certification block to remove a clean/dirty subcategory pre-decision (Part 19 / Part 2 firewall — clean/dirty designations are Standards Workbench outputs and do not live in `wiki/`) and to remove a prescriptive "belongs in chocolate Levers section" implication-list line; (iii) added regulation wikilinks for EU 1881/2006, EU 2021/1323, EU 2023/915, China GB 2762-2012, and Codex Cd MLs to fan the source to those pages. Findings rejected as false positives: none. Matrices vocabulary (`cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate`) is intentionally form-specific because the paper operationally distinguishes these as separate sample forms with separate measured values; sibling source `cbi2024-cocoa-eu-market-requirements` uses overlapping vocabulary (`cocoa, chocolate, cocoa-powder, dark-chocolate, milk-chocolate`).
+- 2026-06-02 — Fresh-context audit editorial review (general-purpose) returned REVISE with two ⚠️ in Check 2 and three ⚠️ in Check 5. Applied: (i) softened the cross-source "consistent with" framing in §3.3 to an observational note that defers cross-source reconciliation to a synthesis pass; (ii) reworded the Implications/Certification block to remove a clean/dirty subcategory pre-decision (Part 19 / Part 2 firewall — clean/dirty designations are Standards Workbench outputs and do not live in the linked reference record) and to remove a prescriptive "belongs in chocolate Levers section" implication-list line; (iii) added regulation wikilinks for EU 1881/2006, EU 2021/1323, EU 2023/915, China GB 2762-2012, and Codex Cd MLs to fan the source to those pages. Findings rejected as false positives: none. Matrices vocabulary (`cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate`) is intentionally form-specific because the paper operationally distinguishes these as separate sample forms with separate measured values; sibling source `cbi2024-cocoa-eu-market-requirements` uses overlapping vocabulary (`cocoa, chocolate, cocoa-powder, dark-chocolate, milk-chocolate`).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [566c7b2fc0](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc0) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

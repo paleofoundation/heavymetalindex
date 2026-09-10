@@ -113,7 +113,7 @@ Enhancement run 2026-05-18 (cite-key existed before 2026-05-14; routing audit fl
 
 Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `access_url`, `source_type`, `evidence_tier`, sample-population framing, license (refined to CC BY 3.0 per the chapter's printed license stamp).
 
-Audit subagent (2026-05-18) flagged three ⚠️ advisory items — all applied: (i) added OIV to the agency list in the introduction (chapter p. 2 cites OIV alongside WHO/USEPA/JECFA/SON, the prior draft omitted it); (ii) added `[[metals/chromium]]` alongside `[[metals/chromium-hexavalent]]` in the wiki-pages-touched section (Table 1 row 4 covers Cr generally as well as the Cr-VI carcinogenicity classification); (iii) noted that the `matrices:` entries (`alcoholic-beverages`, `non-alcoholic-beverages`, `herbal-drinks`, `soft-drinks`, `wine`, `drinking-water`) are routing-input descriptors rather than slugs from the closed taxonomy-snapshot vocabulary — they exist as free-form matrix labels that the routing layer fans out, and the routing audit accepts them without unresolved entries. No findings rejected.
+Audit editorial review (2026-05-18) flagged three ⚠️ advisory items — all applied: (i) added OIV to the agency list in the introduction (chapter p. 2 cites OIV alongside WHO/USEPA/JECFA/SON, the prior draft omitted it); (ii) added `[[metals/chromium]]` alongside `[[metals/chromium-hexavalent]]` in the wiki-pages-touched section (Table 1 row 4 covers Cr generally as well as the Cr-VI carcinogenicity classification); (iii) noted that the `matrices:` entries (`alcoholic-beverages`, `non-alcoholic-beverages`, `herbal-drinks`, `soft-drinks`, `wine`, `drinking-water`) are routing-input descriptors rather than slugs from the closed taxonomy-snapshot vocabulary — they exist as free-form matrix labels that the routing layer fans out, and the routing audit accepts them without unresolved entries. No findings rejected.
 
 ## Wiki pages this source may touch
 
@@ -139,13 +139,13 @@ Audit subagent (2026-05-18) flagged three ⚠️ advisory items — all applied:
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

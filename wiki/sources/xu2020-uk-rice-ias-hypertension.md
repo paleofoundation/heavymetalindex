@@ -124,12 +124,12 @@ Authors name limitations: cross-sectional design precludes causal inference; iAs
 
 ## Provenance notes
 
-Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PDF auto-fetched by the discover/wishlist pipeline (wl-0007 lineage) and held at `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2020_10-1007-s10653-020-00573-8.pdf`. Online publication date 28 April 2020; volume-paginated 2021 in Environmental Geochemistry and Health 43:2505-2538. Author affiliation: Department of Earth and Environmental Sciences and Williamson Research Centre for Molecular Environmental Science, University of Manchester, UK.
+Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PDF auto-fetched by the discover/wishlist pipeline (wl-0007 lineage) and held at the archived source file. Online publication date 28 April 2020; volume-paginated 2021 in Environmental Geochemistry and Health 43:2505-2538. Author affiliation: Department of Earth and Environmental Sciences and Williamson Research Centre for Molecular Environmental Science, University of Manchester, UK.
 
 ## Verification notes
 
-- Audit subagent (2026-05-28) flagged Table 4 misattribution of HessCon and Diabetes.combined contributions and Tables 7-11 mislabeling of Model 1 (crude) trend-p values as Model 4 (best-fitted). Independent verification against Tables 4 and 7-11 in the source PDF confirmed the misattribution; the audit's specific corrected values for the Model 4 trend-p (0.035, 0.006, 0.006, 0.207, 0.429) were also wrong — re-reading the Model 4 rows directly gave 0.132 (DBP add 10), 0.080 (SBP add 10), 0.060 (AP), 0.913 (meanPulse), and 0.413 (general hypertension). Applied the actual Model 4 values, not the audit's incorrect proposals. Categorical Model 4 ORs for general hypertension corrected from the Model 2 row values to the actual Model 4 row values (Q2 0.76, Q3 0.75, Q4 0.54), cross-checked against the Discussion paragraph on page 2531 which quotes the Model 4 categorical ORs verbatim.
-- Audit subagent (2026-05-28) flagged matrices vocabulary (`cereal-grain`, `drinking-water`, `dietary-intake`) as not in the four-list taxonomy snapshot but unverifiable from the snapshot alone. Matrices vocabulary is controlled separately in the system-prompt list and includes all four (rice, cereal-grain, drinking-water, dietary-intake). No change required.
+- Audit editorial review (2026-05-28) flagged Table 4 misattribution of HessCon and Diabetes.combined contributions and Tables 7-11 mislabeling of Model 1 (crude) trend-p values as Model 4 (best-fitted). Independent verification against Tables 4 and 7-11 in the source PDF confirmed the misattribution; the audit's specific corrected values for the Model 4 trend-p (0.035, 0.006, 0.006, 0.207, 0.429) were also wrong — re-reading the Model 4 rows directly gave 0.132 (DBP add 10), 0.080 (SBP add 10), 0.060 (AP), 0.913 (meanPulse), and 0.413 (general hypertension). Applied the actual Model 4 values, not the audit's incorrect proposals. Categorical Model 4 ORs for general hypertension corrected from the Model 2 row values to the actual Model 4 row values (Q2 0.76, Q3 0.75, Q4 0.54), cross-checked against the Discussion paragraph on page 2531 which quotes the Model 4 categorical ORs verbatim.
+- Audit editorial review (2026-05-28) flagged matrices vocabulary (`cereal-grain`, `drinking-water`, `dietary-intake`) as not in the four-list taxonomy snapshot but unverifiable from the snapshot alone. Matrices vocabulary is controlled separately in the system-prompt list and includes all four (rice, cereal-grain, drinking-water, dietary-intake). No change required.
 
 ## Wiki pages this source may touch
 
@@ -139,13 +139,13 @@ Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PD
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

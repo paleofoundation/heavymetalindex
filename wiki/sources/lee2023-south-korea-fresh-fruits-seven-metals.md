@@ -79,7 +79,7 @@ Concentrations reported on fresh-weight basis. Non-detect samples reported at or
 
 Statistics: nonparametric Kruskal–Wallis test with Dunn's post-hoc (p<0.05) for between-group differences; Spearman rank correlation; PCA and HCA (Ward's method, Euclidean distance) on mean species concentrations. Software: Microsoft Excel 2022, GraphPad Prism 9.4.1, SPSS 28, RStudio 4.2.2 (with `survey`, `reshape2`, `dplyr`).
 
-Limitation: As measured as total arsenic; paper assumes 100% inorganic for cancer-risk calculation, which overstates iAs exposure if organic As fractions are significant in fruit matrices. Frontmatter therefore lists `tAs` rather than `iAs`.
+Limitation: As measured as total arsenic; paper assumes 100% inorganic for cancer-risk calculation, which overstates iAs exposure if organic As fractions are significant in fruit matrices. source metadata therefore lists `tAs` rather than `iAs`.
 
 ## Implications
 
@@ -113,7 +113,7 @@ Limitation: As measured as total arsenic; paper assumes 100% inorganic for cance
 - Methods section expanded to record the Milestone UltraWAVE digester, the Agilent JP-7900 ICP-MS parameters and monitored isotopes, the spike-recovery validation for Ba and Pb (which are not certified in NIST 1573a), and the RfD/CSF inputs. Prior version was thin enough to be ambiguous about which arsenic species the cancer-risk calculation used.
 - Detection rates added for each metal.
 - Maximum single-sample values added for every analyte (per the dataset's explicit per-species maxima on PDF page 8).
-- Frontmatter ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline: if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
+- source metadata ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline: if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
 - `raw_path` corrected — prior value was truncated (`...arsenic, bariu.pdf`) and did not match a real file on disk.
 - `sample_population` annotated with the six region names.
 - `## Wiki pages updated on ingest` heading renamed to `## Wiki pages this source may touch` per current page-template convention (the ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do).
@@ -122,25 +122,25 @@ Brand firewall: no brand names appear in source-page content. The Milestone Ultr
 
 Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values.
 
-2026-05-20 — Fresh-context audit subagent (per skill v2.0 Phase 2) returned REVISE with three ❌ and one ⚠️. Verified each against the source PDF and applied:
+2026-05-20 — Fresh-context audit editorial review (per skill v2.0 Phase 2) returned REVISE with three ❌ and one ⚠️. Verified each against the source PDF and applied:
 
 - ❌ HQ ranking incorrect (verified correct): the prior page had copied the abstract's HQ list (Pb 0.0149 > As 0.0086 > Ni 0.0081 > Sb 0.0080 > Ba 0.0031 > Cd 0.0027 > Cr 0.0001), whose values do not sum to the stated HI of 0.0275 and which the body of the paper does not reproduce. Corrected to the body-and-Table-3 ranking (Pb 0.0148 > Ni 0.0081 > Ba 0.0031 > As 0.0010 > Cd 0.0004 > Cr 0.0001 > Sb NA) which does sum to HI 0.0275. The discrepancy between the abstract and body of the paper is noted in-line in the Key numbers section. Source: PDF page 14 + Table 3 (page 12).
 - ❌ Apple Pb HQ for 1–2 y misattributed (verified correct): the prior page reported "apple-derived Pb produced the highest per-fruit hazard quotient in the dataset (≈0.06 from Fig 2c)". The 0.06 (precisely 0.0611) is the all-fruits combined Pb HQ for the 1–2 y age group; the apple-specific Pb HQ for that age group is 0.0307 (50.3% of 0.0611). Corrected and expanded with the apple-specific CR (1.05×10⁻⁶) and the strawberry-As CR contribution for the same age group. Source: PDF page 15.
 - ⚠️ Digestion heating program incomplete (verified correct): the prior page collapsed the three-step program into two steps, omitting the 250 °C/20 min warm-up phase. Method reproducibility now records all three steps. Source: PDF page 3.
-- ❌ Pineapple flag (verified false positive): the audit subagent flagged `pineapple` as a missing ingredient slug not present in the taxonomy snapshot. Verified against the live wiki — `wiki/ingredients/pineapple.md` exists. The taxonomy snapshot (`docs/gpt-collaboration/taxonomy-snapshot.md`, last touched 2026-05-19) is stale relative to the live taxonomy. No change made to the wiki page on this finding; the slug as written is valid. (Stale-snapshot drift is a tooling issue, not a source-page issue.)
+- ❌ Pineapple flag (verified false positive): the audit editorial review flagged `pineapple` as a missing ingredient slug not present in the taxonomy snapshot. Verified against the live wiki — the linked reference record exists. The taxonomy snapshot (the editorial record, last touched 2026-05-19) is stale relative to the live taxonomy. No change made to the wiki page on this finding; the slug as written is valid. (Stale-snapshot drift is a tooling issue, not a source-page issue.)
 
-The audit subagent's positive findings: numerical fidelity in the Ba transposition fixes was independently re-verified clean; species means for grape, persimmon, strawberry, pear, group means, single-sample maxima, RfD/CSF values, LOD/LOQ ranges, PCA/HCA percentages, Spearman ρ, age-group consumption values, sample sizes per species, methods detail (ICP-MS parameters, isotopes monitored, recoveries, spike validation, software) — all clean.
+The audit editorial review's positive findings: numerical fidelity in the Ba transposition fixes was independently re-verified clean; species means for grape, persimmon, strawberry, pear, group means, single-sample maxima, RfD/CSF values, LOD/LOQ ranges, PCA/HCA percentages, Spearman ρ, age-group consumption values, sample sizes per species, methods detail (ICP-MS parameters, isotopes monitored, recoveries, spike validation, software) — all clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

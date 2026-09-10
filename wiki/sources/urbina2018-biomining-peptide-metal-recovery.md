@@ -146,17 +146,16 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; C
 
 ## Verification notes
 
-- **Filename / content mismatch.** The PDF is filed under the Kimi folder as `44_Functional_Interplay_Between_the_Hippo_Pathway_and_Heavy_Met.pdf`, but the actual contents are the Urbina (2018) UC Santa Cruz dissertation on biomining and peptide-metal binding. There is no Hippo-pathway content in this file. The raw_handle has been preserved per the manual-fetch convention (MFK_ handle follows the file as Kimi delivered it); the cite_key reflects the actual content. A future session that needs the actual Hippo-pathway / heavy-metals paper will need to fetch it separately; this PDF does not contain it.
+- **Filename / content mismatch.** The PDF is filed under the source-retrieval folder as `44_Functional_Interplay_Between_the_Hippo_Pathway_and_Heavy_Met.pdf`, but the actual contents are the Urbina (2018) UC Santa Cruz dissertation on biomining and peptide-metal binding. There is no Hippo-pathway content in this file. The raw_handle has been preserved per the manual-fetch convention (MFK_ handle follows the file as source-retrieval delivered it); the cite_key reflects the actual content. A future session that needs the actual Hippo-pathway / heavy-metals paper will need to fetch it separately; this PDF does not contain it.
 - **DOI / access_url fallback.** UCSC dissertations are typically deposited in eScholarship (UC's open-access repository); `no_doi_assigned: true` and the `access_url` points at the UCSC ETD collection landing page rather than the specific item, because the exact item URL was not verified during ingest. Both should be backfilled (item-level URL, and DOI if eScholarship has assigned one) when verified.
 - **Paper-internal numerical discrepancies (three).** The dissertation contains three independent body-text-vs-Table-2 disagreements that are footnoted above where they appear: (1) KDTK Zn Kₐ — body p. 32 reads "(2.44 ± 3.53) M⁻¹" vs Table 2 p. 39 "(2.44 ± 3.53) × 10⁴ M⁻¹"; (2) KDKD Cu Kₐ — body p. 32 reads "(1.27 ± 1.13) × 10⁴" vs Table 2 "(1.27 ± 0.11) × 10⁴" (central value matches; uncertainty differs by 10×); (3) HHTC intrinsic Cu Kₐ — body p. 28 reads "(1.89 ± 0.3) × 10⁶" vs Table 2 "(1.74 ± 0.49) × 10⁶". In all three cases the Table 2 value is used in the intrinsic-Kₐ table above and the body-text value is footnoted; the table is treated as the canonical record because it carries the dissertation's full uncertainty bookkeeping.
-- **Audit subagent (2026-06-08) flagged misattribution of the (2.4 ± 0.5) × 10⁶ Cu Kₐ comparator.** Initial draft labelled this value as the HypB1 comparator; verified against PDF p. 28–29 — the value is the published HHTC comparator from Kožíšek et al. 2008, not a HypB1 value. The published-literature comparator table has been corrected and the HypB1 row removed.
-- **Audit subagent (2026-06-08) flagged statistic descriptor.** The HHTC-Tr P-value is from an unpaired (not just "two-tailed") t-test per p. 31; descriptor updated to "unpaired t-test … two-tailed P".
-- **Audit subagent (2026-06-08) flagged BCA-assay attribution.** Initial draft wrote "(Thermo Fisher)" after Pierce BCA; PDF p. 23 reads only "Pierce™ BCA Assay" without Thermo Fisher attribution (Pierce is a Thermo brand, but adding it is wiki-added context). Reverted to source wording.
-- **Audit subagent (2026-06-08) flagged MES buffer rationale.** Initial draft paraphrased the MES choice as "to keep histidine pKa ≈ 6 within range" — that specific framing is wiki-added interpretation. Rewritten to use the dissertation's own three-criterion rationale (no metal-ion interference via complexation or amine oxidation; stable over pH 3–11; stable pKa across 15–45 °C).
+- **Audit editorial review (2026-06-08) flagged misattribution of the (2.4 ± 0.5) × 10⁶ Cu Kₐ comparator.** Initial draft labelled this value as the HypB1 comparator; verified against PDF p. 28–29 — the value is the published HHTC comparator from Kožíšek et al. 2008, not a HypB1 value. The published-literature comparator table has been corrected and the HypB1 row removed.
+- **Audit editorial review (2026-06-08) flagged statistic descriptor.** The HHTC-Tr P-value is from an unpaired (not just "two-tailed") t-test per p. 31; descriptor updated to "unpaired t-test … two-tailed P".
+- **Audit editorial review (2026-06-08) flagged BCA-assay attribution.** Initial draft wrote "(Thermo Fisher)" after Pierce BCA; PDF p. 23 reads only "Pierce™ BCA Assay" without Thermo Fisher attribution (Pierce is a Thermo brand, but adding it is wiki-added context). Reverted to source wording.
+- **Audit editorial review (2026-06-08) flagged MES buffer rationale.** Initial draft paraphrased the MES choice as "to keep histidine pKa ≈ 6 within range" — that specific framing is wiki-added interpretation. Rewritten to use the dissertation's own three-criterion rationale (no metal-ion interference via complexation or amine oxidation; stable over pH 3–11; stable pKa across 15–45 °C).
 - **Evidence tier C.** Assigned because this is a PhD dissertation, not peer-reviewed at journal-article level; the binding affinity data are internally consistent and reference-method (ITC) but have not been re-published in a peer-reviewed venue (no DOI located).
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/copper]]
 - [[metals/nickel]]
 - [[metals/zinc]]
@@ -164,13 +163,13 @@ Microbiome: Not applicable. No microbiota or microbial-community measurements; C
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

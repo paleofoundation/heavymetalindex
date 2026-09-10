@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// HISTORICAL METHOD: retired for live limit-setting on 2026-09-09.
+// Outputs support descriptive occurrence analysis and historical reproducibility only.
+// Live limits come from the government-floor method in CLAUDE.md Part 19.
 // build-category-standards-tables.mjs
 //
 // Generates the master limit table for each locked row of a category from the
@@ -59,11 +62,11 @@ function lockedRows(cat) {
 fs.mkdirSync(outDir, { recursive: true })
 for (const [cat, name] of Object.entries(CATS)) {
   const rows = lockedRows(Number(cat))
-  const md = [`# HMTc Category ${cat} — ${name}: Master Standards Tables`, "",
-    `_Generated from the pooled occurrence distributions by build-category-standards-tables.mjs. Workbench-side per the wiki/HMTc firewall. Final HMTc limit = min(pooled P97, lowest applicable regulatory cap). Values in µg/kg (ppb)._`, ""]
+  const md = [`# HMTc Category ${cat} — ${name}: Historical Occurrence Tables (retired method)`, "",
+    `_RETIRED for live limit-setting since 2026-09-09. Historical reconstruction only. Generated from the pooled occurrence distributions by build-category-standards-tables.mjs. Workbench-side per the wiki/HMTc firewall. Final HMTc limit = min(pooled P97, lowest applicable regulatory cap). Values in µg/kg (ppb)._`, ""]
   for (const row of rows) {
     md.push(`## ${row.row}. ${row.title}`, "")
-    md.push(`| Analyte | HMTc limit (µg/kg) | Basis | Regulatory cap | Rationale | Confidence |`)
+    md.push(`| Analyte | Retired candidate (µg/kg) | Basis | Regulatory cap | Rationale | Confidence |`)
     md.push(`| --- | ---: | --- | ---: | --- | --- |`)
     for (const metal of PANEL) {
       const r = cell.get(`${row.slug}|${metal}`)

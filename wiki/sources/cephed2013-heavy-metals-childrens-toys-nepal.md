@@ -143,19 +143,19 @@ Statistical analysis: results are reported as detection counts, concentration ra
 
 ## Verification notes
 
-- 2026-05-18 fresh-context audit subagent (Claude general-purpose) flagged the `products/toys-painted` and `products/toys-substrate-materials` slugs as not present in the 2026-05-17 taxonomy snapshot. Verified independently via direct filesystem read: both pages exist on disk as locked HMTc Category 21 (Children's Toys, Arts, and Crafts) scaffolds — Row 1 (toys-painted, updated 2026-05-18) and Row 2 (toys-substrate-materials, updated 2026-05-17). The taxonomy snapshot is dated 2026-05-17 at commit e442cbe and simply does not yet enumerate the Cat 21 scaffolds. Finding logged as false positive on slug existence; both slugs are valid routing destinations.
+- 2026-05-18 fresh-context audit editorial review (editorial review) flagged the `products/toys-painted` and `products/toys-substrate-materials` slugs as not present in the 2026-05-17 taxonomy snapshot. Verified independently via direct filesystem read: both pages exist on disk as locked HMTc Category 21 (Children's Toys, Arts, and Crafts) scaffolds — Row 1 (toys-painted, updated 2026-05-18) and Row 2 (toys-substrate-materials, updated 2026-05-17). The taxonomy snapshot is dated 2026-05-17 at commit e442cbe and simply does not yet enumerate the Cat 21 scaffolds. Finding logged as false positive on slug existence; both slugs are valid routing destinations.
 - 2026-05-18 audit also confirmed all five checks clean on numerical fidelity (Pb/Hg/Cd/Cr/Br detection counts, ranges, percentages, composition + country + market-channel tables, questionnaire numbers, import trends, Table 3 ceilings), speciation discipline (XRF correctly mapped to tHg + Cr without speciation claims), brand firewall (Annex 1 brand-bearing item names — Nivia, Spider Man, Mickey, Angry Bird, Pizza Party Creatives — correctly aggregated to generic categories; Yuhan-Kimberly correctly framed as funder; FHAN/NBSM lab naming permitted under Exception 2), and Part 2 wiki/HMTc firewall (no threshold proposals, no consumer advisories, no cross-source synthesis). One internal-to-source numerical inconsistency surfaced: PDF Section 11.3 point 3 (p. 23) prints "9 ppm to 409.5 ppm" for the Cd range, while Table 5 (p. 22) and the Executive Summary (p. 4) both print "16.2 ppm to 409.5 ppm" — the Table-5 value is used here as the authoritative figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

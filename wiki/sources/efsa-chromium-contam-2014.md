@@ -173,8 +173,7 @@ Dose-response assessment for Cr(III) was infeasible from the most reliable anima
 
 The Panel's uncertainty analysis (Tables 26 and 27) summarises eleven sources of uncertainty for Cr(III) in food (extrapolation from mainly one Member State, LB/UB exposure framing, dilution-factor choice, vegetarian/supplement data limitations, infant data limitations, stainless-steel food-preparation contribution, breast-milk-based infant exposure) and twelve for Cr(VI) in water (analytical measurement, mainly-one-Member-State sampling, very limited Cr(VI) sample base only on bottled water, all-Cr-in-water-is-Cr(VI) assumption, assumption that no Cr(VI) is present in food, smoking-exposure data absence, GI-tract reduction and absorption uncertainty between rodents and humans, combined adenoma + carcinoma small-intestine MOE basis). The Panel concluded the impact of uncertainties is "large" for Cr(III) in food and "very large" for Cr(VI) in drinking water.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
 - [[ingredients/water]]
@@ -201,18 +200,18 @@ The opinion uses the EFSA Comprehensive Database version 1, comprising 32 dietar
 
 The opinion is internally inconsistent about which sex the BMDL10 of 0.11 mg Cr(VI)/kg b.w. per day for diffuse epithelial hyperplasia of the duodenum was modelled in. The abstract (page 1), the risk-characterisation text on page 115, and the final conclusions bullet on page 126 attribute the BMDL10 to female mice; the BMD-analysis text on page 113 ("For male mice the BMD approach was only applicable to the data of diffuse epithelial hyperplasia in duodenum and resulted in a BMDL10 of 0.11"), the risk-characterisation text on page 117, the Dose-Response Conclusions bullet on page 125, and — most decisively — Table 22 (page 113) attribute it to male mice, with female mice marked "No BMDL could be determined." The wiki uses the data-authoritative male-mice attribution from Table 22 and the supporting BMD-analysis text. Source citation: BMDL10 0.11 male mice → Table 22 page 113 and page 113 supporting text; female mice → no BMDL determinable per Table 22.
 
-Fresh-context audit subagent (Claude Opus 4.7, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
+Fresh-context audit editorial review (automated editorial review, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

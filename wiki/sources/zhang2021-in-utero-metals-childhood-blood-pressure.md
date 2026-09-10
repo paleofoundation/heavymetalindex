@@ -99,8 +99,7 @@ Subgroup heterogeneity (Table S8): the inverse Mn–SBP association was stronges
 
 **Microbiome.** Not addressed.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[metals/cadmium]]
@@ -116,7 +115,7 @@ Subgroup heterogeneity (Table S8): the inverse Mn–SBP association was stronges
 - **Authors corrected.** Previous page listed "Zhang C, Chen A, Chen J, Chen Z, Peddada SD, Hu H, Kumar A, Wills-Karp M, Hirschhorn JN, Wang G, Pearson C, Zuckerman B, Wang X" — this is the wrong author list entirely (no first author "Zhang C" on this paper; "Hirschhorn JN," "Peddada SD," "Pearson C," and "Zuckerman B" are not authors of this paper). Actual authors per the title page: Mingyu Zhang, Tiange Liu, Guoying Wang, Jessie P. Buckley, Eliseo Guallar, Xiumei Hong, Mei-Cheng Wang, Marsha Wills-Karp, Xiaobin Wang, Noel T. Mueller. The previous author list appears to have been confabulated.
 - **raw_handle corrected** from the legacy placeholder `papers-cube` to the per-skill PCMF handle `PCMF_in-utero-exposure-to-heavy-metals-and-trace-elemen` (truncated stem of the PDF filename per the PCMF convention exemplified by `PCMF_ijshr12` in `dokubo2023-nigeria-seasoning-powder.md`).
 - **raw_path corrected.** Previous path pointed to a file (`...Childhood Blood Pressure and Hypertension.pdf`) that does not exist in the PCMF folder. Actual file is `...Childhood Blood Pressure in a U.S. Urban, Low-Income, Minority Birth Cohort.pdf`.
-- **raw_sha256, access_url, license added** to frontmatter for provenance.
+- **raw_sha256, access_url, license added** to source metadata for provenance.
 - **`metals:` updated.** Previous `[Pb, Hg, Cd, Se, Mn]` changed to `[Pb, tHg, Cd, Se, Mn]` per Part 14 speciation discipline: the paper measures total Hg in RBCs without distinguishing MeHg from iHg ("the proportion of RBC inorganic Hg is expected to be very low... ~90% of MeHg is found in the RBCs" — Discussion, p. 067005-9), so `tHg` is the correct abbreviation. Se and Mn are essential trace elements but are recorded in `metals:` because that field captures the full analyte list of the study, and the wiki has no separate `trace_elements:` field; Se and Mn page slugs exist in the taxonomy (`metals/selenium`, `metals/manganese`).
 - **`matrices:` expanded** from `[blood, maternal-rbc]` to `[blood, maternal-rbc, gestational-exposure]` to mark the in utero framing — the exposure is a proxy for third-trimester transplacental transfer, not adult biomonitoring. `gestational-exposure` matches the matrix vocabulary already used in `ashley-martin2022-ias-biomonitoring-pregnancy.md` and other prenatal biomarker pages.
 - **`sample_population` rewritten** with the correct enrollment dates (Nov 2002 – Oct 2013), follow-up window (until May 2018), race/ethnicity composition (61% non-Hispanic Black, 20% Hispanic, 5% non-Hispanic White, 15% other), and child age range (3–15 y; median 8.4, IQR 6.2–10.6). Previous text understated the cohort recruitment period and gave child age range as "3–14" instead of the actual 3.0–15.4.
@@ -130,25 +129,25 @@ Subgroup heterogeneity (Table S8): the inverse Mn–SBP association was stronges
 - **Brand firewall:** no brand names anywhere in this paper or in the wiki page; it is a biomonitoring study. No Part 12 risk.
 - **Part 2 wiki/HMTc firewall:** no HMTc threshold proposals; no consumer advisories; no cross-source synthesis claims in the page body.
 
-2026-05-18 audit-subagent pass (general-purpose Agent, fresh context):
+2026-05-18 audit-editorial review pass (general-purpose Agent, fresh context):
 
-- ❌ Subagent flagged the BKMR Methods sentence as having two transcription errors: package `kmbayes` v1.0.2 → actual `bkmrhat` v1.0.2, and function `bkmbayes_parallel` → actual `kmbayes_parallel`. Verified independently against PDF p. 067005-3: "kmbayes_parallel function in R package bkmrhat (version 1.0.2)." Both corrections applied. The page also previously omitted that the default-parameter `kmbayes` function in the `bkmr` package is what was used for the BKMR fits themselves; clarified accordingly.
-- ⚠️ Subagent flagged the race/ethnicity composition ("61% / 20% / 5% / 15%") as rounded versus the unrounded Table 2 values (60.5% / 19.9% / 4.8% / 14.8%). The Abstract uses the rounded form; Table 2 has the exact values. Replaced both the `sample_population` field and the opening narrative sentence with the unrounded values.
-- ⚠️ Subagent flagged that the matrices snapshot does not enumerate `maternal-rbc` and `gestational-exposure`, requesting confirmation. Verified independently: `maternal-rbc` is in use on `okubo2023-periconceptional-diet-blood-metals-lbw.md`, and `gestational-exposure` is in use on `ashley-martin2022-ias-biomonitoring-pregnancy.md` and `weyde2023-gestational-metals-cerebral-palsy.md`. Both are accepted in the live wiki vocabulary; the taxonomy snapshot simply does not enumerate the matrices controlled list. False positive against the page; flagging as a snapshot-completeness issue rather than a wiki-page defect.
-- Subagent confirmed the Se/Cd-smokers Table 4 duplicate (+2.98 [−3.05, 9.00] appearing in both rows) is what the published paper actually prints; the wiki page correctly flags this as a probable published-paper typo rather than a wiki transcription error. Preserved as-is with the parenthetical caveat.
-- Subagent's other Check 1 findings (all 25 Table 1 distributional values, all 10 Table 3 effect sizes + 5 quartile-range cells, all 10 Table 4 cells, the Mn × Cd interaction values, the smoking-modified Mn-SBP BKMR + linear-regression numbers, all subgroup heterogeneity values, BKMR group PIPs, sample-composition and age-range values) were verified clean against the PDF.
-- Subagent verdict: REVISE. 1 ❌ applied (BKMR package/function names), 1 ⚠️ applied (race/ethnicity precision), 1 ⚠️ rejected (matrices vocab — false positive, slugs are in use elsewhere). All other findings (slug vocabulary in `metals:`/`jurisdictions:`/wikilinks, speciation tHg, Methods fidelity, Check 4 brand firewall, Check 5 Part 2 firewall) clean.
+- ❌ editorial review flagged the BKMR Methods sentence as having two transcription errors: package `kmbayes` v1.0.2 → actual `bkmrhat` v1.0.2, and function `bkmbayes_parallel` → actual `kmbayes_parallel`. Verified independently against PDF p. 067005-3: "kmbayes_parallel function in R package bkmrhat (version 1.0.2)." Both corrections applied. The page also previously omitted that the default-parameter `kmbayes` function in the `bkmr` package is what was used for the BKMR fits themselves; clarified accordingly.
+- ⚠️ editorial review flagged the race/ethnicity composition ("61% / 20% / 5% / 15%") as rounded versus the unrounded Table 2 values (60.5% / 19.9% / 4.8% / 14.8%). The Abstract uses the rounded form; Table 2 has the exact values. Replaced both the `sample_population` field and the opening narrative sentence with the unrounded values.
+- ⚠️ editorial review flagged that the matrices snapshot does not enumerate `maternal-rbc` and `gestational-exposure`, requesting confirmation. Verified independently: `maternal-rbc` is in use on `okubo2023-periconceptional-diet-blood-metals-lbw.md`, and `gestational-exposure` is in use on `ashley-martin2022-ias-biomonitoring-pregnancy.md` and `weyde2023-gestational-metals-cerebral-palsy.md`. Both are accepted in the live wiki vocabulary; the taxonomy snapshot simply does not enumerate the matrices controlled list. False positive against the page; flagging as a snapshot-completeness issue rather than a wiki-page defect.
+- editorial review confirmed the Se/Cd-smokers Table 4 duplicate (+2.98 [−3.05, 9.00] appearing in both rows) is what the published paper actually prints; the wiki page correctly flags this as a probable published-paper typo rather than a wiki transcription error. Preserved as-is with the parenthetical caveat.
+- editorial review's other Check 1 findings (all 25 Table 1 distributional values, all 10 Table 3 effect sizes + 5 quartile-range cells, all 10 Table 4 cells, the Mn × Cd interaction values, the smoking-modified Mn-SBP BKMR + linear-regression numbers, all subgroup heterogeneity values, BKMR group PIPs, sample-composition and age-range values) were verified clean against the PDF.
+- editorial review verdict: REVISE. 1 ❌ applied (BKMR package/function names), 1 ⚠️ applied (race/ethnicity precision), 1 ⚠️ rejected (matrices vocab — false positive, slugs are in use elsewhere). All other findings (slug vocabulary in `metals:`/`jurisdictions:`/wikilinks, speciation tHg, Methods fidelity, Check 4 brand firewall, Check 5 Part 2 firewall) clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

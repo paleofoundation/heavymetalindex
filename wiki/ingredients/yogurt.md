@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 9
+sources: 10
 ---
 
 # Yogurt
@@ -163,14 +163,38 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation 2023/915 sets a Pb ML for milk of 0.020 mg/kg (20 ppb) on a wet-weight basis; yogurt, as a processed dairy product derived from milk, falls under this dairy Pb limit. No EU ML exists specifically for Cd in milk or yogurt as of 2026, reflecting the very low Cd concentrations found in dairy matrices. See [[regulations/eu2023-contaminants-maximum-levels]] for the full milk and dairy-products scope. The FDA Closer to Zero final guidance establishes a 10 ppb (0.010 mg/kg) action level for Pb in yogurt and yogurt-based products intended for infants and young children ([[sources/fda-ctz-Pb-babyfood-2025|1]]); this is a voluntary action level rather than a legally binding maximum, but it represents the operative US compliance benchmark for baby yogurt products. For adult yogurt products in the US, no federal Pb or Cd action level applies outside this baby-food context. Codex STAN 193-1995 does not specify a Cd or Pb ML for fluid milk or yogurt, reflecting the broad regulatory consensus that dairy is a low-risk matrix for these analytes. See [[regulations/codex-cadmium-mls]] for the scope of Codex dairy coverage.
 
+<!-- BEGIN: hmi-fda-tds-occurrence -->
+## FDA TDS FY2018–FY2020 source observations
+
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
+
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 235: Yogurt, lowfat, fruit-flavored | tAs | 3 | 0 | ND in all composites | 3 |
+| 235: Yogurt, lowfat, fruit-flavored | Cd | 3 | 0 | ND in all composites | 1 |
+| 235: Yogurt, lowfat, fruit-flavored | Cr | 3 | 0 | ND in all composites | 50 |
+| 235: Yogurt, lowfat, fruit-flavored | Pb | 3 | 0 | ND in all composites | 4 |
+| 235: Yogurt, lowfat, fruit-flavored | tHg | 3 | 0 | ND in all composites | 1 |
+| 235: Yogurt, lowfat, fruit-flavored | Ni | 3 | 0 | ND in all composites | 40 |
+| 235: Yogurt, lowfat, fruit-flavored | U | 3 | 0 | ND in all composites | 1 |
+| 521: Yogurt, lowfat, vanilla | tAs | 3 | 0 | ND in all composites | 3 |
+| 521: Yogurt, lowfat, vanilla | Cd | 3 | 0 | ND in all composites | 1 |
+| 521: Yogurt, lowfat, vanilla | Cr | 3 | 0 | ND in all composites | 50 |
+| 521: Yogurt, lowfat, vanilla | Pb | 3 | 0 | ND in all composites | 4 |
+| 521: Yogurt, lowfat, vanilla | tHg | 3 | 0 | ND in all composites | 1 |
+| 521: Yogurt, lowfat, vanilla | Ni | 3 | 0 | ND in all composites | 40 |
+| 521: Yogurt, lowfat, vanilla | U | 3 | 0 | ND in all composites | 1 |
+<!-- END: hmi-fda-tds-occurrence -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 3. [[sources/ibrahim2025-metals-flavored-dairy-egypt|Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products]]<span class="hmi-ref-meta">Ibrahim AS, Awaad SS, Shehta HA, and Hegab OW · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-025-04676-0](https://doi.org/10.1007/s12011-025-04676-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -184,23 +208,24 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 2 | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|Ibrahim et al. 2025]]. *Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products*, Biological Trace Element Research | 2025 | Peer-reviewed | Pb, tAs, Cd, tHg, Al, Sb, Ni, and Cr in 180 flavored dairy products (yogurt, UHT milk, ice cream) from Egypt by ICP-MS; yogurt-specific metal concentrations with risk assessment |
 | 3 | [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|Sarkis et al. 2025]]. *Heavy Metal Contamination in Yogurt from Lebanon: Evaluating Lead (Pb) and Cadmium (Cd) Concentrations Across Multiple Regions*, Toxics | 2025 | Peer-reviewed | Pb and Cd in 165 artisanal Lebanese yogurts across 11 regions with regional exceedance rates against EU dairy limits |
 | 4 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | CN Cr-VI, Cr occurrence in Seven commercially purchased food samples from a local supermarket in Nanjing, China — milk powder, rice flour, whole... (n=7) |
-| 5 | [[sources/mirmahdi2021-dairy-decontamination-probiotics-review\|Mirmahdi et al. 2021]]. *Biodecontamination of milk and dairy products by probiotics: Boon for bane*, Italian Journal of Food Science | 2021 | Review | EG/RS/IQ Pb, Cd, tAs, Cu, Zn, Ni, Fe, tHg occurrence in Narrative review of published literature on heavy metal and mycotoxin contamination in milk and dairy products and on... |
-| 6 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
-| 7 | [[sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals\|Abdel-Rahman et al. 2019]]. *Heavy metals content in some non-alcoholic beverages (carbonated drinks, flavored yogurt drinks, and juice drinks) of the Egyptian markets*, Toxicology Reports | 2019 | Peer-reviewed | EG Cd, Pb, Cr, Ni, Fe, Mn, Cu occurrence in Twelve flavored yogurt drinks, eighteen juice drinks, and twenty-four carbonated drinks collected from Egyptian local markets between January... (n=54) |
-| 8 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
-| 9 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | Polish national monitoring of Pb, Cd, tHg, and tAs in yogurt and other dairy products across all 16 voivodships |
+| 5 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 6 | [[sources/mirmahdi2021-dairy-decontamination-probiotics-review\|Mirmahdi et al. 2021]]. *Biodecontamination of milk and dairy products by probiotics: Boon for bane*, Italian Journal of Food Science | 2021 | Review | EG/RS/IQ Pb, Cd, tAs, Cu, Zn, Ni, Fe, tHg occurrence in Narrative review of published literature on heavy metal and mycotoxin contamination in milk and dairy products and on... |
+| 7 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
+| 8 | [[sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals\|Abdel-Rahman et al. 2019]]. *Heavy metals content in some non-alcoholic beverages (carbonated drinks, flavored yogurt drinks, and juice drinks) of the Egyptian markets*, Toxicology Reports | 2019 | Peer-reviewed | EG Cd, Pb, Cr, Ni, Fe, Mn, Cu occurrence in Twelve flavored yogurt drinks, eighteen juice drinks, and twenty-four carbonated drinks collected from Egyptian local markets between January... (n=54) |
+| 9 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
+| 10 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | Polish national monitoring of Pb, Cd, tHg, and tAs in yogurt and other dairy products across all 16 voivodships |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

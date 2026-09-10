@@ -25,11 +25,11 @@ updated: 2026-05-08
 
 ## Summary
 
-This FDA documentation file is the field-definition key for the FY2018-FY2020 Total Diet Study elements analytical results dataset that powers the wiki's structured evidence layer for ~90 ingredient pages (`data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv` and the supporting sample-level CSV). The key defines each column in the published TDS analytical results: FiscalYear, CalendarYear, Collection (regional vs national vs special), TDSFoodNumber, TDSFoodDescription, Season, TDSFoodListType, Region, Analyte, Units, Concentration, ReportingLimit. The document is essential methodology context for any wiki claim that draws on FDA TDS values; it is the operational definition of the basis ("FDA TDS prepared food/composite") that the structured-evidence layer carries on every TDS-derived value record.
+This FDA documentation file is the field-definition key for the FY2018-FY2020 Total Diet Study elements analytical results dataset that powers the wiki's structured evidence layer for ~90 ingredient pages (the structured evidence record and the supporting sample-level CSV). The key defines each column in the published TDS analytical results: FiscalYear, CalendarYear, Collection (regional vs national vs special), TDSFoodNumber, TDSFoodDescription, Season, TDSFoodListType, Region, Analyte, Units, Concentration, ReportingLimit. The document is essential methodology context for any wiki claim that draws on FDA TDS values; it is the operational definition of the basis ("FDA TDS prepared food/composite") that the structured-evidence layer carries on every TDS-derived value record.
 
 ## Companion source
 
-This key accompanies and documents [[sources/fda2022-tds-elements-fy2018-fy2020]], which is the actual TDS analytical results dataset that the structured ingest extracted into `data/evidence/`. The two should be read together: the dataset carries the values, the key carries the field definitions and methodology context.
+This key accompanies and documents [[sources/fda2022-tds-elements-fy2018-fy2020]], which is the actual TDS analytical results dataset that the structured ingest extracted into the structured evidence record. The two should be read together: the dataset carries the values, the key carries the field definitions and methodology context.
 
 ## Key methodology elements
 
@@ -42,26 +42,25 @@ This key accompanies and documents [[sources/fda2022-tds-elements-fy2018-fy2020]
 | Concentration | Reported analyte concentration; the key documents reporting-limit handling and the substitution conventions that distinguish reported zero from below-LOD |
 | ReportingLimit | Per-sample analytical reporting limit (varies by year and analyte) |
 
-The "FDA TDS prepared food/composite; reported concentration values retained" basis label that appears on TDS-derived row_fit notes and value records throughout `data/evidence/` is the operational summary of these field definitions: foods are prepared/cooked composites assembled from the TDS food list, sampled by ORA for regional collections and KCL for national collections, with reported concentrations preserved as FDA reported them and reporting limits preserved separately rather than substituted into the concentration field.
+The "FDA TDS prepared food/composite; reported concentration values retained" basis label that appears on TDS-derived row_fit notes and value records throughout the structured evidence record is the operational summary of these field definitions: foods are prepared/cooked composites assembled from the TDS food list, sampled by ORA for regional collections and KCL for national collections, with reported concentrations preserved as FDA reported them and reporting limits preserved separately rather than substituted into the concentration field.
 
 ## Implications
 
 - Certification: This key documents the methodology basis on which the FDA TDS values flow into HMTc product and ingredient rows. Any HMTc threshold or product-row claim that draws on FDA TDS values inherits the prepared-food/composite basis defined here and the regional/national/special collection structure. The per-fiscal-year stratification matters for trend analysis; the regional stratification matters when evaluating geographic representativeness.
 - Courses: Useful for teaching the ORA/KCL collection split and the regional-versus-national TDS list distinction, which together define what "the FDA TDS reports" means operationally for any given food and analyte.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[sources/fda2022-tds-elements-fy2018-fy2020]] — companion dataset; the key documents the field definitions for the analytical results that source page summarizes
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9d0e44da3](https://github.com/paleofoundation/heavymetalindex/commit/9d0e44da3) | 2026-05-08 | major | 1 source added; 5 sections added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [9d0e44da36](https://github.com/paleofoundation/heavymetalindex/commit/9d0e44da36) | 2026-05-08 | major | 1 source added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -77,20 +77,20 @@ Microbiome: Not addressed.
 
 - DOI, title, authors, journal, and year were taken from the PDF first page: International Journal of Chemical and Biological Sciences 2023; 5(2): 25-27, DOI `10.33545/26646765.2023.v5.i2a.66`.
 - The source spells the cumin binomial as `Cuminum Cyminum`; this page preserves the common matrix as cumin seed and routes to the existing `[[ingredients/cumin]]` page.
-- The source includes ginger, but no existing `wiki/ingredients/ginger.md` slug is present in this repo. Ginger is therefore documented in the body table but omitted from frontmatter ingredient routing.
-- Suran is mapped to the existing broad `[[ingredients/yam]]` slug. The source does not provide enough taxonomy detail in the frontmatter layer to create a more specific suran or elephant-foot-yam route during this fire.
+- The source includes ginger, but no existing the linked reference record slug is present in this repo. Ginger is therefore documented in the body table but omitted from source metadata ingredient routing.
+- Suran is mapped to the existing broad `[[ingredients/yam]]` slug. The source does not provide enough taxonomy detail in the source metadata layer to create a more specific suran or elephant-foot-yam route during this fire.
 - Evidence Fitness: EF-2 for quantified Cu, Zn, and Fe in three plant materials; EF-3 screening context for Pb, Cr, Cd, and Ni because the paper reports ND without LOD/LOQ. The source should not be used as a distribution-capable benchmark source for Pb, Cr, Cd, or Ni.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

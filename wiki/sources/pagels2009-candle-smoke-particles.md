@@ -94,7 +94,7 @@ App: If home-air emission sources are surfaced, this study can support a note th
 ## Verification notes
 
 - PDF text was extracted with `pdftotext -layout` from `untitled_29.pdf` to `/tmp/untitled29.txt`; the DOI landing wrapper, abstract, Methods, Tables 1-3, Figure 5 caption, Section 3.4, Section 3.6, and Conclusions were checked against this page.
-- Identity checks before creation: DOI `10.1016/j.jaerosci.2008.10.005`, title `Chemical composition and mass emission factors of candle smoke particles`, raw handle `MFK_untitled-29`, readable-copy SHA-256 `9136eedc60c75d017d96ff239bbbd75fa49ccd1172e8019910c263734bdaebec`, and candidate cite key `pagels2009-candle-smoke-particles` were searched in `wiki/sources/` and `data/evidence/`; no existing source page was found.
+- Identity checks before creation: DOI `10.1016/j.jaerosci.2008.10.005`, title `Chemical composition and mass emission factors of candle smoke particles`, raw handle `MFK_untitled-29`, readable-copy SHA-256 `9136eedc60c75d017d96ff239bbbd75fa49ccd1172e8019910c263734bdaebec`, and candidate cite key `pagels2009-candle-smoke-particles` were searched in the linked reference record and the structured evidence record; no existing source page was found.
 - Duplicate-file note: `cat21_17_lucris_lund_7517427.pdf` in the same folder is a corrupt alternate copy exposing the same DOI and Lund portal URL in `strings`, but `pdftotext` and `pdfinfo` cannot read it. The readable `untitled_29.pdf` copy is used as the canonical raw path for this source page.
 - Units: Table 3 component values are copied as `µg h-1`; Tables 1-2 particle-mass factors are copied as `mg h-1` or `mg` per extinction. No conversion to concentration or finished-product basis was performed.
 - Speciation: the metals are reported as elemental components by PIXE. Tin is total Sn, not organotin; lead is Pb, zinc is Zn, cobalt is Co, and copper is Cu.
@@ -105,13 +105,13 @@ App: If home-air emission sources are surfaced, this study can support a note th
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

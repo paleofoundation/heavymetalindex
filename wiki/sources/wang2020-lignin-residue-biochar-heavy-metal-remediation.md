@@ -96,22 +96,22 @@ Courses: Useful for teaching the distinction between sorbent capacity and occurr
 
 ## Verification notes
 
-This page was built from the full PDF, including the synthesis methods, adsorption-experiment design, Table 1 biochar properties, Table 2 Pb(II) kinetic fits, Table 3 isotherm fits for Cu(II), Cd(II), and Pb(II), Table 4 Pb(II) comparator capacities, the conclusion, and the supplementary-materials note. The source uses dissolved Pb(II), Cd(II), and Cu(II) nitrate solutions; frontmatter uses the repo's broader Pb, Cd, and Cu metal slugs while this page preserves ion-state specificity in prose and tables. Products and ingredients are intentionally empty because no food, ingredient, or consumer-product matrix was sampled.
+This page was built from the full PDF, including the synthesis methods, adsorption-experiment design, Table 1 biochar properties, Table 2 Pb(II) kinetic fits, Table 3 isotherm fits for Cu(II), Cd(II), and Pb(II), Table 4 Pb(II) comparator capacities, the conclusion, and the supplementary-materials note. The source uses dissolved Pb(II), Cd(II), and Cu(II) nitrate solutions; source metadata uses the repo's broader Pb, Cd, and Cu metal slugs while this page preserves ion-state specificity in prose and tables. Products and ingredients are intentionally empty because no food, ingredient, or consumer-product matrix was sampled.
 
-Audit subagent (2026-06-02) flagged `[[mitigation/agronomic]]` as a semantic mismatch — the wiki's agronomic-mitigation page covers pre-harvest food-crop interventions (cultivar selection, paddy water management, soil amendment for crops), not aqueous-solution sorption. Verified against `wiki/mitigation/agronomic.md` and confirmed; the link was removed. `[[mitigation/remediation-evidence]]` is retained as the closest existing destination even though that page is also food-crop-focused, since the "may touch" framing is speculative rather than a routing assertion.
+Audit editorial review (2026-06-02) flagged `[[mitigation/agronomic]]` as a semantic mismatch — the wiki's agronomic-mitigation page covers pre-harvest food-crop interventions (cultivar selection, paddy water management, soil amendment for crops), not aqueous-solution sorption. Verified against the linked reference record and confirmed; the link was removed. `[[mitigation/remediation-evidence]]` is retained as the closest existing destination even though that page is also food-crop-focused, since the "may touch" framing is speculative rather than a routing assertion.
 
 The `matrices` slugs (`lignin-rich-residue`, `corn-cob-residue`, `biochar`, `aqueous-sorption-test`, `wastewater-remediation`) are remediation-domain proposals outside the project's current food-matrix controlled vocabulary. A future taxonomy refresh should decide whether to formalize a remediation-matrix vocabulary or to route this source via a separate non-food remediation register. The routing audit's malformed entry for this source is advisory (empty `products`/`ingredients`) and reflects the genuine absence of food/ingredient/product scope, not a defect.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

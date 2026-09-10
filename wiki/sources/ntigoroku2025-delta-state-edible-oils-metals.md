@@ -132,20 +132,20 @@ The PDF has author attribution and DOI `10.4314/jasem.v29i10.32`; no DOI conflic
 
 2026-06-02 merge-enhance pass corrected three transcription errors against PDF Table 2 and Table 5: Olive oil Cr mean restored to 0.06 +/- 0.02 ug/g (was 0.05 +/- 0.02); Palm oil Cu SD restored to 1.29 +/- 2.2 ug/g (was 1.29 +/- 0.20, an order-of-magnitude SD compression); Olive oil ILCR(Cr) SD restored to 0.000006 +/- 0.000014 (was 0.000006 +/- 0.0000014, an extra-zero error). PDF page 6 (Table 2) and page 7 (Table 5) verified for all four oil categories on this pass.
 
-2026-06-02 fresh-context audit subagent (Agent tool, general-purpose, agent ID aa96f64c7a143f163) returned REVISE with two findings. One applied: palm-oil Cu range discrepancy added below for parallelism with the existing Cr discrepancies. One rejected as false positive: subagent flagged `palm-oil` ingredient slug as missing from the taxonomy snapshot, but `wiki/ingredients/palm-oil.md` exists as a live page; the GPT-drafting snapshot is stale relative to live wiki state, and slug validity for an existing-page merge-enhance is checked against the live `wiki/ingredients/` directory per docs/gpt-collaboration/verification-checklist.md. Snapshot refresh is separate work and does not affect this page. Checks 3 (speciation/methods), 4 (Part 12 brand firewall — brand codes EF/G/B/CA correctly omitted, Agilent vendor name permitted under Exception 2), and 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, no cross-source synthesis) returned clean.
+2026-06-02 fresh-context audit editorial review (Agent tool, general-purpose, agent ID aa96f64c7a143f163) returned REVISE with two findings. One applied: palm-oil Cu range discrepancy added below for parallelism with the existing Cr discrepancies. One rejected as false positive: editorial review flagged `palm-oil` ingredient slug as missing from the taxonomy snapshot, but the linked reference record exists as a live page; the GPT-drafting snapshot is stale relative to live wiki state, and slug validity for an existing-page merge-enhance is checked against the live the linked reference record directory per the editorial record. Snapshot refresh is separate work and does not affect this page. Checks 3 (speciation/methods), 4 (Part 12 brand firewall — brand codes EF/G/B/CA correctly omitted, Agilent vendor name permitted under Exception 2), and 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, no cross-source synthesis) returned clean.
 
 Additional source-internal discrepancy noted: palm-oil Cu range is reported as 1.10-1.65 ug/g in the abstract and 1.01-1.65 ug/g in the results prose on page 5. This page uses the abstract figure for parallelism with the Cr-range handling above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

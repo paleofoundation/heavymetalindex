@@ -39,12 +39,15 @@ contamination_profile:
     n_studies: 2
     last_reviewed: 2026-05-13
   tHg:
-    status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-13
+    status: "populated"
+    typical_ppb: [null,null]
+    p95_ppb: null
+    confidence: "low"
+    n_studies: 1
+    last_reviewed: "2026-09-10"
+    value_kind: "source_non_detect"
+    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::13::mercury","role":"value","food_id":"13","food_name":"Beef, ground, pan-cooked","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated cooked form; no moisture/basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":27,"non_detect_n":27,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
+    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
   Ni:
     status: populated
     typical_ppb: [0, 18.8]
@@ -110,7 +113,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=4 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|3]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|4]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|5]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|6]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 1.9–5.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tHg | n=1 dataset; composites=27 | ND (<1; source reporting limit) | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=2 | 0–18.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 0–90.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
@@ -136,22 +139,19 @@ This node is linked from the ingredient index and the FDA TDS source routing tab
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018-FY2020 Occurrence Values
+## FDA TDS FY2018–FY2020 source observations
 
-<!-- audience: regulator, educator, app -->
+FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
-FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration distributions for this ingredient as TDS food "Beef, ground, pan-cooked" ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Values are in ppb-equivalent on the basis FDA reported. The full sample-level data are stored in `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`; per-analyte distributions in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`. These distributions count as one source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; numerical values stay in body scratch until a second independent source is integrated.
-
-| Metal | n | min | max | Schema |
-| --- | ---: | ---: | ---: | --- |
-| Cd | 27 | 0 | 0 | in profile |
-| Cr | 27 | 0 | 600 | in profile |
-| Ni | 27 | 0 | 290 | in profile |
-| Pb | 27 | 0 | 0 | in profile |
-| U | 27 | 0 | 3.5 | in profile |
-| tAs | 27 | 0 | 8.5 | in profile |
-| tHg | 27 | 0 | 0 | in profile |
-
+| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
+| --- | --- | ---: | ---: | --- | --- |
+| 13: Beef, ground, pan-cooked | tAs | 27 | 24 | 3.2–8.5 | 3 |
+| 13: Beef, ground, pan-cooked | Cd | 27 | 0 | ND in all composites | 1 |
+| 13: Beef, ground, pan-cooked | Cr | 27 | 5 | 51–600 | 50 |
+| 13: Beef, ground, pan-cooked | Pb | 27 | 0 | ND in all composites | 4 |
+| 13: Beef, ground, pan-cooked | tHg | 27 | 0 | ND in all composites | 1 |
+| 13: Beef, ground, pan-cooked | Ni | 27 | 3 | 47–290 | 40 |
+| 13: Beef, ground, pan-cooked | U | 27 | 16 | 1.1–3.5 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Ranges by source, region, and variety
@@ -196,12 +196,22 @@ Ground beef is typically packaged in oxygen-scavenged trays or vacuum pouches, n
 
 EU Regulation 2023/915 (and its predecessor framework under Regulation 1881/2006) sets maximum levels for muscle meat of bovine animals of 0.10 mg/kg wet weight for Pb and 0.050 mg/kg wet weight for Cd [[regulations/eu2023-contaminants-maximum-levels]]. These values apply to the product as placed on the market; the FDA TDS data for ground beef show Pb and Cd below reporting limits across all 27 samples, consistent with compliance. The United States does not set specific statutory action levels for Pb or Cd in muscle meat for domestic market purposes, though FDA's Closer to Zero program establishes monitoring and action framework for selected food categories. No specific US regulatory limit for tAs in beef muscle exists in the current corpus. The EU Cd limit for bovine muscle meat of 0.050 mg/kg (50 ppb wet weight) is the operative regulatory cap for the EU market [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a specific ML for Pb or Cd in bovine muscle meat as distinct from other meat categories [[regulations/codex-cadmium-mls]].
 
+<!-- BEGIN: hmi-profile-evidence-correction -->
+## Interpretation of source evidence
+
+Source observations and population estimates are different. A non-detect supplies a reporting-limit bound for the tested composites. It does not show that this ingredient contains zero metal. Where a previous profile lacked matching source, species or basis support, its generic concentration has been withdrawn; the available source evidence is kept below.
+
+**tHg.** FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context.
+
+Other previously cited literature is retained as context; it does not establish the withdrawn numerical profile: [[sources/rabeey2025-bovine-hg-pb-cd-egypt]].
+<!-- END: hmi-profile-evidence-correction -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/khalafalla2011-beef-carcasses-metals-egypt|Heavy metal residues in beef carcasses in Beni-Suef abattoir, Egypt]]<span class="hmi-ref-meta">Fathy A. Khalafalla, Fatma H. Ali, Fredi Schwagele, and Mariam A. Abd-El-Wahab · Veterinaria Italiana · 2011 · [www.izs.it](https://www.izs.it/vet_italiana/2011/47_3/351.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/dibella2020-augusta-meat-milk-seafood-metals|Heavy Metals and PAHs in Meat, Milk, and Seafood From Augusta Area (Southern Italy): Contamination Levels, Dietary Intake, and Human Exposure Assessment]]<span class="hmi-ref-meta">Di Bella C, Traina A, Giosue C, Carpintieri D, Lo Dico GM, Bellante A, et al. · Frontiers in Public Health 8:273 · 2020 · [doi.org/10.3389/fpubh.2020.00273](https://doi.org/10.3389/fpubh.2020.00273)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan]]<span class="hmi-ref-meta">Maikanov BS, Ismagulova GT, Auteleyeva LT, Kemeshov ZO, and Zhanabayeva DK · Veterinary World 14(6):1615-1621 · 2021 · [doi.org/10.14202/vetworld.2021.1615-1621](https://doi.org/10.14202/vetworld.2021.1615-1621)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -223,13 +233,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [20b813b5b](https://github.com/paleofoundation/heavymetalindex/commit/20b813b5b) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
-| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 5 sources removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 5 sources added; narrative text revised |
+| [20b813b5bc](https://github.com/paleofoundation/heavymetalindex/commit/20b813b5bc) | 2026-08-09 | correction | 6 sources added; contamination-profile values revised; 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added and 1 removed; narrative text revised |
+| [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -130,24 +130,24 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - Table 1 values above were checked against the rendered page 157. Units are copied as `mg/kg`; no conversion was made.
 - `LT DL`/`LTDL` is preserved as the source's less-than-detection-limit label. Blank Cd cells for Sweet Beans (Red), Potato, and Fufu are recorded as `not reported in table` rather than filled.
 - The source reports Zn, Cu, Cd, and Pb only. It does not report arsenic, mercury, chromium, nickel, inorganic arsenic, methylmercury, or Cr(VI).
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 - Audit 2026-06-09 (autonomous, Part 12 strict reading): the Table 1 rows "Indomine" and "Semovita"/"Semovita with soup" originally reproduced brand names attached to contamination values. Indomie (Dufil Prima Foods) is a registered instant-noodle brand; Semovita (Flour Mills of Nigeria) is a registered semolina brand. Rows relabeled to product-form descriptors "Instant noodles" and "Semolina porridge" / "Semolina porridge with soup". Numerical values unchanged.
 - Audit 2026-06-09: Table 2 Cu range for cereals corrected from "(1.30-12.20)" to "(1.30-12.2)"; the source's run-together text "1.30-12.20.28±0.23" was parse-error transcribed into the wiki with the leading "0" of the next column's Cd mean concatenated onto the Cu range upper bound.
 - Audit 2026-06-09: Source page 158 prose attributes the Cu max (17.6) to "beans" and the Cd max (0.50) to "rice". Table 1 maps Cu 17.6 to the "Groundnut" row (in the legumes section, where the paper grouped groundnut under "Legumes/Legumes product with others") and Cd 0.50 to the "Rice with beans & fish" row. The wiki's `## Key numbers` bullet reports Table 1 row labels rather than the source's prose words; the discrepancy is internal to the source.
-- Audit 2026-06-09: Frontmatter `ingredients:` extended with `yam` and `melon` to reflect the Table 1 yam-based rows (Yam, Pounded Yam With Melon, Amala (Yam Flour), Yam With Oil, Yam With Egg) and melon-bearing rows (Melon, Eba With Melon, Pounded Yam With Melon).
-- Audit 2026-06-09: Garri, Amala (Cassava Flour), Eba, and Fufu are cassava-derived foods, but `cassava` is not in the current `docs/gpt-collaboration/taxonomy-snapshot.md` ingredient list. Routing for these foods currently lands on `[[ingredients/root-vegetables]]` and `[[products/root-tuber-vegetables]]`. Flag for taxonomy maintenance: a `cassava` ingredient page (or `cassava-flour`/`garri` sub-slugs) may be warranted given how broad the West-African cassava-foods literature is.
+- Audit 2026-06-09: source metadata `ingredients:` extended with `yam` and `melon` to reflect the Table 1 yam-based rows (Yam, Pounded Yam With Melon, Amala (Yam Flour), Yam With Oil, Yam With Egg) and melon-bearing rows (Melon, Eba With Melon, Pounded Yam With Melon).
+- Audit 2026-06-09: Garri, Amala (Cassava Flour), Eba, and Fufu are cassava-derived foods, but `cassava` is not in the current the editorial record ingredient list. Routing for these foods currently lands on `[[ingredients/root-vegetables]]` and `[[products/root-tuber-vegetables]]`. Flag for taxonomy maintenance: a `cassava` ingredient page (or `cassava-flour`/`garri` sub-slugs) may be warranted given how broad the West-African cassava-foods literature is.
 - Audit 2026-06-09: `matrices: [prepared-staple-foods, nigeria-market]` uses descriptive bare strings that are not in the standard matrices controlled vocabulary. Retained pending matrices-vocabulary review rather than silently relabeled.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

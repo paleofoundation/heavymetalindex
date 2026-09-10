@@ -85,8 +85,7 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 
 **App:** Confirms that herbs, spices, cocoa, and tea are highest-Al food categories per EFSA 2008. Soy-based infant formula is flagged as a high-exposure matrix for infants. Aluminium cookware contact with acidic or salty foods (vinegar, tomato, apple puree, salted herring, pickles) is named explicitly as elevating Al transfer.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/aluminum]]
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cocoa]]
@@ -99,7 +98,7 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 ## Verification notes
 
 - 2026-05-28 (v2.0 manual-fetch merge-enhance of the 2026-05-14 batch-ingest page).
-- Legacy raw_handle `manual-fetch-kimi` replaced with per-PDF MFK_ form (`MFK_efsa-opinion-on-tolerable-intake-of-aluminium-with`) per current convention.
+- Legacy raw_handle `manual-fetch-source-retrieval` replaced with per-PDF MFK_ form (`MFK_efsa-opinion-on-tolerable-intake-of-aluminium-with`) per current convention.
 - Truncated `raw_path` (...`foo.pdf`) restored to full filename (...`food additives.pdf`).
 - Added `raw_sha256`, `access_url` (EU Publications Office), and `tier_rationale`.
 - `products: ["infant-formula"]` converted to wikilink form `["[[products/infant-formula]]"]`. Scope kept at the umbrella per the broad-not-narrow rule — the opinion cites combined infant-formula data (both ready-made liquid and powder, both soy and non-soy) rather than splitting subtypes.
@@ -110,26 +109,26 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 - No synthesis claims; no HMTc threshold proposals (Part 2 firewall intact).
 - This is fundamentally a toys-and-dietary-exposure regulatory opinion, not a primary food-contamination measurement study. It enters the HMI corpus because (a) it is the operative EU summary of Al dietary-exposure data through 2017, including infant formula and the high-Al condiments (herbs/spices/cocoa/tea) that the containing folder targets, and (b) it documents the EU regulatory inconsistency between the EFSA TWI and the JECFA PTWI relevant to any Al threshold-setting work.
 
-### Subagent audit findings (2026-05-28) verified against source
+### editorial review audit findings (2026-05-28) verified against source
 
 - Audit Check 1 ⚠️ "France 1.5–4.5 years" age-band attribution: verified against PDF p.19 — corrected. The 0.7–2.3 mg/kg bw/w range belongs to France 3–15 years; the 1.5–4.5 y attribution belongs only to the UK 2.3 value.
 - Audit Check 3 ⚠️ "fourteen" search strings: verified against PDF p.10 — corrected to thirteen. PDF lists exactly thirteen bulleted "aluminium OR aluminum AND <topic>" strings.
 - Audit Check 2 ⚠️ `[[metals/aluminium]]` → corrected to `[[metals/aluminum]]` (canonical page slug uses US spelling).
 - Audit Check 2 ⚠️ `[[regulations/efsa-aluminium-twi-2008]]` → corrected to `[[regulations/efsa-aluminium-twi]]` (the actual page slug carries no year suffix).
 - Audit Check 2 ⚠️ `[[regulations/jecfa-aluminium-ptwi-2011]]` → flagged as missing-slug proposal; no regulation page yet covers the JECFA 2011 PTWI revision. Per Part 10, regulations get pages on first encounter; this proposal is surfaced for next regulation-page-creation pass rather than silently invented here.
-- Audit Check 2 ❌ `products: ["[[products/infant-formula]]"]` flagged as missing-slug: **verified false positive**. `wiki/products/infant-formula.md` exists in the current taxonomy and the routing audit fans this source to that page as `locked_hmtc_row direct_evidence` plus four broad-formula-context siblings. The subagent's taxonomy snapshot appears to omit the umbrella `infant-formula` slug; not changed.
+- Audit Check 2 ❌ `products: ["[[products/infant-formula]]"]` flagged as missing-slug: **verified false positive**. the linked reference record exists in the current taxonomy and the routing audit fans this source to that page as `locked_hmtc_row direct_evidence` plus four broad-formula-context siblings. The editorial review's taxonomy snapshot appears to omit the umbrella `infant-formula` slug; not changed.
 - Audit Check 2 ⚠️ matrix vocabulary novelty: noted; matrices field uses descriptive functional categories (`dietary-intake`, `infant-formula`, `drinking-water`, `food-contact-materials`) that match patterns used by other Al-context sources in the corpus and pass the routing audit cleanly; not changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

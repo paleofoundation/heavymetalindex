@@ -176,8 +176,7 @@ App: Direct occurrence data the consumer app can consume for marine apex predato
 
 Microbiome: Not addressed.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -198,9 +197,9 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
-2026-05-29 merge-enhance pass (Claude Opus 4.7, manual-fetch-PDF skill v2.0): the prior 2026-05-15 page version was re-ingested against the full PDF and corrected on the following points.
+2026-05-29 merge-enhance pass (automated editorial review, manual-fetch-PDF skill v2.0): the prior 2026-05-15 page version was re-ingested against the full PDF and corrected on the following points.
 
-- `metals:` removed `MeHg`. The paper measured total Hg only (by both ICP-MS at 200Hg and by CVAAS on the PerkinElmer FIMS-100). The MeHg/THg ratio of 100% used in the EWI section is an EFSA modelling convention, not a measured speciation. Metals frontmatter must reflect what was measured.
+- `metals:` removed `MeHg`. The paper measured total Hg only (by both ICP-MS at 200Hg and by CVAAS on the PerkinElmer FIMS-100). The MeHg/THg ratio of 100% used in the EWI section is an EFSA modelling convention, not a measured speciation. Metals source metadata must reflect what was measured.
 - `products:` removed `canned-fish` and `fish-containing-baby-foods` (the paper studies raw whole-seafood regulatory monitoring and does not address canned product or baby-food formulations). Added `fish-marine-predatory`, `fish-marine-non-predatory`, and `fish-freshwater` (the paper's Table 7 reports species-group-resolved data directly relevant to these product rows).
 - `ingredients:` added `swordfish` and `shark` (direct evidence per Table 7).
 - `matrices:` replaced the generic `[whole-food, regulatory-compliance-monitoring]` with the actual seafood-matrix vocabulary present in the dataset.
@@ -218,13 +217,13 @@ Preserved from prior version: `cite_key`, `raw_handle`, `raw_path`, `license`, `
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

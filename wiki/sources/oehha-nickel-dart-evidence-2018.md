@@ -78,24 +78,23 @@ App: low direct utility — no food-occurrence values or matrix-specific contami
 
 ## Verification notes
 
-Fresh-context audit subagent (2026-06-22) verified every discrete figure (Bloom 2011 blood-Ni means/SDs/ranges, β and p, LOD; Zheng 2015 PCOS medians/means and P-value; mouse oral doses 46/92/185; the five-cohort and two-of-three case-control developmental claims; document-identity facts) as exactly faithful to the source, with no invented taxonomy slug and no brand- or HMTc-firewall violation. One finding applied: the Saini et al. (2014b) significance sentence was tightened — fetal weight was significant at 46 mg/kg (gestation days 6–13) in addition to 92 and 185 mg/kg (Figure B.10), which the original "at 92 and 185" phrasing had narrowed. Verdict: REVISE → corrected.
+Fresh-context audit editorial review (2026-06-22) verified every discrete figure (Bloom 2011 blood-Ni means/SDs/ranges, β and p, LOD; Zheng 2015 PCOS medians/means and P-value; mouse oral doses 46/92/185; the five-cohort and two-of-three case-control developmental claims; document-identity facts) as exactly faithful to the source, with no invented taxonomy slug and no brand- or HMTc-firewall violation. One finding applied: the Saini et al. (2014b) significance sentence was tightened — fetal weight was significant at 46 mg/kg (gestation days 6–13) in addition to 92 and 185 mg/kg (Figure B.10), which the original "at 92 and 185" phrasing had narrowed. Verdict: REVISE → corrected.
 
-Frontmatter `products` is intentionally empty: this is a toxicology hazard-identification document, not a food-occurrence study, so there is no product-level occurrence to route (mirrors the [[sources/oehha-nickel-prop65-factsheet-2025|companion Prop 65 fact sheet]]). Ingredient and metal fan-out proceeds via the `[[metals/nickel]]` wikilink and the single `[[ingredients/water]]` link (drinking-water pathway). The resulting routing advisory for empty `products` is non-blocking and accurate.
+source metadata `products` is intentionally empty: this is a toxicology hazard-identification document, not a food-occurrence study, so there is no product-level occurrence to route (mirrors the [[sources/oehha-nickel-prop65-factsheet-2025|companion Prop 65 fact sheet]]). Ingredient and metal fan-out proceeds via the `[[metals/nickel]]` wikilink and the single `[[ingredients/water]]` link (drinking-water pathway). The resulting routing advisory for empty `products` is non-blocking and accurate.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [af9c97a509](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a509) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

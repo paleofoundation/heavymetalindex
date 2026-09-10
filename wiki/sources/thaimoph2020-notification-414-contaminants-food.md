@@ -26,14 +26,15 @@ This source is the English unofficial translation of Thailand Ministry of Public
 
 Annex 1 Table 1 is the routeable HMI heavy-metal schedule. It sets maximum levels for cadmium, tin, lead, methylmercury, total mercury, inorganic arsenic, and total arsenic across cereal grains, rice, vegetables, pulses, chocolate products, fish and seafood, salt, tea and herbal tea, food supplements, seaweed, canned foods, fruit juices, milk, infant formula, fats and oils, wine, and broad residual food categories. The notification excludes food additives, processing aids, drinking water in sealed containers, and natural mineral water.
 
-Values are recorded in `data/evidence/regulatory_limits.csv` in `ug/kg`, converted from the source's `mg/kg` values by multiplying by 1000. HMI preserves the source basis where the table says "product as consumed," "ready to drink," "dried materials," "formula as consumed," or "whole commodity." Annex 1 note (4) allows total mercury as a screening method for methylmercury compliance, but the enforceable species remains methylmercury where the row is in the methylmercury section. Annex 1 note (5) likewise allows total arsenic as a screening method for inorganic arsenic compliance, but the enforceable species remains inorganic arsenic where the row is in the inorganic arsenic section.
+Values are recorded in the structured evidence record in `ug/kg`, converted from the source's `mg/kg` values by multiplying by 1000. HMI preserves the source basis where the table says "product as consumed," "ready to drink," "dried materials," "formula as consumed," or "whole commodity." Annex 1 note (4) allows total mercury as a screening method for methylmercury compliance, but the enforceable species remains methylmercury where the row is in the methylmercury section. Annex 1 note (5) likewise allows total arsenic as a screening method for inorganic arsenic compliance, but the enforceable species remains inorganic arsenic where the row is in the inorganic arsenic section.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 section added |
+| [19f96492d2](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d2) | 2026-08-06 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

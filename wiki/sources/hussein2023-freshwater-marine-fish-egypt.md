@@ -81,18 +81,18 @@ App: May contribute to the `contamination_profile` for `fish` and `freshwater-fi
 - The paper's Abstract reports the Pb/Cd exceedance percentages for L. niloticus as "75 and 15%" — the Pb and Cd percentages are swapped relative to Table 1, which has L. niloticus at 25% Pb and 75% Cd. This is a third paper-internal inconsistency in addition to the Results-vs-Table-1 mismatch above. Table 1 values are canonical.
 - The paper's Methods §"Analytical procedures" specifies only that Pb, Cd, and Al were measured on a PerkinElmer PinAAcle 900T graphite-furnace AAS; it does not name the instrument or method used for As or Hg, even though the QA/QC paragraph reports detection limits for both (As 0.02, Hg 0.01 µg/g) and the Results sections report mean values. The wiki page reproduces the source's instrument attribution as-given rather than inferring a method for As/Hg.
 - The paper writes the post-hoc test as "Turkey–Kramer HSD" in the Statistical analysis paragraph; the intended test is "Tukey–Kramer HSD". The wiki page faithfully reproduces the source's spelling.
-- This page was enhanced 2026-05-17 from a GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-05-13) had invented ingredient slugs (`tilapia`, `mullet`, `marine-fish`), invented method detail ("Cold vapor AAS for Hg" — not in source), and a transposition of the L. niloticus Pb/Cd exceedance percentages. All three corrected in this revision.
+- This page was enhanced 2026-05-17 from a automated editorial review fast-mode draft via the verification pipeline. Prior version (2026-05-13) had invented ingredient slugs (`tilapia`, `mullet`, `marine-fish`), invented method detail ("Cold vapor AAS for Hg" — not in source), and a transposition of the L. niloticus Pb/Cd exceedance percentages. All three corrected in this revision.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

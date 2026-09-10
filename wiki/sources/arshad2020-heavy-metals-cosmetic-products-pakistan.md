@@ -147,8 +147,8 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 removed sampled-product brand names and brand-coded value callouts from the source page, replacing them with category-level descriptors and statistics. Also corrected closed-vocabulary product links, added Fe to measured metals, removed non-taxonomy regulation/new-page suggestions, and tightened HMT&C/app language.
-- Subagent re-audit 2026-05-17 (autonomous v2.0 ingest pass on duplicate-PDF copy at `babycare_01_Exposure_Pathways/01_Exposure_Pathways/`): re-read full PDF including Tables 1 (per-brand max/min/mean/SE), 2 (per-category averages ± SE), 4 (SED), 5 (MoS); all Key numbers values verified against source. The same PDF is filed in two manual-fetch folders (`babycare_01_Exposure_Pathways/` and `babycare_05_Other_Categories/`); both tracker entries route to this cite-key.
-- Subagent re-audit verdict REVISE; applied four ❌ findings against §3.9.1–3.9.2 and Table 1:
+- editorial review re-audit 2026-05-17 (autonomous v2.0 ingest pass on duplicate-PDF copy at `babycare_01_Exposure_Pathways/01_Exposure_Pathways/`): re-read full PDF including Tables 1 (per-brand max/min/mean/SE), 2 (per-category averages ± SE), 4 (SED), 5 (MoS); all Key numbers values verified against source. The same PDF is filed in two manual-fetch folders (`babycare_01_Exposure_Pathways/` and `babycare_05_Other_Categories/`); both tracker entries route to this cite-key.
+- editorial review re-audit verdict REVISE; applied four ❌ findings against §3.9.1–3.9.2 and Table 1:
   - **Critical MoS/HQ/HI inversion corrected.** Prior version stated lotions+sunblocks were SAFE per MoS/HQ/HI; paper §3.9.1 says the opposite — lotion and sunblock have MoS <100, HQ >1, HI >1 for Cd/Cr/Pb (flagged as not-safe), and the other four categories are within limits. The abstract phrasing "MoS, HQ and HI values were within the permissible limit apart from lotions and sunblock creams" had been mis-parsed as "MoS/HQ/HI met for lotions and sunblocks." LCR statement (lipstick is the only safe category) was already correct.
   - Removed mechanistic claim "Pb(II) salts inhibit melanin formation" — not in source; paper §3.8 attributes whitening-cream pigmentation to general intentional pigment use (Cd sulphide yellow, Cr(III) oxide green), not a Pb-specific melanin mechanism.
   - Removed cross-source synthesis claim "most comprehensive Cat 2 cosmetic-occurrence source ingested to date" — per Part 9, source pages do not compare this paper to other sources.
@@ -158,13 +158,13 @@ Microbiome: Not addressed.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

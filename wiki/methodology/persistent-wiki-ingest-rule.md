@@ -2,185 +2,88 @@
 type: methodology
 methodology_id: persistent-wiki-ingest-rule
 title: Persistent Wiki Ingest Rule
-audience: [regulator, researcher, standards, app]
-updated: 2026-05-08
+audience: [regulator, researcher, consumer, app]
+updated: 2026-09-10
 sources: 0
 ---
 
 # Persistent Wiki Ingest Rule
 
-## Overview
+The Heavy Metal Index compiles source evidence into a lasting, cross-linked reference. A stored paper or searchable source record is the beginning of that process. A completed ingest connects the original material, a critical source summary, structured findings, and the pages where those findings belong.
 
-The Heavy Metal Index is not a query-time file bucket. It is a persistent, compiled wiki that sits between the raw source corpus and every downstream use: public product pages, ingredient pages, metal pages, standards development, retailer review, quality-control operations, legal due diligence, and Ask the Index.
+## What a completed ingest contains
 
-The operating rule is simple: a source is not "ingested" because a PDF exists locally, because a source page exists, or because a language model can retrieve the file later. A source is ingested only when its evidence has been compiled into the Index's persistent structures and routed to the correct wiki destinations.
+A completed ingest preserves the original source and its provenance, records what the source can support, captures its usable findings, and connects them to the relevant evidence pages. The record includes:
 
-## Core Build Pattern
+1. An identifiable original artifact, its access location, retrieval provenance, file hash, rights information, and evidence tier.
+2. A canonical source page describing the study or instrument, methods, key findings, and limitations.
+3. An Evidence Fitness assessment stating the uses the source supports and those it does not.
+4. Structured values or claims with source location, units, measurement basis, analyte species, statistic type, sample scope, and review status.
+5. Documented connections to the appropriate ingredient, product, metal, regulation, testing, health, microbiome, or contextual evidence pages.
+6. Updated public summaries and downloads, with checks and a versioned record of the change.
 
-The current Heavy Metal Index build has four layers.
+A source that cannot be fully extracted or placed retains an explicit gap or review record. Unresolved evidence is not silently dropped, and a partial source record is not counted as a completed ingest.
 
-1. `raw/` is the immutable source-of-truth corpus. Claude reads from it and never edits it.
-2. `data/evidence/` is the structured evidence register. This is where deterministic extraction, routing, candidate values, approved values, review states, gap reports, and audit files live.
-3. `wiki/` is the persistent knowledge base and public publishing layer. Source pages, product pages, ingredient pages, regulation pages, metal pages, methodology pages, and query pages all live here.
-4. `CLAUDE.md` plus the ingest scripts are the schema and automation layer. They define what the wiki is allowed to say, how evidence is routed, and what completion means.
+## Original evidence and traceability
 
-This means the Index is not run as "upload PDFs and let retrieval rediscover them later." It is run as "compile once, preserve, cross-link, and reuse."
+Original source files are preserved. Normalized values remain traceable to the reported value, its location in the source, and any unit or basis conversion. A source page is a guide to the evidence; it does not replace the paper, dataset, or legal instrument.
 
-## AI Adjudication Rule
+Public numeric claims require reviewed evidence. Candidate extraction and pending source records remain outside published findings until their extraction, interpretation, and placement have been reviewed. A higher evidence tier does not remove the need to inspect the particular measurement or claim being used.
 
-The default actor for routine evidence adjudication is the AI ingest system. When a source reports enough information, Codex must determine product row fit, basis, analyte species, statistic type, units, censoring treatment, and routeability, then record those decisions in structured evidence and audits.
+## Extraction and adjudication
 
-Humans supply missing source material, define governance rules, and review exceptions. They should not be treated as the primary mechanism for routine row sorting, because manual sorting is less reproducible and easier to misapply than logged, repeatable AI adjudication.
+Extraction records what the source says: sample counts, concentrations, means, medians, ranges, maxima, reporting limits, basis labels, and analyte names. Tables and machine-readable datasets are parsed or transcribed reproducibly wherever possible.
 
-## What Counts as an Ingest
+Adjudication determines what those facts can support. It considers product and ingredient fit, species, preparation, measurement basis, censoring, analytical methods, sampling design, geography, and collection period. AI-assisted review resolves routine questions when the source supplies enough information and leaves a trace of each material decision. Missing primary material, low-confidence extraction, conflicting policy, and consequential judgment calls receive exception review.
 
-A source counts as ingested only when all applicable steps below are complete.
+A concentration and its reporting limit are distinct facts. Reported zeros, non-detects, and values below a reporting limit retain the source's meaning. A non-detect is not evidence that the substance is absent, and a reporting limit is not a measured concentration. When the source cannot distinguish those states, the uncertainty remains explicit.
 
-- A canonical source page exists at `wiki/sources/<cite-key>.md`, with provenance, access, hash, license, and evidence-tier metadata.
-- The source has been classified for Evidence Fitness, including what it can support and what it cannot support.
-- Deterministically extractable values or claims have been written to the evidence register with explicit basis, species, unit, statistic type, and row-fit metadata.
-- The evidence has been routed to the correct wiki page family: products, ingredients, regulations, metals, testing, health, microbiome, or context-only source documentation.
-- If a required destination page does not yet exist, create the stub before the finding is published. This is mandatory for ingredient pages and expected for product, regulation, and metal pages when the finding needs a public home.
-- Any affected generated product outputs have been regenerated.
-- The ingest is logged, checked, and committed.
+## Occurrence statistics
 
-If a source cannot yet be placed cleanly, it still must leave a persistent trace in the system: AI adjudication queue, routing audit, gap report, context disposition, or candidate-only evidence record. Silent drops are not allowed.
+Studies need not report a particular percentile to be useful. Extraction preserves sample-level results where available and every reportable summary statistic, including means, medians, ranges, maxima, standard deviations, interquartile ranges, and lower- and upper-bound estimates for censored data.
 
-## Deterministic Boundary
+Summary-only studies remain occurrence evidence. Their reported summaries are retained as summaries. A distribution reconstructed from them is a modelled result, not a set of newly observed samples. Such reconstruction requires disclosed distributional assumptions, the available sample count and dispersion information, and an assessment of fit and sensitivity. Insufficient information for a particular reconstruction is a modelling limitation, not a reason to discard the reported findings.
 
-Numeric extraction should be deterministic wherever the source allows it. Tables, sample sizes, means, medians, maxima, ranges, regulatory thresholds, basis labels, and analyte names should be parsed or transcribed as facts, not guessed by reasoning.
+Source-reported and derived descriptive statistics are distinguished. Each derived percentile or other summary identifies the input data, statistic definition, weighting, censoring treatment, and any conversion. A percentile from a study or a descriptive synthesis is not a certification limit or a compliance determination.
 
-This boundary is not a ban on AI reasoning. It separates two jobs:
+## Combining evidence
 
-- extraction records what the source says and what can be calculated reproducibly;
-- adjudication reasons over product fit, basis comparability, analyte species, statistic usability, Evidence Fitness, and standards readiness.
+Evidence is combined only after defining the relevant product or ingredient, market, collection period, matrix, preparation, basis, species, sampling frame, and method criteria. Material differences between jurisdictions, markets, product forms, or methods are retained through separate summaries or documented sensitivity analyses.
 
-The reason for the separation is defensibility. A later reviewer should be able to distinguish a copied source value from an AI row-fit decision, inspect both, and reproduce the route without relying on hidden chat context.
+Total arsenic and inorganic arsenic remain distinct, as do total mercury and methylmercury, and total chromium and hexavalent chromium. Wet weight, dry weight, as-sold, prepared, and reconstituted measurements are not silently mixed. Any conversion names its inputs and assumptions. A prepared composite food does not automatically represent an unprepared ingredient or a different commercial formulation.
 
-Reasoning belongs in a different layer:
+The Index reports literature and verified regulatory instruments. Regulatory comparisons require the applicable primary instrument and a matching scope, species, and basis. Separate certification decisions do not change what the underlying literature is reported to show.
 
-- deciding row fit;
-- distinguishing direct occurrence evidence from context-only evidence;
-- explaining contradictions across sources;
-- deciding what belongs on which public page;
-- documenting what remains missing.
+## Destination pages and coverage gaps
 
-When a statistic cannot be extracted deterministically, the wiki should say that the value is pending, incomplete, or context-only rather than inventing a polished-looking output.
+Evidence needs a stable destination before it is published. When a supported ingredient or product has no page, a clearly identified provisional page provides that destination. A provisional page does not imply a completed synthesis, a certification category, or a numeric finding.
 
-## Aggregate Percentile Boundary
+A dataset covering many foods is assessed across its full scope. Every usable row or grouped finding receives an appropriate destination or an explicit explanation of why it cannot yet be placed. Publishing one source summary does not complete the ingest of a multi-food dataset.
 
-Individual studies are not expected to report the HMTc p90, p95, p10, or p20. Those values are standards-program calculations performed after the evidence has been routed, screened, and admitted into a benchmark pool. During ingest, the important question is whether the source contributes usable sample-level values or only summary/context evidence.
+## Public source, ingredient, and product pages
 
-Source-level percentiles, when they happen to exist, are evidence inputs, not HMTc thresholds by themselves. A paper may report p90, p95, or p100 for its own sample pool; those values must remain labeled as source-scope context until the source is admitted into the exact product-row aggregate pool.
+Source pages present findings, methods, Evidence Fitness, limitations, related evidence, and available data downloads. Verification and correction notes explain changes that matter to a reader, such as a corrected denominator or a clarified measurement basis. Operational work logs remain separate from the public narrative.
 
-For HMTc limit-setting, clean benchmark rows use the aggregate the lower-end of the literature distribution. Contaminated-platform rows use a governance-selected aggregate lower-tail value: P10 by default, or P20 only when that row's governance packet explicitly selects it. The opposite tails are not HMTc limit-setting targets: do not calculate dirty-category P90 or clean-category P10 as standards values. If those values are computed for exploratory variance or clean-vs-dirty separation context, label them as comparator context and keep them out of limit-setting fields.
+Ingredient and product pages summarize their reviewed evidence with traceable sources and visible gaps. Structured downloads, measured-value summaries, and source-coverage records should agree. A citation to a dataset should lead to the relevant downloadable data when redistribution is permitted, not merely to a metadata inventory.
 
-After the aggregate target is calculated, compare it to the lowest applicable loaded regulatory ceiling for the same product row, analyte species, and basis. If the aggregate target is higher than that regulatory cap, the HMTc standard must use the regulatory cap or a stricter value; it must not publish a looser threshold.
+An empty measurement cell is a data gap, not a zero. A source has not established absence simply because it did not measure an analyte. Study counts and confidence descriptions reflect the evidence actually used, and profile values are updated through a documented synthesis of the contributing evidence.
 
-The deterministic layer may calculate documented nearest-rank percentiles from sample-level values, but it must record the source pool, product-row fit, basis, analyte species, censoring rule, and whether the value is source-scope context or an aggregate standards candidate. The AI adjudication layer decides whether the source is fit to enter the aggregate pool; the math layer then computes the row-standard percentile from the admitted pool.
+## Review, corrections, and reuse
 
-Do not describe a study as weak merely because it does not report p90 or p95. A study is distribution-capable when it provides sample-level values, or another traceable structure that can be admitted into the benchmark pool. A study is summary/context-only when it provides only means, medians, ranges, maxima, pooled baskets, or narrative summaries. Summary/context-only evidence can inform retrieval, context, and sensitivity review, but it cannot create the benchmark distribution by itself.
+Maintenance checks look for unplaced findings, missing source provenance, mismatched public tables and downloads, stale regulatory references, conflicting summaries, and pending evidence presented as reviewed. Structural checks establish that records and links exist; scientific review establishes that the source supports the claim and that its interpretation is appropriate.
 
-## Benchmark Pool Rule
-
-Before calculating any HMTc percentile, define and record the benchmark pool. The pool definition must state the product row, geography or market, time period, matrix/basis, analyte species, sample frame, method comparability, censoring rule, inclusion/exclusion criteria, and regulatory ceiling context.
-
-Benchmark pools are jurisdiction- and market-aware. If a standard is being written for the United States, US-market samples are the primary benchmark pool unless governance explicitly approves another design. If US-market values are materially different from Nigeria, Portugal, the EU, or any other market, stratify the evidence and document the difference rather than averaging the markets together. Non-target-market evidence can remain useful as context, a prior, a gap signal, or a sensitivity check, but cross-market pooling requires an auditable rationale.
-
-## Stub-First Rule
-
-The wiki must always have somewhere stable for new evidence to attach.
-
-- If an ingredient appears in a routeable source and no ingredient page exists, create the ingredient stub first.
-- If a product category is directly supported by source evidence and no product page exists, create the product-category stub first.
-- Regulations are created on first encounter because the exact rule identifier is itself part of the evidence.
-- Source pages are never optional.
-
-This prevents the ingest pipeline from discarding evidence simply because the destination page family was not created yet. Missing pages are backlog markers, not reasons to lose data.
-
-## Product-Page Contract for This Build
-
-Product-category pages in the current build are layered rather than monolithic.
-
-When structured product evidence exists, the page should expose three complementary public surfaces:
-
-1. The standards evidence matrix: a per-metal summary of loaded source values, regulatory reference values, source pages, and remaining follow-up.
-2. The measured values ledger: a download-first summary that points to row-level structured values.
-3. The routing audit: a downloadable view of sources that are routed to the product but still need extraction, AI row-fit adjudication, promotion, or documentation.
-
-These layers should agree with one another. The download artifacts are not optional sidecars; they are part of the public traceability contract. If the page shows source-backed evidence, the corresponding structured CSV and routing outputs should exist when applicable.
-
-## Ingredient-Page Contract for This Build
-
-Ingredient pages are long-lived synthesis surfaces and app primitives. Each ingredient page must be born with a valid machine-readable stub state rather than as an empty placeholder.
-
-That means:
-
-- `contamination_profile` entries begin in `pending` state with null values;
-- `n_studies`, `last_reviewed`, and `last_full_resynthesis` remain explicit;
-- data gaps are represented as data gaps, not as absence of evidence;
-- source-backed findings can be attached incrementally as new papers arrive.
-
-The app, standards workflow, and future Ask the Index features depend on this stability.
-
-## Query Rule
-
-Queries should start from the compiled layers, not from the raw corpus by default.
-
-The preferred order is:
-
-1. relevant wiki pages;
-2. the evidence register and generated exports;
-3. source pages;
-4. raw source files only when necessary for verification or missing extraction.
-
-Good answers should often be filed back into the wiki as new query or briefing pages so that synthesis compounds rather than disappearing into chat history.
-
-## Lint Rule
-
-Linting is part of ingest maintenance, not a separate polish pass.
-
-Lint should check for:
-
-- source pages with no routed wiki destination;
-- routeable values stranded in candidate-only files;
-- product pages whose CSV exports do not match the visible page layers;
-- ingredient findings with no ingredient stub;
-- product-routed sources missing from product matrices or routing audits;
-- claims with no source page provenance;
-- stale regulatory values;
-- contradictions or superseded claims that were not surfaced.
-
-## Automation Target
-
-The intended end state is local-first automation:
-
-- Karen adds source files to the raw corpus;
-- the pipeline inventories, hashes, matches, extracts, routes, updates pages, regenerates outputs, and writes any unresolved queues;
-- the system tells Karen what remains missing, what needs a better source, and what needs review.
-
-The user should not need to keep handing the same paper back to the system for repeated ad hoc ingest attempts. Re-ingest should be a pipeline repair path, not the normal user workflow.
-
-## Non-Negotiables
-
-- No public numeric claim from `machine_extracted` or candidate-only records without promotion.
-- No silent substitution of basis, species, or regulatory value.
-- No silent omission of routed sources.
-- No source counts as ingested if its evidence is stranded outside the persistent wiki structures.
-- No one-off manual product-page fix if the behavior belongs in the central generator.
-
-That is the Heavy Metal Index version of an LLM-maintained wiki: persistent, routed, auditable, and cumulative.
+Questions start from the compiled reference and its structured evidence, returning to original sources for verification or missing extraction. New findings and corrections are incorporated into the persistent pages and version history so later readers can inspect and reuse the result.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
 <!-- END: hmi-page-history -->

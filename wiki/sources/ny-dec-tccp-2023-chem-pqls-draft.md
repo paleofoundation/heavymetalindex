@@ -95,8 +95,7 @@ Courses: Useful as a worked example of (a) state-by-state divergence in children
 
 App: Country-of-origin or state-of-sale "US-NY" plus product category "children's product" (broadly construed under ECL Article 37) triggers the draft TCCP reporting thresholds listed above. The app should mark TCCP triggers as **draft / proposed** rather than binding until a final rule is adopted, and should track separately from binding state caps (such as WA TFCA Pb 1.0 ppm in cosmetics).
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/antimony]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -124,27 +123,27 @@ App: Country-of-origin or state-of-sale "US-NY" plus product category "children'
 
 ## Verification notes
 
-- Document filename (`01_tccp_chem_lists_2021.pdf`) carries the year 2021 because the underlying program kickoff was September 2021; the document itself is the February 2023 stakeholder draft update (cover page: "Draft Update, Feb. 2023"). Year frontmatter set to 2023 to match document date, not filename.
+- Document filename (`01_tccp_chem_lists_2021.pdf`) carries the year 2021 because the underlying program kickoff was September 2021; the document itself is the February 2023 stakeholder draft update (cover page: "Draft Update, Feb. 2023"). Year source metadata set to 2023 to match document date, not filename.
 - This is a **draft for public comment**, not a binding rule. Body explicitly flags this so downstream readers (and the app) do not treat the PQLs as enforceable. Evidence tier A is retained because the source is an official state-agency publication compiled from authoritative hazard lists, but the draft status is the load-bearing caveat.
 - Only the heavy-metals and other-chemical-elements sections of Table 1 (pp. 14-19) and the corresponding entries of Table 2 (pp. 91, "Minerals and Heavy Metals" section) are abstracted into Key numbers. The remainder of Table 1 (organic chemical classes pp. 20-90 — alkylphenols, aromatic amines, bisphenols, dioxins, glycols, nitrosamines, organohalogen flame retardants, organophosphate flame retardants, parabens, paraffins, PFAS, pesticides, phthalates, PAHs, quaternary ammonium compounds, siloxanes, VOCs, etc.) and the rest of Table 2 are outside HMI scope (heavy metals only) and were intentionally not transcribed. The PDF read pages 1-20 and 91-96 to capture the heavy-metals and HPC-mineral tables and the document's process and definitions.
 - `access_url` left null because the draft document does not carry a stable persistent URL on the PDF cover; the contact reference is `TCCPprogram@dec.ny.gov`. Not invented per verify-don't-fabricate discipline.
-- `evidence_tier: A` consistent with docs/conventions.md A-tier definition for "government reports"; the draft-status caveat is in the body and verification notes rather than in tier.
-- `metals:` frontmatter restricted to HMI-scope analytes covered by the source: Sb, tAs, Cd, Cr, Cr-VI, Pb, tHg, MeHg, Ni. Cobalt, manganese, molybdenum, thallium, thorium, vanadium, beryllium, selenium are discussed in Key numbers but are outside HMI core analyte scope; they are not added to frontmatter to keep routing focused.
-- `iAs` not added to frontmatter: the TCCP arsenic entry explicitly directs reporting of all arsenic species summed under a single tAs label ("All forms of arsenic should be summed and reported using this label," p. 15). The regulation operates on total arsenic, not speciated arsenic.
+- `evidence_tier: A` consistent with the editorial record A-tier definition for "government reports"; the draft-status caveat is in the body and verification notes rather than in tier.
+- `metals:` source metadata restricted to HMI-scope analytes covered by the source: Sb, tAs, Cd, Cr, Cr-VI, Pb, tHg, MeHg, Ni. Cobalt, manganese, molybdenum, thallium, thorium, vanadium, beryllium, selenium are discussed in Key numbers but are outside HMI core analyte scope; they are not added to source metadata to keep routing focused.
+- `iAs` not added to source metadata: the TCCP arsenic entry explicitly directs reporting of all arsenic species summed under a single tAs label ("All forms of arsenic should be summed and reported using this label," p. 15). The regulation operates on total arsenic, not speciated arsenic.
 - Product scope: ECL § 37-0901 et seq. applies to all consumer products primarily intended for children aged twelve and under. The `products:` array was scoped to the HMI taxonomy product slugs most directly matched by the regulation's coverage (children's personal care, cosmetics, baby-care personal-care, diaper-care, painted toys, pacifiers, infant clothing). Other potentially in-scope children's product categories (cribs, strollers, car seats, high chairs, bibs, blankets) were not added because the regulation does not single them out from the general "children's product" class and broad enumeration would over-fan-out the routing layer beyond the heavy-metals-relevant subset. The matrices field carries the broader scope (`childrens-product-finished-good`).
 - No brand-by-brand contamination data appears in this document (it is a regulatory chemical list, not a product-testing study). Brand names appearing in the document — AFIRM members (Apparel & Footwear International RSL Management Working Group), Bed Bath & Beyond, Columbia Sportswear, Deckers Brands, Nike, Peak Performance, Tesco — are referenced as Restricted Substances List authorities the agency consulted to derive PQLs. These are method-source attributions per the Part 12 Exception 2 ("Scientific-method vendor/material names") carve-out, not brand-attributed contamination measurements. They appear in the Methods (brief) section without violation.
-- Audit subagent (2026-06-01) flagged one ⚠️ prose contradiction in Implications: the prior phrasing "one order of magnitude looser than the WA TFCA 2023 toothpaste cap of 1000 µg/kg (= 1.0 ppm)" was self-contradictory, since 1 ppm = 1000 µg/kg. Verified against unit arithmetic; corrected by rewriting the clause to state the two regulations land at the same per-product level for lead and showing the unit conversion explicitly. Checks 1-5 otherwise ✅; subagent verdict PROMOTE with optional prose polish.
+- Audit editorial review (2026-06-01) flagged one ⚠️ prose contradiction in Implications: the prior phrasing "one order of magnitude looser than the WA TFCA 2023 toothpaste cap of 1000 µg/kg (= 1.0 ppm)" was self-contradictory, since 1 ppm = 1000 µg/kg. Verified against unit arithmetic; corrected by rewriting the clause to state the two regulations land at the same per-product level for lead and showing the unit conversion explicitly. Checks 1-5 otherwise ✅; editorial review verdict PROMOTE with optional prose polish.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c660ae7053](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7053) | 2026-06-01 | major | 1 section added |
 <!-- END: hmi-page-history -->

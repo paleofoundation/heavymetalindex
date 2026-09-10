@@ -96,20 +96,20 @@ App: Route as contaminated-farmland and phytoremediation context for Cd, Cu, Pb,
 
 ## Verification notes
 
-The PDF has author attribution and DOI `10.3390/agronomy13051231`; no DOI conflict was observed. This is a primary field study, but the matrices are contaminated soil and non-food phytoremediation biomass, not food, feed, or consumer-product matrices. No ingredients or products are listed in frontmatter for that reason. The source uses total elemental Cd, Cu, Pb, and Zn; no speciation issue arises. Values from Figures 1-4 are partly graphical; the page quotes exact numeric values only where the PDF text or Table 2 provides them directly.
+The PDF has author attribution and DOI `10.3390/agronomy13051231`; no DOI conflict was observed. This is a primary field study, but the matrices are contaminated soil and non-food phytoremediation biomass, not food, feed, or consumer-product matrices. No ingredients or products are listed in source metadata for that reason. The source uses total elemental Cd, Cu, Pb, and Zn; no speciation issue arises. Values from Figures 1-4 are partly graphical; the page quotes exact numeric values only where the PDF text or Table 2 provides them directly.
 
-2026-06-02 enhancement: replaced non-standard matrix slugs (`contaminated-farmland-soil`, `phytoremediation-biomass`, `kenaf`, `sedum-plumbizincicola`) with the recognized vocabulary entries `agricultural-soil` and `plant-tissue`. Both terms appear in the `_no_route` block of `data/evidence/matrix-to-product-map.json`, so the routing layer correctly ignores them rather than emitting false product routes. Plant-species identifiers (kenaf, Sedum plumbizincicola) are not matrix categories and have been dropped from frontmatter; the species names remain in the body where they belong.
+2026-06-02 enhancement: replaced non-standard matrix slugs (`contaminated-farmland-soil`, `phytoremediation-biomass`, `kenaf`, `sedum-plumbizincicola`) with the recognized vocabulary entries `agricultural-soil` and `plant-tissue`. Both terms appear in the `_no_route` block of the structured evidence record, so the routing layer correctly ignores them rather than emitting false product routes. Plant-species identifiers (kenaf, Sedum plumbizincicola) are not matrix categories and have been dropped from source metadata; the species names remain in the body where they belong.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [315a7b8a2a](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2a) | 2026-06-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

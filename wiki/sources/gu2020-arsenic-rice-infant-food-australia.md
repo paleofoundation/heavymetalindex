@@ -115,7 +115,7 @@ Microbiome: No direct microbiome endpoint.
 
 ## Provenance Notes
 
-Originally acquired during the 2026-05-09 autonomous loop run via NCBI EFetch JATS XML for PMC7014030 (CC BY license per the paper). The JATS XML is preserved at `raw/external-fetch/2026-05-09/lai2020-arsenic-rice-infant-food-australia.jats.xml` (filename predates first-author verification; the actual first author is Gu Z, not Lai). The PDF was subsequently fetched via the `/discover` skill on 2026-06-08 and preserved at `raw/Manual Fetch Discovery/gu2020arsenic-rice-infant-food-australia.pdf`; this PDF is now the canonical raw artifact (raw_path), and the JATS XML remains as supplementary near-duplicate.
+Originally acquired during the 2026-05-09 autonomous loop run via NCBI EFetch JATS XML for PMC7014030 (CC BY license per the paper). The JATS XML is preserved at the archived source file (filename predates first-author verification; the actual first author is Gu Z, not Lai). The PDF was subsequently fetched via the `/discover` skill on 2026-06-08 and preserved at the archived source file; this PDF is now the canonical raw artifact (raw_path), and the JATS XML remains as supplementary near-duplicate.
 
 Initial PubMed E-utilities query for OA candidates returned this PMID via the `(inorganic arsenic) AND (baby food OR infant food OR fruit puree OR vegetable puree) AND pubmed pmc open access[filter]` search.
 
@@ -123,8 +123,8 @@ Initial PubMed E-utilities query for OA candidates returned this PMID via the `(
 
 Merge-enhanced from the 2026-05-09 JATS-XML-only ingest on 2026-06-08 after the PDF was re-acquired via /discover into raw/Manual Fetch Discovery/. Defects fixed against the PDF source:
 
-- Frontmatter `products:` normalized to all quoted-wikilink form (mixed bare-slug and quoted forms previously).
-- Added `[[products/pasta-rice-based]]` to products — the prior page's Routing table claimed "no current HMTc Category 1 row for rice pasta" but `wiki/products/pasta-rice-based.md` exists in current taxonomy; rice pasta n=3 is now correctly routed as direct evidence.
+- source metadata `products:` normalized to all quoted-wikilink form (mixed bare-slug and quoted forms previously).
+- Added `[[products/pasta-rice-based]]` to products — the prior page's Routing table claimed "no current HMTc Category 1 row for rice pasta" but the linked reference record exists in current taxonomy; rice pasta n=3 is now correctly routed as direct evidence.
 - Added `raw_handle: MFD_gu2020arsenic-rice-infant-food-australia` and pointed `raw_path` at the PDF (raw_handle was missing from the JATS-only ingest, which is why the page was in `routing_malformed.csv` as an advisory).
 - Added `ingredients: ["[[ingredients/rice]]"]` (missing field that triggered the routing_malformed advisory).
 - Filled in `sampling_locations: ["Melbourne, Australia"]` and `sampling_year_range: "2017"` from Section 2.1.
@@ -138,15 +138,15 @@ Numerical fidelity spot-check (existing page vs PDF Table 2, page 5): rice milk 
 
 Brand-firewall spot-check: the paper notes "11 brands from 6 countries of origin" in Section 2.1 without naming individual brands in the results; no brand-level rankings to scrub. The wiki page contains no brand names in contamination contexts.
 
-### Phase 2 audit applied (2026-06-08, subagent a6e7a9db5979803f1)
+### Phase 2 audit applied (2026-06-08, editorial review a6e7a9db5979803f1)
 
-Subagent verdict: REVISE.
+editorial review verdict: REVISE.
 
 Findings applied (all verified against the PDF):
 
-- Check 1 ❌ Figure 4 country-of-origin values: subagent flagged that the wiki had figure-read estimates (China ~95, Australia local ~205, Australia mix ~175, USA ~235 ppb) when the source text Section 3.2.4 (page 8) gives explicit values (China 100, Australia local 210, Australia mix 180, USA 240 ppb). Verified by re-reading page 8: text says "from China had the lowest mean tAs concentration (0.10 mg kg⁻¹)" and "from the United States of America (USA) had the most elevated mean tAs concentration (0.24 mg kg⁻¹)" and "Rice-based foods produced in Australia and products made from Australian and imported ingredients had mean tAs concentrations of 0.21 mg kg⁻¹ and 0.18 mg kg⁻¹, respectively." Corrected the Key Numbers narrative and the country-of-origin spread cell in the Routing table. Thailand and Europe values reclassified as figure-only estimates since the text does not quote explicit means for them.
-- Check 5 ❌ Cross-source synthesis (FDA 2016 / FDA 2024 / Signes-Pastor comparisons): subagent flagged three places where the wiki page compared Gu 2020 to other-paper values or did synthesis math. Verified against Part 2 and the audit-prompt Check 5 boundary (the page may report what Gu 2020 contributes; it may not synthesize across sources — Part 9 owns that). Removed the FDA-2016/2024 rice-cereal comparison from the geographic-context section, removed the "consistent with U.S. and EU literature" speciation generalization, and removed the "Combined with FDA 2024... and Signes-Pastor 2016... brings to n_a_tier=2" claim from Implications. The within-paper comparison Gu 2020 makes in its own Discussion (Section 3.1, Table 3) is now reported with an explicit note that within-paper context is not cross-source synthesis.
-- Check 5 ⚠️ Part 19 framework editorializing: subagent flagged "supports clean/dirty subcategory analysis under the locked methodology in Part 19" as borderline. Softened to "provides within-category stratification data; whether that differential warrants subcategory treatment is a question for Part 19 standards-setting, not for this source page" — preserves the empirical observation while moving the framework-judgment call back to Part 19.
+- Check 1 ❌ Figure 4 country-of-origin values: editorial review flagged that the wiki had figure-read estimates (China ~95, Australia local ~205, Australia mix ~175, USA ~235 ppb) when the source text Section 3.2.4 (page 8) gives explicit values (China 100, Australia local 210, Australia mix 180, USA 240 ppb). Verified by re-reading page 8: text says "from China had the lowest mean tAs concentration (0.10 mg kg⁻¹)" and "from the United States of America (USA) had the most elevated mean tAs concentration (0.24 mg kg⁻¹)" and "Rice-based foods produced in Australia and products made from Australian and imported ingredients had mean tAs concentrations of 0.21 mg kg⁻¹ and 0.18 mg kg⁻¹, respectively." Corrected the Key Numbers narrative and the country-of-origin spread cell in the Routing table. Thailand and Europe values reclassified as figure-only estimates since the text does not quote explicit means for them.
+- Check 5 ❌ Cross-source synthesis (FDA 2016 / FDA 2024 / Signes-Pastor comparisons): editorial review flagged three places where the wiki page compared Gu 2020 to other-paper values or did synthesis math. Verified against Part 2 and the audit-prompt Check 5 boundary (the page may report what Gu 2020 contributes; it may not synthesize across sources — Part 9 owns that). Removed the FDA-2016/2024 rice-cereal comparison from the geographic-context section, removed the "consistent with U.S. and EU literature" speciation generalization, and removed the "Combined with FDA 2024... and Signes-Pastor 2016... brings to n_a_tier=2" claim from Implications. The within-paper comparison Gu 2020 makes in its own Discussion (Section 3.1, Table 3) is now reported with an explicit note that within-paper context is not cross-source synthesis.
+- Check 5 ⚠️ Part 19 framework editorializing: editorial review flagged "supports clean/dirty subcategory analysis under the locked methodology in Part 19" as borderline. Softened to "provides within-category stratification data; whether that differential warrants subcategory treatment is a question for Part 19 standards-setting, not for this source page" — preserves the empirical observation while moving the framework-judgment call back to Part 19.
 
 Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mixed-rice "~150 ppb" eyeballed from the figure box; "ranged 37% to 91% across rice products" framing) and the Check 1 numerical-fidelity ✅ items required no action.
 
@@ -166,13 +166,13 @@ Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | major | 2 sections added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [1be66b2f4a](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4a) | 2026-06-08 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

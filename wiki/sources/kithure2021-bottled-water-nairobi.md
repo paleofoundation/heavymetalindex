@@ -112,11 +112,11 @@ This paper exhibits several internal data-integrity issues that the wiki documen
 
 8. **Procedural blanks and reference materials not reported.** No procedural-blank results, certified reference material (CRM) recoveries, or spike-recovery data are reported. Without these, the wiki cannot independently verify whether the reported Pb concentrations of 320 ppb (sample F) and 140 ppb (sample G) — if read as mg/L — reflect actual product contamination, contamination introduced during 100 mL × triplicate aqua regia/HClO₄ digestion, or instrument drift.
 
-9. **Audit application (2026-05-30).** Audit subagent (general-purpose, fresh context) flagged three ⚠ findings, all verified and applied: (a) Check 1 — corrected verification note #4 which had incorrectly stated sample B's pH of 6.63 was below the NEMA 6.5–8.5 minimum (it is within range); (b) Check 5 — removed cross-literature comparison from `## Implications` ("broadly inconsistent with the global bottled-water literature") because cross-source comparison belongs in the Part 9 synthesis pass, not the source page; (c) Check 5 — removed synthesis-direction instruction ("downstream synthesis should weight this source with substantial caveat or treat it as discovery-only") for the same reason. The audit also revised note #8 to drop the same cross-literature claim, retaining only verifiable arithmetic on this paper's reported values and the procedural-blank gap.
+9. **Audit application (2026-05-30).** Audit editorial review (general-purpose, fresh context) flagged three ⚠ findings, all verified and applied: (a) Check 1 — corrected verification note #4 which had incorrectly stated sample B's pH of 6.63 was below the NEMA 6.5–8.5 minimum (it is within range); (b) Check 5 — removed cross-literature comparison from `## Implications` ("broadly inconsistent with the global bottled-water literature") because cross-source comparison belongs in the Part 9 synthesis pass, not the source page; (c) Check 5 — removed synthesis-direction instruction ("downstream synthesis should weight this source with substantial caveat or treat it as discovery-only") for the same reason. The audit also revised note #8 to drop the same cross-literature claim, retaining only verifiable arithmetic on this paper's reported values and the procedural-blank gap.
 
 The wiki reports the source's findings as published while documenting these concerns; the page is B-tier in evidence-fitness terms because of the cumulative data-integrity issues, not because the source is non-peer-reviewed.
 
-## Wiki pages updated on ingest
+## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/antimony]]
@@ -129,13 +129,13 @@ The wiki reports the source's findings as published while documenting these conc
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [9658f6be52](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be52) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

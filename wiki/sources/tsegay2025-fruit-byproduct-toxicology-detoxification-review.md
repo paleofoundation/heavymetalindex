@@ -136,7 +136,7 @@ Narrative review, not a systematic review. The authors prioritized fruits with g
 
 **2026-05-20 (merge-enhance pass).** Pre-existing page dated 2026-05-14 carried defects from earlier ingest:
 
-- `raw_handle: manual-fetch-kimi` replaced with `MFK_toxicological-qualities-and-detoxification-trends-` per current MFK_ handle convention.
+- `raw_handle: manual-fetch-source-retrieval` replaced with `MFK_toxicological-qualities-and-detoxification-trends-` per current MFK_ handle convention.
 - `raw_path` was truncated to `...fruit by-pro.pdf`; corrected to the full PDF filename `...fruit by-products_ A review.pdf`.
 - `raw_sha256` was missing; added (`8f66d00ee3ae954d5e379415834e79667cf20b21a02edb6e95752154c8d69e36`).
 - `access_url` was missing; added DOI link.
@@ -147,26 +147,26 @@ Narrative review, not a systematic review. The authors prioritized fruits with g
 - Key numbers expanded from ~5 lines to full Table 1 commodity-by-commodity breakdown (all 19 commodities with their per-fraction metal concentrations and refs), plus Table 2 mycotoxin/ANF/pesticide outliers, regulatory-limit citations, global production 2022 in million tonnes from Figure 1a, by-product waste percentages from Figure 1b, and the four cytotoxicity findings reported in Sections 3–6.
 - Methods section expanded to flag six explicit evidence-quality limitations: tertiary synthesis nature, unit inconsistency, absent speciation, hazard-quotient citation gap, single-measurement Pb outlier risk, and absence of regulatory-event documentation. The original page omitted these.
 - Legacy "Wiki pages updated on ingest" section removed (replaced by the new schema's expectation that downstream propagation happens during synthesis, not ingest).
-- `ingest_method` and `created_by` fields added per current frontmatter schema.
+- `ingest_method` and `created_by` fields added per current source metadata schema.
 
 No primary-data values were silently altered. The review's pineapple peel Pb outlier (0.64 mg/100 g dry weight) and the contrasting "below 0.1 µg/L" framing for the other six by-products are preserved verbatim as they appear in the source on p.2 even though the unit basis is inconsistent — the review's own framing is the authoritative record.
 
-**Audit subagent (2026-05-20) — REVISE verdict; three ⚠️ findings, all applied:**
+**Audit editorial review (2026-05-20) — REVISE verdict; three ⚠️ findings, all applied:**
 
 1. Pineapple shell vs pomace mycotoxin attribution — the original "Pineapple shell/pomace" collapsed row was split per Table 2 p.7 into "Pineapple shell: Fusarium = 250" (refs [70–72]) and "Pineapple pomace: Aflatoxin B₂ and B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³" (refs [60,72,79]). The aflatoxin label was also corrected from "B₁" to the source's "B₂ and B₁".
 2. Watermelon meal tannin (32 × 10⁵ mg/kg) and orange pomace Prochloraz (8.11.7 mg/kg) added as bullet 7 in the limitations list, explicitly flagged as suspected source-printing errors preserved verbatim. The review is the authoritative record; we do not silently correct primary-source typesetting.
-3. Matrices vocabulary clarification: `matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` are descriptive of the review's actual subject (by-product fractions, not fresh fruit) and are treated as advisory-only by the routing audit. They are not enumerated in the taxonomy snapshot's controlled-vocabulary list, but they remain in frontmatter because removing them would mis-describe the source.
+3. Matrices vocabulary clarification: `matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` are descriptive of the review's actual subject (by-product fractions, not fresh fruit) and are treated as advisory-only by the routing audit. They are not enumerated in the taxonomy snapshot's controlled-vocabulary list, but they remain in source metadata because removing them would mis-describe the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

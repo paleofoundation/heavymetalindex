@@ -128,7 +128,7 @@ App: Supports flagging ghee as a higher-cumulative-exposure dairy matrix for Pb,
 
 ## Verification notes
 
-- The source PDF filename in `raw/Manual Fetch Discovery/` is `hasan2021-camel-milk-heavy-metals.pdf`. The actual paper is **not** about camel milk; it is about cheese, ghee, and butter from Bangladeshi local shops. The `raw_handle` field preserves the literal filename for filesystem traceability, but `cite_key` reflects the actual content (`hasan2021-bangladesh-dairy-trace-elements`). Reference #25 in the paper is the only mention of "camel" (a single phrase noting that butter is produced worldwide from a range of animal milks including camel); this is almost certainly what the discover skill's keyword match latched onto.
+- The source PDF filename in the archived source file is `hasan2021-camel-milk-heavy-metals.pdf`. The actual paper is **not** about camel milk; it is about cheese, ghee, and butter from Bangladeshi local shops. The `raw_handle` field preserves the literal filename for filesystem traceability, but `cite_key` reflects the actual content (`hasan2021-bangladesh-dairy-trace-elements`). Reference #25 in the paper is the only mention of "camel" (a single phrase noting that butter is produced worldwide from a range of animal milks including camel); this is almost certainly what the discover skill's keyword match latched onto.
 - Table 1 in the source publishes only min and max values (no means, no SD, no n per cell). Means quoted above are back-calculated from the Table 2 EDI values via Mc = EDI × BW / Di with the authors' stated Di values; cross-checked against the text-stated "Cu in butter ≈ 1.543 ppm" which matches the back-calculated 1.524 ppm to within rounding.
 - The published Table 1 max row is internally garbled across multiple metals, not solely Zn. The printed row contains 25 numeric values across 24 expected cells (8 metals × 3 product types), indicating a column-slide typesetting defect: in particular the tAs (As) sub-row in the published Table 1 prints four values where three are expected. The wiki's table above reconstructs the most defensible alignment for Pb, Cd, Cr, and tAs maxima by anchoring against the back-calculated means (max must be ≥ mean), but the source's printed layout does not unambiguously confirm the assignments. The Zn row is the most obviously broken (Ghee Zn max prints as 0.201 mg/kg vs back-calculated mean 0.451 mg/kg — impossible) and is therefore flagged as "see notes" rather than reconstructed; the Pb/Cd/Cr/tAs alignments are reported as the most plausible reading but should be treated as provisional until a corrected version of the source table is obtained. Only the Table 1 min row (cleanly 24 values) and the back-calculated means are quoted without caveat.
 - The EDI-formula unit reconciliation in the paper is non-standard: with Di stated in mg/day and Mc in mg/kg, the dimensional check does not cleanly yield mg/(kg-BW × day). This is a known artifact of how the authors presented the calculation; the THQ and TCR derivations are internally consistent within the paper, so the relative magnitudes across matrices remain interpretable.
@@ -136,11 +136,10 @@ App: Supports flagging ghee as a higher-cumulative-exposure dairy matrix for Pb,
 - TCR for Cd in ghee (7.776 × 10⁻⁵) is explicitly stated in the body text and is omitted from the printed Table 5 (which only shows As and Pb rows in the published layout).
 - No brand names appear in the paper at sample level; Part 12 firewall not invoked. Method-vendor names (Berghof, Merck, Thermo Scientific, Sigma-Aldrich) are scientific-method exceptions per the verification-checklist and are preserved.
 - Open-access publication under CC BY 4.0 (Oriental Scientific Publishing Company).
-- Audit subagent (general-purpose, 2026-05-30) flagged that the Table 1 max row defect is broader than the initial Zn-only flag — verified against PDF p.422 (25 values across 24 expected cells; tAs row prints 4 values); the bullet above was expanded accordingly.
-- Audit subagent (general-purpose, 2026-05-30) flagged the Implications clause "consistent with the lower end of the international cheese literature" as a cross-source synthesis claim outside this paper's scope (Part 2 / Part 9 boundary); verified against the source — the paper makes no such comparison — and the clause was removed. A secondary self-check identified that the original phrasing also introduced a regulation reference (EU 1881/2006) not present in the paper; the Implications text now describes only the comparison the authors themselves draw against "permissible value" in their Table 7.
+- Audit editorial review (general-purpose, 2026-05-30) flagged that the Table 1 max row defect is broader than the initial Zn-only flag — verified against PDF p.422 (25 values across 24 expected cells; tAs row prints 4 values); the bullet above was expanded accordingly.
+- Audit editorial review (general-purpose, 2026-05-30) flagged the Implications clause "consistent with the lower end of the international cheese literature" as a cross-source synthesis claim outside this paper's scope (Part 2 / Part 9 boundary); verified against the source — the paper makes no such comparison — and the clause was removed. A secondary self-check identified that the original phrasing also introduced a regulation reference (EU 1881/2006) not present in the paper; the Implications text now describes only the comparison the authors themselves draw against "permissible value" in their Table 7.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/butter]]
 - [[products/butter-and-ghee]]
@@ -152,13 +151,13 @@ App: Supports flagging ghee as a higher-cumulative-exposure dairy matrix for Pb,
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [70ae1ccdff](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdff) | 2026-05-30 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -80,22 +80,22 @@ Microbiome: Not addressed.
 
 This page was built from the full PDF text, including the sampling-method section, analytical-method section, Table 1 soil-quality grading thresholds, Figure 2 concentration plot, the S1 worked grey-correlation matrix, Table 2 evaluation results, factor-analysis diagnostics, and the conclusion. The PDF does not publish a full numeric S1-S9 concentration table; only the S1 worked example is numerically tabulated in text, while the remaining zone averages are shown in Figure 2. For that reason, this page records exact S1 values and the source-reported max/min pattern from Figure 2 rather than inventing exact S2-S9 values from a visual chart.
 
-Speciation is not reported. Arsenic is routed as total arsenic, chromium as total chromium, and mercury as total mercury. The source states that Cd and Hg values were low or not detectable, but does not provide censoring limits or a numerical Cd/Hg table; the Cd/tHg frontmatter entry marks screening coverage only, not benchmark-ready occurrence values.
+Speciation is not reported. Arsenic is routed as total arsenic, chromium as total chromium, and mercury as total mercury. The source states that Cd and Hg values were low or not detectable, but does not provide censoring limits or a numerical Cd/Hg table; the Cd/tHg source metadata entry marks screening coverage only, not benchmark-ready occurrence values.
 
 No brand names are present. Instrument and vendor names are analytical-method identifiers and are retained as scientific context. The data availability statement says the study data are available on request from the corresponding author and are not publicly available because they involve environmental-status information for Urumqi.
 
-Merge-enhance 2026-06-02: matrices was previously set to `[riparian-soil, riverbank-soil, watershed-soil, environmental-monitoring]`. The controlled matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` only recognises `soil` and `sediment` for non-food/environmental samples. Downgraded to `matrices: [soil]`; the riparian/riverbank framing remains documented in `sample_population` and the page body where it belongs.
+Merge-enhance 2026-06-02: matrices was previously set to `[riparian-soil, riverbank-soil, watershed-soil, environmental-monitoring]`. The controlled matrices vocabulary in the editorial record only recognises `soil` and `sediment` for non-food/environmental samples. Downgraded to `matrices: [soil]`; the riparian/riverbank framing remains documented in `sample_population` and the page body where it belongs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

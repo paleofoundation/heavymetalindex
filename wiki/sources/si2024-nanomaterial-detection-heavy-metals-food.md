@@ -124,7 +124,7 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - 2026-05-18 merge-enhance from v0 (`updated: 2026-05-15`, `raw_handle: papers-cube`). The v0 page captured the three-modality framing correctly but the body contained invented detail not present in the source and deviated from the Part 6 source-page template.
 - `raw_handle:` corrected from `papers-cube` (a folder slug, not an instance handle) to `PCMF_article-1-copy-9` per the manual-fetch convention (`MFK_/MR_/PCMF_` prefixes).
 - `metals:` corrected from `[Pb, Cd, tAs, tHg, Cr, Ni]` to `[Pb, Cd, tHg, Cr-VI, Cu, Zn, Fe]`. (a) `tAs` removed: As is named in the introductory "toxic heavy metal" list (p. 1) but no As-specific sensor is described in Sections 2–4. (b) `Ni` removed: not a detection target anywhere in the review. (c) `Cr` refined to `Cr-VI`: the cited Cr-detection sensors (Song et al. 2022 SACe-N-C; Zhang et al. 2023a N-BCDs) detect Cr(VI) specifically. (d) `tHg` retained: cited Hg sensors detect Hg(II) / total ionic mercury, not MeHg. (e) `Cu`, `Zn`, `Fe` added: these are detection targets in multiple cited sensors (AuNPs for Cu/Hg; LGC-AuNPs and CDs for Zn; MSA-AuNPs and SACe-N-C for Fe).
-- `ingredients:` populated from `[]` to a list of slugs matching the food matrices in which the cited sensors were validated (rice, wheat, corn, milk-and-dairy, honey, tea, water, fruit-juice, leafy-vegetables, fruits, vegetables). All slugs verified against `wiki/ingredients/`. Per the routing-layer convention this signals where the source touches the corpus; it does not claim the review measures contamination in those ingredients.
+- `ingredients:` populated from `[]` to a list of slugs matching the food matrices in which the cited sensors were validated (rice, wheat, corn, milk-and-dairy, honey, tea, water, fruit-juice, leafy-vegetables, fruits, vegetables). All slugs verified against the linked reference record. Per the routing-layer convention this signals where the source touches the corpus; it does not claim the review measures contamination in those ingredients.
 - `products:` left `[]`. As a methods review the source does not report product-category occurrence data and should not route to product-category pages as direct evidence.
 - `jurisdictions:` populated from `[]` to `[CN]`. All four authors are at Beijing University of Chemical Technology and the cited primary literature is heavily weighted toward Chinese institutions; no WHO-specific regulatory benchmarking is performed in the body (the WHO drinking-water limit is mentioned once in passing for Fe(III), insufficient for a `WHO` jurisdiction tag).
 - `license:` clarified from `CC BY` to `CC BY 4.0` per the article first-page copyright block.
@@ -134,18 +134,18 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - Brand firewall (Part 12): the review names no food brands. No firewall edits required.
 - Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. Edit direction: toward the literature (correcting away from invented detail), not toward HMTc convenience.
 - Speciation discipline: Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
-- Audit subagent (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in frontmatter metals — verified against `wiki/metals/iron.md` and added.
+- Audit editorial review (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in source metadata metals — verified against the linked reference record and added.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

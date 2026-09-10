@@ -55,19 +55,19 @@ This source contributes Iraq-market noodle occurrence ranges plus per-sample dis
 - All metal ranges and per-sample distribution statistics in Key numbers were checked against the abstract, Section 3.3, and Figures 4-6. Units are preserved as `ppm`; no conversion to mg/kg or ppb was performed. The figure-derived per-sample values are: Cu 0.82, 0.65, 1.23, 0.80, 1.21, 0.86, 0.76, 0.50, 0.98, 1.08; Cd 0.14, 0.16, 0.19, 0.08, 0.31, 0.09, 0.16, 0.05, 0.12, 0.10; Pb all <0.1 ppm.
 - Speciation: Cu, Cd, and Pb are reported as total elements. The paper does not report arsenic, mercury, chromium, or metal speciation.
 - Brand firewall: the source's Section 2.1 sample list contains 10 flavor or product descriptors, one of which embeds a brand identifier. The wiki page reports the range and distribution statistics across the 10 samples but does not pair per-sample values with their descriptors, so no brand attribution attaches to any contamination value (Part 12).
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new slug was invented.
+- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 - 2026-06-09 autonomous audit: GPT-style 5-check audit returned PROMOTE with one ⚠️ on figure readability. Independent verification confirmed Figures 4-6 do show readable per-sample bar values; Key numbers, Implications, and Verification notes updated to add per-sample distribution statistics for Cu (n=10) and Cd (n=10) and to clarify the Part 12 reasoning for not pairing per-sample values with descriptors. Numerical fidelity, slug vocabulary, speciation/methods, and wiki/HMTc firewall checks all clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

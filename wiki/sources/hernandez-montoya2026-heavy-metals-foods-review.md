@@ -163,7 +163,7 @@ Scoping review following the PRISMA-ScR (Preferred Reporting Items for Systemati
 - Cantoral et al. 2024 Pb-in-Mexican-foods data (cited at ref [50] in the review, page 18) was missing in the prior page — added under "Reported food-matrix concentrations".
 - WHO and EFSA exposure benchmarks (As 10 ppb, Hg 1 µg/L, Pb 5 µg/dL, Cd TWI 2.5 µg/kg bw, Cd absorption fractions) were missing — added.
 - The "Wiki pages updated on ingest" section had three broken regulation wikilinks: `regulations/codex-cxs-193-1995` (no general page exists; nearest existing slug is `codex-cxs-193-1995-tin-canned-foods`, which is tin-specific and not appropriate), `regulations/eu-1881-2006` (correct slug: `eu-1881-2006-contaminants-superseded`), `regulations/eu-2023-915` (split into `eu-2023-915-cadmium` and `eu-2023-915-lead-infant-young-child-foods`). The codex-cxs-193-1995 general-standard target was dropped (no canonical page); replaced with `codex-cadmium-mls` and `efsa-cadmium-twi` which exist and which the review references. The other two were corrected to valid slugs.
-- `jurisdictions:` field used `codex` as a token; this is not the standard ISO/region vocabulary used across `wiki/sources/`. Replaced with `international` (used in 34 sibling source pages).
+- `jurisdictions:` field used `codex` as a token; this is not the standard ISO/region vocabulary used across the linked reference record. Replaced with `international` (used in 34 sibling source pages).
 - Ingredients expanded from rice/cereals/vegetables/seafood to include the additional broad slugs the review centrally discusses (leafy-vegetables, fish, legumes, chocolate, spices, water) — all present in the taxonomy snapshot.
 - Section heading "Wiki pages updated on ingest" renamed to "Wiki pages this source may touch" (current convention; the prior heading is the legacy form).
 
@@ -171,9 +171,9 @@ Scoping review following the PRISMA-ScR (Preferred Reporting Items for Systemati
 
 **Methylmercury speciation flag preserved.** The review explicitly distinguishes total Hg vs MeHg in fish (Codex 193-1995 Rev. 2024 sets 0.50 mg/kg total Hg for fish generally vs 1.0–1.7 mg/kg MeHg for large predatory species). Both `tHg` and `MeHg` are retained in `metals:`.
 
-**`matrices:` vocabulary.** The frontmatter retains the prior page's `[dietary-intake, food, food-general]` tokens. `dietary-intake` is used across 30+ sibling source pages; `food` and `food-general` are non-standard but functional placeholders that flag this page as topic-agnostic (no single commodity matrix is the focus). The 2026-05-28 fresh-context audit flagged these as advisory-only (not in the typical matrix vocabulary, no `## Verification notes` entry); this note documents the deliberate broad-scope choice for a scoping review with no commodity-specific measurements.
+**`matrices:` vocabulary.** The source metadata retains the prior page's `[dietary-intake, food, food-general]` tokens. `dietary-intake` is used across 30+ sibling source pages; `food` and `food-general` are non-standard but functional placeholders that flag this page as topic-agnostic (no single commodity matrix is the focus). The 2026-05-28 fresh-context audit flagged these as advisory-only (not in the typical matrix vocabulary, no `## Verification notes` entry); this note documents the deliberate broad-scope choice for a scoping review with no commodity-specific measurements.
 
-**2026-05-28 audit application.** Subagent verdict REVISE with two ⚠️ concerns, zero ❌ definite errors. Findings applied:
+**2026-05-28 audit application.** editorial review verdict REVISE with two ⚠️ concerns, zero ❌ definite errors. Findings applied:
 - Hg-25-µg/L sentence: prior wiki phrasing "environmental samples" was not supported by the source; PDF page 19 frames the figure within the WHO drinking-water 1 µg/L paragraph. Wording tightened to reflect the source framing.
 - `matrices:` vocabulary: documented above as deliberate broad-scope choice (no source change required; verification-notes entry added per audit recommendation).
 
@@ -182,13 +182,13 @@ No findings rejected.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [f992813e1](https://github.com/paleofoundation/heavymetalindex/commit/f992813e1) | 2026-05-28 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f992813e14](https://github.com/paleofoundation/heavymetalindex/commit/f992813e14) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

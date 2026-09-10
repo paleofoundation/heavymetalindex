@@ -129,7 +129,7 @@ Several risk-characterisation statements are FSANZ's own source-side conclusions
 
 ## Verification notes
 
-- Codex merge-enhanced this page on 2026-05-18 from manual-fetch PDF P0160. The P0160 PDF SHA-256 (`529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f`) is byte-identical to the earlier raw report path `raw/reports/fsanz2019-25th-australian-total-diet-study.pdf`; this is a provenance merge, not a true duplicate conflict.
+- Codex merge-enhanced this page on 2026-05-18 from manual-fetch PDF P0160. The P0160 PDF SHA-256 (`529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f`) is byte-identical to the earlier raw report path the archived source file; this is a provenance merge, not a true duplicate conflict.
 - Legacy wording said "half the LOR used" for all non-detects. Source methods instead use lower-bound nd=0 and upper-bound nd=LOR scenarios for metal dietary exposure, while international comparison tables may use source-specific middle-bound values for comparator datasets. Methods and Key numbers were corrected accordingly.
 - The cadmium dietary-exposure paragraph on p. 42 reports the upper-bound P90 range as "8.8-20 µg/kg bw/day" while the section, PTMI comparator, and adjacent values are monthly. This page records the printed range and flags the unit conflict rather than silently normalizing it.
 - The source's "acceptably low," "not of concern," and fish-consumption-benefit statements are source-side FSANZ risk characterisation. This source page frames them as FSANZ findings and avoids consumer advice or HMT&C threshold recommendations.
@@ -139,13 +139,13 @@ Several risk-characterisation statements are FSANZ's own source-side conclusions
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

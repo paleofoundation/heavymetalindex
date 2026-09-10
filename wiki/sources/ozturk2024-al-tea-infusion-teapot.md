@@ -96,18 +96,17 @@ App: For consumer-facing exposure estimation, infusion-basis Al concentrations a
 
 Microbiome: Not addressed in this paper.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[metals/aluminum]]
 - [[ingredients/tea]]
 - [[products/tea-infusions]]
 
 ## Verification notes
 
-Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
+Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
 
-- **Corrected metal wikilink slug.** Prior revision linked `[[metals/aluminium]]` (British spelling); the canonical metal page is `wiki/metals/aluminum.md` (US spelling, per the existing taxonomy). Changed the wikilink to `[[metals/aluminum]]`. The frontmatter symbol `Al` was already correct.
-- **Stripped invented ingredient sub-slugs.** Prior `ingredients:` array included `[[ingredients/green-tea]]`, `[[ingredients/black-tea]]`, and `[[ingredients/white-tea]]` — none of those pages exist in the current taxonomy (only `wiki/ingredients/tea.md`, which lists `green-tea`, `black-tea`, and `oolong-tea` as aliases). Per (5-paper threshold for sub-variant page creation) and the verification checklist taxonomy rule, the array now contains only the existing umbrella slug `[[ingredients/tea]]`. The tea-type granularity (black/green/white) is fully preserved in the Key numbers prose and Table 1 rendering. The "Wiki pages updated on ingest" list was correspondingly trimmed.
+- **Corrected metal wikilink slug.** Prior revision linked `[[metals/aluminium]]` (British spelling); the canonical metal page is the linked reference record (US spelling, per the existing taxonomy). Changed the wikilink to `[[metals/aluminum]]`. The source metadata symbol `Al` was already correct.
+- **Stripped invented ingredient sub-slugs.** Prior `ingredients:` array included `[[ingredients/green-tea]]`, `[[ingredients/black-tea]]`, and `[[ingredients/white-tea]]` — none of those pages exist in the current taxonomy (only the linked reference record, which lists `green-tea`, `black-tea`, and `oolong-tea` as aliases). Per (5-paper threshold for sub-variant page creation) and the verification checklist taxonomy rule, the array now contains only the existing umbrella slug `[[ingredients/tea]]`. The tea-type granularity (black/green/white) is fully preserved in the Key numbers prose and Table 1 rendering. The "Wiki pages updated on ingest" list was correspondingly trimmed.
 - **Corrected truncated `raw_path`.** Prior revision ended at "Determination of aluminium concentrations in black, green, and wh.pdf"; the actual filename ends with "...white tea samples_ effects of different infusion times and teapot species on aluminium.pdf". Restored the full filename.
 - **Expanded Key numbers to a per-condition rendering.** Prior revision reported only overall, time-margin, and teapot-margin means. The merged page lays out all 43 tabulated condition-level means (Table 1), preserving the paper's full 3 × 5 × 3 design. This makes the per-cell numerical fidelity auditable and reproducible without back-reference to the PDF.
 - **Documented paper-internal precision discrepancy.** The body text on p. 3 reports the overall range as "38.46 ± 5.08 to 845.75 ± 11.14 µg/L"; Table 1 shows the green-tea/steel/15-min cell as "844.8 ± 10.9". This is a paper-internal precision difference, not a wiki-side error. The page now notes the discrepancy explicitly. The abstract reports "38.46 ± 5.08 to 844.75 ± 10.86 µg/L", consistent with the table at low precision. Following the precedent set by other autonomous-cycle merges, the page reports the body-text overall range and notes the discrepancy in line.
@@ -119,13 +118,13 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

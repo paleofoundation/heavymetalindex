@@ -10,6 +10,7 @@ import railLdScript from "./scripts/railLd.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import shareScript from "./scripts/railShare.inline"
 import { KAREN, OrcidIdIcon } from "./authorIdentity"
+import { publicDataDownloads } from "../../tools/lib/public-data-downloads.mjs"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
 //
@@ -150,6 +151,8 @@ export default (() => {
     // Static assets are not page slugs, so they resolve from the site root the
     // way Head.tsx does rather than through resolveRelative's slug logic.
     const asset = (to: string) => joinSegments(slug ? pathToRoot(slug) : ".", to)
+    const dataDownloads = publicDataDownloads(fileData.frontmatter?.data_downloads)
+    const manifestUrl = `/api/evidence-packet?slug=${encodeURIComponent(String(slug ?? ""))}&format=json&download=1`
 
     return (
       <>
@@ -170,9 +173,8 @@ export default (() => {
           <div class="rail-reuse-title">Reuse this page</div>
           <div class="rail-reuse-body">
             {hasRefs ? <a href="#references">Citation and references</a> : null}
-            <a href={asset("static/evidence-packet-index.json")}>
-              Structured evidence export (JSON)
-            </a>
+            {dataDownloads.map((entry) => <a href={asset(entry.path)} download>{entry.label}</a>)}
+            <a href={manifestUrl}>Page evidence manifest (JSON)</a>
             {/* METHOD.md §5 specifies a DISCLOSURE here, not a link — which is
                 what makes it buildable. v3 drives it with its own `toggleLd`
                 runtime and the repo has none, but the data is already on the
@@ -184,7 +186,6 @@ export default (() => {
               <summary>Structured data (JSON-LD)</summary>
               <pre class="rail-ld-panel" />
             </details>
-            <a href={`/api/evidence-packet?slug=${slug ?? ""}`}>Evidence packet (PDF)</a>
             <a href={rel("licensing")}>Licensing and downstream use</a>
           </div>
         </div>

@@ -76,18 +76,18 @@ Atomic absorption spectrophotometer (Chemito Technologies AA-203, slit width 0.5
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, added measured Co, corrected fruit ingredient slugs, and fixed Key-number ranges/highest Pb/SPI against the thesis abstract and Chapter 4 result tables.
 - 2026-05-19 merge-enhance pass against full PDF (pages 33–59): disambiguated single-factor PI (≈0.87 for Pb T19 banana) from SPI (0.9001 for T19; 0.8726 for T24 banana at Meena Bazar), added the 0.028 minimum SPI (T8 orange at Agora), expanded Methods with the specific AAS instrument (Chemito AA-203), digestion protocol (HNO₃/H₂O₂, 95–125°C), drying schedule, ANOVA/DMRT statistical workflow, and the BARI/SAU lab split. Brand-firewall (Part 12) re-checked: the named "shops" (Shwapno, Agora, Prince Bazar, Kawran Bazar, Meena Bazar) are retail sampling locations in Dhaka, not brand owners of the loose-commodity fruit, so site naming remains in scope for synthesis routing.
-- Fresh-context audit subagent (2026-05-19) flagged a ⚠️ concern that the source itself is internally inconsistent on AAS model — §3.5.2 reports the Chemito AA-203 used for sample readings, while §3.6 mentions an "AA-7000" for validation. Verified against the PDF; AA-203 is the operative reading instrument. Added a one-line clarifying parenthetical to Methods so a reader cross-checking against the thesis does not stumble. Verdict: PROMOTE; 1 ⚠️ applied, 0 ❌ findings.
+- Fresh-context audit editorial review (2026-05-19) flagged a ⚠️ concern that the source itself is internally inconsistent on AAS model — §3.5.2 reports the Chemito AA-203 used for sample readings, while §3.6 mentions an "AA-7000" for validation. Verified against the PDF; AA-203 is the operative reading instrument. Added a one-line clarifying parenthetical to Methods so a reader cross-checking against the thesis does not stumble. Verdict: PROMOTE; 1 ⚠️ applied, 0 ❌ findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

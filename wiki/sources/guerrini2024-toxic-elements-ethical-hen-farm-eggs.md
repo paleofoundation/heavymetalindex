@@ -62,8 +62,7 @@ App: Supports egg ingredient context, with clear labels for wet-weight units, ma
 
 Microbiome: Not addressed in this study.
 
-## Wiki pages updated on ingest
-
+## Related evidence
 - [[ingredients/eggs]]
 - [[products/eggs-product]]
 - [[metals/lead]]
@@ -72,22 +71,22 @@ Microbiome: Not addressed in this study.
 
 ## Verification notes
 
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
 - DOI identity check matched the existing source page; no duplicate source page was found.
-- Replaced the older `manual-fetch-kimi` handle, truncated raw path, empty product route, and generic arsenic/mercury wikilinks with current provenance and controlled routes.
+- Replaced the older `manual-fetch-source-retrieval` handle, truncated raw path, empty product route, and generic arsenic/mercury wikilinks with current provenance and controlled routes.
 - Corrected the supermarket albumen-Hg note: the 1.077 ± 3.70 mg/kg value is S2, not S1.
 - Left `matrices` blank because the source's measured compartments are egg yolk, albumen, and eggshell, and those matrix terms are not in the current controlled matrix list.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [3ae722f0a](https://github.com/paleofoundation/heavymetalindex/commit/3ae722f0a) | 2026-05-30 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [3ae722f0ad](https://github.com/paleofoundation/heavymetalindex/commit/3ae722f0ad) | 2026-05-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

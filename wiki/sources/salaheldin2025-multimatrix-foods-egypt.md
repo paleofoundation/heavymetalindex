@@ -138,20 +138,20 @@ App: Adds occurrence data points for the following ingredient-metal pairs in Egy
 - Total mass percentages in Table 1's "Overall heavy metals content" row are computed across all 54 samples; Pb 72% + Cd 12.9% + Cr 10.7% + tAs 4.5% = 100.1% (rounding artifact in source).
 - Arsenic is reported as total As only; no inorganic speciation, so `tAs` used throughout. Chromium total only; no Cr-VI speciation.
 - LOQ of As applied where As was undetected in HQ/CR calculations (Tables 3 and 4 footnote).
-- Audit subagent (2026-06-03) flagged the abstract paragraph and exceedance recap as misattributing the 10 µg/kg threshold to all three Pb categories; verified against PDF p. 5 — the threshold is category-specific (Pb 10 µg/kg in CSD/ED, 20 µg/kg in milk/dairy, 100 µg/kg in canned beef/luncheon; Cd 10 µg/kg in CSD/ED, 50 µg/kg in luncheon; tAs 10 µg/kg in luncheon). Corrected.
-- Audit subagent flagged a Cr/As metal mix-up: the page originally stated "Cr above the 50 µg/kg limit in 100% of luncheon samples." PDF p. 5 actually says "As exceeded limits (10 µg/kg) in 50% of luncheon samples." Corrected.
-- Audit subagent flagged dairy-milk tAs range "3.5–4.5" as fabricated; verified Table 1 reports range as "4" only. Corrected.
+- Audit editorial review (2026-06-03) flagged the abstract paragraph and exceedance recap as misattributing the 10 µg/kg threshold to all three Pb categories; verified against PDF p. 5 — the threshold is category-specific (Pb 10 µg/kg in CSD/ED, 20 µg/kg in milk/dairy, 100 µg/kg in canned beef/luncheon; Cd 10 µg/kg in CSD/ED, 50 µg/kg in luncheon; tAs 10 µg/kg in luncheon). Corrected.
+- Audit editorial review flagged a Cr/As metal mix-up: the page originally stated "Cr above the 50 µg/kg limit in 100% of luncheon samples." PDF p. 5 actually says "As exceeded limits (10 µg/kg) in 50% of luncheon samples." Corrected.
+- Audit editorial review flagged dairy-milk tAs range "3.5–4.5" as fabricated; verified Table 1 reports range as "4" only. Corrected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [c679df8af4](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af4) | 2026-06-08 | major | 1 section added |
 <!-- END: hmi-page-history -->

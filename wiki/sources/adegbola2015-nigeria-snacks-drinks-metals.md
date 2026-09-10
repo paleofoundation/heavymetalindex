@@ -80,8 +80,8 @@ This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr,
 - Table ranges were checked against Tables 1-4. Units are preserved as printed (`mg/l` in Table 1 and `mg/L` in Tables 2-4); no unit conversions were performed.
 - Speciation: chromium is total Cr only. The source does not report Cr-VI, arsenic, mercury, or methylmercury.
 - Brand firewall: the text states that popular brands were sampled, but the tables use coded sample IDs. This page reports product-group ranges only and does not attach public brand names to values.
-- Calcium was measured and is included in frontmatter as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
-- Frontmatter product and ingredient slugs were checked against `docs/gpt-collaboration/taxonomy-snapshot.md`; no new product or ingredient slug was invented.
+- Calcium was measured and is included in source metadata as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
+- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
 - Source-internal sample-count discrepancy: the abstract and methods narrative state 12+6+11+5=34 brands, but the four tables show 12+6+12+5=35 rows (Table 3 lists C1-C12 = 12 milk-candy and fruit-concentrate samples, while the methods describe 11 fruit-and-flavoured concentrate brands). This page follows the source's stated total (34) and reports the per-table n from the table rows; the source itself is internally inconsistent on the total.
 - Source-internal discussion-text inconsistency (noted, not propagated): the discussion text states "Highest lead concentration was found in sample A2 (0.39±0.052 mg/kg)" but Table 1 shows A1=0.90±0.069 is the highest Pb in sweets. This page uses the table values, not the discussion-text claim. The CAC (2003) compliance statements quoted from the discussion remain accurate to the source's wording (the CAC permissible-limit claims do not depend on which sample was the maximum).
 - 2026-06-09 audit (autonomous): REVISE verdict. Numerical fidelity ✅ across all four tables; methods ✅; speciation ✅; brand firewall ✅; HMTc firewall ✅. The audit's only ❌/⚠️ concerns were the source-internal sample-count discrepancy (added to verification notes here) and a flag on `matrices:` vocabulary. The matrices flag was a false positive: per existing wiki convention `matrices:` is a free-form descriptive vocabulary listing the physical sample types in the source, not a closed slug list like `products:` or `ingredients:`, and product/matrix overlap (e.g., `carbonated-drinks` matrix vs `soft-drinks-carbonated-beverages` product) is expected — the two vocabularies serve different purposes (what was sampled vs HMTc routing).
@@ -89,13 +89,13 @@ This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr,
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
+| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab217](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab217) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
