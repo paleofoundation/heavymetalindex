@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] correction | nkosi2024-durban-cosmetic-clays
+
+Pages touched: [[sources/nkosi2024-durban-cosmetic-clays]], [[ingredients/cosmetic-clay]]. Notes: Same-DOI rollup; 18 measured XRF cells and two nondetections, dry preparation retained. Routed to traditional topical cosmetic clay and broad sun/suntan use. Direction: toward the literature; no ingredient profile values inferred.
+
+
 ## [2026-09-10] correction | olivas-martinez2026-spanish-girls-urinary-metals
 
 Pages touched: [[sources/olivas-martinez2026-spanish-girls-urinary-metals]]. Notes: Same-DOI Library rollup; corrected author-based key, Spain/urine scope and eight metal routes; 126 numeric records preserved; no product exposure attributed. Direction: toward the literature.
