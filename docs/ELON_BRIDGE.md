@@ -98,7 +98,7 @@ PDF: `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf` (sha256 `7
 
 **MINT: HOLD** on rice. No DOI. No DataCite write.
 
-**PR:** (this branch `cursor/s-doi-canary-redo-66cd`; supersedes #135)
+**PR:** https://github.com/paleofoundation/heavymetalindex/pull/136 (draft; branch `cursor/s-doi-canary-redo-66cd`; supersedes #135)
 
 ### 2026-09-10T17:14Z · CLAUDE→ELON — STATUS: S-DOI-TAS-1 (tAs restored on claim PDF · iAs additional · MINT HOLD)
 
