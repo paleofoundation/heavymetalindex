@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] certification | s-doi-tas-1 — freeze PDF prints tAs and iAs
+
+Pages touched: `tools/standards/freeze-standard-version.mjs`, `tools/standards/hmtc-analyte-panel.mjs`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf`, `docs/ELON_BRIDGE.md`.
+Notes: Freeze ANALYTES had iAs in the tAs slot, so the v1.1 claim PDF printed only Inorganic arsenic 100 FDA and labeled the panel 8/8 analytes. v1.2 prints Total arsenic (tAs) 50 India gov_floor and Inorganic arsenic (iAs) 100 FDA gov_floor. Header is 8/8 totals plus iAs. Freeze fails if any total is missing or if iAs is published without tAs. No DOI minted. Direction: toward the literature (species does not replace parent total).
+
 ## [2026-09-10] schema | part-19-claim-numeric-ias — baby-cereals-dry-rice-based iAs 100
 
 Pages touched: CLAUDE.md Part 19, AGENTS.md live lock, `tools/standards/compile-cat1.mjs`, `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.1/standard.pdf`, `docs/ELON_BRIDGE.md`.

@@ -66,6 +66,11 @@ import {
 import { join, dirname, resolve, relative } from "node:path"
 import { fileURLToPath } from "node:url"
 import { registerFonts } from "../pdf/fonts.mjs"
+import {
+  claimAnalytesFor,
+  assertClaimPanel,
+  claimHeaderLine,
+} from "./hmtc-analyte-panel.mjs"
 
 registerFonts()
 const h = React.createElement
@@ -73,18 +78,6 @@ const h = React.createElement
 const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "../..")
 const SCHEMA = "hmtc-freeze-manifest/v1"
 const TOOL = "tools/standards/freeze-standard-version.mjs"
-
-// ── standard vocabulary (mirrors tools/standards/build-cert-standard-pages.mjs) ─
-const ANALYTES = [
-  { key: "Pb", disp: "Lead (Pb)", tier: "Tier 1" },
-  { key: "iAs", disp: "Inorganic arsenic (iAs)", tier: "Tier 1" },
-  { key: "Cd", disp: "Cadmium (Cd)", tier: "Tier 1" },
-  { key: "tHg", disp: "Mercury (tHg)", tier: "Tier 1" },
-  { key: "Ni", disp: "Nickel (Ni)", tier: "Tier 2" },
-  { key: "Al", disp: "Aluminium (Al)", tier: "Tier 2" },
-  { key: "Sn", disp: "Tin (Sn)", tier: "Tier 2" },
-  { key: "Cr", disp: "Total chromium (Cr)", tier: "Tier 2" },
-]
 const JURIS = {
   EU: "European Union", UK: "United Kingdom", CODEX: "Codex Alimentarius",
   CA: "Canada", CN: "China", IN: "India", BR: "Brazil", KR: "South Korea",
@@ -168,15 +161,15 @@ const P = (text, s = st.para, key) => h(Text, { key, style: s }, text)
 const breakable = (s) => String(s || "").replace(/_/g, "_​").replace(/-/g, "-​")
 
 // ── PDF model from the compiled standard JSON ─────────────────────────────────
-function cellsFor(variantObj) {
-  return ANALYTES.map((a) => ({ ...a, cell: variantObj[a.key] || null })).filter((x) => x.cell)
+function cellsFor(std, variantObj) {
+  return claimAnalytesFor(std, variantObj).map((a) => ({ ...a, cell: variantObj[a.key] || null }))
 }
 
-function limitsTable(variantObj, key) {
-  const rows = cellsFor(variantObj).map((x) => {
+function limitsTable(std, variantObj, key) {
+  const rows = cellsFor(std, variantObj).map((x) => {
     const c = x.cell
-    if (c.value == null) {
-      throw new Error(`freeze: claim cell ${x.key} has no numeric value (type=${c.type}); CLAUDE.md Part 19 forbids monitored/null claim cells`)
+    if (!c || c.value == null) {
+      throw new Error(`freeze: claim cell ${x.key} has no numeric value (type=${c?.type}); CLAUDE.md Part 19 forbids monitored/null claim cells`)
     }
     const limit = String(c.value)
     const rationale = c.type === "gov" ? "gov_floor" : c.type === "read_across" ? "read_across" : null
@@ -200,9 +193,9 @@ function limitsTable(variantObj, key) {
   )
 }
 
-function derivationTable(variantObj, key) {
+function derivationTable(std, variantObj, key) {
   const rows = []
-  for (const x of cellsFor(variantObj)) {
+  for (const x of cellsFor(std, variantObj)) {
     const c = x.cell
     const pc = c.per_country || {}
     const entries = Object.entries(pc).sort((a, b) => (a[1].value ?? Infinity) - (b[1].value ?? Infinity) || a[0].localeCompare(b[0]))
@@ -228,12 +221,8 @@ function derivationTable(variantObj, key) {
 function StandardDocument(m) {
   const std = m.std
   const variants = Object.keys(std.variants || {})
-  const panel = ANALYTES.length
-  // "firm" = analytes with a numeric limit in the first variant (all, in cat1)
-  const firmOf = (v) => cellsFor(std.variants[v]).filter((x) => x.cell.value != null).length
-  const firm = variants.length ? Math.max(...variants.map(firmOf)) : 0
-
   const variantLabel = (v) => (v === "cow" ? "Cow-milk based" : v === "soy" ? "Soy based" : v)
+  const headerCounts = claimHeaderLine(std)
 
   const children = [
     h(View, { key: "mr", style: st.mastheadRow }, [
@@ -245,7 +234,7 @@ function StandardDocument(m) {
     h(
       Text,
       { key: "ver", style: st.versionLine },
-      `Version ${m.version}${m.effectiveDate ? `  ·  Effective ${m.effectiveDate}` : ""}  ·  Native basis: ${std.native_basis}  ·  ${firm}/${panel} analytes with a published limit`,
+      `Version ${m.version}${m.effectiveDate ? `  ·  Effective ${m.effectiveDate}` : ""}  ·  Native basis: ${std.native_basis}  ·  ${headerCounts}`,
     ),
     h(View, { key: "rule", style: st.ruleBurgundy }),
 
@@ -282,10 +271,10 @@ function StandardDocument(m) {
 
   // Certification limits, per variant
   children.push(h(Text, { key: "sh1", style: st.sectionHead }, "1  |  Certification limits"))
-  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, iAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
+  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, tAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Inorganic arsenic (iAs) is an additional species claim on rice, infant, and baby-cereal pathways; it never replaces total arsenic. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
   for (const v of variants) {
     children.push(h(Text, { key: `lh-${v}`, style: st.h3 }, variantLabel(v)))
-    children.push(limitsTable(std.variants[v], `lt-${v}`))
+    children.push(limitsTable(std, std.variants[v], `lt-${v}`))
   }
 
   // Per-jurisdiction derivation, per variant
@@ -293,7 +282,7 @@ function StandardDocument(m) {
   children.push(P(`The binding value for each analyte is the lowest sovereign maximum level across the jurisdictions on record, in the native basis. Rows marked "converted" were set by the jurisdiction in the other basis and carried across the reconstitution ratio; rows marked "native" were already in this basis. Every value is keyed to its record in the sovereign register.`, st.note, "sh2n"))
   for (const v of variants) {
     children.push(h(Text, { key: `dh-${v}`, style: st.h3 }, variantLabel(v)))
-    children.push(derivationTable(std.variants[v], `dt-${v}`))
+    children.push(derivationTable(std, std.variants[v], `dt-${v}`))
   }
 
   // Method and provenance
@@ -427,6 +416,12 @@ async function freeze(slug, args) {
     process.exit(2)
   }
   const std = JSON.parse(readFileSync(jsonPath, "utf8"))
+  try {
+    assertClaimPanel(std)
+  } catch (e) {
+    console.error(e.message)
+    process.exit(2)
+  }
 
   let version = args.flags.version || args._[0] || "1"
   version = String(version).replace(/^v/i, "")
@@ -640,4 +635,7 @@ Env: HMTC_TSA_URL, HMTC_TSA_CA, HMTC_TSA_CA_URL, HMTC_TSA_TIMEOUT_MS`)
   else await freeze(slug, parsed)
 }
 
-main().catch((e) => { console.error(e); process.exit(1) })
+const invokedAsMain = process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])
+if (invokedAsMain) {
+  main().catch((e) => { console.error(e); process.exit(1) })
+}
