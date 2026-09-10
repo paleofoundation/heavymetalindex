@@ -209,22 +209,27 @@
         "per_country": {}
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail.",
-        "basis_class": "method-artifact",
-        "rationale": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "gov",
+        "value": 1000,
+        "value_exact": 1000,
+        "binding_jurisdiction": "HK",
+        "binding_id": "hk_cap132v_crtotal_cereals_1000",
+        "basis_note": "government limit (regulatory-alignment) — Hong Kong Cap 132V item 7 Chromium, \"Cereals\" = 1 mg/kg (1000 ug/kg, total Cr, food as placed on market / as_sold), corroborated by China GB 2762-2022 \"grains and grain products including cereals and milled grain products\" = 1.0 mg/kg. A dry rice-based infant cereal is a cereal/grain product, so these general-cereal total-Cr MLs apply directly on the native as_sold basis; a null/not-material cell would be looser than a verified 1000 ug/kg floor, which the frozen method lock forbids (never blank; lowest applicable finalized government limit binds). Corrected 2026-09-10 under ORDER S-DOI-GRAPH-1 after the diamond-graph canary (independent finder + two adversarial verifiers) refuted the prior not-material determination; Cr(VI) remains bounded beneath this total by reflex speciation (any quantifiable Cr(VI) fails).",
+        "per_country": {
+          "HK": {
+            "value": 1000,
+            "converted": false,
+            "id": "hk_cap132v_crtotal_cereals_1000"
+          }
+        }
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "HK",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
         "candidate": null
       }
     }
