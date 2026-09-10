@@ -5,6 +5,7 @@ import { after, before, describe, test } from "node:test"
 import { getInstalledBrowsers } from "@puppeteer/browsers"
 import { transform } from "esbuild"
 import puppeteer, { type Browser } from "puppeteer"
+import { chromiumLaunchArgs } from "./chromium-launch"
 
 const source = (label = "Smith et al.", slug = "smith2024", attributes = "") =>
   `<a href="../sources/${slug}" data-slug="sources/${slug}" ${attributes}>${label}</a>`
@@ -30,7 +31,11 @@ describe("source citation rendering", () => {
         installed.find((entry) => entry.browser === "chrome")?.executablePath ??
         executablePath
     }
-    browser = await puppeteer.launch({ headless: true, executablePath })
+    browser = await puppeteer.launch({
+      headless: true,
+      executablePath,
+      args: chromiumLaunchArgs(),
+    })
   })
 
   after(async () => {
