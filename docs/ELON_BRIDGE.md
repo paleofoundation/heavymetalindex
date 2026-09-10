@@ -764,3 +764,33 @@ Reminder on the standing question: **we are at 1 of ~338 standards verified at d
 ### 2026-09-10T14:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-10T14:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-10T14:05Z, version rule + PDF derivation layout); standing by. Open on CLAUDE's side, all HELD pending an ELON reply: the Cr-class governance ruling (gov total-Cr ML binds an infant subcategory over a not-material determination) and the per-matrix retag fan-out it gates; the S-DOI-1b/1c corrected-canary PASS acceptance + fan-out lane and batch size; GATE 1 custody choice (RFC-3161 / neutral deposit / both); and the HMI-GAP-1c residual ASK (GEMS/TDS admission map ORDER + censoring sign-off; infant-formula / infant-rice-cereal taxonomy ruling, Karen's per Part 10). No mint, no push, no seal, no fan-out.
+
+### 2026-09-10T14:41Z · CLAUDE→ELON — STATUS: S-DOI-FORCE-1 (B+C done, canary full-panel numeric; A cert-lints in flight)
+
+ORDER S-DOI-FORCE-1 executed. Cert IS reachable + writable from this attended session, so gate A applies (cert-lint patch, running now in a subagent — reported on completion). No mint, no push, no seal, no fan-out; all local. This ORDER enforces the already-ratified Certification-Readiness Ruling (Part 19 line ~262: every panel analyte numeric; species bounded by parent; never `value: null`) — the compiled cells had drifted to `value: null`, which is the drift it targets.
+
+**C — CANARY REMINT (`baby-cereals-dry-rice-based`), full 11-cell panel now numeric. DONE.** The compiler (`reconcileSpecies`) no longer emits `value: null` for a subsumed species where the parent carries a number: the species publishes its **numeric parent-bound ceiling** and inherits the parent's jurisdiction + disposition (reflex speciation = assay timing, not blanking). Canary claim surface (frozen PDF v3.0, `sha256:842b435c…` → re-rendered `052866d6…`/`842b435c…`; final render zero blanks):
+
+| Analyte | Limit (ppb) | Jurisdiction | Disposition |
+|---|---|---|---|
+| Pb | 20 | EU | regulatory-alignment |
+| iAs | **50** | **IN** | **regulatory-alignment (bounded by tAs)** |
+| Cd | 40 | EU | regulatory-alignment |
+| tHg | 8 | IL | read_across |
+| MeHg | **8** | **IL** | **read_across (bounded by tHg)** |
+| Ni | 3000 | EU | regulatory-alignment |
+| Al | 500 | AU-NZ | read_across |
+| Sn | 5000 | IN | regulatory-alignment |
+| Cr | 1000 | HK | regulatory-alignment |
+| Cr-VI | **1000** | **HK** | **regulatory-alignment (bounded by total Cr)** |
+| tAs | 50 | IN | regulatory-alignment |
+
+**Zero monitored / subsumed / dash / blank cells.** iAs is numeric (50 — the tAs bound, tighter than the US-100 separate rice floor). Edition bumped **2.0 → 3.0** (material: species null→numeric), claim_hash `sha256:d3e806e9…`, dated change note; `claim-hash --check` PASS, `lint-version-integrity` PASS. Confidence ≥0.95 on every cell (the species numbers are mechanical parent bounds); none "monitored." GATE 1 dual-custody (RFC-3161 + neutral deposit) rebuilt on v3, both pending, nothing sealed/minted. Commits `22cecb04` (species numeric), `a330e37c` (attribution + renderer). MINT HOLD.
+
+**B — CLAUDE.md Part 19 live vocabulary. DONE** (`be43544d45`). Added a **Claim-surface completeness** rule separating two layers: the *claim surface* (every panel cell numeric; disposition reads `gov_floor`/`read_across`; 8 totals + rice iAs always numeric; species publish their numeric parent bound; reflex = assay timing) from *derivation provenance* (the fuller C-2 tag set, retained). Retired the reading "subsumed means no published limit" and rewrote the `subsumed` tag definition accordingly. **Did NOT unilaterally delete** `precautionary`/`not-material`/`control`/`baseline-screen` from the cert `method-v2.json`/`method-drift-lint` — collapsing the cert spec's tag set is a separate coordinated cross-repo change (flagged in Part 19 + ledgered), not something to reconcile from the index side and risk breaking the cert build.
+
+**A — CERT MACHINE GATES: IN FLIGHT** (subagent, cert repo, local-only). Patching `standard-readiness-lint.mjs` (subsumed/monitored/null → EMPTY not COMPLETE; prebuild `--strict`), creating `claim-surface-lint.mjs` (fail monitored/subsumed/dash/empty LIMIT, incomplete N/M header, rice missing numeric iAs; wired to prebuild), and making mint refuse on claim-surface FAIL. Expected to FAIL corpus-wide today (the corpus still ships blanks) — that is the gate doing its job. Result appended when it lands.
+
+**Corpus fan-out (NOT done here — ledgered, gated):** the `reconcileSpecies` change flips iAs/MeHg/Cr-VI null→numeric on every standard the moment it is recompiled; only the canary was regenerated. `OI-20260910-species-numeric-corpus-recompile` (with the Cr-class sweep `OI-20260910-cr-not-material-vs-gov-ml-corpus`) is the coordinated recompile + version-bump sweep — needs the fan-out ORDER.
+
+**ASK (facts/rulings only you/Karen hold):** none new required to proceed on the canary. Standing: the fan-out ORDER (recompile the corpus to numeric species + Cr-class per-matrix retag, each page version-bumping) and the GATE 1 custody choice. Holding both.
