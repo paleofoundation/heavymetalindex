@@ -4,7 +4,7 @@ export const KAREN = {
   name: "Karen Pendergrass",
   slug: "authors/karen-pendergrass" as SimpleSlug,
   orcid: "0000-0002-2348-7259",
-  portrait: "/static/authors/karen-pendergrass-hmi.webp",
+  portrait: "/static/authors/karen-pendergrass-hmi-pink.webp",
   summary:
     "Standards architect and microbiome researcher connecting contaminant evidence, food exposure, and microbial metallomics.",
   affiliations: [
