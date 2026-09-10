@@ -122,18 +122,16 @@ const MANUAL_FETCH_ROOTS = [
   { root: "raw/Research Pull Ingredient Sweep", handlePrefix: "RPIS" },
   { root: "raw/Research Pull Mercury Deep Dive", handlePrefix: "RPHG" },
   { root: "raw/Research Pull Product Sweep", handlePrefix: "RPPS" },
-  // Remaining research-pull sweeps symlinked 2026-09-10 to close the
-  // geographic / historical / remediation gap: the ingredient sweep and the
-  // per-metal deep dives carry the regional-variance, time-trend/legacy, and
-  // phytoremediation/bioremediation literature that "was always supposed to be
-  // here" but had no watched root. Same gitignored-symlink pattern; the drive's
-  // microbiome-medicine subfolder stays EXCLUDED (MMed/WikiBiome). Codex is the
-  // primary drainer via docs/codex-collaboration/library-ingest-prompt.md.
-  { root: "raw/Research Pull HMI", handlePrefix: "RPHMI" },
-  { root: "raw/Research Pull Arsenic Deep Dive", handlePrefix: "RPIAS" },
-  { root: "raw/Research Pull Methylmercury Deep Dive", handlePrefix: "RPMEHG" },
-  { root: "raw/Research Pull Chromium Deep Dive", handlePrefix: "RPCRVI" },
-  { root: "raw/Research Pull Nickel Deep Dive", handlePrefix: "RPNI" },
+  // NOTE (2026-09-10): the remaining HMI-Library research-pull sweeps
+  // (Research Pull HMI / Arsenic / Methylmercury / Chromium / Nickel Deep Dive)
+  // are DELIBERATELY NOT registered here. That ~4,000-PDF geographic/historical/
+  // remediation backlog is drained ONLY by Codex, via the paste-verbatim prompt
+  // in docs/codex-collaboration/library-ingest-prompt.md (it reads the raw/
+  // symlink paths directly and carries its own handle prefixes). Keeping them
+  // off MANUAL_FETCH_ROOTS ensures a future accidental daemon start cannot point
+  // the expensive Opus path at that backlog. The daemon is dormant by design
+  // after the 2026-06-09 token runaway and is not to be restarted. If it ever is,
+  // add these roots here only with an explicit per-tick cap.
 ]
 
 // Hard cap on auto-fetched PDFs per single daemon tick. The Claude/Opus path

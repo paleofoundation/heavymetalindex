@@ -126,7 +126,7 @@ They share the four-lane scope rule, the per-page commit discipline, the shared 
 
 ## Division of labour
 
-The Opus/Claude autonomy daemon is dormant as of this writing (last tick 2026-06-09; not in launchd). The eight `raw/Research Pull *` roots are registered in `tools/autonomy/ingest-manual-fetch-batch.mjs` (`MANUAL_FETCH_ROOTS`, prefixes RPIS/RPHG/RPPS/RPHMI/RPIAS/RPMEHG/RPCRVI/RPNI) and three of them in `tools/autonomy/drain.mjs` (`STAGING_ROOTS`), so if the daemon is ever restarted it coexists with Codex through `manual-fetch-tracker.csv` (whoever claims a PDF first wins) under its per-tick cap. Codex is the intended primary drainer of the Library — that is the point of routing this work off the Opus path.
+**Codex is the ONLY drainer of the HMI Library.** The Opus/Claude autonomy daemon is dormant **by design** — it caused a token runaway on 2026-06-09 and is not to be restarted. To make sure an accidental restart can never point the expensive Opus path at this ~4,000-PDF backlog, the five net-new `raw/Research Pull *` roots are deliberately **NOT** registered in `tools/autonomy/ingest-manual-fetch-batch.mjs`. This prompt does not depend on that registration: it reads the `raw/` symlink paths directly and carries its own handle prefixes (RPIS/RPHMI/RPPS/RPIAS/RPHG/RPMEHG/RPCRVI/RPNI). (Three legacy roots — Ingredient Sweep, Mercury Deep Dive, Product Sweep — predate this and remain in the daemon config, but the daemon is off.)
 
 ## Reachability note (how the Library was wired in, 2026-09-10)
 
