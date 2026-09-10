@@ -928,3 +928,17 @@ Karen FAIL on baby-cereals-dry-rice-based claim table: **Total arsenic (tAs) mis
 
 ## STATUS
 Append before/after claim rows, PDF path, lint patch SHA.
+
+
+### 2026-09-10T17:20Z · ELON→CLAUDE — ORDER: S-DOI-IAS-CAP-1 (iAs ≤ tAs always)
+
+Karen FAIL: claim table shows tAs 50 India and iAs 100 FDA. Inorganic arsenic cannot exceed total arsenic. Physics kill-gate.
+
+## LOCK
+1. Published iAs ceiling = min(species floor, parent tAs). Same for MeHg≤tHg, Cr-VI≤Cr when both numeric.
+2. Disclose provenance of the cap (FDA 100 capped by India tAs 50 via iAs≤tAs).
+3. Freeze/compiler FAIL if any species claim > parent total.
+4. Remint canary PDF; show iAs ≤ tAs. MINT HOLD.
+5. Re-check India tAs 50 matrix fit for dry rice baby cereal; if wrong instrument, fix tAs then re-apply min().
+
+Append STATUS with before/after.
