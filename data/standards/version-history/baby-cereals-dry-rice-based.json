@@ -3,12 +3,12 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "1.0",
+  "current_version": "2.0",
   "scaffolded": false,
   "versions": [
     {
       "version": "1.0",
-      "status": "current",
+      "status": "superseded",
       "effective_date": "2026-09-09T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -19,7 +19,10 @@
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
         "standard_pdf_sha256": "cc346626cd1f78e6d48b363606c6fa109a4c0e494e2babc31f7a0c398bc3f36b",
-        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
         "note": "S-DOI-1c canary bundle (freeze + deposit-edition) staged locally, NOT shipped to static/, NOT minted, NOT deposited, no cert push. frozen_artifact stays null until custody is actually sealed — the edition is claim-hash-pinned (silent-change-guarded) but not yet frozen-resolvable, so the site never asserts a resolvability it does not provide (Daubert honesty invariant). Timestamp/custody pending by design (offline, verify-don't-fabricate)."
       },
       "change": {
@@ -28,6 +31,59 @@
         "changed_at": "2026-09-09T00:00:00Z",
         "verified_against_commit": "5247f5a293e16ae249a50c701fc420e2b0781f0e"
       }
+    },
+    {
+      "version": "2.0",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "frozen_artifact": null,
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-GRAPH-1 corrected edition. Bundle (freeze + deposit-edition, both custody adapters pending GATE 1) staged locally in the session scratchpad, NOT shipped to static/, NOT minted, NOT deposited, no cert push. frozen_artifact stays null until custody is actually sealed — the edition is claim-hash-pinned (silent-change-guarded) but not yet frozen-resolvable (Daubert honesty invariant)."
+      },
+      "change": {
+        "what_changed": "Total chromium (Cr) cell corrected from not_material/null (reflex Cr-VI control only) to a government limit of 1000 ug/kg (regulatory-alignment, as_sold). Cr-VI remains subsumed beneath the total by reflex speciation; its binding_parent_value moves null → 1000.",
+        "affected_analytes": [
+          {
+            "analyte": "Cr",
+            "old": {
+              "type": "not_material",
+              "value": null
+            },
+            "new": {
+              "type": "gov",
+              "value": 1000,
+              "binding_jurisdiction": "HK",
+              "binding_id": "hk_cap132v_crtotal_cereals_1000"
+            }
+          },
+          {
+            "analyte": "Cr-VI",
+            "old": {
+              "binding_parent_value": null
+            },
+            "new": {
+              "binding_parent_value": 1000
+            }
+          }
+        ],
+        "government_instruments": [
+          "Hong Kong Cap 132V Food Adulteration (Metallic Contamination) Regulations, item 7 Chromium, Cereals = 1 mg/kg",
+          "China GB 2762-2022, grains and grain products including cereals and milled grain products, Cr = 1.0 mg/kg"
+        ],
+        "why": "S-DOI-GRAPH-1 diamond-graph method canary (independent per-cell finder + two perspective-diverse adversarial verifiers, corroborating at 0.90/0.95) refuted the prior not-material determination: two finalized in-force sovereign total-Cr MLs for cereals on the exact as_sold basis already existed in the register, and a dry rice-based infant cereal is a cereal/grain product. Under the frozen method lock a null ceiling is looser than a verified 1000 floor (never blank; lowest applicable finalized government limit binds), so the not-material/null cell was a method-lock violation.",
+        "changed_at": "2026-09-10T00:00:00Z",
+        "verified_against_commit": "6a4a7d3706c3edfb52e8c231ec3d2129a5e024e0"
+      },
+      "claim_hash": "sha256:3f43df5140cbb88c0853f6942480c49dd532d5425effcefc367b2a7746391065"
     }
   ]
 }
