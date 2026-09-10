@@ -337,11 +337,20 @@ function reconcileSpecies(cells, species, parent) {
   const boundStmt = parentNumeric
     ? `the binding ${PARENT_LABEL[parent]} ceiling (${p.value} µg/kg)`
     : `the ${PARENT_LABEL[parent]} determination (reflex speciation: any quantifiable ${species} fails)`
+  // The species inherits its parent's attribution: the number IS the parent's ceiling,
+  // set by the parent's jurisdiction and disposition (gov floor / read-across). So the
+  // claim surface shows a real jurisdiction and disposition, not a "—"/"subsumed" blank.
+  const parentJur = p ? (p.binding_jurisdiction || p.source_jurisdiction || null) : null
+  const parentDisposition = p && p.type === "gov" ? "regulatory-alignment"
+    : p && p.type === "read_across" ? "read_across"
+    : (p && p.type) || "reflex-control"
   cells[species] = {
     type: "subsumed",
     value: parentNumeric ? p.value : null,
     value_exact: parentNumeric ? (p.value_exact ?? p.value) : null,
     subsumed_by: parent,
+    binding_jurisdiction: parentNumeric ? parentJur : null,
+    claim_disposition: parentNumeric ? parentDisposition : "reflex-control",
     binding_parent_value: parentNumeric ? p.value : null,
     binding_parent_source: p ? (p.binding_jurisdiction || p.source_jurisdiction || (p.type === "not_material" ? "reflex-speciation control" : null)) : null,
     basis_note: parentNumeric

@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "2.0",
+  "current_version": "3.0",
   "scaffolded": false,
   "versions": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "version": "2.0",
-      "status": "current",
+      "status": "superseded",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -85,6 +85,63 @@
         "non_material_note": "basis_note/label prose trimmed for layout on 2026-09-10 — NOT a version bump (schema v2 excludes free-text prose from the claim hash); claim_hash re-recorded under algorithm v2 (same certification content: Cr 1000 gov HK)."
       },
       "claim_hash": "sha256:63ee4bf3b851659f800fe1208fb7b63ad9d58c4b5185b656d031751d4ccf2db2"
+    },
+    {
+      "version": "3.0",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:d3e806e9cc46cd4df19507e78aa8fcd991f1d4f5b5fafbe4b3574c401a3acd5b",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
+      "frozen_artifact": null,
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-FORCE-1 full-panel-numeric edition. Bundle staged locally in session scratchpad, NOT static/, NOT minted, NOT deposited, no push. frozen_artifact null until custody sealed."
+      },
+      "change": {
+        "what_changed": "Speciated analytes now publish their numeric parent-bound ceiling instead of value:null — iAs 50 (bounded by tAs), MeHg 8 (bounded by tHg), Cr-VI 1000 (bounded by total Cr). All are reflex-assayed (measured only when the parent total is exceeded). Full 11-cell panel is now numeric; zero blank/monitored/subsumed-blank cells. Species cells also carry inherited attribution (binding_jurisdiction + claim_disposition from the parent) so the claim surface shows a real jurisdiction/disposition, not a blank.",
+        "affected_analytes": [
+          {
+            "analyte": "iAs",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 50,
+              "basis": "bounded by tAs"
+            }
+          },
+          {
+            "analyte": "MeHg",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 8,
+              "basis": "bounded by tHg"
+            }
+          },
+          {
+            "analyte": "Cr-VI",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 1000,
+              "basis": "bounded by total Cr"
+            }
+          }
+        ],
+        "why": "ORDER S-DOI-FORCE-1 enforcing the ratified Certification-Readiness Ruling (2026-08-25): every panel analyte resolves to a firm numeric ceiling; a species is bounded by its parent total; never value:null. Reflex speciation is assay timing, not blanking. Stops shipping blank/subsumed claim cells.",
+        "changed_at": "2026-09-10T00:00:00Z",
+        "verified_against_commit": "22cecb043bc4aec2eb5ebfc56343dde8e80e123d"
+      }
     }
   ]
 }

@@ -176,12 +176,17 @@ function limitsTable(variantObj, key) {
   const rows = cellsFor(variantObj).map((x) => {
     const c = x.cell
     const limit = c.value == null ? "monitored" : String(c.value)
-    const rationale = c.type === "gov" ? "regulatory-alignment" : (c.type || "—")
+    // A bounded species inherits its parent's jurisdiction + disposition (claim_disposition),
+    // so the claim surface never shows a "—"/"subsumed" blank where a number is published.
+    const rationale = c.claim_disposition
+      ? c.claim_disposition
+      : c.type === "gov" ? "regulatory-alignment" : (c.type || "—")
+    const jur = c.binding_jurisdiction || c.source_jurisdiction || c.binding_parent_source || null
     return [
       { v: x.disp },
       { v: x.tier },
       { v: limit, mono: true },
-      { v: jname(c.binding_jurisdiction) },
+      { v: jur ? jname(jur) : "—" },
       { v: rationale },
     ]
   })
