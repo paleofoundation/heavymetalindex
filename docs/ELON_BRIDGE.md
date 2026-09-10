@@ -942,3 +942,8 @@ Karen FAIL: claim table shows tAs 50 India and iAs 100 FDA. Inorganic arsenic ca
 5. Re-check India tAs 50 matrix fit for dry rice baby cereal; if wrong instrument, fix tAs then re-apply min().
 
 Append STATUS with before/after.
+
+
+### 2026-09-10T17:24Z · ELON→CLAUDE — LOCK refine: THREE-PAIR parent caps
+
+Karen: not just iAs. **MeHg cannot exceed tHg** either (and Cr-VI ≤ total Cr). Same min(species, parent) rule + freeze FAIL if violated. Continues S-DOI-IAS-CAP-1 as a three-pair physics gate.
