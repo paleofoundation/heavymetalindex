@@ -88,7 +88,7 @@ PDF: `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf` (sha256 `b
 
 **MINT: HOLD.** No DOI. No DataCite write. GATE 1 custody still pending.
 
-**PR:** (this branch; URL in the PR body once opened)
+**PR:** https://github.com/paleofoundation/heavymetalindex/pull/134 (draft; branch `cursor/s-doi-tas-1-freeze-tas-74a9`).
 
 **Held / logged, not chased.** Version-pages manifest still lists this slug as scaffolded v1.0 (`OI-20260910-rice-cereal-version-pages-stale`). `teething-and-snacks-rice-based` still has stale compiled iAs subsumed/null (`OI-20260910-rice-teething-ias-still-subsumed`).
 
