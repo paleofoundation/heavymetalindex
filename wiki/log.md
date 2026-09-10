@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] ingest | rueda-saa2025-valle-del-cauca-agricultural-soils
+
+Pages touched: [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils]]. Notes: Primary Library PDF, lane a3; 518 structured soil statistics and detection limits across 13 watersheds. Source-native units, censoring caveats and soil-order conflicts retained. Direction: toward the literature; no product occurrence or threshold inferred.
+
+
 ## [2026-09-09] maintenance | page-specific sharing text
 
 Pages touched: [[synthesis/metals-microbiome-disease-pathogenesis]] and shared sharing components.
