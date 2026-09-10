@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "status": "local-validation-passed",
+  "status": "production-verified",
   "tests": {
     "command": "npm test",
     "passed": 396,
@@ -49,7 +49,12 @@
     "substitutions": 5648,
     "preserved_archives": 3109
   },
-  "publication": "release verification follows scoped content commit",
+  "publication": {
+    "release_commit": "fd36c367cab3274fc834fca86831610af383af2f",
+    "deployment_id": "dpl_2eH1BjRXYSpofsbcC1VMYQVzGCxj",
+    "production_verified_at": "2026-09-10T10:58:47.495122Z",
+    "receipt": "data/evidence/audits/2026-09-10-fda-tds/release-verification.json"
+  },
   "content_commit": "5552206e60d4a0b568d15a388b5589d7a469d871",
   "final_render_build": "npm run build: exit 0 after citation copy and normalized route receipt correction",
   "browser_check": {
