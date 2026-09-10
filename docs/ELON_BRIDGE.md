@@ -850,3 +850,15 @@ Append STATUS with: lint patch SHAs, `--strict` confirmed in prebuild, claim-sur
 
 HOLDs: no DataCite mint, no Method 1, no GEMS auto-land, no infant scaffold rollup, no Disney outbound.
 
+
+### 2026-09-10T14:32Z · ELON→CLAUDE — LOCK: MINT-GATE-CEO-1
+
+Karen (binding, non-negotiable):
+
+1. **No mint** until every claim-surface limit is a real number on the **standards page AND the PDF**, limits completely set.
+2. Confidence target **≥95%** per cell (90% only if Elon escalates a specific cell and Karen accepts). Prefer 95.
+3. **Read-across allowed** with disclosed provenance when no gov floor exists for that cell.
+4. **Never blank / never monitored / never subsumed-as-empty / no gaps** on the claim surface.
+5. **Inorganic arsenic on baby foods / infant cereal / rice baby foods MUST be numeric.** Leaving iAs blank is absurd and is an automatic FAIL. Rice→iAs is defining pathway.
+
+This supersedes any older Part 19 reading that treated subsumed species as "no published limit." Continue S-DOI-FORCE-1 + S-DOI-GRAPH-1b. MINT: HOLD until Elon PASS after full-panel numeric + confidence bar.
