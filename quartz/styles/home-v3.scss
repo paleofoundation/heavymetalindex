@@ -67,24 +67,6 @@
   min-width: 0;
 }
 
-.hmi-v3-hero-eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 0 0 24px;
-  font: 400 10px/1.6 "IBM Plex Mono", monospace;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #f0d8e0;
-
-  &::before {
-    content: "";
-    flex: 0 0 32px;
-    height: 1px;
-    background: currentColor;
-  }
-}
-
 .hmi-v3-hero-copy h1 {
   font-family: Lora, serif;
   font-weight: 400;

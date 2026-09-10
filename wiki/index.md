@@ -10,7 +10,6 @@ updated: 2026-07-31
 <section class="hmi-v3-hero" aria-label="Heavy Metal Index">
   <div class="hmi-v3-hero-inner">
     <div class="hmi-v3-hero-copy">
-      <p class="hmi-v3-hero-eyebrow">Exposure &middot; Health &middot; Regulation</p>
       <h1>The reference library <span>for heavy metals.</span></h1>
       <p class="hmi-v3-hero-dek">Research on heavy metals in food, consumer products, and human health. Explore what is known, where studies disagree, and the evidence behind the findings.</p>
       <div class="search hmi-v3-hero-search" role="search">
