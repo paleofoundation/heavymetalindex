@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] schema | s-doi-ias-cap-1 — species≤parent kill-gate (olive-oil dependency)
+
+Pages touched: `tools/standards/species-parent-cap.mjs`, `tools/standards/compile-cat1.mjs`, `tools/standards/freeze-standard-version.mjs`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf`, `docs/ELON_BRIDGE.md`.
+Notes: Published species = min(species floor, parent total) for iAs≤tAs, MeHg≤tHg, Cr-VI≤Cr. Compiler and freeze fail if a species claim exceeds its parent. Rice canary v1.3 is the proof (iAs 50 capped from FDA 100 by India tAs 50); rice DOI remains HOLD. P0 mint path is now olive oil (S-DOI-OLIVE-1 on heavymetalcertified). Direction: toward the literature (physical identity).
+
 ## [2026-09-10] certification | s-doi-tas-1 — freeze PDF prints tAs and iAs
 
 Pages touched: `tools/standards/freeze-standard-version.mjs`, `tools/standards/hmtc-analyte-panel.mjs`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf`, `docs/ELON_BRIDGE.md`.
