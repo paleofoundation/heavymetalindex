@@ -136,18 +136,43 @@
         }
       },
       "iAs": {
-        "type": "subsumed",
-        "value": null,
-        "subsumed_by": "tAs",
+        "type": "gov",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "US",
+        "binding_id": "fda2020_ias_infant_rice_cereal_100",
+        "basis_note": "face value",
+        "per_country": {
+          "US": {
+            "value": 100,
+            "converted": true,
+            "id": "fda2020_ias_infant_rice_cereal_100"
+          },
+          "CA": {
+            "value": 100,
+            "converted": true,
+            "id": "ca_ias_rice-based-foods-intended-specifically-f_100"
+          },
+          "KR": {
+            "value": 100,
+            "converted": true,
+            "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
+          },
+          "BR": {
+            "value": 150,
+            "converted": true,
+            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+          }
+        },
+        "parent_total_tighter": true,
         "binding_parent_value": 50,
         "binding_parent_source": "IN",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic; no separate iAs ceiling is published.",
-        "candidate": {
-          "type": "gov",
-          "value": 100,
-          "source_jurisdiction": "US",
-          "source_id": "fda2020_ias_infant_rice_cereal_100"
-        }
+        "reflex_note": "iAs 100 µg/kg is the published species claim; tAs 50 µg/kg is the tighter parent-total claim. Reflex is assay timing, not a reason to omit iAs."
       },
       "tHg": {
         "type": "read_across",
@@ -165,7 +190,7 @@
         "subsumed_by": "tHg",
         "binding_parent_value": 8,
         "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg). Reflex is assay timing against that parent; this is not a published claim number.",
         "candidate": null
       },
       "Ni": {
@@ -209,22 +234,22 @@
         "per_country": {}
       },
       "Cr": {
-        "type": "not_material",
-        "value": null,
-        "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail.",
-        "basis_class": "method-artifact",
-        "rationale": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
-        "regulatory_basis": "No government maximum level for Cr in this product matrix; the toxic species is separately bounded and reflex-speciation-controlled where applicable.",
-        "jurisdictions_checked": "EU; UK; CODEX; US; CA; AU-NZ; CN; IN; BR; GSO; KR; EC; MX; TR"
+        "type": "read_across",
+        "value": 1000,
+        "value_exact": 1000,
+        "source_id": "hk_cap132v_crtotal_cereals_1000",
+        "source_jurisdiction": "HK",
+        "label": "government read-across — Hong Kong Cap 132V Part 2 item 7 total chromium 1000 µg/kg for cereals, the nearest finalized government cereal-matrix Cr ML (no jurisdiction sets a finished infant-rice-cereal total-Cr maximum). Disclosed as read-across, not as direct governance of the infant-cereal form. Reflex Cr-VI speciation remains assay timing against this numeric total.",
+        "basis_note": "face value (nearest government value; comparator vs any direct limit)",
+        "per_country": {}
       },
       "Cr-VI": {
         "type": "subsumed",
         "value": null,
         "subsumed_by": "Cr",
-        "binding_parent_value": null,
-        "binding_parent_source": "reflex-speciation control",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the total chromium determination (reflex speciation: any quantifiable Cr-VI fails), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "binding_parent_value": 1000,
+        "binding_parent_source": "HK",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg). Reflex is assay timing against that parent; this is not a published claim number.",
         "candidate": null
       }
     }

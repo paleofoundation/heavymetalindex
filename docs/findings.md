@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-245 open item(s): 82 auto, 163 awaiting a decision.
+246 open item(s): 83 auto, 163 awaiting a decision.
+
+### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `data/workbench/standards/cat1-compiled/teething-and-snacks-rice-based.json`, `tools/standards/cat1-config.json`
+- repro: After S-DOI-FORCE-1 canary, compile-cat1 KEEP-if-numeric is live but only baby-cereals-dry-rice-based was recompiled. teething-and-snacks-rice-based still has iAs type=subsumed value=null (candidate 100) beside tAs 50.
+- done when: compiled iAs is numeric gov_floor (fda2020 or same-scope floor) not subsumed/null; claim-hash/version bump if published; no monitored iAs on that row
+- notes: Out of S-DOI-FORCE-1 canary scope. Compiler already refuses to blank rice iAs; residual is stale compiled JSON.
 
 ### OI-20260910-library-scoped-hook-index — Pre-commit hook stages undeclared routing outputs into scoped commits
 

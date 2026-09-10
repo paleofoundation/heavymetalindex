@@ -271,59 +271,52 @@ function resolveCell(sub, analyte, variant) {
 }
 
 // --- species / parent-total speciation reconciliation -------------------------
-// A toxic species is a COMPONENT of, and bounded by, its parent total by identity:
-// iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr. A species and its total are therefore
-// not two coordinate ceilings that can both bind independently. Per the 2026-08-25
-// Certification-Readiness Ruling every such species is an ENFORCEABLE published
-// cell (never blank), resolving to exactly one of two states:
+// A toxic species is a COMPONENT of its parent total by identity (iAs ≤ tAs,
+// MeHg ≤ tHg, Cr-VI ≤ total Cr). That identity still governs lot arithmetic.
+// CEO lock 2026-09-10 (CLAUDE.md Part 19 / PANEL-CLAIM-1): it is NOT a claim
+// disposition and it must NEVER mean "no published limit."
 //
-//   KEEP  — the species carries a firm sovereign ML at or below the binding parent
-//           total (sv <= pv). It is then the tighter, species-specific ceiling and
-//           is published as its own firm regulatory-alignment number (seafood MeHg:
-//           predatory fish 1000 == tHg 1000, lower-trophic 500 == tHg 500). For
-//           arsenic this is the non-rice infant-food case: iAs 10/20 ≤ tAs 50, so a
-//           real, product-appropriate iAs ML stands alongside the total-As ceiling.
+//   KEEP  — the species carries a firm number (gov_floor or read_across). Publish
+//           it even when the parent total is tighter. Rice infant cereal iAs 100
+//           (FDA 2020 / Health Canada) stands beside India tAs 50. Reflex decides
+//           when the species assay is run; it does not erase the species claim.
 //
-//   BOUND — the species is subsumed by (governed by and bounded by) the parent
-//           total, published as a limit-of-record with no standalone number. Three
-//           ways a cell lands here:
-//             (a) sv > pv  — a sovereign species ML STRICTLY ABOVE the binding total
-//                 is physically already bound tighter by the total (rice iAs 100 vs
-//                 the India infant-foods total-As 50: total-As 50 binds, iAs bounded
-//                 ≤ 50 — a more-protective, more-coherent arsenic standard);
-//             (b) sv == null — no jurisdiction sets a species ML for this product
-//                 form at all (infant-food MeHg and Cr-VI: bounded by tHg / total Cr,
-//                 enforced by reflex speciation);
-//           The threshold is strict `>` (not `>=`): at exact equality the species ML
-//           equals the total ceiling, so it is coherent and published as the real
-//           sovereign species number rather than hidden.
-//
-// A species is NEVER bounded to a parent that carries no ceiling of its own: where
-// the parent total is a gap or a not_material determination WITH the species holding
-// a real ML (sv != null, pv == null), the species keeps its own enforceable ceiling.
-// The one exception is sv == null && pv == null — the infant-food Cr-VI-under-a-
-// not_material-total-Cr case — where the species is bounded by the parent's reflex-
-// speciation control (any quantifiable Cr-VI fails), which IS the enforceable ceiling.
+//   REFLEX metadata only — when the species has no worldwide government ML and
+//           no configured read-across, attach assay-timing metadata. Do not
+//           convert a firm species number into type:subsumed / value:null.
+//           Rice / infant / baby-cereal iAs is mandatory-numeric: a blank iAs
+//           on those rows fails the compile (hard FAIL).
 const SPECIES_LABEL = { iAs: "Inorganic arsenic", MeHg: "Methylmercury", "Cr-VI": "Hexavalent chromium" }
 const PARENT_LABEL = { tAs: "total arsenic", tHg: "total mercury", Cr: "total chromium" }
 function numOf(cell) {
   if (!cell) return null
   return typeof cell.value_exact === "number" ? cell.value_exact : typeof cell.value === "number" ? cell.value : null
 }
-function reconcileSpecies(cells, species, parent) {
+function mandatoryIasNumeric(slug, name) {
+  const hay = `${slug} ${name || ""}`.toLowerCase()
+  return /rice/.test(hay) || /infant/.test(hay) || (/baby/.test(hay) && /cereal/.test(hay))
+}
+function reconcileSpecies(cells, species, parent, ctx = {}) {
   const s = cells[species]
   const p = cells[parent]
   if (!s) return
   const sv = numOf(s)
   const pv = numOf(p)
-  // KEEP: the species is a firm ceiling at or below a firm parent total.
-  if (sv != null && pv != null && sv <= pv) return
-  // KEEP: the species holds a real ML but the parent carries no numeric ceiling
-  // (parent gap or not_material) — the species' own sovereign limit still governs.
-  if (sv != null && pv == null) return
-  // BOUND: subsume the species under the parent total (sv > pv, or the species has
-  // no direct ML for this product form). The parent's ceiling — a firm total number,
-  // or a not_material total's reflex-speciation control — is the enforceable bound.
+  // KEEP: any firm species number is a published claim. A tighter parent total
+  // does not blank it (rice iAs 100 beside tAs 50 is the load-bearing case).
+  if (sv != null) {
+    if (pv != null && sv > pv) {
+      s.parent_total_tighter = true
+      s.binding_parent_value = p.value
+      s.binding_parent_source = p.binding_jurisdiction || p.source_jurisdiction || null
+      s.reflex_note = `${species} ${sv} µg/kg is the published species claim; ${parent} ${pv} µg/kg is the tighter parent-total claim. Reflex is assay timing, not a reason to omit ${species}.`
+    }
+    return
+  }
+  if (species === "iAs" && ctx.mandatoryIas) {
+    throw new Error(`${ctx.slug}: iAs is mandatory-numeric for rice/infant/baby cereal (CLAUDE.md Part 19); compiler produced a blank iAs cell`)
+  }
+  // No species number: record assay-timing metadata only. Not a claim disposition.
   const parentNumeric = pv != null
   const boundStmt = parentNumeric
     ? `the binding ${PARENT_LABEL[parent]} ceiling (${p.value} µg/kg)`
@@ -334,8 +327,8 @@ function reconcileSpecies(cells, species, parent) {
     subsumed_by: parent,
     binding_parent_value: parentNumeric ? p.value : null,
     binding_parent_source: p ? (p.binding_jurisdiction || p.source_jurisdiction || (p.type === "not_material" ? "reflex-speciation control" : null)) : null,
-    label: `${SPECIES_LABEL[species] || species} is a component of ${PARENT_LABEL[parent] || parent} (${species} ≤ ${parent}). ${sv != null ? `The strictest applicable sovereign ${species} value (${s.value} µg/kg) is not below ${boundStmt}` : `No jurisdiction sets a ${species} limit for this product form below ${boundStmt}`}, so ${species} is governed by and bounded by ${PARENT_LABEL[parent] || parent}; no separate ${species} ceiling is published.`,
-    candidate: sv != null ? { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null } : null,
+    label: `${SPECIES_LABEL[species] || species} is a component of ${PARENT_LABEL[parent] || parent} (${species} ≤ ${parent}). No jurisdiction sets a ${species} limit for this product form below ${boundStmt}. Reflex is assay timing against that parent; this is not a published claim number.`,
+    candidate: null,
   }
 }
 
@@ -354,9 +347,10 @@ for (const slug of slugs) {
     // Enforce species ≤ parent-total coherence (each species is a component of its total):
     // iAs ≤ tAs (arsenic), MeHg ≤ tHg (mercury), Cr-VI ≤ total Cr (chromium). Runs after every
     // cell resolves so it sees the binding totals; only fires for panels that carry the species.
-    reconcileSpecies(cells, "iAs", "tAs")
-    reconcileSpecies(cells, "MeHg", "tHg")
-    reconcileSpecies(cells, "Cr-VI", "Cr")
+    const speciesCtx = { slug, name: sub.name, mandatoryIas: mandatoryIasNumeric(slug, sub.name) }
+    reconcileSpecies(cells, "iAs", "tAs", speciesCtx)
+    reconcileSpecies(cells, "MeHg", "tHg", speciesCtx)
+    reconcileSpecies(cells, "Cr-VI", "Cr", speciesCtx)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
