@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] schema | part-19-claim-numeric-ias — baby-cereals-dry-rice-based iAs 100
+
+Pages touched: CLAUDE.md Part 19, AGENTS.md live lock, `tools/standards/compile-cat1.mjs`, `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.1/standard.pdf`, `docs/ELON_BRIDGE.md`.
+Notes: Claim dispositions are only gov_floor or read_across. Rice/infant/baby-cereal iAs is mandatory numeric. Canary iAs moved from subsumed/null (PDF monitored, 7/8) to 100 µg/kg FDA 2020 infant rice cereal (gov_floor, confidence ≥0.95). Cr filled 1000 read-across (HK Cap 132V cereals) so the eight-total claim panel is numeric. Reflex is assay timing and no longer blanks iAs. No DOI minted. Direction: toward the literature.
+
 ## [2026-09-10] ingest | twenty-paper Library drain
 
 Twenty previously unprocessed Library papers were read, extracted and independently audited. Preserved 3,437 numeric/context observations and two attributed qualitative claims with source-native units, matrix, statistic and geographic qualifiers. Updated 50 destination pages, including product and ingredient evidence routes. Source contradictions, missing supplements, experimental-only matrices and reused cohorts remain explicit. See [[sources/oprea2022-sibiu-celery-root-metals]], [[sources/kananke2026-sri-lanka-leaf-bioaccessibility]], and [[mitigation/remediation-evidence]]. Direction: toward the literature; this batch publishes no certification thresholds.

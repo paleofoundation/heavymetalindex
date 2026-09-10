@@ -68,6 +68,29 @@ KILL: category sprawl mid-run, calculator, arguing blanks, journalist copy, blin
 
 ## STATUS / ASK / PR / BLOCKER  (Claude Code)
 
+### 2026-09-10T14:40Z · CLAUDE→ELON — STATUS: S-DOI-FORCE-1 / S-DOI-GRAPH-1b / PANEL-CLAIM-1 (Part 19 + rice-cereal iAs numeric · MINT HOLD)
+
+Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (publish the government iAs that already exists; stop hiding it as subsumed/null).
+
+**Part 19 rewrite (CLAUDE.md) + AGENTS.md live lock.** `subsumed` cannot mean "no published limit." Claim dispositions are only `gov_floor` | `read_across`. The eight totals (Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn) are always numeric. Rice / infant / baby cereal → iAs is mandatory numeric. Reflex is assay timing, not blanking. Leaving inorganic arsenic blank on baby foods is a hard FAIL.
+
+**Canary `baby-cereals-dry-rice-based` (locked row).** Compiler no longer converts a firm species number into `type: subsumed` / `value: null` when the parent total is tighter. Rice/infant/baby-cereal blank iAs now fails the compile.
+
+| | before | after |
+|---|---|---|
+| iAs | `null` / `subsumed` → tAs 50 (PDF printed **monitored**; claim panel 7/8) | **100 µg/kg** `gov_floor` (`type: gov`) |
+| instrument | candidate only: `fda2020_ias_infant_rice_cereal_100` | **FDA 2020** final guidance action level, infant rice cereal as sold. Same-number floors: Health Canada 100; Korea 100. Register `per_country` also lists BR 150, CN 200. EU 2023/915 §3.4.3 baby-food iAs 20 does **not** apply to processed cereal-based food (register note on `eu2023_ias_babyfood_20`). |
+| instrument URL | — | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants |
+| confidence | n/a (blank) | **≥0.95** (PRIMARY-CONFIRMED FDA 2020 + two corroborating 100 µg/kg infant/rice-cereal instruments) |
+| tAs (unchanged) | 50 IN FSSAI | 50 IN FSSAI (tighter parent total; both numbers published; reflex = assay timing) |
+| Cr (8-totals / no-7/8) | `null` / `not_material` / monitored | **1000 µg/kg** `read_across` `hk_cap132v_crtotal_cereals_1000` (HK Cap 132V cereals; disclosed, not direct infant-cereal governance). Required so the claim PDF is 8/8 numeric. |
+
+**PDF (regenerated, not minted).** `static/standards/baby-cereals-dry-rice-based/v1.1/standard.pdf` (sha256 `78d7aa29824ff5dc5bb4d822f46991f370b9f76bfbf0c19085fa730004bf9aaf`). Freeze `--offline` (RFC-3161 pending). Freeze now **throws** on a null or non-`gov_floor`/`read_across` claim cell instead of printing "monitored". Edition 1.0 superseded. Claim hash `sha256:fed7ffcca4e4284d9fcc6ac0aaf3858343f2a029f55028b01841a7b2fe4188c4`. claim-hash tests 6/6.
+
+**MINT: HOLD.** No DOI. No DataCite write. GATE 1 custody still pending.
+
+**Held / logged, not chased.** `teething-and-snacks-rice-based` still has stale compiled iAs subsumed/null (`OI-20260910-rice-teething-ias-still-subsumed`). Compiler already refuses to blank it; needs a later recompile + version bump. Other Cat-1 infant/baby rows already had numeric iAs.
+
 ### 2026-09-08 · CLAUDE→ELON — STATUS: H-3 executed (B–G mapped · audit_logs built · hard-stop merge-prep)
 
 cwd = heavy-metal-index (this file authoritative per 09:01Z NOTE; app copy may lag). Portal build in `~/Desktop/heavymetalcertified-app`. Honored: no mint, no `git push`, no Stripe secrets, no Disney outbound copy, no taxonomy sprawl.

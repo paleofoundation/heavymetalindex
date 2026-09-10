@@ -175,13 +175,19 @@ function cellsFor(variantObj) {
 function limitsTable(variantObj, key) {
   const rows = cellsFor(variantObj).map((x) => {
     const c = x.cell
-    const limit = c.value == null ? "monitored" : String(c.value)
-    const rationale = c.type === "gov" ? "regulatory-alignment" : (c.type || "—")
+    if (c.value == null) {
+      throw new Error(`freeze: claim cell ${x.key} has no numeric value (type=${c.type}); CLAUDE.md Part 19 forbids monitored/null claim cells`)
+    }
+    const limit = String(c.value)
+    const rationale = c.type === "gov" ? "gov_floor" : c.type === "read_across" ? "read_across" : null
+    if (!rationale) {
+      throw new Error(`freeze: claim cell ${x.key} disposition ${c.type} is not gov_floor|read_across`)
+    }
     return [
       { v: x.disp },
       { v: x.tier },
       { v: limit, mono: true },
-      { v: jname(c.binding_jurisdiction) },
+      { v: jname(c.binding_jurisdiction || c.source_jurisdiction) },
       { v: c.basis_note || "—" },
       { v: rationale },
     ]
