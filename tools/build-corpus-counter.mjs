@@ -209,14 +209,14 @@ function renderBlock(c, refreshDate) {
     .map((r) => `      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">${r[0]}</span><span class="hmi-v3-ledger-v">${fmt(r[1])}</span></div>`)
     .join("\n")
   return `${beginMarker}
-<div class="hmi-v3-ledger" aria-label="Corpus ledger">
+<div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
-    <span class="hmi-v3-ledger-title">Corpus ledger</span>
-    <span class="hmi-v3-ledger-refresh">REFRESH ${refreshDate}</span>
+    <span class="hmi-v3-ledger-title">Library at a glance</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED ${refreshDate}</span>
   </div>
   <div class="hmi-v3-ledger-body">
 ${body}
-    <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
+    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection. <a href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 </div>
 ${endMarker}`

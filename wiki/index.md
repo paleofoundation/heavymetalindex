@@ -10,8 +10,9 @@ updated: 2026-07-31
 <section class="hmi-v3-hero" aria-label="Heavy Metal Index">
   <div class="hmi-v3-hero-inner">
     <div class="hmi-v3-hero-copy">
-      <h1>Trace a heavy-metal claim back to the document it came from.</h1>
-      <p class="hmi-v3-hero-dek">Occurrence data, agency limits, and toxicological reference values across the metals, ingredients, and consumer categories the literature covers. Every figure resolves to a source record carrying the study's methods, the extracted values, and the file hash of the document they were read from.</p>
+      <p class="hmi-v3-hero-eyebrow">Exposure &middot; Health &middot; Regulation</p>
+      <h1>The reference library <span>for heavy metals.</span></h1>
+      <p class="hmi-v3-hero-dek">Research on heavy metals in food, consumer products, and human health. Explore what is known, where studies disagree, and the evidence behind the findings.</p>
       <div class="search hmi-v3-hero-search" role="search">
         <button class="search-button hmi-v3-hero-search-button" type="button">
           <span class="hmi-v3-hero-search-label">Search metals, foods, product categories, regulations, or sources</span>
@@ -24,13 +25,17 @@ updated: 2026-07-31
           </div>
         </div>
       </div>
+      <div class="hmi-v3-hero-links">
+        <a href="synthesis/">Explore the evidence syntheses <span aria-hidden="true">&rarr;</span></a>
+        <a href="methodology/">Our methods <span aria-hidden="true">&rarr;</span></a>
+      </div>
     </div>
 
 <!-- BEGIN: hmi-corpus-counter -->
-<div class="hmi-v3-ledger" aria-label="Corpus ledger">
+<div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
-    <span class="hmi-v3-ledger-title">Corpus ledger</span>
-    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-18</span>
+    <span class="hmi-v3-ledger-title">Library at a glance</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-08-18</span>
   </div>
   <div class="hmi-v3-ledger-body">
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,547</span></div>
@@ -39,7 +44,7 @@ updated: 2026-07-31
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,503</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">695</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
-    <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
+    <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection. <a href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 </div>
 <!-- END: hmi-corpus-counter -->
