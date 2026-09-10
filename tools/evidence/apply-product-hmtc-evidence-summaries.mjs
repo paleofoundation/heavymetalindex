@@ -12,15 +12,21 @@ const sourceDir = path.join(repoRoot, "wiki/sources")
 // values) does not live under wiki/. It lives under data/workbench/standards/
 // and on the local staff Standards Workbench tool.
 const workbenchSnapshotDir = path.join(repoRoot, "data/workbench/standards")
-const occurrenceSummaryFiles = [
-  "data/evidence/category1_formula_concentration_summary.csv",
-  "data/evidence/category1_fda_baby_food_compliance_summary.csv",
-  "data/evidence/category1_local_baby_food_occurrence_summary.csv",
-  "data/evidence/category5_plant_milk_occurrence_summary.csv",
-  "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
-  "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
-  "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv",
-]
+// HMI-GAP-1c root-cause fix (2026-09-10): this used to be a hard-coded seven-file
+// allowlist. Every category6/7/11/24 and autonomy-extracted occurrence summary was
+// therefore invisible to this generator, so product pages whose structured evidence
+// lived in those files rendered "no contributing evidence loaded" while the rows sat
+// in data/evidence/. Discover the files instead of enumerating them, so a new
+// category summary wires itself in on the next run.
+function discoverOccurrenceSummaryFiles() {
+  const dir = path.join(repoRoot, "data/evidence")
+  if (!fs.existsSync(dir)) return []
+  return fs
+    .readdirSync(dir)
+    .filter((name) => name.endsWith("_summary.csv"))
+    .sort()
+    .map((name) => path.posix.join("data/evidence", name))
+}
 
 const beginMarker = "<!-- BEGIN: hmi-hmtc-evidence-summary -->"
 const endMarker = "<!-- END: hmi-hmtc-evidence-summary -->"
@@ -237,8 +243,9 @@ function regulatoryCapCell(gapRow) {
 
 function sourceCountCell(summaryRows) {
   const count = uniqueSourceCount(summaryRows)
-  if (count === 0) return "0"
-  return `${count} cited`
+  const hasSynthesis = summaryRows.some((row) => isSynthesisSource(row.source_id))
+  if (count === 0) return hasSynthesis ? "0 primary (commodity-synthesis context only)" : "0"
+  return hasSynthesis ? `${count} cited (plus commodity-synthesis context)` : `${count} cited`
 }
 
 function confidenceCell(summaryRows) {
@@ -426,8 +433,15 @@ function occurrenceRowsFor(productSlug, metal) {
   )
 }
 
+// A commodity-synthesis row is a rollup of literature that is already counted
+// elsewhere, so counting it as an independent cited source overstates the evidence
+// base. It stays in the row set (it drives the row-fit note) but not in the count.
+function isSynthesisSource(sourceId) {
+  return String(sourceId || "").startsWith("ingredient-synthesis:")
+}
+
 function uniqueSourceCount(rows) {
-  return unique(rows.map((row) => row.source_id)).length
+  return unique(rows.filter((row) => !isSynthesisSource(row.source_id)).map((row) => row.source_id)).length
 }
 
 function subcategoryDesignation(productSlug, frontmatter) {
@@ -673,10 +687,20 @@ function unique(values) {
 
 function readOccurrenceRows() {
   const rows = []
-  for (const relativePath of occurrenceSummaryFiles) {
-    const filePath = path.join(repoRoot, relativePath)
-    if (!fs.existsSync(filePath)) continue
-    rows.push(...parseCsv(fs.readFileSync(filePath, "utf8")))
+  for (const relativePath of discoverOccurrenceSummaryFiles()) {
+    const parsed = parseCsv(fs.readFileSync(path.join(repoRoot, relativePath), "utf8"))
+    if (parsed.length === 0) continue
+    const keys = Object.keys(parsed[0])
+    if (!keys.includes("metal_species")) continue
+    // Two slug shapes exist in the register: row_slug (HMTc row files) and
+    // product_slug (the category5 plant-milk shape). Both name the product page.
+    const slugKey = keys.includes("row_slug") ? "row_slug" : keys.includes("product_slug") ? "product_slug" : null
+    if (!slugKey) continue
+    for (const row of parsed) {
+      const slug = String(row[slugKey] || "").trim()
+      if (!slug) continue
+      rows.push({ ...row, row_slug: slug, summary_file: relativePath })
+    }
   }
   return rows
 }
