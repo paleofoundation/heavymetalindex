@@ -1,11 +1,12 @@
 // Canonical HMTc certification analyte contract.
 //
-// The laboratory panel is eight TOTAL elements. Species controls are additional
-// cells; they never replace the parent total-element result. MeHg is retained in
-// every compiled record so its applicability decision is explicit, but it is a
-// mandatory standalone numeric ceiling only where a sovereign source sets one
-// below the total-Hg ceiling. Otherwise it must be bounded by tHg or resolved as
-// a documented not-material determination.
+// The laboratory panel is eight TOTAL elements, always numeric on the claim
+// surface (Pb, Cd, tAs, tHg, Ni, Sn, Al, Cr). Species cells never replace the
+// parent total-element result. A species is a mandatory numeric published limit
+// when the matrix is a defining pathway (rice/infant-cereal iAs; fruit-juice iAs;
+// fish/marine MeHg) or when a finalized government ML exists on the species
+// alone. Reflex speciation is lab-assay timing, not permission to omit a number.
+// `subsumed` / `monitored` / `value: null` are forbidden on the claim surface.
 
 export const TOTAL_ANALYTES = ["Pb", "Cd", "tAs", "tHg", "Ni", "Sn", "Al", "Cr"]
 export const CORE_SPECIES_ANALYTES = ["iAs", "Cr-VI"]

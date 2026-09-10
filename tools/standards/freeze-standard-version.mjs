@@ -175,8 +175,14 @@ function cellsFor(variantObj) {
 function limitsTable(variantObj, key) {
   const rows = cellsFor(variantObj).map((x) => {
     const c = x.cell
-    const limit = c.value == null ? "monitored" : String(c.value)
-    const rationale = c.type === "gov" ? "regulatory-alignment" : (c.type || "—")
+    if (c.value == null) {
+      throw new Error(`claim-surface FAIL: ${x.key} has no numeric limit (type=${c.type || "null"}). PANEL-CLAIM-1 forbids monitored/subsumed/blank.`)
+    }
+    if (c.type === "subsumed" || c.type === "not_material" || c.type === "control") {
+      throw new Error(`claim-surface FAIL: ${x.key} type=${c.type} is not a claim-surface disposition (gov|read_across only).`)
+    }
+    const limit = String(c.value)
+    const rationale = c.type === "gov" ? "regulatory-alignment" : (c.type === "read_across" ? "read-across" : (c.type || "blocked"))
     return [
       { v: x.disp },
       { v: x.tier },
@@ -226,6 +232,9 @@ function StandardDocument(m) {
   // "firm" = analytes with a numeric limit in the first variant (all, in cat1)
   const firmOf = (v) => cellsFor(std.variants[v]).filter((x) => x.cell.value != null).length
   const firm = variants.length ? Math.max(...variants.map(firmOf)) : 0
+  if (firm < panel) {
+    throw new Error(`claim-surface FAIL: header would read ${firm}/${panel} analytes with a published limit. PANEL-CLAIM-1 forbids incomplete-panel headers.`)
+  }
 
   const variantLabel = (v) => (v === "cow" ? "Cow-milk based" : v === "soy" ? "Soy based" : v)
 

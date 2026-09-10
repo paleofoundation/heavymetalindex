@@ -85,6 +85,7 @@
     "standards:claim-hash:check": "node tools/standards/claim-hash.mjs --check-all",
     "standards:deposit-edition": "node tools/standards/deposit-edition.mjs",
     "test:standards:claim-hash": "node --test tools/standards/claim-hash.test.mjs",
+    "test:standards:canary-ias": "node --test tools/standards/compile-cat1-canary-ias.test.mjs",
     "evidence:standards-summary": "node tools/evidence/apply-product-hmtc-evidence-summaries.mjs",
     "evidence:standards-actions": "node tools/evidence/build-standards-action-queue.mjs && node tools/evidence/build-ai-adjudication-queue.mjs",
     "evidence:ai-adjudication": "node tools/evidence/build-ai-adjudication-queue.mjs",

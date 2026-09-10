@@ -862,3 +862,30 @@ Karen (binding, non-negotiable):
 5. **Inorganic arsenic on baby foods / infant cereal / rice baby foods MUST be numeric.** Leaving iAs blank is absurd and is an automatic FAIL. Rice→iAs is defining pathway.
 
 This supersedes any older Part 19 reading that treated subsumed species as "no published limit." Continue S-DOI-FORCE-1 + S-DOI-GRAPH-1b. MINT: HOLD until Elon PASS after full-panel numeric + confidence bar.
+
+### 2026-09-10T14:45Z · CLAUDE→ELON — STATUS: S-DOI-FORCE-1 Work B+C + S-DOI-GRAPH-1b (Part 19 rewrite · rice canary iAs numeric · MINT HOLD)
+
+Attended Cursor cloud agent on `paleofoundation/heavymetalindex`. Honored: **no DataCite mint**, no Method 1 revival, no cert push, no GEMS auto-land, no infant scaffold rollup. Work A (cert-repo `standard-readiness-lint --strict` + `claim-surface-lint`) is the sister-repo machine gate and was not executed in this index checkout.
+
+**Part 19 (Work B).** Rewrote CLAUDE.md Certification-Readiness, Required-Testing-Panel, live Method v2.0 paragraph, and rationale-tag list so they cannot be read as "subsumed means no published limit." New claim-surface lock (PANEL-CLAIM-1 / S-DOI-FORCE-1 / MINT-GATE-CEO-1): dispositions ONLY `gov_floor` | `read_across`; eight totals always numeric; species numeric on defining pathway or species-only ML; rice/infant-cereal iAs mandatory numeric; reflex = lab assay timing, never claim blanking. Struck the live-method sentence that taught "speciated analyte … bounded … (subsumed)." `subsumed` as a blank published limit is RETIRED. Compiler comment in `tools/standards/compile-cat1.mjs` no longer blanks a numeric species ML when the parent total is tighter. Freeze renderer throws instead of printing `monitored` or a `7/8` header. Lot Testing Schedule §9 now states rice iAs is a mandatory numeric published limit.
+
+**Canary iAs (Work C / S-DOI-GRAPH-1b) — baby-cereals-dry-rice-based v1.1**
+
+| | before (v1.0) | after (v1.1) |
+|---|---|---|
+| iAs type / value | `subsumed` / `null` (bounded by tAs 50) | `gov` / **100** µg/kg as_sold |
+| Binding instrument | candidate only: `fda2020_ias_infant_rice_cereal_100` | **FDA Guidance for Industry: Action Level for Inorganic Arsenic in Rice Cereals for Infants** (final, Aug 2020), 100 µg/kg |
+| Instrument URL | — | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants |
+| Same-number corroboration | — | Health Canada ML 100 (`ca_ias_rice-based-foods-intended-specifically-f_100`); Korea MFDS 100 |
+| Confidence | n/a (blank) | **0.97** (≥0.95). Exact finished-product infant-rice-cereal matrix; two independent finalized 100 µg/kg instruments; EU 2023/915 §3.4.3 baby-food iAs 20 does **not** apply (register note: do not extend to processed cereal-based food). Lowest applicable finished-product iAs floor in the register = 100. |
+| PDF header | 7/8 · iAs row `monitored` | **8/8 analytes with a published limit** |
+| iAs PDF row | monitored / empty jurisdiction | 100 · US-FDA · regulatory-alignment |
+
+**Also on the 8-row claim surface (required for 8/8; not a Method 1 change):** total Cr `not_material`/`null` → disclosed read-across **1000** µg/kg from `china_gb2762_crtotal_grains_1000` (GB 2762-2022 grains/cereals; GB 2762 excludes dedicated infant-food standards, so this is read-across, not direct governance). Confidence 0.95.
+
+**PDF path:** `data/workbench/standards/editions/baby-cereals-dry-rice-based/v1.1/standard.pdf`  
+sha256 `c1fd5d1b2d1c12ddf50cfe59c85c99c028fce75f1b7cfc8ae514832b6f7f51b3`. RFC-3161 + neutral deposit still `pending` (offline freeze; GATE 1 undecided). Claim hash `sha256:3082da9cb1b28deb4c4e5791b67cd3b073a9cf7225cda8ac516512c85bd67048`. Edition record: `data/standards/version-history/baby-cereals-dry-rice-based.json` (1.0 superseded → 1.1 current). Tests: 8/8 pass (`claim-hash` + new `compile-cat1-canary-ias`).
+
+**Off the 8-row PDF (not defining pathways for rice; not printed as monitored):** compiled MeHg and Cr-VI remain reflex/`subsumed` internally. They do not appear on the claim-surface table. Rice is not a MeHg or Cr-VI defining pathway.
+
+**MINT: HOLD.** No DataCite write. No production DOI. Ready for Elon PASS only after GATE 1 custody + cert Work A lint, not from this STATUS.

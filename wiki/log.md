@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] correction | Part 19 claim-surface lock and rice canary iAs
+
+Rewrote CLAUDE.md Part 19 so subsumed/reflex cannot be read as a license to ship a blank published limit. Restored `baby-cereals-dry-rice-based` iAs to the FDA 2020 infant-rice-cereal government floor (100 µg/kg) and reminted the v1.1 standard PDF at 8/8 numeric. Direction: toward the literature and the government-limit method lock; no Method 1 revival; DataCite mint remains HOLD.
+
+
 ## [2026-09-10] ingest | twenty-paper Library drain
 
 Twenty previously unprocessed Library papers were read, extracted and independently audited. Preserved 3,437 numeric/context observations and two attributed qualitative claims with source-native units, matrix, statistic and geographic qualifiers. Updated 50 destination pages, including product and ingredient evidence routes. Source contradictions, missing supplements, experimental-only matrices and reused cohorts remain explicit. See [[sources/oprea2022-sibiu-celery-root-metals]], [[sources/kananke2026-sri-lanka-leaf-bioaccessibility]], and [[mitigation/remediation-evidence]]. Direction: toward the literature; this batch publishes no certification thresholds.
