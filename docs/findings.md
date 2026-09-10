@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-247 open item(s): 84 auto, 163 awaiting a decision.
+248 open item(s): 84 auto, 164 awaiting a decision.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 
@@ -529,6 +529,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/standards/version-pages/manifest.json`, `tools/standards/build-version-pages.mjs`
 - repro: data/standards/version-history/baby-cereals-dry-rice-based.json current_version is 1.2 with frozen v1.2 PDF; data/standards/version-pages/manifest.json still has current_version 1.0, scaffolded true, frozen false.
 - done when: manifest current_version matches version-history current_version for baby-cereals-dry-rice-based; scaffolded is false once a frozen artifact exists
+
+### OI-20260910-olive-oil-ias-still-subsumed — Olive oil compiled iAs is subsumed/null — S-DOI-OLIVE-1 mint path
+
+- scope: **human-gated** · type: finding · status: open · repo: cert
+- paths: `data/workbench/standards/cat30-compiled/olive-oil.json`
+- repro: cat30-compiled/olive-oil.json variants.default.iAs.type is subsumed with value null; tAs is 100 Codex gov. Part 19 / S-DOI-OLIVE-1 must decide whether olive oil publishes numeric iAs (candidate IL 100) or leaves iAs as non-claim. species-parent-cap does not fail null species.
+- done when: S-DOI-OLIVE-1 agent on heavymetalcertified owns the olive-oil mint/DOI path; Index species-parent-cap kill-gate is available as freeze assertStandardSpeciesLeqParent; Do not mint rice; rice is no longer P0
+- decision: _pending_
+- notes: Logged during S-DOI-CANARY-REDO-1 stop after Karen P0 replan to olive oil / Kasandrinos. HMI agent is not starting olive work.
 
 ### OI-20260910-library-scoped-hook-index — Pre-commit hook stages undeclared routing outputs into scoped commits
 

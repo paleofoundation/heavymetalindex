@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "1.2",
+  "current_version": "1.3",
   "scaffolded": false,
   "versions": [
     {
@@ -60,7 +60,8 @@
     },
     {
       "version": "1.2",
-      "status": "current",
+      "status": "superseded",
+      "superseded_by": "1.3",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -82,6 +83,33 @@
         "affected_analytes": {
           "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "restored to claim PDF; was omitted by freeze ANALYTES substitution" },
           "iAs": { "old": 100, "old_type": "gov", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "remains an additional species row; no longer occupies the tAs slot" }
+        }
+      }
+    },
+    {
+      "version": "1.3",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:a7b99717dfdc6d58584be0903eb20844fb7d84f5880a0b819fbfe533f60a3715",
+      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.3/",
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf",
+        "standard_pdf_sha256": "78c43095ea4341ff1ac0d5adaeb18398c951f206bcd48566ace092e9364212ed",
+        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
+        "note": "S-DOI-CANARY-REDO-1 / S-DOI-IAS-CAP-1. Published iAs = min(FDA 100, India tAs 50) = 50 with cap disclosed. Nine claim rows (8 totals + iAs). No DataCite mint. Custody pending. MINT: HOLD."
+      },
+      "change": {
+        "what_changed": "Published iAs ceiling moved from 100 (FDA 2020 infant rice cereal, physically above tAs 50) to 50 via the three-pair species≤parent kill-gate. Uncapped species instrument remains FDA 100; provenance discloses the India tAs 50 cap. tAs 50 India gov_floor unchanged. Other totals unchanged. MeHg and Cr-VI remain non-claim reflex metadata (no worldwide infant-rice-cereal ML).",
+        "why": "ORDER S-DOI-IAS-CAP-1 / three-pair lock: iAs cannot exceed tAs. Published species = min(species floor, parent total). Compiler/freeze FAIL if species > parent. Direction: toward the literature (physical identity iAs ≤ tAs).",
+        "changed_at": "2026-09-10T17:58:00Z",
+        "affected_analytes": {
+          "iAs": { "old": 100, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "capped by in_tas_infant-milk-substitute-and-infant-foods_50 via iAs≤tAs; uncapped_species_value 100 retained" },
+          "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "unchanged; India FSSAI infant-foods total-As 0.05 ppm = 50 µg/kg remains the binding parent" }
         }
       }
     }

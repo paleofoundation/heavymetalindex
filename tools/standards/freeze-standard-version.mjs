@@ -71,6 +71,7 @@ import {
   assertClaimPanel,
   claimHeaderLine,
 } from "./hmtc-analyte-panel.mjs"
+import { assertStandardSpeciesLeqParent } from "./species-parent-cap.mjs"
 
 registerFonts()
 const h = React.createElement
@@ -271,7 +272,7 @@ function StandardDocument(m) {
 
   // Certification limits, per variant
   children.push(h(Text, { key: "sh1", style: st.sectionHead }, "1  |  Certification limits"))
-  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, tAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Inorganic arsenic (iAs) is an additional species claim on rice, infant, and baby-cereal pathways; it never replaces total arsenic. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
+  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, tAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Inorganic arsenic (iAs) is an additional species claim on rice, infant, and baby-cereal pathways; it never replaces total arsenic. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column. When both a species and its parent total are numeric, the published species ceiling is min(species floor, parent total) by identity (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ Cr); the uncapped species instrument remains in the derivation table.`, st.note, "sh1n"))
   for (const v of variants) {
     children.push(h(Text, { key: `lh-${v}`, style: st.h3 }, variantLabel(v)))
     children.push(limitsTable(std, std.variants[v], `lt-${v}`))
@@ -287,7 +288,7 @@ function StandardDocument(m) {
 
   // Method and provenance
   children.push(h(Text, { key: "sh3", style: st.sectionHead }, "3  |  Method and provenance"))
-  children.push(P(`${std.method}. The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator, converted to the row's native basis. Where the law itself splits a limit by formulation, the standard adopts the law's own split and cites it. Species limits are bounded by their parent total (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr); read-across limits (for example aluminium carried from an as-consumed limit to an as-sold basis across the reconstitution ratio) are disclosed as read-across and never presented as direct governance.`, st.para, "sh3a"))
+  children.push(P(`${std.method}. The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator, converted to the row's native basis. Where the law itself splits a limit by formulation, the standard adopts the law's own split and cites it. When both a species and its parent total carry numeric claims, the published species ceiling is min(species government or read-across floor, parent-total limit), disclosed as a cap (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr). A species claim is never published above its parent. Read-across limits are disclosed as read-across and never presented as direct governance.`, st.para, "sh3a"))
   children.push(P(`The occurrence and toxicology corpus that contextualises these limits is maintained independently as the Heavy Metal Index literature baseline (heavymetalindex.com). This certification standard cites that baseline one way; it does not use the baseline's contents as the basis for any government-limit value stated here.`, st.para, "sh3b"))
 
   // Version and tamper-evidence
@@ -418,9 +419,10 @@ async function freeze(slug, args) {
   const std = JSON.parse(readFileSync(jsonPath, "utf8"))
   try {
     assertClaimPanel(std)
+    assertStandardSpeciesLeqParent(std, { slug })
   } catch (e) {
-    console.error(e.message)
-    process.exit(2)
+    console.error(`freeze: ${e.message}`)
+    process.exit(1)
   }
 
   let version = args.flags.version || args._[0] || "1"

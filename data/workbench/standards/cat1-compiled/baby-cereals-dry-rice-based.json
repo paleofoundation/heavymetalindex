@@ -137,11 +137,11 @@
       },
       "iAs": {
         "type": "gov",
-        "value": 100,
-        "value_exact": 100,
+        "value": 50,
+        "value_exact": 50,
         "binding_jurisdiction": "US",
         "binding_id": "fda2020_ias_infant_rice_cereal_100",
-        "basis_note": "face value",
+        "basis_note": "iAs 100 µg/kg (US fda2020_ias_infant_rice_cereal_100) capped by tAs 50 µg/kg (IN in_tas_infant-milk-substitute-and-infant-foods_50) via iAs≤tAs",
         "per_country": {
           "US": {
             "value": 100,
@@ -169,10 +169,15 @@
             "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
           }
         },
-        "parent_total_tighter": true,
+        "capped_by_parent": true,
+        "uncapped_species_value": 100,
+        "uncapped_species_id": "fda2020_ias_infant_rice_cereal_100",
+        "uncapped_species_jurisdiction": "US",
         "binding_parent_value": 50,
         "binding_parent_source": "IN",
-        "reflex_note": "iAs 100 µg/kg is the published species claim; tAs 50 µg/kg is the tighter parent-total claim. Reflex is assay timing, not a reason to omit iAs."
+        "parent_total_tighter": true,
+        "cap_note": "iAs 100 µg/kg (US fda2020_ias_infant_rice_cereal_100) capped by tAs 50 µg/kg (IN in_tas_infant-milk-substitute-and-infant-foods_50) via iAs≤tAs",
+        "reflex_note": "iAs 100 µg/kg (US fda2020_ias_infant_rice_cereal_100) capped by tAs 50 µg/kg (IN in_tas_infant-milk-substitute-and-infant-foods_50) via iAs≤tAs"
       },
       "tHg": {
         "type": "read_across",

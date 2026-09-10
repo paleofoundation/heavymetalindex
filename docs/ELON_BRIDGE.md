@@ -68,6 +68,38 @@ KILL: category sprawl mid-run, calculator, arguing blanks, journalist copy, blin
 
 ## STATUS / ASK / PR / BLOCKER  (Claude Code)
 
+### 2026-09-10T18:05Z · CLAUDE→ELON — STATUS: S-DOI-CANARY-REDO-1 STOPPED as P0 · species-parent-cap landed · olive oil left to S-DOI-OLIVE-1
+
+Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb. Direction: toward the literature (published species cannot exceed parent total).
+
+**Karen P0 replan (this turn).** Olive-oil mint/DOI for Kasandrinos tomorrow is now P0 (`heavymetalcertified` / S-DOI-OLIVE-1). Rice canary is no longer the mint path. Rice remint was already compiled + frozen + tests green, so it is committed as the **species-parent-cap proof**, not as a DOI candidate. No further rice mint work. Olive oil left to the other agent.
+
+**Dependency shipped on HMI.** `tools/standards/species-parent-cap.mjs` (+ tests) is the three-pair kill-gate: iAs≤tAs, MeHg≤tHg, Cr-VI≤Cr. Published species = `min(species floor, parent total)` with disclosed cap. Wired into `compile-cat1.mjs`, `freeze-standard-version.mjs` (freeze FAIL before render), and npm scripts `standards:species-cap:check` / `test:standards:species-cap`. Deliberate iAs 100 > tAs 50 fixture fails freeze and `--check`. Full compiled-tree `--check` is 0 violations after the canary recompile.
+
+**Rice proof only (MINT HOLD).** `baby-cereals-dry-rice-based` v1.3 remint. India tAs 50 re-checked: FSSAI 2011 0.05 ppm = 50 µg/kg for "Infant Milk substitute and Infant foods"; scope matches; remains `gov_floor`. iAs = min(FDA 100, tAs 50) = 50, cap disclosed. Other totals unchanged.
+
+| claim row | v1.2 | v1.3 | disposition |
+|---|---|---|---|
+| Lead (Pb) | 20 EU | 20 EU | gov_floor |
+| Cadmium (Cd) | 40 EU | 40 EU | gov_floor |
+| Total arsenic (tAs) | 50 India | **50 India** | gov_floor |
+| Inorganic arsenic (iAs) | 100 FDA | **50 FDA, capped by tAs 50** | gov_floor |
+| Mercury (tHg) | 8 IL | 8 IL | read_across |
+| Nickel (Ni) | 3000 EU | 3000 EU | gov_floor |
+| Tin (Sn) | 5000 India | 5000 India | gov_floor |
+| Aluminium (Al) | 500 AU-NZ | 500 AU-NZ | read_across |
+| Total chromium (Cr) | 1000 HK | 1000 HK | read_across |
+
+Nine claim rows. Header: `8/8 totals with a published limit · plus Inorganic arsenic (iAs)`. MeHg and Cr-VI remain non-claim reflex metadata (no worldwide infant-rice-cereal ML). No monitored / subsumed / blank on the claim surface.
+
+PDF: `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf` (sha256 `78c43095ea4341ff1ac0d5adaeb18398c951f206bcd48566ace092e9364212ed`). Freeze `--offline`. Claim hash `sha256:a7b99717dfdc6d58584be0903eb20844fb7d84f5880a0b819fbfe533f60a3715`. pdftotext extract (also at `v1.3/text-extract.md`) shows both arsenic rows and `iAs 100 µg/kg (US fda2020_…) capped by tAs 50 µg/kg (IN in_tas_…) via iAs≤tAs`. Tests: 25/25 pass (`species-parent-cap`, freeze, claim-hash).
+
+**Olive-oil handoff (not this agent).** Index compiled `data/workbench/standards/cat30-compiled/olive-oil.json`: tAs 100 Codex `gov`; iAs **subsumed/null** (candidate IL 100 — Part 19 completeness is the cert-repo job); tHg 20 IL; MeHg subsumed; Cr 300 / Cr-VI 10 (already iAs-style physics-safe: 10≤300). Freeze kill-gate will accept current olive JSON (null species is not a violation). S-DOI-OLIVE-1 owns numeric iAs / mint. Dirty rice PR #135 superseded; do not rebase.
+
+**MINT: HOLD** on rice. No DOI. No DataCite write.
+
+**PR:** (this branch `cursor/s-doi-canary-redo-66cd`; supersedes #135)
+
 ### 2026-09-10T17:14Z · CLAUDE→ELON — STATUS: S-DOI-TAS-1 (tAs restored on claim PDF · iAs additional · MINT HOLD)
 
 Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (tAs ≠ iAs; species never substitutes for parent total).
