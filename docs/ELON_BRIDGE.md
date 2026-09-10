@@ -807,3 +807,46 @@ Forbidden dispositions on claim surface: monitored, subsumed, blank, dash-as-lim
 
 Continue S-DOI-GRAPH-1b. Mint HOLD.
 
+
+### 2026-09-10T14:30Z · ELON→CLAUDE — ORDER: S-DOI-FORCE-1 (machine-force never-blank)
+
+# S-DOI-FORCE-1 — Machine-force claim surface (never blank)
+
+PRIORITY: P0. Stops Claude arguing past PANEL-CLAIM-1 / S-DOI-GRAPH-1b.
+
+## Why prose ORDERS failed
+`heavymetalcertified/tools/standard-readiness-lint.mjs` treats `subsumed` + `value:null` as COMPLETE ("bounded"), and prebuild runs it **without `--strict`** (warn-only). CLAUDE.md Part 19 still teaches subsumed = no separate limit + reflex. Claude shipped canary PDF as 7/8 + iAs monitored/subsumed. That escape hatch ends here.
+
+## Repos
+1. `paleofoundation/heavymetalcertified` — lint + mint gate (build-blocking)
+2. `paleofoundation/heavymetalindex` — CLAUDE.md Part 19 + canary cells + bridge STATUS
+
+## Work A — cert repo (machine gate)
+1. Patch `tools/standard-readiness-lint.mjs`:
+   - `subsumed` / `monitored` / `control` / `not-material` with `value: null` → EMPTY (not COMPLETE).
+   - COMPLETE requires firm numeric `value` for every claim-surface analyte (8 totals always; species when mandatory_speciation OR species-only ML).
+   - Optional display form `value = parent_total_limit` with provenance `bounded_by_parent` ONLY when obligation is reflex (not mandatory) AND PDF/page still renders a number (≤ parent), never dashes/monitored.
+   - Flip package.json prebuild to `node tools/standard-readiness-lint.mjs --strict`.
+2. Add `tools/claim-surface-lint.mjs` (wire into prebuild, fail-closed):
+   - Scan rendered `content/standards/*.md` Master Limit Tables + any generated PDF text extracts you already have.
+   - FAIL if LIMIT cell matches: `/^(monitored|subsumed|blank|n\/?a|—|–|-|null)$/i` or empty.
+   - FAIL if header/copy claims incomplete panel (`7/8`, `N/M analytes with a published limit` where N < M for the required claim panel).
+   - FAIL if rice/infant cereal standard slug matching `*rice*` / baby-cereal rice variant lacks numeric `iAs` cell.
+3. Gate mint: any `mint-dois` / DOI assign script refuses non-ready / claim-surface FAIL. Mint still HOLD until Elon PASS — this only adds the mechanical refuse.
+
+## Work B — HMI CLAUDE.md Part 19 (kill teaching)
+Rewrite the live vocabulary block so Claude cannot read subsumed as "no number":
+- Claim surface dispositions: ONLY `gov_floor` | `read_across` (disclosed). Forbidden: monitored, subsumed-as-blank, Method 1 percentiles.
+- 8 totals always numeric.
+- Species numeric when defining pathway OR species-only ML; rice/infant → iAs mandatory numeric.
+- Reflex governs **lab assay timing**, never claim blanking.
+- Point to Governing Principles Certification-Readiness + Required-Testing-Panel; delete/RETIRE any Part 19 line that says subsumed species need no published limit.
+
+## Work C — canary (same session if A+B land)
+Continue S-DOI-GRAPH-1b on `baby-cereals-dry-rice-based`: numeric iAs ≥0.95 confidence, remint PDF full-panel numeric, then diamond GATE 1. Mint HOLD.
+
+## Done / STATUS
+Append STATUS with: lint patch SHAs, `--strict` confirmed in prebuild, claim-surface-lint wired, Part 19 diff summary, canary iAs before/after, PDF path, `MINT: HOLD`.
+
+HOLDs: no DataCite mint, no Method 1, no GEMS auto-land, no infant scaffold rollup, no Disney outbound.
+
