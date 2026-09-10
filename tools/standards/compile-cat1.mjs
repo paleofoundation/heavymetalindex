@@ -26,6 +26,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { applySpeciesParentCap, assertSpeciesLeqParent } from "./species-parent-cap.mjs"
 
 const REPO = process.cwd()
 const args = new Map(process.argv.slice(2).flatMap((a) => (a.startsWith("--") ? [a.slice(2).split("=").concat([""]).slice(0, 2)] : [])))
@@ -272,14 +273,18 @@ function resolveCell(sub, analyte, variant) {
 
 // --- species / parent-total speciation reconciliation -------------------------
 // A toxic species is a COMPONENT of its parent total by identity (iAs ≤ tAs,
-// MeHg ≤ tHg, Cr-VI ≤ total Cr). That identity still governs lot arithmetic.
-// CEO lock 2026-09-10 (CLAUDE.md Part 19 / PANEL-CLAIM-1): it is NOT a claim
-// disposition and it must NEVER mean "no published limit."
+// MeHg ≤ tHg, Cr-VI ≤ total Cr). That identity still governs lot arithmetic
+// AND the published claim numbers (ORDER S-DOI-IAS-CAP-1, not arsenic-only).
 //
-//   KEEP  — the species carries a firm number (gov_floor or read_across). Publish
-//           it even when the parent total is tighter. Rice infant cereal iAs 100
-//           (FDA 2020 / Health Canada) stands beside India tAs 50. Reflex decides
-//           when the species assay is run; it does not erase the species claim.
+//   CAP   — when BOTH cells are numeric, published species =
+//           min(species_gov_or_read_across, parent_total_limit). Provenance
+//           discloses the cap (e.g. FDA iAs 100 capped by India tAs 50 via
+//           iAs≤tAs). The species claim stays numeric. It is never published
+//           above its parent. Compiler FAILS if a species still exceeds its
+//           parent after the cap.
+//
+//   KEEP  — a firm species number at or below the parent is published as-is.
+//           A tighter parent does not blank the species (PANEL-CLAIM-1).
 //
 //   REFLEX metadata only — when the species has no worldwide government ML and
 //           no configured read-across, attach assay-timing metadata. Do not
@@ -302,17 +307,7 @@ function reconcileSpecies(cells, species, parent, ctx = {}) {
   if (!s) return
   const sv = numOf(s)
   const pv = numOf(p)
-  // KEEP: any firm species number is a published claim. A tighter parent total
-  // does not blank it (rice iAs 100 beside tAs 50 is the load-bearing case).
-  if (sv != null) {
-    if (pv != null && sv > pv) {
-      s.parent_total_tighter = true
-      s.binding_parent_value = p.value
-      s.binding_parent_source = p.binding_jurisdiction || p.source_jurisdiction || null
-      s.reflex_note = `${species} ${sv} µg/kg is the published species claim; ${parent} ${pv} µg/kg is the tighter parent-total claim. Reflex is assay timing, not a reason to omit ${species}.`
-    }
-    return
-  }
+  if (sv != null) return
   if (species === "iAs" && ctx.mandatoryIas) {
     throw new Error(`${ctx.slug}: iAs is mandatory-numeric for rice/infant/baby cereal (CLAUDE.md Part 19); compiler produced a blank iAs cell`)
   }
@@ -351,6 +346,8 @@ for (const slug of slugs) {
     reconcileSpecies(cells, "iAs", "tAs", speciesCtx)
     reconcileSpecies(cells, "MeHg", "tHg", speciesCtx)
     reconcileSpecies(cells, "Cr-VI", "Cr", speciesCtx)
+    applySpeciesParentCap(cells, { slug, variant })
+    assertSpeciesLeqParent(cells, { slug, variant })
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))

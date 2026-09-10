@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] schema | s-doi-ias-cap-1 — species claim cannot exceed parent total
+
+Pages touched: `tools/standards/species-parent-cap.mjs`, `tools/standards/compile-cat1.mjs`, `tools/standards/freeze-standard-version.mjs`, CLAUDE.md Part 19, AGENTS.md live lock, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf`, `docs/ELON_BRIDGE.md`.
+Notes: ORDER S-DOI-IAS-CAP-1. Published species ceiling is min(species floor, parent total) for iAs≤tAs, MeHg≤tHg, and Cr-VI≤Cr. Canary iAs moved from 100 (FDA, v1.2 TAS-1) to 50 (FDA 100 capped by India tAs 50) on v1.3. v1.2 kept as the TAS-1 edition. Compiler, freeze, and lint fail if any numeric species exceeds its parent. No DOI minted. Direction: toward the literature (physics identity on the claim surface).
+
 ## [2026-09-10] certification | s-doi-tas-1 — freeze PDF prints tAs and iAs
 
 Pages touched: `tools/standards/freeze-standard-version.mjs`, `tools/standards/hmtc-analyte-panel.mjs`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf`, `docs/ELON_BRIDGE.md`.

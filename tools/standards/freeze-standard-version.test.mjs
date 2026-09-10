@@ -49,8 +49,11 @@ test("rice-cereal canary publishes tAs then iAs as an additional row", () => {
   assert.equal(ias.disp, "Inorganic arsenic (iAs)")
   assert.equal(s.variants.both.tAs.value, 50)
   assert.equal(s.variants.both.tAs.binding_jurisdiction, "IN")
-  assert.equal(s.variants.both.iAs.value, 100)
+  assert.equal(s.variants.both.iAs.value, 50)
   assert.equal(s.variants.both.iAs.binding_jurisdiction, "US")
+  assert.equal(s.variants.both.iAs.capped_by_parent, true)
+  assert.equal(s.variants.both.iAs.uncapped_species_value, 100)
+  assert.ok(s.variants.both.iAs.value <= s.variants.both.tAs.value)
   assert.ok(isFirmClaimCell(s.variants.both.tAs))
   assert.ok(isFirmClaimCell(s.variants.both.iAs))
 })
@@ -95,20 +98,28 @@ test("rice/infant/baby-cereal without firm iAs fails (mandatory species beside t
   )
 })
 
+function pdfText(pdf) {
+  const which = spawnSync("which", ["pdftotext"], { encoding: "utf8" })
+  if (which.status === 0) {
+    const r = spawnSync("pdftotext", ["-layout", pdf, "-"], { encoding: "utf8" })
+    if (r.status === 0) return r.stdout
+  }
+  const py = spawnSync("python3", ["-c", "from pypdf import PdfReader; import sys; r=PdfReader(sys.argv[1]); print('\\n'.join((p.extract_text() or '') for p in r.pages))", pdf], { encoding: "utf8" })
+  if (py.status === 0) return py.stdout
+  return null
+}
+
 test("frozen v1.2 PDF prints Total arsenic (tAs) 50 India and Inorganic arsenic (iAs) 100 FDA", (t) => {
   const pdf = join(REPO, "static/standards", SLUG, "v1.2", "standard.pdf")
   if (!existsSync(pdf)) {
     t.skip("v1.2 snapshot not present")
     return
   }
-  const which = spawnSync("which", ["pdftotext"], { encoding: "utf8" })
-  if (which.status !== 0) {
-    t.skip("pdftotext not installed")
+  const text = pdfText(pdf)
+  if (text == null) {
+    t.skip("pdftotext/pypdf not available")
     return
   }
-  const r = spawnSync("pdftotext", ["-layout", pdf, "-"], { encoding: "utf8" })
-  assert.equal(r.status, 0, r.stderr)
-  const text = r.stdout
   assert.match(text, /Total arsenic \(tAs\)/)
   assert.match(text, /Inorganic arsenic \(iAs\)/)
   assert.match(text, /8\/8 totals with a published limit/)
@@ -119,4 +130,26 @@ test("frozen v1.2 PDF prints Total arsenic (tAs) 50 India and Inorganic arsenic 
   // Substitution guard: India 50 must not be the only arsenic row, and must not be labeled iAs.
   const iasIndia50 = /Inorganic arsenic \(iAs\)[^\n]*50[^\n]*India/.test(text)
   assert.equal(iasIndia50, false, "India 50 must not be labeled as iAs")
+})
+
+test("frozen v1.3 PDF prints tAs 50 India AND iAs 50 FDA with disclosed parent cap", (t) => {
+  const pdf = join(REPO, "static/standards", SLUG, "v1.3", "standard.pdf")
+  if (!existsSync(pdf)) {
+    t.skip("v1.3 snapshot not present")
+    return
+  }
+  const text = pdfText(pdf)
+  if (text == null) {
+    t.skip("pdftotext/pypdf not available")
+    return
+  }
+  assert.match(text, /Total arsenic \(tAs\)/)
+  assert.match(text, /Inorganic arsenic \(iAs\)/)
+  assert.match(text, /8\/8 totals with a published limit/)
+  assert.match(text, /plus Inorganic arsenic \(iAs\)/)
+  assert.match(text, /Total arsenic \(tAs\).*50.*India.*gov_floor/s)
+  assert.match(text, /Inorganic arsenic \(iAs\).*50.*US-FDA.*gov_floor/s)
+  assert.match(text, /min\(species floor, parent total\)|iAs ≤ tAs|capped by/i)
+  assert.doesNotMatch(text, /9\/9/)
+  assert.doesNotMatch(text, /8\/8 analytes with a published limit/)
 })
