@@ -818,3 +818,35 @@ ORDER S-DOI-FORCE-1 executed. Cert IS reachable + writable from this attended se
 ### 2026-09-10T17:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-10T17:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-10T16:10Z); standing by. Open items unchanged and all HELD pending an ELON reply: corpus fan-out ORDER (numeric species recompile + Cr-class per-matrix retag, each page version-bumping) — the single lever that turns the intentionally-RED cert claim-surface/readiness gates green; the Cr-class governance ruling; S-DOI-1b/1c corrected-canary PASS acceptance + fan-out lane and batch size; GATE 1 custody choice; and the HMI-GAP-1c residual ASK. No mint, no push, no seal, no fan-out.
+
+### 2026-09-10T17:18Z · CLAUDE→ELON — STATUS: S-DOI-TAS-1 (freeze PDF dropped tAs — fixed; canary reminted tAs 50 + iAs 100, 9 rows)
+
+ORDER S-DOI-TAS-1 executed. Root cause found and fixed; canary reminted; fail-guard added; header made honest. Local only; MINT HOLD; no push/seal/fan-out.
+
+**ROOT CAUSE.** `freeze-standard-version.mjs`'s `ANALYTES` list carried `iAs` in a totals slot and had **no `tAs` entry at all** — so the PDF rendered Inorganic arsenic (the species) and silently dropped Total arsenic (the total). The compiled JSON always had both; the renderer's analyte list was the bug.
+
+**FIX.**
+- `ANALYTES` is now the **8 totals (Pb, tAs, Cd, tHg, Ni, Al, Sn, total-Cr) + iAs = 9 rows.** tAs restored; iAs kept as the speciated companion. MeHg/Cr-VI are reflex species (carry their parent's number), not separate rows.
+- **Fail-closed guard** `assertArsenicIntegrity()` throws before any PDF is written if a variant has no numeric `tAs`, or publishes `iAs` without `tAs`. Verified: stripping tAs → freeze **exits 1** with a clear refusal. The "iAs-instead-of-tAs" class of bug can no longer ship silently.
+- **Compiler:** a species with its OWN direct sovereign limit now publishes it (rice **iAs = US FDA 100**, `fda2020_ias_infant_rice_cereal_100`), instead of being bounded to the total. The parent total **tAs = 50 (India)** is a separate row and binds independently (tighter). Both published; a certified lot meets both. Species with no direct limit (MeHg, Cr-VI here) still publish their numeric parent bound (8, 1000).
+- **Header does not lie:** version line auto-reads **"9/9 analytes with a published limit"**; the Tier-1 note now says "arsenic — total and inorganic".
+
+**CANARY REMINT — v4.0** (`baby-cereals-dry-rice-based`), PDF `sha256:0294bc9d…`, 9-row claim surface:
+
+| Analyte | Limit (ppb) | Jurisdiction | Disposition |
+|---|---|---|---|
+| Pb | 20 | EU | regulatory-alignment |
+| **tAs** | **50** | **India** | **regulatory-alignment** |
+| **iAs** | **100** | **US-FDA** | **regulatory-alignment** |
+| Cd | 40 | EU | regulatory-alignment |
+| tHg | 8 | Israel | read_across |
+| Ni | 3000 | EU | regulatory-alignment |
+| Al | 500 | AU-NZ | read_across |
+| Sn | 5000 | India | regulatory-alignment |
+| Cr | 1000 | HK | regulatory-alignment |
+
+Edition bumped **3.0 → 4.0** (material: iAs 50→100 gov, tAs restored as a row), claim_hash `sha256:92c2fee3…`; `claim-hash --check` PASS, `lint-version-integrity` PASS. Part 19 claim-surface rule reconciled (species publish their own direct limit when it exists; 8 totals + iAs = 9 rows; tAs never dropped). Commits `2f6f0667` (fix), edition record, `docs(part19)`. GATE 1 dual-custody rebuilt on v4, both pending.
+
+**NOTE for the corpus fan-out:** the compiler now KEEPs a species' own direct ML even when looser than the parent. For infant rice cereal that is exactly right (iAs 100 / tAs 50). Before recompiling **seafood** (where a direct MeHg ML co-exists with a tHg total), verify the intended pair renders — flagged in the fan-out ledger item.
+
+**ASK:** none new. Standing holds unchanged (corpus fan-out ORDER, Cr-class ruling, GATE 1 custody). No mint/push/seal/fan-out taken.
