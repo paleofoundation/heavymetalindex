@@ -513,7 +513,107 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-241 open item(s): 78 auto, 163 awaiting a decision.
+253 open item(s): 89 auto, 164 awaiting a decision.
+
+### OI-20260910-tds-extract-completeness — Reconcile the truncated FDA FY2018-2020 TDS extract against full primary coverage
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`, `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`
+- repro: A1: only 90 of 307 primary food IDs are loaded; extract ends mid-panel at food183; 217 absent from this extraction, with partial alias recovery elsewhere. Recorded original CSV/key paths fail and supplement mean/SD fields are omitted.
+- done when: Full primary CSV preserved with verified identity and resolvable provenance; Every primary food/analyte/statistic has an evidence row or explicit audited disposition; Related source aliases reconciled, affected destinations regenerated, ingest checks pass
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-tds-censoring-profiles — Correct non-detect profiles and validate censoring regardless of confidence or study count
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `tools/audit-contamination-profile-integrity.mjs`, `tools/populate_contamination_profiles.py`, `wiki/ingredients/whole-milk.md`
+- repro: A3:258 exact-zero profile pairs across78 pages overlap fully zero-coded FDA summaries; whole-milk tAs/U ND is primary-confirmed. Current integrity check returns zero failures.
+- done when: Raw zero codes preserved with explicit censoring/reporting limits; Existing affected profiles re-adjudicated against all contributors; Bare measured-zero profiles cannot pass solely because n_studies<3 or confidence is low
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-tds-alias-candidate-adjudication — Correct unpromoted FDA report alias candidates before any promotion
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `data/evidence/category1_autonomy_extracted_summary.csv`
+- repro: Primary-audit follow-up:rows199-202 take next-highest figures as maxima and dataset-global N3276 as analyte-specific N;row203 puts canned-tuna mean230 into baby-food scope. Rows are explicitly Validate before promotion, not demonstrated public corruption.
+- done when: AI adjudication corrects statistic scope sample N and product fit from primary text; Canned-tuna statistic cannot route as baby-food occurrence; Candidate state retained until provenance and fit validated
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-source-contract-policy-sync — Reconcile conflicting mandatory source templates and ingest/publication contracts
+
+- scope: **human-gated** · type: finding · status: staged · repo: index
+- paths: `AGENTS.md`, `CLAUDE.md`, `docs/page-templates.md`, `wiki/methodology/persistent-wiki-ingest-rule.md`, `docs/governance/hmtc-governing-principles.md`, `tools/evidence/build-routing-audit.mjs`, `quartz/plugins/filters/draft.ts`
+- repro: A7:source template omits required metadata and encourages public ingest notes; mandatory methodology carries retired percentile guidance; routing blocks only cite_key despite stronger documented contract. Pending-publication gap is latent, zero current pending sources.
+- done when: Policy owners approve coherent current wording without reviving retired limit arithmetic; Source contract distinguishes public science private ingest and evidence-fitness metadata; Validators enforce adopted contract and prevent pending evidence publication; Metadata candidate sets dispositioned without treating heading absence as evidence unfitness
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- decision: _pending_
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-source-body-internal-notes — Keep internal ingest notes out of public scientific source prose and check entire bodies
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `tools/audit-page-history-leaks.mjs`, `tools/strip-internal-manual-refs.mjs`, `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
+- repro: A5:live TDS page publishes Kimi recovery paths and frontmatter-maintenance narrative;1538 local source bodies match internal-path patterns and452 match toolchain terms; candidates require semantic adjudication. Footer guard passes.
+- done when: Internal records retained outside public scientific prose; Whole-body checks catch confirmed internal operational narratives; Candidate sets reviewed without blanket deletion of valid scientific content
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-profile-provenance-basis — Bind ingredient values and citations to the same species-and-basis evidence rows
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `tools/populate_contamination_profiles.py`, `tools/build-ingredient-contamination-tables.mjs`, `wiki/ingredients/cucumber.md`, `wiki/ingredients/strawberries.md`
+- repro: A2:14 FDA iAs citations have no matching food/species evidence. Cucumber/strawberry values match GEMS; selector drops basis and renderer retains old FDA citations.
+- done when: No displayed value has an unsupported source-food-species attribution; Food/metal selections preserve basis geography time and source identity; Each flagged profile is source-adjudicated with conversion or exclusion logged
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-live-evidence-pins — Restore verifiable commit pins and matching hash semantics in published evidence packets
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `tools/build-evidence-packet-index.mjs`, `api/evidence-packet.mjs`
+- repro: A4:all4077 live export records have null commit SHA/date but endpoint attests specific commit pinning; non-null verify branch hashes full Markdown while stored hash excludes frontmatter.
+- done when: Every complete published packet identifies the exact reproducible snapshot; Verification hashes exactly the same bytes as generation; Missing provenance is honestly represented and cannot receive complete-pinning attestation; Live deployment checks validate commit and body hash
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+
+### OI-20260910-library-scoped-hook-index — Pre-commit hook stages undeclared routing outputs into scoped commits
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/commit-scoped.sh`, `.husky/pre-commit`
+- repro: Library commit55d5fad21b captured three undeclared routing CSVs despite pathspec. Wrapper detected violation; unpushed commit amended to8b5a47da8c. Temporary hook runs all checks against copied index safely.
+- done when: A source-page pathspec commit includes only declared paths even when routing audit git-adds output.; All existing routing DOI and wiki-audit gates still run; tests cover hook-mutated index.
+
+### OI-20260910-library-flores-duplicate-metadata — Correct Flores-Bazan2024 pregnancy vitamin-D review legacy source identity
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/sources/authors2000-interplay-between-vitamin-d-levels-and-heavy-metals.md`
+- repro: RPIS_8 DOI10.3390/pathophysiology31040048 matched existing placeholder key; PDF first page proves Flores-Bazan2024 Pathophysiology31:660-679. Four-page fire cap reached before this separate full correction.
+- done when: Full main-PDF read and five-check audited canonical correction with actual authors2024 journal metadata.; Route biomarker/health review as secondary evidence; preserve all traceable source figures without product attribution.
+
+### OI-20260910-library-context-empty-arrays — Routing malformed advisory treats intentional context-only empty arrays as missing
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/build-routing-audit.mjs`, `data/evidence/routing_malformed.csv`
+- repro: Valid lane a2/a3/a4 source pages explicitly declare products:[] ingredients:[] per Library instructions yet are emitted as malformed advisory. mahmood review correctly has jurisdictions:[] with no sampling market.
+- done when: Distinguish explicit legitimate empty arrays from absent routing keys without weakening occurrence requirements.; Regression checks cover soil urine and remediation review sources and malformed product occurrence metadata.
+
+### OI-20260910-legacy-source-metadata-recovery — Recover declared provenance and Evidence Fitness metadata for legacy source records
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/source_contract_gaps.json`, `tools/evidence/audit-source-contract.mjs`, `wiki/sources`
+- repro: The corpus contract audit records legacy missing or unstructured provenance, access and fitness metadata. These are metadata gaps, not adjudicated evidence-unfitness findings.
+- done when: AI recovers access and raw hashes from identifiable preserved primary sources without fabricating provenance; AI classifies supports and does_not_support from source scope, retaining explicit missing-retrieval or low-confidence dispositions; Completed-ingest declarations pass metadata, extraction and routing reconciliation; pending sources remain excluded from public exports
+- evidence: docs/audits/2026-09-10-fda-tds-repair.md · data/evidence/source_contract_gaps.json
 
 ### OI-20260910-infant-formula-scaffold-duplicates-locked-rows — infant-formula and infant-rice-cereal are provisional scaffolds duplicating locked HMTc rows whose pages are already populated
 
@@ -532,6 +632,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A declared, auditable GEMS/TDS food-name to HMTc product-row admission map exists as config, not hand-edited page tables; A censoring substitution rule and the 10M ppb extreme-value filter are signed off before any GEMS value lands on a page; GEMS lower-bound percentiles are labelled as lower bounds, never presented as central estimates; beef-product, poultry-product and game-meats render primary numeric rows
 - decision: _pending_
 - notes: GATED by memory project_gems_food_data: the GEMS-food to wiki-slug crosswalk plus censoring/basis methodology sign-off is explicitly Do-NOT-auto-land, needs Karen plus methodology sign-off. GEMS is ~47% censored and reports lower bounds, so landing it without a substitution rule reproduces the censored-zero artifact that tools/audit-contamination-profile-integrity.mjs is build-blocking against.
+
+### OI-20260910-dataset-download-contract — Make dataset downloads reachable and label evidence manifests accurately
+
+- scope: **auto** · type: finding · status: staged · repo: index
+- paths: `quartz/components/Rail.tsx`, `api/evidence-packet.mjs`, `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
+- repro: A6:PDF label points to JSON-only API, structured-data link gives corpus metadata manifest, and actual sample/summary paths are unlinked inline code.
+- done when: PDF and JSON labels match delivered response types; Dataset source pages link versioned samples summaries and routes; Download smoke tests validate content type and expected schema
+- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- notes: 
+Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
 
 ### OI-20260910-basis-cell-freetext-overflow — Basis cells on category6/7 derived product tables dump every free-text basis string, mixing as_sold and as_consumed in one cell
 
@@ -562,9 +672,10 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 - scope: **auto** · type: code-fix · status: open · repo: index
 - paths: `quartz/styles/v3-chrome.scss`, `quartz/components/styles/topNav.scss`, `quartz/components/styles/footer.scss`
-- repro: At a 390px fixed browser frame, the shared Index Pro link extends to x469 and footer links to x405. The author-profile body and hero fit within 390px and their columns align. The same overflow is present on the synthesis page.
-- done when: Header and footer fit a 390px viewport while preserving navigation access; No document-level horizontal scrolling on reference or author pages
-- notes: Outside the author/profile changes; recorded during responsive verification.
+- repro: At a 390px fixed browser frame, the shared Index Pro link extends to x469 and footer links to x405. The author-profile body and hero fit within 390px and their columns align. The same overflow is present on the synthesis page. Follow-up 2026-09-10: after the homepage mobile-navigation repair, CUA at a 390px viewport confirms navigation and hero controls fit, while document.scrollWidth is 409px. The footer Editorial standards link (/editorial-standards) reaches x404.9 and Errata and revisions (/errata) reaches x398.8 within their list items. The remaining overflow is in the preexisting footer.
+- done when: Header and footer fit a 390px viewport while preserving navigation access; No document-level horizontal scrolling on reference or author pages; Footer links and their list items fit within both 320px and 390px viewports, with document.scrollWidth no greater than document.documentElement.clientWidth at either width
+- evidence: Parent CUA responsive verification on 2026-09-10: viewport 390px; document scrollWidth 409px; footer link right edges 404.9px and 398.8px; all navigation and hero controls fit.
+- notes: Outside the author/profile changes; recorded during responsive verification. The 2026-09-10 homepage/hero task reconfirmed residual footer overflow. Inspect unlayered v3 footer sizing against legacy responsive rules; this remains outside the authorized hero/navigation edit scope.
 
 ### OI-20260909-method-v2-spec-percentile-reconcile — Reconcile canonical Method v2.0 spec to the government-limit CEO lock (percentile still defined as live)
 

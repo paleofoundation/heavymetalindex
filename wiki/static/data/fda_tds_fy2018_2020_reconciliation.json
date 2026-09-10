@@ -87,8 +87,8 @@
       "bytes": 407
     },
     "fda_tds_fy2018_2020_ingredient_routes.csv": {
-      "sha256": "56914e95e636a390bf85e098e10957cce19e261649240c758be1013991529f53",
-      "bytes": 95643
+      "sha256": "c68c1ad42614033dcb2e50270571b381e7c364dfd30553c90081b01e7ecc428a",
+      "bytes": 95335
     }
   },
   "verification_mode": "primary_source_reconciliation",

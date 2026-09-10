@@ -216,10 +216,9 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
           <span data-hmi-share-status role="status" aria-live="polite" />
         </div>
         <p class="hmi-cite-note">
-          The evidence packet is a JSON manifest pinning this page to its current
-          published git commit, with the SHA-256 of the body and the contributing
-          source list. It is designed for use as a litigation exhibit, regulatory
-          submission, or peer-review supplementary record. See{" "}
+          The evidence packet is a JSON manifest with page checksums, contributing
+          sources, and available data downloads. It states whether the page has a
+          verified Git revision and provides a verification command when available. See{" "}
           <a href="/methodology">methodology</a> and{" "}
           <a href="/errata">errata</a> for how the underlying evidence is selected
           and corrected.
