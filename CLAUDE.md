@@ -305,13 +305,24 @@ When a decision is staged in the workbench, one rationale tag is required. The v
 
 - `regulatory-alignment` — the strictest applicable finalized government maximum is the binding value, converted to the row's native basis. Direct governance.
 - `read-across` — no government anywhere regulates the cell, so the nearest applicable sovereign value on that basis is adopted and disclosed as a read-across. Never presented as direct governance.
-- `subsumed` — a speciated analyte with no separate limit of its own (iAs, MeHg, Cr-VI) bounded by its parent total and measured by reflex when the total is exceeded.
+- `subsumed` — a speciated analyte (iAs, MeHg, Cr-VI) governed by its parent total (iAs≤tAs, MeHg≤tHg, Cr-VI≤total-Cr). It **publishes the numeric parent-bound ceiling as its own claim value** and inherits the parent's jurisdiction and claim disposition; reflex speciation is the assay timing (measure the species only when the total is exceeded), NOT a reason to blank the cell. The reading "subsumed means no published limit" is RETIRED (S-DOI-FORCE-1, 2026-09-10). The only case a subsumed cell carries `value: null` is where the parent itself has no numeric ceiling (genuinely no number to bound to).
 - `precautionary` — the program holds the cell below the strictest applicable government floor as a disclosed choice, with documented rationale. A published value is never looser than the strictest applicable law.
 - `not-material` — a substantiated, rebuttable determination that the analyte is not material to the cell, subject to the not-material integrity gate.
 - `control` — the cell is governed by a process control rather than a numeric ceiling.
 - `baseline-screen` — no ML, pathway, occurrence or analog exists, so the cell resolves to a method-LOQ baseline limit-of-record.
 
 The gap between the government floor and the final value is stated honestly. Failing to name the rationale is the lint failure.
+
+#### Claim-surface completeness (live rule; S-DOI-FORCE-1, 2026-09-10)
+
+Two layers, do not conflate them. The **claim surface** is what a published standard shows the customer/auditor/plaintiff: one row per panel analyte. The **derivation provenance** (the tag vocabulary above) records HOW that number was set. The rule governs the claim surface:
+
+- **Every published claim cell is numeric.** No panel cell ever ships as blank, `monitored`, a dash, or `subsumed`-as-blank. On the claim surface the disposition reads as `gov_floor` (regulatory-alignment) or `read_across` — always resolving to a number. The richer derivation tags (`precautionary`, `not-material`, `control`, `baseline-screen`) still describe HOW a number was derived, but for a **panel analyte they must resolve to a published number** — a `not-material`/`control` cell that renders `value: null` is a defect (this is the Certification-Readiness Ruling, line ~262).
+- **The 8 totals (Pb, Cd, tAs, tHg, Ni, Al, total-Cr, Sn) are always numeric.**
+- **A speciated analyte publishes its numeric parent-bound ceiling** (iAs≤tAs, MeHg≤tHg, Cr-VI≤total-Cr) and inherits the parent's jurisdiction + disposition. **A rice / rice-based product's iAs is mandatory numeric.** Reflex speciation = assay timing, not blanking.
+- Enforced mechanically: cert `tools/standard-readiness-lint.mjs` (a subsumed/monitored/null cell is EMPTY, not COMPLETE) and `tools/claim-surface-lint.mjs` (fails any monitored/subsumed/dash/empty LIMIT, an incomplete N/M header, or a rice standard missing numeric iAs); mint scripts refuse on a claim-surface FAIL.
+
+CROSS-REPO NOTE (not silently reconciled): the cert `data/method/method-v2.json` `rationale_tags` and `method-drift-lint` still carry the fuller C-2 vocabulary as *derivation* tags. That is correct — the claim-surface rule sits above them and does not delete them. Any move to collapse the cert spec's tag set itself is a separate, coordinated cross-repo change, ledgered, not done from the index side.
 
 See [[docs/standards-methodology]] and [[docs/schema-history]] for the RETIRED percentile material (pool admission rules, pooling math, sensitivity bands, the row-pass calibration behind P97/P45, the clean/dirty subcategory framework, and the older "clean-platform / contaminated-platform" P90/P10/P20 framework). That material is historical reference only. It sets no live cell, and descriptive occurrence percentiles cited on generated pages are literature facts carrying no compliance weight.
 
