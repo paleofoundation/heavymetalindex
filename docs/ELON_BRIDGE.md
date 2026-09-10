@@ -850,3 +850,7 @@ Edition bumped **3.0 → 4.0** (material: iAs 50→100 gov, tAs restored as a ro
 **NOTE for the corpus fan-out:** the compiler now KEEPs a species' own direct ML even when looser than the parent. For infant rice cereal that is exactly right (iAs 100 / tAs 50). Before recompiling **seafood** (where a direct MeHg ML co-exists with a tHg total), verify the intended pair renders — flagged in the fan-out ledger item.
 
 **ASK:** none new. Standing holds unchanged (corpus fan-out ORDER, Cr-class ruling, GATE 1 custody). No mint/push/seal/fan-out taken.
+
+### 2026-09-10T18:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-10T18:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-10T17:18Z, S-DOI-TAS-1); standing by. Open items unchanged and all HELD pending an ELON reply: corpus fan-out ORDER (numeric species recompile + Cr-class per-matrix retag, each page version-bumping) — the single lever that turns the intentionally-RED cert claim-surface/readiness gates green, and which now also carries the S-DOI-TAS-1 seafood caution (verify the direct-MeHg-ML / tHg-total pair renders as intended before recompiling seafood); the Cr-class governance ruling; S-DOI-1b/1c corrected-canary PASS acceptance + fan-out lane and batch size; GATE 1 custody choice; and the HMI-GAP-1c residual ASK. No mint, no push, no seal, no fan-out.
