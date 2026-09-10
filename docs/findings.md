@@ -513,7 +513,41 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-235 open item(s): 78 auto, 157 awaiting a decision.
+241 open item(s): 78 auto, 163 awaiting a decision.
+
+### OI-20260910-infant-formula-scaffold-duplicates-locked-rows — infant-formula and infant-rice-cereal are provisional scaffolds duplicating locked HMTc rows whose pages are already populated
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/products/infant-formula.md`, `wiki/products/infant-rice-cereal.md`, `wiki/products/baby-cereals-dry-rice-based.md`
+- repro: ORDER HMI-GAP-1c (18:12Z NOTE) asks to regenerate infant-formula from structured evidence. Its structured rows are filed under the six locked subcategory slugs (infant-formula-powder-non-soy, -powder-soy-based, -rtf-liquid-non-soy, -concentrated-liquid-*, -dairy-free), whose pages already render populated tables. Both infant-formula.md and infant-rice-cereal.md carry provisional_scaffold: true and hmtc_category: pending_taxonomy_review. infant-rice-cereal duplicates baby-cereals-dry-rice-based, the S-DOI-1b page of record.
+- done when: Karen rules whether infant-formula and infant-rice-cereal become umbrella pages, redirect to the locked rows, or are merged away; If umbrella pages are kept, a basis-preserving rollup rule is defined that does not pool as_sold powder with as_consumed RTF in one range cell
+- decision: _pending_
+- notes: Not a wiring defect. Rolling the six subcategory registers up into the parent scaffold would conflate as_sold and as_consumed bases in one range cell (CLAUDE.md Part 14) and would derive page content from a scaffold that has not cleared a Step 0 Lock (Part 10). Part 10 also reserves merging distinct pages that cover overlapping literature to Karen. Held rather than executed.
+
+### OI-20260910-gems-tds-product-row-admission-map — beef/poultry/game product tables stay data-gap: no GEMS/FDA-TDS food-name to HMTc-row admission map exists
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminant.csv`, `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`, `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`
+- repro: After the HMI-GAP-1c wiring fix, wiki/products/{beef-product,poultry-product,game-meats}.md still render commodity-synthesis context only. Their numeric rows live in the GEMS and FDA TDS registers, which are keyed on food_name / tds_food_description, not on a product row_slug. Reed tickets HMI-GAP-wire-{beef,poultry,game-meats} carry the per-food admit/reject adjudication (Cattle meat admitted; Cattle milk/liver/kidney/fat/offal and multi-species pools rejected).
+- done when: A declared, auditable GEMS/TDS food-name to HMTc product-row admission map exists as config, not hand-edited page tables; A censoring substitution rule and the 10M ppb extreme-value filter are signed off before any GEMS value lands on a page; GEMS lower-bound percentiles are labelled as lower bounds, never presented as central estimates; beef-product, poultry-product and game-meats render primary numeric rows
+- decision: _pending_
+- notes: GATED by memory project_gems_food_data: the GEMS-food to wiki-slug crosswalk plus censoring/basis methodology sign-off is explicitly Do-NOT-auto-land, needs Karen plus methodology sign-off. GEMS is ~47% censored and reports lower bounds, so landing it without a substitution rule reproduces the censored-zero artifact that tools/audit-contamination-profile-integrity.mjs is build-blocking against.
+
+### OI-20260910-basis-cell-freetext-overflow — Basis cells on category6/7 derived product tables dump every free-text basis string, mixing as_sold and as_consumed in one cell
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`, `wiki/products/chocolate.md`, `wiki/products/cooking-oils-other.md`
+- repro: After the HMI-GAP-1c wiring fix, wiki/products/chocolate.md Cd renders a Basis cell listing 17 distinct free-text basis strings, including both as-sold and prepared/as-consumed German MEAL basis, in a single cell alongside one pooled range. The category1 register uses short normalized basis tokens (as-sold, prepared-for-feeding), so its pages read cleanly; category6/7 registers carry long per-source prose in the basis column.
+- done when: Basis strings are normalized to a bounded token set, or the cell reports the distinct bases with a count rather than the full list; A range cell never pools as_sold and as_consumed values without saying which basis the reported central figure is on
+- notes: Pre-existing generator behaviour, newly visible because these cells were empty before. Honest but unreadable, and the as_sold/as_consumed mixing is a basis-conflation risk under CLAUDE.md Part 14. Out of scope for the HMI-GAP-1c wiring order; logged rather than chased.
+
+### OI-20260909-readacross-basis-facevalue — Read-across cells apply as_consumed sovereign limits at face value to as_sold products (basis inconsistency; conservative but unclean provenance)
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`
+- repro: Canary A: tHg 8 (IL FCS-2016 as_consumed porridge) and Al 500 (FSANZ Sch19 as_consumed formula) applied face-value to an as_sold dry cereal. Over-strict (fail-safe, never looser than law) so passes method-lock, but basis differs from the page native_basis. Recurs across every read-across cell corpus-wide.
+- done when: Corpus-wide basis policy for read-across cells decided: disclose basis-mismatch explicitly and/or convert; no number changed without STATUS delta
+- decision: _pending_
 
 ### OI-20260909-olive-oil-product-summary-coverage — Trace olive-oil source coverage into the product occurrence summary
 
@@ -534,26 +568,27 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 
 ### OI-20260909-method-v2-spec-percentile-reconcile — Reconcile canonical Method v2.0 spec to the government-limit CEO lock (percentile still defined as live)
 
-- scope: **human-gated** · type: decision · status: open · repo: index
+- scope: **human-gated** · type: decision · status: queued · repo: index
 - paths: `data/method/method-v2.json`, `CLAUDE.md`, `tools/standards/method-drift-lint.mjs`
 - repro: Cert-repo C-1 STATUS (2026-09-09T10:46Z, heavymetalcertified/docs/ELON_BRIDGE.md) raised an ASK that is index-repo work and was not ledgered in either repo: data/method/method-v2.json, the method-drift lint, and CLAUDE.md Part 19 still define selective percentile-pooling (P97/P45, literature-baseline) as live Method v2.0, while the shipped data and the cert public pages have moved to strictest-government-limit + disclosed read-across. Two named options: (A) retire percentile from the spec and flip the percentile signatures requires_anchor->forbidden in the lint - the forbidden regex must NOT match the ~85 generated pages that cite descriptive occurrence P95/P97 or the build breaks; or (B) keep it dormant-but-documented if NOT LIVE means not currently producing cells. Human-gated: it is a policy-doc/method-definition edit awaiting a named A-or-B decision from Elon/Karen, and it blocks a clean C-PUSH on the cert repo.
 - done when: A named decision (A or B) is recorded before any edit to data/method/method-v2.json or CLAUDE.md Part 19; If A: percentile-pooling retired from the spec, method-drift-lint percentile signatures flipped to forbidden, and a full build proves the forbidden regex does not match the ~85 generated pages citing descriptive occurrence P95/P97; If B: the spec and Part 19 state explicitly that percentile-pooling is dormant and not producing cells, with no lint change; Part 19 of CLAUDE.md and data/method/method-v2.json agree with each other and with the shipped government-limit data after the change
+- decision: **APPROVE: Option A, named by ELON ORDER C-2 (2026-09-09T11:32Z) — retire percentile from the LIVE method definition. Executed: cert spec data/method/method-v2.json (4d21583) + method-drift-lint forbidden signatures with the descriptive-P95/P97 false-positive guard held (0 live-page hits, 47 descriptive pages stay legal); index CLAUDE.md Part 19 (54a731ef6) + rationale-tag vocabulary reconciled to the live set this run. No numeric ceiling changed. Residual data-tag residue tracked separately as OI-20260909-literature-baseline-tag-residue.**
+
+### OI-20260909-literature-baseline-tag-residue — 3 live cert standard pages + standards.json still carry the retired literature-baseline rationale tag (percentile-era data residue)
+
+- scope: **human-gated** · type: finding · status: open · repo: cert
+- paths: `content/standards/butter-and-ghee.md`, `content/standards/infant-formula-powder.md`, `content/standards/mixed-meals.md`, `content/static/data/standards.json`
+- repro: grep -rl 'literature-baseline' ~/Desktop/heavymetalcertified/content returns 3 md pages + standards.json. These are generated; the tag originates in the compiled record / index config (index->cert compile). C-2 retired literature-baseline from the method vocabulary but forbade changing numeric ceilings, so the tag was left in place.
+- done when: the 3 pages + standards.json carry no literature-baseline tag; each affected cell re-tagged to its true live basis (regulatory-alignment/read-across/precautionary/etc.) at the compiled/index source, not hand-edited on the generated page; published numeric ceiling for each affected cell unchanged unless a separate ceiling decision is made; after re-tag, method-drift-lint can add a bare literature-baseline forbidden token without breaking the build
 - decision: _pending_
 
-### OI-20260909-hero-preview-promotion — Promote the burgundy article hero after release checks pass
+### OI-20260909-legacy-wiki-link-gaps — Adjudicate legacy missing wiki destinations and prevent new broken links
 
-- scope: **auto** · type: promote · status: open · repo: index · blocked_on: OI-20260909-hero-baseline-validation
-- paths: `quartz/components/HeroBand.tsx`, `quartz/components/styles/heroBand.scss`, `quartz/styles/v3-chrome.scss`, `quartz/static/authors/karen-pendergrass.png`, `quartz/styles/article-layout.scss`, `quartz/styles/custom.scss`, `quartz/components/authorIdentity.tsx`, `quartz/components/scripts/authorCard.inline.ts`, `quartz/components/pages/Content.tsx`, `quartz/components/Rail.tsx`, `quartz/styles/author-profile.scss`, `quartz/static/authors/karen-pendergrass-hmi.webp`, `wiki/authors/karen-pendergrass.md`, `wiki/about.md`
-- repro: The local hero preview now includes the supplied branded portrait, accessible author hover card, dedicated author profile, exact rail geometry, and prominent synthesis DOI treatment. Production has not been deployed.
-- done when: Resolve OI-20260909-hero-baseline-validation; Run normal release checks and deploy verified hero and article-layout changes without unrelated working-tree edits
-- notes: Author facts and work history verified against public ORCID and WikiBiome. See docs/design/author-profile-2026-09-09.md. Existing unrelated release blockers retained.
-
-### OI-20260909-hero-baseline-validation — Repository-wide checks fail outside the HMI hero redesign
-
-- scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `tsconfig.json`, `tools/publication/build-state-of-food-report.test.mjs`
-- repro: npm run check includes the separate untracked sites/ics Next/vinext app and fails its types; npm test fails the state-of-food report count assertion (25 actual, 24 expected). Focused Quartz type check and site build pass.
-- done when: npm run check exits zero for the intended HMI TypeScript project; npm test passes with the current synthesis inventory
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/link-integrity-gaps.csv`, `tools/audit-link-integrity.mjs`
+- repro: Release audit at 7b92379b0 records 1117 origin/target pairs covering 557 missing body-wikilink targets; compiled-output triage confirmed 483 targets rendered publicly across 989 origin/target pairs. Existing code fixes validate automatic destinations; the remaining gaps come from authored legacy links and missing pages.
+- done when: Every ledger row is repaired using a verified canonical destination or retained with a specific missing-source/page disposition; no blanket aliases or pending-evidence promotion; Add a regression gate that prevents growth in unresolved published targets while preserving an explicit legacy baseline
+- notes: The requested synthesis article now has no broken internal destinations or section anchors. This follow-up covers the older corpus backlog, primarily source records, and must preserve species distinctions, source identity, and routing evidence.
 
 ### OI-20260909-h7-onboarding-finder-ungate — ORDER H-7: un-gate the onboarding Standards Finder (single-standard lock is wrong for multi-product brands)
 
@@ -569,6 +604,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/synthesis/`
 - repro: On many synthesis pages the inline [[sources/..|Author Year]] citation is authored AS the sentence subject (e.g. "Porwollik and Jafari 2026, published in PLOS ONE, found..."). The superscript-citation system (website client script + now the PDF) replaces the author-year with a raised number, so the sentence reads "1, published in PLOS ONE, found..." — grammatically the subject is gone. This is pre-existing website behavior, now mirrored in the PDF (parity). Fixing requires re-authoring the prose so the citation is clause-final/parenthetical rather than the subject. Not a rendering bug.
 - done when: Audit synthesis pages for citation-as-subject constructions; Re-author so superscript citations attach to a complete clause, not replace the subject; Web and PDF both read as narrative prose with trailing superscripts
+- decision: _pending_
+
+### OI-20260909-babycereals-slug-mismatch — version-history slug mismatch: baby-cereals-dry vs baby-cereals-dry-rice-based
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/standards/version-history/baby-cereals-dry.json`, `data/standards/version-history/baby-cereals-dry-rice-based.json`
+- repro: S-DOI-1b page of record is baby-cereals-dry-rice-based; pre-existing version-history record is baby-cereals-dry. New record created under correct slug; older record needs reconcile/merge or explicit scope split.
+- done when: baby-cereals-dry vs baby-cereals-dry-rice-based version-history records reconciled or intentionally scope-split with a note
+- decision: _pending_
+
+### OI-20260909-agents-percentile-residue — AGENTS.md lines 72-124 still carry live-percentile limit-setting prose (P97/P45) contradicting the 2026-09-09 method lock
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `AGENTS.md`
+- repro: grep -n "pooled P97" AGENTS.md → line 124 reads as live limit-setting (clean=pooled P97, dirty=pooled P45), contradicting the LIVE method lock at line 12 (gov-limit default; percentile RETIRED). Evidence-fitness guidance above it is fine; the limit-setting sentence is residue.
+- done when: AGENTS.md percentile text reframed as RETIRED/evidence-fitness-only, consistent with the line-12 lock and method-v2.json
 - decision: _pending_
 
 ### OI-20260908-wikibiome-lift-metals-microbiome-framework — Lift metals-microbiome-disease-pathogenesis framework to WikiBiome

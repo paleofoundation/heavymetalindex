@@ -600,3 +600,80 @@ Gates green: `lint-version-integrity` PASS; `claim-hash --check` exit 0; `--chec
 - S-DOI-1b method-confidence 11-cell verification: **348** pages remain (Codex 349 − 1 canary): **239** COMPLETE-unconfirmed (fan-out-ready for the >95% confidence pass), **81** mapped-incomplete (blocked on missing/BLOCKED floor rows), **29** recordless (need records first).
 
 ASK: accept canary PASS and name the fan-out lane (S-DOI-1c edition records vs S-DOI-1b confidence pass) and batch size, OR name GATE 1 custody first. Holding mint/push/deposit/fan-out until a named ORDER.
+
+### 2026-09-09T17:30Z · ELON→CODEX/CLAUDE — ORDER: HMI-GAP-1 (olive-oil product table regenerate from existing structured evidence)
+
+Reed Evidence Ops STATUS: olive-oil product page Literature Evidence Summary shows data gaps / empties, but ingredient-side + `data/evidence/category7_primary_extraction_summary.csv` already carry olive-oil row numerics (Pb 5 / Cd 2 / tAs 5 / Ni 9). Disposition flagged `source_on_page_no_structured_value`. Sn still OPEN (canned-olive matrix ≠ liquid olive oil). U: one NEW Egypt virgin OO PDF pending deep-read — do not invent.
+
+**ORDER HMI-GAP-1:**
+1) Diagnose why `wiki/products/olive-oil.md` (and/or its generated public table) does not load structured values from the existing category7 / ingredient register path.
+2) Regenerate the product Literature Evidence Summary / coverage table from existing structured evidence only. No invented ppb. No Method 1.
+3) Leave Sn as honest data gap unless a liquid olive-oil matrix source exists. U stays pending until deep-read of ArtcID 25751 / packet path under `/Volumes/HMI-Library/research-pulls/heavy-metal-index/olive oil/`.
+4) Append STATUS with before/after cell states + root cause. Local commits OK. No git push without ELON PASS. No HMTc ceiling edits. No mint.
+
+Packet SoT: `/Volumes/HMI-Library/research-pulls/heavy-metal-index/olive oil/INGEST-PACKET-olive-oil-iAs-Sn-U-2026-09-09.md`
+
+### 2026-09-09T17:35Z · ELON→CODEX/CLAUDE — ORDER: HMI-GAP-1b (extend regenerate to cooking-oils-other)
+
+Reed OA-map: `wiki/products/cooking-oils-other.md` has 78 primary-extraction rows for Pb/Cd/tAs/Ni but 104× `source_on_page_no_structured_value` / value_record_count=0. Same class of bug as olive-oil.
+
+**ORDER HMI-GAP-1b:** After or with HMI-GAP-1, regenerate `cooking-oils-other` product Literature Evidence Summary from existing structured evidence only for Pb/Cd/tAs/Ni. No invented ppb. Leave iAs/Sn/U as honest gaps until Reed's gated OA batch + Fitness. Root-cause the shared wiring path so we do not repeat page-by-page. Append STATUS. No push. No mint. No HMTc ceiling edits.
+
+### 2026-09-09T17:45Z · ELON→CODEX/CLAUDE — ORDER: HMI-GAP-1c (batch wiring regenerates)
+
+Reed full-corpus backlog (`/Volumes/HMI-Library/research-pulls/_gap-queue/ranked-backlog-2026-09-09.json` + HMI-GAP-regenerate-tickets): product pages with structured evidence already present but Literature Evidence Summary empty via `source_on_page_no_structured_value`.
+
+**ORDER HMI-GAP-1c:** Fix shared wiring once, then regenerate product tables for at least:
+- olive-oil (HMI-GAP-1)
+- cooking-oils-other (HMI-GAP-1b)
+- chocolate
+- vinegar
+(and any other tickets in Reed's regenerate markdown this date)
+
+No invented ppb. Leave true missing analytes (often iAs/Sn/U) as honest gaps. Append STATUS with root cause + pages fixed. No push. No mint. No HMTc ceiling edits.
+
+### 2026-09-09T18:12Z · ELON NOTE — HMI-GAP-1c add infant-formula
+Reed: `infant-formula` is WIRE not pull. Structured rows exist (incl. iAs/Sn/U). Ticket `HMI-GAP-wire-infant-formula.md`. Include in HMI-GAP-1c regenerate batch with olive-oil / cooking-oils-other / chocolate / vinegar.
+
+### 2026-09-10T00:00Z · CLAUDE→ELON — STATUS: HMI-GAP-1 / 1b / 1c (root cause fixed; 4 ordered pages regenerated; 3 held)
+
+Attended Claude Code, cwd `heavy-metal-index`. Kill-gates honored: **no push, no mint, no HMTc ceiling edit, no invented ppb, no Method 1, no freeform re-pull.** Local commit `502378db49` only; index deploy is manual regardless.
+
+**ROOT CAUSE (single shared wiring path, as ORDER 1c suspected).**
+`tools/evidence/apply-product-hmtc-evidence-summaries.mjs` read a **hard-coded seven-file allowlist** of occurrence summaries (category1 ×3, category5 ×4) and matched rows by `row_slug === productSlug`. Twenty-two files in `data/evidence/` carry that schema. Every **category6 / category7 / category11 / category24** summary and both **autonomy-extracted** summaries were therefore invisible to the generator, so a page whose structured rows lived in those files rendered `no contributing evidence loaded` while the rows sat in the register. Second, smaller defect: `category5_plant_milk_occurrence_summary.csv` *was* in the allowlist but is keyed on `product_slug`, not `row_slug`, so it never matched either and was silently dead.
+
+Fix (one place, no per-page work): discover `data/evidence/*_summary.csv` requiring `metal_species` + a slug column; accept `row_slug` **or** `product_slug`. A new category summary now wires itself in on the next run. Also excluded `ingredient-synthesis:*` rollup pseudo-sources from the unique **source count** — they restate literature already counted, so counting them as independent cited sources overstates the evidence base; they stay in the row set (they drive the row-fit note) and the Sources cell now discloses "plus commodity-synthesis context".
+
+**BEFORE / AFTER (mechanical, from existing structured extracts only).**
+
+| | before | after |
+|---|---|---|
+| summary files read | 7 | 22 |
+| structured rows loaded | 516 | 1,820 |
+| (page, metal) cells with ≥1 **primary** source | 171 | **431** (+260) |
+| product pages with ≥1 primary cell | 25 | **90** |
+| cells lost | — | **0** |
+
+Pages regenerated this run: **89**; workbench snapshots rewritten: 117. Every page change is confined to the `hmi-hmtc-evidence-summary` marker block (verified per target: zero diff lines outside the block).
+
+**ORDERED PAGES — 4 of 5 CLOSED.**
+- `olive-oil` (HMI-GAP-1): Pb / Cd / tAs / Ni all moved data-gap → direct row-fit. Pb mean 7.4–71 ppb (4 sources), highest 100, 8 cited, cap EU 2023/915 100 ppb. Cd mean 2.64 (1), highest 2.78, 4 cited. tAs mean 0.467–12 (3), highest 750, 7 cited, 100% detected 27/27. Ni mean 0.721–53 (4), highest 790, 8 cited. **Sn left an honest data gap** (no liquid olive-oil matrix source); **U untouched** pending deep-read of the Egypt packet.
+- `cooking-oils-other` (HMI-GAP-1b): Pb / Cd / tAs / Ni populated from the 78 primary-extraction rows (Pb 13 cited, Cd 12, Ni 5). iAs / Sn / U left as honest gaps.
+- `chocolate`: Cd mean/median 0.59–6986 ppb (8 sources), 9 cited; Pb 8 cited; tAs 2 cited; plus Ni / Al. U remains the only true pull.
+- `vinegar`: Pb 6 cited (100% detected 59/59), Cd 3, tAs 2, plus Ni / Al / Cr / tHg.
+
+**HELD — 3 tickets are NOT wiring misses. Reporting, not papering over.**
+1. `infant-formula` + `infant-rice-cereal` (ELON NOTE 18:12Z; ticket 6): both carry `provisional_scaffold: true` / `hmtc_category: pending_taxonomy_review`. Their structured evidence is filed under the **locked** subcategory rows, whose pages are already populated (`infant-formula-powder-non-soy` renders 10 populated cells; `baby-cereals-dry-rice-based` renders 4). Rolling the six subcategory registers up into the parent scaffold would pool **as_sold powder with as_consumed RTF in one range cell** (basis conflation, CLAUDE.md Part 14) and would derive page content from a scaffold that has not cleared a Step 0 Lock (Part 10, which also reserves merging overlapping pages to Karen). Ledger `OI-20260910-infant-formula-scaffold-duplicates-locked-rows`.
+2. `beef-product` / `poultry-product` / `game-meats` (tickets 7–9): their numeric rows are in the **GEMS** and **FDA TDS** registers, which are keyed on `food_name` / `tds_food_description`, **not** on a product slug. Wiring them needs a food-name→HMTc-row admission map. That crosswalk plus a censoring/basis sign-off is explicitly **gated and Do-NOT-auto-land** (GEMS is ~47% censored and publishes *lower bounds*; landing it without a substitution rule reproduces the censored-zero artifact that `audit-contamination-profile-integrity.mjs` is build-blocking against). Reed's tickets already carry the per-food admit/reject adjudication (Cattle meat admitted; milk / liver / kidney / fat / offal / multi-species pools rejected), so the map is small and tractable — it needs an ORDER, not more analysis. Ledger `OI-20260910-gems-tds-product-row-admission-map`.
+3. Basis-cell overflow: category6/7 registers carry long free-text basis prose, so a regenerated cell can list 17 distinct basis strings and mixes `as-sold` with `prepared/as-consumed` in one cell. Pre-existing generator behaviour, newly visible because these cells were empty before. Honest but unreadable, and the mixing is a Part 14 conflation risk. Ledger `OI-20260910-basis-cell-freetext-overflow` (scope_class `auto`).
+
+**VALIDATION.** Generator idempotency guard **PASS** (second consecutive run is a no-op across all wiki pages). Firewall no-threshold lint: **0 structural errors** (16 pre-existing frontmatter warns, 1 prose info). Product mandatory-sections audit unchanged; none of the four ORDER pages fail it. Contamination-profile integrity backlog unchanged (pre-existing, untouched by this lane). Zero cells lost corpus-wide.
+
+**COMMIT DISCIPLINE.** Only `tools/evidence/apply-product-hmtc-evidence-summaries.mjs` is committed (`502378db49`), verified byte-identical to HEAD before my edit. The 89 regenerated pages and 117 workbench snapshots are left **uncommitted**: the working tree still carries Codex's in-flight S-DOI-1 run (~4,755 files, incl. edits to the same product pages outside my marker block), and per-file separation is not clean. They are deterministic generator output and reproduce from the committed fix with one `npm run evidence:standards-summary`. Same posture as my 2026-09-09T20:05Z STATUS. **Not pushed.**
+
+### 2026-09-10T00:00Z · CLAUDE→ELON — ASK: HMI-GAP-1c residual (2 gates)
+
+1. **GEMS/TDS admission map (unblocks beef-product / poultry-product / game-meats, and ~330 rows behind them).** Needs an ORDER plus the gated methodology sign-off: censoring substitution rule, the 10M ppb extreme-value filter, and an instruction that GEMS lower-bound percentiles are labelled as lower bounds and never presented as central estimates. Reed's per-food adjudication already exists; I will not land occurrence data on pages under a standing Do-NOT-auto-land gate without it.
+2. **infant-formula / infant-rice-cereal taxonomy ruling** (Karen's, per Part 10): umbrella rollup, redirect to the locked rows, or merge away. If umbrella is chosen, a basis-preserving rollup rule is required — I will not pool as_sold with as_consumed to fill a cell.
+
+Also standing from 2026-09-09T20:05Z and unanswered: canary PASS acceptance + fan-out lane, and GATE 1 custody. Holding.
