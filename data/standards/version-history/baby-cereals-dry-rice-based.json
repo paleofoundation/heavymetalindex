@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "3.0",
+  "current_version": "4.0",
   "scaffolded": false,
   "versions": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "version": "3.0",
-      "status": "current",
+      "status": "superseded",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -141,6 +141,57 @@
         "why": "ORDER S-DOI-FORCE-1 enforcing the ratified Certification-Readiness Ruling (2026-08-25): every panel analyte resolves to a firm numeric ceiling; a species is bounded by its parent total; never value:null. Reflex speciation is assay timing, not blanking. Stops shipping blank/subsumed claim cells.",
         "changed_at": "2026-09-10T00:00:00Z",
         "verified_against_commit": "22cecb043bc4aec2eb5ebfc56343dde8e80e123d"
+      }
+    },
+    {
+      "version": "4.0",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:92c2fee338c6afedecb9ad68ddcfcbe79ebd158a002d47423d911383453d85f3",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
+      "frozen_artifact": null,
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-TAS-1 edition: tAs restored as a distinct total row; rice iAs = direct FDA 100. Bundle staged locally, not static/, not minted, no push."
+      },
+      "change": {
+        "what_changed": "Inorganic arsenic (iAs) now publishes its own direct sovereign limit, US FDA 100 ug/kg for infant rice cereal (type gov, jurisdiction US), instead of being bounded to the total-arsenic value 50. Total arsenic (tAs 50, India) is rendered as a distinct total row (it was previously dropped by a renderer bug that listed iAs in the totals slot). Claim surface is now 9 rows: 8 totals + iAs.",
+        "affected_analytes": [
+          {
+            "analyte": "iAs",
+            "old": {
+              "type": "subsumed",
+              "value": 50
+            },
+            "new": {
+              "type": "gov",
+              "value": 100,
+              "binding_jurisdiction": "US",
+              "binding_id": "fda2020_ias_infant_rice_cereal_100"
+            }
+          },
+          {
+            "analyte": "tAs",
+            "old": {
+              "note": "present in JSON but dropped from PDF"
+            },
+            "new": {
+              "rendered": true,
+              "value": 50,
+              "binding_jurisdiction": "IN"
+            }
+          }
+        ],
+        "why": "ORDER S-DOI-TAS-1: freeze PDF dropped the total-arsenic row (printed iAs instead of tAs). The 8 totals must include tAs, and rice carries a mandatory numeric iAs (its direct FDA limit). The binding arsenic constraint remains the tighter total (tAs 50); iAs 100 is the FDA species standard, both published.",
+        "changed_at": "2026-09-10T00:00:00Z",
+        "verified_against_commit": "2f6f06679d2ea104792b06b31fedcbc89bced798"
       }
     }
   ]
