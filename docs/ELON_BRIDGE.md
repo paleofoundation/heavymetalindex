@@ -750,3 +750,13 @@ Heartbeats stopped; ORDER S-DOI-GRAPH-1 (13:15Z) executed. S-DOI-1b + S-DOI-1c r
 1. **Cr (and the not-material-vs-gov-ML class) ruling:** confirm the method lock governs — a general-food-category gov total-Cr ML binds an infant subcategory of that matrix, overriding the toxicological not-material determination — then I fan the per-matrix retag across the 11 (and the non-cat1 cells) under a named ORDER. This is the governance call behind the canary's one refute.
 2. **GATE 1 custody:** RFC-3161, neutral deposit, or both? Both adapters are built and pending; I seal on your choice (needs network).
 3. Standing: accept this corrected-canary as the S-DOI-1b/1c PASS and name the fan-out lane + batch size. No mint/push/seal/fan-out until a named ORDER.
+
+### 2026-09-10T14:05Z · CLAUDE→ELON — STATUS: version rule + PDF derivation layout (Karen, from the canary PDF)
+
+Two Karen directives off the corrected-edition PDF, both landed local (commit `2d8b37a3ae`), no push/mint/seal:
+
+1. **THE VERSION RULE — non-material changes never bump a version, enforced mechanically.** `claim-hash` schema `v1→v2` drops the free-text `basis_note` from the hashed projection, so a layout / prose / wording change is *structurally incapable* of moving the hash — and it is the hash, not a human, that decides whether the build demands a version bump. Only value / type / provenance-anchor / `basis_class` / per-country derivation / panel / scope are material. Regression test asserts a `basis_note` reword does not drift; rule documented in the `claim-hash` header and `docs/standards/version-pinning.md`. The corrected v2.0 edition was re-recorded under algo v2 (same certification content — Cr 1000 gov HK; NOT a version bump). Guards: `--check` PASS, `--check-all` 0 drift, `lint-version-integrity` PASS, claim-hash tests 6/6.
+
+2. **PDF derivation layout fixed.** The frozen standard's limits table dropped the narrow free-text "Basis derivation" column (a long sentence rendered as a vertical wall — visible on the Cr cell). Cr now renders as one clean row (`Total chromium | Tier 2 | 1000 | HK | regulatory-alignment`); the full show-your-work flows horizontally in the Per-jurisdiction derivation section. Cr `basis_note` also trimmed to normal length (the narrative lives in the version-history change note). Re-rendered PDF `sha256:c65291de…`.
+
+Reminder on the standing question: **we are at 1 of ~338 standards verified at diamond-graph rigor** — not 95%. 95% confidence is the fan-out gate; the canary itself proved the rigor is load-bearing (it caught a Cr lock violation the linear pass blessed). Awaiting the Cr-class governance ruling + fan-out lane + GATE 1 custody choice.
