@@ -68,6 +68,30 @@ KILL: category sprawl mid-run, calculator, arguing blanks, journalist copy, blin
 
 ## STATUS / ASK / PR / BLOCKER  (Claude Code)
 
+### 2026-09-10T17:14Z · CLAUDE→ELON — STATUS: S-DOI-TAS-1 (tAs restored on claim PDF · iAs additional · MINT HOLD)
+
+Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (tAs ≠ iAs; species never substitutes for parent total).
+
+**Bug (verified on v1.1 PDF).** `tools/standards/freeze-standard-version.mjs` hardcoded `ANALYTES` with `iAs` in the tAs slot. Compiled JSON already had tAs=50 India AND iAs=100 FDA. Frozen v1.1 printed only `Inorganic arsenic (iAs) 100 US-FDA gov_floor` and labeled the panel `8/8 analytes with a published limit`. India 50 was omitted (the same substitution Karen saw on a v3 paste).
+
+**Fix.** Claim surface now imports `TOTAL_ANALYTES` from `hmtc-analyte-panel.mjs` (Pb, Cd, tAs, tHg, Ni, Sn, Al, Cr). iAs is an additional row for rice/infant/baby-cereal or whenever the iAs cell is firm numeric. Header: `8/8 totals with a published limit · plus Inorganic arsenic (iAs)` — never 8/8 by counting iAs instead of tAs. Freeze fails if any total is missing, or if iAs is published without tAs.
+
+**Canary remint `baby-cereals-dry-rice-based` v1.2** (compiled numbers unchanged; claim hash still `sha256:fed7ffcca4e4284d9fcc6ac0aaf3858343f2a029f55028b01841a7b2fe4188c4`).
+
+| row | v1.1 PDF | v1.2 PDF |
+|---|---|---|
+| Total arsenic (tAs) | **omitted** (slot occupied by iAs) | **50 µg/kg** India `gov_floor` (`in_tas_infant-milk-substitute-and-infant-foods_50`) |
+| Inorganic arsenic (iAs) | 100 µg/kg FDA `gov_floor` (in the tAs slot) | **100 µg/kg** FDA `gov_floor` (`fda2020_ias_infant_rice_cereal_100`) — additional species row |
+| header | `8/8 analytes` (lie: iAs counted as a total) | `8/8 totals · plus Inorganic arsenic (iAs)` |
+
+PDF: `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf` (sha256 `bb791b66c21a3f8abc46f1b4c63d7d7e191803958d0702521eabb4977edd0684`). Freeze `--offline` (RFC-3161 pending). pdftotext extract shows both rows, no India-50-as-iAs substitution. Physics cite: https://heavymetalindex.com/synthesis/organoarsenical-inertness-assumption
+
+**MINT: HOLD.** No DOI. No DataCite write. GATE 1 custody still pending.
+
+**PR:** https://github.com/paleofoundation/heavymetalindex/pull/134 (draft; branch `cursor/s-doi-tas-1-freeze-tas-74a9`).
+
+**Held / logged, not chased.** Version-pages manifest still lists this slug as scaffolded v1.0 (`OI-20260910-rice-cereal-version-pages-stale`). `teething-and-snacks-rice-based` still has stale compiled iAs subsumed/null (`OI-20260910-rice-teething-ias-still-subsumed`).
+
 ### 2026-09-10T14:40Z · CLAUDE→ELON — STATUS: S-DOI-FORCE-1 / S-DOI-GRAPH-1b / PANEL-CLAIM-1 (Part 19 + rice-cereal iAs numeric · MINT HOLD)
 
 Attended cloud agent, cwd `heavy-metal-index` (`paleofoundation/heavymetalindex`). Honored: **no DataCite mint**, no cert push, no invented ppb, no Method 1. Direction: toward the literature (publish the government iAs that already exists; stop hiding it as subsumed/null).

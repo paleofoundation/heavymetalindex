@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "1.1",
+  "current_version": "1.2",
   "scaffolded": false,
   "versions": [
     {
@@ -32,7 +32,8 @@
     },
     {
       "version": "1.1",
-      "status": "current",
+      "status": "superseded",
+      "superseded_by": "1.2",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
@@ -54,6 +55,33 @@
         "affected_analytes": {
           "iAs": { "old": null, "old_type": "subsumed", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100" },
           "Cr": { "old": null, "old_type": "not_material", "new": 1000, "new_type": "read_across", "instrument": "hk_cap132v_crtotal_cereals_1000" }
+        }
+      }
+    },
+    {
+      "version": "1.2",
+      "status": "current",
+      "effective_date": "2026-09-10T00:00:00Z",
+      "effective_date_precision": "date",
+      "doi": null,
+      "legacy_pdf": null,
+      "claim_hash": "sha256:fed7ffcca4e4284d9fcc6ac0aaf3858343f2a029f55028b01841a7b2fe4188c4",
+      "claim_hash_algorithm": "hmtc-claim-hash/v1",
+      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.2/",
+      "canary_bundle": {
+        "bundle_schema": "hmtc-edition-bundle/v1",
+        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf",
+        "standard_pdf_sha256": "bb791b66c21a3f8abc46f1b4c63d7d7e191803958d0702521eabb4977edd0684",
+        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
+        "note": "S-DOI-TAS-1 canary. Freeze now prints Total arsenic (tAs) 50 India gov_floor AND Inorganic arsenic (iAs) 100 FDA gov_floor. Species no longer occupies the tAs slot. Header is 8/8 totals plus iAs. No DataCite mint. Custody pending. MINT: HOLD."
+      },
+      "change": {
+        "what_changed": "Claim PDF renderer listed iAs in the tAs slot (ANALYTES hardcoded iAs instead of tAs). v1.1 printed only Inorganic arsenic (iAs) 100 FDA and labeled the panel 8/8 analytes, omitting Total arsenic (tAs) 50 India. v1.2 prints both rows: Total arsenic (tAs) 50 India gov_floor and Inorganic arsenic (iAs) 100 FDA gov_floor. Header is now 8/8 totals plus iAs. Compiled claim numbers unchanged (same claim hash).",
+        "why": "ORDER S-DOI-TAS-1 / panel-completeness: species never substitutes for parent total. tAs ≠ iAs (organoarsenical-inertness-assumption). Rice pathway requires BOTH tAs and iAs on the claim surface.",
+        "changed_at": "2026-09-10T17:13:56Z",
+        "affected_analytes": {
+          "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "restored to claim PDF; was omitted by freeze ANALYTES substitution" },
+          "iAs": { "old": 100, "old_type": "gov", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "remains an additional species row; no longer occupies the tAs slot" }
         }
       }
     }
