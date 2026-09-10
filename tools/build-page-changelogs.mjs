@@ -274,7 +274,7 @@ function renderEmptyBlock() {
   return `${beginMarker}
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 ${endMarker}`
 }
 

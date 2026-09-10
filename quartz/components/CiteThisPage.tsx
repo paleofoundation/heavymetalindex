@@ -170,7 +170,7 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
             class="hmi-cite-download"
             href={packetUrl}
             download
-            title="Download a JSON evidence packet — pins this page at its current git commit for litigation, regulatory, or peer-review use."
+            title="Download a JSON evidence packet with page checksums and the available verified Git revision."
           >
             Download evidence packet
           </a>
