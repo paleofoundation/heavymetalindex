@@ -137,11 +137,13 @@
       },
       "iAs": {
         "type": "subsumed",
-        "value": null,
+        "value": 50,
+        "value_exact": 50,
         "subsumed_by": "tAs",
         "binding_parent_value": 50,
         "binding_parent_source": "IN",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic; no separate iAs ceiling is published.",
+        "basis_note": "bounded ceiling = binding total arsenic value 50 µg/kg; assayed by reflex speciation when the total is exceeded",
+        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic. The published iAs ceiling is the numeric parent bound (50 µg/kg), assayed by reflex speciation when the total is exceeded.",
         "candidate": {
           "type": "gov",
           "value": 100,
@@ -161,11 +163,13 @@
       },
       "MeHg": {
         "type": "subsumed",
-        "value": null,
+        "value": 8,
+        "value_exact": 8,
         "subsumed_by": "tHg",
         "binding_parent_value": 8,
         "binding_parent_source": "IL",
-        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury; no separate MeHg ceiling is published.",
+        "basis_note": "bounded ceiling = binding total mercury value 8 µg/kg; assayed by reflex speciation when the total is exceeded",
+        "label": "Methylmercury is a component of total mercury (MeHg ≤ tHg). No jurisdiction sets a MeHg limit for this product form below the binding total mercury ceiling (8 µg/kg), so MeHg is governed by and bounded by total mercury. The published MeHg ceiling is the numeric parent bound (8 µg/kg), assayed by reflex speciation when the total is exceeded.",
         "candidate": null
       },
       "Ni": {
@@ -225,11 +229,13 @@
       },
       "Cr-VI": {
         "type": "subsumed",
-        "value": null,
+        "value": 1000,
+        "value_exact": 1000,
         "subsumed_by": "Cr",
         "binding_parent_value": 1000,
         "binding_parent_source": "HK",
-        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium; no separate Cr-VI ceiling is published.",
+        "basis_note": "bounded ceiling = binding total chromium value 1000 µg/kg; assayed by reflex speciation when the total is exceeded",
+        "label": "Hexavalent chromium is a component of total chromium (Cr-VI ≤ Cr). No jurisdiction sets a Cr-VI limit for this product form below the binding total chromium ceiling (1000 µg/kg), so Cr-VI is governed by and bounded by total chromium. The published Cr-VI ceiling is the numeric parent bound (1000 µg/kg), assayed by reflex speciation when the total is exceeded.",
         "candidate": null
       }
     }

@@ -325,16 +325,29 @@ function reconcileSpecies(cells, species, parent) {
   // no direct ML for this product form). The parent's ceiling — a firm total number,
   // or a not_material total's reflex-speciation control — is the enforceable bound.
   const parentNumeric = pv != null
+  // CLAIM-SURFACE RULE (S-DOI-FORCE-1 / Certification-Readiness Ruling): a speciated
+  // analyte NEVER ships a blank claim cell. Where the parent total carries a numeric
+  // ceiling, the species PUBLISHES that numeric bound as its own ceiling (iAs ≤ tAs,
+  // MeHg ≤ tHg, Cr-VI ≤ total Cr are identities, so the parent ceiling is a valid,
+  // conservative species ceiling). Reflex speciation is ASSAY TIMING (measure the
+  // species only when the total is exceeded), not a reason to blank the published cell.
+  // Only where the parent itself carries NO numeric ceiling does the species remain
+  // value:null under the parent's reflex-speciation control (the total is the enforceable
+  // bound and there is genuinely no number to publish).
   const boundStmt = parentNumeric
     ? `the binding ${PARENT_LABEL[parent]} ceiling (${p.value} µg/kg)`
     : `the ${PARENT_LABEL[parent]} determination (reflex speciation: any quantifiable ${species} fails)`
   cells[species] = {
     type: "subsumed",
-    value: null,
+    value: parentNumeric ? p.value : null,
+    value_exact: parentNumeric ? (p.value_exact ?? p.value) : null,
     subsumed_by: parent,
     binding_parent_value: parentNumeric ? p.value : null,
     binding_parent_source: p ? (p.binding_jurisdiction || p.source_jurisdiction || (p.type === "not_material" ? "reflex-speciation control" : null)) : null,
-    label: `${SPECIES_LABEL[species] || species} is a component of ${PARENT_LABEL[parent] || parent} (${species} ≤ ${parent}). ${sv != null ? `The strictest applicable sovereign ${species} value (${s.value} µg/kg) is not below ${boundStmt}` : `No jurisdiction sets a ${species} limit for this product form below ${boundStmt}`}, so ${species} is governed by and bounded by ${PARENT_LABEL[parent] || parent}; no separate ${species} ceiling is published.`,
+    basis_note: parentNumeric
+      ? `bounded ceiling = binding ${PARENT_LABEL[parent]} value ${p.value} µg/kg; assayed by reflex speciation when the total is exceeded`
+      : `reflex-speciation control (no numeric ${PARENT_LABEL[parent]} ceiling to bound to)`,
+    label: `${SPECIES_LABEL[species] || species} is a component of ${PARENT_LABEL[parent] || parent} (${species} ≤ ${parent}). ${sv != null ? `The strictest applicable sovereign ${species} value (${s.value} µg/kg) is not below ${boundStmt}` : `No jurisdiction sets a ${species} limit for this product form below ${boundStmt}`}, so ${species} is governed by and bounded by ${PARENT_LABEL[parent] || parent}. ${parentNumeric ? `The published ${species} ceiling is the numeric parent bound (${p.value} µg/kg), assayed by reflex speciation when the total is exceeded.` : `The parent carries no numeric ceiling, so no separate ${species} number is published; any quantifiable ${species} fails.`}`,
     candidate: sv != null ? { type: s.type, value: s.value, source_jurisdiction: s.source_jurisdiction || s.binding_jurisdiction || null, source_id: s.source_id || s.binding_id || null } : null,
   }
 }
