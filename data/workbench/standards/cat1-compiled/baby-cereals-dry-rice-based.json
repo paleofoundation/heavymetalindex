@@ -136,21 +136,38 @@
         }
       },
       "iAs": {
-        "type": "subsumed",
-        "value": 50,
-        "value_exact": 50,
-        "subsumed_by": "tAs",
-        "binding_jurisdiction": "IN",
-        "claim_disposition": "regulatory-alignment",
-        "binding_parent_value": 50,
-        "binding_parent_source": "IN",
-        "basis_note": "bounded ceiling = binding total arsenic value 50 µg/kg; assayed by reflex speciation when the total is exceeded",
-        "label": "Inorganic arsenic is a component of total arsenic (iAs ≤ tAs). The strictest applicable sovereign iAs value (100 µg/kg) is not below the binding total arsenic ceiling (50 µg/kg), so iAs is governed by and bounded by total arsenic. The published iAs ceiling is the numeric parent bound (50 µg/kg), assayed by reflex speciation when the total is exceeded.",
-        "candidate": {
-          "type": "gov",
-          "value": 100,
-          "source_jurisdiction": "US",
-          "source_id": "fda2020_ias_infant_rice_cereal_100"
+        "type": "gov",
+        "value": 100,
+        "value_exact": 100,
+        "binding_jurisdiction": "US",
+        "binding_id": "fda2020_ias_infant_rice_cereal_100",
+        "basis_note": "face value",
+        "per_country": {
+          "US": {
+            "value": 100,
+            "converted": true,
+            "id": "fda2020_ias_infant_rice_cereal_100"
+          },
+          "CA": {
+            "value": 100,
+            "converted": true,
+            "id": "ca_ias_rice-based-foods-intended-specifically-f_100"
+          },
+          "KR": {
+            "value": 100,
+            "converted": true,
+            "id": "kr_ias_infant-formula-follow-up-formula-cereal_100"
+          },
+          "BR": {
+            "value": 150,
+            "converted": true,
+            "id": "br_ias_cereal-based-foods-for-infant-young-chil_150"
+          },
+          "CN": {
+            "value": 200,
+            "converted": true,
+            "id": "cn_ias_cereal-based-complementary-foods-for-inf_200"
+          }
         }
       },
       "tHg": {

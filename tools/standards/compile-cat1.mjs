@@ -316,11 +316,16 @@ function reconcileSpecies(cells, species, parent) {
   if (!s) return
   const sv = numOf(s)
   const pv = numOf(p)
-  // KEEP: the species is a firm ceiling at or below a firm parent total.
-  if (sv != null && pv != null && sv <= pv) return
-  // KEEP: the species holds a real ML but the parent carries no numeric ceiling
-  // (parent gap or not_material) — the species' own sovereign limit still governs.
-  if (sv != null && pv == null) return
+  // KEEP: the species has its OWN direct sovereign limit — publish it as-is, even where
+  // it is looser than the parent total. A real government species limit (e.g. US FDA
+  // inorganic-arsenic 100 µg/kg for infant rice cereal) is the mandatory numeric claim
+  // for that species; the parent total (e.g. India tAs 50) is a SEPARATE published row
+  // and binds independently, so a certified lot must meet both and the tighter total
+  // governs. Subsumption (publishing the parent bound) is only for a species with NO
+  // direct limit of its own (S-DOI-TAS-1, 2026-09-10). NOTE for the corpus fan-out:
+  // verify seafood MeHg, where a direct MeHg ML co-exists with a tHg total, renders the
+  // intended pair before recompiling those pages.
+  if (sv != null) return
   // BOUND: subsume the species under the parent total (sv > pv, or the species has
   // no direct ML for this product form). The parent's ceiling — a firm total number,
   // or a not_material total's reflex-speciation control — is the enforceable bound.

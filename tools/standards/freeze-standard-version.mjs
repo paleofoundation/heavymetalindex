@@ -75,8 +75,16 @@ const SCHEMA = "hmtc-freeze-manifest/v1"
 const TOOL = "tools/standards/freeze-standard-version.mjs"
 
 // ── standard vocabulary (mirrors tools/standards/build-cert-standard-pages.mjs) ─
+// The claim surface is the 8 TOTALS — Pb, tAs (total arsenic), Cd, tHg, Ni, Al, Sn,
+// total-Cr — plus inorganic arsenic (iAs), which carries its own mandatory numeric
+// government limit for rice-based products. That is 9 rows. tAs is a TOTAL and must be
+// present; iAs is the speciated companion. (Earlier this list carried iAs where tAs
+// belonged, so the PDF printed the species and dropped the total — S-DOI-TAS-1 bug.)
+// MeHg and Cr-VI are reflex species bounded by tHg / total-Cr and are not separate
+// limit rows; they carry the same number as their parent.
 const ANALYTES = [
   { key: "Pb", disp: "Lead (Pb)", tier: "Tier 1" },
+  { key: "tAs", disp: "Total arsenic (tAs)", tier: "Tier 1" },
   { key: "iAs", disp: "Inorganic arsenic (iAs)", tier: "Tier 1" },
   { key: "Cd", disp: "Cadmium (Cd)", tier: "Tier 1" },
   { key: "tHg", disp: "Mercury (tHg)", tier: "Tier 1" },
@@ -85,6 +93,21 @@ const ANALYTES = [
   { key: "Sn", disp: "Tin (Sn)", tier: "Tier 2" },
   { key: "Cr", disp: "Total chromium (Cr)", tier: "Tier 2" },
 ]
+
+// Fail-closed guard: the total-arsenic row must never be dropped, and iAs must never be
+// published without its parent total. Throws before any PDF is written (S-DOI-TAS-1).
+function assertArsenicIntegrity(std) {
+  for (const [vk, vobj] of Object.entries(std.variants || {})) {
+    const hasTas = vobj && vobj.tAs && vobj.tAs.value != null
+    const hasIas = vobj && vobj.iAs && vobj.iAs.value != null
+    if (!hasTas) {
+      throw new Error(`freeze: ${std.slug} variant "${vk}" has no numeric Total arsenic (tAs) cell — the 8 totals must include tAs. Refusing to render a standard that drops the total-arsenic row.`)
+    }
+    if (hasIas && !hasTas) {
+      throw new Error(`freeze: ${std.slug} variant "${vk}" publishes inorganic arsenic (iAs) with no total arsenic (tAs) — a species must never appear without its parent total.`)
+    }
+  }
+}
 const JURIS = {
   EU: "European Union", UK: "United Kingdom", CODEX: "Codex Alimentarius",
   CA: "Canada", CN: "China", IN: "India", BR: "Brazil", KR: "South Korea",
@@ -231,6 +254,7 @@ function derivationTable(variantObj, key) {
 
 function StandardDocument(m) {
   const std = m.std
+  assertArsenicIntegrity(std)
   const variants = Object.keys(std.variants || {})
   const panel = ANALYTES.length
   // "firm" = analytes with a numeric limit in the first variant (all, in cat1)
@@ -286,7 +310,7 @@ function StandardDocument(m) {
 
   // Certification limits, per variant
   children.push(h(Text, { key: "sh1", style: st.sectionHead }, "1  |  Certification limits"))
-  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, iAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
+  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, arsenic — total and inorganic, Cd, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
   for (const v of variants) {
     children.push(h(Text, { key: `lh-${v}`, style: st.h3 }, variantLabel(v)))
     children.push(limitsTable(std.variants[v], `lt-${v}`))
