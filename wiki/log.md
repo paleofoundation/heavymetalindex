@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-10] maintenance | technical SEO P0/P1 share URLs and about JSON-LD
+
+Pages touched: homepage share intents, [[about]], shared Quartz head/rail/cite helpers, JSON-LD postbuild.
+Notes: Homepage share intents no longer emit `heavymetalindex.com//`. `/about` now carries AboutPage + the same Organization/WebSite `@id`s as the homepage graph (BreadcrumbList remains). Metal-page JSON-LD still types the page as ScholarlyArticle; citation edges now come from in-prose links rather than the source-legend inventory, which is the main crawl-budget cost on `/metals/lead`. No twitter:site handle exists in site config, so none was added. Direction: toward crawler-accurate literature surfaces; no certification claims.
+
 ## [2026-09-09] maintenance | page-specific sharing text
 
 Pages touched: [[synthesis/metals-microbiome-disease-pathogenesis]] and shared sharing components.

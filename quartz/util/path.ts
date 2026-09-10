@@ -92,6 +92,24 @@ export function simplifySlug(fp: FullSlug): SimpleSlug {
   return (res.length === 0 ? "/" : res) as SimpleSlug
 }
 
+/**
+ * Absolute production URL for a wiki slug.
+ * `simplifySlug("index")` is `/`, so `` `${base}/${simplifySlug(slug)}` ``
+ * becomes `https://heavymetalindex.com//` on the homepage. Always use this
+ * helper for share intents, canonical tags, and citation URLs.
+ */
+export function absoluteCanonicalUrl(baseUrl: string | undefined, slug: string | undefined): string {
+  const host = (baseUrl ?? "heavymetalindex.com").replace(/^https?:\/\//, "").replace(/\/+$/, "")
+  if (!slug || slug === "404") {
+    return `https://${host}/`
+  }
+  const simple = simplifySlug(slug as FullSlug)
+  if (simple === "/" || simple === "") {
+    return `https://${host}/`
+  }
+  return `https://${host}/${String(simple).replace(/^\/+/, "")}`
+}
+
 export function transformInternalLink(link: string): RelativeURL {
   let [fplike, anchor] = splitAnchor(decodeURI(link))
 

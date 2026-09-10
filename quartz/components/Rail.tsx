@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { joinSegments, pathToRoot, resolveRelative, simplifySlug, type SimpleSlug } from "../util/path"
+import { absoluteCanonicalUrl, joinSegments, pathToRoot, resolveRelative, type SimpleSlug } from "../util/path"
 import { GROUPS, relatedByCategory } from "./relatedGraph"
 import { concatenateResources } from "../util/resources"
 import { getShareContent } from "../util/share"
@@ -111,7 +111,9 @@ export default (() => {
     }
     // Absolute canonical URL for the share icons (matches Head.tsx's socialUrl),
     // so a shared link is always the production page, not a relative or local one.
-    const canonical = cfg?.baseUrl && slug ? `https://${cfg.baseUrl}/${simplifySlug(slug)}` : ""
+    // Do not interpolate simplifySlug() after a trailing slash: homepage slug
+    // "index" simplifies to "/", which produced heavymetalindex.com// share intents.
+    const canonical = cfg?.baseUrl && slug ? absoluteCanonicalUrl(cfg.baseUrl, slug) : ""
     const shareTitle = String(fileData.frontmatter?.title ?? "")
     const share = getShareContent({ frontmatter: fileData.frontmatter, slug, description: fileData.description, canonicalUrl: canonical })
     const encShare = encodeURIComponent

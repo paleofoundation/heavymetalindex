@@ -192,6 +192,31 @@ describe("transforms", () => {
     assert.strictEqual(path.joinSegments("https://example.com", "a/"), "https://example.com/a/")
     assert.strictEqual(path.joinSegments("https://example.com/", "a/"), "https://example.com/a/")
   })
+
+  test("absoluteCanonicalUrl never emits a homepage double-slash", () => {
+    // The broken Rail/CiteThisPage construction: base + "/" + simplifySlug("index")
+    // where simplifySlug("index") is already "/".
+    assert.strictEqual(
+      `https://heavymetalindex.com/${path.simplifySlug("index" as FullSlug)}`,
+      "https://heavymetalindex.com//",
+    )
+    assert.strictEqual(path.absoluteCanonicalUrl("heavymetalindex.com", "index"), "https://heavymetalindex.com/")
+    assert.strictEqual(
+      path.absoluteCanonicalUrl("https://heavymetalindex.com/", "index"),
+      "https://heavymetalindex.com/",
+    )
+    assert.strictEqual(path.absoluteCanonicalUrl("heavymetalindex.com", "about"), "https://heavymetalindex.com/about")
+    assert.strictEqual(
+      path.absoluteCanonicalUrl("heavymetalindex.com", "metals/lead"),
+      "https://heavymetalindex.com/metals/lead",
+    )
+    assert.strictEqual(
+      path.absoluteCanonicalUrl("heavymetalindex.com", "metals/index"),
+      "https://heavymetalindex.com/metals/",
+    )
+    assert.strictEqual(path.absoluteCanonicalUrl("heavymetalindex.com", "404"), "https://heavymetalindex.com/")
+    assert.strictEqual(path.absoluteCanonicalUrl(undefined, "index"), "https://heavymetalindex.com/")
+  })
 })
 
 describe("link strategies", () => {

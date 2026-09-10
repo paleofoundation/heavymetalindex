@@ -39,6 +39,7 @@ import {
   karenEntity,
   organizationEntity,
 } from "./lib/entity-graph.mjs"
+import { buildAboutPageGraph, citationEdgesFromHtml } from "./lib/jsonld-pages.mjs"
 
 const repoRoot = process.cwd()
 const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
@@ -179,6 +180,31 @@ function injectHomepage() {
   const faq = buildFaqPage("index", "", html, `${SITE}/`)
   if (faq) objects.push(faq)
 
+  writeJsonLdBlock(htmlPath, html, objects)
+  return `${objects.length} object(s)${faq ? " incl. FAQPage" : ""}`
+}
+
+function injectAbout() {
+  const htmlPath = findStandaloneHtml("about")
+  if (!htmlPath) return "no about.html"
+  const mdPath = path.join(wikiDir, "about.md")
+  if (!fs.existsSync(mdPath)) return "no about.md"
+  let html = fs.readFileSync(htmlPath, "utf8")
+  if (html.includes("HMI-JSONLD-START")) return "already present"
+
+  const fm = matter(fs.readFileSync(mdPath, "utf8")).data
+  const objects = buildAboutPageGraph({
+    title: fm.title,
+    description: fm.description,
+    dateModified: fm.updated ? String(fm.updated) : undefined,
+    publisher: PUBLISHER,
+    author: AUTHOR,
+  })
+  writeJsonLdBlock(htmlPath, html, objects)
+  return `${objects.length} object(s) (AboutPage + Organization + WebSite)`
+}
+
+function writeJsonLdBlock(htmlPath, html, objects) {
   const block =
     `<!-- HMI-JSONLD-START -->\n` +
     `${LICENSE_HEAD_TAGS}\n` +
@@ -186,9 +212,20 @@ function injectHomepage() {
     `\n<!-- HMI-JSONLD-END -->`
   const next = html.includes("</head>") ? html.replace("</head>", `${block}\n</head>`) : `${html}\n${block}`
   fs.writeFileSync(htmlPath, next, "utf8")
-  return `${objects.length} object(s)${faq ? " incl. FAQPage" : ""}`
+}
+
+function findStandaloneHtml(slug) {
+  const candidates = [
+    path.join(publicDir, `${slug}.html`),
+    path.join(publicDir, slug, "index.html"),
+  ]
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) return candidate
+  }
+  return null
 }
 const homepageResult = injectHomepage()
+const aboutResult = injectAbout()
 
 for (const [category, meta] of Object.entries(TYPE_MAP)) {
   const wikiCatDir = path.join(wikiDir, category)
@@ -246,6 +283,7 @@ console.log(`  injected:        ${injected}`)
 console.log(`  already-present: ${alreadyHasBlock}`)
 console.log(`  no-html-output:  ${skippedNoHtml}`)
 console.log(`  homepage:        ${homepageResult}`)
+console.log(`  about:           ${aboutResult}`)
 
 function findHtmlOutput(category, slug) {
   // Quartz emits either public/<category>/<slug>.html or public/<category>/<slug>/index.html
@@ -369,10 +407,10 @@ function buildJsonLd(category, slug, fm, meta, html) {
 
   // Metal pages: sameAs entity links (Wikidata / PubChem) so the substance
   // resolves to its canonical knowledge-graph node, plus `citation` edges to
-  // every source page this metal page cites. The latter turns the page into a
-  // first-class node in the scholarly graph: each cited source is a
-  // ScholarlyArticle whose @id is its index URL (the canonical page about that
-  // paper). Both are derived, not hand-maintained.
+  // in-prose source links (the source-legend inventory is excluded — that table
+  // is already on the page and was the main JSON-LD bloat on /metals/lead).
+  // The page remains a ScholarlyArticle. Each cited source is a ScholarlyArticle
+  // whose @id is its index URL.
   if (category === "metals") {
     const entities = METAL_ENTITY_LINKS[slug]
     if (entities && entities.length) ld.sameAs = entities
@@ -382,30 +420,6 @@ function buildJsonLd(category, slug, fm, meta, html) {
   }
 
   return ld
-}
-
-// Pull the set of source pages a rendered page links to, and express each as a
-// ScholarlyArticle citation edge keyed by its canonical index URL. We read the
-// rendered HTML (not the markdown) so this counts what actually shipped, and we
-// resolve hrefs whether Quartz emitted /sources/<slug> or /sources/<slug>/.
-function citationEdgesFromHtml(html) {
-  if (!html) return []
-  const slugs = new Set()
-  // Match anchors into the sources space: href="…/sources/<slug>" with an
-  // optional trailing slash and optional #fragment. Tolerant of relative
-  // (../sources/x) and absolute (/sources/x) hrefs.
-  const re = /href="[^"]*?\/sources\/([a-z0-9][a-z0-9._-]*?)\/?(?:#[^"]*)?"/gi
-  let m
-  while ((m = re.exec(html)) !== null) {
-    const s = m[1]
-    if (!s || s === "index") continue
-    slugs.add(s)
-  }
-  return [...slugs].sort().map((s) => ({
-    "@type": "ScholarlyArticle",
-    "@id": `https://heavymetalindex.com/sources/${s}`,
-    url: `https://heavymetalindex.com/sources/${s}`,
-  }))
 }
 
 // Build an FAQPage object from the rendered Key-questions accordion. The

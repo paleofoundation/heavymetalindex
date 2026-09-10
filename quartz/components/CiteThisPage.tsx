@@ -5,7 +5,7 @@ import style from "./styles/citeThisPage.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { getShareContent } from "../util/share"
 import { concatenateResources } from "../util/resources"
-import { simplifySlug } from "../util/path"
+import { absoluteCanonicalUrl } from "../util/path"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import shareScript from "./scripts/railShare.inline"
 
@@ -100,7 +100,7 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
   const title = frontmatter?.title ? String(frontmatter.title) : (slug as string)
   const wikiDoi = frontmatter ? frontmatterString(frontmatter.wiki_doi) : undefined
-  const canonicalUrl = `https://${cfg.baseUrl ?? "heavymetalindex.com"}/${simplifySlug(slug!)}`
+  const canonicalUrl = absoluteCanonicalUrl(cfg.baseUrl ?? "heavymetalindex.com", slug)
   const packetUrl = `/api/evidence-packet?slug=${encodeURIComponent(slug as string)}&download=1`
   const today = todayIsoDate()
 

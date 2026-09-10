@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
+import { absoluteCanonicalUrl, FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -200,15 +200,16 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page. simplifySlug strips the trailing `index` so the
-    // homepage canonicalizes to `/` (not `/index`) and folder pages to `/foo/`
-    // (not `/foo/index`) — matching the served URL. A cross-domain canonical or
-    // a self-canonical pointing at a non-served path is the duplicate-content
-    // defect that folded the old paleofoundation.com↔heavymetaltested.com pair.
+    // Url of current page. absoluteCanonicalUrl strips the trailing `index` so
+    // the homepage canonicalizes to `/` (not `/index` and not `//`) and folder
+    // pages to `/foo/` (not `/foo/index`) — matching the served URL. A
+    // cross-domain canonical or a self-canonical pointing at a non-served path
+    // is the duplicate-content defect that folded the old
+    // paleofoundation.com↔heavymetaltested.com pair.
     const socialUrl =
       fileData.slug === "404"
         ? url.toString()
-        : joinSegments(url.toString(), simplifySlug(fileData.slug!))
+        : absoluteCanonicalUrl(cfg.baseUrl, fileData.slug)
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
