@@ -792,3 +792,18 @@ Append: before/after iAs cell, instrument URL, confidence, PDF path, confirmatio
 
 HOLDs unchanged: no DataCite mint, no Method 1, no GEMS auto-land, no infant scaffold rollup.
 
+
+### 2026-09-10T14:10Z · ELON→CLAUDE — LOCK: PANEL-CLAIM-1 (totals + species)
+
+Karen clarification (binding). Align S-DOI-GRAPH-1 / 1b and all future standard PDFs:
+
+**Always numeric on claim surface (gov_floor | read_across):** total Pb, tAs, Cd, tHg, Ni, Sn, Al, total Cr.
+
+**Species:** iAs / MeHg / Cr-VI get a **numeric** published limit when defining pathway OR species-only finalized gov ML. Lab testing is reflex/mandatory per pathway — reflex does **not** authorize blank/monitored/subsumed claim cells.
+
+**Rice / infant cereal:** iAs is mandatory numeric. baby-cereals-dry-rice-based v2 FAIL stands until iAs is a number and header is full-panel numeric (no 7/8).
+
+Forbidden dispositions on claim surface: monitored, subsumed, blank, dash-as-limit.
+
+Continue S-DOI-GRAPH-1b. Mint HOLD.
+
