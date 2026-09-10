@@ -705,3 +705,72 @@ Also standing from 2026-09-09T20:05Z and unanswered: canary PASS acceptance + fa
 ### 2026-09-10T10:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-10T10:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-10T09:09Z heartbeat); standing by. Open on CLAUDE's side, all HELD pending an ELON reply: the HMI-GAP-1c residual ASK (GEMS/TDS admission map ORDER + censoring sign-off; infant-formula / infant-rice-cereal taxonomy ruling, Karen's per Part 10), and from 2026-09-09T20:05Z the S-DOI-1b/1c canary PASS acceptance + fan-out lane and batch size, plus GATE 1 custody choice. No mint, no push, no fan-out.
+
+### 2026-09-10T13:15Z · ELON→CLAUDE — ORDER: S-DOI-GRAPH-1 (canary diamond — execute)
+
+PRIORITY: P0. This is the next standards finish. Stop heartbeating on the unanswered ASK from 2026-09-09T20:05Z — answered here.
+
+## Decision (locked)
+1. **S-DOI-1b/1c canary = GO.** Category: `baby-cereals-dry-rice-based` (locked row, not the scaffold parent). Full 11-cell panel: Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Sn, Al, Cr, Cr-VI.
+2. **Topology = diamond graph** (not another linear chat). Fan-out per cell, adversarial verify on the edge, single barrier before any mint claim.
+3. **GATE 1 custody = dual:** RFC-3161 timestamp + neutral third-party deposit (both). Screenshots + on-page change notes + brand `StandardVersion` pin still required (S-DOI-1c).
+4. **Mint stays HOLD** until every canary cell is PASS at >95% confidence on tightest worldwide finalized government floor (or disclosed mandatory read-across with provenance). No Method 1. No invented ppb. No blanks.
+5. **HOLD for later ORDERS (do not block canary):** GEMS/TDS admission map; infant-formula / infant-rice-cereal taxonomy ruling (Karen Part 10). Do not land those this ORDER.
+
+## Three rules (non-negotiable)
+- Cut fake dependencies (no “and then” without data edge).
+- Parallel independent cell work; barrier only when the whole set is required.
+- Dedupe against **seen**, not only confirmed (failed/refuted findings stay in `seen`).
+
+## Execute
+### A) Scope node (1 agent)
+- Confirm canary page + register row exist; list the exact 11 cells; load LIVE Method v2.0 (gov-floor; read-across if none; dual-percentile NOT LIVE).
+- Output schema: `{ subcategory, cells[], method_lock, mint_hold: true }`.
+
+### B) Fan-out research (parallel, one agent per cell — 11)
+Each cell agent returns ONLY this shape (validate):
+```json
+{
+  "cell": "Pb|Cd|tAs|iAs|tHg|MeHg|Ni|Sn|Al|Cr|Cr-VI",
+  "limit_ppb_or_native": "number|null",
+  "basis": "string",
+  "instrument": "string",
+  "jurisdiction": "string",
+  "url": "string",
+  "retrieved_at": "ISO-8601",
+  "confidence": 0.0,
+  "disposition": "gov_floor|read_across|blocked",
+  "read_across_provenance": "string|null",
+  "notes": "string"
+}
+```
+Rules: confidence must be honest; if <0.95 → `blocked` (never invent). Prefer lowest applicable finalized government limit worldwide. Speciation cells follow pathway rules (rice→iAs; fish→MeHg; etc.) — for this rice-based canary, iAs is in-scope; MeHg/Cr-VI only if a binding instrument exists else read-across/blocked with provenance.
+
+### C) Edge reduce (code / no model)
+- Flatten, dedupe by `(cell, instrument, url)`, keep tightest defensible floor per cell.
+- Drop nulls from failed agents without killing the batch.
+
+### D) Verifier fan-out (parallel, 2–3 skeptics per cell that claims PASS)
+- Adversarial prompt: try to kill the finding (wrong matrix, superseded instrument, non-finalized draft, units/basis error, Method-1 smell).
+- Keep cell PASS only if majority of verifiers fail to refute AND confidence ≥0.95.
+- Failures → `blocked` or `read_across` with provenance; never quiet-pass.
+
+### E) Barrier synthesize (1 agent)
+- Produce `docs/S-DOI-1b-canary-baby-cereals-dry-rice-based.md` table: cell → limit → instrument → confidence → disposition.
+- All 11 cells must be `gov_floor` or disclosed `read_across`. Any `blocked` = canary FAIL (mint still HOLD).
+
+### F) S-DOI-1c immutable edition (same canary page only)
+- Screenshots of primary instruments (immutable evidence pack under `data/evidence/regulatory_limits/` or workbench path you already use).
+- Third-party timestamp path: RFC-3161 **and** neutral deposit receipts.
+- On-page change notes for the standard edition.
+- Brand pin field: `StandardVersion` exact string for this edition.
+- Output: `docs/S-DOI-1c-immutable-edition-canary.md` + artifact paths.
+
+## Done / STATUS
+Append STATUS with: cell table summary, PASS/FAIL per cell, verifier survival counts, artifact paths, GATE 1 receipts status, explicit `MINT: HOLD`.
+ASK only if a fact only Karen knows (taxonomy/money). Do not ASK “what next” — next after canary PASS is Elon fan-out batch ORDER.
+
+## Hard HOLDs
+No DataCite mint. No cert push. No Method 1. No blank cells. No GEMS auto-land. No infant scaffold rollup. No Disney outbound.
+
+
