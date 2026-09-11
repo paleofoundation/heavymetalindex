@@ -1,5 +1,9 @@
 # Standards PDF generation and design review
 
+**Follow-up, 2026-09-11:** Karen clarified that the deliverable must be a reusable generator preserving the journal-style authority register in the pet-protein screenshot. The earlier abbreviated proofs below are superseded for design review by the shared certification generator in cert commit `94df28d`. See [the implemented publication contract and generator guide](/Users/karenpendergrass/Desktop/heavymetalcertified/docs/standards-pdf-generator.md). The original generation-path findings below describe the pre-change code; their line references are historical.
+
+The new generator has 27 passing tests and four independently verified full-document examples, with all 42 rendered pages visually inspected. It preserves author/ORCID, correspondence, citation, DOI status, ICS attribution, publication history, references, declarations, all resolved variants and source-data diagnostics. It adds artifact freshness and release checks. Source reconciliation, DOI registration, unsupported nested form mappings, and production rollout remain separate outstanding work; no standard was issued or deployed. Review artifacts are in cert `output/pdf/standards-review/`.
+
 Date: 2026-09-11. Scope: the supplied olive-oil and fermentation-derived pet-protein PDFs, their generation paths, and the requirements that govern standard downloads. This is a staff review document, not a policy amendment, evidence ingest, or standards release.
 
 ## Finding
