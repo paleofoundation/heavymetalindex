@@ -3,7 +3,7 @@ type: supply-chain
 status: in_progress
 metals: [Pb, Cd, Ni, As, Sb, V, Tl, Cr]
 audience: [regulator, educator, commercial, researcher]
-updated: 2026-06-10
+updated: 2026-09-11
 ---
 
 # Source attribution and environmental burden apportionment
@@ -32,16 +32,46 @@ The commercial significance of this corpus follows directly from what it documen
 
 Source-attribution sources are upstream evidence in the same sense as the soil and water hubs, and the routing layer attaches each one to the consumable it informs as exposure and provenance context rather than as direct food-occurrence evidence. A receptor-model study apportioning the cadmium in a cacao-growing region's soils supports the synthesis on [cocoa](/ingredients/cocoa) by explaining how much of the burden is geogenic and how much follows from fertiliser and deposition, and it connects to [cadmium](/metals/cadmium); an isotopic study fingerprinting the lead in an urban or roadside soil supports [root-vegetables](/ingredients/root-vegetables) and [leafy-vegetables](/ingredients/leafy-vegetables) and connects to [lead](/metals/lead); a sediment-apportionment study in an estuary or coastal shelf supports [fish](/ingredients/fish), [seafood](/ingredients/seafood), [shellfish](/ingredients/shellfish), and [molluscs](/ingredients/molluscs) by characterising the metal load of the water body in which the catch accumulates its burden, with mercury attribution connecting to [methylmercury](/metals/mercury-methyl); an irrigation-water or geogenic-groundwater attribution in a paddy region supports [rice](/ingredients/rice) and connects to [inorganic arsenic](/metals/arsenic-inorganic). In every case the attached source explains provenance and does not supply a food concentration. Because the apportionment question cuts across pathways, this hub is the natural companion to the pathway-specific hubs that carry the burden the rest of the way to the plate: the [atmospheric deposition](/supply-chain/atmospheric-deposition) hub, the [irrigation water and soil amendments](/supply-chain/irrigation-and-soil-amendments) hub, the established [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub, and the aquatic-bioaccumulation hub that will sit alongside them in this section, each of which takes a source identified here and traces it forward into a measured food-occurrence record.
 
+## Chromium research: qualified source context
+
+A special-issue editorial describes chromite weathering and industrial processes as chromium sources. Its broad industrial fraction is secondary and approximate; it does not establish a site-specific source-apportionment model or transferable industrial contribution (pp1779–1780). [[sources/saha2022-chromium-sources-remediation-editorial]]
+
+## Nahavand farm study: evidence limitations
+
+A Nahavand Plain study associates soil, water and whole-biomass metals with agricultural inputs, but input quantities/composition were not measured. Numerous prose correlations disagree with Figure 4, including wheat Cd–Pb (+0.69 in text versus −0.084 in the figure). Those associations do not establish fertilizer causation or an attributable fraction (pp11–13). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
+
+## Arzew surface-soil survey
+
+An Arzew soil survey found area-specific patterns and correlations among elemental contaminants. Cobalt, chromium and nickel load together in the first principal component, but correlations do not establish attributable source fractions. Prose area labels and several numbers conflict with tables; industrial and traffic explanations remain qualified hypotheses (Boudia et al. 2019, Tables 2–4). [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal]]
+
+## Banat soil–nettle–snail study
+
+The Banat snail study selected a landfill, industrial platforms, road sites and a reference village. Clustering of hepatopancreas metal burdens grouped sites with different exposure histories, but proximity and exploratory clusters do not identify the fraction contributed by any individual facility. May 2011 sampling provides a geographic comparison, not a historical time series or an emissions attribution study (Nica et al. 2012, Figure 5 and Table 3). [[sources/nica2012-banat-soil-nettle-snail-metals]]
+
+## Ganga freshwater-fish study: qualified evidence
+
+Maurya et al. sampled Ganga water near four Uttar Pradesh cities and proposed industrial effluent, sewage and agricultural runoff as possible sources (2019). The study did not measure source-specific emissions or perform quantitative source apportionment. Its geographic water comparisons provide contamination context; correlations among metals do not establish which facility or activity contributed a measured fraction. [[sources/authors2019-toxicology-reports-6-2019-472-481]]
+
+## Miami baseball-field soil arsenic
+
+The 2014 Chapman and Colonial baseball-field investigation found differences in soil arsenic by depth and field area. Mixed-depth surface outfield means were 94.6 and 47.9 mg/kg respectively, compared with 33.0 and 12.0 mg/kg in adjacent areas (Ferguson et al.2018, Table 2). The authors proposed contaminated fill and historical herbicide use as possible sources, but did not chemically identify or apportion those sources. Equivalent-depth summaries differ from the mixed-depth table and must remain separate. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/prestes2026-stingless-bee-oxidative-stress-review|Oxidative stress in stingless bees exposed to pesticides and heavy metals: a systematic review]]<span class="hmi-ref-meta">Laísa Prestes and Denise Cargnelutti · Scientific Electronic Archives19(3):1–9 · 2026 · [doi.org/10.36560/19320262200](https://doi.org/10.36560/19320262200)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/saha2022-chromium-sources-remediation-editorial|Special Issue: Hexavalent Chromium: Sources, Toxicity, and Remediation]]<span class="hmi-ref-meta">Bidyut Saha, Aziz Amine, and Francis Verpoort · Chemistry Africa5:1779–1780 · 2022 · [doi.org/10.1007/s42250-022-00443-z](https://doi.org/10.1007/s42250-022-00443-z)</span><span class="hmi-ref-tag">Editorial</span>
+2. [[sources/sharafi2026-nahavand-soil-water-crop-metals|Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]<span class="hmi-ref-meta">Saeed Sharafi, Maryam Sharafi, and Maryam Lorvand · Scientific Reports 16:9947 · 2026 · [doi.org/10.1038/s41598-026-38637-x](https://doi.org/10.1038/s41598-026-38637-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]<span class="hmi-ref-meta">Hayat Boudia, Laurent Vassalo, Mohammed Hadjel, Pascale Prudent, and Jean-Luc Boudenne · International Journal of Environmental Science and Technology 16:4707–4718; HAL author-manuscript version read · 2019 · [doi.org/10.1007/s13762-018-02195-1](https://doi.org/10.1007/s13762-018-02195-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/nica2012-banat-soil-nettle-snail-metals|Bioaccumulative and conchological assessment of heavy metal transfer in a soil-plant-snail food chain]]<span class="hmi-ref-meta">Dragos V Nica, Marian Bura, Iosif Gergen, Monica Harmanescu, and Despina-Maria Bordean · Chemistry Central Journal 6:55 · 2012 · [doi.org/10.1186/1752-153X-6-55](https://doi.org/10.1186/1752-153X-6-55)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/authors2019-toxicology-reports-6-2019-472-481|Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]<span class="hmi-ref-meta">Pradip Kumar Maurya, D. S. Malik, Krishna Kumar Yadav, Amit Kumar, Sandeep Kumar, and Hesam Kamyab · Toxicology Reports 6:472–481 · 2019 · [doi.org/10.1016/j.toxrep.2019.05.012](https://doi.org/10.1016/j.toxrep.2019.05.012)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic|Risk Assessment for Children Exposed to Arsenic on Baseball Fields with Contaminated Fill Material]]<span class="hmi-ref-meta">Alesia C. Ferguson, Jennifer C. Black, Isaac B. Sims, Jennifer N. Welday, Samir M. Elmir, Kendra F. Goff, et al. · International Journal of Environmental Research and Public Health 15(1):67; published4January2018 · 2018 · [doi.org/10.3390/ijerph15010067](https://doi.org/10.3390/ijerph15010067)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/prestes2026-stingless-bee-oxidative-stress-review|Oxidative stress in stingless bees exposed to pesticides and heavy metals: a systematic review]]<span class="hmi-ref-meta">Laísa Prestes and Denise Cargnelutti · Scientific Electronic Archives19(3):1–9 · 2026 · [doi.org/10.36560/19320262200](https://doi.org/10.36560/19320262200)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -51,11 +81,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 5 sources added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
-| [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

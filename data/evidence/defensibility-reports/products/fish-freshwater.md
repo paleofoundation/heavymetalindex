@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 618d8ac182bdc0d05f0092b242af6ec2ba66d57aef0e822a39e4c16d736aff83
-total_claims: 3
-cited_claims: 1
-uncited_claims: 2
-distinct_cited_targets: 215
-distinct_cited_sources: 215
-audit_rows_for_page: 2
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+source_page_sha256: a82dd92e48199a34fba3fb4c5defc9483760e3376766d7fe7659792a3ffbdcea
+total_claims: 8
+cited_claims: 8
+uncited_claims: 0
+distinct_cited_targets: 218
+distinct_cited_sources: 217
+audit_rows_for_page: 3
+audit_rows_for_cited_targets: 21
+audit_log_total_rows: 10803
 noindex: true
 ---
 
@@ -29,19 +29,20 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 3 |
-| cited claims | 1 |
-| uncited claims | 2 |
-| distinct cited targets | 215 |
-| distinct cited `sources/` pages | 215 |
-| audit rows on this page | 2 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| total claims | 8 |
+| cited claims | 8 |
+| uncited claims | 0 |
+| distinct cited targets | 218 |
+| distinct cited `sources/` pages | 217 |
+| audit rows on this page | 3 |
+| audit rows on cited target pages | 21 |
+| audit log rows read | 10803 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-fish-freshwater-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
 - `edit_id=c2c35d9b-cb1a-4f59-8fd1-24d56e4c75fc` · retrieval=2026-08-06 · models=[claude-opus-4-8/standards-capbound-promoter] · agreement=not_applicable · applied=2026-08-06T19:43:10.707Z · span=across_row_review_hook
+- `edit_id=library-drain-bulk17-20260911-wiki-products-fish-freshwater.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.849Z · span=audited-source-routing
 
 ## Claims by section
 
@@ -49,17 +50,74 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `500 ppb`
 - Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 500 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `394 ppb`
+- Context: `orted | | [[metals/mercury-methyl\|MeHg]] | fresh (direct row-fit) | mean 33 to 394 ppb (2 sources); highest reported 39`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `394 ppb`
+- Context: `g]] | fresh (direct row-fit) | mean 33 to 394 ppb (2 sources); highest reported 394 ppb | Sample-level detection rate no`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `2080 ppb`
+- Context: `fish, wet weight | | [[metals/lead\|Pb]] | fresh (direct row-fit) | mean 160 to 2080 ppb (3 sources); highest reported 3`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `3800 ppb`
+- Context: `] | fresh (direct row-fit) | mean 160 to 2080 ppb (3 sources); highest reported 3800 ppb | 15% detected (6/40, Lehel 202`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `300 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 300 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `trout flesh, wet weight) | [[regulations/eu2023-contaminants-maximum-levels]]: 300 ppb (wet weight) | 9 cited | medium`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+### Ganga freshwater-fish study: qualified evidence
+
+#### Claim `2.37 µg/g`
+- Context: `water-fish study: qualified evidence  Maurya et al. report muscle lead means of 2.37 µg/g for C. mrigala, 3.89 for C. re`
+- Cited targets (1):
+  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md`
+    - audit rows (3):
+      - `edit_id=966ec685-221c-4d73-abc5-d3a9655de493` · retrieval=2026-07-29 · models=[openai/codex-local-worker] · agreement=single_model · applied=2026-07-29T16:54:40.246Z · span=source_page:create
+      - `edit_id=6ee377c5cc623860d31c92415262dab26c52db034915283ec33a37d2a927b9c1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:36.572Z · span=public-source-prose
+      - `edit_id=library-drain-bulk17-20260911-wiki-sources-authors2019-toxicology-reports-6-2019-472-481.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.556Z · span=full-page
 
 ### Sources
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (215):
+- Cited targets (216):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
@@ -77,6 +135,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/anses2026-tds3-metals-france\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/auzier-guimaraes2025-mercury-tapajos-fish\.md` (page missing)
     - audit rows: none
@@ -493,15 +553,13 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `500 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 500 ppb | 0 | data gap | Basis not repor`
-- `300 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 300 ppb | 0 | data gap | Basis not repor`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 | `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` | sources | 0 | — | — |
 | `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` | sources | 0 | — | — |
 | `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` | sources | 0 | — | — |
@@ -511,6 +569,8 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins\.md` | sources | 0 | — | — |
 | `wiki/sources/anses2026-tds3-metals-france\.md` | sources | 0 | — | — |
 | `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md` | sources | 3 | 2026-07-29 | 2026-09-11 |
+| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` | sources | 0 | — | — |
 | `wiki/sources/auzier-guimaraes2025-mercury-tapajos-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/bae2023-tuna-heavy-metals-korea\.md` | sources | 0 | — | — |
 | `wiki/sources/bakhshalizadeh2024-caspian-sturgeon-metals\.md` | sources | 0 | — | — |

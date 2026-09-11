@@ -2,7 +2,7 @@
 type: health
 title: "Cat 2 (Children Personal Care) non-ingestion exposure pathways"
 audience: [regulator, educator, researcher, brand-legal]
-updated: 2026-05-14
+updated: 2026-09-11
 sources: 5
 created_by: claude_opus_47_session
 note: "Describes the toxicokinetic and exposure-pathway differences between food and children's personal-care products (dermal, inhalation, accidental-ingestion, and trans-placental routes). Reports what the peer-reviewed literature supports; certification criteria are set separately under the certification program, not on this page."
@@ -55,16 +55,31 @@ This page reports the toxicokinetic and exposure-pathway evidence. Certification
 - **Organotin pharmacokinetics in infants**: ([[sources/smajgl2015-tin-baby-diapers-croatia|Šmajgl 2015]]) cites the 20-100 % of TDI estimate for diaper organotin, but this rests on conservative absorption assumptions. A targeted toxicokinetics study would tighten the estimate.
 - **Hand-to-mouth transfer factor** for product-mediated ingestion of body lotions, body paints, sunscreens. Surrogate data from soil-Pb hand-to-mouth modelling is the typical fallback; cosmetic-specific transfer factors are not yet a published consensus.
 
+## Controlled dermal lead-removal study
+
+A controlled NIOSH hand-cleansing study provides mechanistic context for interrupting dermal-to-oral lead transfer. Treated textured wipes reduced sampled residual lead after an applied dust challenge, but the study measured no ingestion, blood-lead or clinical endpoint and described no pediatric trial. It therefore cannot establish infant-use safety or a reduction in children’s absorbed dose (Esswein et al.2011, pp67–81). [[sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite]]
+
+## Arzew surface-soil survey
+
+Boudia et al. modeled soil ingestion, dermal contact and inhalation for hypothetical children around Arzew. No children or biological samples were measured. The abstract uses cancer language although the methods calculate non-cancer hazard quotients and indices, and chromium was not speciated. These calculations provide qualified model context without establishing observed pediatric harm (2019, Methods 2.6; Table 5). [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal]]
+
+## Miami baseball-field soil arsenic
+
+Ferguson et al. modeled ingestion, dermal contact and inhalation of arsenic from soil at two Miami baseball fields (2018). Their hypothetical activity patterns and inorganic-arsenic toxicity assumptions were applied to unspeciated soil measurements; no children’s biomarkers or health outcomes were measured. Several tables contain inconsistent dose aggregates, exponents and field labels. The study illustrates the need to distinguish measured environmental concentrations from assumed exposure pathways, but does not validate a personal-care-product absorption factor or safe-play recommendation. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/attard2022-heavy-metals-cosmetics-review|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Attard T and Attard E · Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) · 2022 · [doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis]]<span class="hmi-ref-meta">Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. · Frontiers in Public Health 9:766984 · 2021 · [doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite|Handwipe Method for Removing Lead from Skin]]<span class="hmi-ref-meta">Eric J. Esswein, Mark F. Boeniger, and Kevin Ashley · Journal of ASTM International 8(5); reprinted in STP1533 pp67–81 · 2011 · [doi.org/10.1520/JAI103527](https://doi.org/10.1520/JAI103527)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]<span class="hmi-ref-meta">Hayat Boudia, Laurent Vassalo, Mohammed Hadjel, Pascale Prudent, and Jean-Luc Boudenne · International Journal of Environmental Science and Technology 16:4707–4718; HAL author-manuscript version read · 2019 · [doi.org/10.1007/s13762-018-02195-1](https://doi.org/10.1007/s13762-018-02195-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic|Risk Assessment for Children Exposed to Arsenic on Baseball Fields with Contaminated Fill Material]]<span class="hmi-ref-meta">Alesia C. Ferguson, Jennifer C. Black, Isaac B. Sims, Jennifer N. Welday, Samir M. Elmir, Kendra F. Goff, et al. · International Journal of Environmental Research and Public Health 15(1):67; published4January2018 · 2018 · [doi.org/10.3390/ijerph15010067](https://doi.org/10.3390/ijerph15010067)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 ## Sources
@@ -78,13 +93,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | 1 section added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 4 sources added; 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 4 sources removed; narrative text revised |
+| [cbedbcc786](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc786) | 2026-08-18 | correction | Narrative text revised |
+| [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | 1 section added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 4 sources added; 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

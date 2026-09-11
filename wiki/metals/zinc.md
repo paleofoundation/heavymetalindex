@@ -6,9 +6,9 @@ name: Zinc
 species: [Zn2+, total-zinc]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 292
+sources: 296
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-09-11
 n_sources: 3
 in_hmtc_panel: false
 scope_note: "Essential nutrient, not part of the standard toxic-metal analyte panel. Tracked as cross-metal context only."
@@ -35,6 +35,26 @@ Where source pages declare `metals:` arrays including Zn alongside the toxic-met
 ## Prepared cosmetic-clay source
 
 [[sources/nkosi2024-durban-cosmetic-clays|Nkosi and Thembane (2024)]] report zinc findings in market-purchased clays used for topical sun protection in Durban, South Africa. The measurements concern dried and ground material from a limited local sampling frame. They do not establish zinc concentrations in formulated sunscreen, release to skin or absorbed dose.
+
+## Chromium research: qualified source context
+
+One Nilore, Islamabad soil characterization reported zinc of 26.73 µg/g by bulk elemental analysis (Table 2). The source does not state a wet/dry basis or replicated uncertainty. This is a local soil result; it does not measure food occurrence or crop transfer. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation]]
+
+## Nahavand farm study: evidence limitations
+
+A Nahavand farm study states sugar-beet biomass zinc greater than 3,400 mg/kg dry weight, while its crop panel has an axis ending near 600 mg/kg. The discrepancy remains unresolved; the high value is not silently reassigned to soil. Whole aerial biomass cannot establish sugar-beet-root concentrations (Results p10; Figure 3). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
+
+## Arzew surface-soil survey
+
+Fourteen industrial-zone soils near Arzew had zinc mean 147.36 mg/kg, median 137.56 mg/kg and maximum 285.7 mg/kg. The mapped surface extends above 400 mg/kg, a separate graphical result that does not replace observed extrema. These are air-dried soil summaries, with no measured crop uptake (Boudia et al. 2019, Table 2; Figure 3). [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal]]
+
+## Banat soil–nettle–snail study
+
+Nica et al. report a soil-to-nettle zinc correlation of 0.93 (P<0.01) across their Banat field sites (2012, Table 1). Figure 2 shows differing zinc burdens in snail foot and hepatopancreas. The soil measurement is a dilute-nitric-acid extract, and tissue concentrations are dry-weight values from pooled wild snails. Neither the correlation nor the graphical concentration estimates establish zinc levels in consumer foods. [[sources/nica2012-banat-soil-nettle-snail-metals]]
+
+## Ganga freshwater-fish study: qualified evidence
+
+Maurya et al. report 32.41 ± 2.55 µg/g zinc in L. rohita gill, rather than C. catla gill as stated in their abstract (2019, Table 4). The abstract’s 4.77 ± 0.34 µg/g example is a lead result in C. reba gill, not zinc. Table values retain their explicit tissue assignment and unresolved wet/dry basis; neither gill result is a muscle-food observation. [[sources/authors2019-toxicology-reports-6-2019-472-481]]
 
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
@@ -75,14 +95,19 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/shamsher2022-aloe-zinc-adsorption|Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water]]<span class="hmi-ref-meta">Maleeha Shamsher, Atifa Tajammal, Aisha Waheed Qurashi, and Uzma Rafi · MARKHOR (The Journal of Zoology) 3(1):13–18 · 2022 · [doi.org/10.54393/mjz.v3i1.37](https://doi.org/10.54393/mjz.v3i1.37)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/sumalatha2019-bangalore-sludge-washing|Removal of Heavy Metals from Industrial Sludge Using Soil Washing Technique]]<span class="hmi-ref-meta">J. Sumalatha, B. P. Naveen, and R. K. Malik · Asian Journal of Water, Environment and Pollution 16(3):83–89 · 2019 · [doi.org/10.3233/ajw190036](https://doi.org/10.3233/ajw190036)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-10. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-11. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]<span class="hmi-ref-meta">M. Khalid, N. Ahmed, and R. M. Qureshi · The Nucleus 45(1–2):55–61 · 2008 · [doi.org/10.71330/nucleus.45.01-2.998](https://doi.org/10.71330/nucleus.45.01-2.998)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/sharafi2026-nahavand-soil-water-crop-metals|Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]<span class="hmi-ref-meta">Saeed Sharafi, Maryam Sharafi, and Maryam Lorvand · Scientific Reports 16:9947 · 2026 · [doi.org/10.1038/s41598-026-38637-x](https://doi.org/10.1038/s41598-026-38637-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]<span class="hmi-ref-meta">Hayat Boudia, Laurent Vassalo, Mohammed Hadjel, Pascale Prudent, and Jean-Luc Boudenne · International Journal of Environmental Science and Technology 16:4707–4718; HAL author-manuscript version read · 2019 · [doi.org/10.1007/s13762-018-02195-1](https://doi.org/10.1007/s13762-018-02195-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/nica2012-banat-soil-nettle-snail-metals|Bioaccumulative and conchological assessment of heavy metal transfer in a soil-plant-snail food chain]]<span class="hmi-ref-meta">Dragos V Nica, Marian Bura, Iosif Gergen, Monica Harmanescu, and Despina-Maria Bordean · Chemistry Central Journal 6:55 · 2012 · [doi.org/10.1186/1752-153X-6-55](https://doi.org/10.1186/1752-153X-6-55)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/authors2019-toxicology-reports-6-2019-472-481|Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]<span class="hmi-ref-meta">Pradip Kumar Maurya, D. S. Malik, Krishna Kumar Yadav, Amit Kumar, Sandeep Kumar, and Hesam Kamyab · Toxicology Reports 6:472–481 · 2019 · [doi.org/10.1016/j.toxrep.2019.05.012](https://doi.org/10.1016/j.toxrep.2019.05.012)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/shamsher2022-aloe-zinc-adsorption|Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water]]<span class="hmi-ref-meta">Maleeha Shamsher, Atifa Tajammal, Aisha Waheed Qurashi, and Uzma Rafi · MARKHOR (The Journal of Zoology) 3(1):13–18 · 2022 · [doi.org/10.54393/mjz.v3i1.37](https://doi.org/10.54393/mjz.v3i1.37)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/sumalatha2019-bangalore-sludge-washing|Removal of Heavy Metals from Industrial Sludge Using Soil Washing Technique]]<span class="hmi-ref-meta">J. Sumalatha, B. P. Naveen, and R. K. Malik · Asian Journal of Water, Environment and Pollution 16(3):83–89 · 2019 · [doi.org/10.3233/ajw190036](https://doi.org/10.3233/ajw190036)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+14. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+15. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+16. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -92,11 +117,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 8 sources added; 1 section added; narrative text revised |
 | [c8506edd81](https://github.com/paleofoundation/heavymetalindex/commit/c8506edd81) | 2026-09-10 | major | 2 sources added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 7 sections added; narrative text revised |
 | [41191f2c9c](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9c) | 2026-08-02 | major | 1 section added |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 8 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

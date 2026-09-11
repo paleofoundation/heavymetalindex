@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-non-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f5b7911ce1645fdf5c40654d4e90dfc1e04655f878136b53917af687288e230b
-total_claims: 6
+source_page_sha256: 66b00ac71982a11b30b8dcc9b2bda9fc69d5fe8289a8be9d0a6fdf45bf414b27
+total_claims: 14
 cited_claims: 5
-uncited_claims: 1
-distinct_cited_targets: 976
-distinct_cited_sources: 976
-audit_rows_for_page: 1
+uncited_claims: 9
+distinct_cited_targets: 969
+distinct_cited_sources: 969
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10803
 noindex: true
 ---
 
@@ -29,32 +29,65 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 6 |
+| total claims | 14 |
 | cited claims | 5 |
-| uncited claims | 1 |
-| distinct cited targets | 976 |
-| distinct cited `sources/` pages | 976 |
-| audit rows on this page | 1 |
+| uncited claims | 9 |
+| distinct cited targets | 969 |
+| distinct cited `sources/` pages | 969 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10803 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-fish-marine-non-predatory-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
+- `edit_id=library-drain-bulk17-20260911-wiki-products-fish-marine-non-predatory.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.977Z · span=audited-source-routing
 
 ## Claims by section
 
 ### Literature Evidence Summary
 
+#### Claim `180 ppb`
+- Context: `non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 70 to 180 ppb (2 sources); highest reported 18`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1820 ppb`
+- Context: `almon, cod) (direct row-fit) | mean 70 to 180 ppb (2 sources); highest reported 1820 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `500 ppb`
+- Context: `ources); highest reported 1820 ppb | Sample-level detection rate not reported | 500 ppb | 6 cited | medium (6 sources) |`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `189 ppb`
+- Context: `non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 33 to 189 ppb (1 source); highest reported 189`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `189 ppb`
+- Context: `salmon, cod) (direct row-fit) | mean 33 to 189 ppb (1 source); highest reported 189 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `310 ppb`
+- Context: `redatory (sardines, anchovies, salmon, cod) (direct row-fit) | highest reported 310 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
 #### Claim `50 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 50 ppb | 0 | data gap | Basis not report`
+- Context: `ow-fit) | highest reported 310 ppb | Sample-level detection rate not reported | 50 ppb | 3 cited | medium (3 sources) |`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `27 ppb`
+- Context: `arine, non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 27 ppb (1 source); highest reported 150`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `150 ppb`
+- Context: `ovies, salmon, cod) (direct row-fit) | mean 27 ppb (1 source); highest reported 150 ppb | Sample-level detection rate no`
 - Cited targets: **none in section** — claim has no traceable provenance
 
 ### Sources
 
 #### Claim `0.67 mg/L`
 - Context: `revealed-arsenic-0-58-0-67-mg\|authors 2026]]. *Analysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercu`
-- Cited targets (976):
+- Cited targets (969):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -62,8 +95,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
     - audit rows: none
@@ -271,8 +302,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` (page missing)
@@ -366,8 +395,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` (page missing)
     - audit rows: none
@@ -733,8 +760,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` (page missing)
@@ -1047,8 +1072,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` (page missing)
@@ -1144,8 +1167,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` (page missing)
     - audit rows: none
@@ -1366,8 +1387,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -2010,7 +2029,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.95 mg/L`
 - Context: `-67-mg\|authors 2026]]. *Analysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercury (0.10-0.14 mg/L), an`
-- Cited targets (976):
+- Cited targets (969):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -2018,8 +2037,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
     - audit rows: none
@@ -2227,8 +2244,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` (page missing)
@@ -2322,8 +2337,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` (page missing)
     - audit rows: none
@@ -2689,8 +2702,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` (page missing)
@@ -3003,8 +3014,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` (page missing)
@@ -3100,8 +3109,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` (page missing)
     - audit rows: none
@@ -3322,8 +3329,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -3966,7 +3971,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.14 mg/L`
 - Context: `nalysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercury (0.10-0.14 mg/L), and E. coli (up to 1349.75*,`
-- Cited targets (976):
+- Cited targets (969):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -3974,8 +3979,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
     - audit rows: none
@@ -4183,8 +4186,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` (page missing)
@@ -4278,8 +4279,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` (page missing)
     - audit rows: none
@@ -4645,8 +4644,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` (page missing)
@@ -4959,8 +4956,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` (page missing)
@@ -5056,8 +5051,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` (page missing)
     - audit rows: none
@@ -5278,8 +5271,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -5922,7 +5913,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `6.4 mg/L`
 - Context: `| [[sources/authors2025-on-day-7-6-4-mg-l-followed\|authors 2025]]. *on day 7 (6.4 mg/L), followed by a drastic decreas`
-- Cited targets (976):
+- Cited targets (969):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -5930,8 +5921,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
     - audit rows: none
@@ -6139,8 +6128,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` (page missing)
@@ -6234,8 +6221,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` (page missing)
     - audit rows: none
@@ -6601,8 +6586,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` (page missing)
@@ -6915,8 +6898,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` (page missing)
@@ -7012,8 +6993,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` (page missing)
     - audit rows: none
@@ -7234,8 +7213,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -7878,7 +7855,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (976):
+- Cited targets (969):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` (page missing)
@@ -7886,8 +7863,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` (page missing)
     - audit rows: none
@@ -8095,8 +8070,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` (page missing)
@@ -8190,8 +8163,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` (page missing)
     - audit rows: none
@@ -8557,8 +8528,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` (page missing)
@@ -8871,8 +8840,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` (page missing)
@@ -8968,8 +8935,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` (page missing)
     - audit rows: none
@@ -9190,8 +9155,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -9836,7 +9799,15 @@ This report joins every numerical claim on the page to its citation chain and th
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `50 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 50 ppb | 0 | data gap | Basis not report`
+- `180 ppb` in section _Literature Evidence Summary_ — context: `non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 70 to 180 ppb (2 sources); highest reported 18`
+- `1820 ppb` in section _Literature Evidence Summary_ — context: `almon, cod) (direct row-fit) | mean 70 to 180 ppb (2 sources); highest reported 1820 ppb | Sample-level detection rate n`
+- `500 ppb` in section _Literature Evidence Summary_ — context: `ources); highest reported 1820 ppb | Sample-level detection rate not reported | 500 ppb | 6 cited | medium (6 sources) |`
+- `189 ppb` in section _Literature Evidence Summary_ — context: `non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 33 to 189 ppb (1 source); highest reported 189`
+- `189 ppb` in section _Literature Evidence Summary_ — context: `salmon, cod) (direct row-fit) | mean 33 to 189 ppb (1 source); highest reported 189 ppb | Sample-level detection rate no`
+- `310 ppb` in section _Literature Evidence Summary_ — context: `redatory (sardines, anchovies, salmon, cod) (direct row-fit) | highest reported 310 ppb | Sample-level detection rate no`
+- `50 ppb` in section _Literature Evidence Summary_ — context: `ow-fit) | highest reported 310 ppb | Sample-level detection rate not reported | 50 ppb | 3 cited | medium (3 sources) |`
+- `27 ppb` in section _Literature Evidence Summary_ — context: `arine, non-predatory (sardines, anchovies, salmon, cod) (direct row-fit) | mean 27 ppb (1 source); highest reported 150`
+- `150 ppb` in section _Literature Evidence Summary_ — context: `ovies, salmon, cod) (direct row-fit) | mean 27 ppb (1 source); highest reported 150 ppb | Sample-level detection rate no`
 
 ## Defensibility chain — distinct cited targets
 
@@ -9846,7 +9817,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/acceptable2025-received-31-march-2025-and-chemometric-profiles-of\.md` | sources | 0 | — | — |
 | `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` | sources | 0 | — | — |
 | `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` | sources | 0 | — | — |
-| `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the\.md` | sources | 0 | — | — |
 | `wiki/sources/akkaya2025-marmara-fishery-products-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/albuquerque2026-fish-toxic-elements-western-para\.md` | sources | 0 | — | — |
 | `wiki/sources/aljufaili2024-garra-shamal-oman\.md` | sources | 0 | — | — |
@@ -9950,7 +9920,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2017-methylmercury-uptake-into-bewo-cells-depends-on\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2017-neutralization-of-arsenic-acid-with-sodium-hydroxide-in\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2017-objective-public-health-messages-to-reduce-hg-exposure\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2017-their-exposure-assessment-sampling-strategies-in-a-wide\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2017-through-complex-environmentally-mediated-pathways-the-exposure-for\.md` | sources | 0 | — | — |
@@ -9998,7 +9967,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` | sources | 0 | — | — |
@@ -10181,7 +10149,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2023-the-potential-risks-associated-with-their-exposure-and\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-the-stability-of-phenolic-compounds-in-fruit-berry\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-time-patterns-in-internal-human-exposure-data-to\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-toxicology-reports-11-2023-295-306\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-which-leads-to-skin-cancer-and-other-phototoxic\.md` | sources | 0 | — | — |
@@ -10338,7 +10305,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2025-nutrients-in-commercial-fish-species\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2025-on-day-7-6-4-mg-l-followed\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2025-open-removal-of-hexavalent-chromium\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2025-physicochemical-properties-heavy-metals-content-and-removal-of\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met\.md` | sources | 0 | — | — |
@@ -10387,7 +10353,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-assessed-the-risks-and-benefits-of-selenium-se\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2026-association-of-exposure-to-synthetic-phenols-and-metal\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-associations-of-arsenic-exposure-and-folate\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-atta-rasool-eva-pertile-kater-ina-broz-ova\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-available-online-16-march-2026-arils-and-juice\.md` | sources | 0 | — | — |
@@ -10498,7 +10463,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/caldas2013-mercury-concentration-in-breast-milk-and-infant-exposure\.md` | sources | 0 | — | — |
 | `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` | sources | 0 | — | — |
-| `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` | sources | 0 | — | — |

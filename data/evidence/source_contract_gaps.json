@@ -536,16 +536,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the.md",
-      "cite_key": "agwaramgbo2012-there-is-a-growing-global-concern-for-the",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md",
       "cite_key": "ahmed2017-bangladesh-vegetable-arsenic",
       "metadata_complete": false,
@@ -3109,16 +3099,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/authors2017-risk-assessment-for-children-exposed-to-arsenic.md",
-      "cite_key": "authors2017-risk-assessment-for-children-exposed-to-arsenic",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/authors2017-secondary-sex-ratio-in-relation-to-exposures-to.md",
       "cite_key": "authors2017-secondary-sex-ratio-in-relation-to-exposures-to",
       "metadata_complete": false,
@@ -3729,16 +3709,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal.md",
-      "cite_key": "authors2019-spatial-contamination-and-health-risks-of-heavy-metal",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the.md",
       "cite_key": "authors2019-specialty-section-vmax-of-transport-without-affecting-the",
       "metadata_complete": false,
@@ -3771,16 +3741,6 @@
     {
       "page": "wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in.md",
       "cite_key": "authors2019-total-arsenic-and-arsenic-species-determination-in",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md",
-      "cite_key": "authors2019-toxicology-reports-6-2019-472-481",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -8149,16 +8109,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/authors2025-open-removal-of-hexavalent-chromium.md",
-      "cite_key": "authors2025-open-removal-of-hexavalent-chromium",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag.md",
       "cite_key": "authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag",
       "metadata_complete": false,
@@ -11629,16 +11579,6 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md",
-      "cite_key": "cat2024-individual-and-combined-contamination-of-the-heavy-metals",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -19707,17 +19647,6 @@
     {
       "page": "wiki/sources/kim-unknown-dog-food-trace-minerals.md",
       "cite_key": "kim-unknown-dog-food-trace-minerals",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/kim2018-dry-dog-food-heavy-metals.md",
-      "cite_key": "kim2018-dry-dog-food-heavy-metals",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -28178,16 +28107,6 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite.md",
-      "cite_key": "skin2010-significant-risks-for-dermal-oral-lead-exposures-despite",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },

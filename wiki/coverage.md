@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-09-10
+updated: 2026-09-11
 noindex: false
 ---
 
@@ -12,7 +12,7 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-09-10** from the current state of the corpus.
+This page was regenerated on **2026-09-11** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
@@ -32,21 +32,21 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
  │
  │ Papers from year ≥ 2020: 14,343
  ▼
- Eligibility: 3080 source pages currently in wiki/sources/
+ Eligibility: 3089 source pages currently in wiki/sources/
  │
- │ evidence_tier A: 1519
- │ evidence_tier B: 1457
+ │ evidence_tier A: 1529
+ │ evidence_tier B: 1456
  │ evidence_tier C: 103
  │ evidence_tier unknown: 1
  ▼
  Included: Source pages routed to destination pages
  │
- │ Routing rows in product_source_routing_audit.csv: 6453
+ │ Routing rows in product_source_routing_audit.csv: 6439
  ▼
  Synthesized: Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 3080 have been promoted to source pages — 13.2% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
+**Of the 23,260 papers identified in the literature search, 3089 have been promoted to source pages — 13.3% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -54,7 +54,7 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 3080 |
+| Source pages | 3089 |
 | Ingredient profiles | 363 |
 | Product-category rows (total) | 416 |
 | Product-category rows (non-stub, has scaffold or content) | 150 |

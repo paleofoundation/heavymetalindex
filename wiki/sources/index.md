@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-05-08
+updated: 2026-09-11
 ---
 
 ## Overview
@@ -42,16 +42,38 @@ The folder list below is the public source catalog. For faster lookup, use searc
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]] — FDA FY2018-FY2020 Total Diet Study element results for 90 prepared foods and composites, with normalized row-level CSV evidence.
 
+## Environmental, feed and laboratory evidence — September 2026
+
+These sources cover animal feeds and pet foods, environmental occurrence, exposure models and laboratory treatment experiments. Each page distinguishes measured findings from model outputs, secondary citations and unresolved source limitations.
+
+- [[sources/ghimire2026-jacaranda-carbon-chromium-removal|Bibek Ghimire (2026) — MOF-Derived Carbon Composites from Jacaranda Seed Pods for Selective Removal of Hexavalent Chromium [Cr(VI)]]]
+- [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|M. Khalid (2008) — LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]
+- [[sources/ibikunle2025-functionalized-nanotubes-chromium-removal|Peter D. Ibikunle (2025) — Removal of hexavalent chromium from contaminated synthetic groundwater via functionalized carbon nanomaterials modified with zinc and potassium]]
+- [[sources/saha2022-chromium-sources-remediation-editorial|Bidyut Saha (2022) — Special Issue: Hexavalent Chromium: Sources, Toxicity, and Remediation]]
+- [[sources/sharafi2026-nahavand-soil-water-crop-metals|Saeed Sharafi (2026) — Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]
+- [[sources/bedrossiantz2025-seabass-cadmium-ciprofloxacin-behavior|Juliette Bedrossiantz (2025) — Neurobehavioral Impairments in the Sea Bass (Dicentrarchus labrax) Chronically Exposed to Cadmium and Ciprofloxacin Contaminated Diets]]
+- [[sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite|Eric J. Esswein (2011) — Handwipe Method for Removing Lead from Skin]]
+- [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic|Alesia C. Ferguson (2018) — Risk Assessment for Children Exposed to Arsenic on Baseball Fields with Contaminated Fill Material]]
+- [[sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the|Lovell Agwaramgbo (2012) — An Evaluation of Edible Plant Extracts for the Phytoremediation of Lead Contaminated Water]]
+- [[sources/pille2021-foamed-hydrogels-metal-removal|Ann Pille (2021) — The use of foaming agents and foam stabilizers to improve heavy metal removal properties of acrylic acid/acrylamide hydrogels for use in wastewater remediation]]
+- [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Hayat Boudia (2019) — Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]
+- [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Jiaying Du (2024) — Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]
+- [[sources/kim2018-dry-dog-food-heavy-metals|Hyun-Tae Kim (2018) — Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)]]
+- [[sources/nica2012-banat-soil-nettle-snail-metals|Dragos V Nica (2012) — Bioaccumulative and conchological assessment of heavy metal transfer in a soil-plant-snail food chain]]
+- [[sources/dai2016-texas-animal-feed-metals|Susie Y. Dai (2016) — Heavy Metal Contamination of Animal Feed in Texas]]
+- [[sources/authors2019-toxicology-reports-6-2019-472-481|Pradip Kumar Maurya (2019) — Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]
+- [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints|Janan Gawra (2025) — Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
-| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
-| [3114d3e7e](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7e) | 2026-05-08 | major | 1 source added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 section added |
+| [62866cb6b4](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b4) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
+| [3114d3e7eb](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7eb) | 2026-05-08 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

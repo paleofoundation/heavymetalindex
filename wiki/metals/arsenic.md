@@ -8,8 +8,8 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
-updated: 2026-08-09
-sources: 878
+updated: 2026-09-11
+sources: 875
 ---
 
 # Arsenic
@@ -198,6 +198,26 @@ Second, the dietary contribution to inorganic arsenic cancer risk at general-pop
 
 Third, the contribution of gut-microbiome-mediated arsenic methylation to inter-individual susceptibility is an active research area with implications for biomarker interpretation and for the operational meaning of "individual exposure" in chronic-disease risk modeling. The [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review summarizes host-enzyme AS3MT-pathway evidence; microbiome contributions complicate the simple dose-response framing and are flagged for future microbiome-ingest synthesis.
 
+## Arzew surface-soil survey
+
+In 17 agricultural soils near Arzew, Boudia et al. reported arsenic mean 11.57 mg/kg, median 10.41 mg/kg and range 4.92–19.4 mg/kg. These are air-dried, aqua-regia-extractable soil measurements. Arsenic species and crops were not measured, so the values do not establish inorganic arsenic in food (2019, Table 2). [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal]]
+
+## China imported pet foods: preprint evidence
+
+Du et al.’s 2024 pet-food preprint reports arsenic in all 93 products, with mean 0.21 mg/kg and range 0.02–1.89 mg/kg (Table 3). Atomic fluorescence measured unspeciated arsenic; inorganic arsenic was not separately measured. The version shares one sample cohort with its 2025 publication and provides no independent replication. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals]]
+
+## Dry dog-food formulation comparison
+
+Kim et al.(2018) report total arsenic medians 0.343,0.054 and 0.037 mg/Mcal in fish-,poultry- and red-meat-based dry dog foods respectively(N=17/group;Table 1). These finished-food per-energy summaries cannot establish inorganic arsenic or raw fish/meat concentrations. Each formulation contributed one lot. [[sources/kim2018-dry-dog-food-heavy-metals]]
+
+## Texas animal-feed survey
+
+In a Texas feed survey, fish meal had source-reported total arsenic mean 3.21 mg/kg, SD 1.34 and median 3.6 (N=38; fiscal years 2012–2015). These statistics include zero substitution below quantitation and describe feed material, not edible fish or inorganic arsenic. Earlier-year assays and sampling frames differed, preventing a simple time-trend interpretation (Dai et al. 2016, Table 3). [[sources/dai2016-texas-animal-feed-metals]]
+
+## Miami baseball-field soil arsenic
+
+In two Miami baseball parks investigated in 2014, Ferguson et al. report mean arsenic concentrations of 43.9 mg/kg at Chapman and 40.7 mg/kg at Colonial for equivalent 0–15 cm soil composites (2018, Table 3). The corresponding 95% upper confidence limits of the means were 63.4 and 47.7 mg/kg. These are environmental soil measurements with unspecified arsenic speciation and moisture basis. Targeted sampling and overlapping depth groups limit broader inference. The accompanying hypothetical exposure tables contain internal inconsistencies and do not establish observed health outcomes. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->
@@ -216,11 +236,11 @@ Inorganic arsenic is classified as a Group 1 human carcinogen by IARC, with dose
 
 ### Who is most vulnerable to arsenic exposure?
 
-Infants fed rice cereal as a first solid food are a key vulnerable group, which is why the FDA set a 100 ppb action level for infant rice cereal ([[sources/fda2020-ias-infant-rice-cereal-guidance|FDA 2020]]). Children under three are exposed at 2 to 3 times adult per-kilogram rates because of greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Private-well users in arsenic-affected regions fall outside EPA drinking-water monitoring, and people with low folate or B12 status have reduced methylation efficiency, increasing retention of inorganic species ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
+Infants fed rice cereal as a first solid food are a key vulnerable group, which is why the FDA set a 100 ppb action level for infant rice cereal ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Children under three are exposed at 2 to 3 times adult per-kilogram rates because of greater per-kg food intake ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Private-well users in arsenic-affected regions fall outside EPA drinking-water monitoring, and people with low folate or B12 status have reduced methylation efficiency, increasing retention of inorganic species ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]]).
 
 ### What are the regulatory limits for arsenic in water and food?
 
-The EPA drinking-water Maximum Contaminant Level for total arsenic is 10 ppb (10 µg/L), lowered from the earlier 50 ppb standard, and it applies to public water systems but not private wells ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]). The FDA set a 100 ppb action level for inorganic arsenic in infant rice cereal in 2020 ([[sources/fda2020-ias-infant-rice-cereal-guidance|FDA 2020]]). Major bodies have declined to set a single tolerable intake: JECFA withdrew its PTWI of 15 µg/kg body weight per week in 2010, and EFSA reports cancer BMDL01 values of 0.3 to 8 µg iAs/kg body weight per day instead ([[sources/jecfa-82nd-arsenic|JECFA 82nd]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). ATSDR derives a chronic oral MRL of 0.3 µg As/kg/day anchored on dermal effects ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]).
+The EPA drinking-water Maximum Contaminant Level for total arsenic is 10 ppb (10 µg/L), lowered from the earlier 50 ppb standard, and it applies to public water systems but not private wells ([[sources/epa-arsenic-drinking-water-mcl|EPA Arsenic MCL]]). The FDA set a 100 ppb action level for inorganic arsenic in infant rice cereal in 2020 ([[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Major bodies have declined to set a single tolerable intake: JECFA withdrew its PTWI of 15 µg/kg body weight per week in 2010, and EFSA reports cancer BMDL01 values of 0.3 to 8 µg iAs/kg body weight per day instead ([[sources/jecfa-82nd-arsenic|JECFA 82nd]], [[sources/efsa-arsenic-contam-2009|EFSA 2009]]). ATSDR derives a chronic oral MRL of 0.3 µg As/kg/day anchored on dermal effects ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]).
 
 ### How can I reduce arsenic exposure from rice and well water?
 
@@ -254,7 +274,7 @@ See also [[studies/arsenic-primary-literature]] for the citable index of arsenic
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/atsdr-arsenic-toxprofile-2007|Toxicological Profile for Arsenic]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2007 · [doi.org/10.15620/cdc:11481](https://doi.org/10.15620/cdc:11481)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/epa-iris-inorganic-arsenic-2025|IRIS Toxicological Review of Inorganic Arsenic]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment · EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System · 2025 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278)</span><span class="hmi-ref-tag">Government</span>
@@ -277,18 +297,23 @@ Works cited in this page's text, in first-appearance order. This is not the full
 19. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 20. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 21. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|The Human Gut Microbiome's Influence on Arsenic Toxicity]]<span class="hmi-ref-meta">Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk · Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504 · 2019 · [doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+22. [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]<span class="hmi-ref-meta">Hayat Boudia, Laurent Vassalo, Mohammed Hadjel, Pascale Prudent, and Jean-Luc Boudenne · International Journal of Environmental Science and Technology 16:4707–4718; HAL author-manuscript version read · 2019 · [doi.org/10.1007/s13762-018-02195-1](https://doi.org/10.1007/s13762-018-02195-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+23. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]<span class="hmi-ref-meta">Jiaying Du, Kerui Zhou, Han Jiang, Shen Hu, Wei Zhang, Qiang Zheng, et al. · Research Square, version1, posted8September2024 · 2024 · [doi.org/10.21203/rs.3.rs-4838876/v1](https://doi.org/10.21203/rs.3.rs-4838876/v1)</span><span class="hmi-ref-tag">Preprint</span>
+24. [[sources/kim2018-dry-dog-food-heavy-metals|Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)]]<span class="hmi-ref-meta">Hyun-Tae Kim, John P. Loftus, Sabine Mann, and Joseph J. Wakshlag · Frontiers in Veterinary Science5:264 · 2018 · [doi.org/10.3389/fvets.2018.00264](https://doi.org/10.3389/fvets.2018.00264)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+25. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+26. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic|Risk Assessment for Children Exposed to Arsenic on Baseball Fields with Contaminated Fill Material]]<span class="hmi-ref-meta">Alesia C. Ferguson, Jennifer C. Black, Isaac B. Sims, Jennifer N. Welday, Samir M. Elmir, Kendra F. Goff, et al. · International Journal of Environmental Research and Public Health 15(1):67; published4January2018 · 2018 · [doi.org/10.3390/ijerph15010067](https://doi.org/10.3390/ijerph15010067)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 3 sources added and 3 removed; narrative text revised |
-| [bfce46805](https://github.com/paleofoundation/heavymetalindex/commit/bfce46805) | 2026-08-09 | major | 6 sources added; 1 section added; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 6 sources added; 7 sections added; narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 13 sources added; 9 sections added and 1 removed; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 11 sources removed; narrative text revised |
+| [27aff34762](https://github.com/paleofoundation/heavymetalindex/commit/27aff34762) | 2026-08-18 | correction | Narrative text revised |
+| [e0f4705c7e](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7e) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 6 sources added; narrative text revised |
+| [aa06ad4993](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad4993) | 2026-08-09 | correction | 3 sources added and 3 removed; narrative text revised |
 <!-- END: hmi-page-history -->

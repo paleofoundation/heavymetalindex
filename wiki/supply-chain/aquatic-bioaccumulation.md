@@ -3,7 +3,7 @@ type: supply-chain
 status: in_progress
 metals: [MeHg, tHg, Cd, iAs, tAs, Pb, Sn]
 audience: [regulator, educator, commercial, researcher]
-updated: 2026-06-10
+updated: 2026-09-11
 ---
 
 # Aquatic bioaccumulation of heavy metals
@@ -50,12 +50,32 @@ Reading the aquatic literature correctly requires holding three sources of withi
 
 Source pages reporting seawater, freshwater, sediment, atmospheric-deposition, or discharge-inventory data are upstream evidence in exactly the sense set out above. They attach to the [seafood](/ingredients/seafood) and aquatic-species [ingredients](/ingredients) they inform as exposure and mechanism context rather than as direct food-occurrence evidence, preserving the separation between an ambient concentration and a food concentration, and they support the synthesis of why a given species carries the contamination profile it does. The routing layer connects each upstream source to the consumable it informs, so that the methylation and biomagnification literature is visible from the [methylmercury](/metals/mercury-methyl) and [total mercury](/metals/mercury-total) pages and from the predator-fish ingredient pages, the bivalve and crustacean cadmium literature from the [cadmium](/metals/cadmium) page and the [bivalve molluscs](/ingredients/bivalve-molluscs) and [shellfish](/ingredients/shellfish) pages, the seaweed speciation literature from the [inorganic arsenic](/metals/arsenic-inorganic) page and the [seaweed](/ingredients/seaweed) page, and the nearshore lead and organotin literature from the [lead](/metals/lead) and [organotins](/metals/organotins) pages, in each case without being mistaken for a measured food concentration or promoted into a threshold percentile. The regulatory counterparts to this pathway, the methylmercury limits for fish in [Regulation (EU) 2022/617](/regulations/eu-reg-2022-617-mercury-fish) and the United States [FDA action level for methylmercury in fish](/regulations/fda-cpg-540-600-methylmercury-fish), and the mollusc and crustacean cadmium limits in [Regulation (EU) 2023/915](/regulations/eu-2023-915-cadmium), are written against the species, tissue, and trophic structure this hub describes. The element-by-element and species-by-species causal accounts build on this hub as dedicated synthesis pages, and the actionable downstream counterpart for harvest-site and sourcing controls is developed on the [supply-chain screening](/mitigation/supply-chain-screening) page.
 
+## Chromium research: qualified source context
+
+The editorial’s summary of Ndiaye et al. reports approximate first-campaign fish means attributed to Cr(VI), but provides no measurement basis, sample N or validated species-preservation method. Its Senegal fish context is a lead to the primary study, not evidence of an independently measured bioaccumulation factor (p1780). [[sources/saha2022-chromium-sources-remediation-editorial]]
+
+## Sea-bass dietary exposure abstract
+
+Bedrossiantz et al. describe altered social, locomotor and exploratory behavior in juvenile sea bass after experimental dietary cadmium or antibiotic exposure. This preliminary abstract provides aquatic-effects context; no tissue burden, uptake factor or food-chain transfer factor is reported (SETAC 2025, abstract 1.01.P-Tu004). [[sources/bedrossiantz2025-seabass-cadmium-ciprofloxacin-behavior]]
+
+## Zebrafish short-exposure abstract
+
+A zebrafish conference abstract reports contrasting enzyme responses to cadmium and ciprofloxacin during short experimental exposures. No tissue burden or bioaccumulation factor is given, and transcriptomic and methylation analyses were still underway. It provides preliminary aquatic-toxicology context rather than a quantified trophic-transfer result (Gawra et al., SETAC 2025, abstract 1.01.P-Tu009). [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints]]
+
+## Ganga freshwater-fish study: qualified evidence
+
+The Ganga survey distinguishes river water from muscle, gill and liver measurements in seven freshwater fish species. Water copper means ranged from 1.35 mg/L at Kanpur to 4.58 mg/L at Varanasi, while lead means ranged from 0.24 mg/L at Varanasi to 0.85 mg/L at Mirzapur (Maurya et al. 2019, Table 3). Fish results lack city-specific breakdowns and have an unresolved wet/dry basis. The reported tissue/water indices contain discrepancies and are not validated uptake coefficients. [[sources/authors2019-toxicology-reports-6-2019-472-481]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/saha2022-chromium-sources-remediation-editorial|Special Issue: Hexavalent Chromium: Sources, Toxicity, and Remediation]]<span class="hmi-ref-meta">Bidyut Saha, Aziz Amine, and Francis Verpoort · Chemistry Africa5:1779–1780 · 2022 · [doi.org/10.1007/s42250-022-00443-z](https://doi.org/10.1007/s42250-022-00443-z)</span><span class="hmi-ref-tag">Editorial</span>
+2. [[sources/bedrossiantz2025-seabass-cadmium-ciprofloxacin-behavior|Neurobehavioral Impairments in the Sea Bass (Dicentrarchus labrax) Chronically Exposed to Cadmium and Ciprofloxacin Contaminated Diets]]<span class="hmi-ref-meta">Juliette Bedrossiantz, Janan Gawra, Nerea Sanchis, Paula Medina, Demetrio Raldua, Joana Luisa Pereira, et al. · SETAC Europe35th Annual Meeting Abstract Book, Vienna,11–15May2025; 1.01.P-Tu004 · 2025 · [digital.csic.es](https://digital.csic.es/bitstream/10261/431362/1/setac-vienna-abstract-book.pdf)</span><span class="hmi-ref-tag">Conference</span>
+3. [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints|Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium]]<span class="hmi-ref-meta">Janan Gawra, Énia Correia, Bruna Vieira, Joana Luisa Pereira, Inês Domingues, and Laia Navarro-Martin · SETAC Europe35th Annual Meeting Abstract Book, Vienna,11–15May2025; 1.01.P-Tu009 · 2025 · [digital.csic.es](https://digital.csic.es/bitstream/10261/431363/1/setac-vienna-abstract-book.pdf)</span><span class="hmi-ref-tag">Conference</span>
+4. [[sources/authors2019-toxicology-reports-6-2019-472-481|Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]<span class="hmi-ref-meta">Pradip Kumar Maurya, D. S. Malik, Krishna Kumar Yadav, Amit Kumar, Sandeep Kumar, and Hesam Kamyab · Toxicology Reports 6:472–481 · 2019 · [doi.org/10.1016/j.toxrep.2019.05.012](https://doi.org/10.1016/j.toxrep.2019.05.012)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -65,11 +85,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
-| [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

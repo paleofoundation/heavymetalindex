@@ -2,15 +2,15 @@
 source_page: wiki/products/shellfish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25504e5c83cf0ab983745fffc10d2104cf540187d3826676a3e75d2e59f1b6de
-total_claims: 6
-cited_claims: 4
-uncited_claims: 2
-distinct_cited_targets: 534
+source_page_sha256: c5bba5b5363a80f4e892c1ca1f7ba124d8cb8e41bca7df3ceff3c956e3d4e495
+total_claims: 12
+cited_claims: 12
+uncited_claims: 0
+distinct_cited_targets: 535
 distinct_cited_sources: 534
 audit_rows_for_page: 1
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 24
+audit_log_total_rows: 10803
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 6 |
-| cited claims | 4 |
-| uncited claims | 2 |
-| distinct cited targets | 534 |
+| total claims | 12 |
+| cited claims | 12 |
+| uncited claims | 0 |
+| distinct cited targets | 535 |
 | distinct cited `sources/` pages | 534 |
 | audit rows on this page | 1 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 24 |
+| audit log rows read | 10803 |
 
 ## Page-level audit rows
 
@@ -46,13 +46,77 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ### Literature Evidence Summary
 
+#### Claim `18150 ppb`
+- Context: `(shrimp, crab, lobster, clams, oysters, mussels) (direct row-fit) | mean 27 to 18150 ppb (15 sources); highest reported`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `26000 ppb`
+- Context: `mussels) (direct row-fit) | mean 27 to 18150 ppb (15 sources); highest reported 26000 ppb | Sample-level detection rate`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
 #### Claim `1000 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `urces); highest reported 26000 ppb | Sample-level detection rate not reported | 1000 ppb | 18 cited (plus commodity-synt`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `65 ppb`
+- Context: `(shrimp, crab, lobster, clams, oysters, mussels) (direct row-fit) | mean 45 to 65 ppb (2 sources); highest reported 160`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `160 ppb`
+- Context: `rs, mussels) (direct row-fit) | mean 45 to 65 ppb (2 sources); highest reported 160 ppb | Sample-level detection rate no`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `5680 ppb`
+- Context: `(shrimp, crab, lobster, clams, oysters, mussels) (direct row-fit) | mean 17 to 5680 ppb (10 sources); highest reported`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `9150 ppb`
+- Context: `mussels) (direct row-fit) | mean 17 to 5680 ppb (10 sources); highest reported 9150 ppb | Sample-level detection rate n`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 #### Claim `1500 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1500 ppb | 0 | data gap | Basis not repo`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 1500 ppb (wet weight) | 17 cited (plus c`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ### Sources
 
@@ -234,8 +298,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-sergio-a-loza-rosas-2-anamaris-torres-3\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` (page missing)
     - audit rows: none
@@ -589,8 +651,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2026-application-of-nanomaterials-for-the-removal-of-toxic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
@@ -865,6 +925,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/kopylev2025-relationship-of-prenatal-methylmercury\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport\.md` (page missing)
     - audit rows: none
   - `wiki/sources/lead2017-sociocultural-factors-associated-with-fish\.md` (page missing)
@@ -1050,6 +1112,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
     - audit rows: none
@@ -1307,8 +1371,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` (page missing)
@@ -1661,8 +1723,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2026-application-of-nanomaterials-for-the-removal-of-toxic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
@@ -1937,6 +1997,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/kopylev2025-relationship-of-prenatal-methylmercury\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport\.md` (page missing)
     - audit rows: none
   - `wiki/sources/lead2017-sociocultural-factors-associated-with-fish\.md` (page missing)
@@ -2122,6 +2184,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
     - audit rows: none
@@ -2379,8 +2443,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` (page missing)
@@ -2733,8 +2795,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2026-application-of-nanomaterials-for-the-removal-of-toxic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
@@ -3009,6 +3069,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/kopylev2025-relationship-of-prenatal-methylmercury\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport\.md` (page missing)
     - audit rows: none
   - `wiki/sources/lead2017-sociocultural-factors-associated-with-fish\.md` (page missing)
@@ -3194,6 +3256,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
     - audit rows: none
@@ -3451,8 +3515,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` (page missing)
@@ -3805,8 +3867,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2026-application-of-nanomaterials-for-the-removal-of-toxic\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` (page missing)
@@ -4081,6 +4141,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/kopylev2025-relationship-of-prenatal-methylmercury\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport\.md` (page missing)
     - audit rows: none
   - `wiki/sources/lead2017-sociocultural-factors-associated-with-fish\.md` (page missing)
@@ -4267,6 +4329,8 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sonke2023-mercury-global-change\.md` (page missing)
@@ -4346,15 +4410,13 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `1000 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
-- `1500 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1500 ppb | 0 | data gap | Basis not repo`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 | `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` | sources | 0 | — | — |
 | `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` | sources | 0 | — | — |
 | `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador\.md` | sources | 0 | — | — |
@@ -4443,7 +4505,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2019-recent-advances-in-hexavalent-chromium-removal\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-sergio-a-loza-rosas-2-anamaris-torres-3\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis\.md` | sources | 0 | — | — |
@@ -4620,7 +4681,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2026-access-metrics-more-article-recommendations-supporting-information-2\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-analysis-revealed-arsenic-0-58-0-67-mg\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2026-application-of-nanomaterials-for-the-removal-of-toxic\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-between-heavy-metal-exposure-in\.md` | sources | 0 | — | — |
@@ -4758,6 +4818,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/komonen2026-environmental-and-ecotoxicity-impacts-of-sunscreen-formulations-with\.md` | sources | 0 | — | — |
 | `wiki/sources/kopylev2024-j-toxicol-environ-health-b-crit-rev-author\.md` | sources | 0 | — | — |
 | `wiki/sources/kopylev2025-relationship-of-prenatal-methylmercury\.md` | sources | 0 | — | — |
+| `wiki/sources/kovacik2024-grass-carp-muscle-microelements\.md` | sources | 0 | — | — |
 | `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport\.md` | sources | 0 | — | — |
 | `wiki/sources/lead2017-sociocultural-factors-associated-with-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/leclerc2023-methylmercury-periphyton-river\.md` | sources | 0 | — | — |
@@ -4851,6 +4912,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/simionov2023-danube-fish-seafood-pte-microplastics\.md` | sources | 0 | — | — |
 | `wiki/sources/singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in\.md` | sources | 0 | — | — |
 | `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` | sources | 0 | — | — |
 | `wiki/sources/sonke2023-mercury-global-change\.md` | sources | 0 | — | — |
 | `wiki/sources/sources2026-heavy-metals-in-air-soil-and\.md` | sources | 0 | — | — |

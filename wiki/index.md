@@ -2,7 +2,7 @@
 title: Heavy Metal Index
 description: A curated reference on heavy metals in food, ingredients, consumer-product categories, regulations, and source evidence. Operated by the Institute of Contaminant Standards.
 audience: [regulator, educator, consumer, researcher]
-updated: 2026-09-10
+updated: 2026-09-11
 ---
 
 <div class="hmi-v3-home">
@@ -34,15 +34,15 @@ updated: 2026-09-10
 <div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Library at a glance</span>
-    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-10</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-11</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,562</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,565</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,519</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">4,804</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">187</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,529</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,111</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">188</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
   <a class="hmi-v3-ledger-coverage" href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a>
@@ -121,7 +121,7 @@ updated: 2026-09-10
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,079</span>
+    <span class="hmi-v3-registry-n">3,088</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -142,13 +142,13 @@ updated: 2026-09-10
     <tbody>
       <tr>
         <td class="hmi-metal-name"><a href="metals/cadmium/">Cadmium</a> <span>Cd</span></td>
-        <td class="hmi-metal-n">1,580</td>
+        <td class="hmi-metal-n">1,584</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Cocoa, leafy greens, root vegetables, offal</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,453</td>
+        <td class="hmi-metal-n">1,455</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
@@ -160,19 +160,19 @@ updated: 2026-09-10
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/nickel/">Nickel</a> <span>Ni</span></td>
-        <td class="hmi-metal-n">776</td>
+        <td class="hmi-metal-n">774</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EU maximum levels</span></td>
         <td class="hmi-metal-drivers">Legumes, nuts, cocoa, equipment contact</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/aluminum/">Aluminum</a> <span>Al</span></td>
-        <td class="hmi-metal-n">535</td>
+        <td class="hmi-metal-n">530</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Additives, packaging contact, botanicals</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/arsenic-total/">Arsenic</a> <span>As</span></td>
-        <td class="hmi-metal-n">369</td>
+        <td class="hmi-metal-n">368</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Rice, seaweed, drinking water, apple juice</td>
       </tr>
@@ -184,7 +184,7 @@ updated: 2026-09-10
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/tin/">Tin</a> <span>Sn</span></td>
-        <td class="hmi-metal-n">228</td>
+        <td class="hmi-metal-n">226</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Codex ML</span></td>
         <td class="hmi-metal-drivers">Canned foods, acidic matrices</td>
       </tr>
@@ -261,8 +261,23 @@ updated: 2026-09-10
   </div>
   <div class="hmi-v3-rev-grid">
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-08-09">9 Aug 2026</time>
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
       <a class="hmi-v3-rev-t" href="metals/arsenic/">Arsenic</a>
+      <span class="hmi-v3-rev-k">Metal</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/catfish/">Catfish</a>
+      <span class="hmi-v3-rev-k">Ingredient</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="products/pet-food-canned-wet/">Complete &amp; balanced canned/wet</a>
+      <span class="hmi-v3-rev-k">Product</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/cadmium/">Cadmium</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
@@ -271,12 +286,12 @@ updated: 2026-09-10
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-08-10">10 Aug 2026</time>
-      <a class="hmi-v3-rev-t" href="products/infant-food-storage-items/">Infant food-storage items</a>
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="products/pet-food-dry-kibble/">Complete &amp; balanced dry</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-22">22 Jun 2026</time>
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
       <a class="hmi-v3-rev-t" href="metals/chromium/">Chromium</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
@@ -286,23 +301,8 @@ updated: 2026-09-10
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-08-10">10 Aug 2026</time>
-      <a class="hmi-v3-rev-t" href="products/teething-toys-teethers/">Teething toys/teethers</a>
-      <span class="hmi-v3-rev-k">Product</span>
-    </div>
-    <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-22">22 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/chromium-hexavalent/">Chromium, Hexavalent</a>
-      <span class="hmi-v3-rev-k">Metal</span>
-    </div>
-    <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-10">10 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/bagel/">Bagel</a>
-      <span class="hmi-v3-rev-k">Ingredient</span>
-    </div>
-    <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
-      <a class="hmi-v3-rev-t" href="products/antiperspirant/">Antiperspirant</a>
+      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <a class="hmi-v3-rev-t" href="products/fish-freshwater/">Fish</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
   </div>

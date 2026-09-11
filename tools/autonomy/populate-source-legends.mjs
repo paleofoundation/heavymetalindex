@@ -49,6 +49,15 @@ const targetDirs = scopedDir
       path.join(repoRoot, "wiki/metals"),
     ]
 const sourcesDir = path.join(repoRoot, "wiki/sources")
+// Audited source/page descriptions are inputs, so repairs survive regeneration.
+const descriptionPath = path.join(repoRoot, "data/evidence/source-legend-descriptions.json")
+const descriptions = fs.existsSync(descriptionPath) ? JSON.parse(fs.readFileSync(descriptionPath, "utf8")) : {}
+for (const pageDescriptions of Object.values(descriptions)) {
+  if (!pageDescriptions || typeof pageDescriptions !== "object" || Array.isArray(pageDescriptions)) throw new Error("Invalid source legend description map")
+  for (const description of Object.values(pageDescriptions)) {
+    if (typeof description !== "string" || !description.trim() || /[\r\n|]/.test(description)) throw new Error("Source legend descriptions must be nonempty single-line text without pipes")
+  }
+}
 
 // Cache of source-page frontmatter so we read each source page at most once.
 const sourceCache = new Map()
@@ -190,7 +199,9 @@ for (const dir of targetDirs) {
     pagesScanned += 1
     const filepath = path.join(dir, file)
     const raw = fs.readFileSync(filepath, "utf8")
-    const hasRepairWork = repair && NULL_ARTIFACT.test(raw)
+    const pageKey = path.relative(path.join(repoRoot, "wiki"), filepath).replace(/\.md$/, "")
+    const pageDescriptions = descriptions[pageKey] || {}
+    const hasRepairWork = (repair && NULL_ARTIFACT.test(raw)) || Object.keys(pageDescriptions).length > 0
     if (!raw.includes("*[awaiting synthesis]*") && !hasRepairWork) continue
     const pageSlug = file.replace(/\.md$/, "")
     const pageType = dir.endsWith("products") ? "product" : dir.endsWith("ingredients") ? "ingredient" : "metal"
@@ -207,7 +218,7 @@ for (const dir of targetDirs) {
     for (const line of lines) {
       const isPlaceholder = line.includes("*[awaiting synthesis]*")
       const isNullArtifact = repair && NULL_ARTIFACT.test(line)
-      if (!isPlaceholder && !isNullArtifact) {
+      if (!isPlaceholder && !isNullArtifact && Object.keys(pageDescriptions).length === 0) {
         newLines.push(line)
         continue
       }
@@ -220,7 +231,12 @@ for (const dir of targetDirs) {
         continue
       }
       const citeKey = m[1].trim()
-      const description = describeSourceForPage(citeKey, { pageType, pageSlug })
+      const curated = pageDescriptions[citeKey]
+      if (!curated && !isPlaceholder && !isNullArtifact) {
+        newLines.push(line)
+        continue
+      }
+      const description = curated || describeSourceForPage(citeKey, { pageType, pageSlug })
       if (!description) {
         newLines.push(line)
         cellsSkipped += 1
@@ -263,5 +279,5 @@ console.log(`populate-source-legends: ${dryRun ? "DRY-RUN" : "EXECUTED"}`)
 console.log(`  pages scanned: ${pagesScanned}`)
 console.log(`  pages modified: ${pagesModified}`)
 console.log(`  cells filled: ${cellsFilled}`)
-console.log(`  cells repaired (null artifact): ${cellsRepaired}`)
+console.log(`  cells repaired (audited description or null artifact): ${cellsRepaired}`)
 console.log(`  cells skipped (no cite-key match or insufficient source metadata): ${cellsSkipped}`)

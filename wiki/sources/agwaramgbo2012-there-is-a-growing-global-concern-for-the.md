@@ -1,107 +1,73 @@
 ---
-type: source
-raw_handle: RPMEHG_10-4236-jep-2012-38086
-cite_key: agwaramgbo2012-there-is-a-growing-global-concern-for-the
-title: "There is a growing global concern for the environmental and health hazards posed by heavy metal contaminants, espe-"
-authors: ["Lovell Agwaramgbo", "Charne Thomas#", "Chardai Grays", "Jessica Small", "Tajeve Young Chemistry Department", "Dillard University", "New Orleans", "USA. Email: lagwaramgbo@dillard.edu"]
+type: "source"
+raw_handle: "RPIS_12"
+alternate_raw_handles: ["RPMEHG_10-4236-jep-2012-38086"]
+cite_key: "agwaramgbo2012-there-is-a-growing-global-concern-for-the"
+aliases: ["agwaramgbo2012-edible-extracts-lead-water"]
+title: "An Evaluation of Edible Plant Extracts for the Phytoremediation of Lead Contaminated Water"
+authors: ["Lovell Agwaramgbo", "Charne Thomas", "Chardai Grays", "Jessica Small", "Tajeve Young"]
 year: 2012
-publication: "Peer-reviewed article"
-doi: 10.4236/jep.2012.38086
-source_type: peer-reviewed
-evidence_tier: B
-license: "PDF-local extraction; verify publisher license before reuse"
-access_url: "https://doi.org/10.4236/jep.2012.38086"
-raw_path: "/Volumes/HMI-Library/research-pulls/ingredient-sweep/Baby wipes/Baby wipes liming heavy metals/f5ec251d3a555655c1bd1e629ed009d83b6e.pdf"
+publication: "Journal of Environmental Protection 3:722–730"
+doi: "10.4236/jep.2012.38086"
+access_url: "https://content.scirp.org/pdf/jep20120800012_40874035.pdf"
+retrieval_date: "2026-09-11"
+source_type: "peer-reviewed"
+evidence_tier: "A"
+license: "PDF prints Copyright 2012 SciRes; redistribution license not established from this PDF. Original paraphrase and structured facts only."
+raw_path: "raw/Research Pull Ingredient Sweep/Baby wipes/Baby wipes liming heavy metals/f5ec251d3a555655c1bd1e629ed009d83b6e.pdf"
 raw_sha256: "7b33412c91cd3f5bd03b67b52e684c5b18249416caf7a68e9febaa7254b52c35"
-metals: [Pb, tAs, Al, Cr]
+metals: ["Pb"]
 ingredients: []
-products: ["[[products/fish-marine-non-predatory]]", "[[products/root-vegetable-purees]]", "[[products/baby-wipes]]", "[[products/seaweed-kelp-foods]]"]
-matrices: [fish-marine-non-predatory, root-vegetable-purees, baby-wipes, seaweed-kelp-foods]
-jurisdictions: [US]
+products: []
+matrices: ["synthetic-water", "plant-extract-reaction-supernatant"]
+jurisdictions: ["US"]
+evidence_fitness: {"supports": ["Source-labelled laboratory residual Pb means, SD and SE after extract treatment", "Method and reporting-limitation context for experimental water remediation"], "does_not_support": ["Food/ingredient or baby-wipe contamination occurrence", "Dilution-corrected removal efficiencies", "Verified safe drinking water", "Clinical detoxification or health benefit", "Demonstrated field-scale in-situ phytoremediation"]}
+ingest_status: "complete"
+near_duplicates: []
 sample_n: null
-sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
-updated: 2026-08-03
+sample_population: "Twelve plant-extract treatments and two water controls in reaction triplicates; independent source-lot sampling not established"
+audience: ["researcher", "educator", "regulator"]
+sources: 0
+updated: "2026-09-11"
+data_path: "data/evidence/library-drain/batch-01-extractions.json"
+audit_path: "data/evidence/library-drain/batch-01-audit.md"
 ---
 
-# Agwaramgbo et al. 2012 - There is a growing global concern for the environmental and health hazards posed
+# Agwaramgbo et al. 2012 — Plant extracts in a laboratory lead-water experiment
 
-## Overview
-
-This source page is a mechanical bulk-ingest record for a PDF in the research-pulls corpus. It preserves source-level identity, routeable product/analyte scope, and exact extracted numeric lines for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
+Researchers mixed twelve edible-plant extracts with lead-nitrate solution and measured lead remaining in the centrifuged liquid. The results document a laboratory treatment experiment. They do not measure lead in the original foods, and the reported removal percentages use an undiluted control despite a twofold dilution in each treatment.
 
 ## Key numbers
 
-The worker extracted the full PDF text with layout preservation twice and compared extraction hashes before commit. The following lines are copied from numeric/table-bearing regions of the PDF and retain the source units and wording where legible:
+| Measurement | Source-reported result | Location and qualification |
+| --- | --- | --- |
+| Experimental groups | Twelve plant extracts, each tested in triplicate | Methods pp723–724; reaction replicates do not establish independent market samples. |
+| Reaction mixture | 25 mL stock plus 25 mL extract | Methods p724; a dilution-only control was also measured. |
+| Undiluted/diluted controls | 1,277/710 ppm | Tables 1–3; source-labelled Pb concentration, stock preparation basis unresolved. |
+| Collard-green-treated liquid | Mean 2.4 ppm, SD 0.015, SE 0.0088 | Table 1; residual liquid, not collard-green tissue. |
+| Carrot-treated liquid | Mean 20.6 ppm, SD 0.61, SE 0.35 | Table 2; table removal 98% conflicts with 95.5% in abstract/conclusion. |
+| Lime-treated liquid | Mean 540.8 ppm, SD 70.7, SE 40.82 | Table 3; source removal 57.6% uses the undiluted control. |
 
-- taminated water (1300 ppm). The plants used in this study include Mustard Green (Brassica juncea), Spinach (Spinacea
-- toes (84%) > Bitter Leaf (61%). The study concludes that liquid substrates such as the supernatants from pureed edible
-- global problem (1-5). A wide range of human activities
-- tion technique has shown promise in the mitigation of from a local garden. Each leafy vegetable (100 g) was
-- bons (30). However, the technologies for heavy metal wipes. The 100 g of each vegetable was respectively pu-
-- above, 100 g of each fruity vegetable was pureed, filtered
-- 2.2. Preparation of 650 ppm of Lead Nitrate
-- To 25 ml of the 1300 ppm lead nitrate solution prepared ml centrifuge tubes in 25 ml portions, respectively. The
-- 1300 ppm lead solution, respectively. The resulting solu- 2.7. Preparation of Carrot Supernatant
-- lead nitrate solution (1300 ppm) prepared above. The LAC).
-- containing the 1300 ppm lead solution and its two-fold 4.2. Sample Analysis for Lead after Reaction
-- was treated with leafy vegetable supernatants for 24 hrs
-- 25 ml of the lead nitrate solution (1300 ppm) prepared ble 1 and Figures 1(a) and 1(b) showed that the super-
-- Into the triplicate centrifuge tubes containing 25 ml of while Red Bell Pepper and Tomatoes only removed 90%
-- the carrot supernatants were respectively added 25 ml of and 83% of the lead, respectively. Thus, all vegetables
-- the lead nitrate solution (1300 ppm) prepared above. The were able to remove 90% of the lead except Bitter Leaf
-- 4. Sample Preparation and Analysis water while lime removed only 57.6% of the lead. Fur-
-- After 24 hrs, the shaker was stopped and the tubes and by supernatants from acidic vegetables and fruits (Bitter
-- Table 1. Residual & removed lead in contaminated water after treatment with leafy vegetables.
-- (50% Pb Ctrluted Pb) 710 5.03 2.91 0
-- Figure 1. (a) Lead concentration remaining after contaminated water was treated with leafy vegetables; (b) Percent lead re-
-- moved after contaminated water was treated with leafy vegetable supernatants for 24 hr.
-- Table 2. Residual & removed lead in contaminated water after treatment with fruity & root vegetables.
-- (50% Pb Ctrluted Pb) 710 5.03 2.91 0
-- Figure 2. (a) Lead concentration remaining after contaminated water was treated with fruity vegetable; (b) Percent lead re-
-- Table 3. Residual & removed lead in contaminated water after treatment with fruits.
-- 50% Diluted Pb Ctrl 710 5.03 2.91 0
-- Thus, the order of lead removal is Collard Green (99.8%) The percent of lead removed by the supernatants is
-- > Spinach (98.8%) > Mustard Green (98%) ~ Carrot based on the initial lead concentration assumed to be
-- (98%) ~ Green Bell Pepper (97.6%) ~ Yellow Bell Pep- 1277 ppm. Although we set out to prepare 1300 ppm of
-- the control after 24 hrs was 1276.66 ppm. 1654. doi:10.1001/jama.1993.03500130061033
-- percent lead removal is Collard Green (99.8%) > Spinach doi:10.1006/eesa.2000.2001
-- (97.8%) > Yellow Bell Pepper (97.75%) > White Grape Cherry, “The Formation and Potential Importance of Ce-
+Means, standard deviations, standard errors and reported percentages are retained for all treatments and both controls. Repeated controls and chart labels do not create additional independent observations.
 
 ## Methods (brief)
 
-- Inductively Coupled Plasma-Atomic Emission Spectrometry (ICP-AES). Results suggest that the order of lead removal
-- containing the 1300 ppm lead solution and its two-fold 4.2. Sample Analysis for Lead after Reaction
-- Emission Spectrometry (ICP-AES)).
-- 4. Sample Preparation and Analysis water while lime removed only 57.6% of the lead. Fur-
-- 4.1. Sample Preparation
-- Sample (Pb) in ppm Std. Dev. Std. Err. % Lead Removed
-- Sample (Pb) in ppm Std. Dev. Std. Err. % Lead Removed
-- Sample (Pb) in ppm Std. Dev. Std. Err. % Lead Removed
-- per (97.5%) > White Grape (96%) > Red Bell Pepper lead stock solution; however, the average ICP result of
-- sity LAMP Program for sample analysis, Victor Ogburie USDA of 1983 Workshop on Utilization of Municipal
+Store- or market-purchased plants and garden bitter leaf were pureed with deionized water, filtered and centrifuged. Triplicate extract/lead-solution mixtures were shaken at room temperature, then centrifuged again. A commercial laboratory measured the liquid by EPA Method 6010 ICP-AES. Methods state 24 hours, while the abstract says 22 hours. Collection dates, plant origins and numerical detection limits are not supplied.
 
-## Implications
+## Evidence fitness
 
-This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
+Supports qualified laboratory-method context and source-reported residual-liquid summaries. The analyzed material was treated water, so these values cannot establish impurity levels in food ingredients or retail wipes. The experiment does not demonstrate drinking-water safety, clinical benefit or field-scale remediation.
 
-## Wiki pages this source may touch
+## Limitations
 
-- [[products/fish-marine-non-predatory]]
-- [[products/root-vegetable-purees]]
-- [[products/baby-wipes]]
-- [[products/seaweed-kelp-foods]]
+The paper describes 1.3 g of lead nitrate in 1 litre as 1,300 ppm lead without resolving compound versus elemental concentration. Removal percentages compare diluted treatment mixtures with the undiluted control, confounding dilution with treatment. Several abstract, conclusion, table and chart numbers disagree. These original values remain distinct; no replacement efficacy calculation is presented.
+
+Reaction triplicates do not demonstrate reproducibility across independent plant lots. The paper supplies no complete liquid/solid mass balance, measured acidity, extract-blank results or detailed recovery data. Consequently, the proposed acidity explanation and removal mechanism remain uncertain.
+
+## Related evidence
+
+- [[mitigation/remediation-evidence]]
 - [[metals/lead]]
-- [[metals/arsenic]]
-- [[metals/aluminum]]
-- [[metals/chromium]]
-
-## Verification notes
-
-- Identity check: DOI, raw handle, candidate cite-key, and SHA-256 were compared against existing the linked reference record pages before creation.
-- Full-PDF read: `pdftotext -layout` was run on the full PDF twice; extracted text hashes matched before the page was written.
-- Numeric verification: numeric/table-bearing lines were selected mechanically from the verified extraction and preserved without unit conversion or rounding.
-- Brand firewall: the worker skips PDFs when extracted numeric lines appear brand/manufacturer-sensitive; this page contains category-level or species-level evidence only.
-- HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -110,6 +76,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | minor | Narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sections added |
 | [3ca2007c53](https://github.com/paleofoundation/heavymetalindex/commit/3ca2007c53) | 2026-08-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

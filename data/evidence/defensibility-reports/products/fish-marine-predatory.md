@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-marine-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e99d71352e11f81b9934f94e6dd235974ef0105ea16ab0b807ecaba677ff2b09
-total_claims: 3
+source_page_sha256: bbbddfa25a9ff4abaa82878b57dfa5feb072db2ba9922a562e01c882074aa095
+total_claims: 10
 cited_claims: 1
-uncited_claims: 2
-distinct_cited_targets: 527
-distinct_cited_sources: 527
+uncited_claims: 9
+distinct_cited_targets: 523
+distinct_cited_sources: 523
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10803
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 3 |
+| total claims | 10 |
 | cited claims | 1 |
-| uncited claims | 2 |
-| distinct cited targets | 527 |
-| distinct cited `sources/` pages | 527 |
+| uncited claims | 9 |
+| distinct cited targets | 523 |
+| distinct cited `sources/` pages | 523 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10803 |
 
 ## Page-level audit rows
 
@@ -48,19 +48,47 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ### Literature Evidence Summary
 
-#### Claim `1000 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
+#### Claim `1212 ppb`
+- Context: `(tuna, swordfish, shark, king mackerel) (direct row-fit) | mean/median 79.9 to 1212 ppb (3 sources); highest reported 1`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1212 ppb`
+- Context: `) (direct row-fit) | mean/median 79.9 to 1212 ppb (3 sources); highest reported 1212 ppb | Sample-level detection rate n`
 - Cited targets: **none in section** — claim has no traceable provenance
 
 #### Claim `1000 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
+- Context: `ources); highest reported 1212 ppb | Sample-level detection rate not reported | 1000 ppb | 4 cited | medium (4 sources)`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `10420 ppb`
+- Context: `(tuna, swordfish, shark, king mackerel) (direct row-fit) | mean/median 99.3 to 10420 ppb (7 sources); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `13000 ppb`
+- Context: `(direct row-fit) | mean/median 99.3 to 10420 ppb (7 sources); highest reported 13000 ppb | 10% detected (4/40, Lehel 20`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1000 ppb`
+- Context: `13000 ppb | 10% detected (4/40, Lehel 2023, yellowfin tuna flesh, wet weight) | 1000 ppb | 9 cited | medium (9 sources)`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `180.9 ppb`
+- Context: `predatory (tuna, swordfish, shark, king mackerel) (direct row-fit) | mean 7 to 180.9 ppb (4 sources); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `710 ppb`
+- Context: `mackerel) (direct row-fit) | mean 7 to 180.9 ppb (4 sources); highest reported 710 ppb | 20% detected (8/40, Lehel 2023`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `50 ppb`
+- Context: `d 710 ppb | 20% detected (8/40, Lehel 2023, yellowfin tuna flesh, wet weight) | 50 ppb | 7 cited | medium (7 sources) |`
 - Cited targets: **none in section** — claim has no traceable provenance
 
 ### Sources
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (527):
+- Cited targets (523):
   - `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture\.md` (page missing)
     - audit rows: none
   - `wiki/sources/acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in\.md` (page missing)
@@ -208,8 +236,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2019-the-surface-of-bifeo3-nanoparticles-acid-orange-7\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` (page missing)
     - audit rows: none
@@ -372,8 +398,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2023-simultaneous-speciation-analysis-of-hg-and-se-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2023-the-stability-of-phenolic-compounds-in-fruit-berry\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-a-meta-analysis-of-mercury-biomagnification-in-freshwater\.md` (page missing)
     - audit rows: none
@@ -620,8 +644,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
     - audit rows: none
@@ -1021,8 +1043,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sonke2023-mercury-global-change\.md` (page missing)
@@ -1120,8 +1140,15 @@ This report joins every numerical claim on the page to its citation chain and th
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `1000 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
-- `1000 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 1000 ppb | 0 | data gap | Basis not repo`
+- `1212 ppb` in section _Literature Evidence Summary_ — context: `(tuna, swordfish, shark, king mackerel) (direct row-fit) | mean/median 79.9 to 1212 ppb (3 sources); highest reported 1`
+- `1212 ppb` in section _Literature Evidence Summary_ — context: `) (direct row-fit) | mean/median 79.9 to 1212 ppb (3 sources); highest reported 1212 ppb | Sample-level detection rate n`
+- `1000 ppb` in section _Literature Evidence Summary_ — context: `ources); highest reported 1212 ppb | Sample-level detection rate not reported | 1000 ppb | 4 cited | medium (4 sources)`
+- `10420 ppb` in section _Literature Evidence Summary_ — context: `(tuna, swordfish, shark, king mackerel) (direct row-fit) | mean/median 99.3 to 10420 ppb (7 sources); highest reported`
+- `13000 ppb` in section _Literature Evidence Summary_ — context: `(direct row-fit) | mean/median 99.3 to 10420 ppb (7 sources); highest reported 13000 ppb | 10% detected (4/40, Lehel 20`
+- `1000 ppb` in section _Literature Evidence Summary_ — context: `13000 ppb | 10% detected (4/40, Lehel 2023, yellowfin tuna flesh, wet weight) | 1000 ppb | 9 cited | medium (9 sources)`
+- `180.9 ppb` in section _Literature Evidence Summary_ — context: `predatory (tuna, swordfish, shark, king mackerel) (direct row-fit) | mean 7 to 180.9 ppb (4 sources); highest reported`
+- `710 ppb` in section _Literature Evidence Summary_ — context: `mackerel) (direct row-fit) | mean 7 to 180.9 ppb (4 sources); highest reported 710 ppb | 20% detected (8/40, Lehel 2023`
+- `50 ppb` in section _Literature Evidence Summary_ — context: `d 710 ppb | 20% detected (8/40, Lehel 2023, yellowfin tuna flesh, wet weight) | 50 ppb | 7 cited | medium (7 sources) |`
 
 ## Defensibility chain — distinct cited targets
 
@@ -1201,7 +1228,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2019-or-part-contained-in-the-work-will-not\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-the-surface-of-bifeo3-nanoparticles-acid-orange-7\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2020-arsenic-methyltransferase-and-methylation-of\.md` | sources | 0 | — | — |
@@ -1283,7 +1309,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-simultaneous-speciation-analysis-of-hg-and-se-in\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-the-stability-of-phenolic-compounds-in-fruit-berry\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2023-to-understand-their-physical-chemical-and-biological-characteristics\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-a-meta-analysis-of-mercury-biomagnification-in-freshwater\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` | sources | 0 | — | — |
@@ -1407,7 +1432,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/buffalo2018-policies-to-reduce-lead-exposure-lessons-from\.md` | sources | 0 | — | — |
 | `wiki/sources/caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood\.md` | sources | 0 | — | — |
-| `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` | sources | 0 | — | — |
@@ -1607,7 +1631,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/simmental2013-concentrations-of-toxic-heavy-metals-and-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/singhato2025-thailand-seafood-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/sirisangarunroj2023-thai-fish-toxic-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite\.md` | sources | 0 | — | — |
 | `wiki/sources/smolikova2016-heavy-metals-fish-czech\.md` | sources | 0 | — | — |
 | `wiki/sources/sonke2023-mercury-global-change\.md` | sources | 0 | — | — |
 | `wiki/sources/spayd2012-importance-of-arsenic-speciation-in-populations-exposed-to\.md` | sources | 0 | — | — |

@@ -3,7 +3,7 @@ type: supply-chain
 status: in_progress
 metals: [Cd, iAs, tAs, Pb, Ni]
 audience: [regulator, educator, commercial, researcher]
-updated: 2026-05-30
+updated: 2026-09-11
 ---
 
 # Soil-to-plant transfer of heavy metals
@@ -44,20 +44,43 @@ Source pages reporting soil, irrigation-water, fertiliser, or atmospheric-deposi
 
 [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils]] reports soil measurements from 489 sites across 13 watersheds in Colombia, with analyses conducted during 2017–2019. Its watershed-specific tables preserve geographic variation, while the absence of paired crop measurements prevents inference of edible-tissue concentrations or transfer factors. The source record retains the original censoring limitations and conflicting soil-order sample labels.
 
+## Chromium research: qualified source context
+
+Nilore, Islamabad soil contained 28.15 µg/g bulk chromium in one laboratory characterization (Table 2; wet/dry basis unstated). Its subsequent spiking and electrokinetic treatment do not measure crop uptake, edible-tissue concentrations or a transfer factor. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation]]
+
+Saha et al.’s editorial summarizes Kwikima et al. on pH-dependent soil chromium transport. This is secondary pathway context; the editorial does not supply a measured soil-to-crop transfer factor (p1780). [[sources/saha2022-chromium-sources-remediation-editorial]]
+
+## Nahavand farm study: evidence limitations
+
+Sharafi et al. sampled soil and whole above-ground biomass at 150 Nahavand Plain farms in November 2024. The four crop systems were wheat, barley, sugar beet and coriander. Edible grain and sugar-beet roots were not isolated, and conflicting text and figure concentrations prevent unqualified quantitative transfer estimates (Methods pp4–5; Figure 3). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
+
+## Arzew surface-soil survey
+
+Boudia et al. sampled 84 surface soils around Arzew, Algeria, including 17 agricultural soils. The agricultural arsenic mean was 11.57 mg/kg and the median 10.41 mg/kg, after air-drying and aqua-regia digestion. No crop tissue was measured, so the study supplies upstream soil context without a soil-to-food transfer factor (2019, Table 2). [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal]]
+
+## Banat soil–nettle–snail study
+
+Nica et al. compared soil extracts, washed nettle leaves and wild Roman-snail tissues at eight Romanian sites in May 2011. Table 1 reports soil-to-nettle correlations of 0.93 for zinc and 0.76 for lead. Soil was extracted with dilute nitric acid; it is not a total-soil digest. Three pooled batches of 20 snails per site supplied the tissue measurements. Site differences and source-reported correlations support pathway context, while conflicting narrative claims and graph-only concentrations limit precise transfer estimates. The study did not sample nettles or snails sold for consumption (2012, Tables 1–3; Figures 1–4). [[sources/nica2012-banat-soil-nettle-snail-metals]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils|Baseline concentration of heavy metals in agricultural soils]]<span class="hmi-ref-meta">Germán Rueda-Saa, Gilberto Eduardo Marín-Pimentel, and Juan Carlos Menjivar-Flores · Revista de Ciencias Agrícolas 42(2): e2259 · 2025 · [doi.org/10.22267/rcia.20254202.259](https://doi.org/10.22267/rcia.20254202.259)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/lestari2022-lead-vegetable-phytoextraction|Potential of Two Vegetable Plants in Reducing Lead Contamination in Soil]]<span class="hmi-ref-meta">Mahayu Woro Lestari and Anis Rosyidah · Journal of Ecological Engineering 23(8):320–326 · 2022 · [doi.org/10.12911/22998993/151092](https://doi.org/10.12911/22998993/151092)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/zandi2023-rice-root-chromium-speciation|Speciation and distribution of chromium (III) in rice root tip and mature zone: The significant impact of root exudation and iron plaque on chromium bioavailability]]<span class="hmi-ref-meta">Peiman Zandi, Xing Xia, Jianjun Yang, Jin Liu, Laurent Remusat, Cornelia Rumpel, et al. · Journal of Hazardous Materials 448:130992 · 2023 · [doi.org/10.1016/j.jhazmat.2023.130992](https://doi.org/10.1016/j.jhazmat.2023.130992)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/giri2019-vigna-root-arsenic-speciation|Bioaccumulation Potential And Speciation Of Arsenic Ions In Vigna Radiate Root Biomass Using Microwave Assisted Extraction By HPLC-ICP-MS]]<span class="hmi-ref-meta">Anil Kumar Giri · International Journal of Research in Advent Technology 7(3):1528–1534 · 2019 · [doi.org/10.32622/ijrat.732019166](https://doi.org/10.32622/ijrat.732019166)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]<span class="hmi-ref-meta">M. Khalid, N. Ahmed, and R. M. Qureshi · The Nucleus 45(1–2):55–61 · 2008 · [doi.org/10.71330/nucleus.45.01-2.998](https://doi.org/10.71330/nucleus.45.01-2.998)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/saha2022-chromium-sources-remediation-editorial|Special Issue: Hexavalent Chromium: Sources, Toxicity, and Remediation]]<span class="hmi-ref-meta">Bidyut Saha, Aziz Amine, and Francis Verpoort · Chemistry Africa5:1779–1780 · 2022 · [doi.org/10.1007/s42250-022-00443-z](https://doi.org/10.1007/s42250-022-00443-z)</span><span class="hmi-ref-tag">Editorial</span>
+4. [[sources/sharafi2026-nahavand-soil-water-crop-metals|Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]<span class="hmi-ref-meta">Saeed Sharafi, Maryam Sharafi, and Maryam Lorvand · Scientific Reports 16:9947 · 2026 · [doi.org/10.1038/s41598-026-38637-x](https://doi.org/10.1038/s41598-026-38637-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal|Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria]]<span class="hmi-ref-meta">Hayat Boudia, Laurent Vassalo, Mohammed Hadjel, Pascale Prudent, and Jean-Luc Boudenne · International Journal of Environmental Science and Technology 16:4707–4718; HAL author-manuscript version read · 2019 · [doi.org/10.1007/s13762-018-02195-1](https://doi.org/10.1007/s13762-018-02195-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/nica2012-banat-soil-nettle-snail-metals|Bioaccumulative and conchological assessment of heavy metal transfer in a soil-plant-snail food chain]]<span class="hmi-ref-meta">Dragos V Nica, Marian Bura, Iosif Gergen, Monica Harmanescu, and Despina-Maria Bordean · Chemistry Central Journal 6:55 · 2012 · [doi.org/10.1186/1752-153X-6-55](https://doi.org/10.1186/1752-153X-6-55)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/lestari2022-lead-vegetable-phytoextraction|Potential of Two Vegetable Plants in Reducing Lead Contamination in Soil]]<span class="hmi-ref-meta">Mahayu Woro Lestari and Anis Rosyidah · Journal of Ecological Engineering 23(8):320–326 · 2022 · [doi.org/10.12911/22998993/151092](https://doi.org/10.12911/22998993/151092)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/zandi2023-rice-root-chromium-speciation|Speciation and distribution of chromium (III) in rice root tip and mature zone: The significant impact of root exudation and iron plaque on chromium bioavailability]]<span class="hmi-ref-meta">Peiman Zandi, Xing Xia, Jianjun Yang, Jin Liu, Laurent Remusat, Cornelia Rumpel, et al. · Journal of Hazardous Materials 448:130992 · 2023 · [doi.org/10.1016/j.jhazmat.2023.130992](https://doi.org/10.1016/j.jhazmat.2023.130992)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/giri2019-vigna-root-arsenic-speciation|Bioaccumulation Potential And Speciation Of Arsenic Ions In Vigna Radiate Root Biomass Using Microwave Assisted Extraction By HPLC-ICP-MS]]<span class="hmi-ref-meta">Anil Kumar Giri · International Journal of Research in Advent Technology 7(3):1528–1534 · 2019 · [doi.org/10.32622/ijrat.732019166](https://doi.org/10.32622/ijrat.732019166)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/oprea2022-sibiu-celery-root-metals|HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA]]<span class="hmi-ref-meta">Bogdan Ștefan Oprea, Nicoleta Olimpia Vrînceanu, Dumitru-Marian Motelică, Georgiana Iuliana Plopeanu, Vera Carabulea, and Mihaela Costea · Annals of the University of Craiova—Agriculture,Montanology,Cadastre52(1):422–429 · 2022 · [doi.org/10.52846/aamc.v52i1.1370](https://doi.org/10.52846/aamc.v52i1.1370)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+14. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -67,11 +90,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 8 sources added; 1 section added; narrative text revised |
 | [c8506edd81](https://github.com/paleofoundation/heavymetalindex/commit/c8506edd81) | 2026-09-10 | major | 1 source added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

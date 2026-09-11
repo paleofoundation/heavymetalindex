@@ -535,7 +535,7 @@
           "slug": "metals/aluminum",
           "title": "Aluminum",
           "symbol": "Al",
-          "count": 535
+          "count": 530
         },
         {
           "slug": "metals/antimony",
@@ -559,13 +559,13 @@
           "slug": "metals/arsenic-total",
           "title": "Arsenic, Total",
           "symbol": "tAs",
-          "count": 369
+          "count": 368
         },
         {
           "slug": "metals/cadmium",
           "title": "Cadmium",
           "symbol": "Cd",
-          "count": 1580
+          "count": 1584
         },
         {
           "slug": "metals/chromium",
@@ -577,13 +577,13 @@
           "slug": "metals/chromium-hexavalent",
           "title": "Chromium, Hexavalent",
           "symbol": "Cr-VI",
-          "count": 70
+          "count": 74
         },
         {
           "slug": "metals/lead",
           "title": "Lead",
           "symbol": "Pb",
-          "count": 1453
+          "count": 1455
         },
         {
           "slug": "metals/mercury",
@@ -607,7 +607,7 @@
           "slug": "metals/nickel",
           "title": "Nickel",
           "symbol": "Ni",
-          "count": 776
+          "count": 774
         },
         {
           "slug": "metals/organotins",
@@ -619,7 +619,7 @@
           "slug": "metals/tin",
           "title": "Tin",
           "symbol": "Sn",
-          "count": 228
+          "count": 226
         },
         {
           "slug": "metals/tin-inorganic",
@@ -662,13 +662,13 @@
           "slug": "metals/cobalt",
           "title": "Cobalt",
           "symbol": "Co",
-          "count": 138
+          "count": 139
         },
         {
           "slug": "metals/copper",
           "title": "Copper",
           "symbol": "Cu",
-          "count": 327
+          "count": 333
         },
         {
           "slug": "metals/gold",
@@ -704,7 +704,7 @@
           "slug": "metals/molybdenum",
           "title": "Molybdenum",
           "symbol": "Mo",
-          "count": 29
+          "count": 30
         },
         {
           "slug": "metals/palladium",
@@ -734,7 +734,7 @@
           "slug": "metals/thallium",
           "title": "Thallium",
           "symbol": "Tl",
-          "count": 13
+          "count": 14
         },
         {
           "slug": "metals/titanium",
@@ -752,7 +752,7 @@
           "slug": "metals/zinc",
           "title": "Zinc",
           "symbol": "Zn",
-          "count": 292
+          "count": 296
         }
       ]
     }
@@ -761,7 +761,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1346,
+      "count": 1344,
       "samples": [
         "United States",
         "Canada",
@@ -783,7 +783,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 599,
+      "count": 600,
       "samples": [
         "European Union",
         "Poland",
@@ -794,7 +794,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 286,
+      "count": 288,
       "samples": [
         "Iran",
         "Turkey",
@@ -805,7 +805,7 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 192,
+      "count": 194,
       "samples": [
         "Nigeria",
         "Ethiopia",
@@ -816,7 +816,7 @@
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 234,
+      "count": 237,
       "samples": [
         "India",
         "Bangladesh",
@@ -827,7 +827,7 @@
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 445,
+      "count": 446,
       "samples": [
         "China",
         "Japan",
@@ -849,7 +849,7 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 260,
+      "count": 263,
       "samples": [
         "International / multi-country",
         "EAC",

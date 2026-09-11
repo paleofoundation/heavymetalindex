@@ -2,15 +2,15 @@
 source_page: wiki/products/pet-food-canned-wet.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2443dbe9018f86e602ff2a10d728a85d3cfc9cef4a0ba6611079f7118d79296f
-total_claims: 0
-cited_claims: 0
+source_page_sha256: def31f6e21e0090e5e23a5d54352066d7963634c16775a7083730a9e1eefd047
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
-distinct_cited_sources: 0
-audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+distinct_cited_targets: 1
+distinct_cited_sources: 1
+audit_rows_for_page: 1
+audit_rows_for_cited_targets: 3
+audit_log_total_rows: 10803
 noindex: true
 ---
 
@@ -29,24 +29,31 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| distinct cited targets | 1 |
+| distinct cited `sources/` pages | 1 |
+| audit rows on this page | 1 |
+| audit rows on cited target pages | 3 |
+| audit log rows read | 10803 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=library-drain-bulk17-20260911-wiki-products-pet-food-canned-wet.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.864Z · span=audited-source-routing
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### China imported pet foods: preprint evidence
+
+#### Claim `0.09 mg/kg`
+- Context: `mples. Positive-only means were Cd 0.0200, Cr 1.21, total Hg 0.012 and total As 0.09 mg/kg. The cadmium values conflict`
+- Cited targets (1):
+  - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md`
+    - audit rows (3):
+      - `edit_id=c8c9ad44-ba21-47c5-a293-f58b07cad0c8` · retrieval=2026-07-29 · models=[openai/codex-local-worker] · agreement=single_model · applied=2026-07-29T16:53:46.531Z · span=source_page:create
+      - `edit_id=4f9640274f0a4fdc5cbc5564d99e2499478b57636aa48a2515438664bc0b8bb7` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.013Z · span=public-source-prose
+      - `edit_id=library-drain-bulk17-20260911-wiki-sources-cat2024-individual-and-combined-contamination-of-the-heavy-metals.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.500Z · span=full-page
 
 ## Uncited claims
 
@@ -54,5 +61,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md` | sources | 3 | 2026-07-29 | 2026-09-11 |
 

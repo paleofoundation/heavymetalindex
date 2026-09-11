@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
+
+Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.
+
+
 ## [2026-09-10] schema | s-doi-ias-cap-1 — species≤parent kill-gate (olive-oil dependency)
 
 Pages touched: `tools/standards/species-parent-cap.mjs`, `tools/standards/compile-cat1.mjs`, `tools/standards/freeze-standard-version.mjs`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf`, `docs/ELON_BRIDGE.md`.

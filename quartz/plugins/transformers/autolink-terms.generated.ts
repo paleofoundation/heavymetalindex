@@ -20,6 +20,7 @@ export const GENERATED_TERMS: Record<string, string> = {
   "american cheese": "ingredients/processed-american-cheese",
   "amino acid formula": "ingredients/non-soy-infant-formula",
   "andean grain": "ingredients/quinoa",
+  "animal feed and the food chain": "supply-chain/animal-feed-to-food-chain",
   "anti-wrinkle/wrinkle-release products": "products/anti-wrinkle-wrinkle-release-products",
   "anz food standards code schedule 19": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
   "apple cider vinegar": "ingredients/apple-cider-vinegar",
@@ -140,7 +141,6 @@ export const GENERATED_TERMS: Record<string, string> = {
   "cocoa/hot-chocolate beverage mixes and malted drink powders": "products/cocoa-beverage-mixes",
   "coconut": "ingredients/coconut",
   "coconut milk": "ingredients/coconut",
-  "coconut water": "ingredients/coconut",
   "codex": "regulators/codex",
   "codex alimentarius commission": "regulators/codex",
   "cola base": "ingredients/soft-drink-bases",
@@ -226,7 +226,6 @@ export const GENERATED_TERMS: Record<string, string> = {
   "formula ingredients": "ingredients/infant-formula-ingredients",
   "formula powder ingredients": "ingredients/infant-formula-ingredients",
   "formulation mitigation": "mitigation/formulation",
-  "french fries": "ingredients/potatoes",
   "fresh fish": "products/fresh-fish",
   "fresh fruit": "products/fresh-fruit",
   "fresh herbs": "ingredients/fresh-herbs",
@@ -566,7 +565,6 @@ export const GENERATED_TERMS: Record<string, string> = {
   "wheat bran": "ingredients/wheat",
   "wheat cereal biscuit": "ingredients/wheat-cereal-biscuits",
   "wheat cereal biscuits": "ingredients/wheat-cereal-biscuits",
-  "wheat flour": "ingredients/wheat",
   "wheat germ": "ingredients/wheat",
   "wheat grain": "ingredients/wheat",
   "wheat protein": "ingredients/wheat",
@@ -593,6 +591,6 @@ export const GENERATED_TERMS: Record<string, string> = {
 }
 
 export const GENERATED_TERMS_META = {
-  count: 582,
-  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":333,"supply-chain":9,"regulations":40,"synthesis":1,"methodology":5,"testing":2,"microbiome":1},
+  count: 580,
+  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":330,"supply-chain":10,"regulations":40,"synthesis":1,"methodology":5,"testing":2,"microbiome":1},
 } as const

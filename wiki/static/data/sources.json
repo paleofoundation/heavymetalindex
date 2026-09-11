@@ -5,15 +5,15 @@
   "description": "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
   "site": "https://heavymetalindex.com",
   "page_url_template": "https://heavymetalindex.com/sources/{slug}",
-  "generated_at": "2026-09-10T10:29:15.239Z",
-  "generated_commit": "d92be2f7aa6a0e0323c8909a017d26a1f0883b86",
+  "generated_at": "2026-09-11T20:39:43.465Z",
+  "generated_commit": "70e164c26892e9564cf209039385a2a03079e1e1",
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
-  "record_count": 2631,
+  "record_count": 2636,
   "by_doi": {
     "10.21315/jps2018.29.s3.8": {
       "slug": "ab-manan2018-oil-palm-soil-metals",
@@ -232,7 +232,7 @@
     },
     "10.4236/jep.2012.38086": {
       "slug": "agwaramgbo2012-there-is-a-growing-global-concern-for-the",
-      "tier": "B",
+      "tier": "A",
       "year": 2012
     },
     "10.3126/ije.v6i1.16869": {
@@ -1352,8 +1352,8 @@
     },
     "10.3390/ijerph15010067": {
       "slug": "authors2017-risk-assessment-for-children-exposed-to-arsenic",
-      "tier": "B",
-      "year": 2017
+      "tier": "A",
+      "year": 2018
     },
     "10.1080/22423982.2017.1406234": {
       "slug": "authors2017-secondary-sex-ratio-in-relation-to-exposures-to",
@@ -1660,9 +1660,9 @@
       "tier": "B",
       "year": 2019
     },
-    "10.1007/s13762-": {
+    "10.1007/s13762-018-02195-1": {
       "slug": "authors2019-spatial-contamination-and-health-risks-of-heavy-metal",
-      "tier": "B",
+      "tier": "A",
       "year": 2019
     },
     "10.3389/fmolb.2019.00110": {
@@ -1687,7 +1687,7 @@
     },
     "10.1016/j.toxrep.2019.05.012": {
       "slug": "authors2019-toxicology-reports-6-2019-472-481",
-      "tier": "B",
+      "tier": "A",
       "year": 2019
     },
     "10.3329/jninb.v5i2.43017": {
@@ -3870,11 +3870,6 @@
       "tier": "B",
       "year": 2025
     },
-    "10.1038/s41598-025-01025-y": {
-      "slug": "authors2025-open-removal-of-hexavalent-chromium",
-      "tier": "B",
-      "year": 2025
-    },
     "10.1128/aem.00188-25": {
       "slug": "authors2025-phylum-candidatus-pyropristinus-was-proposed-for-the-mag",
       "tier": "B",
@@ -5795,6 +5790,11 @@
       "tier": "A",
       "year": 2011
     },
+    "10.21423/jrs-v04n01p021": {
+      "slug": "dai2016-texas-animal-feed-metals",
+      "tier": "A",
+      "year": 2016
+    },
     "10.3390/bios13050523": {
       "slug": "dai2023-resazurin-pad-heavy-metal-toxicity",
       "tier": "A",
@@ -7505,6 +7505,11 @@
       "tier": "B",
       "year": 2022
     },
+    "10.1038/s41598-025-01025-y": {
+      "slug": "ibikunle2025-functionalized-nanotubes-chromium-removal",
+      "tier": "A",
+      "year": 2025
+    },
     "10.1177/11786302241301700": {
       "slug": "ibrahim2024-food-heavy-metals-nigeria",
       "tier": "A",
@@ -8039,6 +8044,11 @@
       "slug": "kepinska-pacelik2023-dog-snacks-trace-elements",
       "tier": "A",
       "year": 2023
+    },
+    "10.71330/nucleus.45.01-2.998": {
+      "slug": "khalid2008-islamabad-chromium-electrokinetic-remediation",
+      "tier": "A",
+      "year": 2008
     },
     "10.17957/tpmj/17.4088": {
       "slug": "khalil2017-snacks-peshawar-pakistan-heavy-metals",
@@ -9695,6 +9705,11 @@
       "tier": "A",
       "year": 2026
     },
+    "10.1186/1752-153x-6-55": {
+      "slug": "nica2012-banat-soil-nettle-snail-metals",
+      "tier": "A",
+      "year": 2012
+    },
     "10.3934/publichealth.2022052": {
       "slug": "nieder2022-pte-environment-health-review",
       "tier": "A",
@@ -10930,6 +10945,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1007/s42250-022-00443-z": {
+      "slug": "saha2022-chromium-sources-remediation-editorial",
+      "tier": "B",
+      "year": 2022
+    },
     "10.1038/s41598-025-27798-w": {
       "slug": "salaheldin2025-multimatrix-foods-egypt",
       "tier": "A",
@@ -11300,6 +11320,11 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1038/s41598-026-38637-x": {
+      "slug": "sharafi2026-nahavand-soil-water-crop-metals",
+      "tier": "A",
+      "year": 2026
+    },
     "10.1186/s40064-016-2129-1": {
       "slug": "sharma2016-spinach-wastewater-metals",
       "tier": "A",
@@ -11552,8 +11577,8 @@
     },
     "10.1520/jai103527": {
       "slug": "skin2010-significant-risks-for-dermal-oral-lead-exposures-despite",
-      "tier": "B",
-      "year": 2010
+      "tier": "A",
+      "year": 2011
     },
     "10.1515/cipms-2017-0027": {
       "slug": "slepecka2017-ecological-cereal-heavy-metals-poland",

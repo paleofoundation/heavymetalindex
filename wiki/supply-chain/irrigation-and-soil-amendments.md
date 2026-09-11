@@ -3,7 +3,7 @@ type: supply-chain
 status: in_progress
 metals: [Cd, iAs, tAs, Pb, Ni]
 audience: [regulator, educator, commercial, researcher]
-updated: 2026-06-10
+updated: 2026-09-11
 ---
 
 # Irrigation water and soil amendments as anthropogenic inputs to cropland
@@ -46,18 +46,28 @@ For this reason the index carries irrigation-water, sludge, fertiliser, manure, 
 
 Source pages reporting irrigation water, sewage sludge or biosolids, phosphate or other fertilisers, manure and compost, or process-water reuse are upstream evidence about controllable anthropogenic inputs to cropland. The routing layer attaches each such source to the consumable it informs as exposure context rather than as direct food-occurrence evidence, preserving the separation set out above. Groundwater and effluent arsenic evidence routes to [rice](/ingredients/rice) and to the [inorganic arsenic](/metals/arsenic-inorganic) page; effluent and biosolid evidence for peri-urban vegetable systems routes to [vegetables](/ingredients/vegetables), [leafy vegetables](/ingredients/leafy-vegetables), and [root vegetables](/ingredients/root-vegetables) and to the [cadmium](/metals/cadmium), [lead](/metals/lead), and [nickel](/metals/nickel) pages; phosphate-fertiliser cadmium routes to [cadmium](/metals/cadmium) and to the cadmium-accumulating crops and the limits in [Regulation (EU) 2023/915](/regulations/eu-2023-915-cadmium). In each case the upstream source explains a contamination profile without being mistaken for it, the downstream uptake step is read on the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub, and the actionable response is read on the mitigation pages. The element-by-element and system-by-system causal accounts build on this hub as dedicated synthesis pages.
 
+## Chromium research: qualified source context
+
+A chromium-remediation trial used sulfuric-acid electrolytes with spiked Islamabad soil. The electrolyte measurements are laboratory process conditions, not irrigation-water quality or an amendment recommendation; neither crop response nor field effectiveness was measured (Tables 3–4). [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation]]
+
+## Nahavand farm study: evidence limitations
+
+A 150-farm Nahavand study sampled irrigation water from mixed surface, well and spring sources, later described collectively as groundwater. It reports seven metals, but figure/statistic ambiguity and conflicting concentration descriptions limit numerical reuse. Fertilizer use came from interviews without measured input composition, so the study does not establish an amendment-specific causal contribution (Methods pp4–5; Results pp10–13). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/rahim2023-iraq-irrigation-broccoli-cauliflower|Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower)]]<span class="hmi-ref-meta">Bayan Rashid Rahim · Tikrit Journal for Agricultural Sciences 23(2):162–170 · 2023 · [doi.org/10.25130/tjas.23.2.13](https://doi.org/10.25130/tjas.23.2.13)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan]]<span class="hmi-ref-meta">Muhammad Abubakar, Basit Haider, Hadeeqa Arshad, Tufail Shah, Ameer Khan, Hummera Nawaz, et al. · Agricultural Research Reports 3(1):46–57 · 2025 · [doi.org/10.54219/arr.03.1.2025.418](https://doi.org/10.54219/arr.03.1.2025.418)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/joseph2025-gobbiya-dam-vegetable-metals|Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria]]<span class="hmi-ref-meta">John Joseph, Toma Buba, Jalo Enoch, and Ayuba Kaluri · Journal of Energy Technology and Environment 7(4):79–92 · 2025 · [doi.org/10.37933/jete/7.4.2025.2568](https://doi.org/10.37933/jete/7.4.2025.2568)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/chen2024-shanghai-hydroponic-vegetables|Occurrence and Risk Assessment of Pesticides, Phthalates, and Heavy Metal Residues in Vegetables from Hydroponic and Conventional Cultivation]]<span class="hmi-ref-meta">Shanshan Chen, Chunxia Yao, Jiaxin Zhou, Haiyao Ma, Jing Jin, Weiguo Song, et al. · Foods 13, 1151 · 2024 · [doi.org/10.3390/foods13081151](https://doi.org/10.3390/foods13081151)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/shamsher2022-aloe-zinc-adsorption|Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water]]<span class="hmi-ref-meta">Maleeha Shamsher, Atifa Tajammal, Aisha Waheed Qurashi, and Uzma Rafi · MARKHOR (The Journal of Zoology) 3(1):13–18 · 2022 · [doi.org/10.54393/mjz.v3i1.37](https://doi.org/10.54393/mjz.v3i1.37)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/sumalatha2019-bangalore-sludge-washing|Removal of Heavy Metals from Industrial Sludge Using Soil Washing Technique]]<span class="hmi-ref-meta">J. Sumalatha, B. P. Naveen, and R. K. Malik · Asian Journal of Water, Environment and Pollution 16(3):83–89 · 2019 · [doi.org/10.3233/ajw190036](https://doi.org/10.3233/ajw190036)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/ozarkar2025-nickel-cobalt-bioremediation|Comparative Analysis of Bioremediation and Phytoremediation in Mitigation of Heavy Metals]]<span class="hmi-ref-meta">Kranti Ozarkar, Shreshta Tiwari, and Kashmiribano Malick · International Journal for Multidisciplinary Research7(5):IJFMR250556267 · 2025 · [doi.org/10.36948/ijfmr.2025.v07i05.56267](https://doi.org/10.36948/ijfmr.2025.v07i05.56267)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]<span class="hmi-ref-meta">M. Khalid, N. Ahmed, and R. M. Qureshi · The Nucleus 45(1–2):55–61 · 2008 · [doi.org/10.71330/nucleus.45.01-2.998](https://doi.org/10.71330/nucleus.45.01-2.998)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/sharafi2026-nahavand-soil-water-crop-metals|Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran]]<span class="hmi-ref-meta">Saeed Sharafi, Maryam Sharafi, and Maryam Lorvand · Scientific Reports 16:9947 · 2026 · [doi.org/10.1038/s41598-026-38637-x](https://doi.org/10.1038/s41598-026-38637-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/rahim2023-iraq-irrigation-broccoli-cauliflower|Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower)]]<span class="hmi-ref-meta">Bayan Rashid Rahim · Tikrit Journal for Agricultural Sciences 23(2):162–170 · 2023 · [doi.org/10.25130/tjas.23.2.13](https://doi.org/10.25130/tjas.23.2.13)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan]]<span class="hmi-ref-meta">Muhammad Abubakar, Basit Haider, Hadeeqa Arshad, Tufail Shah, Ameer Khan, Hummera Nawaz, et al. · Agricultural Research Reports 3(1):46–57 · 2025 · [doi.org/10.54219/arr.03.1.2025.418](https://doi.org/10.54219/arr.03.1.2025.418)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/joseph2025-gobbiya-dam-vegetable-metals|Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria]]<span class="hmi-ref-meta">John Joseph, Toma Buba, Jalo Enoch, and Ayuba Kaluri · Journal of Energy Technology and Environment 7(4):79–92 · 2025 · [doi.org/10.37933/jete/7.4.2025.2568](https://doi.org/10.37933/jete/7.4.2025.2568)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/chen2024-shanghai-hydroponic-vegetables|Occurrence and Risk Assessment of Pesticides, Phthalates, and Heavy Metal Residues in Vegetables from Hydroponic and Conventional Cultivation]]<span class="hmi-ref-meta">Shanshan Chen, Chunxia Yao, Jiaxin Zhou, Haiyao Ma, Jing Jin, Weiguo Song, et al. · Foods 13, 1151 · 2024 · [doi.org/10.3390/foods13081151](https://doi.org/10.3390/foods13081151)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/shamsher2022-aloe-zinc-adsorption|Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water]]<span class="hmi-ref-meta">Maleeha Shamsher, Atifa Tajammal, Aisha Waheed Qurashi, and Uzma Rafi · MARKHOR (The Journal of Zoology) 3(1):13–18 · 2022 · [doi.org/10.54393/mjz.v3i1.37](https://doi.org/10.54393/mjz.v3i1.37)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/sumalatha2019-bangalore-sludge-washing|Removal of Heavy Metals from Industrial Sludge Using Soil Washing Technique]]<span class="hmi-ref-meta">J. Sumalatha, B. P. Naveen, and R. K. Malik · Asian Journal of Water, Environment and Pollution 16(3):83–89 · 2019 · [doi.org/10.3233/ajw190036](https://doi.org/10.3233/ajw190036)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/ozarkar2025-nickel-cobalt-bioremediation|Comparative Analysis of Bioremediation and Phytoremediation in Mitigation of Heavy Metals]]<span class="hmi-ref-meta">Kranti Ozarkar, Shreshta Tiwari, and Kashmiribano Malick · International Journal for Multidisciplinary Research7(5):IJFMR250556267 · 2025 · [doi.org/10.36948/ijfmr.2025.v07i05.56267](https://doi.org/10.36948/ijfmr.2025.v07i05.56267)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -67,11 +77,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 7 sources added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
-| [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

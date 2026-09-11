@@ -8,7 +8,7 @@ audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
 sources: 168
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-09-11
 n_sources: 2
 in_hmtc_panel: false
 scope_note: "Essential nutrient with documented neurodevelopmental concern at excessive intake. Not among the priority toxic metals; tracked as cross-metal context."
@@ -35,6 +35,10 @@ The Heavy Metal Index carries this page as a cross-metal context destination for
 ## Prepared cosmetic-clay source
 
 [[sources/nkosi2024-durban-cosmetic-clays|Nkosi and Thembane (2024)]] report manganese findings in market-purchased clays used for topical sun protection in Durban, South Africa. The measurements concern dried and ground material; the limited sampling and unreported detection limits constrain comparison with other products. The study does not establish dermal absorption or manganese concentrations in formulated sunscreen.
+
+## Chromium research: qualified source context
+
+One Nilore, Islamabad soil characterization reported manganese of 2033.91 µg/g by bulk elemental analysis (Table 2). The source does not state a wet/dry basis or replicated uncertainty. This is a local soil result; it does not measure food occurrence or crop transfer. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation]]
 
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
@@ -79,9 +83,10 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 2. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 3. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]<span class="hmi-ref-meta">M. Khalid, N. Ahmed, and R. M. Qureshi · The Nucleus 45(1–2):55–61 · 2008 · [doi.org/10.71330/nucleus.45.01-2.998](https://doi.org/10.71330/nucleus.45.01-2.998)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -91,11 +96,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 3 sources added; 1 section added; narrative text revised |
 | [c8506edd81](https://github.com/paleofoundation/heavymetalindex/commit/c8506edd81) | 2026-09-10 | major | 2 sources added; 2 sections added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 8 sections added; narrative text revised |
 | [41191f2c9c](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9c) | 2026-08-02 | major | 1 section added |
-| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence
