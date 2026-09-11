@@ -1,0 +1,1387 @@
+{
+  "review_date": "2026-09-11",
+  "index_commit": "421aff72d3bf1dfef9535053e8cbf4b63a796832",
+  "cert_commit": "fcc0e8de44b983f1f60def40e02fe2225957fb0d",
+  "register_sha256": "a2549f7b1b999875766d54d1e418afe4604220c491237d4a81a99d1a971f3092",
+  "documents": {
+    "olive-oil": {
+      "record_path": "/Users/karenpendergrass/Desktop/heavymetalcertified/data/standards/cat30-compiled/olive-oil.json",
+      "record_sha256": "d33bf6db17896e000cedeacc779531dcebb75100148a5871b23227a45e4b6e74",
+      "record": {
+        "slug": "olive-oil",
+        "name": "Olive oil (virgin, refined, pomace)",
+        "category": 30,
+        "category_name": "Culinary Oils and Fats",
+        "native_basis": "as placed on market",
+        "canned": false,
+        "variants": {
+          "default": {
+            "Pb": {
+              "type": "gov",
+              "provenance_tag": "regulatory-alignment",
+              "value": 80,
+              "value_exact": 80,
+              "binding_jurisdiction": "CN",
+              "binding_id": "china_gb2762_2025_pb_fats_and_oils_80",
+              "binding_scope": "Fats, oils and their products (GB 2762-2025 Table 1, item 12.1)",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+              "per_country": {
+                "CN": {
+                  "value": 80,
+                  "id": "china_gb2762_2025_pb_fats_and_oils_80"
+                },
+                "GSO": {
+                  "value": 80,
+                  "id": "gso193_2021_pb_edible_fats_and_oils_80"
+                },
+                "TH": {
+                  "value": 80,
+                  "id": "th_moph414_2020_pb_edible_fats_oils_80"
+                },
+                "HK": {
+                  "value": 80,
+                  "id": "hk_cap132v_pb_edible-fats-and-oils_80"
+                },
+                "EU": {
+                  "value": 100,
+                  "id": "eu2023_pb_fats_oils_100"
+                },
+                "IN": {
+                  "value": 100,
+                  "id": "in_fssai2016_pb_045_edible_fats_and_oils_edible_fats_and_oils_not_covered_by_individual_st_100"
+                },
+                "MERCOSUR": {
+                  "value": 100,
+                  "id": "mercosur_gmc12_2011_fats_oils_margarine_pb_100"
+                },
+                "SG": {
+                  "value": 100,
+                  "id": "sg_foodregs_2026_edible_oils_fats_pb_100"
+                },
+                "IL": {
+                  "value": 100,
+                  "id": "il_fcs2016_pb_2_fats_oils_and_fat_emulsions_water_in_oil_type_100"
+                },
+                "PY": {
+                  "value": 100,
+                  "id": "py_decreto1335_2019_fats_oils_margarine_pb_100"
+                },
+                "VN": {
+                  "value": 100,
+                  "id": "vn_qcvn8_2_2011_pb_animal-fats-and-oils_100"
+                },
+                "PA": {
+                  "value": 100,
+                  "id": "pa_decreto467_2007_pb_vegetable_oils_except_cocoa_butter"
+                },
+                "FJ": {
+                  "value": 200,
+                  "id": "fj_fsr2009_pb_001_edible_fats_and_oils_200"
+                }
+              },
+              "audit": {
+                "same_form": [],
+                "other_form": [
+                  {
+                    "id": "th_moph414_2020_pb_fat_spreads_blended_40",
+                    "value": 40,
+                    "jurisdiction": "TH",
+                    "scope": "fat spreads and blended spreads"
+                  },
+                  {
+                    "id": "sg_foodregs_2026_fat_spreads_blended_spreads_pb_40",
+                    "value": 40,
+                    "jurisdiction": "SG",
+                    "scope": "fat spreads and blended spreads"
+                  },
+                  {
+                    "id": "gso193_2021_pb_fat_spreads_and_blended_spreads_40",
+                    "value": 40,
+                    "jurisdiction": "GSO",
+                    "scope": "Fat spreads and blended spreads"
+                  }
+                ]
+              },
+              "provenance": "regulatory-alignment"
+            },
+            "Cd": {
+              "type": "gov",
+              "provenance_tag": "regulatory-alignment",
+              "value": 30,
+              "value_exact": 30,
+              "binding_jurisdiction": "IL",
+              "binding_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+              "binding_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+              "per_country": {
+                "IL": {
+                  "value": 30,
+                  "id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30"
+                }
+              },
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "regulatory-alignment"
+            },
+            "tAs": {
+              "type": "gov",
+              "provenance_tag": "regulatory-alignment",
+              "value": 100,
+              "value_exact": 100,
+              "binding_jurisdiction": "CODEX",
+              "binding_id": "codex_tas_named-vegetable-oils_100",
+              "binding_scope": "Named vegetable oils",
+              "basis": "as sold",
+              "binding_instrument": "regulations/codex-fats-oils-contaminants",
+              "per_country": {
+                "CODEX": {
+                  "value": 100,
+                  "id": "codex_tas_named-vegetable-oils_100"
+                },
+                "IN": {
+                  "value": 100,
+                  "id": "in_fssai2016_tas_001_edible_fats_and_oils_edible_fats_and_oils_not_covered_by_individual_st_100"
+                },
+                "MERCOSUR": {
+                  "value": 100,
+                  "id": "mercosur_gmc12_2011_fats_oils_margarine_tas_100"
+                },
+                "SG": {
+                  "value": 100,
+                  "id": "sg_foodregs_2026_edible_oils_fats_tas_100"
+                },
+                "TH": {
+                  "value": 100,
+                  "id": "th_moph414_2020_tas_edible_fats_oils_100"
+                },
+                "PY": {
+                  "value": 100,
+                  "id": "py_decreto1335_2019_fats_oils_margarine_tas_100"
+                },
+                "VN": {
+                  "value": 100,
+                  "id": "vn_qcvn8_2_2011_tas_animal-fats-and-oils_100"
+                },
+                "IL": {
+                  "value": 1000,
+                  "id": "il_fcs2016_tas_2_fats_oils_and_fat_emulsions_water_in_oil_type_1000"
+                }
+              },
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "regulatory-alignment"
+            },
+            "iAs": {
+              "type": "subsumed",
+              "provenance_tag": "subsumed",
+              "provenance": "subsumed",
+              "value": null,
+              "subsumed_by": "tAs",
+              "bounded_by": "tAs",
+              "binding_total": 100,
+              "binding_total_source": "CODEX",
+              "label": "Inorganic arsenic is a component of total arsenic (iAs <= tAs). The iAs value (100 ug/kg) is not below the binding total arsenic ceiling (100 ug/kg), so inorganic arsenic is governed by and bounded by the total arsenic ceiling; no separate iAs ceiling is published. The total arsenic is measured on every lot; on ongoing lots iAs is speciated whenever tAs exceeds its limit.",
+              "candidate": {
+                "type": "gov",
+                "value": 100,
+                "source_jurisdiction": "IL",
+                "source_id": "il_fcs2016_ias_2_fats_oils_and_fat_emulsions_water_in_oil_type_100"
+              }
+            },
+            "tHg": {
+              "type": "gov",
+              "provenance_tag": "regulatory-alignment",
+              "value": 20,
+              "value_exact": 20,
+              "binding_jurisdiction": "IL",
+              "binding_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+              "binding_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+              "per_country": {
+                "IL": {
+                  "value": 20,
+                  "id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+                }
+              },
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "regulatory-alignment"
+            },
+            "MeHg": {
+              "type": "subsumed",
+              "provenance_tag": "subsumed",
+              "provenance": "subsumed",
+              "value": null,
+              "subsumed_by": "tHg",
+              "bounded_by": "tHg",
+              "binding_total": 20,
+              "binding_total_source": "IL",
+              "label": "Methylmercury is a component of total mercury (MeHg <= tHg). The MeHg value (20 ug/kg) is not below the binding total mercury ceiling (20 ug/kg), so methylmercury is governed by and bounded by the total mercury ceiling; no separate MeHg ceiling is published. The total mercury is measured on every lot; on ongoing lots MeHg is speciated whenever tHg exceeds its limit.",
+              "candidate": {
+                "type": "read_across",
+                "value": 20,
+                "source_jurisdiction": "IL",
+                "source_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20"
+              }
+            },
+            "Ni": {
+              "type": "read_across",
+              "provenance_tag": "read-across",
+              "value": 100,
+              "value_exact": 100,
+              "source_id": "eu2024_ni_formula_liquid_100",
+              "source_jurisdiction": "EU",
+              "source_scope": "infant/young-child formula, liquid",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/eu-2024-1987-nickel-maximum-levels",
+              "label": "No government sets a nickel maximum level for an edible oil or fat in any jurisdiction. This reads across the nearest applicable sovereign nickel ML on olive oil's own product-as-placed-on-market (liquid) basis: EU Reg 2024/1987 nickel in infant and young-child formula (liquid form), 100 ug/kg. The more permissive EU fruiting-vegetable nickel ML (400 ug/kg) was the alternative food-type sibling; it was rejected because it would admit oil at concentrations the primary literature flags as contaminated (ground-harvest samples reported at 220-330 ug/kg). Disclosed as a read-across, not direct EU governance of oil; clean commercial olive oil clears 100 ug/kg with headroom (Kabaran 2020 Cyprus n=27 mean 30, max 54; Llorent-Martinez 2014 virgin olive oil below detection).",
+              "per_country": {
+                "CN": {
+                  "value": 1000,
+                  "id": "china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000"
+                }
+              },
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "read-across"
+            },
+            "Cr": {
+              "type": "read_across",
+              "provenance_tag": "read-across",
+              "value": 300,
+              "value_exact": 300,
+              "source_id": "china_gb2762_2025_crtotal_liquid_milk_300",
+              "source_jurisdiction": "CN",
+              "source_scope": "Raw milk, pasteurized milk, sterilized milk, modified milk and fermented milk (GB 2762-2025 Table 7, item 6.1); total Cr, not Cr-VI",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/china-gb-2762-2025-contaminants",
+              "label": "No government sets a total-chromium maximum level for an edible oil or fat in any jurisdiction. This reads across the strictest real food total-chromium ML on the matching liquid, product-as-placed-on-market basis: China GB 2762-2022 total chromium in liquid milk, 300 ug/kg (test method GB 5009.123). Clean commercial olive oil passes (Kabaran 2020 Cyprus n=27 mean 124, max 218; Llorent-Martinez 2014 virgin olive oil below detection); grossly contaminated oil fails. This total-chromium ceiling is the reflex-speciation screen for the hexavalent-chromium control below. GB 2762-2025 supersedes GB 2762-2022 on 2026-09-02; re-verify this value against the 2025 revision at that time.",
+              "per_country": {},
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "read-across"
+            },
+            "Cr-VI": {
+              "type": "read_across",
+              "provenance_tag": "read-across",
+              "value": 10,
+              "value_exact": 10,
+              "source_id": "ca_swrcb_crvi_drinking_water_10",
+              "source_jurisdiction": "US-CA",
+              "source_scope": "drinking water",
+              "basis": "drinking water",
+              "binding_instrument": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+              "label": "No government sets a hexavalent-chromium maximum level for any food in any jurisdiction. This reads across the strictest drinking-water (oral-intake) Cr(VI) limit as a conservative species ceiling: the California State Water Resources Control Board Cr(VI) MCL, 10 ug/L (about 11 ug/kg at an oil density of 0.91, applied at 10 as slightly conservative). That MCL is a feasibility-set enforceable limit, not a health-based no-effect level (the California Public Health Goal is far lower); it is adopted only as the strictest real sovereign oral-intake Cr(VI) number. The value sits far below the total-chromium screen (300 ug/kg), so the species constraint holds. In a lipid food matrix hexavalent chromium reduces to trivalent chromium, so any total-chromium exceedance is reflex-speciated by IC-ICP-MS (EPA 3060A alkaline digestion + EPA 6800 / EN 15192) and any quantifiable Cr(VI) above 10 ug/kg fails.",
+              "per_country": {},
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "read-across"
+            },
+            "Sn": {
+              "type": "read_across",
+              "provenance_tag": "read-across",
+              "value": 200000,
+              "value_exact": 200000,
+              "source_id": "eu2023_sn_canned_foods_200000",
+              "source_jurisdiction": "EU",
+              "source_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+              "basis": "product as placed on market",
+              "binding_instrument": "regulations/eu2023-contaminants-maximum-levels",
+              "label": "No government sets a tin maximum level for an edible oil or fat. The only tin pathway in a bottled oil is migration from tin or tinplate packaging (Charfi 2026 measures 20 ug/kg from a tin container versus 120 ug/kg or below for glass and PET). This reads across the EU Reg 2023/915 inorganic-tin maximum level for canned foods other than beverages, 200000 ug/kg, on the identical product-as-placed-on-market basis: the sovereign instrument purpose-built to bound tin migrating from a metal contact surface into the food it holds. Real oil sits far below it; grossly tin-contaminated oil from failed packaging is caught.",
+              "per_country": {},
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "read-across"
+            },
+            "Al": {
+              "type": "read_across",
+              "provenance_tag": "read-across",
+              "value": 1000,
+              "value_exact": 1000,
+              "source_id": "eu_10_2011_al_sml",
+              "source_jurisdiction": "EU",
+              "source_scope": "plastic food-contact materials and articles",
+              "basis": "specific migration into food; source unit mg/kg food",
+              "binding_instrument": "regulations/eu-10-2011-food-contact-plastics-sml",
+              "label": "No government sets an aluminium maximum level for an edible oil or fat. The demonstrated aluminium pathway in a bottled oil is migration from packaging (Charfi 2026: 670 ug/kg from aluminium containers versus 120 ug/kg or below for glass and PET). This reads across the EU Reg 10/2011 aluminium specific-migration limit, 1000 ug/kg, the sovereign instrument that bounds aluminium migrating into food from a contact material (derived against the EFSA aluminium tolerable weekly intake). The specific-migration limit is applied at face value as a conservative total-content ceiling; the elevated case arose from aluminium metal containers, and the migration limit is disclosed as the nearest sovereign anchor, not direct total-content governance of oil.",
+              "per_country": {},
+              "audit": {
+                "same_form": [],
+                "other_form": []
+              },
+              "provenance": "read-across"
+            }
+          }
+        },
+        "method": "HMTc Method v2.0 (government-limit default; face value, no reconstitution; read-across / control / not-material for unregulated cells; no occurrence percentiles)",
+        "provenance_vocabulary": [
+          "regulatory-alignment",
+          "read-across",
+          "subsumed",
+          "baseline-screen",
+          "ratchet",
+          "control",
+          "not-material"
+        ],
+        "version": "v1.1 (2026-08-25, full-panel numeric completion)",
+        "lineage_note": "Cat-30 government-limit standard, full-panel numeric completion (2026-08-25). Edible-oil MLs (EU 2023/915, Codex named-vegetable-oils, GSO 193:2021, Thailand MOPH 414, India FSSAI, Israel FCS) govern Pb/Cd/tAs/iAs/tHg at face value. The five previously-unregulated cells now carry adversarially-verified numeric read-across ceilings, each disclosed as a read-across to the nearest applicable sovereign instrument on the matching product-as-placed-on-market basis: Ni 100 (EU 2024/1987 formula-liquid), total-Cr 300 (China GB2762 liquid-milk), Cr-VI 10 (California SWRCB drinking-water MCL, conservative oral-intake species ceiling below the total-Cr screen), Sn 200000 (EU 2023/915 canned-food inorganic-tin, the packaging-migration pathway), Al 1000 (EU 10/2011 aluminium migration limit, the packaging-migration pathway). MeHg is bounded by the binding total-mercury ceiling (MeHg<=tHg by identity). Every panel analyte terminates in a testable ceiling; no null control/not-material cells remain (founder rule 2026-08-25).",
+        "generated_from": "data/evidence/regulatory_limits.csv",
+        "config": "tools/standards/cat30-config.json",
+        "verify": {
+          "defects": [],
+          "warnings": [
+            "olive-oil[default].Pb: informational — stricter rows exist for a different product form (TH 40 [fat spreads and blended spreads]; SG 40 [fat spreads and blended spreads]; GSO 40 [Fat spreads and blended spreads])"
+          ],
+          "status": "PASS"
+        }
+      },
+      "page": {
+        "slug": "olive-oil",
+        "name": "Olive oil (virgin, refined, pomace)",
+        "description": "The Heavy Metal Tested & Certified standard for Olive oil (virgin, refined, pomace) (Culinary Oils and Fats), stated as sold. Each analyte carries the strictest applicable government maximum level in the product's native basis, with a disclosed read-across or a mandatory control where no government regulates the exact product.",
+        "version": "1.0 (2026-08-14)",
+        "connections": [
+          {
+            "label": "How limits are derived",
+            "href": "/program/structure"
+          },
+          {
+            "label": "Regulation references (source documents)",
+            "href": "/regulations"
+          },
+          {
+            "label": "All HMTc standards",
+            "href": "/standards"
+          }
+        ],
+        "variants": [
+          {
+            "label": "all",
+            "variant": "default",
+            "record": "olive-oil"
+          }
+        ]
+      },
+      "manifest_meta": {
+        "category": 30,
+        "category_name": "Culinary Oils and Fats",
+        "volume_name": "Culinary Oils and Fats",
+        "panel": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "iAs",
+          "tHg",
+          "MeHg",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Sn",
+          "Al"
+        ],
+        "tier1": [
+          "Pb",
+          "iAs",
+          "tHg",
+          "MeHg",
+          "Cd"
+        ],
+        "tier2": [
+          "tAs",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Sn",
+          "Al"
+        ],
+        "tier_footnote": "",
+        "reconstitution_note": false,
+        "compiled_dir": "cat30-compiled",
+        "method_label": "Strictest government ML",
+        "methodology_version": "Method v2.0 — government-limit default (CLAUDE.md Part 19, Governing Principles v2.0)",
+        "effective_date": "2026-08-14",
+        "default_version": "1.0 (2026-08-14)"
+      },
+      "manifest_sha256": "9d4ac8fa85b0c8e05c3a9c215d1a4ba9f75454c07ddb421a12c13670ace8a275",
+      "register_rows": {
+        "china_gb2762_2025_pb_fats_and_oils_80": null,
+        "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30": {
+          "regulatory_limit_id": "il_fcs2016_cd_2_fats_oils_and_fat_emulsions_water_in_oil_type_30",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "30",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.03 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "codex_tas_named-vegetable-oils_100": {
+          "regulatory_limit_id": "codex_tas_named-vegetable-oils_100",
+          "jurisdiction": "CODEX",
+          "authority": "Codex Alimentarius Commission",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "as sold",
+          "product_scope": "Named vegetable oils",
+          "regulation_page": "regulations/codex-fats-oils-contaminants",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/",
+          "notes": "CXS 210-1999 Standard for Named Vegetable Oils Sec 5.1 / CXS 19-1981 Edible Fats and Oils Sec 4 set total arsenic 0.1 mg/kg (and lead 0.1 mg/kg) as commodity-standard MLs. Confirmed in force; CCFO29 (2024) directed CCCF to consolidate these As/Pb oil MLs into horizontal CXS 193. Loaded 2026-08-10 (oils not-material audit): closes the As-in-oil no-ML gap so olive-oil/cooking-oils tAs adopt a real ceiling under Method v2.0 rather than being mislabelled not-material.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20": {
+          "regulatory_limit_id": "il_fcs2016_thg_2_fats_oils_and_fat_emulsions_water_in_oil_type_20",
+          "jurisdiction": "IL",
+          "authority": "Israel Ministry of Health - National Food Service",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "20",
+          "basis": "product as placed on market",
+          "product_scope": "Fats, oils, and fat emulsions (water-in-oil type)",
+          "regulation_page": "regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines",
+          "url": "https://www.gov.il/BlobFolder/policy/fcs-reg-01022007/he/files_databases_fcs_regulations_Reg_01022007.pdf",
+          "notes": "Hebrew Food Control Services table; English commodity scope is translated from the source row. Source row 2; limit 0.02 mg/kg.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "eu2024_ni_formula_liquid_100": {
+          "regulatory_limit_id": "eu2024_ni_formula_liquid_100",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "100",
+          "basis": "product as placed on market",
+          "product_scope": "infant/young-child formula, liquid",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2025-07-01.",
+          "basis_class": "as_consumed",
+          "soy_class": "both"
+        },
+        "china_gb2762_2025_crtotal_liquid_milk_300": null,
+        "ca_swrcb_crvi_drinking_water_10": {
+          "regulatory_limit_id": "ca_swrcb_crvi_drinking_water_10",
+          "jurisdiction": "US-CA",
+          "authority": "CA SWRCB",
+          "status": "maximum contaminant level",
+          "metal_species": "Cr-VI",
+          "value_ug_kg": "10",
+          "basis": "drinking water",
+          "product_scope": "drinking water",
+          "regulation_page": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+          "url": "",
+          "notes": "Hexavalent chromium MCL.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "eu2023_sn_canned_foods_200000": {
+          "regulatory_limit_id": "eu2023_sn_canned_foods_200000",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "200000",
+          "basis": "product as placed on market",
+          "product_scope": "canned foods other than canned beverages, except canned dried and canned powdered products",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Annex I section 3.5.1; inorganic tin; general canned-food ceiling, the highest-volume tin row.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "eu_10_2011_al_sml": {
+          "regulatory_limit_id": "eu_10_2011_al_sml",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "statutory limit",
+          "metal_species": "Al",
+          "value_ug_kg": "1000",
+          "basis": "specific migration into food; source unit mg/kg food",
+          "product_scope": "plastic food-contact materials and articles",
+          "regulation_page": "regulations/eu-10-2011-food-contact-plastics-sml",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0010-20230831",
+          "notes": "Regulation (EU) 10/2011 Annex II point 1, aluminium SML 1 mg/kg food (added by Reg (EU) 2016/1416).",
+          "basis_class": "",
+          "soy_class": ""
+        }
+      },
+      "variant_selected_for_proof": "default",
+      "manifest_variants": [
+        "default"
+      ]
+    },
+    "pet-food-fermentation-derived-protein": {
+      "record_path": "/Users/karenpendergrass/Desktop/heavymetalcertified/data/standards/cat17-compiled/pet-food-fermentation-derived-protein.json",
+      "record_sha256": "25fa34bf8a2039dd700af91d8cb6df9e23336b7958cdb7fec0e55c63f5102dac",
+      "record": {
+        "slug": "pet-food-fermentation-derived-protein",
+        "name": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
+        "native_basis": "as_sold",
+        "canned": false,
+        "human_grade": true,
+        "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+        "feed_law_note": "This subcategory covers a precision-fermented / single-cell / cultured PROTEIN INGREDIENT (spray-dried, heat-inactivated microbial biomass, e.g. Saccharomyces cerevisiae expressing an animal-identical protein) sold as a constituent of pet food. It is legally FEED (FDA CVM review, AAFCO, EU Directive 2002/32). Two read-across facts set the number honestly. First, a single-cell-protein biomass is not contamination-free by construction: anionic cell-wall groups biosorb Pb/Cd/Ni/Cr, arsenate is actively imported through the yeast phosphate transporters, and the metal load tracks the fermentation feedstock (plant sugars/molasses) and the mineral/trace-element premix — so Cd, Pb, and inorganic arsenic are real, load-bearing risks and are never marked not-material. Second, the strictest applicable HUMAN-FOOD analog on a dry as-sold basis is the plant-protein fraction (cereals, pulses, legumes), the same strict analog set the finished pet food already reads across; adopting it (rather than the looser same-class spec) keeps the ingredient limit at least as strict as any finished food it enters (Method v2.0 strictest-applicable rule, and the anti-circumvention guardrail against a looser ingredient tier laundering into a stricter finished food). The resulting toxic ceilings (Pb 20, Cd 40, tAs 100, iAs 100, tHg 20 ug/kg) are stricter on every toxic than the only governed same-class human-food spec, the EU novel-food Yarrowia lipolytica yeast-biomass Union-list contaminant limits (Pb 100, Cd 100, As 150, Hg 100 ug/kg; Reg (EU) 2019/760 amending 2017/2470), which is disclosed as the corroborating over-compliance floor and never selects the number. The applicable feed floor is disclosed on every row and never selects the number.",
+        "variants": {
+          "both": {
+            "Pb": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 20,
+              "value_exact": 20,
+              "source_id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20",
+              "source_jurisdiction": "HK",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "Cereal-based food intended to be consumed principally by persons under the age of 36 months",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (HK, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 5000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "HK": {
+                  "value": 20,
+                  "converted": false,
+                  "id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20"
+                },
+                "EU": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "eu2023_pb_root_tuber_vegetables_100"
+                },
+                "CN": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "china_gb2762_2025_pb_fresh_vegetables_100"
+                },
+                "IN": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "in_fssai2016_pb_014_root_and_tuber_vegetables_100"
+                },
+                "GSO": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "gso193_2021_pb_legume_vegetables_100"
+                },
+                "CU": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "cu_nc877_2012_pb_processed_cereals_100"
+                },
+                "TH": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "th_moph414_2020_pb_root_tuber_vegetables_100"
+                },
+                "PY": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "py_decreto1335_2019_roots_and_tubers_pb_100"
+                },
+                "PH": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "ph_pns194_2017_legume_vegetables_pb_100"
+                },
+                "MERCOSUR": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "mercosur_gmc12_2011_roots_and_tubers_pb_100"
+                },
+                "PA": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "pa_decreto467_2007_pb_vegetables_except_groups"
+                },
+                "VN": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "vn_qcvn8_2_2011_pb_bulb-and-root-and-tuber-vegetables-excluding-p_100"
+                },
+                "AU-NZ": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "aunz_sch19_pb_cereals_200"
+                },
+                "CO": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "co_res4506_2013_pb_legumes_cereals_200"
+                },
+                "MA": {
+                  "value": 900,
+                  "converted": false,
+                  "id": "ma_2410_2022_pb_3_1_29_epices_sechees_epices_en_graines_900"
+                }
+              },
+              "feed_floor": [
+                {
+                  "jurisdiction": "JP",
+                  "value": 3000,
+                  "id": "jp_petfood_2021_pb_3000",
+                  "scope": "pet food",
+                  "instrument": "feed maximum level",
+                  "status": "statutory limit"
+                },
+                {
+                  "jurisdiction": "EU",
+                  "value": 5000,
+                  "id": "eu2002_32_pb_complete_feed_5000",
+                  "scope": "complete feed",
+                  "instrument": "feed maximum level",
+                  "status": "maximum level"
+                }
+              ],
+              "provenance": "read-across"
+            },
+            "Cd": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 40,
+              "value_exact": 40,
+              "source_id": "eu2023_cd_pulses_40",
+              "source_jurisdiction": "EU",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "pulses, general",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (EU, 40 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "EU": {
+                  "value": 40,
+                  "converted": false,
+                  "id": "eu2023_cd_pulses_40"
+                },
+                "CN": {
+                  "value": 50,
+                  "converted": false,
+                  "id": "china_gb2762_2025_cd_fresh_vegetables_50"
+                },
+                "AU-NZ": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "aunz_sch19_cd_rice_100"
+                },
+                "IN": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "in_fssai2016_cd_006_legume_vegetables_100"
+                },
+                "GSO": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "gso193_2021_cd_legume_vegetables_100"
+                },
+                "CU": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "cu_nc877_2012_cd_processed_cereals_100"
+                },
+                "CO": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "co_res4506_2013_cd_cereals_general_100"
+                },
+                "TH": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "th_moph414_2020_cd_cereal_grains_excl_wheat_rice_100"
+                },
+                "PY": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "py_decreto1335_2019_cereals_excluding_wheat_rice_oils_cd_100"
+                },
+                "PH": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "ph_pns194_2017_legume_vegetables_cd_100"
+                },
+                "MA": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "ma_2410_2022_cd_3_2_5_grains_de_cereales_a_l_exclusion_du_ble_et_du_riz_100"
+                },
+                "MERCOSUR": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_cd_100"
+                },
+                "VN": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "vn_qcvn8_2_2011_cd_legumes_100"
+                },
+                "HK": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "hk_cap132v_cd_legume-vegetables_100"
+                }
+              },
+              "feed_floor": [
+                {
+                  "jurisdiction": "JP",
+                  "value": 1000,
+                  "id": "jp_petfood_2021_cd_1000",
+                  "scope": "pet food",
+                  "instrument": "feed maximum level",
+                  "status": "statutory limit"
+                },
+                {
+                  "jurisdiction": "EU",
+                  "value": 2000,
+                  "id": "eu2002_32_cd_complete_pet_feed_2000",
+                  "scope": "complete feed for pet animals",
+                  "instrument": "feed maximum level",
+                  "status": "maximum level"
+                }
+              ],
+              "provenance": "read-across"
+            },
+            "tAs": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 100,
+              "value_exact": 100,
+              "source_id": "py_decreto1335_2019_pulses_except_soybean_tas_100",
+              "source_jurisdiction": "PY",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "pulses, dried legume seeds, except soybean",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (PY, 100 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "PY": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "py_decreto1335_2019_pulses_except_soybean_tas_100"
+                },
+                "MERCOSUR": {
+                  "value": 100,
+                  "converted": false,
+                  "id": "mercosur_gmc12_2011_pulses_except_soybean_tas_100"
+                },
+                "CN": {
+                  "value": 500,
+                  "converted": false,
+                  "id": "china_gb2762_2025_tas_cereals_excl_paddy_rice_500"
+                },
+                "HK": {
+                  "value": 500,
+                  "converted": false,
+                  "id": "hk_cap132v_tas_cereals-other-than-rice_500"
+                },
+                "AU-NZ": {
+                  "value": 1000,
+                  "converted": false,
+                  "id": "aunz_sch19_tas_cereal_grains_1000"
+                }
+              },
+              "feed_floor": [
+                {
+                  "jurisdiction": "EU",
+                  "value": 2000,
+                  "id": "eu2002_32_tas_complete_feed_2000",
+                  "scope": "complete feed",
+                  "instrument": "feed maximum level",
+                  "status": "maximum level"
+                }
+              ],
+              "provenance": "read-across"
+            },
+            "iAs": {
+              "type": "precautionary",
+              "provenance": "precautionary",
+              "value": 100,
+              "value_exact": 100,
+              "unit": "ug/kg",
+              "basis": null,
+              "sovereign_floor": {
+                "kind": "read_across",
+                "id": "eu2023_ias_rice_milled_150",
+                "value": 150,
+                "jurisdiction": "EU",
+                "scope": null,
+                "basis": null,
+                "page": null
+              },
+              "floor_cell": {
+                "type": "read_across",
+                "human_grade": true,
+                "value": 150,
+                "value_exact": 150,
+                "source_id": "eu2023_ias_rice_milled_150",
+                "source_jurisdiction": "EU",
+                "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+                "analog_scope": "non-parboiled milled rice",
+                "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (EU, 150 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 2000 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+                "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+                "per_country": {
+                  "EU": {
+                    "value": 150,
+                    "converted": false,
+                    "id": "eu2023_ias_rice_milled_150"
+                  },
+                  "CN": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
+                  },
+                  "GSO": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "gso193_2021_ias_rice_polished_200"
+                  },
+                  "TH": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "th_moph414_2020_ias_polished_rice_200"
+                  },
+                  "SG": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "sg_foodregs_2026_polished_rice_ias_200"
+                  },
+                  "PH": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "ph_pns194_2017_polished_rice_ias_200"
+                  },
+                  "HK": {
+                    "value": 200,
+                    "converted": false,
+                    "id": "hk_cap132v_ias_polished-rice_200"
+                  }
+                },
+                "feed_floor": [
+                  {
+                    "jurisdiction": "JP",
+                    "value": 2000,
+                    "id": "jp_petfood_2021_ias_2000",
+                    "scope": "pet food",
+                    "instrument": "feed maximum level",
+                    "status": "statutory limit"
+                  }
+                ]
+              },
+              "rationale": "Published iAs of 100 ug/kg is retained as a precautionary program value after the instrument that carried it (il_fcs2016) was superseded; the strictest in-force sovereign floor is 150 ug/kg (in-force sovereign row). HMTc is a ratcheting program and does not loosen a live limit because an instrument died.",
+              "label": "Precautionary: 100 ug/kg, below the sovereign floor of 150 ug/kg (eu2023_ias_rice_milled_150). The floor is the strictest in-force government maximum level; the program number is a disclosed policy choice, not a claim about the law.",
+              "reference_method": null,
+              "feed_floor": [
+                {
+                  "jurisdiction": "JP",
+                  "value": 2000,
+                  "id": "jp_petfood_2021_ias_2000",
+                  "scope": "pet food",
+                  "instrument": "feed maximum level",
+                  "status": "statutory limit"
+                }
+              ],
+              "per_country": {
+                "EU": {
+                  "value": 150,
+                  "converted": false,
+                  "id": "eu2023_ias_rice_milled_150"
+                },
+                "CN": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "china_gb2762_2025_ias_rice_and_rice_flour_200"
+                },
+                "GSO": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "gso193_2021_ias_rice_polished_200"
+                },
+                "TH": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "th_moph414_2020_ias_polished_rice_200"
+                },
+                "SG": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "sg_foodregs_2026_polished_rice_ias_200"
+                },
+                "PH": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "ph_pns194_2017_polished_rice_ias_200"
+                },
+                "HK": {
+                  "value": 200,
+                  "converted": false,
+                  "id": "hk_cap132v_ias_polished-rice_200"
+                }
+              }
+            },
+            "tHg": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 20,
+              "value_exact": 20,
+              "source_id": "china_gb2762_2025_thg_rice_maize_wheat_20",
+              "source_jurisdiction": "CN",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "Paddy rice (as brown rice, footnote b), brown rice, rice and rice flour, maize, maize flour, maize grits, wheat and wheat flour (GB 2762-2025 Table 3, item 2.1); total mercury",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (CN, 20 µg/kg, as sold basis). Pet food is legally governed by feed law (feed floor 300 µg/kg); HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "CN": {
+                  "value": 20,
+                  "converted": false,
+                  "id": "china_gb2762_2025_thg_rice_maize_wheat_20"
+                },
+                "HK": {
+                  "value": 20,
+                  "converted": false,
+                  "id": "hk_cap132v_thg_rice-husked-rice-polished-rice-maize-maize-flour-wheat_20"
+                },
+                "GSO": {
+                  "value": 1000,
+                  "converted": false,
+                  "id": "gso193_2021_thg_wheat_pink_kernels_1000"
+                }
+              },
+              "feed_floor": [
+                {
+                  "jurisdiction": "EU",
+                  "value": 300,
+                  "id": "eu2002_32_thg_compound_feed_pet_fur_300",
+                  "scope": "compound feed for dogs, cats, ornamental fish and fur animals",
+                  "instrument": "feed maximum level",
+                  "status": "maximum level"
+                }
+              ],
+              "provenance": "read-across"
+            },
+            "MeHg": {
+              "type": "subsumed",
+              "provenance": "subsumed",
+              "value": null,
+              "subsumed_by": "tHg",
+              "bounded_by": "tHg",
+              "binding_total": 20,
+              "basis_class": "speciation-bounded",
+              "rationale": "Methylmercury is a component of total mercury (MeHg <= tHg). No in-force sovereign sets a separate MeHg maximum level for this product on its basis, so methylmercury is governed by and bounded by the total mercury ceiling (20 ug/kg); no separate MeHg ceiling is published. MeHg is speciated whenever tHg exceeds its reflex trigger."
+            },
+            "Ni": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 800,
+              "value_exact": 800,
+              "source_id": "eu2024_ni_cereals_800",
+              "source_jurisdiction": "EU",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (EU, 800 µg/kg, as sold basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "EU": {
+                  "value": 800,
+                  "converted": false,
+                  "id": "eu2024_ni_cereals_800"
+                }
+              },
+              "feed_floor": null,
+              "provenance": "read-across"
+            },
+            "Sn": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 250000,
+              "value_exact": 250000,
+              "source_id": "sg_foodregs_2026_any_food_sn_250000",
+              "source_jurisdiction": "SG",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "any food",
+              "label": "Human-grade read-across: Singapore Food Regulations tin in any food (250000 ug/kg, product as sold); the dried single-cell-protein ingredient is not a canned product, and no sovereign sets a tin level for it.",
+              "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+              "per_country": {},
+              "feed_floor": null,
+              "provenance": "read-across"
+            },
+            "Al": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 100000,
+              "value_exact": 100000,
+              "source_id": "cn_gb2760_2024_al_baked_foods_100000",
+              "source_jurisdiction": "CN",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+              "label": "Human-grade read-across: GB 2760-2024 aluminium (as Al, from aluminium-containing additives) in baked foods (100000 ug/kg, dry product), the strictest dry human-food aluminium row; no sovereign sets an aluminium content level for a fermentation-derived protein ingredient.",
+              "basis_note": "human-grade read-across (named sovereign source; feed floor disclosed, never selected)",
+              "per_country": {
+                "CN": {
+                  "value": 200000,
+                  "converted": false,
+                  "id": "cn_gb2760_2024_al_starch_noodles_vermicelli_200000"
+                }
+              },
+              "feed_floor": null,
+              "provenance": "read-across"
+            },
+            "Cr": {
+              "type": "read_across",
+              "human_grade": true,
+              "value": 500,
+              "value_exact": 500,
+              "source_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+              "source_jurisdiction": "HK",
+              "analog_label": "the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold)",
+              "analog_scope": "Vegetables, other than pulses",
+              "label": "Human-grade read-across: the strictest human-food sovereign maximum level for the the dried single-cell-protein / yeast-biomass fraction — read across from the strictest applicable dry plant-protein human-food analog (cereals, pulses, and legumes; adult/general human food, as sold) (HK, 500 µg/kg, as sold basis). Pet food is legally governed by feed law; HMTc voluntarily certifies to the stricter human-food limit.",
+              "basis_note": "human-grade read-across (voluntary over-compliance; feed floor disclosed, never selected)",
+              "per_country": {
+                "HK": {
+                  "value": 500,
+                  "converted": false,
+                  "id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500"
+                },
+                "CN": {
+                  "value": 1000,
+                  "converted": false,
+                  "id": "china_gb2762_2025_crtotal_cereals_1000"
+                }
+              },
+              "feed_floor": null,
+              "provenance": "read-across"
+            },
+            "Cr-VI": {
+              "type": "subsumed",
+              "provenance": "subsumed",
+              "value": null,
+              "subsumed_by": "Cr",
+              "bounded_by": "Cr",
+              "binding_total": 500,
+              "basis_class": "speciation-bounded",
+              "rationale": "Hexavalent chromium is a component of total chromium (Cr-VI <= Cr). No in-force sovereign sets a separate Cr-VI maximum level for this product on its basis, so hexavalent chromium is governed by and bounded by the total chromium ceiling (500 ug/kg); no separate Cr-VI ceiling is published. Cr-VI is speciated whenever Cr exceeds its reflex trigger."
+            }
+          }
+        },
+        "generated_from": "data/evidence/regulatory_limits.csv",
+        "method": "HMTc Method v2.0 — human-grade over-compliance: strictest human-food analog ML by lookup; feed floor disclosed, never selected"
+      },
+      "page": {
+        "slug": "pet-food-fermentation-derived-protein",
+        "name": "Fermentation-derived / single-cell protein ingredients (precision-fermented, cultured, yeast-biomass proteins)",
+        "description": "The Heavy Metal Tested & Certified human-grade standard for precision-fermented, cultured, and single-cell / yeast-biomass protein ingredients used in pet food, stated as sold on a dry powder basis. Pet food is legally feed; HMTc voluntarily certifies each analyte to the strictest human-food sovereign maximum for the nearest analog, with the laxer feed-law floor disclosed for contrast.",
+        "version": "1.0 (2026-08-31)",
+        "connections": [
+          {
+            "label": "How limits are derived",
+            "href": "/program/structure"
+          },
+          {
+            "label": "Regulation references (source documents)",
+            "href": "/regulations"
+          },
+          {
+            "label": "All HMTc standards",
+            "href": "/standards"
+          }
+        ],
+        "variants": [
+          {
+            "label": "all",
+            "variant": "default",
+            "record": "pet-food-fermentation-derived-protein"
+          }
+        ]
+      },
+      "manifest_meta": {
+        "category": 17,
+        "category_name": "Pet Foods",
+        "volume_name": "Pet Foods",
+        "panel": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "iAs",
+          "tHg",
+          "MeHg",
+          "Ni",
+          "Sn",
+          "Al",
+          "Cr",
+          "Cr-VI"
+        ],
+        "tier1": [
+          "Pb",
+          "iAs",
+          "tHg",
+          "MeHg",
+          "Cd"
+        ],
+        "tier2": [
+          "tAs",
+          "Ni",
+          "Sn",
+          "Al",
+          "Cr",
+          "Cr-VI"
+        ],
+        "tier_footnote": "Pet food is legally feed; HMTc voluntarily certifies each analyte to the strictest human-food sovereign maximum for the nearest analog, with the laxer feed-law floor disclosed for contrast. Inorganic arsenic and hexavalent chromium are reflex-speciation screens bounded by total arsenic and total chromium; methylmercury is bounded by total mercury. Nickel, tin and aluminium carry disclosed read-across limits where no government sets a general pet-food maximum.",
+        "reconstitution_note": false,
+        "compiled_dir": "cat17-compiled",
+        "methodology_version": "Method v2.0: human-grade over-compliance (CLAUDE.md Part 19; feed floor disclosed, never selected)",
+        "method_label": "HMTc human-grade over-compliance: the strictest human-food sovereign maximum for the nearest analog, applied to a legally-feed product; the feed-law floor is disclosed for contrast and never selected.",
+        "effective_date": "2026-08-13",
+        "default_version": "1.0 (2026-08-13)"
+      },
+      "manifest_sha256": "f18ffeae731aebb98cf723f8198a1520e902ac407d7bafdbde9b4850024288b7",
+      "register_rows": {
+        "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20": {
+          "regulatory_limit_id": "hk_cap132v_pb_cereal-based-food-intended-to-be-consumed-principally-b_20",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "20",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Cereal-based food intended to be consumed principally by persons under the age of 36 months",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 9 (Lead); source value 0.02 mg/kg; Note 14: products not reconstituted or otherwise prepared for consumption (L.N. 140 of 2025)",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "jp_petfood_2021_pb_3000": {
+          "regulatory_limit_id": "jp_petfood_2021_pb_3000",
+          "jurisdiction": "JP",
+          "authority": "Food and Agricultural Materials Inspection Center",
+          "status": "statutory limit",
+          "metal_species": "Pb",
+          "value_ug_kg": "3000",
+          "basis": "product as sold; source unit microgram/g",
+          "product_scope": "pet food",
+          "regulation_page": "regulations/japan-pet-food-heavy-metal-standards-2021",
+          "url": "",
+          "notes": "FAMIC Specifications and Standards of Pet Food: lead maximum 3 ug/g.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "eu2002_32_pb_complete_feed_5000": {
+          "regulatory_limit_id": "eu2002_32_pb_complete_feed_5000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council",
+          "status": "maximum level",
+          "metal_species": "Pb",
+          "value_ug_kg": "5000",
+          "basis": "feed with moisture content of 12%; source unit mg/kg (ppm)",
+          "product_scope": "complete feed",
+          "regulation_page": "regulations/eu-directive-2002-32-animal-feed-heavy-metals",
+          "url": "",
+          "notes": "Directive 2002/32/EC Annex I Section I; values are maximum contents relative to 12 percent moisture. Arsenic and mercury rows are total arsenic and total mercury per source footnotes.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "eu2023_cd_pulses_40": {
+          "regulatory_limit_id": "eu2023_cd_pulses_40",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "40",
+          "basis": "product as placed on market",
+          "product_scope": "pulses, general",
+          "regulation_page": "regulations/eu-2023-915-cadmium",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Pulse commodity row.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "jp_petfood_2021_cd_1000": {
+          "regulatory_limit_id": "jp_petfood_2021_cd_1000",
+          "jurisdiction": "JP",
+          "authority": "Food and Agricultural Materials Inspection Center",
+          "status": "statutory limit",
+          "metal_species": "Cd",
+          "value_ug_kg": "1000",
+          "basis": "product as sold; source unit microgram/g",
+          "product_scope": "pet food",
+          "regulation_page": "regulations/japan-pet-food-heavy-metal-standards-2021",
+          "url": "",
+          "notes": "FAMIC Specifications and Standards of Pet Food: cadmium maximum 1 ug/g.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "eu2002_32_cd_complete_pet_feed_2000": {
+          "regulatory_limit_id": "eu2002_32_cd_complete_pet_feed_2000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council",
+          "status": "maximum level",
+          "metal_species": "Cd",
+          "value_ug_kg": "2000",
+          "basis": "feed with moisture content of 12%; source unit mg/kg (ppm)",
+          "product_scope": "complete feed for pet animals",
+          "regulation_page": "regulations/eu-directive-2002-32-animal-feed-heavy-metals",
+          "url": "",
+          "notes": "Directive 2002/32/EC Annex I Section I; values are maximum contents relative to 12 percent moisture. Arsenic and mercury rows are total arsenic and total mercury per source footnotes.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "py_decreto1335_2019_pulses_except_soybean_tas_100": {
+          "regulatory_limit_id": "py_decreto1335_2019_pulses_except_soybean_tas_100",
+          "jurisdiction": "PY",
+          "authority": "Paraguay Ministry of Public Health and Social Welfare",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "100",
+          "basis": "product as offered to consumer",
+          "product_scope": "pulses, dried legume seeds, except soybean",
+          "regulation_page": "regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants",
+          "url": "",
+          "notes": "Annex Part II arsenic table total arsenic row; source value 0.1 mg/kg normalized to 100 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "eu2002_32_tas_complete_feed_2000": {
+          "regulatory_limit_id": "eu2002_32_tas_complete_feed_2000",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council",
+          "status": "maximum level",
+          "metal_species": "tAs",
+          "value_ug_kg": "2000",
+          "basis": "feed with moisture content of 12%; source unit mg/kg (ppm)",
+          "product_scope": "complete feed",
+          "regulation_page": "regulations/eu-directive-2002-32-animal-feed-heavy-metals",
+          "url": "",
+          "notes": "Directive 2002/32/EC Annex I Section I; values are maximum contents relative to 12 percent moisture. Arsenic and mercury rows are total arsenic and total mercury per source footnotes.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "eu2023_ias_rice_milled_150": {
+          "regulatory_limit_id": "eu2023_ias_rice_milled_150",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "iAs",
+          "value_ug_kg": "150",
+          "basis": "product as placed on market",
+          "product_scope": "non-parboiled milled rice",
+          "regulation_page": "regulations/eu2023-contaminants-maximum-levels",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915",
+          "notes": "Rice as defined in Codex Standard 198-1995.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "jp_petfood_2021_ias_2000": {
+          "regulatory_limit_id": "jp_petfood_2021_ias_2000",
+          "jurisdiction": "JP",
+          "authority": "Food and Agricultural Materials Inspection Center",
+          "status": "statutory limit",
+          "metal_species": "iAs",
+          "value_ug_kg": "2000",
+          "basis": "product as sold; source unit microgram/g",
+          "product_scope": "pet food",
+          "regulation_page": "regulations/japan-pet-food-heavy-metal-standards-2021",
+          "url": "",
+          "notes": "FAMIC Specifications and Standards of Pet Food: inorganic arsenic maximum 2 ug/g, effective 2021-10-01.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "china_gb2762_2025_thg_rice_maize_wheat_20": null,
+        "eu2002_32_thg_compound_feed_pet_fur_300": {
+          "regulatory_limit_id": "eu2002_32_thg_compound_feed_pet_fur_300",
+          "jurisdiction": "EU",
+          "authority": "European Parliament and Council",
+          "status": "maximum level",
+          "metal_species": "tHg",
+          "value_ug_kg": "300",
+          "basis": "feed with moisture content of 12%; source unit mg/kg (ppm)",
+          "product_scope": "compound feed for dogs, cats, ornamental fish and fur animals",
+          "regulation_page": "regulations/eu-directive-2002-32-animal-feed-heavy-metals",
+          "url": "",
+          "notes": "Directive 2002/32/EC Annex I Section I; values are maximum contents relative to 12 percent moisture. Arsenic and mercury rows are total arsenic and total mercury per source footnotes.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "eu2024_ni_cereals_800": {
+          "regulatory_limit_id": "eu2024_ni_cereals_800",
+          "jurisdiction": "EU",
+          "authority": "European Commission",
+          "status": "maximum level",
+          "metal_species": "Ni",
+          "value_ug_kg": "800",
+          "basis": "product as placed on market",
+          "product_scope": "cereals except durum/rice/husked-rice/pseudocereal/oat rows",
+          "regulation_page": "regulations/eu-2024-1987-nickel-maximum-levels",
+          "url": "http://data.europa.eu/eli/reg/2024/1987/oj",
+          "notes": "Applies from 2026-07-01.",
+          "basis_class": "",
+          "soy_class": ""
+        },
+        "sg_foodregs_2026_any_food_sn_250000": {
+          "regulatory_limit_id": "sg_foodregs_2026_any_food_sn_250000",
+          "jurisdiction": "SG",
+          "authority": "Singapore Food Agency",
+          "status": "maximum level",
+          "metal_species": "Sn",
+          "value_ug_kg": "250000",
+          "basis": "product as sold or imported",
+          "product_scope": "any food",
+          "regulation_page": "regulations/singapore-food-regulations-heavy-metals-2026",
+          "url": "",
+          "notes": "Regulation 31(4) tin row; value 250 ppm normalized to 250000 ug/kg.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "cn_gb2760_2024_al_baked_foods_100000": {
+          "regulatory_limit_id": "cn_gb2760_2024_al_baked_foods_100000",
+          "jurisdiction": "CN",
+          "authority": "National Health Commission of China (NHC)",
+          "status": "maximum level",
+          "metal_species": "Al",
+          "value_ug_kg": "100000",
+          "basis": "product as placed on market; dry sample, calculated as Al",
+          "product_scope": "baked foods (bread, pastries, cakes, biscuits, cookies, crackers); deep-fried flour products; batter, breading, and frying powder",
+          "regulation_page": "regulations/china-gb-2760-2024-food-additives",
+          "url": "https://www.chinesestandard.net/PDF/English.aspx/GB2760-2024",
+          "notes": "GB 2760-2024 National Food Safety Standard for the Uses of Food Additives (in force 2025-02-08; supersedes GB 2760-2014). Finished-product aluminium residue limit 100 mg/kg (dry sample; as Al) governing the permitted aluminium additives (potassium/ammonium aluminium sulfate INS 522/523); China banned sodium aluminium phosphate INS 541 in 2014. Additive-agnostic total-aluminium residue cap. Corroborated by Codex GSFA CXS 192-1995 use-levels-as-Al for crackers (07.1.2) and ordinary bakery (07.1.3) both 100 mg/kg. Primary-verified 2026-08-10.",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        },
+        "hk_cap132v_crtotal_vegetables-other-than-pulses_500": {
+          "regulatory_limit_id": "hk_cap132v_crtotal_vegetables-other-than-pulses_500",
+          "jurisdiction": "HK",
+          "authority": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+          "status": "maximum level",
+          "metal_species": "Cr-total",
+          "value_ug_kg": "500",
+          "basis": "food as listed in Cap 132V Part 2 Schedule; source unit mg/kg",
+          "product_scope": "Vegetables, other than pulses",
+          "regulation_page": "regulations/hong-kong-cap-132v-metallic-contamination",
+          "url": "https://www.elegislation.gov.hk/hk/cap132V",
+          "notes": "Cap 132V Part 2 item 7 (Chromium); source value 0.5 mg/kg",
+          "basis_class": "as_sold",
+          "soy_class": ""
+        }
+      },
+      "variant_selected_for_proof": "both",
+      "manifest_variants": [
+        "default"
+      ]
+    }
+  }
+}

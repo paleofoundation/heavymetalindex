@@ -1,0 +1,26 @@
+[
+  {
+    "pdf": "/Users/karenpendergrass/Desktop/heavy-metal-index/output/pdf/olive-oil-design-review.pdf",
+    "sha256": "76ecac71b6161596f31e5719e46347f0eca09883473f2bcd90b0a9e63884f17a",
+    "pages": 3,
+    "numeric_cell_parity": "11/11",
+    "text_bounds": "PASS",
+    "literal_entities": "PASS",
+    "link_annotations": 18,
+    "validation_scope": "Snapshot/display parity, not source-law or certification approval",
+    "identical_snapshot_rebuild": "PASS",
+    "visual_review": "All three pages rendered with Poppler and inspected; no clipping, overlaps, stranded headings or missing glyphs observed."
+  },
+  {
+    "pdf": "/Users/karenpendergrass/Desktop/heavy-metal-index/output/pdf/pet-food-fermentation-derived-protein-design-review.pdf",
+    "sha256": "c47037b1e36d2942922fbec7aa80ae6aee60cc9532aca8002b75eb6d2bb72ee7",
+    "pages": 3,
+    "numeric_cell_parity": "11/11",
+    "text_bounds": "PASS",
+    "literal_entities": "PASS",
+    "link_annotations": 18,
+    "validation_scope": "Snapshot/display parity, not source-law or certification approval",
+    "identical_snapshot_rebuild": "PASS",
+    "visual_review": "All three pages rendered with Poppler and inspected; no clipping, overlaps, stranded headings or missing glyphs observed."
+  }
+]
