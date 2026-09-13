@@ -17,12 +17,15 @@
 // mockup's computed styles; see fonts.mjs for the font roles.
 
 import React from "react"
+import fs from "node:fs"
+import path from "node:path"
 import {
   Document,
   Page,
   View,
   Text,
   Link,
+  Image,
   Svg,
   Path,
   StyleSheet,
@@ -67,6 +70,10 @@ function stripWiki(s) {
     .replace(/\[\[([^\]|#]+)[^\]]*\]\]/g, (_, p) => p.split("/").pop()) // [[t]] -> basename
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // [text](url) -> text
     .replace(/`([^`]+)`/g, "$1")
+    // Unwrap single-token inline math ($p$, $BW$) to its plain letter so the PDF
+    // shows the variable, not literal "$…$". Deliberately conservative: the inner
+    // token must start with a letter, so currency ($5, $1,000) is never touched.
+    .replace(/\$([A-Za-z][A-Za-z0-9]*)\$/g, "$1")
     .replace(/\\([\\`*_{}[\]()#+\-.!])/g, "$1")
 }
 
@@ -230,7 +237,7 @@ function firstProsePara(lines) {
 }
 
 // Group a section's raw lines into typed blocks the renderer lays out.
-function parseBlocks(lines, skipLine) {
+function parseBlocks(lines, skipLine, ctx = {}) {
   const blocks = []
   let i = 0
   const skip = skipLine ? skipLine.trim() : null
@@ -242,6 +249,46 @@ function parseBlocks(lines, skipLine) {
       continue
     }
     let mm
+    // Display math: a `$$` fence. react-pdf cannot typeset TeX, so a build step
+    // pre-renders each display equation to a PNG (tools/pdf/build-proof-figures.mjs);
+    // here we consume the fence and emit an image block sized from the manifest.
+    // Equations are numbered by document order (eq1, eq2, …) via the shared ctx
+    // counter. If the asset is missing we fall back to the raw TeX as prose so a
+    // build never crashes.
+    if (t === "$$") {
+      i++
+      const buf = []
+      while (i < lines.length && lines[i].trim() !== "$$") {
+        buf.push(lines[i])
+        i++
+      }
+      i++ // consume closing $$
+      if (ctx.figuresDir) {
+        ctx.mathN = (ctx.mathN || 0) + 1
+        const src = path.join(ctx.figuresDir, `eq${ctx.mathN}.png`)
+        const size = (ctx.eqSizes && ctx.eqSizes[`eq${ctx.mathN}`]) || { w: 320, h: 40 }
+        if (fs.existsSync(src)) {
+          blocks.push({ type: "math", src, w: size.w, h: size.h })
+          continue
+        }
+      }
+      blocks.push({ type: "para", text: buf.join(" ").trim() })
+      continue
+    }
+    // Figure: a standalone markdown image `![alt](/static/figures/<slug>/figN.svg)`.
+    // The HTML page shows the SVG; the PDF embeds the PNG sibling on disk.
+    if ((mm = t.match(/^!\[([^\]]*)\]\(([^)\s]+)\)\s*$/))) {
+      const png = mm[2].replace(/^\/static\//, "wiki/static/").replace(/\.svg$/, ".png")
+      const abs = path.isAbsolute(png) ? png : path.join(process.cwd(), png)
+      if (fs.existsSync(abs)) {
+        blocks.push({ type: "figure", src: abs, alt: clean(mm[1]) })
+        i++
+        continue
+      }
+      blocks.push({ type: "para", text: clean(mm[1]) })
+      i++
+      continue
+    }
     if (t.startsWith("|")) {
       const rows = []
       while (i < lines.length && lines[i].trim().startsWith("|")) {
@@ -386,16 +433,31 @@ function buildModel(fm, body, cfg) {
   const abstract = clean(fm.dek || abstractSecFirst || ledeFirst || overviewFirst || "")
   const skipLine = fm.dek || abstractSec ? null : ledeFirst || overviewFirst
 
+  // Figure/equation embedding context (shared across every parseBlocks call so
+  // display equations are numbered eq1, eq2, … in document order). Assets and
+  // their display-size manifest live under wiki/static/figures/<slug>/ and are
+  // built by tools/pdf/build-proof-figures.mjs. Pages without that directory get
+  // the unchanged text/table rendering.
+  const figuresDir = path.join(process.cwd(), "wiki/static/figures", slug)
+  let eqSizes = null
+  try {
+    eqSizes = JSON.parse(fs.readFileSync(path.join(figuresDir, "equations.json"), "utf8"))
+  } catch {
+    eqSizes = null
+  }
+  const figCtx = fs.existsSync(figuresDir) ? { figuresDir, eqSizes, mathN: 0 } : {}
+
   const ledeBlocks = parseBlocks(
     (skipLine ? preamble.filter((l) => l.trim() !== skipLine.trim()) : preamble).filter((l) => l.trim()),
     null,
+    figCtx,
   )
 
   const bodySections = sections
     .filter((s) => !isApparatus(s.heading) && !/^abstract$/i.test(s.heading))
     .map((s) => ({
       heading: s.heading,
-      blocks: parseBlocks(s.lines, s === overview && !fm.dek ? skipLine : null),
+      blocks: parseBlocks(s.lines, s === overview && !fm.dek ? skipLine : null, figCtx),
     }))
     .filter((s) => s.blocks.length)
 
@@ -424,7 +486,13 @@ function buildModel(fm, body, cfg) {
   const citeAs = `Pendergrass K. "${title}". Heavy Metal Index${year ? ", " + year : ""}. ${url}${doi ? " (DOI: " + doi + ")" : ""}. CC BY 4.0.`
 
   return {
-    masthead: cfg.masthead,
+    // Article-type override: a systems-architecture working paper is not a
+    // "Synthesis report", so its masthead names what it is. Other pages keep the
+    // directory masthead from cfg.
+    masthead:
+      fm.article_type === "systems-architecture-working-paper"
+        ? "Heavy Metal Index  ·  Working paper (Systems architecture)"
+        : cfg.masthead,
     dateLabel: monthYear(updated || established),
     title,
     // The ORCID iD is shown as the official green iD glyph linked to the record
@@ -569,6 +637,21 @@ function Block(b, key, cite) {
       ),
     )
   if (b.type === "table") return TableBlock(b, key)
+  // Build-time figure (SVG on the web, PNG here) — kept whole so a diagram never
+  // splits across a page break.
+  if (b.type === "figure")
+    return h(
+      View,
+      { key, wrap: false, style: { marginVertical: 12, alignItems: "center" } },
+      h(Image, { src: b.src, style: { width: 468 } }),
+    )
+  // Pre-rendered display equation, sized from the manifest and centred.
+  if (b.type === "math")
+    return h(
+      View,
+      { key, wrap: false, style: { marginVertical: 9, alignItems: "center" } },
+      h(Image, { src: b.src, style: { width: b.w, height: b.h } }),
+    )
   return null
 }
 
