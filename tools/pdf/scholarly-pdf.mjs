@@ -447,8 +447,18 @@ function buildModel(fm, body, cfg) {
   }
   const figCtx = fs.existsSync(figuresDir) ? { figuresDir, eqSizes, mathN: 0 } : {}
 
+  // The typeset PDF already carries the byline at the top (authorLine), so a
+  // byline block authored in the markdown preamble — the author name and the
+  // "Heavy Metal Index / Institute of Contaminant Standards" affiliation — would
+  // duplicate it below the abstract. Drop those lines from the lede.
+  const isBylineLine = (l) => {
+    const t = clean(l).trim()
+    return t === "Karen Pendergrass" || /^Heavy Metal Index\b.*Institute of Contaminant Standards/i.test(t)
+  }
   const ledeBlocks = parseBlocks(
-    (skipLine ? preamble.filter((l) => l.trim() !== skipLine.trim()) : preamble).filter((l) => l.trim()),
+    (skipLine ? preamble.filter((l) => l.trim() !== skipLine.trim()) : preamble)
+      .filter((l) => l.trim())
+      .filter((l) => !isBylineLine(l)),
     null,
     figCtx,
   )
