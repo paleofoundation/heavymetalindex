@@ -308,13 +308,14 @@ const texInput = new TeX({ packages: AllPackages })
 const svgOutput = new SVG({ fontCache: "none" })
 const mjdoc = mathjax.document("", { InputJax: texInput, OutputJax: svgOutput })
 
+// Numbered by document order of the `$$` blocks in the markdown. The §6 adoption
+// condition is now prose (a callout), not display math, so there are three
+// display equations: the exposure identity (§1.1), the species-within-parent
+// inequalities (§7.2), and the counterfactual exposure difference (§8).
 const EQUATIONS = [
   ["eq1", String.raw`E_{m,p}=\frac{\sum_c C_{m,c,p}\,I_{c,p}}{BW_p}`],
-  // A worded inequality — stacked over two centred lines so it typesets as a
-  // legible block rather than one unreadably-wide strip.
-  ["eq2", String.raw`\begin{array}{c}\text{Expected avoidable downstream costs and uncertainty}\\[4pt]>\quad\text{incremental upstream assurance and substitution costs}\end{array}`],
-  ["eq3", String.raw`\mathrm{iAs}\leq\mathrm{tAs},\qquad \mathrm{MeHg}\leq\mathrm{tHg},\qquad \mathrm{Cr(VI)}\leq\mathrm{tCr}`],
-  ["eq4", String.raw`\Delta E_{m,p}=\frac{\sum_c C^{(0)}_{m,c,p}I^{(0)}_{c,p}-\sum_c C^{(1)}_{m,c,p}I^{(1)}_{c,p}}{BW_p}`],
+  ["eq2", String.raw`\mathrm{iAs}\leq\mathrm{tAs},\qquad \mathrm{MeHg}\leq\mathrm{tHg},\qquad \mathrm{Cr(VI)}\leq\mathrm{tCr}`],
+  ["eq3", String.raw`\Delta E_{m,p}=\frac{\sum_c C^{(0)}_{m,c,p}I^{(0)}_{c,p}-\sum_c C^{(1)}_{m,c,p}I^{(1)}_{c,p}}{BW_p}`],
 ]
 
 // Display caps (points) so the PDF sizes each equation sanely regardless of its
