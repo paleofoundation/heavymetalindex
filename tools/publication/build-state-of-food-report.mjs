@@ -40,6 +40,14 @@ const themeBySlug = new Map([
   ["metals-microbiome-disease-pathogenesis", "Microbiome-mediated pathogenesis"],
 ])
 
+// Synthesis pages that are NOT source-traceable contamination findings and so
+// do not belong in the State of Heavy Metals in Food findings register, even
+// though they are listed on wiki/synthesis/index.md for navigation. Working
+// papers and systems-architecture manuscripts live here: they are authored
+// synthesis-layer documents, not corpus findings, and must not inflate or
+// theme the closed finding register.
+const REPORT_EXCLUDE_SLUGS = new Set(["proof-before-the-floor"])
+
 const sourceTypeMap = new Map([
   ["peer-reviewed", "peer_reviewed"],
   ["study", "peer_reviewed"],
@@ -95,6 +103,7 @@ function parseSynthesisIndex(markdown) {
   const records = []
   for (const match of markdown.matchAll(rowPattern)) {
     const [, title, relativeUrl, slug, metals, anchorSources, added] = match
+    if (REPORT_EXCLUDE_SLUGS.has(slug)) continue
     const sourcePath = path.join(ROOT, "wiki/synthesis", `${slug}.md`)
     if (!fs.existsSync(sourcePath)) throw new Error(`Missing synthesis page for report row: ${slug}`)
     const page = fs.readFileSync(sourcePath, "utf8")
