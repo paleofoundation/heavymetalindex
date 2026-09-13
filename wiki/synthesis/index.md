@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Proof Before the Floor: a proposed systems architecture for dietary heavy-metal exposure reduction through authenticated evidence, lot qualification, and method-bound certification (systems-architecture working paper)](/synthesis/proof-before-the-floor) | Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Sn, Al, Cr | 20 | 2026-09-13 |
 | [Heavy metal exposure and compartment-specific metal dyshomeostasis can act upstream of the microbial functions that drive disease, defining a falsifiable metal-conditioned disease endotype for microbiome medicine](/synthesis/metals-microbiome-disease-pathogenesis) | Ni, Zn, Fe, iAs, Cd | 4 | 2026-09-08 |
 | [Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-08-11 |
 | [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | 2026-07-27 |
@@ -70,11 +71,11 @@ Until the dedicated page is published, cadmium claims should be traced to [[meta
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [78f55c804](https://github.com/paleofoundation/heavymetalindex/commit/78f55c804) | 2026-09-01 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 4 sections added; narrative text revised |
+| [78f55c8047](https://github.com/paleofoundation/heavymetalindex/commit/78f55c8047) | 2026-09-01 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
+| [6738e62dcd](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dcd) | 2026-07-04 | correction | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
