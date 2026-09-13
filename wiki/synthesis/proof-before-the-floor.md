@@ -22,13 +22,7 @@ wiki_doi: "10.83376/hmi.proof-before-the-floor"
 # Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification
 
 **Karen Pendergrass**
-Heavy Metal Index, Institute of Contaminant Standards¹
-
-**Article type:** Systems architecture and evaluation framework.
-**Manuscript status:** Canonical revised working paper. No ecosystem efficacy study is reported.
-**Source review date:** September 13, 2026.
-
-¹ Organizational diligence note: The commercial operator is Paleo Certified, Inc.; the Institute of Contaminant Standards (ICS) is its DBA. The operator reports certification-program history since 2010. This history is not evidence of performance of the architecture assessed here [11].
+Heavy Metal Index / Institute of Contaminant Standards
 
 ## Structured abstract
 
@@ -323,13 +317,15 @@ The main chain runs from authenticated, lot-linked evidence to changed upstream 
 
 **Competing interests:** The author is founder of Heavy Metal Index (HMI), TECRID, Verified Lot Exchange (VLE), and Heavy Metal Tested & Certified (HMTc), and co-founder of the Paleo Foundation. The Institute of Contaminant Standards (ICS) is a DBA of Paleo Certified, Inc., the commercial operator of related certification and standards activity. The author has ownership and operator interests in this ecosystem. Remuneration, if any, may arise from certification, licensing, or related commercial services. No external research grant funded this working paper. Affiliation and ownership are not evidence of independent validation of the proposed architecture.
 
+**Operator and diligence:** The commercial operator, Paleo Certified, Inc. (of which ICS is a DBA), reports a certification-program history since 2010. That history is organizational context only; it is not evidence of the performance of the architecture assessed here [11].
+
 **Data availability:** No original empirical dataset or numerical exposure-effect estimate is reported. Public sources underlying the conceptual analysis are listed below. Proposed pilot data requirements are specified in Section 8.
 
 **Publication status:** This manuscript is a working paper. DOI registration and publication on HMI would not, by themselves, establish peer review or regulatory endorsement.
 
 ## Provisional status
 
-This is a systems-architecture working paper, not an evidence synthesis and not an efficacy study. Every architectural description is a design requirement, not a claim of deployment, validation, or regulatory acceptance, and every exposure-reduction statement is conditional on the mechanisms set out in Sections 4 and 8. Every exposure, causal, efficiency, adoption, and favorable-assurance statement in this paper is potential rather than demonstrated; no ecosystem-efficacy sentence qualifies as demonstrated. The paper will remain a working paper until an independently evaluated category pilot of the kind specified in Section 8 reports outcomes.
+This is a systems-architecture working paper, not an evidence synthesis and not an efficacy study; it is a canonical revised working paper whose sources were reviewed on September 13, 2026. Every architectural description is a design requirement, not a claim of deployment, validation, or regulatory acceptance, and every exposure-reduction statement is conditional on the mechanisms set out in Sections 4 and 8. Every exposure, causal, efficiency, adoption, and favorable-assurance statement in this paper is potential rather than demonstrated; no ecosystem-efficacy sentence qualifies as demonstrated. The paper will remain a working paper until an independently evaluated category pilot of the kind specified in Section 8 reports outcomes.
 
 ## Works cited
 
