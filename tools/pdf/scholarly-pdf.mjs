@@ -483,13 +483,30 @@ function buildModel(fm, body, cfg) {
         }
       : { mode: "none" }
 
-  // A minted page cites through its DOI resolver (the scholarly convention and
-  // what the other minted HMI pages use), not the raw article path. The resolver
-  // URL is a single unbreakable token: the hyphenation callback (fonts.mjs) keeps
-  // full "://" URLs whole, so in the narrow "Cite as" column it wraps to its own
-  // line as a unit rather than breaking with an inserted hyphen mid-URL.
+  // Cite as: APA 7. A minted page cites through its DOI resolver (the scholarly
+  // convention and what the other minted HMI pages use), not the raw article
+  // path. The resolver URL is a single unbreakable token: the hyphenation
+  // callback (fonts.mjs) keeps full "://" URLs whole, so in the narrow "Cite as"
+  // column it wraps to its own line as a unit rather than breaking with an
+  // inserted hyphen mid-URL. The title is sentence-cased (fm.cite_title) for the
+  // reference, and the licence is page chrome — never glued onto the cite line.
   const citeUrl = doi ? `https://doi.org/${doi}` : url
-  const citeAs = `Pendergrass K. "${title}". Heavy Metal Index${year ? ", " + year : ""}. ${citeUrl}. CC BY 4.0.`
+  const citeTitle = clean(fm.cite_title || fm.title || slug)
+  const citeAs = `Pendergrass, K. (${year || "n.d."}). ${citeTitle}. Heavy Metal Index. ${citeUrl}`
+  // Licence: read from frontmatter (HMI authored papers reserve all rights);
+  // default to CC BY for pages that do not declare one.
+  const licence = fm.license || "CC BY 4.0"
+  const allRights = /©|all rights reserved/i.test(licence)
+  const licenceStatement = allRights ? licence : `Released under ${licence}.`
+  const footerLicence = allRights ? "© All rights reserved" : licence
+  // A founder-authored working paper must not carry the generic "operated
+  // separately from any certification program" competing-interests boilerplate —
+  // that contradicts the disclosure in its own Declarations. Point the back
+  // matter at the real statement instead.
+  const competingInterests =
+    fm.article_type === "systems-architecture-working-paper"
+      ? "The author has founder and ownership/operator interests across HMI, TECRID, Verified Lot Exchange, and Heavy Metal Tested & Certified, and is a co-founder of the Paleo Foundation; the full statement is in the Declarations. Affiliation and ownership are not evidence of independent validation of the proposed architecture."
+      : "The Heavy Metal Index reports what the peer-reviewed and regulatory literature supports. It is operated separately from any certification program, does not evaluate or endorse brands, and does not use certification thresholds as evidence for the statements made here."
 
   return {
     // Article-type override: a systems-architecture working paper is not a
@@ -511,6 +528,9 @@ function buildModel(fm, body, cfg) {
     },
     gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (technical report)` : null,
     citeAs,
+    licenceStatement,
+    footerLicence,
+    competingInterests,
     keywords,
     firstPublished: established,
     revision: updated && updated !== established ? updated : null,
@@ -765,8 +785,8 @@ function FrontMatter(m) {
 function BackMatter(m) {
   const finding = m.pathSeg === "synthesis" ? "finding" : "reference"
   const blocks = [
-    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as an institutional technical report with its review state tracked on the article page. Released under CC BY 4.0.`],
-    ["Competing interests", "The Heavy Metal Index reports what the peer-reviewed and regulatory literature supports. It is operated separately from any certification program, does not evaluate or endorse brands, and does not use certification thresholds as evidence for the statements made here."],
+    ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as an institutional technical report with its review state tracked on the article page. ${m.licenceStatement}`],
+    ["Competing interests", m.competingInterests],
     ["Data availability", `Every source behind this ${finding} is listed with its own extraction record at ${m.url}#sources, each linking to the ingest receipt, the extracted values, and the file hash of the document it was built from.`],
     ["Publication history", `${m.firstPublished ? "First published " + m.firstPublished + ". " : ""}${m.revision ? "This revision " + m.revision + ". " : ""}The full dated record is maintained at ${m.url}.`],
   ]
@@ -891,7 +911,7 @@ function ScholarlyDocument(m) {
       // callback (the only way to print "page N / M") triggers a Yoga NaN crash
       // on the longer documents (cadmium, ~11 pages), so page numbers are
       // omitted in favour of a footer that never fails the build.
-      h(Text, { key: "footer", style: s.footer, fixed: true }, `Heavy Metal Index  ·  ${m.url}  ·  CC BY 4.0`),
+      h(Text, { key: "footer", style: s.footer, fixed: true }, `Heavy Metal Index  ·  ${m.url}  ·  ${m.footerLicence}`),
     ]),
   )
 }

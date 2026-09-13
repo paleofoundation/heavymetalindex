@@ -14,7 +14,8 @@ dek: "A proposed interoperable architecture connecting public evidence synthesis
 established: 2026-09-13
 date: 2026-09-13
 updated: 2026-09-13
-license: "CC BY 4.0"
+license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
+cite_title: "Proof before the floor: A proposed systems architecture for dietary heavy-metal exposure reduction through authenticated evidence, lot qualification, and method-bound certification"
 wiki_doi: "10.83376/hmi.proof-before-the-floor"
 ---
 
@@ -359,4 +360,4 @@ This is a systems-architecture working paper, not an evidence synthesis and not 
 
 ## How to cite
 
-Pendergrass, K. (2026). Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification (<https://doi.org/10.83376/hmi.proof-before-the-floor>). Heavy Metal Index. <https://doi.org/10.83376/hmi.proof-before-the-floor>
+Pendergrass, K. (2026). Proof before the floor: A proposed systems architecture for dietary heavy-metal exposure reduction through authenticated evidence, lot qualification, and method-bound certification. Heavy Metal Index. <https://doi.org/10.83376/hmi.proof-before-the-floor>

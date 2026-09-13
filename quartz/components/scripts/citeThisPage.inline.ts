@@ -80,7 +80,6 @@ function bind(root: HTMLElement) {
   const url = d.citeUrl ?? ""
   const year = d.citeYear ?? ""
   const doi = d.citeDoi ?? ""
-  const today = d.citeToday ?? ""
   const slug = d.citeSlug ?? "page"
   // Author model, set server-side by CiteThisPage.tsx: authored synthesis
   // reports are person-authored ("Pendergrass, Karen", published in Heavy Metal
@@ -122,7 +121,6 @@ function bind(root: HTMLElement) {
         `  year         = {${year}},`,
         ...(doi ? [`  doi          = {${doi}},`] : []),
         `  howpublished = {\\url{${url}}},`,
-        `  note         = {Retrieved ${today}. CC BY 4.0.},`,
         `  url          = {${url}}`,
         `}`,
       ]
@@ -144,8 +142,6 @@ function bind(root: HTMLElement) {
         `PY  - ${year}`,
         ...(doi ? [`DO  - ${doi}`] : []),
         `UR  - ${url}`,
-        `Y2  - ${today}`,
-        "N1  - CC BY 4.0",
         "ER  - ",
       ]
       download(`${key}.ris`, lines.join("\n") + "\n", "application/x-research-info-systems")
