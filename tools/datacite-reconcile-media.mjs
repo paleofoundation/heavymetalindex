@@ -36,10 +36,26 @@
 // is the standing post-deploy PDF-association step for any future mint batch.
 
 import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat, ensureContentUrl } from "./datacite-media.mjs"
+import { collectSurface, lintMarkdownFiles } from "./audit-mint-scaffolding.mjs"
 
 const PREFIX = "10.83376"
 const API = "https://api.datacite.org/dois"
 const apply = process.argv.includes("--apply")
+
+// Scaffolding guard (ORDER HMI-NO-TODO-MINT-1): associating a PDF deposits its full
+// text on the permanent record, so --apply refuses while any minted or mintable page
+// still carries TODO / draft scaffolding. A dry-run reports and continues.
+{
+  const hits = lintMarkdownFiles(collectSurface(process.cwd()))
+  if (hits.length) {
+    console.error(`datacite-reconcile-media: ${hits.length} scaffolding hit(s) on the mint surface:`)
+    for (const h of hits) console.error(`  ${h.file}:${h.line}  [${h.rule}]  ${h.excerpt}`)
+    if (apply) {
+      console.error(`  Aborting before any write. Remove the scaffolding (node tools/audit-mint-scaffolding.mjs) and re-run.`)
+      process.exit(1)
+    }
+  }
+}
 
 const USER = process.env.DATACITE_USER
 const PASSWORD = process.env.DATACITE_PASSWORD

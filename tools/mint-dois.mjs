@@ -40,6 +40,7 @@ import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
 import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat, ensureContentUrl } from "./datacite-media.mjs"
+import { lintMarkdownFiles } from "./audit-mint-scaffolding.mjs"
 
 const repoRoot = process.cwd()
 const today = new Date().toISOString().slice(0, 10)
@@ -222,7 +223,22 @@ candidates.sort((a, b) => a.priority - b.priority || a.filePath.localeCompare(b.
   }
 }
 
-const batch = candidates.slice(0, limit === Infinity ? candidates.length : limit)
+// Scaffolding guard (ORDER HMI-NO-TODO-MINT-1): a DataCite record is permanent, so a
+// page still carrying ALL-CAPS TODO / draft scaffolding ([EMPIRICAL INPUT NEEDED: …],
+// TBD, a claims-audit section) never mints and never gets a DOI written back. Checked
+// over the whole mintable set before any network call, same shape as the collision
+// guard: a dry-run reports, an execute run refuses. See tools/audit-mint-scaffolding.mjs.
+{
+  const hits = lintMarkdownFiles(candidates.map((c) => c.filePath), repoRoot)
+  if (hits.length) {
+    console.error(`mint-dois: ${hits.length} scaffolding hit(s) in mintable pages — no mint, no DOI write-back until removed:`)
+    for (const h of hits) console.error(`  ${h.file}:${h.line}  [${h.rule}]  ${h.excerpt}`)
+    if (!dryRun) process.exit(1)
+    console.error(`  (dry-run: continuing so the plan renders; an execute run would refuse.)`)
+  }
+}
+
+const batch =candidates.slice(0, limit === Infinity ? candidates.length : limit)
 
 console.log(`mint-dois: ${dryRun ? "DRY-RUN" : "EXECUTING"} (mode=${DATACITE_MODE})`)
 console.log(`  candidates total:  ${candidates.length}`)
