@@ -13,6 +13,14 @@
 // References heading id and its following sibling. The classed spans style
 // unconditionally either way, so if the sibling selector ever fails the entries
 // degrade to a plain list and NO content is lost — only the grid layout.
+//
+// GUARD: the grid assumes the generated card structure — exactly one direct-child
+// anchor (the title) plus a `.hmi-ref-meta` span. An AUTHORED `## References`
+// list (plain markdown citations, several inline links per item, no meta span)
+// does not fit that shape: every direct-child <a> would be forced into the single
+// "title" cell and collapse. So the grid is scoped with `:has(.hmi-ref-meta)` and
+// only styles genuinely-generated reference lists; an authored one falls back to
+// a normal numbered <ol>.
 
 $hmi-ref-num: #8b2a4a; // burgundy bracketed number
 $hmi-ref-link: #1c43ad; // the site's citation-link blue
@@ -20,7 +28,7 @@ $hmi-ref-meta: #736b6e; // muted meta line
 $hmi-ref-tag: #a9a1a2; // faint mono type tag
 $hmi-ref-rule: #f2ece7; // the dotted separator
 
-.wiki-content h2[id="references"] ~ ol {
+.wiki-content h2[id="references"] ~ ol:has(.hmi-ref-meta) {
   list-style: none;
   counter-reset: hmi-ref;
   margin: 0.4rem 0 0;
@@ -103,7 +111,7 @@ $hmi-ref-rule: #f2ece7; // the dotted separator
 
 // Narrow: the tag drops under the title rather than squeezing the meta line.
 @media (max-width: 720px) {
-  .wiki-content h2[id="references"] ~ ol > li {
+  .wiki-content h2[id="references"] ~ ol:has(.hmi-ref-meta) > li {
     grid-template-columns: 2.4rem minmax(0, 1fr);
     grid-template-areas:
       "num title"
