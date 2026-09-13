@@ -4,6 +4,7 @@ title: "Proof Before the Floor: A Proposed Systems Architecture for Dietary Heav
 slug: proof-before-the-floor
 article_type: systems-architecture-working-paper
 status: working-paper
+kind: "Working paper"
 author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 audience: [regulator, laboratory, manufacturer, retailer, attorney, educator]
@@ -305,68 +306,19 @@ The three figures below are conceptual schematics rendered from the manuscript's
 
 ### Figure 1. The proof problem versus content theater
 
-```mermaid
-flowchart TB
-  subgraph A["Panel A: Documentation accumulation"]
-    a1["Study library"] --> aP(("Purchase decision"))
-    a2["Forwarded COAs"] --> aP
-    a3["Repeated assays"] --> aP
-    aU["Unresolved labels: issuer? lot identity?<br/>sampling? applicable limit? correction status?"] -.-> aP
-  end
-  subgraph B["Panel B: Bounded decision record"]
-    b1["Authenticated laboratory statement"] --> bD{"Accept / Reject / Unresolved<br/>before commitment"}
-    b2["Sampling-to-lot relationship"] --> bD
-    b3["Frozen numerical profile"] --> bD
-    bD --> bF["Retained downstream:<br/>finished-product verification"]
-  end
-```
+![Figure 1. Two panels. Panel A: a study library, forwarded COAs, and repeated assays accumulate around a purchase decision, with unresolved labels for issuer, lot identity, sampling, applicable limit, and correction status. Panel B: an authenticated laboratory statement, a sampling-to-lot relationship, and a frozen numerical profile feed an accept, reject, or unresolved decision before commitment, with finished-product verification retained downstream.](/static/figures/proof-before-the-floor/fig1.svg)
 
 A two-panel diagram contrasts decision objects. Panel A shows a study library, forwarded COAs, and repeated assays accumulating around a purchase decision, with unresolved labels for issuer, lot identity, sampling, applicable limit, and correction status. Panel B shows a bounded decision record linking an authenticated laboratory statement, a sampling-to-lot relationship, and a frozen numerical profile to an accept, reject, or unresolved decision before commitment. A separate downstream box retains finished-product verification. Caption: More documentation is not equivalent to decision-grade proof; the proposed alternative specifies what each decision is entitled to conclude. The panels are conceptual, not comparative outcome data.
 
 ### Figure 2. HMI to TECRID to VLE to HMTc interfaces and trust boundaries
 
-```mermaid
-flowchart LR
-  HMI["HMI<br/>versioned occurrence &<br/>regulatory intelligence"]
-  LAB["Laboratories<br/>issued evidence"]
-  TECRID["TECRID<br/>authenticity & archive"]
-  PROFILE["VLE Compliance Profile"]
-  STD["HMTc standard"]
-  SAMP["Independent sampling<br/>& custody records"]
-  VLE["VLE<br/>lot qualification"]
-  MFG["Manufacturing"]
-  HMTC["HMTc<br/>finished-product certification"]
-
-  HMI --> PROFILE
-  HMI --> STD
-  LAB --> TECRID
-  TECRID --> VLE
-  TECRID --> HMTC
-  SAMP --> VLE
-  PROFILE --> VLE
-  VLE --> MFG
-  MFG --> HMTC
-  STD --> HMTC
-  HMTC -. governed feedback .-> HMI
-  VLE -. governed feedback .-> HMI
-```
+![Figure 2. Four labeled functional regions. HMI sends versioned occurrence and regulatory intelligence to the VLE Compliance Profile and the HMTc standard. Laboratories send issued evidence to TECRID, which sends evidence references and status to both VLE and HMTc. Independent sampling and custody records enter VLE through a separate boundary. VLE connects the qualified quantity to manufacturing; manufacturing and finished-product testing connect to HMTc. Dotted governed-feedback arrows return operational data from VLE and HMTc to HMI.](/static/figures/proof-before-the-floor/fig2.svg)
 
 Four labeled functional regions rather than a single safety pipeline. HMI sends versioned occurrence and regulatory intelligence to the VLE Compliance Profile and the HMTc standard. Laboratories send issued evidence to TECRID. TECRID sends evidence references and status to both VLE and HMTc. Independent sampling and custody records enter VLE through a separate boundary. VLE connects the qualified quantity and procurement record to manufacturing; manufacturing and finished-product testing connect to HMTc. A governed feedback arrow returns explicitly labeled operational data to HMI. Caption: Arrows represent proposed information contracts, not deployed integrations, compulsory commercial bundling, or automatic transfer of certification.
 
 ### Figure 3. Conditional exposure-reduction pathway and competing routes
 
-```mermaid
-flowchart TB
-  e["Authenticated, lot-linked evidence"] -->|hypothesized; requires measurement| p["Changed upstream purchasing"]
-  p -->|hypothesized; requires measurement| s["Substitution with lower-concentration inputs"]
-  s -->|hypothesized; requires measurement| f["Lower finished-food concentrations"]
-  f -->|hypothesized; requires measurement| c["Lower concentrations in consumed foods"]
-  c -->|hypothesized; requires measurement| i["Lower dietary intake"]
-  s -. offsetting branch .-> r["Rejected lots resold or diverted<br/>into other food markets"]
-  assume["Assumption boxes: representative sampling; correct criteria<br/>and speciation; buyer authority; supply alternatives;<br/>identity preservation; processing effects; consumption coverage"] -.-> f
-  i --> bound{"additional exposure-response<br/>evidence required"}
-  bound --> clin["Clinical outcomes"]
-```
+![Figure 3. A vertical causal chain: authenticated, lot-linked evidence to changed upstream purchasing, to substitution with lower-concentration inputs, to lower finished-food concentrations, to lower concentrations in consumed foods, to lower dietary intake. Every connector is labeled hypothesized; requires measurement. A dashed offsetting branch runs from substitution to rejected lots resold or diverted into other food markets. An assumptions box attaches to the finished-food step, and clinical outcomes sit beyond a dashed boundary labeled additional exposure-response evidence required.](/static/figures/proof-before-the-floor/fig3.svg)
 
 The main chain runs from authenticated, lot-linked evidence to changed upstream purchasing, to substitution with lower-concentration inputs, to lower finished-food concentrations, to lower concentrations in consumed foods, to lower dietary intake. Every arrow is hypothesized and requires measurement. Assumption boxes attach for representative sampling, correct criteria and speciation, buyer authority, supply alternatives, identity preservation, processing effects, and consumption coverage. An offsetting branch runs from rejection to resale or diversion into other food markets. Clinical outcomes sit beyond a separate boundary labeled additional exposure-response evidence required. Caption: Any exposure reduction is conditional on the full pathway and on the net consequences of displaced material.
 
