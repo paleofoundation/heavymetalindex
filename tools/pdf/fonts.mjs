@@ -73,6 +73,14 @@ export function registerFonts() {
   // genuinely over-wide machine tokens (page slugs, DOI URLs) are broken, where
   // an added hyphen is tolerable and a crash is not.
   Font.registerHyphenationCallback((word) => {
+    // A full URL ("://") up to a column-safe length is kept whole so it wraps to
+    // a new line as one unit and is NEVER hyphenated mid-URL (react-pdf prints a
+    // hyphen at every break point, including at zero-width-space and slash
+    // boundaries, so the only clean option is not to break it). At <= 62 chars it
+    // fits the front-matter "Cite as" column; longer URLs and bare slugs/DOIs
+    // (no "://") still fall through to the length break below so an over-wide
+    // token can never crash the layout engine.
+    if (word.includes("://") && word.length <= 62) return [word]
     if (word.length < 20) return [word]
     const parts = word.split(/(?<=[/_\-.,;:])/)
     const out = []
