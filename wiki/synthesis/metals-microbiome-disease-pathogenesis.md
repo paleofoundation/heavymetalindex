@@ -298,9 +298,9 @@ _This table specifies a proposed research framework, not validated diagnostic cr
 | Intervention and mediation | Does changing the proposed driver change the pathway? | Evidence of target engagement, change in the specified intermediate, and downstream benefit that is not explained by co-interventions alone. |
 | Clinical expression and feedback | For whom does the pathway matter, and when? | Clinically meaningful outcomes, identification of responsive subgroups, durability, preservation of essential nutrition, and analysis of reverse causation and feedback. |
 
-## Works cited
+## Cited literature
 
-This is the review’s own bibliography, reproduced as authored. Where a cited work also has a Heavy Metal Index source record, it is cross-linked under Anchor sources below.
+This is the review’s own bibliography, reproduced as authored. Where a cited work also has a Heavy Metal Index source record, it is cross-linked under the References cards below.
 
 1. Zackular JP, Moore JL, Jordan AT, et al. Dietary zinc alters the microbiota and decreases resistance to Clostridium difficile infection. Nature Medicine. 2016;22:1330–1334. [doi.org/10.1038/nm.4174](https://doi.org/10.1038/nm.4174)
 2. Jaeggi T, et al. Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants. Gut. 2015;64:731–742. [doi.org/10.1136/gutjnl-2014-307720](https://doi.org/10.1136/gutjnl-2014-307720)

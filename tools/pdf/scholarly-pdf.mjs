@@ -133,7 +133,7 @@ function inlineRuns(s, cite) {
       // leave it in place as literal text (do not advance `last`).
       if (!nums.length || !nums.every((n) => cite.numSet && cite.numSet.has(Number(n)))) continue
       if (m.index > last) segs.push({ raw: s.slice(last, m.index) })
-      segs.push({ cite: nums.map((n) => ({ num: n, href: `#wc-${n}` })) })
+      segs.push({ cite: nums.map((n) => ({ num: n, href: `#ref-${n}` })) })
       last = re.lastIndex
     }
     if (last < s.length) segs.push({ raw: s.slice(last) })
@@ -471,17 +471,25 @@ function buildModel(fm, body, cfg) {
     }))
     .filter((s) => s.blocks.length)
 
-  // Citation model. A page carries ONE style. A "## Works cited" section marks
-  // numbered mode (prose "[6]" markers into an authored bibliography); otherwise
-  // the generated "## References" list is the target for inline "[[sources/…]]"
-  // (wikilink mode). Both are excluded from bodySections by isApparatus above.
+  // Citation model. The canonical apparatus heading is always "References" (the
+  // house label; "Works cited" is accepted only as a deprecated alias so an older
+  // page still parses). A page carries ONE citation style, detected from the
+  // reference rows: rows that carry a source-record wikilink ("[[sources/…]]")
+  // are the corpus-generated list cited inline via "[[sources/…]]" (wikilink
+  // mode); an authored numbered bibliography (plain "N. Author…" rows) is cited
+  // in prose with bracket markers "[6]" / "[1, 2]" (numbered mode). The
+  // References section is excluded from bodySections by isApparatus above.
   // In-text superscripts are emitted only for synthesis pages; the metal
-  // reference pages render exactly as before (mode "none").
-  const worksCited = sections.find((s) => /^works cited$/i.test(s.heading))
-  const numbered = !!worksCited
-  const references = parseRefs(worksCited || sections.find((s) => /^references$/i.test(s.heading)))
-  const refsHeading = numbered ? "Works cited" : "References"
-  const refPrefix = numbered ? "wc" : "ref"
+  // reference pages render exactly as before (mode "none"). Anchors are ref-N in
+  // both modes.
+  const refsSection =
+    sections.find((s) => /^references$/i.test(s.heading)) ||
+    sections.find((s) => /^works cited$/i.test(s.heading))
+  const references = parseRefs(refsSection)
+  const refsAreWikilink = !!refsSection && refsSection.lines.some((l) => /\[\[sources\//.test(l))
+  const numbered = !!refsSection && !refsAreWikilink
+  const refsHeading = "References"
+  const refPrefix = "ref"
   const keyToNum = Object.create(null)
   if (!numbered) for (const r of references) if (r.key) keyToNum[r.key] = r.n
   const cite =
