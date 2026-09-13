@@ -99,8 +99,16 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
 
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
   const title = frontmatter?.title ? String(frontmatter.title) : (slug as string)
+  // Sentence-cased title for the APA reference (falls back to the display title).
+  const citeTitle = frontmatter?.cite_title ? String(frontmatter.cite_title) : title
   const wikiDoi = frontmatter ? frontmatterString(frontmatter.wiki_doi) : undefined
   const canonicalUrl = `https://${cfg.baseUrl ?? "heavymetalindex.com"}/${simplifySlug(slug!)}`
+  // A minted page cites through its DOI resolver, not the raw article path.
+  const citeUrl = wikiDoi ? `https://doi.org/${wikiDoi}` : canonicalUrl
+  // Licence: HMI authored papers may reserve all rights via frontmatter; the
+  // widget's licence note reflects that instead of the default CC BY prose.
+  const pageLicense = frontmatter ? frontmatterString(frontmatter.license) : undefined
+  const allRights = !!pageLicense && /©|all rights reserved/i.test(pageLicense)
   const packetUrl = `/api/evidence-packet?slug=${encodeURIComponent(slug as string)}&download=1`
   const today = todayIsoDate()
 
@@ -123,10 +131,12 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
   const authored = typeof slug === "string" && slug.startsWith("synthesis/")
   const citeAuthor = authored ? "Pendergrass, Karen" : "Heavy Metal Index"
   const citePublisher = authored ? "Heavy Metal Index" : "Institute of Contaminant Standards (ICS)"
-  const doiSuffix = wikiDoi ? ` (DOI: ${wikiDoi})` : ""
+  // APA 7 reference: Author. (Year). Sentence-case title. Publisher. URL.
+  // The URL is the DOI resolver when minted; no "Retrieved" date and no licence
+  // is glued onto the reference line.
   const citationLine = authored
-    ? `Pendergrass K. "${title}". Heavy Metal Index, ${year}. ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
-    : `Heavy Metal Index. "${title}". ${canonicalUrl}${doiSuffix}. Retrieved ${today}. CC BY 4.0.`
+    ? `Pendergrass, K. (${year}). ${citeTitle}. Heavy Metal Index. ${citeUrl}`
+    : `Institute of Contaminant Standards. (${year}). ${citeTitle}. Heavy Metal Index. ${citeUrl}`
 
   const share = getShareContent({ frontmatter, slug, description: fileData.description, canonicalUrl })
 
@@ -135,8 +145,8 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
       id="cite-this-page"
       class="hmi-cite-page"
       aria-label="Cite this page"
-      data-cite-title={title}
-      data-cite-url={canonicalUrl}
+      data-cite-title={citeTitle}
+      data-cite-url={citeUrl}
       data-cite-year={year}
       data-cite-doi={wikiDoi ?? ""}
       data-cite-today={today}
@@ -148,10 +158,14 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
       <div class="hmi-cite-summary">
         <div>
           <span class="hmi-cite-label">Cite this page.</span>{" "}
-          <span class="hmi-cite-meta">
-            Prose CC BY 4.0. Structured data EU database rights reserved (
-            <a href="/licensing">licensing</a>).
-          </span>
+          {allRights ? (
+            <span class="hmi-cite-meta">{pageLicense}</span>
+          ) : (
+            <span class="hmi-cite-meta">
+              Prose CC BY 4.0. Structured data EU database rights reserved (
+              <a href="/licensing">licensing</a>).
+            </span>
+          )}
         </div>
         <div class="hmi-cite-actions">
           <button type="button" data-hmi-cite-toggle aria-expanded="true">
