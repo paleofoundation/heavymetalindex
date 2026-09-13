@@ -324,7 +324,7 @@ The main chain runs from authenticated, lot-linked evidence to changed upstream 
 
 ## Declarations
 
-**Competing interests:** The author is affiliated with HMI, a component of the proposed ecosystem. The architecture also includes commercial transaction and certification functions, creating potential institutional and financial conflicts that require transparent governance. Affiliation and shared ownership are not evidence of independent validation. [AUTHOR DISCLOSURE REQUIRED: specific ownership interests, remuneration, relevant contracts, and external funding, if any.]
+**Competing interests:** The author is founder of Heavy Metal Index (HMI), TECRID, Verified Lot Exchange (VLE), and Heavy Metal Tested & Certified (HMTc), and co-founder of the Paleo Foundation. The Institute of Contaminant Standards (ICS) is a DBA of Paleo Certified, Inc., the commercial operator of related certification and standards activity. The author has ownership and operator interests in this ecosystem. Remuneration, if any, may arise from certification, licensing, or related commercial services. No external research grant funded this working paper. Affiliation and ownership are not evidence of independent validation of the proposed architecture.
 
 **Data availability:** No original empirical dataset or numerical exposure-effect estimate is reported. Public sources underlying the conceptual analysis are listed below. Proposed pilot data requirements are specified in Section 8.
 
@@ -359,4 +359,4 @@ This is a systems-architecture working paper, not an evidence synthesis and not 
 
 ## How to cite
 
-Pendergrass K. "Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification." Heavy Metal Index, 2026. https://heavymetalindex.com/synthesis/proof-before-the-floor. When the DOI is registered, cite the DOI (10.83376/hmi.proof-before-the-floor) and its resolver URL https://doi.org/10.83376/hmi.proof-before-the-floor. CC BY 4.0.
+Pendergrass, K. (2026). Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification (<https://doi.org/10.83376/hmi.proof-before-the-floor>). Heavy Metal Index. <https://doi.org/10.83376/hmi.proof-before-the-floor>

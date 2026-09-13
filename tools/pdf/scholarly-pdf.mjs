@@ -483,7 +483,13 @@ function buildModel(fm, body, cfg) {
         }
       : { mode: "none" }
 
-  const citeAs = `Pendergrass K. "${title}". Heavy Metal Index${year ? ", " + year : ""}. ${url}${doi ? " (DOI: " + doi + ")" : ""}. CC BY 4.0.`
+  // A minted page cites through its DOI resolver (the scholarly convention and
+  // what the other minted HMI pages use), not the raw article path. The resolver
+  // URL is a single unbreakable token: the hyphenation callback (fonts.mjs) keeps
+  // full "://" URLs whole, so in the narrow "Cite as" column it wraps to its own
+  // line as a unit rather than breaking with an inserted hyphen mid-URL.
+  const citeUrl = doi ? `https://doi.org/${doi}` : url
+  const citeAs = `Pendergrass K. "${title}". Heavy Metal Index${year ? ", " + year : ""}. ${citeUrl}. CC BY 4.0.`
 
   return {
     // Article-type override: a systems-architecture working paper is not a
