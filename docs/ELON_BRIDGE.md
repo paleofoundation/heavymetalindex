@@ -1130,3 +1130,75 @@ Edition bumped **3.0 → 4.0** (material: iAs 50→100 gov, tAs restored as a ro
 ### 2026-09-13T16:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-13T16:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-13T15:09Z heartbeat); standing by.
+
+## ELON→CLAUDE ORDER · HMI-NO-TODO-MINT-1 · 2026-09-13
+
+CEO lock (Karen): ANY ALL-CAPS TODO / draft scaffolding in a minted page or PDF is hard FAIL — no DataCite mint, no DOI write-back.
+
+Patterns that FAIL (non-exhaustive; match case-insensitive inside `[...]` or bare ALL-CAPS tokens):
+- EMPIRICAL INPUT NEEDED
+- AUTHOR DISCLOSURE REQUIRED
+- PLACEHOLDER / TBD / TODO / FIXME / XXX
+- registration pending (when wiki_doi or cert_doi is already set)
+- Claims audit / self-critique draft sections left in published working papers
+
+### A) Strip live paper (canary)
+File: `wiki/synthesis/proof-before-the-floor.md` (DOI already live: `10.83376/hmi.proof-before-the-floor`).
+Three live hits of `[EMPIRICAL INPUT NEEDED:…]` (§1.2 documentary failures; §5 priority-node volumes; §8 measurement inputs).
+Rewrite each to plain prose that states the quantity is not estimated here / remains an evaluation requirement. No brackets. No ALL-CAPS. Do not invent numbers.
+Also finish any remaining HMI-PAPER-CITE-1 / disclose / trim work if still open.
+Scoped PR → merge → `npm run publish:wiki` / Production → live-verify zero matches for `EMPIRICAL INPUT NEEDED` and zero ALL-CAPS TODO brackets on the page + PDF.
+
+### B) Permanent lint (network)
+Add a pre-mint / pre-publish lint (HMI wiki pages + scholarly PDFs; mirror on HMTc standards when touching mint tools) that exits non-zero on these patterns in body text destined for mint/publish.
+Wire it into mint and publish paths so a future DOI deposit cannot proceed with scaffolding present.
+Canary: proof-before-the-floor must pass after strip; a deliberate fixture with `[EMPIRICAL INPUT NEEDED: x]` must FAIL the lint.
+
+STATUS: PR#/SHA + live curl/fetch proof that the three brackets are gone + lint exit 0.
+KILL: inventing empirical numbers; leaving brackets; minting while scaffolding remains.
+
+### 2026-09-13T17:18Z · CLAUDE→ELON — STATUS: HMI-NO-TODO-MINT-1 (A already live upstream, proven · B lint built + verified, local branch, NOT pushed)
+
+**A) Strip live paper (canary): DONE before this run by a prior session; verified live, no edit needed from me.** The ordered path `wiki/synthesis/proof-before-the-floor.md` is not on local `main` (local `main` is 94 ahead / 35 behind `origin/main`, the known repo-sync drift); it is on `origin/main` `acdb723912` (Merge PR #146), where the strip landed as `8927da7c95` ("general VLE/TECRID scope, numbered cites, no scaffolding") plus `953af6566e` (chrome demote). No numbers were invented; I did not touch the paper.
+- Live page proof: `curl -L https://heavymetalindex.com/synthesis/proof-before-the-floor` → 200 (and `https://doi.org/10.83376/hmi.proof-before-the-floor` resolves to it). Visible text: 0 `EMPIRICAL INPUT NEEDED`, 0 `AUTHOR DISCLOSURE`, 0 PLACEHOLDER/TBD/TODO/FIXME/XXX, 0 `registration pending`, 0 claims-audit / self-critique, 0 ALL-CAPS directive brackets.
+- Live PDF proof: `/synthesis/proof-before-the-floor.pdf` → 200 application/pdf, 736,756 B; pdftotext grep 0 hits on every pattern; `node tools/audit-mint-scaffolding.mjs --pdf live.pdf` → exit 0.
+- Before/after: the pre-strip copy (`origin/hmi-mint-proof-before-the-floor:wiki/synthesis/proof-before-the-floor.md`) FAILS the new lint with 6 hits: the three `[EMPIRICAL INPUT NEEDED:…]` brackets (L76 §1.2, L159 §5, L259 §8), `AUTHOR DISCLOSURE REQUIRED` (L327), `## Claims audit` (L337), `## Self-critique…` (L366). The `origin/main` copy passes, exit 0. So the three brackets are gone and the disclose/trim residue is gone too.
+- HMI-PAPER-CITE-1: there is no separate order text in this repo. The APA-7 DOI citations (`bb3f71ab45`) and numbered citations (`8927da7c95`) are on `origin/main`, and the lint finds no leftover scaffolding. The only ALL-CAPS-bracket regex match on the page is markdown link text `[TECRID FAQ](https://tecrid.com/faq)` in reference 11, which is not scaffolding. The lint excludes link text.
+
+**B) Permanent lint: BUILT + VERIFIED, local commit `25bc289342` on `feat/hmi-no-todo-mint-1`, branched off `origin/main` `acdb723912`, NOT pushed.**
+- `tools/audit-mint-scaffolding.mjs` exits 1 on:
+  - `EMPIRICAL INPUT NEEDED` and `AUTHOR DISCLOSURE REQUIRED`
+  - bare ALL-CAPS PLACEHOLDER/TBD/TODO/FIXME/XXX
+  - keyworded `[...]` brackets, case-insensitive
+  - `registration pending` once `wiki_doi` or `cert_doi` is set
+  - Claims-audit / Self-critique draft sections
+
+  It ignores frontmatter, code, comments, link text and wikilinks. It was calibrated against the corpus first, and `[US-CA]`, `[GLOBAL]`, `[RETRACTED]`, `[CAS …]`, `[TL 4-5]` and `[WHO 1996]` do not trip it. It covers markdown (synthesis pages plus every minted-dir page carrying `wiki_doi`) and PDF text (pdftotext; skipped with a notice where pdftotext is absent, e.g. on Vercel).
+- Where it is wired in:
+  - `prebuild`
+  - `postbuild` (`--pdf-dir public`)
+  - `release:wiki`, and therefore `publish:wiki`
+  - `tools/mint-dois.mjs`: an execute run refuses before any network call or DOI write-back
+  - `tools/datacite-reconcile-media.mjs`: `--apply` refuses
+  - a new `lint:mint-scaffolding` script
+- Canary results:
+  - mint surface (788 pages): **exit 0**, 0 hits
+  - `proof-before-the-floor.md`: **exit 0**
+  - committed fixture `tools/fixtures/mint-scaffolding/empirical-input-needed.md` (`[EMPIRICAL INPUT NEEDED: x]`): **exit 1**
+  - `node --test tools/audit-mint-scaffolding.test.mjs`: 7/7 pass
+  - `mint-dois --dry-run` on 762 candidates with fetch stubbed: exit 0, 0 scaffolding hits
+  - `mint-dois` execute mode on a scaffolded `wiki_doi: null` page with fetch stubbed: **exit 1**, no fetch attempted, `wiki_doi` still null, no audit CSV written
+- Not done: the HMTc standards mint tools live in the cert repo, which this run did not touch. The mirror is ledgered as `OI-20260913-cert-mint-scaffolding-lint-mirror`.
+
+**Kill-gates held.** Nothing was pushed, merged or deployed, and no DOI was minted or written back. No secrets were committed. No empirical numbers were invented and no brackets remain on the canary. No limit, panel or blank-cell work was touched.
+
+### 2026-09-13T17:18Z · CLAUDE→ELON — BLOCKER: HMI-NO-TODO-MINT-1 B needs push → PR → merge → publish (runner cannot push/deploy)
+
+This unattended hourly runner is barred from pushing or deploying, so the lint is not on `origin/main` yet and the live mint/publish paths do not have the gate. An attended session (or Karen) can clear it in this order:
+1. `git push -u origin feat/hmi-no-todo-mint-1`
+2. `gh pr create --base main --head feat/hmi-no-todo-mint-1 --fill`
+3. Merge the PR.
+4. On merged main, check the gate: `node tools/audit-mint-scaffolding.mjs` should exit 0 and the fixture should exit 1.
+5. `npm run publish:wiki`. The lint now runs first inside `release:wiki`.
+
+Ledgered as `OI-20260913-promote-hmi-no-todo-mint-1-lint` (human-gated / promote). The branch rebases cleanly on `origin/main` as of `acdb723912`. Part A needs no deploy; it is already live.

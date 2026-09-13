@@ -513,78 +513,49 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-253 open item(s): 89 auto, 164 awaiting a decision.
+251 open item(s): 83 auto, 168 awaiting a decision.
 
-### OI-20260910-tds-extract-completeness — Reconcile the truncated FDA FY2018-2020 TDS extract against full primary coverage
+### OI-20260913-promote-hmi-no-todo-mint-1-lint — Promote feat/hmi-no-todo-mint-1 (scaffolding lint wired into mint + publish): push, PR, merge, publish:wiki
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`, `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`, `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`
-- repro: A1: only 90 of 307 primary food IDs are loaded; extract ends mid-panel at food183; 217 absent from this extraction, with partial alias recovery elsewhere. Recorded original CSV/key paths fail and supplement mean/SD fields are omitted.
-- done when: Full primary CSV preserved with verified identity and resolvable provenance; Every primary food/analyte/statistic has an evidence row or explicit audited disposition; Related source aliases reconciled, affected destinations regenerated, ingest checks pass
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- scope: **human-gated** · type: promote · status: open · repo: index
+- paths: `tools/audit-mint-scaffolding.mjs`, `tools/audit-mint-scaffolding.test.mjs`, `tools/fixtures/mint-scaffolding/empirical-input-needed.md`, `tools/mint-dois.mjs`, `tools/datacite-reconcile-media.mjs`, `package.json`
+- repro: ORDER HMI-NO-TODO-MINT-1 part B built and verified by the unattended hourly bridge runner at local commit 25bc289342 on branch feat/hmi-no-todo-mint-1 (off origin/main acdb723912). The runner kill-gate forbids push/deploy, so the branch is unpushed.
+- done when: branch pushed and PR merged to origin/main; node tools/audit-mint-scaffolding.mjs exits 0 on merged main; node --test tools/audit-mint-scaffolding.test.mjs passes 7/7; node tools/audit-mint-scaffolding.mjs --files tools/fixtures/mint-scaffolding/empirical-input-needed.md exits 1; npm run publish:wiki succeeds (lint runs first in release:wiki)
+- decision: _pending_ — enact: `git push -u origin feat/hmi-no-todo-mint-1 && gh pr create --base main --head feat/hmi-no-todo-mint-1 --fill`
 
-### OI-20260910-tds-censoring-profiles — Correct non-detect profiles and validate censoring regardless of confidence or study count
+### OI-20260913-cert-mint-scaffolding-lint-mirror — Mirror HMI-NO-TODO-MINT-1 scaffolding lint onto HMTc standards mint/DOI tools (cert repo)
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `tools/audit-contamination-profile-integrity.mjs`, `tools/populate_contamination_profiles.py`, `wiki/ingredients/whole-milk.md`
-- repro: A3:258 exact-zero profile pairs across78 pages overlap fully zero-coded FDA summaries; whole-milk tAs/U ND is primary-confirmed. Current integrity check returns zero failures.
-- done when: Raw zero codes preserved with explicit censoring/reporting limits; Existing affected profiles re-adjudicated against all contributors; Bare measured-zero profiles cannot pass solely because n_studies<3 or confidence is low
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified/tools/`, `heavymetalcertified/package.json`
+- repro: ORDER HMI-NO-TODO-MINT-1 part B asks the pre-mint scaffolding lint to be mirrored on HMTc standards mint tools. The index-side lint (tools/audit-mint-scaffolding.mjs on branch feat/hmi-no-todo-mint-1) is wired into index mint-dois/reconcile-media/prebuild/postbuild/release only; cert standard mint scripts (which already refuse on claim-surface-lint FAIL) have no scaffolding gate.
+- done when: cert mint/DOI deposit scripts exit non-zero when a standard page or its PDF contains [EMPIRICAL INPUT NEEDED: x], AUTHOR DISCLOSURE REQUIRED, bare TBD/TODO/FIXME/XXX/PLACEHOLDER, registration pending with cert_doi set, or a Claims audit / Self-critique section; a committed fixture with [EMPIRICAL INPUT NEEDED: x] fails the cert gate; current live cert standards pass (exit 0) or each hit is ledgered
 
-### OI-20260910-tds-alias-candidate-adjudication — Correct unpromoted FDA report alias candidates before any promotion
+### OI-20260911-standards-pdf-sample-source-reconciliation — Olive oil and fermented pet-protein PDF review exposes source, edition and variant join drift
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `data/evidence/category1_autonomy_extracted_summary.csv`
-- repro: Primary-audit follow-up:rows199-202 take next-highest figures as maxima and dataset-global N3276 as analyte-specific N;row203 puts canned-tuna mean230 into baby-food scope. Rows are explicitly Validate before promotion, not demonstrated public corruption.
-- done when: AI adjudication corrects statistic scope sample N and product fit from primary text; Canned-tuna statistic cannot route as baby-food occurrence; Candidate state retained until provenance and fit validated
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
-
-### OI-20260910-source-contract-policy-sync — Reconcile conflicting mandatory source templates and ingest/publication contracts
-
-- scope: **human-gated** · type: finding · status: staged · repo: index
-- paths: `AGENTS.md`, `CLAUDE.md`, `docs/page-templates.md`, `wiki/methodology/persistent-wiki-ingest-rule.md`, `docs/governance/hmtc-governing-principles.md`, `tools/evidence/build-routing-audit.mjs`, `quartz/plugins/filters/draft.ts`
-- repro: A7:source template omits required metadata and encourages public ingest notes; mandatory methodology carries retired percentile guidance; routing blocks only cite_key despite stronger documented contract. Pending-publication gap is latent, zero current pending sources.
-- done when: Policy owners approve coherent current wording without reviving retired limit arithmetic; Source contract distinguishes public science private ingest and evidence-fitness metadata; Validators enforce adopted contract and prevent pending evidence publication; Metadata candidate sets dispositioned without treating heading absence as evidence unfitness
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
+- scope: **human-gated** · type: audit · status: open · repo: cert
+- paths: `data/standards/cat30-compiled/olive-oil.json`, `data/standards/cat30-pages.json`, `data/standards/cat17-compiled/pet-food-fermentation-derived-protein.json`, `data/standards/cat17-pages.json`
+- repro: Saved 2026-09-11 review snapshot: olive page version1.0 differs from recordv1.1; pet manifest variantdefault differs from recordboth; exact GB2762-2025 Pb/Cr olive and tHg pet anchor IDs absent from concurrent HMI register snapshot. Attached pet is older7bbe79e PDF with stale iAs provenance. All are disclosed in HMI docs/reviews/2026-09-11-standard-pdf-review.md and saved proof inputs.
+- done when: Rebaseline the identified IDs against current register and primary texts, preserving existing numeric protections and method lock.; Page/record version and variant mappings agree without fallback selection.; Source-provenance corrections pass config/compiler/confidence and publication gates before replacing public PDFs.
 - decision: _pending_
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- notes: Findings are snapshot-specific and do not establish worldwide legal validity; no record values modified by this review.
 
-### OI-20260910-source-body-internal-notes — Keep internal ingest notes out of public scientific source prose and check entire bodies
+### OI-20260911-standards-pdf-release-parity — Standards PDF downloads need enforced freshness, semantic parity and rendered design acceptance
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `tools/audit-page-history-leaks.mjs`, `tools/strip-internal-manual-refs.mjs`, `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-- repro: A5:live TDS page publishes Kimi recovery paths and frontmatter-maintenance narrative;1538 local source bodies match internal-path patterns and452 match toolchain terms; candidates require semantic adjudication. Footer guard passes.
-- done when: Internal records retained outside public scientific prose; Whole-body checks catch confirmed internal operational narratives; Candidate sets reviewed without blanket deletion of valid scientific content
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/build-standard-pdf.mjs`, `tools/pdf/scholarly-pdf.mjs`, `tools/wire-standard-pdf-links.mjs`, `package.json`
+- repro: 2026-09-11 code audit: standard PDF builder absent from pre/postbuild; download wiring tests file existence only. Driver has generic jurisdiction references, first-variant derivation, hardcoded ppb and older species display. See HMI docs/reviews/2026-09-11-standard-pdf-review.md; review-only PDFs available under HMI output/pdf.
+- done when: Shared publication model preserves current nine main rows and both additional species across every variant without changing thresholds.; Release fails on absent or stale input-hashed PDFs and independently verifies cell/value/unit/basis/provenance metadata parity.; Named instrument references, correct standard identity and rendered pagination/typography pass representative PDF acceptance cases.
+- evidence: cert commit 94df28d · cert docs/standards-pdf-generator.md · cert output/pdf/standards-review/generator-review-qa.json · cert rollback commit 08fba1b
+- decision: **DECLINE: 2026-09-11 replacement design; restore the original pet-food PDF generator.**
+- notes: Karen rejected the replacement design: insufficient breathing room, unnecessary standards content, and unsuitable numeral typography. Immediately reverted all 13 files from94df28d in cert08fba1b, restoring the original builder/package scripts exactly. Shared scholarly renderer and published PDFs were never changed. Earlier verification results do not constitute aesthetic approval. Original supplied pet-food fermentation PDF remains the reference; audit gaps remain open without reinstating rejected implementation. No new design, DOI mint, push, or deployment performed.
 
-### OI-20260910-profile-provenance-basis — Bind ingredient values and citations to the same species-and-basis evidence rows
+### OI-20260910-species-numeric-corpus-recompile — Subsumed species publish numeric bound / own direct ML — recompile fans it across all standards
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `tools/populate_contamination_profiles.py`, `tools/build-ingredient-contamination-tables.mjs`, `wiki/ingredients/cucumber.md`, `wiki/ingredients/strawberries.md`
-- repro: A2:14 FDA iAs citations have no matching food/species evidence. Cucumber/strawberry values match GEMS; selector drops basis and renderer retains old FDA citations.
-- done when: No displayed value has an unsupported source-food-species attribution; Food/metal selections preserve basis geography time and source identity; Each flagged profile is source-adjudicated with conversion or exclusion logged
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
-
-### OI-20260910-live-evidence-pins — Restore verifiable commit pins and matching hash semantics in published evidence packets
-
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `tools/build-evidence-packet-index.mjs`, `api/evidence-packet.mjs`
-- repro: A4:all4077 live export records have null commit SHA/date but endpoint attests specific commit pinning; non-null verify branch hashes full Markdown while stored hash excludes frontmatter.
-- done when: Every complete published packet identifies the exact reproducible snapshot; Verification hashes exactly the same bytes as generation; Missing provenance is honestly represented and cannot receive complete-pinning attestation; Live deployment checks validate commit and body hash
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat1.mjs`, `data/workbench/standards/`
+- repro: reconcileSpecies: (1) a species with no direct ML publishes its numeric parent bound (was null); (2) S-DOI-TAS-1: a species WITH its own direct ML publishes it even if looser than the parent (rice iAs=FDA 100 alongside tAs 50). Only baby-cereals-dry-rice-based recompiled. Recompiling other slugs flips species cells. SEAFOOD CAUTION: verify direct MeHg ML + tHg total render the intended pair before recompiling seafood pages. Freeze renderer now = 8 totals + iAs = 9 rows; assertArsenicIntegrity throws if tAs missing.
+- done when: Every standard recompiled with numeric species cells; Seafood MeHg/tHg pair verified before its recompile; Each materially-changed page version-bumps with a change note; claim-surface-lint passes corpus-wide; No blank/monitored/subsumed panel cell remains
+- decision: _pending_ — enact: `node tools/standards/compile-cat1.mjs (+ per-category compilers), then version-bump sweep`
 
 ### OI-20260910-library-scoped-hook-index — Pre-commit hook stages undeclared routing outputs into scoped commits
 
@@ -633,15 +604,13 @@ Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 
 - decision: _pending_
 - notes: GATED by memory project_gems_food_data: the GEMS-food to wiki-slug crosswalk plus censoring/basis methodology sign-off is explicitly Do-NOT-auto-land, needs Karen plus methodology sign-off. GEMS is ~47% censored and reports lower bounds, so landing it without a substitution rule reproduces the censored-zero artifact that tools/audit-contamination-profile-integrity.mjs is build-blocking against.
 
-### OI-20260910-dataset-download-contract — Make dataset downloads reachable and label evidence manifests accurately
+### OI-20260910-cr-not-material-vs-gov-ml-corpus — Cr (and other) not-material cells may be looser than existing gov MLs — corpus-wide reconciliation
 
-- scope: **auto** · type: finding · status: staged · repo: index
-- paths: `quartz/components/Rail.tsx`, `api/evidence-packet.mjs`, `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-- repro: A6:PDF label points to JSON-only API, structured-data link gives corpus metadata manifest, and actual sample/summary paths are unlinked inline code.
-- done when: PDF and JSON labels match delivered response types; Dataset source pages link versioned samples summaries and routes; Download smoke tests validate content type and expected schema
-- evidence: docs/audits/2026-09-10-fda-tds-corpus-audit.md
-- notes: 
-Implemented in scoped commit 5552206e60. Local primary reconciliation, routing, 396 tests, typecheck and production build pass. Release validation in progress; see docs/audits/2026-09-10-fda-tds-repair.md. Policy reconciliation is authorized by Karen's request to fix the audit findings; karen_decision is preserved.
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/`
+- repro: S-DOI-GRAPH-1 canary refuted baby-cereals-dry-rice-based Cr not_material/null: HK Cap132V (Cereals 1mg/kg) + China GB2762-2022 (grains 1.0mg/kg) set total-Cr 1000 ug/kg as_sold; a null cell is looser than a verified floor (method-lock violation). Canary slug fixed (Cr→gov 1000). 11 OTHER cat1 subcategories still carry read_across.Cr.not_material (fruit-juice, root-vegetable-purees-single-ingredient, baby-cereals-dry-non-rice, non-root-vegetable-purees, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice, fruit-purees-general, single-ingredient-meats, fish-containing-baby-food) spanning DIFFERENT matrices — each needs its own matrix-appropriate gov-Cr lookup (cereal/grain→HK/CN 1000; vegetable→HK Vegetables 0.5mg/kg=500; fruit/meat/fish→own). Likely extends beyond cat1. Overturning a substantiated not-material determination touches the not-material integrity gate (governance).
+- done when: Per-matrix ruling: does a general-food-category gov total-Cr ML bind an infant subcategory of that matrix (cereal/veg/fruit/meat/fish)?; For each of the 11 cat1 cells, either retag to the matrix-appropriate gov ML (regulatory-alignment) or record a lock-compliant disposition with named jurisdictions_checked; Same sweep applied to non-cat1 not_material cells where a gov ML for the matrix exists; No blank/not-material cell remains where a finalized gov ML covers the matrix (method lock)
+- decision: _pending_ — enact: `node tools/standards/compile-cat1.mjs  (after per-matrix config retag)`
 
 ### OI-20260910-basis-cell-freetext-overflow — Basis cells on category6/7 derived product tables dump every free-text basis string, mixing as_sold and as_consumed in one cell
 
