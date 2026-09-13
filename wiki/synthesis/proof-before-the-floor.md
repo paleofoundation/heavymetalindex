@@ -15,7 +15,7 @@ established: 2026-09-13
 date: 2026-09-13
 updated: 2026-09-13
 license: "CC BY 4.0"
-wiki_doi: null
+wiki_doi: "10.83376/hmi.proof-before-the-floor"
 ---
 
 # Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification
