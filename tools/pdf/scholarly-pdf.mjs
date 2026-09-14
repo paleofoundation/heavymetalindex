@@ -486,8 +486,21 @@ function buildModel(fm, body, cfg) {
     sections.find((s) => /^references$/i.test(s.heading)) ||
     sections.find((s) => /^works cited$/i.test(s.heading))
   const references = parseRefs(refsSection)
+  // Mode is decided by how the PROSE cites, not by whether a reference row happens
+  // to link to a source record. An authored review can carry a house-card
+  // "## References" list where a few rows link to their HMI source record
+  // ([[sources/…|Title]]) while the prose still cites with bracket-number markers
+  // ("[6]" / "[1, 2]"). Keying off any [[sources/…]] row (the old heuristic) put
+  // such a page into wikilink mode, so its numbered markers never became
+  // superscripts. Mirror the web transformer (numberedCitations.ts): numbered
+  // mode iff the prose carries bracket-number markers; otherwise fall back to
+  // wikilink mode for the corpus-emergent pages that cite via [[sources/…]] inline.
+  const NUM_MARKER = /\[(\d+(?:\s*,\s*\d+)*)\](?!\()/
+  const proseHasNumberedMarkers = sections.some(
+    (sec) => sec !== refsSection && sec.lines.some((l) => NUM_MARKER.test(l)),
+  )
   const refsAreWikilink = !!refsSection && refsSection.lines.some((l) => /\[\[sources\//.test(l))
-  const numbered = !!refsSection && !refsAreWikilink
+  const numbered = !!refsSection && (proseHasNumberedMarkers || !refsAreWikilink)
   const refsHeading = "References"
   const refPrefix = "ref"
   const keyToNum = Object.create(null)
@@ -510,7 +523,12 @@ function buildModel(fm, body, cfg) {
   // reference, and the licence is page chrome — never glued onto the cite line.
   const citeUrl = doi ? `https://doi.org/${doi}` : url
   const citeTitle = clean(fm.cite_title || fm.title || slug)
-  const citeAs = `Pendergrass, K. (${year || "n.d."}). ${citeTitle}. Heavy Metal Index. ${citeUrl}`
+  // Split so the resolver URL renders as a real clickable Link, not dead text.
+  // (The trailing "." APA puts after the DOI is dropped: an appended period is
+  // not part of the identifier and, glued to the URL token, would ride into the
+  // href.)
+  const citeAsPrefix = `Pendergrass, K. (${year || "n.d."}). ${citeTitle}. Heavy Metal Index. `
+  const citeAs = `${citeAsPrefix}${citeUrl}`
   // Licence: read from frontmatter (HMI authored papers reserve all rights);
   // default to CC BY for pages that do not declare one.
   const licence = fm.license || "CC BY 4.0"
@@ -546,6 +564,8 @@ function buildModel(fm, body, cfg) {
     },
     gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (technical report)` : null,
     citeAs,
+    citeAsPrefix,
+    citeUrl,
     licenceStatement,
     footerLicence,
     competingInterests,
@@ -591,6 +611,9 @@ const s = StyleSheet.create({
   // journal-masthead convention. Burgundy signals it is the clickable citable
   // link; it resolves through doi.org.
   doiLine: { fontFamily: "IBMPlexMono", fontSize: 7.6, color: BURGUNDY, letterSpacing: 0.3, marginBottom: 4, textDecoration: "none" },
+  // The resolver URL inside the "Cite as" APA reference: burgundy signals it is
+  // the clickable citable link, matching the DOI byline.
+  citeUrlLink: { color: BURGUNDY, textDecoration: "none" },
 
   frontRow: { flexDirection: "row", gap: 30, marginBottom: 18 },
   frontLeft: { flexGrow: 1.45, flexBasis: 0 },
@@ -766,7 +789,10 @@ function FrontMatter(m) {
   const left = [
     h(View, { key: "cite", style: s.frontBlock }, [
       h(Text, { key: "l", style: s.label }, "Cite as"),
-      h(Text, { key: "t", style: s.frontText }, m.citeAs),
+      h(Text, { key: "t", style: s.frontText }, [
+        m.citeAsPrefix,
+        h(Link, { key: "u", src: m.citeUrl, style: s.citeUrlLink }, m.citeUrl),
+      ]),
     ]),
     h(View, { key: "corr", style: s.frontBlock }, [
       h(Text, { key: "l", style: s.label }, "Correspondence"),

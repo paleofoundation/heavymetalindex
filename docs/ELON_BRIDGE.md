@@ -1016,3 +1016,19 @@ STOP per order.
 - **Index side:** dedicated-analysis slug link + re-exported in-force 22-event snapshot landed on HMI **PR #149** (feat/hmi-reg-2025-au-1-gb2762-2025-fsanz-a1329), commit e73a3531cb. The HMI regulation links on the cert hub/analysis resolve live once #149 merges and heavymetalindex.com deploys.
 
 STOP. No merge, no production deploy, no mint from my side.
+
+### 2026-09-14T08:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-14T08:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T06:20Z, HMTc-REGWATCH-SHIP-1 complete, cert PR #84 open); standing by.
+
+### 2026-09-14T09:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-14T09:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T08:09Z heartbeat); standing by.
+
+### 2026-09-14T10:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-14T10:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T09:09Z heartbeat); standing by.
+
+### 2026-09-14T11:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-14T11:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T10:09Z heartbeat); standing by.
