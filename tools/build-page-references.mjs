@@ -207,10 +207,28 @@ function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
+// An authored review (e.g. wiki/synthesis/proof-before-the-floor.md and
+// metals-microbiome-disease-pathogenesis.md) reproduces its own numbered
+// bibliography as a hand-written `## References` house-card list, cited in prose
+// with bracket markers and superscripted server-side by
+// quartz/plugins/transformers/numberedCitations.ts. This generator must never
+// emit a *second* `## References` on such a page: a duplicate heading slugs to
+// `references-1`, breaks the card grid (CSS keys on `id="references"`), and
+// renumbers a subset of the works out of step with the prose. Detect an authored
+// heading by looking for `## References` outside this generator's own markers.
+function hasAuthoredReferences(raw) {
+  const stripped = raw.replace(
+    /<!-- BEGIN: hmi-page-references -->[\s\S]*?<!-- END: hmi-page-references -->/g,
+    "",
+  )
+  return /^##[ \t]+References[ \t]*$/m.test(stripped)
+}
+
 let updated = 0
 let unchanged = 0
 let noCitations = 0
 let totalRefs = 0
+let authored = 0
 
 for (const targetDir of TARGETS) {
   const absDir = path.join(repoRoot, targetDir)
@@ -221,6 +239,17 @@ for (const targetDir of TARGETS) {
     const absPath = path.join(absDir, file)
     const raw = fs.readFileSync(absPath, "utf8")
     if (!/^---\n/.test(raw)) continue
+
+    // Authored-review pages own their `## References` apparatus by hand; the
+    // generator must never add a colliding second `## References`. Leave the page
+    // exactly as authored (including any pre-existing generated block, which is
+    // then frozen rather than refreshed) and skip it.
+    if (hasAuthoredReferences(raw)) {
+      authored += 1
+      unchanged += 1
+      if (verbose) console.log(`  ${targetDir}/${file} → authored References (skipped)`)
+      continue
+    }
 
     const entries = citedKeysInOrder(raw)
     if (entries.length === 0) noCitations += 1
@@ -241,4 +270,5 @@ console.log(`build-page-references: ${dryRun ? "DRY-RUN" : "EXECUTED"}`)
 console.log(`  updated:              ${updated}`)
 console.log(`  unchanged:            ${unchanged}`)
 console.log(`  pages with no prose citations: ${noCitations}`)
+console.log(`  authored References (skipped): ${authored}`)
 console.log(`  references emitted:   ${totalRefs}`)
