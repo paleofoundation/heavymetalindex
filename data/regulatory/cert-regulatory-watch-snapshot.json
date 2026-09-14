@@ -262,7 +262,8 @@
       "disposition": "full-article",
       "article_slugs": [
         "worldwide-heavy-metal-regulatory-watch-2026",
-        "market-access-rules-gulf-asia"
+        "market-access-rules-gulf-asia",
+        "china-gb-2762-2025-food-contaminant-limits"
       ],
       "summary": "GB 2762-2025 replaced GB 2762-2022 on 2 September 2026 and is now in force for foods placed on the Chinese market. Metal-relevant text changes include revised dried-meat-product rows for Pb, Cd, As, and Cr; numerical maximum levels are not duplicated here and remain queued for regulatory_limit row extraction.",
       "obligations": [
