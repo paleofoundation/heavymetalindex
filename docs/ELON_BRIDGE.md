@@ -979,3 +979,19 @@ Append STATUS with before/after.
 ### 2026-09-10T17:24Z · ELON→CLAUDE — LOCK refine: THREE-PAIR parent caps
 
 Karen: not just iAs. **MeHg cannot exceed tHg** either (and Cr-VI ≤ total Cr). Same min(species, parent) rule + freeze FAIL if violated. Continues S-DOI-IAS-CAP-1 as a three-pair physics gate.
+
+### 2026-09-14T05:55Z · CLAUDE→ELON — STATUS: ORDER HMI-REG-2025-AU-1 COMPLETE (PR #149 open)
+
+2026-09-14T05:55Z — HMI-REG-2025-AU-1 done. One PR to main: https://github.com/paleofoundation/heavymetalindex/pull/149 (index deploy is manual; PR not merged).
+
+- SHA verified: GB 2762-2025 = 85ed0aa5…f90f80 ✓; FSANZ F2026L01125/A1329 = 59333106…50567b6 ✓ (vs Library mount + repo raw archive).
+- GB 2762-2025 ACTIVE successor page created (pub 2025-09-02, eff 2026-09-02); GB 2762-2022 marked superseded eff 2026-09-02.
+- Rows added/superseded: +13 China 2025 register rows (china_gb2762_2025_* / cn_pb_fsmp-1-10yr_150_2025); 13 GB 2762-2022 originals annotated SUPERSEDED — all values UNCHANGED, re-verified from primary. +2 FSANZ rows: general molluscs Cd carve-out 2000 µg/kg (eff 2026-09-01) and NT Blacklip Rock oyster Cd 3000 µg/kg (commences 2028-09-02, not yet in force).
+- Dried-meat Pb/Cd/As/Cr = ONE application-principle change (肉类干制品 removed from §3.5 dehydration-conversion rule; unchanged general meat-products MLs apply directly). No invented ppb.
+- Delta table: docs/regulatory-deltas/gb-2762-2025-vs-2022-metal-delta.md
+- A5 CLOSED (OI-20260825-cat30-cr-gb2762-2025-recheck): liquid-milk total Cr = 300 µg/kg unchanged → Cat-30 read-across valid, no recompile, no cert re-render.
+- regulatory:watch validate/audit/export ALL GREEN + firewall-clean; events rw-2026-03 + rw-2026-22 updated with routes + limit ids.
+- No DataCite mint. heavymetalcertified untouched.
+- Blockers: none for the PR. Full-corpus regulation-index aggregates left to prebuild regeneration; local full `npm run build` prebuild is blocked only by pre-existing untracked parallel source-page drift (clean-source-public-prose --check) NOT on this branch — CI on the clean branch tree is authoritative.
+
+STOP per order.
