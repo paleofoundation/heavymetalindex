@@ -21,6 +21,7 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 ## Australia/New Zealand Contaminants Maximum Levels
 
 - [[regulations/au-nz-food-standards-code-schedule-19-contaminants|Australia New Zealand Food Standards Code]] - Australia New Zealand Food Standards Code Schedule 19 maximum levels for contaminants and natural toxicants, including selected metal limits in food.
+- [[regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters|FSANZ Application A1329 (F2026L01125)]] - variation to Schedule 19 cadmium provisions for Northern Territory-farmed Blacklip Rock oysters.
 
 ## EU Contaminants Maximum Levels
 
@@ -60,28 +61,15 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
-| [79b06dd2c](https://github.com/paleofoundation/heavymetalindex/commit/79b06dd2c) | 2026-06-25 | minor | Narrative text revised |
-<!-- END: hmi-page-history -->
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Change | Description |
-| --- | --- | --- | --- |
-| [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
+| [095e4ff9be](https://github.com/paleofoundation/heavymetalindex/commit/095e4ff9be) | 2026-09-02 | minor | Narrative text revised |
+| [68af3fa515](https://github.com/paleofoundation/heavymetalindex/commit/68af3fa515) | 2026-08-18 | correction | 1 section added and 1 removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 section added |
+| [a773f76f77](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f77) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 <!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
@@ -117,7 +105,8 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/china-gb-21027-2020-student-articles-safety|China GB 21027-2020 - migratable metals in student articles]]
 - [[regulations/china-gb-2762-2012-contaminants-superseded|China GB 2762-2012 - Maximum levels of contaminants in food (superseded)]]
 - [[regulations/china-gb-2762-2017-contaminants-superseded|China GB 2762-2017 - Maximum levels of contaminants in food (superseded)]]
-- [[regulations/china-gb-2762-2022-contaminants|China GB 2762-2022 - Maximum levels of contaminants in food]]
+- [[regulations/china-gb-2762-2022-contaminants|China GB 2762-2022 - Maximum levels of contaminants in food (superseded)]]
+- [[regulations/china-gb-2762-2025-contaminants|China GB 2762-2025 - Maximum levels of contaminants in food]]
 - [[regulations/china-gb-28480-2012-adornment-harmful-elements|China GB 28480-2012 - harmful elements in adornments]]
 - [[regulations/china-gb-4806-9-2023-food-contact-metal|China GB 4806.9-2023 - food-contact metal materials specific migration limits]]
 - [[regulations/china-gb14930-1-detergent-arsenic-limits-2022|China GB 14930.1-2022 detergent arsenic limits]]

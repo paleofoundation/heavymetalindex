@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-251 open item(s): 83 auto, 168 awaiting a decision.
+250 open item(s): 82 auto, 168 awaiting a decision.
 
 ### OI-20260913-promote-hmi-no-todo-mint-1-lint — Promote feat/hmi-no-todo-mint-1 (scaffolding lint wired into mint + publish): push, PR, merge, publish:wiki
 
@@ -1509,13 +1509,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `heavymetalcertified: content/static/data/standards-finder-context.json (generator)`
 - repro: https://heavymetalcertified.com/static/data/standards-finder-context.json reports source_standard_version 2.2 (2026-06-09) even though per-product standard_version values are current (e.g. olive-oil 1.0 2026-08-14). The published export builder does not bump the top-level envelope version, so the export LOOKS stale even when product data is fresh. Bump the envelope version in the export generator whenever products change.
 - done when: published export source_standard_version reflects the latest standards build date
-
-### OI-20260825-cat30-cr-gb2762-2025-recheck — Re-verify Cat-30 total-Cr read-across (300 ppb) against GB 2762-2025 after it supersedes GB 2762-2022 on 2026-09-02
-
-- scope: **auto** · type: audit · status: open · repo: index
-- paths: `data/evidence/regulatory_limits.csv`, `tools/standards/cat30-config.json`
-- repro: Olive-oil + cooking-oils-other total-Cr reads across china_gb2762_cr_liquid_milk_300 (GB 2762-2022). GB 2762-2025 supersedes 2026-09-02; if the liquid-milk total-Cr value changes, update the register row + recompile Cat-30 and re-render cert.
-- done when: GB 2762-2025 liquid-milk total-Cr value confirmed vs 300 ppb; If changed: register updated, compile-cat30 rerun, cert re-rendered + pushed
 
 ### OI-20260825-bounded-species-display — Show bounded species as "<= total (bounded)" across the cert standard page + the readiness portal
 

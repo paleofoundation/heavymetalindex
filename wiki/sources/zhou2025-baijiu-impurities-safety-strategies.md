@@ -126,11 +126,11 @@ The funding source includes a research cooperation project with Wuliangye Indust
 - [[metals/aluminum]]
 - [[metals/chromium]]
 - [[metals/iron]]
-- [[regulations/china-gb-2762-2022-contaminants]]
+- [[regulations/china-gb-2762-2025-contaminants]]
 
 ## Verification notes
 
-No baijiu product slug currently exists in the wiki product taxonomy. The `products:` source metadata is left empty rather than routing the source to an inappropriate sibling (fermented-beverages-non-tea-based is the closest existing slug but is dominated by kombucha and other non-distilled fermented beverages, while baijiu is a distilled spirit produced via solid-state fermentation followed by distillation). Creating a baijiu product page requires Karen's Step 0 Lock and is not in this ingest's scope. The source still routes to multiple metals pages and to the China GB 2762-2022 contaminants regulation page via the `metals:` and `jurisdictions:` fields. A future Step 0 Lock for a baijiu product (or a broader "distilled spirits" product class) would benefit from also ingesting the underlying Newman et al. 2017 primary paper that supplies all the heavy-metal occurrence values reproduced here.
+No baijiu product slug currently exists in the wiki product taxonomy. The `products:` source metadata is left empty rather than routing the source to an inappropriate sibling (fermented-beverages-non-tea-based is the closest existing slug but is dominated by kombucha and other non-distilled fermented beverages, while baijiu is a distilled spirit produced via solid-state fermentation followed by distillation). Creating a baijiu product page requires Karen's Step 0 Lock and is not in this ingest's scope. The source still routes to multiple metals pages and to the current China GB 2762-2025 contaminants regulation page via the `metals:` and `jurisdictions:` fields (the review itself cites the then-current GB 2762-2022 Pb value of 0.5 mg/kg, which is retained as a historical comparator). A future Step 0 Lock for a baijiu product (or a broader "distilled spirits" product class) would benefit from also ingesting the underlying Newman et al. 2017 primary paper that supplies all the heavy-metal occurrence values reproduced here.
 
 The `metals:` source metadata lists Pb, Cd, As, Hg, Cu, Ni, Al, Cr, Fe. Pb and Cd appear with cited numerical concentration ranges in baijiu (Newman 2017). As, Hg, Cu are named in the review's heavy-metals-of-particular-concern list (section 2.2.1, p. 6) without numerical concentrations in baijiu but with dilution-water regulatory caps. Ni, Al, Cr, Fe are named as distillation-equipment and storage-vessel contamination sources (section 2.2.1, p. 6) without numerical concentrations in baijiu. Per speciation discipline, As is recorded without the iAs/tAs distinction because the review does not specify speciation (it uses "arsenic (As)" generically); Hg is recorded without the MeHg/tHg distinction for the same reason; Cr is recorded as elemental Cr without the Cr-VI specifier. The review's analyte naming is at the parent-element level throughout.
 
@@ -158,9 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5552206e60](https://github.com/paleofoundation/heavymetalindex/commit/5552206e60) | 2026-09-10 | minor | Narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
 | [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
