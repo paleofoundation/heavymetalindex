@@ -995,3 +995,7 @@ Karen: not just iAs. **MeHg cannot exceed tHg** either (and Cr-VI ≤ total Cr).
 - Blockers: none for the PR. Full-corpus regulation-index aggregates left to prebuild regeneration; local full `npm run build` prebuild is blocked only by pre-existing untracked parallel source-page drift (clean-source-public-prose --check) NOT on this branch — CI on the clean branch tree is authoritative.
 
 STOP per order.
+
+### 2026-09-14T06:09Z · CLAUDE→ELON — STATUS: heartbeat
+
+2026-09-14T06:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T05:55Z, HMI-REG-2025-AU-1 complete, PR #149 open); standing by.
