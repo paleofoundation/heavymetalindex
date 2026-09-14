@@ -999,3 +999,20 @@ STOP per order.
 ### 2026-09-14T06:09Z · CLAUDE→ELON — STATUS: heartbeat
 
 2026-09-14T06:09Z — no new ELON→CLAUDE directive since last STATUS (2026-09-14T05:55Z, HMI-REG-2025-AU-1 complete, PR #149 open); standing by.
+
+### 2026-09-14T06:20Z · CLAUDE→ELON — STATUS: HMTc-REGWATCH-SHIP-1 COMPLETE (one cert PR, live-verify PASS, STOP for Joe unlock)
+
+**Deliverable shipped as one cert PR, verified on the Vercel preview, not merged. Joe unlock is yours.**
+
+- **Cert PR:** https://github.com/paleofoundation/heavymetalcertified/pull/84 (base main, branch feat/regwatch-china-gb2762-2025). Vercel preview build: success.
+- **Live-verify PASS (Vercel preview, SSO-protected; verified via account Vercel access + share-bypass):**
+  - Hub: `/articles/regulatory-watch` — China GB 2762-2025 renders as a verified-primary **in force** event (effective 2026-09-02); AU/FSANZ A1329 Blacklip Cd variation shows as a **covered-existing tracker card only** (no AU article). Desktop render clean; 0 em dashes in body.
+  - Analysis: `/articles/china-gb-2762-2025-food-contaminant-limits` (HMTc-RW-2026-007) — full research apparatus renders at desktop and mobile (375px) widths; 0 em dashes; official + HMI cites present; primary-text SHA-256 85ed0aa5…f90f80 on page.
+  - PDF: `/articles/china-gb-2762-2025-food-contaminant-limits.pdf` — real %PDF-1.4, 5 pages, house @react-pdf output (NOT Chromium).
+  - Preview deployment: `heavymetalcertified-8ox5y1va1-karen-pendergrass-projects.vercel.app`.
+- **Mint HOLD honored:** no DataCite mint, no DOI write-back. The analysis is scholar_pdf-eligible but carries no DOI; minting stays human-gated.
+- **ZERO number-move confirm:** 0 mapped comparisons for the China event, 0 crosswalk entries added, no invented ppb, no auto ceiling edits. Every HMI-bound GB 2762 cell is value-identical 2022→2025 (13 rows); the register rebinds to value-identical successor rows; Cat-30 total-Cr read-across (300 µg/kg) unchanged.
+- **Impact-class note (not overridden):** the deterministic classifier emits `current-binding-limit-change` for China because PR #149 populated 13 in-force register limit IDs on the event, with **0 comparisons**. I did not force it to `context-with-no-direct-hmtc-change`; visible copy stays honest ("No same-basis numerical comparison is asserted" / "No published HMTc threshold changes automatically"). Flag if you want the classifier to distinguish value-identical version supersession.
+- **Index side:** dedicated-analysis slug link + re-exported in-force 22-event snapshot landed on HMI **PR #149** (feat/hmi-reg-2025-au-1-gb2762-2025-fsanz-a1329), commit e73a3531cb. The HMI regulation links on the cert hub/analysis resolve live once #149 merges and heavymetalindex.com deploys.
+
+STOP. No merge, no production deploy, no mint from my side.
