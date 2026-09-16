@@ -6,23 +6,13 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
+import identity from "../../data/researcher-identity.json"
+import { publicationAuthors, citationDate } from "../../tools/lib/publication-metadata.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
   const normalized = String(value).trim()
   return normalized.length > 0 ? normalized : undefined
-}
-
-function frontmatterStringArray(value: unknown): string[] {
-  if (Array.isArray(value)) {
-    return value.flatMap((item) => {
-      const normalized = frontmatterString(item)
-      return normalized ? [normalized] : []
-    })
-  }
-
-  const normalized = frontmatterString(value)
-  return normalized ? [normalized] : []
 }
 
 function frontmatterBoolean(value: unknown): boolean {
@@ -73,7 +63,7 @@ function isArticlePage(frontmatter: Record<string, unknown> | undefined, slug: s
   return OG_ARTICLE_PREFIXES.some((p) => slug.startsWith(p))
 }
 
-function CitationMetadata({
+export function CitationMetadata({
   frontmatter,
   slug,
   title,
@@ -105,11 +95,8 @@ function CitationMetadata({
   const isSourcePage = frontmatter.type === "source" || slugStr.startsWith("sources/")
   if (isSourcePage) {
     const citationTitle = frontmatterString(frontmatter.title) ?? title
-    const authors = frontmatterStringArray(frontmatter.authors)
-    const publicationDate =
-      frontmatterString(frontmatter.year) ??
-      frontmatterString(frontmatter.published) ??
-      frontmatterString(frontmatter.created)
+    const authors = publicationAuthors(frontmatter, { enrichResearcher: false })
+    const publicationDate = citationDate(frontmatter.published ?? frontmatter.year)
     const publication = frontmatterString(frontmatter.publication)
     const doi = frontmatterString(frontmatter.doi)
     const canonicalSourceUrl = frontmatterString(frontmatter.access_url)
@@ -117,7 +104,7 @@ function CitationMetadata({
       <>
         <meta name="citation_title" content={citationTitle} />
         {authors.map((author, index) => (
-          <meta key={`citation-author-${index}`} name="citation_author" content={author} />
+          <meta key={`citation-author-${index}`} name="citation_author" content={author.name} />
         ))}
         {publicationDate && <meta name="citation_publication_date" content={publicationDate} />}
         {publication && <meta name="citation_journal_title" content={publication} />}
@@ -140,11 +127,13 @@ function CitationMetadata({
     slugStr.startsWith("synthesis/") ||
     slugStr.startsWith("metals/")
   if (isWikiScholarly) {
+    // A thin metal stub is not an authored report. Use the same eligibility
+    // decision as the actual PDF rather than advertising a nonexistent work.
+    const isMetalPage = frontmatter.type === "metal" || slugStr.startsWith("metals/")
+    if (isMetalPage && !hasPdf) return null
+    const authors = publicationAuthors(frontmatter, { defaultToKaren: true })
     const citationTitle = frontmatterString(frontmatter.title) ?? title
-    const pubDate =
-      frontmatterString(frontmatter.established) ??
-      frontmatterString(frontmatter.updated) ??
-      frontmatterString(frontmatter.created)
+    const pubDate = citationDate(frontmatter.established ?? frontmatter.published)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
     // hasPdf is computed by the caller via hasScholarlyPdf(fileData) — the same
     // rule the generator applies — so citation_pdf_url, the Download PDF button
@@ -152,11 +141,15 @@ function CitationMetadata({
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
-        <meta name="citation_author" content="Pendergrass, Karen" />
-        <meta
-          name="citation_author_institution"
-          content="Heavy Metal Index, Institute of Contaminant Standards"
-        />
+        {authors.map((author, index) => (
+          <>
+            <meta key={`citation-author-${index}`} name="citation_author" content={author.isKaren ? identity.citationName : author.name} />
+            {author.isKaren && <meta name="citation_author_orcid" content={identity.profiles.orcid} />}
+            {author.isKaren && identity.affiliations.map((affiliation) => (
+              <meta key={affiliation.id} name="citation_author_institution" content={affiliation.name} />
+            ))}
+          </>
+        ))}
         <meta name="citation_publisher" content="Institute of Contaminant Standards" />
         <meta
           name="citation_technical_report_institution"

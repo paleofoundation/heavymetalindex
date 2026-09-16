@@ -1,0 +1,188 @@
+{
+  "count": 26,
+  "largestBytes": 736397,
+  "pages": [
+    {
+      "doi": "10.83376/hmi.aquaculture-vs-wild-contamination-differential",
+      "pdf": "/synthesis/aquaculture-vs-wild-contamination-differential.pdf",
+      "bytes": 67808,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.bivalve-cadmium-amplification",
+      "pdf": "/synthesis/bivalve-cadmium-amplification.pdf",
+      "bytes": 67586,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.breastmilk-heavy-metal-exposure-pathway",
+      "pdf": "/synthesis/breastmilk-heavy-metal-exposure-pathway.pdf",
+      "bytes": 75061,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.climate-fish-mehg-projections",
+      "pdf": "/synthesis/climate-fish-mehg-projections.pdf",
+      "bytes": 60492,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.climate-metals-tradeoffs",
+      "pdf": "/synthesis/climate-metals-tradeoffs.pdf",
+      "bytes": 65035,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.combined-exposure-underprotection",
+      "pdf": "/synthesis/combined-exposure-underprotection.pdf",
+      "bytes": 66182,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.cooking-does-not-reduce-mehg",
+      "pdf": "/synthesis/cooking-does-not-reduce-mehg.pdf",
+      "bytes": 63409,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.cookware-utensil-metal-leaching-pathway",
+      "pdf": "/synthesis/cookware-utensil-metal-leaching-pathway.pdf",
+      "bytes": 68581,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.dietary-nickel-plant-staple-accumulation",
+      "pdf": "/synthesis/dietary-nickel-plant-staple-accumulation.pdf",
+      "bytes": 88137,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.eu-regulatory-framework-timeline",
+      "pdf": "/synthesis/eu-regulatory-framework-timeline.pdf",
+      "bytes": 59927,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.infant-formula-metal-amplification",
+      "pdf": "/synthesis/infant-formula-metal-amplification.pdf",
+      "bytes": 69154,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.metals-microbiome-disease-pathogenesis",
+      "pdf": "/synthesis/metals-microbiome-disease-pathogenesis.pdf",
+      "bytes": 168851,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.mining-impacted-freshwater-fish",
+      "pdf": "/synthesis/mining-impacted-freshwater-fish.pdf",
+      "bytes": 69633,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.organ-meat-cadmium-lead-accumulation",
+      "pdf": "/synthesis/organ-meat-cadmium-lead-accumulation.pdf",
+      "bytes": 69977,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.organic-certification-not-protective",
+      "pdf": "/synthesis/organic-certification-not-protective.pdf",
+      "bytes": 71404,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.organoarsenical-inertness-assumption",
+      "pdf": "/synthesis/organoarsenical-inertness-assumption.pdf",
+      "bytes": 69633,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.proof-before-the-floor",
+      "pdf": "/synthesis/proof-before-the-floor.pdf",
+      "bytes": 736397,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.se-hg-molar-ratio-certification-debate",
+      "pdf": "/synthesis/se-hg-molar-ratio-certification-debate.pdf",
+      "bytes": 68037,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.seaweed-cd-as-contamination",
+      "pdf": "/synthesis/seaweed-cd-as-contamination.pdf",
+      "bytes": 58305,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.spice-adulteration-lead-infants",
+      "pdf": "/synthesis/spice-adulteration-lead-infants.pdf",
+      "bytes": 58865,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.subsistence-fishing-mehg-disparity",
+      "pdf": "/synthesis/subsistence-fishing-mehg-disparity.pdf",
+      "bytes": 69820,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.supplement-botanical-lead-pathway",
+      "pdf": "/synthesis/supplement-botanical-lead-pathway.pdf",
+      "bytes": 62148,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.tea-multi-metal-bioaccumulation",
+      "pdf": "/synthesis/tea-multi-metal-bioaccumulation.pdf",
+      "bytes": 65067,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.tin-canned-food-acidic-matrix-migration",
+      "pdf": "/synthesis/tin-canned-food-acidic-matrix-migration.pdf",
+      "bytes": 68197,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.us-chocolate-lead-temporal-decline",
+      "pdf": "/synthesis/us-chocolate-lead-temporal-decline.pdf",
+      "bytes": 64044,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    },
+    {
+      "doi": "10.83376/hmi.wastewater-irrigation-multimetal-crop-pathway",
+      "pdf": "/synthesis/wastewater-irrigation-multimetal-crop-pathway.pdf",
+      "bytes": 69316,
+      "matchesDataCiteTitle": true,
+      "searchableTitleAndAuthor": true
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "reviewed": "2026-09-16",
+  "status": "pass",
+  "counts": {
+    "doiReports": 26,
+    "externalSourcePages": 3088,
+    "sourcePagesSkippedNoHtml": 0,
+    "homeGraph": 7,
+    "profileGraph": 4
+  },
+  "failures": [],
+  "reports": [
+    {
+      "slug": "synthesis/aquaculture-vs-wild-contamination-differential",
+      "doi": "10.83376/hmi.aquaculture-vs-wild-contamination-differential",
+      "publicationDate": "2026/05/18",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/bivalve-cadmium-amplification",
+      "doi": "10.83376/hmi.bivalve-cadmium-amplification",
+      "publicationDate": "2026/05/18",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/breastmilk-heavy-metal-exposure-pathway",
+      "doi": "10.83376/hmi.breastmilk-heavy-metal-exposure-pathway",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/climate-fish-mehg-projections",
+      "doi": "10.83376/hmi.climate-fish-mehg-projections",
+      "publicationDate": "2026/05/16",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/climate-metals-tradeoffs",
+      "doi": "10.83376/hmi.climate-metals-tradeoffs",
+      "publicationDate": "2026/05/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/combined-exposure-underprotection",
+      "doi": "10.83376/hmi.combined-exposure-underprotection",
+      "publicationDate": "2026/05/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/cooking-does-not-reduce-mehg",
+      "doi": "10.83376/hmi.cooking-does-not-reduce-mehg",
+      "publicationDate": "2026/05/18",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/cookware-utensil-metal-leaching-pathway",
+      "doi": "10.83376/hmi.cookware-utensil-metal-leaching-pathway",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/dietary-nickel-plant-staple-accumulation",
+      "doi": "10.83376/hmi.dietary-nickel-plant-staple-accumulation",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/eu-regulatory-framework-timeline",
+      "doi": "10.83376/hmi.eu-regulatory-framework-timeline",
+      "publicationDate": "2026/05/18",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/infant-formula-metal-amplification",
+      "doi": "10.83376/hmi.infant-formula-metal-amplification",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/metals-microbiome-disease-pathogenesis",
+      "doi": "10.83376/hmi.metals-microbiome-disease-pathogenesis",
+      "publicationDate": "2026/09/08",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/mining-impacted-freshwater-fish",
+      "doi": "10.83376/hmi.mining-impacted-freshwater-fish",
+      "publicationDate": "2026/05/16",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/organ-meat-cadmium-lead-accumulation",
+      "doi": "10.83376/hmi.organ-meat-cadmium-lead-accumulation",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/organic-certification-not-protective",
+      "doi": "10.83376/hmi.organic-certification-not-protective",
+      "publicationDate": "2026/05/16",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/organoarsenical-inertness-assumption",
+      "doi": "10.83376/hmi.organoarsenical-inertness-assumption",
+      "publicationDate": "2026/05/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/proof-before-the-floor",
+      "doi": "10.83376/hmi.proof-before-the-floor",
+      "publicationDate": "2026/09/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/se-hg-molar-ratio-certification-debate",
+      "doi": "10.83376/hmi.se-hg-molar-ratio-certification-debate",
+      "publicationDate": "2026/05/18",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/seaweed-cd-as-contamination",
+      "doi": "10.83376/hmi.seaweed-cd-as-contamination",
+      "publicationDate": "2026/05/16",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/spice-adulteration-lead-infants",
+      "doi": "10.83376/hmi.spice-adulteration-lead-infants",
+      "publicationDate": "2026",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/subsistence-fishing-mehg-disparity",
+      "doi": "10.83376/hmi.subsistence-fishing-mehg-disparity",
+      "publicationDate": "2026/05/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/supplement-botanical-lead-pathway",
+      "doi": "10.83376/hmi.supplement-botanical-lead-pathway",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/tea-multi-metal-bioaccumulation",
+      "doi": "10.83376/hmi.tea-multi-metal-bioaccumulation",
+      "publicationDate": "2026/06/04",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/tin-canned-food-acidic-matrix-migration",
+      "doi": "10.83376/hmi.tin-canned-food-acidic-matrix-migration",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/us-chocolate-lead-temporal-decline",
+      "doi": "10.83376/hmi.us-chocolate-lead-temporal-decline",
+      "publicationDate": "2026/05/13",
+      "pdfVerified": true
+    },
+    {
+      "slug": "synthesis/wastewater-irrigation-multimetal-crop-pathway",
+      "doi": "10.83376/hmi.wastewater-irrigation-multimetal-crop-pathway",
+      "publicationDate": "2026/07/27",
+      "pdfVerified": true
+    }
+  ]
+}

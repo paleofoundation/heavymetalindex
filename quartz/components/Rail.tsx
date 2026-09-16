@@ -104,6 +104,8 @@ export default (() => {
       return <nav class="author-profile-links" aria-label="Research profiles">
         <h2>Research profiles</h2>
         <a href={`https://orcid.org/${KAREN.orcid}`}><OrcidIdIcon /> ORCID record ↗</a>
+        <a href={KAREN.profiles.scholar}>Google Scholar ↗</a>
+        <a href={KAREN.profiles.linkedin}>LinkedIn ↗</a>
         <a href={`https://www.wikibiome.com/researchers/${KAREN.orcid}`}>WikiBiome researcher profile ↗</a>
         <a href="#public-works">Selected public works</a>
         <a href="#heavy-metal-index-syntheses">Heavy Metal Index syntheses</a>

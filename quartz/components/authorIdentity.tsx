@@ -1,22 +1,38 @@
+import identity from "../../data/researcher-identity.json";
+import { karenEntity, organizationEntity, paleoFoundationEntity } from "../../tools/lib/entity-graph.mjs";
 import { FullSlug, SimpleSlug, resolveRelative } from "../util/path";
 
 export const KAREN = {
-  name: "Karen Pendergrass",
+  ...identity,
   slug: "authors/karen-pendergrass" as SimpleSlug,
-  orcid: "0000-0002-2348-7259",
   portrait: "/static/authors/karen-pendergrass-hmi-pink.webp",
-  summary:
-    "Standards architect and microbiome researcher connecting contaminant evidence, food exposure, and microbial metallomics.",
+  summary: identity.description,
   affiliations: [
-    {
-      name: "Institute of Contaminant Standards",
-      url: "https://contaminantstandards.com/",
-    },
-    { name: "Paleo Foundation", url: "https://paleofoundation.com/" },
+    ...identity.affiliations,
     { name: "Microbiome Medicine", url: "https://microbiomemedicine.com/" },
     { name: "WikiBiome", url: "https://www.wikibiome.com/" },
   ],
 };
+
+export function authorProfileGraph(baseUrl: string) {
+  const canonical = `https://${baseUrl}/${KAREN.slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "ProfilePage", "@id": `${canonical}#profile`, url: canonical, mainEntity: { "@id": KAREN.personId } },
+      {
+        ...karenEntity(),
+        image: `https://${baseUrl}${KAREN.portrait}`,
+        // Additional public affiliations are documented in the biography.
+        affiliation: KAREN.affiliations.map((a) => ({
+          "@type": "Organization", ...("id" in a ? { "@id": a.id } : {}), name: a.name, url: a.url,
+        })),
+      },
+      organizationEntity(),
+      paleoFoundationEntity(),
+    ],
+  };
+}
 
 export const OrcidIdIcon = () => (
   <svg
@@ -89,7 +105,7 @@ export function AuthorProfileHero({ slug }: { slug: FullSlug }) {
         <div class="hero-subject author-profile-portrait">
           <img src={KAREN.portrait} alt={KAREN.name} width="236" height="236" />
           <span class="author-profile-caption">
-            Researcher &amp; standards architect
+            {KAREN.jobTitle}
           </span>
         </div>
         <div class="hero-main">
@@ -120,11 +136,11 @@ export function AuthorProfileHero({ slug }: { slug: FullSlug }) {
               <a class="hero-act" href="#work-history">
                 Work history
               </a>
-              <a
-                class="hero-act"
-                href={`https://www.wikibiome.com/researchers/${KAREN.orcid}`}
-              >
-                WikiBiome profile ↗
+              <a class="hero-act" href={KAREN.profiles.scholar}>
+                Google Scholar ↗
+              </a>
+              <a class="hero-act" href={KAREN.profiles.linkedin}>
+                LinkedIn ↗
               </a>
             </div>
           </div>

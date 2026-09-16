@@ -1,0 +1,141 @@
+{
+  "data": {
+    "id": "10.83376/hmi.cooking-does-not-reduce-mehg",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.83376/hmi.cooking-does-not-reduce-mehg",
+      "prefix": "10.83376",
+      "suffix": "hmi.cooking-does-not-reduce-mehg",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Pendergrass, Karen",
+          "nameType": "Personal",
+          "affiliation": [
+            "Institute of Contaminant Standards"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-2348-7259",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Cooking does not reduce methylmercury — and why this matters for consumer messaging"
+        }
+      ],
+      "publisher": "Institute of Contaminant Standards",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-05-18",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2026-05-18",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "RRPT",
+        "bibtex": "misc",
+        "citeproc": "report",
+        "schemaOrg": "Report",
+        "resourceType": "Technical Report",
+        "resourceTypeGeneral": "Report"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "application/pdf"
+      ],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODMzNzYvSE1JLkNPT0tJTkctRE9FUy1OT1QtUkVEVUNFLU1FSEc8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlBlbmRlcmdyYXNzLCBLYXJlbjwvY3JlYXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi0yMzQ4LTcyNTk8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+SW5zdGl0dXRlIG9mIENvbnRhbWluYW50IFN0YW5kYXJkczwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkNvb2tpbmcgZG9lcyBub3QgcmVkdWNlIG1ldGh5bG1lcmN1cnkg4oCUIGFuZCB3aHkgdGhpcyBtYXR0ZXJzIGZvciBjb25zdW1lciBtZXNzYWdpbmc8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+SW5zdGl0dXRlIG9mIENvbnRhbWluYW50IFN0YW5kYXJkczwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyNjwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iUmVwb3J0Ij5UZWNobmljYWwgUmVwb3J0PC9yZXNvdXJjZVR5cGU+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IlVwZGF0ZWQiPjIwMjYtMDUtMTg8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDI2LTA1LTE4PC9kYXRlPgogIDwvZGF0ZXM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+YXBwbGljYXRpb24vcGRmPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0Pgo8L3Jlc291cmNlPgo=",
+      "url": "https://heavymetalindex.com/synthesis/cooking-does-not-reduce-mehg",
+      "contentUrl": [
+        "https://heavymetalindex.com/synthesis/cooking-does-not-reduce-mehg.pdf"
+      ],
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-08-29T13:29:14.000Z",
+      "registered": "2026-08-29T13:29:14.000Z",
+      "published": "2026",
+      "updated": "2026-09-01T16:54:15.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "vaju.hmi",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "vaju",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.83376/hmi.cooking-does-not-reduce-mehg",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

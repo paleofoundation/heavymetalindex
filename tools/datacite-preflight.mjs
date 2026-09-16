@@ -22,11 +22,24 @@
 // Safety: refuses to touch the LIVE API unless --live is passed explicitly.
 // Even then it only creates+deletes a draft, but the default is sandbox.
 
+import fs from "node:fs"
+import { buildResearcherCreator, creatorDigest, requireRealText } from "./lib/datacite-creators.mjs"
+
+const researcher = JSON.parse(fs.readFileSync("data/researcher-identity.json", "utf8"))
+const creator = JSON.parse(fs.readFileSync("data/datacite-creator.json", "utf8"))
+if (creatorDigest(creator) !== creatorDigest(buildResearcherCreator(researcher))) throw new Error("DataCite creator template is stale; run node tools/update-doi-creators.mjs --template")
+// Offline preview neither reads credentials nor contacts DataCite.
+if (process.argv.includes("--preview")) {
+  console.log(JSON.stringify({ creators: [creator] }, null, 2))
+  process.exit(0)
+}
+
 const USER = process.env.DATACITE_USER || ""
 const PASSWORD = process.env.DATACITE_PASSWORD || ""
 const PREFIX = process.env.DATACITE_PREFIX || ""
 const MODE = (process.env.DATACITE_MODE || "test").toLowerCase()
 const ORG_ROR = process.env.HMI_ORG_ROR || ""
+if (ORG_ROR && !/^https:\/\/ror\.org\/0[0-9a-hjkmnp-tv-z]{6}[0-9]{2}$/.test(requireRealText(ORG_ROR, "HMI_ORG_ROR"))) throw new Error("Invalid HMI_ORG_ROR")
 const wantLive = process.argv.includes("--live")
 
 const isPending = (v) => !v || v.startsWith("PENDING")
@@ -79,14 +92,7 @@ const orgAffiliation = () => {
 }
 const attributes = {
   doi,
-  creators: [{
-    name: "Pendergrass, Karen",
-    nameType: "Personal",
-    givenName: "Karen",
-    familyName: "Pendergrass",
-    nameIdentifiers: [{ nameIdentifier: "https://orcid.org/0000-0002-2348-7259", nameIdentifierScheme: "ORCID", schemeUri: "https://orcid.org" }],
-    affiliation: orgAffiliation(),
-  }],
+  creators: [{ ...structuredClone(creator), affiliation: creator.affiliation.map((a) => a.name === "Institute of Contaminant Standards" ? { ...a, ...orgAffiliation()[0] } : a) }],
   titles: [{ title: "DataCite connection preflight — safe to delete (Heavy Metal Index)" }],
   publisher: ORG_ROR
     ? { name: "Institute of Contaminant Standards", publisherIdentifier: ORG_ROR, publisherIdentifierScheme: "ROR", schemeUri: "https://ror.org" }

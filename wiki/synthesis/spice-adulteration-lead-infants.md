@@ -16,6 +16,7 @@ ingredients: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
 products: ["[[products/baby-food-purees]]", "[[products/infant-cereal]]"]
 audience: [regulator, brand-legal, educator]
 wiki_doi: "10.83376/hmi.spice-adulteration-lead-infants"
+published: "2026"
 updated: 2026-05-13
 ---
 

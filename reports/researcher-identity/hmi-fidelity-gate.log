@@ -1,0 +1,196 @@
+
+> heavymetalindex@0.1.0 check:v3
+> node tools/design/check-v3.mjs http://127.0.0.1:8878
+
+
+/index.html
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hmi-search-dropdown, div.hmi-v3-ledger
+    no gradient anywhere · count · want 0 · got 1 → section.hmi-v3-hero
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 1 → button.scroll-to-top.js-scroll-to-top::50%(w49)
+
+/metals/lead.html
+  [f16 · present]
+    block "How it enters food" · exists · want yes · got MISSING
+    block "Where it is found" · exists · want yes · got MISSING
+    block "Regulatory tightening over time" · exists · want yes · got MISSING
+    block "Microbiome effects" · exists · want yes · got MISSING
+    block "Open questions and limits of this page" · exists · want yes · got MISSING
+    block "Questions this page answers" · exists · want yes · got MISSING
+  [chrome · absent]
+    .hmi-pill · exists · want no · got PRESENT (old markup)
+    .hmi-pill-row · exists · want no · got PRESENT (old markup)
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+    .proof-main · padding · want 38px 0px 88px · got 38px 28px 88px
+    .proof-layout · gap · want 56px · got 0px
+    .hero-grid · gap · want 72px · got 0px
+    .hero-grid · padding · want 34px 48px 40px · got 0px 48px
+    .hero-act · borderRadius · want 2px · got 4px
+    .hero-snapshot · borderRadius · want 0px · got 8px
+    .proof-layout · grid col 1 · want 236px · got 264px
+    .proof-layout · grid col 3 · want 312px · got 340px
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 18 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-act.hero-act--solid::4px, a.hero-author-portrait::14px …
+
+/ingredients/almond.html
+  [f16 · present]
+    block "Why this ingredient accumulates" · exists · want yes · got MISSING
+    block "Metals profiled in rice" · exists · want yes · got MISSING
+    block "Irrigation management and the arsenic–cadmium trade-off" · exists · want yes · got MISSING
+    block "FDA Total Diet Study occurrence" · exists · want yes · got MISSING
+    block "Product categories that inherit this ingredient" · exists · want yes · got MISSING
+    block "Where this page is thin" · exists · want yes · got MISSING
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+    .proof-main · padding · want 38px 0px 88px · got 38px 28px 88px
+    .proof-layout · gap · want 56px · got 0px
+    .hero-grid · gap · want 72px · got 0px
+    .hero-grid · padding · want 34px 48px 40px · got 0px 48px
+    .hero-act · borderRadius · want 2px · got 4px
+    .hero-snapshot · borderRadius · want 0px · got 8px
+    .proof-layout · grid col 1 · want 236px · got 264px
+    .proof-layout · grid col 3 · want 312px · got 340px
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 16 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/products/aas-injectable.html
+  [f16 · present]
+    block "Ingredient drivers" · exists · want yes · got MISSING
+    block "Limits applicable to this category" · exists · want yes · got MISSING
+    block "Testing and verification posture" · exists · want yes · got MISSING
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+    .proof-main · padding · want 38px 0px 88px · got 38px 28px 88px
+    .proof-layout · gap · want 56px · got 0px
+    .hero-grid · gap · want 72px · got 0px
+    .hero-grid · padding · want 34px 48px 40px · got 0px 48px
+    .hero-act · borderRadius · want 2px · got 4px
+    .proof-layout · grid col 1 · want 236px · got 264px
+    .proof-layout · grid col 3 · want 312px · got 340px
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 16 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/regulations/atsdr-aluminum-mrls.html
+  [f16 · present]
+    block "What the instrument does" · exists · want yes · got MISSING
+    block "The values, exactly as set" · exists · want yes · got MISSING
+    block "How to read it against other instruments" · exists · want yes · got MISSING
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+    .proof-main · padding · want 38px 0px 88px · got 38px 28px 88px
+    .proof-layout · gap · want 56px · got 0px
+    .hero-grid · gap · want 72px · got 0px
+    .hero-grid · padding · want 34px 48px 40px · got 0px 48px
+    .hero-act · borderRadius · want 2px · got 4px
+    .hero-snapshot · borderRadius · want 0px · got 8px
+    .proof-layout · grid col 1 · want 236px · got 264px
+    .proof-layout · grid col 3 · want 312px · got 340px
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 16 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/sources/ab-manan2018-oil-palm-soil-metals.html
+  [f16 · present]
+    block "Extracted values" · exists · want yes · got MISSING
+    block "Methods, as reported" · exists · want yes · got MISSING
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+    .proof-main · padding · want 38px 0px 88px · got 38px 28px 88px
+    .proof-layout · gap · want 56px · got 0px
+    .hero-grid · gap · want 72px · got 0px
+    .hero-grid · padding · want 34px 48px 40px · got 0px 48px
+    .hero-act · borderRadius · want 2px · got 4px
+    .hero-snapshot · borderRadius · want 0px · got 8px
+    .proof-layout · grid col 1 · want 236px · got 264px
+    .proof-layout · grid col 3 · want 312px · got 340px
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 15 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/metals/index.html
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 14 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/products/index.html
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 14 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+/regulations/index.html
+  [f16 · present]
+    block "Curated index" · exists · want yes · got MISSING
+    block "Full register" · exists · want yes · got MISSING
+    block "Auto-linked stubs" · exists · want yes · got MISSING
+  [chrome · style]
+    .hmi-topnav-search > .search-button · height · want 36px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderRadius · want 3px · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · backgroundColor · want #fbf8f5 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · borderTopColor · want #e6ded8 · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button · boxShadow · want none · got NO SUCH ELEMENT
+    .hmi-topnav-search > .search-button > p · fontSize · want 12.5px · got NO SUCH ELEMENT
+    .hmi-topnav-glyph · color · want #b7aeb0 · got NO SUCH ELEMENT
+  [chrome · negative]
+    no box-shadow outside modal/drawer · count · want 0 · got 2 → div.hero-subject-art, section.author-card
+    no border-radius >3px (50% on <=16px exempt) · count · want 0 · got 14 → div.hero-subject-art::50%(w182), span.hero-kind::20px, a.hero-act::4px, a.hero-author-portrait::14px, img::5px …
+
+chrome  743/866 pass   ✗ gating — 123 failing
+f16     27/50 pass   ✗ not gating — 23 known gaps

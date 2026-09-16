@@ -1,0 +1,7 @@
+{
+  "clientId": "vaju.hmi",
+  "prefixes": ["10.83376"],
+  "contentRoot": "wiki",
+  "directories": ["synthesis", "metals", "ingredients", "regulations", "products"],
+  "doiFields": ["wiki_doi"]
+}

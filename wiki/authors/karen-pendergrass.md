@@ -1,19 +1,21 @@
 ---
 title: Karen Pendergrass
-description: Standards architect and microbiome researcher connecting contaminant evidence, food exposure, and microbial metallomics. Biography, affiliations, work history, and public works.
+description: Standards Architect & Independent Researcher working on dietary heavy metal exposure, microbial metallomics, systems architecture, and traceable toxicological data.
 type: author
 cssclasses: [author-profile]
 audience: [researcher, regulator, educator, consumer]
-updated: 2026-09-09
+updated: 2026-09-16
 ---
 
 ## Biography
 
-Karen Pendergrass develops research and evidence systems at the intersection of food contaminants, trace metals, and the microbiome. She is the founder and standards architect of the Institute of Contaminant Standards and the architect of the Heavy Metal Index.
+Karen Pendergrass is a standards architect and independent researcher working on dietary heavy metal exposure, microbial metallomics, systems architecture, and toxicological data architecture. She is the founder and standards architect of the Institute of Contaminant Standards and the architect of the Heavy Metal Index.
 
 Her work on the Index brings together contaminant-occurrence literature, exposure pathways, regulatory evidence, and research synthesis. The aim is to make findings traceable to their sources and revisions, so readers can inspect both the evidence and its limits.
 
 She also founded Paleo Foundation, Microbiome Medicine, and WikiBiome. Her broader research examines how metal availability and microbial ecology interact, connecting food exposure with questions in microbiome medicine. [Public researcher record ↗](https://orcid.org/0000-0002-2348-7259)
+
+[ORCID](https://orcid.org/0000-0002-2348-7259) · [Google Scholar](https://scholar.google.com/citations?user=xnzAh-wAAAAJ) · [LinkedIn](https://www.linkedin.com/in/karenpendergras/)
 
 ## Research focus
 
@@ -23,7 +25,8 @@ She also founded Paleo Foundation, Microbiome Medicine, and WikiBiome. Her broad
 <li>Infant & child food research</li>
 <li>Regulatory evidence</li>
 <li>Evidence synthesis</li>
-<li>Traceable research systems</li>
+<li>Systems architecture</li>
+<li>Traceable toxicological data architecture</li>
 </ul>
 
 ## Work history

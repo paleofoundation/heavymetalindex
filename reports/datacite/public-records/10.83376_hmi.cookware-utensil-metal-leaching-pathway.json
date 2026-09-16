@@ -1,0 +1,141 @@
+{
+  "data": {
+    "id": "10.83376/hmi.cookware-utensil-metal-leaching-pathway",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.83376/hmi.cookware-utensil-metal-leaching-pathway",
+      "prefix": "10.83376",
+      "suffix": "hmi.cookware-utensil-metal-leaching-pathway",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Pendergrass, Karen",
+          "nameType": "Personal",
+          "affiliation": [
+            "Institute of Contaminant Standards"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-2348-7259",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness"
+        }
+      ],
+      "publisher": "Institute of Contaminant Standards",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-07-27",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2026-07-27",
+          "dateType": "Issued"
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "RRPT",
+        "bibtex": "misc",
+        "citeproc": "report",
+        "schemaOrg": "Report",
+        "resourceType": "Technical Report",
+        "resourceTypeGeneral": "Report"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "application/pdf"
+      ],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODMzNzYvSE1JLkNPT0tXQVJFLVVURU5TSUwtTUVUQUwtTEVBQ0hJTkctUEFUSFdBWTwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+UGVuZGVyZ3Jhc3MsIEthcmVuPC9jcmVhdG9yTmFtZT4KICAgICAgPG5hbWVJZGVudGlmaWVyIG5hbWVJZGVudGlmaWVyU2NoZW1lPSJPUkNJRCIgc2NoZW1lVVJJPSJodHRwczovL29yY2lkLm9yZyI+aHR0cHM6Ly9vcmNpZC5vcmcvMDAwMC0wMDAyLTIzNDgtNzI1OTwvbmFtZUlkZW50aWZpZXI+CiAgICAgIDxhZmZpbGlhdGlvbj5JbnN0aXR1dGUgb2YgQ29udGFtaW5hbnQgU3RhbmRhcmRzPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+Q29va2luZyB2ZXNzZWxzIGFyZSBhIHBvc3QtaGFydmVzdCBjb250YW1pbmF0aW9uIHBhdGh3YXkgdGhhdCBjYW4gYWRkIGxlYWQsIGNhZG1pdW0sIG5pY2tlbCwgY2hyb21pdW0sIGFuZCBhbHVtaW5pdW0gdG8gZm9vZCBpbmRlcGVuZGVudCBvZiB0aGUgcmF3IGluZ3JlZGllbnQncyBjbGVhbmxpbmVzczwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5JbnN0aXR1dGUgb2YgQ29udGFtaW5hbnQgU3RhbmRhcmRzPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJSZXBvcnQiPlRlY2huaWNhbCBSZXBvcnQ8L3Jlc291cmNlVHlwZT4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVXBkYXRlZCI+MjAyNi0wNy0yNzwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjYtMDctMjc8L2RhdGU+CiAgPC9kYXRlcz4KICA8c2l6ZXMvPgogIDxmb3JtYXRzPgogICAgPGZvcm1hdD5hcHBsaWNhdGlvbi9wZGY8L2Zvcm1hdD4KICA8L2Zvcm1hdHM+CiAgPHZlcnNpb24vPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS80LjAvbGVnYWxjb2RlIiByaWdodHNJZGVudGlmaWVyPSJjYy1ieS00LjAiIHJpZ2h0c0lkZW50aWZpZXJTY2hlbWU9IlNQRFgiIHNjaGVtZVVSST0iaHR0cHM6Ly9zcGR4Lm9yZy9saWNlbnNlcy8iPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CjwvcmVzb3VyY2U+Cg==",
+      "url": "https://heavymetalindex.com/synthesis/cookware-utensil-metal-leaching-pathway",
+      "contentUrl": [
+        "https://heavymetalindex.com/synthesis/cookware-utensil-metal-leaching-pathway.pdf"
+      ],
+      "metadataVersion": 2,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-08-29T13:29:15.000Z",
+      "registered": "2026-08-29T13:29:15.000Z",
+      "published": "2026",
+      "updated": "2026-09-01T16:54:17.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "vaju.hmi",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "vaju",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.83376/hmi.cookware-utensil-metal-leaching-pathway",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

@@ -31,12 +31,14 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { publicationAuthors, citationDate } from "./lib/publication-metadata.mjs"
 import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
 import {
   HMI_BASE,
   HMI_ORGANIZATION_ID,
   HMI_WEBSITE_ID,
   karenEntity,
+  paleoFoundationEntity,
   organizationEntity,
 } from "./lib/entity-graph.mjs"
 
@@ -148,7 +150,7 @@ function injectHomepage() {
     description:
       "A public reference on heavy metals in food, ingredients, consumer-product categories, and regulation, compiled from peer-reviewed and regulatory literature.",
     publisher: PUBLISHER,
-    founder: AUTHOR,
+    founder: { "@id": AUTHOR["@id"] },
   }
   if (/parentOrganization|subOrganization|memberOf/.test(JSON.stringify(organization))) {
     console.error("postbuild-inject-jsonld: homepage Organization declares a parent/sub/member edge; the Index is deliberately outside the cert org tree (cross-site-seo-wiring.md §1).")
@@ -186,7 +188,7 @@ function injectHomepage() {
     ],
   }
 
-  const objects = [organization, website, collection]
+  const objects = [organization, website, collection, { "@context": "https://schema.org", ...AUTHOR }, { "@context": "https://schema.org", ...PUBLISHER }, { "@context": "https://schema.org", ...paleoFoundationEntity() }]
   const faq = buildFaqPage("index", "", html, `${SITE}/`)
   if (faq) objects.push(faq)
 
@@ -292,10 +294,21 @@ function buildJsonLd(category, slug, fm, meta, html) {
   // The Index's own analytical/reference pages are authored (and editorially
   // owned) by the named author; source pages describe an external paper, so
   // their author belongs in `about`, not at the page level.
-  if (category !== "sources") ld.author = AUTHOR
+  if (category !== "sources") {
+    const authors = publicationAuthors(fm, { defaultToKaren: true }).map((author) =>
+      author.isKaren ? AUTHOR : {
+        "@type": "Person", name: author.name,
+        ...(author.orcid ? { sameAs: [`https://orcid.org/${author.orcid}`] } : {}),
+      })
+    ld.author = authors.length === 1 ? authors[0] : authors
+    // Match the DOI creator model for authored reports; curated institutional
+    // compilations retain the organization as creator.
+    if (["synthesis", "metals", "reports"].includes(category)) ld.creator = ld.author
+  }
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
-  if (fm.published) ld.datePublished = toIso(fm.published)
+  const publicationDate = citationDate(fm.established ?? fm.published)
+  if (publicationDate) ld.datePublished = publicationDate.replaceAll("/", "-")
   if (fm.description) ld.description = String(fm.description).slice(0, 500)
 
   // Reports are citable CreativeWork entities in their own right. Expose the

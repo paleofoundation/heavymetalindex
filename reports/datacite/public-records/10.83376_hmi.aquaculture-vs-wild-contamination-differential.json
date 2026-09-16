@@ -1,0 +1,196 @@
+{
+  "data": {
+    "id": "10.83376/hmi.aquaculture-vs-wild-contamination-differential",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.83376/hmi.aquaculture-vs-wild-contamination-differential",
+      "prefix": "10.83376",
+      "suffix": "hmi.aquaculture-vs-wild-contamination-differential",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Pendergrass, Karen",
+          "nameType": "Personal",
+          "givenName": "Karen",
+          "familyName": "Pendergrass",
+          "affiliation": [
+            "Institute of Contaminant Standards"
+          ],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-2348-7259",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "title": "Aquaculture vs wild-caught contamination differential — why farmed fish carry systematically lower MeHg"
+        }
+      ],
+      "publisher": "Institute of Contaminant Standards",
+      "container": {},
+      "publicationYear": 2026,
+      "subjects": [
+        {
+          "subject": "Methylmercury"
+        },
+        {
+          "subject": "Mercury"
+        },
+        {
+          "subject": "Aquaculture"
+        },
+        {
+          "subject": "Wild-caught fish"
+        },
+        {
+          "subject": "Seafood"
+        },
+        {
+          "subject": "Food safety"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2026-05-18",
+          "dateType": "Updated"
+        },
+        {
+          "date": "2026-05-18",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "RRPT",
+        "bibtex": "misc",
+        "citeproc": "report",
+        "schemaOrg": "Report",
+        "resourceType": "Technical Report",
+        "resourceTypeGeneral": "Report"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "References",
+          "relatedIdentifier": "10.1073/pnas.2421921122",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "References",
+          "relatedIdentifier": "10.1073/pnas.2405898121",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "References",
+          "relatedIdentifier": "10.3390/foods15091516",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "application/pdf"
+      ],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Farmed fish raised in controlled-feed aquaculture systems carry systematically lower methylmercury concentrations than wild-caught fish of the same species, a difference driven by feed regime rather than by species. Wu et al. 2025 documents freshwater wild fish carrying methylmercury 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems, because farmed fish eat formulated feed that excludes high-methylmercury fish-meal inputs while wild fish accumulate methylmercury over their lifespan through biomagnification. The differential is largely specific to methylmercury; lead, cadmium, and total arsenic show smaller or absent farmed-versus-wild gaps because their uptake routes depend less on lifetime food-web exposure. Farmed and wild seafood therefore represent two distinct methylmercury populations rather than a single contamination category, though establishing the lower-methylmercury farmed population depends on aquaculture chain-of-custody documentation of the feed regime.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODMzNzYvSE1JLkFRVUFDVUxUVVJFLVZTLVdJTEQtQ09OVEFNSU5BVElPTi1ESUZGRVJFTlRJQUw8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlBlbmRlcmdyYXNzLCBLYXJlbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+S2FyZW48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UGVuZGVyZ3Jhc3M8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi0yMzQ4LTcyNTk8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24+SW5zdGl0dXRlIG9mIENvbnRhbWluYW50IFN0YW5kYXJkczwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPkFxdWFjdWx0dXJlIHZzIHdpbGQtY2F1Z2h0IGNvbnRhbWluYXRpb24gZGlmZmVyZW50aWFsIOKAlCB3aHkgZmFybWVkIGZpc2ggY2Fycnkgc3lzdGVtYXRpY2FsbHkgbG93ZXIgTWVIZzwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5JbnN0aXR1dGUgb2YgQ29udGFtaW5hbnQgU3RhbmRhcmRzPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDI2PC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJSZXBvcnQiPlRlY2huaWNhbCBSZXBvcnQ8L3Jlc291cmNlVHlwZT4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdD5NZXRoeWxtZXJjdXJ5PC9zdWJqZWN0PgogICAgPHN1YmplY3Q+TWVyY3VyeTwvc3ViamVjdD4KICAgIDxzdWJqZWN0PkFxdWFjdWx0dXJlPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+V2lsZC1jYXVnaHQgZmlzaDwvc3ViamVjdD4KICAgIDxzdWJqZWN0PlNlYWZvb2Q8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5Gb29kIHNhZmV0eTwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDI2LTA1LTE4PC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyNi0wNS0xODwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IkRPSSIgcmVsYXRpb25UeXBlPSJSZWZlcmVuY2VzIj4xMC4xMDczL3BuYXMuMjQyMTkyMTEyMjwvcmVsYXRlZElkZW50aWZpZXI+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiIHJlbGF0aW9uVHlwZT0iUmVmZXJlbmNlcyI+MTAuMTA3My9wbmFzLjI0MDU4OTgxMjE8L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IlJlZmVyZW5jZXMiPjEwLjMzOTAvZm9vZHMxNTA5MTUxNjwvcmVsYXRlZElkZW50aWZpZXI+CiAgPC9yZWxhdGVkSWRlbnRpZmllcnM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+YXBwbGljYXRpb24vcGRmPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24gZGVzY3JpcHRpb25UeXBlPSJBYnN0cmFjdCI+RmFybWVkIGZpc2ggcmFpc2VkIGluIGNvbnRyb2xsZWQtZmVlZCBhcXVhY3VsdHVyZSBzeXN0ZW1zIGNhcnJ5IHN5c3RlbWF0aWNhbGx5IGxvd2VyIG1ldGh5bG1lcmN1cnkgY29uY2VudHJhdGlvbnMgdGhhbiB3aWxkLWNhdWdodCBmaXNoIG9mIHRoZSBzYW1lIHNwZWNpZXMsIGEgZGlmZmVyZW5jZSBkcml2ZW4gYnkgZmVlZCByZWdpbWUgcmF0aGVyIHRoYW4gYnkgc3BlY2llcy4gV3UgZXQgYWwuIDIwMjUgZG9jdW1lbnRzIGZyZXNod2F0ZXIgd2lsZCBmaXNoIGNhcnJ5aW5nIG1ldGh5bG1lcmN1cnkgMi45IHRvIDYuMiB0aW1lcyBoaWdoZXIgdGhhbiBmcmVzaHdhdGVyIGZhcm1lZCBmaXNoIGFjcm9zcyBtdWx0aXBsZSB0cm9waGljIGNsYXNzZXMgaW4gQ2hpbmVzZSBzeXN0ZW1zLCBiZWNhdXNlIGZhcm1lZCBmaXNoIGVhdCBmb3JtdWxhdGVkIGZlZWQgdGhhdCBleGNsdWRlcyBoaWdoLW1ldGh5bG1lcmN1cnkgZmlzaC1tZWFsIGlucHV0cyB3aGlsZSB3aWxkIGZpc2ggYWNjdW11bGF0ZSBtZXRoeWxtZXJjdXJ5IG92ZXIgdGhlaXIgbGlmZXNwYW4gdGhyb3VnaCBiaW9tYWduaWZpY2F0aW9uLiBUaGUgZGlmZmVyZW50aWFsIGlzIGxhcmdlbHkgc3BlY2lmaWMgdG8gbWV0aHlsbWVyY3VyeTsgbGVhZCwgY2FkbWl1bSwgYW5kIHRvdGFsIGFyc2VuaWMgc2hvdyBzbWFsbGVyIG9yIGFic2VudCBmYXJtZWQtdmVyc3VzLXdpbGQgZ2FwcyBiZWNhdXNlIHRoZWlyIHVwdGFrZSByb3V0ZXMgZGVwZW5kIGxlc3Mgb24gbGlmZXRpbWUgZm9vZC13ZWIgZXhwb3N1cmUuIEZhcm1lZCBhbmQgd2lsZCBzZWFmb29kIHRoZXJlZm9yZSByZXByZXNlbnQgdHdvIGRpc3RpbmN0IG1ldGh5bG1lcmN1cnkgcG9wdWxhdGlvbnMgcmF0aGVyIHRoYW4gYSBzaW5nbGUgY29udGFtaW5hdGlvbiBjYXRlZ29yeSwgdGhvdWdoIGVzdGFibGlzaGluZyB0aGUgbG93ZXItbWV0aHlsbWVyY3VyeSBmYXJtZWQgcG9wdWxhdGlvbiBkZXBlbmRzIG9uIGFxdWFjdWx0dXJlIGNoYWluLW9mLWN1c3RvZHkgZG9jdW1lbnRhdGlvbiBvZiB0aGUgZmVlZCByZWdpbWUuPC9kZXNjcmlwdGlvbj4KICA8L2Rlc2NyaXB0aW9ucz4KPC9yZXNvdXJjZT4K",
+      "url": "https://heavymetalindex.com/synthesis/aquaculture-vs-wild-contamination-differential",
+      "contentUrl": [
+        "https://heavymetalindex.com/synthesis/aquaculture-vs-wild-contamination-differential.pdf"
+      ],
+      "metadataVersion": 3,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 3,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2026-08-29T13:22:09.000Z",
+      "registered": "2026-08-29T13:32:37.000Z",
+      "published": "2026",
+      "updated": "2026-09-01T16:54:29.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "vaju.hmi",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "vaju",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.83376/hmi.aquaculture-vs-wild-contamination-differential",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": [
+          {
+            "id": "10.1073/pnas.2405898121",
+            "type": "dois"
+          },
+          {
+            "id": "10.3390/foods15091516",
+            "type": "dois"
+          },
+          {
+            "id": "10.1073/pnas.2421921122",
+            "type": "dois"
+          }
+        ]
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

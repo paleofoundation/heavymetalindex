@@ -39,6 +39,9 @@
 import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
+import matter from "gray-matter"
+import { buildCreators, buildResearcherCreator, creatorDigest, requireRealText } from "./lib/datacite-creators.mjs"
+import { citationDate } from "./lib/publication-metadata.mjs"
 import { pdfUrlFor, headIsPdf, registerPdfMedia, ensurePdfFormat, ensureContentUrl } from "./datacite-media.mjs"
 
 const repoRoot = process.cwd()
@@ -50,7 +53,6 @@ const PRIORITY_DIRS = [
   { dir: "wiki/ingredients", priority: 3 },
   { dir: "wiki/regulations", priority: 4 },
   { dir: "wiki/products", priority: 5 },
-  { dir: "wiki/sources", priority: 6 },
 ]
 
 const args = process.argv.slice(2)
@@ -65,14 +67,9 @@ const dryRun = args.includes("--dry-run") || !credentialsReady
 const limitArg = args.find((a) => a.startsWith("--limit="))
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity
 const priorityArg = args.find((a) => a.startsWith("--priority="))
-// Source pages (priority 6) are summaries of THIRD-PARTY papers. Minting HMI DOIs for them would
-// register DataCite records asserting our authorship of other scientists' work (see the 2026-08-27
-// preflight audit) — a defensibility landmine and a misattribution problem. They are excluded from
-// the default run; `--include-sources` re-enables them, and doing so correctly requires deriving
-// creators from the page's real `authors` and adding an IsDerivedFrom relatedIdentifier to the
-// paper's own DOI (NOT the org-as-creator shape below). Until that lands, sources stay off.
-const includeSources = args.includes("--include-sources")
-const maxPriority = priorityArg ? Number(priorityArg.split("=")[1]) : (includeSources ? 6 : 5)
+// Third-party source pages are never our authored deposits. No flag bypasses this boundary.
+if (args.includes("--include-sources")) throw new Error("Source pages cannot be minted; preserve the original paper DOI and authors")
+const maxPriority = priorityArg ? Math.min(Number(priorityArg.split("=")[1]), 5) : 5
 
 const DATACITE_USER = process.env.DATACITE_USER
 const DATACITE_PASSWORD = process.env.DATACITE_PASSWORD
@@ -109,7 +106,9 @@ const AUTHORED_DIRS = new Set(["wiki/synthesis", "wiki/metals"])
 const isAuthored = (dir) => AUTHORED_DIRS.has(dir)
 
 const ORG_NAME = "Institute of Contaminant Standards"
-const AUTHOR_ORCID = "https://orcid.org/0000-0002-2348-7259"
+const RESEARCHER = JSON.parse(fs.readFileSync(path.join(repoRoot, "data/researcher-identity.json"), "utf8"))
+const CREATOR = JSON.parse(fs.readFileSync(path.join(repoRoot, "data/datacite-creator.json"), "utf8"))
+if (creatorDigest(CREATOR) !== creatorDigest(buildResearcherCreator(RESEARCHER))) throw new Error("DataCite creator template is stale; run node tools/update-doi-creators.mjs --template")
 // Publisher-of-record name on the permanent DOI. Kept as the operating org
 // because the ROR (below) identifies the ORGANIZATION, not the publication —
 // "Heavy Metal Index" is the publication and is carried in `container` on every
@@ -124,6 +123,7 @@ const PUBLISHER_NAME = ORG_NAME
 // — no other change needed. Until then the affiliation/publisher carry name
 // only, which is valid DataCite.
 const ORG_ROR = process.env.HMI_ORG_ROR || ""
+if (ORG_ROR && !/^https:\/\/ror\.org\/0[0-9a-hjkmnp-tv-z]{6}[0-9]{2}$/.test(requireRealText(ORG_ROR, "HMI_ORG_ROR"))) throw new Error("Invalid HMI_ORG_ROR")
 
 const orgAffiliation = () => {
   const a = { name: ORG_NAME }
@@ -135,14 +135,8 @@ const orgAffiliation = () => {
   return [a]
 }
 const personCreator = () => ({
-  name: "Pendergrass, Karen",
-  nameType: "Personal",
-  givenName: "Karen",
-  familyName: "Pendergrass",
-  nameIdentifiers: [
-    { nameIdentifier: AUTHOR_ORCID, nameIdentifierScheme: "ORCID", schemeUri: "https://orcid.org" },
-  ],
-  affiliation: orgAffiliation(),
+  ...structuredClone(CREATOR),
+  affiliation: CREATOR.affiliation.map((a) => a.name === ORG_NAME ? { ...a, ...orgAffiliation()[0] } : a),
 })
 const orgCreator = () => {
   const c = { name: ORG_NAME, nameType: "Organizational" }
@@ -191,7 +185,11 @@ for (const { dir, priority } of PRIORITY_DIRS) {
     // Mintable when the de-quoted value is empty or the literal null (handles "", '', null).
     const dequoted = value.replace(/^['"]|['"]$/g, "")
     if (dequoted && dequoted.toLowerCase() !== "null") continue
-    candidates.push({ filePath, dir, priority, raw, fm })
+    const metadata = matter(raw).data
+    const creators = buildCreators(metadata, RESEARCHER, { fallback: [isAuthored(dir) ? personCreator() : orgCreator()] })
+    const publicationDate = citationDate(metadata.established ?? metadata.published)
+    const publicationYear = publicationDate ? Number(publicationDate.slice(0, 4)) : null
+    candidates.push({ filePath, dir, priority, raw, fm, creators, publicationYear })
   }
 }
 
@@ -227,6 +225,7 @@ const batch = candidates.slice(0, limit === Infinity ? candidates.length : limit
 console.log(`mint-dois: ${dryRun ? "DRY-RUN" : "EXECUTING"} (mode=${DATACITE_MODE})`)
 console.log(`  candidates total:  ${candidates.length}`)
 console.log(`  this run will:     ${batch.length}`)
+console.log(`  blocked (missing established/published publication date): ${batch.filter((c) => !c.publicationYear).length}`)
 
 if (dryRun) {
   if (!credentialsReady) {
@@ -272,7 +271,7 @@ for (const c of batch) {
   const title = (fm.match(/^title:\s*"?(.+?)"?\s*$/m) || [])[1] || path.basename(c.filePath, ".md")
   const brand = brandHit(title)
   if (brand) { console.error(`  SKIP ${path.relative(repoRoot, c.filePath)}: brand/firewall hit "${brand}" in title — not minting.`); failed += 1; continue }
-  const updated = (fm.match(/^updated:\s*(.+)$/m) || [])[1]?.trim() || today
+  if (!c.publicationYear) { console.error(`  SKIP ${path.relative(repoRoot, c.filePath)}: missing valid established/published publication date — not minting.`); failed += 1; continue }
   const slug = path.relative(path.join(repoRoot, "wiki"), c.filePath).replace(/\.md$/, "")
   const url = `https://heavymetalindex.com/${slug}`
   const suffix = generateSuffix(slug)
@@ -289,10 +288,10 @@ for (const c of batch) {
         // above): a person for authored analytical work, the organization for
         // institutional compilations. Paleo Certified, Inc. is the DataCite
         // registrant/account, not the metadata creator.
-        creators: [isAuthored(c.dir) ? personCreator() : orgCreator()],
+        creators: c.creators,
         titles: [{ title }],
         publisher: publisherField(),
-        publicationYear: new Date(updated).getFullYear() || new Date().getFullYear(),
+        publicationYear: c.publicationYear,
         types: pageTypeToDataCite(c.dir),
         // "Heavy Metal Index" is the publication these pages appear in — modeled
         // as the container so it is explicit on the record regardless of the
