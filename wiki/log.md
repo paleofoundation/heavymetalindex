@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | antimony primary source pages and number ledger
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[sources/index]], `docs/briefs/antimony-number-ledger.csv`, and 32 new pages under [[sources/index]].
+Notes: Every quantitative token on the antimony metal page and the baby-product synthesis was checked against the opened primary. The ledger is `docs/briefs/antimony-number-ledger.csv`. The IARC 23.3 percent sentence now follows section 4.1.2: systemic conversion after 5 mg/kg body weight in five adults, not a reduction "in blood" from the general remarks. The WHO fact sheet groundwater line (less than 0.001 µg/L) and the background document line (0.1 to 0.2 µg/L) are both kept. Source pages were added for the government texts and the peer-reviewed papers the synthesis cites, plus the RoHS dossier. `ingest_status` is not set to complete. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] synthesis | antimony overview no longer names a companion branch
 
 Pages touched: [[synthesis/antimony-in-baby-products]].

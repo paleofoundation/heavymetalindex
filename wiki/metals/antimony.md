@@ -31,7 +31,7 @@ Antimony is not one of the eight elemental totals (lead, cadmium, total arsenic,
 
 ## Chemistry and forms
 
-Elemental antimony and its compounds are not one analyte for hazard classification. Volume 131 evaluated trivalent and pentavalent antimony separately. The general remarks note some evidence of interconversion: in humans given a single intramuscular injection, about 23.3 percent of an administered pentavalent compound was reduced to trivalent antimony in blood, and in monkeys given repeated intramuscular injections the plasma proportion of trivalent antimony rose from 5 percent to 50 percent between day 1 and day 9. The Working Group treated that interconversion as an evidence gap, not as a reason to collapse the two evaluations.
+Elemental antimony and its compounds are not one analyte for hazard classification. Volume 131 evaluated trivalent and pentavalent antimony separately. Section 4.1.2 of the antimony chapter records interconversion. About 23.3 percent systemic conversion to trivalent antimony was observed after a single intramuscular dose of 5 mg/kg body weight in five healthy adults. In rhesus monkeys given repeated intramuscular injections, the plasma proportion of trivalent antimony rose from 5 percent on day 1 to 50 percent on day 9. The Working Group treated that interconversion as an evidence gap, not as a reason to collapse the two evaluations.
 
 Antimony trioxide (Sb2O3) is the insoluble trivalent oxide that appears in the inhalation cancer studies and in the flame-retardant and plastics uses named by IARC. Antimony potassium tartrate is the soluble trivalent salt used in the oral studies that underlie the WHO tolerable daily intake and the ATSDR intermediate oral minimal risk level. Those two compounds must not be averaged into one dose. WHO states that antimony trioxide, because of low bioavailability, was genotoxic only in some in vitro tests and not in vivo, whereas soluble antimony(III) salts exerted genotoxic effects in vitro and in vivo, on the evidence available at the 2003 assessment.
 
@@ -44,7 +44,7 @@ Polyester and polyethylene terephthalate (PET) catalyst residue is the pathway n
 
 ## Environmental occurrence
 
-The WHO fact sheet, assessment date 2003, states concentrations in groundwater less than 0.001 µg/L, in surface water less than 0.2 µg/L, and in drinking water appearing to be less than 5 µg/L. It states that conventional treatment does not remove antimony, that antimony is not normally a raw-water contaminant, and that the most common drinking-water source appears to be dissolution from metal plumbing and fittings. Those are the fact sheet's occurrence statements, not a new survey.
+The WHO fact sheet, assessment date 2003, states concentrations in groundwater less than 0.001 µg/L, in surface water less than 0.2 µg/L, and in drinking water appearing to be less than 5 µg/L. It states that conventional treatment does not remove antimony, that antimony is not normally a raw-water contaminant, and that the most common drinking-water source appears to be dissolution from metal plumbing and fittings. Those are the fact sheet's occurrence statements, not a new survey. The 2003 background document, opened separately, prints a different occurrence range: groundwater and surface water normally from 0.1 to 0.2 µg/L, and drinking water appearing to be less than 5 µg/L. The fact sheet and the background document do not print the same groundwater figure. This page keeps both statements.
 
 [[sources/ungureanu2022-bottled-water-toxic-elements|Ungureanu and colleagues 2022]] measured antimony in 50 bottled waters from the Romanian market. The minimum was below 0.07 µg/L and the maximum was 0.64 ± 6.85 µg/L, as printed. The detection limit for antimony was 0.07 µg/L. The printed uncertainty on the maximum is larger than the maximum itself. This page preserves that figure and does not correct it. The result is a Romanian market measurement. It is not a U.S. benchmark and it is not, by itself, a demonstration that the antimony came from the bottle wall.
 
@@ -202,6 +202,8 @@ No accessible primary dermal absorption study. The 0.26 percent figure, and OEHH
 No study specific to PET baby bottles, and no study specific to polyester sleepwear. The PET migration papers opened here use commercial beverage bottles. Washington Ecology 15-03-039 includes one flame-resistant pajama component at 2,500 ppm. That is one clothing component, not a sleepwear class study. The Greenpeace polyester results are clothing and footwear bought for that survey, not sleepwear.
 
 Infant formula water is covered only indirectly. Drinking-water limits exist. Pikounis 2024 and Du 2025 report urinary antimony in infants. Neither paper reports antimony in formula or in the water used to prepare it.
+
+A restriction dossier on the oxide used in electrical and electronic equipment was opened. [[sources/oekoinstitut2020-rohs-diantimony-trioxide|That dossier]] sets no baby-product concentration, and none of its occupational or article figures are adopted here.
 
 ## Data gaps
 
