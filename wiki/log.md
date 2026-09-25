@@ -3,14 +3,14 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
-## [2026-09-25] query | zissu-wipes-nine-metals — one row per metal, including tin and aluminum
+## [2026-09-25] query | baby-wipes-nine-metals — one row per metal, including tin and aluminum
 
-Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
+Pages touched: [[docs/briefs/baby-wipes-heavy-metals-reading-brief]]
 Notes: The brief now leads with one row for lead, arsenic (total and inorganic), mercury, cadmium, chromium (total and hexavalent), nickel, tin, aluminum, and antimony. Tin in wipes: no data found. The nearest opened measurement is total tin in diaper top sheets and tape (Šmajgl 2015 abstract). Aluminum in wipes: no data found. Korea Article 6(2) sets lead, arsenic, mercury, antimony, and cadmium in the same paragraph as nickel. The compiled baby-wipes file has no antimony cell. Direction: toward the literature. No certification threshold is set.
 
-## [2026-09-25] query | zissu-wipes-nickel — nickel limits and sensitization, checked against opened texts
+## [2026-09-25] query | baby-wipes-nickel — nickel limits and sensitization, checked against opened texts
 
-Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
+Pages touched: [[docs/briefs/baby-wipes-heavy-metals-reading-brief]]
 Notes: Nickel in Choi 2016 is two wet-wipe sheets and two mask packs, in micrograms per liter of digest, not milligrams per kilogram. Korea's opened cosmetic safety standard names wet wipes and sets 10 µg/g nickel for products other than eye or color makeup. Health Canada's impurity guidance does not list nickel. REACH Annex XVII entry 27 is a release rule for jewelry and garment hardware. Staff baby-wipes cells for Pb, Cd, tAs, tHg, and Ni match the opened numbers, with basis and legal-character mismatches recorded in the brief. Direction: toward the literature. No certification threshold is set.
 
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
