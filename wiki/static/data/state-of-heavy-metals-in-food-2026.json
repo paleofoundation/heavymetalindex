@@ -9,16 +9,16 @@
   "metrics": {
     "synthesis_findings": 25,
     "disclosed_anchor_source_relationships": 126,
-    "source_pages": 3088,
-    "peer_reviewed_source_pages": 2565,
+    "source_pages": 3096,
+    "peer_reviewed_source_pages": 2568,
     "government_source_pages": 177,
-    "a_tier_source_pages": 1529,
+    "a_tier_source_pages": 1534,
     "jurisdictions": 188,
     "ingredient_pages": 363,
     "product_pages": 416,
     "regulation_pages": 182,
     "structured_evidence_records": 10111,
-    "routing_audit_rows": 6439
+    "routing_audit_rows": 6442
   },
   "themes": [
     {

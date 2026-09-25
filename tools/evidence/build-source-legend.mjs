@@ -136,6 +136,38 @@ for (const [k, v] of targetToSources) {
 
 console.log(`Indexed ${sourcesByCiteKey.size} source pages across ${targetToSources.size} target pages.`)
 
+// Public-legend allow-lists. Routing rows and source records stay as they are.
+// baby-wipes: frontmatter currently attaches a large set of sources that do not
+// measure or regulate metals in wipes. The public table keeps the measurement
+// record and one labeled pathway-context record.
+const PUBLIC_LEGEND_ALLOW = new Map([
+  ["products/baby-wipes", [
+    "biver2021-antimony-release-polyester-artificial-sweat",
+    "choi2016-wet-wipes-nonwoven-heavy-metals",
+    "cpqs2026-online-baby-wipes-quality-monitoring",
+    "gocer2025-baby-wet-wipes-solution-fiber-packaging",
+    "nyamukamba2023-south-africa-diapers-metals-formaldehyde",
+    "shin2004-disposable-diaper-heavy-metals",
+    "smajgl2015-tin-baby-diapers-croatia",
+    "stone2021-wa-metals-childrens-consumer-products",
+  ]],
+])
+const PUBLIC_LEGEND_USED_FOR = new Map([
+  ["products/baby-wipes", new Map([
+    ["cpqs2026-online-baby-wipes-quality-monitoring", "Measurement. Twenty-one online baby wipes, China, April 2026. Annex image: total antimony on a per-liter label in 20 of 21 columns, preferred reads 15.02 to 450.45 µg/L. One column not detected. Lead, cadmium, arsenic, and mercury read as not detected on a unit that was not adopted. Not milligrams per kilogram. Not the Choi digest."],
+    ["gocer2025-baby-wet-wipes-solution-fiber-packaging", "Measurement. Ten Turkish baby wipes, coded A–J. Squeezed liquid, digested fiber, and digested packaging reported separately, in ppb of the ICP-MS solution. Not milligrams per kilogram. Several maxima are printed twice and conflict. Antimony results above 50 ppb sit above the stated calibration."],
+    ["shin2004-disposable-diaper-heavy-metals", "Pathway context, not a wipe measurement. Scanned 2004 paper on eleven disposable diapers. Table 1 total-digest antimony is quoted only where the results prose and the table image agree. Timed urine-extract tables were not transcribed."],
+    ["choi2016-wet-wipes-nonwoven-heavy-metals", "Measurement. Twenty-four wet-wipe sheets digested for ICP-MS. Antimony, lead, arsenic, and nickel in micrograms per liter of digest solution. A labeled reconstruction multiplies by 0.125 if the volume is taken as 25 mL and the mass as 0.200 g. That reconstruction is not the printed result. Cadmium and mercury not detected. Mask packs in the same paper are not baby wipes."],
+    ["stone2021-wa-metals-childrens-consumer-products", "Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony, lead, and total chromium in ppm. The report does not print EPA 3052. The 2012 plans it cites do, with a 1.0 ppm reporting limit for those metals. Printed values below 1.0 ppm are not restated as less-than that limit. The panel has no nickel, tin, or aluminum column. Only components with a metal of concern on the XRF screen went to the laboratory."],
+    ["biver2021-antimony-release-polyester-artificial-sweat", "Pathway context, not a wipe measurement. Polyester textiles. Total antimony about 125 to 470 µg/g. Default artificial sweat mobilized about 0.05 to 2 percent, or 0.1 to 1 µg/g in the abstract. Table 1 extractable results run up to 2.572 µg/g."],
+    ["nyamukamba2023-south-africa-diapers-metals-formaldehyde", "Pathway context, not a wipe measurement. Extractable metals in 20 disposable diapers. Nickel was the only metal the authors reported above the Oeko-Tex figure they used (0.1 mg/kg). Total chromium is also reported. Tin and aluminum are not in the panel."],
+    ["smajgl2015-tin-baby-diapers-croatia", "Pathway context, not a wipe measurement. Total tin by EDXRF in diaper top sheets and adhesive tape. The publisher abstract gives the ranges used on this page. The method does not speciate organotin."],
+  ])],
+])
+const PUBLIC_LEGEND_NOTE = new Map([
+  ["products/baby-wipes", `<p class="hmi-table-note">This table lists source records that measure metals in wipes, or that are labeled pathway context. Other files whose routing frontmatter names this category are not measurements of wipes. Those records are not deleted.</p>`],
+])
+
 // ---------- Step 2: render and write to each target page ----------
 
 const stats = {
@@ -158,7 +190,11 @@ for (const [targetKey, citeKeys] of targetToSources) {
   if (targetKey.endsWith("/index")) continue
 
   const raw = fs.readFileSync(targetPath, "utf8")
-  const sortedSources = [...citeKeys].sort((a, b) => {
+  const allowed = PUBLIC_LEGEND_ALLOW.get(targetKey)
+  const legendKeys = allowed
+    ? allowed.filter((ck) => sourcesByCiteKey.has(ck))
+    : citeKeys
+  const sortedSources = [...legendKeys].sort((a, b) => {
     const sa = sourcesByCiteKey.get(a)
     const sb = sourcesByCiteKey.get(b)
     const ya = sa?.fm?.year ?? 0
@@ -167,7 +203,14 @@ for (const [targetKey, citeKeys] of targetToSources) {
     return a.localeCompare(b)
   })
 
-  const newContent = upsertLegend(raw, sortedSources, targetPath, targetKey)
+  const newContent = upsertLegend(
+    raw,
+    sortedSources,
+    targetPath,
+    targetKey,
+    PUBLIC_LEGEND_USED_FOR.get(targetKey) || new Map(),
+    PUBLIC_LEGEND_NOTE.get(targetKey) || null,
+  )
   if (newContent === null) {
     // upsertLegend returned null → page has hand-curated content needing migration
     continue
@@ -214,7 +257,7 @@ if (dryRun) console.log(`  (dry run — no files written)`)
 
 // ---------- helpers ----------
 
-function renderLegend(citeKeys, preservedContributions = new Map()) {
+function renderLegend(citeKeys, preservedContributions = new Map(), seedContributions = new Map(), noteHtml = null) {
   if (citeKeys.length === 0) {
     return [
       BEGIN_MARKER,
@@ -233,7 +276,7 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
     // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
     // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
     // line below separates it from the markdown table so the table still parses.
-    `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
+    noteHtml || `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",
@@ -241,7 +284,7 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
   citeKeys.forEach((ck, i) => {
     const s = sourcesByCiteKey.get(ck)
     if (!s) return
-    const usedFor = preservedContributions.get(ck) || "*[awaiting synthesis]*"
+    const usedFor = seedContributions.get(ck) || preservedContributions.get(ck) || "*[awaiting synthesis]*"
     lines.push(renderRow(i + 1, s, usedFor))
   })
   lines.push(END_MARKER)
@@ -338,13 +381,13 @@ function isSimpleBulletList(content) {
 // (1-3 capital letters, optionally with periods), the first token is the
 // surname; otherwise the last token is the surname.
 
-function upsertLegend(raw, citeKeys, targetPath, targetKey) {
+function upsertLegend(raw, citeKeys, targetPath, targetKey, seedContributions = new Map(), noteHtml = null) {
   // Case 1: marker block exists → parse existing contributions, regenerate
   if (raw.includes(BEGIN_MARKER) && raw.includes(END_MARKER)) {
     const re = new RegExp(`${escapeRe(BEGIN_MARKER)}([\\s\\S]*?)${escapeRe(END_MARKER)}`)
     const m = raw.match(re)
     const preserved = m ? parseExistingContributions(m[1]) : new Map()
-    const rendered = renderLegend(citeKeys, preserved)
+    const rendered = renderLegend(citeKeys, preserved, seedContributions, noteHtml)
     // Function replacer, not a string: a string replacement would interpret
     // `$&`, `$1`, `$'`, etc. inside the rendered table. Preserved "Used on
     // this page for" cells routinely contain literal dollar amounts (e.g.
@@ -368,14 +411,14 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
       /^No source pages/i.test(existingContent)
     const isStructuredTable = preserved.size > 0
     const isBulletList = isSimpleBulletList(existingContent)
-    const rendered = renderLegend(citeKeys, preserved)
+    const rendered = renderLegend(citeKeys, preserved, seedContributions, noteHtml)
     // Function replacer for the same reason as Case 1 — keep `$`-bearing
     // citation/contribution text literal rather than letting String.replace
     // treat it as a backreference.
     return raw.replace(sourcesHeadingMatch[0], () => `\n${rendered}\n`)
   }
   // Case 3: no `## Sources` heading at all — append at end of page
-  const rendered = renderLegend(citeKeys)
+  const rendered = renderLegend(citeKeys, new Map(), seedContributions, noteHtml)
   return raw.trimEnd() + "\n\n" + rendered + "\n"
 }
 

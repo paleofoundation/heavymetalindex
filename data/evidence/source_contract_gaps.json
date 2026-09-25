@@ -10583,6 +10583,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/biver2021-antimony-release-polyester-artificial-sweat.md",
+      "cite_key": "biver2021-antimony-release-polyester-artificial-sweat",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: the samples are polyester garments and household fabric, not baby wipes. A baby-wipes route would mark this paper as a wipe measurement."
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/bjerregaard2023-mercury-mussels-denmark.md",
       "cite_key": "bjerregaard2023-mercury-mussels-denmark",
       "metadata_complete": false,
@@ -28585,12 +28595,42 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products.md",
+      "cite_key": "stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: this plan does not name baby wipes and it reports no concentrations."
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md",
       "cite_key": "stone2012-wa-qapp-parabens-metals-childrens-cosmetics",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/stone2012-wa-qapp-phthalates-metals-childrens-products.md",
+      "cite_key": "stone2012-wa-qapp-phthalates-metals-childrens-products",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: this plan does not name baby wipes and it reports no concentrations."
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/stone2012-wa-qapp-phthalates-metals-packaging.md",
+      "cite_key": "stone2012-wa-qapp-phthalates-metals-packaging",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: this plan covers packaging. It does not name baby wipes and it reports no concentrations."
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },

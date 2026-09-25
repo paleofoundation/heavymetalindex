@@ -115,7 +115,7 @@ XRF readings were planned for at least 30 seconds on smooth (or near-smooth) are
 | Zinc | EPA 3052 | ICP-MS | EPA 6020 | 1.0 |
 | Parabens | (method approved by Project Manager) | HPLC-MS | (method approved by Project Manager) | 30.0 |
 
-EPA Method 3052 (microwave-assisted acid digestion) was selected to achieve complete dissolution of plastic matrices; the QAPP notes that hydrofluoric acid is not necessary for most plastic matrices and is not recommended, and that nitric and/or hydrochloric acids are adequate (Table 6 footnote, p. 13). The metals reporting limit of 1.0 ppm was set by raising soil-method reporting limits by a factor of 10 (Table 8 footnote, p. 14). The mercury reporting limit (0.1 ppm) is tighter because of the State PQL at 0.5 ppm.
+EPA Method 3052 (microwave-assisted acid digestion) was selected to achieve complete dissolution of plastic matrices; the QAPP notes that hydrofluoric acid is not necessary for most plastic matrices and is not recommended, and that nitric and/or hydrochloric acids are adequate (Table 6 footnote, p. 13). The methods sentence above that table prints "EPA 30521". The footnote prints "Method 3025". Table 6 itself prints EPA 3052. The table is the method name used here. The other two strings are left as printed. The opened PDF is the same file as Publication 12-07-021 (sha256 5b1d4a91effb0fe5284559f35ef1f5024f4df982c3f6aabafc0d153d7896cff9). The plan does not mention wipes. The metals reporting limit of 1.0 ppm was set by raising soil-method reporting limits by a factor of 10 (Table 8 footnote, p. 14). The mercury reporting limit (0.1 ppm) is tighter because of the State PQL at 0.5 ppm.
 
 ### Measurement quality objectives (Table 8, p. 14)
 
