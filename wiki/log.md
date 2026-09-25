@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-6 — Choi reconstruction, CPQS annex, Ecology QAPP methods
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[sources/cpqs2026-online-baby-wipes-quality-monitoring]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]], [[sources/stone2012-wa-qapp-phthalates-metals-packaging]], [[sources/stone2012-wa-qapp-phthalates-metals-childrens-products]], [[sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products]], [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]], [[sources/stone2021-wa-metals-childrens-consumer-products]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]]
+Notes: Choi methods say the digest was diluted with 25 mL, not made up to 25 mL. A labeled reconstruction uses 0.125 (25 mL, 0.200 g) and 0.165 (33 mL). The rayon-only sheet is 2,444.79 mg/kg under the first assumption. That figure is not the printed result. CPQS 2 April 2026 annex: total antimony on a per-liter label in 20 of 21 columns, stable ends 15.02 and 450.45 µg/L; one column not detected; Pb/Cd/As/Hg non-detects with the row unit not adopted. Ecology QAPPs 12-07-021 through 024 specify EPA 3052 and EPA 6020. Stone's results report does not print those method numbers. Reporting limit 1.0 ppm; printed wipe values below it are left as printed. Biver 2021 polyester sweat release is pathway context. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | zissu-wipes-synthesis — mint-ready paper on heavy metals in baby wipes
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[products/baby-wipes]], [[synthesis/index]]

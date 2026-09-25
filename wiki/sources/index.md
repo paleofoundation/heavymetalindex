@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-09-11
+updated: 2026-09-25
 ---
 
 ## Overview
@@ -63,6 +63,18 @@ These sources cover animal feeds and pet foods, environmental occurrence, exposu
 - [[sources/dai2016-texas-animal-feed-metals|Susie Y. Dai (2016) — Heavy Metal Contamination of Animal Feed in Texas]]
 - [[sources/authors2019-toxicology-reports-6-2019-472-481|Pradip Kumar Maurya (2019) — Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]
 - [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints|Janan Gawra (2025) — Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium]]
+
+## Baby wipes, September 2026
+
+Direct wipe measurements and the method plans behind the Washington children's-product metals report. Polyester sweat release is pathway context, not a wipe result.
+
+- [[sources/cpqs2026-online-baby-wipes-quality-monitoring]] - China Association for Quality Promotion of Consumer Products Safety, 2 April 2026, online baby wipes. Annex antimony is a per-liter image read.
+- [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]] - Wet-wipe sheet digests reported in micrograms per liter. A labeled milligram-per-kilogram reconstruction is shown and is not the printed result.
+- [[sources/biver2021-antimony-release-polyester-artificial-sweat]] - Antimony release from polyester textiles into artificial sweat. Not a baby-wipe measurement.
+- [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]] - Ecology Publication 12-07-021. Method plan, not wipe results.
+- [[sources/stone2012-wa-qapp-phthalates-metals-packaging]] - Ecology Publication 12-07-022. Method plan for packaging.
+- [[sources/stone2012-wa-qapp-phthalates-metals-childrens-products]] - Ecology Publication 12-07-023. Method plan. Includes total chromium.
+- [[sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products]] - Ecology Publication 12-07-024. Method plan. Includes total chromium.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
