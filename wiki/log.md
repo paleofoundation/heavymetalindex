@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | government antimony limits routed to product pages
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/diapers-and-components]], [[products/infant-clothing]], [[products/toys-painted]], [[products/toys-substrate-materials]], `data/evidence/product_source_routing_audit.csv`.
+Notes: The routing audit now lists the eleven product routes from the government antimony source pages that name a locked product row. Drinking-water, household-product, and coating-only instruments stay off product pages. No structured evidence values were written. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] ingest | government antimony limits from official texts
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[sources/index]], and 15 new pages under [[sources/index]].
