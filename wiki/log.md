@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | baby-wipes-citations — author list and two missing references
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: Reference 7 now carries the Crossref author list for DOI 10.1111/cod.14753, and the nickel paragraph names Isufi and colleagues (2025). The manufacturing paper (DOI 10.1177/15280837211046619) and the BVL orientation-value paper (DOI 10.1007/s00003-016-1044-2) are in the reference list. Print years stay 2022 and 2017. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-verify — number ledger against the opened sources
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
