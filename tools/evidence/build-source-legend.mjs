@@ -145,7 +145,9 @@ const PUBLIC_LEGEND_ALLOW = new Map([
     "biver2021-antimony-release-polyester-artificial-sweat",
     "choi2016-wet-wipes-nonwoven-heavy-metals",
     "cpqs2026-online-baby-wipes-quality-monitoring",
+    "gocer2025-baby-wet-wipes-solution-fiber-packaging",
     "nyamukamba2023-south-africa-diapers-metals-formaldehyde",
+    "shin2004-disposable-diaper-heavy-metals",
     "smajgl2015-tin-baby-diapers-croatia",
     "stone2021-wa-metals-childrens-consumer-products",
   ]],
@@ -153,6 +155,8 @@ const PUBLIC_LEGEND_ALLOW = new Map([
 const PUBLIC_LEGEND_USED_FOR = new Map([
   ["products/baby-wipes", new Map([
     ["cpqs2026-online-baby-wipes-quality-monitoring", "Measurement. Twenty-one online baby wipes, China, April 2026. Annex image: total antimony on a per-liter label in 20 of 21 columns, preferred reads 15.02 to 450.45 µg/L. One column not detected. Lead, cadmium, arsenic, and mercury read as not detected on a unit that was not adopted. Not milligrams per kilogram. Not the Choi digest."],
+    ["gocer2025-baby-wet-wipes-solution-fiber-packaging", "Measurement. Ten Turkish baby wipes, coded A–J. Squeezed liquid, digested fiber, and digested packaging reported separately, in ppb of the ICP-MS solution. Not milligrams per kilogram. Several maxima are printed twice and conflict. Antimony results above 50 ppb sit above the stated calibration."],
+    ["shin2004-disposable-diaper-heavy-metals", "Pathway context, not a wipe measurement. Scanned 2004 paper on eleven disposable diapers. Table 1 total-digest antimony is quoted only where the results prose and the table image agree. Timed urine-extract tables were not transcribed."],
     ["choi2016-wet-wipes-nonwoven-heavy-metals", "Measurement. Twenty-four wet-wipe sheets digested for ICP-MS. Antimony, lead, arsenic, and nickel in micrograms per liter of digest solution. A labeled reconstruction multiplies by 0.125 if the volume is taken as 25 mL and the mass as 0.200 g. That reconstruction is not the printed result. Cadmium and mercury not detected. Mask packs in the same paper are not baby wipes."],
     ["stone2021-wa-metals-childrens-consumer-products", "Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony, lead, and total chromium in ppm. The report does not print EPA 3052. The 2012 plans it cites do, with a 1.0 ppm reporting limit for those metals. Printed values below 1.0 ppm are not restated as less-than that limit. The panel has no nickel, tin, or aluminum column. Only components with a metal of concern on the XRF screen went to the laboratory."],
     ["biver2021-antimony-release-polyester-artificial-sweat", "Pathway context, not a wipe measurement. Polyester textiles. Total antimony about 125 to 470 µg/g. Default artificial sweat mobilized about 0.05 to 2 percent, or 0.1 to 1 µg/g in the abstract. Table 1 extractable results run up to 2.572 µg/g."],

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-8 — Göçer thesis, three matrices, co-exposure outline
+
+Pages touched: [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]], [[sources/shin2004-disposable-diaper-heavy-metals]], [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]], [[docs/briefs/zissu-wipes-coexposure-outline]]
+Notes: Göçer 2025 (YÖK 988276) is ingested from the full thesis. Solution, fiber, and packaging stay separate, in ppb of the ICP-MS solution. No mg/kg conversion: 10 mL of water was added, the acid volume is not stated, and the mass is approximate. Conflicting maxima are kept (nickel, antimony, lead, mercury, thallium, cadmium versus the quantification limit). Antimony results above 50 ppb sit above the stated calibration. Shin 2004 was OCR'd before any diaper value was quoted. The co-exposure paper is outlined and not written. Consumer Reports and CPQS aggregates omit brand names. Karwowski 2016 and Celeiro 2015 are cited from abstracts only. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | zissu-wipes-6 — Choi reconstruction, CPQS annex, Ecology QAPP methods
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[sources/cpqs2026-online-baby-wipes-quality-monitoring]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]], [[sources/stone2012-wa-qapp-phthalates-metals-packaging]], [[sources/stone2012-wa-qapp-phthalates-metals-childrens-products]], [[sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products]], [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]], [[sources/stone2021-wa-metals-childrens-consumer-products]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]]

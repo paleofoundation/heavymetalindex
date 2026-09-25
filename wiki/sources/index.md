@@ -69,6 +69,8 @@ These sources cover animal feeds and pet foods, environmental occurrence, exposu
 Direct wipe measurements and the method plans behind the Washington children's-product metals report. Polyester sweat release is pathway context, not a wipe result.
 
 - [[sources/cpqs2026-online-baby-wipes-quality-monitoring]] - China Association for Quality Promotion of Consumer Products Safety, 2 April 2026, online baby wipes. Annex antimony is a per-liter image read.
+- [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]] - 2025 Istanbul thesis. Ten baby wipes. Solution, fiber, and packaging in instrument ppb. Not milligrams per kilogram.
+- [[sources/shin2004-disposable-diaper-heavy-metals]] - Scanned 2004 diaper paper. Not a wipe measurement. Table 1 quoted only where the prose and the image agree.
 - [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]] - Wet-wipe sheet digests reported in micrograms per liter. A labeled milligram-per-kilogram reconstruction is shown and is not the printed result.
 - [[sources/biver2021-antimony-release-polyester-artificial-sweat]] - Antimony release from polyester textiles into artificial sweat. Not a baby-wipe measurement.
 - [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]] - Ecology Publication 12-07-021. Method plan, not wipe results.
