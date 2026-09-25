@@ -143,13 +143,15 @@ console.log(`Indexed ${sourcesByCiteKey.size} source pages across ${targetToSour
 const PUBLIC_LEGEND_ALLOW = new Map([
   ["products/baby-wipes", [
     "nyamukamba2023-south-africa-diapers-metals-formaldehyde",
+    "smajgl2015-tin-baby-diapers-croatia",
     "stone2021-wa-metals-childrens-consumer-products",
   ]],
 ])
 const PUBLIC_LEGEND_USED_FOR = new Map([
   ["products/baby-wipes", new Map([
-    ["stone2021-wa-metals-childrens-consumer-products", "Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony and lead in ppm. The panel has no nickel column. Only components with a metal of concern on the XRF screen went to the laboratory."],
-    ["nyamukamba2023-south-africa-diapers-metals-formaldehyde", "Pathway context, not a wipe measurement. Extractable metals in 20 disposable diapers. Nickel was the only metal the authors reported above the Oeko-Tex figure they used (0.1 mg/kg)."],
+    ["stone2021-wa-metals-childrens-consumer-products", "Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony, lead, and total chromium in ppm. The panel has no nickel, tin, or aluminum column. Only components with a metal of concern on the XRF screen went to the laboratory."],
+    ["nyamukamba2023-south-africa-diapers-metals-formaldehyde", "Pathway context, not a wipe measurement. Extractable metals in 20 disposable diapers. Nickel was the only metal the authors reported above the Oeko-Tex figure they used (0.1 mg/kg). Total chromium is also reported. Tin and aluminum are not in the panel."],
+    ["smajgl2015-tin-baby-diapers-croatia", "Pathway context, not a wipe measurement. Total tin by EDXRF in diaper top sheets and adhesive tape. The publisher abstract gives the ranges used on this page. The method does not speciate organotin."],
   ])],
 ])
 const PUBLIC_LEGEND_NOTE = new Map([

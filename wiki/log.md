@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-page-nine-metals — baby-wipes page rows for all nine metals
+
+Pages touched: [[products/baby-wipes]]
+Notes: The draft page now has one row for lead, arsenic, mercury, cadmium, chromium, nickel, tin, aluminum, and antimony. Tin and aluminum in wipes are marked no data found. Adjacent tin is the Šmajgl 2015 diaper abstract. The internal compilation is shown only as a check against opened law, including the missing antimony cell. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-25] query | zissu-wipes-nine-metals — one row per metal, including tin and aluminum
 
 Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
