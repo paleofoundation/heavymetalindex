@@ -147,7 +147,7 @@ Regulatory documents that discuss dermal uptake of mercury are about mercury com
 
 ## What is not known
 
-There is still no opened, recent, peer-reviewed, multi-brand survey that reports metals as a mass fraction in the finished baby wipe, with method, detection limit, fiber, and a lotion-versus-sheet split all stated. Choi is peer-reviewed and has fiber labels, but the numbers are solution concentrations from 2016 and the products are coded. A 2025 thesis abstract claims the missing split for ten Turkish brands. The PDF, the brand names, the methods, and the detection limits were not obtained.
+There is still no opened, recent, peer-reviewed survey that reports metals as a mass fraction in the finished baby wipe, with method, detection limit, fiber, and a lotion-versus-sheet split all stated. Choi is peer-reviewed and has fiber labels, but the numbers are solution concentrations from 2016 and the products are coded. Göçer 2025, an Istanbul MSc thesis, does split ten coded products into squeezed liquid, fiber, and packaging, and it does print detection limits. Those results are instrument ppb. The acid volume is not stated, so they are not milligrams per kilogram. Product names are not repeated.
 
 There is no opened study of dermal or systemic absorption of metals from baby wipes.
 
@@ -182,13 +182,11 @@ Opened as a measurement of metals in a wipe or a wipe nonwoven:
 - Stone 2014, Washington Ecology Publication 14-04-014, three wipe components and two wipe packages. Already in the table above.
 - Choi, Song, and Kim 2016, full text. Already in the table above. Mask packs in the same paper are a different product.
 
-Identified, not opened as a full text:
+Opened from the full text after the first draft of this brief:
 
-- İlker Aras Göçer, master's thesis, Istanbul University-Cerrahpaşa, Institute of Forensic Sciences, 2025. Thesis number 988276. Supervisor: Zeynep Türkmen. Title: *Bebek ıslak mendillerinin sıvı, fiber ve ambalaj içeriğinin ağır metal kontaminasyonu açısından değerlendirilmesi* (evaluation of the liquid, fiber, and packaging of baby wet wipes for heavy-metal contamination). Public abstracts on Tezara (https://tezara.org/theses/988276) and on the university AVESIS record (https://avesis.iuc.edu.tr/advisingtheses/details/816be3d8-ab8f-467a-ba33-9245ee1449b5/bebek-islak-mendillerinin-sivi-fiber-ve-ambalaj-iceriginin-agir-metal-kontaminasyonu-acisindan-degerlendirilmesi) say ten brands sold in Turkey were separated into solution, fiber, and packaging and analyzed by ICP-MS for nickel, arsenic, cadmium, antimony, mercury, thallium, and lead. The abstracts name no brands, no method masses, and no detection limits. They do state antimony up to 695.4 ppb in solution and 565.46 ppb in fiber, and lead in packaging "for example" 3.16 ppb. Those three figures are abstract claims. They are not used as results here because the tables were not opened. YÖK Tez Merkezi's search page loads. The detail URL tried for thesis 988276 returned 404. The hostname acikerisim.istanbulc.edu.tr did not resolve. AVESIS marks an open-archive collection and does not serve the PDF.
+- İlker Aras Göçer, master's thesis, Istanbul University-Cerrahpaşa, Institute of Forensic Sciences, 2025. Thesis number 988276, as supplied with the file. Supervisor: Zeynep Türkmen. Title: *Bebek ıslak mendillerinin sıvı, fiber ve ambalaj içeriğinin ağır metal kontaminasyonu açısından değerlendirilmesi*. Ten coded products. Solution, fiber, and packaging are separate. Results the thesis discusses are ppb in the ICP-MS solution, including solution antimony 695.40 ppb and fiber antimony 565.46 ppb, with a conflicting fiber figure of 476.69 ppb. Those antimony results sit above the stated calibration top of 50 ppb. Product names are not repeated. The source page holds the limits and the conflicts. No milligram-per-kilogram conversion is made.
 
-Secondary accounts of a 2026 Chinese monitoring exercise, primary report not obtained:
-
-- A Sohu article (https://www.sohu.com/a/1007785864_120157034) describes a China Consumer Goods Quality and Safety Promotion Association monitoring action, with testing attributed to the National Textile and Apparel Product Quality Inspection and Testing Center (Guangzhou). The article says 21 online infant-wipe products were tested and antimony was detected in 20. It names the standard GB/T 27728.2-2024 and says antimony is not a required test item in the current wet-wipe national standard. It does not print concentrations. A separate industry-commentary page, not opened as a lab report, has been described elsewhere as citing 450.45 µg/L. That figure is not used. The laboratory report itself was not obtained.
+- China Association for Quality Promotion of Consumer Products Safety, 2 April 2026, 21 online baby wipes. The annex image is the measurement. Preferred total-antimony reads run from 15.02 to 450.45 µg/L, with one column not detected. The narrative names products. Those names are not repeated. The preparation behind the per-liter number is not described.
 
 Searched and not a measurement of metals in baby wipes:
 

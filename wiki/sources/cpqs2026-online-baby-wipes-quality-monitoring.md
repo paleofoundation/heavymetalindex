@@ -48,7 +48,7 @@ The China Association for Quality Promotion of Consumer Products Safety publishe
 
 ## Key numbers
 
-The narrative says total antimony was detected in 20 of the 21 products, and that one product, named in the narrative as 全棉时代, was not detected. The annex uses the letters A through U. It does not print brand names. Sample N is the column that reads as not detected. The fiber cell for that column did not read cleanly, so the non-detect is not treated here as a cotton measurement. 全棉时代 is the association's name for the non-detect. It is not a ranking of products now on the shelf.
+The narrative says total antimony was detected in 20 of the 21 products, and that one named product was not detected. The product name is not repeated here. The annex uses the letters A through U. It does not print brand names. Sample N is the column that reads as not detected. The fiber cell for that column did not read cleanly, so the non-detect is not treated here as a cotton measurement. The narrative's product name is not a ranking of products now on the shelf.
 
 The antimony row label reads as total antimony on a per-liter unit. The text layer does not contain the unit or the sample numbers. Optical reading of the prefix is weaker than the digits. The glyphs fit micrograms per liter and do not fit the milligrams-per-kilogram label on the formaldehyde row. The preparation that put antimony into a per-liter number is not described. These figures are not milligrams per kilogram, and they are not the Choi digest.
 
@@ -69,7 +69,7 @@ Preferred reads from the annex image, micrograms per liter. A wrapped cell is fl
 | K | 383.7 | Last digit low confidence |
 | L | 157.12 | Wrapped; second digit joined |
 | M | 305.19 | Single line |
-| N | Not detected | Narrative names 全棉时代 |
+| N | Not detected | Narrative attributes the non-detect to one named product |
 | O | 450.45 | Preferred; a full-cell pass also produced 490.40 |
 | P | 207.8 | Single line |
 | Q | 107.82 | Single line |
@@ -88,9 +88,9 @@ Liquid content met a national requirement of at least 1.7 times, and 3 products 
 
 ## Methods (brief)
 
-Products were bought online by searching for infant wipes. The narrative names 百诺恩, 祖诺, 壹念, 全棉时代, snowdream, and B.Duck Baby among 21 brands. Those names are the purchase description. They are not a result table. The annex does not assign a letter to a brand, except that the narrative identifies 全棉时代 as the antimony non-detect.
+Products were bought online by searching for infant wipes. The narrative names several of the 21 products. Those names are the purchase description. They are not repeated here, and they are not a result table. The annex does not assign a letter to a product name, except that the narrative identifies one named product as the antimony non-detect.
 
-The association states that 全棉时代, 柔丫, and 爽然 met the standards it applied. That sentence is the association's. It is not a ranking produced here, and it is not a metal result. Meeting a formaldehyde or labeling standard is not a statement about antimony in milligrams per kilogram.
+The association states that three named products met the standards it applied. Those names are not repeated here. That sentence is the association's. It is not a ranking produced here, and it is not a metal result. Meeting a formaldehyde or labeling standard is not a statement about antimony in milligrams per kilogram.
 
 Instruments and digestion for the antimony per-liter number are not in the narrative. Standards named for the monitoring set include GB/T 27728.1-2024, GB/T 27728.2-2024, GB 43631-2023, GB 15979-2024, GB 4806.8-2022, GB 5749-2022, and the 2015 cosmetic technical specification. The report says Chinese infant-wipe standards it checked do not set an antimony limit, and that the monitoring added total antimony for that reason.
 
