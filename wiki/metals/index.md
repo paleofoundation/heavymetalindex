@@ -76,7 +76,7 @@ The toxic metals covered most fully, with the reference point most readers reach
   </tbody>
 </table>
 
-<p style="margin: 14px 0 0; font-size: 11.5px; line-height: 1.55; color: #a9a1a2;">Each row links to the full page, which carries the complete, source-referenced limits table. The anchor above is a navigational summary, not the authoritative value.</p>
+<p style="margin: 14px 0 0; font-size: 11.5px; line-height: 1.55; color: #a9a1a2;">Each row links to the full page, which carries the complete, source-referenced limits table. The anchor above is a navigational summary, not the authoritative value. Antimony is outside this eight-metal food table. The reference page is <a href="antimony">antimony</a>, and infant-product occurrence is synthesized at <a href="../synthesis/antimony-in-baby-products">Antimony in baby products</a>.</p>
 
 ## Full index
 

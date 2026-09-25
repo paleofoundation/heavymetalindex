@@ -3,6 +3,36 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | antimony primary source pages and number ledger
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[sources/index]], `docs/briefs/antimony-number-ledger.csv`, and 32 new pages under [[sources/index]].
+Notes: Every quantitative token on the antimony metal page and the baby-product synthesis was checked against the opened primary. The ledger is `docs/briefs/antimony-number-ledger.csv`. The IARC 23.3 percent sentence now follows section 4.1.2: systemic conversion after 5 mg/kg body weight in five adults, not a reduction "in blood" from the general remarks. The WHO fact sheet groundwater line (less than 0.001 µg/L) and the background document line (0.1 to 0.2 µg/L) are both kept. Source pages were added for the government texts and the peer-reviewed papers the synthesis cites, plus the RoHS dossier. `ingest_status` is not set to complete. No compiled standard was edited. Direction: toward the literature.
+
+## [2026-09-25] synthesis | antimony overview no longer names a companion branch
+
+Pages touched: [[synthesis/antimony-in-baby-products]].
+Notes: The overview sentence that pointed at the baby-wipes reading brief now cites pull request 152 only. No figure was changed. Direction: toward the literature.
+
+## [2026-09-25] synthesis | antimony corpus from the opened primary texts
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Choi 2016 was read in full. The methods print approximately 0.2 g diluted with 25 mL. An approximate sheet conversion, mg/kg ≈ (µg/L × 0.025 L / 0.0002 kg) / 1,000, is printed beside the Table 5 and Table 6 µg/L values. The abstract's mask-pack pair does not match Table 6. OECD SIAP and OEHHA 2016 supply the 0.26 percent in vitro dermal figure as a summary of unpublished Roper and Stupart 2006; OEHHA also prints 0.14 percent at 300 µg/cm2. IARC Volume 131, NTP TR 590, and RoC Monograph 13 were opened. Clothing, PET migration, toy migration, tea exposure, and microbial enzyme papers were added with the units they print. A section titled "What the evidence does not show" records the missing primary dermal study, the absence of a PET-baby-bottle or polyester-sleepwear study, and infant formula water covered only indirectly. No compiled standard was edited. Direction: toward the literature.
+
+## [2026-09-25] synthesis | China wipe annex antimony row transcribed
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`.
+Notes: The 2 April 2026 China monitoring annex prints total antimony in µg/L for 21 online baby wipes. Detected results run from 15.02 to 450.45 µg/L. Nine cells break the figure across two lines; the reading joins those lines and says so. Brand names are not repeated. Choi 2016 remains the English abstract in µg/L of digest. The full paper was not among the files opened here, so sample mass and final volume were not verified and no milligram-per-kilogram conversion was made. No compiled standard was edited. Direction: toward the literature.
+
+## [2026-09-25] synthesis | antimony pages corrected against Reed's first batch
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Opened the WHO 2003 background document, Borca 2025, Biver 2021, Wu 2025, Yan 2025, Deng 2021, Engrola 2023, and Zeldin 2023. Confirmed the IARC 5 May 2023 announcement (trivalent Group 2A, pentavalent Group 3) and the ATSDR October 2019 MRLs against the profile text. Choi 2016 is used from the English abstract, in µg/L of digest, with no conversion. The 2 April 2026 China monitoring page contributes a 20-of-21 detection count and no concentration, because the HTML does not print one. Yan 2025 does report a negative serum-antimony association with Chao1. No compiled standard was edited. Direction: toward the literature.
+
+## [2026-09-25] synthesis | antimony reference, baby-product synthesis, wipes rationale briefing
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], [[metals/index]], [[synthesis/index]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Replaced the antimony stub with a reference page grounded in documents opened for this revision (IARC Volume 131 announcement, ATSDR Toxicological Profile October 2019, WHO drinking-water fact sheet, EPA National Primary Drinking Water Regulations page, Li 2017, Wu 2025, and corpus regulation and source records). Added a mint-ready synthesis, `wiki_doi` left null. The baby-wipes scaffold now cites Washington Ecology Publication 14-04-014 component results and does not state a certification number. The standards briefing lists candidate instruments and leaves the value as pending a CEO decision on basis and value. No compiled standard, cat2 cell, or DOI mint was edited. Direction: toward the literature.
+
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
 
 Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 14
+sources: 15
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -23,7 +23,6 @@ updated: 2026-05-17
 ## Overview
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and Child Durable Goods and Textiles (Ages 0-5)), Row 9: **Clothing (onesies, pajamas, outerwear)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [infant-clothing]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
-
 
 ## Literature scope
 
@@ -115,22 +114,23 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | 5 | [[sources/eeb2022-eu-ecolabel-30-year-briefing\|European Environmental Bureau (EEB) 2022]]. *The EU Ecolabel celebrates its 30th birthday! What does the scheme stand for?*, Joint EEB/BEUC briefing on the EU Ecolabel scheme, October 2022 (26-page civil-society briefing marking the 30th anniversary of the EU Ecolabel; contacts blanca.morales@eeb.org and miriam.thiemann@eeb.org) | 2022 | NGO report | EU Cr occurrence in Not applicable: NGO advocacy briefing. No original sampling, no analytical measurements, no contamination values. Content is a non-quantitative... |
 | 6 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | US Sb, tAs, Cd, Cr, Co, Cu, Pb, tHg, Mo, Zn occurrence in 150 component samples submitted for laboratory metals analysis, sub-sampled from 101 children's products purchased from local Washington stores... (n=150) |
 | 7 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | US-WA/US Sb, tAs, Cd, Co, Pb, tHg, Mo occurrence in 189 component samples submitted for laboratory metals analysis, sub-sampled (by XRF prioritisation) from 6,878 individual components separated from... (n=189) |
-| 8 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | AT/BR/CA Pb, Cd, Sn occurrence in 54 vinyl-chloride (PVC or vinyl) consumer products purchased in 20 countries (Austria, Brazil, Canada, Chile, China, Czech Republic,... (n=54) |
-| 9 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | US Pb, Cd occurrence in Twelve of the 18 children's polyvinyl chloride (PVC) products identified as likely to be handled, mouthed, or chewed... (n=12) |
-| 10 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | US/CA Pb, Cd occurrence in 131 polyvinyl chloride (PVC) consumer products purchased at national chain stores (Kmart, Wal-Mart, Target, Toys R Us, Disney... (n=131) |
-| 11 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
+| 8 | [[sources/mathieu2015-wa-chcc-childrens-clothing\|Mathieu et al. 2015]]. *Chemicals of High Concern to Children in Children's Clothing, Footwear, and Accessories*, Washington State Department of Ecology Publication 15-03-039, November 2015 | 2015 | Regulatory | US Sb concentrations |
+| 9 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | AT/BR/CA Pb, Cd, Sn occurrence in 54 vinyl-chloride (PVC or vinyl) consumer products purchased in 20 countries (Austria, Brazil, Canada, Chile, China, Czech Republic,... (n=54) |
+| 10 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | US Pb, Cd occurrence in Twelve of the 18 children's polyvinyl chloride (PVC) products identified as likely to be handled, mouthed, or chewed... (n=12) |
+| 11 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | US/CA Pb, Cd occurrence in 131 polyvinyl chloride (PVC) consumer products purchased at national chain stores (Kmart, Wal-Mart, Target, Toys R Us, Disney... (n=131) |
+| 12 | [[sources/yamada1993-organotin-household-commodities\|Yamada et al. 1993]]. *Small-Scale Survey of Organotin Compounds in Household Commodities*, Journal of AOAC International, Vol. 76, No. 2, pp. 436–441 | 1993 | Peer-reviewed | JP Sn occurrence in 95 commercially available household commodity items purchased between 1990 and 1992 from retail stores in Aichi Prefecture, Japan,... (n=95) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

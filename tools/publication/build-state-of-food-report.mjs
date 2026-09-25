@@ -46,7 +46,13 @@ const themeBySlug = new Map([
 // papers and systems-architecture manuscripts live here: they are authored
 // synthesis-layer documents, not corpus findings, and must not inflate or
 // theme the closed finding register.
-const REPORT_EXCLUDE_SLUGS = new Set(["proof-before-the-floor"])
+const REPORT_EXCLUDE_SLUGS = new Set([
+  "proof-before-the-floor",
+  // Baby-product pathway synthesis (wipes, diapers, textiles, toys, bottles).
+  // It is on the synthesis index for navigation. It does not report a food
+  // concentration, so it does not enter the closed food-findings register.
+  "antimony-in-baby-products",
+])
 
 const sourceTypeMap = new Map([
   ["peer-reviewed", "peer_reviewed"],

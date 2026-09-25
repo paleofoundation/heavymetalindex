@@ -64,6 +64,43 @@ These sources cover animal feeds and pet foods, environmental occurrence, exposu
 - [[sources/authors2019-toxicology-reports-6-2019-472-481|Pradip Kumar Maurya (2019) — Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]
 - [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints|Janan Gawra (2025) — Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium]]
 
+## Antimony primaries opened 2026-09-25
+
+Government and agency texts, then the peer-reviewed and technical reports cited by [[synthesis/antimony-in-baby-products]] and [[metals/antimony]]. Brand names are not repeated.
+
+- [[sources/who2003-antimony-drinking-water-background]]
+- [[sources/who2003-antimony-drinking-water-fact-sheet]]
+- [[sources/oehha2016-phg-antimony-drinking-water]]
+- [[sources/atsdr2019-toxprofile-antimony]]
+- [[sources/iarc2023-monograph-131-antimony]]
+- [[sources/ntp2017-tr590-antimony-trioxide]]
+- [[sources/ntp2018-roc-monograph-antimony-trioxide]]
+- [[sources/mathieu2015-wa-chcc-childrens-clothing]]
+- [[sources/oekoinstitut2020-rohs-diantimony-trioxide]]
+- [[sources/danishepa2005-survey60-wooden-toys]]
+- [[sources/oecd2008-siap-diantimony-trioxide]]
+- [[sources/choi2016-heavy-metals-nonwoven-wet-wipes]]
+- [[sources/borca2025-antimony-speciation-plastics-textiles]]
+- [[sources/biver2021-antimony-polyester-sweat]]
+- [[sources/brigden2013-greenpeace-polyester-antimony]]
+- [[sources/carneado2015-antimony-pet-mineral-water]]
+- [[sources/allafi2020-antimony-pet-storage]]
+- [[sources/molaeeaghaee2014-antimony-pet-storage]]
+- [[sources/mehdar2025-antimony-pet-leaching]]
+- [[sources/wang2026-antimony-food-contact]]
+- [[sources/turner2018-secondhand-plastic-toys]]
+- [[sources/kawamura2006-harmful-elements-baby-toys]]
+- [[sources/gocer2025-baby-wet-wipes-heavy-metals]]
+- [[sources/kowalczyk2022-efsa-antimony-teas]]
+- [[sources/li2017-antimonite-oxidation-agrobacterium]]
+- [[sources/wu2025-antimony-copper-gut-microbiota]]
+- [[sources/deng2021-sb-oxidizing-bacteria-review]]
+- [[sources/engrola2023-arsenite-oxidase-antimonite]]
+- [[sources/thomas2011-methanoarchaea-antimony-methylation]]
+- [[sources/kambara2024-antimonate-reductase-anra]]
+- [[sources/zeldin2023-antimony-atopic-dermatitis]]
+- [[sources/cpqs2026-online-baby-wipes-antimony]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -71,9 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
-| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 section added |
-| [62866cb6b4](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b4) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
-| [3114d3e7eb](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7eb) | 2026-05-08 | major | 1 source added; narrative text revised |
+| [d6fbcfa64](https://github.com/paleofoundation/heavymetalindex/commit/d6fbcfa64) | 2026-09-25 | major | 32 sources added; 1 section added; narrative text revised |
+| [d6c50ecc4](https://github.com/paleofoundation/heavymetalindex/commit/d6c50ecc4) | 2026-09-11 | major | 17 sources added; 1 section added; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 <!-- END: hmi-page-history -->

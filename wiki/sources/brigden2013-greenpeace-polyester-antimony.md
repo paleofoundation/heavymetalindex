@@ -1,0 +1,65 @@
+---
+type: source
+raw_handle: GP-TR-06-2013
+cite_key: brigden2013-greenpeace-polyester-antimony
+title: "Hazardous chemicals in branded textile products, antimony results"
+authors: ["Brigden K", "Hetherington S", "Wang M", "Santillo D", "Johnston P"]
+year: 2013
+publication: "Greenpeace Research Laboratories Technical Report 06/2013, December 2013"
+doi: null
+no_doi_assigned: true
+access_url: "https://www.greenpeace.to/greenpeace/wp-content/uploads/2014/01/Technical-Report-06-2013.pdf"
+retrieval_date: 2026-09-25
+source_type: technical-report
+evidence_tier: A
+license: "Greenpeace Research Laboratories technical report, cited with attribution"
+raw_path: "raw/antimony-verify/Greenpeace_2013_TR06_polyester_antimony.pdf"
+raw_sha256: 9bb7298a005f9cdf73c83fca4e33c04a002933b09a043772602d0f9de4bb6cef
+metals: [Sb]
+ingredients: []
+products: []
+matrices: ["polyester-textiles"]
+jurisdictions: [INT]
+evidence_fitness:
+  supports: ["category-level antimony in polyester articles"]
+  does_not_support: ["brand rankings"]
+audience: [regulator, educator, consumer, app]
+sources: 0
+wiki_doi: null
+updated: 2026-09-25
+---
+
+# Greenpeace Research Laboratories 2013 ,  Antimony in polyester textiles
+
+Technical Report 06/2013 quantified antimony in polyester and polyester-blend articles. Brand names in the article list are not repeated.
+
+## Key numbers
+
+Antimony was detected in all 36 polyester or blend articles, 14 to 293 mg/kg. The executive summary median is 96 mg/kg of fabric (PDF p.3-4). The results text also prints a polyester-fraction median of 120 mg/kg, and a table total row prints 120. Both medians are kept.
+
+## Methods (brief)
+
+Laboratory quantification of fabric. Not a migration or absorption test.
+
+## Evidence fitness
+
+Supports the category range and the two medians. Does not support a brand comparison or a claim that the articles are infant sleepwear.
+
+## Limitations
+
+The articles are clothing and footwear bought for that survey.
+
+## Related evidence
+
+- [[metals/antimony]]
+- [[synthesis/antimony-in-baby-products]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d6fbcfa64](https://github.com/paleofoundation/heavymetalindex/commit/d6fbcfa64) | 2026-09-25 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->
