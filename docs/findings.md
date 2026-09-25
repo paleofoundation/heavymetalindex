@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-255 open item(s): 84 auto, 171 awaiting a decision.
+253 open item(s): 84 auto, 169 awaiting a decision.
 
 ### OI-20260925-yan2025-source-page-chao1 — Yan 2025 source page does not record the serum antimony Chao1 association now in the PDF
 
@@ -559,24 +559,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The IRIS antimony chemical file is opened and the printed RfD, critical effect, and date are recorded, or the page continues to say the file was not opened
 - decision: _pending_
 - notes: Do not print a remembered 4e-4 mg/kg-day figure.
-
-### OI-20260925-choi-biver-cpqs-wipes-sources — Ingest Choi 2016, Biver 2021, and CPQS 2026 baby-wipes antimony sources
-
-- scope: **human-gated** · type: content · status: open · repo: index
-- paths: `wiki/sources/`
-- repro: SB-1 antimony synthesis cites Washington Ecology 14-04-014 and Nyamukamba 2023 only. Choi 2016, Biver 2021, and the CPQS 2026 China baby wipes report were named by the parallel wipes brief (PR 152) but were not opened as primary texts in this session, so no concentrations from them were written.
-- done when: Each paper has a completed source page or an explicit gap record; Numeric claims are taken from the opened primary, with basis and units; No brand-level tables are copied into product pages
-- decision: _pending_
-- notes: Do not invent wipe concentrations while these sources remain unopened.
-
-### OI-20260925-choi-2016-abstract-only — Choi 2016 wet-wipe antimony is known only from the English abstract
-
-- scope: **human-gated** · type: content · status: open · repo: index
-- paths: `wiki/synthesis/antimony-in-baby-products.md`
-- repro: koreascholar abstract prints Sb 187.86 to 19558.35 ug/L in 12 of 24 wet-wipe nonwovens. The full PDF was not among the files opened on 2026-09-25 (Unpaywall is_oa false; DOI landing is HTML). No digestion mass or final volume was verified in a methods section, so no mg/kg conversion was made.
-- done when: Full text is opened and the digest method is recorded, or the page continues to cite the abstract unit only
-- decision: _pending_
-- notes: Do not convert ug/L of digest to mg/kg of sheet unless the methods print sample mass and final volume exactly.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

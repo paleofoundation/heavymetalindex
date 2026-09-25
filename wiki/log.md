@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] synthesis | antimony corpus from the opened primary texts
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Choi 2016 was read in full. The methods print approximately 0.2 g diluted with 25 mL. An approximate sheet conversion, mg/kg ≈ (µg/L × 0.025 L / 0.0002 kg) / 1,000, is printed beside the Table 5 and Table 6 µg/L values. The abstract's mask-pack pair does not match Table 6. OECD SIAP and OEHHA 2016 supply the 0.26 percent in vitro dermal figure as a summary of unpublished Roper and Stupart 2006; OEHHA also prints 0.14 percent at 300 µg/cm2. IARC Volume 131, NTP TR 590, and RoC Monograph 13 were opened. Clothing, PET migration, toy migration, tea exposure, and microbial enzyme papers were added with the units they print. A section titled "What the evidence does not show" records the missing primary dermal study, the absence of a PET-baby-bottle or polyester-sleepwear study, and infant formula water covered only indirectly. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] synthesis | China wipe annex antimony row transcribed
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`.
