@@ -2,10 +2,10 @@
 type: source
 raw_handle: TURNER-2018-TOYS
 cite_key: turner2018-secondhand-plastic-toys
-title: "Concentrations and migratabilities of hazardous elements in second-hand children's plastic toys"
-authors: ["Turner A"]
+title: "Concentrations and Migratabilities of Hazardous Elements in Second-Hand Children's Plastic toys"
+authors: ["Andrew Turner"]
 year: 2018
-publication: "Environmental Science and Technology 52(5):3110-3116"
+publication: "Environmental Science & Technology 52(5):3110-3116"
 doi: "10.1021/acs.est.7b04685"
 access_url: "https://doi.org/10.1021/acs.est.7b04685"
 retrieval_date: 2026-09-25

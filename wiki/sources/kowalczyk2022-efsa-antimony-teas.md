@@ -3,7 +3,7 @@ type: source
 raw_handle: KOWALCZYK-2022-TEA
 cite_key: kowalczyk2022-efsa-antimony-teas
 title: "Risk assessment of rare earth elements, antimony, barium, boron, lithium, tellurium, thallium and vanadium in teas"
-authors: ["Kowalczyk E", "Givelet L", "Amlund H", "Sloth JJ", "Hansen M"]
+authors: ["Ewelina Kowalczyk", "Lucas Givelet", "Heidi Amlund", "Jens Jørgen Sloth", "Max Hansen"]
 year: 2022
 publication: "EFSA Journal 20(S1):e200410"
 doi: "10.2903/j.efsa.2022.e200410"

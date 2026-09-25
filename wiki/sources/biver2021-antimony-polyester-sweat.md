@@ -2,8 +2,8 @@
 type: source
 raw_handle: BIVER-2021-SWEAT
 cite_key: biver2021-antimony-polyester-sweat
-title: "Antimony release from polyester textiles by artificial sweat solutions"
-authors: ["Biver M", "Turner A", "Filella M"]
+title: "Antimony release from polyester textiles by artificial sweat solutions: A call for a standardized procedure"
+authors: ["Marc Biver", "Andrew Turner", "Montserrat Filella"]
 year: 2021
 publication: "Regulatory Toxicology and Pharmacology 119:104824"
 doi: "10.1016/j.yrtph.2020.104824"

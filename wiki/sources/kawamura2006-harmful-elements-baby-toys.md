@@ -2,10 +2,10 @@
 type: source
 raw_handle: KAWAMURA-2006-TOYS
 cite_key: kawamura2006-harmful-elements-baby-toys
-title: "Contents of eight harmful elements in baby toys and their migration tests"
-authors: ["Kawamura Y", "Kawasaki C", "Mine S", "Mutsuga M", "Tanamoto K"]
+title: "Contents of Eight Harmful Elements in Baby Toys and Their Migration Tests"
+authors: ["Yoko Kawamura", "Chie Kawasaki", "Sachika Mine", "Motoh Mutsuga", "Kenichi Tanamoto"]
 year: 2006
-publication: "Journal of the Food Hygienic Society of Japan 47(2):51-57"
+publication: "Journal of the Food Hygienic Society of Japan (Shokuhin Eiseigaku Zasshi) 47(2):51-57"
 doi: "10.3358/shokueishi.47.51"
 access_url: "https://doi.org/10.3358/shokueishi.47.51"
 retrieval_date: 2026-09-25

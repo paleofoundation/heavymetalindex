@@ -2,8 +2,8 @@
 type: source
 raw_handle: DENG-2021-SBOB
 cite_key: deng2021-sb-oxidizing-bacteria-review
-title: "A critical review of resistance and oxidation mechanisms of Sb-oxidizing bacteria"
-authors: ["Deng R", "Chen Y", "Deng X", "Huang Z", "Zhou S", "Ren B", "Jin G", "Hursthouse A"]
+title: "A Critical Review of Resistance and Oxidation Mechanisms of Sb-Oxidizing Bacteria for the Bioremediation of Sb(III) Pollution"
+authors: ["Renjian Deng", "Yilin Chen", "Xinpin Deng", "Zhongjie Huang", "Saijun Zhou", "Bozhi Ren", "Guizhong Jin", "Andrew Hursthouse"]
 year: 2021
 publication: "Frontiers in Microbiology 12:738596"
 doi: "10.3389/fmicb.2021.738596"

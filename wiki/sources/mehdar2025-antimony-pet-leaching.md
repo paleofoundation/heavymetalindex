@@ -2,8 +2,8 @@
 type: source
 raw_handle: MEHDAR-2025-WSA
 cite_key: mehdar2025-antimony-pet-leaching
-title: "Investigating antimony leaching from polyethylene terephthalate bottles"
-authors: ["Mehdar YTH"]
+title: "Investigating antimony leaching from polyethylene terephthalate (PET) bottles: characterization with SEM-EDX and ICP-OES"
+authors: ["Yassin TH Mehdar"]
 year: 2025
 publication: "Water SA 51(2):156-160"
 doi: "10.17159/wsa/2025.v51.i2.4129"

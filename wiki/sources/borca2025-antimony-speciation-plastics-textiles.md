@@ -2,8 +2,8 @@
 type: source
 raw_handle: BORCA-2025-XAS
 cite_key: borca2025-antimony-speciation-plastics-textiles
-title: "Antimony speciation in consumer plastics and synthetic textiles revealed by XAS"
-authors: ["Borca CN", "Huthwelker T", "Filella M"]
+title: "A step towards understanding plastic complexity: Antimony speciation in consumer plastics and synthetic textiles revealed by XAS"
+authors: ["Camelia N. Borca", "Thomas Huthwelker", "Montserrat Filella"]
 year: 2025
 publication: "Journal of Environmental Sciences 153:109-117"
 doi: "10.1016/j.jes.2024.02.006"

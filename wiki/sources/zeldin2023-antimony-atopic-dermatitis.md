@@ -2,10 +2,10 @@
 type: source
 raw_handle: ZELDIN-2023-AD
 cite_key: zeldin2023-antimony-atopic-dermatitis
-title: "Antimony compounds associate with atopic dermatitis and influence models of itch and dysbiosis"
-authors: ["Zeldin J", "Tran TT", "Yadav M", "Chaudhary PP", "DSouza BN", "Ratley G", "Ganesan S", "Myles IA"]
+title: "Antimony Compounds Associate with Atopic Dermatitis and Influence Models of Itch and Dysbiosis"
+authors: ["Jordan Zeldin", "Tan T. Tran", "Manoj Yadav", "Prem Prashant Chaudhary", "Brandon N. D'Souza", "Grace Ratley", "Sundar Ganesan", "Ian A. Myles"]
 year: 2023
-publication: "Environmental Science and Technology Letters 10(5):452-457"
+publication: "Environmental Science & Technology Letters 10(5):452-457"
 doi: "10.1021/acs.estlett.3c00142"
 access_url: "https://doi.org/10.1021/acs.estlett.3c00142"
 retrieval_date: 2026-09-25

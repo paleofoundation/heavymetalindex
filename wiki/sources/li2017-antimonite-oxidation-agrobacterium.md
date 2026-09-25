@@ -3,7 +3,7 @@ type: source
 raw_handle: LI-2017-ANOA
 cite_key: li2017-antimonite-oxidation-agrobacterium
 title: "Abiotic and biotic factors responsible for antimonite oxidation in Agrobacterium tumefaciens GW4"
-authors: ["Li J", "Yang B", "Shi M", "Yuan K", "Guo W", "Wang Q", "Wang G"]
+authors: ["Jingxin Li", "Birong Yang", "Manman Shi", "Kai Yuan", "Wei Guo", "Qian Wang", "Gejiao Wang"]
 year: 2017
 publication: "Scientific Reports 7:43225"
 doi: "10.1038/srep43225"

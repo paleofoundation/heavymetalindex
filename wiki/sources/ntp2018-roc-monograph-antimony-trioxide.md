@@ -3,7 +3,7 @@ type: source
 raw_handle: NTP-ROC-MGRAPH-13
 cite_key: ntp2018-roc-monograph-antimony-trioxide
 title: "Report on Carcinogens Monograph on Antimony Trioxide"
-authors: ["National Toxicology Program"]
+authors: ["National Toxicology Program (NTP)"]
 year: 2018
 publication: "RoC Monograph 13, October 2018"
 doi: "10.22427/roc-mgraph-13"

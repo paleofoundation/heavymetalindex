@@ -2,8 +2,8 @@
 type: source
 raw_handle: WU-2025-SB-GUT
 cite_key: wu2025-antimony-copper-gut-microbiota
-title: "Gut microbiota and taurine-beta-muricholic acid in antimony- and copper-treated mice"
-authors: ["Wu D", "Lin Q", "Hou S", "Cui X", "Shou N", "Yuan X", "Xu W", "Fu K", "Wang Q", "Shi Z"]
+title: "Gut Microbiota and Its Metabolite Taurine-β-Muricholic Acid Contribute to Antimony- and/or Copper-Induced Liver Inflammation"
+authors: ["Dandan Wu", "Qiwen Lin", "Senao Hou", "Xiaorui Cui", "Na Shou", "Xuefeng Yuan", "Wenqian Xu", "Keyi Fu", "Qi Wang", "Zunji Shi"]
 year: 2025
 publication: "International Journal of Molecular Sciences 26(7):3332"
 doi: "10.3390/ijms26073332"

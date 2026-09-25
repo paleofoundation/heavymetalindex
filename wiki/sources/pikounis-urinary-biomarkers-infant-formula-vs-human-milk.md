@@ -4,8 +4,8 @@ cite_key: pikounis-urinary-biomarkers-infant-formula-vs-human-milk
 title: "Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula"
 authors: ["Talia D. Pikounis", "Kassaundra L. Amann", "Brian P. Jackson", "Tracy Punshon", "Diane Gilbert-Diamond", "Susan Korrick", "Margaret R. Karagas", "Kathryn L. Cottingham"]
 year: 2024
-publication: "Environmental Epidemiology"
-doi: "10.1097/EE9.0000000000000286"
+publication: "Environmental Epidemiology 8(1):e286"
+doi: "10.1097/ee9.0000000000000286"
 source_type: peer-reviewed
 evidence_tier: A
 license: lww-cc-by
@@ -20,7 +20,7 @@ sample_n_notes: "U.S. infant cohort (Dartmouth + Brigham/Harvard collaboration);
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-08
+updated: 2026-09-25
 ---
 
 # Pikounis, Amann, Jackson, Punshon, Gilbert-Diamond, Korrick, Karagas, Cottingham — Urinary biomarkers of exposure to toxic and essential elements in infants by feeding mode

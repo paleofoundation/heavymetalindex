@@ -2,8 +2,8 @@
 type: source
 raw_handle: CHOI-2016-WIPES
 cite_key: choi2016-heavy-metals-nonwoven-wet-wipes
-title: "Determination of heavy metals on the non-woven in wet wipes using ICP-MS"
-authors: ["Choi SM", "Song JK", "Kim SJ"]
+title: "Determination of Heavy metals on the non-woven in wet wipes using ICP-MS"
+authors: ["Sung-Min Choi", "Jin-Kun Song", "Sang-Jin Kim"]
 year: 2016
 publication: "Journal of the Korean Oil Chemists' Society 33(1):195-203"
 doi: "10.12925/jkocs.2016.33.1.195"

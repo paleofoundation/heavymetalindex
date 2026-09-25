@@ -2,8 +2,8 @@
 type: source
 raw_handle: THOMAS-2011-MTAA
 cite_key: thomas2011-methanoarchaea-antimony-methylation
-title: "Connection between multimetal(loid) methylation in methanoarchaea and methanogenesis"
-authors: ["Thomas F", "Diaz-Bone RA", "Wuerfel O"]
+title: "Connection between Multimetal(loid) Methylation in Methanoarchaea and Central Intermediates of Methanogenesis"
+authors: ["Frank Thomas", "Roland A. Diaz-Bone", "Oliver Wuerfel", "Britta Huber", "Katrin Weidenbach", "Ruth A. Schmitz", "Reinhard Hensel"]
 year: 2011
 publication: "Applied and Environmental Microbiology 77(24):8669-8675"
 doi: "10.1128/aem.06406-11"

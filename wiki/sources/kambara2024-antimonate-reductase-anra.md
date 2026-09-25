@@ -2,10 +2,10 @@
 type: source
 raw_handle: KAMBARA-2024-ANRA
 cite_key: kambara2024-antimonate-reductase-anra
-title: "Identification of the bacterial dissimilatory antimonate reductase AnrA"
-authors: ["Kambara R", "Yamamura S", "Amachi S"]
+title: "Identification of bacterial dissimilatory antimonate reductase AnrA: genes and proteins involved in antimonate respiration and resistance in Geobacter sp. strain SVR"
+authors: ["Ryoya Kambara", "Shigeki Yamamura", "Seigo Amachi"]
 year: 2024
-publication: "Applied and Environmental Microbiology"
+publication: "Applied and Environmental Microbiology e01729-23"
 doi: "10.1128/aem.01729-23"
 access_url: "https://doi.org/10.1128/aem.01729-23"
 retrieval_date: 2026-09-25

@@ -2,8 +2,8 @@
 type: source
 raw_handle: MOLAE-2014-PET
 cite_key: molaeeaghaee2014-antimony-pet-storage
-title: "Effects of storage time and temperature on the release of antimony from PET"
-authors: ["Molaee Aghaee E", "Alimohammadi M", "Nabizadeh R"]
+title: "Effects of storage time and temperature on the antimony and some trace element release from polyethylene terephthalate (PET) into the bottled drinking water"
+authors: ["Ebrahim Molaee Aghaee", "Mahmood Alimohammadi", "Ramin Nabizadeh", "Gholamreza Jahed khaniki", "Simin Naseri", "Amir Hossein Mahvi", "Kamyar Yaghmaeian", "Hassan Aslani", "Shahrokh Nazmara", "Babak Mahmoudi", "Maryam Ghani"]
 year: 2014
 publication: "Journal of Environmental Health Science and Engineering 12:133"
 doi: "10.1186/s40201-014-0133-3"

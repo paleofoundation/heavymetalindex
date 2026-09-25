@@ -3,12 +3,11 @@ type: source
 raw_handle: FM_12019543
 cite_key: du2025-infant-thickener-urinary-arsenic
 title: "Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia"
-authors: [Du N, Du M, Punshon T, Rosen R]
+authors: ["Nan Du", "Maritha Du", "Tracy Punshon", "Rachel Rosen"]
 year: 2025
-publication: "Scientific Reports"
-doi: null
-no_doi_assigned: true
-access_url: "https://www.nature.com/articles/s41598-025"
+publication: "Scientific Reports 15:14068"
+doi: "10.1038/s41598-025-98768-5"
+access_url: "https://doi.org/10.1038/s41598-025-98768-5"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -24,7 +23,7 @@ sample_population: "Infants under 1 year of age with reflux or oropharyngeal dys
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-09-25
 ---
 
 # Du et al. 2025 — Heavy metal exposures in infants with reflux or dysphagia using different thickeners

@@ -2,10 +2,10 @@
 type: source
 raw_handle: ALLAFI-2020-PET
 cite_key: allafi2020-antimony-pet-storage
-title: "The effect of temperature and storage time on the migration of antimony from PET"
-authors: ["Allafi AR"]
+title: "The effect of temperature and storage time on the migration of antimony from polyethylene terephthalate (PET) into commercial bottled water in Kuwait"
+authors: ["Ahmad R Allafi"]
 year: 2020
-publication: "Acta Biomedica 91(4):e2020105"
+publication: "Acta Biomedica Atenei Parmensis 91(4):e2020105"
 doi: "10.23750/abm.v91i4.8463"
 access_url: "https://doi.org/10.23750/abm.v91i4.8463"
 retrieval_date: 2026-09-25

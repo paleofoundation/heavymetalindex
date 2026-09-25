@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] lint | antimony citation check against Crossref
+
+Pages touched: [[synthesis/antimony-in-baby-products]], [[metals/antimony]], and the source pages those two cite by DOI.
+Notes: Each DOI on the baby-product synthesis, the antimony metal page, and the source pages edited for this pass was resolved at Crossref, or by DOI content negotiation when the works endpoint did not answer. The two 10.22427 records are Crossref works, not DataCite records. Author lists now lead with the first author and name every author on the synthesis. Davis and colleagues is dated 2020, the online publication date, on the metal page, the synthesis reference, and the source page. The cite key is unchanged. Inline DOIs on the metal page now have source wikilinks so the reference list can carry them. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] ingest | government antimony limits routed to product pages
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/diapers-and-components]], [[products/infant-clothing]], [[products/toys-painted]], [[products/toys-substrate-materials]], `data/evidence/product_source_routing_audit.csv`.

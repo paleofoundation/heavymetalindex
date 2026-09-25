@@ -3,10 +3,10 @@ type: source
 raw_handle: AUTO_gap-bottled-drinking-water-pb_2023_10-3390-foods11101407
 cite_key: ungureanu2022-bottled-water-toxic-elements
 title: "Occurrence of Potentially Toxic Elements in Bottled Drinking Water-Carcinogenic and Non-Carcinogenic Risks Assessment in Adults via Ingestion"
-authors: [Ungureanu EL, Soare AD, Mocanu AL, Iorga SC, Mustatea G, Popa ME]
+authors: ["Elena L. Ungureanu", "Alexandru D. Soare", "Andreea L. Mocanu", "Sorin C. Iorga", "Gabriel Mustatea", "Mona Elena Popa"]
 year: 2022
-publication: "Foods"
-doi: 10.3390/foods11101407
+publication: "Foods 11(10):1407"
+doi: "10.3390/foods11101407"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -19,7 +19,7 @@ jurisdictions: [RO, EU]
 near_duplicates: []
 sample_n: 50
 sample_population: "Bottled drinking water samples available on the Romanian market, purchased between 2019 and 2021"
-updated: 2026-06-09
+updated: 2026-09-25
 ---
 
 # Ungureanu et al. 2022 - potentially toxic elements in bottled drinking water

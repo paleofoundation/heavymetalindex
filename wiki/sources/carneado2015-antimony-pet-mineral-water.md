@@ -3,7 +3,7 @@ type: source
 raw_handle: CARNEADO-2015-PET
 cite_key: carneado2015-antimony-pet-mineral-water
 title: "Migration of antimony from polyethylene terephthalate used in mineral water bottles"
-authors: ["Carneado S", "Hernandez-Nataren E", "Lopez-Sanchez JF", "Sahuquillo A"]
+authors: ["S. Carneado", "E. Hernández-Nataren", "J.F. López-Sánchez", "A. Sahuquillo"]
 year: 2015
 publication: "Food Chemistry 166:544-550"
 doi: "10.1016/j.foodchem.2014.06.041"

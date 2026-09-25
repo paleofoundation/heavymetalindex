@@ -3,10 +3,10 @@ type: source
 raw_handle: MFK_determination-of-selected-harmful-substances-in-ba
 cite_key: nyamukamba2023-south-africa-diapers-metals-formaldehyde
 title: "Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market"
-authors: [Nyamukamba P, Mququ Z, Nkosi S, Isaacs S]
+authors: ["Pardon Nyamukamba", "Zethu Mququ", "Sandile Nkosi", "Shamil Isaacs"]
 year: 2023
-publication: "International Journal of Environmental Research and Public Health 20(2): 1023"
-doi: 10.3390/ijerph20021023
+publication: "International Journal of Environmental Research and Public Health 20(2):1023"
+doi: "10.3390/ijerph20021023"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
@@ -24,7 +24,7 @@ sample_population: "20 disposable baby diapers procured in Cape Town, South Afri
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
+updated: 2026-09-25
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
 ---

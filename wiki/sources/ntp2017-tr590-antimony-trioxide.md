@@ -2,8 +2,8 @@
 type: source
 raw_handle: NTP-TR-590
 cite_key: ntp2017-tr590-antimony-trioxide
-title: "NTP Technical Report 590: toxicology and carcinogenesis of antimony trioxide"
-authors: ["National Toxicology Program"]
+title: "NTP Technical Report on the Toxicology and Carcinogenesis Studies of Antimony Trioxide (CASRN 1309-64-4) in Wistar Han [Crl:WI(Han)] Rats and B6C3F1/N Mice (Inhalation Studies)"
+authors: ["National Toxicology Program (NTP)"]
 year: 2017
 publication: "NTP Technical Report 590, December 2017"
 doi: "10.22427/ntp-tr-590"

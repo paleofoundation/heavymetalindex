@@ -3,9 +3,9 @@ type: source
 raw_handle: WANG-2026-FCM
 cite_key: wang2026-antimony-food-contact
 title: "Antimony: a cryptic metabolism disruptor ubiquitous in food contact materials"
-authors: ["Wang L", "Gerassimidou S", "Geueke B"]
+authors: ["Luyu Wang", "Spyridoula Gerassimidou", "Birgit Geueke", "Ksenia J Groh", "Eleni Iacovidou", "Aaish Majid", "Olwenn Martin", "Jane Muncke", "Lindsey V Parkinson", "Margaret C Weiss", "Robert M Sargis"]
 year: 2026
-publication: "Journal of the Endocrine Society 10:bvag011"
+publication: "Journal of the Endocrine Society 10(4):bvag011"
 doi: "10.1210/jendso/bvag011"
 access_url: "https://doi.org/10.1210/jendso/bvag011"
 retrieval_date: 2026-09-25
