@@ -211,3 +211,17 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 52. [Connection between multimetal(loid) methylation in methanoarchaea and central intermediates of methanogenesis](/sources/thomas2011-methanoarchaea-antimony-methylation)<span class="hmi-ref-meta">Thomas F, Diaz-Bone RA, Wuerfel O, and colleagues · Applied and Environmental Microbiology 77(24):8669-8675 · 2011 · [doi.org/10.1128/aem.06406-11](https://doi.org/10.1128/aem.06406-11)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 53. [Identification of bacterial dissimilatory antimonate reductase AnrA](/sources/kambara2024-antimonate-reductase-anra)<span class="hmi-ref-meta">Kambara R, Yamamura S, and Amachi S · Applied and Environmental Microbiology · 2024 · [doi.org/10.1128/aem.01729-23](https://doi.org/10.1128/aem.01729-23)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 54. [RoHS Annex II Dossier for Diantimony trioxide (flame retardant)](/sources/oekoinstitut2020-rohs-diantimony-trioxide)<span class="hmi-ref-meta">Oeko-Institut · Version 3, 30 March 2020 · electrical and electronic equipment; no baby-product concentration adopted</span><span class="hmi-ref-tag">Government</span>
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [d6fbcfa64](https://github.com/paleofoundation/heavymetalindex/commit/d6fbcfa64) | 2026-09-25 | major | 1 source added; narrative text revised |
+| [5806ed7cf](https://github.com/paleofoundation/heavymetalindex/commit/5806ed7cf) | 2026-09-25 | minor | Narrative text revised |
+| [93b83c5b3](https://github.com/paleofoundation/heavymetalindex/commit/93b83c5b3) | 2026-09-25 | major | 1 section added; narrative text revised |
+| [92b989550](https://github.com/paleofoundation/heavymetalindex/commit/92b989550) | 2026-09-25 | minor | Narrative text revised |
+| [77eba5d09](https://github.com/paleofoundation/heavymetalindex/commit/77eba5d09) | 2026-09-25 | correction | Narrative text revised |
+<!-- END: hmi-page-history -->

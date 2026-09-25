@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 28
+sources: 29
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -23,7 +23,6 @@ updated: 2026-05-17
 ## Overview
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's Toys, Arts, and Crafts), Row 1: **General toys with paint/surface coatings**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [toys-painted]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
-
 
 ## Literature scope
 
@@ -131,20 +130,21 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | 21 | [[sources/cpsc2009-cpsia-101b-inaccessibility-rule\|U.S. Consumer Product Safety 2009]]. *Children's Products Containing Lead; Interpretative Rule on Inaccessible Component Parts (16 CFR 1500.87) — Commission ballot package: draft Federal Register notice, staff guidance memorandum, and response to public comments*, U.S. Consumer Product Safety Commission, Office of the Secretary (ballot package for the 16 CFR Part 1500 final interpretative rule under CPSIA Section 101(b)(2)); attached staff memoranda authored by Robert J. Howell (Assistant Executive Director, Office of Hazard Identification and Reduction) and Kristina M. Hatlelid (Ph.D., M.P.H., Toxicologist, Directorate for Health Sciences) | 2009 | Government guidance | US Pb occurrence in Commission ballot package and draft Federal Register notice promulgating the final interpretative rule codified at 16 CFR 1500.87... |
 | 22 | [[sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\|Hatlelid 2009]]. *U.S. Consumer Product Safety Commission Regulation of Lead in Children's Products*, U.S. Consumer Product Safety Commission, Directorate for Health Sciences | 2009 | Government guidance | US Pb occurrence in CPSC staff presentation summarising the Consumer Product Safety Improvement Act of 2008 (CPSIA) Section 101 lead-content limits for... |
 | 23 | [[sources/sgs2009-canada-toy-coating-heavy-metals\|Services 2009]]. *Canada Publishes Legislated Heavy Metal Requirements for Toys Containing Surface Coating Materials*, SGS SafeGuards Bulletin No. 181/09, Hardlines, Softlines, Electrical & Electronic, October 2009 | 2009 | Trade publication | CA/US Pb, Sb, tAs, Ba, Cd, Cr, tHg, Se occurrence in Regulatory-summary trade bulletin. No primary sampling or measurement. Summarises legal limits and test methods from (i) the Health... |
-| 24 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | US Pb, Cd occurrence in Twelve of the 18 children's polyvinyl chloride (PVC) products identified as likely to be handled, mouthed, or chewed... (n=12) |
-| 25 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | US/CA Pb, Cd occurrence in 131 polyvinyl chloride (PVC) consumer products purchased at national chain stores (Kmart, Wal-Mart, Target, Toys R Us, Disney... (n=131) |
+| 24 | [[sources/kawamura2006-harmful-elements-baby-toys\|Kawamura et al. 2006]]. *Contents of eight harmful elements in baby toys and their migration tests*, Journal of the Food Hygienic Society of Japan 47(2):51-57 | 2006 | Peer-reviewed | JP Sb concentrations |
+| 25 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | US Pb, Cd occurrence in Twelve of the 18 children's polyvinyl chloride (PVC) products identified as likely to be handled, mouthed, or chewed... (n=12) |
+| 26 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | US/CA Pb, Cd occurrence in 131 polyvinyl chloride (PVC) consumer products purchased at national chain stores (Kmart, Wal-Mart, Target, Toys R Us, Disney... (n=131) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

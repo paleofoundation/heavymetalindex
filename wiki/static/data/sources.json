@@ -5,15 +5,15 @@
   "description": "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
   "site": "https://heavymetalindex.com",
   "page_url_template": "https://heavymetalindex.com/sources/{slug}",
-  "generated_at": "2026-09-11T20:39:43.465Z",
-  "generated_commit": "70e164c26892e9564cf209039385a2a03079e1e1",
+  "generated_at": "2026-09-25T21:22:32.929Z",
+  "generated_commit": null,
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
-  "record_count": 2636,
+  "record_count": 2656,
   "by_doi": {
     "10.21315/jps2018.29.s3.8": {
       "slug": "ab-manan2018-oil-palm-soil-metals",
@@ -429,6 +429,11 @@
       "slug": "alkahachi2022-soil-metals-kirkuk-iraq",
       "tier": "A",
       "year": 2022
+    },
+    "10.23750/abm.v91i4.8463": {
+      "slug": "allafi2020-antimony-pet-storage",
+      "tier": "A",
+      "year": 2020
     },
     "10.1542/peds.2024-067808p": {
       "slug": "allwood2024-cpsc-childrens-product-lead-recalls",
@@ -5005,6 +5010,11 @@
       "tier": "B",
       "year": 2022
     },
+    "10.1016/j.yrtph.2020.104824": {
+      "slug": "biver2021-antimony-polyester-sweat",
+      "tier": "A",
+      "year": 2021
+    },
     "10.1038/s41586-021-04222-7": {
       "slug": "blanchfield2021-mercury-contaminated-fish-populations",
       "tier": "B",
@@ -5069,6 +5079,11 @@
       "slug": "bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
       "tier": "A",
       "year": 2022
+    },
+    "10.1016/j.jes.2024.02.006": {
+      "slug": "borca2025-antimony-speciation-plastics-textiles",
+      "tier": "A",
+      "year": 2025
     },
     "10.3390/nu12020341": {
       "slug": "borghini2020-endometriosis-ibs-nickel-low-diet-pilot",
@@ -5340,6 +5355,11 @@
       "tier": "A",
       "year": 2016
     },
+    "10.1016/j.foodchem.2014.06.041": {
+      "slug": "carneado2015-antimony-pet-mineral-water",
+      "tier": "A",
+      "year": 2015
+    },
     "10.3390/proceedings2024102054": {
       "slug": "carpena2024-chemical-hazards-herbs-europe",
       "tier": "B",
@@ -5584,6 +5604,11 @@
       "slug": "chiutula2025-wastewater-vegetables-malawi",
       "tier": "A",
       "year": 2025
+    },
+    "10.12925/jkocs.2016.33.1.195": {
+      "slug": "choi2016-heavy-metals-nonwoven-wet-wipes",
+      "tier": "A",
+      "year": 2016
     },
     "10.1007/s10646-024-02754-y": {
       "slug": "christian2024-caribbean-fish-mercury",
@@ -5912,6 +5937,11 @@
     },
     "10.3390/w13050599": {
       "slug": "deng2021-mg-corncob-biochar-cu-pb-cd-remediation",
+      "tier": "A",
+      "year": 2021
+    },
+    "10.3389/fmicb.2021.738596": {
+      "slug": "deng2021-sb-oxidizing-bacteria-review",
       "tier": "A",
       "year": 2021
     },
@@ -6404,6 +6434,11 @@
       "slug": "engineering2024-process-effects-on-ammonia-chromium-total-suspended-solid",
       "tier": "B",
       "year": 2024
+    },
+    "10.1016/j.jbc.2023.105036": {
+      "slug": "engrola2023-arsenite-oxidase-antimonite",
+      "tier": "A",
+      "year": 2023
     },
     "10.54905/disssi.v9i10.e2ijad3057": {
       "slug": "enogbe2025-bwari-chocolate-metals",
@@ -7945,6 +7980,11 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1128/aem.01729-23": {
+      "slug": "kambara2024-antimonate-reductase-anra",
+      "tier": "A",
+      "year": 2024
+    },
     "10.5455/ovj.2024.v14.i1.51": {
       "slug": "kamouh2024-heavy-metals-chicken-meat-egypt",
       "tier": "A",
@@ -8004,6 +8044,11 @@
       "slug": "kaur2015-wheat-no-lead-toxicity",
       "tier": "A",
       "year": 2015
+    },
+    "10.3358/shokueishi.47.51": {
+      "slug": "kawamura2006-harmful-elements-baby-toys",
+      "tier": "A",
+      "year": 2006
     },
     "10.30931/jetas.1395566": {
       "slug": "kaya2024-milk-packaging-heavy-metals",
@@ -8245,6 +8290,11 @@
       "tier": "B",
       "year": 2019
     },
+    "10.2903/j.efsa.2022.e200410": {
+      "slug": "kowalczyk2022-efsa-antimony-teas",
+      "tier": "A",
+      "year": 2022
+    },
     "10.3390/ijerph18115779": {
       "slug": "kowalska2021-metals-herbs-spices-tea-coffee-poland",
       "tier": "A",
@@ -8479,6 +8529,11 @@
       "slug": "li2015-green-tea-jiangxi-al-heavy-metals",
       "tier": "A",
       "year": 2015
+    },
+    "10.1038/srep43225": {
+      "slug": "li2017-antimonite-oxidation-agrobacterium",
+      "tier": "A",
+      "year": 2017
     },
     "10.1039/c6em00631k": {
       "slug": "li2017-jiangsu-rice-cadmium-transfer",
@@ -9225,6 +9280,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.17159/wsa/2025.v51.i2.4129": {
+      "slug": "mehdar2025-antimony-pet-leaching",
+      "tier": "A",
+      "year": 2025
+    },
     "10.12681/jhvms.21792": {
       "slug": "mehouel2019-sardine-swordfish-algeria-mercury",
       "tier": "B",
@@ -9389,6 +9449,11 @@
       "slug": "mohod2015-spinach-tomato-metals",
       "tier": "A",
       "year": 2015
+    },
+    "10.1186/s40201-014-0133-3": {
+      "slug": "molaeeaghaee2014-antimony-pet-storage",
+      "tier": "A",
+      "year": 2014
     },
     "10.1007/s10661-023-11721-9": {
       "slug": "molina2023-mercury-buenaventura-bay",
@@ -9824,6 +9889,16 @@
       "slug": "ntigoroku2025-delta-state-edible-oils-metals",
       "tier": "A",
       "year": 2025
+    },
+    "10.22427/ntp-tr-590": {
+      "slug": "ntp2017-tr590-antimony-trioxide",
+      "tier": "A",
+      "year": 2017
+    },
+    "10.22427/roc-mgraph-13": {
+      "slug": "ntp2018-roc-monograph-antimony-trioxide",
+      "tier": "A",
+      "year": 2018
     },
     "10.21107/rekayasa.v17i1.20364": {
       "slug": "nurhidayanti2024-coffee-chitosan-cadmium-adsorption",
@@ -12030,6 +12105,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1128/aem.06406-11": {
+      "slug": "thomas2011-methanoarchaea-antimony-methylation",
+      "tier": "A",
+      "year": 2011
+    },
     "10.21601/ejeph/12043": {
       "slug": "thomas2022-lead-game-meat-awareness",
       "tier": "B",
@@ -12149,6 +12229,11 @@
       "slug": "tukai2002-sydney-macroalgae-arsenic-speciation",
       "tier": "B",
       "year": 2002
+    },
+    "10.1021/acs.est.7b04685": {
+      "slug": "turner2018-secondhand-plastic-toys",
+      "tier": "A",
+      "year": 2018
     },
     "10.29196/jubpas.v26i6.1352": {
       "slug": "tweij2018-carrot-cabbage-lead-cadmium",
@@ -12500,6 +12585,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.1210/jendso/bvag011": {
+      "slug": "wang2026-antimony-food-contact",
+      "tier": "A",
+      "year": 2026
+    },
     "10.3358/shokueishi.58.80": {
       "slug": "watanabe2017-retail-fish-mercury-methylmercury-japan",
       "tier": "B",
@@ -12624,6 +12714,11 @@
       "slug": "wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
       "tier": "B",
       "year": 2024
+    },
+    "10.3390/ijms26073332": {
+      "slug": "wu2025-antimony-copper-gut-microbiota",
+      "tier": "A",
+      "year": 2025
     },
     "10.1073/pnas.2421921122": {
       "slug": "wu2025-climate-meghan-freshwater-fish-china",
@@ -12944,6 +13039,11 @@
       "slug": "zecchin2021-arsenic-groundwater-italy",
       "tier": "A",
       "year": 2021
+    },
+    "10.1021/acs.estlett.3c00142": {
+      "slug": "zeldin2023-antimony-atopic-dermatitis",
+      "tier": "A",
+      "year": 2023
     },
     "10.17221/274/2015-pse": {
       "slug": "zemanova2015-spinach-cadmium-amino-fatty-acids",

@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-253 open item(s): 84 auto, 169 awaiting a decision.
+254 open item(s): 84 auto, 170 awaiting a decision.
 
 ### OI-20260925-yan2025-source-page-chao1 — Yan 2025 source page does not record the serum antimony Chao1 association now in the PDF
 
@@ -559,6 +559,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The IRIS antimony chemical file is opened and the printed RfD, critical effect, and date are recorded, or the page continues to say the file was not opened
 - decision: _pending_
 - notes: Do not print a remembered 4e-4 mg/kg-day figure.
+
+### OI-20260925-antimony-evidence-rows — Antimony source pages are not a completed ingest
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/who2003-antimony-drinking-water-background.md`, `data/evidence/`
+- repro: 32 antimony source pages exist with evidence_fitness and raw_sha256. ingest_status is unset. No candidate rows were written to data/evidence for those primaries.
+- done when: Each new antimony source either has routeable evidence rows with basis, species, unit, and statistic type, or an explicit gap record, and ingest_status is not marked complete before that.
+- decision: _pending_
+- notes: SB-VERIFY-1 added source pages and the number ledger. Structured extraction was not run. Do not mint.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 
