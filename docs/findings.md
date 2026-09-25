@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-251 open item(s): 84 auto, 167 awaiting a decision.
+252 open item(s): 84 auto, 168 awaiting a decision.
 
 ### OI-20260925-diapers-nya-se — Nyamukamba 2023 Table 4 selenium L2 0.055 mg/kg versus maximum row 0.038 mg/kg is unresolved
 
@@ -541,6 +541,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A written answer from Saima Naz (saima.naz@gscwu.edu.pk) or a publisher correction states which author string and which pagination belong to this PDF; Until then neither identity is the headline bibliographic claim
 - decision: _pending_
 - notes: Corresponding author printed in the PDF: Saima Naz, saima.naz@gscwu.edu.pk. Not a metal-value conflict.
+
+### OI-20260925-diapers-alex-table-ii — Alexander 1972 remaining Table II deionization cells were not re-read from the glyph
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/alexander1972-metal-free-nappy.md`
+- repro: The Key numbers deionization table still lists Cu, Zn, Co, Mn, Cd, Pb, Sr, Ca, Mg, P, N, Na, and K as cells that agreed between an earlier page image and a character reading. FLAGS-1 re-read only the four flagged metals (Fe, Mo, Cr, Ni) from Table II glyphs. Those four did not match the earlier pairs. The remaining cells were not glyph-confirmed in this pass and must not be treated as newly verified.
+- done when: Each remaining Table II cell is re-read from the printed glyph, with the journal hyphen kept as the decimal; A cell that matches the glyph stays; a cell that does not match is replaced by the glyph and the old figure is marked as a reading error; No cell is averaged and no digit is invented
+- decision: _pending_
+- notes: Out of scope for DIAPERS-FLAGS-1, which dispositioned the flagged pairs only. No email is printed. First author F. W. Alexander, Department of Chemical Pathology, Institute of Child Health, London.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 
