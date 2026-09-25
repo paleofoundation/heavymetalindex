@@ -12,9 +12,9 @@ A reading brief for Alexandra Zissu. Prepared 25 September 2026 from documents o
 
 ## Short answer
 
-Direct measurements of heavy metals in baby wipes are scarce. The clearest government dataset is a Washington State Department of Ecology laboratory report, first published in 2014, which lists three wipe components at about 41 to 71 ppm antimony, with lead at 0.4 to 1.4 ppm and arsenic, cadmium, and mercury printed as 0.0. The one peer-reviewed paper that measures metals in wet-wipe nonwovens (Choi, Song, and Kim, 2016) also finds antimony as the standout result, and the authors point to the antimony catalyst used to make polyester. That paper reports concentrations in the analytical solution, in micrograms per liter, and does not give the sample mass or digest volume, so those figures cannot be converted into a concentration in the wipe.
+Direct measurements of heavy metals in baby wipes are scarce. The clearest government laboratory table is a Washington State Department of Ecology report, first published in 2014, which lists three wipe components at about 41 to 71 ppm antimony, with lead at 0.4 to 1.4 ppm and arsenic, cadmium, and mercury printed as 0.0. The one peer-reviewed paper that measures metals in wet-wipe nonwovens (Choi, Song, and Kim, 2016) also finds antimony as the standout result. The full text is now in hand. Results are in the digest solution, in micrograms per liter. The methods give an approximate sample mass and a dilution volume, and the arithmetic for a milligrams-per-kilogram figure is shown below. It is not adopted as a result, because the final volume is ambiguous and the mass is not given sample by sample.
 
-That polyester-catalyst pathway is real chemistry, documented in textile research. It is a supported explanation for antimony in polyester fiber. It has not been traced, fiber by fiber, through a modern set of baby wipes. Lead, cadmium, arsenic, and mercury do not show the same signal in the wipe rows that were actually measured. Dermal absorption from wipes has not been measured. A number in a wipe is not a dose to a baby.
+That polyester-catalyst pathway is real chemistry, documented in textile research. It is a supported explanation for antimony in polyester fiber. Choi's 2016 table, now read in full, does not make it a rule for wet-wipe sheets: the highest antimony result is labeled rayon, and several polyester-labeled sheets had none detected. Lead, cadmium, arsenic, and mercury do not show the same signal in the wipe rows that were actually measured. Dermal absorption from wipes has not been measured. A number in a wipe is not a dose to a baby. State manufacturer reports for the personal-wipes category contain no metals at all.
 
 ## What has been measured
 
@@ -42,13 +42,40 @@ Source: https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html and t
 
 ### Wet-wipe nonwovens, Korea, 2016
 
-Choi, Song, and Kim, "Determination of Heavy metals on the non-woven in wet wipes using ICP-MS," *Journal of the Korean Oil Chemists' Society* 33(1): 195–203 (2016). DOI: https://doi.org/10.12925/jkocs.2016.33.1.195
+Choi, Song, and Kim, "Determination of Heavy metals on the non-woven in wet wipes using ICP-MS," *Journal of the Korean Oil Chemists' Society* 33(1): 195–203 (2016). DOI: https://doi.org/10.12925/jkocs.2016.33.1.195. Full PDF opened from KoreaScience: https://www.koreascience.kr/article/JAKO201614138121845.pdf (article id JAKO201614138121845, 9 pages). The paper is in English. Products are coded (BE, BO, and so on). Brand names are not in the paper.
 
-The English abstract, opened on the DOI page and on the KoreaScience record (https://db.koreascholar.com/Article/Detail/316647), describes ICP-MS of the nonwoven from 24 wet wipes and 8 mask packs. Fiber labels in the abstract include rayon plus polyester (12 wet wipes), rayon plus PET (5), and smaller numbers of rayon, cotton, rayon plus polyester plus cotton, and pulp plus polypropylene. The full paper was not available, so the following figures are the abstract's, and they are solution concentrations.
+The authors bought 32 nonwovens: 21 wet wipes in Korea, 3 wet wipes in the United States, 4 domestic mask packs, and 4 international mask packs. Tables 5 and 6 report 24 wet wipes and 8 mask packs. The sheet was microwave-digested (Milestone Start D) and measured on a PerkinElmer NexION 300X ICP-MS for antimony, arsenic, cadmium, lead, nickel, and thallium. Mercury was a separate Milestone DMA-80 analysis with no digestion. Each reported value is the mean ± standard deviation of three replicates. A dash in the tables means not detected. The three U.S. wet wipes are marked with an asterisk.
 
-For the wet wipes, the abstract reports lead at 7.23 ± 0.32 to 55.67 ± 1.46 µg/L in 6 products, and antimony at 187.86 ± 5.24 to 19,558.35 ± 3,537.30 µg/L in 12 products. Cadmium, mercury, and thallium were not detected in any of the products tested. Arsenic (about 47 to 72 µg/L in 3 products) and nickel (about 261 and 1,243 µg/L in 2 products) are reported without a clean split, in the abstract wording, between wet wipes and mask packs. The DOI page renders two further nickel figures, for mask packs, in mg/L, while the KoreaScience abstract uses µg/L for those same figures. That unit conflict is unresolved without the PDF, and those mask-pack figures are not used here.
+Table 4, limits in the solution, micrograms per liter: arsenic LOD 0.02 and LOQ 0.07; cadmium, lead, antimony, and thallium LOD 0.01 and LOQ 0.03; nickel LOD 0.11 and LOQ 0.33; mercury LOD 0.025. Mercury's LOQ is printed as 0.80 in Table 4 and in the conclusion, and as 0.08 in the methods paragraph. Both figures are in the PDF. The methods paragraph also prints arsenic's LOQ as "007," which matches the table's 0.07 and not a separate number.
 
-The authors write that a high antimony concentration might come from antimony trioxide used as a catalyst in polyester manufacture. That is their interpretation. The abstract does not show a paired analysis of catalyst-free fiber.
+Table 5, wet-wipe nonwovens, solution concentrations in µg/L. Only detected cells are listed. Cadmium, mercury, and thallium were not detected in any wet wipe.
+
+| Code | Use | Sheet, as printed | As | Ni | Pb | Sb |
+| --- | --- | --- | --- | --- | --- | --- |
+| BE | Infant | Rayon+polyester | | | | 298.93±11.86 |
+| BO | Infant | Rayon+polyester | | | | 10,428.77±231.28 |
+| DR | Infant | Rayon+polyester | | | 11.08±0.51 | 8,208.00±53.20 |
+| EC | Infant | Rayon+polyester | | | 36.77±0.93 | 281.34±11.71 |
+| MA | Infant | Rayon+polyester | | | | 187.86±5.24 |
+| FR | General | Rayon+polyester | | | | 352.17±12.78 |
+| JA | General | Rayon+polyester | | | | 3,867.05±51.89 |
+| BA | Infant | Rayon+PET | | | 17.97±0.43 | 8,904.71±20.43 |
+| KR | General | Rayon+PET | | | | 12,669.97±445.46 |
+| MO | Infant | Rayon+polyester+cotton | | 261.26±5.14 | 55.67±1.46 | 11,692.77±610.26 |
+| ML | Infant | Rayon | | | | 19,558.35±3,537.3 |
+| PU* | Unknown | Cotton | 71.75±1.64 | | | |
+| PA* | Unknown | Cloth like | 47.14±1.13 | 1,242.63±43.71 | 25.00±1.42 | 3,655.52±53.45 |
+| SC* | Unknown | Unknown | 49.87±1.48 | | 7.23±0.32 | |
+
+Not detected for all seven elements: BU, GU, and TO (rayon+polyester, infant); CR and SE (rayon+polyester, general); OG (rayon+PET, infant); GO and PE (rayon+PET, general); HA (pulp+polypropylene, infant); DE (sheet unknown, infant).
+
+By fiber, antimony was detected in 7 of 12 rayon+polyester sheets, 2 of 5 rayon+PET sheets, the one rayon+polyester+cotton sheet, the one rayon-only sheet, and the one "cloth like" U.S. sheet. It was not detected in the pulp+polypropylene sheet, the cotton sheet, or the U.S. sheet of unknown fiber. The highest antimony result in the paper is the rayon-only infant wipe (ML), not a polyester-labeled sheet. Arsenic appears only in the three U.S. products. Lead appears in six wet wipes, across rayon+polyester, rayon+PET, the cotton blend, and two U.S. sheets. Nickel appears in two wet wipes (MO and PA).
+
+Table 6 is mask packs, not baby wipes. The sheet fiber is printed as unknown for all eight. Antimony in the combined nonwoven-plus-liquid fraction: AL 7.24±1.87, FA 5.25±0.25, GA 8,935.52±55.22, GE 9.76±1.29 µg/L. GA's liquid alone was 38.95±1.86 and its nonwoven alone was 8,895.28±42.86. Nickel in the combined fraction: GA 103.52±2.02 and IT 53.69±1.45 µg/L. Those mask-pack nickel figures are micrograms per liter in the PDF. An earlier rendering that showed them as milligrams per liter was a display error on a secondary page, not a second measurement.
+
+The authors attribute high antimony to antimony trioxide or antimony glycolate used as a polyester catalyst. That is their interpretation. It does not match the fiber label on the highest result, which is rayon. Several polyester-labeled sheets had no detected antimony. The paper does not include a catalyst-free control.
+
+Conditional conversion, not a result in the paper. Section 2.2: approximately 0.2 g of sample, 7 mL of 70 percent nitric acid plus 1 mL of 50 percent hydrofluoric acid, then "transferred and diluted with 25 mL of ASTM type 1 water." If the final volume is taken as 25.0 mL and the mass as 0.200 g, then milligrams per kilogram in the sheet equals the solution concentration in µg/L multiplied by 0.125, because 0.025 L / 0.0002 kg / 1,000 = 0.125. Under that assumption the highest antimony result (ML, 19,558.35 µg/L) is about 2,445 mg/kg, and the lowest detected antimony (MA, 187.86 µg/L) is about 23.5 mg/kg. If "diluted with 25 mL" means 25 mL of water added to the 8 mL of acid, the volume is about 33 mL and the factor is 0.165, which would put ML near 3,230 mg/kg. The mass is the word "approximately," not a weight for each code. Neither milligrams-per-kilogram figure is printed in the paper, and neither is used as a finding here.
 
 These µg/L figures cannot be placed next to the Washington ppm figures or next to a milligram-per-kilogram limit. A microgram per liter in a digest is not a part per million in the sheet.
 
@@ -66,15 +93,15 @@ Polyethylene terephthalate, the polymer in polyester fiber, is usually made with
 
 Biver, Turner, and Filella, *Regulatory Toxicology and Pharmacology* 119: 104824 (2021). DOI: https://doi.org/10.1016/j.yrtph.2020.104824. Open copy: https://archive-ouverte.unige.ch/unige:145917
 
-Choi's abstract makes the same catalyst link for wet-wipe nonwovens that contain polyester or PET. Stone's report does not identify the fiber in the three wipe components. The catalyst explanation fits the metal that is high (antimony) and the fiber baby wipes often use. It is the right hypothesis to test. It is not, by itself, a finding about wipes now for sale.
+Choi's discussion makes the same catalyst link. The full table does not support it as a rule. The highest antimony result is labeled rayon, and several rayon-plus-polyester and rayon-plus-PET sheets had no detected antimony. Stone's report does not identify the fiber in the three wipe components. The catalyst explanation is still the right hypothesis to test on polyester sheets. It is not, by itself, a finding about wipes now for sale.
 
-**Pulp and cellulose. Hypothesis.**
+**Pulp and cellulose. Partly measured, still thin.**
 
-Some wipes are pulp, cotton, or rayon rather than polyester. Choi lists those constructions and does not, in the abstract, give metal results by fiber type. No opened study shows a metals difference between pulp sheets and polyester sheets in finished baby wipes.
+Choi's Table 5 is the opened comparison by fiber label. The pulp-plus-polypropylene infant sheet and the cotton sheet had no detected antimony. The rayon-only sheet had the highest antimony in the study. That is one coded product per construction, not a market comparison, and the labels are what was printed for each code. A 2025 Istanbul thesis abstract says ten Turkish baby-wipe brands were split into solution, fiber, and packaging. The thesis PDF was not obtained, so those fiber results are not used here.
 
-**The lotion and the water. Hypothesis.**
+**The lotion and the water. Still mostly unseparated.**
 
-A wet wipe is a sheet plus a water-based lotion. None of the opened measurement papers splits the liquid from the fiber and reports metals in each. Until that split exists, a result on "the wipe" cannot be assigned to the water, the preservative system, or the sheet.
+Choi digested the nonwoven. For mask packs the authors also measured liquid alone, and in one of those (GA) almost all of the antimony was in the sheet rather than the liquid. They did not publish that split for the wet wipes. Stone does not say whether the Washington wipe results are sheet, lotion, or both. Until a wet-wipe study reports both fractions with a method, a single number on "the wipe" cannot be assigned to the water, the preservative system, or the sheet.
 
 **Pigments and other additives. Hypothesis.**
 
@@ -98,7 +125,7 @@ Regulatory documents that discuss dermal uptake of mercury are about mercury com
 
 ## What is not known
 
-There is no recent, peer-reviewed, multi-brand survey of baby wipes that reports metals as a mass fraction in the finished wipe, with the method, the detection limit, the fiber composition, and the lotion split all stated.
+There is still no opened, recent, peer-reviewed, multi-brand survey that reports metals as a mass fraction in the finished baby wipe, with method, detection limit, fiber, and a lotion-versus-sheet split all stated. Choi is peer-reviewed and has fiber labels, but the numbers are solution concentrations from 2016 and the products are coded. A 2025 thesis abstract claims the missing split for ten Turkish brands. The PDF, the brand names, the methods, and the detection limits were not obtained.
 
 There is no opened study of dermal or systemic absorption of metals from baby wipes.
 
@@ -112,7 +139,7 @@ Microplastics and fragrance chemicals, which are the center of gravity of a wipe
 
 1. Stone, Washington State Department of Ecology Publication 14-04-014 (2014; PDF cover revised June 2021). https://apps.ecology.wa.gov/publications/documents/1404014.pdf. The only government table of metals in baby-wipe components opened for this brief. Read Figure 3 and Appendix 1, and keep the screening design in view.
 
-2. Choi, Song, and Kim, 2016. https://doi.org/10.12925/jkocs.2016.33.1.195. The peer-reviewed ICP-MS paper on wet-wipe nonwovens. Read it for the fiber descriptions and the antimony finding. Do not convert the µg/L figures into ppm in the sheet.
+2. Choi, Song, and Kim, 2016. DOI above, PDF at https://www.koreascience.kr/article/JAKO201614138121845.pdf. Read Table 5 by fiber, not only the abstract range. Keep the results in µg/L. The milligrams-per-kilogram arithmetic in this note is conditional and is not a number from the paper.
 
 3. Biver, Turner, and Filella, 2021. https://doi.org/10.1016/j.yrtph.2020.104824. The polyester-catalyst paper that connects to a plastics story: how much antimony is in the fiber, and how little of it a standard sweat test removes. Not a wipe study.
 
@@ -126,6 +153,108 @@ Microplastics and fragrance chemicals, which are the center of gravity of a wipe
 
 8. OEKO-TEX STANDARD 100, Annex 4, limit-values table, edition line "04.02.2025 Edition 02.2025." https://www.oeko-tex.com/importedmedia/downloadfiles/OEKO-TEX_STANDARD_100_Limit_Values_and_Individual_Substances_According_to_Appendices_4_5_EN_DE.pdf. This is a private certification standard, not a statute. For product class I (baby), the extractable-metal column lists arsenic 0.2 mg/kg, cadmium 0.1 mg/kg, chromium 1.0 mg/kg, chromium (VI) 0.5 mg/kg, mercury 0.02 mg/kg, nickel 1.0 mg/kg, lead 0.2 mg/kg, and antimony 30.0 mg/kg. Antimony is listed at 30.0 mg/kg for the three classes printed on that line. A separate "total content" block lists higher ceilings (for example lead 90 mg/kg). The pH footnote explicitly sets a wet-wipes exception of 3.5 to 7.5. Extractable antimony and total antimony are different tests. A total result of 40 to 70 ppm, as in the Washington table, is not an automatic pass or fail against the 30 mg/kg extractable figure.
 
-## Where Heavy Metal Index fits
+## Other direct measurements, and searches that did not find one
 
-The public page at https://heavymetalindex.com/products/baby-wipes is not a source to send. It is a scaffold: the evidence table has no concentrations loaded, the antimony sentence on the page is explicitly waiting on a source that was never attached, and the long source list is mostly papers that are not about metals in baby wipes. The regulatory pages linked from this note are in better shape. The page worth building is a short literature page that keeps the Washington table, the Choi paper, the polyester-catalyst studies, and the cosmetic and textile instruments in separate sections, with the unit of each number printed beside it.
+Opened as a measurement of metals in a wipe or a wipe nonwoven:
+
+- Stone 2014, Washington Ecology Publication 14-04-014, three wipe components and two wipe packages. Already in the table above.
+- Choi, Song, and Kim 2016, full text. Already in the table above. Mask packs in the same paper are a different product.
+
+Identified, not opened as a full text:
+
+- İlker Aras Göçer, master's thesis, Istanbul University-Cerrahpaşa, Institute of Forensic Sciences, 2025. Thesis number 988276. Supervisor: Zeynep Türkmen. Title: *Bebek ıslak mendillerinin sıvı, fiber ve ambalaj içeriğinin ağır metal kontaminasyonu açısından değerlendirilmesi* (evaluation of the liquid, fiber, and packaging of baby wet wipes for heavy-metal contamination). Public abstracts on Tezara (https://tezara.org/theses/988276) and on the university AVESIS record (https://avesis.iuc.edu.tr/advisingtheses/details/816be3d8-ab8f-467a-ba33-9245ee1449b5/bebek-islak-mendillerinin-sivi-fiber-ve-ambalaj-iceriginin-agir-metal-kontaminasyonu-acisindan-degerlendirilmesi) say ten brands sold in Turkey were separated into solution, fiber, and packaging and analyzed by ICP-MS for nickel, arsenic, cadmium, antimony, mercury, thallium, and lead. The abstracts name no brands, no method masses, and no detection limits. They do state antimony up to 695.4 ppb in solution and 565.46 ppb in fiber, and lead in packaging "for example" 3.16 ppb. Those three figures are abstract claims. They are not used as results here because the tables were not opened. YÖK Tez Merkezi's search page loads. The detail URL tried for thesis 988276 returned 404. The hostname acikerisim.istanbulc.edu.tr did not resolve. AVESIS marks an open-archive collection and does not serve the PDF.
+
+Secondary accounts of a 2026 Chinese monitoring exercise, primary report not obtained:
+
+- A Sohu article (https://www.sohu.com/a/1007785864_120157034) describes a China Consumer Goods Quality and Safety Promotion Association monitoring action, with testing attributed to the National Textile and Apparel Product Quality Inspection and Testing Center (Guangzhou). The article says 21 online infant-wipe products were tested and antimony was detected in 20. It names the standard GB/T 27728.2-2024 and says antimony is not a required test item in the current wet-wipe national standard. It does not print concentrations. A separate industry-commentary page, not opened as a lab report, has been described elsewhere as citing 450.45 µg/L. That figure is not used. The laboratory report itself was not obtained.
+
+Searched and not a measurement of metals in baby wipes:
+
+- PubMed title search of wet wipes plus metal or antimony or lead returned one paper, "Turning Waste into Treasure: Flushable Wet Wipes Prepared from Corn Stalk" (Materials, 2023, DOI 10.3390/ma16227189). It is a materials paper, not a metals survey.
+- Nyamukamba and colleagues, 2023, is disposable diapers, already discussed.
+- Korean paper Bae and colleagues, 2018, DOI 10.13103/JFHS.2018.33.1.83, "A Study on the Safety of Commercial Wet Tissues," is indexed as preservatives, methanol, and pH. It was not opened as a metals paper and is not cited for a metal result.
+- Patent application WO2019070550A1 (Procter & Gamble) describes wipes and absorbent articles with bicomponent fibers whose PET core has less than 150 ppm antimony, and it says total antimony should be measured by microwave digestion and ICP-MS rather than by the artificial-sweat method ISO 105-E04. That is a product claim in a patent, not a survey of wipes on the market.
+- OpenAlex title search "heavy metals wet wipes" returned Choi 2016 and a duplicate record. Searches in Turkish, Korean, Japanese, Portuguese, and Spanish did not produce another opened laboratory table of metals in wet wipes, flushable wipes, or wipe nonwovens. A Sakarya University thesis on the physical behavior of flushable wipes in sewers is about tensile strength and fiber type, not metals.
+
+## What manufacturers have reported to states
+
+Pulled 25 September 2026 from the Interstate Chemicals Clearinghouse High Priority Chemicals Data System, which is the public reporting system for Washington's Children's Safe Products Act, Oregon's Toxic-Free Kids Act, Vermont Act 188, and Safer Products for Washington. API: https://hpcds.theic2.org/odata/vSearchReports. Search guide: https://www.theic2.org/wp-content/uploads/2025/06/HPCDS_Search_Guide.pdf. The only product-category brick whose name contains "wipe" is "Wipes - Personal" (GS1 brick 10000573). The raw rows are in `docs/briefs/zissu-wipes-state-reports.csv`.
+
+Washington, Oregon, and Vermont, category "Wipes - Personal": 18 published rows (16 Washington, 1 Oregon, 1 Vermont), reporting years 2012 through 2018. Every chemical in those rows is a paraben or diethyl phthalate. None is antimony, lead, cadmium, mercury, arsenic, cobalt, molybdenum, or any other metal. Manufacturers on those rows: Albaad USA, Inc.; Harmon Stores, Inc.; Greenbrier International Inc.; Buy Buy Baby, Inc. The only brand string returned for any of them is "Kids Flushable Wipes," model 196569, on the Vermont Greenbrier diethyl phthalate row (disclosure 0000150-84662-2018, reporting year 2016, component "textiles, synthetic fibers and blends," function "no function - contaminant," concentration "equal to or greater than 100 but less than 500 ppm"). Brand and model were not returned for the Washington or Oregon wipe-category rows. Component on the Albaad and Greenbrier textile rows is synthetic fibers and blends. The paraben rows from Harmon and Buy Buy Baby are filed on "homogenous mixtures" (the lotion), function preservative, ranges either 100 to less than 500 ppm or 1,000 to less than 5,000 ppm, target age under 3 except two Greenbrier diethyl phthalate rows at ages 3 to 12.
+
+A separate search for the word "wipe" in brand or product model, outside that category, found one metal filing that is actually a wipe:
+
+- Charlie Banana (USA) LLC, brand Charlie Banana, product model "Reusable Cotton Wipes." Vermont, reporting years 2018, 2020, and 2022. Antimony and antimony compounds, CAS 7440-36-0, function catalyst, component "textiles (synthetic fibers and blends)," concentration "equal to or greater than 100 but less than 500 ppm." The same disclosure number is filed on three bricks, not on "Wipes - Personal": Baby Hygiene Products, Baby Diapers (Non Disposable), and Baby Sanitary Furnishings - Other. These are reusable cotton wipes, not a disposable wet wipe, and the category the company chose is not the wipes brick.
+
+The same word search also returned Signature Brands, LLC, brand PAAS, model "MAGIC COLOR WIPES" (Vermont, 2025), an arts-and-crafts variety pack. Metal rows on that disclosure include antimony (100 to less than 500 ppm, function "component of plastic resin or polymer process," synthetic polymers), molybdenum (1,000 to less than 5,000 ppm, metals including alloys), and cobalt (500 to less than 1,000 ppm). That product is not a baby wipe or a personal-care wipe. It is in the CSV so the word search can be checked. A false hit on the toy name "Sideswipe" was left out of the CSV.
+
+Oregon's richer brand view (`vSearchBNPMOR`) returned no row whose brand or model contains "wipe."
+
+New York. The Department of Environmental Conservation page on Toxic Chemicals in Children's Products states that reporting is not required until DEC finalizes the implementing rule. Direct fetch of that page was blocked; the statement is from the page text retrieved in search and from DEC's regulatory agenda, which describes proposed 6 NYCRR Subpart 352-2 and gives the program mailbox as the contact. Antimony and antimony compounds (CAS 7440-36-0) are named in Environmental Conservation Law section 37-0905 and in DEC's chemicals-of-concern working list (https://extapps.dec.ny.gov/docs/materials_minerals_pdf/tccp_chem_lists.pdf). There is no public New York reporting database of wipe filings, because reporting is not in effect.
+
+Maine. The Department of Environmental Protection priority-chemical page (https://www.maine.gov/dep/safechem/childrens-products/priority/index.html), opened 25 September 2026, lists arsenic, bisphenol A, cadmium, specified flame retardants, formaldehyde, mercury, nonylphenol and nonylphenol ethoxylates, PFOS, and four phthalates. Antimony is not on that list. Reports are Excel forms submitted to the program. There is no public searchable product database on that page, and no wipe filing was retrieved.
+
+Vermont's legal list is the Chemicals of High Concern to Children under Act 188, and the public search is the same HPCDS system used above.
+
+## Fiber map of leading baby wipes
+
+This section records what the maker or the label says the sheet is made of. It is not a measurement of metals, and it is not a claim that any brand contains or does not contain antimony. Polyester and PET are the fiber type the catalyst literature is about. Viscose, lyocell, cotton, and wood pulp are different materials. "Plant-based" and "plastic-free" are marketing words until the fiber is named. Checked 25 September 2026.
+
+| Product | Stated sheet | Plastic-free claim on the page opened | Source |
+| --- | --- | --- | --- |
+| Pampers Aqua Pure | Cotton, regenerated cellulose, and polyester | No | Pampers materials page, updated 29 January 2025: https://www.pampers.com/en-us/baby/diapering/article/materials-and-safety. Same three fibers on SmartLabel, information last updated by Pampers 2 April 2024 and 4 November 2024: https://smartlabel.pg.com/en-us/00037000754152.html and https://smartlabel.pg.com/en-us/00037000754169.html |
+| Pampers Sensitive | Polypropylene and regenerated cellulose | No | Same Pampers materials page. SmartLabel, information last updated 24 July 2026: https://smartlabel.pg.com/en-us/00037000870760.html |
+| Huggies Natural Care (and the wipes page that also covers Simply Clean) | Wood pulp and polypropylene. Footnote: 70 percent or more plant-based by weight | No. Polypropylene is named | Huggies, "The Science Behind Huggies Wipes": https://www.huggies.com/en-us/resources/parenting/diaper-rash/the-science-behind-huggies-wipes. A direct request was blocked; the fiber sentence is from the page text retrieved in search. A retailer listing repeats the 70 percent claim and does not name the fibers: https://giantfood.com/groceries/product/huggies-natural-care-sensitive-fragrance-free-baby-wipes-pop-top-56-ct-pkg/184648 |
+| WaterWipes Original | Fiber type not named on the page | The page says WaterWipes does not use plastic as an ingredient. It also says the packaging is plastic film and that trace microplastics may be present in the finished product | https://www.waterwipes.com/products/newborn/waterwipes-original-baby-wipes (retrieved 25 September 2026; the U.S. host blocked a direct request, and this URL returned the product text) |
+| Honest Company Clean Conscious wipes | Plant-based viscose | "Wipes made without plastic" | https://honest.com/products/clean-conscious-wipes |
+| Seventh Generation Free & Clear baby wipes | Wood pulp, polypropylene, and polyethylene blend, described as the wipe material | No | Safety data sheet, file name dated 25 September 2016: https://www.seventhgeneration.com/sites/default/files/2020-03/sds-baby-wipes-free-and-clear-en-20160925.pdf. The current product page https://www.seventhgeneration.com/baby-wipes did not state a fiber in the text retrieved on 25 September 2026. The SDS is nine years older than that check |
+| Kirkland | Not disclosed | Not disclosed | No product page retrieved |
+| Up & Up (Target) | Not disclosed | Not disclosed | No product page retrieved |
+| Parent's Choice (Walmart) | Not disclosed | Not disclosed | Walmart returned a block page |
+| Aldi / Mamia | Not disclosed | Not disclosed | Aldi UK returned 403 |
+| Boots | Not disclosed | Not disclosed | Boots returned a bot-check page with no product text |
+| Tesco | Not disclosed | Not disclosed | No product page retrieved |
+| Rascal + Friends | Not disclosed | Not disclosed | https://www.rascalsbaby.com/en-us/products/baby-wipes returned a shell page without fiber text |
+| Coterie "The Wipe" | VEOCEL lyocell and VEOCEL viscose | "100% plastic-free fibers" and "100% plant-based fibers" | https://www.coterie.com/products/the-wipe |
+| Dyper baby wipes | "100% plant-based" nonwoven. Viscose, lyocell, cotton, and pulp are not named | "No plastic or plastic-derived materials" | https://dyper.com/products/wipes |
+| Mustela | Not disclosed | Not disclosed | Product URLs tried returned 404 |
+| Babyganics | Not disclosed | Not disclosed | Product URLs tried returned 404 |
+
+## Which metal limits actually apply
+
+Baby wipes are not one legal object. A wipe sold to clean skin is generally argued as a cosmetic. A wipe sold as a children's product can also be argued under state children's-product laws. A voluntary textile label is neither. The rows below are only instruments that were opened, plus the places where the instrument was not obtained.
+
+| Instrument | What it covers | Metal limit that applies to baby wipes | Opened |
+| --- | --- | --- | --- |
+| U.S. FDA, cosmetics | A product applied to the body to cleanse is a cosmetic under the Food, Drug, and Cosmetic Act. FDA's December 2016 draft guidance recommends 10 ppm lead as an impurity in lip products and externally applied cosmetics. The page says "Not for implementation." It does not name wipes. 21 CFR 700.13: a cosmetic is adulterated if it contains mercury, unless the mercury is an unavoidable GMP trace below 1 ppm (0.0001 percent), with an eye-area exception at 65 ppm | No antimony number. No wipe-specific lead number in force. Mercury rule is binding if the product is a cosmetic | Yes. See the read-first list |
+| CPSC / CPSIA | CPSIA lead limits attach to children's products, which the statute defines as consumer products designed or intended primarily for children 12 and under. No CPSC letter was opened that says a baby wipe is, or is not, that kind of product | Not established for this category in any document opened here | No determination opened |
+| Washington CSPA | Manufacturers report chemicals of high concern to children, including antimony, through HPCDS. "Wipes - Personal" is an active reporting category. Reporting is not a limit | No metal was reported in that category in the pull above. The reports that do exist are parabens and diethyl phthalate | Yes, HPCDS |
+| Oregon Toxic-Free Kids Act | Same HPCDS system | Same empty metal result for the wipes category | Yes, HPCDS |
+| New York ECL Title 9, Article 37 | Antimony is named in the statute and on DEC's working list. DEC says reporting is not required until the rule is final | No wipe filings, because there is no reporting database yet | Statute and working list opened. The DEC program page itself was blocked on direct fetch |
+| Maine priority chemicals | Arsenic, cadmium, and mercury are on the priority list. Antimony is not | No public wipe filing retrieved | Yes |
+| California Proposition 65 | Warning statute, not a ppm limit. The Attorney General's 60-day-notice search page loads (https://oag.ca.gov/prop65/60-day-notice-search) but the results are drawn in the browser and did not come back in the page source. A web search of that site returned lead notices about diaper-rash creams, and one 2025 notice (2025-03184) whose extract mentions wipes and PFOS. That notice was not opened as a baby-wipe lead or antimony case | No opened 60-day notice that alleges lead or antimony in baby wipes | Search incomplete |
+| EU cosmetics, Regulation (EC) No 1223/2009 | If a wet wipe is a cosmetic, Annex II prohibits antimony, arsenic, cadmium, chromium, mercury, and lead as ingredients. Article 17 allows a technically unavoidable trace and sets no ppm | No numeric trace limit in Article 17 | Yes, legislation.gov.uk |
+| EU REACH textile CMR restriction, Commission Regulation (EU) 2018/1513 | Would matter if a wipe were regulated as a textile article rather than a cosmetic | Not cited. The EUR-Lex text was not retrieved | No |
+| EU Ecolabel, textiles, Commission Decision 2014/350/EU, criterion 7(a) | Voluntary. Antimony in polyester fibers shall not exceed 260 ppm, measured on raw fiber before wet processing. Recycled-bottle PET is derogated. The product group includes nonwoven cleaning products for surfaces | Not a legal limit, and not written for baby wipes. It is the voluntary polyester number behind the catalyst literature | Yes, consolidated text CELEX 02014D0350 |
+| EU Ecolabel, absorbent hygiene products, Decision (EU) 2023/1809 | Voluntary. Article 1 is products whose function is to absorb and retain human fluids, excluding textiles. Annex Table 9, impurities in the final product: antimony below 30 mg/kg, cadmium below 0.1, chromium below 1, lead below 0.2, mercury below 0.02. Recommended methods NWSP 360 | These are diaper and pad criteria. A cleaning wipe is outside Article 1 as written. Do not apply the 30 mg/kg figure to a baby wipe | Yes |
+| Nordic Swan, sanitary products criteria 023 | The criteria document opened for the consultation says wet wipes for personal use are not in this product group and may be labeled under cosmetic criteria instead. Version note 7.1 (14 October 2025) says requirement O42b bans plastic in wipes and washcloths that are inside these criteria | No metal number for baby wipes was opened. A cosmetic-criteria consultation (090) proposes that fossil-based fibers no longer be allowed in wet wipes. That is a proposal, not a limit in force in any file opened here | Scope page and consultation PDF yes. Current cosmetic criteria PDF no |
+| Health Canada cosmetic impurity guidance, section 4 | Guidance, not a regulation. Technically avoidable above lead 10, arsenic 3, cadmium 3, mercury 1, antimony 5 ppm, if the product is a cosmetic. Does not name baby wipes | The antimony 5 ppm figure is the only government antimony number opened that could be argued to reach a cosmetic wipe. It is guidance | Yes, via the 10 January 2025 archive capture |
+| China GB/T 27728.2-2024 | Recommended national standard for wet wipes for children 6 and under. Published 29 September 2024, implemented 1 October 2025. Intertek's summary of the series says lead, arsenic, cadmium, and mercury are test items for infant wipes. Antimony is not in that list. GB 15979-2024, mandatory for disposable sanitary products in contact with the body, is summarized as assessing lead, arsenic, and mercury in wet wipes | Numeric limits were not in the Intertek summary, and the standard PDF was not obtained (the national digital library record and a commercial preview show the table of contents only). No Chinese ppm figure is cited | Summary opened. Standard text not opened |
+| OEKO-TEX STANDARD 100, Annex 4, edition 02.2025 | Private certification. Class I (baby) extractable antimony 30.0 mg/kg, lead 0.2, cadmium 0.1, mercury 0.02, nickel 1.0. A wet-wipes pH footnote sets 3.5 to 7.5. Extractable and total are different tests | Not law. A total antimony result cannot be scored against the extractable 30 mg/kg line | Yes |
+| EDANA and INDA | Industry codes that were located are about flushability labeling, not metals | No metal limit opened | No metal code opened |
+
+## People who can talk about this on the record
+
+Institutional pages only. No personal addresses are copied here.
+
+1. Andrew Turner, School of Geography, Earth and Environmental Sciences, University of Plymouth. Coauthor of Biver, Turner, and Filella, 2021, the polyester-antimony paper (DOI 10.1016/j.yrtph.2020.104824). Staff page: https://www.plymouth.ac.uk/staff/andrew-turner
+
+2. Montserrat Filella, Department of Earth Sciences / Institute F.-A. Forel, University of Geneva. Coauthor of the same paper, and a long-running antimony chemist. Staff page: https://www.unige.ch/geolenv/en/equipe/montserrat-filella
+
+3. Sang-Jin Kim, corresponding author of Choi, Song, and Kim 2016. Affiliation printed in the paper: Department of Cosmetic Science, Daejeon Health Sciences College, and Chemolee Lab Corporation, Irving, Texas. Sung-Min Choi is affiliated in the paper with PCAM Korea, Daejeon. Jin-Kun Song is affiliated with Chemolee Lab. A faculty directory page was not located. The public record of the affiliation is the paper: https://www.koreascience.kr/article/JAKO201614138121845.pdf
+
+4. Washington State Department of Ecology, Children's Safe Products Act reporting program, which holds both the Stone laboratory report and the HPCDS filings. Program page: https://ecology.wa.gov/regulations-permits/reporting-requirements/childrens-safe-products-act-reporting. The public search itself is https://hpcds.theic2.org/Search. Alex Stone is the author named on Ecology Publication 14-04-014. Use the publication page rather than a personal address: https://apps.ecology.wa.gov/publications/documents/1404014.pdf
+
+5. Zeynep Türkmen, supervisor of the 2025 Istanbul thesis, Department of Natural and Applied Sciences, Institute of Forensic Sciences, Istanbul University-Cerrahpaşa. The public thesis record, which is the way to ask for the PDF, is https://avesis.iuc.edu.tr/advisingtheses/details/816be3d8-ab8f-467a-ba33-9245ee1449b5/bebek-islak-mendillerinin-sivi-fiber-ve-ambalaj-iceriginin-agir-metal-kontaminasyonu-acisindan-degerlendirilmesi
+
+No U.S. dermal-exposure toxicologist with a published study of metals moving out of baby wipes was identified. That absence is the exposure gap in the first half of this note.
