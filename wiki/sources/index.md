@@ -101,6 +101,26 @@ Government and agency texts, then the peer-reviewed and technical reports cited 
 - [[sources/zeldin2023-antimony-atopic-dermatitis]]
 - [[sources/cpqs2026-online-baby-wipes-antimony]]
 
+## Government antimony instruments opened 2026-09-25
+
+Official texts checked for antimony limits. Two of them set no antimony number. China GB 31701 and GB 18401 were not obtained.
+
+- [[sources/cfr2025-40cfr141-62-antimony-mcl]]
+- [[sources/cfr2025-40cfr141-51-antimony-mclg]]
+- [[sources/epa2026-npdwr-antimony]]
+- [[sources/epa-archived-consumer-factsheet-antimony]]
+- [[sources/eu-2020-2184-drinking-water-directive]]
+- [[sources/eu-2023-1809-ecolabel-absorbent-hygiene]]
+- [[sources/eu-2009-48-toy-safety-oj]]
+- [[sources/eu-2009-48-toy-safety-consolidated-2026-08-29]]
+- [[sources/eu-2025-2509-toy-safety-regulation]]
+- [[sources/eu-2014-350-ecolabel-textiles]]
+- [[sources/eu-2014-350-ecolabel-textiles-consolidated-2026-01-06]]
+- [[sources/mfds2026-23-hygiene-products-diapers]]
+- [[sources/kats2022-0220-childrens-products-common-safety]]
+- [[sources/kats2024-infant-textile-products]]
+- [[sources/jp-cabinet-order-334-1974-household-products]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

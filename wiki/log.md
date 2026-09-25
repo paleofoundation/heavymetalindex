@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | government antimony limits from official texts
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[sources/index]], and 15 new pages under [[sources/index]].
+Notes: Fifteen official government texts were checked against their checksums and given source pages. A Government limits table on the antimony metal page and on the baby-product synthesis records each antimony value as printed, with its unit, basis, and scope. That includes the U.S. drinking-water MCL and MCLG of 0.006 mg/l, the EU drinking-water parametric value of 10 μg/l, the voluntary Ecolabel figures for absorbent hygiene products and for textiles, the toy migration limits of 45, 11,3, and 560 mg/kg carried into Regulation (EU) 2025/2509, the Korean diaper migration limit of 60 mg/kg or less, and the KATS children's-product migration limit of 60 mg/kg or less. Japan Cabinet Order No. 334 of 1974 and the KATS infant-textile annex print no antimony limit. No US federal limit exists for antimony in diapers or in textiles. China GB 31701 and GB 18401 were not obtained. The archived EPA fact sheet's unfilled long-term health paragraph is not quoted. `ingest_status` is not set to complete. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] ingest | antimony primary source pages and number ledger
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[sources/index]], `docs/briefs/antimony-number-ledger.csv`, and 32 new pages under [[sources/index]].

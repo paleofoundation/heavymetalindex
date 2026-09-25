@@ -120,6 +120,38 @@ No chronic oral minimal risk level exists in the 2019 ATSDR profile.
 
 Limits below are copied from instruments or from wiki regulation pages that transcribe them. A drinking-water concentration, a specific migration limit into food, a toy-migration limit in milligrams per kilogram of toy material, and a cosmetic impurity guidance value are different bases. None of them is a baby-wipe content limit.
 
+### Government limits
+
+The rows in this table are taken from official texts opened for this revision. Each value is the figure printed in that text, with the unit, basis, and scope printed beside it. A drinking-water maximum, a voluntary label criterion, a toy migration limit, and a diaper migration limit are different bases. They are not averaged.
+
+| Instrument | Value as printed | Unit | Basis | Scope |
+| --- | --- | --- | --- | --- |
+| [[sources/cfr2025-40cfr141-62-antimony-mcl\|40 CFR 141.62(b)(11)]], 1 July 2025 edition | 0.006 | mg/l | MCL, column headed MCL (mg/l) | Drinking water from public water systems. BAT identifiers printed beside antimony are 2 and 7. |
+| [[sources/cfr2025-40cfr141-51-antimony-mclg\|40 CFR 141.51(b)]] | 0.006 | mg/l | MCLG, column headed MCLG (mg/l) | Non-enforceable drinking-water goal. The line sits on the page whose running head is section 141.52 because the table continues. |
+| [[sources/epa2026-npdwr-antimony\|EPA NPDWR web table]], last updated 31 August 2026 | 0.006 and 0.006 | mg/L | MCLG, and MCL or TT | Drinking water. This print is the agency web table. Its health-effects cell is filled. It is not the archived fact sheet. |
+| [[sources/epa-archived-consumer-factsheet-antimony\|EPA archived consumer fact sheet]] | 6 and 6 | ppb | MCLG and MCL | Drinking water. The long-term health paragraph is an unfilled template and is not quoted. |
+| [[sources/eu-2023-1809-ecolabel-absorbent-hygiene\|Decision (EU) 2023/1809]] of 14 September 2023, Table 9 | < 30 | mg/kg | Content in the final product, not migration | Absorbent hygiene products, voluntary EU Ecolabel. The listed chemicals shall not be present in the final product above the table. Criteria valid until 31 December 2029. |
+| [[sources/eu-2020-2184-drinking-water-directive\|Directive (EU) 2020/2184]], Annex I, Part B | 10 | μg/l | Parametric value | Water intended for human consumption. Annex III prints measurement uncertainty of 40 percent of the parametric value. |
+| [[sources/eu-2009-48-toy-safety-oj\|Directive 2009/48/EC]], original Official Journal, Annex II, Part III, point 13 | 45; 11,3; 560 | mg/kg | Migration | Dry, brittle, powder-like or pliable toy material; liquid or sticky toy material; scraped-off toy material. The comma in 11,3 is the printed decimal mark, read in English as 11.3. |
+| [[sources/eu-2009-48-toy-safety-consolidated-2026-08-29\|Same directive, consolidated 29 August 2026]] | 45; 11,3; 560 | mg/kg | Migration. The antimony line is flagged as original text (B), not as an amendment. | Same three materials. A text extraction of the consolidated PDF inserts a space inside 45. The original Official Journal and Regulation (EU) 2025/2509 both print 45. The consolidation is a documentation tool and has no legal effect. The directive is repealed with effect from 1 August 2030. |
+| [[sources/eu-2025-2509-toy-safety-regulation\|Regulation (EU) 2025/2509]], Annex II, Appendix, Part A, point 1 | 45; 11,3; 560 | mg/kg | Migration from toys, components of toys, or micro-structurally distinct parts of toys | Same three materials. The regulation applies from 1 August 2030. Articles 28 to 44 and Articles 49 to 55 apply from 1 January 2026. |
+| [[sources/mfds2026-23-hygiene-products-diapers\|Korea MFDS Notice 2026-23]], children's diapers | 60이하 (60 or less) | mg/kg | Migration of the topsheet and of the backsheet, each | Children's diapers and children's hygiene mats only. Footnote: synthetic resin and paper only. Enacted as Notice 2018-19 on 21 March 2018. The cover prints 2026. 3. 4. The history line prints 2026.03.24. |
+| Same notice, other articles | 60이하 (60 or less) | mg/kg | Migration | Children's disposable cotton swabs; toothbrushes; dental floss, on the part that can contact the mouth or on the floss; tongue cleaners, on oral-contact parts excluding the handle. |
+| Same notice, tattoo dyes, section 21 | 2 이하 (2 or less) | mg/kg | Content of a restricted element | Tattoo dye. This row is not the diaper migration limit. |
+| [[sources/eu-2014-350-ecolabel-textiles\|Decision 2014/350/EU]], criterion 7(a) | 260 | ppm | Total antimony in polyester fibres, measured on raw fibres before wet processing | Voluntary EU Ecolabel. Fibres manufactured from recycled PET bottles are derogated. |
+| Same decision, Appendix 1 (iv) | 30,0 and 30,0 | mg/kg | Extractable metals, acid sweat, EN ISO 105-E04-2013, ICP-MS or ICP-OES | Products for babies and children under 3 years old, and, as a separate list, all other products including interior textiles. The comma in 30,0 is the printed decimal mark, read in English as 30.0. Antimony is the same figure on both lists. |
+| Same decision, antimony trioxide back-coating derogation | 0,50 | mg/m3 | Eight-hour workplace air value | Interior textiles where antimony trioxide is used as a flame-retardant synergist. Not extractable antimony in the fabric. |
+| [[sources/eu-2014-350-ecolabel-textiles-consolidated-2026-01-06\|Same decision, consolidated 6 January 2026]] | 260; 30,0; 30,0 | ppm; mg/kg; mg/kg | The same fibre-content and acid-sweat bases as the original decision | Criteria valid until 31 December 2028. The consolidation is a documentation tool and has no legal effect. |
+| [[sources/kats2022-0220-childrens-products-common-safety\|Korea KATS Notice 2022-0220]], section 3.1.1 | 60 mg/kg 이하 (60 mg/kg or less) | mg/kg | Migration, tested by KS G ISO 8124-3 | Products made to be put in the mouth, or products for children under 36 months, limited to painted surfaces including coatings, synthetic resin, and paper. The PDF is a conversion from HWP, not a PDF issued by KATS. The remark that excludes textile fabric is printed on the total lead and cadmium content table, not on this migration row. |
+| [[sources/kats2024-infant-textile-products\|KATS Annex 1, infant textiles, in force 7 March 2024]], Table 2 | none printed | none | none | No antimony row. This annex sets no antimony limit for infant textile fabric. |
+| [[sources/jp-cabinet-order-334-1974-household-products\|Japan Cabinet Order No. 334 of 1974]] | none printed | none | none | The designated harmful-substance list does not name antimony. This order sets no antimony limit for household products. |
+
+No US federal limit exists for antimony in diapers or in textiles. The federal texts opened here, 40 CFR 141.51, 40 CFR 141.62, the NPDWR table, and the archived consumer fact sheet, regulate drinking water.
+
+China GB 31701 and GB 18401 were not obtained. No antimony value from those standards is recorded. GB/T 18885 and FZ/T 73025 were also not obtained, and no value from them is recorded.
+
+The table that follows remains the index of other instruments already transcribed from regulation pages in this corpus. Where both tables print a figure, the figure in this section is the one read from the official text opened here.
+
 | Instrument | What it limits | Value | Basis |
 | --- | --- | --- | --- |
 | [[regulations/us-epa-2018-drinking-water-standards-health-advisories\|U.S. EPA NPDWR]], confirmed on the EPA regulations page | Drinking water | 0.006 mg/L MCL and MCLG | Water, as consumed |
