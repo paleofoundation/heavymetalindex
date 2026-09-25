@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | baby-wipes-verify — number ledger against the opened sources
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: The number ledger is docs/briefs/baby-wipes-number-ledger.csv. Each number in the synthesis is in that ledger. Choi section 2.2 prints 7 mL of 70 percent nitric acid and 1 mL of 50 percent hydrofluoric acid, then dilution with 25 mL of water. It does not say the digest was made up to 25 mL. Both reconstructions stay: 0.125 and 0.165. Biver Table 1 totals now include the pillowcase row, 200 µg/g, with 125, 185, 286, 357, and 471. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-8 — Göçer thesis, three matrices, co-exposure outline
 
 Pages touched: [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]], [[sources/shin2004-disposable-diaper-heavy-metals]], [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]], [[docs/briefs/baby-wipes-coexposure-outline]]
