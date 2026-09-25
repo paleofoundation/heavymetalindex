@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-synthesis — mint-ready paper on heavy metals in baby wipes
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[products/baby-wipes]], [[synthesis/index]]
+Notes: Choi 2016 is now a source page. Detects stay in micrograms per liter of digest solution. No mg/kg conversion. The synthesis page is a DOI candidate with wiki_doi null. It was not minted. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-25] query | zissu-wipes-page-nine-metals — baby-wipes page rows for all nine metals
 
 Pages touched: [[products/baby-wipes]]

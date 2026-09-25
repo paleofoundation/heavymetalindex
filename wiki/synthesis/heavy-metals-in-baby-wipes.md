@@ -1,0 +1,207 @@
+---
+type: synthesis
+title: "Heavy metals in baby wipes"
+slug: heavy-metals-in-baby-wipes
+author: "Karen Pendergrass"
+orcid: "0000-0002-2348-7259"
+cite_title: "Heavy metals in baby wipes"
+license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
+dek: "Baby wipes have been measured for heavy metals in two incompatible units, and antimony is the metal those measurements actually find. Tin, aluminum, inorganic arsenic, methylmercury, and hexavalent chromium have no wipe result in the documents opened for this synthesis. A concentration in a sheet is not a dose."
+audience: [regulator, educator, consumer, brand-legal]
+metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb]
+products: ["[[products/baby-wipes]]"]
+anchor_sources: ["[[sources/choi2016-wet-wipes-nonwoven-heavy-metals]]", "[[sources/stone2021-wa-metals-childrens-consumer-products]]", "[[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]", "[[sources/smajgl2015-tin-baby-diapers-croatia]]"]
+established: 2026-09-25
+wiki_doi: null
+updated: 2026-09-25
+---
+
+# Heavy metals in baby wipes
+
+## Abstract
+
+Direct measurements of heavy metals in baby wipes are scarce, and the two primary datasets that do exist do not share a unit. A Washington State Department of Ecology laboratory table reports three wipe components at 40.6, 61.3, and 70.6 ppm antimony, with lead at 0.4, 0.8, and 1.4 ppm and total chromium at 0.5 to 0.6 ppm. Arsenic, cadmium, and mercury are printed as 0.0 in those rows. The report does not describe the digestion, does not name the fiber, and does not include nickel, tin, or aluminum. Choi, Song, and Kim [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|2016]] digested 24 wet-wipe sheets and reported arsenic, cadmium, mercury, nickel, lead, antimony, and thallium in micrograms per liter of digest solution. Antimony was detected in 12 sheets. The highest result, 19,558.35 µg/L, is labeled rayon. Nickel was detected in two sheets. Cadmium, mercury, and thallium were not detected. A conversion of those solution numbers to milligrams per kilogram was not adopted, because the mass is approximate and the final volume is not stated.
+
+No opened wipe study measures inorganic arsenic, methylmercury, hexavalent chromium, tin, or aluminum. No opened study measures how much of any metal in a wipe crosses infant skin. Regulatory numbers that were opened are cosmetic-impurity rules, orientation values, or textile extractable limits. They are not the same measurement as a total digest, and they are not a risk verdict. This synthesis states what those documents support. It does not rank products now on the shelf, and it does not set a certification limit.
+
+## Product anatomy
+
+A wet wipe is a sheet plus a liquid, sold in a package. The sheet is a nonwoven. Fibers named on products and in the literature include rayon (regenerated cellulose, usually from wood pulp), polyester, including polyethylene terephthalate (PET), cotton, polypropylene, and blends. Choi, Song, and Kim [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|2016]] record rayon plus polyester on 12 of their wet wipes, rayon plus PET on 5, and rayon, cotton, rayon plus polyester plus cotton, or pulp plus polypropylene on others. Three wet wipes and the mask packs had no fiber statement. The authors note that PET is a polyester.
+
+The liquid is there to wet the sheet, clean skin, and carry preservatives and, when the product is scented, fragrance. A 2022 manufacturing paper on polyester and viscose baby wipes (DOI 10.1177/15280837211046619) describes one lotion as purified water, a surfactant, phenoxyethanol below 0.40 percent, and EDTA below 0.03 percent, and it cites a recommendation that baby wipes be buffered toward skin pH. That paper names no metal salt and reports no metal concentration. It was read from a publisher extract. It is product anatomy, not a metals result, and it is not a completed source record in this wiki.
+
+Manufacture is where antimony enters the polyester story. PET is made by polymerizing ethylene glycol and terephthalic acid. Industrial accounts, including the Choi discussion, state that a metal catalyst is used to speed that polymerization, and that antimony trioxide is the historical catalyst. Titanium, germanium, and other metals are alternatives. That chemistry is real for PET. It is a hypothesis for a given wipe until the fiber and the metal are measured on the same sheet. Choi's own table breaks a simple rule: the highest antimony result is the rayon-only sheet, and several polyester-labeled sheets had none detected. Rayon production is a cellulose process, not a PET polymerization. A high antimony number on a rayon label can mean the label is incomplete, the antimony has another source, or both. This paper does not choose among those readings.
+
+Packaging is a separate article. Washington Ecology [[sources/stone2021-wa-metals-childrens-consumer-products|2014]] measured metals in some wipe packages as well as in wipe components. A package result is evidence about the package. It is not evidence that the metal moved into the sheet or the lotion.
+
+## Measured evidence
+
+Two wipe datasets were opened in full. They are not pooled. Washington results are ppm in a component that had already screened positive by X-ray fluorescence. Choi results are µg/L in a digest of the sheet. A printed 0.0 in Washington is the table value. The report does not give a detection limit for those three rows, so 0.0 is not restated as a formal non-detect. A dash in Choi is not detected relative to the limits in that paper's Table 4.
+
+Adjacent products are labeled as adjacent. Diaper extracts and diaper tin are not wipe measurements. Mask packs in the Choi paper are not baby wipes.
+
+| Metal | Measured in wipes | What was not measured |
+| --- | --- | --- |
+| Lead | Washington, three components: 0.4, 0.8, and 1.4 ppm. Choi, six sheets: 7.23 to 55.67 µg/L in the digest. | Species other than total lead. Lotion fraction. Whether the Washington component was sheet, lotion, or both. |
+| Arsenic | Total arsenic. Washington: 0.0 in all three components. Choi: 47.14 to 71.75 µg/L in the three United States sheets only. | Inorganic arsenic. No speciation in either study. |
+| Mercury | Total mercury. Washington: 0.0 by cold-vapor atomic absorption. Choi: not detected on a mercury analyzer. | Methylmercury. |
+| Cadmium | Washington: 0.0. Choi: not detected. | A market rate. Both sets are small, and Washington is a screened list. |
+| Chromium | Total chromium. Washington: 0.6, 0.5, and 0.6 ppm. The report says hexavalent chromium analysis was outside the study. | Hexavalent chromium. Choi has no chromium column. |
+| Nickel | Choi, two sheets: 261.26 ± 5.14 µg/L (rayon, polyester, and cotton) and 1,242.63 ± 43.71 µg/L (United States, cloth-like). Twenty-two sheets not detected. | Washington has no nickel column. Lotion nickel: no data found. |
+| Tin | No data found. | Not in either wipe panel. No organotin result in a wipe was found. |
+| Aluminum | No data found. | Not in either wipe panel. No wipe-lotion aluminum concentration was found. |
+| Antimony | Washington: 40.6, 61.3, and 70.6 ppm. Choi: 12 of 24 sheets, 187.86 to 19,558.35 µg/L. Highest is rayon-only. | Oxidation state. Sheet-versus-lotion split for the wet wipes. A content unit for the Choi rows. |
+
+Washington packaging, not the wipe: one moist-wipes package at 95.8 ppm antimony, and one breast-wipes package at 38.0 ppm antimony, 0.6 ppm cadmium, 7.6 ppm chromium, and 30.8 ppm lead. Those rows stay on the package.
+
+Nyamukamba and colleagues [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde|2023]] extracted metals from 20 disposable diapers, not wipes. Sweat-extract nickel was 0.022 to 0.197 mg/kg, and one urine extract was 0.224 mg/kg. The authors compared those figures with an Oeko-Tex nickel value of 0.1 mg/kg. The OEKO-TEX STANDARD 100 Annex 4 edition opened for this project (edition 02.2025) lists class I extractable nickel at 1.0 mg/kg. Both Nyamukamba ranges sit below 1.0. Sweat-extract total chromium in that study was 0.013 to 0.119 mg/kg. The panel has no tin, aluminum, or mercury. This is pathway context for a product worn against the same skin. It is not a wipe result.
+
+Šmajgl and Obhođaš [[sources/smajgl2015-tin-baby-diapers-croatia|2015]] measured total tin by EDXRF in disposable diaper top sheets and adhesive tape. The publisher abstract gives top sheet under 1.5 to 23.1 mg/kg and tape under 1.5 to 22.4 mg/kg. The method does not speciate organotin. The PDF was not re-opened for this synthesis. The abstract ranges are the figures used. They are diaper parts, not wipes.
+
+## Toxicology
+
+Toxicology here is the hazard each metal is known for, the endpoint that usually drives that hazard, and what, if anything, is known about the metal on infant skin or in a wipe. A classification or a reference dose derived from ingestion or inhalation is not a wipe dose. Where a dermal number was not in a document opened for this paper, the cell says so.
+
+Infant skin is the exposure surface, and this paper does not assign it a number. No primary dermatology study opened here quantifies stratum corneum thickness, a diaper-area contact time, or an infant surface-area-to-body-weight ratio for wipe use. The reasons those factors matter are ordinary and still unquantified in this file: the barrier is immature in early infancy, the diaper area is occluded and often wet or already inflamed, and an infant's skin area is large relative to body weight. Occlusion, maceration, and dermatitis can change absorption. They are reasons to measure the dermal route. They are not a measured fraction. No opened study reports the share of lead, nickel, chromium, or antimony that crosses intact or dermatitic infant skin from a wipe sheet or a wipe lotion.
+
+### Lead
+
+Lead is a developmental neurotoxicant. The endpoint that dominates infant and child assessments is effects on the developing nervous system, with no opened threshold in this file below which a wipe dose would be called without effect. The wipe evidence is a concentration, not that dose. Washington found 0.4 to 1.4 ppm in three screened components. Choi found 7.23 to 55.67 µg/L in six digests. Neither study measured blood lead, dermal absorption, or hand-to-mouth transfer from a wipe. A package at 30.8 ppm lead is not the wipe. Calling either dataset a violation of a 1 ppm cosmetic rule would require the same basis as the statute and a sample taken while the statute applied. Those conditions were not shown.
+
+### Arsenic
+
+The arsenic hazard that regulatory food work isolates is inorganic arsenic. Carcinogenicity and, at lower exposures, developmental and dermal effects are the usual concerns, and they attach to the inorganic species, not automatically to every total-arsenic number. Both wipe studies report the element only. Choi's three detects are 47.14 to 71.75 µg/L of total arsenic in United States sheets. Inorganic arsenic in a wipe: no data found. A total-arsenic detect is a reason to speciate. It is not an inorganic-arsenic result.
+
+### Mercury
+
+Methylmercury is the organic species associated with neurodevelopmental harm after ingestion, especially from fish. Elemental and inorganic mercury have different kinetics, including dermal and inhalation routes for some forms. The wipe measurements are total mercury, and both are non-detects within the limits of those methods: Washington prints 0.0, and Choi prints a dash. Methylmercury in a wipe: no data found. A non-detect on a total-mercury method does not prove the absence of a trace below the limit, and the Choi mercury quantification limit is internally inconsistent (0.80 µg/L in Table 4, 0.08 µg/L in the methods paragraph).
+
+### Cadmium
+
+Cadmium's critical long-term endpoint in dietary assessments is kidney tubular dysfunction, with bone effects at related exposures. That record is an oral, cumulative record. Wipe measurements opened here did not detect cadmium in the Washington components (printed 0.0) or in any Choi sheet. No dermal-absorption fraction from a wipe was opened. A non-detect in two small panels is not a demonstration that every lotion and every sheet is free of cadmium.
+
+### Chromium
+
+Chromium toxicity depends on oxidation state. Trivalent chromium is an essential nutrient at low doses and is poorly absorbed by mouth. Hexavalent chromium is the sensitizer and the carcinogenic species in the occupational record, which is largely inhalation and, for sensitization, skin. Washington measured total chromium at 0.5 to 0.6 ppm and stated that hexavalent chromium was outside the study. Choi did not measure chromium. Hexavalent chromium in a wipe: no data found. No elicitation threshold for chromium on infant diaper skin was opened for this paper. A total-chromium number cannot be read as hexavalent chromium, and it cannot be read as a sensitization test.
+
+### Nickel
+
+Nickel is the most common cause of metal allergic contact dermatitis. Sensitization is acquired through skin exposure. Once a person is sensitized, later contact can elicit a rash. The clinical literature distinguishes a sensitization threshold from an elicitation threshold, and both are usually expressed as release per area over time, not as a bulk concentration in a wet sheet.
+
+What was opened is a prevalence among people who were patch tested, not a threshold and not a wipe study. A 2025 Contact Dermatitis systematic review and meta-analysis (DOI 10.1111/cod.14753; corresponding author Mikkel Bak Jensen) found nickel sulphate at 11.9 percent (95 percent confidence interval 8.6 to 15.71) across 16 studies of patch-tested children under 18, covering 2010 to 2024. That is the allergen with the highest prevalence in that selected population. It is not a general-population rate, and the children were not tested because of wipes.
+
+European REACH Annex XVII entry 27 limits nickel release from piercing posts (under 0.2 µg/cm²/week) and from prolonged-contact metal articles such as jewelry and garment hardware (0.5 µg/cm²/week). A wet wipe is not one of those articles. The 0.5 µg/cm²/week figure is a release rule for metal articles. It is not a clinical elicitation threshold measured on infant skin under a wipe, and this paper does not adopt it as one.
+
+No opened paper shows that nickel measured in a baby wipe caused diaper dermatitis. The wipe rashes that were opened are preservative and fragrance stories, summarized under the co-exposure note in the data-gaps section. Choi's two nickel detects remain solution concentrations. They have not been converted to mg/kg, and they have not been converted to a release per square centimeter.
+
+### Tin
+
+Inorganic tin in food is an acute gastric irritant at intakes far above ordinary trace levels, and that record is about canned food, not skin. Organotin compounds are a different hazard class, used as biocides, PVC stabilizers, and some polymerization catalysts. The diaper EDXRF study hypothesizes an organotin catalyst or a PVC stabilizer and does not speciate. No tin measurement in a wipe, inorganic or organic, was found. No dermal threshold for tin from a wipe was opened.
+
+### Aluminum
+
+Aluminum neurotoxicity and bone toxicity are documented at high systemic exposures, particularly when the kidney cannot clear the metal, as in infants on parenteral nutrition or in some formula comparisons. That record does not transfer to a wipe by analogy. Aluminum in a baby wipe, a wipe lotion, or a wipe nonwoven: no data found in the documents opened here. The 2022 manufacturing extract names no aluminum salt. Papermaking alum and aluminum packaging were not measured in a wipe. No dermal-absorption fraction was opened.
+
+### Antimony
+
+Antimony trioxide is the compound named in the polyester-catalyst account. The International Agency for Research on Cancer, Monograph Volume 131 (2023), evaluated trivalent antimony as probably carcinogenic to humans (Group 2A). The monograph's agent list includes antimony trioxide among the trivalent compounds. The Group 2A rationale, as printed in the NCBI Bookshelf text of that volume, is limited evidence for cancer in humans, sufficient evidence in experimental animals, and strong mechanistic evidence. The human evidence discussed is lung cancer in occupational cohorts. Pentavalent antimony was evaluated as Group 3 (not classifiable). The same volume's general remarks state that antimony trioxide alone had previously been evaluated as possibly carcinogenic (Group 2B) in 1989. Inhalation is described as the significant occupational route. Dermal contact with dust is named as a concern in production and processing, including a modelled textile flame-retardant scenario. None of that text is an infant, a wipe, or a dermal dose from a lotion.
+
+Choi's discussion attributes high antimony in nonwovens to antimony trioxide used as a PET catalyst. The measurements are total antimony. They do not identify the oxide, the oxidation state, or the amount that leaves the fiber in sweat or lotion. Washington's 40.6 to 70.6 ppm results are total antimony in a screened component of undescribed preparation. Textile studies of polyester clothing, not wipes, are the adjacent evidence that antimony sits in the fiber and that only a small share moves into artificial sweat under those tests. That transfer fraction was not re-measured here and is not applied to wipes.
+
+A Group 2A classification is a hazard classification for the trivalent agent. It is not a finding that a baby wipe causes cancer, and this paper does not make that finding.
+
+## Exposure framing
+
+A wipe exposure has at least four inputs: how much metal is in the sheet and in the lotion, how much of the product touches skin, how long it stays there, and what fraction is absorbed. Frequency of use and contact time are real variables. This paper does not assign them numbers, because no primary time-and-motion or diary study of baby-wipe use was opened.
+
+An illustrative calculation is not offered. The rule used here is that every input has to come from a document that was opened, and the arithmetic has to be labeled as illustrative rather than as a risk. Choi's approximately 0.2 g is the mass put into a digestion vessel, not the mass of a wipe a caregiver uses. The 25 mL figure is water added to the digest, not a wipe's lotion load. No opened source supplied, together, a wipe mass, a use frequency, a contact time, and a dermal absorption fraction for any metal. Inventing the missing inputs would look like a dose and would not be one. The gap is the finding.
+
+What can be said without arithmetic is qualitative and still useful. The metal that the wipe measurements find is antimony, on bases that cannot yet be compared with each other or with a cosmetic ppm limit. Nickel is present in two digested sheets and absent, at the method's limit, in the other twenty-two. Lead is a low ppm signal in three screened Washington components and a µg/L signal in six Choi digests. The dermal step is unmeasured. Until it is measured, the honest consumer statement is that a concentration in a wipe is a concentration in a wipe.
+
+## Regulatory landscape
+
+A baby wipe is not one legal object in the texts opened here. A product applied to the body for cleansing can fall inside a cosmetic definition. A voluntary textile label is not a statute. Limits below are cited only in the unit and the legal character of the instrument. Choi's micrograms per liter are not placed beside them as if they were the same measurement. Washington's ppm values are not scored as exceedances: the preparation is undescribed, and the samples predate later statutes.
+
+European Union Regulation 1223/2009, Annex II, prohibits arsenic, antimony, cadmium, chromium and its salts, lead, mercury (with an Annex V exception), and elemental nickel as ingredients. Many nickel salts are separate entries. Article 17 allows technically unavoidable traces and sets no ppm.
+
+Korea's cosmetic safety standard, Article 6(2), as reproduced by the Korea Cosmetic Industry Association and opened 25 September 2026, applies when the substance was not intentionally added and complete removal is impossible. Lead is at or below 50 µg/g in clay powders and 20 µg/g in other products. Nickel is at or below 35 µg/g in eye makeup, 30 µg/g in color makeup, and 10 µg/g in other products. Arsenic is at or below 10 µg/g, mercury at or below 1 µg/g, antimony at or below 10 µg/g, and cadmium at or below 5 µg/g. The same article names wet wipes (물휴지) for methanol, formaldehyde, and microbial limits. It does not give nickel, lead, or antimony a wet-wipe-only number. Tin, aluminum, and chromium are not in that impurity list. The gazette PDF of MFDS Notice 2025-63 was not re-opened. The association text matches the transcription at [[regulations/korea-mfds-2025-63-cosmetics-safety-standards]].
+
+Health Canada's cosmetic impurity guidance, section 4, in the Internet Archive capture of 10 January 2025, treats lead above 10 ppm, arsenic above 3 ppm, cadmium above 3 ppm, mercury above 1 ppm, and antimony above 5 ppm as technically avoidable. Nickel does not appear. The guidance is not a regulation, and it does not name wipes.
+
+The German Federal Office of Consumer Protection and Food Safety (BVL) 2017 orientation values, Table 1 of the opened Springer text (DOI 10.1007/s00003-016-1044-2), are lead 2.0 mg/kg for cosmetics in general, cadmium 0.1 mg/kg, mercury 0.1 mg/kg, arsenic 0.5 mg/kg for cosmetics in general, and antimony 0.5 mg/kg. There is no nickel line. The monitoring set was decorative cosmetics, baby powder, and toothpaste. Wipes were not in it. These are orientation values, not a statute.
+
+Washington RCW 70A.560.020(2), opened for this project, provides that from 1 January 2025 a cosmetic may not be sold if it contains intentionally added lead or lead at 1 ppm or above. The cosmetic definition used there does not name wipes. One ppm is 1,000 µg/kg. The Washington wipe rows at 0.4 to 1.4 ppm lead are not called a violation. The basis may not be the whole article, and the samples are older than the statute.
+
+United States 21 CFR 700.13 restricts mercury in cosmetics to a trace below 1 ppm when the trace is unavoidable, with a higher allowance for certain eye-area products. That is a binding rule and a higher ceiling than the German 0.1 mg/kg orientation value.
+
+REACH Annex XVII entry 27 is the nickel-release rule for metal articles described above. Entry 20 restricts specified organotin compounds above 0.1 percent by weight of tin: tri-substituted organotins in articles, dibutyltin in mixtures and articles for the general public, and dioctyltin in a named list that includes textile articles intended to contact the skin, childcare articles, female hygiene products, and nappies. A baby wipe is not named. The entry is a species rule at a concentration of 1,000 mg/kg of tin in that species. It is not a trace total-tin impurity limit. Diaper tin in the abstract ranges sits far below 0.1 percent by weight.
+
+OEKO-TEX STANDARD 100 is a private certification, not a statute. Annex 4, edition 02.2025, class I extractable limits opened previously include arsenic 0.2, cadmium 0.1, chromium 1.0, chromium (VI) 0.5, mercury 0.02, nickel 1.0, lead 0.2, and antimony 30.0 mg/kg. Annex 6 is an optional Detox catalogue. It is not Annex 4, and it is not law. Extractable limits are not a score for a total digest.
+
+China's GB/T 27728.2-2024 is a recommended standard for wet wipes for children. An Intertek summary lists lead, arsenic, cadmium, and mercury as test items for infant wipes and does not list nickel or antimony. No numeric limit was in that summary. The standard PDF was not obtained.
+
+An internal compilation at `data/workbench/standards/cat2-compiled/baby-wipes.json` was checked against these texts in earlier work on the product page. It is not a measurement and it is not restated here as a limit. The relevant literature point is narrow: that file has no antimony cell, and antimony is the metal the wipe measurements find.
+
+## Implications
+
+### For parents
+
+A parent can take three statements from this file, and should not take a fourth. Antimony has been measured in baby-wipe components and in digested wet-wipe sheets, on two different bases, in studies that are too small and too unlike each other to describe the market. Lead appears at low ppm in three screened components and in six digests at micrograms per liter. Nickel appears in two digests and not in the other twenty-two of that study. Tin, aluminum, inorganic arsenic, methylmercury, and hexavalent chromium were not found because they were not measured in the wipe panels, or were not speciated, not because a survey showed them to be absent.
+
+The statement not to take is a risk verdict. No opened study follows a wipe from the package onto infant skin and into the body. Stopping or continuing a product is a caregiving decision this paper does not make. Preservatives and fragrance, not nickel, are what the opened wipe-rash reports are about. Those reports are a different paper.
+
+### For manufacturers
+
+The sheet and the liquid need separate numbers, in a content unit a limit can be compared with. Choi did the split for one mask pack and found almost all of the antimony in the sheet. The wet-wipe samples were digested as sheets. A single number on "the wipe" cannot be assigned to the water, the preservative system, or the fiber.
+
+Fiber identity has to be recorded, and it is not a result by itself. A polyester label does not prove antimony is present. A rayon label does not prove it is absent. The catalyst chemistry is still the right hypothesis to test on polyester, with the oxidation state identified if the claim is about antimony trioxide.
+
+The package needs its own row. Washington found tens of ppm of antimony in one moist-wipes package and about 31 ppm of lead in one breast-wipes package. Those rows do not show transfer into the wipe. They show why a package left in the same digest as the sheet would confuse the result.
+
+A total digest in micrograms per liter is not a sensitization test. A laboratory that wants to speak to allergic contact dermatitis has to say whether it measured release into sweat or a simulant, over a stated time and area. Bulk nickel in a digest does not answer that question.
+
+### For regulators
+
+The legal character of each number should stay visible. A Korean impurity maximum, a Canadian guidance figure, a German orientation value, a Washington lead statute, and a private extractable textile limit are not interchangeable, and none of them was written as a score for a microgram-per-liter digest. Where a government has no number for a metal in this product, the gap should stay a gap. Borrowing a jewelry release limit or a diaper ecolabel to fill tin, aluminum, or hexavalent chromium would present a policy choice as if it were a measurement.
+
+Antimony is the awkward cell. It is the metal two wipe studies detect most readily, and it is the metal several impurity lists do include (Korea 10 µg/g, Health Canada guidance 5 ppm, BVL orientation 0.5 mg/kg) while the wipe datasets cannot yet be compared with those figures. A regulator reading only food-metal panels will miss it, because antimony is not one of the four metals those panels usually lead with. Nickel is the awkward cell of a different kind: Korea sets a content figure for products other than eye and color makeup, Health Canada does not list it, and the European article rule is a release rule for metal objects. A wipe standard that copies only one of those instruments will not match the others.
+
+Speciation rules that already exist for food should not be relaxed because the matrix is a wipe. Total arsenic is not inorganic arsenic. Total mercury is not methylmercury. Total chromium is not hexavalent chromium. Total tin is not an organotin.
+
+### For researchers
+
+The next useful study is small and specific. Digest or extract the sheet and the lotion separately. Report mass, final volume, and the result in mg/kg of each fraction, and keep the solution concentration as a method detail rather than as the only reported unit. Record fiber by a method, not only by the package words. Include tin, aluminum, and chromium, and speciate arsenic, mercury, chromium, and, if tin is present, organotin. If antimony is discussed as the trioxide, identify the species. Run a sweat or simulant release in parallel with the total content, because sensitization questions are release questions. Do not screen by X-ray fluorescence and then describe the laboratory list as a market rate.
+
+Until that study exists, synthesis has to keep repeating the unit problem. Two real datasets, neither on the basis a dose or a cosmetic limit requires, are enough to justify the work and not enough to finish it.
+
+## Data gaps and research agenda
+
+No dermal absorption fraction for any metal from a baby wipe was opened. Tin in a wipe: no data found. Aluminum in a wipe: no data found. Inorganic arsenic, methylmercury, and hexavalent chromium in a wipe: no data found. The lotion fraction of a wet wipe was not reported for metals in the Choi wet-wipe series. The 2025 Istanbul thesis PDF was not obtained; its abstract states no nickel concentration and its antimony figures are not used. China's GB/T 27728.2-2024 PDF was not obtained. The Šmajgl diaper-tin PDF was not re-opened; the publisher abstract was used. The 2022 manufacturing paper was read from an extract and was not ingested as a source. The Washington report does not identify fiber and does not describe sample preparation. Market detection rates cannot be calculated from a screened laboratory list or from 24 convenience sheets.
+
+The research agenda follows those gaps, in order. First, content in mg/kg for sheet and lotion separately, with antimony, lead, arsenic (total and inorganic), mercury (total and methyl), cadmium, chromium (total and hexavalent), nickel, tin (total and organic), and aluminum. Second, release into a sweat simulant, reported per area and time, for nickel and hexavalent chromium. Third, a dermal-absorption experiment on intact and compromised skin, or an explicit statement that the fraction is unknown. Fourth, a sampling frame that is not triggered by a screening instrument. Fifth, package tested apart from the product.
+
+A second paper, on fragrance, preservatives, phthalates, microplastics, and per- and polyfluoroalkyl substances in wipes, is not written here. The repo does not yet hold completed wipe measurements for that set. What it does hold is noted in the project report that accompanies this page, not as findings of this synthesis.
+
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims as preprints until external review is recorded. Until at least one external verdict is recorded below, this page is a preprint, not a peer-reviewed work.
+<!-- END: hmi-peer-review -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+1. [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Determination of heavy metals on the non-woven in wet wipes using ICP-MS]]<span class="hmi-ref-meta">Sung-Min Choi, Jin-Kun Song, and Sang-Jin Kim · Journal of the Korean Oil Chemists' Society · 2016 · [doi.org/10.12925/jkocs.2016.33.1.195](https://doi.org/10.12925/jkocs.2016.33.1.195)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Alex Stone · Washington State Department of Ecology, Publication 14-04-014 · 2014, contact revision 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Government report</span>
+3. [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde|Determination of selected harmful substances in baby diapers available on the South African market]]<span class="hmi-ref-meta">P. Nyamukamba and colleagues · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20021023](https://doi.org/10.3390/ijerph20021023)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">D. Šmajgl and J. Obhođaš · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[regulations/korea-mfds-2025-63-cosmetics-safety-standards|Korea cosmetic safety standard, Article 6(2)]]<span class="hmi-ref-meta">Ministry of Food and Drug Safety, association reproduction opened 25 September 2026 · [kcia.or.kr](https://kcia.or.kr/cid/cs/law.php)</span><span class="hmi-ref-tag">Regulatory text</span>
+6. IARC Monographs Volume 131, trivalent and pentavalent antimony<span class="hmi-ref-meta">International Agency for Research on Cancer · 2023 · NCBI Bookshelf NBK598316</span><span class="hmi-ref-tag">Monograph</span>
+7. Allergens responsible for contact allergy in children from 2010 to 2024<span class="hmi-ref-meta">Corresponding author Mikkel Bak Jensen · Contact Dermatitis · 2025 · [doi.org/10.1111/cod.14753](https://doi.org/10.1111/cod.14753)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->

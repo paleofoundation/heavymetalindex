@@ -15,7 +15,7 @@ applicable_regulations: [health-canada-cosmetic-heavy-metal-impurities, eu-cosme
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-09-25
-sources: 3
+sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
 shareText: "One row per metal for baby wipes. Antimony is the measured one. Tin and aluminum: no wipe data found. Lead, arsenic, mercury, cadmium, and chromium are mostly zeros or untested species."
 shareHashtags: [BabyWipes, HeavyMetals, Nickel]
@@ -29,9 +29,9 @@ toc_labels:
 
 ## Overview
 
-Direct measurements of heavy metals in baby wipes are scarce, and they are not on one analytical basis. A Washington State Department of Ecology laboratory table, first published in 2014, reports three wipe components at 40.6, 61.3, and 70.6 ppm antimony, with lead at 0.4, 0.8, and 1.4 ppm. Arsenic, cadmium, and mercury are printed as 0.0 in those three rows. The one peer-reviewed paper that digests wet-wipe sheets, Choi, Song, and Kim 2016, also finds antimony as the frequent detect, reported in micrograms per liter of digest solution rather than in parts per million of the sheet. Nickel appears in two of those wet-wipe sheets, in the same solution units. Nothing opened for this page measures how much of any of those metals crosses infant skin.
+Direct measurements of heavy metals in baby wipes are scarce, and they are not on one analytical basis. A Washington State Department of Ecology laboratory table, first published in 2014, reports three wipe components at 40.6, 61.3, and 70.6 ppm antimony, with lead at 0.4, 0.8, and 1.4 ppm. Arsenic, cadmium, and mercury are printed as 0.0 in those three rows. The one peer-reviewed paper that digests wet-wipe sheets, [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Choi, Song, and Kim 2016]], also finds antimony as the frequent detect, reported in micrograms per liter of digest solution rather than in parts per million of the sheet. Nickel appears in two of those wet-wipe sheets, in the same solution units. Nothing opened for this page measures how much of any of those metals crosses infant skin.
 
-A polyester polymerization catalyst is a supported explanation for antimony in polyester fiber. It is not, on the Choi table, a rule for wet-wipe sheets: the highest antimony result is labeled rayon. This page reports those measurements and the instruments that were opened. It does not rank products now on the shelf, and it does not set a certification limit.
+The full account, including toxicology and the limits of an exposure calculation, is [[synthesis/heavy-metals-in-baby-wipes|Heavy metals in baby wipes]]. A polyester polymerization catalyst is a supported explanation for antimony in polyester fiber. It is not, on the Choi table, a rule for wet-wipe sheets: the highest antimony result is labeled rayon. This page reports those measurements and the instruments that were opened. It does not rank products now on the shelf, and it does not set a certification limit.
 
 ## Who this page is for
 
@@ -199,7 +199,7 @@ No recall notice or enforcement case about metals in baby wipes was opened for t
 
 No opened study measures dermal absorption of any of these metals from a baby wipe. Tin in a wipe: no data found. Aluminum in a wipe: no data found. Inorganic arsenic, methylmercury, and hexavalent chromium: no data found. The lotion fraction of a wet wipe has not been reported for metals in the Choi wet-wipe series. The 2025 Istanbul thesis PDF was not obtained. China's GB/T 27728.2-2024 PDF was not obtained. The Šmajgl diaper-tin PDF was not in this checkout; the publisher abstract was used. The Washington report does not identify fiber and does not describe sample preparation. Market detection rates cannot be calculated from a screened laboratory list.
 
-Choi, Song, and Kim 2016 is cited from the PDF and the DOI because this wiki does not yet have a source page for it. The source table below does not invent one.
+[[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Choi, Song, and Kim 2016]] is a source record. The solution concentrations are also in `data/evidence/choi2016-wet-wipes-solution-ug-per-l.csv`. They are not converted to milligrams per kilogram.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
@@ -210,7 +210,8 @@ Choi, Song, and Kim 2016 is cited from the PDF and the DOI because this wiki doe
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde\|Nyamukamba et al. 2023]]. *Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market*, International Journal of Environmental Research and Public Health 20(2): 1023 | 2023 | Peer-reviewed | Pathway context, not a wipe measurement. Extractable metals in 20 disposable diapers. Nickel was the only metal the authors reported above the Oeko-Tex figure they used (0.1 mg/kg). Total chromium is also reported. Tin and aluminum are not in the panel. |
 | 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony, lead, and total chromium in ppm. The panel has no nickel, tin, or aluminum column. Only components with a metal of concern on the XRF screen went to the laboratory. |
-| 3 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl and Obhođaš 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | Pathway context, not a wipe measurement. Total tin by EDXRF in diaper top sheets and adhesive tape. The publisher abstract gives the ranges used on this page. The method does not speciate organotin. |
+| 3 | [[sources/choi2016-wet-wipes-nonwoven-heavy-metals\|Choi, Song, and Kim 2016]]. *Determination of heavy metals on the non-woven in wet wipes using ICP-MS*, Journal of the Korean Oil Chemists' Society 33(1):195-203 | 2016 | Peer-reviewed | Measurement. Twenty-four wet-wipe sheets digested for ICP-MS. Antimony, lead, arsenic, and nickel in micrograms per liter of digest solution. Not converted to mg/kg. Cadmium and mercury not detected. No tin, aluminum, or chromium column. Mask packs in the same paper are not baby wipes. |
+| 4 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl and Obhođaš 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | Pathway context, not a wipe measurement. Total tin by EDXRF in diaper top sheets and adhesive tape. The publisher abstract gives the ranges used on this page. The method does not speciate organotin. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

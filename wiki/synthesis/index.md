@@ -1,7 +1,7 @@
 ---
 title: Synthesis
 type: synthesis-index
-updated: 2026-07-27
+updated: 2026-09-25
 audience: [regulator, educator, consumer, brand-legal]
 ---
 
@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Heavy metals in baby wipes](/synthesis/heavy-metals-in-baby-wipes) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb | 4 | 2026-09-25 |
 | [Proof Before the Floor: a proposed systems architecture for dietary heavy-metal exposure reduction through authenticated evidence, lot qualification, and method-bound certification (systems-architecture working paper)](/synthesis/proof-before-the-floor) | Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Sn, Al, Cr | 20 | 2026-09-13 |
 | [Heavy metal exposure and compartment-specific metal dyshomeostasis can act upstream of the microbial functions that drive disease, defining a falsifiable metal-conditioned disease endotype for microbiome medicine](/synthesis/metals-microbiome-disease-pathogenesis) | Ni, Zn, Fe, iAs, Cd | 4 | 2026-09-08 |
 | [Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-08-11 |
