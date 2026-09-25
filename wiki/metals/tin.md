@@ -153,7 +153,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 43 | [[sources/authors2025-toxic-metals-in-a-green\|authors 2025]]. *Toxic Metals in a Green*, Peer-reviewed article | 2025 | Peer-reviewed | US MeHg, tHg, Cd, Pb, iAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 44 | [[sources/authors2025-wu-y-liu-w-and-zhu-p-2025\|authors 2025]]. *Wu Y, Liu W and Zhu P (2025) Environmental aluminum (Al), arsenic (As), beryllium (Be), cadmium (Cd), chromium (Cr), mercury*, Peer-reviewed article | 2025 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 45 | [[sources/dobrzynska2025-milk-formulae-elemental-composition\|Dobrzyńska et al. 2025]]. *Analysis of the Elemental Composition of Milk Formulae: Impact on the Nutritional Status of Infants From Birth to 1 Year of Age*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU tAs, Cd, tHg, Ni, Sn, Cr, Co, Cu, Mn occurrence in All powdered milk formulae available on the Polish market 2019-2023 for infants up to 12 months of age:... (n=149) |
-| 46 | [[sources/du2025-infant-thickener-urinary-arsenic\|Du et al. 2025]]. *Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia*, Scientific Reports | 2025 | Peer-reviewed | US tAs, iAs, Pb, tHg, Cd, Sn, Cr, Ni, U occurrence in Infants under 1 year of age with reflux or oropharyngeal dysphagia seen at Boston Children's Hospital aerodigestive clinic,... (n=56) |
+| 46 | [[sources/du2025-infant-thickener-urinary-arsenic\|Du et al. 2025]]. *Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia*, Scientific Reports 15:14068 | 2025 | Peer-reviewed | US tAs, iAs, Pb, tHg, Cd, Sn, Cr, Ni, U occurrence in Infants under 1 year of age with reflux or oropharyngeal dysphagia seen at Boston Children's Hospital aerodigestive clinic,... (n=56) |
 | 47 | [[sources/elabiad2025-and-cord-blood-levels-of-cadmium-lead-manganese\|Elabiad 2025]]. *and Cord Blood Levels of Cadmium, Lead, Manganese, Mercury,*, Peer-reviewed article | 2025 | Peer-reviewed | US MeHg, tHg, Cd, Pb, Sn occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 48 | [[sources/fan2025-hangzhou-green-tea-metals\|Fan et al. 2025]]. *Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area*, Scientific Reports | 2025 | Peer-reviewed | CN tAs, Cd, Cr, Pb, tHg, Al, Ni, Cu, Mn, Sn, Sb, Zn concentrations (n=120) |
 | 49 | [[sources/fda2025-cp7304-019-toxic-elements-food-foodware\|FDA 2025]]. *Compliance Program Guidance Manual: Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic (Program 7304.019)*, US Food and Drug Administration | 2025 | Government report | US Pb, Cd, tAs, tHg, Al, Cr, Sn, Sb, U concentrations |
@@ -419,11 +419,11 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
-| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 8 sections added; narrative text revised |
-| [41191f2c9c](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9c) | 2026-08-02 | major | 1 section added |
-| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [d6c50ecc4](https://github.com/paleofoundation/heavymetalindex/commit/d6c50ecc4) | 2026-09-11 | major | 1 source added; 1 section added; narrative text revised |
+| [a0235db5a](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 8 sections added; narrative text revised |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
 <!-- END: hmi-page-history -->
 
 ## Additional geographic and remediation evidence

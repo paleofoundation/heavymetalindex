@@ -3,7 +3,7 @@ type: source
 raw_handle: NTP-ROC-MGRAPH-13
 cite_key: ntp2018-roc-monograph-antimony-trioxide
 title: "Report on Carcinogens Monograph on Antimony Trioxide"
-authors: ["National Toxicology Program (NTP)"]
+authors: ["National Toxicology Program"]
 year: 2018
 publication: "RoC Monograph 13, October 2018"
 doi: "10.22427/roc-mgraph-13"
@@ -60,5 +60,6 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [d96a9886a](https://github.com/paleofoundation/heavymetalindex/commit/d96a9886a) | 2026-09-25 | major | 1 section added |
 | [d6fbcfa64](https://github.com/paleofoundation/heavymetalindex/commit/d6fbcfa64) | 2026-09-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

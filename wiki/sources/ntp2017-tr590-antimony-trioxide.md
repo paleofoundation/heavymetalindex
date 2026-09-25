@@ -3,7 +3,7 @@ type: source
 raw_handle: NTP-TR-590
 cite_key: ntp2017-tr590-antimony-trioxide
 title: "NTP Technical Report on the Toxicology and Carcinogenesis Studies of Antimony Trioxide (CASRN 1309-64-4) in Wistar Han [Crl:WI(Han)] Rats and B6C3F1/N Mice (Inhalation Studies)"
-authors: ["National Toxicology Program (NTP)"]
+authors: ["National Toxicology Program"]
 year: 2017
 publication: "NTP Technical Report 590, December 2017"
 doi: "10.22427/ntp-tr-590"
@@ -60,5 +60,6 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [d96a9886a](https://github.com/paleofoundation/heavymetalindex/commit/d96a9886a) | 2026-09-25 | major | 1 section added |
 | [d6fbcfa64](https://github.com/paleofoundation/heavymetalindex/commit/d6fbcfa64) | 2026-09-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
