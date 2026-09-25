@@ -22,7 +22,9 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 ## Overview
 
-Disposable wipes for infant skin (polyester, polypropylene, cotton, bamboo). No within-row split per Step 0 lock. **Panel-scope note**: the dominant heavy-metal finding for baby wipes documented in the Cat 2 Step 0 lock review is antimony (Sb) from polyester catalyst residues, a metal that is NOT in the HMTc 8-metal panel. HMTc Cat 2 standards recommend panel expansion to include Sb based on this finding. The specific antimony levels documented in the lock review require source ingest before being cited on this page; <!-- UNCITED: Sb baby wipes specific values pending source-page ingest of the underlying consumer testing data referenced in the Cat 2 Step 0 lock document. -->
+Disposable wipes for infant skin (polyester, polypropylene, cotton, bamboo). No within-row split per Step 0 lock. This page is a literature scaffold. It does not set a certification number.
+
+[[sources/stone2021-wa-metals-childrens-consumer-products|Washington Ecology Publication 14-04-014]] (revised June 2021) measured antimony at 70.6, 61.3, and 40.6 ppm in three baby-wipe components, and 95.8 ppm in moist baby-wipes packaging. The design screened by X-ray fluorescence and confirmed selected components by ICP-MS, so those values are an upper-tail picture, not a random market mean. Antimony is outside the eight elemental totals (lead, cadmium, total arsenic, total mercury, nickel, aluminium, total chromium, and tin). The cross-product reading is [[synthesis/antimony-in-baby-products]]. The metal reference is [[metals/antimony]]. A draft rationale for whether a baby-wipes standard should add antimony, and on what basis, is pending a decision on basis and value. It is not a limit, and it is not stated on this page.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 6. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
@@ -85,6 +87,14 @@ This page reports what the peer-reviewed and government literature says about he
 ## Historical recalls and enforcement
 
 Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

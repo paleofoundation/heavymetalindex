@@ -513,7 +513,43 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-248 open item(s): 84 auto, 164 awaiting a decision.
+252 open item(s): 84 auto, 168 awaiting a decision.
+
+### OI-20260925-oeko-tex-standard-100-sb — OEKO-TEX STANDARD 100 extractable antimony is not on the corpus source page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/oeko-tex2024-new-limit-values.md`
+- repro: wiki/sources/oeko-tex2024-new-limit-values.md records STeP wastewater antimony at 100 ug/L. The STANDARD 100 extractable-antimony limit was not in that page and was not filled from an unopened brochure.
+- done when: STANDARD 100 extractable Sb is cited from a primary OEKO-TEX text opened into the source record, or the cell stays unmarked
+- decision: _pending_
+- notes: Do not publish 30 mg/kg or any other remembered STANDARD 100 figure.
+
+### OI-20260925-nyamukamba-lead-table — Nyamukamba 2023 sweat lead prose disagrees with Table 4
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/nyamukamba2023-diaper-metals.md`
+- repro: Paper prose states a sweat lead range whose maximum is lower than Table 4. The existing source page follows the table maximum. SB-1 did not adopt a lead range.
+- done when: Source page states the prose-versus-table discrepancy explicitly or adopts one figure with the other recorded as the contradiction
+- decision: _pending_
+- notes: Antimony is not in the Nyamukamba analyte panel. This is a lead-range defect on the diaper source, out of scope for the antimony rewrite.
+
+### OI-20260925-epa-iris-antimony-rfd — EPA IRIS oral reference dose for antimony was not opened
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/metals/antimony.md`
+- repro: IRIS landing URLs tried during SB-1 returned the wrong chemicals. The antimony page therefore does not state an oral RfD.
+- done when: The IRIS antimony chemical file is opened and the printed RfD, critical effect, and date are recorded, or the page continues to say the file was not opened
+- decision: _pending_
+- notes: Do not print a remembered 4e-4 mg/kg-day figure.
+
+### OI-20260925-choi-biver-cpqs-wipes-sources — Ingest Choi 2016, Biver 2021, and CPQS 2026 baby-wipes antimony sources
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/`
+- repro: SB-1 antimony synthesis cites Washington Ecology 14-04-014 and Nyamukamba 2023 only. Choi 2016, Biver 2021, and the CPQS 2026 China baby wipes report were named by the parallel wipes brief (PR 152) but were not opened as primary texts in this session, so no concentrations from them were written.
+- done when: Each paper has a completed source page or an explicit gap record; Numeric claims are taken from the opened primary, with basis and units; No brand-level tables are copied into product pages
+- decision: _pending_
+- notes: Do not invent wipe concentrations while these sources remain unopened.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

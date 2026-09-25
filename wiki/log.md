@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] synthesis | antimony reference, baby-product synthesis, wipes rationale briefing
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], [[metals/index]], [[synthesis/index]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Replaced the antimony stub with a reference page grounded in documents opened for this revision (IARC Volume 131 announcement, ATSDR Toxicological Profile October 2019, WHO drinking-water fact sheet, EPA National Primary Drinking Water Regulations page, Li 2017, Wu 2025, and corpus regulation and source records). Added a mint-ready synthesis, `wiki_doi` left null. The baby-wipes scaffold now cites Washington Ecology Publication 14-04-014 component results and does not state a certification number. The standards briefing lists candidate instruments and leaves the value as pending a CEO decision on basis and value. No compiled standard, cat2 cell, or DOI mint was edited. Direction: toward the literature.
+
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
 
 Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.
