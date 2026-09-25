@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] synthesis | antimony pages corrected against Reed's first batch
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
+Notes: Opened the WHO 2003 background document, Borca 2025, Biver 2021, Wu 2025, Yan 2025, Deng 2021, Engrola 2023, and Zeldin 2023. Confirmed the IARC 5 May 2023 announcement (trivalent Group 2A, pentavalent Group 3) and the ATSDR October 2019 MRLs against the profile text. Choi 2016 is used from the English abstract, in µg/L of digest, with no conversion. The 2 April 2026 China monitoring page contributes a 20-of-21 detection count and no concentration, because the HTML does not print one. Yan 2025 does report a negative serum-antimony association with Chao1. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] synthesis | antimony reference, baby-product synthesis, wipes rationale briefing
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], [[metals/index]], [[synthesis/index]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.

@@ -18,7 +18,13 @@ The metal that a children's-product screen finds in baby-wipe components, in the
 
 Washington State Department of Ecology Publication 14-04-014, revised June 2021, measured antimony at 70.6, 61.3, and 40.6 ppm in three baby-wipe components, and 95.8 ppm in moist baby-wipes packaging. The design prioritized components by X-ray fluorescence and confirmed them by ICP-MS. It is an upper-tail screen of products bought for that study, not a random sample of the category. The analyte is total elemental antimony. The report does not speciate Sb(III) and Sb(V) and does not prove that the antimony is residual polyester catalyst, although plastics are an IARC-listed use of antimony and polyester catalyst residue is the pathway the product literature points at.
 
-Other wipe studies (Choi 2016, a 2021 polyester sweat-extraction paper, a 2026 secondary account of a China comparison) are summarized in pull request 152. Their concentrations are not repeated here, because they were not re-opened for this briefing. They are not the basis of a number.
+Three further documents were opened for this revision. They still do not supply a certification number.
+
+Choi, Song, and Kim 2016, English abstract only, report antimony from 187.86 ± 5.24 to 19,558.35 ± 3,537.30 µg/L in 12 of 24 wet-wipe nonwovens. The unit is the digest the abstract prints. The full paper was not opened. No conversion to milligrams per kilogram of sheet is made. The abstract's attribution of the result to antimony trioxide catalyst is the authors' inference. Borca, Huthwelker, and Filella 2025 found organic antimony, glycolate or acetate, in PET bottles, and excluded a significant amount of the trioxide in those bottles.
+
+The China Association for Quality Promotion of Consumer Products Safety page dated 2 April 2026 reports total antimony detected in 20 of 21 online baby wipes and not detected in one. The HTML does not print concentrations or units. No range is used. Brands named on that page are not repeated.
+
+Biver, Turner, and Filella 2021 measured artificial-sweat release from six polyester textiles, not from wipes. Totals were 125 to 471 µg/g. Extracts under ISO 105-E04 were 0.402 ± 0.128 to 2.572 ± 0.031 µg/g. That is a simulant result, not absorption, and not a wipe-sheet total.
 
 ## Why the eight-total panel misses it
 
@@ -46,7 +52,8 @@ The value is [PENDING CEO DECISION]. The candidates below are instruments that a
 | EPA drinking-water MCL and FDA bottled water | 0.006 mg/L | Water | Statute | Water, not a sheet. |
 | WHO drinking-water guideline | 0.02 mg/L | Water | Guideline | Water, not a sheet. |
 | OEKO-TEX STeP, as ingested in this corpus | 100 µg/L | Textile-mill wastewater | Private production standard | Effluent, not a finished wipe. |
-| OEKO-TEX STANDARD 100 extractable antimony | Not entered | Extractable, if that annex is the instrument | Private | The annex was not re-opened for this briefing. Do not fill this cell from the companion brief. |
+| OEKO-TEX STANDARD 100, as stated by Biver 2021 | Extractable antimony less than 30 µg/g for clothing textiles | Extractable, clothing textiles | Private label, cited by Biver from the 2020 association text | The annex was not opened. Biver's sentence is not a substitute for the annex, and a clothing-textile label is not a wipe limit. |
+| EU Ecolabel for textile products, as stated by Biver 2021 | Should not exceed 260 µg/g in polyester fibres | Raw fibre, before wet processing; recycled-PET fibre derogated | Ecolabel criterion, cited from a 2014 Commission decision that was not opened | Fibre content before wet processing, not a finished wipe, and not adopted here. |
 | Washington CSPA | 100 ppm | Presence reporting for chemicals of high concern to children | Reporting trigger | Not a health-based maximum. |
 
 Washington's measured wipe components (40.6, 61.3, and 70.6 ppm total) are occurrence, not a candidate limit. Occurrence does not set a live certification cell under the government-limit method.

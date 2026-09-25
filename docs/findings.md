@@ -513,7 +513,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-252 open item(s): 84 auto, 168 awaiting a decision.
+256 open item(s): 84 auto, 172 awaiting a decision.
+
+### OI-20260925-yan2025-source-page-chao1 — Yan 2025 source page does not record the serum antimony Chao1 association now in the PDF
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/yan2025-infant-serum-26-metals-gut-microbiota-china.md`
+- repro: The opened PDF reports a negative association between serum Sb and Chao1, with no single-metal beta in the main text, and an internal N-label conflict (results text vs figure caption). The existing source page was not rewritten in the SB-1 verification pass.
+- done when: Source page states the Chao1 direction, the missing main-text beta, and the N=191 versus N=56 label conflict
+- decision: _pending_
+- notes: Metal page and synthesis already carry the PDF reading.
 
 ### OI-20260925-oeko-tex-standard-100-sb — OEKO-TEX STANDARD 100 extractable antimony is not on the corpus source page
 
@@ -523,6 +532,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: STANDARD 100 extractable Sb is cited from a primary OEKO-TEX text opened into the source record, or the cell stays unmarked
 - decision: _pending_
 - notes: Do not publish 30 mg/kg or any other remembered STANDARD 100 figure.
+
+### OI-20260925-oeko-tex-annex-not-opened — OEKO-TEX STANDARD 100 extractable antimony is cited by Biver 2021 and the annex was not opened
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/oeko-tex2024-new-limit-values.md`
+- repro: Biver 2021 states the STANDARD 100 label requires extractable antimony below 30 ug/g for clothing textiles, citing the 2020 association text. The annex itself was not opened. The corpus OEKO-TEX page remains the STeP wastewater value of 100 ug/L.
+- done when: STANDARD 100 annex is opened and the extractable Sb cell is transcribed from it, or pages continue to attribute 30 ug/g only as Biver citation
+- decision: _pending_
+- notes: Do not adopt 30 ug/g as a wipe limit.
 
 ### OI-20260925-nyamukamba-lead-table — Nyamukamba 2023 sweat lead prose disagrees with Table 4
 
@@ -542,6 +560,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Do not print a remembered 4e-4 mg/kg-day figure.
 
+### OI-20260925-cpqs-2026-annex-concentrations — CPQS 2026 baby-wipes page states a detection count and does not print antimony concentrations
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/synthesis/antimony-in-baby-products.md`
+- repro: https://cpqs.org.cn/archives/3229 HTML, opened 2026-09-25, says total antimony was detected in 20 of 21 samples and not detected in one. The page text does not print 15.02-450.45 ug/L or any other concentration. Those figures are not used.
+- done when: Annex table is opened and concentrations are cited with unit and basis, or the page continues to report the detection count only
+- decision: _pending_
+- notes: Do not name brands from the page.
+
 ### OI-20260925-choi-biver-cpqs-wipes-sources — Ingest Choi 2016, Biver 2021, and CPQS 2026 baby-wipes antimony sources
 
 - scope: **human-gated** · type: content · status: open · repo: index
@@ -550,6 +577,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Each paper has a completed source page or an explicit gap record; Numeric claims are taken from the opened primary, with basis and units; No brand-level tables are copied into product pages
 - decision: _pending_
 - notes: Do not invent wipe concentrations while these sources remain unopened.
+
+### OI-20260925-choi-2016-abstract-only — Choi 2016 wet-wipe antimony is known only from the English abstract
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/synthesis/antimony-in-baby-products.md`
+- repro: koreascholar abstract prints Sb 187.86 to 19558.35 ug/L in 12 of 24 wet-wipe nonwovens. The full PDF returned 404. No digestion mass or final volume was in the abstract, so no mg/kg conversion was made.
+- done when: Full text is opened and the digest method is recorded, or the page continues to cite the abstract unit only
+- decision: _pending_
+- notes: Do not convert ug/L of digest to mg/kg of sheet without the paper method.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 
