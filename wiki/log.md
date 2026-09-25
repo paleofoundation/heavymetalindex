@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] synthesis | antimony overview no longer names a companion branch
+
+Pages touched: [[synthesis/antimony-in-baby-products]].
+Notes: The overview sentence that pointed at the baby-wipes reading brief now cites pull request 152 only. No figure was changed. Direction: toward the literature.
+
 ## [2026-09-25] synthesis | antimony corpus from the opened primary texts
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.
