@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-254 open item(s): 84 auto, 170 awaiting a decision.
+255 open item(s): 84 auto, 171 awaiting a decision.
 
 ### OI-20260925-yan2025-source-page-chao1 — Yan 2025 source page does not record the serum antimony Chao1 association now in the PDF
 
@@ -523,6 +523,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Source page states the Chao1 direction, the missing main-text beta, and the N=191 versus N=56 label conflict
 - decision: _pending_
 - notes: Metal page and synthesis already carry the PDF reading.
+
+### OI-20260925-routing-status-drift — Routing audit flips 20 existing rows off the product page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`
+- repro: On 2026-09-25, node tools/evidence/build-routing-audit.mjs against a tree whose product pages match HEAD changes 20 existing rows from source_on_page_no_structured_value / product_page_cites_source true to missing_direct_product_route / false. The rows are abbas2023 on fish-containing-baby-foods; cantoral2024 on infant-formula-powder-soy and infant-rice-cereal; carey2018, efsa2024, fda2016 analytic results, fda2016 risk assessment, fda2018, seyfferth2025, su2023, and wehmeier2023 on infant-rice-cereal; jackson2012 on teething-and-snacks-rice-based; pandelova2012 on fruit-purees, both infant-formula RTF rows, both mixed-meal rows, and non-root-vegetable-purees; shavali-gilani2025 on pickled-fermented-vegetables; soto-ocana2024 on infant-formula-powder-soy-based. A fresh audit also inserts the eleven new antimony government routes. Those eleven were kept. The twenty status flips were not committed.
+- done when: A fresh routing audit either leaves those twenty rows at source_on_page_no_structured_value, or the product pages are updated so the cite check matches the committed status, and the diff contains no unrelated route_status change.
+- decision: _pending_
+- notes: Noticed while splicing government antimony routes. Not fixed in that commit.
 
 ### OI-20260925-oeko-tex-standard-100-sb — OEKO-TEX STANDARD 100 extractable antimony is not on the corpus source page
 
