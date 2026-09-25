@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | diapers-ingest-1 product legends
+
+Pages touched: [[products/diapers-and-components]], [[products/menstrual-pads]], [[products/menstrual-tampons]].
+Notes: Prebuild regenerated the source legends for the three product pages that the new source frontmatter routes to. The diaper page's literature-scope sentence, which still said no sources had been ingested, now states that routed sources are listed in the legend and that this page does not synthesize a contamination profile. Direction: toward the literature.
+
 ## [2026-09-25] ingest | diapers-ingest-1
 
 Pages touched: 13 new source pages under [[sources/index]], plus a text-versus-table note on [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]. Structured extract: `data/evidence/diapers-ingest-2026-09-25.csv`.
