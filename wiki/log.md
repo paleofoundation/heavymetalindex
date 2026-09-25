@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] synthesis | China wipe annex antimony row transcribed
+
+Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`.
+Notes: The 2 April 2026 China monitoring annex prints total antimony in µg/L for 21 online baby wipes. Detected results run from 15.02 to 450.45 µg/L. Nine cells break the figure across two lines; the reading joins those lines and says so. Brand names are not repeated. Choi 2016 remains the English abstract in µg/L of digest. The full paper was not among the files opened here, so sample mass and final volume were not verified and no milligram-per-kilogram conversion was made. No compiled standard was edited. Direction: toward the literature.
+
 ## [2026-09-25] synthesis | antimony pages corrected against Reed's first batch
 
 Pages touched: [[metals/antimony]], [[synthesis/antimony-in-baby-products]], [[products/baby-wipes]], `docs/briefs/antimony-baby-wipes-standard-rationale.md`, `tools/metal-faq/antimony.json`.

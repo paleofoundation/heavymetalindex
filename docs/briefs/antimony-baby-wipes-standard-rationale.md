@@ -22,7 +22,7 @@ Three further documents were opened for this revision. They still do not supply 
 
 Choi, Song, and Kim 2016, English abstract only, report antimony from 187.86 ± 5.24 to 19,558.35 ± 3,537.30 µg/L in 12 of 24 wet-wipe nonwovens. The unit is the digest the abstract prints. The full paper was not opened. No conversion to milligrams per kilogram of sheet is made. The abstract's attribution of the result to antimony trioxide catalyst is the authors' inference. Borca, Huthwelker, and Filella 2025 found organic antimony, glycolate or acetate, in PET bottles, and excluded a significant amount of the trioxide in those bottles.
 
-The China Association for Quality Promotion of Consumer Products Safety page dated 2 April 2026 reports total antimony detected in 20 of 21 online baby wipes and not detected in one. The HTML does not print concentrations or units. No range is used. Brands named on that page are not repeated.
+The China Association for Quality Promotion of Consumer Products Safety page dated 2 April 2026 reports total antimony detected in 20 of 21 online baby wipes and not detected in one. The annex results table on that page prints the row in µg/L. In sample order, without brand names, the detected results run from 15.02 to 450.45 µg/L. That unit is the one printed on the table. It is not a sheet concentration in milligrams per kilogram, and it is not a candidate limit. Brands named on that page are not repeated.
 
 Biver, Turner, and Filella 2021 measured artificial-sweat release from six polyester textiles, not from wipes. Totals were 125 to 471 µg/g. Extracts under ISO 105-E04 were 0.402 ± 0.128 to 2.572 ± 0.031 µg/g. That is a simulant result, not absorption, and not a wipe-sheet total.
 
