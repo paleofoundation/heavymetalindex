@@ -3,39 +3,39 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
-## [2026-09-25] query | zissu-wipes-8 — Göçer thesis, three matrices, co-exposure outline
+## [2026-09-25] query | baby-wipes-8 — Göçer thesis, three matrices, co-exposure outline
 
-Pages touched: [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]], [[sources/shin2004-disposable-diaper-heavy-metals]], [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]], [[docs/briefs/zissu-wipes-coexposure-outline]]
+Pages touched: [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]], [[sources/shin2004-disposable-diaper-heavy-metals]], [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]], [[docs/briefs/baby-wipes-coexposure-outline]]
 Notes: Göçer 2025 (YÖK 988276) is ingested from the full thesis. Solution, fiber, and packaging stay separate, in ppb of the ICP-MS solution. No mg/kg conversion: 10 mL of water was added, the acid volume is not stated, and the mass is approximate. Conflicting maxima are kept (nickel, antimony, lead, mercury, thallium, cadmium versus the quantification limit). Antimony results above 50 ppb sit above the stated calibration. Shin 2004 was OCR'd before any diaper value was quoted. The co-exposure paper is outlined and not written. Product names printed in the Chinese monitoring narrative are not repeated on the synthesis, the product page, or the source page. Karwowski 2016 and Celeiro 2015 are cited from abstracts only. Direction: toward the literature. No certification threshold is set. Not minted.
 
-## [2026-09-25] query | zissu-wipes-6 — Choi reconstruction, CPQS annex, Ecology QAPP methods
+## [2026-09-25] query | baby-wipes-6 — Choi reconstruction, CPQS annex, Ecology QAPP methods
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[sources/cpqs2026-online-baby-wipes-quality-monitoring]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]], [[sources/stone2012-wa-qapp-phthalates-metals-packaging]], [[sources/stone2012-wa-qapp-phthalates-metals-childrens-products]], [[sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products]], [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]], [[sources/stone2021-wa-metals-childrens-consumer-products]], [[products/baby-wipes]], [[synthesis/index]], [[sources/index]]
 Notes: Choi methods say the digest was diluted with 25 mL, not made up to 25 mL. A labeled reconstruction uses 0.125 (25 mL, 0.200 g) and 0.165 (33 mL). The rayon-only sheet is 2,444.79 mg/kg under the first assumption. That figure is not the printed result. CPQS 2 April 2026 annex: total antimony on a per-liter label in 20 of 21 columns, stable ends 15.02 and 450.45 µg/L; one column not detected; Pb/Cd/As/Hg non-detects with the row unit not adopted. Ecology QAPPs 12-07-021 through 024 specify EPA 3052 and EPA 6020. Stone's results report does not print those method numbers. Reporting limit 1.0 ppm; printed wipe values below it are left as printed. Biver 2021 polyester sweat release is pathway context. Direction: toward the literature. No certification threshold is set. Not minted.
 
-## [2026-09-25] query | zissu-wipes-synthesis — mint-ready paper on heavy metals in baby wipes
+## [2026-09-25] query | baby-wipes-synthesis — mint-ready paper on heavy metals in baby wipes
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]], [[products/baby-wipes]], [[synthesis/index]]
 Notes: Choi 2016 is now a source page. Detects stay in micrograms per liter of digest solution. No mg/kg conversion. The synthesis page is a DOI candidate with wiki_doi null. It was not minted. Direction: toward the literature. No certification threshold is set.
 
-## [2026-09-25] query | zissu-wipes-page-nine-metals — baby-wipes page rows for all nine metals
+## [2026-09-25] query | baby-wipes-page-nine-metals — baby-wipes page rows for all nine metals
 
 Pages touched: [[products/baby-wipes]]
 Notes: The draft page now has one row for lead, arsenic, mercury, cadmium, chromium, nickel, tin, aluminum, and antimony. Tin and aluminum in wipes are marked no data found. Adjacent tin is the Šmajgl 2015 diaper abstract. The internal compilation is shown only as a check against opened law, including the missing antimony cell. Direction: toward the literature. No certification threshold is set.
 
-## [2026-09-25] query | zissu-wipes-nine-metals — one row per metal, including tin and aluminum
+## [2026-09-25] query | baby-wipes-nine-metals — one row per metal, including tin and aluminum
 
-Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
+Pages touched: [[docs/briefs/baby-wipes-heavy-metals-reading-brief]]
 Notes: The brief now leads with one row for lead, arsenic (total and inorganic), mercury, cadmium, chromium (total and hexavalent), nickel, tin, aluminum, and antimony. Tin in wipes: no data found. The nearest opened measurement is total tin in diaper top sheets and tape (Šmajgl 2015 abstract). Aluminum in wipes: no data found. Korea Article 6(2) sets lead, arsenic, mercury, antimony, and cadmium in the same paragraph as nickel. The compiled baby-wipes file has no antimony cell. Direction: toward the literature. No certification threshold is set.
 
-## [2026-09-25] query | zissu-wipes-page — baby-wipes page rewritten from opened measurements
+## [2026-09-25] query | baby-wipes-page — baby-wipes page rewritten from opened measurements
 
 Pages touched: [[products/baby-wipes]]
 Notes: The public page now cites the Washington Ecology wipe rows, Choi 2016 by DOI (no source page yet), and nickel as a sensitization question separate from a swallowed dose. The source legend keeps Stone 2021 and Nyamukamba 2023 as pathway context. Other routed files stay in the routing audit and are omitted from the legend. The uncited antimony sentence is gone. Direction: toward the literature. No certification threshold is published.
 
-## [2026-09-25] query | zissu-wipes-nickel — nickel limits and sensitization, checked against opened texts
+## [2026-09-25] query | baby-wipes-nickel — nickel limits and sensitization, checked against opened texts
 
-Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
+Pages touched: [[docs/briefs/baby-wipes-heavy-metals-reading-brief]]
 Notes: Nickel in Choi 2016 is two wet-wipe sheets and two mask packs, in micrograms per liter of digest, not milligrams per kilogram. Korea's opened cosmetic safety standard names wet wipes and sets 10 µg/g nickel for products other than eye or color makeup. Health Canada's impurity guidance does not list nickel. REACH Annex XVII entry 27 is a release rule for jewelry and garment hardware. Staff baby-wipes cells for Pb, Cd, tAs, tHg, and Ni match the opened numbers, with basis and legal-character mismatches recorded in the brief. Direction: toward the literature. No certification threshold is set.
 
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint

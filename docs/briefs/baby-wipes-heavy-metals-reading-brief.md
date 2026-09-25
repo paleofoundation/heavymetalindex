@@ -1,6 +1,6 @@
 ---
 title: "Heavy metals in baby wipes: an evidence brief"
-audience: "Alexandra Zissu"
+audience: journalist
 status: draft
 date: 2026-09-25
 purpose: "Reading guide. Not a certification document, not a market ranking, and not for publication on heavymetalindex.com."
@@ -8,7 +8,7 @@ purpose: "Reading guide. Not a certification document, not a market ranking, and
 
 # Heavy metals in baby wipes
 
-A reading brief for Alexandra Zissu. Prepared 25 September 2026 from documents opened that day. This is a targeted read of the peer-reviewed and regulatory record, not a systematic review, and it does not rank products now on the shelf.
+A reading brief. Prepared 25 September 2026 from documents opened that day. This is a targeted read of the peer-reviewed and regulatory record, not a systematic review, and it does not rank products now on the shelf.
 
 ## Short answer
 
@@ -198,7 +198,7 @@ Searched and not a measurement of metals in baby wipes:
 
 ## What manufacturers have reported to states
 
-Pulled 25 September 2026 from the Interstate Chemicals Clearinghouse High Priority Chemicals Data System, which is the public reporting system for Washington's Children's Safe Products Act, Oregon's Toxic-Free Kids Act, Vermont Act 188, and Safer Products for Washington. API: https://hpcds.theic2.org/odata/vSearchReports. Search guide: https://www.theic2.org/wp-content/uploads/2025/06/HPCDS_Search_Guide.pdf. The only product-category brick whose name contains "wipe" is "Wipes - Personal" (GS1 brick 10000573). The raw rows are in `docs/briefs/zissu-wipes-state-reports.csv`.
+Pulled 25 September 2026 from the Interstate Chemicals Clearinghouse High Priority Chemicals Data System, which is the public reporting system for Washington's Children's Safe Products Act, Oregon's Toxic-Free Kids Act, Vermont Act 188, and Safer Products for Washington. API: https://hpcds.theic2.org/odata/vSearchReports. Search guide: https://www.theic2.org/wp-content/uploads/2025/06/HPCDS_Search_Guide.pdf. The only product-category brick whose name contains "wipe" is "Wipes - Personal" (GS1 brick 10000573). The raw rows are in `docs/briefs/baby-wipes-state-reports.csv`.
 
 Washington, Oregon, and Vermont, category "Wipes - Personal": 18 published rows (16 Washington, 1 Oregon, 1 Vermont), reporting years 2012 through 2018. Every chemical in those rows is a paraben or diethyl phthalate. None is antimony, lead, cadmium, mercury, arsenic, cobalt, molybdenum, or any other metal. Manufacturers on those rows: Albaad USA, Inc.; Harmon Stores, Inc.; Greenbrier International Inc.; Buy Buy Baby, Inc. The only brand string returned for any of them is "Kids Flushable Wipes," model 196569, on the Vermont Greenbrier diethyl phthalate row (disclosure 0000150-84662-2018, reporting year 2016, component "textiles, synthetic fibers and blends," function "no function - contaminant," concentration "equal to or greater than 100 but less than 500 ppm"). Brand and model were not returned for the Washington or Oregon wipe-category rows. Component on the Albaad and Greenbrier textile rows is synthetic fibers and blends. The paraben rows from Harmon and Buy Buy Baby are filed on "homogenous mixtures" (the lotion), function preservative, ranges either 100 to less than 500 ppm or 1,000 to less than 5,000 ppm, target age under 3 except two Greenbrier diethyl phthalate rows at ages 3 to 12.
 
