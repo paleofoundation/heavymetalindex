@@ -315,3 +315,7 @@ updated: 2026-09-11
 ## Geographic variation and remediation literature
 
 Recently added Library evidence includes [[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Sri Lankan leafy-vegetable digestion experiments]], [[sources/oprea2022-sibiu-celery-root-metals|Romanian celery-root and soil measurements]], and [[sources/sumalatha2019-bangalore-sludge-washing|Indian sludge-washing experiments]]. Further source-specific findings are routed through [[supply-chain/soil-to-plant-transfer]] and [[mitigation/remediation-evidence]].
+
+## Absorbent hygiene sources
+
+Diaper and related absorbent-hygiene sources added on 25 September 2026 are listed from [[sources/shin2004-disposable-diaper-hazardous-substances]], [[sources/alexander1972-metal-free-nappy]], [[sources/eu-ecolabel2023-absorbent-hygiene-annex]], and [[sources/mfds2017-hygiene-products-standards-draft]]. Product routing is [[products/diapers-and-components]], with tampons and pads only where the source covers them.

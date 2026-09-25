@@ -24,7 +24,7 @@ sample_population: "20 disposable baby diapers procured in Cape Town, South Afri
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
+updated: 2026-09-25
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
 ---
@@ -120,6 +120,12 @@ Courses: Useful for a Cat 2 module on synthetic-body-fluid extraction methodolog
 App: For diapers, the consumer-facing signal from this paper is "Ni is the metal most likely to exceed a dermal-contact ceiling, and it does so intermittently across retail tiers and origin countries." The app should not surface specific sample codes (H2, L2) because they are anonymous within the paper and have no consumer-facing brand mapping.
 
 Microbiome: Not addressed.
+
+## Text and table disagreement
+
+The results prose on page 8 states an artificial-sweat lead range of 0.002-0.019 mg/kg. Table 4 on page 9 prints a maximum row of 0.094 mg/kg, and the M2 cell is 0.094 mg/kg. Other Table 4 lead cells above 0.019 mg/kg are H1 0.031, H4 0.045, M3 0.027, M4 0.056, M5 0.022, M6 0.041, M7 0.034, M8 0.035, M9 0.023, M10 0.042, L1 0.042, L4 0.042, and L5 0.081. Both the prose range and the table are recorded. The summary table earlier on this page follows the Table 4 minimum and maximum rows (lead 0.002 and 0.094 mg/kg). The prose range is not used in place of the table.
+
+Table 4 has two further internal disagreements. The selenium prose range and the maximum row are 0.038 mg/kg (H5), but the L2 cell is 0.055 mg/kg. The nickel prose range and the minimum row start at 0.022 mg/kg, but the L2 cell is 0.003 mg/kg. The minimum and maximum rows do not bound those two cells.
 
 ## Verification notes
 

@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-09-11
+updated: 2026-09-25
 ---
 
 ## Overview
@@ -37,6 +37,25 @@ The folder list below is the public source catalog. For faster lookup, use searc
 ## WHO / International
 
 - [[sources/who-gemsfood-heavy-metal-contaminants]] - WHO GEMS/Food contaminant database heavy-metal export manifest, grouped summaries, and arsenic page-route context.
+
+## Absorbent hygiene, September 2026
+
+Diaper, tampon, pad, and related regulatory sources from the 25 September 2026 corpus. Eight obtained PDFs already had source pages and were not duplicated. Thirteen pages are new. The French ANSES 2019 PDF is the same opinion as the existing English page.
+
+- [[sources/alexander1972-metal-free-nappy]]
+- [[sources/danishepa2009-survey-102-two-year-olds]]
+- [[sources/eu-ecolabel2023-absorbent-hygiene-annex]]
+- [[sources/hengqin2025-macau-baby-diaper-comparative-test]]
+- [[sources/kca2023-newborn-tape-diapers]]
+- [[sources/komine2025-organomercury-household-products]]
+- [[sources/mfds2017-hygiene-products-standards-draft]]
+- [[sources/naz2021-diaper-pad-toxicity-review]]
+- [[sources/rai2009-diaper-safety-qra]]
+- [[sources/sihe2026-seoul-children-diapers-cotton-swabs]]
+- [[sources/shin2004-disposable-diaper-hazardous-substances]]
+- [[sources/stone2014-wa-ecology-14-04-014]]
+- [[sources/wada2018-recycled-pulp-used-diapers]]
+- [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]
 
 ## FDA / U.S. Government
 

@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | diapers-ingest-1 product legends
+
+Pages touched: [[products/diapers-and-components]], [[products/menstrual-pads]], [[products/menstrual-tampons]].
+Notes: Prebuild regenerated the source legends for the three product pages that the new source frontmatter routes to. The diaper page's literature-scope sentence, which still said no sources had been ingested, now states that routed sources are listed in the legend and that this page does not synthesize a contamination profile. Direction: toward the literature.
+
+## [2026-09-25] ingest | diapers-ingest-1
+
+Pages touched: 13 new source pages under [[sources/index]], plus a text-versus-table note on [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]. Structured extract: `data/evidence/diapers-ingest-2026-09-25.csv`.
+Notes: Twenty-one obtained PDFs verified by sha256. Eight already had source pages (Nyamukamba 2023, ANSES 2019 English, Bernard 2022, Ellison 2026, Shearston 2024, Shin 2009, Smajgl 2015) and were not duplicated. The French ANSES 2019 PDF is the same opinion as the English page. Stone 2014 and Shin 2004 were not on main and are new. Finished diapers were not in the Stone report; only diaper-sack packaging sample WM023-p01 was extracted. Papers and standards in the manifest with no PDF (Ma 2024, Marcelis 2025, Jin 2026, Sun 2024, Makoś-Chełstowska 2021, Karwowski 2016, Kosemund 2009, Dey 2016, GB/T 28004.1-2021, GB/T 22875-2018, Yuhuan 2025, Stiftung Warentest 2005) were not ingested. Flagged contradictions: Nyamukamba sweat lead prose 0.002-0.019 mg/kg versus Table 4 maximum 0.094 mg/kg, plus selenium L2 0.055 versus maximum row 0.038 and nickel L2 0.003 versus minimum row 0.022; Shin 2004 cadmium, copper, and 24-hour lead and antimony prose versus tables; Alexander 1972 and Shin 2004 scanned cells quoted only where the page image and the character reading agree; Danish EPA Table 6.67 elastic-rim threshold prints "and02" against the results sentence 0.02-0.03 µg/g. No synthesis page. No DataCite mint. Direction: toward the literature.
+
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
 
 Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.
