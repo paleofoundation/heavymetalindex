@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-nickel — nickel limits and sensitization, checked against opened texts
+
+Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]
+Notes: Nickel in Choi 2016 is two wet-wipe sheets and two mask packs, in micrograms per liter of digest, not milligrams per kilogram. Korea's opened cosmetic safety standard names wet wipes and sets 10 µg/g nickel for products other than eye or color makeup. Health Canada's impurity guidance does not list nickel. REACH Annex XVII entry 27 is a release rule for jewelry and garment hardware. Staff baby-wipes cells for Pb, Cd, tAs, tHg, and Ni match the opened numbers, with basis and legal-character mismatches recorded in the brief. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
 
 Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.
