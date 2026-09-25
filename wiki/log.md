@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] query | zissu-wipes-page — baby-wipes page rewritten from opened measurements
+
+Pages touched: [[products/baby-wipes]]
+Notes: The public page now cites the Washington Ecology wipe rows, Choi 2016 by DOI (no source page yet), and nickel as a sensitization question separate from a swallowed dose. The source legend keeps Stone 2021 and Nyamukamba 2023 as pathway context. Other routed files stay in the routing audit and are omitted from the legend. The uncited antimony sentence is gone. Direction: toward the literature. No certification threshold is published.
+
 ## [2026-09-25] query | zissu-wipes-nickel — nickel limits and sensitization, checked against opened texts
 
 Pages touched: [[docs/briefs/zissu-baby-wipes-heavy-metals]]

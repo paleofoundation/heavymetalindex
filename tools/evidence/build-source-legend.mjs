@@ -136,6 +136,26 @@ for (const [k, v] of targetToSources) {
 
 console.log(`Indexed ${sourcesByCiteKey.size} source pages across ${targetToSources.size} target pages.`)
 
+// Public-legend allow-lists. Routing rows and source records stay as they are.
+// baby-wipes: frontmatter currently attaches a large set of sources that do not
+// measure or regulate metals in wipes. The public table keeps the measurement
+// record and one labeled pathway-context record.
+const PUBLIC_LEGEND_ALLOW = new Map([
+  ["products/baby-wipes", [
+    "nyamukamba2023-south-africa-diapers-metals-formaldehyde",
+    "stone2021-wa-metals-childrens-consumer-products",
+  ]],
+])
+const PUBLIC_LEGEND_USED_FOR = new Map([
+  ["products/baby-wipes", new Map([
+    ["stone2021-wa-metals-childrens-consumer-products", "Measurement. Washington Ecology ICP-MS of three wipe components and two wipe packages. Antimony and lead in ppm. The panel has no nickel column. Only components with a metal of concern on the XRF screen went to the laboratory."],
+    ["nyamukamba2023-south-africa-diapers-metals-formaldehyde", "Pathway context, not a wipe measurement. Extractable metals in 20 disposable diapers. Nickel was the only metal the authors reported above the Oeko-Tex figure they used (0.1 mg/kg)."],
+  ])],
+])
+const PUBLIC_LEGEND_NOTE = new Map([
+  ["products/baby-wipes", `<p class="hmi-table-note">This table lists source records that measure metals in wipes, or that are labeled pathway context. Other files whose routing frontmatter names this category are not measurements of wipes. Those records are not deleted.</p>`],
+])
+
 // ---------- Step 2: render and write to each target page ----------
 
 const stats = {
@@ -158,7 +178,11 @@ for (const [targetKey, citeKeys] of targetToSources) {
   if (targetKey.endsWith("/index")) continue
 
   const raw = fs.readFileSync(targetPath, "utf8")
-  const sortedSources = [...citeKeys].sort((a, b) => {
+  const allowed = PUBLIC_LEGEND_ALLOW.get(targetKey)
+  const legendKeys = allowed
+    ? allowed.filter((ck) => sourcesByCiteKey.has(ck))
+    : citeKeys
+  const sortedSources = [...legendKeys].sort((a, b) => {
     const sa = sourcesByCiteKey.get(a)
     const sb = sourcesByCiteKey.get(b)
     const ya = sa?.fm?.year ?? 0
@@ -167,7 +191,14 @@ for (const [targetKey, citeKeys] of targetToSources) {
     return a.localeCompare(b)
   })
 
-  const newContent = upsertLegend(raw, sortedSources, targetPath, targetKey)
+  const newContent = upsertLegend(
+    raw,
+    sortedSources,
+    targetPath,
+    targetKey,
+    PUBLIC_LEGEND_USED_FOR.get(targetKey) || new Map(),
+    PUBLIC_LEGEND_NOTE.get(targetKey) || null,
+  )
   if (newContent === null) {
     // upsertLegend returned null → page has hand-curated content needing migration
     continue
@@ -214,7 +245,7 @@ if (dryRun) console.log(`  (dry run — no files written)`)
 
 // ---------- helpers ----------
 
-function renderLegend(citeKeys, preservedContributions = new Map()) {
+function renderLegend(citeKeys, preservedContributions = new Map(), seedContributions = new Map(), noteHtml = null) {
   if (citeKeys.length === 0) {
     return [
       BEGIN_MARKER,
@@ -233,7 +264,7 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
     // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
     // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
     // line below separates it from the markdown table so the table still parses.
-    `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
+    noteHtml || `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",
@@ -241,7 +272,7 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
   citeKeys.forEach((ck, i) => {
     const s = sourcesByCiteKey.get(ck)
     if (!s) return
-    const usedFor = preservedContributions.get(ck) || "*[awaiting synthesis]*"
+    const usedFor = seedContributions.get(ck) || preservedContributions.get(ck) || "*[awaiting synthesis]*"
     lines.push(renderRow(i + 1, s, usedFor))
   })
   lines.push(END_MARKER)
@@ -338,13 +369,13 @@ function isSimpleBulletList(content) {
 // (1-3 capital letters, optionally with periods), the first token is the
 // surname; otherwise the last token is the surname.
 
-function upsertLegend(raw, citeKeys, targetPath, targetKey) {
+function upsertLegend(raw, citeKeys, targetPath, targetKey, seedContributions = new Map(), noteHtml = null) {
   // Case 1: marker block exists → parse existing contributions, regenerate
   if (raw.includes(BEGIN_MARKER) && raw.includes(END_MARKER)) {
     const re = new RegExp(`${escapeRe(BEGIN_MARKER)}([\\s\\S]*?)${escapeRe(END_MARKER)}`)
     const m = raw.match(re)
     const preserved = m ? parseExistingContributions(m[1]) : new Map()
-    const rendered = renderLegend(citeKeys, preserved)
+    const rendered = renderLegend(citeKeys, preserved, seedContributions, noteHtml)
     // Function replacer, not a string: a string replacement would interpret
     // `$&`, `$1`, `$'`, etc. inside the rendered table. Preserved "Used on
     // this page for" cells routinely contain literal dollar amounts (e.g.
@@ -368,14 +399,14 @@ function upsertLegend(raw, citeKeys, targetPath, targetKey) {
       /^No source pages/i.test(existingContent)
     const isStructuredTable = preserved.size > 0
     const isBulletList = isSimpleBulletList(existingContent)
-    const rendered = renderLegend(citeKeys, preserved)
+    const rendered = renderLegend(citeKeys, preserved, seedContributions, noteHtml)
     // Function replacer for the same reason as Case 1 — keep `$`-bearing
     // citation/contribution text literal rather than letting String.replace
     // treat it as a backreference.
     return raw.replace(sourcesHeadingMatch[0], () => `\n${rendered}\n`)
   }
   // Case 3: no `## Sources` heading at all — append at end of page
-  const rendered = renderLegend(citeKeys)
+  const rendered = renderLegend(citeKeys, new Map(), seedContributions, noteHtml)
   return raw.trimEnd() + "\n\n" + rendered + "\n"
 }
 
