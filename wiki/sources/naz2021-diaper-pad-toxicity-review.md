@@ -36,7 +36,7 @@ ingest_status: complete
 
 # Naz et al.: Narrative review of chemicals in diapers and sanitary pads
 
-This is a narrative review of chemicals discussed for disposable diapers and sanitary pads. The heavy-metal passage names mercury and lead in general terms. It does not report a concentration, a sample size, a method, or a table of results. The file name and a Crossref author string use Mustafa SN. The PDF byline begins with Saima Naz. The PDF imprint reads BioScientific Review 2022;4(1):01-11. The Crossref record for DOI 10.32350/bsr.0401.02 reads 4(1):26-42. Both identities are recorded. Neither is corrected to match the other.
+This is a narrative review of chemicals discussed for disposable diapers and sanitary pads. The heavy-metal passage names mercury and lead in general terms. It does not report a concentration, a sample size, a method, or a table of results. The PDF byline is Saima Naz, and the imprint is BioScientific Review 2022;4(1):01-11. The Crossref record for DOI 10.32350/bsr.0401.02 gives the author as Saima Naz Mustafa, pages 26-42, issued 2021-12-30. Crossref update-to is empty. No erratum record was returned. The two identities are unresolved. Neither pagination and neither author string is used as the headline bibliographic claim. The corresponding author printed in the PDF is Saima Naz, saima.naz@gscwu.edu.pk. The review still reports no metal concentration.
 
 ## Key numbers
 

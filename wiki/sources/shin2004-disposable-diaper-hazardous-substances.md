@@ -24,10 +24,9 @@ sample_n: 11
 sample_population: "11 disposable infant diapers: Korea K1-K3, Japan J1-J3, United States U1-U3, Germany G1-G2."
 evidence_fitness:
   supports:
-    - "Total-digest and artificial-urine extract concentrations, in ppm, for cells where the page image and the character reading agree"
+    - "Total-digest and artificial-urine extract concentrations, in ppm, from the table glyphs, including cobalt K2 at 0.021 ppm"
   does_not_support:
-    - "The cobalt cell for sample K2 in the total-digest table, where the character reading is not clean"
-    - "Prose sentences that assign a detected metal to a different sample than the table"
+    - "Prose restatements that differ from a table cell, which are kept as the paper's inconsistency and are not the figure used"
     - "Organotin speciation, inorganic arsenic, methylmercury, or hexavalent chromium"
 audience: [regulator, educator, consumer, app]
 sources: 0
@@ -37,7 +36,7 @@ ingest_status: complete
 
 # Shin et al. 2004: Hazardous substances in disposable infant diapers
 
-Shin, Yoon, Park, and Ahn measured antimony, arsenic, mercury, lead, cadmium, chromium, cobalt, copper, and nickel in 11 disposable infant diapers from Korea (K1-K3), Japan (J1-J3), the United States (U1-U3), and Germany (G1-G2). The PDF is a scan. The text layer is empty. Figures below are cells where a coordinate character reading of the page image agrees with the table image. N.D. means not detected, as printed. Units are ppm.
+Shin, Yoon, Park, and Ahn measured antimony, arsenic, mercury, lead, cadmium, chromium, cobalt, copper, and nickel in 11 disposable infant diapers from Korea (K1-K3), Japan (J1-J3), the United States (U1-U3), and Germany (G1-G2). The PDF is a scan. The text layer is empty. Figures below are the table glyphs. Where the results prose prints a different digit for the same cell, the table glyph is the figure used and the prose digit is kept as the paper's inconsistency. N.D. means not detected, as printed. Units are ppm.
 
 Table 1 is a nitric-acid total digest. Tables 2, 3, and 4 are artificial-urine extracts at 3, 6, and 24 hours. The authors compare detected values with Oeko-Tex ceilings they cite as antimony 30, chromium 1.0, copper 25, nickel 1.0, and lead 0.2 ppm. Those ceilings are the paper's citations, not measurements.
 
@@ -53,11 +52,11 @@ Table 1, total digest, ppm. Column order is K1, K2, K3, J1, J2, J3, U1, U2, U3, 
 | Pb | 0.089 | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 | Cd | 0.173 | N.D. | 0.314 | N.D. | N.D. | 0.022 | N.D. | N.D. | N.D. | N.D. | N.D. |
 | Cr | N.D. | N.D. | N.D. | N.D. | 1.073 | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
-| Co | 0.021 | not agreed | 0.028 | N.D. | N.D. | 0.084 | 1.397 | 0.025 | N.D. | N.D. | N.D. |
+| Co | 0.021 | 0.021 | 0.028 | N.D. | N.D. | 0.084 | 1.397 | 0.025 | N.D. | N.D. | N.D. |
 | Cu | 1.159 | 0.905 | 1.134 | 0.268 | 0.585 | 1.304 | 0.952 | 0.704 | 0.429 | N.D. | 0.245 |
 | Ni | 0.659 | 0.345 | 0.133 | 0.035 | N.D. | 0.142 | 0.199 | N.D. | 0.154 | N.D. | 0.191 |
 
-U1 and U2 antimony are both 6.427 in the coordinate reading of both cells. Cobalt in K2 is not quoted: the character reading token is "0.02)" and does not cleanly match a figure. Prose agrees with the table on lead in K1 only (0.089 ppm), chromium only in J2 (1.073 ppm), and cobalt in U1 (1.397), U2 (0.025), and J3 (0.084).
+U1 and U2 antimony are both 6.427 in the coordinate reading of both cells. Cobalt K2 is 0.021 ppm on the Table 1 glyph. The earlier token "0.02)" was a misread of that cell. The results prose says the Korean cobalt samples were below detection, which does not match Table 1 K1 0.021, K2 0.021, and K3 0.028. The table cells are the figures used here. The prose non-detect is the paper's inconsistency and is not used in place of those cells. Prose agrees with the table on lead in K1 only (0.089 ppm), chromium only in J2 (1.073 ppm), and cobalt in U1 (1.397), U2 (0.025), and J3 (0.084).
 
 Table 2, 3-hour artificial-urine extract, ppm. Prose agrees with these rows.
 
@@ -87,7 +86,7 @@ Table 3, 6-hour artificial-urine extract, ppm. Prose agrees with these rows.
 | Ni | 0.033 | 0.080 | 0.140 | 0.078 | 0.114 | 0.119 | 0.104 | 0.059 | 0.112 | 0.100 | 0.088 |
 | Hg | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. | N.D. |
 
-Table 4, 24-hour artificial-urine extract, ppm. The table is quoted. Prose disagrees on two assignments, recorded under Limitations.
+Table 4, 24-hour artificial-urine extract, ppm. Antimony 0.056 ppm is in U2, and lead 0.088 ppm is in U2. The results sentences on the same page name those same sample codes. An earlier reading that put antimony 0.056 on J2, and lead 0.088 on U3, was a misread of U as J and of U2 as U3.
 
 | Analyte | K1 | K2 | K3 | J1 | J2 | J3 | U1 | U2 | U3 | G1 | G2 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -109,11 +108,11 @@ Total content was a wet nitric-acid digestion. Extractable content used artifici
 
 ## Evidence fitness
 
-Agreed table cells support occurrence of these elements in 11 diapers, on two bases: total digest and artificial-urine extract at three contact times. Disagreed cells and disagreed prose assignments are flags, not substitute values. Oeko-Tex numbers are the authors' cited ceilings.
+Table cells support occurrence of these elements in 11 diapers, on two bases: total digest and artificial-urine extract at three contact times. Where the results prose restates a Table 1 cell with a different digit, the table cell is the figure used and the prose digit is kept as the paper's inconsistency. Oeko-Tex numbers are the authors' cited ceilings.
 
 ## Limitations
 
-Scanned Korean article. Cobalt K2 in Table 1 is not agreed. Cadmium prose says detection only in K1 (0.173 ppm) and K3, and the prose reading of K3 was 0.331 or 0.3314, which does not match Table 1 K3 at 0.314 ppm. Table 1 also has J3 cadmium 0.022 ppm, which the prose treats as not detected. The table is quoted. Copper prose reads K1 as 1.158 ppm and G2 as 0.244 ppm, against table cells 1.159 and 0.245. Both pairs are recorded. In Table 4, prose assigns antimony 0.056 ppm to J2, while the table places 0.056 in U2 and J2 is not detected. Prose says U1 and U2 lead are not detected and U3 lead is 0.088 ppm. The table places 0.088 in U2, and U3 is not detected, with additional lead detects at J1 0.053, J2 0.069, and G1 0.059. Eleven diapers, one per code, no replicate statistics.
+Scanned Korean article, re-read from 300 dpi crops of the page images. Table 1 cadmium K3 is 0.314 ppm; the results sentence prints K3 as 0.3314 ppm. That prose figure is the paper's inconsistency and is not used. Table 1 cadmium J3 is 0.022 ppm; the same sentence says every sample other than K1 and K3 was below detection. The non-detect sentence is the paper's inconsistency and is not used in place of the J3 cell. Table 1 copper K1 is 1.159 ppm and G2 is 0.245 ppm; the prose prints 1.158 ppm and 0.244 ppm. The prose last digits are the paper's inconsistency. Units in the prose and the tables are ppm. Total-digest rows are a wet nitric-acid digest. Table 4 is an artificial-urine extract at 40 °C for 24 h. Korea Science article JAKO200411922197830 shows no correction notice, and the paper has no DOI on which Crossref could list an update-to. The byline stars Miae Park. No email is printed. Eleven diapers, one per code, no replicate statistics.
 
 ## Related evidence
 

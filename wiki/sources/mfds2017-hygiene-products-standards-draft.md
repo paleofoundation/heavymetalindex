@@ -28,7 +28,7 @@ evidence_fitness:
   does_not_support:
     - "Occurrence measurements"
     - "A claim that this 2017 draft is the notice in force"
-    - "A clean assignment of the line-broken total lead and cadmium row in the cotton-swab section"
+    - "A cotton-swab product page, which does not exist; the section 12 content pair is recorded only as the same draft ceilings"
 audience: [regulator, educator, consumer, app]
 sources: 0
 updated: 2026-09-25
@@ -58,7 +58,7 @@ Total content, inner lining and waterproof layer, in mg/kg: total lead 300 or be
 
 Also printed for diapers, and not metals: formaldehyde 75 mg/L, and 20 mg/L for diapers for children under 36 months; pentachlorophenol and tetrachlorophenol 0.5 mg/kg; azo dyes 30 mg/kg; the sum of DEHP, DBP, and BBP 0.1% on synthetic-resin tape.
 
-Section 12, children's cotton swabs, prints the same migration ceilings on lines that can be read. The total lead and cadmium content row in that section is line-broken in the text layer ("총총카드뮴(Cd) 납(Pb) 300 이하" followed by "75 이하"), so those two swab content figures are not assigned. There is no cotton-swab product page. The swab migration ceilings are noted here only as the same numbers appearing in section 12, not as a routed product.
+Section 12, children's cotton swabs, prints the same migration ceilings on lines that can be read. The text layer concatenates the content row ("총총카드뮴(Cd) 납(Pb) 300 이하" followed by "75 이하"). Word positions on page 30 separate the rows: at the same vertical position, 총 납(Pb) sits with 300, and on the next line 총 카드뮴(Cd) sits with 75. The content ceilings are total lead 300 mg/kg and total cadmium 75 mg/kg, the same pair as the intact diaper content row. The concatenated text-layer string is an extraction break, not a second pair of limits. There is no cotton-swab product page. The swab figures are noted here only as the same numbers appearing in section 12, not as a routed product. The document is a draft notice. It has no personal corresponding author and no correction record.
 
 ## Methods (brief)
 
@@ -70,7 +70,7 @@ The diaper table supports a record of what this 2017 draft would have required. 
 
 ## Limitations
 
-Draft instrument. Species other than total lead and total cadmium are not stated. The cotton-swab content row is not cleanly readable and is not quoted as an assigned pair. Cotton swabs have no product page.
+Draft instrument. Species other than total lead and total cadmium are not stated. The cotton-swab content pair is assigned from word positions on page 30, total lead 300 mg/kg and total cadmium 75 mg/kg. Cotton swabs have no product page.
 
 ## Related evidence
 

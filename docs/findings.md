@@ -513,7 +513,34 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-248 open item(s): 84 auto, 164 awaiting a decision.
+251 open item(s): 84 auto, 167 awaiting a decision.
+
+### OI-20260925-diapers-nya-se — Nyamukamba 2023 Table 4 selenium L2 0.055 mg/kg versus maximum row 0.038 mg/kg is unresolved
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde.md`, `data/evidence/diapers-ingest-2026-09-25-flags.csv`
+- repro: Table 4 artificial-sweat L2 selenium cell is 0.055 mg/kg. The maximum row, H5, and the page 8 prose upper end are 0.038 mg/kg. The maximum row matches every other cell. Crossref update-to is empty for 10.3390/ijerph20021023.
+- done when: A written answer from Pardon Nyamukamba (nyamukambap@cput.ac.za) states which printed figure is the laboratory result for L2 selenium; The source page stops marking both figures contested only after that answer is recorded, and neither figure is averaged
+- decision: _pending_
+- notes: Corresponding author Pardon Nyamukamba, nyamukambap@cput.ac.za. Do not average. Do not use either figure as a headline maximum or a limit comparison until answered.
+
+### OI-20260925-diapers-nya-ni — Nyamukamba 2023 Table 4 nickel L2 0.003 mg/kg versus minimum row 0.022 mg/kg is unresolved
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde.md`, `data/evidence/diapers-ingest-2026-09-25-flags.csv`
+- repro: Table 4 artificial-sweat L2 nickel cell is 0.003 mg/kg. The minimum row and the page 8 prose lower end are 0.022 mg/kg. The minimum row matches every other cell. This is not the L2 urine cell 0.224 mg/kg and not the H2 sweat cell 0.197 mg/kg.
+- done when: A written answer from Pardon Nyamukamba (nyamukambap@cput.ac.za) states which printed figure is the laboratory result for L2 sweat nickel; The source page stops marking both figures contested only after that answer is recorded, and neither figure is averaged
+- decision: _pending_
+- notes: Corresponding author Pardon Nyamukamba, nyamukambap@cput.ac.za. Do not average. Do not use either figure as a headline minimum.
+
+### OI-20260925-diapers-naz-identity — Naz 2021 diaper review PDF identity versus Crossref is unresolved
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/naz2021-diaper-pad-toxicity-review.md`, `data/evidence/diapers-ingest-2026-09-25-flags.csv`
+- repro: PDF byline is Saima Naz and the imprint is BioScientific Review 2022;4(1):01-11. Crossref 10.32350/bsr.0401.02 gives author Saima Naz Mustafa, pages 26-42, issued 2021-12-30. update-to is empty. The review prints no metal concentration.
+- done when: A written answer from Saima Naz (saima.naz@gscwu.edu.pk) or a publisher correction states which author string and which pagination belong to this PDF; Until then neither identity is the headline bibliographic claim
+- decision: _pending_
+- notes: Corresponding author printed in the PDF: Saima Naz, saima.naz@gscwu.edu.pk. Not a metal-value conflict.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

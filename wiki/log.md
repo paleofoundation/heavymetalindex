@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-25] ingest | diapers-flags-1
+
+Pages touched: [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]], [[sources/shin2004-disposable-diaper-hazardous-substances]], [[sources/alexander1972-metal-free-nappy]], [[sources/danishepa2009-survey-102-two-year-olds]], [[sources/mfds2017-hygiene-products-standards-draft]], [[sources/naz2021-diaper-pad-toxicity-review]].
+Notes: Re-read every contradiction flag against the source PDFs. Disposition file: `data/evidence/diapers-ingest-2026-09-25-flags.csv` (33 resolved, 3 unresolved). Nyamukamba sweat lead is resolved to Table 4 at 0.094 mg/kg; the prose range 0.002-0.019 mg/kg is kept as the paper's inconsistency. Nyamukamba selenium L2 0.055 versus maximum row 0.038, and nickel L2 0.003 versus minimum row 0.022, stay unresolved and are not headline or limit-comparison values. Shin 2004 table glyphs are the figures used where prose restates a different digit; Table 4 antimony 0.056 and lead 0.088 are in U2 in both the table and the results sentence. Alexander 1972 hyphens are the journal decimal; earlier collapsed tokens are reading errors. Danish EPA tin threshold used with the non-detect is the results sentence 0.02-0.03 µg/g; the table token and02 is kept and not used. MFDS swab content is total lead 300 mg/kg and total cadmium 75 mg/kg from word positions. Naz bibliographic identity stays unresolved. No Crossref update-to on the DOI'd papers. No synthesis. No DataCite mint. Direction: toward the literature.
+
 ## [2026-09-25] ingest | diapers-ingest-1 product legends
 
 Pages touched: [[products/diapers-and-components]], [[products/menstrual-pads]], [[products/menstrual-tampons]].

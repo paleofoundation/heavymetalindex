@@ -45,7 +45,7 @@ Danish EPA Survey No. 102 screened five disposable paper diapers, coded 9-1 thro
 
 Section 6.9.5.4 states: "No tin was detected above the detection threshold (0.02-0.03 µg/g) in the diaper's filling material, nor in the elastic bands near the legs." The survey did not publish a tin concentration for any of the five diapers.
 
-Table 6.67 prints the detection threshold as "0.03 µg/g for filling material and02 µg/g for elastic rim." The results sentence prints 0.02-0.03 µg/g. The broken "and02" token is recorded as printed and is not rewritten as 0.02. The results sentence is the threshold cited with the non-detect finding.
+Section 6.9.5.4 prints the detection threshold as 0.02-0.03 µg/g, and that is the figure used with the non-detect. Table 6.67 prints "0.03 µg/g for filling material" and then the token "and02" before "µg/g for elastic rim." A 300 dpi crop of that line shows the letters and, a narrow gap, then the digits 0 and 2, with no decimal point between 0 and 2. The token is kept as the paper's broken numeral. It is not rewritten inside the table, and it is not used as the threshold. The report has no DOI. Crossref has no work to carry an update-to, and the PDF contains no correction notice.
 
 Formaldehyde, which is not a metal, is in Table 6.74 in µg/g, with detection below 2. Outer lining with print and inner lining: product 9-1 = 4, 9-4 = 4, 9-5 = 2, and 9-2 and 9-3 below 2. Filling-material formaldehyde analysis was not finished. Rosin was not detected above 2 µg/g in filling or waistband.
 
@@ -59,7 +59,7 @@ The diaper chapter supports a censored tin result for five Danish paper diapers:
 
 ## Limitations
 
-The methods-table threshold for the elastic rim is a broken numeral ("and02"). The non-detect statement uses the range 0.02-0.03 µg/g. Five diapers, one market, and a screen rather than a quantified result. Tin is total tin by ICP-MS ions 118 and 120, not a named organotin species.
+The non-detect statement uses the range 0.02-0.03 µg/g from section 6.9.5.4. The Table 6.67 elastic-rim token "and02" is not that threshold. Five diapers, one market, and a screen rather than a quantified result. Tin is total tin by ICP-MS ions 118 and 120, not a named organotin species. No author email is printed in the front matter. Kathe Tønning is the first named author.
 
 ## Related evidence
 

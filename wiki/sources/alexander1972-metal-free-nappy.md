@@ -24,12 +24,12 @@ sample_n: 1
 sample_population: "One disposable nappy type prepared for metabolic-balance urine collection, plus a three-day eluate from two infant subjects."
 evidence_fitness:
   supports:
-    - "Per-nappy metal content before and after EDTA deionization, for cells where the scanned page and the character reading agree"
-    - "Three-day combined eluate, nappy blank, and urinary excretion for two named infant subjects, for cells where the scanned page and the character reading agree"
+    - "Per-nappy metal content before and after EDTA deionization, from Table II glyphs, including iron, molybdenum, chromium, and nickel"
+    - "Three-day combined eluate, nappy blank, and urinary excretion for two named infant subjects, from Table IV glyphs"
+    - "Tie-pant cadmium of 86 µg in Table I"
   does_not_support:
     - "A market survey of disposable diapers"
-    - "Cells where the page image and the character reading disagree, including iron, molybdenum, chromium, and nickel on the deionization table and several eluate cells"
-    - "Numeric cadmium or other metal concentrations in the plastic tie-pant"
+    - "The earlier character-reading tokens that dropped a printed hyphen or misread a digit, which are not second printed values"
     - "Inorganic versus total arsenic, methylmercury versus total mercury, or hexavalent versus total chromium"
 audience: [regulator, educator, consumer, app]
 sources: 0
@@ -39,7 +39,7 @@ ingest_status: complete
 
 # Alexander and Delves 1972: Metal content of a disposable nappy before and after deionization
 
-Alexander and Delves measured metals in a disposable nappy used as a urine-collection medium for infant metabolic-balance studies, and in a three-day eluate from two children. The work is a methods paper. It is not a survey of diapers on sale. The nappy was soaked in 0.1 M EDTA and then in 0.1 N HCl. A plastic tie-pant used with the nappy is described as heavily contaminated with cadmium and as requiring deionization before use. No tie-pant concentration is quoted below, because no digit string in that table agreed between the page image and the character reading of the scan.
+Alexander and Delves measured metals in a disposable nappy used as a urine-collection medium for infant metabolic-balance studies, and in a three-day eluate from two children. The work is a methods paper. It is not a survey of diapers on sale. The nappy was soaked in 0.1 M EDTA and then in 0.1 N HCl. A plastic tie-pant used with the nappy is described as heavily contaminated with cadmium and as requiring deionization before use. Table I prints the tie-pant cadmium cell as 86 µg. That glyph is two digits, 8 and 6, in the cadmium column. The earlier failure to agree on a digit string was a reading error, not a second printed value.
 
 ## Key numbers
 
@@ -61,17 +61,17 @@ Deionization table, per nappy, before and after EDTA treatment. Only cells that 
 | Na | 0.18 | 0.10 | m-equiv |
 | K | zero | not detected | as printed |
 
-The page image and the character reading disagree on iron (image 28 µg before and 16.7 µg after; reading token "28-44 167"), molybdenum (image <1.0 and <0.4 µg; reading nearer <0.8 and <0.6), chromium (image <1.0 and <0.4 µg, with an extra 2.1 token in the reading), and nickel (image <1.0 and <0.4 µg; reading "<174 <41"). Those four pairs are not adopted as reported values.
+Table II, decontamination with EDTA, prints micrograms per nappy. Iron is 58 µg untreated and 4.8 µg treated (printed 4-8, with the hyphen as the decimal). Molybdenum is 0.13 µg untreated and 0.13 µg treated (printed 0-13). Chromium is 0.2 µg untreated (printed 0-2) and below 0.05 µg treated (printed <0-05). Nickel is 1.1 µg untreated (printed 1-1) and below 0.1 µg treated (printed <0-1). The earlier pairs (iron 28 and 16.7 against a token 28-44 167; molybdenum below 1.0 and below 0.4 against a nearer reading below 0.8 and below 0.6; chromium below 1.0 and below 0.4 with a 2.1 token; nickel below 1.0 and below 0.4 against <174 and <41) do not match these glyphs. They are reading errors, not second printed values, and they are not used.
 
 Three-day eluate table. The character reading captions it Table IV. Subjects are C.B., a healthy girl aged 1 year, and A.K., a 13-month-old girl with branched-chain ketonuria. Columns are combined eluate, nappy blank, and urinary excretion. Units are as printed on the table. Hyphen and colon tokens in the reading were treated as decimal points only where the resulting figure matches the page image. Agreed cells:
 
 | Analyte | C.B. combined | C.B. blank | C.B. excretion | A.K. combined | A.K. blank | A.K. excretion |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| N | not agreed | 0.09 | 7.36 | 6.42 | 0.14 | 6.28 |
-| P | 870.8 | not agreed | 863.6 | not agreed | 10.8 | 730.4 |
-| Na | 73.3 | 3.2 | not agreed | 52.7 | not agreed | not agreed |
-| K | not agreed | not agreed | not agreed | 41.7 | 0 | 41.7 |
-| Ca | 42.5 | 0.59 | 41.91 | not agreed | 12.2 | 61.9 |
+| N | 7.45 | 0.09 | 7.36 | 6.42 | 0.14 | 6.28 |
+| P | 870.8 | 7.2 | 863.6 | 741.2 | 10.8 | 730.4 |
+| Na | 73.3 | 3.2 | 70.1 | 52.7 | 4.9 | 47.8 |
+| K | 54 | 0 | 54 | 41.7 | 0 | 41.7 |
+| Ca | 42.5 | 0.59 | 41.91 | 74.1 | 12.2 | 61.9 |
 | Mg | 63.2 | 0.58 | 61.62 | 85 | 2.2 | 82.8 |
 | Fe | 1.05 | 0.45 | 0.60 | 0.80 | 0.90 | 0 |
 | Zn | 0.52 | 0.02 | 0.50 | 2.39 | 1.30 | 1.10 |
@@ -79,25 +79,25 @@ Three-day eluate table. The character reading captions it Table IV. Subjects are
 | Cu | 88.9 | 37.0 | 51.9 | 83.4 | 45.9 | 37.5 |
 | Pb | 108.4 | 30.5 | 78.0 | 163.0 | 40.0 | 123.0 |
 | Mo | 51.7 | 8.7 | 43.0 | 51.0 | 11.0 | 40.0 |
-| Cr | 21.6 | not agreed | 15.5 | 26.4 | not agreed | 18.3 |
-| Sr | not agreed | 9.1 | 55.0 | 133.0 | 62.0 | 71.0 |
-| Cd | 22.4 | 2.4 | 20.0 | 14.4 | not agreed | 10.3 |
+| Cr | 21.6 | 6.1 | 15.5 | 26.4 | 8.1 | 18.3 |
+| Sr | 64.1 | 9.1 | 55.0 | 133.0 | 62.0 | 71.0 |
+| Cd | 22.4 | 2.4 | 20.0 | 14.4 | 4.1 | 10.3 |
 | Co | 13.9 | 0.9 | 13.0 | 48.2 | 14.2 | 34.0 |
-| Ni | 76.0 | not agreed | 70.0 | 39.6 | 13.5 | not agreed |
+| Ni | 76.0 | 6.0 | 70.0 | 39.6 | 13.5 | 26.1 |
 
-The C.B. nitrogen combined-eluate cell is 7.45 on the page image and "TAS" in the character reading, so 7.45 is not quoted. The C.B. excretion of 7.36 and the A.K. combined figure of 6.42 are the agreed nitrogen figures. Other cells marked not agreed are listed under Limitations with both readings.
+The journal prints a hyphen where a decimal point would now be set. Nitrogen C.B. combined is printed 7-45, which is 7.45. The character token "TAS" was a misread of that cell. Potassium C.B. combined and excretion are printed 54 with no hyphen between the digits, and the blank is 0, so 54 minus 0 equals 54. A reading of 5.4 inserted a decimal the page does not print. Crossref lists no update-to for DOI 10.1136/jcp.25.11.927. No email is printed. F. W. Alexander is the first author, at the Department of Chemical Pathology, Institute of Child Health, London.
 
 ## Methods (brief)
 
-Nappies were soaked in 0.1 M EDTA and then in 0.1 N HCl. Ashing was at 500 °C. Metals were measured by flame methods. The eluate experiment combines the nappy eluate over three days and subtracts a nappy blank to estimate urinary excretion. The PDF is a scan. Figures above are limited to cells where the page image and the character reading agree. Arsenic and mercury are not in these tables. Chromium is not speciated as hexavalent chromium.
+Nappies were soaked in 0.1 M EDTA and then in 0.1 N HCl. Ashing was at 500 °C. Metals were measured by flame methods. The eluate experiment combines the nappy eluate over three days and subtracts a nappy blank to estimate urinary excretion. The PDF is a scan. Figures above are the glyphs read from Tables I, II, and IV. Arsenic and mercury are not in these tables. Chromium is not speciated as hexavalent chromium.
 
 ## Evidence fitness
 
-The agreed cells support a methods description of how much metal a prepared nappy contributed, and of the blank that had to be subtracted from two infants' urine collections. They do not support a distribution of metals in diapers sold to the public. Disagreed cells are preserved as disagreements in the structured extract and are not used as concentrations.
+The Table II and Table IV cells read from the page support a methods description of how much metal a prepared nappy contributed, and of the blank that had to be subtracted from two infants' urine collections. They do not support a distribution of metals in diapers sold to the public. Cells that an earlier character reading missed a hyphen in are quoted from the glyph, with the hyphen read as the decimal the journal printed.
 
 ## Limitations
 
-The scan is two-column, and several character readings drop a decimal point. Disagreed eluate cells, image versus reading: phosphorus C.B. blank 7.2 versus 72, and A.K. combined 741.2 versus TA1-2; sodium C.B. excretion 70.1 versus 10.1, A.K. blank 4.9 versus 49, A.K. excretion 47.8 versus 478; potassium C.B. figures 5.4 versus 54; calcium A.K. combined 74.1 versus 141; chromium blanks 6.1 versus 61 and 8.1 versus 81; strontium C.B. combined 64.1 versus 41; cadmium A.K. blank 4.1 versus 41; nickel C.B. blank 6.0 versus 60 and A.K. excretion 26.1 versus 261. The tie-pant numeric table has no agreed digit string. One nappy type and two children are the whole sample. Units on the eluate table are those printed with the rows and are not converted here.
+The scan is two-column. Re-reading Table IV at 280 dpi shows a hyphen in each cell that an earlier character reading had collapsed: phosphorus C.B. blank is printed 7-2 (7.2), not 72, and A.K. combined is printed 741-2 (741.2), not the token TA1-2; sodium C.B. excretion is printed 70-1 (70.1), A.K. blank 4-9 (4.9), and A.K. excretion 47-8 (47.8); calcium A.K. combined is printed 74-1 (74.1); chromium blanks are printed 6-1 (6.1) and 8-1 (8.1); strontium C.B. combined is printed 64-1 (64.1); cadmium A.K. blank is printed 4-1 (4.1); nickel C.B. blank is printed 6-0 (6.0) and A.K. excretion 26-1 (26.1). Those collapsed tokens are reading errors. Potassium C.B. is printed 54, 0, and 54, with no hyphen, so 54 is the figure and 5.4 is not. One nappy type and two children are the whole sample. Units on the eluate table are those printed with the rows and are not converted here.
 
 ## Related evidence
 
