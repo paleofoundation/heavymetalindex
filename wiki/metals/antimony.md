@@ -3,66 +3,208 @@ title: Antimony
 type: metal
 symbol: Sb
 name: Antimony
-species: [Sb, antimony-compounds]
-audience: [regulator, educator, researcher]
-microbiome_relevance: unknown
-sources: 68
+species: [Sb, Sb-III, Sb-V, antimony-trioxide]
+audience: [regulator, educator, consumer, app]
+microbiome_relevance: moderate
+description: "Reference page for antimony: oxidation states, uses, exposure routes, toxicokinetics, toxicology, the 2023 IARC classification of trivalent and pentavalent antimony, reference values, and regulatory limits. Occurrence figures are limited to sources opened for this revision."
+dek: "Antimony is a metalloid whose trivalent compounds, including antimony trioxide, are IARC Group 2A. Drinking-water limits, toy-migration limits, and cosmetic-impurity guidance exist, and they are not interchangeable."
+cite_title: "Antimony: chemistry, exposure, toxicology, reference values, and regulatory limits"
+established: 2026-09-25
+updated: 2026-09-25
+license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
 wiki_doi: null
-updated: 2026-04-30
-status: stub
-n_sources: 1
+shareText: "Trivalent antimony is IARC Group 2A. Water limits, toy migration limits, and cosmetic guidance are different instruments, and they do not transfer onto a wipe."
+shareHashtags: [Antimony, HeavyMetals]
 ---
 
 # Antimony
 
+This page replaces the source-map stub. It reports what the documents opened for this revision say. Where a figure was not in a document opened here, the gap is named. Product-by-product occurrence in infant articles is synthesized at [[synthesis/antimony-in-baby-products]]. A reading brief on baby wipes, prepared on a separate branch, is pull request 152; this page does not copy that brief's tables.
+
 ## Overview
 
-Antimony is listed by [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] among minor toxic metals for which toxicity has been described. The Essentials chapter does not provide a detailed antimony subsection, so this node is source-map context only.
+Antimony (Sb) is a metalloid. The documents opened here treat two oxidation states as toxicologically different. Trivalent antimony, Sb(III), includes antimony trioxide and antimony potassium tartrate. Pentavalent antimony, Sb(V), includes compounds used to treat leishmaniasis and the oxo-anion described as the form most likely to leach from antimony-bearing materials into drinking water. The World Health Organization chemical fact sheet, assessment date 2003, states that the form in drinking water is a key determinant of toxicity, that the antimony(V) oxo-anion is the less toxic form, and that the subchronic toxicity of antimony trioxide is lower than that of potassium antimony tartrate, the more soluble form.
 
-## Status
+The International Agency for Research on Cancer, in the 5 May 2023 announcement of Monograph Volume 131, classified trivalent antimony as probably carcinogenic to humans (Group 2A), on limited evidence for cancer in humans, sufficient evidence for cancer in experimental animals, and strong mechanistic evidence in human primary cells and in experimental systems. The same announcement classified pentavalent antimony as not classifiable as to its carcinogenicity to humans (Group 3), and stated that pentavalent antimony was evaluated for the first time. The Volume 131 general remarks, as posted on NCBI Bookshelf, record that antimony trioxide had previously been evaluated as possibly carcinogenic to humans (Group 2B) in 1989. The 2023 classification is of the trivalent class. Antimony trioxide is a trivalent compound and therefore sits inside that class. This page does not treat the 2023 announcement as a sentence that names antimony trioxide alone.
 
-This page is a source-map stub created during the re-ingest of [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. Substantive antimony-specific expansion awaits a dedicated ingest.
+Antimony is not one of the eight elemental totals (lead, cadmium, total arsenic, total mercury, nickel, aluminium, total chromium, tin) that dominate food-contaminant panels. A measurement panel that stops at those eight does not report antimony.
+
+## Chemistry and forms
+
+Elemental antimony and its compounds are not one analyte for hazard classification. Volume 131 evaluated trivalent and pentavalent antimony separately. The general remarks note some evidence of interconversion: in humans given a single intramuscular injection, about 23.3 percent of an administered pentavalent compound was reduced to trivalent antimony in blood, and in monkeys given repeated intramuscular injections the plasma proportion of trivalent antimony rose from 5 percent to 50 percent between day 1 and day 9. The Working Group treated that interconversion as an evidence gap, not as a reason to collapse the two evaluations.
+
+Antimony trioxide (Sb2O3) is the insoluble trivalent oxide that appears in the inhalation cancer studies and in the flame-retardant and plastics uses named by IARC. Antimony potassium tartrate is the soluble trivalent salt used in the oral studies that underlie the WHO tolerable daily intake and the ATSDR intermediate oral minimal risk level. Those two compounds must not be averaged into one dose. WHO states that antimony trioxide, because of low bioavailability, was genotoxic only in some in vitro tests and not in vivo, whereas soluble antimony(III) salts exerted genotoxic effects in vitro and in vivo, on the evidence available at the 2003 assessment.
+
+
+## Uses and releases
+
+The IARC Volume 131 announcement lists uses in flame retardants, lead-acid batteries, lead alloys, plastics, brake pads, clutch discs, glass and ceramics, and ammunition primers. Some pentavalent compounds are used to treat leishmaniasis. The U.S. Environmental Protection Agency National Primary Drinking Water Regulations page lists discharge from petroleum refineries, fire retardants, ceramics, electronics, and solder as drinking-water sources of antimony. The WHO fact sheet adds that elemental antimony forms hard alloys with copper, lead, and tin, and that replacement of lead by antimony in solder has little evidence of a significant contribution to drinking-water concentrations.
+
+Polyester and polyethylene terephthalate (PET) catalyst residue is the pathway named for baby wipes on [[products/baby-wipes]] and measured, as total antimony in screened components, by [[sources/stone2021-wa-metals-childrens-consumer-products|Washington Ecology Publication 14-04-014]]. This revision did not open a primary polymerization or migration study that states a catalyst loading or a percent transfer into sweat, lotion, or bottled water. That transfer fraction is unknown here.
+
+## Environmental occurrence
+
+The WHO fact sheet, assessment date 2003, states concentrations in groundwater less than 0.001 µg/L, in surface water less than 0.2 µg/L, and in drinking water appearing to be less than 5 µg/L. It states that conventional treatment does not remove antimony, that antimony is not normally a raw-water contaminant, and that the most common drinking-water source appears to be dissolution from metal plumbing and fittings. Those are the fact sheet's occurrence statements, not a new survey.
+
+[[sources/ungureanu2022-bottled-water-toxic-elements|Ungureanu and colleagues 2022]] measured antimony in 50 bottled waters from the Romanian market. The minimum was below 0.07 µg/L and the maximum was 0.64 ± 6.85 µg/L, as printed. The detection limit for antimony was 0.07 µg/L. The printed uncertainty on the maximum is larger than the maximum itself. This page preserves that figure and does not correct it. The result is a Romanian market measurement. It is not a U.S. benchmark and it is not, by itself, a demonstration that the antimony came from the bottle wall.
+
+## Human exposure routes
+
+Diet, drinking water, and bottled water are oral routes with regulatory numbers, cited below. Inhalation is the route of the occupational lung findings and of the NTP inhalation bioassay summarized by ATSDR. Dust and brake wear are implied by the IARC use list (brake pads, clutch discs) and by occupational airborne exposure in the ATSDR profile. This revision did not open a house-dust survey with an antimony concentration, so no dust concentration is stated.
+
+Dermal contact is a plausible route for textiles, wipes, and diapers, and it is the route with the weakest quantitative absorption data. ATSDR describes occupational dermatosis in workers exposed to airborne antimony that dissolved in sweat (Stevenson 1965), more often in heat. That is sweat acting on airborne dust, not a wipe-lotion study. No dermal absorption fraction for trace antimony on infant skin was in the documents opened here.
+
+PET-bottled water and polyester textiles are exposure hypotheses that match the use pattern. The only bottled-water concentration opened here is the Romanian survey above. The only textile-range concentrations opened here are the Washington screening results in the infant-and-child section.
+
+## Toxicokinetics
+
+The ATSDR Toxicological Profile for Antimony and Compounds (October 2019) states that gastrointestinal absorption is poor and form-dependent. Animal estimates for tartrate and trichloride are about 2 to 7 percent. A dog study of a single gavage dose of pentavalent meglumine antimoniate estimated 10 percent bioavailability. The profile adopts the International Commission on Radiological Protection (1981) reference values for human gastrointestinal absorption: 10 percent for antimony tartrate and 1 percent for all other forms. Those are reference values for dose reconstruction, not measured absorption from a wipe or a meal in the studies opened here.
+
+Dermal absorption is not quantified for ordinary consumer contact. Occluded application of antimony trioxide that killed rabbits is read by ATSDR as evidence that at least some forms can cross skin (Myers et al. 1978). A repeated dermal study of antimony trioxide in an artificial-sweat paste killed rabbits, but the application was not occluded and ATSDR excluded it from the levels-of-significant-exposure table because the animals may have ingested the paste (Fleming 1938). No percent absorption for trace cosmetic or wipe exposure is stated.
+
+Distribution is wide. The profile's chapter summary states that antimony is distributed throughout the body, with highest concentrations in the lungs, gastrointestinal tract, red blood cells, liver, kidney, bone, spleen, and thyroid. Antimony is not metabolized in the sense of an organic metabolite, but the profile and the IARC remarks both record interconversion between pentavalent and trivalent forms. Excretion splits by valence: trivalent antimony is predominantly excreted in feces, with smaller amounts in urine, and pentavalent antimony is primarily excreted in urine. Parenteral half-lives from leishmaniasis treatment are not oral half-lives, and this page does not collapse them into one number.
+
+## Toxicology
+
+ATSDR's systematic review names the respiratory tract, heart, gastrointestinal tract, serum glucose, and the developing animal as the sensitive targets. The studies are predominantly of trivalent compounds, especially antimony trioxide and antimony potassium tartrate. Parenteral therapeutic doses produce a different picture (electrocardiogram changes, vomiting, myalgia) and are not consumer-product doses.
+
+Acute oral toxicity in the profile is anchored by forestomach ulceration in mice given antimony potassium tartrate (NTP 1992). The acute oral minimal risk level is 1 mg Sb/kg/day, from a NOAEL of 99 mg Sb/kg/day and an uncertainty factor of 100. Intermediate-duration oral exposure uses decreased serum glucose in female rats given antimony potassium tartrate (Poon et al. 1998). The published intermediate oral minimal risk level is 0.0006 mg Sb/kg/day, with an uncertainty factor of 100. The profile footnote states the NOAEL as 0.06 mg Sb/kg/day. The UK Committee on Toxicity, in its 2024-2025 discussion of a drinking-water guidance value, reads that same ATSDR choice as 60 µg Sb/kg body weight per day. An extracted table cell in the profile text is ambiguous between 0.06 and 0.064 mg Sb/kg/day. This page uses 0.06 mg Sb/kg/day, the footnote and the COT reading, and does not adopt 0.064 as a second value.
+
+Chronic oral data were inadequate for a minimal risk level. No chronic oral MRL is stated.
+
+Inhalation. The acute inhalation minimal risk level is 0.001 mg Sb/m3, based on squamous metaplasia of the epiglottis in mice exposed to antimony trioxide (NTP 2016), with the intermediate-duration inhalation value adopted from that acute value. The chronic inhalation minimal risk level is 0.0003 mg Sb/m3, based on chronic lung inflammation in female rats exposed to antimony trioxide (Newton et al. 1994). Occupational series summarized in the profile report cough, upper-airway inflammation, pneumoconiosis, and bronchitis in workers exposed to antimony oxides, often with co-exposure to arsenic, silica, or other metals. Those series are not general-population inhalation risks.
+
+Cardiovascular. Electrocardiogram changes are a repeated finding after injected therapeutic antimony. The profile also summarizes observational associations between urinary antimony and high blood pressure in NHANES analyses, alongside associations for several other metals. Those urinary studies do not identify a product source and do not establish that antimony caused the blood-pressure difference.
+
+Reproductive and developmental. The developing animal is one of ATSDR's named sensitive targets. Occupational reports of menstrual disturbance and lower infant weight gain are in the profile and are not isolated from co-exposures. This revision did not open a developmental study at a dose relevant to wipe or textile contact, so no infant-product developmental dose is stated.
+
+Genotoxicity. On the WHO 2003 reading, antimony trioxide was genotoxic in some in vitro tests and not in vivo, while soluble antimony(III) salts were genotoxic in vitro and in vivo. IARC's 2023 Group 2A classification for trivalent antimony rests in part on strong mechanistic evidence in human primary cells, including DNA damage, chromosomal aberrations, micronuclei, and sister-chromatid exchange, as described in the Volume 131 general remarks. Pentavalent antimony was not given that classification.
+
+## Carcinogenicity classification
+
+| Evaluation | Agent as named | Group | What the document says |
+| --- | --- | --- | --- |
+| IARC 1989, as recorded in the Volume 131 general remarks | Antimony trioxide | 2B | Possibly carcinogenic to humans. Prior evaluation. |
+| IARC Volume 131, announced 5 May 2023 | Trivalent antimony | 2A | Probably carcinogenic to humans. Limited evidence in humans, sufficient evidence in experimental animals, strong mechanistic evidence. |
+| IARC Volume 131, announced 5 May 2023 | Pentavalent antimony | 3 | Not classifiable. First evaluation. |
+| NTP Report on Carcinogens, as cited by ATSDR 2019 | Antimony trioxide | Reasonably anticipated to be a human carcinogen | ATSDR's citation of NTP 2018. The Report on Carcinogens monograph was not re-opened here. |
+| U.S. EPA IRIS | Antimony | Not stated on this page | The IRIS chemical landing was not opened in this revision. ATSDR 2019 states that EPA had not classified the carcinogenicity of antimony. That sentence predates any later IRIS revision. |
+
+The WHO fact sheet still records the 1989 Group 2B conclusion for antimony trioxide and Group 3 for antimony trisulfide, because its assessment date is 2003. The 2023 Volume 131 classification supersedes that reading for trivalent antimony as a class. Oral carcinogenicity remains weakly quantified. ATSDR notes no tumor increase in lifetime oral studies of antimony potassium tartrate in rats and mice, and WHO states that there are no data to indicate carcinogenicity by the oral route. The inhalation classification must not be rewritten as an oral cancer potency.
+
+## Reference values
+
+These values answer different questions. They are not a range to average.
+
+The WHO tolerable daily intake is 6 µg/kg body weight. It is based on a NOAEL of 6.0 mg/kg body weight per day for decreased body-weight gain and reduced food and water intake in a 90-day rat drinking-water study of potassium antimony tartrate, with an uncertainty factor of 1000 (100 for interspecies and intraspecies variation, and 10 for the short duration). The drinking-water guideline of 0.02 mg/L allocates 10 percent of that TDI to a 60 kg adult drinking 2 litres per day. Assessment date 2003.
+
+The ATSDR intermediate oral minimal risk level is 0.0006 mg Sb/kg/day, two orders of magnitude below the WHO TDI, because ATSDR and WHO chose different NOAELs from the same Poon et al. 1998 study. The UK Committee on Toxicity, in October 2024, agreed with the WHO and Lynch et al. 1999 reading of a NOAEL of 6,000 µg Sb/kg body weight per day, and recorded that Health Canada and ATSDR had selected 60 µg Sb/kg body weight per day. COT had previously used the WHO TDI of 6 µg/kg body weight per day when it reviewed the 2006 UK Total Diet Study and the 2014 infant-food survey. This page does not average the two NOAELs.
+
+RIVM's 2012 letter report on environmental risk limits states that EFSA (2004) adopted the WHO TDI of 6 µg antimony/kg body weight per day for antimony trioxide in food-contact materials. The EFSA opinion itself was not opened here. The adoption is reported as RIVM's statement.
+
+The U.S. EPA oral reference dose was not opened from the IRIS file in this revision, so no RfD is printed. The National Primary Drinking Water Regulations page, opened here, sets the maximum contaminant level goal and the maximum contaminant level for antimony at 0.006 mg/L, and lists increase in blood cholesterol and decrease in blood sugar as the long-term health effects above the MCL.
+
+No chronic oral minimal risk level exists in the 2019 ATSDR profile.
+
+## Regulatory limits
+
+Limits below are copied from instruments or from wiki regulation pages that transcribe them. A drinking-water concentration, a specific migration limit into food, a toy-migration limit in milligrams per kilogram of toy material, and a cosmetic impurity guidance value are different bases. None of them is a baby-wipe content limit.
+
+| Instrument | What it limits | Value | Basis |
+| --- | --- | --- | --- |
+| [[regulations/us-epa-2018-drinking-water-standards-health-advisories\|U.S. EPA NPDWR]], confirmed on the EPA regulations page | Drinking water | 0.006 mg/L MCL and MCLG | Water, as consumed |
+| [[regulations/us-fda-21cfr165-110-bottled-water-2024\|FDA 21 CFR 165.110]] | Bottled water | 0.006 mg/L | Bottled water |
+| [[regulations/who2022-drinking-water-guidelines\|WHO Guidelines for drinking-water quality]], and the chemical fact sheet | Drinking water | 0.02 mg/L (20 µg/L) | Guideline, 2003 derivation |
+| [[regulations/eu-2020-2184-drinking-water\|EU 2020/2184]] | Water intended for human consumption | 10 µg/L | Parametric value |
+| [[regulations/canada-gdwq-summary-tables-2025\|Health Canada GDWQ summary, 2025]] | Drinking water | 0.006 mg/L | Drinking water |
+| [[regulations/australia-nhmrc-adwg-6-v4-drinking-water\|Australia NHMRC ADWG]] | Drinking water | 0.003 mg/L | Drinking water |
+| [[regulations/eu-10-2011-food-contact-plastics-sml\|EU 10/2011 Annex II]] | Plastic food-contact migration | 0.04 mg/kg | Specific migration into food |
+| [[regulations/coe-cm-res-2013-9-metals-alloys-food-contact\|Council of Europe CM/Res(2013)9]] | Metals and alloys in food contact | 0.04 mg/kg | Specific release limit. A comparator resolution, not EU law. |
+| [[regulations/japan-notice-370-food-contact-heavy-metals\|Japan MHLW Notice No. 370]] | Metal used to make or repair food-contact parts | 5 percent by weight | Composition of the metal, not migration and not a food limit |
+| [[regulations/eu-2009-48-toy-safety-migration-limits\|EU Toy Safety Directive 2009/48/EC, EN 71-3]] | Soluble migration from toy material in 0.07 M HCl | 45 / 11.3 / 560 mg/kg | Category I (dry, brittle, powder-like, or pliable) / Category II (liquid or sticky) / Category III (scraped-off) |
+| [[regulations/astm-f963-soluble-migration\|ASTM F963]] | Soluble migrated antimony | 60 mg/kg | Toy material, U.S. mandatory toy standard under CPSIA |
+| [[regulations/health-canada-cosmetic-heavy-metal-impurities\|Health Canada cosmetic impurity guidance]] | Finished cosmetic products | 5 ppm (5 mg/kg) | Administrative guidance, not a regulation. The guidance does not name wipes. |
+| [[regulations/germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics\|Germany BVL 2017]] | Cosmetic products in general, and toothpaste | 0.5 mg/kg | Orientation value for technically avoidable content. Not a statute. |
+| [[regulations/south-korea-mfds-notice-2024-9-cosmetic-trace-metals\|Korea MFDS cosmetic trace allowance]] | Marketed cosmetic products | 10 µg/g | Unintentional trace. A later notice records the same 10 µg/g figure. |
+| [[sources/eu-2009-1223-cosmetic-products-regulation\|EU 1223/2009]] | Antimony and its compounds as cosmetic ingredients | Prohibited (Annex II, entry 40) | Article 17 allows technically unavoidable traces under good manufacturing practice and product safety, and sets no ppm. |
+| [[sources/oeko-tex2024-new-limit-values\|OEKO-TEX 2024 notice in this corpus]] | Textile-mill wastewater under STeP | 100 µg/L | Effluent, not extractable antimony in a finished garment or wipe |
+
+[[sources/oeko-tex2024-new-limit-values|The corpus OEKO-TEX page]] does not record an extractable antimony limit for STANDARD 100. A figure of that kind was discussed in the companion wipes brief and was not re-opened here, so it is not entered in this table. The ingredient prohibition is [[sources/eu-2009-1223-cosmetic-products-regulation|EU Regulation 1223/2009]].
+
+## Infant and child considerations
+
+Infants meet antimony, where they meet it, through water used to prepare feeds, through polyester and PET articles against skin or in the mouth, and through any antimony in the diet. No infant-formula concentration was extracted from a source page in this revision. Source records that list antimony among analytes in infant food, including [[sources/cot2003-infant-food-metals|the 2003 COT statement on a UK infant-food survey]], are indexed on this page and are not quoted here as a parts-per-billion result.
+
+[[sources/stone2021-wa-metals-childrens-consumer-products|Washington Ecology Publication 14-04-014]] (revised June 2021) is a screening survey, not a random sample of the market. Components were prioritized by XRF and then analysed by ICP-MS. In that design, baby-wipe components measured 70.6, 61.3, and 40.6 ppm antimony. Moist baby-wipes packaging measured 95.8 ppm antimony. Baby bibs measured 116 and 99.6 ppm. Two clothing samples (jeans) measured 121 and 128 ppm. Two toy components measured 168 and 94 ppm. The agency reported antimony detected in 57 percent of 150 children's-product components. The same rows that print antimony in the tens of ppm often print other metals at the reporting floor. A printed zero without a detection limit is not treated here as a formal non-detect. The study supports the Children's Safe Products Act reporting threshold of 100 ppm for chemicals of high concern to children. That threshold is a reporting trigger, not a health-based limit.
+
+Body weight makes the same ingested mass a larger dose in an infant than in a 60 kg adult, which is why the WHO guideline derivation (60 kg, 2 L/day, 10 percent of TDI) does not describe an infant. This page does not rescale the TDI or the MRLs onto an infant body weight. No dermal dose from a wipe was calculated, because no absorption fraction and no wipe-lotion migration result were opened here.
+
+[[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde|Nyamukamba and colleagues 2023]] measured extractable metals in 20 disposable diapers bought in Cape Town, using artificial sweat and artificial urine. Antimony was not an analyte. The panel was lead, copper, arsenic, zinc, cobalt, nickel, chromium, cadmium, manganese, and selenium. Nickel exceeded the 0.1 mg/kg Oeko-Tex value stated by the authors in one sweat extract (0.197 mg/kg) and one urine extract (about 0.224 mg/kg). The paper's prose gives a sweat lead range of 0.002 to 0.019 mg/kg, while Table 4 in the same HTML lists a lead maximum of 0.094 mg/kg. This page does not adopt a lead range from that conflict. The diaper finding is that a sweat-and-urine extractable panel built around other metals can miss antimony entirely.
+
+## Microbiome and metallomics
+
+Evidence strength is marked on each claim. No opened study measured the skin microbiome of the diaper area under antimony exposure. That cell is unknown.
+
+Microbial handling of Sb(III) shares hardware with arsenic. Li and colleagues 2017, in Scientific Reports ([doi.org/10.1038/srep43225](https://doi.org/10.1038/srep43225)), studied Agrobacterium tumefaciens GW4 in vitro. The paper states that the glycerol facilitator GlpF and its homolog Fps1p take up Sb(III) because Sb(OH)3 resembles glycerol, and that the arsenite efflux pumps ArsB and Acr3 can also efflux Sb(III). A cytoplasmic Sb(III) oxidase, AnoA, a short-chain dehydrogenase, and the periplasmic arsenite oxidase AioAB both oxidize Sb(III) to the less toxic Sb(V). Knockout of anoA decreased Sb(III) oxidation efficiency by about 30 percent. Deletion of aioA did not decrease log-phase oxidation in GW4 and slightly increased it later; the paper notes that aioA deletion decreased oxidation in a different strain (5A). At 50 µM Sb(III), growth was unaffected. At 100 and 200 µM, katA, anoA, and aioA were required for resistance. Cellular hydrogen peroxide also oxidizes Sb(III) abiotically (R2 0.93 in vivo and 0.94 in vitro in the experiments reported). The paper states that genes and enzymes for microbial Sb(V) reduction and Sb(III) methylation had not been identified, although the phenomena were described as environmentally widespread. This page does not name a methylation gene. Evidence strength: in vitro.
+
+Animal gut composition. Wu and colleagues 2025 (International Journal of Molecular Sciences, DOI 10.3390/ijms26073332) gavaged male C57BL/6 mice, about 20 g and six weeks old, n = 7 per group, every two days for six weeks. Groups were control, antimony at 10 mg/kg as potassium antimony tartrate, copper at 100 mg/kg, and both. The antimony-only group exists. Alpha-diversity (ACE and richness) was elevated in the antimony group in the results, while the discussion says paired comparisons of alpha-diversity were not significant. Both sentences are in the paper. This page does not resolve them. Beta-diversity differed across groups (p = 0.001). Hepatic taurine-beta-muricholic acid was elevated 1.5-fold in the antimony group. Serum total bile acids were elevated 1.6-fold in the antimony group. The 1.8-fold serum T-beta-MCA increase is stated for the copper and combined groups, not as an antimony-only serum result. Lactobacillus spp. were reduced 2.6-fold in the wording "antimony- and/or copper-treated groups," so the fold is not attributed to antimony alone. Liver inflammation on histology was present in all three treated groups and more pronounced when both metals were given. The 10 mg/kg dose is orders of magnitude above dietary or wipe exposure. Evidence strength: animal, high dose, not an infant, not a wipe.
+
+Fish, abstract only. An Ecotoxicology and Environmental Safety abstract opened here (adult zebrafish, 0, 30, 300, and 3000 µg/L for 14 days) reports intestinal-barrier injury and a microbiota shift at 300 µg/L (Cetobacterium down, Vibrio up), and says 30 µg/L was enough to perturb microbiota and metabolites. The full text was not line-checked. Evidence strength: fish, abstract only, not a human infant.
+
+Human. [[sources/davis-2021-salivary-metals-oral-microbiome|Davis and colleagues 2021]] measured 21 metals in saliva from 61 children and adults. After multiple-testing adjustment, bacterial taxa were associated with antimony, arsenic, and mercury, and antimony was associated with decayed teeth. This is human, observational, and oral, not gut and not skin. No salivary concentration is extracted on the source page, so none is stated. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Yan and colleagues 2025]] measured 26 metals in infant serum, including antimony, against gut microbiota. The source page does not extract an antimony-specific taxon association. None is invented here.
+
+Whether microbial oxidation of Sb(III) to Sb(V) lowers toxicity to the host is a mechanistic inference from the in vitro chemistry (Sb(V) is the less toxic form in the WHO and Li papers). It has not been shown in an infant gut or on infant skin in any document opened here.
+
+## Testing
+
+Total antimony by ICP-MS after acid digestion, as in the Washington confirmatory analyses, reports elemental antimony and does not distinguish Sb(III) from Sb(V). EN 71-3 and ASTM F963 report soluble or migrated antimony under acid conditions, in mg/kg of material, which is not a total-content ppm. Artificial-sweat and artificial-urine extractions, as in the diaper study, are a third basis. Cosmetic guidance values are finished-product impurity concentrations. A single number cannot be moved across those methods. Speciation of antimony in consumer products was not part of the surveys cited above.
+
+## Data gaps
+
+No chronic oral minimal risk level. No IRIS oral reference dose re-read for this revision. No quantitative dermal absorption fraction for wipe, lotion, or textile contact. No opened study of antimony and the diaper-area skin microbiome. No named microbial methylation gene in the 2017 oxidase paper. No infant-formula antimony concentration extracted here. No PET-bottle migration experiment opened here. The Romanian bottled-water maximum carries a printed uncertainty larger than the value. The Washington wipe and textile numbers are an XRF-prioritized screen. Choi 2016, the 2021 polyester sweat-extraction paper, and the 2026 China wipes account are discussed in pull request 152 and were not re-opened for this page, so their concentrations are not repeated. EFSA's 2004 adoption of the WHO TDI is known from RIVM, not from the EFSA text.
+
+## Competing interests
+
+The Heavy Metal Index reports what the peer-reviewed and regulatory literature supports. It is operated separately from any certification program, does not evaluate or endorse brands, and does not use certification thresholds as evidence for the statements made here.
 
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->
 
-### Is antimony toxic, and what does this page actually say about it?
+### What is antimony, and which forms matter?
 
-Antimony (symbol Sb) is listed by [[sources/ufelle2021-metals-chapter|Ufelle et al. 2021]] among the minor toxic metals for which toxicity has been described. That toxicology reference text is cited here for antimony's mechanisms of toxicity, target organs, and clinical manifestations, but the chapter does not include a detailed antimony subsection. This wiki page is explicitly a source-map stub, meaning it collects the relevant literature but does not yet contain a substantive antimony-specific synthesis.
+Antimony (Sb) is a metalloid. Trivalent antimony, including antimony trioxide and antimony potassium tartrate, is not the same hazard as pentavalent antimony. IARC Monograph Volume 131, announced on 5 May 2023, classifies trivalent antimony as Group 2A (probably carcinogenic to humans) and pentavalent antimony as Group 3 (not classifiable). Antimony trioxide was Group 2B in the 1989 evaluation. The 2023 classification is of the trivalent class, which includes antimony trioxide, rather than a separate line that names only the oxide.
 
-### Where in food and consumer products has antimony been measured?
+### How do people come into contact with antimony?
 
-The sources indexed on this page report antimony occurrence across a wide range of matrices, including olive and vegetable oils, coffee, green tea, drinking and bottled water, infant foods and formula, fruit juices, and plant-based dairy. It has also been measured in consumer products such as cosmetics, deodorants, tattoo inks, toys, children's jewelry, and food packaging and disposable food containers. Note that this page catalogs those studies rather than synthesizing their concentration values into a single profile.
+IARC lists uses in flame retardants, plastics, brake pads, glass, ceramics, and lead alloys. WHO's drinking-water fact sheet treats plumbing and fittings as the common drinking-water source and states that drinking-water concentrations appear to be below 5 µg/L. [[sources/ungureanu2022-bottled-water-toxic-elements|Ungureanu and colleagues 2022]] measured bottled-water antimony in Romania from below 0.07 µg/L to a printed maximum of 0.64 ± 6.85 µg/L. [[sources/stone2021-wa-metals-childrens-consumer-products|Washington Ecology]] measured tens of ppm of antimony in screened baby-wipe, bib, and clothing components. Those product figures are a prioritized screen, not a random market mean. No dermal absorption percent for wipe or textile contact is stated on this page.
 
-### Is antimony regulated in food and consumer products?
+### What oral reference values and water limits are on this page?
 
-Several regulatory sources indexed here address antimony. These include the US FDA compliance program covering antimony surveillance in food and foodware ([[sources/fda2025-cp7304-019-toxic-elements-food-foodware|FDA 2025]]), the EU cosmetic products regulation listing Sb ([[sources/eu-2009-1223-cosmetic-products-regulation|Parliament et al. 2009]]), WHO drinking-water quality guidelines ([[sources/who2022-guidelines-drinking-water-quality|WHO 2022]]), and Hong Kong maximum levels for metallic contaminants ([[sources/cfs2019-hk-metallic-contamination-guidelines|Centre for Food Safety 2019]]). The page indexes these instruments but does not state their specific numeric limits.
+WHO's tolerable daily intake is 6 µg/kg body weight, from a NOAEL of 6.0 mg/kg/day in a 90-day rat study of potassium antimony tartrate and an uncertainty factor of 1000. The drinking-water guideline is 0.02 mg/L. ATSDR's 2019 intermediate oral minimal risk level is 0.0006 mg Sb/kg/day, from a much lower NOAEL (0.06 mg Sb/kg/day) on the same study, and there is no chronic oral minimal risk level. The U.S. EPA maximum contaminant level is 0.006 mg/L. These values are not averaged. The EPA IRIS oral reference dose was not opened for this revision, so it is not stated.
 
-### How is antimony measured in these studies?
+### Do toy, food-contact, and cosmetic limits mean the same thing?
 
-Many of the sources cited here determine antimony by ICP-MS (inductively coupled plasma mass spectrometry), for example in green tea, flavored dairy, and infant formula analyses. Some studies also use ICP-OES or SEM-EDS, as in cosmetic and deodorant analysis ([[sources/mackiewicz2025-eu-deodorants-elements|Maćkiewicz et al. 2025]]). FDA Total Diet Study documentation additionally records antimony measurement detection limits and QA/QC parameters ([[sources/fda2022-tds-elements-analytical-key|FDA 2022]]).
+No. EU 10/2011 sets a specific migration limit of 0.04 mg/kg into food from plastic. EN 71-3 sets soluble toy migration at 45, 11.3, and 560 mg/kg of toy material for Categories I, II, and III. Health Canada cosmetic guidance is 5 ppm in a finished cosmetic and is guidance, not a wipe regulation. EU cosmetics law prohibits antimony and its compounds as ingredients (Annex II, entry 40) and sets no trace ppm in Article 17. A drinking-water limit cannot be copied onto a textile or a wipe. The corpus OEKO-TEX record used here is a wastewater limit of 100 µg/L, not an extractable limit in a finished article.
 
-### Does antimony exposure show up in people, not just in products?
+### What is known about antimony and microbes?
 
-Yes, some indexed sources examine antimony in human samples. These include urinary antimony excretion in NHANES participants ([[sources/zhang2025-salt-urinary-metals-nhanes|Zhang et al. 2025]]), salivary antimony and the oral microbiome in children ([[sources/davis-2021-salivary-metals-oral-microbiome|Davis et al. 2021]]), and infant serum antimony in relation to gut microbiota ([[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Yan et al. 2025]]). The page lists these biomonitoring studies as source-map context and does not draw conclusions from them.
+In vitro, Li and colleagues 2017 showed that bacterial proteins shared with arsenic (AnoA, AioAB, ArsB, Acr3, GlpF) oxidize, efflux, or take up Sb(III), and that a methylation enzyme had not been identified. In mice, Wu and colleagues 2025 found gut and bile-acid changes after a high gavage dose of potassium antimony tartrate (10 mg/kg), which is not a consumer-product dose. In people, [[sources/davis-2021-salivary-metals-oral-microbiome|Davis and colleagues 2021]] associated salivary antimony with oral taxa and decayed teeth. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Yan and colleagues 2025]] measured infant serum antimony and did not, on the source page, tie it to a specific gut taxon. No diaper-area skin microbiome study was opened.
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
-2. [[sources/fda2025-cp7304-019-toxic-elements-food-foodware|Compliance Program Guidance Manual: Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic (Program 7304.019)]]<span class="hmi-ref-meta">US Food and Drug Administration · 2025 · [www.fda.gov](https://www.fda.gov/food/chemical-contaminants-pesticides/toxic-elements-foods-and-foodware)</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/eu-2009-1223-cosmetic-products-regulation|Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast)]]<span class="hmi-ref-meta">European Parliament and Council of the European Union · Official Journal of the European Union, L 342, 22.12.2009, p. 59-209 · 2009 · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1223)</span><span class="hmi-ref-tag">Regulation</span>
-4. [[sources/who2022-guidelines-drinking-water-quality|Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda]]<span class="hmi-ref-meta">World Health Organization · 2022 · [iris.who.int](https://iris.who.int/bitstream/handle/10665/352532/97)</span><span class="hmi-ref-tag">Regulation</span>
-5. [[sources/cfs2019-hk-metallic-contamination-guidelines|Guidelines on the Food Adulteration (Metallic Contamination) (Amendment) Regulation 2018]]<span class="hmi-ref-meta">Centre for Food Safety, Food and Environmental Hygiene Department, and Government of the Hong Kong Special Administrative Region · USDA Foreign Agricultural Service GAIN Report HK1922, relaying the Hong Kong Centre for Food Safety Guidelines for the Food Adulteration (Metallic Contamination) (Amendment) Regulation 2018 (Cap. 132V sub. leg.) · 2019 · [apps.fas.usda.gov](https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Guidelines%20for%20Metallic%20Contamination%20Regulation_Hong%20Kong_Hong%20Kong_5-20-2019)</span><span class="hmi-ref-tag">Government</span>
-6. [[sources/mackiewicz2025-eu-deodorants-elements|Application of the ICP-OES and SEM-EDS Techniques for Elemental Analysis of Various Types of Cosmetic Products with Antiperspirant and Deodorant Properties Available on the EU Market]]<span class="hmi-ref-meta">Maćkiewicz E, Zimon A, Pawlaczyk A, Albińska J, and Szynkowska-Jóźwik MI · Molecules · 2025 · [doi.org/10.3390/molecules30204050](https://doi.org/10.3390/molecules30204050)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/fda2022-tds-elements-analytical-key|FY2018-FY2020 TDS Elements Analytical Results Key]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study supporting documentation · 2022</span><span class="hmi-ref-tag">Government</span>
-8. [[sources/zhang2025-salt-urinary-metals-nhanes|Salt use patterns and heavy metal urinary excretion]]<span class="hmi-ref-meta">Zhang S, Tang H, Zhou M, and Pan L · Frontiers in Nutrition · 2025 · [doi.org/10.3389/fnut.2024.1521826](https://doi.org/10.3389/fnut.2024.1521826)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/davis-2021-salivary-metals-oral-microbiome|Low levels of salivary metals, oral microbiome composition and dental decay]]<span class="hmi-ref-meta">Davis E, Bakulski KM, Goodrich JM, Peterson KE, Marazita ML, and Foxman B · Scientific Reports · 2021 · [doi.org/10.1038/s41598-020-71495-9](https://doi.org/10.1038/s41598-020-71495-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-10. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China]]<span class="hmi-ref-meta">Xing Yan, Jun Qiu, Ruiwen Huang, Xiaoming Peng, Shi-ting Xiang, Kunyan Zhao, et al. · Frontiers in Microbiology 16:1669475 · 2025 · [doi.org/10.3389/fmicb.2025.1669475](https://doi.org/10.3389/fmicb.2025.1669475)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>
+2. [[sources/ungureanu2022-bottled-water-toxic-elements|Occurrence of Potentially Toxic Elements in Bottled Drinking Water-Carcinogenic and Non-Carcinogenic Risks Assessment in Adults via Ingestion]]<span class="hmi-ref-meta">Ungureanu EL, Soare AD, Mocanu AL, Iorga SC, Mustatea G, and Popa ME · Foods · 2022 · [doi.org/10.3390/foods11101407](https://doi.org/10.3390/foods11101407)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/oeko-tex2024-new-limit-values|OEKO-TEX Limit values: New regulations 2024]]<span class="hmi-ref-meta">OEKO-TEX Service GmbH · Customer information notice, 9 January 2024 · 2024</span><span class="hmi-ref-tag">Industry</span>
+4. [[sources/eu-2009-1223-cosmetic-products-regulation|Regulation (EC) No 1223/2009 on cosmetic products]]<span class="hmi-ref-meta">European Parliament and Council · Official Journal of the European Union, L 342 · 2009</span><span class="hmi-ref-tag">Regulation</span>
+5. [[sources/cot2003-infant-food-metals|COT statement on a survey of metals in infant food]]<span class="hmi-ref-meta">Committee on Toxicity of Chemicals in Food and Consumer Products and the Environment · Committee on Toxicity statement · 2003</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde|Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market]]<span class="hmi-ref-meta">Nyamukamba P, Mququ Z, Nkosi S, and Isaacs S · International Journal of Environmental Research and Public Health 20(2): 1023 · 2023 · [doi.org/10.3390/ijerph20021023](https://doi.org/10.3390/ijerph20021023)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/davis-2021-salivary-metals-oral-microbiome|Low levels of salivary metals, oral microbiome composition and dental decay]]<span class="hmi-ref-meta">Davis E, Bakulski KM, Goodrich JM, Peterson KE, Marazita ML, and Foxman B · Scientific Reports · 2021 · [doi.org/10.1038/s41598-020-71495-9](https://doi.org/10.1038/s41598-020-71495-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China]]<span class="hmi-ref-meta">Xing Yan, Jun Qiu, Ruiwen Huang, Xiaoming Peng, Shi-ting Xiang, Kunyan Zhao, et al. · Frontiers in Microbiology 16:1669475 · 2025 · [doi.org/10.3389/fmicb.2025.1669475](https://doi.org/10.3389/fmicb.2025.1669475)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
