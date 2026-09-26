@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-257 open item(s): 89 auto, 168 awaiting a decision.
+256 open item(s): 88 auto, 168 awaiting a decision.
 
 ### OI-20260926-routing-audit-product-page-cites-flips — Routing audit flips product_page_cites_source to true for 14 unrelated sources after a full build
 
@@ -537,7 +537,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/regulatory_limits.csv`
 - repro: regulatory_limits.csv carries ICH Q3D oral and parenteral Option-1 rows but no Appendix 5 cutaneous rows (Table A.5.1 PDEs, Table A.5.2 10 g/day concentrations, Ni/Co CTCL 35 ug/g). The NNHPD Quality Guide appendix prints Chromium IV (read as Cr-VI) Topical 5 ppm, not in Table 2 (flag F19b, unresolved). Values are in docs/briefs/diaper-creams-number-ledger.csv DCL-0200 to DCL-0306 and DCL-0349.
 - done when: Cutaneous rows added from the primary PDF with basis stated as dose (ug/day) or dose-dependent concentration; NNHPD appendix Cr(VI) 5 ppm resolved against the canada.ca text before any register row is added
-- decision: _pending_
+- decision: **DEFER: Hold. Before adding any ICH Q3D cutaneous or NNHPD Cr(VI) topical row to regulatory_limits.csv, run an impact check: list every cert compiled cell and gap-report lowest_regulatory_cap that the new rows would change, and bring that list back for approval.**
 - notes: Register edits can move cert cells, so this is gated.
 
 ### OI-20260926-prebuild-generated-churn — prebuild regenerates about 4,900 files with churn unrelated to the diaper-creams ingest
@@ -547,14 +547,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: On branch cursor/diaper-creams-evidence-ingest-bb6c, npm run prebuild modified about 4,965 tracked files. Most changes are regeneration drift accumulated since the last committed build (metal-page legends, defense dossiers, evidence-packet index, change-watch, category pages), not caused by the diaper-creams sources. These were not committed with the ingest to avoid unrelated flips.
 - done when: A clean-main npm run prebuild is committed as its own regeneration commit, or the drift is shown to be deterministic noise and the generators are fixed
 - notes: CREAMS-INGEST-1 committed only authored files, the routing audit rows for its own sources, and the three product pages whose legends it changed.
-
-### OI-20260926-diaper-cream-non-zno-brand-in-overview — diaper-cream-non-zno Overview names a brand product (Part 12)
-
-- scope: **auto** · type: content · status: open · repo: index
-- paths: `wiki/products/diaper-cream-non-zno.md`
-- repro: Line 27 of the Overview lists a named branded petrolatum product as an example. CLAUDE.md Part 12 bars brand names on product-category pages. The zinc-oxide sibling page had the same defect and was fixed in CREAMS-INGEST-1. The non-zinc-oxide page was out of that task scope.
-- done when: The Overview describes the product class without brand names; rg -i for the brand on the built page returns nothing
-- notes: Found during CREAMS-INGEST-1 built-HTML brand scan.
 
 ### OI-20260926-diaper-cream-missing-primary-texts — Retrieve the diaper-cream primary texts that were not obtained
 
@@ -579,7 +571,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/rubin2025a-40pct-zno-diaper-ointment-lot-2025-142-ppb.csv`, `data/evidence/rubin2025b-40pct-zno-diaper-paste-lot-2025-169-ppb.csv`, `data/evidence/rubin2025c-40pct-zno-diaper-paste-lot-2025-182-ppb.csv`, `data/evidence/rubin2025d-13pct-zno-diaper-cream-lot-2025-218-ppb.csv`
 - repro: No Category 2 *_summary.csv or hmtc_c2 row id exists, so the diaper-cream-zno Literature Evidence Summary block and hmtc_standards_gap_report still say no structured evidence loaded. The four report-verified values (C-tier, single units) are in per-source CSVs and the number ledger. Creating a new Category 2 register shape feeds the staff pooling engine and gap report.
 - done when: A decision is recorded on whether C-tier single-unit consumer reports enter a Category 2 occurrence summary; If approved, only report-verified rows (not chart-only rows, flag F02) are loaded, with evidence tier and basis columns
-- decision: _pending_
+- decision: **DEFER: Hold. Do not create a Category 2 occurrence register. Nothing from CREAMS-INGEST-1 feeds the certification pipeline. The four report-verified values are in values.jsonl with public_summary_scope product_page_only, which the summary CSVs, pooling engine, gap report and cert export do not read.**
 - notes: CREAMS-INGEST-1. Chart-only values stay barred.
 
 ### OI-20260925-jensen-nickel-ci — Jensen 2025 nickel CI is 15.71 on the baby-wipes synthesis and 15.7 on the product page
