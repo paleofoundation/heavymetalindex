@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | baby-wipes-rewrite — synthesis text rewritten in house style
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: Full rewrite of the prose into the numbered-section house form with an abstract, numbered bracket citations, and an authored References block of 25 works in first-appearance order. The evidence base is unchanged: every number on the page is in docs/briefs/baby-wipes-number-ledger.csv with its unit and basis, and no study or claim was added beyond the baby-wipes ingest. The Choi milligram-per-kilogram reconstruction stays labeled as derived and is not used in the abstract or beside any limit; the Nyamukamba diaper nickel and Šmajgl diaper tin figures are not scored against any limit. The internal compilation paragraph was removed. Regulatory instruments already discussed in the text now carry reference entries, and the state manufacturer filings in docs/briefs/baby-wipes-state-reports.csv are cited without numbers. Title, slug, licence, and anchor sources are unchanged; wiki_doi stays empty. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
