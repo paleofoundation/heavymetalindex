@@ -45,6 +45,8 @@ Appendix 3 (PDF p. 34) repeats these limits and adds a line labelled "Chromium I
 
 For diaper-rash products, the Diaper Rash Products Monograph (see [[sources/healthcanada2024-diaper-rash-products-monograph]]) sends products made only with natural health product ingredients, such as corn starch or kaolin powders and zinc oxide pastes, to this guide for finished-product specifications. Mineral-oil and petrolatum products are non-prescription drugs and are not covered by it.
 
+The methylmercury value in this guide is an oral daily tolerance only. Where the guide is routed to topical product rows (corn-starch baby powder and the two diaper cream rows), it is for the topical total-metal limits in Table 2; it does not supply a methylmercury limit or a methylmercury measurement for those rows.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
