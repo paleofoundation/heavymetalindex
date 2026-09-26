@@ -27,6 +27,14 @@ sampling_year_range: null
 updated: 2026-09-26
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
+evidence_fitness:
+  supports:
+    - per-product-ppm-means-of-eleven-elements-in-21-topical-cosmetics-including-one-baby-oil-and-one-talc-baby-powder
+    - microbial-counts-for-the-same-products
+  does_not_support:
+    - precise-concentrations-because-the-sd-is-about-1-41-times-the-mean-and-replicates-are-not-stated
+    - mercury-hexavalent-chromium-or-arsenic-speciation
+    - a-population-estimate-from-one-product-per-category
 ---
 
 # Almukainzi et al. 2022 — Heavy metals in 21 topical cosmetic products on the Riyadh, Saudi Arabia market by ICP-MS
@@ -201,9 +209,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 section added; narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -22,6 +22,13 @@ matrices: [natural-health-products, topical-products]
 jurisdictions: [CA]
 near_duplicates: []
 updated: 2026-09-26
+evidence_fitness:
+  supports:
+    - topical-heavy-metal-limits-for-natural-health-products-in-ppm
+    - oral-daily-tolerance-limits
+  does_not_support:
+    - a-hexavalent-chromium-topical-limit-because-the-5-ppm-line-is-labelled-chromium-iv-and-absent-from-table-2
+    - limits-for-products-regulated-as-cosmetics-or-drugs
 ---
 
 Health Canada's quality guide gives elemental impurity tolerance limits for natural health products. Oral product limits are expressed as daily exposure per day or body weight, while topical products have concentration limits in ppm. Only the topical concentration limits are loaded into the regulatory limits register because the oral dose limits are not direct product concentration ceilings.
@@ -41,9 +48,11 @@ For diaper-rash products, the Diaper Rash Products Monograph (see [[sources/heal
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 source added; 2 sections added; narrative text revised |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added |
 | [1ccfc6d79](https://github.com/paleofoundation/heavymetalindex/commit/1ccfc6d79) | 2026-08-10 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

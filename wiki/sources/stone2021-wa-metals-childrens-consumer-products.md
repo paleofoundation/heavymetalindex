@@ -26,6 +26,14 @@ sample_population: "150 component samples submitted for laboratory metals analys
 updated: 2026-09-26
 ingest_method: manual_fetch_v2
 created_by: claude-opus-4-7
+evidence_fitness:
+  supports:
+    - component-level-ppm-results-for-ten-metals-in-washington-childrens-products-and-packaging
+    - one-baby-powder-component-and-two-baby-product-containers
+  does_not_support:
+    - baby-cream-or-petroleum-jelly-contents-because-only-their-containers-were-analysed
+    - a-meaning-for-printed-0.0-values-or-a-reporting-limit
+    - hexavalent-chromium
 ---
 
 # Stone 2021 — Metals in Washington children's and consumer products and packaging (WSDOE 14-04-014)
@@ -268,9 +276,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 section added; narrative text revised |
+| [e1381cf01](https://github.com/paleofoundation/heavymetalindex/commit/e1381cf01) | 2026-09-26 | minor | Narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

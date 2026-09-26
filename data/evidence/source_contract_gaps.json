@@ -1054,16 +1054,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md",
-      "cite_key": "almukainzi2022-saudi-topical-cosmetics-icpms",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/alrajhi2014-canned-food-chicken-stock-metals.md",
       "cite_key": "alrajhi2014-canned-food-chicken-stock-metals",
       "metadata_complete": false,
@@ -1512,17 +1502,6 @@
     {
       "page": "wiki/sources/arnold2024-arsenic-maine-wells-news.md",
       "cite_key": "arnold2024-arsenic-maine-wells-news",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md",
-      "cite_key": "arshad2020-heavy-metals-cosmetic-products-pakistan",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -11177,16 +11156,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/bvl2017-technically-avoidable-heavy-metals-cosmetics.md",
-      "cite_key": "bvl2017-technically-avoidable-heavy-metals-cosmetics",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/bzikowska-jura2024-human-milk-elements-poland.md",
       "cite_key": "bzikowska-jura2024-human-milk-elements-poland",
       "metadata_complete": false,
@@ -17370,27 +17339,6 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/healthcanada2012-cosmetics-heavy-metal-impurities.md",
-      "cite_key": "healthcanada2012-cosmetics-heavy-metal-impurities",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/healthcanada2015-natural-health-products-quality-guide.md",
-      "cite_key": "healthcanada2015-natural-health-products-quality-guide",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "access_url"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -28635,16 +28583,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/stone2021-wa-metals-childrens-consumer-products.md",
-      "cite_key": "stone2021-wa-metals-childrens-consumer-products",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/stringer2001-greenpeace-pvc-children-products.md",
       "cite_key": "stringer2001-greenpeace-pvc-children-products",
       "metadata_complete": false,
@@ -30227,18 +30165,6 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
-      "page": "wiki/sources/wa-tfca-hb1047-2023.md",
-      "cite_key": "wa-tfca-hb1047-2023",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness",
-        "raw_sha256",
-        "raw_path"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },

@@ -27,6 +27,14 @@ sampling_year_range: null
 updated: 2026-09-26
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
+evidence_fitness:
+  supports:
+    - triplicate-mg-per-kg-means-of-cd-cr-fe-ni-pb-in-63-cosmetics-including-30-lotions-one-baby-lotion-and-one-petroleum-jelly
+    - category-means-and-ranges-for-six-cosmetic-classes
+  does_not_support:
+    - the-table-2-lotion-nickel-mean-or-the-lotion-maximum-chromium-which-conflict-with-table-1
+    - hexavalent-chromium
+    - detection-limits-for-bdl-cells
 ---
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
@@ -174,9 +182,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | minor | Narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

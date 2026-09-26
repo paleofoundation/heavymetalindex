@@ -6,7 +6,8 @@ authors: ["Rubin T", "Lead Safe Mama, LLC"]
 year: 2025
 publication: "tamararubin.com blog post, posted 19 May 2025, updated 16 August 2025"
 no_doi_assigned: true
-access_url: "https://tamararubin.com/2025/05/babo-botanicals-sensitive-baby-fragrance-free-hydrating-lotion/"
+access_url: "https://tamararubin.com/2024/05/food-articles/"
+article_url: "https://tamararubin.com/2025/05/babo-botanicals-sensitive-baby-fragrance-free-hydrating-lotion/"
 retrieval_date: 2026-09-25
 source_type: gray-literature
 evidence_tier: C
@@ -37,7 +38,7 @@ updated: 2026-09-26
 
 # Lead Safe Mama 2025. One baby lotion lot reported non-detect for lead, cadmium, mercury, and arsenic
 
-A May 2025 post on the Lead Safe Mama site reports the first baby lotion sent to a laboratory through its community-funded testing programme. The summary graphic, headed April 2025 Lab Report, prints non-detect for all four metals.
+A May 2025 post on the Lead Safe Mama site (the article URL is recorded in this record's metadata; the access link points to the site's index of published lab reports, which the post itself cites) reports the first baby lotion sent to a laboratory through its community-funded testing programme. The summary graphic, headed April 2025 Lab Report, prints non-detect for all four metals.
 
 ## Key numbers
 
@@ -66,3 +67,13 @@ One lot, no laboratory report in the copy, no method, commercial affiliate conte
 
 - [[products/baby-lotion-cream]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

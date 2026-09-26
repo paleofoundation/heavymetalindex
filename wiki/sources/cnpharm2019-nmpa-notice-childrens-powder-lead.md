@@ -2,9 +2,9 @@
 type: source
 cite_key: cnpharm2019-nmpa-notice-childrens-powder-lead
 title: "国家药监局通告27批次不合格化妆品 (NMPA notice of 27 non-compliant cosmetic batches), news report"
-authors: ["Luo N (落楠)"]
+authors: ["Luo N"]
 year: 2019
-publication: "中国食品药品网 (China Food and Drug Network, cnpharm.com), 2019-12-31, reporting the National Medical Products Administration notice of 26 December 2019"
+publication: "中国食品药品网 (China Food and Drug Network, cnpharm.com), 2019-12-31, by 落楠, reporting the National Medical Products Administration notice of 26 December 2019"
 no_doi_assigned: true
 access_url: "http://m.cnpharm.com/c/2019-12-31/699915.shtml"
 retrieval_date: 2026-09-25
@@ -72,3 +72,13 @@ Secondary reporting; the NMPA notice was not obtained. No method, no basis, one 
 - [[products/baby-powder-cornstarch]]
 - [[sources/nmpa2015-cosmetics-safety-technical-standards]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 source added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->
