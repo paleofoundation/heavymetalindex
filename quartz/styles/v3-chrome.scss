@@ -42,10 +42,8 @@ footer.site-footer {
   color: rgba(255, 255, 255, 0.76);
   border-top: 0;
 
-  /* Geometry, stated unconditionally. v3's footer carries no `w ?` ternary —
-     it is a literal inline style at every width (artifact 1483, 1500) — so
-     these must out-rank footer.scss's max-width 1100/800/520 blocks rather
-     than merely be declared before them. Being unlayered does that. */
+  /* Desktop geometry. Responsive rules below share this unlayered cascade
+     so the desktop grid cannot override the mobile footer. */
   .site-footer-inner {
     max-width: 1900px;
     margin: 0 auto;
@@ -1005,4 +1003,71 @@ footer.site-footer {
     position: static;
     padding: 8px 0 48px;
   }
+}
+
+
+/* Mobile chrome must live outside the legacy layer to override desktop geometry. */
+.hmi-mobile-utilities { display: none; }
+@media (max-width: 1149px) {
+  footer.site-footer .site-footer-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+    padding: 40px 24px 32px;
+  }
+  footer.site-footer .site-footer-brand { min-width: 0; max-width: 36rem; }
+  footer.site-footer .site-footer-logo { overflow-wrap: normal; word-break: normal; line-height: 1.3; }
+  footer.site-footer .site-footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 24px;
+  }
+  footer.site-footer .site-footer-column { min-width: 0; }
+  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: #e4cbd4; }
+  footer.site-footer .site-footer-column ul { gap: 0; }
+  footer.site-footer .site-footer-column a {
+    display: flex; align-items: center; min-height: 44px;
+    padding: 6px 0; box-sizing: border-box; font-size: 16px; line-height: 1.5;
+    overflow-wrap: break-word;
+  }
+  footer.site-footer .site-footer-brand p { font-size: 16px; }
+  footer.site-footer .site-footer-bottom { padding: 24px; gap: 12px; }
+  footer.site-footer .site-footer-bottom p { font-size: 12px; line-height: 1.6; letter-spacing: .03em; }
+  .hmi-topnav-menu {
+    box-sizing: border-box; z-index: 100;
+    max-height: calc(100vh - 68px);
+    max-height: calc(100dvh - 68px);
+    overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain;
+    padding: 8px 24px max(24px, env(safe-area-inset-bottom));
+  }
+  .hmi-nav-list { height: auto; flex: 0 0 auto; gap: 0; }
+  .hmi-nav-item { display: grid; grid-template-columns: minmax(0, 1fr) 44px; min-width: 0; }
+  .hmi-nav-top { height: auto; min-height: 48px; padding: 10px 0; font-size: 16px; white-space: normal; }
+  .hmi-nav-toggle { width: 44px; height: 48px; color: #8b2a4a; }
+  .hmi-nav-toggle::after { content: ''; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
+  .hmi-nav-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
+  .hmi-nav-panel { grid-column: 1 / -1; min-width: 0; border: 0; box-shadow: none; }
+  .hmi-nav--js .hmi-nav-item:not(.is-open) > .hmi-nav-panel { display: none; }
+  .hmi-nav-panel-inner { grid-template-columns: minmax(0, 1fr); gap: 20px; padding: 8px 0 24px 12px; }
+  .hmi-nav-rail { border: 0; padding: 0; min-width: 0; }
+  .hmi-nav-title { display: none; }
+  .hmi-nav-all { margin: 0; font-size: 13px; line-height: 1.6; padding: 10px 0; }
+  .hmi-nav-cols { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .hmi-nav-colhead { font-size: 12px; line-height: 1.5; color: #736b6e; }
+  .hmi-nav-col ul > li > a { box-sizing: border-box; min-height: 44px; padding: 10px 0; font-size: 16px; line-height: 1.5; }
+  .hmi-nav-childlabel { min-width: 0; overflow-wrap: break-word; }
+  .hmi-nav-count { font-size: 12px; color: #736b6e; }
+  .hmi-mobile-utilities { display: grid; flex: 0 0 auto; border-top: 1px solid #e8e1db; margin-top: 12px; padding-top: 12px; }
+  .hmi-mobile-utilities a { display: flex; align-items: center; min-height: 44px; font-size: 16px; color: #8b2a4a; background: none; }
+  .hmi-topnav-burger { flex: 0 0 44px; align-self: center; width: 44px; height: 44px; padding: 0; justify-content: center; }
+}
+@media (max-width: 600px) {
+  .search.hmi-v3-hero-search { width: 100%; min-width: 0; }
+  .hmi-topnav-brand { flex: 1 1 auto; min-width: 0; }
+  .hmi-topnav-wordmark { font-size: 18px; }
+  .hmi-topnav-actions > .hmi-topnav-pro { display: none; }
+  .hmi-topnav-menu { padding-left: 20px; padding-right: 20px; }
+}
+@media (max-width: 359px) {
+  footer.site-footer .site-footer-nav { grid-template-columns: minmax(0, 1fr); }
+  footer.site-footer .site-footer-inner { padding-left: 20px; padding-right: 20px; }
 }

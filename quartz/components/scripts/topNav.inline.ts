@@ -19,12 +19,16 @@ function setupTopNav() {
   const closeBurger = () => {
     menu.classList.remove("open")
     burger.setAttribute("aria-expanded", "false")
+    burger.setAttribute("aria-label", "Open navigation")
+    closeAll()
   }
 
   const toggleBurger = (e: Event) => {
     e.stopPropagation()
     const isOpen = menu.classList.toggle("open")
     burger.setAttribute("aria-expanded", isOpen ? "true" : "false")
+    burger.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation")
+    if (!isOpen) closeAll()
   }
 
   // ---- Mega-menu -------------------------------------------------------
@@ -54,6 +58,7 @@ function setupTopNav() {
   // travelling across the bar from flashing five panels on its way to the Ask
   // pill.
   const onEnter = (item: HTMLLIElement) => () => {
+    if (!window.matchMedia("(min-width: 1150px) and (hover: hover) and (pointer: fine)").matches) return
     clearTimers()
     openTimer = window.setTimeout(() => {
       closeAll(item)
@@ -62,6 +67,7 @@ function setupTopNav() {
   }
 
   const onLeave = () => {
+    if (!window.matchMedia("(min-width: 1150px) and (hover: hover) and (pointer: fine)").matches) return
     clearTimers()
     closeTimer = window.setTimeout(() => closeAll(), CLOSE_DELAY)
   }
@@ -168,11 +174,30 @@ function setupTopNav() {
   }
 
   const onDocKeydown = (e: KeyboardEvent) => {
-    if (e.key === "Escape") closeAll()
+    if (e.key !== "Escape") return
+    clearTimers()
+    if (menu.classList.contains("open")) {
+      closeBurger()
+      burger.focus()
+    } else {
+      closeAll()
+    }
+  }
+
+  const onMenuFocusOut = (e: FocusEvent) => {
+    const to = e.relatedTarget as Node | null
+    if (to && !menu.contains(to) && to !== burger) closeBurger()
+  }
+  const desktop = window.matchMedia("(min-width: 1150px)")
+  const onBreakpointChange = () => {
+    clearTimers()
+    closeBurger()
   }
 
   burger.addEventListener("click", toggleBurger)
   menu.addEventListener("click", onMenuClick)
+  menu.addEventListener("focusout", onMenuFocusOut)
+  desktop.addEventListener("change", onBreakpointChange)
   document.addEventListener("click", onDocClick)
   document.addEventListener("keydown", onDocKeydown)
 
@@ -180,12 +205,14 @@ function setupTopNav() {
     clearTimers()
     burger.removeEventListener("click", toggleBurger)
     menu.removeEventListener("click", onMenuClick)
+    menu.removeEventListener("focusout", onMenuFocusOut)
+    desktop.removeEventListener("change", onBreakpointChange)
     document.removeEventListener("click", onDocClick)
     document.removeEventListener("keydown", onDocKeydown)
     for (const off of bound) off()
     // A panel left open across an SPA navigation would reappear over the new
     // page with the pointer already "inside" it.
-    closeAll()
+    closeBurger()
     menu.classList.remove("hmi-nav--js")
   })
 }

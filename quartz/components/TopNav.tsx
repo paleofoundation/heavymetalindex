@@ -24,7 +24,7 @@ import askScript from "./scripts/askindex.inline"
 //   1. Wordmark: "Heavy Metal Index" (the operator attribution moved to the
 //      footer's bottom bar; the wiki remains the independent reference per
 //      CLAUDE.md Part 1/Part 2 and names no certified brand).
-//   2. Nav: the five mega-menu triggers, and nothing else.
+//   2. Nav: the five mega-menu triggers, plus utilities on mobile.
 //   3. Spacer: a flex item, not an auto margin. See the comment at its site.
 //   4. Actions: search box · Ask the Index · About · Log in · Index Pro.
 //
@@ -63,7 +63,7 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
           <button
             type="button"
             class="hmi-topnav-burger"
-            aria-label="Toggle navigation"
+            aria-label="Open navigation"
             aria-expanded="false"
             aria-controls="hmi-topnav-menu"
           >
@@ -87,13 +87,19 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
 
           {/*
             CHROME-SPEC §1.1 children, in order: wordmark · nav · spacer ·
-            actions · (progress). The nav holds the five triggers and NOTHING
-            else. The controls used to live inside it, which is why the nav's
-            intrinsic width was 1113px and why "zero <svg> inside the nav" could
-            not be asserted: the search icon was in there.
+            actions · (progress). Utilities appear inside the disclosure on
+            mobile, where the desktop action links are hidden.
           */}
           <nav id="hmi-topnav-menu" class="hmi-topnav-menu hmi-nav" aria-label="Primary">
             <MegaMenu slug={slug} />
+            <div class="hmi-mobile-utilities">
+              <a href={resolveRelative(slug, "ask" as SimpleSlug)}>Ask the Index</a>
+              {utilityLinks.map((link) => (
+                <a href={resolveRelative(slug, link.slug as SimpleSlug)}>{link.label}</a>
+              ))}
+              <a href={resolveRelative(slug, "login" as SimpleSlug)}>Log in</a>
+              {INDEX_PRO_URL && <a href={INDEX_PRO_URL} rel="noopener">Index Pro</a>}
+            </div>
           </nav>
 
           {/*
