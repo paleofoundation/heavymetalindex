@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | mineral-baby-sunscreens-summary-uncontested — baby page tables hold uncontested values only
+
+Pages touched: [[products/baby-sunscreen-mineral]]
+Notes: Evidence-summary table rows recomputed from the seven uncontested baby units (three laboratory reports and chart rows 12, 25, 30, 34). Removed from the table: lab cases 2505271 and 2505468 and chart rows 27 and 31, and every other value tied to an unresolved flag (retail screening, the two adult peer-reviewed papers, SCCS 2024 grade data). Prose unchanged. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-26] ingest | mineral-baby-sunscreens-values — uncontested rows promoted to values.jsonl
 
 Pages touched: [[products/baby-sunscreen-mineral]], [[products/sun-suntan-mineral]], [[products/baby-sunscreen-chemical]], [[products/sun-suntan-products]], [[sources/rubin2026-sunscreen-metals-comparison-chart]]
