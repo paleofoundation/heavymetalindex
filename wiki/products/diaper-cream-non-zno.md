@@ -24,7 +24,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 ## Overview
 
-Petrolatum-based and plant-based diaper preventatives without zinc oxide (Aquaphor Original, plain petrolatum, calendula/plant-based formulations). Clean baseline of the Row 7 / Row 8 clean-contaminated pair: non-ZnO formulations do not carry the sphalerite-derived Pb/Cd platform.
+Petrolatum-based and plant-based diaper preventatives without zinc oxide (plain petrolatum, calendula/plant-based formulations). Clean baseline of the Row 7 / Row 8 clean-contaminated pair: non-ZnO formulations do not carry the sphalerite-derived Pb/Cd platform.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 7. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
