@@ -3,6 +3,21 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | mineral-baby-sunscreens-summary-uncontested — baby page tables hold uncontested values only
+
+Pages touched: [[products/baby-sunscreen-mineral]]
+Notes: Evidence-summary table rows recomputed from the seven uncontested baby units (three laboratory reports and chart rows 12, 25, 30, 34). Removed from the table: lab cases 2505271 and 2505468 and chart rows 27 and 31, and every other value tied to an unresolved flag (retail screening, the two adult peer-reviewed papers, SCCS 2024 grade data). Prose unchanged. Direction: toward the literature. No certification threshold is set.
+
+## [2026-09-26] ingest | mineral-baby-sunscreens-values — uncontested rows promoted to values.jsonl
+
+Pages touched: [[products/baby-sunscreen-mineral]], [[products/sun-suntan-mineral]], [[products/baby-sunscreen-chemical]], [[products/sun-suntan-products]], [[sources/rubin2026-sunscreen-metals-comparison-chart]]
+Notes: 84 rows promoted (batch mineral-baby-sunscreens-2026-09-26), mg/kg total content in the product as sold, one purchased unit per result. Excluded mechanically: rows carrying any of the 28 unresolved flags (which removes laboratory cases 2505271 and 2505468 and their chart rows), chart rows that repeat an included report (counted once), chart rows with unknown filter type, the zinc oxide powder, the food-method retail screening, and peer-reviewed rows with unresolved statistic or detection-limit flags. Non-detects are kept as censored against printed reporting limits. A new prebuild generator renders the ranges on the product pages from values.jsonl. Unsourced quantitative scaffold claims were deleted from the baby mineral page; ZnO/TiO2 ingredient pages deferred. Direction: toward the literature. No certification threshold is set.
+
+## [2026-09-26] ingest | mineral-baby-sunscreens — sources, number ledger, and flags
+
+Pages touched: 24 new source pages ([[sources/rubin2026-sunscreen-metals-comparison-chart]], five [[sources/rubin2025-mineral-baby-sunscreen-case-2505271|laboratory-case pages]], [[sources/oasis2026-35-sunscreens-solvents-metals]], [[sources/dccf2021-infant-child-sunscreens-korea]], [[sources/rodriguez-romero2019-sunscreen-metals-coastal-seawater]], [[sources/tovar-sanchez2013-sunscreen-emerging-pollutants-coastal]], four SCCS opinions, [[sources/efsa2021-e171-titanium-dioxide-safety]], two Danish EPA reports, [[sources/fda2019-sunscreen-proposed-rule-84fr6204]], [[sources/healthcanada2026-primary-sunscreen-monograph]], five skin-penetration papers); updated [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], [[sources/healthcanada2015-natural-health-products-quality-guide]], [[sources/fda2023-21cfr-part73-color-additives]], [[sources/eu-2009-1223-cosmetic-products-regulation]], [[sources/rahma2022-infant-skin-barrier-function-review]]; [[products/baby-sunscreen-mineral]]; [[sources/index]].
+Notes: Evidence ingest only; no synthesis page, not minted. Thirty-five PDFs, checksums verified; 23 manifest entries had no PDF. Number ledger docs/briefs/mineral-baby-sunscreens-number-ledger.csv (585 rows); flags data/evidence/mineral-baby-sunscreens-ingest-2026-09-26-flags.csv (22 resolved, 28 unresolved); reading brief docs/briefs/mineral-baby-sunscreens-reading-brief.md. Baby-product values are single commercially tested units (grey literature); laboratory-report values were read from report images because the OCR text layers were wrong. Arsenic and mercury are totals throughout. No source sets a finished-product sunscreen metal limit in the United States. Brand names are not used outside the published headlines quoted on the source pages; the product page overview's brand list was removed. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-26] query | baby-wipes-pre-mint — drop untraced percents and correct two figures
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]]

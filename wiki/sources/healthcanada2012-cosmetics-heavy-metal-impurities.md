@@ -26,6 +26,10 @@ sample_population: "Health Canada cosmetic-impurity guidance based on toxicology
 sampling_locations: ["Canada"]
 sampling_year_range: "2012-2016"
 updated: 2026-09-26
+additional_raw_copies:
+  - path: "raw/studies/mineral-baby-sunscreens-2026-09/healthcanada2012-cosmetics-heavy-metal-impurities.pdf"
+    sha256: 0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138
+    note: "Web page printed 2026-09-25; date modified 2017-10-02"
 ---
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
@@ -36,7 +40,8 @@ Health Canada issued this guidance to communicate technically avoidable impurity
 
 ## Key numbers
 
-- Document identity: `Guidance on Heavy Metal Impurities in Cosmetics`, effective date `2012-07-20`, date modified `2016-02-29`.
+- Document identity: `Guidance on Heavy Metal Impurities in Cosmetics`, effective date `2012-07-20`, date modified `2016-02-29`. A later copy of the same web page, printed 2026-09-25 and showing "Date modified: 2017-10-02", carries the same five limits, effective date and mercury footnote (PDF pp. 11, 12 and 15 of that copy).
+- Scope for sunscreens: in Canada, primary sunscreens are licensed as natural health products or non-prescription drugs under the Primary Sunscreen Monograph, whose finished-product specifications follow the NNHPD Quality of Natural Health Products Guide; that guide's topical limits (arsenic 3, cadmium 3, lead 10, total mercury 1, antimony 5 ppm) are numerically the same as these cosmetic limits. See [[sources/healthcanada2026-primary-sunscreen-monograph]] and [[sources/healthcanada2015-natural-health-products-quality-guide]].
 - Scope: the guidance focuses on heavy metals with known significant toxicological properties in cosmetics: lead, arsenic, cadmium, mercury, and antimony.
 - Unit definitions in the source: `1 ppb = 1 µg/kg = 1 µg/L`; `1 ppm = 1µg/g, 1 mg/kg, 1 mg/L`.
 - Health Canada policy limits for cosmetic-product impurities: lead `10 ppm`; arsenic `3 ppm`; cadmium `3 ppm`; mercury `1 ppm`; antimony `5 ppm`.

@@ -12891,6 +12891,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/crosera2015-tio2-nanoparticle-skin-penetration-hacat.md",
+      "cite_key": "crosera2015-tio2-nanoparticle-skin-penetration-hacat",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: titanium dioxide nanoparticles were applied in synthetic sweat, not in a sunscreen or other product row; the study is dermal-penetration context for mineral sunscreens"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/cstee2003-organotin-consumer-exposure.md",
       "cite_key": "cstee2003-organotin-consumer-exposure",
       "metadata_complete": false,
@@ -14225,6 +14235,16 @@
       "ingest_complete": false,
       "gaps": [
         "evidence_fitness"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/efsa2021-e171-titanium-dioxide-safety.md",
+      "cite_key": "efsa2021-e171-titanium-dioxide-safety",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: the opinion concerns the food additive E171, not a sunscreen or other product row on this wiki"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -24728,6 +24748,16 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/pal2016-uvb-zno-nanoparticle-dermal-penetration-mouse.md",
+      "cite_key": "pal2016-uvb-zno-nanoparticle-dermal-penetration-mouse",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: zinc oxide nanoparticles were applied topically to mice, not as a sunscreen formulation; the study is compromised-skin context"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md",
       "cite_key": "pal2017-wastewater-vegetables-heavy-metals",
       "metadata_complete": false,
@@ -26996,6 +27026,36 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
+      "page": "wiki/sources/sccs2012-zinc-oxide-nano-opinion-1489-12.md",
+      "cite_key": "sccs2012-zinc-oxide-nano-opinion-1489-12",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:ingredients left empty: no zinc-oxide ingredient page exists; logged in the outstanding ledger"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/sccs2014-titanium-dioxide-nano-opinion-1516-13.md",
+      "cite_key": "sccs2014-titanium-dioxide-nano-opinion-1516-13",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:ingredients left empty: no titanium-dioxide ingredient page exists; logged in the outstanding ledger"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/sccs2014-zinc-oxide-nano-addendum-1518-13.md",
+      "cite_key": "sccs2014-zinc-oxide-nano-addendum-1518-13",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:ingredients left empty: no zinc-oxide ingredient page exists; logged in the outstanding ledger"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
       "page": "wiki/sources/sccs2023-hydroxyapatite-nano-opinion.md",
       "cite_key": "sccs2023-hydroxyapatite-nano-opinion",
       "metadata_complete": false,
@@ -27013,6 +27073,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/sccs2024-titanium-dioxide-scientific-advice-1661-23.md",
+      "cite_key": "sccs2024-titanium-dioxide-scientific-advice-1661-23",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:ingredients left empty: no titanium-dioxide ingredient page exists; logged in the outstanding ledger"
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
@@ -27715,6 +27785,16 @@
       "gaps": [
         "evidence_fitness",
         "raw_sha256"
+      ],
+      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+    },
+    {
+      "page": "wiki/sources/shin2004-disposable-diaper-heavy-metals.md",
+      "cite_key": "shin2004-disposable-diaper-heavy-metals",
+      "metadata_complete": false,
+      "ingest_complete": false,
+      "gaps": [
+        "routing_input:products left empty: the samples are disposable infant diapers, not baby wipes. A baby-wipes route would mark a diaper digest as a wipe measurement."
       ],
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },

@@ -28,17 +28,17 @@ Table 1 sets technically avoidable values for lead, cadmium, mercury, arsenic, a
 
 ## Key numbers
 
-Table 1 (printed p.52) gives the levels above which heavy-metal contents are considered technically avoidable, in mg/kg:
+Table 1 (printed p. 52) is an image in the PDF; the values below were read from the page image. Levels above these values are considered technically avoidable, in mg/kg:
 
 | Element | Cosmetic products in general | Toothpaste |
 | --- | ---: | ---: |
-| Lead | 2.0 (5 for make-up powder, rouge, eye shadow, eye liner, kajal, and theater, fan or carnival make-up) | 0.5 |
+| Lead | 2.0 (5 for make-up powder, rouge, eye shadow, eye liner, kajal, and theatre, fan or carnival make-up) | 0.5 |
 | Cadmium | 0.1 | 0.1 |
 | Mercury | 0.1 | 0.1 |
-| Arsenic | 0.5 (2.5 for theater, fan or carnival make-up) | 0.5 |
+| Arsenic | 0.5 (2.5 for theatre, fan or carnival make-up) | 0.5 |
 | Antimony | 0.5 | 0.5 |
 
-The values derive from the German Monitoring Scheme for 2010 to 2012. It analysed 1735 samples of baby powder, lipstick, lip rouge, lip powder, lip liner, mascara, eyelid line, eye liner, kajal, eye shadow, tinted cream, camouflage, rouge, theater, fan or carnival make-up, children's toothpaste and toothpaste. They were digested with the official pressure-digestion method K 84.00-29 and recalculated by the lower-bound method. For lead outside the critical make-up groups, and for antimony, the 90th percentile was below the Table 1 value. For cadmium and mercury it was significantly below 0.1 mg/kg. Diaper creams and other leave-on creams with high mineral content were not a named product group. The announcement replaces the 1985 and 1990 Federal Health Office values, which the Commission for Cosmetics considered outdated in 2005. The printed contact is 105@bvl.bund.de.
+The values rest on the German Monitoring Scheme of 2010 to 2012. It analysed 1,735 samples of baby powder, lipstick, lip rouge, lip powder, lip liner, mascara, eyelid line, eye liner, kajal, eye shadow, tinted cream, camouflage, rouge, theatre, fan or carnival make-up, children's toothpaste and toothpaste. They were digested with the official pressure-digestion method K 84.00-29 and recalculated by the lower-bound method. For products other than the listed decorative groups, the 90th percentile of lead was below 2 mg/kg and the 90th percentile of antimony was below 0.5 mg/kg. For cadmium and mercury the 90th percentile was significantly below 0.1 mg/kg. For arsenic it was 0.5 to 0.9 mg/kg (printed p. 52). Diaper creams and other leave-on creams with high mineral content were not a named product group. Sunscreens are cosmetic products in the EU, so the "cosmetic products in general" column is the one that applies to them, although sunscreens were not among the monitored groups. The announcement replaces the 1985 and 1990 Federal Health Office values, which the Commission for Cosmetics considered outdated in 2005. The printed contact is 105@bvl.bund.de.
 
 The article is open access under CC BY 4.0. Crossref records first online publication on 6 October 2016, in the 2017 volume (12(1):51-53). A copy received on 2026-09-26 in a diaper-cream source collection is byte-identical to the archived file (same SHA-256).
 

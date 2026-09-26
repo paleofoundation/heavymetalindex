@@ -513,7 +513,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-255 open item(s): 88 auto, 167 awaiting a decision.
+260 open item(s): 90 auto, 170 awaiting a decision.
+
+### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/ingredients/zinc-oxide.md`, `wiki/ingredients/titanium-dioxide.md`
+- repro: Mineral baby sunscreens ingest 2026-09-26: SCCS 2012/2014/2024 and chart row 36 (zinc oxide powder) carry raw-material values but ingredients: [] with routing_input_gaps because no ingredient page exists.
+- done when: Karen decides whether TiO2 and ZnO get ingredient pages (Part 10 page creation); If created, SCCS and raw-material sources declare the ingredient and routing audit shows 0 unresolved
+- decision: **DEFER: Karen 2026-09-26 - not now; the mineral baby sunscreens synthesis paper will cover ZnO and TiO2 as the main route metals enter mineral sunscreens.**
+
+### OI-20260926-unrelated-routing-flips-after-prebuild — Running npm run prebuild on main flips 20 unrelated routing-audit rows from missing_direct_product_route to source_on_page_no_structured_value
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`
+- repro: On the mineral-baby-sunscreens branch, prebuild regenerated product-page source legends; the routing audit then flipped these unrelated (product,source) rows: fish-containing-baby-foods,abbas2023-sparus-aurata-egypt-metals;infant-formula-powder-soy,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,carey2018-rice-dilution-infant-food-eu-arsenic;infant-rice-cereal,efsa2024-risk-assessment-iAs-update;infant-rice-cereal,fda2016-arsenic-rice-cereal-analytic-results;infant-rice-cereal,fda2016-arsenic-rice-risk-assessment;infant-rice-cereal,fda2018-iAs-infant-rice-cereals-fy2018;teething-and-snacks-rice-based,jackson2012-arsenic-organic-foods-brown-rice-syrup;fruit-purees,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-non-soy,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-soy-based,pandelova2012-eu-baby-food-formula-elements;mixed-meals-non-rice,pandelova2012-eu-baby-food-formula-elements;mixed-meals-rice-containing,pandelova2012-eu-baby-food-formula-elements;non-root-vegetable-purees,pandelova2012-eu-baby-food-formula-elements;infant-rice-cereal,seyfferth2025-rice-water-management-as-hg-cd;pickled-fermented-vegetables,shavali-gilani2025-canned-tomato-olive-pickle-iran;infant-formula-powder-soy-based,soto-ocana2024-metal-availability-early-life-microbiome;infant-rice-cereal,su2023-arsenic-brown-rice-benefits-risks;infant-rice-cereal,wehmeier2023-ias-rice-cola-field-method. Not committed in the sunscreen ingest (instruction: log, do not commit unrelated flips).
+- done when: Regenerate product pages and routing audit together on main and commit as one generated-output change; routing audit shows 0 unresolved and 0 malformed
 
 ### OI-20260926-routing-audit-product-page-cites-flips — Routing audit flips product_page_cites_source to true for 14 unrelated sources after a full build
 
@@ -540,6 +555,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: **DEFER: Hold. Before adding any ICH Q3D cutaneous or NNHPD Cr(VI) topical row to regulatory_limits.csv, run an impact check: list every cert compiled cell and gap-report lowest_regulatory_cap that the new rows would change, and bring that list back for approval.**
 - notes: Register edits can move cert cells, so this is gated.
 
+### OI-20260926-precommit-hook-posix-shell — Pre-commit commit-lock helper uses bash [[ ]] and BSD stat, failing under sh on Linux cloud VMs
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: On a Linux VM, git commit runs .husky/pre-commit under sh; sourcing tools/autonomy/commit-lock.sh fails with [[: not found and an Illegal number from stat output. Workaround used: HMI_SKIP_COMMIT_LOCK=1.
+- done when: git commit touching wiki/sources succeeds on Linux without HMI_SKIP_COMMIT_LOCK; Lock still acquired and released on macOS
+
 ### OI-20260926-prebuild-generated-churn — prebuild regenerates about 4,900 files with churn unrelated to the diaper-creams ingest
 
 - scope: **auto** · type: finding · status: open · repo: index
@@ -547,6 +569,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: On branch cursor/diaper-creams-evidence-ingest-bb6c, npm run prebuild modified about 4,965 tracked files. Most changes are regeneration drift accumulated since the last committed build (metal-page legends, defense dossiers, evidence-packet index, change-watch, category pages), not caused by the diaper-creams sources. These were not committed with the ingest to avoid unrelated flips.
 - done when: A clean-main npm run prebuild is committed as its own regeneration commit, or the drift is shown to be deterministic noise and the generators are fixed
 - notes: CREAMS-INGEST-1 committed only authored files, the routing audit rows for its own sources, and the three product pages whose legends it changed.
+
+### OI-20260926-peer-review-footer-em-dashes — build-peer-review-footers.mjs injects em dashes into every synthesis peer-review block, against the no-em-dash house rule
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/build-peer-review-footers.mjs`
+- repro: npm run prebuild rewrites the hmi-peer-review block on every wiki/synthesis/*.md to canonical text containing em dashes ('preprints — before external review completes —'); it overwrites the clean committed wording on baby-wipes and mineral-baby-sunscreens.
+- done when: build-peer-review-footers.mjs footer text contains no em or en dashes; re-running prebuild leaves synthesis peer-review blocks em-dash-free
+- decision: _pending_
 
 ### OI-20260926-diaper-cream-missing-primary-texts — Retrieve the diaper-cream primary texts that were not obtained
 
@@ -573,6 +603,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A decision is recorded on whether C-tier single-unit consumer reports enter a Category 2 occurrence summary; If approved, only report-verified rows (not chart-only rows, flag F02) are loaded, with evidence tier and basis columns
 - decision: **DEFER: Hold. Do not create a Category 2 occurrence register. Nothing from CREAMS-INGEST-1 feeds the certification pipeline. The four report-verified values are in values.jsonl with public_summary_scope product_page_only, which the summary CSVs, pooling engine, gap report and cert export do not read.**
 - notes: CREAMS-INGEST-1. Chart-only values stay barred.
+
+### OI-20260926-baby-sunscreen-mineral-scaffold-claims — baby-sunscreen-mineral page keeps unsourced Step 0 scaffold claims (platform attribution, levers, bold text)
+
+- scope: **human-gated** · type: content · status: queued · repo: index
+- paths: `wiki/products/baby-sunscreen-mineral.md`
+- repro: Overview says ZnO carries Pb/Cd load (sphalerite-derived) and TiO2 carries Pb/iAs/Cd (rutile/ilmenite-derived) with no citation; Levers section uses bold and unsourced claims. The 2026-09-26 ingest removed only the brand list and added sources and data.
+- done when: Every overview and levers claim cites an ingested source or is removed; No inline bold for emphasis
+- decision: **APPROVE: Karen 2026-09-26 - delete every quantitative claim with no source in the repo; no replacement prose; section to be rewritten later.**
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

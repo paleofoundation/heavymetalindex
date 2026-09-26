@@ -30,7 +30,11 @@ review_state: approved_for_public
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-02
+updated: 2026-09-26
+additional_raw_copies:
+  - path: "raw/studies/mineral-baby-sunscreens-2026-09/eu-2009-1223-annex-vi-2020-12-31.pdf"
+    sha256: 9bc7d9ee411ba20e6313b2e011d44ac328dc5edb1a1c3e09487438ac1cf46b4f
+    note: "Annex VI, legislation.gov.uk point-in-time version as at 2020-12-31 (EU-derived text)"
 ---
 
 # EU Cosmetics Regulation 1223/2009 — horizontal legal framework, Annex II metal prohibitions, Annex III/V conditional permissions, Article 17 trace-impurity clause
@@ -102,6 +106,17 @@ Member States designate competent authorities for in-market control (Article 22)
 - Article 15(1) and (2) (CMR prohibitions) applied from 1 December 2010.
 - Article 16(3) second subparagraph (nanomaterial notification grandfather provision) applied from 11 January 2013.
 - Directive 76/768/EEC was repealed with effect from 11 July 2013 (except Article 4b, repealed 1 December 2010).
+
+### Annex VI mineral UV filters (point-in-time text, 31 December 2020)
+
+Annex VI entries for the two mineral UV filters were checked against the legislation.gov.uk point-in-time copy of Annex VI as it stood on 31 December 2020 (PDF pp. 3-4 of that copy). The current consolidated EUR-Lex text was not obtained, so later amendments may not be reflected.
+
+- Entry 27, titanium dioxide: maximum 25 % in the ready-for-use preparation; the combined total of titanium dioxide and titanium dioxide (nano) may not exceed 25 %. For colourant use, Annex IV No 143 applies.
+- Entry 27a, titanium dioxide (nano): maximum 25 %; not to be used in applications that may lead to exposure of the end user's lungs by inhalation; only nanomaterials with purity ≥ 99 %, rutile form or rutile with up to 5 % anatase, median particle size by number ≥ 30 nm, aspect ratio 1 to 4.5, volume specific surface area ≤ 460 m2/cm3, listed coatings (including three coating combinations), photocatalytic activity ≤ 10 % of the uncoated reference, and photostable in the formulation.
+- Entry 30, zinc oxide: maximum 25 %; not in applications that may lead to lung exposure by inhalation; the combined total with the nano form may not exceed 25 %.
+- Entry 30a, zinc oxide (nano): maximum 25 %; not for inhalation applications; purity ≥ 96 %, wurtzite, impurities consisting only of carbon dioxide and water with any other impurities less than 1 % in total; D50 > 30 nm and D1 > 20 nm; water solubility < 50 mg/L; uncoated or coated with the listed silanes or dimethicone.
+
+Annex VI sets purity and total-impurity conditions for the nano forms but no element-specific lead, cadmium, arsenic or mercury limits. Trace metal impurities in mineral sunscreens fall under Article 17 and national technically avoidable values such as the German BVL figures ([[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]]). The conditions for entry 30a follow the SCCS 2014 addendum ([[sources/sccs2014-zinc-oxide-nano-addendum-1518-13]]).
 
 ## Routing rationale
 

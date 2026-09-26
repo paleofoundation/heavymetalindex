@@ -99,6 +99,22 @@ Finished-product measurements of zinc oxide diaper creams are consumer-commissio
 - [[sources/healthcanada2024-nnhpd-diaper-rash-products-monograph]] - Health Canada Diaper Rash Products Monograph, 2024.
 - [[sources/edqm2026-pheur-0252-zinc-oxide-knowledge-database]] - European Pharmacopoeia zinc oxide monograph record. Thallium 5 ppm added; lead and cadmium limits not obtained.
 
+## Mineral baby sunscreens, September 2026
+
+Metals in finished sunscreens and in the titanium dioxide and zinc oxide that make them mineral, the instruments that govern those filters, and skin-penetration studies. Baby-product values are single commercially tested units; peer-reviewed product values are adult sunscreens.
+
+- [[sources/rubin2026-sunscreen-metals-comparison-chart]] - Consumer-advocacy chart, 35 sunscreens and one zinc oxide powder, single units, ppb as sold. Grey literature.
+- [[sources/rubin2025-mineral-baby-sunscreen-case-2505271]], [[sources/rubin2025-mineral-baby-sunscreen-case-2505468]], [[sources/rubin2025-mineral-baby-sunscreen-case-2507165]], [[sources/rubin2025-mineral-baby-sunscreen-case-2506212]], [[sources/rubin2025-mineral-baby-sunscreen-case-2505470]] - Five baby mineral sunscreen laboratory reports, by case number. Same tests as five chart rows.
+- [[sources/oasis2026-35-sunscreens-solvents-metals]] - Company screening of 35 retail sunscreens, mg/kg as sold; food-method digestion.
+- [[sources/dccf2021-infant-child-sunscreens-korea]] - Korean consumer federation, 17 infant and child sunscreens, compliance outcome only.
+- [[sources/rodriguez-romero2019-sunscreen-metals-coastal-seawater]] - One adult SPF 50 nano titanium dioxide spray and its release to seawater.
+- [[sources/tovar-sanchez2013-sunscreen-emerging-pollutants-coastal]] - Titanium, zinc, aluminium and iron in seven adult sunscreens; non-detects without a detection limit.
+- [[sources/sccs2012-zinc-oxide-nano-opinion-1489-12]], [[sources/sccs2014-zinc-oxide-nano-addendum-1518-13]], [[sources/sccs2014-titanium-dioxide-nano-opinion-1516-13]], [[sources/sccs2024-titanium-dioxide-scientific-advice-1661-23]] - EU committee opinions on the mineral UV filters and cosmetic titanium dioxide impurity profiles.
+- [[sources/efsa2021-e171-titanium-dioxide-safety]] - EFSA E171 food-additive opinion. Context only.
+- [[sources/danishepa2014-nano-anatase-tio2-consumer-products]], [[sources/danishepa2015-dermal-absorption-nano-tio2-zno-sunscreen]] - Danish EPA crystal-form mapping and skin-model penetration study.
+- [[sources/fda2019-sunscreen-proposed-rule-84fr6204]], [[sources/healthcanada2026-primary-sunscreen-monograph]] - US proposed GRASE rule and Canadian sunscreen monograph.
+- [[sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen]], [[sources/mohammed2019-zno-nanoparticle-sunscreen-repeated-application]], [[sources/gulson2016-nanoparticles-sunscreens-ichmet]], [[sources/crosera2015-tio2-nanoparticle-skin-penetration-hacat]], [[sources/pal2016-uvb-zno-nanoparticle-dermal-penetration-mouse]] - Zinc and titanium skin penetration in adult, ex vivo and animal skin.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

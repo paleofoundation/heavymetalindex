@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Heavy metals in mineral baby sunscreens](/synthesis/heavy-metals-in-mineral-baby-sunscreens) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb, Ti, Zn | 7 | 2026-09-26 |
 | [Heavy metals in diaper creams](/synthesis/heavy-metals-in-diaper-creams) | Pb, Cd, tAs, tHg | 7 | 2026-09-26 |
 | [Heavy metals in baby wipes](/synthesis/heavy-metals-in-baby-wipes) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb | 7 | 2026-09-25 |
 | [Proof Before the Floor: a proposed systems architecture for dietary heavy-metal exposure reduction through authenticated evidence, lot qualification, and method-bound certification (systems-architecture working paper)](/synthesis/proof-before-the-floor) | Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Sn, Al, Cr | 20 | 2026-09-13 |
