@@ -12,7 +12,7 @@ metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb]
 products: ["[[products/baby-wipes]]"]
 anchor_sources: ["[[sources/stone2021-wa-metals-childrens-consumer-products]]", "[[sources/choi2016-wet-wipes-nonwoven-heavy-metals]]", "[[sources/cpqs2026-online-baby-wipes-quality-monitoring]]", "[[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]]", "[[sources/biver2021-antimony-release-polyester-artificial-sweat]]", "[[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]", "[[sources/smajgl2015-tin-baby-diapers-croatia]]"]
 established: 2026-09-25
-wiki_doi: null
+wiki_doi: "10.83376/hmi.heavy-metals-in-baby-wipes"
 updated: 2026-09-26
 ---
 
@@ -299,3 +299,7 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints until external review is recorded. Until at least one external verdict is recorded below, this page is a preprint, not a peer-reviewed work.
 <!-- END: hmi-peer-review -->
+
+## How to cite
+
+Pendergrass, K. (2026). Heavy metals in baby wipes. Institute of Contaminant Standards. <https://doi.org/10.83376/hmi.heavy-metals-in-baby-wipes>
