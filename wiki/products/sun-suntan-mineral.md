@@ -30,6 +30,23 @@ updated: 2026-06-09
 
 No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
 
+<!-- BEGIN: hmi-promoted-value-ranges -->
+## Measured ranges from the evidence register
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Computed from reviewed rows in the structured evidence register for this page: total element content in the product as sold, in mg/kg, one purchased unit per result. These are single commercially tested units from grey literature, not a market distribution. Non-detects are counted against the reporting limit the laboratory printed and are not treated as zero. Rows attached to an unresolved flag, repeated reports of the same test, non-detects without a printed limit, unstated bases, and screening results from a food-validated digestion are not included.
+
+| Analyte | Units tested | Quantified | Range where quantified (mg/kg) | Below reporting limit | Sources |
+| --- | ---: | ---: | --- | --- | --- |
+| [[metals/lead\|Pb]] | 12 | 12 | 0.118 to 4.6125 | 0 | 1 |
+| [[metals/cadmium\|Cd]] | 12 | 12 | 0.00967 to 0.6216 | 0 | 1 |
+| [[metals/arsenic-total\|tAs]] | 12 | 7 | 0.01996 to 0.2296 | 5 (< 0.01) | 1 |
+| [[metals/mercury-total\|tHg]] | 12 | 1 | 0.00531 | 11 (< 0.005) | 1 |
+
+Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
+<!-- END: hmi-promoted-value-ranges -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

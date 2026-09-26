@@ -18,7 +18,7 @@ raw_path: "raw/studies/mineral-baby-sunscreens-2026-09/rubin2026-sunscreen-metal
 raw_sha256: 8a0bc08640eec045b0ce1eafbf9400f49e96e983283d21e386a8c5f0f04cab1b
 metals: [Pb, Cd, tAs, tHg]
 ingredients: []
-products: ["[[products/baby-sunscreen-mineral]]", "[[products/sun-suntan-mineral]]", "[[products/baby-sunscreen-chemical]]"]
+products: ["[[products/baby-sunscreen-mineral]]", "[[products/sun-suntan-mineral]]", "[[products/baby-sunscreen-chemical]]", "[[products/sun-suntan-products]]"]
 matrices: [sunscreen, zinc-oxide-powder]
 jurisdictions: [US, AU]
 near_duplicates: ["rubin2025-mineral-baby-sunscreen-case-2505271", "rubin2025-mineral-baby-sunscreen-case-2505468", "rubin2025-mineral-baby-sunscreen-case-2507165", "rubin2025-mineral-baby-sunscreen-case-2506212", "rubin2025-mineral-baby-sunscreen-case-2505470"]

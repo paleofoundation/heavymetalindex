@@ -64,6 +64,23 @@ The table summarizes what the sources ingested for this row report. Values are a
 | [[metals/mercury-total\|tHg]] | Baby-marked zinc oxide sunscreens, single units | Detected in two of nine chart rows (5.29 and 7.88 ppb); others below 5 ppb. Baby-line retail unit: not detected (below 0.001 mg/kg). | Chart: 5 of 35 above 5 ppb. Retail survey: 3 of 35 quantified (0.004 to 0.009 mg/kg). | Canada topical NHP: 1 ppm total mercury. US colour additive: 1 ppm. Germany, cosmetics in general: 0.1 mg/kg. | [[sources/rubin2026-sunscreen-metals-comparison-chart\|Rubin 2026]]; [[sources/oasis2026-35-sunscreens-solvents-metals\|Oasis 2026]] | low | as sold |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-promoted-value-ranges -->
+## Measured ranges from the evidence register
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Computed from reviewed rows in the structured evidence register for this page: total element content in the product as sold, in mg/kg, one purchased unit per result. These are single commercially tested units from grey literature, not a market distribution. Non-detects are counted against the reporting limit the laboratory printed and are not treated as zero. Rows attached to an unresolved flag, repeated reports of the same test, non-detects without a printed limit, unstated bases, and screening results from a food-validated digestion are not included.
+
+| Analyte | Units tested | Quantified | Range where quantified (mg/kg) | Below reporting limit | Sources |
+| --- | ---: | ---: | --- | --- | --- |
+| [[metals/lead\|Pb]] | 7 | 7 | 0.1692 to 2.1403 | 0 | 4 |
+| [[metals/cadmium\|Cd]] | 7 | 7 | 0.1227 to 0.645 | 0 | 4 |
+| [[metals/arsenic-total\|tAs]] | 7 | 3 | 0.01492 to 0.4853 | 4 (< 0.01) | 4 |
+| [[metals/mercury-total\|tHg]] | 7 | 2 | 0.00529 to 0.00788 | 5 (< 0.005) | 4 |
+
+Sources: [[sources/rubin2025-mineral-baby-sunscreen-case-2505470]], [[sources/rubin2025-mineral-baby-sunscreen-case-2506212]], [[sources/rubin2025-mineral-baby-sunscreen-case-2507165]], [[sources/rubin2026-sunscreen-metals-comparison-chart]].
+<!-- END: hmi-promoted-value-ranges -->
+
 ## Source Evidence Inventory
 
 Sources ingested on 2026-09-26 for mineral baby sunscreens, grouped by what they measure. Every number cited here is recorded, with its page and table, in the structured evidence for these sources, and inconsistencies found while reading are recorded there as flags. Products are identified by row or laboratory case number, not by brand.

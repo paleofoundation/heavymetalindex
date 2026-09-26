@@ -61,6 +61,23 @@ The applicable regulatory jurisdictions for this row are: **FDA cosmetics, EU Co
 *Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [sun-suntan-products]` in source-page frontmatter.*
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-promoted-value-ranges -->
+## Measured ranges from the evidence register
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Computed from reviewed rows in the structured evidence register for this page: total element content in the product as sold, in mg/kg, one purchased unit per result. These are single commercially tested units from grey literature, not a market distribution. Non-detects are counted against the reporting limit the laboratory printed and are not treated as zero. Rows attached to an unresolved flag, repeated reports of the same test, non-detects without a printed limit, unstated bases, and screening results from a food-validated digestion are not included.
+
+| Analyte | Units tested | Quantified | Range where quantified (mg/kg) | Below reporting limit | Sources |
+| --- | ---: | ---: | --- | --- | --- |
+| [[metals/lead\|Pb]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+| [[metals/cadmium\|Cd]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+| [[metals/arsenic-total\|tAs]] | 1 | 0 | none quantified | 1 (< 0.01) | 1 |
+| [[metals/mercury-total\|tHg]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+
+Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
+<!-- END: hmi-promoted-value-ranges -->
+
 ## Source Evidence Inventory
 
 *Pending ingest. The routing layer populates this section from the source-page set declaring `products: [sun-suntan-products]`.*

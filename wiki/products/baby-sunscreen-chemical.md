@@ -59,6 +59,23 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | Baby Sunscreen, Chemical (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-promoted-value-ranges -->
+## Measured ranges from the evidence register
+
+<!-- audience: regulator, educator, consumer, app -->
+
+Computed from reviewed rows in the structured evidence register for this page: total element content in the product as sold, in mg/kg, one purchased unit per result. These are single commercially tested units from grey literature, not a market distribution. Non-detects are counted against the reporting limit the laboratory printed and are not treated as zero. Rows attached to an unresolved flag, repeated reports of the same test, non-detects without a printed limit, unstated bases, and screening results from a food-validated digestion are not included.
+
+| Analyte | Units tested | Quantified | Range where quantified (mg/kg) | Below reporting limit | Sources |
+| --- | ---: | ---: | --- | --- | --- |
+| [[metals/lead\|Pb]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+| [[metals/cadmium\|Cd]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+| [[metals/arsenic-total\|tAs]] | 1 | 0 | none quantified | 1 (< 0.01) | 1 |
+| [[metals/mercury-total\|tHg]] | 1 | 0 | none quantified | 1 (< 0.005) | 1 |
+
+Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
+<!-- END: hmi-promoted-value-ranges -->
+
 ## Source Evidence Inventory
 
 _Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
