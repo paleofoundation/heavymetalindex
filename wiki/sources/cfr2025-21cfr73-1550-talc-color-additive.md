@@ -48,7 +48,7 @@ Talc may be used in amounts consistent with good manufacturing practice to colou
 
 ## Scope and basis
 
-The limits apply to talc as a colour additive in drugs. They are raw-material specifications, not limits for a finished baby powder or for talc used in cosmetics. The test is an extraction in dilute hydrochloric acid, so the limits bound extractable lead and arsenic, expressed per mass of talc, not total content after full digestion. The regulatory limits register already carries these two values; its basis note does not record the extraction condition, which is logged for annotation.
+The limits apply to talc as a colour additive in drugs. They are raw-material specifications, not limits for a finished baby powder or for talc used in cosmetics. The test is an extraction in dilute hydrochloric acid, so the limits bound extractable lead and arsenic, expressed per mass of talc, not total content after full digestion. The regulatory limits register carries these two values with an annotation that they are measured on the acid extract, are extractable rather than total content, and must never be compared directly with total-content results.
 
 ## Evidence fitness
 

@@ -55,7 +55,7 @@ This is a specification for food-grade talc as an ingredient. It does not apply 
 
 ## Evidence fitness
 
-The page supports the international food-additive purity bar for lead in talc. The monograph is also contained in the combined JECFA compendium already in the corpus.
+The page supports the international food-additive purity bar for lead in talc. The regulatory limits register records it as a food-additive specification for oral use, excluded from any topical-product limit comparison. The monograph is also contained in the combined JECFA compendium already in the corpus.
 
 ## Related evidence
 
