@@ -68,3 +68,13 @@ Synthetic-sweat vehicle, adult abdominal skin, 24 h only. The printed donor dose
 - [[sources/sccs2014-titanium-dioxide-nano-opinion-1516-13]]
 - [[sources/danishepa2015-dermal-absorption-nano-tio2-zno-sunscreen]]
 - [[metals/titanium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1fa7b4b72](https://github.com/paleofoundation/heavymetalindex/commit/1fa7b4b72) | 2026-09-26 | major | 2 sources added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

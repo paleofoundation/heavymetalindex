@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-252 open item(s): 85 auto, 167 awaiting a decision.
+253 open item(s): 86 auto, 167 awaiting a decision.
 
 ### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
 
@@ -522,6 +522,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Mineral baby sunscreens ingest 2026-09-26: SCCS 2012/2014/2024 and chart row 36 (zinc oxide powder) carry raw-material values but ingredients: [] with routing_input_gaps because no ingredient page exists.
 - done when: Karen decides whether TiO2 and ZnO get ingredient pages (Part 10 page creation); If created, SCCS and raw-material sources declare the ingredient and routing audit shows 0 unresolved
 - decision: _pending_
+
+### OI-20260926-unrelated-routing-flips-after-prebuild — Running npm run prebuild on main flips 20 unrelated routing-audit rows from missing_direct_product_route to source_on_page_no_structured_value
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`
+- repro: On the mineral-baby-sunscreens branch, prebuild regenerated product-page source legends; the routing audit then flipped these unrelated (product,source) rows: fish-containing-baby-foods,abbas2023-sparus-aurata-egypt-metals;infant-formula-powder-soy,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,carey2018-rice-dilution-infant-food-eu-arsenic;infant-rice-cereal,efsa2024-risk-assessment-iAs-update;infant-rice-cereal,fda2016-arsenic-rice-cereal-analytic-results;infant-rice-cereal,fda2016-arsenic-rice-risk-assessment;infant-rice-cereal,fda2018-iAs-infant-rice-cereals-fy2018;teething-and-snacks-rice-based,jackson2012-arsenic-organic-foods-brown-rice-syrup;fruit-purees,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-non-soy,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-soy-based,pandelova2012-eu-baby-food-formula-elements;mixed-meals-non-rice,pandelova2012-eu-baby-food-formula-elements;mixed-meals-rice-containing,pandelova2012-eu-baby-food-formula-elements;non-root-vegetable-purees,pandelova2012-eu-baby-food-formula-elements;infant-rice-cereal,seyfferth2025-rice-water-management-as-hg-cd;pickled-fermented-vegetables,shavali-gilani2025-canned-tomato-olive-pickle-iran;infant-formula-powder-soy-based,soto-ocana2024-metal-availability-early-life-microbiome;infant-rice-cereal,su2023-arsenic-brown-rice-benefits-risks;infant-rice-cereal,wehmeier2023-ias-rice-cola-field-method. Not committed in the sunscreen ingest (instruction: log, do not commit unrelated flips).
+- done when: Regenerate product pages and routing audit together on main and commit as one generated-output change; routing audit shows 0 unresolved and 0 malformed
 
 ### OI-20260926-precommit-hook-posix-shell — Pre-commit commit-lock helper uses bash [[ ]] and BSD stat, failing under sh on Linux cloud VMs
 

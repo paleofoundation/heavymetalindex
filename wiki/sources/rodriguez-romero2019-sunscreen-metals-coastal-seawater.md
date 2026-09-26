@@ -77,3 +77,13 @@ One product. Table 1 gives no SD although triplicate analysis is stated. Some mo
 - [[metals/lead]]
 - [[metals/titanium]]
 - [[sources/tovar-sanchez2013-sunscreen-emerging-pollutants-coastal]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1fa7b4b72](https://github.com/paleofoundation/heavymetalindex/commit/1fa7b4b72) | 2026-09-26 | major | 1 source added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

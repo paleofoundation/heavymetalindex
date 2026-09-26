@@ -60,7 +60,7 @@ The header counts are 33 of 35 positive for lead, 29 of 35 for cadmium, 13 of 35
 
 Eleven rows are marked for babies in the chart's "Kids?" column (rows 7, 8, 10, 12, 14, 20, 25, 27, 30, 31 and 34). Among the nine of these with zinc oxide in the ingredient column, lead ranged from 169.20 (row 10) to 2,140.30 ppb (row 34) and cadmium from 122.70 (row 34) to 645.00 ppb (row 30). Rows 7 and 8 have a "??" ingredient entry and reported lead of 76.53 and 81.28 ppb. Arsenic was reported in three of the baby-marked zinc oxide rows (485.30, 135.90 and 14.92 ppb). Mercury was reported in two (7.88 and 5.29 ppb). Where the chart prints a zinc percentage for baby-marked rows it is 20.00%, 23.40% or 24.08%.
 
-Every value by row is in the structured file `data/evidence/rubin2026-sunscreen-metals-comparison-chart-ppb.csv` and the number ledger for this collection.
+Every value by row is kept in the structured evidence record for this source.
 
 ## Methods (brief)
 
@@ -84,3 +84,13 @@ One unit per product, one laboratory, and products chosen by community nominatio
 - [[metals/cadmium]]
 - [[sources/oasis2026-35-sunscreens-solvents-metals]]
 - [[sources/rubin2025-mineral-baby-sunscreen-case-2505271]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1fa7b4b72](https://github.com/paleofoundation/heavymetalindex/commit/1fa7b4b72) | 2026-09-26 | major | 2 sources added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

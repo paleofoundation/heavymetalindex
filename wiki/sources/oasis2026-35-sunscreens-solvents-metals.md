@@ -58,7 +58,7 @@ Table 3, PDF pp. 8-10, mg/kg in the unit as submitted. The limit of detection is
 - The product whose name indicates a baby line (OH-12) had lead 0.613 and cadmium 0.109 mg/kg, arsenic below quantitation and mercury ND. The two kids sprays had lead 0.589 (cadmium 0.073) and 0.007 mg/kg (cadmium ND).
 - Ten of the fourteen cadmium-ND products are described as sprays (Table 4, PDF p. 12).
 
-All 140 values are in `data/evidence/oasis2026-35-sunscreens-solvents-metals-mg-per-kg.csv`.
+All 140 values are kept in the structured evidence record for this source.
 
 ## Methods (brief)
 
@@ -82,3 +82,13 @@ One unit per product, no second lot, retail-availability selection, and an unnam
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[sources/rubin2026-sunscreen-metals-comparison-chart]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [1fa7b4b72](https://github.com/paleofoundation/heavymetalindex/commit/1fa7b4b72) | 2026-09-26 | major | 1 source added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->
