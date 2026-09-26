@@ -16,7 +16,7 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-09-26
 literature_scope: thin
-sources: 8
+sources: 12
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Oil
@@ -95,6 +95,18 @@ This page reports what the peer-reviewed and government literature says about he
 
 Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/healthcanada2012-cosmetics-heavy-metal-impurities|Guidance on Heavy Metal Impurities in Cosmetics]]<span class="hmi-ref-meta">Health Canada · 2012 · [www.hc-sc.gc.ca](http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php)</span><span class="hmi-ref-tag">Guidance</span>
+3. [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics|Technically avoidable heavy metal contents in cosmetic products]]<span class="hmi-ref-meta">German Federal Office of Consumer Protection and Food Safety · Journal of Consumer Protection and Food Safety · 2017 · [doi.org/10.1007/s00003-016-1044-2](https://doi.org/10.1007/s00003-016-1044-2)</span><span class="hmi-ref-tag">Regulation</span>
+4. [[sources/wa-tfca-hb1047-2023|Washington State Toxic-Free Cosmetics Act (HB 1047) — statutory cap on heavy metals in cosmetic products]]<span class="hmi-ref-meta">Washington State Legislature · Washington State Session Laws, Chapter 455, Laws of 2023 (2023 c 455), codified as Chapter 70A.560 RCW · 2023 · [app.leg.wa.gov](https://app.leg.wa.gov/billsummary?BillNumber=1047&Year=2023&Initiative=false)</span><span class="hmi-ref-tag">Regulation</span>
+5. [[sources/healthcanada2024-diaper-rash-products-monograph|Diaper Rash Products Monograph]]<span class="hmi-ref-meta">Health Canada, Natural and Non-prescription Health Products Directorate · Health Products and Food Branch monograph dated 2024-02-23, replacing the Diaper Rash Products Monograph of 7 December 2018 · 2024 · [webprod.hc-sc.gc.ca](https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/mono_diaper-rash-products_english.pdf)</span><span class="hmi-ref-tag">Regulation</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -106,20 +118,21 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 | 2 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | EU Pb, tHg occurrence in Not applicable. This is a Council of Europe Committee of Ministers Resolution (CM/ResAP (2012) 1) supplemented by the... |
 | 3 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
 | 4 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
-| 5 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | US-WA/US Sb, tAs, Cd, Co, Cu, Pb, tHg, Mo, Zn occurrence in Planning document only; no samples analysed within this QAPP. The QAPP scopes a planned procurement of approximately 200... |
-| 6 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
+| 5 | [[sources/healthcanada2012-cosmetics-heavy-metal-impurities\|Canada 2012]]. *Guidance on Heavy Metal Impurities in Cosmetics*, Health Canada Consumer Product Safety guidance | 2012 | Government guidance | CA/DE/US Pb, tAs, Cd, tHg, Sb occurrence in Health Canada cosmetic-impurity guidance based on toxicology review, comparison with other program limits, German technical-avoidability limits, and Health... |
+| 6 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | US-WA/US Sb, tAs, Cd, Co, Cu, Pb, tHg, Mo, Zn occurrence in Planning document only; no samples analysed within this QAPP. The QAPP scopes a planned procurement of approximately 200... |
+| 7 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [11991f11f](https://github.com/paleofoundation/heavymetalindex/commit/11991f11f) | 2026-09-26 | major | 5 sources added; narrative text revised |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

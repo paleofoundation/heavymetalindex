@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 14
+sources: 15
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -23,7 +23,6 @@ updated: 2026-05-17
 ## Overview
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 4: **Body/hand leave-on skin care**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [body-hand-leave-on-skin-care]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
-
 
 ## Literature scope
 
@@ -118,22 +117,23 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | 8 | [[sources/nelson2022-cannabis-heavy-metals-method\|Nelson et al. 2022]]. *Determination of Heavy Metals in a Variety of Cannabis and Cannabis-Derived Products, First Action 2021.03*, Journal of AOAC INTERNATIONAL | 2022 | Peer-reviewed | US/CA tAs, Cd, tHg, Pb occurrence in Four cannabis/cannabis-derived validation matrices with native As, Cd, Hg, and Pb values in Table 5: flower (inhaled), hemp... (n=4) |
 | 9 | [[sources/iwegbue2019-household-hygienic-products-nigeria\|Iwegbue et al. 2019]]. *Risk of human exposure to metals in some household hygienic products in Nigeria*, Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) | 2019 | Peer-reviewed | NG Cd, Pb, Cr, Cu, Co, Ni, Mn, Zn, Fe occurrence in Twenty-seven brands of household hygienic products purchased in Abraka, Sapele and Warri (Delta State, southern Nigeria), comprising ten... (n=27) |
 | 10 | [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals\|Chaiyasut et al. 2018]]. *Formulation and stability assessment of Arabica and Civet coffee extracts based cosmetic preparations*, Asian Journal of Pharmaceutical and Clinical Research | 2018 | Peer-reviewed | TH Pb, tAs, tHg occurrence in Arabica and civet coffee extract body lotion and hand moisturizing cream formulations after 3 months at 40°C (n=12) |
-| 11 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
-| 12 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
-| 13 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
-| 14 | [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products\|European Chemical Industry Ecology 1992]]. *Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis*, ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) | 1992 | Industry | EU/US/IL Ni, Co, Cr, Cr-VI occurrence in Literature-review compilation of nickel, cobalt and chromium concentrations measured in consumer products by 28 published studies (1956-1990) and... |
+| 11 | [[sources/omenka2016-personal-care-products-ibadan\|Omenka et al. 2016]]. *Heavy metal content of selected personal care products (PCPs) available in Ibadan, Nigeria and their toxic effects*, Toxicology Reports 3:628-635 | 2016 | Peer-reviewed | NG Zn, Cd, Pb, Ni occurrence in Thirty-five sealed personal care products bought in six major markets in Ibadan, Oyo State, Nigeria: 20 body creams... (n=35) |
+| 12 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 13 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
+| 14 | [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements\|Tjandraatmadja et al. 2010]]. *Sources of contaminants in domestic wastewater: nutrients and additional elements from household products*, CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) | 2010 | Industry | AU Sb, Cr, Co, Mo, Se occurrence in One hundred and fifty-six household and personal-care products purchased from major supermarkets in Melbourne, Australia between February and... (n=156) |
+| 15 | [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products\|European Chemical Industry Ecology 1992]]. *Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis*, ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) | 1992 | Industry | EU/US/IL Ni, Co, Cr, Cr-VI occurrence in Literature-review compilation of nickel, cobalt and chromium concentrations measured in consumer products by 28 published studies (1956-1990) and... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
