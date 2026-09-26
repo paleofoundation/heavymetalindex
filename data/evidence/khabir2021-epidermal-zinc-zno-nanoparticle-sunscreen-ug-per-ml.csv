@@ -1,0 +1,7 @@
+cite_key,layer,quantity,analyte,value_as_printed,unit,statistic_type,method,page,table,ledger_row,flag_ids
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,SC,CexZn (exogenous),Zn,120 ± 23,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0485,FL-40
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,SC,CenZn (endogenous),Zn,13 ± 2,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0486,FL-40
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,VE,CexZn (exogenous),Zn,1.0 ± 0.3,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0490,FL-40
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,VE,CenZn (endogenous),Zn,4.3 ± 0.7,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0491,FL-40
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,Dermis,CexZn (exogenous),Zn,0.5 ± 0.2,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0495,FL-40
+khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen,Dermis,CenZn (endogenous),Zn,5 ± 2,µg/mL,mean ± 95% CI,LA-ICP-MS,PDF p. 8,Table 1,MBS-0496,FL-40
