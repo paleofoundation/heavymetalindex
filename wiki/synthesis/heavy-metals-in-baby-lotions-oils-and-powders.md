@@ -12,7 +12,7 @@ metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Al, Cu, Sn, Sb]
 products: ["[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]", "[[products/baby-lotion-cream]]", "[[products/baby-oil]]"]
 anchor_sources: ["[[sources/yaghi2026-baby-powder-benghazi-libya]]", "[[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]]", "[[sources/omenka2016-personal-care-products-ibadan]]", "[[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]", "[[sources/stone2021-wa-metals-childrens-consumer-products]]", "[[sources/szcc2020-infant-powders-shenzhen-consumer-council]]", "[[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]]"]
 established: 2026-09-26
-wiki_doi: null
+wiki_doi: "10.83376/hmi.heavy-metals-in-baby-lotions-oils-and-powders"
 updated: 2026-09-26
 ---
 
@@ -162,6 +162,10 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
+
+## How to cite
+
+Pendergrass, K. (2026). Heavy metals in baby lotions, oils, and powders. Institute of Contaminant Standards. <https://doi.org/10.83376/hmi.heavy-metals-in-baby-lotions-oils-and-powders>
 
 ## References
 
