@@ -3,7 +3,10 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
-## [2026-09-25] query | baby-wipes-citations — author list and two missing references
+## [2026-09-26] regulatory-watch | catch-up 14-26 Sep 2026
+
+Pages touched: none. Ledger: `data/evidence/regulatory_watch_intakes.jsonl`, `data/evidence/regulatory_watch_events.jsonl`, `data/evidence/regulatory_limits.csv`.
+Notes: Twelve clusters. One in-force instrument, FDA 21 CFR 172.383 (FR Doc. 2026-19656, effective 2026-09-25): vitamin D2 inactive bakers yeast, lead 0.5 mg/kg, arsenic 0.3 mg/kg, cadmium 0.5 mg/kg, mercury 0.1 mg/kg, recorded as additive specifications. Seven consultation drafts with comment deadlines: Ukraine G/SPS/N/UKR/266/Rev.1 natural mineral water; Tanzania TBT/TZA/1658 herbal face mask, 1659 magnesium oxide, 1660 skin cleanser; Kenya TBT/KEN/2117 (DARS 2214) disposable wet wipes; EAC TBT/BDI/702/Rev.1 (DEAS 1308) toy balloons, basis not stated; Rwanda TBT/RWA/1485 (DRS 650) cake gel. Magnesium oxide arsenic is stored as As-as-As2O3, the printed oxide expression. Four leads carry no numeric rows: Kenya TBT/KEN/2119 textiles, Tanzania SPS/TZA/550 fish nuggets, China NHC/SAMR 2026 No. 6, and EFSA E 962. Hub-only. No reader-facing article. Direction: toward the literature. No certification threshold is set. Not minted.
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
 Notes: Reference 7 now carries the Crossref author list for DOI 10.1111/cod.14753, and the nickel paragraph names Isufi and colleagues (2025). The manufacturing paper (DOI 10.1177/15280837211046619) and the BVL orientation-value paper (DOI 10.1007/s00003-016-1044-2) are in the reference list. Print years stay 2022 and 2017. Direction: toward the literature. No certification threshold is set. Not minted.
