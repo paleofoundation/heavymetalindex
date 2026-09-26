@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | baby-wipes-verify — two mechanical corrections
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: The polyester-sweat sentence had been rewritten as "at most about 2 percent." The opened Biver abstract and the source page print about 0.05 to 2 percent, so the lower bound is restored. Crossref for DOI 10.1177/15280837211046619 names the second author Jaouachi Boubaker, not Jamel Boubaker. No other sentence was rewritten. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-26] query | baby-wipes-rewrite — synthesis text rewritten in house style
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
