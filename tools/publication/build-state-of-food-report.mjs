@@ -51,6 +51,11 @@ const REPORT_EXCLUDE_SLUGS = new Set([
   // Non-food product synthesis. It is on the synthesis index for navigation
   // and is not a finding in the State of Heavy Metals in Food register.
   "heavy-metals-in-baby-wipes",
+  // Non-food product syntheses (topical diaper cream and mineral baby sunscreen).
+  // On the synthesis index for navigation; not findings in the State of Heavy
+  // Metals in Food register.
+  "heavy-metals-in-diaper-creams",
+  "heavy-metals-in-mineral-baby-sunscreens",
 ])
 
 const sourceTypeMap = new Map([

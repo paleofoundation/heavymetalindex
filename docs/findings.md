@@ -513,7 +513,104 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-248 open item(s): 84 auto, 164 awaiting a decision.
+260 open item(s): 90 auto, 170 awaiting a decision.
+
+### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/ingredients/zinc-oxide.md`, `wiki/ingredients/titanium-dioxide.md`
+- repro: Mineral baby sunscreens ingest 2026-09-26: SCCS 2012/2014/2024 and chart row 36 (zinc oxide powder) carry raw-material values but ingredients: [] with routing_input_gaps because no ingredient page exists.
+- done when: Karen decides whether TiO2 and ZnO get ingredient pages (Part 10 page creation); If created, SCCS and raw-material sources declare the ingredient and routing audit shows 0 unresolved
+- decision: **DEFER: Karen 2026-09-26 - not now; the mineral baby sunscreens synthesis paper will cover ZnO and TiO2 as the main route metals enter mineral sunscreens.**
+
+### OI-20260926-unrelated-routing-flips-after-prebuild — Running npm run prebuild on main flips 20 unrelated routing-audit rows from missing_direct_product_route to source_on_page_no_structured_value
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`
+- repro: On the mineral-baby-sunscreens branch, prebuild regenerated product-page source legends; the routing audit then flipped these unrelated (product,source) rows: fish-containing-baby-foods,abbas2023-sparus-aurata-egypt-metals;infant-formula-powder-soy,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,carey2018-rice-dilution-infant-food-eu-arsenic;infant-rice-cereal,efsa2024-risk-assessment-iAs-update;infant-rice-cereal,fda2016-arsenic-rice-cereal-analytic-results;infant-rice-cereal,fda2016-arsenic-rice-risk-assessment;infant-rice-cereal,fda2018-iAs-infant-rice-cereals-fy2018;teething-and-snacks-rice-based,jackson2012-arsenic-organic-foods-brown-rice-syrup;fruit-purees,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-non-soy,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-soy-based,pandelova2012-eu-baby-food-formula-elements;mixed-meals-non-rice,pandelova2012-eu-baby-food-formula-elements;mixed-meals-rice-containing,pandelova2012-eu-baby-food-formula-elements;non-root-vegetable-purees,pandelova2012-eu-baby-food-formula-elements;infant-rice-cereal,seyfferth2025-rice-water-management-as-hg-cd;pickled-fermented-vegetables,shavali-gilani2025-canned-tomato-olive-pickle-iran;infant-formula-powder-soy-based,soto-ocana2024-metal-availability-early-life-microbiome;infant-rice-cereal,su2023-arsenic-brown-rice-benefits-risks;infant-rice-cereal,wehmeier2023-ias-rice-cola-field-method. Not committed in the sunscreen ingest (instruction: log, do not commit unrelated flips).
+- done when: Regenerate product pages and routing audit together on main and commit as one generated-output change; routing audit shows 0 unresolved and 0 malformed
+
+### OI-20260926-routing-audit-product-page-cites-flips — Routing audit flips product_page_cites_source to true for 14 unrelated sources after a full build
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`
+- repro: After npm run build and evidence:standards-gaps on the diaper-creams branch, 20 rows for 14 sources (abbas2023-sparus-aurata-egypt-metals, cantoral2024-lead-levels-mexican-foods, carey2018-rice-dilution-infant-food-eu-arsenic, efsa2024-risk-assessment-iAs-update, fda2016-arsenic-rice-cereal-analytic-results, fda2016-arsenic-rice-risk-assessment, fda2018-iAs-infant-rice-cereals-fy2018, jackson2012-arsenic-organic-foods-brown-rice-syrup, pandelova2012-eu-baby-food-formula-elements, seyfferth2025-rice-water-management-as-hg-cd, shavali-gilani2025-canned-tomato-olive-pickle-iran, soto-ocana2024-metal-availability-early-life-microbiome, su2023-arsenic-brown-rice-benefits-risks, wehmeier2023-ias-rice-cola-field-method) change route_status missing_direct_product_route to source_on_page_no_structured_value, product_page_cites_source false to true, and action_needed. The cause is regenerated product-page legends that now cite those sources. Not committed with CREAMS-INGEST-1.
+- done when: A clean-main rebuild commits these flips on their own, with the regenerated product pages that cause them
+- notes: Unrelated to diaper creams; logged, not committed.
+
+### OI-20260926-regulation-pages-skin-protectant-diaper-rash — No regulation pages for the US skin protectant monograph or the Health Canada Diaper Rash Products Monograph
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/regulations`
+- repro: wiki/regulations has no page for 21 CFR 347 / 55 FR 25204 / OTC Monograph M016 or for the NNHPD Diaper Rash Products Monograph (2024). The diaper-cream-zno product page links the source records directly. Source records: fda2025-21cfr347-skin-protectant-otc, fda1990-55fr25204-diaper-rash-tentative-final-monograph, fda2003-68fr33362-skin-protectant-final-monograph, healthcanada2024-nnhpd-diaper-rash-products-monograph.
+- done when: Regulation stub pages exist, state that no finished-product metal limit is set, link the source records, and pass audit-link-integrity
+- notes: CREAMS-INGEST-1 left these out of scope.
+
+### OI-20260926-register-ich-cutaneous-nhp-crvi — Regulatory register lacks ICH Q3D cutaneous PDE/CTCL rows and the NNHPD appendix Cr(VI) topical row
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`
+- repro: regulatory_limits.csv carries ICH Q3D oral and parenteral Option-1 rows but no Appendix 5 cutaneous rows (Table A.5.1 PDEs, Table A.5.2 10 g/day concentrations, Ni/Co CTCL 35 ug/g). The NNHPD Quality Guide appendix prints Chromium IV (read as Cr-VI) Topical 5 ppm, not in Table 2 (flag F19b, unresolved). Values are in docs/briefs/diaper-creams-number-ledger.csv DCL-0200 to DCL-0306 and DCL-0349.
+- done when: Cutaneous rows added from the primary PDF with basis stated as dose (ug/day) or dose-dependent concentration; NNHPD appendix Cr(VI) 5 ppm resolved against the canada.ca text before any register row is added
+- decision: **DEFER: Hold. Before adding any ICH Q3D cutaneous or NNHPD Cr(VI) topical row to regulatory_limits.csv, run an impact check: list every cert compiled cell and gap-report lowest_regulatory_cap that the new rows would change, and bring that list back for approval.**
+- notes: Register edits can move cert cells, so this is gated.
+
+### OI-20260926-precommit-hook-posix-shell — Pre-commit commit-lock helper uses bash [[ ]] and BSD stat, failing under sh on Linux cloud VMs
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: On a Linux VM, git commit runs .husky/pre-commit under sh; sourcing tools/autonomy/commit-lock.sh fails with [[: not found and an Illegal number from stat output. Workaround used: HMI_SKIP_COMMIT_LOCK=1.
+- done when: git commit touching wiki/sources succeeds on Linux without HMI_SKIP_COMMIT_LOCK; Lock still acquired and released on macOS
+
+### OI-20260926-prebuild-generated-churn — prebuild regenerates about 4,900 files with churn unrelated to the diaper-creams ingest
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `wiki/static/evidence-packet-index.json`, `wiki/static/defense-dossier-index.json`, `data/evidence/defense-dossiers`, `wiki/metals`, `wiki/index.md`
+- repro: On branch cursor/diaper-creams-evidence-ingest-bb6c, npm run prebuild modified about 4,965 tracked files. Most changes are regeneration drift accumulated since the last committed build (metal-page legends, defense dossiers, evidence-packet index, change-watch, category pages), not caused by the diaper-creams sources. These were not committed with the ingest to avoid unrelated flips.
+- done when: A clean-main npm run prebuild is committed as its own regeneration commit, or the drift is shown to be deterministic noise and the generators are fixed
+- notes: CREAMS-INGEST-1 committed only authored files, the routing audit rows for its own sources, and the three product pages whose legends it changed.
+
+### OI-20260926-peer-review-footer-em-dashes — build-peer-review-footers.mjs injects em dashes into every synthesis peer-review block, against the no-em-dash house rule
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/build-peer-review-footers.mjs`
+- repro: npm run prebuild rewrites the hmi-peer-review block on every wiki/synthesis/*.md to canonical text containing em dashes ('preprints — before external review completes —'); it overwrites the clean committed wording on baby-wipes and mineral-baby-sunscreens.
+- done when: build-peer-review-footers.mjs footer text contains no em or en dashes; re-running prebuild leaves synthesis peer-review blocks em-dash-free
+- decision: _pending_
+
+### OI-20260926-diaper-cream-missing-primary-texts — Retrieve the diaper-cream primary texts that were not obtained
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `docs/briefs/diaper-creams-reading-brief.md`
+- repro: Seventeen manifest entries had no PDF (listed in section 8 of the reading brief). The ones that block resolution of flags are OTC Monograph M016 (F42), FDA lead guidance for externally applied cosmetics (F09), the Washington Toxic-Free Cosmetics Act text (F08), USP and Ph. Eur. zinc oxide Pb/Cd limits (F41), Pal 2016 ESI Fig. S1 (F36), and Gulson 2010 (F37). All returned bot checks, paywalls or subscription walls.
+- done when: Each document is placed in the library with a SHA-256 and ingested, or recorded as unobtainable; Flags F08, F09, F36, F37, F41 and F42 are re-evaluated
+- decision: _pending_
+- notes: Source retrieval is a human task (bot checks were not bypassed).
+
+### OI-20260926-commit-lock-bashisms-under-sh — Pre-commit commit lock fails with code 2 under sh when a stale lock directory exists
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: husky runs .husky/pre-commit with sh (dash). tools/autonomy/commit-lock.sh uses [[ ]] (line 49 and others), which dash reports as not found. When .git/hmi-commit.lock.d is left by an exited hook, the stale-lock path reaches a stat call whose output is parsed as a number (Illegal number at pre-commit line 107) and the hook exits 2. Observed twice during CREAMS-INGEST-1; removing the dead-owner lock directory let the commit proceed.
+- done when: commit-lock.sh is POSIX sh compatible or the hook invokes it with bash; A commit succeeds with a stale lock directory whose owner pid is dead
+- notes: Found during CREAMS-INGEST-1 commits.
+
+### OI-20260926-cat2-diaper-cream-occurrence-register — Load report-verified diaper-cream single-unit values into a Category 2 occurrence summary
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/evidence/rubin2025a-40pct-zno-diaper-ointment-lot-2025-142-ppb.csv`, `data/evidence/rubin2025b-40pct-zno-diaper-paste-lot-2025-169-ppb.csv`, `data/evidence/rubin2025c-40pct-zno-diaper-paste-lot-2025-182-ppb.csv`, `data/evidence/rubin2025d-13pct-zno-diaper-cream-lot-2025-218-ppb.csv`
+- repro: No Category 2 *_summary.csv or hmtc_c2 row id exists, so the diaper-cream-zno Literature Evidence Summary block and hmtc_standards_gap_report still say no structured evidence loaded. The four report-verified values (C-tier, single units) are in per-source CSVs and the number ledger. Creating a new Category 2 register shape feeds the staff pooling engine and gap report.
+- done when: A decision is recorded on whether C-tier single-unit consumer reports enter a Category 2 occurrence summary; If approved, only report-verified rows (not chart-only rows, flag F02) are loaded, with evidence tier and basis columns
+- decision: **DEFER: Hold. Do not create a Category 2 occurrence register. Nothing from CREAMS-INGEST-1 feeds the certification pipeline. The four report-verified values are in values.jsonl with public_summary_scope product_page_only, which the summary CSVs, pooling engine, gap report and cert export do not read.**
+- notes: CREAMS-INGEST-1. Chart-only values stay barred.
+
+### OI-20260926-baby-sunscreen-mineral-scaffold-claims — baby-sunscreen-mineral page keeps unsourced Step 0 scaffold claims (platform attribution, levers, bold text)
+
+- scope: **human-gated** · type: content · status: queued · repo: index
+- paths: `wiki/products/baby-sunscreen-mineral.md`
+- repro: Overview says ZnO carries Pb/Cd load (sphalerite-derived) and TiO2 carries Pb/iAs/Cd (rutile/ilmenite-derived) with no citation; Levers section uses bold and unsourced claims. The 2026-09-26 ingest removed only the brand list and added sources and data.
+- done when: Every overview and levers claim cites an ingested source or is removed; No inline bold for emphasis
+- decision: **APPROVE: Karen 2026-09-26 - delete every quantitative claim with no source in the repo; no replacement prose; section to be rewritten later.**
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

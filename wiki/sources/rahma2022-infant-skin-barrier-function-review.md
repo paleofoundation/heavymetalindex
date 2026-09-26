@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Skin_Barrier_Function_in_Infants_Update_and_Outlook.pdf"
 metals: []
 ingredients: []
-products: ["[[products/baby-wipes]]", "[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]", "[[products/children-personal-care]]"]
+products: ["[[products/baby-wipes]]", "[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]", "[[products/children-personal-care]]", "[[products/baby-sunscreen-mineral]]"]
 matrices: []
 jurisdictions: [EU, UK, US]
 near_duplicates: []
@@ -22,7 +22,7 @@ sample_population: "Narrative review of infant skin physiology, barrier function
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-09-26
 ---
 
 # Rahma & Lane 2022 — Skin barrier function in infants: update and outlook
@@ -39,6 +39,7 @@ This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharma
 - Skin pH (text, pp. 6-7): newborn skin surface pH 6.6-7.5 at birth (Yosipovitch et al. 2000 and others); falls to 5-6 within the first few days; one prospective study (Giusti et al. 2001) reported a -1.31 pH-unit change on forehead between 3 days and 90 days; adult skin pH is 4-6.
 - TEWL (text, pp. 8-9): normal adult TEWL 6-8 g/m²·h (Rogiers/EEMCO); preterm newborns up to 75 g/m²·h (Hammarlund & Sedin 1979) and are at higher risk of evaporative heat loss in low-humidity environments (<50%); Nikolovski et al. 2008 reported volar-forearm and dorsal-forearm TEWL significantly higher in healthy 3-12-month infants (n=50) than adults (p<0.01); older infants 8-24 months had TEWL similar to adults.
 - Surface-area-to-body-weight ratio (text, p. 10): infant SA/BW is **2.3 times higher** than adult; even higher in preterm and low-birth-weight infants (Renwick 1998, cited as ref 81).
+- Sunscreen-specific statements: the same paragraph (§4.1, PDF p. 10) notes that cleansing lotions, moisturisers and sunscreens "are often applied over a large body surface area", so the number and amount of topical products applied to infant skin needs care to prevent excessive percutaneous absorption. §3.2.5 (PDF p. 8) reports the American Academy of Pediatrics recommendation that infant sunscreen use be restricted to areas not covered by clothes, to minimise skin absorption of sunscreen ingredients. The abstract (PDF p. 1) states that barrier properties closely resemble adult skin two years after birth and that dermal absorption of topical ingredients in infants with underlying skin conditions has not been widely explored. Corresponding author: annisarahma@fa.itb.ac.id.
 - Cases of systemic absorption from topical exposure on preterm or compromised skin (text, pp. 9-10):
   - Povidone iodine antiseptic on full-term newborns caused impaired thyroid function (West et al. 1981, citing ref 75); hypothyroidism reported in infants with spina bifida after topical povidone iodine (ref 76).
   - Phenylephrine absorption increased in preterm newborns; rate decreased with postnatal age (ref 6).
@@ -57,6 +58,8 @@ This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharma
 - Felter et al. 2017 (ref 148) safety-evaluation framework for diaper-area ingredients with diaper dermatitis (DD): assume **4-fold** increase in dermal absorption in DD-affected skin for ingredients with normal-skin dermal absorption of 1-10%; **2-fold** increase for ingredients with 10-50% absorption; for ingredients with >50% absorption, modification of exposure assessment is not required. For ingredients with unknown permeation data, an assumption of **100% dermal absorption** is acknowledged as very conservative (text, pp. 18-19).
 - Atopic dermatitis (AD) prevalence in children ≈20% (Telofski et al. 2012, ref 141); >90% of AD patients have early age of onset (≤5 years); hydrocortisone serum levels following 1% cream application order with AD severity: severe > moderate > mild (refs 153-154).
 - EMA, SCCS, FDA, and RCPCH regulatory framing (text, pp. 13-19): EMA 2005 Reflection Paper on paediatric excipients; EMA Annex to Commission Guideline (SANTE-2017-11668) prohibits cyclodextrins as permeation-enhancing excipients in products for infants and children <2 yr; SCCS 2021 Notes of Guidance 11th Revision requires assessment of DD-impact on absorption for diaper-area products; US FDA / EMA / USP / Ph.Eur. specify purified-water quality for non-sterile baby-wipe water; RCPCH recommends emollient-containing cleansers for infants and children with AD; American Academy of Pediatrics restricts infant sunscreen use to areas not covered by clothes to minimize absorption (Paller et al. 2011, ref 66).
+- Abstract (p. 1), as printed: "To date there has been no published information regarding dermal absorption of ingredients contained in baby wipes. Similarly, dermal absorption of topical ingredients in infants with underlying skin conditions has not been widely explored."
+- Section 6.3, Post-Cleansing Barrier-Repair Creams (p. 17): many diaper-area formulations contain zinc oxide, "a skin astringent that exhibits mild anti-inflammatory effects", but "there are limited data supporting the effectiveness of zinc oxide ointment in preventing diaper dermatitis" (refs 133, 134). Dexpanthenol 5% is presented as having emerging supporting evidence. The review reports no zinc, lead or cadmium absorption data for diaper creams.
 
 ## Methods (brief)
 
@@ -80,7 +83,7 @@ Narrative literature review. The authors state in the Introduction (p. 1) that t
 - Review article, narrative not systematic; `evidence_tier: B`. The underlying primary studies cited (Hammarlund & Sedin 1979 TEWL; Visscher et al. 2000 diaper-area physiology; Stamatas et al. 2010 in vivo microstructure; Hoeger & Enzmann 2002 desquamation; Felter et al. 2017 DD safety-evaluation framework) are independently A-tier and should be located and ingested separately when HMI synthesis on infant dermal exposure needs primary measurements; this review's value is the integration and the regulatory-framing summary, not the underlying numbers.
 - `metals: []` is correct — the paper contains no heavy-metal occurrence data and no metal-specific permeability measurements. The systemic-absorption cases reviewed are pharmaceutical or antiseptic chemicals (povidone iodine, chlorhexidine, alcohol, salicylates, phenylephrine, miconazole, hydrocortisone), not metals.
 - `ingredients: []` is correct — the paper does not discuss food ingredients; preservative and surfactant ingredients in baby wipes are formulation-level, not contamination-source, and are not in the the linked reference record taxonomy.
-- `products: [baby-wipes, diaper-cream-zno, diaper-cream-non-zno, children-personal-care]`: baby-wipes is the primary subject (Sections 6.1, 6.2, 7.1 of the paper); diaper-cream-zno and diaper-cream-non-zno cover §6.3 Post-Cleansing Barrier-Repair Creams (zinc oxide ointment and dexpanthenol 5%, respectively); children-personal-care is the umbrella context. Sunscreens are mentioned in passing (American Academy of Pediatrics recommendation) but not in enough depth to warrant baby-sunscreen-mineral / baby-sunscreen-chemical routing; declined.
+- `products: [baby-wipes, diaper-cream-zno, diaper-cream-non-zno, children-personal-care]`: baby-wipes is the primary subject (Sections 6.1, 6.2, 7.1 of the paper); diaper-cream-zno and diaper-cream-non-zno cover §6.3 Post-Cleansing Barrier-Repair Creams (zinc oxide ointment and dexpanthenol 5%, respectively); children-personal-care is the umbrella context. Sunscreens are addressed in two passages (§3.2.5 American Academy of Pediatrics recommendation; §4.1 large-surface-area application), which support routing to baby-sunscreen-mineral as infant-skin exposure context (added 2026-09-26); baby-sunscreen-chemical is not routed because the review draws no filter-type distinction.
 - `jurisdictions: [EU, UK, US]` reflects the EMA / SCCS (EU), RCPCH (UK), and FDA / AAP (US) regulatory bodies the review references. Indonesia (author affiliation) and the WHO newborn-bathing recommendation are not jurisdiction-specific to the content of the paper.
 - Brand-firewall (Part 12): clean. The paper does not name commercial baby-wipe brands or rank manufacturers; it discusses preservative and surfactant ingredient classes and cites methylisothiazolinone-containing wipes (2005-2014 era) as a class without naming brands. The single "Procter & Gamble" reference is a market-research citation (ref 99) for percent-of-caregivers data, not a brand-ranking claim about product safety.
 - Wiki/HMTc firewall (Part 2): clean. The review does not propose certification thresholds or comment on existing HMI / HMTc standards. The Felter et al. 2017 framework numbers are reported as the source's regulatory framing (SCCS-adopted), not as HMI recommendations.
@@ -88,6 +91,7 @@ Narrative literature review. The authors state in the Introduction (p. 1) that t
 - Funding: Ministry of Finance, Republic of Indonesia studentship (Grant Ref S-1778/LPDP.4/2019) for Rahma. No declared conflicts of interest; no industry funding.
 - Open access (CC BY 4.0); re-publishable with attribution under MDPI license terms.
 - The paper-internal reference list assigns ref [78] to "Bernauer et al. 2021 - SCCS Notes of Guidance 11th Revision (SCCS/1628/21)" - this is the SCCS Notes of Guidance 11th Revision, not the 12th Revision that exists at the linked reference record. The two are sequential SCCS guidance versions and should not be conflated.
+- A second copy of this article (SHA-256 2daff72d9097819561a16c8be31f4a99bc58605e9c4e902f3cdf8cf5c9feffeb) was received on 2026-09-26 in a diaper-cream source collection and used to check the abstract and section 6.3 statements above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -96,9 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
