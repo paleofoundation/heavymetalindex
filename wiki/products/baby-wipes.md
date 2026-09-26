@@ -14,7 +14,7 @@ primary_metals_of_concern: [Sb, Pb, tAs, iAs, tHg, Cd, Cr, Cr-VI, Ni, Sn, Al]
 applicable_regulations: [health-canada-cosmetic-heavy-metal-impurities, eu-cosmetics-1223-2009, germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics, korea-mfds-2025-63-cosmetics-safety-standards]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-09-25
+updated: 2026-09-26
 sources: 8
 created_by: cat2_step0_scaffold_2026_05_16
 shareText: "One row per metal for baby wipes. Antimony is the measured one. Tin and aluminum: no wipe data found. Lead, arsenic, mercury, cadmium, and chromium are mostly zeros or untested species."
@@ -123,7 +123,7 @@ An Intertek summary of China's GB/T 27728.2-2024, the recommended standard for w
 
 ### Sensitization, as context, and wipe rashes, as evidence about preservatives
 
-A 2025 meta-analysis in Contact Dermatitis (DOI 10.1111/cod.14753) pooled positive patch tests in children under 18 who were patch tested between 2010 and 2024. Nickel sulphate was the most frequent allergen, at 11.9 percent (95 percent confidence interval 8.6 to 15.7 percent) across 16 studies. The United States figure in that paper is 18.0 percent (14.6 to 21.9), and the European figure is 10.2 percent (5.4 to 16.2). Among children with atopic dermatitis the pooled nickel figure was 12.6 percent (7.8 to 18.4). These are children sent for patch testing, not all children. The paper discusses jewelry and clothing fasteners. It does not study wipes. That prevalence is context.
+A 2025 meta-analysis in Contact Dermatitis (DOI 10.1111/cod.14753) pooled positive patch tests in children under 18 who were patch tested between 2010 and 2024. Nickel sulphate was the most frequent allergen, at 11.9 percent (95 percent confidence interval 8.6 to 15.71 percent) across 16 studies. The United States figure in that paper is 18.0 percent (14.6 to 21.9), and the European figure is 10.2 percent (5.4 to 16.2). Among children with atopic dermatitis the pooled nickel figure was 12.6 percent (7.8 to 18.4). These are children sent for patch testing, not all children. The paper discusses jewelry and clothing fasteners. It does not study wipes. That prevalence is context.
 
 Wipes can cause allergic contact dermatitis. The opened reports are about preservatives. Chang and colleagues, Pediatrics 2014, DOI 10.1542/peds.2013-1453, describe six children with perianal, buttock, or facial dermatitis, positive patch tests to methylchloroisothiazolinone/methylisothiazolinone, and use of wet wipes containing methylisothiazolinone. The rash cleared after the wipes were stopped. Warshaw and colleagues, Dermatitis, DOI 10.1097/der.0000000000000248, report that 79 of 9,037 patients patch tested by the North American Contact Dermatitis Group from 2011 to 2014 had a positive reaction tied to a wet-wipe source. The abstract's leading allergens are methylisothiazolinone, the methylchloroisothiazolinone combination, bronopol, iodopropynyl butylcarbamate, and fragrance. Nickel is not among them. No paper cited here shows that nickel in a baby wipe caused diaper dermatitis.
 

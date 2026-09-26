@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | baby-wipes-pre-mint — drop untraced percents and correct two figures
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]]
+Notes: Phenoxyethanol and EDTA stay named, without the untraced 0.40 percent and 0.03 percent. The Biver 0.05 ledger row now cites the Biver abstract; the Göçer REACH 0,05 cell stays its own row. The opened Biver PDF prints the pillowcase at 452 µg/g, and the source page and the synthesis list that figure. The product page and the reading brief print the Isufi nickel interval as 8.6 to 15.71, matching the Crossref abstract. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-26] query | baby-wipes-verify — two mechanical corrections
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
