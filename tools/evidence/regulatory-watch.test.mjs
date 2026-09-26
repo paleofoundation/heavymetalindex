@@ -74,7 +74,7 @@ test("14-26 Sep 2026 catch-up is hub-only and keeps leads out of the numeric reg
   assert.ok(oxide.analytes.includes("As-as-As2O3"))
   assert.ok(!oxide.analytes.includes("tAs"))
   const balloons = byId.get("rw-2026-28-eac-deas-1308-toy-balloons-draft")
-  assert.match(balloons.summary, /basis is not stated/i)
+  assert.match(balloons.summary, /basis is recorded as not stated/i)
 })
 
 test("amendments and delayed application preserve legal status", () => {
