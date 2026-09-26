@@ -16,7 +16,7 @@ raw_path: "raw/studies/baby-lotions-oils-powders/CNPharm_2019_NMPA_notice_27_bat
 raw_sha256: b2cd1c073303a67df59719847c1e28c6c573a05a32ef903b868e225d9f82ca10
 metals: [Pb]
 ingredients: []
-products: ["[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]"]
+products: ["[[products/baby-talcum-powder]]"]
 matrices: [childrens-powder]
 jurisdictions: [CN]
 near_duplicates: []
@@ -50,7 +50,7 @@ A China Food and Drug Network article of 31 December 2019 reports the National M
 
 The article also quotes a Tianjin administrative penalty decision of 9 December 2019. It found that the talc-powder manufacturer produced three batches with lead above the national standard (15,000, 13,050, and 12,000 boxes), all using the same main raw material, talc. The batch in the national notice is one of those three.
 
-The pine-pollen powder was marketed online as containing a single natural ingredient and no talc. It is a plant-based powder, not a starch powder. This page routes it to the non-talc baby powder row because that is the nearest row.
+The pine-pollen powder was marketed online as containing a single natural ingredient and no talc. A plant pollen is neither talc nor starch, so this result is not mapped to any baby powder row. The unmapped status is logged for review; the value stays in the number ledger (BLOP-1266).
 
 The 10 mg/kg limit matches the lead limit in the 2015 Chinese cosmetics standard recorded in the register of record (see [[sources/nmpa2015-cosmetics-safety-technical-standards]]).
 
@@ -69,7 +69,6 @@ Secondary reporting; the NMPA notice was not obtained. No method, no basis, one 
 ## Related evidence
 
 - [[products/baby-talcum-powder]]
-- [[products/baby-powder-cornstarch]]
 - [[sources/nmpa2015-cosmetics-safety-technical-standards]]
 - [[metals/lead]]
 

@@ -56,7 +56,7 @@ const header = [
   "metal_species", "basis", "n", "detected_n", "p10_ppb", "p50_ppb", "p90_ppb", "p95_ppb", "p100_ppb", "mean_ppb",
   "median_ppb", "max_ppb", "min_detected_ppb", "mean_lb_ppb", "mean_ub_ppb", "n_text", "statistic_type", "censoring_status",
   "censoring_limit_ppb", "unit", "statistic_scope", "evidence_fitness_verdict", "review_state", "row_fit",
-  "field_value_summary", "notes",
+  "field_value_summary", "notes", "evidence_grade", "headline_eligible",
 ]
 
 const lines = [header.join(",")]
@@ -120,6 +120,8 @@ for (const [key, rows] of [...groups.entries()].sort((a, b) => a[0].localeCompar
     review_state: "reviewed",
     row_fit: rows[0].row_fit,
     field_value_summary: summary,
+    evidence_grade: rows[0].evidence_grade ?? "",
+    headline_eligible: rows[0].headline_eligible === false ? "false" : "true",
     notes: `${rows[0].content_basis}. Values promoted from values.jsonl (${rows.length} row${rows.length === 1 ? "" : "s"}); ledger rows ${rows.map((row) => row.ledger_row).join(" ")}.`,
   }
   lines.push(header.map((column) => csvCell(record[column])).join(","))

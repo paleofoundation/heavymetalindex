@@ -60,8 +60,8 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | powder (direct row-fit) | highest reported 19450 ppb | 100% detected (1/1, Cnpharm 2019, as-sold) | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 2 cited | low (1-2 sources) | as-sold |
-| [[metals/cadmium\|Cd]] | powder (direct row-fit) | highest reported 310 ppb | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/lead\|Pb]] | powder (summary-only / supporting context) | No headline range. Grey literature: news-reported compliance test; method not printed: maximum 3500 ppb, not a headline figure | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/cadmium\|Cd]] | powder (summary-only / supporting context) | No headline range. Grey literature: news-reported compliance test; method not printed: maximum 310 ppb, not a headline figure | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
 | [[metals/nickel\|Ni]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/chromium\|Cr]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
@@ -70,9 +70,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 No source in the corpus reports metal concentrations for individually identified corn-starch baby powders.
 
-A 2020 Shenzhen Consumer Council test of 20 infant powders, reported in the press, found all within the Chinese national standard. The four samples above the German technically avoidable values were all plant-starch powders without talc. The maxima across all 20 samples were lead 3.5, arsenic 0.87, and cadmium 0.31 mg/kg; one sample exceeded the German values for all three metals. Per-sample values were not obtained. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
-
-A 2019 Chinese national non-compliance notice, reported by the regulator-affiliated news site, named an infant skin powder made of pine pollen, marketed as talc-free, at 19.45 mg/kg lead on re-test against a 10 mg/kg limit. It is a plant powder, not a starch powder; this row is its nearest match. [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]]
+A 2020 Shenzhen Consumer Council test (grey literature: a news report of a compliance test, method not printed; these maxima are not headline figures) of 20 infant powders, reported in the press, found all within the Chinese national standard. The four samples above the German technically avoidable values were all plant-starch powders without talc. The maxima across all 20 samples were lead 3.5, arsenic 0.87, and cadmium 0.31 mg/kg; one sample exceeded the German values for all three metals. Per-sample values were not obtained. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
 
 A Washington State Department of Ecology survey analysed one baby powder of unstated formulation, with printed values of total chromium 2.2, cobalt 0.4, lead 0.4, and molybdenum 0.2 ppm, below the survey plans' 1.0 ppm reporting limit. [[sources/stone2021-wa-metals-childrens-consumer-products]]
 

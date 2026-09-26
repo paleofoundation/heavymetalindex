@@ -133,7 +133,7 @@ function publicRow(metal, gapRow, summaryRows, subcategory) {
 }
 
 function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
-  const hasDirect = summaryRows.some((row) => String(row.row_fit || "").includes("direct"))
+  const hasDirect = summaryRows.filter((row) => String(row.headline_eligible || "").trim() !== "false").some((row) => String(row.row_fit || "").includes("direct"))
   const hasAny = summaryRows.length > 0
   const fitNote = hasDirect
     ? "direct row-fit"
@@ -143,8 +143,19 @@ function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
   return `${subcategory.publicLabel} (${fitNote})`
 }
 
-function rangeCell(summaryRows) {
-  if (summaryRows.length === 0) return "No concentration data loaded for this analyte"
+// Rows a summary file marks headline_eligible=false (for example grey-literature
+// news reports whose method is not printed) stay visible but never set the
+// range; they are named after it with their grade.
+function rangeCell(allRows) {
+  if (allRows.length === 0) return "No concentration data loaded for this analyte"
+  const summaryRows = allRows.filter((row) => String(row.headline_eligible || "").trim() !== "false")
+  const nonHeadline = allRows.filter((row) => String(row.headline_eligible || "").trim() === "false")
+  const nonHeadlineNote = nonHeadline.length
+    ? nonHeadline
+        .map((row) => `${row.evidence_grade || "not a headline figure"}: maximum ${formatNumber(row.max_ppb)} ppb, not a headline figure`)
+        .join("; ")
+    : ""
+  if (summaryRows.length === 0) return `No headline range. ${nonHeadlineNote.charAt(0).toUpperCase()}${nonHeadlineNote.slice(1)}`
 
   let centralLo = Infinity
   let centralHi = -Infinity
@@ -206,6 +217,7 @@ function rangeCell(summaryRows) {
   }
 
   if (parts.length === 0) return "Summary statistics only; no comparable numeric range across cited sources"
+  if (nonHeadlineNote) parts.push(`also ${nonHeadlineNote}`)
   return parts.join("; ")
 }
 
