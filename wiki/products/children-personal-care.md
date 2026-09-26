@@ -15,7 +15,7 @@ evidence_fitness: EF-5
 hmtc_row_count: 16
 wiki_doi: null
 updated: 2026-09-26
-sources: 33
+sources: 35
 created_by: cat2_step0_alignment_2026_05_16
 ---
 
@@ -166,6 +166,15 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 
 ## Sources
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/karwowski2016-folk-diaper-powder-infant-lead|Toxicants in folk remedies: implications of elevated blood lead in an American-born infant due to imported diaper powder]]<span class="hmi-ref-meta">Karwowski MP, Morman SA, Plumlee GS, Law T, Kellogg M, and Woolf AD · Environmental Geochemistry and Health 39(5):1133-1143. Published online 4 October 2016; print issue October 2017. Evidence here is the abstract as printed on the USGS Publications Warehouse record, Index ID 70182782 · 2016 · [doi.org/10.1007/s10653-016-9881-6](https://doi.org/10.1007/s10653-016-9881-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/duan2023-infant-lead-poisoning-topical-powder|Lead poisoning in a 6-month-old infant: a case report]]<span class="hmi-ref-meta">Duan Y, Yan L, Gao Z, and Gou Y · Frontiers in Public Health 11:1132199 · 2023 · [doi.org/10.3389/fpubh.2023.1132199](https://doi.org/10.3389/fpubh.2023.1132199)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -175,13 +184,13 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [03d1424d9](https://github.com/paleofoundation/heavymetalindex/commit/03d1424d9) | 2026-09-26 | major | 2 sources added; 1 section added; narrative text revised |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
