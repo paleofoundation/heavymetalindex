@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | rice-arsenic-ground-truth — keep the recorded extract hashes
+
+Pages touched: [[sources/efsa2021-rice-arsenic-annex-a-origin-year]], [[sources/hc2018-canadian-tds-trace-elements-white-rice]]
+Notes: The EFSA origin-year extract and the Canada white-rice extract stay byte-for-byte with the files whose sha256 is on the source pages. Line-ending conversion would change those hashes. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-26] query | rice-arsenic-ground-truth — load country-year counts and concentrations
 
 Pages touched: [[baselines/rice-arsenic]], [[baselines/index]], [[sources/index]]
