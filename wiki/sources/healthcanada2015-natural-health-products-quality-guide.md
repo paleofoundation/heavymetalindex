@@ -13,10 +13,11 @@ license: public-law
 raw_path: raw/regulatory/ca/canada-natural-health-products-heavy-metal-limits-2015.pdf
 library_files: ["Canada_Health_Canada_Quality_Natural_Health_Products_Guide.pdf"]
 raw_sha256: "9b5870dce661ba8f88e10d97b69685cc13a43d7bc4bde68d98332c2432ee3836"
+raw_files: [{path: "raw/studies/baby-lotions-oils-powders/HealthCanada_NNHPD_Quality_of_NHP_Guide.pdf", sha256: "12cb2d9cbfaeeb918df69e0217e2fc9ce760be804c1943fd5e7635421c3425c3", note: "canada.ca page printed 2026-09-25; Version 3.1 dated May 1, 2015; page date modified 2026-08-10"}]
 access_url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/legislation-guidelines/guidance-documents/quality-guide.html"
 metals: [tAs, iAs, Cd, Pb, tHg, Sb, MeHg, Cr-VI]
 ingredients: []
-products: ["[[products/diaper-cream-zno]]", "[[products/baby-sunscreen-mineral]]"]
+products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]", "[[products/baby-sunscreen-mineral]]", "[[products/baby-powder-cornstarch]]"]
 matrices: [natural-health-products, topical-products]
 jurisdictions: [CA]
 near_duplicates: []
@@ -25,6 +26,13 @@ additional_raw_copies:
   - path: "raw/studies/mineral-baby-sunscreens-2026-09/healthcanada2015-natural-health-products-quality-guide.pdf"
     sha256: 12cb2d9cbfaeeb918df69e0217e2fc9ce760be804c1943fd5e7635421c3425c3
     note: "canada.ca web page, Version 3.1 (1 May 2015), printed 2026-09-25"
+evidence_fitness:
+  supports:
+    - topical-heavy-metal-limits-for-natural-health-products-in-ppm
+    - oral-daily-tolerance-limits
+  does_not_support:
+    - a-hexavalent-chromium-topical-limit-because-the-5-ppm-line-is-labelled-chromium-iv-and-absent-from-table-2
+    - limits-for-products-regulated-as-cosmetics-or-drugs
 ---
 
 Health Canada's quality guide gives elemental impurity tolerance limits for natural health products. Oral product limits are expressed as daily exposure per day or body weight, while topical products have concentration limits in ppm. Only the topical concentration limits are loaded into the regulatory limits register because the oral dose limits are not direct product concentration ceilings.
@@ -41,6 +49,12 @@ Finished-product testing is not required where raw materials were tested or meet
 
 The figures above are read from a web copy of this guide printed from canada.ca on 2026-09-25 (SHA-256 12cb2d9cbfaeeb918df69e0217e2fc9ce760be804c1943fd5e7635421c3425c3). That copy prints Version 3.1, dated May 1, 2015.
 
+## Scope
+
+For diaper-rash products, the Diaper Rash Products Monograph (see [[sources/healthcanada2024-diaper-rash-products-monograph]]) sends products made only with natural health product ingredients, such as corn starch or kaolin powders and zinc oxide pastes, to this guide for finished-product specifications. Mineral-oil and petrolatum products are non-prescription drugs and are not covered by it.
+
+The methylmercury value in this guide is an oral daily tolerance only. Where the guide is routed to topical product rows (corn-starch baby powder and the two diaper cream rows), it is for the topical total-metal limits in Table 2; it does not supply a methylmercury limit or a methylmercury measurement for those rows.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -48,6 +62,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [ec0171770](https://github.com/paleofoundation/heavymetalindex/commit/ec0171770) | 2026-09-26 | minor | Narrative text revised |
+| [c7b93317b](https://github.com/paleofoundation/heavymetalindex/commit/c7b93317b) | 2026-09-26 | minor | Narrative text revised |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 source added; 2 sections added; narrative text revised |
 | [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added |
 | [1ccfc6d79](https://github.com/paleofoundation/heavymetalindex/commit/1ccfc6d79) | 2026-08-10 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

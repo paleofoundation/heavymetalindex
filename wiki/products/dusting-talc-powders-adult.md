@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 7
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -23,7 +23,6 @@ updated: 2026-05-17
 ## Overview
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 2: **Dusting/talc powders (adult)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [dusting-talc-powders-adult]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
-
 
 ## Literature scope
 
@@ -110,19 +109,21 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/upson2022-menstrual-products-exposure-review\|Upson et al. 2022]]. *Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective*, Current Environmental Health Reports 9(1):38-52 | 2022 | Peer reviewed review | US/SE/DK Cd, Pb, tHg occurrence in Narrative review of 23 studies measuring environmental chemicals in menstrual products plus 3 epidemiologic studies of menstrual-product use... (n=26) |
 | 2 | [[sources/gao2020-feminine-hygiene-edcs\|Gao et al. 2020]]. *Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure*, Environment International | 2020 | Peer-reviewed | Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The... |
-| 3 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 3 | [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas\|Rosnan 2017]]. *Determination of Heavy Metal (Cu, Pb, Ni) in Talcum Powder by Using Atomic Absorption Spectrometry*, BSc (Hons) Chemistry final year project report, Faculty of Applied Sciences, Universiti Teknologi MARA, Kuala Pilah, January 2017. Supervisor Kavirajaa Pandian Sambasevam. UiTM Institutional Repository eprint 41680. The repository file is a 5-page excerpt. | 2017 | Thesis | MY Cu, Pb, Ni occurrence in Eight talcum powders, medicated and non-medicated, presumably from the Malaysian market. The excerpt does not say whether any... (n=8) |
+| 4 | [[sources/omenka2016-personal-care-products-ibadan\|Omenka et al. 2016]]. *Heavy metal content of selected personal care products (PCPs) available in Ibadan, Nigeria and their toxic effects*, Toxicology Reports 3:628-635 | 2016 | Peer-reviewed | NG Zn, Cd, Pb, Ni occurrence in Thirty-five sealed personal care products bought in six major markets in Ibadan, Oyo State, Nigeria: 20 body creams... (n=35) |
+| 5 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

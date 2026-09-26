@@ -20,6 +20,7 @@ const occurrenceSummaryFiles = [
   "data/evidence/category7_occurrence_summary.csv",
   "data/evidence/category11_occurrence_summary.csv",
   "data/evidence/category24_occurrence_summary.csv",
+  "data/evidence/category2_baby_topicals_occurrence_summary.csv",
 ]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const regulatoryLimitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")

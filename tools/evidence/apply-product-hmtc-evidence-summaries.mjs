@@ -179,7 +179,7 @@ function publicDisplayValueRowsFor(productSlug, metal) {
 }
 
 function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
-  const hasDirect = summaryRows.some((row) => String(row.row_fit || "").includes("direct"))
+  const hasDirect = summaryRows.filter((row) => String(row.headline_eligible || "").trim() !== "false").some((row) => String(row.row_fit || "").includes("direct"))
   const hasAny = summaryRows.length > 0
   const fitNote = hasDirect
     ? "direct row-fit"
@@ -189,16 +189,34 @@ function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
   return `${subcategory.publicLabel} (${fitNote})`
 }
 
-function rangeCell(summaryRows) {
-  if (summaryRows.length === 0) return "No concentration data loaded for this analyte"
+// Rows a summary file marks headline_eligible=false (for example grey-literature
+// news reports whose method is not printed) stay visible but never set the
+// range; they are named after it with their grade.
+function rangeCell(allRows) {
+  if (allRows.length === 0) return "No concentration data loaded for this analyte"
+  const summaryRows = allRows.filter((row) => String(row.headline_eligible || "").trim() !== "false")
+  const nonHeadline = allRows.filter((row) => String(row.headline_eligible || "").trim() === "false")
+  const nonHeadlineNote = nonHeadline.length
+    ? nonHeadline
+        .map((row) => `${row.evidence_grade || "not a headline figure"}: maximum ${formatNumber(row.max_ppb)} ppb, not a headline figure`)
+        .join("; ")
+    : ""
+  if (summaryRows.length === 0) return `No headline range. ${nonHeadlineNote.charAt(0).toUpperCase()}${nonHeadlineNote.slice(1)}`
 
   let centralLo = Infinity
   let centralHi = -Infinity
   const centralSourceIds = new Set()
   const centralKind = new Set()
   let observedMax = -Infinity
+  // Optional column: the lowest printed detected value for a source. Only some
+  // summary files carry it; when present the cell reads as a detected range.
+  let detectedMin = Infinity
 
   for (const row of summaryRows) {
+    if (hasValue(row.min_detected_ppb)) {
+      const low = Number(row.min_detected_ppb)
+      if (Number.isFinite(low) && low < detectedMin) detectedMin = low
+    }
     const censored = /less_than|below/i.test(String(row.censoring_status || ""))
     let central = null
     if (!censored) {
@@ -237,10 +255,15 @@ function rangeCell(summaryRows) {
     }
   }
   if (Number.isFinite(observedMax)) {
-    parts.push(`highest reported ${formatNumber(observedMax)} ppb`)
+    if (Number.isFinite(detectedMin) && detectedMin < observedMax) {
+      parts.push(`detected values ${formatNumber(detectedMin)} to ${formatNumber(observedMax)} ppb`)
+    } else {
+      parts.push(`highest reported ${formatNumber(observedMax)} ppb`)
+    }
   }
 
   if (parts.length === 0) return "Summary statistics only; no comparable numeric range across cited sources"
+  if (nonHeadlineNote) parts.push(`also ${nonHeadlineNote}`)
   return parts.join("; ")
 }
 
