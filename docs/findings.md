@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-256 open item(s): 88 auto, 168 awaiting a decision.
+257 open item(s): 89 auto, 168 awaiting a decision.
 
 ### OI-20260926-routing-audit-product-page-cites-flips — Routing audit flips product_page_cites_source to true for 14 unrelated sources after a full build
 
@@ -564,6 +564,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Each document is placed in the library with a SHA-256 and ingested, or recorded as unobtainable; Flags F08, F09, F36, F37, F41 and F42 are re-evaluated
 - decision: _pending_
 - notes: Source retrieval is a human task (bot checks were not bypassed).
+
+### OI-20260926-commit-lock-bashisms-under-sh — Pre-commit commit lock fails with code 2 under sh when a stale lock directory exists
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: husky runs .husky/pre-commit with sh (dash). tools/autonomy/commit-lock.sh uses [[ ]] (line 49 and others), which dash reports as not found. When .git/hmi-commit.lock.d is left by an exited hook, the stale-lock path reaches a stat call whose output is parsed as a number (Illegal number at pre-commit line 107) and the hook exits 2. Observed twice during CREAMS-INGEST-1; removing the dead-owner lock directory let the commit proceed.
+- done when: commit-lock.sh is POSIX sh compatible or the hook invokes it with bash; A commit succeeds with a stale lock directory whose owner pid is dead
+- notes: Found during CREAMS-INGEST-1 commits.
 
 ### OI-20260926-cat2-diaper-cream-occurrence-register — Load report-verified diaper-cream single-unit values into a Category 2 occurrence summary
 
