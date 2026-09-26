@@ -115,6 +115,25 @@ Metals in finished sunscreens and in the titanium dioxide and zinc oxide that ma
 - [[sources/fda2019-sunscreen-proposed-rule-84fr6204]], [[sources/healthcanada2026-primary-sunscreen-monograph]] - US proposed GRASE rule and Canadian sunscreen monograph.
 - [[sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen]], [[sources/mohammed2019-zno-nanoparticle-sunscreen-repeated-application]], [[sources/gulson2016-nanoparticles-sunscreens-ichmet]], [[sources/crosera2015-tio2-nanoparticle-skin-penetration-hacat]], [[sources/pal2016-uvb-zno-nanoparticle-dermal-penetration-mouse]] - Zinc and titanium skin penetration in adult, ex vivo and animal skin.
 
+## Baby lotions, oils, and powders, September 2026
+
+Measurements and government texts for baby lotions, baby oils, and baby powders. Case reports of lead-oxide folk powders and an edible-oil survey are context, not commercial baby product measurements.
+
+- [[sources/yaghi2026-baby-powder-benghazi-libya]] - Sixteen baby talcum powders, Benghazi, 2024. Six metals by flame AAS, mg/kg as sold. Several table and prose conflicts are flagged.
+- [[sources/omenka2016-personal-care-products-ibadan]] - Thirty-five personal care products, Ibadan. Two baby powders and four baby petroleum jellies. One baby powder lead result corroborated across three laboratories.
+- [[sources/szcc2020-infant-powders-shenzhen-consumer-council]] - News report of a 2020 Shenzhen Consumer Council test of 20 infant powders. Maxima and counts only.
+- [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]] - News report of a 2019 Chinese national non-compliance notice. Two children's powders with lead above 10 mg/kg on re-test.
+- [[sources/leadsafemama2025-baby-lotion-single-lot]] - One baby lotion lot reported non-detect for four metals. Summary graphic only.
+- [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas]] - Undergraduate report excerpt. Eight talcum powders, digest-solution mg/L, not convertible to mg/kg.
+- [[sources/duan2023-infant-lead-poisoning-topical-powder]] - Case report. A lead-containing traditional powder used by a breastfeeding mother. Not a baby product measurement.
+- [[sources/karwowski2016-folk-diaper-powder-infant-lead]] - Abstract only. A folk diaper powder with 62% lead by weight.
+- [[sources/islam2024-edible-fats-oils-bangladesh]] - Edible oils including mustard oil. Context only; no skin-application data.
+- [[sources/cfr2025-21cfr73-1550-talc-color-additive]] - US federal lead and arsenic specification for talc used to colour drugs, measured in an acid extract.
+- [[sources/jecfa2003-talc-ins553iii-specification]] - FAO/WHO food-additive specification for talc. Lead 2 mg/kg.
+- [[sources/healthcanada2024-diaper-rash-products-monograph]] - Canadian diaper rash monograph. Classifies powder, oil, and ointment ingredients. No metal values.
+
+Existing records updated with facts from this collection: [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]], [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]], [[sources/stone2021-wa-metals-childrens-consumer-products]], [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], [[sources/healthcanada2015-natural-health-products-quality-guide]], [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], and [[sources/wa-tfca-hb1047-2023]].
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -122,9 +141,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 19 sources added; 1 section added; narrative text revised |
 | [e1381cf01](https://github.com/paleofoundation/heavymetalindex/commit/e1381cf01) | 2026-09-26 | major | 9 sources added; 1 section added; narrative text revised |
 | [d6c50ecc4](https://github.com/paleofoundation/heavymetalindex/commit/d6c50ecc4) | 2026-09-11 | major | 17 sources added; 1 section added; narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 <!-- END: hmi-page-history -->

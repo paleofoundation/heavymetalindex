@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-lotion-cream
 public_page: products/baby-lotion-cream
-updated: 2026-06-14
+updated: 2026-09-26
 ---
 
 # Workbench standards snapshot — Baby Lotion / Baby Cream
@@ -20,8 +20,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 1 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]] | as-sold |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 1 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]] | as-sold |
 
 ## Clean and dirty designation
 
@@ -29,15 +29,15 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Arshad 2020 (as-sold, n=1) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Arshad 2020 (as-sold, n=1) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10000 ug/kg (hc_cosmetic_pb_10ppm). |
+| [[metals/cadmium\|Cd]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 3000 ug/kg (hc_cosmetic_cd_3ppm). |
 
 ## Operational reminders
 

@@ -5,12 +5,14 @@ cite_key: arshad2020-heavy-metals-cosmetic-products-pakistan
 title: "Evaluation of heavy metals in cosmetic products and their health risk assessment"
 authors: [Arshad H, Mehmood MZ, Shah MH, Abbasi AM]
 year: 2020
-publication: "Saudi Pharmaceutical Journal 28(2020):779-790"
+publication: "Saudi Pharmaceutical Journal 28(7):779-790"
 doi: 10.1016/j.jsps.2020.05.006
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Evaluation_of_heavy_metals_in_cosmetic_products_and_their_health_risk_assessment.pdf"
+raw_files: [{path: "raw/studies/baby-lotions-oils-powders/Arshad_2020_heavy_metals_cosmetics_health_risk_SaudiPharmJ.pdf", sha256: "019cb9ac95b8ee0f045d12c26acfaf390d2239754c61633ead1001adef27b7d7", note: "PMC7335825 copy received 2026-09-26; the earlier raw_path copy was not hashed"}]
+raw_sha256: 019cb9ac95b8ee0f045d12c26acfaf390d2239754c61633ead1001adef27b7d7
 metals: [Cd, Cr, Fe, Ni, Pb]
 ingredients: []
 products: ["[[products/children-personal-care]]", "[[products/baby-lotion-cream]]", "[[products/childrens-makeup]]", "[[products/skin-lightening-cream]]", "[[products/lipstick]]"]
@@ -22,9 +24,17 @@ sample_population: "189 cosmetic samples (63 unique brands × 3 triplicates) fro
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-09-26
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
+evidence_fitness:
+  supports:
+    - triplicate-mg-per-kg-means-of-cd-cr-fe-ni-pb-in-63-cosmetics-including-30-lotions-one-baby-lotion-and-one-petroleum-jelly
+    - category-means-and-ranges-for-six-cosmetic-classes
+  does_not_support:
+    - the-table-2-lotion-nickel-mean-or-the-lotion-maximum-chromium-which-conflict-with-table-1
+    - hexavalent-chromium
+    - detection-limits-for-bdl-cells
 ---
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
@@ -43,6 +53,15 @@ This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-leve
 | Min | 0.007 | 0.008 | 0.271 | 0.012 | 0.068 |
 | Mean | 0.257 | 0.283 | 2.140 | 2.592 | 2.809 |
 | SE | 0.015 | 0.009 | 0.070 | 0.076 | 0.091 |
+
+Two lotion-group samples fall in the baby lotion and petroleum jelly scope. Values are Table 1 means ± SD of triplicate, mg/kg, as-sold. Brands are not named on this page.
+
+| Code | Product type | Cd | Cr | Fe | Ni | Pb |
+|---|---|---:|---:|---:|---:|---:|
+| L19 | baby lotion | 0.27 ± 0.02 | 0.67 ± 0.03 | 2.01 ± 0.72 | 6.16 ± 0.33 | 7.94 ± 0.10 |
+| L23 | petroleum jelly | bdl | bdl | 0.34 ± 0.05 | 2.35 ± 0.29 | 1.49 ± 0.03 |
+
+L19 has the second-highest lead and the second-highest cadmium among the 30 lotions. The Table 1 Mean row reproduces as the mean of detected cells for Cd, Cr, and Ni and as the mean of all 30 cells for Fe and Pb. The lotion Max row prints Cr 1.00 mg/kg, while the highest lotion Cr cell is L20 at 0.69 ± 0.02 and the text names L20 as the maximum; the 1.00 figure is not used. Table 2 prints lotion Ni as 3.0 ± 0.1 mg/kg, while the Table 1 mean is 2.592; the Table 2 figure is not used. The results text attributes the lowest lotion iron, 0.27 ± 0.19 mg/kg, to L23 imported from South Africa, but in Table 1 that value belongs to L7 (South Africa) and L23 (Pakistan) prints 0.34 ± 0.05. The text gives L1 cadmium as 2.13 ± 0.15, the Table 1 cell as 2.1 ± 0.2. Detection limits for bdl are not printed. The sunblock group includes one spray sunscreen labelled for babies (S5): Cd 0.12 ± 0.01, Cr 0.47 ± 0.03, Fe 2.31 ± 0.28, Ni 7.18 ± 0.48, Pb 6.53 ± 0.27 mg/kg.
 
 Highest category values in lotions: Cd 2.13 mg/kg, Cr 1.00 mg/kg, Fe 7.01 mg/kg, Ni 6.29 mg/kg, Pb 8.29 mg/kg. Pb ranged 0.068–8.29 mg/kg across brand-coded lotion samples.
 
@@ -154,6 +173,7 @@ Microbiome: Not addressed.
   - Removed cross-source synthesis claim "most comprehensive Cat 2 cosmetic-occurrence source ingested to date" — per Part 9, source pages do not compare this paper to other sources.
   - Corrected "45.42 mg/kg" foundation Fe Max to "45.4 mg/kg (±12.0 SD)" matching Table 1 F1 row precision exactly.
 - Added PerkinElmer AAnalyst 700 instrument vendor and NIST SRM 1515 reference material to Methods (Part 12 Exception 2 — scientific reproducibility).
+- 2026-09-26 baby lotions, oils, and powders collection: a second copy of the article (PMC7335825) was received and hashed. Added the L19 baby lotion and L23 petroleum jelly rows, read from the Table 1 text layer and checked against a 170 dpi render of page 782, the Table 1 mean convention, the unresolved Table 1 versus Table 2 and Max-row conflicts, and the issue number 7 from Crossref. Corresponding author Arshad Mehmood Abbasi (arshad799@yahoo.com, amabbasi@cuiatd.edu.pk). No earlier value on this page changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -162,9 +182,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | minor | Narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

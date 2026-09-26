@@ -15,11 +15,18 @@ raw_sha256: "91f4bde3389be23a2cac9cb6e4be7d303f9f4b6858c84709974c8f42bc168f93"
 access_url: "https://www.openagrar.de/servlets/MCRFileNodeServlet/openagrar_derivate_00027138/Bund2017_Article_TechnicallyAvoidableHeavyMetal.pdf"
 metals: [Pb, Cd, tHg, tAs, Sb]
 ingredients: []
-products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]
+products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]", "[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]", "[[products/baby-lotion-cream]]", "[[products/baby-oil]]"]
 matrices: [cosmetic-products, toothpaste, decorative-cosmetics]
 jurisdictions: [DE]
 near_duplicates: []
 updated: 2026-09-26
+evidence_fitness:
+  supports:
+    - german-orientation-values-for-technically-avoidable-lead-cadmium-mercury-arsenic-and-antimony-in-cosmetics-including-baby-powder
+    - the-monitoring-basis-of-those-values
+  does_not_support:
+    - a-statutory-maximum-level
+    - the-underlying-per-sample-monitoring-data
 ---
 
 This BVL announcement/report gives German orientation values for technically avoidable heavy-metal contents in cosmetic products. It explains that EU Cosmetics Regulation 1223/2009 prohibits listed heavy metals as intentional ingredients while Article 17 allows unintended trace presence only when technically unavoidable under good manufacturing practice and safe for human health.
@@ -40,7 +47,9 @@ Table 1 (printed p. 52) is an image in the PDF; the values below were read from 
 
 The values rest on the German Monitoring Scheme of 2010 to 2012. It analysed 1,735 samples of baby powder, lipstick, lip rouge, lip powder, lip liner, mascara, eyelid line, eye liner, kajal, eye shadow, tinted cream, camouflage, rouge, theatre, fan or carnival make-up, children's toothpaste and toothpaste. They were digested with the official pressure-digestion method K 84.00-29 and recalculated by the lower-bound method. For products other than the listed decorative groups, the 90th percentile of lead was below 2 mg/kg and the 90th percentile of antimony was below 0.5 mg/kg. For cadmium and mercury the 90th percentile was significantly below 0.1 mg/kg. For arsenic it was 0.5 to 0.9 mg/kg (printed p. 52). Diaper creams and other leave-on creams with high mineral content were not a named product group. Sunscreens are cosmetic products in the EU, so the "cosmetic products in general" column is the one that applies to them, although sunscreens were not among the monitored groups. The announcement replaces the 1985 and 1990 Federal Health Office values, which the Commission for Cosmetics considered outdated in 2005. The printed contact is 105@bvl.bund.de.
 
-The article is open access under CC BY 4.0. Crossref records first online publication on 6 October 2016, in the 2017 volume (12(1):51-53). A copy received on 2026-09-26 in a diaper-cream source collection is byte-identical to the archived file (same SHA-256).
+The article is open access under CC BY 4.0. Crossref records first online publication on 6 October 2016, in the 2017 volume (12(1):51-53). A copy received on 2026-09-26 in a diaper-cream source collection is byte-identical to the archived file (same SHA-256). The file received the same day in the baby lotions, oils, and powders collection is the same bytes.
+
+Baby powder is among the monitored product groups and falls under the general values, not the higher make-up powder lead value. The values apply to baby lotions, oils, and powders sold as cosmetics in Germany. A 2020 Shenzhen Consumer Council test of infant powders used them as its benchmark (see [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -49,6 +58,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 1 source added; 2 sections added; narrative text revised |
 | [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added |
 | [19f96492d](https://github.com/paleofoundation/heavymetalindex/commit/19f96492d) | 2026-08-06 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

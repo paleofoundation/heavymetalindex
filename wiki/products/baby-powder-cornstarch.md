@@ -16,16 +16,16 @@ variant_type: clean_benchmark
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-09-26
 literature_scope: thin
-sources: 4
+sources: 11
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Powder, Cornstarch-Based
 
 ## Overview
 
-Cornstarch-based baby powder (Johnson's reformulated 2020+ product, generic cornstarch baby powders). Clean baseline of the Row 3 / Row 4 clean-contaminated pair: cornstarch carries no platform metal load, in contrast to talc.
+Cornstarch-based baby powder, including talc-free baby powders reformulated with corn starch. Clean baseline of the Row 3 / Row 4 clean-contaminated pair: cornstarch carries no platform metal load, in contrast to talc.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 3. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
@@ -60,15 +60,21 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | powder (summary-only / supporting context) | No headline range. Grey literature: news-reported compliance test; method not printed: maximum 3500 ppb, not a headline figure | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/cadmium\|Cd]] | powder (summary-only / supporting context) | No headline range. Grey literature: news-reported compliance test; method not printed: maximum 310 ppb, not a headline figure | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
 | [[metals/nickel\|Ni]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/chromium\|Cr]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+No source in the corpus reports metal concentrations for individually identified corn-starch baby powders.
+
+A 2020 Shenzhen Consumer Council test (grey literature: a news report of a compliance test, method not printed; these maxima are not headline figures) of 20 infant powders, reported in the press, found all within the Chinese national standard. The four samples above the German technically avoidable values were all plant-starch powders without talc. The maxima across all 20 samples were lead 3.5, arsenic 0.87, and cadmium 0.31 mg/kg; one sample exceeded the German values for all three metals. Per-sample values were not obtained. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
+
+A Washington State Department of Ecology survey analysed one baby powder of unstated formulation, with printed values of total chromium 2.2, cobalt 0.4, lead 0.4, and molybdenum 0.2 ppm, below the survey plans' 1.0 ppm reporting limit. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+In Canada, corn starch (10 to 98%) and kaolin are natural health product ingredients under the Diaper Rash Products Monograph, and powder is a permitted dosage form only in that class [[sources/healthcanada2024-diaper-rash-products-monograph]]. Such products follow the topical limits of the Quality of Natural Health Products Guide: arsenic 3, cadmium 3, lead 10, total mercury 1, antimony 5 ppm [[sources/healthcanada2015-natural-health-products-quality-guide]]. Corn-starch baby powders sold as cosmetics fall under Health Canada's cosmetics guidance (same five values) [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], the German BVL orientation values for cosmetics in general [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], and the Washington lead prohibition at 1 ppm [[sources/wa-tfca-hb1047-2023]].
 
 ## Broad Product Context: Author-Scope Index
 
@@ -98,6 +104,20 @@ This page reports what the peer-reviewed and government literature says about he
 
 Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/szcc2020-infant-powders-shenzhen-consumer-council|20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report]]<span class="hmi-ref-meta">Yang L and Tan A · 南方都市报 (Southern Metropolis Daily), 南都鉴定, 2020-06-19, by 杨丽云 and 谭嫒婷, reporting a Shenzhen Consumer Council comparative test · 2020 · [m.mp.oeeee.com](https://m.mp.oeeee.com/a/BAAFRD000020200619336708.html)</span><span class="hmi-ref-tag">News</span>
+2. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>
+3. [[sources/healthcanada2024-diaper-rash-products-monograph|Diaper Rash Products Monograph]]<span class="hmi-ref-meta">Health Canada, Natural and Non-prescription Health Products Directorate · Health Products and Food Branch monograph dated 2024-02-23, replacing the Diaper Rash Products Monograph of 7 December 2018 · 2024 · [webprod.hc-sc.gc.ca](https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/mono_diaper-rash-products_english.pdf)</span><span class="hmi-ref-tag">Regulation</span>
+4. [[sources/healthcanada2015-natural-health-products-quality-guide|Quality of Natural Health Products Guide]]<span class="hmi-ref-meta">Health Canada Natural and Non-prescription Health Products Directorate · 2015 · [www.canada.ca](https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/legislation-guidelines/guidance-documents/quality-guide.html)</span><span class="hmi-ref-tag">Regulation</span>
+5. [[sources/healthcanada2012-cosmetics-heavy-metal-impurities|Guidance on Heavy Metal Impurities in Cosmetics]]<span class="hmi-ref-meta">Health Canada · 2012 · [www.hc-sc.gc.ca](http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php)</span><span class="hmi-ref-tag">Guidance</span>
+6. [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics|Technically avoidable heavy metal contents in cosmetic products]]<span class="hmi-ref-meta">German Federal Office of Consumer Protection and Food Safety · Journal of Consumer Protection and Food Safety · 2017 · [doi.org/10.1007/s00003-016-1044-2](https://doi.org/10.1007/s00003-016-1044-2)</span><span class="hmi-ref-tag">Regulation</span>
+7. [[sources/wa-tfca-hb1047-2023|Washington State Toxic-Free Cosmetics Act (HB 1047) — statutory cap on heavy metals in cosmetic products]]<span class="hmi-ref-meta">Washington State Legislature · Washington State Session Laws, Chapter 455, Laws of 2023 (2023 c 455), codified as Chapter 70A.560 RCW · 2023 · [app.leg.wa.gov](https://app.leg.wa.gov/billsummary?BillNumber=1047&Year=2023&Initiative=false)</span><span class="hmi-ref-tag">Regulation</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -106,19 +126,22 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | EU Pb, tHg occurrence in Not applicable. This is a Council of Europe Committee of Ministers Resolution (CM/ResAP (2012) 1) supplemented by the... |
-| 2 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
+| 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | US Sb, tAs, Cd, Cr, Co, Cu, Pb, tHg, Mo, Zn occurrence in 150 component samples submitted for laboratory metals analysis, sub-sampled from 101 children's products purchased from local Washington stores... (n=150) |
+| 3 | [[sources/szcc2020-infant-powders-shenzhen-consumer-council\|Yang et al. 2020]]. *20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report*, 南方都市报 (Southern Metropolis Daily), 南都鉴定, 2020-06-19, by 杨丽云 and 谭嫒婷, reporting a Shenzhen Consumer Council comparative test | 2020 | News | CN Pb, tAs, Cd occurrence in Twenty infant powders (14 domestic, 6 imported) bought through ordinary retail channels by council staff acting as consumers.... (n=20) |
+| 4 | [[sources/healthcanada2012-cosmetics-heavy-metal-impurities\|Canada 2012]]. *Guidance on Heavy Metal Impurities in Cosmetics*, Health Canada Consumer Product Safety guidance | 2012 | Government guidance | CA/DE/US Pb, tAs, Cd, tHg, Sb occurrence in Health Canada cosmetic-impurity guidance based on toxicology review, comparison with other program limits, German technical-avoidability limits, and Health... |
+| 5 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [4aaf41269](https://github.com/paleofoundation/heavymetalindex/commit/4aaf41269) | 2026-09-26 | major | 1 source removed; narrative text revised |
+| [bc6f17fdb](https://github.com/paleofoundation/heavymetalindex/commit/bc6f17fdb) | 2026-09-26 | major | 8 sources added; 1 section added; narrative text revised |
+| [11991f11f](https://github.com/paleofoundation/heavymetalindex/commit/11991f11f) | 2026-09-26 | major | 8 sources added; narrative text revised |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

@@ -1,7 +1,7 @@
 ---
 title: Synthesis
 type: synthesis-index
-updated: 2026-09-25
+updated: 2026-09-26
 audience: [regulator, educator, consumer, brand-legal]
 ---
 
@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Heavy metals in baby lotions, oils, and powders](/synthesis/heavy-metals-in-baby-lotions-oils-and-powders) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Al, Cu, Sn, Sb | 7 | 2026-09-26 |
 | [Heavy metals in mineral baby sunscreens](/synthesis/heavy-metals-in-mineral-baby-sunscreens) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb, Ti, Zn | 7 | 2026-09-26 |
 | [Heavy metals in diaper creams](/synthesis/heavy-metals-in-diaper-creams) | Pb, Cd, tAs, tHg | 7 | 2026-09-26 |
 | [Heavy metals in baby wipes](/synthesis/heavy-metals-in-baby-wipes) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb | 7 | 2026-09-25 |

@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-260 open item(s): 90 auto, 170 awaiting a decision.
+264 open item(s): 93 auto, 171 awaiting a decision.
 
 ### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
 
@@ -523,12 +523,26 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Karen decides whether TiO2 and ZnO get ingredient pages (Part 10 page creation); If created, SCCS and raw-material sources declare the ingredient and routing audit shows 0 unresolved
 - decision: **DEFER: Karen 2026-09-26 - not now; the mineral baby sunscreens synthesis paper will cover ZnO and TiO2 as the main route metals enter mineral sunscreens.**
 
+### OI-20260926-wa-tfca-regulation-page-missing — Register row wa_tfca_pb_cosmetics_general_1000 points to regulations/washington-tfca-cosmetics-pb-1ppm, which does not exist
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/`
+- repro: ls wiki/regulations shows washington-tfca-toothpaste-pb-1000ppb.md but no washington-tfca-cosmetics-pb-1ppm.md.
+- done when: Either the regulation page exists or the register row points to an existing page
+
 ### OI-20260926-unrelated-routing-flips-after-prebuild — Running npm run prebuild on main flips 20 unrelated routing-audit rows from missing_direct_product_route to source_on_page_no_structured_value
 
 - scope: **auto** · type: finding · status: open · repo: index
 - paths: `data/evidence/product_source_routing_audit.csv`
 - repro: On the mineral-baby-sunscreens branch, prebuild regenerated product-page source legends; the routing audit then flipped these unrelated (product,source) rows: fish-containing-baby-foods,abbas2023-sparus-aurata-egypt-metals;infant-formula-powder-soy,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,cantoral2024-lead-levels-mexican-foods;infant-rice-cereal,carey2018-rice-dilution-infant-food-eu-arsenic;infant-rice-cereal,efsa2024-risk-assessment-iAs-update;infant-rice-cereal,fda2016-arsenic-rice-cereal-analytic-results;infant-rice-cereal,fda2016-arsenic-rice-risk-assessment;infant-rice-cereal,fda2018-iAs-infant-rice-cereals-fy2018;teething-and-snacks-rice-based,jackson2012-arsenic-organic-foods-brown-rice-syrup;fruit-purees,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-non-soy,pandelova2012-eu-baby-food-formula-elements;infant-formula-rtf-liquid-soy-based,pandelova2012-eu-baby-food-formula-elements;mixed-meals-non-rice,pandelova2012-eu-baby-food-formula-elements;mixed-meals-rice-containing,pandelova2012-eu-baby-food-formula-elements;non-root-vegetable-purees,pandelova2012-eu-baby-food-formula-elements;infant-rice-cereal,seyfferth2025-rice-water-management-as-hg-cd;pickled-fermented-vegetables,shavali-gilani2025-canned-tomato-olive-pickle-iran;infant-formula-powder-soy-based,soto-ocana2024-metal-availability-early-life-microbiome;infant-rice-cereal,su2023-arsenic-brown-rice-benefits-risks;infant-rice-cereal,wehmeier2023-ias-rice-cola-field-method. Not committed in the sunscreen ingest (instruction: log, do not commit unrelated flips).
 - done when: Regenerate product pages and routing audit together on main and commit as one generated-output change; routing audit shows 0 unresolved and 0 malformed
+
+### OI-20260926-stale-product-legends-routing-flips — A full build regenerates source legends on unrelated product pages and flips their routing rows from missing_direct_product_route to source_on_page
+
+- scope: **auto** · type: promote · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`, `wiki/products/fruit-purees.md`, `wiki/products/infant-rice-cereal.md`, `wiki/products/pickled-fermented-vegetables.md`, `wiki/products/infant-formula-powder-soy-based.md`
+- repro: On main at 666ce55cd plus the baby lotions, oils, and powders branch, npm run build regenerated legends on product pages outside that ingest and flipped 20 routing rows for pandelova2012-eu-baby-food-formula-elements, seyfferth2025-rice-water-management-as-hg-cd, shavali-gilani2025-canned-tomato-olive-pickle-iran, soto-ocana2024-metal-availability-early-life-microbiome, su2023-arsenic-brown-rice-benefits-risks and wehmeier2023-ias-rice-cola-field-method. The same build also adds shin2004-disposable-diaper-heavy-metals to source_contract_gaps.json. These were not committed with that ingest. A second full build on 2026-09-26 also flipped rows for abbas2023-sparus-aurata-egypt-metals, cantoral2024-lead-levels-mexican-foods, carey2018-rice-dilution-infant-food-eu-arsenic, efsa2024-risk-assessment-iAs-update, fda2016-arsenic-rice-cereal-analytic-results, fda2016-arsenic-rice-risk-assessment, fda2018-iAs-infant-rice-cereals-fy2018 and jackson2012-arsenic-organic-foods-brown-rice-syrup. A standards-gap regeneration also rewrites baby-wipes and other rows of hmtc_standards_gap_report.csv that are stale on main.
+- done when: A dedicated regeneration commit brings those product-page legends and the routing audit to their generated state; npm run build then leaves product_source_routing_audit.csv unchanged
 
 ### OI-20260926-routing-audit-product-page-cites-flips — Routing audit flips product_page_cites_source to true for 14 unrelated sources after a full build
 
@@ -570,6 +584,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A clean-main npm run prebuild is committed as its own regeneration commit, or the drift is shown to be deterministic noise and the generators are fixed
 - notes: CREAMS-INGEST-1 committed only authored files, the routing audit rows for its own sources, and the three product pages whose legends it changed.
 
+### OI-20260926-pine-pollen-powder-unmapped — Infant pine-pollen skin powder (China 2019 re-test, Pb 19.45 mg/kg) is not mapped to any product row
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/cnpharm2019-nmpa-notice-childrens-powder-lead.md`
+- repro: Decision 2026-09-26: a plant pollen is not starch, so the value was removed from baby-powder-cornstarch and left unmapped. It stays in the number ledger (BLOP-1266) and on the source page.
+- done when: A future taxonomy decision either keeps it unmapped or names a destination row
+- decision: _pending_
+
 ### OI-20260926-peer-review-footer-em-dashes — build-peer-review-footers.mjs injects em dashes into every synthesis peer-review block, against the no-em-dash house rule
 
 - scope: **human-gated** · type: code-fix · status: open · repo: index
@@ -577,6 +599,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: npm run prebuild rewrites the hmi-peer-review block on every wiki/synthesis/*.md to canonical text containing em dashes ('preprints — before external review completes —'); it overwrites the clean committed wording on baby-wipes and mineral-baby-sunscreens.
 - done when: build-peer-review-footers.mjs footer text contains no em or en dashes; re-running prebuild leaves synthesis peer-review blocks em-dash-free
 - decision: _pending_
+
+### OI-20260926-not-material-integrity-parser-first-product — audit-not-material-integrity.mjs reads only the first product of a source products: list
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/audit-not-material-integrity.mjs`
+- repro: The frontmatter reader uses the regex ^products:\s*\[(.*?)\] which stops at the first ] inside the first [[products/...]] wikilink. healthcanada2015-natural-health-products-quality-guide routes to baby-powder-cornstarch, diaper-cream-zno and diaper-cream-non-zno, but only baby-powder-cornstarch was checked.
+- done when: All products in an inline wikilink list are parsed; KEEP_CITE rows already recorded for the other two topical rows keep the output unchanged for this source; npm test passes
 
 ### OI-20260926-diaper-cream-missing-primary-texts — Retrieve the diaper-cream primary texts that were not obtained
 

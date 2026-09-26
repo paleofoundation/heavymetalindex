@@ -13,10 +13,11 @@ evidence_tier: A
 license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_may31_cat13_cosmetics/cat13_cosmetics/paper_18_unknown.pdf"
 raw_sha256: "e1b9bcca7986f1e7644b871c3e9c34de7b266caae503ad205e0506dd1f606ed9"
+raw_files: [{path: "raw/studies/baby-lotions-oils-powders/HealthCanada_heavy_metal_impurities_cosmetics_guidance.pdf", sha256: "0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138", note: "canada.ca page printed 2026-09-25; date modified 2017-10-02"}]
 access_url: "http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php"
 metals: [Pb, tAs, Cd, tHg, Sb]
 ingredients: []
-products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]
+products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]", "[[products/baby-lotion-cream]]", "[[products/baby-oil]]", "[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]"]
 matrices: [cosmetics, cosmetic-impurities, regulatory-guidance, toothpaste]
 jurisdictions: [CA, DE, US]
 library_files: ["raw/studies/diaper-creams-2026-09-25/healthcanada2012-cosmetics-heavy-metal-impurities.pdf (web copy, date modified 2017-10-02, sha256 0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138)"]
@@ -30,6 +31,12 @@ additional_raw_copies:
   - path: "raw/studies/mineral-baby-sunscreens-2026-09/healthcanada2012-cosmetics-heavy-metal-impurities.pdf"
     sha256: 0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138
     note: "Web page printed 2026-09-25; date modified 2017-10-02"
+evidence_fitness:
+  supports:
+    - health-canada-technically-avoidable-impurity-limits-for-lead-arsenic-cadmium-mercury-and-antimony-in-cosmetics
+  does_not_support:
+    - occurrence-data-because-the-laboratory-results-are-not-printed
+    - limits-for-natural-health-products-or-drugs
 ---
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
@@ -42,6 +49,7 @@ Health Canada issued this guidance to communicate technically avoidable impurity
 
 - Document identity: `Guidance on Heavy Metal Impurities in Cosmetics`, effective date `2012-07-20`, date modified `2016-02-29`. A later copy of the same web page, printed 2026-09-25 and showing "Date modified: 2017-10-02", carries the same five limits, effective date and mercury footnote (PDF pp. 11, 12 and 15 of that copy).
 - Scope for sunscreens: in Canada, primary sunscreens are licensed as natural health products or non-prescription drugs under the Primary Sunscreen Monograph, whose finished-product specifications follow the NNHPD Quality of Natural Health Products Guide; that guide's topical limits (arsenic 3, cadmium 3, lead 10, total mercury 1, antimony 5 ppm) are numerically the same as these cosmetic limits. See [[sources/healthcanada2026-primary-sunscreen-monograph]] and [[sources/healthcanada2015-natural-health-products-quality-guide]].
+- Scope for baby lotions, oils, and powders: the policy applies to cosmetics in general, which includes baby lotions, baby oils, and baby powders sold as cosmetics in Canada. Products authorised as natural health products or non-prescription drugs (for example diaper-rash powders and ointments) fall outside it.
 - Scope: the guidance focuses on heavy metals with known significant toxicological properties in cosmetics: lead, arsenic, cadmium, mercury, and antimony.
 - Unit definitions in the source: `1 ppb = 1 µg/kg = 1 µg/L`; `1 ppm = 1µg/g, 1 mg/kg, 1 mg/L`.
 - Health Canada policy limits for cosmetic-product impurities: lead `10 ppm`; arsenic `3 ppm`; cadmium `3 ppm`; mercury `1 ppm`; antimony `5 ppm`.
@@ -102,6 +110,7 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 - Diaper-cream routing (2026-09-26): products now names both diaper-cream rows. A zinc oxide diaper cream sold in Canada as a cosmetic falls under this guidance. Licensed zinc oxide diaper-rash products are natural health products, whose topical limits in the NNHPD Quality Guide are numerically identical.
 - Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
 - Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
+- 2026-09-26 baby lotions, oils, and powders collection: a later copy (date modified 2017-10-02) was received and hashed. No limit differs. The source is now routed to the four baby lotion, oil, and powder product rows as regulatory context, because the guidance covers all cosmetics.
 - Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
 
 <!-- BEGIN: hmi-page-history -->
@@ -111,9 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | minor | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
 | [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
