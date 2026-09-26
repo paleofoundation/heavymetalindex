@@ -14,9 +14,9 @@
     {
       "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
       "intake_date": "2026-09-26",
-      "sha256": "5eb1b0f59fa81fc8e251f4634f0c28db9fa889dac673aa3bd94d22894ecc0b80",
+      "sha256": "adbf414c6d8a1dde8edbbf9f07e5e7a0bb9e748548ff6802c0ce6900db8a4974",
       "cluster_count": 12,
-      "fitness_classification": "Primary PDF text layers support the loaded figures. The missing sealed package means no comparison to MANIFEST.csv was possible. Unverified leads do not support a legal claim."
+      "fitness_classification": "Packaged primary PDFs support the loaded figures. MANIFEST.csv printed values match those figures after the register's µg/kg conversion. Kenya TBT/KEN/2119 and Tanzania SPS/TZA/550 remain leads because basis and units are unresolved. China NHC/SAMR 2026 No. 6 and EFSA E 962 have no primary file in the package."
     }
   ],
   "event_count": 33,
@@ -2268,14 +2268,14 @@
         "state": "partial-primary",
         "verified_on": "2026-09-26",
         "confidence": "low",
-        "notes": "The draft PDF was read. Basis and units are not consistent across the substance tables, so no numeric row was loaded."
+        "notes": "The packaged draft PDF (sha256 e16694a5950eaa5342fe9757f8a0b0d2642fb70c9f5f32abe28467e9082a5b23) was read. The guideline prints ppm figures whose extractable-versus-total basis is not stated, so no numeric row was loaded."
       },
       "disposition": "unverified-gap",
       "article_slugs": [],
       "summary": "G/TBT/N/KEN/2119 circulates DARS 1590:2026, a guideline on banned or restricted substances in textiles and apparel. The text mixes units and does not state one basis. No numeric limit was loaded. Comments close on 23 November 2026.",
       "obligations": [],
       "gaps": [
-        "Basis and units are unresolved. No value from DARS 1590:2026 is in the regulatory limit register."
+        "Basis and units are unresolved in DARS 1590:2026. The sealed package confirms the same gap. No value is in the regulatory limit register."
       ],
       "public_eligible": false
     },
@@ -2285,7 +2285,8 @@
       "cluster": 10,
       "title": "Tanzania fish-nugget notification remains a lead",
       "instrument_ids": [
-        "g-sps-n-tza-550"
+        "g-sps-n-tza-550",
+        "dars-1779-2026"
       ],
       "jurisdictions": [
         "Tanzania"
@@ -2303,33 +2304,39 @@
         "fish nuggets"
       ],
       "event_type": "monitoring",
-      "status": "monitor-only",
+      "status": "consultation",
       "dates": {
         "adopted": null,
-        "published": null,
+        "published": "2026-09-25",
         "effective": null,
         "transition": null,
-        "consultation_close": null,
-        "next_review": "2026-11-30"
+        "consultation_close": "2026-11-24",
+        "next_review": "2026-11-25"
       },
-      "official_sources": [],
+      "official_sources": [
+        {
+          "title": "DARS 1779:2026, Fish Nuggets, Specification, attachment to G/SPS/N/TZA/550",
+          "url": "https://members.wto.org/crnattachments/2026/SPS/TZA/26_05032_00_e.pdf",
+          "kind": "draft-standard"
+        }
+      ],
       "hmi_routes": {
         "regulations": [],
         "sources": [],
         "regulatory_limit_ids": []
       },
       "verification": {
-        "state": "unverified",
+        "state": "partial-primary",
         "verified_on": "2026-09-26",
         "confidence": "low",
-        "notes": "The WTO notification file and the draft standard were not in the workspace and were not fetched for value extraction. Basis and units were already marked unresolved."
+        "notes": "G/SPS/N/TZA/550 is dated 25 September 2026 and names the attachment. Table 4 of DARS 1779:2026 prints a drafting note that the unit is still to be checked, and cadmium is printed as a range. No numeric row was loaded."
       },
       "disposition": "unverified-gap",
       "article_slugs": [],
-      "summary": "G/SPS/N/TZA/550, described as a fish-nugget specification, is logged as a lead. No numeric limit was loaded because the basis and units are unresolved and the primary text was not verified in this intake.",
+      "summary": "G/SPS/N/TZA/550, dated 25 September 2026, circulates DARS 1779:2026 for fish nuggets. Table 4 prints heavy-metal figures, and its caption says the unit is still to be checked. Cadmium is printed as a range. No numeric limit was loaded. Comments close on 24 November 2026.",
       "obligations": [],
       "gaps": [
-        "Retrieve the WTO notification and DARS text. Do not load a number until basis and units are stated in that primary."
+        "Table 4 caption of DARS 1779:2026 says the unit is still to be checked, and cadmium is printed as a range. No value is in the regulatory limit register."
       ],
       "public_eligible": false
     },
@@ -2377,14 +2384,14 @@
         "state": "unverified",
         "verified_on": "2026-09-26",
         "confidence": "low",
-        "notes": "No primary text was in the intake package and none was fetched. No number was loaded."
+        "notes": "The sealed package records this item as not obtained. No primary file is in the package. No number was loaded."
       },
       "disposition": "unverified-gap",
       "article_slugs": [],
-      "summary": "A claimed China NHC/SAMR 2026 No. 6 item is logged as a lead. No numeric limit was loaded because the primary text was not verified.",
+      "summary": "A claimed China NHC/SAMR 2026 No. 6 item is logged as a lead. The sealed package contains no primary for it. No numeric limit was loaded.",
       "obligations": [],
       "gaps": [
-        "Obtain the NHC/SAMR primary before any limit row is written."
+        "The sealed package does not contain an NHC/SAMR primary. Obtain that text before any limit row is written."
       ],
       "public_eligible": false
     },
@@ -2431,14 +2438,14 @@
         "state": "unverified",
         "verified_on": "2026-09-26",
         "confidence": "low",
-        "notes": "No EFSA primary was in the intake package and none was fetched. No number was loaded."
+        "notes": "The sealed package records this item as not obtained. No EFSA primary file is in the package. No number was loaded."
       },
       "disposition": "unverified-gap",
       "article_slugs": [],
-      "summary": "A claimed EFSA E 962 item is logged as a lead. No numeric limit was loaded because the primary text was not verified.",
+      "summary": "A claimed EFSA E 962 item is logged as a lead. The sealed package contains no primary for it. No numeric limit was loaded.",
       "obligations": [],
       "gaps": [
-        "Obtain the EFSA opinion or the additive specification primary before any limit row is written."
+        "The sealed package does not contain an EFSA opinion or additive-specification primary. Obtain that text before any limit row is written."
       ],
       "public_eligible": false
     }

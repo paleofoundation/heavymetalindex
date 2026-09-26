@@ -70,6 +70,13 @@ test("14-26 Sep 2026 catch-up is hub-only and keeps leads out of the numeric reg
     assert.equal(event.article_slugs.length, 0)
   }
 
+  const nuggets = byId.get("rw-2026-31-tanzania-fish-nuggets-lead")
+  assert.equal(nuggets.verification.state, "partial-primary")
+  assert.equal(nuggets.status, "consultation")
+  assert.equal(nuggets.dates.published, "2026-09-25")
+  assert.equal(nuggets.dates.consultation_close, "2026-11-24")
+  assert.equal(nuggets.official_sources[0].url, "https://members.wto.org/crnattachments/2026/SPS/TZA/26_05032_00_e.pdf")
+
   const oxide = byId.get("rw-2026-25-tanzania-magnesium-oxide-draft")
   assert.ok(oxide.analytes.includes("As-as-As2O3"))
   assert.ok(!oxide.analytes.includes("tAs"))
