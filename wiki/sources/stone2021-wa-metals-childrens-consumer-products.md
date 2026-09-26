@@ -17,13 +17,13 @@ raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_e
 raw_sha256: 36db43e9ef72c0b4265062c9fd1c249262fea8d00be51c6ffe11dbae8c1ba3e9
 metals: [Sb, tAs, Cd, Cr, Co, Cu, Pb, tHg, Mo, Zn]
 ingredients: []
-products: ["[[products/baby-wipes]]", "[[products/bibs]]", "[[products/childrens-jewelry]]", "[[products/childrens-lip-balm-mineral-bearing]]", "[[products/childrens-makeup]]", "[[products/childrens-nail-polish]]", "[[products/face-paint]]", "[[products/infant-clothing]]", "[[products/pacifiers-and-sucking-teething-aids]]", "[[products/toothbrushes]]"]
+products: ["[[products/baby-wipes]]", "[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]", "[[products/bibs]]", "[[products/childrens-jewelry]]", "[[products/childrens-lip-balm-mineral-bearing]]", "[[products/childrens-makeup]]", "[[products/childrens-nail-polish]]", "[[products/face-paint]]", "[[products/infant-clothing]]", "[[products/pacifiers-and-sucking-teething-aids]]", "[[products/toothbrushes]]"]
 matrices: []
 jurisdictions: [US]
 near_duplicates: ["[[sources/sekerak2016-wa-childrens-jewelry]]", "[[sources/nelson2023-wa-childrens-jewelry-followup]]"]
 sample_n: 150
 sample_population: "150 component samples submitted for laboratory metals analysis, sub-sampled from 101 children's products purchased from local Washington stores and internet retailers. Concurrently, 25 packaging components from 24 packaging items were analysed for metals, and 150 components from 102 products were analysed specifically for copper and zinc (Puget Sound metals of concern). All 1,614 product, component, and packaging items were first XRF-screened with a Niton XL3t 700 analyser; components showing appreciable XRF concentration of any metal of concern were prioritised for laboratory submission. Samples were collected and analysed across four Quality Assurance Project Plans (Ecology 2012a–d) covering parabens, phthalates, formaldehyde/VOCs, and packaging analytes."
-updated: 2026-06-01
+updated: 2026-09-26
 ingest_method: manual_fetch_v2
 created_by: claude-opus-4-7
 ---
@@ -80,13 +80,25 @@ Lead, cobalt, and antimony were the most commonly detected; antimony reached the
 
 ### Children's products: highest detected values by category (Figures 3–9, p. 11–17)
 
-- **Baby and bath accessories (Figure 3, p. 11):** Sb in a baby bib at 116 ppm and a second baby bib at 99.6 ppm; mesh food sacks at 72.1 ppm Sb; body wash at 55.5 ppm Sb; baby wipes at 70.6, 61.3, and 40.6 ppm Sb; tummy play pad at 36.9 ppm Sb. Co in a baby bedtime cream at 36.9 ppm. Cr in a set of metal baby spoons at **13,600 ppm (1.36%)** — the highest single metal concentration reported in the children's-products section. Mercury at 0.3 ppm in baby spoons, baby toothbrush, and bath salts (near method detection limit).
+- **Baby and bath accessories (Figure 3, p. 11):** Sb in a baby bib at 116 ppm and a second baby bib at 99.6 ppm; mesh food sacks at 72.1 ppm Sb; body wash at 55.5 ppm Sb; baby wipes at 70.6, 61.3, and 40.6 ppm Sb; tummy play pad at 36.9 ppm Sb. Co at 36.9 ppm in sample DT033-b01, which the Figure 3 narrative calls a baby cream but which Table 4 (PDF p. 25, printed p. 19) lists as product packaging; the result describes the cream's container, not the cream (see the baby powder and packaging subsection below). Cr in a set of metal baby spoons at **13,600 ppm (1.36%)** — the highest single metal concentration reported in the children's-products section. Mercury at 0.3 ppm in baby spoons, baby toothbrush, and bath salts (near method detection limit).
 - **Clothing (Figure 4, p. 12):** Co range from low values up to **560 ppm** in clothing, with 6 of 31 clothing samples (20%) at or above 100 ppm Co — agency notes this is consistent with manufacturer-reported cobalt use as a textile dye. Sb at 121 and 128 ppm in jeans. Pb detected in every clothing sample tested, at low levels; 12 samples between 10 and 70 ppm Pb. Cr at 257 and 242 ppm, primarily in jeans. Mercury at 2.8 ppm reported in a boy's space-themed footie pajamas sample (TG023) — reason unknown per the agency narrative.
 - **Cosmetics and accessories (Figure 5, p. 13):** Co and Pb the most commonly detected CHCC metals, all at or below 35 ppm. Cr in the external pouch of one makeup pack at 157 ppm. No mercury detected.
 - **Halloween accessories (Figure 6, p. 14):** Sb, Co, and Pb at the 30–50 ppm level in several samples. Cr at 85.3 ppm in a Halloween variety makeup pack; several other samples in the 2–30 ppm Cr range. No mercury detected.
 - **Jewelry (Figure 7, p. 15):** Pb the most commonly detected CHCC metal (in all but one sample), ranging from low values up to 134 ppm in a plastic-earrings component. tAs at 125 ppm in another part of the same plastic earrings. Sb >100 ppm in two jewelry items (a character-licensed ring at 189 ppm and a pendant at 219 ppm). Cr at the highest jewelry concentrations: 441 and 432 ppm in two plastic-earring components, plus additional samples in the 100+ ppm range.
 - **Lip balm samples (Figure 8, p. 16):** Lip balm itself showed low metal levels; lip-balm containers and related components showed higher concentrations. tAs at 276 ppm in a metal chain from a keychain-and-lip-balm set; Sb at 156 ppm in a plastic tube containing lip balm; tAs at 72.5 ppm and Sb at 35.3–38.1 ppm in other component samples. Cr in three lip-balm components ranged 91–350 ppm. No Cd or Hg detected.
 - **Toy components (Figure 9, p. 17):** Sb the only CHCC metal >90 ppm, at 168 ppm in an orange stuffed-fish component and 94 ppm in a plastic squishy book. Cr at 144 ppm in a foil puzzle. No mercury detected.
+
+### Baby powder and baby-cream and petroleum-jelly packaging (Appendices 1 to 3)
+
+Three samples in the report fall in the baby lotion and powder scope. Values in ppm as printed. The report prints 0.0 in many cells and does not define it or state a reporting limit, so 0.0 is not read as zero. The companion quality assurance plans list 1.0 ppm reporting limits for Sb, As, Cd, and Pb, and printed values below that level are recorded as printed only.
+
+| Sample | What was tested | Sb | As | Cd | Cr (total) | Co | Cu | Pb | Hg | Mo | Zn | Where |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| FM006-c01 | baby powder, product component (formulation not stated) | 0.0 | 0.0 | 0.0 | 2.2 | 0.4 | 0.4 | 0.4 | 0.0 | 0.2 | 2.3 | Appendix 1, PDF p. 46 (printed p. 34); Cu and Zn Appendix 3, PDF p. 55 (printed p. 43) |
+| DT033-b01 | container of a baby cream (packaging) | 0.0 | 0.0 | 1.1 | 0.0 | 36.9 | 0.0 | 0.0 | 0.0 | 2.6 | 5.6 | Appendices 1 and 2, PDF pp. 46 and 53; Table 4, PDF p. 25 |
+| DT008-b02 | container of a petroleum jelly (packaging) | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 18.8 | Appendices 1 and 2; Table 4 |
+
+Printed page 7 (PDF p. 13) explains that samples meeting both the children's-product and packaging definitions appear in both result sets. The two "-b" samples are listed in Table 4 as packaging. No baby cream or petroleum jelly contents were analysed. The baby powder is the only baby topical product content in the report. Appendix 2 prints Zn for the jelly container as 18.80 and for the cream container as 5.60.
 
 ### Children's products: compliance outcomes (p. 17–18)
 
@@ -247,6 +259,7 @@ This study supports compliance assessment under three Washington State statutory
 - **Sample-population scope.** The wiki `sample_n` field is 150 (the laboratory children's-product sample frame, matching the agency's primary count), reported as the headline frame in the source. The 26-sample packaging frame and 149-sample Cu/Zn frame are documented in the page body and Key numbers section. The 1,614-component XRF-screened total is the upstream prioritisation pool, not the laboratory frame.
 - **Near-duplicates.** [[sources/sekerak2016-wa-childrens-jewelry]] and [[sources/nelson2023-wa-childrens-jewelry-followup]] are the 2015 baseline and 2018 follow-up surveys of children's jewelry, methodologically continuous with this 2012–2013 multi-category screening. The three studies are methodological near-duplicates and category-level continuation, not data-duplicates: separate sample frames, separate purchasing windows, separate sample IDs, separate metal-suite scopes (this study: 10 metals; Sekerak 2016 and Nelson 2023: 7 CHCC metals).
 - **Raw integrity.** raw_sha256 = 36db43e9ef72c0b4265062c9fd1c249262fea8d00be51c6ffe11dbae8c1ba3e9 verified by `shasum -a 256` against the file at `raw_path`.
+- **2026-09-26 baby lotions, oils, and powders collection.** The same PDF (identical SHA-256; filed in that collection under a 2014 file name) was received again. Added the baby powder and baby-cream and petroleum-jelly packaging rows, corrected the earlier description of DT033 as a baby cream to its Table 4 packaging identity, and routed the source to the two baby powder rows because the baby powder's formulation (talc or starch) is not stated. No other value on this page changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

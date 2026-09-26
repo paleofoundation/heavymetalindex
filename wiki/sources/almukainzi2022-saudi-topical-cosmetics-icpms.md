@@ -24,7 +24,7 @@ sample_population: "Twenty-one topical cosmetic products purchased from local ma
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
+updated: 2026-09-26
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
 ---
@@ -92,6 +92,10 @@ The source's Table 4 caption indicates gray-highlighted cells "exceeded the US F
 - **Cadmium:** USP <232> limit cited as 0.5 ppm. Source-text-stated exceedances: samples 1 (sunblock cream 4.40), 15 (deodorant 306.92), 19 (toothpaste 9.19), and 20 (toothpaste 8.80). The discussion does not list samples 5 (0.54), 11 (0.87), or 21 (0.61) despite Table 4 values that nominally exceed the 0.5 ppm cutoff; this is a paper-internal inconsistency between the discussion narrative and the table values.
 - **Copper:** USP <232> limit cited as 300 ppm. The paper states copper was below the limit in every tested product; the maximum reported value in Table 4 (sample 20 toothpaste, 269.94 ppm) is below that ceiling.
 - **Al, Fe, Zn, Mn:** No FDA or USP limit cited by the authors. The highest values for all four were concentrated in the toothpaste samples (Al up to 574,060 ppm in sample 19, equivalent to ~57% Al by mass), in mascara (Fe up to 273,733 ppm in sample 14, equivalent to ~27% Fe by mass), and in makeup powder (Fe up to 111,077 ppm in sample 12, ~11% Fe by mass). The Al and Fe magnitudes are consistent with the abrasive/pigment ingredients in the corresponding formulations (hydrated silica, calcium carbonate, iron-oxide colorants in mascara and powder makeup), but the authors do not separate inert filler from soluble impurity in their reporting and do not address the analytical implication that ICP-MS quantitation of major matrix elements is operating well outside the 5-150 ppb calibration range. See Verification notes.
+
+### Baby oil and baby powder samples
+
+Table 1 of the source lists the declared constituents of the two baby products. Sample 8, baby oil: light paraffin oil and perfume. Sample 9, baby powder: talcum powder, zinc oxide, salicylic acid, menthol, and perfume. The baby oil was digested with 5 mL nitric acid and 3 mL hydrogen peroxide, the baby powder with 7 mL nitric acid and 2 mL hydrogen peroxide (Table 2). Their Table 4 values are the rows 8 and 9 above. For both, as for nearly every product in Table 4, the printed SD is about 1.41 times the mean and the replicate count is not stated, so these means are recorded as printed and are not used as headline values. The source's discussion counts sample 9 among the six products above 20 ppm lead. Microbial counts were 1471.5 cfu/ml for the baby oil and 823.5 cfu/ml for the baby powder (Table 3), and the source states that both baby products exceeded the SCCS limit for products for children under 3 years.
 
 ### Microbial findings (briefly; not the primary HMTc-relevant data)
 
@@ -168,7 +172,7 @@ All samples passed visual inspection (no lumps, grit, discoloration, characteris
 - **Sample 16 reports zeros without ± SD.** Table 4 shows seven of eleven analytes at "0.00" with no ± SD term, alongside Al 1.83, Cr 0.05, Cu 0.06, and Fe 0.19 with similarly suppressed SD. This is consistent with the paper having reported the silicone-hair-serum values as point measurements (likely below LOQ for most analytes) rather than mean-of-replicates; transcribed as displayed.
 - **License.** "Open Access" Creative Commons Attribution 4.0 International License declared explicitly on the article's last page. `license: CC BY 4.0`.
 - **DOI verified.** DOI 10.1038/s41598-022-21771-7 printed on every page of the article and on the last-page copyright block.
-- **Authors verified against PDF byline.** May Almukainzi, Lubna Alotaibi, Anfal Abdulwahab, Nada Albukhary, Areej M. El Mahdy. Corresponding author M. Almukainzi (mkalmukainzi@pnu.edu.sa). Institutional affiliation: Department of Pharmaceutical Sciences and College of Pharmacy, Princess Nourah bint Abdulrahman University (Riyadh, Saudi Arabia); Department of Microbiology and Immunology, Faculty of Pharmacy, Mansoura University (Mansoura, Egypt).
+- **Authors verified against PDF byline.** May Almukainzi, Lubna Alotaibi, Anfal Abdulwahab, Nada Albukhary, Areej M. El Mahdy. Corresponding author M. Almukainzi (mkalmukainizi@pnu.edu.sa, as printed in the byline footnote on p. 1; an earlier revision of this page spelled it without the second i). Institutional affiliation: Department of Pharmaceutical Sciences and College of Pharmacy, Princess Nourah bint Abdulrahman University (Riyadh, Saudi Arabia); Department of Microbiology and Immunology, Faculty of Pharmacy, Mansoura University (Mansoura, Egypt).
 - **Audit editorial review (2026-05-18, general-purpose fresh-context, v2.0 skill Phase 2) — five corrections applied.** After the first ingest pass, the audit was re-validated cell-by-cell against the `pdftotext -layout` extraction of page 8 of the source PDF (the layout-mode extraction preserves cell alignment unambiguously). The audit editorial review flagged Table 4 numerical fidelity at ⚠️/❌ on several cells; independent verification against the pdftotext output confirmed and corrected the following:
  1. **Sample 12 Fe mean** corrected from "11077.89" to "111077.89" (a missing leading "1" digit). The SD 157087.28 IS correct as-printed; SD/mean ratio = 1.4142 (√2), consistent with the table-wide reporting convention. This corrects the audit editorial review's hypothesis that the SD should be ~15708; the discrepancy was in the mean, not the SD.
  2. **Sample 12 Mn mean** corrected from "433.04" to "433.145" (paper-internal three-decimal-place reporting in this one cell; the table convention is two decimal places elsewhere, transcribed as printed).
@@ -183,6 +187,8 @@ All samples passed visual inspection (no lumps, grit, discoloration, characteris
 - **Audit editorial review — Sample 16 paraffin-vs-silicone-serum label discrepancy applied.** Audit flagged that Table 1 sample 16 constituents are silicone-based (cyclopentasiloxane/dimethiconol/ethylhexyl methoxycinnamate/BHT), not paraffin, despite the Table 1 product-type label "Oil" and despite the discussion text on p. 7 calling it "hair oil serum." First-pass wiki label "Oil (paraffin)" corrected to "Oil (silicone hair serum per Table 1 constituents)" and added to a dedicated Verification note above. Sample 8 ("Baby oil") IS the paraffin (constituents "Paraffin oil light, perfume").
 
 ## Ingest log
+
+- 2026-09-26 baby lotions, oils, and powders collection: the same PDF (identical SHA-256) was received again. Added the Table 1 constituents and Table 3 microbial count for the baby oil and baby powder samples and corrected the corresponding-author address to the printed form. Table 4 cells are carried into the collection number ledger and a structured evidence file. No value on this page changed.
 
 - 2022-10-31 (publication): Scientific Reports 12:18299. Received 29 July 2022, accepted 30 September 2022, published 31 October 2022. CC BY 4.0.
 - 2026-05-18 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against the linked reference record (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in 11-page chunks via the `pages` parameter; all of abstract, methods, Tables 1-4, Figure 3 (microbial), Figure 4 (graphical summary), discussion, and references read in full. Source page written, routing audit refreshed (13 routing rows, 0 unresolved, advisory-only malformed for missing optional ingredients:), ingest committed, audit queued.

@@ -13,10 +13,11 @@ evidence_tier: A
 license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_may31_cat13_cosmetics/cat13_cosmetics/paper_18_unknown.pdf"
 raw_sha256: "e1b9bcca7986f1e7644b871c3e9c34de7b266caae503ad205e0506dd1f606ed9"
+raw_files: [{path: "raw/studies/baby-lotions-oils-powders/HealthCanada_heavy_metal_impurities_cosmetics_guidance.pdf", sha256: "0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138", note: "canada.ca page printed 2026-09-25; date modified 2017-10-02"}]
 access_url: "http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php"
 metals: [Pb, tAs, Cd, tHg, Sb]
 ingredients: []
-products: []
+products: ["[[products/baby-lotion-cream]]", "[[products/baby-oil]]", "[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]"]
 matrices: [cosmetics, cosmetic-impurities, regulatory-guidance, toothpaste]
 jurisdictions: [CA, DE, US]
 near_duplicates: []
@@ -24,7 +25,7 @@ sample_n: null
 sample_population: "Health Canada cosmetic-impurity guidance based on toxicology review, comparison with other program limits, German technical-avoidability limits, and Health Canada Product Safety Laboratory testing of a number of cosmetics sold in Canada; no sample count or concentration table is printed in the extracted guidance."
 sampling_locations: ["Canada"]
 sampling_year_range: "2012-2016"
-updated: 2026-06-09
+updated: 2026-09-26
 ---
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
@@ -35,7 +36,8 @@ Health Canada issued this guidance to communicate technically avoidable impurity
 
 ## Key numbers
 
-- Document identity: `Guidance on Heavy Metal Impurities in Cosmetics`, effective date `2012-07-20`, date modified `2016-02-29`.
+- Document identity: `Guidance on Heavy Metal Impurities in Cosmetics`, effective date `2012-07-20`, date modified `2016-02-29` in the first copy ingested and `2017-10-02` in a later copy printed from canada.ca on 2026-09-25. The five limits, the effective date, and the mercury footnote are identical in both copies.
+- Scope: the policy applies to cosmetics in general, which includes baby lotions, baby oils, and baby powders sold as cosmetics in Canada. Products authorised as natural health products or non-prescription drugs (for example diaper-rash powders and ointments) fall outside it.
 - Scope: the guidance focuses on heavy metals with known significant toxicological properties in cosmetics: lead, arsenic, cadmium, mercury, and antimony.
 - Unit definitions in the source: `1 ppb = 1 µg/kg = 1 µg/L`; `1 ppm = 1µg/g, 1 mg/kg, 1 mg/L`.
 - Health Canada policy limits for cosmetic-product impurities: lead `10 ppm`; arsenic `3 ppm`; cadmium `3 ppm`; mercury `1 ppm`; antimony `5 ppm`.
@@ -77,6 +79,7 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 - Speciation: the guidance discusses inorganic arsenic and methylmercury in toxicological context, but the cosmetic impurity policy limits are stated for arsenic and mercury generally. This page uses `tAs` and `tHg` for routing context and does not treat the limits as iAs or MeHg occurrence.
 - Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
 - Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
+- 2026-09-26 baby lotions, oils, and powders collection: a later copy (date modified 2017-10-02) was received and hashed. No limit differs. The source is now routed to the four baby lotion, oil, and powder product rows as regulatory context, because the guidance covers all cosmetics.
 - Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
 
 <!-- BEGIN: hmi-page-history -->

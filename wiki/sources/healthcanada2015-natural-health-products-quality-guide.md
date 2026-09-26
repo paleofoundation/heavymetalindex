@@ -13,17 +13,30 @@ license: public-law
 raw_path: raw/regulatory/ca/canada-natural-health-products-heavy-metal-limits-2015.pdf
 library_files: ["Canada_Health_Canada_Quality_Natural_Health_Products_Guide.pdf"]
 raw_sha256: "9b5870dce661ba8f88e10d97b69685cc13a43d7bc4bde68d98332c2432ee3836"
-access_url: null
+raw_files: [{path: "raw/studies/baby-lotions-oils-powders/HealthCanada_NNHPD_Quality_of_NHP_Guide.pdf", sha256: "12cb2d9cbfaeeb918df69e0217e2fc9ce760be804c1943fd5e7635421c3425c3", note: "canada.ca page printed 2026-09-25; Version 3.1 dated May 1, 2015; page date modified 2026-08-10"}]
+access_url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/legislation-guidelines/guidance-documents/quality-guide.html"
 metals: [tAs, Cd, Pb, tHg, Sb, MeHg]
 ingredients: []
-products: []
+products: ["[[products/baby-powder-cornstarch]]", "[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]
 matrices: [natural-health-products, topical-products]
 jurisdictions: [CA]
 near_duplicates: []
-updated: 2026-08-10
+updated: 2026-09-26
 ---
 
 Health Canada's quality guide gives elemental impurity tolerance limits for natural health products. Oral product limits are expressed as daily exposure per day or body weight, while topical products have concentration limits in ppm. Only the topical concentration limits are loaded into the regulatory limits register because the oral dose limits are not direct product concentration ceilings.
+
+## Key numbers
+
+Version 3.1, dated May 1, 2015. Section 3.2.2, Table 2, acceptable limits for heavy metals in topical products, finished product, in ppm: arsenic 3, cadmium 3, lead 10, total mercury 1, antimony 5 (PDF p. 17 of the copy printed from canada.ca on 2026-09-25). The guide adds that it is the licence holder's responsibility to keep heavy metal contamination in the finished product as low as possible.
+
+Oral tolerance limits in section 3.2.1 are daily exposures: total arsenic below 10.0 µg/day or 0.14 µg/kg bw/day, cadmium below 6.0 µg/day or 0.09 µg/kg bw/day, lead below 10.0 µg/day or 0.14 µg/kg bw/day, total mercury below 20.0 µg/day or 0.29 µg/kg bw/day, and methylmercury below 2.0 µg/day or 0.029 µg/kg bw/day. Section 3.2.1.2 applies a Chromium VI tolerance of 0.29 µg/kg bw/day where chromium contamination is a concern.
+
+Appendix 3 (PDF p. 34) repeats these limits and adds a line labelled "Chromium IV (if applicable)" with an oral value of 0.29 µg/kg bw/day and a topical value of 5 ppm. Table 2 itself lists no chromium, and the section it summarises is titled Chromium VI. Because the label and the source section disagree, the 5 ppm figure is not recorded here as a Cr(VI) limit or a total-chromium limit.
+
+## Scope
+
+For diaper-rash products, the Diaper Rash Products Monograph (see [[sources/healthcanada2024-diaper-rash-products-monograph]]) sends products made only with natural health product ingredients, such as corn starch or kaolin powders and zinc oxide pastes, to this guide for finished-product specifications. Mineral-oil and petrolatum products are non-prescription drugs and are not covered by it.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

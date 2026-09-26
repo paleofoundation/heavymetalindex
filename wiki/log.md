@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] ingest | baby-lotions-oils-powders — sources, number ledger, and flags
+
+Pages touched: [[sources/yaghi2026-baby-powder-benghazi-libya]], [[sources/omenka2016-personal-care-products-ibadan]], [[sources/duan2023-infant-lead-poisoning-topical-powder]], [[sources/karwowski2016-folk-diaper-powder-infant-lead]], [[sources/szcc2020-infant-powders-shenzhen-consumer-council]], [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]], [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas]], [[sources/leadsafemama2025-baby-lotion-single-lot]], [[sources/islam2024-edible-fats-oils-bangladesh]], [[sources/cfr2025-21cfr73-1550-talc-color-additive]], [[sources/jecfa2003-talc-ins553iii-specification]], [[sources/healthcanada2024-diaper-rash-products-monograph]], [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]], [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]], [[sources/stone2021-wa-metals-childrens-consumer-products]], [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], [[sources/healthcanada2015-natural-health-products-quality-guide]], [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], [[sources/wa-tfca-hb1047-2023]], [[products/baby-talcum-powder]], [[products/baby-powder-cornstarch]], [[products/baby-lotion-cream]], [[products/baby-oil]]
+Notes: Nineteen PDFs checked against their SHA-256 values. Twelve new source pages; seven existing records received missing facts only. Number ledger of 1,536 printed values with page and table references, six per-study evidence files, twelve claims, and 45 flags (24 resolved, 21 unresolved and contested). Corrections toward the literature on existing pages: the Washington cosmetic sample DT033 is a container, not a cream; the Toxic-Free Cosmetics Act session law is 2023 c 455; EU Regulation 1223/2009 sets no numeric lead cap. Fourteen manifest entries had no PDF. No synthesis page, no DOI, no threshold. Direction: toward the literature.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
