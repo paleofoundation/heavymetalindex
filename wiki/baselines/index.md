@@ -15,8 +15,8 @@ This section holds public baselines built from the evidence ledger. A row appear
 
 © 2026 Paleo Certified, Inc. All rights reserved.
 
-## Current scaffold
+## Rice
 
 ### [Rice arsenic by country and year](/baselines/rice-arsenic)
 
-Inorganic arsenic and total arsenic in rice. The country-by-year concentration baseline and the China-by-province baseline are not yet filled from the ledger. The page links to the qualifying rows.
+Inorganic arsenic and total arsenic in rice by sampling country and sampling year. Concentration rows and count-only rows are marked in the download. China by province is not in this version.

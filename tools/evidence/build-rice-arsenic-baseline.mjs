@@ -136,6 +136,56 @@ function hasReportedConcentration(reported) {
   return REPORTED_NUMERIC.some((key) => reported[key] != null)
 }
 
+function hasNumericConcentration(reported) {
+  return REPORTED_NUMERIC.some((key) => reported[key] != null)
+}
+
+function coverageKindOf(record, reported) {
+  const declared = textOrNull(record?.coverage_kind)
+  if (declared === "count_only") {
+    if (hasNumericConcentration(reported) || reported.field_value_summary) return "invalid"
+    return "count_only"
+  }
+  if (declared === "concentration") return hasReportedConcentration(reported) ? "concentration" : "invalid"
+  if (hasReportedConcentration(reported)) return "concentration"
+  return null
+}
+
+function slugFlagOf(row) {
+  if (row.statistic_scope && /HMR/i.test(row.statistic_scope) && row.matrix === "rice-bulk-grain") {
+    return "Statistic scope names HMR. The matrix slug rice-bulk-grain was not relabeled."
+  }
+  return null
+}
+
+function loadBaselineGaps(repoRoot) {
+  const file = path.join(repoRoot, "data/evidence/rice_arsenic_baseline_gaps.csv")
+  if (!fs.existsSync(file)) return []
+  return parseCsv(fs.readFileSync(file, "utf8")).map((row) => ({
+    gap_id: textOrNull(row.gap_id) || "",
+    country_label: textOrNull(row.country_label) || "",
+    sampling_years: textOrNull(row.sampling_years) || "",
+    analyte: textOrNull(row.analyte) || "",
+    n: textOrNull(row.n) || "",
+    source_id: textOrNull(row.source_id) || "",
+    reason: textOrNull(row.reason) || "",
+    detail: textOrNull(row.detail) || "",
+  }))
+}
+
+function loadPaperManifest(repoRoot) {
+  const file = path.join(repoRoot, "data/evidence/rice_paper_manifest.csv")
+  if (!fs.existsSync(file)) return []
+  return parseCsv(fs.readFileSync(file, "utf8")).map((row) => ({
+    paper_id: textOrNull(row.paper_id) || "",
+    year: textOrNull(row.year) || "",
+    venue: textOrNull(row.venue) || "",
+    page: textOrNull(row.page) || "",
+    analytes: textOrNull(row.analytes) || "",
+    note: textOrNull(row.note) || "",
+  }))
+}
+
 function rowKind(rowId) {
   return SAMPLE_MARKERS.some((marker) => rowId.includes(marker)) ? "sample" : "summary"
 }
@@ -300,21 +350,29 @@ export function assembleRiceArsenicBaseline(repoRoot) {
     const built = contractRow(geoRow, record)
     if (!built.matrixClass) continue
     if (!ARSENIC_SPECIES.has(built.row.metal_species) && !ORGANIC_SPECIES.has(built.row.metal_species)) continue
-    considered.push({ geoRow, ...built })
+    considered.push({ geoRow, record, ...built })
   }
 
   const organic = considered.filter((item) => ORGANIC_SPECIES.has(item.row.metal_species))
   const arsenic = considered.filter((item) => ARSENIC_SPECIES.has(item.row.metal_species))
   const qualifying = []
   let missingConcentration = 0
+  let invalidCoverage = 0
   for (const item of arsenic) {
     const country = item.geoRow.sampling_country
     const year = item.geoRow.sampling_year_start ?? item.geoRow.sampling_year_end
     if (!country || year == null) continue
-    if (!hasReportedConcentration(item.reported)) {
-      missingConcentration += 1
+    const kind = coverageKindOf(item.record || {}, item.reported)
+    if (kind === "count_only") {
+      const n = plainNumber(item.record?.n)
+      if (!(n > 0)) continue
+    } else if (kind !== "concentration") {
+      if (kind === "invalid") invalidCoverage += 1
+      else missingConcentration += 1
       continue
     }
+    item.row.coverage_kind = kind
+    item.row.slug_flag = slugFlagOf(item.row)
     qualifying.push(item.row)
   }
   qualifying.sort((a, b) => (
@@ -360,6 +418,10 @@ export function assembleRiceArsenicBaseline(repoRoot) {
     china_country_rows: qualifying.filter((row) => row.sampling_country === "CN").length,
     china_province_rows: qualifying.filter((row) => row.sampling_country === "CN" && row.sampling_region).length,
     practice_rows: qualifying.filter((row) => row.practice).length,
+    concentration_rows: qualifying.filter((row) => row.coverage_kind === "concentration").length,
+    count_only_rows: qualifying.filter((row) => row.coverage_kind === "count_only").length,
+    by_coverage_kind: countMap(qualifying, (row) => row.coverage_kind),
+    invalid_coverage_rows: invalidCoverage,
     organic_species_rows_excluded: organic.length,
     organic_by_species: countMap(organic, (item) => item.row.metal_species),
     missing_country_rows: missingCountry.length,
@@ -374,8 +436,10 @@ export function assembleRiceArsenicBaseline(repoRoot) {
     cn_jurisdiction_rice_arsenic_pages_with_empty_sampling_locations: places.cnJurisdictionEmptyLocation,
   }
 
+  const baselineGaps = loadBaselineGaps(repoRoot)
+  const paperManifest = loadPaperManifest(repoRoot)
   const contract = {
-    schema_version: "1.0.0",
+    schema_version: "1.1.0",
     generated_on: GENERATED_ON,
     generator: "tools/evidence/build-rice-arsenic-baseline.mjs",
     dependency: "data/evidence/geo_hist.jsonl from the geography, time, and practice ledger. Draft pull request 163, branch cursor/geo-hist-evidence-fields-e169.",
@@ -385,12 +449,14 @@ export function assembleRiceArsenicBaseline(repoRoot) {
       species: "metal_species is exactly iAs or tAs. oAs, DMA, and MMA stay out. source_analyte_label is copied when the ledger printed one and is not used to relabel the species.",
       country: "sampling_country is present. Author affiliation, the jurisdictions array, an agency name, and a WHO region name are not sampling countries. Those exclusions were already applied by the geo-hist backfill.",
       year: "sampling_year_start or sampling_year_end is present. A start year that differs from the end year stays one row. The span is not expanded into calendar years.",
-      concentration: "The joined ledger row has at least one copied numeric concentration field or a field_value_summary. No new statistic is computed.",
+      concentration: "A concentration row has at least one copied numeric concentration field or a field_value_summary. A count-only row has coverage_kind count_only, a numeric n greater than zero, and no concentration field. No new statistic is computed. A count-only row that also carries a number is left out.",
       not_copied: "FDA Total Diet Study collection region, regulatory summary fields, certification-program fields, and extraction notes are not copied. sampling_region stays null unless the geo-hist row already has one.",
     },
     counts,
     china_place_pages: places.notes,
     value_gaps: valueGaps,
+    baseline_gaps: baselineGaps,
+    paper_manifest: paperManifest,
     rows: qualifying,
   }
   return { contract, page: renderPage(contract), brief: renderBrief(contract), csv: renderCsv(qualifying) }
@@ -406,7 +472,7 @@ function csvCell(value) {
 function renderCsv(rows) {
   const columns = [
     "row_id", "source_id", "source_page", "sampling_country", "sampling_region",
-    "sampling_year_start", "sampling_year_end", "single_year", "metal_species",
+    "sampling_year_start", "sampling_year_end", "single_year", "coverage_kind", "slug_flag", "metal_species",
     "source_analyte_label", "matrix", "matrix_class", "food_group", "food_label",
     "basis", "n", "row_kind", "statistic_type", "result_status", "censoring_status",
     "review_state", "evidence_fitness_verdict", "sample_id",
@@ -426,12 +492,21 @@ function fmt(value) {
   return new Intl.NumberFormat("en-US").format(value)
 }
 
+function statedN(row) {
+  const n = typeof row.n === "number" ? row.n : Number(row.n)
+  return Number.isFinite(n) ? n : 0
+}
+
 function countryTable(rows) {
   const countries = [...new Set(rows.map((row) => row.sampling_country))].sort()
-  const lines = ["| Sampling country | Inorganic arsenic rows | Total arsenic rows | Single-year rows | Year-span rows |", "| --- | ---: | ---: | ---: | ---: |"]
+  const lines = [
+    "| Sampling country | Inorganic arsenic rows | Total arsenic rows | Concentration rows | Count-only rows | Sum of stated n |",
+    "| --- | ---: | ---: | ---: | ---: | ---: |",
+  ]
   for (const country of countries) {
     const subset = rows.filter((row) => row.sampling_country === country)
-    lines.push(`| ${country} | ${subset.filter((row) => row.metal_species === "iAs").length} | ${subset.filter((row) => row.metal_species === "tAs").length} | ${subset.filter((row) => row.single_year).length} | ${subset.filter((row) => !row.single_year).length} |`)
+    const nSum = subset.reduce((sum, row) => sum + statedN(row), 0)
+    lines.push(`| ${country} | ${subset.filter((row) => row.metal_species === "iAs").length} | ${subset.filter((row) => row.metal_species === "tAs").length} | ${subset.filter((row) => row.coverage_kind === "concentration").length} | ${subset.filter((row) => row.coverage_kind === "count_only").length} | ${fmt(nSum)} |`)
   }
   return lines.join("\n")
 }
@@ -452,9 +527,9 @@ function renderPage(contract) {
   const c = contract.counts
   return `---
 title: "Rice arsenic by country and year"
-description: "Scaffold for a public baseline of inorganic arsenic and total arsenic in rice by sampling country and sampling year. China by province is not yet filled from the ledger."
+description: "Public baseline of inorganic arsenic and total arsenic in rice by sampling country and sampling year. Concentration rows and count-only rows are marked. China by province is not in this version."
 type: baseline
-status: scaffold
+status: partial
 license: "© 2026 Paleo Certified, Inc. All rights reserved."
 audience: [regulator, educator, consumer, researcher]
 updated: ${GENERATED_ON}
@@ -469,13 +544,15 @@ data_downloads:
 
 Operated by the Institute of Contaminant Standards.
 
-This page is a scaffold for a public baseline of inorganic arsenic and total arsenic in rice, arranged by the country and year where the sample was taken, with a separate section for China by province. The concentration baseline is not yet filled from the ledger. The download lists each ledger row that already has a sampling country, a sampling year, and inorganic or total arsenic on a rice matrix. Rows are not pooled. A year span is not split into single years. No government limit is stated on this page.
+This page lists inorganic arsenic and total arsenic in rice by the country and year where the sample was taken. A concentration row copies a printed statistic. A count-only row copies a sample count and does not carry a concentration. Rows are not pooled. A year span is not split into single years. China by province is not in this version. No government limit is stated on this page.
 
 © 2026 Paleo Certified, Inc. All rights reserved.
 
 ## What the ledger can support today
 
-The qualifying set has ${fmt(c.qualifying_rows)} rows. ${fmt(c.by_species.iAs || 0)} are inorganic arsenic (iAs). ${fmt(c.by_species.tAs || 0)} are total arsenic (tAs). ${fmt(c.single_year_rows)} rows name a single sampling year. ${fmt(c.year_span_rows)} rows name a year span and stay as one row. Sampling region is filled on ${fmt(c.sampling_region_rows)} qualifying rows. Sampling country CN is filled on ${fmt(c.china_country_rows)} qualifying rows.
+The qualifying set has ${fmt(c.qualifying_rows)} rows. ${fmt(c.concentration_rows || 0)} are concentration rows. ${fmt(c.count_only_rows || 0)} are count-only rows. ${fmt(c.by_species.iAs || 0)} are inorganic arsenic (iAs). ${fmt(c.by_species.tAs || 0)} are total arsenic (tAs). ${fmt(c.single_year_rows)} rows name a single sampling year. ${fmt(c.year_span_rows)} rows name a year span and stay as one row. Sampling region is filled on ${fmt(c.sampling_region_rows)} qualifying rows. Sampling country CN is filled on ${fmt(c.china_country_rows)} qualifying rows.
+
+Sum of stated n adds the sample counts printed on the rows in that country. It is a sum of stated sample counts. It is not a pooled concentration, and a sample that appears in more than one source can be counted more than once.
 
 ${countryTable(rows)}
 
@@ -487,11 +564,11 @@ Downloads: [qualifying rows (JSON)](/static/data/rice-arsenic-ground-truth.json)
 
 ## Country by year
 
-A cited country-by-year concentration baseline is not yet filled from the ledger. The table above counts rows. Concentration statistics stay in the download, in the form the ledger stored, on the basis the ledger stored.
+Each download row is one ledger record with a sampling country and a sampling year. Concentration statistics stay in the form the ledger stored, on the basis the ledger stored. Count-only rows have an empty concentration. United States state counts from the 2013 rice sampling report are one national count per species, with the state split kept in the row note.
 
 ## China by province
 
-Not yet filled from the ledger. No qualifying row has an admin-1 region, and no qualifying row has sampling country CN. A collection region on a United States market-basket file is not a province and is not in the download.
+China by province is not in this version. No qualifying row has sampling country CN. Guo et al. (2025), Journal of Environmental Management, 388, 126024, https://doi.org/10.1016/j.jenvman.2025.126024, is the lead for a later province pass. A collection region on a United States market-basket file is not a province and is not in the download.
 
 ## Inorganic and total arsenic
 
@@ -518,7 +595,7 @@ function renderBrief(contract) {
   const conflictLines = conflicts.map((row) => `| ${row.row_id} | ${row.source_id} | ${row.metal_species} | ${row.matrix} | ${row.statistic_scope} |`).join("\n")
   return `---
 title: Rice arsenic Ground Truth coverage
-schema_version: 1.0.0
+schema_version: 1.1.0
 generated_on: ${GENERATED_ON}
 ---
 
@@ -545,7 +622,7 @@ A row qualifies when all of the following are already true:
 - \`metal_species\` is \`iAs\` or \`tAs\`.
 - \`sampling_country\` is present.
 - \`sampling_year_start\` or \`sampling_year_end\` is present.
-- The joined record has a numeric concentration field or a \`field_value_summary\`.
+- The joined record is a concentration row (a numeric concentration field or a \`field_value_summary\`) or a count-only row (\`coverage_kind\` is \`count_only\`, \`n\` is greater than zero, and no concentration field is present).
 
 ## Counts after those filters
 
@@ -553,7 +630,9 @@ A row qualifies when all of the following are already true:
 | --- | ---: |
 | geo_hist.jsonl rows | ${c.geo_hist_rows} |
 | Rice-matrix iAs or tAs rows in geo_hist | ${c.rice_matrix_arsenic_rows_in_geo_hist} |
-| Qualifying rows (country and year and concentration) | ${c.qualifying_rows} |
+| Qualifying rows (country and year, concentration or count-only) | ${c.qualifying_rows} |
+| Concentration rows | ${c.concentration_rows || 0} |
+| Count-only rows | ${c.count_only_rows || 0} |
 | Qualifying iAs | ${c.by_species.iAs || 0} |
 | Qualifying tAs | ${c.by_species.tAs || 0} |
 | Single-year qualifying rows | ${c.single_year_rows} |
@@ -576,9 +655,21 @@ ${sourceList(c.by_source, 20)}
 
 ## Gaps that block a fully cited baseline
 
+### Rows kept out of the country table
+
+Unknown origin, a label that is not a country, a year that was not stated, a concentration that was not extracted, a mixed species label, and China by province stay in \`data/evidence/rice_arsenic_baseline_gaps.csv\`. They are not country-year rows.
+
+| Gap | Country label | Years | Analyte | n | Reason |
+| --- | --- | --- | --- | --- | --- |
+${(contract.baseline_gaps || []).map((gap) => `| ${gap.gap_id} | ${gap.country_label} | ${gap.sampling_years} | ${gap.analyte} | ${gap.n} | ${gap.reason} |`).join("\n") || "|  |  |  |  |  |  |"}
+
+### Lu 2023 manifest
+
+${(contract.paper_manifest || []).map((row) => `${row.paper_id} (${row.year}), ${row.venue}, ${row.page}. Analytes: ${row.analytes}. ${row.note}`).join("\n\n") || "No manifest row was loaded."}
+
 ### China by province
 
-Qualifying China province rows: ${c.china_province_rows}. Qualifying sampling_country CN rows: ${c.china_country_rows}. The geography ledger did not copy an admin-1 name onto a qualifying rice arsenic row.
+Qualifying China province rows: ${c.china_province_rows}. Qualifying sampling_country CN rows: ${c.china_country_rows}. China by province is not in this version. Guo et al. (2025), Journal of Environmental Management, 388, 126024, https://doi.org/10.1016/j.jenvman.2025.126024, is the lead for a later province pass. The geography ledger did not copy an admin-1 name onto a qualifying rice arsenic row.
 
 \`jurisdictions: [CN]\` is not a sampling country. ${c.cn_jurisdiction_rice_arsenic_pages_with_empty_sampling_locations} rice arsenic source pages carry jurisdiction CN and an empty \`sampling_locations\` array. The contract does not promote that array.
 
@@ -618,7 +709,7 @@ ${c.year_span_rows} qualifying rows have a start year different from the end yea
 
 Matrix classes in the download are \`rice_grain\`, \`rice_cereal\`, \`rice_product\`, and \`rice_containing_mixture\`. Mixed meals that name rice are not rice grain. Infant cereal that also names another grain stays in \`rice_cereal\` with the printed food label.
 
-${conflicts.length ? `Rows whose summary text says HMR while the matrix slug is rice-bulk-grain. The slug was not relabeled.\n\n| row_id | source | species | matrix | statistic_scope |\n| --- | --- | --- | --- | --- |\n${conflictLines}` : "No HMR versus rice-bulk-grain label conflict was found in the qualifying rows."}
+${conflicts.length ? `Rows whose summary text says HMR while the matrix slug is rice-bulk-grain. The slug was not relabeled. Each of these rows carries slug_flag.\n\n| row_id | source | species | matrix | statistic_scope |\n| --- | --- | --- | --- | --- |\n${conflictLines}` : "No HMR versus rice-bulk-grain label conflict was found in the qualifying rows."}
 
 ### Practice
 

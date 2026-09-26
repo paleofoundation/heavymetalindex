@@ -439,6 +439,7 @@ const SUMMARY_FILES = [
   "data/evidence/category6_seaweed_cd_summary.csv",
   "data/evidence/category6_fish_nonpredatory_ias_summary.csv",
   "data/evidence/category6_shellfish_ias_summary.csv",
+  "data/evidence/rice_arsenic_country_year.csv",
 ]
 
 const GROUP_RULES = [
@@ -1017,6 +1018,7 @@ export function classifyFood(text) {
     .replace(/[_/]+/g, " ")
     .replace(/-+/g, " ")
     .replace(/\bexcluding\b[^.;]*/g, " ")
+    .replace(/\bnon rice\b/g, " ")
     .replace(/\s+/g, " ")
   for (const [group, pattern] of GROUP_RULES) {
     if (pattern.test(haystack)) return group
@@ -1128,6 +1130,12 @@ function frontmatterPart(repoRoot, sourceId, cache) {
   return fieldsFromFrontmatter(data, page)
 }
 
+export function rowHasCoverageCount(row) {
+  if (String(row.coverage_kind || "").trim() !== "count_only") return false
+  const n = Number(String(row.n ?? "").trim())
+  return Number.isFinite(n) && n > 0
+}
+
 export function rowHasSummaryValue(row) {
   const numeric = [
     "mean_ppb", "median_ppb", "p50_ppb", "p90_ppb", "p95_ppb", "p100_ppb", "max_ppb", "min_ppb",
@@ -1193,7 +1201,7 @@ export function collectMeasurementRows(repoRoot) {
   const summaryByKey = new Map()
   for (const relativePath of SUMMARY_FILES) {
     for (const row of readCsv(repoRoot, relativePath)) {
-      if (!rowHasSummaryValue(row)) continue
+      if (!rowHasSummaryValue(row) && !rowHasCoverageCount(row)) continue
       const sourceId = sourceIdOf(row)
       const csvPart = geoFromCsvColumns(row, relativePath)
       for (const key of matrixKeys(row)) {
@@ -1456,7 +1464,7 @@ Generated ${generatedOn} by \`tools/evidence/geo-hist.mjs\`. This file is a ledg
 
 ## What was counted
 
-A measurement row is one numeric literature-finding record in \`data/evidence/values.jsonl\`, or one row in a per-study concentration CSV. Where a sample-level CSV exists for a source, those sample rows are the measurements and the matching summary rows in \`values.jsonl\` are not counted again. Summary CSVs are counted only for sources that have neither a sample file nor a \`values.jsonl\` literature row, and only when the row carries a concentration statistic. WHO GEMS/Food grouped summaries count when a lower-bound µg/kg percentile is filled. Rows in that file with an empty percentile and \`n_numeric_or_censored\` of 0 are omitted. A category phrase that begins with "excluding" is ignored when the food group is chosen, so "excluding cocoa products" does not place tea in the cocoa group. FDA Total Diet Study rows are limited to the heavy-metal species on the row (\`metal_species\` in Pb, Cd, iAs, tAs, MeHg, tHg, Hg, Ni, Al, Cr, Cr-VI, Cr-total, Sn, Sb, U). Nutrient rows in that file are not concentration rows for this brief.
+A measurement row is one numeric literature-finding record in \`data/evidence/values.jsonl\`, or one row in a per-study concentration CSV. Where a sample-level CSV exists for a source, those sample rows are the measurements and the matching summary rows in \`values.jsonl\` are not counted again. Summary CSVs are counted only for sources that have neither a sample file nor a \`values.jsonl\` literature row, and only when the row carries a concentration statistic or a count-only coverage row with n greater than zero. WHO GEMS/Food grouped summaries count when a lower-bound µg/kg percentile is filled. Rows in that file with an empty percentile and \`n_numeric_or_censored\` of 0 are omitted. A category phrase that begins with "excluding" is ignored when the food group is chosen, so "excluding cocoa products" does not place tea in the cocoa group. A non-rice token is removed before the food-group rules run, so a slug such as mixed-meals-non-rice is not placed in Rice. FDA Total Diet Study rows are limited to the heavy-metal species on the row (\`metal_species\` in Pb, Cd, iAs, tAs, MeHg, tHg, Hg, Ni, Al, Cr, Cr-VI, Cr-total, Sn, Sb, U). Nutrient rows in that file are not concentration rows for this brief.
 
 ## What was copied
 

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | rice-arsenic-ground-truth — load country-year counts and concentrations
+
+Pages touched: [[baselines/rice-arsenic]], [[baselines/index]], [[sources/index]]
+Notes: Country-year rice arsenic rows from the attached baseline now sit in the geography ledger with a sampling country and a sampling year. Concentration rows copy a printed statistic. Count-only rows copy n and no concentration. Unknown origin, unextracted values, and China by province stay in the gap list. Guo et al. (2025) is the province lead for a later pass. The Lu 2023 manifest lists Cd, Cr, and iAs only. The Noh 2023 matrix slug was not relabeled. A non-rice token is removed before the food-group rules run. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-26] query | rice-arsenic-ground-truth — scaffold baseline from ledger rows
 
 Pages touched: [[baselines/rice-arsenic]], [[baselines/index]]

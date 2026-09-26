@@ -4,7 +4,7 @@ This document tracks the migration history of the wiki's structured schemas. Rul
 
 ## Rice arsenic Ground Truth contract (2026-09-26)
 
-`data/evidence/schema/rice-arsenic-baseline.schema.json` describes the public download at `wiki/static/data/rice-arsenic-ground-truth.json`. Rows are copied from `data/evidence/geo_hist.jsonl` joined back to the ledger record in `row_id`. The contract admits inorganic arsenic and total arsenic on rice matrices that already have a sampling country and a sampling year. It does not pool concentrations, split a year span, or carry a government limit. The public page `wiki/baselines/rice-arsenic.md` is a scaffold. See [[docs/schemas/rice-arsenic-baseline]].
+`data/evidence/schema/rice-arsenic-baseline.schema.json` describes the public download at `wiki/static/data/rice-arsenic-ground-truth.json`. Schema 1.1.0 adds `coverage_kind` (`concentration` or `count_only`) and `slug_flag`. Rows are copied from `data/evidence/geo_hist.jsonl` joined back to the ledger record in `row_id`. The contract admits inorganic arsenic and total arsenic on rice matrices that already have a sampling country and a sampling year. A concentration row copies a printed statistic. A count-only row copies a sample count and no concentration. It does not pool concentrations, split a year span, or carry a government limit. China by province is not in this version. The public page is `wiki/baselines/rice-arsenic.md`. See [[docs/schemas/rice-arsenic-baseline]].
 
 ## Evidence ledger geography, time, and practice (2026-09-26)
 
