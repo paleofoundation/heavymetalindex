@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated": "2026-08-24",
+  "generated": "2026-09-26",
   "source_repository": "Heavy Metal Index",
   "firewall": "Neutral verified facts and evidence links only. No certification impact or threshold recommendation.",
   "intakes": [
@@ -10,9 +10,16 @@
       "sha256": "c49959ee9cbe3e71f7cbd2e170a7cf32491bf36ba2e0c4bdbd1df85912bf3c2c",
       "cluster_count": 21,
       "fitness_classification": "Useful for discovery and prioritization; not independently sufficient to support a legal claim, legal status, date, numerical limit, or certification consequence."
+    },
+    {
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "intake_date": "2026-09-26",
+      "sha256": "adbf414c6d8a1dde8edbbf9f07e5e7a0bb9e748548ff6802c0ce6900db8a4974",
+      "cluster_count": 12,
+      "fitness_classification": "Packaged primary PDFs support the loaded figures. MANIFEST.csv printed values match those figures after the register's µg/kg conversion. Kenya TBT/KEN/2119 and Tanzania SPS/TZA/550 remain leads because basis and units are unresolved. China NHC/SAMR 2026 No. 6 and EFSA E 962 have no primary file in the package."
     }
   ],
-  "event_count": 21,
+  "event_count": 33,
   "events": [
     {
       "event_id": "rw-2026-01-eu-ias-seafood",
@@ -1597,9 +1604,853 @@
         "Re-check ECHA CHEM and the restriction-intentions registry at the next review date."
       ],
       "public_eligible": false
+    },
+    {
+      "event_id": "rw-2026-22-fda-21cfr-172383",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 1,
+      "title": "FDA sets purity specifications for vitamin D2 inactive bakers yeast",
+      "instrument_ids": [
+        "21-cfr-172-383",
+        "fr-doc-2026-19656"
+      ],
+      "jurisdictions": [
+        "United States"
+      ],
+      "authorities": [
+        "US Food and Drug Administration"
+      ],
+      "domains": [
+        "food-additives"
+      ],
+      "analytes": [
+        "Pb",
+        "tAs",
+        "Cd",
+        "tHg"
+      ],
+      "product_scopes": [
+        "vitamin D2 inactive bakers yeast"
+      ],
+      "event_type": "limit-change",
+      "status": "in-force",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-25",
+        "effective": "2026-09-25",
+        "transition": null,
+        "consultation_close": null,
+        "next_review": null
+      },
+      "official_sources": [
+        {
+          "title": "Federal Register, FR Doc. 2026-19656",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19656.pdf",
+          "kind": "primary-law"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "fda2026_21cfr172383_pb_vitd2_inactive_bakers_yeast_0_5mgkg",
+          "fda2026_21cfr172383_tas_vitd2_inactive_bakers_yeast_0_3mgkg",
+          "fda2026_21cfr172383_cd_vitd2_inactive_bakers_yeast_0_5mgkg",
+          "fda2026_21cfr172383_thg_vitd2_inactive_bakers_yeast_0_1mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "PDF text layer of the govinfo Federal Register file, page 60800, paragraphs (c)(6) through (c)(9)."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "The 25 September 2026 final order adds 21 CFR 172.383. Vitamin D2 inactive bakers yeast must contain not more than 0.5 mg/kg lead, 0.3 mg/kg arsenic, 0.5 mg/kg cadmium, and 0.1 mg/kg mercury. The order is effective 25 September 2026. Arsenic and mercury are unspecified and are recorded as totals. The figures are additive specifications, not finished-food maximum levels.",
+      "obligations": [
+        "purity-specification"
+      ],
+      "gaps": [
+        "Objections and requests for a hearing may be filed through 2026-10-26. The order states that it is effective 2026-09-25."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-23-ukraine-mineral-water-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 2,
+      "title": "Ukraine notifies draft natural-mineral-water safety indicators",
+      "instrument_ids": [
+        "g-sps-n-ukr-266-rev1"
+      ],
+      "jurisdictions": [
+        "Ukraine"
+      ],
+      "authorities": [
+        "Ministry of Health of Ukraine"
+      ],
+      "domains": [
+        "food-contaminants"
+      ],
+      "analytes": [
+        "Ba",
+        "Cd",
+        "Mn",
+        "tAs",
+        "Cu",
+        "Ni",
+        "tHg",
+        "Pb",
+        "Se",
+        "Sb",
+        "Cr-total"
+      ],
+      "product_scopes": [
+        "natural mineral waters"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-16",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-15",
+        "next_review": "2026-11-16"
+      },
+      "official_sources": [
+        {
+          "title": "Draft safety indicators, WTO attachment 26_04785_02_x.pdf",
+          "url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/SPS/N/UKR/266/Rev.1 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/0517556d-567d-4deb-a846-6553bb160738",
+          "kind": "wto-notification"
+        },
+        {
+          "title": "Ministry of Health draft announcement cited in the notification",
+          "url": "https://moz.gov.ua/uk/povidomlennya-pro-oprilyudnennya-doopracovanogo-proyektu-nakazu-ministerstva-ohoroni-zdorov-ya-ukrayini-pro-zatverdzhennya-kriteriyiv-vidnesennya-vodi-pitnoyi-do-kategoriyi-voda-prirodna-mineralna",
+          "kind": "official-announcement"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "ua_moh_draft_2026_ba_natural_mineral_water_1_0mgl",
+          "ua_moh_draft_2026_cd_natural_mineral_water_0_003mgl",
+          "ua_moh_draft_2026_mn_natural_mineral_water_0_50mgl",
+          "ua_moh_draft_2026_tas_natural_mineral_water_0_010mgl",
+          "ua_moh_draft_2026_cu_natural_mineral_water_1_0mgl",
+          "ua_moh_draft_2026_ni_natural_mineral_water_0_020mgl",
+          "ua_moh_draft_2026_thg_natural_mineral_water_0_0010mgl",
+          "ua_moh_draft_2026_pb_natural_mineral_water_0_010mgl",
+          "ua_moh_draft_2026_se_natural_mineral_water_0_010mgl",
+          "ua_moh_draft_2026_sb_natural_mineral_water_0_0050mgl",
+          "ua_moh_draft_2026_crtotal_natural_mineral_water_0_050mgl"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 1 of the Ukrainian draft PDF. Arsenic is labeled total content. Chromium and mercury are not speciated."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/SPS/N/UKR/266/Rev.1 circulates a draft Ministry of Health order. Table 1 sets maximum levels for naturally occurring constituents of natural mineral water in mg/L, including cadmium 0.003, arsenic 0.010 as total content, nickel 0.020, mercury 0.0010, lead 0.010, antimony 0.0050, and chromium 0.050. Comments close on 15 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Nitrate 50 mg/L, nitrite 0.1 mg/L, fluoride 5.0 mg/L, and cyanide 0.070 mg/L are in Table 1 and were not loaded because they are not metal analytes. Table 2 ozone-treatment residues (dissolved ozone, bromate, bromoform) were not loaded for the same reason."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-24-tanzania-herbal-face-mask-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 3,
+      "title": "Tanzania notifies a draft herbal face mask specification",
+      "instrument_ids": [
+        "g-tbt-n-tza-1658",
+        "cdc-3-4857-dtzs"
+      ],
+      "jurisdictions": [
+        "Tanzania"
+      ],
+      "authorities": [
+        "Tanzania Bureau of Standards"
+      ],
+      "domains": [
+        "cosmetics"
+      ],
+      "analytes": [
+        "Pb",
+        "tAs",
+        "tHg",
+        "Cd"
+      ],
+      "product_scopes": [
+        "herbal face mask"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "CDC 3 (4857) DTZS, Herbal face mask, Specification",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05003_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/TZA/1658 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/7b81ddd2-b921-488f-b668-58a0b3d6ce13",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "tz_dtzs_cdc3_4857_pb_herbal_face_mask_10mgkg",
+          "tz_dtzs_cdc3_4857_tas_herbal_face_mask_2mgkg",
+          "tz_dtzs_cdc3_4857_thg_herbal_face_mask_2mgkg",
+          "tz_dtzs_cdc3_4857_cd_herbal_face_mask_1mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 3 of the draft PDF text layer."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/TZA/1658 circulates CDC 3 (4857) DTZS. Table 3 sets finished-product maxima of 10 mg/kg lead, 2 mg/kg arsenic, 2 mg/kg mercury, and 1 mg/kg cadmium. A footnote caps lead, mercury, and arsenic combined at 10 mg/kg. Comments close on 23 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "The combined lead, mercury, and arsenic cap of 10 mg/kg is recorded in the row notes and is not a separate analyte row."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-25-tanzania-magnesium-oxide-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 4,
+      "title": "Tanzania notifies a draft magnesium oxide specification for cosmetics",
+      "instrument_ids": [
+        "g-tbt-n-tza-1659",
+        "cdc-3-4858-dtzs"
+      ],
+      "jurisdictions": [
+        "Tanzania"
+      ],
+      "authorities": [
+        "Tanzania Bureau of Standards"
+      ],
+      "domains": [
+        "cosmetics"
+      ],
+      "analytes": [
+        "Pb",
+        "As-as-As2O3"
+      ],
+      "product_scopes": [
+        "magnesium oxide for the cosmetic industry"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "CDC 3 (4858) DTZS, Magnesium oxide for cosmetic industry",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05004_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/TZA/1659 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/b0c424f5-c99d-40e5-bd5b-4823eb2988ae",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "tz_dtzs_cdc3_4858_pb_magnesium_oxide_10mgkg",
+          "tz_dtzs_cdc3_4858_as_as2o3_magnesium_oxide_2mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 1 of the draft PDF. Arsenic is printed as AS2O3 and is not stored as total elemental arsenic."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/TZA/1659 circulates CDC 3 (4858) DTZS. Table 1 sets lead (as Pb) at 10.0 mg/kg max and arsenic (as AS2O3) at 2.0 mg/kg max. The arsenic figure is the oxide expression printed in the draft and is not converted to elemental arsenic. No mercury or cadmium limit is printed. Comments close on 23 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-26-tanzania-skin-cleanser-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 5,
+      "title": "Tanzania notifies a draft skin cleanser specification",
+      "instrument_ids": [
+        "g-tbt-n-tza-1660",
+        "cdc-3-4859-dtzs"
+      ],
+      "jurisdictions": [
+        "Tanzania"
+      ],
+      "authorities": [
+        "Tanzania Bureau of Standards"
+      ],
+      "domains": [
+        "cosmetics"
+      ],
+      "analytes": [
+        "Pb",
+        "tAs",
+        "tHg"
+      ],
+      "product_scopes": [
+        "skin cleanser for cosmetic purposes"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "CDC 3 (4859) DTZS, Skin cleanser, specification",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05005_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/TZA/1660 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/490c4f53-ce8c-4b82-bd1c-87758e439ece",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "tz_dtzs_cdc3_4859_pb_skin_cleanser_10mgkg",
+          "tz_dtzs_cdc3_4859_tas_skin_cleanser_2mgkg",
+          "tz_dtzs_cdc3_4859_thg_skin_cleanser_1mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 3 of the draft PDF. Moisture basis is not stated."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/TZA/1660 circulates CDC 3 (4859) DTZS. Table 3 sets lead 10.0 mg/kg, arsenic 2.0 mg/kg, and mercury 1.0 mg/kg. The table title points to TZS 2122-1:2025/EAS 835-1:2022. No cadmium figure is printed. Moisture basis is not stated. Comments close on 23 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Moisture basis is not stated in Table 3."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-27-kenya-dars-2214-wet-wipes-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 6,
+      "title": "Kenya notifies draft DARS 2214 disposable wet wipes",
+      "instrument_ids": [
+        "g-tbt-n-ken-2117",
+        "dars-2214-2026"
+      ],
+      "jurisdictions": [
+        "Kenya"
+      ],
+      "authorities": [
+        "Kenya Bureau of Standards"
+      ],
+      "domains": [
+        "consumer-products",
+        "textiles"
+      ],
+      "analytes": [
+        "Pb",
+        "tAs",
+        "Cd",
+        "tHg"
+      ],
+      "product_scopes": [
+        "non-woven disposable wet wipes"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "DARS 2214:2026, Textiles, Disposable wet wipes, Specification",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04976_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/KEN/2117 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/8fd4cafb-1e18-43af-8fec-3bb75c078093",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "ke_dars2214_2026_pb_disposable_wet_wipes_10mgkg",
+          "ke_dars2214_2026_tas_disposable_wet_wipes_2mgkg",
+          "ke_dars2214_2026_cd_disposable_wet_wipes_2mgkg",
+          "ke_dars2214_2026_thg_disposable_wet_wipes_5mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 2 of DARS 2214:2026. The cover identifies the draft as DARS 2214:2026."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/KEN/2117 circulates DARS 2214:2026 for disposable wet wipes. Table 2 sets lead 10 mg/kg, arsenic 2 mg/kg, cadmium 2 mg/kg, and mercury 5 mg/kg. Moisture basis is not stated. Comments close on 23 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Table 2 also sets chlorinated organic compounds at 150 mg/kg. That figure is not a metal limit and was not loaded. Moisture basis is not stated."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-28-eac-deas-1308-toy-balloons-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 7,
+      "title": "EAC notifies draft DEAS 1308 toy balloon specification",
+      "instrument_ids": [
+        "g-tbt-n-bdi-702-rev1",
+        "deas-1308-2026"
+      ],
+      "jurisdictions": [
+        "East African Community"
+      ],
+      "authorities": [
+        "East African Community"
+      ],
+      "domains": [
+        "consumer-products",
+        "toys"
+      ],
+      "analytes": [
+        "Pb",
+        "Cd"
+      ],
+      "product_scopes": [
+        "toy plastic balloons"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "DEAS 1308:2026, Toy plastic balloon, Specification",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/UGA/26_04990_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/BDI/702/Rev.1 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/d5333594-1e79-4365-9046-5d1961bef33d",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "eac_deas1308_2026_pb_toy_balloons_100mgkg",
+          "eac_deas1308_2026_cd_toy_balloons_75mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 1 states mg/kg and ISO 8124-3. The draft does not state content versus migration. Basis recorded as not stated."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/BDI/702/Rev.1 circulates DEAS 1308:2026 for toy plastic balloons. Table 1 states lead (Pb) at most 100 mg/kg and cadmium (Cd) at most 75 mg/kg, tested by ISO 8124-3. The draft does not state whether those figures are content limits or migration limits, so the basis is recorded as not stated. Comments close on 23 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Basis is not stated. Section 5.2.2 separately points colorant heavy metals to ISO 8124-3 migration limits without reprinting those numbers. Phthalates and residual monomers in Table 1 are not metal rows. The cover also prints 1st Edition 2025 beside the designation DEAS 1308: 2026."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-29-rwanda-drs-650-cake-gel-draft",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 8,
+      "title": "Rwanda notifies draft DRS 650 cake gel specification",
+      "instrument_ids": [
+        "g-tbt-n-rwa-1485",
+        "drs-650-2026"
+      ],
+      "jurisdictions": [
+        "Rwanda"
+      ],
+      "authorities": [
+        "Rwanda Standards Board"
+      ],
+      "domains": [
+        "food-contaminants"
+      ],
+      "analytes": [
+        "tAs",
+        "Pb"
+      ],
+      "product_scopes": [
+        "cake gel"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-15",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-14",
+        "next_review": "2026-11-15"
+      },
+      "official_sources": [
+        {
+          "title": "DRS 650:2026, Cake gel, Specification",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/RWA/26_04746_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/RWA/1485 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/40c6edcc-224b-43c7-b3d3-cffa98f5ac08",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": [
+          "rw_drs650_2026_tas_cake_gel_0_1mgkg",
+          "rw_drs650_2026_pb_cake_gel_0_1mgkg"
+        ]
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "high",
+        "notes": "Table 3 of DRS 650:2026. Arsenic is named as As without an inorganic split."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/RWA/1485 circulates DRS 650:2026 for cake gel. Table 3 sets arsenic (As) 0.1 mg/kg and lead (Pb) 0.1 mg/kg, both by AOAC 2015.01. Moisture basis is not stated. Comments close on 14 November 2026. The instrument is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Moisture basis is not stated in Table 3."
+      ],
+      "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-30-kenya-dars-1590-textiles-lead",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 9,
+      "title": "Kenya textile substance guideline is a lead only",
+      "instrument_ids": [
+        "g-tbt-n-ken-2119",
+        "dars-1590-2026"
+      ],
+      "jurisdictions": [
+        "Kenya"
+      ],
+      "authorities": [
+        "Kenya Bureau of Standards"
+      ],
+      "domains": [
+        "textiles",
+        "consumer-products"
+      ],
+      "analytes": [
+        "heavy-metals-unspecified"
+      ],
+      "product_scopes": [
+        "textiles and apparel"
+      ],
+      "event_type": "monitoring",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-24",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-23",
+        "next_review": "2026-11-24"
+      },
+      "official_sources": [
+        {
+          "title": "DARS 1590:2026, Textiles, Guideline for banned or restricted substances",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04982_00_e.pdf",
+          "kind": "draft-standard"
+        },
+        {
+          "title": "G/TBT/N/KEN/2119 notification text",
+          "url": "https://www.evs.ee/download/getfileupload/9a2abfe6-5fe1-4ae9-9c74-6e838b5cad1a",
+          "kind": "wto-notification"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "partial-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "low",
+        "notes": "The packaged draft PDF (sha256 e16694a5950eaa5342fe9757f8a0b0d2642fb70c9f5f32abe28467e9082a5b23) was read. The guideline prints ppm figures whose extractable-versus-total basis is not stated, so no numeric row was loaded."
+      },
+      "disposition": "unverified-gap",
+      "article_slugs": [],
+      "summary": "G/TBT/N/KEN/2119 circulates DARS 1590:2026, a guideline on banned or restricted substances in textiles and apparel. The text mixes units and does not state one basis. No numeric limit was loaded. Comments close on 23 November 2026.",
+      "obligations": [],
+      "gaps": [
+        "Basis and units are unresolved in DARS 1590:2026. The sealed package confirms the same gap. No value is in the regulatory limit register."
+      ],
+      "public_eligible": false
+    },
+    {
+      "event_id": "rw-2026-31-tanzania-fish-nuggets-lead",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 10,
+      "title": "Tanzania fish-nugget notification remains a lead",
+      "instrument_ids": [
+        "g-sps-n-tza-550",
+        "dars-1779-2026"
+      ],
+      "jurisdictions": [
+        "Tanzania"
+      ],
+      "authorities": [
+        "Tanzania Bureau of Standards"
+      ],
+      "domains": [
+        "food-contaminants"
+      ],
+      "analytes": [
+        "heavy-metals-unspecified"
+      ],
+      "product_scopes": [
+        "fish nuggets"
+      ],
+      "event_type": "monitoring",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-09-25",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-11-24",
+        "next_review": "2026-11-25"
+      },
+      "official_sources": [
+        {
+          "title": "DARS 1779:2026, Fish Nuggets, Specification, attachment to G/SPS/N/TZA/550",
+          "url": "https://members.wto.org/crnattachments/2026/SPS/TZA/26_05032_00_e.pdf",
+          "kind": "draft-standard"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "partial-primary",
+        "verified_on": "2026-09-26",
+        "confidence": "low",
+        "notes": "G/SPS/N/TZA/550 is dated 25 September 2026 and names the attachment. Table 4 of DARS 1779:2026 prints a drafting note that the unit is still to be checked, and cadmium is printed as a range. No numeric row was loaded."
+      },
+      "disposition": "unverified-gap",
+      "article_slugs": [],
+      "summary": "G/SPS/N/TZA/550, dated 25 September 2026, circulates DARS 1779:2026 for fish nuggets. Table 4 prints heavy-metal figures, and its caption says the unit is still to be checked. Cadmium is printed as a range. No numeric limit was loaded. Comments close on 24 November 2026.",
+      "obligations": [],
+      "gaps": [
+        "Table 4 caption of DARS 1779:2026 says the unit is still to be checked, and cadmium is printed as a range. No value is in the regulatory limit register."
+      ],
+      "public_eligible": false
+    },
+    {
+      "event_id": "rw-2026-32-china-nhc-samr-2026-no6-lead",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 11,
+      "title": "China NHC/SAMR 2026 No. 6 remains an unverified lead",
+      "instrument_ids": [
+        "china-nhc-samr-2026-no-6"
+      ],
+      "jurisdictions": [
+        "China"
+      ],
+      "authorities": [
+        "National Health Commission",
+        "State Administration for Market Regulation"
+      ],
+      "domains": [
+        "food-contaminants"
+      ],
+      "analytes": [
+        "heavy-metals-unspecified"
+      ],
+      "product_scopes": [
+        "foods named in the unverified lead"
+      ],
+      "event_type": "monitoring",
+      "status": "monitor-only",
+      "dates": {
+        "adopted": null,
+        "published": null,
+        "effective": null,
+        "transition": null,
+        "consultation_close": null,
+        "next_review": "2026-11-30"
+      },
+      "official_sources": [],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "unverified",
+        "verified_on": "2026-09-26",
+        "confidence": "low",
+        "notes": "The sealed package records this item as not obtained. No primary file is in the package. No number was loaded."
+      },
+      "disposition": "unverified-gap",
+      "article_slugs": [],
+      "summary": "A claimed China NHC/SAMR 2026 No. 6 item is logged as a lead. The sealed package contains no primary for it. No numeric limit was loaded.",
+      "obligations": [],
+      "gaps": [
+        "The sealed package does not contain an NHC/SAMR primary. Obtain that text before any limit row is written."
+      ],
+      "public_eligible": false
+    },
+    {
+      "event_id": "rw-2026-33-efsa-e962-lead",
+      "intake_id": "rw-intake-2026-09-26-catchup-14-26-sep",
+      "cluster": 12,
+      "title": "EFSA E 962 item remains an unverified lead",
+      "instrument_ids": [
+        "efsa-e-962"
+      ],
+      "jurisdictions": [
+        "European Union"
+      ],
+      "authorities": [
+        "European Food Safety Authority"
+      ],
+      "domains": [
+        "food-additives"
+      ],
+      "analytes": [
+        "heavy-metals-unspecified"
+      ],
+      "product_scopes": [
+        "additive E 962"
+      ],
+      "event_type": "monitoring",
+      "status": "monitor-only",
+      "dates": {
+        "adopted": null,
+        "published": null,
+        "effective": null,
+        "transition": null,
+        "consultation_close": null,
+        "next_review": "2026-11-30"
+      },
+      "official_sources": [],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "unverified",
+        "verified_on": "2026-09-26",
+        "confidence": "low",
+        "notes": "The sealed package records this item as not obtained. No EFSA primary file is in the package. No number was loaded."
+      },
+      "disposition": "unverified-gap",
+      "article_slugs": [],
+      "summary": "A claimed EFSA E 962 item is logged as a lead. The sealed package contains no primary for it. No numeric limit was loaded.",
+      "obligations": [],
+      "gaps": [
+        "The sealed package does not contain an EFSA opinion or additive-specification primary. Obtain that text before any limit row is written."
+      ],
+      "public_eligible": false
     }
   ],
-  "regulatory_limit_count": 15,
+  "regulatory_limit_count": 47,
   "regulatory_limits": [
     {
       "regulatory_limit_id": "eu2024_ni_tree_nuts_3500",
@@ -1810,6 +2661,454 @@
       "regulation_route": "regulations/vietnam-qcvn-20-1-2024-health-supplements",
       "official_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-12-2024-tt-byt-42401/51106.htm",
       "notes": "QCVN 20-1:2024/BYT Table 1; source value 0.5 mg/kg or mg/L."
+    },
+    {
+      "regulatory_limit_id": "fda2026_21cfr172383_pb_vitd2_inactive_bakers_yeast_0_5mgkg",
+      "jurisdiction": "US",
+      "authority": "US Food and Drug Administration",
+      "legal_status": "statutory limit",
+      "analyte": "Pb",
+      "value_ug_kg": 500,
+      "basis": "vitamin D2 inactive bakers yeast (the additive), mg/kg",
+      "basis_class": null,
+      "product_scope": "vitamin D2 inactive bakers yeast",
+      "regulation_route": "",
+      "official_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19656.pdf",
+      "notes": "21 CFR 172.383(c)(6), FR Doc. 2026-19656, PDF text layer page 60800: Lead, not more than 0.5 milligrams per kilogram (mg/kg). Register value 500 µg/kg. Specification of the additive, not a finished-food maximum level. Effective 2026-09-25."
+    },
+    {
+      "regulatory_limit_id": "fda2026_21cfr172383_tas_vitd2_inactive_bakers_yeast_0_3mgkg",
+      "jurisdiction": "US",
+      "authority": "US Food and Drug Administration",
+      "legal_status": "statutory limit",
+      "analyte": "tAs",
+      "value_ug_kg": 300,
+      "basis": "vitamin D2 inactive bakers yeast (the additive), mg/kg",
+      "basis_class": null,
+      "product_scope": "vitamin D2 inactive bakers yeast",
+      "regulation_route": "",
+      "official_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19656.pdf",
+      "notes": "21 CFR 172.383(c)(7): Arsenic, not more than 0.3 mg/kg. Arsenic is unspecified in the order and is recorded as total arsenic, not inorganic arsenic. Register value 300 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "fda2026_21cfr172383_cd_vitd2_inactive_bakers_yeast_0_5mgkg",
+      "jurisdiction": "US",
+      "authority": "US Food and Drug Administration",
+      "legal_status": "statutory limit",
+      "analyte": "Cd",
+      "value_ug_kg": 500,
+      "basis": "vitamin D2 inactive bakers yeast (the additive), mg/kg",
+      "basis_class": null,
+      "product_scope": "vitamin D2 inactive bakers yeast",
+      "regulation_route": "",
+      "official_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19656.pdf",
+      "notes": "21 CFR 172.383(c)(8): Cadmium, not more than 0.5 mg/kg. Register value 500 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "fda2026_21cfr172383_thg_vitd2_inactive_bakers_yeast_0_1mgkg",
+      "jurisdiction": "US",
+      "authority": "US Food and Drug Administration",
+      "legal_status": "statutory limit",
+      "analyte": "tHg",
+      "value_ug_kg": 100,
+      "basis": "vitamin D2 inactive bakers yeast (the additive), mg/kg",
+      "basis_class": null,
+      "product_scope": "vitamin D2 inactive bakers yeast",
+      "regulation_route": "",
+      "official_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-25/pdf/2026-19656.pdf",
+      "notes": "21 CFR 172.383(c)(9): Mercury, not more than 0.1 mg/kg. Mercury is unspecified and is recorded as total mercury, not methylmercury. Register value 100 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_ba_natural_mineral_water_1_0mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Ba",
+      "value_ug_kg": 1000,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 1,0 мг/л barium. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_cd_natural_mineral_water_0_003mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Cd",
+      "value_ug_kg": 3,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,003 мг/л cadmium. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_mn_natural_mineral_water_0_50mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Mn",
+      "value_ug_kg": 500,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,50 мг/л manganese. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_tas_natural_mineral_water_0_010mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "tAs",
+      "value_ug_kg": 10,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,010 мг/л arsenic, загальний вміст (total content), recorded as tAs. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_cu_natural_mineral_water_1_0mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Cu",
+      "value_ug_kg": 1000,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 1,0 мг/л copper. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_ni_natural_mineral_water_0_020mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Ni",
+      "value_ug_kg": 20,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,020 мг/л nickel. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_thg_natural_mineral_water_0_0010mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "tHg",
+      "value_ug_kg": 1,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,0010 мг/л mercury, species unspecified, recorded as tHg. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_pb_natural_mineral_water_0_010mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 10,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,010 мг/л lead. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_se_natural_mineral_water_0_010mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Se",
+      "value_ug_kg": 10,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,010 мг/л selenium. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_sb_natural_mineral_water_0_0050mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Sb",
+      "value_ug_kg": 5,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,0050 мг/л antimony. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "ua_moh_draft_2026_crtotal_natural_mineral_water_0_050mgl",
+      "jurisdiction": "UA",
+      "authority": "Ministry of Health of Ukraine",
+      "legal_status": "draft",
+      "analyte": "Cr-total",
+      "value_ug_kg": 50,
+      "basis": "natural mineral water, published unit mg/L",
+      "basis_class": "as_consumed",
+      "product_scope": "natural mineral waters",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/SPS/UKR/26_04785_02_x.pdf",
+      "notes": "Table 1 published figure 0,050 мг/л chromium, species unspecified, recorded as total chromium, not Cr-VI. Draft Order safety indicators, Table 1, unit мг/л. Register conversion uses 1 mg/L = 1000 µg/kg. Draft, comment deadline 2026-11-15 (G/SPS/N/UKR/266/Rev.1). Not an in-force maximum level."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4857_pb_herbal_face_mask_10mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 10000,
+      "basis": "herbal face mask finished product, mg/kg",
+      "basis_class": "as_sold",
+      "product_scope": "herbal face mask",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05003_00_e.pdf",
+      "notes": "Table 3: Lead 10 mg/kg max. Register value 10000 µg/kg. CDC 3 (4857) DTZS Table 3. Draft, G/TBT/N/TZA/1658, comment deadline 2026-11-23. Footnote: the total amount of heavy metals as lead, mercury and arsenic, in combination in the finished product, shall not exceed 10 mg/kg. That combined cap is not a single-analyte row."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4857_tas_herbal_face_mask_2mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tAs",
+      "value_ug_kg": 2000,
+      "basis": "herbal face mask finished product, mg/kg",
+      "basis_class": "as_sold",
+      "product_scope": "herbal face mask",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05003_00_e.pdf",
+      "notes": "Table 3: Arsenic 2 mg/kg max. Arsenic unspecified, recorded as total arsenic. Register value 2000 µg/kg. CDC 3 (4857) DTZS Table 3. Draft, G/TBT/N/TZA/1658, comment deadline 2026-11-23. Footnote: the total amount of heavy metals as lead, mercury and arsenic, in combination in the finished product, shall not exceed 10 mg/kg. That combined cap is not a single-analyte row."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4857_thg_herbal_face_mask_2mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tHg",
+      "value_ug_kg": 2000,
+      "basis": "herbal face mask finished product, mg/kg",
+      "basis_class": "as_sold",
+      "product_scope": "herbal face mask",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05003_00_e.pdf",
+      "notes": "Table 3: Mercury 2 mg/kg max. Mercury unspecified, recorded as total mercury. Register value 2000 µg/kg. CDC 3 (4857) DTZS Table 3. Draft, G/TBT/N/TZA/1658, comment deadline 2026-11-23. Footnote: the total amount of heavy metals as lead, mercury and arsenic, in combination in the finished product, shall not exceed 10 mg/kg. That combined cap is not a single-analyte row."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4857_cd_herbal_face_mask_1mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Cd",
+      "value_ug_kg": 1000,
+      "basis": "herbal face mask finished product, mg/kg",
+      "basis_class": "as_sold",
+      "product_scope": "herbal face mask",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05003_00_e.pdf",
+      "notes": "Table 3: Cadmium 1 mg/kg max, test method ISO 21392. Register value 1000 µg/kg. The combined lead-mercury-arsenic footnote does not include cadmium. CDC 3 (4857) DTZS Table 3. Draft, G/TBT/N/TZA/1658, comment deadline 2026-11-23. Footnote: the total amount of heavy metals as lead, mercury and arsenic, in combination in the finished product, shall not exceed 10 mg/kg. That combined cap is not a single-analyte row."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4858_pb_magnesium_oxide_10mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 10000,
+      "basis": "magnesium oxide for the cosmetic industry, mg/kg as Pb",
+      "basis_class": null,
+      "product_scope": "magnesium oxide for the cosmetic industry",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05004_00_e.pdf",
+      "notes": "CDC 3 (4858) DTZS Table 1: Lead (as Pb) 10.0 mg/kg max. Register value 10000 µg/kg. Draft, G/TBT/N/TZA/1659, comment deadline 2026-11-23. The table does not state a mercury or cadmium limit."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4858_as_as2o3_magnesium_oxide_2mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "As-as-As2O3",
+      "value_ug_kg": 2000,
+      "basis": "magnesium oxide for the cosmetic industry, mg/kg as AS2O3",
+      "basis_class": null,
+      "product_scope": "magnesium oxide for the cosmetic industry",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05004_00_e.pdf",
+      "notes": "CDC 3 (4858) DTZS Table 1: Arsenic (as AS2O3) 2.0 mg/kg max, source spelling AS2O3. Register value 2000 µg/kg of the published oxide expression. Not converted to elemental arsenic and not recorded as tAs."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4859_pb_skin_cleanser_10mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 10000,
+      "basis": "skin cleanser, mg/kg; moisture basis not stated",
+      "basis_class": null,
+      "product_scope": "skin cleanser for cosmetic purposes",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05005_00_e.pdf",
+      "notes": "CDC 3 (4859) DTZS Table 3: Lead 10.0 mg/kg. Table title says the limits confirm with TZS 2122-1:2025/EAS 835-1:2022. Register value 10000 µg/kg. Draft, G/TBT/N/TZA/1660, comment deadline 2026-11-23. No cadmium row is printed."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4859_tas_skin_cleanser_2mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tAs",
+      "value_ug_kg": 2000,
+      "basis": "skin cleanser, mg/kg; moisture basis not stated",
+      "basis_class": null,
+      "product_scope": "skin cleanser for cosmetic purposes",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05005_00_e.pdf",
+      "notes": "Table 3: Arsenic 2.0 mg/kg. Arsenic unspecified, recorded as total arsenic. Register value 2000 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "tz_dtzs_cdc3_4859_thg_skin_cleanser_1mgkg",
+      "jurisdiction": "TZ",
+      "authority": "Tanzania Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tHg",
+      "value_ug_kg": 1000,
+      "basis": "skin cleanser, mg/kg; moisture basis not stated",
+      "basis_class": null,
+      "product_scope": "skin cleanser for cosmetic purposes",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/TZA/26_05005_00_e.pdf",
+      "notes": "Table 3: Mercury 1.0 mg/kg. Mercury unspecified, recorded as total mercury. Register value 1000 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "ke_dars2214_2026_pb_disposable_wet_wipes_10mgkg",
+      "jurisdiction": "KE",
+      "authority": "Kenya Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 10000,
+      "basis": "disposable wet wipes, mg/kg; moisture basis not stated in Table 2",
+      "basis_class": null,
+      "product_scope": "non-woven disposable wet wipes for general personal hygiene and sanitizing",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04976_00_e.pdf",
+      "notes": "Table 2: Lead 10 mg/kg max. Test method column cites ISO 21392. Register value 10000 µg/kg. DARS 2214:2026 Table 2. Draft, G/TBT/N/KEN/2117, comment deadline 2026-11-23."
+    },
+    {
+      "regulatory_limit_id": "ke_dars2214_2026_tas_disposable_wet_wipes_2mgkg",
+      "jurisdiction": "KE",
+      "authority": "Kenya Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tAs",
+      "value_ug_kg": 2000,
+      "basis": "disposable wet wipes, mg/kg; moisture basis not stated in Table 2",
+      "basis_class": null,
+      "product_scope": "non-woven disposable wet wipes for general personal hygiene and sanitizing",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04976_00_e.pdf",
+      "notes": "Table 2: Arsenic 2 mg/kg max. Arsenic unspecified, recorded as total arsenic. Register value 2000 µg/kg. DARS 2214:2026 Table 2. Draft, G/TBT/N/KEN/2117, comment deadline 2026-11-23."
+    },
+    {
+      "regulatory_limit_id": "ke_dars2214_2026_cd_disposable_wet_wipes_2mgkg",
+      "jurisdiction": "KE",
+      "authority": "Kenya Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "Cd",
+      "value_ug_kg": 2000,
+      "basis": "disposable wet wipes, mg/kg; moisture basis not stated in Table 2",
+      "basis_class": null,
+      "product_scope": "non-woven disposable wet wipes for general personal hygiene and sanitizing",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04976_00_e.pdf",
+      "notes": "Table 2: Cadmium 2 mg/kg max. Register value 2000 µg/kg. DARS 2214:2026 Table 2. Draft, G/TBT/N/KEN/2117, comment deadline 2026-11-23."
+    },
+    {
+      "regulatory_limit_id": "ke_dars2214_2026_thg_disposable_wet_wipes_5mgkg",
+      "jurisdiction": "KE",
+      "authority": "Kenya Bureau of Standards",
+      "legal_status": "draft",
+      "analyte": "tHg",
+      "value_ug_kg": 5000,
+      "basis": "disposable wet wipes, mg/kg; moisture basis not stated in Table 2",
+      "basis_class": null,
+      "product_scope": "non-woven disposable wet wipes for general personal hygiene and sanitizing",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_04976_00_e.pdf",
+      "notes": "Table 2: Mercury 5 mg/kg max. Test method ISO 23674. Mercury unspecified, recorded as total mercury. Register value 5000 µg/kg. DARS 2214:2026 Table 2. Draft, G/TBT/N/KEN/2117, comment deadline 2026-11-23."
+    },
+    {
+      "regulatory_limit_id": "eac_deas1308_2026_pb_toy_balloons_100mgkg",
+      "jurisdiction": "EAC",
+      "authority": "East African Community",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 100000,
+      "basis": "basis not stated; Table 1 unit mg/kg; test method ISO 8124-3",
+      "basis_class": null,
+      "product_scope": "toy plastic balloons, including foil and Mylar balloons",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/UGA/26_04990_00_e.pdf",
+      "notes": "DEAS 1308:2026 Table 1: Lead (Pb) ≤ 100 mg/kg, test method ISO 8124-3. The draft does not state whether the figure is a content limit or a migration limit. Basis recorded as not stated. Register value 100000 µg/kg. Draft, G/TBT/N/BDI/702/Rev.1, comment deadline 2026-11-23. Cover line also prints 1st Edition 2025."
+    },
+    {
+      "regulatory_limit_id": "eac_deas1308_2026_cd_toy_balloons_75mgkg",
+      "jurisdiction": "EAC",
+      "authority": "East African Community",
+      "legal_status": "draft",
+      "analyte": "Cd",
+      "value_ug_kg": 75000,
+      "basis": "basis not stated; Table 1 unit mg/kg; test method ISO 8124-3",
+      "basis_class": null,
+      "product_scope": "toy plastic balloons, including foil and Mylar balloons",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/UGA/26_04990_00_e.pdf",
+      "notes": "DEAS 1308:2026 Table 1: Cadmium (Cd) ≤ 75 mg/kg, test method ISO 8124-3. Basis not stated. Register value 75000 µg/kg."
+    },
+    {
+      "regulatory_limit_id": "rw_drs650_2026_tas_cake_gel_0_1mgkg",
+      "jurisdiction": "RW",
+      "authority": "Rwanda Standards Board",
+      "legal_status": "draft",
+      "analyte": "tAs",
+      "value_ug_kg": 100,
+      "basis": "cake gel, mg/kg; moisture basis not stated",
+      "basis_class": null,
+      "product_scope": "cake gel used in cake production",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/RWA/26_04746_00_e.pdf",
+      "notes": "DRS 650:2026 Table 3: Arsenic (As) 0.1 mg/kg max, test method AOAC 2015.01. The table names arsenic as As and does not speciate inorganic arsenic, so the row is total arsenic. Register value 100 µg/kg. Draft, G/TBT/N/RWA/1485, comment deadline 2026-11-14."
+    },
+    {
+      "regulatory_limit_id": "rw_drs650_2026_pb_cake_gel_0_1mgkg",
+      "jurisdiction": "RW",
+      "authority": "Rwanda Standards Board",
+      "legal_status": "draft",
+      "analyte": "Pb",
+      "value_ug_kg": 100,
+      "basis": "cake gel, mg/kg; moisture basis not stated",
+      "basis_class": null,
+      "product_scope": "cake gel used in cake production",
+      "regulation_route": "",
+      "official_url": "https://members.wto.org/crnattachments/2026/TBT/RWA/26_04746_00_e.pdf",
+      "notes": "DRS 650:2026 Table 3: Lead (Pb) 0.1 mg/kg max, test method AOAC 2015.01. Register value 100 µg/kg."
     }
   ]
 }
