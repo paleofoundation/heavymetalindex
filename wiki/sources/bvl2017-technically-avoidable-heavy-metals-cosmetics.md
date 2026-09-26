@@ -26,6 +26,20 @@ This BVL announcement/report gives German orientation values for technically avo
 
 Table 1 sets technically avoidable values for lead, cadmium, mercury, arsenic, and antimony in cosmetic products in general and in toothpaste, with higher lead values for specified decorative and theater/fan/carnival make-up categories and a higher arsenic value for theater/fan/carnival make-up. These are recorded as guidance impurity limits rather than statutory maximum levels. Arsenic is recorded as total arsenic (tAs), and mercury is recorded as total mercury (tHg), because the table does not state narrower species.
 
+## Key numbers
+
+Table 1 (printed p. 52) is an image in the PDF; the values below were read from the page image. Levels above these values are considered technically avoidable, in mg/kg:
+
+| Element | Cosmetic products in general | Toothpaste |
+| --- | --- | --- |
+| Lead | 2.0 (5 for make-up powder, rouge, eye shadow, eye liner, kajal, and theatre, fan or carnival make-up) | 0.5 |
+| Cadmium | 0.1 | 0.1 |
+| Mercury | 0.1 | 0.1 |
+| Arsenic | 0.5 (2.5 for theatre, fan or carnival make-up) | 0.5 |
+| Antimony | 0.5 | 0.5 |
+
+The values rest on the German Monitoring Scheme of 2010 to 2012: 1,735 samples of baby powder, lip products, eye products, tinted cream, camouflage, rouge, theatre make-up, children's toothpaste and toothpaste, analysed for lead, cadmium, mercury, arsenic and antimony after a standardised pressure digestion (method K 84.00-29). Because many results were below the limit of detection or determination, statistics were recalculated by the lower-bound method. For products other than the listed decorative groups, the 90th percentile of lead was below 2 mg/kg; for cadmium and mercury it was "significantly below" 0.1 mg/kg; for arsenic it was 0.5 to 0.9 mg/kg; for antimony below 0.5 mg/kg (printed p. 52). The 1985 and 1990 Federal Health Office values are described as outdated. Sunscreens are cosmetic products in the EU, so the "cosmetic products in general" column is the one that applies to them, although sunscreens were not among the monitored groups. The article is copyright 2016, first published online 6 October 2016, in the 2017 volume (12:51-53). Contact printed: 105@bvl.bund.de.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
