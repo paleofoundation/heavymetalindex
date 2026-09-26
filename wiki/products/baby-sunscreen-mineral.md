@@ -27,7 +27,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 Pediatric sunscreens using ZnO and/or TiO2 as mineral UV filters. Contaminated row of the Row 9 / Row 10 pair: ZnO carries Pb/Cd platform load (sphalerite-derived); TiO2 carries Pb/iAs/Cd platform load (rutile/ilmenite-derived).
 
-This page began as a Step 0 lock scaffold for Cat 2 Row 10. Source pages and measured values ingested on 2026-09-26 are listed in the Source Evidence Inventory below; no synthesis has been written for this row yet. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page began as a Step 0 lock scaffold for Cat 2 Row 10. Source pages and measured values ingested on 2026-09-26 are listed in the Source Evidence Inventory below. The full account, including toxicology, the raw-material route, and the limits of an exposure calculation, is [[synthesis/heavy-metals-in-mineral-baby-sunscreens|Heavy metals in mineral baby sunscreens]]. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
