@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-254 open item(s): 86 auto, 168 awaiting a decision.
+256 open item(s): 87 auto, 169 awaiting a decision.
 
 ### OI-20260926-wa-tfca-regulation-page-missing — Register row wa_tfca_pb_cosmetics_general_1000 points to regulations/washington-tfca-cosmetics-pb-1ppm, which does not exist
 
@@ -536,6 +536,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/products/baby-talcum-powder.md`
 - repro: The Levers section says mine-source selection drives an order-of-magnitude difference in finished-product Pb and that reputable supplier COAs report Pb, Cd, Hg, As at the ug/kg level. No source on the page supports either statement.
 - done when: Each quantitative lever statement cites a source page or is removed
+- decision: _pending_
+
+### OI-20260926-stale-product-legends-routing-flips — A full build regenerates source legends on unrelated product pages and flips their routing rows from missing_direct_product_route to source_on_page
+
+- scope: **auto** · type: promote · status: open · repo: index
+- paths: `data/evidence/product_source_routing_audit.csv`, `wiki/products/fruit-purees.md`, `wiki/products/infant-rice-cereal.md`, `wiki/products/pickled-fermented-vegetables.md`, `wiki/products/infant-formula-powder-soy-based.md`
+- repro: On main at 666ce55cd plus the baby lotions, oils, and powders branch, npm run build regenerated legends on product pages outside that ingest and flipped 20 routing rows for pandelova2012-eu-baby-food-formula-elements, seyfferth2025-rice-water-management-as-hg-cd, shavali-gilani2025-canned-tomato-olive-pickle-iran, soto-ocana2024-metal-availability-early-life-microbiome, su2023-arsenic-brown-rice-benefits-risks and wehmeier2023-ias-rice-cola-field-method. The same build also adds shin2004-disposable-diaper-heavy-metals to source_contract_gaps.json. These were not committed with that ingest.
+- done when: A dedicated regeneration commit brings those product-page legends and the routing audit to their generated state; npm run build then leaves product_source_routing_audit.csv unchanged
+
+### OI-20260926-cornstarch-mehg-not-material-warning — Routing the Health Canada NHP guide to baby-powder-cornstarch adds a not-material-corpus warning for MeHg
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/healthcanada2015-natural-health-products-quality-guide.md`
+- repro: npm run build prints: baby-powder-cornstarch / MeHg <-- healthcanada2015-natural-health-products-quality-guide reports MeHg. The guide lists MeHg only as an oral daily tolerance (below 2.0 ug/day, 0.029 ug/kg bw/day); its topical Table 2 lists total mercury, not MeHg.
+- done when: The not-material cell is re-adjudicated or the warning is dispositioned as an oral-only value that does not bear on a topical powder
 - decision: _pending_
 
 ### OI-20260926-cfr-73-1550-register-basis — Register rows for 21 CFR 73.1550 talc omit the 0.5 N HCl extract basis; JECFA talc lead 2 mg/kg not in register
