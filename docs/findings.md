@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-252 open item(s): 87 auto, 165 awaiting a decision.
+253 open item(s): 87 auto, 166 awaiting a decision.
 
 ### OI-20260926-wa-tfca-regulation-page-missing — Register row wa_tfca_pb_cosmetics_general_1000 points to regulations/washington-tfca-cosmetics-pb-1ppm, which does not exist
 
@@ -528,6 +528,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/product_source_routing_audit.csv`, `wiki/products/fruit-purees.md`, `wiki/products/infant-rice-cereal.md`, `wiki/products/pickled-fermented-vegetables.md`, `wiki/products/infant-formula-powder-soy-based.md`
 - repro: On main at 666ce55cd plus the baby lotions, oils, and powders branch, npm run build regenerated legends on product pages outside that ingest and flipped 20 routing rows for pandelova2012-eu-baby-food-formula-elements, seyfferth2025-rice-water-management-as-hg-cd, shavali-gilani2025-canned-tomato-olive-pickle-iran, soto-ocana2024-metal-availability-early-life-microbiome, su2023-arsenic-brown-rice-benefits-risks and wehmeier2023-ias-rice-cola-field-method. The same build also adds shin2004-disposable-diaper-heavy-metals to source_contract_gaps.json. These were not committed with that ingest. A second full build on 2026-09-26 also flipped rows for abbas2023-sparus-aurata-egypt-metals, cantoral2024-lead-levels-mexican-foods, carey2018-rice-dilution-infant-food-eu-arsenic, efsa2024-risk-assessment-iAs-update, fda2016-arsenic-rice-cereal-analytic-results, fda2016-arsenic-rice-risk-assessment, fda2018-iAs-infant-rice-cereals-fy2018 and jackson2012-arsenic-organic-foods-brown-rice-syrup. A standards-gap regeneration also rewrites baby-wipes and other rows of hmtc_standards_gap_report.csv that are stale on main.
 - done when: A dedicated regeneration commit brings those product-page legends and the routing audit to their generated state; npm run build then leaves product_source_routing_audit.csv unchanged
+
+### OI-20260926-pine-pollen-powder-unmapped — Infant pine-pollen skin powder (China 2019 re-test, Pb 19.45 mg/kg) is not mapped to any product row
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/cnpharm2019-nmpa-notice-childrens-powder-lead.md`
+- repro: Decision 2026-09-26: a plant pollen is not starch, so the value was removed from baby-powder-cornstarch and left unmapped. It stays in the number ledger (BLOP-1266) and on the source page.
+- done when: A future taxonomy decision either keeps it unmapped or names a destination row
+- decision: _pending_
 
 ### OI-20260926-not-material-integrity-parser-first-product — audit-not-material-integrity.mjs reads only the first product of a source products: list
 
