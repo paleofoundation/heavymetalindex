@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heavymetalindex.com/schema/evidence/geo-hist.schema.json",
+  "title": "Heavy Metal Index geography, time, and practice fields",
+  "description": "Optional fields for a measured concentration row. All fields may be omitted. When a value is present, tools/evidence/geo-hist.mjs requires geo_source and geo_provenance. Author affiliation and the source-page jurisdictions array are not valid sources for sampling_country.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sampling_country": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 country where the sample was taken."
+    },
+    "sampling_region": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "description": "Admin-1 name as printed."
+    },
+    "lat": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+    "lon": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+    "sampling_year_start": { "type": ["integer", "null"], "minimum": 1900, "maximum": 2100 },
+    "sampling_year_end": { "type": ["integer", "null"], "minimum": 1900, "maximum": 2100 },
+    "harvest_year": { "type": ["integer", "null"], "minimum": 1900, "maximum": 2100 },
+    "practice": {
+      "enum": [
+        "flooded",
+        "awd",
+        "upland",
+        "organic",
+        "conventional",
+        "wastewater_irrigated",
+        "sludge_amended",
+        "mining_proximate",
+        "smelter_proximate",
+        "volcanic_soil",
+        "geogenic_as_groundwater",
+        "post_harvest_processing",
+        "unknown",
+        null
+      ]
+    },
+    "geo_precision": {
+      "enum": ["point", "admin2", "admin1", "country", "multi_country", "unknown", null]
+    },
+    "geo_source": { "type": ["string", "null"], "minLength": 1 },
+    "geo_provenance": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}

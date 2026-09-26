@@ -1,6 +1,6 @@
 ---
-schema_version: 1.2.0
-last_updated: 2026-05-28
+schema_version: 1.2.1
+last_updated: 2026-09-26
 applies_to: wiki/sources/*.md
 ---
 
@@ -60,6 +60,8 @@ See [[../page-templates.md|docs/page-templates.md]] for the prose body conventio
 | `sampling_locations` | array of string | yes (slot) | Sub-national sampling locations: provinces, prefectures, states, districts. Distinct from `jurisdictions` (which is the regulatory jurisdiction the source is published under). Foundation for the contamination-by-region map. Empty array until populated by ingest |
 | `sampling_year_range` | string \| null | yes (slot) | When the food samples were collected, not when the paper was published. Examples: `"2017-2019"`, `"2022"`. A 2024-published paper on 2019-collected samples is a 2019 data point for time-series purposes. Null until populated by ingest |
 
+`sampling_locations` and `sampling_year_range` are inputs to the measurement-row fields in [[geo-hist.md]]. Those ledger fields (`sampling_country`, `sampling_region`, `lat`, `lon`, sampling years, `harvest_year`, `practice`, `geo_precision`) are not source-page frontmatter. `jurisdictions` stays the regulatory jurisdiction and is not copied into `sampling_country`.
+
 ### Editorial
 
 | Field | Type | Required | Description |
@@ -76,6 +78,7 @@ The discipline today: every ingest writes complete frontmatter; missing fields a
 
 ## Version history
 
+- **1.2.1 (2026-09-26)** — documented that `sampling_locations` and `sampling_year_range` feed the measurement-row fields in [[geo-hist.md]], and that `jurisdictions` is not a sampling country. No new frontmatter field.
 - **1.2.0 (2026-05-28)** — added `wiki_doi`, `sampling_locations`, `sampling_year_range` (additive). Migration: `tools/migrate-future-slots.mjs`.
 - **1.1.0 (2026-04-26)** — `evidence_tier` became required (was optional). See [[../schema-history.md]].
 - **1.0.0 (2026-04-25)** — initial schema. See `docs/schema-history.md`.

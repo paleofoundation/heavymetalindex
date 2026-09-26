@@ -18,6 +18,7 @@ This is Cochrane-style schema hygiene. The cost is small while the consumer surf
 ## Per-page schemas
 
 - [[source-page.md|Source pages]] — `wiki/sources/*.md`
+- [[geo-hist.md|Geography, time, and practice fields]] — optional fields on measured concentration rows in `data/evidence/`
 - [[ingredient-page.md|Ingredient pages]] — `wiki/ingredients/*.md`
 - [[product-page.md|Product-category pages]] — `wiki/products/*.md`
 - [[metal-page.md|Metal pages]] — `wiki/metals/*.md`

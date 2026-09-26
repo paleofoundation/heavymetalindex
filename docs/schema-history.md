@@ -2,6 +2,10 @@
 
 This document tracks the migration history of the wiki's structured schemas. Rule-grade vocabulary and current schema specs live in CLAUDE.md and [[docs/page-templates]]; this file is the historical record for understanding legacy frontmatter.
 
+## Evidence ledger geography, time, and practice (2026-09-26)
+
+`value.schema.json`, `claim.schema.json`, and extraction findings gained optional geography, time, and practice fields: `sampling_country`, `sampling_region`, `lat`, `lon`, `sampling_year_start`, `sampling_year_end`, `harvest_year`, `practice`, `geo_precision`, `geo_source`, `geo_provenance`. Existing rows that omit the fields stay valid. The field contract is [[docs/schemas/geo-hist]]. `data/evidence/geo_hist.jsonl` holds the filled copies, including CSV measurement rows whose headers were left unchanged. Backfill copies only values the repo already states. Affiliation and the source-page `jurisdictions` array are not sampling locations. WHO GEMS/Food `region_name` and `food_origins` are not sampling countries; `year_min` and `year_max` on rows that carry a lower-bound µg/kg percentile are copied.
+
 ## Ingredient `contamination_profile` metal set
 
 Current schema: ten metals — **Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U**.
