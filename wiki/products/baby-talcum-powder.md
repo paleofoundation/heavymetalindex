@@ -16,7 +16,7 @@ vulnerable_population: infants-0-24mo
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-14
+updated: 2026-09-26
 sources: 8
 created_by: autonomy_v0
 created_from: cat2_seed
@@ -58,22 +58,47 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/chromium\|Cr]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
-| Analyte | Coverage | Range across cited sources (ppm) | Highest reported (ppm) | Confidence | Key sources |
-|---|---|---|---:|---|---|
-| Pb | n=1 source, 3 samples | 0.240–0.430 | 0.430 | low | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|1]] |
-| Cd | n=1 source, 3 samples | 0.015–0.027 | 0.027 | low | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|1]] |
-| tHg | n=1 source, 3 samples | 0.005–0.025 | 0.025 | low | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|1]] |
-| iAs | data gap | — | — | — | — |
-| tAs | data gap | — | — | — | — |
-| MeHg | data gap (not applicable to dry powder matrix) | — | — | — | — |
-| Ni | data gap | — | — | — | — |
-| Al | data gap | — | — | — | — |
-| Cr | data gap | — | — | — | — |
-| Sn | data gap | — | — | — | — |
+Per-source values for baby talc powders, mg/kg (ppm) as sold unless marked. Each source is listed separately and nothing is pooled. Values that a source's own tables contradict are left out of this table and described in the inventory below.
+
+| Analyte | Source | n | Reported values | Notes |
+|---|---|---:|---|---|
+| Pb | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]] | 3 | 0.240-0.430 | India |
+| Pb | [[sources/yaghi2026-baby-powder-benghazi-libya\|Yaghi et al. 2026]] | 16 | below detection in 6; detected 0.65-15.575 | Libya; detection limit not printed |
+| Pb | [[sources/omenka2016-personal-care-products-ibadan\|Omenka and Adeyi 2016]] | 2 | 5.0 and 468 | Nigeria; 468 corroborated by two other laboratories (508.5, 364.63) |
+| Pb | [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead\|China Food and Drug Network 2019]] | 1 batch | 19.3 | regulatory re-test; limit applied 10 |
+| Pb | [[sources/szcc2020-infant-powders-shenzhen-consumer-council\|Shenzhen Consumer Council 2020]] | 20 | maximum 3.5 | talc and plant-starch powders together; news report |
+| Cd | Rashmi 2020 | 3 | 0.015-0.027 | |
+| Cd | Yaghi et al. 2026 | 16 | below detection in 5; detected 2.275-22.600 | |
+| Cd | Shenzhen Consumer Council 2020 | 20 | maximum 0.31 | talc and plant-starch together |
+| tHg | Rashmi 2020 | 3 | 0.005-0.025 | |
+| tAs | Shenzhen Consumer Council 2020 | 20 | maximum 0.87 | species not stated |
+| Ni | Yaghi et al. 2026 | 15 | below detection in 6; detected 0.675-54.700 | sample P5 excluded (tables conflict) |
+| Ni | Omenka and Adeyi 2016 | 2 | 0.13 and 5.75 | |
+| Cr (total) | Yaghi et al. 2026 | 16 | below detection in 4; detected 1.550-49.975 | total chromium, not Cr(VI) |
+| Al | Yaghi et al. 2026 | 16 | 12.325-275.475 | |
+| Cu | Yaghi et al. 2026 | 16 | 7.525-77.475 | |
+| Zn | Omenka and Adeyi 2016 | 2 | 33.9 and 112,000 | 112,000 reported as 103,750.8 and 41,872.6 by the other laboratories |
+| iAs, MeHg, Cr(VI), Sn | none | | data gap | |
 
 ## Source Evidence Inventory
 
-Single source as of 2026-05-14. Rashmi 2020 measures Pb/Cd/Hg by AAS/CVAAS in three Indian-market baby talcum powder brands (n=3, one sample per brand). All values within author-cited FDA cosmetic limits (Pb 20 ppm, Cd 0.9–3 ppm, Hg 0.5 ppm) but lead is the most-concentrated of the three analytes across all brands. The paper does not report LOD/LOQ, CRM recoveries, or QC frequencies; evidence tier B for the regional journal and methodological gaps. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india]]
+Rashmi 2020 measured lead, cadmium, and mercury in three Indian baby talcum powders by AAS and CVAAS, one sample per brand, with no detection limits or recoveries reported. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india]]
+
+Yaghi et al. 2026 measured aluminium, cadmium, total chromium, copper, lead, and nickel by flame AAS in 16 baby talcum powders bought in Benghazi pharmacies in November 2024, each digested in triplicate. The per-metal cells in Table 5 are used. The Total Metals column, sample P5 nickel, and the row the authors label as FDA limits are not used, because the paper's own tables contradict them or the cited references do not support them. [[sources/yaghi2026-baby-powder-benghazi-libya]]
+
+Omenka and Adeyi 2016 measured zinc, cadmium, lead, and nickel in two baby powders from Ibadan markets, both with ash above 95%. One contained 468 mg/kg lead, a magnitude two other laboratories reproduced. The other was reported at 36.3 mg/kg cadmium, which a third laboratory reported as 0.38; that cadmium value is not used. [[sources/omenka2016-personal-care-products-ibadan]]
+
+Almukainzi et al. 2022 measured eleven elements by ICP-MS in one talc, zinc oxide, and salicylic acid baby powder from Riyadh, reporting lead 23.18 ± 31.82 and nickel 24.67 ± 34.61 ppm. The SD exceeds the mean and the replicate count is not stated, so these values are listed here but not used in the table. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+A 2019 Chinese national non-compliance notice, reported by the regulator-affiliated news site, named a children's talc powder batch at 19.3 mg/kg lead on re-test against a 10 mg/kg limit; a provincial decision found three batches over the limit, all made with the same talc. [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]]
+
+A 2020 Shenzhen Consumer Council test of 20 infant powders, reported in the press, found all within the Chinese national standard. The four samples above the German technically avoidable values were plant-starch powders without talc. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
+
+A Washington State Department of Ecology survey analysed one baby powder of unstated formulation. Printed values were total chromium 2.2, cobalt 0.4, lead 0.4, and molybdenum 0.2 ppm, all below the 1.0 ppm reporting limit in the survey's quality plans; the report does not define its 0.0 entries. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+Moon et al. 2011 estimate airborne exposure during baby powder application and are exposure context. [[sources/moon2011-baby-powder-inhalation-risk-assessment]]
+
+Raw-material specifications for talc appear in two primary texts: 21 CFR 73.1550 sets lead at 20 ppm and arsenic at 3 ppm, measured in a 0.5 N hydrochloric acid extract, for talc used to colour drugs [[sources/cfr2025-21cfr73-1550-talc-color-additive]]; the JECFA food-additive specification sets lead at 2 mg/kg for food-grade talc [[sources/jecfa2003-talc-ins553iii-specification]]. Neither is a finished baby powder limit. Finished-cosmetic limits that reach baby powder sold as a cosmetic are Health Canada's guidance (lead 10, arsenic 3, cadmium 3, mercury 1, antimony 5 ppm) [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], the German BVL orientation values for cosmetics in general (lead 2.0, cadmium 0.1, mercury 0.1, arsenic 0.5, antimony 0.5 mg/kg; baby powder was one of the monitored product groups) [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], and the Washington prohibition on intentionally added lead or lead at or above 1 ppm [[sources/wa-tfca-hb1047-2023]].
 
 ## Broad Product Context: Author-Scope Index
 

@@ -14,7 +14,7 @@ primary_metals_of_concern: [Pb, Cd]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-09-26
 literature_scope: thin
 sources: 8
 created_by: cat2_step0_scaffold_2026_05_16
@@ -60,7 +60,11 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+Almukainzi et al. 2022 measured eleven elements by ICP-MS in one baby oil of light paraffin oil and perfume bought in Riyadh: aluminium 26.81 ± 37.89, total chromium 21.17 ± 29.88, nickel 13.16 ± 18.59, lead 5.52 ± 7.81, cadmium 0.23 ± 0.33, and arsenic 0.15 ± 0.22 ppm. The SD exceeds the mean in every cell and the replicate count is not stated, so these values are recorded but are contested. The same sample carried the highest microbial count in the study, 1471.5 cfu/ml. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+No other source in the corpus measures metals in a product sold as baby oil.
+
+Limits that reach baby oils sold as cosmetics: Health Canada's cosmetics guidance, lead 10, arsenic 3, cadmium 3, mercury 1, antimony 5 ppm [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]]; the German BVL orientation values for cosmetics in general, lead 2.0, cadmium 0.1, mercury 0.1, arsenic 0.5, antimony 0.5 mg/kg [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]]; and Washington's prohibition of intentionally added lead or lead at or above 1 ppm [[sources/wa-tfca-hb1047-2023]]. In Canada, mineral oil at 50 to 100% is a non-prescription drug ingredient for diaper rash under the Diaper Rash Products Monograph, which places such oils under the drug regulations rather than the natural health product limits [[sources/healthcanada2024-diaper-rash-products-monograph]].
 
 ## Broad Product Context: Author-Scope Index
 

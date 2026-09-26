@@ -14,7 +14,7 @@ primary_metals_of_concern: [Pb, Cd]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-09-26
 sources: 16
 created_by: cat2_step0_scaffold_2026_05_16
 ---
@@ -55,7 +55,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+Arshad et al. 2020 analysed 30 lotions from northern Pakistan in triplicate by flame AAS. The one baby lotion (sample L19) contained lead 7.94 ± 0.10, nickel 6.16 ± 0.33, iron 2.01 ± 0.72, chromium 0.67 ± 0.03, and cadmium 0.27 ± 0.02 mg/kg, the second-highest lead and cadmium in the set. A petroleum jelly in the set (L23) contained lead 1.49 ± 0.03 and nickel 2.35 ± 0.29 mg/kg, with cadmium and chromium below detection. [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]]
+
+Omenka and Adeyi 2016 analysed four petroleum jellies labelled for babies in Ibadan: lead ND to 5.00, cadmium ND to 0.13, nickel ND to 4.00, and zinc 5.50 to 16.5 mg/kg. The samples were dried before weighing and the reporting basis is not stated; moisture ranged from 0.12 to 14.7%. [[sources/omenka2016-personal-care-products-ibadan]]
+
+One lot of one baby lotion sold in the United States was reported non-detect for lead (below 5 ppb), cadmium (below 5 ppb), mercury (below 5 ppb), and arsenic (below 10 ppb) in a 2025 community-funded test; the laboratory report itself is not in the published copy. [[sources/leadsafemama2025-baby-lotion-single-lot]]
+
+A Washington State Department of Ecology survey reported cobalt 36.9, molybdenum 2.6, cadmium 1.1, and zinc 5.6 ppm for sample DT033-b01, which its narrative calls a baby cream. Table 4 of the report lists that sample as packaging, so the values describe the cream's container, not the cream. No baby cream contents were analysed. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+Limits that reach baby lotions and creams sold as cosmetics: Health Canada's cosmetics guidance, lead 10, arsenic 3, cadmium 3, mercury 1, antimony 5 ppm, above which impurities are technically avoidable [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]]; the German BVL orientation values for cosmetics in general, lead 2.0, cadmium 0.1, mercury 0.1, arsenic 0.5, antimony 0.5 mg/kg [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]]; and Washington's prohibition of cosmetics with intentionally added lead or lead at or above 1 ppm [[sources/wa-tfca-hb1047-2023]].
 
 ## Broad Product Context: Author-Scope Index
 

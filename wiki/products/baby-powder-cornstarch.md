@@ -16,7 +16,7 @@ variant_type: clean_benchmark
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-09-26
 literature_scope: thin
 sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
@@ -25,7 +25,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 ## Overview
 
-Cornstarch-based baby powder (Johnson's reformulated 2020+ product, generic cornstarch baby powders). Clean baseline of the Row 3 / Row 4 clean-contaminated pair: cornstarch carries no platform metal load, in contrast to talc.
+Cornstarch-based baby powder, including talc-free baby powders reformulated with corn starch. Clean baseline of the Row 3 / Row 4 clean-contaminated pair: cornstarch carries no platform metal load, in contrast to talc.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 3. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
@@ -68,7 +68,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-_Hand-curated section. Populated by the synthesis pass as Cat 2 sources are ingested and route to this row. Initial scaffold state: zero contributing sources._
+No source in the corpus reports metal concentrations for individually identified corn-starch baby powders.
+
+A 2020 Shenzhen Consumer Council test of 20 infant powders, reported in the press, found all within the Chinese national standard. The four samples above the German technically avoidable values were all plant-starch powders without talc. The maxima across all 20 samples were lead 3.5, arsenic 0.87, and cadmium 0.31 mg/kg; one sample exceeded the German values for all three metals. Per-sample values were not obtained. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
+
+A 2019 Chinese national non-compliance notice, reported by the regulator-affiliated news site, named an infant skin powder made of pine pollen, marketed as talc-free, at 19.45 mg/kg lead on re-test against a 10 mg/kg limit. It is a plant powder, not a starch powder; this row is its nearest match. [[sources/cnpharm2019-nmpa-notice-childrens-powder-lead]]
+
+A Washington State Department of Ecology survey analysed one baby powder of unstated formulation, with printed values of total chromium 2.2, cobalt 0.4, lead 0.4, and molybdenum 0.2 ppm, below the survey plans' 1.0 ppm reporting limit. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+In Canada, corn starch (10 to 98%) and kaolin are natural health product ingredients under the Diaper Rash Products Monograph, and powder is a permitted dosage form only in that class [[sources/healthcanada2024-diaper-rash-products-monograph]]. Such products follow the topical limits of the Quality of Natural Health Products Guide: arsenic 3, cadmium 3, lead 10, total mercury 1, antimony 5 ppm [[sources/healthcanada2015-natural-health-products-quality-guide]]. Corn-starch baby powders sold as cosmetics fall under Health Canada's cosmetics guidance (same five values) [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], the German BVL orientation values for cosmetics in general [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], and the Washington lead prohibition at 1 ppm [[sources/wa-tfca-hb1047-2023]].
 
 ## Broad Product Context: Author-Scope Index
 
