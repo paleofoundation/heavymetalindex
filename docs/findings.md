@@ -513,7 +513,45 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-249 open item(s): 84 auto, 165 awaiting a decision.
+254 open item(s): 86 auto, 168 awaiting a decision.
+
+### OI-20260926-wa-tfca-regulation-page-missing — Register row wa_tfca_pb_cosmetics_general_1000 points to regulations/washington-tfca-cosmetics-pb-1ppm, which does not exist
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/`
+- repro: ls wiki/regulations shows washington-tfca-toothpaste-pb-1000ppb.md but no washington-tfca-cosmetics-pb-1ppm.md.
+- done when: Either the regulation page exists or the register row points to an existing page
+
+### OI-20260926-traditional-lead-powder-row — No product row covers traditional or folk lead-oxide topical powders used on or near infants
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/sources/duan2023-infant-lead-poisoning-topical-powder.md`, `wiki/sources/karwowski2016-folk-diaper-powder-infant-lead.md`, `wiki/products/children-personal-care.md`
+- repro: Duan 2023 (Pb 180.1 mg/kg in a traditional powder used by a breastfeeding mother) and Karwowski 2016 (folk diaper powder, 62% Pb by weight) are routed to the children-personal-care hub because no locked row fits. Routing them to baby-talcum-powder would misdescribe them as talc.
+- done when: A Step 0 decision records whether folk or traditional remedy powders get their own row, route to an existing row as context, or stay on the hub
+- decision: _pending_
+
+### OI-20260926-talc-page-unsourced-levers — baby-talcum-powder Levers section makes quantitative claims with no cited source
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/baby-talcum-powder.md`
+- repro: The Levers section says mine-source selection drives an order-of-magnitude difference in finished-product Pb and that reputable supplier COAs report Pb, Cd, Hg, As at the ug/kg level. No source on the page supports either statement.
+- done when: Each quantitative lever statement cites a source page or is removed
+- decision: _pending_
+
+### OI-20260926-cfr-73-1550-register-basis — Register rows for 21 CFR 73.1550 talc omit the 0.5 N HCl extract basis; JECFA talc lead 2 mg/kg not in register
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`
+- repro: Rows us_fda_21cfr73_73_1550_pb_20000 and us_fda_21cfr73_73_1550_tas_3000 carry basis_class as_sold and basis color additive ingredient specification. 21 CFR 73.1550(b) (p.509, 2025 edition, sha256 b29c7ae9...) says lead and arsenic are determined in the solution from boiling 10 g talc 15 min in 50 mL 0.5 N HCl. The JECFA INS 553(iii) talc spec (Pb not more than 2 mg/kg) has no register row. See flag F32 in data/evidence/baby-lotions-oils-powders-ingest-2026-09-26-flags.csv.
+- done when: Both CFR rows note the extract basis in notes or basis; A decision is recorded on whether a JECFA talc food-additive Pb row belongs in the register; No cert comparison treats the CFR talc values as total-content finished-product limits
+- decision: _pending_
+
+### OI-20260926-baby-lop-values-promotion — Promote uncontested baby powder, lotion and oil per-sample values from the 2026-09-26 evidence CSVs into values.jsonl
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/values.jsonl`, `data/evidence/yaghi2026-baby-powder-mg-per-kg.csv`, `data/evidence/omenka2016-personal-care-products-mg-per-kg.csv`, `data/evidence/arshad2020-cosmetics-table1-mg-per-kg.csv`, `data/evidence/stone2021-baby-powder-and-cream-packaging-ppm.csv`
+- repro: product_source_routing_audit.csv shows route_status source_on_page_no_structured_value or direct_context_pending_extraction for yaghi2026, omenka2016, arshad2020, almukainzi2022 on baby-talcum-powder, baby-lotion-cream and baby-oil. The generated Literature Evidence Summary blocks on those product pages still print No concentration data loaded. The per-sample values exist in the listed CSVs with ledger row IDs.
+- done when: values.jsonl gains rows only for cells whose flag_ids are empty or carry only resolved flags (F01,F06-F11,F16,F17,F21,F23,F25,F26,F29,F31-F33,F35,F36,F39,F41,F42,F44,F45); No row from an UNRESOLVED flag (F02-F05,F12-F15,F18-F20,F22,F24,F27,F28,F30,F34,F37,F38,F40,F43) is promoted; Omenka cream rows are excluded until the basis is resolved (F13); npm run prebuild and npm run build pass
 
 ### OI-20260925-jensen-nickel-ci — Jensen 2025 nickel CI is 15.71 on the baby-wipes synthesis and 15.7 on the product page
 
