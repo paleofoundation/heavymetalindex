@@ -513,7 +513,30 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-249 open item(s): 84 auto, 165 awaiting a decision.
+252 open item(s): 85 auto, 167 awaiting a decision.
+
+### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/ingredients/zinc-oxide.md`, `wiki/ingredients/titanium-dioxide.md`
+- repro: Mineral baby sunscreens ingest 2026-09-26: SCCS 2012/2014/2024 and chart row 36 (zinc oxide powder) carry raw-material values but ingredients: [] with routing_input_gaps because no ingredient page exists.
+- done when: Karen decides whether TiO2 and ZnO get ingredient pages (Part 10 page creation); If created, SCCS and raw-material sources declare the ingredient and routing audit shows 0 unresolved
+- decision: _pending_
+
+### OI-20260926-precommit-hook-posix-shell — Pre-commit commit-lock helper uses bash [[ ]] and BSD stat, failing under sh on Linux cloud VMs
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: On a Linux VM, git commit runs .husky/pre-commit under sh; sourcing tools/autonomy/commit-lock.sh fails with [[: not found and an Illegal number from stat output. Workaround used: HMI_SKIP_COMMIT_LOCK=1.
+- done when: git commit touching wiki/sources succeeds on Linux without HMI_SKIP_COMMIT_LOCK; Lock still acquired and released on macOS
+
+### OI-20260926-baby-sunscreen-mineral-scaffold-claims — baby-sunscreen-mineral page keeps unsourced Step 0 scaffold claims (platform attribution, levers, bold text)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/baby-sunscreen-mineral.md`
+- repro: Overview says ZnO carries Pb/Cd load (sphalerite-derived) and TiO2 carries Pb/iAs/Cd (rutile/ilmenite-derived) with no citation; Levers section uses bold and unsourced claims. The 2026-09-26 ingest removed only the brand list and added sources and data.
+- done when: Every overview and levers claim cites an ingested source or is removed; No inline bold for emphasis
+- decision: _pending_
 
 ### OI-20260925-jensen-nickel-ci — Jensen 2025 nickel CI is 15.71 on the baby-wipes synthesis and 15.7 on the product page
 

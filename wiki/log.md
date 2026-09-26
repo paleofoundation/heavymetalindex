@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] ingest | mineral-baby-sunscreens — sources, number ledger, and flags
+
+Pages touched: 24 new source pages ([[sources/rubin2026-sunscreen-metals-comparison-chart]], five [[sources/rubin2025-mineral-baby-sunscreen-case-2505271|laboratory-case pages]], [[sources/oasis2026-35-sunscreens-solvents-metals]], [[sources/dccf2021-infant-child-sunscreens-korea]], [[sources/rodriguez-romero2019-sunscreen-metals-coastal-seawater]], [[sources/tovar-sanchez2013-sunscreen-emerging-pollutants-coastal]], four SCCS opinions, [[sources/efsa2021-e171-titanium-dioxide-safety]], two Danish EPA reports, [[sources/fda2019-sunscreen-proposed-rule-84fr6204]], [[sources/healthcanada2026-primary-sunscreen-monograph]], five skin-penetration papers); updated [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]], [[sources/healthcanada2012-cosmetics-heavy-metal-impurities]], [[sources/healthcanada2015-natural-health-products-quality-guide]], [[sources/fda2023-21cfr-part73-color-additives]], [[sources/eu-2009-1223-cosmetic-products-regulation]], [[sources/rahma2022-infant-skin-barrier-function-review]]; [[products/baby-sunscreen-mineral]]; [[sources/index]].
+Notes: Evidence ingest only; no synthesis page, not minted. Thirty-five PDFs, checksums verified; 23 manifest entries had no PDF. Number ledger docs/briefs/mineral-baby-sunscreens-number-ledger.csv (585 rows); flags data/evidence/mineral-baby-sunscreens-ingest-2026-09-26-flags.csv (22 resolved, 28 unresolved); reading brief docs/briefs/mineral-baby-sunscreens-reading-brief.md. Baby-product values are single commercially tested units (grey literature); laboratory-report values were read from report images because the OCR text layers were wrong. Arsenic and mercury are totals throughout. No source sets a finished-product sunscreen metal limit in the United States. Brand names are not used outside the published headlines quoted on the source pages; the product page overview's brand list was removed. Direction: toward the literature. No certification threshold is set.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
