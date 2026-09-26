@@ -12,7 +12,7 @@ metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb, Ti, Zn]
 products: ["[[products/baby-sunscreen-mineral]]"]
 anchor_sources: ["[[sources/rubin2026-sunscreen-metals-comparison-chart]]", "[[sources/rubin2025-mineral-baby-sunscreen-case-2507165]]", "[[sources/rubin2025-mineral-baby-sunscreen-case-2505470]]", "[[sources/rubin2025-mineral-baby-sunscreen-case-2506212]]", "[[sources/sccs2024-titanium-dioxide-scientific-advice-1661-23]]", "[[sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen]]", "[[sources/rahma2022-infant-skin-barrier-function-review]]"]
 established: 2026-09-26
-wiki_doi: null
+wiki_doi: "10.83376/hmi.heavy-metals-in-mineral-baby-sunscreens"
 updated: 2026-09-26
 ---
 
@@ -203,6 +203,10 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints until external review is recorded. Until at least one external verdict is recorded below, this page is a preprint, not a peer-reviewed work.
 <!-- END: hmi-peer-review -->
+
+## How to cite
+
+Pendergrass, K. (2026). Heavy metals in mineral baby sunscreens. Institute of Contaminant Standards. <https://doi.org/10.83376/hmi.heavy-metals-in-mineral-baby-sunscreens>
 
 ## References
 

@@ -12,7 +12,7 @@ metals: [Pb, Cd, tAs, tHg]
 products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]
 anchor_sources: ["[[sources/agren1991-zno-vehicles-zinc-absorption-skin-wounds]]", "[[sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen]]", "[[sources/yasugi2026-hyperzincemia-zno-ointment-preterm-infant]]", "[[sources/sccs2012-zinc-oxide-nano-opinion-1489-12]]", "[[sources/fda2025-21cfr347-skin-protectant-otc]]", "[[sources/healthcanada2015-natural-health-products-quality-guide]]", "[[sources/fda2023-21cfr-part73-color-additives]]"]
 established: 2026-09-26
-wiki_doi: null
+wiki_doi: "10.83376/hmi.heavy-metals-in-diaper-creams"
 updated: 2026-09-26
 ---
 
@@ -126,6 +126,10 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 
 The Heavy Metal Index publishes synthesis claims as preprints until external review is recorded. Until at least one external verdict is recorded below, this page is a preprint, not a peer-reviewed work.
 <!-- END: hmi-peer-review -->
+
+## How to cite
+
+Pendergrass, K. (2026). Heavy metals in diaper creams. Institute of Contaminant Standards. <https://doi.org/10.83376/hmi.heavy-metals-in-diaper-creams>
 
 ## References
 
