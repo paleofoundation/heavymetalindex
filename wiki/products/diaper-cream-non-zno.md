@@ -17,14 +17,14 @@ pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 12
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, Non-ZnO
 
 ## Overview
 
-Petrolatum-based and plant-based diaper preventatives without zinc oxide (Aquaphor Original, plain petrolatum, calendula/plant-based formulations). Clean baseline of the Row 7 / Row 8 clean-contaminated pair: non-ZnO formulations do not carry the sphalerite-derived Pb/Cd platform.
+Petrolatum-based and plant-based diaper preventatives without zinc oxide (plain petrolatum, calendula/plant-based formulations). Clean baseline of the Row 7 / Row 8 clean-contaminated pair: non-ZnO formulations do not carry the sphalerite-derived Pb/Cd platform.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 7. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
@@ -55,8 +55,8 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Diaper Cream, Non-ZnO (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Diaper Cream, Non-ZnO (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Diaper Cream, Non-ZnO (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Diaper Cream, Non-ZnO (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -102,19 +102,20 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 | 2 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
 | 3 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys... |
 | 4 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
-| 5 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
+| 5 | [[sources/healthcanada2012-cosmetics-heavy-metal-impurities\|Canada 2012]]. *Guidance on Heavy Metal Impurities in Cosmetics*, Health Canada Consumer Product Safety guidance | 2012 | Government guidance | CA/DE/US Pb, tAs, Cd, tHg, Sb occurrence in Health Canada cosmetic-impurity guidance based on toxicology review, comparison with other program limits, German technical-avoidability limits, and Health... |
+| 6 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
