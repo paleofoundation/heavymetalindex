@@ -5,7 +5,7 @@ Prepared 26 September 2026 from a 19-PDF collection. This brief, the number ledg
 Companion files:
 
 - Number ledger: `docs/briefs/baby-lotions-oils-powders-number-ledger.csv`, 1,536 rows, IDs BLOP-0001 to BLOP-1536.
-- Flags: `data/evidence/baby-lotions-oils-powders-ingest-2026-09-26-flags.csv`, 45 flags, F01 to F45 (24 resolved, 21 unresolved).
+- Flags: `data/evidence/baby-lotions-oils-powders-ingest-2026-09-26-flags.csv`, 46 flags, F01 to F46 (25 resolved, 21 unresolved).
 - Structured evidence files (per-sample tables): `data/evidence/yaghi2026-baby-powder-mg-per-kg.csv`, `omenka2016-personal-care-products-mg-per-kg.csv`, `arshad2020-cosmetics-table1-mg-per-kg.csv`, `almukainzi2022-topical-cosmetics-table4-ppm.csv`, `stone2021-baby-powder-and-cream-packaging-ppm.csv`, `islam2024-edible-fats-oils-ppm.csv`. Each row carries its ledger row ID.
 - Claims: twelve rows added to `data/evidence/claims.jsonl` for this collection.
 - Source pages: `wiki/sources/<cite-key>.md` for every cite key named below.
@@ -170,8 +170,8 @@ Part A lists limits read from primary government texts in this collection. Part 
 | Same | Table 1 footnotes a and b | Pb; As | 5 mg/kg (make-up powder, rouge, eye shadow, eyeliner, kajal, theatre make-up); 2.5 mg/kg (theatre make-up) | as sold | not baby products | BLOP-1533, BLOP-1534 |
 | Washington State, Chapter 70A.560 RCW (2023 c 455; certified 7/12/2024) | RCW 70A.560.020(2) | Pb | intentionally added at any level, or at or above 1 ppm, prohibited from 1 January 2025 (retail stock to 1 January 2026) | finished cosmetic | cosmetics sold in Washington; FDA-approved prescription drugs and ingredients regulated as drugs excluded (subsection 7) | BLOP-1535 |
 | Same | RCW 70A.560.020(1)(e) | Hg | intentionally added mercury prohibited; no numeric value | finished cosmetic | same | BLOP-1536 |
-| US FDA, 21 CFR 73.1550 Talc (2025 edition) | 73.1550(b) | Pb; As | 20; 3 ppm | leachate: 10 g talc boiled 15 min in 50 mL 0.5 N HCl, expressed per mass of talc | talc as a colour additive in drugs; raw-material specification, not a finished-product limit (F32) | BLOP-1509, BLOP-1510 |
-| FAO/WHO JECFA, Talc INS 553(iii) specification (61st JECFA, 2003; FNP 52 Add 11) | Purity, Lead | Pb | 2 mg/kg | ingredient as sold, AAS | food-grade talc; no As, Cd, or Hg specification listed | BLOP-1511 |
+| US FDA, 21 CFR 73.1550 Talc (2025 edition) | 73.1550(b) | Pb; As | 20; 3 ppm | leachate: 10 g talc boiled 15 min in 50 mL 0.5 N HCl, expressed per mass of talc; extractable, not total content, and never to be compared directly with total-content results | talc as a colour additive in drugs; raw-material specification, not a finished-product limit (F32); register rows annotated accordingly | BLOP-1509, BLOP-1510 |
+| FAO/WHO JECFA, Talc INS 553(iii) specification (61st JECFA, 2003; FNP 52 Add 11) | Purity, Lead | Pb | 2 mg/kg | ingredient as sold, AAS | food-grade talc, oral use; a food-additive specification, not a cosmetic limit, and excluded from any topical-product limit comparison (register row jecfa2003_pb_talc_food_additive_2000); no As, Cd, or Hg specification listed | BLOP-1511 |
 | Health Canada NNHPD, Diaper Rash Products Monograph (2024-02-23) | Tables 1 to 3; Specifications | none | no metal value | not applicable | assigns corn starch, kaolin, zinc oxide, calamine, allantoin products to the NHP Guide route and mineral oil, petrolatum, dimethicone products to the drug regulations (F42) | none |
 
 Historical German values cited by Health Canada (1985 orientation values: Pb 20, As 5, Cd 5, Hg 1, Sb 10 ppm for cosmetics) are in BLOP-1517 to BLOP-1521. BVL 2017 supersedes them.
@@ -209,6 +209,13 @@ Two high-concentration powders in the collection are folk or traditional remedie
 Baby oil. The only direct baby-oil measurement is Almukainzi's single paraffin-oil sample, whose dispersion is flagged. Islam's mustard oil data are edible-oil context and the paper makes no skin link.
 
 Sample sizes are small. The largest set of commercial baby powders with per-sample values is Yaghi's 16. Omenka has 2 baby powders, Almukainzi 1, Stone 1. Arshad has 1 baby lotion; Omenka 4 baby jellies; Lead Safe Mama 1 lot.
+
+## Decisions recorded on 26 September 2026
+
+- The two 21 CFR 73.1550 register rows now state that the talc limits are measured on an acid extract (extractable, not total content) and must never be compared directly with total-content results. The JECFA food-grade talc lead specification (2 mg/kg) is in the register as a food-additive specification for oral use, excluded from topical-product limit comparisons.
+- Folk and traditional lead-oxide powders (Duan 2023, Karwowski 2016) get no product row. They appear as a named hazard note on the children's personal care hub page.
+- The Health Canada NHP guide's methylmercury value is an oral limit only. The not-material warning it raised on topical rows is suppressed with a recorded reason (F46).
+- Uncontested total-content values were promoted into `data/evidence/values.jsonl` (value_id prefix `lotions-ingest-1-`) and summarised in `data/evidence/category2_baby_topicals_occurrence_summary.csv`: 96 rows for baby talcum powder (Yaghi Table 5 cells except P5 nickel, and the China talc-powder re-test), 4 for corn-starch baby powder (the three Shenzhen maxima, which the article ties to plant-starch powders, and the China pine-pollen re-test), 5 for baby lotion (Arshad L19), and 0 for baby oil. Not promoted: every value with an unresolved flag, the Omenka results (dried samples, reporting basis not stated), the Rosnan digest readings (mg/L), the extract-basis CFR values, Stone's baby powder (0.0 convention unresolved), Almukainzi's baby oil and powder (dispersion unresolved), the single-lot lotion non-detects (no laboratory report), and the two case-report powders. The summary carries only printed values per source; nothing is pooled across sources.
 
 ## Unresolved flags (21)
 

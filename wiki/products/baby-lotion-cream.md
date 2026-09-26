@@ -49,8 +49,8 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Baby Lotion / Baby Cream (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Baby Lotion / Baby Cream (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Baby Lotion / Baby Cream (direct row-fit) | mean 7940 ppb (1 source); highest reported 7940 ppb | 100% detected (1/1, Arshad 2020, as-sold) | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/cadmium\|Cd]] | Baby Lotion / Baby Cream (direct row-fit) | mean 270 ppb (1 source); highest reported 270 ppb | 100% detected (1/1, Arshad 2020, as-sold) | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory

@@ -151,8 +151,15 @@ function rangeCell(summaryRows) {
   const centralSourceIds = new Set()
   const centralKind = new Set()
   let observedMax = -Infinity
+  // Optional column: the lowest printed detected value for a source. Only some
+  // summary files carry it; when present the cell reads as a detected range.
+  let detectedMin = Infinity
 
   for (const row of summaryRows) {
+    if (hasValue(row.min_detected_ppb)) {
+      const low = Number(row.min_detected_ppb)
+      if (Number.isFinite(low) && low < detectedMin) detectedMin = low
+    }
     const censored = /less_than|below/i.test(String(row.censoring_status || ""))
     let central = null
     if (!censored) {
@@ -191,7 +198,11 @@ function rangeCell(summaryRows) {
     }
   }
   if (Number.isFinite(observedMax)) {
-    parts.push(`highest reported ${formatNumber(observedMax)} ppb`)
+    if (Number.isFinite(detectedMin) && detectedMin < observedMax) {
+      parts.push(`detected values ${formatNumber(detectedMin)} to ${formatNumber(observedMax)} ppb`)
+    } else {
+      parts.push(`highest reported ${formatNumber(observedMax)} ppb`)
+    }
   }
 
   if (parts.length === 0) return "Summary statistics only; no comparable numeric range across cited sources"
