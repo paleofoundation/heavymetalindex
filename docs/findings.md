@@ -513,16 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-249 open item(s): 84 auto, 165 awaiting a decision.
-
-### OI-20260925-jensen-nickel-ci — Jensen 2025 nickel CI is 15.71 on the baby-wipes synthesis and 15.7 on the product page
-
-- scope: **human-gated** · type: finding · status: open · repo: index
-- paths: `wiki/synthesis/heavy-metals-in-baby-wipes.md`, `wiki/products/baby-wipes.md`
-- repro: Synthesis prints 8.6 to 15.71. The baby-wipes product page prints 8.6 to 15.7. DOI 10.1111/cod.14753 was not re-opened in WIPES-VERIFY-1.
-- done when: The primary abstract or results table is opened and both pages print the same interval the paper prints.
-- decision: _pending_
-- notes: Not changed in the verification pass. No other opened wipe-table number was in conflict.
+248 open item(s): 84 auto, 164 awaiting a decision.
 
 ### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
 

@@ -3,6 +3,21 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | baby-wipes-pre-mint — drop untraced percents and correct two figures
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]], [[products/baby-wipes]], [[sources/biver2021-antimony-release-polyester-artificial-sweat]]
+Notes: Phenoxyethanol and EDTA stay named, without the untraced 0.40 percent and 0.03 percent. The Biver 0.05 ledger row now cites the Biver abstract; the Göçer REACH 0,05 cell stays its own row. The opened Biver PDF prints the pillowcase at 452 µg/g, and the source page and the synthesis list that figure. The product page and the reading brief print the Isufi nickel interval as 8.6 to 15.71, matching the Crossref abstract. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-26] query | baby-wipes-verify — two mechanical corrections
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: The polyester-sweat sentence had been rewritten as "at most about 2 percent." The opened Biver abstract and the source page print about 0.05 to 2 percent, so the lower bound is restored. Crossref for DOI 10.1177/15280837211046619 names the second author Jaouachi Boubaker, not Jamel Boubaker. No other sentence was rewritten. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-26] query | baby-wipes-rewrite — synthesis text rewritten in house style
+
+Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
+Notes: Full rewrite of the prose into the numbered-section house form with an abstract, numbered bracket citations, and an authored References block of 25 works in first-appearance order. The evidence base is unchanged: every number on the page is in docs/briefs/baby-wipes-number-ledger.csv with its unit and basis, and no study or claim was added beyond the baby-wipes ingest. The Choi milligram-per-kilogram reconstruction stays labeled as derived and is not used in the abstract or beside any limit; the Nyamukamba diaper nickel and Šmajgl diaper tin figures are not scored against any limit. The internal compilation paragraph was removed. Regulatory instruments already discussed in the text now carry reference entries, and the state manufacturer filings in docs/briefs/baby-wipes-state-reports.csv are cited without numbers. Title, slug, licence, and anchor sources are unchanged; wiki_doi stays empty. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
