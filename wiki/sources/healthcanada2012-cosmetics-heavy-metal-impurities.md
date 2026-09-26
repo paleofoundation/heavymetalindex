@@ -16,15 +16,16 @@ raw_sha256: "e1b9bcca7986f1e7644b871c3e9c34de7b266caae503ad205e0506dd1f606ed9"
 access_url: "http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php"
 metals: [Pb, tAs, Cd, tHg, Sb]
 ingredients: []
-products: []
+products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]
 matrices: [cosmetics, cosmetic-impurities, regulatory-guidance, toothpaste]
 jurisdictions: [CA, DE, US]
+library_files: ["raw/studies/diaper-creams-2026-09-25/healthcanada2012-cosmetics-heavy-metal-impurities.pdf (web copy, date modified 2017-10-02, sha256 0fa5ac4ff7c5d01542a91c409658fd4d1711e75c4e6bb591653193f19f697138)"]
 near_duplicates: []
 sample_n: null
 sample_population: "Health Canada cosmetic-impurity guidance based on toxicology review, comparison with other program limits, German technical-avoidability limits, and Health Canada Product Safety Laboratory testing of a number of cosmetics sold in Canada; no sample count or concentration table is printed in the extracted guidance."
 sampling_locations: ["Canada"]
 sampling_year_range: "2012-2016"
-updated: 2026-06-09
+updated: 2026-09-26
 ---
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
@@ -46,6 +47,24 @@ Health Canada issued this guidance to communicate technically avoidable impurity
 - Source-side metal context: children absorb about `50%` of ingested lead; one arsenic dermal-exposure study predicted dermal exposure may contribute less than `1%` of exposure from ingestion; cadmium absorption through skin is described as low (`0.5%`); organic methylmercury is described as a greater concern than inorganic mercury, but the cosmetic impurity limit is stated for mercury generally.
 - Comparator values cited by the guidance: Canadian drinking-water MACs are `0.010 mg/L (0.010 ppm)` for lead, `0.01 mg/L (0.01 ppm)` for arsenic, `0.005 mg/L (0.005 ppm)` for cadmium, `0.001 mg/L (0.001 ppm)` for mercury, and `0.006 mg/L (0.006 ppm)` for antimony. The US FDA limit for arsenic in certain colorants is `<3 ppm`; the US FDA limit for mercury impurities in some colourants is `<1 ppm`.
 - Mercury footnote: the source says the cosmetic impurity limit for mercury was amended from `3 ppm` to `1 ppm` as per the Minamata Convention on Mercury signed by Canada on `October 10, 2013`.
+
+A later web copy of the same guidance, printed 2026-09-25, shows "Date modified: 2017-10-02". Its effective date (2012-07-20) and the five policy limits are unchanged. That copy also prints the following figures:
+
+| Figure | Value as printed | Section |
+| --- | --- | --- |
+| Inorganic lead skin permeability coefficient | about 10-4 cm/hour | 3.2.1 |
+| Acceptable lead impurity in candy likely consumed by small children (US) | 0.1 ppm | 3.2.1 |
+| Lead impurity limit for monograph-stream natural health products applied to the skin | 10 ppm | 3.2.1 |
+| US EPA oral reference dose, arsenic | 0.3 µg/kg bw/day | 3.2.2 |
+| US EPA oral reference dose, cadmium | 0.5 µg/kg bw/day | 3.2.3 |
+| Mercury in most commercial fish (Health Canada) | 0.5 ppm | 3.2.4 |
+| WHO provisional tolerable daily intake, total mercury | 2 µg/kg bw/day | 3.2.4 |
+| WHO provisional tolerable weekly intake, methylmercury | 1.6 µg/kg bw | 3.2.4 |
+| Thimerosal in eye cosmetics (US) | 65 ppm | 3.2.4 |
+| Average antimony intake | about 5 µg per day | 3.2.5 |
+| WHO provisional tolerable daily intake, antimony | 6 µg/kg bw/day | 3.2.5 |
+
+The guidance says that in 2010 the German government concluded its recommended limits could be lowered, as ongoing monitoring had shown. The German values it quotes (lead 20, arsenic 5, cadmium 5, mercury 1, antimony 10 ppm) are the older Federal Health Office figures. The later German table is much lower (lead 2.0, cadmium 0.1, mercury 0.1, arsenic 0.5, antimony 0.5 mg/kg for cosmetics in general; [[sources/bvl2017-technically-avoidable-heavy-metals-cosmetics]]). It lists lead, arsenic, cadmium, mercury, antimony and chromium as prohibited ingredients on the Cosmetic Ingredient Hotlist. It develops no impurity limits for selenium, barium or chromium. It places responsibility on the manufacturer to keep heavy-metal impurities in the finished cosmetic "as few ... as possible", and states that Health Canada may request test results where a risk is suspected.
 
 ## Methods (brief)
 
@@ -75,6 +94,7 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 - No DOI is printed in the extracted guidance. Identity checks before creation found no existing source page for the exact title, URL slug `heavy_metals-metaux_lourds`, raw handle `MFK_paper-18-unknown`, or candidate cite key `healthcanada2012-cosmetics-heavy-metal-impurities`.
 - Numbers are copied in the source's own units (`ppm`, `ppb`, `µg/kg`, `µg/L`, `mg/kg`, `mg/L`) and were not converted.
 - Speciation: the guidance discusses inorganic arsenic and methylmercury in toxicological context, but the cosmetic impurity policy limits are stated for arsenic and mercury generally. This page uses `tAs` and `tHg` for routing context and does not treat the limits as iAs or MeHg occurrence.
+- Diaper-cream routing (2026-09-26): products now names both diaper-cream rows. A zinc oxide diaper cream sold in Canada as a cosmetic falls under this guidance. Licensed zinc oxide diaper-rash products are natural health products, whose topical limits in the NNHPD Quality Guide are numerically identical.
 - Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
 - Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
 - Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
@@ -82,7 +102,7 @@ App: The source can support a Canada cosmetic-regulatory-context card for lead, 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |

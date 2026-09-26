@@ -22,7 +22,7 @@ sample_population: "Narrative review of infant skin physiology, barrier function
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-09-26
 ---
 
 # Rahma & Lane 2022 — Skin barrier function in infants: update and outlook
@@ -57,6 +57,8 @@ This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharma
 - Felter et al. 2017 (ref 148) safety-evaluation framework for diaper-area ingredients with diaper dermatitis (DD): assume **4-fold** increase in dermal absorption in DD-affected skin for ingredients with normal-skin dermal absorption of 1-10%; **2-fold** increase for ingredients with 10-50% absorption; for ingredients with >50% absorption, modification of exposure assessment is not required. For ingredients with unknown permeation data, an assumption of **100% dermal absorption** is acknowledged as very conservative (text, pp. 18-19).
 - Atopic dermatitis (AD) prevalence in children ≈20% (Telofski et al. 2012, ref 141); >90% of AD patients have early age of onset (≤5 years); hydrocortisone serum levels following 1% cream application order with AD severity: severe > moderate > mild (refs 153-154).
 - EMA, SCCS, FDA, and RCPCH regulatory framing (text, pp. 13-19): EMA 2005 Reflection Paper on paediatric excipients; EMA Annex to Commission Guideline (SANTE-2017-11668) prohibits cyclodextrins as permeation-enhancing excipients in products for infants and children <2 yr; SCCS 2021 Notes of Guidance 11th Revision requires assessment of DD-impact on absorption for diaper-area products; US FDA / EMA / USP / Ph.Eur. specify purified-water quality for non-sterile baby-wipe water; RCPCH recommends emollient-containing cleansers for infants and children with AD; American Academy of Pediatrics restricts infant sunscreen use to areas not covered by clothes to minimize absorption (Paller et al. 2011, ref 66).
+- Abstract (p. 1), as printed: "To date there has been no published information regarding dermal absorption of ingredients contained in baby wipes. Similarly, dermal absorption of topical ingredients in infants with underlying skin conditions has not been widely explored."
+- Section 6.3, Post-Cleansing Barrier-Repair Creams (p. 17): many diaper-area formulations contain zinc oxide, "a skin astringent that exhibits mild anti-inflammatory effects", but "there are limited data supporting the effectiveness of zinc oxide ointment in preventing diaper dermatitis" (refs 133, 134). Dexpanthenol 5% is presented as having emerging supporting evidence. The review reports no zinc, lead or cadmium absorption data for diaper creams.
 
 ## Methods (brief)
 
@@ -88,6 +90,7 @@ Narrative literature review. The authors state in the Introduction (p. 1) that t
 - Funding: Ministry of Finance, Republic of Indonesia studentship (Grant Ref S-1778/LPDP.4/2019) for Rahma. No declared conflicts of interest; no industry funding.
 - Open access (CC BY 4.0); re-publishable with attribution under MDPI license terms.
 - The paper-internal reference list assigns ref [78] to "Bernauer et al. 2021 - SCCS Notes of Guidance 11th Revision (SCCS/1628/21)" - this is the SCCS Notes of Guidance 11th Revision, not the 12th Revision that exists at the linked reference record. The two are sequential SCCS guidance versions and should not be conflated.
+- A second copy of this article (SHA-256 2daff72d9097819561a16c8be31f4a99bc58605e9c4e902f3cdf8cf5c9feffeb) was received on 2026-09-26 in a diaper-cream source collection and used to check the abstract and section 6.3 statements above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -96,9 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [3171d069e3](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e3) | 2026-08-02 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added and 1 removed |
-| [10eef01a03](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a03) | 2026-05-28 | correction | 1 section added |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
+| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

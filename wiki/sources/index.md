@@ -2,7 +2,7 @@
 title: Sources
 description: Per-source summary pages covering the peer-reviewed and regulatory literature cited elsewhere in the wiki.
 audience: [regulator, educator, researcher]
-updated: 2026-09-25
+updated: 2026-09-26
 ---
 
 ## Overview
@@ -78,6 +78,27 @@ Direct wipe measurements and the method plans behind the Washington children's-p
 - [[sources/stone2012-wa-qapp-phthalates-metals-childrens-products]] - Ecology Publication 12-07-023. Method plan. Includes total chromium.
 - [[sources/stone2012-wa-qapp-formaldehyde-voc-metals-childrens-products]] - Ecology Publication 12-07-024. Method plan. Includes total chromium.
 
+## Diaper creams, September 2026
+
+Finished-product measurements of zinc oxide diaper creams are consumer-commissioned single-unit reports (grey literature). The pathway studies measure zinc, not lead or cadmium. The regulatory texts set no finished-product metal limit for over-the-counter skin-protectant drugs.
+
+- [[sources/rubin2025a-40pct-zno-diaper-ointment-lot-2025-142]] - One 40% zinc oxide ointment, ICP-MS as received. Lead 3303.8 ppb, cadmium 55.50 ppb.
+- [[sources/rubin2025b-40pct-zno-diaper-paste-lot-2025-169]] - One 40% zinc oxide paste. Lead 1401.0 ppb, cadmium 509.5 ppb.
+- [[sources/rubin2025c-40pct-zno-diaper-paste-lot-2025-182]] - One 40% zinc oxide paste. Lead 4657.1 ppb, cadmium 473.1 ppb.
+- [[sources/rubin2025d-13pct-zno-diaper-cream-lot-2025-218]] - One 13% zinc oxide cream. Lead 1244.1 ppb, cadmium 45.26 ppb.
+- [[sources/rubin2026-diaper-cream-comparison-chart-11-products]] - Eleven-product chart, rounded. Four values match the reports above; seven are chart-only.
+- [[sources/agren1991-zno-vehicles-zinc-absorption-skin-wounds]] - Zinc from zinc oxide dressings through intact human skin and rat wounds.
+- [[sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen]] - Zinc-67 tracer in excised human skin after a zinc oxide nanoparticle formulation.
+- [[sources/pal2016-uvb-zno-nanoparticle-penetration-hairless-mouse]] - UVB and zinc oxide nanoparticle uptake in mouse skin. Numbers only in a supplement not on file.
+- [[sources/yasugi2026-hyperzincemia-zno-ointment-preterm-infant]] - Case report: hyperzincemia in a preterm infant with zinc oxide ointment on eroded diaper dermatitis.
+- [[sources/sccs2012-zinc-oxide-nano-opinion-1489-12]] - EU opinion on nano zinc oxide. No impurity data; dermal absorption of zinc.
+- [[sources/ich2022-q3d-r2-elemental-impurities]] - ICH Q3D(R2), cutaneous permitted daily exposures for drug products.
+- [[sources/fda2025-21cfr347-skin-protectant-otc]] - US OTC skin protectant monograph, zinc oxide 1 to 25 percent.
+- [[sources/fda1990-55fr25204-diaper-rash-tentative-final-monograph]] - US 1990 proposed diaper-rash rule, zinc oxide above 25 to 40 percent in ointment.
+- [[sources/fda2003-68fr33362-skin-protectant-final-monograph]] - US 2003 final skin protectant monograph.
+- [[sources/healthcanada2024-nnhpd-diaper-rash-products-monograph]] - Health Canada Diaper Rash Products Monograph, 2024.
+- [[sources/edqm2026-pheur-0252-zinc-oxide-knowledge-database]] - European Pharmacopoeia zinc oxide monograph record. Thallium 5 ppm added; lead and cadmium limits not obtained.
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -85,9 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
-| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 section added |
-| [62866cb6b4](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b4) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
-| [3114d3e7eb](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7eb) | 2026-05-08 | major | 1 source added; narrative text revised |
+| [e1381cf01](https://github.com/paleofoundation/heavymetalindex/commit/e1381cf01) | 2026-09-26 | major | 9 sources added; 1 section added; narrative text revised |
+| [d6c50ecc4](https://github.com/paleofoundation/heavymetalindex/commit/d6c50ecc4) | 2026-09-11 | major | 17 sources added; 1 section added; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 <!-- END: hmi-page-history -->
