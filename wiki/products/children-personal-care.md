@@ -14,7 +14,7 @@ category_label: "Children Personal Care"
 evidence_fitness: EF-5
 hmtc_row_count: 16
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-09-26
 sources: 33
 created_by: cat2_step0_alignment_2026_05_16
 ---
@@ -88,6 +88,18 @@ Three product classes that consumers and journalists sometimes expect under Cat 
 2. **Adult color cosmetics.** Adult lipstick, foundation, mascara, eyeshadow are a planned separate HMT&C category. Cat 2 covers only products specifically marketed to ages 0-5.
 3. **Children's toys with cosmetic elements.** Cosmetic-bearing toys (toy makeup kits where the makeup is intended as play rather than for skin application) fall under CPSIA toy regulation, not Cat 2. The HMT&C boundary is "marketed for application to skin/lips/teeth/nails."
 
+## Hazard note: folk and traditional lead-oxide powders
+
+<!-- audience: regulator, educator, consumer -->
+
+Two case reports in the corpus describe infant lead poisoning linked to powders that are not commercial baby powders and are not talc. No Cat 2 product row covers them, and none is planned; they are recorded here as a named hazard.
+
+A non-commercial folk diaper powder from Malaysia, used on a 9-month-old infant in the United States, contained 62% lead by weight (620,000 mg/kg), mainly as lead oxide, with antimony at 1000 ppm, arsenic at 55 ppm, bismuth at 110 ppm, and thallium at 31 ppm. The infant's blood lead was 13 to 18 µg/dL during use and 8 µg/dL four weeks after use stopped. Only the abstract of this report was available. [[sources/karwowski2016-folk-diaper-powder-infant-lead]]
+
+A traditional Chinese topical powder applied by a breastfeeding mother to her own armpits and under her breasts contained 180.1 ± 0.6 mg/kg lead. Her exclusively breastfed infant's blood lead reached 454.0 µg/L at about 7 months of age, against 77.0 µg/L in the mother, and fell after the powder was withdrawn and chelation began. The powder was not applied to the infant. The report also describes red and yellow lead-oxide powders used in several Chinese provinces for infant diaper rash, eczema, and heat rash. [[sources/duan2023-infant-lead-poisoning-topical-powder]]
+
+The lead levels in these two powders, 180 mg/kg and 620,000 mg/kg, are far above the finished-cosmetic lead limits recorded elsewhere in the corpus, such as 10 ppm in Canada and China and 1 ppm in Washington State.
+
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
@@ -104,6 +116,8 @@ _Pending. Once the 16 row pages each have direct-evidence sources and the poolin
 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Smajgl 2015]] | Row 6 (Sb panel-scope) | 2015 | ICP-OES | Tin in baby diapers (PET-derived); informs Row 6 Sb |
 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad 2020]] | Rows 11-16 (broad context) | 2020 | AAS | Pakistan-market cosmetics; broad pigment-platform context |
 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles 2023]] | Row 12 | 2023 | ICP-MS | Brazil face paints + pancakes; Pb/Ni/Cr/Cd direct |
+| [[sources/karwowski2016-folk-diaper-powder-infant-lead\|Karwowski et al. 2016]] | Hub hazard note (no row) | 2016 | Abstract only | Folk diaper powder, Malaysia; 62% Pb by weight; infant blood lead 13-18 µg/dL |
+| [[sources/duan2023-infant-lead-poisoning-topical-powder\|Duan et al. 2023]] | Hub hazard note (no row) | 2023 | Case report | Traditional topical powder used by the mother; Pb 180.1 mg/kg; infant blood lead 454.0 µg/L |
 
 ## Broad Product Context: Author-Scope Index
 

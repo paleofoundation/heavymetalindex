@@ -50,12 +50,12 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/mercury-total\|tHg]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-total\|tAs]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/nickel\|Ni]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/chromium\|Cr]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | powder (direct row-fit) | detected values 650 to 19300 ppb | 63% detected (10/16, Yaghi 2026, as-sold) | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 2 cited | low (1-2 sources) | as-sold |
+| [[metals/cadmium\|Cd]] | powder (direct row-fit) | detected values 2275 to 22600 ppb | 69% detected (11/16, Yaghi 2026, as-sold) | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/mercury-total\|tHg]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 1000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | powder (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (technically unavoidable impurity)) | 0 | data gap | Basis not reported |
+| [[metals/nickel\|Ni]] | powder (direct row-fit) | detected values 675 to 54700 ppb | 67% detected (10/15, Yaghi 2026, as-sold) | No applicable cap loaded | 1 cited | low (1-2 sources) | as-sold |
+| [[metals/chromium\|Cr]] | powder (direct row-fit) | detected values 1550 to 49975 ppb | 75% detected (12/16, Yaghi 2026, as-sold) | No applicable cap loaded | 1 cited | low (1-2 sources) | as-sold |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 Per-source values for baby talc powders, mg/kg (ppm) as sold unless marked. Each source is listed separately and nothing is pooled. Values that a source's own tables contradict are left out of this table and described in the inventory below.
@@ -116,9 +116,9 @@ _Pending. FDA does not set baby-powder-specific binding limits; cosmetic talc is
 
 Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
-1. **Sourcing levers** (highest impact): mine-source selection. Talc from cosmetic-grade deposits in pre-screened-low-Pb regions vs. lower-grade or industrial-grade deposits drives an order-of-magnitude difference in finished-product Pb.
+1. **Sourcing levers** (highest impact): mine-source selection. Talc from cosmetic-grade deposits in pre-screened-low-Pb regions vs. lower-grade or industrial-grade deposits drives a difference in finished-product Pb.
 2. **Refining levers**: cosmetic-grade talc is washed, ground, and air-floated to remove impurities; the depth of refining controls residual heavy-metal load.
-3. **Testing/QC levers**: lot-level ICP-MS testing at the supplier vs. spot-check at the brand. Cosmetic-grade talc COAs from reputable suppliers report Pb, Cd, Hg, As at the µg/kg level.
+3. **Testing/QC levers**: lot-level ICP-MS testing at the supplier vs. spot-check at the brand. Cosmetic-grade talc COAs from reputable suppliers report Pb, Cd, Hg, As.
 4. **Packaging-and-storage levers**: minor impact. Most heavy-metal load is from the raw talc itself, not from packaging interaction.
 
 Magnitude evidence pending additional source ingest.
