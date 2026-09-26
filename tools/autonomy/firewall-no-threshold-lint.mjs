@@ -93,6 +93,7 @@ const PUBLIC_DIRS = [
   "wiki/microbiome",
   "wiki/certification",
   "wiki/synthesis",
+  "wiki/baselines",
 ]
 const HOMEPAGE = "wiki/index.md"
 const SKIP_PATTERNS = [

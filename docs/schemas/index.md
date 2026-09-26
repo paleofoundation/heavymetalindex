@@ -19,6 +19,7 @@ This is Cochrane-style schema hygiene. The cost is small while the consumer surf
 
 - [[source-page.md|Source pages]] — `wiki/sources/*.md`
 - [[geo-hist.md|Geography, time, and practice fields]] — optional fields on measured concentration rows in `data/evidence/`
+- [[rice-arsenic-baseline.md|Rice arsenic Ground Truth contract]]: qualifying ledger rows for the public rice arsenic baseline scaffold
 - [[ingredient-page.md|Ingredient pages]] — `wiki/ingredients/*.md`
 - [[product-page.md|Product-category pages]] — `wiki/products/*.md`
 - [[metal-page.md|Metal pages]] — `wiki/metals/*.md`

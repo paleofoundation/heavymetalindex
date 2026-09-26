@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-26] query | rice-arsenic-ground-truth — scaffold baseline from ledger rows
+
+Pages touched: [[baselines/rice-arsenic]], [[baselines/index]]
+Notes: Qualifying rows are copied from geo_hist.jsonl joined to the ledger record named by row_id. 133 rows have a sampling country, a sampling year, and iAs or tAs on a rice matrix (28 inorganic, 105 total). Sampling region and sampling country CN are 0 on that set, so the China-by-province section is not yet filled from the ledger. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]
