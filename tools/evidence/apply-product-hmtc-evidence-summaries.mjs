@@ -33,6 +33,7 @@ const endMarker = "<!-- END: hmi-hmtc-evidence-summary -->"
 
 const gapRows = fs.existsSync(gapPath) ? parseCsv(fs.readFileSync(gapPath, "utf8")) : []
 const occurrenceRows = readOccurrenceRows()
+const publicDisplayValueRows = readPublicDisplayValueRows()
 const limitRows = fs.existsSync(limitsPath) ? parseCsv(fs.readFileSync(limitsPath, "utf8")) : []
 const limitsById = new Map(limitRows.map((row) => [row.regulatory_limit_id, row]))
 const sourceCatalog = readSourceCatalog()
@@ -99,6 +100,10 @@ function buildPublicSection({ productSlug, productLabel, subcategory, rows, prim
   const tableRows = primaryMetals.map((metal) => {
     const gapRow = rows.find((row) => canonicalMetal(row.metal_species) === metal) ?? {}
     const summaryRows = occurrenceRowsFor(productSlug, metal)
+    const displayRows = publicDisplayValueRowsFor(productSlug, metal)
+    if (summaryRows.length === 0 && displayRows.length > 0) {
+      return publicDisplayRow(metal, gapRow, displayRows, subcategory)
+    }
     return publicRow(metal, gapRow, summaryRows, subcategory)
   })
 
@@ -130,6 +135,47 @@ function publicRow(metal, gapRow, summaryRows, subcategory) {
     Confidence: confidenceCell(summaryRows),
     Basis: basisCell(summaryRows),
   }
+}
+
+// values.jsonl rows marked public_summary_scope: "product_page_only" render in
+// the public block when the product has no occurrence-register rows. They are
+// never read by the staff snapshot, the gap report, or the pooling engine.
+function publicDisplayRow(metal, gapRow, displayRows, subcategory) {
+  const detected = displayRows.filter((row) => row.censoring !== "below_reporting_value")
+  const censored = displayRows.length - detected.length
+  const values = detected.map((row) => Number(row.normalized_value)).filter(Number.isFinite)
+  const sourceIds = unique(displayRows.map((row) => row.source_id))
+  const grey = displayRows.some((row) => String(row.evidence_tier || "").toUpperCase() === "C")
+  const units = displayRows.reduce((n, row) => n + (Number(row.measurement_n) || 1), 0)
+  const unitText = numberText(units, "unit")
+
+  let range
+  if (values.length === 0) range = `All ${unitText} below the reporting value`
+  else {
+    const lo = Math.min(...values)
+    const hi = Math.max(...values)
+    range = lo === hi ? `single-unit result ${formatNumber(lo)} ppb` : `single-unit results ${formatNumber(lo)} to ${formatNumber(hi)} ppb`
+    range += ` (${numberText(values.length, "unit")}, ${numberText(sourceIds.length, "source")})`
+    if (censored > 0) range += `; ${censored} below the reporting value`
+  }
+
+  const basisNotes = unique(displayRows.map((row) => (row.basis === "as_received" ? "as received (finished product as sold)" : basisLabel(row.basis))))
+  return {
+    Analyte: metalLabel(metal),
+    Subcategory: `${subcategory.publicLabel} (direct row-fit; ${grey ? "grey-literature single units" : "single units"})`,
+    "Reported concentration range": range,
+    "Detection rate": `${detected.length}/${displayRows.length} tested units above the reporting value`,
+    "Applicable regulatory cap": regulatoryCapCell(gapRow),
+    Sources: `${sourceIds.length} cited${grey ? " (grey literature, evidence tier C)" : ""}`,
+    Confidence: grey ? "low (grey literature; one unit per product)" : confidenceCell(displayRows),
+    Basis: basisNotes.join("; "),
+  }
+}
+
+function publicDisplayValueRowsFor(productSlug, metal) {
+  return publicDisplayValueRows.filter(
+    (row) => String(row.product_matrix || "").trim() === productSlug && canonicalMetal(row.metal_species) === metal,
+  )
 }
 
 function subcategoryCell(metal, gapRow, summaryRows, subcategory) {
@@ -701,6 +747,25 @@ function readOccurrenceRows() {
       if (!slug) continue
       rows.push({ ...row, row_slug: slug, summary_file: relativePath })
     }
+  }
+  return rows
+}
+
+function readPublicDisplayValueRows() {
+  const valuesPath = path.join(repoRoot, "data/evidence/values.jsonl")
+  if (!fs.existsSync(valuesPath)) return []
+  const rows = []
+  for (const line of fs.readFileSync(valuesPath, "utf8").split("\n")) {
+    if (!line.trim()) continue
+    let row
+    try {
+      row = JSON.parse(line)
+    } catch {
+      continue
+    }
+    if (row.public_summary_scope !== "product_page_only") continue
+    if (row.review_state !== "reviewed") continue
+    rows.push(row)
   }
   return rows
 }

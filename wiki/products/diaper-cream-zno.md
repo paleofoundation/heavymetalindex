@@ -56,8 +56,8 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Diaper Cream, ZnO-Based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Diaper Cream, ZnO-Based (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Diaper Cream, ZnO-Based (direct row-fit; grey-literature single units) | single-unit results 1244.1 to 4657.1 ppb (4 units, 4 sources) | 4/4 tested units above the reporting value | No applicable cap loaded | 4 cited (grey literature, evidence tier C) | low (grey literature; one unit per product) | as received (finished product as sold) |
+| [[metals/cadmium\|Cd]] | Diaper Cream, ZnO-Based (direct row-fit; grey-literature single units) | single-unit results 45.26 to 509.5 ppb (4 units, 4 sources) | 4/4 tested units above the reporting value | No applicable cap loaded | 4 cited (grey literature, evidence tier C) | low (grey literature; one unit per product) | as received (finished product as sold) |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -168,9 +168,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [7a76d4479](https://github.com/paleofoundation/heavymetalindex/commit/7a76d4479) | 2026-09-26 | major | 6 sources added; 1 section added; narrative text revised |
 | [cbedbcc78](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc78) | 2026-08-18 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
