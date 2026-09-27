@@ -1,13 +1,13 @@
 # Manual resourcing, 2026-09-26, group 4 of 5
 
-This report covers the fourth slice of the 2026-09-26 manual-resourcing batch. Thirty-one papers were read. Twenty-eight new source pages were written. Three papers already had source pages and were left unchanged. Structured numbers were copied as printed into the group evidence ledger. No synthesis page, metal page, product page, or ingredient page was edited. Shared routing files, `index.md`, and `wiki/log.md` were not regenerated, because the other four groups are writing source pages at the same time.
+This report covers the fourth slice of the 2026-09-26 manual-resourcing batch. Thirty-one papers were read. Twenty-seven new source pages were written. Three papers already had source pages and were left unchanged. Shotyk et al. 2006 is the same paper as the page group 2 is creating, so this group does not add a page for it. Structured numbers were copied as printed into the group evidence ledger. No synthesis page, metal page, product page, or ingredient page was edited. Shared routing files, `index.md`, and `wiki/log.md` were not regenerated, because the other four groups are writing source pages at the same time.
 
 The edit moves toward the literature. Values stay in the unit and species the paper printed. No certification threshold was computed or implied.
 
 ## Counts
 
 - Papers considered: 31.
-- New source pages: 28.
+- New source pages: 27.
 - Existing pages left unchanged: 3 (Yu 2023 beans, EFSA chromium 2014, Rashmi 2020 baby talcum powder).
 - Ledger rows: 834, in `data/evidence/manual-resourcing-2026-09-26-karen-batch/group-4/numbers.csv`.
 - Flag notes: 129, in the same folder's `flags.md`.
@@ -43,8 +43,7 @@ The edit moves toward the literature. Values stay in the unit and species the pa
 - `oehha2016-antimony-drinking-water-phg`. California public health goal for antimony in drinking water, plus the government limits the document states as limits. Drinking water in general, not bottled water only, so no product page is declared. The water ingredient is declared. The Health Canada 4 ppb figure is the calculated value. The document says the maximum acceptable concentration was set at 6 ppb.
 - `pack2021-preservatives-dishwashing-wet-wipes`. Preservatives in automatic dishwasher detergents and in wet wipes. No metals. The wet wipes are not identified as baby wipes. Routed only to automatic dishwasher detergents.
 - `poon1998-antimony-rat-drinking-water`. Ninety-day antimony drinking-water study in rats. Toxicology, not a survey of drinking water.
-- `shotyk2006-bottled-water-antimony`. Antimony in Canadian and European bottled waters, attributed to PET. Routed to bottled drinking water and to the water ingredient.
-- `shotyk2007-pet-antimony-storage`. Antimony leaching from PET into bottled water during storage. Same routing as Shotyk 2006.
+- `shotyk2007-pet-antimony-storage`. Antimony leaching from PET into bottled water during storage. Routed to bottled drinking water and to the water ingredient.
 - `yucel2021-contact-allergen-sensitivity-children`. Nickel and chromium patch-test rates in children with contact dermatitis. Not product concentrations.
 - `zhou2023-pfas-personal-hygiene-products`. PFAS in personal hygiene products. One headline figure. No metal. No product subtype is resolved.
 
@@ -53,6 +52,7 @@ The edit moves toward the literature. Values stay in the unit and species the pa
 - `yu2023-zhejiang-beans-toxic-elements`. DOI 10.3390/foods12173300. The PDF hash matches the hash already on that page (`f384718f7578809dd564e3c947a01190558a4ef8a74b248e0053bbb687d2ecd7`). Table 3 is already on the page. No new ledger rows.
 - `efsa-chromium-contam-2014`. DOI 10.2903/j.efsa.2014.3595. This PDF hash is `772b81de515781e9b2583f8d4bc7d2e57be69ea8411fa1ebcfaa825c2f4ccc9c`, which differs from the hash on the existing page. The opening text is the 12 June 2014 replacement of the 13 March 2014 version, which is the opinion the page already describes. Not rewritten. No new ledger rows.
 - `rashmi2020-baby-talcum-powder-heavy-metals-india`. Same title as the file named `iris.pdf`. That filename is the journal title, not an EPA IRIS assessment. This PDF hash is `0996bcb4d694d21879773aaa3f71d38db3a82e76ab3b8980f5eb836990f72423`, which differs from the hash on the existing page. The existing page already reports the product-level ranges and means for lead, cadmium, and total mercury and already omits commercial names. Not rewritten. No new ledger rows.
+- Shotyk et al. 2006, DOI 10.1039/b517844b. The canonical page is `shotyk2006-bottled-water-antimony-pet` in group 2 (PR 173). This group does not keep a second source page. The group-4 ledger rows for this paper use that cite key. This file's sha256, a second raw copy, is `990370bd733fd26d0277db8c49d599351c53d1f23adf558cd65ea47edc3dff06`.
 
 ## Codex overlap
 
@@ -82,7 +82,7 @@ Commercial names appear only in the ledger product column. They are not repeated
 
 A local check compared the 28 new pages with existing product, ingredient, and metal slugs. It did not write `product_source_routing_audit.csv`, `routing_unresolved.csv`, or `routing_malformed.csv`.
 
-Result: 28 pages checked, 0 unresolved product targets, 0 unresolved ingredient targets, 0 unresolved metals among the symbols the routing audit maps (lead, cadmium, both arsenic species, both mercury species, nickel, aluminium, chromium, hexavalent chromium, tin, antimony, uranium). Zinc, titanium, cobalt, and barium are outside that map. Those pages exist and are linked from the source pages' related-evidence lists. Selenium is named on the Guney page and has no metal page. The audit map does not treat selenium as an unresolved target.
+Result: 27 pages checked, 0 unresolved product targets, 0 unresolved ingredient targets, 0 unresolved metals among the symbols the routing audit maps (lead, cadmium, both arsenic species, both mercury species, nickel, aluminium, chromium, hexavalent chromium, tin, antimony, uranium). Zinc, titanium, cobalt, and barium are outside that map. Those pages exist and are linked from the source pages' related-evidence lists. Selenium is named on the Guney page and has no metal page. The audit map does not treat selenium as an unresolved target.
 
 Declared gaps, left unresolved on purpose:
 

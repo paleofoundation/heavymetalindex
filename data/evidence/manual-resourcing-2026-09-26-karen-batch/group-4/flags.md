@@ -634,43 +634,43 @@ Type: brand names. Page: not pinned.
 
 The paper prints commercial names. They remain in the ledger product column and are omitted from the source page.
 
-## G4F-106 shotyk2006-bottled-water-antimony
+## G4F-106 shotyk2006-bottled-water-antimony-pet
 
 Type: unclear species. Page: 4.
 
 Measurements are total Sb. The discussion asks how much Sb(III) versus Sb(V) is in the beverage and does not answer it with data.
 
-## G4F-107 shotyk2006-bottled-water-antimony
+## G4F-107 shotyk2006-bottled-water-antimony-pet
 
 Type: brand names. Page: 2-4.
 
 Commercial waters are coded Brand A, B, and C. No retail water brand is printed.
 
-## G4F-108 shotyk2006-bottled-water-antimony
+## G4F-108 shotyk2006-bottled-water-antimony-pet
 
 Type: migration vs total. Page: 1-4.
 
 Purchased bottles are as-sold concentrations. Storage and fill experiments are leaching tests. Bottle walls were measured by INAA as total Sb in the plastic or glass.
 
-## G4F-109 shotyk2006-bottled-water-antimony
+## G4F-109 shotyk2006-bottled-water-antimony-pet
 
 Type: other. Page: 1 and 3-4.
 
 Abstract and results disagree: groundwater 2.2 ± 1.2 versus 2.2 ± 1.4 (n = 34); polypropylene 8.2 ± 0.9 versus 8.2 ± 0.7 (n = 7); 37 day test 50 ± 17 versus 59 ± 17 (n = 2).
 
-## G4F-110 shotyk2006-bottled-water-antimony
+## G4F-110 shotyk2006-bottled-water-antimony-pet
 
 Type: unit ambiguity. Page: 1-5.
 
 Water Sb is in ng l−1. Blanks are in pg l−1. Bottle walls are in mg kg−1. Guidelines are in ug l−1. The text extract uses control characters for plus-minus and for the superscript minus.
 
-## G4F-111 shotyk2006-bottled-water-antimony
+## G4F-111 shotyk2006-bottled-water-antimony-pet
 
 Type: brand names. Page: not pinned.
 
 The paper prints commercial names. They remain in the ledger product column and are omitted from the source page.
 
-## G4F-112 shotyk2006-bottled-water-antimony
+## G4F-112 shotyk2006-bottled-water-antimony-pet
 
 Type: other. Page: not pinned.
 
