@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-27] batch | karen-batch-2026-09-26: routing audit after groups 1 through 5
+
+Pages touched: [[index]]
+Notes: The five 2026-09-26 manual-resourcing groups are on main (115 new source pages). Product-source routing audit regenerated: 6576 rows, 0 unresolved, 0 malformed. Homepage library counts regenerated from the current collection (3261 source pages). Direction: toward the literature. No source-page prose was changed and no synthesis was written.
+
 ## [2026-09-26] query | mineral-baby-sunscreens-summary-uncontested — baby page tables hold uncontested values only
 
 Pages touched: [[products/baby-sunscreen-mineral]]
