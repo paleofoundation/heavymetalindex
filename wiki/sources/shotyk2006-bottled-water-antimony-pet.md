@@ -77,7 +77,7 @@ Table 1, commercially bottled mineral water, ng/L:
 | B | not available | 84.5 ± 10.2 (n = 6) | 255 ± 20 (n = 6) |  |
 | C | not available | 26.4 ± 3.1 (n = 6) | 301 ± 43 (n = 6) |  |
 
-Other German PET brands were 253 to 546 ng/L (n = 5). Three bottles in unidentified recyclable plastic were 32 to 60 ng/L (n = 3). Across 35 European PET brands from 11 countries the median was 343 ng/L. The lowest value, 6 ng/L, was a sample from Poland. Pristine groundwater placed in German PET contained 50 ± 17 ng/L (n = 2) after 37 days in the refrigerator, and an earlier room-temperature experiment reached 566 ng/L (n = 1) after six months.
+Other German PET brands were 253 to 546 ng/L (n = 5). Three bottles in unidentified recyclable plastic were 32 to 60 ng/L (n = 3). Across 35 European PET brands from 11 countries the median was 343 ng/L. The lowest value, 6 ng/L, was a sample from Poland. Pristine groundwater placed in German PET contained 50 ± 17 ng/L (n = 2) after 37 days in the refrigerator in the introduction, and 59 ± 17 ng/L (n = 2) after 37 days in the refrigerator in the results text. An earlier room-temperature experiment reached 566 ng/L (n = 1) after six months. Both 37-day figures are printed, and both are kept.
 
 Neutron activation of the polymers found 397 mg/kg Sb in a PET water bottle (code A) and 351 mg/kg in a PET cola bottle. Glass bottles contained 7.6 and 10.1 mg/kg Sb. The median lead concentration the authors report for the European PET set is 5 ng/L. SLRS-4 measured 224 ± 12 ng/L Sb (n = 17) against a certified 230 ± 40 ng/L.
 
@@ -91,7 +91,7 @@ The measurements support antimony leaching from PET relative to glass, polypropy
 
 ## Limitations
 
-Abstract and body disagree on the groundwater standard deviation (1.2 versus 1.4) and on the polypropylene standard deviation (0.9 versus 0.7). The deionized-water abstract mean and the body range are both printed and are not the same summary.
+Abstract and body disagree on the groundwater standard deviation (1.2 versus 1.4) and on the polypropylene standard deviation (0.9 versus 0.7). The deionized-water abstract mean and the body range are both printed and are not the same summary. The 37-day refrigerator leach prints as 50 ± 17 ng/L in the introduction and as 59 ± 17 ng/L in the results.
 
 ## Related evidence
 

@@ -53,7 +53,7 @@ Jingxin Li, Gejiao Wang, and colleagues identify AnoA, an oxidoreductase in Agro
 
 ## Key numbers
 
-Purified AnoA had a Km for Sb(III) of 64 ± 10 µM and a Vmax of 150 ± 7 nmol min−1 mg−1, with NADP+ as cofactor. One assay incubated the enzyme with 5 mM Sb(III). A 50 mM concentration in the methods is Tris buffer, not an antimony dose.
+Purified AnoA had a Km for Sb(III) of 64 ± 10 µM and a Vmax of 150 ± 7 nmol min−1 mg−1, with NADP+ as cofactor. One assay incubated the enzyme with 5 mM Sb(III). Cultures of A. tumefaciens were grown with 0 or 50 µM Sb(III), supplied as K2Sb2(C4H2O6)2. A 50 mM concentration in the methods is Tris buffer.
 
 ## Methods (brief)
 

@@ -52,7 +52,7 @@ Amy Holmes and colleagues applied zinc oxide at 10% by weight in capric/caprylic
 
 ## Key numbers
 
-The formulation used here is 10% wt zinc oxide. For a pH 9 buffer, viable-epidermis pH was 6.80 ± 0.17 before and 6.17 ± 0.29 after (mean ± SD, n = 3). For a pH 6 buffer, viable-epidermis pH was 6.83 ± 0.42 before and 5.10 ± 0.20 after (mean ± SD, n = 3). Those are pH readings, not zinc concentrations. Stratum corneum pH pairs are in the same paragraph and are not repeated as metal concentrations.
+The formulation used here is 10% wt zinc oxide. The membrane area was 1.30 cm2, and the skin surface was dosed at 10 mg/cm2 of each preparation. That figure is an applied dose. For a pH 9 buffer, viable-epidermis pH was 6.80 ± 0.17 before and 6.17 ± 0.29 after (mean ± SD, n = 3). For a pH 6 buffer, viable-epidermis pH was 6.83 ± 0.42 before and 5.10 ± 0.20 after (mean ± SD, n = 3). Those are pH readings, not zinc concentrations. Stratum corneum pH pairs are in the same paragraph and are not repeated as metal concentrations.
 
 ## Methods (brief)
 
@@ -64,7 +64,7 @@ The paper supports a penetration statement about these three vehicles. It does n
 
 ## Limitations
 
-Just Accepted text. No mass-per-mass zinc concentration in viable epidermis was transcribed.
+Just Accepted text. The 10 mg/cm2 figure is the applied dose. No mass-per-mass zinc concentration in viable epidermis was transcribed.
 
 ## Related evidence
 

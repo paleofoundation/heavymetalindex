@@ -91,7 +91,7 @@ Crop means on a wet-weight basis are usable occurrence evidence for total arseni
 
 ## Limitations
 
-Abstract basis is unlabeled. The inorganic-arsenic reference dose is applied to total arsenic. Three crops have no ingredient page.
+Abstract basis is unlabeled. The edible portion was washed and dried at room temperature before analysis, while Table 1 is labeled wet weight. Both statements are printed. The means stay on the table's wet-weight label. The inorganic-arsenic reference dose is applied to total arsenic. Three crops have no ingredient page.
 
 ## Related evidence
 

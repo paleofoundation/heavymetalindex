@@ -30,6 +30,7 @@ metals:
   - "tAs"
   - "Bi"
   - "Tl"
+  - "tHg"
 ingredients: []
 products:
   - "[[products/children-personal-care]]"
@@ -50,6 +51,7 @@ evidence_fitness:
     - "lead content of commercial baby powders or cosmetic talc"
     - "arsenic speciation"
     - "a population rate of this exposure"
+    - "a measured mercury concentration; IVBA leachates were below 0.005 ng leached per kg solid"
 type: "source"
 sources: 0
 updated: "2026-09-27"
@@ -75,7 +77,7 @@ Bulk analysis of unsieved splits found lead at 62 to 64 weight percent (620,000 
 | Simulated lung | 0.03% | 9.9% | 2% | 0.09% | 3.6% |
 | Simulated urine | 0.01% | 1.6% | 2.6% | 0.06% | 0.1% |
 
-Gastric in vitro bioaccessibility for lead is printed as 239,000 mg/kg. The authors then calculate 105,000 mg of bioavailable lead per kg of powder and state that 1 mg of powder would deliver over 10 micrograms of lead. Those two figures are the authors' calculation from the gastric result, not a second measurement.
+Gastric in vitro bioaccessibility for lead is printed as 239,000 mg/kg. The authors then calculate 105,000 mg of bioavailable lead per kg of powder and state that 1 mg of powder would deliver over 10 micrograms of lead. Those two figures are the authors' calculation from the gastric result, not a second measurement. Mercury in the IVBA leachates was below 0.005 nanograms leached per kg solid.
 
 ## Methods (brief)
 
@@ -87,7 +89,7 @@ The article documents one extreme folk remedy and one infant blood-lead course. 
 
 ## Limitations
 
-Single case. The filename supplied with this copy carries a DOI string that is not the DOI printed on the article. Antimony in the abstract (1000 ppm) is 5 ppm lower than the body figure used here (1005 ppm).
+Single case. The filename supplied with this copy carries a DOI string that is not the DOI printed on the article. Antimony in the abstract (1000 ppm) is 5 ppm lower than the body figure used here (1005 ppm). The running text gives the lung-fluid percentages in the table above. The lung-fluid column of the results table also prints 2.2 and 3.7, and those two figures are not aligned to a metal in this copy, so they are not substituted for the running-text percentages.
 
 ## Related evidence
 

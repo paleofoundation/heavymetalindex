@@ -36,9 +36,11 @@ sample_population: "Adult zebrafish exposed for 14 days at 0, 30, 300, and 3000 
 evidence_fitness:
   supports:
     - "nominal antimony exposure concentrations and a statement that intestinal antimony burden exceeded other tissues"
+    - "acute LC50 values for adult zebrafish, printed in mg/L"
   does_not_support:
     - "food or bottled-water occurrence"
     - "tissue concentrations, which are not printed as a quotable table"
+    - "treating the mg/L LC50 series as the same experiment as the µg/L 14-day doses"
 doi: "10.1016/j.ecoenv.2024.116326"
 access_url: "https://doi.org/10.1016/j.ecoenv.2024.116326"
 type: "source"
@@ -58,7 +60,7 @@ Can Liu and colleagues exposed adult zebrafish for 14 days to antimony at 0, 30,
 
 ## Key numbers
 
-Nominal water concentrations were 0, 30, 300, and 3000 µg/L antimony for 14 days. Figure summaries are mean ± standard deviation with n = 3. No food or drinking-water occurrence value is reported.
+Nominal water concentrations were 0, 30, 300, and 3000 µg/L antimony for 14 days. Figure summaries are mean ± standard deviation with n = 3. Measured antimony in the solutions showed an average deviation of less than 20% from those nominal values, and the nominal concentrations were used afterward. A separate acute test in adult zebrafish, by nonlinear regression, gave LC50 values of 79.67 mg/L at 24 h, 70.53 mg/L at 48 h, 60.63 mg/L at 72 h, and 56.71 mg/L at 96 h. Those LC50 figures are in mg/L. They are a different experiment from the 14-day µg/L doses. No food or drinking-water occurrence value is reported.
 
 ## Methods (brief)
 
@@ -66,11 +68,11 @@ Subacute waterborne exposure of Danio rerio. China, Hunan University of Humaniti
 
 ## Evidence fitness
 
-The nominal doses support a description of the exposure design. They do not support a food concentration.
+The nominal doses and the acute LC50 series support a description of the exposure design. They do not support a food concentration.
 
 ## Limitations
 
-Tissue concentrations are not transcribed. The chronic-limit sentence is the authors' rationale for 30 µg/L, not a new regulatory instrument.
+Tissue concentrations are not transcribed. The chronic-limit sentence is the authors' rationale for 30 µg/L, not a new regulatory instrument. The LC50 series is printed as Sb, without a species split in that sentence.
 
 ## Related evidence
 

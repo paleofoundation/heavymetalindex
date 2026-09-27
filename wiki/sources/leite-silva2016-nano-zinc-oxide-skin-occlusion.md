@@ -40,6 +40,7 @@ evidence_fitness:
   does_not_support:
     - "a marketed-sunscreen contaminant survey"
     - "a numeric penetration depth that was not locked to a clean results sentence"
+    - "reading the applied dose as a concentration inside viable epidermis"
 doi: "10.1016/j.ejpb.2016.04.022"
 access_url: "https://doi.org/10.1016/j.ejpb.2016.04.022"
 type: "source"
@@ -59,7 +60,7 @@ V. R. Leite-Silva and colleagues applied topical nano zinc oxide to volunteers a
 
 ## Key numbers
 
-The authors report that the nanoparticles did not penetrate into the viable epidermis of intact skin or of barrier-impaired skin, with or without occlusion. No separate concentration table was locked from the text layer, so no depth or mass figure is added.
+The authors report that the nanoparticles did not penetrate into the viable epidermis of intact skin or of barrier-impaired skin, with or without occlusion. The preparation was 10% w/v zinc oxide, applied at the standard SPF-testing dose printed as 2 mg cm2, for 6 h. Those three figures are dose parameters. They are not concentrations measured inside viable epidermis.
 
 ## Methods (brief)
 
@@ -71,7 +72,7 @@ The page supports that qualitative penetration result. It does not support an oc
 
 ## Limitations
 
-Numeric depths and amounts that may exist in figures were not transcribed.
+The applied dose, formulation, and 6 h duration are recorded. Numeric depths inside the skin were not transcribed.
 
 ## Related evidence
 

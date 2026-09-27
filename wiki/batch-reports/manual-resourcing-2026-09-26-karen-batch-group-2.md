@@ -12,7 +12,7 @@ Evidence-only ingest of the Karen manual-resourcing slice assigned as group 2. D
 | Existing source pages, unchanged | 4 |
 | Existing source page updated from abstract to full text | 1 |
 | New source pages | 25 |
-| Structured evidence rows in the group ledger | 350 |
+| Structured evidence rows in the group ledger | 569 |
 | Papers fully unreadable | 0 |
 | Provisional product or ingredient pages created | 0 |
 
@@ -63,7 +63,7 @@ The ledger is `data/evidence/manual-resourcing-2026-09-26-karen-batch/group-2/va
 - Makoś-Chełstowska 2021. Review. States that most countries have no legal maximum for individual compounds in diapers. Cited concentrations were not copied.
 - Zhi 2020. Twenty-five Chinese soybean cultivars. Pot seed-cadmium means 0.44 and 0.81 mg/kg dry weight at 1.0 and 2.5 mg Cd/kg soil. Field soil total cadmium 1.22 mg/kg. Pot soil total cadmium 0.15 mg/kg.
 - Rehman 2013. Thirty talcum powders, Faisalabad. Table 1 means for Pb, Cd, Co, total Cr, and Cu. First author is Rehman, not the coauthor named in the file. Basis in ppm is not confirmed as mg/kg.
-- Sun 2002. Skin absorption of four inorganic lead compounds in 10 workers and in rats. Results tables are not readable in this copy, so no absorption percentage was entered.
+- Sun 2002. Skin-strip lead on 10 lead-battery workers and rat urinary lead after epicutaneous dosing. Table I blood lead is printed in mg/dL and is left in that unit. Hand totals are 20.74 to 86.53 mg. Back totals are 8.94 to 28.32 mg. Table II urinary means are in ng per 48 hours.
 - Shotyk 2006 commentary. Magazine piece. States a detection limit of five parts per quadrillion, several hundred mg/kg antimony in PET, four parts per trillion in a source water, and up to 30 times more antimony in PET than in the glass comparison. Also processed by Codex locally. No verified DOI or stable access URL.
 - Shotyk, Krachler, and Chen 2006. Antimony in Canadian and European bottled waters and in PET versus glass. Table 1 uses letter codes. Also processed by Codex locally.
 - Boyapati 2013. Methylisothiazolinone hand dermatitis from baby wipes. No metal concentration.
@@ -108,13 +108,13 @@ Gaps recorded rather than invented as pages:
 
 - Rehman Table 1 is the value of record. The abstract lead range (0.0006 to 1.05 ppm) and cobalt minimum (0.003 ppm) do not match the table. The claim that lead was the highest metal in every powder is not what the table shows. The final digest volume is unstated, so ppm is not confirmed as mg/kg. The "20 ppm by FDA" sentence is an author statement, not a regulatory-limit row. Chromium is total chromium. Product names in the methods are not keyed to P1–P30 and are omitted.
 - Zhi. The abstract names Shennong 10, Tiedou 36, and Liaodou 21 as the field cultivars under 0.20 mg/kg. The field-results paragraph names Tiefeng 31, Shennong 10, and Tiedou 36. Both statements are on the page. The 0.20 mg/kg figure is the authors' cited maximum.
-- Edirisinghe. Table 1 is wet weight. The abstract says "on weight basis" without wet or dry. Arsenic is total arsenic, and an inorganic-arsenic reference dose is applied to it. Limits of quantification use different unit bases (0.006 mg/kg cadmium and 18.17 µg/kg arsenic).
-- Shotyk JEM. Groundwater is 2.2 ± 1.2 ng/L in the abstract and in most of the article, and 2.2 ± 1.4 ng/L in one results line (n = 34 either way). Polypropylene is 8.2 ± 0.9 ng/L in the abstract and 8.2 ± 0.7 ng/L in the body. Antimony species in the water were not measured. Brand letters only.
-- Karwowski. Body antimony is 1005 ppm. The abstract says 1000 ppm. Arsenic 55 ppm is elemental total, not inorganic arsenic. The 105,000 mg/kg bioavailable-lead figure and the "over 10 micrograms from 1 mg" sentence are the authors' calculation.
+- Edirisinghe. Table 1 is wet weight. The methods dry the edible portion at room temperature. Both statements are printed, and the means stay on the wet-weight label. The abstract says "on weight basis" without wet or dry. Arsenic is total arsenic, and an inorganic-arsenic reference dose is applied to it. Limits of quantification use different unit bases (0.006 mg/kg cadmium and 18.17 µg/kg arsenic).
+- Shotyk JEM. Groundwater is 2.2 ± 1.2 ng/L in the abstract and in most of the article, and 2.2 ± 1.4 ng/L in one results line (n = 34 either way). Polypropylene is 8.2 ± 0.9 ng/L in the abstract and 8.2 ± 0.7 ng/L in the body. The 37-day refrigerator leach prints as 50 ± 17 ng/L in the introduction and as 59 ± 17 ng/L in the results. Both are kept. Antimony species in the water were not measured. Brand letters only.
+- Karwowski. Body antimony is 1005 ppm. The abstract says 1000 ppm. Arsenic 55 ppm is elemental total, not inorganic arsenic. The 105,000 mg/kg bioavailable-lead figure and the "over 10 micrograms from 1 mg" sentence are the authors' calculation. Mercury in the leachates was below 0.005 ng leached per kg solid. The lung-fluid column also prints 2.2 and 3.7, which are not aligned to a metal, so the running-text percentages stay.
 - Chen. Total content after acid digestion, not migration. Censored minima were not imputed in the ledger. OEKO-TEX and the Chinese textile ceilings are cited without printed numbers, so they are not limit rows.
 - EFSA 2004. DOI 10.2903/j.efsa.2004.24 returned not found. A suffixed candidate was not confirmed. Access URL is the address printed on the opinion. Other substances on the same list are not metals and were not ledgered.
 - Wester. Percent-of-dose cells and a picogram-per-litre drinking-water sentence are column-damaged and were not recorded.
-- Sun. Results tables were not recoverable.
+- Sun. Table I and Table II are now read. Blood lead stays in the printed mg/dL unit. The first two urine day tokens print as 24 and 22 and are kept as printed. Tier stays B because of that blood-lead unit.
 - Holmes and Li. Accepted manuscripts, not final pagination.
 - Gawkrodger. Abstract "positive" counts include the doubtful grade. Table 2 is the count of record.
 - Makos, Kuller, Tuchman, and Schneider are reviews. Cited numerical studies were not copied.
@@ -126,14 +126,14 @@ Gaps recorded rather than invented as pages:
 None of the 30 files failed to open. Partial reads:
 
 - Wester 1992. Applied concentrations are readable. The absorption table is not.
-- Sun 2002. Design is readable. The results tables are not.
+- Sun 2002. Tables are readable. The blood-lead unit is printed as mg/dL and was not rewritten.
 - Shotyk commentary. Figure 1 averages are graphical only.
 - Gawkrodger Table 1 occupation means are not a complete table in this copy.
 - Fields 2006. The wipes letter is readable. A different letter shares the PDF and was ignored.
 
 ## Spot check
 
-Nine ledger rows were re-read against the text extract. All nine passed. A further presence check asked whether each of the 350 original values occurs in the matching text. Three values are present only with thousands separators or a damaged decimal glyph (Karwowski 639,500 ppm and 239,000 mg/kg, and Gawkrodger measured nickel 53.3 µg/L printed as 53Æ3). Those three were confirmed by reading the sentence. No converted units. This is more than 10% of the ledger.
+Nine ledger rows were re-read against the text extract. All nine passed. A later pass added 219 rows after the same text check: Sun Table I (130 cells), Sun Table II (77 cells), Shotyk 59 ng/L, four Liu LC50 values plus the 20% nominal-deviation bound, the Holmes 10 mg/cm2 dose, three Leite-Silva dose parameters, the Li 50 µM Sb(III) culture dose, and the Karwowski mercury detection limit. Distinctive new tokens (64.97, 86.53, 1230.7, 3679.3, 59, 79.67, 56.71, 10 mg/cm2, 50 µM, 0.005 nanograms) were found in the matching text. A further presence check asked whether each of the original 350 original values occurs in the matching text. Three values are present only with thousands separators or a damaged decimal glyph (Karwowski 639,500 ppm and 239,000 mg/kg, and Gawkrodger measured nickel 53.3 µg/L printed as 53Æ3). Those three were confirmed by reading the sentence. No converted units. The checked set is more than 10% of the 569-row ledger.
 
 | value_id | Result |
 | --- | --- |
@@ -146,6 +146,11 @@ Nine ledger rows were re-read against the text extract. All nine passed. A furth
 | g2-karwowski-sb (1005 ppm) | pass |
 | g2-zhi-t1-mean (0.44 mg/kg) | pass |
 | g2-gawk-n-5.0 (n = 21) | pass |
+| g2-sun-c1-hand-total (64.97 mg) | pass |
+| g2-sun-c10-hand-total (86.53 mg) | pass |
+| g2-sun-u-d2-naph (1230.7 ng/48 h) | pass |
+| g2-shotyk-leach-37d-body (59 ng/L) | pass |
+| g2-liu-lc50-96h (56.71 mg/L) | pass |
 
 ## Checks
 
@@ -164,9 +169,10 @@ These are notes for a later queue. `audit-queue.csv` was not edited.
 - Rehman 2013. Confirm whether the unstated digest volume allows a mg/kg basis. Do not treat the author-stated 20 ppm lead figure as an FDA instrument until the instrument is quoted.
 - Edirisinghe 2019. Keep total arsenic distinct from the inorganic-arsenic reference dose used in the risk section.
 - Zhi 2020. Reconcile the two different trios of field cultivars named as below 0.20 mg/kg.
-- Shotyk 2006 JEM. Keep both printed standard deviations for the groundwater and polypropylene means.
+- Shotyk 2006 JEM. Keep both printed standard deviations for the groundwater and polypropylene means, and keep both 37-day refrigerator figures (50 ± 17 and 59 ± 17 ng/L).
 - EFSA 2004. Resolve the DOI before any citation export. Do not mint.
-- Wester 1992 and Sun 2002. Re-key the absorption tables from a cleaner copy before any percent-of-dose row is added.
+- Wester 1992. Re-key the absorption table from a cleaner copy before any percent-of-dose row is added.
+- Sun 2002. Blood lead is printed in mg/dL. Do not convert that column. The day tokens printed as 24 and 22 were not relabeled.
 
 ## Existing synthesis pages these sources touch
 
