@@ -24,6 +24,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { citationReviewIssue } from "../lib/source-publication.mjs"
 import {
   displayType,
   renderAuthorLabel,
@@ -200,6 +201,7 @@ const stats = {
   unchanged: 0,
 }
 const flaggedForMigration = []
+const citationReview = []
 
 for (const [targetKey, citeKeys] of targetToSources) {
   if (targetFilter && !targetKey.startsWith(targetFilter + "/")) continue
@@ -216,7 +218,13 @@ for (const [targetKey, citeKeys] of targetToSources) {
   const legendKeys = allowed
     ? allowed.filter((ck) => sourcesByCiteKey.has(ck))
     : citeKeys
-  const sortedSources = [...legendKeys].sort((a, b) => {
+  const publishableKeys = [...new Set(legendKeys)].filter((key) => {
+    const source = sourcesByCiteKey.get(key)
+    const issue = source ? citationReviewIssue(source.fm) : "Source record missing"
+    if (issue) citationReview.push({ page: targetKey, source: key, reason: issue })
+    return !issue
+  })
+  const sortedSources = publishableKeys.sort((a, b) => {
     const sa = sourcesByCiteKey.get(a)
     const sb = sourcesByCiteKey.get(b)
     const ya = sa?.fm?.year ?? 0
@@ -231,7 +239,7 @@ for (const [targetKey, citeKeys] of targetToSources) {
     targetPath,
     targetKey,
     PUBLIC_LEGEND_USED_FOR.get(targetKey) || new Map(),
-    PUBLIC_LEGEND_NOTE.get(targetKey) || null,
+    PUBLIC_LEGEND_NOTE.get(targetKey) || `<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.${legendKeys.length > publishableKeys.length ? " Additional records await source or bibliographic review and are excluded from this list." : ""}</p>`,
   )
   if (newContent === null) {
     // upsertLegend returned null → page has hand-curated content needing migration
@@ -253,6 +261,11 @@ for (const [targetKey, citeKeys] of targetToSources) {
 }
 
 // ---------- Step 3: write lint file for migration candidates ----------
+if (!dryRun) {
+  const reviewPath = path.join(repoRoot, `data/audits/public-source-citations${targetFilter ? `-${targetFilter.replace(/[^a-z0-9-]/gi, "-")}` : ""}.json`)
+  fs.mkdirSync(path.dirname(reviewPath), { recursive: true })
+  fs.writeFileSync(reviewPath, JSON.stringify(citationReview, null, 2) + "\n")
+}
 
 if (flaggedForMigration.length > 0) {
   fs.mkdirSync(path.dirname(lintPath), { recursive: true })
@@ -285,7 +298,7 @@ function renderLegend(citeKeys, preservedContributions = new Map(), seedContribu
       BEGIN_MARKER,
       "## Sources",
       "",
-      "_No sources currently route to this page. Sources will appear here as ingest fans them into this page via the routing audit (CLAUDE.md Part 5b)._",
+      "No source records are ready to list for this topic. This is a review gap, not evidence that the contaminant is absent.",
       END_MARKER,
     ].join("\n")
   }
@@ -298,7 +311,7 @@ function renderLegend(citeKeys, preservedContributions = new Map(), seedContribu
     // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
     // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
     // line below separates it from the markdown table so the table still parses.
-    noteHtml || `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
+    noteHtml || `<p class="hmi-table-note">Source records associated with this topic. Consult each record for its scope and limitations.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",
@@ -314,6 +327,7 @@ function renderLegend(citeKeys, preservedContributions = new Map(), seedContribu
 }
 
 function renderRow(num, source, usedFor) {
+  if (/Not mechanically resolved|occurrence in null|awaiting synthesis/i.test(usedFor)) usedFor = "Contribution to this topic remains under review; see the source record for its reported scope."
   const fm = source.fm
   const ck = source.citeKey
   const title = (fm.title || "(untitled)").replace(/\|/g, "\\|")

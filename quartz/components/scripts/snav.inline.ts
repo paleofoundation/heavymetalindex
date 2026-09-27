@@ -16,18 +16,31 @@ const snavObserver = new IntersectionObserver((entries) => {
   }
 })
 
-function onSnavSecClick(this: HTMLElement, ev: Event) {
+function onSnavSecClick(this: HTMLElement) {
   const grp = this.closest(".grp")
   if (!grp || grp.classList.contains("snav-further")) return
   // A grouping parent (has children) toggles; a direct parent navigates as usual.
   if (!grp.querySelector("a.sub")) return
-  ev.preventDefault()
   grp.classList.toggle("expanded")
 }
 
 function setupSnav() {
   const snav = document.querySelector(".snav")
   if (!snav) return
+  const toggle = snav.querySelector<HTMLButtonElement>(".snav-toggle")
+  if (toggle) {
+    toggle.hidden = false
+    const onToggle = () => toggle.setAttribute("aria-expanded", String(toggle.getAttribute("aria-expanded") !== "true"))
+    toggle.addEventListener("click", onToggle)
+    const onNavigate = (event: Event) => {
+      if ((event.target as Element).closest("a[href^='#']")) toggle.setAttribute("aria-expanded", "false")
+    }
+    snav.addEventListener("click", onNavigate)
+    window.addCleanup(() => {
+      toggle.removeEventListener("click", onToggle)
+      snav.removeEventListener("click", onNavigate)
+    })
+  }
   snav.querySelectorAll(".grp:not(.snav-further) > a.sec").forEach((sec) => {
     const el = sec as HTMLElement
     el.addEventListener("click", onSnavSecClick)

@@ -145,6 +145,7 @@ const config: QuartzConfig = {
       // sup.cite CSS), and id the bibliography rows wc-N as their targets. No-op
       // on pages without a Works-cited list. Runs after CrawlLinks so the emitted
       // #wc-N hash links are not reprocessed as page links. See numberedCitations.ts.
+      Plugin.PublicPresentation(),
       Plugin.NumberedCitations(),
       // Fold question-style <h3> sections into `.qa` collapsibles (proof accordion)
       // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.

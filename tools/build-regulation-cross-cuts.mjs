@@ -105,7 +105,7 @@ function writeByJurisdictionPage() {
   let md = ""
   md += `---
 title: "Regulations by jurisdiction"
-description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
+description: "Compare the regulations tracked by Heavy Metal Index across jurisdictions and metals."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
 updated: ${today}
@@ -116,11 +116,11 @@ noindex: false
 
 This page is the cross-cut view of every regulation the Heavy Metal Index tracks, organised by jurisdiction. Brand-legal and regulatory-affairs readers comparing how different jurisdictions regulate the same metal should land here.
 
-The page is auto-regenerated on every build from the [\`jurisdiction\`, \`metals\`, \`limit_value\`] frontmatter on each [[regulations|regulation page]]. Edits by hand are overwritten on the next prebuild — propose schema changes on [[methodology]] instead.
+Each entry links to the corresponding regulation, including its scope, legal status, and supporting sources. Coverage reflects the instruments currently documented in the index.
 
 ## Coverage matrix
 
-How many regulation pages the index carries for each (metal, jurisdiction) cell. A blank cell means the index does not yet track any regulation for that combination — that is either a real coverage gap or an ingest backlog item.
+How many regulation pages the index carries for each (metal, jurisdiction) cell. A blank cell means the index has no documented entry for that combination. It does not establish that no applicable legal limit exists.
 
 | Metal | ${jurisdictions.map((j) => escapePipes(JURISDICTION_LABELS[j] || j)).join(" | ")} | Total |
 | --- | ${jurisdictions.map(() => "---:").join(" | ")} | ---: |
@@ -169,7 +169,7 @@ function writeTimelinePage() {
   let md = ""
   md += `---
 title: "Regulatory tightening over time"
-description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
+description: "Explore the effective dates of regulations tracked by Heavy Metal Index, grouped by decade."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
 updated: ${today}
@@ -180,7 +180,7 @@ noindex: false
 
 This timeline is the historical view of every dated regulation the Heavy Metal Index tracks. Read top-to-bottom for the trajectory of the regulatory floor: which limits came in when, which superseded what, where international and EU framings drift apart from US framings.
 
-The page is auto-regenerated on every build from the \`effective_date\` frontmatter on each [[regulations|regulation page]]. Edits by hand are overwritten on the next prebuild.
+Each entry links to the corresponding regulation, including its scope, legal status, and supporting sources. Coverage reflects the instruments currently documented in the index.
 
 ## Headline trajectory
 

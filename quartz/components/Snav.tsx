@@ -124,7 +124,8 @@ export default (() => {
     // Groups the page's H2s under the parent taxonomy for its type (metal /
     // ingredient / product-category / regulator), matched by role. Unknown types
     // fall through to the generic branch below.
-    const model = modelForType(fileData.frontmatter?.type as string | undefined, slug)
+    // Product evidence now follows the article's reading order directly.
+    const model = fileData.frontmatter?.type === "product-category" ? undefined : modelForType(fileData.frontmatter?.type as string | undefined, slug)
     if (model) {
       const title = ((fileData.frontmatter?.title as string) ?? slug.split("/").pop() ?? "").trim()
       const ctx = { pageTitle: title.charAt(0).toLowerCase() + title.slice(1) }
