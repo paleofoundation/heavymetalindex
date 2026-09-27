@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-264 open item(s): 93 auto, 171 awaiting a decision.
+265 open item(s): 93 auto, 172 awaiting a decision.
+
+### OI-20260927-marcelis-evidence-fitness — Marcelis 2025 source page has no evidence_fitness block
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/marcelis2025-micp-leachables-metals.md`
+- repro: Group 2 dedup left marcelis2025-micp-leachables-metals unchanged. sourceContract flags a missing evidence_fitness object. The page already carries Table 6 leachate numbers, so this batch did not rewrite it.
+- done when: evidence_fitness.supports and evidence_fitness.does_not_support are nonempty string arrays; ingest_status is not set to complete unless the compiled-wiki gate is actually finished; no certification threshold is added
+- decision: _pending_
 
 ### OI-20260926-zno-tio2-ingredient-pages — No zinc-oxide or titanium-dioxide ingredient page exists for routing mineral-filter raw-material evidence
 
