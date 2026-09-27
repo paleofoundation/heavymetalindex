@@ -16,6 +16,10 @@ evidence_tier: "B"
 license: "public-reference-only"
 raw_path: "raw/manual-resourcing-2026-09-26-karen-batch/group-2/No.175.pdf"
 raw_sha256: "b90f3e1e7aa6da5db0e065829ecc7b6401d5ca73f9690e8ad02b11b79d27e456"
+near_duplicates:
+  -
+    sha256: "2227661dcaaacdfa9d5093808d7d78a980f1d2793060b0f6d7b7e3a7cc40b250"
+    note: "Second raw copy of this paper from Karen batch group 3 (2026-09-26). Group 3 is dropping its duplicate source page. This page is the canonical Sun 2002 record."
 metals:
   - "Pb"
 ingredients: []
