@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-27] batch | karen-batch-2026-09-26: state-of-food repository counts
+
+Pages touched: [[reports/state-of-heavy-metals-in-food-2026]]
+Notes: The state-of-food report generator rewrote the repository-wide counts so they match the routing refresh: 3261 source pages, 6576 routing rows, 10315 structured evidence records. The 25 promoted findings are unchanged. Direction: toward the literature. No synthesis prose was written.
+
 ## [2026-09-27] batch | karen-batch-2026-09-26: routing audit after groups 1 through 5
 
 Pages touched: [[index]]
