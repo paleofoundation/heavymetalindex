@@ -1,72 +1,93 @@
 ---
-type: source
-cite_key: karwowski2016-folk-diaper-powder-infant-lead
+raw_handle: "MR26G2-karwowski2016"
+cite_key: "karwowski2016-folk-diaper-powder-infant-lead"
 title: "Toxicants in folk remedies: implications of elevated blood lead in an American-born infant due to imported diaper powder"
-authors: ["Karwowski MP", "Morman SA", "Plumlee GS", "Law T", "Kellogg M", "Woolf AD"]
+authors:
+  - "Karwowski MP"
+  - "Morman SA"
+  - "Plumlee GS"
+  - "Law T"
+  - "Kellogg M"
+  - "Woolf AD"
 year: 2016
-publication: "Environmental Geochemistry and Health 39(5):1133-1143. Published online 4 October 2016; print issue October 2017. Evidence here is the abstract as printed on the USGS Publications Warehouse record, Index ID 70182782."
-doi: 10.1007/s10653-016-9881-6
-access_url: "https://pubs.usgs.gov/publication/70182782"
-retrieval_date: 2026-09-26
-source_type: peer-reviewed
-evidence_tier: B
-tier_rationale: "Peer-reviewed interdisciplinary case study with USGS geochemical analysis. Only the abstract was obtained; the full text is paywalled and no open copy was found, so methods, detection limits, and full results could not be checked."
-license: "public-reference-only (USGS record abstract; journal article paywalled)"
-raw_path: "raw/studies/baby-lotions-oils-powders/USGS_publication_page_Karwowski_2016_diaper_powder_lead.pdf"
-raw_sha256: c99f014fece4e232d5f6d8648c626cae5b20944747fc24e2ed4a7e98640fe520
-metals: [Pb, Sb, tAs, Bi, Tl]
+publication: "Environmental Geochemistry and Health 39(5):1133-1143. Published online 4 October 2016."
+doi: "10.1007/s10653-016-9881-6"
+access_url: "https://doi.org/10.1007/s10653-016-9881-6"
+source_type: "peer-reviewed"
+evidence_tier: "A"
+tier_rationale: "Peer-reviewed case report with USGS bulk chemistry and in vitro bioaccessibility. Full text replaces the earlier abstract-only record. Single case, so the tier is not a population survey."
+license: "public-reference-only"
+raw_path: "raw/manual-resourcing-2026-09-26-karen-batch/group-2/10.1016:j.ijheh.2025.114672"
+raw_sha256: "daea67c0084c681a5898ed46e35320b460c05cdbd5e120f77514332af9bec218"
+near_duplicates:
+  -
+    path: "raw/studies/baby-lotions-oils-powders/USGS_publication_page_Karwowski_2016_diaper_powder_lead.pdf"
+    sha256: "c99f014fece4e232d5f6d8648c626cae5b20944747fc24e2ed4a7e98640fe520"
+    note: "Earlier USGS Publications Warehouse abstract record, Index ID 70182782. The filename on the full-text file in this batch uses a DOI string that does not match this paper. The DOI printed on the article is 10.1007/s10653-016-9881-6."
+metals:
+  - "Pb"
+  - "Sb"
+  - "tAs"
+  - "Bi"
+  - "Tl"
 ingredients: []
-products: ["[[products/children-personal-care]]"]
-matrices: [folk-diaper-powder, whole-blood]
-jurisdictions: [US, MY]
-near_duplicates: []
+products:
+  - "[[products/children-personal-care]]"
+matrices:
+  - "folk-diaper-powder"
+  - "whole-blood"
+jurisdictions:
+  - "US"
+  - "MY"
 sample_n: 1
-sample_population: "One 9-month-old US-born infant with elevated blood lead and one non-commercial diaper powder obtained from Malaysia."
+sample_population: "One 9-month-old infant born in the United States, and one non-commercial diaper powder obtained from Malaysia."
 evidence_fitness:
   supports:
-    - abstract-level-composition-of-one-folk-diaper-powder-lead-antimony-arsenic-bismuth-and-thallium
-    - abstract-level-infant-blood-lead-during-and-after-use
-    - the-authors-finding-that-the-metals-were-highly-bioaccessible-in-simulated-gastric-fluid
+    - "bulk elemental composition of one non-commercial Malaysian folk diaper powder"
+    - "in vitro bioaccessibility of those metals in simulated gastric fluid, lung fluid, and urine"
+    - "venous blood lead in one infant during use and four weeks after use stopped"
   does_not_support:
-    - analytical-method-detection-limits-or-replicates-because-only-the-abstract-was-obtained
-    - lead-content-of-commercial-baby-powders
-    - arsenic-speciation
-audience: [regulator, researcher, educator, consumer]
+    - "lead content of commercial baby powders or cosmetic talc"
+    - "arsenic speciation"
+    - "a population rate of this exposure"
+type: "source"
 sources: 0
-updated: 2026-09-26
+updated: "2026-09-27"
+retrieval_date: "2026-09-27"
+audience:
+  - "regulator"
+  - "researcher"
+  - "educator"
+  - "consumer"
 ---
 
-# Karwowski et al. 2016. A Malaysian folk diaper powder with 62% lead and elevated blood lead in a US infant
+# Karwowski et al. 2016. A Malaysian folk diaper powder with extreme lead and elevated blood lead in one US infant
 
-Mateusz Karwowski and colleagues, with US Geological Survey geochemists, report a 9-month-old infant born in the United States whose blood lead was 13 to 18 µg/dL (the abstract prints mcg/dL) against a reference level below 5. The source was a non-commercial diaper powder from Malaysia. Four weeks after use stopped, venous blood lead was 8 µg/dL.
-
-Only the abstract was obtained, from the USGS Publications Warehouse record. All figures below are abstract figures.
+Mateusz Karwowski and colleagues, with US Geological Survey geochemists, report a 9-month-old infant born in the United States whose venous blood lead was 13 to 18 mcg/dL against a reference level below 5 mcg/dL. The source was a non-commercial diaper powder from Malaysia. Four weeks after use stopped, venous blood lead was 8 mcg/dL. This page replaces an earlier abstract-only record with the full article. The powder is not a commercial baby powder.
 
 ## Key numbers
 
-| Matrix | Analyte | Value as printed |
-| --- | --- | --- |
-| Folk diaper powder | Lead | 62% by weight, primarily lead oxide |
-| Folk diaper powder | Antimony | 1000 ppm |
-| Folk diaper powder | Arsenic (species not stated) | 55 ppm |
-| Folk diaper powder | Bismuth | 110 ppm |
-| Folk diaper powder | Thallium | 31 ppm |
-| Infant venous blood, during use | Lead | 13-18 mcg/dL |
-| Infant venous blood, four weeks after stopping | Lead | 8 mcg/dL |
+Bulk analysis of unsieved splits found lead at 62 to 64 weight percent (620,000 to 639,500 ppm), primarily lead oxide (Table 4). The same analyses report antimony 1005 ppm, arsenic 55 ppm, bismuth 110 ppm, and thallium 31 ppm. The abstract rounds antimony to 1000 ppm. Arsenic is an elemental total. The paper does not speciate it.
 
-62% lead by weight is 620,000 mg/kg. The abstract states the metals were highly bioaccessible in simulated gastric fluid and only slightly bioaccessible in simulated lung fluid and simulated urine. The authors conclude that the main exposure routes were ingestion by hand-to-mouth transfer and ingestion of inhaled dust cleared from the airways.
+| Fluid | Pb | Sb | As (species not stated) | Bi | Tl |
+| --- | --- | --- | --- | --- | --- |
+| Simulated gastric | 39% | 62% | 50% | 88% | 12% |
+| Simulated lung | 0.03% | 9.9% | 2% | 0.09% | 3.6% |
+| Simulated urine | 0.01% | 1.6% | 2.6% | 0.06% | 0.1% |
+
+Gastric in vitro bioaccessibility for lead is printed as 239,000 mg/kg. The authors then calculate 105,000 mg of bioavailable lead per kg of powder and state that 1 mg of powder would deliver over 10 micrograms of lead. Those two figures are the authors' calculation from the gastric result, not a second measurement.
 
 ## Methods (brief)
 
-Not available from the abstract. The USGS record lists the Crustal Geophysics and Geochemistry Science Center as the analysing organisation.
+USGS dissolved the powder in 20% nitric acid for bulk chemistry and ran a 2-hour in vitro bioaccessibility extraction, filtered at 0.45 micrometres. Simulated gastric fluid was a glycine system at pH 1.50. Tables 1 to 4 hold the fluid recipes and the results. The infant was seen in the United States. The powder was imported from Malaysia.
 
 ## Evidence fitness
 
-The abstract documents an extreme lead content in one non-commercial folk diaper powder and the associated infant blood lead. It is a single case. It does not describe commercial baby powders or talc. The product sits outside every product row in the current taxonomy and is routed to the children's personal care hub.
+The article documents one extreme folk remedy and one infant blood-lead course. It supports that description and the bioaccessibility percentages above. It does not describe commercial talcum powder, and it does not separate inorganic arsenic from total arsenic.
 
 ## Limitations
 
-Abstract only. No method, detection limit, or replicate information. Arsenic is reported without species. The corresponding author is not printed on the record.
+Single case. The filename supplied with this copy carries a DOI string that is not the DOI printed on the article. Antimony in the abstract (1000 ppm) is 5 ppm lower than the body figure used here (1005 ppm).
 
 ## Related evidence
 
@@ -74,13 +95,4 @@ Abstract only. No method, detection limit, or replicate information. Arsenic is 
 - [[metals/lead]]
 - [[metals/antimony]]
 - [[metals/thallium]]
-
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
-
-| Commit | Date | Change | Description |
-| --- | --- | --- | --- |
-| [99d797231](https://github.com/paleofoundation/heavymetalindex/commit/99d797231) | 2026-09-26 | major | 5 sections added; narrative text revised |
-<!-- END: hmi-page-history -->
+- [[metals/arsenic-total]]
