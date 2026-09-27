@@ -131,7 +131,7 @@ These sources can inform retrieval priorities and source-scope context, but they
 
 ## Levers to reduce contamination
 
-Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. Levers are ordered by approximate impact magnitude based on what the cited literature supports.
+Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. The controls below describe potential points of intervention. The available citations do not establish a comparative ranking of their effects.
 
 | # | Category | Specific lever | Magnitude | Source |
 |---|---|---|---|---|

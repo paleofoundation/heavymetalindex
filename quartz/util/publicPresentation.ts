@@ -48,13 +48,20 @@ export function presentArticle(tree: Root, fm: Record<string, unknown>, slug: st
       }
       return !empty
     })
+    for (const section of kept) {
+      if (/^Who this page is for$/i.test(section.title) && section.nodes.some((node) => classes(node).includes("hmi-stakeholder-guide"))) {
+        const heading = section.nodes[0] as Element
+        section.nodes[0] = element("span", [], heading.properties.id ? { id: heading.properties.id } : {})
+      }
+    }
     // Preserve anchors and within-section order. References remain tied to
     // their original works when the reader's route through a page improves.
     if (fm.type === "product-category") {
       const rank = (title: string) => {
         if (!title || /^overview$/i.test(title)) return 0
+        if (/who this page is for|row mapping|row relationship|literature scope/i.test(title)) return 1
         if (/literature evidence summary|key findings/i.test(title)) return 10
-        if (/measured values|concentration rows|source evidence inventory|distribution context/i.test(title)) return 20
+        if (/measured values|concentration rows|source evidence inventory|distribution context|broad (?:product|formula) context|current source links|evidence used for/i.test(title)) return 20
         if (/limits|benchmark context/i.test(title)) return 30
         if (/ingredient drivers|variance|levers|mitigation/i.test(title)) return 40
         if (/completeness|gaps|open questions/i.test(title)) return 50
