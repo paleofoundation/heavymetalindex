@@ -6,7 +6,7 @@ Direction of the edit: toward the literature. Source pages report what each pape
 
 ## Papers
 
-Thirty PDFs were in the slice. Twenty-six new source pages were written. One existing page was updated. Three existing pages were left unchanged. None were skipped for lack of a file.
+Thirty PDFs were in the slice. Twenty-five new source pages were written. One existing page was updated. Three existing pages were left unchanged. Sun 2002 is not given a source page on this branch. None were skipped for lack of a file.
 
 ### New cite keys
 
@@ -21,7 +21,6 @@ Thirty PDFs were in the slice. Twenty-six new source pages were written. One exi
 - `gulson2012-zinc-sunscreen-dermal-absorption`
 - `holmes2020-nano-zinc-oxide-skin`
 - `wester1993-arsenic-percutaneous-absorption`
-- `sun2002-percutaneous-inorganic-lead`
 - `erfani2015-nickel-short-skin-contact`
 - `knox2022-metal-allergens-skin-lipids`
 - `hostynek2003-percutaneous-metal-absorption`
@@ -42,6 +41,10 @@ Clancy, Nacci, and Liu are not in this slice.
 ### Existing, updated
 
 `mfds2025-cosmetics-safety-standards`. The Korean PDF hash equals the page `raw_sha256` (`2f1882d2b4bc460a21447ee5b6b1b22d7093202d7fc8e08b2cd7fc253a5430cd`). The raw path was not changed. Article 6(2) allowances were added to the body: lead 50 µg/g (clay powder) and 20 µg/g (other); nickel 35 / 30 / 10 µg/g (eye makeup / color makeup / other); arsenic 10 µg/g; mercury 1 µg/g; antimony 10 µg/g; cadmium 5 µg/g. Arsenic and mercury are not speciated. Article 6(8) combined heavy metals at 20 µg/g is recorded separately and is not an ICP lead result. `data/evidence/regulatory_limits.csv` was not edited.
+
+### Canonical in group 2
+
+Sun 2002 (`sun2002-percutaneous-inorganic-lead`) is canonical in group 2 (PR #173), which creates that source page from a different PDF copy. DOI `10.1080/15428110208984751`. This group's file is a second raw copy, sha256 `2227661dcaaacdfa9d5093808d7d78a980f1d2793060b0f6d7b7e3a7cc40b250`. The source page was removed from this branch. Ledger rows that use the same cite key are kept.
 
 ### Existing, unchanged
 
