@@ -34,15 +34,15 @@ updated: 2026-09-11
 <div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Library at a glance</span>
-    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-11</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-27</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,565</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,529</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,111</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">188</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,684</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">191</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">61</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,629</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,315</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">189</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
   <a class="hmi-v3-ledger-coverage" href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a>
@@ -121,7 +121,7 @@ updated: 2026-09-11
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,088</span>
+    <span class="hmi-v3-registry-n">3,261</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
