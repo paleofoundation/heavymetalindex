@@ -64,7 +64,7 @@ This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 2
 - Courses: Teaching reference for the EU-EPA QRA methodology applied to consumer cosmetics; pairs with EU Cosmetic Regulation 1223/2009 framework and the SCHER 2010 children's-products methodology for cross-framework comparison.
 - App: Indirect relevance (cosmetics not in primary food-ingredient app scope). Useful for any future personal-care app extension that surfaces metal contamination of finished cosmetics.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/iron]]
@@ -75,18 +75,6 @@ This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 2
 - [[products/face-neck-leave-on-skin-care]]
 - [[products/lipstick]]
 - [[products/eye-makeup]]
-
-## Verification notes
-
-- 2026-05-17 re-ingest (automated editorial review): corrected `license` from "CC BY 4.0" to "CC BY-NC-ND 4.0" per PDF p. 13 Open Access notice ("Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License").
-- 2026-05-17 re-ingest: corrected `products` from `[face-paint, lipstick, childrens-makeup]` to `[makeup-foundation-powders-blush, face-neck-leave-on-skin-care, lipstick, eye-makeup]` to reflect what the paper actually measured. The paper studied adult cosmetics (foundations, blushes, lipsticks, face creams, face masks, eye shadows; BW = 60 kg adult). It did not measure face paints and did not study children's makeup specifically. Routing to `childrens-makeup` and `face-paint` was a pre-Cat-2-Step-0-Lock artifact when those slugs served as catchalls; with the 2026-05-16 Cat 2 Step 0 Lock providing proper rows (`makeup-foundation-powders-blush` for Cat 13 Row 5, `face-neck-leave-on-skin-care` for Row 3, `lipstick` for the existing lipstick page, `eye-makeup` for Row 7), routing should reflect actual sample composition. The paper's value for the children's-makeup HMTc row is via metal-context (Cr/Ni dermal-sensitization pathway documentation), not direct product-occurrence evidence.
-- Cr-total measurement only; authors did not speciate Cr-VI vs Cr-III despite using the Cr-VI RfD (0.3) in conservative LCR scenario. Per Part 14, total Cr must not be substituted for Cr-VI; the source's risk-scenario LCR values should be treated as conservative upper-bound only when reused for synthesis.
-- Sample sizes per product category are very small (n=3-4); the maxima are single-sample observations, not population estimates. Per Part 12 brand firewall, the country-of-manufacturer pattern (e.g., highest Cr/Ni in a Polish-manufacturer blush, highest Fe/Mn/Zn in US/German-manufacturer eye shadows) is reported here at country level only; the paper itself withheld brand identities for legal reasons (paper p. 2, "Research materials").
-- Pb, Cd, As, Hg not measured in this study; the analyte panel was limited to Cr, Fe, Mn, Ni, Zn.
-- `matrices: [cosmetics]` is added to the controlled vocabulary; "online-market" is sourcing context, not a matrix.
-- `ingredients: []` is intentional — paper measures finished cosmetics, not raw ingredients (mineral pigments etc.). The routing layer's malformed-advisory for missing `ingredients` is expected for cosmetic-finished-product papers.
-- Audit editorial review (2026-05-17) flagged a source-internal inconsistency in the paper's QRA conclusions: Table 12 reports AEL/CEL ratios of 0.07 (lipsticks) and 0.12 (eyeshadows), which mean AEL < CEL (i.e., consumer exposure exceeds the allowable level under the paper's own definition on p. 6: "The concentration of a given substance in a product is acceptable when AEL is higher than CEL"). The paper's narrative on p. 10, however, asserts AEL was higher than CEL for "all samples of eye shadows and lipsticks" and concludes none of the analyzed cosmetics poses a skin-sensitization risk. This is an internal contradiction in the source. For HMTc synthesis purposes, the Table 12 values are the primary data and should be cited directly; the source's "no risk" conclusion for lipstick and eyeshadow under the QRA framework is not supported by its own Table 12.
-- Audit editorial review (2026-05-17) flagged a textual defect in Implications ("n=12.7 mg/kg Cr"); corrected to attribute the Iwegbue et al. comparison explicitly with both values restated from Table 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

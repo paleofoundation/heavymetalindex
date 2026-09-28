@@ -134,7 +134,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/yaghi2026-baby-powder-benghazi-libya|Evaluated Daily Intake and Health Risk Assessment of Some Toxic Heavy Metals in Baby Powder for Various Brands Marketed in Benghazi, Libya]]<span class="hmi-ref-meta">Yaghi MM, Alhursh ZA, and EL Shawish AA · Libyan Journal of Public Health Practices 2(2):27-46. Issue dated December 2025 on the PDF; Crossref publication date 2026-01-25 · 2026 · [doi.org/10.37376/ljphp.v2i2.7556](https://doi.org/10.37376/ljphp.v2i2.7556)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -154,7 +154,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

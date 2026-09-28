@@ -70,7 +70,7 @@ Courses: The source is a compact example of why wastewater irrigation can produc
 
 App: The study can inform a spinach risk explainer that distinguishes field contamination pathways from retail-market representativeness.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[ingredients/spinach]]
@@ -80,10 +80,6 @@ App: The study can inform a spinach risk explainer that distinguishes field cont
 - [[metals/manganese]]
 - [[metals/nickel]]
 - [[metals/lead]]
-
-## Verification notes
-
-The DOI, title, authors, journal, year, and sample location were read from the PDF first page. The key numeric concentrations were read from Tables 1 and 2, with HRI values cross-checked against the abstract and Table 3 heading. The paper identifies the vegetable as African spinach and gives the botanical name as Amarantus caudatus; this page routes it to the existing spinach row because the product queue targeted spinach and the paper repeatedly uses spinach as the consumed vegetable label.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -67,7 +67,7 @@ App: Wild mushroom warnings can use the high mushroom P90 values for Pb, tAs, an
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
@@ -77,13 +77,6 @@ Microbiome: Not applicable.
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Evidence Fitness: routeable for wild mushroom and wild berry occurrence context on a wet-weight basis; context-only for cultivated mushrooms, commercial fresh-fruit products, and US-market benchmark pools unless governance later approves cross-market sensitivity use.
-- Speciation: the paper reports mercury and arsenic without species separation, so this page uses tHg and tAs. It does not support methylmercury or inorganic arsenic values.
-- Basis: the source records concentrations in mg/kg raw weight. No dry-weight conversion was applied.
-- Product routing: no exact product page exists for fresh or wild mushrooms; this page routes mushrooms through ingredient and matrix fields and routes berries to the existing fresh-fruit product page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

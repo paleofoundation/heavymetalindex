@@ -50,7 +50,7 @@ Courses: Useful for explaining why basis, cultivation setting, and experimental 
 
 App: Supports a contaminated-soil context warning for spinach, with explicit dry-matter and experimental-dose labels rather than ordinary-market risk language.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spinach]]
 - [[ingredients/leafy-vegetables]]
@@ -59,14 +59,6 @@ App: Supports a contaminated-soil context warning for spinach, with explicit dry
 - [[products/leafy-vegetables-other]]
 - [[products/non-root-vegetables]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- DOI, title, authors, year, journal, and page range were taken from the PDF title page and PDF metadata.
-- Author names are transliterated without diacritics in source metadata for ASCII consistency; the PDF byline uses Zemanova, Pavlik, Pavlikova, and Kyjakova with Czech diacritics.
-- The paper's Figure 2 shows Cd accumulation by treatment and harvest time, but the PDF text extraction does not expose exact bar values. This page therefore records the source-stated 0.60-72.38 mg/kg dry-matter range and prose values rather than estimating from the graph.
-- Evidence fitness: controlled Cd soil-dose experiment in the Czech Republic. Route as spinach/leafy-vegetable Cd context; do not silently pool with retail-market spinach occurrence or US-market benchmark distributions.
-- The controlled pot experiment is recorded in `sample_population` and Verification notes rather than `matrices`; source-page `matrices` is limited to the physical leafy-vegetable matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

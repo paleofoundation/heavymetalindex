@@ -53,7 +53,7 @@ For wheat pages, this source supports the point that bio-accessible Pb fractions
 
 For standards work, do not pool isotope ratios as concentration values. The paper is most useful for exposure-source attribution and for deciding whether bioaccessibility methods are relevant to future extraction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wheat]]
 - [[products/flour-non-rice]]
@@ -61,10 +61,6 @@ For standards work, do not pool isotope ratios as concentration values. The pape
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[testing/icp-ms]]
-
-## Verification notes
-
-The filename route was toothbrush/Pb, but the paper also contains wheat and Miswak fruit. The source page keeps wheat and Miswak separated and does not convert isotope ratios into occurrence concentrations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

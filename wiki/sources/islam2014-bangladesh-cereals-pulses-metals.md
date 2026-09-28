@@ -84,15 +84,6 @@ The study collected rice, wheat, maize, lentil, and black gram from an urban are
 
 This source supplies Bangladesh field-crop occurrence evidence for total/unspecified arsenic, cadmium, lead, chromium, nickel, copper, and zinc in rice, non-rice cereals, and pulses. It is most directly relevant to rice-bulk-grain routing because rice has the largest sample count and dietary-intake contribution in the paper, but the same table also supports non-rice grain and legume/pulse routing. Downstream synthesis should keep measured total arsenic distinct from the paper's modeled `90%` inorganic-arsenic assumption and should not treat total chromium as Cr(VI).
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title page, sample collection, analytical methods, Table 3, Table 4, Table 5, and Results prose were checked in `/tmp/f3_texts/islam2014.txt`.
-- DOI `10.1021/jf502486q`, raw handle `MFK_islam2014`, and cite-key checks found no existing source page for this JAFC cereals/pulses paper before creation. The existing `islam2014-arsenic-breast-milk-bangladesh` page is a different paper with DOI `10.1186/1476-069X-13-101`.
-- Table 3 values are preserved as `mg/kg`; no conversion across bases or units was performed.
-- Speciation: arsenic is reported as total/unspecified `As`; the source models carcinogenic risk using a `90%` inorganic-arsenic assumption, but the occurrence data are not measured iAs. Chromium is total/unspecified Cr, not Cr(VI).
-- Brand firewall: field-collected crop samples are not brand-labeled, and no brand names are attached to contamination values.
-- source metadata slugs were checked against the editorial record; narrow product slugs for black gram and lentil are not available, so broad legumes/pulses routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

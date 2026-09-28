@@ -128,26 +128,10 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 
 **App:** Provides species-level Cd, Pb, and total-As values for 37 Polish-grown herb species, 12 spice species, China green tea, and Arabica roasted coffee. The total-As values for black pepper and Capsicum peppers should not be substituted for iAs in any iAs-based app risk score without speciation work. The black pepper Pb mean (0.159 mg/kg, range <LOQ to 0.740) and Capsicum peppers Pb mean (0.338 mg/kg, range 0.070–0.775) are notable in-spice supply-context values.
 
-## Verification notes
-
-2026-05-29 merge-enhance pass (v2.0 skill): re-read PDF cover-to-cover including all four tables and full sections 3.1–3.5.
-
-- Cleaned overview-paragraph Pb statistic: prior wording said "24 samples (18% of 131 herb samples that had data) exceeded the WHO limit for Pb (10 mg/kg) only when interpreted against some measures." Per section 3.2 of the paper, zero herb samples exceeded the WHO 10 mg/kg limit; the 24 (18%) figure from the abstract maps to the EU 420/2011 converted limit per section 3 framing. The "131 samples" denominator is not in the paper and has been removed.
-- Cd exceedance species list (correction-of-correction after Phase 2 audit): the initial merge-enhance dropped "yellow bedstraw" from the 9-species exceedance list and introduced a spurious "9-vs-8 mismatch" framing. The Phase 2 fresh-context audit editorial review caught this; re-reading section 3.1 page 5 confirmed the paper names nine species including yellow bedstraw. List restored to the source's nine species.
-- Overview species counts (correction after Phase 2 audit): prior wording carried over the earlier page's "37 herb species" and "12 spice species" counts. Direct count of Table 2 entries yields 40 herb species and 11 spice species; the overview now uses those counts.
-- Added arsenic detail for herbs: prior page omitted the herb As findings (12 samples / 7% detection: nine valerian-root samples at 0.111–0.535 mg/kg and three blackcurrant-leaf samples at 0.166–0.202 mg/kg). Restored from section 3.3.
-- Added mercury detail for herbs: prior page said "Only field horsetail had notable Hg at mean 0.015 mg/kg." Per section 3.4, the dataset maximum for Hg was European blueberry leaves at 0.030 mg/kg, not field horsetail; both are now reported, along with the 45/163 (28%) herb detection rate.
-- Added detection counts for spice arsenic (5 of 26 black pepper, 4 of 8 peppers per section 3.3).
-- Added detection counts for spice lead detection (97% of spice samples per section 3.2).
-- Added per-analyte THQmax breakdown for herbs (the highest-loading category) from Table 3 and disambiguated carcinogenic-risk values (spices max 1.29×10⁻⁵ vs herbs max 8.03×10⁻⁶) from Table 4.
-- Removed cross-source synthesis from `## Implications`: prior page text "This is the reference study cited by both Fischer 2022 and Winiarska-Mieczan 2023 for Polish herb/spice background context" was a citation-network claim about other wiki sources, which belongs at the synthesis layer, not on a single-source page. Also removed an iAs-vs-tAs threshold comparison against an external regulatory value, replaced with neutral speciation-caveat wording.
-- Methods: added Altec, Czech Republic for AMA 254; added Mulgrave, Australia for Varian 820-MS; added MARS Express microwave mineraliser model and supplier; added WPS 50 SX moisture analyser; added analyte-specific reference doses, As cancer slope factor, and noncarcinogen-vs-carcinogen treatment per section 2.6.
-- source metadata: populated `sampling_year_range: "2015–2018"` (was null).
-- Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` initially fixed to `[[regulations/eu-1881-2006-contaminants-superseded]]`, then removed entirely after Phase 2 audit. The paper does not directly discuss EU 1881/2006; the regulation it actually cites for fresh-herb Pb limits is Commission Regulation (EU) No. 420/2011 (which amends 1881/2006 for herbs), and no slug for 420/2011 exists in the current regulations taxonomy. Per (do not create new regulation pages mid-ingest), the regulation entry is dropped from the page-touch list.
-- Flagged European blueberry leaves Pb mean-below-range-minimum inconsistency in Table 2 (parallel to the China-tea Cd issue), added during Phase 2 audit application.
-- Paper-internal data-integrity issue preserved as-printed (not corrected on the wiki page): Table 2 reports China-tea Cd range 0.069–0.098 with mean 0.034 — mathematically impossible since mean lies below range minimum; section 3.1 text gives the tea+coffee Cd range as "<LOQ (0.020 mg/kg) to 0.098 mg/kg," so the printed lower bound 0.069 in Table 2 appears to be a typo. Wiki page reports as printed and flags the inconsistency.
-
 ## Related evidence
+
+- [[regulations/eu-reg-1881-2006]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/dried-herbs]]
 - [[ingredients/tea]]

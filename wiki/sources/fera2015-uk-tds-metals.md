@@ -115,7 +115,7 @@ App: Values can support UK baseline context displays for broad product groups, w
 
 Microbiome: Not addressed in this study.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/antimony]]
@@ -152,15 +152,6 @@ Microbiome: Not addressed in this study.
 - [[products/rice-bulk-grain]]
 - [[products/shellfish]]
 - [[products/snacks-crackers-biscuits]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Corrected an earlier table-column alignment error: Table 5's iodine column had been misread as Hg/Pb in several group rows. The page now uses the report's actual Cd, Hg, and Pb columns from the second half of each table.
-- Replaced product-empty routing and non-vocabulary matrices with controlled product routes and broad matrices.
-- Replaced invalid wiki links such as `ingredients/wheat-flour`, `ingredients/breakfast-cereals`, `ingredients/milk`, `metals/mercury`, and `regulations/uk-fsa-tds`.
-- Strict brand-firewall check: no sampled consumer brands are named; contractor, instrument, utensil/material, reagent, and reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
-- Fresh-context audit editorial review (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against the editorial record matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

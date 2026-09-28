@@ -159,7 +159,7 @@ This source supports broad seafood occurrence context for Sri Lankan market fish
 
 The paper is not infant-formula evidence despite being located in an infant-formula methylmercury pull folder. It does not measure methylmercury directly; the MeHg risk calculation is derived from a source assumption that total Hg in tuna represents methylmercury. Species-level extraction should use the supplementary Tables S2-S3 if they are retrieved later.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
@@ -175,13 +175,6 @@ The paper is not infant-formula evidence despite being located in an infant-form
 - [[metals/zinc]]
 - [[metals/tin-inorganic]]
 - [[metals/antimony]]
-
-## Verification notes
-
-- Identity check: DOI `10.3390/toxics10100585`, raw handle `RPMEHG_10-3390-toxics10100585`, candidate cite-key `wickramaarachchige2022-sri-lanka-aquatic-elements`, and SHA-256 `7b70522aa3955dce324aada87be0f2fce09b81e276afdc181b9f4fd45a91dc72` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the 19-page MDPI PDF. Main-PDF Table 1, Figures 1-5, and all main-text numeric summaries were checked once from `pdftotext -layout` and a second time against the extracted layout text before commit. The source's supplementary Tables S1-S4 are named by the PDF but were not bundled in the local PDF.
-- Brand firewall: the source reports species- and muscle-level market seafood values, not branded commercial products.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

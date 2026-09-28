@@ -54,9 +54,9 @@ Samples were homogenized, microwave-digested in HNO3/H2O2, and analyzed by induc
 
 ## Implications
 
-This is direct occurrence evidence for cereal bars and snack bars, especially gluten-free and rice-based formulations marketed to adult and celiac consumers. It supports product-form routing for snack bars and cereal products and ingredient context for rice/cereal formulations. The sampled products were general commercial gluten-free cereal bars, not infant teething snacks, so the routing layer should not fan this source into infant-specific teething-snack pages.
+This is direct occurrence evidence for cereal bars and snack bars, especially gluten-free and rice-based formulations marketed to adult and celiac consumers. It supports product-form routing for snack bars and cereal products and ingredient context for rice/cereal formulations. The sampled products were general commercial gluten-free cereal bars, not infant teething snacks, so it does not describe infant teething snacks.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/snack-bars-energy-bars]]
 - [[products/cereal-products]]
@@ -66,12 +66,6 @@ This is direct occurrence evidence for cereal bars and snack bars, especially gl
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Batch 2 auto-fetched ingest, 2026-05-25. The same DOI appeared under cadmium, lead, and total-arsenic wishlist rows; this page is the canonical ingest for all three.
-- Speciation: arsenic is total/unspecified arsenic by ICP-MS, not inorganic arsenic.
-- Brand firewall: the article states that samples came from popular brands, but this source page keeps only aggregate product-group values and does not reproduce brand names.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

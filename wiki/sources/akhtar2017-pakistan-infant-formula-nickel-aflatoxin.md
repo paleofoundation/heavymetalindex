@@ -60,7 +60,7 @@ App: Supports flagging nickel as an analyte requiring formula-row retrieval.
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
 - [[products/infant-formula-powder]]
 

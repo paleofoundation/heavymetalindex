@@ -200,15 +200,6 @@ For HMTc category work, the regulation supplies:
 - A four-row cocoa/chocolate ladder keyed to total dry cocoa solids percentage and milk-chocolate carve-out — the chocolate-category clean/dirty subcategory work should reference this row structure rather than treating chocolate as a single bin.
 - A salt ceiling that is the binding EU regulatory floor for the salt product page's regulatory-context column.
 
-## Verification notes
-
-- Ingested 2026-06-02 from the source-retrieval download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). The filename references "488_2014" but the PDF content is the 2021/1323 amendment text itself; the filename is a misnomer carried over from the source-retrieval agent's batch naming. The actual regulation is 2021/1323, which superseded the cadmium rows that 488/2014 had set in 1881/2006.
-- The regulation page for this rule already exists at [[regulations/eu-2021-1323-cadmium-cereals-superseded]] (created 2026-05-18 during the Gacal et al. 2023 bread ingest with a cereals-only focus). The current source page transcribes the full Annex 3.2 row set, not just the cereal rows, since the regulation's scope is comprehensive across food categories.
-- Decimal commas in the maximum-level column are preserved verbatim from the Official Journal text. No silent conversion to decimal points or to µg/kg was performed.
-- No brand names appear in this regulation; no Part 12 redaction was required.
-- No HMTc threshold inference or synthesis claim added. The `## Implications` section describes occurrence-data routing and product-page-split alignment, not HMTc threshold proposals.
-- Audit editorial review (2026-06-02) flagged `[[ingredients/salt]]` as a possible missing-slug proposal; verified against the linked reference record (page exists on disk) and the editorial record (the slug `salt` is present in the ingredients comma-separated list, immediately before `saltine-crackers`) — finding was a false positive. The slug is valid and is retained.
-
 ## Sources
 
 - European Commission. 2021. Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs. OJ L 288, 11.8.2021, p. 13–18.
@@ -216,6 +207,11 @@ For HMTc category work, the regulation supplies:
 - EFSA. 2012. Scientific report on cadmium dietary exposure in the European population. EFSA Journal 10(1), 2551 (37 pp.).
 - Commission Regulation (EU) No 488/2014 of 12 May 2014 (the predecessor cadmium amendment of 1881/2006). OJ L 138, 13.5.2014, p. 75.
 - Commission Recommendation 2014/193/EU of 4 April 2014 on the reduction of the presence of cadmium in foodstuffs. OJ L 104, 8.4.2014, p. 80.
+
+## Related evidence
+
+- [[regulations/eu-2021-1323-cadmium-cereals-superseded]]
+- [[ingredients/salt]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

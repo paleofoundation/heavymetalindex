@@ -161,43 +161,19 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 
 **App:** Adds Iranian-market 2020–2021 occurrence data for Al, Cr (total), Cu, Fe, Zn in infant formula powder and generic baby food. Pb, Cd, tHg all below LOD across all 107 samples. Useful as corroborating evidence in a multi-country app aggregation; not sufficient as standalone distribution data given single-city sampling.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/infant-formula-powder]]
-- [[products/infant-and-child-foods-master]]
 - [[metals/chromium]]
 - [[metals/aluminum]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[ingredients/infant-formula-powder]]
-
-## Verification notes
-
-- 2026-05-17 merge-enhance pass (automated editorial review, manual-fetch-source-retrieval ingest cycle, `/ingest-next-manual-fetch-pdf` skill v2.0): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision against the source PDF:
-  - `raw_handle: manual-fetch-source-retrieval` (generic placeholder) → `MFK_monte-carlo-simulation-approach-for-health-risk-an` (per the MFK_<slugified-filename> convention).
-  - `raw_path` truncated to `Monte Carlo simulation approach for health risk analysis of .pdf` → full filename `Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`.
-  - `access_url` added (DOI URL).
-  - `near_duplicates: []` added.
-  - `metals: [Pb, Cd, tHg, Al, Cr]` extended to include the additional bare-symbol elements the paper measures (Co, Cu, Fe, Mn, Zn, Ba, Sr, Se) per the source-page metal-vocabulary convention.
-  - `ingredients: [[[ingredients/rice]], [[ingredients/wheat]]]` — paper does not measure rice or wheat as ingredients; the mentions in the Discussion are general agricultural-context commentary, not direct measurements on this study's samples. Replaced with `[[ingredients/infant-formula-powder]]` (the only ingredient-page-vocabulary slug that maps to the sampled commodity).
-  - `products: [[[products/infant-formula-powder-non-soy]]]` was overspecified — the paper does not differentiate soy versus non-soy formula. Replaced with the umbrella `[[products/infant-formula-powder]]` per Part 5b broad-scope rule; the routing layer fans this out to soy and non-soy sibling pages.
-  - `matrices: [infant-formula, baby-food, dry-weight]` — `dry-weight` is a basis, not a matrix; removed. Native basis (as-sampled dry powder) clarified in Key numbers.
-  - **Numerical fidelity fixes against Table 2, p. 6:**
-    - Co (infant formula total mean): predecessor reported `0.08 ± 0.1 mg/kg`; Table 2 shows infant formula total mean Co = `0.01 ± 0.00 mg/kg` (the `0.08 ± 0.1` is the baby food row). Corrected.
-    - Se (infant formula total mean): predecessor reported SD as `± 0.2`; Table 2 shows `0.4 ± 0.2`. Retained.
-    - Baby food row: predecessor listed `Cr 2.3 ± 1.2, Cu 5.9 ± 9.5, Mn 5.9 ± 9.8, Se 2.3 ± 1.1`. Table 2 actual baby food total mean is `Cr 0.2 ± 0.2, Cu 2.3 ± 1.2, Mn 5.9 ± 9.5, Se 0.5 ± 0.4` — the predecessor had a column-shift transposition across Cr / Cu / Mn / Se (each value attributed to the next-leftward metal). Corrected and the missing Ba (0.4 ± 0.2) and Co (0.08 ± 0.1) added.
-    - Cu infant formula total mean (`4.1 ± 1.2 mg/kg`) and Mn infant formula total mean (`0.6 ± 0.4 mg/kg`) were absent from predecessor Key numbers; added.
-    - Probabilistic CR infant formula 5th-percentile lower bound: predecessor reported `6.86 × 10⁻⁶`; Fig. 2 (CR-12_18) shows `6.84 × 10⁻⁶`. Corrected.
-  - All deterministic HI, HQ, and CR values for the six infant-formula and four baby-food age strata re-verified line-by-line against Tables 3 and 4 (pp. 7–8); the predecessor values were correct.
-  - All Monte Carlo 5th/95th percentile values for HI and CR re-verified against Figs. 1, 2, and 3 (pp. 9–11); the predecessor's collapsed range statements (e.g., "Probabilistic HI 2.17–5.05") replaced with explicit per-age-stratum 5th and 95th percentile values for downstream synthesis precision.
-  - Sensitivity analysis percentages for HI (Figs. 4 and 6) and CR (Figs. 5 and 6) added in full at the per-element level; predecessor had only collapsed-range statements.
-  - `## Wiki pages updated on ingest` heading (legacy) → `## Wiki pages this source may touch` (current v2 template), with `[[metals/aluminium]]` → `[[metals/aluminum]]` (correct taxonomy spelling), invalid `[[products/baby-food-grain-based]]` removed (not in current product vocabulary), and `[[metals/mercury-total]]` and `[[ingredients/infant-formula-powder]]` added.
-- Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 standard-deviation transcriptions for infant formula Cu/Mn/Se and baby food Ba/Co/Cr/Se against Table 2, p. 6; it also made explicit the source-side contradiction where the abstract/discussion summarize Cr cancer risk to 3.57 × 10⁻⁴ while Table 3 reports 3.75 × 10⁻⁴ for the 18–24 month infant-formula stratum, and where Results text lists Cd among exceeded elements despite Table 2 and the same paragraph reporting Cd below LOD.
-- Paper-internal note: the Results-and-discussion paragraph on p. 5 lists cadmium among elements exceeding FAO/WHO permissible limits ("aluminium, cadmium, cobalt, chromium, copper, iron, and zinc"), but Table 2 on p. 6 reports cadmium as `nd` (below the 0.03 mg/kg LOD) in all 80 infant formula and all 27 baby food samples, and the abstract also omits Cd from the exceedance list. The wiki's exceedance summary follows Table 2 and the abstract (Al, Co, Cr, Cu, Fe, Zn) rather than the contradicted p. 5 sentence.
-- Paper-internal note: the authors substitute the inhalation-route Cancer Slope Factor for Cr in place of the (non-established) oral-route CSF (limitation 2, p. 14). This is explicitly named in the source; downstream Cr threshold work should treat the CR values as a methodological-uncertainty signal, not as direct evidence for an oral Cr-VI carcinogenicity endpoint.
-- 2026-05-17 audit editorial review (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf` v2.0) returned PROMOTE on all five checks against the source PDF. Optional enhancement applied: the p. 5 / Table 2 Cd inconsistency note above. No corrections required; no false positives recorded.
-- 2026-05-17 second-pass merge-enhance (automated editorial review, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior editorial review PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
+- [[[ingredients/rice]]
+- [[ingredients/wheat]]
+- [[[products/infant-formula-powder-non-soy]]
+- [[metals/aluminium]]
+- [[products/baby-food-grain-based]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

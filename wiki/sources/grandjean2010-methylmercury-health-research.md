@@ -50,16 +50,6 @@ This is a narrative review of key publications and regulatory history, not a lab
 
 This source is exposure and health-effect context for fish and seafood methylmercury. It supports the need to keep MeHg, tHg, and inorganic mercury conceptually separate in seafood evidence because the review explicitly identifies uncertain chemical speciation as a historical reason for delayed recognition of methylmercury hazards. It should not be used as a product occurrence row or as a benchmark distribution input because it reports no original market-sample concentration dataset.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, Table 1, historical exposure sections, regulatory-limit discussion, and conclusions were readable.
-- DOI `10.1289/ehp.0901757`, raw handle `MFK_ehp-0901757`, and cite-key checks found no existing source page before creation.
-- This page records only source-reported historical/regulatory numbers. It does not invent seafood concentration values or convert regulatory units.
-- Speciation: the source is about methylmercury toxicity and historical total-mercury fish limits. No total-Hg value is promoted to MeHg occurrence evidence.
-- Brand firewall: no sampled product brand values were reported.
-- Jurisdictions capture the source's explicit Japan, Iraq, United States, and European Union historical/regulatory examples; the review is not a single-market occurrence study.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented. Product routes are context routes only because the source has no original occurrence table.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -50,7 +50,7 @@ Courses: The study provides a concrete example of how upcycled food-industry by-
 
 App: The paper supports supply-chain context around coffee silverskin and insect biomass, not a direct consumer coffee contamination estimate.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/coffee]]
 - [[metals/cadmium]]
@@ -58,12 +58,6 @@ App: The paper supports supply-chain context around coffee silverskin and insect
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- The paper reports arsenic as total As and mercury as total Hg; this page uses tAs and tHg and does not infer inorganic arsenic or methylmercury.
-- The auto-fetched filename is a coffee gap hit, but the routeable matrix is coffee silverskin as an insect-rearing substrate plus insect biomass, not brewed coffee.
-- Products are intentionally empty because this source does not measure a named consumer product row; it is supply-chain/feed-ingredient evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

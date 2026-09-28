@@ -66,7 +66,7 @@ Courses: The report is useful for teaching surveillance synthesis, regulatory co
 
 App: This source can support tattoo-ink context cards about EU/JRC surveillance and method gaps. It should not be used for brand ranking; the report names brands in the RAPEX section, but this page suppresses those names and reports only aggregate notification and product-form information.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/tattoo-inks]]
 - [[metals/arsenic-total]]
@@ -82,16 +82,7 @@ App: This source can support tattoo-ink context cards about EU/JRC surveillance 
 - [[metals/antimony]]
 - [[metals/tin]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_tattoo_pmu_final_report.txt`. The title page, Executive summary, Methodology section, CoE impurity-limit discussion, RAPEX section 8.1, and market-surveillance section 8.2 were checked against this page.
-- Identity checks before creation found no existing the linked reference record, no DOI hit for `10.2788/011817`, no raw-handle hit for `MFK_safety-of-tattoos-and-permanent-make-up-final`, and no title/report-code hit for `JRC101601` or `EUR 27947 EN`.
-- Units are copied as reported (`ppm`, `mg/kg`, and `ppb`/`µg/kg` in the source-side comparator note); no conversions were performed.
-- Speciation: the page keeps Cr(VI) separate from total Cr, total arsenic separate from inorganic arsenic, and total mercury separate from methylmercury. The report itself says the Cr(VI) comparator does not apply to total chromium measurements unless chromium is speciated.
-- Brand firewall: the RAPEX section names three brands and gives their shares among products not in line with recommendations/legislation. Those brand names and shares are intentionally omitted here because they attach brands to noncompliance/contamination values.
-- Evidence tier: `A` because the report is a European Commission JRC regulatory synthesis with transparent DOI/report identifiers, RAPEX and national surveillance inputs, and explicit method/scope discussion. It is context/surveillance evidence rather than a primary laboratory dataset.
-- Routing: `products: ["[[products/tattoo-inks]]"]` uses the closed taxonomy slug. The taxonomy snapshot has no distinct permanent-make-up-ink product slug, so PMU specificity is retained in `matrices` and body text rather than inventing a product slug. Selenium appears in the source's total-element comparator and source metadata metal list as `Se`, but there is no `[[metals/selenium]]` wiki page in the current taxonomy snapshot, so no selenium page link is listed.
+- [[metals/selenium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

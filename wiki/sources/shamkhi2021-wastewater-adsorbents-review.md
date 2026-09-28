@@ -78,7 +78,7 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 
 **Material-science leads:** several food-derived materials studied here as Pb/Ni/Zn sorbents — apple pomace, fava beans, rice husk, orange peel, hazelnut shell, waste black tea — are themselves food-system commodities that appear elsewhere in the HMI corpus as contamination subjects. The adsorption studies cited by this review are not direct evidence about contamination *in* those ingredients, but they document baseline adsorption affinities between those plant matrices and these three metals, which can be useful background for understanding metal uptake during cultivation, processing, and packaging.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/nickel]]

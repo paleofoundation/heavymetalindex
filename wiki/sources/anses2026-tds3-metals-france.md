@@ -61,7 +61,7 @@ Courses: The opinion is a current example of an agency total diet study that com
 
 App: The source supports broad French-market context for seafood MeHg, crustacean/mollusc cadmium and lead, condiments/herbs/spices aluminum and lead, and tap-water contribution to lead exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fresh-fish]]
@@ -77,14 +77,6 @@ App: The source supports broad French-market context for seafood MeHg, crustacea
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1449.txt`; Tables 3, 5, 6, 7, 8, and 9 plus the methods were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_anses-2019-tds3`, raw SHA-256 `b993c882f1ef1c3d104dcedabd88f45cde22664271f36f3f9fd687b17e0412d0`, and cite key `anses2026-tds3-metals-france` were searched in the linked reference record; no existing source page was found.
-- Units are preserved as printed: concentrations use `mg/kg fresh weight` for aluminum and `µg/kg fresh weight` for silver, cadmium, mercury, and lead; exposure uses `µg (kg bw-1) day-1` or `µg (kg bw-1) week-1`.
-- Speciation: methylmercury, inorganic mercury, and total/inorganic mercury assumptions are kept distinct. This page does not promote total mercury to methylmercury.
-- Brand firewall: INCA3 could record brands, but ANSES reports composite food groups and exposure categories; no brand-linked values are used.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

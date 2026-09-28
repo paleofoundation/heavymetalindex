@@ -161,7 +161,7 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a turmeric-spe
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh]]<span class="hmi-ref-meta">Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. · Environmental Research · 2019 · [doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Evidence of turmeric adulteration with lead chromate across South Asia]]<span class="hmi-ref-meta">Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP · Science of the Total Environment · 2024 · [doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -177,7 +177,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

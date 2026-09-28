@@ -74,23 +74,13 @@ This is a peer-reviewed review article with an embedded HPLC/ICP/MS characteriza
 
 This source is a historical speciation anchor for seaweed arsenic. It supports the wiki rule that total arsenic in seaweed cannot be treated as inorganic arsenic and that organic arsenosugars, lipid-soluble arsenicals, arsenate, DMA, and unidentified species must remain separate. For occurrence pooling, downstream work should prefer the primary papers behind the review and use this page as context unless a later extraction pass explicitly models Table 2's semi-quantitative species symbols.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1002/aoc.590040303`, raw handle `MFK_morita1990`, title text, or cite key `morita1990-marine-macroalgae-arsenic-forms`.
-- Text was extracted to `/tmp/hmi-seaweed-050.txt` with `pdftotext -layout`; the abstract, methods narrative, and most prose were readable. Table 2 was visually checked from rendered page images because the text extraction mangled the wide symbol-coded table.
-- All Key numbers were checked against `/tmp/hmi-seaweed-050.txt` and the rendered Table 2 page images, especially phylum total-As ranges, wet-base footnotes, the `100 µg/day` intake estimate, the `50%` *Hizikia fusiforme* arsenate statement, and the Table 2 symbol legend.
-- Units and bases are preserved as `µg/g dry`, `µg/g As`, `wet base`, `ppm`, and `µg/day`; no unit conversion was performed.
-- Speciation check: total As, inorganic arsenate, lipid-soluble arsenic, water-soluble arsenic, arsenosugars/arsenic-containing ribofuranosides, DMA, As-I through As-VI, and unidentified species are not collapsed into a single arsenic species.
-- Brand firewall: no consumer brands are named.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact algae species remain in Key numbers/prose while source metadata uses broad seaweed/kelp food and algae/seaweed supplement routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -68,15 +68,6 @@ The 1975 survey sampled commercially important fish and shellfish from selected 
 
 This source supplies total-arsenic occurrence context for North Sea fish and shellfish, with a strong species and feeding-habit gradient. It can support seafood, fish, and shellfish routing for total arsenic on a wet-weight basis. The paper should not be used as inorganic-arsenic evidence; its analytical method determines total arsenic, and the discussion addresses diet/ecology rather than arsenic speciation.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the Results section, Tables II-IV, and Discussion were checked in `/tmp/ingest_f3_falconer1983.txt`.
-- DOI `10.1016/0022-0981(93)90073-W` was verified from the ScienceDirect record for the article; DOI, raw handle `MFK_falconer1983`, and cite-key checks found no existing source page before creation.
-- Numbers are preserved in source units as `µg g-1 wet wt`; no conversion to mg/kg or dry weight was performed. Some Table I text extraction was damaged, so the page uses the Results prose, Table II, Table III, and clearly readable plaice follow-up values rather than OCR-damaged Table I cells.
-- Speciation: arsenic is total arsenic only. No total arsenic value is treated as inorganic arsenic.
-- Brand firewall: the source reports species and fishing-area samples, not branded products.
-- source metadata slugs were checked against the editorial record; narrow species slugs such as plaice, witch, lemon sole, angler, skate, nephrops, periwinkle, and crab are not available as product rows, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

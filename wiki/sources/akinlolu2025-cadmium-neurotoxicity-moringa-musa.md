@@ -55,19 +55,10 @@ App: Supports cadmium toxicology context on the metal page. It does not support 
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[health/index]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect, with adjacent co-treatment context. Prior skip was `skip:not-food-occurrence` because the paper had no finished-product occurrence table.
-- DOI, title, author list, journal, publication timing, license, animal count, group size, cadmium dose, plant-extract doses, olive-oil vehicle dose, doxorubicin dose, p-values for CAT/SOD/COX-2/P450, and analytical methods were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed in the source: `mg/kg body weight`, `ml/kg body weight`, `U/L`, `pg/mL`, and p-value formatting such as `p < 0.001`, `p = 0.03`, and `p ≤ 0.05`.
-- Speciation: the exposure compound is cadmium chloride (`CdCl2`); the source does not report cadmium speciation beyond that administered compound.
-- Products and ingredients are intentionally empty. Olive oil is a vehicle-control material, not an analysed edible-oil sample.
-- Exact plotted mean±SD values for CAT, SOD, COX-2, and P450 are not cleanly extractable from the PDF text; only the source-printed p-values and units are recorded as exact result values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

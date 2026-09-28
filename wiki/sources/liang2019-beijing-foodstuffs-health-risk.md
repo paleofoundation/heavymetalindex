@@ -124,7 +124,7 @@ Courses: The paper is a useful teaching example for why high-consumption staples
 
 App: The source is best treated as regional dietary-exposure context for China rather than as a product-specific concentration benchmark. Any app use should preserve dry-weight basis, total-speciation labels, the small replicate design, and the source-side Pb exceedance caveat.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -149,15 +149,6 @@ App: The source is best treated as regional dietary-exposure context for China r
 - [[products/lamb-mutton]]
 - [[products/fresh-fruit]]
 - [[regulations/china-gb-2762-2012-contaminants-superseded]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full Manual Fetch source-retrieval PDF. The previous page used the generic `manual-fetch-source-retrieval` raw handle, a truncated raw path, empty product routing, and invalid links to nonexistent wheat-flour, millet, and China GB 2762 pages.
-- Fresh-context audit (automated editorial review, 2026-05-18) caught two source-fidelity errors in the merge-enhance: sample replicates were corrected from 75 to 300 (25 foodstuff types x four sites x three replicates per type per site), and digestion mass was corrected from 0.50 g to 0.2 g per Methods.
-- Paper-internal food-list caveat: the Methods section names 25 foodstuff types and lists cereals as millet, flour, corn, and rice, while Table 1 visibly reports millet, corn flour, and wheat flour, omits a separate rice row, and prints onion twice. This page records both rather than forcing the Table 1 list to reconcile to 25 named types.
-- Paper-internal caveat: the Results text says Pb in chicken, fish, white gourd, and pork exceeded China's 0.2 mg/kg Pb limit. Table 1 supports chicken, multiple fish/shellfish entries, and white gourd; it reports pork Pb as 0.029 +/- 0.049 mg/kg and beef Pb as 0.201 +/- 0.111 mg/kg. This page preserves the mismatch rather than silently substituting beef for pork.
-- Paper-internal rounding/text caveat: the abstract says vegetables contributed 38.8% of the total TTHQ, while the Results section says 38.2%; Table 4 supports approximately 38.3% from 0.88 / 2.30.
-- Speciation discipline: arsenic and mercury are recorded as tAs and tHg because the paper measured total elements only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

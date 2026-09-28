@@ -45,7 +45,7 @@ The paper compares processing treatments for vegetable matrices rather than surv
 
 The source can support processing-context discussion for carrots, potatoes, and onions, especially where cooking state changes measured concentrations. It should not be pooled into ordinary raw-market benchmark distributions without resolving the unusually high reported values and the preparation basis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[ingredients/potatoes]]
@@ -54,10 +54,6 @@ The source can support processing-context discussion for carrots, potatoes, and 
 - [[products/non-root-vegetables]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The lead and cadmium concentrations reported for some processed vegetables are high enough to warrant C-tier handling. This is not escalated because the source itself provides extractable values and the appropriate repository action is cautious routing, not a human-only decision.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

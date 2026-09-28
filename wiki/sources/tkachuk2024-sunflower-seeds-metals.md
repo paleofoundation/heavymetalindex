@@ -70,7 +70,7 @@ Field experiments were conducted in 2021-2022 at the Zorya Vasylivka Farm in Vas
 
 Certification: Ukraine production-system context for sunflower seeds. Courses: example of seed-vs-byproduct accumulation caveat. App: routeable context with full table extraction needed for quantitative use.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/sunflower-seeds]]
 - [[ingredients/sunflower-seeds]]
@@ -78,10 +78,6 @@ Certification: Ukraine production-system context for sunflower seeds. Courses: e
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The DOI and citation year are from the PDF citation line. Quantitative values from Tables 2-3 and Figure 1 are extracted into Key numbers above. Mercury was measured only in soil (Table 2), not in sunflower seeds (Table 3); the seed-page routing therefore does not carry mercury evidence. Routing target is sunflower seeds as an agricultural-production-system context (one batch, Vinnytsia region, Ukraine, intensive technology), not a consumer-market basket.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

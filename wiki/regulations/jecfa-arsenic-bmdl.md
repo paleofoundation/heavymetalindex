@@ -28,7 +28,7 @@ See [[metals/arsenic]] for the cross-source iAs synthesis and [[sources/jecfa-82
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/jecfa-82nd-arsenic|Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series 73 · 2017 · [www.who.int](https://www.who.int/publications/i/item/9789241660730)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

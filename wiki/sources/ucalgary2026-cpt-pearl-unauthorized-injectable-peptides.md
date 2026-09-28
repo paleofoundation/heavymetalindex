@@ -68,24 +68,10 @@ Educational clinical bulletin; not an analytical study. Sources of information c
 - Documents named Health Canada enforcement actions against Prime Research (Sherbrooke, QC) and Canada Peptide, supporting the regulatory-context entry for unauthorized injectable peptides as a category subject to active agency surveillance (Part 12 Exception 1 — public-record regulatory event).
 - Provides no new occurrence data; for arsenic/lead values in this category use [[sources/janvier2018-falsified-peptides-elemental-impurities]] as the primary occurrence source (speciation-confirmed inorganic arsenic at 1660–12,890 ppb in 6/27 falsified peptide preparations).
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/research-chemicals-peptides-sarms]] — regulatory-context entry for unauthorized injectable peptides as a category with documented Pb / As contamination concerns and active Health Canada enforcement.
-- [[products/peptides-injectable-hormones]] — specific clinical case context for CJC-1295, tesamorelin, IGF-1 LR3, GHK-Cu, BPC-157.
-- [[metals/arsenic]] — context-only restatement of the Janvier 2018 finding (arsenic in falsified injectable peptides above ICH parenteral limits).
-- [[metals/lead]] — context-only restatement of the Janvier 2018 finding (lead exceedance in falsified injectable peptides).
-
-## Verification notes
-
-- Document is dated "Created and reviewed April 20, 2026" (p. 6). The raw filename embeds "2024" in error; this is corrected in the cite-key and `year:` field.
-- No individual authors are listed on the document; institutional authorship is the AHS Clinical Pharmacology service and PADIS (24/7 poison-control service for Alberta and the Northwest Territories on the 1-800-332-1414 line, Saskatchewan on 1-866-454-1212). The University of Calgary attribution is by convention — the CPT Pearl of the Week series is produced by the Cumming School of Medicine's Clinical Pharmacology programme. The `authors:` field uses corporate-author strings accordingly.
-- DOI: none — this is a clinical bulletin, not a journal article; `no_doi_assigned: true`. The document carries no canonical Web URL on its face; `access_url:` uses a Google Scholar fallback per the 2026-05-13 DOI-fallback convention. The PDF was retrieved into the manual-fetch corpus.
-- Brand firewall (Part 12): Prime Research (Sherbrooke, QC) and Canada Peptide are named, but only inside the regulatory-event context (Health Canada enforcement / seizures). The Zycubo (FDA-approved copper histidinate) and EGRIFTA SV (FDA-approved tesamorelin) references are pharmacological context for the peptide-class discussion, not contamination attributions, and are kept on that basis. No per-brand contamination values are reported.
-- Wiki/HMT&C firewall (Part 2): no synthesis claims, no threshold proposals, no consumer risk advisories carried into the wiki page; the bulletin's own consumer-facing advisories ("Any dose is an overdose") are summarised as documentation of the clinical-guidance stance, not echoed as wiki claims.
-- Speciation: the bulletin says "arsenic," not "inorganic arsenic." Recorded as `tAs` (total arsenic) on this page. The cited Janvier 2018 source IS speciation-confirmed iAs, and the iAs designation appears on the Janvier source page; this tertiary citation does not carry speciation forward.
-- `matrices:` values (`injectable-peptide`, `falsified-medicine`, `unauthorized-injectable`) are outside the standard food-matrix vocabulary in the editorial record. Kept consistent with the matrices vocabulary already used on [[sources/janvier2018-falsified-peptides-elemental-impurities]]; flagged for vocabulary-list review when the peptide/injectable-medicine matrices are consolidated.
-- Product slug `research-chemicals-peptides-sarms` exists in the linked reference record as of 2026-06-09 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale; this is a known condition). Same for `peptides-injectable-hormones`.
-- Sample sizes (`sample_n:`) intentionally null because the four cases are clinical reports, not analytical samples; the underlying contamination claims have their own sample sizes on the cited primary sources.
+- [[metals/arsenic]]
+- [[metals/lead]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

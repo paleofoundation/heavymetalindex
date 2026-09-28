@@ -88,7 +88,6 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
 
-
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 

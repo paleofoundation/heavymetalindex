@@ -48,18 +48,12 @@ Courses: Useful as a cautionary mitigation example because the filter improved f
 
 App: Context-only mitigation evidence for household water-treatment design.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[metals/aluminum]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` lineage. The paper is direct point-of-use treatment evidence even though it uses synthesized water rather than a retail product matrix.
-
-Products and ingredients are intentionally empty. This is filter-performance evidence in simulated source-water conditions, not occurrence surveillance in a market product.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

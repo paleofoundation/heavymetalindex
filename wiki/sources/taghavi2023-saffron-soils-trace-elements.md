@@ -54,7 +54,7 @@ Courses: This is a useful case study for supplier and sourcing audiences because
 
 App: Context only. The soil values should not populate a saffron or spice contamination profile without crop-transfer or measured saffron data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/cadmium]]
@@ -66,14 +66,6 @@ App: Context only. The soil values should not populate a saffron or spice contam
 - [[metals/manganese]]
 - [[metals/zinc]]
 - [[metals/iron]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason was too narrow because the paper measures agricultural soil used for a consumable crop's cultivation; it is in scope as a3 supply-chain source/pathway evidence.
-
-All key numbers were checked against the extracted PDF text, especially Tables 3, 6, and 7 and the pollution-index prose. The paper reports soil values only; no saffron stigma, spice, infant-formula, or finished-product concentrations were found in extracted text. Products and ingredients are intentionally empty, and the soil numbers must not enter HMTc occurrence or threshold pools.
-
-The extracted prose contains an apparent typo saying lead concentrations had median 34.234 mg/kg; Table 3 shows the Pb average as 13.617 mg/kg and 34.234 mg/kg as the Ni average. This page follows Table 3.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

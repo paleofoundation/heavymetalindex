@@ -51,7 +51,6 @@ Population patch testing of Odense 8th graders found contact allergy in 15.2 per
 | Ni | patch-tested schoolboys | 1.9 | percent | point prevalence | 526 | Table II footnote d p.3 (printed 354) |
 | Ni | patch-tested schoolchildren | 6.6 | percent | point prevalence | 1146 | Table II footnote d p.3 (printed 354) |
 
-
 ## Methods (brief)
 
 TRUE Test plus nickel sulphate hexahydrate dilution series printed as three concentrations (200, 10, 1 mg/cm2) and one placebo. Ethics project 95/22. Relevance judged from exposure history and dermatitis pattern.

@@ -59,7 +59,6 @@ Twelve colorless PET bottled waters bought in Monterrey, Mexico, were analysed f
 | Sb | bottled water PET-1, as purchased | 0.28 ± 0.06 | μg/L | mean | 3 | Table 2 p.PDF p.4 (printed 514) |
 | Sb | PET bottle PET-1 | 81.2 ± 2.9 | mg/kg | mean | 3 | Table 2 p.PDF p.4 (printed 514) |
 
-
 ## Methods (brief)
 
 HG-AFS (AF-640A), stibine generation with 0.7% NaBH4 and 10% HCl after KI/ascorbic acid pre-reduction. Water: 100 mL through 1.5 g Dowex 1X8-100, eluted with 5 mL 2.0 M HNO3. PET: about 0.1 g, 5 mL HNO3:HCl (4:1), 180 °C for 15 min, made to 50 mL. Migration: four 5 × 4 cm pieces (about 2.1 g) in 100 mL, pH 3 or 7, 25 or 75 °C, 5 or 15 days, duplicated. Spike recoveries 91.0-118.0% for PET (50 mg/kg spike) and 96.5-101.5% for water (400 and 800 ng/L).

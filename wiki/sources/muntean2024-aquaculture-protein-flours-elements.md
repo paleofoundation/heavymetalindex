@@ -52,7 +52,7 @@ Courses: Useful for explaining why circular-economy feed ingredients still need 
 
 App: Context only unless a downstream fish-product synthesis explicitly models feed-to-fish transfer from separate occurrence evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/coffee]]
 - [[ingredients/sunflower-seeds]]
@@ -62,10 +62,6 @@ App: Context only unless a downstream fish-product synthesis explicitly models f
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Molecules PDF. The paper reports arsenic only as As, so this page records it as total arsenic and does not infer inorganic arsenic. The auto-fetched filename is a coffee/cadmium gap hit because spent coffee grounds are one tested feed-ingredient flour; products are intentionally empty because the source does not measure finished coffee or fish products.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

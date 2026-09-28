@@ -47,7 +47,7 @@ Samples were mineralized by wet acid digestion and analyzed by atomic absorption
 
 The source supports canned tomato paste and canned pineapple occurrence context for Cd, Pb, Zn, Cu, and Fe. Because it is a preprint, its values should be weighted below peer-reviewed market surveys until publication status is confirmed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tomato-paste]]
 - [[ingredients/pineapple]]
@@ -60,10 +60,6 @@ The source supports canned tomato paste and canned pineapple occurrence context 
 - [[metals/zinc]]
 - [[metals/copper]]
 - [[metals/iron]]
-
-## Verification notes
-
-The current product taxonomy has tomato-paste and canned-tomatoes pages but no precise canned-pineapple product page. The pineapple finding is therefore carried through the ingredient field and broad canned-food context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -69,7 +69,7 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - Courses: Foundational reading for any exposure-science course module on dermal absorption of metals from environmental media. Demonstrates how regulatory ABS values are constructed from limited primary evidence, and how species, occlusion, soil loading, and matrix interact to modify the underlying fraction.
 - App: Not relevant to ingredient `contamination_profile`. The ABS values feed any future dermal-route exposure annex but do not affect ingredient-level food contamination data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/cadmium]]
@@ -78,20 +78,6 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - [[metals/nickel]]
 - [[metals/chromium-hexavalent]]
 - [[metals/beryllium]]
-
-## Verification notes
-
-- 2026-05-17 merge-enhance: Corrected Arsenic ABS recommendation from "3-5%" to **4%** (the actual OEHHA recommendation in F.1.3.1 is 4%, calculated as the arithmetic mean of the 4.5% and 3.2% in-vivo Rhesus monkey absorption values from Wester et al. 1993b; 3-5% is the underlying in-vivo range, not the OEHHA point estimate). Corrected section reference from "F.1.3.6" (which is mercury) to F.1.3.1 (arsenic). Removed unsupported "6% in companion documents" claim — Appendix F itself states 4%. Removed misattribution to Wester 1992a — the arsenic key study is Wester 1993b alone (1992a was the cadmium key study).
-- 2026-05-17 merge-enhance: Added explicit OEHHA recommendations for Beryllium (1%, Clement Associates 1988 default) and Chromium VI (1%, same default) that were previously omitted from Key numbers despite both metals appearing in `metals:` source metadata.
-- 2026-05-17 merge-enhance: Replaced "BaP not stated in pages read; referenced 13% in EPA RAGS Part E" with the actual OEHHA Appendix F F.1.4.3 recommendation of 13% based on Wester et al. 1990 in-vivo Rhesus monkey (24 h ABS 13.2 ± 3.4%, n=4). The 13% number is OEHHA's own recommendation, not an EPA RAGS Part E reference.
-- 2026-05-17 merge-enhance: Added DEHP (10%) and hexachlorocyclohexanes (10%) to organic-compounds cross-reference for completeness.
-- 2026-05-17 merge-enhance: Changed `metals:` source metadata from `As` to `tAs` speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
-- 2026-05-17 merge-enhance: Cleaned up Implications cross-jurisdictional comparison — the previous version mis-stated the OEHHA-vs-ATSDR Cd relationship (ATSDR Table 8's 0.001 is the same fraction as OEHHA's 0.1%, not a stricter value).
-- Sample-level numerical findings from cited primary studies (Baranowska-Dutkiewicz, Moore, Lilly, Stauber, Fullerton, Wester) belong on those primary-source pages when those papers are themselves ingested; this OEHHA document is the aggregator/recommender.
-- Arsenic ABS in the F.1.3.4 chromium-comparison text reads "absorption of arsenic from water and from soil (2-6% and 3-5%, respectively)" — this range is the comparison context, not the OEHHA point estimate; the OEHHA point estimate for arsenic from soil is 4% per F.1.3.1.
-- 2026-05-17 cross-vendor audit (Codex): Corrected the lead primary-study attribution so the 29% disappearance-technique estimate is attributed to Stauber et al. 1994 only (F.1.3.5, p. F-15); Lilly et al. 1988 reported sweat/saliva biomonitoring increases without deriving a percent absorbed. Tightened Certification implications to remove cross-source ATSDR comparison and HMTc-specific threshold-modeling language not stated in Appendix F.
-- 2026-05-17 fresh-context audit editorial review (automated editorial review): all Key-numbers values verified ✅ against the PDF (As 4%, Be 1%, Cd 0.1%, Cr-VI 1%, Pb 1%, Hg 10%, Ni 4%, PCBs 14%, TCDD 2%, BaP 13%, HCH 10%, DEHP 10%); cadmium page reference tightened from "p. F-11" to "pp. F-11 to F-12" since the OEHHA recommendation statement is on F-12 (Table 6.12 is on F-11); Certification implications further softened to drop the "relevant when dermal Hg contribution needs to be bounded" clause flagged as HMTc-direction framing. Audit verdict: REVISE (now applied).
-- 2026-05-17 audit false-positive note: the audit editorial review flagged `Be` in the `metals:` source metadata as ⚠️ not in the system-prompt metal-abbreviation list. Verified against corpus: `Be` is used consistently in 7+ existing source pages (atsdr2023-soil-dermal-absorption-guidance, stefaniak2014-ni-be-cr-artificial-sweat, krasnopyorova2024-almaty-surface-water, ravalli2022-uranium-metals-us-water-systems, ufelle2021-metals-chapter, yan2025-infant-serum-26-metals-gut-microbiota-china) as the standard chemistry abbreviation for beryllium, and the `metals/beryllium` wiki page exists in the taxonomy snapshot. Finding rejected as false positive; `Be` retained.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

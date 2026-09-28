@@ -95,17 +95,6 @@ It is **not** appropriate as evidence for any quantitative claim about Cd, Cu, Z
 - **Genome BLASTp** — queries against MycoCosm (US DOE JGI), NCBI, and Broad Institute databases; queries closed 1 November 2014. ClustalW alignment; manual inspection for annotation errors; revised annotations generated in six cases (*Pyronema confluens*, *Rhizophagus irregularis*, *Tuber melanosporum*, *Rhizopus oryzae*, *Batrachochytrium dendrobatidis*, *Phycomyces blakesleeanus*).
 - **Phylogeny** — MEGA6 (Tamura et al. 2013); best-fit ML model LG+G; all amino-acid sites; 100 bootstrap replicates; alignment 243 amino acids on the conserved core after trimming variable N- and C-terminal ends.
 
-## Verification notes
-
-Source ingested fresh from the archived source file (SHA256 5cd9073a655914d7e9e2064377ed4b71512377a7b704260f6c7a8752f4dbbdde). Open-access CC-BY-4.0 BioMed Central article (DOI 10.1186/s40694-015-0013-3). All numeric values traced to the cited figure or text location on the indicated page of the published article (13 pages total). Strain table, primer table, and Table 1 lineage distribution transcribed in full. The paper reports null results for cobalt, sodium arsenite, iron sulfate, manganese chloride, H₂O₂, and t-butyl-hydroperoxide as growth-effect tests on *Sporobolomyces pcs1Δ*; these null findings are recorded in Key numbers but not propagated to source metadata `metals: []` beyond the four metals (Cd, Cu, Zn, iAs) for which the paper has substantive empirical content. No food matrix, ingredient, product, or jurisdiction is invoked, so the corresponding source metadata arrays are empty by design — this is a mechanistic genetics/genomics paper and the routing layer should treat it as exposure-only/mechanistic context for the three metal pages noted in Evidence Fitness.
-
-Audit editorial review (2026-06-08) flagged two findings; both verified against the PDF and applied:
-
-- **❌ Strain genotype mapping for AS9–AS14 was transposed.** The initial ingest paired AS9 with AS12 (both as *pcs1Δ* + empty pREP42), AS10 with AS13, and AS11 with AS14, treating all six as *pcs1Δ*-background strains. Verified against Table 2 (p. 9, Parent/origin column): AS9, AS10, AS11 carry the MM72-4A (WT *ura4-D18*) background and are the wild-type-background control panel; AS12, AS13, AS14 carry the AS8 (*pcs1Δ*) background and are the complementation-assay panel; AS15 (*pcs1Δ* + *PCS1-GFP*) is correctly attributed in both versions. Corrected the strain-table paragraph in Key numbers to separate the two background trios. Figure 4A's strain triplet (AS09 / AS12 / AS15) is independently consistent with the corrected mapping.
-- **❌ "408 fungal genome sequences" was incorrect.** The initial ingest stated 408 genomes examined; the number does not appear in Table 1 (p. 6), Methods, or Results body. Independent sum of Table 1's "Genome sequences examined" column: 2+1+2+5+1+8+1+1+0+1+7+35+180+103+16+8+2+1+1 = 375. Corrected to 375 in the lead paragraph, the third bullet of Why this matters, the Table 1 distribution paragraph heading, and the present/absent narrative.
-
-No other audit findings; the Key numbers Cd unit-conversion (1 µM CdSO₄ ≈ 112 µg Cd/L), C-terminal cysteine motifs, slug vocabulary, methods anchors, brand firewall, and HMTc firewall all passed independent re-verification.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

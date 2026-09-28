@@ -113,7 +113,7 @@ This source contributes Iranian-market occurrence data for total Pb and total Cd
 
 The single-province sampling footprint (three markets in Kermanshah) and small per-cell replication (n=3) make this a B-tier contributor on its own; it should pool with other Iranian and regional cereal-survey data rather than anchor any standalone characterisation. The paper does not isolate a contamination pathway (soil, irrigation water, fertiliser, post-harvest handling, packaging) for the rice and wheat Pb exceedances.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -128,19 +128,6 @@ The single-province sampling footprint (three markets in Kermanshah) and small p
 - [[products/rice-bulk-grain]]
 - [[products/other-grain-products]]
 - [[products/legumes-pulses-other]]
-
-## Verification notes
-
-- **source metadata discipline.** All ingredient and product slugs verified against the 2026-05-18 taxonomy snapshot. Barley and peas are not yet in the ingredient taxonomy; the paper-measured commodities are captured in `matrices:` (`barley-grain`, `peas`) and in the prose, with `cereals` and `legumes` carrying the umbrella ingredient routing. Auto-stub creation for barley/peas, if/when freq-2 is crossed by other sources, is the routing-layer's job, not this page's.
-- **Cite-key choice.** `ataee2016-iran-cereals-pb-cd` follows the descriptive-suffix convention (first author, year, region, commodity, analytes). DOI is the canonical identity; cite-key is a human-readable handle.
-- **Evidence tier B.** Peer-reviewed in IJEAC; method validated against two CRMs with within-uncertainty agreement; spike recoveries 90–108 %. Sampling footprint is single-province (Kermanshah) with n=3 per market×commodity cell, which is the dominant reason for B rather than A.
-- **WHO reference values.** The paper cites WHO maximum allowable levels of 0.2 mg/kg (Pb) and 0.1 mg/kg (Cd) for cereals (reference [6], Commission Regulation (EU) Off. J. Eur. Union L 364, 5 (2006) — actually the EU Commission Regulation, which the paper labels "WHO"; this is the original wording in the paper). The wiki page reports the comparison the authors made; it does not extend the comparison to other contemporaneous limits (EU 1881/2006 cereal Pb at 0.20 mg/kg matches the cited value; EU 1881/2006 cereal Cd at 0.10 mg/kg also matches). The mismatch between the paper's "WHO" attribution and the actual EU regulation citation in reference [6] is documented here for accuracy.
-- **Brand firewall (Part 12).** No brand-name attribution to contamination values — the paper identifies samples only by market number (1, 2, 3) and commodity. Methods-section vendor/material names retained per the 2026-05-17 vendor-name exception: Analytik Jena, novAA, MPE 60, Anton Paar Multiwave 3000, Metrohm, Hettich Zentrifugen EBA20, Sigma, Merck, Whatman, NCS ZC 73,008 / 73,009 CRMs from China National Analysis Center for Iron and Steel, Air Products UK.
-- **Wiki/HMTc firewall (Part 2).** No threshold proposals, no consumer-audience advisories, no synthesis claims against other papers. The Implications section reports what this paper contributes; cross-paper synthesis is the Part 9 workflow's job.
-- **Speciation.** Total Pb and total Cd only. No As/Hg panel, no Pb or Cd speciation. The source metadata `metals:` reflects this (`[Pb, Cd]`).
-- **Basis.** Dry weight as analysed (1.0 g oven-dried at 50 °C for 2 h, then dry-ashed at 500 °C for 12 h). All Table 4 values are on the dry-as-sold basis of the bulk grain commodities. No conversion to as-consumed or wet-weight basis is needed for the values reported; if downstream synthesis requires a wet-basis conversion, the paper does not provide moisture content for each commodity and a literature value would be required.
-- **Sampling year.** Not stated; manuscript received 30 September 2015 and accepted 29 January 2016, so sampling likely occurred in 2014–2015. Left null in source metadata.
-- **Data integrity.** All 42 commodity×market×metal cells transcribed from Table 4 (pp. 279–280) and verified against the original PDF. Spike-recovery section (Market 1 only) and CRM results (§3.9) likewise transcribed and verified. No paper-internal contradictions identified.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

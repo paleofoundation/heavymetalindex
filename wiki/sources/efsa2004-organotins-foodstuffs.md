@@ -108,15 +108,6 @@ EFSA reviewed organotin exposure and toxicology in response to European Commissi
 
 This source provides the EU regulatory anchor for organotin occurrence and exposure in fish and seafood. It supports seafood, fish, canned-fish, shellfish, mollusc, and bivalve routing for TBT, DBT, TPT, and related organotin species on a `µg/kg` whole-weight/fresh-weight basis. Downstream use must preserve species identity and should not use these organotin values as total tin or inorganic tin.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; occurrence Tables 3-5 and exposure Table 1 were checked in the extracted text.
-- DOI `10.2903/j.efsa.2004.102`, raw handle `MFK_efsa-journal-2004-opinion-scientific-panel-contam`, and cite-key checks found no existing source page before creation.
-- TDI values, occurrence descriptors, exposure-intake values, sample counts, participating-country list, and sampling-period notes were checked against the extracted text. Units are preserved as `µg/kg`, `µg/kg b.w.`, `µg/kg b.w./day`, `mg/kg b.w./day`, and `g/person/day`; no conversion was performed.
-- Speciation: the source reports organotin species including `TBT`, `DBT`, `MBT`, `TPT`, `DPT`, and `MPT`, with risk characterization focused on `TBT`, `DBT`, `TPT`, and `DOT`. source metadata uses `Sn` for element-level routing, but this page must route toxicology and occurrence interpretation to organotins and must not collapse organotin species into inorganic tin.
-- Brand firewall: no brand-level food measurements are reported.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include crustaceans, cephalopods, and echinoderms, so broad seafood/shellfish/mollusc routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

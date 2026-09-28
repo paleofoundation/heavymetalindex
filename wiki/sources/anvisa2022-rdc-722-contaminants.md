@@ -64,11 +64,6 @@ Microbiome: No direct microbiome endpoint.
 ## Related evidence
 - [[regulations/brazil-anvisa-rdc-722-2022]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- Numeric dates and article references were checked against the PDF text twice during ingest.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

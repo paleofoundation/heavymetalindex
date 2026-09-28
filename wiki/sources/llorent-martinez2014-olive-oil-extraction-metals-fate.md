@@ -87,7 +87,7 @@ This source contributes Spanish (Andalusian) occurrence data for olive-oil ingre
 
 The paper does not propose certification thresholds, does not measure individual brand products, and does not address pesticide-derived metal contributions beyond noting that Cu fungicides are a known elevated-Cu pathway in olive groves.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/olives]]
@@ -104,20 +104,6 @@ The paper does not propose certification thresholds, does not measure individual
 - [[metals/antimony]]
 - [[metals/vanadium]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- Source identity confirmed against DOI 10.1007/s11746-014-2511-5 (J Am Oil Chem Soc 2014, 91:1823–1830). Three identity checks (DOI grep, raw_handle grep, cite-key grep on the linked reference record) returned no prior page; this is a fresh ingest.
-- Arsenic speciation: paper monitored 75As only (total). source metadata uses `tAs` accordingly; no iAs claim is made.
-- Chromium speciation: paper monitored 53Cr only (total Cr). source metadata uses `Cr`; no Cr-VI claim is made.
-- Mercury and tin are not in the analyte panel and are not claimed.
-- No brand names appear in the source's contamination data — cultivar names (Picual, Hojiblanca, Arbequina) are botanical varieties, not brands, so Part 12 does not apply. Instrument and reagent vendors (Agilent 7500a, CEM MARSXpress, Sigma, Merck, SCP Science, Millipore Milli-Q, Gilson, Savillex) appear in Methods only and fall under the Exception 2 scientific-method allowance.
-- IOC trade standard COI/T.15/NC No. 3/Rev. 7 is cited by the paper but is not present in the current regulations taxonomy snapshot; not linked. EU Regulation (EC) No. 1881/2006 maps to the existing `regulations/eu-1881-2006-contaminants-superseded` slug.
-- `olives` and `olive-oil` are both present in the ingredients taxonomy snapshot (and have wiki pages); used as-is. The matrices vocabulary in the editorial record lists common matrices but explicitly allows adding new terms when none fit, flagged here: `olives` and `olive-oil` are reported as matrices because they are the analytical phases the paper measured (raw olive fruit including stone; the extracted VOO). `olive-pomace` is a new matrix term added here for the third analytical phase; no `ingredients/olive-pomace` or `products/olive-pomace` slug exists and none is invented.
-- Conclusion-paragraph average retention is stated as "at least 90 %" in the abstract and "93 %" in the Conclusion; both are preserved in the Key numbers summary to keep the source-stated wording intact.
-- Audit editorial review (2026-06-01) flagged `[[ingredients/olives]]` as not in the taxonomy snapshot. Verified against the editorial record line 40 — `olives` IS in the Ingredients snapshot and the linked reference record exists. Finding rejected as false positive; slug retained.
-- Audit editorial review (2026-06-01) flagged the Arbequina natural-baseline pomace rows (Cu 2,380 ± 80 ng/g, Fe 9,900 ± 300 ng/g, both with VOO <MDL) as omitted from Key numbers; verified against Table 5 and added.
-- Audit editorial review (2026-06-01) flagged "consistent with prior reports of higher Cu in pomace oils than in VOO" in Implications as cross-source synthesis; verified against the paper's own Discussion (p. 1829) where the authors cite their 2011 paper (ref [7]) for exactly this comparison. Rewritten to attribute the comparison explicitly to the source's own citation, removing the wiki-side synthesis framing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

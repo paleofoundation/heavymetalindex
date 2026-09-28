@@ -50,7 +50,7 @@ The paired treatment summaries contribute source-native vegetable occurrence and
 
 Evidence Fitness: EF-3; directly measured edible-product summaries from a small controlled field experiment, with unreported analytical quality-control details and dispersion type. Summary-only status does not by itself exclude the source from later appropriately scoped analysis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/non-root-vegetables]]
 - [[ingredients/broccoli]]
@@ -60,14 +60,6 @@ Evidence Fitness: EF-3; directly measured edible-product summaries from a small 
 - [[metals/cadmium]]
 - [[metals/iron]]
 - [[metals/copper]]
-
-## Verification notes
-
-Tables retain more precision than the abstract. B-W 2 is interpreted using the Methods and figure legend as wastewater despite prose calling it alternating irrigation. The table gives wastewater SAR 2.74 while prose says 2.24. Several auxiliary soil-unit labels appear erroneous and are retained as printed in the structured record. The source’s claims that values are below WHO/FAO limits and that river water is clean are not independently verified legal or health conclusions. No fresh-weight conversion is made.
-
-Matrix vocabulary extensions vegetables and wastewater distinguish measured crop heads from environmental irrigation solutions.
-
-The preserved Library PDF is identified by `RPHMI_2`; SHA-256 `99b2fb0dbc892e98b453e056a472789e23625490d18107c282f678102bbade7f`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://tjas.org/index.php/tjas/article/download/361/635. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

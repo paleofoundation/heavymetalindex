@@ -118,7 +118,7 @@ Methods novelty: this is described by the authors as the first systematic report
 
 Aluminium burden: the Al concentrations reported here (per-sample TWI contributions up to 56% from a single supplement at the manufacturer-recommended dose) are the most striking heavy-metal finding from a public-health standpoint. Downstream synthesis on the `supplements-algae-seaweed-based` product page should treat algae supplements as a non-trivial contributor to total Al exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-algae-seaweed-based]]
 - [[products/dietary-supplements]]
@@ -139,22 +139,6 @@ Aluminium burden: the Al concentrations reported here (per-sample TWI contributi
 - [[metals/molybdenum]]
 - [[metals/cesium]]
 - [[regulations/efsa-aluminium-twi]]
-
-## Verification notes
-
-Internal inconsistency in the paper between the per-sample data and the Discussion compliance claim. Tables A1 and 1 show that individual *Spirulina* samples reach Cd 0.270 µg/g and Pb 3.23 µg/g, and individual *Chlorella* samples reach Cd 0.150 µg/g and Pb 1.31 µg/g, all of which exceed the EU food-supplement limits of EC No. 488/2014 (Cd 0.050 µg/g) and EC No. 2015/1005 (Pb 0.30 µg/g) cited in the Discussion. The Discussion paragraph at page 13–14 nevertheless states that "none of the analyzed samples from either group exceeded the maximum permissible concentrations for toxic metals such as Pb and Cd as specified by the European Commission regulations." This source page reports the per-sample values verbatim from Tables A1 and 1 and surfaces the contradiction in Key numbers and Limitations rather than silently averaging it away. Downstream synthesis should rely on the per-sample published values, not the Discussion's blanket compliance statement.
-
-No spirulina or chlorella ingredient page currently exists in the wiki. Per the ingest-next-manual-fetch-pdf v2.0 skill, new ingredient pages are not created during ingest; the auto-stub script handles ≥freq-2 ingredients separately. Spirulina and chlorella are microalgae (cyanobacterium and freshwater microalga respectively) and are not properly described by the existing `ingredients/seaweed` slug; `ingredients:` is therefore left empty on this page. The product slug `supplements-algae-seaweed-based` captures the product-category placement.
-
-Brand-firewall compliance: the paper anonymises samples by integer index (1–52) with country-of-origin annotations only (Poland, China, Taiwan, USA, Denmark per Table 1) and does not name any commercial brand. No brand names appear in the paper or on this page. Methods-section vendor and reference-material names (Anton Paar Multiwave 3000, Thermo Electron Corp ICP-MS, AB SCIEX QTRAP 4000, Agilent 1260 Infinity, Phenomenex Kinetex column, Suprapur HNO₃ from Merck Darmstadt, Direct-Q UV from Millipore, Polish Certified Reference Material from Herbapol S.A. Lublin, Fluka Analytical multi-element calibration, Sigma-Aldrich / Toronto Research Chemicals / Drug Research Institute Warsaw pharmaceutical standards, MetaboAnalyst 6.0, Statistica v10 / TIBCO Warsaw) are reproducibility metadata permitted under Verification-Checklist §4 Exception 2 (scientific-method vendor/material names).
-
-Aluminium TWI reference: the paper's Discussion states EFSA's TWI for Al as "2 µg/g bw/week" (page 14, citation [26]). This is the unconventional µg-per-gram-of-body-weight per week notation; expressed in conventional units, it equals 2 mg/kg bw/week, consistent with the EFSA/JECFA PTWI for aluminium (and with Table A4's PTWI of 28.6 µg/week/kg bw → 2,000 µg/week per 70 kg). The value reported on this source page uses the µg/kg bw/week notation for clarity; the paper's own µg/g notation is preserved in the Implications section.
-
-Total mercury and arsenic were not measured in this paper; the Abstract mentions "lead and mercury" only as a general framing of environmental contaminant concerns. source metadata `metals:` therefore excludes Hg/MeHg/tHg/iAs/tAs.
-
-Audit editorial review (2026-06-04, fresh-context general-purpose Agent) flagged four ❌ findings on Check 1 (numerical fidelity) involving TWI percentage transcription. Re-verifying independently against PDF Table 1 (pages 4–5) cross-referenced with Table A4 PTWI denominators (page 20): the `TWI (%)` column values are direct percentages (e.g., sample 39 Al column reads 56.10, which the discussion text confirms as 56.10%), not raw decimal ratios that need a ×100 conversion. The page initially mis-read the Cd and Cr columns as raw ratios. Corrections applied: Cd corpus-maximum TWI changed from 7.35% to 0.0735% (sample 48; 0.36 ÷ 490 µg/week PTWI at 70 kg = 0.0735%); Cr corpus-maximum TWI changed from 20.69% to 0.2069% (sample 2; 3.38 ÷ 1631 µg/week PTWI at 70 kg = 0.2069%); Mn maximum corrected to sample 52 alone at 0.20% (samples 17 and 31, originally claimed at 0.20%, are in fact at 0.02% and 0.01% respectively per Table 1); Ni maximum corrected to sample 28 at 0.00334% (the 0.00477% value originally reported on the page is in fact sample 28's Cr TWI, not Ni TWI — a column-misalignment error). The Pb 0.112% (sample 2) value was independently re-verified and remains correct. Al TWI values (Spirulina sample 39 at 56.10%, sample 49 at 22.57%, sample 52 at 22.01%; Chlorella sample 16 at 28.92%, sample 2 at 25.04%, sample 23 at 17.13%) were re-verified and remain correct.
-
-EFSA Al TWI citation: the paper states EFSA's TWI for Al as "2 µg/g bw/week" (page 14, citation [26]). EFSA's published TWI for aluminium is 1 mg/kg bw/week (EFSA Journal 2008;754:1–34), equivalent to 1 µg/g bw/week, not 2 µg/g bw/week. Table A4 of the paper reports the PTWI for Al as 28.6 µg/week/kg bw or 2,000 µg/week per 70 kg, which is twice the EFSA value (consistent with the older JECFA PTWI of 2 mg/kg bw/week withdrawn and reduced to 1 mg/kg bw/week in 2011). The paper appears to be using the older JECFA PTWI rather than the current EFSA TWI. This is a paper-quality concern, not a transcription error; the source page reports the paper's values verbatim with this caveat surfaced here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

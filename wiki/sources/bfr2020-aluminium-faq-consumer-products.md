@@ -95,21 +95,6 @@ The FAQ records the BfR's consumer-facing positions on reducing avoidable alumin
 - The BfR states that reducing or omitting whitening (abrasive) toothpaste use reduces aluminium absorption from cosmetics.
 - The BfR's general dietary recommendation in the FAQ is variety of food sources to reduce partial exposure to any single contaminant, including aluminium.
 
-## Verification notes
-
-Routing-source metadata decisions made during ingest:
-
-- **`products: bread-and-baked-goods` added** to route the FAQ's substantive lye-pretzels finding (BfR detection of >10 mg/kg in baked lye products, with the 2002 reduction recommendation not yet fully implemented) onto the broad baked-goods product page rather than only the bread ingredient page. The taxonomy snapshot has no `pretzel`-specific or `lye-pastry` slug; `bread-and-baked-goods` is the appropriate umbrella.
-- **`ingredients: vegetables` added** for the BfR's "mixed raw vegetable salads (8%)" finding among top adult dietary Al contributors. The taxonomy snapshot offers `vegetables`, `leafy-vegetables`, `non-root-vegetables`, and several specific vegetables; the BfR's "Rohkostsalat" framing covers a heterogeneous raw-vegetable category (not exclusively leafy), so the broadest accurate slug `vegetables` is chosen.
-- **`infant-formula-powder` only** (not soy/non-soy split) — the BfR FAQ contrasts breast milk vs infant/follow-on formula in general, and notes that "specially adapted baby foods (soy-based, lactose-free, hypoallergenic) can contain significantly higher amounts of aluminium" without giving a soy-vs-non-soy split for standard infant formula. The routing audit's broad-powder-context rows for both soy/non-soy locked rows are appropriate; this source does not itself resolve the soy/non-soy row split.
-- **`matrices: []`** — this is a risk-communication FAQ with no analytical matrix of its own; the analytical matrices are in the underlying BfR opinions, not in this document. Leaving the matrices array empty triggers an advisory-severity malformed entry in the routing audit, consistent with Karen's standing decision to treat optional-routing-input absence as advisory rather than blocking.
-
-Audit-application notes:
-
-- Audit editorial review (2026-06-03) flagged missing `[[products/bread-and-baked-goods]]` slug; verified against PDF p.5 lye-pretzels section — added.
-- Audit editorial review (2026-06-03) flagged missing vegetable ingredient slug for the "mixed raw vegetable salads (8%)" finding; verified against PDF p.3 — added `[[ingredients/vegetables]]`.
-- Audit editorial review (2026-06-03) flagged that the Practical exposure-reduction guidance bullets read as wiki-voice imperatives rather than BfR-attributed positions; verified against PDF pp.2-3, p.5, p.7 — bullets reframed to clearly attribute each recommendation to the BfR.
-
 ## Methods (brief)
 
 Risk-communication FAQ. No original measurement, no sample frame, no analytical method, no exposure calculation produced for this document. The underlying data and positions are drawn from prior BfR scientific opinions (2002 lye pastries; 2014 and 2019 risk assessments on aluminium; 2017 Opinion 007/2017 on uncoated aluminium menu trays; 2019 total Al intake estimate; 2020 revised antiperspirant assessment incorporating SCCS data), from the EFSA 2008 AFC panel TWI derivation, and from the JECFA 2012 provisional TWI derivation. Cosmetic-product aluminium concentration ranges are sourced from industry data and scientific literature referenced by BfR but not enumerated in the FAQ itself.
@@ -121,6 +106,11 @@ Risk-communication FAQ. No original measurement, no sample frame, no analytical 
 **Courses:** The food-category contribution rankings (instant tea 11%, raw vegetable salads 8%, tea 7%, cocoa/chocolate 6%, multigrain bread 4%) and the BfR's specific consumer guidance on acidic/salty foods plus uncoated aluminium contact surfaces provide concrete, agency-sourced talking points for QA-team and consumer-facing course material.
 
 **App:** The cosmetic-product aluminium concentration ranges (antiperspirants ~2.8–5.8% Al; lipstick up to 3%; whitening toothpaste up to 4.5%; sun cream up to 0.8%) and the lye-pretzel >10 mg/kg finding can populate Al contamination-profile data points on the corresponding product pages.
+
+## Related evidence
+
+- [[products/bread-and-baked-goods]]
+- [[ingredients/vegetables]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

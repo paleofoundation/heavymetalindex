@@ -48,7 +48,7 @@ Courses: Useful as a documented example of a microwave-digestion plus ICP-MS wor
 
 App: No occurrence data to surface; the source informs methodology references rather than consumer-facing concentration estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula]]
 - [[ingredients/infant-formula]]
@@ -58,10 +58,6 @@ App: No occurrence data to surface; the source informs methodology references ra
 - [[metals/chromium]]
 - [[metals/tin]]
 - [[metals/antimony]]
-
-## Verification notes
-
-The same DOI was fetched under formula and infant-formula Cd, Pb, Sn, and tAs gaps. This page is the canonical page for those duplicate paths. Arsenic, chromium, tin, and mercury are total-element measurements; no iAs, Cr(VI), inorganic-Sn, or MeHg speciation is performed. Cu and Se are reported in the source but are outside the HMTc analyte vocabulary and are not surfaced in the `metals:` source metadata. The paper measured liquid-milk (RTF) infant formula only; powder, concentrated-liquid, and soy-based subcategories are not in scope.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

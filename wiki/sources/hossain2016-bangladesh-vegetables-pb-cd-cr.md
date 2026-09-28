@@ -57,7 +57,7 @@ Sampling covered five vegetable categories: tuber (white potato), brassica (gree
 - App: Supports a country/region modifier for vegetables where market or sourcing geography is known.
 - Methods: The dry-weight reporting basis and source-side conversion from fresh-weight standards must remain explicit; do not pool with fresh-weight retail values without logged conversion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/potatoes]]
 - [[ingredients/cabbage]]
@@ -71,13 +71,6 @@ Sampling covered five vegetable categories: tuber (white potato), brassica (gree
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- The source measures total Cr by AAS. It uses Cr(VI) oral RfD as a conservative comparison point because food-specific Cr limits were not available to the authors, but the occurrence values are not Cr(VI) speciation data.
-- White radish does not currently have a dedicated ingredient page; this page routes it to the existing `[[ingredients/root-vegetables]]` slug.
-- The PDF's license statement identifies Creative Commons Attribution 4.0.
-- This source is summary-statistic-rich but not sample-level extractable from the PDF alone; the detailed sample table is in Additional file 1, not embedded in the PDF text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

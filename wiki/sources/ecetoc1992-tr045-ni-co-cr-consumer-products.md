@@ -159,46 +159,33 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 - Access date: 2026-06-02.
 - Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/01_AP_Countertop_Tile_Floor/`.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/nickel]] — pre-1992 European baseline concentrations in personal-care and household-cleaning products; ACD elicitation threshold of ~1 ppm under occluded patch test.
-- [[metals/cobalt]] — pre-1992 European baseline; co-occurrence with nickel in alloys and consumer products.
-- [[metals/chromium]] — pre-1992 European baseline; trivalent vs hexavalent speciation discussion.
-- [[metals/chromium-hexavalent]] — Cr⁶⁺ specifically: the toxicologically relevant species; chromated-disc release threshold 0.3 µg/cm²/20 min proposed by Wass and Wahlberg 1991.
-- [[products/laundry-detergents]] — bulk of the Table 6 dataset (washing powders and liquids).
-- [[products/dish-soaps-manual]] — dishwashing liquids subset.
-- [[products/all-purpose-cleaners]] — cleaners/scouring agents subset.
-- [[products/bleaching-whitening-additives]] — bleaches subset, including the 83 ppm Cr "Eau de Javel" historical outlier.
-- [[products/fabric-softeners]] — textile softeners subset.
-- [[products/shampoo-adult]] — Lindemayr 1984 dataset (n=8, all <0.01 ppm).
-- [[products/conditioner-adult-rinse-out]] — included in Unilever cosmetics aggregate.
-- [[products/body-hand-leave-on-skin-care]] — hand creams (11 Unilever products) in the cosmetics aggregate.
-- [[products/face-neck-leave-on-skin-care]] — facial wash and creams in the cosmetics aggregate.
-- [[products/facial-cleansers]] — facial wash subset.
-- [[products/hand-soap]] — liquid soap subset.
-- [[products/deodorants]] — 6 stick + 6 aerosol + 3 roll-on Unilever deodorants.
-- [[products/toothpaste]] — 4 Unilever toothpastes in the cosmetics aggregate.
-- [[products/lipstick]] — 1 Unilever lipstick in the cosmetics aggregate.
-- [[products/eye-makeup]] — 2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling) with elevated Ni (9.7 ppm mean) and Co (6.8 ppm mean) relative to other consumer-product categories in Table 6.
-- [[products/makeup-foundation-powders-blush]] — discussed in §6 ("eyeshadow and mascara" exception to rinse-off dilution argument).
-- [[products/manicuring-preparations-leave-on]] — 1 Unilever nail varnish in the cosmetics aggregate.
-- [[products/permanent-hair-dyes-tints]] — 1 Unilever hair dye in the cosmetics aggregate.
-- [[products/leave-on-hair-preparations]] — leave-on hair products discussed.
-- [[products/household-specialty-cleaners-other]] — hard-surface cleaner with disputed 77 ppm Ni outlier (Italian market, Nava et al. 1987).
-- [[regulations/eu-nickel-directive-94-27-ec]] — the 0.5 µg/cm²/week skin-contact metal-release limit foreshadowed in this report (Section 5, p. 30: "The EC (1991) is preparing a similar Directive").
-
-## Verification notes
-
-- Audit editorial review (2026-06-02) flagged D/Mueller 1985 (n=19) detergent row Cr max as 0.6; verified against PDF p. 48 — Cr max for that row is **0.4** (mean 0.4±0.2). The 0.6 Cr max belongs to the *second* Mueller 1985 row (D 10/2, n=12), which is correctly transcribed. Finding was a false positive; no change applied.
-- Audit editorial review (2026-06-02) flagged I/Kokelj 1984 detergent row sample size as n=1; verified against PDF p. 48 — n is **7** (a row with n=1 cannot have a mean±SD). Corrected to n=7.
-- Audit editorial review (2026-06-02) flagged conflation of Feuerman 1971 Cr outlier 21.4 ppm (footnote 11) with Nava 1987 Ni 77 ppm hard-surface-cleaner outlier (Comment to Table 6, p. 51); verified against PDF — these are separate outliers from separate studies and metals. Corrected the footnote-11 annotation and rewrote the Table 6 footnote summary to keep the two outlier sets distinct.
-- Audit editorial review (2026-06-02) flagged Dishwashing/E/Vilaplana 1987 Cr min as missing (—); verified against PDF p. 49 — Cr min is **0.9** (mean 2.6±1.6, max 4.7). Corrected.
-- Audit editorial review (2026-06-02) flagged Mascaras row country code as A (Austria), not EU; verified against PDF p. 49 — country code is indeed **A** with blank p/l column. Corrected.
-- Audit editorial review (2026-06-02) flagged Cosmetics row Cr min as 1.0, not <1; verified against PDF p. 49 — printed value is **1.0** without the "<" prefix (the Ni and Co columns clearly carry "<1"). Corrected. Note that mean Cr <0.1 with min 1.0 and max 1.2 is internally surprising but matches the printed table; the two between-15-and-20-ppm Cr outliers in footnote 18 are excluded.
-- Audit editorial review (2026-06-02) flagged footnote 16 attribution to Ni column in Kokelj+Nava cleaners row; verified against PDF p. 50 — footnote 16 text reads "additional two outliers of the same product 0.23 ppm Cr were found", which is a Cr-column outlier. The printed table marker placement is ambiguous; corrected the wiki annotation to attribute footnote 16 to the Cr column per the footnote text, with footnote 15 (Ni outlier) attached to the Ni column.
-- Audit editorial review (2026-06-02) flagged Implications #3 (Danish 0.5 µg/cm²/week vs ECETOC ≤1 ppm parallel) as asserting equivalence in wiki voice; verified that ECETOC's own framing in Section 5 / Section 7 is what supports the parallel and the two limits are not numerically equivalent. Rewrote the bullet to attribute the parallel to ECETOC's framing and note that the wiki has not independently verified equivalence.
-- Audit editorial review (2026-06-02) flagged Mascaras "2 Unilever mascaras" phrasing as borderline brand-attribution; tightened to "2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling)" to make the data-source-attribution framing unambiguous per Part 12 firewall.
-- Audit also flagged ACD prevalence anchors (Moeller 1990 "one in four women" Swedish quote; cobalt and chromium prevalence trend characterisations) as unverified from the pages re-checked. These remain in the wiki as paraphrases of the ECETOC report's own narrative summary in Section 3.2.2.4 and Tables 1-2; the quantitative figures are sourced from the cohort-by-cohort rows of Tables 1-2 rather than from a single quote and are not the primary contribution of this source page to HMI (the contamination-data tables are). Flagging for future fact-check pass without altering the paraphrase.
+- [[metals/nickel]]
+- [[metals/cobalt]]
+- [[metals/chromium]]
+- [[metals/chromium-hexavalent]]
+- [[products/laundry-detergents]]
+- [[products/dish-soaps-manual]]
+- [[products/all-purpose-cleaners]]
+- [[products/bleaching-whitening-additives]]
+- [[products/fabric-softeners]]
+- [[products/shampoo-adult]]
+- [[products/conditioner-adult-rinse-out]]
+- [[products/body-hand-leave-on-skin-care]]
+- [[products/face-neck-leave-on-skin-care]]
+- [[products/facial-cleansers]]
+- [[products/hand-soap]]
+- [[products/deodorants]]
+- [[products/toothpaste]]
+- [[products/lipstick]]
+- [[products/eye-makeup]]
+- [[products/makeup-foundation-powders-blush]]
+- [[products/manicuring-preparations-leave-on]]
+- [[products/permanent-hair-dyes-tints]]
+- [[products/leave-on-hair-preparations]]
+- [[products/household-specialty-cleaners-other]]
+- [[regulations/eu-nickel-directive-94-27-ec]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

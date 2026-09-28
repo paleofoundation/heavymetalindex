@@ -61,11 +61,6 @@ This is EF-2 reconstructable evidence: the source table provides sample-level va
 - `TR` handling creates a documented lower-bound summary, not a source-reported percentile.
 - Total arsenic remains separate from inorganic arsenic, and DMA/MMA are not combined into the iAs value.
 
-## Wiki Pages Updated On Ingest
-
-- [[products/fruit-juices-apple-containing]]
-- [[products/fruit-juice-not-canned]]
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

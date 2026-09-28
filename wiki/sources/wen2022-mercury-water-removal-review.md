@@ -43,7 +43,7 @@ Supports mercury source-pathway and removal-material discovery. Claims that merc
 
 Evidence Fitness: EF-3 for qualified historical/pathway discovery; EF-X for the erroneous chemical generalizations and unvalidated quantitative efficacy claims.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/atmospheric-deposition]]
 - [[supply-chain/aquatic-bioaccumulation]]
@@ -51,14 +51,6 @@ Evidence Fitness: EF-3 for qualified historical/pathway discovery; EF-X for the 
 - [[mitigation/remediation-evidence]]
 - [[metals/mercury-total]]
 - [[metals/mercury]]
-
-## Verification notes
-
-Novel secondary-environmental-evidence matrix keeps review estimates outside occurrence pools. DOI absent from preserved PDF text was independently matched through Crossref (https://api.crossref.org/works/10.54097/hset.v26i.4008). Historical production is not an environmental emission mass. A blanketUS 10 ppbdischarge claim is unverified secondary context and is not a regulatory-register entry. Figure 1 unlabelledyear values are not interpolated.
-
-The carbon-dot/chitosan claim has an analyte mismatch: cited reference 19 concerns Cr(VI) detection and adsorption, not mercury. The five-cycle statement is therefore EF-X for Hg and is retained only as a citation-error trace. Source “tons” is preserved without assuming metric or US short tons.
-
-The preserved Library PDF is identified by `RPHMI_18`; SHA-256 `9bda33e5c799a721e69cdcb0a3db0bfe8e498e18676108a6b10fd15fdd411f1e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://drpress.org/ojs/index.php/HSET/article/download/4008/3865. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

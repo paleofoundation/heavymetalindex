@@ -61,16 +61,11 @@ Samples were collected in sterilised sealed glass containers from street vendors
 **App:** Contributes context for ketchup/tomato sauce as a Pb-relevant condiment category in informal-market settings; Cd signal here is null (BDL), consistent with the study's tomato-ketchup matrix.
 
 ## Related evidence
+
+- [[products/ketchup]]
 - [[products/condiments-general]]
 - [[ingredients/tomato]]
 - [[ingredients/ketchup]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected `raw_path`, changed unsupported `license: "CC BY"` to `unknown` because the PDF states open access but does not state a Creative Commons license, and replaced missing `[[products/ketchup]]` with live product route `[[products/condiments-general]]`.
-- Numerical table checked against Table 1 and Table 2: Pb means/ranges for Delhi, Gurugram, Faridabad, and Noida match the source; Cd is BDL in all four locales; ANOVA p = 0.42 matches Table 1.
-- Cross-vendor audit (Codex, 2026-05-18) retained `matrices: [ketchup]` as a source-specific matrix label because the common matrices vocabulary does not include a clean tomato-ketchup or condiment matrix; routing is carried by live `[[ingredients/ketchup]]` and `[[products/condiments-general]]` links.
-- 2026-05-28 automated editorial review merge-enhance against the source PDF: (1) replaced placeholder `raw_handle: manual-fetch-source-retrieval` with the MFK_-prefixed slug `MFK_a-comparative-study-on-presence-of-heavy-metals-le` per the manual-fetch handle convention; (2) added `raw_sha256` computed from the local PDF; (3) added `access_url` from the DOI; (4) restored `license: "CC BY-NC"` after re-reading the source — the Creative Commons BY-NC mark is rendered as an icon in the page-1 footer below the "Copyright (c) 2020: Advanced Research Publications" line, which the 2026-05-18 text-only pass missed. Body content was unchanged because the 2026-05-18 numerical table check still holds against Tables 1 and 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

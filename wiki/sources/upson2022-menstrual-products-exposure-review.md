@@ -63,7 +63,7 @@ App: The source can support menstrual-product context cards about exposure pathw
 
 Microbiome: The paper discusses menstrual toxic shock syndrome, *S. aureus*, vaginal pH, oxygenation, menstrual fluid, and the vaginal microbiome as exposure-context mechanisms. It does not report a new microbiome measurement.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[products/menstrual-pads]]
@@ -74,16 +74,6 @@ Microbiome: The paper discusses menstrual toxic shock syndrome, *S. aureus*, vag
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_menstrual_products_environmental_exposure.txt`. The title/DOI page, abstract, introduction, environmental-chemical review methods, product-study comments, epidemiologic-study sections, Table 1, Table 2, recommendations, and conclusions were checked against this page.
-- DOI `10.1007/s40572-022-00331-1`, exact title, raw handle `MFK_menstrual-products-as-a-source-of-environmental`, and candidate cite key `upson2022-menstrual-products-exposure-review` were searched before creation; no existing source page was found.
-- Numbers are copied from the review and its tables without conversion. Percent changes and confidence intervals remain source-side epidemiologic summaries, not product concentration values.
-- Speciation: the source reports whole-blood Cd, Pb, and Hg in the cited Singh et al. study. It does not provide methylmercury or inorganic mercury, so this page records `tHg` context and does not infer MeHg.
-- Brand firewall: no brand-linked values are reported in this page. Product types are kept at category level.
-- Evidence tier: `B` because the paper is peer-reviewed and useful secondary evidence, but it is a narrative review and not a primary occurrence or systematic-review dataset.
-- Routing: `npm run evidence:source-routes` exited 0. The source generated 6 product routing rows, was absent from `routing_unresolved.csv`, and had only the expected advisory `routing_malformed.csv` entry for empty optional `ingredients`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

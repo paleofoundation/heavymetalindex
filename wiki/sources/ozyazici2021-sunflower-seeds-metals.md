@@ -45,7 +45,7 @@ Gül and Kul measured heavy metals in 18 oil sunflower (Helianthus annuus L.) se
 
 Certification: Turkey sunflower-seed occurrence evidence with regional sampling. Courses: example of low reported Cd/Pb ranges and unit-verification need. App: supports sunflower-seed context after basis confirmation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/sunflower-seeds]]
 - [[ingredients/sunflower-seeds]]
@@ -55,12 +55,6 @@ Certification: Turkey sunflower-seed occurrence evidence with regional sampling.
 - [[metals/aluminum]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Values are from the abstract and confirmed against the figures on page 3. The reported µg/kg unit is unusually low for seed mineral measurements (typical sunflower seed Fe and Zn are ~50 mg/kg, ~1000× higher than what the paper reports); the paper's unit declaration is likely a mg/kg vs µg/kg labelling error, but the wiki page transcribes the source as printed. Do not pool these values into ingredient `contamination_profile` until the unit question is resolved.
-
-Cite-key/handle mismatch (2026-06-09 audit): the file's `cite_key: ozyazici2021-sunflower-seeds-metals` and `raw_handle: AUTO_gap-sunflower-seeds-cd-2021-10-31590-ejosat-873311` were generated from an autopilot stub that misattributed authorship. The PDF at `raw_path` is genuinely Gül V. & Kul S. (2021), DOI 10.31590/ejosat.873311 — the same DOI listed in source metadata. Ozyazici/Dengiz/Aygun do not appear on this paper. Cite-key rename is locked to Karen; the page body and source metadata authors/title were corrected on 2026-06-09 to reflect the actual paper. A future cite-key migration to `gul2021-sunflower-seeds-metals` (or similar) is recommended.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

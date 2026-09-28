@@ -53,7 +53,7 @@ Courses: The paper is useful as a worked example in preserving the source's repo
 
 App: The source can support Nigeria pork-product context for Pb, Fe, Cd, Ni, and Cu, especially when an app view needs to distinguish muscle from organ meat and avoid mixing the tissue-specific means.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/iron]]
@@ -63,15 +63,6 @@ App: The source can support Nigeria pork-product context for Pb, Fe, Cd, Ni, and
 - [[ingredients/meat]]
 - [[ingredients/organ-meats]]
 - [[products/pork-product]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_574.txt` and spot-checked with `pdftotext -raw` in `/tmp/mfk_june8_574_raw.txt`; the title block, abstract, Sample Collection, Sample preparation and Determination of heavy metals, Table 1, Table 2, Table 3, Table 4, and Discussion were checked against this page.
-- The paper does not print a DOI in the extracted title/metadata text. Title/author text, raw handle `MFK_determination-of-some-heavy-metals-in-kidney-liver`, and candidate cite-key `buba2020-domestic-pig-metals-nigeria` were searched before creation; no existing source page was found. The publisher archive/PDF URL was checked for the no-DOI fallback.
-- Units are copied exactly as `mg/g`; the source dries and ashes the samples before analysis, but it does not provide a conversion to wet weight or `mg/kg`, so this page does not convert units.
-- Speciation: the source reports total Pb, Fe, Cd, Ni, and Cu by AAS; no arsenic, mercury, or chromium speciation is involved.
-- Brand firewall: the source identifies commercial sellers in aggregate and does not name brands or sellers. No brand or seller-specific contamination values are reported here.
-- source metadata slugs were checked against the editorial record. The taxonomy has `meat`, `organ-meats`, and `pork-product`; it lacks exact pork kidney/liver/muscle ingredient slugs, so tissue names remain matrix descriptors rather than invented ingredient/product links.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

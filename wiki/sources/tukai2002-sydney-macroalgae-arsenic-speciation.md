@@ -85,23 +85,12 @@ The study collected 13 macroalgal species near Sydney, New South Wales, Australi
 
 This paper contributes raw macroalgae arsenic occurrence and arsenic-speciation context from Australia. The source is not a retail or edible-product survey, but it shows that Sydney-area macroalgae can contain high total arsenic and that several species carry substantial As(V), As(III)/MA, or DMA fractions. Downstream routing should preserve the raw coastal-macroalgae context and the distinction between total As, inorganic arsenic species, DMA, and arsenoribosides.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1071/MF01230`, raw handle `MFK_tukai2002`, title text, or cite key `tukai2002-sydney-macroalgae-arsenic-speciation`.
-- Text was extracted to `/tmp/hmi-seaweed-062.txt` with `pdftotext -layout`; title/authorship, methods, Figure 2 summary text, Tables 1-3, discussion, conclusions, and references were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-062.txt`, especially the abstract class-level total-As ranges, Table 3 species rows, extraction percentages, and CRM recovery values.
-- Units and bases are preserved as `µg g-1`, `%`, `mL`, `g`, `min`, `°C`, and `rpm`; no unit conversion was performed. The paper reports dry freeze-dried macroalgal powder for the analytical work.
-- Speciation check: total arsenic, As(III)/MA, As(V), DMA, and arsenoribosides are kept distinct. The combined `As(III)/MA` Table 3 column is not separated into arsenite and methylarsenate because the source says the species overlapped.
-- Tables 1 and 2 are Tukey HSD ranking tables rather than concentration tables; they were read but not reproduced as occurrence values.
-- Brand firewall: no consumer brands are named. *Ascophyllum nodosum* material used as an arsenoriboside standard is method context only.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact macroalgal species remain in Key numbers while source metadata uses broad seaweed/kelp food routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

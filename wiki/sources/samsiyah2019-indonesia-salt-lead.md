@@ -48,14 +48,10 @@ Courses: Useful for production-stage source-apportionment discussion: seawater, 
 
 App: Can support country-specific salt context after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/salt]]
 - [[metals/lead]]
-
-## Verification notes
-
-The source is in Indonesian with an English abstract. Methods, sample count (n=28), and per-village values were verified against the Indonesian full text (journal pp. 45 and 47, Figure 1) during the 2026-06-09 audit. Figure 1 labels its Y-axis "Kadar Pb (mg/l)", which is an internal labelling inconsistency in the source — the abstract, conclusion, and section 3.6 all report the same values in ppm (mg/kg, appropriate for a solid). This page follows the source's text and reports in ppm.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

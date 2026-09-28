@@ -67,7 +67,7 @@ Mitigation: The source supports the mitigation/remediation dimension for contami
 
 Courses: This is a useful teaching case for preserving matrix fit. The same analytes and units would be inappropriate in a food benchmark pool because the matrix is contaminated-soil energy-crop shoots, not food or drinking water.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
@@ -75,10 +75,6 @@ Courses: This is a useful teaching case for preserving matrix fit. The same anal
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, site description, experimental design, Table 1 soil characteristics, Figure 3/Table 2 biomass-pattern summaries, Table 3 ANOVA summary, methods, discussion, and conclusions. Products and ingredients are intentionally empty because the source does not measure edible commodities, mineral water, or consumer products. The source reports total elemental Pb, Cd, and Zn after digestion; no speciation is reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

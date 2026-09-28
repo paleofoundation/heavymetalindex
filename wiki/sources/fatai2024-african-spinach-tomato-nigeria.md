@@ -53,7 +53,7 @@ Fresh African spinach and tomato samples were collected from two locations in As
 - App: The spinach and tomato rows can support geography-specific alerts for Nigerian field-grown vegetable evidence, with low distribution confidence because sample-level values are not reported.
 - Microbiome: Not primary topic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -66,14 +66,6 @@ Fresh African spinach and tomato samples were collected from two locations in As
 - [[ingredients/leafy-vegetables]]
 - [[products/spinach]]
 - [[products/leafy-vegetables-other]]
-
-## Verification notes
-
-- DOI and title were taken from the PDF first page, not inferred from the filename.
-- The PDF filename is a spinach Pb gap candidate, but the paper also reports tomato and the metals Cu, Ni, Zn, Cd, Cr, and Pb.
-- The source does not report arsenic or mercury and does not distinguish chromium species; Cr is treated as total chromium.
-- The source reports summary concentrations by vegetable matrix, not sample-level values, censoring details, LOD, or LOQ.
-- The conclusion text appears to say Cd in tomatoes exceeded the FAO/WHO limit, but Table 1 and the Results text identify African spinach Cd 0.210 mg/kg as the exceedance; this source page follows Table 1 and the Results discussion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

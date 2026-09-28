@@ -82,7 +82,7 @@ Courses: Useful example of why basis and organism fraction matter. Whole red cra
 
 App: Route as shellfish and broader seafood context, with the Mexico Pacific coast, whole-organism matrix, dry-weight basis, and Pb censoring preserved. Do not use the source-reported RDI/RfD screen as a substitute for concentration evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[ingredients/seafood]]
@@ -96,12 +96,6 @@ App: Route as shellfish and broader seafood context, with the Mexico Pacific coa
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[metals/magnesium]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/ani13050822`; no DOI conflict was observed. The source reports total element concentrations only; it does not speciate arsenic, chromium, or mercury (none of which were among the measured analytes). Pb is censored as below the 0.07 ug/g quantification limit in every reported group. Values on this page come from the PDF tables rather than the abstract. The table values are dry-weight whole-organism results; any wet-weight comparison would require an explicit conversion using the paper's moisture range (73.8-79.4%) and an audit trail.
-
-2026-06-02 merge-enhance: added instrument vendor and model identifiers (Mars 5x CEM microwave, GBS Scientific AVANTA AAS), reference material identifiers (TORT-2, DORM-2, DORM-4 from NRCC), and statistical-method summary, per the scientific-method vendor/material exception to the brand firewall. No numerical values changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

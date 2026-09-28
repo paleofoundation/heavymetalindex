@@ -91,15 +91,6 @@ Market-representative seafood products available to Norwegian consumers were col
 
 This source provides processed-seafood occurrence evidence for Norwegian market products on an `mg/kg` wet-weight basis, with total Hg, total As, Cd, and mostly non-detect Pb results. The fish-burger/cake Hg exposure section is useful as source-authored context only if the conservative assumption is preserved: total Hg was treated as MeHg for modeling, but MeHg was not analytically measured. The arsenic results should be routed as total arsenic context and not used as inorganic arsenic evidence.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Table 3 and the adjacent exposure text were checked against rendered page images because several table rows use unusual printed values such as fish-au-gratin 2018 Hg mean `0.015 +- 0.085` and mackerel-in-tomato-sauce Cd range rows with `+-` notation.
-- DOI `10.1080/19393210.2020.1735533`, raw handle `MFK_10-1080-19393210-2020-1735533`, and cite-key checks found no existing source page before creation.
-- Table 3 values, sample counts, Pb exception, Table 2 LOQs, and Figure 1 percentage values were checked against extracted text and rendered pages. Units are preserved as `mg/kg`; no conversion was performed.
-- Speciation: the paper reports total/unspecified Hg and total/unspecified As in the occurrence table. Its MeHg exposure calculations assume all measured Hg is MeHg, but the measured occurrence values are not MeHg; inorganic arsenic was not measured.
-- Brand firewall: the paper states that multiple brands and market-share categories were sampled, but the source page reports only product-form/category values and does not name brands.
-- source metadata slugs were checked against the editorial record; missing narrow product slugs include fish burgers/cakes, fish pudding, fish au gratin, salmon/trout spread, and caviar, so broad seafood and canned-fish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

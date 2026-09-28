@@ -47,25 +47,13 @@ Samples were rinsed with tap water and distilled water; peanut samples were air-
 
 Certification: occurrence evidence for total As, Pb, and total Cr in Ethiopian market peanuts and date palms, all below WHO/FAO ceilings on a marginal-mean basis. Courses: contrast example where the same metal panel produces a benign non-carcinogenic profile in peanuts and a near-threshold cancer-risk profile in date palms because of the higher assumed ingestion rate. App: supports Ethiopia / Jigjiga market context for peanuts.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/peanuts]]
 - [[ingredients/peanuts]]
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF abstract reports peanut means of Fe 12.6, Zn 5.3, Cu 3.53, As 0.001, Pb 0.01, Cr 0.02 mg/kg and date palm means of Fe 40.23, Zn 48.31, Cu 10.65, As 0.05, Pb 0.2, Cr 0.5 mg/kg. These abstract values are internally inconsistent with the paper's own Table 8, Table 9, Table 10, and Section 3.2 body discussion, which together report the correct means recorded above. The abstract appears to mix individual per-sample rows (for example, Fe 12.6 ± 0.54 is the D6 date palm value, Zn 48.31 ± 0.8 is the D4 date palm value, Cu 3.53 ± 0.33 is the D6 date palm value) into what is presented as the mean. This wiki page treats Tables 8/9/10 and Section 3.2 as authoritative and disregards the abstract.
-
-Locked source metadata fields with known errors that ingestion constraints prevent this audit from editing:
-
-- `license: "CC BY 4.0"` is incorrect. The PDF Open Access notice states the article is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
-- `raw_path` points to the archived source file. The PDF has since been moved to the archived source file.
-- `raw_handle` is `AUTO_gap-peanuts-pb-2024-10-1007-s44274-024-00151-0` (with hyphens) but the upstream ingest record uses underscores in the year separator (`AUTO_gap-peanuts-pb_2024_10-1007-s44274-024-00151-0`).
-
-No date ingredient or product slug exists in the current taxonomy snapshot. Date palm findings are material (HI > 1, female TILCR > 1 × 10⁻⁴) and would be routable to a future `ingredients/dates` or product page. The `matrices: [date-palm]` entry may register as routing-unresolved until that slug is created.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

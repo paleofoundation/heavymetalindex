@@ -374,7 +374,7 @@ The sources below are catalogued as product-context candidates for this row. The
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/dabeka1987-canada-infant-formula-lead-cadmium|Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada]]<span class="hmi-ref-meta">Dabeka and McKenzie · Journal of Association of Official Analytical Chemists 70(4):754-757 · 1987 · [doi.org/10.1093/jaoac/70.4.754](https://doi.org/10.1093/jaoac/70.4.754)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/fda2026-infant-formula-toxic-elements-special-survey|Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA analytical results table · 2026 · [www.fda.gov](https://www.fda.gov/media/192124/download?attachment=)</span><span class="hmi-ref-tag">Dataset</span>
@@ -392,7 +392,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

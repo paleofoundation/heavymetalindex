@@ -56,18 +56,12 @@ Courses: Useful for remediation training because it ties a waste-derived calcium
 
 App: Context only. The source does not estimate consumer-product contamination probability.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated "not bottled/mineral-water occurrence" as exclusionary, but the paper is in-scope a2 mitigation/remediation evidence.
-
-All numbers above were re-checked against the extracted PDF text, including the abstract, Materials and Methods, Tables 1 and 2, and the Results sections on removal efficiency, Pb/Cd fractionation, DTPA-extractable metals, pH/CEC, and enzyme activity. Units are preserved as reported. The source is a Research Square preprint; the title page states that a version of record was published in Environmental Science and Pollution Research with DOI 10.1007/s11356-021-15138-0.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

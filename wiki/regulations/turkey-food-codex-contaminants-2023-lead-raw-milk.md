@@ -41,11 +41,6 @@ This page records an external public-law comparator. It does not set an HMT&C ce
 - Resmi Gazete. Turk Gida Kodeksi Bulasanlar Yonetmeligi. No. 28157 (3rd duplicate), 29 December 2011. Source URL: https://www.resmigazete.gov.tr/eskiler/2011/12/20111229M3-8.htm
 - [[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus]] - source-page encounter that required the Turkish raw-milk Pb comparator.
 
-## Verification Notes
-
-- Created 2026-05-18 by Codex during dairy/eggs manual-fetch ingest.
-- The 2023 regulation's HTML text verifies the legal identity, issuing ministry, effective date, EU-alignment statement, and repeal of the 2011 Turkish Food Codex Contaminants Regulation. The annex PDF image verifies section 3.1.16: raw milk, heat-treated milk, and milk used to manufacture milk-based products, Pb maximum level 0.020 mg/kg.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

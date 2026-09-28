@@ -54,7 +54,7 @@ This is water-leachate migration evidence from cookware rather than food concent
 
 For cookware and metal-utensil pages, this source provides Saudi-market migration data for imported aluminium cookware. The detected Pb and As ranges in boiled water are relevant to product-contact risk and to comparison against other cookware migration studies.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/utensils-metal]]
 - [[products/cookware-metal-alloy]]
@@ -64,10 +64,6 @@ For cookware and metal-utensil pages, this source provides Saudi-market migratio
 - [[metals/arsenic-total]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The filename contains `10-20937-atm-53561`, but the PDF itself gives DOI `10.20937/RICA.53561`. The source page uses the DOI printed in the PDF and notes this as a filename/DOI mismatch, not a blocker.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

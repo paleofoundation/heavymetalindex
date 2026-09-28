@@ -60,7 +60,7 @@ App: Use as prenatal health-context evidence for arsenic, cadmium, lead, mangane
 
 Courses: Useful for teaching the distinction between biomarker concentration, product concentration, and modeled health outcome; mixture modeling; and why total arsenic cannot be converted into inorganic arsenic without speciation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[health/index]]
 - [[testing/index]]
@@ -71,10 +71,6 @@ Courses: Useful for teaching the distinction between biomarker concentration, pr
 - [[metals/mercury]]
 - [[metals/thallium]]
 - [[metals/copper]]
-
-## Verification notes
-
-This page was built from the full PDF, including the exposure-methods section, Table 1, Table 2, the single-pollutant regression results, the mixture-model results, and the conclusions. The source is primary data, but it is context-only for HMI product routing because all routeable concentration values are biological biomarkers. The authors note that cord-blood arsenic speciation was not available; this page therefore records the arsenic biomarker as total arsenic and does not infer inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

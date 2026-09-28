@@ -83,7 +83,7 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 
 The chapter does not provide primary contamination data on any food matrix, ingredient, product, or regulation. No `contamination_profile` synthesis is triggered.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -92,17 +92,7 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - [[metals/mercury]]
 - [[metals/mercury-total]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- source metadata `metals:` uses `tAs` (not `iAs`) and `tHg` (not `MeHg`) per Part 14 speciation discipline: the review names "As" and "Hg" as toxic metals in §3.3.5 without separating inorganic vs organic forms; the conservative reading is total. `[[metals/mercury-methyl]]` is intentionally not included in the wiki-pages bulleted list because the paper makes no specific mention of methylmercury (unlike Aishwarya 2024 which discusses MerB organomercurial lyase).
-- source metadata `ingredients:` and `products:` are intentionally empty. The paper measures and recommends nothing for any HMI ingredient or product category. The commercial PGPR biostimulants in Table 1 are agricultural inputs (biofertilizers/biostimulants applied to crops in the field), not food or personal-care products in HMI's scope, and they are not loaded into `products:`.
-- source metadata `matrices:` uses `[rhizosphere, contaminated-soil, plant-root]`. `rhizosphere` and `plant-root` are descriptive matrix slugs new to this source page; they are plausible analogues to `agricultural-soil` and `plant-tissue` already in the matrices vocabulary but should be confirmed on the next taxonomy review. `contaminated-soil` is precedented (see [[sources/aishwarya2024-extremophiles-bioremediation-review]]).
-- `jurisdictions:` is empty because the review does not focus on any single country's heavy-metals contamination; the only jurisdiction-specific reference is to EU Regulation 2019/1009 on biostimulants as fertilizing products (§1, p. 2), which is a fertilizer-regulation not a heavy-metals-contamination regulation and does not match any current HMI regulations slug.
-- No brand firewall (Part 12) concerns identified. Table 1 names commercial biostimulant products with manufacturers (FZB24/ABiTEP, Inomix/Iabiotec, BactoFil/AGRO.bio Hungary, etc.), but these are agricultural-input vendors named in a product inventory, not contamination measurements attached to consumer-facing brands. The Part 12 firewall targets brand-name attribution of CONTAMINATION VALUES to sampled food/personal-care products; this paper has no such attribution. The commercial-product inventory is retained at the table-row count in Key numbers without per-row brand reproduction.
-- No wiki/HMTc firewall (Part 2) concerns identified. The review proposes no certification thresholds and makes no comparison to any HMTc framework.
-- This paper is borderline for HMI scope (single-paragraph heavy-metals coverage in a 24-page biostimulants review). Surfaced for Karen's awareness as a relevance edge-case; the source page is written at C-tier with explicit leads-only framing per the Aishwarya 2024 precedent.
-- Audit editorial review (2026-06-02, PROMOTE verdict, all 5 checks clean) flagged one minor descriptive overreach in Limitations: an earlier draft claimed Cr was "discussed only in §3.4 contexts" — verified against the source that §3.4 (Disease Suppression) does not discuss Cr in any heavy-metals sense; the Limitations bullet was corrected to remove that overreach. No other findings.
+- [[metals/mercury-methyl]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

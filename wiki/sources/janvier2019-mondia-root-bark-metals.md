@@ -54,7 +54,7 @@ App: The source can support a botanical-supplement evidence card for Pb and Cd i
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -63,10 +63,6 @@ Microbiome: Not applicable.
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-The DOI, authors, journal, license, and final citation are visible in the PDF. The auto-fetched filename places this in a vitamin-mineral supplement lead queue, but the actual matrix is Mondia whytei root bark used as a wild edible plant and food supplement. Table 3 appears to repeat Kinkware as the last column while the discussion identifies that high-K/Pb column as Kinigi; this page follows the table values and notes the locality label issue for future synthesis review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

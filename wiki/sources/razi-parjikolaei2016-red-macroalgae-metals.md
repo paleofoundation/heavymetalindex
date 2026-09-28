@@ -52,10 +52,8 @@ The authors collected Gracilaria vermiculophylla from Horsens Fjord and the othe
 - Courses: Useful for comparing nutritional seaweed claims with contaminant screening and for teaching why seaweed matrix and species identity matter.
 - App: Supports [[ingredients/seaweed]], [[products/seaweed-kelp-foods]], and algae/seaweed supplement context.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/seaweed]]
-- [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -66,12 +64,6 @@ The authors collected Gracilaria vermiculophylla from Horsens Fjord and the othe
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/molybdenum]]
-
-## Verification notes
-
-- Arsenic is total arsenic, not inorganic arsenic.
-- The PDF's auto-fetched filename labels the source as salt/tAs, but the source itself is a red macroalgae food/feed composition paper.
-- Exact values above come from discussion text and Figure 4 descriptions; species-level chart values not legible in extracted text were not invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

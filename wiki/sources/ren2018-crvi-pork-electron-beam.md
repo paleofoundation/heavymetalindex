@@ -83,28 +83,14 @@ App: Pork tissue type (lean vs marbled vs fat) is a candidate modifier of Cr(VI)
 Microbiome: Not applicable.
 
 ## Related evidence
+
+- [[ingredients/pork]]
+- [[mitigation/electron-beam-irradiation]]
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[ingredients/meat]]
 - [[ingredients/pork-chop]]
 - [[ingredients/pork-bacon]]
-
-## Verification notes
-
-- 2026-05-18 merge-enhance against the source PDF, replacing the 2026-05-14 draft. Corrections applied:
-  - **CCMP identity:** prior draft labeled the intermediate tissue "tenderloin (intermediate protein content)." The source consistently labels it CCMP = Cr(VI)-containing marbled pork (Materials and Methods, p. 3; Figure 1 caption). Corrected.
-  - **Spiking concentrations:** prior draft said "1.0, 2.0, 3.0, 4.0 mg/kg." The source spikes at 150, 200, 250 ppm total Cr(VI) in pork (300 / 400 / 500 mg/L K2Cr2O7 solution × 1 mL added to 2 g pork; p. 3 Materials and Methods; figure x-axis labels). Corrected. 1–4 mg/kg is approximately 1–4 ppm, two orders of magnitude lower than the actual spike levels.
-  - **Dose range:** prior draft said "0, 5, 10, 15, 20, 25, 30, 35, 40 kGy." The source uses 5, 10, 15, 20, 25 kGy only (p. 3 Materials and Methods, Figures 2 and 3). Corrected.
-  - **Dose-response shape:** prior draft said "at 40 kGy: marginal additional reduction above 20 kGy." Source actually reports RE rising 5→20 kGy and then declining 20→25 kGy, with no doses above 25 kGy run (p. 4 Results and Discussion, Figure 2). Corrected.
-  - **"Naturally chromium-contaminated pork...from domestic market sampling":** the prior draft attributed the 80–85% / 20–35% / 2–4% free-Cr(VI) values to a naturally-contaminated cohort. The source applies these to spiked CCFP / CCMP / CCLP samples (Figure 1 caption; p. 4). The pork was purchased from a market but Cr(VI) was added in vitro. Corrected.
-  - **Total-Cr method (ICP-OES claim):** prior draft asserted "total Cr by ICP-OES." The extracted PDF text does not name an ICP-OES instrument or method for total-Cr quantification. The DPC UV-vis method is specific to Cr(VI). Removed the unsupported ICP-OES claim.
-  - **Authors:** prior draft listed authors as "Ren J, Wang Z, Yang F, Bie X, Lu F" — those names do not appear on the title page. Title page lists Jingya Ren, Guilong Zhang, Dongfang Wang, Jie Han, Zhengyan Wu, and Dongqing Cai. Corrected.
-- **source metadata slug correction:** prior draft used `[[ingredients/pork]]`, which is not a taxonomy slug (snapshot dated 2026-05-17). Replaced with `[[ingredients/meat]]` (umbrella anchor), plus `[[ingredients/pork-chop]]` (lean pork preparation, the CCLP analog) and `[[ingredients/pork-bacon]]` (fatty pork preparation, the CCFP analog) to give the routing layer enough to fan the source out to the right ingredient pages.
-- **Matrices vocabulary:** `pork` and `meat` are not in the standard matrices vocabulary in system-prompt.md (which centers on infant-formula, rice, fish, etc.). Retained the prior draft's `[pork, meat]` because no closer match exists; flagging for taxonomy review. If a `red-meat` or `pork-tissue` matrix is added, this page should be revisited.
-- **Jurisdictions:** changed from `[]` to `[CN]`. Study performed in Hefei, China; authors from Chinese Academy of Sciences; pork sourced from a Hefei market. This is a methods/mitigation study with no jurisdictional limit-comparison content, but the experimental context is unambiguously Chinese.
-- **Removed `[[mitigation/electron-beam-irradiation]]`** from the Wiki-pages-updated-on-ingest section; no such page exists. The mitigation framing belongs in the linked reference record or a future dedicated electron-beam page; this source page does not create that page.
-- **2026-05-18 audit-application (fresh-context editorial review, verdict REVISE).** editorial review flagged the prior wording "approximately 96–98% RE in CCLP at 20 kGy/150 ppm (Figure 2A)" as a misreading of Figure 2A. Verified against PDF: page 1 Introduction explicitly states "a reductive efficiency of approximately 80% for the free Cr(VI)" as the paper's general headline result, with the 98.03% in the abstract being the single highest-condition maximum across the study (not specifically CCLP at 20 kGy/150 ppm baseline). Visual reading of Figure 2A bars at 20 kGy/150 ppm sits in the ~80–85% band; the abstract's 98.03% peak is more consistent with stress-condition panels (Figure 3) or CCMP/CCFP at specific conditions. Corrected the Key numbers framing to: paper's "approximately 80%" headline + 98.03% as study-wide maximum (panel unspecified) + tissue-specific visual readings (CCLP ~80–85%, CCMP ~95% at 20 kGy/150 ppm).
-- editorial review also downgraded its Check 2 concern about `pork-chop`/`pork-bacon` as analog ingredient slugs from ❌ to ⚠️ on closer read (the slugs are valid taxonomy entries; the mapping is a routing-discipline judgment). Left as-is; the routing rationale is already documented in this Verification notes block and the page benefits from fanning out to the lean (pork-chop) and fatty (pork-bacon) ingredient anchors that this study's findings differentially apply to. Acknowledged without change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

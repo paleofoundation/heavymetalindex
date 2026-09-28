@@ -83,23 +83,6 @@ Use for downstream products of this wiki:
 - Provides an A-tier source with explicit ICP-MS conditions for the methods literature on fruit-juice elemental analysis.
 - Demonstrates the isotopic-fingerprinting plus elemental-profile combined approach used in juice authenticity work (relevant to courses on fraud detection and supply-chain verification).
 
-## Verification notes
-
-This page was merge-enhanced on 2026-05-20 by re-reading the source PDF directly. Defects in the prior 2026-05-14 ingest corrected:
-
-- **Invalid product slug removed.** Prior source metadata listed `[[products/fruit-juice]]`; no such page exists in current taxonomy (snapshot 2026-05-18). Removed; valid slugs `fruit-juice-not-canned` and `fruit-juices-apple-containing` retained.
-- **raw_path corrected.** Prior path was truncated to `...Apple Fruit.pdf`; the actual file on disk is `...Apple Fruit Juices.pdf`. Restored.
-- **Missing metals added.** Prior `metals:` array was `[Pb, Cd, tAs, Ni, Cr, U]`. The paper reports nine elements (Cu, Cr, Ni, Zn, Pb, Co, As, Cd, U) in Table 1. Added Co, Cu, Zn to match the measurement scope.
-- **Range values corrected to match Table 1.** Prior page reported "Cr 10.6–252 µg/L" and "Cu 35.6–1224 µg/L" in the overall range line. Those numbers come from the paper's Conclusions narrative (page 5–6: "Cu 35.6–1224 µg/L, Cr 10.6–252 µg/L"), which does not reconcile with the regional min/max in Table 1. Table 1 yields Cr overall max 144.84 µg/L (Cluj) and Cu overall min 130.00 µg/L (Maramures). The Conclusions narrative also disagrees with Table 1 on Zn (narrative 47–523 vs Table-1 derived 56.80–523.60). Table 1 numbers are taken as authoritative because they are the structured per-region data; the narrative discrepancy is documented here rather than propagated. The corrected page reports Table 1 ranges throughout.
-- **Co range added.** Prior page omitted Co (cobalt) entirely from the overall-range line. Added 0.30–3.76 µg/L (Conclusions narrative; matches Table 1 regional min/max).
-- **Legacy heading replaced.** `## Wiki pages updated on ingest` → `## Wiki pages this source touches` per current schema.
-- **access_url added.** DOI resolves directly to the open-access full text; added.
-- **Sample population expanded.** Prior page named only the four regions and the harvest year. Added the collection date window (27 August – 19 September 2010) and the nine apple varieties from page 2.
-- **Methods expanded.** Prior Methods (brief) was three sentences; expanded with the digestion procedure, ICP-MS operating conditions, calibration matrix, RSDs per analyte, isotope standards (NBS-22 oil, V-SMOW), and explicit no-Hg / no-Sn / no-Al / total-As-only speciation flag.
-- **Implications language softened.** Prior page included App-audience risk-advisory framing ("may be relevant for sensitive populations"). Rewritten as occurrence-data contribution statements without consumer audience translation; threshold-comparison language is descriptive of the paper's own US-EPA comparison, not a threshold proposal.
-
-No brand names appear in this paper (no commercial brands sampled — the 31 juices were pressed in-lab from collected fruit). No Part 12 brand firewall issue. No Part 2 wiki/HMTc threshold proposals on the page.
-
 ## Wiki pages this source touches
 
 - [[metals/lead]]
@@ -114,6 +97,10 @@ No brand names appear in this paper (no commercial brands sampled — the 31 jui
 - [[ingredients/apple-juice]]
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-apple-containing]]
+
+## Related evidence
+
+- [[products/fruit-juice]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

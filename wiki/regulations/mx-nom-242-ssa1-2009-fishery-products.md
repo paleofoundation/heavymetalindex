@@ -73,12 +73,6 @@ This page records Mexican legal maximum levels for fishery products. It does not
 - Diario Oficial de la Federacion. NOM-242-SSA1-2009, Productos y servicios. Productos de la pesca frescos, refrigerados, congelados y procesados. Especificaciones sanitarias y metodos de prueba. Source URL: https://sidofqa.segob.gob.mx/notas/5177531
 - Diario Oficial de la Federacion. Modificacion de los numerales 3.1, 4.2, 6.13.3, 7.1.1.1.2, 7.1.5.2.3, 7.1.7, 7.1.10 y eliminacion del Apendice normativo A de NOM-242-SSA1-2009, published 27 December 2012. Source URL: https://www.salud.gob.mx/cdi/nom/compi/Mod-NOM-242-SSA1-2009_271212.pdf
 
-## Verification notes
-
-- Created 2026-05-18 by Codex during P0149 seafood manual-fetch ingest after Rodriguez-Mendivil et al. 2019 cited superseded NOM-027 and NOM-028 benchmarks.
-- DOF identifies the publication date as 10 February 2011. The standard's vigencia clause states it enters into force 90 natural days after publication, and the 2012 modification notice explicitly gives 10 May 2011 as the entry-into-force date.
-- The 2012 modification changed other sections and eliminated Appendix A; it does not change the heavy-metal/metalloid limits in section 7.1.8 summarized here.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

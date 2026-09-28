@@ -52,7 +52,7 @@ Courses: The source is useful for by-product utilization training because it pai
 
 App: If coffee silverskin appears as an ingredient or supplement input, the relevant heavy-metal facts are Ni about 2.5 mg/kg, Pb about 0.25 mg/kg, total As about 0.11 mg/kg, and Cd about 0.11 mg/kg in this one Croatian composite sample.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/coffee]]
 - [[products/coffee]]
@@ -66,14 +66,6 @@ App: If coffee silverskin appears as an ingredient or supplement input, the rele
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[metals/iron]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, and year were taken from the Foods PDF first page.
-- Author names are ASCII-normalized in source metadata and cite key because the PDF byline uses Croatian diacritics.
-- The paper reports "arsenic" without speciation; this page routes it as total arsenic and does not infer inorganic arsenic.
-- The named supplier is omitted from the wiki body under the brand firewall; the source design is represented as a Croatian coffee-roasting by-product composite.
-- Product routing is matrix-limited: coffee silverskin is a by-product and potential nutraceutical/supplement input, not a brewed-coffee concentration.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

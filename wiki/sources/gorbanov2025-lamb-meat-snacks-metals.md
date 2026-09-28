@@ -51,7 +51,7 @@ The feeding experiment formed two groups of 20 sheep each. Both groups received 
 
 This source contributes a small controlled-feeding lamb-meat occurrence point for Pb, Cd, and As, with direct relevance to lamb/mutton raw material and indirect relevance to dried meat snacks. It does not establish market occurrence or seasonal/geographic variance because the design compares one farm/feed intervention rather than sampled retail products. The Cd and As results are censored at <0.01 mg/kg and should be stored as censored values, not zeros.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lamb-mutton]]
 - [[products/processed-meats]]
@@ -60,10 +60,6 @@ This source contributes a small controlled-feeding lamb-meat occurrence point fo
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-PDF extracted 2026-05-31 from the auto-fetched queue. The downloaded filename incorrectly identifies the paper as a soy-products cadmium result; the article itself is a Russian lamb meat safety and meat-snack formulation study. Metadata are taken from the bilingual title page: Proceedings of VSUET, 2025, volume 87, issue 1, pages 86-92, DOI 10.20914/2310-1202-2025-1-86-92. Numerical values were transcribed from Table 1 and checked against the English and Russian abstracts. The table reports censored Cd and As as <0.01 mg/kg in both groups; this page preserves the censoring and treats As as total arsenic (tAs) because the paper does not speciate inorganic arsenic. Matrix terms are normalized to the existing broad descriptors `meat` and `processed-meat`; lamb-specific and sheep-muscle detail remains in `sample_population` and body text. No consumer brand contamination data are present; LaktuVet-1, Prestart FB SAZ, AQUASEARCHER, Kitfort, and GOST/TR TS references are feed additive, starter culture, instrument, equipment, and standards/method names used in methods, not consumer brand occurrence findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

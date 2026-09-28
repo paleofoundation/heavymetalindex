@@ -72,7 +72,7 @@ Courses: The source is a compact example of preserving units and speciation whil
 
 App: If adult hair-product profiles are expanded, this source can support a Nigeria-market context card for hair dyes and dye shampoos. It should not be used to claim Cr(VI) occurrence or to rank named brands; the product forms are generic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/permanent-hair-dyes-tints]]
 - [[products/hair-dye-rinse-off]]
@@ -82,17 +82,6 @@ App: If adult hair-product profiles are expanded, this source can support a Nige
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/copper]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_hair_dyes_risk.txt`. The title/byline, abstract, sample collection/preparation text, digestion/AAS methods, Results/Figures 1-5, conclusion, and references were checked against this page.
-- No DOI is printed in the extracted text. Title text, raw handle `MFK_evaluation-of-heavy-metals-level-in-hair-dyes`, raw SHA-256 `f0e4e10d9950ecc9f49a408c447249afcb1489f2835754a2a99633fadd2e99fa`, and candidate cite-key `yashim2020-hair-dyes-metals-nigeria` were searched before creation; no existing source page was found.
-- Units are copied exactly as `mg/kg`; no conversion to ppm, µg/g, or ppb was performed.
-- Speciation: chromium is recorded as total Cr. The paper discusses hexavalent chromium in toxicology background text, but it does not measure or report Cr(VI).
-- Source-side inconsistencies retained rather than corrected: black shampoo jelly Cu is `3.50±0.029 mg/kg` in the abstract but `30.50±0.029 mg/kg` in the Results/Figure 2 text; black shampoo jelly Pb is `6.76±0.007 mg/kg` in the abstract but `6.67±0.007 mg/kg` in Results; black shampoo oil Pb has the same mean but different reported error (`±0.003` in the abstract, `±0.007` in Results); and pure mineral total Cr has `±0.002` in the abstract but `±0.001` in Results.
-- Brand firewall: the source describes generic product forms rather than named brands, so no brand-linked contamination values were present to suppress.
-- Evidence tier: `C` because the study is a small peer-reviewed market survey with primary AAS measurements, but no DOI, no sampling year, no LOD/LOQ, no CRM/recovery, limited QC reporting, four composited analytical rows, and several source-side inconsistencies.
-- Routing: all product slugs used in source metadata appear in the editorial record. The taxonomy lacks a precise adult dye-shampoo product slug, so the source routes broadly through `hair-dye-rinse-off`, `permanent-hair-dyes-tints`, and `shampoo-adult`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

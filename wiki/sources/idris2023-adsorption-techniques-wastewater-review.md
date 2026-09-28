@@ -71,7 +71,7 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 
 **Industrial-source context:** the framing that "around 30 % [of industrial ash] is used as a component by refineries, but the remaining 70 % is discharged into the environment along with other effluents" (§1.5) is restated without source jurisdiction or measurement basis but corroborates the broader literature on industrial-effluent contribution to soil and aquatic heavy-metal loads. Cite the primary reference [70] (Wake H., *Estuarine Coastal Shelf Sci.* 2005;62:131-40), not this chapter, when referencing the figure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]

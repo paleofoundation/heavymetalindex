@@ -48,7 +48,7 @@ Herbal materials were extracted using nitric-acid preparation methods and analyz
 
 The source supports herbal-botanical risk-element screening and method-comparison context. Values should not be treated as dry-herb mg/kg occurrence data without conversion from the extraction setup.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[products/herbal-botanical-infusions]]
@@ -56,10 +56,6 @@ The source supports herbal-botanical risk-element screening and method-compariso
 - [[metals/arsenic-total]]
 - [[metals/nickel]]
 - [[metals/copper]]
-
-## Verification notes
-
-The source uses "plumb" for lead in one translated passage. This page records the element as Pb and keeps the extraction-solution basis explicit.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

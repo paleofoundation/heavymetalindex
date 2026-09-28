@@ -56,16 +56,6 @@ Arsenite, as arsenic trichloride, was extracted into benzene from strongly acidi
 
 This source supplies early seafood occurrence evidence showing that total arsenic and inorganic arsenic must remain separate for fish and shellfish. The lobster tail row is especially useful as a speciation example: total arsenic was `40.5 ppm`, while inorganic arsenic was reported as `<0.5 ppm`. The lobster hepatopancreas row should be kept distinct from edible white-muscle rows because it is an organ tissue with `0.9 ppm` inorganic arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/f3_resolve_texts/reinke1975.txt`; the title page, abstract, methods, Tables 2-4, and discussion paragraphs were checked.
-- The OCR rendered some Table 4 `<0.5` cells as `co.5`, `a.5`, or `4.5`; PDF page 9 was rendered to `/tmp/reinke_pages/reinke-09.png` and visually checked before recording every censored inorganic-arsenic value as `<0.5`.
-- No DOI was visible in the extracted text or title page; DOI search, raw-handle search, and cite-key checks found no existing source page before creation.
-- Units are preserved as source-reported `ppm`, `µg`, percent recovery, and `1 N HCl`; no conversion was performed.
-- Speciation: inorganic arsenic is source-defined as arsenite plus arsenate (`As3+` plus `As5+`). Total arsenic remains `tAs`; no total arsenic value is promoted to inorganic arsenic.
-- Brand firewall: no retail brands were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; species-level slugs for halibut, shrimp, haddock, crab, mackerel, herring, and lobster are absent, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

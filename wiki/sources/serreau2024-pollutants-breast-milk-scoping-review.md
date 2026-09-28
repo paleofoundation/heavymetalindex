@@ -67,7 +67,7 @@ App: Breast milk is a biomonitoring and health-context matrix rather than a cert
 
 Microbiome: No microbiome-specific findings were extracted from this review.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
@@ -75,12 +75,6 @@ Microbiome: No microbiome-specific findings were extracted from this review.
 - [[metals/arsenic-total]]
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- 2026-05-17 (editorial review, revised): corrected the raw PDF path to the full manual-fetch filename; corrected the Pb/Cd reference-value attribution (Table 1 gives mixed EU food and EPA water values, not EU breast-milk regulatory limits); added arsenic-total and methylmercury routing; strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content; removed unsupported microbiome expansion; reframed HMTc/app implications as biomonitoring context.
-- 2026-05-19 (manual-fetch re-ingest re-verification): re-read source pages 1–14 in full. Corrected an exposure-determinant transposition: the prior page attributed Pb to urban residence (p < 0.05); the source actually attributes urban residence to As (p = 0.013) and attributes Pb to smoking (p = 0.024) and to well-water consumption (p = 0.046) within the same 170-mother prospective study (reference [35] in source, p. 6). Added the Spanish Murcia (n=50) mining-vs-agricultural metal-residence pattern (reference [12], Motas et al.) that the prior page had omitted. Added the Italian PHIME tHg cognitive-neurodevelopment OR (2.55, multiplicative model, n=456 at 40 months) and added `tHg` to `metals:` because the PHIME analysis uses total mercury, not methylmercury, even though the dietary-source paragraph attributes 100% of exposure to MeHg. Added the Ethiopian DDT EDI (11.24 µg/kg bw/day vs PTDI 10) for completeness on the POPs side. Strict Part 12 recheck: methods discussion names only analytical-instrument classes (GC-MS/MS, UHPLC-MS/MS), no sampled-product brands. Strict Part 2 recheck: implications stop at "biomonitoring context"; no HMTc threshold proposed.
-- 2026-05-19 (audit editorial review application): editorial review verdict REVISE; three concerns verified and applied. (1) The Murcia/Ghana attribution had been conflated: the WHO-limit exceedance percentages (As 46.4%, Hg 33.3%, Pb 4.4%) come from reference [13] (Bansa et al., Ghanaian mining-community cohort), not from reference [12] (Motas, Spanish Murcia). Split into two separate bullets with explicit reference IDs and a note that the source paragraph itself runs the two citations together. (2) Removed the cross-source comparison sentence to Katrynska 2026 from the body; cross-source ranking is synthesis work (Part 9) and does not belong on a source page. (3) Removed the DDT "0.1 mg/kg body weight/day (FAO/WHO)" line from Table 1 reference values: the page had misattributed this Table 1 max-allowed value to FAO/WHO, but Table 1 cites it from reference [18] (French Ministry of Agriculture MRL document). The actual FAO/WHO PTDI of 10 µg/kg bw/day is correctly cited in the Ethiopian DDT EDI bullet of POPs context via reference [17]. There is an internal source-document discrepancy between Table 1 (DDT MRL 0.1 mg/kg bw/day per ref [18]) and the body (FAO/WHO PTDI 10 µg/kg bw/day per ref [17]); the wiki page now cites only the body-text value because the unit/basis on Table 1's MRL entry is inconsistent with how MRLs are normally expressed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

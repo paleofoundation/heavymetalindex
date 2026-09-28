@@ -118,11 +118,6 @@ The review is structured per the 1983 National Research Council framework and th
 
 EPA IRIS toxicological review supporting the IRIS Summary record for TBTO (CAS 56-35-9). Document is a public-domain US government work; no DOI assigned. The canonical access URL is the IRIS PDF endpoint at iris.epa.gov/static/pdfs/0349tr.pdf. Local copy resides in the source-retrieval June 3 manual-fetch folder. The numerical anchor (RfD = 3 × 10⁻⁴ mg/kg-day) has remained on the IRIS record since 1997 and is the reference value cited downstream by ATSDR 2005, EFSA 2004 (TDI of 0.25 µg/kg bw/day as TBTO, equivalent to 0.1 µg/kg bw/day as Sn for the group TBT+DBT+TPT+DOT), and Hong Kong CFS 2019.
 
-## Wiki pages this source may touch
-
-- [[metals/tin]]
-- [[metals/organotins]]
-
 ## Implications
 
 **Certification:** TBTO and the wider butyltin/organotin class fall outside the HMTc 10-analyte certification scope (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn). Standards reasoning under [[docs/standards-methodology]] cannot fold this RfD into inorganic-tin or total-tin certification limits; the toxicological pathway is different by ~3 orders of magnitude. If a future HMTc scope expansion contemplates organotins (driven by seafood, PVC food-contact, or wood-preservative residue), this is the load-bearing US-EPA reference value that anchors the chronic oral side, with the EFSA 2004 group TDI as the European equivalent.
@@ -131,16 +126,10 @@ EPA IRIS toxicological review supporting the IRIS Summary record for TBTO (CAS 5
 
 **App:** Not directly relevant to the ingredient-level contamination estimator — this is a chronic toxicology reference, not a food-occurrence dataset. Consumers' organotin exposure is best estimated via the seafood occurrence pathway covered in [[sources/cfs2019-organotin-aquatic-hongkong]] and the PVC food-contact pathway covered in [[sources/yamada1993-organotin-household-commodities]].
 
-## Verification notes
+## Related evidence
 
-- Cite-key follows the existing `epa1997-` agency-year prefix used by [[sources/epa1997-arsenic-fish-shellfish]].
-- The PDF carries no DOI; access URL is the canonical IRIS endpoint.
-- `metals: [Sn]` is the element-level routing tag; substantive routing target is [[metals/organotins]]. Routing must not pool this RfD with inorganic-tin reference values — flagged in the Scope note above and in the ATSDR 2005 near-duplicate page.
-- `ingredients: []`, `products: []`, `matrices: []` are deliberately empty: this is an animal-toxicology / dose-response reference document, not a food-occurrence survey. The routing layer should route on `metals` only, not invent ingredient/product/matrix scopes.
-- No regulation slug is referenced. The EPA IRIS TBTO RfD is conceptually parallel to the existing `epa-iris-cadmium-rfd` / `epa-iris-lead-rfd` regulation pages and may warrant a dedicated `epa-iris-tbto-rfd` regulation slug at a future Step 0 review; not created in this ingest per the no-new-regulations-without-Karen rule.
-- Brand-firewall (Part 12): the review names a vendor reference material (Bio/dynamics, Inc. — Daly 1992 unpublished study sponsor for the TBTO Consortium) only as the corporate-author of a regulatory submission, not as a contamination-attribution; this is within the scientific-method-vendor exception. No consumer-brand attribution appears in this document.
-- HMTc firewall (Part 2): no synthesis claims, threshold proposals, or consumer-audience translations included. The reported RfD is what EPA established, not what HMTc certifies to.
-- 2026-06-03 fresh-context audit editorial review (general-purpose) flagged label typo "Oral RfC: not derived" under the Section 5.2 sub-heading; independently verified against PDF p. 27 §5.2 "Inhalation Reference Concentration" — corrected to "Inhalation RfC: not derived." (Oral RfC is not a defined quantity; the two endpoints are oral RfD and inhalation RfC.) editorial review also flagged that the "Critical effect" bullet lists two endpoints (depressed IgE titers + increased T. spiralis larvae in muscle) while BMD10 modeling in §5.1.2 used three endpoints (adds T. spiralis larvae by histology method); verified against PDF — the LOAEL itself on p. 22 is defined by the two endpoints named, while the third endpoint is named in the Methods section as one of the BMD-modeling inputs. Not corrected: the bullet describes the LOAEL definition, not the BMD-modeling input set, and is faithful to PDF p. 22 as written. editorial review also flagged the Provenance Notes / Implications cross-source assertions linking this RfD downstream to ATSDR 2005 MRL, EFSA 2004 TDI, and CFS 2019 — accepted as provenance-framing context, with a note to revisit during the Part 9 organotin synthesis pass.
+- [[metals/tin]]
+- [[sources/epa1997-arsenic-fish-shellfish]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

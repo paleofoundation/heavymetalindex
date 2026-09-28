@@ -98,7 +98,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/healthcanada2012-cosmetics-heavy-metal-impurities|Guidance on Heavy Metal Impurities in Cosmetics]]<span class="hmi-ref-meta">Health Canada · 2012 · [www.hc-sc.gc.ca](http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php)</span><span class="hmi-ref-tag">Guidance</span>
@@ -110,7 +110,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

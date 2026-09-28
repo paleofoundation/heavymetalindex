@@ -113,17 +113,13 @@ Courses: Strong case study for separating agronomic mitigation from benchmark po
 
 App: Route as rice and soil-to-rice transfer context for cadmium. Flag contaminated-site basis, China jurisdiction, brown-rice matrix, and biochar intervention before making any product-risk inference.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agronomy13051335`; no DOI conflict was observed. The paper reports total cadmium only, so no species substitution issue arises. The brown-rice values are from a field experiment in Cd-contaminated paddy soil, not from retail rice sampling. Values are reported on the study's oven-dried plant-tissue basis. The biochar supplier name is omitted under the brand firewall. Exact brown-rice Cd concentrations are included only where the text reports numeric values; Figure 2 is graphical and is used for trend/significance statements rather than hand-read bar values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

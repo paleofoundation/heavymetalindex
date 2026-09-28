@@ -46,7 +46,7 @@ Forty-four fish samples in total were collected from four lakes and divided by s
 
 This source supports freshwater fish and general seafood context for Kazakhstan resort-zone fish. It should not be routed to poultry despite the wishlist filename. Total arsenic and total mercury are not iAs or MeHg.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fresh-fish]]
 - [[products/fish-freshwater]]
@@ -57,13 +57,6 @@ This source supports freshwater fish and general seafood context for Kazakhstan 
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25; audited 2026-06-08. DOI mismatch was resolved by ingesting the actual fish product paper rather than forcing it into the meat/poultry row.
-- Paper's narrative arsenic maximum (0.0590 mg/kg, Rudd) conflicts with Table 4 (Crucian 0.0600 mg/kg). Wiki page records both; downstream synthesis should treat 0.0600 mg/kg as the tabulated max mean.
-- Carp and Crucian mean mercury values (0.0201 and 0.0070 mg/kg) sit below the paper's stated Hg analytical range lower bound (0.04 mg/kg) and should be treated as near or below method sensitivity.
-- The paper's stated MPC values (Hg 0.03 mg/kg, others) are the Kazakh national MPCs cited by the authors and are not a separately catalogued regulation in this wiki's regulations vocabulary.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

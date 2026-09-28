@@ -201,38 +201,23 @@ This statement contributes the operative EU-level synthesis of how methylmercury
 - **The operative EU TWI for methylmercury** (1.3 µg/kg bw/week) cited via this statement and traceable to its CONTAM (2012) derivation; the wiki regulation page `[[regulations/efsa-methylmercury-twi]]` is the canonical record of that threshold.
 - **A risk-benefit framing** that demonstrates why simple "fish is good" or "fish is bad" messaging fails: in the range of 1–4 servings/week the population-level balance favours benefit, but at the species level swordfish, tuna, pike, hake, bream and bass are sufficient on their own to exceed the TWI at modest servings, while salmon/trout, herring, mackerel and cod allow the n-3 LCPUFA DRV to be met well below the TWI. The wiki ingredient/product pages can cite this contrast directly when discussing fish species selection.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/mercury-methyl]] — operative EU methylmercury TWI (1.3 µg/kg bw/week), per-species MeHg occurrence values in fish/seafood, population groups exceeding the TWI.
-- [[metals/mercury-total]] — speciation assumption (100 % MeHg in fish meat/products/offal/unspecified, 80 % MeHg in crustaceans/molluscs/amphibians) used in deriving MeHg from tHg measurements.
-- [[metals/mercury]] — overall mercury narrative for fish/seafood.
-- [[ingredients/fish]] — per-species MeHg values for the most-consumed European fish species; the operative basis for the EU fish-consumption framing.
-- [[ingredients/seafood]] — fish + crustaceans + molluscs MeHg/n-3 LCPUFA values.
-- [[ingredients/shellfish]] — lobster, squid, Lophiiformes MeHg values.
-- [[ingredients/freshwater-fish]] — perch, pike, carp MeHg values from the European dataset.
-- [[ingredients/swordfish]] — highest-MeHg species in Appendix C (1,212 µg/kg).
-- [[ingredients/shark]] — predatory-fish context (per the wider CONTAM 2012 evidence base; this statement does not assign a per-species MeHg value to shark).
-- [[ingredients/canned-tuna]] — tuna (290 µg/kg MeHg, 2,806 mg/100 g n-3 LCPUFA) as a high-leverage species on both sides of the balance.
-- [[products/fresh-fish]] — broad fresh-fish category; per-species MeHg/n-3 LCPUFA values applicable.
-- [[products/canned-fish]] — canned fish (notably canned tuna) MeHg occurrence and consumption-pattern context.
-- [[products/seafood]] — umbrella seafood product page.
-- [[products/shellfish]] — lobster, squid, monkfish.
-- [[products/fish-marine-predatory]] — swordfish, tuna, pike, bream, bass MeHg risk.
-- [[products/fish-marine-non-predatory]] — herring, mackerel, salmon, cod MeHg/n-3 LCPUFA favourable balance.
-- [[products/fish-freshwater]] — perch, pike, carp MeHg risk in freshwater species.
-- [[regulations/efsa-methylmercury-twi]] — operative EU TWI of 1.3 µg/kg bw/week, derivation and uncertainty factor 6.4.
-- [[regulations/jecfa-methylmercury-ptwi]] — JECFA PTWI (1.6 µg/kg bw/week) referenced in the same evidence base.
-- [[regulations/eu-reg-2022-617-mercury-fish]] — downstream maximum-levels regulation that operationalises mercury limits in fish/seafood at the EU level.
-
-## Verification notes
-
-- **Cite-key disambiguation:** existing `efsa2015-nickel-food-water` (EFSA CONTAM Panel 2015 Ni opinion, DOI 10.2903/j.efsa.2015.4002) is a different EFSA panel and different topic; this statement uses cite-key `efsa-sc2015-fish-seafood-mehg-risk-benefit` to make the Scientific Committee provenance explicit and to differentiate from CONTAM and NDA panel outputs in the same year.
-- **Speciation field choice:** the paper explicitly addresses methylmercury throughout, with total mercury as the underlying analytical measurement converted via the 100 %/80 % assumption documented in CONTAM (2012). Both `MeHg` and `tHg` are included in `metals:` because the per-species table (Appendix C) reports MeHg µg/kg, while the additional-information section discusses tHg in fish in the broader CONTAM (2012) context.
-- **Ingredient slug selection:** restricted to slugs present in the current taxonomy snapshot (`fish`, `seafood`, `shellfish`, `freshwater-fish`, `swordfish`, `shark`, `canned-tuna`). Per-species values for cod, hake, bream, bass, perch, pike, mackerel, herring, salmon, lobster, sole, plaice, squid, redfish, whitefish, monkfish are documented in the Key numbers section but do not have their own ingredient pages in the current taxonomy; the routing layer fans the broader `fish` / `seafood` / `freshwater-fish` slugs to siblings as needed.
-- **Product slug selection:** uses both the broad `fresh-fish`/`canned-fish`/`seafood`/`shellfish` umbrella slugs and the form-specific `fish-marine-predatory`/`fish-marine-non-predatory`/`fish-freshwater` slugs because the per-species data clearly route to all three predator/non-predator/freshwater subgroups.
-- **Sample size:** `sample_n: null` because this is a scenario-based risk-benefit assessment, not a primary occurrence study; the occurrence and consumption datasets it integrates have their own sample sizes documented in CONTAM (2012) and the EFSA Comprehensive Food Consumption Database respectively.
-- **Brand firewall:** no commercial brand names appear in this paper; all species are identified by common species name or by the FoodEx grouping (Fish meat, Fish products). Cohort/study names (DIPP, STRIP, NUT INK05, Aesan-Fiab, enKid, NFA, INCA2, INRAN SCAI, FINDIET, DONALD, NUTRICHILD, SISP04, etc.) are dietary survey identifiers, not commercial brands, and are retained as method context.
-- **Audit editorial review (2026-06-03, fresh-context general-purpose) verdict PROMOTE.** All five checks ✅ except Check 1 ⚠️ on the Belgian worked-example per-contributor values (6.48/2.05/0.45/0.14 µg/week). Verified against source as a false positive: PDF page 13's contributor table prints rounded values 6.5/2.1/0.5/0.1, but PDF page 14 explicitly writes the per-serving MeHg computation as `[(6.48+2.05+0.45+0.14)/(0.86×17.88)] = 0.6 µg/kg bw/week`. The wiki page reproduces the page-14 unrounded equation verbatim. No correction applied; editorial review saw the p. 13 table but missed the p. 14 explicit equation.
+- [[metals/mercury-total]]
+- [[metals/mercury]]
+- [[ingredients/fish]]
+- [[ingredients/seafood]]
+- [[ingredients/shellfish]]
+- [[ingredients/freshwater-fish]]
+- [[ingredients/swordfish]]
+- [[ingredients/shark]]
+- [[ingredients/canned-tuna]]
+- [[products/canned-fish]]
+- [[products/shellfish]]
+- [[products/fish-marine-non-predatory]]
+- [[products/fish-freshwater]]
+- [[regulations/jecfa-methylmercury-ptwi]]
+- [[regulations/eu-reg-2022-617-mercury-fish]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

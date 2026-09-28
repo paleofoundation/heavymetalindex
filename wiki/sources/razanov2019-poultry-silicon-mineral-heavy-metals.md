@@ -53,18 +53,13 @@ The authors sampled feed raw materials and poultry edible parts, then measured P
 
 This source can support poultry-product and chicken ingredient context for cadmium and lead, especially where contaminated feed is part of the exposure pathway. It should not be silently pooled with general-market poultry without noting the Ukraine feed-source and intervention context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
 - [[ingredients/meat]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25.
-- The source reports total element concentrations, not species-specific arsenic, mercury, or chromium forms.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

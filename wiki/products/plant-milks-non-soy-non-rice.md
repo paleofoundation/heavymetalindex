@@ -107,7 +107,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 ## Broad Product Context: Author-Scope Index
 
 <!-- BEGIN: hmi-broad-context-sources -->
-_Broad-context source index will be auto-generated here when the routing audit identifies sources whose author-stated scope is broader than this product row._
+_Broader-scope sources for this row will be listed here when they are catalogued._
 <!-- END: hmi-broad-context-sources -->
 
 ## Source Evidence Inventory
@@ -143,7 +143,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks]]<span class="hmi-ref-meta">Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. · Biological Trace Element Research · 2021 · [doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -151,7 +151,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

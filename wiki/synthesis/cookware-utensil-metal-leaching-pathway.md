@@ -79,7 +79,7 @@ The synthesis rests on three independent A-tier sources that directly document v
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/sultan2023-cookware-metal-leaching|Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern]]<span class="hmi-ref-meta">Ali Sultan S A, Ahmed Khan F, Wahab A, Fatima B, Khalid H, Bahader A, et al. · Toxics · 2023 · [doi.org/10.3390/toxics11070640](https://doi.org/10.3390/toxics11070640)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/alrajhi2021-imported-cookware-metal-release|Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia]]<span class="hmi-ref-meta">Alrajhi I M and Idriss H · Revista Internacional de Contaminacion Ambiental · 2021 · [doi.org/10.20937/RICA.53561](https://doi.org/10.20937/RICA.53561)</span><span class="hmi-ref-tag">Peer-reviewed</span>

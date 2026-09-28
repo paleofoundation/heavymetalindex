@@ -59,11 +59,10 @@ Evidence Fitness: direct occurrence evidence for prepared cosmetic clay from one
 
 The material was marketed for direct topical use and also considered as a cosmetic ingredient. Its preparation and unreported detection limits matter when comparing it with other clay studies. Concentration alone cannot show how much metal transfers from mineral structures to skin or becomes absorbed. The paper's discussion of permissible concentrations and health consequences is not an independently verified legal or clinical assessment of these samples.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/cosmetic-clay]]
-- [[products/sun-suntan-products]]: traditional topical clay used for sun protection, with no infant-specific claim.
-
+- [[products/sun-suntan-products]]
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/nickel]]
@@ -72,16 +71,6 @@ The material was marketed for direct topical use and also considered as a cosmet
 - [[metals/manganese]]
 - [[metals/iron]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Access identifier: "https://doi.org/10.1002/ansa.202300062". SHA-256: `37970146fd8c72a9e19f1b060776b773ced457d0c309b1b2d1c0ef42649b77ec`.
-
-Identity was checked against the PDF byline, title, DOI and citation line: Nkosi SM and Thembane N, Analytical Science Advances, 2024;5:2300062. The DOI's 2023 suffix is not the publication year. The prior mechanically generated record, `authors2023-to-understand-their-physical-chemical-and-biological-characteristics`, had an incorrect title, unknown byline, year, geography and fish/infant-sunscreen routes. This is correction of that same DOI and SHA-256 source, not a second paper.
-
-The full 12-page PDF was read through layout-preserving text extraction, and the rendered image of p. 6 was checked against all 20 Table 6 cells. Table values take precedence over the garbled prose sequence near the Ni/Zn discussion. The paper also reverses red/white assignments between Table 5 and its SPF discussion and between Table 4 and its bulk-density discussion; these secondary measures are not used to infer metal content or protection efficacy.
-
-The sampling geography comes from Section 2.1, not the Bangladesh arsenic search folder. No named consumer brand is linked to these samples. The study does not measure marine fish, baby sunscreen, soil-to-crop transfer, industrial source apportionment or metal remediation. A provisional cosmetic-clay ingredient page provides a destination. The broad sun/suntan product route represents the reported direct topical sun-protection use, not formulated or infant sunscreen. Y and Zr remain fully transcribed here even though dedicated metal pages are absent.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

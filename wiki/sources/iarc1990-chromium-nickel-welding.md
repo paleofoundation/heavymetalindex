@@ -118,23 +118,6 @@ This is a consensus working-group monograph, not a primary measurement study. Th
 
 The analytical-method tables (Cr Table 19 starting p. 108; Ni Table 21 at pp. 315-316) compile sample-preparation, instrumental-procedure, and detection-limit data from the primary literature; the monograph does not perform new analytical work.
 
-## Verification notes
-
-Source-handling notes:
-
-- Identity-check sweep on 2026-06-04 (DOI grep, raw_handle grep `MFK_mono49`, cite-key grep `iarc1990|mono49`) returned no existing wiki source page; NEW path.
-- The file the archived source file is byte-identical (SHA256 `fbd31bbf35d8ae2d0545b5c12e64a9898b317c14ea2bea73a06ba5883d1b2155`) to the archived source file in the same folder; the latter is recorded in `near_duplicates` as `MFK_mono49`.
-- DOI was deliberately set to null: IARC monographs from this era predate routine DOI assignment; the canonical citation is by volume number and ISBN.
-- Carcinogenicity classifications were verified against the Section 4.5 evaluation pages (Cr at pp. 213-214; Ni at pp. 410-411). Animal-evidence subgroup assignments (sufficient/limited/inadequate) were cross-read from the Section 4 narrative.
-- Cr food-concentration figures were taken from Section 2.3(d) (Fishbein 1976, Hartford 1979, Bunker et al. 1984 as cited in the monograph). Cr drinking-water figures from Section 2.3(c).
-- Cr occupational-exposure-limit values were taken from Table 18 (NIOSH 1988, ACGIH 1988, OSHA 1987); the table extends across 28 national jurisdictions and is summarized rather than fully reproduced here.
-- Ni EAAS and DPASV detection-limit ranges were taken from Section 2.4 narrative (p. 317) referencing the studies tabulated in Table 21.
-- Welding section was read at the chapter-overview level only for the Group 2B classification; detailed welding-fume composition tables were not extracted because welding-fume occupational exposure is outside the food/personal-care contamination scope that HMI primarily synthesizes from. Future welding-specific synthesis passes (if HMTc covers occupational adjacency) should re-read the welding chapter (volume pp. 447 onward) directly.
-- Brand-firewall (Part 12) not triggered: this is a chemicals/agents monograph; the alloy and metallurgical names that appear in the carcinogenicity studies (e.g., "Cpb-ShGa 51" hamster strain, ferronickel alloy NiFe₁.₆, nickel-gallium dental prosthesis alloy) are scientific-material designations under the Exception 2 carve-out for scientific-method vendor/material names, not consumer brand attributions to contamination values.
-- Wiki/HMTc firewall (Part 2) not triggered: the monograph predates HMTc, and the page records only what IARC concluded.
-- Audit editorial review (2026-06-04) flagged four Section/Table citation labels. Verified against source PDF and corrected: (a) the Chromium-in-food heading initially cited "Table 16, pp. 102-103; Section 2.3(d)" — Table 16 is actually Cr levels in food and feral animal tissues, not food-intake figures, and food is Section 2.3(f) on p. 101 — corrected to "Section 2.3(f), p. 101"; (b) the Chromium-in-drinking-water heading initially cited "Section 2.3(c); Table 17" — Section 2.3(c) is Air and Table 17 is human tissues; corrected to "Section 2.3(d), pp. 99-100; Section 2.3(i) Regulatory status, p. 104"; (c) the Chromium-in-non-occupationally-exposed-humans heading was tightened to cite the section letter (2.3(h)) explicitly; (d) Cr Table 19 in Methods was cited as "p. 109" — Table 19 actually begins on p. 108; corrected.
-- Audit editorial review (2026-06-04) flagged the gloss "(dry weight equivalent)" on the Ni EAAS tissue/food/faeces detection limit. The PDF p. 317 prints "10 ng/g (dry wet)" — an ambiguous/typesetting fragment; "(dry weight equivalent)" is retained because the EAAS sample-preparation conventions for tissues and foods in Table 21 use acid digestion of dry-weight-equivalent material, and the gloss is the standard interpretation in clinical-chemistry usage of this monograph. Verified against the source but the gloss is interpretive, not verbatim.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

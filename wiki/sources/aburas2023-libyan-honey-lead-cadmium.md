@@ -56,16 +56,12 @@ App: The source supports a non-US context note that Libyan honey samples in this
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF title, author list, DOI, journal site, abstract, methods summary, and Table 4/Figure 4 values were read from the auto-fetched PDF. The paper is bilingual Arabic/English; the numeric table labels lead and cadmium in ppm. The sugar-solution honey row is retained as source-reported context but should not be pooled with ordinary honey samples without adjudicating whether it fits the product row.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

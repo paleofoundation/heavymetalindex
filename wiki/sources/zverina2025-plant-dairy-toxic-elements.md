@@ -127,7 +127,7 @@ The authors describe several limitations themselves: PBDAs from the Czech market
 
 The sampling frame is restricted to the Czech market (commercial PBDAs in Brno supermarkets and health-food stores) plus a laboratory-prepared homemade oilseed-milk panel; the source does not establish how representative these are of the broader EU PBDA market. Only Ca, P, Fe, Zn, Cd, and Pb were measured: Mn, Cu, I, Se, total/inorganic As, Ni, and Hg are absent from this dataset and cannot be inferred. Total element contents were measured with no speciation work (no iAs/tAs split, no inorganic-vs-organic Hg or Cr work) and no bioavailability assays — the calcium-deficiency narrative is therefore based on total Ca contents and inhibitor presence (phytic acid, oxalates, dietary fiber, soy isoflavones, polyphenols) cited from the literature rather than measured *in vitro* digestibility on these samples. Sample sizes for non-milk categories are small (cream n=5, yogurt n=4, cheese n=4, tofu n=4, three samples per homemade seed type), and the source does not report within-product-type replicate counts beyond the single-mean-per-sample analytical workflow. The homemade-milk preparation protocol used a single seed:water ratio (20 g per 100 mL) and a single soak duration (20 h), so the homemade-milk Cd contents are not directly comparable to commercially-produced seed-milk beverages, which use proprietary extraction processes that may concentrate or dilute heavy-metal content differently. The "1.12 L per week" Czech average consumption figure used in the poppy-milk TWI calculation is the country-wide milk-equivalent consumption from the National Health Information Portal (ref 37), not measured per-capita poppy-milk consumption (which is presumably much lower in real life); the 35 % TWI figure is therefore an upper-bound substitution scenario, not a population exposure estimate.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/plant-milk]]
 - [[ingredients/soy-milk]]
@@ -145,26 +145,6 @@ The sampling frame is restricted to the Czech market (commercial PBDAs in Brno s
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[regulations/efsa-cadmium-twi]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1007/s00217-025-04775-1`), raw_handle grep (`MFD_zverina2025-plant-dairy-toxic-elements`), and cite-key glob (`zverina*`) over the linked reference record all returned no hits on 2026-06-08. This is a NEW source page — no prior version to merge-enhance.
-
-**Abstract vs Table 3 Cd value for homemade poppy-seed milk.** The abstract states "homemade poppy seed milk, exhibiting an elevated cadmium level (0.052 ± 0.04 mg/kg)" (= 52 ± 40 µg/kg); Table 3 reports the homemade poppy-seed milk Cd median as 58.8 µg/kg (range 13.4–85.0). The abstract value is most consistent with the mean ± SD across the three poppy-milk samples, whereas Table 3 reports the median; the two are not contradictory (a median of 58.8 with a wide range of 13.4–85.0 is consistent with a sample mean near 52 if the three values span the reported range). Both values are quoted on this page in their respective contexts (Table 3 as median, abstract narrative as mean ± SD) with no silent reconciliation.
-
-**Brand firewall (Part 12).** The source identifies samples only by product type (store-bought milk alternative, homemade flax-seed milk, etc.) and seed source. No brand names appear in the source text or in the wiki page. The methods section names instrument and reagent vendors (Analytika, Analpure, Anton Paar Multiwave Go plus, Analytik Jena ContrAA 800G/300, Merck, Suprapur, INCT, NIST 1570a, OriginPro) and one supplier-side reference (Czech Statistical Office for the 1.12 L/week consumption figure); these are scientific-method-vendor references permitted under the 2026-05-17 strict-reading exception to Part 12.
-
-**Speciation.** The source measured total Cd and total Pb only — no isotopic or chemical-form speciation is reported. The metals: source metadata entries are Cd and Pb accordingly. The paper did not measure As, Hg, Ni, Al, Cr, Sn, Sb, or any other element from the HMTc priority list.
-
-**Matrices vocabulary.** The matrices array uses `plant-based-drink`, `dairy-alternative`, and `soy-product` per the broad-matrix convention established for begday2026 and good2026. The source covers six PBDA categories (milk alternatives, cream alternatives, yogurt alternatives, cheese alternatives, tofu, homemade seed milks) but only three of these have product slugs in the current taxonomy: plant-milks-non-soy-non-rice, plant-milks-soy-based, plant-milks-rice-based (for the seed-milk and store-bought milk categories), and soy-products (for tofu). Plant-based yogurt, cream, and cheese alternative categories do not have product slugs in the snapshot dated 2026-05-18 and so the cream/yogurt/cheese-alternative findings are not routed to a dedicated product page; they remain associated with the source page itself and will be retrievable when those categories are added to the taxonomy.
-
-**Ingredient slug coverage.** The five oilseed types used to prepare homemade milks (flax, hemp, poppy, pumpkin, sesame) are not currently in the wiki ingredient taxonomy. The closest available umbrella slug (`plant-milk`) and the present-but-unrelated `sunflower-seeds` slug do not capture them. The seed-specific Cd findings are recorded in the Key numbers table on this page; downstream synthesis will need flax-, hemp-, poppy-, pumpkin-, and sesame-specific ingredient pages before per-seed contamination_profile values can be populated. This is a stub-creation candidate for the editorial record once the ≥freq-2 threshold is reached (e.g., by ingest of independent flax-seed or poppy-seed contamination studies).
-
-**Czech-Republic jurisdiction code.** The samples were collected in Brno, Czech Republic; jurisdictions: uses `CZ` (ISO 3166-1 alpha-2) and `EU` per the system-prompt vocabulary.
-
-**License inference.** The article declarations state: "This article is licensed under a Creative Commons Attribution 4.0 International License" and "Open Access publishing supported by the institutions participating in the CzechELib Transformative Agreement." License recorded as CC-BY-4.0.
-
-**Sample-size attribution caveat.** The source's Methods text places "n=35" on the milk-alternatives bucket (20 store-bought + 15 homemade across five seed types). The 15 homemade samples are explicitly described as three samples per seed type for five seed types; the 20 store-bought milk-alternatives count does not enumerate per-base-ingredient (soy/oats/almond/coconut/rice/hemp/flax/poppy/pumpkin/sesame/other) subcounts, so per-store-bought-base-ingredient sample sizes cannot be recovered from the published Methods text alone (Supplementary Table S1 was not retrieved with this PDF and would need separate fetch to recover those per-base counts).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

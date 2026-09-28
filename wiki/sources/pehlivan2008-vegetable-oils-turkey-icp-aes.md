@@ -79,7 +79,7 @@ Limitation: This is a 2008 study with no speciation. The method is dilute-acid e
 
 - App: Values are low and relatively dated (2008, Turkish market). Use only for broad order-of-magnitude framing; prefer more recent and larger-n studies for ingredient profiling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
@@ -97,17 +97,6 @@ Limitation: This is a 2008 study with no speciation. The method is dilute-acid e
 - [[metals/cobalt]]
 - [[metals/chromium]]
 - [[metals/zinc]]
-- [[regulations/eu-466-2001-contaminants-superseded]]
-
-## Verification notes
-
-- 2026-05-17 Codex merge-enhance: identity checked against the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, replaced the erroneous `products/nuts-seeds-other` route with `products/olive-oil` and `products/cooking-oils-other`, changed legacy headings to current source-page headings, and removed the non-taxonomy `testing/icp-oes` wikilink.
-- Source reports total Cr by ICP-AES, not Cr-VI; the page therefore uses `Cr` and links `[[metals/chromium]]`.
-- `olive-oil`, `sunflower-oil`, `corn-oil`, `soybean-oil`, `hazelnut-oil`, `almond-oil`, and `edible-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
-- 2026-05-18 Codex DOI cleanup: DOI, access URL, license, and raw SHA-256 verified against article metadata and the local manual-fetch PDF. The local PDF does not print the DOI, so DOI provenance is from the article metadata rather than the PDF body.
-- 2026-05-18 Codex regulation cleanup: created [[regulations/eu-466-2001-contaminants-superseded]] as the historical regulation node for the EC 466/2001 citation; the paper's Pb 0.10 mg/kg vegetable-oil benchmark is preserved as an author-cited comparison.
-- 2026-05-18 Cross-vendor audit (Codex) tightened regulatory framing: the paper supports the EC 466/2001 Pb comparison and explicitly says no legislation existed for Cd, Cu, and Zn, but it does not support a broad all-metals "within regulatory limits" statement or a Ni no-limit claim.
-- Source-internal note: the Discussion prose says the lowest Pb value was 0.012 mg/kg for sunflower oil (c), but Table 3 reports 0.0012 mg/kg for sunflower oil (c) and several 0.0000 entries; this page follows Table 3. The prose also says the lowest Cd value was 0.0003 mg/kg in almond oil, while Table 4 reports 0.0002 mg/kg in corn oil (a); this page follows Table 4.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

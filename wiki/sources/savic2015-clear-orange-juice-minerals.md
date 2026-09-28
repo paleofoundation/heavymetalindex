@@ -69,7 +69,7 @@ App: Provides occurrence fields for total arsenic and lead in orange juice from 
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/arsenic-total]]
@@ -90,15 +90,6 @@ Microbiome: Not addressed.
 - [[ingredients/fruit-juice]]
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-non-apple]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven fruit-juice wishlist. The same DOI appeared in five downloaded wishlist rows targeting Co, Pb, and total As across fruit-juice categories; this page is the canonical source page for those duplicate downloads.
-- Numerical ranges are preserved in the source units. The paper uses mg/L for most text values and ppm for arsenic; for dilute juice these are approximately equivalent, but no conversion is used in the primary table.
-- The paper reports elemental arsenic only; no arsenic speciation was performed.
-- Strict brand firewall: the source page uses product/matrix descriptions only. The source states that samples came from different manufacturers, but no manufacturer or brand names are included here.
-- Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
-- Fresh-context audit (Claude editorial review, 2026-05-19): REVISE → applied. Two findings corrected: (1) opening prose updated to state Pb was detected in all seven samples (was "at least one"), with sample VI as outlier maximum; (2) added explicit Sb-below-detection note (LOD 2.44 µg/L per Table 1) and acknowledged the Mn/Co/Cr/B/Sr/Si/Ag screen-but-not-extracted status. All other checks clean: slug vocabulary verified on disk (auditor cross-checked actual files), speciation discipline correct (tAs explicitly labeled, no Cr-VI substitution), brand firewall clean (samples I-VII anonymization preserved), HMTc firewall clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

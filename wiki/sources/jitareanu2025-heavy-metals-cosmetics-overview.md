@@ -72,7 +72,7 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 - Courses: Foundational survey for a children's-cosmetics regulatory-affairs course module. Per-metal hazard summary (Table 1) maps each analyte to the cosmetic product types where it most commonly appears; useful as a course-overview reading.
 - App: Not relevant to ingredient contamination_profile (cosmetics are not in the ingredient taxonomy).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -81,27 +81,9 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 - [[metals/chromium-hexavalent]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
-- [[products/lipstick]]
-- [[products/face-paint]]
-- [[products/childrens-makeup]]
-- [[products/skin-lightening-cream]]
 - [[products/baby-sunscreen-mineral]]
 - [[products/baby-sunscreen-chemical]]
 - [[products/toothpaste]]
-
-## Verification notes
-
-- This is one of two PDFs in the batch with title "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact" - one in babycare_01 (read here), one in babycare_04 (a near-duplicate or identical file). Will mark the babycare_04 version as a near_duplicate when it is processed.
-- 2026-05-18: confirmed babycare_03 `Overview_Heavy_Metals_Cosmetics_Toxicological.pdf` is byte-identical to the babycare_01 source (SHA-256 6962413139daeb23e7732542a75c8fcbb470f4fc8eaaddd35f07ef0ee093d6e6); added to `near_duplicates`. Skill stopped without re-ingest per the post-2026-05-14 clean rule.
-- 2026-05-18: confirmed babycare_04 `An_Overview_of_Heavy_Metals_in_Cosmetic_Products_and_Their_Toxicological_Impact.pdf` is byte-identical to the babycare_01 source (same SHA-256 6962413139daeb23e7732542a75c8fcbb470f4fc8eaaddd35f07ef0ee093d6e6); added to `near_duplicates`. Skill stopped without re-ingest per the post-2026-05-14 clean rule.
-- Review article - B-tier per Part 13 (reviews are not treated as A-tier primary evidence).
-- Brand firewall (Part 12): the review's cited studies (Hamann, Piccinini, Iwegbue, etc.) include some brand-named samples; this source page summarizes at category level only.
-- Kohl Pb values up to 800,000 ppm cited from Mokashi et al. - that is a citation to a separate primary study which would be the appropriate page for those specific numbers; including the figure here to flag the magnitude (kohl is the outlier product class for Pb in cosmetics).
-- 2026-05-17 enhancement: Added Table 2 highlights to Key numbers (talcum baby powder, toothpastes, kohl, face paints, lip products from cited primary studies). The review's Table 2 compendium is its main value-add and was thin in the prior revision. Numbers are presented as the review reports them with reference numbers traceable to the underlying primary studies; specific values belong on those primary-study source pages, not synthesized here.
-- Cross-vendor audit (Codex, 2026-05-17) corrected three Table 2 transcription errors: talcum baby powder Cr `5.886` -> `5.846` ppm; kohl Jordan Pb unit `mg/kg` -> source-reported `mg/g`; Algeria/Saudi Arabia/India/Pakistan kohl max Pb `85.87` -> `85.57` µg/g. The Syria/Sudan/Jordan kohl row preserves the review's mixed-unit reporting and should be checked against the primary Massadeh et al. paper before reuse as occurrence evidence.
-- Empty `ingredients:` and `matrices:` are intentional: the review covers metals as contaminants/intentional additives in finished cosmetic products; it does not focus on specific ingredients (the products themselves are the unit of analysis) and `matrices:` is a food-vocabulary field that does not apply to cosmetics. Routing audit flags this as an "advisory" (optional fields empty), not a malformed error.
-- Audit editorial review (2026-05-17) flagged Iwegbue product list dropped "pencils" from Section 3 p. 3 — verified against source; corrected to "lip products, eye shadows and pencils, mascaras, blushes, and face powders" to match exact source wording.
-- Audit editorial review (2026-05-17) flagged Implications Certification line restated EU/Germany/US/CA/CN regulatory values already in Key numbers — verified the duplication was stylistically redundant; tightened to a single sentence referencing Key numbers (Part 2 firewall not violated either way, but cleaner without the duplicate).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -75,22 +75,6 @@ Courses: usable for mechanism-of-action teaching content, with the caveat that t
 
 App: not applicable. No food-form or contamination-likelihood data.
 
-## Wiki pages this source may touch
-
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/arsenic-total]]
-- [[metals/arsenic-inorganic]]
-- [[metals/mercury-total]]
-- [[metals/mercury-methyl]]
-- [[metals/nickel]]
-
-## Verification notes
-
-- **2026-05-18 (audit editorial review finding, applied):** Audit editorial review flagged the Bangladesh/West Bengal "1 in 5 deaths" phrasing as a slight tightening of the source's ambiguous "death of about 1/5 people due to exposure to arsenic" claim. Verified against PDF p. 12; the more natural reading is "1/5 of the exposed population dies from arsenic exposure," not "1/5 of all deaths in the population are arsenic-attributable." Rephrased to track the source phrasing and flag the ambiguity inline.
-- **2026-05-18 (editorial review, merge-enhance):** Full 34-page PDF re-read. Prior page (updated 2026-05-15, `raw_handle: papers-cube`) was correct in outline but contained substantive synthesis claims that did not trace to fu2019. Removed: CDC blood-lead-no-threshold position (paper does not cite CDC); IARC Group 1 carcinogen designation for nickel (paper does not cite IARC); 10-30 year cadmium kidney half-life (not in paper); β2-microglobulin and retinol-binding protein as cadmium nephropathy biomarkers (not in paper); AS3MT enzyme name plus folate/B12 nutritional modifiers for arsenic methylation (paper figure shows pathway without naming AS3MT or invoking nutritional cofactors); reduced IQ / motor dysfunction / language delay specifics for MeHg neurodevelopment (paper states neurotoxic mechanisms only, not specific outcomes); Minamata anchor case (not in paper); nickel dermatitis as best-established human effect (paper focuses on oxidative-stress mechanisms, does not discuss allergic contact dermatitis); specific food list (whole grains, legumes, nuts, chocolate) for nickel exposure (paper says only "food" generically). Added Key numbers section with the quantitative claims fu2019 actually carries (140M / 35-77M / 75 ppb Warburg / 900 occupations / GSH:GSSG 90:10) per the source page template. Updated `raw_handle` from legacy `papers-cube` placeholder to `PCMF_fu2019` convention. source metadata `products`/`ingredients`/`jurisdictions` remain empty: this is a mechanism review with no measured foods, ingredients, or jurisdiction-specific regulatory analysis; the routing_malformed advisory for those fields is informational, not a defect.
-- **2026-05-17 (prior session):** Cross-vendor strict Part 12 recheck found no sampled-product brand naming. Added MeHg to the metal scope, removed a non-taxonomy health wikilink, converted generic arsenic/mercury wikilinks to speciated metal pages, and tightened the limitations/courses language to avoid cross-source synthesis.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

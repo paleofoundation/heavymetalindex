@@ -143,7 +143,7 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - Courses: Useful case study for the contaminated-irrigation-water exposure pathway in low-income urban settings, where domestic and industrial effluent reaches the irrigation water supply. The differential between adult and toddler HI values (1–2 y toddlers carry 6× the per-kg dose at the same consumption rate) is a useful instructional anchor for the vulnerable-population module.
 - App: Not suitable as a direct contamination-profile contributor for North American or European supply chains; the matrix (oven-dried, ED-XRF analysed Kaduna market vegetables irrigated with contaminated river water) is not representative. Contextual use only — the paper documents what poor irrigation-water quality can do to vegetable metal content, not what well-regulated supply chains produce.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/vegetables]]
 - [[ingredients/leafy-vegetables]]
@@ -166,23 +166,6 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - [[metals/copper]]
 - [[metals/molybdenum]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
-  - `metals:` previously listed only `[Cr, Ni]`; the paper reports eight metals (Cr, Mn, Fe, Co, Ni, Cu, Mo, Zn). Updated.
-  - Prior Key numbers section reported "Spinach: 2.8 ± 0.26" for Cr, which was a transposition with Lettuce. Table 1 of the source shows Spinach Cr = 28.8 ± 0.26 and Lettuce Cr = 2.8 ± 0.26. Corrected.
-  - `raw_handle:` was generic `manual-fetch-source-retrieval`; updated to the specific MFK_ form per current convention.
-  - Replaced legacy `## Wiki pages updated on ingest` heading with `## Wiki pages this source may touch` per current schema.
-  - Added complete Table 1, Table 2, Table 3, and Table 4 transcriptions (all 12 vegetables × all 8 metals) so downstream synthesis can read every value rather than the handful previously surfaced.
-  - Removed editorial commentary that had crept into the prior page (statements like "may reflect... and the biological significance is uncertain", "warrants independent verification" for Cu values, "study notes possible measurement or unit interpretation issues"). The source page reports what the authors found; uncertainty about Fe HQ magnitudes or Cu concentration plausibility is for downstream synthesis to flag, not for the source page to editorialise.
-- Sweet-potato vs Potato terminology: the Methods section explicitly lists "sweet potatoes" as one of the 12 vegetable types, but Table 1, Table 2, Table 3, Table 4, and the discussion (e.g., "upper limit of 59.1 mg/kg Cr concentration in potatoes") all use the header/term "Potato". The compositional values are reproduced under the source's Potato label; the [[ingredients/sweet-potato]] wikilink follows the Methods declaration. The ambiguity is the source's, not the wiki's. Eggplant and peas are also among the 12 declared vegetable types but do not currently have dedicated wiki ingredient pages; they are deferred to the auto-stub pass (freq-1 ingredient scaffolding is system work, not source-page-author work).
-- Vegetable consumption rate: the authors state "consumption rate (Cr) of vegetables in Nigeria, according to FAO (2021), is 2.3 mg/day". The unit "mg/day" is anomalous — FAO vegetable-intake statistics are typically expressed in g/day or kg/day, and a 2.3 mg/day consumption rate implies vanishingly small intake that is inconsistent with the EMDI magnitudes the authors report. The authors' EMDI numbers are reproduced as-is and are internally self-consistent with their stated equation; the unit anomaly is the source's, not the wiki's.
-- Text-vs-table discrepancies within the source: (a) Cu EMDI range in adults — text says 0.2–1.32 mg/kg BW/day, Table 2 column min is 0.13 (broccoli adult); (b) Cr CR range in children — text says 0.00–0.1, Table 4 column max is 0.49 (potato child); (c) Cu CR range in adults — text says 0.22–2.20, Table 4 column max is 2.24 (beans and potato adult). Table values are reported verbatim above; the table-vs-text text discrepancies are noted but treated as paper-internal rounding/typo rather than a data-integrity stop condition.
-- Speciation discipline: Cr is reported as total chromium (paper used ED-XRF, no Cr-VI speciation); `metals: [Cr ...]` is correct (not Cr-VI). No As/Hg/Pb/Cd analyses are reported by this paper, so no speciation flags apply.
-- Brand firewall: no brand names appear in the source page; no aggregation of brand-level data was required because the source does not report brand-level data — only market-aggregated composites from five general markets.
-- Routing: products: [] is intentional (paper measures raw fresh produce; no packaged-product slug applies). matrices: includes leafy-vegetable, root-vegetable, fruit-vegetable, and the generic fresh-vegetable to cover the 12 vegetable types that span those plant-part classes.
-- 2026-05-20 — Fresh-context audit editorial review (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -67,7 +67,7 @@ Limitations stated by the authors and implied by the methods: total arsenic was 
 
 **App:** Mean and P90 values across multiple fruit categories and processing states (fresh, frozen, dried, preserved, canned) for Pb, Cd, tAs, and tHg; Sn for canned only. Suitable for ingredient-level risk estimates in EU-origin product modeling. Berries and small fruits are tracked as a distinct subgroup throughout, which is useful for variant-level estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -92,13 +92,6 @@ Limitations stated by the authors and implied by the methods: total arsenic was 
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/efsa-mercury-twi]]
 - [[regulations/efsa-arsenic-contam-2009]]
-
-## Verification notes
-
-- 2026-05-20 enhancement: corrected truncated `raw_path` to the actual PDF filename; removed invented slugs (`ingredients/currants`, `ingredients/dried-fruit`, `ingredients/apples`, `products/fruit-preserves`, `products/frozen-fruit`) that are not in the taxonomy; added `ingredients/apple` (singular form, paper reports imported dried apples 0.016 mg/kg Hg, highest mercury value), `ingredients/pear` (paper reports canned pears from China 206 mg/kg Sn, highest tin value), `ingredients/raisins` (paper reports Iranian dried raisins 0.150 mg/kg Pb, highest lead value), and umbrella `ingredients/fruit`. Replaced legacy `## Wiki pages updated on ingest` section with the current `## Wiki pages this source may touch` form. Expanded `## Key numbers` to include the previously-omitted preserves-by-origin breakdown, the Sn minimum, the 90th-percentile exposure figures for Pb in fruit products, the Cd and Hg 90th-percentile exposure figures, and the explicit imported-vs-domestic dried-fruit Cd breakdown.
-- Paper-internal anomaly preserved verbatim: Figure 1 / text reports "frozen berries and small fruits Pb P90: 0.037–0.003 mg/kg" — UB below LB is a typographical error in the published paper. Flagged but not silently corrected; the underlying figure values cannot be recovered from the PDF.
-- Matrices `frozen-fruit` and `fruit-preserves` are not in the common-matrices list from the GPT system prompt; preserved because they accurately describe the form measured and the matrices vocabulary is open per the system prompt's guidance. New-term flag for taxonomy review.
-- Mercury treated as inorganic for exposure calculation is the authors' explicit modeling choice (paper page 359), consistent with EFSA's position that organic mercury contributes negligibly to non-fish dietary exposure. The `metals:` field uses `tHg` because measurement was total-Hg by CVAAS, not speciated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

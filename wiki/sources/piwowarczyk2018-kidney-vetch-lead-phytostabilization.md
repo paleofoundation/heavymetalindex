@@ -54,14 +54,10 @@ App: The source can support mitigation content for Pb-contaminated soils, with e
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
-
-## Verification notes
-
-The filename came from an automated supplements-enzyme query, but the actual PDF is a phytostabilization paper. Products and ingredients are intentionally empty because the measured values are experimental plant-tissue and media-response data, not consumer-product occurrence data.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

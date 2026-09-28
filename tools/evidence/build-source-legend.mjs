@@ -285,7 +285,7 @@ function renderLegend(citeKeys, preservedContributions = new Map(), seedContribu
       BEGIN_MARKER,
       "## Sources",
       "",
-      "_No sources currently route to this page. Sources will appear here as ingest fans them into this page via the routing audit (CLAUDE.md Part 5b)._",
+      "_No sources are catalogued for this page yet._",
       END_MARKER,
     ].join("\n")
   }
@@ -298,7 +298,7 @@ function renderLegend(citeKeys, preservedContributions = new Map(), seedContribu
     // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
     // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
     // line below separates it from the markdown table so the table still parses.
-    noteHtml || `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
+    noteHtml || `<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",

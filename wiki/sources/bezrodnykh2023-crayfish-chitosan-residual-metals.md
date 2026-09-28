@@ -70,7 +70,7 @@ Courses: Useful teaching example for process controls: demineralization can remo
 
 App: Route to chitosan ingredient context and shellfish-derived additive context. Do not treat this single lab batch as a market distribution for chitosan supplements, cosmetics, or pharmaceutical excipients.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chitosan]]
 - [[ingredients/shellfish]]
@@ -79,16 +79,6 @@ App: Route to chitosan ingredient context and shellfish-derived additive context
 - [[metals/iron]]
 - [[metals/aluminum]]
 - [[mitigation/processing]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/app13053360`; no DOI conflict was observed. The source spells the crayfish genus as `Actacus` in the title/abstract/methods text (the references list spells it `Astacus`, the conventional form); this page preserves the spelling used in the paper's main text rather than silently correcting it. The `RU` jurisdiction reflects the Russian laboratory and local-market sampling context; the PDF does not provide a more granular market location. Table 1 visually confirms that only Fe, Cr, and Ni are printed as numeric ICP-MS columns; Cd, Pb, Hg, and As are covered by text statements and pharmacopeial limits, not numeric concentration columns. The chitosan deacetylation degree appears in two values in the source: 96% reported for chitosan in Table 3 (USP 2013 comparison) and 98% in the discussion of the deacetylation result; this page reports both values as the paper does. The `chitosan` ingredient page was created as a provisional scaffold during this ingest because no existing ingredient slug covered purified chitosan/oligochitosan derivatives.
-
-The matrices slugs `crayfish-shell-waste`, `chitin`, `chitosan`, and `oligochitosan-hydrochloride` are descriptive process-stage labels rather than entries in the common matrices vocabulary; they are retained because the paper's measurements are stage-resolved (residues at each processing step) and no broader food/feed matrix would accurately describe the sampled material. `products: []` is intentional: this is a process-chemistry methods paper for an ingredient pipeline; no consumer-end food, supplement, cosmetic, or pharmaceutical product was sampled. The routing audit's advisory `malformed` entry for missing `products` is acknowledged and reflects the absence of a measured product, not an ingest defect.
-
-Merge-enhanced 2026-06-02 to document the matrices-vocabulary additions and the rationale for empty `products`; no numerical values, slug assignments, or body content were changed.
-
-Audit editorial review (2026-06-02) ran the five-check audit and returned REVISE with one warning: `[[mitigation/processing]]` flagged as a target outside the closed taxonomy. Verified against the working tree: the linked reference record exists. The audit's taxonomy snapshot does not include the `mitigation/` directory, which produced the false positive (the same pattern was logged on the shi2023-leersia and other recent audits). Wikilink retained; no page change applied for this finding.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

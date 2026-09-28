@@ -65,15 +65,6 @@ Fish and shellfish were purchased during February-March 2012 from local fisherme
 
 This source contributes wet-weight edible-fish and shellfish occurrence data for Mediterranean seafood sold in Sicily. It is routeable to marine fish and shellfish rows, but arsenic values should remain total/unspecified As in occurrence evidence because the inorganic-As entries are risk-model assumptions, not measured speciation. The shellfish row is based on a homogenized *D. trunculus* aliquot set rather than independent individual shellfish specimens.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-5, and discussion were readable.
-- DOI `10.1016/j.fct.2012.11.038`, raw handle `MFK_copat2013`, and cite-key checks found no existing source page before creation.
-- Table 2 concentration values and MDL/LOQ values were checked against the extracted text. Units are preserved as `mg/kg w.w.`; no conversion was performed.
-- Speciation: arsenic was measured as total/unspecified As and chromium as total Cr. The risk tables assume inorganic As is `3%` of total As; the page does not route that assumption as measured iAs.
-- Brand firewall: samples came from fishermen/market context and no product brands were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

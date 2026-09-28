@@ -71,22 +71,10 @@ Courses: Illustrates the antioxidant-defense and glyoxalase systems engaged by r
 
 App: Contributes mechanism context for the rice ingredient page; does not contribute occurrence numbers for rice grain as sold or consumed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Source PDF: the archived source file. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a hydroponic rice–Cd–H2S mechanism study, not a mineral-water occurrence survey. The slug was assigned upstream by the discovery harness and is preserved in `raw_handle:` for provenance only; source metadata `matrices:`, `ingredients:`, and `products:` reflect the actual content. No mineral-water content in this paper.
-
-Evidence tier B reflects the mechanistic / pharmacological-dose nature of the experiment; the work is well-controlled and peer-reviewed but the Cd concentrations are not field-relevant and the values are seedling-tissue, not rice-grain-as-consumed.
-
-No brand-attributed contamination data. Methods name instrument category (flame AAS) and reagents (HNO3:HClO4, hypotaurine, NaHS) without vendor brand attribution; nothing to redact under Part 12.
-
-Audit editorial review (2026-05-30) flagged two transposed values in `## Key numbers` (Cd accumulation leaf-Cd1 26% should be 23%; Cd concentration root values 30%/30% should be 26%/30% and leaf-Cd1 26% should be 30%); verified against PDF p.2 ("decreased by 20 and 19% in roots and 23 and 41% in leaves... Cd content was reduced by 26 and 30% in roots, and 30 and 65% in leaves") — both corrections applied.
-
-Audit editorial review also flagged the Certification implication's "supplier specifications for low-Cd rice" framing as policy-flavored (Part 2 concern); softened to describe the paper's mechanistic contribution without prescribing a supplier-spec posture.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

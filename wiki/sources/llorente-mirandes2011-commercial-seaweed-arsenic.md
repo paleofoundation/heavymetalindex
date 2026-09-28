@@ -61,19 +61,6 @@ Six dried edible seaweeds (Galician coast, bought in Barcelona) were oven-dried 
 - Certification (HMTc): a direct-evidence occurrence-and-speciation source for the Category 6 seaweed-kelp-foods row (iAs/tAs platform). Its key contribution is a within-genus refinement, internal to this paper: the kombu-marketed kelps *Laminaria ochroleuca* and *Laminaria saccharina* (Saccharina latissima) here had inorganic arsenic below detection and total arsenic ~52–57 mg/kg dominated by arsenosugars (this study did not include *L. digitata*). For the row's clean/dirty structuring this argues the high-iAs concern is species-specific within the kelps rather than generic to all "kombu", and that nori and most green/red edible seaweeds sit low. (The contrasting high inorganic arsenic of *L. digitata* and the Sargassum/Hizikia group is reported by other corpus sources; that cross-source comparison belongs to the Part 9 synthesis pass, not this single-source page.) All on the dry-mass basis.
 - App: contributes to the seaweed ingredient contamination_profile for total and inorganic arsenic across the common edible-seaweed trade types (Irish moss, nori, sea lettuce, kombu, wakame).
 
-## Verification notes
-
-- raw_handle MFK_llorente-mirandes2011 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/jf2040466 confirmed on the article header. Distinct from the existing corpus page `llorente-mirandes2016-ias-food-analytical-review` (a later analytical review by the same group) — this is the 2011 primary occurrence study.
-- Evidence tier A: peer-reviewed primary speciation study, triplicate analysis, LC-ICP-MS with CRM (NIES 9) validation.
-- Speciation: total As and inorganic As [As(III)+As(V)] reported and kept distinct (lifted to source metadata as tAs, iAs); As(III) and As(V) components are tabulated separately in Key numbers. Organic species (DMA, MA, arsenobetaine, four arsenosugars) were measured and summarised in the body but NOT lifted to source metadata — they are not HMI analyte-vocabulary tokens; recording any of them as iAs would be a speciation error and is avoided. `<LOD` values recorded as such, not as numbers.
-- Units/basis preserved exactly (mg As/kg dry mass). Inorganic-As percentages (of extracted As) are the source's own figures.
-- sample_n=6 edible seaweed products; the CRM (S. fulvellum) is a method-validation reference, reported in Key numbers for context but not counted as a market sample.
-- Brand firewall: not engaged. Products identified only by common trade name (Irish moss, nori, sea lettuce, kombu, wakame) and species; no commercial brand names.
-- Jurisdiction ES (grown Galician coast, sold Barcelona); sampling_locations records the Galician coast origin; sampling year not stated.
-- matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` warranted (Laminaria ochroleuca, L. saccharina).
-- Instrument/CRM/vendor names (Agilent, Milestone Ethos, Hamilton, Zorbax, NIES 9) retained in Methods as permitted scientific reporting.
-- Audit editorial review (2026-06-08, fresh-context) returned REVISE; Checks 1–4 clean (all Table 1 values, the iAs/tAs speciation labeling, and brand firewall verified exact — no arsenosugar/organic value mislabeled as iAs). One Check 5 ⚠️ applied: the Implications section had attributed the contrasting high-iAs of *L. digitata* to "(Ronan 2017, Taylor 2016)" as if established by this paper, which neither measured *L. digitata* nor cited those works; reworded so the within-genus refinement is presented as internal to this study and the cross-source *L. digitata* contrast is flagged as belonging to the Part 9 synthesis pass, not this source page. No numeric/speciation corrections needed.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

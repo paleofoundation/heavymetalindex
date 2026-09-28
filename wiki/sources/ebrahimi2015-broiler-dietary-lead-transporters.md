@@ -59,17 +59,10 @@ App: Supports exposure-context language for lead in animal feed and livestock ph
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, animal count, treatment groups, nominal dose, analyzed diet Pb concentrations, daily ingestion estimates, liver Pb retention, qRT-PCR target classes, and figure significance statements were transcribed from the extracted PDF text.
-- Units are preserved as the source reports them: mg/kg for diet and liver Pb and ug for daily Pb ingestion.
-- Figure bar heights for feed intake, body-weight gain, feed efficiency, and fold-change expression were not converted into numerical values because the extracted text does not print exact bar values.
-- Products and ingredients are intentionally empty because the paper is a spiked-feed toxicology study, not an occurrence survey of poultry meat, supplements, or enzymes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

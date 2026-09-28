@@ -117,30 +117,7 @@ Migration framing: this is a static-concentration study, not a migration study. 
 
 Cochrane usability: the dataset is admissible for packaging-matrix occurrence at the documented quality tier (no CRM, no spike-recovery, small n) and is admissible for milk-matrix detection-presence indicators only, not quantitative milk-matrix concentration estimates, because most milk values lie below the authors' own LOQ.
 
-## Verification notes
-
-Merge-enhance pass 2026-05-18 against the PDF at the archived source file (DOI 10.30931/jetas.1395566). Changes relative to the prior 2026-05-14 revision:
-
-- **Milk Co range corrected** from 0.219–0.239 (the abstract's mis-labelled value, which is actually Cd) to 0.081–0.393 (Table 5 actual Co milk column). Documented the abstract's paper-internal error.
-- **Milk Cd range added** (was previously "not reported in milk ranges summary"): 0.219–0.239 mg/kg per Table 5, confirmed by §3 body text ("cadmium levels in milk and packaging samples were determined as 0.219–1.209 mg/kg").
-- **Milk Cu added** as "not detected" (was previously absent from the milk list). All milk samples reported as N.D. for Cu in Table 5 and confirmed in §3 body text.
-- **Packaging Pb range corrected** from 24.386–26.668 (the abstract's mis-stated minimum) to 22.925–26.668 (Table 5 actual; T8P 22.925 is the true minimum, not T6P 24.386).
-- **Packaging Co range refined** from 0.775–1.167 to 0.769–1.167 (Table 5 shows T8P 0.769 as the minimum; the running text mis-cites T5P 0.775).
-- **Units note rewritten.** The earlier note hedged that values "may represent µg/kg or mg/L." The paper consistently reports mg/kg and the authors' discussion compares directly to mg/kg literature values. The real interpretive caveat — most milk values fall at or below the instrument LOD/LOQ — is now stated directly in the limitations.
-- **Analytical detail expanded** to include wavelengths, microwave digestion program, and explicit absence of CRM/spike-recovery QC.
-- **Pearson correlation table added** (Table 6) — milk-vs-packaging r values for each element.
-- **Implications rewritten** to remove HMTc-directional framing ("HMT&C should address...", "courses module..."). Replaced with packaging-matrix occurrence framing and Cochrane usability statement, per Part 2 firewall.
-- **Author diacritics restored** (Zurnacı, Şener).
-- **Legacy section heading** `## Wiki pages updated on ingest` replaced with current convention `## Wiki pages this source may touch`.
-- **Speciation:** `metals: [Pb, tAs, Cd, Ni, Al]` retained — the paper measures total elemental As (no speciation), so `tAs` is correct.
-
-Fresh-context audit (2026-05-18, general-purpose editorial review) verdict: REVISE.
-
-- ⚠️ Audit finding: `products: []` on a food paper flagged as a Phase 1 source metadata defect. **Verified false positive.** Per lint, the "missing products field on food/personal-care paper" rule fires only when `matrices:` contains product-shaped slugs (i.e., slugs in the products taxonomy). For this paper, `matrices: [milk, food-packaging, packaging-material]` — none of those are product-taxonomy slugs (verified against the taxonomy snapshot at the editorial record). The convention for milk papers is `products: []` with ingredient routing via `milk-and-dairy` — established by other milk papers (e.g., `abdelnaby2022-lead-cadmium-milk.md`) that share the identical pattern and produce the same advisory-only severity entry in the structured evidence record. The current products taxonomy does not include a "fluid milk in aseptic carton" product page; milk is intentionally represented at the ingredient level. No source metadata change applied.
-- ⚠️ Audit borderline note on matrices duplication (`food-packaging` vs `packaging-material`). Retained both: `food-packaging` flags the paper as a food-contact-material study; `packaging-material` flags the data as in-substrate concentrations on the packaging itself. They route distinct intents.
-- Checks 1, 3, 4, 5 all ✅ from the audit, including independent verification of every Key numbers value against Table 5.
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]

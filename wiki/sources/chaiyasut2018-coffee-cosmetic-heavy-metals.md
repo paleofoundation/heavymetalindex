@@ -55,17 +55,13 @@ Courses: The study is a compact example of why ingredient identity and finished-
 
 App: The values can support a personal-care context flag for coffee-derived botanical ingredients in leave-on products, with the basis preserved as finished cosmetic product.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/body-hand-leave-on-skin-care]]
 - [[ingredients/coffee]]
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-The DOI and bibliographic metadata were taken from the PDF first page and the downloaded wishlist row. The wishlist row requested coffee total arsenic occurrence, but the actual source is a personal-care formulation study, not a beverage coffee or roasted-coffee food-occurrence study. The source reports total arsenic and total mercury only; it does not provide inorganic arsenic, methylmercury, LOD/LOQ values, or brand-level consumer-product data.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

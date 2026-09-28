@@ -52,7 +52,7 @@ Courses: The source is a useful example of farm-site versus washing-plant sampli
 
 App: The coffee-facing takeaway is that this Sidama sample set found no detected Pb, Cd, or Cr in beans, while Ni and other trace elements were measurable at sub-mg/kg to low-mg/kg levels.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/coffee]]
 - [[ingredients/coffee]]
@@ -64,13 +64,6 @@ App: The coffee-facing takeaway is that this Sidama sample set found no detected
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[supply-chain/soil]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, and publication year were taken from the PDF first page.
-- The coffee tables use mg/kg and ppm interchangeably; this page preserves the source units as mg/kg and does not convert to ppb.
-- Soil Cd exceedance is not a coffee-product occurrence value. It is retained only as agricultural-soil and supply-chain context.
-- The Table 7 text extraction visibly drops some column alignment for Cr and Pb; the narrative and Table 8 both support Cr, Pb, and Cd as not detected in washing-industry beans.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

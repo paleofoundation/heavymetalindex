@@ -52,16 +52,12 @@ Courses: Useful for agronomic-remediation modules because it links pH control, a
 
 App: No direct product-risk distribution. The lettuce result can support a mitigation note that passivating Cd-contaminated soil may reduce crop uptake when validated for the farm and crop.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/atomic-absorption-spectrophotometry]]
-
-## Verification notes
-
-This page was built from the PDF title page, abstract, results sections on pH, isotherms, soil Cd fractions, lettuce Cd, soil physicochemical properties, and pot/field methods. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content. Products and ingredients are intentionally empty because the source is mitigation evidence, not a direct survey of a finished consumer product.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

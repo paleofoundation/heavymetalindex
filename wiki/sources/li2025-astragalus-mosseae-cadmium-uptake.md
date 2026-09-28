@@ -67,7 +67,7 @@ App: Context for cadmium soil-to-plant-transfer and agronomic mitigation notes. 
 
 Microbiome: Relevant to plant-root microbiome and arbuscular-mycorrhizal mitigation context because the intervention depends on F. mosseae symbiosis with A. sinicus roots.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/copper]]
@@ -75,14 +75,6 @@ Microbiome: Relevant to plant-root microbiome and arbuscular-mycorrhizal mitigat
 - [[mitigation/agronomic]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[microbiome/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the experimental design, growth conditions, Cd/Cu treatment details, digestion and ICP-OES method, Figures 1-5, the results text, conclusion, and Data Availability statement. The source reports most treatment effects as percentages and graphical figures rather than full numeric concentration tables. This page preserves exact values from the text and avoids estimating bar-chart concentrations.
-
-The layout extraction duplicated portions of the results section and produced one artifact reading of the Cu root-length effect as 621.12%; the raw text and second layout instance read 21.12%, which is retained here. The PDF's starting total-phosphorus unit is printed as 588.01 g/kg, which is implausible for soil and therefore noted but not used as a key evidence value.
-
-Speciation is not at issue for the reported Cd and Cu values. The study uses total cadmium and total copper in plant/soil matrices and does not report arsenic, mercury, or chromium species. No brand names are used for evidence routing; the seed supplier and instrument vendor are method/procurement context, not contamination-value brands.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

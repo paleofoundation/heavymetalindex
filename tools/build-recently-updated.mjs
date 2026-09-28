@@ -15,6 +15,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { readPageFrontmatter } from "./lib/count-pages.mjs"
 import { upsertMarkerBlock } from "./lib/upsert-marker-block.mjs"
+import { homepageLayoutViolations } from "./audit-homepage-layout.mjs"
 
 const repoRoot = process.cwd()
 const wikiRoot = path.join(repoRoot, "wiki")
@@ -138,4 +139,12 @@ ${items}
 ${END}`
 
 const result = upsertMarkerBlock(homepagePath, BEGIN, END, block, { anchorAfter: ANCHOR_AFTER })
+const homepageViolations = homepageLayoutViolations(fs.readFileSync(homepagePath, "utf8"))
+if (homepageViolations.length) {
+  for (const v of homepageViolations) {
+    console.error(`build-recently-updated: wiki/index.md:${v.line}: ${v.message}`)
+  }
+  console.error("build-recently-updated: refused to leave prose outside the designed homepage. Marker block only.")
+  process.exit(1)
+}
 console.log(`build-recently-updated: ${result} — ${recent.length} pages (newest ${recent[0].updated}).`)

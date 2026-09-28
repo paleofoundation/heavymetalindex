@@ -59,7 +59,7 @@ Leaves were washed with tap water and deionized water, sun-dried until constant 
 
 The source provides small-n, dry-weight occurrence context for cannabis leaves used as botanical raw material in Ethiopia. It is not a finished-product market survey, and the regional means should not be pooled with finished cannabis-derived oils, edibles, or topical products without preserving the matrix and basis. The total chromium values should remain total chromium context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -69,16 +69,6 @@ The source provides small-n, dry-weight occurrence context for cannabis leaves u
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1186/s40064-015-1145-x`, `MFK_zerihun2015`, or `zerihun2015-ethiopian-cannabis-leaf-metals`.
-- All Key numbers were rechecked against `/tmp/hmi-june9-zerihun2015.txt`, extracted with `pdftotext -layout`, especially Tables 5, 6, and 7.
-- Speciation check: chromium is reported as total Cr. The paper states that Cr(III) and Cr(VI) forms were not distinguished, so no Cr(VI) value is inferred.
-- Units and basis are preserved as `μg/g dry weight`; no conversions were performed.
-- Sample count note: `sample_n: 4` reflects the four regional cannabis-leaf bulk samples. Table 7's `n = 9` is retained in the Key numbers as the source's replicate analytical count for each regional mean.
-- Brand firewall: no brands are reported; samples were confiscated or police-collected regional plant material.
-- Missing slug note: the taxonomy snapshot has no cannabis-specific product or ingredient slug. source metadata uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with cannabis leaf terms retained only as matrix descriptors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

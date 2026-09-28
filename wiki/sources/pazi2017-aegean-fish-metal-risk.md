@@ -69,15 +69,6 @@ Fish samples were collected from Aliaga Bay and Izmir Bay by bottom trawling und
 
 This source provides primary occurrence evidence for Turkish Eastern Aegean fish muscle, especially total mercury in Aliaga Bay fish. It supports fresh marine fish routing, with row-fit caution because the four named species map imperfectly onto broad HMTc fish categories. It does not provide MeHg values, so total Hg must not be promoted to methylmercury.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-7, and conclusions were readable.
-- DOI `10.1016/j.marpolbul.2017.05.004`, raw handle `MFK_pazi2017`, and cite-key checks found no existing source page before creation.
-- Table 3 concentrations, Table 4 THQs, Table 6 ranges, and Table 7 EDI values were checked against extracted text. Units are preserved as `mg kg−1 ww`, `µg kg−1 body weight week−1`, `µg kg−1 body weight month−1`, and `µg kg−1 body weight day−1`; no conversion was performed.
-- Speciation: mercury is total/unspecified Hg (`tHg`), not MeHg. Chromium is total Cr, not Cr(VI).
-- Brand firewall: no sampled product brands are attached to contamination values.
-- source metadata slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

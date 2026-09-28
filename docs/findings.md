@@ -513,7 +513,31 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-265 open item(s): 93 auto, 172 awaiting a decision.
+268 open item(s): 93 auto, 175 awaiting a decision.
+
+### OI-20260928-publisher-chrome-titles — Four source pages still use scraped publisher page chrome as the title
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information.md`, `wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2.md`, `wiki/sources/authors2026-access-metrics-more-article-recommendations-supporting-information-2.md`, `wiki/sources/authors2026-cite-this-chem-res-toxicol-2026-39-64.md`
+- repro: Source title frontmatter is ACS page chrome. Crossref titles are Cooper 2024 oxybenzone (10.1021/acsestair.4c00149), Courtene-Jones 2024 biobased microfibers (10.1021/acs.est.4c05856), Ghosh 2026 MOF upconversion (10.1021/jacsau.6c00313), and Lumpp 2026 arsenite histone H3 (10.1021/acs.chemrestox.5c00312).
+- done when: Each page title, authors, journal, and slug match the Crossref record, with a redirect alias from the old slug, and inbound links updated.
+- decision: _pending_
+
+### OI-20260928-public-hmtc-process-prose — Public pages still name HMTc taxonomy and certification-program process
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/children-personal-care.md`, `tools/taxonomy/scaffold-category-rows.mjs`, `wiki/licensing.md`
+- repro: Published product scaffolds still open with HMTc Taxonomy language and name heavymetalcertified.com in How standards math uses this page. licensing.md still names a data/evidence path. This pass removed ingest bookkeeping only.
+- done when: A later pass removes certifier-process wording from public pages without changing measured values or inventing limits.
+- decision: _pending_
+
+### OI-20260928-hansra-wipe-row-fit — Lifecycle of a Wipe page still declares fish and aluminum from the mechanical ingest
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/hansra2026-lifecycle-of-a-wipe.md`
+- repro: DOI 10.1021/acsestwater.5c00838 is a wet-wipe pollution study. Frontmatter still lists metals Al and products fish-marine-non-predatory and baby-wipes, from the scraped ingest.
+- done when: Product and metal declarations match what the paper measured, and the routing audit follows that declaration.
+- decision: _pending_
 
 ### OI-20260927-marcelis-evidence-fitness — Marcelis 2025 source page has no evidence_fitness block
 

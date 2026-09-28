@@ -56,7 +56,7 @@ Courses: Useful for explaining why commodity-stage and cup-stage measurements di
 
 App: Supports coffee ingredient and product context, but regional Peru data should remain market- and origin-labeled rather than generalized to all coffee.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/coffee]]
 - [[ingredients/coffee]]
@@ -65,10 +65,6 @@ App: Supports coffee ingredient and product context, but regional Peru data shou
 - [[metals/chromium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Foods PDF. The paper reports inorganic arsenic specifically, but mercury is reported only as Hg; this page records it as total mercury and does not infer methylmercury. The text appears to print the Italian-machine iAs infusion mean as 0.42 mg/kg while the adjacent espresso and French means are 0.041 and 0.040 mg/kg; this page does not rely on that apparent decimal anomaly for routing or key occurrence summaries.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -48,7 +48,7 @@ Provides a small local occurrence observation with anonymous products. It cannot
 
 Evidence Fitness: EF-2 for individual product concentrations; EF-X for unreconciled intake means and unsupported blanket safety claims. Mean/dispersion values remain explicitly source-reported.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/chocolate]]
 - [[ingredients/chocolate]]
@@ -57,14 +57,6 @@ Evidence Fitness: EF-2 for individual product concentrations; EF-X for unreconci
 - [[metals/copper]]
 - [[metals/chromium]]
 - [[metals/lead]]
-
-## Verification notes
-
-Table 3 displays Cu 2.00 andCr 0.11 mg/kg comparators below observed means, contradicting the conclusion that every metal is below its comparator. The discussion also changesCu units. Comparators are not verified WHO instruments and are not entered as legal limits. No brands are exposed. SourcePbmean 0.24 anddispersion 0.12 are retained without silently recalculating. Existing broad chocolate route is used; no dark/milk/cocoa-percentage subgroup inferred.
-
-Table 3 secondary comparator findings and unverified WHO-labelled numbers are retained in the batch context dispositions, without being counted as new primary measurements.
-
-The preserved Library PDF is identified by `RPHMI_15`; SHA-256 `da286ad91846e47265f2caae4cebcd9026184baffa22703c6f874352b1e346c3`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://discoveryjournals.org/adulteration/current_issue/2025/v9/n10/e2ijad3057.pdf#zoom=125. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

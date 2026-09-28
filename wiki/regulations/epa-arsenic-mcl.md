@@ -42,7 +42,7 @@ The US Environmental Protection Agency Maximum Contaminant Level (MCL) for arsen
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/epa-arsenic-drinking-water-mcl|EPA Drinking Water Arsenic MCL Rule (10 ppb)]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Office of Water · 2001 · [www.epa.gov](https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

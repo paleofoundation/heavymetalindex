@@ -58,7 +58,7 @@ STEP 3 — TRIAGE A SMALL SLICE. Do NOT open all candidates. Open only the FIRST
 Batch-commit ALL (b)+(c) decisions to data/evidence/wishlist-fetch-audit.csv in ONE commit titled:
   library triage <date> <time>: <K> rollups + <P> skips
 
-STEP 4 — INGEST. Write source pages per the CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Wiki pages this source may touch, ## Verification notes). For a1 geographic/historical papers, ## Key numbers MUST break out the per-region and/or per-period values, not just a pooled mean.
+STEP 4 — INGEST. Write source pages per the CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Related evidence). Do not put Verification notes or an ingest log on the public page; those notes go in wiki/batch-reports/, which is not published. For a1 geographic/historical papers, ## Key numbers MUST break out the per-region and/or per-period values, not just a pooled mean.
 
 HARD RULES — placeholder pages are FORBIDDEN (identical to sprint-ingest-prompt.md):
   - cite_key MUST be <first-author-surname><year>-<topic-slug>. NOT "trace2025-…", "research2026-…", "abstract2020-…", "unknown2025-…". If you cannot identify the first author's surname from the PDF byline, the PDF is (c) skip:no-author-attribution.
@@ -89,7 +89,7 @@ STEP 6 — END-OF-FIRE (only if you finished your ≤4 with clear time to spare)
 Confirm the routing audit exits 0 and your pages are not in routing_unresolved.csv / routing_malformed.csv.
 
 ESCALATION RULES — exercise AI judgment first; only escalate what NO AI agent could resolve:
-  • Paper-internal contradiction (abstract n=200 but Table 1 n=152): prefer tables; note in Verification notes; continue.
+  • Paper-internal contradiction (abstract n=200 but Table 1 n=152): prefer tables; state the discrepancy in Key numbers or Limitations in reader language, and record the check in the batch report; continue.
   • DOI conflict (PDF is a different paper than the manifest row claims): inspect the actual PDF; if a real in-scope paper, ingest under its actual cite-key with -a/-b; note the mismatch; continue.
   • Unfamiliar slug: closest existing per wiki/ingredients/ or wiki/products/; provisional-scaffold tool for genuinely novel; continue.
   • Three consecutive QUARANTINE audit verdicts: recalibrate against audit-prompt.md Check 4 + Exception 2 (instrument/CRM/software vendor names ARE permitted in Methods); continue.

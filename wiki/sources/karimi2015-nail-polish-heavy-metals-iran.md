@@ -59,7 +59,7 @@ App: Supports the `manicuring-preparations-leave-on` product page for heavy-meta
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/manicuring-preparations-leave-on]]
 - [[metals/cadmium]]
@@ -67,16 +67,6 @@ Microbiome: No microbiome endpoints.
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a1 product occurrence. Prior non-ingest was a metadata/DOI gate failure, not a scope failure.
-- Title, authors, journal, sample count, sampling year, countries of manufacture/origin, colour panel, Figure 1 colour means, text ranges, source-quoted Canadian comparator values, and methods were checked against the extracted PDF text on 2026-06-11.
-- DOI: no DOI is visible in the extracted PDF text; source metadata sets `doi: null` and `no_doi_assigned: true`.
-- Units: Figure 1 labels the plotted colour means as `µg/ml`, while the text ranges and method paragraph also use `µg/g` and state `Mean(μg/g)±SE or Mean(μg/ml)±SE`. The page preserves the source's units where printed and records this as a source-side unit inconsistency.
-- Speciation: arsenic is total As (`tAs`); chromium is total Cr (`Cr`). The paper discusses chromium VI toxicity in background text but does not measure Cr-VI.
-- Brand firewall: the source names product brands in narrative passages, but this page reports only colour-level, country-origin, and product-category values. No brand name is attached to a contamination value.
-- The generic `products/nail-polish` page is retired to `products/manicuring-preparations-leave-on`; routing therefore uses the active HMTc row slug.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

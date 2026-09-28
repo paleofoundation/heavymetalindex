@@ -51,7 +51,7 @@ Courses: The paper is useful for teaching why beverage occurrence values must pr
 
 App: The source can contribute Cd, Pb, and tHg occurrence context for `beverages`, `soft-drink-bases`, and `fruit-juice` ingredient profiles in the Nigerian market.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -62,15 +62,6 @@ App: The source can contribute Cd, Pb, and tHg occurrence context for `beverages
 - [[products/category-5-beverages]]
 - [[products/soft-drinks-carbonated-beverages]]
 - [[products/fruit-juices-non-apple]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_565.txt`; the abstract, Materials and methods, Results, Table 2, Table 3, Discussion, and Conclusion were checked against this page.
-- DOI `10.1016/j.toxrep.2015.01.014`, raw handle `MFK_determination-of-some-soft-drink-constituents`, and cite-key path the linked reference record were checked before creation; no existing source page was found.
-- Numbers in Key numbers are copied from Table 2, Table 3, the abstract, and Results without unit conversion. The mercury range discrepancy is source-internal: Table 3 includes quantified values below `0.29 mg/L`, while the abstract/results prose states `0.29` to `11.32 mg/L`.
-- Speciation: the paper reports cadmium, lead, and mercury by AAS with no species separation. Mercury is therefore recorded as `tHg`, not MeHg.
-- Brand firewall: the original table lists named beverages. This page omits sample names and reports only aggregate/category-level findings.
-- source metadata slugs were checked against the editorial record; `beverage` and `soft-drink` are matrix descriptors rather than product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

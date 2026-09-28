@@ -61,16 +61,12 @@ Courses: It is a core example for explaining why non-lead ammunition is a contam
 
 App: Game-meat risk scoring can treat ammunition type as a meaningful exposure modifier where known.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
 - [[metals/lead]]
 - [[regulations/efsa-lead-contam-2010]]
-
-## Verification notes
-
-The source is a primary occurrence study with distribution statistics. It should not be collapsed with policy papers about lead ammunition that do not measure meat concentrations directly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

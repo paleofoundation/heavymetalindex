@@ -83,16 +83,12 @@ The study used a total diet study approach in which food groups were purchased, 
 
 This source contributes China/Jilin total-diet occurrence and exposure context for Pb, total As, Cd, and Al across broad prepared-food groups. It is especially relevant for cereal/aluminum context and for distinguishing aquatic-product total-As occurrence from inorganic-arsenic evidence. The paper reports that deep-fried dough sticks exceeded the Chinese limit for aluminum in fried cereals, but it does not report brand-level results.
 
-## Verification notes
+## Related evidence
 
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 2-6, and discussion were readable.
-- DOI `10.1002/fsn3.1851`, raw handle `MFK_wang2020`, and cite-key checks found no existing source page before creation.
-- Table 3 means, Table 5 exposure values, and narrative product maxima were checked against the extracted text. Units are preserved as reported (`mg/kg` for concentrations and `µg/kg bw` for exposure); no conversion was performed.
-- Speciation: arsenic was measured as total As. The authors state that total As was evaluated as inorganic As for a conservative risk assessment; this page keeps occurrence metals as `tAs` and does not route the paper as measured iAs evidence.
-- Brand firewall: the source reports total-diet composite food/product groups, not brand-level values.
-- The current product taxonomy snapshot does not list a dairy product slug; milk/dairy findings are represented in source metadata only with the closed ingredient slug `[[ingredients/milk-and-dairy]]`. Noodles are represented with the closed ingredient slug `[[ingredients/noodles]]` and routed through closed grain-product slugs rather than a nonexistent `products/noodles` slug.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-- Audit revision 2026-06-09: added `[[products/fish-freshwater]]` (carp) and `[[products/fish-marine-non-predatory]]` (cod) for more precise routing of the two named aquatic-products species. Added second-highest contribution percentages for As, Cd, and Al for parity with Pb. Flagged the internal §3.4-vs-Discussion inconsistency on the Al cereal contribution rate (70.22% vs 77.22%); Table 6 arithmetic confirms 70.22% (= 225.282 / 320.802) is correct.
+- [[ingredients/milk-and-dairy]]
+- [[ingredients/noodles]]
+- [[products/fish-freshwater]]
+- [[products/fish-marine-non-predatory]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

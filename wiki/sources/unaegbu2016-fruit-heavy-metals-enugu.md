@@ -66,7 +66,7 @@ App: Route as fresh-fruit occurrence evidence for Ni with Cd/Pb non-detect conte
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/nickel]]
 - [[metals/cadmium]]
@@ -78,13 +78,6 @@ Microbiome: Not addressed.
 - [[ingredients/banana]]
 - [[ingredients/fruit]]
 - [[products/fresh-fruit]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the ingredient-cell apple Cd wishlist. The paper measured multiple fruits and three metals; Cd was non-detect in all samples, but the source is retained because it supplies directly measured fresh-fruit occurrence data.
-- Created provisional ingredient scaffold [[ingredients/pineapple]] because the measured fruit panel includes pineapple and no pineapple ingredient page existed.
-- Strict brand firewall: no sampled-product brands are named in this source page.
-- The source uses mg/L for fruit heavy-metal results; this page preserves that unit and does not convert to mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

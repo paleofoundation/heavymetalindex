@@ -91,11 +91,6 @@ The Australia/New Zealand framework differs from the EU contaminants framework i
 - Australian Government Federal Register of Legislation. *Australia New Zealand Food Standards Code - Standard 1.4.1 - Contaminants and natural toxicants*. Source URL: https://www.legislation.gov.au/F2015L00408/latest
 - [[sources/fsanz2019-25th-australian-total-diet-study|FSANZ 25th Australian Total Diet Study]] - source-page encounter that required a Schedule 19 routing target for arsenic, cadmium, lead, and mercury maximum-level comparisons.
 
-## Verification notes
-
-- Created by Codex on 2026-05-18 after the FSANZ 25th Australian Total Diet Study source page cited Standard 1.4.1 / Schedule 19 but the wiki had no valid regulation slug for Australia/New Zealand contaminant maximum levels.
-- The exact limits above were checked against the latest Federal Register Schedule 19 PDF available on 2026-05-18 (F2024C00908, C06, 13 September 2024). Source pages using historical ATDS results should still preserve the source paper's own comparison year and wording.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

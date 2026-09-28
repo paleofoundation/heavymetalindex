@@ -33,7 +33,7 @@ The full quantitative outputs (oral RfD, inhalation RfC, oral cancer slope facto
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/epa-iris-inorganic-arsenic-2025|IRIS Toxicological Review of Inorganic Arsenic]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment · EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System · 2025 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

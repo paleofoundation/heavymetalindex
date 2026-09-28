@@ -67,7 +67,7 @@ Courses: The study is a useful case for distinguishing soil-remediation metrics 
 
 App: The source can inform `herbal-botanicals` supply-chain context for hemp-derived ingredients, especially the root-vs-leaf partitioning of Cd, Pb, tAs, and tHg.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -79,16 +79,6 @@ App: The source can inform `herbal-botanicals` supply-chain context for hemp-der
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09: DOI `10.5513/JCEA01/20.2.2201`, raw handle `MFK_10.5513-jcea01-20.2.2201`, and cite-key `cacic2019-hemp-heavy-metals` returned no existing source page hits before creation.
-- Author metadata conflict: the extracted PDF title page renders the first author as `Marija GALIĆ`, but the article running header says `Ćaćić et al.`, the corresponding email is `mcacic@agr.hr`, and the Journal of Central European Agriculture landing page lists `Marija Ćaćić`. The cite_key and source metadata use the journal landing-page/running-header form.
-- All Key numbers ranges were calculated directly from Table 3 in `/tmp/hmi-june9-007.txt` extracted with `pdftotext -layout`; spot checks include Cd acid-root values 2.82/0.6/0.88/0.24, Pb acid-root values 6.66/12.3/9.32/14.6, and Zn acid-root values 349.4/427.8/688.6/69.5.
-- Speciation check: the paper reports total elements only. source metadata records `tAs` and `tHg`; no iAs, MeHg, or Cr-VI is claimed.
-- The source is B-tier because it is a controlled pot/phytoaccumulation experiment rather than a retail food, supplement, or personal-care occurrence survey.
-- No product brand names are present. Variety names are cultivars, not sampled commercial brands, and are retained as study design variables.
-- Missing slug note: there is no dedicated `hemp` or `cannabis` ingredient slug in the current taxonomy snapshot; source metadata uses the broad existing `[[ingredients/herbal-botanicals]]` slug and records `hemp`/`cannabis` only as matrix descriptors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

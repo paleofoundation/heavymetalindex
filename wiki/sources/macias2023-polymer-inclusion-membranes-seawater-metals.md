@@ -84,17 +84,13 @@ App: Context for marine-remediation and preconcentration methods. The study supp
 
 Courses: Useful for teaching the distinction between occurrence data and separation-performance data, plus how matrix chemistry, salinity, pH, and active-site saturation affect metal transport.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/zinc]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, seawater-matrix description, transport-cell methods, Table 2 selectivity design, Table 3 Cd(II) membrane optimization, Pb(II) plasticizer selection, NaCl and pH effects, separation-factor discussion for commercial Gulf of California and Tecolutla seawater matrices, stability/preconcentration discussion, FTIR stability tables, and the conclusion. Brand names for commercial seawater and analytical materials are intentionally omitted under the brand firewall. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

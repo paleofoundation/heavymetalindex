@@ -91,20 +91,6 @@ Key limitations: small n = 6 commercial peanut butter spread samples (plus one w
 
 **App:** tAs typical range for peanut butter: 6.5–21.4 ppb. iAs fraction: uncertain (0–41% of tAs, n = 3 speciated). The app should avoid conflating total As with inorganic As for peanut-butter-containing products.
 
-## Verification notes
-
-Merge-enhanced 2026-05-28 from the v2.0 ingest-next-manual-fetch-pdf workflow. Defects corrected:
-- `raw_handle` was `manual-fetch-source-retrieval` (generic literal); corrected to canonical `MFK_arsenic-speciation-in-commercially-available-peanu` to match the manual-fetch handle convention.
-- `raw_path` filename was truncated (`...peanut butter spread.pdf`) and missing the trailing space in `Manual Fetch source-retrieval`; corrected to the on-disk filename `Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS.pdf` under the archived source file.
-- Added `access_url` (DOI link) and `raw_sha256` (SHA-256 of the on-disk PDF).
-- Added an explicit sample-counting note in `sample_population` to disambiguate the abstract's "six peanut butter spread samples" from the eight values reported in Table 3 (six spreads + one whole-peanut + one SRM).
-- Reframed SRM 2387 speciation in Key numbers: prior version labelled the first-replicate values (DMA 8.9, MMA 5.5) as "average", which is incorrect — those are first-replicate values; the abstract's averages across both replicates are DMA 8.3 / MMA 4.7. Both replicate values are now shown with the abstract averages alongside.
-- Tightened the opening prose to reflect that inorganic-As species were detected in only one of the three speciated spreads, and added Table-reference citations to Key-numbers blocks for auditability.
-
-`license` was previously `unknown`; updated to `subscription` (RSC J. Anal. At. Spectrom. is a paywalled journal; the manuscript copy in the archived source file is for internal evidence-grading use only). No structural taxonomy slugs changed; routing target set (`products/peanut-butter`, `ingredients/peanut-butter`, `ingredients/peanuts`, `metals/arsenic`) was already correct.
-
-Audit editorial review (2026-05-28) flagged the Certification/Implications phrase "low relative to rice-based ingredients" as a cross-source comparative claim the paper itself does not make. Verified against the source — the Hovanec 2004 manuscript reports peanut-butter values in isolation and does not benchmark them against rice. The rice comparison was synthesis-pass content authored into the source page; removed per Part 5 source-page discipline (cross-source synthesis belongs in the Part 9 workflow, not on individual source pages). All other audit checks (1 numerical fidelity, 2 slug vocabulary, 3 speciation/methods, 4 Part 12 brand firewall) returned clean.
-
 ## Related evidence
 - [[ingredients/peanut-butter]]
 - [[ingredients/peanuts]]

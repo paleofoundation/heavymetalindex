@@ -96,7 +96,7 @@ Courses: Useful supply-chain example for showing how the same crop system can ha
 
 App: Context only. The source can support upstream risk narratives for coffee-enset agroforestry systems and organic-amendment controls, not product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/irrigation-and-soil-amendments]]
@@ -108,12 +108,6 @@ App: Context only. The source can support upstream risk narratives for coffee-en
 - [[metals/manganese]]
 - [[metals/barium]]
 - [[metals/titanium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because no coffee-bean or food concentration table was reported. On reading, it is in-scope lane a3 supply-chain pathway and source-attribution evidence because it measures PTE reservoirs in coffee-enset agroforestry soils and names organic amendments as a plausible anthropogenic loading source.
-
-Numbers were checked against the abstract, methods, Table 1, Table 2, Table 3, the enrichment-factor discussion, spatial-distribution discussion, and conclusion in the extracted PDF text. Arsenic is labeled `tAs` in source metadata because the source reports total arsenic in aqua-regia digests and does not report inorganic arsenic speciation. Chromium, cadmium, mercury, and methylmercury are not reported by this paper. Strontium is preserved as `Sr` in source metadata and key numbers, but no the linked reference record page exists today, so it is not listed in the "may touch" wikilinks. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

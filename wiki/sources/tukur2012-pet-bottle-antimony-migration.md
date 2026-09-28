@@ -58,7 +58,6 @@ This study combined a bottle-use survey in Britain and Nigeria with ICP-MS measu
 | Co | water DL as listed in methods sentence | 0.16 | µg/L | lod |  | p.PDF p.3 (printed 1239) |
 | Ti | water DL as listed in methods sentence | 0.02 | µg/L | lod |  | p.PDF p.3 (printed 1239) |
 
-
 ## Methods (brief)
 
 ERM-EC681k polyethylene (certified Sb 99 ± 6 mg/kg) was used because no certified PET was available. Water accuracy was checked with TM-DWS.2. Migration tests used 300 mL deionised water in 500 mL bottles at 40, 60, and 80 °C. The text layer prints a 1 mg/L spike and a 4.08 mg/L migration maximum. Those strings use the same dropped micro prefix as the introduction. In the ledger the water unit is µg/L. The spike sentence itself was not cropped.

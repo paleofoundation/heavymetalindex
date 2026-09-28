@@ -44,7 +44,7 @@ Twenty chicken liver samples — five frozen retail-market livers (local Erbil p
 
 This source supports poultry offal and chicken-liver context. It should not be pooled with breast/thigh muscle without an offal basis flag, and its dry-weight values should not be pooled with fresh-weight regulatory ceilings without conversion. Total mercury is not methylmercury; the ICP-OES instrument measured total Hg without organic/inorganic speciation, so the value bounds (not equals) MeHg exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
@@ -54,12 +54,6 @@ This source supports poultry offal and chicken-liver context. It should not be p
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/copper]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25; audit applied 2026-06-08.
-- The PDF text layer is poorly ordered; the abstract, Tables 3-4, and Figure 1 agree on the headline toxic-metal means and on the dry-weight basis used here.
-- Source is internally inconsistent on Hg per-sample exceedance fraction: Results section reports "about 45%" while the Discussion paragraph reports 40%. Table 4 direct count is 9/20 (45%) using strict > 0.1 mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -65,7 +65,7 @@ No inhalation MRLs were derived for either inorganic or organic tin compounds on
 | Mushrooms, lacquered cans | 6.9 | 0.4-13.4 | 2 |
 | Meats, lacquered cans | 4.5 | 1.1-9.4 | 4 |
 | Fishes, lacquered cans | 0.7 | 0.3-0.9 | 4 |
-| Fresh fruits and vegetables (per-category means) | <0.003 (e.g., spinach, bananas) to 0.13 (lentils) | item ranges up to 0.2 (potatoes) | 1-5 each |
+| Fresh fruits and vegetables (per-category means) | <0.003 (e.g., spinach, bananas) to 0.13 (lentils; range 0.09 to 0.17 mg/kg) | item ranges up to 0.2 (potatoes) | 1-5 each |
 | Pasta, bread, milk, dairy, meats (fresh), mineral waters, alcoholic beverages | <0.003 | — | 5-15 each |
 
 Summary aggregations elsewhere in the profile (Section 6.4.4, p. 275) restate: "Foods in lacquered cans generally were found to contain tin concentrations below 10 mg/kg, and tin concentrations ranged from 24 to 156 mg/kg in food from unlacquered cans." A 1994 U.K. total diet study (Ysart et al. 1999) reported mean tin in canned vegetables and fruit products at 44 and 17 mg/kg fresh weight, respectively. Mean tin in evaporated, concentrated, and sweetened condensed canned milk products (Lithuania, 1990-1992; Ramonaityte 2001) was 85, 89, and 40 mg/kg, respectively, compared with 0.22 mg/kg in raw milk. The Public Health Statement (Section 1.3, p. 3) gives the consumer-facing summary: foods in lacquered cans contain "less than 25 ppm" tin and foods in unlacquered cans "up to 100 ppm," and ">90% of tin-lined cans used for food today are lacquered" (Can Manufacturers Institute, CMI 1988). The Biégo Table 6-3 distribution above provides the underlying empirical basis.
@@ -108,18 +108,6 @@ Organotin mechanisms are species-dependent. Tributyltin and dibutyltin are immun
 ## Provenance notes
 
 The manual-fetch PDF in the June 3 Folder is byte-identical (SHA-256 `de21f125...e313f4`, 7.7 MB) to the earlier the archived source file retrieval from the NCBI Bookshelf record for tp55. The 2005 final profile supersedes the September 2003 draft for public comment. ATSDR has not finalized a post-2005 update for tin as of the access date; the 2005 profile remains the operative U.S. agency reference. Profile authored by Carolyn Harper, Fernando Llados, Gary Diamond, and Lara L. Chappell with external peer review by Aschner, Brown, and Jarnot. License `us-government-work`; no copyright restriction applies. Canonical agency URL: `atsdr.cdc.gov/toxprofiles/tp55.pdf`; secondary host: NCBI Bookshelf NBK599935.
-
-## Verification notes
-
-This page was merge-enhanced on 2026-06-04 from a pre-2026-05-14 revision. Corrections made on this pass against the source PDF (tp55, August 2005):
-
-- "Dibutyltin chloride" in the prior MRL table was corrected to "Dibutyltin dichloride" — the source consistently names the test article as "dibutyltin dichloride" (Section 2.3, p. 19; Seinen et al. 1977b).
-- The prior "Selected tin levels in foods" paragraph cited "ATSDR Tables 6-2 and 6-3" but Table 6-2 is "Organotin Levels in Sediment" (p. 267-268), not food. The correct table is 6-3 alone. The numeric values in the prior paragraph ("meats around 0.6-2.9 mg/kg," "fishes 6.0 mg/kg," "canned alcoholic beverages around 4.5 mg/kg") do not appear in Table 6-3 and were removed; the actual Table 6-3 values are now reported in the Key numbers food block above (e.g., lacquered-can meats mean 4.5 mg/kg n=4 range 1.1-9.4; lacquered-can fishes mean 0.7 mg/kg n=4 range 0.3-0.9; alcoholic beverages and canned alcoholic beverages both reported <0.003 mg/kg in fresh foods).
-- The tributyltin oxide MRL row now records the actual point of departure (NOAEL 0.025 mg/kg/day) rather than the bare "NOAEL" placeholder of the prior table.
-- Legacy headings `## Summary` and `## Wiki pages updated on ingest` were removed per current Part 6 template. The Wiki-pages section is superseded by the routing audit, which fans this source out to product, ingredient, and metal pages automatically from the source metadata.
-- `raw_handle`, `raw_sha256`, and `near_duplicates` fields were added; `raw_path` updated to the manual-fetch PDF (byte-identical to the prior Bookshelf retrieval). `access_url` updated to the canonical ATSDR URL; NCBI Bookshelf retained as secondary host in the provenance note.
-- `source_type` normalized from `government_report` (4 instances corpus-wide) to `gov-report` (77 instances; current convention).
-- Audit editorial review (2026-06-04) verdict PROMOTE; one minor ⚠️ concern applied — fresh-foods row label in Table 6-3 block previously named "carrots, cabbage, salad, potatoes, etc." with upper anchor 0.13 mg/kg, but 0.13 is the lentils mean (range 0.09-0.17) and potatoes range to 0.2 mg/kg. Row rewritten to anchor the upper bound on lentils and note the potatoes maximum, with alcoholic beverages added to the <0.003 row per Table 6-3.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

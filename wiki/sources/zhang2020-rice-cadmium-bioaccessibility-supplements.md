@@ -56,17 +56,12 @@ App: Supports future app logic that distinguishes total concentration from bioac
 
 Microbiome: Not a microbiome study.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
 - [[mitigation/formulation]]
-
-## Verification notes
-
-- DOI, title, authors, journal, year, license, concentration values, digestion conditions, supplement doses, and analytical method were transcribed from the PDF.
-- The same `nu12061769` thyroid-gut review appeared as a separate auto-fetch hit in both probiotic and vitamin-mineral queues and was skipped separately; this page is the distinct IJERPH rice bioaccessibility paper with DOI 10.3390/ijerph17144978.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

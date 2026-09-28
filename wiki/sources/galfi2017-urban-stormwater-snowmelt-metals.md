@@ -50,7 +50,7 @@ Courses: Useful for teaching how heavy metals move through urban water infrastru
 
 App: Context only for environmental-burden and receiving-water pathway explanations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/lead]]
@@ -61,12 +61,6 @@ App: Context only for environmental-burden and receiving-water pathway explanati
 - [[metals/zinc]]
 - [[metals/iron]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:not-food-occurrence` pathway disposition. The corrected scope treats urban runoff heavy-metal measurements as in-scope a3 source-attribution evidence rather than requiring a finished-food matrix.
-
-Products and ingredients are intentionally empty. The paper measures stormwater, snowmelt, and baseflow, not a consumer product. The paper reports elemental trace metals only; no arsenic or mercury speciation issue applies here because those species are not part of the selected source metadata metals for this page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

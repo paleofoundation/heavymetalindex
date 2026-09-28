@@ -55,12 +55,6 @@ Per the HMT&C firewall, this page records historical EU regulatory context only.
 - Commission Regulation (EC) No 466/2001 of 8 March 2001, setting maximum levels for certain contaminants in foodstuffs. EUR-Lex CELEX: 32001R0466. Source URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32001R0466
 - Commission Regulation (EC) No 1881/2006 of 19 December 2006, successor framework. See [[regulations/eu-1881-2006-contaminants-superseded]].
 
-## Verification notes
-
-- Created 2026-05-18 by Codex after the Pehlivan 2008 vegetable-oils source surfaced an EC 466/2001 citation without a matching regulation page.
-- EUR-Lex identifies the rule as Commission Regulation (EC) No 466/2001 of 8 March 2001, Official Journal L 077, 16 March 2001, pages 1-13. The official text entered into force on the twentieth day after publication and applied from 5 April 2002; this page uses the application date as `effective_date`.
-- EC 1881/2006 repealed and replaced EC 466/2001 as the practical EU contaminant framework from 1 March 2007; this page therefore marks EC 466/2001 as superseded and links the successor.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

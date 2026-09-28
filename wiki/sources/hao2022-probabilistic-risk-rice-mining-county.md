@@ -59,7 +59,7 @@ The authors collected rice from 220 sampling sites in Xiangtan County, with five
 
 This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, Pb, Cr, and total Hg, with arsenic speciation resolved and the product matrix tied to brown rice from a multi-mining county. It is useful for rice geographic-variance and supply-chain-context work, especially because the paper links rice concentrations to mining-area spatial patterns. It should not be silently pooled into a United States rice benchmark without an explicit cross-market rationale, and its total Hg result should not be treated as methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
@@ -68,18 +68,6 @@ This source contributes China-market rice occurrence evidence for tAs, iAs, Cd, 
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/mercury]]
-
-## Verification notes
-
-- This was a DOI duplicate of an existing source page, so the page was merge-enhanced from the manual-fetch PDF at the archived source file; the MFK handle was added to `near_duplicates`.
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title, DOI, methods, Table 1, Table 2, Table 4, discussion, and conclusions.
-- DOI verified from the PDF as `10.1007/s11356-021-16583-7`; DOI grep found this existing page before enhancement.
-- Table 2 values were checked against the extracted text. Units are preserved as `mg·kg−1`; the previous page's ppb/µg/kg conversions were removed.
-- Speciation: arsenic is reported as both tAs and iAs, which are kept separate. Mercury is total Hg only; no methylmercury value is reported. Chromium is total Cr only; no Cr-VI value is reported.
-- Soil and mining-area information is source-attribution context. Only rice concentration values were routed as product occurrence evidence.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Autonomous audit 2026-06-09: removed `mining-area-rice` from `matrices` because it is a study-context descriptor, not a standard matrix slug; mining-area provenance is captured in the body and in this notes block.
-- Autonomous audit 2026-06-09 flagged Adult HI P95 as 5.51 (per narrative on p.11515) vs the wiki's 5.50 (per Table 4 on p.11517); verified against PDF — Table 4 reports 5.50 and Table 4 is the canonical tabular source. The narrative line ("5.51 for adults and ... 6.16 for children") is internally inconsistent with the table (6.21 for children), so the wiki tracks Table 4 throughout. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

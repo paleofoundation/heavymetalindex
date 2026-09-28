@@ -56,15 +56,11 @@ Courses: Useful case study for supplier and agronomy training on how AMF-mediate
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The corpus queue labeled this record `WIKIBIOME-HANDOFF`, but deep read shows it is first-class HMI a2 mitigation evidence with direct cadmium migration and passivation measurements. Products and ingredients remain intentionally empty because the source measures rhizosphere dynamics rather than a market product.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

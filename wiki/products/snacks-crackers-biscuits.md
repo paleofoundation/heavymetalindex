@@ -16,9 +16,8 @@ sources: 22
 
 ## Overview
 
-> **This page has been aliased up to its parent HMTc row.** Snacks Crackers Biscuits is a sub-variant of **[[products/snacks-general|Snacks, general]]** (Category 7), not a standalone HMTc standards row. Source pages that declare `products: [[products/snacks-crackers-biscuits]]` now route their evidence to [[products/snacks-general]] via the routing layer's inheritance map. See [[docs/governance/category-7-step0-lock]] for the routable-scaffold-vs-threshold-lock rationale.
+> This page is an alias of [[products/snacks-general|Snacks, general]] and does not have its own standards row.
 
-The prior scaffold content (an autonomy_v0 stub with no synthesized evidence) is preserved in git history.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

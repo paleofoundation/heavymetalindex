@@ -60,14 +60,6 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
 
-## Verification notes
-
-- "artificial-sweat" matrix is not in the standard matrices vocabulary; flagging for Part 10 review. Used as bare string.
-- This paper is methodology + materials-science occurrence, not finished-product surveillance. The 1/2500 Cr bioaccessibility ratio is for chromium carbide powder; ratios for Cr-VI in cosmetic pigments may differ and would need source-specific measurement.
-- Cr-VI half-life in artificial sweat ("hours, decayed over 420 min" per Results) is a non-trivial finding for the Cr-VI vs total-Cr discipline in dermal exposure assessment.
-- 2026-05-17 merge-enhance pass: corrected sweat-volume calculation unit description (1.08 L/h whole-body output × 5% body-area fraction for hands, not L/h/m²); renamed "Wiki pages this source may touch" to template-standard "Wiki pages updated on ingest"; added replicate-sample structure note (triplicate samples at each temperature).
-- 2026-05-17 audit-application pass (fresh-context editorial review REVISE verdict, 2 concerns applied, 0 rejected): restored potassium (K+ 6.1 mM) to the artificial-sweat highest-concentration components list (verified PDF p. 344); split conflated initial-rapid-phase half-times so Be is 4-6 h and Cr is 3-5 h separately (verified PDF p. 345). Soft-flags on Implications framing and limitations gloss reviewed and left as-is: both stay within Part 2 bounds (no HMTc threshold proposal, no consumer risk advisory) and within faithful source rendering.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

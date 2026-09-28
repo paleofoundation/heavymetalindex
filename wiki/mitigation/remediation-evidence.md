@@ -125,7 +125,7 @@ Pille’s 2021 MSc thesis compares three acrylic acid/acrylamide hydrogel struct
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. Each title links to its source record.
 
 1. [[sources/blommaert2022-cd-cacao-translocation|Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms]]<span class="hmi-ref-meta">Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, et al. · Frontiers in Plant Science · 2022 · [doi.org/10.3389/fpls.2022.1055912](https://doi.org/10.3389/fpls.2022.1055912)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/cao2023-lead-pakchoi-eps-bacteria|EPS-producing bacteria reduce lead accumulation in edible pakchoi under soil lead contamination]]<span class="hmi-ref-meta">Cao X, Sun L, Ren Y, Zhang Y, Zhao W, Wang H, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1117312](https://doi.org/10.3389/fmicb.2023.1117312)</span><span class="hmi-ref-tag">Peer-reviewed</span>

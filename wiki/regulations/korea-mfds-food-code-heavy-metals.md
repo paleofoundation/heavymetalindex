@@ -49,7 +49,7 @@ Comparison to EU, Codex, FDA, and FSANZ limits is synthesis work and is not perf
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/mfds2012-food-code-heavy-metals|Article 2. Common Standards and Specifications for General Foods]]<span class="hmi-ref-meta">Korea Food and Drug Administration · Korean Food Code · 2012</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->

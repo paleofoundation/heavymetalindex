@@ -57,13 +57,9 @@ App: The source can support a tampon contaminant context note that FDA-supported
 
 Microbiome: Not measured. The paper discusses endometriosis and dioxin exposure motivation, but it does not measure vaginal microbiome, bacterial, or toxic-shock endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-27-archer-2005-dioxins-tampons`, cite key `archer2005-tampon-dioxins-furans`, or exact title. No DOI is printed in the extracted PDF text, so `doi: null` is retained rather than guessed. The PDF SHA-256 is `64b1ac4b923a438bb8618d95ea05bf5d17741f07936a4bc500fdbecd05f4a4bd`. The first page, Methods, Results/Discussion, Follow-up, and Conclusions were re-opened from `/tmp/hmi-fem-018.txt`; units are preserved without conversion. The figure images contain brand-code concentration bars, but this page reports only text-supported aggregate and product-form findings to avoid brand-coded value presentation. `metals: []` is intentional: the analytes are dioxins/furans, not Pb, Cd, As, Hg, Cr, Sn, organotin, or other HMT metal species. The source's JECFA comparison is quoted as the authors' own exposure-context statement, not converted into an HMTc threshold.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

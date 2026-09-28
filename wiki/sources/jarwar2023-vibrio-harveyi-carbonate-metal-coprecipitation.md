@@ -72,7 +72,7 @@ App: Context for remediation and microbial-carbonate-precipitation notes. The pa
 
 Courses: Useful for teaching why remediation capacity, dissolved supernatant concentrations, and precipitate metal loading are not interchangeable with product occurrence data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/agronomic]]
@@ -82,14 +82,6 @@ Courses: Useful for teaching why remediation capacity, dissolved supernatant con
 - [[metals/zinc]]
 - [[microbiome/index]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the isolation methods, metal-resistance screening, precipitation test design, Table 1 supernatant concentrations, Table 2 cross-strain comparison, XRD discussion, SEM/EDX sections for Cd, Cr, Pb, and Zn, the Pb ICP-AES note, controls, and conclusion. The paper's Table 1 prints day-10 Cr as 0.53 mg/L and 9.30% remaining; those two values are internally inconsistent with each other and with the prose statement that day-10 Cr was 15.5 times higher than day-2 Cr, so the table is preserved as printed rather than repaired. The source uses broad chromium notation in its results and does not provide a product-relevant chromium species split; route as chromium context only, not Cr(VI) occurrence evidence.
-
-2026-06-02 merge-enhance: added the Cr SEM/EDX range (0.21-3.25 wt%) from section 3.2 — earlier draft incorrectly stated the paper provided no tabled Cr EDX range. Added the Table 2 summary removal efficiencies for V. harveyi (92.4% Zn, 99.4% Cr, 99.6% Cd, 99.1% Pb at day 2 with 100 ppm single-metal spikes). No changes to source metadata slugs; products and ingredients remain empty because this is a remediation/MICP study with no food, ingredient, or product matrix.
-
-2026-06-02 audit application: a fresh-context audit editorial review re-read the PDF and the wiki page, verified all Table 1 dissolved-metal values, Cd/Cr/Pb/Zn SEM/EDX ranges, the Pb ICP-AES ±41 ppm value, and the methods narrative against the source; verdict PROMOTE. Two ⚠️ concerns were raised and applied: (1) the new Table 2 prose was reordered from removal-rank to source-Table-2 column order (Zn, Cr, Cd, Pb) for consistency with the Key numbers table; (2) the four matrices slugs (marine-sediment-bacteria, microbial-carbonate-precipitation, aqueous-spike-test, wastewater-remediation) are off-controlled-matrices-vocabulary placeholders because this paper has no consumer matrix — aqueous-spike-test is also used by other remediation source pages in the corpus, while the other three are bespoke; flagging here so future controlled-vocabulary work can absorb them cleanly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

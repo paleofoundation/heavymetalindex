@@ -55,7 +55,7 @@ App: Adds non-US finished-chocolate occurrence evidence for Pb, Ni, Cd, and tota
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/chocolate]]
 - [[ingredients/chocolate]]
@@ -64,10 +64,6 @@ Microbiome: Not addressed.
 - [[metals/nickel]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF title, byline, journal issue, DOI, license statement, sample count, methods, and concentration tables were read from the source PDF. Where the abstract and detailed tables conflict for Ni and Cd maxima, this page preserves the discrepancy and treats Tables 3 and 4 as the auditable extraction basis because they provide sample-level values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

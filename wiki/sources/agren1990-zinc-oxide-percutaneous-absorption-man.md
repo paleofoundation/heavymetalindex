@@ -55,7 +55,6 @@ updated: 2026-09-27
 | Zn | dressing in vitro, pH 5.4, 48 h | 0.54 ± 0.01 | mg/cm2 | mean decrease | cells | in vitro text p.3 |
 | Zn | dressing in vitro, pH 7.4, 48 h | 0.04 ± 0.04 | mg/cm2 | mean decrease | cells | in vitro text p.3 |
 
-
 ## Methods (brief)
 
 Suction blisters at 250 mm Hg. Epidermis and dermis dried 24 h at 105 C and ashed at 450 C. Flame AAS. In vitro release through a cellulose acetate membrane into diluted horse serum at pH 5.4 and 7.4.

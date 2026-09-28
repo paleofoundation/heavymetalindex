@@ -61,7 +61,8 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 
 **App:** Supports elevated contamination flags for tropical fruits (mango, guava, banana) when declared country-of-origin is Bangladesh. As, Cd, Pb, Cr all exceeded MACs in multiple fruits.
 
-## Wiki pages this source may touch
+## Related evidence
+
 - [[ingredients/fruits]]
 - [[ingredients/banana]]
 - [[ingredients/mango]]
@@ -76,15 +77,6 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 - [[metals/manganese]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, changed unspeciated arsenic from `As` to `tAs`, added Mn/Cu/Zn to source metadata because the review reports those metals, removed non-taxonomy ingredient slugs (`papaya`, `jackfruit`) in favor of `fruits`, removed invented matrix `edible-fruit-flesh`, and modernized the wiki-link section. The source itself reports Pb as ND-2.4 mg/kg in the abstract/table while the narrative names mango at 0.75 mg/kg as the highest Pb level; the Key numbers row now flags that internal source tension rather than assigning 2.4 to mango.
-- 2026-05-19 brand-firewall recheck under stricter 2026-05-17 Part 12 reading: no commercial brand names in page body; the only varietal-name references in the underlying PDF (Bangla kola, Chapa kola, Sabri kola, Sagor kola — banana cultivars from Sajib et al. 2013) are botanical/cultivar identifiers, not commercial brands, and were never carried into this wiki page. Page is clean.
-- 2026-05-19 corrected Zn row in Key numbers: previously stated "Banana (134 max)", but Table 2 shows banana Zn range is 0.24–102 mg/kg. The 134 max value corresponds to papaya per Table 2, while the narrative on p.7 names banana at 134 ("banana contained the highest concentration of Zn (134 mg/kg of FW) followed by papaya and guava") — internal source contradiction now flagged in the table row.
-- Audit editorial review (2026-05-19) flagged Cd row as missing an internal-contradiction flag (claiming Table 2 stone-apple = 0.51 vs narrative 0.64). Verified against Table 2 p.6 — stone-apple Cd IS 0.64 in Table 2 (the editorial review confused stone-apple with indian gooseberry/tamarind, both at 0.51). Table and narrative agree on stone-apple 0.64; no contradiction exists. Finding rejected as false positive.
-- Audit editorial review (2026-05-19) flagged Mn/Cu/Zn missing from "Wiki pages this source may touch" despite being in `metals:` source metadata. Verified; added [[metals/manganese]], [[metals/copper]], [[metals/zinc]] for symmetry.
-- Potential future ingredient slugs surfaced for Karen if the fruit corpus accumulates enough independent papers: `papaya`, `jackfruit`, `litchi`, `blackberry`, `pineapple`, `pomegranate`, and `tamarind`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

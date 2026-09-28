@@ -84,16 +84,6 @@ Samples were collected from provinces in the Marmara region between March 2020 a
 
 This source provides primary Marmara-region occurrence evidence for seafood, fresh marine fish, mussels, crustaceans, and cephalopods. It is especially useful for total Hg compliance prevalence and for mussel Cd/Pb/derived-arsenic ranges, but downstream routing should avoid treating the Figure 2 bar chart as extractable exact means unless the underlying data table is obtained. The derived `Asin` values should remain flagged as an assumption from total arsenic, and total Hg must not be promoted to methylmercury.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, sample table, methods, validation table, regulatory-limit table, non-compliance table, discussion, and supplementary-materials notice were readable.
-- DOI `10.3390/toxics13030153`, raw handle `MFK_toxics-13-00153-v2`, and cite-key checks found no existing source page before creation.
-- Figure 2 was rendered from the PDF because it is the only place where mean ± SD metal concentrations are plotted. The figure has bars but no printed numeric mean labels, so exact mean values are not transcribed from the figure.
-- Table 1 sample counts, Table 3 LoQs/recoveries, Table 5 non-compliance counts and CIs, and discussion-reported ranges/values were checked against extracted text. Units are preserved as `mg/kg`; no conversion was performed.
-- Speciation: Hg is total/unspecified Hg (`tHg`), not MeHg. Arsenic was measured as total arsenic; `Asin` values are source-derived using a `10%` total-arsenic assumption, not measured inorganic-arsenic speciation.
-- Brand firewall: samples are grouped by fishery product/species and no product brand values were reported.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include anchovy, surmullet, horse mackerel, sardine, whiting, bluefish, red mullet, mussel, shrimp, crab, squid, and octopus rows, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

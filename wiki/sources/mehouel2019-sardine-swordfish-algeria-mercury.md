@@ -48,7 +48,7 @@ Total Hg was determined on a direct mercury analyzer (AMA-254) without prior che
 
 This source supports Algerian swordfish and sardine mercury occurrence with explicit total-Hg and MeHg speciation. The authors compare values against 0.5 mg/kg for sardine and 1 mg/kg for swordfish.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
@@ -58,13 +58,6 @@ This source supports Algerian swordfish and sardine mercury occurrence with expl
 - [[products/fish-marine-non-predatory]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.12681/jhvms.21792 and the downloaded PDF.
-- Total mercury and methylmercury values are separate species and should remain separate during routing.
-- No `ingredients/sardine` slug exists in the current taxonomy; Sardina pilchardus occurrence is routed via the generic `ingredients/fish`.
-- Xiphias gladius is an apex marine predator; Sardina pilchardus is a small pelagic forage fish. The two-species `products:` split routes occurrence values to the correct trophic-level aggregations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -63,7 +63,7 @@ Ten vegetable retail stores in Behbahan (uniform geographic distribution across 
 - App: Concentration values from this source are region-specific (Khuzestan industrial zone, Iran) and should be flagged as high-industrial-impact regional data rather than incorporated into generic lettuce or cabbage contamination profile baselines.
 - Microbiome: Not applicable; no microbiome data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/vegetables]]
 - [[ingredients/leafy-vegetables]]
@@ -73,19 +73,6 @@ Ten vegetable retail stores in Behbahan (uniform geographic distribution across 
 - [[metals/chromium]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Pre-existing page dated 2026-05-13 was correct on cabbage/lettuce mean concentrations (cabbage Cd 0.0756; lettuce Cd 0.0601) but used a legacy raw_handle ("manual-fetch-source-retrieval") and truncated raw_path. Updated to current MFK_ raw_handle convention, restored the full PDF filename in raw_path, added raw_sha256 and near_duplicates fields, added ingredients/vegetables to the ingredients array, broadened matrices to ["vegetable", "leafy-vegetable"], and rewrote the body to current source-page conventions (full EDI/HQ/ELCR tables, Pb-MOE, per-site ranges, parameter table).
-- Abstract vs Table 2 / Table 3 internal Cd transposition: the abstract prints "(0.0756, 0.0601)" for cadmium "in (lettuce, cabbage)", which would make lettuce Cd > cabbage Cd. Table 2, Table 3 EDI/HQ values, the conclusion's total-burden sums (lettuce 0.820, cabbage 1.720 mg/kg), and the paper's own statement that cabbage total burden is 2.09× lettuce all confirm cabbage Cd = 0.0756 and lettuce Cd = 0.0601. The abstract has the Cd pair transposed; the rest of the paper is self-consistent. The page reports the table/conclusion values.
-- Table 1 ingestion-rate values (0.028 kg/day lettuce, 0.0054 kg/day cabbage) are inconsistent with the Table 3 EDI values by exactly 10×. Back-calculation from Table 3 (e.g., EDI_Pb_lettuce = 5.36×10⁻⁴ = 0.134 × IR / 70 ⇒ IR = 0.28 kg/day; EDI_Pb_cabbage = 2.41×10⁻⁴ = 0.312 × IR / 70 ⇒ IR = 0.054 kg/day) confirms IR = 0.28 and 0.054 kg/day were used in the simulation. Table 1 is a typographic decimal-place error. The Key numbers section reports the back-calculated values that match the simulation outputs.
-- Cr speciation caveat preserved: the authors applied the Cr-VI cancer slope factor (0.5 (mg/kg/day)⁻¹) to total chromium, which overstates ELCR-Cr if dietary Cr is predominantly Cr-III as typical in plant tissue. This caveat is noted in both the Methods (brief) and Implications sections.
-- No brand names appear in the source (retail sites are de-identified as S1–S10). No brand-firewall edits required.
-- No new ingredient, product, regulation or metal slugs needed; all linked slugs exist.
-- Routing audit run after enhancement: 0 unresolved entries, source not in malformed (advisory-only entry expected for `products: []` raw-produce sources).
-- 2026-05-20 — Fresh-context audit editorial review verdict REVISE; two findings applied:
-  - Cabbage Ni 95th-percentile ELCR: editorial review flagged a paper-internal inconsistency between Fig. 3 caption (6.49×10⁻⁴) and the prose paragraph on p. 5 (6.94×10⁻⁴). Verified against the PDF directly — confirmed both values appear in the paper. Reported both in Key numbers with the discrepancy made explicit. Wiki had previously taken the Fig. 3 value silently.
-  - Per-site ranges from Fig. 2 (S1–S10): editorial review noted that radar-chart label readings to four decimal places are not defensible because the curves overlap and the panel layout makes vegetable/site attribution ambiguous. Verified — Fig. 2 is the only per-site source in the PDF; supplementary figures SF1–SF8 are cited for ELCR distributions but not for per-site concentrations. Replaced specific per-site ranges with a qualitative summary of the visible label spread across the radar; left publication precision to the mean values that are tabulated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

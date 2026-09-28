@@ -55,15 +55,6 @@ The authors used outdoor pots containing `8 kg` of red soil and aged the amended
 
 This source provides peanut supply-chain evidence showing that Cd-As soil co-contamination increased measured Cd in peanut grains relative to single-Cd treatment, while measured total As in grains was lower under Cd-As co-contamination than under single-As treatment. The values should not be treated as market-distribution concentrations because the study used experimental soil amendments and four replicate pots per treatment.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Table 2 and Table 3 values were checked directly in the extracted text.
-- DOI `10.3390/agronomy13112778`, raw handle `MFK_agronomy-13-02778`, and cite-key checks found no existing source page before creation.
-- Product-routing source metadata is limited to `peanuts`; soil-only values are retained as supply-chain context and not routed as product occurrence.
-- Speciation: arsenic is reported as total/unspecified As. The paper does not report inorganic arsenic.
-- Units are preserved as source-reported `mg/kg` and `µg`; no conversion was performed.
-- Brand firewall: no product brands were involved.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

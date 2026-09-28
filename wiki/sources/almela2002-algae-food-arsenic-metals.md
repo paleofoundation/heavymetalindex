@@ -82,17 +82,6 @@ Eighteen dried algae food products (12 brown, 4 red, 2 green) bought in Valencia
 - Certification (HMTc): supplies per-sample speciated inorganic-arsenic, cadmium, and lead occurrence data on the dry-weight, as-sold basis for the Category 6 seaweed-kelp-foods row, where iAs/tAs/Cd are the platform analytes. The data establish a strongly bimodal inorganic-arsenic distribution: most edible algae sit below 1 mg/kg dw iAs, while *Hizikia fusiforme* (hijiki) is a categorical outlier at >80 mg/kg dw iAs, supporting the within-row species sub-split flagged in the Category 6 Step 0 lock. Cadmium occurrence (up to 1.9 mg/kg dw, exceeding several national algae limits) is independently relevant.
 - App: contributes to the contamination_profile for the seaweed ingredient on inorganic arsenic, total arsenic, cadmium, lead, and total mercury.
 
-## Verification notes
-
-- raw_handle MFK_almela2002 derived from the PDF filename; raw_path is the manual-fetch PDF under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1021/jf0110250 confirmed on the article header.
-- Evidence tier A: peer-reviewed primary occurrence study with triplicate analysis, validated speciation method, and CRM-based QC.
-- Speciation: arsenic reported as both total As and inorganic As [As(III)+As(V)] — both lifted to source metadata as tAs and iAs and kept distinct in Key numbers; never collapsed. Mercury reported as total Hg only (CV-AFS, no speciation) → tHg. Chromium and nickel not measured.
-- Units preserved exactly as the source reports: As/Pb/Cd in mg/kg dry weight, Hg in µg/kg dry weight. No conversions applied. Basis is dry weight, as-sold (products sold dried) — recorded in matrices as `dry-weight`.
-- Brand firewall: not engaged. The source identifies products only by alga species and generic processed-product names (wakame, kombu, nori, yakinori, hijiki, arame, dulse, AO-nori); no commercial brand names appear.
-- Jurisdiction ES (point of retail sale, Valencia). Products are of mixed/Japanese-style origin but the survey samples the Spanish retail market; sampling_locations left empty as the paper gives no harvest geocoordinates.
-- Method vendor/instrument names (Perkin-Elmer AAS, PS Analytical AFS, IAEA/BCR reference materials) retained in Methods as permitted scientific reporting, not brand attribution.
-- matrices [edible-seaweed, macroalgae, kelp, dry-weight] follow established corpus convention (cf. mosusu2023-edible-seaweeds-japan-metals); `kelp` included because *Laminaria japonica* (kombu) is present. Kept broad; the routing layer fans to sibling pages.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

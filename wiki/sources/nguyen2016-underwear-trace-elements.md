@@ -58,18 +58,9 @@ Courses: The paper is useful for distinguishing extractable textile metals from 
 
 App: The source supports a fabric-contact product context note for Cr, Pb, Ni, Cd, Co, Al, Fe, Zn, Mn, and tAs in direct-skin-contact underwear.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fabric-contact-products-other]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1581.txt`; Methods, Figure 1 narrative, and element-specific Results paragraphs were re-read before writing.
-- Identity checks before creation: DOI `10.1080/10934529.2016.1221212`, raw handle `MFK_nguyen2016`, raw SHA-256 `f5d5b352b1ba4a9e08ee1c14c90dd50db60b3497d11e6ab3ed711c098b5392d1`, and cite key `nguyen2016-underwear-trace-elements` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved as `mg/kg`; no conversion to ppm was made.
-- Speciation: arsenic and mercury are elemental totals from ICP-MS extraction (`tAs`, `tHg`); chromium is total Cr, not Cr(VI).
-- Brand firewall: brand names listed in the sampling paragraph are omitted from Key numbers and no brand is attached to any value.
-- Closed-vocabulary note: no general underwear product slug exists, so `products/fabric-contact-products-other` is used. `period-underwear-reusable-garments` was not used because the source is ordinary underwear rather than menstrual/period underwear.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

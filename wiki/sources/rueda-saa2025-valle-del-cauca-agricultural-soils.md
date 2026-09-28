@@ -76,7 +76,7 @@ Detection limits in mg/kg were Cd 0.02, Cr 1, Ni 1, Pb 0.75, Co 0.10, As 0.10 an
 
 Evidence Fitness: EF-4 for product-occurrence use. The study directly supports geographic variation in agricultural-soil total metals and can inform investigations of upstream contamination. It cannot establish edible-crop concentrations, transfer factors, metal species concentrations, year-on-year trends, or attribution to a particular polluter. Missing crop measurements do not invalidate its supply-chain evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/arsenic-total]]
@@ -86,14 +86,6 @@ Evidence Fitness: EF-4 for product-occurrence use. The study directly supports g
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-The byline, title, journal, year and DOI were checked against the primary PDF. The manifest identity agrees. SHA-256: `f0907939e04c8f3c6f0af3433cbb71f85b4d7353a8ca8295c385eae02d2b04d3`. Access: Library PDF preserved through the repository symlink; publisher identifier https://doi.org/10.22267/rcia.20254202.259. The PDF footer displays CC BY-NC symbols; it does not specify a license version.
-
-Tables 1–3 and analytical detection limits were transcribed with source-native precision and visually checked. Table 3 labels inceptisol n = 128 and vertisol n = 90, while Methods reverses those sample sizes. The extraction preserves the table labels and flags the conflict; no soil-order inference depends on choosing a correction. Table 3 also prints Hg means of 0.00 for all three orders despite Table 1's mean of 0.01 and an inceptisol maximum of 3.01. These discrepancies remain visible, without inventing corrected values.
-
-No concentration was converted to a food basis. Total Cr does not represent Cr(VI); total As does not represent inorganic As; total Hg does not represent methylmercury. No annual split was reconstructed from the analysis-year range. The primary source's statements of environmental safety or permissible ranges are not adopted as independently verified health or legal conclusions.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -53,7 +53,7 @@ The paper quantified 20 elements using ICP-MS or ICP-OES. PAHs were quantified s
 
 Use this source as source-scoped breast-milk contaminant evidence. Keep the matrix as breast milk and do not route it as formula, infant-food, or finished product evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/aluminum]]
@@ -70,12 +70,6 @@ Use this source as source-scoped breast-milk contaminant evidence. Keep the matr
 - [[metals/lead]]
 - [[metals/selenium]]
 - [[metals/vanadium]]
-
-## Verification notes
-
-- Manifest year was `2019`, reflecting the fire event rather than publication; source metadata year was corrected to 2023 from the DOI/source text.
-- The paper reports element names without species-specific inorganic arsenic, methylmercury, or Cr(VI) claims; route total/generic element evidence accordingly.
-- Brand firewall: no sampled consumer brand names are reproduced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

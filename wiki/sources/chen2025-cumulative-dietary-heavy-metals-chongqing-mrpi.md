@@ -164,12 +164,6 @@ App: For the consumer app's cumulative-risk-per-meal estimation, the mRPI struct
 
 Microbiome: Not addressed.
 
-## Verification notes
-
-Enhanced 2026-05-29 from prior 2026-05-14 ingest (source-retrieval-loose-pdf-chen2025 raw_handle preserved). The prior version had the core mRPI numbers, the demographics breakdown, and the speciation conversion factors correct, but was missing: (a) the Table 1 toxicological reference points, (b) per-category Pb/Cd/As/Hg concentration data, (c) per-metal RPQ ranges that decompose the combined mRPI, (d) the relative contribution percentages of each metal to the combined mRPI (Pb 69.74-72.22% to neuro; Cd 60.05-60.09% to nephro), and (e) the daily food consumption volumes from Table 3 with the conversion from g/3-day to g/d. The legacy "## Wiki pages updated on ingest" section was removed because the routing layer (Part 5b) now owns the source-to-target-page mapping; the model no longer maintains routing by hand. `metals:` was extended from `[Pb, Cd, iAs, MeHg]` to `[Pb, Cd, iAs, MeHg, iHg]` because iHg appears as a separate analyte for the nephrotoxic-endpoint mRPI (Table 1 row; RPQ 0.005-0.032). `sampling_locations` and `sampling_year_range` populated. No brand names appear in the source or in this page.
-
-Audit-editorial review (2026-05-29) flagged one ❌ in Check 1 (per-category table: As column for "Edible livestock and poultry offal" showed the Cd value 0.0919-0.1462 transposed) and three ⚠️ (rice products Cd UB precision; two Implications phrasings that used "should" in an HMTc-direction). Independent verification against the page 6-7 narrative confirmed the ❌ AND revealed several additional per-category cell errors from misreading the dense Table 2 image (e.g., I had Cd rice = 0.0238-0.0336 vs the narrative's 0.0497-0.0502; As rice = 0.0497-0.0502 vs narrative 0.0838-0.0848 — the same Cd narrative value appears to have been duplicated into the As column). To eliminate the OCR uncertainty, the per-category table was rebuilt as a narrative-style summary citing only values explicitly stated on pages 6-7 of the source (the "highest/lowest by metal" prose). The two Implications phrasings were softened to describe the paper's contribution as occurrence data downstream HMTc work would draw on, rather than prescribing what HMTc should do — preserving the Part 2 wiki/HMTc firewall.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

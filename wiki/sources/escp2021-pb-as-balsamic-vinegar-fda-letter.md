@@ -68,30 +68,6 @@ Courses: Illustrates that US regulatory frameworks contain a gap on this matrix:
 
 App: This source does not provide sufficient methodological detail (lab unnamed, no methods, no LOD/LOQ, no CRM validation) to anchor ppb values in the `contamination_profile` for vinegar. Its appropriate use is as corroboration that balsamic vinegars and balsamic reductions/glazes have been observed at elevated Pb and As levels in the US retail market.
 
-## Verification notes
-
-Page was originally drafted under the legacy `manual-fetch-source-retrieval` handle (last `updated: 2026-05-14`). Merge-enhanced on 2026-05-26 against the source PDF to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical MFK handle `MFK_alarming-lead-arsenic-levels-found-in-popular-vine`.
-- Correct `raw_path` to the actual filename and folder path (the prior path was truncated and missing the trailing space in `Manual Fetch source-retrieval `).
-- Remove `wine-vinegar` from `matrices`: the letter identifies 21 of 24 samples as balsamic vinegars or balsamic reductions/glazes and the remaining 3 samples only as "vinegars" of unspecified type; "wine vinegar" is not named in the letter and was an unsupported inference. Added the broader `vinegar` matrix slug to capture the overall scope.
-- Soften the Lead key-numbers bullet that previously stated "All Pb-positive samples were balsamics" — the letter only states that "all but one of the vinegar or reduction samples testing positive for either arsenic or lead were balsamics" and does not break the one non-balsamic positive out by metal.
-- Clarify in the Arsenic key-numbers bullet that the 287.91 ppb mean is described in the letter as "the mean levels detected"; the page interprets this as the mean of the positive subset (consistent with the surrounding language) and labels it as such rather than as a sample-wide mean.
-- Replace the legacy `## Wiki pages updated on ingest` heading (which listed downstream targets, including a stale `products/condiments` link to a page that does not exist) with this verification-notes block, matching the current source-page convention. Downstream routing is system-generated from source metadata and is not maintained by hand inside source pages.
-- Update `sample_population` to record that 3 of 24 samples were non-balsamic vinegars of unspecified type.
-
-No content changes were made to the methods discussion or evidence-tier assignment. The B-tier classification is retained per the editorial record evidence-grading rule (NGO reports without full method disclosure are B-tier; C-tier is reserved for news/blogs/press releases).
-
-Auto-audit editorial review (2026-05-26) verdict REVISE; 4 findings total. Three applied:
-
-1. Audit flagged the µg/serving As intake numbers (~4.3 µg/serving at the mean, ~15.6 µg/serving at the maximum) as wiki-derived arithmetic not present in the letter — verified against pages 2–3 of the PDF, which give only a per-liter water-equivalence restatement ("two tablespoons (8.51 ppb)") rather than a µg/serving figure. Corrected by relabeling the bullet as "Wiki arithmetic on the letter's reported concentrations" and quoting the letter's own framing alongside, so a reader can see which numbers are source-reported and which are wiki computations.
-2. Audit flagged the Implications-section statement "HMT&C should treat balsamic reductions/glazes as a distinct higher-risk subcategory from standard balsamic vinegar" as crossing the wiki/HMTc firewall (Part 2) — verified as a directive recommendation rather than occurrence reporting. Reframed to "this source contributes occurrence data; any subcategory-level treatment for HMTc threshold work belongs in the Part 9 synthesis pass."
-3. Audit flagged the cross-literature comparison with Karavoltsos 2020 (max As 26 ppb in Greek balsamics) as synthesis-style work that belongs on the ingredient/product page rather than on the source page — agreed; the comparison was removed from this source page and is left for the synthesis pass to perform.
-
-One finding documented but not applied:
-
-- Audit noted that `balsamic-reduction` and `balsamic-glaze` are not in the snapshot of valid ingredient/product slugs. These are matrix descriptors, not ingredient or product slugs, and the matrices field is descriptive rather than routed against a controlled vocabulary; the routing audit accepts both slugs (the source is not in `routing_unresolved.csv` or `routing_malformed.csv`). The slugs are retained because they accurately describe the source's sampled population (the letter explicitly enumerates "vinegars or vinegar reductions or glazes" and identifies balsamic reductions/glazes as the highest-magnitude positives).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

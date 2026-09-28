@@ -42,7 +42,7 @@ The paper analyzed cultivated Crassostrea gigas oysters and reports metal concen
 
 The source supports Mexican shellfish occurrence context for Cd, Pb, Cr, Ni, total As, and total Hg. Dry-weight and fresh-weight statements should not be mixed without explicit conversion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[products/shellfish]]
@@ -55,11 +55,6 @@ The source supports Mexican shellfish occurrence context for Cd, Pb, Cr, Ni, tot
 - [[metals/zinc]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-Arsenic and mercury are treated as total-element measurements because the source does not report inorganic arsenic or methylmercury speciation.
-The oyster species is Crassostrea gigas; the source metadata keeps the matrix broad enough for routing while the title and sample population retain the species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

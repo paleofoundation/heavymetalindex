@@ -77,11 +77,6 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-powder]]
 - [[products/baby-cereals-dry-rice-based]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- Values above were checked against both the Chinese PDF text extraction and the existing USDA FAS translation source page.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

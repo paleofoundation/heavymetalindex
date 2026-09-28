@@ -66,10 +66,6 @@ Recital 7 of this recommendation states that nickel maximum levels "have been es
 
 The earlier open item — confirming the amending instrument against the Official Journal — is now resolved. The full primary OJ text of Regulation (EU) 2024/1987 has been ingested as [[sources/eu-2024-1987-nickel-maximum-levels]] (raw PDF hashed; complete Annex I point 3.6 transcribed; application dates 1 July 2025, and 1 July 2026 for cereals). Both the existence of EU nickel food maximum levels and the exact amending-regulation citation, values, and dates are now primary-confirmed.
 
-## Verification notes
-
-Ingested 2026-06-03 from the Official Journal PDF supplied at the archived source file (sha256 c88ecf52…), read in full (2 pages, recitals 1–9 and operative recommendations 1–5). Quotations above are verbatim from the OJ text. ELI: http://data.europa.eu/eli/reco/2024/907/oj.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

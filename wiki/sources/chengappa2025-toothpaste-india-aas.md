@@ -125,33 +125,13 @@ Courses: Useful as a regional-comparison teaching case for the Cat 2 toothpaste 
 
 App: Not directly applicable. The paper measures finished toothpaste products, which are outside the consumer-app scope (focussed on children's foods and personal care).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/lead]]
-- [[products/toothpaste]]
 - [[regulations/eu-ec-1223-2009-cosmetics]]
 - [[regulations/india-bis-6356-toothpaste]]
 - [[regulations/washington-tfca-toothpaste-pb-1000ppb]]
-
-## Verification notes
-
-- Brand firewall (Part 12 strict reading, 2026-05-17): the source's Table 1 (p. 3) lists each of the 20 toothpastes with brand name and full ingredient declaration, and the source's Table 2 (p. 5) attaches metal concentration values to brand names. This page aggregates exclusively to toothpaste-type level using the source's own type column (whitening, herbal/ayurvedic/mint/lemon-mint, anti-bacterial/germ-fighting, kids, anti-cavity, salt, everyday-protection, calcium, cooling, charcoal). No brand names are reproduced. The source's Table 1 brand identifiers are not reused for descriptive context anywhere on this page.
-- Paper-internal contradiction on the EU arsenic exceedance count (recorded, not adjudicated):
- - Abstract (p. 1) states: "the arsenic concentration of one sample exceeded the European Union (EU) standard."
- - Results body (p. 4) states: "the concentrations of these metals were within the permissible limits prescribed, except for toothpaste 1, which had an arsenic concentration of 0.53 mg/L, which exceeded the European Union standard."
- - Table 2 (p. 5) "comparison with regulatory limits" column flags three samples (the two whitening samples and the kids' sample) as "Arsenic exceeds EU regulations."
- - Discussion (p. 5) restates the three-sample reading: "Two of the three samples with arsenic concentration exceeding EU limits were whitening toothpastes and the third sample was found to be a children's toothpaste."
- - A direct strict-reading comparison of each per-sample As value against the EU SCCS 0.1 mg/L cited cap (Table 2 per-sample values) places ten of twenty samples strictly above 0.1 mg/L, with an eleventh sample (Toothpaste 19) exactly at 0.10 mg/L (eleven samples at "≥0.1"). This page reports all four readings (abstract "one", Table 2 flagged "three", strict "ten above / eleven at-or-above") rather than asserting a single canonical count. The source's "three flagged" interpretation appears to compare against an unstated higher threshold (perhaps 0.2 mg/L or "relatively high" cut-off) but this is not declared in the methods.
-- Paper-internal contradiction on lead LOD (recorded, not adjudicated): Methods narrative (p. 4) reports Pb LOD 0.007 mg/L; Table 2 footnote (p. 5) reports Pb LOD 0.0005 mg/L. Per-sample Pb values include 0.001 and 0.003 mg/L reported as concrete (not below-LOD) values, which is consistent with the 0.0005 mg/L footnote LOD and inconsistent with the 0.007 mg/L narrative LOD. The "below LOD" notation in Table 2 is preserved as the source reports it; users of this dataset should treat "below LOD" entries cautiously given the dual-LOD problem.
-- Paper-internal contradiction on India BIS year (recorded, not adjudicated): the source cites BIS 6356:2001 in the regulatory-limits paragraph (Introduction, p. 3) and "IS 6356-2021" in the reference list (ref 3); the BIS URL in the reference list points to an unspecified-year BIS page. This page records both citations and routes to a single [[regulations/india-bis-6356-toothpaste]] page (to be created via Karen's Step 0 Lock workflow for regulation pages).
-- Evidence tier: A-tier (peer-reviewed primary occurrence study, Scientific Reports), with the methodological caveats noted in Methods (brief) above — no replicates, no reference materials, no recovery data, calibration-standard mismatch with sample concentrations, no statistical analysis. The A-tier rating reflects the publication venue and peer review; downstream synthesis should weight this source against the methodological reservations.
-- The source's own systematic review (Chengappa et al. 2025, Frontiers in Dental Medicine 6:1543972, ref 30) is a separate paper that motivated the present study; it is not ingested here.
-- Empty `ingredients: []` and `matrices: [cosmetic-personal-care]` are intentional: the paper measures metals as contaminants in a finished cosmetic product (toothpaste), not in a food-style ingredient. The `cosmetic-personal-care` matrices vocabulary follows the established convention across sibling source pages (jitareanu2025, rbeida2023, balogun2024, massarsky2025, arshad2020).
-- The paper folder location (`babycare_04_Shampoo_Wipes_Sunscreen`) is a manual-fetch curation choice; the paper itself covers OTC toothpastes broadly with one kids'-toothpaste sample among twenty. Routing to [[products/toothpaste]] (Cat 2) is appropriate; per-paper data supports both general toothpaste and the Cat 2 kids'-toothpaste row.
-- Audit editorial review (2026-05-18) flagged the strict-reading As exceedance count as "approximately eleven" — verified against Table 2: exactly ten samples are strictly above 0.1 mg/L, with an eleventh sample at exactly 0.10 mg/L. Tightened to "ten of twenty strictly above 0.1 mg/L (eleven if at-or-above)" in Key numbers and in the contradiction-notes entry above.
-- Audit editorial review (2026-05-18) flagged the parenthetical attribution of the ND-As sample as confused ("anti-cavity/calcium type — actually the herbal-mint type") — verified against Table 2: Toothpaste 16 (herbal/ayurvedic/mint/lemon-mint group) is the ND-As sample. Removed the self-correcting parenthetical; cleaned to "a herbal/ayurvedic/mint/lemon-mint type" in Key numbers.
-- Audit editorial review (2026-05-18) flagged the herbal-group Pb range "ND–0.054" as misleading because the non-ND floor is 0.004 mg/L (Toothpaste 9), not approaching ND — verified against Table 2: three of eight herbal samples are below the Pb LOD (Toothpastes 5, 13, 15) and five report concrete Pb values 0.004, 0.054, 0.024, 0.040, 0.009 mg/L. Corrected the per-type table cell to "ND in 3 of 8; non-ND 0.004–0.054".
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

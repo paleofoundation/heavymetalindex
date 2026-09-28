@@ -67,7 +67,7 @@ Courses: Useful for showing how routine oral-care products can contain measurabl
 
 App: Supports a toothpaste category note that a small Nigerian market sample detected Cd, Pb, Cu, Zn, and Mn in every tested product.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/toothpaste]]
 - [[metals/lead]]
@@ -75,12 +75,6 @@ App: Supports a toothpaste category note that a small Nigerian market sample det
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- The auto-fetched filename targeted lead in toothpaste, and the PDF is a toothpaste occurrence paper with Pb and Cd among five reported metals.
-- The paper uses coded sample labels rather than product names in the concentration table; the source page preserves those labels and does not infer brands.
-- The source reports concentrations as mg/kg. For HMTc-style ppb displays, 1 mg/kg equals 1,000 ug/kg, but this page leaves the source-native units in the extracted table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

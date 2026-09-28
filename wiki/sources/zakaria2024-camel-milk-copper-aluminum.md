@@ -54,16 +54,12 @@ Milk was collected from privately owned, apparently healthy dromedary she-camels
 
 The source supports industrial-proximity context for camel milk, especially Al and Cu residues in raw milk. It also flags aluminum boiling vessels as a processing-related Al source. Because the sampled geography and grazing conditions are specific, route as Egypt camel-milk occurrence context rather than a general milk benchmark.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[products/milk-and-dairy]]
 - [[metals/aluminum]]
 - [[metals/copper]]
-
-## Verification notes
-
-The auto-fetch filename suggests human milk, but the PDF is camel milk. The source reports Al and Cu only; no Pb, Cd, As, or Hg results are available.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

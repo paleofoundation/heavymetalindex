@@ -47,7 +47,7 @@ As, Cd, Cu, Pb, and Zn were measured by ICP-MS; Hg was measured by CV-AAS. Sampl
 
 The source fills fresh-fruit seasonal/geographic variance context for Thailand. Pineapple should be interpreted as one of six fruit types; the strongest numeric lead exceedances were in durian, jackfruit, and long kong.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fresh-fruit]]
 - [[ingredients/pineapple]]
@@ -56,11 +56,6 @@ The source fills fresh-fruit seasonal/geographic variance context for Thailand. 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.32526/ennrj/21/202200146 and the downloaded PDF.
-- The OCR table is staggered; summary ranges and author-reported exceedance values are used where row alignment is reliable.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

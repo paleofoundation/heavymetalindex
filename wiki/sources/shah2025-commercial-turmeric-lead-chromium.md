@@ -49,19 +49,13 @@ Courses: The paper is useful for teaching the distinction between total chromium
 
 App: Route as turmeric-specific evidence with a Nepal-market flag. It supports a user-facing caution for turmeric powder where supply-chain controls and lot testing are weak.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/turmeric]]
 - [[ingredients/spices]]
 - [[metals/lead]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- The paper's abstract states "D & E" had lead less than 0.01 ppm, but Table 2 reports D and F as less than 0.01 ppm and E as 0.37 +/- 0.02 ppm. This source page follows Table 2 and notes the abstract/Table discrepancy.
-- Chromium is total chromium. The paper discusses Cr(VI) toxicology and lead chromate, but does not speciate chromium in the turmeric samples.
-- Sample letters are not brand names here; the source page preserves the source's sample coding without creating brand-level wiki claims.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

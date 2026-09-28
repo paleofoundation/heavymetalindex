@@ -51,7 +51,7 @@ Brand names appear in the methods and tables; this source page keeps the public 
 
 For lipstick and skin-lightening product pages, this source supports Nigeria-market occurrence of Cr/Ni in lipsticks and Hg in fairness creams. The mercury results are especially relevant because the authors state that mercury in fairness creams is prohibited under the cited cosmetic rule and that several detected values exceed the FDA comparator used in the paper.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lipstick]]
 - [[products/skin-lightening-cream]]
@@ -61,10 +61,6 @@ For lipstick and skin-lightening product pages, this source supports Nigeria-mar
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The source contains a minor inconsistency: the abstract lists fairness-cream mercury values of 1.79, 1.52, and 0.10 ppm, while the results text reports a range of 0.10 to 2.52 ppm and names a highest detailed value of 1.97 ppm total Hg for one product. The page records both source statements rather than resolving brand-level values by hand.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -83,18 +83,6 @@ The review notes that 21 CFR 114 "does not explicitly address physical and chemi
 - Several non-peer-reviewed citations (Pepper Palace, Need the Heat, WNCT Stacker, IBC Machine, Kalsec, Maximize Market Research) used for historical and market context.
 - Author affiliations are entirely Oklahoma State University; no declared funding influence is disclosed beyond the Jurgensmeyer Endowed Professorship acknowledgement.
 
-## Verification notes
-
-- DOI verified from paper masthead (page 8) and per-page footer citation: 10.15406/mojfpt.2025.13.00318.
-- Authors verified from page 8 byline.
-- Publication / volume / issue / pages verified: MOJ Food Process Technol. 2025;13(1):8–15.
-- License: CC BY-NC ("permits unrestricted use, distribution, and build upon your work non-commercially") per page-8 copyright box.
-- Lead-contamination quote verified verbatim from page 11 (Chemical hazards section).
-- Salt 1.2–12% formulation range verified from page 9 (Salt section, citing refs 24, 25).
-- No brand-level metals data is reported in this paper; the brand names that do appear (Trini & Carmen's, Castleberry's, Komera Inc., Benny T's Vesta) are all in the context of public-record microbial / allergen recalls and are not abstracted to HMI ingredient or product pages.
-- Matrix slugs `hot-sauce` and `condiment` are established by corpus convention (used by `[[sources/bergerritchie2013-hot-sauce-lead]]` and 9 other source pages respectively). The taxonomy snapshot's illustrative matrix list is non-exhaustive; these slugs are accepted matrix vocabulary by convention.
-- Audit editorial review (2026-06-02) returned PROMOTE with one ⚠️ on matrix-slug enumeration (false positive — slugs are corpus-established, see line above). All other four checks clean ✅.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

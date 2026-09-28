@@ -57,15 +57,6 @@ Samples were powdered, digested using nitric acid, hydrochloric acid, and hydrog
 
 This source contributes dry-weight occurrence evidence for rice and grouped non-rice grains in the U.S. retail context, with additional package-origin information for imported rice. It supports rice-bulk-grain and other-grain routing for total arsenic, lead, and cadmium. Because arsenic was measured by total-element ICP-MS and not speciated, the arsenic values remain `tAs` and must not be pooled as inorganic arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sample collection, digestion/ICP-MS methods, Table 1, Table 2, toxic-element Results, and discussion exceedance statement were checked in `/tmp/f3_unrepresented_texts/tatahmentan2020.txt`.
-- DOI `10.3390/ijerph17218128`, raw handle `MFK_tatahmentan2020`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `µg/kg (Dry Weight)`, `mg/kg (Dry weight)`, and percentages; no conversion was performed.
-- Speciation: arsenic is total arsenic by ICP-MS. The source discusses an inorganic-arsenic standard, but no inorganic arsenic was measured.
-- Brand firewall: rice and grain retail product brands were not named in the extracted text used for this page.
-- source metadata slugs were checked against the editorial record; no closed-vocabulary ingredient slug exists for barley or peas, so they are represented through broad cereals, non-rice grains, and legumes.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

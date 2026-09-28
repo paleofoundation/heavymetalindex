@@ -150,7 +150,7 @@ App: Category-level results can inform qualitative prioritization for cosmetic/p
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -162,18 +162,6 @@ Microbiome: Not addressed.
 - [[products/skin-lightening-cream]]
 - [[products/lipstick]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 removed sampled-product brand names and brand-coded value callouts from the source page, replacing them with category-level descriptors and statistics. Also corrected closed-vocabulary product links, added Fe to measured metals, removed non-taxonomy regulation/new-page suggestions, and tightened HMT&C/app language.
-- editorial review re-audit 2026-05-17 (autonomous v2.0 ingest pass on duplicate-PDF copy at `babycare_01_Exposure_Pathways/01_Exposure_Pathways/`): re-read full PDF including Tables 1 (per-brand max/min/mean/SE), 2 (per-category averages ± SE), 4 (SED), 5 (MoS); all Key numbers values verified against source. The same PDF is filed in two manual-fetch folders (`babycare_01_Exposure_Pathways/` and `babycare_05_Other_Categories/`); both tracker entries route to this cite-key.
-- editorial review re-audit verdict REVISE; applied four ❌ findings against §3.9.1–3.9.2 and Table 1:
-  - **Critical MoS/HQ/HI inversion corrected.** Prior version stated lotions+sunblocks were SAFE per MoS/HQ/HI; paper §3.9.1 says the opposite — lotion and sunblock have MoS <100, HQ >1, HI >1 for Cd/Cr/Pb (flagged as not-safe), and the other four categories are within limits. The abstract phrasing "MoS, HQ and HI values were within the permissible limit apart from lotions and sunblock creams" had been mis-parsed as "MoS/HQ/HI met for lotions and sunblocks." LCR statement (lipstick is the only safe category) was already correct.
-  - Removed mechanistic claim "Pb(II) salts inhibit melanin formation" — not in source; paper §3.8 attributes whitening-cream pigmentation to general intentional pigment use (Cd sulphide yellow, Cr(III) oxide green), not a Pb-specific melanin mechanism.
-  - Removed cross-source synthesis claim "most comprehensive Cat 2 cosmetic-occurrence source ingested to date" — per Part 9, source pages do not compare this paper to other sources.
-  - Corrected "45.42 mg/kg" foundation Fe Max to "45.4 mg/kg (±12.0 SD)" matching Table 1 F1 row precision exactly.
-- Added PerkinElmer AAnalyst 700 instrument vendor and NIST SRM 1515 reference material to Methods (Part 12 Exception 2 — scientific reproducibility).
-- 2026-09-26 baby lotions, oils, and powders collection: a second copy of the article (PMC7335825) was received and hashed. Added the L19 baby lotion and L23 petroleum jelly rows, read from the Table 1 text layer and checked against a 170 dpi render of page 782, the Table 1 mean convention, the unresolved Table 1 versus Table 2 and Max-row conflicts, and the issue number 7 from Crossref. Corresponding author Arshad Mehmood Abbasi (arshad799@yahoo.com, amabbasi@cuiatd.edu.pk). No earlier value on this page changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

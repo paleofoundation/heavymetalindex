@@ -61,23 +61,13 @@ This source documents stainless-steel cookware as a quantitatively non-trivial d
 
 Because the source is a conference poster with limited methods detail and no peer-reviewed publication referenced on the poster face, the values should be carried as B-tier conference-abstract evidence and corroborated against the peer-reviewed literature on stainless-steel-to-acidic-food metal migration before they drive any threshold synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cookware-metal-alloy]]
 - [[products/tomato-sauce]]
 - [[ingredients/tomato]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-Source is a conference poster from the Society of Toxicology 2014 Annual Meeting (Anderson lab, Department of Environmental & Molecular Toxicology, Oregon State University; corresponding affiliation fses.oregonstate.edu). The PDF filename `05_Nickel-SOT2014_2013.pdf` indicates the SOT 2014 presentation; no DOI is printed on the poster face. The poster lists four ATSDR/IOM/dermatology references but no peer-reviewed publication for the underlying data on the poster face, so this page treats it as standalone conference-abstract evidence rather than as a pre-print of a known JAFC paper. Authors are presented as Hobbie KA, Kamerud KL, Anderson KA in the order printed on the poster. `access_url` points to the Anderson lab Food Safety & Environmental Stewardship Program site shown on the poster face (`fses.oregonstate.edu`); the poster itself does not declare a stable archive URL and no DOI is assigned, hence `no_doi_assigned: true`.
-
-Brand attribution: the four commercial tomato sauces are labelled only as "sauce A", "sauce B", "sauce C", and "sauce D" on the poster, with no brand-name reveal. The commercial saucepan is identified only as a grade-316 stainless-steel saucepan with no brand name. No brand-firewall edits were required.
-
-Total chromium is reported by ICP-MS without Cr-VI/Cr-III speciation. The `metals:` source metadata lists Cr (total chromium), not Cr-VI.
-
-Sample sizes vary by trial (n=4 versus n=5) and there is no single `sample_n` value; the field is left null and the structure is described in `sample_population` and the methods section instead.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

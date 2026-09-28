@@ -61,7 +61,7 @@ For the coffee product page, this source contributes brewed-coffee occurrence ev
 
 For standards and app work, the source is summary-table evidence rather than sample-level distribution evidence. It can support source-scope means and ranges but should not by itself define a benchmark percentile.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/coffee]]
 - [[ingredients/coffee]]
@@ -73,12 +73,6 @@ For standards and app work, the source is summary-table evidence rather than sam
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/antimony]]
-
-## Verification notes
-
-- Batch 1 auto-fetched ingest, 2026-05-25. The filename and wishlist row targeted total arsenic, but the actual paper reports arsenic as not detected in all coffee samples. Ingest retained under the actual paper identity because it is a real coffee element-occurrence paper.
-- Brand firewall: product labels in the paper are generic product codes/types (P1-P4, classic/gold/decaffeinated/filter/Turkish coffee) rather than consumer-brand findings; no consumer brand names are reproduced.
-- Speciation: arsenic is total/unspecified As by ICP-OES; do not treat it as inorganic arsenic. Chromium is total/unspecified Cr; do not treat it as Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

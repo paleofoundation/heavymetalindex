@@ -161,7 +161,7 @@ The Codex Alimentarius General Standard (CXS 193-1995) applies the general leafy
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/kim2024-metals-kale-urban-rural-maryland|Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study]]<span class="hmi-ref-meta">Kim BF, Lupolt SN, Santo RE, Bachman G, Zhu X, Yang T, et al. · PLOS ONE · 2024 · [doi.org/10.1371/journal.pone.0296840](https://doi.org/10.1371/journal.pone.0296840)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/adhikari2024-leafy-vegetables-johannesburg|Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa]]<span class="hmi-ref-meta">Adhikari S and Struwig M · 2024 · [doi.org/10.1007/s10661-023-12283-6](https://doi.org/10.1007/s10661-023-12283-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -180,7 +180,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

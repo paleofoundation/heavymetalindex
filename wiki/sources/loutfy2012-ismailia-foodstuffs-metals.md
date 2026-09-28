@@ -76,18 +76,6 @@ Samples were collected randomly in 2007 from local markets around Ismailia city,
 
 This source contributes Egyptian local-market occurrence data across rice, bread, vegetables, fruits, fish/seafood, meat, poultry, and dairy. For HMTc routing, bread and fish/seafood are high-signal Pb categories in this source, seafood is the highest Cd category by concentration, and bread is the largest Cd/Pb dietary contributor because of consumption rate. The paper is broad-market evidence for Ismailia rather than a brand or species-specific survey, so downstream use should preserve the broad product categories and wet-weight basis.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-4, Figure 1 caption, and conclusions were readable.
-- DOI verified from the Taylor & Francis citation page as `10.1080/02772248.2011.638445`; DOI, raw handle `MFK_loutfy2012`, and cite-key checks found no existing source page before creation.
-- Table 2 means/ranges, analyzed-pool counts, dietary-intake values, LODs, and recoveries were checked against the extracted text and visual renders of Table 1 and Table 2.
-- Units are preserved as reported after visual unit verification: Cd, Pb, and Cr in `µg kg-1 wet w`; Zn and Cu in `mg kg-1 wet w`; Cd/Pb dietary intake in `µg`; Zn/Cu dietary intake in `mg`. No unit conversion was performed.
-- Speciation: chromium is reported as total Cr, not Cr-VI. Arsenic and mercury were not analyzed.
-- Brand firewall: the source sampled local markets and broad food categories only; no brand-level contamination values are reported.
-- The `seafood` row in Table 2 is described in Methods as seafood "crab and bivalves"; this page routes it to shellfish and does not infer species-specific fish rows.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-- Autonomous audit 2026-06-09 flagged `products/milk-and-dairy` as not in the taxonomy snapshot; verified false positive — the linked reference record is the HMTc Category 24 master page (created 2026-06-08 per Taxonomy v2.1) and is actively used by 20+ other source pages in the routing audit. The taxonomy snapshot is stale relative to the recent Cat 24 dairy reorg.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

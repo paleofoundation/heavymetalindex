@@ -57,7 +57,7 @@ Courses: The paper is useful for showing how can lacquer status and food acidity
 
 App: The source can support canned-food and can-packaging tin context, particularly the contrast between unlacquered cans, lacquered cans, and fresh foods.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/canned-vegetables]]
 - [[products/canned-fruit]]
@@ -65,14 +65,6 @@ App: The source can support canned-food and can-packaging tin context, particula
 - [[products/food-packaging-cans-lids]]
 - [[metals/tin]]
 - [[metals/tin-inorganic]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1445.txt`; the summary, dietary-intake section, and Table 1 were re-read before writing.
-- Identity checks before creation: DOI `10.2903/j.efsa.2005.254`, raw handle `MFK_efsa-tin-2005-opinion`, raw SHA-256 `a18810f14da442b81b874a4c36da0f67f186f1abcce2f9ad77169d24ab72236e`, and cite key `efsa2005-tin-food-upper-intake` were searched in the linked reference record; no existing source page was found.
-- Units are preserved exactly as `mg/kg`, `mg/day`, and `mg/kg body weight`; no ppm conversion was made.
-- Speciation: the source concerns inorganic tin/tin salts and tin migration from cans. It is not organotin occurrence and is not collapsed into TBT/DBT.
-- Closed vocabulary: no general `canned-foods` product slug exists in the snapshot, so routing uses available canned-vegetable, canned-fruit, canned-tomato, beverage, and can/lid packaging slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

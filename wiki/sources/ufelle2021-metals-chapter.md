@@ -31,18 +31,16 @@ routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-inpu
 
 # Ufelle & Barchowsky 2021 — Toxic Effects of Metals
 
-## Ingest Receipt
+## Document record
 
 | Field | Value |
 | --- | --- |
-| Exact chapter | Chapter 23, Toxic Effects of Metals |
+| Chapter | Chapter 23, Toxic Effects of Metals |
 | Book | Casarett & Doull's Essentials of Toxicology, Fourth Edition |
 | Authors | Alexander C. Ufelle and Aaron Barchowsky |
 | Publisher / year | McGraw Hill Education, 2021 |
-| Raw file | the archived source file |
-| Raw SHA-256 | `9bafeb78d24f52441e7611135abd5abc0a7fe310fe56fc3eade5ff560d02368b` |
-| License treatment | `copyright-licensed-private`; this page paraphrases facts and preserves short headings only. |
-| Re-ingest reason | Earlier source page over-weighted cadmium. This re-ingest restores the chapter-level metal map, connects the source to existing metal/species nodes, and creates source-map stubs where the chapter names metals without existing pages. |
+
+This page paraphrases the chapter and keeps the short headings.
 
 ## Chapter Structure Preserved
 

@@ -64,15 +64,6 @@ Samples of farmed fish and common mussel were purchased from Naples-area retail 
 
 This source provides direct organotin occurrence evidence for fish and mussels in the Naples market context shortly after antifouling restrictions. It supports seafood, fresh-fish, marine-fish, shellfish, and mussel routing for DBT and TBT as organotin tin species. Downstream extraction should preserve DBT and TBT as species-specific organotin values and should not use the concentrations as total elemental tin or inorganic tin.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; pages containing the abstract and Tables 1-2 were rendered to PNG because the text layer converted the source's `µg kg−1` units to `m g kg-1`.
-- DOI `10.1080/09637480050029638`, raw handle `MFK_10-1080-09637480050029638`, and cite-key checks found no existing source page before creation. The search hit in `sadighara2021-food-organotin-review.md` is a secondary-review citation, not a duplicate source page.
-- Table 1 fish values, Table 2 mussel values, methods LOD/recovery values, sample counts, sampling period, and imported-salmon Norway note were checked against extracted text and rendered pages. Units are preserved as `µg kg−1 wet wt`; no conversion was performed.
-- Speciation: the paper reports `DBT` and `TBT` organotin species. source metadata uses `Sn` only because the metal vocabulary has no DBT/TBT entries; this page does not collapse organotins into total tin.
-- Brand firewall: no sampled seafood product brands were reported.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include mussels, salmon, trout, sea bass, gilthead bream, anchovy, mackerel, tuna, sole, and pandora, so broad fish/seafood/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

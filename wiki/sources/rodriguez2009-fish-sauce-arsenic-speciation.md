@@ -137,31 +137,16 @@ Not appropriate for:
 - Acknowledgments name the Austrian Academic Exchange Service (scholarship to I. B. Rodriguez) and the FWF project P16088 – N03 as funders.
 - Article received 26 December 2007; accepted 25 June 2008; published in 2009 (volume 112). The fish sauces were purchased at Graz retail at an unstated date prior to submission; `sampling_year_range: "2007 or earlier"` is an inferred bound.
 
-## Verification notes
+## Related evidence
 
-- **Brand-firewall posture (Part 12, strict).** The source paper does not name any of the six fish sauces by brand. Samples are coded "fish sauce 1" through "fish sauce 6" throughout the source text and tables. No brand redaction was required.
-- **Methods-vendor names (Part 12 Exception 2).** Vendor names are retained where they identify the instrument, column, reference material, or reagent: Hewlett–Packard 1100 series HPLC, Agilent 7500ce ICPMS, Hamilton PRP-X100 column, Zorbax 300 SCX column (Hewlett–Packard), Shodex RSpak NN-614 column, Agilent LC/MSD 1100 series single-quadrupole MS, CPI arsenic and germanium standards, Merck nitric acid, Carl Roth methanol, Millipore Milli-Q water, NRCC DORM-2 dogfish muscle reference material. These are scientific-reproducibility identifiers, not contamination rankings, and do not violate Part 12.
-- **Speciation: tAs and iAs both in metals.** The paper measures total arsenic (FI-ICPMS) and explicitly characterises the four toxic anionic species (arsenite, arsenate, MA, DMA) via anion-exchange HPLC-ICPMS, finding all of them below the 0.01 mg/L LOD. Both tAs (the totals measurement) and iAs (the inorganic-species characterisation, even where the result is below LOD) are within scope, so `metals: [tAs, iAs]` rather than `metals: [tAs]` alone. The organoarsenicals (AB, AC, TMAO, TMAP) are reported in the Key numbers tables but are not analyte categories in the HMI metal taxonomy.
-- **Ingredient routing.** `ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]` uses two existing taxonomy slugs that cover the fermentation substrates the source describes (fish — anchovy, tuna, salmon trimmings; seafood — shellfish, oyster, shrimp). There is no `fish-sauce` ingredient slug and no `anchovy` ingredient slug in the current the editorial record (generated 2026-05-18). A precedent source (`divis2020-mercury-fish-sauce-dgt-tda-aas.md`) has used `[[ingredients/fish-sauce]]` and `[[ingredients/anchovy]]` slugs that do not yet have corresponding pages; this page follows the more conservative Berger Ritchie 2013 precedent and uses only existing taxonomy slugs, with the gap surfaced for Karen's taxonomy review.
-- **Product routing.** `products: ["[[products/condiments-general]]"]` uses the single existing taxonomy slug that covers fish sauce. There is no dedicated `fish-sauce` product slug in the current taxonomy snapshot; the condiments-general row is the routing destination consistent with the Berger Ritchie 2013 hot-sauce precedent. The Divis 2020 page declares a `[[products/fish-sauce]]` slug that does not yet correspond to a page; this page does not propagate that slug pending taxonomy review.
-- **Matrix vocabulary.** `matrices: [fish-sauce, fermented-fish-condiment, condiment]` captures the as-tested matrix (fish sauce specifically), the fermented-fish-condiment process category (which links to other fish-sauce and fermented-condiment analyses), and the broader condiment grouping that maps onto `condiments-general` as the routing destination. Matrices vocabulary is bare strings, not wikilinks.
-- **Jurisdictions.** `jurisdictions: [AT, TH, VN]` reflects: Austria as the retail purchase point (Graz); Thailand as the country of origin for four of the six samples; Vietnam as the country of origin for two of the six samples. The per-sample country-of-origin mapping is not stated in the source text; only the aggregated 4-Thai / 2-Vietnamese split is reported.
-- **Evidence-tier B rationale.** Peer-reviewed primary research with CRM-anchored QC (DORM-2 total As recovered at 17.2 ± 0.2 mg/kg by conventional ICPMS and 17.2 ± 0.3 mg/kg by FI-ICPMS; AB recovered at 16.6 ± 0.4 mg/kg vs certified 16.4 ± 1.1; tetramethylarsonium recovered at 0.24 ± 0.09 vs certified 0.248 ± 0.054). The methodological strength is high (HPLC-ICPMS with HPLC/ESI–MS confirmation; explicit anion-exchange screen for the toxic species). The primary tier-B limitation is the convenience sample of n=6 from a single retail channel in Graz, Austria, and the single-purchase cross-section without temporal replication.
-- **Disagreement with Kato et al. 2004.** The authors note their results contradict Kato, Nagashima & Shiomi 2004 (Fisheries Science 70, 695–702), which reported DMA as the major arsenical in Japanese fish sauces. The Implications section records this as an open paired-citation question rather than as a Kato-superseded claim. This is a literature-level observation, not a HMTc-level pivot, and stays within the Part 2 firewall.
-- **Iron-fortification framing.** The authors cite the iron-fortification context (Fidler et al. 2003, Thuy et al. 2003, Mannar & Gallego 2002) as motivation for resolving the speciation. The wiki Implications section retains this as a downstream-synthesis flag, not as a wiki-side recommendation about fortification programs.
-- **`fish-sauce` ingredient and product slugs absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Current routing uses `[[ingredients/fish]]`, `[[ingredients/seafood]]`, and `[[products/condiments-general]]`. This ingest skill does not create ingredient or product pages; the gap is logged for the taxonomy review pass.
-- **Folder placement.** PDF is filed under the archived source file. The folder is the upstream sorter's category and is preserved (immutable per Part 4).
-
-## Wiki pages this source may touch
-
-- [[metals/arsenic-total]]
-- [[metals/arsenic-inorganic]]
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
+- [[ingredients/fish-sauce]]
+- [[ingredients/anchovy]]
 - [[products/condiments-general]]
-- Future [[products/fish-sauce]] (does not yet exist; condiments-general is the current routing destination)
-- Future [[ingredients/fish-sauce]] (does not yet exist; fish + seafood are the current routing destinations)
-- Future [[ingredients/anchovy]] (does not yet exist; fish is the current routing destination)
+- [[products/fish-sauce]]
+- [[metals/arsenic-total]]
+- [[metals/arsenic-inorganic]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

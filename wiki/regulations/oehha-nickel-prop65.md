@@ -62,7 +62,7 @@ _Safe-harbor NSRL values (Nickel Refinery Dust 0.8 µg/day; Nickel Subsulfide 0.
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/oehha-nickel-prop65-factsheet-2025|Nickel and Nickel Compounds — Proposition 65 Warnings Website fact sheet]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · 2025 · [www.p65warnings.ca.gov](https://www.p65warnings.ca.gov/fact-sheets/nickel-and-nickel-compounds)</span><span class="hmi-ref-tag">Government</span>

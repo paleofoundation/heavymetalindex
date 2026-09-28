@@ -53,7 +53,7 @@ The cross-sectional study collected 5-10 mL morning milk samples from lactating 
 
 The source supports human-milk occurrence evidence and exposure-factor context for smoking and second-hand smoke. Its As and Hg results are total/source-reported values and should not be used as inorganic arsenic or methylmercury substitutes. The study should remain separated from infant-formula or commercial infant-food benchmark rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/human-milk]]
 - [[ingredients/breastmilk]]
@@ -63,10 +63,6 @@ The source supports human-milk occurrence evidence and exposure-factor context f
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The PDF includes DOI, authors, journal, year, methods, and Table 2 concentration values. The source does not speciate arsenic or mercury, so this page uses tAs and tHg. The table reports breast-milk concentrations by smoking-exposure group; this page does not name individual participants or translate the group comparison into consumer advice. Both [[ingredients/human-milk]] and [[ingredients/breastmilk]] exist locally; the matrix term is normalized to breast-milk.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

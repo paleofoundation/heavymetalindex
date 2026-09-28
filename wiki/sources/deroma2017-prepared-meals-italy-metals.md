@@ -91,7 +91,7 @@ Meals were collected in multiple Italian towns across northern, central, and sou
 
 This source contributes Italy-market prepared-meal occurrence evidence for Cd, Pb, total Hg, and total As, especially for infant food composites and mixed meals as consumed outside the home. Because the samples are pooled whole meals, they are useful for prepared-meal and infant-food context but should not be used as direct concentration evidence for individual foods such as fish, rice, or cereal. Total Hg must not be substituted for methylmercury, and total As must not be substituted for inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/baby-food]]
 - [[ingredients/mixed-meals]]
@@ -103,15 +103,6 @@ This source contributes Italy-market prepared-meal occurrence evidence for Cd, P
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Tables 1-3, discussion, conclusion, and references.
-- DOI verified from the first page as `10.1016/j.jfca.2017.07.027`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 1 and Table 2 values were checked against the extracted text. Units were preserved as printed; no conversion between `ng g−1`, `mg kg−1`, and `μg kg−1 b.w. day−1` was made.
-- Speciation: arsenic is total As and mercury is total Hg. The source explicitly notes the lack of arsenic speciation and does not report methylmercury.
-- Composite labels are retained as the source prints them: BF, FF, DP, V, RM-A through RM-G, and city-labelled canteen composites. No brand or vendor names are attached to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

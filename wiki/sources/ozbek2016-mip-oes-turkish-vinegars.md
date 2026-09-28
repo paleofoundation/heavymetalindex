@@ -66,23 +66,6 @@ Courses: Useful illustration of dilute-and-shoot MIP OES as a practical alternat
 
 App: Pb in Turkish grape and apple vinegars in this sample set: typical 10–80 µg/L, maximum observed 150 µg/L. These figures are from a single regional sample and likely do not generalize to other production regions, particularly for balsamic-style vinegars.
 
-## Verification notes
-
-Page was originally drafted under the legacy manual-fetch-source-retrieval handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical MFK handle.
-- Correct `raw_path` to the actual filename (the prior path was truncated).
-- Correct `sample_n` from 32 to 35 (Table 4 contains 17 grape + 12 apple + 3 balsamic + 1 pomegranate + 1 fig + 1 homemade = 35).
-- Expand `metals` from the five HMTc-adjacent analytes to all ten analytes the paper actually measures (routing layer only generates rows for HMTc-mapped abbreviations Al, Pb, Cr; the additional analytes are recorded for documentary fidelity).
-- Add `wine-vinegar` to `ingredients` (the 17 "grape" vinegars are wine vinegars in the wine-vinegar commodity).
-- Remove the prior `products/fresh-fruit` entry from the `products` array — this is a vinegar paper, not a fresh-fruit paper; the original routing assignment was a false-positive scope.
-- Replace the legacy `## Wiki pages updated on ingest` heading with the implications and verification-notes structure used by current source pages.
-- Correct Cu and Mn ranges in Key numbers: Cu max is 0.13 mg/L (Grape 10), not 0.05 mg/L as previously stated; Mn max is 2.49 mg/L (Grape 10), not 1.51 mg/L as previously stated.
-- Correct recovery range from 91–104% to the table-derived 92.1–104.2% (the abstract gives the rounded 93–104%; the table is authoritative).
-- Explicitly note which HMTc-panel analytes are NOT measured (Cd, As, Hg, Ni, Sn).
-
-Auto-audit editorial review (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

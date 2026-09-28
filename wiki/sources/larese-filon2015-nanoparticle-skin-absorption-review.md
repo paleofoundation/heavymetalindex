@@ -45,7 +45,6 @@ This is a review. Primary-study penetration tables (quantum dots, titanium dioxi
 | nanoparticle size | intact and damaged skin | 4-20 | nm | adopted size range |  | p.13 (printed 319) |
 | nanoparticle size | damaged skin | 21-45 | nm | adopted size range |  | p.13 (printed 319) |
 
-
 ## Methods (brief)
 
 Literature search of PubMed, Web of Science, and Google Scholar. They separate metal and non-metal nanoparticles and propose size bands of 4 nm or smaller, 4 to 20 nm, 21 to 45 nm, and larger than 45 nm. Table 7 assigns a critical size and a hazard word to each material.

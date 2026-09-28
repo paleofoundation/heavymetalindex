@@ -59,7 +59,6 @@ Antimony was measured by hydride generation atomic fluorescence in PET chips, gr
 | Sb | PET chips, two factories | 207.2 | mg/kg | mean | 2 factories | Table 1 p.PDF p.4 |
 | Sb | grey fabric | 178.4 | mg/kg | mean |  | Table 1 p.PDF p.4 |
 
-
 ## Methods (brief)
 
 Field survey of 79 factories supplied capacity and wastewater volumes used in the flow model (supplementary Table S1). Igeo used a cited Taihu sediment background of 1.67 mg/kg from Wei and Wen 2012; that background was not remeasured here and is not entered as an occurrence result. More than 99% of river-water antimony was described as soluble rather than particle-bound.

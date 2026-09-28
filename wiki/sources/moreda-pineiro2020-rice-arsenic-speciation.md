@@ -47,16 +47,12 @@ The paper extracted arsenic species from rice using ultrasound-assisted extracti
 
 The source supports rice-bulk-grain evidence for inorganic arsenic in commercial rice, especially as method-confirmed context for white rice and mixed wild rice. It is a small method-application set, not a broad market survey.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-The PDF has an internal mismatch between the narrative iAs range and the itemized Table 4 commercial-rice rows. The page records both, but treats Table 4 as the extraction authority for sample-level routing. Brand names were not transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

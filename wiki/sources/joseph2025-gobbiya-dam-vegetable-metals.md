@@ -50,7 +50,7 @@ The organ-resolved dry-weight values support local occurrence and irrigation-pat
 
 Evidence Fitness: EF-3; measured organ-level occurrence summaries with limited sampling and analytical quality documentation. Transfer metrics and correlations are source-model outputs; the soil contamination-factor calculation is methodologically unsuitable for an independent soil-hazard claim.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[products/non-root-vegetables]]
@@ -66,14 +66,6 @@ Evidence Fitness: EF-3; measured organ-level occurrence summaries with limited s
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The same soil and water means recur in Tables 1–4 and are not treated as four independent samples. The text incorrectly generalizes several BAF results; Table 5 contains lead factors below one and nickel factors below one. Table 7 explicitly divides soil values by WHO water standards, mixing scopes/bases; its contamination labels are not adopted. The paper prints inconsistent arsenic vegetable limits (0.05 in tables and 0.5 below figures) and inconsistent exceedance prose. These secondary regulatory comparisons are not ingested as legal limits. BDL-derived ratio zeros are not measured concentration zeros. Arsenic is total/unspeciated and chromium is not Cr(VI).
-
-Matrix vocabulary extensions vegetables, non-edible-plant-tissue and irrigation-water distinguish edible organs, experimental non-food tissues and sampled dam water. The paper does not identify the sampled dam water as wastewater.
-
-The preserved Library PDF is identified by `RPHMI_4`; SHA-256 `ab61fa314027d0b1fe0388c535ad26794d819c939c4d7e3c092ac8502d5cac4b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://journals.nipes.org/index.php/jete/article/download/2568/1669. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -60,7 +60,7 @@ Courses: The paper is useful for teaching cosmetic product routing, the distinct
 
 App: If adult cosmetic profiles include Libya-market context, this source can support a brief card on Benghazi foundation creams, mascaras, and lipsticks. The source should not be used for brand ranking or for claiming Cr(VI) occurrence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/makeup-foundation-powders-blush]]
 - [[products/eye-makeup]]
@@ -70,16 +70,6 @@ App: If adult cosmetic profiles include Libya-market context, this source can su
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_benghazi_facial_cosmetics.txt`. The title page, abstract, sample collection section, digestion/FAAS method, Tables 2-6, Results narrative, and Conclusion were checked against this page.
-- Identity checks before creation found no existing the linked reference record, no DOI hit for `10.48309/AJCB.2024.429051.1220`, no raw-handle hit for `MFK_the-health-risk-assessment-of-some-toxic-metals-in`, and no article-ID/title hit for `AJCB-2312-1220`.
-- Units are copied as reported (`mg/kg` for concentrations; `ppb` for detection limits; `mg/day` for CDI); no conversions were performed.
-- Speciation: the article reports total Cr and does not report Cr(VI), arsenic, mercury, or methylmercury. This page uses `Cr`, not `Cr-VI`.
-- Brand firewall: Table 2 reports product codes, colors, and manufacture countries but no brand names. This page does not identify brands and uses only de-identified code maxima and product-form means/ranges.
-- Evidence tier: `C` because the study is a small Benghazi-market convenience sample with DOI and primary measurements but limited QA/QC reporting. The paper gives duplicate determinations and detection limits but no CRM, recovery, LOQ, or market-representative design.
-- Routing: product slugs `makeup-foundation-powders-blush`, `eye-makeup`, and `lipstick` appear in the taxonomy snapshot. The live `lipstick` page is a retired adult-lipstick placeholder pending a broader Cat 13 adult lip-products destination; this page uses the existing slug and records the gap rather than inventing `lip-products`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

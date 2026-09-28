@@ -52,22 +52,6 @@ Model construction: extension of the Dancik et al. 2013 three-compartment (SC, v
 - Courses: Teaching reference for how pediatric pharmacokinetic models extend adult dermal absorption frameworks to account for skin development.
 - App: Not directly relevant to contamination_profile data. The age-dependent skin parameters could feed an exposure-modeling annex if HMI builds dermal-route risk scoring.
 
-## Wiki pages this source may touch
-
-- (None directly; this is a methodology paper)
-
-## Verification notes
-
-- No heavy-metal occurrence data in this paper. `metals: []` is correct.
-- Validation against pharmaceutical drugs only (buprenorphine, diamorphine, phenobarbital); the model's predictive accuracy for inorganic metal cations has not been evaluated and is likely lower because metals partition very differently from neutral lipophilic drugs.
-- The Dancik et al. 2013 base model is open-source on GitHub (Open-Systems-Pharmacology/Skin-permeation-model) - reusable for future HMI work.
-- Paper-internal numeric note: the abstract reports phenobarbital fold errors 0.93 to 1.26, but the body text (p. 15) reports 0.96 to 1.26; Table 7 entries (0.93, 0.96, 1.22, 1.26) make the 0.93 to 1.26 range correct. The abstract values are used here.
-- Author name in the paper's Tables 2-3 is rendered "Barret et al." but the reference list (entries 29, 30, 87) shows "Barrett, D.A." The reference-list spelling is canonical.
-- Funding: NSERC grants 2016-01382 and 2020-547790. No declared conflicts of interest. No HMTc, brand, or industry funding.
-- 2026-05-17 enhancement: tightened the buprenorphine predictive-performance summary using Table 7 and the Discussion (the original "acceptable" wording was a faithful abstract restatement but elided the 30-fold sample-pair discrepancy that the authors themselves attribute to experimental error). All other fields preserved (cite_key, raw_handle, raw_path, license, jurisdictions, near_duplicates).
-- Audit editorial review (2026-05-17) flagged that the prior "epidermis reaches adult values at ~100 days" wording conflated the Table 4 / Figure 2B plateau with the body-text claim of "four months of age" (p. 8); verified against source — corrected to "approximately 4 months (~120 days)" with the curve-plateau range stated separately.
-- Audit editorial review (2026-05-17) flagged that the prior "8-20% thinner (Stamatas, Liu); 22% thinner inner arm" gloss obscured per-study attribution (p. 8 actually pairs Stamatas with 20% and Liu with 8% on thigh; Liu with 22% on inner arm); verified against source — corrected to per-study attribution.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -59,15 +59,11 @@ Origin information on GFM cocoa powder samples was rare — origin grouping was 
 - App: Cocoa powder Al at P95 concentration was the primary driver; Cd at P95 was substantially lower as a fraction of TWI than Al. Useful for weighting Al vs. Cd risk in cocoa-based products.
 - Microbiome: Not primary topic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/aluminum]]
 - [[ingredients/cocoa]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected the aluminum metal wikilink, removed a software brand name from Methods, and tightened implication language to avoid threshold-setting or downstream-page directives.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

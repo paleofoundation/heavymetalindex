@@ -270,7 +270,7 @@ The Ganga study reports lead in separate freshwater-fish muscle, gill and liver 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/atsdr-lead-toxprofile-2020|Toxicological Profile for Lead]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2020 · [doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222)</span><span class="hmi-ref-tag">Government</span>
@@ -314,7 +314,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -2081,7 +2081,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 **[[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Thilini Kananke, 2026]].** This Sri Lankan study compares elemental concentrations and simulated digestive release in two leafy vegetables across five growing areas. Raw, coconut-milk-cooked and coconut-oil-stir-fried portions were tested separately; lower in-vitro release does not establish lower human absorption or safe consumption. Supports region-specific leafy-vegetable occurrence and cooking/bioaccessibility comparisons. Processing effects are not uniform: for example Wellampitiya A. sessilis gastric Pb is 15.3% raw and 20.7% cooked. Coconut additions can change the matrix; an in-vitro endpoint is not in-vivo absorption.
 
-**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; product routing is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
+**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; the product category is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
 
 **[[sources/enogbe2025-bwari-chocolate-metals|Emmanuel Joy Enogbe, 2025]].** Two anonymous chocolate products from Bwari market contained measurable nickel, iron, copper, chromium and lead. Their reported sample concentrations are preserved independently of inconsistent dispersion, intake means and safety comparisons in the paper. Provides a small local occurrence observation with anonymous products. It cannot establish market prevalence, source attribution, or a no-risk conclusion. Total Cr is not Cr(VI).
 

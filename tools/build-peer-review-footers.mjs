@@ -164,7 +164,7 @@ function renderActiveBlock(events, isWorkingPaper = false) {
   return `${beginMarker}
 ## Peer review state
 
-Named external reviewers — listed at [[curators]] — have evaluated this ${claimTerm}. Each verdict is "endorsed", "contested", "recused", or "pending review". The full review event log is in \`data/peer-review/<reviewer-slug>.jsonl\`; the per-reviewer recusal disclosure is at [[curators]].
+Named external reviewers, listed at [[curators]], have evaluated this ${claimTerm}. Each verdict is endorsed, contested, recused, or pending review. Recusal disclosures for named reviewers are at [[curators]].
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -179,7 +179,7 @@ function renderPlaceholderBlock(isWorkingPaper = false) {
     return `${beginMarker}
 ## Peer review state
 
-This is a working paper (systems architecture), not a corpus synthesis finding. It has not been externally peer reviewed. Verdicts will be added here if named domain experts (listed at [[curators]]) evaluate it; the verdict log is \`data/peer-review/<reviewer-slug>.jsonl\` and is part of the public corpus.
+This is a working paper on systems architecture, not a corpus synthesis finding. It has not been externally peer reviewed. Verdicts will be added here if named domain experts, listed at [[curators]], evaluate it. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -191,7 +191,7 @@ ${endMarker}`
   return `${beginMarker}
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is \`data/peer-review/<reviewer-slug>.jsonl\` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts, listed at [[curators]], complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |

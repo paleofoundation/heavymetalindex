@@ -161,23 +161,9 @@ No new analytical measurements are reported. The document operates as a synthesi
 - App: Drinking water (tap, bottled) is a minor but non-zero Cd exposure pathway in the Canadian dataset compiled here. The document's distributed-water medians across provinces sit in the 0.01–0.10 µg/L band, while the source-water and well distributions reach the tens of µg/L for a small fraction of samples (Alberta wells 0.30% above DL with detected-fraction median 15.0 µg/L; BC Interior raw and treated 97.0% above DL with detected-fraction median 0.02 µg/L). The document attributes the dominant tap-side contribution to galvanized-steel service lines, well components, and pre-1980 plumbing rather than to source-water quality. Central-tendency values across the full sample set do not summarize this within-population heterogeneity.
 - Microbiome: Not addressed by the document.
 
-## Verification notes
+## Related evidence
 
-- Cite-key uses the `hc` (Health Canada) agency abbreviation with the publication year (2020), consistent with other Health Canada source pages in the linked reference record (e.g., `hc2008-aluminum-food-additives-industry-request`, `hc2008-review-dietary-exposure-aluminum`).
-- The sibling file `drinking-water-quality-guideline-cadmium.pdf` in the same folder is byte-identical (SHA-256 match) to `raw_path`; listed in `near_duplicates`.
-- `matrices` includes general drinking-water descriptors (drinking-water, tap-water, source-water, raw-water, treated-water, distribution-water) that span the document's data tables; no closer-fitting canonical matrix slug for treated/distributed water exists in the system-prompt list.
-- No matching `[[regulations/canada-cadmium-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for cadmium in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock).
-- Canadian provincial table (Table 2) reproduces the document's footnote citations 1–12 in the table header explanation; values are quoted exactly as the document reports them, including the visually unusual entries (e.g., Quebec mean 0.20 µg/L vs median 0.01 µg/L — a wide right tail; Alberta well median 15.0 µg/L > mean 13.4 µg/L — an artifact of the 0.30% detection rate with very small detected-fraction n).
-- Document references but does not reproduce the underlying primary leaching datasets (Viraraghavan et al. 2000, Samuels and Meranger 1984, Schock and Neff 1988, Subramanian et al. 1991); Key numbers explicitly attributes leaching ranges to the document's own citation chain rather than direct measurement here.
-- No brand names appear in the source's contamination data; vendor names in the analytical-methods table (U.S. EPA, APHA) are method-publishing standards bodies, not Part 12 violations.
-- Page numbers in Key numbers cite the PDF's internal page numbers (e.g., "p. 29-30" = the document's Section 10.0 heading on PDF-page 29 of 50).
-- Audit editorial review (2026-06-04) flagged the original Statistics Canada 2015 age-trend block as "UCd GM 0.42 µg/L in adults 20–79 vs 0.12 µg/L in ages 3–19"; verified against source p. 8 — the source explicitly attributes these values to **blood cadmium**, not urinary cadmium. Block corrected to BCd and a separate sentence added noting the Garner and Levallois (2016) age-dependent UCd increases.
-- Audit editorial review (2026-06-04) flagged the Viraraghavan et al. (2000) copper-plumbing block for conflating "samples" (the three sequential within-round sample volumes — 125/500/125 mL — drawn per dwelling) with "rounds" (monthly repeats); verified against source p. 17 — finding correct. Block restructured to separate within-round samples (first/second/third sample 125/500/125 mL, values <DL–171/<DL–39/<DL–102 µg/L) from cross-round maxima (133, 101 µg/L in second and third rounds).
-- Audit editorial review (2026-06-04) flagged App-audience phrasing ("tail risk for app users with old housing stock", "typical baseline") as edging into the Part 2 wiki/HMTc firewall (consumer-risk-advisory framing and app-data threshold proposal); reframed to describe what the document's dataset contains (median band, well/raw outliers, plumbing attribution) without prescribing a downstream HMI app default value or advisory.
-- Audit editorial review (2026-06-04) flagged "Oral LD₅₀ in rats" as narrower than source attribution; verified against source p. 25 — source says "in rats and mice". Corrected.
-
-## Wiki pages this source may touch
-
+- [[regulations/canada-cadmium-drinking-water-mac]]
 - [[metals/cadmium]]
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]

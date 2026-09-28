@@ -46,7 +46,7 @@ Samples were dried, prepared, and analyzed for arsenic, lead, and chromium by AA
 
 The source supports poultry-meat and egg occurrence context for Bangladesh. Feed values explain a likely pathway but should remain separate from edible meat and egg values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[products/eggs-product]]
@@ -55,11 +55,6 @@ The source supports poultry-meat and egg occurrence context for Bangladesh. Feed
 - [[metals/arsenic-total]]
 - [[metals/lead]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.3329/aajfss.v2i1.55893 and the downloaded PDF.
-- Feed values are not pooled with edible product values; the OCR preserved the arsenic meat maxima more clearly than the lead meat table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

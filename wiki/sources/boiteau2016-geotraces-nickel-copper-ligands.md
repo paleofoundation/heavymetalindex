@@ -46,15 +46,11 @@ Courses: Useful marine-pathway case for explaining how dissolved metal chemistry
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/aquatic-bioaccumulation]]
 - [[metals/nickel]]
 - [[metals/copper]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The queue handle mislabeled this paper as formula-related; on reading, it is in-scope lane a3 marine-pathway evidence for aquatic metal availability.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

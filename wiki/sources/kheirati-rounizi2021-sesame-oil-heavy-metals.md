@@ -65,7 +65,7 @@ App: Route to sesame oil and the cooking-oils-other product bucket. Pb is the ma
 
 Courses: Useful for teaching processing effects, seed-to-oil contaminant partitioning, censored values, and the difference between a regulatory exceedance and a low non-cancer HI calculation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/sesame-oil]]
 - [[products/cooking-oils-other]]
@@ -75,14 +75,6 @@ Courses: Useful for teaching processing effects, seed-to-oil contaminant partiti
 - [[metals/zinc]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the sample-preparation methods, microwave digestion section, Table 2 recovery data, Table 5 heavy-metal concentrations, Table 6 EDI/HQ/HI values, and the discussion/conclusion. The source reports total arsenic only; no arsenic speciation was performed. The paper contains an internal Pb concentration conflict: Table 5 reports Pb in Ardeh, virgin sesame, and refined sesame oil as 0.37, 0.25, and 0.20 mg/kg, and Table 6 EDI/HQ values are consistent with those Table 5 concentrations. The narrative text instead says 3.72, 2.59, and 2.33 ppm. This page follows Table 5 and the internally consistent risk table, while flagging the conflict for audit.
-
-Audit editorial review 2026-06-02 flagged the `matrices:` array as overspecified (six tokens including narrow processing variants ardeh-oil, sesame-paste-oil, virgin-sesame-oil, refined-sesame-oil). Verified against the system-prompt matrices guidance ("pick the broadest term") and sibling oil source pages (chen2001, mehri2024) that use `sesame-oil` as the broader matrix token. Collapsed to `[sesame-seed, sesame-oil, edible-oil]`; processing-variant detail is retained in the body prose where it belongs.
-
-Audit editorial review 2026-06-02 also raised a license-field fidelity nit: paper p.1 footer says "Creative Commons Attribution License" without version. License retained as `"CC BY 4.0"` because Wiley Food Science & Nutrition open-access publications in 2021 default to CC BY 4.0; this is the most accurate version and matches the wider corpus convention.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -112,7 +112,7 @@ This source is the principal A-tier methodological reference for the position th
 
 For contributing-source synthesis on grain-based product and ingredient pages, the dataset establishes Cr(III) ranges for typical European bread and breakfast cereal samples (5–350 µg/kg, with cocoa-containing breakfast cereals and spelt bread driving the upper end) and supports the working assumption — at the synthesis level, not in this source page — that total Cr in grain matrices is essentially equivalent to Cr(III) for routing purposes. The exposure calculations in Table 8 provide a quantitative baseline against the EFSA TDI for the rare case where a synthesis page needs to bound cereal-derived Cr intake in EU adults.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/bread]]
 - [[ingredients/wheat]]
@@ -124,32 +124,7 @@ For contributing-source synthesis on grain-based product and ingredient pages, t
 - [[products/breakfast-cereals]]
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
-
-## Verification notes
-
-- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing page (updated 2026-05-14) had multiple schema-era and content defects, all corrected in this pass:
-  - `raw_handle: manual-fetch-source-retrieval` (generic parent-folder placeholder) → `MFK_p0320-speciation-analysis-of-criii-and-crvi-in-bre` per the v2 manual-fetch handle convention.
-  - `raw_path` was a non-existent stub `P0320.pdf` → corrected to the full filename present in the source folder (`P0320_Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals.pdf`).
-  - Added `no_doi_assigned: false`, `access_url`, and `raw_sha256` fields (absent in prior version).
-  - `ingredients` previously included `[[ingredients/breakfast-cereals]]`, which is not a slug in the current taxonomy snapshot (2026-05-18). Replaced with the canonical grain-ingredient slugs that route this study to the right ingredient pages: `bread`, `wheat`, `oat`, `maize`, `corn-flakes`, `cereals` (umbrella).
-  - `products` had only `[[products/breakfast-cereals]]`; added `[[products/bread-and-baked-goods]]` because the 11 bread samples are direct evidence on that product category.
-  - `sample_n: null` → 22 (11 breads + 11 breakfast cereals), with `sample_population` rewritten to enumerate the samples by flour type / composition and to note the NIST 8436 Durum CRM used as internal QC.
-- **Legacy heading removed.** Prior section `## Wiki pages updated on ingest` (Part 5b system-rule violation — the model does not maintain routing by hand) replaced with the current `## Wiki pages this source may touch` form.
-- **Wiki/HMTc firewall (Part 2).** Prior `## Implications` section contained multiple certification-facing synthesis claims that crossed the wiki/HMTc firewall:
-  - "This finding … has direct implications for how HMT&C should interpret total-Cr findings in grain products: total Cr in grain matrices is essentially all Cr(III), not Cr(VI)."
-  - "For the HMT&C analyte vocabulary (which lists Cr-VI separately), this means the relevant concern in bread/cereal matrices is whether any Cr-VI is present at all — and the best current evidence says it is not…"
-  - "Testing claims for Cr-VI in these matrices should therefore be interpreted with awareness of method artefact risk."
-  - Consumer-app advisory ("For grain-based ingredients, the app can treat total Cr as Cr(III) when source data does not specify speciation, consistent with this evidence. Cr-VI risk in grain products should default to 'not detected' …").
-  All deleted in this pass. The rewritten Implications section reports what the data are useful for (synthesis input, methodological reference for prior-literature artefact hypothesis) and the load-bearing matrix-reduction finding, without proposing HMTc thresholds, consumer translations, or course-facing language. The synthesis-level inference about "total Cr in grain matrices ≈ Cr(III) for routing purposes" is flagged as belonging at the synthesis level, not in this source page.
-- **Missing data added.** The prior page summarized the Cr(III) and Cr(VI) ranges but omitted (a) the per-sample contamination table (Table 7), (b) the Cr(VI) spike-recovery stability experiment that is the load-bearing finding of §3.4 (Fig. 1), (c) the extraction-condition sensitivity experiment (Table 3) demonstrating that the milk/meat protocol gives a false-positive Cr(VI) signal of 28.5 µg/kg on bread that disappears under the optimized 90 °C × 60 min EDTA step, (d) the NIST 8436 Durum wheat-flour CRM internal-QC result (96–103% recovery over 5 days), and (e) the FAOSTAT-based dietary exposure assessment (Table 8). All added.
-- **Brand firewall (Part 12, strict reading locked 2026-05-17).** The paper's sample list (Table 2) uses generic product descriptors throughout; brand identifiers are anonymized by the authors themselves for the two cocoa-cereal samples ("brand I", "brand II"). The only sample name that maps to a single commercial product is "All bran" (the Kellogg's trademark; the paper does not disambiguate). Rephrased to "high-bran flake cereal" in the sample table to comply with the strict-reading brand-firewall convention. All other Table 2 entries are generic product-form descriptors (Danish rugbrød, malt flour bread, spelt bread, baguette, granola, muesli, etc.) and are retained verbatim. Method-section vendor names (Anton Paar Multiwave 3000, Thermo iCAP TQ, Agilent 7700, Dionex IonPac AG7, Sigma-Aldrich EDTA/DPC, ISC Science isotope-enriched spikes, NIST 8436 CRM, ED JULABO water bath, Merck HNO₃) retained per the 2026-05-17 method-vendor exception (scientific reproducibility).
-- **Speciation convention.** The paper measures both species of Cr separately by SS-ID and reports them as Cr(III) and Cr(VI). The wiki source metadata `metals` field uses the HMT&C vocabulary symbols `Cr` (for the total / Cr(III) measurement, which is the dominant species and is equivalent to total Cr in this matrix per the paper's own finding) and `Cr-VI` (for the dedicated Cr(VI) speciation measurement, even though all values were below LOQ). Cr-III is not a standalone HMT&C analyte; it is captured under `Cr`.
-- **Jurisdictions.** Samples purchased in Birkerød (DK) and Maisons-Alfort (FR); exposure assessment uses Denmark and France FAOSTAT consumption data; comparison anchored to EFSA 2014 TDI and IOM 2001 DRI. `jurisdictions: [FR, DK, EU]` reflects all three layers.
-- **DOI and license preserved** from the prior page (10.1016/j.jfca.2021.103991; CC BY 4.0, open-access Elsevier publication confirmed against the PDF's title page).
-- **2026-05-25 audit application** (fresh-context editorial review audit; verdict REVISE). Two ❌ findings against Check 1 (numerical fidelity) verified against PDF Table 5 and Table 6 and applied; one ⚠️ left as-is.
-  - Audit ❌ on trueness range: prior text "0.31% to 0.49% across all tested levels" misrepresented Table 6. PDF Table 6 reports individual bias values of 0.30, −0.02, −0.31, 0.01 (Cr(III) across four matrix levels) and 0.03, 0.14, 0.49 (Cr(VI) across three spike levels); the range is −0.31% to +0.49% with the paper's own summary "<1% in all cases" (§3.2). Verified against PDF; corrected as flagged.
-  - Audit ❌ on Cr(III) spike-recovery range: prior text "Cr(III) spike-recovery in two bread matrices at 5, 10, 15 µg/kg: 97–113%" mis-attributed the 97% lower bound. PDF Table 5 shows recoveries of 99/106/105 (Bread 1) and 101/113/107 (Bread 2) at the 5/10/15 µg/kg spike levels (range 99–113%); the 97% lower bound comes from the unspiked (0 µg/kg added) baseline cell where the genuine Cr(III) is compared against total Cr — these baseline values are 97 ± 1 (Bread 1) and 101 ± 2 (Bread 2). The PDF prose "97–113%" in §3.1 includes all eight cells (unspiked + spiked × 2 matrices); the wiki claim restricting the range to "5, 10, 15 µg/kg" was incorrect. Verified against PDF; corrected to report the full range with the spike-level-only sub-range broken out separately.
-  - Audit ⚠️ on `matrices: [bread, breakfast-cereal, grain-product]`: the editorial review noted that `grain-product` may not be in the controlled matrices vocabulary file. Reviewed: matrices is a free-form descriptor field across the source-page corpus (e.g., `cereal-grain`, `whole-food`, `grain-product` all appear across recent A-tier source pages), not a closed taxonomy like `ingredients`/`products`/`metals`. Left as-is.
+- [[ingredients/breakfast-cereals]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

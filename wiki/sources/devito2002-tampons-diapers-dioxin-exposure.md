@@ -113,24 +113,11 @@ App: The source supports a diaper/tampon context note that detectable dioxin con
 
 Microbiome: Not measured. The paper discusses endometriosis and dioxin exposure as motivation but does not measure microbiome, bacterial, or reproductive-tract endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/diapers-and-components]]
 - [[products/menstrual-tampons]]
-
-## Verification notes
-
-2026-06-09 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against the linked reference record returned no hits: no DOI is printed in the PDF, so the DOI grep was run on the author surname combinations and on the source-file basename (`ehp0110-000023`); raw_handle `MFK_05-ehp0110-000023-2002` not present; cite-key stem `devito2002` not present. PDF SHA-256 `a1b0c7487f53e20a96ee202c1af2c8bc09d7f6df0d065f6925be9423569a623b`. Folder: the archived source file.
-
-DOI `10.1289/ehp.0211023` (PMID `11781161`) confirmed via PubMed lookup at https://pubmed.ncbi.nlm.nih.gov/11781161/ — the PDF artifact itself prints only the older EHP per-article landing-page URL (`http://ehpnet1.niehs.nih.gov/docs/2002/110p23-28devito/abstract.html`) and not the Crossref DOI string, so the DOI was verified externally rather than guessed.
-
-Source is a peer-reviewed two-author exposure assessment (`6` printed pages). `metals: []` is intentional: the analytes are the 17 WHO-TEF PCDD/PCDF congeners, not Pb, Cd, As, Hg, Cr, Ni, Sn, Sb, U, Al, or any heavy-metal species. The page follows the `[[sources/archer2005-tampon-dioxins-furans]]` precedent for ingesting dioxin-only tampon papers as out-of-core-scope contaminant context, and the `[[sources/anses2019-baby-diaper-safety-france]]` precedent for ingesting non-metal diaper papers as contextual evidence for the diapers-and-components product page. Both product slugs are routed because the paper measures both product classes.
-
-Brand firewall (Part 12) clean: the paper uses anonymized brand codes (A, B, C, D for tampons; E, F, G for diapers) throughout and never reveals the underlying commercial brand names. This page propagates only the anonymized codes from the paper itself; no de-anonymisation is attempted.
-
-Wiki/HMTc firewall (Part 2) clean: the paper's "dioxin exposure from these products is negligible compared with dietary intake" conclusion is reported as the authors' own conclusion (their own framing, their own assumptions), not as wiki synthesis or as justification for any HMTc decision. No HMTc threshold proposal, no synthesis claim ("this confirms the literature consensus..."), no consumer risk advisory.
-
-Paper-internal copy-edit slip noted but not propagated: the Results/Diapers paragraph (p. 26) states the diaper dioxin concentration range as `1.6-3.0 pg TEQ/g diaper` while citing Table 1, but Table 1 reports total dioxin mass concentrations of `1.8-3.7 pg/g` (not pg TEQ/g, and not 1.6-3.0). Table 2 separately reports TEQ concentrations of `0.0042-0.023 pg TEQ/g`. The tables themselves are mutually consistent; the textual range conflates Table 1 (total mass) with Table 2 (TEQ) and is off-range for both. This page cites the table values directly and notes the discrepancy in Key numbers. This is a copy-edit slip in the published paper, not a paper-internal data-integrity contradiction that would trigger a stop condition.
+- [[sources/anses2019-baby-diaper-safety-france]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -87,11 +87,6 @@ Microbiome: No direct microbiome endpoint.
 - [[products/shellfish]]
 - [[products/rice-bulk-grain]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- Values were checked against the PDF text extraction twice during ingest.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

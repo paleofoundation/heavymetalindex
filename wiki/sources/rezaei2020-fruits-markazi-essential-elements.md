@@ -80,7 +80,7 @@ App: Route as fresh-fruit total-Cr context for apple, grape, peach, plum, and ne
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/copper]]
@@ -94,14 +94,6 @@ Microbiome: Not addressed.
 - [[ingredients/nectarine]]
 - [[ingredients/fruit]]
 - [[products/fresh-fruit]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the ingredient-cell apple Cr wishlist. The paper measured multiple fruits and five elements; this page routes the whole measured fruit panel rather than apple only.
-- Created provisional ingredient scaffold [[ingredients/nectarine]] because nectarine was a measured commodity and no nectarine ingredient page existed.
-- Speciation: chromium is total Cr by ICP-OES; the paper's risk equation references Cr+6 RfD, but the analytical method does not speciate Cr(VI), so this page routes total chromium only.
-- Strict brand firewall: no product brands are involved.
-- Methods vendor/equipment/software names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

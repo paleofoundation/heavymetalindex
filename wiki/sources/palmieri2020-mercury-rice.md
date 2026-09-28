@@ -61,18 +61,11 @@ App: Route as total mercury in rice grain only. Do not use this source as finish
 
 Microbiome: Not addressed directly, though the paper references rice methylmercury literature tied to paddy biogeochemistry.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-total]]
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven rice-containing mixed-meal total-Hg wishlist. The actual measured matrix is rice grain, so this page routes to rice-bulk-grain rather than mixed meals.
-- Speciation discipline: the source repeatedly discusses methylmercury, but the visible method and table support total Hg only. This page uses `tHg` and notes the limitation.
-- The paper provides limited method-validation detail; evidence tier set to B.
-- Strict brand firewall: no commercial rice brands are reported in this source page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

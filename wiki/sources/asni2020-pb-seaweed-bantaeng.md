@@ -68,34 +68,9 @@ Spatial analysis: Geographic Information System (GIS) mapping of Pb distribution
 
 Limitations: conference proceedings paper; methodological reporting is brief; speciation not performed (total Pb only); no certified reference material or recovery data; total sample size not stated; statistical tests of between-station or between-season differences not reported in the paper; the basis (wet weight vs dry weight) for the reported seaweed concentrations is not explicitly stated, although samples were dried prior to digestion.
 
-## Verification notes
+## Related evidence
 
-Merge-enhanced 2026-05-18 from prior 2026-05-14 version. Changes:
-
-- `raw_handle` corrected from legacy placeholder `papers-cube` to canonical PCMF handle `PCMF_article-2-copy-3`.
-- `raw_path` corrected from non-existent the archived source file to the actual filename the archived source file.
-- Added `access_url` (DOI link).
-- `license` set to `CC BY 3.0` per the PDF cover page ("Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence").
-- `matrices` reduced from `[seaweed, water]` to `[seaweed]`. The matrices controlled vocabulary does not include "water" as a bare slug, and `drinking-water` would misrepresent the source (the paper measures seawater at cultivation sites, not potable water). The seawater values are reported in the page body as environmental context for the seaweed contamination.
-- Added the Indonesian fishery-water threshold the paper cites (KEP MENLH No 51, 2004: 0.08 ppm) which was missing from the prior version.
-- Removed the prior version's reference to "WHO drinking water guideline for Pb is 0.01 mg/L; the measured water values exceed this by 20–100×." The paper does not cite the WHO drinking-water guideline; it cites the Indonesian fishery-water threshold (0.08 ppm). The WHO comparison was invented context and has been replaced with the paper's actual cited threshold.
-- Added the station-specific mean ± SD values reported in §3.1 and §3.2 for Station C near-shore (the highest station): water rainy 0.70 ± 0.17 ppm, dry 0.85 ± 0.11 ppm; seaweed rainy 5.52 ± 1.18 ppm, dry 12.48 ± 5.80 ppm. These were absent from the prior Key numbers section.
-- Added the comparison values the authors cite from other Indonesian seaweed studies (Parepare, Situbondo, Tonra Bone, Takalar) for routing-context completeness; flagged as values the authors cite from prior literature, not values measured in this study.
-- Expanded the Methods section with the sample-prep procedure the paper describes in §2.1.2 (HNO₃ / HClO₄ / HCl 1:1 digestion sequence, AAS by Beer-Lambert quantitation). The prior version's brief methods were correct but did not capture the digestion sequence the paper actually describes.
-- Corrected the wet-weight assertion in the prior version's Key numbers ("Pb in seaweed (Kappaphycus alvarezii) tissue, units mg/kg (ppm) wet weight"). The paper does not state the basis; samples were dried prior to digestion, which by convention implies dry-weight reporting, but the paper is not explicit. The page now notes the basis is not explicitly stated.
-- Corrected the prior Key numbers claim "Dry season — range straddles the threshold (lowest 1.20 ppm below, highest 20.87 ppm far above)" to note that the 1.20 ppm low end reflects individual replicate values while every station-substation mean reported in Figure 6 exceeded the 2.0 ppm food threshold (dry-season means ~8.5–12.5 ppm).
-- Removed the legacy `## Implications` section (Certification, Courses, App). The prior text proposed "lot testing of seaweed ingredients sourced from Southeast Asian aquaculture regions" and "The app should flag seaweed/sea vegetable ingredients when the supply-chain origin includes Indonesian coastal aquaculture" — both cross the wiki/HMTc firewall (Part 2: source pages report what one paper found, not how it should apply to the certification program or consumer apps).
-- Removed the legacy `## Wiki pages updated on ingest` section. Routing is the system's responsibility per Part 5b; the routing audit reads source metadata and fans the source out to sibling pages.
-- Removed the `[[supply-chain/mariculture-indonesia]]` reference that appeared in the prior legacy section; no such page exists in the current wiki structure.
-- No brand names appear in this paper's contamination data (the methods section names AAS as the instrument class but no vendor); no brand-firewall application was needed. The paper does name a "Fish Landing Place" at Station C as a Pb source — this is a public-record industrial feature, not a brand.
-
-Audit editorial review (2026-05-18, verdict REVISE) flagged one main concern (⚠️) plus several minor unit-equivalence and Figure-visual-read notes; all verified against source:
-
-- ⚠️ Comparison-value author-year tags (Djalil 2000, Silvanandya 2003, Imah et al. 2007, Munir 2009) — flagged as fabricated/invented. Verified against source: FALSE POSITIVE. The paper's references list on PDF page 8 contains: [13] Munir 2009 "Studi kandungan Logam Berat Pb dan Cd Pada Rumput Laut (Kappaphycus alvaresii) Pada Umur yang Berbeda" (Universitas Hasanuddin, Makassar) — the K. alvarezii different-ages study cited for Takalar Regency in §3.2; [14] Imah M M, Masak P P and Tjaronge M 2007 "Kalender Musim Budidaya Rumput Laut, Kappaphycus alvarezii dan Eucheuma denticulatum di pantai Timur dan Selatan Sulawesi Selatan" (Maros) — cited in §3.2 for the Tonra Bone seaweed Pb values; [15] Djalil S N 2000 "Study Kandungan Logam Berat Pb Pada Rumput laut (Eucheuma cottonii) yang Dibudidayakan Di Pantai Kotamadya Parepare" (Universitas Muslim Indonesia, Makassar) — cited on PDF p.7 for the Parepare 0.85 ppm value; [16] Silvanandya 2003 "Study Kandungan Logam Berat Pb Dalam Rumput Laut (Eucheuma cottonii) Hasil Budidaya di Perairan Situbondo" (Institut Teknologi Sepuluh Nopember, Surabaya) — cited on PDF p.7 for the Situbondo 0.19–0.94 ppm value. The audit editorial review's reference-list excerpt on page 7 ended at [12] Azizah 2018; the editorial review did not read page 8 where refs [13]–[17] appear. The author-year attributions on the wiki page are correct as written. No change to the page on this finding.
-- ⚠️ Unit equivalence ppm = mg/kg (solids) and ppm = mg/L (water) — flagged as not literally stated in the source. These are standard universally-accepted dimensional equivalences in heavy-metal reporting; the page retains them as a readability aid for downstream readers who work in mg/kg or mg/L conventions. No change.
-- ⚠️ Figure 3 and Figure 6 bar-chart visual reads (~0.45 ppm low end, ~4.5–5.5 ppm rainy seaweed bars, ~8.5–12.5 ppm dry seaweed bars) — audit confirmed visual reads as consistent with the figures. No change.
-
-Verdict pushback: editorial review issued REVISE primarily on the comparison-citation finding, which is a false positive (the references exist on the page the editorial review did not read). The remaining concerns are acceptances or stylistic. No content changes applied. Final disposition: audited-revised with one false-positive rejection documented.
+- [[supply-chain/mariculture-indonesia]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

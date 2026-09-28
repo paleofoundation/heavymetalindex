@@ -50,17 +50,11 @@ Courses: Useful for illustrating the distinction between basin water-quality sur
 
 App: Context only for arsenic-water-pathway explanations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-target-cell` lineage. The corrected scope treats mining-affected river-basin water surveillance as in-scope a3 pathway evidence.
-
-Products and ingredients are intentionally empty because the paper measures basin waters rather than a market product. Arsenic is tagged as `tAs` because the paper measures total arsenic and speciates `As(III)`/`As(V)` in water, but the source metadata metal slot here is meant to reflect the primary arsenic occurrence matrix rather than claim a consumer-product inorganic-arsenic value.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

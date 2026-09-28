@@ -97,30 +97,18 @@ Correlation coefficients of all calibration curves exceeded 0.940; limits of det
 - **Titanium as the dominant metal mass (not an HMI panel metal).** Ti ranged 6-872 ng/g across the four brands and was the highest single-element value in three of four. Ti is not on the HMTc Category-1 analyte list and is not an HMI synthesis priority metal; the data are recorded here for completeness and to anchor the paper's narrative finding that Ti "is much higher than any other heavy metal" (p. 4778). The probable Ti source is TiO2 used as opacifier / pigment in formulated dish detergent — common industry practice — though the paper does not name the source.
 - **No regulatory comparison anchor.** The paper states that "all detergent brands meet safety standards" (p. 4779) but does not name the standard, the limit value, or the regulatory document being referenced. China GB standards for detergent heavy-metal limits exist but are not cited. The wiki page does not propagate the "meets safety standards" claim to the regulatory anchor cells; the source did not supply a citable limit.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/lead]] (Pb 0.041-249.835 ng/g in four Beijing dish/produce-wash detergents; one brand at 249.835 ng/g drives the within-category range)
-- [[metals/cadmium]] (Cd 0.025-0.206 ng/g; values sit below the paper's stated instrument LOD of 0.07 µg/g)
-- [[metals/nickel]] (Ni 0.502-45.936 ng/g; plant-tissue-feedstock brand at the low end)
-- [[metals/chromium]] (Cr total 0.000-73.938 ng/g; not speciated; does not feed Cr-VI)
-- [[metals/copper]] (Cu 12.703-52.097 ng/g)
-- [[metals/zinc]] (Zn 12.737-94.224 ng/g)
-- [[metals/iron]] (Fe 3.293-174.450 ng/g)
-- [[metals/manganese]] (Mn 0.000-29.897 ng/g)
-- [[metals/titanium]] (Ti 6.162-871.676 ng/g; dominant metal mass; not an HMTc analyte)
-- [[metals/selenium]] (Se 102.060-147.340 ng/g; narrow across-brand range, near the instrument LOD of 0.58 µg/g)
-- [[products/dish-soaps-manual]] (per-analyte four-brand panel for Beijing manual dishwashing / produce-wash detergent, ng/g basis; primary product-form route)
-
-## Verification notes
-
-- **Brand-firewall handling (Part 12).** The source paper does not name the four detergent brands; it uses anonymised labels "Brand 1, Brand 2, Brand 3, Brand 4" throughout, with one formulation descriptor ("raw material came from plant tissue") attached to Brand 3 (p. 4779). The "Brand 1/2/3/4" labels are reproduced in this wiki page exactly as in the source because they are not actual brand names and they carry the dataset's only structural attribution (brand-by-brand). No brand identification is introduced by this page.
-- **Folder placement is misleading; product routing is dish-soap, not laundry.** The PDF is filed in the source corpus under `08_Laundry_Bleach_Fabric/`, but the paper itself describes the product category explicitly as detergents for "washing tableware, vegetable and fruits" (p. 4777, Introduction) — i.e., manual dishwashing and produce-wash liquid, not laundry detergent. The source metadata `products:` field therefore routes to `dish-soaps-manual` only, not `laundry-detergents`. The folder name reflects the corruption-folder triage bucket, not the paper's content. Flagged so a future corpus-organisation pass can rebucket the PDF.
-- **Unit / LOD relationship is paper-internal and propagated unaltered.** Table 3 reports per-brand concentrations in ng/g while Table 2 reports method limits of detection in µg/g (i.e., 1000× higher unit). For most analytes the Table 3 reported values sit below the Table 2 LOD when both are converted to a common unit: Brand 2 Ti 871.676 ng/g = 0.872 µg/g vs LOD 1.06 µg/g (below); Brand 1 Cr 73.938 ng/g = 0.074 µg/g vs LOD 0.08 µg/g (below); Brand 2 Mn 29.897 ng/g = 0.030 µg/g vs LOD 0.12 µg/g (below); Brand 2 Ni 45.936 ng/g = 0.046 µg/g vs LOD 0.23 µg/g (below); Brand 1 Cu 52.097 ng/g = 0.052 µg/g vs LOD 0.58 µg/g (below); Brand 1 Cd 0.206 ng/g = 0.000206 µg/g vs LOD 0.07 µg/g (far below); Brand 2 Fe 174.450 ng/g = 0.174 µg/g vs LOD 0.42 µg/g (below); Brand 4 Zn 94.224 ng/g = 0.094 µg/g vs LOD 0.36 µg/g (below); Brand 2 Se 147.340 ng/g = 0.147 µg/g vs LOD 0.58 µg/g (below). Only Pb max (Brand 1, 249.835 ng/g = 0.250 µg/g vs LOD 0.05 µg/g) is unambiguously above LOD. This is a paper-internal data-quality concern: either the per-brand values are extrapolations from below the validated instrumental LOD (and should be treated as semi-quantitative), or the unit reported in one of the tables is mislabelled in the published article. The wiki page preserves the source's stated units verbatim and flags the relationship here; downstream synthesis should treat sub-LOD values as semi-quantitative.
-- **n=4 single-time-point.** Four brands × one finished-product sample × five instrumental replicate reads. The dataset is structurally a single-laboratory single-shopping-trip characterisation. Not a population-level survey; not a temporal-trend dataset. Synthesis should weight accordingly.
-- **No CRM / recovery / blank.** The paper does not report a certified reference material, spike-recovery percentage, method-detection-limit (as distinct from instrumental LOD), reagent-blank values, or an interlaboratory comparison. This is a B-tier paper with peer review and a documented method but minimal QA reporting, not A-tier.
-- **No DOI assigned.** Asian Journal of Chemistry papers from 2010 in this issue carry an article identifier (AJC-8474 for this paper) rather than a CrossRef DOI. `no_doi_assigned: true` is set in source metadata.
-- **License.** Asian Journal of Chemistry is a copyrighted paywalled journal published by Asian Publishing Corporation. The wiki page reproduces only table-level summary data and methodological description consistent with fair-use / scholarly-citation norms.
-- **Jurisdiction scope.** Beijing retail market, single shopping trip at the Chaoshifa supermarket, late 2009. Feeds the CN jurisdiction signal on [[products/dish-soaps-manual]].
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/titanium]]
+- [[metals/selenium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

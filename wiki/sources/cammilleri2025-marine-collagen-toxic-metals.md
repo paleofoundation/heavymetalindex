@@ -72,42 +72,6 @@ UltraWAVE microwave digestion (3 mL 60% HNO₃ + 5 mL ultrapure water; ~0.1 g su
 - Jellyfish-derived collagen (*R. pulmo*) and mackerel-skin (*S. scombrus*) extract show non-detectable toxic metals across the full panel, identifying jellyfish biomass as an empirically lower-contaminant substrate. Relevant to supply-chain screening for collagen sourcing and to any future product subcategory that distinguishes source-organism within collagen powders.
 - Contributes occurrence evidence to [[metals/arsenic]] (1.11 mg/kg max, fish-marine route), [[metals/lead]] (0.201 mg/kg max, Pangasius-driven), [[metals/cadmium]] (low-level but near-ubiquitous in fish-derived; n.d. in jellyfish), [[metals/chromium]] (low-level, total Cr only, no Cr-VI speciation), and [[metals/mercury]] (largely absent except in Pangasius).
 
-## Wiki pages this source may touch
-
-- [[products/supplements-protein-collagen-powders]] — fish-derived collagen carries As-dominant toxic-metal profile with a Pangasius multi-metal signature; jellyfish-derived collagen empirically clean.
-- [[metals/arsenic]] — dominant contaminant; fish/marine-origin route; 1.11 mg/kg max in cod brand.
-- [[metals/lead]] — 0.201 mg/kg max, Pangasius-driven.
-- [[metals/cadmium]] — near-ubiquitous in fish-derived (98% detection), n.d. in jellyfish.
-- [[metals/chromium]] — total Cr only, low-level occurrence.
-- [[metals/mercury]] — largely absent (Pangasius-only trace).
-
-## Verification notes
-
-Merge-enhanced 2026-06-09 from the 2026-06-08 ingest. The prior version of this page contained the following defects, corrected against the source PDF in this revision:
-
-- Title was truncated to "Toxic metals in marine collagen supplements: occurrence and risk assessment"; corrected to the actual paper title "Toxic metals and metalloids in collagen supplements of fish and jellyfish origin: Risk assessment for daily intake" (paper cover page).
-- Chromium was missing from the `metals` source metadata and Key numbers; the paper measures 5 elements (Pb, Cd, Cr, Hg, As — Abstract, Methods §2.3, Table 3). Added Cr.
-- Cadmium maximum was reported as 0.0018 mg/kg; this value is the **mercury** maximum (Results §3, "mercury was found in only two samples from brand 2, showing a maximum of 0.0018 mg/kg"). The actual Cd total max is 0.013 mg/kg (Table 3, total row). Corrected the value transposition.
-- Lead maximum was missing; Table 3 reports total Pb max 0.201 mg/kg, min 0.094 mg/kg. Added.
-- The 1.11 mg/kg As maximum was attributed to a Pangasius (catfish) brand in the prior page; the paper assigns this maximum to Brand 1 (Atlantic cod, *Gadus morhua*) — Table 3 and Results §3 ("As was the most abundant trace element, with a maximum concentration of 1.11 mg/kg in a marine collagen sample of brand 1"; "Mean concentrations of As in brand 1 were significantly higher than the other brands"). Pangasius (Brand 2) is the worst performer for Pb, Cd, and Cr but not As. Corrected the species attribution.
-- Jellyfish was omitted entirely from `matrices` and `sample_population`; Brand 3 is jellyfish (*Rhizostoma pulmo*) per Methods §2.2 and Table 3. Added jellyfish-collagen matrix and updated sample_population.
-- The non-detection finding for jellyfish and *S. scombrus* skin extract was omitted; this is a load-bearing finding for collagen-substrate selection and is added to the Key numbers and Implications sections.
-- Sampling year range was reported as 2022; Methods §2.2 states purchases were made "during 2022 and 2023". Corrected to 2022-2023.
-- Authors list was truncated with "et al."; expanded to the full 11-author list from the paper cover.
-- Mercury analytical method (DMA-80 direct mercury analyzer, atomic absorption) was conflated with the ICP-MS measurement of the other four elements; clarified in Methods and Key numbers.
-- EU regulatory compliance finding (no samples exceeded Reg 2023/915 limits) and the per-element ADD-vs-TDI risk assessment outcomes were omitted; added to Key numbers for regulatory context.
-
-Brand-firewall: the paper uses anonymized "brand 1/2/3/4" labels with only species attribution disclosed (no commercial brand names). Per Part 12, species-level results are reproduced (species are a supply-chain category, not a brand identity); the underlying anonymized brand-by-brand sample counts are not reproduced beyond what is necessary for the species-level findings.
-
-Hg detection-percentage note: the abstract states "Hg was detectable in only 12% of the samples" while the Results section narrates "mercury was found in only two samples from brand 2." These two figures cannot both be true under the stated 4-brand × 30-sample design (2/120 = 1.7%; 2/30 = 6.7%); neither matches 12%. The Results-section narrative (Pangasius-only, 2 samples, max 0.0018 mg/kg) is reported as canonical because it is more specific and matches the species pattern of all other metals; the abstract 12% figure is treated as a likely abstract reporting error rather than substantive disagreement.
-
-Audit pass 2026-06-09 — applied corrections from the fresh-context audit editorial review (REVISE verdict):
-
-- Brand 1 Pb max: prior version reported 0.138 mg/kg (which is the total-row Pb mean, not the cod-brand max). Table 3 prints Brand 1 Pb max as 0.038 mg/kg, which is itself internally inconsistent with the stated Brand 1 mean (0.123 ± 0.023) and with the Figure 1 boxplot (Brand 1 Pb whiskers extending to ~0.17 mg/kg). Treated as a likely typo in the published Table 3; the printed value is reported with the inconsistency flagged. Audit editorial review (2026-06-09) flagged "0.138" as wrong; verified against source — corrected to the printed "0.038" with explicit paper-internal-inconsistency caveat.
-- ADD-as-percent-of-TDI: prior version stated "highest ADD-to-TDI ratio was Pb at the cod brand (~14% of TDI at the upper dose)". This figure is not in the paper — Table 4 shows the percent-of-TDI parenthesized values rounding to (0) at the precision printed; back-calculation from Pb TDI 0.5 µg/kg/day and total Pb ADD 1.4 × 10⁻² µg/kg/day gives ~2.8%, not 14%. Audit editorial review flagged the 14% as unsupported; verified against source — removed and replaced with the actual Table 4 ADD values and the authors' qualitative "alarming Pb" wording from Conclusions.
-- Cr "consistent worst performer" attribution to Pangasius: Pangasius has the highest Cr mean (0.053) but Tilapia has the highest Cr max (0.14, vs Pangasius 0.08); the paper Discussion §3 explicitly says "Higher *mean* Cr, Pb, and Cd values were found in… Pangasius". Audit editorial review flagged the wording; verified — Summary revised to "highest mean concentrations of lead, cadmium, and chromium (with the highest Pb and Cd maxes; Tilapia held the Cr max)".
-- HMTc framing in Summary ("within the HMTc supplements-protein-collagen-powders scope") and in Implications ("any HMTc category that distinguishes source-organism within collagen powders") was a Part 2 boundary concern. Audit editorial review flagged both; applied — Summary rephrased without HMTc reference; Implications changed to "any future product subcategory that distinguishes source-organism within collagen powders".
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

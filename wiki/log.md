@@ -3,6 +3,21 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-28] lint | hansra2026-lifecycle-of-a-wipe: replace publisher-chrome title
+
+Pages touched: [[sources/hansra2026-lifecycle-of-a-wipe]], [[metals/aluminum]], [[products/fish-marine-non-predatory]], [[sources/categories/north-america]]
+Notes: The ACS ES&T Water paper by Simran Hansra, Jacob Haney, and Chelsea M. Rochman (DOI 10.1021/acsestwater.5c00838) was filed under a scraped ACS page-chrome title. The source page is now hansra2026-lifecycle-of-a-wipe. The old slug remains an alias so the previous URL redirects. Bibliographic title, authors, and journal were taken from the Crossref record. Extracted numeric lines were not changed. Direction: toward the literature.
+
+## [2026-09-28] lint | public-batch-prose: remove ingest bookkeeping from published pages
+
+Pages touched: published pages under wiki/ (sources, products, ingredients, metals, regulations, synthesis, supply-chain, methodology). Batch detail moved to [[batch-reports/public-prose-relocation-2026-09-28]], which the public build does not publish.
+Notes: Inventory of internal ingest and batch-log lines is in data/evidence/public-batch-prose-inventory-2026-09-28.csv. Reader-facing source links were kept as Related evidence or ordinary sentences. Measured values, units, and citations were not changed. `tools/audit-public-batch-prose.mjs` fails CI, pre-commit, and prebuild on the same patterns. Quartz ignorePatterns now exclude batch-reports, lint, and log.md. Direction: toward the literature. No certification threshold was set.
+
+## [2026-09-28] lint | homepage-layout: remove public batch logs
+
+Pages touched: [[index]]
+Notes: Removed two batch-log sections that sat after the designed homepage: geographic variation and remediation literature (added in the 2026-09-10 Library drain, a0235db5a) and baby lotion, oil, and powder sources (added in PR 170). The sources were already linked from their product, ingredient, metal, mitigation, and synthesis pages. `tools/audit-homepage-layout.mjs` now fails CI, pre-commit, and prebuild if a markdown heading or other prose appears outside the designed homepage. Ingest instructions now say to link new pages from the family index or topic page, not the homepage. Direction: toward the literature. No evidence claim was rewritten.
+
 ## [2026-09-27] batch | karen-batch-2026-09-26: state-of-food repository counts
 
 Pages touched: [[reports/state-of-heavy-metals-in-food-2026]]

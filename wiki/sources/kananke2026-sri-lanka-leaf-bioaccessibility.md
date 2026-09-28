@@ -96,7 +96,7 @@ Supports region-specific leafy-vegetable occurrence and cooking/bioaccessibility
 
 Evidence Fitness: EF-2 for source concentrations and region/treatment comparisons; EF-3 for modeled digestive exposure. Keep total plant results separate from digest fractions and preserve nondetection.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[ingredients/leafy-vegetables]]
@@ -106,12 +106,6 @@ Evidence Fitness: EF-2 for source concentrations and region/treatment comparison
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/copper]]
-
-## Verification notes
-
-Novel in-vitro-digest matrix represents PBET extracts, never a product concentration row. All 50 table rows and their 13 cells are preserved, with source ± treated as unspecified dispersion rather than inventing SD. Tables govern over prose ranges that occasionally disagree. Cr is elemental/unspeciated. WHO/FAO comparisons in table footers are not primary legal evidence. Duplicate/overlapping PDF text layers are counted once; no exact values invented for unlabeled Figure 3/4 bars.
-
-The preserved Library PDF is identified by `RPHMI_13`; SHA-256 `a3831d5e819ddfe322589009fb7273dc78310edbc80de2be5e22c9cd7a19ae0b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.46488/nept.2026.v25i01.d1830. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
