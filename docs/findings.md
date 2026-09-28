@@ -513,7 +513,17 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-269 open item(s): 94 auto, 175 awaiting a decision.
+270 open item(s): 94 auto, 176 awaiting a decision.
+
+### OI-20260928-wiki-edit-audit-union-merge — wiki_edit_audit.jsonl conflicts on every concurrent branch merge; needs merge=union
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `.gitattributes`, `data/evidence/wiki_edit_audit.jsonl`
+- repro: data/evidence/wiki_edit_audit.jsonl is append-only, so two branches that each add provenance rows both write at the same end-of-file location and git reports a content conflict. Reproduced four times on SYN-REV-1: merging main into claude/syn-rev-1-diaper-creams, -mineral-sunscreens and -baby-wipes each conflicted on this file alone, after main gained the rows from PR #179 and #184. Every other file merged clean. Resolution each time was a hand-built union (main version, then the branch rows) plus revalidation, which is mechanical work repeated per branch. Verified fix: one line in .gitattributes, `data/evidence/wiki_edit_audit.jsonl merge=union`, makes all four branches merge with no conflict and yields 18 provenance rows with every line valid JSON. Not pushed because it changes repo-wide git merge semantics on a provenance file that the audit trail depends on, and because union merge never conflicts, so a genuine rewrite of an existing row would be silently unioned into a duplicate rather than flagged. The log already tolerates 31 duplicate edit_ids, so that tradeoff looks acceptable, but it is a governance call on the provenance layer rather than a mechanical fix.
+- done when: .gitattributes contains the line: data/evidence/wiki_edit_audit.jsonl merge=union; Two branches that each append provenance rows to data/evidence/wiki_edit_audit.jsonl merge into each other with no conflict; Every line of the merged data/evidence/wiki_edit_audit.jsonl parses as JSON and no appended row is lost from either side; The pre-commit wiki_edit_audit staged-alongside-wiki-changes check still passes
+- evidence: SYN-REV-1 merges of origin/main into the three remaining branches: CONFLICT (content) in data/evidence/wiki_edit_audit.jsonl on all three, no other file conflicted · Resolved by union at 11065, 11065 and 11063 rows; 0 invalid JSON lines; duplicate edit_id count unchanged at the 31 already present in the base
+- decision: _pending_
+- notes: Surfaced during SYN-REV-1 (PRs #179-#184). Out of scope for that order, which is limited to four synthesis pages.
 
 ### OI-20260928-publisher-chrome-titles — Four source pages still use scraped publisher page chrome as the title
 
