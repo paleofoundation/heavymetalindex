@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-28] lint | hansra2026-lifecycle-of-a-wipe: replace publisher-chrome title
+
+Pages touched: [[sources/hansra2026-lifecycle-of-a-wipe]], [[metals/aluminum]], [[products/fish-marine-non-predatory]], [[sources/categories/north-america]]
+Notes: The ACS ES&T Water paper by Simran Hansra, Jacob Haney, and Chelsea M. Rochman (DOI 10.1021/acsestwater.5c00838) was filed under a scraped ACS page-chrome title. The source page is now hansra2026-lifecycle-of-a-wipe. The old slug remains an alias so the previous URL redirects. Bibliographic title, authors, and journal were taken from the Crossref record. Extracted numeric lines were not changed. Direction: toward the literature.
+
 ## [2026-09-28] lint | public-batch-prose: remove ingest bookkeeping from published pages
 
 Pages touched: published pages under wiki/ (sources, products, ingredients, metals, regulations, synthesis, supply-chain, methodology). Batch detail moved to [[batch-reports/public-prose-relocation-2026-09-28]], which the public build does not publish.

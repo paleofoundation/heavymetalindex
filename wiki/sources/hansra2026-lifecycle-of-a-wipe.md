@@ -1,11 +1,12 @@
 ---
 type: source
 raw_handle: RPMEHG_10-1021-acsestwater-5c00838
-cite_key: authors2026-access-metrics-more-article-recommendations-supporting-information
-title: "ACCESS Metrics & More Article Recommendations * Supporting Information"
-authors: ["Unknown authors"]
+cite_key: hansra2026-lifecycle-of-a-wipe
+aliases: ["sources/authors2026-access-metrics-more-article-recommendations-supporting-information"]
+title: "Lifecycle of a Wipe: Determining the Contamination, Fate, and Transformation of Wet Wipe Pollution in the Environment"
+authors: ["Simran Hansra", "Jacob Haney", "Chelsea M. Rochman"]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "ACS ES&T Water 6(3):1473-1480"
 doi: 10.1021/acsestwater.5c00838
 source_type: peer-reviewed
 evidence_tier: B
@@ -23,7 +24,7 @@ sample_population: "Not mechanically resolved from the PDF; see Key numbers for 
 updated: 2026-08-03
 ---
 
-# authors et al. 2026 - ACCESS Metrics & More Article Recommendations * Supporting Information
+# Hansra, Haney, and Rochman 2026: Lifecycle of a Wipe
 
 ## Overview
 
