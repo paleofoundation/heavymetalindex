@@ -53,15 +53,6 @@ This is a literature-review chapter in an edited Springer volume. It summarizes 
 
 This source is useful as a broad map of plant-food occurrence literature and as a triage guide for primary-study retrieval. It should not be treated as a clean benchmark distribution because the tables combine countries, sample types, study designs, contamination settings, and analytical bases. Where underlying primary studies are available, their source pages should carry the routeable values; this review should remain broad context for cereals, vegetables, fruits, pulses, nuts, and plant oils.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; introduction, Table 3 headings, Table 4 headings, fruits/nuts/pulses/oils sections, and Tables 5-8 were checked in `/tmp/f3_texts/hussain2019.txt`.
-- DOI `10.1007/978-3-030-03344-6_20`, raw handle `MFK_hussain2019`, and cite-key checks found no existing source page before creation.
-- Numbers above are review-level prose/table values copied as `mg kg−1`; no unit conversion was performed.
-- Speciation: arsenic, mercury, and nickel values in the review are not consistently speciated. source metadata uses `tAs` and `tHg` for occurrence routing and does not claim inorganic arsenic or methylmercury.
-- Brand firewall: no brand-level values are used.
-- source metadata slugs were checked against the editorial record; generic "nuts" is not an ingredient slug, so nuts route through peanuts plus the broad `nuts-seeds-other` product row. `jurisdictions: [GLOBAL]` is used because the review compiles studies across many countries and does not have one sampling jurisdiction.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

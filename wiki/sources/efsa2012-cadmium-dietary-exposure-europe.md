@@ -84,15 +84,6 @@ EFSA used cadmium occurrence results submitted through the 2007 call for data an
 
 This report is an A-tier European regulatory occurrence and dietary-exposure anchor for cadmium in food. It supports broad cadmium routing for grains, vegetables, potatoes, seafood/shellfish, seaweed, cocoa/chocolate, spices, infant foods, and drinking-water categories. The FoodEx summary means are not HMTc standards and should not be treated as jurisdiction-specific clean/dirty percentiles; they are occurrence and exposure inputs that preserve EFSA's left-censoring assumptions and European market scope.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the abstract, Summary, Sections 2.1-2.3, Table 1, Table 2, Discussion, and Conclusions were checked in `/tmp/ingest_f3_efsa2012_cadmium.txt`.
-- DOI `10.2903/j.efsa.2012.2551` appeared only as a citation in an existing EU regulation source page, not as an existing source-page identity; raw handle and cite-key checks found no duplicate source page before creation.
-- Table 1 and selected Table 2 numbers were copied exactly as `µg/kg`; weekly exposure estimates were copied as `µg/kg body weight` or `µg/kg b.w.` as stated by the source. No unit conversion was performed.
-- Speciation: cadmium is reported as cadmium occurrence; no cadmium species conversion is involved.
-- Brand firewall: the report aggregates FoodEx categories and European survey data; no brand-level values are attached to contamination results.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary product slugs include water molluscs, crustaceans, algal formulations, bitter chocolate, bitter-sweet chocolate, boiled potatoes, pastries/cakes, and carrots, so broad category routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

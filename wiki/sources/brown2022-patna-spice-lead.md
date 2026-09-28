@@ -51,21 +51,13 @@ Courses: The paper is useful for teaching why spice lead can dominate child expo
 
 App: Route as India-market spice and turmeric risk evidence. The household-use data support caution for loose turmeric and other bright-colored ground spices where lot-level lead screening is absent.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
 - [[ingredients/turmeric]]
 - [[metals/lead]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- Table 3 and Table 6 are the numeric basis for this source page. The abstract rounds the geometric means to 46.8 vs. 134.5 ppm for all spices and 59.4 vs. 216.9 ppm for turmeric.
-- The ICP-MS/XRD subset was selected from high-pXRF samples, not randomly from all household spices; it supports adulteration/speciation context but should not be treated as the distribution for all Patna spices.
-- Chromium is present as Pb:Cr molar-ratio and XRD context for lead chromate. The paper does not report routine total chromium concentrations for every spice sample and does not provide Cr(VI) occurrence values.
-- source metadata sample_n is 132 (the number of spice-tested households in Table 6), distinct from the 135 children/households enrolled overall; the page's primary contamination evidence is the spice n.
-- The paper's abstract gives an overall child BLL GM of 11.6 µg/dL; Table 1 and the body Results section give 12 µg/dL. This page uses the Table 1/body value (12), which the paper itself treats as the primary figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

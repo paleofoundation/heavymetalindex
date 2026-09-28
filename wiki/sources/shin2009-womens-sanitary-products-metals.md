@@ -54,19 +54,10 @@ Courses: The paper is useful for contrasting total metal content with extractabl
 
 App: The source supports menstrual-product contamination profiles for Cr, Co, Ni, Cu, Cd, and Pb while respecting the brand firewall by reporting only product-form/country/sample-code results.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-pads]]
 - [[products/menstrual-tampons]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1545.txt`; Tables 1, 2, 3, 4, and 5 were re-read before writing.
-- Identity checks before creation: exact title, raw handle `MFK_gorhb4-2009-v33n6-853`, raw SHA-256 `e04c04b92afe14546d7d114e8b4671e91aa385270355bc1a2cb7f2c989ab83ac`, and cite key `shin2009-womens-sanitary-products-metals` were searched in the linked reference record and evidence files; no existing source page was found.
-- No DOI was found in the extracted text; `doi: null` and `no_doi_assigned: true` are used.
-- Units are preserved: total content uses `ppm`; extractable metals use `ppb`. No conversion between units was made.
-- Brand firewall: the paper mentions products as country/sample codes; no brand names are transcribed into the values.
-- The sample count inconsistency (`18` enumerated vs `23` in the Conclusion) is recorded in source metadata and Key numbers.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

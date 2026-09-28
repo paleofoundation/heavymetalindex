@@ -60,7 +60,7 @@ App: Beeswax-containing products may need separate evidence from honey; this pap
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -68,10 +68,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The PDF title, authors, DOI, journal, year, license, methods, and Table 1 values were read from the auto-fetched PDF. The source measures total chromium and total metal concentrations in beeswax; it does not provide chromium speciation, arsenic, mercury, or honey-as-food values. `matrices: [beeswax]` is a source-specific matrix flag for controlled-vocabulary review, not a honey-product routing claim.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

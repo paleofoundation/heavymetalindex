@@ -52,16 +52,11 @@ App: No product concentration value. Potential future use is explanatory mitigat
 
 Microbiome: Directly relevant to cadmium-gut-liver-axis teaching because treatment effects included gut microbiota diversity and composition.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[mitigation/remediation-evidence]]
 - [[mitigation/formulation]]
-
-## Verification notes
-
-- DOI, title, authors, journal, year, and license were transcribed from the PDF.
-- The PDF is tagged by the fetch queue as supplement/probiotic, but the actual source is an animal mitigation study. Products and ingredients are intentionally empty so the cadmium challenge data do not route into occurrence thresholds.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

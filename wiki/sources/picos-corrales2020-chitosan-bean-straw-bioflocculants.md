@@ -54,7 +54,7 @@ Courses: Useful for supply-chain and co-packer training on bioflocculation as a 
 
 App: Context only. The paper does not support consumer-facing product contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
@@ -62,10 +62,6 @@ App: Context only. The paper does not support consumer-facing product contaminat
 - [[metals/manganese]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-The DOI, author list, journal, and year were taken from the ACS Omega PDF. The paper is not occurrence evidence: products and ingredients are intentionally empty, and the matrices are wastewater, river-water, and bioflocculation contexts. Table 1 has a formatting gap in the extracted text for the first ES phosphate value, so the source page preserves only clearly aligned values and avoids inferring the missing cell.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

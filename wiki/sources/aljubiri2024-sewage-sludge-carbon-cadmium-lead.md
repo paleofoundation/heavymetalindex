@@ -52,17 +52,13 @@ Courses: Useful for remediation and supplier-control lessons because it gives tr
 
 App: No direct product-risk distribution. The source can support context that upstream wastewater treatment technologies may reduce Cd/Pb release or recycle contaminated sludge into adsorbent materials.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[testing/icp-ms]]
-
-## Verification notes
-
-This page was built from the PDF title page, abstract, characterization sections, adsorption-study results, and methods descriptions. The auto-fetch filename's "fabric-protectants" label is not supported by the source. Products and ingredients are intentionally empty because the data are wastewater-remediation endpoints.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

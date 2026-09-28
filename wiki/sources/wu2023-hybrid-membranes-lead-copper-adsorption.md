@@ -86,18 +86,12 @@ App: Context for water-treatment and remediation notes. The main signal is that 
 
 Courses: Useful for teaching condition optimization, membrane adsorbent design, and the difference between mmol/g adsorbent capacity and metal concentration in a sampled matrix.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including Table 1 membrane recipes, SEM/FTIR/TGA characterization, Table 2 capacity comparison, Cu2+ and Pb2+ condition-optimization sections, Tables 3 and 4 time-fraction summaries, intraparticle-diffusion discussion, conclusion, and supplementary-materials note. The source reports Cu2+ and Pb2+ adsorption capacities in prepared aqueous systems only. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
-
-Audit editorial review (2026-06-02, v2 skill) returned PROMOTE on all five checks: numerical fidelity verified across Tables 1-4 and Cu2+/Pb2+ optima; speciation, methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all clean. One optional source-fidelity tightening applied: oven-drying step now states the full PDF-described ramp (35 C with 5 C step increases every other day to 50 C) rather than the compressed earlier wording. Cu is outside the HMTc 10-analyte primary vocabulary but `[[metals/copper]]` exists and the wiki-page slug is valid. The remediation-domain matrices vocabulary (organic-inorganic-hybrid-membrane, aqueous-sorption-test, wastewater-remediation) is not in the formal taxonomy snapshot but is precedented in li2020-silk-fibroin-nanoflower-lead-remediation, mehanathan2023-magnesium-oxide-arsenate-remediation, and macias2023-polymer-inclusion-membranes-seawater-metals; this is a taxonomy-housekeeping gap, not a per-page defect. The advisory entry in routing_malformed.csv (missing products/ingredients) is intentional for this remediation-methods paper class.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

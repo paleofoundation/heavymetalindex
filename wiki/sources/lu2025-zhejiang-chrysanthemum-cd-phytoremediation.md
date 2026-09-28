@@ -109,26 +109,10 @@ Courses: Useful case study for how phytoremediation economics work in practice. 
 
 App: Route as Cd-contaminated-farmland and phytoremediation context for cadmium. Do not route chrysanthemum tissue concentrations to food ingredient pages. Cross-reference for upstream-soil-Cd context relevant to Chinese rice exceedance.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF is the published version-of-record from MDPI Toxics, CC BY 4.0; DOI 10.3390/toxics13050360. Title, author roster, and publication metadata match the title page. The 23-cultivar count and the 14-multiple-cropping count are stated in §3.1 and §3.2 respectively and were verified against Figures 2 and 3.
-
-The biomass and Cd-content ranges quoted above (67.10-166.08 g, 1.97-5.92 mg/kg, EC 2.98-9.84) are taken from the §3.1 text, not estimated from Figure 2 bar graphs. The per-plant Cd accumulation range 0.26-0.83 mg and 4-13 remediation stages are explicit in §3.1 text. The chelator-treatment percentage-point changes are explicit in §3.4 text.
-
-The single-plant maximum of 0.64 mg in QJ-hg appears only in the Conclusions section (paper §4); it is not in §3.1 narrative and is treated as the per-plant single-plant maximum rather than the per-cultivar mean.
-
-Brand firewall: vendor and instrument names (Agilent 7500, Mars 6 CEM, Origin Pro 2022, SPSS 25) appear only in the Methods description and are retained per the Part 12 methods-vendor exception. The chemical product "EDTA-Si" is described as a silica-immobilized EDTA composite purchased from "Jiangsu Fertilizer Industry Co., LTD"; the manufacturer name is retained as a methods-supplier identifier rather than a brand-attribution-to-contamination claim. "Bamboo vinegar" is described generically as a natural organic acid byproduct of bamboo charcoal production; no commercial brand of bamboo vinegar is named.
-
-Cultivar codes (ZS-zc, QJ-hg, JL-yg, etc.) are scientific-trial identifiers from the Chrysanthemum Base of Nanjing Agricultural University and are retained verbatim. Full Chinese variety names (Zhongshanzichen, Qingjianhuanggai, Jinlingyuegui, etc.) are reproduced as printed in Table 1.
-
-No food-channel ingredient or product is named. The "rice exceedance rate of nearly 30%" is a contextual statement about the trial site's farmland, not a measurement on the chrysanthemums; it is cited under the contamination baseline and not routed to ingredient pages.
-
-source metadata matrices use `agricultural-soil` and `plant-tissue`, both of which are in the `_no_route` block of the structured evidence record. The routing layer correctly ignores them rather than emitting false product routes. No ingredient or product slugs are claimed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

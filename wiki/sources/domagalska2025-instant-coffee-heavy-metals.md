@@ -49,7 +49,7 @@ Zn, As, Cr, and Ni were measured by ICP-OES. Cd and Pb were measured by electrot
 
 The source supports coffee occurrence evidence for instant coffee beverages in Poland. Because Pb, Cd, and As were mostly censored below LOQ, extracted rows should preserve the censoring basis rather than treating non-detects as zero.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/coffee]]
 - [[products/coffee]]
@@ -59,10 +59,6 @@ The source supports coffee occurrence evidence for instant coffee beverages in P
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The source reports total arsenic, not inorganic arsenic. Manufacturer and product identities were not transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

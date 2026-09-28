@@ -47,7 +47,7 @@ Vegetable samples were collected from farmlands irrigated with domestic wastewat
 
 The source supports vegetable gap filling for wastewater-irrigated produce in India. It should not be silently pooled with ordinary retail-market vegetables because the exposure setting is domestic wastewater irrigation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[ingredients/cabbage]]
@@ -61,10 +61,6 @@ The source supports vegetable gap filling for wastewater-irrigated produce in In
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The source reports values in mg/kg for vegetable tissues and separately reports transfer factors and risk-index calculations. The wiki page captures source-reported occurrence values and keeps the wastewater-irrigation context explicit. The abstract and discussion differ on the highest-Cr crop assignment: the abstract gives carrot, while the discussion gives radish at the same 1.16 mg/kg value.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

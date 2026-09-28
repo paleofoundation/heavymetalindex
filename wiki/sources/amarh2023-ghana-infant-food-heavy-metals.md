@@ -63,18 +63,6 @@ The authors randomly purchased 22 locally and internationally produced infant fo
 
 This source is high-value broad Category 1 evidence for infant foods and formula sold in Ghana, especially for Pb, Cd, total As, total Hg, Ni, Cr, Sb, and Mn occurrence in the same sample set. It should route to broad infant-food pages, but the extracted text does not decode the sample IDs into formula, cereal, puree, snack, or mixed-meal rows, so row-specific standards pooling would require source-level product-code review first. Total As cannot be used as inorganic arsenic, total Hg cannot be used as methylmercury, and total Cr cannot be used as Cr-VI. The paper is useful for courses as a teachable example of why infant-food occurrence papers need a product-code dictionary before standards math can safely use them.
 
-## Verification notes
-
-- This was a DOI duplicate of an existing source page (`amarh2023-ghana-infant-food-heavy-metals.md`) that had `updated: 2026-04-29`, legacy headings, converted ppb equivalents, and bare product slugs. The page was merge-enhanced from the manual-fetch PDF at the archived source file; the MFK handle was added to `near_duplicates`.
-- PDF text extracted with `pdftotext -layout`; the extracted text contained readable methods, Tables 1-6, conclusion, DOI, and license statement.
-- DOI verified from the PDF title page and metadata as `10.1016/j.heliyon.2023.e16225`.
-- Concentration means and ranges were checked against Table 1 and sections 3.1.1-3.1.8. The Cd range in Key numbers follows Table 1 / abstract (`0.043-0.064 mg/kg`); section 3.1.2 prints `0.0043-0.064 mg/kg`, which appears inconsistent with the table.
-- Units are preserved as reported (`mg/kg`, `mg/kg/day`, `g/day`); the previous page's approximate ppb conversions were removed.
-- Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
-- Brand firewall: the paper states that 22 brands were sampled, but the extracted text uses coded sample IDs. This page does not attach brand names to contamination values.
-- source metadata product and ingredient slugs were corrected to existing taxonomy-snapshot slugs. The source mentions infant formula broadly, but powder/liquid and soy/non-soy status are not resolved in the extracted text, so formula is kept as matrix context rather than overspecified as a formula product row.
-- Audited 2026-06-09 against the archived source file: all eight per-metal means and ranges, EDI assumptions, recovery values, and methods text reproduce the source. Cr upper-bound abstract/table discrepancy is now noted in Key numbers alongside the existing Cd and HI notes. Audit also flagged `products/baby-food` as missing from the taxonomy snapshot; verified false positive — the linked reference record exists and the slug is in the canonical product list.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

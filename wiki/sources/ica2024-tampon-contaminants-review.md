@@ -79,7 +79,7 @@ App: The report can support a tampon evidence-card note that FDA CDRH commission
 
 Microbiome: Not directly addressed. The review mentions vaginal microenvironment biomarkers as a target evidence domain, but it reports that the identified literature did not compare contaminant exposures in the vaginal microenvironment versus systemic circulation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[metals/arsenic-total]]
@@ -97,10 +97,6 @@ Microbiome: Not directly addressed. The review mentions vaginal microenvironment
 - [[metals/strontium]]
 - [[metals/vanadium]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-21-fda-2025-tampons-systematic-review`, candidate cite keys `ica2024-tampon-contaminants-review` or `fda2024-tampon-contaminants-review`, exact title, or "International Consulting Associates" tampon-review wording. The local filename says `FDA_2025`, but the PDF cover date is `December 5, 2024`, so `year: 2024` is used. No DOI is printed in the report; `doi: null` and `no_doi_assigned: true` are retained. The raw PDF SHA-256 is `80cda8138ffbd37ea159e544d55ffdba9aec603fd5b37d9cf137dc191bb1c548`. Key numbers were checked against the PRISMA/results narrative, Tables 2-5, the Discussion, and Evidence Assessment sections in `/tmp/hmi-fem-013.txt`. Arsenic and mercury values transported from Shearston/Singh are total-element values, not iAs or MeHg; chromium is total Cr, not Cr-VI. Brand firewall is clean: the report explicitly states that brands/manufacturers were generally not disclosed and this page reports no brand-linked values. The `near_duplicates` entries point to primary/companion sources already represented in the wiki; they are not true duplicate source pages. `npm run evidence:source-routes` exited 0 and generated one `menstrual-tampons` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

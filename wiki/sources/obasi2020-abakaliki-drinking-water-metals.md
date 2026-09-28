@@ -50,7 +50,7 @@ Courses: The study is useful for teaching jurisdiction, geology, and source-type
 
 App: The source may support warnings or context for private wells and community drinking-water sources near mining activity, especially where water is used directly for consumption.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
@@ -60,10 +60,6 @@ App: The source may support warnings or context for private wells and community 
 - [[metals/mercury-total]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The auto-fetch filename described this as a mineral-water cadmium product hit, but the PDF is an Applied Water Science article on community water resources in Nigerian lead-zinc mining areas. The DOI in the PDF is 10.1007/s13201-020-01233-z, and no existing the linked reference record DOI match was found before ingest. Because the paper reports total As, total Hg, and total Cr without species resolution, the source page does not route those values as iAs, MeHg, or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

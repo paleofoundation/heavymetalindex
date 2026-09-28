@@ -48,7 +48,7 @@ Courses: Important for infant exposure assessment module; demonstrates that diet
 App: Urinary biomarker data can inform qualitative context for infant cereal exposure, while preserving the study's limited clinical cohort and nonsignificant arsenic-group comparison.
 Microbiome: Infant exposure data relevant to early life metal exposure and microbiome development context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-cereal]]
 - [[products/baby-cereals-dry-rice-based]]
@@ -63,10 +63,6 @@ Microbiome: Infant exposure data relevant to early life metal exposure and micro
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/uranium]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 removed product brand names used as thickener-group identifiers, corrected invalid formula/product and matrix vocabulary, removed non-taxonomy health wikilink, removed instrument/reference-material brand names from Methods, and tightened HMT&C/app language away from safety determinations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

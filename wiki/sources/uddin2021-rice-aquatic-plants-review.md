@@ -63,18 +63,6 @@ Narrative review; no primary measurements. The authors aggregate values from app
 
 **App:** Reinforces rice as a high-priority ingredient for As and Cd profiling. Supports flagging water spinach, lotus root, and watercress as higher-risk aquatic vegetables when sourced from regions with documented industrial or mining contamination of irrigation water.
 
-## Verification notes
-
-- Enhanced 2026-05-18 from prior 2026-05-14 revision. Cite_key, DOI, raw_path, license preserved.
-- **Numerical corrections to Table 2 transcription.** The prior revision had column-shifted values for Rice, Water Spinach, and Watercress rows. Corrected against the source PDF Table 2 (p.8): Rice Pb is 0.01–0.53* (not 0.12–0.37), Rice Cr is 0.12–0.37 (not 2.6–5.3), Rice Cu is 2.6–5.3 (not previously reported), Rice Ni is 0.25* (not 0.01–0.53). Water spinach Cd is 0.06–1.10* (not Pb), water spinach Hg is 1.44* (not Cd); Zn 16–36 belongs to the Rice row, not Water Spinach. Watercress Cr is 0.34 (not 0.30), watercress Co is 0.30* (newly included), watercress Ni 0.34* added. All values cross-verified to Table 2 columns.
-- **Paper-internal Hg inconsistency for water spinach.** The body (p.4) cites Göthberg et al. 2002 as "Hg concentrations of up to 1.440 µg kg⁻¹ dry weight"; Table 2 summarizes the same reference as 1.44 (mg/kg wet produce). The difference is three orders of magnitude. Reported here as the paper presents both, without choosing one over the other. Downstream synthesis should consult Göthberg et al. 2002 directly before using either value.
-- **Speciation discipline.** The review does not separate iAs/tAs or MeHg/tHg in its occurrence tables, so source metadata uses tAs and tHg. The metals field expanded from the prior revision to include Cu, Zn, and Co because Table 2 reports occurrence values for those three across the cited species.
-- **Raw handle correction.** Changed from non-standard `papers-cube` to `PCMF_article-1-copy-5` per the manual-fetch handle convention.
-- **Matrices.** Updated from `[rice, aquatic-vegetables, irrigation-water]` to `[rice, leafy-vegetable, root-vegetable, irrigation-water]` to align with the controlled vocabulary in the editorial record; aquatic-vegetables is not in the vocabulary, and leafy-vegetable + root-vegetable better describe what the review actually compiles (water spinach/watercress leaves; lotus tuber, taro corm).
-- **Routing advisory.** `products: []` is correct for this review — it is a synthesis across food-source categories, not a product-category study; the advisory entry in `routing_malformed.csv` is expected and non-blocking for a review of this kind.
-- **Missing-ingredient-slug proposals.** Four declared ingredient slugs do not currently exist as wiki pages (verified 2026-05-18 against the linked reference record directory): `water-spinach`, `lotus-root`, `watercress`, `taro`. Each is contributed to by this A-tier review; the freq-2+ auto-stub script will pick them up if a second contributing source appears, per Part 10. Documenting here so the audit's slug-vocabulary finding is explicit rather than implicit.
-- **Implications-section tightening 2026-05-18 (editorial review audit).** Audit editorial review (2026-05-18) flagged two Implications phrasings as boundary-extrapolating beyond what this single review supports ("rice-based infant cereals and rice flours" — verified not in source; "root-vegetable certification" scope decision — verified not in source). Both verified against source and softened to stay strictly within "contributes occurrence data" framing.
-
 ## Related evidence
 - [[metals/arsenic]]
 - [[metals/cadmium]]

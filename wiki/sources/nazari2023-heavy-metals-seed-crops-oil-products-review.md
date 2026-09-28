@@ -149,28 +149,10 @@ Courses: Provides usable cross-country contamination overviews for educational m
 
 App: Low utility for direct app-facing exposure modelling given that concentrations are aggregated from secondary sources with inconsistent units (µg/kg, µg/g, mg/kg, ng/g) and missing sample sizes. Populate ingredient/product pages from the underlying primary studies (Bakkali 2012, Bakircioglu 2013, Chaves 2010, Szyczewski 2016, Torki 2018, Rodushkin 2008, EFSA 2012a/2014a/2014b, Arcella 2019) rather than from this review.
 
-## Verification notes
+## Related evidence
 
-Enhancement on 2026-05-25 from prior 2026-05-14 revision:
-- Replaced thin Key numbers narrative with a full per-metal compilation reproducing Table 1 (Pb, Cd, As, Ni, Hg, Cr across all reported seed/oil/country combinations) and Table 2 (Codex/FDA/EU MLs), plus the Torki 2018 (Iran, n=331) per-seed Pb/Cd values and the EFSA 17-country iAs survey reproduced on review p. 110.
-- Removed invented `[[ingredients/oilseeds]]` slug — not in current taxonomy snapshot. Replaced the umbrella with the specific oil/seed ingredient slugs that the paper actually reports values for.
-- Removed `[[ingredients/flaxseeds]]` from the (renamed) wiki-touch section — not in current taxonomy snapshot.
-- Renamed legacy `## Wiki pages updated on ingest` heading to current-schema `## Wiki pages this source may touch`.
-- Fixed `raw_handle` from the placeholder `manual-fetch-source-retrieval` to the canonical handle `MFK_p0329-impacts-of-heavy-metals-in-seed-crops-and-oi`.
-- Fixed `raw_path` filename to include the actual file basename (the prior path truncated the title).
-- Expanded `metals:` from `[tAs, Pb, Cd, tHg, Ni, Cr]` to `[Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI]` because the review explicitly discusses iAs (EFSA 17-country survey, p. 110), MeHg (JECFA PTWI, p. 118), and Cr-VI (genotoxicity, p. 118) as distinct from the umbrella values, alongside tAs/tHg/Cr values that appear in Table 1.
-- Added `access_url`, expanded `jurisdictions:` to reflect the 14 countries whose primary studies are compiled (global, EU, IR, TR, ES, BR, SE, FR, IT, KSA, PL, NG, CN, US).
-- Added explicit transcription note on the Bakkali 2012 olive oil Cd mean/range inconsistency in the source table.
-- Retained `peanuts` and added `peanut-oil` ingredient slug because the review's body and Table 1 reference peanut/groundnut oil concentrations in multiple cited studies (Rodushkin 2008 Sweden Pb, Onianwa 2000 Nigeria Ni, EFSA cited 2002-2011 mercury).
-- Existing `evidence_tier: B` retained — review with explicit per-value citation chain to primary studies, but no systematic-search methodology.
-- No primary data; all the above are transcriptions from the review's own tables and prose, not synthesis claims against the broader literature.
-
-No brand names appear in this review's compilations (samples are referenced by oil type and country, not by manufacturer); no Part 12 redaction was required. No HMTc threshold proposals appear in the review and none were inserted (Part 2 firewall observed).
-
-Audit editorial review (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attributing the matrix as "Soybean — Europe" when the review explicitly says "455 oilseed samples"; verified against PDF p. 111 §2.5 — corrected to "Oilseeds — Europe". Audit editorial review also flagged the JECFA Cd PTMI as a silent unit correction (review prints "25 µg/g body weight" on p. 116; wiki had written "25 µg/kg body weight" without note); verified against the source and against the canonical JECFA Cd PTMI (25 µg/kg bw/month) — retained the canonical value but added an inline transcription note matching the pattern used for the Bakkali 2012 Cd inconsistency. Audit editorial review also noted matrices `[oilseed, vegetable-oil, seed-oil]` are not in the loaded taxonomy snapshot (matrices uses its own controlled vocabulary per the editorial record); no change applied because matrices vocabulary verification is out of scope for this audit and the existing values match prior usage in the corpus for oilseed-and-vegetable-oil reviews.
-
-## Wiki pages this source may touch
-
+- [[ingredients/oilseeds]]
+- [[ingredients/flaxseeds]]
 - [[ingredients/vegetable-oils]]
 - [[ingredients/vegetable-oil]]
 - [[ingredients/olive-oil]]

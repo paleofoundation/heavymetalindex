@@ -57,7 +57,6 @@ Five hair dyes sold in Ibadan were digested and measured by ICP-OES for 22 eleme
 | As | USFDA As | 3.00 | ppm | regulatory_limit |  | p.PDF p.5-9 |
 | B | USFDA boron as an impurity | 10-20 | ppm | regulatory_limit |  | p.PDF p.5-9 |
 
-
 ## Methods (brief)
 
 ICP-OES wavelengths are listed in Table 2, with a stated dilution of 20 and 1000 μg/mL stock standards. Questionnaires from 250 adults in a southwest local government area of Ibadan were used for exposure factors. Tables of hazard quotients and lifetime cancer risk were not transcribed cell by cell.

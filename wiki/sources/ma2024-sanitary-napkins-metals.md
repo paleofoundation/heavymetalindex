@@ -64,7 +64,7 @@ App: The source supports a menstrual-pad evidence card for Pb, Cd, tAs, Ni, Cr, 
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-pads]]
 - [[metals/arsenic-total]]
@@ -75,10 +75,6 @@ Microbiome: Not applicable.
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for DOI `10.1016/j.eti.2024.103606`, raw handle `MFK_1-s2-0-s2352186424000828-main`, cite key `ma2024-sanitary-napkins-metals`, or the exact title. The DOI, title, authors, journal, year, and CC BY-NC-ND license were checked against the first page and PDF metadata. Table 1 values were re-opened from `/tmp/hmi-fem-003.txt` and checked against the source table; units remain `μg/kg`, and values below LOQ remain marked with `<`. Table 4 exposure estimates and Section 3.4 HI/CR values were checked separately and kept as source-side exposure context. The paper does not measure inorganic arsenic, Cr(VI), or any mercury species; source metadata therefore uses `tAs` and `Cr` only. The source describes brand selection but this page intentionally reports only country/category and study-level statistics under the brand firewall. source metadata product and matrix slugs were checked against the closed taxonomy snapshot; no new slugs were invented. `npm run evidence:source-routes` exited 0 and generated one `menstrual-pads` route; `routing_malformed.csv` contains the same advisory-only missing-ingredients warning already present for other personal-care source pages because the closed ingredient vocabulary has no valid sanitary-napkin material slug, so `ingredients: []` is intentionally retained.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

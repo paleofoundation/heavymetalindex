@@ -41,16 +41,10 @@ Supports pollinator ecotoxicology and metal/pesticide stress-pathway context. Re
 
 Evidence Fitness: EF-3 for qualitative secondary ecotoxicology and source discovery. Retrieve the cited copper study before species-specific quantitative interpretation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
-
-## Verification notes
-
-Novel bee-laboratory-diet and ecotoxicology-review matrices prevent food occurrence admission. Table 1 and the Bernardes reference identifyPartamona helleri, whilep 7 misattributes copper findings toScaptotrigona bipunctata. Table/reference identity governs and the conflict remains flagged. Copper sulfate formulation doses are never converted to elementalCu without salt details. Pesticide-only studies are coexposure context, not heavy-metal observations; digestive-tissue injury is not a microbiome measurement.
-
-The preserved Library PDF is identified by `RPHMI_20`; SHA-256 `c2ba739d9b4ea779c65efb59e66e397e56a51a1d34ed352856d02e5e087b835a`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://scientificelectronicarchives.org/index.php/SEA/article/download/2200/2190. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

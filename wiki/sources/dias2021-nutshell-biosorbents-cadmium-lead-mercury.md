@@ -48,16 +48,12 @@ Courses: Useful for showing how a food-waste-derived sorbent can behave differen
 
 App: Context-only mitigation evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because the study is a contaminated-water remediation experiment, not a consumer mineral-water survey.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

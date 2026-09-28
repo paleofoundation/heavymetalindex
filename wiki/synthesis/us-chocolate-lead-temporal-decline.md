@@ -76,14 +76,13 @@ The organic-segment cadmium finding from Hands 2024 deserves dedicated treatment
 - [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Hands, Anderson, Cooperman, Balsky, and Frame 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition. 72 dark chocolate and cocoa products, multi-year US dataset 2014-2022; 43 percent of products exceeded California Prop 65 lead MADL; 35 percent exceeded Prop 65 cadmium MADL; organic products had significantly higher Cd than conventional.
 - [[sources/zhao2024-toxic-metals-metalloids-food-review|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: A Comprehensive Review*. Multi-matrix synthesis covering 25-plus food categories across 19-plus countries; cocoa Cd up to 1.8 mg/kg with highest values from Latin American producing regions; mechanistic distinction between processing-side Pb contamination and soil-side Cd accumulation.
 
-## How this page was promoted
+A later reading of this decline should include the Consumer Reports chocolate dataset, the FDA Total Diet Study chocolate-exposure analysis, and the Prop 65 enforcement record before the cause is treated as settled.
 
-Promoted 2026-05-13 from the candidate queue. Three independent anchors meeting all four promotion criteria: independent (different research groups, different methodological frameworks, different time scopes), spans multiple metals (Pb, Cd), grounds the regulatory-intervention case study, with relevance to regulator (state-level enforcement case study) and educator (mechanistic asymmetry between processing-side and soil-side contamination) audiences. Re-synthesis is expected when the Consumer Reports chocolate dataset enters the corpus, when the FDA TDS chocolate-exposure analysis is cross-referenced, or when a dedicated Prop 65 enforcement timeline page documents the causal attribution rigorously.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -95,7 +94,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Peer-reviewed</span>

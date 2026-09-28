@@ -79,7 +79,7 @@ App: Adds olive-oil category context for northern Cyprus. The values are not bra
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/cadmium]]
@@ -91,15 +91,6 @@ Microbiome: Not addressed.
 - [[ingredients/olives]]
 - [[products/olive-oil]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- PDF metadata, title page, and article footer identify the paper as Environmental Earth Sciences 78:578 with DOI `10.1007/s12665-019-8581-9`, published online September 25, 2019.
-- The PDF front matter shows Springer copyright but does not state an open license; source metadata therefore records `license: "not stated in PDF"`.
-- The paper mentions that some samples include different brands, but no brand names are needed for this source page and none are reproduced.
-- `sample_n: 15` records the fifteen Table 5 observations. Table 5 reports each as mean +/- SD with n=3.
-- The discussion says the As range is 0.03-0.75 ug/g and also states that values are below CODEX STAN 193-1995 at 0.1 mg/kg for As, Pb, and Cd. Because 1 ug/g is equivalent to 1 mg/kg, several Table 5 As and Pb values are above 0.1 mg/kg. This page preserves Table 5 and treats the broad "below Codex" statement as a source-side inconsistency.
-- The source reports total arsenic and total chromium. These values must not be used as inorganic arsenic or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -66,11 +66,6 @@ Microbiome: No direct microbiome endpoint.
 - [[regulations/fda-closer-to-zero]]
 - [[products/baby-cereals-dry-rice-based]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- The 100 µg/kg / 100 ppb value, speciation screening rule, scope phrase, and intake footnote were checked against the PDF text twice during ingest.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

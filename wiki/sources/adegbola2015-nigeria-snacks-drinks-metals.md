@@ -57,7 +57,7 @@ The authors collected popular brands of sweets, biscuits, fruit and flavoured co
 
 This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr, Cu, Fe, and Ca across multiple snack and beverage categories frequently consumed by children. Its strongest routing value is broad product-surface coverage: biscuits/snack products, fruit-flavoured beverages and concentrates, carbonated drinks, and milk-product beverages. The mixed matrix set should stay grouped by product family during later extraction, and total Cr cannot be used as Cr-VI evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/beverages]]
 - [[ingredients/fruit-juice]]
@@ -72,19 +72,6 @@ This source contributes Nigeria-market occurrence evidence for Pb, Cd, total Cr,
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/iron]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title page, DOI, abstract, methods, Tables 1-4, discussion, conclusion, and references.
-- DOI verified from the first page as `10.4314/ijbcs.v9i3.47`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table ranges were checked against Tables 1-4. Units are preserved as printed (`mg/l` in Table 1 and `mg/L` in Tables 2-4); no unit conversions were performed.
-- Speciation: chromium is total Cr only. The source does not report Cr-VI, arsenic, mercury, or methylmercury.
-- Brand firewall: the text states that popular brands were sampled, but the tables use coded sample IDs. This page reports product-group ranges only and does not attach public brand names to values.
-- Calcium was measured and is included in source metadata as Ca, but the taxonomy snapshot does not list a `metals/calcium` page, so no calcium wiki-link is added.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-- Source-internal sample-count discrepancy: the abstract and methods narrative state 12+6+11+5=34 brands, but the four tables show 12+6+12+5=35 rows (Table 3 lists C1-C12 = 12 milk-candy and fruit-concentrate samples, while the methods describe 11 fruit-and-flavoured concentrate brands). This page follows the source's stated total (34) and reports the per-table n from the table rows; the source itself is internally inconsistent on the total.
-- Source-internal discussion-text inconsistency (noted, not propagated): the discussion text states "Highest lead concentration was found in sample A2 (0.39±0.052 mg/kg)" but Table 1 shows A1=0.90±0.069 is the highest Pb in sweets. This page uses the table values, not the discussion-text claim. The CAC (2003) compliance statements quoted from the discussion remain accurate to the source's wording (the CAC permissible-limit claims do not depend on which sample was the maximum).
-- 2026-06-09 audit (autonomous): REVISE verdict. Numerical fidelity ✅ across all four tables; methods ✅; speciation ✅; brand firewall ✅; HMTc firewall ✅. The audit's only ❌/⚠️ concerns were the source-internal sample-count discrepancy (added to verification notes here) and a flag on `matrices:` vocabulary. The matrices flag was a false positive: per existing wiki convention `matrices:` is a free-form descriptive vocabulary listing the physical sample types in the source, not a closed slug list like `products:` or `ingredients:`, and product/matrix overlap (e.g., `carbonated-drinks` matrix vs `soft-drinks-carbonated-beverages` product) is expected — the two vocabularies serve different purposes (what was sampled vs HMTc routing).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

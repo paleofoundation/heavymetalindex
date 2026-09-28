@@ -76,7 +76,7 @@ App: Useful context for a future mitigation or sourcing warning where contaminat
 
 Courses: Strong example for keeping remediation percentages separate from source occurrence distributions, and for recording tissue basis because root, shoot, seed, and soil numbers are not interchangeable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
@@ -88,12 +88,6 @@ Courses: Strong example for keeping remediation percentages separate from source
 - [[metals/mercury-total]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF text, with numerical transcription from the abstract, experimental design, biochar characterization, Pb measurement methods, Table 4, and the accumulation/translocation results text. Products and ingredients are intentionally empty because the paper is a field mitigation trial, not market-sampled barley or supplement occurrence evidence. The source reports total elemental water-screening values without arsenic, mercury, or chromium speciation; source metadata therefore uses tAs and tHg where the source labels only arsenic or Hg.
-
-The printed BP-BC root-reduction range, 38.40-4.70%, is retained as a source-reported value but flagged as internally inconsistent because Table 4 root Pb values fall from 3.01 ug/g at 0 t/ha to 1.90 and 1.40 ug/g at 5 and 10 t/ha.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

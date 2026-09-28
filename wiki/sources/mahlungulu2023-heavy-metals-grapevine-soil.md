@@ -119,7 +119,7 @@ Open-access article published 19 February 2023 in Toxics (MDPI) under the Creati
 
 Evidence tier set to B rather than A. The journal is peer-reviewed and the methods section reports an ICP-MS analytical chain with a CRM 1573a tomato-leaves recovery check for the plant matrix. What disqualifies it from A on the HMI scale is (i) the small replication structure (n = 4 points per site per season; conventional vs organic comparisons pooled across three sites each), (ii) the unaddressed polyculture overlap on four of six sites, (iii) the unusually high tabulated detection threshold for Cu (10 µg/g) relative to several reported soil concentrations, (iv) the absence of speciation for As, Hg, and Cr, and (v) the single study year. The Cu organic-vs-conventional finding is a useful signal but is descriptive rather than confirmatory.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/cobalt]]
@@ -130,32 +130,12 @@ Evidence tier set to B rather than A. The journal is peer-reviewed and the metho
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-No brand names appear in the paper or on this page. Vineyard site names (Stellenbosch, Eikenbosch, Franschhoek, Wolseley, Robertson, Piketberg) are towns or geographic regions, not commercial wine brands. Cultivar names (Cabernet sauvignon, Cabernet franc, Sauvignon blanc, Merlot, Shiraz, Sèmillon, Chardonnay) are Vitis vinifera varieties, not commercial wine brands. Part 12 brand-firewall does not apply. The certification labels "certified organic" (Wolseley, Piketberg) and "conventional" / "semi-organic" describe farming practice, not commercial brand identity, and are reproduced as the source documents them. Instrument and reagent vendor references (Plasma Quad I ICP-MS; Ismatec Reglo 100 peristaltic pump; Meinhard nebulizer; CEM-style nitric digestion; Spec-troscan / Teknolab As N-1440 Drsbak calibration standards; NIST SRM 1573a; SPSS) are reproduced under the methods-vendor exception (Part 12, Exception 2).
-
-The metals source metadata list uses `tAs` and `tHg` rather than `iAs`/`MeHg` because the ICP-MS workflow measures total elemental concentration without speciation (speciation rule). `Cr` is used rather than `Cr-VI` for the same reason — no hexavalent chromium speciation was performed.
-
-The matrices `soil` and `grape-leaves` are reproduced from the existing matrices vocabulary (`grape-leaves` is also used by [[sources/bora2015-vineyard-wine-heavy-metals-romania]]). The paper does not measure grape berries, must, or wine, so neither `wine` nor `grape-juice` is in the matrices list.
-
-The `ingredients:` and `products:` fields are empty intentionally. The paper measures vineyard soil and grapevine leaves only; it does not produce occurrence values for any ingredient or product slug currently in the HMI taxonomy. Grape leaves are not an ingredient slug at present, and the source provides no direct evidence on grapes, must, or wine that would justify populating those slugs from this paper. The routing audit will surface the metal pages this source touches.
-
-Jurisdiction is ZA (South Africa), consistent with the country-code pattern used elsewhere in the corpus (e.g., [[sources/adelusi2024-dairy-feed-south-africa]], [[sources/adhikari2024-leafy-vegetables-johannesburg]], [[sources/kalicharan2025-heavy-metals-pet-food-south-africa]]).
-
-Site B (Eikenbosch) soil Cu is printed in Table 3 as 9.343 ± 0.891 mg/kg, which is below the tabulated Cu instrumental detection threshold of 10 µg/g (Section 2.4). The source does not reconcile this. The page reproduces the value as printed.
-
-Table 5 prints two arsenic columns of detection limits for plants ("0.0005" as the WHO/FAO ML for As in plants). This is unusually low; the page reproduces the figure as printed in the source.
-
-The Table 5 Co Site F entry includes a significance letter printed as "aa" rather than "a" or "b"; this is preserved as printed. The Site E Hg entry letter "a" without a second letter is also preserved as printed.
-
-The narrative claim that the heavy metal contents "did not vary significantly (DF = 1, 6; p > 0.05) between the winter and summer for all the study sites" appears in Section 3.1.2; the pooled-data follow-up uses DF = 1, 22. Both are reproduced as printed.
-
-Audit editorial review (2026-06-06) flagged three numerical-fidelity errors that were verified against the PDF tables and corrected: Site A soil As SEM "0.913" (transposed from the adjacent Zn SEM) was corrected to Table 3's printed "1.917"; Site B soil Pb SEM "0.439" was corrected to Table 3's printed "0.011"; Site F leaf Pb significance letter "b" was corrected to Table 5's printed "bc". On independent re-read I also caught and corrected Site F leaf Co significance letter "aa" → Table 5's printed "a" (my own transcription artefact, not flagged by the audit).
-
-The audit editorial review flagged the page-intro phrase "nitric-acid digestion" as inconsistent with the source-faithful Methods section text "8 mL nitric oxide". The intro has been rewritten to print "HNO3 digestion (printed in the source's Methods as 'nitric oxide', [sic]; calibration standards and blanks are described later in the same section as matched to 'nitric acid concentration', indicating HNO3 was the actual reagent)" so the page-internal contradiction is resolved while keeping faith with what the source literally prints.
-
-The audit editorial review also raised the `matrices: [soil, grape-leaves]` field as a potential vocabulary question — observed false positive: `soil` is established matrices vocabulary used in 50+ existing source pages across the corpus (e.g., [[sources/bora2015-vineyard-wine-heavy-metals-romania]], [[sources/anselm2022-artificial-sweat-ewaste-soil-bioaccess]], [[sources/atsdr2023-soil-dermal-absorption-guidance]]). The matrices vocabulary in the editorial record is broader than the food-only set; environmental input matrices (soil, water, sediment) are in scope when the source paper is a vineyard-input or food-chain-context paper. No change made.
+- [[sources/bora2015-vineyard-wine-heavy-metals-romania]]
+- [[sources/adelusi2024-dairy-feed-south-africa]]
+- [[sources/adhikari2024-leafy-vegetables-johannesburg]]
+- [[sources/kalicharan2025-heavy-metals-pet-food-south-africa]]
+- [[sources/anselm2022-artificial-sweat-ewaste-soil-bioaccess]]
+- [[sources/atsdr2023-soil-dermal-absorption-guidance]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

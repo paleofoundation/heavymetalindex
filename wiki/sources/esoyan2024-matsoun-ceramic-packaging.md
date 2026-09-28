@@ -46,7 +46,7 @@ Esoyan et al. compared Armenian matsoun stored in glass and ceramic containers f
 
 The authors prepared matsoun and packaged it in sterilized glass and ceramic containers, each holding 700 mL. Samples were stored at 4 degrees C and tested on days 1, 7, and 15 for pH, titratable acidity, lactic acid bacteria, and heavy-metal migration. Heavy metals were analyzed by atomic absorption spectroscopy.
 
-The metals are reported as total element concentrations in matsoun. The study does not speciate arsenic or mercury, so the routing layer should treat As and Hg as total/unspecified.
+The metals are reported as total element concentrations in matsoun. The study does not speciate arsenic or mercury, so arsenic and mercury here are totals, with species unspecified.
 
 ## Implications
 
@@ -54,7 +54,7 @@ For product and packaging pages, this source supports a ceramic-contact migratio
 
 For app and standards work, the values are food-in-contact-with-packaging occurrence evidence from Armenia. They should not be pooled with US-market packaged dairy or cookware studies without a later market and matrix comparability decision.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-storage-glass-containers]]
 - [[products/cookware-ceramic-coated]]
@@ -63,10 +63,6 @@ For app and standards work, the values are food-in-contact-with-packaging occurr
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The source uses ppm for the matsoun metal values. The title and abstract identify fermented dairy product matsoun as the matrix; ceramic and glass are packaging/contact materials, not standalone food samples.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

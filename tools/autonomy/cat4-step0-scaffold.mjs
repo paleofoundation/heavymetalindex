@@ -245,7 +245,7 @@ _Pending synthesis. Cat 4-relevant public-record regulatory events include FDA r
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as \`*[awaiting synthesis]*\`._
+_Sources catalogued for this page. The last column says how each source is used here._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

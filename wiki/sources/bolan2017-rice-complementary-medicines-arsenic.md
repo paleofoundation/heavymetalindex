@@ -75,7 +75,7 @@ Operational arsenic fractions were measured by a Tessier-style sequential fracti
 
 This source should be treated as targeted arsenic exposure and bioaccessibility context, not as a clean market baseline for rice. It is useful for showing that high-arsenic irrigation can produce rice-grain total As well above the paper's intake benchmark, and that the bioaccessible fraction may be substantially lower than total As for these organic-dominated rice samples. For complementary medicines, the source separates herbal from ayurvedic products and shows that ayurvedic formulations can carry mineral inorganic arsenic species while still producing low daily intake estimates when label-dose amounts are small.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-bulk-grain]]
 - [[products/dietary-supplements]]
@@ -84,15 +84,6 @@ This source should be treated as targeted arsenic exposure and bioaccessibility 
 - [[ingredients/herbal-botanicals]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.chemosphere.2017.04.126`, raw handle `MFK_bolan2017`, title text, or cite key `bolan2017-rice-complementary-medicines-arsenic`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-027.txt`, extracted with `pdftotext -layout`. Figure axis text was not used for per-sample values because the extracted text layer does not expose clean numeric bars; only text-stated ranges and equations are transcribed.
-- Units are preserved as `mg kg-1`, `µg g-1`, `µg day-1`, and `kg d wt d-1` exactly as the source reports them; no unit conversion was performed.
-- Speciation check: total arsenic is recorded as tAs. Inorganic arsenic is included because the source explicitly reports inorganic fractions dominating ayurvedic medicines and EXAFS-identified arsenic minerals; no numeric iAs concentration is inferred from the figures.
-- Brand firewall: the page does not reproduce manufacturer/brand names or attach values to product labels. Traditional formulation names are not tabulated as brand-ranked values; category-level herbal versus ayurvedic results are used for the occurrence summary.
-- Source-scope caution: rice samples were grown under arsenic-contaminated/spiked irrigation conditions and are not representative general-market rice samples.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

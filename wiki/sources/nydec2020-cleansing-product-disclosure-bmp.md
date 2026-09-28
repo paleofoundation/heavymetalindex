@@ -269,67 +269,45 @@ Not applicable. This is a state-agency Best Management Practices guidance docume
 - Access date: 2026-06-03.
 - Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/06_Regulatory_EPA_GreenSeal/`, alongside the EPA Safer Choice Standard and Master Criteria, three Green Seal standards (GS-37, GS-52, GS-8), four EU Ecolabel documents, the California SB 258 Right to Know summary and factsheet, the Bello et al. occupational-exposure study, the David Suzuki Foundation toxic-chemicals review, the NIOSH HHE hospital-cleaning report, and the WECF Women and Chemicals report.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[sources/ny-dec-tccp-2023-chem-pqls-draft]] — sibling NY DEC program (children's products under ECL § 37-0901) that sets explicit PQLs for heavy metals; analogous regulatory architecture, different scope, same agency. Cross-reference for PQL methodology.
-- [[sources/epa2024-safer-choice-standard-dfe]] — federal voluntary certification standard for cleaning products; complementary regulatory context for the US household-cleaning-product matrix.
-- [[sources/epa2024-safer-choice-master-criteria-ingredients]] — companion ingredient-evaluation document for the EPA Safer Choice / DfE program.
-- [[products/all-purpose-cleaners]] — within NY BMP scope (GS1 brick 10000405 Surface Cleaners). Regulatory context.
-- [[products/appliance-cleaners]] — within scope (GS1 bricks 10000746 Cleaners Other / 10000749 Surface Care Other). Regulatory context.
-- [[products/automatic-dishwasher-detergents]] — within scope (GS1 brick 10000406 Dish Cleaning/Care – Automatic). Regulatory context.
-- [[products/bathroom-tub-tile-cleaners]] — within scope (GS1 brick 10000405 Surface Cleaners). Regulatory context.
-- [[products/bleaching-whitening-additives]] — within scope (GS1 brick 10000531 Bleach Non-FIFRA / 10000743 Detergent Boosters/Laundry Bleaches). Regulatory context.
-- [[products/carpet-cleaners]] — within scope (GS1 brick 10000405 Surface Cleaners or 10000746 Cleaners Other). Regulatory context.
-- [[products/carpet-spot-removers]] — within scope (GS1 brick 10000443 Stain Removers or 10000746 Cleaners Other). Regulatory context.
-- [[products/cleaning-wipes-household]] — within scope (cleaning products containing surfactant). Regulatory context.
-- [[products/degreasers]] — within scope (cleansing products with surfactant). Regulatory context.
-- [[products/descalers]] — within scope (GS1 brick 10000442 Descalers). Regulatory context.
-- [[products/dish-soaps-manual]] — within scope (GS1 brick 10000636 Dish Cleaning/Care – Hand). Regulatory context.
-- [[products/drain-maintainers-cleaners]] — within scope (GS1 brick 10000423 Drain Treatments/Pipe Unblockers). Regulatory context.
-- [[products/fabric-protectants]] — within scope (GS1 brick 10000741 Fabric Protectors). Regulatory context.
-- [[products/fabric-softeners]] — within scope (GS1 brick 10000427 Laundry Color Care or 10000747 Laundry Other). Regulatory context.
-- [[products/floor-cleaners-hard-surface]] — within scope (GS1 brick 10000405 Surface Cleaners). Regulatory context.
-- [[products/floor-finishes-strippers]] — within scope (GS1 brick 10000405 Surface Cleaners or 10000749 Surface Care Other). Regulatory context.
-- [[products/household-specialty-cleaners-other]] — within scope (GS1 bricks 10000746 Cleaners Other / 10000698 Cleaners Variety Pack / 10000694 Cleaning/Hygiene Products Variety Packs / 10000701 Surface Care Variety Pack). Regulatory context.
-- [[products/kitchen-countertop-cleaners]] — within scope (GS1 brick 10000405 Surface Cleaners). Regulatory context.
-- [[products/laundry-detergent-boosters-additives]] — within scope (GS1 brick 10000743 Detergent Boosters/Laundry Bleaches). Regulatory context.
-- [[products/laundry-detergents]] — within scope (GS1 brick 10000424 Laundry Detergents / 10000699 Laundry Variety Packs / 10000747 Laundry Other). Regulatory context.
-- [[products/laundry-prewash-products]] — within scope (cleansing product with surfactant for fabrics). Regulatory context.
-- [[products/laundry-starch-sizing-fabric-finish]] — within scope (GS1 brick 10000434 Surface Care/Protection — fabric finish products). Regulatory context.
-- [[products/odor-removers-hard-surfaces]] — within scope (GS1 brick 10000746 Cleaners Other / 10000749 Surface Care Other). Regulatory context.
-- [[products/oven-grill-bbq-cleaners]] — within scope (GS1 brick 10000746 Cleaners Other). Regulatory context.
-- [[products/pre-treaters-stain-removers]] — within scope (GS1 brick 10000443 Stain Removers). Regulatory context.
-- [[products/rinse-aids]] — within scope (GS1 brick 10000445 Dish Care/Protection). Regulatory context.
-- [[products/toilet-bowl-cleaners]] — within scope (GS1 brick 10000426 Toilet Cleaning Products). Regulatory context.
-- [[products/window-glass-mirror-cleaners]] — within scope (GS1 brick 10000405 Surface Cleaners). Regulatory context.
-- [[metals/lead]] — captured indirectly via NY DOH MCL and Prop 65 references in Appendix B. Regulatory context (US-NY).
-- [[metals/cadmium]] — captured indirectly via NY DOH MCL and Prop 65 references. Regulatory context.
-- [[metals/arsenic]] — captured indirectly via NY DOH MCL, Prop 65, IRIS, IARC, NTP references. Regulatory context.
-- [[metals/mercury]] — captured indirectly via Prop 65, IRIS, NTP, ATSDR, WA PBTs references. Regulatory context.
-- [[metals/chromium-hexavalent]] — captured indirectly via IRIS, NTP, IARC references. Regulatory context.
-- [[metals/nickel]] — captured indirectly via CA Prop 65, IARC, NTP references for nickel compounds. Regulatory context.
-
-## Verification notes
-
-- Identity-check results on 2026-06-03 against the linked reference record: DOI null (state-agency guidance document, no DOI assigned); raw_handle grep for `KADC_ny-state-cleaning-product-disclosure-program` returned no matches; cite-key grep for `nydec` / `cleansing-product-disclosure` returned no matches in the cleansing-product domain (`ny-dec-tccp-2023-chem-pqls-draft.md` is the sibling NY DEC document but is a distinct programme — children's products under ECL § 37-0901, not cleansing products under ECL Article 35). Ingested as NEW.
-- SHA-256 of the source PDF computed from disk on 2026-06-03 (`cea0eaf499364d9ca28c63a820be66b68d5347b4a469deeaa7fa6498669fff21`).
-- The document has no DOI (state-agency guidance, not a journal article). `doi` is null.
-- Year set to 2020 as best estimate. The PDF carries no explicit publication date. Rationale: (i) Purpose and Background references the NYS Supreme Court ruling (August 2020) in the past tense; (ii) document uses EPA pre-MCL drinking-water values for 1,4-dioxane (350 ppt) and PFOA/PFOS combined (70 ppt), consistent with pre-July/August 2020 drafting before NY DOH adopted stricter state MCLs of 1 µg/L for 1,4-dioxane and 10 ppt each for PFOA/PFOS. Actual publication date may be later if DEC retained the EPA values intentionally; the year recorded here is conservative-early. Documented in body Limitations and in source metadata `year_note`.
-- Evidence tier set to B on the basis of: (i) authoritative state-agency primary record from NY DEC, the agency administering the Cleansing Product Information Disclosure Program; (ii) document is the primary source of its own BMP content; BUT (iii) the BMPs are explicitly *recommended* rather than binding because the predecessor binding Program Policy was struck down by the NYS Supreme Court in August 2020 and a successor binding Policy or rule has not yet been promulgated; (iv) document is undated, which weakens the temporal anchor compared to peer A-tier documents like [[sources/ny-dec-tccp-2023-chem-pqls-draft]] (explicitly dated stakeholder draft) and [[sources/epa2024-safer-choice-standard-dfe]] (explicitly dated and versioned federal program standard). The B tier reflects the recommended-not-binding posture and the date-uncertain posture; the underlying statute (ECL Article 35) and regulation (6 NYCRR Part 659.6) remain authoritative and binding.
-- License set to "U.S. state government publication (NY state-agency public guidance document)" — NY state agency works are not subject to a single uniform state-government copyright exemption analogous to 17 USC § 105 for federal works, but DEC posts this document for public download on dec.ny.gov as official programme guidance and HMI treats it as redistributable in that capacity.
-- Source type set to `gov-guidance` rather than `gov-regulation` because the document itself is recommended Best Management Practices, not a binding regulatory text. The underlying binding instruments are ECL Article 35 (statute) and 6 NYCRR Part 659.6 (regulation), which the BMP supports but does not constitute.
-- `metals: [Pb, Cd, tAs, tHg, Cr-VI, Ni]` is set on the basis that these six heavy metals are explicitly captured by the Section A.3.b threshold hierarchy via membership on one or more of the 23 Appendix B chemicals-of-concern lists (Pb on NY DOH MCLs, CA Prop 65, IRIS Neurotoxicants, ATSDR Neurotoxicants, WA PBTs, US EPA Priority Chemicals, GLWQA, US EPA PBTs; Cd on NY DOH MCLs, CA Prop 65, IARC, IRIS Carcinogens, NTP Carcinogens, ATSDR Neurotoxicants, WA PBTs, US EPA Priority Chemicals, GLWQA; tAs on NY DOH MCLs, CA Prop 65, IARC, IRIS Carcinogens, NTP Carcinogens, ATSDR Neurotoxicants; tHg on Prop 65, IRIS, NTP, ATSDR, US EPA Priority Chemicals, WA PBTs, GLWQA, Marine Priority Action Chemicals; Cr-VI on IRIS Carcinogens, NTP Carcinogens, IARC, NY Air Toxics; Ni compounds on CA Prop 65, IARC, NTP, AOEC Asthmagens, EU Respiratory Sensitizers). The BMP does not name any heavy metal explicitly in its body text; the metals: array reflects indirect capture via the cross-referenced lists. tAs and tHg are used (not iAs and MeHg) because the cross-referenced lists treat arsenic and mercury at the total-element membership level. Cr-VI is used (not Cr) because Cr is captured specifically as hexavalent chromium on IRIS, NTP, and IARC carcinogen lists.
-- `ingredients: []` is intentional: the document is a generic disclosure-framework text covering all cleansing-product ingredients, not specific to any one ingredient.
-- `products: [...]` lists every household-cleaning-product taxonomy slug currently in the linked reference record that maps to one of the 24 GS1 GPC brick codes covered by Appendix A of the BMP, scoped to the product types meeting the "soap or detergent containing a surfactant" definition. Routing fan-out is `regulatory_context` rather than `direct_evidence` because no contamination values are reported.
-- `matrices: [household-cleaning-product]` matches the matrix already in use on [[sources/epa2024-safer-choice-master-criteria-ingredients]], [[sources/epa2024-safer-choice-standard-dfe]], [[sources/davidsuzuki2014-toxic-household-cleaners]], and the four Green Seal standards in the corpus.
-- `jurisdictions: [US-NY]` because the document is a NY-state-agency document applying to products distributed, sold, or offered for sale in NY State. (The federal-level US jurisdiction is not asserted because the document applies only within NY State boundaries.)
-- Wiki/HMTc firewall (Part 2): the document is upstream of any HMTc threshold-setting work; no Part 2 drift risk in the body of this page. The Implications section does not propose HMTc threshold values and explicitly states none are proposed.
-- Brand firewall (Part 12): the document does not name any commercial brand of cleansing product. The body references "Google" and "Bing" as examples of search engines (Section A.1, p. 2) and references entity types ("manufacturer," "distributor") generically; no brand attribution to contamination values appears anywhere in the source. No brand-firewall action required.
-- Quantitative content in this page (tables for Section A.3 threshold hierarchy; A.3 trace-quantity statutory definitions; Appendix E consolidated disclosure-levels table; Section A.1 fragrance grouping ranges; Section B.2/B.3 ingredient and fragrance disclosure-level hierarchies; Section C.1 phased-in effective-date schedule; Appendix A GS1 brick code list; Appendix B chemicals-of-concern list summary; Appendix C GHS hazard characteristics; Section A.2 statutory-definition crosswalk) is reproduced exactly from the source PDF with page locators throughout.
-- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in source metadata draws only on existing the linked reference record slugs.
-- No new regulation page was created. If a `regulations/ny-ecl-article-35.md` or `regulations/6-nycrr-part-659-6.md` page is ever needed (Step 0 Lock decision), this BMP document would be the principal current-implementation-guidance source page, with the underlying ECL Article 35 and 6 NYCRR Part 659 / 659.1 / 659.6 regulatory texts as the binding statutory and rule citations.
-- source metadata `year_note` field added to record the date-imputation rationale and to make it explicit that the year is a best estimate rather than a verified publication date. This field is informational; the canonical year is `2020`.
-- Audit editorial review (2026-06-03, v2 skill general-purpose audit) returned REVISE verdict with four ⚠️ findings, all verified correct and applied: (1) trace-quantity definitions section heading tightened from "(pp. 5–6)" to "(p. 6)" — both intentionally-added and nonfunctional trace definitions live on p. 6 only; (2) fragrance grouping ranges section heading corrected from "Section A.1" to "Section A.3" — the paragraph appears on p. 5 but under Confidential Business Information and Extent of Disclosure (Section A.3), not Posting Parameters (Section A.1 at pp. 1–2); (3) disclosure-level hierarchies section heading corrected from "Section B.2 / B.3 (pp. 8–10)" to "Section B.3 (pp. 9–10)" — Section B.2 covers Product Information HTML structure at pp. 8–9 and B.3 alone covers Extent of Disclosure hierarchies at pp. 9–10, with a parenthetical added to clarify the B.2/B.3 split; (4) Implications bullet on heavy-metal disclosure floors softened: removed the unsourced "15 µg/L = 15 ppb" Pb action-level figure (the BMP does not state Pb-specific or any element-specific MCL value, deferring to the cross-referenced 10 NYCRR Subpart 5-1.52 Tables) and replaced with floor-by-mechanism-not-by-number wording that attributes element-specific numeric values to the source document (Subpart 5-1.52) the BMP cites, rather than asserting them as claims of the BMP itself. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall) all returned ✅ clean; Check 5 (Part 2 wiki/HMTc firewall) had one ⚠️ (the same Pb-floor finding as Check 1's #4), now resolved. 0 findings rejected as false positives.
+- [[sources/epa2024-safer-choice-standard-dfe]]
+- [[sources/epa2024-safer-choice-master-criteria-ingredients]]
+- [[products/all-purpose-cleaners]]
+- [[products/appliance-cleaners]]
+- [[products/automatic-dishwasher-detergents]]
+- [[products/bathroom-tub-tile-cleaners]]
+- [[products/bleaching-whitening-additives]]
+- [[products/carpet-cleaners]]
+- [[products/carpet-spot-removers]]
+- [[products/cleaning-wipes-household]]
+- [[products/degreasers]]
+- [[products/descalers]]
+- [[products/dish-soaps-manual]]
+- [[products/drain-maintainers-cleaners]]
+- [[products/fabric-protectants]]
+- [[products/fabric-softeners]]
+- [[products/floor-cleaners-hard-surface]]
+- [[products/floor-finishes-strippers]]
+- [[products/household-specialty-cleaners-other]]
+- [[products/kitchen-countertop-cleaners]]
+- [[products/laundry-detergent-boosters-additives]]
+- [[products/laundry-detergents]]
+- [[products/laundry-prewash-products]]
+- [[products/laundry-starch-sizing-fabric-finish]]
+- [[products/odor-removers-hard-surfaces]]
+- [[products/oven-grill-bbq-cleaners]]
+- [[products/pre-treaters-stain-removers]]
+- [[products/rinse-aids]]
+- [[products/toilet-bowl-cleaners]]
+- [[products/window-glass-mirror-cleaners]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/mercury]]
+- [[metals/chromium-hexavalent]]
+- [[metals/nickel]]
+- [[sources/davidsuzuki2014-toxic-household-cleaners]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

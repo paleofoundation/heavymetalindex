@@ -85,7 +85,7 @@ Consistent with the downstream-propagation rule, this synthesis is linked from t
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/ali2022-lead-wastewater-crops-meta|Meta-analysis of public health risks of lead accumulation in wastewater, irrigated soil, and crops nexus]]<span class="hmi-ref-meta">Ali AS, Bayih AA, and Gari SR · Frontiers in Public Health · 2022 · [doi.org/10.3389/fpubh.2022.977721](https://doi.org/10.3389/fpubh.2022.977721)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/adebayo2020-wastewater-irrigated-spinach|Levels of heavy metals and their health risk assessment from wastewater irrigated spinach in railway quarters, Bauchi, Bauchi state, Nigeria]]<span class="hmi-ref-meta">Adebayo RK, Hassan UF, Adamu HM, Hassan HF, Baba H, and Ajiya DA · International Journal of Advanced Chemistry Research · 2020 · [doi.org/10.33545/26646781.2020.v2.i2a.22](https://doi.org/10.33545/26646781.2020.v2.i2a.22)</span><span class="hmi-ref-tag">Peer-reviewed</span>

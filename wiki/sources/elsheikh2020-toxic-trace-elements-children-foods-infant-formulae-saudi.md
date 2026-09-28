@@ -111,11 +111,8 @@ Microbiome: No direct microbiome endpoint.
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. CC BY 4.0 license per the publisher (Asian Publication Corporation); the wiki cites the article record (DOI 10.14233/ajchem.2020.22499).
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-formula-powder-non-soy]]
-- [[products/baby-cereals-dry-rice-based]] (pending Cerelac brand-specific verification)
-- [[products/baby-cereals-dry-non-rice]] (pending)
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->

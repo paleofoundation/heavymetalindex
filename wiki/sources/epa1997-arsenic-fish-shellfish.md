@@ -87,7 +87,7 @@ Literature review of published arsenic speciation data for fish and shellfish (B
 
 **Regulations:** The Ambient Water Quality Criterion context is US-specific (CWA 0.018 ppb vs MCL 50 ppb at time of writing). The report predates EPA's 2001 MCL revision to 10 ppb, so the 50 ppb water-arsenic scenarios are historically high for most current US public water systems.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
@@ -97,13 +97,6 @@ Literature review of published arsenic speciation data for fish and shellfish (B
 - [[metals/arsenic]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-- [[regulations/epa-arsenic-mcl]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched existing EPA-822-R-97-003 page to P0154, corrected `raw_handle` and raw path spacing, added SHA-256 provenance, added the broad `products/seafood` route, and replaced narrow matrix strings with broad `fish`, `shellfish`, `dietary-intake`, and `drinking-water` terms.
-- The source report's 50 ppb arsenic MCL references the pre-2001 US drinking-water standard; the current EPA arsenic MCL is 10 ppb.
-- Fresh-context audit (Codex, 2026-05-18) flagged QUARANTINE-level Part 2 wording in the prior implications section; corrected by removing HMT&C/app directives, fixing the freshwater 22-of-23 attribution to the combined Ballin/Lawrence dataset, and softening the Ballin catfish iAs inference to source-supported speciation context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

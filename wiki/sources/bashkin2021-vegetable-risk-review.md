@@ -58,7 +58,7 @@ Supports exposure-method and remediation literature discovery. Bacterial effects
 
 Evidence Fitness: EF-3 for narrative/secondary evidence and EF-X for internally impossible Table 4 summary combinations until original studies resolve them. Preserve provenance without double-counting source datasets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -73,14 +73,6 @@ Evidence Fitness: EF-3 for narrative/secondary evidence and EF-X for internally 
 - [[metals/tin]]
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-Novel literature-exposure-model and secondary-vegetable-summary matrices separate review quotations from independent food data. Table 4 potato Ba mean 0.7 exceeds max 0.2; beet/carrotCu mean 0.3 is below min 1.69 and max 1.4; cabbage Hg mean 8e-5 exceeds max 1.75e-5. These contradictions are source errors, not repaired by inference. Historical reference-dose/limit tables are secondary context, never verified regulations. Table 3 totals occasionally differ from their component sums. Primary contribution is risk-method synthesis with microbial mitigation discussion, not a new metal–microbiome experiment.
-
-Strontium is preserved in the structured context records but has no dedicated metal page; the source and soil-to-plant hub retain that route gap. Historical comparator columns and Figure 2 are explicitly recorded as secondary context dispositions.
-
-The preserved Library PDF is identified by `RPHMI_16`; SHA-256 `8bc79e16d1089e871db38f2f00f3c46cbc619aac569458c47d5407cdc5b7950e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://www.risk-journal.com/jour/article/viewFile/509/357. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -107,7 +107,7 @@ Courses: Useful teaching example for explaining why "the cadmium limit for crab"
 
 App: Route as broad shellfish and seafood occurrence evidence for cadmium with the crab-specific brown-meat-versus-white-meat distinction preserved. Do not use the review's compiled Table 1 values as if they were primary measurements when computing ingredient `contamination_profile` blocks; defer the pooled occurrence values to the underlying primary studies once those are ingested. Crab is not a separate ingredient slug in the current taxonomy; this review is therefore best treated as shellfish/seafood context until a crab-specific routing question forces a taxonomy decision.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[ingredients/seafood]]
@@ -117,26 +117,6 @@ App: Route as broad shellfish and seafood occurrence evidence for cadmium with t
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/jecfa-cadmium-ptmi]]
-
-## Verification notes
-
-Identifying metadata: title and authors taken from the PDF first page; DOI `10.3390/toxics10100591` taken from the PDF citation block; publication year and volume/issue from the running header (Toxics 2022, 10, 591). License is CC BY 4.0 as printed on the PDF first page (Creative Commons Attribution 4.0 license). No identity collision was detected: zero existing wiki source page returns on the DOI grep, the `KADC_` raw_handle grep, and the `lordan2022` cite-key grep.
-
-The Table 1 cadmium values were transcribed directly from PDF page 5; the table preserves the review's two-column "Spring Caught / Summer Caught" header for the Portugal block, and the "Mean/range" or "yearly median concentration range" header structure for the remaining blocks. Where the review prints "-/0.08-0.27" for the Birsay Scotland white meat row, the leading hyphen indicates that no mean was reported by the underlying study, only a range; the row preserves that convention. The Norwegian coast Cd brown meat value 8.7 / 0.24–43.0 is attributed to refs [33,65] as printed; the row labels for Senja and Kvaløya are attributed to refs [33,66] as printed.
-
-The review reports the French seafood-consumer dietary cadmium ingestion as `2.4 ± 3.3 mg/kg bodyweight/week` and the mean urinary cadmium as `0.65 ± 0.45 mg/g creatinine` (PDF p.16); both figures as printed are approximately three orders of magnitude above their plausible scale (the dietary intake is ~1000x the EFSA TWI of 2.5 µg/kg body weight per week; the urinary value at 0.65 mg/g creatinine is ~1000x typical population means in the µg/g creatinine range), which strongly suggests a units typo (likely µg, not mg) in the review itself. Both values are preserved on this page exactly as the review prints them and flagged here; downstream synthesis should not propagate either interpretation without consulting the underlying primary source.
-
-2026-06-03 audit application (fresh-context automated editorial review, verdict REVISE):
-- Finding 1 (⚠️ Check 1, JECFA TMI/PTMI label mismatch with the regulations/jecfa-cadmium-ptmi slug): verified against PDF p.14 ("The JECFA established a tolerable monthly intake of 25 µg/kg/bodyweight per month") — the review uses the non-canonical short "TMI" form while the JECFA standard designation and the wiki regulation slug both use "PTMI" (provisional tolerable monthly intake). Applied: the body now uses "provisional tolerable monthly intake (PTMI)" to match the slug, with an explicit parenthetical noting that the review itself omits the "provisional" qualifier.
-- Finding 2 (⚠️ Check 1, French cohort body-vs-Verification-notes inconsistency): verified against PDF p.16 — the review verbatim prints "2.4 ± 3.3 mg/kg bodyweight/week" and "0.65 ± 0.45 mg/g creatinine", while the previous body text silently converted both to µg, contradicting the Verification notes' own claim that the values were "preserved here exactly as the review prints it." Applied: the body now reproduces both values verbatim as the review prints them (mg) with an inline flag pointing to the typo discussion in these notes.
-- Finding 3 (⚠️ Check 1 minor, Table 2 high-exposure PRC integer-vs-one-decimal stylistic normalization for wheat flour 2.0/meat 2.0/fish 1.0): verified — the PDF Table 2 prints these as integers (2, 2, 1) where the wiki normalizes to one decimal; the numeric values are identical. Not applied — judged stylistic, not a fidelity error.
-- All Check 2/3/4/5 findings clean per editorial review. Routing audit re-run after fix: 0 blocking changes.
-
-Brand firewall (Part 12): the review does not name commercial brands; no brand-firewall edits were required. Scientific-method vendor names are not present in the underlying primary studies as cited in Table 1 (only the analytical-method abbreviation: FAAS or ICP-MS). The CAS-system reference materials and instrument-vendor identifiers cited in some of the underlying primary studies should be captured when those primary studies are ingested individually, not retrofitted from this review.
-
-Wiki/HMTc firewall (Part 2): the review's "Conclusions" section is the kind of synthesis-from-other-literature statement that does not belong on a single-source wiki page; this page reports only what Lordan and Zabetakis tabulated and documented, not whether their interpretation of the literature is correct. No HMTc threshold proposals were imported from the review.
-
-Speciation: the review measures (or summarizes) total cadmium only, which is the practice across the underlying primary studies. Cadmium is not a speciated analyte in the HMTc vocabulary; no speciation flag applies.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

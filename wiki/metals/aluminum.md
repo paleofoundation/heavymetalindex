@@ -214,7 +214,7 @@ Aluminum content varies widely by product; [[sources/efsa-aluminium-afc-2008|EFS
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/efsa-aluminium-afc-2008|Safety of Aluminium from Dietary Intake]]<span class="hmi-ref-meta">EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) · The EFSA Journal 2008;754:1-34 · 2008 · [doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
@@ -228,7 +228,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -236,7 +236,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 2 | [[sources/article2026-packaging-for-whole-milk-powder-and-infant\|Article 2026]]. *Packaging for Whole Milk Powder and Infant*, Peer-reviewed article | 2026 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 3 | [[sources/authors2026-18-1-and-salmonella-enterica-16-9-strong\|authors 2026]]. *(18.1%) and Salmonella enterica (16.9%). Strong biofilm formation was detected in 81 isolates (48.8%), particularly*, Peer-reviewed article | 2026 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 4 | [[sources/authors2026-9-no-1-2026-food-systems-volume-9\|authors 2026]]. *ПИЩЕВЫЕ СИСТЕМЫ \| Том 9 № 1 \| 2026 FOOD SYSTEMS \| Volume 9 № 1 \| 2026*, Peer-reviewed article | 2026 | Peer-reviewed | US Cd, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
-| 5 | [[sources/authors2026-access-metrics-more-article-recommendations-supporting-information\|authors 2026]]. *ACCESS Metrics & More Article Recommendations * Supporting Information*, Peer-reviewed article | 2026 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 5 | [[sources/hansra2026-lifecycle-of-a-wipe|Hansra, Haney, and Rochman 2026]]. *Lifecycle of a Wipe: Determining the Contamination, Fate, and Transformation of Wet Wipe Pollution in the Environment*, Peer-reviewed article | 2026 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 6 | [[sources/authors2026-and-heavy-metal-content-in-parallel-cherry-pomace\|authors 2026]]. *and heavy metal content. In parallel, cherry pomace obtained during juice processing of*, Peer-reviewed article | 2026 | Peer-reviewed | US Cd, Pb, iAs, Ni, Al, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 7 | [[sources/authors2026-archives-of-environmental-contamination-and-toxicology-2026-90\|authors 2026]]. *Archives of Environmental Contamination and Toxicology (2026) 90:15*, Peer-reviewed article | 2026 | Peer-reviewed | US MeHg, tHg, Cd, Pb, iAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 8 | [[sources/authors2026-available-online-16-march-2026-arils-and-juice\|authors 2026]]. *Available online: 16 March 2026 arils and juice; however, the peel (representing ~30–40% of the fruit*, Peer-reviewed article | 2026 | Peer-reviewed | Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |

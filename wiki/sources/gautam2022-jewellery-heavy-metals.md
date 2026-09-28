@@ -104,25 +104,13 @@ Courses: The report is a useful regulatory-affairs and product-safety case study
 
 App: If a jewelry or pierced-contact-product exposure surface is built, this source can provide child mouthing-duration context, oral/dermal route distinctions, and a warning that older Pb risk characterizations used a withdrawn PTWI.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/childrens-jewelry]]
 - [[products/piercing-post-assemblies]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the executive summary, Tables 1-13, regulatory sections, recall/case-report sections, and conclusions were checked against this page.
-- Identity checks before creation: exact title, report number `FW22035`, raw handle `MFK_cat21-05-heavy-metal-in-jewellery`, raw SHA-256 `010d1eee9289bf51735b280dc8e1eb6890f154d6ce37902fe86d263a76134daa`, access URL, and candidate cite key `gautam2022-jewellery-heavy-metals` were searched in the linked reference record and the structured evidence record; no existing source page was found.
-- DOI is not assigned in the extracted PDF or publisher PDF URL, so `no_doi_assigned: true` is set with the PHF Science/ESR PDF access URL.
-- Units are copied as printed (`mg/kg`, `ug/kg`, `ug/g`, `ug/cm2 per week`, `%`, `ug/kg bw/day`, and RCR `%`). No unit conversion was performed.
-- Speciation: Pb, Cd, and Ni are not speciated; the page does not infer chemical forms. Sb and Sn appear in one case report but are not part of the report's risk-assessment scope or source metadata analyte routing.
-- Brand firewall: the report names recalled jewelry products. This page suppresses those names around contamination values and reports recall examples by category/event only.
-- Product slug note: no adult-jewelry product slug is available in the current routing vocabulary, so the page routes to the existing children's jewelry and piercing-post product pages and records the broader adult-jewelry context in text only.
-- Evidence tier: `A` because this is an ESR/Ministry of Health agency risk-assessment report with transparent source tables, regulatory review, and risk-characterization logic. Its occurrence contribution is secondary/contextual, not primary market sampling.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` product routing row (`childrens-jewelry`), was absent from the structured evidence record, and had only the expected nonblocking `ingredients;matrices` advisory in the structured evidence record because this is a non-food hard-goods/jewelry source with no ingredient matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

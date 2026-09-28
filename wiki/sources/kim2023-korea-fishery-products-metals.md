@@ -62,16 +62,6 @@ Fishery products were purchased from grocery stores and markets in six Korean re
 
 This source contributes broad Korean market fishery-product occurrence data for total As, Pb, Cd, tHg, and MeHg. It is directly useful for marine fish, freshwater fish, shellfish, and seaweed/sea-algae context, but tunicates and echinoderms lack specific destination slugs in the closed taxonomy. Downstream routing should keep Table 4 total Hg and Me-Hg separate and should not treat the risk section's inorganic-As assumption as measured iAs occurrence.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, Tables 1-7, methods, and discussion were readable.
-- DOI `10.3390/foods12203750`, raw handle `MFK_foods-12-03750`, and cite-key checks found no existing source page before creation.
-- Table 4 occurrence values, Table 2 LOD/LOQ values, and Table 5-7 risk/exposure summaries were checked against extracted text. Units are preserved as `mg/kg`, `µg/kg/day`, `µg/kg/week`, and `µg/kg/month`; no conversion was performed.
-- Speciation: arsenic is total/unspecified As (`tAs`), mercury is total/unspecified Hg (`tHg`), and methylmercury is separately reported as `Me-Hg`. The source's carcinogenic-risk calculation assumes As is inorganic As, but that assumption is not a measured iAs occurrence value.
-- Table 4 and the discussion conflict on the maximum marine-fish Me-Hg value (`0.322 mg/kg` in Table 4 versus `0.084 mg/kg` in text); the table value is retained for occurrence evidence and the conflict is noted in Key numbers.
-- Brand firewall: samples were grouped by fishery-product category/species and no product brand values were reported.
-- Missing closed-vocabulary slugs: tunicate and echinoderm/sea-urchin-specific product and ingredient slugs were not available in the taxonomy snapshot, so those categories are documented in the body without invented source metadata slugs.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

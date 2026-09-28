@@ -60,19 +60,6 @@ Twenty-two commercial seaweed samples were sourced from Japanese retail and labe
 
 The source provides geographic-origin signal for Kombu and Wakame consumed in Japan, with Nemuro (Hokkaido) Kombu showing an approximately threefold elevation in Cu/Zn/Cd over Kombu from other Hokkaido sites, and Chinese-source Wakame showing elevated Ni/Co/Cr/Cd relative to Japanese-source Wakame. The author interprets the variation as a signal of underlying seawater and sediment contamination at production sites. Without per-sample numerical values, the abstract supports qualitative inter-species and inter-region rankings only; it does not support computing percentile thresholds for any HMTc category.
 
-## Verification notes
-
-- Source-document scope: only the one-page Japanese-format master's thesis abstract was provided in the manual-fetch folder. The full thesis is not in the corpus.
-- No DOI; access_url left null. Source type is `thesis` (master's level); evidence tier C reflects abstract-only access and absence of peer review.
-- Metals source metadata lists only HMI analyte-vocabulary intersect (Cr, Ni, Cd, Pb, U). Non-tracked elements measured in the underlying study (V, Se, Mn, Fe, Cu, Zn, Mo, Co, Th) are documented in the Key numbers body table but not lifted to source metadata.
-- Jurisdictions include JP (sale and analysis), CN, and KR (packaging-declared origin countries for sample subset).
-- Matrices include `kelp` because the species set includes *Laminaria spp.* (Kombu) which is a brown kelp; `macroalgae` and `edible-seaweed` cover the full species panel.
-- No brand names were present in the abstract. Brand firewall: not engaged.
-- Speciation: arsenic not measured; chromium reported as total Cr (Cr-VI not distinguished).
-- Numerical values: none in the abstract; the Key numbers table records only the qualitative ranking statements the source actually makes.
-- Audit editorial review (2026-06-04) flagged `matrices: [edible-seaweed, macroalgae, kelp, dry-weight]` for vocabulary verification (⚠️). Verified against existing corpus: all four slugs are in active use across the linked reference record — `dry-weight` appears alongside `red-seaweed` in `aziz2021-gracilaria-seaweed-bangladesh.md`; `edible-seaweed`, `macroalgae`, and `kelp` each appear across multiple source pages. The basis-vs-matrix critique on `dry-weight` is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; finding logged as false positive against current corpus convention.
-- Audit editorial review (2026-06-04) recommended adding `## Wiki pages this source may touch` section. Declined: the v2.0 ingest skill (line 92, the editorial record) explicitly treats `## Wiki pages updated on ingest` as a legacy heading; the routing layer is now the system's responsibility, not the source page's. Recommendation logged as false positive against current architecture.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

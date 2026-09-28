@@ -112,10 +112,8 @@ Microbiome: No direct microbiome endpoint, though the authors discuss antinutrit
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. The paper was substituted from the wishlist's Al-baby-cereal slot (originally Filippini 2020 PMID 32247442 was queued; de Paiva 2020 covers the same gap with Brazilian instead of European data). Published in *Food Research International* under standard Elsevier paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1016/j.foodres.2019.108965).
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->

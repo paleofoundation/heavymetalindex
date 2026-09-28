@@ -162,7 +162,12 @@ Cd in lobster digestive gland (tomalley) is included as an exposure-route data p
 
 The pooled-tissue Hg values are uniformly below 0.5 µg·g⁻¹ wet wt. and add a small-N tHg occurrence contribution; the pooled-tissue As values cluster 2.31–4.16 µg·g⁻¹ wet wt. and add a small-N tAs occurrence contribution. Both should be flagged as **total** species and pooled with caution against papers that report iAs or MeHg.
 
-## Wiki pages this source may touch
+## Sources
+
+- Chou CL, Uthe JF. 1993. *Cadmium in American lobster (*Homarus americanus*) from the area of Belledune Harbour, New Brunswick, Canada: 1980-1992 results.* Canadian Technical Report of Fisheries and Aquatic Sciences No. 1916. Department of Fisheries and Oceans, Physical and Chemical Sciences Branch, Scotia-Fundy Region, Halifax, Nova Scotia. vi + 25 p. ISSN 0706-6457; Cat. No. Fs 97-6/1916E.
+- Manual-fetch PDF: the archived source file (SHA-256 `5e9a5f7be6f26433f3b4fdd741053f92a28013de070df319661b5cac2e5d3a2d`).
+
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[ingredients/seafood]]
@@ -174,26 +179,6 @@ The pooled-tissue Hg values are uniformly below 0.5 µg·g⁻¹ wet wt. and add 
 - [[metals/arsenic-total]]
 - [[metals/copper]]
 - [[metals/silver]]
-
-## Sources
-
-- Chou CL, Uthe JF. 1993. *Cadmium in American lobster (*Homarus americanus*) from the area of Belledune Harbour, New Brunswick, Canada: 1980-1992 results.* Canadian Technical Report of Fisheries and Aquatic Sciences No. 1916. Department of Fisheries and Oceans, Physical and Chemical Sciences Branch, Scotia-Fundy Region, Halifax, Nova Scotia. vi + 25 p. ISSN 0706-6457; Cat. No. Fs 97-6/1916E.
-- Manual-fetch PDF: the archived source file (SHA-256 `5e9a5f7be6f26433f3b4fdd741053f92a28013de070df319661b5cac2e5d3a2d`).
-
-## Verification notes
-
-- 2026-06-03 Claude fresh ingest from `manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish`. Three identity checks (DOI grep, raw_handle grep, cite-key grep) returned no existing wiki page; this is a NEW path ingest.
-- Source is a Canadian government technical report (Crown copyright, open access via Publications Canada); no DOI exists for this publication series. Cat. No. Fs 97-6/1916E and ISSN 0706-6457 verified from the PDF copyright page (p. ii). `evidence_tier: B` reflects gray-literature status with ICES-intercomparison-traceable methods rather than peer-reviewed journal indexing.
-- Brand firewall (Part 12): the source names no commercial food brands. "Belledune Harbour" is a geographic identifier for the industrial-pollution site (lead smelter, fertilizer plant) and is named as the regulatory-event location; no per-brand contamination ranking is reported.
-- Speciation: the source measures total Hg (Armstrong and Uthe 1971 method) and reports a single "Hg" value per pool — recorded as `tHg`. The As method (Freeman et al. 1976) is capable of separating inorganic from organic arsenic, but the source's Table 2 reports a single "As" value per pool with no iAs/organic split — recorded as `tAs` per Part 14 (when the source does not separate, use the total designation).
-- Units: the source uses µg·g⁻¹ wet weight throughout. This is equivalent to mg/kg wet weight (1 µg·g⁻¹ = 1 mg/kg = 1,000 ppb). Wiki-page tables preserve the source's native unit (µg·g⁻¹) and flag the ppb-conversion factor in the Units header rather than silently converting.
-- No new ingredient or product slugs needed. American lobster routes to existing `shellfish` and `seafood` ingredient and product pages. A more granular `crustaceans` or `lobster` ingredient slug does not exist in the current taxonomy snapshot; not flagged as a missing-slug proposal at this single-paper threshold (per Part 10 page-creation rules, freq-2 or higher is the auto-stub trigger).
-- The Canadian Hg-in-fish tolerance of 0.5 µg·g⁻¹ wet wt. referenced by the authors is a Health Canada / Canadian Food Inspection Agency regulatory value. No corresponding `regulations/canada-hg-fish-tolerance` slug exists in the current taxonomy snapshot; flagged here as a potential future regulation page rather than inventing a slug. Page omits the regulation cross-link.
-- Eight site abbreviations (HRI, L1W, HW, HE, LOBE, L1E, L4E, PET) and their geographic positions are preserved verbatim from the source's Figure 1 caption and Table 1 headers to enable later replication or audit.
-- 2026-06-03 editorial review editorial review (fresh context) verdict: PROMOTE. Two ⚠️ concerns, neither requiring page changes:
- - Check 2 — `metals: [Cd, Pb, tHg, tAs, Cu, Ag]` includes `Cu` and `Ag`, which are not in the Part 14 abbreviation vocabulary (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). Both metals were measured by the source and the corresponding `metals/copper` and `metals/silver` page slugs exist in the taxonomy. Disposition: leave as recorded — dropping the analytes from source metadata would silently lose information about what this source measures. Tracked as a Part 14 vocabulary-extension schema question, not a page defect.
- - Check 3 — L4E geographic descriptor: wiki front matter and `sampling_locations` call L4E "four miles ESE of Chapel Point," matching PDF Table 1 header text. PDF p.1 Introduction prose calls the controlled-fishery zone L1W → L4E "1 mile northwest … to 4 miles southwest of the harbour," which is a source-internal inconsistency between the Introduction text and the Table 1 site headers. Disposition: wiki preserves the table-header convention (which is the more granular and the convention used throughout Table 1 and Figure 1). No correction warranted; flagged here so future readers know the source is internally inconsistent.
- - All five checks otherwise clean: ✅ Check 1 (60+ cell values spot-checked across Tables 1, 2, 3 — no transpositions, no Cd/Pb swaps, no DG/cooked-meat swaps, no geometric/arithmetic conflation); ✅ Check 4 (no commercial brand names; Belledune Harbour + lead smelter + fertilizer plant are regulatory-event identifiers permitted under Part 12 Exception 1); ✅ Check 5 (no HMTc threshold proposals, no consumer advisories, no cross-literature synthesis claims).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

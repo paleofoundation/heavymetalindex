@@ -50,20 +50,12 @@ App: Route as rice-derived protein powder context for Cd. Do not surface it as e
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/non-soy-protein-source]]
 - [[products/supplements-protein-collagen-powders]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Filename mismatch: the auto-fetched filename is `ing-casein-pb_2017_10-1038-s41598-017-18340-8.pdf`, but the PDF is a rice endosperm protein supplementation trial. The routeable metal value is Cd in REP powder. Table 1 lists Cd for soy protein and casein protein as "N/A" and does not report Pb.
-- Evidence fitness: EF-3 / limited occurrence evidence. The value is source-reported, measured, and unit-resolvable, but it is a five-batch composition statistic from an intervention ingredient rather than a market surveillance dataset.
-- Provenance: raw PDF path is preserved in source metadata. SHA-256 checked during ingest: `51093cb633dcf907af519f858678b389c86b4e99e450a6ce8d118d09ff675bad`.
-- Matrix vocabulary: source metadata uses existing broader matrix descriptors `rice-protein-powder` and `dietary-supplement`; the source-specific material is rice endosperm protein powder prepared for the trial.
-- License: the PDF states that the article is licensed under Creative Commons Attribution 4.0 International License.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

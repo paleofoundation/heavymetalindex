@@ -57,7 +57,7 @@ For product-category pages, this paper contributes direct Canadian-market occurr
 
 For standards and app work, the paper is source-scope evidence rather than an HMTc benchmark distribution by itself. Its data should stay separate from non-Canadian instant-noodle studies unless a later pooling pass documents market, basis, and product-fit comparability.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-noodles]]
 - [[products/pasta-wheat-based]]
@@ -67,14 +67,6 @@ For standards and app work, the paper is source-scope evidence rather than an HM
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Auto-fetched ingest, 2026-05-31. The filename targeted rice-noodle lead occurrence; the actual PDF covers Pb, total/unspecified As, and Cd in Canadian instant noodles, including both rice-based and wheat-based products.
-- Brand firewall: the PDF names consumer brands in keywords and background, but this source page does not reproduce brand-level contamination findings or brand names.
-- Speciation: the source reports arsenic as As and does not state inorganic arsenic; route as total/unspecified arsenic only.
-- Numerical fidelity: Pb and Cd ranges are taken from the Discussion text. Figure-only values were not manually digitized.
-- LOD units as printed: the source's Discussion states LODs as "0.01, 0.002, and 0.004 ug/kg" for Pb, As, and Cd. Those values are implausibly low for ICP-MS/MS in an acid-digested food matrix (typical food-matrix LODs are µg/kg = ppb at numerically larger values, e.g., 0.1 to 1 µg/kg). The wiki transcribes the printed values verbatim; the apparent unit inconsistency lies with the source, not this page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

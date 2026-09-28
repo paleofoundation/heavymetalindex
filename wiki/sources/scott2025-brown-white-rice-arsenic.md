@@ -34,7 +34,7 @@ This critical review compares arsenic exposure from brown and white rice consump
 
 ## Key numbers
 
-Brown rice and rice bran contain higher iAs and tAs than white rice endosperm (exact values cited from the underlying FDA TDS and published literature). The bran-to-endosperm gradient reflects preferential arsenic localization in the outer grain layers. Dietary exposure estimates use NHANES consumption survey data for multiple U.S. age groups. Published in *Risk Analysis* 2025;45:2183–2196. NIFA-funded (grants 2023-67017-40049, MICL02527). 
+Brown rice and rice bran contain higher iAs and tAs than white rice endosperm (exact values cited from the underlying FDA TDS and published literature). The bran-to-endosperm gradient reflects preferential arsenic localization in the outer grain layers. Dietary exposure estimates use NHANES consumption survey data for multiple U.S. age groups. Published in *Risk Analysis* 2025;45:2183–2196. NIFA-funded (grants 2023-67017-40049, MICL02527).
 
 ## Methods (brief)
 

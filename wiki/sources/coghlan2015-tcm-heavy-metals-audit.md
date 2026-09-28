@@ -59,19 +59,12 @@ For the dietary-supplements product page, this source provides high-relevance ev
 
 For brand-firewall purposes, the source's TCM sample numbers are sufficient. The wiki should not reproduce consumer product names from the audited medicines.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/dietary-supplements]]
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Batch 1 auto-fetched ingest, 2026-05-25. The wishlist query targeted herbal/botanical infusions, but the actual PDF is a traditional Chinese medicine product audit. Ingested under the actual paper scope and routed to dietary supplements rather than tea/infusion product rows.
-- Evidence fitness: direct finished-product supplement evidence, but the article body reports exceedance bands for Table 3. Exact concentration values are pending supplementary-table extraction.
-- Digestion basis: SF-ICP-MS values are from a 24-hour cold nitric-acid leach, not a total digestion. The paper itself states the reported concentrations should be treated as underestimates of total metal content. Any downstream pooling must keep these values flagged as leachable/bioavailable, not pooled with total-digest occurrence data without basis-conversion notes.
-- Brand firewall: TCM product identifiers are kept as numbered samples only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

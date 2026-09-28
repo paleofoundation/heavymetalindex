@@ -118,7 +118,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Routing
 
-This node is linked from the ingredient index and source routing list.
+This ingredient is listed in the ingredient index.
 
 ## Contamination Profile State
 
@@ -218,7 +218,7 @@ Other previously cited literature is retained as context; it does not establish 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/lasky2013-arsenic-chicken-correspondence|Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)]]<span class="hmi-ref-meta">Lasky T, Nachman KE, Baron PA, Raber G, Francesconi KA, and Love DC · Environmental Health Perspectives · 2013 · [doi.org/10.1289/ehp.1307083](https://doi.org/10.1289/ehp.1307083)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -230,7 +230,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

@@ -120,38 +120,12 @@ The paper does not declare a randomisation scheme, a blinding protocol, or a for
 
 The paper is a primary biochemistry study; its scope is the enzyme and its substrate, not the human-exposure or food-contamination question that the wiki ultimately serves. The cell-culture system (*Silene cucubalus* suspension cells grown in liquid medium) does not directly model field-grown crops or edible plant tissues; subsequent literature has had to extend the *Silene* characterisation to species and tissues that humans actually consume. The Km for glutathione (6.7 mM) is high compared to typical cytosolic glutathione concentrations in unstressed plant cells (millimolar range), which the authors do not directly address; this raises a kinetic question about how rapidly phytochelatin can be produced under physiological substrate availability that the paper does not resolve. The 21-extracts-screen is a positive-result list (the 5 detections) presented as evidence for ubiquity, but the 16 negatives are explained away as masked by glutathione-degrading activities rather than reported as true negatives, which limits the strength of the ubiquity claim from this paper alone — later studies that cleanly resolved the masking issue established broader taxonomic coverage. The activation table (Table 1) tests metal ions in isolation rather than in physiologically realistic mixtures, so the rank order should not be projected onto field-relevant multi-metal exposures.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1073/pnas.86.18.6838`), raw_handle grep (`MFK_15-phytochelatins-the-heavy-metal-binding-peptides`), and cite-key/title glob over the linked reference record on 2026-06-08 returned no matches. Existing phytochelatin-themed pages (marques2025, seregin2023, luo2024) do not cite this same DOI or duplicate this paper. This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** A. This is a primary peer-reviewed biochemistry study in PNAS reporting original enzymology with explicit Methods, kinetic constants, and a quantitative metal-activation table. The "narrative review" disqualifier that limits later peptide reviews to B-tier does not apply here.
-
-**Metals source metadata.** The paper studies Cd2+ as the principal activator and reports a quantitative activation table covering Cd, Ag, Bi, Pb, Zn, Cu, Hg, Au. From the HMTc 10-analyte priority list (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), the in-scope metals named in the paper are Cd, Pb, and tHg. tHg is used (not MeHg) because the paper uses HgCl2 as the test salt, which is an inorganic mercury species, and reports it under the generic Hg/mercury label without speciation; the wiki convention defaults the unspecified mercury reading to tHg. Ag, Bi, Zn, Cu, and Au are out-of-scope for the HMTc 10-analyte vocabulary and are not added to source metadata; the activation data for these metals is preserved in the body Table 1.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The source measures nothing in any food, beverage, personal-care, or environmental matrix; it studies enzyme kinetics in a cell-culture-derived extract. No jurisdiction applies — the laboratory is in Munich, Federal Republic of Germany, but the work is a generic biochemistry study with no jurisdiction-specific occurrence frame.
-
-**Sample size.** Null. The paper reports enzymology, not a sampling study. The "21 cell-culture extracts" figure for the taxonomic survey is a screening pool, not a sample of a defined population.
-
-**Brand firewall (Part 12).** Vendor names appear in Methods (NEN, Sigma, Merck, Boehringer Mannheim for reagents; Pharmacia and Pharmacia-LKB for chromatography media and the molecular-weight HPLC column; Bio-Rad for the hydroxylapatite column; Serva for the AcA 34-Ultrogel). These are scientific-method vendor names, which Exception 2 of the brand firewall (locked 2026-05-17) explicitly preserves for reproducibility. No food or personal-care brand is named.
-
-**HMTc firewall (Part 2).** The paper makes no HMTc-threshold claim and no consumer-audience risk advisory. No firewall action required.
-
-**Source typographic / citation errors noted.** None observed in the regions read. The reference list is short (17 entries) and consistent with the 1989 PNAS style.
-
-**Date arithmetic.** Received for review 5 February 1989, communicated 5 May 1989, published September 1989 in PNAS Vol. 86 pp. 6838-6842; all consistent with the year source metadata (1989).
-
-**License/access.** PNAS pre-2008 papers are not CC-licensed but are freely accessible through the PNAS archive after the journal's standard open-access window. The `license` field records the access mode rather than a Creative Commons identifier. The DOI 10.1073/pnas.86.18.6838 resolves; no paywall on the publisher landing page.
-
-**Reviewer's note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The "Black Market Peptide Metal Survey" folder context is Karen's collection of peptide-metal-binding literature; this is the foundational enzymology paper on plant phytochelatin biosynthesis, which sits squarely inside that frame. It does not address contamination of peptide products or any food/supply-chain occurrence question, and that mismatch is documented above under Implications.
-
-**Audit editorial review (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. Two ⚠️ informational findings were verified and applied: (1) the original draft characterised the enzyme purification as a "seven-step procedure" but the PDF (p. 6839) explicitly lists Sephadex G-25 (PD-10) desalting followed by a final Mono Q polish chromatography after the Zn-chelating Sepharose step; the wording has been revised to "multi-column procedure" and the Sephadex G-25 and Mono Q steps have been added to the column sequence. (2) The auditor flagged that `[[mitigation/remediation-evidence]]` is outside the four-category taxonomy snapshot (ingredients / products / metals / regulations) used by the audit-prompt checks; this is a known limitation of the snapshot, and `mitigation/` is a sanctioned wiki area per the 2026-06-02 commit `3f47f95` and. The wikilink is retained. No content corrections beyond the purification-sequence refinement were applied. Numerical fidelity checks on author names (Löffler with correct umlaut), Mr values, kinetic constants (Km glutathione 6.7 mM, Km MBB-GSH 1.5 mM, kcat minimum 0.2 s^-1), Table 1 activations (Cd 100, Ag 58, Bi 56, Pb 43, Zn 33, Cu 27, Hg 26, Au 12; concentrations 0.1/0.1/0.5/0.1/0.1/0.01/0.1/0.1 mM), Table 2 species/family/age/activity (Silene cucubalus 7d/637, Podophyllum peltatum 4d/365, Eschscholtzia californica 6d/145, Beta vulgaris 5d/100, Equisetum giganteum 10d/34 pkat/L), half-lives (6h/34h/140h at 35/22/4 °C), temperature half-max points (20°C and 47°C), NaN3 storage concentration (0.01 %), and 2:1 dipeptide:Cd stoichiometry all matched the PDF without correction.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

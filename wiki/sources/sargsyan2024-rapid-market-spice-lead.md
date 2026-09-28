@@ -49,18 +49,12 @@ Courses: The paper is useful for explaining why spices can look mostly non-detec
 
 App: Route as broad global spice lead context with explicit market/geography flags. The source supports risk language for loose processed spices, especially turmeric and blends, but not sample-level prediction for a specific country.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
 - [[ingredients/turmeric]]
 - [[metals/lead]]
-
-## Verification notes
-
-- The 1,084 spice samples are part of a wider consumer-product screening study. This source page captures the spice-specific numbers and does not route foodware, toys, paints, or cosmetics as food-occurrence evidence.
-- Values are total lead by portable XRF. The paper notes stronger XRF/lab correlation for powdered spices than for some other consumer-product types, but it does not provide full laboratory-confirmed sample-level spice data.
-- The country percentages in Table 3 are exceedance rates above the source's 2 ppm reference level, not country prevalence estimates; some country/product cells are based on five or fewer samples.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

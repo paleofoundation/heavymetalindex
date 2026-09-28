@@ -62,7 +62,7 @@ Courses: The statement is useful for showing how total diet studies bridge food-
 
 App: The source can support broad UK TDS context for cereals, bread, fish, canned vegetables, fruit products, nuts, potatoes, and drinking-water contribution caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/bread-and-baked-goods]]
 - [[products/breakfast-cereals]]
@@ -78,15 +78,6 @@ App: The source can support broad UK TDS context for cereals, bread, fish, canne
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1456.txt`; the issue/survey sections and paragraphs for aluminum, arsenic, cadmium, lead, mercury, and indium were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_cot-2008-tds-statement`, raw SHA-256 `2959f8082e9510f011e77229ab44008c1f9dd1b2c6d1bff82745e70788b16029`, and cite key `cot2008-uk-tds-metals` were searched in the linked reference record; no existing source page was found.
-- Row `COT_2008_tds_background.pdf` is treated as near-duplicate/context for this statement because the final statement contains the routeable summary values.
-- Units are preserved as printed (`mg/kg`, `mg/day`, `µg/day`, `µg/kg body weight/day`). No unit conversion was made.
-- Speciation: arsenic is split into tAs/iAs only where the source does; mercury is total mercury unless otherwise stated. Total chromium is not Cr(VI).
-- Closed vocabulary: no exact miscellaneous-cereals product slug exists, so the page uses broad breakfast-cereal, baked-goods, and other-grain rows.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

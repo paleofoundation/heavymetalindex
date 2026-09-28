@@ -116,20 +116,13 @@ This source is useful as B-tier synthesized seafood evidence for Mediterranean M
 
 Because the paper is a modeling and literature-synthesis study, its values should not be treated as a new primary occurrence survey. The compiled Table 1 means are useful for route-level context and gap targeting; species-level benchmark pooling should use the underlying primary records or the authors' data/codebook where available.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
 - [[products/shellfish]]
 - [[metals/mercury]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Identity check: DOI `10.1016/j.scitotenv.2024.177953`, raw handle `RPMEHG_10-1016-j-scitotenv-2024-177953`, candidate cite-key `kennedy2025-mediterranean-seafood-methylmercury`, and SHA-256 `d00864dad0663ba0b1ff794fded990a6a99a0e69778827d4e1029b9342366626` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the 13-page Science of the Total Environment PDF. Table 1 and all main-text numeric findings captured above were checked from `pdftotext -layout`; figures were read for qualitative country-pattern findings only, without digitizing plotted bars. Supplementary tables and R code are referenced by the paper but were not bundled in the local PDF.
-- Brand firewall: the source reports seafood groups, species, countries, and FAO fishing divisions, not branded commercial products.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

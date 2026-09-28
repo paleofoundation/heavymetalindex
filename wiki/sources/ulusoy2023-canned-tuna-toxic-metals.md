@@ -63,16 +63,6 @@ Canned tuna samples were randomly purchased from supermarket chains in Europe, A
 
 This source contributes broad global occurrence data for canned tuna. It is useful for canned-fish and predatory-marine-fish routing, but the arsenic and mercury species must stay constrained: arsenic concentration values are total As, and mercury concentration values are total Hg. The paper's calculated iAs and risk outputs are source assumptions, not direct inorganic-arsenic measurements.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 3-6, results, and conclusions were readable.
-- DOI `10.1016/j.marpolbul.2022.114518` matched this existing source page. The manual-fetch PDF has the same SHA-256 as the prior raw/studies copy, so this edit is a merge-enhancement rather than a new duplicate page.
-- Table 6 group means and EDI values were checked against the extracted text. Selected Table 4-5 country rows were checked directly. A prior page transposition was corrected: England's Pb is `0.64 +/- 0.01`, while `1.28 +/- 0.00` is England's total As.
-- Units are preserved as `µg/g ww` for concentration values and `µg/kg bw/day` for EDI values. No unit conversion was performed.
-- Speciation: total As and total Hg were measured. Calculated iAs is a 3% total-As assumption used for risk assessment and is not treated as measured iAs occurrence. Hg is not reported as MeHg.
-- Brand firewall: although brands were sampled, this page reports country/group summaries only and does not attach brand names to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -53,7 +53,7 @@ Twenty-eight wild boars killed during the February 2021 hunting season in Castil
 
 This source adds a Castile and Leon, Spain wild-boar offal dataset to the game-meats evidence pool. Kidney Cd is the clear high-signal tissue-metal pair in this study, while liver and kidney Pb means sit below the paper's converted dry-weight Pb comparator. Because no skeletal muscle samples were measured, this paper should not be used as direct wild-boar muscle occurrence evidence; it is liver/kidney organ-meat context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
@@ -66,16 +66,6 @@ This source adds a Castile and Leon, Spain wild-boar offal dataset to the game-m
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s11259-023-10272-1`, `MFK_heavy-metals-and-metalloids-in-wild-boars-sus`, or `baptista2024-wild-boar-metals-spain`.
-- Table 1 was re-opened from `/tmp/hmi-june9-034.txt` before drafting. Liver and kidney means, SDs, and source-calculated Cd/Pb ML values are transcribed from the table without unit conversion.
-- Units preserved: occurrence values remain in `mg/kg dry weight`; the paper separately states the wet-weight regulatory values it converted from, but this page does not convert the source's analytical values to wet weight.
-- Speciation: As is recorded as tAs because the ICP-MS method does not speciate inorganic arsenic; Cr is total Cr, not Cr-VI. The paper does not report Hg or MeHg.
-- Matrix boundary: only liver and kidney tissues were measured. source metadata includes `[[products/game-meats]]` for the hunted wild-boar product family and `[[ingredients/organ-meats]]` for the measured edible-offal matrices, but the body states that no muscle occurrence values are available.
-- Jurisdictions: `ES` records the sampling country; `EU` records the paper's explicit Commission Regulation (EU) 2023/915 comparator for Cd and Pb.
-- Brand firewall: the study uses hunted animals and names no commercial meat brand. Instrument and certified-reference-material names are scientific method details.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -57,17 +57,11 @@ The authors grew two contrasting rice genotypes in an amendment experiment with 
 - Standards workbench: not a market-occurrence survey and not an iAs measurement; do not substitute these tAs values for inorganic arsenic.
 - Product routing: despite the auto-fetch target, this is rice-grain evidence, not rice-milk evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- The text layer has OCR ambiguity for some shoot As values in Table 1, so this page anchors only the legible grain As values and the abstract's shoot-range statement.
-- The conclusion section appears to contain a copy-editing carryover about mushroom fruit bodies; this conflicts with the rest of the chapter and is not used for routing.
-- The source reports total As only. It cannot support an inorganic-arsenic row without a separate speciation assumption, which is not allowed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -55,7 +55,7 @@ Courses: The paper is a strong example of seafood occurrence reporting with spec
 
 App: The source can support product/ingredient profiles for seafood and shellfish with `tHg` nondetect context and quantified Cd, Pb, Ni, Fe, Zn, Mn, and Cu values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/seafood]]
 - [[ingredients/fish]]
@@ -66,15 +66,6 @@ App: The source can support product/ingredient profiles for seafood and shellfis
 - [[products/shellfish]]
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1550.txt`; Table 2, Table 4, Table 5, and the Methods were re-read before writing.
-- Identity checks before creation: DOI `10.1016/j.marpolbul.2023.114581`, raw handle `MFK_metal-pollution-and-potential-human-health-risk`, raw SHA-256 `35927a13d569997080692ddf7020c6bfb5db552f7559bb773d93fa9e6297677a`, and cite key `haseeb-ur-rehman2023-pakistan-seafood-metals` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved as `mg kg-1 w.w` and `µg/g, w.w` where printed; no conversion between equivalent units was made.
-- Speciation: mercury is total mercury/nondetect context (`tHg`); no methylmercury values are reported or inferred.
-- Brand firewall: samples came from processing plants/export consignments, but no plant or brand names are attached to values.
-- Closed-vocabulary note: no crustacean or cephalopod product slug exists in the current snapshot, so shrimp, crab, squid, and cuttlefish route through broad `seafood`, `shellfish`, and `molluscs` context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

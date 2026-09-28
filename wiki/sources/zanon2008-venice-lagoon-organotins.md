@@ -64,15 +64,6 @@ The study collected mussels and clams from Lagoon of Venice stations during 1999
 
 This source contributes organotin occurrence evidence for commercially used bivalve shellfish in the Lagoon of Venice. The edible-organism data support seafood and shellfish routing for organotin-specific tin species, especially TBT/DBT/MBT in mussels and clams. Downstream extraction should preserve the dry-weight versus wet-weight distinction and the `TBT+` cation basis, and should not pool these values as inorganic tin or total Sn.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sampling methods, chemical-analysis methods, Tables 2-3, Chioggia discussion, and the TARL paragraph were checked in `/tmp/f3_unrepresented_texts/zanon2008.txt`.
-- DOI `10.1007/s10661-008-0294-6`, raw handle `MFK_zanon2008`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `μg kg−1 d.w.`, `μg/kg`, `μg/Kg`, and `μg Kg−1 w.w.` where the paper used those forms; no conversion was performed.
-- Speciation: the paper reports butyltin and phenyltin species. source metadata uses `Sn` only for element-level routing under existing wiki convention; this page explicitly does not treat organotins as inorganic tin or total tin.
-- Brand firewall: no sampled seafood brands were reported.
-- source metadata slugs were checked against the editorial record; no ingredient/product slug exists for mussels or clams as narrow pages, so broad shellfish and mollusc routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

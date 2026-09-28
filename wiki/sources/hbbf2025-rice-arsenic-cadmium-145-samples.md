@@ -63,28 +63,18 @@ Testing performed by Brooks Applied Laboratories (BAL, near Seattle, Washington)
 - Courses: Teachable case for brand QA and supply-chain audiences on how rice variety, growing region, and processing format (e.g., RTH, parboiled, seasoned blends like saffron yellow rice) drive heavy-metal load across an otherwise commodity ingredient.
 - App: Adds n=145 rice samples plus 66 alternative-grain samples to [[ingredients/rice]] for Pb, Cd, iAs, tAs, tHg. Also touches [[ingredients/quinoa]] (n=9 samples) and the broader [[ingredients/non-rice-grains]] umbrella.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-- [[ingredients/rice]]
 - [[ingredients/rice-flour]]
-- [[ingredients/quinoa]]
-- [[ingredients/non-rice-grains]]
 - [[products/infant-cereal]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
 - [[regulations/fda-closer-to-zero]]
-
-## Verification notes
-
-- This is a B-tier NGO report (HBBF + GreenLatinos + Virginia Women's Residency), not peer-reviewed. Methodology summary (Appendix B) is high-level; per-sample LOD/LOQ values are not in the public PDF but are referenced as available in the lab's detailed reports. Treated as B-tier per Part 13.
-- Brand firewall (Part 12, strict 2026-05-17 reading): Appendix A names 105 brands across 211 samples. This source page aggregates findings at rice-subtype and grain-category level only. Brand names are stripped from Key numbers; outlier findings that previously named producers (parboiled saffron-seasoned yellow rice Pb cluster; ready-to-heat brown jasmine low-iAs sample) are now described by product-form descriptor alone. Routine brand-by-brand rankings are not reproduced; the appendix tables remain in the archived source file for reference.
-- 2026-05-29 merge-enhance: populated `products:` with `rice-bulk-grain` (direct evidence, 145 rice samples), `baby-cereals-dry-rice-based` (regulatory context: report frames findings against FDA's 100 ppb iAs action level for infant rice cereal and discusses homemade rice cereal made from these grains), and `other-grain-products` (direct evidence, 66 alternative-grain samples). Cleared the routing-malformed advisory. Stripped two brand attributions from the saffron-seasoned yellow rice and Vigo-line yellow-rice descriptors in Key numbers, and corrected a misattributed sample on the jasmine sub-block (the 15.2 ug/kg iAs jasmine sample is the ready-to-heat brown-jasmine sample, not a California-grown white-jasmine sample). Numerical fidelity spot-checks against Figures 1-2, footnote 9, Insight #5, and Appendix A pp. 29-37 all matched.
-- 2026-05-29 audit application (fresh-context editorial review, REVISE verdict): corrected three Appendix A sample-count typos carried over from the 2026-05-17 version (Calrose n=6 → 5; Brown rice n=16 → 15; Quinoa n=8 → 9); reconciled an inconsistency in the Implications opener (said "10 named rice subtypes" but enumerated 16 from Figure 3); tightened the FDA exceedance figure from ">25% (more than one in four)" to the source's precise "28%"; corrected the saffron-rice Pb comparison wording from "5 times the next-highest non-saffron sample" to the source-verbatim "5 times the next-highest sample from any other brand" (p. 16); expanded Methods with Appendix B detail (NELAP/ISO 17025 accreditation, AOAC 2015.01 modified microwave digestion with H₂O₂+HNO₃, ICP-QQQ-MS for total metals, IC-ICP-CRC-MS for As speciation, QA/QC batch composition). One ⚠️ left unaddressed: the audit flagged `matrices: [rice, cereal-grain]` as possibly-novel matrices vocabulary; left as-is because `cereal-grain` was inherited from the 2026-05-17 version and the matrices snapshot is open. The audit also briefly named brands inside the audit's own change-log when describing the brand-stripping edits; rewritten here to avoid re-introducing brand names in the wiki body.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

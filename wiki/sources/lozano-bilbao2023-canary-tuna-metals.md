@@ -100,7 +100,7 @@ Regulatory comparisons reported by the authors:
 
 - The authors cite Regulation (CE) No 420/2011 as setting a 0.05 mg/kg fresh-weight cadmium limit for fish meat. Against that limit, T. thynnus mean Cd (0.051 mg/kg) is at the limit and 75% of T. thynnus specimens were reported as exceeding it; the other four species' means were all below.
 - The authors then cite "Directive 2006/66/EC" as establishing a 0.3 mg/kg total cadmium limit for tuna; against that limit, T. thynnus mean Cd (0.051 mg/kg) was below.
-- The authors cite Regulation (EC) No 1881/2006 as setting a 0.30 mg/kg fresh-weight lead limit for fish meat. Against that limit, in Section 3 of the discussion the authors report "none of the species exceeded the maximum permissible concentration of 0.30 mg/kg," while the abstract and conclusions report that "40% of the studied specimens of [T. thynnus] exceeded the legislated values for the concentration of Pb in oily fish meat." Both statements can be reconciled by reading the discussion sentence as a species-mean comparison (T. thynnus mean Pb 0.280 < 0.30 mg/kg) and the abstract sentence as a per-specimen tally (40% of the 15 T. thynnus individuals exceeded 0.30 mg/kg; maximum 0.683 mg/kg). See verification notes.
+- The authors cite Regulation (EC) No 1881/2006 as setting a 0.30 mg/kg fresh-weight lead limit for fish meat. Against that limit, in Section 3 of the discussion the authors report "none of the species exceeded the maximum permissible concentration of 0.30 mg/kg," while the abstract and conclusions report that "40% of the studied specimens of [T. thynnus] exceeded the legislated values for the concentration of Pb in oily fish meat." Both statements can be reconciled by reading the discussion sentence as a species-mean comparison (T. thynnus mean Pb 0.280 < 0.30 mg/kg) and the abstract sentence as a per-specimen tally (40% of the 15 T. thynnus individuals exceeded 0.30 mg/kg; maximum 0.683 mg/kg).
 
 Stable-isotope context for trophic interpretation (Table 3, drawn from external references, not measured in this study): δ¹³C (‰) A. solandri −16.71 ± 0.48, K. pelamis −17.6 ± 0.4, T. albacares −17.06 ± 0.34, T. obesus −17.6 to −16.5, T. thynnus −17.75. δ¹⁵N (‰) A. solandri 11.18 ± 1.04, K. pelamis 9.7 ± 1.5, T. albacares 10.46 ± 0.34, T. obesus 11.6 to 14.2, T. thynnus 14.5.
 
@@ -122,33 +122,20 @@ The study was funded by the FoodE H2020 grant (Agreement 862663) and the Tuna An
 - Courses: Useful as a case study for QA/regulatory affairs teams on species-level biomagnification at the top of a pelagic food web, with a paired example of how a species' size, age, and trophic position translate into category-defining metal loads (T. thynnus relative to the other four species) and into a per-specimen exceedance pattern (40% of individuals above the Pb limit, with the species mean below it) that a single-sample COA would not reveal.
 - App: Adds Atlantic-Canary-Islands occurrence figures for [[ingredients/tuna]] for Al, Cd, Cr, Cu, Fe, Li, Pb, and Zn (mercury not measured). Adds entries to [[ingredients/fish]] and [[ingredients/seafood]] at the marine predatory level.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/fish-marine-predatory]] — primary product surface; direct evidence on tuna species from the eastern Atlantic.
-- [[products/fresh-fish]] — broader product context.
-- [[products/seafood]] — broader product context.
-- [[ingredients/tuna]] — primary ingredient surface.
-- [[ingredients/fish]] — broader ingredient context.
-- [[ingredients/seafood]] — broader ingredient context.
-- [[metals/aluminum]] — Al occurrence in muscle of five tuna species.
-- [[metals/cadmium]] — Cd occurrence; per-species means and ranges; 75% T. thynnus Cd-exceedance against the 0.05 mg/kg limit the authors attribute to Regulation (CE) No 420/2011.
-- [[metals/chromium]] — total Cr occurrence (no Cr(VI) speciation).
-- [[metals/copper]] — Cu occurrence; the prose value "1526 ± 1114 mg/kg" for T. thynnus Cu on page 7 is a decimal-shift typo for the Table 2 value 1.526 ± 1.114 mg/kg (see verification notes).
-- [[metals/iron]] — Fe occurrence; T. thynnus mean 137.8 mg/kg ≈ 8 to 28× the other species.
-- [[metals/lithium]] — Li occurrence in tuna muscle, with T. thynnus and T. obesus markedly higher than the other species.
-- [[metals/lead]] — Pb occurrence; 40% of T. thynnus specimens above the 0.30 mg/kg limit the authors attribute to Regulation (EC) No 1881/2006.
-- [[metals/zinc]] — Zn occurrence.
-- [[regulations/eu-1881-2006-contaminants-superseded]] — cited as the source of the 0.30 mg/kg fish-muscle Pb limit used for the exceedance tally.
-
-## Verification notes
-
-- Paper-internal inconsistency on the metal panel: the abstract lists "Al, Cd, Cr, Cu, Fe, Li, Ni, Pb and Zn" as the metals determined by ICP-OES, but Table 1 (method LODs/LOQs) and Table 2 (results) list only eight metals (Al, Cd, Cr, Cu, Fe, Li, Pb, Zn) with no Ni row in either table. The metals source metadata and the body of this source page follow Table 1/Table 2 (the actual measured set, eight metals); the abstract's mention of Ni is treated as a manuscript error and is not propagated.
-- Paper-internal inconsistency on T. thynnus Cu units: page 7 prose states "T. thynnus is also the species with the highest concentration of Cu, with 1526 ± 1114 mg/kg," but Table 2 reports T. thynnus Cu as mean 1.526 ± 1.114 mg/kg. The Table 2 value is taken as authoritative (consistent with the per-species panel and with the maximum 4.539 mg/kg in Table 2); the prose figure is a decimal-shift typo.
-- Apparent regulatory miscitation on cadmium: the discussion (page 10) cites "Directive 2006/66/EC" as establishing a 0.3 mg/kg total cadmium limit for tuna. Directive 2006/66/EC is the EU Batteries Directive and does not set a 0.3 mg/kg cadmium limit for tuna meat. The page reports the citation as the authors wrote it; the substantive Cd comparison the authors make against a 0.05 mg/kg fish-meat limit is consistent with Regulation (EC) No 1881/2006 as amended by Regulation (CE) No 420/2011, which is the contemporaneous EU framework for cadmium in fish at the time of the study. Slug `eu-1881-2006-contaminants-superseded` is included in the routing pointer for the Pb exceedance discussion; no slug is added for "Directive 2006/66/EC" because it is not the relevant instrument.
-- Apparent paper-internal inconsistency on Pb exceedance: page 7 discussion reads "Regarding Pb, ... none of the species exceeded the maximum permissible concentration of 0.30 mg/kg of fresh weight for fish meat"; the abstract and conclusions report that 40% of T. thynnus specimens exceeded 0.30 mg/kg. Reconciliation: T. thynnus species-mean Pb (0.280 mg/kg) is below 0.30; the 40% figure refers to a per-specimen tally, with the species maximum 0.683 mg/kg from Table 2 documenting that individual specimens are above the limit. Both readings are reported on the page.
-- Mercury is not in the dataset: the authors explicitly note (page 3) that because little sample tissue was available, "the analysis of Hg and isotopes [was left] for later studies." This source therefore does not contribute to mercury occurrence on the metal page for these species.
-- Chromium is total Cr (no Cr(VI) speciation); `Cr` is used in the metals source metadata, not `Cr-VI`.
-- All values are wet-weight (mg/kg w.w.) per the authors' Section 2.1; no dry-weight conversion is applied here.
+- [[products/fish-marine-predatory]]
+- [[products/fresh-fish]]
+- [[products/seafood]]
+- [[metals/aluminum]]
+- [[metals/cadmium]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/iron]]
+- [[metals/lithium]]
+- [[metals/lead]]
+- [[metals/zinc]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -89,7 +89,7 @@ Courses: Illustrates the geographic heterogeneity of heavy-metal contamination i
 
 App: Contextual signal that fish marketed from Asian (especially Bangladeshi and Vietnamese), Saudi Arabian, and West African waters carry elevated As and Pb risk in primary literature; European and Latin American fish show narrower exceedance profiles concentrated on As (Europe) and Cr (Latin America). The Hg signal is uniformly below the 0.5 mg/kg limit across the review.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
@@ -104,17 +104,6 @@ App: Contextual signal that fish marketed from Asian (especially Bangladeshi and
 - [[products/fish-freshwater]]
 - [[products/fish-marine-non-predatory]]
 - [[products/fish-marine-predatory]]
-
-## Verification notes
-
-- Speciation: the review reports all values as totals (As, Cr, Cd, Pb, Hg) with no inorganic-vs-organic separation; this page uses `tAs` and `tHg` accordingly, and `Cr` (not `Cr-VI`).
-- Cr units in Resma et al. (Southern Bangladesh) are flagged in the source table as `***` = drinking-water values in mg/L, not fish-tissue values in mg/kg. The Key numbers section preserves that distinction explicitly.
-- The Pb FAO/WHO limit footnote in the source tables shows "0.5/2.0" (the lower for general fish; 2.0 for some categories); the page preserves the source's exact notation.
-- Shrimp (Penaeus notialis, Metapenaeus tenuipes/Spinulatus) is included in some tables; this page uses `shellfish` as the broad-scope ingredient/matrix slug for crustacean entries rather than creating species-level slugs.
-- This is a narrative review (B-tier), not a PRISMA systematic review; values are tabulated per cited primary study without pooling or meta-analysis. Treated as a literature entry point rather than as an evidence source on its own.
-- Folder placement (02_Marine_Nonpredatory) is narrower than the paper's actual scope, which spans marine non-predatory (sardine, herring, sprat, anchovy, sole, flounder), marine predatory (grouper, snakehead, barracuda, smoothhound shark, mackerel), and freshwater (carp, tilapia, catfish, scraper, rohu). source metadata products list all three subcategories plus the umbrella `fresh-fish` per the broad-scope rule.
-- Audit editorial review (2026-06-03) flagged the Dhaleshwari "Highest As 0.061 (Puntius puntio)" framing as inconsistent with Table 2 (Metapenaeus tenuipes shrimp As 0.128 is higher than Puntius 0.061) and with the source's own p. 8 statement that *Metapenaeus tenuipes* exceeded the As, Pb, and Hg limits. Verified against source — corrected to identify the species the review attributes as limit-exceeding (shrimp for As/Pb/Hg; *Amblyceps mangois* for Cd; *Mastacembelus armatus* for Cr), while preserving the *Puntius puntio* 0.061 figure as the body-text reference it actually is.
-- Audit editorial review (2026-06-03) flagged "Asia — As >50% of studies" as a loose paraphrase of Figure 6's ~57% bar. Tightened to "~57%" to match the figure directly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

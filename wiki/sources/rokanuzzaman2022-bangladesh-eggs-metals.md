@@ -58,7 +58,7 @@ Courses: The paper is useful for teaching why `BDL` should remain as reported, w
 
 App: The source can support Bangladesh-market egg contamination profiles for Pb, Cd, total Cr, Cu, Fe, and Zn, with a caution that species-specific ingredient routing is limited by the current closed slug vocabulary.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -71,15 +71,6 @@ App: The source can support Bangladesh-market egg contamination profiles for Pb,
 - [[ingredients/poultry]]
 - [[products/eggs-product]]
 - [[products/poultry-product]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_571.txt`; the title block, abstract, Sampling, Method, Results prose, Tables 1-4, Discussion, and Conclusion were checked against this page.
-- DOI `10.36348/sjbr.2022.v07i04.004`, raw handle `MFK_assessment-of-heavy-metals-and-trace-elements`, and candidate cite-key path the linked reference record were checked before creation; no existing source page was found.
-- Units and censoring are copied exactly as printed: concentration rows use `mg/kg`, and nondetects remain `BDL` or `Undetectable` according to the table. No conversions were performed.
-- Speciation: the source reports Pb, Cd, Cr, Cu, Fe, and Zn by AAS. Chromium is total chromium; this page does not relabel it as Cr(VI).
-- Brand firewall: the source reports local market egg types, not brands. No brand names are attached to values.
-- source metadata slugs were checked against the editorial record. The taxonomy lacks exact duck-egg and quail-egg ingredient/product slugs, so those species remain matrix descriptors and source text rather than invented slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

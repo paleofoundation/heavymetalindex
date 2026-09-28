@@ -30,8 +30,8 @@ California's two cosmetic-relevant heavy-metal instruments set **no numeric conc
 Prop 65 (Health and Safety Code § 25249.5 et seq.) requires warnings before exposure to listed chemicals above safe-harbor levels expressed as **daily intake** (µg/day): No Significant Risk Levels (NSRLs, carcinogens) and Maximum Allowable Daily Levels (MADLs, reproductive toxicants). They do not limit how much of a metal may be present in a product; compliance is judged against exposure from use. Existing wiki pages carry the transcribed values:
 
 - Lead: NSRL 15 µg/day; MADL 0.5 µg/day ([[regulations/oehha-lead-prop65]])
-- Cadmium: MADL 4.1 µg/day oral, listing effective 1997-05-01 ([[regulations/oehha-cadmium-prop65]]); cadmium NSRL (carcinogen listing) pending ingest in this wiki
-- Arsenic (inorganic): listed carcinogen and reproductive toxicant; value pages pending ingest
+- Cadmium: MADL 4.1 µg/day oral, listing effective 1997-05-01 ([[regulations/oehha-cadmium-prop65]]); cadmium NSRL (carcinogen listing) is not yet in the library
+- Arsenic (inorganic): listed carcinogen and reproductive toxicant; the numeric limits are not yet in the library
 
 Because these are intake values, they are **not registered in `regulatory_limits.csv`** and no standards row becomes CAP_MAP on their account.
 

@@ -96,17 +96,6 @@ The DeSIRA reference is a small but useful data point for the regulation/policy 
 
 For the EU regulatory-framework timeline page (see [[synthesis/eu-regulatory-framework-timeline]]), the leaflet is the Commission's own dated communication that the 488/2014 cocoa-product ceilings entered into force on 1 January 2019 and are the values then in effect.
 
-## Verification notes
-
-- Ingested 2026-06-02 from the source-retrieval download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). PDF is a two-page Commission consumer information leaflet, dated by context to 2019 (filename year and content focus on the 1 January 2019 enforcement deadline).
-- The leaflet uses decimal points (e.g., "0.10 mg/kg") in the as-displayed graphic. The numbers are preserved verbatim from the leaflet rather than converted to the decimal-comma convention used in the Official Journal text of 488/2014 and 2021/1323; readers comparing the two should not infer numerical disagreement from the punctuation difference. The four cadmium ceilings for cocoa products in the leaflet match the four cadmium ceilings in [[sources/eu-2021-1323-cadmium-foodstuffs-amendment]] sections 3.2.13.1 through 3.2.13.4 exactly.
-- The leaflet refers to "milk chocolate" only in the < 30 % bin. The legal text in 488/2014 (and 2021/1323) carves out milk chocolate explicitly in two of the four rows; the leaflet's simplified four-bin display does not reproduce that carve-out distinction. The maximum-levels table above reproduces the leaflet's simplified display verbatim; for the legally precise milk-chocolate carve-out, cite [[sources/eu-2021-1323-cadmium-foodstuffs-amendment]] or the underlying 488/2014 text.
-- No brand names appear in the leaflet; no Part 12 redaction was required.
-- No HMTc threshold inference or synthesis claim added. The `## Implications` section describes regulatory-context routing for chocolate and cocoa pages, not HMTc threshold proposals.
-- No DOI assigned to the leaflet (Commission consumer-information document, not a peer-reviewed publication). `no_doi_assigned: true` is recorded in source metadata.
-- The leaflet was likely also issued in other EU languages; only the English version is ingested here.
-- Audit editorial review (2026-06-02, fresh-context general-purpose) verdict PROMOTE. Two ⚠️ housekeeping concerns raised: (1) `## Methods (brief)` should more explicitly flag that the EFSA CONTAM 2009 TWI (2,5 µg/kg bw) and Codex-alignment details come from the regulatory-historical record for 488/2014 rather than from the leaflet's own text — applied: a one-clause aside was added clarifying that the leaflet's own framing is the brief "EU undertook a risk analysis / in line with Codex" wording and the specific underlying references are from the regulatory-historical record; (2) `[[synthesis/eu-regulatory-framework-timeline]]` wikilink was flagged as a possible orphan reference because the auditor could not verify it against the closed taxonomy snapshot (which lists only ingredients/products/metals/regulations, not synthesis pages) — verified false positive against the linked reference record (page exists on disk); the synthesis namespace is intentionally out of the taxonomy snapshot's scope and the wikilink is retained.
-
 ## Sources
 
 - European Commission. 2019. Cadmium in Chocolate (consumer information leaflet). Directorate-General for Health and Food Safety.

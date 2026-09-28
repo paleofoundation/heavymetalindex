@@ -113,48 +113,14 @@ This is a narrative review, not a systematic review or meta-analysis. The review
 
 **App:** Supports Ni and Cr risk-flagging for carrots, onions, and potatoes in user contexts where the irrigation source is from an industrialized basin or downstream of mining/tannery effluents. Pb-flagging for potatoes draws on Šrek 2010 (long-term fertilizer trial) and Dudka 1996 (Pb–Zn smelter flue-dust); Cd-flagging on Van Lune 1997 and Albering 1999.
 
-## Verification notes
+## Related evidence
 
-Merge-enhance pass 2026-05-18 from the original `papers-cube` raw_handle:
-
-- Corrected `raw_handle` from `papers-cube` (invalid; not a real handle) to `PCMF_article-2` per the Papers Cube Manual Fetch handle convention.
-- Added `raw_sha256: bf4814df3a4fc70805e2739815d8127c11201a310a1bf9f14070e7a4ceeacf66` (was missing).
-- Added `access_url: https://doi.org/10.1111/1750-3841.12433` (was missing).
-- Downgraded `evidence_tier` from A to B. The paper is a peer-reviewed narrative review without PRISMA, quality assessment, or quantitative synthesis; it is a B-tier compiled overview rather than an A-tier well-conducted review.
-- Expanded `metals:` from `[Pb, Cd, tAs, Cr, Ni, Al]` to `[Pb, Cd, tAs, Cr, Cr-VI, Ni, Al, tHg, MeHg, Cu, Zn, Mn, Co]` to match the actual analytes the review discusses; Cr-VI is added because Economou-Eliopoulos 2011/2012 and Stasinos & Zabetakis 2013 specifically work with hexavalent Cr.
-- Expanded `jurisdictions:` from `[GR, LV, US, ES, MA, PL]` to add `GB, DE, FR, IT, NL, CZ, BR, IN, NP, PK, ET, TR, CN, DK`; removed `PL` (Poland is not a primary reviewed jurisdiction; Dudka 1996 is the only Polish study cited and the page already covered Pb/Zn smelter context).
-- Removed two fabricated claims from the previous "Onions" Key-numbers paragraph:
- 1. "soil Cr contamination >93% frequency in review areas" — the 93% figure in the source refers to the relative difference of Cu (not Cr) between Thiva onions and control samples (Kirkillis and others 2012, p. R768).
- 2. "half of onions taking up >0.1 mg/kg Cd from contaminated soils" — not found anywhere in the source text or tables.
-- Removed the unverified "(Germany)" geographic attribution on the Bunzl 2001 slag-soil entry. Bunzl is a German-affiliated study but the slag-soil experiment location is not stated in the review text or Table 1.
-- Removed legacy heading `## Wiki pages updated on ingest`; replaced with current convention `## Wiki pages this source may touch`. Removed the broken `[[supply-chain/irrigation-water]]` wikilink (no such page exists; the supply-chain directory holds only `aluminum-based-packaging.md`, `soil-nickel-screening.md`, and `index.md`).
-- Expanded `## Key numbers` to add separately labeled subsections for Carrots / Onions / Potatoes / Physiology / Dietary intake, capturing values from the review that the prior version omitted (Ebbs 2006 Illinois River carrots; Pendergrass & Butcher 2006 NC; Dahal 2008 Nepal onions; Šrek 2010 Czech potatoes; Albering 1999 Meuse potatoes; Dudka 1996 smelter potatoes; Van Driel 1995 polluted-sediment potatoes; the Stasinos 2013 percent-increase ladder for onion-leaf Cr; Table 5 consumption data; Table 6 PMTDI fractions). Every quoted value was re-verified against the PDF before inclusion.
-- Added `## Limitations` section calling out the narrative-review nature, the heterogeneous bases problem, the speciation gap on As, and the author-network overlap with several cited studies.
-
-No brand names appear in this paper; the brand firewall is not triggered. No HMTc threshold proposals are made.
-
-Audit editorial review pass 2026-05-18 (fresh-context general-purpose Agent; verdict REVISE) — applied findings:
-
-- Audit flagged Pendergrass and Butcher 2006 As LOD as transposed: wiki said "(5 µg/g instrument LOD)" for As. Verified against PDF p.R766 ("instrumental detection limits (5 µg/g and 15 µg/g, respectively)" with Pb listed first, As second). Corrected — carrot-root As LOD is 15 µg/g; Pb LOD is 5 µg/g.
-- Audit flagged Table 6 UK Ni intake as mixing Stasinos and Kirkillis columns to fabricate a 134.7 µg/d total. Verified against PDF p.R778 and p.R777 (source text gives 115.3 µg/d for Asopos-region Ni in UK). Corrected to the Kirkillis-column-consistent values: 7.1 / 5.9 / 102.4 / total 115.4 µg/d. Added an explanatory parenthetical naming the parallel Stasinos column values so the bullet is unambiguous about which column is used. Cr-intake bullet relabeled to identify the Stasinos-column source it actually uses.
-- Audit flagged Van Lune and Zwart 1997 Cd ranges as misattributed to potato tubers. Verified against PDF p.R766 (Carrots section): the 0.87–7.0 mg/kg sandy and 0.21–2.8 mg/kg sandy-loam ranges are explicitly attributed to "Carrot crops' Cd uptake." The Potatoes section (p.R770) gives only qualitative "exponential uptake with depth" for potatoes from the same Van Lune study, no specific potato range. Corrected the Potatoes bullet to the qualitative claim only and explicitly note that the numerical ranges belong to carrots in the same study.
-- Audit flagged Table 5 Greece total 160.69 as not summing from 8.19 + 29.25 + 123 = 160.44. Verified — corrected to 160.44.
-- Audit flagged omission of statistically-significant onion-shoot Ni effects from Stasinos and Zabetakis 2013. Verified against PDF p.R769 (shoot Ni +39.1% at 10 mg/L and +55.0% at 250 mg/L, both statistically significant). Added.
-- Audit flagged Stasinos and Zabetakis 2013 unit inconsistency (irrigation water 0–250 µg/L vs. ladder values in mg/L). Verified — the inconsistency is in the source itself. Added an annotation noting the source-side inconsistency rather than silently smoothing it.
-
-Audit editorial review finding rejected as false positive:
-
-- Audit flagged `products: [root-tuber-vegetables]` and `[[products/root-tuber-vegetables]]` as missing from the closed taxonomy snapshot at the editorial record. Verified against the live wiki: the linked reference record exists (Cat 4 Step 0 lock scaffold, created 2026-05-16 by `cat4_step0_scaffold_2026_05_16`, locked as `hmtc_row: 7` / `hmtc_category: 4`). The routing audit (`npm run evidence:source-routes`) returned 0 unresolved entries for this source and routed it cleanly to `root-tuber-vegetables` as a `locked_hmtc_row` direct-evidence row. The page is real and the slug is canonical; the taxonomy snapshot (generated 2026-05-17 from commit `e442cbe`) appears not to have been refreshed after the 2026-05-16 Cat 4 scaffold landed. The taxonomy-snapshot file is the stale artifact, not the page. No change to the source-page source metadata or wikilinks.
-
-Audit editorial review ⚠️ findings on Implications-section app/certification framing were judged not load-bearing — the section restates the paper's occurrence-data contribution without proposing HMTc threshold values or rendering consumer risk advisories, which stays inside the Part 2 boundary. The mention of "Cat 4 Root and Tuber Vegetables row" is descriptive of the routing destination, not a synthesis claim, and is retained.
-
-## Wiki pages this source may touch
-
+- [[supply-chain/irrigation-water]]
+- [[products/root-tuber-vegetables]]
 - [[ingredients/carrots]]
 - [[ingredients/onions]]
 - [[ingredients/potatoes]]
 - [[ingredients/root-vegetables]]
-- [[products/root-tuber-vegetables]]
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]

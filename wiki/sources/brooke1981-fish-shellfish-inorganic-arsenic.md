@@ -58,15 +58,6 @@ Procedure A isolated inorganic arsenic by distilling it from hydrochloric acid a
 
 This source provides historical fish and shellfish evidence for inorganic arsenic alongside total arsenic in the same sample rows. It is useful for speciation-aware seafood routing because total arsenic values in fish and shellfish were much higher than the inorganic arsenic values. Downstream use should preserve the paper's `mg kg-1` basis and treat the NBS dried tuna row as a reference-material result, not a retail product or brand finding.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Table V and the Results and Discussion detection-limit sentence were checked against `/tmp/ingest_f3_brooke1981.txt`.
-- DOI `10.1039/AN9810600514`, raw handle `MFK_brooke1981`, and cite-key checks found no existing source page before creation.
-- Table V values were copied exactly, including duplicate-pair formatting and the source's `<0.02` result for plaice by Procedure B. Units are preserved as `mg kg-1`; no conversion to wet weight, dry weight, ppm, or ppb was performed.
-- Speciation: inorganic arsenic is source-reported total inorganic arsenic; total arsenic remains `tAs`. No total arsenic value is treated as inorganic arsenic.
-- Brand firewall: no retail brand contamination values are reported. NBS dried tuna is a reference material row and is not treated as a brand.
-- source metadata slugs were checked against the editorial record; narrow species/product slugs for herring, haddock, whelks, lobster, prawns, and plaice are not in the closed product vocabulary, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

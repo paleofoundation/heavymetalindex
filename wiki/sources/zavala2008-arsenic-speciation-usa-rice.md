@@ -54,7 +54,7 @@ Mean detection limits: As(III) 0.007, As(V) 0.025, MMA 0.007, DMA 0.017, AsB 0.0
 - Outliers above 95th percentile belong to the inorganic As rice type
 
 **Global rice classification by As type (Table 2):**
-U.S.: 15 DMA type, 10 inorganic As type. Bangladesh: 10 inorganic As type. Australia: 1 DMA type, 1 inorganic As type. China: 1 DMA type. India: 2 inorganic As type. Italy: 1 DMA type. Thailand: 1 inorganic As type. 
+U.S.: 15 DMA type, 10 inorganic As type. Bangladesh: 10 inorganic As type. Australia: 1 DMA type, 1 inorganic As type. China: 1 DMA type. India: 2 inorganic As type. Italy: 1 DMA type. Thailand: 1 inorganic As type.
 
 Key finding: U.S. rice has mean 42% inorganic As as a fraction of total As; European/Bangladeshi rice has 60–80% inorganic As fraction. This means U.S. rice contains one-third to one-half less inorganic As than Asian/European rice at the same total As level.
 

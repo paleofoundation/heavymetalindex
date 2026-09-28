@@ -45,22 +45,9 @@ The study collected wild edible mushrooms and corresponding soil samples from tw
 
 This source adds Romania-context wild edible mushroom occurrence data for [[metals/cadmium]], [[metals/lead]], [[metals/chromium]], [[metals/nickel]], [[metals/copper]], [[metals/zinc]], and [[metals/iron]]. The paired soil information is useful for explaining geographic variance, but benchmark admission should be careful because the sample frame intentionally compares urban contaminated sites.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
-- [[metals/cadmium]]
-- [[metals/lead]]
-- [[metals/chromium]]
-- [[metals/nickel]]
-- [[metals/copper]]
-- [[metals/zinc]]
-- [[metals/iron]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF first page and citation header.
-- The PDF table formatting is compact; numeric rows were read as dry-weight ug/g values and summarized without recalculating derived ratios.
-- Soil data are not food occurrence rows. They are kept only to explain the mushroom values and source design.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

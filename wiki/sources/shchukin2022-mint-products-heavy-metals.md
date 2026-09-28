@@ -45,7 +45,7 @@ The study covers peppermint raw herb and processed peppermint products. It repor
 
 The source supports herbal-infusion and botanical-supplement evidence gaps, especially for aluminum, chromium, nickel, copper, zinc, and arsenic context in peppermint products. It should preserve product form because dry teas/supplements and oils/tinctures show very different concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[products/herbal-botanical-infusions]]
@@ -55,10 +55,6 @@ The source supports herbal-infusion and botanical-supplement evidence gaps, espe
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The PDF is primarily Russian. Exact arsenic values were not transcribed from the table because the text extraction preserved the comparison statement more reliably than the individual As row layout; the page therefore routes the numeric ranges that were clearly extractable and keeps the As exceedance as source-stated qualitative context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

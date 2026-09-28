@@ -81,16 +81,12 @@ App: Context for Cr(VI) water-treatment and electrochemical remediation notes. T
 
 Courses: Useful for teaching Cr(VI) versus total Cr, AC versus DC electrochemical remediation, and why reduction/speciation outcomes are distinct from total chromium removal.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the electrode synthesis and characterization methods, batch adsorption protocol, flow-through AC device methods, Figure 3 adsorption kinetics/isotherms, Figure 4 bias/duty/flow parameter results, Figure 5 pH/coexisting-ion tests, Figure 6 DC/AC comparison and durability test, Figure 7 mechanism discussion, conclusion, supplementary-materials note, and data-availability statement. Products and ingredients are intentionally empty because the paper measures prepared Cr(VI) wastewater solutions. The title uses "Alternative Current" as printed by the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

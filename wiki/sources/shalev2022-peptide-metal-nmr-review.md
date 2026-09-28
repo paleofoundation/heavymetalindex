@@ -97,35 +97,10 @@ The journal (IJMS, MDPI) is open-access; the article is published under CC BY 4.
 
 This is a narrative review with no declared inclusion/exclusion criteria, no PRISMA flow, and no risk-of-bias assessment. The review's stated search window is 2012-2022, which excludes pre-2012 foundational NMR-peptide-metal work that downstream readers may need to consult independently. The review's definition of "peptide" as under 23 residues is anchored to the Protein Data Bank's minimum and is relaxed in the body of the review to include calmodulin and similar longer polypeptides where the underlying literature uses "peptide" descriptively — readers should not take the 23-residue cap as a strict scope statement. The review is methodological and does not report quantitative binding constants, stoichiometries, or structural coordinates of its own; all such values must be traced to the primary citations. Molybdenum-peptide NMR is acknowledged as an empty literature, not as a gap the review fills. Two HMTc-priority analytes (Pb and Cd) are not addressed at all by this review, and one (Hg, including MeHg) is also absent; this further limits the source's HMI-routing usefulness to Ni and Al only.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/nickel]]
-- [[metals/aluminum]]
 - [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.3390/ijms232415957`), raw_handle grep (`MFK_02-studying-peptide-metal-ion-complex-structures-b`), and cite-key glob (`shalev2022-*`) over the linked reference record on 2026-06-08 returned no matches. This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** B (secondary narrative review). The paper reports no primary measurements and declares no systematic search strategy. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither.
-
-**Metals source metadata.** From the HMTc 10-analyte priority list (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), the review substantively discusses only Ni and Al; both are recorded in the `metals:` source metadata. The review's primary structural-NMR content covers Cu(I), Cu(II), Zn(II), Mn(II), Fe(II)/Fe(III), Co(II)/Co(III), Mg(II), Ca(II), Ga(III), Pd(II), Ag(I), Pt(II), and lanthanides, none of which are on the HMTc 10-analyte list and so are not added to source metadata. Pb, Cd, MeHg, tHg, iAs, tAs, Cr-VI, and Sn are not addressed at all by this review. Aluminum is included in `metals:` even though the review's treatment is brief (a single paragraph in the non-essential-elements section, pointing to primary Aβ-Al interaction studies) because aluminum is an HMTc analyte and this source is the only methodological NMR entry-point the wiki has for that topic.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The source measures nothing in any food, beverage, personal-care, or environmental matrix; it reviews NMR methodology for peptide-metal complexes only. No jurisdiction is studied — the author is based in Jerusalem (Israel) but the review is conceptually international and no national regulatory or occurrence frame applies.
-
-**Sample size.** Null. This is a review with no sampling frame.
-
-**Brand firewall (Part 12).** No commercial brand names appear in the source body. The reference list cites scientific software (UCSF Chimera, HyperChem) only in the context of computational methodology; per the verification checklist's Exception 2, scientific-method software/instrument vendors are permitted in methods context. The review also names scientific instruments and reagents only through its primary-source citations, not in body text. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language, no claims of "consistent with the literature consensus" framing in either direction, no consumer-audience risk advisories, and no occurrence or exposure language. The Outlook section mentions therapeutic and nutritional metallopeptide delivery systems as an aspirational research direction but does not propose any threshold or safety claim. No firewall action required.
-
-**Date arithmetic.** Received 14 November 2022, accepted 13 December 2022, published 15 December 2022 — all consistent with the year source metadata (2022). Article DOI 10.3390/ijms232415957 resolves to *Int. J. Mol. Sci.* 2022, Vol 23, Article 15957 (cover citation: *Int. J. Mol. Sci.* 2022, 23, 15957).
-
-**Reviewer's note on scope fit.** This paper is in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch source-retrieval folder alongside [[luo2024-peptides-heavy-metal-remediation]]. Like Luo 2024, this paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, but its actual wiki contribution is even narrower than Luo's: this is a pure-methods review on solution NMR, not a remediation review. Its value is as a methods background reference if any downstream page discusses how peptide-metal coordination is characterised structurally — which is upstream of any contamination, occurrence, exposure, or mitigation claim the wiki will make. Karen's manual-fetch curation appears to be assembling a peptide-metal corpus for the eventual mitigation-evidence chapter; this paper is a useful but indirect contributor to that chapter.
-
-**Audit editorial review (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) returned three ✅ and two ⚠️.
-- Check 1 numerical-fidelity ⚠️ flagged that the opening sentence listed "Na, K, Mg, Ca, Cu(I), Cu(II), Zn, Mn, Fe, Co, Mo" (11 entries) while the PDF p.1 §1 lists 10 essential metals ("Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn and Mo"). The Cu(I)/Cu(II) split is faithful to the review's diamagnetic-vs-paramagnetic methodological organisation (Sections 7.4 and 8.4 treat them as separate cases) but they are one essential element, not two. **Verified against PDF p.1 §1 — finding correct; corrected the opening sentence to "each of the ten essential metals (Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn, Mo — with copper split methodologically into diamagnetic Cu(I) and paramagnetic Cu(II) cases)".**
-- Check 2 slug-vocabulary ⚠️ flagged that `[[mitigation/remediation-evidence]]` is not in the taxonomy snapshot. **Verified against the snapshot — finding correct on snapshot coverage, but this is the same snapshot-coverage gap addressed on the [[luo2024-peptides-heavy-metal-remediation]] sibling audit (2026-06-08 commit `ba01991`) and is in-scope per commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The wikilink points to a real the linked reference record section. No content correction applied; the snapshot will catch up in a future refresh, per the Luo precedent.**
+- [[luo2024-peptides-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -61,16 +61,12 @@ Courses: Useful for teaching how to separate remediation capacity, removal effic
 
 App: No direct ingredient or product-risk signal; retain as mitigation-method context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, material/methods, batch adsorption setup, dose-response results, contact-time results, initial-concentration results, kinetic-fit discussion, and Table 1 kinetic parameters. Products and ingredients are intentionally empty because the study uses synthetic aqueous metal solutions and adsorbent composites. The auto-fetch filename's "fabric-contact-products" label is not supported by the paper content.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

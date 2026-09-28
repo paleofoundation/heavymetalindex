@@ -55,14 +55,6 @@ Samples containing `50 g` of mussel meat were randomly collected from Serbian su
 
 This source supplies direct Serbian-market shellfish occurrence evidence for Pb, Cd, total Hg, and total As. The arsenic and mercury data are useful as total-element context only: total As must not be treated as inorganic arsenic, and total Hg must not be treated as methylmercury. Fresh and frozen mussels should remain distinguishable because arsenic means differed materially and the sample origins differed by form.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sampling methods, Table 3, metal Results, and exposure-calculation text were checked in `/tmp/f3_unrepresented_texts/novakov2021.txt`.
-- DOI `10.1080/19393210.2021.1931475`, raw handle `MFK_novakov2021`, and cite-key checks found no existing source page before creation.
-- Units are preserved as `mg/kg`; no wet/dry or serving-basis conversion was performed.
-- Speciation: arsenic is total arsenic and mercury is total mercury. The paper discusses methylmercury for exposure assumptions but does not measure MeHg, so source metadata uses `tHg`, not `MeHg`.
-- source metadata slugs were checked against the editorial record; there is no mussel product slug, so values route through broad shellfish/seafood.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

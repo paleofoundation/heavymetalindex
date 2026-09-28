@@ -94,22 +94,11 @@ Courses: The source is useful for showing how migration-test design, speciation,
 
 App: If flexible food-packaging organotin context is surfaced, this source can support a method-context warning that PVC food-contact films can release organotin stabilizers under acidic simulant conditions, with the caveat that the tested films were deliberately spiked.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-packaging-flexible-pouches-films]]
 - [[metals/tin]]
 - [[metals/organotins]]
-
-## Verification notes
-
-- The readable sibling PDF was extracted with `pdftotext -layout` to `/tmp/ingest_alt.txt`; abstract, introduction, Materials and method, Table 1, Results, Table 2, Discussion, and Conclusions were checked against this page.
-- Identity checks before creation: DOI `10.1016/j.talanta.2020.121408`, exact title phrase, author surname `Mandrile`, raw SHA-256 `cbe37097d9dfadf1d101bec9c7f1368a5889a8f65b7da78774eeb54ec019c1b8`, raw handle `MFK_migration-study-of-organotin-compounds-from-food-p`, and cite key `mandrile2020-organotin-food-packaging-sers` were searched in the linked reference record and evidence files; only intake/tracker CSV rows were found.
-- A corrupt sibling file, the archived source file, has SHA-256 `932618e8a420c4204fc21ac9e6c058bc255f1b382c361995b6c1a0a3c9f2fd0a`; `pdftotext` and `pdfinfo` fail with invalid xref/page-tree errors. The readable `_2` PDF is used as the canonical raw file for this source.
-- Units are preserved as printed: `mg/l`, `mg/kg`, `mg(Sn)/kg (simulant)`, `mg/g`, `cm2`, `ml`, `dm3`, `dm2`, and `ºC`. No conversion to ppb or µg/kg was performed.
-- Speciation check: the source measures organotin species DTM and TBT and tin-equivalent Sn by ICP-MS. This page does not treat organotins as total tin or inorganic tin.
-- The `3,91 ± 0.78` SERS value for PVC + TBT h.c. is copied with the source table's comma decimal mark.
-- The page records the source's regulatory migration-limit comparison as context only and does not propose any HMTc threshold.
-- Closed-vocabulary check: product routing uses the broad flexible food-packaging films row. No PVC-cling-film product or organotin ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -99,7 +99,7 @@ The concentration ranking and the botanical-floor conclusion are robust across f
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -111,7 +111,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/usda-fas2023-china-gb-2762-2022-translation|China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022)]]<span class="hmi-ref-meta">USDA Foreign Agricultural Service, FAS China Staff (Beijing) · USDA Foreign Agricultural Service, Global Agricultural Information Network (GAIN), Report Number CH2023-0040 · 2023 · [www.fas.usda.gov](https://www.fas.usda.gov/data/china-china-releases-standard-maximum-levels-contaminants-foods-0)</span><span class="hmi-ref-tag">Regulation</span>
 2. [[sources/atsdr-lead-toxprofile-2020|Toxicological Profile for Lead]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2020 · [doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222)</span><span class="hmi-ref-tag">Government</span>

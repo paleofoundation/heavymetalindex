@@ -46,17 +46,13 @@ The paper analyzed brown rice grain from field-grown cultivars and separated ars
 
 The source supports rice-bulk-grain gap filling for Cd, total As, and inorganic As in China-grown rice cultivars. It is strongest for cultivar-level occurrence and co-accumulation context, not for finished retail-market pooling outside the study geography.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-The DOI resolves to a Research Square preprint. The page separates total arsenic from inorganic arsenic and methylated species because the paper reports arsenic speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

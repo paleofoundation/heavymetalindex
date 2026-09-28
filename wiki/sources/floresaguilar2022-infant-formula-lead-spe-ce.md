@@ -66,20 +66,13 @@ App: Provides Pb occurrence fields for positive infant formula samples. The sour
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/infant-formula-powder]]
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula wishlist. The wishlist target metal was Ca because the paper discussed Ca as an interferent, but the usable occurrence endpoint is Pb.
-- Strict brand firewall: the paper reports only anonymized positive sample numbers in the result table. This page does not name or rank commercial brands.
-- The "10 to 43 ug/kg" range in the abstract is reconciled with Table 5 values of 10.26-42.59 ug/kg by preserving the exact Table 5 values and noting the abstract's rounded range.
-- Methods vendor/equipment names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

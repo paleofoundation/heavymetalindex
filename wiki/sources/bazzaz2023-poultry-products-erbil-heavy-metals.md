@@ -67,7 +67,7 @@ Arsenic is reported as total arsenic; no arsenic speciation (iAs vs tAs) is prov
 
 The source supports poultry product occurrence routing for Erbil/Kurdistan-region market and import contexts. Imported (Brazilian- and Turkish-origin) frozen chicken muscle is the dominant Pb signal in this dataset; both locally produced commercial chicken and locally produced quail products fell below the XRF detection threshold for Pb. Dry-weight basis must be preserved when routing into product-category occurrence tables, because comparison to wet-weight literature without conversion will overstate concentrations roughly threefold for muscle tissue.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[ingredients/eggs]]
@@ -76,16 +76,8 @@ The source supports poultry product occurrence routing for Erbil/Kurdistan-regio
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[metals/copper]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.25130/tjas.23.2.17 and the downloaded PDF.
-- The title contains a source typo ("resides" for residues); the page title preserves the source wording in source metadata.
-- The source paper uses the chemical symbol "Co" throughout for the copper analyte (Co is the symbol for cobalt; copper is Cu). This is a paper-side typographical error; the analyte described and measured is copper. The wiki uses Cu correctly and routes to [[metals/copper]], not [[metals/cobalt]].
-- The matrices controlled vocabulary contains `quail-meat` and `quail-eggs` but not separate `quail-thigh` / `quail-breast` slugs analogous to `chicken-thigh` / `chicken-breast`. The paper measured quail thigh and quail breast as separate groups; this page collapses them under `quail-meat` to stay within current matrices vocab. Missing-slug proposal: add `quail-thigh` and `quail-breast` if quail-cut granularity becomes routing-relevant.
-- No `quail` ingredient slug exists; quail-derived findings currently have no ingredient routing destination. Missing-slug proposal: add `[[ingredients/quail]]` if quail volume in the corpus justifies it. The current page lists only `chicken` in `ingredients:` because that is the only quail-or-chicken ingredient slug presently available.
-- Local commercial producers named in the source (Etimad, Shemal) are aggregated to "local Iraqi commercial chicken producer A/B" in Key numbers per Part 12. Brazilian and Turkish refer to country of origin, not brand, and are retained.
-- XRF detection limits, reference-material recoveries, and matrix-spike validation are not reported in the source. The 0.00 Pb values for local chicken, quail meat, and quail eggs are best read as below the working XRF detection threshold rather than as confirmed absence.
+- [[metals/cobalt]]
+- [[ingredients/quail]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

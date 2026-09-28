@@ -48,16 +48,12 @@ Courses: Useful case for showing how occurrence monitoring and exposure modeling
 
 App: Context for dairy exposure narratives involving Pb and Cd in milk.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[health/index]]
-
-## Verification notes
-
-Recovered from a mispointed recovery row. The claimed queue row referenced `ing-human-milk-pb_2019_10-29252-nfsr-6-2-29.pdf`, but the extant matching PDF in the raw corpus is `ing-human-milk-cd_2019_10-29252-nfsr-6-2-29.pdf`, which contains this milk-occurrence paper. The source is about raw and pasteurized milk, not human milk, and the raw-path mismatch should be cleaned in a later queue-normalization pass.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

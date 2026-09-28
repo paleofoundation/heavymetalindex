@@ -75,7 +75,7 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 
 **App:** Not suitable for typical contamination profiling of melons given biased farm selection and basis ambiguity. Provides upper-bound outlier context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/chromium]]
@@ -87,12 +87,6 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 - [[metals/manganese]]
 - [[metals/cobalt]]
 - [[ingredients/melon]]
-
-## Verification notes
-
-- 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular the linked reference record); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` source metadata from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
-- Part 12 (brand firewall) re-check: paper identifies sampling locations by geography (Mantin, Negeri Sembilan; Jalan Kebun, Klang) and by cultivar name ('Glamour'), not by commercial brand owner. The Star newspaper reference is a citation to a news article; no brand-by-brand contamination tables are reproduced. No firewall issue.
-- Fresh-context audit editorial review (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

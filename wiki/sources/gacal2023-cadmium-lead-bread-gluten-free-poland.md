@@ -115,13 +115,6 @@ App: The bread-type Cd means can support occurrence-context displays for Polish/
 - [[regulations/eu-2021-1323-cadmium-cereals-superseded]]
 - [[regulations/eu-2021-1317-lead-cereals-superseded]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Replaced invalid/nonexistent regulation links with source-specific superseded EU 2021 amendment pages created during this ingest.
-- Replaced non-vocabulary matrix labels such as wheat-bread and gluten-free-bread with common matrix labels; bread subtype details remain in `sample_population` and the Key numbers table.
-- Strict brand-firewall check: no consumer brands are named. The source says gluten-free samples considered brand availability/dissemination, but this wiki page does not identify those brands.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

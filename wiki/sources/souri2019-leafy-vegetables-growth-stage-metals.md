@@ -54,7 +54,7 @@ Courses: The paper is useful for teaching why growth stage, tissue type, irrigat
 
 App: The source can support region-flagged, high-exposure context for leafy vegetables and fresh herbs from wastewater-irrigated fields in Iran, with explicit labels for dry-weight basis and total arsenic/total chromium.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/fresh-herbs]]
@@ -69,14 +69,6 @@ App: The source can support region-flagged, high-exposure context for leafy vege
 - [[metals/manganese]]
 - [[metals/nickel]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The auto-fetched filename describes formula cadmium, but the actual PDF is a leafy-vegetable paper; this page follows the PDF content and routes to leafy vegetables/fresh herbs, not infant formula.
-
-Arsenic is treated as total arsenic because the source reports As without inorganic-arsenic speciation. Chromium is total chromium, not Cr-VI.
-
-Table 2 appears to print the second copper column as "Co"; the methods and results text state that Cu was measured and discuss Cu leaf values. This page treats the second post-Zn column in Table 2 as Cu and records cobalt from the earlier Co column.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

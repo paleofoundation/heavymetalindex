@@ -77,7 +77,7 @@ The daily MeHg exposure dose was estimated from a species-weighted intake calcul
 
 Per-species MeHg values for all 10 species are routeable to seafood occurrence context, with the predatory species (swordfish, tuna, cod, greater amberjack, salmon, hairtail) most relevant to fish-marine-predatory occurrence routing. Human hair MeHg and daily-exposure-dose values are biomonitoring/exposure context for Taiwanese women of childbearing age, not product occurrence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
@@ -85,14 +85,6 @@ Per-species MeHg values for all 10 species are routeable to seafood occurrence c
 - [[products/fresh-fish]]
 - [[products/fish-marine-predatory]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1371/journal.pone.0155704 and the downloaded PDF.
-- Speciation: paper analyzed MeHg directly via USEPA Method 1630 ethylation/GC-CVAFS workflow; `metals: ["MeHg"]` is correct, do not collapse to tHg.
-- Statistic-type discipline: fish values are mean ± SD across triplicate samples in mg/kg wet weight (Table 3); hair values are geometric mean ± standard error in mg/kg (Table 1 footnote e). The two statistic types must not be conflated in downstream pooling.
-- Method/vendor names retained in Methods (Brooks Rand BR-0011, MERX analyzer, IAEA-085, BCR-465, SPSS) are scientific-reproducibility identifiers under the locked 2026-05-17 Part 12 reading; none are attached to a contamination value.
-- 2026-06-09: GPT-style 5-check audit applied. Findings applied: fish-basis qualifier and statistic-type labels added; Methods expanded with Brooks Rand BR-0011 / USEPA Method 1630 / MERX / IAEA-085 / BCR-465 detail; per-species values for all 10 species added; fish-marine-predatory added to products. Findings rejected: Check 2 ❌ severity (every slug verified present in the taxonomy snapshot; the auditor's concern was under-routing, not vocabulary, so the level was reduced to ⚠️ and addressed by adding fish-marine-predatory). Independent verification caught: sampling_year_range was null; updated to 2007-2014 to span both fish (2014) and women (2007-2010) sampling windows; daily MeHg exposure dose and RfD-exceedance percentages were absent from Key numbers; added.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

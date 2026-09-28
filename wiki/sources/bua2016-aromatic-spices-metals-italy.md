@@ -61,7 +61,7 @@ Seven samples of three spices were randomly purchased from local Italian markets
 
 This source contributes Italy-market occurrence evidence for Cd, Pb, total As, and total Hg in imported aromatic spices. It is useful for the spices product page and for ingredient-level context on cinnamon and turmeric/curcuma; ginger needs to remain matrix-only unless a ginger ingredient slug is later added. The source is not suitable for inorganic arsenic or methylmercury pooling because it reports total elements only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spices]]
 - [[ingredients/cinnamon]]
@@ -71,16 +71,6 @@ This source contributes Italy-market occurrence evidence for Cd, Pb, total As, a
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Tables 1-5, discussion, conclusion, and references.
-- DOI verified from the PDF title page as `10.1080/19393210.2016.1175516`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 4 and Table 5 values were checked against the extracted text. The source uses decimal commas; this page preserves those printed values and the source unit `mg Kg-1, dw`.
-- Speciation: arsenic is total As and mercury is total Hg. The source does not report iAs or MeHg.
-- Internal consistency: a few Table 4 mean values appear below the printed range for the same row, such as Cinnamon (Indonesia) As mean 0,019 against range 0,021-0,027 and Cinnamon (Vietnam) Pb mean 2,224 against range 2,264-2,923. Values are transcribed as printed rather than recalculated.
-- `ginger` is not present in the current ingredient taxonomy snapshot, so ginger is included only as a matrix term.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -47,20 +47,13 @@ Pot experiment at Tadulako University (Palu, Sulawesi Tengah, Indonesia) using l
 
 This is experimental plant-uptake context rather than market-basket occurrence. It is still useful for nickel-contamination mechanism notes in vegetables grown on ultramafic/lateritic soils.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/peanuts]]
 - [[ingredients/leafy-greens]]
 - [[products/peanuts]]
 - [[products/leafy-vegetables-other]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.24259/jpkwallacea.v12i1.26615 and the downloaded PDF.
-- The PDF states the limonitic laterite soil contained 7.884 mg kg-1 Ni; this value is preserved as printed in the source.
-- The source reports shoot concentrations on dry-weight basis, not finished edible retail samples; route with experimental context preserved.
-- The paper's narrative occasionally refers to the legume as "Soybean" in the objective and conclusion paragraphs, but the title, abstract, methods, Table 1, and authors' field collection all identify peanut (Arachis hypogaea) as the legume studied. The wiki preserves peanut as the studied species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

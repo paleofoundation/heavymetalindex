@@ -67,7 +67,7 @@ App: Use as context for agricultural-soil contamination, urbanization effects, a
 
 Courses: Useful for teaching matrix fit, dry-weight soil basis, total-metal digestion, and how land use, road density, and soil type can shape contaminant baselines before food-chain transfer is evaluated.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[testing/index]]
 - [[health/index]]
@@ -78,10 +78,6 @@ Courses: Useful for teaching matrix fit, dry-weight soil basis, total-metal dige
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/zinc]]
-
-## Verification notes
-
-This page was built from the full PDF, including the sampling and metals-analysis methods, Table 1, Table 4, land-use results, MANOVA discussion, and conclusion. The objective statement mentions chromium, but the reported descriptive tables, result narrative, and conclusion summarize As, Cd, Cu, Hg, Ni, Pb, and Zn only; this page therefore does not invent chromium values. Arsenic and mercury are total digestion/element measures, not species-specific iAs or methylmercury. No crop, food, ingredient, product, or brand concentration data are reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -89,47 +89,26 @@ Limitation: As measured as total arsenic; paper assumes 100% inorganic for cance
 
 **App:** Mean fresh weight values usable as baseline estimates for fresh fruit matrices in Korea; Ba values are well above detection for app purposes; As, Cd, Sb concentrations largely at or below LOD.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/apple]] — apple Pb mean 0.0464 mg/kg fw (highest of 14 species); Cr 0.0567 (highest); Ba 0.2076.
-- [[ingredients/pears]] — pear Cd mean 0.0026 mg/kg fw (only species with mean Cd > LOD).
-- [[ingredients/oranges]] / [[ingredients/mandarins]] — citrus Ba mean 0.5357 (group rank 1); mandarin Ni mean 0.1947 (highest of 14 species).
-- [[ingredients/grapes]] — grape Ba mean 0.0710 (lowest of 14 species); grape Ni 0.0287 (lowest).
-- [[ingredients/strawberries]] — strawberry Pb mean 0.0060 (lowest); strawberry Cd single-sample max 0.0098.
-- [[ingredients/kiwi]] — kiwi Ba mean 0.9745 (highest of 14 species) and maximum single sample 1.8392 mg/kg fw.
-- [[ingredients/banana]], [[ingredients/pineapple]] — tropical-fruit Ba group mean 0.5005 (rank 2); pineapple max Pb 0.0968 mg/kg fw.
-- [[ingredients/peaches]], [[ingredients/cherries]], [[ingredients/plums]], [[ingredients/persimmon]], [[ingredients/blueberries]] — stone- and pome-fruit context; cherry single-sample As 0.040 mg/kg fw is the dataset maximum.
-- [[metals/lead]] — Pb dominant HQ and CR contributor; apples flagged for children 1–2 y.
-- [[metals/barium]] — most-abundant analyte in every fruit group; novel dataset for Ba in fruit (paper notes no prior fruit-Ba literature for comparison).
-- [[metals/nickel]] — second-highest detected metal across the dataset.
-- [[products/fresh-fruit]] — direct evidence row for the locked HMTc fresh-fruit category, Korea jurisdiction.
-
-## Verification notes
-
-2026-05-20 — merge-enhance pass against the source PDF (Lee et al. 2023, Applied Biological Chemistry 66:40, DOI 10.1186/s13765-023-00799-x). Corrections applied:
-
-- Ba values for kiwi, apple, orange, and mandarin in the prior Key numbers paragraph were transposed between adjacent rows of Table 2. The prior page assigned the tropical-fruit GROUP mean (0.5005 ± 0.4822, n=45) to kiwi; the actual kiwi species mean is 0.9745 ± 0.4812 (n=15). The prior page assigned orange's Ba value (0.5475 ± 0.2882, n=15) to apple; the actual apple Ba mean is 0.2076 ± 0.1296 (n=15). The prior page assigned mandarin's Ba value (0.5239 ± 0.2782, n=15) to orange. All four values are now corrected against Table 2 (PDF page 7) and cross-checked against the discussion text on PDF page 8 ("the mean Ba concentrations were the highest in kiwi fruits (0.9745) and lowest in grapes (0.0710)").
-- The prior page stated "Pb was detected above LOD in some apple and pear samples." This understated detection: Pb was detected in 193/207 samples (93.2%) per PDF page 9. Corrected to give the actual detection rate and to add the species means flagged in the discussion (apple 0.0464, strawberry 0.0060).
-- Methods section expanded to record the Milestone UltraWAVE digester, the Agilent JP-7900 ICP-MS parameters and monitored isotopes, the spike-recovery validation for Ba and Pb (which are not certified in NIST 1573a), and the RfD/CSF inputs. Prior version was thin enough to be ambiguous about which arsenic species the cancer-risk calculation used.
-- Detection rates added for each metal.
-- Maximum single-sample values added for every analyte (per the dataset's explicit per-species maxima on PDF page 8).
-- source metadata ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline: if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
-- `raw_path` corrected — prior value was truncated (`...arsenic, bariu.pdf`) and did not match a real file on disk.
-- `sample_population` annotated with the six region names.
-- `## Wiki pages updated on ingest` heading renamed to `## Wiki pages this source may touch` per current page-template convention (the ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do).
-
-Brand firewall: no brand names appear in source-page content. The Milestone UltraWAVE, Agilent JP-7900, NIST 1573a, GraphPad Prism, SPSS, and RStudio names in Methods are scientific-method vendor/material identifiers (, Exception 2 locked 2026-05-17).
-
-Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values.
-
-2026-05-20 — Fresh-context audit editorial review (per skill v2.0 Phase 2) returned REVISE with three ❌ and one ⚠️. Verified each against the source PDF and applied:
-
-- ❌ HQ ranking incorrect (verified correct): the prior page had copied the abstract's HQ list (Pb 0.0149 > As 0.0086 > Ni 0.0081 > Sb 0.0080 > Ba 0.0031 > Cd 0.0027 > Cr 0.0001), whose values do not sum to the stated HI of 0.0275 and which the body of the paper does not reproduce. Corrected to the body-and-Table-3 ranking (Pb 0.0148 > Ni 0.0081 > Ba 0.0031 > As 0.0010 > Cd 0.0004 > Cr 0.0001 > Sb NA) which does sum to HI 0.0275. The discrepancy between the abstract and body of the paper is noted in-line in the Key numbers section. Source: PDF page 14 + Table 3 (page 12).
-- ❌ Apple Pb HQ for 1–2 y misattributed (verified correct): the prior page reported "apple-derived Pb produced the highest per-fruit hazard quotient in the dataset (≈0.06 from Fig 2c)". The 0.06 (precisely 0.0611) is the all-fruits combined Pb HQ for the 1–2 y age group; the apple-specific Pb HQ for that age group is 0.0307 (50.3% of 0.0611). Corrected and expanded with the apple-specific CR (1.05×10⁻⁶) and the strawberry-As CR contribution for the same age group. Source: PDF page 15.
-- ⚠️ Digestion heating program incomplete (verified correct): the prior page collapsed the three-step program into two steps, omitting the 250 °C/20 min warm-up phase. Method reproducibility now records all three steps. Source: PDF page 3.
-- ❌ Pineapple flag (verified false positive): the audit editorial review flagged `pineapple` as a missing ingredient slug not present in the taxonomy snapshot. Verified against the live wiki — the linked reference record exists. The taxonomy snapshot (the editorial record, last touched 2026-05-19) is stale relative to the live taxonomy. No change made to the wiki page on this finding; the slug as written is valid. (Stale-snapshot drift is a tooling issue, not a source-page issue.)
-
-The audit editorial review's positive findings: numerical fidelity in the Ba transposition fixes was independently re-verified clean; species means for grape, persimmon, strawberry, pear, group means, single-sample maxima, RfD/CSF values, LOD/LOQ ranges, PCA/HCA percentages, Spearman ρ, age-group consumption values, sample sizes per species, methods detail (ICP-MS parameters, isotopes monitored, recoveries, spike validation, software) — all clean.
+- [[ingredients/apple]]
+- [[ingredients/pears]]
+- [[ingredients/oranges]]
+- [[ingredients/mandarins]]
+- [[ingredients/grapes]]
+- [[ingredients/strawberries]]
+- [[ingredients/kiwi]]
+- [[ingredients/banana]]
+- [[ingredients/pineapple]]
+- [[ingredients/peaches]]
+- [[ingredients/cherries]]
+- [[ingredients/plums]]
+- [[ingredients/persimmon]]
+- [[ingredients/blueberries]]
+- [[metals/lead]]
+- [[metals/barium]]
+- [[metals/nickel]]
+- [[products/fresh-fruit]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

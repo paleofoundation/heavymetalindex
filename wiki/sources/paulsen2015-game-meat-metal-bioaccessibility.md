@@ -51,7 +51,7 @@ Courses: Useful for explaining why trimming around wound channels matters, why "
 
 App: The paper supports a nuanced message about hunted game — bullet-fragment contamination is highly localized within a carcass (28% of portions show radiodense particles; only 2.8% show high metal content), and even when high metal contents are present they tend to remain in the undigested residue rather than the bioaccessible fraction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[products/pork-product]]
@@ -59,12 +59,6 @@ App: The paper supports a nuanced message about hunted game — bullet-fragment 
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The pork arm of this study is an experimental shooting design, not a market survey: shoulders were obtained from a slaughterhouse and shot post-mortem under controlled conditions. The pork controls (n=6) are legitimate baseline occurrence data, but the BY-treatment portions (n=3) are experimentally contaminated and should not be aggregated into market-pork occurrence distributions. Pork-product routing on this page is for bullet-fragment bioaccessibility context, not for retail-pork occurrence.
-
-The bullet brands (XLC, XRG, BY) and their manufacturers appear in the Methods section as experimental treatment identifiers, comparable to instrument vendor naming, because the paper's scientific question is bullet-type-dependent. They are not brands of food product and naming them does not introduce Part 12 brand-firewall risk for downstream consumer-facing pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

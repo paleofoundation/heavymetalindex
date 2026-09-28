@@ -50,21 +50,13 @@ Provides qualified root-speciation and analytical-method context for phytoremedi
 
 Evidence Fitness: EF-3 for qualified experimental/speciation context; extraction conditions, denominator and species-preservation validation are unresolved. Preserve all reported time-point means and SDs.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[testing/icp-ms]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF title spells the plant “Vigna radiate”; botanical normalization to Vigna radiata in context is not a new crop finding. DOI is not printed in the preserved PDF; Crossref independently matches title, author and 2019 publication (https://api.crossref.org/works/10.32622/ijrat.732019166). PDF issue says March; Crossref publication date April 10. Table 1 SD governs over Methods SEM. Abstract/conclusion 30°C 30 min conflicts with Methods 40/60/80°C 5/15/25 min and Results 60°C optimum. No exact Figure 1 values are invented. Novel experimental-root-biomass matrix excludes market occurrence; hypothetical bacterial enzyme diagram is not a primary microbiome experiment.
-
-Table 1 uses MAA for methylarsonic acid while the body uses MMA; the structured MMA label retains this author-assigned compound. The DMA table heading says dimethylarsonic acid while the text says dimethylarsinic acid; the source nomenclature conflict is retained.
-
-The preserved Library PDF is identified by `RPHMI_12`; SHA-256 `5ad589af8f00da0d26842543359072915ab176944d45ed86c727931868811972`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.32622/ijrat.732019166. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

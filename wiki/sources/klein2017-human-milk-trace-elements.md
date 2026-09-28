@@ -67,18 +67,13 @@ Arsenic was reported as total arsenic by ICP-MS; the paper does not perform inor
 
 This paper contributes occurrence data for Pb and total As in human milk across four geographically and culturally diverse populations and a methodologically important Cd-below-LOD negative result. The N=6 Namibia subsample is small and the otjize cosmetic-contamination caveat applies; cross-population comparisons should be read with both limitations in view. The paper is exposure-context evidence for human milk only; the values should not be pooled with infant formula, commercial milk, or any product-category occurrence pool.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The same DOI was fetched under both the Cd and the Pb human-milk gaps; this page is the canonical source for that duplicate pair. The source is human-milk exposure evidence, not brand or product evidence. The ingredients taxonomy does not contain a `human-milk` slug; routing uses the existing `breastmilk` slug. The matrices vocabulary value `human-milk` matches the convention used by `naspolini2024-human-milk-sao-paulo`. No product routing is asserted (consistent with `naspolini2024`, `lin2023-donor-milk-lead-mercury`, and other human-milk source pages).
-
-Audit applied 2026-06-09 (autonomous fresh-context audit, REVISE verdict): added Table 2 per-population means/SDs/ranges for Pb and tAs; added Table 3 pairwise significance summary; documented Cd-below-LOD exclusion and added Cd to `metals` as a measured-below-LOD signal; added WHO Pb (2–5 µg/L) and EPA/WHO As (0.01 mg/L) regulatory anchors as the source itself reports them; added the Namibia otjize cosmetic-contamination caveat from the Discussion; expanded Methods with ICP-MS instrument (Perkin Elmer ELAN DRC II), digestion (Milestone Ultrawave + BDH Aristar Ultra nitric acid), lab (Harvard School of Public Health Trace Metals Lab), and statistical pipeline (R 3.3.0, Box-Cox / log transforms, Holm correction); dropped the non-existent `ingredients/human-milk` slug from `ingredients` and the "Wiki pages this source may touch" list; dropped `products: ["[[products/infant-food-general]]"]` because this is a human-milk exposure paper, not an infant-food paper; replaced the HMTc-flavored "Certification / Courses / App" implications stub with a literature-faithful summary; restored the arsenic half of the source's "lead but not arsenic was low" comparison.
+- [[products/infant-food-general]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

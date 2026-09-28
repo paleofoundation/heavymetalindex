@@ -120,18 +120,6 @@ App: useful for retrieval and row-specific evidence summaries after reviewed pro
 
 Microbiome: no direct microbiome endpoint.
 
-## Wiki Pages Updated On Ingest
-
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
-- [[products/fruit-purees]]
-- [[products/non-root-vegetable-purees]]
-- [[products/root-vegetable-purees]]
-- [[products/mixed-meals-rice-containing]]
-- [[products/mixed-meals-non-rice]]
-- [[products/teething-and-snacks-rice-based]]
-- [[products/teething-and-snacks-non-rice]]
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

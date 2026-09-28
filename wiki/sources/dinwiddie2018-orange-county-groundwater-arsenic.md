@@ -56,18 +56,12 @@ Courses: Useful for explaining how natural bedrock units, private-well governanc
 
 App: Context only. The paper supports regional groundwater-pathway explanations, not consumer-product contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/arsenic-total]]
 - [[regulations/epa-arsenic-mcl]]
-
-## Verification notes
-
-Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated private-well groundwater geochemistry as out of scope because it was not mineral-water product occurrence; under the corrected rule it is a3 groundwater pathway and geogenic source-attribution evidence.
-
-Numbers were checked against the extracted PDF text, especially the abstract, Data and Methods, Table 1, Table 2, pluton-proximity results, PCA results, discussion, and conclusion. The supplementary Table S5 groundwater-by-unit values were not fully present in the extracted text; only the text-reported Neoproterozoic epiclastics average of 1.25 ug/L is used here. Arsenic is tagged as `tAs` because the methods report elemental arsenic analysis and do not separate inorganic arsenic species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -65,23 +65,12 @@ ICP-OES (PerkinElmer AVIO 200) with acid digestion and external-standard calibra
 - For the metal pages, this contributes [[metals/nickel]] and [[metals/aluminum]] occurrence in a novel non-food product, and reinforces [[metals/lead]] as a pervasive low-level contaminant of unregulated injectables.
 - Fitness caveat: n=28 from a single country via anonymous donation, ICP-OES totals only, per-unit (not per-dose) concentrations. Treat as a category-opening B-to-A signal, not a population-representative distribution.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/research-chemicals-peptides-sarms]] — first heavy-metal occurrence data for the illicit AAS sub-category.
-- [[metals/nickel]] — oral AAS Ni near the 200 µg/day oral PDE.
-- [[metals/aluminum]] — high oral AAS Al (up to 1220 µg/g).
-- [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/chromium]] — contaminant occurrence in injectable/oral AAS.
-
-## Verification notes
-
-- All concentrations taken from Table 2 (Impurities summary) and the Results text. Injectable values are µg/mL; oral and raw-powder values are µg/g — bases not interconverted because the product forms differ (oil solution vs solid).
-- No consumer brands are named; products were anonymously donated and identified only by form and expected compound, so there is no brand-by-brand mapping to withhold. Active-compound names (testosterone enanthate, oxandrolone, etc.) are drug identities, not consumer brands.
-- "12 heavy metals" includes essential elements (Cu, Zn, Fe, B, Mg, Ca) reported for completeness; only the six HMI target analytes present (Pb, Cd, tAs, Al, Cr, Ni) are routed. Sn and Sb were not measured.
-- Speciation: total metals by ICP-OES; arsenic recorded as tAs.
-- PDE thresholds (Pb 5 µg/day, Cd 2 µg/day parenteral / 15 µg/day oral, As 15 µg/day, Ni 20 parenteral / 200 oral µg/day) are the authors' citations to ICH Q3D / TGA guidance, reported as context, not as HMI/HMTc thresholds.
-- Merge-enhance 2026-06-08 (same-day): re-read Table 2 to verify ranges. Corrected Pb injectable max from 3.38 to 2.01 µg/mL (Table 2 row "Lead (μg/mL) Av (min–max) 1.57 (1.13–2.01)"); corrected raw-powder Al mean from 517.3 to 51.73 µg/g (Table 2 row "Aluminium Raw (μg/g) 51.73 (29.57–73.89)" — prior value was a decimal-place error); revised Summary to note Cd was quantifiable only in injectables (oral and raw both <5 µg/g); added oral Cd PDE (15 µg/day) and oral Cr PDE annotation; added explicit min–max ranges to raw-powder cells for Pb, As, Al and Cr.
-- Audit editorial review (2026-06-08) flagged `[[metals/aluminium]]` wikilinks; verified against the linked reference record directory — the canonical page is the linked reference record (US spelling). Corrected the two wikilinks to `[[metals/aluminum]]`. Narrative prose retains "aluminium" where it directly mirrors the source paper's Australian spelling.
-- Scaffold-introducing slugs not yet in the editorial record: `products/research-chemicals-peptides-sarms` (page exists at the linked reference record; snapshot is stale and will pick it up on next refresh) and the four AAS matrix labels `anabolic-androgenic-steroids`, `injectable-aas`, `oral-aas`, `raw-aas-powder` (introduced for this category). Surfaced for the next taxonomy-snapshot regeneration.
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/chromium]]
+- [[metals/aluminium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

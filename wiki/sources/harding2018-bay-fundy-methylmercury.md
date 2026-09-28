@@ -47,7 +47,7 @@ The authors sampled seawater, plankton, seaweed, shellfish, finfish, and marine 
 
 The source strongly supports methylmercury context for predatory marine fish and broader seafood biomagnification. Mammal values and plankton values should remain ecological context rather than consumer-food occurrence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-predatory]]
 - [[products/seafood]]
@@ -57,11 +57,6 @@ The source strongly supports methylmercury context for predatory marine fish and
 - [[ingredients/shellfish]]
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1371/journal.pone.0197220 and the downloaded PDF.
-- Table 3 fish and shellfish values are transcribed on the wet-weight basis used by the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

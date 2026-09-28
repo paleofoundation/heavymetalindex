@@ -46,7 +46,7 @@ Samples were digested and analyzed by atomic absorption spectroscopy for Pb and 
 
 The source supports occurrence evidence for Pb and Cd in coffee and true-tea products sold in a Libyan market. It should be used as market-specific evidence rather than silently pooled with US or EU retail-market data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/coffee]]
 - [[ingredients/tea]]
@@ -55,10 +55,6 @@ The source supports occurrence evidence for Pb and Cd in coffee and true-tea pro
 - [[products/tea-infusions]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The source table identifies sampled products by retail names. This page omits those names under the brand firewall and reports category-level ranges and means only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

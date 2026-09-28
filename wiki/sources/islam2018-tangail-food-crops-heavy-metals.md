@@ -66,7 +66,7 @@ The study selected agricultural fields around industrial areas of Tangail distri
 
 This source contributes dry-weight Bangladesh industrial-area crop occurrence evidence for rice, non-root vegetables, bean/legume crops, and papaya. The values are dry-weight concentrations from field-grown crops and should not be mixed with fresh-weight market-basket food values without an explicit basis conversion. Arsenic is total As occurrence data; the paper's 50% inorganic-As risk assumption should not be treated as an extracted iAs concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/vegetables]]
@@ -83,16 +83,6 @@ This source contributes dry-weight Bangladesh industrial-area crop occurrence ev
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title page, DOI, methods, Table 1 concentration values, Table 4 EDI totals, and Table 6 arsenic-risk footnote.
-- DOI verified from the first page as `10.1080/10106049.2018.1516246`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 1 values above were checked against the extracted table. Units are copied as `mg/kg dw` or `mg/kg`; no conversion was made.
-- Speciation: arsenic is total As only. The source's risk model assumed 50% inorganic As in foods, but no measured inorganic-arsenic values are reported. Chromium is total Cr only; no Cr(VI) is reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Audit editorial review 2026-06-09 (REVISE verdict) flagged `matrices: [dry-weight, bangladesh-market, industrial-area-crops]` for vocabulary review. Verified against source §2.1: samples were "collected by hand from the selected agricultural fields during March-April, 2016" — NOT market-collected. The `bangladesh-market` slug (an established country-market idiom in the corpus for retail-market surveys) was factually wrong on this page and was dropped; replaced with `agricultural-field` to capture the field-collected provenance, alongside the existing descriptive `industrial-area-crops`. `dry-weight` retained per controlled vocabulary.
-- Source-internal discrepancy noted (not a wiki defect): the abstract and §2.1 state "Seventy five samples of eight different agricultural crops" and `sample_n: 75` faithfully reports that figure, but the sum of Table 1 row-level n's is 93 (57+3+9+6+6+3+5+4). Carry forward for any future synthesis pass that needs to weight rice-vs-vegetable contributions; the wiki uses the source's stated sample size as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

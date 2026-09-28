@@ -79,18 +79,9 @@ Courses: Early (1993) baseline dataset. Methodology is dated (ashing with known 
 
 App: Pb in wine vinegar at ~600–1280 µg/kg is meaningfully higher than apple cider vinegar (~440 µg/kg). Cd and Ni in vinegar are very low.
 
-## Verification notes
-
-Merge-enhance re-ingest 2026-05-26 (v2 skill autonomous):
-- Filled `products: ["[[products/vinegar]]"]` (was `[]`); resolves the routing-malformed flag for "missing optional routing-input fields → products".
-- Removed unsupported "FAO/WHO Codex draft (1982) proposed: Pb 1 mg/kg, Cu 10 mg/kg, Zn 10 mg/kg, Fe 30 mg/kg" sentence from Key numbers regulatory-context paragraph — not in the source PDF (no such reference appears in the references section or body).
-- Removed unsupported "Student-Newman-Keuls test" qualifier from Methods — the PDF says only "analysis of variance was carried out (Bent 1978)"; Bent 1978 is SPSS 2nd edition (Statistical package for the social sciences), not a specific post-hoc procedure.
-- Added per-type SD values for all three metals in Key numbers (previously only overall SD was given for each metal).
-- Added brand-D mean Ni value (0.169 ppm) supporting the "wine vinegar D brand significantly higher in Ni" statement.
-- Added brand-C mean Pb value (0.94 ppm) supporting the "Brand C highest mean Pb" statement.
-- Tightened recovery line to include spike masses from the paper (2 µg Cd, 5 µg Pb, 5 µg Ni) and added per-metal precision figures from the methods paragraph.
-
 ## Related evidence
+
+- [[products/vinegar]]
 - [[ingredients/vinegar]]
 - [[ingredients/wine-vinegar]]
 - [[ingredients/apple-cider-vinegar]]

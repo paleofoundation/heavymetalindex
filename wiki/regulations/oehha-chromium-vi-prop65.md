@@ -61,7 +61,7 @@ The Proposition 65 listing governs product warnings, whereas the State Water Res
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/oehha-chromium-vi-prop65-listing|Chromium (Hexavalent Compounds) — California Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · 2008 · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/chromium-hexavalent-compounds)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->

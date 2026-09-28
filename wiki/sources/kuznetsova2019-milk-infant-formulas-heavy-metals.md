@@ -70,20 +70,13 @@ This source contributes small-panel occurrence evidence for Pb, Cu, and Zn in fo
 
 The source does not distinguish soy-based from non-soy formula in the HMTc row system, so it should remain broad powdered-formula context until row fit is resolved. The measured lead values are total lead in dry product; no basis conversion to prepared formula is made here. The source does not measure cadmium, arsenic, total mercury, methylmercury, or chromium species.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity check: DOI `10.15673/fst.v13i3.1476`, raw handle `RPMEHG_10-15673-fst-v13i3-1476`, candidate cite-key `kuznetsova2019-milk-infant-formulas-heavy-metals`, and SHA-256 `47464cad14e973ae73ba061c3cf1bc702f4a970bb9f3cb338cd23c93676006ef` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the seven-page journal PDF. Tables 1-7 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
-- Brand firewall: the source's named commercial formula table is not reproduced. The page reports only category-level ranges and counts.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

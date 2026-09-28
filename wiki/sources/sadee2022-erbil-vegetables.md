@@ -46,7 +46,7 @@ Courses: Useful for teaching why total arsenic and total chromium cannot be subs
 
 App: Can inform vegetable risk priors for Kurdistan/Iraq market context, not US-market defaults.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/non-root-vegetables]]
 - [[products/leafy-vegetables-other]]
@@ -59,10 +59,6 @@ App: Can inform vegetable risk priors for Kurdistan/Iraq market context, not US-
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/lead]]
-
-## Verification notes
-
-The same DOI appeared in three auto-fetched paths for iAs, Pb, and tAs. This page treats the source as total arsenic only and does not support inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

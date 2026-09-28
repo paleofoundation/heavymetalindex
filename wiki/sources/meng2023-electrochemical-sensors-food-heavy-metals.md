@@ -90,7 +90,7 @@ Microbiome: Not addressed.
 
 B-tier industry-style methods review. CC BY 4.0 license. Coverage is restricted to electrochemical sensors; ICP-MS, ICP-OES, AAS, AFS, XRF, and other reference analytical platforms are not in scope and only mentioned in the introduction as the high-instrumentation comparators. Performance figures are pulled from primary studies and the review does not independently re-validate any of them. Sample matrices in the cited primary studies are heavily weighted toward water and spiked/simplified food matrices; performance in unspiked real food with full sample digestion is sparsely documented across the cited literature, a limitation the authors themselves flag in Section 6.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[testing/index]]
 - [[metals/lead]]
@@ -109,22 +109,8 @@ B-tier industry-style methods review. CC BY 4.0 license. Coverage is restricted 
 - [[ingredients/water]]
 - [[ingredients/fish]]
 - [[ingredients/fruit-juice]]
-
-## Verification notes
-
-- 2026-05-18 merge-enhance from v0 (`updated: 2026-05-15`, raw_handle `papers-cube`, source folder PCMF). The v0 page captured the framing and the FGP/AuNC + Fe₃O₄-AuNPs headline sensors correctly but compressed Table 1 (the paper's main tabular result) into three bullets and omitted Table 2 (materials-comparison summary). Both tables are now in Key numbers.
-- `raw_handle:` corrected from `papers-cube` to `PCMF_article-1-copy-4` to match the manual-fetch handle convention (`MFK_/MR_/PCMF_` prefixes). The v0 handle was a folder slug, not an instance handle.
-- `metals:` corrected from `[Pb, Cd, tAs, tHg, Ni, Cr]` to `[Pb, Cd, iAs, tHg, Cr, Cr-VI, Cu, Zn, Ag]`. The paper consistently writes As³⁺ (inorganic arsenic species) when describing detection targets; tAs was incorrect. Cr-VI is detected explicitly (azacrown monolayer/Au sensor, Table 1) and is called out separately from total Cr. Cu, Zn, and Ag are detection targets in multiple cited sensors (FGP/AuNC for Cu, Zn; DNA-modified Fe₃O₄@AuNPs for Ag). Ni was removed: it is not a detection target in the review (no LOD or sensor reported for Ni); the v0 page appears to have miscoded it from the introductory list of "common contaminant metallic elements" (Section 1, p. 2) which includes Ni in passing.
-- `ingredients:` populated from `[]` to a list of seven slugs covering the food matrices in which the cited sensors were validated (rice, peanuts, tea, leafy-vegetables, fish, water, fruit-juice). All slugs verified against the linked reference record. Per the routing-layer convention this signals where the source touches the corpus; it does not claim that this paper measures contamination in those ingredients.
-- `products:` reduced from `["[[products/tea]]", "[[products/peanuts]]"]` to `[]`. The v0 entries overstated the source's relevance to product-category pages: the review cites sensor studies that used tea and peanut matrices but does not itself report contamination figures suitable for a product-page contamination synthesis. Routing should treat the source as testing/methods evidence, not product-occurrence evidence.
-- `matrices:` cleared from `[food, water, vegetable, tea, peanut, cereal]` to `[]`. The v0 values were a mix of overly broad (`food`), inconsistent (singular `peanut` vs plural `vegetable`), and ingredient-name-collisions with the ingredients vocabulary. For a methods review the matrices field has no clean value; left empty.
-- `license:` clarified from `CC BY` to `CC BY 4.0` (article footer specifies 4.0).
-- `jurisdictions:` added `[CN, WHO]`. The review repeatedly benchmarks sensor LODs against WHO and Chinese GB (5th China Total Diet Study) standards and is authored from Chinese institutions (Guizhou University, Sichuan University, Minzu University of China, Southwest Forestry University).
-- Body restructured: Key numbers expanded with Table 1 (Au/AuNPs sensors) and Table 2 (materials advantages/disadvantages); Methods (brief) extended to name the analytical techniques and substrate platforms; Implications restated without proposing any HMTc threshold value (Part 2 firewall); Limitations preserved; `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` (current naming) and expanded with metals and ingredients lists matching the new source metadata.
-- Brand firewall (Part 12): the review is a methods review and does not name food brands at the value level. Methods-section instrument and material names (PerkinElmer, NRCC reference materials, etc.) are not relevant to this review's content. No firewall edits required.
-- Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. The review's recommendation of Fe₃O₄/graphene/nucleic-acid composites is reported as the authors' synthesis, not endorsed.
-- Speciation discipline: As³⁺ → iAs (inorganic arsenic). Hg²⁺ → tHg (the cited sensors measure total Hg as Hg²⁺, not MeHg). Cr(VI) → Cr-VI distinct from total Cr.
-- Audit editorial review (2026-05-18) flagged the Bi-CNT bullet under Check 1 as having a Cd/Pb LOD attribution transposition (proposed swap to Pb=0.2 / Cd=0.4). Verified against p. 5 of the source: the actual text reads "the detection of Cd²⁺ and Pb²⁺ with LOD of 0.2 and 0.4 µg L⁻¹" — positional matching gives Cd=0.2 / Pb=0.4, which is what the wiki already had. The editorial review's specific value-swap finding is a false positive (the editorial review appears to have inverted the source's species order in its quoted excerpt). However, the verification surfaced a real but different error: the LOD pair was misattributed to Hwang et al. 2008 when the source actually attributes it to Chamjangali et al. 2015 (the MWCNT/poly/bismuth-modified CNT well-water electrode); the Hwang 2008 reference in the same paragraph reports a separate stream-water Bi-CNT sensor without LOD values. The bullet has been rewritten to correct the citation attribution while leaving the (correct) Cd=0.2 / Pb=0.4 assignment unchanged.
+- [[products/tea]]
+- [[products/peanuts]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

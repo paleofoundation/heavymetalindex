@@ -60,16 +60,6 @@ The authors collected adult *R. clavigera* from Hong Kong rocky shores, with pai
 
 This source contributes Hong Kong shellfish-organotin context for wild gastropod tissue, especially TPT and TBT in *R. clavigera*. Because the sampled organisms were collected as coastal biomonitors rather than as market seafood, downstream routing should treat the values as environmental shellfish-tissue context and should not merge them with market-seafood occurrence pools without explicit row-fit adjudication. The tin evidence is organotin-species evidence only; TPT, TBT, butyltins, phenyltins, and total organotins must remain distinct from total Sn and inorganic Sn.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, tissue-concentration Results text, figure captions, ecological-risk paragraphs, and supporting-information captions were readable.
-- DOI `10.1371/journal.pone.0155632`, raw handle `MFK_file`, and cite-key checks found no existing source page before creation. The duplicate file `file (1).pdf` has the same SHA-256 and is not separately ingested.
-- Numeric values were checked against the extracted Results section and methods text. Units are preserved as `μg kg-1 dw`, `μg Sn kg-1 wet weight (ww)`, `ng L-1`, and source-reported detection-limit wording; no unit conversion was performed.
-- Speciation: the source reports organotin species (`MBT`, `DBT`, `TBT`, `MPT`, `DPT`, `TPT`), total butyltins, total phenyltins, and total organotins. This page records them as organotin tin species and does not collapse them into total elemental tin or inorganic tin.
-- Row-fit caveat: the paper is wild rock-shell biomonitoring, not sampled consumer seafood. Broad shellfish routing is used to keep the source visible, with the context caveat above.
-- Brand firewall: no sampled seafood product brands were reported; method-side vendor names are scientific-method details only.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

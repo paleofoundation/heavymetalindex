@@ -58,7 +58,7 @@ For infant rice cereal and rice-based baby-food rows, this is direct product occ
 
 For plant-milk pages, the source is context only. It discusses rice milk and UK warning advice but does not report a new rice-milk concentration dataset in the article body.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-rice-cereal]]
 - [[products/baby-cereals-dry-rice-based]]
@@ -68,13 +68,6 @@ For plant-milk pages, the source is context only. It discusses rice milk and UK 
 - [[ingredients/infant-rice-cereal]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Batch 1 auto-fetched ingest, 2026-05-25. The wishlist filename targeted rice-based plant milks, but the actual paper's direct measurements are rice-based infant foods, generic rice products, and polished rice. Rice milk is discussed as regulatory/advice context only.
-- Basis: values are primarily reported as dry-weight concentrations. The paper provides wet-weight regulatory standards and converts them to approximate dry-weight thresholds using a 1.12 factor for rice moisture. Do not pool dry-weight values with wet-weight infant food values without conversion.
-- Speciation: arsenic values are inorganic arsenic by IC-ICP-MS, not total arsenic.
-- Audit 2026-06-08 (autonomous): corrected a numerical fidelity error in the Key numbers table — the row formerly labeled "Non-infant product medians for Cd" listed values (7.8, 11.9, 60.6, 65.9, 74.4 µg/kg d.wt.) that the source (p231-232) reports as INFANT-food medians for INORGANIC ARSENIC, not non-infant Cd medians. Row re-labeled accordingly. Also dropped `products/plant-milks-rice-based` from the products array and `rice-milk-context` from matrices: the paper discusses rice-milk advisory context (citing Meharg 2008a,b and FSA 2018) but reports no new rice-milk concentration data, so routing it as direct evidence would misrepresent the source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -119,48 +119,10 @@ Originally acquired during the 2026-05-09 autonomous loop run via NCBI EFetch JA
 
 Initial PubMed E-utilities query for OA candidates returned this PMID via the `(inorganic arsenic) AND (baby food OR infant food OR fruit puree OR vegetable puree) AND pubmed pmc open access[filter]` search.
 
-## Verification notes
+## Related evidence
 
-Merge-enhanced from the 2026-05-09 JATS-XML-only ingest on 2026-06-08 after the PDF was re-acquired via /discover into raw/Manual Fetch Discovery/. Defects fixed against the PDF source:
-
-- source metadata `products:` normalized to all quoted-wikilink form (mixed bare-slug and quoted forms previously).
-- Added `[[products/pasta-rice-based]]` to products — the prior page's Routing table claimed "no current HMTc Category 1 row for rice pasta" but the linked reference record exists in current taxonomy; rice pasta n=3 is now correctly routed as direct evidence.
-- Added `raw_handle: MFD_gu2020arsenic-rice-infant-food-australia` and pointed `raw_path` at the PDF (raw_handle was missing from the JATS-only ingest, which is why the page was in `routing_malformed.csv` as an advisory).
-- Added `ingredients: ["[[ingredients/rice]]"]` (missing field that triggered the routing_malformed advisory).
-- Filled in `sampling_locations: ["Melbourne, Australia"]` and `sampling_year_range: "2017"` from Section 2.1.
-- Added a `## Methods` section with instrument vendor/model (Agilent 7700x ICP-MS for tAs; Perkin Elmer Elan DRC II ICP-MS with hydride generation for iAs), reference materials (NCS ZC73031 Carrot 74% recovery for tAs; AGAL40 105% recovery for iAs), LODs, and statistical software per the page template. Brand names in this section are scientific-method instrument/material/software vendors and are permitted under Part 12 Exception 2 (locked 2026-05-17).
-- Added a dietary-exposure table from Table 4 (page 8) that was absent from the prior page.
-- Added brown-vs-white-rice cracker differential from Figure 3 and country-of-origin tAs from Figure 4 — meaningful within-category stratification absent from the prior page.
-- Added the rice-content correlation finding (r² = 0.41, p = 0.002) for rice crackers from Section 3.2.1.
-- Added the Australian regulatory context (1.0 mg/kg ANZ tAs limit, more than 3x the proposed WHO limit) from Table 1 and Section 2.5.
-
-Numerical fidelity spot-check (existing page vs PDF Table 2, page 5): rice milk powder tAs 0.428 mg/kg = 428 ppb ✓; rice pasta iAs 0.155 mg/kg = 155 ppb ✓; rice crackers iAs:tAs 74.3% ✓; non-rice pasta tAs 0.006 mg/kg = 6 ppb ✓. All previously-reported values verified correct.
-
-Brand-firewall spot-check: the paper notes "11 brands from 6 countries of origin" in Section 2.1 without naming individual brands in the results; no brand-level rankings to scrub. The wiki page contains no brand names in contamination contexts.
-
-### Phase 2 audit applied (2026-06-08, editorial review a6e7a9db5979803f1)
-
-editorial review verdict: REVISE.
-
-Findings applied (all verified against the PDF):
-
-- Check 1 ❌ Figure 4 country-of-origin values: editorial review flagged that the wiki had figure-read estimates (China ~95, Australia local ~205, Australia mix ~175, USA ~235 ppb) when the source text Section 3.2.4 (page 8) gives explicit values (China 100, Australia local 210, Australia mix 180, USA 240 ppb). Verified by re-reading page 8: text says "from China had the lowest mean tAs concentration (0.10 mg kg⁻¹)" and "from the United States of America (USA) had the most elevated mean tAs concentration (0.24 mg kg⁻¹)" and "Rice-based foods produced in Australia and products made from Australian and imported ingredients had mean tAs concentrations of 0.21 mg kg⁻¹ and 0.18 mg kg⁻¹, respectively." Corrected the Key Numbers narrative and the country-of-origin spread cell in the Routing table. Thailand and Europe values reclassified as figure-only estimates since the text does not quote explicit means for them.
-- Check 5 ❌ Cross-source synthesis (FDA 2016 / FDA 2024 / Signes-Pastor comparisons): editorial review flagged three places where the wiki page compared Gu 2020 to other-paper values or did synthesis math. Verified against Part 2 and the audit-prompt Check 5 boundary (the page may report what Gu 2020 contributes; it may not synthesize across sources — Part 9 owns that). Removed the FDA-2016/2024 rice-cereal comparison from the geographic-context section, removed the "consistent with U.S. and EU literature" speciation generalization, and removed the "Combined with FDA 2024... and Signes-Pastor 2016... brings to n_a_tier=2" claim from Implications. The within-paper comparison Gu 2020 makes in its own Discussion (Section 3.1, Table 3) is now reported with an explicit note that within-paper context is not cross-source synthesis.
-- Check 5 ⚠️ Part 19 framework editorializing: editorial review flagged "supports clean/dirty subcategory analysis under the locked methodology in Part 19" as borderline. Softened to "provides within-category stratification data; whether that differential warrants subcategory treatment is a question for Part 19 standards-setting, not for this source page" — preserves the empirical observation while moving the framework-judgment call back to Part 19.
-
-Findings rejected (false positives): none. The Check 1 ⚠️ items (Figure 3 mixed-rice "~150 ppb" eyeballed from the figure box; "ranged 37% to 91% across rice products" framing) and the Check 1 numerical-fidelity ✅ items required no action.
-
-## Wiki Pages Updated On Ingest
-
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/teething-and-snacks-rice-based]]
-- [[products/plant-milks-rice-based]]
-- [[products/rice-beverages-rice-milk]]
-- [[products/rice-snacks-crackers]]
-- [[products/pasta-rice-based]]
-- [[products/pasta-wheat-based]]
-- [[products/infant-and-child-foods-master]]
 - [[ingredients/rice]]
+- [[products/infant-and-child-foods-master]]
 - [[metals/arsenic]]
 
 <!-- BEGIN: hmi-page-history -->

@@ -179,20 +179,9 @@ Speciation as reported across the underlying primary studies: most Hg measuremen
 - App: Does not contribute to ingredient `contamination_profile` values. This is biomarker/exposure-outcome data, not food-occurrence data.
 - Microbiome: Section 4 discussion (p. 19) references gut-microbiota modulation of metal bioavailability and excretion, citing animal-model and ASD-microbiota-transfer evidence; this is literature-citation framing within the discussion rather than primary measurement.
 
-## Verification notes
+## Related evidence
 
-- Cite-key derived from first author + year + topic per the system-prompt naming rule.
-- Metals source metadata uses `Pb`, `tHg`, `MeHg`, `Cd`, `tAs`, `Mn` per Part 14 speciation rule. The review covers 22 named metals across the corpus; only the five consistently investigated (Pb 75%, Hg 48.53%, Cd 29.41%, As 23.53%, Mn 13.24%) plus the Hg and As speciation forms most commonly reported in primary studies are listed. The rarer metals (Cs, Co, Ba, Tl, Ni, U, Sr, Rb, Sn, Ti, V, Al, Ag, W, Ce, La, Re, Be, Pt, Bi) are reported in the Key numbers table but not in the metals routing list because their evidence base in this review is single-study or near-single-study and not a primary focus of the synthesis.
-- Matrices field uses `blood`, `urine`, `hair`, `breastmilk`, `umbilical-cord-blood`, `neurodevelopment` — biological-sample types and the outcome modality, consistent with the matrix vocabulary used in other exposure-outcome systematic reviews ingested in this folder (cf. [[sources/ding2023-heavy-metals-asd-meta-analysis]]).
-- `jurisdictions: [international]` follows the global-review convention; included primary studies span 23 countries across five continents.
-- Products and ingredients arrays are both empty because no food or personal-care product is measured. The review mentions in the Introduction (Section 1, p. 2) that "personal hygiene products and cosmetics may contain Pb, As, and Hg [24,25]" but this is one paragraph citing two background references; the included 68 primary studies measure heavy metals in biological samples from mothers and children, not in consumer products. This source contributes to the five metal pages only and does not feed any product-page Literature Evidence Summary.
-- Effect-size percentage discrepancy: Section 3.4 (p. 7) reports the distribution of effect-size magnitudes among the 29 effect-sized studies as Small 79.3%, Moderate 13.8%, Large 17.2%. These sum to 110.9% rather than 100%. The text explicitly notes "some studies assessed more than one outcome," which accounts for the overlap; some studies reported a mix of small, moderate, and large effects across multiple outcome domains. Recorded the values as printed.
-- Hg beneficial associations (Section 4, p. 19): the discussion attributes the ten studies reporting positive Hg-neurodevelopment associations [41,43,66,73,103] to higher fish consumption in the studied populations, citing Hibbeln et al. [117] and Lyall et al. [118] reviews on seafood/omega-3 attenuation of MeHg neurotoxicity. Reference [66] is Nie et al. 2011 (USA cross-sectional, n=11), which Table 2 lists as showing positive associations with Verbal Comprehension, Working Memory, and IQ — but the same study also shows positive associations with externalizing problems and behavioral symptoms (adverse). Recorded the discussion's attribution as printed; the Nie 2011 study is a special case where the small sample size (n=11) supports both adverse and beneficial association reads.
-- Author/year/journal/DOI verified against the PDF title page (p. 1): da Silva et al., IJERPH 2025, 22, 1308, https://doi.org/10.3390/ijerph22081308, published 21 August 2025, MDPI, CC BY 4.0.
-- The folder placement (`babycare_05_Other_Categories/05_Other_Categories`) reflects that this paper does not align with a single product-category page — it is a cross-cutting exposure-outcome systematic review. Routing destinations are the five metal pages plus the umbrella `infant-and-child-foods-master` regulatory-context page is not declared here because no specific food product is measured; the review's relevance to infant-and-child food is via the biomarker-to-outcome link, which is mediated by the metal pages.
-
-## Wiki pages this source may touch
-
+- [[sources/ding2023-heavy-metals-asd-meta-analysis]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]

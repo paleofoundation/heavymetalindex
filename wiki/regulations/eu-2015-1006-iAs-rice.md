@@ -47,15 +47,10 @@ For current-facing EU comparisons, use [[regulations/eu2023-contaminants-maximum
 - [[regulations/eu-1881-2006-contaminants-superseded]] - parent contaminants framework amended by Regulation (EU) 2015/1006.
 - [[regulations/eu2023-contaminants-maximum-levels]] - successor contaminants framework after the 2023 recast.
 
-## Verification Notes
-
-- Created 2026-05-18 during Codex auto-fetch merge-enhancement of [[sources/signes-pastor2017-infant-arsenic-rice-weaning]].
-- EUR-Lex verifies Article 2 application from 1 January 2016 and the Annex rows 3.5.1 through 3.5.4 for inorganic arsenic in rice and rice products.
-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->

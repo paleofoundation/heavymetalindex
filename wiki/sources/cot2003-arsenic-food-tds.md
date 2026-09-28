@@ -60,7 +60,7 @@ Courses: The statement is a clean example of how seafood can dominate total arse
 
 App: The source can support UK arsenic context for fish/seafood, poultry, miscellaneous cereals, and drinking-water contribution notes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fresh-fish]]
@@ -69,14 +69,6 @@ App: The source can support UK arsenic context for fish/seafood, poultry, miscel
 - [[products/breakfast-cereals]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1452.txt`; paragraphs 15-23 and Table 1 were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_cot-2003-arsenic-statement`, raw SHA-256 `5699d4dcba1a8c8b4ae15df888b5cda33b00140fd9660a0dc161b7afb8401c21`, and cite key `cot2003-arsenic-food-tds` were searched in the linked reference record; no existing source page was found.
-- Units and basis are preserved as printed: `mg/kg fresh weight`, `µg/kg`, and `µg/kg body-weight/day`.
-- Speciation: the page keeps `tAs` and `iAs` separate and does not infer iAs from total arsenic except where the source explicitly states the upper-bound assumptions.
-- Closed vocabulary: no exact miscellaneous-cereals product slug exists, so the source metadata uses broad breakfast/other-grain product rows.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

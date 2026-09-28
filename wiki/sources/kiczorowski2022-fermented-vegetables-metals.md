@@ -59,7 +59,7 @@ Courses: Demonstrates that fermentation can change measured heavy-metal content 
 
 App: Supports a processing qualifier for fermented vegetables after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/non-root-vegetables]]
 - [[products/root-tuber-vegetables]]
@@ -69,16 +69,6 @@ App: Supports a processing qualifier for fermented vegetables after synthesis.
 - [[ingredients/beet]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The source reports ug/g fresh matter for Pb and Cd in Table 6. The Cd standard-deviation values are unusually large relative to the means as printed (e.g., BR.R 0.041 +/- 0.37, where the SD is roughly 9x the mean); the values are preserved as printed in the paper and should be treated as a paper-level data-quality flag during synthesis.
-
-The raw Pb values themselves are also high for fresh vegetables: 4.28 to 8.28 ug/g fresh matter equals 4.28 to 8.28 mg/kg, which is roughly 40x the EU 2023/915 maximum level for leafy and other vegetables (0.10 mg/kg). The values are also higher than the certified Pb load of the INCT-TL-1 Tea Leaves CRM (1.78 mg/kg). Pb concentrations of this magnitude in farm-grown Polish vegetables are not consistent with comparable Polish vegetable surveys; the paper offers no explanation. The wiki records the values as the source reports them, but synthesis passes should treat this paper as an outlier on level, not on the fermentation-effect direction, until corroborated.
-
-The paper calls its Capsicum annuum sample only "pepper" without specifying color. The HMI ingredient vocabulary has `green-bell-pepper` and `black-pepper` but no generic `pepper` or `bell-pepper` slug; the green-bell-pepper slug was removed from source metadata rather than overspecify the source. The Capsicum annuum ingredient is flagged here for routing's attention.
-
-The matrices values `raw-vegetables` and `fermented-vegetables` are not in the canonical example list in the system prompt; they are added here because none of the canonical examples (leafy-vegetable, root-vegetable, vegetable-puree) faithfully describes a fermentation before/after pair across multiple vegetable types.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

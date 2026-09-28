@@ -63,16 +63,6 @@ The authors purchased `37` retail fish and seafood samples in Bosnia and Herzego
 
 This source provides primary Bosnia and Herzegovina retail-market occurrence evidence for total Hg, Cd, and Pb in commercial seafood. It can route to broad seafood, canned fish, fresh marine fish, predatory tuna, non-predatory marine fish, and shellfish rows, with row-fit caution because squid and prawn have no narrower closed product slugs in the current taxonomy. Downstream extraction must keep the measured total/unspecified Hg values separate from methylmercury.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, Table 1, Table 2, Table 3, methods, license text, and discussion were readable.
-- DOI `10.1038/s41598-020-70205-9`, raw handle `MFK_s41598-020-70205-9`, and cite-key checks found no existing source page before creation.
-- Table 1 occurrence values were checked against extracted text and the rendered PDF page because the Indian white prawn Cd row is internally inconsistent: the source prints average ± SD `0.002 ± 0.005` and range `0.015-0.027`. The page preserves the printed values without correction.
-- Units are preserved as `mg kg−1 wet weight`, `μg kg−1 b.w.`, and `mg/kg`; no conversion was performed.
-- Speciation: mercury is total/unspecified Hg (`tHg`), not MeHg. The methylmercury RfD is a risk-model assumption, not a measured methylmercury occurrence value.
-- Brand firewall: products are described by species/form and country of origin; no sampled product brand values were reported or attached to contamination values.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include squid, mussel, shrimp, and prawn product rows, so broad `shellfish`/`seafood` routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

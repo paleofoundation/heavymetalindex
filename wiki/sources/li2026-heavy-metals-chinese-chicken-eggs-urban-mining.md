@@ -111,42 +111,15 @@ Courses: The study documents that the order of harmful-metal concentration in eg
 
 App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, total As, Cd, Pb, and Ni in Chinese chicken eggs, with mining-area vs non-mining-area and free-range vs commercial stratification. Supports the [[ingredients/eggs]] contamination profile for the Chinese supply chain.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/eggs]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance from prior 2026-05-14 page).** The prior revision had several defects corrected here:
-
-(a) `raw_path:` was truncated to `…insights from.pdf` and pointed to a non-existent file; corrected to the full filename `Heavy metal concentrations in Chinese chicken eggs_ insights from comparative study of urban and mining areas.pdf` (verified the real file exists at that path).
-
-(b) `## Key numbers` previously listed only the abstract-level compliance summary and a few qualitative regional patterns; expanded to reproduce the per-metal concentration ranges (Results §3.1), the 95th-percentile HI and CR values from the Monte Carlo simulation (Tables 2 and S4 per Discussion), and the regulatory limits and prior-literature comparisons the authors cite. The "Free-range vs. commercial within same region" line in the prior revision singled out SJZ Pb and As as higher in free-range eggs; the source's Results §3.1 lists the significant SJZ contrasts as Cu, Zn, As, Se, and Cd (not Pb), and the DG-vs-GZ contrast as Cr, Cu, Zn, As, Se, and Cd (not Pb or As). Corrected.
-
-(c) The prior `## Key numbers` compliance line read "Pb: <0.02 mg/kg in all samples (China national standard)." This conflated the measured Pb upper bound (the corpus maximum is 0.018 mg/kg) with the regulatory standard (GB 2762-2022 Pb ≤ 0.2 mg/kg for eggs). The two values differ by a factor of ten; the prior line implied the standard is 0.02 mg/kg. Corrected — the standards are now stated separately from the measured ranges.
-
-(d) The prior `## Implications` Certification line began "This study confirms that even in a heavily industrialized/mining country, eggs can meet national food safety standards…" — a synthesis claim about literature consensus that violates (the wiki reports what this single paper found, not how it relates to other literature). Rewritten to describe what the paper itself documents about this corpus.
-
-(e) The prior `## Implications` Courses line ("free-range production systems that allow foraging on contaminated soil produce eggs with higher heavy metal loads, reversing the common consumer assumption that free-range means safer") had consumer-audience risk-advisory tone with editorial framing ("reversing the common consumer assumption…"). Rewritten to state the paper's documented finding without editorializing.
-
-(f) The legacy heading `## Wiki pages updated on ingest` was renamed to `## Wiki pages this source may touch` per current Part 6 template. The metal list under that section was extended to use the speciation-correct slugs (`arsenic-total` not `arsenic`, given the paper does not separate iAs from tAs).
-
-(g) `metals:` retained as `[Cr, tAs, Cd, Pb, Ni]` — these are the five metals the paper measures that are HMTc-analyte-relevant or that map to existing metal pages with carcinogenic-risk computation in the source. The full ten-metal panel is preserved in the `## Key numbers` table; the source metadata `metals:` field carries the routing-relevant subset.
-
-**Sample size.** `sample_n` = 90 = 70 free-range + 20 commercial, consistent with Sampling and pre-treatment (p.4).
-
-**Speciation.** The paper measures total As (no inorganic-vs-total speciation); `metals:` uses `tAs` and the body refers to "As (total)". The paper does not measure any mercury species; no Hg entries are made. The paper measures total Cr (no Cr-VI speciation); `metals:` uses `Cr` and the metal-pages list links `[[metals/chromium]]` (total Cr) rather than `[[metals/chromium-hexavalent]]`.
-
-**Brand firewall.** No consumer-brand names appear in the source paper. The methods section names instrument and software vendors (ThermoFisher iCAP RQ; Crystal Ball v11.1.2.4 / Oracle; SPSS 26.0 / IBM; ArcGIS Desktop 10.8 / Esri; Origin Pro 2024) and reference materials (VAR-CAL-2, CLMS-1); these are retained per the 2026-05-17 scientific-method exception (Check 4 of the editorial record). No brand-by-brand contamination ranking exists in the source or this page.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made. The `## Implications` section limits itself to what this single paper contributes to threshold work and explicitly does not propose certification values.
-
-**Products field.** `products: ["[[products/eggs-product]]"]` is retained because the `eggs-product` page is the Step 0–locked routing destination for HMTc Category 11 Row 6 ("Eggs"); the source's whole-egg-homogenate matrix routes there directly.
+- [[metals/chromium-hexavalent]]
+- [[products/eggs-product]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

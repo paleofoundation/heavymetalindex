@@ -88,7 +88,7 @@ Courses: Useful for explaining why "soil metal concentration" is not a single st
 
 App: Route as soil-management context for cadmium, chromium, nickel, lead, copper, zinc, manganese, iron, and cobalt. Keep it separate from product-occurrence pools.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -100,14 +100,6 @@ App: Route as soil-management context for cadmium, chromium, nickel, lead, coppe
 - [[metals/iron]]
 - [[metals/cobalt]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI conflict was observed. The source reports soil concentrations only, even though maize was used as the pot-test crop. No food, ingredient, plant-tissue, grain, or product concentration row should be extracted from this paper. The soil-origin locality is not specified beyond the Polish research setting; `jurisdictions: [PL]` is used as the experimental jurisdiction, not a food-market jurisdiction. All table values above follow the source's mg/kg dry-matter basis; no wet/dry or as-sold conversion was performed.
-
-2026-06-04 re-ingest pass: matrices narrowed from `[soil, sand, loamy-sand, maize-pot-soil]` to `[soil]` because `sand`, `loamy-sand`, and `maize-pot-soil` are not in the controlled matrices vocabulary; the broader `soil` term is the correct routing scope and the sand/loamy-sand distinction is preserved in body text. Methods enhanced with the digestion-system make/model (CEM MARS 6), AAS instrument (SpectrAA 240FS, Varian Inc.), and the statistical pipeline (two-factor ANOVA with Tukey HSD, PCA, Pearson correlation) — instrument and software names are permitted under Part 12 Exception 2 (scientific reproducibility). Numerical values in Key numbers spot-checked against Table 1 and Table 2 in the source PDF; all match. US-EPA digestion method corrected from "Method 3051" to "Method 3051A" per source reference [55].
-
-2026-06-04 audit-editorial review pass: fresh-context audit returned REVISE with one real finding and two false positives. Real finding: the ammonium-nitrate / highest-HA-dose sentence under "Humic-acid response" originally listed only Cd 14% and Cr 19% reductions in sand; the source (Section 3.2, page 6) actually reports Co 7%, Cu 9%, Pb 12%, Ni 12%, Cd 14%, and Cr 19%. Expanded the sentence to include all six elements faithfully. False positives: (1) audit flagged `soil` as possibly out-of-vocabulary for matrices; verified against the editorial record line 167 where `soil` is explicitly listed in the common-matrices controlled vocabulary; not a defect. (2) audit flagged `[[supply-chain/soil-to-plant-transfer]]` as possibly invented; verified the page exists at the linked reference record; not a defect. Checks 4 and 5 (brand and HMTc firewalls) were clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

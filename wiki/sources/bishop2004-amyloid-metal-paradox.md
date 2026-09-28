@@ -125,49 +125,12 @@ The authors conclude that Aβ in vivo may have a normal antioxidant function —
 - The Aβ-alone, iron-alone, and Aβ + iron data are re-shown from the authors' prior paper (ref [6], Bishop & Robinson 2003), not independently re-collected. The internal consistency of Figure 2 across the present and prior paper is therefore a matter of the original measurements, not an independent replication. The new data are the copper-alone, Aβ + copper, zinc-alone, and Aβ + zinc groups.
 - Free zinc dose response is not characterised; only one zinc concentration (1.0 mM) was used. The narrative on Aβ + zinc being "non-protective" cannot be extrapolated to lower zinc concentrations where redox-independent toxicity may be subthreshold.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/zinc]]
-- [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1111/j.1750-3639.2004.tb00089`), raw_handle grep (`MFK_24-amyloid-metal-complexes-can-be-neurotoxic-and-n`), and cite-key glob (`bishop2004-*`) over the linked reference record on 2026-06-08 returned no matches. This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** A (primary peer-reviewed in vivo experimental study). The paper reports original animal-injection data with explicit sample sizes, t-statistics, and p-values. A-tier reservation in the wiki is for primary peer-reviewed studies and authoritative agency monographs; this is the former.
-
-**Metals source metadata.** Empty. The paper studies Fe, Cu, Zn at AD-plaque-relevant concentrations. None of these are in the HMTc 10-analyte vocabulary (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn). Per the convention established on [[sources/luo2024-peptides-heavy-metal-remediation]] and [[sources/shalev2022-peptide-metal-nmr-review]], only HMTc-priority analytes are recorded in `metals:` source metadata; out-of-scope metals are routed via the `## Wiki pages this source may touch` section using the page-slug form `[[metals/copper]]`, `[[metals/iron]]`, `[[metals/zinc]]`.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The source is an in vivo neurochemistry study using rat cortical injections; it measures nothing in any food, beverage, personal-care, or environmental matrix. No jurisdiction applies (the work was done in Australia at Monash University, but the experimental scope is not regulatory).
-
-**Sample size.** 56 rats total, 7-8 per group after box-plot outlier exclusion. Recorded as `sample_n: 56` (total animals) with population descriptor in `sample_population:`.
-
-**Brand firewall (Part 12).** No consumer brands appear in the source. Scientific-method vendor names are present and retained per the 2026-05-17 Exception 2 locked rule: ferric ammonium citrate (ICN), cupric acetate and zinc acetate (Sigma), Aβ1-42 (US Peptide, Calif., Lot #12), 6F/3D anti-Aβ clone (Dako). These are reagent vendors associated with analytical method, not contamination values; they remain in the Methods section as written.
-
-**HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no "consistent with the consensus that..." synthesis claims, and no consumer-audience risk advisories. The Implications section above is bounded to documenting what the paper contributes; no threshold values are proposed.
-
-**Reviewer's note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. It is a peptide-metal mechanism paper from the Black Market Peptide Metal Survey folder (source-retrieval Agent collection on heavy-metal peptide binding), aligned with the routing of the other peptide-metal entries already ingested (luo2024, shalev2022, marques2025, seregin2023, grill1989, spallacci2025, zhang2025, wang2022, sears2013). Like those entries, it does not advance any HMTc-analyte threshold but does support the wiki's mechanistic coverage of peptide-metal chelation in mammalian systems.
-
-**Date arithmetic.** Published in Brain Pathology 2004, Volume 14, Issue 4, pp. 448-452 (October 2004 issue per Crossref). DOI 10.1111/j.1750-3639.2004.tb00089.x. License is unknown — Brain Pathology was a Wiley journal in 2004 with a subscription model; no open-access designation appears on the PDF, hence `license: unknown` rather than `CC-BY-*`.
-
-**Statistical reporting in the paper.** The text gives mean ± SE (standard error), not SD. The figure caption for Figure 2 states "neuronal loss (mean ± SE)". This is preserved in the Key numbers table above.
-
-**Copper-group sample size correction.** The text states "Eight animals were injected with each experimental substance. Box-plot analysis was used to find extreme outliers, which were excluded from further statistical analysis. This resulted in the copper experimental group having n=7; all other groups had n=8." Recorded accurately in the Methods and Key numbers sections.
-
-**Audit editorial review (2026-06-08) corrections applied — verdict QUARANTINE downgraded to REVISE-applied.** A fresh-context audit editorial review flagged six ❌ numerical-fidelity errors in the original draft of this page; all were independently verified against PDF p. 450 and corrected in this revision:
-
-- **t-statistic for copper-only vs Aβ+copper had wrong df.** Original draft wrote `t[7]=2.576, p=0.023`; the PDF reads `t[13] = 2.576, p = 0.023`. Corrected to t[13]. (df=13 matches independent-samples test of n=7 + n=8 − 2 = 13.)
-- **Attribution of the copper t-test was wrong.** Original draft framed `t[13]=2.576, p=0.023` as a copper-vs-saline test ("significantly above saline"). The PDF text reads: "Injections of copper acetate killed more neurones than saline, and this additional neuronal loss was completely eliminated when copper was co-injected with Aβ (t[13] = 2.576, p = 0.023)." The parenthetical attaches to the elimination claim — the test is copper-only vs Aβ+copper, not copper vs saline. The original copper-vs-saline relationship is reported qualitatively only ("killed more neurones than saline") with no explicit test statistic; this is now noted in the table.
-- **"79 ± 17 %" was misattributed to copper-alone.** The PDF p. 450 explicitly says "Previously we reported that the number of dying neurones around injection sites of pure Aβ was lower (79 ± 17%) than the number around saline injection sites (6)." 79 ± 17 % is the Aβ-alone value from the authors' 2003 paper (ref [6]), not the copper-alone value. The copper-alone row now correctly shows no explicit numeric mean (the paper gives none for copper-only), and the Aβ-alone row carries the 79 ± 17 % value from ref [6].
-- **"77 ± 13 %" for Aβ + copper was misread as "above saline".** The PDF reads: "co-injection of copper with Aβ killed a similar low number of neurones (77 ± 13%)" — the framing is "similar low number" to the 79 ± 17 % Aβ-alone value below saline. So 77 ± 13 % is "of saline" (below saline at ~77 %), not "above saline." Original draft's parenthetical "(i.e., ~110 % of saline as shown in Figure 2)" was wrong; corrected to "77 ± 13 % of saline" matching the source.
-- **"126 ± 12 %" for zinc-alone was misread as "of saline" rather than "MORE than saline".** The PDF reads: "Injections of zinc killed 126 ± 12 % more neurones than injections of saline." So zinc-alone neuronal loss = 226 ± 12 % of saline (100 % baseline + 126 % more). Original draft's parenthetical "(i.e., ~130 % of saline)" was wrong; corrected to "226 ± 12 % of saline" with the calculation shown.
-- **Aβ + zinc t-test attributions were swapped.** Original draft wrote `t[8.4]=0.864, p=0.412 vs saline (NS)` and `t[14]=1.998, p=0.066 vs zinc-alone (NS trend)`. The PDF p. 450 paragraph reads: "(t[8.4] = 0.864, p = 0.412)" attached to "where zinc was co-injected with Aβ was higher than when zinc was injected alone" → vs zinc-alone, not vs saline. The "(t[14] = 1.998, p = 0.066)" is attached to "Co-injection of zinc with Aβ also caused more neuronal death than injections of pure Aβ" → vs pure Aβ, not vs zinc-alone. The vs-saline test is "(t[7] = 1.534, p = 0.169)" — a third statistic the original draft omitted entirely. All three Aβ+Zn t-tests are now correctly attributed in the Key numbers table and in Findings §2.
-- **"Why this matters" bullet 4** referenced copper-alone as "~40 % above saline" with a "statistically marginal" framing — both derived from the misattributed 79 ± 17 % value. Rewritten to use the Figure 2 visual estimate (~140 % of saline) and the corrected copper-vs-Aβ+copper t-test framing.
-- ⚠️ The audit also flagged `[[mitigation/remediation-evidence]]` as outside the taxonomy snapshot's four-category vocabulary. Verified that the linked reference record exists; the mitigation/ subtree is a legitimate routing destination per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip` and is the same routing slug used on [[sources/luo2024-peptides-heavy-metal-remediation]]. No correction needed; the slug is valid wiki content outside the snapshot's four-category drafting vocabulary.
-
-The audit editorial review recommended quarantining the page and rewriting Key numbers from scratch. Instead, the corrections were applied in place — the underlying paper-faithful re-reads were straightforward once the misattributions were identified, and the rest of the page (source metadata, methods, slug routing, firewall posture, limitations) all passed audit clean. Page is downgraded from QUARANTINE to REVISE-applied.
+- [[sources/shalev2022-peptide-metal-nmr-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

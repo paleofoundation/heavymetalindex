@@ -63,7 +63,7 @@ Courses: The source is a useful example of the brand firewall: the underlying ta
 
 App: If oral-care product profiles are surfaced, this source can support a Nigeria-market toothpaste context card with `mg/kg` category ranges and a note that the authors' THQ model stayed below `1`. It should not display brand-by-brand contamination values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/toothpaste]]
 - [[metals/lead]]
@@ -71,16 +71,6 @@ App: If oral-care product profiles are surfaced, this source can support a Niger
 - [[metals/cobalt]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_nigeria_toothpaste_toxic_metals.txt`. The title/byline, abstract, Materials and Methods, Tables 1-3, Results/Discussion, conclusion, and received/accepted dates were checked against this page.
-- No DOI is printed in the extracted PDF. Identity checks before creation found no existing source page for the exact title, no raw-handle hit for `MFK_potential-hazards-of-toxic-metals-found-in-toothpastes`, no raw-SHA hit for `d8add8482deac85716a118765a6e9d7bb4638ddd25dee944e6bb9f187100d3fe`, and no cite-key page at the linked reference record.
-- Numbers and units were copied from the extracted text without conversion. The range summaries were computed directly from Tables 1 and 2 while preserving censored values as `<0.001` where that is the lower bound.
-- Speciation: chromium is recorded as total Cr only. The paper does not report Cr(VI), so no Cr(VI) route or claim is made.
-- Brand firewall: the source names commercial toothpaste products in Tables 1 and 2 and in the abstract's examples. This page suppresses brand-by-value rows and reports only local/imported and all-sample ranges.
-- Evidence tier: `B` because this is a peer-reviewed finished-product occurrence study with 35 market samples, triplicate AAS measurements, and reported LODs, but no DOI, no CRM/recovery data, and no non-Nigerian market coverage.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `1` `toothpaste` product routing row, was absent from the structured evidence record, and had only the expected nonblocking `ingredients` advisory in the structured evidence record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

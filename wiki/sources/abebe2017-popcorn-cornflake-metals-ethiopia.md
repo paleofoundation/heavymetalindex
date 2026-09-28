@@ -42,6 +42,8 @@ Per-product mean ± SD concentrations (mg/kg, dry weight basis), from Table 1:
 | Metal | Popcorn (n=5 shops, pooled) | Cornflake (n=3 packs) |
 |---|---:|---:|
 | K | 1293 ± 233 | 616 ± 70 |
+
+Table 8 reports the 5 g cornflake serving as 3.08 ± 0.35 mg potassium and 0.98 ± 0.495 mg calcium. The cornflake potassium mean on this page is the Table 1 value, 616 ± 70 mg/kg.
 | Na | 148 ± 3 | 410 ± 5 |
 | Mg | 387 ± 11 | 323 ± 11 |
 | Ca | 97.9 ± 4.2 | 196 ± 99 |
@@ -83,23 +85,12 @@ This source contributes occurrence data for total Pb, total Cr, and the essentia
 
 The popping-oil step is a known potential Pb pathway and is not isolated in this study; the popcorn value cannot be cleanly attributed to grain versus oil versus dish versus market basket.
 
-## Verification notes
+## Related evidence
 
-This page was merge-enhanced on 2026-05-29 against the original PDF (the archived source file):
-
-- **K cornflake value corrected** from 612 ± 70 to 616 ± 70 mg/kg. The paper's abstract states 612 ± 70 but the authoritative Results Table 1 (p. 272) reports 616 ± 70, and the daily-intake Table 8 (p. 274) arithmetic confirms it (Table 8 lists 3.08 ± 0.35 mg from a 5 g serving; 616 × 5/1000 = 3.08, 70 × 5/1000 = 0.35). Treated the body tables as the authoritative source, abstract as typo.
-- **Ca cornflake SD resolved as 99, not 9.** Table 1 (p. 272) prints `196±9` while the abstract, Table 5 (p. 273), and Table 8 (p. 274) all print `196±99`. The wiki value `196 ± 99` matches the majority of the paper's printed instances and is arithmetically confirmed by Table 8: the 5 g cornflake daily-intake column reports 0.98 ± 0.495 mg, which corresponds to 196 × 5/1000 = 0.98 and 99 × 5/1000 = 0.495. An SD of 9 would yield 0.045, not 0.495. Treated Table 1's `196±9` as a single-character typesetting truncation. The fresh-context audit editorial review (2026-05-29) flagged this discrepancy; verified and documented per the same Table 8 arithmetic check used to resolve K cornflake.
-- **EU regulatory comparison rewritten.** The prior text claimed both Pb values exceeded an "EU 2023/915 0.020 mg/kg limit for cereals as placed on market." That 0.020 mg/kg figure is the EU ceiling for processed cereal-based foods for infants and young children, not for general cereals. The applicable general-cereal ceiling under EU 2023/915 is 0.10 mg/kg (excluding wheat, barley, oat, rye, rice). The popcorn value (0.94 mg/kg) exceeds the general-cereal ceiling by ~9×; the cornflake value (0.36 mg/kg) exceeds it by ~3.6×.
-- **source metadata `products` cleaned.** Removed `[[products/cornflakes]]` and `[[products/popcorn]]` — neither slug exists in the current product taxonomy. Replaced with `[[products/breakfast-cereals]]` (cornflake routing target) and `[[products/snacks-crackers-biscuits]]` (popcorn routing target). Did not propose new product pages — those require Step 0 Lock per Part 10.
-- **source metadata `matrices` replaced.** Removed the invalid `whole-food` matrix and substituted `popcorn, cornflakes, cereal-grain`. Of these, `cereal-grain` is in the controlled-vocabulary list in the editorial record; `popcorn` and `cornflakes` are paper-specific bare strings describing what was measured but are not in the controlled list. Proposed here as additions per the matrices guidance ("Add a new term only if none of these fits; flag the addition in verification notes"). The fresh-context audit editorial review (2026-05-29) flagged this; flagged here for Karen's review on matrix-vocabulary expansion.
-- **source metadata `metals` expanded** to the full reported analyte list (K, Na, Mg, Ca, Cr, Mn, Fe, Co, Ni, Cu, Zn, Pb, Cd). The prior list omitted the essential macro-metals the paper actually quantified.
-- **Sampling locations** populated with Addis Ababa.
-- **HMTc certification language removed** from `## Implications` (prior version named Cat 1 / Cat 3 rows and proposed origin-country audits and supplier COA testing — wiki/HMTc firewall, Part 2). Replaced with neutral occurrence-data framing.
-- **Cross-paper synthesis claim removed**: prior version's "US/EU market popcorn is generally cleaner (most US popcorn Pb <0.1 mg/kg per FDA surveys)" implicitly compared this paper against other literature and named a consumer-app recommendation. Removed (Part 2). The synthesis pass is the workflow that should compare datasets across the corpus.
-- **Consumer-audience risk language removed** from the prior `## Implications` (e.g., "Ethiopian-market or East-African-market popcorn should be flagged for elevated Pb risk" — consumer advisory, Part 2).
-- **Legacy `## Wiki pages updated on ingest` section removed.** Routing fan-out is the routing layer's job; the source page does not maintain its own routing list.
-- Brand-firewall scan: the paper itself references brand names "Mlekolaki, Nestle and Hanne" in comparison Tables 5–6 from Leśniewicz et al. 2012. The prior wiki page did not reproduce those brand names; the merged version also does not. Methods-section vendor names (Analytikjena, PerkinElmer, Whatman, Schleicher & Schuell, BDH, Schalau Chemie, FOSS Knifetec, OPTECH, Kenutuf, SANYO, La(NO₃)₃·6H₂O grade supplier) are scientific reproducibility content and retained per the Part 12 vendor-name exception.
-- **Fresh-context audit applied (2026-05-29).** editorial review verdict: REVISE. All three concerns applied: (1) matrices vocabulary flagged as proposed additions; (2) Ca cornflake Table-1-vs-Table-5/8 discrepancy resolved via Table 8 arithmetic and documented; (3) EU 2023/915 crosswalk now explicitly attributed to the wiki, not to the paper (which compares only to FAO/WHO PTWI). Numerical-fidelity check returned ✅ on every Key-numbers value; speciation/methods check returned ✅; Part 12 brand firewall check returned ✅.
+- [[products/cornflakes]]
+- [[products/popcorn]]
+- [[products/breakfast-cereals]]
+- [[products/snacks-crackers-biscuits]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

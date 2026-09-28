@@ -49,7 +49,7 @@ Vegetables were washed, separated into edible fractions, digested with concentra
 
 The source supports arsenic occurrence context for vegetables grown with contaminated irrigation water. It should not be pooled silently with ordinary retail-market vegetables because the exposure setting is an industrial wastewater-affected agricultural system.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/root-vegetables]]
 - [[ingredients/leafy-vegetables]]
@@ -59,10 +59,6 @@ The source supports arsenic occurrence context for vegetables grown with contami
 - [[products/leafy-vegetables-other]]
 - [[products/non-root-vegetables]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The source reports arsenic as As without speciation, so this page routes it as total arsenic rather than inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

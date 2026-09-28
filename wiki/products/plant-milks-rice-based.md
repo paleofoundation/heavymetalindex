@@ -84,7 +84,6 @@ Occurrence values in this category are measured by ICP-MS in the source literatu
 <div class="hmi-posture-note"><p>Where third-party testing programs are cited as sources, the category-level signal is summarized and the reader is pointed at the original document for anything brand-specific. The Index does not reproduce brand-by-brand tables.</p></div>
 <!-- END: hmi-subcategory-v3 -->
 
-
 > **This subcategory has been re-routed to Category 3, currently in build. The standards page will be available when Category 3 is finalized.**
 >
 > HMTc Category 5 row 7 was retired under [Category 5 Step 0 Amendment 1](Category5_Step_0_Amendment_1) (April 28, 2026), authority Step Zero Protocol v1.4 §0G operation 2. Rice-based plant milks (rice milk) are certified under Category 3 (Grains, Cereals, and Rice Products), row 10 (Rice beverages), so that the rice higher-contamination row is handled coherently within one category. This URL is preserved permanently and will resolve to the Category 3 row 10 standards page once Category 3 is locked.
@@ -137,7 +136,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 ## Broad Product Context: Author-Scope Index
 
 <!-- BEGIN: hmi-broad-context-sources -->
-_Broad-context source index will be auto-generated here when the routing audit identifies sources whose author-stated scope is broader than this product row._
+_Broader-scope sources for this row will be listed here when they are catalogued._
 <!-- END: hmi-broad-context-sources -->
 
 ## Source Evidence Inventory
@@ -173,7 +172,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment]]<span class="hmi-ref-meta">D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. · Foods · 2026 · [doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -181,7 +180,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

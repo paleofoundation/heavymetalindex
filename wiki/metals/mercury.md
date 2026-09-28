@@ -153,7 +153,7 @@ Structured outputs:
 
 - Methylmercury concentration ranges by fish category (default app values for inferring fish exposure):
   - "Best Choices" species: <0.1 ppm
-  - "Good Choices" species: 0.1 to 0.5 ppm  
+  - "Good Choices" species: 0.1 to 0.5 ppm
   - "Choices to Avoid" species: 0.5 to 1.5+ ppm
 - Maternal hair MeHg associated with first-percentile-affected developmental endpoint: approximately 6.4 µg/g (Faroe-Seychelles BMDL) ([[sources/jecfa-61st-methylmercury|JECFA 61st]]).
 - Pregnancy risk weighting: amplify reference-value benchmarking for pregnant users by treating maternal blood/hair MeHg as the operative biomarker for fetal exposure.
@@ -228,7 +228,7 @@ See also [[studies/mercury-primary-literature]] for the citable index of mercury
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/atsdr-mercury-toxprofile-2024|Toxicological Profile for Mercury]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2024 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/epa-iris-mercuric-chloride|Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 1995 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692)</span><span class="hmi-ref-tag">Government</span>

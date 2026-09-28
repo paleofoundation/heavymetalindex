@@ -79,20 +79,11 @@ For extraction testing, `100 mg` dry wakame was incubated for `6 hours` at `37 Â
 
 This source should be treated as a narrow method-plus-occurrence record for dry wakame. It supports the seaweed/kelp food row by adding a Japanese retail dry-wakame total-arsenic value and showing that extraction conditions strongly affect the recovered organoarsenic profile. Because inorganic arsenic was not reported, this page should not be used as an inorganic-arsenic occurrence value.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.14252/foodsafetyfscj.2014037`, raw handle `MFK_hata2014`, title text, or cite key `hata2014-wakame-organoarsenic-extraction`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-034.txt`, extracted with `pdftotext -layout`. Tables 2, 3, and 4 were copied directly; the total-arsenic value is from Results section `3-1`.
-- Units and bases are preserved as `mg/kg dry weight`, `mg/kg dry wakame`, and `%`; no unit conversion was performed.
-- Speciation check: the source reports total arsenic and organoarsenic/arsenosugar peaks. It does not report inorganic arsenic, so source metadata uses `metals: [tAs]` only and no AsSug/DMA value is promoted to iAs.
-- Brand firewall: the source does not identify a consumer brand; the page records only the retail-market dry wakame category and source-described harvest/geographic context.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact `wakame` is retained in source text while source metadata uses broad seaweed/kelp food slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

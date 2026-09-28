@@ -71,7 +71,7 @@ QA: CRMs ERM BD-150 (skimmed milk powder, n=9) recovery 88–92% for THg; SRM156
 - Courses: Strong regulatory-affairs and supply-chain case study on how the 24-hour duplicate-diet method captures total dietary exposure that food-only occurrence studies miss, and on the wide range of MeHg intake driven by the fish content of national cuisines. Useful for QA teams analyzing fish-containing baby and toddler products.
 - App: Adds Japanese baby-food and toddler-meal stage-specific MeHg dietary intake distribution. Reinforces the case for tracking MeHg separately from total Hg in infant/toddler product profiles and for treating MeHg as the matrix-driven analyte on the product layer rather than the ingredient layer.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]

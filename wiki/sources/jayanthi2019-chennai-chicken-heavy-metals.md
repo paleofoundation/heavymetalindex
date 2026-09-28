@@ -57,7 +57,7 @@ Courses: Useful example of how cooking environment, utensils, spices, and packag
 
 App: Context for processed chicken and poultry-product exposure narratives.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[products/processed-meats]]
@@ -68,10 +68,6 @@ App: Context for processed chicken and poultry-product exposure narratives.
 - [[metals/chromium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from `skip:incomplete-metadata` during the 2026-06-11 recovery fire. DOI was not visible in the extracted text, but the paper contains direct occurrence values for ready-to-eat chicken products and is in-scope lane a1 evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

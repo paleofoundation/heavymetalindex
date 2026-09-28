@@ -104,7 +104,7 @@ Courses: The paper is useful for teaching the difference between total concentra
 
 App: The sample set can support Ghana/Kumasi jurisdiction-labeled occurrence context for cereal-based breakfast foods, provided displays preserve the finished-food basis, total-As speciation caveat, and the broad cereal-class grouping rather than treating the data as raw-grain measurements.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -121,14 +121,6 @@ App: The sample set can support Ghana/Kumasi jurisdiction-labeled occurrence con
 - [[products/breakfast-cereals]]
 - [[products/snacks-crackers-biscuits]]
 - [[products/bread-and-baked-goods]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Replaced older HMTc-threshold and cross-corpus comparison language with source-only implications.
-- Corrected older HQ ranges for Cd and Ni; Table 3 reports Cd and Ni HQ values above 1 in all age groups and cereal classes, not below 1.
-- Corrected the comparator framing: Table 1 shows comparator values for As, Cd, Cr, and Pb, but no maximum-limit comparator for Mn or Ni.
-- Strict brand-firewall check: no consumer brands are named; instrument, reference-material, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

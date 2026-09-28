@@ -97,17 +97,10 @@ Courses: Supports the "Why do agricultural soils contain heavy metals?" module a
 
 App: No direct ingredient-level data — the study measures sludge and soil, not finished foods. No ingredient `contamination_profile` contribution.
 
-## Verification notes
-
-- 2026-06-03 merge-enhance pass on the June-2 initial ingest (`iticescu2021-sewage-sludge-agricultural-land`, committed in 4f31cc6). Preserved the original `cite_key`, `raw_handle`, `raw_path`, and `doi`. Replaced bespoke matrix slugs (`municipal-sewage-sludge`, `sludge-amended-soil`, `calcareous-amendment`, `wastewater-treatment-plant-sludge`) with controlled-vocabulary `[sewage-sludge, agricultural-soil]` per the system-prompt vocabulary; precedent set by `[[sources/de-silva2023-industrial-waste-land-application-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]`. Reformatted author list to `Lastname I` convention (was full first names). Downgraded `evidence_tier` from A to B given the absence of numerical heavy-metal tables, LOD/LOQ, and replicate statistics (Figure 3 reports metals only as an unlabelled bar chart). Added the post-amendment soil table, Pearson-correlation read-outs from Table 5, and the explicit regulatory citation (Directive 86/278/EEC + Romanian Order 344/2004).
-- source metadata `metals: [Cr, Cu, Ni]` reflects what was quantitatively measured; the regulatory text on pp. 2–3 lists seven monitored elements (Cr, Cu, Ni, Pb, Zn, Cd, Hg) but only Cr, Cu, and Ni have reported values. Pb and other elements appear only as unlabelled peaks in the EDX spectrum (Figure 1).
-- source metadata `ingredients: []` and `products: []`: this is a sludge/soil characterisation paper, not a foodstuff measurement, and so does not contribute direct evidence to any ingredient or product page.
-- Matrices `sewage-sludge` and `agricultural-soil` follow the existing controlled vocabulary used by sources such as `[[sources/de-silva2023-industrial-waste-land-application-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]`.
-- Evidence tier B: peer-reviewed open-access journal article, but the analytical reporting is thin (no LOD/LOQ, no replicate statistics, heavy-metal values published only in bar-chart and county-map form rather than tables), which keeps it below A-tier.
-- Heavy-metal values in this page are read from Figure 3 of the article; the article does not publish a numerical table for those values. Spot-check by a second reader is welcome; flag any disagreement against the printed bars.
-- 2026-06-03 audit (fresh-context editorial review) flagged two items, both verified and applied: (a) the cited 500/100/500 mg·kg⁻¹ DS ceilings were originally framed as receiving-soil limits; the paper text on p. 8 actually frames them as sludge-side limits applied "to the sewage sludge used on agricultural land", and the 500/100/500 values themselves match Romanian Order 344/2004 SLUDGE limits (not soil limits), so the section was rewritten. (b) XRF was omitted from the Methods list; the paper p. 5 explicitly names AAS + XRF + spectrophotometric as the heavy-metal methods; XRF added. One audit finding (`Cu` not in metals vocabulary list) was a false positive — `Cu` is the standard chemical symbol and matches usage on sources such as `[[sources/de-silva2023-industrial-waste-land-application-soil]]`; no change applied.
-
 ## Related evidence
+
+- [[sources/de-silva2023-industrial-waste-land-application-soil]]
+- [[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/nickel]]

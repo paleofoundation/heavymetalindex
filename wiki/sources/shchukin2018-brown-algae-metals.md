@@ -65,7 +65,7 @@ The experimental objects were samples of the herbal medicinal product "Laminaria
 
 This source supports seaweed/kelp food and algae-seaweed supplement occurrence context for dry Laminaria products in the Russian pharmacy market, with raw-material origins in Russia and China. The six author-measured rows should be treated as the primary occurrence data; the remaining rows in Tables 2 and 3 are secondary literature comparisons and should not be pooled as new primary samples from this source. Total arsenic, total mercury, and total chromium labels should be preserved because the source does not report inorganic arsenic, methylmercury, or Cr(VI).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
@@ -82,15 +82,6 @@ This source supports seaweed/kelp food and algae-seaweed supplement occurrence c
 - [[metals/manganese]]
 - [[metals/nickel]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.30906/0023-1134-2018-52-7-30-36`, raw handle `MFK_4498-18828-2-pb`, or cite key `shchukin2018-brown-algae-metals`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-011.txt`, extracted with `pdftotext -layout`; the Cyrillic text extracts as mojibake, but the Table 2 and Table 3 numeric rows, English abstract, DOI, and author line are extractable.
-- Table rows marked with `*` are the authors' own experimental data and are the only rows treated here as routeable primary occurrence values. Literature rows and the paper's broad literature ranges remain context.
-- Units and basis are preserved as `mg/kg` dry-product values; no conversions were performed. The source uses decimal commas for most numeric values, which are retained here except the extracted `267.3` Table 3 Sr value.
-- Speciation check: arsenic is reported as `As` only and is recorded as tAs; mercury is reported as `Hg` only and is recorded as tHg; chromium is reported as `Cr` only and is not treated as Cr(VI).
-- Brand firewall: the paper describes purchase from Moscow pharmacy chains but does not report pharmacy or product brand names.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

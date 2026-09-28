@@ -49,19 +49,13 @@ Total mercury was measured using an AMA 254 atomic absorption mercury analyzer. 
 
 The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood. The reservoir samples (10 freshwater species from the Ružín reservoir, draining historic mining areas) drive the dataset's high-end values; the retail samples cover marine fish and processed fish products. The authors' consumer-safety conclusion echoes FDA/EPA advisories (citing refs 8, 47, 48) calling out shark, swordfish, and king mackerel as categories of concern for children, women of childbearing age, pregnant women, and nursing mothers — but shark and swordfish were not measured in this study; only king mackerel was. Direct evidence from this paper applies to freshwater fish and the measured retail species, not shark or swordfish.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/freshwater-fish]]
 - [[products/seafood]]
 - [[products/fish-freshwater]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.26444/aaem/84934 and the downloaded PDF.
-- The paper reports total mercury, not methylmercury.
-- Autonomous audit 2026-06-09 (kimakova2018-fish-products-slovakia-mercury): removed routing to swordfish and shark from source metadata and from "Wiki pages this source may touch" — neither species was measured in this study; both appear only in the Conclusions/Recommendations text as a general FDA/EPA-derived consumer advisory citing refs 8, 47, 48. King mackerel WAS measured (retail max 3.722 mg/kg) and is preserved as a matrix. Added [[ingredients/freshwater-fish]] and [[products/fish-freshwater]] because the 10 reservoir species and the maximum-value sample (asp from Ružín reservoir) are freshwater. Refined Key numbers to show source-reported precision and to name the species (asp) underlying the 6.552 mg/kg maximum.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

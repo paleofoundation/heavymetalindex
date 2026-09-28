@@ -54,16 +54,12 @@ Courses: Useful phytoremediation case for explaining how rhizosphere microbes, a
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The corpus queue mislabeled this record as `WIKIBIOME-HANDOFF`. On deep read it is recoverable HMI a2 evidence because it reports primary arsenic-remediation and rhizosphere-speciation data in contaminated soil. `iAs` and `tAs` are both tagged because the paper discusses arsenic speciation transformation and also measures total arsenic in soils and plant tissues.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

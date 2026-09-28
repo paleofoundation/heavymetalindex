@@ -80,27 +80,6 @@ Statistical analysis: Bayesian inference of univariate and multiple linear regre
 
 **App:** Diet-quality × metal interactions are not directly modelable from packaged-food ingredient lists, but the JECS Pb-LBW dose-response provides a real-world calibration anchor for blood-Pb exposure in a low-exposure Japanese population (BDS-stratified blood-Pb medians 5.71–6.05 ng/g). The reported per-doubling OR is a useful sanity check for any future model that estimates LBW-relevant Pb exposure from food contamination data.
 
-## Verification notes
-
-Merge-enhanced 2026-05-18 from the PCMF PDF (the archived source file, SHA-256 `bd8cbc44...264f`). Page was created 2026-05-14 with `raw_handle: papers-cube` placeholder and was in `routing_malformed.csv` (advisory: empty optional routing fields).
-
-Defects corrected:
-- **Title**: prior page used "and the association between blood lead levels and low birth weight"; published Environment International title is "and their effect on low birth weight: the Japan Environment and Children's Study". Corrected.
-- **raw_handle**: `papers-cube` placeholder → `PCMF_periconceptional-maternal-diet-quality-influences-` (PCMF_ convention, 50-char window matching sibling pages).
-- **raw_path**: filename in prior `raw_path` ("…and the association between blood lead levels and low birth weight.pdf") did not exist on filesystem; corrected to actual PDF filename in PCMF folder.
-- **Pb-LBW OR label**: prior page asserted "adjusted OR=1.50 per quartile Q4 vs Q1, 95% CI 1.36-1.64" — this conflated two distinct statistics. Per Table 3, the Q4 vs Q1 adjusted OR for blood Pb is **1.44 (1.34, 1.56)** and the per-log2-doubling adjusted OR is **1.50 (1.36, 1.64)**. Both now reported separately with correct labels.
-- **"23% lower odds of Pb-associated LBW" for BDS Q4 vs Q1**: not supported by Table 3. Q4 BDS adjusted OR for LBW = 0.87 (0.79, 0.96), which is a 13% lower-odds figure, not 23%. Removed.
-- **Methods "Agilent 7700" model**: paper specifies "Agilent Technologies, Tokyo, Japan" without instrument model and refers to Nakayama et al. 2019 for full method detail. Model number removed to avoid fabricated specificity.
-- **Hg → tHg**: paper measures total Hg without speciation (no separate MeHg). Per Part 14 convention, the speciated label `tHg` is used on this page; metals source metadata updated.
-- **access_url** and **raw_sha256** added for provenance.
-
-Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `jurisdictions: [JP]`, `sample_n: 72317`, `near_duplicates: []`, `matrices: [blood, maternal-blood]`, `products: []`, `ingredients: []` (paper measures blood biomarkers and dietary patterns, not food contamination; product/ingredient source metadata correctly empty — advisory-only routing_malformed entry expected).
-
-**Audit editorial review (2026-05-18, fresh-context general-purpose):** REVISE verdict. Three findings; two applied, one rejected as false positive.
-- ⚠️ Check 1 BDS-range phrasing — applied. Tightened "BDS range across the cohort: 13.1–70.0" to distinguish observed quartile cutoffs (13.1–70.0) from the 1st–99th percentile range (27.7–62.6, per §3.1 p.5).
-- ⚠️ Check 5 "supports stringent dietary-Pb minimisation" — applied. Reworded Implications-Certification closing to data-contribution framing per Part 2 (literature-reports, does-not-advocate).
-- ❌ Check 3 "Agilent 7700 instrument-model regression" — **rejected as false positive.** Re-read of PDF p.2 §2.2 confirms the published paper text reads "...inductively coupled plasma-mass spectrometry analysis (Agilent Technologies, Tokyo, Japan)" with no model number. The editorial review's quoted text "(Agilent 7700, Agilent Technologies, Tokyo, Japan)" does not appear in this paper; the model "Agilent 7700" likely came from a citing reference (Nakayama et al. 2019 is cited for full method detail) and was incorrectly attributed to the present paper. The wiki page's correction (removing "Agilent 7700") is faithful to the source.
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

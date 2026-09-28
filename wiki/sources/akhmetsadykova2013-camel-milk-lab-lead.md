@@ -67,24 +67,9 @@ Courses: Useful for teaching biosorption mechanisms (LAB cell-wall metal binding
 
 App: Not directly informative for ingredient priors. The diet baseline value is a single data point from a non-survey context.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
-
-## Verification notes
-
-The PDF filename uses 2012 (submission/received year, 12 April 2012); the paper was published in Emir. J. Food Agric. Vol. 25 Issue 4, December 2012 online with formal 2013 issue dating. Cite-key uses publication year 2013 per HMI convention; raw_handle preserves the discover-skill filename.
-
-The fermentation substrate in this study was cow milk, not camel milk; the camel-milk connection is genealogical (LAB strains were isolated from fermented camel milk / shubat). source metadata matrix is therefore `cow-milk`, not `camel-milk` or `fermented-milk`, and the ingredient route is `milk-and-dairy` rather than a camel-specific ingredient slug.
-
-The 320 ppb Pb in the cow milk diet baseline is unusually high (16× the Codex limit). The paper does not state whether this is one composite sample, replicated, or a literature-imported value. It is presented in a single sentence: "Diet was slightly contaminated: in milk 0.32, water 0.12, and fodder 0.32, HNO3 0.1 ppm of lead was found." The Key numbers section quotes the value verbatim and flags the missing methods context rather than treating it as a survey-grade measurement.
-
-Organ Pb values for control and water-Pb groups were taken from the abstract narrative (pages 274 and 277). Control-group lungs (0.62) and liver (0.63) values are quoted in the p.277 prose discussing fermented-milk treatment effects; Water-Pb lungs and liver values are approximate (read from Figure 3) since the prose does not quote them.
-
-Lipid- vs water-soluble Pb species, valence state, and any speciation were not assessed; all Pb values are total Pb after acid digestion.
-
-No brand names appear in the source (Part 12 compliant). Method-vendor names (Carl Zeiss, Carlo Erba, VELP, Antigen Ltd, XLSTAT) are reproduced under the methods-vendor exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

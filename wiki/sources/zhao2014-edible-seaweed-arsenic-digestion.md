@@ -84,22 +84,12 @@ Five edible seaweeds were randomly purchased from Qingdao supermarkets during Au
 
 This source contributes seaweed/kelp food occurrence evidence for both total arsenic and extractable inorganic arsenic species. It is especially useful for keeping *Hizikia fusiformis* water-extract As(V) (`23.0 ± 2.5 mg/kg`) separate from the simulated-gastric As(III) value (`1.47 ± 0.20 mg/kg`) and from total arsenic (`82.5 ± 3.6 mg/kg`). Downstream extraction should preserve the extract basis and should not use total As, DMA, or MMA as inorganic-arsenic substitutes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1155/2014/436347`, article ID `436347`, raw handle `MFK_zhao2014`, title text, author/title text, or cite key `zhao2014-edible-seaweed-arsenic-digestion`.
-- Text was extracted to `/tmp/hmi-seaweed-068.txt` with `pdftotext -layout`; title/authorship, sample collection, methods, Table 3, Table 4, QA/QC, calibration, and risk-assessment text were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-068.txt`, especially Table 3 total-As values, every Table 4 water/gastric/intestinal extract species value, CRM values, HPLC retention times, calibration/RSD values, the `27.9%` *Hizikia fusiformis* statement, and the `60 kg`/`25 g`/`1.47 mg/kg`/`0.6 µg/kg bw per day` risk-context calculation.
-- Units and bases are preserved as `mg/kg, dry weight`, `mg/kg`, `ng/mL`, `%`, `min`, `h`, `g`, `mL`, `µm`, `µg/kg bw per day`, and `°C`; no unit conversion was performed.
-- Speciation check: total As, As(III), As(V), DMA, and MMA are kept distinct. As(III) and As(V) are treated as inorganic arsenic context; DMA and MMA are not promoted to iAs.
-- Brand firewall: samples are supermarket-purchased seaweeds by species, with no product brand names reported.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species remain in Key numbers while source metadata routes broadly to seaweed/kelp foods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

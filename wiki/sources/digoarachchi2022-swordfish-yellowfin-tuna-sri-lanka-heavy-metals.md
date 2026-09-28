@@ -47,7 +47,7 @@ The study used secondary heavy-metal analysis data supplied by two unnamed Sri L
 
 The source is useful for geographic/seasonal swordfish mercury context in the Indian Ocean export fishery off Sri Lanka. It provides per-station exceedance proportions against the 1 ppm and 0.8 ppm thresholds (station 1: 40.33% > 1 ppm, 81.93% > 0.8 ppm; station 2: 9.73% > 1 ppm, 29.55% > 0.8 ppm; station 3: 10.81% > 1 ppm, 72.97% > 0.8 ppm) and seasonal exceedance proportions at station 2 across June, July, August, and September 2017. The Cd, As, and Pb non-detect flag should be cited only with the caveat that the source provides no LOD or analytical method, so non-detect cannot be quantified against any specific instrument floor. The mapped categories are not individual sample values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
@@ -56,13 +56,6 @@ The source is useful for geographic/seasonal swordfish mercury context in the In
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.47191/ijcsrr/V5-i7-03 and the downloaded PDF.
-- The paper misspells lead as "Led" in several places; this page records the analyte as Pb.
-- No `ingredients/yellowfin-tuna` slug exists in the current taxonomy; the yellowfin tuna n=33 cohort is captured via the `matrices: yellowfin-tuna` field and via the generic `ingredients/fish` and `products/seafood` plus `products/fish-marine-predatory` routing. If a yellowfin-tuna ingredient page is later created, this source should be added to its routing.
-- The Results section describes station 2 (76-80°E, 0-8°N) as containing the "highest capture" of swordfish; this refers to harvest density, not the highest Hg concentration. Station-level exceedance percentages and the paper's own abstract and conclusion identify station 1 (64-70°E, 0-8°N) as the area of highest Hg accumulation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

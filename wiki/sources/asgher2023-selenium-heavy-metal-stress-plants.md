@@ -124,32 +124,6 @@ Narrative literature review covering 1982–2023. Search platform: Dimensions so
 - **Microbiome:** Not addressed. Out of scope for [[microbiome/]] federation.
 - **Synthesis:** No synthesis triggers fire from this ingest. The paper does not contribute primary occurrence values to any ingredient `contamination_profile` cell.
 
-## Wiki pages this source may touch
-
-This is a narrative agronomic-mitigation review; it contributes context rather than primary data. Potential touch points for future synthesis or educational use (not generating routing rows because no occurrence data are reported):
-
-- Mitigation-lever context for cereal ingredient pages where Se biofortification has been studied as an HM uptake-reduction intervention (rice, wheat, maize).
-- Mitigation-lever context for Brassica-family ingredient pages (mustard, broccoli, cauliflower, rapeseed).
-- Background reference for `metals/cadmium`, `metals/lead`, `metals/arsenic`, `metals/chromium`, and `metals/nickel` mitigation sections discussing Se co-application as a phytoremediation / uptake-reduction strategy.
-- Reference for any future `mitigation/se-biofortification.md` or `mitigation/se-coapplication.md` page.
-
-## Verification notes
-
-- **No primary occurrence data.** `metals: []`, `ingredients: []`, and `products: []` are correct. Following the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for narrative reviews without primary measurements: this paper reviews laboratory experiments on Se-mediated tolerance mechanisms in plants exposed to heavy metals; it does not report contamination levels in any food ingredient or product. Routing to metal or ingredient pages as `direct_evidence` would mischaracterise the evidence. The mitigation-lever angle (Se biofortification reducing Cd/Pb/As accumulation in cereal grains) is documented in body text for future discoverability without generating misleading routing rows.
-- **Speciation discipline.** The paper uses "As" throughout without consistently separating inorganic vs total arsenic. Treatment doses in Table 1 (e.g., 25 µM As for Glycine max, 100 µM As for Oryza sativa) are applied to plants as treatment solutions; the speciation of the applied As in the primary studies would need to be checked against each cited reference. The review does not analyse arsenic speciation in plant tissues post-treatment. Similarly, "Cr" in Table 1 (Brassica juncea, 300 µM Cr) and "Hg" mentions in body text do not separate Cr-VI from total Cr or MeHg from tHg. Because this page reports the review's own framing without overlaying speciation distinctions the authors did not make, `metals: []` avoids forcing a speciation choice the source does not support.
-- **Plant-tissue matrix.** `matrices: [plant-tissue]` reflects that the experiments cited measure HM and Se in plant material (roots, shoots, grains, leaves) under controlled exposure, not in food as consumed.
-- **Brand-firewall compliance (Part 12).** No commercial product or brand names appear in the paper. Methods sections of cited primary studies are not reproduced at instrument-vendor level in this review. No Part 12 concerns.
-- **Wiki/HMTc firewall (Part 2) compliance.** The page reports what the review describes (mechanisms, doses, responses) without proposing HMTc thresholds, endorsing the review's synthesis claims as wiki consensus, or making consumer-audience risk statements. The "Author-stated Se concentration thresholds for plants" entries quote the review's framing of <1000 vs >1000 mg Se/kg DW as the beneficial/toxic threshold; this is reported as what the review says, not adopted as wiki claim.
-- **Evidence tier.** Tier B — peer-reviewed narrative review without PRISMA protocol or independent meta-analysis. Per [[docs/conventions]] evidence grading, narrative reviews sit below primary peer-reviewed studies (Tier A) but above grey literature; specific claims attributed in tables are no stronger than the underlying primary references they cite.
-- **Sample-size.** `sample_n: null` is correct for a narrative review; the bibliometric counts in Figures 1–2 (e.g., 423 HM publications in 2022) reflect Dimensions search-result totals, not a defined sample frame for evidence extraction.
-- **License.** MDPI Agriculture publishes under Creative Commons Attribution (CC BY 4.0) license per MDPI's standard open-access policy. DOI 10.3390/agriculture13051083 resolves to the open-access article.
-- **Funding statement (page 15):** "This research received no external funding." No conflict-of-interest concerns declared by the authors.
-- Audit editorial review (2026-06-02) flagged Check 1 ⚠️ on a duplicate Billbergia zebrina / ref [96] bullet (4 µM Se / Zn stress) appearing twice in Author-stated single-point quantitative claims; verified against source page 6 — claim appears once in the source, the duplicate was a wiki-side formatting artifact. Removed the duplicate; one canonical entry retained. Also flagged Check 1 ⚠️ on a source-internal Lolium perenne / ref [84] dose discrepancy (page 5 prose says 2 µM Se, Table 1 row says 5 µM Se for the same primary reference). Verified against source — both numbers are present in the review, attributed to the same primary citation. Added an explicit source-internal-discrepancy flag to the Author-stated bullet preserving both figures rather than silently picking one. Audit's verdict was REVISE; both findings applied; no other ❌ or ⚠️ findings.
-
-## Ingest log
-
-- 2026-06-02 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against the linked reference record returned no hits: DOI `10.3390/agriculture13051083` not present; raw_handle `MFK_agriculture-13-01083-v2` not present; cite-key stem `asgher2023` not present. PDF SHA-256 `c5a2bdd8aaf709da97fc50a2a436722d31ca4ad6f6e039d6274e91cc272de32e`. Paper is a narrative review of selenium-mediated plant tolerance to heavy-metal stress; no primary occurrence measurements. Ingested as out-of-core-scope agronomic-mitigation-context reference per the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent; `metals: []`, `ingredients: []`, `products: []` correctly reflect that no contamination values are contributed to any wiki page.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

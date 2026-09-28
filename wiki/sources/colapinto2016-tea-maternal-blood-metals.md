@@ -59,22 +59,13 @@ App: Supports exposure-context language on the lead, mercury, cadmium, arsenic, 
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect. Prior skip was `skip:no-occurrence-data` because the paper had no product concentration measurements.
-- DOI, title, authors, cohort size, MIREC geography/time frame, Table 2 geometric means, Table 3 adjusted lead values, Table 4 dose-response values, urinary arsenic-species rows, LOD handling, and analytical methods were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed: lead in `μg/dl`, blood total mercury/cadmium/arsenic/manganese in `nmol/l`, and urinary arsenic species in `μmol/l`. The source's adjusted dimethylarsinic-acid text uses `nmol/l` while Table 2 uses `μmol/l`; both are recorded as source-printed units rather than converted.
-- Speciation: blood mercury is total mercury (`tHg`); blood arsenic is reported as arsenic/total As (`tAs`); urinary arsenic species are listed separately in Key numbers.
-- Products and ingredients are intentionally empty because this is a biomonitoring association study, not a tea occurrence paper.
-- The file was fetched under a coffee-cadmium gap name, but the paper itself is about tea intake and maternal/cord-blood metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

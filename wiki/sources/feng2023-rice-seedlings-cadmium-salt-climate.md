@@ -83,18 +83,12 @@ Courses: Useful for supply-chain and agronomic education on how salinity, Cd con
 
 App: Context only for rice supply-chain risk explanation. The paper does not provide consumer-product or ingredient concentration values for rice grain.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[mitigation/agronomic]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-The auto-fetch filename framed this as salt/cadmium. The PDF measures Cd and Na uptake in rice seedlings under controlled climate and hydroponic stress, not heavy metals in market salt. Products are intentionally empty. `ingredients` includes rice because the source directly uses Oryza sativa seedlings and informs rice supply-chain uptake mechanisms, but the page repeatedly marks the data as non-occurrence and non-grain.
-
-The extracted text renders some plant-tissue concentration units as `mg/g DW`, but Figure 2 and Figure 3 captions specify `ug/g dry weight`; the reported Na narrative maximum of about 15 mg/g is consistent with 14898.06 ug/g rather than 14898.06 mg/g. Values above are therefore recorded as ug/g dry weight for Cd and Na tissue ranges, with the source's own mg/g summary retained only where the authors explicitly express the maximum in mg/g.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

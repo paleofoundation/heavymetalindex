@@ -44,17 +44,13 @@ The paper reports Table 1 summary statistics for Pb and Cd in each matrix. Nitra
 
 The source supports Iranian carrot and watermelon occurrence context with low-to-moderate Pb and Cd values relative to the comparison limits used in the paper. The values are suitable for routing as matrix-specific summary statistics, preserving the ug/kg basis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[products/root-tuber-vegetables]]
 - [[products/fresh-fruit]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The page excludes nitrate from the routed metal scope. Units are preserved as ug/kg from the source table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

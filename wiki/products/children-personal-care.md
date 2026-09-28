@@ -37,7 +37,7 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 
 ## The 16-row Cat 2 inventory
 
-Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used across the certification program and the source-routing layer.
+This category lists sixteen product rows. The row numbers below are the stable identifiers for those rows.
 
 | Row | Slug | Variant type | Primary metals | Pair | Notes |
 |----:|---|---|---|---:|---|
@@ -122,7 +122,7 @@ _Pending. Once the 16 row pages each have direct-evidence sources and the poolin
 ## Broad Product Context: Author-Scope Index
 
 <!-- BEGIN: hmi-broad-context-sources -->
-_Pending. The Children Personal Care Papers pile contains broad-cosmetic and pediatric-personal-care papers that are author-stated broader than any single Cat 2 row; once ingested they are catalogued here with the route_kind classification (`broad_product_context`, `regulatory_context`, etc.) for each Cat 2 row they inform._
+_Broader-scope sources for children's personal care are listed here when they are catalogued._
 <!-- END: hmi-broad-context-sources -->
 
 ## Federal/Regulatory Limits vs Field Findings
@@ -169,7 +169,7 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/karwowski2016-folk-diaper-powder-infant-lead|Toxicants in folk remedies: implications of elevated blood lead in an American-born infant due to imported diaper powder]]<span class="hmi-ref-meta">Karwowski MP, Morman SA, Plumlee GS, Law T, Kellogg M, and Woolf AD · Environmental Geochemistry and Health 39(5):1133-1143. Published online 4 October 2016; print issue October 2017. Evidence here is the abstract as printed on the USGS Publications Warehouse record, Index ID 70182782 · 2016 · [doi.org/10.1007/s10653-016-9881-6](https://doi.org/10.1007/s10653-016-9881-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/duan2023-infant-lead-poisoning-topical-powder|Lead poisoning in a 6-month-old infant: a case report]]<span class="hmi-ref-meta">Duan Y, Yan L, Gao Z, and Gou Y · Frontiers in Public Health 11:1132199 · 2023 · [doi.org/10.3389/fpubh.2023.1132199](https://doi.org/10.3389/fpubh.2023.1132199)</span><span class="hmi-ref-tag">Peer-reviewed</span>

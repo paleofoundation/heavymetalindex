@@ -43,11 +43,6 @@ This page records the superseded EU cadmium comparator used by source pages that
 
 - EUR-Lex. Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs. Source URL: https://eur-lex.europa.eu/eli/reg/2021/1323/oj/eng
 
-## Verification Notes
-
-- Created 2026-05-18 during the Gacal et al. 2023 bread ingest.
-- EUR-Lex document metadata reports effect from 31 August 2021 and end of validity on 24 May 2023, implicitly repealed by Regulation (EU) 2023/915.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

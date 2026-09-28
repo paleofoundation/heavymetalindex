@@ -49,17 +49,13 @@ Courses: The dataset shows kidney Pb and Cd concentrations roughly 5-20x higher 
 
 App: Treat this as regional context for Romanian wild boar rather than a global game-meat default; the high exceedance proportions vs EC 1881/2006 maximum levels are specific to this hunting district and harvest period.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
 - [[ingredients/organ-meats]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF Tables 1, 2, and 3 declare units as "mg g⁻¹ w.w." in their column headings, but the Methods section (p.4) explicitly states "the final results... were expressed in mg kg⁻¹ w.w.", and the reported exceedance percentages against EC 1881/2006 maximum levels are arithmetically consistent only with a mg/kg basis (e.g., adult-muscle Pb mean 0.1008 mg/kg yields 31.81% over the 0.1 mg/kg ML; the same value as mg/g would put every sample roughly three orders of magnitude over the ML). The mg/g table-heading text is therefore treated as a typographical error and the values are recorded in this page as mg/kg wet weight. Values may be converted to ppb (µg/kg) by multiplying by 1000 for pooled benchmark work.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

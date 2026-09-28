@@ -49,7 +49,6 @@ A single late-preterm infant treated with 10 percent zinc oxide ointment for dia
 | Zn | serum | 194 | ug/dL | single measurement | 1 | p.1 |
 | Zn | serum | 82 | ug/dL | single measurement | 1 | p.1 |
 
-
 ## Methods (brief)
 
 Zinc oxide ointment was applied at each diaper change from around day 12. Serum zinc was measured on days 22, 29, 38, 44, and 49 of life. The infant was fully breastfed and was not given zinc supplements. Product trade names of emollients and powders are omitted from prose.

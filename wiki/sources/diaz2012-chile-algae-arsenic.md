@@ -72,22 +72,13 @@ Samples were collected in 2003-2004 from Caldera, Coquimbo, Pichilemu, Talcahuan
 
 This source is high-value Chilean seaweed occurrence evidence because it reports both total arsenic and inorganic arsenic for named edible and phytocolloid-producing algae. Direct-consumption species and industrial seaweed-feedstock species should not be collapsed into a single species-level row without preserving the economic-use labels, sample counts, dry-weight basis, and tAs/iAs distinction. The Table 2 and abstract/Table 3 inconsistency around the upper iAs value should remain visible to downstream extractors.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.fct.2011.11.024`, raw handle `MFK_10-1016-j-fct-2011-11-024-1`, or cite key `diaz2012-chile-algae-arsenic`; the existing Rose 2007 page mentions this DOI only as a distinct comparison source.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-005.txt`, extracted with `pdftotext -layout`, and Table 2 was visually checked against a rendered PDF page because the abstract/Table 3 range conflicts with the Table 2 *Macrocystis piryfera* iAs mean.
-- Speciation check: total arsenic is recorded as tAs and inorganic arsenic as iAs; no total arsenic value is promoted to inorganic arsenic.
-- Units and basis are preserved as `mg kg-1 d.w.`, `%`, `µg/g dry weight`, and `µg/g dw`; no conversions were performed.
-- Evidence tier A reflects peer-reviewed primary occurrence data, exact species/economic-use labels, species sample counts, triplicate analyses, detection limits, recoveries, and CRM QA/QC for total arsenic.
-- Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -80,7 +80,7 @@ App: Adds low-level total arsenic context for several oil and fat categories. Ma
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[ingredients/peanut-oil]]
@@ -93,19 +93,6 @@ Microbiome: Not addressed.
 - [[ingredients/vegetable-oil]]
 - [[ingredients/vegetable-oils]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- PDF metadata, article header, and journal citation identify this as Journal of Food and Drug Analysis volume 9, issue 2, pages 121-125, with DOI `10.38212/2224-6614.2799`.
-- The first page lists receipt on June 12, 2000 and acceptance on February 27, 2001; the publication year is 2001.
-- The PDF does not state a Creative Commons or equivalent reuse license, so the source metadata records `license: "not stated in PDF"`.
-- The paper reports `ppm`; this page preserves source units and does not convert them into a product-row basis.
-- Total arsenic is used in source metadata (`tAs`) because no arsenic speciation is reported.
-- No brand names are reported or needed for the source page.
-- Source-internal sample-count discrepancy: the abstract, results body, conclusions, and Chinese-language summary state "Twenty-one market samples of edible fats and oils were analyzed," but the per-matrix sample counts enumerated in Table 3 (peanut 2, sesame 2, olive 2, sunflower 2, salad 3, teaseed 1, butter 1, lard 1, corn 1, winter 1, canola 1, vegetable 1, palm 1) sum to 19. This page keeps `sample_n: 21` to match the paper's narrative count and the Chinese summary, but readers extracting per-matrix occurrence rows from Table 3 should treat the enumerable count as 19 unless additional samples are recoverable from a supplementary source. Audit editorial review 2026-06-02 flagged the discrepancy; the contradiction is in the source itself, not introduced by the wiki page.
-- Source-internal spike-level label ambiguity: the abstract reports recovery spike levels as "0.05, 0.10 and 0.20 ppm," while the Materials and Methods section reports spikes as "1 mL of arsenic standards of various concentrations (0.025, 0.05, or 0.1 µg/mL)" added to "0.5 g" of oil. The Materials and Methods values resolve mathematically to 0.05, 0.10, and 0.20 ppm in the spiked sample, matching the abstract. Table 2's column header reads "Added(ppm)" with the values 0.025, 0.050, and 0.100, which corresponds to the standard-solution concentrations from Materials and Methods rather than the final spiked-sample concentrations from the abstract. This page reproduces Table 2 as the paper printed it; readers comparing spike levels across studies should treat the spiked-sample concentrations (0.05, 0.10, 0.20 ppm) as the meaningful values.
-- Calibration-coefficient precision: the body text on page 124 reports the calibration curve as `Y = 0.215X + 0.645`, while Figure 4 prints `Y = 0.2154X + 0.645`. This page reproduces the more precise Figure 4 value.
-- Matrices vocabulary: the `matrices:` array lists thirteen source-specific oil and fat descriptors plus `edible-fats-and-oils`. Several entries (`salad-oil`, `teaseed-oil`, `winter-oil`, `lard`) are source-specific descriptors that do not have wiki ingredient or product pages of their own; they are preserved in matrices for source-fidelity and are recognized as a known limitation rather than invented controlled-vocabulary slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

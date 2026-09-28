@@ -79,7 +79,7 @@ Total mercury measured by cold vapor atomic absorption spectrometry (CVAAS), USE
 
 **App:** Provides canned tuna tHg range (0.005–1.170 mg/kg) and Pb range (0.07–0.32 mg/kg) from Mexico; the Cd data (max 0.007 mg/kg) confirms very low Cd burden in canned tuna across this dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/canned-tuna]]
 - [[ingredients/tinned-fish]]
@@ -95,16 +95,8 @@ Total mercury measured by cold vapor atomic absorption spectrometry (CVAAS), USE
 - [[metals/chromium]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/eu-reg-2022-617-mercury-fish]]
-- [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded]]
-- [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded]]
 - [[regulations/mx-nom-242-ssa1-2009-fishery-products]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0149, added DOI access URL and PDF SHA-256, corrected invalid species-level ingredient slugs to existing broader seafood slugs, replaced `[[metals/mercury]]` with total-mercury routing, and corrected the canned-tuna hazard-quotient line that had mislabeled the Cr HQ range as THQ.
-- The source reports eight canned-tuna groups using anonymized codes only; this page aggregates the canned-tuna table to avoid turning anonymized group rows into a wiki-side product ranking.
-- The paper cites NOM-027-SSA1-1993 and NOM-028-SSA1-1993 for Mexican MPL comparisons. Those rules had already been cancelled by the 2011 successor NOM-242-SSA1-2009, so this page preserves the author-cited benchmark while linking the current successor regulation separately.
-- 2026-05-18 fresh-context audit: REVISE verdict; two minor findings applied (matrix vocabulary narrowed to `fish`; unsupported "acid" qualifier removed from microwave-assisted digestion wording); brand firewall and HMT&C firewall clean.
+- [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

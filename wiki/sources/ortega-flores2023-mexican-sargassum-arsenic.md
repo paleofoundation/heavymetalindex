@@ -65,23 +65,13 @@ Samples were collected monthly from June 2018 to May 2019 at Puerto Morelos, Qui
 
 This source is high-value inorganic-arsenic evidence for raw stranded *Sargassum* biomass that may enter seaweed valorisation streams. It should not be treated as a ready-to-eat seaweed food result without preserving the raw stranded-biomass matrix and dry-weight basis. Downstream extraction should keep TotAs and iAs distinct, and should preserve the morphotype and seasonal stratification where row fit permits.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.aquabot.2023.103674`, raw handle `MFK_103189`, or cite key `ortega-flores2023-mexican-sargassum-arsenic`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-008.txt`, extracted with `pdftotext -layout`, especially Sections 2.1, 2.2, 3.1, 3.2, the conclusion, and Table 1.
-- Source-side inconsistency: the abstract/conclusion and Table 1 give the overall iAs range as `12.7-62.9 mg kg-1 dw`, but Section 3.1 gives morphotype/season ranges spanning `11.9-71.5 mg kg-1 dw`. Both are reported rather than reconciled.
-- Speciation check: TotAs and iAs are kept separate. The paper states the iAs method indicates As(V) and not As(III); no total arsenic value is substituted for inorganic arsenic.
-- Units and basis are preserved as `mg kg-1 dw`, `%`, `µg L-1`, and `mg kg-1`; no conversions were performed.
-- Evidence tier A reflects peer-reviewed primary iAs data with n=101, seasonal/morphotype structure, reference material checks, detection limits, and triplicate extract measurements.
-- Brand firewall: no sampled brands are reported; company names in the discussion are not attached to contamination values and are not used in Key numbers.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

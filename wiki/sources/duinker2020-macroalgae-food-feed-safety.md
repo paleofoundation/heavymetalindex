@@ -97,7 +97,7 @@ Samples were retrieved by IMR field work, kelp growers, and wild harvesters duri
 
 This source is high-value macroalgae occurrence evidence because it separates inorganic arsenic from total arsenic context and reports dry-weight species-level distributions for iAs, Cd, Pb, and tHg across Norwegian and imported seaweed materials. Oar weed, wireweed, sea oak, and hijiki should be treated as high-iAs species-specific context, while sugar kelp and winged kelp are the main cultivated Norwegian commercial species. The dry-weight basis should not be pooled with fresh or wet-weight seaweed rows without explicit basis conversion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
@@ -109,16 +109,6 @@ This source is high-value macroalgae occurrence evidence because it separates in
 - [[metals/selenium]]
 - [[metals/iron]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for raw handle `MFK_knowledgeupdateonmacroalgaefoodandfeedsafety2020`, title text, or cite key `duinker2020-macroalgae-food-feed-safety`. The report has no DOI in the extracted text or PDF metadata; the publisher report page is recorded as the DOI fallback access URL.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-021.txt`, extracted with `pdftotext -layout`. Tables 2-6 and the appendix were extractable; Table 7 was partially extractable but had some column wrapping, so only non-ambiguous Se/Fe/Zn entries are transcribed.
-- Units and basis are preserved as `mg/kg dry weight` unless explicitly stated otherwise; the sugar-kelp basis example preserves both `410 mg/kg wet weight` and `3650 mg/kg dry weight` as printed.
-- Speciation check: Table 2 is inorganic arsenic and is recorded as iAs. Mercury is reported as Hg/mercury only and is recorded as tHg; the report says methylmercury proportion seems low but does not provide a methylmercury concentration table, so no MeHg values are recorded.
-- The report contains both primary IMR data and literature/project summaries. The concentration rows in Tables 2-8 and the sugar-kelp standardized trial summary are treated as the source's own occurrence data; referenced literature and project background remain context.
-- Brand firewall: the report describes species, production origin, and Norwegian/Asian source categories; no consumer brands are attached to contamination values.
-- Missing-slug note: the taxonomy snapshot has no animal-feed or aquafeed seaweed row. source metadata routes the source to seaweed food and algae/seaweed supplement rows, while fish-feed and insect-larvae feed-chain context remains in prose only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

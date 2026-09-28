@@ -98,23 +98,14 @@ App: Context for water-treatment and upstream remediation notes. The headline fi
 
 Courses: Useful for teaching adsorption-mechanism reasoning across PFO/PSO/IPD kinetics and Langmuir/Freundlich isotherm fits, the role of surface functional groups and pHpzc, the trade-off between Mg loading and pore-structure collapse at the 20% level, and how FTIR, XRD, and XPS evidence converge to identify carbonate/hydroxycarbonate precipitation, ion exchange, surface complexation, and cation-pi bonding as parallel sorption mechanisms.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF (15 pages), including the abstract, methods (Sections 2.1-2.6), Section 3.1 Table 1 (biochar physicochemical properties), Section 3.2 dosage/pH text, Section 3.3 Table 2 (sorption kinetics), Section 3.4 Table 3 (sorption isotherms), the binary-system text in Section 3.5, the mechanism evidence in Section 3.6 (FTIR/XRD/XPS), and the conclusion. Table 4 comparator literature values are referenced but not re-extracted because they are not findings of this study.
-
-The source measured aqueous solutions of Cu(II), Cd(II), and Pb(II) prepared as CuCl2, Pb(NO3)2, and CdCl2 spikes; source metadata uses the repo's broader Pb, Cd, and Cu metal slugs while this page preserves ion-state specificity in prose and tables. Products and ingredients are intentionally empty because no food, ingredient, or consumer-product matrix was sampled.
-
-The `matrices` slugs (`biochar`, `aqueous-sorption-test`, `wastewater-remediation`) follow the convention established for the existing remediation-context sources (e.g., [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]) and are remediation-domain proposals outside the project's current food-matrix controlled vocabulary. The routing audit may flag empty `products`/`ingredients` as advisory; this reflects the genuine non-food scope of the study, not a defect.
-
-Methods-section vendor and instrument names (Vario Macro Cube, PerkinElmer Optima 8000, Quadrasorb 2MP, Nicolet iS20, ZEISS Evo18 500, PANalytical X'Pert Powder, Esclab 250Xi) are retained per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names locked 2026-05-17).
+- [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

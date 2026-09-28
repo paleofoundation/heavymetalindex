@@ -50,7 +50,7 @@ The study sampled three sectors around D.I. Khan between October 2019 and April 
 
 This source supports wastewater-irrigated vegetable occurrence context for leafy vegetables, spinach, root/tuber vegetables, and non-root vegetables in Pakistan. It should be routed as local peri-urban agricultural evidence, not as a national Pakistan vegetable baseline. The product values should remain separated from the water and soil tables because the latter are exposure-pathway context rather than edible-product concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spinach]]
 - [[ingredients/cabbage]]
@@ -72,17 +72,6 @@ This source supports wastewater-irrigated vegetable occurrence context for leafy
 - [[metals/nickel]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s12011-021-02892-y`, `MFK_health-risk-assessment-and-multivariate-statistic`, or `ullah2022-khyber-vegetables-metals`.
-- The concentration values above come from the results text because Figure 2 contains the vegetable-by-sector concentration plots without a numeric table in the PDF text layer. No bar heights were estimated from the figure.
-- Units preserved: vegetable concentrations remain in `mg kg-1`; water concentrations remain separate in `mg L-1`; soil concentrations remain separate in `mg kg-1`. No unit conversions were performed.
-- Basis: the paper cleaned, acid-washed, oven-dried, and powdered edible vegetable portions before digestion; the reported vegetable concentrations are preserved in the source's `mg kg-1` basis.
-- Source-side consistency caveat: the abstract says corresponding HRI values were below `1`, but Tables 4 and 5 report many HRI values greater than `1` for wastewater-irrigated vegetables. This page reports the tables and records the contradiction.
-- Matrix separation: water and soil concentrations are not product occurrence values.
-- Missing slug note: the taxonomy snapshot has no exact `tinda`, `taro`, `Colocasia`, `radish`, or `turnip` ingredient/product slug. source metadata uses broad existing root/tuber, leafy, non-root vegetable, and spinach slugs.
-- No brand names were present.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

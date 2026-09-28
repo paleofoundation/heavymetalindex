@@ -52,7 +52,7 @@ STEP 3 — TRIAGE A SMALL SLICE. Do NOT open all PDFs. Open only the FIRST ~5 un
 Batch-commit ALL (b)+(c) decisions to data/evidence/wishlist-fetch-audit.csv in ONE commit titled:
   triage sweep <date> <time>: <K> rollups + <P> skips
 
-STEP 4 — INGEST SWEEP. For the (a) pile, write source pages per CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Wiki pages this source may touch, ## Verification notes).
+STEP 4 — INGEST SWEEP. For the (a) pile, write source pages per CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Related evidence). Do not put Verification notes, an Ingest log, or "Wiki pages updated on ingest" on the public page. Identity checks, file paths, audit verdicts, and routing notes go in wiki/batch-reports/, which is not published.
 
 HARD RULES — placeholder pages are FORBIDDEN. If you cannot extract real numbers from the PDF, the PDF is (c) skip:no-primary-data, NOT (a) ingest. Specifically:
   - cite_key MUST be <first-author-surname><year>-<topic-slug>. NOT "trace2025-...", NOT "research2026-...", NOT "abstract2020-...", NOT "rsc2025-...", NOT "unknown2025-...". If you cannot identify the first author's surname from the PDF byline (NOT the title's first word), the PDF goes to (c) skip:no-author-attribution.
@@ -84,7 +84,7 @@ STEP 7 — END-OF-FIRE CLEANUP (SKIP unless you finished your ≤3 pages with ti
   npm run evidence:source-routes && git add -A && git commit -m "codex sprint <date>: routing refresh" --allow-empty && git push origin main
 
 ESCALATION RULES — exercise AI judgment first. Only escalate what NO AI agent could resolve:
-  • Paper-internal contradiction (abstract n=200 but Table 1 n=152): prefer tables over abstract; note discrepancy in source-page Verification notes; continue.
+  • Paper-internal contradiction (abstract n=200 but Table 1 n=152): prefer tables over abstract; state the discrepancy in Key numbers or Limitations in reader language; record the check itself in the batch report; continue.
   • DOI conflict (URL returns different paper than wishlist row claims): inspect actual PDF; if real heavy-metals food paper, ingest under actual cite-key with disambiguator (-a/-b); note mismatch in Verification; continue.
   • Unfamiliar slug: closest existing per wiki/ingredients/ or wiki/products/; run tools/autonomy/create-provisional-ingredient-scaffold.mjs or create-provisional-product-scaffold.mjs for genuinely novel; continue.
   • Routing audit malformed entries on YOUR pages: fix in-session. Routing-malformed entries on pre-existing pages: leave alone.

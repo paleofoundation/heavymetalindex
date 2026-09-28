@@ -79,7 +79,7 @@ Samples were collected from nine port areas along the eastern China coast betwee
 
 This source is direct seafood occurrence evidence for organotin compounds in mollusks, crustaceans, and fish from eastern China port regions. It is especially useful because the dominant residues were phenyltins rather than historical butyltins, and because the risk section identifies Southeast Coast seafood as the higher-risk subset. Downstream extraction should keep TBT, DBT, MBT, TPhT, DPhT, MPhT, total butyltins, total phenyltins, and total organotins distinct; these values should route to organotin context and not be pooled with total Sn or inorganic tin values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
@@ -90,15 +90,6 @@ This source is direct seafood occurrence evidence for organotin compounds in mol
 - [[ingredients/molluscs]]
 - [[metals/tin]]
 - [[metals/organotins]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.rsma.2023.102929`, raw handle `MFK_characteristics-sources-and-health-risks-of-organotin`, or cite key `shu2023-china-port-seafood-organotins`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-016.txt`, extracted with `pdftotext -layout`. The main article text, methods, results, and figure captions were extractable.
-- Supplemental Tables S1-S11 are referenced but not embedded in the local PDF; species-level sample counts and species-level Table S7 concentrations are therefore marked as not reported in extracted text rather than reconstructed.
-- Units and bases are preserved as `ng Sn g-1 dw`, `ng Sn g-1 ww`, and RQ; no unit conversion was performed.
-- Speciation check: this page records organotin species (`TBT`, `DBT`, `MBT`, `TPhT`, `DPhT`, `MPhT`) and compound-class sums. `metals: [Sn]` is only the existing element-level routing convention; organotins are not treated as total tin or inorganic tin.
-- Brand firewall: the paper reports port regions, organism groups, and species; no seafood brands are attached to contaminant values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

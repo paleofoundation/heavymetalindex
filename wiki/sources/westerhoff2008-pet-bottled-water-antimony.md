@@ -59,7 +59,6 @@ Nine PET bottled waters bought in Arizona were measured for antimony by ICP-MS, 
 | Sb | Brand 9 bottled water, Fig. 3 maximum cited | 13.9 | ppb | max |  | Fig. 3 p.PDF p.6 (printed 556) |
 | Sb | sunlight-exposed Brand 9, 7 days, water about 35 °C | 0.37-0.61 | ppb | range | triplicate | Fig. 5 p.PDF p.5 (printed 555) |
 
-
 ## Methods (brief)
 
 Bottles purchased summer 2006. Water transferred to acid-washed HDPE, acidified with HNO3, indium internal standard. Incubations at 22, 40, 60, and 80 °C. Screening matrix on brand ID 9: pH 6.3, 7.3, 8.3; control 48 h; frozen −20 °C 48 h; 80 °C 48 h; UV-PEN 254 nm for 6 h. Outdoor sun exposure 9-16 August 2006 with foil-wrapped controls. Piece leaching: 9.4 cm × 9.4 cm plastics in 1 L nanopure water at 80 °C up to 10 days.

@@ -77,20 +77,6 @@ Samples were drawn from those already collected for the companion FSANZ iodine s
 - Courses: a teachable regulatory case study linking survey occurrence data, an existing ML (ANZ Code, 1 mg/kg at 85% hydration), border risk-categorisation of hijiki, and consumer-advice review.
 - App: contributes to the seaweed ingredient contamination_profile for inorganic arsenic, with the species-specific hijiki caveat.
 
-## Verification notes
-
-- raw_handle MFK_survey-of-inorganic-arsenic-in-seaweed-and-seaweed derived from the PDF filename (slugified, truncated); raw_path under "the archived source file". No DOI (agency report); access_url left null.
-- Evidence tier A: government surveillance report, NATA-accredited validated method (HG-ICP-MS), documented QC and uncertainty analysis.
-- source_type gov-report per corpus convention for agency surveillance reports (cf. efsa2014-dietary-exposure-iAs).
-- Speciation: the survey measures inorganic arsenic only (arsenite + arsenate); recorded as iAs. Total arsenic was not measured in these samples (tAs context in the report is drawn from the separate Australian Total Diet Study), so tAs is not lifted to source metadata. The conservative possible-MMA inclusion is noted in Methods, not treated as a separate species.
-- Units/basis preserved exactly (mg/kg dried seaweed; the single 85%-hydration figure of 1.4 mg/kg for the exceeding hijiki sample is labelled). Non-detects recorded as "<0.05" (the LOR), with the report's upper-bound (0.05 mg/kg) convention noted where it computes means; numeric value columns left censored for non-detects.
-- Censoring: many product samples and one seaweed sample are <0.05 mg/kg (below_lod, LOR 0.05 mg/kg).
-- Brand firewall: not engaged. The report describes composites by "same brand"/"different brands" as a sampling-design detail but names no commercial brands; no brand-by-brand values appear.
-- Jurisdictions [AU, NZ]: FSANZ is the binational agency and the maximum level is the Australia New Zealand Food Standards Code; the occurrence samples were collected in Australia. sampling_year_range 2010.
-- matrices [edible-seaweed, macroalgae, kelp, dry-weight] kept broad per corpus convention; kombu (*Laminaria*) supports `kelp`. Seaweed-containing products are covered in the body and routed via the seaweed-kelp-foods product link rather than by overspecifying matrices.
-- Instrument/lab names (National Measurement Institute; HG-ICP-MS) retained in Methods as permitted scientific reporting.
-- This is the FSANZ survey report, distinct from the cited FSANZ companion iodine survey and from Almela 2002/2006, Rose 2007, NSWFA 2010, and Smith 2010, which appear only as comparison references in the report's Table 3.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

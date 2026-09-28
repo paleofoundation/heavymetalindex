@@ -63,7 +63,7 @@ Heavy metals (Pb, Cd, Co, Mn, Fe, Zn, Cu) were measured by atomic absorption spe
 
 The source contributes country-of-origin-stratified occurrence values for canned pineapple slices and canned fruit cocktail sold in Baghdad markets. Units are mg/100 g on a dry-weight basis; downstream routing must preserve both the unit and the dry-weight basis (or convert explicitly using the reported dry-solids percentages) before comparison with regulatory limits or other studies reporting wet-weight ppb. The paper does not measure arsenic, mercury, nickel, aluminium, chromium, tin, or other HMTc-priority analytes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/pineapple]]
 - [[ingredients/canned-fruit-cocktail]]
@@ -75,13 +75,6 @@ The source contributes country-of-origin-stratified occurrence values for canned
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.63799/AJOS/14.2.7 and the downloaded PDF; journal of record is *Alnakhla Journal of Science (AJOS)*, 2025, 14(2):97-103.
-- The PDF labels cobalt as "Cobalt" and "Co"; no arsenic values are reported for the pineapple or fruit-cocktail rows.
-- Source-internal contradictions noted in `## Key numbers` for pineapple Mn and fruit-cocktail Mn (body-text/abstract values disagree with Table 2 row values). Table values are preferred for downstream routing, but the contradiction is preserved here so a future audit can re-examine the original PDF.
-- The paper also reports values for canned mixed vegetables, mushrooms, fava beans, chickpeas (whole grain and tahini), corn, and peaches that are out of scope for this page; those rows can be lifted into separate source-page slices or matrix-specific pages if and when those routing targets exist.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -55,7 +55,7 @@ App: The global range and risk-study counts can inform qualitative cow-milk cont
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -69,10 +69,6 @@ Microbiome: Not applicable.
 - [[metals/cobalt]]
 - [[metals/iron]]
 - [[ingredients/milk-and-dairy]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected title/authors to the PLOS citation, removed an unsupported concentration-range summary, replaced it with source-reported exceedance/risk/method counts, corrected matrix and wiki-link vocabulary, and tightened HMT&C/app language.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -120,7 +120,7 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach]]<span class="hmi-ref-meta">Sim M, Weyer C, and Pétursdóttir ÁH · Food Chemistry · 2024 · [doi.org/10.1007/s00216-024-05250-8](https://doi.org/10.1007/s00216-024-05250-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/masite2022-mopane-trace-metals|Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts]]<span class="hmi-ref-meta">Masite NS, Ncube S, Madikizela LM, Mtunzi FM, and Pakade VE · International Journal of Food Science · 2022 · [doi.org/10.1155/2022/1509569](https://doi.org/10.1155/2022/1509569)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -129,7 +129,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

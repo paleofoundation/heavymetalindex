@@ -59,16 +59,6 @@ The preview states that 23 marine species from Hong Kong waters were collected i
 
 This source contributes post-ban Hong Kong seafood organotin occurrence and exposure context across fish, molluscs, and crustaceans. It is especially useful because it separates phenyltins and TPT dominance from total organotin burden; downstream routing should keep organotin species distinct from inorganic tin or total Sn. The page is evidence-tier B because the provided file is an article-preview printout and not the full article tables.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the file is a ScienceDirect article-preview printout. Title, DOI, abstract, highlights, introduction, section snippets, and conclusion snippets were readable; full tables were not present.
-- DOI `10.1016/j.marpolbul.2026.119345`, raw handle `MFK_health-risks-of-exposure-to-organotin-compounds-vi`, and cite-key checks found no existing source page before creation.
-- All numeric values in `## Key numbers` were checked against the extracted abstract/highlights/snippets. No species table was available in the extracted text, and no table-only values were invented.
-- Units are preserved as `ng/g ww` and `ng/kg bw/day`; no conversion was performed.
-- Speciation: organotin species are reported as MBT, DBT, TBT, MPT, DPT, and TPT. source metadata uses `Sn` for element-level routing following existing wiki convention, but this page explicitly documents that organotins must not be treated as inorganic tin or total Sn.
-- Brand firewall: no brand-level seafood values were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

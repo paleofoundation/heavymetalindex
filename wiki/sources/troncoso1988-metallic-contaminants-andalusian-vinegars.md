@@ -67,29 +67,6 @@ Courses: Illustrative of how direct-injection FAAS without digestion can be appl
 
 App: For Andalusian (Sherry-region) wine vinegar in this 16-sample set — Pb 200–1210 µg/kg range with mean 550 µg/kg; total As 39–242 µg/kg with mean 136 µg/kg; Cu, Zn, Fe variable and largely within the Codex draft per-metal limits.
 
-## Verification notes
-
-Page was originally drafted under the legacy `manual-fetch-source-retrieval` handle and last updated 2026-05-14. Merge-enhanced on 2026-05-28 against the source PDF (v2 skill autonomous ingest) to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_metallic-contaminants-in-andalusian-vinegars` handle.
-- Add `raw_sha256: 859e8b195eff1d32772fb606ae3928c691172469441120a5765ed857e756768b` (was missing).
-- Correct the Cu range minimum from `0–6.14 ppm` to `0.07–6.14 ppm`. Sample 2 (the prior minimum-by-rounding) has Cu = 0.07 ± 0.00 ppm per Table 2; no sample is at exactly 0 ppm.
-- Correct the iron exceedance count from "Three samples exceeded the Fe limit associated with 'hazy phenomena' (>10–15 ppm)" to "Two samples exceeded 15 ppm (no. 8 and 9)" per the explicit statement on page 745: "no type of hazy phenomena was observed in those samples exceeding 15 ppm for iron (samples no. 8 and 9)." Added the broader "5 samples >10 ppm" count for completeness (no. 2, 7, 8, 9, 10) and the Codex Fe ceiling of 30 mg/kg (no exceedances).
-- Split the previously-conflated "Spanish/Codex limit for total Zn + Cu is 10 ppm" into the two distinct citations the paper actually makes: Spanish regulation = Zn + Cu combined ≤ 10 ppm (Código Alimentario Español 1967); Codex draft 1982 = Cu 10 mg/kg AND Zn 10 mg/kg individually (per-metal, not combined). Re-grouped the Zn/Cu/combined statements accordingly.
-- Added the mean Cu uncertainty (± 0.04 ppm) from Table 2, previously omitted.
-- Added the explicit list of samples exceeding each combined Spanish limit (Zn + Cu: 6 samples; Pb + As: 1 sample) for traceability.
-- Added the per-sample Pb list from Table 3 (kept; the existing list was accurate) and added the sample-4 As + Pb arithmetic (1.21 + 0.242 = 1.452 ppm) to make the abstract's "only one sample exceeded 1 ppm Pb + As" claim numerically traceable.
-- Removed the cross-source synthesis sentence "Pb in wine vinegar approximately 200–1200 µg/kg range across both this and Acosta 1993 data" from the App section (the source page reports this paper's findings only; cross-paper comparison belongs in synthesis pages, not source pages).
-- Trimmed the prior "unlike the later Ndung'u 2004 work that established digestion requirements" comparison from the Methods evidence-tier rationale (same reason). Tier-B rationale retained without the cross-source comparison.
-- Expanded Methods section with the Table 1 instrumental parameters (lamp intensities, band passes, gas flows, integrating times), hydride-generator settings for As, reagents and stock-solution concentrations, and the Fe/Na ratio interference check — all already present in the PDF, previously summarized at a level that omitted reproducibility-relevant detail.
-- Added `## Verification notes` section (previously absent).
-- Set `updated:` to 2026-05-28.
-- Preserved `cite_key`, `raw_path`, `license`, `doi: null` / `no_doi_assigned: true`, `metals`, `ingredients`, `products`, `matrices`, `jurisdictions`, `sample_n`, `near_duplicates` from the prior revision.
-
-Brand firewall (Part 12): the paper does not name commercial brands; samples are identified only by number (1–16) and region (Sherry / El Condado / aged Sherry). No Part 12 concern.
-
-Speciation (Part 14): arsenic is reported as total arsenic (hydride generation following standard addition); the page uses `tAs` in `metals:` accordingly. Mercury, chromium speciation, and other HMTc analytes were not measured by this paper.
-
 ## Related evidence
 - [[ingredients/vinegar]]
 - [[ingredients/wine-vinegar]]

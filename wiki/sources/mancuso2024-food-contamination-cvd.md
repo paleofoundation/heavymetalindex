@@ -50,7 +50,7 @@ Certification: Useful background framing that heavy metals in food are a recogni
 Courses: Good entry-level citation for modules on health consequences of heavy metal dietary exposure; covers multiple metals in a single readable source.
 App: Not directly usable for contamination_profile updates; no primary concentration data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -65,12 +65,6 @@ App: Not directly usable for contamination_profile updates; no primary concentra
 - [[ingredients/rice]]
 - [[ingredients/bread]]
 - [[ingredients/fruit]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) removed unsupported arsenic-source and mercury-CVD phrasing, replaced `iAs` with `tAs`, added Cr and W to source metadata metal scope, removed the invalid health-page link, and replaced HMT&C target language with source-level framing.
-- The review does not separate inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
-- The current metal-page snapshot has no tungsten page, so W is retained in source metadata to reflect source scope but is not linked in the page-touch list.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

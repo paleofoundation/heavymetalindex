@@ -113,7 +113,7 @@ The DOI 10.3390/toxics5010001 resolves to the MDPI article landing page. Editori
 
 Evidence tier set to C. The source is a narrative review (no new data, no systematic methodology), and its Tables 1 and 2 reproduce values from underlying primary studies without independent verification, without method standardisation, and without pooled statistics. It functions as discovery and narrative reference; primary occurrence claims should be sourced from the cited primary papers, not from this review.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -126,32 +126,6 @@ Evidence tier set to C. The source is a narrative review (no new data, no system
 - [[metals/copper]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-- [[products/soft-drinks-carbonated-beverages]]
-- [[products/fruit-juice-not-canned]]
-- [[products/fermented-beverages-non-tea-based]]
-- [[products/herbal-botanical-infusions]]
-
-## Verification notes
-
-No brand names appear in the source-page body. The underlying Tables 1 and 2 in the source PDF name many commercial brands of Nigerian and imported beverages (soft drinks, fruit drinks, malt drinks, beers, gins) as the sample sets the underlying primary studies analysed. Per brand-firewall (strict reading locked 2026-05-17), brand-by-brand listings are not reproduced in the wiki. The Tables 1 and 2 reproduced above describe each row at the product-form / category level (e.g., "Twenty-four selected soft drinks", "Canned beer composite"); brand names are dropped throughout, including the underlying Eno-obong and Ukoha 2013 row originally labelled "Olympic and Three Crown milk" (now "Canned milk beverages") and the underlying ref [54] row originally labelled "peak, milo and five alive juice drink" (now "Canned dairy and juice beverages"). The brand-count annotations ("n=8 brand mix", "21 brands", "38 brands per source") that appeared in an earlier revision of this page were wiki-introduced numbers that did not match the PDF brand lists; they have been removed.
-
-The source tin value of 217.6–516.0 µg/mL for canned milk beverages (Eno-obong and Ukoha 2013, reference [54]) is verified against page 7 of the source PDF (Table 1) and is reproduced as the review prints it. The magnitude (≥217.6 mg/L, more than 100,000× the WHO 0.002 mg/L drinking-water Sn guideline) is implausibly high for a finished canned milk product and likely reflects a unit-of-measure or significant-figure issue in the underlying Eno-obong and Ukoha 2013 paper; the review does not flag this and does not propose a correction. The value is reported here as the review prints it; any future direct ingest of the Eno-obong and Ukoha paper should re-derive the canned-milk tin concentration from the original measurements and units.
-
-Mercury concentrations in the broad soft-drink list (ND–11.33 mg/L, attributed to Engwa et al. [39]) are likewise implausibly high relative to the WHO 0.001 mg/L drinking-water guideline; the review reproduces the value as the underlying source published it. The same caveat applies — direct ingest of Engwa et al. 2015 should re-verify the value.
-
-The `metals:` source metadata lists Pb, Cd, tAs, tHg, Cr, Ni, Sn, Sb, Cu, Mn, Zn. The review uses "As" and "Hg" without speciation labels; non-negotiable speciation convention, these are recorded as tAs and tHg (total arsenic and total mercury) since no inorganic-arsenic or methylmercury determination is documented in the review. Cr is recorded as elemental Cr (the review does not specify Cr-VI vs Cr-III). Fe is omitted from `metals:` because Fe is not one of the HMI tracked analytes; the iron values are retained in the body tables for completeness.
-
-The `ingredients:` source metadata is empty. The review discusses palm sap, sorghum, millet, maize, rice, wheat, acha (Digitaria exilis), Hibiscus sabdariffa, hops, barley, and water as beverage feedstocks, but the underlying Tables 1 and 2 report finished-product values rather than ingredient values, and none of these feedstocks is mapped to an HMI primary tracking ingredient at the finished-beverage scope.
-
-The `products:` source metadata maps to four existing umbrella product slugs: soft-drinks-carbonated-beverages (Tables 1 rows covering Sprite/Fanta/Coke/Pepsi-class soft drinks), fruit-juice-not-canned (Tables 1 rows covering juice and milkshake categories), fermented-beverages-non-tea-based (Table 2 rows covering beer, lager, stout, locally brewed gin, and the ethanolic herbal drink), and herbal-botanical-infusions (the agbo jedi jedi rows in both tables). No beer-specific, palm-wine-specific, or energy-drink-specific product page exists in the current taxonomy; routing relies on the umbrella slugs.
-
-The `matrices:` list includes non-alcoholic-beverages and alcoholic-beverages (the review's own top-level categories), soft-drink, fruit-juice, herbal-drink, beer, palm-wine, and canned-beverage to support sub-category routing. These are free-form bare strings consistent with the active-corpus matrices vocabulary.
-
-The `jurisdictions:` list includes NG (Nigeria, the review's geographic scope) and GLOBAL (because the SON and WHO drinking-water guideline rows used as the reference frame are international and because the imported beverages tabulated come from South Korea, China, South Africa, UAE, Germany, Belgium, Hong Kong, Pakistan, Thailand, Holland, USA, and Nigeria itself). No specific other-country jurisdiction is added because the review groups all imported beverages under the same Nigerian-consumption frame.
-
-No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, wiki/HMTc firewall.
-
-Audit editorial review (2026-06-06) raised three ❌ Part 12 findings against the initial revision (three Table 1 row labels still carrying brand names: "cocacola/Amstel/Fanta/malta Guinness/Maltina"; "Olympic and Three Crown milk"; "peak/milo/five alive juice"). All three verified against PDF page 7 and applied: each row label was rewritten to the product-form descriptor alone, matching the strict reading. The audit also raised three ⚠️ Check 1 findings against the Sn-units note: (1) the parenthetical "(0.003–0.261)" was a compression of two separate ref-[40] rows; (2) attribution to "Eno-obong and Ukoha 2013, reference [54]" was wrong because those two Sn values are reference [40] (Maduabuchi et al. 2007); (3) the µg/mL unit claim does not match the PDF asterisk-scoped footnote (ref-[40] rows are not asterisked, so are in mg/L per the table header). All three verified against PDF page 8 and applied: the note was rewritten to scope the µg/mL footnote to the four asterisked rows only and to clarify that the two ref-[40] rows are in mg/L. The audit also raised ⚠️ findings on five wiki-introduced brand-mix counts (n=8 / n=8 / n=5 for Table 2; "21 brands" and "38 brands per source" for Table 1) that did not match the PDF brand lists; all five verified against PDF pages 7 and 9 and applied by removing the count annotations rather than recounting (the source itself does not number the brand mixes, and reintroducing counts would be wiki annotation rather than source content).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

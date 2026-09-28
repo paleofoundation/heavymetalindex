@@ -54,21 +54,13 @@ Courses: The paper is useful for supplier and agricultural mitigation training b
 
 App: Context only. The source can inform mitigation explanations but does not estimate heavy metals in coffee, food, or consumer products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/agronomic]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, and year were taken from the ACS Omega PDF first page.
-- Products and ingredients are intentionally empty because the study uses spiked soil and remediation matrices; the coffee-husk feedstock does not make this coffee occurrence evidence.
-- The source reports total Cr in the remediation experiment. It does not establish Cr-VI occurrence in any product matrix.
-- `sample_n: 15` reflects Table 4's enumeration of 15 experimental units (three metal groups × five treatments per group: one nonbiochar blank plus four P-loaded biochar amendments). Section 4.3 of the paper states "12 samples were obtained as shown in Table 4," which is an internal text/table inconsistency in the source; the wiki adopts the Table 4 count because that is the per-unit experimental enumeration and matches the 3 × 5 design described in Section 4.1.
-- `mitigation/supply-chain-screening` was not included as a touched page: that category covers sourcing-side interventions (geographic risk segmentation, pre-purchase soil testing, incoming-batch screening) on natural-contamination distributions, whereas this paper is bench-scale post-hoc remediation of deliberately spiked soil.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

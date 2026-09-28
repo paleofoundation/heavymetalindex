@@ -69,14 +69,6 @@ Microbiome: Not addressed in this study.
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- DOI identity check matched the existing source page; no duplicate source page was found.
-- Replaced the older `manual-fetch-source-retrieval` handle, truncated raw path, empty product route, and generic arsenic/mercury wikilinks with current provenance and controlled routes.
-- Corrected the supermarket albumen-Hg note: the 1.077 ± 3.70 mg/kg value is S2, not S1.
-- Left `matrices` blank because the source's measured compartments are egg yolk, albumen, and eggshell, and those matrix terms are not in the current controlled matrix list.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

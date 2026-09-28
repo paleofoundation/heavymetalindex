@@ -55,7 +55,7 @@ App: Palm oil can carry a Nigeria/Kogi-specific occurrence flag for Cd, total ar
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/palm-oil]]
 - [[products/cooking-oils-other]]
@@ -66,15 +66,6 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/arsenic-total]]
 - [[metals/copper]]
 - [[metals/iron]]
-
-## Verification notes
-
-- Arsenic is reported as total/unspecified As; this source is not evidence for inorganic arsenic.
-- Lead is reported as less than 0.001 ppm in all three market groups, so Pb contributes a non-detect/censoring record rather than a positive occurrence range.
-- Values are source-reported ppm in palm oil. No conversion to ppb or alternate oil basis is made on this source page.
-- The source states that most assayed metals were above acceptable limits, but Table 3 shows Cu below the listed WHO limit and Pb as non-detect. The numeric table is preserved over the broader narrative statement.
-- The source is not brand-specific and does not identify consumer brands.
-- Internal inconsistency in the source: the heavy-metals methods section lists only Pb, Cd, Fe, As, and Cu as analytes, but Table 3 reports Cr alongside the other five. No separate Cr digestion or instrument calibration step is described. The Cr values are preserved on this page because they appear in the source's own results table, but Cr should be treated as having weaker methods provenance than the other five metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

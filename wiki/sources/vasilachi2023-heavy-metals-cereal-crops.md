@@ -55,25 +55,6 @@ Narrative literature review. No primary measurements, no analytical methods, no 
 
 **App.** Supports geographic and cultivar-flag heuristics in a future grain-risk model (e.g., flag rice grown in paddy systems with known acidic soils), but cannot supply occurrence ppb values for `contamination_profile` blocks.
 
-## Verification notes
-
-**Merge-enhance rewrite, 2026-05-18.** The pre-existing 2026-05-14 version of this page contained five specific numerical claims that do not appear anywhere in the source PDF, verified by reading all 50 pages:
-
-- "decreasing pH by 1 unit can increase Cd solubility by a factor of 3–10 in loam soils" — *not in source.* The paper states only that "in highly acidic soils with a pH below 5, the solubility of cadmium increases significantly" (p. 24) without quantifying the factor or specifying loam.
-- "Wheat grain Cd concentrations correlate linearly with soil Cd, with soil-to-grain transfer coefficients varying by cultivar, soil type, and pH" — *not in source.* The paper discusses Cd accumulation in wheat qualitatively but reports no linear-correlation claim and no transfer coefficients.
-- "As in paddy soils is often 4–10× higher than upland soil As" — *not in source.* The paper notes that paddy anaerobic conditions mobilise arsenate/arsenite (p. 7) without giving the 4–10× multiplier.
-- "Mycorrhizal inoculation cited as reducing Cd uptake by 20–60% in controlled experiments on wheat and barley" — *not in source.* The paper describes mycorrhizal sequestration and pH-modulation mechanisms qualitatively (section 6.7, pp. 32–33) without giving the 20–60% range or naming the wheat/barley experiments.
-- "Root barrier formation (Casparian strip apoplastic barriers) limits Pb and Cd translocation to shoots in excluder-type cereals" — *partially invented.* The paper mentions "root barrier formation" in the abstract but does not name the Casparian strip mechanism specifically nor invoke "excluder-type cereals" as a term.
-
-All five invented claims have been removed. Replaced with the actual quantitative content the paper does carry (PGPB biosorption examples, pH cut-offs, specific transporter examples). source metadata normalised: raw_handle corrected from `papers-cube` to `PCMF_article-1-copy-7` per the PCMF folder convention; `access_url` and `raw_sha256` added; matrices tightened from `soil` to `agricultural-soil`; metal list extended to include MeHg (the paper specifically calls out methylmercury formation in waterlogged paddy soils, p. 7). The pre-existing "Wiki pages updated on ingest" footer was removed because two of its four listed targets (`supply-chain/soil-contamination`, `mitigation/agronomic-levers`) do not exist as wiki pages and were speculative routing claims; downstream routing is now the system's responsibility.
-
-**Audit application, 2026-05-18.** Fresh-context audit editorial review (verdict REVISE, one ⚠️ on slug vocabulary) flagged four points; verified each against the PDF:
-
-- ❌→applied: `Sn` was in the prior metals list (carried over from the 2026-05-14 page) but tin is not discussed anywhere in the source — Table 2 (pp. 7–8) systematically covers Cd, As, Hg, Pb, Ni, Cu, Zn, Cr only, and Sn does not appear elsewhere across the 50 pages. Removed from the metals array.
-- ⚠️→applied: `Cr-VI` added to the metals list. The audit correctly noted that the paper explicitly discusses chromate (CrO₄²⁻) uptake mechanisms and Cr(VI) carcinogenicity distinct from Cr(III) (Table 2 p. 8, mechanism discussion p. 11), justifying inclusion of the speciated slug alongside total `Cr`.
-- ⚠️→documented: Cu and Zn are extensively discussed in the source (Table 2 columns, the Cd–Zn competition mechanism on pp. 11–17) but are intentionally omitted from the metals source metadata because they are essential micronutrients, not HMTc-scope toxic-metal analytes. Recording the design choice here so a future session does not re-add them mechanically.
-- ⚠️→rejected as false positive: the audit raised concern that `cereal-grain` and `agricultural-soil` may not be canonical matrices slugs because they do not appear in the taxonomy-snapshot doc. Verified against the actual matrices inventory: both slugs are in widespread use across the linked reference record (the taxonomy snapshot enumerates ingredients/products/metals/regulations but not the matrices vocabulary, which is documented by usage). No change made; flagging here so the snapshot can be expanded if useful.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

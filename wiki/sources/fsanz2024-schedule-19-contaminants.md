@@ -88,11 +88,6 @@ Microbiome: No direct microbiome endpoint.
 - [[products/fish-marine-non-predatory]]
 - [[products/shellfish]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- Numeric values were checked against the PDF text twice during ingest.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

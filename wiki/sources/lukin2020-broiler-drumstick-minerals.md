@@ -46,7 +46,7 @@ Mineral elements were quantified with an iCAP 7200 DUO inductively coupled plasm
 
 The paper supports poultry-meat occurrence context for Russian broiler drumsticks and preserves a clear producer/geography distinction. The values should not be pooled across broader poultry categories without retaining that two-sample limitation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[products/poultry-product]]
@@ -54,11 +54,6 @@ The paper supports poultry-meat occurrence context for Russian broiler drumstick
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.31677/2072-6724-2020-30-4-35-40 and the downloaded Russian PDF.
-- Table values are preserved in mg/kg; Russian decimal commas were converted to decimal points.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -82,7 +82,7 @@ Courses: The paper is a useful example of basis discipline: product additives, e
 
 App: If home-air emission sources are surfaced, this study can support a note that candle particle emissions may include trace metal components, with Candle II reporting Cu `80 µg h-1`, Sn `44 µg h-1`, Co `19 µg h-1`, Zn `2 µg h-1`, and Pb `3 µg h-1`.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/home-air-emission-products-other]]
 - [[metals/copper]]
@@ -90,17 +90,6 @@ App: If home-air emission sources are surfaced, this study can support a note th
 - [[metals/cobalt]]
 - [[metals/zinc]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` from `untitled_29.pdf` to `/tmp/untitled29.txt`; the DOI landing wrapper, abstract, Methods, Tables 1-3, Figure 5 caption, Section 3.4, Section 3.6, and Conclusions were checked against this page.
-- Identity checks before creation: DOI `10.1016/j.jaerosci.2008.10.005`, title `Chemical composition and mass emission factors of candle smoke particles`, raw handle `MFK_untitled-29`, readable-copy SHA-256 `9136eedc60c75d017d96ff239bbbd75fa49ccd1172e8019910c263734bdaebec`, and candidate cite key `pagels2009-candle-smoke-particles` were searched in the linked reference record and the structured evidence record; no existing source page was found.
-- Duplicate-file note: `cat21_17_lucris_lund_7517427.pdf` in the same folder is a corrupt alternate copy exposing the same DOI and Lund portal URL in `strings`, but `pdftotext` and `pdfinfo` cannot read it. The readable `untitled_29.pdf` copy is used as the canonical raw path for this source page.
-- Units: Table 3 component values are copied as `µg h-1`; Tables 1-2 particle-mass factors are copied as `mg h-1` or `mg` per extinction. No conversion to concentration or finished-product basis was performed.
-- Speciation: the metals are reported as elemental components by PIXE. Tin is total Sn, not organotin; lead is Pb, zinc is Zn, cobalt is Co, and copper is Cu.
-- Brand firewall: the paper describes candle types and notes that both were manufactured by market-leading Swedish companies, but it does not name brands in the extracted text. This page does not attach brand names to emission values.
-- Product slug note: the current taxonomy has `scented-candles` but no generic unscented/tapered candle slug. Because the source studies tapered candles without stating that they are scented, the page routes through `home-air-emission-products-other` and records the missing generic candle route here rather than forcing the source into `scented-candles`.
-- Evidence tier: `B` because this is a peer-reviewed controlled emissions study with detailed methods and repeated chamber experiments, but it tests only two representative candle types and reports emissions rather than product occurrence concentrations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

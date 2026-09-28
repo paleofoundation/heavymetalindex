@@ -67,7 +67,7 @@ App: The source can support evidence-card context about leachables testing and f
 
 Microbiome: The thesis discusses the vulvovaginal environment and uses menstrual/vaginal fluid simulants, but it does not measure a vaginal microbiome endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[products/menstrual-pads]]
@@ -82,12 +82,6 @@ Microbiome: The thesis discusses the vulvovaginal environment and uses menstrual
 - [[metals/lead]]
 - [[metals/tin]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-30-marcelis-2024-phd-thesis`, cite key `marcelis2024-feminine-intimate-products-thesis`, the exact thesis title, or PDF SHA-256 `3eba9b78017ef85de9967025ef4f28cd4d308ff755947593d10f5571d51bd093`. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The front matter lists `license: "CC BY"` because the VUB cover page prints `License: CC BY`.
-
-Tables 2-9, 2-10, 3-3, 3-5, 3-6, and 3-7 were re-opened from `/tmp/hmi-fem-021.txt`. Table 2-10 values are copied as `ng/mL` leachate values without conversion, even though the later peer-reviewed article page records the same table on its own `ppb` wording. The `As (O2)` table header is treated as total arsenic measured in ICP-MS oxygen/reaction mode, not inorganic arsenic speciation; no Cr-VI, methylmercury, organotin, or elemental tin speciation is reported. Brand firewall: the thesis describes popular brands and low-budget options, but this page reports only product-category and sample-code summaries. Product, matrix, metal, and jurisdiction slugs were checked against the closed taxonomy snapshot. The closed ingredient vocabulary has no valid material slug for this thesis's consumer-product/device materials, so `ingredients: []` is intentionally retained. The near-duplicate link to `marcelis2025-micp-leachables-metals` is recorded because Chapter 2 lists the chemical-characterization article as in preparation and contains the same inorganic leachables table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

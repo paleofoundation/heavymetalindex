@@ -71,7 +71,7 @@ This synthesis compounds with [[synthesis/combined-exposure-underprotection]]: a
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -83,7 +83,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/porwollik2026-rhodiola-supplements-us-market|The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues]]<span class="hmi-ref-meta">Porwollik S and Jafari M · PLoS One · 2026 · [doi.org/10.1371/journal.pone.0341070](https://doi.org/10.1371/journal.pone.0341070)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/inada2023-herbal-medicine-heavy-metal-regulations|Comparison of heavy metal regulations for herbal medicines across pharmacopoeias]]<span class="hmi-ref-meta">Inada A · Journal of Natural Medicines · 2023 · [doi.org/10.1007/s43441-023-00532-2](https://doi.org/10.1007/s43441-023-00532-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>

@@ -58,7 +58,7 @@ App: The honey ingredient/product profile can use this as non-US context for Pb,
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
@@ -69,10 +69,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI). `matrices: [honey]` is a source-specific matrix flag for controlled-vocabulary review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

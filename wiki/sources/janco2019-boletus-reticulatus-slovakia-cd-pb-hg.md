@@ -45,18 +45,9 @@ The study collected Boletus reticulatus mushrooms and underlying soil from eight
 
 This is a strong geography-specific source for wild edible mushroom [[metals/cadmium]], [[metals/lead]], and [[metals/mercury-total]]. The cap/stem split matters because caps tend to carry different concentrations than stems. It should be used as Slovakia and wild-foraged mushroom evidence, not silently pooled with cultivated fresh mushrooms from other markets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
-- [[metals/cadmium]]
-- [[metals/lead]]
-- [[metals/mercury-total]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF header. Author names are ASCII-normalized in source metadata for tooling compatibility.
-- Hg is total Hg only. The paper does not provide methylmercury.
-- Soil rows are contextual and should not be used as food occurrence values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

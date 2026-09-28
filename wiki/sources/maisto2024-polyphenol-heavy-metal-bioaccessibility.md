@@ -79,7 +79,7 @@ Courses: Useful for explaining why total concentration and bioaccessible concent
 
 App: Keep as health/testing context for metal bioaccessibility and chelation. Do not route the standardized spike concentrations to drinking-water occurrence pages, and do not route the formulation results to turmeric, pomegranate, or dietary-supplement occurrence rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -91,14 +91,6 @@ App: Keep as health/testing context for metal bioaccessibility and chelation. Do
 - [[metals/iron]]
 - [[health/index]]
 - [[testing/index]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/antiox13050610`; no DOI conflict was observed. The paper is internally inconsistent on formulation dose: Section 2.8 says 1 g of each maltodextrin-based formulation was added to the 12.5 mL standardized metal solution, while Section 3.3 says 1 mg was dissolved in 12.5 mL. This page preserves the contradiction and does not infer the intended unit. The source reports total As and total Hg, not inorganic arsenic or methylmercury. Figures 4 and 5 provide concentration bars with standard deviations; this page records graph-read approximations only where the numeric labels were not printed, and uses the text-reported percentage changes for exact claims.
-
-Merge-enhance pass 2026-06-02: matrices field normalized from study-specific descriptors to neighbor-consistent vocabulary (standardized-water, in-vitro-digestion, polyphenol-formulation), aligning with related in-vitro bioaccessibility sources (liu2023-arsenic-seafood-digestion, de-paiva-2020-aluminium-infant-foods-bioaccessibility, nencioni2026-zeolite-cream-metal-adsorption). Empty products and ingredients arrays are correct: the source uses artificial standardized metal-spiked water, not a food, ingredient, or product sample, so routing-malformed advisory severity is the appropriate steady state for this page.
-
-Audit editorial review (2026-06-02) flagged the calibration-range sentence as ambiguous; verified against Table 1 — only Cd uses the 0-10 ppb linear range while Hg, As, Cu, Pb, Sb, Zn, and Fe all use 0-20 ppb. Sentence rewritten to state ranges precisely.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

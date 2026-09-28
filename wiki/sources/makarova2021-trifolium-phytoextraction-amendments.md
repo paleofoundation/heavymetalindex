@@ -79,19 +79,13 @@ App: Context for remediation notes involving chelator-assisted phytoextraction, 
 
 Courses: Useful for teaching how a treatment can increase metal translocation while reducing plant health, and why root/shoot partitioning must be preserved when routing remediation evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, problem formulation, materials and methods, Tables 1-4, Figures 1-9, discussion, conclusions, and conflict statement. Products and ingredients are intentionally empty because the source reports simulated-soil phytoextraction and white-clover tissue concentrations only. The reported metal values are total elemental concentrations in plant organs after acid digestion; no speciation split is provided for Cd, Ni, or Cu.
-
-2026-06-02 merge-enhance pass: added K2HEDP root fold-increases for Ni (2.63x) and Cu (1.58x) from the discussion section, and added instrument-vendor and statistical-method detail (Thermo Scientific iCAP-6500 ICP-AES, Thermo Electron X-7 ICP-MS, Fisher's test in Excel) under the scientific-method exception to the brand firewall. No numerical values in Table 4 were altered; verification of Tables 3-4 and Figures 3-5 confirmed prior values were correct.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

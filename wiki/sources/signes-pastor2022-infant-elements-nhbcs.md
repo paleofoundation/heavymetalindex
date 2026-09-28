@@ -85,7 +85,7 @@ App: Supports warning copy for rice-containing infant foods that distinguishes i
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[metals/lead]]
@@ -104,13 +104,6 @@ Microbiome: Not addressed.
 - [[products/infant-and-child-foods-master]]
 - [[regulations/eu-2015-1006-iAs-rice]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the gap-driven auto-fetch PDF. The PDF identifies DOI 10.1007/s12403-022-00489-x, correcting the prior `doi: null` / `no_doi_assigned: true` source metadata.
-- The auto-fetched PDF is the same article as the existing FM_9971144 Marker source; this is a merge-enhancement, not a duplicate source page.
-- Corrected scope: this source measured urinary biomarkers and rice-consumption associations, not infant-formula powder or product metal concentrations. Formula-product routing was removed.
-- Strict brand firewall: the paper does not report commercial baby-food brand names. Instrument and reference-material vendor names are retained only in Methods, where Part 12 Exception 2 permits them.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

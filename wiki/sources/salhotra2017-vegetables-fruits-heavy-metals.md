@@ -54,7 +54,7 @@ Sampling: edible portions of vegetables (spinach, tomato, lady finger, cauliflow
 
 Contributes occurrence data for spinach, tomato, cauliflower, lady finger, and green pepper (dw) and for water melon, grapes, apple, and mango (dw) from a single March 2017 market-basket survey in Jagdalpur, Bastar district, Chhattisgarh, India. Small sample (single composite per commodity, run in triplicate); India/Jagdalpur context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[products/fresh-fruit]]
@@ -72,15 +72,6 @@ Contributes occurrence data for spinach, tomato, cauliflower, lady finger, and g
 - [[metals/iron]]
 - [[metals/cobalt]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Table 1 and Table 2 values transcribed against the PDF; all numbers verified verbatim.
-- All numeric values are reported on a dry-weight basis (samples were oven-dried to constant weight before digestion); the paper itself does not annotate the table headers with "dw" but the methods make the basis unambiguous.
-- The abstract states "ten commonly used vegetables and fruits" but Tables 1 and 2 together enumerate only nine commodities (5 vegetables + 4 fruits). The commodity-name table on page 111 lists only 4 vegetables (omits green pepper). The wiki uses the table-enumerated count.
-- Lady finger (Abelmoschus esculentus / okra) does not have an ingredient slug in the current taxonomy and is therefore not routed to an ingredient page; values are preserved in the Key numbers section for future routing.
-- The paper does not report LODs, recoveries, or certified reference materials.
-- The DOI appears in the PDF as 10.9790/5736-100502110113.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

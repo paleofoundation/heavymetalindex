@@ -49,20 +49,13 @@ Courses: The paper is useful for explaining why treatment species and recovered 
 
 App: Treat as contaminated-growing-condition context for fenugreek and spices rather than typical-market occurrence evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
 - [[ingredients/herbs-and-spices]]
 - [[metals/arsenic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- The PDF title spells the botanical name as "Trigonellna Foenum- Granecum"; this page preserves the printed title in source metadata.
-- The study describes fenugreek seeds as spices and fenugreek leaves as vegetables, but no dedicated fenugreek ingredient page exists; existing broad spice and herbs-and-spices slugs are used.
-- The measured plant values are handled as total arsenic. They are not inorganic-arsenic occurrence values for standards pooling.
-- Audit 2026-06-09 caught that the source PDF's Table 6 ILTCR columns are numerically identical to Table 5 HQ columns, which is internally inconsistent and looks like a printing error in the paper itself; the wiki page flags this so future synthesis sessions do not propagate the duplicated values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

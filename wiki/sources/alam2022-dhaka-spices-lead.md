@@ -80,7 +80,7 @@ App: Adds a Bangladesh retail-market signal for Pb in powdered cumin, red pepper
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/spices]]
@@ -89,15 +89,6 @@ Microbiome: Not addressed.
 - [[ingredients/turmeric]]
 - [[products/spices]]
 - [[products/condiments-general]]
-
-## Verification notes
-
-- The PDF is a Research Square preprint posted September 22, 2022, with DOI `10.21203/rs.3.rs-2087533/v1` and CC BY 4.0 license text in the PDF. The wishlist audit also contained skip rows for a later published DOI candidate, `10.1007/s12011-022-03553-4`; this source page is based on the actual PDF in the auto-fetched folder and uses the DOI printed in that PDF.
-- The full Table 2 extraction is not clean enough to reconstruct every individual sample cell without visual PDF review, so the Key numbers section uses the complete lead ranges stated in the abstract and body narrative. This is a source-ingest limitation, not a reason to drop the source, because the PDF provides extractable concentration ranges and category-level occurrence findings.
-- `matrices: [spices]` is used rather than `powdered-spices` or a basis label. The source basis is powdered spice as sold; basis is documented in the Key numbers and Methods sections instead of being placed in source metadata `matrices`.
-- Audit editorial review (2026-06-02) returned QUARANTINE because the first ingest mislabeled the source table's carcinogenic-risk (`CR`) values as target-hazard-quotient (`THQ`) values. The exposure table now carries separate THQ and CR columns from the source table.
-- Speciation is straightforward: lead is reported as Pb only. No arsenic, cadmium, mercury, nickel, chromium, tin, aluminum, uranium, or antimony values are measured in this source.
-- The source has category labels for branded and nonbranded products but does not disclose consumer brand names. The page therefore remains brand-firewall compliant.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -49,7 +49,7 @@ Samples were analyzed by ICP-MS. The paper reports detection limits between 0.00
 
 The source supports occurrence evidence for herbal-botanical tea materials in the Polish retail market. It also provides regulatory exceedance context for Pb and Cd in dried herbs.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[ingredients/tea]]
@@ -60,10 +60,6 @@ The source supports occurrence evidence for herbal-botanical tea materials in th
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The paper reports total arsenic and total mercury. Product names were not transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

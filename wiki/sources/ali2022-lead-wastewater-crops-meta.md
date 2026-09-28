@@ -54,16 +54,12 @@ Courses: Core evidence for wastewater irrigation as a Pb transfer pathway; illus
 App: Leafy vegetables (spinach, cabbage, lettuce) from wastewater-irrigated origins carry elevated Pb in the reviewed studies; HRI exceedance is documented across multiple countries and can inform qualitative origin-risk context.
 Microbiome: Not directly applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spinach]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/wheat]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Preserved the source text's reported soil unit in Key numbers, tightened HMT&C/app language away from wiki-side sourcing directives, corrected matrix vocabulary, removed a non-taxonomy supply-chain wikilink, and removed named analysis-software vendors from Methods while preserving the meta-analysis workflow.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

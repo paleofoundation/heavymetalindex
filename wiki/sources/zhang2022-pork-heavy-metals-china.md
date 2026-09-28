@@ -57,7 +57,7 @@ The authors collected previously published pork heavy-metal concentration data f
 
 This source contributes a China-market pork occurrence summary for Pb, total arsenic, Cd, and total mercury. It should be used as a secondary, summary-level input rather than a sample-level pork survey because the individual CNKI records, regions, years, and wet/dry/as-sold bases are not exposed in the extracted text. The source's own pollution-index and risk-assessment outputs can support pork supply-chain context, but they should not be treated as HMTc thresholds or as a substitute for primary pork occurrence studies.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/pork-product]]
 - [[ingredients/meat]]
@@ -65,16 +65,6 @@ This source contributes a China-market pork occurrence summary for Pb, total ars
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, title, or cite-key page for `10.1016/j.foodcont.2021.108793`, `MFK_risk-assessment-of-heavy-metals-contamination-in`, or `zhang2022-pork-heavy-metals-china`.
-- The occurrence table above was re-opened from `/tmp/hmi-june9-063.txt` before drafting. The fitted pork concentrations, residue-limit comparators, and Pi values are transcribed from the Results text and Table 2 without unit conversion.
-- Units preserved: concentrations remain in `mg kg-1` / `mg/kg` exactly as the source expresses them. The wet-weight, dry-weight, raw, or cooked basis is not reported in the extracted text.
-- Speciation: the paper reports only As and Hg. This page labels them `tAs` and `tHg`; it does not promote total As to inorganic arsenic or total Hg to methylmercury.
-- Evidence tier C reflects secondary aggregation from CNKI records and absence of an extractable individual-sample table, despite peer-reviewed publication.
-- Source-side risk context: Table 3 THQs and the plotted ILCR results are reported as the paper's risk-assessment outputs, not consumer guidance and not HMTc certification thresholds.
-- Brand firewall: no pork brands were present. The Nanjing Farmers Market example is a regulatory/supply-chain event, not a brand-level contamination table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
