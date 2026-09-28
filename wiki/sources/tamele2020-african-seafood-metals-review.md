@@ -56,15 +56,6 @@ This is a narrative review of Pb, Hg, and Cd in seafood from African countries b
 
 This source contributes secondary literature context for seafood, marine fish, and shellfish occurrence of Pb, Cd, and total/unspecified Hg in African Indian Ocean and Red Sea coastal settings. It is useful as a route-discovery and regional context source, but downstream occurrence extraction should preferentially chase the cited primary studies when product row fit, basis, sample size, and statistic type are needed. It should not be used as a primary pooled benchmark source without auditing the primary rows behind Table 4.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, Section 4, Table 4, methods/detection notes, and final recommendations were readable, though the table layout is visually compressed.
-- DOI `10.3390/jmse8050344`, raw handle `MFK_jmse-08-00344-v2`, and cite-key checks found no existing source page before creation.
-- All quoted concentration values were checked against Table 4 or the immediately preceding Section 4 text. Units are preserved as the source writes them, `mgKg−1`; no conversion to `mg/kg` was performed.
-- Speciation: Table 4 reports `Hg`, not MeHg. The review discusses methylmercury in seafood toxicology, but no Table 4 occurrence value is promoted from total/unspecified Hg to MeHg.
-- Brand firewall: no sampled product brands are attached to contamination values; named locations and species are scientific/geographic descriptors.
-- source metadata slugs were checked against the editorial record. Crustacean- and cephalopod-specific ingredient/product slugs were not available in the snapshot, so those rows are carried under broad `shellfish`/`seafood` context rather than invented slugs.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

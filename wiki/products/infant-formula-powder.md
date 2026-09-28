@@ -86,7 +86,7 @@ _Source evidence inventory pending structured extraction. Distribution context a
 
 <!-- audience: regulator, educator, app -->
 
-_Generator-managed section: will be populated when the routing audit identifies sources with broader author-stated scope._
+_Broader-scope sources for this row will be listed here when they are catalogued._
 
 <!-- END: hmi-broad-context-sources -->
 
@@ -162,7 +162,7 @@ _No row-specific regulatory recall or enforcement action has been added to this 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/astolfi2021-italy-powdered-infant-formula-elements|Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment]]<span class="hmi-ref-meta">Maria Luisa Astolfi, Daniela Marotta, Vittoria Cammalleri, Elisabetta Marconi, Arianna Antonucci, Pasquale Avino, et al. · International Journal of Environmental Research and Public Health · 2021 · [doi.org/10.3390/ijerph18105073](https://doi.org/10.3390/ijerph18105073)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry]]<span class="hmi-ref-meta">Ghosia Lutfullah, Abid Ali Khan, Azra Yasmeen Amjad, and Sajida Perveen · The Scientific World Journal · 2014 · [doi.org/10.1155/2014/715845](https://doi.org/10.1155/2014/715845)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -177,7 +177,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

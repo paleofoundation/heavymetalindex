@@ -59,15 +59,6 @@ Commercial edible seaweeds and Irish kelp samples were air-dried, milled, and an
 
 This source provides edible seaweed and kelp iAs evidence with explicit analytical cross-validation against HPLC-ICP-MS. Hijiki and Irish kelp samples are high-iAs context for the seaweed-kelp foods category, while Nori, Wakame, and Kombu in the commercial set were below `1 mg kg−1` iAs in the main text. Total arsenic values should remain context only and not substitute for iAs.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; main-text occurrence and method-validation values were checked in the extracted text.
-- DOI `10.1007/s00604-017-2151-1`, raw handle `MFK_bralatei2017`, and cite-key checks found no existing source page before creation.
-- The detailed commercial-sample table is in the paper's supplementary information; the source page uses only main-text ranges and examples available in the extracted PDF text.
-- Speciation: the source's routeable occurrence values are inorganic arsenic (`iAs`). Total As is included in source metadata and body only because the paper reports total As context for the same seaweed samples.
-- Units are preserved as `mg kg−1` dry weight; no conversion was performed.
-- Brand firewall: commercial seaweed samples were purchased retail/online, but no brand names are attached to contamination values here.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

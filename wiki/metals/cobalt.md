@@ -63,7 +63,7 @@ Very little. This is a source-map stub created during the re-ingest of [[sources
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/rueda-saa2025-valle-del-cauca-agricultural-soils|Baseline concentration of heavy metals in agricultural soils]]<span class="hmi-ref-meta">Germán Rueda-Saa, Gilberto Eduardo Marín-Pimentel, and Juan Carlos Menjivar-Flores · Revista de Ciencias Agrícolas 42(2): e2259 · 2025 · [doi.org/10.22267/rcia.20254202.259](https://doi.org/10.22267/rcia.20254202.259)</span><span class="hmi-ref-tag">Peer-reviewed</span>

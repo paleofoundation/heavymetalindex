@@ -85,26 +85,15 @@ App: Supports a high-priority iAs flag for rice-based infant cereals and rice sn
 
 Microbiome: Not addressed in this study.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[ingredients/rice]]
 - [[ingredients/infant-rice-cereal]]
 - [[ingredients/rice-cakes]]
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/rice-snacks-crackers]]
 - [[regulations/eu-2015-1006-iAs-rice]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the gap-driven auto-fetch PDF. The fetched PDF hash matches the existing raw study PDF hash (686b2a50b1780790c23e21fe27b7d7dbae553e71fd68328bdfceecbbb24dda0c), confirming duplicate identity rather than a new source.
-- Replaced the prior approximate concentration ranges with exact Table 1, Table 2, and Table 3 values from the PDF.
-- Corrected source scope: 2016 rice-product samples were purchased in Belfast, Northern Ireland, not Spain; the source compares against the EU inorganic-arsenic rice standard.
-- Removed the invalid `regulations/eu-regulation-2015-1006-iAs-infant-cereal` link and created the historical regulation page [[regulations/eu-2015-1006-iAs-rice]].
-- Strict brand firewall: the source's Table 3 uses brand-coded groupings, but this page reports only aggregate product-group results and does not reproduce brand-coded rows or brand rankings.
-- Formula feeding is represented as urinary biomarker context only. The paper did not measure formula-product arsenic concentrations, so formula products are not routed in source metadata.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -47,19 +47,13 @@ Courses: Useful for explaining donor-milk exposure, detection frequency, and die
 
 App: Can support infant feeding exposure context where human milk is represented separately from products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The same DOI was fetched under Cd, tAs, and tHg human-milk gaps. This page is canonical for those duplicate paths. Total Hg must not be substituted for methylmercury.
-
-The `matrices: [donor-breast-milk]` token is a descriptive matrix label distinguishing pooled donor milk-bank samples from individual-mother breast milk. It is preserved here because the distinction is exposure-relevant (donor pooling averages across many donors with screened diets and health status); the routing layer fans this source out via the `ingredients/breastmilk` slug. If the matrices controlled vocabulary is later codified, consider adding `donor-breast-milk` as a sibling of `breastmilk`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

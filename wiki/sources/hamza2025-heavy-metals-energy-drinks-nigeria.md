@@ -214,7 +214,7 @@ Statistical analyses comprised Pearson correlation (output shown as a heat-mappe
 
 This source contributes direct primary occurrence values for ten metals (Pb, Cd, tAs, Cr, Ni, Co, Cu, Fe, Mn, Zn) plus four physicochemical parameters across thirty packaged energy drinks (twenty-three liquid and seven powdered) sold at Nigerian local markets. The principal limitations bearing on pooling eligibility and synthesis weight are:
 
-(i) **Same-dataset overlap with the companion Babayo et al. 2026 Nigerian energy-drinks paper ([[babayo2026-heavy-metals-energy-drinks-nigeria]]).** The thirty sample codes (SY, RB, PH, PW, XC, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, VE, FL, PR, SK, IP, MP, AR, CX, EJ, KR, KK, PS, PE, AL, ES) and the Cd/Cr/Co/As/Ni/Pb values in Table 2 of this paper match the corresponding values in the Babayo et al. 2026 paper, where H.A. Hamza is also a co-author. The two papers report the same underlying analytical dataset but differ in downstream analysis: the present paper adds physicochemical parameters, micronutrients (Cu, Fe, Mn, Zn), and multiple-regression analyses; the Babayo paper adds Contamination Factor, Metal Pollution Index, and Estimated Daily Intake calculations. Synthesis must avoid double-counting these as two independent observations of the Nigerian energy-drinks population; the routing layer treats them as a single dataset for pooling. The `near_duplicates:` source metadata records the relationship.
+(i) **Same-dataset overlap with the companion Babayo et al. 2026 Nigerian energy-drinks paper ([[babayo2026-heavy-metals-energy-drinks-nigeria]]).** The thirty sample codes (SY, RB, PH, PW, XC, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, VE, FL, PR, SK, IP, MP, AR, CX, EJ, KR, KK, PS, PE, AL, ES) and the Cd/Cr/Co/As/Ni/Pb values in Table 2 of this paper match the corresponding values in the Babayo et al. 2026 paper, where H.A. Hamza is also a co-author. The two papers report the same underlying analytical dataset but differ in downstream analysis: the present paper adds physicochemical parameters, micronutrients (Cu, Fe, Mn, Zn), and multiple-regression analyses; the Babayo paper adds Contamination Factor, Metal Pollution Index, and Estimated Daily Intake calculations. Synthesis must avoid double-counting these as two independent observations of the Nigerian energy-drinks population; read them as one dataset when combining the concentrations. The overlap is recorded with the source.
 
 (ii) **No declared analytical limit of detection or quantification.** The "ND" attribution is repeated across the table without an explicit numerical floor. The lack of declared LOD/LOQ prevents pool-eligibility decisions to be made under standard censored-data treatment.
 
@@ -243,7 +243,7 @@ Evidence tier set to **C**. The source is primary research, peer-reviewed (Commu
 
 Open-access publication in Communication in Physical Sciences (CPS), Vol 12, Issue 3, March 2025, pp. 213–230. DOI: 10.4314/cps.v12i3.19. Received 18 January 2025; Accepted 02 March 2025; Published 14 March 2025. Corresponding author: Hamza Abubakar Hamza, Department of Pure and Applied Physics, Gombe State University, P.M.B. 127, Gombe, Nigeria (hamzadurbi@gsu.edu.ng; ORCID 0009-0005-9958-5508). Co-authors: Abubakar Danjuma Bajoga (Gombe State University; a.bajoga@gsu.edu.ng), Yusuf Mohammed Auwal (Yobe State University, Damaturu; auwalgamajan@ysu.edu.ng), Hankouraou Seydou (Gombe State University; seydou5k@yahoo.com). Funding: no external source of funding declared. Conflict of interest: none declared. Ethical considerations: not applicable (no human or animal subjects). Data availability: stated as "available on request." Accessed via the Manual Fetch Discovery autopilot.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -256,43 +256,6 @@ Open-access publication in Communication in Physical Sciences (CPS), Vol 12, Iss
 - [[metals/manganese]]
 - [[metals/zinc]]
 - [[products/sports-energy-drinks]]
-
-## Verification notes
-
-**Speciation handling.** This source measures total elemental Pb, Cd, As, Cr, Ni, Co, Cu, Fe, Mn, and Zn by AAS (liquid) and EDXRF (powder), without speciation. Arsenic is recorded as tAs (total arsenic) in the `metals:` source metadata field,'s "iAs/tAs and tHg/MeHg as non-negotiable distinctions" rule. Chromium is recorded as Cr (total chromium); no Cr-VI distinction is offered by the source, so Cr-VI is NOT recorded. Mercury, aluminium, tin, antimony, and uranium were not in the source's analyte panel and are not recorded. The micronutrients Cu, Fe, Mn, and Zn are recorded in the `metals:` field because their values are part of the source's analytical dataset; they are not HMTc certification analytes but are HMI taxonomy-recognised metal slugs.
-
-**Products source metadata.** The `products:` source metadata lists only `sports-energy-drinks` because the source's thirty-sample panel is described uniformly as "energy drinks" in title, abstract, methods, and results, without mixed-class language. This is in contrast to the Bunu et al. 2023 Kogi-State and Bayelsa-State companion papers, which mix carbonated soft drinks and energy drinks under the "soft drinks" body framing but title themselves "Energy Drinks."
-
-**Matrices source metadata.** The `matrices:` field uses both `energy-drinks` (for the twenty-three liquid samples) and `energy-drink-powder` (for the seven powdered samples), matching the established vocabulary used in the companion Babayo et al. 2026 paper.
-
-**Jurisdictions source metadata.** `NG` (Nigeria). The source does not narrow the sampling to a specific Nigerian state — the methods section simply says "purchased from local markets" without further geographic detail.
-
-**Near-duplicate handling per the same-dataset overlap with Babayo et al. 2026.** The thirty sample codes and heavy-metal concentration values in Table 2 of this paper match the corresponding values in the Babayo et al. 2026 Nigerian energy-drinks paper ([[babayo2026-heavy-metals-energy-drinks-nigeria]]), where H.A. Hamza is also a co-author. The two papers share the underlying analytical dataset but differ in downstream analysis: the present paper adds physicochemical parameters (pH, turbidity, TDS, conductivity), the micronutrients (Cu, Fe, Mn, Zn), and multiple-regression analyses; the Babayo paper adds Contamination Factor, Metal Pollution Index, and Estimated Daily Intake calculations. Recorded in the `near_duplicates:` source metadata so that the synthesis pass treats them as a single observation block for pooling.
-
-**Brand firewall (strict reading, locked 2026-05-17).** The source labels samples only by two-letter codes (SY, RB, PH, PW, XC, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, VE, FL, PR, SK, IP, MP, AR, CX, EJ, KR, KK, PS, PE, AL, ES) and does not disclose per-code brand mapping anywhere in the text. The two-letter codes are not brand identifiers and are preserved on this wiki page as the source's neutral sample-labelling convention. The methods section's scientific-method vendor identities (Bulk 205 Atomic Absorption Spectrophotometer; JENWAY 3505 pH meter; HACH Sension 5 conductivity/TDS meter; HACH DR/890 turbidity colorimeter) are retained under the Part 12 scientific-method-vendor exception locked 2026-05-17.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, no consumer-audience risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in this wiki page body. The observation that several samples exceed the cited WHO drinking-water comparator for Pb, Cd, Cr, As, and Ni is reported as the source itself reports it — as a comparison against the regulatory comparator values the source itself cited — and is not framed as an HMTc threshold recommendation or as a consumer-safety claim. The discussion sections of the source contain consumer-audience risk language ("manufacturers should adjust formulations to reduce acidity"; "long-term cadmium exposure can cause kidney damage and skeletal disorders"); these are not reproduced on this wiki page.
-
-**Paper-internal inconsistencies recorded faithfully and flagged.**
-
-1. The discussion text (p. 219) cites WHO Fe at 0.3 mg L⁻¹ and Zn at 5 mg L⁻¹, while Table 5 (p. 225) lists the WHO expected value for Fe as 2.0 mg L⁻¹ and for Zn as 3.0 mg L⁻¹. The 0.3 mg L⁻¹ Fe figure is consistent with the WHO drinking-water aesthetic threshold; the 2.0 mg L⁻¹ Fe figure is consistent with an older WHO health-based guideline. The Zn 5.0 mg L⁻¹ figure is consistent with the WHO drinking-water aesthetic threshold; the 3.0 mg L⁻¹ Zn figure does not match any standard WHO drinking-water comparator known to this wiki. Recorded faithfully; downstream synthesis should resolve which guideline edition was intended.
-2. The discussion text (p. 217) reports "43 % of samples exceeding the WHO-recommended limit of 500 mg/L" for TDS; spot-checking against Table 1 yields 13 of 30 samples exceeding 500 mg/L (= 43.3 %), consistent with the source's text.
-3. The two multiple-regression models report "No. Observations: 27" in the OLS output blocks (Snapshots 1 and 2, pp. 227–228), while the dataset is stated as n = 30 throughout the methods and results. The source does not explain how the three missing observations were dropped. This caveat is restricted to the regression results and does not affect the raw concentration tables.
-4. Figures 1 and 2 in the source carry the same boxplot graphic for copper (Cu) concentration but Figure 2 is captioned as a "Bar Chart of Average Iron (Fe) Concentration in Energy Drinks" — a likely figure-caption-to-graphic mismatch in the published version. Recorded as an observation; does not affect the numerical tables.
-
-**Sample size used for tabulated heavy-metal values.** Table 2 reports values for all thirty samples (23 liquid + 7 powder). Table 4's t-test panel covers only four analytes (Co, Cr, Cu, Fe) of the ten analytes measured. Table 5's chi-square panel covers only the four micronutrients (Cu, Fe, Mn, Zn) and not the six heavy metals; the source does not extend the chi-square test to Pb, Cd, As, Cr, Co, or Ni.
-
-**Cite-key choice.** `hamza2025-heavy-metals-energy-drinks-nigeria` rather than including "physicochemical" in the cite-key, for consistency with the existing energy-drinks corpus (alsayyed2024, babayo2026, bunu2023-bayelsa, bunu2023-kogi, czarnek2024). The `raw_handle` field preserves the auto-generated MFD_hamza2025-physicochemical-heavy-metals-energy-drin handle from the Manual Fetch Discovery autopilot.
-
-**Audit application (2026-06-06).** Fresh-context Agent editorial review audit (verdict REVISE; four ❌ findings on Check 1 numerical fidelity counts in `## Implications` plus two ⚠️ concerns on a Co exceedance roll-up and a chi-square df attribution). Independent re-verification against Table 2 (PDF pp. 217–218) and PDF p. 215 confirmed all six findings were correct:
-- Pb detected-sample count corrected from "twelve" to "eleven" (re-count: SY, RB, XC, 3H, BS, PR, EJ, KR, KK, PE, AL).
-- Cd detected-sample count corrected from "twenty-two" to "twenty-one" (re-count: RB, PH, PW, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, PR, IP, MP, AR, EJ, KK, PS, ES).
-- Cr detected-sample count corrected from "twenty-three" to "twenty-four" (re-count: 30 samples minus the 6 ND samples PH/XC/VE/CX/EJ/PS = 24).
-- As detected-sample count corrected from "eighteen" to "nineteen" (re-count: SY, RB, HS, 3H, HD, BS, ME, VE, FL, SK, MP, AR, CX, EJ, KR, KK, PE, AL, ES).
-- Co exceedance roll-up corrected to add PR liquid (0.0826 mg L⁻¹ > WHO 0.05) alongside EJ (0.0835) and KR (0.0534).
-- Chi-square df attribution softened from asserted "df = 3" to inferred-not-stated, both in the Table 5 narrative and the Methods (brief) section.
-- The abstract paragraph's conflation of the 105 °C oven-drying step with the Kjeldahl-heater digestion step was tightened to match PDF p. 215, which states the 105 °C is the oven-drying step and the Kjeldahl heater digestion has no stated temperature.
-No false-positive findings to record. No source metadata changes required. Routing unaffected (sports-energy-drinks direct_evidence row unchanged).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -162,7 +162,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 <!-- audience: regulator, educator, app -->
 
-_Generator-managed section: will be populated when the routing audit identifies sources whose author-stated scope is broader than this row._
+_Broader-scope sources for this row will be listed here when they are catalogued._
 
 <!-- END: hmi-broad-context-sources -->
 
@@ -196,7 +196,7 @@ _No row-specific regulatory recall or enforcement action has been added to this 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/fda2011-apple-juice-arsenic-speciation|Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2011 · [www.fda.gov](https://www.fda.gov/food/environmental-contaminants-food/results-arsenic-analysis-single-strength-apple-juice-2011-ora-sampling-assignment-2011102701)</span><span class="hmi-ref-tag">Dataset</span>
@@ -205,7 +205,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

@@ -48,20 +48,13 @@ The study estimated Pb, Ni, Cd, and Fe using atomic absorption spectrophotometry
 
 The fruit values are routeable for pineapple ingredient context, while root, leaf, and soil values are context-only for plant uptake and field contamination.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/pineapple]]
 - [[products/fresh-fruit]]
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.47191/ijcsrr/V4-i5-14 and the downloaded PDF.
-- The PDF text reports high soil Cd; fruit Cd is separately reported as 4 mg/kg and should not be pooled with soil values.
-- Matrices narrowed to `pineapple-fruit` and `soil` (controlled-vocabulary terms). Pineapple roots and leaves are measured in the source but are not consumed matrices; their values appear in `## Key numbers` as plant-uptake context only and intentionally do not drive routing.
-- AAS instrument detail (flame vs graphite furnace), reference materials, LODs, and per-metal QC are not reported by the source; the methods section reflects only what is in the paper.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

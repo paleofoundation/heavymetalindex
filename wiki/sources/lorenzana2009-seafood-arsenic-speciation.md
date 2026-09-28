@@ -70,15 +70,6 @@ The authors surveyed journal articles and USEPA documents that reported arsenic 
 
 This review supports seafood evidence routing as speciation context rather than as a primary occurrence dataset. It is useful for documenting why total arsenic cannot be silently treated as inorganic arsenic in fish, shellfish, or seaweed, and why literature-default iAs fractions are weak for contaminated-site assessments. Downstream occurrence pooling should use primary studies from the review when available, not this review table as a substitute for sample-level data.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; abstract, Approach, Table 2, Table 3, Results, and Discussion/Conclusions were checked in `/tmp/f3_texts/lorenzana2009.txt`.
-- DOI `10.1080/10807030802615949`, raw handle `MFK_lorenzana2009`, and cite-key checks found no existing source page before creation.
-- Values are preserved as the review reports them, including separate dry-weight and wet-weight basis labels. No unit conversion or cross-basis pooling was performed.
-- Speciation: all key values distinguish total arsenic from inorganic arsenic. The page does not treat total arsenic as inorganic arsenic.
-- Brand firewall: not applicable; the review discusses literature and site-assessment datasets, not branded products.
-- source metadata slugs were checked against the editorial record; broad seafood, shellfish, fish, and seaweed routing is used because the review spans multiple species and markets.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -92,26 +92,10 @@ Harvest at day 50. Plant tissue dried at 70 °C for 48 h. Quadruplicate analyses
 
 **App.** Limited direct app utility. The source documents that leafy-vegetable Cd uptake from heavily Cd-spiked soil can be reduced by an order of magnitude with humic-substance amendment, which is a supply-chain context fact rather than a per-product occurrence value. The dry-weight leaf Cd values (0.20 mg/kg in the no-Cd control) are within the range of normal background leafy-vegetable Cd and should not be used as occurrence percentiles for the leafy-greens commodity.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[ingredients/leafy-greens]]
-
-## Verification notes
-
-- Discovery context: this PDF was auto-fetched by the `discover` skill against the seasonal-geographic-variance gap on a keyword match for "mineral water + Cd + product." The match is a false positive on every term: the paper is a Cd-soil-amendment pot study on garden cress (a leafy vegetable), with no mineral water, no drinking-water analysis, no commercial product, and no seasonal/geographic variance design. The paper is nevertheless on-topic for HMI as an agronomic Cd-mitigation reference for the leafy-greens supply chain. The auto-fetcher's filename keyword string is retained in raw_handle for daemon traceability but is not descriptive of the paper's content.
-- Brand-firewall check: no consumer brands named. The HA+FA product (Powhumus, Humintech GmbH) is a soil-amendment input, not a food brand; named per Part 12 scientific-method/input exception. Scientific equipment named (PerkinElmer Optima 2100 DV ICP-OES, Vapodest 10 Rapid Kjeldahl Distillation Unit, Konica Minolta SPAD-502 chlorophyll meter, CID Bio-Science CID-202 leaf area meter, Olympus light microscope, SPSS 20) retained per Part 12 scientific-method exception.
-- Wiki/HMTc-firewall check: no HMT&C-threshold comparisons or harmonization. No consumer-protection or regulatory comparators are cited by the source for Cd, so none are reproduced; the discussion is framed in agronomic/phytoremediation terms (plant growth, antioxidant enzymes, uptake/translocation) not food-safety thresholds.
-- Taxonomy: routed to the existing `ingredients/leafy-greens` umbrella because garden cress is a leafy vegetable entering the salad/garnish/microgreen supply chain. No species-level ingredient slug exists for garden cress, and the 5-paper threshold for a stand-alone `garden-cress` ingredient page is not met by this single source.
-- Matrices set to `leafy-vegetable` and `agricultural-soil`; no product-shaped slug is appropriate because the study is a controlled pot experiment with artificial Cd spiking, not a finished consumer product. `products: []` is correct.
-- Metals set to `[Cd]` only. The paper measures plant tissue N, P, K, Ca, Mg, Fe, Cu, Mn, Zn, B, and Cl, but these are plant mineral-nutrient measurements (essential elements for plant nutrition), not heavy-metal contamination measurements. Including Cu, Mn, Zn in the metals field would mischaracterize the paper as a Cu/Mn/Zn contamination study.
-- Evidence tier: B. Greenhouse pot study with a single cultivar in a single soil type with a commercial soil-amendment product whose manufacturer is named as a funding acknowledger. Solid experimental design with quadruplicate measurements, but the funding tie and the single-system scope keep this below A-tier.
-- Cd reduction figure: the abstract reports a 95% reduction in Cd uptake at 7000 mg/L HA+FA at 200 mg/kg soil Cd; Table 5 computation gives 96.9% at 200 mg/kg Cd and 97.4% at 100 mg/kg Cd. The wiki page reports both the abstract figure (as the paper states it) and the Table-5-derived figure, with the abstract framing flagged as a rounded approximation.
-- Audit editorial review (2026-05-30, fresh-context general-purpose agent) returned REVISE with three ⚠️ concerns; verified all three against the PDF and applied:
-  - (a) Audit flagged that the abstract's "+537% MP" claim contradicts Table 2's at-same-Cd-dose decrease (41.94 → 37.88). Verified against PDF p.4 Results text and Table 2 — the +537% only reconciles vs the 0/0 absolute control. Applied: added paper-internal-inconsistency caveat in Speciation and methods caveats.
-  - (b) Audit flagged that the abstract's Mn +143% / Cu +1% figures do not reconcile with Tables 4–5. Verified against PDF p.5 Table 5 (Mn cell 200/7000 = 16.93 vs 200/0 = 16.90 ≈ +0.2%; Cu cell 200/7000 = 7.90 vs 200/0 = 3.24 ≈ +144%) — confirmed Mn and Cu values are transposed in the abstract. Applied: corrected Key numbers paragraph to flag the transposition with cell-level values; preserved the abstract figures for traceability.
-  - (c) Audit flagged Powhumus composition conflated "ash content (mass)" with "element content on ash-free basis" and truncated the "10–12% K2O" range to "12% K2O". Verified against PDF p.2 — confirmed. Applied: rewrote the Powhumus composition line to separate ash content (22.9%), Powhumus product element content (C 2, H 2.8, N 1.3 % mass), and ash-free element content (C 47.1, H 3.63, N 1.69, O 47.58 % wt), and restored the 10–12% K2O range.
-- Audit's three other checks (slug-validity, brand-firewall, HMTc-firewall) all returned ✅ with no findings. Numeric fidelity check otherwise ✅ across all 12 cells of Table 5, Tables 1–3 biomass/stress markers, soil characterization, and Cd reduction recomputations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

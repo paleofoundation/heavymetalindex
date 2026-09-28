@@ -57,7 +57,6 @@ Inorganic lead as nitrate or acetate was absorbed through human forearm skin. Of
 | Pb | urine | 2.2 to 3.5 | ug/g creatinine | range | subject B | Table 4 text p.7 (printed 61) |
 | Pb | urine | 3.0 ± 0.5 | ug/g creatinine | mean | subject B | p.7 (printed 61) |
 
-
 ## Methods (brief)
 
 Lead was applied on a membrane filter to the left arm, sometimes occluded. Sweat was collected from the opposite arm by iontophoresis or in a sauna. Lead carbonate (6.6 mg, 66 atom percent 204Pb) was not absorbed until converted to nitrate. Lead metal powder and PbO dissolution and 210Pb uptake into erythrocytes were measured in vitro.

@@ -71,26 +71,11 @@ Non-systematic invited narrative review for the Current Opinion in Toxicology th
 
 **App:** The Codex regulatory limits table provides authoritative caps for app risk-flagging at the ingredient-class level (Pb cereal grains 0.2 mg/kg, Cd rice 0.4 mg/kg, As rice 0.2 mg/kg, etc.). Primary concentration findings cited here are not direct app inputs; the cited primary studies, if ingested separately, would feed the synthesis layer.
 
-## Verification notes
-
-- **2026-05-18 (editorial review, merge-enhance):** Re-read of full 6-page PDF against the prior page (updated 2026-05-14, `raw_handle: papers-cube`). The prior page was substantively correct in outline but defective in several specifics; corrections below.
-  - `raw_handle` updated from legacy `papers-cube` to canonical v2.0 `PCMF_afonne2020`.
-  - Added missing `raw_sha256` (`41a4150…b5cd`) and `access_url`.
-  - `evidence_tier` lowered from A to B to match the precedent for peer-reviewed narrative reviews (e.g. [[sources/munir2022-heavy-metals-natural-foods-review]]). Current Opinion in Toxicology is peer reviewed, but this is a non-systematic six-page review with no primary measurements, no PRISMA, no risk-of-bias assessment, and entirely tertiary concentration data — per Part 13 conventions this is a B-tier secondary source.
-  - Codex Table 1 corrected: prior page stated `As: no Codex ML specified in this review (cited as unspecified)` — the review's Table 1 actually lists arsenic Rice (0.2 mg/kg) and Vegetable oils (0.1 mg/kg). Spurious tail `rice 0.2 mg/kg, vegetable oils 0.1 mg/kg` that the prior page had appended to the Cd row (where the review lists no such Cd values) has been removed.
-  - Tanzania finding corrected: prior page narrowed Koleleni and Mbike 2018 to "Hg above maximum tolerable limits"; the review's text and the cited reference describe a broad XRF heavy-metals survey around the Namungo gold mine in maize grain, not an Hg-specific finding.
-  - Iruekpen Nigeria finding (Afonne et al. 2017, ref [16]) clarified: prior page conflated HRI / THQ / HI. Per the review's own paraphrase, THQ Cr > 1 in 6 samples and THQ Pb > 1 in 2 samples; HI > 1 in 7 samples. Detection ranking (Zn > Pb > Cu > Cr > Ni) added.
-  - Guo et al. 2018 wheat finding expanded: prior page noted "child THQ for As > 1" only; review reports root > leaf > stem > grain accumulation pattern, Cd > As ≈ Pb in accumulation, As THQ > 1, total THQ 1.82 (children) and 1.60 (adults).
-  - Water-spinach paper-internal inconsistency surfaced: review body says "Dutch village habitat around a municipal solid waste landfill" while reference [18] (Vongdala et al. 2019) is a Vientiane (Laos) MSW-landfill study. Reported here as the review states it, with the inconsistency flagged so downstream synthesis resolves to the primary (Laos).
-  - Metals source metadata expanded to include `iAs` (rice arsenic discussed substantively; Codex rice 0.2 mg/kg limit applies to inorganic arsenic per CXS 193-1995). `tAs` retained for the general arsenic discussion in non-rice matrices.
-  - Ingredients source metadata: corrected `[[ingredients/potato]]` → `[[ingredients/potatoes]]` (taxonomy slug is plural); added `[[ingredients/yam]]` and `[[ingredients/leafy-vegetables]]` (both named substantively in the review and both have existing pages); removed `[[ingredients/cassava]]` because no `ingredients/cassava` page exists in the current taxonomy (cassava remains discussed in the body; new-ingredient-page question deferred to the auto-stub script, not created here per skill hard-constraint).
-  - Jurisdictions extended from prior `[NG, CN, TZ, SK, KS]` to include `BD` (Bangladesh, ref [38]) and `LA` (Laos, ref [18]). Kosovo continues to use `KS` for consistency with the prior page; this is non-ISO-3166 (ISO uses `XK`) and should be reconciled in a future taxonomy pass.
-  - Legacy heading style left intact (`## Implications`, `## Wiki pages updated on ingest`) because the current Part 6 template still includes them; firewall-sensitive language inside Implications was tightened to keep the page in the literature-baseline register and to avoid threshold-relevance phrasing.
-- **2026-05-18 (audit editorial review verdict REVISE; verified against PDF — applied):** editorial review flagged the Fan et al. 2017 line "arsenic and cadmium in brown rice exceeded regulatory limits" as a soft overreach. Re-read of PDF page 3 confirms the review's body text states only "the concentrations of arsenic in brown rice near three mines exceeded regulatory limits [29]"; cadmium's role per ref [29] is as the dominant contributor (99.77%) to total cancer risk, not as a stated regulatory-limit exceedance. Corrected.
-- **2026-05-18 (audit editorial review ❌ on `products/root-tuber-vegetables`; verified against live wiki — finding rejected as false positive):** editorial review flagged `[[products/root-tuber-vegetables]]` as missing from the taxonomy snapshot. Verified the linked reference record exists in the live wiki (committed 2026-05-17 16:12) and the routing audit accepts it as a `locked_hmtc_row` generating a `direct_evidence` row for this source. The 2026-05-17 taxonomy snapshot (the editorial record, generated_from commit e442cbe) is stale relative to live state; this is a snapshot-refresh issue, not a wiki-page defect. Per the audit-editorial review instruction set, slugs valid in live state but missing from the snapshot should be flagged ⚠️ stale-snapshot rather than ❌; finding rejected.
-- **2026-05-18 (audit editorial review ⚠️ on matrices `root-tubers`/`plant-food`; verified — finding rejected as stylistic note):** editorial review flagged these as novel matrices values. Verified both appear in other source pages in the corpus and the matrices field is free-form (not bound to the taxonomy snapshot). No defect; finding rejected.
-
 ## Related evidence
+
+- [[sources/munir2022-heavy-metals-natural-foods-review]]
+- [[ingredients/potato]]
+- [[ingredients/cassava]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-inorganic]]

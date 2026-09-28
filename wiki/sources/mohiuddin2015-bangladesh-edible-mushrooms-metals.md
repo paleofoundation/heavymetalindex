@@ -45,24 +45,13 @@ The authors collected edible mushroom varieties from Bangladesh and analyzed pro
 
 This source contributes Bangladesh edible mushroom dry-basis occurrence data for [[metals/lead]], [[metals/chromium]], [[metals/cadmium]], and [[metals/arsenic-total]]. The source is especially useful for censored Cd and total As, because both are reported below 0.01 ug/g across the sampled set. It should not be pooled with fresh-basis mushroom results without moisture or basis conversion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/arsenic-total]]
-- [[metals/chromium]]
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- The filename contains 2016, but the PDF citation and publication line show volume 1 issue 3, pages 495-501, 2015, with online publication dated 30 December 2015. The source page uses the PDF publication year and cite key year 2015.
-- Arsenic is total arsenic in the heavy-metal table. No inorganic arsenic speciation is provided.
-- Cd and As are censored at the paper's stated detection limit of 0.01 ug/g.
-- The table appears to provide sample/group entries rather than a retail-market probability sample, so downstream use should preserve the source's Bangladesh collection-frame context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -122,16 +122,7 @@ No arsenic speciation (total As only). No mercury speciation (total Hg only). No
 
 **App:** The 8-region per-region breakdown provides the data structure for regional sub-profiles on the avocado ingredient page. La Libertad and Ica account for the bulk of Peruvian export volume; their regional distributions should anchor app default risk estimates for avocado in the absence of known origin. The wet/dry-weight basis caveat (see Verification notes) is load-bearing for any consumer-facing translation.
 
-## Verification notes
-
-- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had four schema-era defects: (1) `raw_handle: manual-fetch-source-retrieval` (generic, not file-specific); (2) `raw_path` pointed to a non-existent stub `P0311.pdf` rather than the actual filename; (3) `access_url`, `raw_sha256`, `no_doi_assigned` absent; (4) `products: []` despite this being a food paper (flagged as advisory in `routing_malformed.csv`). All four corrected. Also fixed: Key numbers section now distinguishes per-region soil/fruit means (presented as Table 2 in the source) from the "across-all-regions" range statements in the abstract; previously the page presented Lima-row means (76.17 ± 17.35 As, 0.55 ± 1.04 Cd, 25.35 ± 6.02 Pb) as if they were pooled across all eight regions.
-- **Basis caveat (dry weight).** All fruit concentrations in this study are reported on dry-weight basis (samples dried at 70 °C / 24 h before grinding). The 2025 RASFF Peruvian-avocado Cd alerts cited in the introduction (≤0.10 mg/kg above the EU 0.05 mg/kg Cd ML for fruits) are on fresh weight per RASFF convention. The source itself does not state a moisture-correction factor and presents its dry-weight values directly against fresh-weight regulatory benchmarks. Resolution of this dry-weight / fresh-weight basis question belongs in the Part 9 synthesis pass on the avocado ingredient page or on the EU 2023/915 regulation page; this source page reports what the source reports.
-- **Speciation.** Paper did not measure inorganic As, methylmercury, or Cr-VI. source metadata uses tAs, tHg, Cr accordingly.
-- **Brand firewall (Part 12):** no brands named in the source; method-section vendor names (Agilent Technologies, Memmert, Eisco Scientific, Trittón Perú, Whatman/Cytiva, Palisade @Risk) are scientific-method references and retained per the 2026-05-17 audit exception.
-- **No HMTc threshold proposals or consumer translation in this page** (Part 2 firewall). The Implications section flags relevance to HMTc and to the app but does not propose threshold values or write consumer-facing advisories.
-- **Audit editorial review 2026-05-25 (REVISE):** flagged that an earlier draft of the Basis caveat applied an external 70–75 % Hass moisture-content claim to compute fresh-weight equivalents (0.130 mg/kg dry-weight → 0.033–0.039 mg/kg fresh weight) and concluded the source's maximum sample was "at or just below the EU ML... not above it." Verified against source: the moisture-correction calculation was the wiki's own cross-source synthesis, not in the paper. The conclusion also softened the source's framing of the regulatory exceedance. Both removed; basis-reconciliation deferred to Part 9 synthesis. Also flagged: Ica omitted from the highest-HI-at-95th-percentile list (PDF p.14 names Ica, La Libertad, Lima). Verified and corrected.
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/avocado]]
 - [[products/fresh-fruit]]

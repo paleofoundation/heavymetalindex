@@ -54,7 +54,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/hernandez-montoya2026-heavy-metals-foods-review|Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety]]<span class="hmi-ref-meta">Hernández-Montoya DA, Castañeda-Miranda AG, Martinez-Fierro ML, Talavera-Lopez A, Sandoval-Aréchiga R, Gomez-Rodriguez JR, et al. · Sustainability · 2026 · [doi.org/10.3390/su18094280](https://doi.org/10.3390/su18094280)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
@@ -64,7 +64,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -77,7 +77,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 Guava (Psidium guajava) is a tropical fruit cultivated dominantly in India, Pakistan, Mexico, Brazil, Egypt, Thailand, and across Latin America and Southeast Asia. Guava plants accumulate moderate heavy-metal load via soil-uptake and atmospheric deposition; warmer growing climates with documented industrial and agrochemical-contamination histories drive higher baselines than temperate fruit production. Guava is consumed fresh, as juice, in purees, and in dried/dehydrated products including guava paste (an important confectionery ingredient in Latin American cuisine). The HMTc panel concerns for guava are Pb and Cd at moderate levels reflecting tropical-region production baselines.
 
-The data gap status across analytes in the body table reflects sparse guava-specific quantitative data in the current routing audit. The synthesis is grounded in the broader tropical-fruit and tropical-vegetable literature in [[sources/hernandez-montoya2026-heavy-metals-foods-review|Hernández-Montoya 2026]] and the [[ingredients/fruits|fruits]] aggregate page.
+The data gap status across analytes in the body table reflects sparse guava-specific quantitative data in the current source routing. The synthesis is grounded in the broader tropical-fruit and tropical-vegetable literature in [[sources/hernandez-montoya2026-heavy-metals-foods-review|Hernández-Montoya 2026]] and the [[ingredients/fruits|fruits]] aggregate page.
 
 ## Ranges by source, region, and variety
 

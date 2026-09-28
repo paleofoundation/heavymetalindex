@@ -92,7 +92,7 @@ Total As was determined by ICP-MS after acid digestion in PTFE vessels in a micr
 
 This source provides a primary, sample-level occurrence dataset for algae and cyanobacteria supplements on an as-sold basis. It is especially important because it separates total arsenic from inorganic arsenic and DMA, and because the brown-algae/kelp subset shows higher total arsenic while individual samples vary substantially in inorganic arsenic. The page should not be used to infer brands or product rankings; the source anonymizes samples as FS1-FS33 and reports ingredient/species categories rather than brand-linked contaminant values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-algae-seaweed-based]]
 - [[products/dietary-supplements]]
@@ -100,15 +100,6 @@ This source provides a primary, sample-level occurrence dataset for algae and cy
 - [[ingredients/herbal-botanicals]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1080/19440049.2021.1877834`, raw handle `MFK_cheyns2021`, title text, or cite key `cheyns2021-algae-cyanobacteria-supplements-arsenic`.
-- All sample-level concentration values in the Key numbers table were rechecked against `/tmp/hmi-seaweed-032.txt`, extracted with `pdftotext -layout`. The rows are copied from Table 1 in source order; `na` and `<` censoring markers are preserved.
-- Units are preserved as the source reports them: Table 1 concentrations are `µg g−1`, abstract and text ranges use `mg/kg` or `mg kg−1`, and exposure values use `µg kgbw−1 d−1`. No unit conversion was performed.
-- Speciation check: `Astot` is recorded as total arsenic; `Asi` is the source's measured inorganic arsenic fraction after extraction/oxidation; DMA and AB are not collapsed into total or inorganic arsenic. The `Astot-AB` metric is the source's potentially toxic fraction, not a measured inorganic-arsenic value.
-- Brand firewall: the page retains only anonymized source sample IDs (FS1-FS33) and species/formulation categories; no brand names or retailer names are attached to values.
-- Missing-slug note: the taxonomy snapshot has no exact ingredient slugs for `Chlorella`, `Spirulina`, `cyanobacteria`, `Ascophyllum`, `Fucus`, `Macrocystis`, or `Lithothamnium`. source metadata uses broad existing `seaweed`, `herbal-botanicals`, `supplements-algae-seaweed-based`, and `dietary-supplements` slugs; exact organism names remain in source text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

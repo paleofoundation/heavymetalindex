@@ -70,13 +70,10 @@ The cooking-doesn't-reduce-MeHg finding sits alongside two other load-bearing fi
 
 The narrow exception worth naming: certain Pb and Cd content in finfish, primarily concentrated in skin and subcutaneous fat, can be modestly reduced (10-20%) by skinning and trimming before cooking. This is a small effect that primarily matters for whole-fish preparations where skin would be consumed; it does not generalize to MeHg.
 
-## Downstream pages updated
+## Related pages
 
-- [[products/seafood]] — Levers to reduce contamination section includes the "cooking does not reduce MeHg" finding under Processing levers.
-- [[products/canned-fish]] — same, with explicit note that canning is a thermal-and-pressure process that does not reduce MeHg.
-- [[products/fresh-fish]] — same, with note that freezing/thaw cycles and all cooking methods leave MeHg intact.
-- [[products/fish-containing-baby-foods]] — same finding applies; infant-feeding messaging especially benefits from explicit treatment.
-- [[metals/mercury-methyl]] — Toxicology and Analytical methods sections cover the mechanism.
+These findings are also recorded on [[products/seafood]], [[products/canned-fish]], [[products/fresh-fish]], [[products/fish-containing-baby-foods]], and [[metals/mercury-methyl]].
+
 
 ## Anchor sources
 
@@ -85,14 +82,11 @@ The narrow exception worth naming: certain Pb and Cd content in finfish, primari
 - [[sources/farina-rocha-aschner-2011-mehg-mechanism]] — Mechanism reference for MeHg-cysteine binding, intestinal absorption rate.
 - [[sources/coe2023-gut-microbiome-methylmercury-demethylation]] — Gut-microbiome MeHg demethylation evidence; relevant for fermented-fish open question.
 
-## How this page was promoted
-
-Established 2026-05-18 from the seafood-axis ingest and synthesis work. The mechanism evidence (cysteine-binding, intestinal absorption) is decades-established in the toxicology literature; the comparative MeHg-vs-preparation-form measurements were consolidated in the wiki's evidence base during the 2026-05-18 manual-fetch corpus ingest.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -104,7 +98,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/bfr2024-methylmercury-fish-seafood-germany|Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study]]<span class="hmi-ref-meta">German Federal Institute for Risk Assessment (BfR) · BfR Opinion 023/2024 · 2024 · [doi.org/10.17590/20240626-094256-0](https://doi.org/10.17590/20240626-094256-0)</span><span class="hmi-ref-tag">Government</span>

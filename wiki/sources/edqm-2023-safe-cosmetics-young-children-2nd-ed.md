@@ -164,22 +164,6 @@ Jurisdiction: the document is binding (qua Resolution) on the States Parties to 
 - 1st edition (English only): EDQM. 2012. *Safe cosmetics for young children*.
 - Reference [1] in the document: Scientific Committee on Consumer Safety (SCCS). *Notes of Guidance for the testing of cosmetic ingredients and their safety evaluation*, 12th revision, 15 May 2023, SCCS/1647/22. <https://health.ec.europa.eu/publications/sccs-notes-guidance-testing-cosmetic-ingredients-and-their-safety-evaluation-12th-revision_en>
 
-## Verification notes
-
-Fresh ingest from the archived source file. Document is the 2nd edition of an EDQM/Council of Europe guidance document; not a primary research paper and not a binding hard regulation. Classified as `gov-guidance` rather than `gov-regulation` because the operative legal instrument is CM/ResAP (2012) 1 (a Recommendation to member states), not a directly-applicable Regulation. The EU-level binding instrument it operationalises is [[sources/eu-2009-1223-cosmetic-products-regulation]] Annex I Part B §3.
-
-No numerical contamination values are reported in this document; the Key numbers section therefore captures the operational thresholds the document does set (population definitions, skin/body-mass ratios, MoS defaults, microbiological caps, fluoride and terpene caps) plus the heavy-metal substance-by-substance hazard statements (lead, organic mercury) and the trace-impurity framework. This is consistent with the EU Reg. 1223/2009 source page (`eu-2009-1223-cosmetic-products-regulation`), which is similarly registered as a regulatory-framework page rather than a market-survey page.
-
-Page authored 2026-06-02 per the v2.0 ingest skill (Phase 1 single-PDF, Phase 2 auto-audit completed same date).
-
-Audit editorial review (2026-06-02, fresh-context general-purpose Agent) returned verdict PROMOTE. Checks 2-5 (slug vocabulary, speciation, brand firewall, wiki/HMTc firewall) returned ✅ clean. Check 1 (numerical fidelity) returned ✅ across all measured values and three ⚠️ on reference-identifier verifiability that the editorial review could not confirm because it had only partially extracted the EDQM References list (pp. 52-56). Independent verification against the References list confirms all three editorial review ⚠️ concerns are false positives:
-
-- Ref [42] (cited in wiki Annex/fluoride section as "Moraes et al. 2007"): verified against EDQM References p. 55 as Moraes SM, Pessan JP, Ramires I, Buzalaf MAR. Fluoride intake from regular and low fluoride dentifrices by 2-3-year-old children: influence of the dentifrice flavour. *Braz Oral Res* 2007;21(3):234-40. Surname "Moraes" and year 2007 are correct.
-- Ref [60] (cited in wiki sun-protection section as "SCCNFP position statement SCCNFP/0557/02, 2002"): verified against EDQM References p. 56 as Scientific Committee on Cosmetic Products and Non-Food Products Intended for Consumers (SCCNFP). Position statement on the calculation of the margin of safety of ingredients incorporated in cosmetics which may be applied to the skin of children. SCCNFP/0557/02, final; 2002. Document identifier and year are correct.
-- Refs [63] and [64] (cited in wiki sun-protection section as "SCCS Final Opinion SCCS/1625/20, 2021; Calafat et al. NHANES 2003-2004"): verified against EDQM References p. 56 as Calafat AM, Wong LY, Ye X, et al. Concentrations of the sunscreen agent benzophenone-3 in residents of the United States: National Health and Nutrition Examination Survey 2003-2004. *Environ Health Perspect* 2008;116(7):893-7; and Scientific Committee on Consumer Safety. SCCS Final Opinion on Benzophenone-3. SCCS/1625/20; 2021. NHANES 2003-2004 cycle, SCCS/1625/20 opinion number, and 2021 year are correct.
-
-No content changes were applied as a result of the audit. The PROMOTE verdict stands.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

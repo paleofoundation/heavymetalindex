@@ -58,15 +58,11 @@ Courses: Useful as an exposure-routing example for older housing, paint chips, s
 
 App: Context-only for exposure education and risk-factor language; it does not provide ingredient or product concentration distributions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[health/lead-exposure]]
 - [[testing/atomic-absorption-spectrophotometry]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, methods, Tables 1 and 4, results, and discussion. The abstract appears to omit the micro symbol in "4.3 +/- 0.75 ug/dL" in text extraction; the tables and surrounding prose use ug/dL for blood lead. Products and ingredients are intentionally empty because the paper does not measure a consumer-product concentration matrix. The source reports total lead only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

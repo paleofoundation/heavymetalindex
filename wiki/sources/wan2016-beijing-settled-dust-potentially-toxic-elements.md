@@ -63,7 +63,7 @@ App: Use as health/exposure context for dust ingestion, child hazard-index calcu
 
 Courses: Useful for teaching environmental matrix fit, total-element versus species-specific analytes, enrichment factors, and how an exposure model can identify arsenic, lead, and antimony as dominant hazard contributors even when several other elements are measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[health/index]]
 - [[testing/index]]
@@ -79,10 +79,6 @@ Courses: Useful for teaching environmental matrix fit, total-element versus spec
 - [[metals/barium]]
 - [[metals/vanadium]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-This page was built from the full PDF text, including Table 2, Table 4, and Appendix Table A1. The concentration table is primary analytical data for settled dust and is retained as context-only evidence because the matrix is not a product, food, ingredient, or consumer-goods material. The source reports arsenic as total As by digestion/ICP-MS; it does not provide inorganic arsenic speciation. No brand names or product labels are present.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

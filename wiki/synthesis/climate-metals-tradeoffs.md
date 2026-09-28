@@ -60,16 +60,10 @@ Three secondary questions remain open. First, the cadmium trade-off in rice has 
 
 The synthesis position is provisional and explicit about its provisionality. Re-synthesis is expected when corroborating studies enter the corpus, when commercial AWD rice cadmium data become available, or when an independent freshwater fish dataset from a non-Chinese watershed confirms the methylmercury projection.
 
-## Downstream pages updated
+## Related pages
 
-The findings on this page have been propagated to the following downstream wiki pages (2026-05-13):
+These findings are also recorded on [[ingredients/rice]], [[ingredients/freshwater-fish]], [[products/baby-cereals-dry-rice-based]], [[products/fish-containing-baby-foods]], [[metals/mercury-methyl]], and [[metals/cadmium]].
 
-- [[ingredients/rice]] — new "Irrigation-management cadmium risk" H2 section; `irrigation-water-management` added to `drivers`
-- [[ingredients/freshwater-fish]] — new "Climate-driven methylmercury trajectory" H2 section; `climate-driven-methylation` added to `drivers`
-- [[products/baby-cereals-dry-rice-based]] — AWD trade-off added to "What Drives Variance Across Brands"
-- [[products/fish-containing-baby-foods]] — climate-driven MeHg trajectory added to "What Drives Variance Across Brands"
-- [[metals/mercury-methyl]] — new "Climate-driven enhancement of MeHg production" H2 section
-- [[metals/cadmium]] — irrigation trade-off added to "Food sources" section
 
 ## Anchor sources
 
@@ -77,16 +71,11 @@ The findings on this page have been propagated to the following downstream wiki 
 - [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]]. *Controlling exposure to As and Cd from rice via irrigation management*, Environmental Science and Technology. Six irrigation treatments at U. Delaware paddy mesocosm, two growing seasons (2021-2022), n=3 replicates per treatment; iAs by IC-ICP-MS, Cd by ICP-MS.
 - [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences. Approximately 13,000 fish mercury samples across 164 sampling sites in China, 2005-2020; random forest model coupled with SSP2-4.5 and SSP5-8.5 climate scenarios, projected to 2031-2060 and 2071-2100.
 
-## How this page was promoted
-
-This synthesis page was promoted from the routing layer on 2026-05-13. The three anchor sources were ingested across two parallel sessions (Claude in Obsidian doing P4 bulk ingest; Claude Code Tier 2 source-legend filling) over the prior 24 hours. The thematic cluster was first surfaced in the P4 batch 9 status read on 2026-05-13: Obsidian Claude noted that Wu 2025 (batch 9), Seyfferth 2025, and Limmer 2024 (both ingested earlier in the seasonal-geographic-variance batch) independently document climate-mediated heavy-metal trade-offs in rice and freshwater fish, and that the convergence warranted a dedicated synthesis page.
-
-The promotion criterion, refined here so it can be applied to future candidate threads, is documented at [[synthesis|the synthesis index]] under "When to promote a synthesis findings page".
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -98,7 +87,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1007/s10653-024-02116-x](https://doi.org/10.1007/s10653-024-02116-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>

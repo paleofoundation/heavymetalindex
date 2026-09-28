@@ -64,7 +64,7 @@ App: Adds category-level Van Province values for black pepper, cumin, and red pe
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -77,14 +77,6 @@ Microbiome: Not addressed.
 - [[ingredients/black-pepper]]
 - [[products/spices]]
 - [[products/condiments-general]]
-
-## Verification notes
-
-- The PDF prints DOI `10.53424/balikesirsbd.1160866`, identifies the journal as Balikesir Health Sciences Journal / BAUN Health Sciences Journal, and provides a citation line for Mercan Yucel U. (2022), 11(Supplement 1): 7-14.
-- The article is bilingual Turkish/English. The English abstract, Turkish abstract, and Table 2 agree on the core mean values for Ni, Cd, Pb, and Al; Table 2 provides SDs for each reported heavy-metal mean.
-- `matrices: [spices]` is used rather than a packaging-specific term or a basis label. The unpackaged retail sample frame and dry/as-sold spice basis are documented in the opening prose, Key numbers, and Methods sections.
-- The source reports `As` without species separation. This page uses `tAs` and links only to total arsenic, not inorganic arsenic.
-- The paper does not name consumer brands. It samples unpackaged spices from shops and markets, so no brand-firewall redaction is needed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

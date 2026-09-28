@@ -47,7 +47,7 @@ A total of 163 yellowfin tuna and swordfish were obtained from fishermen's catch
 
 This source supports seafood context for Indonesian tuna and swordfish export/consumption safety, but the abstract-level extraction gives compliance/risk summaries more clearly than individual concentration means. Use the full tables before pooling numeric occurrence distributions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
@@ -57,12 +57,6 @@ This source supports seafood context for Indonesian tuna and swordfish export/co
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.14202/vetworld.2023.858-868 and the downloaded PDF.
-- The title uses "Hindian" in the source; this appears to mean Indian Ocean, but the source title is preserved as published.
-- Autonomous audit 2026-06-09 added the headline Cd Pacific-vs-Indian finding, Table 1 ranges, the 0.0025 mg/kg PTWI comparator, sample size, and CRM-DORM/wet-destruction methods detail; added `[[products/fish-marine-predatory]]` and `[[regulations/eu-1881-2006-contaminants-superseded]]` routing destinations. Audit also flagged `matrices: ["yellowfin-tuna"]` as not in the snapshot ingredient/product lists; rejected as a false positive — `matrices` uses a separate controlled-vocabulary bare-string field per the audit prompt itself, and `yellowfin-tuna` is the established matrix string used by five other tuna/swordfish source pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

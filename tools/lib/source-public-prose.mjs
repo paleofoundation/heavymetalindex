@@ -49,6 +49,7 @@ export function cleanSourcePublicProse(body) {
   replace(/\bsubagents?\b/gi, "editorial review", "execution role retained internally")
   replace(/\bfrontmatter\b/gi, "source metadata", "public metadata terminology")
   replace(/^## Wiki pages updated on ingest\s*$/gm, "## Related evidence", "reader-facing section title")
+  replace(/^## Wiki pages this source may touch\s*$/gm, "## Related evidence", "reader-facing section title")
   text = text.replace(/\u0000HMI_GENERATED_(\d+)\u0000/g, (_, i) => protectedBlocks[Number(i)])
   return { body: text, changes }
 }

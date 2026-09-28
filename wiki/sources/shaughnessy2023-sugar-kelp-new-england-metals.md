@@ -81,7 +81,7 @@ Courses: Demonstrates within-blade contamination gradients (base versus distal t
 
 App: Adds farmed and wild New England sugar kelp occurrence data with species and region retained; downstream synthesis will determine whether seaweed-kelp foods warrant a higher consumer-flag tier than other seafood matrices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
@@ -96,12 +96,6 @@ App: Adds farmed and wild New England sugar kelp occurrence data with species an
 - [[regulations/oehha-arsenic-prop65]]
 - [[regulations/oehha-cadmium-prop65]]
 - [[regulations/oehha-lead-prop65]]
-
-## Verification notes
-
-Per-sample concentration distributions and site-level means live in Supplementary Tables S1-S12 of the source (deposited at https://github.com/BriKS0213/Shaughnessy_Metals_2022, DOI 10.5281/zenodo.7126448). The main-text "% of MCL" and "grams safe to eat" values reported here are reproduced from Tables 3 and 4. Synthesis pools should pull the supplementary per-sample data rather than relying on the summary percentages.
-
-The matrices vocabulary entry `sugar-kelp` is not in the standard taxonomy-snapshot list but is used consistently across sugar-kelp papers in the linked reference record; `seaweed` and `kelp` are added alongside it for fan-out routing. Mercury was measured as total mercury without speciation; `tHg` is used in `metals:` accordingly.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

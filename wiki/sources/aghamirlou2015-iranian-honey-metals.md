@@ -56,7 +56,7 @@ App: Honey can carry measurable Pb and Cd occurrence values; arsenic was below t
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
@@ -67,10 +67,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-The PDF title, author list, DOI, year, journal, license, methods, and Table 3 values were read from the auto-fetched PDF. The paper reports arsenic as total arsenic by ICP-OES and shows all regional arsenic entries as less than 11.87 ug/kg; it does not provide inorganic arsenic speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -135,42 +135,20 @@ Not applicable. This is a two-page legislative-advocacy factsheet, not an experi
 - Access date: 2026-06-09.
 - Acquisition path: included in the source-retrieval Agent Download Corruption Issue folder the archived source file, alongside the NY DEC cleansing-product disclosure BMP, EPA Safer Choice Standard 2024 and Master Criteria, the four Green Seal standards (GS-37 2024, GS-37 2009 comparison, GS-52 2022, GS-8 2022), the four EU Ecolabel documents (Factsheet, User Manual, JRC TR2/AHWG2 revision, EEB 30-year briefing), the Bello et al. 2009 occupational-exposure study, the David Suzuki Foundation toxic-cleaners web copy, two NIOSH HHE hospital-cleaning reports (2015-0053 and revised), and the WECF Women and Chemicals 2016 report.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[sources/nydec2020-cleansing-product-disclosure-bmp]] — sibling US state cleansing-product disclosure framework (New York). Structural-comparison reference.
-- [[sources/epa2024-safer-choice-standard-dfe]] — federal voluntary certification standard for cleaning products; complementary US regulatory context.
-- [[sources/epa2024-safer-choice-master-criteria-ingredients]] — companion ingredient-evaluation document for the EPA Safer Choice / DfE program.
-- [[sources/davidsuzuki2014-toxic-household-cleaners]] — sibling NGO educational document on cleaning-product chemicals (David Suzuki Foundation, Canadian-framed).
-- [[products/all-purpose-cleaners]] — within SB 258 scope (consumer and institutional cleaning products). Regulatory context.
-- [[products/window-glass-mirror-cleaners]] — within SB 258 scope (glass cleaners named in the factsheet body). Regulatory context.
-- [[products/carpet-cleaners]] — within SB 258 scope (carpet cleaners named in the factsheet body). Regulatory context.
-- [[products/pre-treaters-stain-removers]] — within SB 258 scope (stain removers named in the factsheet body). Regulatory context.
-- [[products/laundry-detergents]] — within SB 258 scope (laundry detergents discussed in footnote 12 wastewater paragraph). Regulatory context.
-- [[products/instant-air-refreshment-sprays]] — within SB 258 scope (air fresheners named in the factsheet body; aerosol-spray subcategory). Regulatory context.
-- [[products/gel-diffusers]] — within SB 258 scope (air fresheners named in the factsheet body; gel-diffuser subcategory). Regulatory context.
-- [[products/electric-plug-in-evaporators]] — within SB 258 scope (air fresheners named in the factsheet body; plug-in evaporator subcategory). Regulatory context.
-- [[products/household-specialty-cleaners-other]] — within SB 258 scope (catch-all for the factsheet's "more" cleaning-product list element). Regulatory context.
-
-## Verification notes
-
-- Identity-check results on 2026-06-09 against the linked reference record: DOI null (NGO advocacy factsheet, no DOI assigned); raw_handle grep for `MFK_california-sb258-factsheet-2017` returned no matches; cite-key grep for `bcpp2017` / `sb258` / `right-to-know` / `cleaning-product-disclosure` in the California domain returned no matches. The sibling [[sources/nydec2020-cleansing-product-disclosure-bmp]] page is a New-York-state document, not a SB 258 page. Ingested as NEW.
-- SHA-256 of the source PDF computed from disk on 2026-06-09: `efea0138d92228c6134541eca3c72ca1da8922e66b44f98f4280b22cca97ca79`.
-- The document has no DOI (NGO advocacy factsheet). `doi` is null.
-- Year set to 2017 on the basis of (i) PDF filename suffix `_2017`, (ii) internal references to footnotes accessed 21 August 2017, (iii) the bill name "the Cleaning Product Right to Know Act of 2017," and (iv) consistency with the campaign's pre-passage advocacy timeline (passage 15 September 2017, signature 15 October 2017). The factsheet PDF itself carries no explicit date.
-- Evidence tier set to C on the basis of: (i) the document is a two-page coalition advocacy factsheet, not a primary regulatory text, not a peer-reviewed study, and not an independent expert analysis; (ii) the authors are four advocacy organisations actively campaigning for SB 258 passage; (iii) substantive provisions are paraphrases of the bill rather than the binding statutory text; (iv) heavy-metal applicability is indirect via the 22 DTSC-curated lists (not enumerated in the factsheet). Tier C is consistent with the [[sources/davidsuzuki2014-toxic-household-cleaners]] sibling NGO-educational document in the same corpus folder.
-- Source type set to `ngo-advocacy` to distinguish from `ngo-educational` (David Suzuki consumer-education web copy) — this factsheet is explicitly an advocacy document supporting a specific named bill, not generic consumer education.
-- License set to "© 2017 coalition authors (Breast Cancer Prevention Partners / EWG / NRDC / Women's Voices for the Earth); public-domain factsheet distributed for legislative-advocacy purposes" — the four organisations distributed the factsheet publicly to support SB 258, and HMI treats it as redistributable in that capacity.
-- `metals: []` is intentional: the factsheet does not name any heavy metal in body text, headers, or footnotes. The Pb, Cd, As, Hg, Cr-VI, Ni capture by SB 258 is mediated indirectly through the 22 DTSC-curated chemicals-of-concern lists, but the factsheet itself does not enumerate which heavy metals are captured by which lists. Routing fan-out to `metals/*` pages is therefore not asserted at the source-page level; the SB 258 statutory text and DTSC inventory carry the element-level mappings if and when those pages are populated.
-- `ingredients: []` is intentional: the factsheet is a generic disclosure-framework document; no specific ingredient is named in scope.
-- `products: [...]` lists the nine cleaning-product taxonomy slugs currently in the linked reference record that map to product categories explicitly named in the factsheet's first sentence ("detergents, glass cleaners, carpet cleaners, stain removers, air fresheners, all-purpose cleaners and more"). The factsheet's "air fresheners" element is split across three sibling product slugs in the wiki taxonomy — `instant-air-refreshment-sprays`, `gel-diffusers`, and `electric-plug-in-evaporators` — corresponding to the aerosol-spray, gel-diffuser, and plug-in evaporator subcategories respectively. Routing fan-out is `regulatory_context` because no contamination values are reported. The product list is narrower than the [[sources/nydec2020-cleansing-product-disclosure-bmp]] list because that sibling document includes a 24-brick GS1 enumeration; the SB 258 factsheet does not enumerate covered product categories beyond the six examples plus "more."
-- `matrices: [household-cleaning-product]` matches the matrix used on the four sibling regulatory-context source pages in the same corpus folder.
-- `jurisdictions: [US-CA]` because the factsheet supports California state legislation. No other jurisdiction is asserted.
-- Wiki/HMTc firewall (Part 2): the factsheet is upstream of any HMTc threshold-setting work and does not propose any quantitative limit on any chemical in any product matrix. No Part 2 drift risk.
-- Brand firewall (Part 12): the factsheet does not name any commercial brand of cleaning product. No brand-firewall action required.
-- Quantitative content in this page (FM3 poll value, EPA indoor-air pollutant ratio, Kolpin et al. wastewater detection rate, US BLS occupational-demographic percentages, statutory-provision text quotations) is reproduced exactly from the source PDF with page and footnote locators throughout.
-- No new ingredient pages, no new product pages, no new regulation pages were created during this ingest, and the skill's hard constraints. The product list in source metadata draws only on existing the linked reference record slugs.
-- If a `regulations/ca-sb258-cleaning-product-right-to-know.md` page is ever needed (Step 0 Lock decision), this factsheet would be the principal pre-passage advocacy citation, with the binding statutory text at Cal. Health & Safety Code §§ 108950–108997 as the regulatory anchor and the DTSC Safer Consumer Products Regulations chemical inventory as the source for the 22 authoritative lists. The companion `California_SB258_Right_to_Know_Summary.pdf` in the same folder is processed separately and is expected to be the longer summary document (not this factsheet).
-- Audit editorial review (2026-06-09, v2 skill general-purpose audit) returned PROMOTE verdict with two ⚠️ concerns and zero ❌ definite-error findings. Concern (a) Check 2 — `odor-removers-hard-surfaces` was an inexact mapping for the factsheet's "air fresheners" element, since the wiki taxonomy carries three dedicated air-freshener product slugs (`instant-air-refreshment-sprays`, `gel-diffusers`, `electric-plug-in-evaporators`); verified against the linked reference record directory listing and against the taxonomy snapshot — finding correct. Applied: replaced the single `odor-removers-hard-surfaces` link with the three dedicated air-freshener slugs in source metadata `products:`, in the "Wiki pages this source may touch" section, and updated the Verification-notes product-mapping rationale paragraph to reflect the nine-slug product list and the air-fresheners three-way split. Concern (b) Check 3 — the bill-provenance paragraph (vote counts, signature date, Chapter 830 designation, codification at Cal. Health & Safety Code §§ 108950–108997) introduces facts external to the factsheet PDF. Verified: those facts are accurate to the California Legislative Information public record but the page does already explicitly frame them as contextual provenance ("the factsheet is undated within its body text but is internally consistent with mid- to late-summer-2017 drafting"), not as factsheet claims. Not applied as a substantive change because the framing is already correct; the audit-editorial review itself flagged this as "not blocking" and the verdict was PROMOTE. 0 findings rejected as false positives.
+- [[sources/epa2024-safer-choice-standard-dfe]]
+- [[sources/epa2024-safer-choice-master-criteria-ingredients]]
+- [[sources/davidsuzuki2014-toxic-household-cleaners]]
+- [[products/all-purpose-cleaners]]
+- [[products/window-glass-mirror-cleaners]]
+- [[products/carpet-cleaners]]
+- [[products/pre-treaters-stain-removers]]
+- [[products/laundry-detergents]]
+- [[products/instant-air-refreshment-sprays]]
+- [[products/gel-diffusers]]
+- [[products/electric-plug-in-evaporators]]
+- [[products/household-specialty-cleaners-other]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

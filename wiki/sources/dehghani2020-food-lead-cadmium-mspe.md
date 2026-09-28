@@ -53,7 +53,7 @@ The paper developed polythiophene-coated magnetic multi-walled carbon nanotubes 
 
 The source supports method-application occurrence context for Pb and Cd in tea, rice, infant formula powder, and cow milk. Because it is primarily an analytical-method paper with small sample coverage, it should not be treated as a market survey.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[ingredients/rice]]
@@ -64,16 +64,6 @@ The source supports method-application occurrence context for Pb and Cd in tea, 
 - [[products/infant-formula-powder]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The source table identifies two infant formula samples by company footnotes; those identifiers were not transcribed. The previous version of this page split the two infant-formula samples into "first sample / second sample" rows in Key numbers with distinct Pb and Cd values; under the strict 2026-05-17 reading of Part 12 the per-sample structure preserves a one-to-one back-mapping to the two named brands in the source table footnotes. Audit editorial review (2026-05-28) flagged this; verified against source — Key numbers now collapses both samples into a range with n=2 disclosure.
-
-Food solid values are reported as ug/g, while cow milk is reported as ug/L. Table 4 footnote states the values are averages with relative standard deviation of three determinations, so the parenthetical percentages are RSD values rather than concentration standard deviations. Methods section "Black Tea and Rice Samples" (page 511) describes drying at 110 °C before digestion, so the food solid values are on a dry-weight basis; this is now annotated in Key numbers.
-
-Audit editorial review (2026-05-28) also flagged `products/infant-formula-powder` as a missing slug; verified against the linked reference record and the products section of the editorial record — the slug exists and is valid, so the finding is a false positive and no correction was applied.
-
-The discovery daemon auto-fetched this paper twice — once against the rice/milk Cd gap (filename suffix `-cd_`) and once against the rice/milk Pb gap (filename suffix `-pb_`). Both files are byte-identical (SHA256 above) and both filenames are recorded in `near_duplicates`. The `-cd_` filename is the primary `raw_path` since it was ingested first; the `-pb_` filename is its duplicate and routes to the same source page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

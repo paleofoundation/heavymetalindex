@@ -50,16 +50,6 @@ Fifty canned tuna samples were obtained from a commercial tuna canning factory i
 
 This source contributes Libya/Mediterranean canned-tuna occurrence data for total mercury, cadmium, and lead. It is useful for canned-fish and predatory marine fish routing, but mercury should remain total-Hg context unless a later source provides methylmercury speciation or a documented conversion rule. The source does not report arsenic, methylmercury, inorganic mercury, or tin.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the title page, abstract, methods, recovery tables, Table 4, and discussion were readable, though the text layer renders "fish" with a ligature artifact AND drops the Greek mu (µ) symbol in unit headers — pdftotext renders "µg g⁻¹" as "mg g⁻¹" or "g g⁻¹". The published typeset PDF unambiguously prints µg g⁻¹ throughout (abstract p.341, results p.343, discussion p.344, Tables 1-4). All concentration units on this page are µg g⁻¹ wet weight (= mg kg⁻¹ = ppm); ppb conversions are shown alongside.
-- The PDF prints PII `S0308-8146(98)00008-9`; DOI was derived as `10.1016/S0308-8146(98)00008-9`. DOI/PII, raw handle `MFK_voegborlo1999`, and cite-key checks found no existing source page before creation.
-- All concentration values in Key numbers were checked against Table 4 and the abstract (typeset PDF, not pdftotext text layer).
-- Speciation: mercury is total mercury. The source discusses methylmercury historically but does not measure MeHg.
-- Brand firewall: the source uses factory/canned-tuna sampling at the Misurata canning factory, not consumer brand rankings.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- 2026-06-09 audit applied: corrected 1000× unit error (mg g⁻¹ → µg g⁻¹) in body prose, Key numbers table, and FAO/WHO limit reference. Numeric values themselves were correct; only the unit attribution was wrong because the ingest session trusted the pdftotext text layer rather than the typeset units.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

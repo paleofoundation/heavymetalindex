@@ -133,18 +133,15 @@ Statistical analysis: results are reported as detection counts, concentration ra
 - **Source-quality caveats for downstream rendering:** Single XRF surface screening on a small convenience sample (n=100) from a single 2013 collection window in one country; no replicate measurements, no LODs, no instrument-model documentation, no migration-basis comparator. Treat this source as occurrence-screening evidence rather than as compliance-grade total-content or migration evidence. Mercury detection is a single sample (n=1) and should not be propagated as a population estimate.
 - **Geographic/temporal scope:** Nepal 2013, import-dominated market (China 66%, India 4%, Nepal 2%, unlabelled 23%, other 5%). The detection-rate pattern (zero detections in 2 Nepal-manufactured samples, 56-75% in imported samples) is interesting but n for Nepal-manufactured is too small to interpret. The 12-year vintage of the report means the cited regulatory landscape (e.g., USA CPSIA, EU Toy Safety Directive 2009/48/EC) is summarised at 2013 baseline; verify currency against regulation pages before any HMTc-facing use.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/toys-painted]] — primary routing target. General toys with paint and surface coatings; the XRF surface-screening basis here measures exactly the painted/coated outermost layer that this row covers.
-- [[products/toys-substrate-materials]] — secondary routing target. Plastic, metal, wood, rubber, fabric, clay, foam, paper substrates were the underlying materials sampled; many of the detections (especially Br in plastic toys) are likely substrate rather than surface-coating in origin, but XRF cannot distinguish.
-- [[metals/lead]], [[metals/cadmium]], [[metals/chromium]], [[metals/mercury]] — occurrence-screening evidence at toy surfaces.
-- [[metals/mercury-total]] — single positive (n=1, 4.3 ppm); flag as screening-only.
-- Bromine — no metal page exists (Br is a non-metal halogen, outside the HMTc 10-analyte panel). Br findings are recorded here but do not route to any metal page.
-
-## Verification notes
-
-- 2026-05-18 fresh-context audit editorial review (editorial review) flagged the `products/toys-painted` and `products/toys-substrate-materials` slugs as not present in the 2026-05-17 taxonomy snapshot. Verified independently via direct filesystem read: both pages exist on disk as locked HMTc Category 21 (Children's Toys, Arts, and Crafts) scaffolds — Row 1 (toys-painted, updated 2026-05-18) and Row 2 (toys-substrate-materials, updated 2026-05-17). The taxonomy snapshot is dated 2026-05-17 at commit e442cbe and simply does not yet enumerate the Cat 21 scaffolds. Finding logged as false positive on slug existence; both slugs are valid routing destinations.
-- 2026-05-18 audit also confirmed all five checks clean on numerical fidelity (Pb/Hg/Cd/Cr/Br detection counts, ranges, percentages, composition + country + market-channel tables, questionnaire numbers, import trends, Table 3 ceilings), speciation discipline (XRF correctly mapped to tHg + Cr without speciation claims), brand firewall (Annex 1 brand-bearing item names — Nivia, Spider Man, Mickey, Angry Bird, Pizza Party Creatives — correctly aggregated to generic categories; Yuhan-Kimberly correctly framed as funder; FHAN/NBSM lab naming permitted under Exception 2), and Part 2 wiki/HMTc firewall (no threshold proposals, no consumer advisories, no cross-source synthesis). One internal-to-source numerical inconsistency surfaced: PDF Section 11.3 point 3 (p. 23) prints "9 ppm to 409.5 ppm" for the Cd range, while Table 5 (p. 22) and the Executive Summary (p. 4) both print "16.2 ppm to 409.5 ppm" — the Table-5 value is used here as the authoritative figure.
+- [[products/toys-painted]]
+- [[products/toys-substrate-materials]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/chromium]]
+- [[metals/mercury]]
+- [[metals/mercury-total]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

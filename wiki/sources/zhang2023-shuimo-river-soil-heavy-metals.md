@@ -63,7 +63,7 @@ App: Context only. The data can inform regional-risk flags or source-attribution
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/lead]]
@@ -75,16 +75,6 @@ Microbiome: Not addressed.
 - [[metals/mercury-total]]
 - [[mitigation/remediation-evidence]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF text, including the sampling-method section, analytical-method section, Table 1 soil-quality grading thresholds, Figure 2 concentration plot, the S1 worked grey-correlation matrix, Table 2 evaluation results, factor-analysis diagnostics, and the conclusion. The PDF does not publish a full numeric S1-S9 concentration table; only the S1 worked example is numerically tabulated in text, while the remaining zone averages are shown in Figure 2. For that reason, this page records exact S1 values and the source-reported max/min pattern from Figure 2 rather than inventing exact S2-S9 values from a visual chart.
-
-Speciation is not reported. Arsenic is routed as total arsenic, chromium as total chromium, and mercury as total mercury. The source states that Cd and Hg values were low or not detectable, but does not provide censoring limits or a numerical Cd/Hg table; the Cd/tHg source metadata entry marks screening coverage only, not benchmark-ready occurrence values.
-
-No brand names are present. Instrument and vendor names are analytical-method identifiers and are retained as scientific context. The data availability statement says the study data are available on request from the corresponding author and are not publicly available because they involve environmental-status information for Urumqi.
-
-Merge-enhance 2026-06-02: matrices was previously set to `[riparian-soil, riverbank-soil, watershed-soil, environmental-monitoring]`. The controlled matrices vocabulary in the editorial record only recognises `soil` and `sediment` for non-food/environmental samples. Downgraded to `matrices: [soil]`; the riparian/riverbank framing remains documented in `sample_population` and the page body where it belongs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -59,7 +59,6 @@ This page is HMTc Category 5 row 14 from the locked beverage architecture. It ex
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
 
-
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
 
@@ -102,12 +101,12 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 ## Source Evidence Inventory
 
-*Pending ingest. The routing layer populates this section from the source-page set declaring `products: [soft-drinks-carbonated-beverages]`.*
+*Sources for this row will be listed here once they are catalogued.*
 
 ## Broad Product Context: Author-Scope Index
 
 <!-- BEGIN: hmi-broad-context-sources -->
-*Pending ingest. The routing layer surfaces sources whose author-stated scope is broader than this row as they are added.*
+_Broader-scope sources for this row will be listed here when they are catalogued._
 <!-- END: hmi-broad-context-sources -->
 
 ## Levers to reduce contamination
@@ -127,12 +126,12 @@ HMT&C certification thresholds for products in this row are developed under the 
 
 ## Historical recalls and enforcement
 
-*Pending ingest. Regulatory events relevant to soft drinks and carbonated beverages will be added as agency records are routed to this row.*
+_Public regulatory events for soft drinks and carbonated beverages will be listed here when they are catalogued._
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

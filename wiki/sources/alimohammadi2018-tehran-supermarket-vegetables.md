@@ -80,18 +80,12 @@ Six vegetable types (Lactuca sativa, Brassica oleracea var. capitata, Solanum ly
 - Courses: Suitable case study for two methodology points relevant to brand QA and supply-chain audiences: (1) how seasonal sourcing geography affects market-basket metal loads even within a single municipality, and (2) why Pb and Cr drive cancer-risk and exceedance signals on root vegetables while As/Cd remain low in the same matrix.
 - App: Contributes occurrence data points to [[ingredients/cucumber]], [[ingredients/tomato]], [[ingredients/lettuce]], [[ingredients/cabbage]], [[ingredients/potatoes]], and [[ingredients/carrot]] for Pb, Cd, tAs, Cr, Cu, Ni, and Zn on fresh-weight basis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/vegetables]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/root-vegetables]]
 - [[ingredients/non-root-vegetables]]
-- [[ingredients/cucumber]]
-- [[ingredients/tomato]]
-- [[ingredients/lettuce]]
-- [[ingredients/cabbage]]
-- [[ingredients/potatoes]]
-- [[ingredients/carrot]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -101,19 +95,7 @@ Six vegetable types (Lactuca sativa, Brassica oleracea var. capitata, Solanum ly
 - [[metals/zinc]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/codex-cadmium-mls]]
-
-## Verification notes
-
-- Identity checks (DOI, raw_handle, cite-key surname/year) returned no existing wiki page; this is a fresh ingest.
-- Speciation: As reported by authors as total elemental arsenic (no iAs/tAs split), so this page routes As as **tAs**. Cr reported as total chromium, with explicit acknowledgement in §2.4 that Cr(VI) presence in vegetables is unlikely (Robson 2003) and ELCR was not computed for Cr; routed as **Cr (total)**, not [[metals/chromium-hexavalent]].
-- Paper-internal anomaly noted but does not block ingest: Table 3 (max/min/SD of metals, mg/kg) reports values for Cr, Cu, Ni, Pb, Zn that are inconsistent with the per-vegetable per-season means in Tables 4 and 5 — e.g., Table 3 lists Cr max as 0.151 mg/kg while Tables 4–5 report Cr means up to 1.104 mg/kg (potato, autumn). The SDs in Table 3 (e.g., Cr 0.312, Ni 0.799, Zn 1.233) are consistent with Tables 4–5 spreads, so the SD row appears correct while Max/Min appear typeset incorrectly. Tables 4 and 5 are used as the primary numeric anchor for this page; Table 3 is not relied on.
-- Brand firewall: no brands were named in the source. Methods names the instrument vendor (Spectro ARCOS-ICP-OES) and reagent supplier (Merck, Frankfurt) — preserved under the Exception 2 scientific-reproducibility carve-out.
-- Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisory language carried over from the source.
-- products: [] is intentional. This is raw fresh produce (not packaged formats); no product-page slug applies. Routing-malformed advisory for the missing products array is expected and does not indicate a defect.
-- Slug choices: paper categorizes tomato and cucumber as "fruits" (botanically fruit vegetables); routed via [[ingredients/non-root-vegetables]] umbrella plus the specific [[ingredients/tomato]] and [[ingredients/cucumber]] slugs. Potato routed as [[ingredients/potatoes]] (plural form is the canonical ingredient slug).
-- Audit editorial review (2026-06-01) flagged `[[ingredients/non-root-vegetables]]` as an invented slug not in the taxonomy snapshot — verified against the editorial record line 40 and the linked reference record; both confirm the slug exists. False positive; no change applied.
-- Audit editorial review (2026-06-01) recommended rewording the "consistent with Paltseva 2018 and Gorospe 2012 patterns reported elsewhere" parenthetical for unambiguous attribution; reworded to make clear the comparison is the source's own framing (PDF p. 4 §3.1) and not a wiki-side cross-source synthesis.
-- Audit editorial review (2026-06-01) noted that the Ni-in-potato autumn 2.115 mg/kg exceedance call is faithful to Table 5 (bolded cell, 1.5 mg/kg parenthetical limit) but is the wiki's inference from the table rather than direct §3.1 prose. Acceptable as-is per editorial review; no change applied.
+- [[metals/chromium-hexavalent]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

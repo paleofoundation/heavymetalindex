@@ -83,14 +83,6 @@ App: Adds direct concentration data for Cd, Pb, tAs (only T-1 quantified), tHg (
 - [[regulations/eu-2023-915-cadmium]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
 
-## Verification notes
-
-Merge-enhanced 2026-05-28 from prior 2026-05-14 revision. Changes: (1) corrected `raw_path` to actual filename (prior revision truncated the "(Sesamum indicum L.)_ Analytical," suffix and would not resolve on disk); (2) added `access_url` and `no_doi_assigned` to align with current MFK source metadata schema; (3) rewrote opening prose to remove the prior ambiguous "Mercury and arsenic were detectable only in T-1" wording — only arsenic was detectable in T-1, mercury was below LOQ in every sample; (4) added cross-checked exposure-estimate paragraph (Table 7) and macro/trace-element ranges (Table 6) to Key numbers; (5) added explicit Hg and As speciation notes; (6) expanded Methods (brief) with the actual digestion protocol, instrument vendors/models, isotopes monitored, calibration ranges, certified reference material details, RSD figures, and the authors' stated limitations; (7) expanded "Wiki pages updated on ingest" to include metals, product, and the two EU 2023/915 regulation slugs the paper invokes. No brand names appear anywhere in the source (samples are coded T-1…T-7 in the paper), so no Part 12 redaction was needed.
-
-Audit editorial review (2026-05-28) flagged `[[ingredients/tahini]]` (and by extension `[[ingredients/sesame]]`) as out of the 2026-05-18 taxonomy snapshot. Verified: neither page exists yet in the linked reference record, both are freq-1 references (only this source declares them), and the routing audit accepts them without unresolved entries. Auto-stub handles ingredients at freq ≥ 2, so these slugs remain in source metadata as the correct routing destinations even though no stub yet exists. Removing `[[ingredients/tahini]]` per the audit's recommendation would lose the most specific routing target for the paper (a tahini-specific characterisation, not a generic sesame study), so the slug is retained.
-
-Audit editorial review (2026-05-28) also noted that the paper's Section 2.9 (p. 6) reports the cadmium reference value as "2.5 µg kg-b.w./day". Verified against the PDF: the paper does print "Cd (2.5 µg kgb.w./day)" verbatim. EFSA's actual cadmium TWI is 2.5 µg/kg-bw/**week** (per EFSA Scientific Opinion 2009/2011, ratified by the JECFA PTMI of 25 µg/kg-bw/month). The "/day" in the paper is a likely paper-side transcription error; if read as written, the Cd reference would be ~7× more permissive than EFSA's actual TWI. The wiki page reproduces the paper's number verbatim in the exposure-estimate paragraph but flags this caveat here for any downstream synthesis that pulls the Cd exposure-percentage figure.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -45,20 +45,6 @@ Manganese concentrations in infant formulas and beverages as measured by PIXE/RB
 - For courses: Support teaching materials on manganese in infant nutrition and fortification practices
 - For app: Ingredient-level manganese profiles for infant formula and beverage contamination estimation
 
-## Wiki Pages Updated
-
-- `metals/manganese.md`
-- `ingredients/rice-flour.md`
-- `ingredients/wheat-cereal.md`
-- `ingredients/soy-milk.md`
-- `ingredients/whey.md`
-- `ingredients/milk-powder.md`
-- `products/infant-formula-powder-dairy.md`
-- `products/infant-formula-powder-soy.md`
-- `products/infant-formula-rtf-dairy.md`
-- `products/infant-formula-rtf-soy.md`
-- `products/infant-beverages.md`
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

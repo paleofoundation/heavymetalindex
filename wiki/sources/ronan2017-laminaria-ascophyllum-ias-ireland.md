@@ -61,20 +61,6 @@ Whole thalli were collected at low tide (Spiddal, Galway Bay; 53.2409 N, −9.30
 - Certification (HMTc): direct-evidence speciation data for the Category 6 seaweed-kelp-foods row (iAs/tAs platform), and the most consequential finding so far for that row's structure — kelp (*Laminaria digitata*), a primary component of "kombu"/sea-vegetable products, can itself carry inorganic arsenic up to 87 mg/kg DW (>50% of total in the blades), comparable to hijiki and an order of magnitude above the French and ANZ seaweed limits, even from a clean site. This argues that the within-row high-iAs concern is not hijiki-exclusive and that kelp/*Laminaria* warrants explicit treatment in the row's clean/dirty structuring. The strong intra-thallus gradient (stipe low → decaying distal high) and species contrast (*A. nodosum* negligible) are processing/sourcing-relevant signals. All on the dry-weight, as-harvested basis.
 - App: contributes to the seaweed ingredient contamination_profile for total and inorganic arsenic, with the species- and thallus-part-specific caveats (kelp blades high; knotted wrack low).
 
-## Verification notes
-
-- raw_handle MFK_ronan2017 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.chemosphere.2017.07.076 confirmed on the accepted-manuscript cover. This is the accepted-manuscript version (Chemosphere, CHEM 19609).
-- Evidence tier A: peer-reviewed, HPLC-ICP-MS speciation with CRM-based QC and ESI-MS confirmation of inorganic As as As(V).
-- Speciation: total As and inorganic As (measured as As(V) after As(III)→As(V) oxidation) both reported and kept distinct; lifted to source metadata as tAs and iAs. No mercury/cadmium/lead/chromium measured.
-- Units/basis preserved exactly (mg/kg dry weight). Inorganic-As ranges (2.2–87 for L. digitata; 0.007–0.703 for A. nodosum) and total-As ranges (36–131; 38–111) taken from the Results text; per-thallus-part mean values shown only graphically (Figure 2) and in supplementary Table S1 (not reproduced numerically here beyond the text-stated ranges and gradient, to avoid reading approximate values off a bar chart). The blade-only ranges (total As 59–114, iAs 30–62) are the source's Table 1 "this study" row, footnoted as blades of five thalli with stipe and meristem excluded.
-- sample_n=30 reflects the L. digitata thallus-part samples (5 thalli × 6 parts); the 25 A. nodosum thalli (annual-segment pooled samples) are described in sample_population — recorded this way because L. digitata is the food-relevant (kelp/kombu) subject for the seaweed-kelp-foods row.
-- Matrix fit: L. digitata is harvested as a sea vegetable/kombu and for feed; A. nodosum is mainly feed/fertiliser/alginate but is edible macroalgae. Both are in-scope for the seaweed/macroalgae ingredient and the seaweed-kelp-foods product row as wild-harvested raw material; this is a wild intra-thallus distribution study, not a retail-product survey (noted for the occurrence-extraction pass, which may weight retail surveys differently).
-- Brand firewall: not engaged (wild-harvested specimens; no commercial products or brands).
-- Jurisdiction IE; sampling_locations records the Galway Bay (Spiddal) site; sampling_year_range 2015.
-- matrices [edible-seaweed, macroalgae, kelp, dry-weight] per corpus convention; `kelp` is directly warranted (L. digitata).
-- Instrument/CRM/vendor names (Agilent, Hamilton, Mars 5/Ethos Up, BCR-211, ERM-CD200) retained in Methods as permitted scientific reporting.
-- Audit editorial review (2026-06-08, fresh-context) returned PROMOTE on all five checks; speciation fidelity (tAs vs iAs-as-As(V) by species and thallus part) verified exact with no transposition. One ⚠️ applied: intro prose understated the A. nodosum inorganic-As maximum as "≤0.70"; verified against source (0.703 mg/kg DW, Results) and corrected to "≤0.703". Matrices-vocabulary ⚠️ left as-noted (corpus convention, documented above).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

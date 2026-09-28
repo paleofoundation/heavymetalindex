@@ -52,7 +52,7 @@ These are localized paired environmental and crop measurements, with plant resul
 
 Evidence Fitness: EF-3; source-reported occurrence summaries with crop/site confounding, unresolved cauliflower tissue composition and analytical reporting gaps. Water and soil values remain upstream context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[ingredients/spinach]]
@@ -65,14 +65,6 @@ Evidence Fitness: EF-3; source-reported occurrence summaries with crop/site conf
 - [[metals/mercury-total]]
 - [[metals/copper]]
 - [[metals/nickel]]
-
-## Verification notes
-
-Water prose labels mg/kg, but Figure 4 explicitly labels mg/L; the caption governs the water transcription and the conflict is retained. The abstract calls 29.86 NTU electrical conductivity, whereas the Results identify it as turbidity. The text cites Table 1, but no Table 1 is present in the preserved PDF. Exact figure SDs and physiological bar values are not printed numerically. Claims of safe-limit exceedance and biomass reduction are not independently validated; comparing different crops/sites does not demonstrate a treatment effect. Total Cr and Hg do not establish Cr(VI) or methylmercury.
-
-Matrix vocabulary extensions vegetables and wastewater distinguish measured leaves from sewage water; species, site and tissue remain in the structured groups.
-
-The preserved Library PDF is identified by `RPHMI_3`; SHA-256 `9ba59b1ba9af34f15a9882245ad4af130ece9f1cf2e2e798d4e7c1460fbe5c7f`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://journals.pagepal.org/index.php/ARR/article/download/418/458. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

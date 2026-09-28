@@ -311,11 +311,3 @@ updated: 2026-09-11
 <!-- END: hmi-home-recently-updated -->
 
 </div>
-
-## Geographic variation and remediation literature
-
-Recently added Library evidence includes [[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Sri Lankan leafy-vegetable digestion experiments]], [[sources/oprea2022-sibiu-celery-root-metals|Romanian celery-root and soil measurements]], and [[sources/sumalatha2019-bangalore-sludge-washing|Indian sludge-washing experiments]]. Further source-specific findings are routed through [[supply-chain/soil-to-plant-transfer]] and [[mitigation/remediation-evidence]].
-
-## Baby lotion, oil, and powder sources
-
-Baby lotion, baby oil, and baby powder sources added on 26 September 2026 are listed from [[sources/yaghi2026-baby-powder-benghazi-libya]], [[sources/omenka2016-personal-care-products-ibadan]], [[sources/szcc2020-infant-powders-shenzhen-consumer-council]], and [[sources/cfr2025-21cfr73-1550-talc-color-additive]]. Product routing is [[products/baby-talcum-powder]], [[products/baby-powder-cornstarch]], [[products/baby-lotion-cream]], and [[products/baby-oil]].

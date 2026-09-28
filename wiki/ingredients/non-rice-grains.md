@@ -120,7 +120,7 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/rubio2023-metals-cereals-madeira-azores|Dietary Exposure to Toxic Metals (Cd, Pb and Hg) from Cereals Marketed in Madeira and the Azores]]<span class="hmi-ref-meta">Rubio C, Gutiérrez AJ, Hardisson A, Martín V, Revert C, Fernandes PJP, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03643-x](https://doi.org/10.1007/s12011-023-03643-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers]]<span class="hmi-ref-meta">Gacal M, Gut-Pietrasz K, and Cwielag-Drabek M · Annales Academiae Medicae Silesiensis · 2023 · [doi.org/10.18794/aams/172906](https://doi.org/10.18794/aams/172906)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -140,7 +140,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

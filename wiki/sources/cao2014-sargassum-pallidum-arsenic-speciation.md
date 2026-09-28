@@ -71,7 +71,7 @@ Arsenic species were separated by HPLC on a Hamilton PRP-X 100 anion-exchange co
 
 This source is useful as medicinal seaweed arsenic-speciation context for *Sargassum pallidum*: the single dried material had high total arsenic, and the water decoction retained a large share of that arsenic as DMA plus As(V). Because the occurrence data come from one collected material and one extract preparation, the page should not be treated as a market prevalence estimate. The rat plasma results show that As(V) and DMA from the decoction were absorbed and eliminated in the study animals, but those plasma concentrations are exposure-context values rather than product concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
@@ -80,15 +80,6 @@ This source is useful as medicinal seaweed arsenic-speciation context for *Sarga
 - [[ingredients/herbal-botanicals]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.jpba.2014.03.045`, raw handle `MFK_cao2014`, title text, or cite key `cao2014-sargassum-pallidum-arsenic-speciation`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-028.txt`, extracted with `pdftotext -layout`. The occurrence values `114.3 mg kg−1`, `4.059 mg kg−1`, `91.61 mg kg−1`, and `83.70%` are stated in the extraction text, and Table 4 supports the plasma Cmax/AUC values copied here.
-- Units are preserved as `mg kg−1`, `g mL−1`, `g kg−1 body weight`, `ng mL−1`, `ng h mL−1`, and `h`; no unit conversion was performed.
-- Speciation check: raw material total arsenic is recorded as tAs. The aqueous extract reports As(V), an inorganic arsenic species, separately from DMA; As(III) and MMA are recorded only as not detected. No total-As value is promoted to iAs.
-- Brand firewall: the source does not provide consumer brands, and the page does not attach a contamination value to any named commercial product.
-- Scope caution: the paper's rat plasma pharmacokinetic values are kept as exposure context and not used as product occurrence concentrations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

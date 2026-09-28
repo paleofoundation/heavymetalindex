@@ -50,7 +50,7 @@ Courses: It is useful for explaining why hunted game can differ from farmed meat
 
 App: Game-meat entries can use this as a European wild-boar signal, with the caveat that values are harvest- and geography-specific.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
@@ -59,10 +59,6 @@ App: Game-meat entries can use this as a European wild-boar signal, with the cav
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The DOI appears in multiple auto-fetched files because the wishlist fetched the same paper under Cd, Pb, tAs, and tHg gaps. This page is the canonical page for those duplicate paths. The paper reports total As, total Hg, and total Cr; it does not support iAs, MeHg, or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

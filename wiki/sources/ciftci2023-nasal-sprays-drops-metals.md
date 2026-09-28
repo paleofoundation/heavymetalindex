@@ -59,7 +59,7 @@ Courses: The paper is a clear example of why route of exposure matters: the auth
 
 App: The source can support a product-detail note for saline or sea-water nasal sprays if such a product row is added, especially for tAs, Sb, Cu, Pb, and Al screening values in `µg/L`.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/lead]]
@@ -67,15 +67,6 @@ App: The source can support a product-detail note for saline or sea-water nasal 
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/copper]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1541.txt`; Table 4, Table 5, Table 6, and the Results bullets were re-read before writing.
-- Identity checks before creation: DOI `10.1007/s11356-023-29133-0`, raw handle `MFK_determination-of-heavy-metals-and-essential-elements-in`, raw SHA-256 `a18932754afbd03728682a8a214f8d52a14c23cec5b50c42040f16efb2d94abc`, and cite key `ciftci2023-nasal-sprays-drops-metals` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved as `µg/L`; no conversion to ppb or mg/L was made.
-- Speciation: ICP-MS measured elemental arsenic after direct liquid analysis. This page labels arsenic as `tAs` and does not infer inorganic arsenic.
-- Brand firewall: the source uses sample codes only; no brand names are reported or attached to values.
-- Closed-vocabulary note: no nasal-spray product slug exists in the editorial record, so `products: []` is intentional and the matrix terms are descriptive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

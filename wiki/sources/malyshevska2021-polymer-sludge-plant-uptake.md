@@ -66,7 +66,7 @@ Courses: Useful as a compact case study for biotesting, waste-derived soil amend
 
 App: Context only. The source can support an upstream pathway explanation for lead migration from substrate or sludge into crops, but it does not estimate ordinary consumer-product concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/soil-to-plant-transfer]]
@@ -75,12 +75,6 @@ App: Context only. The source can support an upstream pathway explanation for le
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because the auto-fetch filename targeted soy products and the paper did not measure a finished soy product. On reading, the paper is in-scope a3 supply-chain pathway evidence because it measures heavy metals in polymer-waste sludge, growth substrates, and plant material.
-
-Numbers were checked against the extracted PDF text, especially the English abstract, Table 1, Table 2, Table 3, the discussion, and the conclusions. Decimal-comma table values are preserved as printed. Products and ingredients are intentionally empty because the paper does not report routeable finished-food occurrence values. The paper reports Pb, Cu, Cd, Zn, and Ni as total elemental heavy metals/mobile or bound forms; no arsenic, mercury, chromium, inorganic arsenic, methylmercury, or Cr(VI) data are reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

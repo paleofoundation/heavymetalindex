@@ -106,7 +106,7 @@ Narrative review (declared "review article" by the journal; received 17 April 20
 
 **App:** Not a source of usable ppb occurrence values for `contamination_profile`. Useful as a citation hub for the milk-and-dairy contamination profile when the underlying primary references (Meshref 2014, Suturović 2014, Alani & Al-Azzawi 2015, Ismail 2015, Muhib 2016, Shahbazi 2016, de Oliveira 2017, Castro-González 2018, Halagarda 2018, Seğmenoğlu & Baydan 2021) are later ingested in their own right.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/yogurt]]
@@ -118,16 +118,6 @@ Narrative review (declared "review article" by the journal; received 17 April 20
 - [[metals/nickel]]
 - [[metals/iron]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- **Filename mismatch.** The source PDF was filed in the archived source file under the filename `mirmahdi2021-camel-milk-heavy-metals.pdf`, which suggests a camel-milk study. The paper is in fact a general dairy biodecontamination review; camel milk is mentioned only as the substrate for Leben in Table 3's supply-chain inventory. The cite-key was set to `mirmahdi2021-dairy-decontamination-probiotics-review` to reflect actual scope; the raw file path is preserved as-fetched.
-- **IDF Cu / Cd magnitude orientation.** The review prints (p. 79): "Maximum permissible limits of heavy metal contents in milk (considered by International Dairy Federation) are 2.6 µg/kg for Copper, 10 µg/kg for Cadmium, 20 µg/kg for lead, and 328 µg/kg for zinc." The 2.6 µg/kg Cu / 10 µg/kg Cd assignment is unusual — the IDF / Codex Cd ML for milk is commonly cited at lower magnitude than Cu. The wording is reproduced as printed; the IDF reference should be cross-checked against Malhat et al. 2012 before this is used as a regulatory anchor.
-- **Table 1 unit and country attribution preserved verbatim.** "lg/kg" in the Serbia row of the printed table is a typesetting artefact for µg/kg. The Iraq / Brazil rows use µg/L rather than mg/L; Pakistan / Mexico use mg/kg; Egypt / Bangladesh use mg/L; Iran / Serbia use µg/kg. Reading-across countries without unit harmonisation will give wrong magnitudes — this is the review's own framing, not a transcription change.
-- **Brand firewall (Part 12).** No commercial dairy brand names appear in the source or this page. Scientific vendor / strain names retained per the 2026-05-17 carve-out (e.g., *L. acidophilus*, *S. cerevisiae*, *Lactococcus lactis*, *Kluyveromyces marxianus*).
-- **Wiki/HMT&C firewall (Part 2).** This page reports what the review reports; no synthesis across other wiki sources, no HMT&C threshold proposals.
-- **Products array intentionally empty.** The review covers milk and several fermented dairy products at the supply-chain level but does not present primary contamination data tied to a specific HMTc-locked product row. Routing to ingredient pages and metal pages is the appropriate scope.
-- **Mycotoxin content not extracted in detail.** Table 2 (AFM1 / AFB1 / OA / ZEA / α-ZEA across 21 countries) and Table 4 (aflatoxin decontamination by LAB / yeast / kefir) are summarised in the body text but not transcribed in full; HMI's metals-and-supply-chain remit deprioritises mycotoxin primary numbers. The Table 2 country set is referenced (CN, HR, RS, IR, MK, PK, AR, BA, IT, TZ, MY, XK, SV, TR, ET, KE, BR, EC, ES, IN, MA, MW) but kept off the `jurisdictions:` source metadata to avoid implying heavy-metal coverage for those countries.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

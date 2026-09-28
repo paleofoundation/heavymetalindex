@@ -62,7 +62,7 @@ Courses: Useful companion to bee-treatment and pollinator-health material becaus
 
 App: Context only. The source can support honey-supply-chain questions about apicultural treatments and bee biomarkers but does not support product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/silver]]
 - [[metals/copper]]
@@ -72,12 +72,6 @@ App: Context only. The source can support honey-supply-chain questions about api
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured bee tissues after sugar-syrup metal citrate exposure rather than honey occurrence. On reading, it is in-scope a4 animal biomonitoring and toxicology evidence.
-
-Values were checked against the abstract, methods, results prose, figure captions, discussion, and conclusion in the extracted PDF. The source's quantitative concentration plots are graph-only in the extracted text, so this page does not guess bar heights or tissue concentrations. Products and ingredients are intentionally empty. `bee-body-tissue` and `biological-tissue` are descriptive matrices for the measured tissue homogenates.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

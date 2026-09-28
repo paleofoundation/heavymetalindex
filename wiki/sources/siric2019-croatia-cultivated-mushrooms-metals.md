@@ -45,23 +45,11 @@ The authors sampled cultivated mushroom species and analyzed metal concentration
 
 This source contributes cultivated mushroom occurrence data for Croatia and is particularly useful because it separates Agaricus, Pleurotus, and Lentinula. It should support [[ingredients/mushrooms]] pages and metal pages for [[metals/cadmium]], [[metals/lead]], [[metals/arsenic-total]], and [[metals/mercury-total]]. The low Hg values are total Hg and should not be treated as methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/mushrooms]]
-- [[metals/cadmium]]
-- [[metals/lead]]
-- [[metals/arsenic-total]]
-- [[metals/mercury-total]]
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF header. Author names are ASCII-normalized in source metadata for tooling compatibility.
-- The DOI is printed in the paper as 10.5513/JCEA01/20.4.2476.
-- As and Hg are total-analyte values; do not route as inorganic arsenic or methylmercury.
-- The paper reports As/Cd/Pb/Hg in ug/kg, not mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

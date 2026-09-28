@@ -161,7 +161,7 @@ The review does not separate inorganic from total arsenic; arsenic is reported t
 
 **Microbiome:** Not applicable; the review does not address gut microbiome interactions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -174,24 +174,7 @@ The review does not separate inorganic from total arsenic; arsenic is reported t
 - [[ingredients/root-vegetables]]
 - [[ingredients/cereals]]
 - [[ingredients/legumes]]
-
-## Verification notes
-
-Enhanced 2026-05-18 from prior revision dated 2026-05-15. Defects corrected on touch:
-
-- `raw_handle` corrected from `papers-cube` to `PCMF_khan2015` per the current manual-fetch-corpus handle convention.
-- `metals` reduced from `[Pb, Cd, tAs, tHg, Ni, Al, Cr, Zn, Cu]` to `[Pb, Cd, tAs, Ni, Cr, Cu, Zn]`. tHg and Al are removed: Hg is named in the review's heavy-metals definition but does not appear in any of the tabulated occurrence, transfer-factor, daily-intake, or HRI tables; Al is not discussed at all.
-- `matrices` rewritten from `[soil, plant-tissue, leaf, root, stem, tuber, grain]` to controlled-vocabulary values `[soil, leafy-vegetable, root-vegetable, cereal-grain, dietary-intake]`.
-- `evidence_tier` downgraded from A to B. The paper is a narrative review without PRISMA protocol, inclusion/exclusion criteria, or quality assessment of cited studies, so A-tier is overstated; B-tier (useful synthesis, treat as leads pointing to cited primaries) is the appropriate grade.
-- `access_url` and `sample_population` description expanded.
-- Prior body content under invented section headings (`## Soil-to-plant transfer mechanisms`, `## Bioaccumulation patterns across plant parts`, `## Effects of heavy metals on plant nutritional quality`, `## Transfer factor data`, `## Implications`, `## Wiki pages updated on ingest`) replaced with the standard Part 6 source-page template (Key numbers / Methods (brief) / Implications / Wiki pages this source may touch).
-- Prior body claims about specific molecular transporter families (ZIP, IRT1, PHT1, NIPs, aquaporins) removed: the review does not name those transporter families. The review's actual mechanism content is limited to phytochelatin and glutathione binding (citing Grill et al. 1989 and Lugon-Moulin et al. 2004) and a high-level three-pathway framing (soil–plant, water–plant, air–plant interfaces).
-- Prior fabricated transfer-factor "ranges by crop type" (e.g., "Cd in leafy vegetables: TF = 1–10") replaced with actual Table 4 values cited to the specific contributing studies.
-- Prior `## Implications` section's wikilink to `[[supply-chain/soil]]` removed: that page does not exist in the current wiki taxonomy.
-- Synthesis-style framing in the prior body (e.g., "supports the X page's framing that...") removed per the Part 2 wiki/HMTc firewall; the source page now reports what this one review compiled, not how it relates to other wiki pages.
-- `near_duplicates: []` preserved.
-- `cite_key` preserved (`khan2015-heavy-metals-food-plants-bioaccumulation`).
-- `raw_path` preserved (the archived source file).
+- [[supply-chain/soil]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

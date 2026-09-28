@@ -56,17 +56,13 @@ Courses: Strong example of a pre-harvest intervention where amendment choice mat
 
 App: Context only. The paper does not measure finished consumer foods or ingredients as sold.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
 - [[ingredients/cocoa]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Heliyon PDF. The auto-fetched filename is a coffee/cadmium gap hit because coffee-husk biochar is one tested amendment, but the target matrix is cacao-growing soil and cacao leaves. Products are intentionally empty; the routeable value is mitigation performance, not finished chocolate or cocoa occurrence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

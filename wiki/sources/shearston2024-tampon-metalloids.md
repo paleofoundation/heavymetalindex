@@ -54,7 +54,7 @@ App: The source supports a tampon category evidence card for Pb, Cd, tAs, Ni, Cr
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[metals/lead]]
@@ -63,10 +63,6 @@ Microbiome: Not applicable.
 - [[metals/mercury-total]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF is an author manuscript of the final Environment International article. The DOI, authors, journal, and year are visible on the first page. The source names brands in Table 1, but this page intentionally reports only category-level and study-level statistics under the brand firewall. The source does not speciate arsenic or mercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

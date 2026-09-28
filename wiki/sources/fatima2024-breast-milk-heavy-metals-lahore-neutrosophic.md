@@ -60,13 +60,6 @@ Microbiome: Not addressed in this study.
 - [[metals/lead]]
 - [[metals/mercury-total]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- DOI identity check matched the existing source page; no duplicate source page was found.
-- Replaced the older `manual-fetch-source-retrieval` handle, truncated raw path, and generic mercury wikilink with current provenance and total-mercury routing.
-- Removed unsupported microbiome language and kept implications source-only.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

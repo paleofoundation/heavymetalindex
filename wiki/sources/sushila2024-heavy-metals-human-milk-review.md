@@ -57,7 +57,7 @@ Systematic review following PRISMA guidelines. Studies were collected from Scien
 
 **App:** Breast milk is a biomonitoring and health-context matrix rather than a certification product benchmark. Do not promote the Cd outlier into app-facing data unless manually reconciled.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/cadmium]]
@@ -67,15 +67,6 @@ Systematic review following PRISMA guidelines. Studies were collected from Scien
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- Corrected author metadata to match the PDF title page.
-- Corrected source type to review and source metadata metal speciation to total arsenic/total mercury.
-- Corrected the Cyprus Pb unit from mg/kg to mg/L, matching the source figure caption for reported mean concentrations.
-- Quarantined the page because the Cd outlier is internally inconsistent in the source text (Iraq Ci vs Iran EDI/HQ/CR assignment).
-- Removed a missing health wikilink and routed only to existing ingredient/metal pages.
-- Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

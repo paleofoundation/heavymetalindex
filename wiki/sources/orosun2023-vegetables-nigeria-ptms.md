@@ -48,7 +48,7 @@ Surface soil (0–15 cm) and edible-leaf vegetable samples were collected in Mar
 
 Provides Nigerian contaminated-irrigation occurrence data for an Amaranthus leafy-green and cabbage; values reflect a wastewater-irrigated farming context and are not general-market baselines. Adds field-context evidence for the leafy-vegetables and cabbage ingredient pages and the leafy-vegetables-other product page. Useful for exposure-modeling worked examples in course material; the Monte Carlo distributions on Hazard Index and ILCR illustrate how site-specific variance shapes risk estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[ingredients/leafy-vegetables]]
@@ -57,14 +57,6 @@ Provides Nigerian contaminated-irrigation occurrence data for an Amaranthus leaf
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/lead]]
-
-## Verification notes
-
-Numerical values were verified against Tables 2, 4, 5, 6, 8, and 9 of the published paper. The source measured total As and total Cr only; no inorganic-As or Cr-VI speciation was performed.
-
-The species the paper calls "Spinach (Amaranthushybridus)" is Amaranthus hybridus, an African leafy green sometimes called African spinach or callaloo, not Spinacia oleracea. The paper's own labeling is internally inconsistent: Table 5 (the primary results table) and the abstract say "Amaranthushybridus", while Tables 7–9 (risk-assessment tables) say "Beta vulgaris" (which is chard/beet, also not Spinacia). source metadata therefore routes the leafy-green data to `[[ingredients/leafy-vegetables]]` and `[[products/leafy-vegetables-other]]` rather than to the spinach pages, to avoid contaminating Spinacia oleracea-specific occurrence data with Amaranthus-species values. The `matrices: leafy-greens` token reflects the same caution.
-
-GPT-style audit (2026-06-09) flagged: numerical fidelity all clean; species-routing concern (applied: rerouted away from spinach); sample_n disclaimer was inaccurate (applied: filled with composite-sample counts); methods detail thin (applied: expanded with digestion, prEN16174, detection limits, Monte Carlo software). "elemental As" wording in earlier verification notes was technically incorrect (elemental As is As(0)); corrected to "total As".
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

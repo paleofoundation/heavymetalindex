@@ -138,31 +138,10 @@ Three sampling stations were established within the Cañacao Bay mariculture are
 - **Microbiome:** out of scope. The source does not characterise oyster gut microbiota or metal-microbe interactions.
 - **Cross-source signal:** complements [[romero-estevez2020-bivalves-santa-rosa-ecuador]] (Ecuadorean mangrove *Anadara*, Pb/Cd/Cr), [[chou-uthe1993-cadmium-american-lobster-belledune]] (Canadian Atlantic lobster, Cd point-source), [[gongora-gomez2017-oysters-gulf-california-metals]] (Mexican *C. gigas*, eight-metal panel), and the related Philippine bivalve dataset in [[raju2021-bivalves-cagayan-philippines]] as a comparative Philippine mariculture point. Treated together, these are an evidence base for the bivalve-mollusc and shellfish ingredient-page occurrence summaries.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/lead]] — Philippine mariculture occurrence; seasonal dilution effect; ICP-OES detection-limit treatment in THQ computation.
-- [[metals/cadmium]] — Philippine mariculture occurrence; no significant seasonal effect in tissue Cd.
-- [[ingredients/shellfish]] — Pb and Cd occurrence in cultured *Crassostrea iredalei*, Manila Bay, four-month series.
-- [[ingredients/bivalve-molluscs]] — same.
-- [[ingredients/molluscs]] — same.
-- [[ingredients/seafood]] — same.
-- [[products/shellfish]] — Pb and Cd in cultured oyster product matrix; sub-FAO/FSAI/FSANZ limits.
-- [[products/seafood]] — broader seafood-occurrence context.
-- [[raju2021-bivalves-cagayan-philippines]] — companion Philippine bivalve dataset for cross-source pooling on PH occurrence.
-- [[romero-estevez2020-bivalves-santa-rosa-ecuador]] — companion mangrove-bivalve dataset (Ecuador) for international comparison.
-- [[gongora-gomez2017-oysters-gulf-california-metals]] — companion cultivated-oyster (*C. gigas*) dataset (Mexico).
-
-## Verification notes
-
-- 2026-06-03 — Fresh source-page ingest from raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish/. No prior wiki page (DOI 10.22515/sustinerejes.v5i2.159 not previously ingested; cite-key valencia2021-canacao-bay-oyster-pb-cd not previously used; raw_handle KADC_heavy-metal-accumulation-and-risk-assessment-of-le not previously ingested).
-- Full paper pages 1-10 (abstract, methods, all results/tables 1-3, figures 2-3, discussion, conclusion, opening of references) read directly from the PDF. Tables 1-3 numeric values transcribed verbatim, including the (*) "below detection limit" footnotes and the "*computed at 0.1 mg/kg" annotation on the October and January Pb THQ rows.
-- Speciation flags: the source measures total Pb (elemental Pb by ICP-OES at 220.353 nm) and total Cd (elemental Cd by ICP-OES at 226.502 nm). No methylmercury, no inorganic-arsenic-vs-total-arsenic distinction (arsenic is not measured in this study).
-- Units preserved as the source reports them: mg/kg for oyster soft tissue (fresh-weight basis; the dry-ashing digestion is sample preparation, not a basis change), mg/L for seawater, dimensionless THQ/TTHQ. No silent conversion to ppb or ppm.
-- Method-vendor names retained Exception 2: Shimadzu ICPE-9810 (ICP-OES instrument), Garmin GPSMAP 62s (geolocation), FLIR Systems ExStik II DO600 and pH meter (in-situ physicochemical), APEL PD-303UV (turbidity spectrophotometer), IBM SPSS Statistics 20.0 (statistical software), GraphPad Prism 7 (statistical software).
-- Brand-firewall: no consumer-brand contamination attributions appear in the source. The steel corporation adjacent to Station 3 is not named in the paper and is not named here.
-- Part 2 wiki/HMTc firewall: this page reports the Cañacao Bay Pb and Cd values, the THQ/TTHQ computation, and the FAO/FSAI/FSANZ ceilings the authors cite. It does not propose, soften, or strengthen any HMTc shellfish threshold; the Implications section is restricted to noting routing destinations and the source's status as one contributor among many for any future HMTc percentile-pool analysis.
-- One textual oddity in the source (resolved against Table 1, no correction to wiki values needed): page 4 of the PDF (paragraph immediately above the oyster-Pb paragraph that precedes Table 1) reads "Cd concentrations ranged from 0.2 mg/kg to 0.9 mg/kg levels." This sentence is inconsistent with Table 1 (Cd-in-oyster individual-station values 0.02-0.09 mg/kg; monthly means 0.027-0.083 ± 0.006 mg/kg) and with the abstract (Cd 0.027 ± 0.006 to 0.083 ± 0.006 mg/kg), and the 0.2-0.9 mg/kg range is exactly 10× the actual Table 1 Cd-in-oyster individual-station range. The most parsimonious reading is a decimal-place typographical error in the source itself (intended Cd-in-oyster-tissue range, miswritten by one order of magnitude); the surrounding paragraph context (Gobas 2001 cited for detection-limit discussion, sediment-binding gloss) makes the "comparison study" reading less likely. The Key-numbers table values for Cd in Cañacao oysters come from Table 1 and the abstract and are internally consistent at the 0.02-0.09 mg/kg order of magnitude.
-- 2026-06-03 — Fresh-context audit editorial review (verdict REVISE) flagged two ⚠️ concerns: (a) the 0.2-0.9 mg/kg textual oddity is most plausibly a decimal-place typo (10× the actual Table 1 Cd-in-oyster range), not a comparison-study gloss as the initial draft hedged; (b) the "15-20 samples per station per month" wording read as if quoted from source but is a derived figure consistent with the monthly total of 52-57 divided across three stations. Both ⚠️ concerns verified independently against the PDF and applied: typo-reading clarified in this Verification-notes section above and `sample_population` reworded to reflect that the per-station figure is consistent-with rather than verbatim-quoted. No ❌ definite-error findings.
+- [[metals/lead]]
+- [[metals/cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

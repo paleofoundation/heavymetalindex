@@ -49,16 +49,12 @@ Negative Pb values are instrument/calibration artifacts in the source reporting 
 
 For skin-lightening and whitening-product pages, this source provides Indonesia-market Pb and Cd values for low-cost retail whitening creams. It supports the common pattern that cadmium may be present even when values remain below local cosmetic thresholds.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/skin-lightening-cream]]
 - [[products/whitening-products]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF text gives the DOI through the downloaded filename and article metadata route; the article body reports the same title, authors, journal, and sample values. Negative Pb values are preserved in notes but not interpreted as real negative contamination.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

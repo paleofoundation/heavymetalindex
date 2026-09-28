@@ -58,7 +58,7 @@ Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 a
 
 **Regulations:** Benchmarked against Codex Alimentarius CXS 193–1995 (general standard for contaminants and toxins in food; Pb MPL 0.3 mg/kg, Cd MPL 0.2 mg/kg, As MPL 0.5 mg/kg, Hg MPL 0.1 mg/kg applied to spices and dried herbs) and Codex CXS 328–2017 for dried thyme. Lebanon has no national metal limits for most spices and herbs; the Lebanese Standards Institution (LIBNOR) NL 677:2017 covers thyme and thyme mixes and aligns with Codex.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -69,18 +69,6 @@ Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 a
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/herbal-botanicals]]
 - [[products/spices]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-29 against the manual-fetch PDF in the archived source file. The PDF is the same paper as the Marker-converted the archived source file already referenced in `raw_path`; raw_handle preserved as the FM_ identity.
-- Expanded `ingredients:` from a single umbrella (`herbal-botanicals`) to include the umbrella plus the specific commodity slugs that actually exist in the wiki and that the paper measures distinctly (`cinnamon`, `black-pepper`, `herbs-and-spices`). The other 10 measured spices (thyme, thyme mix, paprika, cumin, oregano, garlic powder, red chili, white pepper, dried mint, sesame, sumac) do not yet have wiki ingredient pages and are not pre-emptively created here per Part 10 / skill stop conditions.
-- Added per-spice exceedance percentages from Table 2 for completeness (the prior page summarized only the highest-exceedance and most-affected categories; the full table is now in the page).
-- Added the sampling-design paragraph clarifying the 480 → 96 composite-sampling structure that drives the n/N denominators in Tables 1 and 2.
-- Brand firewall (Part 12, strict): the paper does not name any of the 5 brands used per composite; composite values are reported only at the spice × category × collection-period level. Method-vendor names (Thermo Fisher Scientific GF95Z, Milestone DMA-80, Milestone Ethos Plus, Sigma-Aldrich reagents, BOECO UV/UF water system, IBM SPSS) are retained under the Part 12 scientific-method exception.
-- Wiki/HMTc firewall (Part 2): no threshold proposals; the Certification implication describes the occurrence baseline against the Codex MPL but does not recommend an HMTc value.
-- Speciation note (Part 14): paper uses GF-AAS for As (no inorganic speciation) and DMA-80 for Hg (no methyl speciation); metals listed as `tAs` and `tHg` accordingly.
-- Audit editorial review (2026-05-29) flagged "BOECEL" as a vendor-name transcription error; verified against PDF p.3 §2.3 — paper text is "BOECO pure (Boeckel, Hamburg, Germany)" — corrected to BOECO.
-- Audit editorial review (2026-05-29) noted that `matrices: [spices, dried-herbs]` cannot be verified against an enumerated controlled vocabulary; both slugs are used consistently across the merge-enhanced sibling spice-source pages (huff2025-spices-lancaster-pa, tinggi2025-spices-herbs-queensland, munarso2024-vanilla-indonesia-quality) and are retained as-is.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -40,7 +40,6 @@ This paper maps the organic preservative 2-methyl-4-isothiazolin-3-one in ex viv
 
 This source does not report a metal concentration or a metal limit.
 
-
 ## Methods (brief)
 
 MI (95 percent) was diluted to 0.0175 M, stated as equivalent to 0.2 percent w/v diagnostic patch testing, and 20 uL was applied to 11 mm skin biopsies. Donors were two women, both 42 years, abdominal skin, Fitzpatrick type 2.
@@ -61,7 +60,6 @@ No Pb, Cd, As, Hg, Ni, Cr, Co, Sb, Zn, Al, Sn, or other metal concentrations are
 
 ## Related evidence
 
-- No product or metal page is declared for this source. The batch report records the gap.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

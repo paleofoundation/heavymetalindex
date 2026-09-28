@@ -48,7 +48,7 @@ Courses: Provides a concrete example of why mitigation claims need mass-balance 
 
 App: Can support a processed-seaweed qualifier if synthesis distinguishes raw, PEF-treated, and warm-water-treated forms.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
@@ -57,10 +57,6 @@ App: Can support a processed-seaweed qualifier if synthesis distinguishes raw, P
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-The DOI was minted with a 2025 identifier and the PDF was published online in 2025, but the journal issue is Journal of Applied Phycology 38:933-945 (2026); the source metadata year follows the PDF issue year. The extracted text did not preserve all Table 3 PTE concentration rows cleanly, so those rows should be verified from the rendered PDF before structured benchmark pooling.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

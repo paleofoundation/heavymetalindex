@@ -72,18 +72,11 @@ App: Route as brown-rice Cd occurrence and mitigation context for rice ingredien
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven rice-based plant-milk Cd wishlist. The actual measured matrix is brown rice in a field trial, so this page routes to rice-bulk-grain as upstream ingredient evidence.
-- Numerical ranges are extracted from Tables 2-4 using the brown-rice column only.
-- The paper reports Cd only for the HMT&C contamination endpoint; Se is an intervention/nutrient element in this source and has no metal page in the current taxonomy snapshot.
-- Methods vendor/equipment names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

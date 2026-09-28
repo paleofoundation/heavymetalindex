@@ -88,15 +88,6 @@ Sampling was performed in February-March 2018 at five Yucatán Peninsula fishing
 
 This source contributes direct organotin occurrence data for marine fish and shellfish from Mexico. It is useful for seafood routing because it reports both organotin species sums in dry-weight tissue and exposure inputs on a wet-weight basis. The values are tin-equivalent organotin species and should route to organotin context, not to inorganic tin or total Sn standards.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, abstract, sample collection, methods, results, Table 1, Table 2, and conclusions were readable.
-- The supplied PDF is an SSRN manuscript copy and does not show the final article DOI on the title page. PubMed and ScienceDirect identify the final publication as `Chemosphere` 2022, DOI `10.1016/j.chemosphere.2022.136178`; no existing wiki source page matched that DOI or title before creation.
-- Table 1 dry-weight values, Table 2 wet-weight/EDI values, and method LOD/LOQ values were checked against the extracted text. No unit conversion was performed.
-- Speciation: analytes are organotin compounds TBT, DBT, MBT, TPhT, DPhT, and MPhT. source metadata uses `Sn` for element-level routing following existing wiki convention, but this page explicitly documents that organotins must not be treated as inorganic tin or total Sn.
-- Brand firewall: samples were obtained from local fishermen by species and fishing site; no brand-level values were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

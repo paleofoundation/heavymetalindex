@@ -55,15 +55,6 @@ Three rice-product categories were collected from local oriental markets in Jack
 
 This source provides small-sample occurrence context for rice noodles, rice snacks/crackers, and rice vinegar/wine sold in a US market. It is useful for routing rice-derived processed foods but should be treated as thin category evidence because the source reports few products and much of the primary figure output is brand-labeled. Arsenic remains `tAs`/not detected context for these products; the introduction discusses inorganic arsenic in rice literature, but the study did not speciate arsenic in the tested rice-derived products.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; abstract, Table 1, Results sections 3.1-3.3, Table 2, Table 4, and the conclusion were checked in `/tmp/f3_texts/guo2017.txt`.
-- DOI `10.1007/s11270-017-3262-3`, raw handle `MFK_guo2017`, and cite-key checks found no existing source page before creation. `guo2017 (1).pdf` has the same SHA-256 and is recorded as a within-folder duplicate, not separately ingested.
-- Values are preserved as the source reports them (`mg/kg`, `mg` per capita per year, `g` daily intake, and microgram annual intake language); no conversions were performed.
-- Speciation: arsenic and mercury were measured only as total/unspecified elements. The introduction discusses inorganic arsenic in other rice literature, but those values are not occurrence data from this study.
-- Brand firewall: the source contains brand names in Table 1 and figure legends. This page reports only product-category findings and does not attach contamination values to any brand.
-- source metadata slugs were checked against the editorial record; a specific rice-wine product slug is not available, so the rice vinegar/wine category routes through the broad vinegar product row.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

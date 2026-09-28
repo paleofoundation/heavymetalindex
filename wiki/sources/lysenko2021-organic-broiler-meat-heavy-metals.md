@@ -48,7 +48,7 @@ Four groups of 60 Hubbard RedBro broiler chicks each were reared for 84 days at 
 
 This source supports poultry product context for low-level As, Cd, Hg, and Pb under Russian broiler feed/housing conditions, with all four metals reported well below the SanPiN 2.3.2.1078-01 MPC ceilings. Because the experimental groups are an organic / eco-feed intervention rather than retail-market sampling, the experienced-group values should not be pooled as ordinary retail-poultry occurrence without noting the experimental feed design.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
@@ -57,13 +57,6 @@ This source supports poultry product context for low-level As, Cd, Hg, and Pb un
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25.
-- Total arsenic and total mercury are not speciated iAs or MeHg.
-- Audited 2026-06-08 via autonomous audit drainer; revisions applied: feed-side Table 1 values surfaced (broiler-feed is already in matrices); Methods section restored analytical technique (electrothermal AAS), n=60 per group, 84-day duration, and farm location; 2nd-control / 2nd-experienced muscle columns added to Key numbers; SanPiN 2.3.2.1078-01 MPC context added.
-- Matrices use broiler-pectoral-muscle / broiler-leg-muscle / broiler-feed as bare-string descriptive entries — consistent with the existing wiki pattern of descriptive matrix labels (e.g. broiler-drumsticks, chicken-breast, poultry-muscle, poultry-feed in other source pages) rather than an invented surface.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

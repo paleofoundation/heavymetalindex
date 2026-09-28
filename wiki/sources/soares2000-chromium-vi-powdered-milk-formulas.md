@@ -83,7 +83,7 @@ Microbiome: No direct microbiome endpoint.
 
 The local PDF was supplied in the archived source file. DOI and bibliographic metadata were checked against the Oxford Academic article record and PubMed record on 2026-05-08. The source is public-reference-only; cite the article record rather than redistributing the local PDF.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]

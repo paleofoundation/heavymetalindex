@@ -131,32 +131,16 @@ Not appropriate for:
 - Funding and conflict of interest: not stated in the paper text. Corresponding author: Shawn L. Gerstenberger, Department of Environmental and Occupational Health, University of Nevada Las Vegas.
 - Acknowledgments name Dr. Sheniz Moonie, Tracy Donnelly, and Mackenzie Burns for contributions to the manuscript.
 
-## Verification notes
+## Related evidence
 
-- **Brand-firewall posture (Part 12, strict).** The source paper's Table 1 lists 25 hot sauces by brand with manufacturer, country of origin, pepper type, pH, salt presence, lid color, lid Pb (ppm), and sauce Pb (ppm). The paper additionally names four products by brand in the oversampling and IEUBK sub-studies. **Per Part 12, this wiki page does not reproduce the brand-by-brand values.** All Pb numbers above are reported as category-level summaries (counts, percentages, ranges, medians) or as anonymized "highest-Pb [pepper-type] product" descriptors. Brand names are not propagated. Readers who need brand-level detail must read the source paper directly; the wiki's role is to summarize the literature-level signal for product-category and ingredient pages.
-- **Methods-vendor names (Part 12 Exception 2).** Vendor names are retained where they identify analytical method or reference material (Exova, Niton Thermo Fisher XLt 797 2W, VWR SympHony SB90M5, Modern Analytical Techniques LLC PE-5483-N polyethylene reference, MBH Analytical 180-606 metal-check, Orion buffer solutions). These are scientific-reproducibility identifiers, not contamination rankings, and do not violate Part 12.
-- **Speciation note.** Lead is reported as total Pb in both hot sauce (ICP-MS) and lid (XRF) measurements. No speciation considerations apply for Pb in this matrix.
-- **Pb-only metal scope.** The paper measures only lead. `metals: [Pb]` reflects that scope; the paper does not characterize Cd, As, Hg, or any other heavy metal in hot sauce, and the wiki page does not extrapolate.
-- **Ingredient routing.** `ingredients: ["[[ingredients/spices]]", "[[ingredients/salt]]"]` follows the existing taxonomy. The taxonomy does not include a `chili-pepper` or `hot-pepper` ingredient slug; the SPEX 2023 hot-sauce / chili-powder source (`spex2023-hot-sauce-chili-powder-metals.md`) uses the same `spices` slug for chili powder under the herbs-and-spices parent. The 5-paper threshold for a dedicated `chili-pepper` ingredient page is not yet established; this paper is added as an aliasable entry within `spices`. Salt is named explicitly in 24 of 25 hot sauces and is one of the two plausible upstream Pb sources, so the salt slug is included.
-- **Product routing.** `products: ["[[products/condiments-general]]", "[[products/food-packaging-caps-closures]]", "[[products/food-packaging-plastic-tubs]]"]`. There is no `hot-sauce` product slug; the existing SPEX 2023 hot-sauce source routes to `condiments-general` and this paper follows the same precedent. Plastic-lid XRF data routes to `food-packaging-caps-closures`; the plastic-bottle leaching observation routes to `food-packaging-plastic-tubs` (the closest existing slug for plastic squeeze/dispenser bottles, pending a more specific plastic-bottle / plastic-container slug).
-- **Matrix vocabulary.** `matrices: [hot-sauce, condiment, food-contact-materials, plastic-lids]` captures the as-tested matrices and the packaging context. `hot-sauce` is used as a free-form matrix label consistent with the ingredient-vs-product taxonomy split (matrices vocabulary is not slugged).
-- **Jurisdictions.** `jurisdictions: [US, MX, GT, PE]` reflects: US as the regulatory and surveillance jurisdiction of the study; Mexico as the country of origin for 22/25 products; Guatemala as the country of origin for 2/25 products; Peru as the country of origin for 1/25 products.
-- **Evidence-tier B rationale.** Peer-reviewed quantitative ICP-MS measurement with documented QC (LFB within 80–120%, terbium internal standard 50–125% acceptable range, two external duplicates) and a published IEUBK exposure-model output. Convenience pilot n=25 from a single county over a 4-month purchase window is the primary tier-B limitation. The lot-variation sub-study explicitly demonstrates within-product variability, which is a strength for methodology assessment but limits the headline-rate interpretation.
-- **2013 publication date and 10 µg/dL CDC framing.** The paper uses the pre-2012 CDC 10 µg/dL action level; CDC moved to a reference value approach in 2012 (5 µg/dL) and updated to 3.5 µg/dL in 2021. The wiki retains the paper's 10 µg/dL framing for fidelity to the source but flags the regulatory update in the Implications section so downstream synthesis does not propagate the outdated threshold without context.
-- **`hot-sauce` product slug absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Until a dedicated slug exists, this source routes to `condiments-general`, which is the closest existing category. This ingest skill does not create product pages; the gap is logged for the taxonomy review pass.
-- **Folder placement.** PDF is filed under the archived source file. The folder is the upstream sorter's category and is preserved (immutable per Part 4).
-- **Audit (2026-06-02, general-purpose fresh-context editorial review).** Verdict REVISE; Checks 2, 3, 4 clean, Check 1 and Check 5 each had one ⚠️ finding applied. (1) Lede IEUBK range cross-attribution: original text said "0.5–1.8 µg/dL increase" attached to the 0.308 µg/g highest-Pb product, but Table 5 shows 0.5–0.9 µg/dL for the 0.308 µg/g product and 1.0–1.8 µg/dL for the 0.230 µg/g product (the high end belongs to a different product). Verified against source p. 535 Table 5; corrected lede to "0.2–1.8 µg/dL across the four >0.1 ppm products" with explicit attribution of the high end to the 0.230 µg/g product and the 5.4 g vs 15 g serving-size split that drives the per-product daily-dose differences. (2) Implications-section editorial gloss: original text said "modeled increments here are not negligible against the current reference value." Verified against source p. 535 — the 2013 paper uses the 10 µg/dL CDC action level only and does not model against 5 or 3.5 µg/dL. Trimmed to a temporal-update note and explicitly flagged comparisons to the current reference value as downstream-synthesis work, not a claim of this source. The editorial review's Check 4 verdict initially read ❌ but the editorial review self-corrected to ✅ on re-read; no Part 12 brand-firewall changes applied.
-
-## Wiki pages this source may touch
-
-- [[metals/lead]]
 - [[ingredients/spices]]
 - [[ingredients/salt]]
 - [[products/condiments-general]]
 - [[products/food-packaging-caps-closures]]
 - [[products/food-packaging-plastic-tubs]]
-- Future [[products/hot-sauce]] (does not yet exist; condiments-general is the current routing destination)
-- Future [[ingredients/chili-pepper]] (does not yet exist; spices is the current routing destination)
+- [[metals/lead]]
+- [[products/hot-sauce]]
+- [[ingredients/chili-pepper]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

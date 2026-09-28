@@ -62,7 +62,7 @@ Courses: Strong source-attribution case study because it separates traffic, ship
 
 App: Context only. The source supports ambient/shared-liability explanations for regional metal loading, not product-level contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/atmospheric-deposition]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -74,12 +74,6 @@ App: Context only. The source supports ambient/shared-liability explanations for
 - [[metals/mercury-total]]
 - [[metals/vanadium]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it did not measure mineral water or a finished product, but it is in-scope a3 atmospheric source-attribution evidence.
-
-The Pb-query and Cd-query PDFs have identical extracted text and the same DOI. The Cd-query worklist row is covered as a recovered duplicate by this source page. Numbers were checked against the extracted PDF text, especially the abstract, Methods, Section 3.1, Table 1, PMF source-analysis sections 3.2.1-3.2.5, and the precipitation-effect section. Species are preserved as total elemental measurements; the source does not report inorganic arsenic, methylmercury, or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

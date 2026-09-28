@@ -84,20 +84,11 @@ Courses: useful for teaching the soil-to-aerial-tissue translocation concept (TF
 
 App: limited direct app utility. The source documents that wild-harvested medicinal plants growing on mining-impacted soils can carry Pb and Zn loads orders of magnitude above background, which is a category-level risk signal for the wild-harvested-supplements supply chain but not a per-product occurrence value.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[ingredients/herbal-botanicals]]
-
-## Verification notes
-
-- Discovery context: this PDF was auto-fetched by the `discover` skill against the seasonal-geographic-variance gap on a keyword match for "squash + Pb + ingredient." The match is a false positive on the term: the paper uses the *squash technique* (a cytogenetic chromosome-preparation method) on *Verbascum speciosum*, not the *squash* food ingredient. The paper is nevertheless on-topic for HMI as Pb/Zn environmental-uptake context for the herbal-botanicals supply chain.
-- Brand-firewall check: no consumer brands named. Scientific-method names retained per Part 12 scientific-method exception: Olympus light microscope, Whatman filter papers No. 24 and No. 42.
-- Wiki/HMTc-firewall check: no HMT&C-threshold comparisons or harmonization. Source-cited comparator floors (50 mg/kg soil Pb, 200 mg/kg soil Zn, 2 mg/kg plant Pb, 60 mg/kg plant Zn) are reported as the source reports them with the USEPA 2002 attribution caveat noted above.
-- Taxonomy: routed to the existing `ingredients/herbal-botanicals` umbrella because *Verbascum speciosum* / Common Mullein is a botanical entering the herbal-medicinal / dietary-supplement supply chain in Iran and elsewhere. No species-level ingredient slug exists, and the 5-paper threshold for a stand-alone `mullein` or `verbascum-speciosum` ingredient page is not met.
-- Matrices set to `medicinal-plants` and `bulk-soil`; no product-shaped slug is appropriate because the source measures wild-harvested plant tissue and soil at mining-impacted localities, not a finished consumer product.
-- Paper-internal abstract/Table 2 swap on area-a aerial Zn (519 vs 638) documented in Speciation and methods caveats; Table 2 used as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

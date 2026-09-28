@@ -53,7 +53,7 @@ All values are mean ± SD from triplicate AAS measurements (n=3). Spinach values
 
 The paper contributes occurrence data for Pb, Cd, Fe, Cu, and Zn in shade-dried spinach grown on grey-wastewater irrigation in Zamfara State, Nigeria, plus the paired irrigation-water concentrations. The data are usable as Nigeria/Zamfara occurrence context on a dry-weight basis; conversion to fresh-weight basis for pooling with as-consumed studies requires an assumed spinach moisture content (the paper does not report fresh weight, percent moisture, or a dw→fw factor).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[ingredients/spinach]]
@@ -62,14 +62,6 @@ The paper contributes occurrence data for Pb, Cd, Fe, Cu, and Zn in shade-dried 
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Spinach basis confirmed dry-weight from p. 77 methods (shade-dried 72 h before digestion); paper does not report fresh-weight equivalents or moisture content, so any dry-to-fresh conversion downstream must use an external assumption.
-- Table 1 header reads "mg kg-1" for both rows; paper text on p. 78 ("Cu which was a little less than the 2.0 mg/L") confirms the water row is mg/L. Treat the Table 1 water header as a paper-side notation error.
-- Paper-side internal inconsistency: Table 2 and Table 3 list "Cu 1.842" for the wastewater row, which contradicts Table 1's wastewater Cu of 0.295 and the discussion text on p. 78 ("Cu which was a little less than the 2.0 mg/L"). Use Table 1 (Cu wastewater 0.295 mg/L) as authoritative; the "1.842" entry in the Cu row of Tables 2 and 3 is a paper-side transcription error (it matches Table 1's spinach Zn value).
-- Reproducibility detail in the paper is limited: no AAS instrument vendor/model, no certified reference material, no method LODs, and no recovery values are reported. Flag as a B-tier reproducibility profile inside an A-tier publication when synthesis pools this source.
-- No brand-level data and no regulatory-event subject in the source; Part 12 review clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -88,7 +88,7 @@ The current composition is in the page frontmatter under `curators:`. The page i
 
 External reviewers are named domain experts who mark synthesis-page claims as endorsed, contested, or recused. Their review log is part of the public corpus (see [[methodology/search-strategy|search strategy]] and [[errata]]). External reviewers do not sit on the editorial board; their role is the visible audit signal Cochrane and EFSA both rely on.
 
-The current composition is in the page frontmatter under `external_reviewers:`. As reviewers are added, their per-reviewer log file (under `data/peer-review/`) becomes the source of truth for which synthesis claims they have evaluated.
+The current composition is listed on this page. As reviewers are added, the verdicts on each synthesis page are the record of which claims they have evaluated.
 
 ## Conflicts of interest, principal disclosure
 

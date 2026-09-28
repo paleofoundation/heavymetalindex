@@ -64,7 +64,7 @@ Courses: Useful source-attribution case showing how waste combustion, landfill l
 
 App: Context only. The source can inform environmental due diligence for agricultural sites near unmanaged landfills and groundwater pathways, not product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -79,12 +79,6 @@ App: Context only. The source can inform environmental due diligence for agricul
 - [[metals/copper]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it did not measure bottled or drinking mineral water. On reading, it is in-scope lane a3 supply-chain pathway and source-attribution evidence because it measures metals in landfill-adjacent water and soil compartments, names landfill waste and agricultural inputs as sources, and models runoff and groundwater pathways relevant to agricultural land.
-
-Numbers were checked against the summary, methods, Table 1 physical-soil values, Table 2 water-metal values, the metals-in-soil-and-water discussion, the runoff-model discussion, and the conclusion in the extracted PDF text. Chromium is total Cr, not Cr-VI. Cadmium is included because it was measured and reported below detection in all soil and water samples. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

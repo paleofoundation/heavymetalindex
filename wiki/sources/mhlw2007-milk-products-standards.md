@@ -65,11 +65,6 @@ Microbiome: No direct microbiome endpoint.
 - [[products/dairy-milk-cow]]
 - [[products/dairy-milk-powders]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- The source page deliberately avoids claiming finished-food heavy-metal MLs because the extracted heavy-metal provisions found in the PDF are packaging/material tests.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

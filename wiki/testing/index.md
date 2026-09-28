@@ -31,7 +31,7 @@ External references this section will draw on:
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/jakubowski2012-zinc-cadmium-chapter|Zinc and Cadmium Compounds (Chapter Seven), in Patty's Toxicology, Sixth Edition]]<span class="hmi-ref-meta">Jakubowski M · John Wiley & Sons, Inc · 2012 · [doi.org/10.1002/0471435139.tox029.pub2](https://doi.org/10.1002/0471435139.tox029.pub2)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>

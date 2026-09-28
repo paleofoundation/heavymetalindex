@@ -47,7 +47,6 @@ A meeting abstract reports bulk X-ray fluorescence on five replicate samples, ea
 | Ni | talcum baby powder, hospital-designated, bottled 1985 | 2000 | ppm | approximate | 5 replicates x 10 XRF analyses | abstract body p.1 |
 | Cr | talcum baby powder, hospital-designated, bottled 1985 | 500 | ppm | approximate | 5 replicates x 10 XRF analyses | abstract body p.1 |
 
-
 ## Methods (brief)
 
 Bulk XRF on 5 replicates analyzed 10 times. SEM and TEM-EDS for mineral hosts. No digestion method, calibration, or detection limit is printed.

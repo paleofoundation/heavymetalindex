@@ -214,25 +214,6 @@ Selected Annex I heavy-metal maximum levels (mg/kg, wet weight unless otherwise 
 
 Decimal commas are preserved from the source. Wet-weight basis applies unless the row remark states otherwise; rice/spice/cereal rows are on the placed-on-market basis. Article 3 governs how these levels apply to dried, diluted, processed, or compound foods that lack their own row.
 
-## Verification notes
-
-Merge-enhance pass 2026-06-02. The 2026-05-02 revision of this page had the correct overall framing and Annex-section summary table but several source metadata defects flagged by `routing_malformed.csv`:
-
-- `products:` array mixed a bare string (`"infant-formula"`) with quoted wikilinks, and named two slugs (`infant-formula-rtf-liquid`, `mixed-meals`) that were retired in favour of the soy/non-soy and rice-containing/non-rice splits.
-- `ingredients:` field was absent; the routing layer fell back to broad scope for every ingredient this regulation touches.
-
-Both fixes are conservative re-mappings to the current taxonomy snapshot, not new claims. `products:` now references the split RTF-liquid and mixed-meals slugs the wiki actually has on disk. `infant-formula`, `infant-and-child-foods-master`, and `salt` umbrellas are kept so the routing fan-out reaches the broad master pages as well as the form-specific children. `ingredients:` is populated with the eleven slugs the regulation singles out by name in Annex I metals rows (rice, cocoa, chocolate, honey, spinach, sunflower-seeds, wheat, fish, bivalve-molluscs, salt, turmeric).
-
-A `near_duplicates` entry was added for the source-retrieval manual-fetch copy at the archived source file (sha256 `b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515`). Both files are the same Official Journal text; the canonical raw_path under the archived source file is preserved.
-
-A second `near_duplicates` entry was added 2026-06-02 for the byte-identical source-retrieval copy at the archived source file (same sha256 `b382ed1d...`). The source-retrieval agent filed the same Official Journal PDF in two subfolders of the condiments2 corruption-issue folder tree; both paths now point back to this canonical source page so future manual-fetch cycles recognize either copy as already-ingested.
-
-A third `near_duplicates` entry was added 2026-06-09 for the same byte-identical copy under the daemon's June 8 staging folder tree at the archived source file (same sha256 `b382ed1d...`). The manual-fetch loop reached this PDF via the new staging path and the duplicate was confirmed by sha256 against the canonical raw_path; no body changes were made because the existing page is post-2026-05-14 clean and PROMOTE-audited on 2026-06-02.
-
-A `## Key numbers` section was added with the major heavy-metal Annex I rows transcribed directly from the source PDF's tables 3.1 (lead), 3.2 (cadmium), 3.3 (mercury), 3.4 (arsenic — inorganic and total), and 3.5 (inorganic tin). Decimal commas are preserved verbatim from the Official Journal text. The section is a quick-reference for downstream synthesis and product-page work and is bounded to the metals HMI tracks; PAH, mycotoxin, dioxin, melamine, perchlorate, and POP rows are not transcribed here.
-
-No body claims were softened or strengthened. No HMTc threshold inference was added. No brand names appear anywhere on this page; the regulation does not name brands.
-
 ## Sources
 
 - European Commission. 2023. Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006.

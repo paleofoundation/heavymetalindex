@@ -167,41 +167,7 @@ No risk-of-bias appraisal, no quality scoring, no weighting by sample size, no m
 
 PDF retrieved via the Manual Fetch source-retrieval pipeline (P0316). MDPI open-access publication under CC BY 4.0; the publisher's redistribution terms permit retention and reproduction with attribution. Published online 8 April 2026 (Water 18(8): 886). DOI 10.3390/w18080886. SHA256 of raw PDF: `4e7dfb46e3a19a5be1f1859e697e95c37a1df8102aeb5fdb39bf1076dd36aa05`.
 
-## Verification notes
-
-- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had the following defects, all corrected here:
-  1. `raw_handle: manual-fetch-source-retrieval` — generic, not file-specific. Updated to `MFK_p0316-heavy-metals-burden-in-drinking-water`.
-  2. `raw_path` pointed to `P0316.pdf` (filename stub); the actual file is `P0316_Heavy Metals Burden in Drinking Water.pdf`. Path corrected.
-  3. `metals: [Pb, Cd, tAs, tHg, Ni, Cr, Al]` listed Al. **The review does not discuss aluminum anywhere** (not in Tables 1–5, not in Table 5 summary, not in the narrative). Al removed. Cu, Fe, Zn, U, Mn, Sb, Se added — all are discussed in the review with per-source ranges.
-  4. `access_url`, `raw_sha256`, `no_doi_assigned`, `publication` volume/issue, `sample_n` absent. Added.
-  5. Cd Key numbers stated "highest in groundwater from Ghana (2.23 mg/L)". This is incorrect: the review's narrative and Table 5 both attribute the 2.23 mg/L Ghana Cd value to surface water (Cobbina et al., ref [5]), not groundwater. Corrected.
-  6. Mercury Key numbers contained "Groundwater: ND to ~0.026 mg/L tap water; ND to ~126.0 µg/L surface water" — internally muddled (tap-water value mislabeled as groundwater; the 126 µg/L attribution belongs to Cr, not Hg). Replaced with the four matrix-type ranges as actually reported in Tables 1–4 and the overall maximum from Table 5.
-  7. Cr, Fe, Cu, Zn, U, Mn, Sb, Se absent from Key numbers despite being in (or warranting addition to) the metals list and discussed extensively in the review. Added.
-  8. `matrices: [tap-water, groundwater, surface-water, bottled-water]` used non-canonical splits. Collapsed to `[drinking-water]` (the controlled-vocabulary umbrella per the editorial record); the four sub-types are now described in the body and in Key numbers per the review's own Table 1–4 structure.
-
-- **Paper-internal contradictions reproduced as flagged here (faithful to source, not silently corrected):**
-  - Pb overall maximum: review narrative and abstract attribute 0.791 mg/L to groundwater (Ghana); Table 5 summary row lists it as "Tap water." The narrative/abstract reading is internally consistent with Table 4 (groundwater table). The wiki reproduces the narrative attribution as the primary statement and flags the Table 5 disagreement.
-  - Pb/Hg cross-attribution at Ghana surface water (0.259 mg/L): the value 0.005–0.259 mg/L appears as a Pb surface-water entry for Ghana in Table 3, and the same 0.259 mg/L Ghana surface-water figure appears in Table 5 as the overall Hg maximum (Ghana, Surface Water). The narrative on p11 also names 0.259 mg/L as the highest Hg surface-water concentration. Table 3's Hg row for Ghana caps at 0.001–0.191 mg/L. So 0.259 mg/L is simultaneously attributed to Pb in Table 3 and to Hg in Table 5 and the narrative — a second paper-internal cross-attribution beyond the well-known Pb Table 5 row.
-  - Cd in tap water: narrative says no tap-water entry exceeded 3 µg/L; Table 1 Nigeria entry ND–0.10 mg/L (100 µg/L) contradicts.
-  - Cd in groundwater: narrative reports 0.005–0.791 mg/L groundwater range, but 0.791 mg/L is the Pb maximum (Ghana groundwater) — likely transposition in the narrative; Table 4 South Africa entry reaches 4.6 mg/L.
-  - Cr overall maximum: Tables 4 and 5 both print 244.4 in mg/L (China), but disagree on water-source type (Table 4 groundwater; Table 5 "Surface water"). The narrative summary on p6 prints "244.43 µg/L in groundwater" — disagreeing with both tables on unit. A 244.4 mg/L groundwater Cr value would be ~5,000× the WHO 50 µg/L guideline and is implausible; the narrative's µg/L groundwater attribution is the consistent reading.
-  - Ni: narrative claims 1.021 ± 0.1 mg/L Nigeria is from a surface-water study; Table 1 places that exact value in the tap-water table for Nigeria (ref [53]). Reproduced both; flagged.
-  - Fe tap water Nigeria entry `139.00 ± 13.00 ** mg/L`: as written this would be 139 mg/L (≈460× the 300 µg/L WHO aesthetic limit), which is implausible; the narrative says the mean tap-water highest was 0.139 ± 0.013 mg/L, suggesting an `*` (µg/L) vs `**` (mg/L) typesetting error in Table 1 or a missing decimal in the narrative.
-  - WHO Hg guideline: narrative says 1 µg/L; Table 5 says 6 µg/L. Both reproduced as written.
-  - Se units in Table 3 and the narrative: Algeria 7.70–12.20 mg/L and Ethiopia 0.015–2.64 mg/L would be 192× and 66× the WHO 40 µg/L guideline. Almost certainly a µg/L source paper reproduced as mg/L by the review; flagged.
-  - Cu in narrative: China "up to 3816.50 mg/L" and Pakistan/India "up to 2325 mg/L" (paragraph on page 8) are not in Tables 1–4 at these magnitudes and are almost certainly mg/L vs µg/L unit-transcription errors in the original studies that the review reproduced uncritically; flagged.
-
-- **Speciation.** Paper measures total As (no inorganic/total split), total Hg (no methylmercury speciation), total Cr (the review explicitly says no included study separated Cr-III from Cr-VI). source metadata `metals:` uses `tAs, tHg, Cr` accordingly.
-
-- **Brand firewall (Part 12):** no consumer-brand contamination values reported (the included studies report by country/region and analytical instrument, not by brand). No content stripped on this pass. Instrument vendor mentions (ICP-MS, ICP-OES, AAS, GFAAS, FAAS, SWASV, HPLC/ICP-DRC-MS, ACP-AES, laser fluorimeter) are scientific-method references retained per the 2026-05-17 audit exception.
-
-- **Wiki/HMTc firewall (Part 2):** no HMTc threshold proposals; the Implications section flags drinking water as relevant to HMTc Category 8 occurrence context but does not propose threshold values, does not write consumer-facing advisories, and does not infer that any specific HMTc value should derive from this review's tabulations. The review itself is a tabulation, not a percentile-pooled dataset, and is appropriately flagged as occurrence-context evidence rather than row-pool material.
-
-- **Evidence tier.** Tier B (peer-reviewed but narrative review without meta-analysis, formal quality appraisal, or risk-of-bias scoring). Useful for global occurrence context and for source-pointing to the 66 underlying primary studies, less useful as a standalone evidence source for any quantitative claim.
-
-- **Audit editorial review 2026-05-25 (REVISE)** — three Check-1 findings verified against the PDF and applied: (1) Pb surface-water highest restated as Ghana 0.259 mg/L from Table 3 (the previous draft named Bangladesh 64.00 µg/L, but Table 3 row 1 shows Ghana 0.005–0.259 ** mg/L = up to 259 µg/L, and the abstract confirms "ND to 0.259 mg/L (surface water)" for Pb); the Pb/Hg cross-attribution at Ghana 0.259 mg/L is now documented as a second paper-internal contradiction. (2) Mn tap-water highest in Table 1 restated as Ecuador 3.000–122.0 µg/L (ref [92], ICP-OES); the previous draft incorrectly named Costa Rica 0.34–86.8 µg/L as highest while listing the higher Ecuador entry in the same bullet. (3) Sri Lanka Mn groundwater range corrected to 2.477–2,241 µg/L per Table 4's `*` (µg/L) notation; the previous draft printed "2,477–2,241" with the leading decimal dropped, producing an inverted high-to-low range. Also tightened: the Cr-overall-maximum framing now correctly states that Tables 4 and 5 agree on mg/L (disagreeing only on water-source type) while only the narrative summary on p6 prints µg/L, rather than the previous "Table 4 µg/L vs Table 5 mg/L" framing. Audit verdict: REVISE; Checks 2–5 clean on first pass.
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]

@@ -36,7 +36,7 @@ When a `wiki_doi:` is populated for the cited page, the attribution should refer
 
 ### Layer 2: Structured evidence database (EU database rights reserved)
 
-The curated, structured evidence database underlying the Index — the routing audit, the structured value records under `data/evidence/`, the `contamination_profile` blocks on ingredient pages, the `limit_value` and jurisdiction matrix on regulation pages, the synthesis-claim contributing-source lists, and any composite views derived from these — is the substantial-investment work of Paleo Certified, Inc. and is protected as a `sui generis` database under Directive 96/9/EC.
+The curated, structured evidence database underlying the Index — the source-routing register, the structured value records under `data/evidence/`, the `contamination_profile` blocks on ingredient pages, the `limit_value` and jurisdiction matrix on regulation pages, the synthesis-claim contributing-source lists, and any composite views derived from these — is the substantial-investment work of Paleo Certified, Inc. and is protected as a `sui generis` database under Directive 96/9/EC.
 
 The database rights are **reserved**. Permitted uses:
 

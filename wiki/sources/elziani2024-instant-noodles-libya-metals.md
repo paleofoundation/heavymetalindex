@@ -62,16 +62,6 @@ Seven noodle samples were randomly collected from local markets in Benghazi, Lib
 
 This source contributes Libya-market instant-noodle occurrence data for Cd, Pb, total As, total Cr, and Sn. The sample-level table is compact and directly extractable, but the regulatory-comparator prose has internal inconsistencies, so any compliance discussion should be rebuilt from Table 1 rather than quoted from the narrative. It is useful for pasta/noodle product routing and for tin occurrence in a non-canned processed-food matrix. It is not suitable for iAs or Cr-VI pooling because the study reports total As and total Cr.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained a readable bilingual title page, DOI, methods, Table 1, discussion, and conclusion.
-- DOI verified from the title page as `10.51984/JOPAS.V23I2.3111`; DOI, raw handle `MFK_jopas-v23i2-3111`, and cite-key checks found no existing source page before creation.
-- All concentration values in Key numbers were checked against Table 1. Units are preserved as `ppb`; no conversion to mg/kg or µg/kg was performed.
-- Speciation: arsenic is total As and chromium is total Cr. The source does not report iAs or Cr-VI.
-- Brand firewall: samples are numbered 1-7; no consumer brand names are attached to contamination values.
-- Internal consistency: Table 1 conflicts with parts of the Cd and Pb comparator prose. This page treats Table 1 as the occurrence source of truth and records the prose conflicts above.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

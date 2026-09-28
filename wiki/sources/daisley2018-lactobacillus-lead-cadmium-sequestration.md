@@ -67,17 +67,13 @@ App: Useful context for mitigation explainers where probiotic strains may reduce
 
 Courses: Useful example for distinguishing a consumer-product category name from a mitigation mechanism: the probiotic strain is the intervention, not a sampled supplement with contaminant concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/formulation]]
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF text, including the abstract, Results sections for Figures 1-4, and Methods sections for heavy-metal quantification and Caco-2 translocation. Products and ingredients are intentionally empty because all numeric values are spiked-solution, bacterial-binding, or epithelial-model values. The source names Lactobacillus strains and E. coli laboratory strains; these are biological materials and methods, not consumer brands.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

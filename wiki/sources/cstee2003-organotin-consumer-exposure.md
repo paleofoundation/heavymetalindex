@@ -89,23 +89,13 @@ Courses: The opinion is useful for teaching why organotin exposure cannot be tre
 
 App: If organotin context is surfaced for food-contact packaging or children's PVC materials, this source supports a qualitative distinction between organotin species and total elemental tin, and flags baking-paper/PVC-wrap and PVC-toy pathways as regulatory-review concerns.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-packaging-flexible-pouches-films]]
 - [[products/bakeware]]
 - [[products/toys-substrate-materials]]
 - [[metals/tin]]
 - [[metals/organotins]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the title pages, question list, environmental-exposure section, human-exposure section, answers to questions, references, and Annex 1 were checked against this page.
-- Identity checks before creation: exact title phrase, raw SHA-256 `88be80d9bbcb86798d187d983dc54109443244a614ff33d8624c0989fd491117`, raw handle `MFK_eu-risk-assessment-studies-on-targeted-consumer`, and cite key `cstee2003-organotin-consumer-exposure` were searched in the linked reference record and evidence files; only intake/tracker CSV rows were found.
-- DOI status: no DOI is printed in the PDF metadata or extracted text. The page uses `doi: null` and `no_doi_assigned: true`.
-- Speciation: all tin-related values are organotin species or organotin-tin equivalents, not total tin or inorganic tin. source metadata uses `Sn` for element-level routing following existing organotin-source convention and links `[[metals/organotins]]` in the wiki-page list.
-- Units and bases are preserved exactly as printed, including `µg/L`, `ng Sn/litre`, `ng TBT /litre`, `mg TBTO/kg diet`, `µg/kg bw/day`, `µg/kg`, `mg/kg`, `µg/day`, and `µg/m3`.
-- The source's toxicological reference values and migration-limit discussion are reported as CSTEE/SCF regulatory-review statements, not as HMTc thresholds.
-- Closed-vocabulary check: product slugs use broad existing food-contact packaging, bakeware, and toy substrate rows. No exact baking-paper, PVC-flooring, wallpaper, indoor-dust, or paddling-pool product slug was invented; those contexts remain in prose.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

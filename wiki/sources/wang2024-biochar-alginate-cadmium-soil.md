@@ -59,16 +59,12 @@ Courses: Useful for remediation modules because it reports pH dependence, kineti
 
 App: No direct ingredient or product-risk distribution; retain as mitigation-context evidence for cadmium-contaminated agricultural soils.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/atomic-absorption-spectrophotometry]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, pH experiment, Table 1 narrative, Table 2 kinetic parameters, soil-culture results, conclusions, and materials/methods. Products and ingredients are intentionally empty because the study does not measure a consumer product or edible crop. The auto-fetch filename's "fabric-protectants" label is not supported by the paper content.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

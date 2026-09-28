@@ -131,49 +131,11 @@ Figure 1: schematic of the PC-mediated metal detoxification pathway in plants, s
 - The review does not engage gut-microbiome, human-exposure, or epidemiological literature on PC intake from plant-derived foods. The single sentence on the food-safety relevance of PC distribution in foods (introduction, citing reference [39] Dennis et al. 2021) is not developed further.
 - Geographic scope of the underlying primary literature skews toward Europe, North America, China, and Russia; tropical and subtropical crop literature is underrepresented in the cited corpus.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/cadmium]]
-- [[metals/arsenic]]
 - [[metals/arsenic-inorganic]]
-- [[metals/mercury]]
 - [[metals/mercury-total]]
-- [[metals/lead]]
-- [[metals/copper]]
-- [[metals/zinc]]
-- [[metals/nickel]]
-- [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.3390/ijms24032430`), raw_handle grep (`MFK_04-phytochelatins-sulfur-containing-metalloid-chel`), and cite-key glob (`seregin2023-*`, `kozhevnikova2023-*`) over the linked reference record on 2026-06-08 returned no matches. The MFK_03 sibling [[marques2025-phytochelatins-cadmium-mitigation]] is a different paper (Marques 2025 IJMS, DOI 10.3390/ijms26104767) with overlapping but distinct scope (Cd-and-PCS-genetics perspective). The two are co-routing background sources for the same wiki regions ([[metals/cadmium]], [[mitigation/remediation-evidence]]). This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** B (secondary narrative review with no PRISMA and no primary measurements). The paper synthesises 361 cited references but declares no systematic search strategy, no inclusion/exclusion criteria, no risk-of-bias assessment, and contains no primary data ("No new data were created or analyzed in this study"). A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither.
-
-**Metals source metadata.** Cd is the primary subject and the most-discussed metal across all sections. As(III) is the substantive secondary subject — the review repeatedly notes that PCs are mainly involved in detoxification of Cd and As(III). Hg (including PheHg phenylmercury) is discussed in the vacuolar transport, ABCC1/2 substrate range, and *cad1-3*/*cad1-6* mutant hypersensitivity contexts. Pb is discussed as a PCS-activating metal and in the *B. juncea* Pb-induced PC biosynthesis studies. Cu and Zn are discussed in homeostasis and in the multi-metal exposure studies (e.g., *Clinopodium vulgare* Lamiaceae, *Sinapis alba* Pt/Rh/Pd induction); both fall outside the HMTc 10-analyte list but are in the wiki taxonomy. Ni receives lesser coverage but is discussed in the Sb-PC/Ni section and the hyperaccumulator-comparison framing. The metal slugs used (Cd, iAs, tHg, Pb, Cu, Zn, Ni) follow the abbreviation vocabulary — iAs is used because the review explicitly discusses As(III) (arsenite, the inorganic form) throughout; tHg is used because the review distinguishes Hg(II), PheHg, and Hg generally without consistently reporting a methyl-vs-inorganic split.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The review measures nothing in any food matrix; the food-relevant plant species names (rice *Oryza sativa*, wheat *Triticum aestivum*, maize *Zea mays*, soybean *Glycine max*, pea *Pisum sativum*, spinach *Spinacia oleracea*, tomato *Solanum lycopersicum*, sunflower *Helianthus annuus*, peanut *Arachis hypogaea*, cabbage/mustard *Brassica* species, lettuce *Lactuca sativa*, cucumber *Cucumis sativus*, grape *Vitis vinifera*) appear as model or experimental host organisms in PC-biosynthesis and PCS-genetics studies, not as sampled food commodities with reported metal concentrations. Russia is the authors' institutional country but the review is conceptually international and no national regulatory or occurrence frame applies; `jurisdictions:` remains empty.
-
-**Sample size.** Null. The review has no sampling frame; it cites ~140 plant species across 361 references but reports no human/biological sample numbers of its own.
-
-**Brand firewall (Part 12).** No commercial brand names appear in the source body for contamination values. No food, supplement, or personal-care brand is named. Methods-context vendor mentions are limited to the cited primary studies (e.g., HPLC-ESI-MS-MS analytical methods, VOSviewer-style bibliometric tools) and are not reproduced in the review's body; per the verification checklist's Exception 2, scientific-method vendor names would be permitted in methods context anyway. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language, no claims about HMI certification levels, and no consumer-audience risk advisories. The Conclusions and Outlook section discusses "the development of phytoremediation, biofortification, and phytomining technologies" as research goals; this is biological-research framing, not a wiki-side synthesis or threshold proposal, and is preserved in the Implications section without escalation. No firewall action required.
-
-**Date arithmetic.** Received 28 December 2022; revised 20 January 2023; accepted 23 January 2023; published 26 January 2023 — all consistent with the `year: 2023` source metadata. DOI 10.3390/ijms24032430 resolves to *Int. J. Mol. Sci.* 2023, Vol 24, Article 2430.
-
-**Reviewer's note on scope fit.** This paper is in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch source-retrieval folder alongside [[luo2024-peptides-heavy-metal-remediation]], [[marques2025-phytochelatins-cadmium-mitigation]], and others. Per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, peptide-mediated mitigation/remediation papers are in scope as background for the mitigation-evidence chapter. This paper is broader than Marques 2025 (which is Cd-and-PCS-genetics-engineering only) and broader than Luo 2024 (which covers peptides generally rather than PCs specifically); Seregin & Kozhevnikova 2023 is the comprehensive PC-physiology and PC-biosynthesis reference of the trio. The three together provide the conceptual backbone for a future PC-and-MT mitigation chapter.
-
-**Slug-vocabulary note.** `[[mitigation/remediation-evidence]]` is in the live the linked reference record directory (confirmed 2026-06-08 via `ls wiki/mitigation/`). The taxonomy snapshot (the editorial record, generated 2026-05-18) covers ingredients, products, metals, and regulations but not the mitigation/ subdirectory; this is a snapshot-coverage gap, not a missing-slug defect. The wikilink is in-scope per the cited 2026-06-02 scope commit and per the existing live page. No correction applied; the snapshot will catch up in a future refresh.
-
-**As speciation note.** The review uses "As(III)" throughout for arsenite (the inorganic form) and occasionally writes "arsenate" or "As(V)" for the pentavalent form. The *R. serpentina* induction observation specifically uses AsO₄³⁻ (As(V), arsenate), while the broader "PCs are mainly involved in the detoxification of Cd and As(III)" claim uses arsenite (the more biologically active form). The source metadata uses `iAs` (inorganic arsenic), which captures both arsenite and arsenate. The MeHg/tHg distinction is not systematically maintained in the review (Hg, Hg(II), and PheHg are the three forms named); the source metadata uses `tHg` as the broader designation.
-
-**Audit editorial review (2026-06-08) verdict: REVISE → applied.** Five checks returned three ⚠️ on Check 1 (numerical fidelity) and four ✅ on the other checks (slug vocabulary, speciation/methods, brand firewall, HMTc firewall). All three Check 1 findings were independently verified against PDF pp. 7–8 and applied as the audit recommended:
-- **Finding 1 (citation slip on log K spectrophotometric values):** verified PDF p. 8 cites the 4.8/6.2/7.5/5.5 values to reference [157], not [120]. The wiki misattributed the values to [120] = Wątły 2021 (which actually supports the subsequent femtomolar potentiometric range). Corrected: spectrophotometric values now cite [157]; potentiometric range now correctly cites [120].
-- **Finding 2 (metal-PC stability ordering mischaracterised):** verified PDF p. 8 reports the stability ordering "for metals other than Cd" as Zn²⁺ ≥ Cu²⁺ ≥ Fe²⁺ > Mg²⁺ > Ca²⁺ [158]; Pb²⁺ is not in this ordering and "for PC4" is not the qualifier. The wiki had invented Cd²⁺ ≥ Pb²⁺ at the front and added the false "for PC4" qualifier. Corrected: ordering now reads "for metals other than Cd…Zn²⁺ ≥ Cu²⁺ ≥ Fe²⁺ > Mg²⁺ > Ca²⁺" and notes Pb is not placed in this ordering by the source.
-- **Finding 3 (induction list muddled — Ni omitted, As(III) where source has As(V)):** verified PDF p. 7 that the *R. serpentina* induction list explicitly includes Ni²⁺ (100 µM) and uses AsO₄³⁻ (As(V), arsenate, 20 µM). The wiki had omitted Ni and labelled the As form as As(III). Corrected: induction paragraph now reproduces the *R. serpentina* list verbatim including Ni²⁺ and AsO₄³⁻ (As(V)), and the broader cross-species induction context (Hg, Pt, Rh, Pd, V) is named separately.
-
-3 findings, 3 applied, 0 rejected. Audit editorial review ID a4bb3f7c5e10832b8.
+- [[luo2024-peptides-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

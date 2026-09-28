@@ -70,25 +70,12 @@ Thirty collagen supplement products were procured from US local, national, and o
 - Total mercury was not a meaningful exposure signal at the 8 ppb LOQ used; HMI ingredient/product pages should not draw a tHg signal from this source.
 - Evidence fitness caveat: non-peer-reviewed industry/advocacy white paper, n=30 single-pull market sample, accredited-lab ICP-MS but no per-product replicate disclosure, no lab-blank or recovery reporting, no speciation. Treat as a B-tier per-serving occurrence anchor rather than as a definitive market-distribution estimate.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/supplements-protein-collagen-powders]] — first US per-serving occurrence dataset for the collagen-supplement sub-category.
-- [[metals/lead]] — measurable per-serving Pb in 37% of US collagen supplements; worst single-serving exposure ~3× Prop 65 MADL.
-- [[metals/cadmium]] — 17% measurable per-serving Cd; high-end 9.17 µg/serving (~2× Prop 65 MADL).
-- [[metals/arsenic]] — 64% measurable per-serving tAs; highest product 4.7 µg/serving (below Prop 65 NSRL).
-- [[metals/mercury]] — 34% trace-level detections; no quantitative signal above 8 ppb LOQ.
-
-## Verification notes
-
-- All per-serving values taken from Chart 1 (page 10) of the source PDF. Population summaries (detection percentages, range statements, Prop 65 comparison statements) taken from the Findings text (pages 3-5).
-- **Part 12 brand firewall:** the source PDF names 28 individual consumer brands by name in Chart 1 (a brand/product table) and names specific top-performing and worst-performing brands by name in the Findings narrative ("Garden of Life Unflavored Collagen Peptides … most amount of Arsenic"; "BulletProof Collagen Protein Chocolate … highest amount of Cadmium"; "Orgain Collagen Peptides, Unflavored had the most amount of Lead"; "Ancient Nutrition Keto Collagen Chocolate, Bulletproof Collagen Protein Chocolate, and Preferred Elements Keto Collagen Chocolate all had over 2 times the State of California threshold"; "top collagen products tested are: BioOptimal Collagen Powder Unflavored, Neocell Super Collagen, Puori CP1 Pure Collagen Peptides"). Per Part 12 strict reading (locked 2026-05-17), none of these brand names is reproduced in this wiki page. Worst- and best-performing products are described by product form (unflavored collagen peptides, chocolate flavored / keto-style collagen, etc.) rather than by brand name. The lab names (HRI Labs, Ellipse Analytics) are retained under the Part 12 scientific-method vendor/material exception because they identify analytical service providers, not sampled consumer products.
-- **Part 2 wiki/HMTc firewall:** the source white paper is heavily framed around consumer advocacy (recommendations like "Vote with your dollars", "Demand that these multi-million dollar brands do better") and around supply-chain critique of Concentrated Animal Feeding Operations (CAFOs). Those framings are not reproduced here; only the analytical occurrence findings are recorded. No HMTc threshold proposal is drawn from this source.
-- **Speciation:** EPA Method 6020A reports total elemental concentrations; tAs and tHg are correct labels, iAs and MeHg are not claimed. No speciation chemistry was performed.
-- **Units:** all values are µg/serving (mass per consumer-use unit), not µg/kg (concentration). The four-fold spread in declared serving size across the cohort (2.6 g to 41 g) means per-serving rankings and per-mass concentration rankings differ; the source reports only per-serving. Any downstream conversion to ppb concentration must be done with the product's serving-size denominator and labelled accordingly.
-- **Mercury LOQ:** the 8 ppb level of quantification is the source's stated LOQ; "Trace" detections in Chart 1 fall below this LOQ and are not quantitated. No µg/serving Hg values are reportable from this source.
-- **Evidence tier B rationale:** non-peer-reviewed industry/advocacy white paper jointly authored by Clean Label Project and Organic Consumers Association; published as a downloadable PDF on cleanlabelproject.org rather than in a peer-reviewed journal; no DOI. Analytical chemistry was performed by ISO-accredited third-party labs using EPA-standard methods, which justifies B over C, but the absence of peer review, of per-product replicate disclosure, and of QA/QC reporting (blanks, spikes, recoveries) prevents A-tier classification.
-- **Scaffold-introducing slugs:** matrices labels `collagen-supplement`, `bovine-collagen`, `marine-collagen`, `fish-collagen`, and `chicken-collagen` follow the convention already established by [[sources/cammilleri2025-marine-collagen-toxic-metals]]; they are not yet in the editorial record. Surfaced for the next taxonomy-snapshot regeneration.
-- Audit editorial review (2026-06-08) Check 1 ⚠️: flagged that Cd 4.1 µg/day and Pb 0.5 µg/day Prop 65 MADL numerics are not printed on the face of the white paper (only "over 2×" and "over 3×" multipliers are). Verified against PDF page 4 — finding is correct. Revised Key numbers context paragraph to make explicit that the 4.1 and 0.5 µg/day values are imported from OEHHA's published Safe Harbor list rather than from this source; the 10 µg/day tAs comparison value is on the PDF face. Audit editorial review Check 2 ⚠️ (matrices slugs not in snapshot) was already disclosed in this notes section before audit; no further action.
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

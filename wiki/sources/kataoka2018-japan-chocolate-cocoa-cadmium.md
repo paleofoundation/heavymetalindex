@@ -52,16 +52,12 @@ Courses: The paper is a clear example of why cocoa percentage matters for cadmiu
 
 App: Chocolate and cocoa powder should remain high-priority cadmium ingredients/matrices when the ingredient list indicates substantial cocoa solids or cocoa powder.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/chocolate]]
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF title, byline, journal issue, DOI, sample counts, analytical method, and summary values were read from the source PDF. The source reports total cadmium only; it does not provide lead, arsenic, mercury, or cadmium speciation data. Brand names are not reproduced here; sample-level values are anonymized by sample number in the paper.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

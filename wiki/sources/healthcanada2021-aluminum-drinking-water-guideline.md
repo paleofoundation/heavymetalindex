@@ -118,26 +118,11 @@ Courses: A useful worked example of how a national agency derives a drinking-wat
 
 App: Drinking water can be added to the per-age aluminum exposure model using the 0–4.4% allocation range from Table 1; the document supplies median, mean, 90th-percentile and maximum total-Al concentrations by water type and jurisdiction (Table 2) that can be used for region-specific exposure estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
-- [[regulations/efsa-aluminium-twi]] — international comparator (EFSA TWI), referenced for comparison
-- [[regulations/atsdr-aluminum-mrls]] — international comparator (ATSDR MRLs), referenced as a supporting risk-assessment source
-
-## Verification notes
-
-- Source type is `regulatory-guideline`: this is a Health Canada Federal-Provincial-Territorial guideline technical document (March 2021), not a peer-reviewed primary research study. ISBN 978-0-660-37115-3, Cat H144-13/18-2021E-PDF, Pub 200347. No DOI. License: Government of Canada reproducible for personal/internal use with attribution.
-- `matrices: [drinking-water]`. The document covers Canadian municipal and non-municipal drinking water, including treated, distributed, surface and groundwater types; the `drinking-water` umbrella slug is used per Part 5b routing-layer fan-out guidance.
-- `products: []` is correct: the document describes drinking water as a matrix and includes regulatory occurrence data; it is not a product-category study, and there is no provisional or scaffolded product slug needed.
-- `ingredients: []` is correct: the document describes aluminum exposure in food categories (Total Diet Study) only at a synthesis level (highest concentrations in herbs/spices, baking powder, baked goods, processed chicken, chewing gum, infant formula by category) and does not perform primary ingredient-level analysis.
-- `jurisdictions: [CA]` covers all 10 sampling provinces/territories listed in `sampling_locations`. Canadian national-level guideline.
-- `metals: [Al]` follows Part 14 abbreviation discipline. Aluminum is reported as total aluminum (dissolved plus particulate); no speciation distinction is drawn at the guideline level.
-- Regulatory-slug proposal (for Karen): a new `regulations/health-canada-aluminum-mac.md` (or similar) slug appears justified for this document because it sets a binding Canadian MAC of 2.9 mg/L for total Al in drinking water. Per skill policy this skill does not create new regulation pages; surfaced here for the next regulation-slug review. Existing aluminum-regulation slugs are `efsa-aluminium-twi` and `atsdr-aluminum-mrls` only.
-- Part 12 brand firewall: source contains no brand-attributed contamination data; method/vendor exception N/A (no analytical instrument vendors named in the source-level method summaries; APHA/EPA standard method numbers only).
-- Part 2 wiki/HMTc firewall: this page reports the Health Canada guideline values, derivation steps, occurrence data, and international comparators as the document presents them. No comparison to HMT&C thresholds, no consumer risk advisories, no proposals for HMT&C certification levels.
-- Brand-firewall exception 1 (regulatory event subject) does not apply — the document does not name any branded products as the subject of a regulatory action.
-- Audit editorial review (2026-06-04) flagged a Manitoba/Saskatchewan jurisdictional mis-attribution in the Canadian occurrence block: the non-municipal-ground row `0.003 / 0.023 / 0.011 / 14.000` (n = 1 983/4 128) was attributed to Manitoba but belongs to Saskatchewan per source Table 2 (page 5). Manitoba's actual non-municipal-ground row is `0.002 / 0.010 / 0.014 / 0.266` (n = 51/144). Verified against source page 5 — finding correct; corrected.
-- Audit editorial review (2026-06-04) flagged the Poirier 2011 study size as `(80 sex/group)` being ambiguous (could be misread as 80 per group total). Source page 15 Table 3 explicitly states "80/sex/group" with the slash. Verified — finding correct; disambiguated to `(80/sex/group; 160 per dose group)`.
+- [[regulations/efsa-aluminium-twi]]
+- [[regulations/atsdr-aluminum-mrls]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

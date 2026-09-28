@@ -84,7 +84,7 @@ Speciation: The paper reports total mercury. It does not speciate methylmercury 
 - Courses: Useful as a teaching example for separating regulatory-limit exceedance from exposure-index calculations. More than half of several tissue-metal combinations exceeded author-cited MPLs, while THQ, TTHQ, and CR values remained below the authors' concern thresholds under their Egyptian adult consumption assumptions.
 - App: Provides market-specific beef and organ-meat occurrence values. Do not generalize these values to all US or EU beef without additional source support.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/beef]]
 - [[ingredients/organ-meats]]
@@ -94,15 +94,6 @@ Speciation: The paper reports total mercury. It does not speciate methylmercury 
 - [[metals/mercury-total]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-hg-pb-cd-egypt`.
-- The local seafood-folder PDF is the same DOI as the earlier loose manual-fetch copy. This page now points to the seafood-priority PDF path and records its SHA-256.
-- Cross-vendor audit (Codex, 2026-05-18) checked slug vocabulary: `beef-product` is an existing product page, and `meat`, `beef-muscle`, `bovine-liver`, and `bovine-kidney` are source-specific matrix descriptors used to preserve the tissue split.
-- Numerical fidelity follows the article's Tables 1-4. The abstract reports different SE values for several means (for example tHg muscle 0.312 ± 0.058), while Table 1 reports 0.312 ± 0.034; this page follows Table 1 because it is the full tissue-by-metal results table and supports the range and exceedance columns.
-- The Methods prose states an Hg RfD of 1.0 µg/kg/day, but Table 3 uses 0.1 µg/kg/day to calculate the reported THQs. This page preserves the Table 3 THQ values rather than recalculating them.
-- The author-cited Hg MPL is from the USDA Foreign Agricultural Service report on China's contaminant standard; the Pb and Cd MPL references are EU amendment regulations 2015/1005 and 488/2014. This page reports those as author-cited benchmarks, not as current universal limits.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

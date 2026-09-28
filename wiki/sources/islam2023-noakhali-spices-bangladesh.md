@@ -98,19 +98,6 @@ Method limitations: Cr is reported as total Cr; the cancer-risk calculation assu
 - [[metals/cadmium]]
 - [[metals/chromium]]
 
-## Verification notes
-
-- 2026-06-02 automated editorial review fresh ingest from the archived source file (KADC corruption-folder drain). PDF reads cleanly end-to-end (text, tables, figures all extractable); no corruption observed in this file.
-- The folder filename credits "Chowdhury" but the paper's first author is Md Shahedul Islam (Akibul Islam Chowdhury is second author). Cite-key follows HMI convention: first-author surname + year → `islam2023-noakhali-spices-bangladesh`. The raw_handle preserves the filename token "chowdhury" because that is the on-disk artifact.
-- Paper-internal inconsistency on Fe: the abstract and Results both name Black Pepper as the spice with the "greatest" Fe concentration at 9.29 ± 1.71 mg/kg, but the same Results paragraph immediately lists green chili (35.46) and branded chili powder (34.02) as "followed by" values — both larger than the supposed maximum. Figure 2(e) shows Black Pepper (S-19) as the shortest Fe bar (~10 mg/kg), with green chili and chili-powder bars at ~35 mg/kg. The wiki page records the values as the paper states them (with the inconsistency noted) and does not silently correct: this is "obvious mirroring pattern" in the sense that the labeling error is self-evident from the same paragraph. Downstream synthesis should use Fe with care from this source.
-- Brand firewall (Part 12): the paper uses "branded" vs "non-branded" as structural categories without naming brand names. No brand attribution is reproduced. This is consistent with HMI brand-firewall posture.
-- Speciation: Cr is total Cr (the paper does not differentiate Cr(III) from Cr(VI)); the authors apply a Cr cancer-slope factor that presumes the Cr-VI cancer profile, which makes the reported cancer risk an upper bound rather than a measured risk. HMI synthesis must not treat the paper's CR(Cr) values as evidence for Cr-VI exposure.
-- The paper labels the cancer-risk line for Pb as "CR of Pd" in Figure 3 — read as a typographical error for Pb. The Pb cancer-risk line in Figure 3 sits near zero across all samples.
-- Ingredients other than turmeric, cinnamon, and black pepper (cardamom, coriander, ginger, cumin, fenugreek, clove, bay-leaf, chili-pepper, masala-mix) are routed to the umbrella `[[ingredients/spices]]` and `[[ingredients/herbs-and-spices]]` slugs per the existing taxonomy; per-spice ingredient pages are not created here (auto-stub freq-≥2 handles that downstream).
-- Evidence tier: B. Preprint, not peer-reviewed at time of upload to medRxiv. Sample size n=1 per spice category with triplicate analytical replication. No CRM reported. Single-region (Noakhali) sampling limits transferability.
-- Source SD-precision disagreement (carried through verbatim in Key numbers): the abstract reports Cd in coriander leaf as 1.65 ± 0.011 and Fe in black pepper as 9.29 ± 1.71; the Results paragraph reports the same data points as 1.65 ± 0.01 and 9.29 ± 1.72. The wiki uses the Results-paragraph precision (± 0.01, ± 1.72) in the Highest-concentration table for consistency. The abstract figures (± 0.011, ± 1.71) reflect the source's own internal SD-rounding mismatch, not a wiki transcription error.
-- Audit editorial review (general-purpose fresh context, 2026-06-02) flagged an ❌ on the original cancer-risk sample list, which had included S-10 (coriander powder) alongside the eight samples the authors explicitly enumerate. Verified against the page-14 narrative ("CR of Cr and Cd for both branded and unbranded turmeric and chili powder, green chili, masala mix, ginger, and coriander leaf were higher than 1E-04") and Figure 3 (S-10 Cr and Cd CR values both ~5–8×10⁻⁵, below the 1×10⁻⁴ benchmark). S-10 removed from the list; corrected to the eight samples the authors enumerate.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

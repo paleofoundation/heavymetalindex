@@ -78,19 +78,6 @@ Cross-sectional analytical study. Twenty tomato sauce samples in four packaging 
 - [[products/tomato-sauce]]
 - [[supply-chain/food-packaging]]
 
-## Verification notes
-
-2026-05-28 enhance pass (Claude): re-read source PDF in full and reconciled source metadata to current schema. License corrected from "unknown" to "CC BY" — the Food Sci. Technol. (Campinas) issue page bears a Creative Commons BY logo on page 1 of the article. Added `access_url` (DOI URL) and `no_doi_assigned: false`. Fixed an internal Key-numbers contradiction in the previous revision: bullet 1 claimed "Sn was the only element with significantly different concentrations" while bullet 2 stated Ni was also significantly higher in metallic packaging; the abstract is explicit that both Sn and Ni differed significantly (p<0.05), with all other elements showing no packaging-type effect. Bullet rewritten to match. All numerical values in the Key numbers table were verified against Table 5 of the source and left unchanged.
-
-Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 0.27 mg kg⁻¹ in products stored in cellulosic packaging" while Table 5 reports cellulosic Cr = 0.322 ± 0.05 mg/kg (the actual lowest mean is metallic at 0.276). The wiki tracks Table 5 values, which are the authoritative measurements. The summary range "0.27–0.39 mg/kg" is retained because it spans both the prose figure and the table extremes and is internally defensible.
-
-2026-05-28 audit-application pass (Claude, fresh-context editorial review verdict REVISE):
-- ❌ Sn Glass range corrected 0.057–0.059 → 0.057–0.058 (Table 5 reads 0.057–0.058; prior wiki had a single-digit transposition on the upper bound). Verified against source PDF page 5 Table 5.
-- ⚠️ SD precision restored to source values across the Key numbers table: Cd Metallic 0.001 → 0.0008, Cd Glass 0.001 → 0.0008, Cr Glass 0.04 → 0.036 (Table 5); Cr in cellulosic packaging "74 mg/kg" → "74 ± 4 mg/kg" (Table 7).
-- ⚠️ Part 2 wiki/HMTc-firewall language tightened in the Implications block: "compliance gap in European/global markets" softened to a statement of fact about EU Regulation 1881/2006's scope, and "Cd, Pb, As pose no regulatory concerns" reworded to "below all applicable Brazilian and EU ML values" (literature-native phrasing, no risk-advisory framing).
-- ⚠️ editorial review flagged `matrices: [tomato-sauce, food-packaging-simulant]` and `[[supply-chain/food-packaging]]` as not in the taxonomy-snapshot vocabulary. Rejected as false positives: the `matrices` field and `supply-chain/*` references are not enumerated in the snapshot's controlled vocabulary (which covers ingredients, products, metals, regulations only) and function as descriptive metadata, not routing targets. No change.
-- ⚠️ editorial review noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

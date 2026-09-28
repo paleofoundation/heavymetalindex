@@ -48,7 +48,7 @@ Courses: The paper is useful for teaching jurisdiction-specific spice monitoring
 
 App: Route as broad mixed-spice evidence for Libya, with no brand-level extraction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
@@ -63,14 +63,6 @@ App: Route as broad mixed-spice evidence for Libya, with no brand-level extracti
 - [[metals/iron]]
 - [[metals/cobalt]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- The PDF names several commercial sample labels in the methods section; this source page keeps the finding at category level under the brand firewall.
-- The article body gives arsenic as 0.09 +/- 0.03 ppm in Table 2, while the abstract and conclusion give 0.086 +/- 0.03 ppm. This page records both and treats Table 2 as the table value for routing.
-- Table 2 reports Cr SD as 0.51 ppm, while section 3.11 and the section 4 conclusion give 0.56 +/- 0.50 ppm. This page treats the Table 2 value as authoritative for routing and notes the internal inconsistency in the source.
-- Copper is reported as 0.26 +/- 0.15 ppm in Table 2 and 0.262 +/- 0.147 ppm in section 3.8 and section 4 conclusion. The values are consistent at table precision; this page uses the Table 2 rounding.
-- The DOI and publication metadata are taken from the first page of the PDF.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

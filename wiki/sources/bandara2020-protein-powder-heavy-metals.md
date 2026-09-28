@@ -70,19 +70,6 @@ Secondary risk assessment. Chronic daily intake = concentration × daily intake 
 - Reinforces [[metals/cadmium]] as the protein-powder analyte of concern and provides [[metals/arsenic]], [[metals/lead]], and [[metals/mercury]] per-serving context for the category.
 - The plant-and-dairy-ingredient attribution links this back to the cadmium-in-cereals/plant pattern seen elsewhere in the corpus.
 
-## Wiki pages this source may touch
-
-- [[products/supplements-protein-collagen-powders]] — As/Cd/Pb/Hg per-serving distribution; weight-gainer vs whey split.
-- [[metals/cadmium]] — highest mean per-serving metal; high-Cd outlier driving HI > 1.
-- [[metals/arsenic]], [[metals/lead]], [[metals/mercury]] — category per-serving context.
-
-## Verification notes
-
-- Concentrations from Table 1 (Consumer Reports per-sample) and Table 3 (Clean Label Project distribution). The underlying products are anonymized by the authors (sample ID and type only), so no brand-by-brand data is reproduced and the Part 12 firewall is satisfied at the source.
-- Occurrence is SECONDARY: the per-serving concentrations are re-analyzed from Consumer Reports and Clean Label Project third-party testing, not measured by the authors. Treat as B-quality occurrence input for pooling (down-weight versus primary ICP-MS surveys) even though the source journal is peer-reviewed (A-tier); the exposure/hazard modeling is the paper's primary contribution.
-- Units are µg per serving, not µg/kg — serving sizes vary (and were assumed at 43 g for the Clean Label Project set), so per-mass concentration must be derived if needed and is not stated directly.
-- Speciation: total As reported; inorganic-As RfD applied only in the hazard step. Total Hg reported.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

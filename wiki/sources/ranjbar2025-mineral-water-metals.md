@@ -51,7 +51,7 @@ Heavy metals were measured by inductively coupled plasma atomic emission spectro
 
 Certification: bottled mineral-water non-detect context for the five analytes the paper assays at zero (Pb, Cd, tHg, Sn, tAs) and a sixth (Cr) named only in the abstract; not pool-eligible because no LODs or per-sample values are reported. Courses: useful example of how the absence of a per-sample table or LODs undermines a "zero" claim, even when the underlying instrument and protocol look sound. App: supports a regional, product-specific non-detect signal for Iranian bottled mineral water; does not generalize to global bottled-water exposure estimation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/mineral-water]]
 - [[products/bottled-drinking-water]]
@@ -62,13 +62,10 @@ Certification: bottled mineral-water non-detect context for the five analytes th
 - [[metals/tin]]
 - [[metals/arsenic]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- License field reads `CC BY 4.0` but the published article is licensed `CC BY-NC-ND 4.0` (page 17). The ingest-time license value is preserved by audit-handling convention (raw ingest metadata is not edited during audit); this note records the discrepancy for the next license-handling pass.
-- The paper itself contains an internal contradiction between the abstract (lead, chromium) and the Summary and Conclusion (cadmium, mercury, tin, lead, arsenic) on which heavy-metal analytes were assayed. No reconciling table is present. The metals source metadata lists the union of both claims using non-speciated abbreviations (tHg, tAs) because ICP-AES is a total-element method without inorganic/methyl speciation.
-- The paper reports the heavy-metal result only as a bulk "zero mg/L" or "not present" statement without LODs, reference-material recovery, wavelength assignments, or per-sample values. This is a defensibility weakness: a "zero" without a quantifiable reporting limit cannot be re-analyzed and cannot enter a pooled-percentile distribution. The page is therefore tagged routeable non-detect surveillance and explicitly not pool-eligible.
-- 2026-06-09 audit editorial review (editorial review, 5-check audit). Verdict REVISE. Applied: license discrepancy documented (not modified per audit hard-constraint on ingest-time fields); `sample_n` corrected from "not reported in abstract" to 15 (Table 1 enumerates WFR1–WFR15); `sample_population` expanded to name province coverage; `metals:` expanded from [Pb, Cr] to [Pb, Cd, tHg, Sn, tAs, Cr] to honor both abstract and conclusion analyte lists, with the discrepancy surfaced in body text; Methods (brief) rewritten with the ICP-AES instrument, plasma temperature, triplicate protocol, and gamma-spectrometry detector all extracted from pages 2–4 (audit caught a false claim that "methods detail requires extraction"); Wiki pages section expanded to add cadmium, mercury, tin, arsenic. Rejected: matrices slug `bottled-water` flagged by audit as off-vocabulary — false positive, slug is precedented across [[sources/decharat2023-lead-cadmium-drinking-water-thailand]], [[sources/decharat2020-school-drinking-water-pb-cd]], [[sources/efsa-chromium-contam-2014]], and [[sources/olowoyo2026-heavy-metals-drinking-water-global-review]]. Independent verification catches beyond the audit: Th-232 / K-40 / Cs-137 numeric averages and AED / ELCR values added to Key numbers from the Summary and Tables 6–10 (audit deemed acceptable to omit; included anyway for defensibility); explicit non-pool-eligibility flag added based on the LOD-absence finding.
+- [[sources/decharat2023-lead-cadmium-drinking-water-thailand]]
+- [[sources/decharat2020-school-drinking-water-pb-cd]]
+- [[sources/efsa-chromium-contam-2014]]
+- [[sources/olowoyo2026-heavy-metals-drinking-water-global-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -83,7 +83,7 @@ App: Route as powdered formula occurrence evidence for Turkish-market cow-milk-b
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/manganese]]
@@ -102,14 +102,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-dairy]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula wishlist. The same DOI appeared in four downloaded wishlist rows targeting Cu, Mn, Se, and Zn; this page is the canonical source page for those duplicate downloads.
-- Strict brand firewall: the paper uses anonymized brand numbers in tables and results. This page reports aggregate and range values only, and does not reproduce or rank anonymized brand rows.
-- Speciation: arsenic and mercury are reported as total As and total Hg because the method was ICP-MS after digestion with no HPLC/IC separation.
-- The source text uses both ug/g and mg/kg for some results; these are equivalent for powdered product concentration and are preserved where the source uses them.
-- Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -65,41 +65,13 @@ App: For the consumer-facing app, baby talcum powder is a non-food category but 
 
 Microbiome: Not applicable — paper does not address microbiome.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[products/baby-talcum-powder]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- **2026-05-18 merge-enhance (automated editorial review, autonomous v2.0 manual-fetch skill, daemon tick).** The prior revision (`updated: 2026-05-14`, `ingest_method: autonomy_phase1_v0`) carried three classes of defect under the current schema (Part 12 strict-reading locked 2026-05-17 and Part 2 wiki/HMTc-firewall conventions):
- 1. **Part 12 brand-firewall violations.** The prior Key numbers table listed nine brand-by-brand contamination values with each brand named ("Johnson's (JH)", "Himalaya (HIM)", "Patanjali (PAT)") in the rows. The page body and `sample_population` also named the three brands. Under the strict reading locked 2026-05-17, brand names attached to contamination values is the exact failure mode Part 12 exists to prevent (brand ranking by contamination level). All three brand names were stripped from the body, table, source metadata, and sample-population description. The Key numbers table now reports product-level **range and mean across n=3** rather than per-brand values. The three products share the same product form (loose talc-based baby powder, Indian retail market); no product-form descriptor distinguishes them in the source, so the aggregated range is the highest-resolution disclosure the firewall permits.
- 2. **Part 2 wiki/HMTc-firewall violation.** The prior App section contained the synthesis claim "well above the 0–0.1 ppm range typical of well-controlled western brands." This is both a cross-source synthesis (comparing this paper to other literature) and a brand-comparison framing. Sentence removed.
- 3. **Legacy heading.** The prior page used `## Wiki pages updated on ingest` (legacy autonomy-v0 heading) and listed stub-creation TODOs ("Cat 2 stub — to be created"). Renamed to `## Wiki pages this source may touch`; stub-TODO parentheticals removed (both [[products/baby-talcum-powder]] and [[products/children-personal-care]] exist as locked Cat 2 pages as of 2026-05-16).
-- **Authors field corrected.** The prior source metadata listed `authors: [Rashmi V, Anjali, others]`. The PDF byline reads only "Vidya Rashmi et al." with no co-author names spelled out on the title page or in the body of the article (the `et al.` is unattributed in the source). Corrected to `authors: [Rashmi V]` with `et_al: true`. The "Anjali, others" entries in the prior page were not supported by the source.
-- **Raw SHA-256 added.** `2051bc3ab245b2c86cb49069a9e45ea9a091d33ef225d1c7c23d620ffebfa597` computed from the manual-fetch PDF.
-- **Matrices vocabulary aligned.** The prior source metadata used `[cosmetic-personal-care, whole-product]`. `whole-product` is not in the cosmetics-page matrices vocabulary used by sibling Cat 2 sources (kicinska2025, bashir2025, rbeida2023, balogun2024 all use either `[cosmetics]` or `[cosmetic-personal-care]` alone). Reduced to `[cosmetic-personal-care]` to align with the locked vocabulary.
-- **Table-header unit mismatch in the source itself (paper-internal inconsistency, not a wiki defect).** Tables 1–3 in the PDF carry column headers "Concentration (ng/l)" for Pb and Cd and "Concentration (µg/l)" for Hg, but:
- - The Materials-and-Methods section describes calibration in **ppm** ("0.2, 0.4, 0.6, 0.8 ppm").
- - The Results narrative (p. 27) describes the Pb values as ppm: "highest in Himalaya (0.430) followed by Patanjali (0.316) and Johnson's (0.240). The safe limit of lead is 20 ppm by FDA."
- - The conclusion (p. 28) gives "the heavy metals were found in the range of 0.005 – 0.430 ppm which is within permissible limits of all three heavy metals as set by FDA (20 ppm for Pb, 0.9-3 ppm for Cd and 0.5 ppm for Hg)."
- - A value of "0.430 ng/L" for Pb would be ten orders of magnitude below an environmental water-sample-level concentration and inconsistent with the AAS calibration range (0.2–0.8 ppm) the authors describe.
- - **Resolution:** the Tables' column-header units are typos; the values are in **ppm (mg/kg dry mass, w/w solid)**. This is consistent with how the authors interpret their own data downstream and matches the prior wiki revision's reading. Flagged here so future synthesis cannot misread the column header literally.
-- **Brand identification at the methods-vendor level.** No instrument vendor or reference material is named in the source. The Part 12 Exception 2 (scientific-method vendor/material names) does not apply here because the source does not document the AAS make/model, CVAAS make/model, reagent supplier, or any reference material — there is nothing to disclose. The three product-brand names that DO appear in the source are at the **contamination-value attribution** level (Part 12 violation under the strict reading) and have been stripped.
-- **No certified reference material; no recovery; no LOD/LOQ.** The paper does not report any of these standard analytical-QC parameters. The %RSD values reported in Tables 1–3 range from 0.451 to "HIGH" (an explicit non-numeric placeholder, used for two of the nine measurements where the analytical variability exceeded what the authors were willing to quantify). This is the principal reason for the B-tier evidence rating despite peer-review status.
-- **No DOI.** IRIS – Journal for Young Scientists (Patna Women's College, Patna, India) is a small institutional journal that did not assign DOIs to articles in the Vol. X (2020) issue. `doi: null` with `no_doi_assigned: true`. Access URL points to the journal's issue page.
-- **License unknown.** No license statement on the PDF; the journal's open-access status is not declared on the article. `license: unknown` retained.
-- **Brand-firewall compliance after enhancement.** No brand name appears in the wiki page body, source metadata, Key numbers, Methods, Implications, or sample_population. Product identification is by form descriptor ("baby talcum powder", "finely-ground talc-based loose powder for infant skin application") and market ("Indian retail market") only. The aggregated product-level range and mean preserve the scientific signal (Pb is the dominant metal; all values below FDA cosmetic ceilings; analytical variability is non-trivial at these concentrations) without exposing the source's per-brand data.
-- **Audit editorial review (2026-05-18) — within-product Pb-to-other ratio corrected.** The first revision of this merge-enhance stated "10× to 86× the corresponding Cd or Hg value within the same product" in Key numbers. The audit editorial review (general-purpose, fresh-context, v2.0 skill Phase 2) flagged this as arithmetically wrong: the maximum within-product Pb-to-Hg ratio is 0.240/0.005 = 48.0 (the lowest-Hg product), not 86. The 86 figure is the cross-product max-Pb/min-Hg ratio (0.430/0.005), which is not a within-product comparison. Verified against the source values per the audit citation; corrected to "approximately 12× to 48×" (lower bound 0.316/0.027 = 11.7, upper bound 0.240/0.005 = 48.0).
-
-## Ingest log
-
-- 2020-XX-XX (publication): IRIS – Journal for Young Scientists Vol. X, pp. 25–29 (Patna Women's College, India).
-- 2026-05-14 fresh ingest (autonomy_phase1_v0): NEW path. Original page produced by the early autonomy script with brand-by-brand reporting that pre-dated the Part 12 strict-reading lock (2026-05-17).
-- 2026-05-18 merge-enhance (automated editorial review, autonomous v2.0 manual-fetch skill, daemon tick): EXISTING path. Three identity checks against the linked reference record returned a single hit at `rashmi2020-baby-talcum-powder-heavy-metals-india.md` (the prior revision, raw_handle `source-retrieval-children-personal-care-rashmi2020`). Same paper, same DOI status (no DOI), same `raw_path`. Promoted to v2 schema: raw_handle migrated to the MFK-prefix convention (`MFK_heavy-metal-contamination-in-commonly-used-baby-ta`); `raw_sha256` populated; matrices reduced to `[cosmetic-personal-care]`; authors corrected against the PDF byline; brand names stripped throughout (Part 12 strict, 2026-05-17 lock); synthesis-claim sentence removed (Part 2 firewall); legacy heading renamed; `## Verification notes` and `## Ingest log` added.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

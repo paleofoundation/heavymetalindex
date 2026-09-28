@@ -79,20 +79,10 @@ This paper contributes Pb and Cd occurrence data for two product categories — 
 
 The authors' regulatory framing compares the sample-mean EDI against Codex TDI/PTWI rather than comparing per-sample Pb concentrations against the Codex 10 µg/kg product-level maximum for infant formula; this is the authors' analytical choice, not a wiki-side claim.
 
-## Verification notes
+## Related evidence
 
-- 2026-05-17 merge-enhance pass (automated editorial review, manual-fetch ingest cycle): predecessor page (updated 2026-05-13) had the following defects, all fixed in this revision:
-  - `raw_handle: manual-fetch-source-retrieval` (legacy placeholder) → `MFK_investigation-heavy-metals-infant-formula-zahedan`
-  - `raw_path` truncated to `Investigation of heavy metal concentrations and health risk .pdf` → full filename `Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf`
-  - `matrices` contained the non-vocabulary slug `wet-weight` (basis is not a matrix); removed. Native basis (as-sampled dry powder / dry cereal) clarified in body.
-  - `products: [[products/baby-cereals-dry-rice-based]]` was an invented/overspecified slug — the paper does not characterize the cereal samples as rice-based vs non-rice and reports them generically as "baby food" / "infant cereals". Routed to the umbrella `[[products/infant-cereal]]` instead, per Part 5b broad-scope rule.
-  - `ingredients: cereals` (generic) → `[[ingredients/infant-cereal-ingredients]]` for precision.
-  - `## Implications` previously contained Part 2 wiki/HMTc-firewall violations ("HMT&C comparison should note that...") and consumer-audience translations ("Geographic origin matters; sourcing from Sistan and Baluchestan should be flagged as a higher-Pb region"). Both removed; replaced with neutral occurrence-data framing.
-  - `## Wiki pages updated on ingest` legacy heading removed (superseded by routing audit).
-- The paper publication year (2024) reflects the journal volume; underlying field/lab work was 2019-2020. Both dates are stated up front in the page intro.
-- The Cd-cereals HRI value of 0.7 at 6-12 months in Table 3 (p. 618) is internally inconsistent with the other HRI cells (all 0.04-0.12) and with the corresponding EDI of 0.007 µg/kg·day·bw shown in the same column; treated here as a probable print-error and flagged in Key numbers rather than propagated as a contamination signal.
-- Authors' citation of the "Codex standard" for cadmium as "zero" (p. 615) does not correspond to any active Codex CXS 193-2009 maximum level for cadmium in infant formula. The wiki page reports the authors' framing without endorsing the underlying claim; downstream regulation-page synthesis should use the regulation pages, not this paper, as the source of record for Codex Cd limits.
-- 2026-05-17 audit editorial review (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf`) returned REVISE with one ❌ on Check 2, asserting that `[[ingredients/infant-cereal-ingredients]]` was not in the taxonomy snapshot. Verified against the linked reference record (exists) and the editorial record (slug present in the Ingredients line). Finding is a false positive — the editorial review's snapshot scan missed the entry. No change applied. All ⚠️ items in Check 1 were re-verified against Tables 1-3 (pp. 617-618) and confirmed correct. Effective verdict: PROMOTE.
+- [[products/baby-cereals-dry-rice-based]]
+- [[ingredients/infant-cereal-ingredients]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

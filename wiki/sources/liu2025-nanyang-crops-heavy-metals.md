@@ -47,7 +47,7 @@ Soil As and Hg were determined by AF-2000 atomic fluorescence spectrometry, soil
 
 Provides Chinese (Henan, Nanyang Basin) occurrence data for As, Cd, Cr, Hg, and Pb in peanut, wheat, and corn grains with paired root-zone-soil measurements (n=114 for peanut grains). The peanut-Cd distribution — mean 0.241 mg/kg with a maximum of 1.05 mg/kg in grain and 4.674 maximum crop-pollution-index in some samples — is the most policy-relevant signal and supports the routing-target intent of populating peanut Cd occurrence evidence. The study is a regional environmental assessment, not a market-basket of branded products, so values should be treated as China/Nanyang-Basin agricultural-context evidence and not silently pooled with other markets without geographic-variance handling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/peanuts]]
 - [[ingredients/peanuts]]
@@ -58,10 +58,6 @@ Provides Chinese (Henan, Nanyang Basin) occurrence data for As, Cd, Cr, Hg, and 
 - [[metals/chromium]]
 - [[metals/mercury]]
 - [[metals/lead]]
-
-## Verification notes
-
-Concentration values are extracted from Table 8 (crop grains) and Table 9 (crop pollution indices); bioaccumulation ordering is from the BCF results section accompanying Fig. 5. GB 2762-2017 limit for Cd in peanuts is 0.5 mg/kg per the paper's Table 8 row. The paper measures total As, total Hg, and total Cr only; no iAs/MeHg/Cr-VI speciation is reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

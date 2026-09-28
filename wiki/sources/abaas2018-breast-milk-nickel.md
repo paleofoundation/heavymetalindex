@@ -47,19 +47,11 @@ Courses: Useful for geographic-variance teaching in infant exposure.
 
 App: Can inform human-milk exposure context if the app tracks breastfeeding separately.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[products/infant-food-general]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The filename came from a human-milk Ni gap and matches the source content. No speciation issue applies for nickel.
-
-Cite-key/filename caveat for Karen: the assigned cite-key `abaas2018-breast-milk-nickel` was derived from a misreading of the byline. The PDF's first-author surname is Nassir (Ishtar Munim Nassir, Babylon Health Directorate); "Abaas" is the second author's first name (Abaas Noor Al-Sharify). A future rename to `nassir2018-breast-milk-nickel` would be more accurate. The `authors` source metadata has been corrected; the cite-key itself is preserved here under the hard-constraint rule that the audit step does not rename cite-keys or raw handles.
-
-The paper's abstract contains two internal inconsistencies that do not affect the wiki extraction but are flagged here for transparency: (1) the abstract says higher Ni concentrations were associated with "living in urban regions", but Table 1 and the Discussion both state Ni was higher in rural mothers — Table 1's data is treated as authoritative; (2) Table 8 labels the comparison column "Cd(µg/L)" while the entire paper measures Ni — the values in Table 8 are Ni, not Cd, as confirmed by the matching 23.83 ± 15.57 figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -60,14 +60,6 @@ Samples were purchased from markets in standard packages and by weight. The auth
 
 This source provides direct market occurrence evidence for nuts and peanuts across Pb, Cd, total As, and total Hg. The clearest row-specific contamination signal is lead in pecans, macadamia nuts, pine nuts, and peanuts, with several single-sample values far above the table medians. Because the taxonomy does not yet include dedicated pecan, pine-nut, pistachio, Brazil-nut, or macadamia product rows, those findings should remain visible through the broad nuts/seeds route until narrower rows are available.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sample collection, methods, Table 1, Results, and Conclusions were checked in `/tmp/f3_unrepresented_texts/nutrients-13-03606-v2.txt`.
-- DOI `10.3390/nu13103606`, raw handle `MFK_nutrients-13-03606-v2`, and cite-key checks found no existing source page before creation.
-- Units are preserved as `ug/kg`; no conversion to mg/kg or serving basis was performed.
-- Speciation: arsenic and mercury are total-element measurements. The source does not report inorganic arsenic or methylmercury.
-- source metadata slugs were checked against the editorial record; missing narrow ingredient/product slugs include Brazil nuts, macadamia nuts, pecans, pine nuts, and pistachios.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

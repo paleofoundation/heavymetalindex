@@ -71,16 +71,12 @@ Courses: Useful for mitigation training on arsenic speciation, adsorbent-dose op
 
 App: Context-only remediation evidence for arsenic-removal strategies; not a consumer-product concentration dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF chapter title/byline, abstract, methods, Tables 1-2, results, and conclusion. Products and ingredients are intentionally empty because the source tests prepared As(III)/As(V) solutions and nanoparticle adsorbents, not market occurrence. The source explicitly tests arsenite and arsenate, so source metadata uses `iAs` rather than `tAs`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

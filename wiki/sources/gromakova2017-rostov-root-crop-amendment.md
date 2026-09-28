@@ -47,7 +47,7 @@ Supports crop-specific agronomic mitigation and soil-to-crop transfer evidence. 
 
 Evidence Fitness: EF-2 for experimental concentration/yield comparisons, with fertilizer-dose and weight-basis qualifications. No direct finished-food threshold inference.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/agronomic]]
@@ -58,12 +58,6 @@ Evidence Fitness: EF-2 for experimental concentration/yield comparisons, with fe
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/lead]]
-
-## Verification notes
-
-The Methods and Table 2 label the fertilizer N 60 P 60 K 60; Tables 1 and 3 instead print N 60 P 90 K 60. Preserve treatment as metals+NPK without inventing the phosphorus dose. Novel experimental-crop matrix keeps crop experiments separate from market surveys. Potato Pb 0.5 mg/kg equals the paper’s displayed comparator; blanket “below” wording is not adopted. No regulatory ceiling is created from this paper.
-
-The preserved Library PDF is identified by `RPHMI_8`; SHA-256 `ac951fc331229b8abd9ec0c37be241020d8de0f5f63ddc89ca1573ba4f9533dc`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://www.vegetables.su/jour/article/viewFile/454/402. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

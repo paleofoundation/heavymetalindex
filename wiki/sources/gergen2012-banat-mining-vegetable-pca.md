@@ -73,7 +73,7 @@ Supports legacy mining and tissue/region differences. Parsley root and leaf rema
 
 Evidence Fitness: EF-2 for qualified region/tissue summaries and soil measurements; EF-3 for secondary hazard models. Prior-cohort duplication, LOD context and missing dates must be resolved for pooling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/root-tuber-vegetables]]
 - [[products/non-root-vegetables]]
@@ -94,12 +94,6 @@ Evidence Fitness: EF-2 for qualified region/tissue summaries and soil measuremen
 - [[metals/nickel]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-Broad vegetables matrix is a vocabulary extension; structured rows specify tissue. Table 3 explicitly identifies secondary 2011 data; Table 4 also says compiled from 2011. Several rounded vegetable entries are below the paper’s listed analyticalLOD; retain printed values with qualification. No source safety ranking is adopted. SupplementaryPCA plots are referenced but not embedded; source plot loadings are model context, not additional food measurements.
-
-The preserved Library PDF is identified by `RPHMI_17`; SHA-256 `103e0af2d12590d269ed680134230440ae2a03862c362826f843aad176eac228`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://link.springer.com/content/pdf/10.1186/1752-153X-6-156.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

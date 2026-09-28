@@ -50,15 +50,11 @@ Courses: Strong example of how remediation potential can coexist with unsafe edi
 
 App: Context-only mitigation and exposure-warning evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain intentionally empty because this is a remediation/contaminated-field paper rather than a market leafy-vegetable occurrence survey.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

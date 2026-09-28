@@ -79,7 +79,7 @@ App: Provides occurrence fields for Pb and total As in Mashhad/Iran fruit juices
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/arsenic-total]]
@@ -90,15 +90,6 @@ Microbiome: Not addressed.
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-apple-containing]]
 - [[products/fruit-juices-non-apple]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven fruit-juice wishlist. The same DOI appeared in four downloaded wishlist rows targeting Pb and total As across fruit-juice categories; this page is the canonical source page for those duplicate downloads.
-- Numerical values are preserved in ng/mL as printed. For aqueous juice, ng/mL is approximately µg/L / ppb, but no conversion is used in the primary table.
-- The paper reports total As only and compares it to a 10 ng/mL comparator; it does not speciate inorganic arsenic.
-- Strict brand firewall: the paper anonymizes commercial brands as A-E. This source page preserves only anonymized sample codes where needed for source fidelity and does not name any commercial brand.
-- Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
-- Fresh-context audit (Claude editorial review, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against abstract/results/Table 3 (overall Pb mean 39.4 ng/mL range 18.5-54.6, As mean 1.9 ng/mL range 1.52-2.35, 83% Pb exceedance vs Codex 30 ng/mL, all per-fruit ranges, all seasonal SEMs); slug vocabulary verified on disk; speciation discipline correct (tAs explicitly labeled, WHO drinking-water iAs comparator transcribed faithfully without substitution); brand firewall clean (anonymized A-E codes preserved); HMTc firewall clean (no percentile arithmetic, source's own Codex comparator transcribed faithfully). 0 findings applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -76,7 +76,7 @@ Courses: Useful for illustrating the difference between nutrient trace-element v
 
 App: Surface as context that insect-meal/spirulina pet-treat prototypes measured Cu, Fe, Mn, Zn, and Mo, while Cd, Pb, Co, Cr, and Ni were nondetect without LODs. Avoid ingredient-level claims for cricket meal, hemp, spirulina, buckwheat, spelt, linseed, or guar gum.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/pet-treats-snacks]]
 - [[metals/lead]]
@@ -88,14 +88,6 @@ App: Surface as context that insect-meal/spirulina pet-treat prototypes measured
 - [[metals/manganese]]
 - [[metals/zinc]]
 - [[metals/molybdenum]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/app13052806`; no DOI conflict was observed. Names in the source metadata are ASCII transliterations of the byline. The source reports dry-matter concentrations as mg/100 g DM; this page converts to mg/kg DM by multiplying by 10 and preserves the native units beside each conversion. The paper does not report arsenic or mercury in the trace-element table. It reports Cd, Pb, Co, Cr, and Ni as `nd` but does not provide LOD/LOQ, so downstream routing should keep those as nondetect-without-limit rather than numeric censored rows.
-
-Matrices vocabulary: `pet-treat` and `dog-snack-prototype` are bare-string additions outside the human-food-centric matrices list in the editorial record. No standard term covers self-produced experimental pet-treat prototypes, so these two are proposed novel matrices flagged here per the system-prompt guidance. Earlier process- and formulation-specific tokens (`extruded-dog-snack`, `baked-dog-snack`, `insect-meal-formulation`, `spirulina-formulation`) were removed as over-granular for a four-prototype study without per-formulation metal contrasts.
-
-Audit editorial review (2026-06-02) flagged two ⚠️ concerns: matrices over-granularity (applied — collapsed to `pet-treat` plus `dog-snack-prototype` and flagged as novel-vocabulary proposals) and incomplete Methods statement on the toxic-metal analytical gap (applied — Methods now states explicitly that the paper describes no analytical procedure or LOD for Cd/Pb/Co/Cr/Ni or Mo). Numerical fidelity, brand firewall, and HMTc firewall checks were clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -106,7 +106,7 @@ Experimental design: four canned product types (peas, tomato paste, pork in own 
 - App: Adds Sn data points for canned-peas / canned-tomato-paste / canned-meat composites from a Romanian storage-experimental context. The values are storage-time-dependent; an as-purchased market sample would correspond to an intermediate time point rather than the 1080-day endpoint. Fe values for the four products are reported but Fe is not part of the app's contamination-likelihood model.
 - Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/tin]]
 - [[metals/iron]]
@@ -121,17 +121,6 @@ Experimental design: four canned product types (peas, tomato paste, pork in own 
 - [[products/pork-product]]
 - [[products/food-packaging-cans-lids]]
 - [[regulations/codex-cxs-193-1995-tin-canned-foods]]
-
-## Verification notes
-
-- 2026-06-02 — Fresh ingest from the archived source file. All five pages of the PDF (abstract, introduction, methods, results-and-discussion with embedded Figures 1–8, conclusion, references) were read in full.
-- Numerical values in the Key numbers tables are transcribed directly from the regression equations printed inside Figures 1–8; the day-0 / day-1080 approximations are visual reads from the scatter points in the same figures, rounded to the nearest unit (Fe) or 0.1 mg/kg (Sn). No tabulated per-time-point values are printed in the source.
-- The source's Methods section contains the internal inconsistency about AAS atomisation mode (graphite furnace vs flame) noted in the Limitations section; both statements are quoted from p. 300 of the PDF and the source does not reconcile them.
-- The source's Conclusion bullet on tomato paste introduces "white Lake" and "yellow Lake" varnish identifiers not defined elsewhere in the paper; these have been treated as transcription artefacts of the source's English and have not been propagated to this page.
-- Brand-firewall (Part 12): the source does not name any commercial brands of the four canned products tested; the cans appear to have been produced experimentally or by the authors' affiliated facility. No brand-firewall redactions were required.
-- Wiki/HMTc firewall (Part 2): the Implications section reports the literature observation that tomato Sn migration reaches ~9–23 mg/kg at 36 months under the three varnish systems tested and notes the relationship to the Codex CXS 193-1995 ceilings without proposing an HMTc threshold value.
-- 2026-06-02 — Audit editorial review (general-purpose) flagged Check 1 (numerical fidelity) with seven ⚠️ concerns on regression-equation digits in Figures 3, 4, 5, 6 where the editorial review's read disagreed with the initial transcription. Re-read Figures 3 and 4 (PDF p. 3) and Figures 5 and 6 (PDF p. 3) at higher attention; the editorial review was correct on six of seven and false-positive on one. Corrections applied: Figure 3 Tomato V1 Fe intercept 12.064 → 12.456; Figure 3 Tomato V3 Fe R² 0.9425 → 0.9725; Figure 4 Tomato V2 Sn equation 4.036·x − 4.503 → 4.426·x − 4.901 and R² 0.6595 → 0.7104; Figure 5 Pork V1 Fe R² 0.7794 → 0.7796; Figure 5 Pork V2 Fe intercept 11.127 → 10.127; Figure 6 Pork V1 Sn R² 0.6312 → 0.8327; Figure 6 Pork V2 Sn equation 0.215·x + 0.179 → 0.242·x + 0.179 and R² 0.8427 → 0.827. False positive (editorial review uncertain, re-read confirmed original): Figure 8 Liver pate V2 Sn R² remains 0.93; the rendered figure label reads 0.93, not 0.63. Day-0 / day-1080 visual reads were not affected; the corrections are to the printed regression equations themselves, not to the plotted scatter points used for the endpoint approximations.
-- 2026-06-02 — Audit editorial review Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) returned ✅. No changes required.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

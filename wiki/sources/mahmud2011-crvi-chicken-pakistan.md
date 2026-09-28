@@ -69,7 +69,7 @@ Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately
 
 **App:** The ingredient-risk mapping for chicken should note that Cr-VI contamination is a supply-chain-dependent risk, not a general background contamination issue. The documented pathway is leather scraps in poultry feed in the sampled Pakistan context; extrapolation to other markets requires separate source evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[ingredients/poultry]]
@@ -77,12 +77,6 @@ Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately
 - [[products/poultry-product]]
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
-
-## Verification notes
-
-- 2026-05-18 Codex seafood-priority merge check corrected the raw handle and added the PDF hash while preserving the existing cite key and raw path.
-- Numerical values in Tables 1-3 were checked against the PDF text. The page follows table values; the source has internal variability inconsistencies in the coefficient-of-variation reporting, so CVs should be treated as source-reported descriptive statistics rather than recomputed values.
-- The paper calls the analyte Cr(VI), but the reported AAS workflow is not a modern validated speciation method. Retain `metals: [Cr-VI]` because it is the source's declared analyte, with the author-reported speciation caveat above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

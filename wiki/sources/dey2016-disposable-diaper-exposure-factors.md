@@ -45,7 +45,6 @@ This paper quantifies diaper exposure factors: body weight, changes per day, dir
 | --- | --- | --- | --- | --- | --- | --- |
 | acrylic acid | oral reference dose | 0.5 | mg/kg/day | RfD |  | Table 11 p.9 (printed 191) |
 
-
 ## Methods (brief)
 
 Authors adopt 8 kg for exposure calculations. Diary overall mean is 4.7 diapers per day (75th 5.0, 90th 6.0, 95th 7.0). Direct lotion transfer was 3.0 to 4.3 percent. Rewet at half the contact area ranged from 0.32 to 0.66 percent, mean 0.46 percent. Acrylic acid systemic exposure in the example is 0.011 mg/kg/day with a cited EPA RfD of 0.5 mg/kg/day and a margin of safety of 45.

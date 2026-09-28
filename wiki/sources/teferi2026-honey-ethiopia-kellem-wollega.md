@@ -68,21 +68,13 @@ Courses: Demonstrates the biomonitoring utility of honey for regional environmen
 App: The extreme Pb and Cd values reported here are outliers at the high end of the global honey distribution; representing them as typical for "honey" without a geographic qualifier (artisanal-mining-impacted region, Ethiopia) would misstate background risk substantially.
 
 ## Related evidence
+
+- [[regulations/eu-2023-915]]
 - [[ingredients/honey]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[regulations/eu-2023-915-cadmium]]
-
-## Verification notes
-
-Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle):
-- **Corrected transposed Table 4 values.** Prior revision (2026-05-13) had the seven-metal × three-site table rotated by one column: the Dambi Dollo column held Gawo Kebe's values, the Gawo Kebe column held Anafilo's values, and the Anafilo column held Dambi Dollo's values. Verified each cell against Table 4 (p. 7) of the source PDF; values now match the paper. Re-checked against the paper's prose rankings on p. 9 ("Cu, Fe, Mn, Ni, and Cd ranked Dambi Dollo > Gawo Kebe > Anafilo; Zn, Anafilo > Gawo Kebe > Dambi Dollo; and Pb, Anafilo > Gawo Kebe > Dambi Dollo"). The corrected table is now internally consistent with the paper's reported rankings.
-- **Corrected truncated `raw_path`.** Prior `raw_path` ended at "Associated Health Ris.pdf"; actual file name is "Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia.pdf". Fixed.
-- **Corrected regulation wikilink.** Prior `[[regulations/eu-2023-915]]` is not a valid slug; the wiki page is `[[regulations/eu-2023-915-cadmium]]`. Fixed.
-- **Expanded Methods (brief)** with instrument vendor/model (PerkinElmer Optima 8000), digestion parameters, calibration standard (Buck Scientific PuroGraphic), and filter (Whatman No. 41) per the verification-checklist Exception 2 for scientific-method vendor naming. Speciation status (none performed; all values are total metal) made explicit.
-- **Expanded Key numbers** with Ni and Cd TCR ranges, Pb THQ range, and source-citation page numbers for the audit trail.
-- Preserved cite_key, raw_handle, license, source metadata slugs (all in taxonomy snapshot), and the overall page structure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

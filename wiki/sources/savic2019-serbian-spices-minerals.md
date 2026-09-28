@@ -61,7 +61,7 @@ App: Ingredient-specific routing is strongest for turmeric, cinnamon, cumin-deri
 
 Microbiome (if applicable): The paper does not study microbiome outcomes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/turmeric]]
@@ -74,10 +74,6 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 - [[metals/aluminum]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF title, byline, DOI, journal, year, methods, and Table 4 values were read from the auto-fetched PDF. The paper reports total elemental concentrations and does not provide arsenic, mercury, or chromium speciation. Values reported as 0.00 mg/kg are retained as source-reported table entries rather than interpreted as analytical zeroes. Audit note: the results prose gives manganese as 0.07-6.25 mg/kg, while Table 4 appears to show star anise Mn as 6.26 mg/kg; the page preserves the prose range and flags the source-internal rounding discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

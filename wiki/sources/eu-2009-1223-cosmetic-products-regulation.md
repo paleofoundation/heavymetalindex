@@ -133,20 +133,9 @@ Metals: the full set covers Annex II prohibitions (Pb, Cd, tAs, tHg, Sb, Cr, Be,
 - European Parliament and Council of the European Union. 2009. Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast). Official Journal of the European Union, L 342, 22.12.2009, p. 59-209. <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1223>
 - EUR-Lex consolidated version (current): <https://eur-lex.europa.eu/eli/reg/2009/1223/oj>
 
-## Verification notes
+## Related evidence
 
-Audit editorial review (2026-06-02, fresh-context general-purpose Agent) returned REVISE verdict with the following findings; corrections applied to the page on the same date:
-
-- **Annex III entry 57 — missing (b) row.** First-pass page presented entry 57 as oral-products-only at 3.5 % (as strontium). Verified against PDF p. L 342/151: the entry has two product-type rows — (a) oral products 3.5 % AND (b) shampoo and face products 2.1 %, each with a mixed-strontium-compound total cap. Corrected to include row (b) and the mixed-compound caps.
-- **Annex III entry 57 — substance name.** First-pass page used INCI form "Strontium chloride." Verified against PDF p. L 342/151: chemical-name column reads "Strontium chloride hexahydrate"; INCI-name column reads "Strontium chloride." Corrected to lead with the chemical name and note the INCI parenthetical.
-- **Annex III entry 57 — label wording.** First-pass page said "Frequent use by children is not advised." Verified against PDF p. L 342/151: the label text is "Frequent use by children is not advisable." Corrected.
-- **Annex III entry 101 — "Other" column wording.** First-pass page glossed the pyrithione-zinc use-restriction as "for purposes other than controlling dandruff or seborrhoea." Verified against PDF p. L 342/165: the actual Annex III column-h text is "For purposes other than inhibiting the development of micro-organisms in the product. This purpose has to be apparent from the presentation of the product." Corrected — the regulation distinguishes non-preservative leave-on hair-product use (Annex III) from preservative-function use (Annex V entry 8), not anti-dandruff vs other indications.
-- **Wikilink to EDQM 2nd edition source page (Annex I §3 paragraph).** First-pass page wrote `[[sources/edqm2023-safe-cosmetics-young-children-2nd-ed]]`. The target source page does not yet exist (REG-007 in the same MFK June 1 Regulatory_Reports folder is queued for separate ingest). The wikilink was demoted to plain prose to avoid a forward-reference until that source page is authored.
-
-Audit findings reviewed and judged not to require changes:
-
-- source metadata metals `Be`, `Se`, `Sr`, `Tl`, `Zr` are not on the canonical HMI 12-analyte abbreviation list (which targets the food-contamination panel: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). For this regulation the first-encounter signal is more useful preserved than dropped; routing audit does not block on unrecognized metals (verified: no `routing_unresolved` row was generated for any of these). Per Part 10, future metal pages can be created when corpus frequency warrants. `tellurium.md` and other rare-element pages already exist.
-- The lead paragraph and Routing Rationale section make legal-architecture statements about how downstream EU heavy-metal-in-cosmetics literature operates under Article 17. The editorial review flagged this as edging toward synthesis framing. Judged acceptable: these statements are about the regulation's legal structure (which is the source's own subject matter), not about heavy-metal contamination synthesis across multiple primary studies. No HMTc threshold is proposed and the wiki/HMTc firewall is preserved.
+- [[sources/edqm2023-safe-cosmetics-young-children-2nd-ed]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

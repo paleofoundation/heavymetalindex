@@ -191,20 +191,12 @@ The PDF as held in the archived source file (SHA-256 `782f8a3326e26b4aada1c3837f
 
 The 67th-meeting report (TRS 940) is the high-level summary document. The detailed toxicological monographs for each agenda compound are published as the companion volume, WHO Food Additive Series 58 (Safety evaluation of certain food additives and contaminants), which is in preparation at the time of TRS 940 publication and is a separate primary document not included in this source page. Where TRS 940 cites "Annex 1" reference numbers for prior JECFA meetings, those refer to the Annex 1 reports/documents list rather than to underlying primary literature.
 
-## Verification notes
+## Related evidence
 
-- **Aluminium PTWI regulation page proposal (Karen review):** The 1 mg Al/kg b.w./week PTWI established at this meeting would, in the regulation taxonomy, justify a new `regulations/jecfa-aluminium-ptwi.md` page parallel to the existing `regulations/jecfa-methylmercury-ptwi.md`. The ingest layer should not create regulation pages on its own (Part 10, regulation slugs have hard agency identifiers). Surfacing here so Karen can decide whether to scaffold the regulation page; ATSDR Al MRLs ([[regulations/atsdr-aluminum-mrls|atsdr-aluminum-mrls]]) and the EFSA Al TWI ([[regulations/efsa-aluminium-twi|efsa-aluminium-twi]]) exist as siblings, but the JECFA Al PTWI rule itself is missing.
-- **Access URL left null:** WHO IRIS handle for TRS 940 was not verified against a primary lookup at ingest time; rather than invent a URL, this field is left null and can be added by `access_url` patch after Karen confirms the IRIS handle (the [[sources/jecfa-64th-cadmium-tin-2006|64th-meeting]] page uses `https://iris.who.int/handle/10665/43258` for TRS 930, and the 940 handle would follow the same domain pattern).
-- **Year field set to 2007 (publication year):** Following the [[sources/jecfa-64th-cadmium-tin-2006|JECFA 64th]] convention (meeting Feb 2005, year source metadata 2006 = TRS publication year), the meeting was held June 2006 but the cite-key and `year:` field follow the TRS 940 publication year 2007.
-
-## Wiki pages this source may touch
-
-- [[metals/aluminum]]
-- [[metals/mercury-methyl]]
+- [[regulations/atsdr-aluminum-mrls|atsdr-aluminum-mrls]]
+- [[regulations/efsa-aluminium-twi|efsa-aluminium-twi]]
+- [[sources/jecfa-64th-cadmium-tin-2006|64th-meeting]]
 - [[metals/mercury-total]]
-- [[regulations/jecfa-methylmercury-ptwi]]
-- [[regulations/efsa-aluminium-twi]]
-- [[regulations/atsdr-aluminum-mrls]]
 - [[ingredients/salt]]
 - [[ingredients/water]]
 - [[ingredients/fish]]

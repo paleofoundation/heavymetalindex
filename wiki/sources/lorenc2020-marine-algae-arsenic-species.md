@@ -81,22 +81,13 @@ Speciation used ultrasound-assisted extraction (UAE) and microwave-assisted extr
 
 This source provides a method-centered but routeable arsenic-speciation dataset for algae/seaweed products. It supports seaweed/kelp food and algae/seaweed supplement context with total arsenic and source-measured As(III), As(V), DMA, and unknown-organoarsenic fractions. Because the source's conclusion emphasizes arsenosugars and other unknown organoarsenic species, downstream extraction must preserve speciation and must not treat total arsenic or arsenosugars as inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.talanta.2020.121384`, raw handle `MFK_lorenc2020`, title text, or cite key `lorenc2020-marine-algae-arsenic-species`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-043.txt`, extracted with `pdftotext -layout`. Table 2 was transcribed as available in the extracted text; NIST SRM 3232 appears with two UAE rows in the text layer, while the prose states its MAE signals were broad and could not be assigned to specific compounds.
-- Units and bases are preserved as `mg kg-1`, `%`, `mg`, `mL`, `min`, and `°C`; no unit conversion was performed.
-- Speciation check: As(III), As(V), DMA, AsB, MMA, unknown arsenic, and arsenosugar/organic species remain separate. No tAs value or arsenosugar identification is promoted to iAs.
-- Brand firewall: the source does not name consumer brands; the page records product forms/material types and CRM/SRM identities only.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact nori, hijiki, serrated wrack, Fucus, and kelp powder terms remain in source text while source metadata uses broad seaweed/kelp and algae/seaweed supplement slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

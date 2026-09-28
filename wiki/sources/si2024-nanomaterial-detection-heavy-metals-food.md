@@ -97,7 +97,7 @@ Microbiome: Not addressed.
 
 B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted to nanomaterial-based sensors in three method classes; reference analytical platforms (ICP-MS, ICP-OES, AAS, AFS, XRF, GC-MS) are noted only as the high-instrumentation comparators in the introduction. Sample matrices in the cited primary studies are heavily weighted toward drinking water and spiked or simplified food matrices; unspiked real-food performance with full sample digestion is sparsely documented across the cited literature, a limitation the authors themselves flag in Section 5. The review reproduces LOD claims from primary studies without independent re-validation, and LOD claims in this literature class can be aspirational rather than operationally validated.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[testing/index]]
 - [[metals/lead]]
@@ -118,23 +118,7 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/fruits]]
 - [[ingredients/vegetables]]
-
-## Verification notes
-
-- 2026-05-18 merge-enhance from v0 (`updated: 2026-05-15`, `raw_handle: papers-cube`). The v0 page captured the three-modality framing correctly but the body contained invented detail not present in the source and deviated from the Part 6 source-page template.
-- `raw_handle:` corrected from `papers-cube` (a folder slug, not an instance handle) to `PCMF_article-1-copy-9` per the manual-fetch convention (`MFK_/MR_/PCMF_` prefixes).
-- `metals:` corrected from `[Pb, Cd, tAs, tHg, Cr, Ni]` to `[Pb, Cd, tHg, Cr-VI, Cu, Zn, Fe]`. (a) `tAs` removed: As is named in the introductory "toxic heavy metal" list (p. 1) but no As-specific sensor is described in Sections 2–4. (b) `Ni` removed: not a detection target anywhere in the review. (c) `Cr` refined to `Cr-VI`: the cited Cr-detection sensors (Song et al. 2022 SACe-N-C; Zhang et al. 2023a N-BCDs) detect Cr(VI) specifically. (d) `tHg` retained: cited Hg sensors detect Hg(II) / total ionic mercury, not MeHg. (e) `Cu`, `Zn`, `Fe` added: these are detection targets in multiple cited sensors (AuNPs for Cu/Hg; LGC-AuNPs and CDs for Zn; MSA-AuNPs and SACe-N-C for Fe).
-- `ingredients:` populated from `[]` to a list of slugs matching the food matrices in which the cited sensors were validated (rice, wheat, corn, milk-and-dairy, honey, tea, water, fruit-juice, leafy-vegetables, fruits, vegetables). All slugs verified against the linked reference record. Per the routing-layer convention this signals where the source touches the corpus; it does not claim the review measures contamination in those ingredients.
-- `products:` left `[]`. As a methods review the source does not report product-category occurrence data and should not route to product-category pages as direct evidence.
-- `jurisdictions:` populated from `[]` to `[CN]`. All four authors are at Beijing University of Chemical Technology and the cited primary literature is heavily weighted toward Chinese institutions; no WHO-specific regulatory benchmarking is performed in the body (the WHO drinking-water limit is mentioned once in passing for Fe(III), insufficient for a `WHO` jurisdiction tag).
-- `license:` clarified from `CC BY` to `CC BY 4.0` per the article first-page copyright block.
-- `near_duplicates:` added `[[sources/meng2023-electrochemical-sensors-food-heavy-metals]]`. Both reviews cover electrochemical sensors for food heavy-metal detection and share substantial primary-literature overlap; the two should be cross-read but neither supersedes the other.
-- Body restructured to the Part 6 template (opening prose, Key numbers, Methods, Implications, Limitations, Wiki pages this source may touch). The v0 used custom headings (`## Scope`, `## Three detection modalities`, `## Comparison table context`, `## Relationship to Meng et al. 2023`).
-- Removed v0 invented detail: (a) the claim of a "T-Hg²⁺-T DNA mismatch mechanism" for AuNP-aptamer Hg detection is not in this paper; the only AuNP-Hg sensors described are Hua et al. 2023 (chloroauric-acid reduction) and Bhattacharyya & Hossain 2024 (LGC-AuNPs), neither of which uses T-Hg²⁺-T mismatch chemistry. (b) The "AuNP-aptamer colorimetric system for Hg²⁺ in fish and tea: LOD ~0.5 µg/L" entry was invented — the cited AuNP Hg sensors are validated in drinking water at nM LODs. (c) The "Carbon dot fluorescent sensor for Cr³⁺/Cr⁶⁺ in water and food" entry conflated Cr species; the cited CD sensors (Zhang et al. 2023a) detect Cr(VI) only and only in drinking water. (d) The summary "MOF-based electrochemical sensor for Cd²⁺ and Pb²⁺ simultaneous detection in vegetables: LOD in the 0.01–0.1 µg/L range" approximated several distinct MOF sensors with different matrices and LODs; replaced by per-sensor tabular figures.
-- Brand firewall (Part 12): the review names no food brands. No firewall edits required.
-- Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. Edit direction: toward the literature (correcting away from invented detail), not toward HMTc convenience.
-- Speciation discipline: Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
-- Audit editorial review (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in source metadata metals — verified against the linked reference record and added.
+- [[sources/meng2023-electrochemical-sensors-food-heavy-metals]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

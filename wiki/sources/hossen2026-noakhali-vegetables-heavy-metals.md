@@ -50,7 +50,7 @@ Courses: Useful for linking paired soil and vegetable occurrence data to exposur
 
 App: Eligible for vegetable-occurrence and health-risk context after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/non-root-vegetables]]
 - [[products/leafy-vegetables-other]]
@@ -60,10 +60,6 @@ App: Eligible for vegetable-occurrence and health-risk context after synthesis.
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[health/index]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The triggering gap row was spinach-tagged, but the paper is a broader vegetable-occurrence and health-risk study spanning multiple farm vegetables plus soil.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

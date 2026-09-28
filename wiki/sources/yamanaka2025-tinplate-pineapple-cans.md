@@ -58,7 +58,7 @@ Cans were stored in a thermohygrostat at 43 C and removed after 1, 2, 3, 4, and 
 - Speciation: The paper measures total tin by ICP-MS. It does not measure organotin compounds and does not separate Sn(II) from Sn(IV).
 - Courses: Useful mechanism source for why acidic canned fruit has higher inorganic-tin migration risk than neutral-pH products and why headspace oxygen and exposed tin-iron alloy accelerate corrosion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/pineapple]]
 - [[products/canned-fruit]]
@@ -66,13 +66,6 @@ Cans were stored in a thermohygrostat at 43 C and removed after 1, 2, 3, 4, and 
 - [[metals/tin]]
 - [[metals/tin-inorganic]]
 - [[metals/iron]]
-
-## Verification notes
-
-- The paper is packaging-migration evidence, not agricultural heavy-metal uptake in pineapple.
-- Values are accelerated-storage values at 43 C; route them with the storage-condition caveat.
-- `metals: [Sn, Fe]` reflects total tin and iron measured in the pineapple syrup by ICP-MS. The toxicologically relevant food-packaging metal for this ingest is Sn; Fe is captured because the source uses Fe dissolution to identify late-stage base-steel corrosion.
-- The PDF is an advance-view manuscript from Materials Transactions, published July 4, 2025. No open license statement was visible in the PDF text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

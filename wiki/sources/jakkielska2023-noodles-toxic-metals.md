@@ -60,18 +60,9 @@ The authors collected 20 commercially available 500 g noodle/pasta products from
 
 This source contributes occurrence data for processed non-rice grain pasta/noodles in the Polish market, with a useful split between total-metal measurements and risk-calculation outputs. The Table 2 means and ranges can support product-form occurrence context for pasta/noodles, while the i-As values should remain explicitly labeled as source-estimated from total arsenic rather than measured speciation. The paper is most relevant to product-row routing for pasta-wheat-based and other non-rice grain products, plus metal pages for lead, cadmium, total arsenic, inorganic arsenic as an estimate, and total mercury.
 
-## Verification notes
+## Related evidence
 
-- PDF text extracted with `pdftotext -layout`; the extracted text had a readable title page, methods, Table 1, Table 2, Figure 1 caption, and conclusions.
-- DOI verified from the title page as `10.2478/aucft-2023-0008`; DOI, raw handle `MFK_10-2478-aucft-2023-0008`, and cite-key checks found no existing source page before creation.
-- All concentration means, ranges, ADI, THQ, HI, CR, and LOD values above were checked against the extracted title-page abstract, Results text, methods LOD sentence, and Table 2.
-- Units are preserved as reported (`μg·kg-1`, `μg·kg-1 bw·day-1`, `µg·L-1`); no ppb/ppm conversion was performed.
-- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per, `iAs` was removed from the source metadata `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
-- source metadata slug check (2026-06-09 autonomous audit): GPT-style audit flagged `[[ingredients/non-rice-grains]]` as off-vocabulary. Verified false positive — the slug appears in the editorial record ingredients list and the linked reference record exists. No change applied.
-- ADI unit correction (2026-06-09 autonomous audit): the source defines ADIHMs in `μg·kg-1 bw·day-1` (body-weight normalized); earlier draft dropped the `bw` qualifier. Corrected in Key numbers and verification-notes unit list.
-- Brand firewall: the source's sample-characterization table names commercial pasta products. This page reports only aggregated product-form descriptors and does not attach brand names to contamination values.
-- The source text has an internal tension between a prose sentence listing ADI values near the Table 2 maxima and Table 2's mean ADI row. This page uses the table-labeled mean and min-max values and notes the table source.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
+- [[ingredients/non-rice-grains]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

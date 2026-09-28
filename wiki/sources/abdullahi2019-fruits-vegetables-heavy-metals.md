@@ -46,18 +46,13 @@ Samples were digested and analyzed with a Perkins Elmer AA100 atomic absorption 
 
 The pineapple values are useful as occurrence context but should be treated carefully because the source reports concentrations in digested solution units rather than a conventional mg/kg fresh-weight or dry-weight food basis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/pineapple]]
 - [[products/fresh-fruit]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.31142/ijtsrd20298 and the downloaded PDF.
-- The table's element order is taken from the paper's immediately preceding standards list: Zn, Cu, Fe, Cd, Ni, Pb.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

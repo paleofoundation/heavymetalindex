@@ -58,7 +58,6 @@ OTC Monograph M016, posted September 24, 2021, is FDA Final Administrative Order
 | Aluminum sulfate | OTC astringent drug product | 46 to 63 | percent | permitted concentration range |  | § M016.12(b) p.3 |
 | Aluminum acetate | OTC astringent solution prepared from powder or tablet | 0.13 to 0.5 | percent | permitted concentration range |  | § M016.20(b) p.4 |
 
-
 ## Methods (brief)
 
 The monograph sets permitted active-ingredient concentrations and labeling. Source note: 58 FR 54462, October 21, 1993, unless otherwise noted, with later amendments cited in the text. Combinations in M016.20 require each skin protectant ingredient to remain within the M016.10 concentration, except the aluminum acetate solution prepared under M016.20(b).

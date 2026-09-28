@@ -71,14 +71,6 @@ Samples were collected from the Miura Peninsula in Kanagawa Prefecture and the c
 
 This paper provides historical primary speciation evidence showing why seafood and seaweed total arsenic must not be treated as inorganic arsenic. Seaweeds and some carnivorous gastropods or crustaceans had high total arsenic, but most rows reported inorganic arsenic as `ND`; *Hizikia fusiforme* was the main inorganic-arsenic exception. Routing should keep total arsenic and inorganic arsenic separate and treat the methylated arsenic species as source-reported speciation context, not as elemental arsenic thresholds.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, Materials and Methods, Table 1, and Results/Discussion were checked in `/tmp/f3_unrepresented_texts/kaise1988.txt`.
-- DOI text was not found in the extracted PDF; DOI is therefore left `null`. Raw-handle, raw-path, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `ug g-1`; the extracted text renders the micro sign as `p`, so no conversion to mg/kg or another basis was made.
-- Speciation is preserved: total arsenic (`tAs`) is not promoted to inorganic arsenic (`iAs`), and methylated arsenic species are listed separately in Key numbers.
-- source metadata slugs were checked against the editorial record; no narrower species-level ingredient slugs exist for the named marine organisms, so broad seafood, fish, shellfish, and seaweed routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

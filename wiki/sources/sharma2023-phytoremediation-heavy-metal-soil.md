@@ -106,25 +106,9 @@ Courses: the MT, PC, HMA, NRAMP, and ZIP narrative is appropriate for educator-a
 App: no per-product or per-ingredient occurrence data; this review does not contribute to ingredient `contamination_profile` values directly.
 
 ## Related evidence
+
+- [[supply-chain/soil]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-- Merge-enhanced from prior 2026-05-15 revision on 2026-05-18.
-- Prior revision named *Thlaspi caerulescens*, *Pteris vittata*, and *Arabidopsis halleri* as "the classic examples cited" for phytoextraction. None of those three species appear in Sharma et al. 2023's Table 1 or text — they are textbook hyperaccumulators but not what THIS paper cites. Replaced with the species actually tabulated by Sharma et al. (Brassicaceae, *Tagetes erecta*, *Typha angustifolia*, *Eichhornia crassipes*, *Hydrocotyle umbellata*, etc.).
-- Prior revision attributed "genetically modified plants expressing bacterial merA/merB genes" to the paper. The paper does not mention merA or merB; the bacterial mercury transgenes it discusses are MerP (from *Bacillus megaterium*; Hsieh et al. 2009, cited) and MerC (in a MerC-SYP121 fusion construct; Uraguchi et al. 2019, cited per Table 2). Corrected.
-- Prior revision asserted "HMA3 and HMA4 are central to Cd and Zn vacuolar compartmentalization and phloem loading, respectively." The paper's HMA discussion is rice-specific: OsHMA3 for vacuolar Cd sequestration and OsHMA2 for root-to-shoot Cd translocation. The HMA3/HMA4 phloem-loading framing is a general Arabidopsis literature claim not made in this paper. Corrected to match what Sharma et al. actually state.
-- Prior revision included a "Crop selection for contaminated land" section asserting "The principle is the same as described in Khan et al. 2015 and Guan et al. 2014" and adding mechanistic claims about "reduced phloem loading of Cd, immobilization in root apoplast for Pb, and competition with silicon for As entry in rice varieties with higher silicon uptake." None of those mechanisms in that combination appear in Sharma et al. 2023. The Khan/Guan comparison is a Part 2 firewall violation (synthesis across sources at the source-page level). Removed the section; crop-specific MBP findings now sit in their own faithful section sourced to what the paper actually says.
-- Prior revision included a "Strategic relevance to the wiki" framing section. Removed — source pages report what the paper says, not how the wiki plans to use it.
-- Prior revision linked `[[supply-chain/soil]]` in both Implications and Wiki pages updated on ingest. That page does not exist; removed both references.
-- Added Key numbers section drawing from Tables 1, 2, 3 and in-text quantitative figures, with page-number citations.
-- Added Methods (brief) section explicitly noting this is a non-systematic narrative review.
-- Replaced defective `raw_handle: papers-cube` with stable `raw_handle: PCMF_article-1-copy-8`.
-- Added `access_url` (DOI link) and `raw_sha256` provenance fields.
-- Added `water` to matrices to cover the rhizofiltration and aquatic-plant content.
-- Audit editorial review (2026-05-18) flagged the Key numbers wording on the Lu et al. 2017 biochar entry as conflating two adjacent paper sentences — verified against page 7: the 38–42% figure refers to the proportion of total Pb²⁺ adsorbed via biochar functional-group contact, NOT to the Lu et al. 2017 four-metal reduction (which has no per-metal percentage in the source). Corrected: Lu et al. 2017 entry now reports the 5% (w/w) amendment without a percentage, and the 38–42% Pb²⁺ figure is given separately as a mechanism statement.
-- Audit editorial review (2026-05-18) flagged `plant-tissue` as a possibly non-vocabulary matrix slug — verified against the linked reference record: the slug is in active use in multiple existing source pages, so it is a recognized matrix value not a vocabulary defect. False positive; no change.
-- Audit editorial review (2026-05-18) flagged `[[mitigation/agronomic]]` as possibly a missing page — verified the linked reference record exists in the repo. False positive; no change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -57,16 +57,7 @@ The study selected urban and rural households from Ludhiana and Bathinda distric
 
 ## Implications
 
-This source provides cooked-food occurrence evidence for household-prepared legumes and vegetable preparations in north India, rather than raw commodity measurements. The routing layer should preserve that distinction when using the values for legumes, leafy/non-root/root vegetables, and dietary-intake context. Because the source measured total/unspecified arsenic and total/unspecified mercury, its arsenic and mercury values support total-species context only.
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Table 3 values were checked against rendered page images because the text layer wrapped the table columns and flattened some exponent signs.
-- DOI `10.1002/fsn3.3678`, raw handle `MFK_fsn3-11-7581`, and cite-key checks found no existing source page before creation.
-- All Table 3 concentration values above were checked against the extracted text and rendered Table 3 image; units are preserved as source-reported `mg/kg`, with no conversion.
-- Speciation: source labels are arsenic, cadmium, lead, and mercury. No inorganic arsenic or methylmercury measurements are reported, so source metadata uses `tAs` and `tHg`.
-- source metadata uses broad closed-vocabulary slugs for beans/legumes and vegetables; missing narrow cooked-food product slugs include `cooked-beans`, `dal`, `sabji`, and `cooked-vegetable-preparations`.
-- Brand firewall: no product brand names were reported.
+This source provides cooked-food occurrence evidence for household-prepared legumes and vegetable preparations in north India, rather than raw commodity measurements. That cooked-versus-raw distinction should be kept when reading the values for legumes, leafy vegetables, non-root vegetables, root vegetables, and dietary intake. Because the source measured total/unspecified arsenic and total/unspecified mercury, its arsenic and mercury values support total-species context only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

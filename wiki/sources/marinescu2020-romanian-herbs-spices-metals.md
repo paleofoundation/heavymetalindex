@@ -69,7 +69,7 @@ App: Broad herbs-and-spices routing is appropriate for most species. Parsley can
 
 Microbiome (if applicable): The paper does not study microbiome outcomes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[products/herbal-botanical-infusions]]
@@ -81,10 +81,6 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/iron]]
-
-## Verification notes
-
-The PDF title, byline, DOI, year, journal, sample descriptions, methods, and Tables III-IV values were read from the auto-fetched PDF. The paper reports element names without arsenic or mercury speciation, so arsenic and mercury are treated as total-element occurrence evidence. Packaged and wild-growing samples are source-distinct and should not be pooled without a logged basis decision. Matrix note: `spices` is a controlled matrix-map label; `medicinal-plants` and `herbal-teas` are source-scope descriptors retained to separate the medicinal-plant/herbal-tea portion of the source from the culinary-spice subset.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

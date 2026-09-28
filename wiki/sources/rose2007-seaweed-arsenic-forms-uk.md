@@ -78,19 +78,6 @@ Thirty-one samples (five varieties) were collected at random from UK retail outl
 - Courses: a teachable regulatory case study (survey → ALARP risk assessment → FSA consumer advisory) for brand QA and regulatory-affairs audiences.
 - App: contributes to the seaweed ingredient contamination_profile for total and inorganic arsenic, with the species-specific caveat that the inorganic fraction is concentrated in hijiki.
 
-## Verification notes
-
-- raw_handle MFK_rose2007 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". DOI 10.1016/j.fct.2007.01.007 confirmed on the article header. (A duplicate of this PDF, "10.1016@j.fct.2011.11.024", is a different paper and is not this source.)
-- Evidence tier A: peer-reviewed FSA/Defra-CSL survey, ICP-MS, ISO 17025-accredited total-As method, documented QC.
-- Speciation: both total As and inorganic As reported; lifted to source metadata as tAs and iAs and kept distinct. Inorganic-As values below 0.3 mg/kg are the method LOD (censored) and are recorded as "<0.3", not as numeric values, for all non-hijiki varieties. No mercury, lead, or cadmium measured.
-- Units/basis preserved exactly: "as sold" values are dry weight; "prepared" and "soaking water" values are wet weight; both labelled throughout and not converted. Hijiki as-sold inorganic-As range 67–96 mg/kg matches the abstract and Table 1.
-- Censoring: arame/wakame/kombu/nori inorganic arsenic all <0.3 mg/kg dw (below_lod, limit 0.3 mg/kg). One kombu sample shows [0.3] (above LOD, below LOQ) — flagged in the table per the source's square-bracket convention.
-- Brand firewall: not engaged. Samples are described only by seaweed variety and generic retail-channel terms ("specialist retailers", "major supermarket chains"); no commercial brand names appear.
-- Jurisdiction GB (UK retail market); samples imported, origin not individually specified, so sampling_locations left empty. sampling_year_range 2003 (collection period Oct–Dec 2003).
-- matrices [edible-seaweed, macroalgae, kelp, dry-weight] per established corpus convention; `kelp` included because kombu (*Laminaria*) is among the varieties. Kept broad for the routing layer.
-- Instrument/vendor name (Perkin-Elmer Multiwave) retained in Methods as permitted scientific reporting.
-- Audit editorial review (2026-06-08, fresh-context) returned PROMOTE on all five checks (hijiki 9-row block re-verified cell-by-cell across all three basis blocks, no transposition). One ⚠️ applied: the dietary-exposure multiplier was understated as "30-fold"; verified against source (risk-assessment section states "30–50-fold increase"; conclusion states "around 30 times") and broadened to "30- to 50-fold".
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

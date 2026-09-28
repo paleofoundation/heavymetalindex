@@ -270,48 +270,6 @@ The standard is periodically amended. The values in this source page reflect the
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/quinoa]]
 
-## Verification notes
-
-Merge-enhance pass 2026-06-02 against the 2009-amended PDF snapshot at `raw_path`. Changes applied:
-
-- source metadata `raw_path` and `sha256` populated (previously null); PDF SHA-256 `5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc` recorded.
-- source metadata `updated` rolled to 2026-06-02.
-- source metadata `matrices` populated (previously absent), drawing from the matrices CXS 193 sets MLs on; this is the routing-input field the routing audit had flagged as advisory-missing.
-- source metadata `ingredients` adds `[[ingredients/quinoa]]` (quinoa now has both Cd and Pb MLs per CCCF17 2024).
-- Cd ML table: `Root and tuber vegetables` row note corrected from "ML does not apply to celeriac; potato is peeled" to "Excluding potato and celeriac" (PDF Schedule I p.32 explicitly lists Potato VR 0589 0.1 mg/kg as a separate row, peeled, with Root and tuber vegetables VR 0075 excluding both potato and celeriac). Added the separate Potato row.
-- Pb ML table: footnote on the Infant formula 0.01 row clarifies the value was 0.02 mg/kg in the 2009-amended snapshot and was tightened via subsequent CCCF amendments to 0.01 mg/kg as-consumed.
-- New `## Key numbers — Mercury and methylmercury MLs` subsection with the Hg (mineral waters, salt) MLs and the MeHg (fish, predatory fish) guideline levels and the JECFA toxicological reference values; covers the Hg and MeHg entries already declared in `metals:`.
-- New `## Key numbers — Tin (Sn) MLs` subsection with the canned-foods Schedule I p.36–37 entries; covers the Sn entry already declared in `metals:` and was missing before this pass.
-- New `## Snapshot context` section explicitly stating that this source page synthesizes current CXS 193 (post-CCCF17 2024) while the archived PDF is the 2009-amended version, enumerating the deltas (Cd PTWI→PTMI, Pb PTWI withdrawal, Pb infant formula 0.02→0.01, quinoa MLs, cocoa-powder/chocolate-by-cocoa-solids MLs) so future readers do not infer that the wiki values are derivable from the archived PDF alone.
-- Provenance notes updated to reflect that `raw_path` is no longer null and to explain which values trace to the 2009-snapshot PDF vs. the current FAO web copy.
-
-Preserved fields per merge-enhance discipline: `cite_key`, `access_url`, `license`, `no_doi_assigned`, `access_date`, `evidence_tier`, `source_type`, `superseded_by`, `wiki_doi`, `sampling_locations`, `sampling_year_range`, all existing wiki-pages-updated-on-ingest links, and all existing Cd/Pb body content not specifically corrected above.
-
-The routing-audit advisory entry "missing optional routing-input fields products;matrices" partially clears with this pass (matrices now populated); the `products: []` half persists as the steady-state convention for international Codex regulatory sources (sibling Codex pages codex-cccf17-2024 and codex-cxc-81-2022 carry the same advisory by design — brand firewall and the routing-layer convention that regulations route to product-category pages via the `regulations/codex-cadmium-mls` regulation page rather than declaring products at the source level).
-
-### Audit editorial review pass 2026-06-02
-
-Fresh-context audit editorial review (general-purpose, no shared context) returned verdict REVISE against the 2009-amended PDF snapshot. Findings verified independently and applied:
-
-- ❌ **Numerical-fidelity Pb deltas**: editorial review flagged 16+ wiki Pb values as disagreeing with PDF (canned fruits 0.1 vs PDF 1; canned vegetables 0.1 vs PDF 1; jams 0.4 vs PDF 1; mango chutney 0.4 vs PDF 1; table olives 0.4 vs PDF 1; pickled cucumbers 0.1 vs PDF 1; canned chestnuts 0.05 vs PDF 1; edible fats/oils 0.08 vs PDF 0.1; fruiting vegetables non-cucurbits 0.05 vs PDF 0.1; legume vegetables 0.1 vs PDF 0.2; pulses 0.1 vs PDF 0.2; berries 0.1 vs PDF 0.2; fruit juices 0.03 vs PDF 0.05; offal 0.2/0.15/0.1 by species vs PDF 0.5 across species). Verified — all are real PDF-vs-current deltas; all reflect CCCF11–CCCF17 (2017–2024) Pb tightenings that have occurred since the 2009 snapshot. Applied: Snapshot context Pb-delta enumeration expanded from five delta classes to a complete listing of all 20+ Pb-side amendments, so the page is now internally honest about every value that traces to current standard rather than the 2009 PDF.
-- ❌ **Cd Fruiting vegetables row collapsed across cucurbits/non-cucurbits**: verified — PDF Schedule I p.32 has VC 0045 Fruiting vegetables, cucurbits (no note) and VO 0050 Fruiting vegetables, other than cucurbits (excluding tomatoes and edible fungi) as two separate rows. Applied: split into two rows.
-- ❌ **Cd Cereal grains note missing "and bran and germ" exclusion**: verified — PDF GC 0081 remark explicitly says "Excluding wheat and rice; and bran and germ". Applied: added.
-- ❌ **Cd Wheat "Common wheat, durum, spelt, emmer" descriptor not in PDF**: verified — PDF GC 0654 row has no descriptor. Applied: dropped the invented descriptor.
-- ❌ **Cd Marine bivalve molluscs invented positive list ("ML applies to clams, cockles, mussels")**: verified — PDF IM 0151 says only "Excluding oysters and scallops". Applied: dropped positive list.
-- ❌ **Pb Brassica vegetables "and leafy Brassica vegetables" not in PDF**: verified — PDF VB 0040 says only "Excluding kale". Applied: dropped invented addition.
-- ❌ **Pb Fish "After removing digestive tract" qualifier not in PDF**: verified — PDF Fish row has no note. Applied: dropped qualifier. (If the current standard adds this qualifier, it would be added to Snapshot context as a delta; absent independent verification of current standard, the qualifier is dropped.)
-- ❌ **Pb Meat of cattle/pigs/sheep "Without bones" qualifier not in PDF**: verified — PDF MM 0097 row says only "Also applies to the fat from meat". Applied: dropped "Without bones"; tightened note to PDF wording.
-- ❌ **Pb offal organ lists not in PDF**: verified — PDF MO 0812 / MO 0818 / PO 0111 rows have no organ enumeration. Applied: dropped all three organ lists.
-- ❌ **`iAs` declared in metals: with no Arsenic body section**: verified — PDF Schedule I p.31 contains a substantive Arsenic schedule (PTWI, residue definition, MLs for fats/oils, vegetable oils, mineral waters, salt). Applied: added new `## Key numbers — Arsenic MLs` section covering the 2009 snapshot's full Arsenic schedule plus the post-2009 CCCF iAs in rice MLs (polished 0.2, husked 0.35); added `tAs` to `metals:` alongside `iAs` (the 2009 snapshot's Arsenic MLs are total As by default; PTWI is for iAs; both species are in scope).
-- ⚠️ **Over-specified ingredient slugs (broccoli, onions, lentils, celery)**: verified — CXS 193 sets MLs at the category level (Brassica vegetables, Bulb vegetables, Pulses, Stalk and stem vegetables), not at the commodity level. Per ("if a source touches infant formula generally without specifying soy vs non-soy, the source metadata should say `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`"), broad routing is the discipline. Applied: dropped broccoli, onions, lentils, celery from `ingredients:`; retained the category-level slugs that CXS 193 directly addresses (leafy-greens, root-vegetables, vegetables).
-- ⚠️ **Sunflower-seeds in "Pages updated on ingest" but not grounded**: verified — CXS 193 sets MLs for sunflowerseed oil (under vegetable oils CS 210-1999), not for sunflower seeds as a commodity. Applied: dropped sunflower-seeds; added quinoa to the pages-updated list to reflect the quinoa Cd/Pb MLs that CCCF17 introduced.
-- ⚠️ **Implications HMTc bullet ("HMT&C threshold-setting...should reference these MLs")**: editorial review flagged borderline Check 5 (Part 2 wiki/HMTc firewall). Verified — the should-statement directed at HMTc behavior is on the wrong side of the firewall per "The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline." Applied: softened to "literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall."
-- ⚠️ **Implications App bullet "operationally most-cited"**: editorial review flagged editorial weighting. Verified — the wiki should report values; weighting which are "most-cited" is interpretation. Applied: softened to "commonly-referenced examples include..." and prefixed with "candidate" rather than asserting.
-
-No findings rejected as false positives. editorial review verdict REVISE → wiki-side disposition: audited-revised (all ❌ findings applied, ⚠️ findings applied where verified).
-
-The audit editorial review did NOT flag the post-routing `products: []` advisory (instructed to skip per audit prompt), the snapshot-context CCCF17 quinoa/cocoa-powder deltas (instructed to skip), or the page's intentional current-standard-vs-2009-PDF scope (instructed to treat as known).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

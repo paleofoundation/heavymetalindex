@@ -52,17 +52,13 @@ Courses: Useful as a circular-economy example for supply-chain training: spent c
 
 App: Context only. The paper does not support consumer-facing coffee contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
 - [[metals/cadmium]]
 - [[metals/manganese]]
 - [[metals/lead]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Materials PDF. The auto-fetched filename is a coffee/cadmium gap hit, but the PDF measures adsorption from spiked aqueous solutions, not native metal occurrence in coffee. Products and ingredients are intentionally empty so the remediation values do not enter occurrence threshold calculations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

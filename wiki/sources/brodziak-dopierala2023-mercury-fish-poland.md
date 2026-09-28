@@ -120,18 +120,6 @@ App: Per-species tHg means feed marine-predatory, marine-non-predatory, and fres
 
 Microbiome: Not addressed.
 
-## Verification notes
-
-PDF read in full across all 15 pages of the published Toxics 11(8):717 article (DOI 10.3390/toxics11080717). All numerical tables (Table 1 species and origin; Table 2 study-wide statistics; Table 3 per-species concentrations, EDI, and EHQ) were transcribed against the PDF.
-
-Paper-internal inconsistency noted: the Materials and Methods section states "samples of the edible parts (flesh) of 68 fish belonging to 18 different saltwater (N = 12) and 6 freshwater (N = 6) species," and Table 2 reports freshwater n = 30, while Table 1's freshwater species counts (Nile perch 5 + rainbow trout 1 + brown trout 1 + pike 3 + carp 8 + pike perch 5) sum to 23 samples — leaving a 7-sample gap between Table 1 and Table 2 on the freshwater side. The marine side reconciles (Table 1 sums to 38, matching Table 2). The wiki carries the Table 2 marine/freshwater totals (38/30, summing to 68 as stated) because these are the statistics the authors use for all downstream analysis; the gap appears to be either a typographic shortfall in Table 1 (e.g., a missing line) or transposed sample counts, but does not affect the per-species mean concentrations or EHQ values reported in Table 3.
-
-Species classification note: Table 1 places wels catfish (Silurus glanis) under the "Marine" heading despite Silurus glanis being a freshwater species. The wiki preserves the authors' table grouping but flags the discrepancy here.
-
-Speciation: The paper measured total mercury by direct thermal-decomposition AAS only; no methylmercury speciation was performed. The `metals:` source metadata carries `tHg` only. The paper compares its EDI values against EFSA's MeHg TWI in the discussion (a conservative bound treating measured tHg as if it were entirely MeHg), but this is a comparison move, not a measurement of MeHg, so MeHg is not added to the metals array.
-
-Brand-firewall handling: No brand names appear in the source. Sample identification used species names and FAO catch areas only. Scientific-equipment vendor names (AMA 254 / Altec; IKA Analytical Mill; RADWAG balance; Statistica / Statsoft; MODAS CRMs from the Institute of Nuclear Chemistry and Technology and Technical University of Gdańsk) are retained per the Part 12 Exception 2 scientific-method carve-out.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

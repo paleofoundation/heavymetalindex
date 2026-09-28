@@ -142,14 +142,6 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 - [[metals/copper]]
 - [[products/chocolate]]
 
-## Verification notes
-
-- Source-internal inconsistencies in Tabela 9 (p.97): the Amazonas bean-to-bar chocolate row reports "0,50 (<0,04–0,16)" — mean 0.50 µg/kg above the stated maximum 0.16 µg/kg, which is mathematically impossible; the Bahia bean-to-bar chocolate row reports "0,01 (<0,04–1,11)" — mean 0.01 µg/kg appears inconsistent with 6 of 34 positive samples reaching 1.11 µg/kg. Values are reproduced verbatim from the thesis table; downstream synthesis should treat Tabela 9's mean column as unreliable and use the range column plus positive-sample counts instead.
-- The thesis Resumo (p.viii) reports ochratoxin A "em 20% e 30% das amostras" while the Chapter 3 results (Tabela 9, §3.3) document 13/43 = 30% bean detection and 12/62 ≈ 19% chocolate detection. The wiki page uses the table-derived figures (30% beans, ~19% chocolates) rather than the abstract figures.
-- Cocoa-bean ICP-OES LOD for Pb is 0.057 mg/kg and for Cd is 0.171 mg/kg; several bean values are left-censored at "<0,17" or "<0,06" in source tables and the per-region "mean" lines include these censored values. The single Bahia bean Pb maximum of 0.313 mg/kg is the only quantified value driving the all-region Pb mean. Treat bean Pb/Cd quantification as left-censored-dominant.
-- Audit editorial review (2026-05-30) flagged matrices field as overspecified (used `cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate`); corrected to the broad-scope canonical vocabulary `[cocoa, chocolate]` per the editorial record matrices guidance.
-- Audit editorial review (2026-05-30) flagged Implications/Certification "flag for cobalt to enter HMTc cocoa-derivative analyte review" as crossing toward HMTc governance proposal; softened to a factual note that Co is not currently in the HMTc ten-analyte panel.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

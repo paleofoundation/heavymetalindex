@@ -52,17 +52,12 @@ Courses: Useful example of cap/stem partitioning and bioconcentration from low-H
 
 App: Supports a wild Suillus/luteus context note where foraged mushrooms can concentrate Hg relative to soil.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
 - [[products/mushrooms]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- The DOI and publication metadata are printed in the PDF.
-- The source reports total Hg only; this page does not infer methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

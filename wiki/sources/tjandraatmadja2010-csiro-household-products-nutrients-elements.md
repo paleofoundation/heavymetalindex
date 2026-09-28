@@ -187,55 +187,28 @@ The framing for these comparisons is wastewater-management (the load arriving at
 - **Molybdenum trace-level signal in laundry powder and cistern products.** Mo was concentrated in laundry powder concentrates (62 % detection, median 0.56 mg/kg, max 1.35 mg/kg) and toilet fresheners (86 % detection in cistern category). Loads remain below 0.34 mg/pe/wk for any single product. Feeds [[products/laundry-detergents]] and [[products/household-specialty-cleaners-other]] Mo panel cells.
 - **Brand-class signal (private vs market-leader vs environmental-label).** The report's most useful brand-class observation is that environmental-label brands generally carried lower phosphorus than the category mean but **no** consistent across-the-board pattern emerged for the trace metals. For Sb, Cr, Co, Mo, Se there is no environmental-label-versus-conventional advantage reliable across categories. This finding constrains the consumer-substitution lever for trace-metal load reduction and is the kind of evidence HMTc Category-13 (Cosmetics) market-ratcheting decisions need to reference.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/antimony]] (Sb in laundry powder, dishwasher powder, toothpaste, floor cleaner, toilet paper, 9.6 % detection frequency across 156 Australian household products)
-- [[metals/chromium]] (total Cr in 64 % of 156 household products; one in-cistern toilet freshener at 174 mg/kg; not speciated)
-- [[metals/cobalt]] (Co in personal-care wash products at 67-100 % detection prevalence in shampoos, conditioners, hand washes, body washes)
-- [[metals/molybdenum]] (Mo in laundry powder concentrate and toilet fresheners)
-- [[products/laundry-detergents]] (Sb 8/24 brands 0.04-0.47 mg/kg; total Cr 13/13 powder + 7/11 liquid; Mo 8/13 powder; Se 5/13 powder + 4/11 liquid)
-- [[products/laundry-detergent-boosters-additives]] (soakers: 2 brands, total Cr 0.19-0.23 mg/kg, Mo and Se trace)
-- [[products/fabric-softeners]] (Sb below detection in all 7 brands; Cr 4/7 brands max 3.50 mg/kg)
-- [[products/automatic-dishwasher-detergents]] (Sb 2/5 powder brands 0.82 and 0.10 mg/kg; Cr 4/4 tablets + 4/5 powders; Mo 2/4 tablets + 2/4 powders)
-- [[products/dish-soaps-manual]] (Sb below detection in all 6 brands; Cr 3/6; Co 3/6; Mo 2/6)
-- [[products/rinse-aids]] (Sb below detection in the one brand tested)
-- [[products/toilet-bowl-cleaners]] (Cr 7/7 fresheners 0.26-174 mg/kg; Mo 6/7; in-cistern category outlier)
-- [[products/floor-cleaners-hard-surface]] (Sb 1/4 brands 0.07 mg/kg; Cr 3/4)
-- [[products/all-purpose-cleaners]] (Cr in 1-2 of 2-4 general-purpose brands; Mo 2/4 toilet cleaner; Se 1/2 multi-purpose)
-- [[products/household-specialty-cleaners-other]] (in-cistern fresheners: Cr 174 mg/kg outlier driving 35.8 mg/pe/wk Cr load)
-- [[products/shampoo-adult]] (Cr 8/10 brands; Co 8/11; Mo 5/11; Se 3/11 incl 4.6 mg/kg anti-dandruff)
-- [[products/conditioner-adult-rinse-out]] (Co 2/3 brands 0.28-0.39 mg/kg; Cr 2/3 brands 0.88-1.3 mg/kg)
-- [[products/body-wash-shower-gel]] (Co 4/4 brands 0.35-4.9 mg/kg; Cr 3/4)
-- [[products/hand-soap]] (Co 4/5; Cr 4/5 brands up to 6.2 mg/kg)
-- [[products/bathing-soaps]] (Se 4/6 soap bars 0.28-0.39 mg/kg; Cr below detection in all 6)
-- [[products/deodorants]] (Cr 3/9; Mo 4/9; Se 3/9 brands 0.12-0.62 mg/kg)
-- [[products/sun-suntan-products]] (Cr 6/7 SPF30+ sunscreens 0.01-0.11 mg/kg; Co 1/7)
-- [[products/body-hand-leave-on-skin-care]] (Cr 1/5 body lotion brands)
-- [[products/face-neck-leave-on-skin-care]] (Cr 3/4 facial cream/lotion brands 0.002-0.35 mg/kg)
-- [[products/facial-cleansers]] (Cr 2/2 brands 0.5-0.7 mg/kg)
-- [[products/shaving-cream-gel-foam]] (Cr below detection in all 5 brands)
-- [[products/toothpaste]] (Sb 1/9 brands 0.15 mg/kg; Cr 8/9 brands 0.30-1.21 mg/kg)
-- [[products/mouthwash-oral-rinse]] (Cr 4/5 brands 0.01-0.7 mg/kg)
-- [[products/permanent-hair-dyes-tints]] (Cr 3/6 brands 0.14-0.22 mg/kg; Mo below detection in all 6)
-- [[products/hair-dye-rinse-off]] (same 6 brands as permanent dyes; the report does not differentiate the rinse-off and permanent sub-segments)
-- [[products/hair-removal-products]] (depilatory cream 1 brand tested; Cr below detection)
-- [[products/facial-cleansers]] (facial cleanser + facial scrub lumped under "Face cleanser" in source Tables 7, 9; Cr 2/2 at 0.5-0.7 mg/kg; the facial scrub brand is included in the 156-product count but its data are not separately tabulated)
-
-## Verification notes
-
-- **Brand-firewall handling (Part 12).** The CSIRO report's underlying appendix tables (Tables 19-26, pp. 70-85) list every analysed product by brand name alongside its per-element concentration. None of those brand-named cells is reproduced in this wiki page; concentrations are summarised by product category and by brand-class (private / market-leader / environmental-label) descriptor only. The "Leader / Enviro / Private" columns in the body tables above are the report's own brand-class descriptors and do not name brands.
-- **Cr speciation gap for HMTc.** The HMTc Category-13 (Cosmetics) and Category-1 (Heavy Metal Tested & Certified Cleaning) Cr panel cells require Cr-VI specifically. The Tjandraatmadja dataset reports only total Cr by ICP-MS; Cr-VI is not separated. The HMTc Cr-VI cells therefore cannot draw on this dataset directly; the data inform the umbrella `metals/chromium` page and the per-product total-Cr cells (which can be informative for context but are not the binding HMTc analyte).
-- **In-cistern Cr 174 mg/kg outlier.** Section 4.1.4 reports concentrations in toilet fresheners ranged 0.26 to 174 mg/kg. The 174 mg/kg figure is the largest single Cr datum in the report and drives both the 35.8 mg/pe/wk weekly Cr load attribution (Figure 6) and the broader cistern-category Cr signal. The report does not identify whether this brand is a chromate-pigment cistern-staining product (the typical formulation explanation for very high Cr in cistern fresheners) or a different chemistry. For HMI synthesis the in-cistern brand should be treated as a category-specific datum, not pooled with general toilet-cleaner Cr values.
-- **Selenium-sulfide anti-dandruff datum (4.6 mg/kg).** The single 4.6 mg/kg Se reading in an anti-dandruff shampoo is consistent with a low-residual selenium-sulfide active ingredient or trace impurity from a different anti-dandruff active. The report does not name the active ingredient or the brand and does not differentiate anti-dandruff from general-purpose shampoo subcategories in Table 12. The Se panel cell on [[products/shampoo-adult]] should note this outlier's likely active-ingredient origin.
-- **No CRM / recovery / blank-correction data reported for the panel metals.** The CSIRO report tabulates instrument detection limits (Table 4) but does not document spike-recovery percentages, certified reference material results, or method recovery against an inter-laboratory comparison for Sb / Co / Cr / Mo / Se. This is a B-tier (industry/government report with documented method but minimal QA reporting) rather than A-tier (peer-reviewed paper with CRM and inter-lab QA) limitation. The dataset is structurally a single-laboratory single-time-point characterisation.
-- **source metadata scope choice.** The `products:` array enumerates the product slugs the source's category-level data measure directly. Toilet paper has no current `products/` slug and is therefore listed only in `matrices:` as `toilet-paper`. The `matrices:` field carries household-product-stream descriptors (laundry-detergent, dish-detergent, hard-surface-cleaner, fabric-softener, cosmetic-personal-care, shampoo, toothpaste, deodorant, sunscreen, toilet-paper, domestic-wastewater) consistent with corpus precedent for similar household-product papers (see [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]] and [[sources/abulude2007-soaps-detergents-akure-nigeria]]).
-- **Jurisdiction scope.** Sampling was Melbourne, Victoria, Australia, in early 2008. The brand mix reflects the Australian retail market at that date and may not generalise to other markets. The dataset feeds the AU jurisdiction signal on each touched product category.
-- **No DOI assigned.** CSIRO Water for a Healthy Country Flagship reports in the 1835-095X series do not carry DOIs; `no_doi_assigned: true` is set in source metadata.
-- **License.** Copyright Commonwealth of Australia 2009 (cover-verso copyright notice). The report is freely distributed by CSIRO via the National Research Flagships programme but is not under an open-content licence; downstream reuse limited to citation and category-level summary as practised here.
-- **Audit editorial review (2026-06-03, editorial review) — three ⚠️ concerns applied; verdict REVISE; no ❌ definite errors.**
-  - **(1) Source internal discrepancy on Sb in floor cleaner, toilet paper, and toothpaste.** Auditor noted that p.22 narrative ("one brand of floor cleaner (0.016 mg/kg), one brand of toilet paper (0.069 mg/kg) and one brand of toothpaste (0.147 mg/kg)") disagrees with Table 6 on the same page (toilet paper 0.02, floor cleaner 0.07, toothpaste 0.15). The toothpaste values round consistently (0.147 ≈ 0.15). The floor cleaner / toilet paper values are mutually transposed between narrative and table: narrative-floor-cleaner 0.016 rounds to 0.02 (matching Table 6's toilet paper row), and narrative-toilet-paper 0.069 rounds to 0.07 (matching Table 6's floor cleaner row). This is an internal inconsistency in the source report — either the narrative or Table 6 swapped the floor-cleaner/toilet-paper labels. The wiki page cites Table 6 values (0.02 for toilet paper, 0.07 for floor cleaner) because that is the published table the source's downstream analyses (Figure 3 weekly loads) appear to rely on. Flagged here so downstream synthesis can apply a sensitivity check against the narrative interpretation if needed.
-  - **(2) `exfoliants-scrubs` slug removed from `products:` source metadata and from the "Wiki pages this source may touch" section.** Verified against source p.18 (§3.1.4): "1 brand of facial cleanser, 1 brand of facial scrub and 1 brand of depilatory cream" are listed as separate products in the methodology. Verified against Tables 7, 9 across the analyte panel: the source's data tables list a "Face cleanser" row only (n=2/2 for Cr), which is the facial cleanser + facial scrub lumped. No per-analyte data for the facial scrub alone are reported. Since the routing layer would fan an `exfoliants-scrubs` slug to a destination with no source-specific data to populate, the slug was removed; the facial-scrub brand's data are routed through [[products/facial-cleansers]] (the lumped "Face cleanser" row) instead, with a note in the wiki-pages-touched list documenting the lump.
-  - **(3) Implications-section language tightened.** The phrase "places Australian household-product Sb at the upper-trace-impurity level rather than a deliberate-additive level" was interpretive characterisation slightly ahead of the source's own framing. Rewritten to track the source's own Section 4.1.1 conclusion that Sb is "a minor contaminant in household products". Also removed the "(P97/P45 pooling)" parenthetical from the Sb-implications bullet because P97/P45 is HMTc-side workflow methodology that should not appear on a source page (Part 2 firewall hygiene). No data values changed.
+- [[metals/antimony]]
+- [[metals/chromium]]
+- [[metals/cobalt]]
+- [[metals/molybdenum]]
+- [[products/laundry-detergent-boosters-additives]]
+- [[products/rinse-aids]]
+- [[products/all-purpose-cleaners]]
+- [[products/bathing-soaps]]
+- [[products/deodorants]]
+- [[products/sun-suntan-products]]
+- [[products/body-hand-leave-on-skin-care]]
+- [[products/face-neck-leave-on-skin-care]]
+- [[products/facial-cleansers]]
+- [[products/shaving-cream-gel-foam]]
+- [[products/mouthwash-oral-rinse]]
+- [[products/permanent-hair-dyes-tints]]
+- [[products/hair-dye-rinse-off]]
+- [[products/hair-removal-products]]
+- [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]]
+- [[sources/abulude2007-soaps-detergents-akure-nigeria]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

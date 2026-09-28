@@ -54,7 +54,7 @@ Courses: Useful for explaining how informal or unregulated cosmetic markets can 
 
 App: Supports the whitening-products page and consumer-product gap tracking for personal-care matrices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/whitening-products]]
 - [[metals/lead]]
@@ -62,12 +62,6 @@ App: Supports the whitening-products page and consumer-product gap tracking for 
 - [[metals/chromium]]
 - [[metals/arsenic-total]]
 - [[metals/copper]]
-
-## Verification notes
-
-- The source measures unbranded whitening creams, not named consumer brands.
-- Arsenic and chromium are total element measurements; the source does not support inorganic arsenic or Cr(VI) routing.
-- Values are preserved in the source's ppm unit. For these cream matrices, ppm is equivalent to mg/kg when treated as mass fraction.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

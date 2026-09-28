@@ -106,7 +106,7 @@ App: Beans, canned fish, and shellfish contribute disproportionately to per-serv
 
 Microbiome: Not applicable — paper does not address gut microbiome effects of Ni exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/nickel]]
 - [[ingredients/beans]]
@@ -125,18 +125,6 @@ Microbiome: Not applicable — paper does not address gut microbiome effects of 
 - [[products/canned-fish]]
 - [[products/processed-meats]]
 - [[regulations/china-gb-2762-2022-contaminants]]
-
-## Verification notes
-
-- 2026-05-29: Manual-fetch re-ingest pass against the source PDF (the archived source file). Page was originally created 2026-05-14 by autonomy_phase1_v0; this pass enhances per the v2 manual-fetch skill. Changes:
-  - Body-weight table previously carried a misattributed annotation ("n=4173 of 19,000 (16.60%) population subset" against 0–6 years; "70.14% of survey" against 18–59; "13.26% of survey" against ≥60). Per p. 4 of the source, the 16.60% / 70.14% / 13.26% shares describe the three-bucket population census grouping (0–14, 15–59, ≥60), not the five-bucket consumption-survey grouping used in Tables 2–4. The misattributed annotations were removed and a correctly attributed sentence about the three-bucket grouping added below the body-weight table.
-  - Methods section rewritten to "## Methods (brief)" per current Part 6 template, with instrument vendor/model, digestion vendor/model, reagent vendor, tuning solution vendor, USEPA EDI/HQ/THQ equation forms, and Mode A–D definitions made explicit. Vendor/material names retained per Part 12 Exception 2 (scientific-method vendor names are not brand-firewall violations).
-  - Implications section softened: removed prescriptive language ("HMTc Ni thresholds … should anchor on these distributions") in favour of contribution-framed wording ("contributes occurrence and exposure data … relevant to Cat 1 modelling") per Part 2 wiki/HMTc firewall.
-  - Sample-size discrepancy between paper text (Section 3.1) and Table 1 was preserved with both totals shown, since the source itself is internally inconsistent (n=1404 vs 1405 aquatic; n=691 vs 690 meat; n=392 vs 365 vegetables; n=145 vs 136 fruits). Key numbers table uses Table 1 values throughout (the more granular source).
-  - `products: ["[[products/processed-meats]]"]` added — sausages (n=316), Chinese bacon (n=296), and "other meat product" (n=7) all map to the existing the linked reference record page; the paper's "Meat and products" category is processed meat. Canned-fish product already declared.
-  - source metadata `sampling_locations` populated and `sampling_year_range` filled in. `raw_handle`, `cite_key`, `raw_path`, `license`, `doi`, `near_duplicates` preserved.
-- Source-internal inconsistency on age-bucket labelling: p. 5 of the paper says respondents were classified into five groups "0–6, 6–13, 11–17, 18–59, and ≥60 years" (overlapping at 6 and 11), but Tables 2, 3, and 4 use non-overlapping groups 0–6, 7–10, 11–17, 18–59, ≥60. The wiki follows the table groupings since all numerical attributions are tied to the tables.
-- 2026-05-29 (audit application): Fresh-context Agent editorial review (general-purpose) ran the five-check audit per the editorial record. Verdict: PROMOTE with 0 ❌ findings and 3 ⚠️ framing concerns. Concerns applied to this commit: (a) §2.1-text vs §3.1/Table 1 sample-size discrepancy framing made explicit (prior wording "paper text; Table 1 totals" was imprecise since both totals are paper-text); (b) "Aquatic: Other processed" row label expanded to "Other processed aquatic products" to match Table 1; (c) EFSA TDI chronology phrasing rewritten to match the paper's "initially set 2.8 in 2015 → later modified to 13" order. No false-positive findings to record. Routing audit re-run clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

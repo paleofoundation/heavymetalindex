@@ -126,7 +126,7 @@ Courses: Useful as a case study in how risk-assessment conclusions can be sensit
 
 App: Route to tea, true tea, lead, cadmium, copper, total arsenic, and total mercury pages. Do not route as tea-infusion exposure evidence because the basis is dry leaves, not brewed liquor. Do not route as inorganic-arsenic or methylmercury-specific evidence — speciation was not performed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[ingredients/camellia-sinensis]]
@@ -137,16 +137,6 @@ App: Route to tea, true tea, lead, cadmium, copper, total arsenic, and total mer
 - [[metals/copper]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The PDF filename `pourramezani2019-matcha-heavy-metal.pdf` is a discovery-skill misnomer: the paper is about imported BLACK tea (Indian and Sri Lankan Camellia sinensis dry leaves sold in Hormozgan), not matcha (Japanese stone-ground green tea powder). The `raw_handle` field preserves the literal filename for filesystem traceability (`MFD_pourramezani2019-matcha-heavy-metal`), but the `cite_key` and all matrix/product slugs reflect the actual content (black tea, not matcha). No matcha-related slugs (`ingredients/matcha-powder`, `products/matcha`) are routed.
-
-Sample-count limitation: the paper reports N = 122 total samples split between Indian and Sri Lankan origin but does not disclose the within-origin counts. The per-origin means in Table 2 are reported as if both origins were measured with similar n, but the relative weight of the two subgroups cannot be reconstructed from the paper. Downstream synthesis treating the per-origin means as having equal weight should flag this as an inference, not a paper-reported fact.
-
-Arsenic and mercury speciation: HGAAS and CV-AAS measure total fractions only. The authors compare their tAs values against an Iran national 0.15 mg/kg limit and their tHg values against a 0.02 mg/kg limit, both presented in the paper as "total" without speciation caveat. This is a known weakness of pre-2015-era tea heavy-metal surveys; the values are preserved here as reported and flagged as total fractions in the `metals:` array (`tAs`, `tHg`).
-
-Copper left-censoring: the reported Cu LOD of 0.033 mg/kg equals the reported Cu minimum for both Indian and Sri Lankan tea samples (Table 2). At least one sample in each origin sat at the detection floor. The paper does not disclose the number of left-censored Cu samples or the censoring substitution rule used in the mean (LOD, LOD/2, or zero). The per-origin Cu means are reported here as printed in Table 2 without adjustment.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

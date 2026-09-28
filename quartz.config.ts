@@ -33,15 +33,20 @@ const config: QuartzConfig = {
       // Bare name + /** because globby's `ignore` needs the glob form to drop
       // directory contents (cf. the "raw" / "**/raw/**" pair above).
       //
-      // NOT excluded, deliberately: batch-reports/ and lint/ are linked from
-      // 170+ source pages and the Update-History log as ingest provenance /
-      // QA records. CLAUDE.md Part 4 treats descriptive batch reports as a
-      // reconstructibility artifact, so they stay published (nav-hidden, not
-      // primary navigation). Excluding them would 404 those provenance links.
+      // Operational records stay in git and stay off the public site.
+      // batch-reports/ is the ingest log (identity checks, routing notes,
+      // audit verdicts). lint/ is the QA record. log.md is the change log.
+      // None of them are literature. Public pages must not link them; the
+      // sitewide batch-prose lint fails if a published page does.
       "briefings",
       "briefings/**",
       "queries",
       "queries/**",
+      "batch-reports",
+      "batch-reports/**",
+      "lint",
+      "lint/**",
+      "log.md",
     ],
     defaultDateType: "modified",
     theme: {

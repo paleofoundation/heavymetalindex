@@ -65,16 +65,6 @@ The authors collected 55 paddy rice samples from Kalasin, Surin, Saraburi, and P
 
 This source contributes Thai-market rice-grain occurrence data for Cr, Mn, Co, Ni, Cu, Zn, total As, and Cd, with separate rice-variety means and standard deviations suitable for downstream rice-pool consideration. Its arsenic speciation evidence is limited: total arsenic was measured directly, while inorganic arsenic was estimated from total arsenic for risk calculations using a conversion factor. The paper is most useful for rice-bulk-grain occurrence context, Thai-market stratification, and source-level notes about polished, unpolished, and sticky rice forms.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, abstract, methods, Results text, and Tables 1-3 were readable.
-- DOI verified from the PDF title page as `10.1016/j.foodchem.2020.127402`; DOI, raw handle `MFK_kukusamude2021`, and cite-key checks found no existing source page before creation.
-- Table 1 means, SD-bearing occurrence rows, total As ranges, Cd ranges, and sample counts were checked against the extracted table and Results prose.
-- Units are preserved as reported (`mg kg-1`, `μg kg-1`, `μg kg-1 BW`); no conversion to ppm, ppb, wet weight, or as-consumed basis was performed.
-- Speciation: the occurrence table reports total As. The inorganic As note is explicitly source-estimated by a 70% conversion factor from total As and is not a measured HPLC-ICP-MS speciation result; for that reason `iAs` is not listed in the source metadata `metals:` array. Chromium is reported as Cr, not Cr-VI.
-- Brand firewall: the source reports rice varieties and provinces, not brands; no brand-specific contamination values are repeated.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

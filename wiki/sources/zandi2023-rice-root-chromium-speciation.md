@@ -52,18 +52,12 @@ Supports chromium uptake and iron-plaque pathway evidence. Hotspot spectral frac
 
 Evidence Fitness: EF-2 for controlled tissue concentrations and hotspot speciation; pathway context only for consumer products. Source-reported distribution calculations require qualification.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/remediation-evidence]]
 - [[metals/chromium]]
 - [[metals/iron]]
-
-## Verification notes
-
-HAL cover establishes final title, journal, year and DOI; manuscript title differs slightly. The 87-page bundle repeats manuscript text: counted once. Novel experimental-rice-tissue and iron-plaque matrices exclude food-occurrence admission. Table 1 says mean±SE whereas general Methods says SD; table-specific SE governs. Table 1 distribution percentages are retained as reported and do not consistently equal fractions of its concentrations. Figure 4 c governs spot-specific values. Supporting-information DOCX is a link placeholder on p 85, not embedded data; unlabeled Figure 1/6 bars are not assigned invented exact values.
-
-The preserved Library PDF is identified by `RPHMI_10`; SHA-256 `c943a108217e50d010a19357798139bfba4d4e83aa09febe2a70b474473f10a4`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://cnrs.hal.science/hal-04034436/document. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

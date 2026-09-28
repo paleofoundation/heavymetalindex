@@ -62,7 +62,7 @@ Three *Cannabis sativa* industrial-hemp varieties, Finola, Felina, and Santhica,
 
 The paper provides limited occurrence context for dried hemp flowers and plant parts, plus a useful method warning that sample-preparation hardware can inflate Cr and sometimes Ni. The big-four values may inform hemp/cannabis botanical context at C-tier, but Cr and Ni values need milling-method qualifiers before any downstream use.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -72,17 +72,6 @@ The paper provides limited occurrence context for dried hemp flowers and plant p
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for the article title, raw handle `MFK_big-four-analysis-cannscitech`, or cite key `altmaier2021-cannabis-big-four-metals`.
-- DOI check: no DOI was found in the PDF text or work-list row. The article page and PDF identify it as *Cannabis Science and Technology* 4(2), 24-29 (2021), so `no_doi_assigned: true` is used.
-- All Key numbers were rechecked against `/tmp/hmi-june9-081.txt` extracted with `pdftotext -layout`, especially Tables IV and V.
-- Speciation check: As and Hg are not speciated; the page uses tAs and tHg. No iAs or MeHg values are inferred.
-- Units are preserved as `µg/g`; no conversions were performed.
-- Evidence tier: C, because this is a trade-publication technical feature with three hemp-flower varieties, not a peer-reviewed occurrence survey.
-- Brand firewall: the source names cultivar/variety labels (Finola, Felina, Santhica), not sampled commercial brands. The German drugstore purchase channel is retained as sample-frame context without naming a retailer.
-- Missing slug note: the taxonomy snapshot has no exact hemp/cannabis product or ingredient slug. source metadata uses broad `[[ingredients/herbal-botanicals]]` and `[[products/supplements-botanicals-herbs]]`, with hemp/cannabis retained only as matrix descriptors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

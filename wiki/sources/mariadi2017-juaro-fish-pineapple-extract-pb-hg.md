@@ -46,18 +46,13 @@ Juaro fish (Pangasius polyuranodon) was purchased at a traditional market in Pal
 
 The initial fish values support seafood occurrence context. The post-treatment values should be routed as processing/mitigation context, not as background occurrence in untreated fish.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/pineapple]]
 - [[products/seafood]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.26554/sti.2017.2.4.89-91 and the downloaded PDF.
-- The paper reports total mercury by AAS; it does not speciate methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

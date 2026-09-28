@@ -51,17 +51,6 @@ Systematic literature review of chemical migration rates from children's product
 - Courses: Methodology reference for chemical migration models; pairs with OECD 2024 crafts-and-toys exposure guidance.
 - App: Not directly relevant.
 
-## Wiki pages this source may touch
-
-- (None directly; methodology only)
-
-## Verification notes
-
-- No heavy-metal occurrence data. `metals: []` is correct.
-- Mouthing-duration values (3.4, 1.8 min/h pacifier average; 37.3, 46.3 min/h 99th percentile) are reusable for any metal-mouthing exposure calculation.
-- Audit editorial review (2026-05-17) added "in PP" matrix attribution to the BDE-183 lower-bound migration rate per p. 96 col 2 of the source ("for the brominated flame retardant 2,2',3,4,4',5',6-heptabromodiphenyl ether (BDE-183...) in PP to 32.7 µg/10 cm²/min..."). Applied.
-- Audit editorial review (2026-05-17) flagged the E_mouthing,pred lower bound "4 × 10⁻⁸" as wrong, claiming the source says "8 × 10⁻⁸"; verified against PDF p. 99 col 2 — the source clearly reads "E_mouthing,pred = 4 × 10⁻⁸ to 252 µg/kgBW/d." Finding was a false positive (OCR misread of "4" as "8"). Wiki value retained.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

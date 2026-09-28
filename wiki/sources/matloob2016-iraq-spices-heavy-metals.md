@@ -51,7 +51,7 @@ Courses: The paper is a compact example of broad multi-spice metals surveillance
 
 App: Ingredient-level signals are strongest for spices as a broad category, with item-level entries for turmeric and black pepper where the wiki already has ingredient pages.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
@@ -62,13 +62,6 @@ App: Ingredient-level signals are strongest for spices as a broad category, with
 - [[metals/mercury]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- The PDF uses "Tumeric" in Table 5 and Table 6; this source page routes that row to [[ingredients/turmeric]].
-- Concentrations are mg/kg dry weight, equivalent to ppm and to micrograms per gram.
-- The study reports total chromium and total mercury; it does not provide Cr(VI), inorganic arsenic, or methylmercury speciation.
-- The wiki uses the Table 6 and Table 9 mean Hg value of 0.400 mg/kg; the discussion text elsewhere reports Hg as 0.440 mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -60,15 +60,6 @@ Samples were collected during farmer-stock grading at 16 buying points across th
 
 This source provides U.S.-market peanut occurrence evidence for Cd, total/unspecified As, Pb, and heavily censored total/unspecified Hg. The routeable peanut values are national crop-level mean estimates and UCL95 summaries, not single-state or product-brand measurements. Mercury should remain as censored total-Hg context because the source does not provide a concentration distribution suitable for mean estimation and does not measure methylmercury.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Tables 1, 2, 3, 5, 7, 8, and 9 were checked in extracted text.
-- No DOI for the Blair/Lamb article was found in the source text; the DOI-looking string in the extracted text belongs to a cited USGS reference, not this paper.
-- Raw handle `MFK_blair2017`, raw SHA, and cite-key checks found no existing source page before creation.
-- Units are preserved as source-reported `ppm`; no conversion to `mg/kg` was performed.
-- Speciation: arsenic testing did not differentiate organic and inorganic forms, so arsenic is routed as `tAs`. Mercury is total/unspecified Hg; methylmercury was not measured.
-- Brand firewall: no product brands are tied to contamination values. Acknowledged industry entities are sample-logistics acknowledgements only, not contamination rankings.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

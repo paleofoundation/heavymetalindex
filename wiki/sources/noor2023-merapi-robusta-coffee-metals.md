@@ -62,16 +62,12 @@ Courses: Useful for teaching that quality and sensory studies frequently contain
 
 App: Supports a low-confidence non-detect note for single-origin Indonesian Robusta only; insufficient on its own to anchor a contamination profile.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/coffee]]
 - [[ingredients/coffee]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The source is a conference proceeding (ICSARD 2022) and is assigned B-tier. Pb and Cd LODs are exposed in Table 4 (p. 324) and restated in Sections 3.5.1 and 3.5.2 (Pb LOD 0.00025 mg/kg, Cd LOD 0.0005 mg/kg, ochratoxin A LOD 1.01 mg/kg). Non-detects can be handled as left-censored values at these LODs in downstream synthesis. Only three of the six prepared samples (samples 1, 3, 6) were metals-tested; sample_n reflects the metals-tested N, not the sensory-panel N.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -178,7 +178,7 @@ const RULES = [
   {
     name: "taxonomy-row-numbers-workbench",
     re: /The row numbers are permanent identifiers used by the standards workbench, the certification documents, and the source-routing layer\./g,
-    to: "The row numbers are permanent identifiers used across the certification program and the source-routing layer.",
+    to: "The row numbers are stable identifiers for this category.",
   },
   {
     name: "pooled-distributions-workbench",

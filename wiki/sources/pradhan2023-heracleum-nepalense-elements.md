@@ -47,7 +47,7 @@ Courses: The paper is useful as a clean example of broad multi-element ICP scree
 
 App: Route as spice/herb context only unless a future Heracleum-specific ingredient page is scaffolded.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
@@ -62,15 +62,6 @@ App: Route as spice/herb context only unless a future Heracleum-specific ingredi
 - [[metals/antimony]]
 - [[metals/uranium]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- The source repeatedly describes H. nepalense fruit as used as a spice, food additive, and flavoring agent in Sikkim, which supports routeability to the broad spices product page.
-- Concentrations are recorded exactly as ppb from Table 1. The page does not convert them to mg/kg because the source's digestion-volume reporting makes direct commodity-basis conversion ambiguous.
-- The PDF does not state a license in the extracted front matter.
-- `matrices` retains only `spice` (a routeable matrix descriptor). The earlier `heracleum-nepalense-fruit` and `flavoring-agent` entries were not in the matrices controlled vocabulary; the botanical identity is preserved in `sample_population` and the use-case descriptor is captured in body prose.
-- `sample_n` is set to 1 (one pooled fruit sample); the three "replicas" reported in Table 1 are analytical ICP runs of that single sample, not three independent biological samples. Downstream pooling should treat this source as n=1.
-- source metadata `metals: tHg` reflects the Part 14 controlled vocabulary; the source measured total mercury with no speciation breakdown.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

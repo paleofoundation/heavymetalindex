@@ -127,7 +127,12 @@ This page contributes a small-n (n = 50 composites, ~6 cells × 2 species) tropi
 
 For routing purposes, the source belongs to bivalve-molluscs, shellfish, and seafood ingredient pages and to the shellfish and seafood product pages. It is also Cd-exposure context (the dominant analyte by risk margin), Pb-pediatric-exposure context, and a relatively rare instance of Cr in bivalve mollusc tissue with sediment and mangrove-leaf comparator matrices. Pooling into shellfish wet-weight occurrence distributions is appropriate for Cd; for Pb and Cr it would be appropriate only with the caveat that the tissue values were extrapolated rather than directly quantified.
 
-## Wiki pages this source may touch
+## Sources
+
+- Romero-Estévez D, Yánez-Jácome GS, Dazzini Langdon M, Simbaña-Farinango K, Rebolledo Monsalve E, Durán Cobo G, Navarrete H. 2020. "An overview of cadmium, chromium, and lead content in bivalves consumed by the community of Santa Rosa Island (Ecuador) and its health risk assessment." *Frontiers in Environmental Science* 8:134. DOI: 10.3389/fenvs.2020.00134.
+- Manual-fetch PDF: the archived source file (SHA-256 `5404a94bfb82b4cf2ff9581f78d3a4bc984e778061f46a0a82dc4e7469ef76f4`).
+
+## Related evidence
 
 - [[ingredients/bivalve-molluscs]]
 - [[ingredients/shellfish]]
@@ -141,30 +146,7 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/epa-iris-cadmium-rfd]]
 - [[regulations/codex-cadmium-mls]]
-
-## Sources
-
-- Romero-Estévez D, Yánez-Jácome GS, Dazzini Langdon M, Simbaña-Farinango K, Rebolledo Monsalve E, Durán Cobo G, Navarrete H. 2020. "An overview of cadmium, chromium, and lead content in bivalves consumed by the community of Santa Rosa Island (Ecuador) and its health risk assessment." *Frontiers in Environmental Science* 8:134. DOI: 10.3389/fenvs.2020.00134.
-- Manual-fetch PDF: the archived source file (SHA-256 `5404a94bfb82b4cf2ff9581f78d3a4bc984e778061f46a0a82dc4e7469ef76f4`).
-
-## Verification notes
-
-- 2026-06-03 Claude fresh ingest from `manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish`. Numbers cross-checked against the Abstract, Tables 1–3, and the Results/Discussion sections of the published PDF.
-- Brand firewall (Part 12): the source names no commercial brands. The Afro-Ecuadorean fishing community of Santa Rosa Island is the harvesting population, not a brand; the four sampling sites (E1–E4) are named per the paper's geography.
-- Analyte speciation: Cr was measured as total Cr by flame AAS (no Cr-VI speciation); the page therefore uses `metals: [Cr]` not `[Cr-VI]`. The authors compare to US EPA Cr(III) RfD because Cr(III) is the species relevant for dietary exposure, but the measurement itself is total Cr.
-- Pb and Cr tissue concentrations are below the analytical quantification limit of 15 mg/kg; reported values are extrapolated from fortification recoveries (authors' explicit acknowledgment). This is flagged in the Key numbers section and in Limitations rather than presented as direct quantification.
-- The 1881/2006 cross-link is to the superseded EU contaminants framework because that is the version the paper itself cites (the paper is from 2020; EU 2023/915 came after publication).
-- Sediment and *Rhizophora mangle* leaves are environmental matrices, not food. They are included in Key numbers because they are part of the paper's Cd / Cr / Pb story and inform the discussion of bioaccumulation pathways, but they do not route to product or ingredient pages.
-- Bivalve species *Protothaca asperrima* and *Polymesoda inflata* are mentioned in the Results as single-composite passing samples; they are not assessed for human-health risk and the page records them as a single bullet under "Other bivalve species" rather than treating them as quantitative occurrence data.
-- 2026-06-03 editorial review editorial review (fresh context) verdict: REVISE. Three findings applied:
-  - Check 1 — *Protothaca asperrima* spelling: editorial review flagged the Key numbers bullet and an earlier Verification note as "*Prototheca asperrima*" (typo); verified against PDF p. 5 — the paper reads "*Protothaca asperrima*". source metadata `sample_population` already used the correct spelling. Body and notes corrected.
-  - Check 1 — *Rhizophora mangle* leaf means: editorial review flagged the prior rendering "Cd 2.21 / 2.23 / 4.38; Cr 4.22; Pb 3.29 / 3.35" as confusing (the "4.38" is in fact the body-text Cr mean, not a Cd value). Verified against PDF p. 1 (Abstract) and p. 6 (Discussion) — the two passages give slightly different leaf means (body Cd 2.21 / Cr 4.38 / Pb 3.29; abstract Cd 2.23 / Cr 4.22 / Pb 3.35). Rewritten to state both source passages explicitly and to attribute each value to the right analyte.
-  - Check 2 — `[[regulations/epa-iris-lead-rfd]]` cross-link: the source explicitly states "There is no US EPA RfD value for Pb" (PDF p. 2) and uses the FDA 2019 interim reference level (0.003 mg/day children, 0.0125 mg/day adults) as its Pb comparator. The EPA IRIS Pb RfD page is therefore not the right routing target. Removed the cross-link. No `regulations/fda-pb-interim-reference-level` slug exists in the current taxonomy snapshot; flagging here for Karen's review as a candidate regulation page rather than inventing a slug.
-- 2026-06-03 editorial review editorial review (second pass, fresh context) verdict: REVISE. Four findings applied:
-  - Check 1 — Pb RSD at *A. tuberculosa* E2 "Playa la Tumba": prior version recorded **5.39**; verified against PDF p. 5, Table 1 — the cell reads "0.311* 3.94 98.26". Corrected to **3.94**.
-  - Check 1 — Cr accuracy upper bound at *A. similis* E3 "Playa al otro lado": prior version recorded **100.11**; verified against PDF p. 5, Table 1 — the Cr accuracy column reads "91.01–100.00". Corrected to **100.00**.
-  - Check 3 — Methods terminology: prior version said "in-house natural-flour method"; verified against PDF p. 4 — the paper reads "natural food method validated for its use in plant tissues (Romero-Estévez et al., 2019)". Corrected to "natural food method".
-  - Check 2 — Routing destinations: prior version omitted `[[regulations/codex-cadmium-mls]]`; the paper explicitly cites the FAO/WHO Codex CXS 193 Cd 2.0 mg/kg fresh-weight bivalve threshold on p. 2. Added.
+- [[regulations/epa-iris-lead-rfd]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -102,14 +102,11 @@ Microbiome: No direct microbiome endpoint.
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. Originally on the data-gap wishlist as PMID 33428550 under the misattributed name "Vacchina 2021"; the actual first author is Marina Saraiva (Anses, France + DTU, Denmark collaboration). Published in *Food Additives & Contaminants Part A* under standard Taylor & Francis paywall. Wiki cites the article record (DOI 10.1080/19440049.2020.1859144).
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-formula-rtf-liquid-non-soy]]
-- [[products/infant-formula-powder-non-soy]]
-- [[products/meat-and-poultry-purees]]
 - [[products/infant-and-child-foods-master]]
-- [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france]] (companion-citation note)
-- [[sources/soares2000-chromium-vi-powdered-milk-formulas]] (additional supersession evidence)
+- [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france]]
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

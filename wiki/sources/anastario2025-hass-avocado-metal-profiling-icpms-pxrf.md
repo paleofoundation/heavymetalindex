@@ -106,16 +106,6 @@ App: n=24 with 6 per origin×practice stratum is below the threshold for app-fac
 - [[metals/nickel]]
 - [[metals/lead]]
 
-## Verification notes
-
-- 2026-05-25 (Claude, merge-enhance): Re-read the source PDF in full including Table 1 (continued) on page 5. Extracted precise per-stratum geometric means (95% CI) for Pb, Cd, tAs, Hg, Ni, and Al in both mesocarp and exocarp. Prior version of this page declared these "not fully resolvable from text extraction"; that gap is now closed.
-- 2026-05-25: Corrected the Hg unit. Table 1 footnote: "Values for Hg represented in ng/g," whereas all other elements are µg/g dry weight. Prior version of the Methods section did not flag this distinction.
-- 2026-05-25: Flagged Pb mesocarp Cal-USA organic = 0.14 µg/g as a single-detect outlier (only 1 of 6 samples above LOD), not a stratum geometric mean. This value drove the Pb loading on mesocarp PC1 and the "moderate Pb" cluster identified in the K-means analysis. Correct interpretation: organic Cal-USA mesocarp has at least one fruit with anomalously elevated Pb relative to all other strata; the geometric-mean value is not representative.
-- 2026-05-25: Corrected `raw_path` source metadata (previously truncated to `P0309.pdf`; actual file is `P0309_Metal profiling of Hass avocados.pdf`).
-- 2026-05-25 (audit-application): Fresh-context audit editorial review (REVISE verdict) flagged the `n>LOD (of 48)` column header as potentially misleading because Table 1's n>LOD column is a single combined-tissue count, not per-tissue. Verified against Table 1 — the column shows e.g. Pb=12 with no tissue split. Relabeled column to `n>LOD (combined tissues, of 48)` in both mesocarp and exocarp tables.
-- 2026-05-25 (audit-application): editorial review flagged three phrases in Implications/Certification as drifting toward HMTc programmatic recommendation rather than literature reporting ("supporting inclusion of tHg in risk monitoring," "actionable for supply-chain screening guidance," "Flag as provisional"). Verified against — these phrases do cross from "what the literature reports" into "what HMTc should do." Rewrote the Certification paragraph to factual occurrence-data framing and softened App-section advisory language. Preserved the substantive findings (Hg fresh-weight reconstruction, EFSA/Codex comparison, Pb single-detect outlier, origin-linked Co/Ni signature) without programmatic verbs.
-- 2026-05-25 (audit-application note): editorial review flagged `avocado-mesocarp` and `avocado-exocarp` matrix slugs as outside the documented snapshot. These were preserved from the prior version of the page; the current routing audit accepts them and the source is not in `routing_malformed.csv` or `routing_unresolved.csv`. Tissue-level matrix slugs are the correct granularity for this paper because the mesocarp/exocarp distinction is foundational to its findings (different metal-mixture signatures by tissue, only mesocarp is consumed). Slug-vocabulary governance for tissue-level matrices is a routing-layer concern, not a per-source fix; leaving slugs as-is.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

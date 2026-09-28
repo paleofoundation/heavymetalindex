@@ -58,7 +58,7 @@ The study used multi-stage stratified sampling to collect 20 samples from each o
 
 This source contributes Thailand-market aluminum occurrence evidence for rice-based noodle products and egg noodles. It is directly routeable for rice noodles and broader rice-based/wheat-based pasta-noodle rows, but the wet-weight and dry-weight bases should remain separate. The aluminum finding should not be generalized to other metals because no other HMTc analytes were measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/noodles]]
 - [[ingredients/rice]]
@@ -69,15 +69,6 @@ This source contributes Thailand-market aluminum occurrence evidence for rice-ba
 - [[products/pasta-wheat-based]]
 - [[products/other-grain-products]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Tables 1-6, Figure 1 text, conclusion, and references.
-- DOI verified from the first page as `10.3390/foods12213960`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 3 concentration values, Table 4 source-study ranges, and Table 6 headline HQ values were checked against the extracted text. Units were preserved as printed (`mg/kg ww`, `mg/kg dw`, `µg/kg`, `mg/kg bw/week`); no conversions were made.
-- Speciation is not applicable to this aluminum-only paper. It does not report Pb, Cd, As, Hg, MeHg, iAs, Cr, Cr(III), or Cr(VI).
-- The source mentions that high aluminum concentrations were found in samples with labels or FDA serial numbers, but this page reports only product-group statistics and does not attach brand or producer identity to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

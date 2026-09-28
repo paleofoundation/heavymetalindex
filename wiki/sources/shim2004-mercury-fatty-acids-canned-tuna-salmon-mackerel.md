@@ -82,7 +82,7 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 
 **App:** Product-form-level tHg values (light tuna in water ~54 ppb, white/albacore tuna water/pouch rows 227–330 ppb, salmon ~45 ppb, mackerel ~55 ppb) are useful source inputs for canned-fish risk estimation. Use product-form and species descriptors rather than brand identity.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/canned-tuna]]
 - [[ingredients/tinned-fish]]
@@ -93,16 +93,8 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - [[products/seafood]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-- [[regulations/fda-cpg-540-600-methylmercury-fish]]
 - [[regulations/epa-iris-methylmercury-rfd]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0151, added DOI access URL and PDF SHA-256, corrected invalid ingredient slugs to existing broader fish/seafood slugs, replaced `[[metals/mercury]]` with total-mercury and methylmercury routing, and created the FDA CPG 540.600 regulation page for the source-cited 1000 ppb action level.
-- Strict Part 12 brand-firewall cleanup: source Table 1 names sampled brands, but this wiki page aggregates rows by product form/species and omits all sampled brand names.
-- Numerical correction: prior page gave light-tuna-in-water EPA+DHA as ~268 mg/100 g; Table 1 values sum to 213, 313, and 339 mg/100 g, mean ~289 mg/100 g.
-- The authors' 185 ppb recommendation and label proposal are reported only as source-side risk-management statements; they are not adopted here as HMT&C standards or consumer advice.
-- 2026-06-08 merge-enhance: removed the `products/fresh-fish` slug from source metadata (paper studied only canned tuna, salmon, and mackerel — no fresh fish samples were analyzed; the slug was over-specifying source metadata and fanning broad-context rows to fish-freshwater, fish-marine-predatory, and fish-marine-non-predatory rows for which the paper provides no direct evidence). Added the `products/canned-seafood` slug to reflect that the three product forms studied are all canned-seafood Cat 6 row members (direct evidence rather than seafood-broad-context only).
+- [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

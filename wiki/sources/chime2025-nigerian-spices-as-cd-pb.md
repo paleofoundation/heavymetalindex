@@ -66,13 +66,6 @@ Samples were labelled A–F (product identities not disclosed) plus one scent le
 - [[products/spices]]
 - [[products/condiments-general]]
 
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected the truncated `raw_path`, broadened product routing to include `[[products/condiments-general]]`, and generalized "brands" wording to coded samples because the source does not disclose product identities.
-- Numerical fidelity correction: the prior page repeated the source abstract/discussion phrasing that three samples exceeded a 0.5 µg/g As limit, but Table 1 shows only Sample C (1.68 µg/g) and Sample E (1.26 µg/g) exceed 0.5 µg/g; Sample D is 0.315 µg/g and only exceeds the lower end of the source's 0.1–0.5 µg/g permissible range. Lead exceedances remain Samples A and B; Cd exceedance remains all seven samples.
-- Part 2 firewall: softened the HMT&C monitoring/testing sentence to source-level occurrence context and explicitly kept the values out of threshold math.
-- Cross-vendor audit (Codex, 2026-05-18) corrected the sample-population description: the six coded spice samples were purchased from New Heaven market, while the scent leaf was collected from a nearby garden at Ugwuaji. Pathway language is treated as author-discussed possibilities, not confirmed source attribution for each sample.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

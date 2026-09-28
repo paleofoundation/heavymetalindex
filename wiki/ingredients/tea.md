@@ -177,7 +177,7 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/hardisson2017-aluminium-dietary-exposure-review|Aluminium Exposure Through the Diet]]<span class="hmi-ref-meta">Hardisson A, Revert C, González-Weller D, Gutiérrez A, Paz S, and Rubio C · HSOA Journal of Food Science and Nutrition · 2017 · [doi.org/10.24966/fsn-1076/100020](https://doi.org/10.24966/fsn-1076/100020)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/jurowski2023-heavy-metals-green-tea-poland|The Control and Comprehensive Safety Assessment of Heavy Metal Impurities (As, Pb, and Cd) in Green Tea Camellia sinensis (L.) Samples (Infusions) Available in Poland]]<span class="hmi-ref-meta">Jurowski K, Kondratowicz-Pietruszka E, and Krosniak M · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03665-5](https://doi.org/10.1007/s12011-023-03665-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -193,7 +193,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

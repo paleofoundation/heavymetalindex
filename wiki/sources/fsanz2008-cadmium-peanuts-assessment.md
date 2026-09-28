@@ -58,7 +58,7 @@ Courses: The source is useful for teaching how occurrence data, exposure modelin
 
 App: The source can support peanut cadmium profiles with jurisdiction-aware context for Australia/New Zealand regulatory assessment and international peanut concentration inputs from China, the United States, Australia, and New Zealand.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[ingredients/peanuts]]
@@ -66,15 +66,6 @@ App: The source can support peanut cadmium profiles with jurisdiction-aware cont
 - [[ingredients/peanut-oil]]
 - [[products/peanuts]]
 - [[products/peanut-butter]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_559.txt`; the title page, Executive Summary, Sections 4 and 7, Appendix 1, Tables A1.1, A3.1-A3.3, and A5.1-A5.3 were checked against this page.
-- No DOI is printed in the extracted report. Title, `Application A552`, raw handle `MFK_final-assessment-report-application-a552-cadmium`, and candidate cite-key path the linked reference record were checked before creation; no existing source page was found.
-- Units are copied exactly as printed: peanut cadmium concentrations use `mg/kg`, exposure uses `mg/kg bw/wk`, and PTWI percentages are copied as `% PTWI`. No unit conversions were performed.
-- Speciation: the report measures/models cadmium only; no species substitution issue is present.
-- Brand firewall: the report discusses industry applicants and peanut suppliers, but Table A1.1 is country/source-level occurrence data and this source page does not attach a company or brand name to a contamination value.
-- source metadata slugs were checked against the editorial record; `peanut-containing-foods` is a matrix descriptor rather than a product or ingredient slug.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

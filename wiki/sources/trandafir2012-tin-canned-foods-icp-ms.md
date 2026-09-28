@@ -101,7 +101,7 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 - Courses: useful illustration of pH-dependent corrosion kinetics in tinplate cans, the lacquer/no-lacquer difference, and the inorganic-Sn-vs-organotin analytical distinction.
 - App: among canned categories, acidic fruit cans (citrus, tropical fruit, pineapple) and tomato-based products are higher-expected-Sn than canned neutral-pH vegetables and canned fish in resin-coated cans. Time since opening at room temperature in the original can is an additional risk modifier.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/tin]]
 - [[ingredients/canned-tomatoes]]
@@ -116,28 +116,11 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 - [[products/canned-fish]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/codex-cxs-193-1995-tin-canned-foods]]
-
-## Verification notes
-
-- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Prior page (updated 2026-05-13) had the following defects, all corrected here:
-  - `raw_handle:` was generic `manual-fetch-source-retrieval`; updated to `MFK_determination-of-tin-in-canned-foods-by-inductivel` per current MFK_ convention.
-  - `raw_path:` was truncated (`...Plasm.pdf`); restored to the full PDF filename.
-  - `sample_n` was 13; the source's Table 3 lists 14 distinct canned products (four pineapple brands A/B/C/D plus mandarin, fruit cocktail, carrots, mushrooms, two peeled-tomato brands A/B, peas, green beans, corn, tuna). Corrected to 14.
-  - `ingredients:` previously listed invalid slugs (`tomatoes`, `mushrooms`, `peas` are not in the current taxonomy snapshot dated 2026-05-18). Replaced with valid `canned-tomatoes`, `canned-mushrooms`, and dropped the bare `peas` entry; added `canned-green-beans`, `canned-corn`, and `canned-tuna` for the matching canned-product analogues that exist in the taxonomy. The earlier `[[ingredients/beans]]` and `[[ingredients/corn]]` (bare-form fresh ingredients) were replaced with the canned-form ingredient slugs to match what was actually measured.
-  - `products:` added `canned-tomatoes` to the existing trio (canned-vegetables, canned-fruit, canned-fish) since two of the 14 products tested are specifically peeled-tomato-in-juice cans, which the existing canned-tomatoes product page should claim.
-  - The "Wiki pages updated on ingest" legacy heading was renamed to `## Wiki pages this source may touch` per the current schema.
-  - The "Wiki pages updated on ingest" list referenced `[[regulations/eu-1881-2006-sn-canned-foods]]`, which does not exist in the current taxonomy. Replaced with the existing slugs `[[regulations/eu-1881-2006-contaminants-superseded]]` and `[[regulations/codex-cxs-193-1995-tin-canned-foods]]`.
-  - The Implications section previously read "For HMT&C purposes: canned food is an important Sn exposure route…" — that phrasing crossed into wiki/HMT&C-firewall territory by framing the paper's contribution in HMT&C-program terms rather than in literature terms. Rewritten to describe what the paper contributes as occurrence data without HMT&C-program framing.
-  - Added an explicit "What this method measures and does not measure" paragraph in Methods to lock in the inorganic-Sn-only scope and rule out organotin claims.
-  - Added the post-opening corrosion table (read from Figure 1 of the source) so downstream pages can see the storage-time kinetics without re-reading the PDF.
-  - Added `near_duplicates: []` to satisfy current schema.
-- Numerical fidelity spot check: every value in Table 3 (14 products × 2 fractions × pH × years-since-manufacture) was cross-checked against the PDF Table 3 image; all values match. The accuracy standards (0.505 ppm at 0.5; 5.12 ppm at 5; RSD 2.42% and 1.87%) match the source. The JECFA PTWI (14 mg/kg BW/week, ≈ 120 mg/day for 60 kg), EU 1881/2006 (200/100/50 mg/kg), and Codex (250 mg/kg) limits all match the source.
-- Speciation discipline: paper measures total dissolved Sn; it does not separate Sn(II) from Sn(IV), and does not measure organotins. `metals: [Sn]` is correct (the bare `Sn` abbreviation covers total inorganic tin; the dedicated `[[metals/tin-inorganic]]` slug exists but the umbrella `Sn` matches how the source reports values). The Methods section explicitly disclaims organotin coverage so downstream pages do not over-interpret.
-- Brand firewall: the source labels its four pineapple cans and two peeled-tomato cans as A/B/C/D and A/B with no brand names; no brand-by-brand attribution is required or possible from the source. Methods names instrument vendors (Perkin-Elmer ELAN 9000, Milestone Labstation), reagent vendors (Fluka, Riedel-de-Haën), and the water-system vendor (Basic TWF) — these are scientific-method vendor names and are explicitly permitted under the 2026-05-17 Part 12 carve-out.
-- Routing: `matrices: [canned-food]` covers the analytical matrix; product slugs cover the four canned-product categories the source touches (canned-vegetables, canned-fruit, canned-tomatoes, canned-fish). `jurisdictions: [RO, EU]` because the survey is Romanian-market and the regulatory frame cited is EU plus Codex.
-- 2026-05-20 — Audit editorial review verdict REVISE; one ❌ on Check 2 (slug vocabulary): `[[ingredients/canned-vegetables]]` was not a valid ingredient slug (the slug exists only as a product slug under the linked reference record, not as an ingredient page under the linked reference record). Verified against `ls wiki/ingredients/canned-*.md` — confirmed no `canned-vegetables.md` ingredient page exists. Finding applied: removed the invalid `[[ingredients/canned-vegetables]]` entry from the `ingredients:` source metadata array and from the "Wiki pages this source may touch" section. The specific canned-ingredient slugs already in the page (`canned-corn`, `canned-green-beans`, `canned-mushrooms`, `canned-tomatoes`, `canned-fruit-cocktail`, `canned-tuna`) cover the canned vegetables actually measured. Checks 1, 3, 4, and 5 were ✅; no other findings to apply.
-
-**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the source-retrieval agent's June 8 placement of the same PDF under the archived source file. SHA-256 verified byte-identical to the canonical `raw_path` (`cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862`); the same hash also appears at three other source-retrieval-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
+- [[ingredients/beans]]
+- [[ingredients/corn]]
+- [[regulations/eu-1881-2006-sn-canned-foods]]
+- [[metals/tin-inorganic]]
+- [[ingredients/canned-vegetables]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

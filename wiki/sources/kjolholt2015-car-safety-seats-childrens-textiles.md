@@ -74,17 +74,9 @@ The survey selected products for chemical analysis via questionnaire to 11 Danis
 
 **Microbiome:** Not applicable. The exposure pathway is dermal / incidental oral via mouthing of fabric, not dietary; no microbiome-relevant findings.
 
-## Verification notes
-
-- **Author/editor list:** the title page (p.2) lists seven editors split between COWI A/S (Kjølholt, Warming, Lassen, Mikkelsen, Brinch) and Teknologisk Institut (Nielsen, Jakobsen). The report does not designate a corresponding author; Kjølholt is listed first and is used as the cite-key anchor.
-- **ISBN:** 978-87-93352-07-0 (p.2). No DOI is assigned.
-- **Sn detection discrepancy:** the report text on p.60 says "9 out of the 13 samples" for bromine detections while Table 5-4 lists 14 textile rows. The discrepancy reflects the report treating one row pair (A3A/A3B from a single car seat) as a paired-textile observation in narrative but as two separate analytical units in the table. The Sn data is taken from the table as the canonical analytical record (14 textile rows, 1 positive at 65 mg/kg).
-- **Brand-firewall:** the report anonymises products as alphanumeric codes (A1, B9A, M19A, etc.) and does not name brand names; no brand-firewall edits required.
-- **Jurisdictions:** the survey is Danish-market, but import data on p.7 (75–80 % non-EU origin, majority China; remaining 20–25 % EU, mostly Germany and Italy) means the underlying product population is internationally sourced. source metadata records DK (publication jurisdiction) and EU (regulatory framework: REACH, Annex XVII referenced throughout).
-- **Near-duplicates:** no near-duplicates identified in the existing HMI corpus via cite-key, DOI, or raw_handle grep. Stringer 2001 ([[sources/stringer2001-greenpeace-pvc-children-products]]) covers a partly overlapping product space (PVC children's products including a UK high-chair cushion) but is methodologically distinct (extraction + speciation rather than XRF) and reports tin at non-LOD-floor concentrations.
-- **Audit editorial review 2026-06-01 (REVISE verdict):** flagged three findings. (1) "four car seats" undercount in the P-FR >10,000 mg/kg summary — verified against Table 5-8 p.65–66; A3A, A3B, A4, A5A, A8A all carry one P-FR species >10,000 mg/kg, giving five car seats and eight sub-samples total. Corrected to "five car seats" / "eight sub-samples" with per-sample concentrations. (2) sum-PBDE LOD generalisation "all <0.03 mg/kg" was too tight — verified against Table 5-12 p.71; sum-other-PBDE LODs range 0.05–0.08 mg/kg across the five samples, PBB 0.02–0.04, TBBPA 0.01–0.04. Corrected to per-class LOD ranges. (3) Implications/Certification paragraph crossed into HMTc-program framing ("permissive prior", "does not justify removing Sn from the analyte panel") and imported an external Cd-in-PVC 100 mg/kg analogue not discussed in the source. Reframed as literature-occurrence findings with three explicit evidence-base gaps; external analogue removed.
-
 ## Related evidence
+
+- [[sources/stringer2001-greenpeace-pvc-children-products]]
 - [[metals/tin]]
 - [[products/car-seats]]
 

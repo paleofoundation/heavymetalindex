@@ -274,7 +274,7 @@ See also [[studies/arsenic-primary-literature]] for the citable index of arsenic
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/atsdr-arsenic-toxprofile-2007|Toxicological Profile for Arsenic]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2007 · [doi.org/10.15620/cdc:11481](https://doi.org/10.15620/cdc:11481)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/epa-iris-inorganic-arsenic-2025|IRIS Toxicological Review of Inorganic Arsenic]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Center for Public Health and Environmental Assessment · EPA/635/R-25/005Fa, U.S. Environmental Protection Agency, Integrated Risk Information System · 2025 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=278)</span><span class="hmi-ref-tag">Government</span>

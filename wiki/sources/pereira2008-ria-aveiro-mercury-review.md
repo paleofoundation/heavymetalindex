@@ -64,15 +64,6 @@ The paper is a review of several Ria de Aveiro studies rather than a new samplin
 
 This source supplies Portugal-specific total-mercury context for seafood, shellfish, fish, and edible/harvested macroalgae near a historically contaminated chlor-alkali system. It is useful for routing broad Ria de Aveiro evidence but should not be used as methylmercury evidence and should not be treated as a primary market survey. Downstream use should keep dry-weight macroalgae values separate from wet-weight shellfish and fish-muscle values.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/f3_resolve_texts/mercury-pollution-in-ria-de-aveiro-portugal-a-review-of-the-1f374vaskm.txt`; the title page, abstract, Table 3, discussion around food-chain pathways, and conclusion were checked.
-- DOI `10.1007/s10661-008-0416-1`, raw handle `MFK_mercury-pollution-in-ria-de-aveiro-portugal-a-revi`, and cite-key checks found no existing source page before creation.
-- Units are preserved as source-reported `µg Hg g−1, dwt`, `µg Hg g−1, wwt`, ranges, and mean ± SD values; no conversion was performed.
-- Speciation: the source reports total mercury as `Hg`; methylmercury is not measured and is not listed in source metadata.
-- Brand firewall: no retail brands were reported.
-- source metadata slugs were checked against the editorial record; species-level slugs for *Enteromorpha*, *Gracilaria*, *Fucus*, *Scrobicularia*, *Carcinus*, *Donax*, *Spisula*, and the fish species are absent, so broad seafood/shellfish/fish/seaweed routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

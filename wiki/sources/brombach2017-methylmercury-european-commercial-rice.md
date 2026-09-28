@@ -100,14 +100,9 @@ Microbiome: No direct microbiome endpoint, but the methylation/demethylation che
 
 Karen externally fetched this paper on 2026-05-09 by direct email correspondence with the corresponding author (e.krupp@abdn.ac.uk per the manuscript). The PDF is the journal-accepted manuscript version (received 14 April 2016, revised 3 July 2016, accepted 10 July 2016; published in *Food Chemistry* 2016/2017). Per the wishlist's note that this paper was paywalled with no PMC entry, manual author-email retrieval is the recovery path that worked. The license is the publisher's standard terms; the wiki cites the article record (DOI 10.1016/j.foodchem.2016.07.064) rather than redistributing the PDF.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/teething-and-snacks-rice-based]]
-- [[products/plant-milks-rice-based]]
-- [[products/mixed-meals-rice-containing]]
-- [[ingredients/rice]] (MeHg/tHg ingredient-level cascade)
-- [[products/infant-and-child-foods-master]] (MeHg rice-cereal cell upgrade)
+- [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

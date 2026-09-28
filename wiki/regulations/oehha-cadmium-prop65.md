@@ -22,7 +22,7 @@ audience: [regulator, educator, consumer]
 
 ## Overview
 
-Cadmium is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen (listing pre-dating this wiki's ingest corpus, with a separately derived No Significant Risk Level that is not yet ingested) and as a reproductive toxicant (listing effective May 1, 1997, following the Developmental and Reproductive Toxicant Identification Committee's December 4, 1996 determination) ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]]). This page covers the reproductive-toxicity listing and its implementing Maximum Allowable Daily Level of 4.1 µg/day oral ([[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]). The carcinogen listing and its NSRL are covered in a separate regulation page pending ingest of the underlying OEHHA documents.
+Cadmium is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen (listing pre-dating this wiki's ingest corpus, with a separately derived No Significant Risk Level that is not yet in the library) and as a reproductive toxicant (listing effective May 1, 1997, following the Developmental and Reproductive Toxicant Identification Committee's December 4, 1996 determination) ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]]). This page covers the reproductive-toxicity listing and its implementing Maximum Allowable Daily Level of 4.1 µg/day oral ([[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]). The carcinogen listing and its NSRL are not yet in the library.
 
 ## Reproductive-toxicity listing
 
@@ -75,7 +75,7 @@ _Pending: OEHHA documents underlying the separate Proposition 65 carcinogen list
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/oehha-cadmium-prop65-evidence-1996|Evidence on the Developmental and Reproductive Toxicity of Cadmium]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section · California Environmental Protection Agency, Office of Environmental Health Hazard Assessment · 1996 · [doi.org/10.1016/0890-6238(96)00019-6](https://doi.org/10.1016/0890-6238(96)00019-6)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/oehha-cadmium-prop65-madl-2001|Proposition 65 Maximum Allowable Daily Level (MADL) for Reproductive Toxicity for Cadmium (Oral Route)]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section · California Environmental Protection Agency, Office of Environmental Health Hazard Assessment · 2001 · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/cadmium)</span><span class="hmi-ref-tag">Government</span>

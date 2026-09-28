@@ -95,7 +95,7 @@ App: Supports fruit-juice screening for Pb, Hg, Al, Ba, and tAs. The app should 
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/arsenic-total]]
@@ -111,15 +111,6 @@ Microbiome: Not addressed.
 - [[ingredients/watermelon]]
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-non-apple]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven fruit-juice wishlist. The same DOI appeared in four downloaded wishlist rows targeting Al, Sn, and total As across fruit-juice categories; this page is the canonical source page for those duplicate downloads.
-- Numerical units are preserved as ppb because the abstract, Table 8, Table 9, Table 10, and Table 11 all use ppb for the source data. The isolated "ppm" wording in the Hg discussion for FRU4/FRU5 conflicts with the table maximum and is treated as a source-text unit typo.
-- The paper reports total As and total Hg only; no arsenic or mercury speciation was performed.
-- Strict brand firewall: processing units are anonymized by code in the paper and no commercial juice brands are named in this source page.
-- Methods vendor/equipment/software names are retained under Part 12 Exception 2.
-- Fresh-context audit (Claude editorial review, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against Tables 8/9/10/11 (percentiles, means, JUA6/OJA3/VIP3/FRU4/FRU5/FRE2/FRE4 high-end values all match); slug vocabulary valid (auditor flagged `products/fruit-juices-non-apple` as missing but the page exists on disk — auditor was working from stale taxonomy snapshot, no edit needed); speciation correct (tAs/tHg, no speciation performed); brand firewall clean (3-letter anonymized processor codes preserved as in source); HMTc firewall clean (no percentile arithmetic). 0 findings applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -83,7 +83,7 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 
 **App:** For the ingredient-risk estimator, the relevant signal is that predatory and coastal fish carry substantially higher OTC loads than freshwater or cold-water species. Species-level differentiation is more meaningful than aggregate seafood categories for organotin exposure. Salmon, grass carp, eel, grey mullet, cod, sole, turbot had no detectable TBT; tuna, sea bass, mangrove snapper, giant grouper, and rabbitfish had high TPT.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/shellfish]]
@@ -91,15 +91,7 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 - [[products/seafood]]
 - [[products/fresh-fish]]
 - [[products/shellfish]]
-- [[metals/organotins]]
 - [[metals/tin]]
-
-## Verification notes
-
-- 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash from the original manual-fetch placeholder and verified the sample count (341 total; 201 fish, 31 crustaceans, 109 molluscs), detection rates, Table 2 maxima, Table 3 means, and exposure ranges against the report text.
-- The source separates crustaceans from molluscs analytically, but there is no `ingredients/crustaceans` page in the current taxonomy. Routing uses `ingredients/shellfish` plus `ingredients/molluscs`, while retaining `crustaceans` as a source-specific matrix descriptor.
-- source metadata keeps `metals: [Sn]` for element-level routing; the toxicological and methods discussion should be treated as organotin-specific and linked to [[metals/organotins]], not pooled with inorganic tin.
-- 2026-05-30 manual-fetch merge-enhance re-verified all Key numbers against Tables 1–4 and the per-species appendices (I–IV). Corrected a species-attribution error: the DBT maximum of 8.8 mcg/kg (4.5 as Sn) occurs in coral clam (Appendix II, mollusc group), not Chinese noodle fish — the prior merge had mis-copied the TBT maximum's Chinese-noodle-fish attribution onto DBT. Chinese noodle fish DBT reaches only 4.3 mcg/kg (2.2 as Sn). TBT maximum (60 mcg/kg / 24 as Sn) in Chinese noodle fish, all TPT per-species means/ranges (mangrove snapper 450 / 41–1400; giant grouper 220 / 11–1400; sea bass 140; golden thread 130; tuna 130), and the no-detectable-TBT species list (salmon, grass carp, eel, grey mullet, cod, sole, turbot) all re-confirmed correct.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

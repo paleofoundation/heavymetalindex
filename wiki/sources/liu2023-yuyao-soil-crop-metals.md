@@ -54,7 +54,7 @@ The study collected crop samples at harvest time and paired them with nearby `0-
 
 This source supports a local China occurrence route for rice grain, fresh fruit, and leafy vegetable matrices in a paired soil-crop setting. The crop averages should stay separated by matrix because bayberry, mustard, and rice show different metal patterns and different exceedance signals. Soil values can help explain source pathways and bioconcentration but should not be pooled with crop occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/fruit]]
@@ -68,18 +68,6 @@ This source supports a local China occurrence route for rice grain, fresh fruit,
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s12205-023-2459-9`, `MFK_enrichment-characteristics-and-health-risk-assessm`, or `liu2023-yuyao-soil-crop-metals`.
-- Speciation: As and Hg are reported without speciation. source metadata and text therefore use tAs and tHg; no iAs or MeHg values were inferred.
-- Units preserved: crop and soil values remain in `mg/kg`; no wet/dry conversion was performed.
-- Basis caveat: the paper states rice samples were mixed into a `500 g dry sample`, while mustard and bayberry were collected as fresh/rinsed samples. It does not cleanly state one common dry-weight or fresh-weight basis for Table 3, so this page preserves the source unit and flags the ambiguity.
-- Detection-limit caveat: Table 2 lists crop detection limits in `mg/kg` as Cr `0.5`, Cu `1`, Pb `0.1`, Cd `0.1`, As `0.3`, and Hg `0.01`, yet Table 3 reports several crop means below those values. The page preserves the published means and records the inconsistency rather than applying censoring.
-- Source-side narrative caveat: the Results text says rice HI reached `2.44`, but a later discussion/conclusion sentence says there were no non-carcinogenic and carcinogenic risks associated with rice intake. This page reports Table 5 values and notes the contradiction.
-- Matrix separation: soil rows are excluded from product occurrence values; they are only soil-crop pathway context.
-- Missing slug note: the taxonomy snapshot has no exact `bayberry` or fresh-mustard crop slug. source metadata uses broad existing `[[ingredients/fruit]]`, `[[ingredients/leafy-vegetables]]`, `[[products/fresh-fruit]]`, and `[[products/leafy-vegetables-other]]` slugs.
-- No brand names were present.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

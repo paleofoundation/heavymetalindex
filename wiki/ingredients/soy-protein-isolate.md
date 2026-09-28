@@ -120,7 +120,7 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/burrell2010-aluminium-in-infant-formulas|There is (still) too much aluminium in infant formulas]]<span class="hmi-ref-meta">Shelle-Ann M. Burrell and Christopher Exley · BMC Pediatrics · 2010 · [doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/chuchu2013-aluminium-in-infant-formulas|The aluminium content of infant formulas remains too high]]<span class="hmi-ref-meta">Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley · BMC Pediatrics · 2013 · [doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -130,7 +130,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -144,7 +144,7 @@ Soy protein isolate is the highly refined protein fraction of soybeans (Glycine 
 
 The protein-extraction process (acid-base extraction with isoelectric precipitation, then drying) concentrates the soybean's metal load on a per-protein-mass basis because the extraction selectively separates protein from carbohydrate, fat, and fiber while retaining the protein-bound metals. The net effect is that soy protein isolate carries the soybean's Al/Ni/Cd profile at concentrations several-fold higher than the source soybean on a per-mass basis. This is the upstream pathway that feeds into [[ingredients/soy-based-infant-formula|soy-based infant formula]] and explains why soy-based formula carries elevated Al relative to cow-milk formula per [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]] and the broader corpus. The HMTc panel concerns for soy protein isolate are Al, Ni, and Cd (dominant), with secondary Pb from minor source-soybean and processing-equipment inheritance.
 
-The data gap status across all ten analytes in the body table reflects that no source in the current routing audit reports soy-protein-isolate-specific values; the synthesis is inferred from the source [[ingredients/soy|soy]] commodity and from soy-based-formula evidence in [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]], [[sources/chuchu2013-aluminium-in-infant-formulas|Chuchu 2013]], and [[sources/kazi2009-toxic-elements-in-infant-formulae|Kazi 2009]].
+The data gap status across all ten analytes in the body table reflects that no source in the current source routing reports soy-protein-isolate-specific values; the synthesis is inferred from the source [[ingredients/soy|soy]] commodity and from soy-based-formula evidence in [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]], [[sources/chuchu2013-aluminium-in-infant-formulas|Chuchu 2013]], and [[sources/kazi2009-toxic-elements-in-infant-formulae|Kazi 2009]].
 
 ## Ranges by source, region, and variety
 

@@ -56,7 +56,7 @@ Rice samples were freeze dried and digested, and cadmium was quantified by ICP-M
 
 This source supports rice bulk-grain and rice-based infant-food context for cadmium. It is not a cereal-bar occurrence dataset despite the wishlist filename; routing to cereal bars should be contextual only when rice is a major ingredient. Values must remain country- and market-source aware.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-bulk-grain]]
 - [[products/infant-rice-cereal]]
@@ -64,13 +64,6 @@ This source supports rice bulk-grain and rice-based infant-food context for cadm
 - [[products/teething-and-snacks-rice-based]]
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bars inorganic arsenic, but the actual paper measures cadmium in global polished rice grain. It is retained because it is a real food-occurrence dataset for rice and rice-based infant-food context.
-- Speciation: the measured analyte in this paper is cadmium. Inorganic arsenic appears as contextual comparison only and is not a measured value in this source.
-- Basis: concentrations are reported in ug/kg rice grain; do not pool with prepared or wet-basis infant-food values without conversion.
-- Matrix scope: the paper measures cadmium in polished white rice grain only. The 40 µg/kg processed-infant-food standard appears as a regulatory comparison point, not a directly-measured matrix; rice-based infant food is therefore listed under routing contexts (the product wikilinks) rather than as a measured matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

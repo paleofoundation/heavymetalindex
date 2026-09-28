@@ -61,14 +61,10 @@ Pb and Cd were quantified in TDS composite food samples by ICP-MS (LOD 0.08 µg/
 - Courses: Useful as a TDS-methodology case study and as evidence of geographic variance (north vs south) for QA, regulatory affairs, and sourcing audiences.
 - App: Contributes occurrence data points across 12 food categories on as-consumed basis; complements raw-ingredient data with cooked/composite values; informative for risk-by-region modeling against Chinese dietary patterns.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/cereals]]
-- [[ingredients/rice]]
 - [[ingredients/wheat]]
-- [[ingredients/legumes]]
 - [[ingredients/potatoes]]
-- [[ingredients/vegetables]]
 - [[ingredients/fruits]]
 - [[ingredients/meat]]
 - [[ingredients/seafood]]

@@ -84,45 +84,33 @@ Knowledge-exchange consortium project executed via monthly online meetings (year
 - Microbiome: out of scope. The report's marine-biotoxin and cyanotoxin material (CTXs, TTX, MCs, MC-LR equivalents) is microbiome-adjacent (toxin-producing dinoflagellates and cyanobacteria) and belongs on WikiBiome rather than HMI.
 - Cross-source signal: this is the second EFSA horizon-scanning / strategy document in the corpus alongside [[efsa2024-emerging-chemical-risks-food-feed]]. Together with the existing EFSA CONTAM Panel scientific opinions on Hg ([[efsa-mercury-methylmercury-2012]]), Pb ([[efsa-lead-contam-2010]]), Cd ([[efsa-cadmium-contam-2009]]), and As ([[efsa-arsenic-contam-2009]]), RASCS provides the 2023 EU regulatory and monitoring snapshot against which member-state seafood contamination studies should be read.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/lead]] — EU MPL framework for seafood and bivalve-only scope of the Pb MPL (regulatory-context only; no occurrence data).
-- [[metals/cadmium]] — EU MPL framework for seafood and bivalve-only scope of the Cd MPL (regulatory-context only; no occurrence data).
-- [[metals/mercury]] — EU MPL framework for seafood including all-mollusk scope of the Hg MPL; ICP-MS and AAS as official methods (regulatory-context only; no occurrence data).
-- [[metals/mercury-methyl]] — methylmercury monitoring noted as AAS-based in member-state programmes (regulatory-context only).
-- [[metals/arsenic]] — discussion of arsenic MPL gap in Reg (EU) 2023/465 for bivalves; organic and inorganic As selected in the RASCS WP1 ten-compound shortlist (regulatory-context only).
-- [[metals/arsenic-inorganic]] — same as above; iAs called out as a separate prioritised compound.
-- [[metals/arsenic-total]] — total arsenic monitored as unregulated metal in DE-Schleswig Holstein (regulatory-context only).
-- [[metals/nickel]] — Ni monitored in macroalgae market surveillance in France and as unregulated metal in DE-Schleswig Holstein bivalves (regulatory-context only).
-- [[metals/chromium]] — total Cr monitored as unregulated metal in DE-Schleswig Holstein bivalves (regulatory-context only).
-- [[metals/aluminum]] — Al monitored as unregulated metal in DE-Schleswig Holstein bivalves (regulatory-context only).
-- [[products/seafood]] — overall scope of the report; EU regulatory snapshot.
-- [[products/shellfish]] — scope of marine-biotoxin and chemical-contaminant monitoring under Reg (EC) 853/2004.
-- [[products/fresh-fish]] — scope of fish-and-fishery-products market monitoring in WP2.
-- [[products/canned-fish]] — within scope of processed-food monitoring discussed in WP2.
-- [[products/seaweed-kelp-foods]] — macroalgae market monitoring (France) for Pb, Cd, Hg, As, Ni.
-- [[products/fish-marine-non-predatory]] — within scope of fish market monitoring.
-- [[products/fish-marine-predatory]] — within scope of fish market monitoring; relevant to mercury bioaccumulation discussion in WP3 cumulative-RA example.
-- [[ingredients/fish]] — within scope.
-- [[ingredients/shellfish]] — within scope.
-- [[ingredients/bivalve-molluscs]] — primary focus of WP2 monitoring inventory.
-- [[ingredients/molluscs]] — all-mollusk Hg MPL discussion.
-- [[ingredients/seafood]] — overall scope.
-- [[ingredients/seaweed]] — macroalgae market monitoring.
-- [[regulations/eu2023-contaminants-maximum-levels]] — Reg (EU) 2023/915, the binding contaminants MPL framework for seafood toxic metals and PFAS.
-- [[regulations/eu-reg-2022-617-mercury-fish]] — related Hg-in-fish MPL framework prior to consolidation in Reg (EU) 2023/915.
-
-## Verification notes
-
-- 2026-06-03 — Fresh source-page ingest from raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish/. No prior wiki page (DOI 10.2903/sp.efsa.2023.EN-8419 not previously ingested). PDF pages 1–28 and 36–46 and 81–85 read for content; pages 47–80 (WP4 consumer perception, WP5 dissemination) and 86–154 (references, annexes, ToS workshop reports) skimmed but not extracted as they are out of HMI heavy-metals scope.
-- Three-letter metal vocabulary follows: tAs and iAs both listed because the source explicitly distinguishes "organic and inorganic arsenic" in the WP1 prioritised-compound list (p. 12) and Table 4 distinguishes total As (unregulated metal monitored) from speciation. tHg and MeHg both listed because Table 4 (p. 24) lists methylmercury as a separate official analyte measured by AAS in addition to total mercury measured by ICP-MS or AAS.
-- Numerical values in Table 1 and Table 2 transcribed exactly as the source reports them, including the (*) and (****) footnote annotations on the MPL ranges and on the AAS-vs-ICP-MS instrument-dependent LOD/LOQ ranges. No silent unit conversion. Table 2 PFAS row contains no values for any member state in the source (cells empty) and so is not summarised in Key numbers.
-- No brand names extracted to Key numbers. The Alteo company is named in the source as the regulatory-event subject of the Cassidaigne Canyon red-mud discharge (Part 12 Exception 1 — regulatory-event subject; the discharge is a documented public-record environmental event), and named institutions (IRTA, CREDA, IPMA, ISS, Ghent University, BfR, ANSES, Anses, Ifremer, IUSA-ULPGC) are scientific-method/institutional names not contamination-value attributions (Part 12 Exception 2). Instrument vendors are not specifically named in the body of the source beyond generic method labels (ICP-MS, AAS, ICP-OES, GC-MS, GC-MS/MS, LC-MS/MS, LC-UV, LC-FLD, HILIC-MS/MS) so no Exception 2 calls are required.
-- Part 2 firewall: report explicitly discusses combined-exposure assessment methodology including a worked example grouping MCs, Pb, and Hg into a neurotoxicity assessment group for children; the source proposes no threshold values, and this page does not derive any. The "Implications" section is restricted to noting what the source contributes as regulatory framing for HMTc consideration, not to proposing threshold values.
-- License: EFSA Supporting Publications under Article 36 partnering grants are published under EFSA's standard CC-BY-ND terms; reproduction of consortium-provided images is restricted per the p. 3 notice (no images extracted into this wiki page).
-- 2026-06-03 — Fresh-context audit editorial review (verdict REVISE) flagged that Table 4 (p. 24) lists Arsenic under ICP-OES only, not "AAS or ICP-OES" as the original draft stated. Verified independently against the source: Table 4 row for Arsenic shows "ICP-OES" in the methods-for-unregulated-contaminants column only; AAS is not listed for As (AAS is listed for Cr, Cu, Ni, Zn). Correction applied to the Table 4 summary in Key numbers.
-- 2026-06-03 — Same audit flagged a citation inconsistency between "Reg (EU) 2022/2388" (Key numbers) and "Reg (EC) 2022/2388" (Implications) for the PFAS-introducing regulation. Verified independently against p. 13 of the source: text reads "Commission Regulation (EU) 2022/2388". The (EU) prefix is correct. Implications-section citation normalised to "Reg (EU) 2022/2388".
-- 2026-06-03 — Same audit flagged the four ToS workshop date pairs (Rome 16–17 Feb 2023; Lisbon 28 Feb – 1 Mar 2023; Barcelona 11–12 Apr 2023; Paris 11–12 May 2023) as not verified within the page range it read (pp. 1–28, 36–45). False positive: the dates appear in Section 3 "Description of exchanges performed" on p. 81 of the source PDF, immediately preceding Section 4. No correction needed.
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/mercury]]
+- [[metals/mercury-methyl]]
+- [[metals/arsenic]]
+- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/aluminum]]
+- [[products/seafood]]
+- [[products/shellfish]]
+- [[products/fresh-fish]]
+- [[products/canned-fish]]
+- [[products/seaweed-kelp-foods]]
+- [[products/fish-marine-non-predatory]]
+- [[products/fish-marine-predatory]]
+- [[ingredients/fish]]
+- [[ingredients/shellfish]]
+- [[ingredients/bivalve-molluscs]]
+- [[ingredients/molluscs]]
+- [[ingredients/seafood]]
+- [[ingredients/seaweed]]
+- [[regulations/eu2023-contaminants-maximum-levels]]
+- [[regulations/eu-reg-2022-617-mercury-fish]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

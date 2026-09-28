@@ -77,19 +77,13 @@ Courses: Useful mitigation evidence for explaining gastrointestinal binding stra
 
 App: Context-only mitigation and toxicology evidence for Pb/Cd binding approaches; not a consumer-product concentration dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[health/index]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF title/byline, abstract, Results sections, Tables 1-3, Methods, and discussion. Products and ingredients are intentionally empty because the source tests an oral polymer intervention and experimentally enriched mouse feed, not market occurrence in a consumer product.
-
-The source is internally inconsistent on two characterization ranges: acetylation is reported as `30 +/- 2%` in Results and `28%` in Methods, while metal-spiking ranges are described as `0.5-100 micrograms/L` in Results and `0.5-200 micrograms/L` in Methods. Both discrepancies are recorded rather than harmonized.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

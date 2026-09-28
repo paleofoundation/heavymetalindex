@@ -60,21 +60,12 @@ Narrative theoretical review structured in four sections (Introduction; Heavy me
 **App:** The conceptual framework is consistent with a seasonal modifier flag for freshwater fish if and when the wiki accumulates primary studies with seasonally-stratified measurements; this paper cannot supply the magnitude values such a flag would require.
 
 ## Related evidence
+
+- [[products/freshwater-fish]]
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[products/seafood]]
 - [[products/fish-freshwater]]
-
-## Verification notes
-
-- 2026-05-18 (automated editorial review, manual-fetch ingest enhancement): merge-enhanced the prior 2026-05-14 revision. Fixes applied:
-  - `raw_handle` corrected from the folder label `papers-cube` to the canonical PCMF handle `PCMF_naseembhanutemj2026`, matching the PCMF convention used elsewhere in the linked reference record.
-  - `raw_sha256` added: `1b24363cc8f9ad2ae57693b51cd3d75cb5059a88d80fadea41a9fa978fd3291e` (computed from the file at the archived source file).
-  - `products` slug `[[products/freshwater-fish]]` was invalid; the actual product slug in the current taxonomy is `fish-freshwater` (the file the linked reference record exists; `freshwater-fish` exists only as an ingredient slug, not a product slug). Replaced with `[[products/fish-freshwater]]`.
-  - `metals` extended from `[Pb, Cd, tHg, Ni, Cr, tAs]` to `[Pb, Cd, tHg, Ni, Cr, tAs, Cu, Zn]` to reflect every metal the paper actually names in its narrative (lead, cadmium, mercury, chromium, arsenic, copper, zinc, nickel — verified pages 100, 101, 102). Speciation choices preserved: paper does not separate iAs/tAs or MeHg/tHg or Cr/Cr-VI, so the total-form abbreviations remain correct.
-  - Sample-population description expanded to note that the paper additionally lacks any quantitative meta-analysis (not just original measurements), to forestall mis-classification as a systematic review.
-  - Methods section expanded with publication-velocity and indexing notes that justify the C-tier assignment.
-- The brand-firewall (Part 12) is not implicated: the paper names no brands, no products by trade name, and no specific water bodies or fisheries. The wiki/HMT&C firewall (Part 2) is not implicated: the paper proposes no thresholds and the Implications section here explicitly disclaims HMT&C use.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

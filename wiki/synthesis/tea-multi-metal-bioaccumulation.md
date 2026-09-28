@@ -79,7 +79,7 @@ This synthesis was established 2026-06-04 on eight anchor sources, of which seve
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/li2021-china-national-tea-reconnaissance|Occurrence, accumulation, and risk assessment of trace metals in tea (Camellia sinensis): A national reconnaissance]]<span class="hmi-ref-meta">Li W, Cheng H, Mu Y, Xu A, Ma B, Wang F, et al. · Science of the Total Environment · 2021 · [doi.org/10.1016/j.scitotenv.2021.148354](https://doi.org/10.1016/j.scitotenv.2021.148354)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/hu2023-china-tea-heavy-metals|Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China]]<span class="hmi-ref-meta">Hu C, Zhang X, Zhan N, and Liu Y · Toxics · 2023 · [doi.org/10.3390/toxics11080662](https://doi.org/10.3390/toxics11080662)</span><span class="hmi-ref-tag">Peer-reviewed</span>

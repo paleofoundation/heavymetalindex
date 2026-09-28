@@ -101,26 +101,11 @@ App: For Iranian retail vinegars in this sample set — Pb range 3.3–253 ng/mL
 
 Microbiome: Not applicable.
 
-## Verification notes
+## Related evidence
 
-Page was originally drafted under the legacy `manual-fetch-source-retrieval` handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_determination-of-lead-cadmium-copper-and-zinc-cont` handle.
-- Correct the `raw_path`: the prior path was missing the space after `Manual Fetch source-retrieval` and truncated the filename mid-word ("in Comme.pdf" instead of "Content in Commercial Iranian Vinegars Using Stripp.pdf"). New path matches the actual file on disk.
-- Drop `[[ingredients/date-vinegar]]` from `ingredients:` — no such page exists in the current taxonomy and per the hard constraint, this skill does not create ingredient pages. Date vinegar is captured in `matrices: [date-vinegar, ...]` and in the body. Flag for Karen: 24 of 96 samples in this paper plus 4 in [[karavoltsos2020-copper-trace-metals-vinegars-greece]] (BR/BRH balsamic sources made from grape must reduction, not directly comparable) — date vinegar is a freq-1 ingredient declared by this source; below the auto-stub freq-2 threshold but documented here so a future scaffold pass can pick it up.
-- Drop the `products/dried-fruit` and `products/fresh-fruit` slugs from `products:` (links intentionally not rendered as wikilinks here to keep the routing audit clean). The paper studies vinegar, not fresh or dried fruit; the prior routing produced spurious rows on those two product pages, marked `missing_direct_product_route` — the correct signal that those routes were misrouted. Date vinegar being made from dates does not make fresh or dried dates a route destination for the vinegar evidence in this paper. `products: ["[[products/vinegar]]"]` is the single accurate route destination.
-- Remove the legacy `## Wiki pages updated on ingest` heading; current schema replaces it with `## Verification notes` (per ingest-next-manual-fetch-pdf v2.0 and the editorial record).
-- Expand the body Key numbers section: add the SEM annotations as the source reports them, restate the SCP-vs-GFAAS confirmation pair count (16 samples, 4 per type), and add the explicit Codex / Turkish Food Codex MAL context that the prior page mentioned only in summary form.
-- Add Methods detail that the prior page omitted: PSA ION 3 vendor (Steroglass), the Ga(III) interference suppression rationale, the Perkin–Elmer AS-800 autosampler, the deuterium background correction, the wavelength settings (Cu 324.7 nm, Pb 283.3 nm, Cd 228.8 nm, Zn 213.9 nm), the 10% v/v HNO₃ overnight acid-soak of glassware. Scientific-method vendor names are permitted by the editorial record §4 Exception 2 (reproducibility-relevant instrumentation).
-- Correct the apple vinegar Cd median (paper Table 6: 8.225 ng/mL, prior page wrote no median for apple) and the white grape Cd median (paper Table 6: 3.455 ng/mL, prior page wrote no median).
-- Reframe two prior numerical assertions that were correct on the values but loose on the framing: (a) clarify that median Pb 47.6 for date is the highest median, not just "high"; (b) clarify that Cu apple-vinegar maximum 1,129 is the single highest Cu value in the sample set.
-- Sample-population string clarified to add "from the Iranian retail market," matching the source's Materials section.
-
-No brand names appear in this source — the paper aggregates by vinegar type only, with no manufacturer attribution — so no Part 12 firewall edits were needed.
-
-No HMTc threshold language, no consumer translation, no inter-source synthesis claims were introduced.
-
-Auto-audit editorial review (2026-05-26) verdict PROMOTE; Checks 2-5 all clean. Check 1 raised a single ⚠️ framing concern: the prior Codex/Turkish-Codex sentence said "both set 1 mg/L (1,000 ng/mL) for Pb and 10 mg/L (10,000 ng/mL) for Cu + Zn." Verified against source p.7: the 1 mg/L Pb attribution belongs only to the Turkish Food Codex (2002); the Codex Alimentarius (2000) is cited only for the 10 mg/L Cu + Zn cap. Sentence rewritten to restrict the Pb attribution to the Turkish Food Codex and reserve the joint Codex/Turkish attribution for Cu + Zn.
+- [[ingredients/date-vinegar]]
+- [[karavoltsos2020-copper-trace-metals-vinegars-greece]]
+- [[products/vinegar]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -55,7 +55,7 @@ ATSDR-issued guidance document; no primary measurement. ABSd values in Table 8 a
 - Courses: Foundational regulatory-affairs and exposure-science teaching reference for explaining how dermal-route exposure is parameterized separately from oral and inhalation pathways, and how the ABS_GI factor reconciles dermally absorbed doses with health guidelines expressed on an administered-oral basis. Useful as a paired reading with the 2018 ATSDR soil/sediment ingestion EDG for a complete dermal-plus-oral environmental-pathway module.
 - App: Not directly relevant to ingredient `contamination_profile` data. The age-specific body-weight defaults from Table 3 special groups (4.8, 5.9, 7.4, 9.2, 11.4, 13.5, 17.2, 20.6, 31.8, 50.6, 63.7, 67.3, 80.6 kg) and the four infant Combined SA values (1,290; 1,455; 1,686; 2,001 cm²) are useful infrastructure for any per-serving-per-bodyweight exposure calculator that needs to layer a dermal-pathway adjustment alongside an oral-intake estimate. The Table 2 standard age-group BWs (8.2, 11.4, 17.4, 31.8, 56.8, 71.6, 80 kg) are the coarser-grained companion ladder.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/cadmium]]
@@ -74,17 +74,6 @@ ATSDR-issued guidance document; no primary measurement. ABSd values in Table 8 a
 - [[metals/thallium]]
 - [[metals/vanadium]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Source is a methodological guidance document about soil/sediment dermal absorption included in the children's-personal-care batch as a regulatory reference for dermal-route exposure modeling. It contains no occurrence data on personal-care products and no chemical concentrations in personal-care matrices; its relevance is the default ABSd and ABS_GI vocabulary it provides for any wiki work that needs to estimate or compare dermal exposure to soil contaminants in children.
-- The source metadata `metals:` field uses the umbrella abbreviation `As` (not iAs/tAs) because Table 8 labels the row "Arsenic" without speciation distinction and Table 1's ABS_GI of 100% applies to arsenic generally. Likewise the table uses "Cadmium," "Nickel," and a generic mercury split into mercuric chloride / metallic mercury / methyl mercury — so the source metadata carries `Hg, MeHg` (covering both the soluble-salt/metallic group and the speciated methylmercury row) and `Cr, Cr-VI` (the document distinguishes Cr-III at 1.3% from Cr-VI at 2.5%).
-- Lead is in `metals:` because the guidance is the source for the 0.01 inorganic-compounds default ABSd that would apply to Pb in the absence of a chemical-specific dermal absorption value, and because health-assessor workflows that touch Pb soil exposure will reach for this document. The document does NOT specify a Pb-only modeling alternative; an earlier revision of this page incorrectly stated that the guidance directs users to IEUBK/LeadSpread for Pb — that claim is not in the source and has been removed.
-- Enhanced 2026-05-17 from a prior revision that (a) omitted the Table 1 ABS_GI factors entirely, (b) omitted the ADAFs for mutagenic-MOA carcinogens, (c) omitted the worked-example HQ outputs across age groups, (d) fabricated three IEUBK/LeadSpread references not in the source, and (e) limited the `metals:` source metadata to As/Cd/Pb when Table 1 covers a much broader list of exposure-relevant elements (Hg, MeHg, Ni, Cr-VI, Sb). The cite_key, raw_handle, raw_path, and other identity fields are preserved unchanged.
-- Audit editorial review (2026-05-17) flagged that the original merge-enhance bullet conflated Table 2 standard-age rows with Table 3 special-group sub-rows and misattributed the Table 3 worker/educator adult BW (80.6 kg) to the Table 2 Adult ≥21 yr row (80 kg, the BW used in Appendix B Table 9). Verified against the PDF (pp. 13, 14, 20); the bullet has been split into separate Table 2 and Table 3 listings with the correct Table 2 adult BW of 80 kg restored and the Table 3 worker/educator clarification added.
-- Audit editorial review (2026-05-17) flagged that Barium (Table 1 ABS_GI 7%) was omitted from `metals:` and the wiki-touch list even though Be (0.7%), Tl (100%), V (2.6%), and Zn (100%) — also Table 1 elements — were included. Verified; Ba added to `metals:` and `[[metals/barium]]` added to wiki-touch list.
-- Cross-vendor audit (Codex, 2026-05-17) corrected the source-attribution summary: adherence factors come from EPA RAGS Part E (2004), while the skin-surface values come from EFH 2011.
-- Existing metal pages for Be, Cu, Mn, Ag, Tl, V, and Zn were added to the wiki-touch list because they appear in Table 1 and/or source metadata. Selenium remains in `metals:` because Table 1 provides a selenium ABS_GI value, but no `metals/selenium` page exists in the current taxonomy snapshot; propose that page only if Karen wants full Table 1 routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

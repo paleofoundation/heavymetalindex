@@ -61,7 +61,7 @@ App: Insect-protein ingredient records should preserve substrate-dependent uncer
 
 Microbiome: The paper includes microbial safety data, but this page only routes the heavy-metal occurrence portion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/non-soy-protein-source]]
 - [[metals/cadmium]]
@@ -69,13 +69,6 @@ Microbiome: The paper includes microbial safety data, but this page only routes 
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[testing/icp-oes]]
-
-## Verification notes
-
-- Evidence Fitness: routeable as experimental insect-protein/feed-substrate evidence. It is not fit for clean retail benchmark pooling because the larvae were laboratory-fed defined substrates rather than sampled from a consumer market.
-- Speciation: the paper reports total elemental concentrations and does not speciate chromium, arsenic, or mercury. This page records Cr, not Cr-VI.
-- Table 6 reports Cd standard deviations that are much larger than the means for variants II-IV. Values are transcribed as printed, and the anomaly should be treated as a source-level reporting issue rather than corrected by inference.
-- The fetched filename suggested rice milk, but the PDF is a black soldier fly larvae paper. The source page follows the actual PDF title, DOI, byline, and matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

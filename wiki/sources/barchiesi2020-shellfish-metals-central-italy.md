@@ -140,18 +140,6 @@ Analytical results for Cd, Pb, and Hg in shellfish were retrieved from the Itali
 
 This source contributes official-monitoring shellfish occurrence data for Cd, Pb, and total/unspecified Hg from Italy. The shellfish matrix includes bivalves and marine gastropods, while echinoderm/sea-urchin evidence should be treated as a missing more-specific product/ingredient row until the taxonomy supports it. The year-by-class tables are suitable for later structured extraction, with the middle-bound handling preserved and the reporting basis inferred to be wet weight as discussed in `## Verification notes` below.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-5, discussion, and conclusion were readable.
-- DOI `10.3390/foods9111720`, raw handle `MFK_foods-09-01720`, and cite-key checks found no existing source page before creation.
-- Tables 2-5 were checked against the extracted text. Units are preserved as `mg/kg`; no conversion was performed.
-- Reporting basis: the paper does not explicitly state wet weight versus dry weight. The basis is inferred to be wet weight because the source's exceedance arithmetic is benchmarked against the EU 1881/2006 maximum levels for shellfish (`1.0 mg/kg` Cd, `1.5 mg/kg` Pb, `0.50 mg/kg` Hg), which are wet-weight limits, and because the SINVSA official-monitoring data this paper draws from is reported on a wet-weight basis by convention. The matrices array carries `wet-weight` on that basis; downstream synthesis treating these values as wet weight is consistent with the regulatory frame the source itself uses.
-- The 2017 Hg row for echinoderms reports `55` analyzed samples with `1/(20)` above LOQ, while the 2017 Cd and Pb echinoderm rows report `1` and `4` samples respectively. This inconsistency is in the source as published; the wiki reproduces the source's table values faithfully and does not silently reconcile them.
-- The 2019 Hg razor-clam row appeared inconsistent in extracted text (`0.700` min and `0.230` max); the min is recorded as not cleanly reported instead of guessed.
-- Speciation: Hg is reported as total/unspecified Hg and is recorded as `tHg`, not MeHg.
-- Brand firewall: the source reports official monitoring by seafood class/species; no product brand values were reported.
-- Missing closed-vocabulary slugs: sea urchin/echinoderm-specific ingredient and product slugs were not available in the taxonomy snapshot, so source metadata routes through the broad shellfish row and notes the gap here.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

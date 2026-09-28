@@ -137,19 +137,11 @@ App: Context for water-treatment and upstream-mitigation notes. The key takeaway
 
 Courses: Useful for teaching the distinction between adsorbent capacity and food-occurrence concentration, the role of pHpzc in heavy-metal sorption, and the analytical separation of pseudo-second-order kinetics from Langmuir-type monolayer isotherms in remediation chemistry.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-Page built from the full PDF including the abstract, Sections 2.1-2.4 (materials, synthesis, characterisation, Pb2+ adsorption protocol), Sections 3.1-3.5 (orthogonal results, FT-IR/SEM/TGA/zeta characterisation, dose and pH effects, kinetics, isotherms, thermodynamics, adsorption mechanism), Section 4 (Conclusions), and Tables 1-5 with Figures 1-8. The source measures only synthetic Pb(NO3)2 solution; source metadata `products` and `ingredients` are intentionally empty because no food, ingredient, or consumer-product matrix was sampled. The source metadata `metals` value uses the broader `Pb` slug while this page preserves the source's Pb2+ ion-state specificity in prose and tables.
-
-The `matrices` slugs (`lignosulfonate-chitosan-composite`, `aqueous-sorption-test`, `wastewater-remediation`) are remediation-domain proposals outside the project's current food-matrix controlled vocabulary; a future taxonomy refresh should decide whether to formalise a remediation-matrix vocabulary or to route remediation-method sources via a separate non-food register. The "## Wiki pages this source may touch" entries `[[mitigation/remediation-evidence]]` and `[[testing/index]]` point to wiki directories outside the four-section (ingredients/products/metals/regulations) taxonomy snapshot used for slug-vocabulary auditing; they are speculative routing leads and follow the same out-of-scope-of-snapshot status as the matrices slugs. If the routing audit reports advisory malformed status for this source on the empty `products`/`ingredients` fields, that reflects the genuine absence of food/ingredient/product scope rather than a defect.
-
-Audit editorial review (2026-06-02) flagged the dose-sweep range as a body/methods conflation: Section 3.3 prose says "0.01 to 0.15 g" but Section 2.4 specifies "0.01 to 0.07 g" and Figure 4A's x-axis stops at 0.07 g. Verified against the source - confirmed paper-internal text typo in Section 3.3; body revised to the Figure 4A / Section 2.4 range with a one-sentence note. The audit's other ⚠️ findings (`mitigation/remediation-evidence` and `testing/index` outside the four-section taxonomy snapshot) were applied by extending the existing out-of-snapshot disclosure above. No definite-error (❌) findings on numerical fidelity, speciation, methods, brand firewall, or wiki/HMTc firewall; editorial review verdict REVISE handled in one pass.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

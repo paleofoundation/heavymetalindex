@@ -135,7 +135,7 @@ The journal (IJMS, MDPI) is open-access; the article is published under CC BY 4.
 
 This is a narrative review with no declared search strategy, no inclusion or exclusion criteria, no PRISMA flow, and no risk-of-bias assessment. Quantitative claims drawn from the underlying primary literature are reported without consistent unit reporting, without consistent context (the 90.67 % Cr(VI) treatment efficiency and the 8–55 % nZVI soil erosion improvement are quoted from references the review does not characterise in any depth), and several narrative claims in the Summary and Outlook section (the MT-2 and TAT generalisations) are not anchored to specific primary citations in the source text. The reference list is unusually long for a review of this length (186 references in 22 pages of body text), suggesting that a substantial fraction of the references are cited once only as background-context support; this is consistent with a narrative-review tradition but limits the source's usefulness as a deep-dive on any single mechanism. The source contains at least one likely typographic error in the body text (the "Corn Wine" attribution for a fission-yeast strain that the literature consistently identifies as *Schizosaccharomyces pombe*, see Verification notes); this raises a low-level concern about light editing in the review process and reinforces the recommendation to trace specific claims to their primary citations before downstream synthesis. The review also reuses citation number 42 for two distinct primary papers (Sun et al. and Boente et al.) on p. 4, which is a reference-management error in the source and means any downstream citation needs to read the actual reference list rather than rely on the in-text [42] tags.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -145,32 +145,6 @@ This is a narrative review with no declared search strategy, no inclusion or exc
 - [[metals/nickel]]
 - [[metals/arsenic-total]]
 - [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.3390/ijms25126717`), raw_handle grep (`MFK_01-peptides-used-for-heavy-metal-remediation-a-pro`), and cite-key glob (`luo2024-*`) over the linked reference record on 2026-06-08 returned only the unrelated `luo2024-cd-ada-vbb-food-sensor.md` (a different Luo 2024 paper — an ADA/VBB Cd biosensor study, no DOI overlap). This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** B (secondary narrative review). The paper reports no primary measurements and declares no systematic search strategy. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither.
-
-**Metals source metadata.** The review explicitly discusses Pb, Cd, Hg (no speciation), Cr (with explicit Cr-VI treatment in the *Microbacter* sp. Y2 example), Ni, As (no speciation), Cu, Zn, Mg, Fe, Ca, Ag. From the HMTc 10-analyte priority list, only Pb, Cd, tHg, Cr, Cr-VI, Ni, and tAs are recorded in the `metals:` source metadata. Mercury is recorded as `tHg` because the review does not consistently distinguish iHg, MeHg, or tHg — the source uses the generic "Hg" or "mercury" throughout. Arsenic is recorded as `tAs` for the same reason (the source uses "As" or "arsenic" without speciation). Cu, Zn, Fe, Ca, Mg, and Ag are out-of-scope for the HMTc 10-analyte vocabulary and are not added to source metadata.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The source measures nothing in any food, beverage, personal-care, or environmental matrix; it reviews remediation mechanisms only. No jurisdiction is studied — the authors are based in Chengdu (China) but the review is conceptually international in scope, and no national regulatory or occurrence frame applies.
-
-**Sample size.** Null. This is a review with no sampling frame.
-
-**Brand firewall (Part 12).** No brand names appear in the source. The reference list cites scientific instrument and reagent vendors only via the primary-source papers, not within the body text of this review. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language, no claims of "consistent with the literature consensus" framing in either direction, and no consumer-audience risk advisories. No firewall action required.
-
-**Source typographic / citation errors noted.**
-- The fission-yeast strain identified by the review as "Corn Wine" (p. 12, in the GSH-deficient-mutant context) is almost certainly the well-known *Schizosaccharomyces pombe* (the standard fission yeast for PC-synthase substrate work, where GSH-deficient mutants block PC biosynthesis). The review's "Corn Wine" appears to be either a translation artefact or an OCR error; recorded here as a source-level data-integrity note. Downstream synthesis should refer to *S. pombe*, not "Corn Wine."
-- Reference [42] is used in two consecutive paragraphs on p. 4 for what appear to be two different primary papers: "Sun et al. [42] investigated the use of biochar and nano-scale zero-valent iron for the removal of … chromium" and "Burnt et al. [42] studied the enhancement of soil erosion efficiency by nZVI soil pretreatment." The "Burnt" attribution is also likely an OCR or translation artefact (the reference list at entry 42 reads "Boente, G.; Sierra, C.; Martínez-Blanco, D.; de Menéndez-Aguado, J.M.; Gallego, J.R. Nanoscale zero-valent iron-assisted soil washing for the removal of potentially toxic elements"). The Sun et al. paper that the body text cites does not appear to be entry 42 — it may be a renumbering error in the manuscript. Downstream uses of these two claims should verify against the actual primary sources before propagation.
-
-**Reviewer's note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The "Black Market Peptide Metal Survey" folder context suggests Karen is collecting peptide-metal literature to inform either the peptide-therapeutic-contamination programme (research peptides sold as supplements may be contaminated by heavy-metal residues from synthesis catalysts or starting materials) or the mitigation/remediation-evidence page. This source supports the latter but not the former: nothing in the paper addresses contamination of peptide products themselves.
-
-**Date arithmetic.** Received 11 April 2024, revised 28 May 2024, accepted 5 June 2024, published 18 June 2024 — all consistent with the year source metadata (2024) and the citation. Article DOI 10.3390/ijms25126717 resolves to *Int. J. Mol. Sci.* 2024, Vol 25, Article 6717.
-
-**Audit editorial review (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (which lists only ingredients/products/metals/regulations) but confirmed it points to a real wiki section under the linked reference record. The wikilink has been normalised to the no-extension, no-alias convention used elsewhere in the corpus. The `mitigation/` subtree is a legitimate routing destination under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`; the taxonomy snapshot's closed list is automated editorial review's drafting vocabulary, not the wiki's exhaustive section index. No content corrections were applied.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

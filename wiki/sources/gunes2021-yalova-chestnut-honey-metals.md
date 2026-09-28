@@ -57,7 +57,7 @@ App: The values are useful as Turkey-market honey context for Pb, Cd, total arse
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
@@ -65,10 +65,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-The PDF title, author, DOI, year, journal, license notice, methods, and heavy-metal values were read from the auto-fetched PDF. The paper's table labels As and Hg without speciation, so they are treated as total arsenic and total mercury rather than iAs or MeHg. The source is internally inconsistent on the analytical instrument: the methods section and instrument table describe ICP-OES, while the results prose says ICP-MS. This source page follows the methods section and instrument table. The source is also internally inconsistent on the regulatory frame: the abstract says residues were below Turkish Food Codex limits, while later discussion says there is no designated maximum honey limit in the Turkish Food Codex.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

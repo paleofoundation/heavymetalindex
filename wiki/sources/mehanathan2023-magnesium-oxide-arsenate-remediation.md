@@ -88,15 +88,11 @@ App: Context for water-treatment and remediation notes. Calcined MgO at 650 C sh
 
 Courses: Useful for teaching arsenate speciation, pH/PZC effects, Freundlich versus Langmuir model selection, and why adsorption capacity cannot be treated as an occurrence concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/arsenic-inorganic]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including Table 1 comparator capacities, Table 2 BET properties, XRD/FTIR/zeta discussion, batch adsorption methods, Table 4 kinetic parameters, Table 5 Weber-Morris/Elovich parameters, Table 6 isotherm fits, Table 7 separation factors, pH and dosage figures, regeneration discussion, and the conclusion. The source tests As(V)/arsenate only; source metadata uses the repo's broader inorganic-arsenic slug while this page preserves the pentavalent arsenic species in prose. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

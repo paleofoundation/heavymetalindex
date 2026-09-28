@@ -63,16 +63,6 @@ Fifty beverage samples were purchased in Nigeria in March 2005, including 21 can
 
 This source contributes Nigerian-market beverage occurrence data for total arsenic and total chromium in canned and non-canned beverages. It is relevant to broad beverage routing, including soft drinks, fruit drinks/juices, soy-milk beverages, and milk beverages, but it should not be used for brand ranking or for chromium speciation. The values support category-level contamination context and source retrieval for later structured beverage extraction.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, abstract, methods, Tables 1-2, discussion, and references were readable.
-- No DOI was printed in the extracted source text; `doi` is left null and `no_doi_assigned` is set true. Raw-handle, title/author, and cite-key checks found no existing primary source page before creation, though the later Izah 2016 Nigerian-beverage review cites this paper as secondary context.
-- All aggregate ranges, sample counts, exceedance percentages, MCL comparator values, detection limit, wavelengths, and digestion details were checked against the extracted abstract, Results text, Methods section, and table footnotes.
-- Units are preserved as reported (`mg/L`); no conversion to µg/L or ppb was performed.
-- Speciation: arsenic is reported as arsenic after nitric-acid digestion and AAS, so it is labeled total arsenic (`tAs`) in source metadata. Chromium is reported as total chromium (`Cr`), not Cr-VI.
-- Brand firewall: the source's tables attach commercial drink names to As/Cr values. This page intentionally omits all drink names from Key numbers and reports only aggregate ranges and exceedance percentages.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

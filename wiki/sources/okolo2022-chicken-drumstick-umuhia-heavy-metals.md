@@ -45,7 +45,7 @@ The drumstick samples (2 g aliquots) were digested in concentrated HNO3 at 135 d
 
 The source supports poultry-meat occurrence context for Nigerian market chicken. Frozen drumsticks carried higher mean Cd, Cr, Cu, Ni, and Pb than fresh drumsticks; Mn was the only metal lower in frozen samples than in fresh; Zn was statistically indistinguishable between the two formats. The values should not be generalized to all Nigerian poultry without preserving the fresh/frozen distinction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[products/poultry-product]]
@@ -53,13 +53,6 @@ The source supports poultry-meat occurrence context for Nigerian market chicken.
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.46676/ij-fanres.v3i3.113 and the downloaded PDF.
-- Table II provides the routeable concentration values; values are preserved in mg/kg as reported.
-- The paper's title page spells the city "Umuhia"; the body text (and the sample-collection methods) consistently uses "Umuahia". The page preserves the title-page spelling in the cite-key and title for source-identity purposes.
-- Paper-internal inconsistency to flag for downstream synthesis: Ni values (Fresh 0.577, Frozen 0.852 mg/kg) both exceed the cited NRC "toxic level" range of 0.3-0.5 mg/kg, yet the discussion and conclusion state that all metal levels were within permissible limits. The Ni point estimates are above the NRC comparator the authors themselves selected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

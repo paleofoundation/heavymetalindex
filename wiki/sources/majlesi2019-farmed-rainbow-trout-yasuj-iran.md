@@ -101,14 +101,6 @@ App: total-Hg, Cd, and Pb data for farmed freshwater rainbow trout contribute to
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
 
-## Verification notes
-
-Fresh-context audit editorial review (2026-05-30) verdict REVISE; all five checks were clean except minor Check 2 concerns, resolved as follows:
-- Audit flagged the per-group sample-size note as incomplete for omitting Fig. 3's "six fish per group"; verified against PDF p. 5 (Fig. 3 caption) — correct, added Fig. 3's six-fish count to the reconciliation note.
-- Audit flagged matrices `fish-tissue` as not enumerated in the four-list taxonomy snapshot; verified — `fish-tissue` is an established bare-string matrices value used on 21 existing source pages (e.g. zolfaghari2018, melnyk2021). False positive; no change.
-- Audit flagged `WHO` in `jurisdictions:` as loose; verified — `WHO` is an established jurisdictions value across the corpus (e.g. zolfaghari2018, meng2023). False positive; no change.
-- Numerical fidelity (Tables 1–7), speciation (tHg, no MeHg), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean against the source PDF.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
