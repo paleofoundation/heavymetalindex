@@ -127,7 +127,7 @@ This EFSA CONTAM Panel opinion is the European Union's primary risk assessment f
 
 **App:** Confirms that cocoa beans and cocoa products, soya beans, peanuts, dried beans, chocolate-containing confectionery, and dry tea/herbs are the highest-Ni food categories per the EU occurrence dataset. For ingredient-list inference, cocoa-based powdered beverages, chocolate-containing snacks/desserts, soy-protein-isolate-containing formulas, peanut-butter products, dry tea/herbal-infusion products, and herb/spice/condiment-heavy preparations should weight Ni-contamination probability upward. Drinking-water contribution to Ni intake is negligible across age classes (0.0005–1.7%); ingredients-list inference does not need to model water-source variation for Ni. Powdered infant formula receives an 8× dilution factor in EFSA's exposure modelling — relevant for translating powder concentrations to as-consumed estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/nickel]]
 - [[ingredients/cocoa]]
@@ -156,24 +156,7 @@ This EFSA CONTAM Panel opinion is the European Union's primary risk assessment f
 - [[products/breakfast-cereals]]
 - [[products/bread-and-baked-goods]]
 - [[regulations/efsa-nickel-tdi]]
-
-## Verification notes
-
-- 2026-05-28 (v2.0 manual-fetch merge-enhance of the 2026-05-14 batch-ingest page).
-- Legacy `raw_handle: manual-fetch-source-retrieval` replaced with per-PDF MFK_ form (`MFK_efsa-scientific-opinion-on-the-risks-to-public-hea`) per current convention.
-- Truncated `raw_path` (`...presence of nickel in food and drinking.pdf`) restored to full filename (`...presence of nickel in food and drinking water.pdf`).
-- Added `raw_sha256` (a9709fa1…), `access_url` (DOI), `tier_rationale`, and absolute page count (`202 pp.`) in `publication`.
-- `ingredients` expanded from {cocoa, legumes, cereals, water, vegetables} to also include herbs-and-spices, tea, coffee, chocolate, and peanuts. The opinion explicitly catalogues each of these as a major Ni occurrence category and/or a major chronic-exposure contributor (cocoa beverages and chocolate via 'Non-alcoholic beverages' and 'Sugar and confectionery'; coffee as the main adult contributor to 'Non-alcoholic beverages'; herbs/spices/condiments as a discrete FoodEx group with mean LB 1,259 µg/kg; tea-infusions with 100× dilution factor flagging dry tea as a high-concentration source).
-- `products` field promoted from `[]` to a 15-slug list covering the food-category exposure drivers and the drinking-water categories the opinion materially characterises (chocolate, coffee, tea, tea-infusions, condiments-general, spices, bottled-drinking-water, mineral-water, legumes-pulses-other, peanuts, peanut-butter, infant-food-general, infant-formula-powder, breakfast-cereals, bread-and-baked-goods). The earlier `products: []` was the Phase-1 source metadata discipline defect flagged by `audit-routing-discipline.mjs` (a food paper with product-shaped matrices but no products declared); promotion to populated routes the source to the relevant product-category pages.
-- `matrices` expanded from {dietary-intake, drinking-water, food} to also include food-contact-materials (the opinion discusses stainless-steel cookware leaching though excludes the contribution from the dataset) and infant-formula (formula receives the 8× dilution factor in the exposure model and is part of the 'Food for infants and small children' high-volume contributor).
-- Key numbers expanded substantially to capture: (i) the full Table 7 occurrence summary across all FoodEx level-1 groups, (ii) the high-Ni subgroup values (cocoa beans 9,528 µg/kg, soya beans 4,624–4,685, peanuts 3,537–3,569, dried beans 3,055–3,077, chocolate cocoa products 3,231–3,236, tea/herbs-for-infusion solid 761–762, herbs/spices/condiments mean LB 1,259), (iii) drinking-water compliance and bottled-water occurrence detail, (iv) full chronic-exposure means and 95th-percentiles by age class (Table 9), (v) full acute-exposure ranges by age class (Table 11), (vi) vegetarian sub-population values (Table 10), (vii) the complete BMD/BMDL derivation for both chronic and acute endpoints (Tables 19 and 20), (viii) the analytical-method composition (ICP-MS 54%, AAS 42%, ICP-AES 3%, electrochemistry 1%, spectroscopy 0.2%), and (ix) the data-cleaning exclusions (3,784 + 4 + 605 + 114 + 2,902 + 32 + 8 + 47 + 13 statistical outliers + 1 carbonated water + 1 pork liver).
-- Methods section expanded to record: Call-for-Data procedure and EFSA Guidance on Standard Sample Description; substitution method for left-censored data with Method explicitly attributed to WHO/IPCS 2009 + EFSA 2010b; dilution factors and their values; PROAST version 26; BMR 10% default for chronic, BMR 5% supporting analysis on sperm parameters, three-study BMD analysis of SCD with Jensen 2003 selected as most sensitive; MOE ≥ 10 rationale.
-- Lead paragraph rewritten to consolidate the two-endpoint structure (chronic TDI plus acute MOE) and to surface the 15% allergic-contact-dermatitis prevalence as the structural reason for the acute reference point.
-- The legacy heading `## Wiki pages updated on ingest` replaced with the current `## Wiki pages this source may touch` per the documented heading convention (; audit-prompt.md Check 2).
-- Wikilink `[[regulations/efsa-nickel-tdi-2015]]` corrected to `[[regulations/efsa-nickel-tdi]]` to match the actual regulation-page slug (no year suffix); the wiki/regulations/ directory contains `efsa-nickel-tdi.md` and `eu-nickel-directive-94-27-ec.md` as the two relevant Ni regulation pages.
-- No primary brand-attributed contamination data in the opinion (the underlying occurrence dataset is anonymous food samples submitted to EFSA by Member-State authorities); no Part 12 brand-firewall edits required. The 13 outlier beer samples (5.2–14.3 mg Ni/L) the Panel excluded are identified by sampling country only, not by brand.
-- No synthesis claims; no HMTc threshold proposals (Part 2 firewall intact). The Implications/Certification block records the TDI and acute RP as EFSA's derivations and notes the subsequent revision of the chronic TDI in the 2020 update without proposing or comparing HMTc thresholds.
-- Part 12 method-vendor exception preserved: the methods narrative records standardised method codes (ISO 8288:1986, EN ISO 15586:2004, EN ISO 11885:2009, EN ISO 17294-1:2004, EN ISO 17294-2:2003, ISO 8294:1994), the PROAST software identity, the proficiency-test scheme names (FAPAS, Bipea), and Tukey's outlier method — all method/instrument identifiers, not contamination-value attributions, and therefore exempt from Part 12 stripping.
+- [[regulations/efsa-nickel-tdi-2015]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -95,14 +95,13 @@ For the app model, ingredients flagged as primarily organic arsenic sources (fis
 - [[sources/hull2023-arsenic-lake-foodweb|Hull et al. 2023]]. Foodweb arsenic study, Puget Sound legacy lakes. Sediment arsenic predicts fish iAs; inorganic arsenic fraction increases at lower trophic levels while organic arsenic enriches at higher trophic levels. Mechanistic trophic-transfer evidence showing iAs is the bioaccumulating fraction.
 - [[sources/sadee2023-arsenic-speciation-vegetables|Sadee et al. 2023]]. Review of arsenic speciation methods in vegetables. Contextualises the iAs vs organoarsenical distinction across non-marine food matrices and HPLC-ICP-MS analytical approaches.
 
-## How this page was promoted
+This synthesis does not assert that arsenobetaine is toxic. It reports that the evidence for treating organoarsenicals as inert has weakened in specific, documented ways. A later reading should include an in vivo human feeding study of inorganic arsenic absorption from seafood, and a non-Japanese cohort that tests the Kagawa hypertension finding.
 
-This synthesis page was promoted on 2026-05-13 following P4 batch ingest sessions 10 and 11. The thread was first surfaced in the batch 10 close synthesis-proposals entry, where davydiuk2023, liu2023, and kagawa2023 were identified as a three-paper cluster challenging the organoarsenical inertness assumption from distinct methodological directions. Batch 11 added raab2024, walenta2024, and sim2024, extending the thread from marine fish into microalgae, mushrooms, and seaweed and resolving the borderline status of criterion 2 (spanning multiple matrices and products). The synthesis-proposals entry was upgraded to all-4-criteria-met after batch 11 closed, and Karen approved direct promotion. Eight A-tier anchor sources, three independent research traditions (biomonitoring, analytical chemistry, epidemiology), and three food matrix types (seafood, fungi, microalgae/seaweed) support the thesis at promotion. The synthesis is provisional; it does not assert arsenobetaine toxicity, only that the evidence base for the inertness assumption has weakened in specific and documented ways. Re-synthesis is expected when an in vivo human feeding study establishes or fails to establish iAs absorption from seafood, or when a non-Japanese cohort replicates or fails to replicate the Kagawa hypertension signal.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -114,7 +113,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other|Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans]]<span class="hmi-ref-meta">davydiuk · Environment &amp; Health · 2023 · [doi.org/10.1021/envhealth.3c00090](https://doi.org/10.1021/envhealth.3c00090)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/efsa2024-risk-assessment-iAs-update|Update of the risk assessment of inorganic arsenic in food]]<span class="hmi-ref-meta">EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. · EFSA Journal · 2024 · [doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488)</span><span class="hmi-ref-tag">Government</span>

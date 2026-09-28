@@ -92,13 +92,6 @@ App: Supports rice-cereal vs non-rice-cereal differentiation in the contaminatio
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki Pages Updated On Ingest
-
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
-- [[products/fruit-juices-non-apple]]
-- [[products/fruit-juice-not-canned]]
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

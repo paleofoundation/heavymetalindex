@@ -57,15 +57,6 @@ Thirty-six junk-food samples were randomly selected from sari-sari stores in Met
 
 This source contributes Philippines-market snack-food occurrence context for Pb, Cd, and total Cr. Its direct product fit is broad snacks/crackers/biscuits rather than a narrower ingredient row because the sample set mixes many branded snack forms. It is not suitable for Cr-VI routing because chromium was measured and reported only as total Cr.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the title page, DOI, abstract, methods, Tables 1-2, discussion, and conclusions were readable.
-- DOI verified from the first page as `10.4028/www.scientific.net/AMR.634-638.1581`; DOI, raw handle `MFK_solidum2013`, and cite-key checks found no existing source page before creation.
-- Aggregate ranges and counts in Key numbers were checked against the abstract and discussion. Units are preserved as `ppm`; no conversion to mg/kg or ppb was performed.
-- Speciation: chromium is total Cr. The source does not report Cr-VI.
-- Brand firewall: the source tables and abstract name individual snack products, but this page reports only aggregate ranges and describes the high-Pb item as an imported snack sample without naming it.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

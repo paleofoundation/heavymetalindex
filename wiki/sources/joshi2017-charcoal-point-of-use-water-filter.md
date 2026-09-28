@@ -48,18 +48,12 @@ Courses: Useful for explaining low-cost household mitigation concepts and the di
 
 App: Context-only mitigation evidence for household arsenic and iron treatment strategies.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/arsenic-total]]
 - [[metals/iron]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` disposition. The old skip was too narrow because the paper is direct point-of-use treatment evidence for arsenic/iron-bearing waters.
-
-Products and ingredients are intentionally empty because the matrix is source water passed through charcoal filter media, not a market food or packaged-water product. The extracted text available in this run did not expose a fully legible table of arsenic before/after concentrations, so only numerically explicit statements visible in the extracted PDF are reproduced here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

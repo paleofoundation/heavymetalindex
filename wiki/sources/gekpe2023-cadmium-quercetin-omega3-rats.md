@@ -57,19 +57,10 @@ App: Supports cadmium toxicology context on the metal page. It does not support 
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[health/index]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect, with adjacent co-treatment context. Prior skip was `skip:not-food-occurrence` because the paper had no consumer-product occurrence table.
-- DOI, title, authors, journal, open-access license, cadmium dose, LD50, main group size, treatment duration, co-treatment doses, NO/NOS/SOD/CAT values, GPx control values, MDA control values, p-value thresholds, and methods were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed in the source: `mg/kg`, `mg/kg body weight`, `mL/kg`, `µmol/L`, `ng/mL`, `pg/mL`, and `nmol/mL`. Dosing strings such as `2mg/kg` and `20mg/kg` retain the source spacing.
-- Speciation: the source uses cadmium chloride exposure and reports cadmium as Cd/cadmium; no cadmium speciation beyond the administered compound is reported.
-- Products and ingredients are intentionally empty. Olive oil appears only as a vehicle/sham-control dose and is not a measured product matrix.
-- The paper contains internal inconsistencies: the abstract says 42 Wistar rats were assigned into seven groups of six, while the methods also mention 48 rats for the main experiment; `sample_n` uses the internally consistent seven groups times six rats. The GPx and MDA result paragraphs contain extract/OCR or source-text inconsistencies, so unclear treatment means are not used as exact values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -69,7 +69,7 @@ Samples of two fruits and thirteen vegetables were collected during the first tw
 
 This source contributes Algeria-market occurrence evidence for total Cr, Pb, Zn, and Cu in fresh fruit, leafy vegetables, non-root vegetables, and root/tuber vegetables. The values are dry-weight foodstuff concentrations from a small regional market survey, so they should not be mixed with wet-weight/as-consumed produce values without an explicit basis conversion. The chromium results are total chromium context and are not suitable for Cr(VI)-specific pooling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fruits]]
 - [[ingredients/vegetables]]
@@ -83,16 +83,6 @@ This source contributes Algeria-market occurrence evidence for total Cr, Pb, Zn,
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, Table 1 concentration data, methods, exposure tables, discussion, conclusion, and references.
-- DOI verified from the first page as `10.1016/j.fct.2014.04.044`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- The concentration table values above were checked against Table 1 in the extracted text. Units are copied as `mg/kg dry weight`; no conversion to fresh weight was made.
-- Speciation: chromium is total Cr only. The source does not report Cr(III), Cr(VI), arsenic, mercury, cadmium, methylmercury, or inorganic arsenic.
-- The Table 3 EDI row prints global values with comma separators (`12,185`, `17,998`, `15,659`, `7547`); the discussion text on page 5 confirms these are decimals (`12.185–17.998–7.547 µg metal/kg body weight/day` for Cu, Zn, Cr and `15.659 µg Pb/kg body weight/day` for Pb), so the Key numbers section reports the period-separated forms. The PDF text extraction renders µ as "l"; this page normalises the unit to µg.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- The `matrices: algeria-market` token follows the existing country-market idiom (`libya-market`, `nigeria-market`, `bangladesh-market`) used on other market-survey source pages; it is not a formal controlled-vocabulary entry but matches the established pattern for "purchased from country X retail markets" provenance.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

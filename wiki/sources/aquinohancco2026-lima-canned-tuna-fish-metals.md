@@ -130,7 +130,7 @@ This source contributes Peru-market occurrence context for canned tuna and fresh
 
 The paper's summary-table format limits downstream extraction: cadmium and lead in canned tuna are reported as selected-set ranges and examples rather than full sample-level tables. The source does not support methylmercury-specific occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/canned-seafood]]
 - [[products/fish-marine-predatory]]
@@ -138,13 +138,6 @@ The paper's summary-table format limits downstream extraction: cadmium and lead 
 - [[metals/mercury]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity check: title string, candidate cite-key `aquinohancco2026-lima-canned-tuna-fish-metals`, raw handle `RPMEHG_sha256-1cce9b1c2eaf6d76`, and SHA-256 `1cce9b1c2eaf6d76abde36e5583d64897562b27646ba9d31a9657d9770e4e10c` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the eight-page PDF. Tables 1-4 and the exposure-calculation bullets were checked twice from `pdftotext -layout` before commit. No DOI is printed in the PDF metadata or first-page text.
-- Brand firewall: the page reports sample-code and matrix-level values only; no commercial brand values are reproduced.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -164,16 +164,6 @@ App: Supports U.S. formula risk estimates by format/protein-source class where t
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki Pages Updated
-
-- [[products/infant-formula-powder-non-soy]]
-- [[products/infant-formula-powder-soy-based]]
-- [[products/infant-formula-rtf-liquid-non-soy]]
-- [[products/infant-formula-rtf-liquid-soy-based]]
-- [[products/infant-formula-concentrated-liquid-non-soy]]
-- [[products/infant-formula-concentrated-liquid-soy-based]]
-- the archived source file
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

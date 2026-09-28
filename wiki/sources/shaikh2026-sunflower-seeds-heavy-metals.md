@@ -48,7 +48,7 @@ Samples were washed with deionized water, oven-dried at 80°C for 48 h, ground, 
 
 Certification: Pakistan/Sindh sunflower-seed occurrence evidence for Cd, Pb, Cr, Cu, Zn, and Fe at low concentrations. Courses: useful ecological-zone comparison with a clean anthropogenic-vs-geogenic split between Tando jam (Pb/Cd/Cr) and Kotri (Fe/Zn/Cu). App: supports jurisdiction- and region-specific sunflower-seed context for Pakistani sourcing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/sunflower-seeds]]
 - [[ingredients/sunflower-seeds]]
@@ -58,10 +58,6 @@ Certification: Pakistan/Sindh sunflower-seed occurrence evidence for Cd, Pb, Cr,
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/iron]]
-
-## Verification notes
-
-All numeric values verified against the published PDF (Planta Animalia Vol 5 Issue 2, pp. 191-197, DOI 10.71454/PA.005.02.0383). Title, authors, and key numbers transcribed from the published PDF directly, not from the abstract alone. The cite_key (`shaikh2026-...`) preserves the original ingest-time slug for cross-reference stability, but the actual first author is Shar (not Shaikh); downstream tooling that derives author display from source metadata should read the `authors:` field, not the cite_key prefix. Note an internal inconsistency in the published paper: the Results prose says "Highest cadmium concentration was found in the samples from Tando jam and Tando Allahyar with mean values mean 0.009 mg/kg" but Table 3 shows Tando Allahyar (S3) at 0.006 mg/kg, the lowest of the six sites; the table is treated as authoritative.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

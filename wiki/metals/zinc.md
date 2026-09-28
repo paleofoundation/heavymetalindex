@@ -24,7 +24,7 @@ The essential-vs-toxic boundary for zinc is dose-dependent. Adequate zinc intake
 
 For infant formula and baby food, zinc is included in regulatory composition requirements rather than contamination limits — the question is whether enough zinc is present, not whether too much is. EU compositional rules for infant formula set minimum and maximum zinc levels per 100 kcal; FDA rules similarly. The Heavy Metal Index does not synthesize zinc compositional adequacy because that work belongs to pediatric-nutrition references rather than to a heavy-metals-in-food index.
 
-Where source pages declare `metals:` arrays including Zn alongside the toxic-metal analytes, the routing audit attaches the source to this page automatically. The Index records the zinc values for completeness as cross-metal context.
+Where source pages declare `metals:` arrays including Zn alongside the toxic-metal analytes, the source routing attaches the source to this page automatically. The Index records the zinc values for completeness as cross-metal context.
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] attaches zinc as an essential-metal-with-toxicity-potential node, covering zinc transport, essentiality, deficiency, high-dose toxicity, metal fume fever, neuronal toxicity, and pancreatic toxicity context. It is a toxicology source, not a food occurrence dataset.
 
@@ -66,7 +66,7 @@ No. Zinc is an essential nutrient, not one of the toxic metals at the center of 
 
 ### Why does a heavy-metals index even have a zinc page if zinc isn't a contaminant?
 
-Zinc shows up alongside the toxic-metal analytes in elemental-survey data, since many ICP-MS multi-element methods report zinc as part of the standard analyte set. Some toxicology sources on cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. When a source's metals list includes zinc next to toxic metals, the routing audit attaches it to this page and the values are recorded for completeness.
+Zinc shows up alongside the toxic-metal analytes in elemental-survey data, since many ICP-MS multi-element methods report zinc as part of the standard analyte set. Some toxicology sources on cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. When a source's metals list includes zinc next to toxic metals, the source routing attaches it to this page and the values are recorded for completeness.
 
 ### Can you have too much zinc, or is more always better?
 
@@ -90,7 +90,7 @@ No. The Index addresses the presence of unwanted contaminants, not the sufficien
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -136,7 +136,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 **[[sources/narayana-murthy2024-premna-village-elements|G. Narayana Murthy, 2024]].** Premna latifolia leaves collected in three Andhra Pradesh villages had different reported elemental concentrations. Village-specific values are preserved as local leafy-vegetable evidence; the paper supplies no replicate counts or uncertainty estimates. Supports geographic variation in six elements in a specific wild edible leaf. It does not establish nutritional adequacy, safety, or a regional market distribution. The source’s characterization of aluminium as an essential nutrient is not adopted.
 
-**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; product routing is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
+**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; the product category is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
 
 **[[sources/bashkin2021-vegetable-risk-review|Vladimir N. Bashkin, 2021]].** Bashkin and Galiulina review vegetable-associated metal exposure assessment and microbial/agronomic risk-management approaches. Chinese and Russian case-study values are secondary reports; they remain traceable to the cited studies and are not counted as new independent occurrence samples. Supports exposure-method and remediation literature discovery. Bacterial effects can increase as well as decrease uptake depending on organism, metal and plant; the review does not establish a universal inoculant intervention. Secondary model outputs are not contemporary health or certification thresholds.
 

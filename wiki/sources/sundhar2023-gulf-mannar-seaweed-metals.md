@@ -93,7 +93,7 @@ Fresh *U. lactuca*, *C. racemosa*, and *K. aliverzii* were hand-collected from t
 
 This paper is routeable occurrence evidence for edible seaweed from India and processing-context evidence for boiled, steamed, and microwave-cooked seaweed matrices. The raw and processed concentration rows should stay separate because cooking changed the food mass and the paper reports both measured processed concentrations and mass-balanced processing-factor estimates. Total arsenic should not be treated as inorganic arsenic, total mercury should not be treated as methylmercury, and total chromium should not be treated as Cr(VI).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
@@ -105,15 +105,6 @@ This paper is routeable occurrence evidence for edible seaweed from India and pr
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.rsma.2023.102827`, raw handle `MFK_effect-of-thermal-processing-on-toxic-heavy-metals`, or cite key `sundhar2023-gulf-mannar-seaweed-metals`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-019.txt`, extracted with `pdftotext -layout`. Table 1 and Table 2 were extractable; table values were copied without unit conversion.
-- Units are preserved as `mg/kg`. The source does not explicitly label dry-weight or wet-weight basis in the table headers; because the sampling and processing sections describe fresh seaweed lots and no drying step before digestion, this page records the basis as fresh/as-processed seaweed and notes the missing explicit basis label rather than converting.
-- Speciation check: As is reported as `As` only and is recorded as tAs; Hg is reported as `Hg` only and is recorded as tHg; Cr is reported as total Cr and is not treated as Cr(VI).
-- The Table 2 mass-balanced values and Table 1 processed concentrations are both retained because they answer different questions: concentration as measured in processed material versus mass-balanced retention/reduction.
-- Brand firewall: the paper reports species, collection region, and laboratory processing methods; no consumer brands are attached to contamination values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

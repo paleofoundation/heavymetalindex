@@ -49,7 +49,7 @@ Samples were oven-dried at 60 C, pulverized with an agate mortar, sieved through
 
 The source supports leafy-vegetable nickel/cobalt context for Ondo, Nigeria. Dry-weight basis must be preserved unless a moisture conversion is explicitly introduced.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/leafy-greens]]
 - [[products/leafy-vegetables-other]]
@@ -57,11 +57,6 @@ The source supports leafy-vegetable nickel/cobalt context for Ondo, Nigeria. Dry
 - [[metals/cobalt]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.51584/IJRIAS.2025.10100000203 and the downloaded PDF.
-- The paper uses a conservative cobalt comparison threshold; the source should be cited for occurrence and risk-model context rather than regulatory-limit authority.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

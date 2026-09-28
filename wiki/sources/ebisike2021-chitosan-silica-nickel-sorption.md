@@ -59,18 +59,12 @@ Courses: Useful for supplier and mitigation training on how chitosan-derived sor
 
 App: Context-only mitigation evidence for nickel-removal strategies; not a consumer-facing product concentration dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/processing]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF title/byline, abstract, methods section, Table 1, discussion, desorption section, conclusion, and references. Products and ingredients are intentionally empty because the source tests spiked aqueous Ni2+ solutions and chitosan-silica aerogel, not consumer-product occurrence. The matrices are descriptive remediation-domain strings; the remediation vocabulary gap follows the pattern documented on existing remediation source pages.
-
-The PDF gives two close but non-identical maximum removal values: the abstract and conclusion state `99.78%`, while the pH-results paragraph states `99.89%` at pH 3. Both are preserved and attributed rather than harmonized.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

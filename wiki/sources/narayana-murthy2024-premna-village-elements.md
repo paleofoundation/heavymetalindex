@@ -45,7 +45,7 @@ Supports geographic variation in six elements in a specific wild edible leaf. It
 
 Evidence Fitness: EF-2 for village-level occurrence values with limited sampling and QA metadata. Regional/sample and basis qualifiers must accompany any later reuse.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[ingredients/leafy-vegetables]]
@@ -55,12 +55,6 @@ Evidence Fitness: EF-2 for village-level occurrence values with limited sampling
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The PDF footer establishes February 2024, volume 12(2), and paperID SE 24205180530. DOI is absent from the PDF; the manifest DOI was independently matched to the same title/byline/year through Crossref on 2026-09-10 (https://api.crossref.org/works/10.70729/se24205180530). First-author family name Narayana Murthy follows the publisher-deposited Crossref record. Existing broad leafy-vegetables ingredient retains species identity in the groups; no nutrient/safety claim inferred.
-
-The preserved Library PDF is identified by `RPHMI_11`; SHA-256 `46ca7eb504ad49d8db02ac448d2d3413058ec883bb76cc1b27bc4e1c7c7bfb6c`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://www.ijser.in/archives/v12i2/SE24205180530.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

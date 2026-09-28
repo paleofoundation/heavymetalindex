@@ -62,16 +62,6 @@ Eight spice samples were bought in October 2015 from Odo-Ori Market in Iwo, Nige
 
 This source contributes Nigeria-market spice occurrence values for Cd, Pb, Cu, and Fe, with direct product routing to the broad spices row. The sample set is small but contains sample-level concentration values and detection-limit labels for lead and cadmium. The source does not measure arsenic, mercury, tin, nickel, chromium, or speciation.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the title page, DOI, methods, Table 1, Table 4, detection-limit footnotes, and conclusion were readable.
-- DOI verified from the first-page header as `10.4172/2380-2391.1000174`; the citation footer also prints a malformed DOI string, `10.41722380-2391.1000174`. DOI, raw handle `MFK_olusakino2016`, and cite-key checks found no existing source page before creation.
-- All sample-level metal values in Key numbers were checked against Table 1 and Table 4. Units are preserved as `mg/kg`; detection-limit footnotes are preserved as printed in `mg/L`.
-- The natural-spices Cu range row in the source prints `4.35 - 8.40`, but the lowest Cu sample value in Table 1 is onion at 4.36 mg/kg. The range row is reproduced as the source prints it; this is a source-internal inconsistency, not a wiki transcription error.
-- Speciation: Fe, Cu, Cd, and Pb are total-element AAS measurements. No arsenic, mercury, chromium, tin, or metal speciation was reported.
-- Brand firewall: the source uses spice descriptors and sample codes; no consumer brand names are attached to contamination values.
-- source metadata slugs were kept broad because not all individual spice descriptors have closed-vocabulary ingredient slugs in the editorial record.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

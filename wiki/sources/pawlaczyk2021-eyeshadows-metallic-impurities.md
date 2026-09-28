@@ -51,7 +51,7 @@ Courses: The study is useful for explaining how color cosmetics can contain trac
 
 App: The dataset supports eye-makeup and children's-makeup evidence surfaces, with jurisdiction and market labels for Poland/EU.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/eye-makeup]]
 - [[products/childrens-makeup]]
@@ -59,12 +59,6 @@ App: The dataset supports eye-makeup and children's-makeup evidence surfaces, wi
 - [[metals/cadmium]]
 - [[metals/barium]]
 - [[metals/thallium]]
-
-## Verification notes
-
-- The paper reports coded manufacturer groups but this page does not reproduce company codes in the key values, preserving the brand firewall.
-- Concentrations are reported in micrograms/kg in Table 2; this page notes mg/kg equivalents only where the authors compare values to regulatory limits.
-- The study measures total element concentrations and does not provide speciation for any metal.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

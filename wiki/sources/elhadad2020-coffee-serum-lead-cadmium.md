@@ -57,19 +57,10 @@ App: Supports exposure-context notes for lead and cadmium. It does not update th
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect. Prior skip was `skip:no-occurrence-data` because the paper had no product concentration measurements.
-- DOI, title, authors, journal, license, NHANES III sample size, discovery/replication phase sizes, coffee-consumption counts, Table 2 lead/cadmium coefficients, Table 3 caffeinated-beverage coefficients, soft-drink dash convention, and methods description were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved where the source prints them: serum lead concentration is labelled `ug/dL`; urinary cadmium is labelled `ng/mL`. The regression coefficients are reported as source-model coefficients, not as biomarker concentration means.
-- Speciation: serum lead is Pb; urinary cadmium is Cd. No arsenic, mercury, or chromium species are part of the heavy-metal result used here.
-- Products and ingredients are intentionally empty because this is an exposure/biomarker association paper, not coffee occurrence evidence.
-- The source's discussion offers coffee contamination as one possible interpretation; the wiki page does not promote that sentence into a product-concentration claim.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

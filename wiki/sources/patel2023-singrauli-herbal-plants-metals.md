@@ -56,7 +56,7 @@ App: Adds regional context for cumin seed and broad botanical/spice materials fr
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/cumin]]
 - [[ingredients/yam]]
@@ -72,14 +72,6 @@ Microbiome: Not addressed.
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[metals/iron]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF first page: International Journal of Chemical and Biological Sciences 2023; 5(2): 25-27, DOI `10.33545/26646765.2023.v5.i2a.66`.
-- The source spells the cumin binomial as `Cuminum Cyminum`; this page preserves the common matrix as cumin seed and routes to the existing `[[ingredients/cumin]]` page.
-- The source includes ginger, but no existing the linked reference record slug is present in this repo. Ginger is therefore documented in the body table but omitted from source metadata ingredient routing.
-- Suran is mapped to the existing broad `[[ingredients/yam]]` slug. The source does not provide enough taxonomy detail in the source metadata layer to create a more specific suran or elephant-foot-yam route during this fire.
-- Evidence Fitness: EF-2 for quantified Cu, Zn, and Fe in three plant materials; EF-3 screening context for Pb, Cr, Cd, and Ni because the paper reports ND without LOD/LOQ. The source should not be used as a distribution-capable benchmark source for Pb, Cr, Cd, or Ni.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

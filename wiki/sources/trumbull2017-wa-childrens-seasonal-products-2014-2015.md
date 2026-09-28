@@ -49,6 +49,7 @@ This Washington State Department of Ecology Hazardous Waste and Toxics Reduction
 - **Retail-store count:** 69 unique retail or online stores in the south Puget Sound area and online.
 - **Purchase date range:** 9 October 2014 to 19 January 2016.
 - **Screening instrument:** X-Ray Fluorescence (XRF) analyser.
+- Antimony above 100 ppm was found in 12 Easter components, 7 Christmas 2014 components, 23 Fourth of July components, 18 Back to School components, 13 Halloween components, and 14 Christmas 2015 components.
 - **Laboratory cryomilling:** 17 samples for metals analysis and 20 samples for phthalate analysis were cryomilled at MEL prior to digestion to handle hard or heterogeneous matrices (Laboratory Procedures p. 7).
 
 ### Target analytes (Table 2, p. 6)
@@ -238,55 +239,31 @@ The report does NOT support:
 - **Courses.** A clear worked example of a multi-sweep, retail-anchored US-state CSPA enforcement programme that combines XRF screening with confirmatory ICP-MS at component-level granularity, with explicit per-sweep QC-deviation transparency (sample-duplicate RPD, matrix-spike recovery, calibration-verification recovery, co-eluting-peak phthalate interferences) and a documented compliance-and-enforcement disposition. Useful for teaching component-level vs product-level metals risk attribution in children's products, and for illustrating how regulatory reporting thresholds (CSPA 100 ppm CHCC) and statutory restrictions (40 ppm Cd / 90 ppm Pb) interact in a single enforcement workflow.
 - **App.** A future consumer app surfacing per-product-type heavy-metals risk for children's seasonal goods should index this report at the product-type level (necklaces, pencil pouches, costume gauntlets, etc.) rather than at the brand level (the report does not provide brand-attributed data).
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/antimony]] — most frequently detected metal across all seven sweeps; >100 ppm detections in 12 / 7 / 23 / 18 / 13 / 14 components across Easter, Christmas 2014, Fourth of July, Back to School, Halloween, and Christmas 2015 respectively; highest single detection 21,200 ppm (Halloween 2015 LED-lights bulb insert).
-- [[metals/arsenic-total]] — analytical total arsenic by ICP-MS; >100 ppm in earring posts, locker chandelier, binder clips, dive-stick marbles, hair clip, ring, necklace chain.
-- [[metals/cadmium]] — 10 statutory exceedances (>40 ppm) across seven sweeps; highest 936,000 ppm in a girl's-shirt necklace (Christmas 2015) — the highest cadmium detection in the report.
-- [[metals/cobalt]] — frequently detected at ≤100 ppm; >100 ppm in earrings post (Easter), spoon component (Christmas 2014), earring posts (Easter), earring post (Fourth of July), snow-cone-machine spinner, patriotic earrings front, locker chandelier, writing-journal clasp, ring.
-- [[metals/lead]] — 19 statutory exceedances (>90 ppm) across seven sweeps; highest 63,500 ppm in the same girl's-shirt necklace (Christmas 2015) as the highest cadmium detection. Other notable exceedances: orange book cover (19,600 ppm), wireless speaker connector (7,170 ppm), green book cover (5,620 ppm), pink pencil pouch (3,840 ppm), batman costume gauntlets (1,240 ppm).
-- [[metals/mercury-total]] — total mercury by ICP-MS at a 0.020 ppm reporting level; few detections, all ≤2.47 ppm (Christmas 2015) and no detection >100 ppm.
-- [[metals/molybdenum]] — frequently detected; highest 11,600 ppm in earring posts (Fourth of July) and 7,760 ppm in earring posts (Easter); both samples concurrently carried high cobalt. Treated by Washington as a CSPA CHCC metal.
-- [[products/children-personal-care]] — direct evidence (cosmetic and personal-care components in Christmas 2014, Valentine's Day 2015, Easter 2015, Fourth of July 2015, Halloween 2015, Christmas 2015 sweeps).
-- [[products/childrens-makeup]] — direct evidence (makeup kits in Halloween 2015, Christmas 2015; Hollywood Makeup Kit, Pop Glam Makeup Set, Smurf Makeup Kit, Spooky Faces Clown Makeup Kit, Horror Value Makeup Kit, Festive Value Makeup Kit components).
-- [[products/childrens-lip-balm-plain]] — direct evidence (peppermint lotion, lip balm, lip gloss components in Christmas 2014, Easter 2015, Fourth of July 2015, Christmas 2015 sweeps).
-- [[products/childrens-lip-balm-mineral-bearing]] — broad context (mineral-bearing children's lip products are within the children's-cosmetic frame the study sampled).
-- [[products/face-paint]] — direct evidence (face-paint and face-painting-kit components in Back to School 2015 and Halloween 2015 sweeps).
-- [[products/baby-lotion-cream]] — broad context (children's leave-on skin-care product class within the procurement frame).
-- [[products/baby-shampoo-body-wash]] — direct evidence (shower gel, body lotion, antibacterial soap components in Christmas 2014, Halloween 2015, Christmas 2015 sweeps).
-- [[products/art-craft-materials]] — direct evidence (Back to School 2015 sweep heavily weighted toward art-and-craft supplies; pencil pouches and book covers were the source of the largest lead exceedances).
-- [[products/toys-painted]] — direct evidence (painted-toy components across all seven sweeps).
-- [[products/toys-stuffed-bean-bag]] — direct evidence (stuffed-animal stuffing, stuffed-animal clothing, gray fur fabric, pink fur fabric components in Christmas 2014, Valentine's Day 2015, Easter 2015 sweeps).
-- [[products/toys-substrate-materials]] — direct evidence (textile, foam, plastic, polymer-material, bio-based-material component matrices across the seven sweeps).
-- [[products/infant-clothing]] — direct evidence (kid's socks, kid's underwear, doll clothes, costume textile components across Christmas 2014, Valentine's Day 2015, Easter 2015, Halloween 2015 sweeps).
-- [[sources/stone2021-wa-metals-childrens-consumer-products]] — the integrated 14-04-014 (Revised 2021) Washington children's-products metals report; the Trumbull 2017 seasonal-products report is one of the Ecology product-testing studies that informs the integrated picture.
-- [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics]] — the parabens-and-metals Quality Assurance Project Plan (Ecology 12-07-021) cited as part of the 'Ecology 2012a,b' planning framework that the Trumbull 2017 seasonal sweeps implement.
-- [[sources/waecology2023-chemicals-cosmetics-phase1]] — successor Washington chemicals-in-cosmetics report (Phase 1).
-- [[sources/waecology2024-chemicals-cosmetics-phase2]] — successor Washington chemicals-in-cosmetics report (Phase 2).
-- [[sources/waecology2024-interim-policy-lead-cosmetics]] — Washington Toxic-Free Cosmetics Act interim policy on lead in cosmetics (operative from 2025).
-
-## Verification notes
-
-Ingested 2026-06-02 by automated editorial review from the archived source file (SHA-256 8c47c303…99628; 10.8 MB; 56 pages incl. Appendix 1). Source-page numbers (Executive Summary p. 1–2, Introduction p. 3, Methods p. 5–6, Laboratory Procedures p. 7, Data Quality p. 8–13, per-sweep results p. 14–48, cross-sweep summary p. 49–51, Conclusions / Compliance and Enforcement / References p. 52) verified against the PDF.
-
-Per Part 12 brand-firewall discipline: the report uses de-identified component IDs (e.g., AM-6-1-5, FM-13-5-3) and product-type descriptors (e.g., "snap bracelet", "batman costume gauntlets", "selfie elfie elf", "Horror Value Makeup Kit") rather than brand-attributed entries. Product-type descriptors are retained in the body where the descriptor anchors a documented statutory exceedance (necessary for downstream product-page synthesis); brand or trade names that appear inside product-type descriptors (e.g., the licensed "Batman" / "Superman" / "Smurf" / "Disney Frozen" / "Hello Kitty" character names that appear in the underlying retail product titles in the report) are property names of underlying intellectual properties and not the manufacturer-brand attributions Part 12 forbids; they are retained as part of the product-type descriptor.
-
-Per Part 14 speciation conventions: arsenic and mercury are reported as totals (tAs, tHg) throughout because EPA Method 6020 ICP-MS yields total metals and the report does not perform iAs / MeHg speciation. The `metals:` source metadata accordingly lists Sb, tAs, Cd, Co, Pb, tHg, Mo (the seven analytes targeted; copper, zinc, and other CSPA CHCC metals from the 2012 Stone QAPP are not in this report's scope).
-
-Per the Halloween 2015 cadmium discrepancy noted in the body table above: the cross-sweep "Cadmium" summary on p. 50 states "Two samples, batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace decoration (61.9 ppm, SH-2-17-1), exceeded the cadmium limit", which is an internal source error — the component ID SH-2-17-1 cannot belong to two different products and the second concentration / component-ID pairing is a clear copy-paste artefact. The Halloween 2015 narrative on p. 39 reads "Two of these samples exceeded the limit of 40 ppm for cadmium: batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace charm decoration (46.1 ppm, PC-2-7-14)." The body table follows the p. 39 narrative as authoritative because it is consistent with Table 19's reported max of 61.9 ppm and the necklace-decoration component-ID convention (PC = product-category code for that sweep).
-
-The QAPP-versus-as-conducted mercury reporting limit (0.020 ppm achieved versus 0.1 ppm planned) and the alternative EPA 200.8 water-method substitution for Christmas 2014 / Valentine's Day 2015 / Easter 2015 are documented in Data Quality: Metals on p. 8 and are noted in the body Methods section. The project manager's judgement that the substitution did "not (notably) impact data quality" is recorded but the parenthetical "(notably)" qualifier is preserved verbatim because it signals an acknowledged but unquantified residual uncertainty.
-
-The parabens analyses (Tables 5, 8, 11, 14, 17, 20, 24 and the "concentrations over 100 ppm" detail tables 21 and 25) and the phthalate analyses (Tables 6, 9, 12, 15, 18, 22, 26) are summarised at the sweep level and the exceedance level in the body; full per-component paraben and phthalate data are out of scope for the HMI metals corpus and were not transcribed into the body. The parabens and phthalates contextual paragraphs in the body are retained because they share the same sample-collection design and CSPA framework as the metals analysis and document the multi-analyte burden in the same components.
-
-The cite-key follows the convention `lastauthor + year + descriptor` (here `trumbull2017-wa-childrens-seasonal-products-2014-2015`). The 2014–2015 in the title is the procurement period; the publication year (and the year used in the cite-key) is 2017 (January 2017 publication date on the title page).
-
-The matrix slug `childrens-seasonal-product` is used in `matrices:` to flag the documentary scope of the report (children's seasonal goods); the slug aligns with the report's own framing ("Children's Seasonal Products Report 2014–2015") and is broader than any single product-type slug in the closed product vocabulary. Routing fan-out to the specific product slugs is handled via the `products:` array.
-
-**Audit notes (editorial review editorial review, 2026-06-02):**
-
-- ✅ Audit verdict PROMOTE. All five checks clean — no ❌ definite-error findings and no ⚠️ concern findings. All seven per-sweep summary tables (Tables 4, 7, 10, 13, 16, 19, 23), all exceedance counts, all component-ID + product-type-descriptor + ppm-value triples for >100 ppm CSPA / >40 ppm Cd / >90 ppm Pb detections, the headline AM-6-1-5 girl's-shirt-necklace four-metal callout (936,000 ppm Cd / 63,500 ppm Pb / 18.8 ppm Sb / 0.233 ppm Hg), and the cross-sweep aggregates (10 Cd >40 ppm; 19 Pb >90 ppm; 60 under-reported CSPA results; 17 statutory-violation results) verified by the editorial review against the PDF tables and narratives. Method/instrument details (EPA 3052 → EPA 200.8 / EPA 6020 ICP-MS; mercury achieved 0.020 ppm RL; BSK Associates for Easter 2015 and Fourth of July 2015 phthalates only) verified against PDF Table 3 and Data Quality narrative. Slug vocabulary (all 12 `products:` slugs, all 7 `[[metals/...]]` wikilinks) verified against the taxonomy snapshot. Part 12 brand-firewall handling (de-identified component IDs + product-type descriptors; licensed character / IP names retained inside descriptors; laboratory vendor names retained under the scientific-method exception) verified clean. Part 2 wiki/HMTc firewall handling (no threshold proposals; statutory limits described as policy thresholds, not toxicologically derived) verified clean.
-- The audit specifically confirmed the wiki's handling of the Halloween 2015 cadmium-exceedance discrepancy: the PDF cross-sweep Summary on p. 50 reads "Two samples, batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace decoration (61.9 ppm, SH-2-17-1), exceeded the cadmium limit" — a clear internal copy-paste artefact (two different products listed with the same concentration and the same component ID is physically impossible). The Halloween 2015 narrative on p. 39 reads "Two of these samples exceeded the limit of 40 ppm for cadmium: batman costume gauntlets (61.9 ppm, SH-2-17-1) and necklace charm decoration (46.1 ppm, PC-2-7-14)." The wiki follows the p. 39 authoritative narrative figure (46.1 ppm, PC-2-7-14) and documents the p. 50 source-side error explicitly. The audit confirms this is defensible handling.
+- [[metals/antimony]]
+- [[metals/arsenic-total]]
+- [[metals/cadmium]]
+- [[metals/cobalt]]
+- [[metals/lead]]
+- [[metals/mercury-total]]
+- [[metals/molybdenum]]
+- [[products/children-personal-care]]
+- [[products/childrens-makeup]]
+- [[products/childrens-lip-balm-plain]]
+- [[products/childrens-lip-balm-mineral-bearing]]
+- [[products/face-paint]]
+- [[products/baby-lotion-cream]]
+- [[products/baby-shampoo-body-wash]]
+- [[products/art-craft-materials]]
+- [[products/toys-painted]]
+- [[products/toys-stuffed-bean-bag]]
+- [[products/toys-substrate-materials]]
+- [[products/infant-clothing]]
+- [[sources/waecology2023-chemicals-cosmetics-phase1]]
+- [[sources/waecology2024-chemicals-cosmetics-phase2]]
+- [[sources/waecology2024-interim-policy-lead-cosmetics]]
+- [[metals/...]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

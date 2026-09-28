@@ -48,15 +48,11 @@ Courses: Useful soil-remediation example showing how amendment chemistry is used
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The paper is in-scope lane a2 mitigation evidence because it evaluates a cadmium-stress intervention in spinach.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -58,24 +58,6 @@ Two additional non-natural pathways are described: aluminium-containing food add
 
 Tertiary regulatory communications document. No original measurement, no sample frame, no analytical method, no exposure calculation. Cites two EFSA scientific opinions (EFSA Journal 6(7):754 [2008]; EFSA Journal 10(4):411E [2013]) and three EU regulations (1935/2004, 380/2012, 923/2014). The bibliography is five entries.
 
-## Verification notes
-
-Merge-enhance pass 2026-05-28 (automated editorial review) of an earlier ingest that contained multiple defects:
-
-- **Publisher misattributed.** The prior version listed `authors: [EFSA]`, `publication: "European Food Safety Authority"`, and titled the page "EFSA 2021 — …". The source is published by EUFIC (European Food Information Council), an industry-funded non-profit communications organisation, not EFSA. EUFIC's logo is on the cover page. EFSA appears in the text only as a cited authority. Corrected authors, publication, page heading, and source_type accordingly.
-- **Cite-key preserved despite misattribution.** The cite-key `efsa2021-aluminium-food-qa` embeds the wrong publisher attribution. It has been preserved during this pass because it is backlinked from 10+ wiki pages (the aluminum metal page, four infant-formula product pages, five ingredient pages including tea/cocoa/spinach/mushrooms/herbs-and-spices, and the log) and from several the structured evidence record artifacts. Renaming would break those links silently. The cite-key misattribution is noted here for a future rename pass that can update inbound references atomically.
-- **Source_type corrected from `government-report` to `ngo-report`.** EUFIC is a Belgian non-profit, not a government agency. Aligns with the ngo-report convention used for CFA, CEPHED, ESCP, and the Consumer Reports source.
-- **Evidence-tier dropped from A to B with rationale.** A-tier is reserved for peer-reviewed primary research and government-agency scientific opinions. A consumer Q&A summarising secondary EFSA opinions does not qualify. B is the NGO/industry-communication tier per the schema convention; the tier rationale flags that this source contributes no original data.
-- **Invalid matrices slugs removed.** Prior version had `matrices: [dietary-intake, food-additives, cookware-migration]`, none of which are food-matrix vocabulary slugs (the matrices field carries food matrices like rice, fish, herbs, etc.). The Q&A measures no specific matrix; set to `[]`.
-- **Products field cleared.** Prior version routed this source to `products/infant-formula`. The Q&A mentions infant formula once, in passing, as a member of the "dairy and soya products" group that can contain aluminium. There is no infant-formula occurrence data, no infant-formula-specific exposure estimate, and no infant-formula regulatory citation. Routing a contentless reference to all four infant-formula product pages overstates this source. Set to `[]`.
-- **`## Implications` section removed.** The legacy section contained Part 2 firewall violations: "HMT&C product threshold-setting pages for products containing high-Al ingredients (tea, cocoa, spices) should reference these values." Source pages report what one paper found; they do not direct HMT&C threshold-setting. The section also contained "courses" and "app" implications that are speculative downstream framing rather than what the source states.
-- **`## Wiki pages updated on ingest` section removed.** Legacy heading per skill v2 EXISTING-path defect list. Downstream routing is the routing audit's job, not the source page's.
-- **`raw_handle` updated from placeholder.** Prior version had `raw_handle: manual-fetch-source-retrieval` (the parent-folder placeholder used in ~100 legacy ingests). Updated to `MFK_aluminum-in-food-qa-sources-safety-and-regulations` per the v2 MFK_ handle convention.
-- **`raw_sha256` populated** (74a64521bc8c0fc4423efc9efc71f181a2698dc034ffcd03eb53df3249ecbe3b) from the on-disk PDF.
-- **`access_url` added.** Pointing at the EUFIC article URL (assumed to be the live home of this Q&A page based on the document layout, branding, and the EUFIC publication pattern; the URL has not been verified as still live during this pass).
-- **`sample_population` cleared** (prior version invented "General population dietary aluminium exposure, EU context"; the Q&A has no sample population).
-- The substantive Q&A content — six questions, the TWI/PTWI values, the qualitative dietary-source list, the regulatory framework — is preserved and restructured into Key numbers / Dietary sources stated / Regulatory landscape stated / Methods sections that match current source-page conventions.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

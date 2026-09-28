@@ -57,7 +57,7 @@ Courses: Useful example for post-harvest chemical treatment as a contamination l
 
 App: Supports a qualitative note that artificial carbide ripening can increase measured metal residues in fruit, while the study's absolute values remain low and Nigeria-specific.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fresh-fruit]]
 - [[ingredients/pineapple]]
@@ -67,10 +67,6 @@ App: Supports a qualitative note that artificial carbide ripening can increase m
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, sample preparation, metal determination method, Table 1 fruit concentrations, Table 2 EDI/HQ values, Figure 1 hazard-index text, discussion, and conclusions. The paper sometimes writes "FOA" where FAO is evidently intended; this page preserves the cited numerical limits without treating them as independently verified regulatory values. Chromium is total chromium, not Cr(VI), and arsenic is total arsenic, not inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

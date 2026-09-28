@@ -55,21 +55,13 @@ Pleurotus ostreatus (strain Huimei No. 2) was cultivated on seven substrate form
 
 This source contributes cultivated edible-mushroom occurrence context for Pb, Cd, Hg, and total arsenic under experimental substrate conditions. It is useful for ingredient-level mushroom contamination and substrate-transfer context, but it should not be treated as routine retail-market evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Batch 3 auto-fetched ingest, 2026-05-25. The wishlist row targeted mixed fruit, but the actual paper measures oyster mushroom fruiting bodies.
-- Speciation: arsenic and mercury are total/unspecified measurements; do not treat them as inorganic arsenic or methylmercury.
-- Basis: mushroom concentrations are dry-weight values. The authors discuss fresh-mushroom regulatory limits but note the reported mushroom data are dried fruiting-body measurements.
-- Mushroom routing: routed to the umbrella [[ingredients/mushrooms]] scaffold. `wild-mushrooms` is reserved for foraged species (porcini, chanterelle, morel, boletus per the alias list); this paper studies cultivated Pleurotus ostreatus and must not aggregate into the wild-mushroom contamination profile.
-- Audited 2026-06-08 (autonomous audit): corrected lowest mushroom Pb from a Cd-column transposition (0.0550 mg/kg in T6) to the actual lowest Pb value (0.7850 ± 0.0350 mg/kg in T4); added treatment attribution for highest Cd (T3); dropped misrouted `vegetables` and `wild-mushrooms` ingredients in favor of the umbrella `mushrooms` slug; named the testing laboratory (Pony Testing International Group, Beijing) in Methods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

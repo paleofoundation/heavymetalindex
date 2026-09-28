@@ -48,17 +48,13 @@ Courses: Useful for teaching combined chemical-and-mycotoxin contaminant screeni
 
 App: Aflatoxin M1 finding (MSUD formula exceeded the EU 0.05 µg/kg ceiling) is a documented occurrence event but is outside the heavy-metals app scope.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[ingredients/infant-formula-powder]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-`ingredients:` left empty: the paper studies finished specialty metabolic-disorder formula products rather than naming a specific milk-derived ingredient with measured values, and no taxonomy ingredient slug captures "specialty metabolic-disorder formula" without overspecifying. The routing layer will fan `products/infant-formula-powder` out to non-soy and soy-based powder siblings; the paper does not specify the soy/non-soy composition of these specialty disorder-specific formulas, so leaving the broader scope is appropriate.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

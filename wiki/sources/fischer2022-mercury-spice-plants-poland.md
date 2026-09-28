@@ -101,20 +101,9 @@ Study limitations: small group sizes (notably n=4 organic commercial samples; n=
 
 **App:** Provides total-Hg occurrence values for four leafy herb species in Polish/EU supply context. Cultivation-origin metadata (commercial vs. home-grown, near vs. far from coal-fired industrial point sources) is informative for app-side scoring of provenance categories where reported.
 
-## Verification notes
-
-2026-05-29 merge-enhance pass (v2.0 skill): re-read PDF cover-to-cover including all tables.
-
-- Corrected broken regulation wikilink: `[[regulations/eu-reg-2018-73-mercury-herbs]]` → `[[regulations/eu-reg-2018-73-mercury-compounds-mrls]]` (the existing regulation page slug).
-- Corrected misattribution of the 12.90 µg/kg figure: prior page text "Płoki ... e.g., peppermint up to 12.90 µg/kg" implied 12.90 was a peppermint-specific value. Per paper page 5, "Hg concentration was the highest for all plants (12.90 µg/kg)" — this is the location median across all four species at Płoki (visible in Figure 3), not a peppermint-specific value. The peppermint maximum at any location is captured by the home-grown peppermint mean of 14.18 µg/kg (text §3) and the overall range maximum of 17.35 µg/kg.
-- Removed `fresh-herbs` from `matrices:`: all 48 samples (both commercial and home-grown) were measured as dried plant material (home-grown samples were air-dried at room temperature before grinding and analysis, paper page 3). `dried-herbs` and `spices` better describe what was measured; `fresh-herbs` is retained as an `ingredients:` wikilink because the home-grown subset documents fresh-grown supply that was then dried for the analysis.
-- Added `[[ingredients/parsley]]` to `ingredients:`: parsley has a dedicated wiki ingredient page and this paper provides species-specific parsley data (n=12, mean 6.72 µg/kg overall and 12.19 µg/kg maximum at Płoki).
-- Populated `sampling_locations:` from Table 1 (Katowice, Mysłowice, Jastrząb in Śląskie voivodeship; Płoki in Małopolskie; Jemielnica in Opolskie).
-- Trimmed Part 2 wiki/HMTc-firewall slips in `## Implications`: removed an HMTc operational directive ("brands sourcing fresh herbs from contract growers in industrially contaminated regions should include Hg testing in their QC protocols"); removed a synthesis claim ("a recurring theme in heavy-metals literature"); reframed consumer-risk wording as neutral occurrence-data contribution per Part 2.
-- Paper-internal labelling discrepancy noted, not flagged as a wiki error: paper page 8 reports "For the tested cultivated plants, the EDI value was 0.0000515 mg/kg/day, and in the group of commercial products it was 0.0000947 mg/kg/day" — but the underlying means (Table 2: cultivated 9.47 µg/kg, commercial 5.15 µg/kg) imply the reverse assignment, and EDI = concentration × intake / bw confirms cultivated → 0.0000947 and commercial → 0.0000515. The wiki page assigns EDI values to the group that matches each group's reported mean; the paper text has the two labels switched.
-- Paper-internal location-naming discrepancy noted: Table 1 lists five collection points (Katowice, Mysłowice, Jastrząb, Płoki, Jemielnica), but Figure 3 plots a slightly different five-name set (Dąbrówka Mała, Mysłowice, Płoki, Poraj, Jemielnica). Treated as the paper's own inconsistency; not amended on the wiki page.
-
 ## Related evidence
+
+- [[regulations/eu-reg-2018-73-mercury-herbs]]
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/dried-herbs]]
 - [[ingredients/fresh-herbs]]

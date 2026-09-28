@@ -66,15 +66,6 @@ The pot experiment used arsenic-free peat moss as the growing medium and sodium 
 
 This source provides experimental soil-to-lentil transfer evidence for total arsenic in edible lentil grains. It supports legume/pulse routing as supply-chain evidence, but it should not be treated as a market distribution for lentil products because arsenic treatments were deliberately imposed in a controlled pot study. No inorganic arsenic speciation was measured, so the grain values remain total arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, Results grain-accumulation section, Tables 2-3, conclusion, methods, and license text were checked in `/tmp/f3_unrepresented_texts/s41598-019-45855-z.txt`.
-- DOI `10.1038/s41598-019-45855-z`, raw handle `MFK_s41598-019-45855-z`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `mg kg−1`, `mg As kg−1 peat moss`, and `µg/l or ppb`; no conversion was performed.
-- Speciation: the source measured total arsenic by FI-HG-AAS. It discusses inorganic arsenic toxicity in the background, but the lentil values are not speciated.
-- Brand firewall: no sampled food product brands were reported.
-- source metadata slugs were checked against the editorial record; lentil is routed through the existing lentils/legumes ingredients and the broad legumes-pulses product row.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

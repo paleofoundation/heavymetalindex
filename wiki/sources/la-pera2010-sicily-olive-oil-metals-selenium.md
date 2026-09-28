@@ -92,7 +92,7 @@ All concentrations are in **µg/kg (= ppb) on a whole-oil basis** as reported in
 
 **Provenance discriminator.** The CDA result — that Sicilian olive cultivars can be classified at 86–95% accuracy from a five-element fingerprint dominated by Se, Cu, Zn — is methodologically interesting for traceability/anti-fraud applications but does not bear directly on contamination thresholds. It is logged here so the source can be cited from olive-oil pages on the question of whether cultivar/origin meaningfully predicts contamination, not just botanical identity.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/olives]]
@@ -102,17 +102,7 @@ All concentrations are in **µg/kg (= ppb) on a whole-oil basis** as reported in
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[regulations/eu-466-2001-contaminants-superseded]]
-
-## Verification notes
-
-- 2026-06-01 fresh ingest (Claude, MFK June 1 batch). Cite-key `la-pera2010-sicily-olive-oil-metals-selenium`. No prior wiki source page matched on DOI/handle/cite-key — NEW path.
-- **Source-internal data-integrity note (Table 18.8).** Multiple cells in Table 18.8 print max/min pairs in apparently transposed order — e.g., BL 2001 Pb prints "max 20.8; min 34.6" (mathematically max < min). The likely typographical pattern is consistent across BL 2001 (Pb, Cu, Zn, Se all transposed) and partially in NB 2001 (Cu only). Cell means and SDs are mathematically self-consistent and are used as authoritative; the printed max/min values are reproduced verbatim with the "Table prints" qualifier so future readers see what the source actually shows. This is the obvious mirroring pattern referenced in the v2 skill's stop-condition list — paper-internal contradiction is logged but does not block ingest.
-- **2001 sample count discrepancy.** §18.5.2 reads "24 samples of Sicilian virgin olive oils produced from three different cultivars in 2000 crop year" — the year is a typo (should read 2001), and the count (24) disagrees with Table 18.4 which gives 2001 totals of 10 + 10 + 8 = 28. Table 18.4 is taken as authoritative for sample counts.
-- **DOI.** No DOI is printed on the chapter pages read; book chapter DOIs in this Elsevier volume typically follow the form 10.1016/B978-0-12-374420-3.00018-X but I do not have authoritative confirmation. source metadata `doi:` left null with `no_doi_assigned: true` marker per the wiki's DOI-fallback convention; `access_url` set to the publisher's parent-volume page at sciencedirect.com (ISBN 9780123744203). ISBN 978-0-12-374420-3 and chapter number 18 are also captured in the `publication:` field.
-- **License.** Copyright © 2010 Elsevier Inc., "All rights of reproduction in any form reserved." Not open access; `license:` set to "not confirmed" pending licensing-database check.
-- **Metals source metadata.** Includes Se because the paper measures it; no `metals/selenium` wiki page exists in the current taxonomy snapshot, so no `[[metals/selenium]]` wikilink appears in the source-touches section. Routing-audit may treat this as soft-unmatched; the analyte should still appear in the source metadata for correct routing coverage.
-- **Brand firewall.** No brand names appear in source; cultivar names (Nocellara del Belice, Biancolilla, Cerasuola) and PDO zones (Valle del Belice, Val di Mazara, Valli Trapanesi) are botanical/geographic, not brand identifiers.
-- **Regulation page reference.** EC 466/2001 is cited by the paper as setting Pb at 0.1 mg/kg for olive oil; the wiki regulation slug `eu-466-2001-contaminants-superseded` is the correct (now-superseded) referent. The current EU regulation on Pb in olive oil is captured separately and is outside this paper's scope.
+- [[metals/selenium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

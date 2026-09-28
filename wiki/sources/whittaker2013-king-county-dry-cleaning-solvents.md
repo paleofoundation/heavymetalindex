@@ -87,11 +87,6 @@ PDF retrieved through the manual-fetch backlog from a source-retrieval download 
 - [[metals/chromium]]
 - [[metals/barium]]
 
-## Verification notes
-
-- Audit editorial review (2026-06-03) flagged tier_rationale incorrectly lumping VOC method numbers as "8260C/8270D"; verified against source Tables 5, 6, 7 (pages 14–15) — still-bottom TCLP VOCs use 8260B, product and separator-water VOCs use 8260C, both still-bottom and other SVOCs use 8270D (with 1311 leach for still bottoms). Corrected tier_rationale to distinguish the two VOC methods. Methods (brief) section was already accurate (8260B for still-bottom VOCs).
-- Audit editorial review flagged `Ba` as outside the HMI 10-metal abbreviation set and the two matrix slugs (`dry-cleaning-still-bottom`, `dry-cleaning-separator-water`) as new vocabulary. Both are deliberate, consistent with existing sibling source pages that use measured non-core metals (e.g., Cu, Zn, Mn, Co in alkahachi2022-soil-metals-kirkuk-iraq) and explicitly flagged in Provenance notes. No change required; surfacing here for taxonomy-review queue.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

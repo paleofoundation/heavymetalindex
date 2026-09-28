@@ -90,15 +90,6 @@ Retail foods were purchased in Whitehorse in January-February `1998` and Ottawa 
 
 This source supplies Canadian total-diet evidence for total mercury, with fish and fish products clearly dominating the occurrence and intake signal. It supports seafood, fish, freshwater-fish, canned-fish, shellfish, and broad infant-food routing for total mercury context. It should not be used as measured methylmercury occurrence; any MeHg comparison in the paper is a guidance comparison applied to total-mercury intake.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the abstract, Tables 3-6, Methods, Dietary intake of mercury, and Conclusions were checked in `/tmp/ingest_f3_dabeka2003.txt`.
-- DOI `10.1080/0265203031000119034`, raw handle `MFK_dabeka2003`, and cite-key checks found no existing source page before creation.
-- Concentration values are preserved as `ng g−1`; intake values are preserved as `µg kg−1 day−1` from the source table. No conversion to ppm, wet-weight, or weekly units was performed.
-- Speciation: the occurrence measurements are total mercury only. Methylmercury is discussed only as a health-guidance comparison and is not treated as measured MeHg.
-- Brand firewall: no brand-level contamination values are reported.
-- source metadata slugs were checked against the editorial record; missing narrow slugs include composite-fish subtypes and fast-food composite types, so broad routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

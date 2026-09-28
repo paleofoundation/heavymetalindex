@@ -47,7 +47,7 @@ Chicken tissues were digested and analyzed by atomic absorption spectrophotometr
 
 The source supports poultry and organ-meat occurrence evidence for Cd and Zn in an Iranian retail-market setting. Silver is recorded as broader trace-element context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[ingredients/poultry]]
@@ -56,10 +56,6 @@ The source supports poultry and organ-meat occurrence evidence for Cd and Zn in 
 - [[metals/cadmium]]
 - [[metals/zinc]]
 - [[metals/silver]]
-
-## Verification notes
-
-The paper reports values by tissue type, so routing should distinguish muscle-meat context from liver/heart organ-meat context when downstream extraction supports that granularity. The abstract and results/table disagree for several Zn and Ag cells; this page follows the results narrative and Table 1 rather than the abstract.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

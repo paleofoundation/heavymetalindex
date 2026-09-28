@@ -28,4 +28,4 @@ A methodology page will be added before the public launch, describing how papers
 
 ## Status
 
-This wiki is in the early build phase. The first batch of ingests is in progress, beginning with cadmium as the pilot metal. Expect substantial gaps until the pilot is complete. Current progress can be traced through [[log]].
+Coverage is still being built out. Cadmium is the first metal with a worked synthesis, and other metals and foods are added as the literature is read. Gaps are named on the pages they affect.

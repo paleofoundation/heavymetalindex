@@ -90,17 +90,11 @@ Courses: Useful case study for coupled chemical speciation, plant uptake, and mi
 
 App: Route as Cr(VI) wastewater remediation context. Do not apply the 80 mg/L synthetic influent, substrate mg/kg, or plant-tissue mg/kg values to consumer water, foods, or crop benchmark pools.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
 - [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/app13053309`; no DOI conflict was observed. The PDF text extraction duplicates some two-column lines, but the numeric table values are visible in the repeated table blocks and agree with the abstract/conclusion for the headline 520 mV, 93.73% COD removal, and 97.77% Cr(VI) removal. Methods describe direct measurement of Cr(VI) and total Cr; the Cr(III) values are reported in the paper's tables and are interpreted here as the study's reported species balance rather than independently speciated isotope-dilution Cr(III). This is synthetic wastewater remediation evidence, not food or consumer-water occurrence evidence.
-
-Audit editorial review (2026-06-02) flagged `[[mitigation/remediation-evidence]]` as a missing taxonomy target; verified against the wiki — false positive, the linked reference record exists and the wikilink resolves. The audit's taxonomy snapshot did not include the `mitigation/` area. Audit editorial review flagged `Cr-III` as a novel metal abbreviation; verified — false positive, `Cr-III` is the standard speciation counterpart to `Cr-VI` and is widely used across the source corpus, consistent with the iAs/tAs and MeHg/tHg speciation discipline. Audit editorial review flagged the matrices vocabulary (chromium-wastewater, constructed-wetland, microbial-fuel-cell, plant-tissue, activated-carbon-substrate) as non-standard; verified — false positive, these matrices accurately describe a non-food remediation study and the routing layer correctly records the source as advisory (products/ingredients legitimately empty) rather than blocking-malformed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

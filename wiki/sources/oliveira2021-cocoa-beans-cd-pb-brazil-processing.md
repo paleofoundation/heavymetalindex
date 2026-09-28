@@ -163,10 +163,6 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 - [[regulations/china-gb-2762-2012-contaminants-superseded]]
 - [[regulations/codex-cadmium-mls]]
 
-## Verification notes
-
-- 2026-06-02 — Fresh-context audit editorial review (general-purpose) returned REVISE with two ⚠️ in Check 2 and three ⚠️ in Check 5. Applied: (i) softened the cross-source "consistent with" framing in §3.3 to an observational note that defers cross-source reconciliation to a synthesis pass; (ii) reworded the Implications/Certification block to remove a clean/dirty subcategory pre-decision (Part 19 / Part 2 firewall — clean/dirty designations are Standards Workbench outputs and do not live in the linked reference record) and to remove a prescriptive "belongs in chocolate Levers section" implication-list line; (iii) added regulation wikilinks for EU 1881/2006, EU 2021/1323, EU 2023/915, China GB 2762-2012, and Codex Cd MLs to fan the source to those pages. Findings rejected as false positives: none. Matrices vocabulary (`cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate`) is intentionally form-specific because the paper operationally distinguishes these as separate sample forms with separate measured values; sibling source `cbi2024-cocoa-eu-market-requirements` uses overlapping vocabulary (`cocoa, chocolate, cocoa-powder, dark-chocolate, milk-chocolate`).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

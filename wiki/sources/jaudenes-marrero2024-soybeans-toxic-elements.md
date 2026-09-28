@@ -50,7 +50,7 @@ Courses: Useful for explaining that soy-type legumes can differ materially by sp
 
 App: Eligible for soybean and legume occurrence context after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/soy-products]]
 - [[products/legumes-pulses-other]]
@@ -59,10 +59,6 @@ App: Eligible for soybean and legume occurrence context after synthesis.
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The source is direct edible-bean occurrence evidence, not merely background toxicology.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

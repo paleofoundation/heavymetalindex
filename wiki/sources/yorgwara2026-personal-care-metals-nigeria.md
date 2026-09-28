@@ -63,7 +63,7 @@ Courses: The source is useful for teaching cosmetic-source routing, broad produc
 
 App: If adult personal-care profiles are expanded, the category ranges and risk-calculation caveats can support a Nigeria-market context card. The source should not be used to claim iAs, MeHg, or Cr(VI), and its source-calculated dermal risk metrics should remain separate from product-concentration occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lipstick]]
 - [[products/eye-makeup]]
@@ -82,17 +82,6 @@ App: If adult personal-care profiles are expanded, the category ranges and risk-
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_personal_care_heavy_metals_2026.txt`. The title/byline, DOI block, abstract, methods, Tables 4.1-4.9, discussion, and conclusion were checked against this page.
-- DOI `10.56201/rjpst.vol.9.no2.2026.pg20.37`, title text, raw handle `MFK_assessment-of-heavy-metal-concentration-in-some`, raw SHA-256 `1a048149a6857c697b3b3dcadee8b2a1845ae2fa8ed11305a03de3ff019c22a4`, and candidate cite-key `yorgwara2026-personal-care-metals-nigeria` were searched before creation; no existing source page was found.
-- Units are copied exactly from the source tables as `mg/g` for facial cosmetics and `mg/L` for skin/body-care and hair-care cosmetics. No conversion to ppm, mg/kg, or ppb was performed.
-- Speciation: the paper reports `As` and `Hg` only; this page records them as total arsenic (`tAs`) and total mercury (`tHg`) and does not promote them to inorganic arsenic or methylmercury. The paper discusses chromium toxicity generally, but its analytical tables report total Cr, not Cr(VI).
-- Source-side inconsistencies retained rather than corrected: Table 4.1 has a Cd maximum of `0.86 mg/g` while the prose says `0.89 mg/g`; Table 4.2 and Table 4.3 headers use `mg/L` while surrounding prose often says `mg/g`; the Table 4.3 total-As maximum is `0.88 mg/L` while the prose says `0.58 mg/g`; Table 4.5 contains HI values below the prose-stated minimum `9.75E-05`; and Table 4.6 contains Pb LCR values higher than the prose-stated maximum `1.05E-07`.
-- Brand firewall: Tables 4.1-4.8 attach named products/brands to contamination and risk values. This page reports only product-category ranges and de-identified risk maxima; no consumer brand or shade/product name is attached to a contamination value.
-- Evidence tier: `C` because the paper is peer-reviewed and contains primary occurrence tables, but the methods and reporting are weak for benchmark use: no sampling year, no LOD/LOQ, no CRM or recovery results, no replicate precision, no uncertainty, inconsistent units, and several table/prose discrepancies.
-- Routing: all product slugs used in source metadata appear in the editorial record. Missing exact slugs: the snapshot has no non-retired adult lip-products slug, no adult bar-soap/bathing-soap slug, no facial-powder-only slug, and no explicit hair-food slug. This page uses broad available products (`lipstick`, `body-wash-shower-gel`, `makeup-foundation-powders-blush`, and `leave-on-hair-preparations`) rather than inventing new slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

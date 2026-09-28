@@ -81,21 +81,12 @@ App: Display this source as experimental, dry-weight, total-mercury evidence for
 
 Microbiome: Not directly addressed in this paper.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/mercury-total]]
-- [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
 - [[regulations/china-gb-2762-2017-contaminants-superseded]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Replaced product-empty and non-vocabulary matrix routing with `products/rice-bulk-grain` and broad matrices `rice` and `soil`.
-- Replaced certification-threshold language with source-only implications.
-- Created [[regulations/eu-reg-2018-73-mercury-compounds-mrls]] because the source uses EU Regulation 2018/73 as the 10 ug/kg rice comparator.
-- Strict brand-firewall check: sampled commercial cultivar names are reduced to source codes (FA473, FA2000, FAM); instrument/software/vendor names are retained only as Methods details under the Part 12 scientific-method exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

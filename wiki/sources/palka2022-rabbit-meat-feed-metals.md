@@ -54,7 +54,7 @@ App: The source can support rabbit/game-meat evidence cards for Cd, Pb, Ni, Cu, 
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
@@ -64,10 +64,6 @@ Microbiome: Not applicable.
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/copper]]
-
-## Verification notes
-
-The DOI, authors, journal, publication date, and CC BY license are visible on the first page of the PDF. The auto-fetched filename contains `2023`, but the actual article was published in 2022 as Animals 12, article 827. A duplicate auto-fetched copy exists under the lead-targeted vitamin-mineral supplement filename; this page uses the cadmium-targeted copy as the canonical raw path.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

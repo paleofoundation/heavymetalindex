@@ -72,7 +72,7 @@ App: Route Zn, Fe, and Cu as nutrient-metal context for powdered formula and bre
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/zinc]]
 - [[metals/iron]]
@@ -84,14 +84,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-dairy]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula Cu/Fe/Zn wishlist. The same DOI appeared in three downloaded wishlist rows targeting Cu, Fe, and Zn; this page is the canonical source page for those duplicate downloads.
-- Strict brand firewall: the source tables identify commercial formula products by brand name, but this page reports only aggregate anonymized product-group values and product-form descriptors.
-- Unit discipline: the abstract describes formula ranges in mg/L, while Tables 6 and 7 label the formula measurements as mg/100 g powder. This page uses the table unit for formula values and the Table 8 unit for human milk.
-- The paper reports total Zn, Fe, and Cu only; no species-level issue applies.
-- Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

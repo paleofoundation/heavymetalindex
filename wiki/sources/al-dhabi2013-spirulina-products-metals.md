@@ -60,7 +60,7 @@ The study obtained 25 Spirulina products from specialist shops. Tablet samples w
 
 This source adds a small, original occurrence dataset for algae-based dietary supplements, specifically Spirulina tablets and capsules. It is most useful for the `supplements-algae-seaweed-based` and broad `dietary-supplements` product rows because it measures products marketed for direct human consumption rather than cultivation biomass or environmental algae. The study did not measure arsenic, cadmium, lead, chromium, or methylmercury; it should therefore not be used to fill those analyte distributions for Spirulina supplements.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-algae-seaweed-based]]
 - [[products/dietary-supplements]]
@@ -72,15 +72,6 @@ This source adds a small, original occurrence dataset for algae-based dietary su
 - [[metals/platinum]]
 - [[metals/magnesium]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.sjbs.2013.04.006`, raw handle `MFK_al-dhabi2013`, title text, or cite key `al-dhabi2013-spirulina-products-metals`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-025.txt`, extracted with `pdftotext -layout`. The concentration ranges match the abstract and Table 2, and the sample count/form split matches the Methods text.
-- Units and basis are preserved as `mg/kg d.w.`; no dry-to-wet or dose conversion was performed. The paper's Table 4 daily-intake comparators are quoted only as source-side interpretation.
-- Speciation check: Hg is not speciated and is recorded as tHg. The paper does not report MeHg, inorganic mercury, arsenic, cadmium, lead, or chromium data.
-- Brand firewall: Table 1 lists product codes, manufacturers, and countries of origin, but this page does not reproduce brand/manufacturer names or attach contamination values to product codes. Values are summarized at the Spirulina supplement category level.
-- Missing-slug note: the taxonomy snapshot has no exact `spirulina` ingredient slug. Following the existing Spirulina/Chlorella source-page convention, `ingredients: []` is left blank while products route to algae/seaweed supplements and dietary-supplement oral solid rows.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

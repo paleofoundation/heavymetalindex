@@ -47,16 +47,12 @@ The authors purchased nine 400 g packages of brown rice in Poland, homogenized t
 
 The source supports rice-bulk-grain evidence for total arsenic and inorganic arsenic in brown rice sold in Poland. It is a small method-application sample set rather than a market-representative survey, so its strongest role is routeable occurrence context and method corroboration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-The source reports concentrations in ng/g dry weight, equivalent to ug/kg. Arsenic species are separated as total As, inorganic As, and organic As by difference; no brand identities were transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

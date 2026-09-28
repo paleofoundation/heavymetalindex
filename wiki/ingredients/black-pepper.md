@@ -55,7 +55,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/sabri2025-moroccan-spices-casablanca-metals|Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco]]<span class="hmi-ref-meta">Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. · World's Veterinary Journal 15(4): 863-881 · 2025 · [doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/tinggi2025-spices-herbs-queensland|Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure]]<span class="hmi-ref-meta">Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S · Journal of Environmental Exposure Assessment · 2025 · [doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -70,7 +70,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

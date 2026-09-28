@@ -67,15 +67,6 @@ From January to May `2007`, seafood was randomly purchased in local fish markets
 
 This source provides Italian market seafood occurrence evidence for Pb, Cd, total Hg, and total As in fish, cephalopod, and mussel product forms. It supports seafood and shellfish routing on a wet-weight `ng/g ww` basis, with fresh, aquaculture, and frozen market categories preserved. Total Hg should remain total Hg unless a later source provides measured methylmercury values, and total As should not be promoted to inorganic As.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Tables 1-4 were verified against rendered page images `/tmp/cirillo2010-page-04.png` and `/tmp/cirillo2010-page-05.png` because the text layer flattened less-than signs into leading `5` characters.
-- DOI `10.1080/19440041003636646`, raw handle `MFK_cirillo2010`, and cite-key checks found no existing source page before creation.
-- Table values preserve the rendered source's `<20`, `<0.8`, `<5`, and `<10` censored values and the source's `ng/g ww` units. Weekly intake values preserve the paper's printed `mg/kg bw` units; no conversion was performed.
-- Speciation: Hg is reported as total Hg and As as total As. The paper's methylmercury discussion is an estimated factor from total Hg, not measured MeHg, and is not used as a methylmercury occurrence value.
-- Brand firewall: samples were market-category/species groups, not branded products.
-- source metadata slugs were checked against the editorial record; narrow slugs for seabass, seabream, hake, mackerel, mullet, cephalopods, cuttlefish, octopus, squid, and mussels are not all available as product rows, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

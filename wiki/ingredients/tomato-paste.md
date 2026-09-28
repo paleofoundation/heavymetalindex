@@ -54,7 +54,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland|Assessment of cadmium and lead content in tomatoes and tomato products]]<span class="hmi-ref-meta">Grochowska-Niedworok E, Nieć J, and Baranowska R · Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) · 2020 · [doi.org/10.32394/rpzh.2020.0126](https://doi.org/10.32394/rpzh.2020.0126)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/david2008-heavy-metals-canned-tomato-paste-romania|The heavy metals analyses in canned tomato paste]]<span class="hmi-ref-meta">David I, Ştefănuţ Mariana Nela, Balcu I, and Berbentea F · Journal of Agroalimentary Processes and Technologies · 2008</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -68,7 +68,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

@@ -91,7 +91,7 @@ Courses: Useful for teaching multi-element ICP-MS dairy methodology (CRM selecti
 
 App: Provides occurrence priors for raw cow, goat, buffalo, camel, and yak milk in a Chinese supply-chain context for seven HMTc analytes. The cow-milk Pb prior (mean ≈23 ppb, max not reported but inferable from SD as approaching 60 ppb) is meaningful for any consumer-facing assessment of Chinese-origin raw cow milk or dairy ingredients sourced from Shandong. The Cd, tAs, Cr, Ni, Al, Sn priors are all "low ppb" across all species and would land in the low-risk band for an app-layer summary.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
@@ -101,26 +101,6 @@ App: Provides occurrence priors for raw cow, goat, buffalo, camel, and yak milk 
 - [[metals/nickel]]
 - [[metals/aluminum]]
 - [[metals/tin]]
-
-## Verification notes
-
-The cite-key uses `milk-types-elements-china` rather than the raw_handle's `camel-milk-heavy-metals` because the paper analyzes five milk species and 17 elements — camel milk is one of five matrices, not the primary subject. The raw_handle is preserved verbatim from the `discover` skill's auto-fetch.
-
-Table 4 footnote states "concentration is expressed as ng g−1" but the starred-vs-unstarred convention applies only to the starred columns (As*, Cd*, Cr*, Ni*, Pb*, Se*, Sn*). Unstarred elements (Al, Ca, Cu, Fe, K, Mg, Mn, Na, Sr, Zn) are in µg/g. This dual-unit convention is unusual; the Key numbers section converts everything to ppb (µg/kg) to align with HMI conventions.
-
-The yak tAs value of 1.12 ± 6.57 ng/g in Table 4 carries an SD nearly 6× the mean, which is internally inconsistent for a 50-sample dataset. The authors do not comment on this; one possibility is a typo in the SD digit (e.g., 0.657 transposed to 6.57). The value is reproduced verbatim here per HMI policy of preserving source values; downstream synthesis should treat the yak tAs SD as suspect and weight by the other four species' tAs values.
-
-The paper does not report individual sample maxima, P90, or P95 — only mean ± SD per species per element. Distribution shape cannot be characterized from the published data; range information is qualitative ("ranged from X to Y") in the prose for some major elements and absent for the toxic trace elements except via mean and SD.
-
-No brand names appear in the source; only farm-level aggregation by province. Brand-firewall (Part 12) compliant. Method-vendor names (Thermo iCAP Q, CEM MARS5, Millipore Milli-Q, SPSS, Sinopharm, IBM) are reproduced under the methods-vendor exception.
-
-Sample-year range is not stated in the paper; the manuscript was received 14 January 2020 and published 11 February 2020, so sample collection was likely 2018–2019 but is not confirmed in text.
-
-Speciation absence: tAs and Cr values are total-element only. Any future use of these values in iAs or Cr-VI synthesis would require an explicit assumption about speciation fractions (e.g., iAs ≈ 70–90% of tAs in dairy is a commonly cited heuristic but should be flagged as inferred, not measured).
-
-The Codex Stan 193-1995 raw-milk Pb maximum residue level cited by the authors (20 ng/g) is the General Standard for Contaminants and Toxins in Food and Feed limit, not the canned-foods Sn standard. The HMI regulation slug `codex-cxs-193-1995-tin-canned-foods` is the canned-tin standard and is not the appropriate wikilink target for the Pb finding here; the prose summary states the limit numerically without wikilinking.
-
-Audit editorial review (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

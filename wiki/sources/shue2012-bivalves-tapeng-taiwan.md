@@ -109,24 +109,9 @@ Field collection from Ta-Peng Bay lagoon at four sampling times (12/2005, 03/200
 
 **App.** Bivalve shellfish ingredient contamination profile contribution (Taiwan, dry-weight basis with moisture provided per cell — conversion to wet weight requires the species-season moisture, not a generic factor). High species-by-season variance argues against a single point estimate for the "shellfish" ingredient class in the app; the app should at minimum surface that bivalve Pb is winter-loaded and that Cd is taxon-loaded.
 
-## Verification notes
-
-Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by an earlier ingest pass and to extract Tables 1, 2, 4, and 5 in full.
-
-- Audit editorial review (2026-05-18) flagged Cd–Pb correlation as p < 0.01; verified against Table 2 — the cell reads "0.290*" with a single asterisk, and the table footer defines `*` as p < 0.05 (and `**` as p < 0.01). Corrected to p < 0.05.
-- Audit editorial review (2026-05-18) flagged Cr summer A. squamosa value of "5.24 µg/g, range 0.22–10.3" as wrong, claiming Table 1 reads 0.75 (0.34–1.08). Verified against Table 1 (06/2006 summer row, Cr line): the value 5.24 (0.22~10.3) is in the A. squamosa column; 0.75 (0.34~1.08) is in the P. viridis column. The editorial review misread the column. Wiki value retained.
-- Earlier version stated tissues were "lyophilized (freeze-dried)". The source says "Dried samples were dried at 105 ºC to keep a constant dry weight" (Methods, Sampling and Pretreatment paragraph) — i.e., oven-drying. Corrected.
-- Earlier version stated the digestion was "HNO3/HClO4". The source describes 10 mL HNO₃ + 2 mL 30% H₂O₂ (Methods, Analysis for Heavy Metals paragraph). Perchloric acid is not used. Corrected.
-- Earlier version stated "Zeeman background correction" on the Hitachi Z-5000. The source identifies only "AAS, HITACHI, Z-5000, Japan" with "air-acetylene flame / Graphite Atomizer". Zeeman is not in the source. Removed; the limitation now notes absence of stated background-correction technique.
-- Earlier version asserted K. hiantina was "highest Pb among the six species in winter" at 1.75 µg/g. Table 1 clearly shows P. viridis at 2.81 µg/g is the highest winter Pb cell. Corrected; full Pb table extracted.
-- Earlier version stated "data in paper tables (not extracted in full)" for several analytes. Full Tables 1, 2, 4, 5 are now extracted per the Cochrane-bar requirement that mandatory tables be read and transcribed.
-- Earlier version compared Cd species-dependence to "Rajeshkumar et al. 2018 for oyster (Crassostrea gigas) vs. crucian carp in Taihu Lake". That paper is not cited by Shue 2012 and the comparison was external editorial. Removed.
-- Earlier version glossed S. diphos provenance as "from marine culture". Source specifies the marine-culture zone at the estuary of Lin-Bian River; sample_population now records that.
-- Earlier version used wet-weight conversion approximation "÷5" without grounding. Source reports species-season moisture in Table 1 (range 69.5–82.2%). Conversion guidance now uses the source's own moisture figures.
-- Paper-internal inconsistency between "Scapharca satowi" (Methods) and "Anadara antiquata" (abstract, results, tables) noted under Limitations.
-- A broken outbound link to `[[supply-chain/mariculture-taiwan]]` was removed; no such page exists.
-
 ## Related evidence
+
+- [[supply-chain/mariculture-taiwan]]
 - [[ingredients/shellfish]]
 - [[ingredients/bivalve-molluscs]]
 - [[ingredients/molluscs]]

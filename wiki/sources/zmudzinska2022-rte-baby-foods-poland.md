@@ -106,13 +106,13 @@ Exposure indicators used: EDI = C × Cons (consumption from Pitnuts 2016 Polish 
 
 ## Implications
 
-Certification (HMTc): contributes Polish-market wet-weight occurrence data across six baby-food categories (dinners, porridges, mousses, drinks, snacks, dairy) with category-level means and per-category exceedance counts versus EU baby-food maxima. Particularly informative for Pb across baby drinks (1.76% exceedance, the highest single-category rate in the study) and snacks (1.50%), and for Hg in fish-containing dinners (3 of 18 fish dinners drove 3/6 total-cohort Hg exceedances). The 138.99 µg/kg Pb maximum in a fruit/cottage-cheese/grape-juice mousse and the 37.25 µg/kg Hg maximum in a hake-based dinner are useful upper-tail anchors. Single-paper data; routing layer fans out to per-category product pages.
+The study reports Polish-market wet-weight occurrence data across six baby-food categories (dinners, porridges, mousses, drinks, snacks, dairy) with category-level means and per-category exceedance counts versus EU baby-food maxima. Particularly informative for Pb across baby drinks (1.76% exceedance, the highest single-category rate in the study) and snacks (1.50%), and for Hg in fish-containing dinners (3 of 18 fish dinners drove 3/6 total-cohort Hg exceedances). The 138.99 µg/kg Pb maximum in a fruit/cottage-cheese/grape-juice mousse and the 37.25 µg/kg Hg maximum in a hake-based dinner are useful upper-tail anchors. The figures are from this single study and apply to the baby-food categories named above.
 
 Courses: useful case study for brand QA/regulatory-affairs courses on RTE baby-food multi-category surveillance — illustrates how Pb signal concentrates in drinks and snacks while Hg signal concentrates in fish-containing dinners, with implications for category-specific testing prioritisation. The within-category subgroup data (e.g., gluten-free porridges driving the porridge tAs mean; wafers/crisps driving snack tAs) is the kind of granular pattern brands should expect in their own supply-chain monitoring.
 
 App: contributes wet-weight occurrence data for several ingredient/product cells — rice and rice-containing snacks for tAs, fish and fish-containing dinners for tHg and Cd, fruit-based mousses and fruit juices for Pb. Synthesis pass will resolve the ingredient/metal cells.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -136,34 +136,6 @@ App: contributes wet-weight occurrence data for several ingredient/product cells
 - [[ingredients/vegetables]]
 - [[ingredients/meat-and-poultry]]
 - [[ingredients/milk-and-dairy]]
-
-## Verification notes
-
-Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fetch ingest workflow. Changes from the prior version:
-
-1. **Corrected As-max attribution.** Prior version stated "wafer/crisps (84.71 µg/kg)" for the As maximum. Source body (Results §3.1) and Discussion both state the 84.71 µg/kg As maximum was in **a fruit bar with added rice** ("rice bar 84.71 µg/kg"). The abstract's "wafer/crisps" framing is inconsistent with the body and was the source of the prior error. Corrected to "fruit bar with added rice."
-
-2. **Corrected Hg-max attribution.** Prior version stated "poultry dinners (37.25 µg/kg)" for the Hg maximum, copied from the abstract. Source body (Results §3.1, line "The highest Hg value was 37.25 µg/kg in a lunch based on vegetables, rice, and hake") and Discussion ("those containing hake had the highest levels of Hg (37.25 µg/kg)") both state the highest-Hg product was a **hake (fish) baby dinner**, not poultry. The abstract's "dinners with poultry" wording is a paper-internal abstract/body discrepancy resolvable in favour of the body; the prior session flagged this as anomalous in a footnote but did not correct the attribution. Corrected to "hake/rice/vegetable baby dinner." The earlier defensive note about "fish-containing components in multi-ingredient poultry dinners" is removed as no longer needed.
-
-3. **Methods section expanded** with instrument vendors (PerkinElmer NexION 300D for ICP-MS; Leco AMA-254 for Hg amalgamation; Berghof Speedwave microwave digester), reference materials (Corn Flour INCT-CF-3, Skim Milk Powder CRM 63R, Simulated Diet D), LODs (As 0.019, Cd 0.017, Pb 0.16 µg/kg; Hg 0.003 ng/kg), full digestion protocol, statistical software, and the explicit US EPA / JECFA constants used for the EDI/PTWI/BMDL/THQ/CR calculations. Vendor/material names are scientific-method exception per the locked 2026-05-17 brand-firewall reading (Exception 2), not brand-attribution-to-contamination.
-
-4. **Key numbers expanded** with the full Table 3 (per-category exceedance counts), Table 5 (EDI/EWI/PTWI/BMDL by category), Table 6 (THQ/CR by category), and Table 7 (age-subgroup means). Prior version had only the abstract-level summary.
-
-5. **Speciation flagging clarified.** Page now states explicitly: As reported as total As (no inorganic-As speciation); Hg reported as total Hg (no MeHg speciation). `metals:` source metadata correctly uses `tAs` and `tHg`.
-
-6. **Products field expanded** from 4 slugs (fish-containing-baby-foods, fruit-purees, meat-and-poultry-purees, baby-cereals-dry-non-rice) to 12, reflecting the six product categories the paper actually distinguishes (drinks, snacks, mousses, porridges, dinners, dairy partial). The prior `baby-cereals-dry-non-rice` slug was incorrect — the porridges are wet/ready-mixed, not dry-as-sold; replaced with `infant-cereal` (broad slug). Added: mixed-meals-non-rice, mixed-meals-rice-containing, non-root-vegetable-purees, infant-cereal, teething-and-snacks-non-rice, teething-and-snacks-rice-based, fruit-juices-apple-containing, fruit-juices-non-apple, flavored-waters. All slugs verified against the editorial record (2026-05-17 snapshot).
-
-7. **Ingredients field expanded** from 2 slugs (fish, fruit) to 6 (added vegetables, rice, milk-and-dairy, meat-and-poultry) to reflect the multi-ingredient compositional analysis. The `rice` slug is significant because the paper explicitly identifies rice as the carrier of As across snacks (fruit-bar-with-rice) and the hake/rice/vegetable Hg-max dinner.
-
-8. **Matrices field corrected.** Prior version had `[ready-to-eat-baby-foods, wet-weight]`; "ready-to-eat-baby-foods" is not in the matrices vocabulary (the editorial record) and "wet-weight" is a basis indicator, not a matrix. Replaced with valid matrix terms: `baby-food-puree, baby-snack, fruit-puree, vegetable-puree, infant-cereal, fruit-juice`. Wet-weight basis is now documented in Methods.
-
-9. **Legacy heading replaced.** "## Wiki pages updated on ingest" → "## Wiki pages this source may touch" per current schema. No content inside the section was generator-owned (no marker blocks), so direct rewrite is safe.
-
-10. **Brand-firewall pass clean.** Source names six baby-food producers (Nestle, Nutricia, Hipp, Humana, Holle, Helpa) in §2.1 as supply-source context, not as contamination attributions. These are NOT named in the wiki page; only product-form descriptors are used (per Part 12 strict reading locked 2026-05-17). Method-vendor names ARE retained per Exception 2.
-
-11. **Wiki/HMTc firewall pass clean.** No threshold proposals, consumer-audience advisories, or cross-source synthesis claims in the page body. The Implications section names what the paper contributes to threshold work without proposing values.
-
-Preserved from prior revision: cite_key, raw_handle, raw_path, license, access_url, evidence_tier, doi.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -54,7 +54,7 @@ Tea samples were collected from major production counties in Fujian Province by 
 
 The source supports occurrence evidence for Pb, Cr, and Cd in Camellia sinensis dry leaf from a Chinese production-region market and provides an internally consistent adult dietary-exposure model for the Tieguanyin and white-tea production chain. The paper's hazard-index and total-cancer-risk values fall within the USEPA-acceptable bands at the modelled 10 g/day adult intake; the paper itself cautions that the exposure model excludes other tea-borne elements such as inorganic arsenic, aluminium, and mercury, and that other exposure pathways (water, food, skin) are not captured. Pb is also higher in Anxi Tieguanyin than in Hua'an Tieguanyin or Fuding white tea (p<0.05), which the authors attribute to leaf-age differences in plucking standard (one bud and four or five leaves for Tieguanyin versus one bud and three leaves for white tea) rather than to formula or fermentation. White-tea Cr is higher than Hua'an Tieguanyin Cr (p<0.05), and the authors flag soil-Cr speciation and cultivar-specific uptake as candidate explanations. The Pearson correlations are consistent with a shared anthropogenic source for Pb–Cd and Pb–Cr in Tieguanyin tea but do not isolate that source. Cr values are total Cr, not Cr-VI, so no Cr-VI-specific routing applies. Cd transfer to the white-tea infusion was below detection, so the white-tea Cd CDI/THQ/TR is not computable in the exposure model.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/camellia-sinensis]]
 - [[ingredients/tea]]
@@ -64,12 +64,6 @@ The source supports occurrence evidence for Pb, Cr, and Cd in Camellia sinensis 
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Audit editorial review 2026-06-07 flagged a Pearson correlation transposition in the original ingest (wiki had assigned the 0.350* white-tea Pb/Cr correlation to Tieguanyin Pb/Cr and to white-tea Pb/Cd); verified against Table 3 and the page 4 body text and corrected — Tieguanyin shows significant Pb/Cd (r=0.392, p<0.01) and Cr/Cd (r=−0.297, p<0.05) with Pb/Cr non-significant, while white tea shows significant Pb/Cr (r=0.350, p<0.05) with Pb/Cd and Cr/Cd non-significant. The same audit flagged a methods-section sample-mass error (500 g was the collection amount, 200 g is the ground/sieved subsample per §2.1); verified against the source and corrected in both Key numbers and Methods.
-
-The fluoride results are reported in the body because they are an integral part of the paper's risk model, but fluoride is not in the HMI metals vocabulary, so it does not appear in the `metals:` source metadata array and will not route to a metal page. Chromium is total Cr; the paper does not run a hexavalent-Cr extraction, so it does not route to `metals/chromium-hexavalent`. The white-tea transfer rates for Pb, Cr, and Cd are noted in the body as having been substituted from the green-tea literature because no white-tea-specific rates were available, per Table 4 footnote a; this is the source's own caveat. The Cd transfer rate for white tea was reported as "not detected" (ND), so the white-tea Cd CDI, THQ, and TR rows are intentionally left blank in the paper and are not reconstructed here. Brand and grower names are not attached to any of the sampled lots because the paper does not provide them; all values above are county-stratum-level only, consistent with the public-wiki brand firewall. Method-section instrument and CRM identifiers (Thermo Fisher XSERIES 2, INESA F-ISE, TOPEX microwave digestion, GBW10016 tea CRM, SPSS v20) are preserved per the Part 12 scientific-reproducibility carve-out. The sampling year is not stated in the paper; sampling_year_range is left null.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

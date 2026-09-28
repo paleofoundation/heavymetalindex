@@ -129,17 +129,8 @@ Microbiome: No direct microbiome endpoint; pre-microbiome era.
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. Pergamon Press 1980 (pre-Elsevier acquisition); the wiki cites the article record (DOI placeholder for the Pergamon-era article). License: publisher-licensed; full-text fetch available via Karen's institutional access.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-formula-powder-non-soy]]
-- [[products/ready-to-feed-formula]]
-- [[products/meat-poultry-purees]]
-- [[products/vegetable-purees-non-root]]
-- [[products/root-vegetable-purees]]
-- [[products/fruit-purees]]
-- [[products/mixed-purees-with-fruit]]
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->

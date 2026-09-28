@@ -50,17 +50,13 @@ Courses: Strong example of how packaging, storage heat, and contact time can cha
 
 App: Eligible for mineral-water and packaged-water contamination context after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/mineral-water]]
 - [[products/bottled-drinking-water]]
 - [[metals/cadmium]]
 - [[metals/iron]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Although the paper also emphasizes BPA, it contains explicit cadmium and iron measurements in packaged water and therefore belongs in HMI evidence routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

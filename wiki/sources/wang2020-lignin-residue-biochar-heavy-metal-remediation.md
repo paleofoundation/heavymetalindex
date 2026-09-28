@@ -86,21 +86,14 @@ App: Context for water-treatment and upstream remediation notes. The key takeawa
 
 Courses: Useful for teaching the distinction between sorbent capacity and occurrence concentration, plus the role of pH, surface area, acid groups, and Langmuir/PSO model fits in remediation studies.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the synthesis methods, adsorption-experiment design, Table 1 biochar properties, Table 2 Pb(II) kinetic fits, Table 3 isotherm fits for Cu(II), Cd(II), and Pb(II), Table 4 Pb(II) comparator capacities, the conclusion, and the supplementary-materials note. The source uses dissolved Pb(II), Cd(II), and Cu(II) nitrate solutions; source metadata uses the repo's broader Pb, Cd, and Cu metal slugs while this page preserves ion-state specificity in prose and tables. Products and ingredients are intentionally empty because no food, ingredient, or consumer-product matrix was sampled.
-
-Audit editorial review (2026-06-02) flagged `[[mitigation/agronomic]]` as a semantic mismatch — the wiki's agronomic-mitigation page covers pre-harvest food-crop interventions (cultivar selection, paddy water management, soil amendment for crops), not aqueous-solution sorption. Verified against the linked reference record and confirmed; the link was removed. `[[mitigation/remediation-evidence]]` is retained as the closest existing destination even though that page is also food-crop-focused, since the "may touch" framing is speculative rather than a routing assertion.
-
-The `matrices` slugs (`lignin-rich-residue`, `corn-cob-residue`, `biochar`, `aqueous-sorption-test`, `wastewater-remediation`) are remediation-domain proposals outside the project's current food-matrix controlled vocabulary. A future taxonomy refresh should decide whether to formalize a remediation-matrix vocabulary or to route this source via a separate non-food remediation register. The routing audit's malformed entry for this source is advisory (empty `products`/`ingredients`) and reflects the genuine absence of food/ingredient/product scope, not a defect.
+- [[mitigation/agronomic]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

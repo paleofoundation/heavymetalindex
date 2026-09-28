@@ -62,7 +62,7 @@ Limitations the document itself acknowledges. Human data on male fertility were 
 
 License class `us-government-work`. Document is a state of California agency publication, functionally equivalent to a US federal government work for redistribution purposes. The OEHHA Prop 65 cadmium page (https://oehha.ca.gov/proposition-65/crnr/cadmium-causing-reproductive-toxicity) serves as the canonical landing page for verification; this document is marked "SAB DART ID Committee Draft" on every page because it was the draft released for public comment and Committee deliberation prior to the December 1996 decision. The December 1996 finalization and subsequent May 1997 listing followed this draft's release; the draft is the operative historical record of the evidence base OEHHA presented to the Committee.
 
-The document refers to an existing Proposition 65 cadmium listing for carcinogenicity that predates this reproductive-toxicity listing. That carcinogenicity listing (with its associated No Significant Risk Level) is a separate Prop 65 action not covered by this document or by the 2001 MADL, and is flagged on the [[regulations/oehha-cadmium-prop65]] page as a pending ingest.
+The document refers to an existing Proposition 65 cadmium listing for carcinogenicity that predates this reproductive-toxicity listing. That carcinogenicity listing (with its associated No Significant Risk Level) is a separate Prop 65 action not covered by this document or by the 2001 MADL, and is noted on the [[regulations/oehha-cadmium-prop65]] page as not yet catalogued.
 
 ## Related evidence
 - [[metals/cadmium]]

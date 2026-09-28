@@ -69,7 +69,7 @@ Courses: Illustrates how industrial processing variables (bleaching, hardening, 
 
 App: Supports source-specific context for production type and origin when edible vegetable oils are declared; Pb and Cd remained low across all sampled oil types in this Iranian study, while tAs differed by oil type and production category.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
@@ -82,15 +82,6 @@ App: Supports source-specific context for production type and origin when edible
 - [[metals/arsenic-total]]
 - [[metals/iron]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1186/s12889-023-17624-1 and the Marker extraction at the archived source file.
-- ICP-OES reports total arsenic; the cancer-risk calculation applies an inorganic-arsenic slope factor to total-As concentrations without speciation.
-- `edible-oil`, `olive-oil`, `sunflower-oil`, `sesame-oil`, and `peanut-oil` are sample-matrix descriptors used here for routing/context; only existing ingredient/product/metals slugs are linked.
-- The paper cites Codex/ISIRI limits for vegetable oils, but no dedicated `regulations/codex-cxs-210-named-vegetable-oils` page exists in the current taxonomy snapshot; this is a candidate future regulation page if Karen approves it.
-- Cross-vendor audit (Codex, 2026-05-17) removed unsupported microwave-assisted wording; the source methods describe HNO3/H2O2 digestion after 11 h room-temperature stirring and two heated stages, while "microwave-assisted acid digestion" appears only in a cited reference title.
-- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

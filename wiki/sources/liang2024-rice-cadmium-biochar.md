@@ -54,17 +54,11 @@ The pot trial used Cd-polluted paddy soil with six amendment treatments and four
 - Standards workbench: not a market-occurrence distribution; use as mitigation evidence rather than a benchmark-pool row.
 - Testing and methods: Cd species are not speciated; this is total Cd in rice tissues and soil fractions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- The auto-fetched filename/wishlist cell was `rice milk Cd`, but the PDF measures paddy soil, rice tissues, and brown rice. No rice milk or plant beverage matrix is present.
-- The paper's extractable text reports the brown-rice Cd percentage reductions and threshold comparison; exact absolute brown-rice concentrations are plotted in Figure 3 but not printed as text.
-- The source is a remediation pot experiment with four replicates per treatment, not a retail or field-market occurrence survey.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

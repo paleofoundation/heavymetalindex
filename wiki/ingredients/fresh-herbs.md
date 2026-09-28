@@ -161,7 +161,7 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
@@ -171,7 +171,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

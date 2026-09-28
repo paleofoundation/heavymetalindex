@@ -60,15 +60,11 @@ Courses: Useful example of a metal-stress experiment where the exposed organism 
 
 App: Keep as context for cadmium, microbiome, and soil-remediation narratives. Do not present the 100 uM or 1 mM Cd treatments as environmental occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[microbiome/index]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/antiox13050565`; no DOI conflict was observed. This source does not report food, product, ingredient, or field-soil Cd occurrence measurements. The primary concentration values are experimental Cd treatment concentrations: 100 uM Cd for growth/biochemical assays and 1 mM Cd for volatile profiling. The results are mainly figure-based rather than table-based; this page records the quantitative percentages and variance explained that are stated in the text and figure captions. The text reports two strains with significantly lower growth, seven not significantly influenced, and five significantly higher under Rhizobium volatile exposure, which sums to 14 despite the described 13-strain panel; this page preserves the named strain findings and flags the count mismatch for downstream audit.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

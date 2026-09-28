@@ -61,7 +61,7 @@ Courses: Useful for explaining species-specific fungal bioaccumulation, cap-vers
 
 App: Can inform wild-mushroom and mushroom-supplement mercury priors, especially for Yunnan/China-sourced materials and Boletaceae-heavy products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/wild-mushrooms]]
 - [[products/cultivated-mushrooms]]
@@ -73,10 +73,6 @@ App: Can inform wild-mushroom and mushroom-supplement mercury priors, especially
 - [[ingredients/herbal-botanicals]]
 - [[metals/mercury-total]]
 - [[metals/mercury]]
-
-## Verification notes
-
-This page was built from the PDF title/byline, abstract, methods, Table 1, results, exposure-estimation discussion, and topsoil context. The page uses `tHg` because the reported mushroom occurrence values are total mercury; the discussion mentions methylmercury toxicology but does not provide mushroom methylmercury occurrence rows. Values are dry weight unless explicitly stated otherwise.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -115,14 +115,6 @@ Three black-pepper ranges in Table 3 (Pb, tAs, Ni) cannot contain their reported
 - [[metals/chromium]]
 - [[metals/nickel]]
 
-## Verification notes
-
-- **Sample-count discrepancy (paper-internal).** The abstract states "A total of 162 spice samples were obtained from markets in the Greater Casablanca, Morocco." Table 1 states "A total of 137 bulk spice samples available on the market were collected" and the Number-of-samples column sums to 137 (37+25+25+25+25). The Percentage column in Table 1 (22.8 % / 15.4 % × 4) is computed against a denominator of 162 (37/162 = 22.8 %, 25/162 = 15.4 %), so two different totals are in use within the same paper. This wiki uses 137 as the bulk-sample total and the per-spice n values (37 for cinnamon, 25 each for cumin/turmeric/black pepper/ginger) from Table 1 because those are the values that anchor the mean ± SD entries in Tables 3 and 4 referenced throughout the discussion. The discrepancy is a paper-side defect; it cannot be reconciled from the PDF alone.
-- **Black-pepper range columns in Table 3 appear miscoded.** The printed ranges for Pb (0.818–0.96), tAs (0.401–0.493), and Ni (0.648–0.952) in the black-pepper row do not contain their corresponding mean ± SD values (Pb 0.60 ± 0.24, tAs 0.27 ± 0.14, Ni 0.45 ± 0.26). The means are internally consistent with the body-text discussion (which explicitly states "the Pb content was 0.60 ± 0.24 mg/kg") and with the EU-fruit-spice-limit comparison the authors make. The black-pepper Cr (0.899–6.583, mean 3.62 ± 2.13) and Cd (0.006–0.049, mean 0.03 ± 0.01) ranges are consistent. This wiki carries the means as the authoritative summary statistics and labels the affected ranges "as printed" so downstream synthesis does not silently propagate the inconsistency.
-- **Total arsenic, total chromium, no mercury.** The five toxic elements are reported as total concentrations. There is no inorganic-As / organic-As speciation, no Cr-VI / Cr-III speciation, and no mercury measurement (neither tHg nor MeHg). For any HMI analyte requiring speciation, this paper is a tAs and total-Cr source only.
-- **No geographic-origin metadata within Morocco.** Samples are described as bulk market spices in Greater Casablanca; the paper does not record country/region of cultivation, supplier identity, organic vs conventional status, or harvest year. Geographic-variance entries in downstream ingredient pages should treat this as one Greater-Casablanca-market dataset.
-- **License terms.** Scienceline Publication (publisher of *World's Veterinary Journal*) operates open-access journals, but the PDF does not carry an explicit CC licence statement. Treat as open-access cite-and-link until the journal's terms are confirmed.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

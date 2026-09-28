@@ -49,7 +49,7 @@ Sample preparation used microwave decomposition under pressure on a Multiwave GO
 
 The source supports Kazakhstan poultry occurrence context. All averages are below the paper's stated Customs Union maximum permissible levels, but the highest domestic producer sample is a notable high-lead/high-mercury point within the dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[products/poultry-product]]
@@ -57,11 +57,6 @@ The source supports Kazakhstan poultry occurrence context. All averages are belo
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.51452/kazatuvc.2024.3(007).1753 and the downloaded PDF.
-- Values are in ug/kg in the source text excerpt; regulatory thresholds are also shown as mg/kg in the paper.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

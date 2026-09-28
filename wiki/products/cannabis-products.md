@@ -41,7 +41,7 @@ CBD and hemp-derived ingestibles route here even when carrying a Supplement Fact
 
 ## Literature scope
 
-No sources are routed to this category yet. The corpus will accumulate via the source-routing layer.
+No sources are catalogued for this category yet.
 
 ## Sources
 

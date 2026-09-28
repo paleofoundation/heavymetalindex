@@ -163,7 +163,7 @@ This is direct occurrence evidence for Korean home meal replacement and prepared
 
 For HMTc use, the paper's product aggregation is broad. It does not provide product-row-specific values for infant formula powder, baby foods, seafood, sauces, breads, rice cakes, meat products, or meal kits. The values should remain broad prepared-meal context unless a later extraction pass can resolve product-row fit from supplementary material or underlying sample metadata. Total arsenic is not inorganic arsenic, and total mercury is not methylmercury except for the explicit Me-Hg rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/mixed-meals-prepared-foods]]
 - [[metals/lead]]
@@ -172,13 +172,6 @@ For HMTc use, the paper's product aggregation is broad. It does not provide prod
 - [[metals/tin-inorganic]]
 - [[metals/mercury]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Identity check: DOI `10.3390/foods11040504`, raw handle `RPMEHG_10-3390-foods11040504`, candidate cite-key `hwang2022-home-meal-replacement-heavy-metals`, and SHA-256 `b350623fc3c797088ca2208c4ce84f2b83320b09a2e6ceb57000abc0f129facd` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the 13-page MDPI PDF. Tables 1-6 were checked once from `pdftotext -layout` and Table 5 was checked a second time against a rendered page image before commit. The source's supplementary Tables S1-S5 are named by the PDF but were not bundled in the local PDF.
-- Brand firewall: the page reports only source-level matrix-phase results and no brand-by-brand values.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

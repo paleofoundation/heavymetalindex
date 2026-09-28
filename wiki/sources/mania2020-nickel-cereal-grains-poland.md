@@ -117,12 +117,6 @@ App: Category means and P95 values can support Polish/EU context screens for Ni 
 - [[products/pasta-wheat-based]]
 - [[regulations/efsa-nickel-tdi]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Replaced stale/nonexistent wikilinks such as `ingredients/oats`, individual missing grain slugs, and `regulations/efsa-nickel-tdi-2020` with current wiki slugs.
-- Strict brand-firewall check: no consumer brands are named. Instrument and reference-material vendor names appear only in the Methods section and fall under the Part 12 instrument/reference-material exception.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

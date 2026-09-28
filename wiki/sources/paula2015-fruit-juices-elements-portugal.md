@@ -75,7 +75,7 @@ App: The data support fruit-juice flags for Pb, Cd, Ni, and total Cr. The app sh
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-apple-containing]]
@@ -90,15 +90,6 @@ Microbiome: Not addressed.
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[metals/iron]]
-
-## Verification notes
-
-- Fresh review-weak-match upgrade on 2026-05-19 from the structured evidence record row `GAP-fruit-juice-not-canned-Cd`.
-- Evidence fitness: direct occurrence evidence for fruit juices on a Portuguese-market basis. The study reports summary means and confidence intervals, not sample-level concentration rows in the extracted text available to this run.
-- Units are preserved as µg/L. Because fruit-juice density is close to 1 kg/L, these are approximately ppb, but the page does not substitute a converted basis.
-- Speciation discipline: Cr is total chromium; no Cr(VI), inorganic arsenic, total arsenic, total mercury, or methylmercury values are reported.
-- Brand firewall: the source groups samples by fruit type, process, origin, and packaging; no commercial product brands are named in this page.
-- Wiki/HMTc firewall: this page records occurrence evidence and routing utility only. It does not propose HMTc thresholds or treat a Portuguese-market source as a US benchmark-pool member.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

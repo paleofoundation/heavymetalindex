@@ -65,17 +65,11 @@ Courses: Illustrates how geochemical background (naturally elevated metals in ka
 
 App: Treat the rice-grain Cd and tAs values as region-specific occurrence context for Chinese karst systems. Do not merge the quadrant-I values into global-distribution rice profiles without preserving their exceedance-classified sampling context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected matrix terms to broad current vocabulary (`rice`, `soil`), removed a non-existent China GB 2762 regulation wikilink, replaced the umbrella arsenic link with `arsenic-total`, and removed wet-weight labeling that the source methods do not support.
-- Strict Part 12 recheck found no sampled-product brand names. Instrument and software vendor names in the methods are retained under Part 12 Exception 2 for scientific reproducibility.
-- The reported rice values are not whole-study means; 0.381 mg/kg Cd and 1.12 mg/kg tAs are means for the quadrant-I soil-unsafe/rice-unsafe subset.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

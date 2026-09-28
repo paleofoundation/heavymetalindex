@@ -58,19 +58,13 @@ The thesis validates in-situ solid-phase extraction using tetra-n-butylammonium 
 - Standards workbench: do not include as a retail rice or salt occurrence row.
 - Speciation: the thesis distinguishes As(III), DMA, and total As. Do not substitute total As for inorganic arsenic in downstream routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice-flour]]
 - [[ingredients/rice]]
 - [[products/cereal-products]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- The source title and text are in Portuguese; metadata comes from the PDF catalog page and DOI line.
-- The auto-fetched filename/wishlist target was `salt iAs`, but the PDF is a rice-flour analytical-method thesis. No salt matrix is measured.
-- Because the source uses a certified reference material rather than sampled commercial rice, it should route mainly as testing/method evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

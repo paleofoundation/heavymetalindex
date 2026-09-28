@@ -92,7 +92,7 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -103,7 +103,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -187,6 +187,6 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 **[[sources/gromakova2017-rostov-root-crop-amendment|N. V. Gromakova, 2017]].** A 2015 Rostov-region field experiment measured copper, zinc and lead in beetroot and potato grown on artificially metal-amended chernozem. Adding mineral fertilizer reduced several crop concentrations relative to the metal-only treatment, while yield responses differed between crops. Supports crop-specific agronomic mitigation and soil-to-crop transfer evidence. Artificially amended experimental crops are not a market-occurrence distribution. Paper limit comparisons remain secondary context.
 
-**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; product routing is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
+**[[sources/oprea2022-sibiu-celery-root-metals|Bogdan Ștefan Oprea, 2022]].** Celery roots and garden soils from 26 households in a historically polluted Romanian area showed wide cadmium and lead variation in 2021–2022. Soil results use dry weight, while edible celeriac results use fresh weight; these paired measurements preserve a legacy-contamination pathway without assigning sole liability to any facility. Supports historical industrial-burden and present edible-root occurrence evidence. Celery here is celeriac, not stalk celery; the product category is root/tuber vegetables. Geographic sampling is targeted to a polluted area and is not a national market sample.
 
 **[[sources/gergen2012-banat-mining-vegetable-pca|Iosif Gergen, 2012]].** Gergen and Harmanescu analyze metal contamination patterns across two historic Romanian mining areas and a reference area. Their PCA study reproduces vegetable concentrations and male hazard quotients from the earlier Harmanescu 2011 study; these remain linked secondary observations rather than additional independent samples. Supports legacy mining and tissue/region differences. Parsley root and leaf remain distinct, as do carrot root and leaf. The fresh-matter food table is retained with cohort linkage so that a reanalysis cannot inflate the evidence pool. Source THQ rankings are model results, not clinical outcomes. The food observations reuse the Harmanescu 2011 cohort and must not be counted as independent samples.

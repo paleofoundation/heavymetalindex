@@ -76,7 +76,7 @@ App: Supports Mn context for formula products, especially soy-, rice-, amino-aci
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/manganese]]
 - [[ingredients/infant-formula-powder]]
@@ -90,13 +90,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-dairy]]
 - [[products/infant-formula-dairy-free]]
 - [[products/infant-and-child-foods-master]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula Mn wishlist.
-- Strict brand firewall: the source tables use study IDs rather than commercial names; this page reports aggregate values and product-form/protein-source descriptors only.
-- The paper's sampling method is explicitly non-probabilistic maximum-variation sampling, so the table means and medians should not be generalized to market prevalence.
-- Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -43,17 +43,11 @@ Documents an attempted biosorption approach and a reproducibility gap. It cannot
 
 Evidence Fitness: EF-X for claimed quantitative efficacy because calibration outputs and removal arithmetic are internally inconsistent; retain explicit context-only experimental records.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Novel adsorption-solution matrix identifies laboratory remediation solutions. Sodium is not promoted to a heavy-metal page. Negative estimates and >100% removal are not corrected by inventing replacement values. Table 3 zinc/sodium label conflict is explicit; exact pH is not a proxy for adsorption. No food or supplement concentration was measured.
-
-The preserved Library PDF is identified by `RPHMI_7`; SHA-256 `a606d641a79e1eebec745983e15b7cd4eea05c59ae5a64c3c8696427ca99a270`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://markhorjournal.com/index.php/mjz/article/download/37/35. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

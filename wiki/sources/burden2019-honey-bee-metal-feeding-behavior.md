@@ -64,17 +64,11 @@ Courses: Useful downstream-effect example for pollinator exposure because it dis
 
 App: Context only. The source can inform honey-supply-chain and pollinator-health narratives but does not provide a consumer-product concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured honey-bee feeding behavior after metal-spiked sucrose rather than honey occurrence. On reading, it is in-scope a4 toxicology and animal-feeding exposure evidence.
-
-Numbers were checked against the abstract, Results, figure captions, Methods, and Discussion in the extracted PDF. Metal forms are recorded as total Cd, Cu, and Pb in the wiki source metadata because the experimental salts were cadmium chloride, copper chloride, and lead chloride, and the paper does not report consumer-product speciation. Products and ingredients are intentionally empty. `sucrose-solution` is a matrix term added for this controlled feeding assay; it is not an occurrence-product route.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -119,7 +119,7 @@ Courses: The paper is a compact example of why total metal concentration, migrat
 
 App: If toy-material context is surfaced, this source can say that the Karachi low-priced-toy sample found Pb and Cd exceedances in both unpainted plastic toys and painted/coated plastic toys, with lower-frequency Cr and Ni exceedances in the total sample set.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/toys-substrate-materials]]
 - [[products/toys-painted]]
@@ -130,18 +130,6 @@ App: If toy-material context is surfaced, this source can say that the Karachi l
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the title page, abstract, methods, Tables 1-5, Results/Discussion, and Conclusion were checked against this page.
-- Identity checks before creation: Research Square DOI `10.21203/rs.3.rs-1001076/v1`, version-of-record DOI `10.1007/s11356-022-19362-0`, exact title, raw handle `MFK_cat21-18-research-square-rs1001076`, raw SHA-256 `44d418f1cec4b56f81947b914acf3a844fbfa9eea435c8f870257f47dda73ae7`, and candidate cite keys `gul2022-karachi-plastic-toys-metals` / `gul2021-karachi-plastic-toys-metals` were searched in the linked reference record and the structured evidence record; no existing source page was found.
-- Version note: the local raw PDF is the Research Square version 1 preprint and carries DOI `10.21203/rs.3.rs-1001076/v1`; its first page states that a version of record was published in *Environmental Science and Pollution Research* on March 7, 2022 at DOI `10.1007/s11356-022-19362-0`. source metadata uses the version-of-record DOI for deduplication but the numbers on this page are extracted from the local preprint PDF.
-- Units: all toy sample concentrations are copied as `mg/kg`; no conversion was performed. Table 1 regulatory comparison limits are copied as `mg/kg` except the source's U.S. CPSC Cd entry shown as `200ug`.
-- Speciation: Cr is total chromium measured by AAS. The page does not substitute Cr(VI) for total Cr. Pb, Cd, Ni, Zn, Cu, and Mn are reported as total elemental concentrations.
-- Brand firewall: no consumer brand names are attached to contamination values. Sample descriptions such as `Painted car 4`, `Lion`, and `Crocodile` are de-identified product-form/sample descriptors from the source table and are preserved for provenance.
-- Product slug note: DCT values route to `toys-substrate-materials`; DPCT values route to `toys-painted`. There is no separate matrix slug for non-food toy material, so `matrices` is intentionally empty.
-- Source-internal anomalies preserved: Table 4 reports Pb maximum `1190 mg/kg`, while Table 3 and the Results text list DPCT14 Pb as `1191 mg/kg`; Table 4 reports Cd maximum `459.01 mg/kg`, while Table 2 lists DCT11 Cd as `459`; Table 3 lists DPCT14 Cd as `09`. These are copied as the source renders them rather than normalized.
-- Evidence tier: `B` because the version of record is peer-reviewed and the study reports sample-level values and methods, but the local extracted PDF is the preprint version and the sample frame is a small local market survey.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

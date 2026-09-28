@@ -119,24 +119,13 @@ This is a peer-reviewed literature review, not a primary measurement study. The 
 
 This source supports seaweed/kelp food and algae/seaweed supplement context by identifying phylum- and species-level patterns in total arsenic and inorganic arsenic. The review's most relevant routing signal is that Phaeophyta values, especially hijiki, *Sargassum piluliferum*, *Laminaria* spp., and several brown algae, carry much higher secondary-summary iAs than Rhodophyta or Chlorophyta. Because the paper aggregates prior literature and several underlying primary sources are separately ingested in the wiki, these values should not be pooled as independent occurrence measurements without source-level de-duplication.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.aquaculture.2018.07.040`, raw handle `MFK_ma2018`, title text, or cite key `ma2018-seaweed-arsenic-contents`.
-- Text was extracted to `/tmp/hmi-seaweed-046.txt` with `pdftotext -layout`; the title page, abstract, body, Tables 1-3, and figure legend were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-046.txt`, especially Tables 1-3 at the end of the extracted text. The `Gayralia oxysperma` zone is recorded as "not reported in extracted table" because the table text layer prints `12.68` where the zone column should be.
-- Units and bases are preserved as `mg kg-1 DW`, `%`, `µg l-1`, and `μg l-1`; no conversion to ppb or wet-weight basis was performed.
-- Speciation check: total arsenic (`AsT`/tAs), inorganic arsenic (`AsI`/iAs), arsenosugars, As(III), and As(V) are kept distinct. No total arsenic value is promoted to inorganic arsenic.
-- Brand firewall: the review names no consumer brands. Species names, zones, analytical methods, and cited primary-study authors are retained as scientific context.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact seaweed species and phylum names remain in prose/tables while source metadata uses broad seaweed/kelp and algae/seaweed supplement slugs.
-- Evidence-fitness note: this page is secondary literature context. The `sample_n` field is `null` because the review does not report primary samples; n values in Table 1 are compiled literature records and should not be treated as primary sample counts.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

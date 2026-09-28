@@ -92,20 +92,12 @@ App: Adds olive-oil non-detect context for inorganic arsenic. The sample count i
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[ingredients/olive-oil]]
 - [[products/olive-oil]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- The PDF body identifies the article as Journal of Food Composition and Analysis 123 (2023) 105531 with DOI `10.1016/j.jfca.2023.105531`. The PDF metadata itself is generic, so body metadata is used.
-- The paper states copyright 2023 Elsevier Inc. All rights reserved.
-- The PDF uses sample labels and mentions calibration plots from two olive oil samples. This page keeps the neutral sample labels and does not reproduce any brand names.
-- The non-detect finding is not a zero value. The page records it as censored evidence bounded by the method's LOD/LOQ.
-- The method determines arsenite directly and total inorganic arsenic after prereduction. It should not be treated as total arsenic across organic arsenic species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

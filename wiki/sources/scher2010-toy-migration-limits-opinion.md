@@ -56,7 +56,7 @@ SCHER opinion compiled by Working Group (H. Autrup chair/rapporteur; W. Dekant, 
 - Courses: Foundational regulatory-affairs reference for EU children's product safety; demonstrates the migration-limit framework versus concentration-limit framework and the TDI-allocation logic that translates a health-based intake value into a material-concentration limit.
 - App: Not relevant to ingredient contamination_profile values. Useful for product-page regulatory crosswalk between EU toy directive limits and HMTc thresholds.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/cadmium]]
@@ -67,15 +67,6 @@ SCHER opinion compiled by Working Group (H. Autrup chair/rapporteur; W. Dekant, 
 - [[regulations/efsa-arsenic-contam-2009]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/efsa-lead-contam-2010]]
-
-## Verification notes
-
-- This is an EU regulatory opinion document. No primary occurrence data. Listed as gov-report A-tier per Part 13.
-- The EU Toy Safety Directive 2009/48/EC migration limits themselves (in mg/kg of toy material for each of three material categories) are not reproduced in the SCHER opinion body but are referenced. A dedicated regulation page for EU TSD 2009/48/EC migration limits does not yet exist; the migration limit values would be on that page when it is created (regulation slug proposal noted here for Karen, not auto-created per Part 10).
-- Physiologically-based extraction media recommendation aligns with Stefaniak 2014 and Anselm 2022 findings on the importance of bioaccessibility-test formulation.
-- Audit editorial review 2026-05-17 flagged Implications "should be used as the regulatory baseline" phrasing as a borderline Part 2 wiki/HMTc-firewall concern (reads as an HMTc directive); verified against — softened to "Provides regulatory-baseline reference values... SCHER's recommended TDIs in the TSD context" to keep the wiki reporting what SCHER recommended for the TSD without implying HMTc must use these specific values.
-- Audit editorial review 2026-05-17 also flagged the 30%/15% per-source decomposition arithmetic as wiki-side expansion of source totals; verified against PDF p.5 — finding rejected as false positive. The source explicitly states "10% allocations per source × 3 sources" for the 13 less-toxic elements and "These elements are to be used at levels that are half of those considered safe" (= 5% per source × 3) for the 6 particularly toxic elements, and gives the 30%/15% totals; the wiki's arithmetic decomposition is faithful and explicit decomposition aids reader comprehension.
-- 2026-05-17 enhancement (merge-enhance pass): corrected metals source metadata `As` → `tAs` per Part 14 speciation discipline (the toy directive migration limits are not speciated; SCHER's discussion of EFSA 2009b iAs-based BMDL01 is captured in Key numbers narrative). Removed the products-source metadata pointer to the children's-makeup product slug — the prior ingest mis-attributed the source to children's cosmetics because the PDF lives in the `Children Personal Care Papers/babycare_01_Exposure_Pathways/` folder, but the SCHER opinion is about the EU TOYS Safety Directive 2009/48/EC, not cosmetics. No `toys` umbrella product slug exists in the current taxonomy; the opinion is a category-spanning regulatory anchor for all toy product rows in HMTc Category 21. Removed the matrices entries for the three physiologically-based extraction fluids (saliva, gastric, sweat) — those are extraction MEDIA used in migration testing, not product matrices; the matrix vocabulary is for what was measured (e.g., infant-formula, rice), not how it was extracted. Extraction-media information moved into Key numbers and Methods narrative. Clarified Cd TWI units (per week) and expanded Key-numbers narrative on Pb (JECFA PTWI withdrawal rationale) and As (SCHER's pragmatic-TDI derivation from the Italian drinking-water derogation opinion). Added the metals/tin wiki page to the touched list (organic Sn is one of the 6 particularly toxic elements in TSD scope).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

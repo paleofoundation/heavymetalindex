@@ -92,15 +92,6 @@ This is a narrative review. The authors searched Google Scholar and SNDL for stu
 
 The source is useful for routing Algerian and neighboring southwestern Mediterranean seafood occurrence context to marine fish, predatory fish, non-predatory fish, and shellfish rows. Because it is a secondary review, downstream benchmark work should chase primary papers when row fit, sample design, species, basis, and statistic type need audit-grade extraction. The source is especially useful for gap identification: it explicitly notes sparse coverage for arsenic and methylmercury in several Algerian seafood groups.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the title page, abstract, Tables 1-5, discussion, and conclusion were readable.
-- DOI `10.1007/s11356-021-17130-0`, raw handle `MFK_mehouel2021`, and cite-key checks found no existing source page before creation.
-- Values in Key numbers were checked against the extracted Tables 1-5 and nearby discussion text. Units and bases are preserved as `mg kg−1 wet weight` or `mg kg−1 dry weight`; no conversion was performed.
-- Speciation: arsenic is reported as `As` without inorganic speciation and is treated as total/unspecified arsenic (`tAs`) context. `Hg` and `MeHg` rows are kept separate; total/unspecified Hg is not promoted to MeHg.
-- Brand firewall: no sampled product brands are attached to contamination values.
-- source metadata slugs were checked against the editorial record. Crustacean- and sardine-specific product/ingredient slugs were not available in the snapshot, so those rows are carried under broad seafood, fish, and shellfish context rather than invented slugs.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

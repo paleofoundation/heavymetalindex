@@ -53,22 +53,16 @@ OECD WPEA-led methodology compilation. Sources reviewed: existing exposure-model
 - Courses: Foundational regulatory-affairs reading for children's product exposure-assessment modules. Demonstrates the OECD-harmonized framework for craft/toy exposure estimation across dermal, oral, and inhalation routes.
 - App: Not relevant to ingredient contamination_profile. Provides per-product use-frequency and use-duration defaults that could seed a children's-product use-pattern table.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/face-paint]]
-- [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/antimony]], [[metals/barium]], [[metals/mercury]], [[metals/chromium]] — only via EN 71-3 reference framework cited in Case H; no occurrence data reported here.
-
-## Verification notes
-
-- 2026-05-17 merge-enhance pass (automated editorial review, fresh-context read of pp. 1-15 and 53-66): page metadata, twelve case-study tally, OECD WPEA provenance and CC BY 4.0 licence reverified against title page, copyright page (p. 2), Foreword (p. 4), Executive Summary (p. 7), Scope (pp. 9-11), Annex B (p. 53), and Annex C (pp. 54-65).
-- Corrected contributing-country claim: prior revision conflated case-study contributors (4 countries — Netherlands, Germany, Canada, Denmark per Executive Summary p. 7) with WPEA Children's Health subgroup membership (broader 15-entity list per Foreword p. 4). Now stated separately.
-- Removed the children's-makeup product pointer from source metadata `products:` (prior revision had it as a wikilink). The OECD scope statement (p. 10) explicitly excludes cosmetics: "Some exposure scenarios for children, such as cosmetics ... were not included in this case study as these products would be considered separate from crafts and toys." Face paint is treated as a craft product (Annex A toy/article categorisation), not a cosmetic. The HMTc Cat 2 Row 13 children's-makeup page covers cosmetic-grade makeup (eye shadow, blush, foundation), which is outside this source's scope.
-- Removed two speculative children's-lip-balm pointers (mineral-bearing and plain) from the prior "Wiki pages this source may touch" list: lip balm is not addressed anywhere in this document.
-- `metals: []` retained: the document is methodology and exposure-modelling guidance, not an occurrence study. The only metal-specific case study (Case A — copper in crayon at 0.3% per a single MSDS) uses an MSDS placeholder rather than a peer-reviewed measurement; the EN 71-3 reference in Case H names the analyte list (Pb, Cd, As, Sb, Ba, Hg, Se, Cr) but does not report values. Adding `metals:` slugs would over-attribute the document.
-- Brand-firewall clean: case studies cite agencies (Danish EPA, BfR, RIVM, ECCC/Health Canada, US EPA, SCHER, EFSA), regulatory test standards (EN 71-3, Toy Safety Directive 2009/48/EC), exposure tools (ConsExpo, ConsExpo Web 4.1, ExpoFIRST, SHEDS), and academic references (te Biesebeek 2014, Van Engelen 2008, Park 2018, Guak 2018, den Braver 2021, Affourtit 2023). Case A in the source PDF cites a 2009 manufacturer MSDS for an aqua-coloured crayon (0.3% Cu) as the illustrative concentration input; the brand and manufacturer names from that MSDS are not reproduced here per Part 12 (strict 2026-05-17 reading: source-product brand names attributed to contamination values are replaced with the product-form descriptor). No occurrence data attributed to any commercial brand anywhere in the document body.
-- Emerging-product gap analysis (kinetic sand, water gel marbles, "make your own cosmetics" kits, science kits) flags categories where HMI may need new product slugs in the future. Surfaced for Karen's category-creation queue, not actioned in this ingest.
-- 2026-05-17 audit editorial review (fresh-context Agent, general-purpose) verdict PROMOTE. One ⚠️ concern: prior Key-numbers bullet on Table 2.1 conflated the table's product-by-age pairings with generic age-bracket conventions (infant 0-1, toddler 1-3, etc.) that the table does not enumerate. Verified independently against p. 14 of the PDF; finding correct. Tightened the bullet to describe Table 2.1's actual content (product/age pairings with Bremmer/Danish EPA/CPSC footnotes) and moved the body-weight-defaults caveat to a separate sentence. 0 ❌ definite-error findings.
-- 2026-06-01 merge-enhance pass (automated editorial review, fresh-context re-read of Annex C case studies pp. 53-65): corrected "Case A is the only case study with an inorganic substance illustration" — Case H (Slime-Dermal-Oral, boron) is also labelled "inorganic" in the OECD annex; the corrected bullet names both inorganic case studies and adds the five "Organic/Metal"-labelled case studies (D, F, G, I, J) that the prior revision did not enumerate. De-branded the Case A copper attribution: the prior revision named the MSDS product "Crayon-Aqua" and manufacturer "Horizon Group USA" under Part 12 Exception 2 (methods); on closer reading, the MSDS supplies a CONTAMINATION VALUE attributed to a sampled product, which Part 12 strict 2026-05-17 reading targets — the source-product brand is replaced with the product-form descriptor ("aqua-coloured crayon"). The MSDS reference itself is retained in the verification trail as a year-and-document identifier. Added `jurisdictions: [international]` to clear the routing-advisory flag (`routing_malformed.csv` row 2026-05-31; OECD is an intergovernmental publication endorsed by WPEA across 38 member countries plus partners per Foreword p. 4). `metals: []`, `ingredients: []`, `matrices: []` retained per prior verification reasoning (the document is methodology and exposure-modelling guidance, not an occurrence study).
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/antimony]]
+- [[metals/barium]]
+- [[metals/mercury]]
+- [[metals/chromium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

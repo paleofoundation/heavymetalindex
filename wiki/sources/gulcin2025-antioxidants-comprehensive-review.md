@@ -103,44 +103,6 @@ Funding: Open access funding provided by the Scientific and Technological Resear
 - Some method advantages/disadvantages are reported as expert opinion without primary-study attribution. The methodological recommendations (FRAP at pH 3.6 is non-physiological, CUPRAC at pH 7.0 is closer to physiological) are well-grounded but presented in a summary style.
 - The 122-figure scheme density (mostly chemical reaction mechanisms) substantially exceeds what is reproducible in a wiki source page; readers needing the full mechanistic detail should consult the original PDF.
 
-## Wiki pages this source may touch
-
-- [[metals/iron]]
-- [[metals/copper]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/mercury-total]]
-- [[metals/arsenic-total]]
-- [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1007/s00204-025-03997-2`), raw_handle grep (`MFK_35-antioxidants`), and cite-key glob (`gulcin2025-*`) over the linked reference record on 2026-06-08 returned no hits. The only Cd-toxicity/antioxidant-vitamin page (sitek2022) is a different paper by different authors. This is a NEW source page with no prior version to merge-enhance.
-
-**Evidence tier.** B (peer-reviewed narrative review). The paper reports no primary measurements, declares no systematic search strategy, and offers no risk-of-bias assessment. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither. The author is an established methodologist at Atatürk University with a substantial publication record in antioxidant chemistry methodology, and Archives of Toxicology is a Springer Nature toxicology journal indexed in PubMed/MEDLINE, which supports B over C.
-
-**Metals source metadata.** Recording [Pb, Cd, tAs, tHg] — the four HMTc-priority metals the review explicitly names as toxic heavy metals (in the metal-chelating-assay introduction: "Examples include lead (Pb), cadmium (Cd), mercury (Hg), and arsenic (As)") and that EDTA is described as treating ("FDA has approved EDTA for treating lead and mercury poisoning"). The paper uses "Hg" and "As" without speciation; recording as `tHg` and `tAs` (the unspeciated/total tags) per the speciation discipline in [[docs/conventions]]. `iAs` and `MeHg` are not separately discussed and are omitted. `Cr` is mentioned only in the Fenton-like reagent context (Cr³⁺ + H₂O₂) without contamination relevance and is omitted; `Cr-VI` is not discussed. `Ni`, `Al`, `Sn` are not in scope of the review. Out-of-HMTc-vocabulary metals heavily discussed (Fe, Cu, Zn, Mn) drive the review's chemistry content but do not appear in HMTc analyte vocabulary source metadata.
-
-**Ingredients, products, matrices source metadata.** All empty. The review measures nothing in any food, beverage, personal-care, or environmental matrix; it surveys antioxidant assay chemistry without primary sampling. Food constituents discussed (fruits, vegetables, tea, olive oil, polyphenol-rich extracts, curcumin, resveratrol, quercetin, usnic acid) are referenced in the context of antioxidant assay performance, not heavy-metal occurrence. Routing these to ingredient pages would misrepresent the source as occurrence-side evidence.
-
-**Jurisdictions.** [TR]. The author is at Atatürk University in Erzurum, Türkiye; open-access funding from TÜBİTAK (Scientific and Technological Research Council of Türkiye). The review cites US regulatory framing (FDA approval of EDTA) but the review itself is Turkish-sited methodological work, not a US, EU, or international monograph. Recording TR only.
-
-**Sample size.** Null. This is a methodology review with no sampling frame of its own.
-
-**Audience.** [regulator, educator]. Regulator audience because the chemistry of FDA-approved EDTA chelation and the operational definition of heavy metals are referenced. Educator audience because the review's primary contribution is method documentation suitable for course material. Consumer audience excluded because the review is methodological and produces no consumer-translated quantitative claims. App audience excluded because no `contamination_profile` values are derivable from the review.
-
-**Brand firewall (Part 12).** No commercial brand names appear in the review body. The review names reagent/instrument vendors implicitly (DPPH, ABTS, ferrozine, TPTZ, neocuproine, EDTA-disodium) but these are scientific-method-name terms (Exception 2 of the brand firewall, locked 2026-05-17): they identify the chemicals doing the measuring, not contamination values of sampled consumer products. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language and no consumer-audience risk advisories. The closest is the statement that EDTA "is also effective in eliminating excess iron from the body" and "the FDA has approved EDTA for treating lead and mercury poisoning" — clinical-pharmacology context, not a consumer or threshold claim. The review is upstream of any HMTc rationale tagging.
-
-**Speciation discipline.** The review uses unspeciated "Hg," "mercury," "As," and "arsenic" throughout the heavy-metals background section. The chelation-target list ("lead, cadmium, mercury, and arsenic") is unspeciated. Following [[docs/conventions]], `tHg` and `tAs` (total/unspeciated tags) are recorded in source metadata; `iAs` and `MeHg` are not added since the paper does not separately distinguish the species.
-
-**Date arithmetic.** Received 31 January 2025, accepted 18 February 2025, published online 15 April 2025 — consistent with year source metadata (2025). Article DOI 10.1007/s00204-025-03997-2 resolves to *Archives of Toxicology* Volume 99, pp 1893-1997.
-
-**Open-access license.** The paper is published by Springer Nature under the Creative Commons Attribution 4.0 International License ("This article is licensed under a Creative Commons Attribution 4.0 International License, which permits any use, sharing, adaptation, distribution and reproduction in any medium or format..."). Recorded as CC-BY-4.0.
-
-**Reviewer note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The folder context (`heavy_metals_peptides` under `Kimi_Agent_Black Market Peptide Metal Survey`) is peptide-mediated metal binding and detoxification; this review's coverage of glutathione (γ-Glu-Cys-Gly tripeptide chelator) and selenocysteine-containing glutathione peroxidase, together with the metal-chelating assay methodology that underpins how peptide chelation activity is quantified in vitro, is the direct fit. The review is methodology-side, not occurrence-side, which is recorded accurately in the Implications section.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

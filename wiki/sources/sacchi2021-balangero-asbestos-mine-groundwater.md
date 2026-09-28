@@ -131,7 +131,7 @@ App: Useful as environmental-pathway context for naturally elevated Cr, Cr-VI, N
 
 Courses: Useful for teaching how to derive NBLs in geologically peculiar settings, how serpentinite mineralogy controls Cr/Cr-VI/Ni mobility, how Mg-HCO3 to Mg-SO4 facies evolution accompanies neutral mine drainage, and why median-based representative values can be too conservative when the target is the highest naturally achievable concentration rather than the typical exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
@@ -140,18 +140,10 @@ Courses: Useful for teaching how to derive NBLs in geologically peculiar setting
 - [[metals/iron]]
 - [[metals/cobalt]]
 - [[metals/zinc]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, study area description, hydrogeology section, materials and methods, all results subsections (hydrochemical facies, pre-selection, trend analysis, spatial analysis per element, statistical distribution, dataset assessment), the NBL evaluation, comparison with similar hydrogeochemical settings, Tables 1-9, and the conclusions. Products and ingredients are intentionally empty because no food, crop, ingredient, drinking-water-supply, or consumer-product sample was analysed. Matrices use non-food descriptive slugs (`groundwater`, `mine-impacted-groundwater`, `serpentinite-aquifer`) consistent with the posture established for prior non-food environmental sources (e.g., [[sources/son2021-nakdong-weir-sediment-metals]], [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]]); the routing-audit advisory row in `routing_malformed.csv` is the correct surfacing channel for non-food scope. The instrument vendor and model for ICP-OES and UV-VIS are not stated in the published paper, so they are not added to the Methods section; the HACH HQ40D probe and HACH Digital Titrator are named per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names, locked 2026-05-17).
-
-Missing-regulation-slug proposals (surfaced for Karen, not auto-created per Part 10 regulation Step 0 Lock): this paper is governed by (a) the Italian groundwater quality thresholds (TVs) in D.Lgs. 152/2006 Allegato 5 alla Parte Terza (Cr 50, Cr-VI 5, Co 50, Ni 20, Mn 50, Fe 200, Zn 3000 µg/L) and the Italian NBL guidelines [22, 33] referenced throughout, and (b) the EU Groundwater Directive 2006/118/EC and its parent EU Water Framework Directive 2000/60/EC. Neither has a wiki regulation page yet. The page intentionally does not wikilink to either to avoid creating orphans; the routes can be added when Karen approves regulation-page creation.
-
-2026-06-03 audit application (editorial review verdict REVISE, 2 findings applied, 0 rejected):
-
-- **Check 1 ⚠️ Table 4 column-shift caveat overstatement.** Audit editorial review flagged that the Verification-notes paragraph claiming the printed Table 4 has "Cr-VI mean (6.979) and Cr-VI median (3.1) shifted relative to the Co column header" overstates the case and reads the Co row in a way that does not match the source. Verified independently by re-reading PDF p.13 Table 4 and its surrounding text: the source's own narrative on p.13 already says "Concerning Co, the statistics are not relevant as this element shows only two measurements > LOD, both from the same MS", which is the correct anchor for the Co caveat. Rewrote the Table 4 caveat to cite this source statement directly and removed the column-shift speculation. The Co=not-quantifiable conclusion is preserved; the disputed mechanism explanation is removed.
-
-- **Check 2 ⚠️ Two regulation wikilinks not in taxonomy snapshot.** Audit editorial review flagged that `[[regulations/italian-groundwater-quality-thresholds]]` and `[[regulations/eu-groundwater-directive-2006-118-ec]]` were listed under "Wiki pages this source may touch" but neither slug exists in the linked reference record and neither is in the taxonomy snapshot. Verified by listing the linked reference record: confirmed both are absent (existing groundwater-adjacent regulations are EPA arsenic MCL and EU drinking-water/contaminants regs only). Removed both wikilinks from the page body and added a "Missing-regulation-slug proposals" subsection in Verification notes surfacing the two regulations (D.Lgs. 152/2006 Allegato 5 and EU Groundwater Directive 2006/118/EC) for Karen's review per Part 10 regulation Step 0 Lock.
+- [[sources/son2021-nakdong-weir-sediment-metals]]
+- [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]]
+- [[regulations/italian-groundwater-quality-thresholds]]
+- [[regulations/eu-groundwater-directive-2006-118-ec]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

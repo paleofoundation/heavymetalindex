@@ -73,22 +73,13 @@ Approximately `200 mg` of algae was extracted with `8 mL` deionized water by mic
 
 The market *Hizikia* result is the most directly relevant food occurrence row in this paper: total arsenic `88 ± 6 µg g−1` with measured As(V) `62 ± 2 µg g−1` in the water extract. The *Chlorella* result is relevant to algae-based supplement context because it reports both inorganic and methylated soluble arsenic species. The Sargassum CRM is QA/context rather than a consumer product row, and the *Laminaria* capsule result should be treated cautiously because the target toxic species were not detected while an unidentified arsenic species was observed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1016/j.chroma.2006.06.083`, `MFK_10-1016-j-chroma-2006-06-083`, or `garcia-salgado2006-soluble-arsenic-algae`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-003.txt`, extracted with `pdftotext -layout`, especially Tables 3, 4, 5, and 6 plus the total-arsenic values in the sample-description text.
-- Speciation check: Table 5 values are kept as As(III), As(V), MMA, and DMA. Total arsenic is not substituted for inorganic arsenic.
-- Units are preserved as `µg g−1`, `%`, `ng As`, and `µg`; no conversions were performed.
-- Evidence tier B reflects peer-reviewed method/speciation data with exact species and method validation, but a small sample set and inclusion of a CRM/research material rather than a full market survey.
-- Brand firewall: no sampled brands are reported; market purchase is retained only at category level.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

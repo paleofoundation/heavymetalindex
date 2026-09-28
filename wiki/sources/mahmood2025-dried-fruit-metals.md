@@ -60,7 +60,7 @@ Dried fruit was washed in distilled water, oven-dried, and ground in a stainless
 
 Certification: occurrence evidence for Pb, Cr, Ni, Cu, Mn, and Fe in dried fruit drawn from Iraqi (Anbar Governorate) retail markets, suitable for inclusion in dried-fruit pooling once the table-vs-text typos are flagged in the evidence register. The highest Pb value (fig at 0.191 mg/kg = 191 µg/kg) sits well above the EU 2023/915 maximum level for Pb in dried fruit. Courses: example of single-laboratory market surveillance with a small n per fruit type. App: supports a dried-fruit occurrence record but should not be treated as a representative population estimate given n=1 sample per fruit type and a single geographic origin.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/dried-fruit]]
 - [[ingredients/fruit]]
@@ -70,10 +70,6 @@ Certification: occurrence evidence for Pb, Cr, Ni, Cu, Mn, and Fe in dried fruit
 - [[metals/copper]]
 - [[metals/manganese]]
 - [[metals/iron]]
-
-## Verification notes
-
-Metadata and DOI verified from PDF first page. Table 1 contains two values (Cr in plum, Ni in kiwi) that disagree with the narrative text in §3.3 and §3.4 respectively; the narrative values are used as the authoritative reading because they are consistent with the LSD precision and bar-chart axes. AAS instrument vendor/model and certified reference material are not reported in the paper; the methods section here reflects only what the source describes. Wet vs dry weight basis is inferred from the sample preparation (samples oven-dried before digestion) but not explicitly stated by the authors. Sample size is one sample per fruit type with ≥ 3 analytical replicates; downstream pooling should treat this as an n=1 population observation per fruit type rather than as a population distribution.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -102,7 +102,7 @@ App: Useful for mitigation/sourcing notes around low-accumulation rice cultivars
 
 Courses: Useful for teaching how cultivar selection, soil chemistry, selenium/silicate conditioners, and foliar barriers change grain metal uptake while preserving basis, species, and treatment context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]
@@ -114,14 +114,6 @@ Courses: Useful for teaching how cultivar selection, soil chemistry, selenium/si
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, Tables 1-8, Figures 3-8, rice and soil collection methods, digestion and analytical methods, health-risk equations, discussion, conclusions, and data-availability statement. The source reports total Hg, Cd, total As, Pb, and total Cr in husked/milled rice grain; it does not separate inorganic arsenic, methylmercury, or chromium species. Several Hg/Cd treatment results are reported as source-text reductions rather than extractable numeric concentration tables because the underlying Figure 3, Figure 4, and Figure 6 values are plotted graphically in the PDF. D1, D2, D3, D4, and Y1-Y4 are source treatment labels, not product brands. This page omits brand names and uses category-level conditioner labels.
-
-Merge-enhance pass 2026-06-02: trimmed `matrices:` from five entries to the two actual measurement matrices (paddy-soil, brown-rice-grain); the prior `rice-variety-field-trial`, `soil-conditioner-field-trial`, and `foliar-barrier-field-trial` entries described the experimental design rather than what was measured, and are removed.
-
-Audit-application 2026-06-02 (editorial review PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (the linked reference record, the linked reference record), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

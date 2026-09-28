@@ -112,28 +112,11 @@ Key methodological scope limitation for the wiki: NAA in this study measured onl
 
 **App:** tHg, Co, Cr, and Zn data for Indonesian-market staple foods, with the caveats that (a) replicate counts per commodity are unreported, (b) no Pb/Cd/iAs data, and (c) all values are wet basis as marketed.
 
-## Verification notes
+## Related evidence
 
-Enhancement run 2026-05-18 (cite-key existed before 2026-05-14 with several defects). Defects corrected against the source PDF:
-
-- Expanded `metals:` from `[Cr, tHg]` to `[Cr, tHg, Co, Zn]` — Co and Zn are explicitly measured for all 14 commodities and reported in Table 3 alongside Cr and Hg. The prior source metadata omitted half the studied panel.
-- Corrected `ingredients/soybean` (invented slug, not in taxonomy) → `ingredients/soy` (current taxonomy slug). Added `[[ingredients/fish]]`, `[[ingredients/chicken]]`, `[[ingredients/meat]]` since the paper measures mackerel, chicken, and meat as distinct commodities.
-- Expanded `products:` from `[fresh-fish]` to `[fresh-fish, snacks-crackers-biscuits]` — the paper measures kerupuk (Indonesian crackers) as a distinct commodity with the second-highest Hg concentration in the panel (0.25 mg/kg), which is product-grade information. Both target pages exist on disk.
-- Replaced `matrices:` `[staple-food, rice, vegetables, legumes, meat, fish, egg]` (mostly non-vocabulary) with `[rice, legumes, leafy-vegetable, root-vegetable, fruit, fish, egg, meat, poultry, snack-cracker]` aligned with the system-prompt matrix vocabulary and reflecting all 14 commodities. Free-form matrix labels are accepted per the routing-layer convention.
-- Replaced the Cr-min citation in concentration ranges — Table 3 shows Cr = 0.02 in both egg and water spinach; the prior page named only egg.
-- Corrected the tHg-min citation — Table 3 shows tHg = 0.02 in meat (papaya is 0.03); the prior page incorrectly attributed the tHg minimum to papaya.
-- Expanded `## Key numbers` to include the full Table 3 commodity matrix (all 14 rows, all four metals), the Table 2 water-content list, the Table 1 RfDs, the Table 5 SUSENAS consumption rates, the Table 4 MPLs, and an explicit Table 6 HRI summary so the page no longer relies on selective commodity excerpts. Prior key-numbers excerpts for rice/soybean/spinach/mackerel/crackers all matched the source and were preserved.
-- Removed the cross-source synthesis claim in the `## Implications` Certification line that said the rice Hg HRI result "is at odds with the general consensus that rice Hg is low risk globally." Per Part 2 the source page reports what this one paper found, not how it relates to other literature. The replaced text now frames the rice Hg HRI as a single-study signal that the HMTc rice-row Hg evidence base can incorporate, without proposing a threshold or comparing to consensus.
-- Replaced the legacy heading `## Wiki pages updated on ingest` with the current `## Wiki pages this source may touch` per the 2026-05-08 schema convention.
-- Added `access_url: https://doi.org/10.1063/5.0053376` (DOI resolves to AIP's free-access landing page; the PDF on page 1 carries a FREE access tag; license string remains `unknown` because the AIP Conference Proceedings copyright/license terms are not printed on the article PDF).
-- Tightened `sample_population` to enumerate the five Jakarta markets named in the paper (Cilincing, Tomang, Klender, Mampang, Pasar Senen) and to flag the unreported per-commodity replicate counts.
-
-Paper-internal inconsistency flagged (not a routing or wiki defect): the Conclusions section asserts that "the foods from Jakarta are safe for consumption" and the discussion text claims the HRI calculation for all commodities shows values < 1. Table 6, however, prints rice tHg HRI as 2.1E+00 (i.e., 2.1, above the authors' own < 1 safe threshold) and recomputing DIR/RfD from the paper's own inputs (rice tHg 0.15 mg/kg × 0.24 kg/day ÷ 55.9 kg ÷ 0.0003 mg/kg·day) returns 2.14. The Table 6 value is internally consistent with the methodology; the Conclusions and discussion overstate safety. The wiki page reports the data as the authors printed them and flags the inconsistency here.
-
-Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `source_type`, `evidence_tier`, `license`, `near_duplicates`, `sample_n`, `jurisdictions: [ID]`.
-
-## Wiki pages this source may touch
-
+- [[ingredients/fish]]
+- [[ingredients/chicken]]
+- [[ingredients/meat]]
 - [[metals/chromium]]
 - [[metals/mercury-total]]
 - [[metals/cobalt]]
@@ -143,9 +126,6 @@ Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `source_type`, `evidence
 - [[ingredients/spinach]]
 - [[ingredients/carrot]]
 - [[ingredients/eggs]]
-- [[ingredients/fish]]
-- [[ingredients/chicken]]
-- [[ingredients/meat]]
 - [[products/fresh-fish]]
 - [[products/snacks-crackers-biscuits]]
 

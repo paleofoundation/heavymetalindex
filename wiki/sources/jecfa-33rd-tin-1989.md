@@ -124,23 +124,11 @@ The 33rd-meeting Codex committee request that triggered the re-examination is ci
 
 The 33rd-meeting tin monograph is referenced in its "See Also" footer alongside a successor, "Tin (WHO Food Additives Series 46)," which is the 55th-meeting (2000) tin re-evaluation. The successor monograph is not yet in the wiki corpus and is queued for separate ingest; on its ingest, this page's `superseded_by` should be updated and the relationship between the 33rd-meeting PTWI of 14 mg/kg body weight per week and the 55th-meeting tin guidance value should be cross-linked.
 
-## Verification notes
+## Related evidence
 
-Fresh-context audit editorial review (automated editorial review, 2026-06-03) returned verdict REVISE with two actionable items, plus several ⚠️ concerns and one false positive.
-
-- Applied: corrected the "Source meeting" cell in the chronic-intake table. The original draft cited "JECFA 14th (1971), reaffirmed 17th (1973), 19th (1975), 22nd (1978), 26th (1982)" — but the monograph's "Explanation" section enumerates only years (1966, 1970, 1971, 1975, 1978, 1982) with no meeting numbers, and "17th (1973)" specifically is not in the PDF. Replaced with the PDF's verbatim year-only enumeration to avoid claiming structure the monograph does not provide. Verified against PDF p. 1 paragraph 1.
-- Rejected as false positive: audit Check 2 ❌ flagged `[[products/canned-foods-general]]` as a non-snapshot slug. The taxonomy snapshot at the editorial record is stale on this point — the linked reference record exists on disk and the routing audit accepted the slug, generating one of the three routing rows for this source page (`canned-foods-general,locked_hmtc_row,jecfa-33rd-tin-1989,...,direct_evidence,...`). The operational source of truth is the routing audit's resolution against the live wiki tree, not the snapshot. Slug retained.
-- Documented but not changed: audit Check 2 ⚠️ noted that the PDF does not explicitly enumerate `Sn2+` and `Sn4+` as analyte forms. The `species:` field is structural metadata defining the chemistry scope of "inorganic tin" rather than a claim about the source's analytical speciation, and the precedent pages `benoy1971-tin-toxicity-canned-fruit-juices` and `eu-scf-2002-acute-tin-canned-foods` both use the same `species: [Sn2+, Sn4+]` convention for analogous inorganic-tin documents. Retained for cross-source comparability.
-- Documented but not changed: audit Check 1 noted minor losses in the case-series table (Barker & Runte 1972 corroded-can range 381-477 ppm summarized as mean 418 only; Calloway & McMullen 1966 daily-average 163 mg/day omitted; Nehring 1972 nitrite 1.7 ppm omitted from "trace Zn/Cd/Pb/Cu/Cl" summary). These are condensations that preserve the values used in the Committee's evaluation; the omitted values are secondary and do not change the symptomatic-threshold finding. Retained as written.
-
-Otherwise PROMOTE per audit Checks 3, 4, 5 (speciation/methods, brand firewall, wiki/HMTc firewall all ✅).
-
-## Wiki pages this source may touch
-
+- [[products/canned-foods-general]]
 - [[metals/tin]]
 - [[metals/tin-inorganic]]
-- [[regulations/codex-cxs-193-1995-tin-canned-foods]]
-- [[products/canned-foods-general]]
 - [[products/canned-fruit]]
 - [[products/canned-vegetables]]
 - [[products/canned-fish]]

@@ -71,22 +71,14 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 
 **Caution:** The source's quantitative values are unusually high relative to the paper's own regulatory discussion. They should be used to indicate source-reported direction-of-effect (fungi-flavoured > pepper-flavoured in the Italian subset; Iranian combined Pb/Cd/As > Italian combined Pb/Cd/As) rather than as calibration inputs until independently replicated. The country-level Ni direction is internally inconsistent between Table 3 and the narrative.
 
-## Wiki pages this source may touch
+## Related evidence
+
 - [[ingredients/olive-oil]]
 - [[products/olive-oil]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- 2026-05-17 Codex merge-enhance: identity checked against DOI 10.2478/ata-2019-0012 and the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, rerouted from `products/cooking-oils-other` to `products/olive-oil`, corrected Italian Table 1 transcriptions (non-flavoured Pb/As and fungi vs vegetable Ni), aggregated the four Iranian anonymized series into ranges to avoid brand/series-level ranking, and changed legacy headings to current source-page headings.
-- Strict Part 12 cleanup: source reports four anonymized Iranian series; the wiki page now reports the range across the series rather than listing series-by-series values with a highest-series callout.
-- Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; source metadata therefore retains `tAs` pending cross-audit.
-- `edible-oil`, `olive-oil`, and `flavoured-olive-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
-- 2026-05-18 Cross-vendor audit (Codex) made the source-internal Ni contradiction explicit: Table 3 reports Iranian Ni lower than Italian Ni (9.579 vs 12.253 µg/g), while the narrative says Iranian Ni was higher. Also tightened the regulatory note so Codex/USDA 0.1 mg/kg is not over-attributed to Cd.
-- 2026-05-25 Claude cross-audit (fresh-context editorial review): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

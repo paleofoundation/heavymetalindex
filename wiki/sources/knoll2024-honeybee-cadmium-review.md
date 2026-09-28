@@ -51,16 +51,11 @@ Courses: Useful for supply-chain modules illustrating how soil Cd enters the foo
 App: Can inform qualitative Cd concern for honey and bee-derived ingredients where ingredient-level risk context is needed; the review does not provide a pooled honey concentration distribution.
 Microbiome: Not directly applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[ingredients/honey]]
 - [[products/honey]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) removed unsupported numeric/regulatory claims about EU honey limits, 5-10x body burdens, and pollen concentrations approaching food maximum levels; replaced them with source-supported LD50/LC50, environmental baseline, larval-effect, and seasonal/spatial pattern values from the review. Removed the unrelated `herbal-botanicals` ingredient route and invalid `supply-chain/soil-contamination` wikilink, modernized the source-touch heading, and tightened HMTc/app language.
-- `bee-pollen` and `bee-body-tissue` are retained as source-specific matrix terms because the common matrix list does not yet include bee-product or bee-tissue matrices. Potential future slugs for Karen if this evidence cluster grows: bee pollen/propolis/beeswax product or ingredient routes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

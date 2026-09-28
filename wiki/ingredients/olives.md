@@ -190,7 +190,7 @@ Other previously cited literature is retained as context; it does not establish 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives|Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey]]<span class="hmi-ref-meta">Karatasli M · Nuclear Technology & Radiation Protection · 2018 · [doi.org/10.2298/NTRP180702007K](https://doi.org/10.2298/NTRP180702007K)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/vella2024-malta-olive-cultivars-aas|Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS]]<span class="hmi-ref-meta">Vella I, Costa C, and Lia F · MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 · 2024</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -201,7 +201,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

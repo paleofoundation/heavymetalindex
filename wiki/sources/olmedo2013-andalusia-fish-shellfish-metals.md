@@ -97,15 +97,6 @@ Fresh and frozen seafood samples were collected from the central market of Grana
 
 This source contributes primary wet-weight occurrence evidence for fresh fish, canned fish, frozen fish, and shellfish rows. It is especially important for seafood mercury because it directly checked MeHg speciation in high-Hg predatory fish and found the total-Hg signal to be overwhelmingly MeHg in that subset. Total arsenic and the paper's modeled inorganic-arsenic intake assumption must remain separate from measured inorganic arsenic data.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-5, and discussion were readable. Rendered page `/tmp/olmedo-page-05.png` was checked to confirm Table 3 layout for canned and frozen products.
-- DOI `10.1016/j.envint.2013.05.005`, raw handle `MFK_olmedo2013`, and cite-key checks found no existing source page before creation.
-- Table medians, selected P5-P95 ranges, sample count, category summaries, weekly intakes, and MeHg speciation statements were checked against extracted text and rendered table layout. Units are preserved as `mg/kg wet weight`, `mg/kg ww`, `µg/L`, and `µg/week`; no conversion was performed.
-- Speciation: measured arsenic is total arsenic (`tAs`), not inorganic arsenic. The paper models inorganic-arsenic intake using EFSA assumptions but does not measure inorganic arsenic. Total Hg and MeHg are kept distinct; the page records the source's direct MeHg-speciation finding for selected high-Hg predatory fish.
-- Brand firewall: no sampled product brands are attached to contamination values.
-- source metadata slugs were checked against the editorial record. Cephalopod- and crustacean-specific product slugs were not available in the snapshot, so squid, octopus, prawn, and shrimp route through broad shellfish/seafood context.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -46,7 +46,6 @@ This in vitro study exposed differentiating Caco-2 cells to antimony(III) chlori
 | Sb | food | 0.04 | mg/kg of food | regulatory restriction |  | p.2 |
 | Sb | human oral intake | 0.006 | mg Sb/kg body weight/day | TDI |  | p.2 |
 
-
 ## Methods (brief)
 
 SbCl3 was freshly dissolved in DMSO and added only to the apical side at each medium change. Concentrations were chosen as non-cytotoxic in a preliminary series (Fig. S1, values not printed). TUDCA at 500 uM was used as an ER-stress inhibitor in a 50 nM Sb(III) arm. Statistics used p < 0.05.

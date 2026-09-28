@@ -54,7 +54,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/abdolahpour2023-heavy-metals-babol-vegetables|The health risk assessment of heavy metals in vegetables grown in Babol city, Iran]]<span class="hmi-ref-meta">Abdolahpour Alamdari H, Sleman Ali H, Sadighara P, Jahed Khaniki G, Shahsavanpoor Landeh K, and Dehghani MH · International Archives of Health Sciences · 2023 · [doi.org/10.48307/IAHSJ.2023.177176](https://doi.org/10.48307/IAHSJ.2023.177176)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/dghaim2015-heavy-metals-uae-herbs|Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates]]<span class="hmi-ref-meta">Dghaim R, Al Khatib S, Rasool H, and Khan MA · Journal of Environmental and Public Health · 2015 · [doi.org/10.1155/2015/973878](https://doi.org/10.1155/2015/973878)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -65,7 +65,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

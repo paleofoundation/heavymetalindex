@@ -44,7 +44,7 @@ The study collected 94 broiler feed samples and 60 broiler meat samples from Gaz
 
 This source is useful for poultry-product gap filling in Bangladesh, but the meat results should be treated carefully because the extreme Cd and Cr values occurred in a single positive meat sample out of sixty. Arsenic was named in the introduction as in-scope for feed testing only, but no As results are reported in any results table; treat the paper as silent on As occurrence in both feed and meat.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
@@ -52,12 +52,6 @@ This source is useful for poultry-product gap filling in Bangladesh, but the mea
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25.
-- Chromium is total/unspecified Cr, not Cr(VI).
-- Audited 2026-06-08: dropped over-broad `ingredients/meat` routing in favor of `ingredients/poultry` (paper is broiler-chicken-specific); corrected misleading arsenic-meat statement; expanded methods to name ICP-OES/MS (feed) and ICP-MS (meat) at SGS India; surfaced feed Pb max (14.65 mg/kg, ~3x EU MRL) and Cr max (49.22 mg/kg) in Key numbers; populated sampling_locations and fixed author abbreviations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -58,7 +58,6 @@ Eighty-five commercial premade baby foods from Coimbra, Portugal, were dry-ashed
 | Ni | desserts (jars) | 23.5 | μg/kg | mean | 8 | p.PDF p.3 (printed 3) |
 | Ni | paps, conclusions section | 33.4 | μg/kg | mean | 20 | p.PDF p.6 (printed 6) |
 
-
 ## Methods (brief)
 
 Half-MDL and half-MQL substitution was used for statistics. Kruskal-Wallis and Mann-Whitney tests. EDI assumed gastric capacity about 30 g/kg and body weights 8, 10.25, and 12.75 kg at 6 months, 1 year, and 2 years, with a diet of only these commercial foods plus breast milk. Worst-case EDI used the highest concentration in each food group; those maxima other than the overall and fruit maximum of 225.7 μg/kg are not printed in the main text.

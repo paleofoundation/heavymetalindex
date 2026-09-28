@@ -114,7 +114,7 @@ App: Supports flagging methylmercury as a low-level but real analyte in formula 
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki Pages Updated
+## Related evidence
 
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-rice-cereal]]

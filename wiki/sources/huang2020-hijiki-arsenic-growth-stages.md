@@ -75,23 +75,12 @@ The study sampled cultivated hijiki in 2016 at monthly intervals from January to
 
 This source is routeable edible-hijiki occurrence evidence because it reports dry-weight tAs and iAs by growth stage for cultivated whole plants, and separately identifies As(V), As(III), DMA, and MMA. Downstream extraction should treat As(V) and As(III) as inorganic arsenic species, while retaining the Table 1 whole-plant iAs values as the main occurrence summary. The organ-distribution figure/prose conflict should not be used for product-row values without a later audit decision.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.15666/aeer/1801_19411952`, raw handle `MFK_1801-19411952`, or cite key `huang2020-hijiki-arsenic-growth-stages`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-009.txt`, extracted with `pdftotext -layout`; Tables 1 and 2 were also visually checked against rendered PDF pages 5 and 7.
-- Source-side inconsistency: Table 2 repeats Table 1 tAs means but uses different native-variety SDs for February-April (`17.97`, `16.48`, `22.17` instead of Table 1's `7.97`, `6.48`, `4.17`). Both tables are transcribed as printed.
-- Source-side inconsistency: the organ-distribution prose reports rhizoid/leaf/air sac/stem values of `31.92`, `27.23`, `20.66`, and `14.66 mg/kg dry weight`, but Figure 1 visually shows a different order and scale; those organ values are not used as routeable occurrence numbers here.
-- Speciation check: Table 1 iAs and Table 2 As(V)/As(III) are inorganic arsenic context; total arsenic is not substituted for inorganic arsenic. DMA and MMA are kept as organic arsenic species.
-- Units and basis are preserved as `mg/kg dry weight`, `%`, `ng/g DW min`, and `µmol/L`; no conversions were performed.
-- Evidence tier B reflects peer-reviewed primary edible-seaweed occurrence and speciation data, but with internal source inconsistencies and limited QA/QC detail in the extracted text.
-- Brand firewall: no sampled brands are reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

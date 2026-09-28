@@ -62,7 +62,7 @@ Courses: Useful teaching example for separating mitigation efficacy data from pr
 
 App: Not suitable for direct ingredient contamination estimates. It may support future explanatory content about why soil amendment and sourcing practices can affect Cd and arsenic uptake.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
@@ -70,10 +70,6 @@ App: Not suitable for direct ingredient contamination estimates. It may support 
 - [[metals/cadmium]]
 - [[ingredients/rice]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the PDF text, including the abstract, amendment design, Table 1 treatment rates, Table 2 fertilizer elemental composition, methods for digestion/TCLP/ICP-OES, the Figure 4 leachability results, the Figure 5 rice-root/rice-shoot uptake results, the accumulation-factor discussion, and the conclusions. The auto-fetch filename says mushrooms and total arsenic because the intervention includes mushroom-residue fertilizer and reports total As; the actual source is a rice paddy-soil mitigation study. source metadata uses `tAs` because the method reports total arsenic by ICP-OES and does not speciate inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

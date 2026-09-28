@@ -51,17 +51,13 @@ The heavy-metal results are nondetects. The PDF text layer does not expose numer
 
 For mushroom ingredient pages, this paper contributes a Nigeria-specific nondetect finding for Cd, Cr, and Pb in Pleurotus tuberregium grown under the tested substrate conditions. It is not evidence that all mushrooms or wild mushrooms are low in these metals, because the study was species- and substrate-specific.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
 - [[products/canned-mushrooms]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The study provides routeable occurrence evidence even though the three target values are censored. The detection limits were not extractable from the accessible text, so the values should enter structured evidence as BDL with missing LOD rather than as zeros.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

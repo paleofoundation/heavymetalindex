@@ -44,22 +44,10 @@ Courses: Provides evidence base for mitigation module content, particularly rice
 App: Informs the mitigation-options framework for rice and vegetable ingredients; rice cooking method is a documented lever for reducing dietary Cd exposure.
 Mitigation: Directly relevant to [[mitigation/agronomic]], [[mitigation/processing]], [[mitigation/formulation]], and [[mitigation/supply-chain-screening]] as existing mitigation routes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-- [[mitigation/agronomic]]
-- [[mitigation/processing]]
-- [[mitigation/formulation]]
-- [[mitigation/supply-chain-screening]]
-
-## Verification notes
-
-- Corrected the source type to review and added the 4098-record search count from the abstract/results.
-- Replaced the ambiguous environmental-intervention count with the source's category counts.
-- Reframed selected effect examples so the El-Soud dietary study is not described as highest-quality evidence.
-- Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
-- Removed missing/future wikilinks and routed mitigation relevance to existing mitigation pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

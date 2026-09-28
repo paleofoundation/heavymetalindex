@@ -58,7 +58,6 @@ Thirty-one skin-contact garments bought in Catalonia were microwave-digested and
 | Mo | clothing digest | 0.03 | mg/kg | lod |  | p.PDF p.3 (printed 310) |
 | Sm | clothing digest | 0.03 | mg/kg | lod |  | p.PDF p.3 (printed 310) |
 
-
 ## Methods (brief)
 
 Cloth density was measured by cutting and weighing dried cloth (Table 1, mg/cm2) and used in the exposure equation. Body weights assumed 70 kg (men), 60 kg (women), and 6.98 kg (child under 1 year). Exposure totals in Table 6 use detected concentrations. Percent contributions of garment type were not transcribed.

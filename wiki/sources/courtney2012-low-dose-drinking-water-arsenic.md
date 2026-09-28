@@ -50,17 +50,10 @@ Total arsenic was measured by ICP-MS in biological matrices collected from the m
 
 Use this source only for source-scoped arsenic exposure/toxicology context. Do not treat mouse dam milk or pup stomach contents as a human breast-milk occurrence dataset. Where the paper reports total arsenic, retain total-arsenic species and do not substitute inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Manifest cite-key retained.
-- The paper is P1 in the Marker manifest but is not product-occurrence evidence.
-- Matrix scope is narrowed to established broad terms; the paper also measures mouse placenta, pup stomach contents, and urine as animal-model exposure matrices.
-- Brand firewall: no sampled consumer brand names are reproduced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

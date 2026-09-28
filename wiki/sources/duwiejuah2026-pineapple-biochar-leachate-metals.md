@@ -80,18 +80,12 @@ Courses: Useful example of agricultural-waste biochar as a low-cost heavy-metal 
 
 App: Context only. The source supports remediation and supplier-control narrative for landfill leachate treatment; it does not estimate consumer-product contamination.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/index]]
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was not pineapple food occurrence. On reading, it is in-scope a2 mitigation/remediation evidence because it measures Cr and Ni removal from landfill leachate.
-
-Numbers were checked against the extracted PDF text, especially the abstract, Materials and Methods, Table 1, Table 2, Table 3, and the conclusion. The adsorption-model outputs include negative constants and inconsistent statements about best fit; those values are reported as printed and not normalized. Chromium is total Cr, not Cr(VI). Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

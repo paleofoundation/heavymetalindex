@@ -41,7 +41,6 @@ The file name aschenbeck2017 does not match the text. The paper is Api, Parakhia
 
 This source does not report a metal concentration or a metal limit.
 
-
 ## Methods (brief)
 
 Eighty-nine fragrance chemicals were placed in potency categories: none in category 1, 11 in category 2, 22 in category 3, 37 in category 4, and 19 in category 5. Category 5 is described as not passing the threshold for regulatory classification. Affiliations include the Research Institute for Fragrance Materials, Woodcliff Lake, NJ.
@@ -62,7 +61,6 @@ No metal occurrence, absorption, or metal limits. Fragrance NOEL and LOEL values
 
 ## Related evidence
 
-- No product or metal page is declared for this source. The batch report records the gap.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

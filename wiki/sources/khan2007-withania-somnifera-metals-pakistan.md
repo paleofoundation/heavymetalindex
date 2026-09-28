@@ -68,7 +68,7 @@ The authors collected *Withania somnifera* from different locations of Peshawar 
 
 The paper contributes Pakistan occurrence data for herbal-botanical raw material, especially plant-part-specific Pb, Cd, Ni, and total Cr measurements in *Withania somnifera*. The paired soil values support a soil-to-plant collection-context note, but only the roots, stems, leaves, and fruits should be considered botanical occurrence rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -80,17 +80,6 @@ The paper contributes Pakistan occurrence data for herbal-botanical raw material
 - [[metals/iron]]
 - [[metals/nickel]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09 found no existing source page for DOI `10.1002/jccs.200700049`, raw handle `MFK_khan2007`, or cite key `khan2007-withania-somnifera-metals-pakistan`.
-- DOI check: the DOI is not printed in `/tmp/hmi-june9-100.txt`; Crossref metadata for the exact title and journal reports DOI `10.1002/jccs.200700049`.
-- All Key numbers values were re-checked against Table 1 in `/tmp/hmi-june9-100.txt` extracted with `pdftotext -layout`. The table rows and `nd` cells are copied without averaging, rounding, or unit conversion.
-- Units are preserved as `mg/kg`, the unit printed in the source discussion for the Table 1 values. The page does not convert to ppb.
-- Speciation check: chromium is total Cr by AAS; the paper does not report Cr-VI. Arsenic and mercury are not measured in the occurrence table.
-- Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
-- Brand firewall check: no commercial brands or producers are reported.
-- Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in the editorial record. Species-specific *Withania somnifera* has no closed ingredient slug in the snapshot, so it remains in the title, prose, and matrix text only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

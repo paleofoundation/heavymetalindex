@@ -55,7 +55,7 @@ The study used a descriptive comparison of soy milk processed in aluminum and st
 
 This source may support a narrow context note for soy milk and soy-based plant milk where cookware or process water can dominate the measured metal profile. It is not sufficient by itself for a benchmark distribution because the sample structure is a two-condition processing comparison from one producer, not a market survey. The very high Pb and Cu values should be preserved as source facts but should not be generalized without corroborating Indonesian soy-milk occurrence studies or reanalysis with clearer QA/QC reporting.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/plant-milks-soy-based]]
 - [[products/soy-products]]
@@ -66,10 +66,6 @@ This source may support a narrow context note for soy milk and soy-based plant m
 - [[metals/zinc]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-PDF extracted 2026-05-31 from the auto-fetched queue. Metadata are taken from the article front page: Aceh Nutrition Journal, DOI 10.30867/action.v8i4.925, received July 26, 2022, accepted May 18, 2023, published December 5, 2023. The filename was fetched under an aluminum-in-soy-products query, and the actual source is a soy-milk finished-product cookware comparison. Table 1 and Table 2 repeat the same metal values; the table transcription here preserves the source's comma decimals as decimal points. The paper uses "US" in one English methods sentence where the intended analyte is arsenic (As); this page treats it as total arsenic (tAs) because the abstract, Indonesian abstract, and tables consistently report As without speciation. Mercury is likewise total mercury (tHg), not methylmercury. Cr is named in methods but absent from results and therefore excluded from the `metals` source metadata. The matrix terms `beverage` and `food-processing` are existing broad descriptors used to avoid inventing a source-specific `cookware-comparison` matrix while still preserving the study design.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -50,7 +50,7 @@ Courses: Useful example of packaging-format and beverage-type differences, espec
 
 App: Eligible for beverage-occurrence context once synthesized.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/soft-drinks-carbonated-beverages]]
 - [[products/fruit-juices-non-apple]]
@@ -62,10 +62,6 @@ App: Eligible for beverage-occurrence context once synthesized.
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/copper]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The file contains direct beverage measurements for multiple heavy-metal analytes and should not have remained blocked in the gap queue.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

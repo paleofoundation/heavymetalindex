@@ -47,7 +47,7 @@ All concentrations are in mg/kg dry weight (AAS, flame atomization, acid digesti
 **Vegetables** — key exceedances vs. FAO/WHO limits (Cd 0.2 mg/kg; Cr 2.3 mg/kg; Pb 0.3 mg/kg):
 - Cr: 64% of vegetable samples exceeded 2.3 mg/kg. Highest in *Cucurbita moschata* stems (4.65 mg/kg) and *Brassica napus* stems (4.20 mg/kg).
 - Cd: Several samples exceeded 0.2 mg/kg. Highest in *Amaranthus retroflexus* leaves (0.31 mg/kg).
-- Pb: All vegetable species exceeded 0.3 mg/kg. Highest in *Brassica rapa* stems (4.09 ± 0.085 mg/kg). 
+- Pb: All vegetable species exceeded 0.3 mg/kg. Highest in *Brassica rapa* stems (4.09 ± 0.085 mg/kg).
 - HRI (health risk index) values: *Brassica rapa* stems HRI = 92.3; *Brassica rapa* subsp. *chinensis* leaves HRI = 82.2 — both far exceeding the safe threshold of HRI > 1.
 
 Note: The study measures TOTAL chromium (Cr); speciation into Cr(III) vs. Cr(VI) was not performed. The Cr data should not be treated as Cr-VI.

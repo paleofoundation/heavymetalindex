@@ -47,9 +47,9 @@ Atomic absorption spectrometry on flame mode (VARIAN 240FS, Mulgrave, Australia)
 
 ## Implications
 
-The paper contributes Burkina Faso jurisdiction-specific occurrence data on Pb, Cd, Cr, Ni, Co, and the essential trace elements Fe, Zn, Mn, Cu in five staple raw foodstuffs. The Codex-exceedance rates and HI values are informative for jurisdiction-aware risk framing in courses and the consumer app; per-commodity median and range values feed the routing layer's evidence accumulation for peanuts, rice, maize, tomato, and dried fish.
+The paper contributes Burkina Faso jurisdiction-specific occurrence data on Pb, Cd, Cr, Ni, Co, and the essential trace elements Fe, Zn, Mn, Cu in five staple raw foodstuffs. The Codex-exceedance rates and HI values are informative for jurisdiction-aware risk framing in courses and the consumer app; per-commodity median and range values inform the peanut, rice, maize, tomato, and dried-fish pages.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/peanuts]]
 - [[ingredients/peanuts]]
@@ -66,12 +66,6 @@ The paper contributes Burkina Faso jurisdiction-specific occurrence data on Pb, 
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[metals/copper]]
-
-## Verification notes
-
-The PDF (pages 1-9) provides sample counts, methods, per-site/per-commodity tables (Tables 1-2), CDI/%MTDI table (Table 3), and HI/cancer-risk figures (Figures 1-2). Abstract and Tables 1-2 disagree on Fe median for dried fish (68.80 vs 62.48 mg/kg) and maize (43.09 vs 58.49 mg/kg); the abstract value is reported in Key numbers but the table value should be preferred for standards pooling. The paper's introduction lists "Silver" as one of the targeted analytes but Silver does not appear in any results table; only nine metals (Fe, Zn, Mn, Co, Cd, Pb, Cu, Ni, Cr) are reported. The taxonomy snapshot has no `dried-fish` product slug; `products/fresh-fish` is not used because the paper studied dried (not fresh) fish — flagging as a routing-layer gap. Commodity-specific peanut Cd/Pb table values need extraction before standards pooling.
-
-GPT audit (2026-06-09) flagged `ingredients/corn` as paper-uses-maize: applied — switched to `ingredients/maize`. GPT audit flagged `products/fresh-fish` for a dried-fish paper: applied — removed from products. GPT audit flagged `matrices: [raw-foodstuffs]` as invented vocab: applied — replaced with per-commodity matrices `[rice, maize, peanut, tomato, fish]`. Independent verification caught: metals source metadata listed only 4 of the 9 measured metals; expanded to `[Pb, Cd, Cr, Ni, Fe, Zn, Mn, Co, Cu]` so the routing layer can fan out to all metal pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

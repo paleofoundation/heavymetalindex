@@ -66,19 +66,13 @@ Courses: Useful for explaining why irrigation-source activities and water-body c
 
 App: Context only. The page can support pathway and source-attribution narrative for irrigated vegetable farming near mixed anthropogenic river inputs, but it does not estimate crop concentrations or consumer exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/lead]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked finished-food or utensil occurrence values. On reading, it is in-scope a3 pathway evidence because it measures Pb and Co in irrigated vegetable-farmland soil and links the soil context to Amba River irrigation inputs.
-
-Numbers were checked against the extracted PDF text, especially the abstract, sampling section, Table 1, Table 2, Table 3, Table 4, the heavy-metals discussion, and the conclusion. Units and digestion methods are preserved as printed. The page does not infer crop concentrations from soil values, and no brand or product route is created.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

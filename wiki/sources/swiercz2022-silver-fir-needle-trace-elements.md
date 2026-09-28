@@ -85,7 +85,7 @@ App: Route to the metals and testing context pages for biomonitoring, atmospheri
 
 Courses: Useful for explaining environmental bioindicators, historical-method comparability, needle-age effects, and why soil/plant-monitoring data should not be silently pooled with food occurrence data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -94,10 +94,6 @@ Courses: Useful for explaining environmental bioindicators, historical-method co
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[testing/index]]
-
-## Verification notes
-
-The main source values are contained within the article. Table 3 gives extractable soil concentrations; Figures 2-5 show full needle concentration distributions, but the PDF text extraction exposes only the narrative maxima and trends, so this page does not estimate individual bar heights from the figures. The conclusion/abstract wording says Cd, Cu, Mn, and Zn in three-year-old needles showed a "significant increase" as an indicator, while the Results text states those same elements in three-year-old needles decreased from 1986 to 2018; this page records the explicit Results trend and flags the wording tension rather than deriving a new percent change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

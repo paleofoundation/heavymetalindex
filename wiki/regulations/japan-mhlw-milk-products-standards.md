@@ -49,7 +49,7 @@ Comparison to Codex/EU/FDA/FSANZ formula contaminant limits is not performed her
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/mhlw2007-milk-products-standards|Ministerial Ordinance on Milk and Milk products Concerning Compositional Standards, etc]]<span class="hmi-ref-meta">Japan Ministry of Health, Labour and Welfare · Ministerial Ordinance on Milk and Milk products Concerning Compositional Standards, etc. (English translation) · 2007</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->

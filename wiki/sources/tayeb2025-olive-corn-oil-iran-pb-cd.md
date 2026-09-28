@@ -68,25 +68,13 @@ Courses: Demonstrates a source-specific comparison between traditional/local-sto
 
 App: Usable as regional data points for [[ingredients/olive-oil]] and [[ingredients/corn-oil]] Pb/Cd profiles. Traditional corn oil Pb (mean 32.4 µg/kg = 32.4 ppb) is the highest value in this dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/olive-oil]]
-- [[ingredients/corn-oil]]
 - [[ingredients/vegetable-oils]]
 - [[products/cooking-oils-other]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1016/j.toxrep.2025.101922 and the Marker extraction at the archived source file.
-- Source reports total Pb and Cd by GFAAS; no speciation issue is present.
-- Lead ranges corrected against Table 1: commercial corn oil min 9.50 µg/kg and traditional olive oil range 9.60-26.10 µg/kg.
-- `olive-oil`, `corn-oil`, and `edible-oil` are sample-matrix descriptors used here for routing/context; only existing ingredient/product/metals/regulation slugs are linked.
-- Cross-vendor audit (Codex, 2026-05-17) preserved the source methods' daily-consumption inputs (0.147 g corn oil and 0.328 g olive oil) but flagged the conflicting Table 2 caption ("40.2 g/day").
-- The source introduction contains an internal geography error ("Gilan province"); the title, methods, sample collection, figures, and conclusion identify the study location as Gonbad-Kavus City, Golestan province/northern Iran.
-- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

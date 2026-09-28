@@ -67,7 +67,7 @@ Six single-herbal samples and six mixed herbal products were analyzed. Hg was me
 
 This source contributes Italy-market botanical supplement occurrence evidence for Pb, Cd, total As, total Hg, and total Cr. The mixed-herbal products had higher reported Pb and Cr maxima than the single-herbal products, but the authors could not assign the contamination origin to a specific botanical component. The source is useful for supplement-routing and enforcement-context evidence, especially for lead and chromium in herbal tablets and powders; it should not be used as iAs, MeHg, or Cr-VI evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[ingredients/herbs-and-spices]]
@@ -79,15 +79,6 @@ This source contributes Italy-market botanical supplement occurrence evidence fo
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title, DOI, methods, Tables 1-2, discussion, conclusion, and references.
-- DOI verified from the article URL line as `10.1051/e3sconf/20130115006`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Concentration values were checked against Tables 1-2 and the discussion. The source uses decimal commas; this page preserves the printed decimal-comma values and `mg/Kg` units.
-- Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
-- Brand firewall: the source describes seized food supplements and botanical components but does not provide public brand-value pairs. This page does not attach consumer brand names to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

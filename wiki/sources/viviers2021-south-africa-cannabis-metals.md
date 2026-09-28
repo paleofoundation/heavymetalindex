@@ -91,7 +91,7 @@ The study grouped samples as edible, extract, infusion, liquid, other, plant mat
 
 This source provides South Africa market context for cannabis-based product categories, especially aggregate detection and source-limit failure frequencies. It does not publish individual concentration rows, means, medians, or ranges, so downstream evidence extraction should not invent occurrence concentrations from the pass/fail tables. The inhalation-product subset is outside the current food and personal-care product taxonomy, while oral cannabis products can remain visible through broad herbal-botanical and dietary-supplement routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[products/dietary-supplements]]
@@ -108,15 +108,6 @@ This source provides South Africa market context for cannabis-based product cate
 - [[metals/palladium]]
 - [[metals/platinum]]
 - [[metals/silver]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1016/j.fsir.2021.100224`, `MFK_viviers2021`, or `viviers2021-south-africa-cannabis-metals`.
-- All Key numbers were rechecked against `/tmp/hmi-june9-viviers2021.txt`, extracted with `pdftotext -layout`, especially Tables 1, A1, A2, A3, A4, and A5.
-- Speciation check: arsenic and mercury are not speciated; this page uses tAs and tHg and does not infer iAs or MeHg.
-- Units are preserved as `µg/g`, `ppm`, `%RSD`, and the source's sample counts. No unit conversions were performed.
-- Brand firewall: the dataset is anonymized and no sampled brands are named.
-- Missing slug note: the taxonomy snapshot has no cannabis-specific product, ingredient, vape, or inhalation-product slug. source metadata uses broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, and `[[products/dietary-supplements]]`, while cannabis route/form terms are retained only as matrix descriptors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

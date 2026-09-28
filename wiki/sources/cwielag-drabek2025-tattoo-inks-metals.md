@@ -57,7 +57,7 @@ App: The source supports a category-level signal that tattoo inks and permanent 
 
 Microbiome: No microbiome-specific findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/tattoo-inks]]
 - [[products/makeup-body-paints-bases-fixatives]]
@@ -70,13 +70,6 @@ Microbiome: No microbiome-specific findings.
 - [[metals/arsenic-inorganic]]
 - [[metals/antimony]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- The PDF DOI, authors, year, journal, and license were taken from the article title page.
-- Brand names and manufacturer identities are not reproduced in this source page. The study's product-level supplement can support internal audit, but the public wiki keeps the finding at product-category level.
-- The article reports arsenic as "arsenic (inorganic)" in the analytical-method section. Because the measurement is by ICP-OES after acid digestion rather than a chromatographic speciation method, downstream routing should keep the source's own wording visible and avoid silently substituting it for independently speciated inorganic arsenic.
-- The authors' Table 5 variance values appear internally inconsistent for some elements relative to the reported SD values; this page uses the reported means and maxima and does not reuse the variance values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

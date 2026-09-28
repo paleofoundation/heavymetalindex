@@ -69,19 +69,6 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 
 **App:** No concentration values usable for ingredient `contamination_profile` updates.
 
-## Verification notes
-
-- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit editorial review (Phase 2) flagged a Figure 2A bar-label misread ("benzo[a]pyrene" → should be "bifenthrin"; the abstract names "chlorpyrifos, carbendazim, and bifenthrin" as the three pesticide examples and the bar-chart label is bifenthrin), a Figure 2A pie-slice misread (microbiological 32.0% → should be 32.1%), and an editorial-framing concern that the Certification implications line called heavy metals "a secondary signal in the regulator's recent enforcement attention." Verified all three against the page-3 figure: cadmium and lead are AT THE TOP of the Figure 2A chemical-hazard bar chart, so the "secondary signal" framing was wrong on its own terms (the paper does not rank them, and the chart contradicts the framing). All three findings applied: bifenthrin substituted for benzo[a]pyrene, pie-slice corrected to 32.1% with a sum-to-99.1% rounding note, Certification line rewritten to point at the bar-chart top-listing rather than a secondary-signal framing.
-- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 1 prior to audit): page was originally created 2026-05-14 in the source-retrieval-cond05 batch ingest with generic `raw_handle: manual-fetch-source-retrieval`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
-  - Set per-PDF `raw_handle: MFK_assessment-of-the-chemical-hazards-in-herbs-consum`.
-  - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch source-retrieval ") matching the on-disk path.
-  - Added `raw_sha256` and `access_url`.
-  - Added `tier_rationale` documenting why this is B, not A, given the conference-proceedings format and absence of primary data.
-  - Cleaned the Certification implications line to remove the explicit "HMT&C threshold-setting" phrasing (Part 2 wiki/HMTc-firewall hygiene); the underlying point — that this source contributes no quantitative heavy-metals data — is preserved.
-  - Expanded Key numbers to cite the 89-spice / 120-herb partition, the pie-chart hazard split, the RASFF hazard ordering, the EFSA PA MOE benchmark, the chlorpyrifos EU MRL, and the cited analytical performance figures for the two main methods this paper highlights. Added an explicit "Limitations" section documenting the figure-read imprecision and the unexplained 209-vs-1,133 partition.
-- The original RASFF totals (1,133; 135 chlorpyrifos; 104 EtO), the plant-family counts (Lamiaceae 82, Apiaceae 60, Piperaceae 50, Solanaceae 17), and the pepper-50/oregano-39 product counts were verified against the page text and Figure 2 caption on a re-read; numbers are unchanged.
-- DOI, title, authors, year, publication, license, and source_type were unchanged.
-
 ## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[products/spices]]

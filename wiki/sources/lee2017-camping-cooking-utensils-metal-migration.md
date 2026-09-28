@@ -52,7 +52,7 @@ The article body is primarily Korean, but the English abstract and extracted tab
 
 For metal-utensil and cookware pages, this source supports a conditional migration pattern: acidic simulants increased aluminium release from aluminium cookware, salty conditions increased arsenic migration, and scratches increased releases. It is product-contact migration evidence, not direct food concentration evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/utensils-metal]]
 - [[products/cookware-metal-alloy]]
@@ -62,10 +62,6 @@ For metal-utensil and cookware pages, this source supports a conditional migrati
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The extracted tables use mg/L migration-simulant units. Korean-language portions were not used to infer unexposed numbers beyond the visible table rows and English abstract.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -46,7 +46,7 @@ Assessment status from [[sources/epa-iris-lead-2004|EPA IRIS Pb 2004]]:
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/epa-iris-lead-2004|Lead and Compounds (Inorganic) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, National Center for Environmental Assessment · U.S. Environmental Protection Agency, Integrated Risk Information System · 2004 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=277)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/jecfa-73rd-lead-2010|Lead (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 960 (2011); lead addendum in WHO Food Additives Series No. 64 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209601)</span><span class="hmi-ref-tag">Government</span>

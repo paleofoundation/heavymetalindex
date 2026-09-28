@@ -55,7 +55,7 @@ Ninety-one Tieguanyin tea samples (500 g each) were randomly collected from tea 
 
 The source supports occurrence evidence for Cu, Pb, Cd, Cr, and Ni in Camellia sinensis dry leaf from a Chinese production-region market (Fujian Tieguanyin oolong), and for Cu, Pb, Cd, Cr, and Ni in the corresponding brewed infusion at a fixed 7 g/150 mL/10 min protocol. The internal infusion-exposure model returns unadjusted hazard indices of 3.8×10⁻² to 6.1×10⁻² across six demographic subpopulations and bioavailability-adjusted hazard indices of 1.1×10⁻² to 1.6×10⁻², in both cases well below the USEPA action threshold of 1. Cd contributes approximately 97% of the total carcinogenic risk across subpopulations even though Cd is the lowest single-analyte HQ contributor, because Cd's oral slope factor (6.3 mg/kg/day) is more than ten times Cr's (0.5) and more than 700 times Pb's (0.0085). The paper applies the Cr-VI oral slope factor (0.5 mg/kg/day) to total-Cr exposure for the cancer-risk calculation on the grounds of biological reduction of Cr-VI to Cr-III; the paper does not run a Cr-VI extraction, so all Cr values are total Cr and the cancer-risk numbers are upper-bound estimates that assume the worst-case Cr-VI fraction. Cu is in the dry leaf at much higher mass concentrations than any of the other four analytes (8.18 mg/kg, roughly 4–200× the others) but has the lowest infusion transfer rate (10.2%) and a high oral RfD (40 µg/kg/day), so Cu's HQ contribution stays small. The infusion-exposure ranking the paper highlights — Pb > Ni > Cd by adjusted-HQ contribution to HI, with Cu and Cr lowest — flips the dry-leaf ranking, which is driven by the dramatic differences in transfer rate between analytes. The paper's HI and TR conclusions are conditioned on the 7 g/150 mL/10 min brewing protocol and on the Fujian-specific consumption survey; other brewing geometries (looser steep, multiple infusions, longer steep, smaller leaf:water ratio) would shift the infusion concentrations and the resulting risk numbers. The paper does not attach brand or grower names to any of the 91 sampled lots; all values reported here are sample-pool-level, consistent with the public-wiki brand firewall.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/camellia-sinensis]]
 - [[ingredients/tea]]
@@ -67,12 +67,6 @@ The source supports occurrence evidence for Cu, Pb, Cd, Cr, and Ni in Camellia s
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The raw PDF is filed under the archived source file and the `raw_handle` is preserved as `MFD_yao2022-matcha-heavy-metal` to keep the file-system pointer stable, but the file name is a misnomer: the paper studies Tieguanyin oolong tea (Camellia sinensis, semi-fermented), not matcha (Camellia sinensis, shade-grown green tea powder). Matcha is not within the scope of this source and the matcha product slug (`matcha`) is intentionally not in the products array. The cite-key `yao2022-tieguanyin-tea-heavy-metals` reflects what the paper actually reports.
-
-Chromium values are total Cr; the paper does not speciate Cr-III vs Cr-VI and does not extract Cr-VI specifically, so the source does not route to `metals/chromium-hexavalent`. The paper's application of the Cr-VI oral slope factor to total-Cr exposure for the cancer-risk calculation is reported in Key numbers and Implications as a paper-internal assumption, not adopted by the wiki as a synthesis claim. Below-detection Cd values were assigned the LOQ rather than half-LOQ per the paper's own convention (§2.2 last sentence). The sampling year is not stated in the paper and `sampling_year_range` is left null. Method-section instrument and CRM identifiers (Thermo Fisher XSERIES 2 ICP-MS, TOPEX microwave digestion system, GBW10052 green-tea CRM) are preserved per the Part 12 scientific-reproducibility carve-out. No brand or grower names appear in the source's findings, so the brand firewall is not engaged. The paper is open-access under CC BY 4.0 (MDPI Foods).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

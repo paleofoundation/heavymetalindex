@@ -188,36 +188,14 @@ Samples were collected from the intertidal zone by hand, by diving, or by wading
 - **Microbiome:** out of scope. The source does not characterise mollusc gut microbiota or metal-microbe interactions.
 - **Cross-source signal:** complements [[valencia2021-canacao-bay-oyster-pb-cd]] (Philippine cultured *C. iredalei*, 2016-2017), [[bjerregaard2023-mercury-mussels-denmark]] (Danish *Mytilus*, mercury), [[bao2024-sp-icp-ms-nps-mussels]], [[bruno2024-metals-mussels-clams-faro-lake-sicily]] (Mediterranean bivalves), [[chou-uthe1993-cadmium-american-lobster-belledune]] (Canadian Atlantic point-source crustacean Cd), and any forthcoming MPI-NZ shellfish surveys as the 1970s baseline for southwestern Pacific edible-mollusc contamination. The dataset is unique in the corpus as a single-author, single-methodology, 13-species, 199-site sweep of one country's coastal mollusc fauna.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/cadmium]] — 1970s NZ baseline; species-specific accumulation extremes (*Ostrea lutaria* 3.9 µg/g whole, *Pecten novaezelandiae* stomach 137 µg/g vs adductor 0.51 µg/g); Tasman Bay superphosphate-runoff hypothesis (Williams & David 1973).
-- [[metals/lead]] — 1970s NZ baseline; *Perna canaliculus* urban-proximity Pb accumulation (Wellington Harbour Fig. 2); leaded-paint and vehicle-exhaust pre-phase-out era.
-- [[metals/mercury]] — total-Hg subset (six species, all <0.5 µg/g averages, *Mytilus edulis* highest at 0.23); cold-vapour method.
-- [[metals/copper]] — Kawau Island defunct copper-mine point source (380 µg/g at the mine, gradient to 165 µg/g at 40 m); *C. glomerata* canonical Cu accumulator.
-- [[metals/zinc]] — *C. glomerata* extreme Zn accumulator (avg 337 µg/g, range 97-900); species-physiology contrast with *O. lutaria* (66 µg/g).
-- [[metals/iron]] — Fe up to 280 µg/g in *Perna canaliculus*; recovery 84% only.
-- [[ingredients/shellfish]] — 13-species national-survey wet-weight contamination panel.
-- [[ingredients/bivalve-molluscs]] — 12 of 13 species are bivalves; comprehensive bivalve panel.
-- [[ingredients/molluscs]] — includes *Haliotis iris* gastropod alongside the bivalves.
-- [[ingredients/seafood]] — southwestern Pacific occurrence record.
-- [[products/shellfish]] — historical NZ shellfish Cd/Pb/Hg/Cu/Zn baseline.
-- [[products/seafood]] — broader-context occurrence row.
-- [[valencia2021-canacao-bay-oyster-pb-cd]] — companion cultured-oyster Pb/Cd dataset (Philippines, 2016-2017).
-- [[bjerregaard2023-mercury-mussels-denmark]] — companion mussel mercury dataset (Denmark).
-- [[bruno2024-metals-mussels-clams-faro-lake-sicily]] — companion Mediterranean bivalve multi-metal dataset.
-
-## Verification notes
-
-- 2026-06-03 — Fresh source-page ingest from raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/04_Shellfish/. No prior wiki page (DOI 10.1080/00288330.1975.9515582 not previously ingested; cite-key nielsen1975-nz-molluscs-heavy-metals not previously used; raw_handle KADC_heavy-metal-levels-in-new-zealand-molluscs not previously ingested).
-- 2026-06-03 — Fresh-context audit editorial review (verdict REVISE) flagged one ❌ definite error and one ⚠️ concern. (1) ❌ Opening narrative attributed Sample 61 to "Wellington-area sewer outfall"; verified against PDF p. 473 (text mentions sewer-outfall sample without naming the city) and Appendix p. 478 (Sample 61 listed under Bay of Plenty / "Omokoroa sewer outfall") — the Wellington reference in the same paragraph attaches to the *P. canaliculus* 7.8 µg/g sample, not to Sample 61. Corrected to "Bay of Plenty sewer-outfall sample (Sample 61, Omokoroa)" in the opening narrative; the body and Selected-high-value-site-samples subsection already had the correct Omokoroa attribution. (2) ⚠️ Matrices `abalone-paua` flagged as non-standard; `gastropod-mollusc` (already in the matrices list) is the more general and convention-consistent matrix for *Haliotis iris*, so `abalone-paua` was removed. No ❌ numerical-fidelity issues in the Cd, Pb, Hg, Zn, or Cu species-average tables; Kawau Island Cu mine gradient (380 / 305 / 165), Tasman Bay scallop-stomach Cd extremes (Samples 164, 167, 169, 170), sample/site counts (203 samples, 199 sites, 13 species), and recovery values (Cd 100±2%, Zn 99±2%, Pb 93±4%, Fe 84±3%, Cu 100±1%, Hg 100±3%) all verified clean against the PDF.
-- Full paper read directly from the PDF (16 pages including cover sheet, abstract through references and Appendix pages 477-481). Tables of species averages (Cd, Pb, Hg, Zn, Cu) in the body and the Appendix 1 sample-level table (Samples 1-203) transcribed; selected high-value site samples spot-cited from the Appendix to anchor the Cu mine-gradient and the scallop-stomach Cd extremes.
-- Speciation flags: all reported as total elemental Cd, Pb, Cu, Zn, Fe by AAS, and total Hg (tHg) by cold-vapour AAS. Methylmercury was not measured; the methods explicitly use the Stux & Rothery 1971 cold-vapour procedure on HNO₃/H₂SO₄-digested samples, which captures total mercury without speciating MeHg vs iHg. The page uses `tHg` in the `metals:` array to reflect this.
-- Units preserved as the source reports them: µg per g wet weight (= mg/kg WW = ppm WW) throughout, on whole soft tissue unless footnoted as gonad-only, stomach-only, adductor-only, or foot-only per Appendix legend. The dry-ashing step (12 h at 100°C, then 12 h at 450°C) is sample preparation, not a basis change. No silent conversion to ppb or to dry-weight.
-- Method-vendor names retained Exception 2: Waring Blender (homogenisation). The paper does not name the AAS instrument vendor (uncommon for 1970s papers); cold-vapour mercury method follows Stux & Rothery 1971 (cited as a Varian Techtron technical-topics document, January 1971, Springvale, Australia).
-- Brand-firewall: the source contains no consumer-brand contamination attributions. Geographic-place names (e.g., "Brampton Shoals," "Kawau Island Copper Mine," "Wairoa Bay," "Omokoroa sewer outfall") are place identifiers, not consumer brands, and are preserved as written. The Kawau Island copper mine is a defunct geographic feature, not a contemporary commercial operator; the steel/sewer outfall references are not named to any specific corporate entity in the source.
-- Part 2 wiki/HMTc firewall: this page reports the Nielsen & Nathan 1972-1974 species means, the Appendix site-level samples, and the authors' geological-volcanic and urban-runoff hypotheses. It does not propose, soften, or strengthen any HMTc shellfish threshold; the Implications section is restricted to noting routing destinations, the historical-baseline framing for any future HMTc pooling, and the dataset's pre-leaded-petrol-phase-out temporal context.
-- One contextual fact for downstream readers: the Appendix table cells in the PDF show some samples with a hand-written "YUCK" annotation on page 477 and crossed-out blocks on pages 478-480 (visible in the scanned PDF). These appear to be reader's annotations on the archival copy, not authors' marks; the underlying numeric data are otherwise legible and were transcribed directly from the printed values. None of the transcribed numbers in this wiki page depend on the annotated cells.
-- The opening abstract sentence states "Cadmium, lead, copper, mercury, zinc and iron were analysed by atomic absorption spectrophotometry in 13 species of edible molluscs from 199 sites around New Zealand." The Appendix Samples 1-203 reflect that some sites contributed multiple samples (e.g., separate cultured-mussel samples or replicate sub-tissue samples); the 199-site figure is from the abstract, and the 203-numbered-sample figure is from the Appendix table — both are stated in the source and not in conflict.
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/mercury]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/iron]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

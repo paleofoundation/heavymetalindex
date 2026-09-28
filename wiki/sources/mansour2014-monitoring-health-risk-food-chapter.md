@@ -181,7 +181,7 @@ Limitations relevant to wiki use:
 
 **Microbiome.** Not applicable; the chapter does not discuss gut-microbiome interactions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -202,39 +202,6 @@ Limitations relevant to wiki use:
 - [[ingredients/bivalve-molluscs]]
 - [[testing/icp-ms]]
 - [[testing/aas]]
-
-## Verification notes
-
-Merge-enhanced 2026-05-18 from the prior 2026-05-14 page. The prior page's central claim "No primary occurrence data are reported in the extracted text" was factually wrong: the chapter contains Tables 13.1, 13.2, 13.3, 13.4 with quantitative primary data plus Figures 13.1–13.5, all of which were missing from the prior page. Defects corrected against the source PDF (pp. 235–255):
-
-- `raw_handle`: `papers-cube` placeholder → canonical `PCMF_mansour2014` (per established PCMF handling, cf. PCMF_islam2007, PCMF_khan2015, PCMF_hussein2024).
-- `doi` corrected from `null` to `10.1002/9781118474563.ch13` (Wiley book-chapter DOI for the *Practical Food Safety* edited volume); `no_doi_assigned` flipped to `false`; `access_url` populated with the DOI resolver.
-- Added `raw_sha256: 553247af22939503338593b8c3eb49973cf5587bce04f225a66f23f4c6fa6b55`.
-- `metals` corrected from `[Pb, Cd, tHg, tAs, Cr]` to `[Pb, Cd, tHg, tAs, Cr, Ni, Sn, Al]`. Ni added (caraway 0.814, anise 0.106 mg/kg in Table 13.1; Mumbai Ni intake 108 mg/day in Raghunath et al. 2006; Ni in Cu PDT discussions). Sn added (caraway 0.040 mg/kg in Table 13.1; Sn in Sen et al. 2011 Yamuna fish ICP-OES). Al retained per DEFRA 1999 European Total Diet Study reference and GM-crop discussion. tHg retained per Hg discussions across multiple cited studies (Roychowdhury et al. 2003; Cao et al. 2010; Whyte et al. 2009). tAs retained per Roychowdhury et al. 2003 (West Bengal As composites), Tufuor et al. 2011 (Ghana citrus), Sen et al. 2011 (Yamuna fish). Cr retained per Table 13.1 (0.050–0.096 mg/kg in 5 medicinal plants) and Mansour et al. 2009b potato Cr fraction (2.45% conventional, 3.01% organic). No `iAs` claim — the chapter does not speciate arsenic anywhere. No `MeHg` claim — the chapter does not speciate mercury. No `Cr-VI` claim — total chromium throughout.
-- `ingredients` corrected from `[[ingredients/vegetables]], [[ingredients/rice]], [[ingredients/wheat]]` to add `fruit`, `cucumber`, `potatoes`, `herbal-botanicals`, `fish`. The prior list omitted the chapter's most extensively reported primary commodities (Egyptian cucumber and potato from Mansour 2009a,b; Egyptian medicinal plants from Abou-Arab 1999) and the fish content (§13.3.4). All eight slugs verified against the current ingredients taxonomy snapshot.
-- `matrices` corrected from `[food, vegetables, cereals, dietary-intake]` to add `fruit`, `fish`, `medicinal-plants`, `analytical-method`. The chapter explicitly covers fruit (Table 13.4), fish (§13.3.4 multiple Norway/Russia/India/NZ studies), medicinal plants (Table 13.1; Subramanian et al. 2012; Obi et al. 2006), and analytical-method framework (§13.2). All matrix bare-strings verified against the corpus-established matrices vocabulary (`grep -h '^matrices:' wiki/sources/*.md`).
-- `jurisdictions` corrected from `[EG]` to `[EG, CN, IN, GH, IR, NG, AR, RO, NZ, NO, RU]`. The chapter compiles studies from each of these jurisdictions. Egypt remains the primary jurisdiction (author's own data) but the chapter's narrative scope is global.
-- `sample_population` rewritten from one-sentence summary to identify the cited primary studies (Mansour 2009a,b; Soliman 1997; Abou-Arab 1999) and the chapter's global narrative-review scope.
-- `publication` corrected from "Practical Food Safety: Contemporary Issues and Future Directions (Wiley)" to "Practical Food Safety: Contemporary Issues and Future Directions (Wiley-Blackwell)" per the title-page imprint.
-- Body — Opening prose rewritten from "central limitation noted is that colorimetric methods have detection limits in the 10–20 ppm range" to a complete chapter overview identifying both halves (analytical-methods survey + occurrence/HRA compilation) and naming the principal primary-data sources.
-- Body — `## Key numbers` rebuilt from "No primary occurrence data are reported" to full coverage of Tables 13.1, 13.2, 13.3, 13.4 plus Figures 13.1, 13.2, 13.3, 13.4, 13.5 plus selected quantitative anchors from cited studies plus the §13.5 dietary-HRA framework equations and RfD values.
-- Body — `## Methods (brief)` expanded to identify the chapter's two halves, the AHPA 2009 white paper as the analytical-methods reference, the author's primary Egyptian studies (Mansour 2009a,b), and the limitations relevant to wiki use (narrative-review status, bar-chart reading approximations, no speciation, ZEBS 1986 regulation vintage, Fe/Mn/Cu/Zn/Co quantified but outside HMTc 10-analyte scope).
-- Body — `## Implications` rewritten to surface the certification-relevant Egyptian farming-system comparison (cucumber 1.3× and potato 2× total-heavy-metal load conventional vs organic) and the courses-relevant method-progression survey, replacing the prior vague "useful reference for the analytical methods section of HMT&C auditor guidance" language with concrete numerical anchors.
-- Body — replaced legacy `## Wiki pages updated on ingest` heading with current `## Wiki pages this source may touch` form.
-- Body — kept Part 2 wiki/HMTc firewall: no threshold proposals; the Implications section describes what the chapter contributes to threshold work without advocating any HMTc certification level.
-- Body — kept Part 12 brand firewall: the chapter does not name commercial brands attached to contamination values; no brand stripping was needed. The reference-material/instrument-vendor exception was not invoked (the chapter does not name vendors).
-- Body — preserved unit fidelity (mg/kg dry weight specified where dw applies; µg/day for Table 13.4 dietary intake) and noted the chapter's own internal unit slip (narrative "mg day⁻¹" vs table header "µg day⁻¹" for Table 13.4 — table header is authoritative).
-
-### Post-audit corrections (editorial review audit, 2026-05-18)
-
-Three definite errors flagged by the fresh-context audit editorial review and verified against the PDF on re-read:
-
-- **Figure 13.2 (Yang 2011) misattribution corrected.** The prior wiki revision attributed the ranges Cd 0.478–9.890 / Cu 6.94–49.76 / Zn 0.684–2.751 / Pb 11.51–94.05 mg/kg to Figure 13.2 / Yang 2011 / Chongqing-market vegetables. Verified against PDF p. 239: those ranges belong to **Subramanian et al. 2012** (15 Indian medicinal plants used in curries) as Pb/Zn/Cd/Cu respectively, not to Yang 2011. The Yang 2011 / Figure 13.2 section in the chapter provides only qualitative Pb maxima (mustard 14.9, spinach 12.8, garlic leaf 10.4, garlic stem 9.72 mg/kg dw) plus the bar-chart depiction across 11 vegetables; no per-metal range is given in the chapter text. Figure 13.2 bullet rewritten; the Subramanian bullet (which already had the correct attribution) preserved. Audit editorial review finding **verified correct and applied**.
-- **Maleki & Zarasvand 2008 "6 vegetables" corrected.** Verified against PDF p. 251: the chapter writes "various vegetables – for example, leek (*Allium ampeloprasum*), sweet basil (*Ocimum basilicum*), parsley (*Petroselinum crispum*), garden cress (*Lepidium sativum*) and tarragon (*Artemisia dracunculus*)" — five named examples under "various vegetables", not six. Rewritten to name the five examples explicitly and drop the count. Audit editorial review finding **verified correct and applied**.
-- **`bivalve-molluscs` ingredient slug added.** Verified against PDF p. 250: §13.3.4 Fish-and-seafood includes Whyte et al. 2009 greenshell mussel (*Perna canaliculus*) Cd 0.75 / As 2.97 mg/kg from Bay of Islands, NZ. Added `[[ingredients/bivalve-molluscs]]` to `ingredients:` source metadata and to the wiki-pages-this-source-may-touch list. Audit editorial review finding **verified correct and applied**.
-- **Raghunath 2006 "mg" unit anomaly flagged in body.** The Raghunath bullet under §13.5 expanded to note the unit discrepancy (108 mg/day Ni is ~30× a typical adult Ni TDI; the chapter's own sentence "the intake of toxic metals such as Pb, Cd, and Ni is much lower than the tolerable daily intake" is incompatible with the printed "mg" attribution). Wiki preserves the chapter's printed unit per audit fidelity but warns downstream synthesis to consult the Raghunath 2006 primary paper. Audit editorial review ⚠ concern **verified and addressed by adding the cross-check note** (no edit to the numeric value itself).
-
-No false positives in this round. All other audit checks returned ✅.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

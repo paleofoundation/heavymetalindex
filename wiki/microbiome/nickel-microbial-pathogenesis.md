@@ -67,7 +67,7 @@ This page is structured for federation to [WikiBiome](https://wikibiome.com) wit
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Role of Nickel in Microbial Pathogenesis]]<span class="hmi-ref-meta">Robert J. Maier and Stéphane L. Benoit · Inorganics 7(7):80 · 2019 · [doi.org/10.3390/inorganics7070080](https://doi.org/10.3390/inorganics7070080)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>

@@ -65,7 +65,7 @@ Source pages whose evidence comes from **North America**, grouped by jurisdictio
 - [[sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2|ACCESS Metrics & More Article Recommendations * Supporting Information (2024)]]
 - [[sources/authors2024-access-metrics-more-article-recommendations-supporting-information|ACCESS Metrics & More Article Recommendations * Supporting Information (2024)]]
 - [[sources/authors2026-access-metrics-more-article-recommendations-supporting-information-2|ACCESS Metrics & More Article Recommendations * Supporting Information (2026)]]
-- [[sources/authors2026-access-metrics-more-article-recommendations-supporting-information|ACCESS Metrics & More Article Recommendations * Supporting Information (2026)]]
+- [[sources/hansra2026-lifecycle-of-a-wipe|Lifecycle of a Wipe (Hansra, Haney, and Rochman 2026)]]
 - [[sources/authors2025-account-for-variability-and-uncertainty-in-chronic-exposure|account for variability and uncertainty in chronic exposure estimates. The hazard index (2025)]]
 - [[sources/authors2023-accumulation-characteristics-and-evaluation-of-heavy-metals-in|Accumulation characteristics and evaluation of heavy metals in soils and vegetables (2023)]]
 - [[sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and|Accumulation of toxic metals in vegetable crops and associated (2024)]]

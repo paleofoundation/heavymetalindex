@@ -77,7 +77,7 @@ Experimental feeding study; 24 day-old broiler chickens were divided into eight 
 
 **App:** The source may inform chicken, poultry, and organ-meat source-side context for Pb, Cd, and total Cr, but values from the high-dose experimental groups should remain separated from retail/market occurrence datasets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/chicken]]
 - [[ingredients/poultry]]
@@ -87,13 +87,6 @@ Experimental feeding study; 24 day-old broiler chickens were divided into eight 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched DOI 10.21203/rs.3.rs-4210575/v1 to the already committed source page, added the exact MFK raw handle/path and SHA-256 provenance, changed `source_type` from `peer-reviewed` to `preprint`, expanded routing to existing poultry/organ-meat ingredient pages, and removed overconfident organ-hierarchy claims.
-- Source-internal table caution: the visible Table 3.5 Cd block is headed "Deposition of chromium" even though the first column says "Concentration of Cd in Feed"; the visible Cd values place liver above bone at C7 (43.36 vs 20.72 mg/kg dry basis), while the abstract says bone had the highest Cd concentration. This page reports the visible table values and flags the contradiction rather than resolving it silently.
-- The Cr organ-deposition block is visible only through C3 in this PDF; the continuation rows for C4-C7 are blank/unreadable. The page therefore does not report high-dose Cr organ-deposition values.
-- The `matrices:` terms use source-specific poultry tissue strings because the common matrix list has no exact poultry-organ terms; sibling meat-source pages already use `chicken-muscle` and related tissue matrices for edible tissue routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

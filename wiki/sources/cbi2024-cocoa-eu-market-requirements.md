@@ -148,19 +148,6 @@ For the cocoa ingredient page, the article supplies CBI's articulation of the de
 
 For the EU regulatory-framework timeline, the article is the 2024 trade-side consolidation of the 2023/915 cadmium ceilings, the 2022/1370 OTA limit, and the carry-forward PAH limits as a single coherent compliance framework for cocoa exports — useful as the dated bridge between the 2021/1323 amendment cadmium-only view and the 2023/915 consolidated view across all contaminants relevant to cocoa.
 
-## Verification notes
-
-- Ingested 2026-06-02 from the source-retrieval download-corruption manual-fetch batch (`04_Chocolate_Seasonings_Salt`). The PDF is the print-to-PDF of CBI's online buyer-requirements article for cocoa, last updated 10 July 2024 per the date stamp at the top of page 1. The original article URL pattern (`cbi.eu/market-information/cocoa/buyer-requirements`) is recorded in `access_url`; the live URL was not re-verified at ingest time, so the access_url should be treated as the canonical location pattern, not as a checked-live link.
-- The cadmium values in CBI Table 2 match the four cadmium ceilings in [[sources/eu-2021-1323-cadmium-foodstuffs-amendment]] and [[sources/ec2019-cadmium-chocolate-leaflet]] exactly. The decimal-point convention (e.g., "0.10 mg/kg") matches CBI's display; the Official Journal text of 2023/915 uses the decimal-comma convention. Readers comparing the two should not infer numerical disagreement from the punctuation difference.
-- CBI Table 2 reproduces the legally precise milk-chocolate carve-out (the second row explicitly names milk chocolate at ≥ 30 % cocoa solids) that the 2019 consumer leaflet collapsed. This is a useful cross-check for the row-level milk-chocolate provision in 2023/915.
-- The article references Salmonella outbreaks at Ferrero and Barry Callebaut European factories in 2022. These are regulatory events (public-record outbreak notifications) and are non-heavy-metals scope; no brand-firewall redaction was applied because (a) the brand names are referenced as the subject of public-record regulatory events and (b) Salmonella is not within HMI scope so no values are attributed.
-- The article references organisations operating EU-funded or industry tools (Choco SAFE by Bioversity International/CIAT; Alliance for Action sustainable agribusiness initiative; Ghana Cocoa Board; Global Forest Watch Pro; Carbon Roots). These are organisation names, not consumer brands of cocoa or chocolate products; no Part 12 redaction applies.
-- The article quotes evidentially second-hand: the CBI text reports regulation values rather than presenting primary occurrence data or analytical results. Source tier `B` reflects that this is a trustworthy government-trade-promotion secondary summary of binding regulations, one step removed from the EU Commission itself (compare [[sources/ec2019-cadmium-chocolate-leaflet]] tagged A as the Commission's own communication).
-- No DOI assigned. CBI articles are not peer-reviewed publications. `no_doi_assigned: true` is recorded in source metadata.
-- No HMTc threshold inference or cross-source synthesis claim added. The `## Implications` section describes regulatory-context routing for chocolate and cocoa pages, not HMTc threshold proposals.
-- The Salmonella, pesticide, extraction-solvent, food-contact-materials, labelling, packaging, payment-terms, and deforestation/CS3D content of the article is described in `## Other contaminants and regulatory-framework instruments (brief, non-metals)` for source-page completeness but is not extracted into HMI routing source metadata or treated as HMI-corpus evidence.
-- Audit editorial review (2026-06-02, fresh-context general-purpose) verdict PROMOTE. Fifteen numerical values in `## Key numbers` independently re-verified against the PDF: all match exactly (the four 2023/915 cadmium MLs, the buyer-reject 0.3 mg/kg narrative threshold, the 0.6/0.8 mg/kg "may be safe" range, the bean-to-powder concentration ratio, the OTA 3 µg/kg cocoa-powder limit, the four PAH values in Table 3 plus the "including cocoa butter" and lower-bound-calculation annotations, and the 2-methyloxolane 1 mg/kg MRL). One ⚠️ concern raised on Check 2 (matrices vocabulary): the closed taxonomy snapshot does not enumerate matrices terms, so `cocoa-powder`, `dark-chocolate`, `milk-chocolate` could not be hard-verified against a closed list. Verified false-positive concern: these matrix terms are in active use elsewhere in the corpus (compare [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]] which uses `[cocoa-powder, dark-chocolate, milk-chocolate, cocoa-nibs]` and [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate]] which uses `[cocoa, dark-chocolate, milk-chocolate, cocoa-nibs]`), so the snapshot-scope limitation is a known acknowledgement, not a page defect. Checks 1 (numerical fidelity), 3 (speciation/methods/units), 4 (Part 12 brand firewall — Ferrero/Barry Callebaut named only as subjects of public-record Salmonella regulatory events per Exception 1), and 5 (Part 2 wiki/HMTc firewall — values explicitly labelled "external legal floors, not HMTc thresholds"; buyer-reject 0.3 mg/kg explicitly labelled "market signal" not threshold candidate) all clean.
-
 ## Sources
 
 - Centre for the Promotion of Imports from developing countries (CBI). 2024. What requirements must cocoa meet to be allowed on the European market? Netherlands Enterprise Agency / Netherlands Ministry of Foreign Affairs. Last updated 10 July 2024.
@@ -170,6 +157,11 @@ For the EU regulatory-framework timeline, the article is the 2024 trade-side con
 - Regulation (EU) 2023/1115 (EU Deforestation-Free Products Regulation, EUDR), in force 29 June 2023, applying from 30 December 2024.
 - Council Directive 2009/32/EC on the approximation of the laws of the Member States on extraction solvents used in the production of foodstuffs and food ingredients.
 - Regulation (EC) No 1935/2004 of the European Parliament and of the Council on materials and articles intended to come into contact with food.
+
+## Related evidence
+
+- [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]]
+- [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

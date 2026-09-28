@@ -129,57 +129,31 @@ Key methodological caveats for wiki use: (a) Cr is reported as total Cr — spec
 
 **App:** Limited direct applicability for app concentration profiles — the paper publishes hazard quotients (concentration ÷ ПДК) rather than raw mg/kg per food category. The min/max concentration ranges across all 18 foods are reported (Zn 1.80–59.95 down to Cd 0.01–0.18 mg/kg) but cannot be deconvolved into per-food concentrations without back-calculating from the hazard quotients and the underlying ПДК values.
 
-## Verification notes
+## Related evidence
 
-Enhancement run 2026-05-18 (cite-key existed before the v2 manual-fetch schema cutover; previously updated 2026-05-14). Defects corrected against the source PDF:
-
-- Expanded `metals:` from `[Pb, Cd, Cr, Ni]` to `[Pb, Cd, Cr, Ni, Cu, Zn]`. The paper measures all six metals in food, blood, and hair (Table 1 row labels; Table 2 column headers; Table 4 row labels). The prior source metadata omitted Cu and Zn.
-- Replaced narrative "Pb and Cd remained within limits except in sunflower oil" + "Only in подсолнечном масле their concentrations составили 1,4–1,5 ПДК" with the correct Table 1 attribution. The source's discussion text on page 707 says "только в подсолнечном масле их концентрации составили 1,4–1,5 ПДК", but Table 1 explicitly assigns hazard quotients 1.4 (Pb) and 1.5 (Cd) to сливочное масло (butter), while подсолнечное масло (sunflower oil) is at 0.8 / 0.8 — both well below ПДК. The paper's discussion text is internally inconsistent with its own Table 1. Table 1 is the structured numerical record and is treated as the authoritative source; the narrative typo is noted but not propagated. Five food categories (butter, brynza, Dutch cheese, greens, carrot) exceed ПДК on at least one of Pb or Cd; the prior page narrative reduced this to a single (incorrectly named) category.
-- Expanded the Table 1 hazard-quotient section from 9 categories (bread, cereals, beef, lamb, chicken, fish, potato, carrot, sunflower oil) to the full 15 categories printed in the source (added eggs, butter, milk and dairy, brynza cheese, Dutch cheese, greens). All 15 rows are quoted exactly as printed in the PDF.
-- Added the full Table 2 (daily intake and absorbed-dose values vs reference), Table 3 (per-metal dose risk ratios with the authors' four-band risk classification), and Table 4 (blood and hair concentrations for all six metals with reference ranges). The prior page summarized Table 3 in a single sentence and Table 4 in a single sentence and omitted Table 2 entirely.
-- Added the explicit absorption-coefficient list (Pb 0.50, Cd 0.40, Cr 0.66, Ni 0.50, Cu 0.25, Zn 0.50) — a methodologically load-bearing parameter the prior page omitted.
-- Added `[[ingredients/cereals]]`, `[[ingredients/beef]]`, `[[ingredients/chicken]]`, `[[ingredients/eggs]]`, `[[ingredients/butter]]`, `[[ingredients/sunflower-oil]]`, `[[ingredients/milk-and-dairy]]`, `[[ingredients/fresh-herbs]]` to the ingredients array. Removed the invented `[[ingredients/grains]]` slug (not in taxonomy; `cereals` is the current vocabulary). Normalized `[[ingredients/potato]]` → `[[ingredients/potatoes]]` (taxonomy has the plural). Preserved `[[ingredients/bread]]`, `[[ingredients/meat]]`, `[[ingredients/fish]]`, `[[ingredients/carrot]]`.
-- Added `oil`, `blood`, and `hair` to `matrices:` (the source covers food + biomonitoring; the prior matrices array omitted the biomonitoring side and the major oil-product categories that drove Pb/Cd hazard quotients).
-- Replaced the legacy heading `## Implications` with the same heading restructured to the standard Certification/Courses/App sub-block format (already present in template), kept; added the missing `## Verification notes` section.
-- Replaced the legacy heading `## Wiki pages updated on ingest` with `## Wiki pages this source may touch` per the 2026-05-08 schema convention.
-- Removed the broken `[[health/dietary-exposure-assessment]]` wikilink (no such page exists on disk; the linked reference record contains only `index.md` and a cat-2 page).
-- Clarified that the AAS / "XRF-18000" labeling in the source is an internal paper inconsistency (abstract and methods narrative both say AAS; the instrument-model token "XRF-18000" is anomalous for Shimadzu's AAS line and is reported as printed without inferring a different instrument).
-- Tightened `publication:` to include volume, issue, and page range ("Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709").
-- Expanded `sample_population` to flag that the 57-subject dietary cohort and the 17-subject biomonitoring sub-cohort are distinct subsets, and that the sampling was randomized within Baku.
-- Set `doi: null` with `no_doi_assigned: true`. The PDF has no DOI imprint; the Kazan Medical Journal did not assign DOIs to all 2014 articles, and the present article does not carry one.
-
-Paper-internal discrepancies flagged (data faithfully reported, judgment deferred to readers):
-
-- Table 1 vs discussion text on the butter/sunflower-oil attribution (see above).
-- Discussion narrative says "only Cr, Ni, Zn in blood exceeded physiological norm"; Table 4 prints all three within their reference ranges (Cr 0.42 inside 0.1–0.5; Ni 0.28 inside 0.1–1.0; Zn 0.98 inside 0.7–1.10). Reported as the authors stated; the wiki notes the numerical position in the range.
-- Discussion narrative says "hair concentrations of all metals exceeded reference by 2–5×"; Table 4 prints most hair means inside their cited reference ranges. Reported as printed.
-- Discussion narrative on page 707 states the Ni hazard-quotient range across foods is "1.4–11.43"; Table 1 prints Ni for butter as 19 (and Ni for sunflower oil as 11.43). The 11.43 value the narrative quotes is the sunflower-oil cell, not the table maximum. The page reports the Table 1 numbers as printed and flags the discrepancy here (audit editorial review 2026-05-18 finding; verified against PDF p. 707).
-- "XRF-18000" instrument label inside the methods paragraph despite an AAS analytical approach in the abstract and methods narrative. Reported as printed.
-
-Preserved fields per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, `near_duplicates`, `evidence_tier: B`, `license: unknown`, `source_type: peer-reviewed`, `jurisdictions: [AZ]`, `sample_n: 57`, `products: ["[[products/fresh-fish]]"]`.
-
-## Wiki pages this source may touch
-
+- [[ingredients/cereals]]
+- [[ingredients/beef]]
+- [[ingredients/chicken]]
+- [[ingredients/eggs]]
+- [[ingredients/butter]]
+- [[ingredients/sunflower-oil]]
+- [[ingredients/milk-and-dairy]]
+- [[ingredients/fresh-herbs]]
+- [[ingredients/grains]]
+- [[ingredients/potato]]
+- [[ingredients/potatoes]]
+- [[ingredients/bread]]
+- [[ingredients/meat]]
+- [[ingredients/fish]]
+- [[ingredients/carrot]]
+- [[health/dietary-exposure-assessment]]
+- [[products/fresh-fish]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-- [[ingredients/bread]]
-- [[ingredients/cereals]]
-- [[ingredients/meat]]
-- [[ingredients/beef]]
-- [[ingredients/chicken]]
-- [[ingredients/fish]]
-- [[ingredients/eggs]]
-- [[ingredients/butter]]
-- [[ingredients/sunflower-oil]]
-- [[ingredients/milk-and-dairy]]
-- [[ingredients/potatoes]]
-- [[ingredients/carrot]]
-- [[ingredients/fresh-herbs]]
-- [[products/fresh-fish]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

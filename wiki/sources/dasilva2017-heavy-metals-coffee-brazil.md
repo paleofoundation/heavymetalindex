@@ -107,7 +107,7 @@ App: Supports coffee Pb/Cd/Ni/Cr context for roasted/ground coffee and brewed co
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -118,14 +118,6 @@ Microbiome: Not addressed.
 - [[metals/zinc]]
 - [[ingredients/coffee]]
 - [[products/coffee]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven coffee-Cd wishlist PDF.
-- Merge-enhance 2026-05-20 against the source PDF in the archived source file. The prior revision was missing the Mn cross-matrix Pearson correlation (r=0.744) flagged as significant in Table 4, the paper's four-cup-per-day exposure estimates (Mn, Zn, Cr, Cd, Pb percent of upper-limit), and the detection-frequency caveats explaining Table 2 Cu min=max and the Pb/Ni infusion descriptive statistics. The pending-audit-spawn-failed row in the structured evidence record was the trigger for this pass. The audit ran successfully under v2 of the manual-fetch skill after this enhancement.
-- Table 1 and Table 2 are preserved as printed. Table 1 Cd mean is below the printed detected minimum because the paper also states Cd was detected in only 10 of 50 samples (60% non-detect treated as zero in the descriptive statistics). Table 2 Zn median (0.1025 mg/50 mL) appears anomalously high relative to the printed mean (0.0131 mg/50 mL) but lies below the printed maximum (0.1292 mg/50 mL); the value is preserved as printed; the paper's body text does not separately discuss Zn infusion median, so the layout-vs-typo question cannot be resolved from the published text alone.
-- Strict brand firewall: the paper reports municipalities and anonymized sample handling only; no commercial coffee brands are named in this source page.
-- Methods vendor/equipment names (Varian, ROD-bel, Probat Leogap, Tecnal) are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

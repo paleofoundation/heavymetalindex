@@ -90,7 +90,7 @@ Courses: Useful example of why a feed additive can shift both essential and toxi
 
 App: Context only. The source can support feed-additive exposure and animal biomarker narrative; it does not support finished product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -100,12 +100,6 @@ App: Context only. The source can support feed-additive exposure and animal biom
 - [[metals/aluminum]]
 - [[metals/chromium]]
 - [[metals/antimony]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured quail blood serum after feed additive exposure rather than product occurrence. On reading, it is in-scope a4 exposure/biomonitoring context with measured serum values.
-
-Numbers were checked against the abstract, methods, Tables 1-4, and conclusion in the extracted PDF. Arsenic is recorded as `tAs`, mercury as `tHg`, and chromium as total Cr because the paper does not report speciation. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

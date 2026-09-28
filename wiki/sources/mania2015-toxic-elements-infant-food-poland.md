@@ -80,7 +80,7 @@ App: Supports Polish-market occurrence context for infant cereals and several re
 
 Microbiome: Not addressed in this study.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -122,13 +122,6 @@ Microbiome: Not addressed in this study.
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/jecfa-arsenic-bmdl]]
 - [[regulations/jecfa-methylmercury-ptwi]]
-
-## Verification notes
-
-- Ingested 2026-05-18 from the gap-driven auto-fetch queue. The same PDF was downloaded four times for baby-cereals-dry-non-rice Cd, iAs, tAs, and tHg wishlist cells; all four files have identical SHA-256 `7d521247d2ced1b880a35d0648b4362666a3e8d0b813ce99bb5aac6fb90a74f8`. This page uses the Cd-targeted ingested path as `raw_path` and treats the other three paths as duplicate fetches for the same DOI.
-- DOI identity check found no existing wiki source page for `10.15244/pjoes/59306`; matches were only reference-list citations in other source markdown and wishlist-audit rows.
-- Speciation: source metadata uses `tAs` and `tHg` because the paper measures total arsenic and total mercury. The exposure section discusses methylmercury and inorganic mercury as risk-assessment assumptions, not measured species.
-- Product routing follows the source's product groups. Rice gruel and milk/rice-based products route to rice-based baby cereal context; wheat gruel and mixed cereals route to non-rice baby cereal context; biscuits route to teething/snack context; ready-to-eat vegetable, vegetable-meat, fish, fruit, and juice categories route to the closest infant-food product pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

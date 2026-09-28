@@ -102,31 +102,11 @@ Open-access article published 4 October 2021 in Frontiers in Chemistry (vol 9, a
 
 Evidence tier set to B. The journal is peer-reviewed and the methods section is unusually transparent on instrumental optimization (dwell time, dead time, per-isotope RSD, ²⁰⁴Hg interference correction, NIST SRM 981 bracketing). What disqualifies it from A on the HMI scale is the single-analyte (Pb-only) scope, the absence of vintage / cultivar / producer metadata, the non-tabulation of per-sample values (only per-region averages and ranges are printed), the unsourced provenance of the wine samples themselves, and the authors' own acknowledgement that ICP-QMS LIR precision is inherently lower than TIMS or sector-field multicollector ICP-MS for origin assignment. The negative central result (PCA failed to discriminate regions) is itself defensibly reported.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/grapes]]
-- [[products/fermented-beverages-non-tea-based]]
-
-## Verification notes
-
-No brand names appear in the paper or on this page. The paper does not name any commercial wine label, producer, vineyard or grape cultivar; selection criterion was Serbian geographic origin across four administrative regions. The four region names (Vojvodina, Belgrade, Central Serbia, South Serbia) are Serbian administrative regions, not brand names. Part 12 brand-firewall does not apply.
-
-Instrument and reagent references — Thermo Scientific Xseries 2 ICP-MS iCAP Q under Qtegra software; NIST SRM 981 and NIST SRM 997 reference materials; Millipore Simplicity 185 ultra-pure water system; Merck reagents; TraceCERT/Fluka Hg stock; NCSS statistical software (Hintze 2001); PLS_Toolbox / MATLAB — are reproduced under the methods-vendor exception (Part 12, Exception 2: scientific reproducibility requires naming the instrument doing the measuring, the reference material, the digestion equipment and the statistical software).
-
-The metals source metadata list contains only Pb, the single analyte measured. Thallium isotopes (²⁰³Tl, ²⁰⁵Tl) appear in the body only as the NIST SRM 997 internal standard for mass-bias correction; Tl is not a measured analyte in the wine samples and does not enter the metals source metadata. Mercury appears only as ²⁰⁴Hg in the context of isobaric interference correction on the ²⁰⁴Pb measurement; Hg is not a measured analyte and does not enter the metals source metadata.
-
-Pb content values in Table 2 are printed in µg/L. The paper uses µg/L consistently across Table 2, the body text and the box-and-whisker plot (Figure 2). The OIV reference is 150 µg/L (OIV International Code of Oenological Practices, 2019, p. 5 of the source). The wet-weight basis is implicit (wine is a liquid measured as-is at 1:10 dilution); the source does not report dry-weight equivalents.
-
-The four LIR ratios used in PCA are ²⁰⁸Pb/²⁰⁶Pb, ²⁰⁶Pb/²⁰⁷Pb, ²⁰⁶Pb/²⁰⁴Pb, and ²⁰⁷Pb/²⁰⁴Pb (the four radiogenic ratios). ²⁰⁸Pb/²⁰⁴Pb is reported in Table 2 but is not listed as one of the four PCA inputs in the source (page 5 text: "²⁰⁸Pb/²⁰⁴Pb, ²⁰⁷Pb/²⁰⁴Pb, and ²⁰⁶Pb/²⁰⁴Pb were subjected to" with ²⁰⁶Pb/²⁰⁷Pb added in the next sentence — total four ratios).
-
-The figure-3 inset reports literature LIR ranges including "Romania/Moldavia, n=13 [3]" with ²⁰⁸Pb/²⁰⁶Pb 1.9961–2.0920 and ²⁰⁶Pb/²⁰⁷Pb 1.1540–1.2220, attributed by the authors to suspected coal-combustion influence. These are literature comparisons, not Serbian-wine measurements, and are summarized in the body but not extracted to Key numbers.
-
-The Pearson r values in Figure 7A (²⁰⁶Pb/²⁰⁷Pb vs 1/C_Pb) are Belgrade r=0.15, Central Serbia r=0.18, Vojvodina r=0.17, South Serbia r=0.05; the body text page 8 prints "from 0.05 to 0.18" matching the Belgrade/Central Serbia/Vojvodina/South Serbia spread.
-
-Provisional product scaffolds were not required: the source touches [[products/fermented-beverages-non-tea-based]], which already exists in the taxonomy. No new ingredient pages are proposed; grapes is the only ingredient slug and already exists.
-
-Audit editorial review (2026-06-06) flagged a Check 5 ⚠️ in the original Implications/Certification bullet: a wiki-side cross-source comparison to [[bora2015-vineyard-wine-heavy-metals-romania]] ("wider margin to OIV than the bora2015 micro-vinified wines") that the Đurđić paper itself does not make. Verified against the source — the paper compares the Serbian wines to European/Australian/Romanian-Moldavian wines from the LIR literature only, not to the Bora 2015 Cu/Pb wine values. The cross-source synthesis was added by Claude during drafting and violates Part 2 (synthesis is a separate Part 9 workflow, not a per-source contribution). Comparison stripped; the within-paper OIV-ratio framing retained. All other audit checks ✅ clean (Checks 1, 2, 3, 4); Check 5 has no other concerns.
+- [[bora2015-vineyard-wine-heavy-metals-romania]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -92,30 +92,6 @@ App: Not directly applicable; bottled drinking water as a category is downstream
 
 Microbiome: Not addressed.
 
-## Verification notes
-
-This paper exhibits several internal data-integrity issues that the wiki documents rather than attempts to resolve:
-
-1. **Concentration units inconsistent with sample matrix.** All Table 2 metal concentrations and the Table 3 regulatory comparison values are labelled "mg/g". For aqueous samples this is physically implausible — 0.93 mg/g manganese would correspond to roughly 0.1% solids in water. Method-section calibration standards are described as "100 mg/L standard solution" (mg/L) and limits of detection (Table 1) are reported as µg/mL (≡ mg/L). The most defensible reading is that all "mg/g" labels are typographic errors for "mg/L". The wiki reports the source's verbatim "mg/g" notation in `## Key numbers` and additionally states the mg/L-equivalent interpretation as ppb values for downstream comparability, without overwriting what the source published.
-
-2. **Two distinct AAS instruments named.** The abstract identifies the instrument as "Atomic Absorption Spectrometer (AAS) Spectra AA-10" (a Varian instrument). The Results section identifies it as "computerized AA-7000 Shimadzu Atomic Absorption spectrophotometer" (a different vendor and platform). The body description of operation (flame, acetylene gas) is consistent with either. The wiki documents both without choosing.
-
-3. **Regulatory limits cited do not match actual WHO/KEBS drinking-water guidelines.** Table 3 cites WHO Pb at "0.04 mg/g" — actual WHO drinking-water provisional guideline for Pb is 0.010 mg/L. WHO Cd is cited at "0.004 mg/g" — actual WHO is 0.003 mg/L. WHO Cu cited at "2.00 mg/g" — actual WHO is 2.0 mg/L (consistent if mg/g is read as mg/L). The wiki does not propagate the Table 3 figures as authoritative regulatory values; downstream regulation pages source WHO/KEBS limits from the agencies directly, not from this paper.
-
-4. **pH discussion contradicts the pH table.** The narrative around Figure 3 states that sample D has the lowest pH and falls below the NEMA 6.5–8.5 minimum, with implications for taste and dissolved metal speciation. The tabulated pH value for sample D in Table 4 is 7.32 ± 0.01, which is within range. The lowest tabulated pH is sample B at 6.63 ± 0.10, which is within both the KEBS 6.0–9.0 and NEMA 6.5–8.5 ranges cited by the authors. The narrative appears to describe a different sample than the table reports — no sample in Table 4 actually falls below either cited pH minimum.
-
-5. **AAS wavelength listing incomplete.** The methods section lists operating wavelengths "228.8 nm, 357.9 nm, 324.7 nm, 279.5 nm and 218 nm respectively" for "Sb, Cd, Cr, Cu, Mn and Pb" (six analytes named, five wavelengths given; Zn is omitted). The 357.9 nm value matches neither cadmium's standard 228.8 nm AAS line nor any other named analyte's standard line; either a wavelength is mis-attributed or an analyte/wavelength pair was dropped during typesetting.
-
-6. **pH/EC/TDS sample set is not aligned with heavy-metals sample set.** Table 4 reports physico-chemical parameters for four samples labelled A–D, while Table 2 reports heavy metals for seven samples labelled A–G. The paper does not state whether Table 4 samples A–D correspond to Table 2 samples A–D, or whether they are a different subset relabelled.
-
-7. **Brand-firewall posture is compliant.** The paper explicitly anonymises the seven brands as Sample A–G "for privacy purposes" and the wiki preserves that anonymisation. No brand names appear in the source.
-
-8. **Procedural blanks and reference materials not reported.** No procedural-blank results, certified reference material (CRM) recoveries, or spike-recovery data are reported. Without these, the wiki cannot independently verify whether the reported Pb concentrations of 320 ppb (sample F) and 140 ppb (sample G) — if read as mg/L — reflect actual product contamination, contamination introduced during 100 mL × triplicate aqua regia/HClO₄ digestion, or instrument drift.
-
-9. **Audit application (2026-05-30).** Audit editorial review (general-purpose, fresh context) flagged three ⚠ findings, all verified and applied: (a) Check 1 — corrected verification note #4 which had incorrectly stated sample B's pH of 6.63 was below the NEMA 6.5–8.5 minimum (it is within range); (b) Check 5 — removed cross-literature comparison from `## Implications` ("broadly inconsistent with the global bottled-water literature") because cross-source comparison belongs in the Part 9 synthesis pass, not the source page; (c) Check 5 — removed synthesis-direction instruction ("downstream synthesis should weight this source with substantial caveat or treat it as discovery-only") for the same reason. The audit also revised note #8 to drop the same cross-literature claim, retaining only verifiable arithmetic on this paper's reported values and the procedural-blank gap.
-
-The wiki reports the source's findings as published while documenting these concerns; the page is B-tier in evidence-fitness terms because of the cumulative data-integrity issues, not because the source is non-peer-reviewed.
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

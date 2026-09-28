@@ -65,7 +65,7 @@ The authors purchased ten soup powder products from local markets in Jordan in 2
 
 This source contributes Jordan-market occurrence evidence for Pb, Cd, total Cr, and Mn in stock/soup powder products and instant noodles. It is useful for broad routing to condiments and noodle/grain-product pages, but the mixed product set means product-form grouping should be preserved during later extraction. The brand firewall is important for this source because the original table identifies public products; category-level grouped ranges are the appropriate public wiki surface. The total Cr data should not be used as Cr-VI evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/noodles]]
 - [[ingredients/spices]]
@@ -77,16 +77,6 @@ This source contributes Jordan-market occurrence evidence for Pb, Cd, total Cr, 
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title page, DOI, methods, Table 1, Table 2, Table 3, conclusion, and references.
-- DOI verified from the PDF header and footer as `10.18697/ajfand.120.23125`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 2 concentration values were checked against the extracted text. Units are preserved as printed (`mg/Kg`, `mg kg−1`, and `mg/kg` in the LOD statement); no unit conversions were performed.
-- Brand firewall: Table 2 names public products, but this page suppresses brand names and reports only grouped product-form ranges plus overall source-reported ranges.
-- Speciation: chromium is total Cr only; the source does not report Cr-VI.
-- Internal consistency: the discussion reports Cd as ND-0.0921 mg kg−1, while Table 2 prints a 0.0923 mg/Kg Cd value in one soup row. Table 3 also reports a Cd intake/HRI for one row where Table 2 reports Cd as ND. These conflicts are recorded and not reconciled by averaging.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

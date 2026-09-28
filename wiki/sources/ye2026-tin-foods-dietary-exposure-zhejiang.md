@@ -163,46 +163,6 @@ Explicit limitations stated by the authors: temporal mismatch between consumptio
 
 **App:** For Sn risk scoring in a packaged-food context: canned fruits carry by far the highest Sn exposure load; canned vegetables, canned meat, and canned fungi are intermediate; fresh vegetables, fresh fruits, and fresh aquatic products are low at the typical-consumption tail. The maximum fresh-vegetable Sn value (tuber/root: 4.53 mg/kg dw) is a realistic upper bound for non-industrial produce but is orders of magnitude below canned-product maxima.
 
-## Verification notes
-
-2026-05-20 — Merge-enhance pass against the source PDF (Ye S. et al. 2026, *Foods* 15:982, DOI 10.3390/foods15060982). Corrections applied to the prior 2026-05-13 revision:
-
-- **Critical factual error — max-THQ misattribution (CORRECTED).** The prior page stated: "Maximum THQ was under scenario D for children ≤6 years: not explicitly tabulated for individual categories but ΣEDI across all foods was 65.29 µg/kg BW/day, THQ = 0.218." Verified against Table 3 (PDF page 11) and the discussion text on PDF page 15 ("adults aged 18–59 years reached a THQ of 0.22"). The ΣEDI of 65.29 µg/kg BW/day and THQ of 0.2176 belong to **adults aged 18–59 under Scenario D**, not children ≤6 (whose Scenario D ΣEDI is 24.01 and THQ is 0.0800). The 18–59 maximum is dominated by canned fruits (52.00 of the 65.29 ΣEDI, ~80%) because canned-fruit P95 consumption (40 g/day in Table 2) is non-zero only in this age band. The children-≤6 maximum is dominated by canned meat (11.45 of 24.01, ~48%). Both attribution and dominant-contributor analysis are now correct.
-- **Fresh-fruit subcategory data added.** The paper's Table 1 reports six fresh-fruit subcategories (citrus, melons and gourd, stone, berries, tropical, pome) with sample sizes, detection rates, means, P50, P95, IQR, and maxima. The prior page omitted this entire block. Added as a full table; all 133 fresh-fruit samples are at or below 0.24 mg/kg dw, with pome fruits the only subcategory with P95 above 0.02.
-- **Full scenario × age THQ matrix added** (Table 3, scenarios A–D). The prior page noted only the (incorrectly attributed) max ΣEDI; added the complete 4×5 matrix from the paper.
-- **Organotin scenario assessment added** (Table 4 for fresh aquatic products). Prior page mentioned the scenario-C value range qualitatively; added the full scenarios A–D × five-age-group matrix. Key new fact: under scenario B (high consumption only), children ≤6 already exceed the organotin RDF at THQ 1.5.
-- **Monte Carlo TDI-percentile data added** (Table 5). Prior page reported only the ≤6 percentile (69.3%); added the full age-group breakdown.
-- **Body-weight table added** to Methods (per Table 2): age-specific body weights used in deterministic EDI calculations vs. the 57 kg average used in Monte Carlo. The prior page implied 57 kg was used throughout, which understates the body-weight stratification.
-- **Detection-rate columns added** to all five Key-numbers tables (Table 1 columns the prior page dropped).
-- **IQR columns added** to all five Key-numbers tables.
-- **`raw_path` corrected** — prior value pointed to `02_Vegetables_and_Vegetable_Products` and used a truncated filename (`...in Zhe.pdf`). The actual file is in `01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/` with the full title.
-- **source metadata slug fixes:** `products: canned-fruits` (plural; not in taxonomy snapshot) removed; canonical `canned-fruit` already present. `products: canned-meat` removed (not in current product taxonomy; processed-meats umbrella exists but is not a canned-specific slug, and the paper's canned-meat data fans out via the matrices array). `ingredients: aquatic-vegetables` removed (not in taxonomy snapshot); the umbrella `non-root-vegetables` added to cover solanaceous, cruciferous, cucurbit, leafy. `ingredients: fish`, `shellfish`, and `molluscs` added (paper reports fish, crustaceans, and mollusks separately with distinct distributions; the taxonomy snapshot has `fish`/`shellfish`/`molluscs`). `ingredients: fruits` added as the umbrella for the fresh-fruit subcategory data (paper does not split by individual species). `matrices: canned-edible-fungi` added (paper has a distinct canned-edible-fungi-and-fungal-product category at mean 1.61 mg/kg dw, max 38.90).
-- **`access_url` added** (DOI-resolved URL).
-- **Legacy heading `## Wiki pages updated on ingest` removed** per current page-template convention. The ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do.
-- **`sample_population` expanded** to record the consumption-survey integration (2015–2017 survey, ~10,000 participants, 3-day 24-h recall) and the five age groups; the prior wording bundled this into one sentence and dropped the age groups entirely.
-
-**Numerical fidelity check (independent re-verification of values retained from the prior revision):**
-- Canned fruits mean 12.67, max 134.00 — verified against Table 1 (PDF page 8).
-- Canned edible fungi: mean 1.61, P95 0.48, max 38.90 — verified. The P95 < mean inversion is real (heavily right-skewed distribution); the table values are reproduced as published.
-- Organotin required-fraction percentages (0.16, 0.37, 1.15, 7.77, 18.67) — verified against PDF page 12 and Figure 2.
-- Monte Carlo TDI percentile for ≤6 = 69.3% — verified against Table 5 (PDF page 14).
-- LOD 0.004 mg/kg (vegetables/fruits/aquatic/canned), 0.008 mg/kg (tea) — verified against section 2.2.1 (PDF page 5).
-- Sample-size breakdown 673+378+392+133+438 = 2014 — verified.
-- ATSDR MRL 0.3 mg/kg BW/day for inorganic Sn — verified against section 2.2.5 (PDF page 6) and Table 3 footnote.
-- EFSA TDI 0.25 µg/kg bw/day for sum of TBT+DBT+TPT and the molecular-weight-ratio conversion to 0.1 µg-Sn/kg BW/day — verified against PDF page 4 and section 2.2.6.
-
-**Brand firewall (Part 12):** No brand names appear in source-page content. The paper itself names no brands in its findings. The methods section names the analytical-protocol authority (China National Center for Food Safety Risk Assessment) and the ICP-MS technique generically — no instrument-vendor names appear in the paper.
-
-**Wiki/HMTc firewall (Part 2):** No synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values, and explicitly notes that the canned-fruit distribution is informative for HMTc inputs without specifying a threshold.
-
-2026-05-20 — Fresh-context audit editorial review (skill v2.0 Phase 2) returned REVISE with two findings. Verified each against the source PDF and applied/rejected:
-
-- ❌ `metals: [Sn, organotins]` flagged as speciation-discipline violation (verified correct): the paper measured total Sn only by ICP-MS; PDF page 6 section 2.2.6 explicitly states "compound-specific quantification of organotin species (TBT, DBT, TPT, and DOT) by LC–MS/MS or GC–MS was not performed." The organotin risk assessment is a model derived from a literature-derived 5.83% organotin-to-total-Sn fraction (Sousa et al. 2009, mollusks), not a measurement of organotin species in the Zhejiang samples. Per Part 14 speciation discipline (analogous to the tHg/MeHg rule: if the paper does not speciate, use the total form only), `organotins` was removed; `metals: [Sn]` remains. The organotin modeling is captured in the Key numbers section and the Methods "Critical species note", not asserted via the metals source metadata.
-- ⚠️ Matrices controlled-vocabulary concern (verified false positive): the audit speculated that the singular bare-string matrices forms (`leafy-vegetable`, `canned-vegetable`, `canned-meat`, `canned-edible-fungi`, `fresh-aquatic-product`) may not match a controlled-vocabulary canonical form. Verified against the routing audit (`npm run evidence:source-routes`): zero unresolved and zero malformed entries for this source. The matrices array is bare-string open vocabulary per the page-template; the singular-descriptor convention matches the prior revision (which passed routing audit since 2026-05-13) and other Zhejiang-cluster pages. No change made.
-- ⚠️ Possible `processed-meats` routing for the paper's canned-meat data (verified false positive): the paper's "Canned Meat and Meat Products" category covers canned meat specifically, not the broader processed-meats space (cured ham, bacon, sausages). The taxonomy snapshot's `processed-meats` slug covers the broader category; adding it would overstate the paper's scope. The canned-meat data is captured via the `matrices: canned-meat` entry and the Key numbers table; no product-page routing is currently appropriate. If/when a `canned-meat` product page is locked under HMTc Step 0, this page will fan out to it via the routing audit automatically. No change made.
-
-Routing audit re-run after the metals source metadata edit: clean (0 unresolved, 0 malformed for this source). The audit editorial review confirmed numerical fidelity, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all clean independently.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

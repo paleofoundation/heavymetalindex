@@ -87,15 +87,9 @@ Lead concentration data came from the Guangzhou food safety risk monitoring syst
 
 This source contributes Guangzhou market-food occurrence data for Pb across rice, wheat flour products, vegetables, meats, dairy, fish, shellfish/seafood, algae, and fungi. It is routeable to broad food-product pages as a multi-category monitoring dataset. The source supports lead occurrence and dietary-exposure context only; it does not provide per-brand contamination values or other HMTc analytes.
 
-## Verification notes
+## Related evidence
 
-- PDF text extracted with `pdftotext -layout`; title page, methods, Table 2, Table 3, Table 4, conclusions, and license text were readable.
-- DOI `10.3390/ijerph16081417`, raw handle `MFK_wang2019`, and cite-key checks found no existing source page before creation.
-- Table 2 values were checked against the extracted text and a rendered page image. The milk row is internally anomalous in the source table (`P50 0.0500` and `P95 0.0050`); this page preserves the printed values and does not correct them.
-- Units are copied as reported: concentrations in `mg/kg` and dietary intake in `µg/kg bw/day`. No unit conversion was performed.
-- Speciation: the paper reports lead only.
-- Brand firewall: sampling locations are broad retail channels; no brand-level contamination values are reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented. Milk and milk-powder findings remain represented by the `[[ingredients/milk-and-dairy]]` ingredient because the current product snapshot does not list a dairy product slug.
+- [[ingredients/milk-and-dairy]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

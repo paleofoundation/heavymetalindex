@@ -87,26 +87,9 @@ Cross-sectional paired-sample study, Guangzhou Women and Children's Medical Cent
 - Courses: Useful as a methodology reference for designing paired-sample dermal-exposure studies in infants — especially the diaper-change-frequency-by-age stratification (10.3, 5.2, 2.4 changes/day for ≤ 0.5, 0.5-1, ≥ 1 y) and the < 1 y vs > 1 y stratification when breast-feeding may confound urinary metabolites.
 - App: Not directly applicable to the heavy-metals consumer app.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- (None directly; methodology / out-of-core-scope only. Routing to `[[products/diapers-and-components]]` per `matrices: [diaper]` so this source is discoverable as a non-metal exposure-pathway reference on the diaper page.)
-
-## Verification notes
-
-- **No heavy-metal occurrence data.** `metals: []` is correct. Paper measures DEP, DiBP, DnBP, DEHP (parent phthalates) in diapers and mEP, miBP, mnBP, mEHP, mEHHP, mEOHP, ΣmDEHP, ΣmPAEs (metabolites) plus 8-OHdG in urine. Two further targets (mBzP-parent and mMP-parent isomers) were below detection. Phthalates are organic plasticizers, not heavy metals — paper is ingested as out-of-core-scope methodology reference per the precedent set by `lea2018-dinp-endocrine-disruption.md` (DINP weight-of-evidence) and `aurisano2022-mouthing-exposure-childrens-products.md` (mouthing-migration model).
-- **Brand-firewall compliance.** Authors did NOT name the specific diaper brands sampled (Section 2.1, p. 2: "diapers of the same brand and style used by babies in the last week were obtained from the baby's parents or guardian" — no brand list). Comparison data in Table 2 reference other studies' country-level summaries (Japan, US, China, six-country) without naming brands. No brand-attribution risk.
-- **Sample-size stratification.** Authors report n = 21 ≤ 0.5 y, n = 10 > 0.5-1.0 y, n = 35 ≥ 1.0 y in Table 1 (Frequency column). Table 4 daily-intake age groups are 0-0.5 y (n = 21), > 0.5-1.0 y (n = 10), > 1.0-2.0 y (n = 20), > 2.0 y (n = 15). The 20 + 15 = 35 in the > 1 y strata reconciles the Table 1 ≥ 1 y category. Table 1 reports sex breakdown 53 male / 13 female only at the overall level — sex × age cross-tab not provided.
-- **Median diaper-change frequencies.** Table 1 reports mean ± SD: 10.3 ± 1.3, 5.2 ± 1.4, 2.4 ± 0.7 per day for ≤ 0.5, 0.5-1.0, ≥ 1.0 y respectively. The overall row "5.33 ± 3.69" and "Median (Range) 3 (1-13)" applies to the whole n = 66 cohort.
-- **Permeation rates.** The introduction cites permeation rates "~ 2 µg/cm²/h for DEP, ~ 0.1 µg/cm²/h for DnBP, only ~ 0.0002 µg/cm²/h for DEHP" with attribution [17] (likely Hopf et al. 2024 per the reference list, ref 17). Verified against Section 1, p. 2 of the PDF.
-- **Author author-list and affiliations.** Lai X and Zhu J are listed as co-first authors (dagger note on p. 1 of the published article); Li W and Zhao T are co-corresponding (asterisks). All authors affiliated with Guangzhou Women and Children's Medical Center / Guangdong Medical University or with Guangdong University of Technology (Institute of Environmental Health and Pollution Control).
-- **Funding.** National Natural Science Foundation of China grants 82103814, 82202011; Guangdong Basic and Applied Basic Research Foundation 2022A1515012576; Guangzhou Municipal Science and Technology Project 202201011840, 202201011221, 2024A04J3929, 2024A04J3925, 2025A04J5228; and the Research Fund for Clinical Doctor of Guangzhou Women and Children's Medical Center. Public-funded; no industry conflicts declared.
-- **License.** MDPI Toxics is open access under Creative Commons Attribution (CC BY 4.0) license per the front-page copyright notice: "This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/)."
-- Audit editorial review (2026-05-17) flagged the bullet sub-heading "mEP composition share by sub-group" as a mislabel — the figures are ΣmPAEs composition shares per PDF p. 5 §3.2. Verified against PDF: the values (mEHP 41.5%, mnBP 29.8%, mEP 20.2%, miBP 8.5%) describe ΣmPAEs composition, not mEP. Applied: bullet sub-heading rewritten to "ΣmPAEs composition by metabolite".
-- Audit editorial review (2026-05-17) flagged `products/diapers-and-components` as not present in the taxonomy snapshot. Verified against live wiki: the linked reference record exists as an HMTc Cat 9 Row 7 scaffold (`literature_scope: thin`, `splits_locked: false`, source metadata dated 2026-05-17). Snapshot-staleness false positive — taxonomy snapshot used by the audit editorial review has not yet been refreshed to include the diaper scaffold. Wiki page retains the routing destination.
-
-## Ingest log
-
-- 2026-05-17 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against the linked reference record returned no hits: DOI `10.3390/toxics13030218` not present; raw_handle `MFK_infants-dermal-exposure-to-phthalates-from-disposa` not present; cite-key stem `lai2025` not present. PDF SHA-256 `3a4b48c9a92214b7d1a3e0ba16da8937b157e226ca915de5de8ca49a3472f736`. Paper measures phthalates only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lea2018 and aurisano2022 precedents. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) for discoverability as a diaper-paper but `metals: []` correctly reflects no metal occurrence data.
+- [[products/diapers-and-components]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

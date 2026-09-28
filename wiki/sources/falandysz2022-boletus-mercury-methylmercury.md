@@ -51,18 +51,13 @@ Courses: Useful example of how cooking can increase wet-weight concentrations by
 
 App: Supports a wild Boletus mercury context note and shows that MeHg is a small but measured fraction of total Hg in this species.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
 - [[products/mushrooms]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- The DOI was minted in 2021, but the journal issue printed in the PDF is 2022; the cite key uses the publication year shown in the PDF header.
-- This page preserves the distinction between total Hg and MeHg; total Hg values must not be used as methylmercury values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -67,14 +67,6 @@ Fish were captured mainly by net and stored at `-20 °C` until analysis. Total a
 
 This source supplies direct fish occurrence evidence and a clear speciation warning: polluted-water fish accumulated more total arsenic, but the major part of arsenic remained organic, and inorganic arsenic was a smaller measured fraction. Product routing should preserve fish-meat wet-weight basis and keep brackish/freshwater and polluted/reference context visible. Total arsenic values from this paper must not be pooled as inorganic arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sample collection, total-As and iAs methods, Table 1, Table 2, and discussion were checked in `/tmp/f3_unrepresented_texts/norin1985.txt`.
-- DOI text was not found in the extracted PDF; DOI is left `null`. Raw-handle, raw-path, and cite-key checks found no existing source page before creation.
-- Units are preserved as `ug As/g` wet weight; the extracted text renders the micro sign as `p`, so no conversion was performed.
-- Speciation: `tAs` and `iAs` are separately reported. Inorganic arsenic duplicate values are not averaged.
-- source metadata slugs were checked against the editorial record; species-level fish slugs for fourhorn sculpin, burbot, Baltic herring, pike, perch, and roach are not present.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

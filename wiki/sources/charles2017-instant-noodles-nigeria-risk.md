@@ -61,7 +61,7 @@ The authors selected six high-growth instant-noodle brands that together represe
 
 This source contributes Nigeria-market instant-noodle occurrence evidence for Pb, total Cr, Cu, Ni, Al, and non-detect context for total As, total Hg, and Cd. It is useful for processed non-rice grain and wheat-based noodle routing, especially because the source reports both concentration and risk-screening tables. The coded-brand structure and the public nature of noodle brands require brand-firewalled reporting; later extraction should preserve sample coding only if internal systems need it, not as public brand ranking. Total As, total Hg, and total Cr should not be used as iAs, MeHg, or Cr-VI evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/noodles]]
 - [[ingredients/wheat]]
@@ -75,16 +75,6 @@ This source contributes Nigeria-market instant-noodle occurrence evidence for Pb
 - [[metals/cadmium]]
 - [[metals/aluminum]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Tables 1-6, discussion, conclusion, and open-access license statement.
-- DOI verified from the PDF title page and metadata as `10.1007/s11356-017-0583-0`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 2 concentration ranges, Table 3 THQ values, Table 4 HI values, Table 5 carcinogenic-risk flag, and Table 6 PAH ranges were checked against the extracted text. Units are preserved as `mg/kg` and `kg/person/day`; no conversions were performed.
-- Speciation: arsenic is total As, mercury is total Hg, and chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
-- Brand firewall: the source uses coded brand identifiers, but this page reports aggregate ranges and coded-brand counts only. No public brand names are paired with contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Autonomous audit 2026-06-09 flagged Ni row inconsistency (only maximum detected value reported, unlike Pb and Cr which show full detected range); applied — Ni row now reports both ND-to-max and detected min-to-max for parallelism. Audit also flagged `dry-weight` in matrices and unverified "70% market share" claim; verified both as false positives — `dry-weight` is established matrices vocabulary across 82+ source pages (precedent: elziani2024-instant-noodles-libya-metals), and the 70% claim is supported verbatim by the source (Sampling section, citing Marketing Edge 2017).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

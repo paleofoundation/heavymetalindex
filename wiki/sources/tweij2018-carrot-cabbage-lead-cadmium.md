@@ -44,17 +44,13 @@ The paper reports Pb and Cd concentrations for carrot and cabbage market samples
 
 The source supports root-vegetable and non-root-vegetable occurrence context for Iraq-market samples and imported produce identified by the authors. Because the clearest extracted values are summary extremes, route the source cautiously for quantitative pooling unless the original tables are rechecked.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[products/root-tuber-vegetables]]
 - [[products/non-root-vegetables]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The source provides ppm values and distinguishes carrot color/origin categories. No consumer brand names were transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

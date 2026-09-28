@@ -77,15 +77,6 @@ Vegetable samples were collected from 11 cities in Zhejiang from March to Octobe
 
 This source contributes a large Zhejiang-market vegetable occurrence dataset for total As, Cd, total Cr, total Hg, Ni, and Pb. The overall Table 1 statistics are directly usable for broad vegetable routing, while species-specific values are limited in the extracted PDF to narrative highlights because Table S1 is referenced as supplementary information rather than embedded in the extracted text. The source is not suitable for iAs, MeHg, or Cr-VI pooling because it does not report those species.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the title page, DOI, Table 1, Table 2, methods, validation text, and license statement were readable.
-- DOI verified from the first-page footer and citation note as `10.1038/srep20317`; DOI, raw handle `MFK_pan2016`, and cite-key checks found no existing source page before creation.
-- All Table 1 and Table 2 values in Key numbers were checked against the extracted text. Units are preserved as `mg/kg, fresh weight` for occurrence and `μg/kg bw/day` for exposure; no conversion to ppb or dry-weight basis was performed.
-- Speciation: arsenic is total As and mercury is total Hg. Chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
-- The source references Table S1 for all 28 species, but the supplementary table was not present in the extracted PDF text; only narrative species-level highlights visible in the extracted text were captured.
-- source metadata slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -134,7 +134,7 @@ The Executive Summary headline "more than 9 million IQ points / $12–18 billion
 
 ### Exposure scenarios analyzed (Table 6, p. 23) and resulting iAs intake changes (Tables 7-8)
 
-Six scenarios: (1) implement FDA 100 ppb (initial 103.9 ppb → final 83.5 ppb in white infant rice cereal); (2) implement alternate 50 ppb (initial 103.9 ppb → final 20.8 ppb); (3) reduce consumption from 3 to 1 serving/day at 83.5 ppb; (4) replace infant rice cereal with alternate grain at 15 ppb (3 → 0 servings of rice cereal). Using FDA 2016c serving assumptions, the proposed FDA standard reduces high-consumer (3 srv/day) intake from 0.35 → 0.28 µg/kg-bw/day (change 0.07); the 50 ppb alternate reduces it 0.35 → 0.07 (change 0.28); reducing consumption to 1 srv/day reduces it 0.28 → 0.13 (change 0.15); full replacement reduces it 0.28 → 0.05 (change 0.23). Using Shibata 2016 serving assumptions (4.6 g/tablespoon vs FDA's 2.5 g), all values approximately double.
+Six scenarios: (1) implement FDA 100 ppb (initial 103.9 ppb → final 83.5 ppb in white infant rice cereal); (2) implement alternate 50 ppb (initial 103.9 ppb → final 20.8 ppb); (3) reduce consumption from 3 to 1 serving/day at 83.5 ppb; (4) replace infant rice cereal with alternate grain at 15 ppb (3 → 0 servings of rice cereal). Using FDA 2016c serving assumptions, the proposed FDA standard reduces high-consumer (3 srv/day) intake from 0.35 → 0.28 µg/kg-bw/day (change 0.07); the 50 ppb alternate reduces it 0.35 → 0.07 (change 0.28); reducing consumption to 1 srv/day reduces it 0.28 → 0.13 (change 0.15); full replacement reduces it 0.28 → 0.05 (change 0.23). Using Shibata 2016 serving assumptions (4.6 g/tablespoon vs FDA's 2.5 g), all values approximately double. Per-capita intake of rice and rice products among children aged 0 to 6 years is 0.556 g/kg body weight per day (Chiger 2017).
 
 ## Methods (brief)
 
@@ -166,41 +166,20 @@ App: the per-IQ-point dollar valuations and the CRF-by-CRF avoided-IQ-loss distr
 
 Microbiome: not addressed; this is exposure + dose-response + economic valuation, not mechanism. Arsenic-microbiome interactions are not covered by this source.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic-inorganic]] — primary iAs neurodevelopmental endpoint reference; pooled U.S. exposure distributions for ages 0-6
-- [[ingredients/rice]] — broader rice-products exposure scenario (Section 6.3)
-- [[ingredients/rice-cereal]] — primary subject; concentration and consumption pooled distributions
-- [[ingredients/rice-flour]] — secondary, via the "rice and rice products" aggregate (per-capita 0.556 g/kg bw/d in 0-6 yr-olds, Section 6.3)
-- [[products/baby-cereals-dry-rice-based]] — primary product target
-- [[products/infant-cereal]] — broader infant-cereal context
-- [[products/mixed-meals-rice-containing]] — secondary, in the "all rice products" scenarios
-- [[products/teething-and-snacks-rice-based]] — secondary, in the "all rice products" scenarios
-- [[regulations/fda-iAs-rice-cereal-100ppb]] — proposed FDA action level discussed Section 2.2
-- [[regulations/eu-2015-1006-iAs-rice]] — EU 100 ppb standard for rice in infant food, discussed Section 2.1
-- [[regulations/epa-iris-inorganic-arsenic-rfd]] — IRIS 1991 chronic oral RfD, Section 4.2.1
-
-## Verification notes
-
-- 2026-05-29: Manual-fetch re-ingest pass against the source PDF (the archived source file). Page was originally created 2026-05-14 by claude_opus_47_session under the pre-v2 manual_phase1_priority workflow; this pass enhances per the v2 manual-fetch-pdf skill. Changes:
-  - source metadata `audience: [regulator, educator, consumer, app]` added (was missing). `sample_population` corrected: prior text said "~24M children" but Section 6.2.2 specifies 27,989,207 per U.S. Census Bureau 2015 — corrected. `sampling_locations: []` and `sampling_year_range: null` retained since this is a literature-synthesis report with no primary sampling. `ingest_method` updated to `manual_fetch_v2`. `cite_key`, `raw_handle`, `raw_path`, `license`, `access_url`, `near_duplicates` preserved per skill's EXISTING path.
-  - Headline numbers ("$1.2-1.8B" infant rice cereal replacement and "$12-18B" all-rice replacement, plus "~1 million IQ points" and "more than 9 million IQ points") now explicitly attributed to the Wasserman 2004 quadratic / linear-extrapolation CRFs at the 0 ppb scenario. Previously the page stated the headline numbers without naming the CRF, leaving readers without a way to interpret the much-wider per-CRF envelope (Tables 16-17, 19-20). The full per-CRF tables are now in Key numbers so the reader can see the sensitivity.
-  - Key numbers expanded from 5 short rows to a full reconstruction of Tables 1, 5, 9, 11, 16-17, and 19-20 with page references. Health-based limits table populated with values, endpoints, and original-derivation sources (Tseng 1977/1968 for IRIS; Mizuta 1956 for acute MRL; Hamadani 2011 derivation for Tsuji RfD).
-  - Methods section expanded: previously thin and missing the CRF inclusion/exclusion criteria (Section 6.1), the Tsuji 2015 dose-conversion equation usage, and the age-layering approach (infant rice cereal exposures for 0-1; rice exposures held at average for 1-6). All now included with section pointers.
-  - "## Implications" section retained (template requirement) but rewritten to drop HMTc-promotional language. Previously stated: "this report is the canonical advocacy/policy reference that establishes the $1.2-1.8B-per-year-in-avoidable-IQ-loss claim that HBBF uses in advocacy. HMTc certification of low-iAs infant rice cereal is a partial market intervention against this loss; brand-legal positioning around HMTc should explicitly cite Chiger 2017 as the cost-of-not-acting reference" and "HMTc Cat 1 infant rice cereal thresholds should anchor on the Tsuji RfD for the toxicology basis" — both removed per Part 2 (wiki/HMTc firewall): the wiki reports what the source says, not how HMTc should position around it. New Implications text frames the report's role as a pooled exposure-modelling and CRF-sensitivity reference for researchers, with explicit notes on the IRIS 1991 vs Tsuji 2015 vs Abt-re-derived Tsuji envelope.
-  - Legacy "## Wiki pages updated on ingest" heading renamed to "## Wiki pages this source may touch" per current template (the page does not itself update the listed pages; routing audit and synthesis pass handle propagation).
-  - Wiki-pages-may-touch list corrected for taxonomy drift: `regulations/fda-iAs-rice-cereal-2020` → `[[regulations/fda-iAs-rice-cereal-100ppb]]` (the correct extant slug; verified `ls wiki/regulations/`). `regulations/usepa-iris-1991-iAs-rfd` (does not exist) → `[[regulations/epa-iris-inorganic-arsenic-rfd]]` (the correct extant slug). Removed `regulations/tsuji-2015-iAs-neurodevelopmental-rfd` — Tsuji et al. 2015 is a peer-reviewed study, not a regulation; should not have a regulation page. Removed `regulations/atsdr-2007-iAs-mrl` — no such page exists in current taxonomy; the ATSDR 2007 MRLs are discussed within the iAs metal page and at the existing ATSDR pages (atsdr-aluminum-mrls, atsdr-cadmium-mrls). Added `[[regulations/eu-2015-1006-iAs-rice]]` (extant slug for the EU 100 ppb standard discussed in Section 2.1).
-  - Consumer-audience translation added inside Implications with `<!-- audience: consumer --> ... <!-- /audience -->` tagging per Part 7 audience layering. Anchored on quantitative concentration values (~100-120 ppb infant rice cereal vs 5-17 ppb non-rice alternatives) rather than undefined "trace"/"safe" qualifiers, per [[docs/conventions]].
-- Brand firewall (Part 12): the report itself names "Nestlé Feeding Infants and Toddlers Study" — that is a scientific-instrument vendor-style reference (the FITS study is the named data source, not a contamination value attribution), which is the Exception-2 carve-out per the 2026-05-17 lock. Retained as "FITS 2002 and 2008" and "Nestlé FITS" without brand-attribution-to-values. No brand-by-brand contamination listings exist anywhere in the source for this paper, so no Part 12 redactions were needed.
-- HMTc firewall (Part 2): the report itself takes a clear advocacy position (avoidable IQ loss → tighter standard). The wiki summary preserves the report's quantitative findings and reasoning chain but does not endorse the advocacy direction in the wiki voice. The Implications section names the regulatory-uncertainty envelope (IRIS vs Tsuji vs Abt-re-derived Tsuji) without recommending which value HMTc or any other certifier should adopt.
-- 2026-05-29 (audit application): Fresh-context Agent editorial review (general-purpose) ran the five-check audit per the editorial record. Verdict: REVISE with 3 ❌ findings and 2 ⚠️ concerns. Findings verified against source and applied:
-  - ❌ Table 11 Hamadani 2011 log-linear and linear rows were both labeled "Verbal IQ" — corrected to "Full-scale IQ" per source p. 41 ("verbal IQ: β = −2.4 (95% CI: −3.8, −1.1); full-scale IQ: β = −1.4 (95% CI: −2.7, −0.1)" and Section 6.1.1 confirming Abt selected the full-scale β=−1.4 log-linear slope and the full-scale 0.9 IQ-pts/100 µg/L linear slope; the verbal linear slope of 2.6 IQ-pts/100 µg/L is what Tsuji 2015 used for the RfD). Both rows now also annotate the parallel verbal-IQ slope for cross-reference.
-  - ❌ Carignan Table 5 footnote previously stated the 55% Shibata assumption was applied to convert Carignan total-As to iAs. Source p. 19 Table 5 footnotes show the 55% assumption is the Xue (*) footnote, not Carignan (**); Section 3.3.4 (p. 16) confirms Carignan derived iAs using FDA 2013 inorganic-arsenic concentrations directly (median 0.20 µg/g; max 0.25 µg/g). Footnote rewritten to reflect what Carignan actually did.
-  - ⚠️ Bare `[[microbiome/]]` directory wikilink in Implications section dropped (Microbiome line now simply states the source does not cover this topic).
-  - ⚠️ Matrices vocabulary (`[policy-cost-benefit, exposure-modeling, neurodevelopment]`) flagged as non-standard but left in place: routing audit accepts these values (source not in `routing_malformed.csv`); the values are descriptive of a literature-synthesis report that has no primary sampling matrix. If a future taxonomy migration introduces a `report-type` field, these should move there.
-  - ⚠️ FITS / Nestlé Exception-2 rationale in prior Verification notes is rationale-only and was not edited; correct rationale is that "FITS" is a standard scholarly study identifier (like NHANES, WWEIA) and the body does not name brand products against contamination values.
-  - ⚠️ Consumer-audience block ("For a parent: replacing infant rice cereal in your child's diet with oatmeal, quinoa, barley, or other non-rice infant cereal reduces inorganic arsenic exposure substantially…") left as-is: it is quantitatively anchored (6–17 ppb non-rice vs ~100–120 ppb infant rice cereal), properly hedged on per-child IQ effect, and faithfully echoes the source's own explicit recommendation (p. 30). Defensible at the boundary of Part 2 consumer-translation discipline.
-  No findings were rejected as false positives. Routing audit re-run clean after edits.
+- [[metals/arsenic-inorganic]]
+- [[ingredients/rice]]
+- [[ingredients/rice-cereal]]
+- [[ingredients/rice-flour]]
+- [[products/baby-cereals-dry-rice-based]]
+- [[products/infant-cereal]]
+- [[products/mixed-meals-rice-containing]]
+- [[products/teething-and-snacks-rice-based]]
+- [[regulations/fda-iAs-rice-cereal-100ppb]]
+- [[regulations/eu-2015-1006-iAs-rice]]
+- [[regulations/epa-iris-inorganic-arsenic-rfd]]
+- [[microbiome/]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -71,27 +71,12 @@ Narrative literature review. The authors state in the Introduction (p. 1) that t
 - Courses: Foundational paediatric-dermal-toxicology teaching reference. Useful as a paired reading with the ATSDR 2023 dermal-absorption guidance (which provides default ABSd / ABS_GI values for adults) and the Yun et al. 2022 in silico paediatric dermal model (which provides the maturation equations for adult-to-infant SC and epidermis thickness ratios). Together the three sources cover the inputs-to-equations-to-validation arc of paediatric dermal exposure modeling.
 - App: Not directly relevant to ingredient `contamination_profile` data. The infant skin permeability factors and the Felter DD-modifier scheme are useful infrastructure for any per-product dermal-route risk estimator the HMI consumer app may eventually add for children's personal-care products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/baby-wipes]]
 - [[products/diaper-cream-zno]]
 - [[products/diaper-cream-non-zno]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- Review article, narrative not systematic; `evidence_tier: B`. The underlying primary studies cited (Hammarlund & Sedin 1979 TEWL; Visscher et al. 2000 diaper-area physiology; Stamatas et al. 2010 in vivo microstructure; Hoeger & Enzmann 2002 desquamation; Felter et al. 2017 DD safety-evaluation framework) are independently A-tier and should be located and ingested separately when HMI synthesis on infant dermal exposure needs primary measurements; this review's value is the integration and the regulatory-framing summary, not the underlying numbers.
-- `metals: []` is correct — the paper contains no heavy-metal occurrence data and no metal-specific permeability measurements. The systemic-absorption cases reviewed are pharmaceutical or antiseptic chemicals (povidone iodine, chlorhexidine, alcohol, salicylates, phenylephrine, miconazole, hydrocortisone), not metals.
-- `ingredients: []` is correct — the paper does not discuss food ingredients; preservative and surfactant ingredients in baby wipes are formulation-level, not contamination-source, and are not in the the linked reference record taxonomy.
-- `products: [baby-wipes, diaper-cream-zno, diaper-cream-non-zno, children-personal-care]`: baby-wipes is the primary subject (Sections 6.1, 6.2, 7.1 of the paper); diaper-cream-zno and diaper-cream-non-zno cover §6.3 Post-Cleansing Barrier-Repair Creams (zinc oxide ointment and dexpanthenol 5%, respectively); children-personal-care is the umbrella context. Sunscreens are addressed in two passages (§3.2.5 American Academy of Pediatrics recommendation; §4.1 large-surface-area application), which support routing to baby-sunscreen-mineral as infant-skin exposure context (added 2026-09-26); baby-sunscreen-chemical is not routed because the review draws no filter-type distinction.
-- `jurisdictions: [EU, UK, US]` reflects the EMA / SCCS (EU), RCPCH (UK), and FDA / AAP (US) regulatory bodies the review references. Indonesia (author affiliation) and the WHO newborn-bathing recommendation are not jurisdiction-specific to the content of the paper.
-- Brand-firewall (Part 12): clean. The paper does not name commercial baby-wipe brands or rank manufacturers; it discusses preservative and surfactant ingredient classes and cites methylisothiazolinone-containing wipes (2005-2014 era) as a class without naming brands. The single "Procter & Gamble" reference is a market-research citation (ref 99) for percent-of-caregivers data, not a brand-ranking claim about product safety.
-- Wiki/HMTc firewall (Part 2): clean. The review does not propose certification thresholds or comment on existing HMI / HMTc standards. The Felter et al. 2017 framework numbers are reported as the source's regulatory framing (SCCS-adopted), not as HMI recommendations.
-- Speciation flag: not applicable; no metals reported.
-- Funding: Ministry of Finance, Republic of Indonesia studentship (Grant Ref S-1778/LPDP.4/2019) for Rahma. No declared conflicts of interest; no industry funding.
-- Open access (CC BY 4.0); re-publishable with attribution under MDPI license terms.
-- The paper-internal reference list assigns ref [78] to "Bernauer et al. 2021 - SCCS Notes of Guidance 11th Revision (SCCS/1628/21)" - this is the SCCS Notes of Guidance 11th Revision, not the 12th Revision that exists at the linked reference record. The two are sequential SCCS guidance versions and should not be conflated.
-- A second copy of this article (SHA-256 2daff72d9097819561a16c8be31f4a99bc58605e9c4e902f3cdf8cf5c9feffeb) was received on 2026-09-26 in a diaper-cream source collection and used to check the abstract and section 6.3 statements above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

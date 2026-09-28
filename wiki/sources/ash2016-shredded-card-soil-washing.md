@@ -54,7 +54,7 @@ Courses: Useful for teaching mitigation evidence because it separates contaminat
 
 App: Context only. The paper can support upstream remediation and source-pathway explanations, not consumer-product contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
@@ -62,12 +62,6 @@ App: Context only. The paper can support upstream remediation and source-pathway
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a soil-washing/filter paper as out of scope because it did not measure a finished product, but the source is in-scope a2 mitigation/remediation evidence.
-
-Numbers were checked against the extracted PDF text, especially the abstract, Table 1, Table 3, Table 4, Table 5, the leaching-method paragraph, and the desorption discussion. Units are preserved as reported. Arsenic is treated as total As (`tAs`) because the paper reports As by total elemental analysis rather than inorganic-arsenic speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

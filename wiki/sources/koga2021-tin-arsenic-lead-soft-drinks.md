@@ -74,18 +74,6 @@ The H2SO4 addition step in the Sn procedure is non-obvious and is a useful metho
 
 The paper provides no native contamination measurements and therefore contributes no occurrence data for soft-drinks product pages. Its value to this wiki is as a methods reference, not as evidence in any ingredient or product contamination profile.
 
-## Verification notes
-
-- Source is a Japanese-language note with an English abstract; key numbers and tables verified directly from PDF pages 1–5 (the full article). Body text is Japanese; technical content extracted from the English abstract, the figures and tables (which are in English), and the equation/numerical sections of the Japanese body.
-- DOI not printed on the PDF but reconstructed from the journal's deterministic J-STAGE DOI scheme `10.3358/shokueishi.<volume>.<startpage>` (verified against three other Shokuhin Eiseigaku Zasshi source pages in the wiki: watanabe2017 → 58.80, kataoka2018 → 59.269, takanashi2018 → 59.275). For vol 62, p. 100 this resolves to 10.3358/shokueishi.62.100.
-- All applicability-test sample types in Table 2 (cola, reconstituted orange juice, vegetable juice cocktail, soy milk drink, liquid protein milk beverage, plant-extract fermented beverage) are described as commercial products selected for the validation but no brand attribution is given in the source. No Part 12 brand-firewall risk.
-- Matrices set to `analytical-method` per the precedent established by nassar2025-spectrophotometric-cadmium-method and wang2024-gsh-spr-pb-sensor: the paper reports method-validation parameters, not native contamination in any specific product category. Products and ingredients arrays left empty for the same reason.
-- Metals: tAs used (not iAs) because the paper measures total As only (m/z 75 by ICP-MS without speciation chromatography). Sn used (not tin-inorganic) because no Sn speciation was performed.
-- Spike levels: Sn 150 mg/kg was chosen to align with the Japanese regulatory limit of 150.0 ppm; As and Pb both spiked at 0.2 mg/kg. The 0.2 mg/kg Pb spike is half the operational "not detected" threshold of 0.4 mg/kg, which the authors noted in the methods section.
-- Japanese regulatory context cited (MHLW Notification No. 370 of 1959 for the Sn 150 ppm soft-drinks limit) is not yet a wiki regulation slug; flagged as a potential future regulation page but not proposed here.
-- No previous wiki source page existed for this paper (DOI grep null because DOI null; raw_handle grep negative; cite-key grep negative). NEW path.
-- Audit editorial review (2026-06-06) flagged the methods text "CEM ETHOS One (Milestone General)" as a vendor misattribution: ETHOS One is a Milestone instrument, not a CEM one (CEM produces the MARS-series digesters). Verified against PDF page 2 ("マイクロ波分解装置（ETHOS One，マイルストーンゼネラル（株）製）") — finding confirmed and corrected to "Milestone ETHOS One (Milestone General K.K.)".
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

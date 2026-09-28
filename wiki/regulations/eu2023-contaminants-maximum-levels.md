@@ -154,7 +154,7 @@ That is why this regulation is wired into `data/evidence/regulatory_limits.csv` 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/eu-2023-915-contaminants-maximum-levels|Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006]]<span class="hmi-ref-meta">European Commission · Official Journal of the European Union · 2023 · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915)</span><span class="hmi-ref-tag">Regulation</span>
 2. [[sources/eu-2024-1987-nickel-maximum-levels|Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs]]<span class="hmi-ref-meta">European Commission · Official Journal of the European Union, L series, 2024/1987 (31.7.2024) · 2024 · [data.europa.eu](http://data.europa.eu/eli/reg/2024/1987/oj)</span><span class="hmi-ref-tag">Regulation</span>

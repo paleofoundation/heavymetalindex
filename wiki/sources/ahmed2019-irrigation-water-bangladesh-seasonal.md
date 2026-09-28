@@ -117,28 +117,6 @@ Instrumentation: ICP-MS (Agilent 7500ce) at the Center of Advanced Instrumental 
 
 Limitations: total As reported, not speciated to inorganic vs organic. Vegetable concentrations reported as composite means by area rather than individual replicates per species in the main tables (Figure 4 reports per-vegetable means with standard error). Wet-season data drawn from the authors' prior 2015 study, so dry-vs-wet comparisons span a two-year interval during which the authors state factory and discharge-point counts were unchanged.
 
-## Verification notes
-
-Merge-enhanced 2026-05-18 from prior 2026-05-14 version. Changes:
-
-- `raw_handle` corrected from legacy placeholder `papers-cube` to the canonical PCMF handle `PCMF_article-2-copy-2`.
-- Added `access_url` (DOI link).
-- Expanded `metals:` to include Cu and Zn (the paper reports both throughout; prior version omitted them despite Cu peaking at 6.85 mg/L in water and Zn at 186.9 mg/kg in soil).
-- Expanded `ingredients:` from `[leafy-vegetables]` only to the broader vegetable scope the paper covers (leafy + root + umbrella vegetables, plus spinach which has its own page and is explicitly reported in Figure 4). Did NOT add ingredient pages that do not exist (amaranth, taro, helencha, kangkong, pumpkin, gourd) per the auto-stub policy.
-- Expanded `matrices:` from `[irrigation-water, soil, vegetable]` to include `agricultural-soil`, `leafy-vegetable`, and `root-vegetable` for routing precision.
-- Added wet-season irrigation-water and soil means by area, full vegetable BCF table per species, and FAO/WHO and EU permissible levels alongside reported values (prior version stated some limits but omitted the EU soil reference and the FAO vegetable limits).
-- Corrected the As-direction note: prior version said "As 0.44–0.63" for dry season water; the correct area order is Banglabazar 0.63, Kashimpur 0.50, Chandra 0.44 (descending). The range was correct; the area attribution is now explicit.
-- Added the paper-internal observation that Banglabazar wet-season Pb in vegetables (8.10 mg/kg) exceeded its dry-season value (6.63), reinforcing the cluster-analysis finding that wet-season uptake tracks irrigation water rather than soil.
-- Removed legacy `## Implications` section (certification / courses / app translation) per Wiki/HMTc firewall (Part 2): source pages report what the paper found, not how it applies to the certification program or consumer apps.
-- Removed legacy `## Wiki pages updated on ingest` section (not part of current source-page schema; routing is now the system's responsibility per Part 5b).
-- No brand names appear in this paper (only generic vegetable species and the analytical instrument vendor), so no brand-firewall application was needed.
-
-Audit editorial review (2026-05-18, verdict PROMOTE) flagged three minor concerns; all three verified against source and applied:
-
-- `sample_n: 99` was ambiguous in a 3-medium 2-season design (99 happened to equal total vegetable samples 72 dry + 27 wet, but the field semantic was unclear). Updated to 243 (water 72 + soil 72 + vegetables 99) with a per-medium breakdown in sample_population.
-- "Helencha (wet season): Zn 102.97 — highest wet-season Zn" reworded to "Zn was the highest of the six metals within helencha, and helencha had the highest overall metal load among wet-season species (Figure 4b)" to mirror the paper's p.7 framing.
-- Water-storage bottle material corrected from "polyethylene" (invented detail) to "plastic" per paper §2.2 wording.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

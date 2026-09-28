@@ -71,16 +71,10 @@ Courses: Useful downstream-effect example for explaining why aluminum toxicology
 
 App: Context only. The source can inform aluminum toxicology background but cannot score ingredients or products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[health/aluminum-toxicology]]
-
-## Verification notes
-
-Recovered from `skip:no-occurrence-data` under the 2026-06-10 inclusion-by-default rule. On reading, this paper is lane a4 toxicology evidence because it uses AlCl3 to induce an Alzheimer's-like rat model and reports histopathology, tau immunohistochemistry, and gene-expression response.
-
-Numbers were checked against the abstract, nanoparticle-preparation section, experimental-design section, Table 1, results text, and figure captions. No food, water, product, or tissue aluminum concentration is reported, and no exact figure-bar values are transcribed because they are not printed in the extracted text. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

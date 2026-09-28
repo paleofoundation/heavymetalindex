@@ -120,9 +120,8 @@ Courses: Demonstrates that traditional, additive-free, single-source dairy produ
 
 App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[ingredients/yogurt]] contamination profile. Per-region means and exceedance fractions are usable as a regional-supply-chain reference for the Eastern Mediterranean.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/yogurt]]
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -130,20 +129,7 @@ App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[in
 - [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/efsa-lead-contam-2010]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance from prior 2026-05-14 page).** The prior revision had `## Key numbers` thinned to the abstract's three "highest detected" values per metal and explicitly noted "Exact mean and median values by region are in the published tables but not reproduced in extracted text." This revision reads Tables 2, 4, 5, 6, and 7 in full and reproduces the per-region means, exceedance counts, ANOVA results, and EDI values. Methods section is expanded from one sentence to a full reproducibility block (GFAAS Shimadzu AA-6800, microwave digestion Anton Paar Multiwave 3000, BCR-679 CRM, LODs/LOQs, statistical software). Reference materials and instrument vendor/model are named per the Part 12 brand-firewall scientific-method exception. source metadata `updated:` advanced to today; cite_key, raw_handle, raw_path, license preserved. Legacy heading `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per current Part 6 template. `ingredients/milk` updated to `ingredients/milk-and-dairy` to match the live taxonomy slug. Added `regulations/efsa-cadmium-twi` and `regulations/efsa-lead-contam-2010` to the wiki-pages-touched list since Section 3.4 anchors the EDI risk characterization against EFSA's 2009 TWI for Cd and EFSA CONTAM Panel 2010 BMDL01 values for Pb.
-
-**Paper-internal contradiction flagged for downstream synthesis.** The abstract and Conclusions report Pb exceedance of 10.9% and Cd exceedance of 14.5%, but Section 3.2 and Table 4 report Pb exceedance of 15.15% (25/165) and Cd exceedance of 12.12% (20/165). These two summaries are mutually inconsistent and the abstract figures do not correspond to an integer count of the 165 samples (10.9% × 165 ≈ 18.0; 14.5% × 165 ≈ 23.9, neither matching Table 4's 25 and 20). Table 4 is reported as authoritative on this page because it is paired with raw sample counts and per-region breakdowns. The abstract's "highest detected" per-region values (Pb 0.118, 0.125, 0.115 mg/kg; Cd 0.094, 0.076, 0.042 mg/kg) are not reproduced in any table in the body of the paper and appear to be per-region maximum sample values; they are reported here verbatim with this provenance caveat.
-
-**Brand firewall.** No brand names appear in the source paper outside Methods (instrument and reagent vendors), which are retained per the locked 2026-05-17 scientific-method exception. No brand-by-brand or producer-by-producer ranking exists in the source.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made on this page. The `## Implications` section limits itself to what this single paper contributes to threshold work (sample-level vs producer-level acceptance, the right-skew structure of the distribution) and does not propose certification values.
-
-**Products field.** `products: []` is retained because no yogurt product slug exists in the current taxonomy. The matrices field captures the product form (`yogurt`, `dairy`); creation of a yogurt product page is a Step 0 Lock decision and is not made here.
-
-**Audit editorial review (2026-05-19) flagged** that `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` was the wrong EU 2023/915 sub-slug for this paper because the source measures Pb in raw-milk-derived dairy (EU 2023/915 dairy table, 0.020 mg/kg limit), not the infant/young-child foods Pb sub-table. Verified against the source (paper benchmarks against "Commission Regulation (EU) 2023/915 ... 0.020 mg/kg and 0.005 mg/kg of lead and Cd" for "raw milk and dairy products", p.3) and against the regulation page (the linked reference record is the umbrella slug covering all metals/all matrices in EU 2023/915, including the dairy Pb limit). Finding correct — replaced `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` with `[[regulations/eu2023-contaminants-maximum-levels]]`.
+- [[regulations/eu-2023-915-lead-infant-young-child-foods]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

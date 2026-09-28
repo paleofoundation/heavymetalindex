@@ -62,7 +62,7 @@ The study area was Tehsil Daska in District Sialkot, Pakistan. Milk was collecte
 
 This source supports buffalo-milk and dairy occurrence evidence for Pb, Cd, total Hg, total As, Mn, and Fe on a liquid mg/L basis. The feed-category design makes it useful for supply-chain courses and standards sensitivity review where fodder, silage, irrigation water, and regional industrial activity affect milk contamination. It should not be routed as human milk despite the wishlist filename, and its total arsenic and total mercury values must not be substituted for inorganic arsenic or methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/whole-milk]]
@@ -73,12 +73,6 @@ This source supports buffalo-milk and dairy occurrence evidence for Pb, Cd, tota
 - [[metals/arsenic-total]]
 - [[metals/manganese]]
 - [[metals/iron]]
-
-## Verification notes
-
-Evidence Fitness: routeable for buffalo-milk and dairy occurrence evidence in Pakistan, with source-reported liquid-milk ranges and feed-category context. Not routeable for human milk, infant formula, US-market dairy benchmark pools, inorganic arsenic, or methylmercury.
-
-The PDF first page provides the title, authors, journal, year, DOI, and abstract ranges. The license statement identifies CC BY-NC-ND 4.0. The PDF SHA-256 at ingest was `fe665ee9176b6d47aa752be43bfab1e075dec339dd8d58742cb79e63b8c55fa4`. The paper reports As and Hg without speciation; this page records them as tAs and tHg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

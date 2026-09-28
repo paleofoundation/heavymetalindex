@@ -98,7 +98,7 @@ Courses: Useful for explaining how source-type water sampling, metal concentrati
 
 App: Can support a context note that Gombe LGA tap, well, and sachet water were the highest-risk source types in this paper, while bottled water had the lowest modeled HI among the listed source classes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
@@ -108,13 +108,6 @@ App: Can support a context note that Gombe LGA tap, well, and sachet water were 
 - [[metals/manganese]]
 - [[metals/iron]]
 - [[metals/copper]]
-
-## Verification notes
-
-- The auto-fetched filenames referenced infant bottles, but the actual PDF is a drinking-water health-risk paper. It is ingested under the actual byline and DOI.
-- The sibling file `auto-infant-bottles-pb-product_2026_10-64290-bima-v10i1a-1514.pdf` is the same DOI and should roll up to this canonical source page rather than create a second source page.
-- The abstract states 87 total samples, while the source-count list visible in Methods sums to 76 for the named source categories. The page preserves both facts by using the article's stated total and listing the source counts printed in the Methods section.
-- The source reports modeled CDI/HQ/HI/ILCR outputs. Because the underlying concentration table is not printed in the PDF, no HMTc benchmark concentration row should be pooled from this page without a supplemental data table or re-contacted article data.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

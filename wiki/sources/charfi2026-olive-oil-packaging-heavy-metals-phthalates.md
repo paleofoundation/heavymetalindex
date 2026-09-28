@@ -123,27 +123,10 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 
 **Speciation caution:** The paper reports total arsenic (75 As mass channel); no inorganic/total split. All arsenic figures should be treated as total As. Mercury was not measured.
 
-## Verification notes
+## Related evidence
 
-- Initial ingest (2026-05-14): created from Manual Fetch source-retrieval /condiment_papers/01_Oils.
-- Merge-enhance pass (Claude Opus, 2026-05-25, v2 autonomous skill) addressed the following defects against the source PDF:
-  - **raw_path truncation fixed**: prior path "Food safety in the production of olive oils. Presence of heavy me.pdf" did not match any file on disk; corrected to the full filename "Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using.pdf".
-  - **products field populated**: added `products: [olive-oil]` to resolve the `routing_malformed.csv` advisory entry; the page now routes to the locked HMTc Category 7 Row 1 (Olive oil) product page.
-  - **metals source metadata expanded** from 6 (Pb, Cd, Ni, tAs, Al, Cr) to 12 (Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg) to match the analytes actually reported in Table 3 and Figure 2 of the source.
-  - **Cu data attribution corrected**: prior version stated "OPO (0.12 ± 0.01 to 0.18 ± 0.01)" conflating across campaigns; the 0.18 ± 0.05 belongs to EVPR¹ (ceramic, 2021/2022), while 0.18 ± 0.01 is OPO² (2022/2023). Per-campaign breakdown added.
-  - **Mn and Mg data added**: prior version omitted these reported analytes.
-  - **Detailed Fe, Zn, Al, Ni per-sample breakdown added**.
-  - **Phthalate findings expanded**: explicit DEHP per-sample concentrations (six samples), DIBP and DiNP findings, and the two EVOO-L² SML sum exceedances (DEHP-group sum and DiNP+DiDP sum) now itemised.
-  - **License clarified** from "CC BY" to "CC BY 4.0" per the source page footer.
-  - **access_url added**.
-  - **"Wiki pages updated on ingest" heading renamed** to "Wiki pages this source may touch" to match current convention (the routing layer, not the ingest session, updates downstream pages).
-- Auto-audit pass (general-purpose editorial review, 2026-05-25) — REVISE verdict. Findings applied:
-  - **Zn 2022/2023 range corrected from 0.12–0.25 to 0.04–0.10** — independent verification confirmed I had conflated Fe 2022/2023 (0.12–0.25 mg/kg, highest in olive pomace oils) with Zn 2022/2023 (0.04–0.10 mg/kg, similar to 2021/2022) per p.772 text. The editorial review flagged this as a partial concern about the "highest in EVPR²" attribution but missed the more material range error; both have been addressed.
-  - **Broken wikilink fixed**: `[[supply-chain/packaging-materials]]` does not exist in the linked reference record; the relevant existing page is `[[supply-chain/aluminum-based-packaging]]`, which captures the most distinctive packaging-vs-metal finding from this paper (EVAL¹ aluminium container Al 0.67 mg/kg).
-  - **Internal source discrepancy flagged**: Table 3 reports EVOO-P¹ Ni = 0.20 ± 0.08, but p.773 text says "the highest [Ni] concentration was detected in the case of EVOO-P with a concentration of 0.21 ± 0.09 mg/kg oil." This is a paper-internal text/table inconsistency, not a wiki extraction error. The wiki retains the Table 3 value (more granular and aligned with the per-sample table) for routing consistency.
-
-## Wiki pages this source may touch
-
+- [[supply-chain/packaging-materials]]
+- [[supply-chain/aluminum-based-packaging]]
 - [[ingredients/olive-oil]]
 - [[products/olive-oil]]
 - [[metals/lead]]
@@ -157,7 +140,6 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/antimony]]
-- [[supply-chain/aluminum-based-packaging]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

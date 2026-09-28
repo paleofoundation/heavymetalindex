@@ -56,17 +56,11 @@ App: Context only. This paper supports infant exposure and microbiome-risk frami
 
 Microbiome: Primary human infant source for arsenic-gut-microbiome association, with strongest signal in formula-fed males.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[microbiome/index]]
 - [[health/index]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-food-occurrence` disposition. The old skip was too narrow because the paper is direct a4 biomonitoring and microbiome evidence in a formula-relevant infant population.
-
-Products and ingredients are intentionally empty. The paper does not assay market infant-formula products directly in this dataset; it measures infant urinary arsenic and stool microbiome composition. Arsenic is tagged as `tAs` because the infant biomarker in this paper is total urinary arsenic, not speciated inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

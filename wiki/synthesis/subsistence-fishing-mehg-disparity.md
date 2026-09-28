@@ -76,14 +76,13 @@ The mechanism in Wu 2025 (photochemical methylation enhanced under climate chang
 - [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences. ~13,000 fish Hg samples across 164 China sites 2005-2020; random forest + SSP climate scenarios; freshwater wild fish 2.9-6.2 times higher MeHg than farmed; 51 percent of China's total fish MeHg intake from freshwater fish; 60 percent projected increase 2031-2060.
 - [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Auzier-Guimarães et al. 2025]]. *Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin*, ACS Environmental Au. PRISMA review of 36 studies 1992-2022; 143 species, 14,113 individuals, 735 mean Hg values; THQ greater than 1 in 89 percent of 129 food-fish species at basin consumption rate of 116.25 g/capita/day.
 
-## How this page was promoted
+A later reading should include subsistence-fishing studies outside the Amazon and China, individual biomonitoring from those communities, and an independent test of the climate-mediated methylmercury mechanism reported by Wu 2025.
 
-Promoted 2026-05-13 from the candidate queue at [[../data/evidence/synthesis-proposals|data/evidence/synthesis-proposals.md]]. The three anchors meet all four promotion criteria: independent A-tier sources, finding spans multiple ingredient and product pages, finding is not derivable from any single source, and relevance to the regulatory and educator audiences through the vulnerable-population framing. Re-synthesis is expected when additional non-Amazonian, non-Chinese subsistence-fishing population studies enter the corpus, when individual-level biomonitoring data from the relevant communities is integrated, or when the climate-mediated methylmercury mechanism in Wu 2025 receives independent mechanistic confirmation.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -95,7 +94,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2421921122](https://doi.org/10.1073/pnas.2421921122)</span><span class="hmi-ref-tag">Peer-reviewed</span>

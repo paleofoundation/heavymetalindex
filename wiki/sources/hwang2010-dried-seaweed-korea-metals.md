@@ -63,16 +63,6 @@ Samples were purchased as dried material and as coastal-production products from
 
 This source contributes Korean-market dried-seaweed occurrence data for total arsenic, total mercury, lead, and cadmium. It is directly relevant to seaweed-kelp-food routing, but downstream arsenic use must keep the measured `tAs` values separate from any inorganic-arsenic estimate. The paper's own discussion notes that total arsenic is not a useful toxicological substitute for inorganic arsenic.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, abstract, methods, Tables 1-4, Results, and Discussion were readable.
-- DOI `10.1080/19440040903532079`, raw handle `MFK_hwang2010`, and cite-key checks found no existing source page before creation.
-- Table 3 concentrations, Table 4 intake values, sample counts, and method LOD/trueness values were checked against extracted text and rendered PDF pages. Units are preserved as `mg kg−1 dry weight`, `µg day−1 per capita`, `µg kg−1 body weight week−1`, `µg kg−1 body weight day−1`, `ng`, and `µg ml−1`; no conversion was performed.
-- Speciation: arsenic is total arsenic (`tAs`) and mercury is total/unspecified Hg (`tHg`). The paper discusses inorganic arsenic comparator values but does not report measured inorganic arsenic occurrence.
-- Brand firewall: no sampled product brand values were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Source-internal discrepancy noted: the abstract reports weekly intakes of `0.11`, `0.65`, and `0.45 µg kg−1 body weight week−1` for total mercury, lead, and cadmium, while Table 4 reports `0.010`, `0.658`, and `0.472`. The Pb and Cd abstract figures are consistent with Table 4 to rounding; the abstract's tHg `0.11` value is ten times the Table 4 value (`0.010`) and is almost certainly a typo in the abstract. The page uses the Table 4 values throughout.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

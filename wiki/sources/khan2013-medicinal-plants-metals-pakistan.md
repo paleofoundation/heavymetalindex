@@ -71,7 +71,7 @@ The study area was a sub-urban area of Kallar Kahar, Chakwal District, Punjab, P
 
 The paper contributes Pakistan occurrence data for medicinal-plant raw materials, with a compact two-site table for Pb, Ni, Cd, and total Cr. The paired soil rows can support collection-context and soil-to-plant notes, but the product occurrence evidence is the Table 5 medicinal-plant concentration table.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -80,16 +80,6 @@ The paper contributes Pakistan occurrence data for medicinal-plant raw materials
 - [[metals/nickel]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09 found no existing source page for DOI `10.5897/AJPP2012.1894`, raw handle `MFK_khan2013`, or cite key `khan2013-medicinal-plants-metals-pakistan`.
-- All Key numbers values were re-checked against Tables 4 and 5 in `/tmp/hmi-june9-101.txt` extracted with `pdftotext -layout`. The plant and soil values are copied exactly, including trailing zeros where printed.
-- Units are preserved as `mg/kg`, the unit printed in the abstract and table titles. No conversion to ppb or dry-weight normalization was performed.
-- Speciation check: chromium is total Cr by AAS; the paper does not report Cr-VI. Arsenic and mercury are not measured.
-- Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
-- Brand firewall check: no commercial brands or producers are reported.
-- Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in the editorial record. Exact species names such as *Dodonaea viscosa*, *Withania somnifera*, *Solanum nigrum*, *Calotropis gigantea*, *Mentha spicata*, *Paganum hermala*, *Cannabis sativa*, and *Adhatoda vasica* do not all have closed ingredient slugs, so they remain in table text and matrix descriptions only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

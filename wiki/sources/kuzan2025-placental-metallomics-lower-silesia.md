@@ -67,21 +67,6 @@ Instrument: Agilent 5110 SVDV ICP-OES (synchronous vertical dual view) with 1.8 
 
 **App:** Not directly applicable. Placenta is not a food matrix and this study does not report consumption-side exposure data.
 
-## Verification notes
-
-2026-05-18 — Major merge-enhance rewrite of an earlier version of this page that contained multiple non-source-traceable claims. Corrections, each verified against the source PDF:
-
-- **Authors.** Prior page listed "Kuzan A, Kula A, Kula P, Piatek L, Rybak Z, Timler D"; these names do not appear in the paper. Corrected to the actual author list: Kuzan A, Królewicz E, Kardach M, Rewak-Soroczyńska J, Kowalska M, Moleda A, Wiglusz RJ.
-- **Title.** Prior page used a truncated/incorrect title ("…Maternal Blood Parameters"). Corrected to the published title ("…Maternal and Neonatal Parameters: A Cross-Sectional ICP-OES Study in Lower Silesia").
-- **Metals list.** Prior page included Se and Sr; neither element is analysed or mentioned in this paper. Prior page omitted Cr, which is one of the eleven analytes. Corrected to the actual list: Cd, Pb, Ni, Co, Cr, Ca, Mg, Fe, Mn, Cu, Zn.
-- **raw_path.** Prior path pointed to a file that does not exist in the archived source file. Corrected to the actual filename.
-- **Sample population.** Prior page described the cohort as "singleton uncomplicated pregnancies, gestational age 37–42 weeks". The paper's inclusion criterion is 22–42 weeks (not 37–42), and the cohort includes diabetes (30.3%), hypothyroidism (21.2%), PROM (12.2%) and nicotinism (9.1%), so "uncomplicated" is incorrect.
-- **Delivery mode counts.** Prior page reported "21 vaginal, 12 caesarean". Paper reports 2 spontaneous (6.1%) and 31 caesarean (93.9%) — essentially reversed.
-- **Mean placental concentrations.** Prior page included a column of "Mean (if detected)" values (1,456 µg/g Ca; 337 µg/g Mg; 1,289 µg/g Fe; etc.). The paper does not publish per-element summary means or SDs; these numbers do not appear anywhere in the source. Removed.
-- **Methods details.** Prior page asserted: biopsies from "the central cotyledon", "freeze-dried", digested with "HNO₃/H₂O₂", "Anton Paar Multiwave 5000", "matrix-matched external calibration", and CRM validation with "NIST SRM 1577c bovine liver". None of these specifics appears in the paper. Corrected methods to what the paper actually states: deionised-water rinse ×3, air-dried two hours, 25 mL 1 M HNO₃ in Teflon vessel, microwave reactor 90 min at 25 atm / 250 °C; no CRM, internal standard, or matrix-matched calibration reported.
-- **Statistical analysis.** Prior page listed "Pearson and Spearman correlations; Student's t-test for delivery mode comparison". The paper uses Kendall's Tau-b (for hospitalisation length and Apgar), Spearman (for other continuous variables), and point-biserial correlation / logistic regression (for binary outcomes). No Pearson, no t-test on delivery mode.
-- **Units.** Prior page reported all detected-element concentrations as "µg/g dry weight". Paper reports Ca, Mg and Fe in mg/g of tissue and Cr, Cu, Mn, Zn in µg/g of tissue; "dry weight" is not the reporting basis (samples were air-dried rather than freeze-dried).
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

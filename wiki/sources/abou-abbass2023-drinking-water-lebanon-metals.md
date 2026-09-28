@@ -51,19 +51,12 @@ App: The paper supports a location-specific water contamination signal, but with
 
 Microbiome: No microbiome endpoint was measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-- The PDF repeatedly discusses pollution in both pipeline and bottled water, but the numeric tables are site-level drinking-water summaries rather than product-labeled bottled-water records. Routing should therefore remain broad drinking-water context unless a later source recovers sample-type rows.
-- The arsenic mean is internally inconsistent: the text states 0.007 ppm, while Table 5 gives 0.07791 ppm. The table value is recorded in Key numbers because the table is the structured result field.
-- The paper carries parallel text-vs-table inconsistencies for the major cations: Section 3.2 text reports a sodium mean of 118.2509 ppm and a calcium mean of 95.6426 ppm, while Table 4 gives 129.3 ppm and 105.4 ppm respectively. Key numbers cite the Table 4 values for the same reason as arsenic.
-- Arsenic and mercury are routed as total species because the ICP-OES method does not provide speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

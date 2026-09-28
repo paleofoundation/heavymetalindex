@@ -62,15 +62,6 @@ The authors measured MBT, DBT, TBT, MPT, DPT, and TPT in tissue from gastropods,
 
 This source contributes Hong Kong seafood organotin occurrence evidence for fish and shellfish. It is especially relevant to organotin tin-species routing because TPT, not TBT, dominated total organotin concentrations and drove HQ exceedances in selected fish. Downstream use should keep TPT, TBT, butyltins, phenyltins, and total organotins distinct and should not treat these values as total tin or inorganic tin.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Table 1, Results sections 3.1-3.3, figure captions, and conclusions were readable.
-- DOI `10.1016/j.marpolbul.2013.12.039`, raw handle `MFK_ho2014`, and cite-key checks found no existing source page before creation.
-- Numeric values were checked against the extracted abstract, Table 1, and Results text. Units are preserved as `µg kg−1 dry weight`, `µg kg−1 wet weight`, `g d−1`, and `kg yr−1`; no conversion was performed.
-- Speciation: the source reports organotin species (`MBT`, `DBT`, `TBT`, `MPT`, `DPT`, `TPT`), total butyltins, total phenyltins, and total organotins. This page records them as organotin tin species and does not collapse them into total elemental tin.
-- Brand firewall: no sampled seafood product brands were reported; method-side vendor names are scientific-method details only.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

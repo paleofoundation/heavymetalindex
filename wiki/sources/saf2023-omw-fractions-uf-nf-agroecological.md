@@ -81,22 +81,11 @@ Limitations: the study reports K, P, Ca, Mg and Fe as nutrients but does not mea
 - App: contributes no values to any ingredient `contamination_profile` for HMI-tracked metals. Fe is measured in the OMW fractions but the matrix is industrial wastewater, not a food.
 - Microbiome: not addressed by this paper.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/olive-oil]] — upstream supply-chain context only (OMW is the wet aqueous byproduct of three-phase centrifugation milling; this paper documents one Moroccan-French pilot-scale fractionation/valorization route).
-- [[ingredients/maize]] — fertigation context only (OMW UF retentate at 1/8 and NF permeate at 1/6 dilutions tested as irrigation source for maize; no heavy-metal transfer measured).
-- [[metals/iron]] — OMW nutrient-characterization Fe values; not contamination data.
-
-## Verification notes
-
-- Paper does not measure Pb, Cd, As, Hg, Ni, Cr, Al, Sn or any other regulated heavy metal in OMW, soil, or plant tissue. The `metals: [Fe]` source metadata entry captures the only HMI-vocabulary metal reported, and it is reported as a nutrient (mg·L⁻¹ in aqueous effluent), not as a contamination measurement in a food matrix.
-- `matrices` uses bare-string descriptors per system-prompt guidance: `olive-mill-wastewater` for the effluent and its fractions, `maize-seedling` / `flax-seedling` for the experimental plant material. None of these are food matrices.
-- Evidence tier set to **C** because the paper does not contribute direct food-contamination occurrence data for any HMI metal. It is a peer-reviewed agronomic study but its HMI-relevant content is upstream-context only.
-- No brand names appear in this paper. Equipment vendors named per Part 12 Exception 2 (Firmus pilot system, Orelis Kleansep UF membrane, Suez DK NF membrane, Ecograph T data acquisition by Endress+Hauser, HAWITA Gruppe potting soil, Murashige-Skoog medium from Duchefa biochimie, Sigma-Aldrich, BIO-RAD Bradford reagent, IBM SPSS Statistics v22).
-- DOI 10.1016/j.jenvman.2023.117467 verified against the journal-page banner on the first page of the PDF.
-- Funding acknowledged: PHC TOUBKAL program grant 19/77: 41474 PK; GESTAD UMR1347 AGROECOLOGIE INRAE Centre de Dijon (weed seed supply).
-- Audit editorial review (2026-06-01) flagged P (UFR) SD as "510 ± 10"; verified against PDF Table 3 — corrected to "510 ± 11".
-- Audit editorial review (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
+- [[ingredients/olive-oil]]
+- [[ingredients/maize]]
+- [[metals/iron]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

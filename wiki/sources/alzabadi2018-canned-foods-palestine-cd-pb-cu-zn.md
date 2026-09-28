@@ -84,7 +84,7 @@ Three replicate analyses per sample. The paper does not report LOD/LOQ values, r
 
 Direct evidence on contamination of canned legumes, canned corn, and canned mushroom marketed in Palestine. The data reflect the imported supply chain (Thailand, China, UAE, Jordan dominate the sample frame; only chickpeas had Palestinian-origin samples). Useful for contributing-source synthesis on the canned-vegetables and legumes-pulses product pages. The mg/L-vs-mg/kg unit question (see verification notes) and the absence of LOD/LOQ reporting argue for caution before treating the highest reported values as definitive per-product wet-weight concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/beans]]
 - [[ingredients/legumes]]
@@ -96,25 +96,6 @@ Direct evidence on contamination of canned legumes, canned corn, and canned mush
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- **2026-05-25 merge-enhance** (automated editorial review, autonomous ingest skill v2.0). The pre-existing version of this page (updated 2026-05-14) had multiple schema-era and content defects, all corrected in this pass:
-  - `raw_handle: manual-fetch-source-retrieval` (generic parent-folder placeholder) → `MFK_p0315-environmental-exposure-assessment-of-cadmium` per the v2 manual-fetch handle convention.
-  - `raw_path` shortened to a non-existent stub `P0315.pdf` → corrected to the full filename present in the source folder.
-  - `metals: [Cd, Pb]` → `[Cd, Pb, Cu, Zn]` (the paper's analyte list is all four; the prior source metadata omitted Cu and Zn even though they are central to the study).
-  - `ingredients` had two invented slugs (`canned-beans`, `chickpeas`) that do not exist in the current taxonomy. Replaced with the canonical `beans` and `legumes` umbrella slugs; kept `canned-corn` and `canned-mushrooms` which do exist.
-  - `products: [canned-foods]` referenced a non-existent slug. Replaced with `canned-vegetables` (covers canned corn, canned mushroom; the conventional umbrella for non-fruit non-fish canned plant foods in the current taxonomy) and `legumes-pulses-other` (covers canned beans and chickpeas as a legumes product).
-  - Added `no_doi_assigned: false`, `access_url`, and `raw_sha256` fields (absent in prior version).
-  - Expanded `sample_population` to capture the per-product origin spread and the triplicate-replicate structure.
-- **Legacy heading removed.** Prior section `## Wiki pages updated on ingest` (Part 5b system-rule violation: the model does not maintain routing by hand) replaced with the current `## Wiki pages this source may touch` form.
-- **Brand firewall (Part 12, strict reading locked 2026-05-17).** The source PDF names brand identifiers extensively (Table 1 lists per-sample brand names alongside country of origin). The prior wiki page leaked several of these into the body ("Kaseeh" canned beans, "Americana" chickpeas, "marina corn", "Delmonaty" beans). All brand identifiers stripped in this pass; country of origin retained because it is a format-relevant supply-chain descriptor, not a brand ranking. Method-section vendor names (Thermo Scientific iCE-3000, Riedel-de Haën reagent) retained per the 2026-05-17 method-vendor exception.
-- **Wiki/HMTc firewall (Part 2).** Prior Implications section contained certification-facing guidance ("this source should be used with caution as a secondary reference"; "heavier reliance on sources with explicit mg/kg reporting and validated LODs is recommended"), course-facing language, and app-facing risk advisories. All deleted; the new Implications section reports what the data are useful for (synthesis input) and flags the unit-basis caveat as a methodological observation, without proposing HMTc thresholds or consumer translations.
-- **Paper-internal Cu-range discrepancy (typesetting, not data-integrity).** The abstract gives Cu range 0.79–3.97 mg/L; the discussion paragraph on page 3 gives 0.79–2.97 mg/L; Table 1 maximum Cu value is 3.25 mg/L (UAE-origin canned beans). Both the abstract and discussion text appear to be transcription errors; Table 1 is authoritative. The Key numbers section reports 0.79–3.25 mg/L as observed from the table and footnotes the prose-text discrepancy.
-- **Cd reverse-engineered mg/kg estimate withdrawn.** The prior page asserted that on a mg/kg-food basis the highest Cd (0.322 mg/L × 10 = 3.22 mg/kg) "would indicate severe contamination that far exceeds any known regulatory limit." The 5 g → 50 mL dilution factor is correct, but the paper itself reports throughout in mg/L without performing this conversion, and the abstract/conclusion frame the result against mg/L permissible-limit references. The mg/L-vs-mg/kg reconciliation belongs in Part 9 synthesis on the relevant ingredient and product pages, not in this source page. The mg/L value is reported here as the paper reports it; the basis caveat is flagged.
-- **Speciation.** No speciation performed; total Cd, Pb, Cu, Zn only. source metadata uses unspeciated metal symbols accordingly.
-- **LOD/LOQ.** Not reported in the paper. Two mushroom Cd values and two bean Pb values are listed as "ND" in Table 1; the practical detection floor is not stated.
-- **Sample-size limitation.** n=16 (4 per product type) from a single supermarket on a single occasion. The authors acknowledge this as a baseline study limitation; treat reported ranges as indicative rather than representative of the Palestinian canned-food supply chain.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

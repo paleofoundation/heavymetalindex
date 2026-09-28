@@ -75,7 +75,7 @@ Samples purchased fresh from four commercial centers in Iasi, Romania, Novemberâ
 
 **App:** The contamination profile for processed pork products (sausage, salami) is meaningfully higher for both Pb and Cd than for less-seasoned bacon and ham in this dataset. Ingredient-to-risk mapping should treat heavily seasoned processed pork products as distinct from minimally seasoned pork products when source evidence supports that distinction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat]]
 - [[ingredients/meat-and-poultry]]
@@ -90,12 +90,6 @@ Samples purchased fresh from four commercial centers in Iasi, Romania, Novemberâ
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash and aligned ingredients/products to existing taxonomy slugs.
-- Numerical values were checked against Tables 1-4 in the PDF. The page reports the paper's product-type means; Table 2 ranges show some individual Cd values below 0.1 mg/kg despite the paper's conclusion language that all samples contained Cd above the maximum level.
-- Legal-limit statements are retained only as paper-cited comparators. Do not use this page as a current EU limit source without checking the regulation page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

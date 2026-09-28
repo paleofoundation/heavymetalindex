@@ -90,7 +90,7 @@ Cd exceeded the EFSA TWI for approximately 30% of infants and toddlers, and iAs 
 
 The study does not provide per-product concentration distributions usable as a Path A occurrence dataset. TDS pooling and left-censoring make its values most appropriate for documenting exposure context and identifying analytes that merit continued monitoring, with explicit caveats that the reported formula concentrations are pooled-sample upper-bound means.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[ingredients/infant-formula-ingredients]]
@@ -104,14 +104,6 @@ The study does not provide per-product concentration distributions usable as a P
 - [[metals/zinc]]
 - [[metals/mercury]]
 - [[regulations/eu-2023-915-cadmium]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, replaced invalid matrix `powdered-formula` with `infant-formula-powder`, corrected the Zn/UL statement to reflect that no UL is established for infants under one year and that the 93% UL comparison applies to toddlers, clarified the iAs conversion-factor method for infant formula, replaced the invalid EU regulation link with `eu-2023-915-cadmium`, and tightened HMTc implication language away from certification-analyte justification.
-- Merge-enhance (Claude, 2026-05-18, v2.0 manual-fetch skill): added `Mn` and `Zn` to `metals:` to route this source to the manganese and zinc pages (paper provides exposure-vs-HBGV findings for both that were previously missing from Key numbers); added Cr, Mn, and Se exposure paragraphs to Key numbers covering the EFSA TDI / safe-level-of-intake / UL comparisons reported in Tables 5–6; verified per-table that all numbers match the source. Brand-firewall recheck under the strict 2026-05-17 reading: page body and Methods name no brands attached to contamination values; the only corporate string is the "DMA-80" Hg analyzer model, which is the Exception 2 scientific-method carve-out.
-- Audit editorial review (editorial review, 2026-05-18) flagged toddler Mn P95 as 2.68 mg/day when Table 5 reports 2,348 µg/day = 2.35 mg/day; verified against source — corrected to 2.35 (the 2.68 figure was the European-average upper-bound from the paper's Discussion, not the present study's own P95). Same audit flagged the "Wiki pages this source may touch" bulleted list as inconsistent with the post-2026-05-18 `metals:` source metadata (missing `chromium`, `manganese`, `zinc`, `mercury`); propagated the four routing bullets to match. iAs attribution-slip and `dietary-intake` matrix concerns noted but left as-is (cosmetic pattern consistent across other analyte bullets; matrix string benign).
-- Manual-fetch recheck (Codex, 2026-05-18) updated the legacy `raw_handle`, added DOI access URL and SHA-256 provenance, added `Se`/`iHg` to the analyte list because the paper reports selenium exposure and converts total Hg to inorganic-Hg exposure, and rewrote the legacy Certification/Courses/App implications into source-evidence context only. No `metals/selenium` link was added because the current wiki has no selenium metal page.
-- Fresh-context audit (automated editorial review Hume, 2026-05-18) returned REVISE. Applied the verified findings: corrected the intro sentence that wrongly grouped Mn with the ~20% formula-contribution analytes (source Table 5: iAs 18%, Cr 19%, Ni 20%, Mn 7%, Zn 64% for infants), clarified that the Key numbers parenthetical contribution percentages are source-reported Table 5 proportions, and softened the Methods description so only the special-medical-needs subsample is described as cow-milk-based per source p. 3. Also changed routing from the non-soy powder row to generic `infant-formula-powder` because the source does not clearly resolve the soy/non-soy split.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

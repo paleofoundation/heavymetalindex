@@ -47,17 +47,12 @@ Rice was grown to maturity in growth chambers with standard mineral fertilizer, 
 
 The source supports rice-grain arsenic speciation context and helps explain treatment/soil-process drivers. Because this is a controlled chamber study, values should be kept separate from retail-market benchmark pools unless governance admits greenhouse/chamber-grown grain.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1007/s12403-023-00563-y and the downloaded PDF.
-- The paper reports arsenic species; inorganic arsenic and DMA are kept separate.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

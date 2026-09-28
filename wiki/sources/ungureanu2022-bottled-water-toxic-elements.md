@@ -51,7 +51,7 @@ Courses: The paper is useful for explaining how bottled-water contamination can 
 
 App: The study supports bottled-water and mineral-water evidence surfaces, with the key caveat that results are Romanian/EU-market data from 2019-2021.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/bottled-drinking-water]]
 - [[products/mineral-water]]
@@ -61,12 +61,6 @@ App: The study supports bottled-water and mineral-water evidence surfaces, with 
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- The source title page reports publication in 2022 even though the auto-fetched filename includes 2023.
-- Table 1 appears to print unusually large uncertainty values for several means, including Pb and Cd. This page preserves the table text and separately records the authors' detection-rate and exceedance statements.
-- The paper measures total chromium only; it does not provide Cr(VI) speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

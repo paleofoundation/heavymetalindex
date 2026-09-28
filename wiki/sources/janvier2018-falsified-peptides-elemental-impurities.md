@@ -62,23 +62,9 @@ Elemental impurity analysis used three platforms: an Agilent 8800 triple-quadrup
 - The iAs speciation result is the load-bearing toxicological point: it elevates the concern well beyond what total-arsenic screening alone would imply, and it routes to [[metals/arsenic]] as confirmed inorganic-As occurrence in a self-injected product.
 - Supports a certification/screening case for elemental-impurity testing of unregulated injectable peptides against ICH Q3D parenteral limits.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/research-chemicals-peptides-sarms]] — confirmed iAs exceedances (>10× ICH) in injectable research peptides.
-- [[metals/arsenic]] — inorganic-arsenic occurrence (1660–12,890 ppb) in a self-injected product; speciation-confirmed.
-- [[metals/lead]] — single-sample ICH parenteral exceedance.
-
-## Verification notes
-
-- Concentrations and exceedance counts from Section 3.3 ("Screening for elemental impurities") and Table 2 (ICH Q3D element panel, ppb). The 1660–12,890 ppb arsenic range and "six samples exceed, >10× limit" are stated explicitly in the text; the speciation result ("all arsenic was present as inorganic arsenic") is reported with the supporting HPLC-ICP-MS data noted as not shown.
-- Speciation: this is one of the few sources with confirmed inorganic-As (iAs), not just total As — recorded in `metals` as both iAs and tAs, with iAs the operative finding.
-- Vendors are anonymized ("vendor X/Y/Z", "three illegal internet pharmacies"); no brand names are reproduced (Part 12).
-- Cadmium was measured with no exceedance; mercury and nickel could not be assessed for exceedance due to insufficient sample material, so their absence here is a detection-limit gap, not a clean result.
-- `metals:` was expanded on the 2026-06-08 merge-enhance pass to include Cu, Ag, and Ba — each of which the paper reports as having one or more samples above the ICH Q3D parenteral limit (Section 3.3). The prior list ([iAs, tAs, Pb, Cd]) omitted the three non-Class-1 exceedances. V was excluded because the authors flagged 130 % trueness from unresolved interference, so V results are not reliable.
-- `matrices:` values (`research-peptide`, `injectable-peptide`, `falsified-medicine`) are outside the standard food-matrix vocabulary in the editorial record. They are kept because this paper sits outside the food/supplement scope the vocabulary covers — these are falsified injectable medicines acquired from illegal internet pharmacies — and the descriptors are the most accurate available. Flagging here for vocabulary-list review when peptide/injectable-medicine coverage is consolidated.
-- 2026-06-08 merge-enhance pass also expanded the Methods section to specify the three analytical platforms used (Agilent 8800 triple-quad ICP-MS, Varian 820 ICP-MS with H₂ for Pb, AMA 245 mercury analyzer for Hg) and the second reference material (NMIJ 7532a brown rice flour for As speciation). The prior text described all elemental work as generic "ICP-MS" and named only NIST 1573a.
-- 2026-06-08 autonomous-audit application: (a) removed a cross-source synthesis bullet under `## Implications` that compared this paper's findings to `craven2025-aas-heavy-metals-australia` — cross-paper synthesis belongs in Part 9 output, not on a source page; (b) replaced an unfilled "(Cu limit)" placeholder in the Key numbers table with "ICH Q3D Class 3 parenteral limit" (specific µg/kg value not verified in the body text and Table 2 only renders the threshold row at low fidelity in this PDF, so the table descriptor is kept qualitative).
-- Product slug `research-chemicals-peptides-sarms` exists in the linked reference record as of 2026-06-08 but is not in the 2026-05-18 taxonomy snapshot (snapshot is stale). The slug is real; flagging for snapshot refresh, not for slug correction.
+- [[metals/lead]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

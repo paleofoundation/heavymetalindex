@@ -48,7 +48,7 @@ Supports a local cultivation-system comparison and the soil/irrigation pathway. 
 
 Evidence Fitness: EF-2 for qualified comparative occurrence; EF-3 for the exposure model. Preserve summary statistics; require commodity-by-element data and basis clarification before narrower row admission.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/lettuce]]
 - [[ingredients/celery]]
@@ -59,12 +59,6 @@ Evidence Fitness: EF-2 for qualified comparative occurrence; EF-3 for the exposu
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Novel matrix labels vegetables and irrigation-water identify produce and environmental water separately. No speciation inferred. Tables govern the pooled means; §3.3 fold-change statements do not consistently reproduce its displayed combined means. Figure/text overlap on PDF p 10 is not a second observation. Supplement Table S 6 is referenced but absent from this preserved PDF. Source-reported legal comparisons are not verified regulatory instruments.
-
-The preserved Library PDF is identified by `RPHMI_5`; SHA-256 `cefb5b37b00cd83762a899dbc904479c63e57baf682c738ae63dc3ffb7d4001a`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://europepmc.org/api/getPdf?pmcid=PMC11049364. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

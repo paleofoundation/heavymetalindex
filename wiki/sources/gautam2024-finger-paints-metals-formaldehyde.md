@@ -127,7 +127,7 @@ Courses: The report is a useful case study for regulatory affairs and product-sa
 
 App: If a children's art-material exposure card is built, this source can supply route and parameter context for finger-paint dermal/oral exposure scenarios. It should not surface named recalled products next to contamination values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/art-craft-materials]]
 - [[products/toys-crafts-other]]
@@ -141,16 +141,6 @@ App: If a children's art-material exposure card is built, this source can supply
 - [[metals/cobalt]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; Tables 1-6, 8-11, the executive summary, and the conclusions were checked against this page.
-- Identity checks before creation: exact title, report number `FW24026`, raw handle `MFK_cat21-04-formaldehyde-heavy-metals-finger-paints`, raw SHA-256 `b99c26343a2bf6d5b49ec27ce6e63835ebee108006157c09ca5ab2570737e4d8`, and candidate cite key `gautam2024-finger-paints-metals-formaldehyde` were searched in the linked reference record and the structured evidence record; no existing source page was found. DOI is not assigned on the report landing page, so `no_doi_assigned: true` is set with the PHF Science/ESR access URL.
-- Units are copied as printed (`mg/kg`, `mg/kg bw/day`, `g`, `mg`, `%`, and MOS unitless values). No unit conversion was performed.
-- Speciation: the report writes arsenic as `As`, not inorganic arsenic, so this source page records occurrence/exposure inputs as total arsenic (`tAs`). The report discusses Cr(III) and Cr(VI) regulatory limits and skin effects, but no finger-paint occurrence input is speciated; measured `Cr` is kept as total chromium.
-- Brand firewall: Table 5 names recalled finger-paint products. This source page does not reproduce those names next to contamination values; it reports recall examples at the product-category level only.
-- Evidence tier: `A` because this is an ESR/Health New Zealand agency risk-assessment report with transparent exposure equations and regulatory tables. Its occurrence contribution is secondary/contextual, not primary market sampling.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` product routing rows (`art-craft-materials` and `toys-crafts-other`), was absent from the structured evidence record, and had only the expected nonblocking `ingredients;matrices` advisory in the structured evidence record because this is a non-food hard-goods/craft-material source with no ingredient matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

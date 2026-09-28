@@ -54,7 +54,7 @@ Courses: Useful for irrigation-water pathway training because it links pH, hydro
 
 App: Context only. The paper supports upstream water-pathway explanations, not consumer-product estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -65,12 +65,6 @@ App: Context only. The paper supports upstream water-pathway explanations, not c
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[metals/chromium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The paper is a3 irrigation-water and river-source-pathway evidence.
-
-Text extraction preserved the abstract, methods narrative, Table 3, Table 4, and captions. The heavy-metal distribution values were printed in Figure 3 rather than a text table; I transcribed only labels that were visually legible from the rendered PDF page image and explicitly marked them as deviations from the river average, not absolute concentrations. No product or ingredient routes are assigned.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

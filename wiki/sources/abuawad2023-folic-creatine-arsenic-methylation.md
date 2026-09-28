@@ -58,7 +58,7 @@ App: The source does not justify consumer-facing supplement advice by itself. It
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/formulation]]
 - [[mitigation/remediation-evidence]]
@@ -67,12 +67,6 @@ Microbiome: No microbiome findings.
 - [[products/water-filters]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- DOI, title, authors, journal, year, trial size, intervention arms, baseline water arsenic range, filter protocol, arsenic speciation method, and blood metabolite changes were transcribed from the PDF.
-- The auto-fetch filename mapped this source to water filters. The PDF is mainly a folic-acid/creatine supplementation trial, with water filters provided to all arms as exposure-source control.
-- The page keeps inorganic arsenic, MMAs, and DMAs as blood/urine biomarkers. It does not treat changes in blood metabolites as product contamination values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -91,7 +91,7 @@ App: Context for mitigation and sourcing notes. Spent mushroom residues improved
 
 Courses: Useful for teaching why agronomic yield trials must be separated from food-contaminant occurrence evidence unless the harvested crop itself is analyzed for metals.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
@@ -99,10 +99,6 @@ Courses: Useful for teaching why agronomic yield trials must be separated from f
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, Table 1 yield values, Figure 1 soil-fertility summary, Figure 2 heavy-metal relative changes and RI index, Figure 3 correlations, field-design methods, Table 2 mushroom-residue properties and application rates, soil-sampling and analytical methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source measures soil metals and residue input metals only; it does not report rice-grain or wheat-grain metal concentrations. The PDF extraction duplicates some figure captions and the peer-review layout, so numeric values were checked against the raw text where possible.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -81,23 +81,13 @@ App: No `contamination_profile` blocks are touched. No food, ingredient, or prod
 
 Microbiome: Rhizosphere microbes and arbuscular mycorrhizal fungi modulate metal hyperaccumulation; this is a signpost for WikiBiome federation review of soil-microbiome-metal interactions, though the paper does not develop the microbial angle itself.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/nickel]]
 - [[metals/cobalt]]
 - [[metals/manganese]]
 - [[metals/lithium]]
-- [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-- Evidence tier set to C, not B. The journal (Science of the Total Environment) is a strong peer-reviewed venue and the authors (van der Ent, Echevarria and colleagues) are the leading agromining group, but the article is a perspective with no primary measurements and no systematic methodology. It is treated as context / lead-level for the agromining-mechanism story, not as measurement evidence. Tier reflects study design, not venue.
-- Not open access. The PDF is © 2022 Elsevier B.V., all rights reserved. Only the quantitative claims and the authors' framing are summarised here; the full text is not reproduced. Numeric values are preserved as printed in the source.
-- `metals:` includes Co, Mn and Li, which are not HMT&C analytes, because the paper addresses all four metals. Only nickel is both an HMT&C analyte and a food-contamination-relevant element; Co, Mn and Li are carried for completeness and to route to their respective metal pages.
-- `ingredients: []` and `products: []` are correct and are not a Part 5 missing-products defect. This is a supply-chain / mechanism source that reports no food, ingredient, or product occurrence, mirroring the handling of [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]].
-- No brand names appear in the source.
-- Part 2 direction-of-edit check: this ingest adds upstream mechanism literature and neither softens nor strengthens any HMT&C threshold claim. The edit moves toward the literature (it deepens the mechanistic basis for why food crops carry the metals they do); it does not move toward HMT&C convenience.
+- [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

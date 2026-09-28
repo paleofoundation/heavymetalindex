@@ -156,16 +156,6 @@ Microbiome: Not addressed in this review.
 - [[products/canned-fish]]
 - [[products/canned-vegetables]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Corrected the prior Pb baby-food line: Table 1 lists candy at 0.1 mg/kg and proposed FDA baby-food Pb at 0.01 mg/kg, not a baby-food range of 0.10/0.01 mg/kg.
-- Corrected the prior Cd grouping: Table 1 lists legumes at 0.10 mg/kg, while fish/seafood and meat excluding offal are 0.05 mg/kg.
-- Clarified that the Codex tin 150/250 mg/kg values come from the review's tin narrative rather than Table 1.
-- Replaced invalid regulation wikilinks with existing or newly created regulation anchors.
-- The Codex tin regulation slug was created during this ingest under the current Part 10 regulation-page rule, so it may not yet appear in the static taxonomy snapshot used by audit agents.
-- Strict brand-firewall check: no consumer brand or manufacturer names are named. Method database and agency names are retained.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

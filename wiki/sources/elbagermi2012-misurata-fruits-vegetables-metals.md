@@ -69,7 +69,7 @@ A total of 250 fruit and vegetable samples were purchased from several local sup
 
 This source contributes Libya-market occurrence evidence for Pb, Cd, Zn, Cu, Co, and Ni in fresh fruit, leafy vegetables, non-root vegetables, and root/tuber vegetables. The dry-weight basis should be kept separate from wet-weight or as-consumed produce datasets unless a documented conversion is added. The source does not support arsenic, mercury, methylmercury, inorganic arsenic, or chromium-speciation claims.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fruits]]
 - [[ingredients/vegetables]]
@@ -85,15 +85,6 @@ This source contributes Libya-market occurrence evidence for Pb, Cd, Zn, Cu, Co,
 - [[metals/copper]]
 - [[metals/cobalt]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Table 1 instrument conditions, Table 2 concentration data, Table 3 intake estimates, discussion, conclusion, and references.
-- DOI verified from the first page as `10.5402/2012/827645`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 2 concentration values and Table 3 intake values were checked against the extracted text. Units are copied as `mg/kg or ppm`, `μg/day`, and `mg/day`; no conversions were made.
-- Source-internal inconsistency: the abstract reports the Zn range as 0.042-11.4 mg/kg while Table 2 prints spinach Zn as 16.83 ± 2.82 and also names spinach as the highest-Zn commodity. This page transcribes Table 2 as printed and records the abstract range separately.
-- Speciation: the paper reports only total elements for Pb, Cd, Zn, Cu, Co, and Ni. It does not report As, Hg, MeHg, iAs, Cr, Cr(III), or Cr(VI).
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

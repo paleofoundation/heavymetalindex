@@ -62,7 +62,7 @@ The study collected lupine seed and topsoil samples from Estie, Andabet, Dera, a
 
 This source adds Ethiopian lupine-seed occurrence data for the broad legumes/pulses product family, with paired soil measurements documenting a soil-to-crop pathway. Because the paper reports district-level composite means rather than individual sample measurements, downstream evidence use should retain the district and composite-sampling context. Soil-only concentrations should remain exposure-pathway context and should not be routed as edible lupine occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/legumes-pulses-other]]
 - [[ingredients/legumes]]
@@ -75,16 +75,6 @@ This source adds Ethiopian lupine-seed occurrence data for the broad legumes/pul
 - [[metals/zinc]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1016/j.jfca.2023.105218`, `MFK_occurrence-and-accumulation-of-metals-in-lupine`, or `woreta2023-lupine-seeds-metals-ethiopia`.
-- Table 4, Table 5, and Table 7 were re-opened from `/tmp/hmi-june9-052.txt` before drafting. Seed means, SDs, soil ranges, and BAF extrema are transcribed without conversion.
-- Units preserved: seed and soil concentrations remain in `mg/kg`; the source does not report wet-weight/as-consumed conversion factors.
-- Speciation: chromium is total Cr by FAAS; Cr-VI was not reported. The source does not report arsenic or mercury.
-- Matrix separation: Table 4 lupine seed values are product occurrence values; Table 5 soil concentrations and Table 7 BAF/MAI values are retained as pathway context only.
-- Missing slug note: the taxonomy snapshot has no exact `lupine` or `lupine-seeds` ingredient/product slug. source metadata uses the broad existing `[[ingredients/legumes]]` and `[[products/legumes-pulses-other]]` slugs.
-- Brand firewall: no commercial brands were present. Instrument and reagent vendor names are methods details rather than product contamination values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

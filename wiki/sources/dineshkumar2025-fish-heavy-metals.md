@@ -52,7 +52,7 @@ Courses: Useful for explaining why whole-organism or organ values cannot be sile
 
 App: Can inform seafood context if species and edible portion are retained.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fresh-fish]]
@@ -71,10 +71,6 @@ App: Can inform seafood context if species and edible portion are retained.
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The paper reports total-element values on a dry-weight basis (1 g dried tissue digested). Downstream extraction must preserve tissue type, retain the dry-weight basis flag, and route Snapper rows to predatory product pages and Sardine/Mackerel rows to non-predatory product pages. Organ means cannot be silently pooled with fillet (muscle) means.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

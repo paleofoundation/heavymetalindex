@@ -66,24 +66,10 @@ Courses: Useful as a single orienting reading for the rice-Cd plant-science stor
 
 App: No occurrence or consumption-anchored values for the rice ingredient profile. Does not contribute to `contamination_profile` typical/p95 fields.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Source PDF: the archived source file. The auto-fetched filename slug (`mineral-water-cd-product`) is incorrect for this paper — the paper is a rice-Cd plant-science review, not a mineral-water occurrence survey. The slug was assigned upstream by the discover-skill harness against a Cd × product gap query and is preserved in `raw_handle:` and `raw_path:` for provenance only; source metadata `matrices:`, `ingredients:`, and `products:` reflect the actual content (rice, plant-tissue, soil; rice ingredient; no products). No mineral-water content in this paper. Same "mineral-water-cd-product" filename pattern as `mostofa2015-rice-h2s-cd-tolerance` in this folder.
-
-Evidence tier B reflects the peer-reviewed narrative-review character — substantive Cd-in-rice synthesis with traceable cited primary sources, but no original measurements and no systematic-review methodology. The tier is downgraded from A because all numerical anchors are secondhand; it is held above C because the review is peer-reviewed in an indexed journal and the consolidated source set is correctly attributed to its primary literature.
-
-No brand-attributed contamination data. No HMT&C-program brands named. Discussion of agronomic countermeasures (soil dressing, silicon, phosphorus, zinc, sulfur, chloride, industrial by-products, phytoextraction with sorghum and kenaf) names reagents and methods without vendor brand attribution; nothing to redact under Part 12.
-
-Cadmium is reported throughout as total Cd; no inorganic vs. organo-Cd speciation is performed. This is not a defect — Cd is non-redox and predominantly Cd²⁺ in plant tissue and soil solution under the conditions discussed. Mercury and arsenic speciation flags do not apply (those metals are not the topic).
-
-Tables and figures: Table 1 (QTL analysis of cadmium concentration in rice, p.97) was read in full; the QTL rows are summarised above and were cross-checked against the cited population, marker interval, and reference fields. Figure 1 (p.96, Cd transport schematic) is reproduced from Uraguchi and Fujiwara (2012) and contributes no original data.
-
-Audit editorial review (2026-05-30) flagged the >80%-root-Cd attribution as ambiguous between Cui 2004 and Cui 2008; verified against PDF p.96 — Fasahat cites "(Cui et al., 2004; Liu et al., 2007;...)" for the >80% claim, while Cui 2008 is cited only for the adjacent "higher Cd remains in roots" statement. Wiki Key numbers corrected from "Cui et al., 2008" to "Cui et al., 2004" for the >80% figure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

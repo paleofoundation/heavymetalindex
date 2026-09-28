@@ -42,10 +42,6 @@ This page records a historical Chinese regulatory comparator. It does not set HM
 - National Health Commission. Interpretation of GB 2761-2017 and GB 2762-2017, published 14 April 2017. Source URL: https://www.nhc.gov.cn/zwgk/jdjd/201704/ee3109697fa24ee4bb7a1030c924f406.shtml
 - USDA Foreign Agricultural Service. China releases GB 2762-2022, noting that the 2022 standard updated the 2017 version and entered into force on 30 June 2023. Source URL: https://www.fas.usda.gov/data/china-china-releases-standard-maximum-levels-contaminants-foods-0
 
-## Verification notes
-
-- Created 2026-05-18 as the successor link for the superseded GB 2762-2012 page created during the Liang et al. 2019 ingest.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -56,21 +56,12 @@ Courses: The paper is a strong example of source-pathway attribution: the study 
 
 App: The source can support game-meat lead explanations that distinguish fragment detection in packages, lead mass in excised fragments, and post-ingestion blood-lead response.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/meat]]
 - [[ingredients/meat-and-poultry]]
 - [[products/game-meats]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_582.txt`; the abstract, Methods, Results, Figure 1 caption, Figure 2 caption, and Discussion were checked against this page.
-- DOI `10.1371/journal.pone.0005330`, title text, raw handle `MFK_lead-bullet-fragments-in-venison-from-rifle-killed`, and candidate cite-key `hunt2009-lead-bullet-fragments-venison` were searched before creation; no existing source page was found.
-- Units and basis were preserved as the source reports them: fragment mass in `mg`, tissue detection limit in `µg/g`, package weights in `2-pound (0.91 kg)`, and blood lead in `µg/dL`; no unit conversion was performed.
-- Speciation: the study concerns elemental lead in ammunition fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
-- Brand firewall: the source states that cartridges came from a single locally common brand but does not name that brand in the extracted text. No brand names are attached to contamination values.
-- source metadata slugs were checked against the editorial record. The taxonomy has `game-meats` as a product slug but lacks exact `venison` or `game-meat` ingredient slugs, so ingredients route through broad `meat` and `meat-and-poultry`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

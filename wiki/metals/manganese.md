@@ -77,7 +77,7 @@ Manganese is an essential nutrient rather than one of the priority toxic metals 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/astolfi2021-italy-powdered-infant-formula-elements|Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment]]<span class="hmi-ref-meta">Maria Luisa Astolfi, Daniela Marotta, Vittoria Cammalleri, Elisabetta Marconi, Arianna Antonucci, Pasquale Avino, et al. · International Journal of Environmental Research and Public Health · 2021 · [doi.org/10.3390/ijerph18105073](https://doi.org/10.3390/ijerph18105073)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
