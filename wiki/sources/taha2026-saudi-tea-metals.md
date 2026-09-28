@@ -45,7 +45,7 @@ The study analyzed commercial tea samples imported into Saudi Arabia. The source
 
 The source supports tea occurrence gaps for Al, Mn, Pb, Cd, and total As in a Saudi-market sample set. It is especially useful for flagging wide Pb variation across imported tea samples.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[products/true-tea-camellia-sinensis]]
@@ -54,10 +54,6 @@ The source supports tea occurrence gaps for Al, Mn, Pb, Cd, and total As in a Sa
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-Brand names from the source are intentionally not transcribed. Arsenic is treated as total arsenic because the source does not separate inorganic arsenic species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -91,21 +91,12 @@ The preparation experiment soaked `5 g` dried hijiki in `20 mL` pure water for `
 
 This source is a primary hijiki occurrence and preparation study. It reinforces that hijiki can carry high total arsenic with a large measured inorganic fraction, and it provides dry-weight source-region/speciation values useful for seaweed-kelp-food evidence routing. The soaking/cooking results are preparation-context values: they document source-measured arsenic removal into water and cooking liquid, but they should not be converted into a consumer-facing safety claim or an HMTc threshold.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1002/aoc.1102`, raw handle `MFK_ichikawa2006`, title text, or cite key `ichikawa2006-hijiki-cooking-arsenic`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-035.txt`, extracted with `pdftotext -layout`. Tables 2, 3, and 4 are transcribed in source order, including `N.D.`/`ND` censoring and parenthetical percentage values.
-- Units and bases are preserved as `µgAs/g, dry weight`, `%`, `w/w`, `mL`, `min`, and `°C`; no unit conversion was performed.
-- Speciation check: As(V) and As(III) are recorded as inorganic arsenic species; DMAA and arsenosugar are kept separate and are not collapsed into iAs or tAs.
-- Brand firewall: no brand-linked values are reported. The Hijiki Cooperative Society Japan is a sample supplier, not a consumer brand comparison.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki/*Hijikia fusiforme* remains in source text while source metadata uses broad seaweed/kelp food slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

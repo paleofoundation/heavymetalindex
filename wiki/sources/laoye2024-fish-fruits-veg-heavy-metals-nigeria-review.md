@@ -60,7 +60,7 @@ Courses: Illustrates how industrialization and inadequate environmental regulati
 
 App: Contextual regional signal for Nigerian-sourced freshwater fish (Pb/Cd), vegetables from irrigated sources (tAs), and less-characterized fruit contamination.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -78,12 +78,6 @@ App: Contextual regional signal for Nigerian-sourced freshwater fish (Pb/Cd), ve
 - [[ingredients/vegetables]]
 - [[ingredients/fruit]]
 - [[products/fresh-fish]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected the Ogun location typo to 7 studies, removed unsupported `iAs`, removed invalid `tilapia` and `catfish` slugs, and expanded the metal scope to match the review's results sections.
-- `tilapia` and `catfish` are source-level species descriptors in the review, but they are not current ingredient slugs; this page routes them through `[[ingredients/freshwater-fish]]`.
-- The review discusses arsenic and mercury without occurrence speciation; this page uses `tAs` and `tHg` rather than `iAs` or `MeHg`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

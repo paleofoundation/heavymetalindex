@@ -56,7 +56,7 @@ Courses: The paper is a useful example of preserving species labels: arsenic is 
 
 App: The source can support beef and organ-meat context for Egypt, including tissue-specific min/max and mean ± SE values for six metals.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -68,15 +68,6 @@ App: The source can support beef and organ-meat context for Egypt, including tis
 - [[ingredients/meat]]
 - [[ingredients/organ-meats]]
 - [[products/beef-product]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_579.txt`; the title block, abstract, Sample collection, Homogenisation, wet digestion, analytical procedures, Tables I-VII, and discussion passages around each table were checked against this page.
-- No DOI was printed in the extracted text or PDF metadata. Title/author text, raw handle `MFK_heavy-metal-residues-in-beef-carcasses-in-beni`, candidate cite-key `khalafalla2011-beef-carcasses-metals-egypt`, and raw SHA were searched before creation; no existing source page was found.
-- Units and basis are copied exactly as `µg/kg fresh weight`; no conversion to `mg/kg` was performed.
-- Speciation: arsenic is reported as total arsenic (`tAs`), mercury as total mercury (`tHg`), and chromium as total chromium (`Cr`). This page does not relabel these as iAs, MeHg, or Cr(VI).
-- Brand firewall: the source reports abattoir-level cattle tissue samples and does not name brands or sellers. No brand-linked contamination values are reported here.
-- source metadata slugs were checked against the editorial record. The taxonomy lacks exact beef kidney/liver/muscle ingredient/product slugs, so tissue forms remain matrix descriptors and broad routing uses `beef`, `meat`, `organ-meats`, and `beef-product`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

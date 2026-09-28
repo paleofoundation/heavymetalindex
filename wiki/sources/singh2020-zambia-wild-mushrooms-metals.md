@@ -53,22 +53,14 @@ Samples were collected from Solwezi forests in the Copperbelt mining region and 
 - Courses: Useful case study for mining-region vs agricultural-region mushroom uptake and for why mushroom species identity matters in occurrence screening.
 - App: Supports [[ingredients/wild-mushrooms]] and [[ingredients/mushrooms]] with species-specific concentration data rather than a generic mushroom average.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/wild-mushrooms]]
-- [[ingredients/mushrooms]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Source reports total elemental concentrations for Cu, Cd, Pb, Zn, Ni, and Co; it does not measure arsenic, mercury, or chromium species.
-- products: [] is intentional because the PDF is an occurrence study of freshly collected wild edible mushrooms, not a packaged mushroom product.
-- The source cites FAO/WHO comparison values directly; this page records those as source-reported comparators and does not treat them as HMTc standards.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

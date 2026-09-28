@@ -50,7 +50,7 @@ The authors washed edible vegetable portions with distilled water, air-dried the
 - Courses: Useful case study for explaining how groundwater-adjacent drains and wastewater irrigation can both elevate metals in leafy vegetables, and why row-fit, geography, and cultivation setting must be recorded before pooling.
 - App: Supports spinach and leafy-vegetable warning/context modules for contaminated irrigation settings, especially Cd/Cu/Co signals and the child hazard-quotient discussion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spinach]]
 - [[ingredients/vegetables]]
@@ -65,15 +65,6 @@ The authors washed edible vegetable portions with distilled water, air-dried the
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-- DOI, title, author byline, year, and journal were taken from the PDF title page and metadata.
-- The paper's figures show additional vegetable-specific metal bars, including lead, but the PDF text extraction does not expose exact graph values. Structured evidence rows from this ingest therefore include only exact values stated in prose.
-- The concentration basis is dry-weight edible portion by method inference from oven-drying at 70 deg C before digestion and mg/kg reporting; the source does not explicitly print "dry weight" beside each concentration table or figure, and no source-provided fresh-weight conversion was found.
-- The abstract reports the highest copper value as 81.33 mg/kg, while the Results prose reports spinach from Site 1 at 80.33 mg/kg. This page uses the Results prose value and records the discrepancy for audit traceability.
-- The source covers leafy, root, fruiting, and bulb vegetables, but `matrices` is limited to current common matrix terms. The broader non-root and mixed-vegetable scope is carried by ingredient and product slugs.
-- This is not a retail-market or US-market survey. Route as contaminated-site / wastewater-irrigation context unless governance explicitly admits it into a separate contaminated-site sensitivity pool.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

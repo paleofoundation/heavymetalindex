@@ -68,7 +68,7 @@ App: Provides powder-basis occurrence fields for Al and Pb in commercial infant 
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/lead]]
@@ -80,13 +80,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-dairy]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula wishlist.
-- Strict brand firewall: this page reports manufacturer count and formula age groups, but does not name or rank commercial brands.
-- The paper reports total Pb and Al only; no arsenic, mercury, or chromium speciation issue applies.
-- Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

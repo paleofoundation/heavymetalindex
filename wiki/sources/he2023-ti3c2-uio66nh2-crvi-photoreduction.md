@@ -67,17 +67,13 @@ Courses: Useful for explaining Cr(VI) reduction kinetics and the difference betw
 
 App: Route to Cr(VI), chromium, titanium/materials, and testing/remediation context. Do not treat the 100 mg/L potassium dichromate challenge as drinking-water occurrence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[metals/titanium]]
 - [[testing/index]]
 - [[mitigation/index]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/catal13050876`; no DOI conflict was observed. The source reports synthetic potassium dichromate treatment experiments, not natural water, food, ingredient, or product concentrations. Titanium is part of the catalyst material, not a contaminant result.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

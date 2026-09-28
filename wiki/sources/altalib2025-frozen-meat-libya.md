@@ -82,7 +82,7 @@ Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail m
 
 **App:** Source-side inputs include beef, chicken, and lamb/processed-meat Pb means by meat type, overall Cd in the 1–2 ppb range, Cu below the study's 1.0 mg/kg reference value, and total Cr 9–83 ppb without Cr(VI) speciation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/beef]]
 - [[ingredients/chicken]]
@@ -98,14 +98,6 @@ Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail m
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/chromium-hexavalent]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0156, added full MFK raw handle/path and SHA-256 provenance, added Cu to source metadata because the paper measures Cu, replaced nonexistent `ingredients/lamb` with existing broader meat/poultry ingredient slugs, and routed the sampled food forms to existing Category 11 product pages.
-- The `matrices:` terms retain source-specific meat-cut wording (`beef-muscle`, `chicken-muscle`, `lamb-muscle`, `processed-meat`) because the common matrix list does not include a broad meat/poultry term, while sibling meat-source pages already use `beef-muscle` and `chicken-muscle` for edible muscle tissue.
-- The paper contains repeated typographical uses of "Pd" where context and tables identify Pb (lead).
-- The Results prose states that one Pb sample exceeded a "0.05 mg/kg" Libyan limit, but Table 1 and Table 2 give the Pb limit as 0.10 mg/kg; this page uses the tabulated 0.10 mg/kg value and flags the source-internal inconsistency.
-- Product slugs `beef-product`, `poultry-product`, `lamb-mutton`, and `processed-meats` exist as Category 11 routing destinations, although the GPT taxonomy snapshot had lagged this category during the initial manual-fetch pass.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

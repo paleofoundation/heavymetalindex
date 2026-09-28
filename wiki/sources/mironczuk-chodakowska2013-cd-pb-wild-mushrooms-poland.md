@@ -110,7 +110,7 @@ No speciation was performed; only total Pb and total Cd are reported. The study 
 - Courses: Useful classroom example that "uncontaminated area" does not imply uniformly low contamination across all species sharing that habitat, because Cd-binding proteins (cited for Boletus edulis from refs 11–12) and other physiological accumulation mechanisms operate independent of pollution proximity. The authors note that boiling or microwaving with water can reduce Cd content by approximately 40% (citing refs 32 and 38).
 - App: Cultivated Agaricus bisporus carries the lowest measured Pb and Cd burden (0.03 µg/g DM Pb; 0.09 µg/g DM Cd) among the three commercial species; Pleurotus ostreatus carries the highest measured cultivated-mushroom Cd at 1.20 µg/g DM (0.10 µg/g FM). Wild Boletus chrysenteron and Rozites caperatus, where reported in a wild-foraged context, justify a high-Cd flag on consumer-facing app surfaces.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[metals/cadmium]]
@@ -119,20 +119,6 @@ No speciation was performed; only total Pb and total Cd are reported. The study 
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
-
-## Verification notes
-
-- 2026-05-20 — Re-audited against PDF (the archived source file). All 18 wild-species Pb DM/FM values, all 18 wild-species Cd DM/FM values, all 3 cultivated-species Pb and Cd DM/FM values (Tables 1 and 2), all moisture-range values, and all Table 3 daily intake values verified line-by-line against the PDF — all match. Methods (ICP-MS NexION 300D PerkinElmer, Speedwave Berghof microwave digestion, 4 mL HNO3, ~0.300 g dry sample, Corn Flour INCT-CF-3 reference material, Pb LOD 0.16 µg/L, Cd LOD 0.017 µg/L, CV Pb 2.6% / Cd 3.5%) verified against page 1760. PTWI/PTMI derivations (PTWI Pb 0.025 mg/kg BW/week → 0.214 mg/day; PTMI Cd 0.025 mg/kg BW/month → PDI 0.056 mg/day for 70 kg adult, EFSA SC default BW reference 34) verified against page 1763.
-- Schema-update enhancements applied this pass:
-  - `raw_handle` migrated from the legacy `manual-fetch-source-retrieval` placeholder to the current `MFK_cadmium-and-lead-in-wild-edible-mushrooms-from-the` form.
-  - `raw_path` corrected from a truncated filename to the full PDF path including the "of Poland's 'Green Lungs'" suffix.
-  - `matrices` corrected from `[wild-mushroom, cultivated-mushroom, dried-mushroom]` to `[wild-mushroom, cultivated-mushroom]`. The drying step in this study is sample preparation for ICP-MS (air-dryer to constant mass before grinding), not the as-purchased matrix; all mushrooms were collected fresh from forest sites or purchased fresh from local food markets, with average moisture 90.8% FM.
-  - Legacy heading `## Wiki pages updated on ingest` (3 entries) replaced with `## Wiki pages this source may touch` (7 entries), adding the products and regulations routing destinations the source actually touches per the authors' own EC 629/2008 and JECFA PTWI/PTMI comparisons.
-  - Corrected an FM-basis claim. The previous revision stated "all species except Rozites caperatus (0.68 µg/g FM) and Boletus chrysenteron (0.61 µg/g FM) fall below 0.2 µg/g FM" — verified against Table 1, this is wrong: Armillaria mellea (0.53), Boletus edulis (0.31), Lactarius deliciosus (0.24), and Macrolepiota procera (0.26) all also exceed 0.2 µg/g FM Cd. The 0.2 µg/g FM limit in EC 629/2008 applies specifically to the three named cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes), not to wild mushrooms; the wild-mushroom EU limit is 1 µg/g FM. All wild values remained below the 1 µg/g FM limit applicable to them.
-- Brand-firewall compliance (Part 12 strict reading): no brand names in source-page content. "PerkinElmer NexION 300D" (ICP-MS instrument) and "Speedwave, Berghof" (microwave digester) are scientific-method vendor names per the Exception 2 carve-out and remain. "Agaricus bisporus (white)" is a species-and-form descriptor as reported by the paper, not a brand.
-- Speciation conventions (Part 14): paper measured total Pb and total Cd only by ICP-MS; no Hg, As, Cr, or Cr-VI speciation. source metadata `metals: [Pb, Cd]` matches.
-
-**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the source-retrieval agent's June 8 placement of the same PDF under the archived source file. SHA-256 verified byte-identical to the canonical `raw_path` (`169923ea1feb51b63a9dd37049d480dd8d06aef31298e5c22a2c59d45d7bc0dc`); the same hash also appears at three other source-retrieval-corruption-issue paths (`May 21 .../papers/02_Vegetables_and_Vegetable_Products/`, `June 8/.../papers/02_Vegetables_and_Vegetable_Products/`, and `manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

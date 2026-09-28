@@ -119,27 +119,9 @@ App: For Greek retail vinegars in this sample set — common vinegars: Pb median
 
 Microbiome: Not applicable.
 
-## Verification notes
+## Related evidence
 
-Page was originally drafted under the legacy `manual-fetch-source-retrieval` handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_copper-complexing-capacity-and-trace-metal-content` handle.
-- Correct the truncated `raw_path` (prior path was missing the space after "source-retrieval" and truncated the filename mid-word).
-- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated.
-- Expand `metals:` to all 16 elements the paper actually measures by ICP-MS, for documentary fidelity. The routing layer maps only HMTc-relevant abbreviations (tAs, Pb, Cd, Al, Cr, Ni, Cu) into product-row rows; the remainder (Fe, Mn, Zn, Co, Ba, Cs, Rb, Sr, V) are recorded for the page's documentary completeness, consistent with the convention used on the sibling vinegar paper [[ozbek2016-mip-oes-turkish-vinegars]].
-- Simplify `matrices:` from the prior over-granular `[balsamic-red-vinegar, balsamic-white-vinegar, wine-red-vinegar, wine-white-vinegar, apple-cider-vinegar, fruit-vinegar]` to the broadest accurate set `[balsamic-vinegar, wine-vinegar, apple-cider-vinegar, fruit-vinegar]` per the broad-scope-source metadata rule in the editorial record. Subgroup detail (BR, BRH, BW, WR, WW, F) remains in the body, which is where it belongs.
-- Add `wine-vinegar` and `apple-cider-vinegar` to `ingredients:` (the WR and WW samples are wine vinegars; the apple-fruit samples in F are apple-cider vinegars).
-- Correct the As toxicology comparison in Key numbers: the prior version wrote "BMDL0.5 of 3 µg/day," which conflated two distinct quantities and used the wrong abbreviation. The source compares the 0.40 µg/day exposure from a 15 mL vinegar serving to the JECFA-withdrawn PTDI for inorganic As of **126 µg/day** (the "≈300× lower" comparison the paper makes), with the BMRL0.5 of **180 µg/day** cited separately as the toxicological basis for withdrawing the PTDI. Corrected wording and values per source page 8.
-- Correct the Cd PTDI wording: the prior version wrote "PTDI of 3.3 mg/L for 60 kg person," which conflated the daily intake (50 µg/day) with the concentration equivalent (3.3 mg/L at 15 mL serving). Rephrased to make both quantities explicit per source page 9.
-- Replace the imprecise "California Prop 65 threshold of 34 µg/L for balsamic vinegar" with the source's actual claim: California-state maximum allowable Pb intake of 0.5 µg/day, which translates to 34 µg/L vinegar at a 15 mL serving. The source does not say "Proposition 65" specifically (the 0.5 µg/day figure is the Prop 65 MADL for Pb, but the paper does not invoke Prop 65 by name), and the 34 µg/L is not balsamic-specific (it is a general vinegar threshold; both samples that exceeded it happened to be balsamic).
-- Add the organic-carbon and pH subgroup data (OC range 17–278 mg/L; balsamic median 152 vs. common 30 mg/L; pH ranges) that the source treats as load-bearing context for the L_T results but the prior version omitted.
-- Add the total Cu range (<0.01–4.0 µM) which was missing from Key numbers; the prior version conflated total Cu with L_T (complexing capacity).
-- Expand the "other elements with significant balsamic > common differences" block to report Fe, Mn, Rb, Co, Sr, Cs medians from source page 9; the prior version named only Al, Cr, and Ni.
-- Add the L_T/OC density inter-beverage comparison (red-grape balsamic 122 nmol Cu mg⁻¹ C vs. herbal infusions 45, coffee brews 34, beers 7.3), which is one of the paper's headline findings and was absent.
-- Remove the legacy `## Wiki pages updated on ingest` heading and replace with the current `## Verification notes` structure.
-- License field corrected from "CC BY" to the source-document's stated "CC BY 4.0".
-
-Auto-audit editorial review (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 all clean. The sole ⚠️ flagged `fruit-vinegar` in `matrices:` as not present in the taxonomy snapshot. Verified against the corpus: the matrices vocabulary is documented in the editorial record as "bare strings; broad scope" with the rule that the snapshot's "common matrices" list is illustrative and category-specific extensions are accepted (the routing layer treats matrices as a free-text controlled-by-convention field, not a closed enumeration). The corpus already contains ~18 distinct vinegar-prefixed matrices slugs across other source pages (e.g., `apple-vinegar`, `grape-vinegar`, `pomegranate-vinegar`, `fig-vinegar`, `homemade-vinegar`, `date-vinegar`, `sherry-vinegar`, `malt-vinegar`, `balsamic-reduction`, `balsamic-glaze`, etc.). `fruit-vinegar` is the source paper's own subgroup label (the "F" subset comprising 3 apple + 1 pomegranate + 1 sea buckthorn) and the routing audit accepts the source with no `routing_malformed` or `routing_unresolved` entry. Finding documented as a false positive; no page change applied.
+- [[ozbek2016-mip-oes-turkish-vinegars]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

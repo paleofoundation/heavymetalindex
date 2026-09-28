@@ -44,22 +44,13 @@ Heavy metals (Hg, Pb, Cd) were analyzed using an AA240 atomic absorption spectro
 
 Certification: summary-level cashew occurrence evidence for Cd, Pb, and tHg from one Nigerian source. Not distribution-ready - it contributes one composite-sample data point per analyte. Courses: example of processed sample preparation needing basis notes (frying in oil before analysis). App: supports a Nigeria/Enugu context flag for cashew nuts.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cashews]]
 - [[ingredients/cashews]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury]]
-
-## Verification notes
-
-The PDF provides numeric heavy-metal values and author/journal/DOI metadata. It does not provide sample-level values or a clear market sample count, so this should not be treated as a distribution-ready source without additional extraction.
-
-Two caveats a hostile reviewer would seize on, both flagged for synthesis pages relying on this source:
-
-1. The Hg value (0.8013 ppm) is roughly 16x the CODEX 1995 reference (0.05 mg/kg) that the paper itself cites in Table 1, yet the paper's Conclusion states results are "within safe limits". The Cd value (0.0703 ppm) also exceeds its cited reference (0.05 mg/kg). The internal contradiction is in the source, not the wiki, but synthesis should not propagate the "within safe limits" framing.
-2. Mercury at sub-ppm concentrations is conventionally measured by cold-vapor AAS, direct mercury analyzer (DMA), or ICP-MS. The paper reports flame AAS (no cold-vapor accessory described) for Hg, which is methodologically unusual at this concentration range. The high Hg value may reflect either a real signal or analytical artifact; treat as B-tier evidence for Hg until corroborated by a cold-vapor or DMA method.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

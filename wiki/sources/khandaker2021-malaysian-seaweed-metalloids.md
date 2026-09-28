@@ -66,16 +66,6 @@ Fresh *Eucheuma cottoni* seaweed was collected from three Malaysian farming loca
 
 This source provides dry-weight occurrence data for cultivated Malaysian seaweed in the seaweed-kelp-foods product row. It is directly relevant for Pb, Cd, Al, and Ni; arsenic and chromium values are reported elementally by ICP-OES and routed as `tAs` and `Cr` rather than the source's claimed `As (III)` and `Cr-VI` species labels (see Verification notes). The paper's risk calculations are source-reported scenario estimates, not HMTc threshold calculations.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, sample preparation, Tables 1-5, arsenic-speciation discussion, and conclusions were readable.
-- DOI `10.3390/foods10020381`, raw handle `MFK_khandaker2021`, and cite-key checks found no existing source page before creation.
-- Table 3 concentration values, Table 2 LoDs, Table 1 recovery checks, Table 4 intake estimates, and Table 5 risk estimates were checked against extracted text. Units are preserved as `microgram per gram`, `µg/kg`, `mg/kg`, and `Microgram Per Kilogram/kg/Day`; no conversion was performed.
-- Speciation: the source labels the arsenic row `As (III)` and chromium row `Cr-VI` in Table 3. The analytical method, however, was ICP-OES with no chromatographic step. The arsenic-speciation discussion on page 11 acknowledges that ICP-OES provides elemental `75As` rather than a particular species and infers inorganic As(III) only by analogy to Zhao et al. [45], who used HPLC-ICP-MS on different seaweed samples. The chromium discussion on page 10 provides no chromatographic speciation evidence at all; `Cr-VI` is asserted on toxicological grounds. The `metals:` source metadata therefore routes this paper as `tAs` and `Cr` (the species the method actually measured), while the body preserves the source's own `As (III)` and `Cr-VI` labels in Table 3 transcription.
-- Source-internal anomalies preserved without correction: (a) Table 3's overall mean for Cr-VI is reported as `26.0 µg/g`, which is not consistent with the LKW/SPN/KBL location means of 40.57, 30.3, and 40.15; an n-weighted mean of the three locations is approximately 36.6, not 26.0. (b) The arsenic-speciation paragraph on page 11 states "SPN (1.6 ± 5.86 µg/g)" while Table 3 reports SPN As (III) as `6.3 ± 2.86`. Table 3 was used as the authoritative source for both values in this page.
-- Brand firewall: no sampled product brands are attached to contamination values. Instrument and standard vendors appear only in Methods.
-- source metadata slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -71,20 +71,11 @@ Total arsenic analyses were performed on dry powders, extracts, or combined sili
 
 This source adds seaweed organoarsenic speciation context for commercial Wakame and Hijiki. It should not be treated as an inorganic-arsenic occurrence paper: the quantified species are arsenosugar phospholipids, arsenic hydrocarbons, and two unidentified arsenolipid peaks. Downstream extraction should keep whole-powder tAs, lipid-fraction arsenic percentage, and named arsenolipid species distinct.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1071/EN11164`, raw handle `MFK_10-1071-en11164`, or cite key `garcia-salgado2012-brown-algae-arsenolipids`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-006.txt`, extracted with `pdftotext -layout`, and the whole-powder and Table 2 units were visually checked against rendered PDF pages because the text layer renders `µg` as `mg`.
-- Speciation check: the source reports tAs and lipid-soluble organoarsenic compounds. It does not report inorganic arsenic, so `iAs` is not used in the source metadata or Key numbers.
-- Units and basis are preserved as `µg As g-1 dry mass`, `%`, `µg As kg-1`, and `µg As g-1`; no conversions were performed.
-- Evidence tier B reflects peer-reviewed primary speciation data with exact species and QA/QC, but only two commercial materials and a rapid-communication scope.
-- Brand firewall: no sampled brands are reported. Instrument, column, and reference-material names are retained only as scientific method details.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

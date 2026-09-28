@@ -68,17 +68,13 @@ Courses: The paper is a clear example of why mushroom heavy-metal risk is specie
 
 App: The source supports the existing wild-mushroom Cd concern, especially for Boletus, Leccinum, and Xerocomus species, but it should not be applied to cultivated button mushrooms without a separate cultivated-mushroom source pool.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
 - [[products/wild-mushrooms]]
 - [[metals/cadmium]]
 - [[metals/silver]]
-
-## Verification notes
-
-The DOI, title, author list, journal, year, and open-access license were taken from the PDF first page and license statement. The PDF SHA-256 at ingest was `3cd39bcddd9479c5c348c7e630068352a9e36803461a57ba4dc53616544539ad`. Table 2 is the source of all transcribed Cd and Ag values. The source reports total Cd and total Ag by AAS; it does not report arsenic, mercury, lead, or chromium, and it does not speciate cadmium or silver. The paper contains a typo in the table species row as "Lecinum versipelle"; the source title, abstract, and surrounding text identify the species as Leccinum versipelle.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

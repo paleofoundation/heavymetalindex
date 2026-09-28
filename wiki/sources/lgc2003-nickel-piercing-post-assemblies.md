@@ -32,20 +32,18 @@ routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-inpu
 
 # LGC 2003 — Nickel Piercing Post Assemblies
 
-## Ingest Receipt
+## Document record
 
 | Field | Value |
 | --- | --- |
-| Exact paper title | Risk of sensitisation of humans to nickel by piercing post assemblies |
-| Raw file | the archived source file |
-| Raw SHA-256 | `47baa4d890c906a884a301a1395fdbfcfb42587b3faf812cf962ffd794cbd87b` |
+| Title | Risk of sensitisation of humans to nickel by piercing post assemblies |
 | Contract / reference | EC Contract ETD/FIF.2001592; Ref. Ares(2015)4242175 - 12/10/2015 |
 | Submitted by | LGC Limited |
 | Report date | 31 March 2003 |
 | Primary analyte | Nickel (`Ni`) |
-| Product categories | Stainless steel plates, stainless steel wires, finished stainless steel piercing post assemblies, ear studs, butterflies, skin-contact products under the Nickel Directive |
-| Category 1 treatment | Context only for Category 1 food/infant-product evidence. This is dermal/contact-material evidence, not food occurrence evidence. |
-| Wiki nodes connected | [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]], the structured evidence record, the structured evidence record |
+| Products covered | Stainless steel plates, stainless steel wires, finished stainless steel piercing post assemblies, ear studs, butterflies, and skin-contact products under the Nickel Directive |
+
+This report is dermal and contact-material evidence. It is not food-occurrence evidence. Related pages: [[metals/nickel]], [[products/piercing-post-assemblies]], [[regulations/eu-nickel-directive-94-27-ec]], [[testing/en-1811-nickel-release]].
 
 ## Exact Source Headings Preserved
 
@@ -177,14 +175,6 @@ The report predates later EU regulatory consolidation. The wiki regulation page 
 ## Category 1 Impact
 
 For the Category 1 build, this source strengthens the nickel page by preserving route-specific toxicology and dermal sensitisation context. It does not close any Category 1 food occurrence data gap. Nickel rows for infant/child food products still require food-matrix occurrence sources such as dietary surveys, infant-formula datasets, or baby-food analytical tables.
-
-## Wiki Pages Updated
-
-- [[metals/nickel]]
-- [[products/piercing-post-assemblies]]
-- [[regulations/eu-nickel-directive-94-27-ec]]
-- [[testing/en-1811-nickel-release]]
-- the archived source file
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

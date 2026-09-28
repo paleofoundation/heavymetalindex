@@ -123,41 +123,14 @@ App: Breast milk is not in the app's packaged-food ingredient-list model but thi
 
 Microbiome: Exposure of the infant gut to Pb, Cd, and Al during the early colonization window (0–6 months) via breast milk is relevant background for metal–microbiome interaction reviews; the colostrum-peak pattern means the highest exposure of the infant gut microbiome to Pb/tAs/Al typically occurs in the same window as the foundational microbial colonization events.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/breastmilk]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 - [[metals/aluminum]]
 - [[metals/chromium]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance from prior 2026-05-14 page).** The prior revision had a thin Key numbers section that captured only the abstract-level qualitative ranges (2–5 Pb, 1.4–1.7 tHg, <1 Cd) and none of the structured numerical content from Tables 1 and 2 or the body. Enhancement:
-
-(a) **Key numbers expansion.** Added Table 2 reproduction (13 geographic / exposure-context rows with metal-specific reported values from the review's own structured comparison), plus the body-level numerical findings: Poland Pb 6.33 µg/L mean / Cd 2.11 µg/L mean / Pb age-effect 4.76 → 7.41 µg/L; Sweden Pb 17 → ~1 µg/L decline; Hungary Pb 14.9 → 1.74 µg/L decline (~90%); Taiwan 75–90% decline in Pb/Al/tAs in first two months of breastfeeding; Chile Arica B 270 µg/L and tAs 0.36 µg/L; China occupational Pb in colostrum 52.7 vs 4.7 µg/L; Greece urban-vs-rural Pb 0.48 vs 0.15 µg/L; Nigeria Owerri Pb ~38 µg/L. Added quantified lifestyle/biological associations: maternal-smoking Cd 37–300% higher; Norway fish consumption tHg ~42% higher (~32% for lean fish); Cd–chip correlation r = 0.502; cosmetics–Pb β = 0.32; dental-amalgam tHg ~3× higher; primiparous-vs-multiparous parity effect; Fe-deficiency–Pb DMT1 mechanism. Added the lactation-stage pattern (colostrum-peaks for Pb/Al/tAs; mature-milk-peak for Cd at 4–6 months; Zn decline 4.9 → 2.9 mg/L).
-
-(b) **Methods expansion.** Added explicit Boolean search string, inclusion/exclusion criteria, study-yield funnel (520 → 148 → 112), the four analytical-method families covered by included studies (ICP-MS, FAAS, GFAAS/ET-AAS, CV-AAS), the HPLC-ICP-MS speciation note, ICP-MS detection limits cited by the review (Pb 0.0051, Cd 0.0100, tHg 0.0060 µg/L), recovery and CV norms (90–110%, 5–10%), and the authors' own limitations statements (lack of human-milk CRMs, lipid-removal/digestion heterogeneity, lactation-stage variation).
-
-(c) **Sample population field.** Expanded `sample_population` from a one-line summary to specify the database list, language restriction, the 520 → 148 → 112 funnel, and the global distribution of included studies.
-
-(d) **Speciation discipline (CHECK 3 of the audit prompt).** The review uses "Hg" and "As" umbrella terms because included studies vary in whether they speciate. source metadata retains `tHg` and `tAs` per the rule that absent paper-wide speciation, the page uses the total-metal slug. MeHg is referenced narratively (fish-consuming populations) but is not the metric reported in most included studies.
-
-(e) **Brand firewall (CHECK 4).** The review does not name commercial product brands in its included findings, so no brand-firewall scrubbing was required. Cosmetics/lipsticks are referenced as a generic product category (not by brand name); dental amalgam is referenced as a procedure type (not by manufacturer). Methods section names no commercial instrument vendors (the included studies do, but the review summarizes without vendor attribution).
-
-(f) **Wiki/HMTc firewall (CHECK 5).** The Implications section limits itself to what this review contributes (baseline ranges, exposure-scenario framework, teaching anchors) and does not propose HMTc threshold values, make cross-source consensus claims, or issue consumer risk advisories. The review's own Section 5 ("Public Health Implications") contains recommendations (limit predatory fish, balance diet with iron/calcium, smoking cessation) but these are framed as the authors' recommendations from their own paper, not adopted into this wiki page as HMTc guidance or consumer advice.
-
-(g) **source metadata preservation.** `cite_key`, `raw_handle`, `raw_path`, `license`, `metals`, `ingredients`, `products: []`, `matrices`, `jurisdictions`, `near_duplicates`, `evidence_tier` preserved from prior revision. `updated` advanced to 2026-05-19; `sample_population` expanded as noted in (c).
-
-(h) **Products field preservation.** `products: []` is correct: human milk is not a commercial packaged-food product category in this wiki's taxonomy (no `products/breast-milk` or equivalent), and the routing layer fans this paper out via the `ingredients/breastmilk` slug and the six metal pages. The page does not declare a product because the source is an ingredient/biomarker review, not a packaged-product analysis.
-
-(i) **Prior-revision verification note preserved.** The 2026-05-17 Codex cross-vendor audit note (added H1, replaced invalid metal wikilinks, modernized heading, softened "authoritative" language, removed microbiome new-page instruction) is retained in spirit: those corrections are baked into the present page, and the same disciplines are applied here.
-
-**Speciation summary (source metadata):** Pb, Cd (no speciation), tHg (total — paper aggregates Hg-form across included studies), tAs (total — paper aggregates As-form across included studies; iAs vs organic discussed narratively but not reported as a uniform metric), Cr (total — paper does not separate Cr-VI), Al.
-
-**Sample size:** `sample_n: null` is correct because this is a review of 112 included primary studies, not a single primary study with a defined biological sample size; per-paper sample sizes are heterogeneous and the review does not aggregate them quantitatively.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

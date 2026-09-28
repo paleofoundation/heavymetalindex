@@ -62,7 +62,7 @@ Courses: Useful example for separating biomonitoring, soil exposure, tap-water e
 
 App: Supports qualitative risk context that root vegetables grown in Pb-contaminated urban soils can have higher Pb uptake than above-ground fruits, but app-facing ingredient estimates should rely on the detailed produce dataset when available.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/root-tuber-vegetables]]
 - [[products/non-root-vegetables]]
@@ -72,10 +72,6 @@ App: Supports qualitative risk context that root vegetables grown in Pb-contamin
 - [[ingredients/vegetables]]
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF text, including the abstract, participant recruitment, biomonitoring methods, environmental sampling methods, results for blood Pb, saliva Pb, soil Pb, tap-water Pb, Table 3 consumption-rate context, and the discussion paragraph summarizing fruit and vegetable Pb concentrations. The source reports lead only. Produce values are summarized crop-group means from the associated Newcastle allotment study and are labeled here as summarized context rather than sample-level occurrence tables.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

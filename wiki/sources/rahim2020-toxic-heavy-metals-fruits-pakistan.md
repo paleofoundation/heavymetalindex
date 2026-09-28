@@ -78,6 +78,9 @@ Courses: useful illustration that fruit heavy-metal loadings vary with regional 
 App: supports a low-contamination prior for fresh apple, peach, apricot, grapes, mango, banana, orange, pomegranate, guava, lemon and cherry sourced from low-industry regions, with the caveat that the data are DW-basis and need conversion before comparison with as-consumed limits.
 
 ## Related evidence
+
+- [[ingredients/orange]]
+- [[ingredients/lemon]]
 - [[metals/chromium]]
 - [[metals/cobalt]]
 - [[metals/nickel]]
@@ -91,31 +94,6 @@ App: supports a low-contamination prior for fresh apple, peach, apricot, grapes,
 - [[ingredients/oranges]]
 - [[ingredients/peach]]
 - [[products/fresh-fruit]]
-
-## Verification notes
-
-Merge-enhanced 2026-05-19 from the 2026-05-14 revision against the source PDF (Journal of Physical Science 31(2):61–73, 2020; DOI 10.21315/jps2020.31.2.5). Changes:
-
-- `raw_handle` standardised from the generic `manual-fetch-source-retrieval` to `MFK_analysis-of-toxic-heavy-metal-content-of-the-most-`.
-- `raw_path` corrected from a truncated filename (`...Most Widely Used Fru.pdf`) to the full filename under the archived source file.
-- `metals` extended from `[Cr, Ni, Cd, Pb]` to `[Cr, Co, Ni, Cd, Pb]`: cobalt is one of the five analytes the paper measures and reports in Table 2, omitted in the prior revision.
-- `ingredients` revised: `[[ingredients/orange]]` corrected to the existing slug `[[ingredients/oranges]]`; `[[ingredients/lemon]]` removed (no current taxonomy slug — paper-level coverage retained in body); apricot, cherry and pomegranate not declared in source metadata (no current taxonomy slugs — paper-level coverage retained in body).
-- `matrices` simplified from `[fresh-fruit, fruit-flesh, dry-weight]` to `[fresh-fruit]`: `dry-weight` is a reporting basis, not a matrix; `fruit-flesh` was not supported by the paper's preparation (whole sliced fruit, no peel removal described).
-- `sample_population` rewritten to make the 11×28 = 308 design and the triplicate / duplicate-run structure explicit.
-- `## Key numbers`: body table now includes the Co column (previously only summarised in prose) and reports Mean ± SD as in Table 2 (prior revision reported means only). All other numerical values cross-checked against Table 2 and unchanged.
-- Per-metal extremes block added, lifted directly from the source's Figures 1–5 commentary.
-- `## Methods (brief)` expanded with the 11×28 market design, sample mass, acid ratio, and the detection-limit table values; recovery/CRM limitation called out explicitly.
-- source metadata `updated` advanced to 2026-05-19.
-
-Existing `cite_key`, `doi`, `license`, `evidence_tier`, `near_duplicates`, `sample_n` and `products` preserved as in the prior revision.
-
-Post-ingest audit (fresh-context editorial review, 2026-05-19): verdict REVISE.
-
-- Check 5 ⚠️ on the Courses bullet phrase "arsenic-groundwater regions" — verified against §3 Discussion (p. 64): the paper attributes low KPK values to "almost negligible industrialisation" and "negligible" pesticide application through 2011 only; it does not invoke arsenic-groundwater context. Applied: Courses bullet rewritten to track the paper's own attribution.
-- Check 5 ⚠️ on the Certification bullet phrase "HMTc per-row standards" — audit itself rated this on the allowed side of the Part 2 boundary (contributes occurrence data, does not propose a threshold value). No change applied; leaving the phrase as written.
-- Check 1 ⚠️ on `sample_n: 308` as a wiki-side derivation — verified: §2.1 (p. 63) states each fruit was purchased from 28 markets at 1 kg, and §1 / Table 2 enumerate the 11 fruit varieties. The total 11 × 28 = 308 is an explicit consequence of the stated design and is preserved in `sample_population`. No change applied.
-- Check 1 ⚠️ on closest-approach ratios (cherry Cd ~92%, lemon Cd ~78%, grapes Cd ~66%, grapes Pb ~36%) — verified: each ratio is arithmetic on the source's Table 2 means and the source's own cited WHO limits (Cr 2.3, Co 50, Ni 70, Cd 0.1, Pb 0.3 mg kg⁻¹ DW). The paper's own §3 framing is qualitative ("much lower"); the wiki adds the quantitative ratios from the same source values. No change applied; ratios retained as useful for downstream pooling.
-- Checks 2, 3, 4 returned clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

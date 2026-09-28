@@ -80,22 +80,12 @@ The study analyzed dried algal food products commercially available on the Frenc
 
 This source contributes historical direct occurrence evidence for French-market edible algae with elevated mineral/inorganic arsenic, especially *Hizikia fusiforme* and *Laminaria*. It is routeable to seaweed/kelp foods, but downstream extraction should preserve its biased sample frame: the products had been withdrawn because mineral arsenic was above roughly `3 mg kg-1`, so these measurements should not be treated as an unselected market distribution. Total arsenic, mineral/inorganic arsenic, DMAA/MMAA, and arsenosugars must remain separate; the arsenosugar findings are speciation context, not inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for RSC paper code `a906890b`, inferred DOI `10.1039/a906890b`, raw handle `MFK_mcsheehy2000`, title text, or cite key `mcsheehy2000-edible-algae-arsenic-speciation`.
-- Text was extracted to `/tmp/hmi-seaweed-048.txt` with `pdftotext -layout`; title, abstract, Tables 1-2, methods, results, figures captions, conclusions, and paper code were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-048.txt`, especially Table 2 and the total/mineral arsenic Results paragraph. The source's printed `mg kg21` notation is recorded as `mg kg-1`.
-- Units and bases are preserved as `mg kg-1`, `mg mL-1`, `mg ml-1`, `ng mL-1`, `mM`, `mL min-1`, `W`, `V`, and `%`; no unit conversion was performed.
-- Speciation check: "mineral arsenic" is treated as the source's inorganic/mineral arsenic fraction. Total As, arsenosugars, As(V), As(III), DMAA, and MMAA are kept distinct and not collapsed into one species label.
-- Brand firewall: no consumer brands are named. The D.G.C.C.R.F. agency and analytical-instrument vendors are scientific/provenance context, not product brand attribution.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact algae species, origins, and the non-edible *Sargassum lacerifolium* row remain in Key numbers while source metadata uses broad seaweed/kelp food routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

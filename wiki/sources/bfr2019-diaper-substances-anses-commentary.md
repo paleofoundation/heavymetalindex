@@ -58,23 +58,13 @@ The BfR communication is qualitative throughout; no exposure doses, hazard quoti
 - **App:** Not directly applicable.
 - **Microbiome:** Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/diapers-and-components]] — primary routing destination (HMTc Cat 9 Row 7 scaffold). National-agency regulatory-context evidence sibling to [[anses2019-baby-diaper-safety-france]]; carries no metal occurrence or threshold values.
-
-## Verification notes
-
-- **Heavy metals absence — strict reading.** The BfR communication text was read in full (3 pages, including references on p. 3). No heavy metal is named in the body or in any quantitative or qualitative statement. The references on p. 3 cite one BgVV (2000) opinion on tributyltin and organotin compounds in panty diapers (`BgVV Stellungnahme zu TBT und zinnorganischen Verbindungen in Höschenwindeln`), but this is a reference to a prior BgVV opinion, not a BfR finding in the 2019 communication itself, and tributyltin is a non-HMTc analyte; the reference is recorded here for source-page completeness, not as occurrence evidence. source metadata `metals: []` is correct.
-- **Sample-size discrepancy with ANSES.** The BfR communication states allergenic aromatic substances were detected in "one of the 19 diaper products examined" (p. 2). The underlying ANSES opinion reports 23 single-use baby diaper products tested across SCL and INC programmes (ANSES p. 13). The reasons for the 19-vs-23 difference are not stated in either document; possibilities include the 19 referring to a specific test subset, a translation/transcription issue, or a non-overlap between INC and SCL product sets. The BfR figure is reported here verbatim and the discrepancy is flagged; no attempt is made to harmonise.
-- **Brand firewall — Part 12.** The communication names no specific diaper product brand and lists no brand-by-brand findings. The references on p. 3 cite published toxicology articles (Kosemund et al. 2009 in *Regulatory Toxicology and Pharmacology*; Rai et al. 2009 in *Journal of Toxicology and Environmental Health, Part A*) and BfR/BgVV/EU regulatory documents only; no brand firewall scrubbing was needed.
-- **Wiki/HMTc firewall — Part 2.** This page reports what the BfR communication says, including the BfR's endorsement of the ANSES finding on glyphosate/AMPA and the BfR's recommendation against high-sensitisation-potential aromatic substances in diapers. It does not extend the BfR's commentary to claims about heavy metals (because the BfR makes none), does not advocate for any HMTc Cat 9 Row 7 limit, and does not synthesise across sibling diaper sources.
-- **Document identity.** BfR Communication No. 005/2019 of 01 March 2019, three pages. English translation of the original German communication; the original German version is legally binding (p. 3, footer note). No DOI; BfR communications are not DOI-assigned at issuance. PDF SHA-256 `3b96d6f4845e4c2af20f101279302b0714e2ea31ecafc60207c63d806c4f2641`.
-- **Routing destination check.** `products/diapers-and-components` exists as the linked reference record (HMTc Cat 9 Row 7 scaffold), consistent with the routing destination used by the sibling diaper sources [[anses2019-baby-diaper-safety-france]], [[smajgl2015-tin-baby-diapers-croatia]], [[nyamukamba2023-south-africa-diapers-metals-formaldehyde]] and [[lai2025-infant-diaper-phthalate-dna-oxidation]].
-- **Relationship to ANSES 2019.** This BfR communication is downstream commentary on [[anses2019-baby-diaper-safety-france]] and is recorded in `near_duplicates` as such — it is not a measurement duplicate (the BfR took no measurements), but it is content-adjacent and should be read alongside the ANSES page rather than as an independent evidence point. The two pages together constitute the EU national-agency regulatory record on diaper chemical-safety as of Q1 2019.
-
-## Ingest log
-
-- 2026-06-01 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against the linked reference record returned no hits: no DOI (BfR communications are not DOI-assigned); raw_handle `MFK_09-preliminary-estimation-of-undesired-substances-` not present; cite-key stem `bfr2019-diaper` not present (existing `bfr2019-*` and `bfr*-diaper-*` searches returned no matches). PDF SHA-256 `3b96d6f4845e4c2af20f101279302b0714e2ea31ecafc60207c63d806c4f2641`. Folder: the archived source file. Source is a 3-page national-agency regulatory commentary; `metals: []` reflects that no specific heavy metal is named, screened, or evaluated in the document. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the sibling diaper-source precedent (anses2019, lai2025) for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory context. Marked `near_duplicates: [[[anses2019-baby-diaper-safety-france]]]` because the BfR communication is wholly downstream of the ANSES opinion.
+- [[products/diapers-and-components]]
+- [[smajgl2015-tin-baby-diapers-croatia]]
+- [[nyamukamba2023-south-africa-diapers-metals-formaldehyde]]
+- [[lai2025-infant-diaper-phthalate-dna-oxidation]]
+- [[[anses2019-baby-diaper-safety-france]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

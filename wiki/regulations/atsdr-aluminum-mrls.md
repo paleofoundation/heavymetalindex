@@ -67,7 +67,7 @@ Typical adult dietary aluminum intake of 5 to 15 mg/day is well below the chroni
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/efsa-aluminium-afc-2008|Safety of Aluminium from Dietary Intake]]<span class="hmi-ref-meta">EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) · The EFSA Journal 2008;754:1-34 · 2008 · [doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754)</span><span class="hmi-ref-tag">Government</span>

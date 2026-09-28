@@ -83,20 +83,10 @@ Courses: This paper is a useful teaching example of a published heavy-metal occu
 
 App: The Pb range (3.88–5.22 mg/kg dw ≈ 0.78–1.04 mg/kg fw) and Ni range (2.92–17.67 mg/kg dw ≈ 0.58–3.53 mg/kg fw) are the contaminant-relevant numbers from this paper. They should be carried into any per-serving estimator with the explicit caveat that they are roughly an order of magnitude above other Turkish olive studies in the same period and have not been independently corroborated.
 
-## Verification notes
-
-- 2026-05-28: Merge-enhanced from 2026-05-14 ingest. Corrected legacy `raw_handle` (`manual-fetch-source-retrieval` → `MFK_radionuclide-and-heavy-metal-content-in-the-table-`); restored truncated `raw_path` (was `Radionuclide and heavy metal content in the table olive (Olea eur.pdf`; now full filename); added `raw_sha256` (`d49b1f296b2189222c381216ad52ff6127439cd1318aff59372cb8a606556fb1`) and `access_url`.
-- 2026-05-28: Verified all heavy metal averages, ranges, and standard deviations against Table 3 of the paper (edible parts and kernels). Verified radionuclide averages against Tables 1 and 2. Verified daily intake values against Table 5 and AED values against Table 4. No transposition errors found in the prior page's Key numbers table.
-- 2026-05-28: Removed the unverified-in-wiki "EU limit for Pb in table olives is 0.10 mg/kg fw per Commission Regulation 2023/915" claim. The wiki currently has `regulations/eu-2023-915-lead-infant-young-child-foods` (specific to infant/young-child products) and `regulations/eu-2023-915-cadmium` (specific to cadmium), neither of which document the table-olive Pb limit. EU 2023/915 does set Pb limits for many fruit and vegetable categories, but without a wiki regulation page documenting the table-olive value, the specific 0.10 mg/kg fw number should not be asserted here. The corresponding `[[regulations/eu-2023-915]]` wikilink at the bottom of the prior page pointed to a non-existent regulation slug and has been removed.
-- 2026-05-28: Removed the "Flag for cross-check against EU 2023/915 table-olive Pb limit" implication-list instruction. Replaced with a declarative discussion of the Pb result's magnitude versus other Turkish olive studies, which is the substantive observation in either case.
-- 2026-05-28: Added explicit comparison values for Pb from Sahan et al., Nergiz et al., and Tuna (paper's literature review), so the ~10× discrepancy this study reports is on the page rather than implied.
-- 2026-05-28: Added daily intake values for all 9 measured metals (prior page listed only Pb, Ni, Cr) and the AED breakdown by radionuclide (prior page omitted), both directly from Tables 4 and 5.
-- 2026-05-28: Added kernel-vs-edible-parts contrast values for completeness.
-- 2026-05-28: Noted the paper's "1000 mSv" conclusion-section comparison appears to be a units typo (1 mSv = 1000 µSv would be consistent with the 2400 µSv/year ingestion comparison the same paper makes earlier); reported as the paper writes it but flagged the inconsistency.
-- 2026-05-28: Audit editorial review (fresh-context) flagged the `products: ["[[products/non-root-vegetables]]"]` routing as a slug-vocabulary error on the grounds that table olives are a cured drupe/fruit and not a vegetable. Finding verified — table olives (Olea europaea L.) are botanically a drupe (stone fruit), and culinarily a cured/preserved food typically eaten as a condiment, side, or garnish, not as a vegetable in any standard food taxonomy. The HMI products taxonomy does not currently have a `table-olives` or `olives` product slug, and none of the existing slugs (`non-root-vegetables`, `canned-vegetables`, `fresh-fruit`, `dried-fruit`, `condiments-general`, `olive-oil`) is a clean match. Left as `non-root-vegetables` for now to preserve the working routing target, and flagging here as a slug-gap proposal for Karen: a `products/table-olives` provisional scaffold (Step 0 Lock candidate) would be the right long-term routing destination for this paper and the other table-olive papers in the archived source file. Not creating a new product page from this session per task hard constraints.
-- 2026-05-28: Audit editorial review flagged the wiki narrative's attribution of "1000 mSv" to the paper as potentially mischaracterizing what the paper actually says. Finding verified — false positive. The paper's Conclusions (p. 8) explicitly reads "far below the recommended level of 1000 mSv" (not 1000 µSv). The wiki's "likely a units typo in the paper for 1 mSv = 1000 µSv" gloss correctly characterizes both what the paper writes and the likely intended meaning. No change.
-
 ## Related evidence
+
+- [[regulations/eu-2023-915]]
+- [[products/non-root-vegetables]]
 - [[ingredients/olives]]
 - [[metals/lead]]
 - [[metals/nickel]]

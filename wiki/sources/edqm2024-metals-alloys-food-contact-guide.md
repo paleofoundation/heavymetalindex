@@ -100,7 +100,7 @@ Courses: The guide is useful for teaching why metal release limits must specify 
 
 App: If a future food-contact-material module surfaces metal kitchenware context, this source can anchor the distinction between measured release from an article and background metal already present in the food.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-packaging-cans-lids]]
 - [[products/food-packaging-foils-wraps]]
@@ -135,19 +135,6 @@ App: If a future food-contact-material module surfaces metal kitchenware context
 - [[metals/vanadium]]
 - [[metals/zinc]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the title pages, foreword, Resolution excerpt, Chapter 1 SRL tables, selected safety-review recommendations, Chapter 3 testing provisions, and Annex headings were checked against this page.
-- Identity checks before creation: ISBN `978-92-871-9436-7`, title, Resolution `CM/Res(2020)9`, raw handle `MFK_council-of-europe-resolution-cm-res-2020-9`, raw SHA-256 `cdd491c4a869568fbc60515c456cce229c7c037b02d887b35e529bda07a71b32`, and cite key `edqm2024-metals-alloys-food-contact-guide` were searched in the linked reference record and evidence files; no existing source page was found.
-- Near-duplicate check: the file `Council of Europe Resolution CM_Res(2020)9 - Technical Guide on Metals and Alloys Used in Food Contact Materials (2nd Edition).pdf` is corrupt/truncated. `pdftotext` and `pdfinfo` fail on it, and `cmp` reports EOF on that shorter copy with no byte differences before EOF, so it is treated as a truncated duplicate of the readable canonical PDF.
-- DOI status: no DOI is printed in the PDF metadata or title pages. The page uses `doi: null` and `no_doi_assigned: true`.
-- Units are preserved as `mg/kg food` for SRL tables and as printed for testing rules. No conversion to ppb was performed.
-- Speciation: arsenic and mercury SRLs are listed as unspeciated `As` and `Hg` in the guide, so source metadata uses `tAs` and `tHg`. Chromium is listed as `Chromium (III)` with a note to consult the chromium section for Cr(VI); the page does not substitute Cr(VI) for the Table 1 chromium SRL.
-- Brand firewall: no consumer brand names are attached to contamination values. Industry, agency, standard, and reagent/test-method references are regulatory or method context.
-- HMTc firewall: the guide's SRLs are Council of Europe regulatory values and are not presented as HMTc certification thresholds.
-- Closed-vocabulary check: product slugs appear in the current taxonomy snapshot. `food-contact-material-leachate` and `food-simulant` follow established food-contact-material matrix terms already used in sibling source pages. Exact product-row slugs for industrial food-processing equipment, pipes, tanks, and coffee-maker pathways are absent or not in the current snapshot, so those use cases are retained in prose rather than added to source metadata.
-- Missing slug note: the current metal-page vocabulary lacks a `metals/zirconium` page slug, so the Zr SRL is retained in the source metadata metal list and Key numbers but no zirconium wiki-page link was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

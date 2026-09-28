@@ -57,16 +57,12 @@ Courses: The paper is useful for explaining why cacao Cd risk is not only a fini
 
 App: Ingredient-level cocoa and chocolate Cd risk should retain a geography and sourcing modifier for Ecuadorian cacao and for farms using validated Cd mitigation practices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
 - [[products/chocolate]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF title, byline, DOI, journal, license, farm geography, treatment rates, analytical methods, total soil Cd range, compost Cd concentration, humus-fraction table values, recovery values, and correlation findings were read from the source PDF. The source reports total cadmium; it does not provide lead, arsenic, mercury, nickel, chromium, tin, aluminum, or uranium occurrence values. The main PDF text does not provide a simple cacao-bean Cd distribution table, so this page does not infer one.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

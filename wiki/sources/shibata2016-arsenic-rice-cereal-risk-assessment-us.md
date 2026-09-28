@@ -59,18 +59,6 @@ Risk-assessment framework with hazard identification, dose–response, exposure 
 
 The study estimates that rice cereal contributes roughly 55% of cumulative iAs exposure for US infants and toddlers ages 4–24 months at the median, with other infant solid foods (19%) and drinking water (18%) the next largest contributors and infant formula the smallest (9%). Modeled chronic hazard quotients for rice cereal alone exceed 1.0 at and above the simulated 50th percentile, and the computed acute MCL (0.4 mg/kg) together with the negative chronic MCL solution bracket the FAO/WHO Codex proposed maximum level of 0.2 mg/kg for iAs in polished rice. The 63% iAs fraction in rice cereal and the per-source intake-share decomposition are inputs that downstream analyses on [[products/baby-cereals-dry-rice-based]] and [[metals/arsenic]] can carry forward.
 
-## Verification notes
-
-Enhanced 2026-06-08 (editorial review) from the 2026-05-12 revision after re-reading the MDPI PDF in full (10 pages, including Tables 1–4 and Figure 1). Changes:
-
-- Added Table 4 hazard-quotient, ILCR, and computed-MCL values that were absent from the prior page (HQ_acute and HQ_chronic at the 25th, 50th, and 75th percentiles for both rice cereal alone and total sources; ILCR at all three percentiles; MCL_rc,acute and MCL_rc,chronic with the paper's MCL_chronic-set-to-zero convention).
-- Added the source-contribution breakdown (rice cereal 55%, other infant solid food 19%, drinking water 18%, infant formula 9%) from §3 Results.
-- Added the FAO/WHO Codex 0.2 mg/kg comparison and the paper's voluntary-monitoring recommendation from §4 Discussion.
-- Added the drinking-water and other-infant-solid-food Monte Carlo input distributions from Table 1, which were not previously transcribed.
-- Removed a units-conversion error in the prior page that paraphrased the Table 1 infant-formula concentration input (7.48 × 10⁻⁶ mg/L) as "approximately 7.5 µg/L reconstituted." 7.48 × 10⁻⁶ mg/L converts to approximately 0.0075 µg/L (7.5 ng/L), not 7.5 µg/L. The Table 1 value is now transcribed as-stated without editorial re-conversion. There is a paper-internal inconsistency: Table 1 gives the infant-formula iAs input as 7.48 × 10⁻⁶ mg/L, but Table 3 reports ADD_if at the 50th percentile of approximately 1.0 × 10⁻⁴ mg/kg/day for ages 4–18 months, which back-solves to in-product concentrations roughly three orders of magnitude higher than Table 1's stated input. The paper does not address this, and the discrepancy is preserved here for downstream verification rather than silently corrected.
-- Removed the legacy "## Wiki pages updated on ingest" heading per current schema convention (Part 5b: routing is system-maintained from source metadata, not session-maintained in body).
-- Preserved cite_key, raw_handle (FM_4661673 Marker handle is the canonical ingest source; the duplicate PDF at the archived source file was auto-fetched by the discover skill and triggered this merge-enhance pass), raw_path, license, access_url. No source metadata slug changes.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

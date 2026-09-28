@@ -136,7 +136,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/rubin2026-sunscreen-metals-comparison-chart|Chart Comparing the Toxicant Profiles of Popular Sunscreen Products]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 28 May 2026; chart Draft 2.1 updated 19 April 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2026/05/sunscreen-chart/)</span><span class="hmi-ref-tag">NGO</span>
 2. [[sources/rubin2025-mineral-baby-sunscreen-case-2507165|Laboratory test of a baby mineral sunscreen lotion with prebiotics, SPF 55 for lead, cadmium, mercury and arsenic (laboratory case 2507165)]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 2 August 2025, updated 28 August 2025 · 2025 · [tamararubin.com](https://tamararubin.com/2025/08/hello-bello-spf-55-baby-mineral-sunscreen-lotion-prebiotics/)</span><span class="hmi-ref-tag">NGO</span>
@@ -168,7 +168,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

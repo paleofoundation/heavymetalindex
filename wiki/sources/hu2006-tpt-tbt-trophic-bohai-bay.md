@@ -116,7 +116,7 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 - **Courses:** A textbook biomagnification case study. The contrast between TBT (TMF = 0.59, no significant trophic trend) and TPT (TMF = 3.70, comparable to legacy organochlorines DDE and HCB) in the same food web, combined with seawater TPT below detection while seawater TBT was 9.8 ng/L, makes the point that environmental input and biota body burden can move in opposite directions when metabolic clearance differs between congeners.
 - **App:** For the ingredient-risk estimator, the relevant signal is that marine fish at high trophic levels (bartail flathead, wolffish, white flower croaker) carry an order of magnitude more TPT than benthic invertebrates from the same bay (~25–35 vs ~3–5 ng/g wet weight). Organotins are out of the HMI public-app metal scope by default, but the trophic-position signal will recur for any analyte whose congener-specific metabolism differs across the food web.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/shellfish]]
@@ -127,18 +127,8 @@ Samples were collected May, June, and September 2002 from Bohai Bay (six plankto
 - [[products/shellfish]]
 - [[products/fish-marine-non-predatory]]
 - [[products/fish-marine-predatory]]
-- [[metals/organotins]]
 - [[metals/tin]]
-
-## Verification notes
-
-- 2026-06-04 fresh ingest from the archived source file. PDF SHA-256 517dc7ae…7e9347. DOI 10.1021/es0514747 verified against page header. Three identity checks (DOI, raw_handle, cite-key) returned no prior wiki page.
-- The source measures organotin compounds (TBT, TPT, and their MBT/DBT/MPT/DPT degradation products), not inorganic tin. source metadata uses `metals: [Sn]` for element-level routing consistent with the [[cfs2019-organotin-aquatic-hongkong]] precedent; downstream synthesis must link the toxicology to [[metals/organotins]] and must not pool these values with inorganic Sn occurrence used for canned-food / canned-tuna threshold work.
-- No `ingredients/crustaceans` slug in the current taxonomy; crab and burrowing shrimp are routed under `ingredients/shellfish` for the wiki layer while preserving their specific identification in the per-species Key numbers table.
-- No `ingredients/plankton` or matrices term for plankton in the current vocabulary; phytoplankton/seston and zooplankton are retained in the body-table for completeness as trophic-baseline rows, not as routed ingredients.
-- The seawater results (TBT and TPT in 14 sites) are cited from the companion paper Gao et al. 2004 (Bull. Environ. Contam. Toxicol. 72:945, ref. 35 in this article) rather than measured in this article itself; the authors use them as the surface-water surrogate for input-vs-trophic-magnification interpretation. Reproduced here exactly as the authors report them and attributed in the table notes.
-- No brand names appear in the source's Key numbers or biota tables; species are reported with Linnaean binomials. No brand-firewall edits required. Instrument vendor names (Hewlett-Packard, ACROS, Aldrich, Wako, Hayashi, Fisher, DIKMA, Siyou, Waters) appear only in Materials and Methods and are retained per the locked-2026-05-17 scientific-method-vendor exception.
-- The earlier matrix `seawater` is not in the documented matrices vocabulary; seawater results are confined to the Key numbers narrative and the matrices array lists `sediment` plus the three biota matrices that fan out to routed ingredient pages.
+- [[cfs2019-organotin-aquatic-hongkong]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

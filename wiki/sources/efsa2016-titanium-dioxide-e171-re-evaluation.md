@@ -61,7 +61,6 @@ The EFSA ANS Panel re-evaluated titanium dioxide (E 171) in an opinion adopted 2
 | Water-soluble matter | food additive E 171 | not more than 0.5 | percent | maximum |  | Table 5, Commission Regulation (EU) No 231/2012 p.17 |
 | Water-soluble matter | food additive titanium dioxide | not more than 0.5 | percent | maximum |  | Table 5, JECFA (2012) p.17 |
 
-
 ## Methods (brief)
 
 Page numbers are form-feed indexes and match the printed journal page numbers. Exposure rows are Table 8 and Table 9, the Panel's minimum-to-maximum ranges across surveys. Appendix E survey-by-survey values and the food-category contribution percentages in Tables 10 and 11 are not listed. Impurity rows are the EU legal column and the JECFA (2012) column of Table 5. Cited study tables are not re-extracted except where the Panel states its own NOAEL, absorption fraction, or the 3.2 percent nanoparticle fraction it adopted.

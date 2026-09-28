@@ -61,7 +61,7 @@ This source can support seafood, fresh fish, and marine predatory fish pages, es
 
 For standards work, the data should remain wet-weight, jurisdiction-specific, and season-aware. Total arsenic is not inorganic arsenic, total mercury is not methylmercury, and total chromium is not Cr(VI). The paper is summary-level occurrence evidence rather than a complete sample-level benchmark distribution.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/marlin]]
 - [[ingredients/fish]]
@@ -74,12 +74,6 @@ For standards work, the data should remain wet-weight, jurisdiction-specific, an
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Batch 4 auto-fetched ingest, 2026-05-25. The canonical PDF came from the marlin cadmium wishlist row; marlin nickel, lead, total-arsenic, and total-mercury files for the same DOI were rolled up to this source page.
-- Paper-internal reporting is not perfectly harmonized for mercury and arsenic ranges in the text layer. Routeable structured values below prefer the clearer table/text statements for lead, chromium, nickel, and cadmium; mercury and arsenic are retained as context until a deeper audit can inspect the rendered figures/tables.
-- Speciation: arsenic, mercury, and chromium are total/unspecified measurements; do not treat them as iAs, MeHg, or Cr(VI).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

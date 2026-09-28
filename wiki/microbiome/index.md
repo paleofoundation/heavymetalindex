@@ -14,7 +14,7 @@ The foundational framework for this section, which connects metal exposure and d
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. Each title links to its source record.
 
 1. [[sources/ozarkar2025-nickel-cobalt-bioremediation|Comparative Analysis of Bioremediation and Phytoremediation in Mitigation of Heavy Metals]]<span class="hmi-ref-meta">Kranti Ozarkar, Shreshta Tiwari, and Kashmiribano Malick · International Journal for Multidisciplinary Research7(5):IJFMR250556267 · 2025 · [doi.org/10.36948/ijfmr.2025.v07i05.56267](https://doi.org/10.36948/ijfmr.2025.v07i05.56267)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->

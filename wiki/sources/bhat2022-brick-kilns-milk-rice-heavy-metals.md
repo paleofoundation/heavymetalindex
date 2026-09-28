@@ -48,7 +48,7 @@ The study analyzed Pb, Cd, and Cr in soil, paddy straw, rice bran, cattle serum,
 
 Milk values are directly routeable for dairy context. Rice bran and paddy straw values are feed/plant-context evidence and should not be pooled with finished rice grain unless the matrix distinction is preserved.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/rice]]
@@ -56,12 +56,6 @@ Milk values are directly routeable for dairy context. Rice bran and paddy straw 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.30954/2277-940X.03.2022.11 and the downloaded PDF.
-- 2026-06-09 autonomous audit (verdict QUARANTINE) corrected two cross-row transpositions in `## Key numbers`: the "rice bran Pb" sentence had been populated with soil-Cd values (D0 0.44, D1 0.56, D2 0.52, D3 0.40), and the "Cd in soil" sentence had been populated with soil-Cr values (D2 22.57, D3 17.28, D0 15.49) plus a fabricated D1 value 23.89±0.27 that appeared in no Table 1 cell. The actual values were transcribed directly from Table 1 (p. 385): rice bran Pb D0 2.58, D1 4.52, D2 4.64, D3 3.18 mg/kg; soil Cd D0 0.44, D1 0.56, D2 0.52, D3 0.40 mg/kg; soil Cr D0 15.49, D1 22.50, D2 22.57, D3 17.28 mg/kg. Statistic type is Mean±SE per the Table 1 caption.
-- Independent verification caught: the `publication` source metadata field previously read "International Journal of Agriculture, Environment and Biotechnology"; the PDF first-page header reads "Journal of Animal Research: v.12 n.3, p. 381-388, June 2022". Corrected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -55,7 +55,7 @@ App: Palm oil can be flagged as having direct literature evidence for Pb, Cd, Ni
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/palm-oil]]
 - [[products/cooking-oils-other]]
@@ -63,14 +63,6 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/tin]]
-
-## Verification notes
-
-- The paper's abstract says metallic-element concentrations ranged from 0.006 mg/kg to 161.576 mg/kg, but Tables 3a, 3b, and 4a-4c label the oil concentration columns as mg/L. This source page preserves the table values and flags the unit discrepancy rather than converting between volume and mass basis.
-- The antioxidant LODs are also internally inconsistent: Table 2 reports EEMC and propyl gallate LODs as 0.006 and 0.003 mg/L, while the abstract reports 0.06 and 0.03 mg/L. The Key numbers section uses Table 2 because it is the method-validation table, but the discrepancy should remain visible for audit.
-- The table text contains minor formatting defects from the PDF extraction, including "0239±0.001" for Agbarho Co, "0.020±±0.003" for Ikire Pb, and "0006±0.001" for Ubiaja Pb in Table 4b; values were read against Tables 3a-3b where possible.
-- Matrix labels `virgin-palm-oil`, `edible-oil`, and `vegetable-oil` are source-specific routing descriptors for this source page; the ingredient and product routing slugs are `[[ingredients/palm-oil]]` and `[[products/cooking-oils-other]]`.
-- The source is not brand-specific and does not identify consumer brands; it reports plantation/location-level samples.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

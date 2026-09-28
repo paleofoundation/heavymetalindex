@@ -63,29 +63,13 @@ For threshold-setting work the page contributes Al occurrence data in mg/g wet w
 
 For app work the presence of baking powder, alum, potassium alum, or aluminium-potassium-sulfate on an ingredient list — or the generic "leavening agent" without speciation — is a label-derivable marker for potential Al exposure in baked, fried-flour, and pancake-format products. Confectionery sold as Japanese-style (wagashi) and fried-flour products such as takoyaki, okonomiyaki, and chijimi carry higher prior probability of Al detection in this dataset than Western confectionery or pre-mix powders.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[products/bread-and-baked-goods]]
 - [[products/snacks-crackers-biscuits]]
-
-## Verification notes
-
-- 2026-05-29 merge-enhance: existing page (dated 2026-05-14) was structurally correct but carried several source metadata and routing defects; the underlying numerical content was verified against the PDF and is preserved.
-  - `raw_handle` corrected from generic `manual-fetch-source-retrieval` to the per-file MFK_ form `MFK_survey-of-aluminium-content-of-processed-food-usin` (matches the abdolahpour2023 / aguilar-miranda2024 MFK_<slug> convention adopted post-2026-05-17).
-  - `raw_path` filename corrected from "...Baking Powder.pdf" to the actual filename "...Baking Powder (2015-2016).pdf" — the prior path did not resolve.
-  - Added `access_url` to the JSTAGE DOI URL.
-  - Added `raw_sha256: 6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f` for the verified PDF.
-  - `source_type` changed from non-vocabulary `government-report` to `peer-reviewed`. The paper is a peer-reviewed article in *Shokuhin Eiseigaku Zasshi* (the same journal as watanabe2017-retail-fish-mercury-methylmercury-japan, which uses `peer-reviewed`); the conducting institution being TMIPH does not change the publication venue's classification.
-  - Added `sampling_year_range: "2015-2016"` per the title and Methods.
-  - `sample_population` clarified to name all four product groups and the alum-selection criterion.
-  - Body link `[[metals/aluminium]]` corrected to `[[metals/aluminum]]` — the existing wiki metal page is the linked reference record; no `aluminium.md` exists.
-  - Body link `[[regulations/jecfa-al-ptwi-2011]]` removed from "Wiki pages this source may touch" because no such regulation page exists. The JECFA-74 (2011) PTWI revision and the Japan FSC 2017 TWI setting are documented in the Key numbers section; a JECFA-Al PTWI regulation page is a Karen-approved page-creation (Part 10 / skill stop condition), not auto-created during ingest.
-  - Heading "## Wiki pages updated on ingest" renamed to "## Wiki pages this source may touch" per current convention (the prior heading is a legacy phrasing that implied the ingest did downstream edits, which the routing layer now owns).
-  - Implications section reworded to remove the prior version's two Part 2 wiki/HMTc-firewall slips: "HMT&C product standards for baked goods should flag Al as a process-additive analyte" and "requiring Al-free leavening agents in certified products is feasible." Both proposed HMTc design choices rather than reporting what the source contributes. Reworked to describe what occurrence data and serving-size assumptions the source contributes for downstream threshold work, without proposing a threshold or a supplier-specification lever.
-  - Methods section expanded to name the digester (Milestone General ETHOS One), the HNO3 vendor (Wako Pure Chemical Industries), the standard vendor (Kanto Chemical), and the specific MHLW guideline citation (Shokuan-Hatsu 0926001 of 2008). These are scientific-method vendor names (Part 12 Exception 2), not contamination-value brand attributions.
-  - Key numbers expanded with the within-confectionery sub-class breakdown (Japanese 56% vs non-Japanese 14%), the full 2009 → 2011–2014 → 2015–2016 trend percentages, the 4 PTWI-exceeding-at-1-serving samples with per-piece weights, the 5 PTWI-approaching samples, the China per-class limits the authors cite, and the source-author's worked example of a 0.1 mg/g Al use cap.
-- 2026-05-29 retained: `cite_key`, `doi`, all measured Al values, `metals: [Al]`, `matrices`, `jurisdictions: [JP]`, `sample_n: 123`, `evidence_tier: A`. The `
+- [[metals/aluminium]]
+- [[regulations/jecfa-al-ptwi-2011]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -61,22 +61,6 @@ ICP-MS (Agilent 7700X) with He collision/reaction cell after CEM MARS-5 microwav
 - Identifies formulation (herbal/probiotic/enzyme/fatty-acid blends), dosage form (powder/liquid and soft-gel), and country of origin (India for Pb) as covariates significantly associated with metal intake from supplements in this sample.
 - Contributes [[metals/cadmium]], [[metals/lead]], and [[metals/arsenic]] occurrence in supplements with a quantified low-exceedance rate (1.1%).
 
-## Wiki pages this source may touch
-
-- [[products/dietary-supplements]] and [[products/supplements-botanicals-herbs]] — Cd/Pb/As daily-intake distribution and contamination determinants.
-- [[metals/cadmium]] — herbal/probiotic formulation and soft-gel/powder association.
-- [[metals/lead]] — India-origin association.
-- [[metals/arsenic]] — powder/liquid and soft-gel association.
-
-## Verification notes
-
-- Values from Table 2 (overall daily intake) and Tables 3–6 (determinant regressions). Table 2's header label "µg/g" conflicts with the body text and ADI comparison, which are in µg/day intake; the abstract and Results consistently state µg/day, so daily intake (µg/day) is recorded here and the "µg/g" header is treated as a typographical error.
-- Reported metric is daily intake (concentration × labelled dose), not raw µg/g concentration, so this is occurrence expressed through an exposure lens; underlying per-product µg/g concentrations are not separately tabulated.
-- No brand-by-brand data: results are aggregated by formulation category, dosage form, and country of origin; the Part 12 firewall is satisfied at the source.
-- Speciation: total As by ICP-MS; no inorganic-As fraction reported.
-- Matrices vocabulary: `dietary-supplement` is in the common-matrices list in the editorial record; `herbal-supplement` and `vitamin-mineral-supplement` are added as broader-than-product matrix descriptors that follow the same naming convention but are not yet in the common-matrices list. Surfacing for next matrices-vocabulary refresh.
-- Audit editorial review (2026-06-09) ran the five-check audit against the PDF; verdict REVISE; applied corrections: (a) Check 1 — moved the p<0.001 parenthetical off the herbs+probiotics clause and onto the powder/liquid clause in the As multivariate (Table 6 powder/liquid is p<0.001, soft-gel is p=0.003, herbs+probiotics is p=0.005); (b) Check 2 — added matrices-vocabulary flag above; (c) Check 5 — softened "directly actionable pattern for category screening" (Summary) and "concrete screening levers for any future certification" (Implications) toward literature-fidelity framing per Part 2 wiki/HMTc firewall.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

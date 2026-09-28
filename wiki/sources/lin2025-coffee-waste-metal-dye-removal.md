@@ -79,27 +79,12 @@ App: Context for remediation and circular-material notes involving spent coffee 
 
 Courses: Useful for teaching why a familiar food-derived material can be a remediation matrix without becoming food-contaminant occurrence evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/copper]]
 - [[metals/iron]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, reagents and synthesis protocol, characterization methods, Table 1 textural properties, Figure 4 copper/iron removal kinetics, Table 2 methylene blue kinetic parameters, Table 3 dye-removal capacity and activation energy comparison, Figure 6 dose/pH/water/reuse results, XPS mechanism discussion, conclusions, and data-availability statement.
-
-The paper has four internal inconsistencies that the source page records without resolving:
-
-1. **Iron species:** the abstract and the FeCl3.6H2O method identify Fe3+, while Section 3.2 and the Figure 4 captions refer to Fe2+. source metadata uses broad Fe.
-2. **CB activation energy:** Table 3 reports Ea = 53.7 kJ/mol for CB, while the body text on page 12 reports Ea = 39.8 kJ/mol (R2 = 0.839) for the same material. Figure 5f labels match the body text. The page reports Table 3 values in the body and flags the discrepancy here.
-3. **Cu/CB activation energy:** Table 3 reports Ea = 35.6 kJ/mol for Cu/CB, while the body text on page 12 reports Ea = 38.2 kJ/mol (R2 = 0.871). Figure 5f labels match the body text. The page reports Table 3 values in the body and flags the discrepancy here.
-4. **Fe/CB maximum pH removal:** the body text on page 12 states a maximum methylene blue removal of 95.2% at pH 4, but Figure 6b does not include a pH-4 condition and its highest value is 91.0% at pH 6.
-
-Products and ingredients are intentionally empty in source metadata because this is a coffee-waste remediation study (Coffee Powder Trimmings used as engineered adsorbent and biochar precursor), not a coffee-food occurrence study. The routing layer therefore records this source as advisory-malformed for missing products/ingredients, which is the expected behavior for remediation-only evidence and is not a defect to fix.
-
-Matrices vocabulary: `biochar`, `aqueous-sorption-test`, and `wastewater-remediation` are precedented slugs already used by other remediation source pages. `coffee-powder-trimmings` and `spent-coffee-grounds` are descriptive kebab-case tokens introduced by this paper and should be confirmed against the matrices controlled vocabulary on the next Karen review. Fresh-context audit editorial review (2026-06-02) raised this as an advisory vocabulary note; no fidelity defects were found.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

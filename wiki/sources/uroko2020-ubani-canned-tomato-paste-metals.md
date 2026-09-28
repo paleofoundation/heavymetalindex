@@ -56,15 +56,6 @@ Ten canned tomato-paste products were removed from tins, dried in foil in a micr
 
 This source contributes Nigeria-market canned tomato-paste occurrence context for Pb, Ni, Cu, Co, Fe, total Cr, Cd, Mn, and Zn. It is directly relevant to tomato-paste product routing, while the coded sample design and explicit brand list in the methods mean public-facing extraction should remain aggregate unless a later private evidence register needs code-level review. It is not suitable for Cr-VI routing because chromium is reported only as total Cr, and it is not direct evidence for whole canned tomatoes because every sampled product was tomato paste.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the DOI, abstract, methods, Table 1, daily-intake table, hazard-index table, and discussion were readable.
-- DOI verified from the first page as `10.3329/jbs.v28i0.44705`; DOI, raw handle `MFK_uroko2019`, and cite-key checks found no existing source page before creation.
-- All aggregate ranges in Key numbers were calculated from Table 1 without unit conversion. Units are preserved as `ppm`.
-- Speciation: chromium is total Cr. The source does not report Cr-VI.
-- Brand firewall: the methods section maps sample codes to named products; this page therefore reports only aggregate ranges and detection patterns, not code-level or brand-level contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

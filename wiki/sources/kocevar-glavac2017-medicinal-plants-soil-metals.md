@@ -110,7 +110,7 @@ Courses: The study is a useful supply-chain case for soil-to-botanical transfer,
 
 App: The source can support `herbal-botanicals` and `dried-herbs` contamination profiles for Cd and Pb, with Zn, Cu, Fe, and Mn retained as cross-metal context for multi-element botanical surveys.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/herbal-botanical-infusions]]
 - [[products/supplements-botanicals-herbs]]
@@ -122,15 +122,6 @@ App: The source can support `herbal-botanicals` and `dried-herbs` contamination 
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09: DOI `10.1515/aiht-2017-68-2990`, raw handle `MFK_10.1515-aiht-2017-68-2990`, and cite-key `kocevar-glavac2017-medicinal-plants-soil-metals` returned no existing source page hits before creation.
-- All Key numbers values were re-checked against `/tmp/hmi-june9-005.txt` extracted with `pdftotext -layout`. Table 3 plant occurrence rows, Table 1 soil context rows, Table 4 bioconcentration factors, and Table 5 hot-water extraction values are transcribed without unit conversion.
-- Speciation check: Cd, Pb, Zn, Cu, Fe, and Mn are total elemental measurements by AAS; no arsenic, mercury, Cr-VI, or other speciation issue is present.
-- Soil-only values are included as supply-chain context and are not treated as product occurrence. The routeable values are the plant concentrations and the *Urtica dioica* hot-water extract values.
-- License left `unknown`; the extracted PDF did not show an explicit Creative Commons or reuse license statement.
-- No sampled-product brand names are present. Place names are retained because they are geographic sampling locations, not commercial sampled-product identifiers.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

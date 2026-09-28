@@ -108,9 +108,9 @@ Microbiome: This is a **secondary background reference**, not a primary-mechanis
 
 Karen externally fetched this chapter on 2026-05-09 and dropped it at the archived source file. Elsevier book chapter; the wiki cites the chapter record (DOI 10.1016/B978-0-12-819265-8.00064-4). Decision rationale: paper was queued in the Karen-drop queue, but on review the heavy-metal-exposure mechanism is not the chapter's focus — so a thin, cross-referencing source page is the appropriate ingest output rather than a wiki/microbiome/ primary-mechanism page.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-and-child-foods-master]] (Source Legend entry #39, secondary-reference annotation)
+- [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

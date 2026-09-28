@@ -70,33 +70,17 @@ Large LB–UB gap (factor of 2–3) primarily driven by the high proportion of l
 - App: Main dietary iAs contributors for European population: rice > rice-based products > grain-based products (no rice) > drinking water. Relevant weighting for ingredient-list scoring of rice-containing products. Drinking-water mean of ~2 µg/L tap water (LB) is a useful baseline. The 22%-of-infant-cereal-above-ML signal is high-value as an occurrence weighting for the infant-cereal category.
 - Microbiome: Not primary topic.
 
-## Verification notes
+## Related evidence
 
-- Merge-enhanced 2026-06-03 against the manual-fetch PDF at the archived source file (5,796,506 B), which is byte-near-identical to the previously-recorded the archived source file (5,796,501 B; same DOI, same content, 5 B PDF-metadata delta). Recorded in `near_duplicates`; existing `sha256` for the the archived source file file preserved.
-- Verified every prior Key number against the PDF: 13,608 results / 7,623 water / 5,985 food (Summary p.3); 67,401 starting set with 9.0% iAs / 86.1% tAs (Table 1 p.8); 66,025 post-cleaning (p.8); 51 of 2,621 rice samples > ML, rice brown n=15 max 570 µg/kg, rice popped n=18 max 409 µg/kg (Table 2 p.9 and surrounding paragraph); ~22% of cereal-based infant food > 100 µg/kg (p.10, 50 of 224 samples); LOQ cut-offs 200 µg/kg tAs / 100 µg/kg iAs food / 10 µg/L water (p.9); LB/UB toddler/infant means and 95th percentiles (Summary p.3); rice-based-formula scenario 0.30 mean / 0.39 high consumer (p.4); 1.5–3× lower than 2014 (p.3). All verified.
-- Expanded Key numbers with Table 4 (iAs by rice type), Table 5 (iAs in rice-based products), Table 7 (drinking water by type), and Table 8 (infant/young-children food) statistics, none of which were on the prior revision; this strengthens the page as direct evidence for downstream rice and rice-based-product synthesis.
-- Fixed broken regulation wikilink: `[[regulations/efsa-contam-bmdl01-arsenic-2009]]` (no such page) → `[[regulations/efsa-arsenic-contam-2009]]` (canonical slug, verified in the linked reference record).
-- Replaced legacy body wikilink `[[products/infant-rice-cereal]]` with the source metadata-consistent `[[products/baby-cereals-dry-rice-based]]` for routing alignment; both product pages exist, but the source metadata taxonomy uses `baby-cereals-dry-rice-based` and the body should match what the routing audit fans out from source metadata.
-- Migrated legacy section heading `## Wiki pages updated on ingest` → `## Wiki pages this source may touch` per the merge-enhance defect list in the editorial record.
-- Added `sample_population` and `near_duplicates` fields to source metadata; both were absent on the prior revision.
-- No brand names appear in this source (EFSA aggregate exposure assessment, not a brand-level survey); Part 12 brand firewall not triggered.
-- Implications section reports the page's contribution to threshold work without proposing HMTc threshold values; Part 2 wiki/HMTc firewall observed.
-- Audit editorial review (2026-06-03, general-purpose fresh-context) flagged ❌ that the prior wording "95th percentile **LB** exposure: toddlers 0.58 µg/kg bw/day; infants 1.20 µg/kg bw/day" mis-attributed the infant figure to LB; verified against Table 11 p.24 — confirmed: the 1.20 µg/kg bw/day is the infant 95th **UB max**, while infant 95th LB max is 0.52. Page 25 disambiguates the Summary's ambiguous "(LB–UB) … in toddlers and infants, respectively" wording: "highest 95th percentile exposure at the LB was estimated in toddlers (0.58 µg/kg bw per day) and at the UB in infants (1.20 µg/kg bw per day)." Corrected the Key numbers line to track Table 11 explicitly and revised the dependent Implications sentence (which had read "fourfold above the BMDL₀₁ lower bound") to PDF-aligned framing ("within the BMDL₀₁ range").
-- Audit editorial review flagged ⚠️ that Table 7 unit label "µg/kg" is an EFSA labeling slip for drinking water (Table 6 in the same PDF uses µg/L); verified by direct PDF read — confirmed. Added a parenthetical noting the unit context in the Key numbers Table 7 line.
-- Audit editorial review flagged ⚠️ "priority population / less urgent" framing in Implications as leaning toward HMTc policy language; verified against the source — agreed, the source itself describes the age-class pattern but does not prioritize categories. Replaced with neutral age-class-pattern description.
-- Audit editorial review flagged ⚠️ "consumer-facing risk lens" phrasing in the App bullet; replaced with "occurrence weighting" to track app-input semantics without consumer-advisory framing.
-- Audit editorial review flagged ⚠️ `matrices: dietary-intake` as more analysis-type than sample-matrix; left as-is — false-positive against this repo's matrices vocabulary, which already admits `dietary-intake` across the EFSA exposure-assessment corpus and the value was on the page pre-merge.
-- Audit editorial review verdict REVISE; one ❌ applied with PDF citation, four ⚠️ adjudicated (three applied as text revisions, one left as-is with rationale); zero QUARANTINE triggers.
-
-## Wiki pages this source may touch
-
+- [[regulations/efsa-contam-bmdl01-arsenic-2009]]
+- [[regulations/efsa-arsenic-contam-2009]]
+- [[products/infant-rice-cereal]]
+- [[products/baby-cereals-dry-rice-based]]
 - [[metals/arsenic]]
 - [[ingredients/rice]]
-- [[products/baby-cereals-dry-rice-based]]
 - [[products/rice-bulk-grain]]
 - [[products/other-grain-products]]
 - [[regulations/eu-2015-1006-iAs-rice]]
-- [[regulations/efsa-arsenic-contam-2009]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

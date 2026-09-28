@@ -98,23 +98,13 @@ Twelve commercial kelp powder samples were obtained from suppliers in the United
 
 This source contributes direct occurrence evidence for commercial kelp/algal powders and high-resolution organoarsenic speciation context. Total arsenic ranged from `25.2 ± 1.4` to `83.0 ± 2.9 mg/kg`, but inorganic arsenate was detected only in the Laminaria-type extracts, so total arsenic must not be promoted to inorganic arsenic for the non-Laminaria powders. The page is routeable to seaweed/kelp foods and algae/seaweed supplements; downstream pooling should preserve the commercial-powder basis and the distinction between total As, arsenate, DMA, arsenobetaine, and arsenosugar species.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/supplements-algae-seaweed-based]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1021/jf060971j`, paper code `JF060971J`, raw handle `MFK_nischwitz2006`, title text, or cite key `nischwitz2006-commercial-kelp-arsenic-speciation`.
-- Text was extracted to `/tmp/hmi-seaweed-053.txt` with `pdftotext -layout`; Tables 1-7, methods, Results/Discussion, and references were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-053.txt`, especially Table 2 total-As/extraction-efficiency rows, Table 3 HPLC-ICP-MS species rows, Table 6 standard-addition rows, and the Results text that arsenate was detected only in Laminaria samples.
-- Units and bases are preserved as `mg/kg`, `µg of As/g`, commercial powder without further drying, extraction efficiency `%`, and `ng of As/g`; no unit conversion was performed.
-- Speciation check: total arsenic, arsenate, DMA, arsenobetaine, TMA, and individual arsenosugar/thioarsenosugar species are kept distinct. Arsenate detections are treated as inorganic arsenic context only for the source-reported arsenate rows; total As is not substituted for iAs.
-- Brand firewall: consumer suppliers/brands are not named. Instrument/reagent/reference-material vendors are retained only as scientific-method context.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact algal types and sample codes remain in Key numbers while source metadata uses broad seaweed/kelp and algae/seaweed supplement routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

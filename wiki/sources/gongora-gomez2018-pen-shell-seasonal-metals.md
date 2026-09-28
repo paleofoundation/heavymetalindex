@@ -45,7 +45,7 @@ The study sampled Atrina maura over multiple seasons and analyzed both soft tiss
 
 The source supports shellfish seasonal-variance evidence for Mexico, especially for Cd and Pb. Muscle and whole soft-tissue values should remain separate because they imply different edible-tissue scopes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[products/shellfish]]
@@ -58,11 +58,6 @@ The source supports shellfish seasonal-variance evidence for Mexico, especially 
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Mercury is treated as total mercury because methylmercury speciation was not reported in the extracted source text.
-Arsenic is treated as total arsenic because inorganic arsenic speciation was not reported. The pen shell species is Atrina maura; the source metadata keeps the matrix broad enough for routing while the title and sample population retain the species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

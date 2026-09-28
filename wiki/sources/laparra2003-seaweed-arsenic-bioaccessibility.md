@@ -74,21 +74,12 @@ The in vitro digestion used `5 g` seaweed with pepsin at `pH 2`, followed by pan
 
 This source supports seaweed/kelp food routing with paired total and inorganic arsenic values for hijiki, nori, and green nori flakes, plus source-measured bioaccessible fractions. The in vitro digestion results should be treated as source-specific bioaccessibility context and not converted into an HMTc threshold or consumer-facing recommendation. The high hijiki values are the paper's own finding; the page does not generalize beyond the three same-batch products tested.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1021/jf034537i`, raw handle `MFK_laparra2003`, title text, or cite key `laparra2003-seaweed-arsenic-bioaccessibility`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-037.txt`, extracted with `pdftotext -layout`. Tables 2, 3, 4, 5, and 6 were transcribed directly, with not-tested cooked cells kept blank as `not tested`.
-- Units and bases are preserved as `µg g-1, dw`, `µg g-1 Seaweed, dw`, `µg mL-1`, `µg g-1 seaweed`, `%`, `g`, `mL`, `min`, `°C`, and `rpm`; no unit conversion was performed.
-- Speciation check: AsT and AsI are reported separately. AsI is not substituted for total arsenic and total arsenic is not promoted to inorganic arsenic.
-- Brand firewall: the source does not name consumer brands. The page reports only product forms/species and the Valencia health-food-store market context.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki, nori, green nori flakes, and taxonomic names remain in source text while source metadata uses broad seaweed/kelp food slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

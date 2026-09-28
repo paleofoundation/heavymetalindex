@@ -61,17 +61,13 @@ Courses: Illustrates why processing studies that vary thermal treatments still p
 
 App: Can support canned tuna mercury context with Indonesia/Aceh geography preserved.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/canned-fish]]
 - [[ingredients/canned-tuna]]
 - [[metals/mercury]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-The auto-fetch filename classified this as salt total-mercury evidence, but the actual food matrix is canned tuna. Mercury values are total mercury; methylmercury was not measured. Pb is reported as <0.0001 mg/kg across all treatments; downstream synthesis should treat this as a censored value at the method LOD rather than as a numeric typical_ppb. SNI 8223:2016 (Indonesia canned-tuna standard) is the source's comparator regulation but does not currently have a slug in the linked reference record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

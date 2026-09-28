@@ -141,7 +141,7 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 
 **Speciation caveat.** Because total As was measured and the USEPA iAs RfD was applied to total intake, the paper's THQ for As is conservative against any RfD that targets inorganic As specifically; it does not, however, allow per-species exposure to be estimated from the dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -158,17 +158,6 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
 - [[regulations/epa-iris-cadmium-rfd]]
 - [[regulations/epa-iris-inorganic-arsenic-rfd]]
-
-## Verification notes
-
-- **Duplicate consolidation (2026-05-18).** Two wiki source pages previously covered this paper: this page (`alharbi2023-baby-foods-saudi-arabia-heavy-metals.md`, prior revision 2026-05-12) and `original2020-original-a.md` (prior revision 2026-05-14). The latter cite-key was a manifest text-mining artifact (first author parsed as "original" from "ORIGINAL ARTICLE"; year mined incorrectly as 2020 from cited material), and the page itself carried `suggested_cite_key_rename: alharbi2023-baby-foods-heavy-metals-saudi-arabia` as a rename flag. This page is the canonical surviving cite-key; the duplicate has been removed in the same commit.
-- **Re-verified against the manuscript PDF (2026-05-18).** Source consulted: the archived source file (DOI 10.1002/fsn3.3485, Food Sci Nutr 2023;11:5270–5282). The retired `original2020-original-a` page transposed the As means between cereal-based meals (15.5 µg/kg) and biscuits (11.1 µg/kg); the correct attribution is restored here.
-- **Speciation discipline.** Paper measures total As; source metadata `metals:` uses `tAs`, not `iAs`. The risk-assessment THQ applies the USEPA iAs RfD (0.30 µg/kg bw/day) to total As as a conservative simplification, which is methods detail rather than a speciation measurement.
-- **Brand firewall.** No brand names appear in the manuscript's results or in this page; SFDA NFMP data are reported in aggregate by product category. Domestic-vs-imported split is reported as a sampling-frame descriptor only.
-- **Routing scope.** Stage 1 and stage 2 formulas are entered under the umbrella `products/infant-formula-powder` slug because the paper does not separate soy from non-soy. Cereal-based meals and biscuits are entered under both rice-based and non-rice slugs because the paper does not separate by grain type (the discussion notes rice is the dominant grain in Saudi infant cereals but does not stratify the dataset by grain).
-- **Body-weight and consumption assumptions.** Body weights (5.45 kg at 0–6 mo; 8.90 kg at 7–12 mo) cite Ministry of Health Saudi Arabia 2021. Label-recommended consumption was used; the paper notes that consumption data specific to Saudi infants under one year is sparse and that label portions may not reflect actual intake — a documented limitation of the EDI estimates.
-- **Enhancement scope (2026-05-18, manual-fetch PDF re-ingest).** Relative to the 2026-05-12 revision of this page: full LB/MB/UB EDI, THQ/HI, and MoE values added from Tables 2–4; analytical method detail expanded from Methods §2.2 (UltraCLAVE program, ICP-MS RF/gas settings, atomic masses, EN method references, recovery/RSD/LOD/LOQ); statistical-test results added; per-food-group exposure contributions added; reference-value context (JECFA, EFSA, IARC) added; legacy `## Wiki pages updated on ingest` heading replaced with `## Wiki pages this source may touch`; speciation note clarified.
-- **Codex manual-fetch recheck (2026-05-18).** Fresh-context audit returned REVISE for three cleanup items: unsupported `n = 4 replicates per sample` wording, nonstandard matrix terms, and the internal-standard unit. The PDF page image confirms the source prints `100 mg/mL`; this page now preserves that unit, normalizes matrices to broad controlled terms, and softens the BMDL01/Pb wording to what the source states.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

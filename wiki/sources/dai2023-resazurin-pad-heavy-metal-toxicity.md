@@ -75,16 +75,12 @@ Courses: Useful testing-method example for distinguishing total concentration me
 
 App: Route to testing context and to the Cu, Zn, and Pb metal pages as a screening-method source. Do not route the spike concentrations to water, food, or product occurrence pages.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[testing/index]]
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/lead]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/bios13050523`; no DOI conflict was observed. The source reports Cu2+, Zn2+, and Pb2+ spike concentrations in bacterial culture but no original environmental, food, ingredient, product, or human exposure measurements. Brand and supplier names for reagents and paper are omitted under the brand firewall because they do not identify contaminated products.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

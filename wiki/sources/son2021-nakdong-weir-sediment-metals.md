@@ -140,28 +140,15 @@ App: Useful as environmental-pathway context for how weirs, retention time, sedi
 
 Courses: Useful for teaching why total sediment concentration, sequential extraction fraction, RAC class, and aquatic-life sediment guideline status are different evidence types.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, study-area description, sampling method, aqua regia extraction method, sequential extraction method, RAC definition, Tables 1-3, Figures 1-8, Results sections 3.1-3.5, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, product, fish, or drinking-water sample was analyzed. Lead fraction results are not transcribed because the paper states that Pb was below detection limits in some sequential-extraction fractions and therefore does not present those fraction results.
-
-2026-06-03 merge-enhance pass: added `access_url` and `raw_sha256` to source metadata; expanded `## Methods (brief)` with field instrument details (acrylic-core dimensions, YSI Professional Plus multiparameter probe, EA 1110 FV Instruments elemental analyzer for TOC, Mastersizer 2000 Malvern laser-diffraction particle sizer), the explicit Tessier-step reagent matrix, the Whatman 40 filtration step, ICP-OES instrument model and analytical lab (ICP-5800 Agilent at NICEM, Seoul National University), Inorganic Ventures calibration source, and an explicit note that the metals reported are total Cu/Zn/Pb with no isotopic or oxidation-state speciation. Vendor and instrument names are retained per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names, locked 2026-05-17). The RAC classification scheme thresholds were also moved from Section 2 into the Methods section so the RAC narrative in Key numbers is self-contained.
-
-2026-06-03 audit application (editorial review verdict REVISE, 2 findings applied, 0 rejected):
-
-- **Check 3 ⚠️ Tessier step-2 reagent.** Audit editorial review flagged that Methods (brief) said "carbonates in 1 M CH3COOH at pH 5 for 5 h"; the actual reagent is sodium acetate (CH3COONa). Verified independently by reading PDF p.4: the body text contains an apparent typo ("1 M CH3COOH adjusted to pH 5 with CH3COOH", which is chemically impossible — pure 1 M acetic acid cannot be pH-adjusted to 5 with itself), but Figure 2 (the Tessier flow chart on p.4) unambiguously labels step 2 as "pH5 1M CH3COONa 8ml at room temperature." Corrected step 2 to "1 M CH3COONa adjusted to pH 5 with CH3COOH for 5 h at room temperature." While applying, also added the missing "adjusted to pH 7 with CH3COOH" detail to step 1 (paper p.4) and the missing "3.2 M" concentration prefix to CH3COONH4 in step 4 (paper p.4).
-
-- **Check 2 ⚠️ `[[supply-chain/soil-to-plant-transfer]]` overreach.** Audit editorial review flagged that this routing link overreaches the source's scope because the paper measures river sediment only, not plant uptake, agricultural soils, or crop transfer. Verified by re-reading the abstract, introduction, methods, results, and conclusions: no plant, soil, crop, or transfer-coefficient measurement appears. Removed `[[supply-chain/soil-to-plant-transfer]]` from `## Wiki pages this source may touch`. The remaining four entries (`metals/copper`, `metals/lead`, `metals/zinc`, `testing/index`) accurately reflect the paper's metals scope and analytical-method relevance.
-
-Findings retained as informational (not applied):
-
-- Check 2 minor note that the `matrices:` array uses non-food descriptive slugs (`river-sediment`, `weir-impounded-river`, `surface-water-quality`, `sequential-extraction`, `aqua-regia-extraction`) outside the food-matrix controlled vocabulary. This is the same posture established for non-food environmental and remediation sources (e.g., [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]], [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]); the routing-audit advisory row in `routing_malformed.csv` already records the empty `products`/`ingredients` arrays, which is the correct surfacing channel for this scope.
+- [[supply-chain/soil-to-plant-transfer]]
+- [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]]
+- [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -50,7 +50,7 @@ Courses: This is a useful teaching source for separating food matrices from non-
 
 App: The source supports a category-level flag for imported African spices and additives, especially where users may consume kaun, calabash, or chuna alongside foods.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[products/seafood]]
@@ -62,12 +62,6 @@ App: The source supports a category-level flag for imported African spices and a
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/lead]]
-
-## Verification notes
-
-- The abstract reports average concentrations for broad categories, including spices; Table 2 contains the subcategory structure used by the authors.
-- The source is UK-market evidence for African foods, not primary evidence for African in-country market samples.
-- Arsenic values are total arsenic unless otherwise stated; the authors' risk calculation applies an inorganic-arsenic assumption for fishery products only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

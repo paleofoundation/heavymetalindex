@@ -60,18 +60,6 @@ The authors collected eleven instant-noodle products from a major market in Enug
 
 This source contributes Nigerian market occurrence data for instant noodles, with direct routing value for processed non-rice grain pasta/noodle products. Its strongest occurrence contribution is the set of total As, Cd, Cr, and Pb ranges; the Hg finding is useful only as non-detect context because the source does not provide a detection limit in the extracted text. The paper is not suitable for inorganic-arsenic, methylmercury, or Cr-VI pooling because it reports only total As, total Hg non-detect, and total Cr.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained a readable title page, methods, Figures 1-4, Table 4, discussion, conclusion, and references.
-- No DOI was reported in the extracted text; `doi` is null and `no_doi_assigned: true` is set. Raw handle `MFK_11`, title/author text, and cite-key checks found no existing source page before creation.
-- Concentration ranges were checked against the abstract and the figure-adjacent Results text. Source-reported mean Cd, Cr, and Pb values were checked against the Discussion text.
-- Internal discrepancy: the abstract gives the upper Cd range as `0.77+/-0.04`, while the Results text for Figure 2 gives `0.77 +/- 0.02`; the Key numbers table follows the Results/Figure text and records the discrepancy here.
-- Units are preserved as reported (`mg/kg`, `mg/kg BW`, `kg/person/day`); no conversion to ppb or µg/kg was performed.
-- Speciation: arsenic is recorded as total As; mercury is recorded as tHg non-detect; chromium is total Cr. The source does not report iAs, MeHg, or Cr-VI.
-- Brand firewall: the source describes "eleven brands" but the extracted text uses anonymized sample letters A-K and does not expose product names. This page keeps the sample set anonymized and reports only aggregate ranges.
-- Table 4 appears to contain at least one typographic/transcription issue (`9.99E4` for sample K Cr THQ). That value is not used as a key number.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

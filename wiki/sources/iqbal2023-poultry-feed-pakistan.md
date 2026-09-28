@@ -55,27 +55,15 @@ Six layer-breed chicken samples from each of six farms in Rawalpindi/Islamabad. 
 - Courses: Teachable case for supply-chain QA on how heavy-metal contamination travels feed → tissue → egg in a developing-market poultry system; pairs with FDA / EFSA poultry occurrence data for cross-jurisdictional contrast.
 - App: Contributes Pb, Cd, Cr (total), tHg, Fe rows to [[ingredients/poultry]], [[ingredients/eggs]], and [[ingredients/organ-meats]] (liver specifically).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/mercury-total]]
 - [[metals/iron]]
-- [[ingredients/poultry]]
 - [[ingredients/chicken]]
-- [[ingredients/eggs]]
-- [[ingredients/organ-meats]]
 - [[ingredients/meat-and-poultry]]
-
-## Verification notes
-
-- The matrices tokens used here — `poultry-feed`, `chicken`, `liver`, `breast-muscle`, `thigh-muscle`, `eggs` — are bare strings; `chicken` and `eggs` are common matrices vocabulary, but `poultry-feed`, `liver`, `breast-muscle`, and `thigh-muscle` are not in the standard matrices snapshot. Used here as descriptive bare strings because no closer terms exist; flagging for Karen's review per Part 10 if the matrices vocabulary is closed in the future.
-- Cr reported is total Cr by ICP-OES; Cr-VI speciation was NOT performed. Per Part 14 the wiki must keep total Cr distinct from Cr-VI; this source contributes only to total Cr.
-- Hg "not detected" by ICP-OES; LOD not reported. Whether Hg was truly absent or below ICP-OES sensitivity cannot be inferred from the paper.
-- Composite sampling: although text states "33 liver, 33 breast, 33 thigh samples collected", the analysis was composited to one value per farm (n=6 per tissue type). The reported per-farm means in Table 1 reflect those composites, not individual-bird measurements.
-- 2026-05-29 merge-enhance: prior revision misattributed the WHO whole-egg permissible limits (Cd 0.06-0.07, Cr 0.05, Fe 44.0, Pb 0.43 ppm) to egg albumen; Table 1 of the source places the "Ref: (14)" attribution row between yolk and whole-egg rows, indicating these MPLs apply to whole egg only — corrected. Prior revision also reported egg-yolk minimum values (Cr 0.21, Fe 41.22, Pb 0.49) that match the thigh-muscle minima rather than the yolk column in Table 1; corrected to the actual yolk minima (Cr 0.57 from BY, Fe 53.12 from CY, Pb 4.64 from CY). Means and maxima were unchanged and remain verified. `products:` populated with `poultry-product` and `eggs-product` to clear the routing-malformed advisory; the prior empty `products: []` predated the 2026-05-17 Phase 1 source metadata-discipline rule.
-- 2026-05-29 audit-application: fresh-context Agent editorial review (verdict REVISE) flagged the Table 5 comparison sentence as misframed — prior wording claimed the study's feed Pb (2.605 ppm) was "within ranges (7.9-32.6 feed)" when in fact 2.605 is below the 7.9-32.6 prior range; rewritten as tissue-by-tissue Reported / Sample-under-study pairs that preserve direction. Also tightened the LOD/LOQ attribution to reflect what the Limitations paragraph (p. 495) actually says (non-availability of reference limits, not LOD/LOQ specifically). Matrices verification note expanded to flag all four non-standard tokens (`poultry-feed`, `liver`, `breast-muscle`, `thigh-muscle`) rather than just `poultry-feed`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

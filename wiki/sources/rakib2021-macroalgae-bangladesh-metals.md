@@ -50,19 +50,13 @@ App: The data support a seaweed ingredient signal for Pb, total As, and Cr with 
 
 Microbiome: No direct microbiome endpoint was measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/seaweed]]
 - [[products/seaweed-kelp-foods]]
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- The file arrived under a mineral-water/Pb wishlist filename, but the PDF is a seaweed biomonitoring and food-exposure paper; it was routed by PDF content, not filename.
-- The paper's table heading places "wet weight" before "dry weight", but the surrounding text and conversion formula identify the larger values as dry-weight concentrations and the smaller values as wet-weight conversions. This page preserves that interpretation explicitly.
-- Arsenic is routed as total arsenic because the EDXRF method does not speciate inorganic arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

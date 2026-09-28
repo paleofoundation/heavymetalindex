@@ -114,33 +114,12 @@ Per the source's discussion: "ten products have rates outside the acceptance lim
 
 **Microbiome.** Not addressed in the paper.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[products/hair-dye-rinse-off]]
 - [[products/permanent-hair-dyes-tints]]
-
-## Verification notes
-
-- **2026-05-29 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill).** New page; no prior wiki revision. DOI grep (10.4152/pea.202101037), raw_handle grep (MFK_lead-and-cadmium-in-synthetic-food-colors-and-hair), and `benabbes2021` cite-key grep against the linked reference record all returned zero matches before ingest.
-- **Folder placement is misleading.** The source PDF is filed under the archived source file despite being a hair-dye / cosmetics paper, not a spices / condiments paper. The source-retrieval-generated filename ("Lead and Cadmium in Synthetic Food Colors and Hair Dyes.pdf") additionally describes the paper as covering food colors, but the paper's actual title and content are about synthetic and natural hair dyes only — no food colors are measured. source metadata `products:` and `matrices:` reflect the actual paper content (hair dyes), not the folder placement.
-- **Brand-firewall compliance (Part 12 strict, 2026-05-17 lock).** The source anonymizes the tested brands as "Brand-1" through "Brand-6" with shade descriptors only; no commercial brand names are printed in the source's Table 1 or Table 3. No brand attribution had to be stripped from this ingest. Product codes (e.g., "1a", "4c") are the source's own anonymization codes, not wiki-side brand identifiers.
-- **Wiki/HMTc firewall (Part 2).** No synthesis-across-papers claims, no HMTc threshold proposals, no consumer risk advisories appear in this page. The source's own discussion references to prior literature (Ozbek 2016 natural-henna-vs-synthetic, Jallad 2008 henna paint-on-tattooing, Hussein 2015 Iraq hair dyes, Sani 2016 Nigeria cosmetics) are reported as attributions to the source's own narrative, not as cross-source wiki synthesis.
-- **Paper-internal r-value attribution inconsistency.** Table 2 reports r = 0.992 for Pb and r = 0.999 for Cd. The Results narrative ("Method validation" subsection, p. 40) states "correlation coefficient values (r) of 0.992 and 0.999 for Cd and Pb, respectively" — which inverts Table 2. The abstract ("the method was linear with a correlation coefficient value (r) that ranged from 0.992 to 0.999") is consistent with either reading. Table 2 is treated as authoritative in this transcription.
-- **Paper-internal exceedance-count inconsistency.** The discussion states "ten products have rates outside the acceptance limit for Pb and nine for Cd" without specifying which regulatory threshold was applied. Tabulating Table 3 against the four benchmarks the source cites: 13 of 16 samples exceed 10 ppm Pb (Health Canada), 13 of 16 exceed 20 ppm Pb (Germany), 13 of 16 exceed FDA's 10 ppm Pb guidance, and 0 of 16 exceed the UK's 1% (10,000 ppm) Pb allowance. For Cd: 11 of 16 exceed 3 ppm (Health Canada) and 11 of 16 exceed 5 ppm (Germany). The source's "ten / nine" counts do not match any of these cleanly; the closest interpretation might be that the authors used a different (unstated) acceptance reference, or that "ten" / "nine" refer to a subset (e.g., synthetic-only samples) rather than the full panel. Documented here for the synthesis pass; the wiki transcribes both the source's text-stated counts and the threshold-by-threshold recount.
-- **Speciation.** Differential pulse polarography on acid-digested samples measures total elemental Pb and Cd. Reported as `Pb` and `Cd` (total) per the speciation convention (Part 14). The source itself uses "Pb" and "Cd" without speciation qualifier, consistent with this interpretation.
-- **Method localization detail.** The source identifies the 797 VA Computrace instrument as "(Metrohm, Germany)." Metrohm is headquartered in Switzerland (Herisau) with a major German subsidiary in Filderstadt; the source's "Germany" likely refers to the German distributor. This is a minor source-internal locator note that does not affect the analytical interpretation; transcribed as printed elsewhere in the Methods section with a parenthetical correction in this verification note.
-- **Henna identification.** The discussion identifies the natural dyes as henna-based (Lawsonia inermis), referencing prior literature on henna-driven lead contamination (refs 15-16). The source does not analyze the henna powder separately from the dye preparation. The three natural hair dye products are reported as finished products (4a, 4b, 4c) rather than as the henna ingredient. Wiki `ingredients:` is empty because the current taxonomy does not include a `henna` or `lawsonia-inermis` ingredient slug; this is a possible future-page proposal (with the literature threshold question deferred to Karen / the routing-unresolved log if a second henna-specific source lands).
-- **License.** Portugaliae Electrochimica Acta operates as an open-access journal published by the Sociedade Portuguesa de Electroquímica; the specific Creative Commons license is not printed on the article PDF. Marked as `license: open-access` pending verification against the journal's policy page.
-- **DOI verified.** DOI 10.4152/pea.202101037 printed on the first page of the article header.
-- **Authors verified against PDF byline.** M. Benabbes (corresponding, benabbesmajda@gmail.com), M. Alami Chentoufi, B. Mojemmi, H. Benzeid, H. A Touré, A. Cheikh, Y. Rahali, M. O.B. Idrissi, M. Draoui, M. Bouatia. Institutional affiliations: (a) Laboratory of Analytical Chemistry, Faculty of Medicine and Pharmacy, Mohammed V University, Rabat, Morocco; (b) Faculty of Pharmacy, Abulcasis University, Rabat, Morocco; (c) Team of Formulation and Quality Control of Health Products, Faculty of Medicine and Pharmacy, Mohammed V University, Rabat, Morocco.
-- **Publication / acceptance dates.** Received 5 June 2018; accepted 5 August 2020; published in 2021 issue (Vol. 39, No. 1, pp. 37-44). The two-year review-to-acceptance gap is unusual but is reproduced as the source prints it.
-
-## Ingest log
-
-- 2021 (publication): Portugaliae Electrochimica Acta 39(1):37-44. Received 2018-06-05, accepted 2020-08-05.
-- 2026-05-29 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against the linked reference record (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in full (8 pages: abstract, introduction, materials & methods, results including Tables 1-3, discussion, conclusion, references). Source page written, routing audit queued.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -93,7 +93,7 @@ Courses: Strong source-attribution case for informal metal-product manufacturing
 
 App: Context only. The source can support shared-liability/source-attribution narrative for metal loading around local aluminium-utensil production, but it cannot rank utensils or estimate metal release into food.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[supply-chain/atmospheric-deposition]]
@@ -102,12 +102,6 @@ App: Context only. The source can support shared-liability/source-attribution na
 - [[metals/chromium]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it lacked utensil-product migration data. On reading, it is in-scope a3 source-attribution evidence because it measures environmental metals around local aluminium-utensil production.
-
-Numbers were checked against the extracted PDF text, especially the abstract, soil/water sampling methods, Tables 1-5, discussion, and conclusion. Chromium is total Cr; no Cr(VI) is reported. The paper does not measure aluminium despite its aluminium-utensil production setting, and no finished utensil or food-contact values are inferred.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

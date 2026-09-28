@@ -52,7 +52,7 @@ For herbal-botanical and supplement pages, this source adds a high total-arsenic
 
 For standards work, the product occurrence value is the 16.36 mg/kg total arsenic in the tested wild Cordyceps material. The animal organ data should be routed as toxicology/context rather than as product concentration data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[products/dietary-supplements]]
@@ -60,10 +60,6 @@ For standards work, the product occurrence value is the 16.36 mg/kg total arseni
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-The wishlist route named toys/balloons, but the actual PDF is a Cordyceps pharmacology paper. The DOI and title in the PDF support ingest under Cordyceps/herbal supplement context, with the mismatch noted here rather than escalated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

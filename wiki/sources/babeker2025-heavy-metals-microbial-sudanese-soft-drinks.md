@@ -98,18 +98,6 @@ EF-4 — context only. Twenty single-laboratory measurements from one bottling-s
 - [[metals/chromium]]
 - [[products/soft-drinks-carbonated-beverages]]
 
-## Verification notes
-
-Fresh ingest 2026-05-31. PDF read in one pass (5-page article, pages 18–22) including both result tables. Numerical values for Table 1 (carbonated soft drinks) and Table 2 (fruit-flavoured beverages) cross-checked against the narrative in Sections 3.1–3.3 and against the abstract; one within-source text-versus-table inconsistency was identified — Section 3.2 narrative on page 20 says "Crystal Guava recorded 0.286 ppm iron" while Table 2 (page 21) attributes the 0.286 ppm Fe value to the "Mango Goafa" column within the Pepsi-bottler group; Table 2's "Crystal Mango" column shows Fe ND. The text-versus-table mismatch is between "Crystal Guava" (narrative) and "Mango Goafa" (table). This is documented in Methods (brief) and is not a wiki-side transposition. The wavelength string "324.228.8" in Section 2.1.2 is interpreted as a typeset elision of the Cu 324.7 nm line and the Cd 228.8 nm line — both elements appear in the calibration standards list and in the result tables. The reference for "AOAC [14]" cited throughout Methods points to Harrigan 1988 (food microbiology); this is treated as a citation mismatch in the source rather than a wiki-side transcription error.
-
-Brand firewall (Part 12, strict reading) applied: brand names appear extensively in the source and the abstract frames the finding by brand. The wiki source page aggregates to bottler-count level (2 of 4 bottlers carried the Pb exceedances) and to product-form level (carbonated soft drinks, fruit-flavoured beverages, mango-flavoured, guava-flavoured) without naming any individual branded product or branded bottler in body or source metadata. The substantive finding preserved at this aggregation is that lead exceedances clustered in 2 of the 4 sampled bottler corpora rather than distributing evenly across all bottlers; brand identities of those bottlers are out of scope.
-
-Wiki/HMTc firewall (Part 2) not engaged — no synthesis claims authored; the `## Implications` paragraph describes the single-paper contribution as context entry on the soft-drinks product page and explicitly notes that the Cd / Cu / Cr non-detection cannot be used as a tighter ceiling than the cited limits, which is the conservative reading.
-
-Speciation: paper measured total Cr without hexavalent-vs-total separation, so `metals:` uses `Cr` not `Cr-VI`; Hg and As were not measured, so they do not appear in `metals:`. Cd reported only as elemental total Cd (no speciation question for Cd). Fe and Cu reported as elemental totals.
-
-Matrices `carbonated-soft-drink` and `fruit-flavoured-soft-drink` are descriptive provisional matrix slugs; the canonical product route is `products/soft-drinks-carbonated-beverages` (which exists). Geographic context (Sudan, Khartoum) lives in `jurisdictions:` and `sampling_locations:` rather than as a matrix slug. The paper does not separate carbonated from still beverages within the "beverages" column of Table 2; the fruit-flavoured beverages are treated by the Sudanese soft-drink industry under the same product category framing and route to the same wiki product page. `ingredients:` is empty because the paper analyses finished-beverage matrix only and does not decompose into water, sweetener, flavouring, or fruit-juice ingredients; an empty array is consistent with this being a finished-product occurrence study at the product-form level.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

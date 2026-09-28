@@ -61,7 +61,7 @@ Courses: The report is a concrete example of how infant-food risk assessment dep
 
 App: The source can support infant formula, baby cereal, baby snacks, fruit/meat/fish baby foods, and other infant-diet food profiles while suppressing brand-specific results.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-soy-based]]
@@ -78,14 +78,6 @@ App: The source can support infant formula, baby cereal, baby snacks, fruit/meat
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/tin]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1459.txt`; the executive summary, sampling plan, Annex 1 Tables 1-5, and exposure/risk sections were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_fsa-2014-infant-foods-metals`, raw SHA-256 `7855edeb89e7ddd2db854ddd71e6de833299e7c3abaa1ac51e63cab0ffb84e09`, and cite key `fsa2014-infant-foods-metals` were searched in the linked reference record; no existing source page was found.
-- Units and basis are preserved: ready-to-feed formula values use `µg/l`, dry formula and foods use `µg/kg`, and exposure estimates use `µg/kg bw/day`. Powder formula and dried cereal products are as sold, not reconstituted.
-- Speciation: total arsenic and inorganic arsenic are separated. Chromium is total Cr assumed by the source to be Cr(III) for exposure; no Cr(VI) values are inferred. Mercury exposure is total mercury assumed as methylmercury by the source for risk assessment, but this page labels product occurrence as `tHg`.
-- Brand firewall: the report measured brand-name products, but this page records only category/group values and no brand-by-value table.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

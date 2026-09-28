@@ -60,7 +60,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-Routed sources are still sparse, so this page preserves the product row and waits for the source-routing layer to add citations. At this synthesis stage, the inventory is used to distinguish direct finished-product occurrence data from broader dietary, ingredient, exposure, or review context. Sources that do not resolve product form, jurisdiction, basis, or analyte species remain visible here but should not be treated as benchmark-ready rows until structured extraction and routing confirm fit.
+At this synthesis stage, the inventory is used to distinguish direct finished-product occurrence data from broader dietary, ingredient, exposure, or review context. Sources that do not resolve product form, jurisdiction, basis, or analyte species remain visible here but should not be treated as benchmark-ready rows until structured extraction and routing confirm fit.
 
 ## Broad Product Context: Author-Scope Index
 
@@ -89,7 +89,7 @@ No row-specific public recall or enforcement synthesis has been promoted for Inf
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

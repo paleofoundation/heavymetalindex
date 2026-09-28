@@ -86,7 +86,7 @@ App: Provides powdered-milk occurrence context and method metadata for a 27-elem
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/arsenic-total]]
@@ -112,14 +112,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-dairy]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula wishlist. The wishlist target metal was Ca, but the paper's useful HMT&C endpoint is the broader hazardous-element panel in powdered infant/child milks.
-- Strict brand firewall: the paper anonymizes formulas as A-L. This page preserves only source sample codes and does not name commercial brands.
-- The paper reports total As, total Hg, and total Cr only; no arsenic, mercury, or chromium speciation was performed.
-- Table 2 ranges/SD values are whole-set statistics across infant, child, and adult powdered milks; the page does not reinterpret them as infant-only distributions.
-- Methods vendor/equipment/software names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -56,7 +56,7 @@ Experts from the National Botanical Research Institute, Lucknow identified the f
 
 The paper supports botanical raw-material occurrence context for medicinal plants harvested in urban and industrial environments. Soil values should remain collection-site context, while plant-part values can inform herbal-botanical contamination profiles. Because the source prints many values only in figures, downstream extraction should not invent full sample-level tables from bar heights.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -65,16 +65,6 @@ The paper supports botanical raw-material occurrence context for medicinal plant
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/S0895-3988(08)60049-5`, raw handle `MFK_barthwal2008`, or cite key `barthwal2008-medicinal-plants-heavy-metals-lucknow`.
-- DOI/access check: the DOI was not printed in the extracted PDF text, but PubMed lists PMID `18837296` with DOI `10.1016/S0895-3988(08)60049-5`.
-- All Key numbers were checked against `/tmp/hmi-june9-080.txt` extracted with `pdftotext -layout`. Figure-only values that were not printed in text are reported as "exact value not printed in text."
-- Units are preserved as `µg/g`; no conversion to mg/kg or ppb was performed.
-- Speciation check: Cr is total chromium by ICP emission spectrometry. The page does not claim Cr-VI.
-- Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
-- Brand firewall: no commercial brands or producers are reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

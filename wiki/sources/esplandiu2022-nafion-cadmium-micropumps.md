@@ -46,15 +46,11 @@ Courses: Strong advanced remediation example linking material design to metal ca
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The source is in-scope lane a2 because it reports measurable cadmium capture and water-remediation performance.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

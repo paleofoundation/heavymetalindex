@@ -49,18 +49,13 @@ Soil samples were taken from the upper 20 cm with a stainless-steel scoop; kale 
 
 The source supports vegetable/kale context for Pb, Cu, and Zn under sewage-sludge irrigation conditions. Soil and kale values should remain separate matrices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/leafy-greens]]
 - [[products/leafy-vegetables-other]]
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.19080/IJESNR.2018.15.555907 and the downloaded PDF.
-- Values are source-reported in ppm; this page does not convert ppm to mg/kg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

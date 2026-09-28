@@ -53,21 +53,6 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: Not a focus of this source.
 
-## Wiki pages this source may touch
-
-- [[metals/cadmium]]
-- [[metals/lead]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
-
-## Verification notes
-
-- Evidence tier B: primary field-sampling study in a peer-reviewed journal.
-- Page grounded in the published abstract plus the PDF first page (read on ingest for authorship); values preserved as printed. The abstract's concatenated tissue ranges are reproduced as printed and should be re-checked against the source tables before any downstream numeric use.
-- Authors resolved from the PDF (not indexed in Crossref/OpenAlex); raw file renamed from the discovery placeholder `x2024-...` to `ojha2024-...`.
-- `ingredients: []` / `products: []` correct: experimental phytoremediation context, not retail food occurrence; mustard is the test species, carried in `matrices`.
-- Part 2 direction-of-edit check: adds upstream mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

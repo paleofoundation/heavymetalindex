@@ -58,22 +58,11 @@ Courses: The paper is a useful supply-chain case study for how irrigation-water 
 
 App: The source adds a rice ingredient contamination-profile example for `tAs` on a dry-weight basis, with prominent labels that the paper reports total arsenic rather than inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`. The extracted text was checked against the rendered PDF pages because Table 1 extracted cleanly but some later table bodies were not present in the text layer.
-- Identity checks before creation: DOI `10.1016/j.chemosphere.2007.05.044`, exact title phrase, raw handle `MFK_07-remediation-method`, raw SHA-256 `7fede1d0286d9029caf4deae1e0941e2719a4504a803ef9f839596725e646c0c`, and cite key `rahman2007-rice-grain-arsenic-fractions` were searched in the linked reference record and evidence files. No existing source page was found; only intake/tracker metadata and unrelated log references appeared.
-- DOI disambiguation: the manuscript reference list cites a related Rahman et al. Ecotoxicology and Environmental Safety article with DOI `10.1016/j.ecoenv.2007.01.005`; that is not the identity DOI for this raw PDF. The title of this PDF resolves to Chemosphere DOI `10.1016/j.chemosphere.2007.05.044`.
-- Units and basis are preserved as printed: rice and plant-tissue values use `mg kg-1 dry weight` or `mg of As kg-1 dry weight`; water uses `mg l-1`; tomato-leaf CRM values use `µg g-1`.
-- Speciation: the method is HG-AAS total arsenic after digestion. The page uses `tAs` and does not substitute inorganic arsenic (`iAs`).
-- Scope separation: edible raw rice, brown rice, and polish rice values are product occurrence evidence; soil, irrigation water, root, straw, husk, and bran-polish are recorded as supply-chain or processing context.
-- Missing table extraction: the source states that Table 4 contains the grain-fraction values. The extracted text provides the edible-rice and husk/BRRI dhan28 bran-polish values in the Results prose, but the BRRI hybrid dhan1 bran-polish numeric cells did not extract cleanly; those cells are therefore not reconstructed.
-- Closed-vocabulary check: `ingredients/rice`, `products/rice-bulk-grain`, `matrices: [rice-grain]`, `jurisdictions: [BD]`, and `metals: [tAs]` match the current taxonomy/metals vocabulary. No rice-fraction-specific product slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

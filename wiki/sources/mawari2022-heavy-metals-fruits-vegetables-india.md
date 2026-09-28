@@ -86,39 +86,6 @@ Courses: Useful for illustrating (1) multi-commodity occurrence surveillance met
 
 App: Garlic, sugarcane, sorghum, fenugreek, tamarind, and ginger add Indian-context data points for the regional contamination layer. The model can flag garlic specifically as a Cd-concern commodity when ingredient lists include garlic from Indian-sourced supply chains.
 
-## Verification notes
-
-This page was merge-enhanced on 2026-05-19 from a prior version (updated: 2026-05-13) ingested via the FM_9434655 markdown route. The PDF at the archived source file was re-read directly to verify and correct the earlier ingest. Defects corrected:
-
-- **Authors corrected.** Prior page listed "Mawari G, Kumar P, Jaroli P, Devnani M, Singh B, Semwal J" — fabricated. Actual byline (page 1, with affiliations and ORCID confirmation page 9): Govind Mawari, Naresh Kumar, Sayan Sarkar, Mradul Kumar Daga, Mongjam Meghachandra Singh, Tushar Kant Joshi, Naushad Ahmed Khan.
-- **Title corrected.** Prior title omitted the "and Human Health Risk Assessment: Findings From" portion. Full title from page 1 restored.
-- **Location specified.** Prior page said "Maharashtra, India" generally; paper specifies the industrialized city of Solapur (page 2, Materials and Methods).
-- **Soil claim corrected.** Prior page asserted "Soil concentrations exceeded background values for Pb at several sites, suggesting anthropogenic contamination is a contributing driver." Paper actually states (page 5, Results): "Heavy metal concentrations were found to be below the permissible levels set by Indian and European standards (Table 3)." The corrected page reflects this.
-- **Per-commodity values added.** Prior page omitted Table 4 specifics. Garlic Cd 0.37, sugarcane Pb 1.741, sorghum Hg 0.356, and the WHO/FAO exceedance pattern are now in Key numbers.
-- **HRI/HI added.** Prior page did not mention the HRI > 1 and HI > 1 findings for garlic and sugarcane. These are the paper's primary human-health conclusions; added with explicit numerical values from Table 4.
-- **Reporting basis clarified.** Prior page asserted fresh weight without source citation; paper does not explicitly state basis, though direct comparison to WHO/FAO standards (which are fresh-weight) implies the same. Note added.
-- **Speciation flagged.** Prior page noted "total metals only" parenthetically; promoted to explicit Key-numbers item.
-- **License added.** Paper is CC BY-NC 4.0 (page 1 footer). Prior page said `license: unknown`.
-- **Ingredients trimmed to broad slugs.** Prior page listed `[[ingredients/herbal-botanicals]]` (poor fit for the commodity mix in Table 1), `[[ingredients/potatoes]]`, `[[ingredients/vegetables]]`, `[[ingredients/fruit]]`. Trimmed to the three broad slugs; routing layer fans out to sibling pages per Part 5b.
-- **Sample size context corrected.** sample_n = 24 is the number of commodity types, not the number of independent samples; per-commodity sample count is not disaggregated in the paper. Note added in sample_population.
-- **Near-duplicate path recorded.** The original PDF in the Manual Fetch source-retrieval tree is documented in `near_duplicates` so future identity checks resolve to this page.
-
-The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metals-drinking-water-india`) is a separate, distinct paper from a different study and is unrelated to this one; matched on author lastname only.
-
-**Audit editorial review 2026-05-19 (REVISE verdict, one ❌ finding):** The editorial review flagged Potato HI = 0.916 as inconsistent with Table 4, asserting Table 4 reports Potato HI = 0.2958333. Verified against Table 4 directly (page 6): row 3 (Ginger) HI = 0.2958333; row 4 (Potato) HI = 0.9156667 ≈ 0.916. The 0.916 value in the wiki page is correct and confirmed by the row-level HRI sum (Potato: HRI Cd 0.115 + HRI Pb 0.6775 + HRI As 0.1166667 + HRI Hg 0.0065 = 0.9156667). The editorial review's finding is a false positive caused by row mis-alignment between Ginger (row 3) and Potato (row 4). No change applied. The editorial review's ⚠️ concerns about the Implications/App framing were considered — both are scoped as program-only/downstream-app context, not as wiki claims, and remain unchanged.
-
-**Merge-enhance re-pass 2026-05-31** (PDF re-encountered in the archived source file, flagged via routing_malformed advisory "missing optional routing-input fields"):
-- **Products populated.** Prior source metadata had `products: []` (advisory: routing layer falling back to broad scope via matrices only). The paper's 24 commodities map to four existing Cat 4 Step 0 Lock product rows: root-tuber-vegetables (potato, carrot, radish, garlic, ginger, onion), non-root-vegetables (brinjal, cucumber, tomato, okra, sugarcane, sorghum, broad/mung/cream beans, chickpea, red gram, green peas), leafy-vegetables-other (cabbage, fenugreek/methi leaves), fresh-fruit (apple, orange, papaya, tamarind). All four destinations are existing scaffolded pages; no new product pages created.
-- **Sampling year recorded.** `sampling_year_range: null` → `2017` (paper page 2, Materials and Methods: "winter (January) and summer (April) in the year 2017").
-- **Near-duplicate path added.** source-retrieval Agent Download Corruption Issue tree path added to `near_duplicates` so future identity checks resolve to this page.
-
-**Audit editorial review 2026-05-31 (PROMOTE verdict, one ⚠️ routing-precision concern, verified and applied):**
-- Check 1 (numerical fidelity), Check 3 (speciation/methods), Check 4 (brand firewall), Check 5 (wiki/HMTc firewall): all ✅.
-- Check 2 (slug vocabulary): ⚠️ concern that the broad `non-root-vegetables` routing silently absorbed 6 legume commodities (broad beans, chickpea, mung beans, cream beans, green peas, red gram) and the grain crop sorghum that would route more accurately to `legumes-pulses-other` (Cat 4 Row 8) and `other-grain-products` (Cat 3 Row 11) respectively. Verified both destination pages exist with appropriate scope (legumes-pulses-other: "Beans, lentils, chickpeas, split peas"; other-grain-products: "oat, millet, quinoa, barley" — sorghum is a millet-adjacent cereal grain). Applied: added both to products array and to "Wiki pages this source touches." Non-root-vegetables retained as a wide-net catch for sugarcane (which has no clean product home), brinjal/eggplant, cucumber, tomato, okra. The product count moves from 4 → 6.
-- The audit also surfaced a 1-count minor discrepancy in the wiki page's "11 vegetables and 13 fruits/legumes" framing vs Table 1's actual split of 10 in the vegetable block / 14 in the fruit block (the paper itself oddly classifies brinjal, cucumber, okra as "fruits"). Not a wiki-side defect — the wiki summary aligns with biological vegetable/fruit classification rather than the paper's idiosyncratic table grouping. Left unchanged.
-
-**2026-06-08 byte-identical filesystem-copy enhancement:** added a third entry to `near_duplicates` recording the source-retrieval agent's June 8 placement of the same paper PDF under the archived source file. SHA-256 verified byte-identical to the two prior near_duplicates entries (`48206ac5013a1b5d2af573834afef08e5b819bc5dffdb64f14a64cd1d5cb43d5`). Manual-fetch loop now recognizes this third source-retrieval-folder location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
-
 ## Wiki pages this source touches
 
 - [[metals/lead]]
@@ -134,6 +101,10 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - [[products/fresh-fruit]]
 - [[products/legumes-pulses-other]]
 - [[products/other-grain-products]]
+
+## Related evidence
+
+- [[ingredients/herbal-botanicals]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

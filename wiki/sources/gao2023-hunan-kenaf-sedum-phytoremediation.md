@@ -86,19 +86,13 @@ Courses: Useful case study for the difference between phytoremediation crop succ
 
 App: Route as contaminated-farmland and phytoremediation context for Cd, Cu, Pb, and Zn. Do not route kenaf/Sedum plant-tissue concentrations to food ingredient pages.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agronomy13051231`; no DOI conflict was observed. This is a primary field study, but the matrices are contaminated soil and non-food phytoremediation biomass, not food, feed, or consumer-product matrices. No ingredients or products are listed in source metadata for that reason. The source uses total elemental Cd, Cu, Pb, and Zn; no speciation issue arises. Values from Figures 1-4 are partly graphical; the page quotes exact numeric values only where the PDF text or Table 2 provides them directly.
-
-2026-06-02 enhancement: replaced non-standard matrix slugs (`contaminated-farmland-soil`, `phytoremediation-biomass`, `kenaf`, `sedum-plumbizincicola`) with the recognized vocabulary entries `agricultural-soil` and `plant-tissue`. Both terms appear in the `_no_route` block of the structured evidence record, so the routing layer correctly ignores them rather than emitting false product routes. Plant-species identifiers (kenaf, Sedum plumbizincicola) are not matrix categories and have been dropped from source metadata; the species names remain in the body where they belong.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

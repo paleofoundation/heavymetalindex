@@ -55,7 +55,7 @@ Courses: The paper is useful for showing why bee-derived ingredients can carry b
 
 App: The source can support bee-pollen matrix warnings or gap flags if a bee-product ingredient page is later scaffolded.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/dietary-supplements]]
 - [[products/supplements-vitamin-mineral]]
@@ -68,12 +68,6 @@ App: The source can support bee-pollen matrix warnings or gap flags if a bee-pro
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- The auto-fetched filename routes this to a vitamin/mineral supplement product query, but the PDF matrix is dried bee pollen.
-- The PDF gives total elemental chromium only; it does not support Cr(VI) routing.
-- No ingredient page for bee pollen exists at ingest time, so source metadata uses existing supplement product pages and source-specific matrix terms without inventing an ingredient slug.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

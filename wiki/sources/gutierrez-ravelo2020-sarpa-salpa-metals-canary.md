@@ -85,14 +85,9 @@ The authors collected ten *Sarpa salpa* specimens from each of three Tenerife co
 
 This source contributes Tenerife/Canary Islands occurrence data for a marine non-predatory fish species, with a clear distinction between fish muscle and liver. For product routing, the muscle values are the best fit for fresh-fish occurrence. The liver values are important seafood organ-meat context but should not be silently substituted for ordinary fish-muscle concentrations.
 
-## Verification notes
+## Related evidence
 
-- PDF text extracted with `pdftotext -layout`; title page, sampling section, methods, Tables 2-6, discussion, conclusions, and license text were readable.
-- DOI `10.3390/ijerph17197212`, raw handle `MFK_10-3390-ijerph17197212`, and cite-key checks found no existing source page before creation.
-- Table 3 tissue means, selected Table 4 zone highlights, and Table 6 exposure rows were checked against the extracted text. Units are preserved as `mg/kg wet weight` for concentration values; no conversion was performed.
-- Speciation: chromium is total Cr, not Cr-VI. Mercury and arsenic were not analyzed.
-- Brand firewall: source specimens came from fishermen's organizations/coastal zones, not consumer brands.
-- source metadata slugs were checked against the editorial record; no new product or ingredient slug was invented. There is no closed product slug for fish liver/organ meat in the current snapshot, so liver is represented with `[[ingredients/organ-meats]]` and documented in the body.
+- [[ingredients/organ-meats]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

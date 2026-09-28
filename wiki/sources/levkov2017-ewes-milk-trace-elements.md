@@ -55,7 +55,7 @@ Courses: Useful case for showing how upstream mining and smelting context can ap
 
 App: Context for dairy ingredient exposure patterns, especially for metals reported above detection in wet-weight milk.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/arsenic-total]]
@@ -66,10 +66,6 @@ App: Context for dairy ingredient exposure patterns, especially for metals repor
 - [[metals/zinc]]
 - [[metals/aluminum]]
 - [[metals/manganese]]
-
-## Verification notes
-
-Recovered from `skip:incomplete-metadata` during the 2026-06-11 recovery fire. DOI was not visible in the extracted text, but the PDF contains direct wet-weight occurrence data for raw ewes’ milk and is in-scope lane a1 evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

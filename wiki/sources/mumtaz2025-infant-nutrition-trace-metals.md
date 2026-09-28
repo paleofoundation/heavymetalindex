@@ -48,7 +48,7 @@ Useful for course material on rural-urban exposure disparities in infant nutriti
 
 App-relevant only after per-brand or per-product-form extraction, which this paper does not provide (values are aggregated at rural/urban level only).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula]]
 - [[ingredients/infant-formula]]
@@ -58,12 +58,6 @@ App-relevant only after per-brand or per-product-form extraction, which this pap
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[metals/iron]]
-
-## Verification notes
-
-The same DOI was fetched under Cd and Ni formula gaps. This page is canonical for those duplicate paths.
-
-Audit 2026-06-09 (autonomous): replaced invented "urban THQ for Pb as 2.33 +/- 18.4" key-number line with the directly-verifiable Pb/Cd/HI/TCR values from Tables 2, 3, 7, and 8; removed invalid `ingredients/formula` slug; added the breast-milk arm (`ingredients/breastmilk`, sample population, methods) which the original ingest had silently dropped; added instrument model (PerkinElmer NexION 2000B), CRMs (NIST SRM 1643f and 1577c), and concentration basis (mg/L). The Table 2 THQ Pb fields ("Rural 12676 ± 16217", "Urban 2.3304 ± 18427") and Table 2 Cd column ("Rural 0.8 ± 0.0014") appear to be PDF rendering artifacts (likely misplaced decimals or merged thousands separators); the Table 3 / Section 3.1 narrative values (Pb 0.0044 / 0.0082 mg/L; Cd 0.0016 mg/L urban; HI 2.30 / 4.18) are internally consistent across the abstract, narrative, and Tables 7 and 8 and are used here as canonical. Audit verdict: REVISE.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -48,16 +48,12 @@ Courses: Useful phytoremediation case for comparing plant uptake and residual-wa
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip dropped a prepared-solution phytoremediation study; on re-read it is in-scope lane a2 mitigation evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

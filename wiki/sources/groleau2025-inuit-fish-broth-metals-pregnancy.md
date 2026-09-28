@@ -170,36 +170,6 @@ Quality control used the following certified reference materials: DORM-2, DORM-4
 
 **Microbiome:** Not directly addressed in this paper.
 
-## Verification notes
-
-**Enhancement 2026-05-18 (automated editorial review, manual-fetch ingest):** The previously committed page (2026-05-14) had multiple defects fixed here:
-
-- Wrong title — the previous version's title ("Heavy metals, trace elements, and nutrients in traditional Inuit country foods…") does not match the paper. The actual title is "Improving nutritional intakes and reducing metal(loid) exposures from wild fish broth among Inuit pregnant women".
-- Wrong authors — the previous version listed Dallaire R, Bherer L, Dewailly E, Ayotte P among the authors; the actual authors are Tania Groleau, Mélanie Lemire, Dominic E. Ponton, and Marc Amyot.
-- Invented sample_population — the previous version included walrus, seal, beluga, ringed seal, and char eggs; this paper does not measure marine mammals or char eggs. sample_n set to null (multiple cohorts; see sample-structure table in Key numbers).
-- Invalid matrices vocabulary — previous version used `fish-tissue`, `broth`, `food`. The matrices vocabulary recognizes `fish`, `mollusk`, `seaweed`, `drinking-water`; `broth` was added here because broth is the paper's primary matrix and is not covered by the underlying ingredient slugs. Flagging `broth` as a candidate addition to the matrices controlled vocabulary for Karen's review.
-- Missing seaweed and bivalve data — the previous Key numbers focused only on mercury and arsenic and omitted the substantial seaweed/bivalve nutrient and Cd/Pb findings, which are a major part of the paper.
-- Missing key finding — the previous version stated "iAs <6% in fish broth" but the <6% iAs figure is for fish tissue ingredients, not broth; the broth speciation values are different (AsB 85–88% in fish broth, As-Sug 65% in seaweed broth, iAs(V) 29% in clam broth — the last being the notable exception).
-- Invented CRM — previous version cited DOLT-5 as a quality-control material; the paper uses DORM-2, DORM-4, TORT-3, SO-2, SRM-3232, and PTC. DOLT-5 is not mentioned.
-- Lucky Iron Fish (LIF) is named once in Methods because the device is the explicit subject of one of the four experiments in the paper and the finding cannot be discussed coherently without the identifier. Per Part 12 strict reading this is a borderline case; the device is a social-enterprise public-health product evaluated against its own marketing claim, not a consumer-product brand under contamination ranking. Flagging for audit.
-- Legacy headings — replaced `## Wiki pages updated on ingest` (legacy) with a verification-notes section per current schema.
-- `bivalve-molluscs` added to ingredients (paper substantively measures mussels and clams).
-- `Ca`, `Mg`, `Zn` added to metals source metadata (paper measures these alongside the heavy-metal panel as nutrient elements; consistent with the existing inclusion of `Fe`, `K`, `Se`).
-- `access_url` added (CC BY 4.0 open access via DOI).
-
-**Audit application 2026-05-18 (fresh-context editorial review, verdict REVISE):**
-
-Findings applied:
-- Lake trout cheek/tongue/brain THg attribution corrected. Previous version had "Lake trout brain: 0.03–0.3 µg/g ww"; PDF p. 8 attributes 0.03–0.3 to Arctic char cheeks, not lake trout brain. Lake trout tongue and brain are reported only as a combined range (0.154 to 0.640 µg/g ww). Arctic char tongue/brain reported separately as <0.002 µg/g ww.
-- Arctic char tongue/brain As-speciation row corrected. Previous version had labels inverted ("mainly AsB | with <13% As-Sug, <2% AsL"); PDF p. 8 reads "tongues and brains contained AsB (<13 %) and As-Sug (<2 %), but a large amount remains unknown." Corrected to AsB <13%, As-Sug <2%, AsL/iAs not specified, unknown fraction noted.
-- Pb broth exception language corrected: "except one lake trout broth" → "except a few lake trout broths" per PDF p. 8.
-
-Findings rejected (false positives):
-- Audit flagged "Cd in broths: all below the potable-water RMRV of 7 µg/L" as a missing exception. Verified against PDF p. 8: the source reads "THg (1 µg/L, except one lake trout broth), Cd (7 µg/L), and Pb (5 µg/L, except a few lake trout broths)." The "except one lake trout broth" parenthetical applies to THg, not Cd; Cd is parenthesized alone with no exception. Wiki claim is correct as written.
-- Audit flagged the Arctic char broth row of Table 1 as having mismatched values (Ca, Fe, Zn). Verified against PDF p. 6 Table 1 directly: Arctic char Broth (NF), n=4: K 26 ± 5, Ca 12.0 ± 1.9, Mg 14.5 ± 0.8, Fe 4.4 ± 2.0, Zn 3.2 ± 2.0, Se 94 ± 20. Wiki matches exactly. The audit editorial review appears to have parsed the table with a one-column offset.
-- Audit flagged `drinking-water` as a non-snapshot matrices slug. Verified against the editorial record matrices vocabulary list: "drinking-water" is in the controlled vocab.
-- Audit deferred the Lucky Iron Fish naming as a borderline Part 12 call. Decision retained: the device is the explicit subject of one of the four experiments in the paper and is being evaluated against its own marketing claim (not ranked against competitors for contamination). Without naming it, the finding cannot be traced to the cited Armstrong 2016 and Charles 2012 references. The Part 12 spirit (no brand-ranking-by-contamination) is preserved because the value attached is *non-contamination* (sub-marketed iron release). Karen-level policy override welcome.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

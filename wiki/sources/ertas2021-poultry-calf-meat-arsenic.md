@@ -47,7 +47,7 @@ Samples were digested with concentrated nitric, perchloric, and sulfuric acids. 
 
 The source supports total arsenic occurrence evidence for poultry and calf meat. It does not speciate inorganic arsenic, so it must not be routed as iAs evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/poultry]]
 - [[ingredients/chicken]]
@@ -56,10 +56,6 @@ The source supports total arsenic occurrence evidence for poultry and calf meat.
 - [[products/poultry-product]]
 - [[products/beef-product]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The paper discusses inorganic arsenic toxicology in the introduction, but the measured endpoint is total arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

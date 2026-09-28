@@ -50,18 +50,12 @@ Courses: Useful for explaining how hydrogeochemistry, pH, and groundwater manage
 
 App: Context only for arsenic source-water risk explanation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
 - [[metals/arsenic-total]]
 - [[health/index]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from a prior `skip:not-target-cell` disposition. The old skip ignored the fact that the paper is direct arsenic groundwater occurrence plus health-risk modelling in a vulnerable population setting.
-
-Products and ingredients are intentionally empty because the matrix is groundwater, not a market product. Arsenic is tagged as `tAs` because the paper measures total groundwater arsenic and does not present inorganic-arsenic speciation for consumer-product routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

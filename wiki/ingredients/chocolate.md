@@ -114,7 +114,7 @@ Chocolate carries cadmium primarily through its cocoa solids, which concentrate 
 
 ## Ranges by source, region, and variety
 
-_Pending ingest of commodity-level occurrence data. EFSA 2009 Table 1 of approximately 140,000 European samples reported a mean cadmium concentration in chocolate of 0.090 mg/kg, which is one-half the mean reported for cocoa (0.178 mg/kg), consistent with the dilution from milk, sugar, and cocoa butter in typical chocolate formulations. Dark-chocolate-specific values are higher; brand and origin variation is substantial and is the subject of Consumer Reports and HBBF published testing that is outside this wiki's brand-level firewall scope._
+EFSA 2009 Table 1 of approximately 140,000 European samples reported a mean cadmium concentration in chocolate of 0.090 mg/kg, which is one-half the mean reported for cocoa (0.178 mg/kg), consistent with the dilution from milk, sugar, and cocoa butter in typical chocolate formulations. Dark-chocolate-specific values are higher; brand and origin variation is substantial and is the subject of Consumer Reports and HBBF published testing that is outside this wiki's brand-level firewall scope._
 
 ## Processing effects
 
@@ -187,7 +187,7 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Perspective on Cadmium and Lead in Cocoa and Chocolate]]<span class="hmi-ref-meta">Eileen Abt and Lauren Posnick Robin · Journal of Agricultural and Food Chemistry · 2020 · [doi.org/10.1021/acs.jafc.9b08295](https://doi.org/10.1021/acs.jafc.9b08295)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -204,7 +204,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

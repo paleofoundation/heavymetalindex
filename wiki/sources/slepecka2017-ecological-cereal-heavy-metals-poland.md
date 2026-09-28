@@ -94,7 +94,7 @@ Courses: The paper is useful for teaching that ecological/organic production sta
 
 App: The source can support ingredient-derivative context for bran-containing cereal products, but any display should label the dataset as a small Polish survey and preserve the B-tier caution on very high Cd values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -106,14 +106,6 @@ App: The source can support ingredient-derivative context for bran-containing ce
 - [[ingredients/cereals]]
 - [[products/flour-non-rice]]
 - [[products/other-grain-products]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Kept evidence_tier B because the source is a small 20-product survey with values reported mainly from figures/narrative text and limited analytical QA/QC reporting.
-- Replaced older HMTc-threshold and cross-source-consensus phrasing with source-only implications.
-- Replaced invalid ingredient links to non-existent `oats`, `rye`, and `barley` pages with existing vocabulary routes.
-- Strict brand-firewall check: no consumer brands are named; instrument, reagent, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

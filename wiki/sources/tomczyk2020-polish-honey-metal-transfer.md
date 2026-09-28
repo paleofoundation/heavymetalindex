@@ -61,7 +61,7 @@ App: Honey can carry measurable Cd and Pb, but this Polish dataset suggests most
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
@@ -70,10 +70,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/aluminum]]
 - [[metals/manganese]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The PDF title, author list, DOI, year, publication, methods, and Table 2 values were read from the auto-fetched PDF. The paper reports total element concentrations, not arsenic speciation or mercury speciation. The source supports honey occurrence and soil-to-honey transfer context; it does not support US-market benchmark pooling without a separate market-stratification decision.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

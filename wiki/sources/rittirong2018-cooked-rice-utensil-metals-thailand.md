@@ -57,7 +57,7 @@ For rice pages, this is direct Thailand-market occurrence evidence for cooked ri
 
 For standards work, cooked-rice values must be kept on the study's dried cooked-rice basis unless a later contribution log converts to as-consumed wet rice.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
@@ -69,10 +69,6 @@ For standards work, cooked-rice values must be kept on the study's dried cooked-
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The abstract provides the headline concentrations and risk metrics. The source does not support an inorganic arsenic claim.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

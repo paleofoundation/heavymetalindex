@@ -66,7 +66,7 @@ For product routing, the source is strongest for fresh freshwater fish and broad
 
 For methods documentation, the source is useful for explaining why arsenic speciation generally requires chromatographic separation plus element-specific detection, and why ICPMS alone cannot identify co-eluting or unknown arsenic compounds without complementary molecular techniques.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/arsenic-inorganic]]
@@ -77,10 +77,6 @@ For methods documentation, the source is useful for explaining why arsenic speci
 - [[products/fresh-fish]]
 - [[products/fish-freshwater]]
 - [[products/seafood]]
-
-## Verification notes
-
-- Manual-fetch merge-enhance (Codex, 2026-05-18): corrected raw metadata for P0174, replaced over-specific matrix terms with broad `fish`, corrected the Changsha crucian-carp rows to dry weight, removed old HMTc/course/app language, and retained only taxonomy-backed source links.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

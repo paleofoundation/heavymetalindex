@@ -178,13 +178,6 @@ The report is the OSPAR-area sibling to [[sources/helcom2017-core-indicator-meta
 
 Sediment threshold values are reported with European-style decimal commas in the original Table a (e.g., "0,31" for Cd BAC in mg/kg dw); these have been faithfully transcribed using standard decimal points in this page (0.31 mg/kg dw, etc.) number convention.
 
-## Verification notes
-
-- Audit editorial review (2026-06-03) flagged the cadmium trend attribution in "Trend results — fish and shellfish" as incorrectly stretching the 2.5-3.5% yearly-change rate to the Channel + Southern North Sea + Northern Bay of Biscay collectively; verified against PDF page 14 ("around 2,5 to 3,5% yearly change for cadmium and 4% yearly change for lead in the Channel and ~1,5% yearly change in the Southern North Sea and Northern Bay of Biscay"). The 2.5-3.5% rate applies to cadmium in the Channel only; the Southern North Sea and Northern Bay of Biscay rate is ~1.5%. Corrected.
-- Audit editorial review (2026-06-03) flagged `Se` (selenium) in source metadata `metals:` as outside the closed slug vocabulary (no the linked reference record page exists). Verified: confirmed absent from taxonomy snapshot and from the linked reference record directory. Dropped `Se` from source metadata. The report discusses selenium briefly in Figure e (page 17) and the extended results (Northern Bay of Biscay increasing trend for selenium-zinc-nickel-copper-chromium; Channel and Southern North Sea increasing trends for zinc-selenium-copper-arsenic) but the absence of a taxonomy slug means the source's selenium contribution is not routed to a metal page. Surface to Karen as a candidate for taxonomy expansion if downstream synthesis identifies further selenium-relevant sources.
-- Audit editorial review (2026-06-03) suggested extending `matrices:` to include `whole-fish` since the QS_sp comparison is stated for "whole fish"; verified against PDF — false positive. Actual CEMP measurements are fish muscle, with shellfish statistically adjusted to fish levels via a model. `fish-muscle` is the faithful measurement-basis matrix; `whole-fish` would imply a measurement basis not present in the underlying data.
-- Audit editorial review (2026-06-03) noted Figure 3 mercury/QS_sp ratios are visual reads from a log-scale plot; preserved as approximate ranges and flagged in the Key numbers table caption.
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

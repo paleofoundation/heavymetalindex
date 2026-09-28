@@ -80,7 +80,7 @@ App: Reinforces the prioritization of rice and rice-derivative ingredients in in
 
 Microbiome: Not addressed by the review.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
@@ -112,15 +112,6 @@ Microbiome: Not addressed by the review.
 - [[regulations/oehha-lead-prop65]]
 - [[regulations/oehha-cadmium-prop65]]
 - [[regulations/oehha-arsenic-prop65]]
-
-## Verification notes
-
-- Author conflict of interest (consultant for Else Nutrition, an infant-formula manufacturer) is disclosed in the published manuscript and noted explicitly above; cite Bair as A-tier with this caveat documented.
-- Cross-vendor audit (Codex, 2026-05-17) removed a residual malformed product entry (`infant-formula`), aggregated Bair Table 1's manufacturer-specific Congressional findings without reproducing manufacturer columns, corrected Parker 2022 and Spungen 2019 attribution details, clarified the EC/FDA inorganic-arsenic comparison, and tightened the HMTc implication language to policy context rather than threshold justification.
-- The Baby Food Safety Act of 2021 (H.R. 2229) was introduced March 26, 2021 per Bair; Congress.gov still lists the bill at status "Introduced" as of 2026-05-17. Its proposed levels are policy-context, not enforceable standards. Worth adding `us-h-r-2229-baby-food-safety-act-proposed` as a regulation page (status: proposed) to give Bair's Table 9 a citable target. Flagged for Karen per Part 10.
-- The Clean Label Project private-standard limits (Bair Table 10) are not a regulatory framework but a market-based private standard. Worth adding `clean-label-project-purity-award-limits` as a regulation-or-standard page so HMTc certification-pages can cite the CLP comparison without re-citing Bair Table 10 each time. Flagged for Karen per Part 10.
-- This page was enhanced 2026-05-17 from the Mode B (direct PDF) ingest of the archived source file against the prior 2026-05-13 revision. Prior revision had: (a) Part 12 brand-firewall violation in Key numbers (listed product-name-specific values) — now aggregated to public-record-investigation event; (b) three invalid product slugs (`infant-formula`, `infant-rice-cereal`, `baby-food-purees`) — removed/replaced with taxonomy-valid slugs; (c) invalid matrices vocabulary (`infant-food`, `baby-food`, `toddler-food`, `infant-cereal`, `baby-puree`, `baby-snack`, `infant-juice`) — replaced with system-prompt matrices vocabulary; (d) legacy `## Wiki pages updated on ingest` heading — modernized; (e) Key numbers missing the FDA Closer-to-Zero phasing, the Baby Food Safety Act proposed levels, the Clean Label Project tolerance limits, the Parker 2022 hazard-quotient findings, and the conflict-of-interest disclosure — all added.
-- Strict Part 12 recheck (Codex, 2026-05-17) removed a named COI manufacturer from source-page prose and removed old sampled-product examples from verification notes. The Congressional Subcommittee investigation remains aggregated as a public-record regulatory event.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

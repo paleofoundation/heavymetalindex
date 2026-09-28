@@ -72,15 +72,6 @@ Water samples were collected from January to April 2022 at the Thondi coast, Pal
 
 This source contributes direct edible-fish muscle occurrence data for fresh marine fish from the Thondi coast/Palk Bay market area. It should be routed as mixed marine fish evidence rather than collapsed into a single species row, and the arsenic and chromium values should remain total/unspecified species. The EDI and THQ table is useful exposure context, but the concentration table is the primary occurrence evidence for product routing.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-3, discussion, and conclusion were readable.
-- DOI `10.1007/s10653-023-01775-6`, raw handle `MFK_evaluation-of-water-quality-and-bioaccumulation-o`, and cite-key checks found no existing source page before creation.
-- Table 1 concentration values and Table 3 EDI/THQ values were checked against the extracted text. Units are preserved as `μg/g`; no conversion was performed.
-- Speciation: arsenic was reported as `As` and chromium as `Cr`; the page records these as total/unspecified arsenic (`tAs`) and total chromium (`Cr`), not iAs or Cr-VI.
-- Brand firewall: fish were sampled by species/market context; no brand names were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

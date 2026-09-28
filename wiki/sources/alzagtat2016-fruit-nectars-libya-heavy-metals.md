@@ -45,7 +45,7 @@ The paper reports heavy-metal measurements for local and imported fruit nectars;
 
 This source can support fruit-nectar and pineapple-nectar context, especially for total arsenic in imported nectars. It is a summary-level source rather than a sample-level dataset.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/pineapple]]
 - [[ingredients/fruit-juice]]
@@ -53,13 +53,6 @@ This source can support fruit-nectar and pineapple-nectar context, especially fo
 - [[metals/arsenic-total]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.24925/turjaf.v4i7.524-530.533 and the downloaded PDF.
-- The PDF extraction uses "Ar" in places for arsenic; this page records it as total arsenic because no speciation is reported.
-- The paper distinguishes nectars (25–50% natural juice content) from juices (>50%) per Codex Alimentarius 247-2005. The taxonomy snapshot has no `fruit-nectar` product slug; routing therefore falls back to `[[products/fruit-juice-not-canned]]` and `[[ingredients/fruit-juice]]`. Proposed slug gap: a `fruit-nectars-not-canned` (or equivalent) product/ingredient pair for nectar-specific occurrence data.
-- The paper measures six nectar varieties (grape, pineapple, guava, orange, apple, mixed-fruit). The matrices field is intentionally kept at the broad `fruit-nectar` umbrella per Part 5b routing discipline rather than pre-specifying per-fruit nectar matrices that the taxonomy does not provide.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

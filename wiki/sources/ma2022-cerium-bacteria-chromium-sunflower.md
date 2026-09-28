@@ -53,20 +53,9 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: WikiBiome federation signpost — chromium-resistant bacterial inoculant modulating metal stress.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/chromium]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
 - [[microbiome/index]]
-
-## Verification notes
-
-- Evidence tier B: primary pot experiment in a peer-reviewed journal (Frontiers in Plant Science, CC BY 4.0).
-- Page grounded in the published abstract and bibliographic metadata; values preserved as printed. Full-text extraction can follow on synthesis.
-- `metals: [Cr, Cr-VI]` — the source emphasizes hexavalent chromium toxicity; both carried for routing.
-- `ingredients: []` / `products: []` correct: experimental stress-mitigation context, not retail food occurrence; sunflower is the test species, carried in `matrices`.
-- Part 2 direction-of-edit check: adds upstream mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

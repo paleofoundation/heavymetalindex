@@ -55,21 +55,12 @@ Courses: The poster is useful for teaching how to separate a measurable occurren
 
 App: The source can support a low-confidence note that menstrual-product exposure literature is moving from total content toward simulated-fluid leaching, while keeping the C-tier status clear.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[products/menstrual-cups]]
 - [[products/menstrual-pads]]
 - [[products/period-underwear-reusable-garments]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1570.txt`; because the source is a one-page poster, the full extracted text was re-read.
-- Identity checks before creation: the candidate cite key `nic-corcrain2025-menstrual-products-metal-leaching`, raw handle `MFK_f1000research-777517`, raw SHA-256 `ecfc4d7e696181419f88b9be66bdb36cd880de7b26a1f2c973e184882c741dce`, and title phrase were searched in the linked reference record and evidence files; no existing source page was found.
-- The intake CSV DOI `10.3390/pathogens11060618` belongs to a cited Pathogens article on vaginal mucosa, not to this poster; the poster itself has no DOI in the extracted text or PDF metadata.
-- Units are preserved as `ppb`; no conversion to `µg/L` was made.
-- Speciation: arsenic is listed as a target analyte but no arsenic number is used because the poster reports background contamination.
-- Brand firewall: the poster states brand-dependent differences but does not print brand names in the extracted text; no brand names are attached to values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

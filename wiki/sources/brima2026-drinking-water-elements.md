@@ -45,7 +45,7 @@ Samples were analyzed by ICP-MS for 26 elements. The paper distinguishes bottled
 
 Certification: contributes low-level UK bottled-water occurrence context for tAs/tHg and non-detect context for Cd/Pb in bottled water. Courses: useful example of matrix separation between bottled and tap drinking water. App: supports water-source caveats rather than product-wide pooling with African literature comparators.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/bottled-drinking-water]]
 - [[ingredients/water]]
@@ -53,10 +53,6 @@ Certification: contributes low-level UK bottled-water occurrence context for tAs
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-DOI, authors, journal, year, sample count, matrix split, and detection percentages were taken from the PDF first page/abstract. African-country values are literature comparators and should not be silently pooled with the UK sample set.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -54,7 +54,7 @@ Mothers collected pooled 24-hour milk samples at 4-6 weeks postpartum. Samples w
 
 The source supports human-milk occurrence evidence and infant-exposure context for Poland. It should remain separate from infant formula or commercial infant-food benchmark pools. The arsenic and mercury results are total/source-reported values and cannot substitute for inorganic arsenic or methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/human-milk]]
 - [[ingredients/breastmilk]]
@@ -65,10 +65,6 @@ The source supports human-milk occurrence evidence and infant-exposure context f
 - [[metals/mercury]]
 - [[metals/nickel]]
 - [[metals/tin]]
-
-## Verification notes
-
-The PDF includes DOI, authors, journal, year, methods, LOD/LOQ table, and Table 3 concentration values. The authors state that results are expressed in mg/kg wet weight in the methods paragraph, but the occurrence table itself is labeled ug/L; this page preserves the table's ug/L basis. Table 5 infant-intake rows appear vulnerable to extraction/OCR ambiguity, so this page uses Table 3 concentrations and Table 2 milk-intake metadata as the primary occurrence facts. Both [[ingredients/human-milk]] and [[ingredients/breastmilk]] exist locally; the matrix term is normalized to breast-milk.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

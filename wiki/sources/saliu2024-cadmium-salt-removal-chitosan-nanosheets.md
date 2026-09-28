@@ -48,15 +48,11 @@ Courses: Useful for explaining advanced sorbent/electrode design and the distinc
 
 App: Context-only mitigation evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain empty because the matrix is an engineered aqueous-solution remediation system rather than a marketed food or beverage.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

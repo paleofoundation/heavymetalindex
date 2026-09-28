@@ -52,19 +52,11 @@ This is experimental remediation and soil-to-plant pathway evidence. It does not
 
 Evidence Fitness: EF-3; experimental remediation evidence with source-internal inconsistencies. Tables support source-native growth and translocation observations, not ordinary product occurrence or a validated remediation recommendation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/lead]]
-
-## Verification notes
-
-Table 3 is retained over conflicting prose values of 1.15 and 1.34 and the blanket claim that translocation factors exceed one. The 0.3-versus-3 treatment-dose ambiguity and three-versus-five plant count are unresolved source reporting discrepancies. Figures 1–3 have unlabelled bar heights; exact biomass, chlorophyll, lead concentration and error-bar values cannot be recovered without digitization or author data. No concentration basis or unit was invented for the lead figure. The microscopy-free AAS method does not establish lead speciation.
-
-Matrix vocabulary extension: experimental-plant denotes greenhouse remediation plants; it is not a commercial food-occurrence row.
-
-The preserved Library PDF is identified by `RPHMI_1`; SHA-256 `03083cb77ff7d5232724eff6eba502ca7ce7e037f1943f26de48cdddfeb83a67`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://www.jeeng.net/pdf-151092-76624. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

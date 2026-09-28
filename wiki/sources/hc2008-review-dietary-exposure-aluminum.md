@@ -87,22 +87,13 @@ Regulatory-communication document, not an analytical study. The page is the Q&A 
 - App: The page's functional-class taxonomy (pH adjusters in baking powder and flour, emulsifying salts in processed cheese, anti-caking agents, firming agents, colouring preparations) is consistent with the additive-identifier inference logic established on the companion sister page.
 - Microbiome: Not addressed in the document.
 
-## Verification notes
+## Related evidence
 
-- Cite-key follows the same agency-and-year pattern (`hc2008-`) as the companion industry-letter source page; the suffix `review-dietary-exposure-aluminum` mirrors the canada.ca URL slug `review-dietary-exposure-aluminum.html`.
-- The "Date modified: 2025-04-02" at the foot of the archived page reflects formatting/archive maintenance, not substantive content revision; year is recorded as 2008 (the contemporaneous period when BCS initiated the review and distributed the companion industry letter dated July 03, 2008).
-- `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same Manual Fetch source-retrieval/June 3 Folder; both files are the same size (105,422 bytes) — flagged for downstream dedupe.
-- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]`, `[[regulations/jecfa-aluminum-ptwi]]`, or `[[regulations/cepa-1999-priority-substances-aluminum]]` page exists in the current taxonomy snapshot; the document references all three substantively and they are flagged here as backlog regulation-page candidates — NOT created here, since regulation pages require a hard agency identifier.
-- source metadata `ingredients` populated with the in-taxonomy slugs whose pages correspond to foods named in the page body (`processed-american-cheese` for processed cheeses, `wheat` for flour, `water` for the drinking-water-treatment use of aluminum compounds). `products`: `flour-non-rice` only (the only in-snapshot product slug that maps to a named additive-bearing food in this Q&A page; baking powder, processed cheese spreads beyond `processed-american-cheese`, sea urchin roe, and icing sugar lack closer in-snapshot slugs and are captured via the matrices entries).
-- `jurisdictions` includes `GLOBAL` alongside `CA` because the JECFA PTWI revision is an international determination cited as the trigger for the Canadian-jurisdictional review; the page's content is otherwise Canada-specific.
-- The page is a qualitative regulatory communication; only one numerical occurrence/ceiling value (350 ppm potassium aluminum silicate in sea urchin roe) is present in the text. Other quantitative content (Division 16 maximum levels of use across the full list of aluminum-containing additives, JECFA 7 → 1 mg/kg bw/week PTWI revision) is captured on the companion sister page and not duplicated here.
-- Audit editorial review (2026-06-03) flagged `products: [salt]` as unsupported by this Q&A page's text (Check 2 ❌); verified against PDF pp. 1-7 — "anti-caking agents" is named only as a generic functional class on p. 3, and salt is not named as a food category in this Q&A page (the salt-specific Division 16 ceilings live on the sister industry-letter page). `salt` removed from `products` source metadata.
-- Audit editorial review (2026-06-03) flagged `[[regulations/efsa-aluminium-twi]]` in Wiki-pages-this-source-may-touch as unsupported (Check 2 ❌; PDF references JECFA only, not EFSA); rejected as false positive — consistent with the prior audit treatment of the companion sister page, the EFSA TWI page is the natural Al-PTWI/TWI sibling regulation page when no `jecfa-aluminum-ptwi` stub yet exists in the taxonomy. The thematic relevance of the wiki-pages-this-source-may-touch section is what the source documents touch, not only what it names literally.
-
-## Wiki pages this source may touch
-
-- [[metals/aluminum]]
+- [[regulations/canada-food-drug-regulations-division-16-aluminum]]
+- [[regulations/jecfa-aluminum-ptwi]]
+- [[regulations/cepa-1999-priority-substances-aluminum]]
 - [[regulations/efsa-aluminium-twi]]
+- [[metals/aluminum]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

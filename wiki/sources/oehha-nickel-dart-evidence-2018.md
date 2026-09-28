@@ -76,13 +76,9 @@ Courses: useful as the canonical citation for nickel reproductive/developmental 
 
 App: low direct utility — no food-occurrence values or matrix-specific contamination data; the content is hazard characterisation, not exposure quantification.
 
-## Verification notes
-
-Fresh-context audit editorial review (2026-06-22) verified every discrete figure (Bloom 2011 blood-Ni means/SDs/ranges, β and p, LOD; Zheng 2015 PCOS medians/means and P-value; mouse oral doses 46/92/185; the five-cohort and two-of-three case-control developmental claims; document-identity facts) as exactly faithful to the source, with no invented taxonomy slug and no brand- or HMTc-firewall violation. One finding applied: the Saini et al. (2014b) significance sentence was tightened — fetal weight was significant at 46 mg/kg (gestation days 6–13) in addition to 92 and 185 mg/kg (Figure B.10), which the original "at 92 and 185" phrasing had narrowed. Verdict: REVISE → corrected.
-
-source metadata `products` is intentionally empty: this is a toxicology hazard-identification document, not a food-occurrence study, so there is no product-level occurrence to route (mirrors the [[sources/oehha-nickel-prop65-factsheet-2025|companion Prop 65 fact sheet]]). Ingredient and metal fan-out proceeds via the `[[metals/nickel]]` wikilink and the single `[[ingredients/water]]` link (drinking-water pathway). The resulting routing advisory for empty `products` is non-blocking and accurate.
-
 ## Related evidence
+
+- [[ingredients/water]]
 - [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->

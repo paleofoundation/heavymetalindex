@@ -49,7 +49,7 @@ This regulation page is relevant to nickel hazard, dermal sensitisation, and con
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/lgc2003-nickel-piercing-post-assemblies|Risk of sensitisation of humans to nickel by piercing post assemblies]]<span class="hmi-ref-meta">LGC Limited · Final Report submitted under EC Contract ETD/FIF.2001592 · 2003</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

@@ -47,11 +47,6 @@ This page records the Chinese regulatory comparator used by pre-2017 literature.
 - National Health Commission. Q&A on GB 2762-2012, published 5 June 2013, stating the standard was issued on 13 November 2012 and came into force on 1 June 2013. Source URL: https://www.nhc.gov.cn/zwgk/zswd/201306/6833e7c948da4aaa961f24fe9da24d1b.shtml
 - [[sources/liang2019-beijing-foodstuffs-health-risk]] cites GB 2762-2012 as the comparator for Pb and Hg exceedance discussion in Beijing foodstuffs.
 
-## Verification notes
-
-- Created 2026-05-18 during the Liang et al. 2019 merge-enhance because the source cited GB 2762-2012 and the previous source page linked to a nonexistent generic China GB 2762 page.
-- The selected Pb and Hg rows are source-cited comparators from Liang et al. 2019, not a full extraction of GB 2762-2012.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

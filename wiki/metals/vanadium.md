@@ -55,7 +55,7 @@ The page is marked as a stub built from a single source. It is explicitly flagge
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>

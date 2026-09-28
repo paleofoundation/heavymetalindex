@@ -74,7 +74,12 @@ The authors calculated descriptive statistics in Excel 2016. They used Kruskal-W
 
 This page contributes occurrence and exposure-assessment evidence for canned tuna tHg in Ecuadorian retail samples. The finding most relevant for downstream standards work is the wide within-category spread: mean group values were below 0.5 mg/kg, but the maximum value reached 1.98 mg/kg. The source is not a species-resolved dataset, because two of the three coded groups did not disclose tuna species on the label; the one labeled group was *Thunnus albacares*. Use this page for canned-tuna occurrence context, not as evidence that a named manufacturer or public brand is safer or riskier than another.
 
-## Wiki pages this source may touch
+## Sources
+
+- Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, Espinoza-Montero P. 2024. "Total mercury exposure through canned tuna in water sold in Quito, Ecuador." *Scientific Reports* 14:27951. DOI: 10.1038/s41598-024-79430-y.
+- Manual-fetch PDF: the archived source file (SHA-256 `3404846dfe53a1a37c22262870abee4eac23d012c1937e47e7fd62de51e3e73f`).
+
+## Related evidence
 
 - [[ingredients/canned-tuna]]
 - [[ingredients/fish]]
@@ -90,17 +95,6 @@ This page contributes occurrence and exposure-assessment evidence for canned tun
 - [[regulations/fda-cpg-540-600-methylmercury-fish]]
 - [[regulations/epa-iris-methylmercury-rfd]]
 - [[regulations/jecfa-methylmercury-ptwi]]
-
-## Sources
-
-- Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, Espinoza-Montero P. 2024. "Total mercury exposure through canned tuna in water sold in Quito, Ecuador." *Scientific Reports* 14:27951. DOI: 10.1038/s41598-024-79430-y.
-- Manual-fetch PDF: the archived source file (SHA-256 `3404846dfe53a1a37c22262870abee4eac23d012c1937e47e7fd62de51e3e73f`).
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: DOI match to the pre-existing `aguilar-miranda2024-thg-canned-tuna-ecuador` source page. Corrected `raw_handle` from the generic `manual-fetch-source-retrieval`, restored the full manual-fetch PDF path, added the PDF SHA-256, replaced narrow/non-common matrix terms with broad `fish`, added exact access URL, expanded seafood/canned-fish routing, replaced invalid `regulations/eu-2023-915` with existing EU mercury/current-framework slugs, and added the Ecuador NTE INEN 184:2013 regulation target.
-- 2026-05-18 Codex merge-enhance: tightened strict Part 12 brand-firewall language. The source anonymizes sampled products as coded groups A, B, and C; this page keeps only those non-identifying codes needed to preserve Table 1/Table 4 numerical fidelity and does not name sampled manufacturers or present public brand rankings.
-- 2026-05-18 Codex merge-enhance: corrected earlier page wording that said "one lot reached 1.98 +/- 0.42 mg/kg." The source reports 1.98 mg/kg as the maximum value in the range for coded group B; 0.42 is the combined-row SD for that group, not the uncertainty on the maximum sample.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -88,7 +88,7 @@ App: Cosmetics are outside the food-ingredient taxonomy; no `contamination_profi
 
 Microbiome: Not addressed in the heavy-metal context. Section 3.5 (allergies) discusses skin microbiome briefly in dermatitis pathophysiology but does not connect it to metals exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -109,18 +109,6 @@ Microbiome: Not addressed in the heavy-metal context. Section 3.5 (allergies) di
 - [[products/leave-on-hair-preparations]]
 - [[products/manicuring-preparations-leave-on]]
 - [[products/shampoo-adult]]
-
-## Verification notes
-
-- Evidence tier C, not B: single-author manuscript, declared generative-AI assistance in writing, no PRISMA-style protocol, no formal inclusion/exclusion screening flow, no risk-of-bias assessment, no quantitative synthesis. The compiled regulatory comparison (Table 2) is internally consistent and citable; the heavy-metal occurrence figures should be drawn from the primary studies, not this review.
-- `metals: [Pb, Cd, tHg, tAs, Ni, Cr, Cr-VI]`: the review uses unqualified "mercury" and "arsenic" in the narrative (so tHg and tAs are the correct abbreviations for the review-as-source). The Lim 2018 study cited inside Table 3 explicitly separates Cr⁶⁺/Cr³⁺ and the review carries that distinction through ("LCR values for Cr⁶⁺, Ni, As, Pb, and Cd…", "heavy users exceeded ADI for Cr⁶⁺, Mn, and Pb") — so Cr-VI is also included. Generic "Cr" stays because the review also uses unqualified "chromium" in the Voica 2023 section.
-- `matrices: []`: the matrices vocabulary is food-domain. Cosmetics-relevant categorization is carried by the `products:` field. Same convention as Attard & Attard 2022 ([[attard2022-heavy-metals-cosmetics-review]]).
-- `products:` chosen from the current the linked reference record taxonomy. Twelve slugs verified. Notable absences: (a) no `eye-shadow` slug — the review's eye-shadow content routes to `eye-makeup` (the umbrella slug). (b) no `mascara` or `eyeliner` slug — same routing. (c) "fairness creams" route to `skin-lightening-cream` (the closest match in the taxonomy; fairness creams are a marketing-positioned subset of skin-lightening creams). (d) "costume cosmetics" (Salles 2023) route to `childrens-makeup` and `face-paint` — the Salles 2023 source population includes both child and adult users but the costume-cosmetic context is the closest taxonomy match.
-- `jurisdictions: [US, EU, CA, ASEAN, AE]`: includes ASEAN (the regulatory framework discussed in Table 2 is the ASEAN Cosmetic Directive, not a country-level code) and AE (author affiliation; the manuscript does not present UAE-specific data but the regulatory context is implicitly UAE-relevant via the Zayed University affiliation).
-- Brand firewall (Part 12): the review does not name brands at the value level; categories (lipsticks, eye shadows, fairness creams, etc.) are the unit of reporting. Sections 3.4.3 and 3.5 discuss "products" generically. No firewall edits required.
-- Part 2 firewall: Implications explicitly mark the review as framing context, not occurrence evidence, and decline to translate Table 1's basisless averages into any HMTc threshold proposal. The Table 2 regulatory comparison is reported as comparative regulatory framing only.
-- Two declared limitations of the review (Section 4): "Most existing studies are observational, limiting causal inference due to potential confounding and exposure misclassification"; "There is also a lack of standardized biomarkers and biomonitoring data specific to cosmetic-related compounds." Both are consistent with the C-tier rating.
-- Correction note on the manuscript itself: "A correction has been made to this article. Details can be found at: 10.3389/ftox.2025.1713750." The corrected version (16 December 2025) is what is in `raw_path`; the correction notice does not flag any heavy-metal section as affected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

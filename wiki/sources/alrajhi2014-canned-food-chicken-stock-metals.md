@@ -68,7 +68,7 @@ Imported canned-food and chicken-stock samples were purchased from supermarkets 
 
 This source contributes Saudi Arabia-market occurrence context for imported canned foods and chicken stock, including canned fish (tuna, sardine). The sample coding does not identify which values belong to tuna, sardine, or chicken stock, so later extraction should keep the result at broad product-family level unless the original sample key is recovered. Total As cannot be used as inorganic arsenic evidence, and total Cr cannot be used as Cr-VI evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/chicken]]
@@ -80,18 +80,6 @@ This source contributes Saudi Arabia-market occurrence context for imported cann
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title page, DOI, methods, Tables 1-2, discussion, conclusion, and references.
-- DOI verified from the first page as `10.3844/ajessp.2014.283.288`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Concentration values were checked against Tables 1-2 and the abstract. Units are preserved as `mg/kg` and `mg kg−1`; no unit conversions were performed.
-- Speciation: arsenic is total As and chromium is total Cr. The source does not report iAs or Cr-VI.
-- Internal consistency: the methods text says 21 sample types were collected, but Tables 1-2 report 13 coded samples. Table 1's Cr statistical row conflicts with two printed sample-row Cr values, and the source-reported Cr average is smaller than the printed minimum. Table 2's Al statistical row reports a minimum of 0.0070 mg/kg, but Sample 10 prints 0.0048 mg/kg. Table 2's Se statistical row reports a minimum of 0.0011 mg/kg (and the narrative on p. 285 echoes 0.001), but the lowest non-LDL Se sample value is 0.0031 mg/kg (Sample 1) with all other non-LDL Se rows at 0.0086 mg/kg or higher. These conflicts are recorded and not reconciled.
-- Brand firewall: the paper reports coded sample numbers only; this page does not attach public product or brand names to contamination values.
-- Selenium was measured and is included in source metadata as Se, but the taxonomy snapshot does not list a `metals/selenium` page, so no selenium wiki-link is added.
-- K, Mg, and V are mentioned as target elements, but no K, Mg, or V values were visible in the extracted result tables, so they are not listed in source metadata metals.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

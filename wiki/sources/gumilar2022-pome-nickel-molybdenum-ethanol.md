@@ -96,7 +96,7 @@ Courses: Useful supply-chain-treatment context because it gives a quantitative e
 
 App: Context only. The source can inform due-diligence narratives around palm-oil-mill wastewater handling and trace-metal additions, not consumer product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -106,12 +106,6 @@ App: Context only. The source can inform due-diligence narratives around palm-oi
 - [[metals/zinc]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was not food occurrence. On reading, it is in-scope as supply-chain wastewater-treatment context with measured POME trace-metal values and intentional Ni/Mo additions.
-
-Numbers were checked against the abstract, Materials and Methods, Tables 1, 2, and 6, the ANOVA and product-formation sections, and the conclusion in the extracted PDF. The source reports no finished palm-oil values, no edible-crop values, and no heavy-metal removal percentages. Products and ingredients are intentionally empty. Decimal commas in the source's Table 2 values are preserved.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

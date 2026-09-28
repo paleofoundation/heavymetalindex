@@ -100,14 +100,8 @@ Microbiome: No direct microbiome endpoint.
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. Published in *The Turkish Journal of Pediatrics* (open online journal but article-level access varies).
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-formula-powder-non-soy]]
-- [[products/infant-formula-rtf-liquid-non-soy]]
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
-- [[products/mixed-meals-rice-containing]]
-- [[products/mixed-meals-non-rice]]
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->

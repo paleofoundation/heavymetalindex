@@ -93,6 +93,11 @@ Courses: Illustrates that organic production does not reliably reduce heavy meta
 App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb values 0.006–0.022 mg/kg fw (6–22 ppb) for most varieties. Tomato concentrate in metal cans may run higher for Cd (64 ppb fw observed). These values can seed tomato and tomato-product contamination profiles.
 
 ## Related evidence
+
+- [[ingredients/tomatoes]]
+- [[ingredients/tomato-products]]
+- [[products/tomato-juice]]
+- [[regulations/eu-1881-2006]]
 - [[ingredients/tomato]]
 - [[ingredients/tomato-paste]]
 - [[ingredients/canned-tomatoes]]
@@ -104,13 +109,6 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 - [[products/non-root-vegetables]]
 - [[products/condiments-general]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance from duplicate manual-fetch copy the archived source file; SHA-256 matches the existing `raw_path`, so no second source page was created.
-- Corrected stale routing links: `[[ingredients/tomatoes]]`, `[[ingredients/tomato-products]]`, `[[products/tomato-juice]]`, and `[[regulations/eu-1881-2006]]` do not exist as live wiki pages. Routed fresh tomato to `[[ingredients/tomato]]`, tomato juice to `[[products/vegetable-juices-non-root]]`, and linked Commission Regulation (EC) No 1881/2006 to its superseded-regulation page.
-- Part 2 firewall: softened the HMT&C sentence from a standards recommendation to source-level occurrence and packaging-pathway evidence.
-- Cross-vendor audit (Codex, 2026-05-18) retained the source-specific matrix labels `[fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]` as custom matrix descriptors because the current common matrices vocabulary does not have a clean fresh-tomato / tomato-product equivalent; downstream routing is carried by the live ingredient and product wikilinks above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

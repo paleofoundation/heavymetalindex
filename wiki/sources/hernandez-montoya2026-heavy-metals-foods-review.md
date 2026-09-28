@@ -137,7 +137,7 @@ Scoping review following the PRISMA-ScR (Preferred Reporting Items for Systemati
 
 **App:** No new commodity-level concentration data is produced by the review itself; the concentration figures cited (e.g., the Pb in Mexican baby rice cereals at 1.005 mg/kg) come from primary studies that should be ingested separately. Use this page only as regulatory context, not as a contamination-data source.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -150,34 +150,6 @@ Scoping review following the PRISMA-ScR (Preferred Reporting Items for Systemati
 - [[regulations/eu-2023-915-lead-infant-young-child-foods]]
 - [[regulations/codex-cadmium-mls]]
 - [[regulations/efsa-cadmium-twi]]
-
-## Verification notes
-
-**2026-05-28 merge-enhance pass.** Original ingest (2026-05-14) carried multiple defects in the Key numbers regulatory-limits table; these were verified against PDF Table 1 (page 8 of 27) and corrected:
-- "Husked rice 0.35 mg/kg (EU 1881/2006)" and "Polished rice 0.20 mg/kg (EU 1881/2006)" were listed under Cadmium in the prior page. Table 1 places both under Arsenic — corrected.
-- "Grains (wheat, maize, legumes) 0.20 mg/kg (Codex/EU 2023/915)" was listed under Cadmium. Table 1 places this under Arsenic — corrected.
-- "Seafood (mollusks, bivalves, cephalopods) 2.00 mg/kg" was listed under Lead. Table 1 places this under Cadmium — corrected.
-- Cd Natural mineral water (0.003 mg/L), Cd Food-grade salt (0.50 mg/kg), Cd Wine (0.01 mg/L OIV 2021), Pb Wine ≥2019 (0.10 mg/L OIV 2021), Pb Wine-based spirits (0.15 mg/L OIV 2021), Pb Food-grade salt (1.00 mg/kg), Hg Natural mineral water (0.001 mg/L), and Hg Food-grade salt (0.10 mg/kg) were missing from the prior page — added.
-- Table 3 health-effects synthesis was missing in the prior page — added as a structured table.
-- Table 2 comparative analytical-methods overview was missing in the prior page — added.
-- Cantoral et al. 2024 Pb-in-Mexican-foods data (cited at ref [50] in the review, page 18) was missing in the prior page — added under "Reported food-matrix concentrations".
-- WHO and EFSA exposure benchmarks (As 10 ppb, Hg 1 µg/L, Pb 5 µg/dL, Cd TWI 2.5 µg/kg bw, Cd absorption fractions) were missing — added.
-- The "Wiki pages updated on ingest" section had three broken regulation wikilinks: `regulations/codex-cxs-193-1995` (no general page exists; nearest existing slug is `codex-cxs-193-1995-tin-canned-foods`, which is tin-specific and not appropriate), `regulations/eu-1881-2006` (correct slug: `eu-1881-2006-contaminants-superseded`), `regulations/eu-2023-915` (split into `eu-2023-915-cadmium` and `eu-2023-915-lead-infant-young-child-foods`). The codex-cxs-193-1995 general-standard target was dropped (no canonical page); replaced with `codex-cadmium-mls` and `efsa-cadmium-twi` which exist and which the review references. The other two were corrected to valid slugs.
-- `jurisdictions:` field used `codex` as a token; this is not the standard ISO/region vocabulary used across the linked reference record. Replaced with `international` (used in 34 sibling source pages).
-- Ingredients expanded from rice/cereals/vegetables/seafood to include the additional broad slugs the review centrally discusses (leafy-vegetables, fish, legumes, chocolate, spices, water) — all present in the taxonomy snapshot.
-- Section heading "Wiki pages updated on ingest" renamed to "Wiki pages this source may touch" (current convention; the prior heading is the legacy form).
-
-`products: []` is retained as appropriate for a high-level scoping review with no product-category-specific measurements. The routing audit treats this as advisory.
-
-**Methylmercury speciation flag preserved.** The review explicitly distinguishes total Hg vs MeHg in fish (Codex 193-1995 Rev. 2024 sets 0.50 mg/kg total Hg for fish generally vs 1.0–1.7 mg/kg MeHg for large predatory species). Both `tHg` and `MeHg` are retained in `metals:`.
-
-**`matrices:` vocabulary.** The source metadata retains the prior page's `[dietary-intake, food, food-general]` tokens. `dietary-intake` is used across 30+ sibling source pages; `food` and `food-general` are non-standard but functional placeholders that flag this page as topic-agnostic (no single commodity matrix is the focus). The 2026-05-28 fresh-context audit flagged these as advisory-only (not in the typical matrix vocabulary, no `## Verification notes` entry); this note documents the deliberate broad-scope choice for a scoping review with no commodity-specific measurements.
-
-**2026-05-28 audit application.** editorial review verdict REVISE with two ⚠️ concerns, zero ❌ definite errors. Findings applied:
-- Hg-25-µg/L sentence: prior wiki phrasing "environmental samples" was not supported by the source; PDF page 19 frames the figure within the WHO drinking-water 1 µg/L paragraph. Wording tightened to reflect the source framing.
-- `matrices:` vocabulary: documented above as deliberate broad-scope choice (no source change required; verification-notes entry added per audit recommendation).
-
-No findings rejected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

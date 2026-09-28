@@ -93,7 +93,7 @@ Courses: Useful example of a mitigation intervention that is not monotonic. Mode
 
 App: Context only. This source can inform spinach Cd pathway notes and supplier questions about soil Cd and Zn management, not finished-product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/remediation-evidence]]
@@ -102,12 +102,6 @@ App: Context only. This source can inform spinach Cd pathway notes and supplier 
 - [[metals/cadmium]]
 - [[metals/zinc]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. On reading, the paper is in scope as lane a2 mitigation/remediation and lane a3 soil-to-plant transfer evidence because it measures Cd in spinach leaves, roots, and post-harvest soil under controlled Cd/Zn soil treatments.
-
-Numbers were checked against the extracted PDF text, especially Tables 1-6 and the conclusion. Units are preserved as printed (`mg kg-1`, `g pot-1`, and coefficient values). Pb appears only in the baseline soil-characterization table and is not treated as spinach occurrence. Products and ingredients are intentionally empty because the experiment used spiked glasshouse soil rather than market spinach.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

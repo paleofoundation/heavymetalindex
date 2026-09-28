@@ -49,18 +49,13 @@ Packaged rice was purchased from Belfast retail stores. Rice was soaked, treated
 
 The source supports rice mitigation and occurrence context. Treatment values should not be pooled with raw rice occurrence values unless the preparation state is preserved.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/cadmium]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1016/j.foodchem.2020.127842 and the downloaded PDF.
-- Values are kept in the preparation state reported by the authors: raw, cooked, citric-acid-treated, and neutralized cooked rice are not collapsed together.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

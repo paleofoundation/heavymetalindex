@@ -46,7 +46,7 @@ Plant parts and corresponding soils were collected from two industrial areas (Ka
 
 Certification: site-specific Bangladesh spinach evidence for Pb, Cd, Ni, Co, and Cr. Courses: strong example of plant-part and pollution-gradient separation. App: supports high-risk industrial-area sourcing context, not a general-market spinach value.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[products/leafy-vegetables-other]]
@@ -57,10 +57,6 @@ Certification: site-specific Bangladesh spinach evidence for Pb, Cd, Ni, Co, and
 - [[metals/nickel]]
 - [[metals/cobalt]]
 - [[metals/chromium]]
-
-## Verification notes
-
-Values were transcribed from Tables 3 and 4 in the PDF text extraction. Units are ug/g dry weight; conversion to ppb dry weight requires multiplying by 1000 and must be logged if used downstream.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

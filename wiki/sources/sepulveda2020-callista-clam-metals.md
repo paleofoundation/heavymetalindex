@@ -44,7 +44,7 @@ The paper sampled Megapitaria squalida clams monthly from April 2016 through Apr
 
 The source supports seasonal/geographic shellfish gap filling for Cd and Pb in Mexican wild clams. The dry-weight basis must be retained during evidence routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/shellfish]]
 - [[products/shellfish]]
@@ -57,11 +57,6 @@ The source supports seasonal/geographic shellfish gap filling for Cd and Pb in M
 - [[metals/zinc]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The DOI and PDF match the clam paper in the wishlist row. Sediment data are not routed as food occurrence data.
-Arsenic and mercury are treated as total-element measurements because inorganic arsenic and methylmercury speciation were not reported. The clam species is Megapitaria squalida; the source metadata keeps the matrix broad enough for routing while the title and sample population retain the species.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

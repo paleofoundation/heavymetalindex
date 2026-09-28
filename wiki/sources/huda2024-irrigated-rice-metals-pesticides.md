@@ -44,6 +44,8 @@ Table 3 reports rice-grain concentrations in `µg/kg`. The plant-part basis is n
 
 The highest rice-grain values in Table 3 were Ni `5.53 x 10^4 µg/kg` in Field-III, Zn `7.51 x 10^3 µg/kg` in Field-III, Mn `4.20 x 10^3 µg/kg` in Field-II, Pb `3.16 x 10^3 µg/kg` in Field-I, Cr `7.88 x 10^2 µg/kg` in Field-III, Cu `5.92 x 10^2 µg/kg` in Field-I, Cd `2.49 x 10^1 µg/kg` in Field-III, tAs `2.16 x 10^1 µg/kg` in Field-I, and tHg `6.40 x 10^1 µg/kg` in Field-III.
 
+Table 3 places Field III husk lead near 5.96e3 µg/kg (5.96 x 10^3 µg/kg, 5966.54 µg/kg) and Field III stem lead near 4.97e2 µg/kg (4.97 x 10^2 µg/kg, 497.93 µg/kg). The narrative on page 7 swaps those two labels. This page follows Table 3.
+
 Supply-chain context from Table 2, not finished-grain occurrence: irrigation-water Pb was `1.03 x 10^3 µg/L` in Field-I, `7.68 x 10^2 µg/L` in Field-II, and `7.43 x 10^2 µg/L` in Field-III; irrigation-water Cd was `1.02 x 10^2`, `9.29 x 10^1`, and `5.85 x 10^1 µg/L`, respectively. Soil Pb was `5.91 x 10^4`, `6.95 x 10^4`, and `6.65 x 10^2 µg/kg` across Fields I-III, respectively.
 
 Table 4 reports pesticide co-contaminants in `µg/g`: diazinon in rice grain was `0.56 +/- 0.23` in Field-I, `0.94 +/- 0.20` in Field-II, and `1.68 +/- 0.089` in Field-III; fenitrothion in rice grain was `BDL` in Field-I, `0.45 +/- 0.079` in Field-II, and `BDL` in Field-III. These pesticide values are not metals and are not listed in source metadata metals.
@@ -56,7 +58,7 @@ The study used systematic random sampling across three fields near Gazipur, Bang
 
 This source supports a local, industrial-area rice occurrence route for harvested grain in Bangladesh, with paired soil and irrigation-water context that helps explain the contamination pathway. It should not be treated as a general Bangladesh retail-rice baseline because the sampling frame is three specific fields near industrial activity. The page preserves source-reported tAs and tHg without substituting inorganic arsenic or methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
@@ -66,16 +68,6 @@ This source supports a local, industrial-area rice occurrence route for harveste
 - [[metals/chromium]]
 - [[metals/mercury]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1007/s10661-024-12927-1`, `MFK_a-potential-toxicological-risk-assessment-of-heavy`, or `huda2024-irrigated-rice-metals-pesticides`.
-- Source text and rendered Table 3 pages were both checked because the PDF text layer column-wrapped the table. The final rice-grain rows above were transcribed from the rotated page image of Table 3 and rechecked against the surrounding extracted text.
-- Speciation: the paper reports As and Hg without speciation. source metadata and prose therefore use tAs and tHg; no iAs or MeHg claims were created.
-- Units preserved: rice-grain Table 3 values remain in `µg/kg`; irrigation-water values remain in `µg/L`; pesticide Table 4 values remain in `µg/g`; no unit conversions were performed.
-- Matrix separation: soil, irrigation water, husk, and stem values are documented only as context. The routeable product occurrence values are rice grain only.
-- Table/prose discrepancy: the narrative paragraph on p. 7 states that Field-III Pb was higher in stems at `5966.54 µg/kg` and husks at `497.93 µg/kg`, but Table 3 places approximately `5.96 x 10^3 µg/kg` under Field-III husk and `4.97 x 10^2 µg/kg` under Field-III stem. This page follows Table 3 and flags the discrepancy rather than silently swapping labels.
-- No brand names were present. Instrument/vendor names are retained only in Methods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -90,11 +90,6 @@ EDI computed as Ci × IR / BW with Ci in mg/kg, IR in g/person/day, and BW = 70 
 
 **App:** Cu and Ni present across all 12 fruit-governorate cells; Pb and Cd not detected; Cr only in grapes from Cairo and El-Fayoum. Within-fruit-type variation across governorates is approximately 10x for Cu and 6x for Ni, large enough that regional sourcing matters for category-level risk modelling.
 
-## Verification notes
-
-- 2026-05-20 merge-enhance pass: fixed invalid ingredient slug `apples` → `apple` (canonical singular slug per current taxonomy; the linked reference record exists, `apples.md` does not); restored full `raw_path` (previously truncated to `frui.pdf`); added per-governorate n=9 detail; added explicit wet-weight basis note (source does not state explicitly but starting material is 5 g fresh homogenized fruit reported against fresh-weight MRLs); preserved cite_key, raw_handle, license, DOI, near_duplicates fields; added explicit EDI/TDI exceedance enumeration from Table 4; expanded washing/peeling mitigation numbers from Figs. 1–2. Paper-internal note: the abstract and main text state Giza apples Cu = 0.33 mg/kg whereas Table 1 reports 0.55 ± 0.14 mg/kg; this page follows the table value (table reports per-replicate mean ± SE and is the authoritative datum). The paper's Table 4 labels EDI/TDI units as "mg/kg/day" but the magnitudes are µg/(kg BW·day); EDI > TDI comparisons remain internally consistent within the paper's convention.
-- 2026-05-20 audit-editorial review pass (verdict REVISE): one ⚠️ applied — peeling-oranges Ni line reworded from "0% (Fayoum), 0% (Alexandria)" to "no reduction in Fayoum or Alexandria" to match the source's "no reducing effect on Ni" phrasing (PDF p. 540 §3.2) without overstating numerical precision. One ❌ rejected as a false positive: the editorial review flagged `ingredients/oranges` as not present in the editorial record, but the snapshot's Ingredients line does include `oranges` (verified: `...orange-juice,oranges,organ-meats,...`) and the linked reference record exists on disk — slug is valid in both taxonomy and on-disk inventory. Checks 1 (numerical fidelity), 3 (speciation/methods), 4 (brand firewall), 5 (HMTc firewall) all clean.
-
 ## Related evidence
 - [[ingredients/apple]]
 - [[ingredients/grapes]]

@@ -56,7 +56,7 @@ Courses: The opinion is useful for teaching lower/medium/upper-bound censoring, 
 
 App: The source can support infant-food Cd/Pb context, especially formula powder, formula ready-to-eat, and processed cereal-based infant food rows, with German/EU jurisdiction metadata.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -78,15 +78,6 @@ App: The source can support infant-food Cd/Pb context, especially formula powder
 - [[products/teething-and-snacks-non-rice]]
 - [[products/mixed-meals-rice-containing]]
 - [[products/mixed-meals-non-rice]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_572.txt`; the title page, assessment object, Table 1, Section 3.2.1, Tables 2-3, Table 5, Table 6, Table 8, and Table 9 were checked against this page.
-- DOI `10.17590/20181205-132313-0`, raw handle `MFK_cadmium-in-food-scientific-opinion-reference`, and candidate cite-key path the linked reference record were checked before creation; no existing source page was found.
-- Units are copied exactly as printed: occurrence values use `mg per kg`; exposure values use `µg per kg body weight and day`; percentages and MoE values are not converted.
-- Speciation: the source reports cadmium and lead totals only; no iAs/tAs, MeHg/tHg, or Cr/Cr(VI) substitution issue is present.
-- The source-reported EU maximum levels in Table 1 are regulatory context only. This page does not propose, justify, or compare against any HMTc threshold.
-- source metadata slugs were checked against the editorial record; matrix descriptors such as `rusk-biscuits` are not product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

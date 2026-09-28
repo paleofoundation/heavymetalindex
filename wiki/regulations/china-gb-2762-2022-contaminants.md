@@ -39,11 +39,6 @@ This page records the active Chinese regulatory framework for food-contaminant m
 - National Health Commission. Announcement of 36 new national food-safety standards and 3 amendments, including GB 2762-2022. Source URL: https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml
 - USDA Foreign Agricultural Service. China releases standard for maximum levels of contaminants in foods, stating GB 2762-2022 entered into force on 30 June 2023 and updated GB 2762-2017. Source URL: https://www.fas.usda.gov/data/china-china-releases-standard-maximum-levels-contaminants-foods-0
 
-## Verification notes
-
-- Created 2026-05-18 as the active successor link for the GB 2762 historical-chain pages created during the Liang et al. 2019 ingest.
-- GB 2762-2025 has been published and is scheduled to take effect on 2026-09-02, after the current session date. This page remains marked active as of 2026-05-18.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

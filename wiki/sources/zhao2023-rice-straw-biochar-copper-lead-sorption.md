@@ -110,19 +110,11 @@ Courses: Useful case study for distinguishing a remediation sorbent endpoint fro
 
 App: Route as context for soil-remediation, biochar amendment evaluation, and metal immobilization mechanisms. Keep any rice or rice-straw supply-chain implications context-only unless paired with field evidence showing metal changes in soil, crops, or amendments.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/lead]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agronomy13051282`; no DOI conflict was observed. This is primary laboratory evidence, but not food-occurrence evidence. `ingredients` and `products` are intentionally empty because the paper does not measure edible rice, infant cereal, rice-based products, or any consumer product matrix. The source specifies Cu(II) and Pb(II) in aqueous nitrate solutions; source metadata uses the repo's broader Cu and Pb metal slugs while this page preserves oxidation-state specificity in prose and tables. The paper's supplementary Table S1 specific-surface-area values are cited by the authors but not reproduced in the PDF text extracted here, so the source page records the qualitative SSA finding rather than inventing values.
-
-Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, while the Methods equation glossary (Equation 1) labels K_L as mg/L. The wiki tables reproduce the K_L numeric values but do not assert a unit, since the source itself is inconsistent.
-
-Audit editorial review 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against the linked reference record; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -52,7 +52,6 @@ Twenty nickel-allergic adults were patch tested and 17 completed a repeated open
 | Ni | occluded patch test on back | 15.0 | ug Ni/cm2 (figure); table header prints mgNi/cm2 | applied dose per area | 20 | Table 1 p.3 (printed 257) |
 | Ni | occluded patch test on back | 17.0 | ug Ni (figure); table header prints mgNi | applied total dose | 20 | Table 1 p.3 (printed 257) |
 
-
 ## Methods (brief)
 
 Patch concentrations 0.08, 0.20, 0.80, and 1.90 percent NiSO4.6H2O. ROAT concentrations 0.67 and 1.50 percent. Small chambers received 17.7 ml as printed (figure volumes are in ul). Ethics KA04100. Accepted 26 December 2006. Journal pages 255 to 261.

@@ -68,20 +68,13 @@ The chapter is open-access under CC BY 3.0; DOI 10.5772/intechopen.101938.
 
 **Microbiome:** Chapter touches soil-microbiome effects of heavy metals (citation [3]) but does not develop the topic. Not a useful microbiome source.
 
-## Verification notes
+## Related evidence
 
-- 2026-05-18 (automated editorial review, manual-fetch ingest cycle PCMF_80088): Page enhanced from prior 2026-05-14 revision. Fixed `doi: null` / `no_doi_assigned: true` — the chapter carries a valid DOI (10.5772/intechopen.101938) printed on every page footer and on the IntechOpen copyright page. License upgraded from generic `"CC BY"` to `"CC BY 3.0"` per the explicit Creative Commons URL on the IntechOpen copyright page (creativecommons.org/licenses/by/3.0/). Metals array expanded to include Cu, Zn, Fe — these are discussed in the chapter's review of metals frequently co-occurring with Pb/Cd/Cr in industrial effluent and biosolids (chapter sections 2 and 3). Added access_url. Replaced legacy `## Wiki pages updated on ingest` heading with `## Wiki pages this source may touch` (current template). Tightened Key numbers to a table matching the chapter's Table 1 exactly (Pb/Cr/Cd full distribution: mean, median, min, max, SD). Added Microbiome implication line (negative — chapter does not develop the topic).
-- Identity-check provenance: this PDF is the chapter (IntechOpen open-access PDF, 15 pages, copyright 2022 The Author(s)). Title matches; authors match; DOI 10.5772/intechopen.101938 prints on every page footer.
-- Brand firewall (Part 12): no brands named; chapter discusses categories of industries (textile, dyeing, garment, pharmaceutical, ceramic, paint, packing) without naming companies. No firewall edits required.
-- Audit editorial review (2026-05-18) flagged [[supply-chain/irrigation-water]] and [[supply-chain/soil-contamination]] in the "Wiki pages this source may touch" section as wikilinks to pages that do not yet exist on disk (the linked reference record currently contains only `aluminum-based-packaging.md`, `soil-nickel-screening.md`, and `index.md`). Verified: those two pages are not yet created. Leaving the wikilinks intact since they are semantically the correct routing destinations and will resolve once Karen creates the parent supply-chain coverage pages; they are not silently inventing taxonomy slugs. editorial review verdict was PROMOTE with this as a minor concern, not a blocker.
-
-## Wiki pages this source may touch
-
-- [[ingredients/rice]] — review-level mention of Cd accumulation under flooded paddy conditions (citations [83], [84]); not a primary value contributor.
-- [[ingredients/wheat]] — review-level mention only; not a primary value contributor.
-- [[ingredients/vegetables]] — review-level discussion of vegetable contamination in Bangladesh DEPZ context; not a primary value contributor (Bangladesh DEPZ vegetable values trace to chapter reference [21], which should be ingested separately).
-- [[supply-chain/irrigation-water]] — primary value contributor: DEPZ effluent table.
-- [[supply-chain/soil-contamination]] — mechanistic-background contributor.
+- [[supply-chain/irrigation-water]]
+- [[supply-chain/soil-contamination]]
+- [[ingredients/rice]]
+- [[ingredients/wheat]]
+- [[ingredients/vegetables]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

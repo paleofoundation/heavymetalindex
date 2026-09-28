@@ -100,7 +100,7 @@ A questionnaire was administered to 200 volunteered Ekiti State University stude
 
 This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and Pb in prepared staple-food forms, including rice-containing mixed meals, wheat/noodle products, legume meals, peanut/groundnut, and tuber-based foods. The values are reported as food-item concentrations in `mg/kg`; the paper does not give a wet/dry basis beyond the stated sample drying protocol, so downstream normalization should preserve this uncertainty. Several entries are mixed meals rather than single ingredients and should be routed by product form rather than silently assigned to one ingredient.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/wheat]]
@@ -122,21 +122,6 @@ This source contributes Nigeria-market occurrence evidence for Zn, Cu, Cd, and P
 - [[metals/copper]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; Table 1 and Table 2 pages were also rendered from the PDF because several non-detect cells were visually crowded in the text layer.
-- DOI verified from the first page as `10.5539/ijc.v7n1p155`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 1 values above were checked against the rendered page 157. Units are copied as `mg/kg`; no conversion was made.
-- `LT DL`/`LTDL` is preserved as the source's less-than-detection-limit label. Blank Cd cells for Sweet Beans (Red), Potato, and Fufu are recorded as `not reported in table` rather than filled.
-- The source reports Zn, Cu, Cd, and Pb only. It does not report arsenic, mercury, chromium, nickel, inorganic arsenic, methylmercury, or Cr(VI).
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Audit 2026-06-09 (autonomous, Part 12 strict reading): the Table 1 rows "Indomine" and "Semovita"/"Semovita with soup" originally reproduced brand names attached to contamination values. Indomie (Dufil Prima Foods) is a registered instant-noodle brand; Semovita (Flour Mills of Nigeria) is a registered semolina brand. Rows relabeled to product-form descriptors "Instant noodles" and "Semolina porridge" / "Semolina porridge with soup". Numerical values unchanged.
-- Audit 2026-06-09: Table 2 Cu range for cereals corrected from "(1.30-12.20)" to "(1.30-12.2)"; the source's run-together text "1.30-12.20.28±0.23" was parse-error transcribed into the wiki with the leading "0" of the next column's Cd mean concatenated onto the Cu range upper bound.
-- Audit 2026-06-09: Source page 158 prose attributes the Cu max (17.6) to "beans" and the Cd max (0.50) to "rice". Table 1 maps Cu 17.6 to the "Groundnut" row (in the legumes section, where the paper grouped groundnut under "Legumes/Legumes product with others") and Cd 0.50 to the "Rice with beans & fish" row. The wiki's `## Key numbers` bullet reports Table 1 row labels rather than the source's prose words; the discrepancy is internal to the source.
-- Audit 2026-06-09: source metadata `ingredients:` extended with `yam` and `melon` to reflect the Table 1 yam-based rows (Yam, Pounded Yam With Melon, Amala (Yam Flour), Yam With Oil, Yam With Egg) and melon-bearing rows (Melon, Eba With Melon, Pounded Yam With Melon).
-- Audit 2026-06-09: Garri, Amala (Cassava Flour), Eba, and Fufu are cassava-derived foods, but `cassava` is not in the current the editorial record ingredient list. Routing for these foods currently lands on `[[ingredients/root-vegetables]]` and `[[products/root-tuber-vegetables]]`. Flag for taxonomy maintenance: a `cassava` ingredient page (or `cassava-flour`/`garri` sub-slugs) may be warranted given how broad the West-African cassava-foods literature is.
-- Audit 2026-06-09: `matrices: [prepared-staple-foods, nigeria-market]` uses descriptive bare strings that are not in the standard matrices controlled vocabulary. Retained pending matrices-vocabulary review rather than silently relabeled.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

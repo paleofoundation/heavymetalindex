@@ -45,7 +45,7 @@ The source analyzes dry black tea leaves and tea infusions separately. This page
 
 The source supports tea occurrence context for Turkiye-market black tea and shows that dry-leaf concentrations and infusion concentrations are not interchangeable. It can route to both true-tea product pages and tea-infusion context with basis metadata.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[products/true-tea-camellia-sinensis]]
@@ -54,11 +54,6 @@ The source supports tea occurrence context for Turkiye-market black tea and show
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-Brand identities from the paper are not transcribed. Arsenic is treated as total arsenic because the paper does not report inorganic arsenic speciation.
-The article's prose gives a dry-leaf Al range of 12.6-25.3 mg/g, while Table 1 includes a 27.0 +/- 1.3 mg/g value; the Key numbers section uses the table range.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

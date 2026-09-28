@@ -54,16 +54,6 @@ This is a narrative review of edible seaweed nutrition, human intervention evide
 
 This source supports broad seaweed-food and seaweed-supplement context for arsenic speciation, cadmium exposure, and monitoring gaps. It should not be treated as a primary occurrence dataset because its numeric contaminant values are drawn from cited studies and supporting information. The review reinforces that total arsenic and inorganic arsenic must remain separate in seaweed routing.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, heavy-metals section, arsenic section, and conclusion were readable, but the text layer mis-rendered some micro symbols.
-- DOI `10.1093/nutrit/nuy066`, raw handle `MFK_nuy066`, and cite-key checks found no existing source page before creation.
-- Heavy-metal and arsenic values were checked against extracted text and rendered PDF pages `/tmp/nuy066-page-15.png` and `/tmp/nuy066-page-16.png` to verify that key arsenic values are `µg/g`, not `mg/g`.
-- Units and bases are preserved as the source shows them: `µg`, `µg/g`, `mg/kg`, `ng/mL`, and percent changes. No conversion was performed.
-- Speciation: total arsenic and inorganic arsenic are recorded separately; total arsenic values are not promoted to inorganic arsenic.
-- Brand firewall: no sampled product brands are attached to contamination values.
-- source metadata slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

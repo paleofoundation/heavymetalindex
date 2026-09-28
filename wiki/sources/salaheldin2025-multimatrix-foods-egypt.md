@@ -99,7 +99,7 @@ Courses: Suitable case material for regulatory affairs and brand QA audiences co
 
 App: Adds occurrence data points for the following ingredient-metal pairs in Egyptian retail product matrices: wheat (Pb, Cd, Cr, tAs), bread (Pb, Cd, Cr, tAs), pasta (Pb, Cd, Cr, tAs), maize (Pb, Cd, Cr, tAs), tea (Pb, Cd, Cr, tAs), coffee (Pb, Cd, Cr, tAs), whole-milk (Pb, Cd, Cr, tAs), milk-and-dairy (Pb, Cd, Cr, tAs), fish (Pb, Cd, Cr, tAs), beef (Pb, Cd, Cr, tAs), meat (Pb, Cd, Cr, tAs). Adds product-form occurrence data for carbonated soft drinks, energy drinks, instant coffee, wheat flour, instant noodles, corn products, canned fish, canned beef, processed luncheon meat, and table salt.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -129,18 +129,6 @@ App: Adds occurrence data points for the following ingredient-metal pairs in Egy
 - [[products/processed-meats]]
 - [[products/beef-product]]
 - [[products/salt]]
-
-## Verification notes
-
-- "Energy drinks" in this paper are non-alcoholic caffeinated beverages (Red Bull-class) rather than electrolyte sports drinks; routed to `products/sports-energy-drinks` as the closest taxonomy match, which currently spans both. Flag if a finer split exists in a future snapshot.
-- Instant noodles category was routed to `products/pasta-wheat-based`; the paper does not specify rice-based vs wheat-based noodle composition, but the discussion of Egyptian noodles alongside macaroni implies wheat-based product form.
-- "Luncheon" in Egyptian retail context is canned/cured processed luncheon meat; routed to both `products/processed-meats` (primary) and `products/beef-product` (since composition is typically bovine-based).
-- Total mass percentages in Table 1's "Overall heavy metals content" row are computed across all 54 samples; Pb 72% + Cd 12.9% + Cr 10.7% + tAs 4.5% = 100.1% (rounding artifact in source).
-- Arsenic is reported as total As only; no inorganic speciation, so `tAs` used throughout. Chromium total only; no Cr-VI speciation.
-- LOQ of As applied where As was undetected in HQ/CR calculations (Tables 3 and 4 footnote).
-- Audit editorial review (2026-06-03) flagged the abstract paragraph and exceedance recap as misattributing the 10 µg/kg threshold to all three Pb categories; verified against PDF p. 5 — the threshold is category-specific (Pb 10 µg/kg in CSD/ED, 20 µg/kg in milk/dairy, 100 µg/kg in canned beef/luncheon; Cd 10 µg/kg in CSD/ED, 50 µg/kg in luncheon; tAs 10 µg/kg in luncheon). Corrected.
-- Audit editorial review flagged a Cr/As metal mix-up: the page originally stated "Cr above the 50 µg/kg limit in 100% of luncheon samples." PDF p. 5 actually says "As exceeded limits (10 µg/kg) in 50% of luncheon samples." Corrected.
-- Audit editorial review flagged dairy-milk tAs range "3.5–4.5" as fabricated; verified Table 1 reports range as "4" only. Corrected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

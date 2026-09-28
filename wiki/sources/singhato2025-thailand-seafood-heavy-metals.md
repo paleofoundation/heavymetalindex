@@ -165,7 +165,7 @@ Courses: This paper is a useful teaching example for two distinct points. First,
 
 App: Route as Thai-market broad seafood/shellfish occurrence evidence for cadmium and total arsenic. The wedge shell and musk crab rows are the most informative individual data points; routine bivalve and crustacean rows reinforce the broader Thai-Southeast-Asia occurrence pattern. Do not use the iAs MOE figures as occurrence evidence for inorganic arsenic; the iAs values are model outputs not measurements.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/seafood]]
 - [[ingredients/shellfish]]
@@ -184,27 +184,6 @@ App: Route as Thai-market broad seafood/shellfish occurrence evidence for cadmiu
 - [[regulations/jecfa-arsenic-bmdl]]
 - [[regulations/efsa-arsenic-contam-2009]]
 - [[regulations/efsa-lead-contam-2010]]
-
-## Verification notes
-
-Identifying metadata: title, authors, year, journal, volume, article number, and DOI taken from the PDF first page (Foods 2025, 14, 3725; https://doi.org/10.3390/foods14213725). License is CC BY 4.0 as printed on the PDF first page ("This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license"). Article received 5 October 2025, revised 29 October 2025, accepted 29 October 2025, published 30 October 2025.
-
-Filename note: this PDF was retrieved by the source-retrieval Agent under the filename "Comprehensive Risk Assessment of Metals and Minerals in Seafood Using Bioaccessibility Correction.pdf" (which does not match the paper's actual title), and the same directory also contains a separately-named file "Risk Assessment of Toxic Heavy Metal Exposure in Selected Seafood Species from Thailand.pdf" — md5 verification confirmed both filenames refer to byte-identical files (md5 5e4283750def5ba8697aca4e97f3adf3). The KADC_ raw_handle preserves the source-retrieval-corrupted filename for downstream raw-file traceability. The paper's actual content is the Singhato et al. 2025 Thailand seafood risk assessment, not a bioaccessibility-correction study.
-
-Identity checks: zero existing wiki source page returns on the DOI grep (`10.3390/foods14213725`), the cite-key grep (`singhato2025`), and the KADC_ raw_handle. NEW source page.
-
-Speciation discipline: the paper measures total arsenic and total mercury; metals source metadata uses tAs and tHg accordingly. The 5% and 2% inorganic-arsenic fractions used in the paper's risk assessment are model estimates (citing Dwiyitno et al. 2024), not direct iAs measurements; these are reported in the Key numbers section as model outputs, not as primary occurrence evidence for inorganic arsenic.
-
-Brand firewall (Part 12): the paper does not name any commercial brands of the seafood sampled (samples were collected from vendors at unnamed local markets in Chonburi Province). Scientific-method vendor names are preserved per Part 12 Exception 2: Milli-Q EQ 7000 (Merck KGaA, Darmstadt, Germany), Ultra-Turrax T25 (IKA, Staufen, Germany), A11 Basic Analytical Mill (IKA, Staufen, Germany), Memmert ULE 400 (Memmert GmbH, Büchenbach, Germany), Mettler AT201 (Mettler Toledo, Hamilton, New Zealand), Agilent 8800 ICP-QQQ (Agilent Technologies, Waldbronn, Germany), Suprapure HNO₃ (Sigma-Aldrich, St. Louis, MO, USA), NIST SRM 1566b oyster tissue (NIST, Gaithersburg, MD, USA), NMIJ 7402-a codfish tissue (National Metrology Institute of Japan), SPSS v24.0 (SPSS Inc., Chicago, IL, USA). These are method-side instrument and reference-material identifiers, not brand-name attributions of contamination values.
-
-Wiki/HMTc firewall (Part 2): the paper's "Discussion" section contains several cross-literature comparison statements (Arampongpun 2017, Dokmaikaw and Suntaravitun 2019, Juwa et al., Arbsuwan 2021, Ritonga et al. 2022, Thongra-ar 2014); these have not been imported into this page as cross-literature synthesis claims. Only the paper's own measurements, risk-assessment outputs, and stated conclusions are reproduced. No HMTc threshold proposals were derived from the paper's findings.
-
-Unit and basis discipline: all concentrations on this page are mg/kg fresh weight (FW) as the paper reports them. No silent conversion to ppb or to dry weight has been performed. The cooked-state adjusted concentrations used in risk assessment apply cooking-yield-factor corrections (from Rueangsri et al. 2025 ref [16] and Supplementary Table S8 of the present paper), but the raw FW concentrations in Table 6 are what this page reproduces.
-
-2026-06-03 audit application (fresh-context automated editorial review, verdict REVISE):
-- Finding 1 (⚠️ Check 1, As-MOE narrative incorrectly applied the Pb <100 cutoff): verified against PDF p. 6 — the EFSA-defined health-concern threshold for arsenic MOE is the 2.0-0.4 (average consumers) and 0.9-0.2 (high consumers) band; the <100 cutoff is the Pb convention, not As. Applied: the per-capita MOE preamble and the post-table narrative both now reference the correct EFSA As risk band (≤2.0) and explicitly note that this is distinct from the Pb <100 convention. The post-table sentence also names which four species (razor clam, oysters, clam, silver pomfret) remain above the 2.0 band at 3-5.9 y boiled.
-- Finding 2 (⚠️ Check 3, omission of 10% iAs baseline reference): verified against PDF p. 16 Discussion 4.2 — the paper does cite a baseline assumption that iAs constitutes 10% of total As in seafood (ref [22], EFSA Margin of Exposure resource), alongside the operative 5%/2% figures from Dwiyitno et al. 2024 (ref [25]) that were actually applied to the risk calculation. Applied: Methods section now notes both the 10% baseline reference and the 5%/2% operative figures, with the distinction between baseline and applied figures made explicit.
-- All Check 2/4/5 findings clean per editorial review. Check 3 was otherwise clean. Routing audit re-run after fix: 0 blocking changes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

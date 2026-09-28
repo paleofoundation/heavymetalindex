@@ -104,11 +104,6 @@ The four-cans-per-week threshold (water conserve) is the headline number. Adults
 - Sn is reported only as the inorganic Sn total measured by ICP-OES at 189.925 nm; organotin species (TBT/TPT) are not measured. The "tin not detected" finding speaks only to inorganic tin migration from the can; it does not address organotin contamination from environmental routes.
 - N is modest (30 samples, five brands). The 20 % Cd exceedance is a within-brand observation driven by Brand 2 oil-conserve and should not be projected to the Brazilian canned-tuna market as a whole without the larger surveys the authors cite (Voegborlo 1999, Ashraf 2006, Ganjavi 2010) which were performed in other countries.
 
-## Verification notes
-
-- Audit editorial review (2026-06-04) flagged the intro and Key-numbers cross-conserve summary as quoting a composite "44–460 µg/kg" total Hg span and "35–460 µg/kg" MeHg span that mix one conserve type's minimum with the other's maximum — no single conserve type spans either range. Verified against the source p. 188: oil 44–402 / 35–393, water 51–460 / 41–460. Both ranges split into per-conserve form on this page.
-- Audit editorial review (2026-06-04) flagged that the cross-conserve Pb summary had inverted the conserve attribution. Verified against source p. 188: the source's narrative ("oil … Pb (44 µg/kg) … water … Pb (<30 µg/kg)") gives the highest Pb mean to the oil conserve and the lower mean to the water conserve. Cross-conserve Pb summary corrected; a one-sentence flag is added because Table 2's brand-level means (water 34–46, oil 31–44) do not align with the source's "<30" water-conserve claim, and the table is treated as authoritative for the per-brand numbers.
-
 ## Routing notes
 
 - Direct evidence for `[[ingredients/canned-tuna]]` and `[[products/canned-fish]]`, `[[products/canned-seafood]]`. Broad-product-category context for `[[products/seafood]]` and `[[products/fish-marine-predatory]]` (the source measures canned product, not fresh predatory tuna species).

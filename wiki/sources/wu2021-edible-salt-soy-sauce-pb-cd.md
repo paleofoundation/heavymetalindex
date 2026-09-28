@@ -55,7 +55,7 @@ Courses: Demonstrates the matrix-interference problem in high-salt food testing.
 
 App: Can support a low-confidence high-salt-food evidence note if synthesis admits method-validation samples.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/salt]]
 - [[products/condiments-general]]
@@ -64,10 +64,6 @@ App: Can support a low-confidence high-salt-food evidence note if synthesis admi
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[testing/atomic-absorption-spectroscopy]]
-
-## Verification notes
-
-The fetched filename correctly identifies salt Cd context, but the paper also covers soy sauce and Pb. The soy-sauce Cd spiked row was recovered from the rendered PDF Table 2 during audit (added 0.05 mg/kg, found 0.059 mg/kg, recovery 94.0%, RSD 0.23%), corroborated by the paper's prose statement that Cd recoveries ranged from 93.0 to 94.0%.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

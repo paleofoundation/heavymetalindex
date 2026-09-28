@@ -65,7 +65,7 @@ Courses: The study is useful for separating edible-crop values from soil context
 
 App: The source can support leafy-vegetable and root-vegetable profiles for tAs, Cd, Co, Cr, Cu, Fe, Mn, Ni, Pb, and Zn with a Cameroon growing-region note.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[products/root-tuber-vegetables]]
@@ -85,14 +85,6 @@ App: The source can support leafy-vegetable and root-vegetable profiles for tAs,
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09: DOI `10.1080/27658511.2021.1909860`, raw handle `MFK_fonge2021`, and cite-key `fonge2021-cabbage-carrot-metals-cameroon` returned no existing source page hits before creation.
-- All Key numbers values were re-checked against `/tmp/hmi-june9-094.txt` extracted with `pdftotext -layout`, including Tables 10, 11, 14, and 15 and the abstract statement. Units are copied as `mg/kg` and not converted.
-- Speciation check: As is reported as total As (`tAs`) by the source. The paper does not report inorganic arsenic, Cr-VI, methylmercury, or total mercury.
-- Soil-context firewall: soil values are recorded only as supply-chain context and are not described as product occurrence values.
-- Closed vocabulary check: all product, ingredient, metal, and jurisdiction slugs used in source metadata or wiki-page links are present in the editorial record or established source-page jurisdiction codes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

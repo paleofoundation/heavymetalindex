@@ -61,7 +61,7 @@ Courses: The report is a strong teaching example for why total arsenic in seafoo
 
 App: The source can support Australian-market food-category context for prepared seafood, canned tuna, prawns, honey, potato crisps, infant formula exposure contributions, and chocolate-cake aluminum.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fresh-fish]]
@@ -76,14 +76,6 @@ App: The source can support Australian-market food-category context for prepared
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1434.txt`; the study design, analytical methods, and metals sections around aluminum, arsenic, cadmium, lead, and mercury were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_fsanz-23rd-atds`, raw SHA-256 `f3f75c8bc0571e5db49ee34529a87c6ae92b48cba91e4dab8a21ed968cb74654`, and cite key `fsanz2011-23rd-australian-total-diet-study` were searched in the linked reference record; no existing source page was found.
-- Units and basis are preserved as printed: food concentrations use `mg/kg`; dietary exposure uses `µg/kg bw/day` or PTWI percentages.
-- Speciation: seafood total arsenic, inorganic arsenic, total mercury, inorganic mercury, and methylmercury are recorded separately. No total arsenic was promoted to iAs, and no total mercury was promoted to MeHg.
-- Brand firewall: this is a government total diet study using food categories and composites; no brand-linked values are reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

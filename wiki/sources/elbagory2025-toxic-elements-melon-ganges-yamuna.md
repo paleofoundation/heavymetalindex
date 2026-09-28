@@ -122,31 +122,12 @@ Note: As reported as total arsenic (tAs); the paper does not speciate inorganic 
 
 **App:** Origin-specific signal for elevated Cd, Pb, and As in melon fruit (watermelon and muskmelon) when declared origin is the Ganges-Yamuna agricultural basin of Northern India (Saharanpur/Haridwar districts).
 
-## Verification notes
+## Related evidence
 
-Page enhanced 2026-05-19 from a prior revision dated 2026-05-14. Corrections applied against the source PDF (DOI 10.3390/horticulturae11020216):
-
-- `metals:` previously listed `Al` (aluminum); the paper does not measure aluminum (PTE set is Cd, Cr, Cu, Pb, As, Fe, Mn, Zn per Section 2.2). Corrected to `[Cd, Cr, Cu, Pb, tAs, Fe, Mn, Zn]`.
-- `ingredients:` previously declared `[[ingredients/muskmelon]]`, which is not a slug in the current taxonomy snapshot. Replaced with the umbrella `[[ingredients/melon]]` plus the existing `[[ingredients/watermelon]]` and `[[ingredients/cantaloupe]]` (cantaloupe is the named muskmelon variety in the study; Kajri is also a muskmelon cultivar but has no dedicated slug).
-- `raw_handle:` previously the generic literal `manual-fetch-source-retrieval`; corrected to the per-paper handle `MFK_assessment-of-potentially-toxic-elements-in-four-m`.
-- `raw_path:` filename was truncated to `...Four Melon Fruit Vari.pdf`; corrected to the actual filename on disk.
-- `matrices:` previously included `watermelon`, `muskmelon`, and `dry-weight`, which are commodity names and a reporting basis respectively rather than matrix descriptors. Reduced to `[fresh-fruit, melon-pulp, fruit]`.
-- `license:` upgraded from `CC BY` to `CC BY 4.0` per the paper's copyright page.
-- Tables for Crimson Sweet, Cantaloupe, and Kajri were previously abbreviated to selected metals; expanded to all eight PTEs to match Table 1 and Table 2 in the source.
-- DIM and HRI matrices added from Table 3 (Section 3.3) — previously only narrative summaries were present.
-- `sample_population` expanded to capture the L1–L4 (Yamuna), L5–L8 (Hindon/Solani tributaries), L9–L10 (Ganges) site partitioning (Section 2.1).
-- Regulatory comparison clarified: the paper compares dry-weight concentrations to a WHO/FAO MPL normally applied on fresh weight, which limits direct interpretability; this caveat was added rather than removed because the paper itself makes the comparison.
-- Legacy `## Wiki pages updated on ingest` section removed per the current Part 6 source-page template.
-
-Audit editorial review (2026-05-19) findings — verified independently against the PDF and applied:
-
-- ❌ Kajri As CV%: editorial review flagged wiki value 11.84 as a column-shift duplicate of the Fe CV; Table 2 Kajri CV row reads 41.47/21.18/7.04/38.84/**53.84**/11.84/16.03/21.46 (Cd/Cr/Cu/Pb/As/Fe/Mn/Zn). Verified; corrected As CV to 53.84.
-- ❌ Kajri As range: editorial review flagged wiki value 0.01–0.07 as understating the minimum; Table 2 Kajri As column L1=0.02, no value below 0.02. Verified; corrected to 0.02–0.07.
-- ⚠️ Kajri PCA variance sum: editorial review flagged wiki "97.99%" as arithmetic drift; PC1=93.74 + PC2=4.28 = 98.02. Verified; corrected to 98.02 and added per-component variances for all four varieties.
-- ⚠️ HCA hotspot attribution: editorial review flagged that the wiki sentence "L3 and L6 ... and L4 ... as hotspots for elevated Cd, Pb, and As" is not in the source. Section 3.2 actually names Fe/Zn (not Cd/Pb/As) as dominant on L3/L6 in the Arka Shyama biplot, and identifies cluster-similarity pairs not "hotspots." Verified; rewrote the sentence to track what Section 3.2 actually reports (similarity pairs L2–L3/L5–L7 for Arka Shyama, L3–L8/L4–L5 for Crimson Sweet, L2–L9/L7–L10 for Cantaloupe, L5–L9/L4–L7 for Kajri) and moved the regulatory-exceedance summary up from the prior hotspot sentence to a faithful restatement of Section 3.1.
-- ⚠️ Wet-weight conversion in Implications/Certification: editorial review flagged as borderline Part 2 (wiki-side arithmetic on top of a source-internal regulatory claim). Rejected as a correction: the conversion is framed as a comparability caveat ("constrains direct comparison"), not as a threshold proposal, and is necessary to honestly report the paper's own DW-vs-WW MPL comparison. Leaving in place.
-- ⚠️ `matrices: melon-pulp` not flagged as a new-vocabulary proposal: noted here. Matrices vocabulary per the editorial record is open ("Add a new term only if none of these fits"); `melon-pulp` is unambiguous and consistent with naming conventions like `fish-muscle`, `cocoa-powder`, `egg-yolk` already in use across the corpus. No correction required.
-- Checks 2, 3, 4 returned ✅. Verdict was REVISE on the basis of the four findings above; after applying the three real corrections and rewriting the hotspot sentence, the page should clear a re-audit on Checks 1 and 5.
+- [[ingredients/muskmelon]]
+- [[ingredients/melon]]
+- [[ingredients/watermelon]]
+- [[ingredients/cantaloupe]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

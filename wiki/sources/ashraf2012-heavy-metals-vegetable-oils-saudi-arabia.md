@@ -71,7 +71,7 @@ Speciation: total arsenic only. No iAs/tAs partition. No Hg measured.
 
 **App:** Cd data in the 2–7 ng/g range and Pb data in the BDL to 17 ppb range for common culinary oils provide reference points for the vegetable-oil ingredient cluster (corn, sunflower, soybean, peanut, sesame, olive, rapeseed). The LOD limitations argue for weighting these values lower than ICP-MS-derived measurements when synthesizing the contamination profile.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/corn-oil]]
@@ -89,17 +89,6 @@ Speciation: total arsenic only. No iAs/tAs partition. No Hg measured.
 - [[metals/zinc]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- 2026-05-26 merge-enhance (automated editorial review, manual-fetch-source-retrieval re-ingest): replaced placeholder `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_levels-of-selected-heavy-metals-in-varieties-of-ve` handle; fixed truncated `raw_path` (was `Vegetable Oils Co.pdf`, actual file is `Vegetable Oils Collected from Saudi Arabia.pdf`); populated `products: ["[[products/olive-oil]]", "[[products/cooking-oils-other]]"]` — the food-paper-with-empty-products defect flagged in `routing_malformed.csv`.
-- 2026-05-26 factual correction: prior page asserted "corn oil, olive oil, and rapeseed oil were below detection limit (BDL)" for Pb. Verified against Table 1 of the source — rapeseed oil Pb is 0.011 ± 0.001 µg/g (not BDL); only corn oil and olive oil are BDL. Corrected. The corresponding row in Table 3 (EWDI Pb) confirms the BDL pattern: NA values appear only for corn and olive columns.
-- 2026-05-26 expanded Key numbers to include Cu, Zn, Fe, Mn means and ranges (all reported in Table 1 and previously omitted from the page body even though all seven elements are in `metals:`). Added Pb PTWI-withdrawal caveat and the tAs-vs-iAs comparison caveat on the EWDI-vs-PTWI framing.
-- 2026-05-26 modernized Methods section with per-oil sample counts, microwave digestion ramp program, and the CRM-recovery-vs-sample-concentration analytical-limitation paragraph (replacing the earlier speculative "typographical unit inconsistency" framing of the Cd LOD — the unit `µg/g` in Table 6 is internally consistent with how the calibration was performed and is not a typo).
-- 2026-05-26 modernized "Wiki pages updated on ingest" heading to "Wiki pages this source may touch" per current source-page convention; added [[metals/arsenic-total]], [[metals/copper]], [[metals/zinc]], [[metals/iron]], [[metals/manganese]] to the touch list to match the expanded source metadata coverage.
-- `publication: "Asian Journal of Chemistry (Uncorrected Proof)"` retained from prior page. The PDF carries an "Uncorrected Proof" watermark but does not state the journal title or volume/issue on any of its five pages. The publication field is therefore unverified against the source itself; flagging for downstream cross-vendor audit confirmation rather than overwriting without evidence.
-- `doi: null` / `no_doi_assigned: true` retained — the source PDF contains no DOI string.
-- 2026-05-26 fresh-context audit (general-purpose editorial review) — verdict PROMOTE. All five checks (numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall) returned ✅ on substantive findings. Two ⚠️ concerns reviewed: (1) `edible-oil` matrices term — confirmed in corpus use across 12 sibling source pages alongside `vegetable-oil`, accepted vocabulary, no change; (2) Zn page-2-text vs Table-1 minimum inconsistency — applied: Zn key-number line now flags the source-internal contradiction analogously to the existing Mn note. Rapeseed-Pb-BDL correction from the merge-enhance pass was independently re-verified against Table 1 by the editorial review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

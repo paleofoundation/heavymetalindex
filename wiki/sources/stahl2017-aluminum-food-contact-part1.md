@@ -80,7 +80,7 @@ The Part I occurrence table reports Hessian State Laboratory aluminum results fo
 
 This source supports aluminum occurrence context across food categories and identifies aluminum food-contact materials as a migration-test domain. The Table 3 foodstuff values can inform broad category evidence, while the Part I contact-material details should be treated as study-design context until paired with the Part II and Part III migration-result papers.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-packaging-foils-wraps]]
 - [[products/food-packaging-cans-lids]]
@@ -102,16 +102,6 @@ This source supports aluminum occurrence context across food categories and iden
 - [[products/nuts-seeds-other]]
 - [[products/category-5-beverages]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09 found no existing source page for DOI `10.1186/s12302-017-0116-y`, raw handle `MFK_stahl2017`, or cite key `stahl2017-aluminum-food-contact-part1`.
-- Table 3 values were re-checked against `/tmp/hmi-june9-123.txt` extracted with `pdftotext -layout`. Product names, sample counts, `<BG`, and min/max/mean/median values are copied exactly, including the source's printed mineral-water row where the minimum appears greater than the maximum.
-- Units are preserved as `mg/kg or mg/L`, the source table's combined food/liquid basis. No normalization to ppb was performed.
-- Speciation check: the source reports aluminum only; there is no arsenic, mercury, or chromium speciation issue.
-- Part I regulatory values such as the TWI and specific release limit are source context only and are not HMTc thresholds.
-- Brand firewall check: no commercial food or cookware brands are attached to contamination values. Instrument and reference-material names are method context only.
-- Closed vocabulary check: product, ingredient, metal, and wiki-page slugs use entries present in the editorial record. Exact categories such as pine nuts, spelt, Harz cheese, malt, wine, game meat, herring, and crustaceans are retained in table text where exact product slugs are absent or not used in the broad source metadata.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -68,17 +68,6 @@ Fish from the northern sector were acquired from commercial fish landings off Ni
 
 This source contributes Brazilian marine non-predatory fish occurrence data for total As, total Hg, Cr, Al, Ni, and other trace elements in edible sardine muscle. It is important for HMTc routing because the source reports total As and total Hg, not inorganic As or methylmercury measurements. Cd and Pb should remain below-LOQ context unless a later structured extraction records censoring explicitly.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Table 1, Table 2, Table 3, discussion, and conclusions were readable.
-- DOI `10.1007/s00128-023-03723-7`, raw handle `MFK_assessment-of-human-health-risk-of-metal-loid-con`, and cite-key checks found no existing source page before creation.
-- Table 2 concentration values and Table 3 risk values were checked against the extracted text. Units are preserved as reported: Hg in `ng/g ww`; other concentration values in `µg/g ww`; no conversion was performed.
-- Speciation: arsenic is total As and mercury is total Hg. The paper uses a 3% inorganic-As assumption and a MeHg reference value for risk assessment, but it does not measure iAs or MeHg.
-- Cd and Pb were mostly below LOQ and excluded by the authors; this page does not invent Cd or Pb concentration rows.
-- Brand firewall: samples came from commercial landings/vessels and regional sectors, not branded seafood products.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Audit 2026-06-09: fresh-context editorial review audit returned PROMOTE. Two ⚠️ completeness notes applied: instrument models (Varian 720 ES ICP-OES, CEM Mars Xpress microwave) and source LOQ table added to Methods for reproducibility and Cd/Pb censoring traceability. All Table 2/Table 3 numbers, sector sample sizes (n=42 north, n=32 south), exceedance percentages, and speciation logic (tAs/tHg/Cr) re-verified against the PDF — clean.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

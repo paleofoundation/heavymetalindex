@@ -76,15 +76,6 @@ Samples were taken from Mediterranean coastal and trawling areas in the Adriatic
 
 This source provides baseline dry-weight arsenic occurrence context for fish, shellfish, and bivalve molluscs across tropical and Mediterranean seafood taxa. It supports broad seafood routing but should not be treated as a retail or jurisdiction-specific market benchmark. The speciation table indicates that inorganic arsenic was low in the representative unpolluted seafood rows, while total arsenic varied substantially by species and taxon.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title page, Table 1, Results sections 3.1-3.4, and Table 2 were checked in `/tmp/f3_texts/fattorini2006.txt`.
-- DOI `10.1080/02757540600917328`, raw handle `MFK_fattorini2006`, and cite-key checks found no existing source page before creation.
-- Values were copied from source text and table output as dry-weight `µg g−1` values; no conversion to wet weight or mg/kg was performed.
-- Speciation: Table 2 reports inorganic arsenic percentages only for crab, *Haemulon* sp., and *Lutjanus synagris* rows. Total arsenic in all other rows remains `tAs` context and is not promoted to iAs.
-- Brand firewall: no branded products are reported.
-- source metadata slugs were checked against the editorial record; species-specific seafood product rows are not in the closed vocabulary, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

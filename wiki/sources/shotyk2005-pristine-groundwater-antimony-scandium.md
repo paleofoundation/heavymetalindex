@@ -55,7 +55,6 @@ Groundwaters from flows and wells in Springwater Township, Ontario, were measure
 | Sb | ICP-SMS method | 30 | pg/L | lod |  | PDF p.1 |
 | Sc | ICP-SMS method | 5 | pg/L | lod |  | PDF p.1 |
 
-
 ## Methods (brief)
 
 Samples collected in acid-cleaned 100 mL LDPE with 100 μL in-house sub-boiled HNO3 already added. Unfiltered. ICP-SMS with APEX Q and low-flow PFA nebulizer. SLRS-4 measured Sb 245 ± 9 ng/L versus certified 230 ± 40 ng/L; Sc 10.1 ± 0.6 ng/L versus reference 11.3 ± 0.6 ng/L.

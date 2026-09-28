@@ -196,12 +196,6 @@ License `public-reference-only`: the EFSA Journal is published under the Creativ
 
 The opinion uses the EFSA Comprehensive Database version 1, comprising 32 dietary surveys in 22 Member States covering more than 67,000 individuals; chronic exposure assessment retained the 26 surveys in 17 countries with more than one consumption day per subject.
 
-## Verification notes
-
-The opinion is internally inconsistent about which sex the BMDL10 of 0.11 mg Cr(VI)/kg b.w. per day for diffuse epithelial hyperplasia of the duodenum was modelled in. The abstract (page 1), the risk-characterisation text on page 115, and the final conclusions bullet on page 126 attribute the BMDL10 to female mice; the BMD-analysis text on page 113 ("For male mice the BMD approach was only applicable to the data of diffuse epithelial hyperplasia in duodenum and resulted in a BMDL10 of 0.11"), the risk-characterisation text on page 117, the Dose-Response Conclusions bullet on page 125, and — most decisively — Table 22 (page 113) attribute it to male mice, with female mice marked "No BMDL could be determined." The wiki uses the data-authoritative male-mice attribution from Table 22 and the supporting BMD-analysis text. Source citation: BMDL10 0.11 male mice → Table 22 page 113 and page 113 supporting text; female mice → no BMDL determinable per Table 22.
-
-Fresh-context audit editorial review (automated editorial review, 2026-06-03) returned verdict REVISE with the BMDL10-sex finding above (applied). All other checks clean: ✅ Check 1 (numerical fidelity verified across Tables 6, 7, 8, 21–25 and abstract/summary/conclusions; one minor rounding note — page 42 actual food LC is 49.1% rounded to "50%" in summary, accepted), ✅ Check 2 (all 13 ingredient slugs and both metal slugs in taxonomy snapshot), ✅ Check 3 (BMD modelling software, BMRs, endpoints accurately reported), ✅ Check 4 (Part 12 brand firewall — Latin botanical names are taxonomic identifiers, "Schmaltz" is a generic culinary term, no per-brand rankings), ✅ Check 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, EFSA conclusions paraphrased not synthesised).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

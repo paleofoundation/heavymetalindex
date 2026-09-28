@@ -82,15 +82,11 @@ App: Context for remediation and adsorption-method notes involving chitin or chi
 
 Courses: Useful example for distinguishing raw-material characterization and adsorption capacity from contaminant occurrence in the raw biological source.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, chitin-isolation procedure table, nickel-sorption methods, Table 2 isolation yields, microscopy/XRPD/TGA/FTIR results, Figure 6 isotherm, Table 3 isotherm parameters, Table 4 EDX composition, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source uses black soldier fly exuviae as a chitin source and tests aqueous Ni2+ sorption; it does not quantify metals in edible insect material, animal feed, or consumer products.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

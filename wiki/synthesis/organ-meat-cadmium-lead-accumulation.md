@@ -93,7 +93,7 @@ This synthesis was established 2026-07-27 on six anchor sources, of which three 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt]]<span class="hmi-ref-meta">Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/kamaly2023-egypt-poultry-metals|Health risk assessment of metals in chicken meat and liver in Egypt]]<span class="hmi-ref-meta">Kamaly HF and Sharkawy AA · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s10661-023-11365-9](https://doi.org/10.1007/s10661-023-11365-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>

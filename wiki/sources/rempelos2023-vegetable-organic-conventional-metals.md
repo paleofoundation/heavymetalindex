@@ -84,7 +84,7 @@ Courses: Strong teaching example for separating crop-production labels from the 
 
 App: Route to vegetable ingredient pages as UK fresh-weight occurrence context for Cd, Ni, and Pb. Retain the summary-statistic basis so downstream pooling can use moment-matching rather than treating each table cell as an individual sample.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/potatoes]]
 - [[ingredients/cabbage]]
@@ -97,12 +97,6 @@ App: Route to vegetable ingredient pages as UK fresh-weight occurrence context f
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agronomy13051225`; no DOI conflict was observed. Brand and supplier names used for seed/transplant sources are omitted under the brand firewall. The source reports Cd, Ni, and Pb only; no arsenic, mercury, chromium, or aluminum concentrations are reported for harvested crops. All toxic-metal values are fresh-weight main-effect means from Table 10, not sample-level rows. Because the source does not publish individual concentration records in the PDF and states that data are available on reasonable request, `sample_n` is left null and the multi-year scope is described in `sample_population` and Methods.
-
-Merge-enhance pass 2026-06-02 (Claude): the page is faithful to Table 10 across every cell of both contrast tables (crop-protection/fertilization and pre-crop). Audit editorial review (Agent tool, general-purpose, agent ID a8740e5f581900d2c) returned REVISE on Check 1 because the in-prose potato Cd NPK-vs-FYM increase had been silently substituted with the value computed from Table 10 (62.5%, rounded to 63%) when the paper's own Section 3.6 (p. 16) explicitly states 50% for potato — an internal inconsistency in the source between prose and table. Per Cochrane discipline (faithful reproduction with the inconsistency flagged, not silent substitution), the potato figure is reverted to the paper's stated 50% and the inconsistency is now flagged inline. Section 3.6 is the correct reference for the per-crop percentages, not Section 4.3.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

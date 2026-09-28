@@ -83,7 +83,7 @@ App: Provides product-basis occurrence fields for Pb, Al, Ni, and Cd in powdered
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/cadmium]]
@@ -94,13 +94,6 @@ Microbiome: Not addressed.
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-dairy]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven infant-formula wishlist. The same DOI appeared in downloaded wishlist rows targeting Al, Cd, and Ni; this page is the canonical source page for those duplicate downloads.
-- Strict brand firewall: the source title uses "brands" generically, and the paper anonymizes the products as T-Z. This page preserves only anonymized source codes where needed for numeric fidelity and does not name any commercial brand.
-- The source reports Cd as not detected; no Cd numeric range is inferred.
-- Methods vendor/equipment names are retained under Part 12 Exception 2.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

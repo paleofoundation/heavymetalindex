@@ -124,7 +124,7 @@ No source pages are currently cited for this ingredient node.
 
 Rice puffs are puffed-rice products (popped or extruded rice kernels, similar to puffed rice breakfast cereal but typically with finer texture for infant feeding) used as a teething-and-snacks product for infants and toddlers. They inherit the source [[ingredients/rice|rice]] heavy-metal profile, particularly [[metals/arsenic-inorganic|inorganic arsenic]], without dilution because the puffing process is purely physical (high-temperature, low-moisture expansion) and does not introduce other ingredients or remove metals. Per-mass iAs in rice puffs typically matches the per-mass iAs in the source white rice or brown rice used; the moisture removal during puffing concentrates per-mass metals modestly (≈5-10%) versus the source rice. The HMTc panel concerns for rice puffs are dominantly iAs (the rice-pathway inheritance), with secondary Pb and Cd at the source-rice baseline.
 
-The data gap status across all ten analytes in the body table reflects that no source in the current routing audit reports rice-puff-specific values; the synthesis is inferred from the broader rice-cereal and rice-flour evidence base.
+The data gap status across all ten analytes in the body table reflects that no source in the current source routing reports rice-puff-specific values; the synthesis is inferred from the broader rice-cereal and rice-flour evidence base.
 
 ## Ranges by source, region, and variety
 
@@ -163,7 +163,7 @@ Rice puffs route into [[products/teething-and-snacks-rice-based|teething-and-sna
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Inorganic arsenic in rice-based products for infants and young children]]<span class="hmi-ref-meta">Signes-Pastor AJ, Carey M, and Meharg AA · Food Chemistry 191:128-134 · 2016 · [doi.org/10.1016/j.foodchem.2014.11.078](https://doi.org/10.1016/j.foodchem.2014.11.078)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>

@@ -121,26 +121,13 @@ The wiki has not independently verified the Allen 1995 numbers; they appear in t
 - Access date: 2026-06-02.
 - Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/01_AP_Countertop_Tile_Floor/`. (Folder naming reflects the raw-asset provenance, not topical fit — the paper is a laundry-detergent study filed alongside countertop / tile / floor literature in the KADC batch.)
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/copper]] — small Indian-market dataset (n=6) showing 0.48-0.69 mg/kg Cu in laundry-detergent finished product on a dry, as-purchased basis; consistent in order of magnitude with the Unilever 1990 EU laundry-detergent dataset compiled in ECETOC 1992 for the Ni/Co/Cr panel, though the metals overlap is partial.
-- [[metals/iron]] — Indian-market Fe in laundry detergents 0.001-0.008 mg/kg (n=6).
-- [[metals/manganese]] — Indian-market Mn in laundry detergents 0.001-0.008 mg/kg (n=6).
-- [[metals/zinc]] — Indian-market Zn in laundry detergents 0.001-0.08 mg/kg (n=6).
-- [[products/laundry-detergents]] — direct evidence: six Indian retail-market detergent samples (mix of powders, one liquid, one oxygen-bleach additive); Fe, Cu, Mn, Zn measured by flame AAS; no HMTc-panel analyte measured.
-
-## Verification notes
-
-- Identity-check results (DOI / raw_handle / cite-key) on 2026-06-02 returned no matching wiki source page; ingested as NEW.
-- SHA-256 of the source PDF was recomputed from disk on 2026-06-02 and matches the value recorded above.
-- Sample size set to n=6 per Table 1 despite the abstract stating "seven detergent samples"; discrepancy logged under Limitations and surfaced as a paper-internal contradiction. The likely explanation is a merged column header ("Patanjali Anti bacterial Neem fresh / Rose fragrance powder"), but the table row contains only one value per metal in that cell, so the seventh sample's data is either omitted or merged. The wiki does not attempt to disambiguate further.
-- Internal text-vs-table range inconsistencies for Mn, Cu and Zn (documented under Limitations and in the Key numbers second-row "Range as restated" line) were resolved by treating Table 1 as authoritative.
-- Brand names appear in Table 1 of the source. Per HMI Part 12 firewall (strict 2026-05-17 reading), brand attribution was stripped and the data are reported as a six-sample distribution with product-form descriptors only. The product-form descriptors retain the analytical-chemistry-relevant information (powder vs liquid; presence of softener, antibacterial agent, oxygen bleach) without naming brands.
-- Evidence tier set to C on the basis of: (i) JETIR's documented index-quality concerns; (ii) n=6, single-city, single-laboratory, single-run design; (iii) absence of QC/replicate/LOD reporting; (iv) the text-vs-table inconsistencies; (v) the basis-mismatch in the regulatory comparison; (vi) none of the four analytes is on the HMTc priority panel. The underlying AAS instrumentation and wavelengths reported are conventional and not in themselves a tier downgrade.
-- Audit editorial review (2026-06-02) flagged four brand-derived parenthetical taglines in the Key Numbers per-sample table ("maha shaktishali wash", "gently clean and softener", "oxi action", "plus" formulation) as Part 12 brand-firewall leaks. Verified against PDF Table 1 — these are sub-brand / product-line taglines tied to specific commercial brands (Ghadi, Easy, Vanish, Tide). Stripped all four parentheticals; product-form descriptors alone retain the analytical-chemistry-relevant information.
-- Audit editorial review (2026-06-02) flagged Implications bullet 4 ("strengthening confidence that laundry-detergent product matrices are not a meaningful exposure source for the HMTc analytes Pb, Cd or As") as cross-source synthesis on the source page (Part 9 workflow scope), and internally inconsistent because neither this study nor the cited ECETOC 1992 dataset measures Pb, Cd or As. Verified — the conclusion does not follow from the premises stated. Rewrote the bullet to defer cross-source synthesis to the Part 9 workflow.
-- Audit editorial review (2026-06-02) flagged Implications bullet 3 ("would reduce a 0.69 mg/kg per-product copper concentration to roughly 7 µg/L at-skin / at-fabric — comfortably below the 0.05 mg/L drinking-water cap") as wiki-generated risk arithmetic that goes beyond reporting what the literature supports. Verified — the source mentions a 2.5-3.5% detergent concentration only in the context of fish mortality, not a 1% in-use wash dilution; the 7 µg/L number and the "comfortably below" framing are wiki-side. Rewrote the bullet as a methodological note that the source does not perform the in-use dilution step required to compare the per-product Cu concentration against a per-volume water limit.
-- Audit editorial review (2026-06-02) flagged `metals: [Fe, Cu, Mn, Zn]` as missing from the canonical-abbreviation list and `matrices: [laundry-detergent, household-cleaning-product]` as not visibly in the taxonomy snapshot. Verified — element-symbol slugs Fe/Cu/Mn/Zn are consistent with the symbol convention used elsewhere in the corpus (e.g., Co, Mo) and enumerates *priority* analytes rather than an exhaustive permitted-abbreviation list. The matrices `laundry-detergent` and `household-cleaning-product` are both used in [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]] source metadata, which is precedent in the corpus. Finding rejected as a false positive on the precedent basis; no slug change applied.
+- [[metals/copper]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/zinc]]
+- [[products/laundry-detergents]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

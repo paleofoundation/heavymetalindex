@@ -116,7 +116,7 @@ Open-access article published 12 April 2015 in Chemistry Central Journal (BioMed
 
 Evidence tier set to B rather than A. The journal is peer-reviewed and the methods section is unusually transparent (LOD, LOQ, wavelength, slit, correlation coefficient and background-correction mode per element are tabulated in Table 6). What disqualifies it from A on the HMI scale is the absence of a certified reference material recovery, the single-vineyard / single-harvest design, the n = 3 replication structure that produces transfer-factor RSDs up to 87%, and the use of laboratory micro-vinification rather than commercial production for the wine endpoint. The methodological transparency on the analytical side is strong; the experimental design is descriptive rather than confirmatory.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -126,23 +126,6 @@ Evidence tier set to B rather than A. The journal is peer-reviewed and the metho
 - [[metals/zinc]]
 - [[ingredients/grapes]]
 - [[ingredients/grape-juice]]
-- [[products/fermented-beverages-non-tea-based]]
-
-## Verification notes
-
-No brand names appear in the paper or on this page. Cultivar names (Feteasca albă, Feteasca regală, Riesling italian) are Vitis vinifera grapevine varieties, not commercial wine brands; Part 12 brand-firewall does not apply. The regional geographic indication "Sătmar Hills" identifies the production area, not a brand. Instrument and reagent references (Perkin Elmer AAnalyst 800; Berghof MWS-2 microwave; Merck standard solutions; Barnstead Easypure RoDi D13321) are reproduced under the methods-vendor exception (Part 12, Exception 2).
-
-The metals source metadata list contains only the six measured trace/heavy metals (Pb, Cd, Cu, Zn, Ni, Co); the four measured macroelements (Na, Ca, Mg, Fe) are reported in the body where relevant to soil context but are not in the source metadata metals list, in line with HMI scope on toxic metals plus Cu/Zn/Ni as toxic-borderline elements. Arsenic, mercury and chromium were not measured, so iAs, tAs, MeHg, tHg, Cr and Cr-VI are absent.
-
-The matrices `grape-leaves` and `grape-canes` are new bare-string additions to the matrices vocabulary, consistent with the existing pattern (`olive-leaves`, `rapeseed-leaves`, `cacao-leaf`). `wine`, `grape-juice` and `soil` are already in use across the linked reference record.
-
-Wine values in Table 4 ("This study" row) are the 3-cultivar mean. Per-cultivar wine Cu values are quoted in the text (Feteasca albă 0.23, Feteasca regală 0.32, Riesling italian 0.15 mg/L), which average to 0.233 mg/L, consistent with the 0.23 mg/L printed in Table 4. Figure 1 reports per-cultivar wine bar heights for Cd, Cu, Ni, Pb and Zn but the axis values are read from a bar chart and are not tabulated; this page does not reproduce figure-derived per-cultivar wine concentrations to avoid attributing precision the source does not print.
-
-The Table 5 TF_cs Pb value for Feteasca albă is printed in the source as "0. 1 60" with embedded spaces, a typesetting artefact for 0.160. The page reports the 3-cultivar average TF_cs Pb of 0.142 and does not reproduce the typographic artefact.
-
-Table 5 prints the TF_wm right-margin ranking annotation as "Pb > Ni > Cu > Zn", which contradicts its own averages (Cu 0.025 < Zn 0.078). The arithmetically correct descending order is Pb > Ni > Zn > Cu, which is what this page reports. The source annotation appears to be a typo; the underlying numeric averages are not in dispute.
-
-Tables 1, 2 and 3 in the source print "Average" rows whose ± values are implausibly tight relative to the per-cultivar spreads in the same tables (e.g., Table 3 leaves Pb Average 4.25 ± 0.03 vs per-cultivar values 4.93 / 3.12 / 4.69, whose cross-cultivar SD is ≈ 0.99; Table 3 leaves Cd Average 0.77 ± 0.03 vs per-cultivar 0.58 / 0.79 / 0.93, cross-cultivar SD ≈ 0.18). The Average-row ± appears to be the within-replicate (n = 3) analytical SD averaged across cultivars rather than the cross-cultivar SD. This page reproduces what the source prints; downstream users should not treat the Average-row SDs as cross-cultivar variability.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

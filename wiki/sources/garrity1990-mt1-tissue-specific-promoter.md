@@ -119,41 +119,10 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 - The work uses radiolabelled RNase protection and primer extension as the readouts. The Northern blot results are mentioned as confirmatory (no gross structural differences in the body of the RNA between upstream and +1 species) but the data are described as "data not shown" rather than presented. The conclusions about splicing and 3'-end processing of upstream RNAs rest on the full-length cDNA probe protection pattern (Figure 3 lanes 1-7) which shows complementarity to the predicted 3' protection product.
 - No occurrence data; no consumer exposure data; no regulatory implication.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/cadmium]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1128/mcb.10.11.5646-5654.1990`), raw_handle grep (`MFK_31-tissue-specific-expression-of-metallothionein-i`), and cite-key glob (`garrity*`, `wold*`, `*mt1*promoter*`, `*metallothionein-i-promoter*`) over the linked reference record on 2026-06-08 returned no matches. The only "wold" hit (`woldegiorgis2015-ethiopian-edible-mushrooms-minerals`) is a Yebio Woldegiorgis paper on Ethiopian mushrooms, unrelated. This is a NEW source page — no prior version to merge-enhance.
-
-**DOI provenance.** The PDF first page shows the standard ASM citation format `MOLECULAR AND CELLULAR BIOLOGY, Nov. 1990, p. 5646-5654, Vol. 10, No. 11, 0270-7306/90/115646-09$02.00/0`. ASM backfilled DOIs to legacy content under the pattern `10.1128/mcb.<vol>.<issue>.<startpage>-<endpage>.<year>`. The DOI `10.1128/mcb.10.11.5646-5654.1990` is the canonical resolver for this article (PMID 2247075 confirms the same article via the National Library of Medicine record).
-
-**Evidence tier.** B. This is a primary peer-reviewed laboratory study in a mouse mammalian model with cell-line validation. Sample sizes are small (n=4-6 per arm for the toxicity protection arms; three transfection pools per construct); no formal between-arm statistical tests are presented. Tier B is appropriate per the editorial record — A-tier is reserved for well-powered primary studies with formal statistics or authoritative agency monographs; this paper does not clear that bar. Its historical importance (foundational characterisation of the MT-I compound promoter; widely cited in metallothionein-biology reviews) does not elevate its evidence weight for HMI's contamination-and-exposure-focused taxonomy.
-
-**Metals source metadata.** `Cd` only. The paper uses CdSO₄ (and references CdCl₂ in the cited dosing protocol reference 42) as the sole metal inducer. No other metal is dosed or measured. Zinc (Zn) is mentioned in the discussion as the canonical co-physiological metal for metallothionein and in the context of zinc-driven tolerance mechanisms in the protection experiment, but no Zn measurement is reported. Copper and the MT-II gene are mentioned in the discussion only.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The biological samples are mouse tissues (testis, kidney, brain, spleen, liver, intestine, muscle) and cultured cell lines (P cells from L cells; NIH 3T3). No food matrix, supplement matrix, or personal-care matrix is sampled. The work is conducted at the California Institute of Technology (USA) but no regulatory or jurisdictional frame applies; the work is basic biochemistry and molecular biology. `jurisdictions:` remains empty per the Nagel 1989 sibling-page pattern.
-
-**Sample size.** `null`. The paper does not state a single sample-size count; per-experiment n values appear as n=4-6 per arm for the testicular protection experiments and three transfection pools per construct, with the densitometric quantitation aggregated across multiple independent preparations. The `sample_population` field summarises the experimental units.
-
-**Brand firewall (Part 12).** No commercial brand names appear in any contamination-value or product-evaluation context. Vendor mentions are limited to scientific-method context: Jackson Laboratories (Bar Harbor, Maine) for the mouse strains; Bio-Rad and LKB for densitometry/electrophoresis equipment; Sigma for the carrier yeast RNA; Stratagene for the pBluescript vector; Bethesda Research Laboratories for the pT3/T7-19 cloning vector; Boehringer is *not* mentioned in this paper (that was the Nagel 1989 sibling). All vendor references are standard scientific-method vendor mentions allowed under the verification-checklist Exception 2 for analytical methodology context. No food, supplement, or personal-care brand is named. No firewall action required.
-
-**HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry and molecular biology. No firewall action required.
-
-**Speciation note.** The paper uses "Cd" generically; experimental doses are administered as CdSO₄ (and as CdCl₂ in the cited pretreatment protocol of reference 42). No methylated, organic, or oxidation-state-specific Cd species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed;).
-
-**Date arithmetic.** Received 7 June 1990; accepted 7 August 1990; published November 1990 (Vol. 10, No. 11). Consistent with `year: 1990` source metadata and DOI year `1990`.
-
-**Raw-handle stem.** The MFK_31 handle stem `MFK_31-tissue-specific-expression-of-metallothionein-i` is taken from the source-retrieval-generated PDF filename `31_Tissue-Specific_Expression_of_Metallothionein-I_Gene.pdf`. The source-retrieval label uses "Metallothionein-I Gene" as the descriptive index-card title; the actual journal article title is "Tissue-Specific Expression from a Compound TATA-Dependent and TATA-Independent Promoter". The discrepancy between handle stem and actual title is a known artifact of the source-retrieval indexing and is documented here rather than corrected, because changing the raw_handle would lose the audit trail back to the source folder.
-
-**Scope fit.** The paper sits in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch source-retrieval folder alongside [[ruttkay-nedecky2013-metallothionein-oxidative-stress]], [[thirumoorthy2007-metallothionein-overview]], [[yang2024-metallothionein-comprehensive-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[nagel1989-cadmium-resistant-chlamydomonas]], and other peptide/metal mitigation papers. Per the 2026-06-02 scope commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, peptide/metallothionein mechanism papers are in-scope as background for the mitigation-evidence chapter. This 1990 primary-experimental paper is the foundational mechanism of metallothionein-I gene transcriptional regulation that the contemporary reviews lean on.
-
-**Audit editorial review (2026-06-08) verdict: REVISE → applied.** Five checks returned two ❌ on Check 1 (numerical fidelity) and ✅ on Checks 2/3/4/5 (slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 HMTc firewall). Both ❌ findings were independently re-verified against the PDF and applied:
-- **Finding 1 (Group C boundary, ❌):** verified PDF Fig. 2 legend on p. 5649 gives "C, −39 to −75" as the boundary, not "C = −39 to −45" as originally written. The wiki had the wrong upper boundary for Group C in two places (the "six start-site groups" paragraph and the Key numbers list). Corrected both occurrences to "C = −39 to −75" and added the page-citation anchor.
-- **Finding 2 (n attribution for high-dose Cd protection arms, ❌):** verified PDF p. 5647 col. 2 states "The testes of mice given a single injection of 1 mg of Cd per kg after pretreatment with saline (n = 6)…weighed approximately half as much as those from mice injected with saline after the saline pretreatment (n = 5)" and "Mice pretreated with CdSO₄ showed no such decrease in testicle weight (n = 4)." The wiki had labelled the half-weight (saline-pretreatment → Cd-challenge) arm as n=4; the correct n for that arm is n=6, with n=5 the saline-only control. The n=4 belongs to the Cd-pretreated → Cd-challenge "no decrease" arm. Rewrote the bullet to reflect the source's three-arm structure (n=6 Cd-after-saline, n=5 saline-only control, n=4 Cd-after-Cd).
-
-2 findings, 2 applied, 0 rejected. Audit editorial review ID a9f6f632d54da1a39.
+- [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]]
+- [[nagel1989-cadmium-resistant-chlamydomonas]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

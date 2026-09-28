@@ -88,35 +88,14 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of 
 
 Evidence tier set to C. The source is a narrative review without systematic methodology, presents no new measurements, and reproduces a single mineral-profile point estimate per element from a single 2000-vintage underlying study (Bauer-Petrovska and Petrushevska-Tozi 2000 [ref 102]). The review's scope is fermentation chemistry and functional-food positioning, not heavy-metals occurrence; heavy-metal content is incidental to its subject and not independently verified.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/cobalt]]
 - [[metals/nickel]]
-- [[products/kombucha-tea-based]]
 - [[ingredients/camellia-sinensis]]
-
-## Verification notes
-
-No brand names appear in the body. The review names instrument and reference vendors only in third-party citations and in passing (PCR primers, sequencing approaches); no Part 12 brand-firewall violations are present in either the review's own prose or this wiki page.
-
-The `metals:` source metadata lists Pb, Cd, Cr, Co, Ni. Pb, Cd, Cr appear with numerical values from the cited Bauer-Petrovska 2000 mineral profile (Pb 0.005 µg/mL; Cr 0.001 µg/mL; Cd undetected). Co appears as the only element the review states fermentation does not increase, with the cited value 0.004 µg/mL. Ni appears in the review's list of elements "Cu, Fe, Mn, Ni, Zn" that fermentation increases, without a numerical concentration, and in the cited Mousavi Ni-biosorption study title. Per speciation discipline, Cr is recorded as elemental Cr (the cited paper does not specify Cr-VI vs Cr-III), and no arsenic or mercury speciation labels apply because the review does not report As or Hg values in kombucha. Fe, Cu, Mn, Zn, Mg, K are mentioned in the review but are not HMI tracked analytes and are omitted from `metals:`.
-
-The `ingredients:` source metadata contains only [[ingredients/camellia-sinensis]]. The review names a large list of alternative substrates (oak leaves, hibiscus, butterfly pea, grapes, coconut, papaya, goji berry, acerola cherry, snake fruit, pear, wheatgrass, corn, rice, barley, black carrot, broccoli, spinach, green and roasted coffee beans, yerba mate, linden, sage, mint, rooibos, zijuan, yarrow, cardamom, cinnamon, turmeric, garlic, yogurt, fermented milk, whey, cheese whey, laver Porphyra dentata, sea grapes, brown sugar, honey, coconut sugar molasses, soy milk, soy whey, corn silk) in Table 1 (p. 5) but reports no heavy-metals data tied to any of them; these are listed as substrate possibilities, not contamination sources. The review's heavy-metals signal pertains to the kombucha finished beverage as a whole rather than to specific tea or alternative-substrate ingredients, so the `ingredients:` field is kept minimal at camellia-sinensis (the canonical traditional substrate).
-
-The `products:` source metadata maps to [[products/kombucha-tea-based]] only. The review's subject is kombucha specifically; while it briefly mentions kombucha-like beverages made from non-Camellia-sinensis substrates ("Although beverages made from non-Camellia sinensis sources cannot be classified as 'true kombucha,' they are often referred to as 'kombucha-like'"), no separate kombucha-like product slug exists in the current taxonomy, and the review's heavy-metals content is not differentiated between tea-based and alternative-substrate kombucha.
-
-The `matrices:` list includes fermented-beverage (the kombucha finished beverage) and food-contact-material-leachate (the lead-glazed ceramic vessel pathway flagged in the food-safety section). These match the matrices vocabulary used by [[sources/munilla-garcia2023-lead-kombucha-ceramics]].
-
-The `jurisdictions:` list is empty. The review is authored from Thailand (Assumption University) and Japan (Kagawa University) but its subject is global kombucha literature, and it does not focus on Thai or Japanese regulatory frameworks. The cited mineral-profile paper (Bauer-Petrovska 2000) is from North Macedonia; the cited lead-poisoning case reports are from France/Australia. No single jurisdiction applies.
-
-The review's section 4.3 (p. 9) statement on Pb — "Toxic metals like lead (0.005 µg/mL which acceptable limit should not exceed 70–100 µg/mL in adults [ref 126])" — contains an apparent units error in the review's own prose: the "70–100 µg/mL" upper bound is inconsistent with standard adult blood-lead reference values (typically reported in µg/dL or µg/L; 70–100 µg/L is the older CDC blood-lead-level concern threshold for adults, while 70–100 µg/mL would imply 70,000–100,000 µg/L which is implausibly high and lethal). The Pb 0.005 µg/mL concentration in kombucha is reproduced from the underlying Bauer-Petrovska and Petrushevska-Tozi 2000 paper (Int. J. Food Sci. Technol. 35, 201–205) and is the value that matters for HMI synthesis; the comparator-limit phrasing is reproduced here verbatim from the review with this caveat flagged. Any direct ingest of the underlying Bauer-Petrovska paper should re-verify the original Pb concentration and reconfirm the units.
-
-The review's mineral-profile single-point estimates (one value per element from one paper) are not pooling-engine eligible for [[products/kombucha-tea-based]] occurrence on their own; they sit alongside the quantitative ceramic-vessel-leaching values in [[sources/munilla-garcia2023-lead-kombucha-ceramics]] (0.95–47 mg/kg Pb in vessel-fermented kombucha) and the dietary-intake comparator framework would need at least the Bauer-Petrovska underlying paper plus additional non-vessel kombucha primary studies before any synthesis pass on the kombucha-tea-based row.
-
-No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

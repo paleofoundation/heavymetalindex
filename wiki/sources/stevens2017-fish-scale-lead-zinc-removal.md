@@ -59,17 +59,11 @@ Courses: Useful example of a food-industry or fishery waste stream being repurpo
 
 App: Context only. The source supports mitigation narrative for wastewater treatment and fish-scale biosorbents; it does not inform finished-product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it was a fish-scale wastewater-removal study, not vinegar or food occurrence. On reading, it is in-scope a2 mitigation/remediation because it reports measured Pb/Zn sorption and real-wastewater removal values.
-
-Numbers were checked against the abstract, methods, optimization table, real-wastewater application paragraph, and conclusion in the extracted PDF. The Pb/Zn final removal percentages are internally order-ambiguous between the abstract and results paragraph, so the page records that ambiguity instead of transposing the values. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

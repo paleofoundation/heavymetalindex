@@ -61,7 +61,7 @@ Courses: The statement illustrates infant exposure uncertainty from feeding assu
 
 App: The source can support UK infant-food profiles for total arsenic, cadmium, lead, total mercury, nickel, aluminum, and tin, with soy-formula context kept separate.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-food-general]]
 - [[products/baby-food]]
@@ -76,14 +76,6 @@ App: The source can support UK infant-food profiles for total arsenic, cadmium, 
 - [[metals/mercury-total]]
 - [[metals/nickel]]
 - [[metals/tin]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1453.txt`; paragraphs 3-19 and Table 1 were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_cot-2003-infant-metals`, raw SHA-256 `10a78fce18a793bc3ca2bac54be37f1b43f19b2239020226c52b1151d057d7e6`, and cite key `cot2003-infant-food-metals` were searched in the linked reference record; no existing source page was found.
-- Units are preserved as `µg/kg` for product concentrations and `µg/kg bw/day` for exposure estimates.
-- Speciation: the source states the analytical method did not determine metal species. Arsenic is recorded as `tAs`, mercury as `tHg`, and chromium as total Cr; no iAs, MeHg, or Cr(VI) values were inferred.
-- Brand firewall: the survey considered main types and brands on sale, but this page records category and diet-scenario values only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

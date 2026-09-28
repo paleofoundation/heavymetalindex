@@ -66,14 +66,6 @@ Samples were chosen from commonly consumed PBMA types in the U.S. market as of S
 
 This source provides direct finished-product occurrence evidence for U.S. plant-based milk alternatives, especially the rice-based plant-milk row. Rice PBMAs are the only row with a source-reported mean total arsenic value in the extracted text, while soy PBMAs carry the highest reported cadmium mean. Because arsenic speciation was not performed, the rice PBMA arsenic signal remains `tAs` and must not be pooled as inorganic arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sampling methods, ICP-MS methods, Table 1, contaminant Results, Discussion, and Conclusions were checked in `/tmp/f3_unrepresented_texts/nihms-1907158.txt`.
-- DOI `10.1016/j.jfca.2023.105457`, raw handle `MFK_nihms-1907158`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `ug/kg`; no conversion to `ug/L` or serving basis was made.
-- Speciation: the source reports total arsenic only and states that it did not differentiate organic and inorganic arsenic species. source metadata therefore uses `tAs`, not `iAs`.
-- source metadata slugs were checked against the editorial record; hemp and pea ingredient slugs are not present, so those product types remain represented by the broad plant-milk product rows.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

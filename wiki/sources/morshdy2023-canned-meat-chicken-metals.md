@@ -58,7 +58,7 @@ Courses: The source is useful for teaching product-category aggregation without 
 
 App: The study can support canned meat and poultry context cards for Egypt, including the source's product-level means, ranges, detection counts, and HI values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -75,16 +75,6 @@ App: The study can support canned meat and poultry context cards for Egypt, incl
 - [[products/poultry-product]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_584.txt`; Table 1 was also visually checked from a rendered PDF page image because the text layer was difficult to read. The article identity block, sample collection, preparation, analytical procedures, quality assurance, Table 1, Table 2, and conclusion were checked against this page.
-- DOI `10.26656/fr.2017.7(1).710`, title text, raw handle `MFK_risks-assessment-of-toxic-metals-in-canned-meat`, and candidate cite-key `morshdy2023-canned-meat-chicken-metals` were searched before creation; no existing source page was found.
-- Units and basis are copied from the source. Table 1 values are reported as `mg/kg wet weight (PPM)` and Table 2 EDI values as `µg/kg/day`; no conversion was performed.
-- Speciation: arsenic is total arsenic (`tAs`), mercury is total mercury (`tHg`), and tin is total tin (`Sn`) as reported by element. The study does not measure inorganic arsenic, methylmercury, or organotin species.
-- Source-internal inconsistency: Table 1 prints canned chicken luncheon tHg as minimum `1.19`, maximum `11.62`, mean `4.51±0.55`, and Al as minimum `2.5`, maximum `12.36`, mean `5.05±0.62`. The surrounding prose instead says Hg was `ND` to `0.08` with mean `0.068±0.003` and Al was `0.13` to `8.29` with mean `3.54±0.54`. This page preserves the visually checked Table 1 values and flags the inconsistency.
-- Brand firewall: no product brand names are reported. Values are summarized only at product-category level.
-- source metadata slugs were checked against the editorial record. The taxonomy has no exact canned-beef, corned-beef, or chicken-luncheon product slug, so products route through `processed-meats`, `beef-product`, and `poultry-product`; exact product forms remain matrix descriptors and source text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

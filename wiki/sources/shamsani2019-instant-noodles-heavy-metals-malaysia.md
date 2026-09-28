@@ -82,12 +82,12 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 
 ## Implications
 
-- Certification (HMTc): Material input for Category 3 Row 3 (Pasta, wheat-based) instant-noodle sub-form on the Malaysian market for Pb, Cd, and total As. The Pb maxima (2.94 mg/kg) are substantially above the Codex cereal-grain comparator and above the Pb maxima reported in Canadian (Katyal et al. 2020), Iranian (Tajdar-oranj et al. 2018), and Nigerian (Onyema et al. 2014; Emumejaye et al. 2016) instant-noodle studies, suggesting market-specific elevation that the routing layer should not pool across markets without basis-comparability review.
+- Instant noodles on the Malaysian market, for lead, cadmium, and total arsenic. The Pb maxima (2.94 mg/kg) are substantially above the Codex cereal-grain comparator and above the Pb maxima reported in Canadian (Katyal et al. 2020), Iranian (Tajdar-oranj et al. 2018), and Nigerian (Onyema et al. 2014; Emumejaye et al. 2016) instant-noodle studies, which is a market-specific elevation and should not be pooled across markets without checking that the measurements are comparable.
 - Courses: Useful for regulatory-divergence teaching — the same product (instant noodles) is non-compliant against Codex (all 7 samples) but compliant against the Malaysian national regulation (5 of 7 samples) for Pb, illustrating how national maximum levels can be substantially looser than international references.
 - App: Adds Pb, Cd, and total-As data points for instant-noodles-dry / dry-seasoning-pack composite from the Malaysian retail market. Note: total-arsenic only, not inorganic-arsenic-specific; values are on a noodle-plus-seasoning homogenate basis, not separate noodle-only or seasoning-only values.
 - Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -95,17 +95,6 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 - [[ingredients/noodles]]
 - [[ingredients/wheat]]
 - [[products/pasta-wheat-based]]
-
-## Verification notes
-
-- Publication: Malaysian Journal of Medicine and Health Sciences Vol. 15 Supp. 3 (Aug 2019), eISSN 2636-9346, pages 143–146. Conference-proceedings extended abstract, not a peer-reviewed full article; evidence tier B reflects this. ResearchGate DOI mint is the upload landing page, not a journal-assigned DOI; `no_doi_assigned: true`.
-- Sample identifiers in the source paper are anonymous letter codes A–G with flavour descriptors (Curry, Tom Yam, Original Fried noodle, Chicken, Original seafood). These are flavour descriptors, not brand names; reproducing the source table is brand-firewall compliant.
-- Speciation: arsenic is total only; the source reports "As" without inorganic/organic split and uses the value against a Codex cereal-grain comparator that itself does not speciate. source metadata uses `tAs` and the wiki-link list uses `[[metals/arsenic-total]]`.
-- Routing: instant noodles in the Malaysian market are wheat-based (paper explicitly states "Wheat flour is the main raw materials in making and processing of noodles"); routed to `pasta-wheat-based` only. No rice-based instant noodles in this sample, so `rice-noodles` is not declared. The earlier `katyal2020-instant-noodles-canada-metals` source declared both because it compared rice-based and wheat-based instant noodles directly.
-- Matrices: `instant-noodles-dry` and `dry-seasoning-pack` retained for parity with `katyal2020-instant-noodles-canada-metals`. The composite homogenate caveat (noodles+seasoning measured together, not separately) is in Limitations.
-- Sample-collection year is inferred (2018) from the "Proceedings of the Summer Crash Course Programme 2018" framing; not source-stated. `sampling_year_range` left as `[2018, 2018]` with this caveat in Limitations.
-- No regulation slugs declared in `## Wiki pages this source may touch`: the Codex comparator the authors used is CXS 193-1995 (matches `regulations/codex-cxs-193-1995-tin-canned-foods` only in number, not in substance — that wiki regulation page is the tin-in-canned-foods standard, not the general contaminants standard, so adding it would be wrong). The current contaminants standard the paper actually references is the 2015 General Standard for Contaminants and Toxins in Food and Feed (Codex Stan 193-1995, rev. 2015); no current wiki regulation page covers this generally. Surfaced for future regulation-page proposal but not declared as a wikilink here.
-- Brand firewall: no brand names appear in the source paper. No redaction needed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

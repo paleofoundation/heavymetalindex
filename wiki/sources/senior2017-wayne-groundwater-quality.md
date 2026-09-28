@@ -70,7 +70,7 @@ Courses: Strong example of why baseline groundwater characterization matters bef
 
 App: Context only. The source can support local groundwater risk flags and water-source questions, not finished-product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -80,12 +80,6 @@ App: Context only. The source can support local groundwater risk flags and water
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/uranium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the report as out of scope because it was not a food matrix. On reading, it is in-scope a3/a4 groundwater and exposure-context evidence because it measures routeable drinking-water aquifer values, including arsenic exceedances.
-
-Numbers were checked against the extracted PDF text, especially the abstract, Table 3, Table 4, Table 5, and the arsenic and iron/manganese discussion sections. Units and dissolved/total labels are copied as printed. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

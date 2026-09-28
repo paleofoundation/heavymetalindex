@@ -62,7 +62,7 @@ The study collected celery (52), asparagus (28), bamboo shoots (30), cabbage (25
 
 This source contributes China-market occurrence evidence for total As, Cd, total Hg, and Pb in fresh vegetables. The eleven sampled types are leafy (cabbage, Chinese cabbage, pakchoi, spinach, rape), stalk/shoot (celery, asparagus, bamboo shoots), and fruit-vegetable (tomato, eggplant, cucumber); no root or tuber vegetables were sampled, so this source does not contribute to root/tuber-vegetable pooling. The concentrations are fresh-weight values and should not be mixed with dry-weight produce studies without an explicit basis conversion. Because arsenic and mercury are reported only as total elements, this page is not suitable for inorganic-arsenic or methylmercury-specific pooling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/vegetables]]
 - [[ingredients/leafy-vegetables]]
@@ -73,18 +73,6 @@ This source contributes China-market occurrence evidence for total As, Cd, total
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title, author list, DOI, methods, Tables 1-3, discussion, conclusion, and references.
-- DOI verified from the first page as `10.1016/j.foodcont.2013.08.036`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 2 values were checked against the extracted text. The range separator renders in pdftotext as `e` in `<LODe0.160`, `<LODe0.397`, `<LODe0.032`, and `<LODe0.270`; this page records those ranges as less-than-LOD to the stated upper value without changing the numeric endpoints.
-- Units are copied as `mg/kg`, `mg/kg fresh weight`, and `mg/kg bw/day`; no conversion was made.
-- Speciation: As and Hg are total-element results only. The source does not report inorganic arsenic, methylmercury, inorganic mercury, or chromium.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- The eleven sampled vegetable types contain no root or tuber vegetables (the categories sampled are leafy, stalk/shoot, and fruit-vegetable). The page does not route to the root-vegetables ingredient page or the root-tuber-vegetables product page.
-- Table 3 daily-intake values are in `µg/kg bw/day` per the column header on p. 251; the inline restatement uses that unit. The source body text on p. 251 contains a typographical inconsistency that calls the same values `mg/day`, but the arithmetic (0.009 mg/kg × 273.3 g/day ÷ 55.9 kg ≈ 0.044 µg/kg bw/day) matches the Table 3 µg/kg bw/day header, not the body-text mg/day phrasing.
-- The source text on p. 250 attributes the highest mean Hg (0.029 mg/kg) to "parsley," but parsley is not in the eleven sampled types listed in Section 2.2 or Fig. 1. This is an apparent typographical error in the original paper; the page transcribes the source as written without correcting it.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

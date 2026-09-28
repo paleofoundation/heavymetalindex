@@ -63,11 +63,6 @@ App: Supports a low-risk classification for fish oil supplements with respect to
 - [[products/dietary-supplements]]
 - [[metals/mercury]]
 
-## Verification notes
-
-- 2026-05-26 merge-enhance: corrected `raw_handle` from generic `manual-fetch-source-retrieval` placeholder to per-paper `MFK_mercury-content-in-fish-oil-food-supplements-and-a`; corrected truncated `raw_path` filename to the actual on-disk file (was `...Associated Healt.pdf`, now `...Associated Health Risk.pdf`); added `access_url` (MDPI DOI) and `raw_sha256`; re-verified all Key numbers against the source PDF (range 0.001–0.0057 mg/kg, mean 0.0019 ± 0.0009 mg/kg, exposure 0.042% RfD / 0.023% TWI, maxima 0.24% / 0.13%) — all match the abstract verbatim. License is CC BY 4.0 per MDPI publisher notice on page 1.
-- 2026-05-26 audit editorial review (general-purpose) verdict REVISE applied: (1) removed `MeHg` from `metals:` source metadata — study measured tHg only and applied a precautionary tHg=MeHg risk-math assumption; including MeHg would mis-route this as MeHg measurement evidence; (2) stripped unsupported "EU" qualifier from "0.1 mg/kg maximum level" — abstract does not specify jurisdiction; rephrased as "regulatory maximum level for food supplements (cited by authors, jurisdiction not specified)"; (3) tightened Methods to "direct mercury analyzer (instrument vendor and model not specified in the abstract)" — removed inferred "thermal decomposition amalgamation instrument" technology-class detail and "no sample preparation required" inference not present in the source; (4) softened "manufacturer-recommended intake doses" to "recommended intake of supplements (per the abstract; specific dose basis not stated)" — abstract does not specify who recommended the doses; (5) added the ±SD on exposure percentages (±0.039% RfD, ±0.021% TWI) for completeness. Audit-flagged `fish-oil` slug verified absent from the linked reference record; not creating an ingredient page per per-cycle skill constraints — flagging for future auto-stub or provisional-scaffold pass. All numerical fidelity, brand firewall, and HMTc firewall checks were clean per audit; no false positives to reject.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

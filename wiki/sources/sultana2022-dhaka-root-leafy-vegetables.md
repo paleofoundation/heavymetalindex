@@ -125,7 +125,7 @@ Source-internal contradiction (preserved): the paper states cabbage HI = 0.38 wh
 
 **App:** Dry-weight basis for all values; to convert to fresh weight (as-consumed), multiply by (100 – %moisture)/100 per vegetable. Spinach and mint show high Cd, Pb, and Fe accumulation; mint specifically drives the only Fe ADI exceedance in the study (Fe ADI 19.681 vs PMTDI 17.0 mg/person·day) at the 166.1 g/day Bangladeshi adult intake assumption. Risk classification at population scales other than Bangladesh requires re-deriving the consumption rate.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/cadmium]]
@@ -142,31 +142,6 @@ Source-internal contradiction (preserved): the paper states cabbage HI = 0.38 wh
 - [[ingredients/carrots]]
 - [[ingredients/beet]]
 - [[ingredients/cabbage]]
-
-Coriander, mint, mustard greens, radish, and turnip do not have dedicated ingredient pages in the current taxonomy. Mustard (*Brassica campestris*) and mint/coriander route via [[ingredients/leafy-greens]] / [[ingredients/leafy-vegetables]]; turnip and radish route via [[ingredients/root-vegetables]]. Auto-stub at freq ≥ 2 will surface these slugs if the corpus accumulates sufficient species-specific evidence; freq-1 ingredient scaffolds are out of scope for this ingest.
-
-## Verification notes
-
-- 2026-05-20 — Merge-enhance pass against the source PDF. Prior page version (updated 2026-05-13) had several defects that have been corrected here:
-  - `raw_handle:` was the generic `manual-fetch-source-retrieval`; updated to the specific `MFK_heavy-metals-in-commonly-consumed-root-and-leafy-v` form per current convention.
-  - `raw_path:` was truncated to `…Dh.pdf`; corrected to the full filename `…and Assessment of Associated Public Health Risks.pdf`.
-  - `metals:` previously listed `[Pb, Cd, Cr, Ni]` — missing Cu, Zn, Fe, Mn, which the paper measures and tables. Expanded to `[Pb, Cd, Cr, Ni, Cu, Zn, Fe, Mn]` (eight metals per Tables 2, 3, and 4).
-  - `ingredients:` expanded with `[[ingredients/leafy-greens]]` (the routing destination for mustard greens), `[[ingredients/beet]]`, and `[[ingredients/cabbage]]` (each exists as a current ingredient slug and is directly measured in Tables 2/3).
-  - `products:` previously empty (`[]`), triggering the products-missing routing advisory in `routing_malformed.csv`. Populated with `[spinach, leafy-vegetables-other, root-tuber-vegetables]` — the three current product slugs that this paper provides direct occurrence data for. No new product pages were created (Step 0 Lock remains Karen's call).
-  - **Numerical correction (Check 1, Beet Ni mean):** prior page reported Beet Ni mean = 0.58 mg/kg dw. Table 2 of the source (page 5) reports Beet Ni phase values 0.00 / 0.00 / 0.00 / 1.50 with overall mean **0.38** a, which is also the arithmetic mean of the four phase values. Corrected to 0.38.
-  - **Numerical fragility (HI for non-exceeding vegetables):** prior page reported beet HI = 0.56 and carrot HI = 0.34. These values are not given anywhere in the paper text or in Tables 1–4; only Figure 2 displays them graphically and not labelled with numerals. Replaced with text-explicit-only HI values for radish (0.362) and cabbage (0.38). Beet and carrot HI are noted as not enumerated; the paper's rank order places both between turnip (1.541) and radish (0.362). The prior beet/carrot numerals appear to be Figure 2 visual estimates rather than text-anchored values.
-  - **Methods AAS mode:** prior page asserted "(AAS flame)" for the Varian AA 240. The paper does not state atomization mode beyond model number. The Varian AA 240 family includes both flame (AA240FS) and graphite-furnace (AA240Z) variants; the reported Pb LOD of 100 µg/L is closer to flame-mode performance and the reported Cd LOD of 0.20 µg/L is closer to graphite-furnace performance, so the paper's instrument operation cannot be unambiguously assigned. Softened to "the paper does not specify atomization mode beyond the instrument model."
-  - **Body-table format:** prior version compressed Tables 2 and 3 into mean-only summaries. Expanded to full phase-by-phase tables matching the source so downstream synthesis can read every per-phase value and verify which phases drive each exceedance. Added Table 4 (ADI) verbatim, including PMTDI references; prior version paraphrased only the two exceedances.
-  - **HQ values added:** prior version mentioned only HI; added the two explicit HQ > 1 values (Cr in turnip 1.121, Zn in spinach 1.104) per page 9.
-  - **Source-internal paper anomalies preserved and labelled** (not wiki defects):
-    - Beet Cr range printed as 0.60–0.90 in Table 2 while phase values span 0.60–1.90 (paper typo on upper bound).
-    - Cabbage HI vs radish HI rank-vs-numeric contradiction (rank says radish > cabbage but printed values give cabbage 0.38 > radish 0.362).
-    - Spinach Pb mean printed as 0.67 mg/kg dw while phase values (0, 0, 0.68, 0) average to 0.17; preserved as the paper-reported mean with the phase listing intact so the downstream reader can see the discrepancy.
-  - Replaced legacy `## Wiki pages updated on ingest` heading with `## Wiki pages this source may touch` per current schema.
-- Brand firewall (Part 12): no brand names appear in the source or this page. The paper samples market-level vegetables at Kawran Bazar without brand or vendor attribution; method instruments (Varian AA 240, Merck reagents, IBM SPSS) are scientific-method vendor names, permitted per the 2026-05-17 locked reading of Check 4.
-- Wiki/HMTc firewall (Part 2): Implications section describes the paper's contribution as occurrence data for South Asian leafy-green and root-vegetable supply and as a worked example of seasonal harvesting variability. No threshold value is proposed; no consumer risk advisory is issued. The prior version's "Leafy vegetable risk scoring for South Asian sourcing should weight Cr, Cd, and Pb higher than for other origins" was softened in this pass to remove the prescriptive framing while preserving the geographic-context observation.
-- Speciation discipline (Part 14): the paper measures total Cr (AAS, no Cr-VI separation) and does not measure As or Hg. `metals: [Cr, ...]` is correct (not `Cr-VI`); no speciation flags required.
-- Routing: `matrices: [root-vegetable, leafy-vegetable]` retained as the dominant matrix-slug convention for vegetable-occurrence sources in the corpus (25 / 21 instances vs. 9 / 3 for the plural variants per the 2026-05-20 sweep). `products: [spinach, leafy-vegetables-other, root-tuber-vegetables]` routes this source as direct occurrence evidence for the current product pages that cover the species measured.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

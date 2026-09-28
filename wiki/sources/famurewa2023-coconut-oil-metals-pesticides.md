@@ -85,7 +85,7 @@ App: Adds coconut-oil category context for total Pb, Cd, total As, total Hg non-
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -107,15 +107,6 @@ Microbiome: Not addressed.
 - [[ingredients/vegetable-oil]]
 - [[ingredients/vegetable-oils]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- PDF metadata, first-page journal header, and article footer identify the paper as Measurement: Food 10 (2023) 100082 with DOI `10.1016/j.meafoo.2023.100082`.
-- The PDF states open access under CC BY-NC-ND 4.0.
-- The raw PDF names a manufacturer for the imported sample, but this source page omits brand/manufacturer attribution under the wiki brand firewall and summarizes the findings at category level.
-- `sample_n: 3` counts the three oil samples. The source separately reports triplicate determinations for the analytical measurements.
-- The source reports arsenic and mercury as elemental ICP-OES results without speciation; source metadata therefore uses `tAs` and `tHg`, and the page does not route these values as inorganic arsenic or methylmercury.
-- The source compares values to FAO/WHO reference limits for oils but does not conduct a dietary exposure or health-risk assessment.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

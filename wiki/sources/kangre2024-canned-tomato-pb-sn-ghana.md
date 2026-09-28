@@ -133,22 +133,6 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 - [[metals/lead]]
 - [[metals/tin]]
 
-## Verification notes
-
-2026-05-28 enhance pass (Claude): re-read source thesis (pp. 88–130 verified in full; abstract p. xiii). Schema reconciled to the post-2026-05-14 source template and several substantive defects corrected against the source. Specifically:
-
-- source metadata `products` corrected from `[products/canned-tomato, products/tomato-sauce]` (the first slug does not exist in the linked reference record; the second slug names a thinner product than the "tomato mix" the source describes) to `[products/tomato-paste, products/canned-tomatoes]`. "Tomato mix" in the Ghanaian / West African retail context is a concentrated canned tomato paste; routing to the paste page is the literal match, and the canned-tomatoes page captures the can-lining migration angle that the source emphasises.
-- Body language "Tasty Tom" / "Tasty Tom brand" dropped from prose and source metadata sample_population brand firewall. The fact that the study examines a single brand is preserved (as a methods detail and a limitation), but the brand name is not propagated through the wiki.
-- "±" labeling corrected from SD to SE throughout. Table 4 (p. 103) and Table 3 (p. 118) of the thesis both label the dispersion as standard error, not standard deviation.
-- Pb display-model claim corrected. The prior wiki said "Pb was significantly higher in sunlight-exposed products"; the source (p. 107) explicitly reports the independent-samples t-test as p > 0.05 and states "the null hypothesis was maintained". The means are numerically higher in sunlight-exposed product but not statistically significantly so; the wiki now reflects that.
-- Sn values added. The prior wiki recorded Sn as "consistent" with no numeric values; Table 4 reports enclosed-shop mean 2.656 ± 0.79 mg/kg (SE) and sunlight-exposed mean 2.304 ± 0.83 mg/kg (SE), and Table 3 reports the underlying per-sample range and percentiles. Sn was numerically lower (not equal) in the sunlight-exposed stratum, and the independent t-test for Sn was also non-significant (p > 0.05).
-- Pb maximum value (0.51 mg/kg in a sunlight-exposed sample, 5× the Codex ML) added. The prior wiki described "Pb concentrations well below most international regulatory limits" without noting that the maximum single value exceeded the Codex ML; the per-sample distribution (Table 3) makes this clear, and it is the most certification-relevant detail in the chemistry.
-- HQ for Sn added (the prior wiki only carried HQ for Pb). All four HQ-Sn values are <0.005, well below 1.
-- ILCR by gender × display added in full (the prior wiki only quoted a coarse range "3.28×10⁻⁶ to 6.29×10⁻⁶"; Table 7 has eight discrete values worth showing because every stratum exceeds the 1×10⁻⁶ de minimis at maximum and at P95).
-- MoE results added (entirely absent from the prior wiki). Every 5th-percentile MoE for both Pb and Sn falls below the protective threshold of 1, which the thesis flags with a footnote as a significant public-health concern.
-- "Certification" implications block reworked to literature-native phrasing per Part 2 firewall: the prior wiki claimed retail display "measurably affects" Pb migration; the source's own statistical test does not support a measurable shift between display models, so the certification implication is reframed around the percentile-vs-mean distinction (which the data actually support) instead of the display-model effect (which they do not).
-- `raw_path`, `cite_key`, `raw_handle`, `evidence_tier`, `license` ("unknown" — the IR.uew.edu.gh institutional repository serves the thesis without an explicit reuse licence), `near_duplicates`, and `sample_n` preserved from the prior revision.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

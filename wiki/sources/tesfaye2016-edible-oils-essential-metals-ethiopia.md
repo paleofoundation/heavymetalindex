@@ -72,7 +72,7 @@ App: Adds category-level essential-metal context for palm oil and niger seed oil
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/zinc]]
@@ -82,15 +82,6 @@ Microbiome: Not addressed.
 - [[ingredients/vegetable-oil]]
 - [[ingredients/vegetable-oils]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- PDF title page identifies the article as Advances in Chemistry, Volume 2016, Article ID 3480329, 7 pages, with DOI `10.1155/2016/3480329`.
-- The PDF states that the article is open access under the Creative Commons Attribution License.
-- The source names four commercial oil samples; this page omits those brand names and assigns category-level labels.
-- The abstract reports Cu and Zn values as "mg", while Table 5 labels the concentration columns as mg/L. This page follows Table 5 and treats mg/L as the source-reported unit.
-- `sample_n: 4` counts the four market oil samples; the analytical measurements were performed in triplicate.
-- Provisional ingredient scaffolds were created for [[ingredients/palm-oil]] and [[ingredients/niger-seed-oil]] because neither exact ingredient slug existed before this ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -62,16 +62,12 @@ App: The source can support a nuanced evidence-card note that one thesis attempt
 
 Microbiome: Not directly addressed. Later thesis chapters develop menstrual-blood biomarker and self-sampling methods, but no vaginal microbiome endpoint is measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/copper]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for raw handle `MFK_paper-23-okwuegbuna-2025-thesis-menstrual-metals`, cite key `okwuegbuna2025-tampon-metal-release-thesis`, author/title strings, or local filename. The thesis has no DOI printed in the extracted text; `doi: null` and `no_doi_assigned: true` are retained. The PDF SHA-256 is `ab95c759c5b503edcc3f19cbaa69d58d099787d3d8779a64a35a8e7a57618dbc`. Tables 7-12 and Sections 2.2-2.4 were re-opened from `/tmp/hmi-fem-015.txt`; all values preserve the source's reported units or signal-intensity labels, and no units were converted. Brand firewall: the source names four brands, but this page omits the names and reports only anonymized regular-cotton/organic-cotton product categories. Speciation firewall: Cd, Pb, and Cu are total elemental targets in digestion/SWV standards; no inorganic arsenic, methylmercury, Cr-VI, total tin, or organotin is reported. Zn is mentioned only as the author's possible explanation for an unidentified peak and is not routed as a measured metal.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

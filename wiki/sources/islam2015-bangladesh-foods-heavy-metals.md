@@ -76,7 +76,7 @@ The study collected commonly consumed foods during February-March and August-Sep
 
 This source contributes Bangladesh-market occurrence evidence for total Cr, Ni, Cu, total As, Cd, and Pb across multiple food categories, including freshwater fish, rice, other cereals, vegetables, fresh fruit, meat, eggs, and milk. It is especially relevant for row-fit decisions where broad mixed-food evidence needs to be separated into product families rather than treated as a single pooled food category. Arsenic results are total As occurrence data; they should not be used as inorganic-arsenic concentrations without a separately logged conversion or assumption.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat-and-poultry]]
 - [[ingredients/eggs]]
@@ -106,16 +106,6 @@ This source contributes Bangladesh-market occurrence evidence for total Cr, Ni, 
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; because Table 1 rendered `+/-` as `7` and range dashes as extraction artifacts, page 466 was also rendered from the PDF and checked visually before drafting the concentration table.
-- DOI verified from the first page as `10.1016/j.ecoenv.2015.09.022`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 1 values above were checked against the rendered PDF table on page 466. Units are copied as `mg/kg fw`; no conversion was made.
-- Speciation: the occurrence table reports total As only. The paper's target carcinogenic risk table includes a footnote assuming 50% inorganic As in foods, but that is a risk-calculation assumption and not a speciated concentration measurement.
-- Chromium is reported as total Cr only; the source does not report Cr(VI). Mercury is not measured.
-- The exact total sample count was not reported cleanly in the extracted text, so `sample_n` is left null rather than inferred from the food-item table.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

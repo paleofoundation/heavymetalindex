@@ -55,19 +55,13 @@ Courses: Demonstrates how honey-origin papers may carry usable contaminant data 
 
 App: Supports a regional honey evidence point after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-The PDF prints "Pd" in the abstract, conclusion, and Table 3 row label where the heavy-metal panel is otherwise described as cadmium, lead, copper, and arsenic. The Materials and Methods section "DETERMINATION OF MINERALS AND HEAVY METALS" lists the panel explicitly as "(Cd, Pb, Cu, As)", which confirms "Pd" is a recurring typographic substitution for "Pb" rather than a palladium measurement; the values are recorded as lead on this page on that basis.
-
-Independent verification of Table 3 (page 131) via pdftotext confirms Cu (mg/kg) and As (mg/kg) rows are BLD across all 14 samples, matching the abstract's claim that copper and arsenic were below the limit of detection. Only Cd and Pb (printed as "Pd") show detectable values, in the four samples recorded above.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

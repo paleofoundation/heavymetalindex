@@ -45,7 +45,7 @@ Flowers and leaves were dried, weighed, digested, and analyzed by ICP-MS. The sa
 
 The source fills botanical infusion and herbal supplement evidence for a non-Camellia plant material that can be consumed as tea. It should route to herbal-botanical infusions and botanical supplements, while avoiding true-tea product claims.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[ingredients/beans]]
@@ -56,10 +56,6 @@ The source fills botanical infusion and herbal supplement evidence for a non-Cam
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The paper uses the phrase "consumed as tea" for Vicia faba flowers and leaves; this page treats the matrix as herbal infusion/botanical material rather than Camellia sinensis tea. The exact Vicia faba flower/leaf names are narrow sample descriptors; source metadata uses broader herbal-botanical routing terms. The table prints the zinc leaf uncertainty with a less-than symbol, so the page records the mean without treating that symbol as a standard deviation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

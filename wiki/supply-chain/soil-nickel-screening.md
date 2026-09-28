@@ -24,7 +24,7 @@ See [[metals/nickel]] for the cross-source Ni synthesis and [[sources/epa-eco-ss
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/epa-eco-ssl-nickel-2007|Ecological Soil Screening Levels for Nickel — Interim Final]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Office of Solid Waste and Emergency Response · OSWER Directive 9285.7-76, U.S. Environmental Protection Agency · 2007 · [www.epa.gov](https://www.epa.gov/chemical-research/ecological-soil-screening-level-metal-contaminants)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

@@ -31,7 +31,7 @@ updated: 2026-06-18
 
 ## Overview
 
-This integrative study synthesizes secondary data on cadmium in agricultural soils of West Java and Central Java, computing contamination and ecological-risk indices and relating soil Cd to food-security risk. It is upstream soil-burden and exposure context for cadmium; it reports no primary retail food occurrence and is context-only for Heavy Metal Index purposes. It is exactly the kind of soil-contamination-assessment evidence the routing layer connects to crops grown on affected ground.
+This integrative study synthesizes secondary data on cadmium in agricultural soils of West Java and Central Java, computing contamination and ecological-risk indices and relating soil Cd to food-security risk. It is upstream soil-burden and exposure context for cadmium; it reports no primary retail food occurrence and is context-only for Heavy Metal Index purposes. It is soil-contamination evidence for the crops grown on affected ground.
 
 ## Key numbers
 
@@ -53,19 +53,6 @@ Courses: A clean teaching case that high soil Cd (and ecological risk) need not 
 App: No `contamination_profile` blocks are touched.
 
 Microbiome: Not a focus of this source.
-
-## Wiki pages this source may touch
-
-- [[metals/cadmium]]
-- [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-- Evidence tier C: secondary-data descriptive synthesis, not primary measurement; regional soil values are reproduced from cited sources and should be re-verified before any downstream use.
-- Page grounded in the published abstract and bibliographic metadata; values preserved as printed.
-- `metals: [Cd]`; `ingredients: []` / `products: []` correct — soil/exposure context, not retail food occurrence.
-- This source is a concrete example of the literature the discovery filter previously excluded ("soil contamination assessment"); the 2026-06-18 scope fix restores its inclusion.
-- Part 2 direction-of-edit check: adds upstream exposure context; neutral to HMT&C thresholds, moves toward the literature.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

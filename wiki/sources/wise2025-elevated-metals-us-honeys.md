@@ -79,7 +79,7 @@ Courses: The XRF methodology illustrates a non-destructive, no-digestion screeni
 
 App: State-level variation suggests honey from Tennessee, Massachusetts, and New Mexico carries higher risk for Pb and Hg, with smaller-magnitude elevations across most sampled states. The absence of US federal regulatory limits for metals in honey means the app should cite the EU MRLs as comparison benchmarks rather than domestic regulatory exceedances. Total As at mean 0.060 µg/g is at the low end of the food-matrix arsenic range; the iAs fraction is unknown from XRF measurement.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/honey]]
 - [[metals/lead]]
@@ -93,21 +93,9 @@ App: State-level variation suggests honey from Tennessee, Massachusetts, and New
 - [[metals/iron]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
-
-## Verification notes
-
-Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
-
-- **Removed invalid wikilinks.** Prior revision referenced `[[regulations/eu-2023-915]]`, `[[metals/tAs]]`, and `[[metals/tHg]]`. None of these slugs exist in the current taxonomy (see the editorial record). The EU 2023/915 reference is now `[[regulations/eu2023-contaminants-maximum-levels]]` (the umbrella regulation page); the Hg honey MRL of 0.01 mg/kg is set under Commission Regulation (EU) 2018/73 amending Annexes II and III to Reg. EC 396/2005, and the matching slug `[[regulations/eu-reg-2018-73-mercury-compounds-mrls]]` is now linked. tAs and tHg metal references corrected to `[[metals/arsenic-total]]` and `[[metals/mercury-total]]`.
-- **Removed Ni from `metals:` source metadata.** The prior revision listed Ni; the paper does not measure Ni. Per the paper's own Fig 1 grouping, the 20 elements reported are Mg, Si, Ti, V, Cr, As, Se, Pb, Cd, Ga, Ge (Fig 1A), Mn, Cu, Br, Hg (1B), Al, Fe, Zn (1C), and Na, Ca (1D). Ni is not in the panel.
-- **Flagged paper-internal Cd values as a copy-paste editorial error.** Paper Results & Discussion (p. 1793) states "The three highest levels of Cd were observed in honeys from Tennessee (0.918 µg/g), Massachusetts (0.820 µg/g), and Vermont (0.350 µg/g)" — TN and MA values are exact mirrors of the Pb top-two stated in the immediately preceding sentence. Fig 2B shows Cd y-axis from 0.005 to 0.020 µg/g, which is incompatible with values approaching 1 µg/g. The corrected page reports the paper's stated values verbatim but flags them as a clear source-internal copy-paste error, as required for faithful reporting of a defective primary source.
-- **Flagged Cd mean / EWI inconsistency.** Table 2 reports Cd "US Honey Mean" of 0.132 mg/kg honey and Cd Weekly Metal Consumption of 0.027 mg/kg body mass/week. Applying the paper's stated EWI formula (300 mg honey/kg body mass/day × concentration × 7 days, with the kg-conversion absorbed appropriately) to a Cd mean of 0.132 gives an EWI of ≈0.277 mg/kg/week — ten times the printed Cd EWI. The printed Cd EWI of 0.027 is consistent with a true Cd mean of ≈0.013 mg/kg, which matches Fig 1A and Fig 2B. The Table 2 Cd US Honey Mean of 0.132 appears to be a unit/decimal error in the source. The wiki reports both values verbatim and notes the discrepancy.
-- **Removed the previous Hg "discrepancy" note** about 3.710 µg/g vs 2.504 mg/kg body mass. Those quantities are not contradictory: 3.710 mg/kg honey is a concentration in the matrix; 2.504 mg/kg body mass/week is a normalized weekly intake derived from concentration, daily honey dose, and body mass. The prior note misread the table headers. Replaced with a Methods-section observation that the Hg EWI is lower than a strict formula application to the stated Hg mean would predict (a separate, smaller paper-internal arithmetic inconsistency).
-- **Sample population breakdown corrected to Table 1.** Prior `sample_population` summarized "20 wildflower, 2 tupelo, plus individual samples of sourwood, peach flower, star thistle, Russian olive, blackberry/blueberry, and turnip" — this matches the paper abstract but Table 1 actually lists 19 wildflower entries plus a "Desert flower" (NM) that the abstract omits. The corrected sample_population enumerates the Table 1 floral-source labels by state and flags the abstract-vs-Table-1 inconsistency.
-- **Updated `## Wiki pages this source may touch`** to include all metals with reported means in the paper (Al, Cu, Mn, Zn, Fe in addition to the previously listed Pb/Cd/As/Hg) and both relevant regulation pages. Renamed section heading from `## Wiki pages updated on ingest` (legacy) to `## Wiki pages this source may touch` (current convention).
-- **Tightened the Key numbers section** into a unified Table 2 view (toxic + essential metals together with EWI and PTWI ratios) plus a separate full mean ± SEM block for the 13 metals detected in all 28 honeys, replacing the prior less-structured narrative listing.
-- **Added Methods detail** on the EWI formula, body-mass assumption, ArcGIS mapping version, and Compton scattering normalization, all from the source.
-- Preserved cite_key, raw_handle, raw_path, license, evidence_tier, doi, sample_n, and ingredient/product/matrix/jurisdiction source metadata. No new ingredient, product, or regulation pages proposed; all referenced slugs exist in the current taxonomy.
+- [[regulations/eu-2023-915]]
+- [[metals/tAs]]
+- [[metals/tHg]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

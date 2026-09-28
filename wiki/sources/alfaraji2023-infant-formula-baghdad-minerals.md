@@ -63,20 +63,12 @@ Courses: The paper is a compact example of why row-fit should not stop at "infan
 
 App: The values can inform broad powdered-formula context, with jurisdiction and market caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[ingredients/infant-formula-powder]]
 - [[metals/lead]]
 - [[metals/copper]]
-
-## Verification notes
-
-The DOI, author, publication, year, and license were read from the PDF header and first page. The source names commercial formula labels in Table 1, but this source page does not reproduce brand-level findings; sample-level rows are anonymized to preserve the wiki brand firewall while retaining the numeric distribution needed for evidence routing.
-
-The abstract says lead was measured in powdered infant formula and the results section states that all samples except one had detectable lead. Table 3 provides the routeable values. The paper also contains some internal wording ambiguity about whether lead should be absent under one cited Iraqi standard versus within permitted residue concentrations under other cited Iraqi standards; this source page treats the regulatory comparison as source context and routes only the occurrence measurements.
-
-The paper carries an internal date discrepancy on the sample-collection window: the abstract reports "for the period from February to August 2021" while the Materials and Methods section reports "for the period from July to August 2021". This source page follows the Materials and Methods statement (July-August 2021) on the basis that the M&M section is the authoritative sample-collection record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

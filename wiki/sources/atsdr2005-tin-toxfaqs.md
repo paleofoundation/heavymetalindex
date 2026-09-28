@@ -61,22 +61,11 @@ This source supports context only. It restates qualitative conclusions and a sma
 
 Source PDF is the ATSDR ToxFAQs fact sheet for tin (filename `tfacts55 2.pdf` indicates the second copy of fact sheet #55 in the Manual Fetch source-retrieval June 3 batch). The fact sheet is a US government work and is in the public domain. The canonical URL points to ATSDR's hosted PDF at atsdr.cdc.gov; the document is referenced as "TIN AND TIN COMPOUNDS — Division of Toxicology ToxFAQs — August 2005" in its own header. The single reference cited by the fact sheet is the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update), which is the sibling source page [[sources/atsdr2005-tin-toxicological-profile]]. No DOI is assigned.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/tin]]
 - [[metals/tin-inorganic]]
 - [[metals/organotins]]
-
-## Verification notes
-
-- This is a NEW-path ingest, not a merge-enhance. The identity-check sweep (DOI grep, raw_handle grep, cite-key grep including the `tfacts55` string) returned no existing wiki source page for ToxFAQs fact sheet #55. The sibling source [[sources/atsdr2005-tin-toxicological-profile]] is a different ATSDR publication (the 300+ page Toxicological Profile Update referenced by this fact sheet) and is recorded in `near_duplicates` accordingly; the two pages are deliberately separate because ATSDR distributes them as separate documents under distinct canonical URLs and a future regulatory-affairs query naming "ToxFAQs" or "tfacts55" needs to land on a page that bears the fact-sheet identity.
-- `metals:` carries `Sn` only because the fact sheet is tin-specific; `species:` enumerates the inorganic and organotin compounds the fact sheet names by name (stannous chloride, stannous sulfide, stannic oxide on the inorganic side; dibutyltin, tributyltin, tributyltin oxide, triphenyltin, triphenyltin hydroxide, trimethyltin, triethyltin on the organotin side).
-- `ingredients:` and `products:` are intentionally empty. The fact sheet's only ingredient/product mentions are qualitative ("food contaminated with these compounds," "canned products," "seafood from coastal waters," "tin-lined cans for food, beverages, and aerosols") and do not carry any per-ingredient or per-product occurrence value. The routing audit will record `products` and `ingredients` as advisory-missing, which is the correct posture for a federal consumer-health fact sheet with no occurrence data.
-- The OSHA workplace-air limits quoted (0.1 mg/m³ organotins, 2.0 mg/m³ inorganic tin except oxides) are taken verbatim from the fact sheet's "Has the federal government made recommendations to protect human health?" section, page 2. No interpretive synthesis is added.
-- Audit editorial review (2026-06-04) flagged that an earlier revision attached "(eight-hour time-weighted average)" to the OSHA PEL values; verified against the PDF — the fact sheet does not state an averaging period. The 8-hour TWA is in fact how OSHA expresses these PELs in the underlying CFR, but to keep this source page strictly faithful to what the fact sheet itself reports, the parenthetical TWA framing has been removed from the Key numbers bullet and the contextual note added in its place.
-- Audit editorial review (2026-06-04) flagged that `matrices: [drinking-water]` overstated the PDF, which discusses water only as an environmental compartment (binding to sediment, persistence in water for organotin) and not as a human drinking-water exposure route. Verified; `drinking-water` removed from `matrices:`. Remaining matrices (`canned-food`, `seafood`, `workplace-air`) are the three the fact sheet explicitly frames as human exposure routes.
-- The fact sheet uses the phrase "metallic tin and inorganic tin compounds have been found in at least 214 of the 1,662 National Priority List (NPL) sites" on page 1; "Organic tin compounds have been identified in at least 8 of the NPL sites" follows immediately. Both NPL counts are reproduced verbatim.
-- No brand-firewall or wiki/HMTc-firewall concerns surfaced; the fact sheet names no brands and makes no HMT&C-comparable threshold claims.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

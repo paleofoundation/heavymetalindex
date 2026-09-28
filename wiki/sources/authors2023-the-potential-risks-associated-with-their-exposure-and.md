@@ -23,7 +23,7 @@ sample_population: "Not mechanically resolved from the PDF; see Key numbers for 
 updated: 2026-07-29
 ---
 
-# authors et al. 2023 - the potential risks associated with their exposure and the increasing number of 
+# authors et al. 2023 - the potential risks associated with their exposure and the increasing number of
 
 ## Overview
 
@@ -101,21 +101,13 @@ The worker extracted the full PDF text with layout preservation twice and compar
 
 This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-non-predatory]]
 - [[products/shellfish]]
 - [[products/seaweed-kelp-foods]]
 - [[metals/lead]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- Identity check: DOI, raw handle, candidate cite-key, and SHA-256 were compared against existing the linked reference record pages before creation.
-- Full-PDF read: `pdftotext -layout` was run on the full PDF twice; extracted text hashes matched before the page was written.
-- Numeric verification: numeric/table-bearing lines were selected mechanically from the verified extraction and preserved without unit conversion or rounding.
-- Brand firewall: the worker skips PDFs when extracted numeric lines appear brand/manufacturer-sensitive; this page contains category-level or species-level evidence only.
-- HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

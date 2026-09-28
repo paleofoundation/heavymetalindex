@@ -79,7 +79,7 @@ For routing, this page supports canned fish, canned tuna as an ingredient, and b
 
 For risk-calculation context, the HRI and PI tables are source-side calculations. The Ni HRI row should be treated cautiously because it conflicts with the all-LOD Ni concentration table.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/aluminum]]
@@ -98,13 +98,6 @@ For risk-calculation context, the HRI and PI tables are source-side calculations
 - [[ingredients/seafood]]
 - [[products/canned-fish]]
 - [[products/seafood]]
-
-## Verification notes
-
-- Manual-fetch merge-enhance (Codex, 2026-05-18): matched DOI and raw path to P0175, corrected raw_handle and PDF SHA-256 provenance, replaced invalid `ingredients/sardines` with existing broader tinned-fish/fish/seafood routing, replaced brand-code value listings with product-form ranges, and removed old HMTc/course/app language.
-- Fresh-context audit (automated editorial review, 2026-05-18) returned REVISE for narrow HRI wording and matrix-vocabulary cleanup; revised the Al/As HRI sentence and changed `matrices` to broad `fish`.
-- The source tables use coded company identifiers. This page intentionally reports ranges by product form rather than company-code rows to satisfy the strict Part 12 brand firewall.
-- Paper-internal inconsistency: Table 2 reports Ni below LOD in all canned-sardine concentration rows, but Table 6 reports one canned-sardine Ni HRI value of 4.08. This page preserves the Table 2 concentration result and flags the HRI inconsistency rather than treating Ni as a measured above-LOD sardine contaminant.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

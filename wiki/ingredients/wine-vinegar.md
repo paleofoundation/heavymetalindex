@@ -54,7 +54,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars|Metallic contaminants in Andalusian vinegars]]<span class="hmi-ref-meta">Troncoso Gonzalez AM and Guzman Chozas M · Die Nahrung · 1988</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -64,7 +64,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -78,7 +78,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 Wine vinegar is produced by acetic-acid fermentation of wine (which is itself produced from [[ingredients/grape-juice|grape]] fermentation). It inherits the source-wine heavy-metal profile, particularly elevated [[metals/lead|Pb]] from the broader grape-wine production pathway (legacy lead-arsenate vineyard pesticides, trellis-system Pb deposition, and — historically — Pb from wine-cooperage materials). Wine vinegar's high acidity (pH ≈2.5-3.5) makes it especially prone to metal migration from any storage or processing vessel. The Andalusian vinegar metallic-contaminant survey by [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars|Troncoso 1988]], the multi-vinegar-type survey by [[sources/acosta1993-cd-pb-ni-vinegar-types|Acosta 1993]], and the ICP-MS/GFAAS Pb method-validation work by [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Ndung'u 2004]] collectively document Pb in wine vinegar at 50-700 ppb across regional surveys.
 
-The HMTc panel concerns for wine vinegar are dominantly Pb (the source-grape inheritance plus migration-pathway risk in low-pH matrix). Cd, Ni, and other panel metals are present at lower levels with sparse quantitative coverage in the routing audit.
+The HMTc panel concerns for wine vinegar are dominantly Pb (the source-grape inheritance plus migration-pathway risk in low-pH matrix). Cd, Ni, and other panel metals are present at lower levels with sparse quantitative coverage in the source routing.
 
 ## Ranges by source, region, and variety
 

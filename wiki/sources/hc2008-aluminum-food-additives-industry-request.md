@@ -94,19 +94,10 @@ Regulatory document, not an analytical study. No analytical methods, sampling de
 - App: Aluminum food additives are formula-dependent (firming agents in pickles and canned seafood, leavening acids in baking powder, anticaking agents in salt and dry mixes, emulsifying salts in processed cheese, colour lakes in cake decoration). The app's ingredient-list inference layer should recognize sodium aluminum phosphate, sodium/potassium/ammonium aluminum sulphate, sodium/calcium aluminum silicate, and magnesium aluminum silicate as Al-bearing additive identifiers permitted in Canada under Division 16.
 - Microbiome: Not directly addressed by the document.
 
-## Verification notes
+## Related evidence
 
-- Cite-key uses agency abbreviation `hc` (Health Canada) with the year the letter was distributed (2008), consistent with how other agency-letter sources in the linked reference record are keyed; the archived page's Date modified 2017-05-04 is not a substantive content revision.
-- `near_duplicates` lists the non-"2"-suffixed sibling PDF in the same folder, which is byte-identical (SHA-256 match) to the raw_path file.
-- No matching `[[regulations/canada-food-drug-regulations-division-16-aluminum]]` or `[[regulations/jecfa-aluminum-ptwi]]` page exists yet in the taxonomy snapshot; the document references both substantively. These are flagged as backlog regulation-page candidates but are NOT created here (regulation pages require a hard agency identifier and are not auto-stubbed during ingest).
-- `matrices` mixes canonical entries from the system-prompt list (`dietary-intake`, `eggs`, `flour`, `salt`) with broader food-category descriptors (`food-additive`, `canned-seafood`, `pickles`, `baking-powder`, `processed-cheese`, `beer`) flagged here as additions because no closer-fitting canonical term exists for those Division 16 regulatory scopes.
-- Audit editorial review (2026-06-03) flagged the original source metadata `combined sodium/potassium aluminum sulphate residue` framing for the 900 ppm flour cap; verified against source p. 5 — the source presents the two caps as parallel, separate per-carrier ceilings, not a combined residue. Body text corrected.
-- Audit editorial review (2026-06-03) flagged `(and its potassium and sodium derivatives)` paraphrase of source's `(including its potassium and sodium salts)` (p. 3). Body text corrected to use the source's "salts" wording.
-- Audit editorial review (2026-06-03) flagged empty `ingredients`/`products` arrays starving the routing layer; populated with the in-taxonomy slugs whose pages correspond to Division 16-regulated foods (`products`: canned-fish, salt, flour-non-rice, fermented-beverages-non-tea-based; `ingredients`: eggs, wheat, processed-american-cheese). `processed-american-cheese` lives under `ingredients/` not `products/` per the current snapshot. Routing rows resolve to `direct_evidence` carrying the Al regulatory baseline per Part 5b. The remaining regulated foods (pickles/relishes, baking powder per se, chewing gum, icing sugar, sea urchin roe, processed-cheese-spread variants beyond `processed-american-cheese`, dried-egg products) lack direct in-snapshot slugs and are captured via the matrices entries instead.
-- Audit editorial review (2026-06-03) flagged `should cite` directive HMTc framing in Implications → Certification; reframed to "provides the regulatory baseline" without prescribing HMTc methodology.
-
-## Wiki pages this source may touch
-
+- [[regulations/canada-food-drug-regulations-division-16-aluminum]]
+- [[regulations/jecfa-aluminum-ptwi]]
 - [[metals/aluminum]]
 - [[regulations/efsa-aluminium-twi]]
 

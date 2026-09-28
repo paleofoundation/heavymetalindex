@@ -69,21 +69,13 @@ Specimens were collected from the Kolbudy forest district near Pomlewo, Pomerani
 - Speciation: The occurrence measurement is total Hg. The paper discusses methylmercury literature, but this study does not quantify MeHg in the sampled fruiting bodies.
 - App: Supports a wild-mushroom mercury context flag and a processing data gap: the authors explicitly state that boiling or pickling losses for Hg and Se were not measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
 - [[ingredients/wild-mushrooms]]
 - [[products/wild-mushrooms]]
 - [[metals/mercury]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Selenium is retained in `metals:` because the source measures Se directly and existing source pages use Se as an element route, but selenium is not one of the ten HMTc heavy-metal analytes.
-- The source uses "Hg" without speciation for its own measurements and describes CV-AAS total Hg analysis. This page therefore routes measured mercury as `tHg`, not `MeHg`.
-- The PDF's CC BY 4.0 license statement appears in the Open Access declaration.
-- No consumer-brand names are present. Method vendor names are laboratory-equipment identifiers and are permitted in Methods.
-- `products: []` is deliberate: the paper measured raw wild A. muscaria anatomical parts, not canned, pickled, or other processed mushroom product rows currently present in the linked reference record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

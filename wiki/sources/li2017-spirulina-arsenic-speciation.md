@@ -78,23 +78,13 @@ For most arsenic species, about `0.04 g` spirulina powder was extracted in `12.0
 
 This source adds a primary arsenic-speciation dataset for food-grade spirulina powder from China. It is routeable to algae/seaweed-based supplement and dietary-supplement powder rows, but the source metadata leaves `ingredients: []` because the closed vocabulary has no exact Spirulina/cyanobacteria ingredient slug. As(III) and As(V) are kept as source-reported species and are not collapsed into a hand-calculated iAs total.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-algae-seaweed-based]]
 - [[products/dietary-supplements]]
 - [[products/supplements-oral-solids-powders]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no DOI/title/cite-key duplicate for DOI `10.1002/jssc.201700618` or cite key `li2017-spirulina-arsenic-speciation`.
-- The raw filename handle `MFK_li2017` is already used by the linked reference record, a different Li et al. 2017 rice/cadmium paper from the archived source file with DOI `10.1039/C6EM00631K`. This page therefore uses disambiguated raw handle `MFK_li2017-spirulina-arsenic-speciation` and records the collision in `near_duplicates`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-039.txt`, extracted with `pdftotext -layout`. Table 1 species values, footnotes, and method-performance values are transcribed directly.
-- Units and bases are preserved as `ng g-1`, `µg g-1`, `ng L-1`, `%`, `g`, `mL`, `°C`, and `min`; no unit conversion was performed.
-- Speciation check: As(III), As(V), DMA(V), MMA(V), and unknown organic arsenic species remain separate. No total arsenic value is promoted to iAs, and no source-unreported As(III)+As(V) sum is calculated.
-- Brand firewall: the source reports production-site provinces, not consumer brands; no brand-linked contamination values are reproduced.
-- Missing-slug check: taxonomy snapshot has no exact `spirulina` or cyanobacteria ingredient slug. source metadata leaves `ingredients: []` and uses existing product slugs for algae/seaweed-based supplements, dietary supplements, and oral-solid powders.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

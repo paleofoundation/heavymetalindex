@@ -59,7 +59,7 @@ App: The honey ingredient/product profile can use this source as non-US context 
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/honey]]
 - [[ingredients/honey]]
@@ -67,10 +67,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-The PDF title, authors, DOI, year, journal, methods, and Table 2 values were read from the auto-fetched PDF. The paper reports total arsenic and mercury by atomic absorption spectroscopy; it does not provide inorganic arsenic or methylmercury speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

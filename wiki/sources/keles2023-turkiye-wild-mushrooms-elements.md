@@ -61,7 +61,7 @@ Fully matured fruiting bodies were collected from the Eastern Black Sea Region, 
 
 The source strengthens wild-mushroom Cd, Ni, and Pb evidence with species-specific dry-weight values from Turkiye. The very high Cd result in Russula vinosa should remain species-specific and should not be averaged into cultivated mushroom or generic canned-mushroom rows. Because the values are dry weight, later benchmark work needs an explicit moisture conversion before comparison with fresh-weight limits or as-consumed product rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
@@ -73,10 +73,6 @@ The source strengthens wild-mushroom Cd, Ni, and Pb evidence with species-specif
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-Evidence Fitness: routeable for wild edible mushroom occurrence evidence on a dry-weight basis; not routeable for cultivated mushroom products, canned mushrooms, or fresh-weight standards without conversion. The PDF first page provides the title, authors, journal, year, DOI, and CC BY 4.0 license statement. The PDF SHA-256 at ingest was `a280dedba4f6eae67627687972c167f404f6206eafb236fcdd30af0ba80f8691`. The source reports total elemental concentrations and does not report arsenic, mercury, or chromium speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

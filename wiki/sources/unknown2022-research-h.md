@@ -61,12 +61,6 @@ sampling_year_range: null
 
 Establishes microbiome composition and baseline trace mineral profile in raw goat milk from Eastern European dairy production. Demonstrates covariation between bacterial community structure and mineral bioavailability in milk matrices. Methods validated for integrated microbiome-elemental analysis in dairy systems.
 
-## Wiki pages updated on ingest
-
-- `ingredients/milk.md`
-- `ingredients/goat-milk.md`
-```
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

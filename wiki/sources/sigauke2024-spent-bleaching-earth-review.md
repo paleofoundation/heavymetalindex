@@ -102,7 +102,7 @@ App: No ingredient `contamination_profile` impact.
 
 Microbiome: Not addressed beyond the noted role of trace elements (Mn, Fe, Ca, Mg, Ti) as anaerobic-digestion co-factors when SBE is used as a biogas substrate.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/copper]]
 - [[metals/iron]]
@@ -111,18 +111,6 @@ Microbiome: Not addressed beyond the noted role of trace elements (Mn, Fe, Ca, M
 - [[ingredients/vegetable-oil]]
 - [[ingredients/vegetable-oils]]
 - [[products/cooking-oils-other]]
-
-## Verification notes
-
-- DOI 10.46754/jssm.2024.03.014 prints on the first page; submission and acceptance dates are 31 August 2023 and 29 October 2023, publication 15 March 2024. eISSN 2672-7226. UMT Press is the publisher; the article header carries a "© UMT Press" notice, so license is recorded as publisher copyright (reference-only).
-- Table 3 prints "Cu 41.4 ± 0.6%" under a header that states "Results (wt.% unless specified)". A copper concentration of 41.4 wt% in spent bleaching earth is physically implausible — Loh et al. 2015 (the cited primary source) reports trace metals in SBE in ppm. The review has carried over what is almost certainly a unit-label error from the source, where Cu should read as ppm consistent with Zn (30.1 ppm), Mn (359 ppm), and Fe (10026 ppm) in the same column. The page reproduces what the review prints and flags the apparent typo here; the primary Loh et al. 2015 paper would resolve it.
-- The review uses the term "heavy metals" in a broad sense that includes Cu, Fe, Mn, Zn (essential trace elements) and references "leachable trace heavy metal" in landfill SBE without specifying which elements. None of HMI's primary toxic-metal analytes (Pb, Cd, As, Hg, Ni, Al, Cr, Sn) are quantified in the review tables.
-- Matrices use two terms not in the common-matrices list: `spent-bleaching-earth` and `vegetable-oil-refining-residue`. These describe the industrial byproduct that is the subject of the review and are descriptive analogues to existing slugs such as `agro-industrial-waste`; both should be confirmed against the matrices controlled vocabulary on the next Karen review.
-- Jurisdictions are left empty: this is a global narrative review citing primary studies from Malaysia, Saudi Arabia, Algeria, Poland, Japan, Iran, Iraq, China, Brazil, Indonesia, Botswana, and elsewhere. The Botswana institutional affiliation of the authors does not bound the scope of the review.
-- The review covers cottonseed, sunflower, palm, niger seed, soya bean, and colza oils within its bleaching-process tables, but does not break the SBE composition tables down by source oil. source metadata therefore uses the umbrella `vegetable-oil` / `vegetable-oils` ingredient slugs rather than per-oil slugs.
-- No brand names are reported in the review; method/instrument vendor names are not referenced in detail in this review either, so no Part 12 firewall calls were required during ingest.
-- Audit editorial review (2026-06-02) flagged Table 4 citation-value pairings on PV, Fe, Cu rows where values had been re-sorted low-to-high but cited-source columns left in source-publication order. Independently verified against source p. 203; the audit was correct. Same issue extended to the FFA row (audit did not flag but it had the same defect). All four rows corrected so that the value order matches the citation order as printed in source Table 4 (Kheang 2013; Moshi 2017; Kheang 2006; Huang & Chang 2010 left-to-right). Phosphorus, beta-carotene, and total vitamin E rows were already correctly paired and were not changed.
-- Audit editorial review (2026-06-02) flagged the "(Loh et al. 2015)" attribution on the 1.5-2.0 Mt SBE / 128.2 Mt cooking-oil figure as over-specified. Independently verified against source p. 191; the global tonnage figure is printed in the review text without an immediate in-text citation, while the adjacent Loh et al. 2015 cite anchors specifically to the Malaysia 170,000-tonne figure. The Key numbers process-context bullet was corrected to attribute the global figure to the review text (unattributed in source) and to attach Loh et al. 2015 only to the Malaysia-specific number.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

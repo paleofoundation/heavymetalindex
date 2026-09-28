@@ -63,16 +63,6 @@ The method used anion-exchange HPLC coupled to a PerkinElmer/Sciex ELAN 6100 DRC
 
 This source provides arsenic-speciation occurrence evidence for Korean seafood and seaweed matrices. It shows that the dominant species varied by matrix, with shrimp dominated by arsenocholine in this table and seaweeds carrying measurable inorganic arsenic species. Downstream routing should preserve AsIII and AsV as inorganic arsenic and should not treat arsenobetaine, arsenocholine, DMA, or MMA as inorganic arsenic.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, instrumentation, Table 1 methods, Results text, Table 2, and Summary were checked in `/tmp/f3_unrepresented_texts/park2005.txt`.
-- DOI `10.4028/www.scientific.net/KEM.277-279.431`, raw handle `MFK_park2005`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `mg/kg`, `[mg/kg]`, and `µg/kg`; no conversion was performed.
-- Speciation: source metadata uses `iAs` for AsIII/AsV occurrence. The source reports multiple organic arsenicals, but no total-arsenic concentration table is presented, so `tAs` is not declared.
-- The Summary text prints MDLs as `5-25 mgAs/kg`, while the abstract prints LODs as `0.5-2.5 µg/kg`; the page records the abstract LOD and does not harmonize the inconsistent line.
-- Brand firewall: no sampled seafood brands were reported.
-- source metadata slugs were checked against the editorial record; narrow slugs for shrimp, laver, tangle, croaker, oyster, mussel, squid, clam, mackerel, hairtail, cockle, and cuttlefish are absent, so broad seafood/fish/shellfish/seaweed routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -65,7 +65,7 @@ Courses: The review is useful for teaching how cosmetic-heavy-metal controls dif
 
 App: If a regulatory comparison view is added for adult cosmetic/personal-care products, this source can support a compact crosswalk of EU/UK, US, Canada, China, India, and German BVL approaches. It should not be surfaced as a product contamination survey.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[regulations/by-jurisdiction]]
 - [[testing/icp-ms]]
@@ -77,15 +77,6 @@ App: If a regulatory comparison view is added for adult cosmetic/personal-care p
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/cobalt]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_ifscc_2022_cosmetics_metals.txt`. The title/byline, abstract, heavy-metal subsections, Table 1, analytical-method section, discussion, conclusion, and references were checked against this page.
-- No DOI is printed in the extracted text. Title text, raw handle `MFK_heavy-metal-content-in-cosmetic-products-ifscc`, raw SHA-256 `d38127492edcc109290586735c04abc17e0799ee84d15242b26a1661fc77b56e`, and candidate cite-key `modddaresi2022-cosmetics-heavy-metal-limits` were searched before creation; no existing source page was found.
-- Units are copied exactly as the source prints them (`mg/kg`, `ppm`, and the source's regulatory calculation bases). No conversion was performed.
-- Speciation: the paper discusses regulatory limits and prohibitions, not new chemical speciation measurements. This page records As and Hg as total-context regulatory rows and does not treat them as iAs or MeHg.
-- Evidence tier: `C` because the paper is a useful review/crosswalk but not an official regulation, agency report, or primary occurrence dataset.
-- Routing: `products` is intentionally left empty because the source is a context-only regulatory/method review covering cosmetics generally; no specific product category has occurrence measurements in this source. No product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -170,52 +170,17 @@ Figures:
 - No engagement with gut-microbiome, human-exposure, or epidemiological literature on PC or MT intake from plant-derived foods. The food-safety relevance of plant-side PC/MT engineering is implicit, not developed.
 - Geographic and institutional scope of the cited primary literature skews toward North America, Europe, Australia, and Japan; the cited Chinese, South American, and African primary literature is sparse.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/cadmium]]
-- [[metals/arsenic]]
 - [[metals/arsenic-inorganic]]
-- [[metals/mercury]]
 - [[metals/mercury-total]]
-- [[metals/lead]]
-- [[metals/copper]]
-- [[metals/zinc]]
-- [[metals/nickel]]
-- [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1146/annurev.arplant.53.100301.135154`), raw_handle grep (`MFK_40-phytochelatins-and-metallothioneins-roles-in-he`), and cite-key glob (`cobbett2002-*`, `goldsbrough2002-*`) over the linked reference record on 2026-06-08 returned no matches. Sibling PC/MT review pages [[seregin2023-phytochelatins-sulfur-metal-chelating]] (2023, IJMS), [[marques2025-phytochelatins-cadmium-mitigation]] (2025, IJMS), [[ruttkay-nedecky2013-metallothionein-oxidative-stress]] (2013), [[thirumoorthy2007-metallothionein-overview]] (2007), [[yang2024-metallothionein-comprehensive-review]] (2024), and [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]] (1989, the original Grill characterisation cited as reference [24] in this review) are conceptually adjacent but distinct papers with different cite-keys and DOIs. This is a NEW source page — no prior version to merge-enhance.
-
-**Evidence tier.** B (secondary narrative review with no PRISMA and no primary measurements). The Annual Reviews series is a high-quality invited-review venue, and Cobbett (Melbourne) and Goldsbrough (Purdue) are both prominent researchers in the PC/MT field; however, the review is narrative rather than systematic, declares no inclusion/exclusion criteria, and contains no primary data. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither.
-
-**Metals source metadata.** Cd is the primary subject across all sections. As is the secondary subject — discussed as a substantial PC-deficient-mutant sensitivity and as a substrate for in vivo PC complex formation (Schmöger et al.); the review treats arsenate and As(III) somewhat interchangeably but the substantive biological context is inorganic As broadly, so the source metadata uses `iAs`. Hg is discussed in PCS activation and the *cad1* mutant hypersensitivity context; the review uses Hg without consistently distinguishing methyl from inorganic, so the source metadata uses `tHg` as the broader designation. Pb is discussed as a PCS-activating metal and in the in vivo PC-Pb complex context (where the complex actually contains copper not Pb). Cu and Zn are discussed extensively in the MT section (copper tolerance, zinc binding in Type 4 MTs, copper-homeostasis genes in senescence); both fall outside the HMTc 10-analyte list but are in the wiki taxonomy. Ni receives the lightest coverage but is named in the in vivo PC-deficient-mutant cross-metal sensitivity list. Ag, Bi, Sn, and selenite are mentioned but are not in the wiki metal taxonomy. The metal slugs used (Cd, iAs, tHg, Pb, Cu, Zn, Ni) follow the abbreviation vocabulary.
-
-**Ingredients, products, matrices, jurisdictions source metadata.** All empty. The review measures nothing in any food matrix. Food-relevant plant species (rice *Oryza sativa*, wheat *Triticum aestivum*, maize *Zea mays*, tomato *Solanum lycopersicum*, pea *Pisum sativum*, *Brassica juncea*, *B. napus*, *B. oleracea*, banana, apple, kiwi, cotton, sugarcane) appear as model or experimental host organisms in PC/MT biology studies, not as sampled food commodities with reported metal concentrations. Author affiliations are Australia (Cobbett, University of Melbourne) and USA (Goldsbrough, Purdue University); the review is conceptually international and no national regulatory or occurrence frame applies; `jurisdictions:` remains empty.
-
-**Sample size.** Null. The review has no sampling frame; it cites ~85 references covering plant, fungal, animal, and bacterial PC/MT studies but reports no human/biological sample numbers of its own.
-
-**Brand firewall (Part 12).** No commercial brand names appear in the source body for contamination values. No food, supplement, or personal-care brand is named. The only vendor-type mentions are scientific methods context (HPLC, ICP-AES, polymerase chain reaction, gel-filtration chromatography, T-DNA insertional mutagenesis, GUS reporter, SAGE protocol, Zn affinity chromatography) and standard plant-research organisms — none of which are commercial brands subject to the firewall. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language, no claims about HMI certification levels, and no consumer-audience risk advisories. The Future Prospects section discusses "the potential for the use of plants for the detoxification or 'phytoremediation' of polluted environments is being increasingly examined" — biological-research framing, not a wiki-side synthesis or threshold proposal. Preserved in Implications without escalation. No firewall action required.
-
-**Date arithmetic.** Annual Review of Plant Biology, vol. 53 (2002), pages 159–82. DOI 10.1146/annurev.arplant.53.100301.135154 resolves to the 2002 volume. The PDF page-edge metadata reads "5 Apr 2002 10:20" (LaTeX compilation date) and "Downloaded from www.annualreviews.org by University of Connecticut on 04/25/13" (access timestamp). All consistent with `year: 2002` source metadata.
-
-**Reviewer's note on scope fit.** This paper is in the "Black Market Peptide Metal Survey / heavy_metals_peptides" Manual Fetch source-retrieval folder alongside [[luo2024-peptides-heavy-metal-remediation]], [[marques2025-phytochelatins-cadmium-mitigation]], [[seregin2023-phytochelatins-sulfur-metal-chelating]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], and others. Per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`, peptide-mediated mitigation/remediation papers are in scope as background for the mitigation-evidence chapter. Cobbett & Goldsbrough 2002 is the canonical foundational text of the PC/MT plant biology field — earlier than Seregin & Kozhevnikova 2023 and Marques 2025, broader than Grill 1989 (which characterised PCs originally), and the first comprehensive review to synthesise the PC and MT literatures together after the PCS gene cloning of 1999. The four (Grill 1989, Cobbett & Goldsbrough 2002, Seregin & Kozhevnikova 2023, Marques 2025) provide the chronological backbone for the PC/MT physiology section of a future mitigation chapter.
-
-**Slug-vocabulary note.** `[[mitigation/remediation-evidence]]` is in the live the linked reference record directory; the taxonomy snapshot (the editorial record, generated 2026-05-18) covers ingredients, products, metals, and regulations but not the mitigation/ subdirectory; this is a snapshot-coverage gap, not a missing-slug defect.
-
-**As speciation note.** The review uses "Cd and arsenate" and "PC-As complexes" interchangeably; arsenate (As(V)) is named explicitly in the *Rubia tinctorum* induction list (Maitani et al.); As(III)-PC complex formation is mentioned (Schmöger et al.) but not consistently distinguished from As(V)-PC in the prose. The source metadata uses `iAs` (inorganic arsenic), which captures both arsenite and arsenate. The MeHg/tHg distinction is not maintained in the review (Hg is used throughout without consistent speciation); the source metadata uses `tHg` as the broader designation.
-
-**License note.** Annual Reviews publishes under publisher copyright (the PDF page footer reads "Copyright © 2002 by Annual Reviews. All rights reserved"). The source metadata `license: "publisher-copyright"` reflects this; the `access_url` points to the publisher DOI rather than an open-access repository.
-
-**source metadata `near_duplicates: []` note.** Sibling PC/MT reviews are conceptually adjacent but cover distinct ground (different DOIs, different paper bodies, different conclusions). They are not near-duplicates in the schema sense (which is reserved for the same paper published in multiple venues or the same study reported in multiple outputs). The `near_duplicates` field stays empty.
-
-**Audit editorial review (2026-06-08) verdict: PROMOTE → two ⚠️ concerns applied.** Five checks returned ✅ on slug vocabulary, ✅ on brand firewall, ✅ on HMTc firewall, ⚠️ on numerical fidelity (one omitted SAGE figure), and ⚠️ on speciation/methods (one *C. glabrata* PCS overreach). Both concerns independently verified against the PDF and applied:
-- **Finding 1 (SAGE Type 3 MT 1.25% omission):** verified PDF p. 174 reports "Transcripts of two Type 3 MT genes accounted for an additional 1.25% of the mRNAs" — added to the MT Gene Expression section for completeness.
-- **Finding 2 (*C. glabrata* not a PCS-expressing organism):** verified PDF Table 2 (p. 164) lists only SpPCS1 as a fungal PCS; PDF p. 168 names *C. glabrata* only for the hem2/sulfide-pathway/Cd-tolerance work. Implications/Microbiome paragraph corrected to specify *S. pombe* as the catalogued fungal PCS-expressing organism, with *C. glabrata* called out as a hem2/sulfide-context organism rather than a PCS-bearing fungus.
-
-2 findings, 2 applied, 0 rejected. Audit editorial review ID afe9fdc3247ec4cda.
+- [[seregin2023-phytochelatins-sulfur-metal-chelating]]
+- [[marques2025-phytochelatins-cadmium-mitigation]]
+- [[ruttkay-nedecky2013-metallothionein-oxidative-stress]]
+- [[thirumoorthy2007-metallothionein-overview]]
+- [[yang2024-metallothionein-comprehensive-review]]
+- [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]]
+- [[luo2024-peptides-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

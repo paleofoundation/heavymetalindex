@@ -65,19 +65,13 @@ This is a narrative review. The authors organize the field into ten sections: in
 
 The peptide–zinc coordination chemistry the review describes — coordination of divalent metal ions to imidazole nitrogen of histidine, carboxylate oxygen of aspartate and glutamate side chains and C-terminal carboxyl groups, sulfhydryl of cysteine, phenolic hydroxyl of tyrosine, and amide carbonyl oxygen — applies in principle to soft-acid divalent toxic metals (Pb²⁺, Cd²⁺, Hg²⁺) and to harder Lewis acids (e.g., Al³⁺, Cr³⁺) that coordinate to nitrogen-, oxygen-, and sulfur-donor ligands. The review is therefore useful background context for primary studies on whether food protein hydrolysates and casein phosphopeptide-containing matrices alter intestinal absorption or retention of dietary heavy-metal contaminants. The review itself reports no measurements on toxic-metal binding or bioavailability and should not be cited as evidence for any HMI standard, occurrence value, or bioaccessibility claim. The Alzheimer's-disease section on histidine-rich aquatic peptides sequestering free Zn²⁺ to reduce Aβ aggregation is mechanistically relevant to literature on metal-mediated neurotoxicity but again does not contribute occurrence or dose data on HMI-regulated metals.
 
-## Verification notes
+## Related evidence
 
-- PDF read in full (25 pages) via the Read tool; abstract, sections 1–10, Figures 1–6, and the full references list (94 entries) all reviewed.
-- DOI `10.3390/biom15091311`, raw handle `MFK_49-dual-perspectives-on-peptide-zinc-complexation-`, and cite-key `han2025-peptide-zinc-complexation-aquatic-review` checked against the linked reference record; no existing page (DOI/handle/cite-key greps all empty).
-- Open access under CC-BY 4.0 per Wrexham University Research Online cover page and the MDPI Copyright notice on the first body page; recorded as `license: cc-by-4.0`.
-- Metals discussed are Zn²⁺ (primary), with brief mentions of Cu²⁺ (Alzheimer's branched peptides), Fe²⁺ (intestinal transport proxy for clinical-trial design discussion), Ca²⁺ (CPP zinc/calcium phytate nanocomplexes), and Aβ–Zn aggregation chemistry. None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured or reviewed; `metals:` is therefore `[]`.
-- The paper reports peptide sequences, molecular weights, chelation rates, and dissociation constants, not contamination occurrence values in food matrices; `ingredients:` and `products:` are therefore `[]`. The aquatic protein sources cited (oyster, scallop, Alaska pollock skin, Antarctic krill, octopus, sea cucumber, tilapia, pufferfish, silver carp) are framed as carrier feedstocks for nutritional supplement manufacture and as protein-by-product valorization opportunities, not as products in which HMI heavy-metal contamination is being measured. Routing this source to ingredient or product pages would misrepresent the paper.
-- `matrices: [protein-hydrolysates, review-context]` records what the paper actually concerns at the matrix level; this matches the convention used for adjacent peptide reviews [[lu2022-metal-chelating-peptides-review]] and [[irankunda2022-imac-mcp-separation-methodology-simulation]] in the same folder.
-- `jurisdictions: [GLOBAL]` because the review compiles international primary literature; corresponding author at Dalian Minzu University (China) with a coauthor at Wrexham University (UK), but the literature surveyed is not jurisdiction-bound.
-- Brand firewall: no brand names appear in the review. Instrument vendors and column chemistries (IMAC, RP-HPLC, ESI-MS, MALDI-TOF, LC-Q-TOF) are method components, not brand attributions to contamination values.
-- Wiki/HMTc firewall: no synthesis claims about contamination thresholds, occurrence values, or HMTc standards were imported from the review. The review does not bear on any HMI per-row P97/P45 calculation.
-- Evidence tier: C (narrative review reporting findings from primary studies; no original data, no systematic-review methodology).
-- Adjacent context: see [[wang2022-therapeutic-peptides-review]], [[shalev2022-peptide-metal-nmr-review]], [[luo2024-peptides-heavy-metal-remediation]] for related peptide-binding mechanism reviews already in the corpus.
+- [[lu2022-metal-chelating-peptides-review]]
+- [[irankunda2022-imac-mcp-separation-methodology-simulation]]
+- [[wang2022-therapeutic-peptides-review]]
+- [[shalev2022-peptide-metal-nmr-review]]
+- [[luo2024-peptides-heavy-metal-remediation]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

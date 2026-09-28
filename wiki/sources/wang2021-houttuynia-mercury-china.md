@@ -77,7 +77,7 @@ Plant tissues were separated into root, rhizome, aboveground stem, and leaf, dri
 
 This source supports mercury occurrence context for leafy/herbal vegetables grown near mercury mining areas. It should remain geography- and contamination-source specific and should not be used as a general-market vegetable baseline. It also illustrates that edible tissue choice changes total mercury and methylmercury exposure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[products/non-root-vegetables]]
@@ -86,14 +86,6 @@ This source supports mercury occurrence context for leafy/herbal vegetables grow
 - [[metals/mercury]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bar methylmercury, but the actual paper is an edible Houttuynia vegetable mercury paper. Audited 2026-06-08.
-- Speciation: total mercury and methylmercury are separately measured; do not substitute total mercury for methylmercury.
-- Market/geography: mining-area samples are contamination-hotspot evidence, not routine retail-market evidence.
-- Source internal inconsistency: the narrative paragraph on page 5 reports DZ maxima with underground and aboveground reversed relative to the paper's own Table 1. Values reproduced on this page follow Table 1 and Table 3, the authoritative tabulations. An earlier version of this page propagated the narrative-paragraph error; corrected 2026-06-08.
-- Routing decision: Houttuynia cordata is a niche regional Chinese vegetable consumed both as aboveground leafy tissue (Sichuan, Chongqing) and as underground rhizomes plus roots (Guizhou, Yunnan). The taxonomy snapshot has no dedicated houttuynia ingredient or product slug. Routed to leafy-vegetable categories with `houttuynia-cordata` carried in the matrices field; no general root-tuber-vegetables routing because the broader category covers carrots, potatoes, and other staples that this niche herb would dilute. Downstream synthesis should treat this source as a tissue-specific accumulation case study, not as a baseline for either leafy vegetables or root vegetables.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

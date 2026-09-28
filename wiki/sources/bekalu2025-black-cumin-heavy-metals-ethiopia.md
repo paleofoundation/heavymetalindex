@@ -66,7 +66,7 @@ App: Adds category-level black-cumin seed values for East Gojjam, Ethiopia. The 
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -78,16 +78,6 @@ Microbiome: Not addressed.
 - [[ingredients/herbs-and-spices]]
 - [[products/spices]]
 - [[products/condiments-general]]
-
-## Verification notes
-
-- The PDF prints DOI `10.1007/s44371-025-00300-1`, journal Discover Chemistry, and article metadata for Bekalu et al. (2025) 2:223. The PDF states open access under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-- `matrices: [spices]` is used as the broad routed matrix for black cumin seeds because the source describes Nigella sativa as a culinary and medicinal seed. Dry-weight basis is documented in Key numbers and Methods rather than in source metadata `matrices`.
-- Table 3 prints Sinan Cu as 22.24 +/- 2.03 mg/kg, and the abstract repeats the Cu range as 9.18 +/- 0.22 to 22.24 +/- 2.03. Some discussion passages later state 18.24 +/- 2.03 for Sinan Cu. This page follows Table 3 and the abstract, and treats the 18.24 value as a paper-side text inconsistency.
-- The source text contains one apparent decimal typo in discussion, describing Cd as 1.2 +/- 0.04 in Gozamen. Table 3 gives 0.12 +/- 0.004 mg/kg, which is also consistent with the abstract range and with the cited WHO Cd limit comparison. This page uses Table 3.
-- Table 1 gives Pb calibration R2 as 0.9987, while the discussion text describes Pb R2 as 0.9889. This page follows Table 1 for the calibration summary and records the discussion value as a source-internal inconsistency.
-- Table 1 also prints Pb LOQ as 0.015 mg/kg, below the Pb LOD of 0.016 mg/kg. The Methods section therefore quotes Cd LOD/LOQ and avoids using the anomalous Pb LOQ as a quality-control anchor.
-- The paper describes 81 samples overall and reports district means as mean +/- SD with n=3 in Table 3. The source metadata `sample_n` captures the overall sample count; the table note captures the district-mean reporting basis.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

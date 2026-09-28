@@ -124,7 +124,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/rubin2026-diaper-cream-comparison-chart-11-products|Consumer-advocacy comparison chart of lead, cadmium, mercury and arsenic in eleven diaper creams (updated January 2026)]]<span class="hmi-ref-meta">Rubin T · Lead Safe Mama, LLC (tamararubin.com), posted 21 September 2025, updated 18 January 2026; chart image dated 17 January 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2025/09/diaper-cream-chart/)</span><span class="hmi-ref-tag">Consumer advocacy testing</span>
 2. [[sources/agren1991-zno-vehicles-zinc-absorption-skin-wounds|Influence of two vehicles for zinc oxide on zinc absorption through intact skin and wounds]]<span class="hmi-ref-meta">Ågren MS · Acta Dermato-Venereologica 71(2):153-156 · 1991 · [doi.org/10.2340/0001555571153156](https://doi.org/10.2340/0001555571153156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -137,7 +137,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

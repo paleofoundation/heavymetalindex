@@ -114,7 +114,7 @@ App: Route to plant-milk, rice-milk, almond, coconut, oat, rice, and non-rice-gr
 
 Courses: Useful for illustrating (a) the structural difference between commercial supply-chain plant beverages and home/laboratory-prepared analogues from the same raw material category, (b) how Russian-jurisdiction MPCs compare in magnitude to other regional frameworks for plant beverages, (c) the hazard-quotient framework for non-carcinogenic risk assessment of low-level food contamination, and (d) the role of cereal-raw-material agronomy (Pb in mature buckwheat groats accumulating from soil) in shaping the contamination profile of the derived beverage.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/plant-milk]]
 - [[ingredients/rice-milk]]
@@ -130,26 +130,6 @@ Courses: Useful for illustrating (a) the structural difference between commercia
 - [[metals/cadmium]]
 - [[metals/zinc]]
 - [[metals/copper]]
-
-## Verification notes
-
-The source paper is in Russian with an English-language abstract, keywords, table captions, author affiliations, and full references list. All numerical data extracted to this page were read from the bilingual table captions (Tables 1, 2, 3) and the Russian Results section text, cross-checked against the English abstract's summary statements. The Cyrillic-only narrative sections were translated for context; no numerical values were drawn from translation, only from the bilingual tables.
-
-The commercial samples are reported in the source under Russian-language brand names: «Овсяша» (almond and coconut), «Здоровое меню» (rice), and «Nemoloko» (oat), all purchased at the «Перекресток» supermarket chain. Per brand-firewall strict reading (locked 2026-05-17), this page reports each commercial sample by product-form descriptor only ("commercial almond beverage (Russian retail)" etc.) and does not name the brands. The single-brand-per-product-type structure of the source's commercial sampling means the product type is the natural descriptor; this is not a brand-by-brand ranking situation (which would be a Part 12 violation) but a brand-attributed single-observation situation (which is converted to a product-form description without information loss for wiki purposes).
-
-The laboratory-prepared samples used Russian-brand grain inputs («Националь» Hercules oat flakes, «Увелка» green buckwheat groats sort 1 and mature buckwheat groats sort 1, «Бакалейный стандарт» long-grain rice sort 2). These are raw-material grain brands feeding a lab preparation, not branded beverages, and are likewise reported on this page by grain-form descriptor only ("oat flakes," "green buckwheat groats," "mature buckwheat groats," "long-grain rice") without brand attribution. The source notes all grain inputs carried GOST certification and "without GMO" labeling.
-
-The source reports the lead value for mature-buckwheat-groat milk at 0.0530 mg/kg, which the Russian Results text rounds to "0.053 mg/kg = 10.6 percent of MPC"; the abstract's percentage range statement of 4.8 to 36.7 percent encompasses this and the cadmium maximum (36.0 percent for commercial coconut beverage). This page preserves the four-decimal table values throughout. The HQ values in Tables 2 and 3 are reported by the source at mixed precision (some to two significant figures, some to three, some to four); this page preserves the source's reported precision verbatim per row.
-
-The source reports a single basis ("mg/kg of product") without explicitly labeling whether this is wet-weight (as-consumed liquid) or dry-weight; the laboratory preparation protocol (100 g grain to 500 mL water producing a beverage analyzed the same day) and the comparison to a 1:6 dilution-equivalent for retail beverages strongly suggest as-consumed liquid weight, consistent with how Russian SanPiN MPCs for "foodstuffs" are typically applied. Downstream pooling that requires explicit basis labeling should treat this as as-consumed liquid pending clarification.
-
-The source's MPC reference (SanPiN 42-123-4089-86, "Predel'no dopustimyye kontsentratsii tyazhelykh metallov i mysh'yaka v prodovol'stvennom syr'ye i pishchevykh produktakh") is a Soviet-era 1986 sanitary regulation that remains in force in the Russian Federation for these analytes. No corresponding wiki regulation page exists at the time of ingest; future synthesis touching Russian-jurisdiction plant beverages may warrant a `regulations/ru-sanpin-42-123-4089-86-heavy-metals.md` page (Karen's Step 0 Lock if added).
-
-The four commercial samples represent four different product botanical categories (almond, rice, coconut, oat); within-category replication is n = 1 per botanical, which constrains the source to plausibility-anchor evidence rather than population-percentile evidence for any individual product category. The four laboratory-prepared samples likewise represent four different cereal raw materials (two buckwheat varieties, oat, rice) with n = 1 per raw material. The total study n = 8 split across eight distinct product-by-preparation combinations means the source contributes one data point per ingredient-by-product cell rather than a distribution.
-
-The source contains two internal Russian-text vs. Table 1 inconsistencies that this page resolves in favor of Table 1: (a) the p. 62 Russian narrative says "the highest Pb is in rice milk «Здоровое меню» at 0.0241 mg/kg = 4.8% of MPC" but Table 1 shows the rice-beverage Pb cell as 0.0296 mg/kg, and the actual study maximum Pb is 0.0530 mg/kg in mature-buckwheat-groat lab milk; (b) the same p. 62 paragraph says Cd "ranged from 0.0106 to 0.0113 mg/kg" but Table 1 shows the Cd range across all four detected samples as 0.0068 to 0.0108 mg/kg. This page uses Table 1 throughout because the table is the primary data record; the narrative values are not propagated.
-
-Audit editorial review (2026-06-08, agent a85bea8c) flagged that the Wiki-pages-this-source-may-touch list omitted `[[metals/zinc]]` and `[[metals/copper]]` despite the source measuring both metals and despite both metal pages existing in the wiki; verified independently — both pages confirmed present in the linked reference record (zinc.md, copper.md). Added both wikilinks. All other audit checks returned ✅ clean; verdict PROMOTE with this single completeness improvement.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

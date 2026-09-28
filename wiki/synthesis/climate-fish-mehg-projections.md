@@ -87,7 +87,7 @@ This synthesis was established 2026-05-16 on three anchor sources. The synthesis
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -99,7 +99,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/sonke2023-mercury-global-change|Global change effects on biogeochemical mercury cycling]]<span class="hmi-ref-meta">Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A · Ambio · 2023 · [doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/wang2023-climate-marine-mercury|Climate-driven changes of global marine mercury cycles in 2100]]<span class="hmi-ref-meta">Wang F, Macdonald RW, Armstrong DA, and Stern GA · Proceedings of the National Academy of Sciences · 2023 · [doi.org/10.1073/pnas.2202488120](https://doi.org/10.1073/pnas.2202488120)</span><span class="hmi-ref-tag">Peer-reviewed</span>

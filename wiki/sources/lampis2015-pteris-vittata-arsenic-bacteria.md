@@ -54,20 +54,9 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: WikiBiome federation signpost — plant-growth-promoting rhizobacteria enhancing metal phytoextraction.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic-total]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
 - [[microbiome/index]]
-
-## Verification notes
-
-- Evidence tier B: primary greenhouse experiment in a peer-reviewed journal (Frontiers in Plant Science, CC BY 4.0).
-- Page grounded in the published abstract and bibliographic metadata; values preserved as printed. Full-text extraction can follow on synthesis.
-- `metals: [tAs]` — total arsenic, not speciated.
-- `ingredients: []` / `products: []` correct: bioremediation context, not retail food occurrence.
-- Part 2 direction-of-edit check: adds upstream mechanism/microbiome literature; neutral to HMT&C thresholds, moves toward the literature.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -91,7 +91,7 @@ Courses: The source is useful for teaching broad cosmetic routing from a mixed-p
 
 App: If adult personal-care product profiles are added later, the Table 1 product/country means and the product-type exceedance proportions can support Iran-market context cards. This source does not affect food ingredient profiles.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lipstick]]
 - [[products/eye-makeup]]
@@ -103,19 +103,6 @@ App: If adult personal-care product profiles are added later, the Table 1 produc
 - [[products/leave-on-hair-preparations]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_cosmetics_pb_cd_iran_2018.txt`. The title/byline, DOI block, sampling/methods text, Results section, Table 1, Discussion, Conclusion, and citation block were checked against this page.
-- DOI `10.5455/njppp.2018.8.0411729042018`, title text, raw handle `MFK_assessment-of-cadmium-and-lead-concentrations-in`, raw SHA-256 `7d31ce0dd58beb41b69e8869074a5e7922b9d6b9a6ad2596415adccd6b74b04a`, and candidate cite-key `zafarzadeh2018-cosmetics-lead-cadmium-iran` were searched before creation; no existing source page was found.
-- Units are copied exactly as `µg/g`; no conversion to ppm, mg/kg, or ppb was performed. The paper uses `μg/g` and `µg/g` glyphs interchangeably in the extracted text.
-- The Results paragraph prints "mean and SE concentration of Cd and Pb were 9.07 ± 1.126 ... and 3.69 ± 0.72 ... respectively," but the abstract states Cd `3.69 ± 0.72` and Pb `9.07 ± 1.126`, and the product-type/table values confirm Pb is the higher overall mean. This page follows the abstract/Table-consistent assignment and records the Results sentence as a source-side transposition.
-- Figure caption/text mismatch: the narrative refers to product-type Pb means as Figure 1 and Cd means as Figure 2, while the extracted captions label Figure 1 as cadmium and Figure 2 as lead. The numeric product-type means are taken from the surrounding prose rather than reconstructed from the figures.
-- Source-internal inconsistency: the Discussion reports highest Pb concentrations as `63.42`, `52.19`, and `48.75 μg/g` for selected product/country/color examples, while the color paragraph later gives dark-red Pb as `52.19-47.75 μg/g`. Because the per-sample table is not published, this page avoids using those disputed individual maxima beyond the overall Pb max `63.42 µg/g` and the Table 1 group means.
-- Brand firewall: Table 1 uses anonymized brand letters only; no consumer brand names are printed in the extracted table. This page omits even the letter-coded brand column and reports only product/country rows and aggregate source findings.
-- Evidence tier: `B` because the paper is peer-reviewed and reports a primary 264-sample analytical survey, but the journal/method detail does not meet A-tier expectations. The paper does not report CRM recovery, blanks, LOD/LOQ values in finished-product units, or per-sample raw data; it also contains several source-side transposition/caption inconsistencies.
-- Routing: all product slugs used in source metadata appear in the editorial record. Missing exact slugs: the snapshot has no non-retired adult `lip-products` page despite a planned product-index row, no eye-makeup-remover slug, and no explicit pancake-makeup slug. The page uses `lipstick` for exact closed-vocabulary continuity, `facial-cleansers` for eye makeup remover, and `makeup-foundation-powders-blush` for pancake makeup.
-- Speciation: Cd and Pb are elemental total-metal measurements only; no cadmium/lead species distinction is reported.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

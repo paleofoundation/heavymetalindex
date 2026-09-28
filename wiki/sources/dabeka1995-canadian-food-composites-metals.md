@@ -77,15 +77,6 @@ Foods were purchased at retail level in Vancouver, Winnipeg, Toronto, Montreal, 
 
 This source provides Canadian total-diet composite occurrence and intake context for Pb, Cd, Ni, and Co across broad food categories. Its composite design supports broad category routing, especially cereals/bakery, vegetables, beverages, peanut butter/fats, fish/shellfish, and canned-food context, rather than narrow product-row benchmarking. Fluoride values are preserved in the body as source facts but are not routed as HMTc metal evidence.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the abstract, Lead Survey Results, Cadmium Survey Results, Nickel Survey Results, Cobalt Survey Results, Table 5, and Table 6 were checked in `/tmp/ingest_f3_dabeka1995.txt`.
-- No DOI was reported in the PDF; `no_doi_assigned: true` is paired with the publisher article access URL. Raw handle `MFK_dabeka1995` and cite-key checks found no existing source page before creation.
-- Concentration units are preserved as `ng/g`; dietary intake units are preserved as source-printed `ug/day`. No conversion to `µg/day`, ppm, or wet/dry basis was performed.
-- Speciation: the paper reports elemental lead, cadmium, nickel, cobalt, and fluoride; no arsenic or mercury speciation issue is present.
-- Brand firewall: Prosobee is named only as a laboratory reference material in Methods, not attached to consumer contamination values.
-- source metadata slugs were checked against the editorial record; missing narrow total-diet composite slugs include canned luncheon meats, canned citrus fruit, canned peaches, canned pears, cherries, meat organs, potato chips, and soups, so broad product/category routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

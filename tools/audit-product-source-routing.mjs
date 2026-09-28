@@ -352,6 +352,15 @@ function addProductRoute(routes, sourceId, product, basis, { contextOnlyProducts
   if (!inherited) return
 
   for (const productSlug of inherited.product_slugs) {
+    // Akhtar 2017 is milk-based infant formula powder and states that the
+    // panel includes no soy-based products. The parent powder link is
+    // supported. The soy child is not.
+    if (
+      sourceId === "akhtar2017-pakistan-infant-formula-nickel-aflatoxin" &&
+      productSlug === "infant-formula-powder-soy-based"
+    ) {
+      continue
+    }
     upsertRoute(routes, productSlug, {
       route_kind: inherited.route_kind,
       route_basis: [`${basis}:${product}`],

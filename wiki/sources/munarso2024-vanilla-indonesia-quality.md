@@ -81,29 +81,11 @@ Explicit limitations: (1) no analytical method stated for Pb/Cd; (2) only Pb and
 
 **App:** Pb and Cd values for cured vanilla beans (Indonesia, 2023); arsenic, mercury, nickel, aluminium, chromium, and tin remain data gaps for this matrix from this source.
 
-## Verification notes
+## Related evidence
 
-- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit editorial review (Phase 2) returned PROMOTE with two cosmetic ⚠️ items. Both verified against the PDF and applied: (1) the Table 6 reproduction's "Whole Grade A (Gourmet)" row label was simplified to "Whole Grade A" to match the source's Table 6 column verbatim (Tables 3 and 4 use the longer "Gourmet/Whole Grade A Class 1A" descriptor, but Table 6's own label is just "Whole Grade A"); (2) the "Vanilla is not currently a standalone ingredient page in the wiki" parenthetical was removed from the Implications > App paragraph (wiki-state observations belong in Verification notes, not in Implications, per Part 2 firewall hygiene). The remaining ⚠️ items (Duncan grouping superscripts dropped from Table 3 reproductions; ISO 5565-2:1999 citation form refined from Table 2's "Spectrophotometric methods / ISO (1999)" cell to the full references-list designator) were verified as faithful-to-source and left unchanged — the auditor itself classified them as cosmetic.
-- 2026-05-28 (automated editorial review, v2.0 manual-fetch merge-enhance — Phase 1): page was originally created 2026-05-14 in the source-retrieval-cond05 batch ingest. Phase 1 enhancements applied:
-  - Set per-PDF `raw_handle: MFK_from-bean-to-market-exploring-the-chemical-and-pro` (was the generic batch handle `manual-fetch-source-retrieval`).
-  - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch source-retrieval ") matching the on-disk filename "From bean to market_ exploring the chemical and production dynamics of high-quality Indonesian vanil.pdf" (prior path truncated the filename mid-word at "dynami.pdf").
-  - Added `raw_sha256` (6c9389d…1dd93), `access_url` (https://doi.org/10.3389/fsufs.2024.1425656), and `tier_rationale` explaining the B-tier placement.
-  - Populated `products: ["[[products/spices]]"]` (was empty, which surfaced this source in `routing_malformed.csv` as "Source is missing optional routing-input fields"); the spices product page exists and is the broadest accurate routing destination for a vanilla-bean paper.
-  - Replaced the invented `[[ingredients/vanilla]]` slug with `[[ingredients/herbs-and-spices]]`: vanilla is not currently an ingredient page in the taxonomy snapshot, and per the hard constraint against creating new ingredient pages in this session, the routing default is the broadest accurate slug that exists (herbs-and-spices). If vanilla later promotes to its own page, the routing layer will fan out.
-  - Replaced the non-canonical matrix `vanilla-bean-cured` with the canonical matrix `spices` (matrices is a bare-string vocabulary; the system-prompt matrices list does not include vanilla, and other condiment_papers/05 sources route under `spices`).
-  - Added `sampling_locations` and `sampling_year_range` to capture the seven-province scope and the May–August 2023 sampling window now that the source has been re-read.
-  - Set `sample_n: null` (was 28, which is an interpolation rather than an explicit count); the paper states n=4 per quality class for Tables 3/4 chemical-quality testing but does NOT state the per-row sample size for Table 6 heavy-metal data, so the prior 4 × 7 = 28 figure was inferred. The narrative now records what the source actually says.
-  - Expanded Key numbers to include the full Table 3 chemical-quality matrix and the Table 4 physical-quality summary alongside the Table 6 contaminant table, since this paper's metals-only contribution is bounded and the broader quality framing is what the rest of the paper is about. Standard deviations that exceed row means are now called out explicitly to flag the within-row spread.
-  - Expanded Methods (brief) to document that no instrument, no LOD/LOQ, no digestion, no QC, and no per-row n is given for Pb/Cd; this is a Cochrane-style limitation note rather than a synthesis claim.
-  - Rewrote the Implications section to remove the prior cross-source comparison to "the Codex general ML for spices (Pb 2.0 mg/kg, Codex CXS 193-1995)" — that comparison is a synthesis claim (Part 2 wiki/HMT&C-firewall hygiene); it belongs on the relevant regulation page or in a downstream synthesis pass, not in a single-source page. The underlying point — that this paper does not measure most HMI/HMT&C analytes — is preserved as a data-gap statement. Also removed the prior "consistent with vanilla being a relatively low-contamination spice" line for the same reason.
-  - Replaced the legacy `## Wiki pages updated on ingest` heading with the current template `## Wiki pages this source may touch` (the legacy heading is flagged by the audit checklist in the editorial record).
-- DOI, title, authors, year, publication, license, evidence_tier, and metals list (Pb, Cd) verified against page 1 (citation block) and pages 8–9 (Table 6 caption and conclusion); unchanged.
-- Table 6 Pb and Cd values reproduced exactly from the source; no rounding, no unit conversion (mg/kg in source = mg/kg in wiki).
-
-## Wiki pages this source may touch
-
-- [[ingredients/herbs-and-spices]]
 - [[products/spices]]
+- [[ingredients/vanilla]]
+- [[ingredients/herbs-and-spices]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 

@@ -26,6 +26,22 @@ if [ "${HMI_SKIP_COMMIT_LOCK:-0}" != "1" ]; then
   trap release_lock EXIT INT TERM
 fi
 
+# The public homepage is a designed layout. A markdown heading or a batch-log
+# paragraph after it has shipped before; reject that before the commit lands.
+if ! node tools/audit-homepage-layout.mjs; then
+  echo "pre-commit: wiki/index.md has a heading or prose outside the designed homepage."
+  echo "  Put new sources on the topic page or family index they belong to."
+  echo "  Ledger counts stay in the corpus-counter block. Do not append a batch log."
+  exit 1
+fi
+
+if ! node tools/audit-public-batch-prose.mjs; then
+  echo "pre-commit: a published wiki page contains ingest or batch-log prose."
+  echo "  Put that note in wiki/batch-reports/. Keep reader-facing links on the page."
+  echo "  Allow a legitimate match in tools/audit-public-batch-prose.allowlist.txt."
+  exit 1
+fi
+
 if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   echo "pre-commit: wiki/sources/ touched; running routing audit..."
   if ! npm run --silent evidence:source-routes; then

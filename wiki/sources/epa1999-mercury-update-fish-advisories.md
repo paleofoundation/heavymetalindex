@@ -79,7 +79,7 @@ For product routing, this source is strongest for fresh fish and freshwater fish
 
 For regulation pages, the source explicitly cites the EPA IRIS methylmercury RfD used to build fish-consumption advisory bands. The table is source-side advisory context, not a wiki-created threshold.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]
@@ -91,11 +91,6 @@ For regulation pages, the source explicitly cites the EPA IRIS methylmercury RfD
 - [[products/fish-freshwater]]
 - [[products/seafood]]
 - [[regulations/epa-iris-methylmercury-rfd]]
-
-## Verification notes
-
-- The manual-fetch PDF is a scanned EPA copy with no embedded text; values were checked against the rendered PDF pages and the public EPA PDF landing file.
-- No DOI is assigned to this EPA fact sheet.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

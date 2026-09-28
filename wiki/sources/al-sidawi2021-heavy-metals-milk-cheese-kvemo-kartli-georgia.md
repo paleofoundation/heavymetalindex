@@ -129,9 +129,8 @@ Courses: Demonstrates the soil → pasture → animal → milk → cheese contam
 
 App: Contributes per-village raw cow's milk and traditional Georgian cheese occurrence data under a mining-adjacent contamination scenario to the [[ingredients/milk-and-dairy]] contamination profile. Per-element and per-village means with SD are usable as a regional reference for the Caucasus mining belt.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -142,24 +141,6 @@ App: Contributes per-village raw cow's milk and traditional Georgian cheese occu
 - [[metals/cobalt]]
 - [[metals/zinc]]
 - [[metals/molybdenum]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance from prior 2026-05-14 page).** The prior revision had several defects corrected here: (a) `raw_path:` was truncated to `…Kvemo Kartl.pdf` and pointed to a non-existent file; corrected to the full filename `Heavy Metal Levels in Milk and Cheese Produced in the Kvemo Kartli Region, Georgia.pdf` (verified the real file exists at that path). (b) `metals:` listed only `[Pb, Cd, Cr, Ni]`; the paper measures 11 elements (Cr, Mn, Fe, Co, Ni, Cu, Zn, Se, Mo, Cd, Pb) and the field is now complete. (c) source metadata previously listed `ingredients: [milk, cheese]`; neither slug exists in the current taxonomy. Replaced with the only valid umbrella slug `[[ingredients/milk-and-dairy]]`. No `cheese` ingredient slug exists in the taxonomy and the live cheese ingredient pages (`cheddar-cheese`, `processed-american-cheese`, `fromage-frais`, `macaroni-and-cheese`) do not match Imeruli/Sulguni; the matrices field carries the traditional-cheese specificity instead. (d) The prior body text stated the Cu EU limit was "~0.05 mg/L" — incorrect. The paper cites the European Commission Cu limit for milk as 0.4 mg/L (reference [68]); corrected in `## Key numbers` and `## Implications`. (e) The prior body misspelled the village name "Ratewani"; corrected to "Ratawani" per Table 1 and Section 4. (f) The legacy heading `## Wiki pages updated on ingest` was renamed to `## Wiki pages this source may touch` per current Part 6 template. (g) `## Key numbers` previously gave only abstract-level summaries; expanded to reproduce Tables 1, 2, 3, and 4 in full so the per-village, per-element, and t-test detail is on the page rather than only in the source PDF.
-
-**Sample size.** sample_n = 220 = 195 milk + 25 cheese, consistent with Section 2.1.
-
-**Abstract typographical anomaly preserved.** The abstract reports the Pb-exceedance individual-sample range as "0.027 to 1003 mg L⁻¹". The 1003 mg L⁻¹ upper bound is incompatible with every village mean (max 0.048 ± 0.204 mg/L in Kvemo Bolnisi) and with the cheese maxima, and is treated as a typographical error in the published abstract (likely intended 1.003 mg L⁻¹, or possibly 0.103 mg L⁻¹). Per-village means in Table 1 are authoritative. This caveat is recorded here rather than silently corrected.
-
-**Audit editorial review (2026-05-19) flagged source-internal Table 2 vs Table A1 disagreement on Se Imeruli mean.** Table 2 (p.8) reports Imeruli Se mean = 1.003 ± 0.901 mg/kg ww; Appendix A Table A1 (p.15) reports Imeruli Se mean = 0.878, SD 0.906 mg/kg ww. The Section 3.3 narrative (p.12) and the Table 3 t-test mean-difference of 2.182 are computed against the 0.878 figure (Imeruli) and 3.06 (Sulguni). Verified against the source — finding correct. The wiki page reproduces both values faithfully (Table 2 Imeruli Se 1.003 in `## Key numbers`; Table 3 t-test mean diff 2.182 derived from 0.878) because both numbers appear in the published paper and the page's purpose is to reflect what the paper reports. Downstream synthesis passes should treat this as a source-internal inconsistency to resolve rather than as a wiki defect; the Section 3.3 narrative (0.878) is the more internally consistent value because it is the one the paper's own statistical analysis is computed from. Minor source-side Mn rounding (Table 2 Imeruli 0.886 vs Table A1 0.887; Table 2 Sulguni 2.348 vs Table A1 2.35) is the same class of finding and is similarly preserved verbatim.
-
-**Brand firewall.** No consumer-brand names appear in the source paper. The methods section names instrument and equipment vendors (Agilent 7800; Naberthem L15/11 muffle furnace; IKA hot plate; IBM SPSS 27.0) and the GOST 26929-94 / ISO 17034 / NIST references; these are retained per the 2026-05-17 scientific-method exception (Check 4 of the editorial record). No brand-by-brand contamination ranking exists in the source or this page.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made. The `## Implications` section limits itself to what this single paper contributes to threshold work and explicitly does not propose certification values.
-
-**Speciation.** Paper reports total chromium without hexavalent speciation; `metals:` uses `Cr` not `Cr-VI`. No As or Hg analyses are reported in the paper.
-
-**Products field.** `products: []` is retained because no raw-cow-milk or traditional-cheese product slug exists in the current taxonomy; the Category 5 (Dairy/Eggs/Alternatives) Step 0 Lock has not yet been authored. The matrices field carries the product-form specificity (`raw-cow-milk`, `cheese`, `imeruli-cheese`, `sulguni-cheese`).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

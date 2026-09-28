@@ -91,17 +91,12 @@ Twenty-four prescription infant formulas obtained pristine and unopened from the
 - App: Powder vs ready-to-drink Al differential is a relevant stratification variable. Fruit-flavoured ready-to-drink weight-gain supplements are an outlier category in this dataset.
 - Courses: Foundational primary occurrence-data reference for infant formula Al.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-rtf-liquid-non-soy]]
 - [[products/infant-and-child-foods-master]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) removed sampled-product brand names under the locked strict Part 12 reading, corrected the stale raw PDF path, replaced nonstandard matrix terms with controlled vocabulary, removed an unsupported soy-based product route, and corrected the methods citation summary.
-- Brand names are present in the source tables, but this source page intentionally uses product-form descriptors only because no public-record regulatory event exception applies.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

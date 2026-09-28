@@ -58,12 +58,10 @@ The seafood category does not have a single cadmium distribution; it is at least
 - **Aquaculture vs wild-caught bivalve Cd.** The aquaculture-vs-wild differential well-documented for finfish ([[synthesis/aquaculture-vs-wild-contamination-differential]]) may operate differently in bivalves because farmed bivalves still filter-feed on ambient water (unlike farmed finfish which eat controlled feed). Whether farmed mussels in Cd-managed waters carry meaningfully different Cd than wild mussels in the same region needs separate characterization.
 - **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts, and viscera-inclusive products fall outside the evidence base that the muscle-only cadmium values characterize. Whole-animal or viscera-inclusive cephalopod products therefore require their own cadmium characterization rather than extrapolation from muscle-only data.
 
-## Downstream pages updated
+## Related pages
 
-- [[products/seafood]] — Levers to reduce contamination section notes bivalve-and-cephalopod water-quality screening as a sourcing lever.
-- [[products/canned-fish]] — Source Evidence Inventory cites the bivalve Cd sources where canned-bivalve products (canned mussels, canned clams, canned oysters) are in scope.
-- [[ingredients/bivalve-molluscs]], [[ingredients/molluscs]], [[ingredients/shellfish]] — Cd contamination profile and ingredient-derivative risk sections should reflect the amplification mechanism.
-- [[metals/cadmium]] — Toxicology and dietary exposure routes sections should reference bivalves as a high-load source distinct from finfish.
+These findings are also recorded on [[products/seafood]], [[products/canned-fish]], [[ingredients/bivalve-molluscs]], [[ingredients/molluscs]], [[ingredients/shellfish]], and [[metals/cadmium]].
+
 
 ## Anchor sources
 
@@ -73,14 +71,13 @@ The seafood category does not have a single cadmium distribution; it is at least
 - [[sources/rohonczy2024-arctic-foodweb-cd-hg]] — Arctic foodweb Cd/Hg evidence showing bivalves at one trophic step.
 - [[sources/cardoso2023-mercury-portuguese-coast-seafood]] — Portuguese coastal bivalve Cd/Hg survey under EU caps.
 
-## How this page was promoted
+The difference in cadmium between bivalves and finfish is long-standing in the literature. The European Union's separate cadmium caps for those groups date to Regulation (EC) No 466/2001.
 
-Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page consolidates that differential and its filter-feeding mechanism into a single literature-native reference.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -92,7 +89,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/hussein2023-freshwater-marine-fish-egypt|Risk assessment of toxic residues among some freshwater and marine water fish species]]<span class="hmi-ref-meta">Mohamed A. Hussein, Nanis S. Morsy, Abdallah F. Mahmoud, Wageh S. Darwish, Mohamed T. Elabbasy, František Zigo, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1185395](https://doi.org/10.3389/fvets.2023.1185395)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes]]<span class="hmi-ref-meta">Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M · Foods · 2026 · [doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516)</span><span class="hmi-ref-tag">Peer-reviewed</span>

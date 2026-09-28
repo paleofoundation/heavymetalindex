@@ -110,7 +110,7 @@ App: Context for environmental-source and landfill-leachate pathways where hazar
 
 Courses: Useful for teaching why environmental source data and food-occurrence data must remain separate, even when landfill sites may affect nearby farmland or water systems.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/chromium]]
@@ -120,14 +120,6 @@ Courses: Useful for teaching why environmental source data and food-occurrence d
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, study-area description, hazardous-waste source table, sampling and analytical methods, Tables 2-5, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source analyzes closed-dump solid urban waste, not foods or consumer products. Arsenic is recorded as `tAs` in source metadata because the source labels its analyte simply "arsenic" without distinguishing species; the hydride-generation method per NMX-AA-051-SCFI-2016 is selective for inorganic As and a stricter reading would justify `iAs` — flagged here so synthesis can decide.
-
-Merge-enhance 2026-06-02 (Claude, re-ingest under the v2 audit pipeline): matrices were rewritten from the original page's invented slug set (`urban-solid-waste, closed-dump, hazardous-waste, landfill-solid-sample, opencast-well` — none of which exist in the canonical matrices vocabulary surveyed across the linked reference record) to the canonical pair `[municipal-solid-waste, groundwater]`. Author character encoding restored to the Spanish-language originals (González, Domínguez-Vázquez, Israde-Alcántara). source metadata expanded with `access_url`, `raw_sha256`, `sampling_locations`, `sampling_year_range`, `wiki_doi`. Evidence tier downgraded A→B (single-site n=8 environmental characterisation with no replication is B-tier per the conventions, not gold-standard A). Added the 18-source hazardous-waste co-disposal context (paper's Table 1, omitted from the initial ingest) and a leachate-anomaly caveat on the cited Israde-Alcántara et al. 2005 leachate values (Pb 1102 mg/L etc.) which are physically implausible and should not be quoted from this paper without going back to the original. Cite-key, raw_handle, raw_path, license, DOI preserved.
-
-The cite-key `gonzalez-arqueros2021-morelia-dump-metals` is preserved per merge-enhance discipline; an earlier in-session attempt under a different cite-key was discarded once it became clear the original committed page (commit fbdb9d1) had been deleted from disk in the working tree without being staged, producing a false-negative on the initial DOI grep.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

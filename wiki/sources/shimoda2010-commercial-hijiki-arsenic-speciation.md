@@ -92,24 +92,12 @@ Commercial dried-hijiki products and two raw hijiki samples were ground to powde
 
 This source contributes primary occurrence evidence for hijiki seaweed with total arsenic and inorganic arsenic separated in the same samples. The commercial dried-hijiki products had acid-digested total arsenic from `37.1 ± 1.2` to `118.6 ± 11.3 µg As/g dw`, while water-extracted inorganic arsenic ranged from `9.2 ± 0.4` to `71.3 ± 2.0 µg As/g dw` across all nine samples. The raw and processed hijiki rows should remain on the source's dry-weight basis, and total arsenic, arsenate/arsenite, DMA, and arsenosugar peaks should not be collapsed into a single arsenic species.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1248/jhs.56.47`, raw handle `MFK_shimoda2010`, title text, or cite key `shimoda2010-commercial-hijiki-arsenic-speciation`.
-- Text was extracted to `/tmp/hmi-seaweed-058.txt` with `pdftotext -layout`; Tables 1-4, methods, Results/Discussion, and references were readable.
-- J-STAGE lists DOI `10.1248/jhs.56.47` for this article, although the local PDF text does not print the DOI.
-- All Key numbers were checked against `/tmp/hmi-seaweed-058.txt`, especially Table 1 sample descriptions, Table 3 water-extracted species values, and Table 4 total/water-extracted arsenic summary values.
-- Units and bases are preserved as `µg As/g dw`, `%`, `mgAs/l`, `µg/l`, `ml`, `min`, and `°C`; no unit conversion was performed.
-- Speciation check: acid-digested total arsenic, water-extracted total arsenic, As(III), As(V), DMA, and individual AsSug peaks are kept distinct. The page treats As(III)+As(V) as the source's water-extracted iAs and does not substitute total As for iAs.
-- Source-side consistency check: the abstract says W-iAs/A-TAs ranged from `24.5` to `60.1%`, while Table 4 reports sample 9 as `23.9%`; the table value was transcribed as printed and the discrepancy was not corrected.
-- Brand firewall: consumer brands/stores are not named. Instrument, reagent, and reference-material vendors are retained only as scientific-method context.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki product forms, production systems, and source areas remain in Key numbers while source metadata uses broad seaweed/kelp food routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

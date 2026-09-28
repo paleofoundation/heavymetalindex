@@ -89,21 +89,9 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 
 **App:** Provides total Cr occurrence ranges for seven Polish plant commodities (strawberries, apples, cucumbers, cabbage, carrots, potatoes, wheat grain) and three beverage classes (wine, beer, juices). Confidence remains low until corroborating studies are integrated — this is a single 2001 single-country survey with total Cr only.
 
-## Verification notes
-
-- Merge-enhance pass on 2026-05-19 of the prior 2026-05-14 page. The earlier version transposed two values from Table 5: Wines 90th percentile was recorded as 17 µg/L (the row's RSD) when the source value is 14 µg/L, and Beers 90th percentile was recorded as 13 µg/L (the row's RSD) when the source value is 8 µg/L. Both have been corrected against Table 5 of the original PDF.
-- Strawberries range in source Table 4 prints "61–34", which is a typographic artifact in the journal. Per the regional breakdown in Table 7, the actual species-wide range is 6 (lowest in Lubelskie) to 134 µg/kg (highest in Mazowieckie). The page records 6–134 with this reconstruction.
-- Paper-internal contradiction noted but not edited away: the abstract and Table 4 both give a wheat-grain mean of 39 µg/kg, while the discussion text on page 3 writes 37 µg/kg in the same sentence as the strawberry and cucumber means. The 39 µg/kg value is carried since two of three source locations agree on it and Table 4 is the authoritative tabulation.
-- Parallel paper-internal contradiction on potatoes: Table 4 gives a mean of 3 µg/kg while the discussion text on page 3 ("Apples, carrots, cabbages and potatoes contained smaller amounts of this element, mean values being 11, 6, 6 and 4 µg/kg respectively") and the page-4 summary ("potatoes – 4 µg/kg") both state 4 µg/kg. The page carries 3 µg/kg from Table 4 on the same Table-4-is-authoritative basis.
-- Audit editorial review (2026-05-19) flagged the Mazowieckie strawberries median (Table 7 row) as recorded "28" versus source "25"; verified against the page — the page records 25, which matches Table 7. Finding was a false positive; no change applied.
-- Paper-internal sample-count discrepancy: the abstract states 272 total samples; the Materials section reports 224 fresh edible plants plus 30 beverages (254 total). The Table 4 column sums to 223 solid samples and Table 5 sums to 30 beverages (253). `sample_n` is carried at the abstract's stated 272 with this discrepancy documented; no resolution is given in the source.
-- Speciation discipline: this study measures total chromium by ZETAAS. The page records `metals: [Cr]`, not `Cr-VI`. Cr(VI) requires explicit speciation (typically ion chromatography or co-precipitation), which this paper does not perform.
-- Brand firewall: the source describes wines, beers, and juices as "purchased on the domestic market" with country-of-provenience grouping (Polish, European), and notes "large differences in Cr levels detected, even between food products of the same brand," without naming any commercial brand. No brand-firewall edits were required.
-- Wiki/HMTc firewall: page reports occurrence values and methodological context only. No threshold proposals or HMTc-alignment claims.
-- Products field expanded on this pass beyond the prior `[[products/fresh-fruit]]` to add `root-tuber-vegetables`, `non-root-vegetables`, `fruit-juice-not-canned`, and `fermented-beverages-non-tea-based`, all from the current taxonomy snapshot. The routing layer fans the source out to its sibling product pages.
-- Matrices normalized to the system-prompt vocabulary: `root-vegetable`, `leafy-vegetable`, `cereal-grain`, `fruit-juice`, `wine`, `beer` replace the prior less-canonical `fresh-vegetable`, `grain`, `beverages` triple.
-
 ## Related evidence
+
+- [[products/fresh-fruit]]
 - [[metals/chromium]]
 - [[ingredients/strawberries]]
 - [[ingredients/apples]]

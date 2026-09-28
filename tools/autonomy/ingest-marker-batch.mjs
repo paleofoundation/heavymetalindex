@@ -256,12 +256,14 @@ created_by: autonomy_v0
 
 <One paragraph covering certification, courses, app, and microbiome relevance where applicable.>
 
-## Wiki pages updated on ingest
+## Related evidence
 
 - [[metals/<slug>]] for each metal
 - [[ingredients/<slug>]] for each ingredient
 - [[products/<slug>]] for each product
 - [[regulations/<slug>]] for each named regulation if any
+
+Do not add a Verification notes, Ingest log, or Wiki pages updated on ingest section. Identity checks, file paths, and audit verdicts go in wiki/batch-reports/, which is not published.
 
 CRITICAL RULES
 - cite_key MUST be exactly: ${citeKey}

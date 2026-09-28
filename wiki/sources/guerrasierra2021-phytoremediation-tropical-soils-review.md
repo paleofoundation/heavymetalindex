@@ -112,7 +112,7 @@ App: No `contamination_profile` blocks are touched by this source. No food, ingr
 
 Microbiome: The review touches arbuscular mycorrhizal fungi (AMF) and plant-growth-promoting rhizobacteria (PGPR) interactions with soil heavy metals (pages 7, 13), including the reduction of mycorrhizal colonisation in glyphosate-treated plants and the suppression of microbial biomass by ZnO, TiO₂, and Fe₂O₃ nanoparticles. Tag for WikiBiome federation review of soil-microbiome-metal interactions; this source is secondary and would only be used as a literature signpost, not as primary evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -124,18 +124,6 @@ Microbiome: The review touches arbuscular mycorrhizal fungi (AMF) and plant-grow
 - [[metals/zinc]]
 - [[metals/aluminum]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-The PDF DOI `10.3390/su13052574` is open-access under CC BY 4.0 (MDPI Sustainability). All numeric values reported in this page are taken from the explicit figures in the review's tables or body text and carry page references. Because this is a secondary review, regulatory limits and source attributions reproduced here (Table 3, Table 4, country-specific As/Hg permits) should be re-verified against their original references — Tutic et al. [66], Tóth et al. [67], Caviedes Rubio et al. [54], Aprile et al. [48] — before being treated as authoritative for HMT&C threshold work or course content.
-
-Evidence-tier set to B rather than A because the document is a narrative review without inclusion criteria or systematic methodology, even though Sustainability is a peer-reviewed journal. No primary measurements are produced; the document is a structured synthesis of other reviews and primary studies.
-
-source metadata `metals:` includes tAs (not iAs) and tHg (not MeHg) because the review does not distinguish arsenic species or mercury species when reporting regulatory limits or hyperaccumulator concentrations; Cr (not Cr-VI) for the same reason. Aluminum appears because the review discusses aluminum oxides in tropical soils, but Al is not a primary remediation target in the cited examples. Zinc and copper appear because they figure prominently in both source-metal pairings and hyperaccumulator examples even though they are not HMT&C-program analytes; they support educator and supply-chain content.
-
-No brand names are quoted from the source (the review does not name product brands). Instrument vendors and reference materials are not described, since the document reports no analytical methods of its own.
-
-2026-06-02 audit (fresh-context editorial review, ingest-next-manual-fetch-pdf v2 skill, Phase 3 apply): verdict PROMOTE. All 5 checks clean; 3 advisory concerns reviewed. (a) Audit editorial review flagged the Colombian Caribbean carbon figure "0.5–1%" as potentially mis-normalized from a "g/kg" source value — verified against PDF p. 3: source explicitly reports "between 0.5–1%", not "g/kg"; finding was a false positive (likely a PDF-render symbol-confusion artifact). (b) Audit editorial review suggested adding "(as reported in source)" hedge to the worldwide-soil Fe range "20 to 550 g/kg" because it appears anomalously high — verified against PDF p. 3: range is reproduced verbatim from the source as the source reports it (ref [36]); the figure is plausible for Fe-rich tropical oxisols (≈2–55% Fe by mass) and the wiki page already attributes it to the source's page. No hedge added; the verbatim citation is the faithful representation. (c) Auditor questioned whether `supply-chain/soil-to-plant-transfer` is a real wiki page — verified: the linked reference record exists in the corpus. No content changes from this audit pass; verification-note record only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

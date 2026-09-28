@@ -115,7 +115,7 @@ App: Contributes Brazil-market context for personal-care soaps and one powder la
 
 Microbiome: No microbiome data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/bathing-soaps]]
 - [[products/laundry-detergents]]
@@ -125,18 +125,6 @@ Microbiome: No microbiome data.
 - [[metals/magnesium]]
 - [[regulations/anvisa-rdc-44-2012]]
 - [[regulations/ec-cosmetics-regulation-1223-2009]]
-
-## Verification notes
-
-- Bibliographic metadata verified from the article header on page 1 and the journal masthead: DOI 10.21577/0103-5053.20230164, J. Braz. Chem. Soc. 35(4), e-20230164, 1-10, copyright 2024 Sociedade Brasileira de Quimica, submitted March 31, 2023, published online October 11, 2023, authors Torres, Nunes, de Paula and Paim (Departamento de Quimica Fundamental, Universidade Federal de Pernambuco, Recife-PE, Brazil), corresponding author ana.paim@ufpe.br. The footer of page 1 carries the Creative Commons Attribution License notice.
-- Paper-internal discrepancy on recovery range. The abstract states recoveries of 83 to 119 percent; the Conclusions section states 79.0 to 118.6 percent; Table 4 values range from 82.3 to 112 percent (with the maximum recovery being Mg 1.0 mg/L in J6 at 112 percent and the minimum being Zn 1.0 mg/L in J1 at 83.0 percent). The wiki uses Table 4 as the authoritative tabulated range and notes the abstract/conclusions text as an internal mismatch; not silently corrected.
-- The abstract states "average hydrodynamic diameter of 525 nm" while the body text gives the principal-peak average in 1 mol/L HNO3 as 524.9 nm (which is the figure quoted here). The abstract's value is the same to three significant figures.
-- Authors do not name brand identities for the nine samples. Sample J labels are retained because they are the source's anonymous identifiers, not brand names. Product-form descriptors (face, mixed-skin, body moisturizer, antibacterial, bar, liquid, powder detergent) are taken directly from the source's own descriptive sentences and carry no brand attribution.
-- The paper reports magnesium and zinc as quantitative concentrations and cadmium and lead as below-LOD. Magnesium is not a Part 14 priority heavy metal but is retained in the source metadata `metals:` list because a magnesium page exists in the wiki and the per-sample magnesium values are needed to interpret why J6 (a body moisturiser) sits at a 20-fold higher level than the other samples.
-- Provisional product scaffolds: `[[products/bathing-soaps]]` is currently a provisional scaffold per the 2026-06-02 ingest of oviri2024-nigeria-bathing-soaps-metals. `[[products/laundry-detergents]]` is the existing locked product page. Neither is modified by this ingest; routing is the responsibility of the routing audit.
-- Missing-slug proposals (Check 2 audit response, 2026-06-03): `[[regulations/anvisa-rdc-44-2012]]` (Brazil ANVISA Resolução RDC No. 44/2012, Regulamento Técnico Mercosul on permitted colourant substances for personal-care products, cosmetics and perfumes) and `[[regulations/ec-cosmetics-regulation-1223-2009]]` (Regulation (EC) No. 1223/2009 of the European Parliament and of the Council on cosmetic products) are both cited as regulatory comparators in this paper but do not yet exist as wiki regulation pages. Flagging here as candidates for the regulations directory; not creating the pages in this ingest cycle.
-- Matrices vocabulary note (Check 2 audit response, 2026-06-03): the matrices values `cosmetic-personal-care`, `laundry-detergent` and `household-cleaning-product` extend the food-focused common-matrices list documented in the editorial record. The same three terms are used in `abulude2007-soaps-detergents-akure-nigeria` for the analogous Nigerian soap-and-detergent panel, so this is established usage in the source corpus rather than novel invention; flagged here for completeness.
-- Evidence Fitness: EF-2 / methodologically rigorous small-panel occurrence study. Limitations: n=9, single metropolitan market, Pb LOD (0.5 ug/g) too high to characterise low-level Pb occurrence, Cd LOD (0.015 ug/g) competitive with comparable studies, and only four metals analysed (Cd, Mg, Pb, Zn) so the page contributes no As, Ni, Cr, Co, Cu, Fe, Mn, Hg, Sb, Sn or Al data for these product classes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

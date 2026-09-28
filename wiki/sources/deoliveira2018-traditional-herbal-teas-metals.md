@@ -57,7 +57,7 @@ Courses: The source is useful for teaching why tea evidence needs both dry-produ
 
 App: The source can support `tea`, `camellia-sinensis`, and `herbal-botanicals` contamination-profile context for Al, tAs, Cd, Cr, and Pb, with a US-market sampling frame and mixed declared product origins.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/arsenic-total]]
@@ -71,15 +71,6 @@ App: The source can support `tea`, `camellia-sinensis`, and `herbal-botanicals` 
 - [[products/herbal-botanical-infusions]]
 - [[products/tea]]
 - [[products/tea-infusions]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_567.txt`; the abstract, Sections 2.1-2.4, Results text, Table 1, Table 2, Table 3, and Conclusion were checked against this page.
-- DOI `10.1016/j.scitotenv.2018.03.215`, raw handle `MFK_metal-concentrations-in-traditional-and-herbal-teas`, and cite-key path the linked reference record were checked before creation; no existing source page was found.
-- Units are copied as printed: dry tea values in `mg kg-1`, Al infusion values in `mg L-1`, and As/Cd/Cr/Pb infusion values in `µg L-1`. No conversions were performed.
-- Speciation: As is total arsenic and Cr is total chromium. The page does not promote tAs to iAs or Cr to Cr(VI).
-- Brand firewall: Table 1-3 name individual tea brands/products. This page reports tea-type and category-level values only and omits brand names.
-- source metadata slugs were checked against the editorial record; `herbal-tea` and `tea-infusion` are matrix descriptors rather than product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
