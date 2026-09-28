@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Auto-link orphan pages from per-category index files.
 //
-// CLAUDE.md Part 10: "New pages must be linked from index.md on creation.
-// They must also be linked from at least one parent category page (metal,
-// ingredient, product, regulation, testing method) or they become orphans.
-// Lint catches orphans, but prevention is cheaper than detection."
+// CLAUDE.md Part 10: new pages are linked from their family index
+// (wiki/<family>/index.md), never by appending prose to the public homepage.
+// They must also be linked from at least one parent topic page or they become
+// orphans. Lint catches orphans, but prevention is cheaper than detection.
 //
 // This tool finds pages in wiki/products, wiki/ingredients, wiki/metals,
 // wiki/regulations that aren't referenced from the corresponding

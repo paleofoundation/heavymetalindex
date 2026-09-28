@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-28] lint | homepage-layout: remove public batch logs
+
+Pages touched: [[index]]
+Notes: Removed two batch-log sections that sat after the designed homepage: geographic variation and remediation literature (added in the 2026-09-10 Library drain, a0235db5a) and baby lotion, oil, and powder sources (added in PR 170). The sources were already linked from their product, ingredient, metal, mitigation, and synthesis pages. `tools/audit-homepage-layout.mjs` now fails CI, pre-commit, and prebuild if a markdown heading or other prose appears outside the designed homepage. Ingest instructions now say to link new pages from the family index or topic page, not the homepage. Direction: toward the literature. No evidence claim was rewritten.
+
 ## [2026-09-27] batch | karen-batch-2026-09-26: state-of-food repository counts
 
 Pages touched: [[reports/state-of-heavy-metals-in-food-2026]]

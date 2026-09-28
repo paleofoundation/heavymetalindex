@@ -16,6 +16,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { homepageLayoutViolations } from "./audit-homepage-layout.mjs"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -191,6 +192,14 @@ const metalBlock = renderMetalRegistry()
 upsertHomepageBlock(homepagePath, block)
 upsertFeatureGridBlock(homepagePath, featureBlock)
 upsertMarkerBlock(homepagePath, metalBeginMarker, metalEndMarker, metalBlock)
+const homepageViolations = homepageLayoutViolations(fs.readFileSync(homepagePath, "utf8"))
+if (homepageViolations.length) {
+  for (const v of homepageViolations) {
+    console.error(`build-corpus-counter: wiki/index.md:${v.line}: ${v.message}`)
+  }
+  console.error("build-corpus-counter: refused to leave prose outside the designed homepage. Marker blocks only.")
+  process.exit(1)
+}
 console.log(
   `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
 )
