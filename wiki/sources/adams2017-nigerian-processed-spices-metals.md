@@ -55,19 +55,13 @@ App: Broad spice-category routing is appropriate; the paper does not provide eno
 
 Microbiome (if applicable): The paper reports microbial counts for suya and pepper-soup spices, but it does not study human or food-system microbiome effects.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF title, byline, DOI, year, journal, methods, and Table 5 values were read from the auto-fetched PDF. The routeable metals are total Pb, Cd, Cr, and Ni as reported by AAS; the source does not provide chromium speciation and does not report whether Pb non-detects reflect a specific detection limit.
-
-The paper has internal inconsistencies between Table 5 and the Discussion/Conclusion body text. Table 5 reports standard-limit values of 0.20 mg/kg (Cd) and 1.63 mg/kg (Ni), while the Discussion body text states the limits as 0.02 mg/kg (Cd) and 0.163 mg/kg (Ni); the Discussion also gives a single Cd figure of 0.426 mg/kg (the unweighted mean across the four spices) and the Conclusion cites suya-spice nickel as 3.223 mg/kg where Table 5 shows 3.258 mg/kg. The wiki page cites Table 5 values throughout because the table is the primary data report; the inconsistencies are flagged here so a future auditor does not mistake them for wiki transcription errors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

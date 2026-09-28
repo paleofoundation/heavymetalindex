@@ -62,7 +62,7 @@ Courses: Useful source-attribution and supply-chain context for explaining how p
 
 App: Context only. The source can inform upstream soil-risk narratives for Jambi plantation landscapes, not finished-product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -74,12 +74,6 @@ App: Context only. The source can inform upstream soil-risk narratives for Jambi
 - [[metals/iron]]
 - [[metals/titanium]]
 - [[metals/vanadium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured soil fertility and soil metals rather than palm-oil occurrence. On reading, it is in-scope a3 soil-pathway and source-attribution context for palm, mixed plantation, forest, and vegetable land-use soils.
-
-Numbers were checked against the abstract, sampling methods, Table 1, regression prose, and conclusion in the extracted PDF. The source does not report As, Cd, Pb, food, crop, or finished-product concentrations. Products and ingredients are intentionally empty. `agricultural-soil`, `plantation-soil`, and `ultisol` are descriptive matrix terms for this soil-only pathway page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

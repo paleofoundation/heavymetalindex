@@ -55,17 +55,9 @@ Courses: The paper is useful for showing how the same cosmetic matrix can requir
 
 App: The source supports eye-makeup contamination profiles for Pb, Cd, Co, Cr, and Ni, with a clear note that the highest lead and nickel values were associated with origin-country/color context rather than named brands.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/eye-makeup]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1586.txt`; Tables 1 and 3 plus the Methods were re-read before writing.
-- Identity checks before creation: DOI `10.1016/j.microc.2011.10.008`, raw handle `MFK_volpe2012`, raw SHA-256 `23996b57850f4ac5d72faa36ba086c47882024b463e36652223b18a9dc4472e0`, and cite key `volpe2012-eye-shadow-cosmetics-metals` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved exactly as printed: Pb in `µg g-1 wet weight`, Cd/Co/Cr/Ni in `ng g-1 wet weight`.
-- Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
-- Brand firewall: sample group/brand identifiers are not used to create brand claims; values are summarized at eye-shadow product level.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

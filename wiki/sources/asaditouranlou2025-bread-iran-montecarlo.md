@@ -85,7 +85,7 @@ Courses: The paper is useful for teaching probabilistic risk assessment and the 
 
 App: The page can support occurrence-context displays for Iranian bread products, with clear labels for dry-weight basis, province-level sampling, and the distinction between total Cr/tHg and any species-specific analyte.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/cadmium]]
@@ -101,16 +101,6 @@ App: The page can support occurrence-context displays for Iranian bread products
 - [[ingredients/non-rice-grains]]
 - [[ingredients/bread]]
 - [[products/bread-and-baked-goods]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Corrected the overall Zn mean to Table 1's 13.64 +/- 4.94 mg/kg; the abstract and Table 2 print 13.6 +/- 44.94, which conflicts with Table 1 and with the bread-type distribution.
-- Corrected the regulatory-comparator summary to follow Table 2: Cd exceeds the source's WHO/FAO comparator but remains below the INSO comparator; the source's abstract, results, discussion, and conclusion describe the exceedance set inconsistently.
-- Replaced older HMTc-threshold and cross-source-comparison phrasing with source-only implications for standards work, courses, and app context.
-- Identity-check note: this page is the Scientific Reports 2025 national Iranian-bread study (n=248, no arsenic analyte); it is distinct from the local page `asaditouranlou2025-bread-wheat-mashhad`, which covers a different Asadi Touranlou et al. 2025 bread/flour study.
-- Fresh-context audit (Codex, 2026-05-18) returned REVISE with two prose concerns; generalized the software name in the opening paragraph and moved the companion-study disambiguation from the main summary to verification notes.
-- Strict brand-firewall check: no consumer brands are named; instrument, reagent, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -59,7 +59,7 @@ Representative canned fish samples were randomly purchased from retail outlets i
 
 This source contributes China-market canned-fish occurrence evidence for Cd, total Cr, Cu, Fe, Pb, elemental Sn, and Zn on a wet-weight basis. It is especially relevant to canned-fish Cd because sardines and yellow croaker exceeded the source-cited Chinese maximum level. The mixed species list includes marine fish and dace, so fish-row routing is broad context until species-specific row fit is resolved. The chromium result is not Cr(VI)-specific, and the tin result is elemental tin rather than organotin.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/tinned-fish]]
@@ -74,15 +74,6 @@ This source contributes China-market canned-fish occurrence evidence for Cd, tot
 - [[metals/lead]]
 - [[metals/tin]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title/DOI page, methods, Tables 1-4, discussion, conclusion, and references.
-- DOI verified from the first page as `10.14233/ajchem.2014.16225`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 3 and Table 4 values were checked against the extracted text. Units are copied as `mg/kg, wet weight` and weekly intake units as printed; no conversion was made.
-- Speciation: chromium is total Cr. Tin is reported as elemental Sn, not TBT/DBT/organotin. The source does not report Hg, MeHg, As, iAs, Cr(III), or Cr(VI).
-- The source prints the table column as `Trichiuru shaumela` while the methods text uses `trichiurus haumela`; the Table 3 column heading is preserved in the key-number table.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

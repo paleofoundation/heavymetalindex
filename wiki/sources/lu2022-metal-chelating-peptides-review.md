@@ -65,18 +65,6 @@ This is a narrative review. Lu and Dong compile findings from primary literature
 
 The peptide-metal coordination chemistry described in this review — binding of metal ions to amino groups, carboxyl groups, imidazolyl groups of histidine, sulfhydryl groups of cysteine, and amide carbonyl oxygens — applies in principle to toxic metals such as Pb²⁺, Cd²⁺, and Hg²⁺, which also coordinate to nitrogen-, oxygen-, and sulfur-donor ligands. The review is therefore useful as background context for primary studies on heavy metal binding by food protein hydrolysates and on whether dietary protein matrices alter heavy-metal bioavailability, but the review itself reports no measurements on toxic-metal binding and should not be cited as evidence for any HMI standard.
 
-## Verification notes
-
-- PDF read in full (8 pages) via the Read tool; abstract, body sections, Table 1, and references all reviewed.
-- DOI `10.53388/FH20221101019`, raw handle `MFK_47-research-progress-of-metal-chelating-peptides`, and cite-key `lu2022-metal-chelating-peptides-review` checked against the linked reference record; no existing page.
-- The paper is open access under CC-BY 4.0 per the title page; recorded as `license: cc-by-4.0`.
-- Metals discussed are Ca, Fe, Zn, Cu — all essential elements in the paper's framing. None of HMI's 10 HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) are measured or reviewed; `metals:` is therefore `[]`. Iron and copper have wiki metal pages but are not the contamination focus here.
-- The paper reports binding constants, chelation rates, molecular weight ranges, and peptide sequences, not contamination occurrence in food matrices; `ingredients:` and `products:` are therefore `[]`. The protein sources cited (cod bone, deer bone, walnut meal, sesame protein, β-lactoglobulin, etc.) are framed as carrier feedstocks for nutritional supplement manufacture, not as products in which HMI heavy metal contamination is being measured. Routing this source to ingredient or product pages would be misleading.
-- `matrices: [protein-hydrolysates, review-context]` records what the paper actually concerns at the matrix level.
-- `jurisdictions: [GLOBAL]` because the review compiles international literature.
-- Brand firewall: no brand names appear in the review (instrument vendors such as IMAC column types are method components, not brand attributions to contamination values).
-- Wiki/HMTc firewall: no synthesis claims about contamination thresholds or HMTc standards were imported from the review.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -51,7 +51,7 @@ This is a non-food, adult nickel-contact node — body-piercing posts and studs 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/lgc2003-nickel-piercing-post-assemblies|Risk of sensitisation of humans to nickel by piercing post assemblies]]<span class="hmi-ref-meta">LGC Limited · Final Report submitted under EC Contract ETD/FIF.2001592 · 2003</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>

@@ -65,7 +65,7 @@ App: Supports context for chicken/poultry meat values only at low confidence bec
 
 Microbiome: No microbiome data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[ingredients/chicken]]
@@ -75,12 +75,6 @@ Microbiome: No microbiome data.
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- DOI, title, authors, journal, year, and page range were verified from the PDF first page: Basrah Journal of Agricultural Sciences 33(1): 159-171, 2020; DOI `10.37077/25200860.2020.33.1.12`.
-- The PDF filename and wishlist route imply a cumin/Ni ingredient lead, but the concentration table is in broiler breast and thigh meat. The source page therefore routes to poultry/chicken and records cumin only as the dietary intervention.
-- Evidence Fitness: EF-2 / routeable experimental food-matrix concentration evidence for broiler meat. Limitations: experimental diet design, small group structure, no LOD/LOQ, no instrument named for minerals, and no retail-market sample frame.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

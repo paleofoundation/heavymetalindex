@@ -67,15 +67,6 @@ Seafood intake data were collected by face-to-face dietary-history and food-freq
 
 This source provides Chinese coastal-market occurrence evidence for seafood, fish, shellfish, crustaceans, and edible algae/seaweed. It is useful for routing broad seafood evidence and for preserving fish-versus-shellfish-versus-seaweed matrix distinctions. Because the source measured total Hg and total As only, the occurrence values should remain `tHg` and `tAs`; the assumed MeHg/InAs fractions belong to exposure-risk context and should not be treated as measured speciation.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, participant/sampling methods, analytical methods, intake Table 1, occurrence Table 2, standards Table 3 footnotes, and Table 4 risk labels were checked in `/tmp/f3_unrepresented_texts/zhao2016.txt`.
-- DOI `10.1007/s11356-016-6817-8`, raw handle `MFK_zhao2016`, and cite-key searches found no existing source page before creation.
-- Table 2 values are copied in `mg/kg, w.w.` as printed. The *Porphyra tenera* dry-weight footnote is documented rather than normalized.
-- Speciation: occurrence measurements are total Hg and total As. The source's modeled MeHg and InAs assumptions are recorded in Key numbers but not promoted to source metadata as measured MeHg/iAs.
-- Brand firewall: no sampled seafood brands were reported.
-- source metadata slugs were checked against the editorial record; narrow species slugs are absent, so broad seafood/fish/shellfish/seaweed routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

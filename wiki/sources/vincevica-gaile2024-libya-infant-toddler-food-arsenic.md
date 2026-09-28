@@ -76,7 +76,7 @@ Courses: Useful for teaching why rice-containing infant foods are monitored sepa
 
 App: Can inform market- and ingredient-aware arsenic priors for infant/toddler foods, especially rice-containing cereal products sold in Libya.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-rice-cereal]]
 - [[products/infant-cereal]]
@@ -88,10 +88,6 @@ App: Can inform market- and ingredient-aware arsenic priors for infant/toddler f
 - [[ingredients/wheat]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-This page was built from the PDF title/byline, abstract, methods, Tables 1-4, discussion, and conclusions. The source uses `tAs` because ICP-MS total arsenic was reported without arsenic speciation. The Table 4 heading says "ITF-wheat" in the PDF, but its section title, row labels, and discussion identify the table as rice-containing ITF; this page records it as ITF-rice and notes no change to source values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

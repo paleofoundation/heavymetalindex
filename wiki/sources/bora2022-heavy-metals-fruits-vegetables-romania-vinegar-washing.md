@@ -172,25 +172,11 @@ National (Romanian) maximum allowable limits (MAL; M.Of 173/13 March 2002) and E
 
 **App.** Useful as Romanian-baseline data for tomato, cucumber, beans, zucchini, cabbage, lettuce, parsley, celery, garlic, onions, potatoes, carrot, apple, pear, grapes, plums, strawberries, raspberries, watermelon, and (as wash-treatment evidence) vinegar. Fresh-weight basis; relevant for ingredient `contamination_profile` Romanian-region entries during the Part 9 synthesis pass.
 
-## Verification notes
+## Related evidence
 
-Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original PDF (Manual Fetch source-retrieval / condiment_papers / 02_Vinegars). Changes:
-
-- `raw_handle` corrected from generic `manual-fetch-source-retrieval` to canonical `MFK_quantification-and-reduction-in-heavy-metal-residu`.
-- `raw_path` corrected from truncated `…Some Frui.pdf` to the actual filename ending `…A Case Study Gal.pdf`.
-- `license` clarified from `CC BY` to `CC BY 4.0` (article footer specifies version).
-- `access_url` and `raw_sha256` added.
-- Ingredient slug list rewritten to canonical taxonomy: `tomatoes`→`tomato`, `strawberry`→`strawberries`, `onion`→`onions`, `potato`→`potatoes`; added missing measured commodities (cabbage, lettuce, parsley, celery, raspberries, watermelon, pear, plums). `garlic` and `zucchini` declared via their alias resolution (garlic → onions, zucchini → squash). `vinegar` retained as the washing-reagent commodity touched by the paper's mitigation arm.
-- Product slug list expanded from `fresh-fruit` only to the four locked HMTc rows touched: `fresh-fruit`, `non-root-vegetables`, `root-tuber-vegetables`, `leafy-vegetables-other`.
-- `sample_population` expanded to itemize the 21 commodities, the market/amateur split, the collection window, and the three Galați County localities.
-- Key numbers section was previously a 3-paragraph thin summary with the phrase "not fully extracted; large table". Replaced with full Table 1 transcription (per-commodity As/Cd/Pb/Zn, market vs amateur, mean ± SD), pooled category means for all four metals, Tables 2–3 transcriptions for 5% and 10% vinegar arms, Tables 4–6 pooled reduction summaries, and Figures 1–3 percent-reduction breakdowns including the highest per-commodity reductions (As 93% tomato, Cd 93% tomato, Pb 100% red cherry tomato at 10%).
-- Methods section expanded from one paragraph to subsection-organized detail: collection, prep, digestion, instrumentation, isotopes monitored (with explicit ⁷⁵As-only no-speciation flag → tAs in `metals`), calibration/QC, LoD/LoQ, statistics. Vendor/material names retained per Part 12 Exception 2 (instrument, reference material, software, digestion equipment).
-- Implications rewritten as Certification/Courses/App structure per Part 6 template, removing the legacy `[[mitigation/washing-decontamination]]` and `Wiki pages updated on ingest` section (page does not exist; routing layer handles fan-out).
-- Brand firewall: paper names no commercial brands in measured-contamination context; the vinegar wash reagent is described generically ("white-wine vinegar available in any grocery store"). No Part 12 violations introduced.
-- HMTc firewall: no threshold proposals; observation-data only. The Codex As/Pb exceedance flags are the paper's own regulatory framing, not synthesis claims.
-- Speciation discipline: ⁷⁵As measured (total As, no iAs/MMA/DMA/AsB speciation), so `metals` uses `tAs`, not `iAs`. Zn included as the paper's microelement, treated here as an additional analyte without speciation.
-
-Auto-audit editorial review (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: the linked reference record declares `aliases: [onion, garlic, allium-vegetables]` and the linked reference record declares `aliases: [zucchini]`; the routing audit script (the editorial record line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
+- [[mitigation/washing-decontamination]]
+- [[ingredients/garlic]]
+- [[ingredients/zucchini]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

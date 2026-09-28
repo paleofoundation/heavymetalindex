@@ -80,11 +80,16 @@ Quality control used IAEA-407 herring/capelin/anchovy fish-flesh certified refer
 
 ## Implications for wiki use
 
-This page contributes a large-n (2572) regulatory-grade occurrence dataset for canned and pre-cooked tuna product from the eastern Pacific, sampled under ISO/IEC 17025 conditions over 8 years. The dataset is especially useful as broad context for the canned-fish and marine-predatory-fish product categories: it documents that the central tendency of canned tuna in this region runs well below EU comparator limits, that the within-category spread reaches the comparator (Hg max 1.49 mg/kg; Pb max 0.92 mg/kg), and that exceedances are concentrated in bigeye (a mesopelagic species) for Hg and Pb but in skipjack for Cd. Because the dataset is product-level (canned, pre-cooked loins) rather than species-level for the majority of samples, the routing layer should treat this source as broad evidence for canned-fish / fish-marine-predatory occurrence and as exposure context for tHg, Cd, and Pb on the metal pages; it is not a species-resolved dataset of the kind needed to update species-specific contamination profiles.
+This page contributes a large-n (2572) regulatory-grade occurrence dataset for canned and pre-cooked tuna product from the eastern Pacific, sampled under ISO/IEC 17025 conditions over 8 years. The dataset is especially useful as broad context for the canned-fish and marine-predatory-fish product categories: it documents that the central tendency of canned tuna in this region runs well below EU comparator limits, that the within-category spread reaches the comparator (Hg max 1.49 mg/kg; Pb max 0.92 mg/kg), and that exceedances are concentrated in bigeye (a mesopelagic species) for Hg and Pb but in skipjack for Cd. Because the dataset is product-level (canned, pre-cooked loins) rather than species-level for the majority of samples, read this source as broad evidence for canned-fish / fish-marine-predatory occurrence and as exposure context for tHg, Cd, and Pb on the metal pages; it is not a species-resolved dataset of the kind needed to update species-specific contamination profiles.
 
 The retail-survey subset (n=9, 5 anonymized product groups) is too small to anchor any percentile statement on its own but provides corroborating low-end context.
 
-## Wiki pages this source may touch
+## Sources
+
+- Ormaza-Gonzalez FI, Ponce-Villao GE, Pin-Hidalgo GM. 2020. "Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific." *Heliyon* 6:e04576. DOI: 10.1016/j.heliyon.2020.e04576.
+- Manual-fetch PDF: the archived source file (SHA-256 `4e1bcae61ab033f68704f9d48c92ef4979ef5f927b074e58c6f6b756bc34cf28`).
+
+## Related evidence
 
 - [[ingredients/canned-tuna]]
 - [[ingredients/fish]]
@@ -98,20 +103,6 @@ The retail-survey subset (n=9, 5 anonymized product groups) is too small to anch
 - [[metals/lead]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/ecuador-nte-inen-184-2013-canned-tuna]]
-
-## Sources
-
-- Ormaza-Gonzalez FI, Ponce-Villao GE, Pin-Hidalgo GM. 2020. "Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific." *Heliyon* 6:e04576. DOI: 10.1016/j.heliyon.2020.e04576.
-- Manual-fetch PDF: the archived source file (SHA-256 `4e1bcae61ab033f68704f9d48c92ef4979ef5f927b074e58c6f6b756bc34cf28`).
-
-## Verification notes
-
-- 2026-06-03 Claude fresh ingest from `manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory`. Numbers cross-checked against Abstract, Table 1, Figure 2, and the exceedance counts paragraph in Section 3.
-- Brand firewall (Part 12): the source mentions that the retail survey sampled "5 main brands" purchased in Guayaquil but does not name them; this page reports the retail-survey aggregate (n=9, 5 product groups) without brand attribution.
-- Analyte speciation: Hg method is cold-vapor AAS on total digest (no MeHg speciation), so `metals: [tHg]` rather than `[MeHg]` or `[tHg, MeHg]`.
-- The paper's filename mentions "Eastern Pacific" - the work is on Ecuadorean canneries processing eastern-Pacific catches; jurisdictions tag retains EC (Ecuador, production and retail) and EU (the regulatory comparator under which the dataset was generated for export QA).
-- The paper engages only EU Commission Regulation 1881/2006 and FDA as comparator frameworks; it does not cite Ecuador NTE INEN 184:2013. The `[[regulations/ecuador-nte-inen-184-2013-canned-tuna]]` cross-link in the touch-points section is therefore jurisdictional context (this is the Ecuadorian rule that applies to the product category the paper studies), not a regulation the paper itself analyzes.
-- 2026-06-03 editorial review editorial review (fresh context) verdict: PROMOTE. 5/5 checks clean. One minor polish applied: clarified NTE INEN 184 cross-link as jurisdictional context per the editorial review's Check 2 note.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

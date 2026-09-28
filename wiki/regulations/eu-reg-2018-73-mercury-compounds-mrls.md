@@ -48,15 +48,10 @@ The regulation is directly applicable EU law and entered into force on the twent
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 
-## Verification notes
-
-- Created 2026-05-18 during Codex manual-fetch ingest because a source page cited EU Regulation 2018/73 as the 10 ug/kg rice comparator and no regulation page existed.
-- The official EUR-Lex PDF table lists `0500000 CEREALS 0,01 (*)`; rice appears as commodity code `0500060` within that cereals group.
-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/enamorado-montes2021-mercury-rice-colombia-mojana|Mercury Accumulation in Commercial Varieties of Oryza sativa L. Cultivated in Soils of La Mojana Region, Colombia]]<span class="hmi-ref-meta">Enamorado-Montes G, Reino-Causil B, Urango-Cardenas I, Marrugo-Madrid S, and Marrugo-Negrete J · Toxics 9(11):304 · 2021 · [doi.org/10.3390/toxics9110304](https://doi.org/10.3390/toxics9110304)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->

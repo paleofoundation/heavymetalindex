@@ -46,21 +46,13 @@ Courses: Useful for illustrating the difference between consumer-product occurre
 
 App: Can inform cosmetics risk context without brand-level disclosure.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/face-neck-leave-on-skin-care]]
 - [[products/body-hand-leave-on-skin-care]]
 - [[products/facial-cleansers]]
 - [[products/toothpaste]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-Brand identity was anonymized in the source (samples S1 to S42); this page summarizes category-level evidence only.
-
-The paper's narrative describes the S20 toothpaste as exceeding the EU limit, but the table footer cites the EU cosmetics limit as 1 ppm (1000 ng/g) and S20 measured 141.596 ng/g, which is well below that ceiling. This internal inconsistency in the source is preserved here, not corrected silently.
-
-Eye makeup, lipstick, and skin-lightening creams are discussed in the paper's introduction and literature review but were not among the six categories actually sampled; routing to those product pages would misrepresent the evidence and is omitted.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

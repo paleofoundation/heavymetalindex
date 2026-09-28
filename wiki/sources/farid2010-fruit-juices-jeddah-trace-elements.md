@@ -74,7 +74,7 @@ Instrument: Varian Spectra AA 30P graphite-furnace AAS with deuterium background
 
 **App:** No usable Pb, Cd, iAs, or tHg data. Ni present at low single-digit ppb (~5.7–6.2) across all three juice types; Cr present at low single-digit ppb (~5.9–7.6) across all three juice types.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/apple-juice]]
 - [[ingredients/orange-juice]]
@@ -84,21 +84,7 @@ Instrument: Varian Spectra AA 30P graphite-furnace AAS with deuterium background
 - [[products/fruit-juices-non-apple]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-2026-05-20 merge-enhance pass against the original PDF:
-- Title corrected from "Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah, Saudi Arabia" to the actual published title "Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia" (PDF page 1 banner, no "Consumed").
-- `raw_path` corrected; the prior value was truncated mid-filename ("Consumed in J.pdf"). The actual file is "Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf".
-- `products` source metadata: removed invalid slug `[[products/fruit-juice]]` (no such product page; `fruit-juice` is an ingredient slug only). Replaced with the two subcategory products `fruit-juices-apple-containing` and `fruit-juices-non-apple`, alongside the existing broad-format slug `fruit-juice-not-canned`. The paper does not specify packaging, but supermarket commercial juices in this market and era are typically tetra-pak/PET/glass rather than canned.
-- `matrices`: added juice-specific entries (`apple-juice`, `orange-juice`, `mango-juice`) alongside the generic `fruit-juice` matrix tag, matching the convention used by other recent fruit-juice source pages (e.g., desouza2022, balalimood2018).
-- Legacy heading `## Wiki pages updated on ingest` replaced with the current convention `## Wiki pages this source may touch`, and the metal pages `[[metals/chromium]]` and `[[metals/nickel]]` added to the section to reflect routing.
-- Key numbers section enriched with the Table 5 estimated-daily-intake values for all seven elements across the three juice types, with the cited reference values. Prior version mentioned EDI only qualitatively ("well below RDA/tolerance thresholds"); concrete numbers are now in the page.
-- Numerical fidelity check: Table 1 mean ± SD values for all seven elements × three juice types × mean column were re-verified against the PDF (page 2). All 28 cells match the prior page exactly. Sample-size attribution (42/45/42 = 129 across 15 brands) and method details (Varian Spectra AA 30P GFAAS, HNO3/V2O5 wet digestion, IAEA milk A-11 within 7%, Cr/Cu recoveries 94%/96%) all verified against the source.
-- Brand firewall (Part 12): the paper references "15 brands" only as an aggregate count; no brand names appear in either the prior page or the source. No firewall action needed.
-- Speciation: paper measures total Cr without hexavalent speciation and does not measure Hg or As at all, so `metals: [Cr, Ni]` is correct (no `Cr-VI`, no `iAs`/`tAs`, no `MeHg`/`tHg`).
-
-**2026-06-08 byte-identical filesystem-copy enhancement:** added a `near_duplicates` entry recording the source-retrieval agent's June 8 placement of the same paper PDF under the archived source file. SHA-256 verified byte-identical to the canonical `raw_path` (`70a29cbe10755eaede9195b69fc188b862ae8d3a1a9261e1859beaecf359681d`); the same hash also appears at three other source-retrieval-corruption-issue paths (`May 21`, `manual-fetch/`, and `June 8/.../papers/`). Manual-fetch loop now recognizes the June 8 `_extracted_` location as already-ingested. No claim, value, slug, exposure number, key-numbers, or HMTc-firewall change. No new audit cycle spawned because no body or evidence-bearing source metadata changed.
+- [[products/fruit-juice]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

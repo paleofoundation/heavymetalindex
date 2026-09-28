@@ -107,7 +107,8 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 
 **App:** Supports a low-Pb signal for commercially packaged fruit juices (apple, mango, orange, lychee) on the Kathmandu retail market under the limitations above. Iron exceedance of the inferred 2 mg/L water-derived reference in one apple-juice sample is not a Pb-relevant signal for HMTc but is worth flagging on the Fe nutritional-balance side.
 
-## Wiki pages this source may touch
+## Related evidence
+
 - [[ingredients/apple-juice]]
 - [[ingredients/mango-juice]]
 - [[ingredients/orange-juice]]
@@ -119,22 +120,7 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- 2026-05-19 merge-enhanced under the v2.0 ingest skill. Preserved `cite_key`, `raw_handle: manual-fetch-source-retrieval`, and `near_duplicates: []` per skill rule. Corrected the truncated `raw_path` (previously "Analysis and Detection of Heavy Metals Content in Some Selected P.pdf" → full filename ending "Flame Atomic Absorption Spectroscopy.pdf"). Added `access_url`, `raw_sha256`, `ingest_method`, and `created_by` fields; added the journal volume/issue/pages to `publication`. Re-set `updated` to 2026-05-19.
-- source metadata `metals` expanded from `[Pb]` to `[Pb, Fe, Cu, Zn]` — the prior listing dropped three of the four metals the source actually measured. All four have wiki metal pages.
-- source metadata `ingredients` previously listed `[[ingredients/lychee-juice]]`, which is not a wiki page; "lychee-juice" is registered only as an alias on `ingredients/fruit-juice.md`. Replaced the invalid slug with `[[ingredients/fruit-juice]]` so the lychee evidence still routes to the parent ingredient. (Per the lychee-juice page is below the 5-paper threshold for its own ingredient page; this is the routing the alias was created for.) `matrices:` similarly trimmed to remove the bare `lychee-juice` matrix that has no controlled-vocabulary entry.
-- Evidence tier reduced from A to B: the source is peer-reviewed open-access, but the methods section reports no CRM recovery, no LOD/LOQ table, no procedural-blank values, and no matrix-matched standards. Pb calibration R²=0.978 is at the lower edge of accepted linear-range fit. Per evidence-tier rules, those omissions place this paper in B rather than A.
-- The source's calibration values for Cu, Zn, and Pb in Table 1 use truncated decimal forms (y=0.173x+0.007, y=0.12x+0.008, y=0.039x+0.030) while the figures (Figs 2–4) carry one more decimal place. The Key numbers table reproduces the Table 1 forms because that is the source's stated calibration record.
-- WHO/FAO comparison values used by the authors are reproduced as the authors state them. The 2 mg/L Fe reference is explicitly an inference from the JECFA 1983 PMTDI, not a fruit-juice MAC; the 0.01 mg/L Pb reference is the WHO drinking-water guideline; the Codex MLs for Pb in fruit juice (0.03 mg/kg general; 0.04 mg/kg grape; 0.05 mg/kg berry/small-fruit) are noted on this page but were not used by the authors as the primary comparator.
-- Audit editorial review (2026-05-19) flagged Check 4 ❌ for per-brand contamination values reproduced under the source's anonymous A/B/C/D codes throughout the Key numbers narrative — the original draft of this page named "brand C" three times as the highest-Fe, highest-Cu, and highest-Zn brand. Verified against Part 12 strict reading (locked 2026-05-17): even though the source's A/B/C/D codes do not disclose real brand names, reproducing per-brand rankings on the wiki side is the brand-by-brand ranking pattern Part 12 prohibits. Finding applied — Key numbers tables and narrative now report ranges, wiki-computed flavour means, and counts of samples above thresholds, with no per-brand attribution. The previous Verification-notes paragraph that defended the per-brand reproduction has been removed.
-- Audit editorial review (2026-05-19) flagged Check 5 ⚠️ for a cross-source synthesis claim ("consistent with prior Nepali and South-Asian beverage studies…") and an imperative voice ("the certifier should treat…") in the Implications → Certification block. Verified against Part 2 firewall: both are real boundary slips. Synthesis sentence removed; "should treat" softened to descriptive "bounds rather than excludes contamination."
-- Audit editorial review (2026-05-19) flagged Check 1 ⚠️ that "Pb working range covering 0–10 mg/L" was inferred from the x-axis of Fig. 4 rather than stated by the source. Verified against source p. 160 Fig. 4 and p. 159 Methods: the inference is reasonable but the source does not use the words "working range." Wording corrected to "the x-axis of Fig. 4 (p. 160) extends to ~10 mg/L, but the source does not explicitly state a Pb working range or a numerical LOD."
-- Audit editorial review (2026-05-19) flagged Check 1 ⚠️ that the "n=48 measurements over 16 samples" framing was wiki-derived from "samples were prepared three times." Verified against source p. 159: source uses "prepared three times to minimize the possibility of error" without stating an n=48 count. Sample-population field rewritten to quote the source verbatim and drop the n=48 framing.
-- Audit editorial review (2026-05-19) flagged Check 1 ⚠️ that the Fe "Mean of four" column is wiki-computed because the source does not report flavour means. Verified: arithmetic checked, source Table 2 does not report means. Footnote added under the Fe table noting the means are wiki-computed.
-- Audit editorial review (2026-05-19) flagged Check 2 ❌ that `ingredients/apple-juice` and `ingredients/mango-juice` are not present in the taxonomy snapshot. Verified against the editorial record: both slugs ARE present in the snapshot's Ingredients line (alongside `orange-juice`, `fruit-juice`, `grapefruit-juice`, etc.); both have wiki pages at the linked reference record and the linked reference record. The audit finding is a false positive — the editorial review missed these slugs while scanning the comma-separated list. No change applied.
-- No HMTc threshold proposals, consumer risk advisories, or remaining cross-literature synthesis claims appear in the body — Part 2 firewall clean after audit-application edits. Part 12 brand firewall clean after audit-application edits.
+- [[ingredients/lychee-juice]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

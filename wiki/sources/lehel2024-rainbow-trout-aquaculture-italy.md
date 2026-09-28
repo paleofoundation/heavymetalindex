@@ -102,13 +102,6 @@ App: total-As, Cd, total-Hg, and Pb data for farmed freshwater rainbow trout con
 - [[ingredients/fish]]
 - [[products/fish-freshwater]]
 
-## Verification notes
-
-Fresh-context audit editorial review (2026-05-30) verdict PROMOTE; all five checks clean against the source PDF. Two ⚠️/optional items resolved as follows:
-- Audit noted the bottom heading is "Wiki pages updated on ingest" rather than the audit-prompt's expected "Wiki pages this source may touch"; verified — "Wiki pages updated on ingest" is the current template heading (the editorial record) used across the corpus. False positive; no change.
-- Audit noted the source prints its mussel reference material inconsistently (ERM-CE278k in the Methods text, ERM-CE287k in the Table 2 header); verified against PDF p6 vs p7 — correct, this is a typo in the source itself. Added a clarifying parenthetical to the Methods section so future readers do not flag the page's "278k" as an error. The wiki follows the Methods-prose form.
-- Numerical fidelity (Tables 1–3, text §3.1–3.5), speciation (tAs total with iAs estimated at 5%; tHg with no MeHg speciation), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

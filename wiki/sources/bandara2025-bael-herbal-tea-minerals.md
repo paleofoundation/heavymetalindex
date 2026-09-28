@@ -60,7 +60,7 @@ App: Supports a low-confidence ingredient/product note for bael herbal tea if th
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/herbal-botanical-infusions]]
 - [[ingredients/herbal-botanicals]]
@@ -72,12 +72,6 @@ Microbiome: No microbiome findings.
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/barium]]
-
-## Verification notes
-
-- The DOI, title, author byline, journal, and year were read from the PDF first page and citation block.
-- The source reports As, Cd, and Hg as ND in all three bael tea preparations, but does not expose the non-detect threshold in the extracted pages.
-- The paper is a formulation study with three prepared bael tea matrices, not a retail surveillance study.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

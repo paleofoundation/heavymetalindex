@@ -20,7 +20,7 @@ audience: [regulator, educator]
 
 Closer to Zero is the US Food and Drug Administration's program to reduce childhood dietary exposure to lead, cadmium, inorganic arsenic, and mercury by setting action levels for foods commonly consumed by babies and young children under two years of age ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The program launched in April 2021 and is iterative by design: FDA collects occurrence data through its Toxic Elements Program and Total Diet Study, publishes draft action levels for industry comment, finalizes guidance, then uses the finalized levels in enforcement decisions under 21 CFR 109.6(d) and section 402(a)(1) of the Federal Food, Drug, and Cosmetic Act ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
-The program frames its thresholds against FDA's Interim Reference Levels for dietary exposure, which are themselves derived from the underlying public-health reference values each metal has accumulated (for lead, the CDC blood lead reference value of 3.5 µg/dL ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]); cadmium, inorganic arsenic, and mercury reference values are pending ingest of the corresponding FDA CTZ documents). Action levels are chosen such that industry achievability, defined as the share of samples in FDA's combined Toxic Elements Program and targeted-survey data at or below the level, lands in the 90th to 95th percentile range ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). This achievability framing is consistent with the approach the Codex Committee on Contaminants in Foods uses to recommend reductions in maximum levels when samples traded internationally have contaminant concentrations at or below proposed new MLs ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]).
+The program frames its thresholds against FDA's Interim Reference Levels for dietary exposure, which are themselves derived from the underlying public-health reference values each metal has accumulated (for lead, the CDC blood lead reference value of 3.5 µg/dL ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]); cadmium, inorganic arsenic, and mercury reference values from the corresponding FDA Closer to Zero documents are not catalogued on this page). Action levels are chosen such that industry achievability, defined as the share of samples in FDA's combined Toxic Elements Program and targeted-survey data at or below the level, lands in the 90th to 95th percentile range ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). This achievability framing is consistent with the approach the Codex Committee on Contaminants in Foods uses to recommend reductions in maximum levels when samples traded internationally have contaminant concentrations at or below proposed new MLs ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]).
 
 ## Scope
 
@@ -35,7 +35,7 @@ Finalized action levels ingested to date:
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] — 20 ppb lead, for single-ingredient root vegetables (carrots and sweet potatoes). Finalized January 2025.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] — 20 ppb lead, for dry infant cereals. Finalized January 2025.
 
-_Cadmium action levels under CTZ are expected in a separate FDA guidance document not yet ingested. Inorganic arsenic action levels under CTZ (including the finalized 100 ppb in infant rice cereal) and mercury levels are also in separate guidance documents pending ingest._
+_Cadmium action levels under Closer to Zero are expected in a separate FDA guidance document. Inorganic arsenic action levels under Closer to Zero include the finalized 100 ppb limit for infant rice cereal. Mercury levels are also in separate guidance documents._
 
 ## History
 
@@ -58,7 +58,7 @@ Each per-rule page carries its own jurisdictional comparison for the specific th
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 2. [[sources/cdc-blood-lead-reference-value|Blood Lead Reference Value (3.5 µg/dL)]]<span class="hmi-ref-meta">U.S. Centers for Disease Control and Prevention · 2021 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm)</span><span class="hmi-ref-tag">Government</span>

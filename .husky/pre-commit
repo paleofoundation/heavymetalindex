@@ -35,6 +35,13 @@ if ! node tools/audit-homepage-layout.mjs; then
   exit 1
 fi
 
+if ! node tools/audit-public-batch-prose.mjs; then
+  echo "pre-commit: a published wiki page contains ingest or batch-log prose."
+  echo "  Put that note in wiki/batch-reports/. Keep reader-facing links on the page."
+  echo "  Allow a legitimate match in tools/audit-public-batch-prose.allowlist.txt."
+  exit 1
+fi
+
 if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   echo "pre-commit: wiki/sources/ touched; running routing audit..."
   if ! npm run --silent evidence:source-routes; then

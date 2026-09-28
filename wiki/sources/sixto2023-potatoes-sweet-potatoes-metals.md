@@ -71,7 +71,7 @@ For the root-and-tuber vegetable product row, this source adds fresh-weight occu
 
 For standards and app work, the values should remain market-specific and basis-specific. They should not be silently pooled with dry potato products, cooked products, non-Uruguayan market samples, or inorganic-arsenic datasets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/root-tuber-vegetables]]
 - [[ingredients/potatoes]]
@@ -80,13 +80,6 @@ For standards and app work, the values should remain market-specific and basis-s
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Auto-fetched ingest, 2026-05-31. The filename targeted total arsenic in root/tuber vegetables; the actual source reports total/unspecified As along with Cd and Pb.
-- Speciation: arsenic is total/unspecified As; do not route as inorganic arsenic.
-- Basis: all concentration values are mg/kg fresh weight. The paper's peeled and whole product forms should remain distinct in any downstream pooling.
-- Geographic scope: Uruguay market samples from UAM; keep separate from US-market benchmark pools unless governance documents cross-market use.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

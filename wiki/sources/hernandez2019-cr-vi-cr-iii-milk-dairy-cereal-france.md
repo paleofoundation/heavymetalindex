@@ -125,20 +125,12 @@ Microbiome: No direct microbiome endpoint, though the food-matrix Cr(VI) reducti
 
 Karen externally fetched this paper on 2026-05-09 and dropped it at the archived source file. Originally identified on the data-gap wishlist as the highest-leverage Cr-VI gap-filler under the misattributed name "Mathebula 2019" (the wishlist's PMID 30931809 was correct; the first-author label was wrong). Actual first author is Fanny Hernandez (Université Paris-Est, ANSES). Published in *Food Additives & Contaminants Part B: Surveillance* under standard Taylor & Francis paywall; author-shared copy used internally only. Wiki cites the article record (DOI 10.1080/19393210.2019.1598506).
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/baby-cereals-dry-rice-based]]
-- [[products/baby-cereals-dry-non-rice]]
-- [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
-- [[products/infant-formula-rtf-liquid-non-soy]]
 - [[products/infant-formula-rtf-liquid-soy-based]]
-- [[products/mixed-meals-rice-containing]]
-- [[products/mixed-meals-non-rice]]
-- [[products/teething-and-snacks-rice-based]]
-- [[products/teething-and-snacks-non-rice]]
 - [[products/infant-and-child-foods-master]]
-- [[sources/soares2000-chromium-vi-powdered-milk-formulas]] (reinterpretation note)
+- [[sources/soares2000-chromium-vi-powdered-milk-formulas]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

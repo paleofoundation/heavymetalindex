@@ -133,6 +133,11 @@ Limitations relevant to wiki use:
 **App.** Provides Cd accumulation factors for Chinese cabbage, winter greens, pakchoi, and celery in Chinese garden soil — usable as ingredient-level priors for Asian leafy-vegetable risk estimates where soil-Cd data are available. The 2007 vintage and Chinese-soil-only context limit direct applicability to global commercial supply chains; the app should treat this as one regional/older comparator rather than a global baseline.
 
 ## Related evidence
+
+- [[ingredients/chinese-cabbage]]
+- [[ingredients/pakchoi]]
+- [[supply-chain/soil-contamination]]
+- [[mitigation/agronomic-levers]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/celery]]
 - [[metals/cadmium]]
@@ -140,26 +145,6 @@ Limitations relevant to wiki use:
 - [[metals/copper]]
 - [[metals/lead]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which appeared in `routing_malformed.csv` as an advisory (missing optional `products` field; correct to leave empty for a soil-to-vegetable transfer review with no commercial-product framing). Defects corrected against the source PDF (Tables 1–10, pp. 4, 5, 6, 7, 8):
-
-- `raw_handle`: `papers-cube` placeholder → canonical `PCMF_islam2007` (per established PCMF handling).
-- Added `raw_sha256: 77d3edb4d978bb3f02964442a327dd120ecf6262704f2d4f333415bd470fe1f9`.
-- Added `access_url: https://doi.org/10.1631/jzus.2007.B0001` (DOI resolver).
-- `metals`: corrected from `[Pb, Cd, Cr, tAs, Al]` to `[Cd, Zn, Cu, Pb, Al]`. The prior list invented `tAs` (As is not mentioned anywhere in the paper; the abstract names "cadmium, copper, lead, chromium and mercury" as important pollutants — no As) and overweighted `Cr` (mentioned in the abstract as a background pollutant but never quantified; no Cr data appear in any table). Zn and Cu were missing despite being the most extensively measured metals in the review (Tables 1, 3, 4, 6, 7, 8, 9). Pb retained (Chinese food limit cited; qualitative discussion). Al retained (Zhang & Zhou 2005 phytotoxicity work).
-- `evidence_tier`: A → B. This is a narrative literature review without PRISMA, formal quality appraisal, or meta-analysis. Primary experimental data are concentrated in cited primary papers (Long et al. 2003; Ni et al. 2002; Yang et al. 2002; Xiong & Wang 2005; Zhang & Zhou 2005); the review compiles and contextualizes them.
-- `sample_population` rewritten to identify the actual cited primary studies (Long, Ni, Yang, Xiong & Wang, Zhang & Zhou) rather than the previous vague "supplemented by literature from China, UK, and US"; jurisdictions list preserved (the review's literature scope does touch UK and US comparators).
-- Body — Key numbers rebuilt as subsections per analyte (Cd / Zn / Cu / Pb / Al / European context), with full Tables 1–10 coverage. Prior page had only Cd thresholds plus partial Cd shoot-tissue data plus three narrow range numbers; Zn and Cu tables (the bulk of the paper's primary data) were missing entirely.
-- Body — Zn thresholds: prior range "Total soil Zn: 122–413 mg/kg" matches Table 9 in span but did not state per-species values; "Available (DTPA) Zn: 74.9–175.6 mg/kg for shoot tissue" excluded the celery (leaf) row (19.4 mg/kg) which is part of the same PDT-threshold table. Corrected to full range 19.4–175.6 with per-species values.
-- Body — Cu thresholds: prior ranges "Total soil Cu: 429.93–835.56 mg/kg; available Cu: 269.14–338.98 mg/kg" excluded the celery (leaf) row (total 161.07; available 57.22 mg/kg). Corrected to full ranges 161.07–835.56 (total) and 57.22–338.98 (available) with per-species values.
-- Body — Pb section reworked from "Pb food safety limit referenced: 0.2 mg/kg…" to explicit qualitative-only treatment, with the "no soil Pb threshold available" note moved into the Pb subsection and the Song 2002 NH4NO3-Pb correlation finding added.
-- Body — Al section retained but specified that Al data come from Zhang & Zhou 2005 (the original studies the review cites) rather than from primary work in this paper.
-- Body — added European urban-garden context subsection (Lăcătuşu et al. 1996; Bahemuka & Mubofu 1999) which the prior page omitted. Flagged the Lăcătuşu mg/day vs likely µg/day units discrepancy.
-- Body — Implications section softened from concrete "useful reference values for agricultural soil certification criteria" framing to a more accurate description of how the Cd regression equations could feed soil-screening workflows after jurisdictional ceiling substitution; explicit caveat added that any single-number leafy-vegetable Cd threshold will under-protect celery (slope ~2× Chinese cabbage). This keeps the wiki on the literature side of the Part 2 firewall (the equations themselves are not a recommendation that HMTc adopt these thresholds).
-- Wiki pages updated on ingest — removed broken wikilinks to `[[ingredients/chinese-cabbage]]`, `[[ingredients/pakchoi]]`, `[[supply-chain/soil-contamination]]`, and `[[mitigation/agronomic-levers]]` (none of these pages exist in the wiki). source metadata `ingredients` array retains the chinese-cabbage and pakchoi slugs since they are valid routing-layer inputs handled by the auto-stub system (pakchoi is freq-2 across the corpus; chinese-cabbage is freq-1 here). The body link list now reflects only pages that actually exist.
-- `## Methods (brief)` expanded to identify each primary study the review cites and to state limitations relevant to wiki use (narrative-review status, Chinese-soil-only context, GB-only food-side limits, no Cr/Hg quantification, no speciation work, Al-only-qualitative).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

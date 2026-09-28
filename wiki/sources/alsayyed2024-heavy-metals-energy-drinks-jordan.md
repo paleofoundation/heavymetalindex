@@ -153,7 +153,7 @@ Evidence tier set to **C**. The source is primary research, peer-reviewed (Metho
 
 Open-access article distributed under CC BY 4.0 (license declaration on p. 20 of the PDF: "Copyright © 2024 Hiba Al-Sayyed. Open access article distributed under the Creative Commons Attribution License CC BY 4.0"). Received 7 December 2023; accepted 10 January 2024; published in Methods and Objects of Chemical Analysis 2024, Vol. 19, No. 1, pp. 20–24. DOI 10.17721/moca.2024.20-24. Corresponding author: Abdelmnim M. Altwaiq (aaltweiq@uop.edu.jo). Affiliations: Nutrition Department, Faculty of Pharmacy and Medical Sciences, University of Petra, Amman, Jordan (Al-Sayyed); Chemistry Department, University of Petra, P.O. Box 961343, 11196 Amman, Jordan (Altwaiq, Ali); Department of Basic Sciences, American University of Madaba (AUM), Madaba, Jordan (Khouri). Funding: Deanship of Scientific Research, University of Petra, project number 2/1/2022 (Acknowledgment and Funding Sources, p. 23). Conflict of Interest: "The authors declare no conflict of interest" (p. 24). Accessed via the Manual Fetch Discovery autopilot.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/copper]]
@@ -163,40 +163,6 @@ Open-access article distributed under CC BY 4.0 (license declaration on p. 20 of
 - [[products/sports-energy-drinks]]
 - [[regulations/codex-cxs-193-1995-tin-canned-foods]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-**Sample population.** The source samples are the ten most commonly consumed energy-drink brands sold in the Jordanian retail market. Country of origin is named in Table 1 for each sample, but commercial brand identities are not disclosed; samples are labelled by number 1–10 only. No brand-firewall handling was required because the source itself does not name commercial brands. The sample-population breakdown by country of origin is: Jordan (n=2, samples 1 and 4), Poland (n=2, samples 2 and 6), Austria (n=2, samples 3 and 7), Saudi Arabia (n=2, samples 5 and 10), USA (n=1, sample 8), Jamaica (n=1, sample 9).
-
-**Speciation handling.** This source measures total elemental Pb, Cu, Ni, Cd, and Fe by AAS without speciation. Pb, Cu, Ni, Cd, Fe are recorded as such in the `metals:` source metadata field (no iAs/tAs, MeHg/tHg, or Cr-VI/Cr distinctions applicable to this panel). Mercury, arsenic, chromium, aluminum, tin, antimony, and uranium were not in the source's analyte panel and are not recorded. Among the ten HMTc/HMI analytes, this source covers Pb and Cd only (two of ten); the remaining three metals it measures (Cu, Ni, Fe) sit outside the HMTc certification panel but are tracked in the HMI wiki vocabulary as `copper`, `nickel`, and `iron`.
-
-**Products source metadata.** The `products:` source metadata lists `sports-energy-drinks` only. The source's matrix is energy drinks, which the wiki taxonomy locates as HMTc Category 5 row 9 ("Sports/energy drinks") per the linked reference record. The energy drinks measured are commercially defined energy drinks (caffeine + taurine + vitamin matrix) and not as carbonated soft drinks; routing to `soft-drinks-carbonated-beverages` as a second product would over-route on a category basis. The conservative routing is to `sports-energy-drinks` only.
-
-**Ingredients source metadata.** The `ingredients:` field is empty. The energy drinks measured are finished beverages, not single-ingredient measurements. The source does not measure heavy-metal content at the ingredient level.
-
-**Matrices source metadata.** The `matrices:` field uses `energy-drinks` (established vocabulary, used in czarnek2024-heavy-metals-energy-drinks, babayo2026-heavy-metals-energy-drinks-nigeria, salaheldin2025-multimatrix-foods-egypt).
-
-**Jurisdictions source metadata.** `JO` (Jordan). The sample population is restricted to the Jordanian retail market. The samples themselves originate from six countries (Jordan, Poland, Austria, Saudi Arabia, USA, Jamaica) but the relevant jurisdiction for occurrence-evidence purposes is the country of sale (Jordan), per the convention used elsewhere in the wiki for market-survey sources.
-
-**Paper-internal inconsistencies flagged for synthesis-pass attention.** The source has several internal data-reporting inconsistencies that the wiki records faithfully but cannot reconcile:
-
-1. **Cd value mismatch between abstract and Table 1.** The abstract states the analyzed samples "contained... 0.01... mg kg⁻¹... Cd" (a single value, not a range, p. 20). Table 1 (p. 22) actually reports four samples (4, 5, 6, 10) at "0.1 ± 0.05 mg kg⁻¹" and six samples (1, 2, 3, 7, 8, 9) as ND. The Cd discussion paragraph on p. 22 repeats "0.01 ± 0.0.5" (the "0.0.5" is a clear typesetting typo). The wiki records the Table 1 values (0.1 ± 0.05 for the four samples) as the authoritative dataset.
-
-2. **Cd values below the declared LOD.** The Table 1 footnote (p. 22) declares the AAS instrument LOD as "<0.5 ppm" (i.e., 0.5 mg kg⁻¹), but four Cd values are reported as 0.1 ± 0.05 mg kg⁻¹ — formally five-fold below the declared LOD. Either the actual analyte-specific LOD for Cd was lower than 0.5 mg kg⁻¹ on this instrument, or the Cd column values include below-LOD measurements that should not have been quantified. The source does not address the discrepancy. The wiki records the Cd values as reported in Table 1 but flags them in Evidence Fitness item (ii) and (vi) as not pool-eligible without external corroboration.
-
-3. **Caffeine range mismatch between abstract and Table 4.** The abstract states the analyzed caffeine content "ranged between 24.7 to 32 mg/100 mL" (p. 20). Table 4 (p. 23) actually shows the minimum at 24.0 mg/100 mL (sample 8), not 24.7 (which is the value for sample 4). The wiki records the Table 4 values as authoritative.
-
-4. **TSS unit-basis label inconsistency.** The abstract gives the TSS range as "4.8 to 15.4 g/100 g" (p. 20) while Table 2 (p. 23) is headed "g/100 ml". The values themselves match between abstract and Table 2; only the unit label differs. The wiki records Table 2's "g/100 mL" headings (the analytical instrument is a refractometer reading dissolved-solids per volume).
-
-5. **Reference-list conflation of GSO and TBS.** The source's reference [14] in the bibliography is listed as "Tanzania Bearue of Standards. TBS / AFDC 12 (6771) P3 / REV. TZS 838: 2018 DRAFT TANZANIA STANDARD Energy Drink – Specification TANZANIA BUREAU OF STANDARDS. 2018, 12." but the in-body text repeatedly cites [14] as both the Gulf GSO standard and the Tanzanian TBS standard. The source's reference [15] is "GSO GSO. Recommendation of Handling Energy Drinks, 2009." The Gulf and Tanzanian standards are conflated as a single reference in the source's text. This wiki page records the two regulatory frameworks separately under the Regulatory comparators block but flags the source's reference-list conflation for downstream regulation-page ingestion.
-
-6. **EC Regulation 1881/2006 Pb/Fe ceiling claim.** The source (p. 22) states that "the EC allow the presence of 200 Pb and Fe in energy drinks" — the units appear to be missing and the regulation does not, in its standard published form, set a 200-unit ceiling on both Pb and Fe in energy drinks specifically. The wiki records the claim as the source's text, with the unit ambiguity flagged for verification against [[regulations/eu-1881-2006-contaminants-superseded]] when that page is next maintained.
-
-7. **Order-of-magnitude inconsistency with Polish ICP-MS comparator.** As noted in Implications, the Ni/Cu/Fe ranges reported here (mg kg⁻¹) are two to three orders of magnitude higher than the Ni/Cu/Fe ranges Czarnek et al. 2024 report by ICP-MS (µg L⁻¹) for Polish-market energy drinks. The two sources should report values on the same order of magnitude for the same product class. The most likely explanation is a unit-reporting basis confusion in the present source rather than a true population difference; this requires synthesis-time investigation before either source's values are pooled into per-analyte percentile arithmetic for the energy-drinks row.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in this wiki page body. The compliance/exceedance observations against Codex, WHO, EU, Gulf, Tanzanian, and Bangladesh references are reported as the source itself reports them — as unit-comparison observations against the regulatory comparator values the source itself cited — and are not framed as HMTc threshold recommendations or as consumer-safety claims.
-
-**Brand firewall.** The source does not name commercial brands; samples are labelled 1–10 by number with only country of origin attached. No brand-firewall handling was required. The Methods (brief) section names scientific-method vendor identities (RayLEiGH atomic absorption spectrophotometer; Fluka HNO₃; Branson/ultrasonic; AZURA UV detector; Fortis C18 column; Abbé refractometer) per the scientific-method-vendor exception locked 2026-05-17.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

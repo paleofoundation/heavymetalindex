@@ -60,7 +60,7 @@ Courses: Strong example of an environmental disturbance pathway: bushfire increa
 
 App: Context only. The source supports geographic and fire-disturbance questions for plantation-soil due diligence, not consumer product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -70,12 +70,6 @@ App: Context only. The source supports geographic and fire-disturbance questions
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/vanadium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated plantation soil without palm-oil samples as out of scope. On reading, it is in-scope a3 pathway/source-attribution evidence because it measures heavy-metal changes in oil-palm plantation soil after bushfire.
-
-Numbers were checked against the abstract, Table 1, and the metal-specific results sections. Chromium is total Cr, not Cr(VI). Arsenic is total As, not inorganic arsenic. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

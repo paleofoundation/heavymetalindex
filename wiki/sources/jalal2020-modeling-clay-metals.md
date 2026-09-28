@@ -57,7 +57,7 @@ Courses: The paper is a compact example of why total-content screening, migratio
 
 App: The source can support an Erbil/Iraq market context flag for modeling clay, especially the single high-Cu finished-product sample and the lack of detected total Cr.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/art-craft-materials]]
 - [[products/toys-crafts-other]]
@@ -65,16 +65,6 @@ App: The source can support an Erbil/Iraq market context flag for modeling clay,
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; the abstract, Table 1, methods, Tables 2-3, discussion, and conclusion were checked against this page.
-- Identity checks before creation: DOI `10.21271/ZJPAS.32.5.13`, exact title, raw handle `MFK_cat21-07-semanticscholar-cadmium`, raw SHA-256 `4354add1758e09f9c866ae0b63eb7a729722759b89a55343fdb1bcb8c7b95153`, and candidate cite key `jalal2020-modeling-clay-metals` were searched in the linked reference record and the structured evidence record; no existing source page was found. A broad grep for `10.21271/zjpas` hit a different ZANCO paper and was not treated as a duplicate.
-- Units are copied exactly as reported (`mg/kg`, `ppm`, `mg/kg` Category-I limits). No unit conversion was performed.
-- Speciation: chromium is total Cr. The paper explicitly says Cr(III) and Cr(VI) were not identified, so the source does not support Cr(VI) occurrence.
-- Brand firewall: the source tables name and code brands. This page records aggregate ranges, detection counts, regulatory comparison values, and de-identified exceedance facts, but does not attach consumer brand names to contamination values.
-- Product slug note: the current taxonomy has `art-craft-materials`, which explicitly includes modeling clay, but no exact modeling-clay product or matrix slug. The page therefore uses broad product routing and leaves `matrices` empty.
-- Evidence tier: `B` because this is a peer-reviewed local market survey with primary measurements but limited QA/QC detail and small geography-specific sample frame.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

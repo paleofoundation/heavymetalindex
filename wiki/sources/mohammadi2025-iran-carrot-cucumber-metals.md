@@ -62,10 +62,8 @@ Carrot and cucumber samples were purchased from supermarkets in seven cities in 
 - Courses: Good example of basis handling because the analytical workflow begins with dried samples but the published occurrence values are converted to fresh-weight vegetable concentrations.
 - App: Contributes separate concentration rows for [[ingredients/carrot]] and [[ingredients/cucumber]] rather than a pooled vegetable-only result.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[ingredients/carrot]]
-- [[ingredients/cucumber]]
 - [[ingredients/root-vegetables]]
 - [[ingredients/non-root-vegetables]]
 - [[products/root-tuber-vegetables]]
@@ -74,12 +72,6 @@ Carrot and cucumber samples were purchased from supermarkets in seven cities in 
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Chromium is total Cr, not Cr(VI).
-- The paper's abstract reports carcinogenic risks of 2.32E-05 for cucumber and 1.00E-04 for carrot, while later results/conclusion text reports 3.01E-04 and 2.56E-04. Concentration tables are internally usable; carcinogenic-risk values should be treated as source-discrepant until re-audit.
-- The source is not a US-market benchmark source. Jurisdiction should remain visible if these values are admitted into any pooled product-category distribution.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

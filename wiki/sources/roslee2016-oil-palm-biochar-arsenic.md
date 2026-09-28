@@ -48,17 +48,11 @@ Courses: Useful low-tier teaching example for agricultural-residue biochar and a
 
 App: Context only. The result may support a remediation/pathway note for oil-palm waste biochar, not product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/index]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the thesis as out of scope because it was not palm-oil product occurrence. On reading, it is in-scope a2 mitigation and a3 soil-pathway context because it tests arsenic availability in contaminated soil using oil-palm empty-fruit-bunch biochar.
-
-Numbers were checked against the extracted PDF abstract and table of contents. The text extraction did not preserve the underlying results tables for As concentration, pH, or electrical conductivity, so this page reports only the extractable application rates, four-week sampling window, and 25.2% reduction statement. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

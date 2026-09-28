@@ -54,16 +54,11 @@ App: No direct app concentration value. This can support future explanatory cont
 
 Microbiome: Directly relevant to cadmium-gut-microbiome interactions because the authors used fecal 16S rRNA sequencing and metabolomics to connect probiotic treatment with cadmium-toxicity mitigation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[mitigation/remediation-evidence]]
 - [[mitigation/formulation]]
-
-## Verification notes
-
-- DOI, title, authors, year, journal, license, and methods were transcribed from the PDF first pages and methods section.
-- The source reports food-derived cadmium forms, but the measurements are in a mouse challenge model. Products and ingredients are intentionally empty to prevent spiked-dose data from entering occurrence pools.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -45,7 +45,7 @@ Courses: Useful for explaining milk as a transfer matrix from animal environment
 
 App: Can inform dairy ingredient priors with non-US market caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/category-5-beverages]]
 - [[ingredients/milk-and-dairy]]
@@ -54,12 +54,6 @@ App: Can inform dairy ingredient priors with non-US market caveats.
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The paper reports total As and total Cr. Do not route it to iAs or Cr(VI).
-
-The paper contains an internal inconsistency on the lowest-concentration metals: the abstract states that "Cobalt and Lead" were the lowest at "less than 0.005 mg/kg," but the Results, Discussion, and Figure 1 all give specific values of Co 0.002 mg/kg and Pb 0.08 mg/kg, and the Discussion explicitly notes Pb 0.08 mg/kg is "just above recommended values by International Dairy Federation." The wiki page uses the Results/Discussion/Figure 1 values, which are the internally consistent set. The reported instrumental detection limit was 0.005 ppm, so Co at 0.002 mg/kg sits below the stated LOD and should be treated as <LOD context, not a defensible point estimate.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

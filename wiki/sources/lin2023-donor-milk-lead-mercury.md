@@ -55,17 +55,13 @@ Courses: Useful for showing how breast-milk concentration data and infant body-w
 
 App: Can support breast-milk exposure context with Taiwan-specific caveats; maternal predictors (residential pollution proximity, house-dust contact, cosmetic and lipstick use, viscera and large-fish consumption) are mechanistically generalisable for the metals/lead and metals/mercury-total pages.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[products/infant-food-general]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-The source discusses cosmetic and lipstick use as predictors of breast-milk Pb; this is not brand-level cosmetics evidence and must not be routed as a cosmetic product occurrence source. MeHg was measured but not detected in any sample; the wiki page reports the analytical result rather than treating it as absent measurement.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

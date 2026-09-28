@@ -82,10 +82,6 @@ Courses: Useful for course modules on Prop 65 enforcement mechanics, settlement 
 
 App: Not directly applicable; no measurement values for consumer-app contamination estimation.
 
-## Verification notes
-
-Settlement-trigger tables (Pb and Cd, immediate and drop-down ladders) cross-checked against the [[asyousow2022-expert-investigation-cocoa-chocolate-products]] Final Report Tables 3 and 4 reproductions and confirmed identical. Settling-defendant list reflects the article's public-record identification of nine manufacturers; per Part 12 Exception 1, these are named as subjects of a regulatory enforcement action, not as contamination-value attributions, and no per-manufacturer values appear in this source. Court approval date in the article ("February 14, 2018") is reported as the scheduled review date; the actual Consent Judgment effective date is documented in the Expert Committee's downstream Final Report. No DOI exists for this attorney-blog post. License is recorded as `unknown` because the post is attorney advertising published on a law-firm website without explicit licensing.
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

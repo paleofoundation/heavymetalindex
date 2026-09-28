@@ -76,7 +76,7 @@ The cite-key uses the first-author surname "ciont" (Călina Ciont, first author 
 
 Evidence tier set to C rather than B. This is explicitly a narrative review without primary data (per the Data Availability Statement) and without a systematic-review methodology (no documented search strategy, no PRISMA flow, no inclusion criteria). It functions as a discovery anchor and a narrative reference, not as primary or systematically-pooled evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -85,25 +85,6 @@ Evidence tier set to C rather than B. This is explicitly a narrative review with
 - [[metals/copper]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-- [[products/fermented-beverages-non-tea-based]]
-
-## Verification notes
-
-No brand names appear in this source page. The review names beer styles (red ale, dark stout, pale ale, wheat wine, fruit, gueuze, dark lager, bock, pale lager, pilsner) and producing regions (Germany, Belgium, Ireland, Brazil, Spain, Portugal, China, Europe) in its Table 1 contamination tables, but those tables concern biogenic amines and micro-plastics — not heavy metals — and the heavy-metals section (4.2) does not name any commercial brands. Part 12 brand-firewall does not apply to the heavy-metals content reported on this page.
-
-The review is a narrative review, not a systematic review or meta-analysis. The Data Availability Statement on page 16 explicitly states "No new data were created or analyzed in this study." All quantitative values reported in the `## Key numbers` section are secondary citations of other studies (chiefly Eticha and Hymete 2014, reference [72]), reproduced as the review reports them. Direct verification of those values against the original Eticha and Hymete paper has not been performed in this ingest and would be performed at the time the primary paper is itself ingested into the wiki.
-
-The HACCP critical limit of 0.04 mg/L for heavy metals at the raw-materials reception CCP (Table 4, page 13) is reproduced as the review states it. The review does not cite the specific regulation, codex standard, or industry guideline underlying this figure and treats heavy metals and mycotoxins as sharing the same 0.04 mg/L critical limit; this should be treated as a review-level claim rather than a regulatory baseline pending confirmation against the cited references [21, 68, 72, 89] grouped at that table row.
-
-The `metals:` source metadata list includes Cu, Mn, and Zn because the review reports concentration values for them (Eticha and Hymete data) even though those three are outside the HMTc 10-analyte certification list. Aluminium and tin are included as HMTc analytes with qualitative-only coverage in the source; iAs, tAs, MeHg, tHg, Ni, and Cr-VI are not discussed in the heavy-metals section and are therefore absent from the metals list.
-
-The `ingredients:` source metadata is empty: the review discusses barley, malt, hops, water, and adjuncts as beer ingredients, but none of these are present in the current ingredients taxonomy as primary HMI tracking targets. The `products:` source metadata uses [[products/fermented-beverages-non-tea-based]] as the closest existing umbrella; no beer-specific product page exists in the current taxonomy.
-
-The jurisdictions list includes GLOBAL because the review draws on European, Asian, African, and South American primary sources, and ET (Ethiopia) because the only primary quantitative heavy-metals dataset cited (Eticha and Hymete 2014) is from Ethiopia.
-
-The source PDF has an internal citation-numbering inconsistency in its heavy-metals section: the in-text citation numbers in the body do not match the slot numbers in the reference list for at least two papers in Section 4.2. Page 11 cites Blanco's 2010 aluminium-in-beer paper as "[73]" in the body, but reference-list slot [73] is Soares and Soares 2012 ("Bioremediation of industrial effluents containing heavy metals using brewing cells of Saccharomyces cerevisiae as a green technology"); the Blanco paper is at slot [79]. Page 12 cites Han's 2006 Cu/Pb biosorption paper as "[80]" in the body, but reference-list slot [80] is Redan et al. 2019 ("Factors affecting transfer of the heavy metals arsenic, lead, and cadmium from diatomaceous-earth filter aids to alcoholic beverages during laboratory-scale filtration"); the Han paper is at slot [86]. This page resolves the ambiguity by using the reference-list slot numbers throughout (Blanco=[79], Han=[86]), because those are the numbers that correctly resolve to the cited papers; the body-text numbers are noted parenthetically where each paper first appears so a later reader who is comparing this wiki page to the PDF body text can find the alignment without losing time to the PDF's own bookkeeping defect. The Eticha and Hymete reference is at slot [72] in both the body text and the reference list, so that citation is unambiguous.
-
-Audit editorial review (2026-06-06) raised both reference-number mismatches as ⚠️ concerns; both verified against the source PDF reference list (pages 16–19) and applied as a citation-bookkeeping correction with this verification note.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

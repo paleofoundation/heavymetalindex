@@ -84,14 +84,10 @@ Courses: Useful mechanistic example for Cd hepatotoxicity: acute Cd increased li
 
 App: Route to cadmium health context only. Do not translate the sinapic-acid intervention into consumer supplement advice or product certification claims.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[health/index]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/biomedicines13051065`; no DOI conflict was observed. Figure 1 contains liver Cd bars and axis units but no printed numeric labels, so liver Cd concentrations are recorded as graph-read approximations and not treated as exact sample values. The study reports a cadmium chloride toxicology challenge, not food-chain Cd occurrence. The paper mentions sinapic acid as a plant-derived compound found in foods, but it does not measure metals in foods, ingredients, supplements, or consumer products.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

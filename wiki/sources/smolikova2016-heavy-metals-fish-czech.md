@@ -61,7 +61,7 @@ For metals pages, this source is strongest for total mercury in fish muscle and 
 
 For regulation pages, the source explicitly applies the then-operative EC 1881/2006 maximum levels to fish and discusses RASFF reporting, but it is not itself a regulation or guidance document.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
@@ -75,12 +75,6 @@ For regulation pages, the source explicitly applies the then-operative EC 1881/2
 - [[products/fish-marine-predatory]]
 - [[products/seafood]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- The manual-fetch filename says "sold in Spain," but the source article describes fish purchased in Brno, Czech Republic markets.
-- No DOI was found in the paper, the MendelNet article page, or bibliographic index records checked during ingest; `no_doi_assigned: true` is therefore retained.
-- Instrument/reference-material vendor names appear only in methods context and are allowed under the strict brand-firewall exception for analytical vendors.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

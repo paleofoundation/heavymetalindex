@@ -64,7 +64,7 @@ Courses: Illustrates how chronic dietary and drinking-water heavy-metal exposure
 
 App: Treat Sri Lanka-origin rice, vegetables, freshwater fish, and drinking-water findings from this review as qualitative context pending primary-study extraction. Tea appears in this review primarily as fluoride/major-ion context, not as a heavy-metal occurrence anchor.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -86,12 +86,6 @@ App: Treat Sri Lanka-origin rice, vegetables, freshwater fish, and drinking-wate
 - [[ingredients/lentils]]
 - [[ingredients/water]]
 - [[products/fresh-fish]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected the publication to *Journal of Nephrology*, set the open-access license to CC BY 4.0 from the PDF license statement, removed unsupported inorganic-arsenic routing, corrected the arsenic study-count wording, and removed unsupported tea-cadmium claims.
-- Strict Part 12 recheck found no sampled-product brand names. The source phrase "branded/packed tea" was generalized to packaged tea; TRI and MMU are institutional/grade descriptors in the source table rather than sampled-product brands.
-- The review is a qualitative synthesis with no pooled concentration estimates. Do not promote its review-level findings to structured contamination profiles without extracting the cited primary studies.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

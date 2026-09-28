@@ -44,7 +44,7 @@ The study collected 298 meat samples from two markets in the Shuchinsk-Burabay r
 
 This source contributes occurrence data for beef, horse meat, pork, mutton, and poultry in a Kazakh market context. Pork and poultry are useful negative evidence for the four target analytes at this site. The non-US market setting, the small mutton (n=8) and poultry (n=15) cell sizes, and the absence of speciation should remain visible in routing and downstream synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[products/beef-product]]
@@ -56,14 +56,8 @@ This source contributes occurrence data for beef, horse meat, pork, mutton, and 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Batch 5 auto-fetched ingest, 2026-05-25.
-- Total arsenic and total mercury are not speciated iAs or MeHg.
-- The paper has an internal contradiction on beef Hg and Pb. The body text on p.1618 states "In beef samples, mercury concentration was 0.01±0.0002 mg/kg and lead 0.1±0.00001 mg/kg," but Table-4 reports beef Hg=0.03±0.0263 and beef Pb=<0. The Conclusion on p.1620 backs Table-4 ("In beef and mutton, a threshold for mercury contents has been set (0.03 mg/kg)"). This page follows Table-4 as the authoritative data table; downstream synthesis should not silently inherit the body-text values.
-- The paper also reports Cs-137 radionuclide activity for all species, all below the 200 Bq/kg permissible level. Radionuclides are outside HMI's scope and are not summarised here.
-- Generic-pork ingredient routing: no `[[ingredients/pork]]` slug exists; the umbrella `[[ingredients/meat]]` plus `[[products/pork-product]]` carries the routing. `[[ingredients/pork-chop]]` was removed because the paper sampled generic pork from markets, not chops specifically.
+- [[ingredients/pork]]
+- [[ingredients/pork-chop]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

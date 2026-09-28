@@ -125,34 +125,14 @@ Geographic specificity: Findings are specific to a single Mangalore market; do n
 
 Microbiome: Not addressed.
 
-## Verification notes
+## Related evidence
 
-- **2026-05-18 (audit editorial review verdict REVISE; verified against v3 PDF page 9 prose and Author Response 6 p. 17 — applied):** editorial review flagged the wiki's v3 permissible-limit row (`Hg ≤0.03`, `Cd ≤0.05`) as inconsistent with the paper's prose, which gives `Hg ≤0.003` and `Cd ≤0.005`. Re-verified: v3 p. 9 Quantitative-analysis paragraph states "The maximum permitted quantity (ppm) as suggested by the European Council for Food Packaging Association (Nordic guidance for authorities) is; As – 0.002 ppm, V – 0.01 ppm, Hg – 0.003 ppm, Cd – 0.005 ppm." v3 Author Response 6 (p. 17) corroborates the same values. v3 Table 3 column header reads `≤0.03 / ≤0.05` for Hg and Cd, which is a 10× discrepancy from the prose. Corrected: Table 3 in this wiki page now shows the prose values as authoritative and the table-header values as a flagged paper-internal inconsistency, and the inconsistency is documented in the Methods (brief) section alongside the V-tissue and range-omission flags. Exceedance counts unchanged because every Hg/Cd value exceeds both candidate caps.
-- **2026-05-18 (audit editorial review ⚠️ on matrices `food-packaging`/`packaging-material`; verified — finding noted, no edit):** editorial review noted these are not in the taxonomy snapshot's enumerated lists. Verified via `grep -h '^matrices:' wiki/sources/*.md`: both slugs appear repeatedly across the existing source-page corpus as established matrices for packaging-material studies. Per the audit-prompt note that "matrices vocabulary is its own controlled list," these are corpus-established matrices for this paper's scope. No defect; finding noted as a stale-snapshot artefact, no edit applied.
-- **2026-05-18 (editorial review, merge-enhance from v3 PDF re-read):** The prior page (updated 2026-05-14) used the v1 abstract's exceedance counts (Hg 2 of 13, Cd 1 of 13) as the headline Key numbers but framed them as v1+v3-combined. v1 and v3 give *different* exceedance counts because v3 revised the Hg and Cd permissible-limit reference from an uncited 100 ppm value to the Nordic Council 2015 TN2015-522 values (0.03 ppm Hg, 0.05 ppm Cd). The prior page's headline numbers were faithful to v1 but materially understated v3's exceedance findings (v3: Hg 13/13, Cd 10/13 detected). Both readings are now preserved with their respective limit references.
- - Title field: kept v1 title as canonical `title:` to preserve cite-key alignment; added `title_v3:` for the v3-revised title.
- - DOI: kept `doi: 10.12688/f1000research.121473.1` aligned with cite_key `mukhi2022`; added `doi_latest: 10.12688/f1000research.121473.3` and updated `access_url` to resolve to the latest version.
- - Metals source metadata: upgraded `[As, V, Hg, Cd]` → `[tAs, V, tHg, Cd]` to reflect ICP-OES total-element detection (non-negotiable speciation discipline).
- - Evidence tier: lowered from A to B. ICP-OES quantitative with peer review supports A on instrument quality, but the missing blank/recovery controls, unresolved migration-vs-extraction methodological objection, n=1 per material type, and one persistent non-approval review collectively put this in B territory per Part 13 conventions.
- - Added `raw_sha256` for the FM markdown (v1 source) and `raw_path_v3` + `raw_sha256_v3` for the PCMF PDF (v3 source).
- - `sample_population` rewritten to enumerate all 13 samples by type and to surface the "tetrapak" brand-term issue.
- - `near_duplicates` cleared — the v3 PDF is not a near-duplicate of v1; it is the same paper, later version. Both versions are documented in this single source page via the `_v3` companion fields.
- - Added `## Key numbers` Table 3 in full (Vanadium, tAs, tHg, Cd by sample, with both v1 and v3 permissible-limit rows) — the prior page summarised exceedance counts without the per-sample values, making downstream synthesis blind to which materials drove the headline numbers.
- - Added the paper-internal inconsistencies (V tissue 0.097 vs claimed "within limits"; As/V/Cd ranges in Discussion that omit lower-end detected values) — these are real defects in the published paper, not transcription errors, and downstream synthesis needs them flagged.
- - Added the v3 reader-comment caveat from Davide Marchesi (Tetra Pak, 07 Jan 2026) about extraction-vs-migration methodology — this materially affects how the exceedance claims should be propagated downstream and was not on the prior page.
- - Brand-firewall handling: replaced "tetrapaks" (a brand-name term, even if used generically in the paper) with "aseptic carton" in the body and Key numbers, noting the paper's term in sample_population. SenSafe (Industrial Test Systems) and Aquasol kits retained in Methods as scientific-method vendor names per the Part 12 strict-reading Exception 2 (locked 2026-05-17).
- - Fixed broken wikilink `[[supply-chain/packaging]]` (no such page) → `[[mitigation/packaging-and-storage]]`.
- - Added `[[metals/vanadium]]`, `[[metals/arsenic-total]]`, `[[metals/mercury-total]]` to "Wiki pages this source may touch" — prior page omitted V despite it being a primary measured metal, and did not use the speciation-explicit metal-page slugs.
- - `## Implications` tightened to occurrence-data framing per Part 2 / audit Check 5; removed "South Asian markets should flag elevated As and V risk in the app model" forward-looking-prescription phrasing.
- - Section heading `## Wiki pages updated on ingest` retained per current Part 6 template; Part 5b reminder: the model writes accurate source metadata, the routing layer (and not this section) determines downstream fan-out.
-
-## Wiki pages this source may touch
-
-- [[metals/arsenic-total]]
-- [[metals/cadmium]]
-- [[metals/mercury-total]]
-- [[metals/vanadium]]
+- [[supply-chain/packaging]]
 - [[mitigation/packaging-and-storage]]
+- [[metals/vanadium]]
+- [[metals/arsenic-total]]
+- [[metals/mercury-total]]
+- [[metals/cadmium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

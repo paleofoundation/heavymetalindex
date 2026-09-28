@@ -185,7 +185,7 @@ _Some metals not listed in this section because no ingested source yet covers th
 
 ## Regulatory limits that apply
 
-- [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for rice (pending ingest of CXS 193-1995).
+- [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for rice.
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for rice, quinoa, wheat bran, and wheat gluten is 0.15 mg/kg (150 ug/kg).
 - [[regulations/eu2023-contaminants-maximum-levels]] — EU inorganic arsenic maximum levels: 0.10 mg/kg (100 ug/kg) for rice destined for production of food for infants and young children; 0.15 mg/kg (150 ug/kg) for non-parboiled milled rice; 0.25 mg/kg (250 ug/kg) for parboiled rice, husked rice, and rice flour; 0.30 mg/kg (300 ug/kg) for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice; 0.030 mg/kg (30 ug/kg) for non-alcoholic rice-based drinks.
 - [[regulations/fda-closer-to-zero]] — FDA CTZ inorganic arsenic action level of 100 ppb in infant rice cereal is adjacent but not a cadmium rule.
@@ -229,7 +229,7 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
@@ -257,7 +257,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

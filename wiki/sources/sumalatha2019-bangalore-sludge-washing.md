@@ -53,7 +53,7 @@ Supports laboratory washing and contaminant-transport comparisons. Metal-rich le
 
 Evidence Fitness: EF-2 for source-reported removal and transport estimates; environmental remediation context, with replication and reporting-basis gaps.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/irrigation-and-soil-amendments]]
@@ -64,12 +64,6 @@ Evidence Fitness: EF-2 for source-reported removal and transport estimates; envi
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/lead]]
-
-## Verification notes
-
-Novel industrial-sludge matrix prevents environmental concentrations entering food rows. The prose order puts Pb 82.8 before Ni 88.7; retain numeric values without the incorrect ranking. The prose 70–95% range conflicts with its exact Zn 98.4%; exact element values govern. Curves have no complete tabulated time series; record a data gap rather than inventing chart precision. Cr is unspeciated, not Cr(VI).
-
-The preserved Library PDF is identified by `RPHMI_9`; SHA-256 `80f4906eb712dfe51c24ac0f3629773ebe37f2f6d852643fe651e666774df5e0`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://api-journal.accscience.com/journal/AJWEP/16/3/ajw190036/ajw190036.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

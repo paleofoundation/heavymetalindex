@@ -56,7 +56,7 @@ Courses: Useful for source-attribution and water-pathway teaching because the au
 
 App: Context only. The paper supports local water-pathway and exposure context, not product-level contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -65,12 +65,6 @@ App: Context only. The paper supports local water-pathway and exposure context, 
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated "not mineral-water product occurrence" as exclusionary, but the paper is in-scope a3 groundwater/wastewater pathway and source-attribution evidence.
-
-Numbers were checked against the extracted PDF text, especially the abstract, Methods, Table 1, Table 2, and conclusion. Units are preserved as mg/l. The paper reports total arsenic and total mercury only, so this page uses `tAs` and `tHg` and does not infer iAs or MeHg.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

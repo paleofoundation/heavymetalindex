@@ -58,7 +58,7 @@ Samples were collected during the January-March 2025 dry season from Wudil, Noma
 - Courses: Useful for showing how urban agriculture, soil contamination, and crop type create different heavy-metal patterns across vegetables.
 - App: Supports both crop-specific pages and broad vegetable category pages with table-level occurrence values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/green-bell-pepper]]
 - [[ingredients/lettuce]]
@@ -79,12 +79,6 @@ Samples were collected during the January-March 2025 dry season from Wudil, Noma
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- Chromium is total Cr, not Cr(VI).
-- The source table records negative Ni values for Sharada onion and lettuce. These are preserved as source-reported analytical outputs and should not be interpreted as true negative concentrations.
-- The abstract states that Sharada had Pb of 0.82 mg/kg, but Table 1 reports Pb 0.15 mg/kg and Mn 0.82 mg/kg for Sharada onion and lettuce. This page follows Table 1 and records the abstract/table discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

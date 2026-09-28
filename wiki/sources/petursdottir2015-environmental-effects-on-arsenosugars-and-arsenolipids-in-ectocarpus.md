@@ -67,21 +67,12 @@ Each analyte named in `metals:` is listed below with the measurement-bearing lin
 
 This page makes the source discoverable for category-level evidence routing. Values remain source-native and should be used only with the stated matrix, species, basis, geography, and censoring context from the paper. The page does not convert total mercury to methylmercury or use total arsenic as inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
 - [[products/seaweed-kelp-foods]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- Identity check: DOI, raw handle, cite-key, and SHA-256 were compared against existing the linked reference record pages before creation.
-- Provenance: first author and publication year resolved from Crossref for DOI `10.1071/en14229`. PDFs whose DOI does not resolve are skipped, not given a fallback key.
-- Full-PDF read: `pdftotext -layout` was run twice and the extraction hashes compared before the page was written.
-- Analyte scope: each metal is asserted only where its spelled-out name appears on a line carrying a measurement. Element symbols alone never assert an analyte.
-- Brand firewall: the worker skips PDFs whose numeric lines appear brand-sensitive; this page contains category-level or species-level evidence only.
-- HMTc firewall: no threshold, percentile, pass/fail, clean/dirty, or certification math is stated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

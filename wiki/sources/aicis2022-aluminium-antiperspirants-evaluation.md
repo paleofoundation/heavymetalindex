@@ -61,20 +61,10 @@ Courses: The report is useful for teaching the distinction between formulation p
 
 App: The source can support an Australian regulatory-context card for antiperspirant aluminium exposure. It should not be used for brand ranking, HMTc threshold comparison, or claims about products not covered by the source.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/deodorants]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_aluminium_antiperspirants_statement.txt`. The title block, subject/evaluation-scope pages, summary of use, Tables 1-2, human-exposure section, and risk-characterisation section were checked against this page.
-- No DOI is printed in the extracted report. Identity checks before creation found no existing the linked reference record, no title or `EVA00100` source-page hit, and no raw-handle hit for `MFK_use-of-aluminium-in-antiperspirants-evaluation-sta`.
-- Numbers are copied in the source's own units (`%`, `µg Al/kg bw/day`, `µg/kg bw/day`, `mg/kg bw/day`) and were not converted. The source's `3.6% Al` versus `3.61% Al` roll-on equivalent is preserved as a source-internal precision difference rather than normalized.
-- Speciation: this page uses aluminium/Al only. The report does not provide iAs, tAs, MeHg, tHg, Cr(VI), or total Cr occurrence data.
-- Brand firewall: the report uses formulation/product categories and an anonymized industry survey; no brand-linked values are reported here.
-- Evidence tier: `A` because this is an official AICIS regulatory evaluation. It is not primary occurrence evidence because AICIS did not generate the concentration data.
-- Routing: product slug `deodorants` and metal slug `aluminum` appear in the taxonomy snapshot. No closed ingredient slug is appropriate for the aluminium-salt group, so `ingredients` is left empty rather than inventing a salt-specific slug. `npm run evidence:source-routes` exited 0, generated one `deodorants` product route, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking empty-ingredients advisory in `routing_malformed.csv`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -50,7 +50,7 @@ For heavy metals: 0.5 g of pulverised, sun-dried nut sample was digested with 7 
 
 Occurrence data: contributes Nigerian-market nuts-and-seeds occurrence values for Cr, Ni, Cu, Zn, and total As, with Pb/Cd/Hg/Co below the apparent AAS detection floor. Direct routing applies to cashew nuts, peanuts, and walnuts (matched ingredients/products); date nuts, tiger nuts, and kola nuts have no current ingredient or product slug, so their data sits unrouted pending taxonomy expansion (see Verification notes). The constant-value pattern for Pb/Cd/Hg/Co should be treated as left-censored rather than as quantitative occurrence; downstream synthesis should use these as ≤LOD entries, not as detected concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cashews]]
 - [[products/peanuts]]
@@ -64,13 +64,6 @@ Occurrence data: contributes Nigerian-market nuts-and-seeds occurrence values fo
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Pb, Cd, Co, and Hg are reported as identical constants across all six nut types (0.04, 0.08, 0.20, 0.04 mg/kg). The paper does not state method detection limits, but the constant-value pattern is consistent with reporting at-or-below LOD as the LOD itself, not as measured concentrations. Synthesis should treat these as left-censored (`<=LOD`) values.
-- Three nut types in the dataset — date nuts, tiger nuts, and kola nuts — have no current ingredient or product slug in the wiki taxonomy. Their per-nut Cr/Ni/Cu/Zn/As values are documented in Key numbers above but are not routed to dedicated ingredient/product pages; they currently flow only through the broad `products/nuts-seeds-other` channel. Taxonomy expansion is a Karen judgment call (n=1 paper, so below the 5-paper page-creation threshold).
-- Values are on a dry-weight basis (samples sun-dried to constant weight, then pulverized, then microwave-digested). The paper does not provide a moisture content or fresh-weight conversion.
-- Heavy-metal analyses were performed at the Ghana Atomic Energy Commission, not in Nigeria; the samples are Nigerian-market but the laboratory work is Ghanaian. Jurisdictional tagging remains NG (market of origin), not GH.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

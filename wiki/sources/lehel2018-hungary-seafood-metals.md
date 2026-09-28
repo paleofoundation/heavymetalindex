@@ -61,15 +61,6 @@ Samples were collected weekly for `20` weeks from March to July `2015` at a loca
 
 This source supplies direct seafood-market occurrence evidence for shellfish, oysters, and squid sold in Hungary, with imported seafood origins documented in the sampling section. It is useful for shellfish and broad seafood routing, but the arsenic values are total arsenic and should not be used as measured inorganic arsenic. The mercury result is total mercury below LOD; it should not be promoted to methylmercury.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; abstract, sample collection, analytical method, Table 1, Table 2, Table 3, Table 4, and Results text were checked in `/tmp/f3_texts/lehel2018.txt`.
-- DOI `10.1080/19393210.2018.1505781`, raw handle `MFK_lehel2018`, and cite-key checks found no existing source page before creation.
-- Table 3 values are preserved as `mg kg-1 ww`; no dry-weight conversion or unit normalization was performed.
-- Speciation: arsenic is total/unspecified As and mercury is total Hg; no inorganic arsenic or methylmercury speciation was measured.
-- Brand firewall: the study sampled a fishery product market, but no brand-level contamination values are reported.
-- source metadata slugs were checked against the editorial record; no ingredient slug exists for squid or oyster, so broad seafood/shellfish/mollusc routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

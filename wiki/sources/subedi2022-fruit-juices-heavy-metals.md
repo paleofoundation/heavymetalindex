@@ -48,18 +48,13 @@ Samples were digested with nitric acid and analyzed using flame atomic absorptio
 
 The source provides useful fruit-juice occurrence context for Nepal. It is especially helpful as a low/ND lead observation across fresh, packaged, and powdered drink matrices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-non-apple]]
 - [[ingredients/fruit-juice]]
 - [[ingredients/pineapple]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.3126/jbkc.v11i1.53024 and the downloaded PDF.
-- Brand names were not transcribed; the source reports fruit type and drink format, which are sufficient for routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

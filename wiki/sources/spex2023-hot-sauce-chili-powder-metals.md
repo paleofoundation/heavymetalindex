@@ -67,7 +67,7 @@ Industry application note by SPEX CertiPrep (a standards and certified reference
 
 **App:** Chili powder Pb range up to 1.6 µg/g (1,600 ppb); Cr up to 7.0 µg/g (7,000 ppb); Cd up to 1.2 µg/g (1,200 ppb); tAs up to 0.4 µg/g (400 ppb). Flag as B-tier indicator data pending peer-reviewed confirmation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spices]]
 - [[products/spices]]
@@ -77,12 +77,6 @@ Industry application note by SPEX CertiPrep (a standards and certified reference
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) removed non-existent `chili-pepper` and `hot-sauce` route targets, broadened source metadata to current `spices` and `condiments-general` slugs, added total mercury scope because the note explicitly discusses mercury as not significant, and generalized the fast-food packet descriptor under the strict Part 12 firewall.
-- Source and methods vendor names are retained only for citation and scientific reproducibility context under Part 12 Exception 2; no sampled-product brand names are listed.
-- The application note does not report inorganic arsenic, chromium(VI), or methylmercury speciation; this page treats arsenic as total arsenic (`tAs`), chromium as total chromium (`Cr`), and mercury as total mercury (`tHg`).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

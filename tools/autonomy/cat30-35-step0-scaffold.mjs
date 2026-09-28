@@ -44,7 +44,7 @@ updated: ${DATE}
 
 ## Literature scope
 
-No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
+No sources are catalogued for this row yet.
 
 ## Sources
 

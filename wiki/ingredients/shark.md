@@ -54,7 +54,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico]]<span class="hmi-ref-meta">Rodriguez-Mendivil DD, Garcia-Flores E, Temores-Pena J, and Wakida FT · Health Scope · 2019 · [doi.org/10.5812/jhealthscope.78956](https://doi.org/10.5812/jhealthscope.78956)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/smolikova2016-heavy-metals-fish-czech|Determination of heavy metals in fish products]]<span class="hmi-ref-meta">Smolikova V, Ridoskova A, and Pelcova P · MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 · 2016 · [mendelnet.cz](https://mendelnet.cz/artkey/mnt-201601-0116_DETERMINATION_OF_HEAVY_METALS_IN_FISH_PRODUCTS.php)</span><span class="hmi-ref-tag">Conference</span>
@@ -64,7 +64,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

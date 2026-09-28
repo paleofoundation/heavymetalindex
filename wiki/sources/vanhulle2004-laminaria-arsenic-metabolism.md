@@ -78,21 +78,11 @@ The *Laminaria* sample was bought at a Chinese supermarket in Beijing and stored
 
 This source is useful as seaweed exposure-context evidence, not as a broad occurrence survey. It anchors the ingested *Laminaria* at `43.2 ± 0.4 mg kg-1` total arsenic, then documents how arsenosugar-derived species appeared in urine and how blood-compartment arsenic did not show a marked rise through `7 h`. Because the paper does not report inorganic arsenic in the seaweed, total arsenic from this source should not be substituted for iAs.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1039/B307457A`, raw handle `MFK_vanhulle2004`, title text, or cite key `vanhulle2004-laminaria-arsenic-metabolism`.
-- Text was extracted to `/tmp/hmi-seaweed-064.txt` with `pdftotext -layout`; title/authorship, Methods, Table 1, Table 2, Table 3, Results/Discussion, and Figure 7 caption text were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-064.txt`, especially the `43.2 ± 0.4 mg kg-1` Laminaria total-arsenic statement, urinary peak values, Table 3 blood-compartment values, and the simulated-gastric-fluid text.
-- Units and bases are preserved as `mg kg-1`, `g (dry mass)`, `ng mL-1`, `ng g-1`, `h`, `min`, `mL`, `°C`, and `Da`; no unit conversion was performed.
-- Speciation check: total arsenic in Laminaria, urinary DMA/MA/DMAE, arsenosugars, and the `254 Da` compound are kept distinct. The source does not report seaweed iAs, so the source metadata uses `metals: [tAs]` only.
-- Brand firewall: the Chinese supermarket source is retained only as market/geographic context; no store or brand name is reported.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact *Laminaria* ingestion and human-biological matrices remain in source text while source metadata routes the food matrix broadly to seaweed/kelp foods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

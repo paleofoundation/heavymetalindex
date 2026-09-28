@@ -55,15 +55,6 @@ Seafood samples were collected from different points of Saint Martin's Island an
 
 This source provides Bangladesh seafood occurrence evidence for fish, shrimp, lobster, and crab matrices, with wet-weight concentration ranges suitable for seafood and shellfish routing. Species-level findings should be handled as product-form occurrence and not as brand data. Arsenic should be used only as the source-described inorganic As measurement, and Hg should remain total/unspecified Hg unless a later source provides methylmercury speciation.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; Table 1 was checked against rendered page images because the table is rotated in the PDF and the text extraction interleaves columns.
-- DOI `10.1016/j.ecoenv.2018.04.035`, raw handle `MFK_baki2018`, and cite-key checks found no existing source page before creation.
-- Table 2's shrimp Fe range is printed as `18.71-`, and its shrimp Pb summary is printed as `0.69-0.69`; those source-printing quirks are preserved rather than repaired from inference.
-- Speciation: the paper states inorganic As was measured/detected for the As column and does not report total As. Hg is reported as Hg without methylmercury separation, so source metadata uses `tHg`.
-- Units are preserved as `mg/kg ww`; no dry-weight or fresh-weight conversion was performed.
-- Brand firewall: samples were species/local-market categories, not branded products.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

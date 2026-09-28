@@ -88,16 +88,12 @@ Courses: Useful for explaining why soil pH and organic matter are practical leve
 
 App: Should not directly set consumer rice occurrence values, but can inform source-risk flags.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]
 - [[metals/cadmium]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-The fetched filename placed the paper in a salt Cd queue because "salt tolerant rice" appeared in the title. The actual matrix is rice grain from a controlled pot experiment, not edible salt; routing should ignore the salt cue from the filename. The `sample_n: 36` source metadata value represents the 4 varieties × 3 pH × 3 OM = 36 unique treatment cells; the paper ran two separate factorial experiments (pH series and OM series), each replicated in triplicate, so total pot count is higher. BRRI 28, BRRI 47, BRRI 67, and Heera are rice cultivar/genotype identifiers (Bangladesh Rice Research Institute lines and a private hybrid), not consumer brands, and are retained per the scientific-method exception to Part 12.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

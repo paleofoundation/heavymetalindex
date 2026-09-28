@@ -72,15 +72,6 @@ Fresh, frozen, and canned seafood products were purchased at local retail outlet
 
 This source supplies direct seafood inorganic-arsenic occurrence evidence with total arsenic side by side for the same samples. It can support fish, shellfish, seafood, and canned-seafood pages where dry-mass iAs and tAs values are needed, while keeping the paper's dry-mass basis separate from fresh/as-consumed bases until a later normalization pass. The sample types are broad product forms rather than brands, so the values should route by seafood category and product form, not by named retail product.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; pages containing the abstract and Table 5 were rendered to PNG because the text layer converted the source's `µg g−1` units to `mg g−1`.
-- DOI is derived from the filename and RSC paper code `Paper 9/04999A` as `10.1039/a904999a`; DOI, raw handle, and cite-key checks found no existing source page before creation.
-- Table 5 total arsenic, inorganic arsenic, moisture values, method-comparison `P-value`, range, inorganic-percentage range, LOD, precision, recovery, and reference-material checks were verified against extracted text and rendered page images. Units are preserved from the rendered PDF as `µg g−1`, `ng g−1`, and `mol l−1`; no conversion was performed.
-- Speciation: inorganic arsenic is source-defined `As(III)+As(V)`, with documented possible co-distillation overestimate from MMA and DMA. Total arsenic remains `tAs`; no total arsenic value is treated as inorganic arsenic.
-- Brand firewall: samples were reported as seafood product forms only; no retail brand contamination values were present.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include anchovy, clam, cockle, mussel, sardine, squid, octopus, razor clam, shrimp, and langostillo, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

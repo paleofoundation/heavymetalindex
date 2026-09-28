@@ -54,16 +54,12 @@ Courses: Useful example of why coffee occurrence values should distinguish dry p
 
 App: Supports coffee product and ingredient context for Polish-market coffees, with values labeled by product form.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/coffee]]
 - [[ingredients/coffee]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Foods PDF. The author surname contains a hyphen in the PDF; the cite key removes punctuation for slug stability. The paper also measures Fe, Zn, Cu, and Mn, but only Pb and Cd are recorded in the HMI metals source metadata.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

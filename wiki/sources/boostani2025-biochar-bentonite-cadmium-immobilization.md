@@ -56,18 +56,10 @@ Courses: Strong example that amendment combinations can be matrix-specific: bent
 
 App: Context only; the spiked-soil values are not consumer-product concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The DOI, title, author list, journal, and year were taken from the Scientific Reports PDF. The auto-fetched filename is a coffee/cadmium hit because coffee-grounds biochar is one tested amendment, but the target matrix is experimentally Cd-spiked soil. Products and ingredients are intentionally empty so spiked-soil and amendment-performance values do not enter occurrence-threshold calculations.
-
-The `matrices:` slugs (calcareous-soil, coffee-grounds-biochar, municipal-solid-waste-biochar, bentonite, soil-remediation) are descriptive free-text outside the controlled food/personal-care matrices vocabulary, which is appropriate for a Cd-spiked soil-remediation study; with empty `products:` and `ingredients:` arrays, the routing layer correctly treats this source as remediation evidence only.
-
-GPT audit (2026-06-09 autonomous) flagged "M + B2 carbonate-bound Cd 14.0 mg/kg" as a transposition of the 14.9 mean; verified against Table 3 (M+B2 cell = 14.0) and the page 6 source text ("the combined treatments of G + B0 (14.0 mg Cd kg-1) and M + B2 (14.0 mg Cd kg-1)") — finding was a false positive because the auditor confused the M-column mean (14.9) with the M+B2 cell value (14.0).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

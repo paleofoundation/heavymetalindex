@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-28] lint | public-batch-prose: remove ingest bookkeeping from published pages
+
+Pages touched: published pages under wiki/ (sources, products, ingredients, metals, regulations, synthesis, supply-chain, methodology). Batch detail moved to [[batch-reports/public-prose-relocation-2026-09-28]], which the public build does not publish.
+Notes: Inventory of internal ingest and batch-log lines is in data/evidence/public-batch-prose-inventory-2026-09-28.csv. Reader-facing source links were kept as Related evidence or ordinary sentences. Measured values, units, and citations were not changed. `tools/audit-public-batch-prose.mjs` fails CI, pre-commit, and prebuild on the same patterns. Quartz ignorePatterns now exclude batch-reports, lint, and log.md. Direction: toward the literature. No certification threshold was set.
+
 ## [2026-09-28] lint | homepage-layout: remove public batch logs
 
 Pages touched: [[index]]

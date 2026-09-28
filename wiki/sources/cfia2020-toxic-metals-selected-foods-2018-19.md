@@ -89,16 +89,6 @@ The "food as sold" basis means powder protein and powder formula values cannot b
 - [[products/rice-bulk-grain]]
 - [[products/other-grain-products]]
 
-## Verification notes
-
-- Filename prefix is "HealthCanada" but the issuing body on the report cover and throughout the text is the Canadian Food Inspection Agency (CFIA). Health Canada conducted the final health risk assessment; CFIA conducted the sampling and chemistry. Cite key uses `cfia2020-` to match the existing `cfia2025-toxic-metals-selected-foods-2022-23` series and the report's true authorship.
-- Publication year inferred as 2020 from PDF metadata (CreationDate 2020-08-10; no explicit publication date printed in the report body). The survey covers fiscal year 2018-04-01 through 2019-03-31.
-- No DOI assigned (CFIA targeted-survey reports are not DOI-minted); `access_url` points to the inspection.canada.ca landing page convention used for prior-year reports.
-- No exact taxonomy slug exists for "meal replacement products (ready-to-serve beverage mixes)" — the n=198 meal-replacement subset is left off `products:` rather than mis-routed to `supplements-protein-collagen-powders` (a different product class) or `category-5-beverages` (a Category 5 taxonomy index, not a routing destination). The meal-replacement values are still captured in this page's Key numbers table; the routing layer will surface this as a candidate provisional scaffold if a second source touches the same category.
-- The "average" values in Tables 2 and 3 are computed only over quantifiable samples, not over all samples in the cell. This convention inflates means versus a standard left-censored arithmetic mean and is preserved verbatim in the Key numbers table; downstream synthesis passes should not treat these means as ND-inclusive arithmetic means.
-- Brand firewall: the survey reports values only at the product-category level (no brand names in the source PDF), so no brand redaction was required.
-- Speciation: arsenic and mercury are total-only in this report (no iAs/MeHg breakout). Chromium and tin were not measured.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

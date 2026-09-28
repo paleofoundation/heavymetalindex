@@ -92,16 +92,12 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 - Courses: Reference example of a national-monitoring design under EU Reg. 882/2004 and 333/2007 with full chain-of-custody from voivodship sampling through accredited regional laboratory through NIH reference laboratory through inter-laboratory proficiency testing. Useful as a worked example of below-detection handling under the SCOOP "one-half of the range" convention.
 - App: Contributes to the contamination profiles for [[ingredients/milk-and-dairy]], [[ingredients/whole-milk]], [[ingredients/yogurt]], and [[ingredients/butter]] in a European (Polish) context, with sub-format granularity across liquid milk, fermented and non-fermented liquid products, cottage cheese, maturing cheese, butter, and ice cream. Values land in the lower tail of the European dairy distribution and contribute occurrence weight rather than threshold-setting weight; the child-exposure flag (50% of BMDL for neurotoxic action at the 90th percentile, 20-kg child) is the load-bearing finding for downstream lead-in-dairy synthesis on the metals/lead page.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
-- [[ingredients/milk-and-dairy]]
-- [[ingredients/whole-milk]]
-- [[ingredients/yogurt]]
-- [[ingredients/butter]]
 - [[products/butter-and-ghee]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
@@ -109,26 +105,7 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/efsa-lead-contam-2010]]
 - [[regulations/efsa-arsenic-contam-2009]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance against the source PDF).** The previous version of this page (dated 2026-05-14) had four classes of defect that this revision corrects:
-
-1. **Invented or wrong slugs in source metadata.** Previous `ingredients:` listed `ingredients/milk` and `ingredients/cheese`, neither of which exists in the current taxonomy. Replaced with `[[ingredients/milk-and-dairy]]` and `[[ingredients/whole-milk]]`, plus retained `[[ingredients/yogurt]]` and `[[ingredients/butter]]`. Cheese is carried in `matrices:` (cottage-cheese, maturing-cheese) rather than as an ingredient slug because no `cheese` ingredient page exists; only `cheddar-cheese` does, and this paper does not measure cheddar. Previous `products:` listed `products/mixed-meals-non-rice`, which is not applicable to a paper that measures milk, yogurt, cheese, butter, and ice cream; removed. `[[products/butter-and-ghee]]` is retained because the paper measures 61 butter samples explicitly.
-
-2. **Wrong compliance statement.** Previous wording read "No exceedances of the 0.020 mg/kg Pb limit for liquid milk were detected." Source page 4 explicitly states: "two samples of milk did not meet the 0.020 mg Pb/kg threshold provided for in the legislation; the highest result was 0.05 mg/kg." Corrected accordingly in both the opening prose and the Key numbers / Implications sections.
-
-3. **Missing exposure numbers.** Previous Key numbers section contained only the headline averages and the regulatory context; the source's full estimated-daily-intake breakdown by product format and analyte (source pp. 1048–1049), the % PTWI / PTMI / BMDL₁₀ / TWI EFSA framing, and the child-exposure flag (50% of BMDL for neurotoxic action at the 90th-percentile, 20-kg child, source p. 1049) were all absent. All added in this revision.
-
-4. **Missing maximum-value context.** Previous version did not report the corpus-maximum Pb of 0.220 mg/kg (domestic salami cheese), the 0.147 mg/kg in a rural cottage cheese and in an ice-cream sample, the maturing-cheese sub-format averages and 90th-percentiles for all four analytes, or the per-format breakdown of average and 90th-percentile values across milk, liquid milk products, cottage cheese, maturing cheese, butter, and ice cream. All added.
-
-**Speciation discipline.** The paper measures arsenic by HGAAS and mercury by CVAAS without speciation. `metals:` carries `tAs` and `tHg` (not `iAs` or `MeHg`). The Methods section makes this explicit.
-
-**Brand firewall (Part 12, strict 2026-05-17 reading).** The source does not name any brands. Voivodship-level geographic descriptors (Upper Silesia, Lower Silesia, Lublin, Podlasie, Beskid Średni, Bieszczady, Wrocław region) and the regulator-event identifier "RASFF notifications" are retained as scientific-method / regulatory-event references, not brand identifiers. Comparative cross-country results from other published surveys (UK, France, Germany, Spain, etc., referenced in the source's Discussion) are not reproduced here in tabular form because they are properly part of metals/lead, metals/cadmium, etc. synthesis pages and not part of this single-source Key numbers section.
-
-**Wiki/HMTc firewall (Part 2).** No HMTc threshold proposals or certification-aligned framing in `## Implications`; the section limits itself to what the paper's findings contribute to the European dairy occurrence baseline. Direction of edit: toward the literature (correcting the wrong compliance statement, populating the missing exposure numbers, and removing invented slugs all make the wiki more accurately reflect the source); no movement toward HMTc convenience.
-
-**Routing.** `products: [[[products/butter-and-ghee]]]` is the only locked HMTc row this paper feeds, via the 61 butter samples (n=61 in 2007 cohort). Milk, yogurt, cheese, and ice-cream sub-formats do not yet have locked HMTc product pages and route through ingredient pages (`milk-and-dairy`, `whole-milk`, `yogurt`) and the `matrices:` field instead.
+- [[[products/butter-and-ghee]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

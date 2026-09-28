@@ -51,7 +51,7 @@ Courses: The brief is useful for teaching the difference between total arsenic, 
 
 App: The source can support chicken/poultry arsenic-speciation context, especially as a pointer to the full EHP market-basket paper.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
@@ -59,15 +59,6 @@ App: The source can support chicken/poultry arsenic-speciation context, especial
 - [[ingredients/poultry]]
 - [[ingredients/meat-and-poultry]]
 - [[products/poultry-product]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_570.txt`; the title block, Key Findings, Research Summary, map labels, and full-title/abstract-link footer were checked against this page.
-- The extracted brief does not print a DOI. DOI `10.1289/ehp.1206245` was checked because it is the primary EHP article linked by abstract identifier `1206245`; no source page for that primary article was found. Existing the linked reference record is a separate correspondence page and was recorded as a near-duplicate context page, not a duplicate of this brief.
-- Units are copied exactly as printed: `2.3 micrograms per kilogram of meat`. The brief does not state wet/dry basis beyond "meat," so no basis was inferred or converted.
-- Speciation: the reported numeric occurrence value is inorganic arsenic. The brief also says total arsenic and methylated arsenic species were analyzed, but it does not print total arsenic concentration values in the extracted text.
-- Brand firewall: the brief states that the sample represented `60` unique chicken brands. This source page omits brand names and reports only category/production-group data.
-- source metadata slugs were checked against the editorial record; `chicken-meat` and `chicken-breast` are matrix descriptors rather than product or ingredient slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

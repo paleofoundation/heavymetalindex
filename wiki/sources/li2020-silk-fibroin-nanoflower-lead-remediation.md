@@ -86,21 +86,13 @@ App: Context for remediation and water-treatment notes. The paper supports the c
 
 Courses: Useful for teaching adsorbent selectivity, pH/precipitation control, and the difference between an adsorption capacity endpoint and an occurrence concentration endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the self-assembly synthesis method, pH optimization section, adsorption kinetics, Table 2 kinetic parameters, Table 3 isotherm parameters, selectivity experiment, FTIR/zeta/XRD mechanism discussion, conclusion, and supplementary-materials note. The source is specific to Pb(II) adsorption, with Cd(II) and Ni(II) used for selectivity comparison. Products and ingredients are intentionally empty because no food, ingredient, drinking-water sample, or consumer-product matrix was sampled.
-
-The matrices slugs (silk-fibroin, protein-inorganic-hybrid-nanoflower, aqueous-sorption-test, wastewater-remediation) are remediation-domain proposals outside the current controlled food-matrix vocabulary; they follow the precedent set by wang2020-lignin-residue-biochar-heavy-metal-remediation and are flagged here for a future taxonomy refresh that adds a remediation-matrix controlled vocabulary.
-
-Audit editorial review 2026-06-02 (v2 skill, fresh-context general-purpose agent) returned PROMOTE on all five checks; two optional completeness concerns were applied to the Key numbers Pb(II) isotherms and thermodynamics paragraph (added the 80-500 mg/L isotherm-fitting concentration range that the paper used because 5-50 mg/L was fully adsorbed, and added the source's absolute delta H magnitudes of 64.30 and 17.91 kJ/mol at 100 and 500 mg/L Pb(II)).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

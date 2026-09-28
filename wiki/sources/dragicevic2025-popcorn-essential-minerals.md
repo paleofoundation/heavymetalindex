@@ -66,25 +66,6 @@ Limitation for HMI scope: HMI-scope toxic metals (Pb, Cd, iAs, tAs, MeHg, tHg, N
 - App: Does not advance any HMTc analyte sub-block on [[ingredients/corn]] or [[ingredients/maize]]. The Ca, Mg, Fe, Cu, Mn, Zn data are out of scope for the `contamination_profile` schema.
 - Routing fan-out: matrix `popcorn` maps to `[[products/snacks-crackers-biscuits]]` per the structured evidence record; the source contributes context (not occurrence evidence) to that product page.
 
-## Verification notes
-
-This page was merge-enhanced on 2026-05-29 against the original PDF (the archived source file):
-
-- **`metals:` field corrected and completed.** Prior listing was `[Cu, Mn, Zn]` which omitted the macro-minerals the paper actually quantified (Ca, Mg) and the Fe values prominently reported in Table 4 and the Implications. Replaced with `[Ca, Mg, Fe, Cu, Mn, Zn]`, matching the sibling convention used for Abebe et al. 2017 popcorn (list all measured analytes regardless of HMI scope). None of these are HMI-scope toxic metals; the page remains EF-4 (Context only) for HMTc purposes.
-- **`matrices:` expanded** from `[cereal-grain]` to `[popcorn, cereal-grain]`. The paper measures both raw kernels (cereal-grain matrix) and microwave-popped flakes (popcorn matrix). The `popcorn` matrix key is recognized in the structured evidence record and routes to `[[products/snacks-crackers-biscuits]]`.
-- **`products:` populated** from `[]` to `["[[products/snacks-crackers-biscuits]]"]` per the matrix-to-product map (`popcorn → snacks-crackers-biscuits`). This clears the routing-malformed advisory entry that prior `products: []` triggered. Did not propose any new product pages — Step 0 Lock is Karen's separate workflow per Part 10.
-- **Mg upper-range typo corrected** from 2094.9 to 2094.7 µg/g. The PDF Table 4 (p. 281) reports H11 Mg = 2094.7 ± 66.8 µg/g; the prior wiki value of 2094.9 was a single-digit transposition. Verified against Table 4 directly.
-- **Phytic P maxima attributed to correct hybrids.** Prior page reported the kernel/flake Pphy ranges (2.94-3.50 / 2.78-3.46 mg/g) without naming the responsible hybrids. Added: kernel max in H6 (3.50 ± 0.04), flake max in H7 (3.46 ± 0.02). Verified against Table 3 (p. 281).
-- **Range-and-attribution detail added throughout `## Key numbers`** to make each min/max value individually re-derivable against Tables 3, 4, and 6.
-- **Limitation paragraph added** to `## Methods (brief)` explicitly noting which HMI-scope analytes are absent and that no LOD/LOQ data are reported for any element.
-- **Legacy `## Wiki pages this source may touch` section removed.** Per the 2026-05-17 cleanup of `## Wiki pages updated on ingest` legacy headings (and the sibling Abebe 2017 popcorn merge-enhance on 2026-05-29), the routing layer (not the source page) is responsible for fan-out to metal and ingredient pages. The metals/copper, metals/manganese, metals/zinc, metals/iron pages do exist as wiki pages but are not HMI-scope; the source's lack of HMI-scope metal measurements means it does not advance the `contamination_profile` for any ingredient page anyway.
-- **source metadata additions** to align with current schema landed in the 2026-05-28 10-year architecture commit (10eef01): `evidence_fitness: EF-4` (Context only — no HMI-scope metals measured), `public_evidence_label: Context only`, `review_state: approved_for_internal`, `claim_classes: []` (no HMI-scope claims supported), `access_url` (DOI link), `access_date: 2026-05-29`, `raw_sha256` (computed via shasum -a 256 against the source PDF), `sampling_locations: ["Zemun Polje, Belgrade"]`, `sampling_year_range: "2021-2022"`, `ingest_method: manual_phase1_priority`, `created_by: claude_opus_47_session`.
-- **Sample population expanded** to include all twelve hybrid identifiers and the 4 × 100 kernels-per-replicate popping detail.
-- **Authors string** updated to include the full author list (was previously truncated in `authors:` array order; now matches PDF p. 277 byline exactly).
-- **Publication string** updated to "Chilean Journal of Agricultural Research 85(2): 277-286" (was 277-285; the article runs through p. 286 per the PDF page numbering).
-- Brand-firewall scan: the paper does not name any consumer brand or producer. Genotype identifiers (ZP 611k, ZP 542/1k, etc.) are breeding-program designations from Maize Research Institute Zemun Polje, not consumer-product brand names; these are research-material identifiers and are retained. Methods-section vendor names (Samsung, Perten/PerkinElmer, Biochrom, Thermo Scientific, Cretors, EU Instruments) are scientific-reproducibility content retained per the Part 12 vendor-name exception.
-- Direction-of-edit check: all changes move toward the literature (correcting a transposed Mg digit, completing the measured-analyte list, populating routing fields per the matrix map, removing a legacy heading). No changes move toward HMTc convenience; the page remains explicit that no HMTc analyte sub-block is advanced.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

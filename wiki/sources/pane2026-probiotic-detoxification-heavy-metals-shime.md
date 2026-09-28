@@ -87,22 +87,12 @@ Limitations explicitly named by the authors (paper p. 11, §5): the SHIME® mode
 - Microbiome: Direct metal–microbiome interaction paper. Adds to the body of evidence that specific lactobacilli species can immobilize ingested heavy metals in the colonic compartment via cell-pellet association and that pre-incubation with strain-derived metabolites (cell-free supernatants) protects intestinal epithelium from HM-induced tight-junction dysregulation and pro-inflammatory cytokine induction. Strain- and metal-specific behavior — LA12 active in simple in vitro assays but inactive in SHIME, LP14 and LCR04 reciprocally active in SHIME but not on Pb in vitro — is the load-bearing nuance for any downstream WikiBiome cross-link.
 - App / Courses: Not directly applicable; this paper does not characterize a food, a supplement, or an exposure route. May surface in advanced course material on gut-microbiome-mediated detoxification mechanisms.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/mercury]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Speciation flags (locked at ingest): the paper performs total-element quantification by ICP-MS and does not speciate. The experimental Cr is exclusively Cr(III) from CrCl3 (not Cr-VI), and the experimental Hg is exclusively inorganic Hg(II) from Hg(NO3)2 (not MeHg). source metadata uses `Cr` and `tHg` per the system-prompt rule that unspeciated quantifications default to the total form. The Methods section above states the actual species used in the experiment to preserve the chemistry context for downstream readers.
-- No brand-firewall implications: the only corporate names in the paper are reagent / instrument / reference-material vendors (Sigma Aldrich, Thermo Scientific iCAP RQ, BD Accuri C6 Plus, Carl Roth, Merck, Chem-lab, ProDigest, GraphPad Prism 7) which are scientific reproducibility content and are retained per the Part 12 Exception 2 (locked 2026-05-17). No food / supplement / consumer-product brands appear in the source.
-- No HMTc threshold framing: the paper proposes no certification thresholds and the Implications section does not introduce any.
-- No consumer-product or food-ingredient match in the current taxonomy: this is a bioremediation mechanism paper using inorganic salt mixtures in gut simulators and a murine intestinal explant; `ingredients: []` and `products: []` are correct, not a missing-slug case.
-- `matrices: [simulated-gastrointestinal, in-vitro-digestion, intestinal-epithelium, gut-microbiome]` reuses bare-string matrix tokens that already appear in the corpus for SHIME / GEVS / bioaccessibility studies; no new matrix terms invented.
-- Jurisdictions are author-affiliation codes (Italy: Probiotical / University of Piemonte Orientale; Belgium: Ghent University CMET; Netherlands: Bron Consultancy) — the experiments are bench / ex vivo, not site-specific population sampling, so country codes describe where the science was performed rather than a sampling jurisdiction.
-- Audit editorial review (2026-06-03) flagged four findings against the source: (1) ❌ asterisk-inequality bounds in the SHIME significance bullet ("0.05 < p ≤ 0.01" is mathematically impossible) — verified against paper p. 4 §2.4.5; corrected to the paper's verbatim "0.01 < p ≤ 0.05 (*)" and explicitly noted that the paper's printed ** bound is non-monotonic; (2) ⚠️ FITC-Dextran significance level on the LCR04 GEVS panel — verified against Figure 4A; corrected from ** to *** for the MIX vs MIX+LCR04 comparison; (3) ⚠️ Figure 4's atypical * = p < 0.1 convention (the paper's caption diverges from the standard p < 0.05 cutoff) — applied to the IL-10 LA12 line and flagged here so downstream readers do not silently inherit the standard threshold; (4) ⚠️ minor rounding of SHIME pancreatic juice oxgall from the paper's 15.9 g/L to 16 g/L in Methods — verified against paper p. 3 §2.4.1; corrected to 15.9 g/L. Audit verdict pre-revision: REVISE; post-revision: PROMOTE.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

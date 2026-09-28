@@ -67,27 +67,6 @@ App: Use Table 1 values for Pb, Cd, Cu, and Zn by vegetable type. Flag the abstr
 
 Microbiome: Not applicable.
 
-## Verification notes
-
-- 2026-05-20 merge-enhance: page predates the 2026-05-14 schema cut-off. Corrections applied to bring source metadata in line with current convention and to expand the Key numbers section to cover all four measured metals (the prior version dropped Cu and Zn). Specific changes:
- - `raw_handle` corrected from generic `manual-fetch-source-retrieval` to `MFK_the-health-risk-assessment-of-heavy-metals-in-vege` (matches the imongben2026/clair-caliot2021 MFK_ pattern in this folder).
- - `raw_path` filename corrected from truncated "...Vegetables Cultivat.pdf" to the full PDF name "...Vegetables Cultivated in Babol City, Iran.pdf".
- - `metals:` expanded from `[Pb, Cd]` to `[Pb, Cd, Cu, Zn]`. The paper measures all four; the wiki should record all four even though only Pb and Cd are HMTc priority analytes.
- - Key numbers expanded to include full Cu and Zn means and SDs per Table 1, EDI values per Table 2 for all eight vegetables, and a per-vegetable Iran-standard compliance check.
- - Added explicit "Abstract/Table discrepancies" section. The prior page noted the Cd-peak abstract/table mismatch in a single Key-numbers bullet; the discrepancies are broader (Cu abstract 12.86 vs Table 1 max 6.67, Cu discussion 12.68 vs Table 1 beans 2.86, parsley Cu 6.63 results-text vs 6.67 Table 1, Zn SD 33.3 results-text vs 3.33 Table 1) and warrant their own section.
- - Updated `updated:` from 2026-05-13 to 2026-05-20.
- - `products: []` retained per current vegetable-paper convention (chiutula2025, katebe2024, imongben2026, clair-caliot2021 all `products: []`; the routing layer falls back to broad scope, and none of the matrix slugs used here are in the structured evidence record, so the page passes `audit-routing-discipline`). The build-routing-audit `advisory` row for this source is informational, not blocking.
- - `matrices: [leafy-vegetable, root-vegetable, legume]` retained as-written; these slugs are used consistently across the vegetable-paper subcorpus even though they are not the leaf-product-page slugs (`leafy-vegetables-other`, `root-tuber-vegetables`, `legumes-pulses-other`). Renaming would be a corpus-wide migration, not a per-paper edit.
- - `cite_key`, `doi`, `access_url`, `license`, `sample_n`, `sample_population`, ingredient wikilinks, and `jurisdictions` preserved.
-- 2026-05-20 audit-application (editorial review verdict REVISE; five findings, four applied, one rejected, none confirmed false positive):
- - Applied: `ingredients/tomatoes` → `ingredients/tomato`. Verified taxonomy snapshot and the linked reference record directly — `tomato.md` exists, `tomatoes.md` does not. Invented-slug correction.
- - Applied: Iran Pb standard rewrite — auditor caught that source p. 119 puts beans in the 0.2 mg/kg parsley/spinach/beans bucket, not the 0.1 mg/kg bucket. Re-quoted source: "the allowable limit of lead concentration in parsley, spinach and beans is estimated 0.2 and in potatoes, onions, tomatoes and cucumber was estimated to be 0.1." Reformatted the Iran-standards summary and the per-vegetable compliance line accordingly.
- - Applied: Garbled potatoes Pb compliance line "potatoes Pb 0.20 = 0.2 (at limit for non-leafy 0.1 — exceeds)" replaced with the clean "potatoes Pb 0.20 > 0.1 (exceeds)" framing.
- - Applied: Removed the Codex/FAO 10 mg/kg Cu advisory-benchmark sentence and the forward-looking "where Cu becomes a covered analyte" framing from Implications. Verified against source — the paper says only "the average concentration of copper in all analyzed products was lower than the FAO/WHO" without quoting a specific Cu limit, so the 10 mg/kg figure was imported from outside knowledge (Part 2 firewall slip).
- - Applied: Table 2 "second Potatoes row" clarified as almost-certainly-mislabeled Tomatoes (Tomatoes is missing from Table 2 despite being in Table 1; the second row's values fit Table 1's tomato concentrations).
- - Applied: Zn HQ vs HI conflation tightened — Zn HQ exceeds 1 strictly for parsley (1.10) and spinach (1.14); for cucumbers (Zn HQ 0.83) and beans (Zn HQ 0.93), HI > 1 is because Zn-plus-other contributions sum above 1, not because Zn alone does.
- - Noted, not changed: `ingredients/basil` is not in the taxonomy snapshot; basil cannot be added to source metadata without first creating a basil ingredient page. Out of scope per the editorial policy (no new ingredient pages created during ingest; auto-stub handles ingredients ≥freq-2 separately).
-
 ## Related evidence
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/spinach]]

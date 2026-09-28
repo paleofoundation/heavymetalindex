@@ -86,13 +86,10 @@ The evidence supports treating farmed and wild seafood as two distinct MeHg occu
 
 The "with-documented-feed-regime" qualifier is load-bearing: not all farmed-fish operations have feed-MeHg testing infrastructure, so the lower-MeHg population can only be established for those that do. Whether and how any threshold-setting program responds to this two-population structure is a policy choice that the wiki does not prescribe; what the literature supports is that the two populations exist and have different distributions.
 
-## Downstream pages updated
+## Related pages
 
-- [[products/fresh-fish]] — Levers to reduce contamination section names aquaculture-vs-wild as a meaningful sourcing lever distinct from species-selection-within-wild.
-- [[products/seafood]] — same as above.
-- [[products/fish-containing-baby-foods]] — particularly load-bearing for infant-food sourcing where MeHg-protection of vulnerable populations is the dominant concern.
-- [[ingredients/fish]], [[ingredients/freshwater-fish]] — contamination profile and ingredient-derivative risk sections should reflect the farmed-wild differential.
-- [[metals/mercury-methyl]] — Biomagnification section and Climate-driven enhancement section both reference the farmed-wild distinction.
+These findings are also recorded on [[products/fresh-fish]], [[products/seafood]], [[products/fish-containing-baby-foods]], [[ingredients/fish]], [[ingredients/freshwater-fish]], and [[metals/mercury-methyl]].
+
 
 ## Anchor sources
 
@@ -100,14 +97,11 @@ The "with-documented-feed-regime" qualifier is load-bearing: not all farmed-fish
 - [[sources/li2024-global-fisheries-mehg]] — Global fisheries MeHg modeling supporting the aquaculture-as-exposure-reduction mechanism.
 - [[sources/rusko2026-mercury-fish-latvia-risk-benefit]] — Wild inland-fish MeHg evidence; comparison baseline for farmed equivalent.
 
-## How this page was promoted
-
-Established 2026-05-18 from the seafood-axis evidence consolidation. The aquaculture-vs-wild MeHg differential is a large and consistent effect in the literature that had not been treated as a standalone synthesis. The page consolidates that evidence so the farmed-vs-wild distinction is documented as a distinct MeHg axis within the seafood category rather than being averaged into a single seafood-category figure.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -119,7 +113,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2421921122](https://doi.org/10.1073/pnas.2421921122)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Peer-reviewed</span>

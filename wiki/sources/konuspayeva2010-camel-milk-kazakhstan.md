@@ -115,7 +115,7 @@ Mercury (Hg, tHg, MeHg) was NOT measured. Cadmium (Cd) was NOT measured. Antimon
 
 **App:** Provides occurrence priors for raw camel milk in a Kazakhstani supply-chain context for Pb (high, mean ~250 ppb with right tail to 532 ppb), tAs (<100 ppb but uncharacterized below that), Cr (mean ~60 ppb), and Zn (likely ~5 ppm overall per abstract; per-region Table 2 values should not be used). The Cu, Fe, Mn values from the smaller Sample (i) herd-mixed milk dataset (n=8) provide lower-confidence priors for the nutritional/trace elements. Camel milk from regions with co-located polymetal or oil-extraction activity should be treated as a meaningful Pb-exposure source in the app's contamination-likelihood model.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
@@ -125,26 +125,6 @@ Mercury (Hg, tHg, MeHg) was NOT measured. Cadmium (Cd) was NOT measured. Antimon
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The cite-key uses `konuspayeva2010-camel-milk-kazakhstan` to match the publication-year-on-cover (2009 issue, Volume 1, pages 112–118; received March 2009, accepted November 2009) while preserving the raw_handle filename verbatim (`MFD_konuspayeva2010-camel-milk-heavy-metals`). The "2010" in the handle reflects the discover skill's filename heuristic; the journal record gives 2009. The year source metadata is set to 2009 to match the journal record. Future referencers should be aware both years appear in different bibliographic systems for this paper.
-
-**Sample (ii) Zn units discrepancy.** Table 2 per-region Zn means (48.62, 59.90, 57.08, 52.13 ppm) average to ~54.4 ppm, while the abstract and discussion text state an overall Zn mean of 5.42 ± 0.2 ppm. The Pb and Cr columns in Table 2 align with the abstract's overall means within rounding, so this is not a global units-on-table issue but a probable single-column transcription error in the Zn column (most plausibly the values should be ppm/10, or the column is mislabeled and should be in some other unit). Source values are preserved verbatim above; the discrepancy is documented here so that no downstream synthesis silently averages 54 ppm Zn into a camel-milk prior. The abstract/discussion value of 5.42 ppm aligns with the Sample (i) herd-mixed milk Zn mean (5.16 ppm), so 5.42 ppm is the value to carry forward.
-
-**Brand firewall (Part 12).** No brand names appear in the source. Sampling is aggregated to farm (F1–F8) and region (Almaty, Aral, Atyrau, Shymkent) level. Brand-firewall compliant. Method-vendor names reproduced under the methods exception (Varian Vista MPX – CCD, Carlo Erba Reagents SA, AccuTrace, AccuStandard).
-
-**Speciation absence.** tAs and Cr values are total-element only. Any future use of these values in iAs or Cr-VI synthesis would require an explicit assumption about speciation fractions and should be flagged as inferred, not measured. The As LOD of 0.1 ppm (100 ppb) is too coarse to characterize sub-100 ppb As concentrations in milk; the authors themselves note that more sensitive methods would be needed to confirm the actual As level.
-
-**Cd and Hg absence.** Cadmium and mercury (any form) were not measured in this study, despite being two of the four core HMTc dairy analytes. This is a corpus gap for Kazakh camel milk that remains open after this ingest.
-
-**Matrices vocabulary.** `shubat` (fermented camel milk) and `fodder` are used as matrix slugs. `shubat` follows the precedent in pankiewicz2012 (kefir, buttermilk, cottage-cheese as matrix slugs without dedicated ingredient pages); `fodder` is included because the fodder data is part of the published table, although fodder is a feed matrix rather than a food matrix and would not normally route to product pages.
-
-**Sampling year.** Manuscript received 31 March 2009, accepted 10 November 2009. Actual sample collection year is not stated in the paper; sampling_year_range left null.
-
-**Open Access licensing.** The paper is explicitly Creative Commons Attribution Non-Commercial (CC BY-NC 3.0) per the footer of the published PDF. Bentham Open journal.
-
-**Audit editorial review (general-purpose, fresh context, 2026-05-30) findings applied.** Verdict PROMOTE with two ⚠️ concerns: (1) the Implications section originally cited "Codex Stan 193-1995 raw-milk Pb limit of 20 ppb" alongside the national tolerable values — the audit correctly noted that Konuspayeva et al. do not cite Codex, only Turkey/Germany/Netherlands/Kazakhstan national values. Verified against the source (pp.116–117): no Codex reference appears in the paper. Editorial Codex reference removed; statement now ties the comparison only to the national tolerable values the authors themselves cite. (2) Abstract-vs-Table 1 minor precision differences for Sample (i) shubat Cu (abstract 0.163 ± 0.164 vs Table 1 0.16 ± 0.16) and Zn (abstract 7.217 ± 2.55 vs Table 1 7.212 ± 2.55). Verified against the PDF: both differences are real paper-internal rounding/transcription variations. The wiki page uses Table 1 values per HMI policy of preferring source tables over abstract restatements; the differences are too small (≤0.005 absolute) to be load-bearing for any downstream synthesis.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

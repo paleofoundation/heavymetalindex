@@ -53,10 +53,6 @@ This page records the national Ecuadorian maximum level cited by a source paper.
 - FAOLEX attached file for Resolucion No. 302: http://faolex.fao.org/docs/pdf/ecu123640.pdf
 - [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]] - source-page encounter that required the Ecuador NTE INEN 184 routing target and cites the 1.0 mg/kg total-mercury comparator.
 
-## Verification notes
-
-- Created 2026-05-18 by Codex during P0163 seafood manual-fetch ingest. The FAOLEX/UNEP public record verifies the standard's legal identity, mandatory officialization, text date, official-register publication, and non-repealed status. The exact 1.0 mg/kg Hg value is taken from Aguilar-Miranda et al. 2024's direct citation to NTE INEN 184:2013 and the paper's Table 1 note.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

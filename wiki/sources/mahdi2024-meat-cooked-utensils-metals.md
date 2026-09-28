@@ -50,7 +50,7 @@ The study does not provide brand-level cookware or meat-origin detail in the acc
 
 For product-category pages, this paper supports utensil-material differences in cooked-meat metal levels. For food pages, it contributes Iraq-specific cooked-meat occurrence values, but utensil effects and source meat contamination are not fully separable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat]]
 - [[products/game-meats]]
@@ -60,10 +60,6 @@ For product-category pages, this paper supports utensil-material differences in 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The source reports total elemental concentrations in ppm. `game-meats` is the closest existing broad meat product slug available; routing should be revisited if a general cooked-meat product page is later created.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

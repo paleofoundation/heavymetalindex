@@ -77,7 +77,7 @@ Courses: Useful example of a non-food upstream pathway where an industrial activ
 
 App: Context only. The source can inform supply-chain due-diligence questions around mechanic-village or workshop contamination near orchards; it does not score cashew products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -85,12 +85,6 @@ App: Context only. The source can inform supply-chain due-diligence questions ar
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/copper]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as out of scope because it measured soil and tree bark rather than cashew food occurrence. On reading, it is in-scope a2/a3 evidence: it reports phytoremediation uptake percentages and a mechanic-activity soil contamination pathway.
-
-Numbers were checked against the abstract, Tables 1-4, results discussion, methods, and conclusion in the extracted PDF. Products and ingredients are intentionally empty because no edible cashew, mango, neem product, or other consumer product was measured.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -91,14 +91,6 @@ Single-author narrative review of laboratory digestion methodology, 6 printed pa
 
 **App:** No app-ingestible data. The paper has no concentration values, no detection limits, no method-recovery numbers, and no commodity-specific contamination measurements.
 
-## Verification notes
-
-- Brand firewall (Part 12): no brand-by-brand contamination attributions appear; the paper does not name product brands. Material classes named in the methods discussion (PTFE, PFA, PVDF, fused quartz, borosilicate glass, glassy carbon) are scientific-material vocabulary, not brand attributions, and are preserved per Exception 2 of [[docs/gpt-collaboration/verification-checklist]].
-- Wiki/HMTc firewall (Part 2): no HMTc threshold claims, no certification-comparison sentences, no synthesis-grade claims about category contamination levels. The paper's normative claim is method-comparative (preferred digestion technique), not contamination-quantitative.
-- Author overlap: this paper is by the same Kasahun Wale at the Ethiopian Institute of Agricultural Research, Jimma, as the prior wale2023-heavy-metals-fruits-vegetables-overview review, listed in `near_duplicates`. The two papers are subject-distinct (2023 = contamination overview; 2024 = digestion methodology) but share Table 1 of the 2024 paper / Table 2 of the 2023 paper. Both tables are tertiary citations of Ihesinachi and Eresiya 2014.
-- Palladium framing flagged on both Wale papers; downstream metal-page synthesis should not treat the Wale series as evidence supporting Pd-in-produce surveillance.
-- Audit editorial review (2026-06-07) flagged dual `ingredients/fruit` + `ingredients/fruits` listing as a snapshot-level singular/plural duplication; reconciled to plural-only `fruits` to match the wale2023-heavy-metals-fruits-vegetables-overview sibling pattern.
-
 ## Related evidence
 - [[metals/lead]]
 - [[metals/cadmium]]

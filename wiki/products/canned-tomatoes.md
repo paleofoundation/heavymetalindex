@@ -16,9 +16,8 @@ sources: 10
 
 ## Overview
 
-> **This page has been aliased up to its parent HMTc row.** Canned Tomatoes is a sub-variant of **[[products/canned-foods-general|Canned foods, general]]** (Category 7), not a standalone HMTc standards row. Source pages that declare `products: [[products/canned-tomatoes]]` now route their evidence to [[products/canned-foods-general]] via the routing layer's inheritance map. See [[docs/governance/category-7-step0-lock]] for the routable-scaffold-vs-threshold-lock rationale.
+> Canned Tomatoes is covered on [[products/canned-foods-general|Canned foods, general]].
 
-The prior scaffold content (an autonomy_v0 stub with no synthesized evidence) is preserved in git history.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -75,6 +75,8 @@ Read-only reader sweeps that fill semantic gaps the structural audits cannot rea
 
 **Homepage layout:** `wiki/index.md` contains a markdown heading, or any prose outside the designed homepage sections. The public homepage is one HTML layout. Batch logs ("recently added", "added on <date>", source lists parked after the closing wrapper) are a lint failure. Run via `node tools/audit-homepage-layout.mjs` (exit 1 on any finding). It runs in `npm test`, `.husky/pre-commit`, and `prebuild`, after the homepage generators. Those generators may refresh their marker blocks, including the library ledger, and then re-check the file. They do not append free prose.
 
+**Public batch-log prose:** any page Quartz publishes (everything under `wiki/` except `batch-reports/`, `lint/`, `log.md`, `briefings/`, `queries/`, `private/`, `templates/`, and `raw/`) contains ingest bookkeeping. The patterns include verification notes, ingest logs, routing-audit placeholders, "pending ingest", "routing layer", "how this page was promoted", "downstream pages updated", and "ingest receipt". Update history is exempt. A legitimate match goes in `tools/audit-public-batch-prose.allowlist.txt`, one path per line. Run via `node tools/audit-public-batch-prose.mjs`. It runs in `npm test`, `.husky/pre-commit`, and `prebuild`. Batch detail belongs in `wiki/batch-reports/`, which the Quartz build does not publish.
+
 ## Output and log conventions
 
 Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently.

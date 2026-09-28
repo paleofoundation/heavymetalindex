@@ -70,7 +70,7 @@ Courses: Useful for explaining why nickel — a non-restricted analyte under mos
 
 App: Supports infant-formula powder context with categorical evidence on Cd, Hg, and As (non-detect on the Polish market 2019-2023) and on Ni, Sn, Co, Cr (detected at low absolute concentrations but Ni intake exceeding EFSA LOAEL on a per-body-weight basis for 1-month infants). The dataset does not address ready-to-feed or concentrated liquid formula forms.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[products/infant-formula-powder-non-soy]]
@@ -90,20 +90,6 @@ App: Supports infant-formula powder context with categorical evidence on Cd, Hg,
 - [[metals/manganese]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/efsa-nickel-tdi]]
-
-## Verification notes
-
-Title, authors, journal, DOI, and publication year were taken from the Springer PDF title page; the journal cites the article as "Biological Trace Element Research (2025) 204:385-400" with "Published online: 17 June 2025." The cite-key uses 2025 to match the publication-year citation header; the raw filename (and therefore the raw_handle) retains the original "dobrzynska2026" stem assigned at discovery time.
-
-This page records arsenic as tAs (total arsenic) and mercury as tHg (total mercury) because the paper measures total-element concentrations by ICP-MS without speciation. The paper writes "As" and "Hg" without speciation flags throughout. Chromium is recorded as Cr (total chromium); Cr-VI was not measured.
-
-Lead is intentionally not in the metals list. The Discussion section explicitly states that "The assessment of Pb [...] concentrations is limited in this study due to significant elemental interference" (p. 396). Selenium is also not included — the authors state it will appear in a separate publication (reference 46).
-
-The 78 formulae for special medical purposes (FSMP) span an HMTc product class not currently represented as a wiki product slug; the routing audit will surface this. Goat-milk-based powdered formula (n=15) is also not represented as a wiki ingredient slug; the routing audit will surface this. Per the ingest-skill rules, this page does not create new ingredient or product pages.
-
-Brand identification is not provided in the paper, so the brand firewall is automatically satisfied. Methods-section vendor and instrument names (CEM MARS6, Linde, ROMIL, Milli-Q/Merck Millipore, Romil standards, ERM-BD150) are retained per the 2026-05-17 scientific-method exception.
-
-Audit editorial review (2026-06-09) flagged `[[ingredients/cow-milk-infant-formula]]` and `[[ingredients/milk-based-infant-formula]]` as invented slugs not present in the taxonomy snapshot. Verified false positive: both pages exist at the linked reference record and the linked reference record, and the routing audit accepted both wikilinks cleanly with zero unresolved targets for this source. The discrepancy is a staleness gap in the editorial record, not a defect in this source page. The audit editorial review also questioned the Ni FSMP maximum being rendered as `0-12` rather than `0-12.5`; verified false positive — Table 9 shows the FSMP Ni range as `<0-12>` with no decimal, matching the page text. Audit verdict was REVISE; on independent verification no source metadata or body changes are warranted.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

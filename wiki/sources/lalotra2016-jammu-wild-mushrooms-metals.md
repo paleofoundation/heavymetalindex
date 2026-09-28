@@ -53,18 +53,13 @@ Courses: Useful example for separating edible, non-edible, and poisonous species
 
 App: Supports a general caution that wild mushrooms can accumulate Pb and Cd, but does not support species-agnostic consumer values without species and edible-status separation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
 - [[products/mushrooms]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- The DOI, title, authors, publication, and year are printed in the PDF.
-- The page does not treat total chromium as Cr(VI); chromium is not one of the primary routed metals for this source page because the candidate file was Cd/Pb-focused and the key extractable toxic values are Pb and Cd.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

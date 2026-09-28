@@ -78,16 +78,12 @@ App: Context for water-treatment and remediation notes. The nanofiber showed str
 
 Courses: Useful for distinguishing sorbent capacity, removal percentage, pH-dependent chemistry, and selectivity from occurrence concentrations. It also illustrates why Hg(II) removal does not substitute for methylmercury evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including Table 1 comparator adsorbents, synthesis and adsorption methods, characterization sections, Figure 4 concentration-response discussion, Figure 5 pH response, Figure 6 contact-time results, Table 2 kinetic parameters, Figure 8 selectivity discussion, Figure 9 desorption discussion, conclusion, supplementary-materials note, and data-availability statement. Products and ingredients are intentionally empty because all measured concentrations come from controlled aqueous solutions. The source reports Hg(II) and Pb(II); this page preserves ion-state specificity in prose while using broad Hg and Pb source metadata metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

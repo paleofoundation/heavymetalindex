@@ -158,27 +158,20 @@ This source has minimal direct value for the Heavy Metal Index in the food-and-s
 
 The review does not provide primary contamination data on any food matrix, ingredient, product, or regulation. No `contamination_profile` synthesis is triggered. No HMTc threshold implication. No regulatory event documented. This is a research-agenda framing piece for algal biotechnology, retained as C-tier mechanistic background.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
-- [[metals/chromium-hexavalent]]
-- [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/nickel]]
 - [[metals/zinc]]
 - [[metals/lead]]
-- [[metals/mercury]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- source metadata `metals:` uses `tAs` (not `As`) and `tHg` (not separate `Hg` + `MeHg`) per Part 14 speciation discipline: the review discusses arsenate, arsenite, and elemental mercury without speciated iAs or MeHg measurement, and Table 3's Hg entries cover both Hg²⁺ (MerR-targeted) and broader Hg (MerA-targeted) without consistent species labels. `Cr` and `Cr-VI` both retained because §4 and Table 1 explicitly discuss Cr-VI biosorption and Cr-VI → Cr-III reduction.
-- source metadata `matrices:` uses `[microalgae, algal-biomass, wastewater-remediation]`. `microalgae` is precedented (see [[sources/raab2024-arsenolipids-chlamydomonas]]). `algal-biomass` and `wastewater-remediation` are descriptive matrix slugs analogous to existing slugs (`bacterial-cell` in [[sources/aishwarya2024-extremophiles-bioremediation-review]]; `chromium-wastewater`/`wastewater-remediation` in [[sources/yang2023-amidoxime-carbon-felt-crvi-removal]] and [[sources/wu2023-hybrid-membranes-lead-copper-adsorption]]); they should be confirmed against the matrices controlled vocabulary on the next Karen review.
-- `ingredients` and `products` are empty by design: this is a methods-and-bioremediation review with no food or supply-chain measurement. An advisory `routing_malformed` entry for empty products/ingredients is intentional and precedented for this paper class (see [[sources/macias2023-polymer-inclusion-membranes-seawater-metals]], [[sources/wu2023-hybrid-membranes-lead-copper-adsorption]] audit-queue notes).
-- `jurisdictions: [CN]` reflects author affiliation (all eight authors at institutions in Sichuan, China). The review's underlying primary references are global; the jurisdictional tag captures the synthesis venue, not the underlying contamination evidence.
-- Brand firewall (Part 12): no brand names appear in the review's content; commercial-microalgal-strain identifiers (e.g., "JSC-7", "CNW11", "CPCC 121", "ZBS1", "TU5", "NJD-1", "MAS1", "MAS3", "ChlSG", "PCV", "R-3") are strain designations from primary culture collections or research-isolate labels, not consumer brands. Retained per Exception 2 (scientific-method/material names — see [[the editorial record]] §Firewall checks).
-- Part 2 firewall: no HMTc threshold proposal, no consumer translation, no synthesis claims relative to the broader literature.
-- Audit editorial review (2026-06-02, ingest-next-manual-fetch-pdf v2 skill) flagged that the Table 2 *Chlorella pyrenoidosa* / Cu row originally compressed three additive rows into "87–88%"; verified against PDF p. 7 Table 2 — citric acid 81%→87%, fulvic acid 81%→87%, humic acid 81%→88%. Split into three rows for full fidelity.
+- [[sources/raab2024-arsenolipids-chlamydomonas]]
+- [[sources/aishwarya2024-extremophiles-bioremediation-review]]
+- [[sources/yang2023-amidoxime-carbon-felt-crvi-removal]]
+- [[sources/wu2023-hybrid-membranes-lead-copper-adsorption]]
+- [[sources/macias2023-polymer-inclusion-membranes-seawater-metals]]
+- [[the editorial record]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

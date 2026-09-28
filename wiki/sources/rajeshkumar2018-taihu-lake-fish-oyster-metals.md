@@ -110,53 +110,14 @@ Surface water collected with an Aqua trap water sampler at seven sites in Meilia
 
 Open-access mode unconfirmed. Article published in *Chemosphere* (Elsevier, Volume 191, January 2018, pp. 626–638), DOI 10.1016/j.chemosphere.2017.10.078. PDF supplied via the Papers Cube Manual Fetch process; preserved at the archived source file. License field unknown pending check of the Elsevier license terms for this article.
 
-## Verification notes
+## Related evidence
 
-- **2026-05-18 (editorial review, EXISTING path / merge-enhance):** Pre-existing page at this filename (dated 2026-05-14) carried multiple defects requiring rewrite. Three identity checks (DOI grep, raw_handle grep, cite-key grep) all matched this single existing page; no duplicate conflict.
-
-- **Unit error — water (1000× wrong):** Prior page reported water Pb as "mean 5.06 mg/L (winter), 2.28 mg/L (spring), 6.00 mg/L (summer), 0.26 mg/L (autumn)" and water Cd as "0.74, 0.13, 0.24, 0.14 mg/L." Table 1b explicitly states water units as **µg/L**, not mg/L. The header of Table 1b reads "Heavy metal concentrations in water (µg/L) and sediment (µg/g)." Page corrected. The prior page's claim that "Pb in water exceeded the Chinese drinking water standard (CDW = 10 µg/L threshold noted)" is also wrong in fact: at µg/L scale, average Pb winter 5.06 and summer 6.00 do NOT exceed CDW 10 µg/L. Pb did exceed the USEPA TRV freshwater criterion (3 µg/L), which is what is now stated.
-
-- **Unit error — sediment (1000× wrong):** Prior page reported sediment as "mean 13.99 mg/g (winter)" for Pb. Table 1b header is **µg/g**, not mg/g. Page corrected.
-
-- **Pb/Cr transposition — sediment:** Prior page's "Pb: mean 13.99 mg/g (winter)" was the **Cr** winter average (Table 1b, Cr column, average row = 13.99 ± 2.42). The actual Pb winter average is 8.53 ± 1.25 µg/g (Table 1b, Pb column, average row). Both columns now reported separately.
-
-- **Invalid ingredient slug:** Prior page declared `[[ingredients/oyster]]`. No the linked reference record exists in current taxonomy. the linked reference record has `oyster` in its aliases list (which would resolve via alias-matching), but the canonical slug is `bivalve-molluscs`. source metadata changed to `[[ingredients/bivalve-molluscs]]` for direct routing rather than alias-resolution.
-
-- **Broken wikilink — supply-chain page:** Prior page's "Wiki pages updated on ingest" listed `[[supply-chain/freshwater-aquaculture-china]]`. No such page exists. Removed (the "Wiki pages updated on ingest" section is removed entirely per current Cochrane-bar template; the ingest session does not write downstream pages directly, and the routing audit determines fan-out).
-
-- **Missing product slug — freshwater fish:** Prior page declared only `[[products/fresh-fish]]` and `[[products/shellfish]]`. The paper is specifically about freshwater fish from a freshwater lake; `[[products/fish-freshwater]]` is the more specific product category and is now added. `fresh-fish` retained as the general fresh-fish product page; `shellfish` retained as the oyster-applicable category.
-
-- **Missing access_url:** Added `https://doi.org/10.1016/j.chemosphere.2017.10.078` to source metadata.
-
-- **raw_handle preserved:** Existing raw_handle `papers-cube` preserved per the merge-enhance rule (skill v2 §Phase 1 step 4: "preserving cite_key, raw_handle, raw_path"). Note that the post-2026-05-14 convention for Papers Cube Manual Fetch is `PCMF_<basename>` (e.g., `PCMF_rajeshkumar2018`), and 20 pre-convention pages still carry the legacy `papers-cube` handle. Not changed in this session because the v2 skill explicitly says preserve; a future schema-migration pass can rationalize the 20 legacy handles together.
-
-- **Paper-internal contradiction — species name:** Abstract, §2.3 ("Crucian carp Carassius carassius"), §3.3 ("Heavy metal content in fish C. carassius"), and §4 ("C. carassius in the winter and summer than spring and autumn seasons") all identify the fish as *Carassius carassius* (crucian carp). Table 3 row labels it *Carassius auratus* (goldfish). Treated as a typographical error in the Table 3 row label; *Carassius carassius* used throughout this source page per the four other identifications in the paper.
-
-- **Paper-internal contradiction — oyster Pb prose vs Table 3:** §4 Discussion states "high level of Pb in both summer (average, 3.1 µg/g wet weight) and autumn (average, 3.3 µg/g wet weight) oyster in this study obviously exceeded the aforementioned limits." Table 3 (the primary data) reports oyster Pb summer 1.85 ± 0.55 and autumn 0.55 ± 0.09; the winter value 3.03 ± 0.25 is the closest match to "3.1" and "3.3." The most parsimonious reading is that the Discussion misnames seasons (winter Pb 3.03 ≈ "3.1") or has swapped a season label. Table 3 numeric values are reported here as authoritative; prose mismatch flagged.
-
-- **Paper-internal contradiction — oyster Cu prose vs Table 3:** §4 Discussion states "Cu levels in C. gigas at autumn, winter, summer and spring (average, 1.7 µg/g, wet weight) were above the Maximum Levels of Contaminants in Foods GB 2762-2005." Average of Table 3 oyster Cu across the four seasons is (2.74+0.39+1.48+0.50)/4 = 1.28 µg/g, not 1.7. The numerical claim "1.7" is unsupported by the Table 3 values. The GB 2762-2005 0.5 µg/g exceedance claim is true on the Table 3 winter and summer values; flagged in the prose summary above using the per-season Table 3 values, not the unsupported "1.7" average.
-
-- **Paper-internal contradiction — abstract framing on water Pb:** Abstract states "Pb content in the water of Lake Taihu exceeded international safety thresholds." On the Table 1b µg/L values, no average Pb season exceeded CDW 10 µg/L or WHO 10 µg/L (winter 5.06, summer 6.00); Pb did exceed the USEPA TRV freshwater toxicity reference of 3 µg/L in winter and summer. Reported faithfully in the water section above with both the abstract framing and the Table 1b reality.
-
-- **Typo in Methods:** §2.2.2 prints "98.8071.93%" for the MESS-1 recovery range; transcribed verbatim above with a "[typographical error]" annotation rather than a silent "fix" to "91.38–98.80%" or "91.38–98.80%, 71.93%" (the intended range is not unambiguously recoverable from the printed text).
-
-- **Speciation:** Total Pb, Cd, Cr, Cu only. No iAs/tAs distinction (paper does not measure As). No Cr-VI/Cr-III speciation. No MeHg/tHg distinction (paper does not measure Hg). `metals:` carries `[Pb, Cd, Cr, Cu]` accordingly.
-
-- **Brand firewall:** No brand names appear in the paper's contamination-attribution content (the paper measures wild fish/oyster, not branded products). Methods section names instrument vendor (Analytik Jena ZEEnit-700P AAS) and reference materials (NRCC BCSS-1, DORM-2, MESS-1) and chemical-standards vendor (Merck, Germany) under the locked 2026-05-17 Exception 2 (scientific-method vendor names are permitted; only contamination-value brand attribution is forbidden).
-
-- **Part 2 firewall check:** No HMTc threshold proposals, no consumer translations, no synthesis claims comparing this paper to other freshwater-aquaculture literature. `Implications` describes context for the freshwater-fish and bivalve-molluscs ingredient pages and the freshwater-fish / shellfish product pages only; per-cell `contamination_profile` updates are deferred to the Part 9 synthesis pass.
-
-- **2026-05-18 (Phase 2 audit editorial review verdict REVISE; two findings applied, two findings rejected as false positives):**
-
-  **Applied — Check 1 ⚠️ on Chinese regulation labeling:** editorial review correctly flagged that Table 3 row labels are GB 2762-2005 and NY 5073-2006 (not "Chinese Food Health Criterion 1994" and "NY 5073-2001" as the original ingest had them). Verified against PDF p. 9 Table 3 row labels and against §4 Discussion p. 635 which references "NY 5073-2001" inconsistently with the Table 3 row label. Paper-internal inconsistency between Table 3 row labels, Table 3 footnotes (footnote 13 describes the "Chinese Food Health Criteria, 1994. GB 15201-94 for Cd, GB 15199-94 for Cu, GB 14935-94 for Pb and GB 13106-91 for Zn[S]" — which is a DIFFERENT standard than the row-labeled GB 2762-2005), and §4 Discussion prose. Page revised to (a) report Table 3 row-label values under their stated names, (b) note the paper-internal year mismatches (NY 5073-2006 vs NY 5073-2001), (c) carry through the §4 Discussion's prose-only "GB 2762-2005 Cu 0.5 µg/g" since the GB 2762-2005 Cu exceedance argument depends on it even though the Table 3 row shows "—" for Cu under GB 2762-2005. The original "Chinese Food Health Criterion 1994 Cu 50, Cr 2.0, Cd 0.1, Pb 0.5" attribution conflated three distinct standards and is removed.
-
-  **Applied — additional fix (related):** Original page wrote "FEPA 1983" twice in the fish permissible-limits section; Table 3 row label is "FEPA (2003)" and reference list confirms FEPA, Federal Environmental Protection Agency, 2003, Guidelines and Standards for Environmental Pollution Control in Nigeria, p. 238. Corrected to "FEPA 2003."
-
-  **Rejected (false positive) — Check 2 ❌ on `products/fish-freshwater`:** editorial review stated `products/fish-freshwater` is not in the taxonomy snapshot Products list. Verified against the linked reference record (exists; modified 2026-05-18; title "Fish — freshwater (tilapia, catfish, trout)") and against the routing audit which produced a `locked_hmtc_row` route for this source to `fish-freshwater` (see the structured evidence record post-rebuild). The taxonomy snapshot at the editorial record is generated 2026-05-17 and uses a mixed ingredient/product slug list rather than a comprehensive product-page enumeration; absence from that snapshot is not evidence the product page does not exist. No change applied; finding is a false positive. Pushback documented.
-
-  **Rejected (false positive) — Check 2 ❌ on `products/shellfish`:** editorial review stated `products/shellfish` is not in the taxonomy snapshot Products list. Verified against the linked reference record (exists; modified 2026-05-17; title "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)") and against the routing audit which produced a `locked_hmtc_row` route to `shellfish` for this source. Same false-positive root cause as above. No change applied; finding is a false positive. Pushback documented.
-
-  **Net of audit:** 4 findings; 2 applied (regulation labels + FEPA year); 2 rejected (both product slugs do exist; editorial review misread taxonomy snapshot). Verdict REVISE → applied → revised.
+- [[ingredients/oyster]]
+- [[ingredients/bivalve-molluscs]]
+- [[supply-chain/freshwater-aquaculture-china]]
+- [[products/fresh-fish]]
+- [[products/shellfish]]
+- [[products/fish-freshwater]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

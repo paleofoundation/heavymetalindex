@@ -60,15 +60,6 @@ The study collected `50` brown macroalgal samples from `25` Scottish Forth locat
 
 This source provides seaweed-food occurrence evidence for total arsenic, inorganic arsenic, lead, cadmium, and other trace metals across Scottish and Japanese brown macroalgae. It is especially useful for preserving species-level differences: *Laminaria digitata* carried much higher inorganic arsenic fractions than *Fucus vesiculosus* or Japanese *Laminaria japonica*. Downstream extraction should keep total arsenic, inorganic arsenic, dry-weight basis, and leached-solid versus remaining-liquid values separate.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; title/byline, abstract, sample collection, analytical details, iodine Results, total-As Results, As-speciation Results, leach-experiment Results, and food-implications trace-element paragraphs were checked in `/tmp/f3_unrepresented_texts/ownsworth2019.txt`.
-- DOI `10.1016/j.scitotenv.2019.05.263`, raw handle `MFK_ownsworth2019`, and cite-key searches found no existing source page before creation.
-- Units are preserved as source-reported `ppm`, `ppb`, `ppt`, and percentages; no conversion was performed.
-- Speciation: total arsenic and inorganic arsenic are separate. Arsenosugars and DMA are documented in Key numbers but not collapsed into inorganic arsenic.
-- Brand firewall: a commercial Japanese sample was used as reference material in the source, but no brand name is attached to a contamination value in this page.
-- source metadata slugs were checked against the editorial record; species-level slugs for *Laminaria digitata*, *Fucus vesiculosus*, and *Laminaria japonica* are absent, so broad seaweed/kelp routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

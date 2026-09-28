@@ -48,7 +48,7 @@ Tea infusions were prepared from tea materials and measured by spectrophotometry
 
 The source supports aluminum occurrence evidence for brewed tea and herbal infusions, especially for extraction-condition effects. It should not be converted into dry-tea mg/kg values without a documented basis conversion.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/tea]]
 - [[ingredients/herbal-botanicals]]
@@ -56,10 +56,6 @@ The source supports aluminum occurrence evidence for brewed tea and herbal infus
 - [[products/tea-infusions]]
 - [[products/herbal-botanical-infusions]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The paper includes Hungarian and English text. This page uses the English abstract and method description and preserves the infusion concentration basis.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

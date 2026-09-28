@@ -63,7 +63,7 @@ App: Can support future exposure-context language that dietary pattern and seafo
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -71,13 +71,6 @@ Microbiome: No microbiome findings.
 - [[metals/aluminum]]
 - [[metals/chromium]]
 - [[testing/index]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, participant counts, study design, monitored metals, LOD statement, Table 2 urinary values, and RDA driver statistics were transcribed from the extracted PDF text.
-- Units were kept as the source reports them: urinary metals in nmol/d and plasma values in micromol/L where relevant. No conversion to ug/L or mg/kg was made.
-- The source reports unqualified urinary Pb, Cd, Ni, Al, and Cr biomarkers; no arsenic or mercury speciation issue applies.
-- Products and ingredients are intentionally empty because the paper reports exposure biomarkers and diet-driver modelling, not market-product contamination values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

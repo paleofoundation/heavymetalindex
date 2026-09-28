@@ -45,7 +45,6 @@ The authors' own series is 191 Turkish children patch tested with the European b
 | --- | --- | --- | --- | --- | --- | --- |
 | Ni | products in direct skin contact | 0.5 | ug/cm2/week | regulatory release limit |  | p.4 (printed 1074) |
 
-
 ## Methods (brief)
 
 Retrospective single-center review, ethics 29/01/2020 number 2020/0103. Mean age 12.2 years (range 4 to 18). Overall positive patch tests in 36 of 191 (18.8 percent), with 56 positive allergen reactions. Girls had a higher rate of any positive test (75 percent of positives versus 25 percent).

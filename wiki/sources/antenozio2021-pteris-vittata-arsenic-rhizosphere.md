@@ -53,20 +53,10 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: The As-resistant rhizosphere consortium (Bacillus, Paenarthrobacter, Beijerinckia) is a WikiBiome federation signpost for soil-microbiome-metal interactions.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic-total]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
 - [[microbiome/index]]
-
-## Verification notes
-
-- Evidence tier B: primary experimental study in a peer-reviewed journal (Scientific Reports, CC BY 4.0); not a systematic review.
-- Page grounded in the published abstract and bibliographic metadata; numeric values preserved as printed. Full-text numeric extraction can follow if the cell is promoted to synthesis.
-- `metals: [tAs]` — the source reports soil/plant total arsenic without speciating inorganic vs organic; tAs per convention.
-- `ingredients: []` / `products: []` correct: experimental phytoextraction context, not retail food occurrence (cf. [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]]).
-- Part 2 direction-of-edit check: adds upstream mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
+- [[sources/guerrasierra2021-phytoremediation-tropical-soils-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

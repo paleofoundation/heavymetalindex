@@ -111,7 +111,8 @@ Narrative literature review (not systematic, no PRISMA or explicit inclusion cri
 
 **Speciation caution:** All arsenic values in this review should be treated as total arsenic; speciation into iAs vs. organic forms is not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
+
 - [[ingredients/olive-oil]]
 - [[ingredients/soybean-oil]]
 - [[ingredients/sunflower-oil]]
@@ -133,15 +134,6 @@ Narrative literature review (not systematic, no PRISMA or explicit inclusion cri
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[regulations/codex-cxs-193-1995]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected multiple Table 4 metal/product transpositions, expanded metal and ingredient scope for the edible-oil section, replaced narrow oil-specific matrix terms with broad oil matrices, and reframed olive-oil origin language as source-level stratification rather than a sourcing rule.
-- 2026-05-25 manual-fetch re-ingest: added the two Table 4 rows previously omitted from Key numbers — Coconut oil (London Pb 0.158 mg/kg, 2022, ref 94) and Linseed oil (Poland Cu 0.10 mg/kg, 2016, ref 98). Declared `products: [olive-oil, cooking-oils-other]` so the routing layer fans this source out to the HMTc-locked oil rows it actually bears on; the prior empty `products: []` left the source flagged advisory-malformed and producing zero product-page routes despite covering both Cat 7 Row 1 (olive oil) and Cat 7 Row 2 (other cooking oils) directly.
-- Fresh-context audit editorial review (2026-05-25) flagged "Rice bran oil" Key numbers heading as a recharacterization of the PDF table label "Rice oil"; verified against PDF Table 4 (p. 13) and corrected to "Rice oil." The source metadata ingredient slug remains `rice-bran-oil` because ref [86] (the underlying Illinois 2015 primary study) is rice-bran-oil-specific; the table-row label tracks the review, the ingredient routing tracks the primary study.
-- Fresh-context audit editorial review (2026-05-25) flagged `[[regulations/codex-cxs-193-1995]]` as missing from the taxonomy snapshot. Verified: the slug is used by four other source pages in this corpus (hernandez-montoya2026, dearing2025, sarker2022, this page) as the established convention for the broader CXS 193-1995 contaminants standard. The existing the linked reference record is the same standard but narrowly titled to its tin rows. Link is retained pending Karen's resolution (either rename the existing regulation page or split a general CXS 193 page from it); this re-ingest does not silently rewrite established corpus convention.
-- The review reports arsenic and mercury without species separation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
-- Negative concentration entries are reproduced only because they appear in Table 4; primary-source verification is required before interpreting them quantitatively.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

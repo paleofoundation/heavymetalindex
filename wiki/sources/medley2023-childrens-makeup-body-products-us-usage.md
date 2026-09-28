@@ -68,23 +68,13 @@ Quantitative analysis: descriptive statistics and hypothesis tests in R 1.4.1725
 - Courses: Reference for the exposure-context section of any CMBP-related course module; ethnicity-stratified usage differences (more frequent use, shorter durations, lower ingestion, more play-motivated for Hispanic/Latinx children) belong in the environmental-justice framing of disparate exposures.
 - App: Not directly relevant — paper provides usage-frequency parameters but no per-product contamination data.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/children-personal-care]] — umbrella exposure-context evidence: US use prevalence, frequency, duration, ingestion, application route.
-- [[products/childrens-makeup]] — direct usage data on the category as a whole.
-- [[products/face-paint]] — Body category (60% of CMBP-using children) includes face paint.
-- [[products/lipstick]] — Lip category (30% of CMBP-using children).
-- [[products/childrens-nail-polish]] — Nail category (32% of CMBP-using children).
-
-## Verification notes
-
-- No heavy-metal measurements in this paper; `metals: []` and `ingredients: []` are correct. The paper is exposure-pathway/usage-pattern evidence only.
-- `matrices: []` because the paper is a parent-reported usage survey, not a measurement of any biological or product matrix.
-- The CMBP definition explicitly excludes hair relaxers and skin-lightening products (despite those being marketed-to-children-of-color cosmetic categories), so this paper does not provide usage data for `products/skin-lightening-cream`.
-- Brand-firewall: paper names example retailers ("Amazon", "Walmart/Target", "CVS/Walgreens", "Claire's/Justice") as purchase-channel examples; these are reported as the source frames them (retailer-channel context, not brand-contamination ranking) and do not violate Part 12. Method software vendors (Qualtrics, R/RStudio, QGIS, NVivo) are scientific-method names and are retained per the 2026-05-17 Exception 2.
-- Citation count [21] in the paper refers to Li et al. 2002 on hormone-containing hair products in African American children; cross-reference for any future page on hair-product racial-disparate exposure.
-- Citation count [22] (McDonald 2018) and [23] (Sprinkle 1995 on lead in imported eye makeup) are independent leads for the lead-in-imported-cosmetics literature and the early-puberty hair-product association literature respectively; not pursued here.
-- Audit editorial review (2026-05-17) flagged the ingestion-denominator phrasing "(67/216), (134/216)"; verified against Table 3 column header "Total (n = 217)" and the missing-data footnote "Ingestion of CMBP, n = 16" on PDF p. 8 — the source's 31% / 62% are computed against n=217 with 16 missing reported separately. Corrected to "(67/217), (134/217), n=16 missing."
+- [[products/children-personal-care]]
+- [[products/childrens-makeup]]
+- [[products/face-paint]]
+- [[products/lipstick]]
+- [[products/childrens-nail-polish]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

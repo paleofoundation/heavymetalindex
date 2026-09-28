@@ -107,7 +107,7 @@ Bioaccessible arsenic in CPMs was extracted with simulated gastric fluid and sim
 
 This source supports broad herbal-botanical supplement and herbal-infusion routing with total arsenic, inorganic arsenic species, and bioaccessibility data for Chinese patent and herbal medicines. It is especially useful as context for arsenic-containing mineral ingredients such as realgar, but the source page does not create a realgar ingredient slug because it is not in the closed vocabulary. The source-side ADD/HQ calculations are recorded as the authors' risk model only; they are not HMTc thresholds and are not consumer instructions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/dietary-supplements]]
 - [[products/supplements-botanicals-herbs]]
@@ -116,15 +116,6 @@ This source supports broad herbal-botanical supplement and herbal-infusion routi
 - [[ingredients/dried-herbs]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.scitotenv.2017.11.113`, raw handle `MFK_liu2018`, title text, or cite key `liu2018-tcm-arsenic-bioaccessibility`.
-- Key numbers were rechecked against `/tmp/hmi-seaweed-040.txt`, extracted with `pdftotext -layout`. The main-text ranges and named sample examples were copied directly; per-sample supplementary Tables S1-S3 were referenced by the article but not present in the extracted PDF, so no sample-level figure estimates were invented.
-- Units and bases are preserved as `mg kg−1`, `μg kg−1 d−1`, `%`, `g`, `mL`, `min`, `°C`, and `rpm`; no unit conversion was performed.
-- Speciation check: As(III), As(V), DMA, MMA, and AsB are kept separate where reported. Total arsenic values are not promoted to inorganic arsenic.
-- Brand firewall: the source reports medicine categories and sample codes but no consumer brand ranking is reproduced.
-- Missing-slug check: taxonomy snapshot has no exact `traditional-chinese-medicines` or `realgar` ingredient/product slug. source metadata uses broad herbal-botanical, dried-herb, dietary-supplement, and herbal-infusion slugs while exact medicine names and realgar context remain in prose.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

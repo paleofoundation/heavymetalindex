@@ -60,7 +60,7 @@ App: Supports metal-page exposure context for urinary biomonitoring in relation 
 
 Microbiome: The discussion mentions gut microbiota as a hypothetical high-salt-diet mechanism, but the paper does not measure microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/barium]]
 - [[metals/cadmium]]
@@ -71,15 +71,6 @@ Microbiome: The discussion mentions gut microbiota as a hypothetical high-salt-d
 - [[metals/antimony]]
 - [[metals/thallium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect. Prior skip was `skip:not-food-occurrence` because the old gate saw no salt concentration table.
-- DOI, title, authors, journal, publication date, CC BY license, final analytic sample size, exclusion counts, Table 1 urinary medians, Table 2 salt-type associations, Table 3 table-salt-frequency associations, Table 4 cooking/preparation associations, analytical method, LOD substitution, and regression covariates were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed: descriptive urinary concentrations in Table 1 are `μg/L`, while adjusted regression tables use `μg/mg creatinine`.
-- Speciation: the source reports urinary arsenic as `As` and later states that urinary total As reflects both organic and inorganic exposure; source metadata therefore uses `tAs`, and the page does not promote this to inorganic arsenic.
-- Products and ingredients are intentionally empty because this is a biomonitoring association study, not a salt occurrence study.
-- The file was fetched under a salt-cadmium gap name, but the paper itself reports ten urinary metals and salt-use pattern associations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -60,7 +60,7 @@ Courses: The statement is useful for teaching the difference between total mercu
 
 App: The source can support UK seafood advice context and fish species notes for mercury, especially predatory fish and tuna.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fresh-fish]]
@@ -69,14 +69,6 @@ App: The source can support UK seafood advice context and fish species notes for
 - [[products/fish-marine-predatory]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1454.txt`; paragraphs 6.25-6.59 and Tables 6.1-6.2 were re-read before writing.
-- Identity checks before creation: title phrase, raw handle `MFK_cot-2004-mercury-fish`, raw SHA-256 `67363b5429bbc693ad3eccb84b4cb1874ffe5d691e97b8630332fbe1e114f44d`, and cite key `cot2004-mercury-fish-shellfish` were searched in the linked reference record; no existing source page was found.
-- Units are preserved as `mg/kg`, `µg/kg bw/week`, `µg/kg bw/day`, and `µg mercury/L`.
-- Speciation: occurrence concentrations are reported as mercury/total mercury. The page does not promote every total-mercury value to MeHg; it records the source's methylmercury exposure framing separately.
-- Closed vocabulary: exact fish-species ingredient slugs exist for shark, swordfish, and marlin; other named matrices such as salmon and prawns remain descriptive or route through broad fish/shellfish slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

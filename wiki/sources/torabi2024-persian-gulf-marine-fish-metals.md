@@ -54,7 +54,7 @@ Courses: The paper is a good audit example for seafood occurrence data: a peer-r
 
 App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd, with a prominent source-quality warning.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/seafood]]
 - [[ingredients/fish]]
@@ -62,15 +62,6 @@ App: The source can provide Persian Gulf fish context for Ni, Zn, Cu, Pb, and Cd
 - [[products/fresh-fish]]
 - [[products/fish-marine-predatory]]
 - [[products/fish-marine-non-predatory]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1546.txt`; Table 3 and Figure 2 were also checked against rendered PDF pages because the units conflict.
-- Identity checks before creation: DOI `10.1007/s12011-023-03946-z`, raw handle `MFK_health-risk-assessment-of-heavy-metals-in-marine`, raw SHA-256 `c4c8744f2490c5f09df3f72fcaa771f0aafb55e5de1a627e9703b80eb62848fa`, and cite key `torabi2024-persian-gulf-marine-fish-metals` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved exactly as printed: aggregate means are in `µg/g wet weight`; Table 3 is described with the paper's `milligrams per gram of wet weight` caption; Figure 2 is noted as `µg metal/g dw`.
-- Speciation: the paper measured total elemental Ni, Zn, Cu, Pb, and Cd in fish muscle. It did not measure Hg, MeHg, arsenic, or metal speciation.
-- Brand firewall is not relevant; samples are wild fish species and ports, not brands.
-- Source-quality note: no averaging, unit conversion, or table correction was performed because the source itself is internally inconsistent.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -45,26 +45,15 @@ Samples were collected in sterile glass bottles, held below 4 C during transport
 
 The source contributes Bangladesh-market cow milk occurrence data for [[metals/lead]], [[metals/cadmium]], [[metals/chromium]], and [[metals/arsenic-total]], plus nutritional metals. Because the matrices are explicitly raw cow milk and liquid pasteurized milk, this page should not be routed to infant formula or human milk despite the wishlist folder name. Values can support milk-and-dairy occurrence ranges, jurisdiction-specific context, and gap analysis for South Asian milk datasets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/whole-milk]]
 - [[products/milk-and-dairy]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/chromium]]
-- [[metals/arsenic-total]]
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[metals/iron]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF first page and article header, not the filename.
-- Row fit is cow milk and liquid pasteurized milk. The source is not human milk and not infant formula.
-- Arsenic is total As only. It must not be routed as inorganic arsenic.
-- The raw and pasteurized matrices are reported separately in the paper and should remain separated during pooling unless a downstream milk category explicitly admits both forms.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

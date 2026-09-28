@@ -68,7 +68,7 @@ Samples were collected on December 20, 2018, in SZD village near a battery facto
 
 This source contributes China-market industrial-vicinity occurrence evidence for wheat, corn, leafy vegetables, non-root vegetables, and radish/root vegetables. Soil, groundwater, and particulate values are exposure-context evidence and are not product concentration values. The crop and vegetable concentrations are reported in `mg/kg`; downstream extraction should keep wheat, corn, leafy vegetables, and root vegetables separate, and should not treat total Hg as methylmercury, total As as inorganic arsenic, or total Cr as Cr(VI).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wheat]]
 - [[ingredients/maize]]
@@ -87,15 +87,6 @@ This source contributes China-market industrial-vicinity occurrence evidence for
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the RSC accepted-manuscript title page, DOI, methods, Table 4 concentration rows, risk-calculation intake assumptions, Table 9 enrichment coefficients, and references.
-- DOI verified from the first page as `10.1039/D0EM00104J`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 4 crop and vegetable values above were checked against the extracted table. Units are copied as `mg/kg` and limits/detection limits as printed; no conversion was made.
-- The methods section says 8 wheat samples were collected, but Table 4 labels wheat as `n=7`; `sample_n` is left null and the discrepancy is recorded in `sample_population`.
-- Speciation: Hg, As, and Cr are total-element results. The source does not report methylmercury, inorganic arsenic, inorganic mercury, or Cr(VI) concentrations.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

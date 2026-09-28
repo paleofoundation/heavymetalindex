@@ -113,7 +113,7 @@ The directive itself is silent on which analytical instruments are required; the
 - **Courses:** Foundational regulatory-affairs reference for any EU children's-product safety teaching module. The document also lays out the CMR-derogation logic (Points 4 and 5), the nickel-in-stainless-steel exception (Point 6), and the food-contact-materials derogation (Point 7), each of which is a worked example of how a horizontal EU regulation interacts with a sector-specific directive.
 - **App:** Not directly relevant to ingredient `contamination_profile` values (the TSD addresses toy materials, not foods). Useful for product-page regulatory crosswalk fields where a toy product has both an EU TSD migration limit and an HMTc threshold.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/antimony]]
@@ -133,24 +133,9 @@ The directive itself is silent on which analytical instruments are required; the
 - [[metals/tin]]
 - [[metals/organotins]]
 - [[metals/zinc]]
-- [[sources/scher2010-toy-migration-limits-opinion]]
 - [[sources/iso2020-8124-3-toy-migration-elements]]
 - [[sources/ul2012-chemicals-childrens-toys]]
 - [[sources/scheer2017-aluminium-tolerable-intake-toys]]
-
-## Verification notes
-
-- This is a European Commission DG Enterprise and Industry explanatory guidance document, not a measurement study. Listed as `gov-report` A-tier per Part 13 conventions; the same tier used for the companion SCHER 2010 opinion on these same migration limits.
-- Numerical fidelity (Annex II Part III Point 13 table): the PDF prints values with comma as decimal separator (European convention). Reproduced here with decimal points to match Heavy Metal Index unit discipline. Values transcribed verbatim from p. 107-108: e.g., Pb 13.5 / 3.4 / 160; Cd 1.3 / 0.3 / 17; Cr-VI 0.02 / 0.005 / 0.2; tAs 3.8 / 0.9 / 47; tHg 7.5 / 1.9 / 94; organic Sn 0.9 / 0.2 / 12.
-- Speciation discipline: the TSD does not separate inorganic from total arsenic, so `metals:` source metadata uses `tAs`. Likewise for mercury (no MeHg vs Hg(II) separation in the directive), so `tHg`. Chromium is uniquely speciated in the directive itself with separate Cr-III and Cr-VI limits — both `Cr` and `Cr-VI` are listed. Tin and organic tin have separate limits; `Sn` is listed in source metadata and the organotin distinction is preserved in the body table and discussed under the organotin sum-of-organotins clarification on p. 114.
-- source metadata `products: []` follows the SCHER 2010 precedent for category-spanning regulatory anchors: the TSD applies to all toys, and there is no umbrella `toys` product slug in the current taxonomy. The directive's scope-defining Annex I (products that are NOT toys, including amusement-toy edge cases at scaffold-rides, ride-on-cars-with-petrol-engines, etc.) is at pp. 78-83 and was a Rev 1.7 update target per the change log.
-- source metadata `ingredients: []` and `matrices: []`: this is a regulatory document about toy materials, not foods or personal-care products. The "toy-material categories" (dry/brittle/powder-like/pliable; liquid/sticky; scraped-off) are toy material classes, not food matrices, and so do not enter the matrices vocabulary.
-- DOI: EU Commission guidance documents of this kind are not minted with DOIs. The access URL pointing to the now-superseded `enterprise/sectors/toys/index_en.htm` is the URL printed in the document body (pp. 2-3); the current canonical URL for TSD guidance has migrated to `ec.europa.eu/growth/sectors/toys` and successor pages, but the access_url field preserves what the source document itself cites.
-- License: EU Commission documents are reusable under Commission Decision 2011/833/EU. Recorded.
-- The companion SCHER 2010 opinion (`scher2010-toy-migration-limits-opinion`) already exists and explicitly noted "A dedicated regulation page for EU TSD 2009/48/EC migration limits does not yet exist" — this source page does not create that regulation page (per, regulation pages are created on first encounter, but the routing layer will surface the unresolved regulation slug if a future ingest declares it). For now the directive is referenced via the source page itself.
-- Part 12 brand-firewall: no brand attribution risk (regulatory text, no products are measured).
-- Part 2 wiki/HMTc firewall: no HMTc threshold proposals in the body. The "half of considered safe" derivation is the directive's own design principle, reported as such; no HMTc value is suggested.
-- Audit editorial review (2026-06-01) verdict PROMOTE; all five checks clean except two ⚠️ slug-vocabulary concerns in Check 2. Verified against the editorial record: `metals/cobalt` and `metals/manganese` ARE in the snapshot's Metals list — those editorial review findings were false positives (the editorial review misread the snapshot). The other elements the editorial review named (`metals/boron`, `metals/selenium`, `metals/strontium`) are correctly absent from the snapshot, but this page references those metals only via standard chemical-symbol abbreviations (B, Se, Sr) in the source metadata `metals:` array, not as page-slug wikilinks in the body, so no actual slug-vocabulary violation. The B/Se/Sr abbreviations follow the standard chemical-symbol convention used elsewhere in the corpus for elements outside the explicitly-enumerated abbreviation set; consider expanding Part 14's vocabulary spec to formally cover the additional TSD elements.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

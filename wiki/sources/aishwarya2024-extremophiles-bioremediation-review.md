@@ -113,7 +113,7 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 
 The chapter does not provide primary contamination data on any food matrix, ingredient, product, or regulation. No `contamination_profile` synthesis is triggered.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -125,11 +125,6 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - [[metals/mercury-methyl]]
 - [[metals/arsenic]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- source metadata `metals:` uses `tAs` (not `As`) and `tHg` (not separate `Hg` + `MeHg`) per Part 14 speciation discipline: the chapter discusses arsenite As(III) and arsenate As(V) without measuring iAs specifically, and references methylmercury only mechanistically as a MerB organomercurial-lyase substrate without speciated MeHg measurement. The `[[metals/mercury-methyl]]` wikilink at the bottom is retained because the chapter does discuss methylmercury mechanism (p. 363), even though no MeHg measurement is reported. Correction applied during the 2026-06-01 audit-editorial review pass.
-- source metadata `matrices:` uses `[contaminated-soil, mine-drainage, e-waste, bacterial-cell]`. `bacterial-cell` is precedented (see [[sources/chandrangsu2017-metal-homeostasis-resistance-bacteria]]). `contaminated-soil`, `mine-drainage`, and `e-waste` are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`industrial-soil`, `agro-industrial-waste`, `leachate`) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

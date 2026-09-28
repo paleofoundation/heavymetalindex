@@ -87,7 +87,7 @@ The wiki maintains the Cr3+ versus Cr6+ distinction wherever the source permits,
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation|LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL]]<span class="hmi-ref-meta">M. Khalid, N. Ahmed, and R. M. Qureshi · The Nucleus 45(1–2):55–61 · 2008 · [doi.org/10.71330/nucleus.45.01-2.998](https://doi.org/10.71330/nucleus.45.01-2.998)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -110,7 +110,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

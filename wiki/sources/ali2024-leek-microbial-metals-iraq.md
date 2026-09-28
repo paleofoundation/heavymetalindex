@@ -71,19 +71,9 @@ Conference proceedings, B-tier; no DOI assigned. The abstract and one discussion
 
 Direct evidence for Pb, Ni, and Cu occurrence in leek (an Allium leafy vegetable) grown near industrial point sources in southern Iraq; Pb in leek tissue exceeded the WHO 5 µg/g reference in both seasons across all three sampling-source types (market, farm, restaurant). The seasonal pattern (summer > winter) and the spatial gradient (Station 2 near thermal station > Stations 1 and 3) contribute geographic-variance context for [[ingredients/leafy-vegetables]] in MENA-region market gardening systems. Microbial findings are out of scope for the heavy-metals wiki but are noted in the source page for completeness.
 
-## Verification notes
+## Related evidence
 
-- **2026-05-18 (editorial review, merge-enhance):** Re-read full PDF (8 pages, all tables and figures) against the prior page version (`updated: 2026-05-15`, `raw_handle: papers-cube`).
-- `raw_handle`: corrected from the legacy placeholder `papers-cube` to the current convention `PCMF_article-2-copy-5` (filename-derived).
-- `raw_sha256`: added (`955437466fd803f30490b920b3ba17a11222d212ea92ee36e7e232e9dc0369df`).
-- `metals`: corrected from `[Pb, Ni, Zn, Cu]` to `[Pb, Ni, Cu]`. The paper's abstract names "zinc, copper, and lead" and attributes "28.41 ppm" to zinc, but the methods section, the three-element tuples in the soil and leek results, and Figures 4–7 (all labeled Ni, Cu, Pb on the x-axis) consistently report only Ni, Cu, and Pb. The 28.41 µg/g value is identified in the body as Ni in summer market leek, not Zn. The "Zn"/"zinc" mentions are treated as paper-internal labeling errors, not a fourth measured analyte.
-- `matrices`: corrected from `[plant-tissue, soil, leek, vegetable]` to `[leafy-vegetable, soil]` to align with the controlled-vocabulary convention seen on sibling leafy-vegetable contamination source pages.
-- Key numbers: prior page reported "Highest Zn concentration: 28.41 ppm during summer (from abstract; plant tissue data)" — corrected to the body's actual attribution (Ni 28.41 µg/g, Cu 22.08, Pb 6.73 in summer market leek) and added the winter farm minima (Ni 18.05, Cu 15.42, Pb 4.25). Prior page said "Cu within WHO limits; Zn exceeds the permissible limit in both seasons" — corrected: Zn is not measured; the elevated-versus-WHO finding the paper actually makes is for Pb in leek tissue (5 µg/g reference exceeded in both seasons).
-- Microbial findings (E. coli and Klebsiella percentages by source-type and location, with chi-square statistics from Tables 1 and 2) added to Key numbers; absent from prior page.
-- Methods section expanded with the digestion protocol details actually stated in the paper (HCl/HNO₃ volumes, sand-bath temperature/duration, dilution scheme; flame AAS; VITEK 2 for microbial confirmation).
-- Implications section: invalid wikilink `[[supply-chain/soil]]` (no such page) removed. Implications narrowed to what the paper supports (geographic-variance context for leafy vegetables) without inventing supply-chain claims.
-- Note on `products: []`: leek is not currently in either the ingredient or product taxonomy (only `[[ingredients/leafy-vegetables]]` covers it). Routing audit lists this source under `routing_malformed.csv` with severity `advisory` only ("Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible") — not a blocking defect. If a future `ingredients/leek` page is created (≥5 papers on leek-specific contamination), this source's source metadata should be updated then.
-- Audit editorial review 2026-05-18 flagged a Figure 2 / Table 1 inconsistency on the city-center farmer E. coli rate (4.92% in chart, 4.29% in table); verified against PDF p. 711 — this is a paper-internal printing inconsistency. The table value (4.29%, 3 of 8 positive) is the authoritative tabulation and is what the page reports; a one-line acknowledgment added to Limitations.
+- [[supply-chain/soil]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

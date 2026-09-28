@@ -203,45 +203,27 @@ The QAPP does NOT support:
 - **Courses.** A clear worked example of a US-state-agency QAPP linking a state statutory framework (CSPA Reporting Rule, Chapter 70.240 RCW) to a two-stage analytical workflow (XRF screening with documented LOQs, then ICP-MS / CVAA confirmation with documented MQOs) and to overlapping federal benchmarks (CPSC ASTM F963-11 toy-safety leachate criteria; CPSC 16 C.F.R. § 1303 surface-coating Pb). Useful for teaching how XRF total-metals screening criteria are reconciled (or noted not to be reconciled) with federal leachate-based regulatory criteria, and how an agency-approved QAPP shapes the eventual measurement programme.
 - **App.** Not directly relevant to a future cosmetics-app contamination-profile workflow; the QAPP contains no occurrence data. The downstream measurement reports (14-04-014; Phase 1; Phase 2) are the operative occurrence-data sources.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/antimony]] — CSPA CHCC metal; State PQL 1.0 ppm; federal CPSC ASTM F963-11 toy action level 60 ppm cited as comparison benchmark.
-- [[metals/arsenic-total]] — CSPA CHCC metal; State PQL 1.0 ppm; federal CPSC ASTM F963-11 toy action level 25 ppm cited as comparison benchmark.
-- [[metals/cadmium]] — CSPA CHCC metal; State PQL 1.0 ppm; federal CPSC ASTM F963-11 toy action level 75 ppm cited as comparison benchmark.
-- [[metals/cobalt]] — CSPA CHCC metal; State PQL 1.0 ppm; no federal benchmark cited.
-- [[metals/copper]] — added to the QAPP scope because of Puget Sound water-quality concerns; no State PQL or federal action level cited.
-- [[metals/lead]] — federal CPSC 16 C.F.R. § 1303 surface-coating limit 90 ppm; non-soluble portions ≤ 100 ppm as of August 2011; not a CSPA-reportable analyte at the time of this QAPP but included because of federal-regulatory overlap.
-- [[metals/mercury-total]] — CSPA CHCC metal; State PQL 0.5 ppm; federal CPSC ASTM F963-11 toy action level 60 ppm cited as comparison benchmark.
-- [[metals/molybdenum]] — CSPA CHCC metal; State PQL 1.0 ppm; no federal benchmark cited.
-- [[metals/zinc]] — added to the QAPP scope because of Puget Sound water-quality concerns; no State PQL or federal action level cited.
-- [[products/children-personal-care]] — umbrella scope for the planned procurement.
-- [[products/childrens-makeup]] — CSPA Tier 1 children's cosmetic targeted by the planned procurement.
-- [[products/childrens-lip-balm-plain]] — children's cosmetic targeted by the planned procurement.
-- [[products/childrens-lip-balm-mineral-bearing]] — children's cosmetic targeted by the planned procurement.
-- [[products/childrens-nail-polish]] — children's cosmetic targeted by the planned procurement.
-- [[products/face-paint]] — children's cosmetic targeted by the planned procurement (mouthable per CSPA Tier 1).
-- [[products/baby-lotion-cream]] — children's personal care targeted by the planned procurement.
-- [[products/baby-shampoo-body-wash]] — children's personal care targeted by the planned procurement.
-- [[products/baby-oil]] — children's personal care targeted by the planned procurement.
-- [[sources/stone2021-wa-metals-childrens-consumer-products]] — the downstream final report (Publication 14-04-014, Revised 2021) carrying the measurement data planned by this QAPP, citing 'Ecology 2012a–d' as the four parallel QAPPs.
-- [[sources/waecology2023-chemicals-cosmetics-phase1]] — subsequent Washington chemicals-in-cosmetics report using the same XRF-then-ICP-MS workflow scaffold.
-- [[sources/waecology2024-chemicals-cosmetics-phase2]] — subsequent Washington chemicals-in-cosmetics report (Phase 2) using the same workflow scaffold.
-- [[sources/waecology2024-interim-policy-lead-cosmetics]] — Washington Toxic-Free Cosmetics Act interim policy on lead in cosmetics (operative from 2025); regulatory framework that supersedes the CSPA-only context of this 2012 QAPP for cosmetic lead impurities specifically.
-
-## Verification notes
-
-Ingested 2026-06-02 by automated editorial review from the archived source file (SHA-256 5b1d4a91...8cff9; 420 KB; 20 pages). Source-page numbers (Abstract p. 4, Background p. 5–6, Project Description p. 7, Sampling Process Design p. 7–9, Tables 1–9 p. 8–15, References p. 17–18, Appendices p. 19–20) verified against the PDF. Cross-referenced [[sources/stone2021-wa-metals-childrens-consumer-products]] (Publication 14-04-014, Revised 2021) which cites this QAPP as one of the 'Ecology 2012a–d' planning documents.
-
-The QAPP discusses the parabens analytical workflow (HPLC-MS at 30.0 ppm RL) but the parabens findings are out of scope for Heavy Metal Index; only the metals workflow is reflected in the `metals:` source metadata. Parabens are retained in the body as context because the QAPP is a single QA-approved planning document covering both analytical streams and the parabens analysis shares the same sample-collection and product-selection design.
-
-Per Part 12 brand-firewall discipline: no manufacturer or brand names are reported in the QAPP body (the document is forward-looking and identifies only categorical product types and the contract-laboratory framework). The QAPP explicitly states on p. 15 (under Report) that "categorical descriptions of the products screened with the XRF (i.e., brands, product names, etc. will not be included)" in the eventual measurement report, which is consistent with the wiki's brand-firewall approach. Per Part 14 speciation conventions: arsenic and mercury are reported as totals throughout the QAPP (tAs and tHg in HMI vocabulary) because the analytical method (EPA 3052 microwave digestion followed by EPA 6020 ICP-MS) yields total metals; the QAPP does not perform iAs / MeHg speciation. Per the scientific-method vendor/material exception to Part 12 (locked 2026-05-17): the Niton XL3t XRF analyser model, EPA Method 3052, EPA Method 6020, ASTM F2617-08, ASTM F963-11, CPSC 16 C.F.R. § 1303, and the Liquinox detergent are retained as method-vendor/material identifiers necessary for scientific reproducibility.
-
-**Audit notes (editorial review editorial review, 2026-06-02):**
-
-- ✅ Audit verdict PROMOTE. All five checks clean. Two non-blocking ⚠️ polish suggestions verified against the source and applied here for full forensic traceability.
-- **PDF Table 6 footnote ('Method 3025' → 'EPA Method 3052').** The Table 6 footnote on PDF p. 13 literally reads "Method 3025 provides complete digestion of the plastic matrix that allows the most representative numbers for total metals. Use of hydrofluoric acid (HF) is not necessary for most plastic matrices and is not recommended. Nitric and/or hydrochloric acids as identified in the method are adequate to effect complete dissolution of most plastic matrices." Every other reference in the QAPP (the body of Table 6 itself, Analytical Procedures p. 11–12, the Laboratory section p. 13) cites EPA Method 3052. The reference to "Method 3025" in the footnote is almost certainly a PDF typo for Method 3052 (microwave-assisted acid digestion); the wiki treats it as such, but the typo is noted here so a future reader cross-checking the wiki against the source PDF can reconcile the apparent discrepancy.
-- **PDF Abstract vs Tables 1 / 6 — chromium vs cadmium discrepancy.** The PDF Abstract on p. 4 lists the nine metals as: Antimony, Arsenic, **Chromium**, Cobalt, Copper, Lead, Mercury, Molybdenum, Zinc (no cadmium). The PDF Background section (p. 6, "the 9 metals consist of the 6 potentially toxic metals in the CSPA (antimony, arsenic, cadmium, cobalt, molybdenum, and mercury) and copper, zinc and lead") and the binding analytical scope in Tables 1 (p. 8) and 6 (p. 13) list: Sb, **As, Cd**, Co, Cu, Pb, Hg, Mo, Zn (no chromium). The wiki source metadata `metals:` field and the Key numbers metals tables follow the binding analytical scope (Sb, tAs, Cd, Co, Cu, Pb, tHg, Mo, Zn). Chromium appears in the QAPP only as an XRF screening element in ASTM F2617-08 (the Niton XL3t reports Cr but its LOQ is "not specified by manufacturer"); Cr is not in EPA Method 6020 lab confirmation per Table 6. The Abstract listing of "Chromium" is a source-internal typo; the wiki correctly follows Tables 1 / 6 as the binding scope. Flagged here so a future reader cross-checking against the Abstract can reconcile.
-- **False-positive: `matrices: [cosmetic-personal-care]`.** The audit editorial review's copy of the taxonomy snapshot did not include the matrices vocabulary (the snapshot lists only ingredients / products / metals / regulations). The `cosmetic-personal-care` matrix slug is in use across multiple already-audited-PROMOTE cosmetics sources, including [[sources/waecology2023-chemicals-cosmetics-phase1]], [[sources/waecology2024-interim-policy-lead-cosmetics]], and others; the slug is valid. False positive — no change required.
+- [[metals/antimony]]
+- [[metals/arsenic-total]]
+- [[metals/cadmium]]
+- [[metals/cobalt]]
+- [[metals/copper]]
+- [[metals/lead]]
+- [[metals/mercury-total]]
+- [[metals/molybdenum]]
+- [[metals/zinc]]
+- [[products/children-personal-care]]
+- [[products/childrens-makeup]]
+- [[products/childrens-lip-balm-plain]]
+- [[products/childrens-lip-balm-mineral-bearing]]
+- [[products/childrens-nail-polish]]
+- [[products/face-paint]]
+- [[products/baby-lotion-cream]]
+- [[products/baby-shampoo-body-wash]]
+- [[products/baby-oil]]
+- [[sources/waecology2024-interim-policy-lead-cosmetics]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

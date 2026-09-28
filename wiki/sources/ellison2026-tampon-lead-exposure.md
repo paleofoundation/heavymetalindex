@@ -56,14 +56,10 @@ App: The source can support an explanatory note for menstrual tampons: total-dig
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-tampons]]
 - [[metals/lead]]
-
-## Verification notes
-
-The DOI, author list, journal, and 2026 publication year were taken from the PDF first page. The first page labels the article as an advance-access research article in Toxicological Sciences, volume 209, issue 5, with advance access publication date May 7, 2026. Procter & Gamble affiliations are author affiliations and are retained only in methods/provenance context; no brand-level tampon findings are reported on this page. The model uses Shearston et al. 2024 as an input for total-digestion tampon Pb concentration, so the modeled 264 ng/tampon value should not be counted as an independent product concentration measurement.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

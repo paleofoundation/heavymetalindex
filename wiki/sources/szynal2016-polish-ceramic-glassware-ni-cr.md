@@ -81,23 +81,13 @@ Courses: The paper is useful for teaching why acidic simulant choice, contact ti
 
 App: If tableware context is surfaced, this source can support a low-detection Polish-market ceramic/glassware Ni/Cr migration example while warning that the result is simulant-specific and not a food concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/tableware-ceramicware]]
 - [[products/tableware-glassware]]
 - [[products/tableware-decorative-decals-coatings]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/ingest.txt`; abstract, Materials and Methods, Table 1, Results, Discussion, Conclusions, and the reference list were checked against this page.
-- Identity checks before creation: title phrase, first author, journal citation `Rocz Panstw Zakl Hig 2016;67(3):247-252`, raw SHA-256 `d385d6d97625c2f4bad997acb44811c8ca22cb87645d8df29a47ea9cd0d2a95f`, raw handle `MFK_migration-studies-of-nickel-and-chromium-from`, and cite key `szynal2016-polish-ceramic-glassware-ni-cr` were searched in the linked reference record and evidence files; only intake/tracker CSV rows and related but distinct Rebeniak/Mania source pages were found.
-- DOI status: no DOI is printed in the extracted text or PDF metadata. The page uses `doi: null` and `no_doi_assigned: true`.
-- Count discrepancy: the abstract reports `172` ceramic and `52` glassware samples; the Results paragraph says `171` test ceramic vessels. I kept `sample_n: 224` from the explicit abstract and Materials/Methods counts while flagging the inconsistency.
-- Units are preserved as printed: migration results and validation parameters use `mg/L`; contextual comparisons use `mg/kg`, `μg/kg bw/day`, `µg/L`, and `μg/mL` as printed.
-- Speciation: chromium is reported as chromium migration by FAAS, not hexavalent chromium. source metadata uses `Cr`, and the page does not substitute Cr(VI).
-- Closed-vocabulary check: product slugs are the broad ceramic tableware, glassware, and decorative decals/coatings rows in the current taxonomy snapshot. No over-specified bowl, dish, or decorated-rim slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

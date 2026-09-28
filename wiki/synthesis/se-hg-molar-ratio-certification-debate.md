@@ -73,12 +73,10 @@ Pending further regulatory consensus and quantitative dose-response evidence, th
 
 Taken together, the available primary-literature evidence and the regulatory consensus both point in the same direction: absolute MeHg ceilings should not be relaxed on the marginal Se:Hg evidence currently available, and the low-Se species are where the absolute MeHg burden binds most clearly. How any certification program responds to the gap between this literature baseline and a chosen threshold is a policy choice that this wiki does not prescribe.
 
-## Downstream pages updated
+## Related pages
 
-- [[metals/mercury-methyl]] — Selenium-mercury antagonism section presents the Ralston framework with the same caveats this synthesis develops.
-- [[products/seafood]] — Levers to reduce contamination section's Formulation lever subsection notes that "co-formulation with selenium-rich ingredients" is a hypothesized lever but not a validated mitigation.
-- [[products/canned-fish]] — same as above.
-- [[ingredients/canned-tuna]], [[ingredients/shark]] — Se:Hg-related scientific framing should appear in the contamination_profile narrative where the bivalve-Cd-style pages are built out.
+These findings are also recorded on [[metals/mercury-methyl]], [[products/seafood]], [[products/canned-fish]], [[ingredients/canned-tuna]], and [[ingredients/shark]].
+
 
 ## Anchor sources
 
@@ -87,14 +85,13 @@ Taken together, the available primary-literature evidence and the regulatory con
 - [[sources/farina-rocha-aschner-2011-mehg-mechanism]] — Mechanistic neurotoxicity review providing the alternative-explanations context.
 - [[sources/dietz2025-arctic-mercury-isotopes-greenland]], [[sources/li2022-mercury-isotope-biota-review]], [[sources/motta2022-marine-hg-isotopes]] — Mercury isotope tracer evidence relevant to the source-attribution sub-question.
 
-## How this page was promoted
+This page sets out the evidence for and against the selenium-to-mercury molar-ratio framework and does not choose between the two positions.
 
-Established 2026-05-18 from the seafood-axis synthesis work. The Se:Hg framework is one of the contested points in MeHg toxicology bearing on per-species threshold questions; the page exists to provide a citable wiki-side consolidation of the debate rather than re-deriving it each time the question arises. The page is deliberately non-committal between the for-and-against positions; its contribution is the consolidated, evidence-graded assessment of where the framework is and is not on firm ground.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -106,7 +103,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/chamorro2024-bluefin-tuna-mercury-review|Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption]]<span class="hmi-ref-meta">Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, and Aubourg SP · Food Reviews International · 2024 · [doi.org/10.3389/fnut.2024.1340121](https://doi.org/10.3389/fnut.2024.1340121)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments]]<span class="hmi-ref-meta">Ralston NVC, Ralston CR, and Raymond LJ · Archives of Environmental Contamination and Toxicology · 2014 · [doi.org/10.1007/s12011-015-0516-z](https://doi.org/10.1007/s12011-015-0516-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>

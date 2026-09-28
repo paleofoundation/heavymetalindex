@@ -91,31 +91,10 @@ App: For US-retail vinegar in this sample set — balsamic Pb mean 68 ± 56 µg/
 
 Microbiome: Not applicable; the paper does not address gut-microbial endpoints.
 
-## Verification notes
+## Related evidence
 
-Page was originally drafted under the legacy `manual-fetch-source-retrieval` raw_handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
-
-- Replace legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_determination-of-lead-in-vinegar-by-icp-ms-and-gfa` handle, matching the convention used on sibling vinegar source [[karavoltsos2020-copper-trace-metals-vinegars-greece]].
-- Correct truncated `raw_path` (prior value cut off at "evaluation.pdf"; corrected to the full filename "…evaluation of different sample preparation pro.pdf").
-- **Correct three transposed single-sample Pb values in Key numbers.** Prior version reported `Garlic vinegar (n=1): 276 µg/L`, `Apple cider vinegar (n=1): 15 µg/L`, and `Rice vinegar (n=1): 6.6 µg/L`. Source Table 4 (p. 4) actually shows Garlic = 15 µg/L, Apple = 6.6 µg/L, Rice = 19 µg/L. The prior page had pulled the wrong column or scrambled rows; 276 is the Table 4 Balsamic (aged)-1 row, which was separately missing from the page. All four values corrected.
-- **Correct misread n in Key numbers.** Prior version reported `Balsamic group 3 (n=4, older/traditional): range 174–179 µg/L, mean 173 µg/L`. The "4" was the standard-deviation column in Table 4, not the sample count. Correct n is 2.
-- Add the two aged-balsamic single-sample rows (276 and 307 µg/L) that the prior version omitted, and note the paper-internal discrepancy between Table 4's aged-1 = 276 µg/L and the text's "another balsamic … 257 µg/L … aged for 18 years" without inventing a reconciliation.
-- Expand Table 3 cross-method comparison (direct dilution vs. nitric acid digested, for four balsamics on both instruments) in Key numbers; prior version omitted the magnitude of the dilution-vs.-digestion bias and only mentioned it qualitatively.
-- Expand the Methods section to capture the instrumental detail (RF power, isotopes monitored, internal standard, modifier composition, contamination control) that supports the A-tier classification.
-- Add `garlic-vinegar` to `matrices:` (the source measured one); prior version omitted it.
-- Remove the legacy `## Wiki pages updated on ingest` heading per the current Part 6 template; downstream-page list lives in the routing audit, not on the source page.
-- Restate the µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix.
-- License kept as "All rights reserved" — Talanta (Elsevier) 2004 paywall paper, no open-access notice on the PDF.
-
-Auto-audit editorial review (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 clean. Check 2 ⚠️ flagged the `matrices:` / `ingredients:` asymmetry — matrices contains `rice-vinegar` and `garlic-vinegar` (which the paper measures as n = 1 each) while `ingredients:` does not list them. Verified against the source: 1 rice and 1 garlic vinegar are reported in §3.3 and Table 4. Verified against the corpus: no the linked reference record or the linked reference record page exists, and Part 10's ingredient-promotion threshold is 5 papers treating the sub-variant as a distinct commodity. With n = 1 each in this paper alone, neither slug crosses the threshold for an ingredient page. Resolution applied:
-
-- Keep `rice-vinegar` and `garlic-vinegar` in `matrices:` (descriptive of what was measured).
-- Keep them out of `ingredients:` (no extant page to route to; both are folded under the generic [[ingredients/vinegar]] coverage).
-- Routing audit confirms 0 unresolved / 0 malformed for this source after the change, so the asymmetry does not produce broken fan-out.
-
-This is the same broad-scope-matrices, narrow-ingredients pattern documented on the sibling vinegar source [[karavoltsos2020-copper-trace-metals-vinegars-greece]] for its `fruit-vinegar` matrix.
-
-Self-caught during audit-application (not flagged by the editorial review): the Methods section initially misattributed the GFAAS recommended program. Corrected to attribute 600 / 1300 °C to the paper's Conclusions section (p. 6) rather than Table 2 (Table 2 shows 700 / 1400, an intermediate working program). Also corrected the manufacturer's recommended maximum from "800 / 1400" to "400 / 1400" per §4.3 (p. 4); the 800 / 1400 figure was the authors' first-pass optimization against the NIST 1640 SRM, not the manufacturer default.
+- [[karavoltsos2020-copper-trace-metals-vinegars-greece]]
+- [[ingredients/vinegar]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

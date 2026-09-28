@@ -94,7 +94,7 @@ function renderDossierPage(d) {
   lines.push("## Evidence base")
   lines.push("")
   lines.push(
-    `This category is supported by ${ev.contributing_source_count || 0} contributing literature source${ev.contributing_source_count === 1 ? "" : "s"} mapped by the routing layer, of which ${ev.sources_with_structured_values || 0} carry structured concentration values. The page makes ${def.total_claims || 0} numerical claim${def.total_claims === 1 ? "" : "s"}; ${def.cited_claims || 0} of them trace to an in-section cited source` +
+    `This category is supported by ${ev.contributing_source_count || 0} contributing literature source${ev.contributing_source_count === 1 ? "" : "s"} catalogued for it, of which ${ev.sources_with_structured_values || 0} carry structured concentration values. The page makes ${def.total_claims || 0} numerical claim${def.total_claims === 1 ? "" : "s"}; ${def.cited_claims || 0} of them trace to an in-section cited source` +
       (def.provenance_complete
         ? ", so every numerical claim on the page is source-traceable."
         : `, leaving ${def.uncited_claims || 0} that do not yet trace to an in-section source and are flagged for synthesis.`),

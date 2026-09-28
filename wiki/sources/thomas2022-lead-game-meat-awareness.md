@@ -55,7 +55,7 @@ Courses: The paper is useful for teaching the difference between a routeable exp
 
 App: The source can support explanatory game-meat lead cards that distinguish projectile-derived lead contamination from background environmental uptake and explain why vulnerable groups and frequent consumers are emphasized in game-meat advisories.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/meat]]
@@ -63,15 +63,6 @@ App: The source can support explanatory game-meat lead cards that distinguish pr
 - [[products/game-meats]]
 - [[regulations/efsa-lead-contam-2010]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_581.txt`; the title/DOI block, abstract, Figure 1 caption, exposure sections, food-bank paragraphs, Table 1 heading, and reference-context passages were checked against this page.
-- DOI `10.21601/ejeph/12043`, title text, raw handle `MFK_increasing-the-awareness-of-health-risks-from-lead`, and candidate cite-key `thomas2022-lead-game-meat-awareness` were searched before creation; no existing source page was found.
-- No concentration values from cited studies were re-expressed as this paper's own occurrence data. The numerical bullets above are exposure-scale, policy, or cited-study summary values as the source presents them.
-- Speciation: the paper concerns elemental lead from lead ammunition and lead fragments in game meat; no arsenic, mercury, chromium, or organotin speciation is involved.
-- Brand firewall: no brand names are attached to contamination values. Firearm/ammunition descriptors are source-pathway context, not product-brand comparisons.
-- source metadata slugs were checked against the editorial record. The taxonomy has `game-meats` as a product slug but lacks a `game-meat` ingredient slug, so ingredients route through broad `meat` and `meat-and-poultry`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

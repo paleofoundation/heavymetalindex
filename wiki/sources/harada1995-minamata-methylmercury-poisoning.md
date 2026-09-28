@@ -56,15 +56,6 @@ This is a peer-reviewed narrative review, not a new laboratory occurrence survey
 
 This source provides historical exposure and health-effect context for seafood methylmercury and total-mercury routing. It supports fish and shellfish context pages by documenting the Minamata seafood-exposure pathway and the scale of historical contamination, but it should not be admitted as a modern benchmark distribution or used as a product-category occurrence table without a separate decision to treat historical disaster data as context only.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title, abstract, Section IV mercury-level text, Table 1, congenital-disease sections, and references were readable.
-- DOI `10.3109/10408449509089885` was not visible in the extracted PDF text; it was verified against PubMed and the Taylor & Francis landing page before drafting. DOI, raw handle `MFK_harada1995`, and cite-key checks found no existing source page before creation.
-- Numerical checks were made against the extracted abstract, Section IV, and congenital-disease sections. Units are preserved as `ppm` and wet-weight where the source states wet weight; no conversion was performed.
-- Speciation: the paper is about methylmercury poisoning, but the product/environment concentration numbers are reported as `Hg`/`mercury`, not directly speciated MeHg. No total-Hg value is substituted for MeHg.
-- Brand firewall: the source names an industrial discharger as part of the historical event, but it does not attach consumer product brands to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

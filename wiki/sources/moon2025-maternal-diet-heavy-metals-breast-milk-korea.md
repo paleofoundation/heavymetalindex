@@ -89,10 +89,6 @@ Microbiome: High tAs exposure to the infant gut during the 0–6 month colonizat
 - [[metals/mercury]]
 - [[metals/arsenic]]
 
-## Verification notes
-
-2026-05-19 (automated editorial review, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

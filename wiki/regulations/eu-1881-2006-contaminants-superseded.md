@@ -134,13 +134,7 @@ Pre-2023 source pages in the wiki citing EC 1881/2006 maximum levels — includi
 - [[sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd]] (Pb and Cd limits in vegetable products)
 - [[sources/bair2022-infant-toddler-food-heavy-metals-policy]] (review citing EC infant/child-food iAs limit of 100 µg/kg)
 
-— route to this regulation page via the wiki's routing audit. The full list is in `data/evidence/product_source_routing_audit.csv` filtered for `target_kind=regulation, declared_target=ec-1881-2006`.
-
-## Verification notes
-
-- This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
-- The values shown are the FINAL amended levels under EC 1881/2006 prior to the May 2023 recast. Earlier versions of the regulation (2007-2014) had different cadmium and lead limits for several matrices; cite the specific amendment regulation if working with a source published before the relevant amendment took effect.
-- Tin maximum levels (50-200 mg/kg) carried forward into EU 2023/915 substantively unchanged. Lead infant/young-child-food limit was tightened by 2021/1317 (the 0.020 mg/kg value shown). Cadmium infant formula was tightened by 2014/488 (the 0.010 mg/kg powder / 0.005 mg/kg liquid values shown). iAs rice limits added by 2015/1006.
+— route to this regulation page via the wiki's source routing. The full list is in `data/evidence/product_source_routing_audit.csv` filtered for `target_kind=regulation, declared_target=ec-1881-2006`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

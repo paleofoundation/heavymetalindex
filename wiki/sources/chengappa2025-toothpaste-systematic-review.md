@@ -126,7 +126,7 @@ Courses: Useful as a corpus-mapping teaching case for the Cat 2 toothpaste modul
 
 App: Not directly applicable. Toothpaste is outside the consumer-app scope (focussed on children's foods and personal care). The review may inform consumer-app context paragraphs on toothpaste as a daily-use personal-care product with documented heavy-metal contamination across multiple jurisdictions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -141,30 +141,8 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - [[metals/silver]]
 - [[metals/aluminum]]
 - [[metals/manganese]]
-- [[products/toothpaste]]
-- [[regulations/eu-ec-1223-2009-cosmetics]] (proposed; not yet in regulation taxonomy)
-- [[regulations/india-bis-6356-toothpaste]] (proposed; not yet in regulation taxonomy)
-
-## Verification notes
-
-- Brand firewall (Part 12 strict reading, 2026-05-17): the systematic review itself does not name individual toothpaste brands in its body text; it cites the primary studies' authors and per-study aggregate findings. The review explicitly notes in its Limitations (§6.1, p. 7): "the absence of specific brand names of toothpastes in some studies could affect the applicability of the results." This page reports only per-study aggregates and ranges; no brand attribution is reproduced.
-- Speciation discipline: the included primary studies report total arsenic and total mercury without speciation. This page records `tAs` and `tHg`. Chromium is recorded as total `Cr` (no included study reports Cr-VI separately).
-- Paper-internal discrepancy on Arshad et al. 2020 Cd range (recorded, not adjudicated): §5.3 (p. 4) reports the Arshad et al. Cd range as 0.0125–1.392 ppm; §6 Discussion (p. 6) reports the same range as 0.0037–1.39 ppm. The review does not flag which is the original primary-study value. Synthesis pass should consult the Arshad et al. 2020 primary publication.
-- Paper-internal discrepancy on Valentine & Ozioma 2022 sample size (recorded, not adjudicated): Table 1 (p. 5) reports n=5 for Valentine & Ozioma; the §5.3 narrative (p. 5) describes "their study of ten toothpastes in Nigeria, Valentine and Ozioma (21) reported the presence of the toxic heavy metals cadmium and lead in two of the ten toothpastes." Five-vs-ten cannot both be right. Synthesis pass should consult the Valentine & Ozioma 2022 primary publication.
-- Paper-internal discrepancy on Almukainzi et al. 2022 concentration units (recorded, not adjudicated): the §5.3 narrative reports Cd 8.8–9.19 ppm, Pb 75.86–78.31 ppm, tAs 209.33–221.96 ppm. The independently-ingested Almukainzi 2022 primary study ([[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]) is the canonical source for these values; the review's transport of those concentrations is included here as the review reports them. Synthesis should use the primary source.
-- Regulatory-limit transport: the review transports cosmetic and toothpaste regulatory limits from FDA, WHO, EU, Health Canada, and India BIS via secondary citation. These should be verified against the primary regulatory documents before being placed on `regulations/*` pages or used in HMTc threshold work. The review attributes Pb=20 ppm to FDA cosmetics (ref 26) but the FDA's published cosmetics testing page does not state a 20 ppm Pb limit for cosmetics generally; this is a transport-error candidate that the synthesis pass should reconcile.
-- Evidence tier: A-tier (peer-reviewed systematic review, PRISMA 2020-compliant, prospectively registered at OSF). The QUIN-assessed quality of the included primary studies (7 high-risk, 4 medium-risk, 0 low-risk) is a downstream-weighting concern for synthesis, not a reason to downgrade the review itself.
-- The lead author Chengappa K of this systematic review is the same author as the primary AAS study Chengappa et al. 2025 ([[sources/chengappa2025-toothpaste-india-aas]], Scientific Reports, doi 10.1038/s41598-025-12748-3). The systematic review (ref 14 in the primary study) was registered before and informed the design of the primary study; both are independently ingested. The primary study supersedes the systematic review's transported Almukainzi values for the Saudi Arabia data point.
-- Empty `ingredients: []` and `matrices: [cosmetic-personal-care]` are intentional: the included studies measure metals as contaminants in finished cosmetic products (toothpastes), not in food-style ingredients. The `cosmetic-personal-care` matrices vocabulary follows the established convention across sibling source pages (chengappa2025-toothpaste-india-aas, jitareanu2025, rbeida2023, balogun2024, massarsky2025, arshad2020).
-- The paper folder location (`03_Contamination_Data` within `June 1 Infant cosmetics metals papers`) is a manual-fetch curation choice; the systematic review itself does not specifically address children's or infant oral-care products (one included study, Odukudu et al. 2013, examined "fluoride and heavy metals" in toothpastes; no included study restricted to children's toothpaste). Routing to [[products/toothpaste]] (Cat 2) is appropriate.
-- Generative AI statement (p. 8): "The author(s) declare that no Generative AI was used in the creation of this manuscript."
-- Funding statement (p. 8): "The author(s) declare that no financial support was received for the research and/or publication of this article."
-- Conflict-of-interest statement (p. 8): "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
-- Audit editorial review (2026-06-02) flagged the WHO row in the regulatory-limit table as misattributing EU values (tAs 0.1 ppm, Cr 1.0 ppm) to WHO — verified against source p. 6: "WHO for lead at 10 ppm, cadmium at 0.3 ppm and mercury at 1 ppm (27). The EU has set limits of 0.5 for lead and mercury, 0.1 for arsenic and 1.0 ppm for chromium (7)." Corrected: split the WHO and EU values into two separate rows; WHO row now em-dashed for tAs and Cr.
-- Audit editorial review (2026-06-02) flagged "graphite-furnace AAS" in the opening paragraph as a methods-attribution slip — verified against source: PDF Table 1 specifies "Flame AAS" or generic "AAS" for the eight AAS studies; no included study uses graphite-furnace AAS. Corrected to "atomic absorption spectrophotometry (AAS; several specified flame AAS in Table 1)".
-- Audit editorial review (2026-06-02) flagged the `metals:` source metadata array as omitting Al and Mn — verified against source p. 5 Table 1 Salama row ("Lead, aluminium, cadmium, cobalt, chromium, copper, manganese, nickel, mercury, and arsenic"): both Al and Mn are present in the included corpus via Salama 2016. Added Al and Mn to the source metadata `metals:` array and to the "Wiki pages this source may touch" list.
-- Audit editorial review (2026-06-02) flagged that `[[regulations/eu-ec-1223-2009-cosmetics]]` and `[[regulations/india-bis-6356-toothpaste]]` are not in the current regulation-page taxonomy — confirmed: both regulation pages do not yet exist in the linked reference record. Both are bona-fide regulations cited multiple times across the toothpaste corpus (e.g., on the companion source page [[sources/chengappa2025-toothpaste-india-aas]]) and are appropriate candidates for new regulation pages via Karen's regulation-page workflow. Marked as `(proposed; not yet in regulation taxonomy)` rather than removing the wikilinks, to preserve the routing signal for the future regulation pages.
-- Audit editorial review (2026-06-02) flagged the opening paragraph's "essential (Co, Zn, Cr, Cu, Fe, Ni, Sn)" classification as adding Sn to the essential category, where the source p. 4 classifies only "Cobalt, zinc, chromium, copper, iron, and nickel" as essential (Sn is detected by Vella & Attard but not categorically classified in the source's essential/toxic schema). Corrected to "essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification".
+- [[regulations/eu-ec-1223-2009-cosmetics]]
+- [[regulations/india-bis-6356-toothpaste]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

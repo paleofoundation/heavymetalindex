@@ -156,7 +156,7 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 - **Courses.** Teaching reference for occupational and environmental health course modules on inter-laboratory inconsistency in bioaccessibility testing and on the methodological assumptions buried in regulatory "safe" thresholds.
 - **App.** Not relevant to ingredient `contamination_profile` blocks (no food matrix). Relevant background if a future children's outdoor-play module incorporates dermal exposure to soil residues; the temperature dependence (32-37 °C standard underestimates tropical-climate exposure) would need to be carried into any climate-aware exposure model.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/cadmium]]
@@ -167,17 +167,6 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 - [[metals/manganese]]
 - [[metals/nickel]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Single-sample study (n=1 soil composite); the dominant findings are formulation and temperature effects on dermal bioaccessibility, not site-specific exposure estimates. Numerical concentrations in this page are reported for the one bulk composite, not as population estimates.
-- `products: []` and `ingredients: []` are correct for this paper: it is a soil bioaccessibility methodology study, not a food or personal-care product study. The matrix is soil from an e-waste site; the artificial sweats are extractants, not sampled matrices. The advisory routing-malformed entry on this source reflects empty products/ingredients lists; not a source metadata defect for a methodology paper.
-- Prior page revision (2026-05-17 earlier) included `artificial-sweat` as a matrix; corrected to `[soil]` because matrices are sampled matrices (the soil), not extractants (the sweat solutions).
-- Prior page revision included only abstract-level claims in Key numbers; expanded to include Table 3 pseudototal concentrations, Table 4 bioaccessible concentrations and %BA values across all five formulations at 37 °C, Table 5 pH values, the Section 3.4 statistical analysis results, and the spike-recovery QC. This is required for downstream HMTc threshold work and for the Cochrane bar (exact figures, not paraphrases).
-- Speciation: paper measured total As (⁷⁵As by ICP-MS), no inorganic/total split; total Cr (⁵³Cr), no Cr-VI split. Metals tagged `tAs` (per speciation discipline: when paper does not separate iAs/tAs, use `tAs`) and bare `Cr` (no separate `tCr` convention).
-- Audit editorial review (2026-05-17) flagged bare `As` vs `tAs` and missing `[[metals/iron]]` wikilink; both verified against source — `As` corrected to `tAs` in source metadata; `[[metals/iron]]` added to "Wiki pages this source may touch" (Fe is reported in Tables 3 and 4 alongside the other eight analytes).
-- Brand-firewall compliance: method-section vendor names (Agilent ICP-MS, CEM MARS Xpress digester, Sigma Aldrich Acrodisc filters, Stuart SI500 incubator, Qmx Laboratories calibrants, Minitab software) retained per Part 12 Exception 2 (scientific reproducibility). No sampled-product brand names present.
-- Provisional ingredient/product scaffolds not applicable (no product/ingredient declarations).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

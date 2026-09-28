@@ -114,7 +114,7 @@ Source contributes:
 - Geographic-breakdown evidence (Lordegan vs. Ahvaz) for the rice ingredient page's `geographic_breakdown` field for Pb, Cd, Ni.
 - An A-tier data point on Iranian rice Pb that joins the existing [[sources/zafarzadeh2025-heavy-metals-rice-sari-iran]] result of widespread Iranian rice Pb exceedance.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
@@ -122,21 +122,6 @@ Source contributes:
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks: DOI grep for `10.1016/j.toxrep.2024.05.005` returned no prior page; `raw_handle` grep for `MFK_evaluation-of-carcinogenic` returned no prior page; cite-key glob for `mohammadi2024*` returned only an unrelated `mohammadian-hafshejani2024-cadmium-prostate-cancer-meta.md`. This is a fresh NEW-path ingest.
-- License: paper carries a CC BY-NC license per the masthead ("This is an open access article under the CC BY-NC license").
-- Speciation: paper measures total Pb, Cd, Ni, Zn by ICP-AES with no speciation. `metals:` source metadata uses `Pb`, `Cd`, `Ni`, `Zn` accordingly. No As or Hg in the analyte panel; not claimed.
-- Paper-internal data anomaly 1: Table 1 reports Pb Lordegan Min 0.0200 mg/kg and Max 0.2100 mg/kg, but the Mean (1.1265 mg/kg) and SD (0.0634) cannot be reconciled with that Min/Max range. The Mean is consistent with the paper's text claim that Lordegan Pb is "7 times" the 0.15 mg/kg Iranian limit (1.1265/0.15 ≈ 7.5). The reported Min/Max for Pb Lordegan appear to be a typesetting error in the source table; preserved as printed and flagged here, not silently corrected.
-- Paper-internal data anomaly 2: Table 1 reports Ahvaz means higher than Lordegan means for all four metals (consistent with the paper's framing of Ahvaz as the more industrially impacted city), but Table 2's "Lordegan" CR/HQ values are systematically higher than the "Ahvaz" CR/HQ values across Pb, Cd, and Ni. EDI scales linearly with concentration, so given the Table 1 means, Ahvaz CRs should be higher, not lower. The most likely explanation is that the city labels in Table 2 (and the matching Section 3.2 prose) are swapped. The values are preserved as the paper prints them and the inconsistency is flagged here rather than corrected; downstream synthesis should treat the CR/HQ outputs as advisory and rely on the Table 1 concentration values.
-- Paper-internal data anomaly 3: the paper writes the children EDI averaging time as "2190 for children and 10,950 kg for adults" — the "kg" is a units typo; AT is in days (2,190 days = 6 years × 365 days × ... actually 6 years; 10,950 days = 30 years). The Section 2.4 sentence is preserved verbatim in Key numbers; no correction was applied to the values.
-- Per-city sample allocation: the paper says "a total of 16 samples of Champa rice ... were collected from farmers in Lordegan and Ahvaz cities," but does not state how many came from each city. `sample_n: 16` is the aggregate; per-city n is not in the source.
-- Brand firewall (Part 12): the paper names no commercial brands. "Champa" is the rice cultivar/landrace, not a brand. Instrument vendor (Varian 710-ES atomic emission spectrometer) and statistical software (SPSS 22) appear in Methods only and fall under the scientific-method vendor exception locked 2026-05-17.
-- HMTc firewall (Part 2): the paper does propose threshold-level rhetoric ("more studies are needed," "regular monitoring is recommended"), which is preserved as paper content but not converted to wiki-side threshold claims; Implications notes the CR computation's sensitivity to the unusually low rice-intake values the paper used, without proposing any HMTc threshold.
-- `products/rice-bulk-grain` is the closest current product taxonomy slug for raw post-husking rice purchased from farmers; the paper measures the cultivated grain (post-harvest, post-husking) before commercial milling/packing, so the bulk-grain product slug is the routing destination. `products/rice-noodles`, `products/rice-snacks-crackers`, and `products/rice-bran-oil` are not relevant.
-- Codex cereal Ni limit of 10 mg/kg cited by the paper does not have a current regulation slug in the snapshot; not linked.
-- Iranian National Standard No. 12968 (rice contaminants) does not have a current regulation slug in the snapshot; not linked.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -80,7 +80,7 @@ App: Useful context for remediation and sourcing discussions where mining-basin 
 
 Courses: Good teaching example for separating environmental remediation data from edible-product evidence and for preserving organ, genotype, treatment, and speciation limits during evidence routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
@@ -91,16 +91,6 @@ Courses: Good teaching example for separating environmental remediation data fro
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, Table 1 soil concentrations, Figure 1 soil summaries, Table 2 root/stem/leaf concentrations, Figure 2 organ plots, Table 3 genotype comparisons and CDA results, the discussion, materials and methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source does not measure edible commodities or consumer products. The source reports total elemental concentrations after digestion; arsenic and chromium species are not separated.
-
-Audit editorial review (2026-06-02) flagged source metadata `metals: [..., As]` as inconsistent with, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected source metadata to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
-
-Audit editorial review (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
-
-Audit editorial review (2026-06-02) flagged the five `matrices:` strings (mining-basin-soil, salix-root, salix-stem, salix-leaf, phytoremediation-trial) as outside the standard matrices vocabulary. Per the systemic-vocab-gap precedent established by jarwar2023, houston2023, yang2023, and tang2024 retro-audits on 2026-06-02, non-standard remediation-domain matrices are documented as a systemic vocabulary gap rather than a per-page defect; matrices are retained as descriptive bare strings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

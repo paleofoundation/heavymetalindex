@@ -125,24 +125,6 @@ Limitations relevant to wiki use:
 - [[metals/mercury]]
 - [[supply-chain/irrigation-water]]
 
-## Verification notes
-
-Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which was in `routing_malformed` advisory (missing optional `products` field, which is correct to leave empty for this commodity-research source). Defects corrected against the source PDF (Tables 1–5, pp. 82–84):
-
-- `raw_handle`: `papers-cube` placeholder → canonical `PCMF_ajol-file-journals-579-articles-269230-66292f9b933` (per established PCMF handling).
-- Added `raw_sha256: 59bdcc92fcb7ad4c5134945226825a3fa91fd21976d1b2da0e282cf524e4c943` and `access_url` (DOI resolver).
-- `metals`: expanded from `[Pb, Cd, Cr, Ni]` to `[Pb, Cd, Cr, Ni, Zn, Cu, Co, tHg]` to reflect all eight analytes the paper measured (the page previously omitted Zn, Cu, Co, and Hg even though all were quantified or assayed). Hg recorded as `tHg` per Part 14 (the paper measures total Hg without MeHg speciation; the "ND" finding is method-limited per the dry-ashing limitation noted in Methods).
-- `evidence_tier`: A → B. Single-project, single-year, no within-site replication, no LOD reporting, tertiary PL comparators — this is solid primary data but does not meet A-tier criteria (national survey, prospective cohort, or multi-laboratory).
-- `sample_n`: 20 → 40 with clarifying `sample_population` (the prior "20" appears to have counted site-season pairs and obscured the four-way crossing of 10 sites × 2 seasons × 2 tissues).
-- Body — wet-season root means (Table 2): all five values were wrong on the prior page (prior Zn 5.553 / Pb 2.380 / Ni 0.523 / Co 0.347 / Cu 1.590 vs paper Zn 2.873 / Pb 1.284 / Ni 0.557 / Co 0.220 / Cu 1.427). Corrected to Table 2 values.
-- Body — dry-season root means (Table 4): six of seven values were wrong on the prior page (prior Zn 4.403 / Pb 1.343 / Cd 0.164 / Ni 1.060 / Co 0.650 / Cu 1.947 vs paper Zn 3.765 / Pb 1.367 / Cd 0.155 / Ni 1.042 / Co 0.601 / Cu 1.205; only Cr 3.695 matched). Corrected to Table 4 values.
-- Body — PL values: prior page cited "WHO limit of 5 mg/kg" for Zn and "WHO limit of 0.1 mg/kg" for Cd. The paper's actual PL row (Ogundele et al. 2015) is 0.6 mg/kg for Zn and 0.02 mg/kg for Cd. Corrected; PL block in Key numbers now lists the paper's full PL row with its citations.
-- Body — translocation factors, dry season: prior page said "Dry season TF >1 for Zn, Pb, Cd, Ni, Co, Cu (grain > root); Cr TF <1 (root > grain)". This had the TF-value bucketing inverted in both directions (the actual mean TFs are Cr 1.70 — the only metal >1 — and all others <1). The directional interpretation cancelled the inversion by accident. Corrected to match Table 5 means as printed in the paper, with the TF definition stated explicitly.
-- Body — added per-site exceedance counts for dry-season Pb/Cd/Cr (e.g., "7 of 10 site means above PL" for Pb), which are derivable from Table 3 ranges and PL values and tighten the synthesis-readiness of the page.
-- Methods — added explicit limitations note for Hg (dry-ashing volatilization), absent LODs, sampling-site discontinuity between seasons, and the absence of As measurement. These constrain how downstream synthesis can use the source.
-- Implications — softened "supports a jurisdiction flag … in certification sourcing criteria" to "can inform geographic and seasonal stratification … in HMTc workbench evidence pools at B-tier; does not, on its own, support threshold-setting work" per Part 2 firewall.
-- Wiki pages updated on ingest — expanded to include `[[metals/zinc]]`, `[[metals/copper]]`, `[[metals/cobalt]]`, and `[[metals/mercury]]` (previously omitted despite being measured).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -78,18 +78,6 @@ Ingredients: marginal direct relevance to [[ingredients/leafy-vegetables]] and [
 
 Microbiome: none.
 
-## Verification notes
-
-This page was originally drafted 2026-05-15 from a thinner pass over the source. Re-ingested 2026-05-18 with the full PDF re-read to correct the following defects:
-
-- source metadata `metals` previously listed only [Pb, Cd, Al, Cr, Ni, Mn]; Fe and V were measured and reported (Fig. 1, eight-metal panel) and have been added.
-- Previous body text stated "CCA showing higher Pb in the rainy season ... attributed to atmospheric re-suspension of street dust." The paper does not say this. Table 1 lists Pb as significantly increased only at Altzomoni in both seasons; Pb at CCA was not significantly above control. The atmospheric-re-suspension attribution is not in the source. Corrected.
-- Previous body text listed the five metals elevated at Altzomoni in the dry season as "aluminum, cadmium, chromium, nickel, and lead." Table 1 of the source lists Al, Cd, Cr, Mn, Ni (manganese, not lead). Pb was elevated at Altzomoni but in both seasons, separately. Corrected.
-- Previous body text framed CCA as showing "high vanadium and cadmium concentrations" — Table 1 actually lists three metals elevated at CCA dry (Cd, Mn, V). Corrected and Mn added.
-- Previous version omitted reported instrument detection limits, which the source does provide (Validation of the method section). Added.
-- Previous version lacked a `## Key numbers` section as required by the source-page template. Added with values from Fig. 1, Table 1, and the Results narrative.
-- `sample_n` previously null; set to 20 (plants per group per station per season, per Materials and methods).
-
 ## Related evidence
 - [[supply-chain/soil]]
 

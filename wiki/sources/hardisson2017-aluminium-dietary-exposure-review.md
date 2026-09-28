@@ -97,7 +97,7 @@ Literature review of studies published from 1985 to 2017 retrieved via Web of Sc
 
 **App:** The mean values compiled here (11.9 mg/kg fish/seafood; 16.8 mg/kg vegetables) provide broad literature context for Al in those ingredient categories, but the review does not provide primary product-level rows for a single ingredient profile.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
@@ -115,12 +115,6 @@ Literature review of studies published from 1985 to 2017 retrieved via Web of Sc
 - [[products/tea]]
 - [[products/fresh-fish]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to the manual-fetch PDF, replaced the generic manual-fetch handle, added DOI access URL and PDF SHA-256, corrected invalid taxonomy slugs, and corrected the EFSA baseline exposure range to 28.6-214 µg/kg body weight per day per the review text.
-- The source is a narrative review compiling values from cited studies; Table 6 intake estimates combine review-wide mean Al concentrations with Spanish AESAN consumption data.
-- 2026-05-18 fresh-context audit (automated editorial review) returned REVISE-level concerns; applied clarification for the 312 ± 18 µg/g tea value, normalized matrices to common broad terms, and tightened the App implication. The Certification/Courses/App labels are retained because they are required by the source-page template.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

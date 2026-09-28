@@ -70,7 +70,7 @@ Courses: This is a compact table-reading example for interpreting dry-weight spi
 
 App: The source can support `spices`, `herbs-and-spices`, `herbal-botanicals`, and `dried-herbs` profiles with a western Anatolia/Turkey jurisdiction note.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[products/supplements-botanicals-herbs]]
@@ -86,14 +86,6 @@ App: The source can support `spices`, `herbs-and-spices`, `herbal-botanicals`, a
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09: DOI `10.1111/j.1365-2621.2005.01140.x`, raw handle `MFK_divrikli2006`, and cite-key `divrikli2006-spices-herbal-plants-metals` returned no existing source page hits before creation.
-- All Key numbers values were re-checked against `/tmp/hmi-june9-087.txt` extracted with `pdftotext -layout`, including Tables 2 and 3 and the abstract range statement. Units are copied on the original dry-weight microgram-per-gram basis and not converted.
-- Speciation check: the paper reports total elemental Cu, Cd, Pb, Ni, Cr, Fe, Mn, and Zn by flame AAS. Chromium is not reported as Cr-VI.
-- Brand firewall check: samples were collected from farmers rather than named brands; no brand or farm identity is attached to a contamination value.
-- Closed vocabulary check: `products`, `ingredients`, `metals`, and wiki-page links use slugs present in the editorial record. Species-specific names such as rosemary, basil, laurel, marjoram, sheep sorrel, centaury, yarrow, marshmallow, lavender, and mullein do not all have closed ingredient slugs, so they remain matrix labels and table text only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -55,7 +55,7 @@ Courses: The paper is useful for teaching file-identity discipline because the l
 
 App: The source can support Iraq poultry-product context for Cd, Cu, and Pb by tissue and region, especially when an app view needs to distinguish breast meat from liver/offal.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/copper]]
@@ -65,16 +65,6 @@ App: The source can support Iraq poultry-product context for Cd, Cu, and Pb by t
 - [[ingredients/meat]]
 - [[ingredients/organ-meats]]
 - [[products/poultry-product]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_575.txt`; the title block, DOI line, abstract, sample collection section, sample preparation/microwave digestion section, metal analysis section, Tables 1-2, Figures 2-4, conclusions, and license line were checked against this page.
-- DOI `10.25130/tjas.23.3.15`, title text, raw handle `MFK_evaluation-of-some-heavy-metal-and-trace-element`, and candidate cite-key `faraj2023-backyard-chicken-metals-iraq` were searched before creation; no existing source page was found.
-- Units are copied exactly from Tables 1-2 as `mg/kg (mean ±SD)`. The Methods section says concentrations were measured in `μg∙mL-1` and converted using a dilution factor, but this page does not convert the table units.
-- Speciation: the source reports total Cd, Cu, and Pb by ICP-OES. No arsenic, mercury, chromium, or organotin speciation is involved.
-- Brand firewall: the study reports region-level backyard chicken samples and no brands or sellers. No brand-linked contamination values are reported here.
-- source metadata slugs were checked against the editorial record. The taxonomy lacks exact backyard-chicken-breast and backyard-chicken-liver ingredient/product slugs, so those remain matrix descriptors while routing uses broad `chicken`, `poultry`, `meat`, `organ-meats`, and `poultry-product`.
-- Source-internal caution: the Cu Results prose transposes some region/value wording, but Table 1 is internally clear; this page uses the table values for liver Cu.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

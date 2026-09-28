@@ -59,7 +59,7 @@ Soil samples were collected from 0-20 cm depth at 81 sites, with crop grains col
 - Standards workbench: not a salt source. Use only crop-grain rows and preserve China/Tongling mining-adjacent geography.
 - Methods: total metals only; no analyte speciation beyond elemental totals.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/wheat]]
@@ -72,12 +72,6 @@ Soil samples were collected from 0-20 cm depth at 81 sites, with crop grains col
 - [[metals/zinc]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- The wishlist row was `salt Cd`, but the PDF contains crop-grain and soil data only. It should not route to salt.
-- The paper provides exceedance proportions and some crop-specific maxima in text; Figure 4 contains crop-grain distributions, but the extracted text does not print every individual grain concentration.
-- The evidence is China-specific and mining-adjacent; do not pool silently with US-market crop-grain distributions.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

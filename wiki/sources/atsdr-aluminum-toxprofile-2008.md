@@ -116,19 +116,6 @@ The PDF was first retrieved via WebFetch on 2026-04-25 from the canonical ATSDR 
 
 The 2008 profile remains the operative ATSDR aluminum reference as of the access date; ATSDR has not finalized a post-2008 update.
 
-## Verification notes
-
-This page was merge-enhanced on 2026-06-04 from a 2026-04-25 pre-current-schema revision. The prior revision contained two errors corrected on this pass:
-
-- **Chronic oral MRL derivation arithmetic.** The prior revision stated "composite uncertainty factor 100" and "100 ÷ 100 = 1 mg Al/kg/day." Per Section 2.3 (page 26 of the profile), the chronic-duration oral MRL was derived by dividing the Golub et al. 2000 LOAEL of 100 mg Al/kg/day by an uncertainty factor of 300 (3 minimal LOAEL × 10 animal-to-human × 10 human variability) and applying a modifying factor of 0.3 for the higher bioavailability of aluminum lactate relative to typical dietary and drinking-water aluminum compounds. The corrected derivation and the parallel intermediate-duration derivation from Golub and Germann 2001 (NOAEL 26 mg Al/kg/day; UF 100; MF 0.3) are now in the MRL table.
-- **Conflation of the two oral MRLs.** The prior revision attributed both the intermediate and chronic MRLs to Golub et al. 2000. Per Section 2.3, only the chronic MRL is anchored on Golub et al. 2000; the intermediate MRL is anchored on Golub and Germann 2001.
-
-The prior revision also omitted the soy-based and milk-based infant formula concentration data (Section 6.6, page 225) and the dietary intake by age-sex group (Table 6-5, page 216) that bear directly on certifiable infant-and-child food categories. Both are now included in Key numbers.
-
-The prior revision's Implications block contained a wiki/HMTc firewall violation: "HMT&C calibration to the EFSA TWI is the more conservative posture" is a synthesis claim about HMTc policy that does not belong on a source page. The block has been removed; the literature comparison between ATSDR's MRL and EFSA's TWI is a legitimate observation, but the framing as guidance to HMTc belongs in a synthesis page or HMTc certification document, not here.
-
-Audit editorial review (2026-06-04) flagged two Check 2 concerns: (1) `ingredients/soy-based-infant-formula` and `ingredients/milk-based-infant-formula` not in the editorial record, and (2) `antacid-medication` not in the documented matrices vocabulary. Verified against the live wiki: the linked reference record and the linked reference record both exist (the taxonomy snapshot is generated 2026-05-18 and is stale; the ingredient pages predate it). False positive — slugs retained. The matrices concern was real: `antacid-medication` is not in the documented matrices list in the editorial record and antacids are pharmaceuticals rather than a food matrix. Removed `antacid-medication` from the matrices array; the source's antacid exposure data remains in Key numbers narrative form.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

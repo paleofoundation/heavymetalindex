@@ -89,7 +89,7 @@ This synthesis was established 2026-05-16 on three anchor sources and is provisi
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -101,7 +101,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata]]<span class="hmi-ref-meta">Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M · Journal of Applied Phycology · 2023 · [doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/hahn2022-salish-seaweed-contaminants|Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption]]<span class="hmi-ref-meta">Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. · PLOS ONE · 2022 · [doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269)</span><span class="hmi-ref-tag">Peer-reviewed</span>

@@ -53,7 +53,6 @@ This is draft FDA guidance dated December 2016. Every page is marked Draft-Not f
 | Lead | cosmetics | 10 | ppm | maximum lead level as an impurity |  | Section II, Background; Reference 2 p.4 |
 | Lead | cosmetics | 10 | ppm | maximum lead level as an impurity |  | Section II, Background p.4 |
 
-
 ## Methods (brief)
 
 Status is draft, not final, confirmed from the title page (Draft Guidance; Draft-Not for Implementation; December 2016) and from the statement that the guidance, when finalized, will represent current thinking. Date on the title page is December 2016. A separate sentence says that as of December 20, 2016, FDA had verified website addresses for references. Comment instructions say to submit comments within 60 days of publication in the Federal Register of the notice of availability; that Federal Register date is not printed in this file. Lip and externally applied cosmetics are separate scopes under one 10 ppm recommendation. Survey concentration ranges in the guidance are FDA occurrence results and are not copied into the numbers array.

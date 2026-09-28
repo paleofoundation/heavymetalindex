@@ -81,18 +81,6 @@ Speciation discipline: the review is about methylmercury toxicological reference
 - [[metals/mercury-methyl]]
 - [[metals/mercury-total]]
 
-## Verification notes
-
-**Identity checks.** On 2026-07-27, DOI grep for `10.1007/s00204-026-04345-8`, DOI-slug grep for `s00204-026-04345-8`, raw-handle grep for `RPHG_10-1007-s00204-026-04345-8`, checksum grep for `925d67f9713b31fb292477aec4532e79d16561473eab8eac65ddc1326b60ac0d`, author grep for `Blechinger`, and cite-key collision checks found no existing the linked reference record page. This is a fresh source page.
-
-**Raw artifact.** The PDF has `29` pages, file size `2066516` bytes, and SHA-256 `925d67f9713b31fb292477aec4532e79d16561473eab8eac65ddc1326b60ac0d`. `pdfinfo` reports Adobe InDesign/PDF Library metadata and no encryption. `pdfimages -list` found no embedded image objects; the tables are text/vector layout. Rendered checks of the Table 1, Table 2, Table 3, and Table 4 pages matched the extracted text used above.
-
-**Evidence tier.** A. Although this is a review, it is a peer-reviewed risk-assessment review from Health Canada authors, compares authoritative agency/public-health derivations, and includes explicit sensitivity analyses. It is not primary food-occurrence evidence.
-
-**Firewall check.** The page reports TRVs and PoDs because the article reports them. It does not translate those values into HMTc thresholds, certification pass/fail limits, clean/dirty product rows, or product-category percentiles. Products and ingredients are intentionally empty because the source does not measure seafood or any consumer product.
-
-**Number verification.** Numbers in the Key numbers section were checked once against the extracted full-PDF text and a second time against the rendered table pages or the surrounding article text before commit. Table 1 values were checked against rendered PDF pages 5-6; Table 2 against rendered page 9; Table 3 against rendered page 10; Table 4 against rendered page 17; the sensitivity-analysis values were checked against the Discussion and sensitivity-analysis text.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

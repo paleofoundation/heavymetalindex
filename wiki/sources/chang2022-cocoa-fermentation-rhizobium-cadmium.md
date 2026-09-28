@@ -57,14 +57,10 @@ App: Adds context for cocoa cadmium mitigation and flags Rhizobium-treated ferme
 
 Microbiome: The study uses a microbial inoculant during fermentation, but it does not address human or gut microbiome effects.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/cocoa]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The PDF title, byline, citation block, DOI, journal, treatment table, and methods were read from the source PDF. The abstract's "36 to 29 mg/kg" statement appears inconsistent with Table 16's 0.36 to 0.29 mg/kg values; this page uses Table 16 as the extraction basis and records the discrepancy.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

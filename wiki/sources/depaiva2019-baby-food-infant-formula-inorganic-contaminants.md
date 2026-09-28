@@ -139,7 +139,7 @@ The review does not supply a single primary sample frame. Values pooled in this 
 
 The regulatory table is useful as historical context for how the review framed infant-food and formula limits in 2019. Downstream regulation pages should cite the current regulation source records directly rather than using this review as the source of record for active maximum levels.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder]]
 - [[products/fruit-purees]]
@@ -153,13 +153,6 @@ The regulatory table is useful as historical context for how the review framed i
 - [[metals/mercury-methyl]]
 - [[metals/aluminum]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Identity check: DOI `10.1016/j.cofs.2019.05.006`, raw handle `RPMEHG_10-1016-j-cofs-2019-05-006`, candidate cite-key `depaiva2019-baby-food-infant-formula-inorganic-contaminants`, and SHA-256 `c5ed7d1aa95654f501009ceab88d0a50ec7ca2d87b7d5d8d66e52f95a730d70e` were searched before creation; no existing clean post-2026-05-14 source page was found.
-- Full-PDF read performed from the seven-page ScienceDirect PDF. Table 1, Table 2, Table 3, and the exposure-assessment paragraphs on page 63 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
-- Brand firewall: Table 1 and body text are expressed at food/category level only. No brand-by-brand values are reproduced.
-- HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this review.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

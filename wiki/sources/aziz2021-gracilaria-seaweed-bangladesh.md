@@ -54,7 +54,7 @@ For seaweed and algae-based supplement pages, this is direct occurrence evidence
 
 For standards work, the dry-weight basis is explicit. The arsenic value is total arsenic and must not be substituted for inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/seaweed]]
 - [[products/seaweed-kelp-foods]]
@@ -63,10 +63,6 @@ For standards work, the dry-weight basis is explicit. The arsenic value is total
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-The abstract and Table IV provide the heavy-metal values. The paper describes the organism as consumed by local communities and evaluated as seafood/food supplement, supporting food/supplement routing rather than environmental-only routing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

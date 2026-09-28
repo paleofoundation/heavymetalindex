@@ -65,7 +65,7 @@ Courses: Strong example of geogenic source attribution: low groundwater arsenic 
 
 App: Context only. The source can support groundwater-source due-diligence flags for Bangladesh, not finished-product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -73,12 +73,6 @@ App: Context only. The source can support groundwater-source due-diligence flags
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-Recovered from `skip:not-target-cell` under the 2026-06-10 inclusion-by-default rule. The old skip treated the paper as outside the target cell because it measured groundwater and aquifer sediment rather than mineral-water product occurrence. On reading, it is in-scope a3/a4 source-attribution and groundwater exposure-context evidence with measured arsenic and sediment values.
-
-Numbers were checked against the abstract, Table 2, Table 3, Figures 3-4 text, the groundwater arsenic results paragraph, and methods in the extracted PDF. Arsenic is recorded as `tAs` because the study measured total arsenic in sediments and groundwater without separating inorganic species in its own analytical results. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

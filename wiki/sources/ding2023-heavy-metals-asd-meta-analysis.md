@@ -82,20 +82,7 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 - App: Does not contribute to ingredient `contamination_profile` values. This is biomarker/exposure data, not food-occurrence data.
 - Microbiome: The discussion (section 4.4) notes that altered gut flora in ASD children (related to antibiotic use and to glutathione/GSH levels) may compromise Hg excretion via reduced demethylation of methylmercury, contributing to higher body burdens. This is a literature-citation framing within the discussion, not an original measurement; relevant context for the metals-microbiome-neurodevelopment axis but secondary to the meta-analytic findings.
 
-## Verification notes
-
-- Cite-key derived from first author + year + topic per the system-prompt naming rule; no triage manifest was supplied for this PDF.
-- Paper-internal inconsistency on Cd geographic subgroup: section 3.3 text states "patients in Australia [SMD = −0.52, 95%CI (−1.04, −0.01), P < 0.05]" but Table 2 reports the same numbers under "North America" (5 studies, P=0.048). Table 1 confirms Australia contributed only one study (Wright 2012), which measured Hg only — so an Australia-only Cd subgroup is structurally impossible. The Table 2 attribution to North America matches the structurally available data; the body text is a labeling error. Recorded both readings above with Table 2 as the authoritative source.
-- Section 3.6 (Hg) opens "There were 34 studies reporting the difference in As concentration" — another paper-internal typo. Context, table headings, and the figure caption confirm this is the Hg analysis with 34 contributing studies. Treated as a typographic slip.
-- Africa Hg subgroup mentioned in body text (section 3.6: "in Africa [SMD = 0.10, 95%CI (−0.16, 0.36), P > 0.05]") does not appear in Table 2. Table 2's Hg/Area block lists only North America, Asia, and Europe. Recorded only the Table 2 values above; flagged the textual Africa figure as potentially mis-attributed or from a subgroup not shown in the published table.
-- Metals source metadata uses `tAs` and `tHg` per Part 14 speciation rule because the included primary studies predominantly measured total forms; iAs/MeHg are not the pooled quantities.
-- Matrices field uses `hair`, `blood`, `urine` from the controlled vocabulary; the paper also reports fingernail and teeth measurements as a smaller fraction of contributing studies. No bare-string matrices were invented.
-- `jurisdictions: [international]` follows the global-review convention; the included primary studies span 22 countries across five continents.
-- Products and ingredients are both empty because no food product or ingredient is measured. This source contributes exposure/health-outcomes evidence to the four metal pages only.
-- Audit editorial review 2026-05-18 flagged Hg publication-bias values as Begg's P=0.003 / Egger's P<0.001 instead of the PDF's "P = 0.002 in Begg's test and P = 0.008 in Egger's test" (Section 3.6); verified against PDF page 6 — corrected to Begg's P=0.002, Egger's P=0.008 in both `## Key numbers` Mercury bullet and `method_quality_caveat`.
-- Audit editorial review 2026-05-18 flagged the Certification (HMTc) implications bullet as edging into prescriptive language ("motivates tight thresholds", "needs to account for regional exposure mix"); softened to neutral contribution-only framing per Part 2.
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]

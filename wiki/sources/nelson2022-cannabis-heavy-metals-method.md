@@ -55,7 +55,7 @@ Samples were homogenized where needed, digested by closed-vessel microwave diges
 
 The native values in Table 5 provide bounded occurrence context for cannabis-derived oral, inhaled, topical, and manufacturing matrices, while the main contribution of the paper is analytical: AOAC First Action validation of microwave digestion plus ICP-MS for cannabis heavy-metals testing. Product routing should preserve the matrix split. Hemp butter, flower, topical cream, and CBD crude extract should not be pooled as one finished-product distribution.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[products/supplements-botanicals-herbs]]
@@ -65,16 +65,6 @@ The native values in Table 5 provide bounded occurrence context for cannabis-der
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1093/jaoacint/qsab173`, `MFK_determination-of-heavy-metals-in-a-variety-of-cann`, or `nelson2022-cannabis-heavy-metals-method`.
-- Source scope: method-validation study, not a market survey. Table 5 native-level values are the only published occurrence numbers for actual cannabis/cannabis-derived matrices; broader sample data are explicitly described as "available upon request."
-- Speciation: As and Hg are total/unspecified in the paper; no iAs or MeHg values were inferred.
-- Units preserved: native values and LOQs remain in `ppb, µg/kg`; no conversions were performed.
-- Jurisdictions record the method-regulatory scope the paper states: U.S. state cannabis testing programs and Canadian cannabis laws. The paper does not report purchase or production jurisdictions for the validation samples, so these codes should not be read as sample-provenance claims.
-- Missing slug note: the taxonomy snapshot has no `hemp`, `cannabis`, `CBD`, or `cannabis-derived-products` ingredient/product slug. source metadata uses the existing broad `[[ingredients/herbal-botanicals]]`, `[[products/supplements-botanicals-herbs]]`, `[[products/dietary-supplements]]`, and `[[products/body-hand-leave-on-skin-care]]` slugs instead of inventing cannabis-specific pages.
-- Brand firewall: sample labels are generic matrix descriptors. Instrument/vendor names in Methods are scientific reproducibility details, not product-brand contamination claims.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

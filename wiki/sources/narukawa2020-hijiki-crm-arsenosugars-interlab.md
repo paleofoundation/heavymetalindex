@@ -68,17 +68,6 @@ A ~22 kg hijiki (Hizikia fusiforme) batch collected from the west coast of Japan
 - Courses: a reference case on the CRM scarcity for arsenosugars and the metrology behind seaweed arsenic speciation.
 - App: contributes hijiki inorganic-arsenic anchor values (as As(V)) to the seaweed ingredient contamination_profile, flagged as reference-material data.
 
-## Verification notes
-
-- raw_handle MFK_narukawa2020 from the PDF filename; raw_path under "raw/Manual Fetch source-retrieval /June 8 Inorganic Arsenic Seaweed/". No DOI was present in the extracted text; publication recorded as Analytical Sciences 2020, 36, 233–239 (The Japan Society for Analytical Chemistry); no_doi_assigned true, access_url null.
-- Evidence tier A: peer-reviewed inter-laboratory metrology study with SI-traceable standards and full uncertainty budgets. Note this is a CRM-characterization, not a market survey — occurrence weight is limited to two hijiki reference materials (flagged in Implications for the extraction pass).
-- Speciation: total As and inorganic As reported; the inorganic measure here is specifically As(V) (the dominant inorganic species in hijiki; CRM 7405-a is certified for As(V), not for the As(III)+As(V) sum). Recorded as iAs in source metadata with the As(V)-specific basis stated in Key numbers; As(III) was not separately certified/quantified. Arsenosugars (Sugar-408/328/482/392) and DMA were measured and tabulated but NOT lifted to source metadata — they are not HMI analyte-vocabulary tokens and recording any of them as iAs would be a speciation error.
-- Units/basis preserved exactly (mg/kg dry mass; method LODs in ng/g). The candidate-material combined values (Table 2) are weighted means across the two labs; per-lab values are noted where relevant.
-- sample_n=2 reflects the two hijiki reference materials with reported arsenic values (candidate 7405-b and control 7405-a); the inter-lab design used 18 sub-samples per lab (6 bottles × 3 sub-samples), described in the body.
-- Brand firewall: not engaged. The materials are research reference materials (NMIJ/NIST CRMs); instrument and reference-material vendor names (Agilent, Thermo, Waters, NMIJ, NIST) are scientific-method reporting, permitted under Exception 2. No food brands.
-- Jurisdiction JP (hijiki collected west coast of Japan; NMIJ/AIST). sampling_locations records the west-coast-of-Japan origin.
-- matrices [edible-seaweed, macroalgae, dry-weight]: hijiki is a brown alga (Sargassum/Hizikia), not a kelp (Laminaria), so `kelp` is deliberately omitted here.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

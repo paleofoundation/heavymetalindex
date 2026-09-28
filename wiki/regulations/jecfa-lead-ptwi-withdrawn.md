@@ -45,7 +45,7 @@ Withdrawal record from [[sources/jecfa-73rd-lead-2010|JECFA 73rd 2010]]:
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/jecfa-73rd-lead-2010|Lead (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 960 (2011); lead addendum in WHO Food Additives Series No. 64 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209601)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>

@@ -108,7 +108,7 @@ Five disciplines applied to current work so the 10-year transition costs less wh
 - JSON-LD ScholarlyArticle markup: emitted on source / ingredient / product / metal / regulation / synthesis pages
 - **Scholarly sitemap**: `/sitemap-scholarly.xml` (focused subset for Google Scholar / Semantic Scholar / OpenAlex crawlers) plus an `robots.txt` allowlist for academic + AI-agent bots
 - **Curatorial board scaffold**: [[curators]] — structural slots filled, named curators pending
-- **External peer-review surface**: per-synthesis-page footer rendered from `data/peer-review/<reviewer>.jsonl`; verdicts: endorsed / contested / recused / pending
+- **External peer review**: each synthesis page records named reviewer verdicts (endorsed, contested, recused, or pending).
 - **Living-review contradiction detector**: `tools/build-synthesis-contradictions.mjs` — cohort-based detection of contributing source values that disagree by more than 2×; surfaces "Contradiction watch" footer on affected pages
 - **Translation pipeline**: `tools/translate-synthesis.mjs` — synthesis-page translation into Spanish, Chinese, Portuguese, French, German, Japanese, Korean via the Vercel AI Gateway
 - Licensing posture: [[licensing]]

@@ -109,18 +109,6 @@ Organotin mechanisms are species-dependent. Tributyltin and dibutyltin are immun
 
 The manual-fetch PDF in the June 3 Folder is byte-identical (SHA-256 `de21f125...e313f4`, 7.7 MB) to the earlier the archived source file retrieval from the NCBI Bookshelf record for tp55. The 2005 final profile supersedes the September 2003 draft for public comment. ATSDR has not finalized a post-2005 update for tin as of the access date; the 2005 profile remains the operative U.S. agency reference. Profile authored by Carolyn Harper, Fernando Llados, Gary Diamond, and Lara L. Chappell with external peer review by Aschner, Brown, and Jarnot. License `us-government-work`; no copyright restriction applies. Canonical agency URL: `atsdr.cdc.gov/toxprofiles/tp55.pdf`; secondary host: NCBI Bookshelf NBK599935.
 
-## Verification notes
-
-This page was merge-enhanced on 2026-06-04 from a pre-2026-05-14 revision. Corrections made on this pass against the source PDF (tp55, August 2005):
-
-- "Dibutyltin chloride" in the prior MRL table was corrected to "Dibutyltin dichloride" — the source consistently names the test article as "dibutyltin dichloride" (Section 2.3, p. 19; Seinen et al. 1977b).
-- The prior "Selected tin levels in foods" paragraph cited "ATSDR Tables 6-2 and 6-3" but Table 6-2 is "Organotin Levels in Sediment" (p. 267-268), not food. The correct table is 6-3 alone. The numeric values in the prior paragraph ("meats around 0.6-2.9 mg/kg," "fishes 6.0 mg/kg," "canned alcoholic beverages around 4.5 mg/kg") do not appear in Table 6-3 and were removed; the actual Table 6-3 values are now reported in the Key numbers food block above (e.g., lacquered-can meats mean 4.5 mg/kg n=4 range 1.1-9.4; lacquered-can fishes mean 0.7 mg/kg n=4 range 0.3-0.9; alcoholic beverages and canned alcoholic beverages both reported <0.003 mg/kg in fresh foods).
-- The tributyltin oxide MRL row now records the actual point of departure (NOAEL 0.025 mg/kg/day) rather than the bare "NOAEL" placeholder of the prior table.
-- Legacy headings `## Summary` and `## Wiki pages updated on ingest` were removed per current Part 6 template. The Wiki-pages section is superseded by the routing audit, which fans this source out to product, ingredient, and metal pages automatically from the source metadata.
-- `raw_handle`, `raw_sha256`, and `near_duplicates` fields were added; `raw_path` updated to the manual-fetch PDF (byte-identical to the prior Bookshelf retrieval). `access_url` updated to the canonical ATSDR URL; NCBI Bookshelf retained as secondary host in the provenance note.
-- `source_type` normalized from `government_report` (4 instances corpus-wide) to `gov-report` (77 instances; current convention).
-- Audit editorial review (2026-06-04) verdict PROMOTE; one minor ⚠️ concern applied — fresh-foods row label in Table 6-3 block previously named "carrots, cabbage, salad, potatoes, etc." with upper anchor 0.13 mg/kg, but 0.13 is the lentils mean (range 0.09-0.17) and potatoes range to 0.2 mg/kg. Row rewritten to anchor the upper bound on lentils and note the potatoes maximum, with alcoholic beverages added to the <0.003 row per Table 6-3.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

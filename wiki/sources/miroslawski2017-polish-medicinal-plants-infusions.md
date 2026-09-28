@@ -61,7 +61,7 @@ Courses: The study is a compact teaching case for basis discipline: the raw-herb
 
 App: The source can support the `herbal-botanicals` and `dried-herbs` contamination profiles for Cd, Cr, Ni, and Pb, with a Polish market note and an infusion-transfer qualifier.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/herbal-botanical-infusions]]
 - [[products/supplements-botanicals-herbs]]
@@ -71,15 +71,6 @@ App: The source can support the `herbal-botanicals` and `dried-herbs` contaminat
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09: DOI `10.1007/s12011-017-1072-5`, raw handle `MFK_10.1007-s12011-017-1072-5`, and cite-key `miroslawski2017-polish-medicinal-plants-infusions` returned no existing source page hits before creation.
-- The producer names printed in the Materials section are not reproduced because they identify sampled products. Values are reported by product form and producer number/range only, preserving the brand firewall.
-- All Key numbers values were re-checked against `/tmp/hmi-june9-002.txt` extracted with `pdftotext -layout`, including Tables 4, 5, 6, and 7. Units are copied as printed (`mg kg−1`, `%`, and `μg/daily`) and not converted.
-- Speciation check: Cd, Cr, Ni, and Pb are total elemental measurements by AAS; the source does not report Cr-VI.
-- The source's WHO comparison line prints permissible levels for arsenic, cadmium, and lead as `1.0, 0.3, and 10.0 (μg kg−1)` while discussing dry-weight medicinal-plant raw material. The page records the authors' exceedance statement but does not use that line to derive any HMTc threshold or consumer-facing interpretation.
-- `matrices: [medicinal-plants, dried-herbs, herbal-infusion]` uses corpus-established descriptive matrix terms because the canonical examples do not have a single term for pharmacy-market brewing-bag medicinal herbs plus their prepared infusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -148,27 +148,7 @@ The paper reports Cd and Pb only; no other metals were measured. Cadmium and lea
 
 **App:** Contributes occurrence data for Polish-origin fresh, frozen, dried, and processed forms of apple, pear, grape, raspberry, strawberry, cranberry, beetroot, celery, carrot, and tomato to the cadmium and lead profiles for each commodity ingredient. Processing-form must be tracked separately in any per-ingredient model because dried-versus-fresh concentrations differ by roughly the water-removal factor.
 
-## Verification notes
-
-Page rewritten 2026-05-19 from a 2026-05-12 revision against the source PDF (DOI 10.1038/s41598-021-91554-z). Corrections applied:
-
-- **Authors:** previously listed as `[Rusin M, Romanowska-Duda Z, Brylonek M, Rogulski M, Jasinski M]`; the PDF (p. 1) names `Monika Rusin, Joanna Domagalska, Danuta Rogala, Mehdi Razzaghi & Iwona Szymala`. Four of the five prior co-author names were fabricated. Corrected to the actual author list.
-- **Title:** previously `"Cadmium and lead contents in fresh and processed fruit and vegetable products and the resulting dietary risk assessment"`; the PDF title is `"Concentration of cadmium and lead in vegetables and fruits"`. The prior title was fabricated. Corrected.
-- **Key numbers section:** the prior revision invented entire findings that the paper does not contain — "dried herbs" and "dried mushrooms" with values up to 2–5 mg/kg DW, "leafy vegetables Cd mean 0.05–0.15 mg/kg fresh weight". The paper measures only ten commodities (apple, cranberry, grape, pear, raspberry, strawberry, beetroot, celery, carrot, tomato); there are no herbs, no mushrooms, and no leafy vegetables among the species sampled. All fabricated values removed and the Key numbers section rewritten from Tables 1, 4, 5, 6, 7, and 8 of the source.
-- **Methods section:** prior version was a two-sentence summary that did not reflect the instrument model, the sample-prep workflow, the four-phase microwave program, the per-form sample weights, or the analytical-method statute basis. Rewritten from the Material and Methods section (pp. 2–3) and Tables 2–4.
-- **`ingredients:`** previously `[leafy-greens, carrot, apple, fruit]` — `leafy-greens` is not a commodity the paper measured. Replaced with the slugs for the actual ten species, minus `cranberries` (not in the current taxonomy snapshot; freq-1 here — flagged below for provisional-scaffold consideration).
-- **`products:`** previously `[fresh-fruit]` only — the paper covers fresh, dried, canned/jarred (jam, marmalade, syrup), and 100%-juice fruit products and fresh/frozen/dried/processed vegetable products. Expanded to `[fresh-fruit, dried-fruit, canned-fruit, fruit-juice-not-canned, root-tuber-vegetables, canned-vegetables]`.
-- **`matrices:`** previously listed product-shaped strings; replaced with the standard matrix vocabulary used elsewhere in the corpus: `[fresh-fruit, frozen-fruit, dried-fruit, processed-fruit, fresh-vegetable, frozen-vegetable, dried-vegetable, processed-vegetable]`.
-- **`raw_handle:`** added the per-paper handle `MFK_concentration-of-cadmium-and-lead-in-vegetables-an` (the prior page had no `raw_handle` field).
-- **`raw_path:`** updated from the stale the archived source file location to the canonical Manual Fetch source-retrieval path (the file at the prior location has the same SHA-256 and is a copy of the MFK PDF; the MFK location is the ingest source).
-- **`raw_sha256:`** field renamed from `sha256:` (value preserved verbatim: `75277429df4ab9cae5b91c476c9437ed795d7ad3ca3b7a458098fdbda1810bae`).
-- **`sample_population:`** added; previously absent.
-- **Implications section:** prior version contained fabricated claims about "dried herbs and mushrooms as high-Cd ingredients" — removed. Rewritten to reflect what the paper actually contributes (Polish retail occurrence data for ten named commodities across four processing forms, with specific MPL exceedances).
-- **Legacy `## Wiki pages updated on ingest` section removed** per the current Part 6 source-page template.
-
-Freq-1 ingredient flag: `cranberries` / `cranberry` is not in the current taxonomy snapshot (no the linked reference record or `cranberries.md` exists). The paper measures 13 cranberry samples across fresh, dried, and processed forms; a provisional ingredient scaffold via the editorial record would let this page route to a cranberry ingredient destination on a future ingest. Flagged for the autonomy daemon to handle on its next provisional-scaffold sweep; not creating during this ingest per the per-skill constraint that source-page ingest does not create new ingredient pages by hand.
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]

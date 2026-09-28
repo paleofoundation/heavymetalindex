@@ -64,10 +64,10 @@ Future expansion candidates:
 - **Comparison with US (FDA action levels) and Codex (CODEX STAN 193-1995) frameworks.** The EU framework is one of three major heavy-metal regulatory systems globally; cross-framework comparison synthesis would clarify how the same matrix and analyte are regulated across multi-jurisdictional markets but is out of scope for this single-EU-focused page.
 - **Pre-2001 member-state-specific frameworks** (German contaminant levels, French AFSSA limits, UK FSA guidance) that EC 466/2001 harmonized. Only relevant for very old sources (1990s and earlier).
 
-## Downstream pages updated
+## Related pages
 
-- All six EU regulation pages cross-reference this synthesis: [[regulations/eu-466-2001-contaminants-superseded]], [[regulations/eu-1881-2006-contaminants-superseded]], [[regulations/eu-reg-2022-617-mercury-fishery]], [[regulations/eu-2021-1317-lead-cereals-superseded]], [[regulations/eu-2021-1323-cadmium-cereals-superseded]], [[regulations/eu2023-contaminants-maximum-levels]].
-- Source pages citing pre-2023 EU caps should reference the relevant historical regulation page; this synthesis page is the connector that helps citation work locate the correct framework version.
+These findings are also recorded on [[regulations/eu-466-2001-contaminants-superseded]], [[regulations/eu-1881-2006-contaminants-superseded]], [[regulations/eu-reg-2022-617-mercury-fishery]], [[regulations/eu-2021-1317-lead-cereals-superseded]], [[regulations/eu-2021-1323-cadmium-cereals-superseded]], and [[regulations/eu2023-contaminants-maximum-levels]].
+
 
 ## Anchor sources (regulation pages)
 
@@ -78,14 +78,11 @@ Future expansion candidates:
 - [[regulations/eu-reg-2022-617-mercury-fishery]] — 2022 Hg-fish amendment (current).
 - [[regulations/eu2023-contaminants-maximum-levels]] — 2023 full recast (current).
 
-## How this page was promoted
-
-Established 2026-05-18 after Codex created the EC 466/2001 page (and Karen + Claude created the EC 1881/2006 page, the EU 2022/617 page, the EU 2021/1317 + 1323 pages, and the EU 2023/915 page). With six EU regulation pages now in the wiki, the timeline connecting them needed dedicated synthesis-page treatment to prevent citation work from picking the wrong framework version.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |

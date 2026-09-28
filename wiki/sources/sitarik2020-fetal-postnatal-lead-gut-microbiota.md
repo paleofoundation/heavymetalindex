@@ -94,30 +94,11 @@ Limitations stated by authors: small analytical sample (n = 146), particularly f
 **Microbiome:** Single-paper evidence for lead → mycobiome and lead → specific bacterial taxa axes. Fungal genera affected by fetal Pb (relative to controls): Candida (−), Aspergillus (−), Penicillium (− postnatally at 6 months), Malassezia restricta and M. globosa (+), Saccharomyces (+ at 1 month / − at 6 months). Bacterial genera affected: Collinsella aerofaciens (+ at 1 month), Bilophila (+ at 6 months), and several Bacteroides OTUs (−). Candidate for WikiBiome federation as a primary source on lead-mycobiome interactions in human infants.
 
 ## Related evidence
+
+- [[microbiome/lead-gut-mycobiome]]
+- [[health/vulnerable-populations]]
 - [[metals/lead]]
 - [[testing/la-icp-ms]]
-
-## Verification notes
-
-Enhanced 2026-05-18 from the source PDF (the archived source file) under skill v2.0 merge-enhance path. The prior revision (dated 2026-05-14) carried several defects against the source:
-
-- **Authors list was hallucinated.** Prior source metadata listed `[Sitarik AR, Bobbitt KR, Havstad SL, Fujimura KE, Levin AM, Zoratti EM, Kim H, Johnson CC, Lynch SV, Ownby DR, Wegienka GR]`, which appears to be a WHEALS-cohort author roster from a different publication. The actual author list per the PDF title page is the one now in source metadata: Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, Lynch SV, Park SK, Wu KH, Yong GJM, Cassidy-Bushrow AE. Manish Arora and Christine Austin (Mount Sinai/Lautenberg) ran the LA-ICP-MS work; Bielak (U-Michigan epidemiology) provided cohort statistical input; Park (U-Michigan environmental health) co-authored.
-- **Title corrected** from "Fetal and early postnatal lead exposure and the infant gut microbiota in a birth cohort" to the published title "Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota" (Environment International 144 (2020) 106062, DOI 10.1016/j.envint.2020.106062).
-- **Sequencing platform reversed.** Prior version stated 16S was run on Illumina MiSeq; the paper states the 16S V4 amplicon library was loaded onto the Illumina NextSeq cartridge (Methods §2.3), while ITS2 was run on Illumina MiSeq. Corrected.
-- **ITS region misidentified.** Prior version said "ITS1 sequencing (fungal)"; the paper states "The internal transcribed spacer region (ITS) 2 of the rRNA gene was amplified using the primer pair fITS7... and ITS4" (Methods §2.3). Corrected to ITS2.
-- **Key numbers expanded and made specific.** Prior table reported generic "pFDR<0.05" for most findings; the paper reports specific p-values (0.006, 0.003, 0.002, etc.) that have been transcribed. Bilophila timing clarified to 6-month sample (prior table left it ambiguous; the paper specifies 6 months for both 2nd- and 3rd-trimester exposure). Added Penicillium → 6-month postnatal-window decrease (pFDR = 0.002) and the dual Saccharomyces signal (1-month increase, 6-month decrease) that were missing from the prior key-numbers table.
-- **Cohort-flow numbers added.** Prior page reported only n=146; the paper details a more nuanced cohort-flow (1,258 → 512 → 203 → 180 → 146) and gives subset sizes by time point and assay that matter for interpreting fungal-arm statistical power. Added.
-- **Implications softened toward observation, away from synthesis.** The prior Certification subsection asserted that the paper "supports the rationale for precautionary lead limits in foods consumed during pregnancy and early infancy" — a synthesis-toward-HMT&C claim that the wiki/HMT&C firewall prohibits in source pages. Replaced with a neutral statement that the paper informs vulnerable-population framing but does not provide threshold-setting inputs.
-- **Wiki pages updated on ingest** pruned. Prior list referenced `[[microbiome/lead-gut-mycobiome]]` and `[[health/vulnerable-populations]]` — pages that do not exist as wiki targets. Routing audit would otherwise mark these as unresolved. Retained only the two extant targets (`metals/lead`, `testing/la-icp-ms`); the microbiome federation candidate is mentioned in Implications prose instead.
-
-Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `evidence_tier: A`, `jurisdictions: [US]`, `metals: [Pb]`, `ingredients: []`, `products: []`, `matrices: [tooth-dentin, stool, infant-gut-microbiome]`, `near_duplicates: []`, `sample_n: 146`.
-
-**Audit editorial review (2026-05-18) — REVISE verdict, two findings applied:**
-
-- Audit flagged the bacterial-subset breakdown as "81 / 35 / 68" being inconsistent with the source. Verified against PDF p. 3 §2.7, which reads: "Of these 146 children, 35 had 1-month bacterial microbiota only, 35 had 6-month bacterial microbiota only, and 68 had bacterial microbiota at both time points." The "81" was a transcription error introduced in the merge-enhance pass. Corrected to "35 / 35 / 68."
-- Audit flagged the Prenatal-indoor-pets p-values reported as "0.058, 0.038, 0.213 — 3rd trimester reaching p = 0.019" as both internally inconsistent and not matching Table 1. Verified against PDF p. 5 Table 1 row "Prenatal indoor pets": the across-time-point p-values are 0.058 (2nd trim), 0.019 (3rd trim, bolded as significant), and 0.19 (postnatal). The "0.038" and "0.213" values are not in the source. The wiki now reads "p = 0.019" for the 3rd-trimester significant association, "p = 0.058" trend for 2nd trimester, and "p = 0.19" non-significant for postnatal — matching the source exactly.
-- Audit Check 2 raised an advisory observation that `tooth-dentin`, `stool`, and `infant-gut-microbiome` are biological/biomarker matrices outside the food-matrices vocabulary. Not applied as a change: these matrix slugs are consistent with the established convention across sibling biomarker source pages (per a `grep matrices: wiki/sources/*.md` survey at the time of ingest) and are not a defect.
-- All other audit checks: PROMOTE (numerical fidelity on tables, speciation/methods, brand firewall, wiki/HMTc firewall). No false-positive findings to record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

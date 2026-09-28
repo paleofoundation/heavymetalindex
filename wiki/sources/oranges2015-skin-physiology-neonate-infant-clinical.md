@@ -67,27 +67,12 @@ Narrative critical review. No systematic-review methodology is described — no 
 - Courses: Foundational paediatric-dermal-physiology teaching reference at the narrative-review level. Less comprehensive and quantitative than [[sources/rahma2022-infant-skin-barrier-function-review]] (2022 Pharmaceutics review), which carries similar scope but adds the Felter et al. 2017 DD-modifier scheme and the baby-wipes clinical-evidence summary. The two reviews are complementary; Oranges 2015 emphasises the alkaline-pH-at-birth and vernix-caseosa narrative more thoroughly than Rahma 2022.
 - App: Not directly relevant to ingredient `contamination_profile` data. The qualitative neonatal-skin-permeability framing is useful infrastructure for any per-product dermal-route risk estimator the HMI consumer app may eventually add for children's personal-care products.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/children-personal-care]]
 - [[products/baby-lotion-cream]]
 - [[products/baby-shampoo-body-wash]]
 - [[products/baby-oil]]
-
-## Verification notes
-
-- Narrative critical review, no systematic methodology and no primary measurements; `evidence_tier: B`. The underlying primary studies the review cites for quantitative facts (Hammarlund & Sedin 1979 TEWL-vs-GA equation; Nikolovski et al. 2008 infant SC hydration and water transport; Yosipovitch et al. 2000 anatomical-site skin pH; Visscher et al. 2000 and 2005 diapered-skin and vernix studies; Fluhr et al. 2010 and 2012 infant skin physiology and adaptation; Harpin & Rutter 1982/1983 preterm sweating and barrier properties) are independently A-tier primary references and should be located and ingested separately when HMI synthesis on infant dermal exposure needs the primary numbers — this review's value is the integration and the clinical-implications narrative, not the underlying measurements.
-- `metals: []` is correct — the paper contains no heavy-metal occurrence data and no metal-specific permeability measurements. The systemic-absorption cases reviewed are pharmaceutical, antiseptic, or industrial-chemical exposures (iodine, isopropyl alcohol, chlorhexidine, aniline dye, lactic acid, salicylic acid), not metals.
-- `ingredients: []` is correct — the paper does not discuss food ingredients. Sunflower seed oil and olive oil are discussed as topical formulation ingredients for premature newborns, not as food-ingredient contamination sources, and are not appropriate routing targets for the the linked reference record taxonomy.
-- `products: [children-personal-care, baby-lotion-cream, baby-shampoo-body-wash, baby-oil]`: children-personal-care is the umbrella context for the paper's whole subject (neonate/infant topical care); baby-lotion-cream covers the emollient-from-birth and atopic-dermatitis-prevention discussion (Fernandes 2011, Simpson 2014); baby-shampoo-body-wash covers the explicit cleanser recommendation (liquid, pH-neutral or mildly acidic; Blume-Peytavi 2009); baby-oil covers the sunflower-seed-oil vs olive-oil discussion (Darmstadt 2004, Danby 2013) on preterm-newborn topical-oil safety. Diaper-area products (baby-wipes, diaper-cream-zno, diaper-cream-non-zno) are NOT routed — the paper mentions the diaper region only in passing as a high-humidity TEWL-elevated site, with no product-specific evaluation; declined. Baby sunscreens are not discussed in this paper; declined.
-- `matrices: []` is correct — no food or environmental matrices are measured; the paper is about skin tissue itself, not matrices the routing layer recognises.
-- `jurisdictions: []` reflects that this is a physiology review without specific regulatory framing; the authors are based at the University of Pisa (Italy) but the review is not Italy-specific in content and does not cite Italian regulatory bodies. The recommendation citations are international (e.g., Blume-Peytavi et al. 2009 European round table; AAP-style recommendations on bathing).
-- Brand-firewall (Part 12): clean. The paper does not name commercial baby-product brands or rank manufacturers; the Tewameter (Courage-Khazaka Electronic) reference is to a research instrument used in TEWL methodology, not a consumer brand, and is preserved in the methods discussion for completeness.
-- Wiki/HMTc firewall (Part 2): clean. The review does not propose certification thresholds and does not comment on existing HMI / HMTc standards. The clinical recommendations (avoid topical iodine, prefer chlorhexidine in children >2 mo, use liquid pH-neutral cleansers, emollients from birth, sunflower oil > olive oil for preterm) are reported as the source's clinical framing, not as HMI recommendations.
-- Speciation flag: not applicable; no metals reported.
-- Funding and conflicts: the paper states "The authors do not declare any conflicts of interest. The authors do not declare any ghostwriter contributions." No funding source is disclosed in the published article.
-- License: subscription-access ("Critical Reviews" section of Advances in Wound Care, Mary Ann Liebert, Inc. journal; Copyright © 2015 Mary Ann Liebert, Inc.); not CC-licensed. Quotation in the HMI corpus is fair-use for review and synthesis purposes; full re-hosting of the PDF is restricted by copyright.
-- Related HMI corpus pages: [[sources/rahma2022-infant-skin-barrier-function-review]] (2022 Pharmaceutics narrative review, similar scope with more quantitative depth); the underlying primary references (Nikolovski 2008, Visscher 2000/2005, Fluhr 2010/2012, Yosipovitch 2000, Hammarlund & Sedin 1979) are not yet ingested and should be located if HMI ever needs the primary numbers for an exposure-model build.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

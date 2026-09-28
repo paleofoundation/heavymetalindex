@@ -63,7 +63,7 @@ The study tested disposable paper cups, plastic cups, plastic bags, and plastic 
 
 This source provides food-contact-material migration evidence for disposable paper and plastic fast-food containers under a hot-water contact condition. The strongest Table 1 signals are Zn and Ba from plastic bags and lower-microgram-per-liter releases of Ni, Mn, Cr, Cu, and other analytes from cups and bowls. The values should route to food-contact packaging or tableware rows and should remain separate from food-commodity occurrence datasets.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/food-packaging-paperboard-cartons]]
 - [[products/tableware-plastic-drinkware]]
@@ -83,16 +83,6 @@ This source provides food-contact-material migration evidence for disposable pap
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/selenium]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1016/j.ecoenv.2023.114797`, `MFK_heavy-metal-risk-of-disposable-food-containers-o`, or `zeng2023-disposable-food-containers-metals`.
-- Table 1 was re-opened from `/tmp/hmi-june9-032.txt` before drafting. Every concentration in the Key numbers table is transcribed from Table 1; significance markers are omitted, but the source-reported ratio after each semicolon is retained.
-- Units preserved: concentrations remain in `microgram/L` hot-water leachate; no conversion to microgram/kg food or daily intake was performed.
-- Speciation: chromium is total Cr; no Cr-VI, arsenic, mercury, methylmercury, or inorganic arsenic values are reported.
-- Product routing is broad because the taxonomy snapshot has no exact `paper-cups`, `plastic-cups`, `plastic-bags`, or `plastic-bowls` product slugs. Existing food-packaging and plastic-drinkware slugs are used, and exact physical forms are kept in `matrices:`.
-- Brand firewall: the source describes an online purchasing channel but no brand-specific values are reported here. Instrument and method vendor names are scientific reproducibility details, not product-brand contamination claims.
-- The source's HQ and ELCR calculations are not treated as HMTc thresholds or consumer guidance; this page records the occurrence/migration values and leaves risk-model interpretation to source-attributed context.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -132,31 +132,6 @@ Narrative review, not a systematic review. The authors prioritized fruits with g
 
 **For courses and synthesis pages:** Useful as the entry point for the fruit-by-product valorization domain. Sections 7 ("Current trends on fruit by-product toxicant reduction") and Figure 4 catalog the detoxification methods (HPP, PEF, cold plasma, supercritical CO₂, ultrasound, lyophilization, fermentation) that are increasingly relevant to ingredient suppliers — material for an ingredient-handling course module.
 
-## Verification notes
-
-**2026-05-20 (merge-enhance pass).** Pre-existing page dated 2026-05-14 carried defects from earlier ingest:
-
-- `raw_handle: manual-fetch-source-retrieval` replaced with `MFK_toxicological-qualities-and-detoxification-trends-` per current MFK_ handle convention.
-- `raw_path` was truncated to `...fruit by-pro.pdf`; corrected to the full PDF filename `...fruit by-products_ A review.pdf`.
-- `raw_sha256` was missing; added (`8f66d00ee3ae954d5e379415834e79667cf20b21a02edb6e95752154c8d69e36`).
-- `access_url` was missing; added DOI link.
-- `metals` was `[tAs, Pb, Cd, Cr, Ni, tHg]`; Co added — the paper's Table 1 reports Co for apricot kernels, avocado seeds, banana peel, blueberry pomace, lemon, lime, mango, orange, papaya, pineapple, plum, raspberry, watermelon, with single-paper outliers up to 219 mg/kg (papaya, ref [45,48,49]).
-- `ingredients` previously listed invented sub-variant slugs (banana-peel, apple-pomace, orange-peel, grape-pomace, mango-peel, pineapple-peel, watermelon-rind, strawberry-pomace) that do not exist in the wiki's ingredient taxonomy and would route to nothing. Replaced with the seventeen valid whole-fruit parent slugs that match the species discussed: banana, apple, oranges, grapes, mango, pineapple, watermelon, avocado, peach, plums, blueberries, strawberries, raspberries, grapefruit, clementines-tangerines, pear, fruit. The by-product framing is preserved via `matrices` and the body.
-- `matrices` retained as `[fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` — these accurately describe the review's subject (by-product fractions, not fresh fruit) and the existing routing audit treats this set as advisory-only.
-- `products: []` and `jurisdictions: []` retained — review article with no specific commercial product framing and global scope.
-- Key numbers expanded from ~5 lines to full Table 1 commodity-by-commodity breakdown (all 19 commodities with their per-fraction metal concentrations and refs), plus Table 2 mycotoxin/ANF/pesticide outliers, regulatory-limit citations, global production 2022 in million tonnes from Figure 1a, by-product waste percentages from Figure 1b, and the four cytotoxicity findings reported in Sections 3–6.
-- Methods section expanded to flag six explicit evidence-quality limitations: tertiary synthesis nature, unit inconsistency, absent speciation, hazard-quotient citation gap, single-measurement Pb outlier risk, and absence of regulatory-event documentation. The original page omitted these.
-- Legacy "Wiki pages updated on ingest" section removed (replaced by the new schema's expectation that downstream propagation happens during synthesis, not ingest).
-- `ingest_method` and `created_by` fields added per current source metadata schema.
-
-No primary-data values were silently altered. The review's pineapple peel Pb outlier (0.64 mg/100 g dry weight) and the contrasting "below 0.1 µg/L" framing for the other six by-products are preserved verbatim as they appear in the source on p.2 even though the unit basis is inconsistent — the review's own framing is the authoritative record.
-
-**Audit editorial review (2026-05-20) — REVISE verdict; three ⚠️ findings, all applied:**
-
-1. Pineapple shell vs pomace mycotoxin attribution — the original "Pineapple shell/pomace" collapsed row was split per Table 2 p.7 into "Pineapple shell: Fusarium = 250" (refs [70–72]) and "Pineapple pomace: Aflatoxin B₂ and B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³" (refs [60,72,79]). The aflatoxin label was also corrected from "B₁" to the source's "B₂ and B₁".
-2. Watermelon meal tannin (32 × 10⁵ mg/kg) and orange pomace Prochloraz (8.11.7 mg/kg) added as bullet 7 in the limitations list, explicitly flagged as suspected source-printing errors preserved verbatim. The review is the authoritative record; we do not silently correct primary-source typesetting.
-3. Matrices vocabulary clarification: `matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` are descriptive of the review's actual subject (by-product fractions, not fresh fruit) and are treated as advisory-only by the routing audit. They are not enumerated in the taxonomy snapshot's controlled-vocabulary list, but they remain in source metadata because removing them would mis-describe the source.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

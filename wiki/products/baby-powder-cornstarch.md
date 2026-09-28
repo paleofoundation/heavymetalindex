@@ -107,7 +107,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/szcc2020-infant-powders-shenzhen-consumer-council|20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report]]<span class="hmi-ref-meta">Yang L and Tan A · 南方都市报 (Southern Metropolis Daily), 南都鉴定, 2020-06-19, by 杨丽云 and 谭嫒婷, reporting a Shenzhen Consumer Council comparative test · 2020 · [m.mp.oeeee.com](https://m.mp.oeeee.com/a/BAAFRD000020200619336708.html)</span><span class="hmi-ref-tag">News</span>
 2. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>
@@ -121,7 +121,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

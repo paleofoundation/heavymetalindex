@@ -122,23 +122,13 @@ Observational catalog of suncare/sun-protection displays at four major retail ou
 - App: Adds prevalence context for the consumer app's sunscreen category, specifically that mineral-filter (TiO2 / ZnO) products dominate the baby-marketed shelf and chemical-filter products (with oxybenzone enrichment at the high-SPF end) dominate the kids- and sports-marketed shelves. Does not add ingredient-level contamination_profile values.
 - Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/titanium]]
 - [[metals/zinc]]
 - [[products/baby-sunscreen-mineral]]
 - [[products/baby-sunscreen-chemical]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- Conflict of interest declared: corresponding author E. N. Ilyas reports employment from AmberNoon (a sun-protective-clothing company). The paper's framing of "the safer choice is sun-protective clothing" is therefore not synthesis-grade independent evidence; it is reported here as the authors' framing only.
-- The paper does not measure heavy-metal contamination of sunscreens. It documents formulation prevalence and label-claim concentrations of titanium dioxide and zinc oxide as intentional UV filters. The `metals: [Ti, Zn]` source metadata reflects intentional-ingredient prevalence, not contamination measurements.
-- Paper-internal numerical inconsistencies recorded as the source presented them: (a) p. 2 reports SPF 40 at "2 (4.9%)" — the percentage is implausible for 2/410 (which would be 0.5%) and appears to be a typo in the source; both values are recorded as the source wrote them. (b) p. 5 body text for baby products says octocrylene was in "three (11.1%)" of chemical-bearing baby products while Table 1 reports the octocrylene baby cell at 14.8%; both reported as the source did. (c) p. 5 body text says 23/27 (85%) baby products contained only physical filters and 3/27 (11%) chemical only with 1 (3.7%) combination, but separately says "the four sunscreens that contained chemical sunscreen ingredients" — counting the 3 chemical-only + 1 combination product as 4 chemical-bearing products reconciles this.
-- The baby-zinc-oxide Table 1 cell at 88.8% (24/27 baby products) reconciles with the body-text breakdown of "14 (52%) zinc oxide exclusive + 9 (33%) zinc oxide + titanium dioxide + 1 combination (mineral-enriched) zinc oxide with three chemical filters" = 24 of 27 baby products containing zinc oxide.
-- Brand names on the labels surveyed are not reproduced in this page per Part 12 strict reading. The paper itself does not present brand-by-brand contamination rankings — it presents demographic-marketing-term aggregations across an anonymized catalog — so the strict reading is intrinsically satisfied without aggregation work.
-- `matrices: [cosmetic-personal-care]` follows the precedent set by other manual-fetch cosmetic ingest pages (e.g., barabash2025-sunscreen-tio2-zno-release-spicp-tofms, almukainzi2022-saudi-topical-cosmetics-icpms).
-- `products/sun-suntan-products` exists in the linked reference record but is not listed in the 2026-05-17 taxonomy snapshot — the snapshot is stale relative to the live the linked reference record directory. The routing for this paper deliberately uses the pediatric-specific slugs `baby-sunscreen-mineral`, `baby-sunscreen-chemical`, and `children-personal-care` because the paper's scope is specifically the pediatric subset; sun-suntan-products is the adult umbrella and the paper's adult-comparator data (the 410-overall baseline) would be a broad_product_context route at most.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

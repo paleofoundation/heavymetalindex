@@ -68,7 +68,7 @@ App: Can support educational context around breast-milk biomonitoring and enviro
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -77,14 +77,6 @@ Microbiome: No microbiome findings.
 - [[metals/mercury]]
 - [[metals/mercury-methyl]]
 - [[testing/index]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, abstract percentages, Table 1 intake values, Table 2 concentration rows, and selected narrative concentration examples were transcribed from the extracted PDF text.
-- The source table is headed "mean concentration (ug l-1) in breast milk"; the page preserves that unit for Table 2 values. Where the narrative itself reports mg/L or ug/dL, those units are kept as printed and not converted.
-- Arsenic and chromium are unqualified in the review table, so the page uses tAs and Cr. Mercury is mostly unqualified and tagged tHg; MeHg is included because the review separately lists methyl mercury in Table 1 and discusses methylmercury transfer.
-- Products and ingredients are intentionally empty because this is an a4 human-exposure review. It does not measure mineral water, infant formula, or any commercial food product.
-- The page records a near-duplicate/topical-overlap note with `katrynska2026-human-milk-biomonitor-toxic-metals-review`; the DOI and concentration table are distinct.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

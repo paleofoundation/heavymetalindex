@@ -66,7 +66,7 @@ Courses: Case study on how outdated extraction equipment, absence of refining/bl
 
 App: Limited utility for ingredient-level contamination profiling due to unit reporting ambiguity, source-internal QC inconsistencies, and small sample size. Use as contextual regional data only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/vegetable-oils]]
 - [[ingredients/sunflower-oil]]
@@ -77,16 +77,6 @@ App: Limited utility for ingredient-level contamination profiling due to unit re
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.1186/s12889-024-19695-0 and the Marker extraction at the archived source file.
-- Source reports total Pb, Cd, Cu, Fe, and Zn by FAAS; no speciation issue is present.
-- `niger-seed-oil` and `mixed-vegetable-oil` are source-specific matrix descriptors; no ingredient pages for those exact oil categories exist in the current taxonomy snapshot.
-- Table 7 contains internal inconsistencies (especially Cd median vs range), so this page preserves the source's values and explicitly marks the inconsistency rather than normalizing the data.
-- Cross-vendor audit (Codex, 2026-05-17) corrected one unit statement from mg/kg to mg/L because the source reports Table 6/7 and exceedance thresholds in mg/L; no mg/kg conversion is provided.
-- Method validation caveat: the source's LOD/LOQ table conflicts with several reported unspiked concentration ranges, especially Cd, so this page should not feed standards calculations without independent re-analysis.
-- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

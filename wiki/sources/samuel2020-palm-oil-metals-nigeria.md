@@ -54,7 +54,7 @@ App: Palm oil can carry a Nigeria-specific occurrence flag for Pb, Cd, total ars
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/palm-oil]]
 - [[products/cooking-oils-other]]
@@ -62,17 +62,6 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-
-## Verification notes
-
-- The source table header appears to read `Pd (ppm)`, but the abstract, discussion, and method scope identify the fourth metal as lead/Pb. This source page treats the fourth column as Pb and records the table-header defect for audit.
-- There is an internal discrepancy for Pb: Table 3 lists Yan-kura at 0.93 ± 0.03 ppm, while the abstract and discussion summarize Pb as 0.05-0.18 ppm. The candidate rows preserve the table maximum and note the contradiction.
-- Arsenic is reported as total/unspecified As; it is not evidence for inorganic arsenic. Mercury is reported as total/unspecified Hg; it is not evidence for methylmercury.
-- The Edo Hg table cell prints as `0.01l ± 0.03` in PDF text extraction, while the abstract and discussion summarize Edo as 0.01 ppm. This page treats the Edo value as approximately 0.01 ppm rather than resolving the final character as a digit.
-- `[[ingredients/palm-oil]]` exists as a live ingredient page but is absent from the current GPT-collaboration taxonomy snapshot; this is a snapshot-staleness issue, not a missing destination page.
-- Matrix labels `palm-oil`, `edible-oil`, and `vegetable-oil` are source-specific routing descriptors for this source page. The controlled routeable destinations are `[[ingredients/palm-oil]]` and `[[products/cooking-oils-other]]`.
-- Values are source-reported ppm in palm oil. No conversion to ppb, wet weight, or as-consumed mass basis is made here.
-- The source is not brand-specific and does not identify consumer brands.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

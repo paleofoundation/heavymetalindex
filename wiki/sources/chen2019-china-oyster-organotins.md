@@ -76,17 +76,6 @@ Commercial oysters were purchased from Shanghai seafood markets in November 2014
 
 This source contributes shellfish occurrence evidence for organotin tin species in oysters from China. The source is directly routeable to the shellfish product row as organotin context, with TBT/DBT/MBT and TPhT/DPhT/MPhT retained as separate species rather than collapsed into total Sn. The dry-weight basis and oyster-specific matrix should be preserved for any later structured extraction or pooling decision.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-2, results, risk-assessment section, and conclusion were readable.
-- DOI `10.1016/j.scitotenv.2018.09.310`, raw handle `MFK_chen2019`, and cite-key checks found no existing source page before creation.
-- Tables 1 and 2 were checked against the extracted text. Units are preserved as `ng Sn g−1 dw`; no conversion was performed. The commercial-oyster table repeats SHS1 and SHS2 labels in the extracted text; the labels were copied as extracted rather than corrected.
-- Internal-paper discrepancy: the abstract states the commercial-oyster total range as `251 to 1949 ng Sn g−1 dw`, but Table 1's maximum total is `2328 ± 35 ng Sn g−1 dw` (site SHS6). The wiki reports the abstract figure verbatim; the table's higher maximum is also preserved as the row value in the Table 1 block above. The discrepancy is in the source itself.
-- Speciation: all values are organotin species, not total Sn or inorganic tin. Following the established convention for organotin source pages in this wiki (ho2014, ho2016, uc-peraza2022, shu2023, jiang2026, efsa2004), the source metadata uses `metals: [Sn]` with `organotins` added to `matrices:` to signal that downstream routing must treat these values as organotin-species evidence, not bulk Sn.
-- Brand firewall: the source uses market/site codes and city locations only; no sampled product brand names were reported.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-- Audit 2026-06-09 (autonomous): GPT-style audit flagged `metals: [Sn]` as a speciation error; verified against repo convention — eight other organotin source pages use the same `metals: [Sn]` plus `organotins` in matrices, so the bare `Sn` tag is correct but the missing `organotins` matrix entry was a real defect (added). Audit also flagged the abstract-vs-Table-1 discrepancy and the softened `significantly greater` qualifier; both applied.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

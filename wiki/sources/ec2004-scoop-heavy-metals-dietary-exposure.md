@@ -51,15 +51,6 @@ The report was produced under Council Directive `93/5/EEC` scientific cooperatio
 
 This source supports EU regulatory-context routing for total arsenic in fish/seafood, cadmium in cereals and vegetables, lead in broad foods including potatoes and fish/meat outliers, and total mercury in fish and shellfish. It should not be used as a clean HMTc benchmark percentile, and it should not be used to substitute total arsenic for inorganic arsenic or total mercury for methylmercury. The report is especially useful for documenting early EU recognition of seafood as the main arsenic and mercury exposure contributor and cereals/vegetables as major cadmium contributors.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the Foreword, Summary, Conclusions, and table-of-contents locations for the occurrence summary tables were checked in `/tmp/ingest_f3_scoop_3_2_11.txt`.
-- No DOI was reported in the PDF; `no_doi_assigned: true` is paired with the European Commission PDF access URL. Title, raw handle `MFK_cs-contaminants-catalogue-scoop-3-2-11-heavy`, and cite-key checks found no existing source page before creation.
-- Numerical values in Key numbers were copied from the Summary and Conclusions prose and preserve source units (`mg`, `mg/day`, `mg/kg bodyweight/week`, `µg/kg bodyweight`, and percent of PTWI). No unit conversion was performed.
-- Speciation: arsenic is total arsenic in the submissions, with no inorganic-arsenic data available. Mercury submissions were total mercury; the report's methylmercury discussion is an overestimate assuming total Hg as MeHg, not measured methylmercury occurrence.
-- Brand firewall: the source reports country and food-category aggregates, not branded product values.
-- source metadata slugs were checked against the editorial record; missing narrow slugs include wine, game meat, and several Member State-specific food groups, so broad product routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

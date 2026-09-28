@@ -99,7 +99,7 @@ App: Supports coffee Cd/Pb/Ni/Al context with an as-consumed infusion basis. The
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/nickel]]
@@ -111,12 +111,6 @@ Microbiome: Not addressed.
 - [[metals/magnesium]]
 - [[ingredients/coffee]]
 - [[products/coffee]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven coffee-Cd wishlist PDF.
-- Strict brand firewall: the paper reports anonymized sample codes only. This page reports aggregate matrix-level values and does not reproduce sample-code rows as product identifiers.
-- Methods vendor/reference-material names are retained under Part 12 Exception 2 for instrument, calibration, and certified-reference-material documentation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

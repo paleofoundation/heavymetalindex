@@ -96,7 +96,7 @@ Courses: Good case study for the distinction between circular-economy agricultur
 
 App: Route as agricultural-input context for biochar and soil amendments, especially where biochar is proposed as a heavy-metal immobilization or soil-health intervention.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/arsenic]]
@@ -109,14 +109,6 @@ App: Route as agricultural-input context for biochar and soil amendments, especi
 - [[metals/zinc]]
 - [[metals/cobalt]]
 - [[metals/molybdenum]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/agriculture13051064`; no DOI conflict was observed. The source measures an agricultural soil amendment, not an edible commodity, so `ingredients` and `products` are intentionally empty. The table reports total As and total Hg only; no arsenic or mercury speciation is available. Censored values such as As <4 mg/kg and Cd <0.8 mg/kg are retained as censored biochar evidence rather than converted to zero. Company/supplier name from the methods section is omitted under the brand firewall.
-
-Audit editorial review (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a paper-internal oddity: Table 4 in the published PDF prints mean and SD as the same numeric, which is almost certainly a source typo (the other four Zn rows have SD values one to two orders of magnitude smaller than the mean). The wiki page faithfully reproduces what the source prints; downstream synthesis should treat the BMEC Zn uncertainty as unreliable rather than as a genuine +/- 51.31 mg/kg interval.
-
-Audit editorial review (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in the editorial record. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at the linked reference record and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

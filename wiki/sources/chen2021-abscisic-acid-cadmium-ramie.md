@@ -54,18 +54,12 @@ Courses: Useful for teaching phytoremediation design, including the distinction 
 
 App: Context only for mitigation education and supply-chain caution. It does not support consumer-facing product comparisons or ingredient contamination estimates.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[mitigation/agronomic]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-The auto-fetch filename framed this as salt/cadmium, but the PDF itself is a ramie phytoremediation study. Products and ingredients are intentionally empty because the study did not measure edible rice, salt, textile articles, or marketed ramie-derived products. The matrix is a controlled hydroponic CdCl2 exposure.
-
-Cd tissue concentrations are plotted in Figures 1 and 2 but not provided as a source data table in the extracted PDF text. The page therefore records exact treatment concentrations, replicate design, methods, and source-stated directional/significance findings, and does not invent precise bar-chart values from the figures.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

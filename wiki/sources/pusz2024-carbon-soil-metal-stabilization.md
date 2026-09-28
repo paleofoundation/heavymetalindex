@@ -171,6 +171,11 @@ Courses: useful as a case study in educator-audience modules on (i) the differen
 Microbiome: not applicable.
 
 ## Related evidence
+
+- [[sources/sharma2023-phytoremediation-heavy-metal-soil]]
+- [[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]
+- [[supply-chain/wastewater-irrigation]]
+- [[ingredients/legumes]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -181,32 +186,6 @@ Microbiome: not applicable.
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[testing/index]]
-
-## Verification notes
-
-- Merge-enhanced from prior 2026-06-02 revision (ingest commit 61f0b46) on 2026-06-02 by the v2 manual-fetch-ingest skill autonomously, with the following changes verified against the source PDF.
-- Downgraded `evidence_tier: A` → `B`. A-tier is reserved for designs with stronger external validity (multi-site, peer-replicated, market-frame sampling). This is a single pot-experiment trial on one geographic-origin soil set with one test plant and one vegetation cycle — B-tier is the correct grading.
-- Replaced bespoke `matrices: [industrial-soil, carbon-amendment, phytotoxicity-test, medicago-falcata, soil-to-plant-transfer]` with vocabulary-compliant `matrices: [soil, plant-tissue]`. The prior matrix strings were not in the controlled vocabulary; phytotoxicity-test is a method label not a matrix, and medicago-falcata is the test species (already noted in `sample_population`). Soil-to-plant-transfer is a wiki page slug, not a matrix value, and is now correctly listed under `## Wiki pages updated on ingest`. Precedent: `[[sources/sharma2023-phytoremediation-heavy-metal-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]` use `[soil, plant-tissue]`.
-- Reformatted `authors:` array from full-name strings to the project-standard `[Last F, Last F,...]` form and restored Polish diacritics: Wiśniewska, Kamiński. Author given-name initials verified against the title page.
-- Added missing provenance fields: `access_url` (DOI link) and `raw_sha256` (computed locally on the manual-fetch PDF, value d8e67c4657e4edbc1d5cd2364610fd6b853ce0d0f86fb2fa3cca8d1ba0b78a48).
-- Added `sampling_locations` and reformatted `sample_population` to make the soil-origin / pot-experiment distinction explicit.
-- **Plant-uptake ordering correction.** Prior revision stated "the authors summarize plant uptake as Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots" without distinguishing the SC control from the carbon-amended contaminated soils. Page 10 actually reports three orderings: (i) SC control roots = Zn > Cu > Pb > Ni > Cr > Cd; (ii) SC control shoots = Zn > Cu > Ni > Pb > Cr > Cd (Ni precedes Pb in shoots because shoot Ni 2.19 > shoot Pb 1.75); (iii) amended-contaminated-soil ordering = Zn > Pb > Cu > Cr > Ni > Cd in both roots and shoots, with the S4-with-carbon roots being an exception (Zn > Cu > Pb > Cr > Ni > Cd). Updated the Key numbers section to preserve all three orderings with their attributions. (Audit editorial review on 2026-06-02 flagged that my first merge-enhance pass had collapsed the SC root and SC shoot orderings together as identical; verified against page 10 of the PDF — finding was correct, applied.)
-- **Paper-internal typo on the S4-roots exception ordering (page 16).** The source text on page 16 paragraph 1 prints the S4-with-carbon roots exception as "Zn > Cu > Pb > Cr > Ni > As > Cd" — with "As" appearing in the chain. The paper never measures arsenic (Cu, Pb, Zn, Cd, Cr, Ni are the only six metals analyzed). This is a typesetting error in the source. The wiki silently presents the corrected ordering "Zn > Cu > Pb > Cr > Ni > Cd" (dropping the spurious As). Flagged here, not silently resolved.
-- **SEM model-number typo on page 4 of the source.** PDF page 4 prints the JEOL scanning electron microscope as "JJSM-6380 LA" with a double-J. The correct manufacturer catalog name is "JSM-6380 LA" (single J, JEOL JSM series). The wiki silently normalizes to the correct catalog name; the discrepancy is a source-side typo, not a wiki defect.
-- Updated legacy heading `## Wiki pages this source may touch` to the current convention `## Wiki pages updated on ingest`.
-- Removed `[[supply-chain/wastewater-irrigation]]` from the wiki-pages list. The page does not exist in the linked reference record and the paper does not discuss wastewater irrigation at all (the study is pot-experiment phytostabilization on industrial-waste soils, not field irrigation). Added `[[supply-chain/soil-to-plant-transfer]]` (page exists at the linked reference record) and `[[mitigation/agronomic]]` + `[[mitigation/remediation-evidence]]` (both exist) as the correct routing targets for this paper's evidence.
-- Added page-number citations throughout the Key numbers section.
-- Added Conclusions (page 16) ordered-reduction strings for shoots (Cr 18.2 > Zn 11.5 > Ni 10.7 > Cu 10.3 > Cd 8.9 > Pb 2.4) and roots (Cu 13.3 > Cr 12.5 > Zn 10.5 > Pb 9.0 > Ni 5.7 > Cd 4.6) verbatim from the abstract and conclusions. Values match the prior revision's table; ordering is now preserved.
-- Added Forage Suitability Level (FSL) and Industrial Suitability Level (ISL) detail from Figure 5 / page 11 (only S4 with both double carbon doses met FSL on all six metals; ISL met for Pb except S4-with-carbon; etc.).
-- Added Phytotoxicity-Figure-6 (page 12) detailed inhibition percentages (44/37/30/21% for roots, 25/23/2/0% for shoots) and the 100% germination rate observation.
-- Added Pollution Load Index (PLI) bands and S1 residential vs industrial benchmark values from Figure 3 / page 8.
-- Added BCF detail from page 12 / Figure 7 (SC control BCFs for shoots, excluder classification per Ma et al. ref [63]).
-- Methods section enriched with: instrument vendor/model identifiers per brand-firewall Exception 2 (Thermo Scientific iCAP 6500, Varian Axial Vista 720-ES, JEOL JSM-6380 LA SEM, MicroBioTest Phytotoxkit™, ImageTool 3.0); pot dimensions; vegetation period; soil moisture; fertilizer; ISO method numbers for soil characterization; the standard-additions accuracy verification.
-- Brand-firewall compliance verified: no food-brand or consumer-product brand names appear in the source; all named vendor/instrument identifiers are scientific-method materials retained per brand-firewall Exception 2.
-- `metals:` uses total-Cr (`Cr`) because the paper performed total-Cr mineralization (HClO₄ + HNO₃) without hexavalent speciation speciation rule. iAs/tAs and MeHg/tHg are not in scope — no arsenic or mercury measurements were taken.
-- `ingredients:` and `products:` deliberately empty: Medicago falcata is a forage legume, not the food-legume scope covered by `[[ingredients/legumes]]`. The paper assesses FSL/ISL for plant tissue (a feed-suitability framing) but does not characterize a food ingredient or consumer product in the HMI sense.
-- `jurisdictions: [PL]` reflects Poland as the soil origin, pot-experiment location, and source of the cited Regulation of the Minister of the Environment of 1 September 2016 (J. Laws Item 1395 2016, ref [47]) used as the ordinance benchmark. No HMI regulation slug exists for this Polish ordinance; not added to `## Wiki pages updated on ingest`.
-- **Paper-internal inconsistency preserved from prior revision and re-verified.** Table 2 (page 6) reports SC control-soil totals as Cu 13.1 / Pb 14.8 / Zn 49.1 / Cd 0.34 / Cr 7.51 / Ni 12.4 mg·kg⁻¹ d.m. (mean ± SD across triplicate). Section 3.2 text (page 6) reports SC as Cu 17.2 / Pb 23.1 / Zn 61.1 / Cd 0.72 / Cr 10.4 / Ni 15.9 mg·kg⁻¹ d.m. These do not match and the paper does not reconcile them. Table 2 values are used throughout the wiki page because the table is the primary data display and the column units match the ± SD format; the Section 3.2 numbers may be a typesetting carry-over from an earlier draft. Flagged here, not silently resolved.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

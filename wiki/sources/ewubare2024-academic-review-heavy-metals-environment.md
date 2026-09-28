@@ -139,7 +139,7 @@ Microbial-remediation processes the review names:
 
 **App:** Not a source of concentration values. The cited Alexander 2006 between-vegetable Cd/Pb ranking informs qualitative copy about leafy-vegetable risk but cannot drive app threshold logic without going back to the primary source.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]

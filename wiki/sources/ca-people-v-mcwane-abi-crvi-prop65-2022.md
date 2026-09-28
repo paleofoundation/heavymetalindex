@@ -48,10 +48,6 @@ The case is an instance of **hexavalent chromium being actively litigated at the
 - **Causes of action:** (1) Failure to Warn under Proposition 65 (Health & Safety Code § 25249.6); (2) Unfair Business Practices (Bus. & Prof. Code § 17200 et seq.); (3) Harm to Natural Resources (Gov. Code § 12607). Remedies sought: civil penalties (up to \$2,500 per violation per day), injunctive relief compelling Prop 65-compliant warnings, and attorneys' fees.
 - **Procedural context:** A private enforcer, Communities for a Better Environment, served a Prop 65 60-day notice on the defendants on 6 October 2021; the Attorney General then filed this action. A prior 1993 California action against AB&I concerned **lead** emissions and ended in a consent judgment requiring pollution controls and Prop 65 warnings.
 
-## Verification notes
-
-Ingested 2026-06-03 from the archived source file (sha256 710fd64b…), read in full (11 pages: caption, introduction, parties, jurisdiction, statutory background, facts, three causes of action, prayer for relief; signed by Deputy Attorney General Erin Ganahl, dated 15 February 2022). All figures above are as alleged in the complaint (a complaint states allegations, not adjudicated findings); evidence tier B reflects that this is a primary but unadjudicated legal filing. The case number is left blank in the filed copy.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -64,7 +64,7 @@ The authors collected at least five specimens for each of six edible mushroom sp
 
 The source adds Russia/Transbaikal geographic context for wild edible mushrooms and supports the pattern that Pb is a lower-ranking element in these species while Zn, Fe, Cu, and Mn dominate the elemental profile. It remains relevant to Ni, Pb, Cr, and Co occurrence because the paper provides routeable element order, species rankings, and dry-weight table values. It should not be pooled with fresh mushrooms unless a moisture conversion is logged.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/wild-mushrooms]]
 - [[ingredients/mushrooms]]
@@ -77,10 +77,6 @@ The source adds Russia/Transbaikal geographic context for wild edible mushrooms 
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/lead]]
-
-## Verification notes
-
-Evidence Fitness: routeable for wild edible mushroom element occurrence and geographic-variance context on a dry-weight basis; not routeable for cultivated mushrooms, canned mushrooms, or fresh-weight standards without conversion. The PDF includes an English title, author list, abstract, keywords, methods, and table captions, so no human-only translation blocker applies. The PDF does not state a license. The PDF SHA-256 at ingest was `a1ad5dbd8cfb997d4fef3baaa943053a3c0d94dc00d7bcd6f3fa148b020d5d9e`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

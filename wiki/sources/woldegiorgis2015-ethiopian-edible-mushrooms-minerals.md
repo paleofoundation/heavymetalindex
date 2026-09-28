@@ -45,22 +45,13 @@ Dried mushroom samples were analyzed for macro- and micro-minerals and anti-nutr
 
 This source contributes Ethiopia-market and wild/cultivated edible mushroom data for [[metals/lead]] and [[metals/cadmium]]. The high Pb values, especially 18.0 mg/kg dry weight in one A. bisporus sample group and 17.2 mg/kg in T. letestui, should be treated as dry-basis mushroom occurrence and not mixed directly with fresh-basis datasets without conversion. The many Cd non-detects provide censoring information for most species, while A. campestris provides a positive Cd concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
-- [[metals/lead]]
-- [[metals/cadmium]]
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[metals/copper]]
 - [[metals/manganese]]
-
-## Verification notes
-
-- DOI, title, authors, journal, and year were taken from the PDF article header and citation information.
-- Cd values reported as "nd" are captured as below the paper's stated detection limit of 0.028 mg/kg.
-- Basis is dry weight. Downstream pooling must convert basis explicitly before combining with fresh mushroom or as-consumed values.
-- The source is a food occurrence paper, not a soil-only paper, because edible mushroom concentrations are tabulated.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

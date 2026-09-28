@@ -55,7 +55,7 @@ This source can route to bivalve-mollusc and shellfish pages as a low-weight reg
 
 The study is useful for source inventory and methods-context purposes, especially as a reminder that bivalves can be used as aquatic bioindicators, but it is not strong enough for quantitative shellfish standards math without additional corroborating sources.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
@@ -65,11 +65,6 @@ The study is useful for source inventory and methods-context purposes, especiall
 - [[ingredients/seafood]]
 - [[products/shellfish]]
 - [[products/seafood]]
-
-## Verification notes
-
-- The source does not report the number of individual bivalves analyzed; `sample_n` is therefore left null rather than treating the two species as two analytical samples.
-- The paper reports Cd and Pb only; no mercury, arsenic, chromium, aluminum, nickel, tin, or speciation data are present.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -95,7 +95,7 @@ Narrative literature review with no PRISMA protocol; no search strategy, databas
 
 PDF dropped into the archived source file by Karen on 2026-06-02 under the original journal filename `microorganisms-13-01115.pdf`. Open access under Creative Commons Attribution (CC BY 4.0) per the MDPI copyright statement on the title page. SHA256 recorded in source metadata. No external funding (Funding statement, p. 12). No declared conflicts of interest beyond the USDA trade-name disclaimer.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/arsenic]]

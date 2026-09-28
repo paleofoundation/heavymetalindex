@@ -106,15 +106,6 @@ App: Cd, Pb, and tHg muscle data (fresh weight) for wild freshwater common carp 
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
 
-## Verification notes
-
-Fresh-context audit editorial review (2026-05-30) verdict PROMOTE; all five checks clean.
-- Check 1 (numerical fidelity): confirmed exact against the PDF for all six muscle/liver rows of Table 5, both Table 4 matrices (water + sediment, including the 20 Oct re-samples), the 50-liver high-Cd sub-group, Table 2 DORM-4 validation, and the detection limits. No muscle/liver transposition; Cd-in-liver vs Hg-in-muscle direction correctly matched per reservoir. The source's idiosyncratic "13.84 ± 7.500" Pb formatting and the omitted Pb-liver detection limit are both faithfully preserved/flagged rather than silently fixed.
-- Check 2 (slug vocabulary): audit raised a ⚠️ that matrices `fish-muscle`/`fish-liver` cannot be confirmed against the taxonomy snapshot. Verified independently — the snapshot has no closed matrices list, and `fish-muscle` (39 source pages) and `fish-liver` (11 source pages) are established corpus matrices values used on sibling freshwater-fish pages (e.g. najem2024, kovacik2024). Non-defect; no change.
-- Check 3 (speciation/methods): tHg total-mercury convention correct (AMA 254, no MeHg speciation); the qualitative methylmercury mention in the source refers to other Czech localities, not these samples. Methods detail matches the source with no inventions.
-- Check 4 (Part 12 brand firewall): clean — no brand attached to contamination values; instrument/vendor/reference-material names fall under the methods-vendor exception.
-- Check 5 (Part 2 wiki/HMTc firewall): clean — no synthesis, no threshold proposals; consumer/risk statements are the authors' own attributed conclusions.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

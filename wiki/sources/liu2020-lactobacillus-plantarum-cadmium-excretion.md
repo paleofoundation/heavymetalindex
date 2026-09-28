@@ -64,16 +64,12 @@ App: Useful context for mitigation explainers where specific probiotic strains m
 
 Courses: Useful teaching example for separating mechanistic animal evidence from occurrence evidence and for avoiding extraction of unreported figure bar values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/formulation]]
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF text, including the abstract, animal experiment protocol, Table 2, Figure 3 and Figure 6 captions/results text, Cd measurement methods, and discussion. Products and ingredients are intentionally empty because the study tests CdCl2 exposure and probiotic intervention in mice and cells. The source reports figure-only Cd burden outcomes; the page records direction and significance without estimating bar heights from the figure image.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

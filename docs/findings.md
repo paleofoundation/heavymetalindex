@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-265 open item(s): 93 auto, 172 awaiting a decision.
+266 open item(s): 93 auto, 173 awaiting a decision.
+
+### OI-20260928-public-hmtc-process-prose — Public pages still name HMTc taxonomy and certification-program process
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/children-personal-care.md`, `tools/taxonomy/scaffold-category-rows.mjs`, `wiki/licensing.md`
+- repro: Published product scaffolds still open with HMTc Taxonomy language and name heavymetalcertified.com in How standards math uses this page. licensing.md still names a data/evidence path. This pass removed ingest bookkeeping only.
+- done when: A later pass removes certifier-process wording from public pages without changing measured values or inventing limits.
+- decision: _pending_
 
 ### OI-20260927-marcelis-evidence-fitness — Marcelis 2025 source page has no evidence_fitness block
 

@@ -119,40 +119,7 @@ Courses: Useful as a case study of (1) total vs speciated metal reporting (the p
 
 App: Pet-food matrix; not applicable to the human-food contamination-profile data the app consumes.
 
-## Verification notes
-
-2026-05-18 (automated editorial review, merge-enhance pass on PCMF preprint ingest):
-
-This wiki page exists for the published Scientific Reports version of the study (FM_12006530, Marker source). The Research Square preprint of the same study (PCMF_individual-and-combined-contamination-of-the-heavy; DOI 10.21203/rs.3.rs-4838876/v1, posted 2024-09-08) was added to the manual-fetch queue. Cross-checking the two versions against the page:
-
-- The published Sci Reports version has the same authors, sample size (n=93), the same overall contamination rates (Table 2: 41.94% Pb, 31.18% Cd, 100% Cr, 97.85% Hg, 100% As), and the same exceedance rates (8.60% Pb, 26.88% Cr). The published version splits the canned/dry breakdown by species (Tables 4-5: 12+2 canned, 33+46 dry); the preprint pools across species (Table 5: 14 canned, 79 dry). Pooled numbers reconcile exactly.
-- The published version adds a Quality Control section with spike recoveries and RSD; the preprint does not.
-- The published aHI values (Table 6) differ substantially from the preprint Table 6 — published values are higher across the board (e.g., Cr cat 2 kg: 1040.14 published vs 182.050 preprint; Pb cat 2 kg: 21.82 published vs 10.808 preprint). The K (daily food intake) values appear unchanged, so the difference must stem from a revised HER (highest observed concentration) input or a unit-handling fix between preprint and publication. The published values are used here as the canonical, peer-reviewed numbers.
-- The aHI ranking statement in the published Discussion is explicit: "In both cats and dogs, As ranks as the second highest in aHI value, followed by Pb." The preprint Discussion ranks Pb second and As third; the published version corrects this. The prior wiki page mirrored the preprint ranking (Pb > As). Corrected to Cr > As > Pb > Hg > Cd.
-
-Defects corrected from the prior wiki revision (updated 2026-05-13):
-
-- Pb contamination rate was reported as "10.75%" — wrong. Actual: 41.94% above LOQ (Table 2). The 10.75% appears to be a misread; 10.13% is the % above legal limit in dry food only (Table 5 preprint), not the overall contamination rate.
-- Cd contamination rate was reported as "17.20%" — wrong. Actual: 31.18% above LOQ (Table 2). No clear source for the 17.20% figure.
-- Chinese Hygienical Standard limits were stated as "Pb ≤5, Cd ≤0.5, Cr ≤5, Hg ≤0.1, As ≤4 mg/kg" — three of five were wrong. Actual (published Table 2 row "Legal limits"): Pb 5, Cd 2, Cr 5, Hg 0.3, As 10 mg/kg.
-- aHI ranking stated as "Cr poses highest aHI followed by Pb and As" — wrong direction between Pb and As. Corrected to "Cr ≫ As > Pb > Hg > Cd" per the published Discussion.
-- Products source metadata listed only `pet-food-dry-kibble`; added `pet-food-canned-wet` since the paper covers 14 canned samples (12 cat, 2 dog) explicitly. Both product pages exist in current taxonomy.
-- Added `preprint_doi: 10.21203/rs.3.rs-4838876/v1` to capture the Research Square preprint citation. The published Sci Reports DOI is not in the Marker extraction and cannot be reconstructed without going to the Nature URL; left as null.
-- Added PCMF preprint handle to `near_duplicates` so the routing audit can track that both raw sources point to the same study.
-- Kept `no_doi_assigned: true` (the published Sci Reports version surely has a DOI but it was not extracted from the Marker PDF and cannot be reconstructed without going to the Nature URL; the preprint DOI is captured in the separate `preprint_doi` field).
-- Sample population description corrected: the published version specifies samples were collected in supermarket/store chains across Beijing, Shenzhen, and Wuhan; the preprint says "China's supermarket and store chains" without naming cities. Used the published version's more specific sourcing.
-- Expanded Methods with explicit GB/T national standard numbers, instrument vendor model numbers, LOD/LOQ values per Table 1, and the QC recovery/RSD details from the published Quality Control section.
-- Expanded Implications to address why pet food bears on HMT&C's human-food remit (ingredient supply-chain overlap) rather than asserting it directly.
-
-No brand-firewall violations to remove (the study does not name brands; sample identification is by country of origin only). No HMT&C threshold proposals or consumer risk advisories in the page.
-
-2026-05-18 (fresh-context audit editorial review, verdict REVISE):
-
-Checks 1, 3, 4, 5 returned ✅. Check 2 raised a ⚠️ finding that `products/pet-food-dry-kibble` and `products/pet-food-canned-wet` are not present in the 2026-05-17 taxonomy snapshot at the editorial record. Verified false positive: both pages exist in live the linked reference record (`ls wiki/products/ | grep '^pet-food-'` returns the expected files), and the routing audit successfully generated direct-evidence rows for both targets without raising unresolved entries. The snapshot is stale relative to live state — pet-food product pages were added after the snapshot's `generated: 2026-05-17` timestamp. No correction to the source page is needed; flagged here so the snapshot can be regenerated in a separate housekeeping pass.
-
-All other findings ✅: full Table 1-6 numerical fidelity verified, Methods/speciation correct (tHg + tAs, no Cr-VI speciation noted), brand firewall clean (Methods instrument/reagent vendors are Exception 2 permitted), wiki/HMTc firewall clean (Implications appropriately scopes to indirect supply-chain framing without proposing thresholds).
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]

@@ -28,7 +28,7 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are routed to this row yet. The corpus will accumulate via the source-routing layer.
+No sources are catalogued for this row yet.
 
 <!-- BEGIN: hmi-promoted-value-ranges -->
 ## Measured ranges from the evidence register
@@ -50,7 +50,7 @@ Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

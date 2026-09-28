@@ -161,7 +161,7 @@ The EU Regulation 2023/915 sets dedicated maximum levels for "dried seaweed" ent
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/asni2020-pb-seaweed-bantaeng|Pb heavy metal distribution patterns in seaweed (Kappaphycus alvarezii) cultivation locations by season in Bantaeng Waters, South Sulawesi]]<span class="hmi-ref-meta">Asni A and Najamuddin · IOP Conference Series: Earth and Environmental Science · 2020 · [doi.org/10.1088/1755-1315/564/1/012037](https://doi.org/10.1088/1755-1315/564/1/012037)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -173,7 +173,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

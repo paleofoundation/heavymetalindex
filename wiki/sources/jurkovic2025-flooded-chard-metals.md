@@ -54,7 +54,7 @@ App: The source supports a leafy-vegetable evidence note for Pb and Cd under flo
 
 Microbiome: The paper includes soil microbial measurements but does not assess human or product microbiome outcomes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[products/non-root-vegetables]]
@@ -64,10 +64,6 @@ Microbiome: The paper includes soil microbial measurements but does not assess h
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The PDF metadata and article first page identify ACS Omega 2025, DOI 10.1021/acsomega.5c08533. The automated filename suggested a leave-on preparation query, but the actual source is a chard soil-plant study. Product-tissue values are presented in figures rather than a text table; this page marks figure-read plant averages as approximate and relies on exact text-extracted soil/sludge table values where available.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -135,7 +135,7 @@ The normalized row-level data for this TDS food is stored in `data/evidence/fda_
 
 ## Routing
 
-This node is linked from the ingredient index and the FDA TDS source routing table.
+This ingredient is listed in the ingredient index and in the FDA Total Diet Study source list.
 
 ## Contamination Profile State
 
@@ -220,7 +220,7 @@ Other previously cited literature is retained as context; it does not establish 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin]]<span class="hmi-ref-meta">Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V · Horticulturae · 2025 · [doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -229,7 +229,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

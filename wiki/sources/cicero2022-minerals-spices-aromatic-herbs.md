@@ -74,14 +74,6 @@ ICP-MS (Agilent 7500CX with Octapole Reaction System) following microwave acid d
 
 **App:** Provides ICP-MS data for 13 spice commodities across multiple metals. Thymol seeds and coriander are data points not well covered in other studies in this batch. Ajwan seeds Pb (0.544 mg/kg) and tAs (0.339 mg/kg) are notable for this commodity. Cinnamon from Indonesia shows Pb 0.023 mg/kg, Cd 0.071 mg/kg, Cr 2.357 mg/kg, Ni 2.766 mg/kg — less severe than Vietnamese/Indian cinnamon in other studies but adds geographic contrast.
 
-## Verification notes
-
-2026-05-29 merge-enhance pass: re-read PDF Table 4(c) against page. Corrected aluminium attribution for chia seeds — the 46.889 ± 1.678 mg/kg value belongs to Sabja Seeds (sample O, India), not Iranian Tokhme Sharbati (sample B, Iran), which actually measured 32.355 ± 0.008 mg/kg. Both samples are *Salvia hispanica* (chia seeds) under different regional names; the paper text refers to "chia seeds" generically and the prior page version paired the wrong cultural label with the wrong country. Removed IT from jurisdictions: the lab is in Italy (University of Messina) but no samples represent Italian supply — samples were purchased in Saudi Arabia and originated in India, Iran, Indonesia, and Vietnam.
-
-Paper-internal inconsistencies kept as paper-text values (lower than Table 4 minima): As range "0.003–0.339 mg/kg" matches paper §3.2.5 text although Table 4(c) shows G (black pepper) at 0.002; Hg range "0.001–0.010 mg/kg" matches paper text although Table 4(c) minimum is 0.002. These are paper-internal discrepancies between text and tables, not extraction errors.
-
-Audit editorial review (2026-05-29) verdict REVISE: numerical fidelity all ✅ (Table 4(c) chia-seeds aluminium re-attribution verified correct); slug vocabulary and speciation all ✅; brand firewall ✅; Part 2 wiki/HMTc firewall ⚠️ on three Implications phrasings — applied: replaced "HMT&C supplier assessment should include..." directive with occurrence-data contribution framing; replaced "warrants investigation" with neutral "notable accumulation outlier"; reframed Courses "does not guarantee clean supply" as descriptive Pb-vs-other-metal observation tied to the study's own findings rather than cross-source synthesis. No false positives to reject.
-
 ## Related evidence
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cinnamon]]

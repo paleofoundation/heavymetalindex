@@ -41,7 +41,7 @@ The source has a sample-count mismatch, contradictory cadmium units, an impossib
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. Each title links to its source record.
 
 1. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->

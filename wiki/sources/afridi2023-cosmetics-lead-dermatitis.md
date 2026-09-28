@@ -53,16 +53,10 @@ Courses: Useful for teaching the separation between product concentration, bioma
 
 App: Supports warnings and data gaps for cosmetic-product lead exposure without turning the wiki into a brand-ranked table.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/whitening-products]]
 - [[metals/lead]]
-
-## Verification notes
-
-- The PDF table lists consumer brand names, but this page omits them under the brand firewall and reports only product-type ranges.
-- The abstract and methods give slightly different product counts by type. This page preserves the abstract counts in the key-number table and notes the methods-count discrepancy.
-- The source is product occurrence plus biomarker context. Blood, serum, scalp-hair, and nail values should not be routed into product benchmark distributions.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

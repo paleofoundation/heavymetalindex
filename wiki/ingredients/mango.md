@@ -93,7 +93,7 @@ created_routed_sources: 3
 
 ## Overview
 
-Mango (Mangifera indica) is a tropical fruit consumed fresh and processed into juice, puree, dried slices, and frozen pulp. The heavy-metals profile of mango sits at the lower end of the fruit-category distribution: as a thick-skinned tropical fruit, the peeled flesh has limited atmospheric-deposition exposure and the relatively low soil-uptake transfer factor for Cd-and-Pb keeps fresh-flesh concentrations modest. The current corpus loads 3 directly-routed sources covering mango specifically plus 4 broader fruit-and-juice studies reachable via the routing layer: Islam 2024 Bangladeshi fruits systematic review (n=10 fruits including mango, [[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]), Mekonnen 2024 Ethiopian Bahir Dar fruit metals (n=120, [[sources/mekonnen2024-ethiopia-fruit-metals]]), Rahim 2020 Pakistani 308-sample most-widely-consumed fruits ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]), Farid 2010 Saudi fruit-juice trace elements (n=129, [[sources/farid2010-fruit-juices-jeddah-trace-elements]]), Paudel 2024 Nepal packaged fruit juices ([[sources/paudel2024-packaged-fruit-juices-nepal]]), Sobhanardakani 2017 Iranian fruit-juice Al-and-Cu ([[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran]]), Tsegay 2025 fruit by-product toxicology review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review]]), Weldegebriel 2025 Ethiopian Gondar packaged fruit juices (n=80, [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]).
+Mango (Mangifera indica) is a tropical fruit consumed fresh and processed into juice, puree, dried slices, and frozen pulp. The heavy-metals profile of mango sits at the lower end of the fruit-category distribution: as a thick-skinned tropical fruit, the peeled flesh has limited atmospheric-deposition exposure and the relatively low soil-uptake transfer factor for Cd-and-Pb keeps fresh-flesh concentrations modest. The current corpus loads 3 directly-routed sources covering mango specifically plus 4 broader fruit-and-juice studies: Islam 2024 Bangladeshi fruits systematic review (n=10 fruits including mango, [[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]), Mekonnen 2024 Ethiopian Bahir Dar fruit metals (n=120, [[sources/mekonnen2024-ethiopia-fruit-metals]]), Rahim 2020 Pakistani 308-sample most-widely-consumed fruits ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]), Farid 2010 Saudi fruit-juice trace elements (n=129, [[sources/farid2010-fruit-juices-jeddah-trace-elements]]), Paudel 2024 Nepal packaged fruit juices ([[sources/paudel2024-packaged-fruit-juices-nepal]]), Sobhanardakani 2017 Iranian fruit-juice Al-and-Cu ([[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran]]), Tsegay 2025 fruit by-product toxicology review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review]]), Weldegebriel 2025 Ethiopian Gondar packaged fruit juices (n=80, [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]).
 
 ## Why this commodity accumulates heavy metals
 
@@ -177,7 +177,7 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/islam2024-heavy-metals-bangladeshi-fruits-review|A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks]]<span class="hmi-ref-meta">Islam MH, Nowar A, Islam S, Nayan MM, and Jubayer A · Environmental Health Insights · 2024 · [doi.org/10.1177/11786302241309280](https://doi.org/10.1177/11786302241309280)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/mekonnen2024-ethiopia-fruit-metals|Health Risk Assessment of Potentially Toxic Elements Contamination of Commonly Consumed Fruits in Bahir Dar Town, Northwest Ethiopia]]<span class="hmi-ref-meta">Mekonnen BA, Yizengaw MG, Kassahun H, and Ketema G · International Journal of Food Science · 2024 · [doi.org/10.1155/2024/6677324](https://doi.org/10.1155/2024/6677324)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -193,7 +193,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

@@ -101,12 +101,6 @@ The paper title as printed on page 23 reads "Musa acuminta Colla" (typographic e
 - [[ingredients/eggs]]
 - [[products/bread-and-baked-goods]]
 
-## Verification notes
-
-Fresh ingest 2026-05-31. PDF read in two passes (pages 1–6 and 7–11) for the 11-page article. Numerical values for Table 2 (microbial), Table 3 (metals), and Table 4 (statistics) cross-checked against both the abstract numbers (page 23) and the discussion text (pages 27–30); no internal contradictions found. Speciation flagged as tAs per AAS-without-hydride-generation convention; the paper itself only writes "arsen (As)." Brand firewall (Part 12) not engaged — no commercial brand names appear in the source. Wiki/HMTc firewall (Part 2) not engaged — no synthesis or HMTc-threshold claims authored. Provisional matrices slugs `banana-steamed-sponge-cake` and `prepared-snack` are descriptive rather than canonical taxonomy entries; product routing is to the existing `bread-and-baked-goods` slug per the SNI 01-3840-1995 classification cited by the paper. Palm sugar listed in the formula but not added to the `ingredients:` array — single research-formulation use does not warrant routing fan-out to a sugar-form ingredient page that does not yet exist.
-
-Audit editorial review 2026-05-31 returned PROMOTE; flagged that the `metals:` source metadata array carried Cu and Zn but the "Wiki pages updated on ingest" list omitted `[[metals/copper]]` and `[[metals/zinc]]` — applied (both metal pages exist; source metadata ↔ wiki-pages-list consistency restored). Audit also flagged the provisional matrices slugs already documented in the paragraph above as borderline; left as-is per protocol (descriptive matrices flagged in verification notes are acceptable when the canonical taxonomy lacks a tight fit and the product-route is correct).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

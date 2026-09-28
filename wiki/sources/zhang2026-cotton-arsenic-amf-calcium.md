@@ -58,19 +58,13 @@ App: Potential future supply-chain note for cotton-derived materials: AMF plus c
 
 Microbiome: The relevant microbial system is plant-root mycorrhiza, not the human or product microbiome.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/agronomic]]
 - [[mitigation/remediation-evidence]]
 - [[products/fabric-contact-products-other]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-- DOI, title, authors, journal, year, license, arsenate dose, calcium dose, replicate count, and growth-response percentages were transcribed from the PDF.
-- The auto-fetch filename mapped this source to `walkers`, but the paper is about cotton seedlings. The page routes it to cotton/fabric-contact supply-chain context rather than to walkers as a finished child-durable occurrence source.
-- Arsenic was applied as arsenate, an inorganic arsenic species. The page therefore uses `iAs` in source metadata and does not substitute the greenhouse arsenate-stress dose for total arsenic in finished cotton products.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

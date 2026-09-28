@@ -69,7 +69,7 @@ App: Route to cow milk, soy beverage, milk and dairy, plant-milks-soy-based, lea
 
 Courses: Useful for teaching the cow-milk versus plant-based beverage contamination comparison, the manganese-in-soy issue (soy beverages here carried Mn at roughly twenty times cow-milk levels, in line with prior reports that soy as a botanical accumulates Mn from soil and water), the distinction between metals with set EU ceilings in milk-based products (Pb, Cd) and metals without (Mn), and the discipline of comparing a retail-market mean against a regulatory ceiling using an explicit density conversion rather than treating μg/L and μg/kg as interchangeable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/soy-milk]]
@@ -80,22 +80,6 @@ Courses: Useful for teaching the cow-milk versus plant-based beverage contaminat
 - [[metals/manganese]]
 - [[regulations/eu-2023-915-cadmium]]
 - [[regulations/eu-2023-915-lead-infant-young-child-foods]]
-
-## Verification notes
-
-Per-brand concentration values are reported in the source's Tables 10 and 11 under anonymized codes CM1-CM14 and SB1-SB14. This page reports global means, standard deviations, and within-class ranges only, consistent with the Part 12 brand-firewall rule. The single brand-level observation preserved on this page - that one cow-milk brand reached 6.8 μg/L of cadmium, above the 5 μg/kg EU infant-formula ceiling - is noted without the CM code attribution because the source provides no brand-identifying mapping for those anonymized codes and the regulatory-comparison point is the load-bearing observation, not the brand attribution.
-
-The basis throughout this page is μg/L of liquid beverage as-purchased and as-analyzed, matching the source's reporting basis. The source does not convert its values to μg/kg in the results tables; the single μg/L-to-μg/kg conversion the authors perform is the comparison of their CM lead mean (19.3 μg/L) to the EU 20 μg/kg ceiling using a cited cow-milk density of 1.030 kg/L. Downstream pooling that requires per-kilogram bases should apply that density conversion explicitly.
-
-The source provides no speciation for any of the three metals; all values are total Pb, total Cd, and total Mn by GFAAS on acid-digested samples. The species labels in this page's metals source metadata therefore stay as the totals (Pb, Cd, Mn).
-
-The source's Mann-Whitney p-value for cadmium is reported in the abstract as p < 0.05, in Figure 2 as p < 0.05 with an asterisk, and in the Results text consistently as p < 0.05. The source's Mann-Whitney p-value for manganese is reported identically (p < 0.05 in abstract, Figure 3, and Results text). The source's Mann-Whitney p-value for lead is reported in Figure 1 and in the Results text as p > 0.05 (not significant). This page preserves all three p-value reportings verbatim.
-
-The paper's Conclusions characterize the SB mean Mn (117.4 μg/L) as "about 20 times higher than the Mn concentrations in the CM brands (5.9 μg/L)"; the actual ratio is 117.4 / 5.93 = 19.8, which rounds to 20, so this page reports the paper's "twenty-fold" framing in the lead paragraph and the exact arithmetic ratio in the Implications section.
-
-The source reports its cow-milk Cd and Mn global means at two different precisions: the abstract and Discussion narrative give CM Cd as 2.15 ± 1.84 μg/L and CM Mn as 5.93 ± 1.21 μg/L, while Table 10's "Global mean / Global SD" rows round these to 2.2 ± 1.8 and 5.9 ± 1.2 respectively. This page uses the higher-precision abstract values throughout because they are what downstream readers will most often see cited. Two minor source-internal precision mismatches are preserved without reconciliation: the abstract reports SB Mn SD as 30.3 while Table 11 reports 30.4, and the abstract reports SB Pb SD as 9.6 while Table 11 reports 9.7; in both cases this page follows Table 11 because the table is the primary data record.
-
-Audit editorial review (2026-06-08) flagged `products/milk-and-dairy` as absent from the editorial record; verified independently — finding was a false positive because the taxonomy snapshot was generated 2026-05-18 and is stale relative to the live wiki. the linked reference record exists as a provisional scaffold created 2026-06-01 (provisional_scaffold: true, hmtc_category: pending_taxonomy_review), and the routing audit successfully resolves this source to that target with 0 unresolved and 0 malformed. No source metadata change applied. Audit editorial review (2026-06-08) also flagged the original `2.2 ± 1.8` and `5.9 ± 1.2` cow-milk Cd and Mn values as rounded relative to the abstract's `2.15 ± 1.84` and `5.93 ± 1.21`; verified against PDF page 1 abstract — finding was correct; values updated to the abstract precision.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

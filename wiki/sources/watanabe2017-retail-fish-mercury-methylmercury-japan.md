@@ -79,18 +79,13 @@ Sample preparation: muscle tissue separated from head, viscera, skin, and bone (
 
 This is the most detailed Japanese retail-fish surveillance pairing total mercury and methylmercury at the species-group level in the corpus. Swordfish stands out as the highest-mercury group on every distributional moment (mean, median, minimum, maximum); large predatory tunas occupy the next tier. Farm-raised bluefin tuna and yellowtail show meaningfully lower mercury than their wild-caught counterparts, which is relevant to product-form distinctions for aquaculture-dominant supply. The 0.3 mg/kg tHg screening threshold proposed by the authors is a Japanese-context inspection efficiency device, not a regulatory limit; the underlying Japanese provisional MRLs remain 0.4 mg/kg tHg and 0.3 mg/kg MeHg for non-exempt species.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.3358/shokueishi.58.80 and the downloaded PDF.
-- The abstract is bilingual; the English abstract provides the routeable summary used here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

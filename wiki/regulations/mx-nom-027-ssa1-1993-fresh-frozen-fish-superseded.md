@@ -52,12 +52,6 @@ This page records a historical Mexican regulatory benchmark used by source liter
 - Secretaria de Salud. NOM-027-SSA1-1993, Bienes y servicios. Productos de la pesca. Pescados frescos-refrigerados y congelados. Especificaciones sanitarias. Source URL: https://www.salud.gob.mx/unidades/cdi/nom/027ssa13.html
 - Diario Oficial de la Federacion. NOM-242-SSA1-2009, Productos y servicios. Productos de la pesca frescos, refrigerados, congelados y procesados. Especificaciones sanitarias y metodos de prueba. Source URL: https://sidofqa.segob.gob.mx/notas/5177531
 
-## Verification notes
-
-- Created 2026-05-18 by Codex during P0149 seafood manual-fetch ingest after Rodriguez-Mendivil et al. 2019 cited NOM-027-SSA1-1993 as the Mexican benchmark for fresh-fish Hg, Pb, and Cd comparisons.
-- The official Secretaria de Salud HTML page gives the publication heading "03-03-95" and the vigencia clause states that the standard became mandatory 30 days after publication; this page therefore uses 1995-04-02 as the effective date.
-- NOM-242-SSA1-2009's transitory provision states that, upon its entry into force, NOM-027-SSA1-1993 is cancelled. A later 2012 modification notice states that NOM-242 entered into force on 10 May 2011.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

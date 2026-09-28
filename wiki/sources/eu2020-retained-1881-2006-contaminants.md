@@ -71,12 +71,6 @@ Microbiome: No direct microbiome endpoint.
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/canned-foods-general]]
 
-## Verification notes
-
-- Ingested from the archived source file on 2026-08-03.
-- The PDF label and source title were kept distinct: the local path says UK retained, but the text itself is a EUR-Lex consolidated documentation text.
-- Numeric rows were checked twice against the extracted PDF text.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

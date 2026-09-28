@@ -127,21 +127,6 @@ For seaweed-kelp-foods occurrence routing, the species-level means reported here
 
 The 4 g/day exposure assumption is the manufacturer's recommended portion size for dry seaweed and is not necessarily reflective of consumer practice across all species — the authors note global-diet Cd intake may be considerably higher than the seaweed-only EDI under different consumption assumptions.
 
-## Verification notes
-
-- Fresh ingest 2026-06-04 from KADC manual-fetch folder `05_Kelp_Seaweed_Canned`. No prior wiki source page existed for this DOI, raw_handle, or cite-key (three identity checks clean).
-- License: CC BY 4.0 per the MDPI Applied Sciences publisher boilerplate on page 1 of the PDF. DOI 10.3390/app11156934 verified against the publisher footer.
-- Speciation discipline: the paper measures total Hg by CV-AAS and reports it as a single concentration value per species. Table 6's two %TWI columns ("Hg (Org.)" and "Hg (Inorg.)") apply the same total-Hg measurement against two different EFSA TWIs; they are not separate methylmercury / inorganic-Hg measurements. source metadata `metals:` therefore records `tHg`, not `MeHg`. The body table preserves the source's column labels and adds an explicit note that both columns derive from the same total-Hg measurement.
-- Arsenic was not measured in this study; source metadata omits both `tAs` and `iAs`.
-- Brand firewall (Part 12): no commercial brand names attached to contamination values appear in the paper's results tables. The instrument vendors (PerkinElmer, Anton Paar, Waters), reference-material providers (BCR, NIST), and statistical software (GraphPad) named in the methods section are scientific-reproducibility vendor names, permitted under Exception 2 (Part 12 strict reading, 2026-05-17).
-- Wiki/HMTc firewall (Part 2): the paper's MoE and %TWI/%BMDL/%ADI calculations are reported as the authors compute them (against EFSA reference values), not converted into HMTc threshold suggestions. The Implications section describes occurrence-channel contributions to seaweed-kelp-foods, not HMTc thresholds.
-- Matrices: `edible-seaweed` covers the full species panel; `macroalgae` covers the marine algae taxon; `kelp` is included because Laminaria ochroleuca (kombu) is a kelp species; `dry-weight` records the reporting basis the paper uses across Tables 4–6. Nitrate data in Table 7 are reported on the same dry-weight basis as the metals tables (the paper does not switch basis).
-- Jurisdictions: ES (sale and analysis in Tenerife, Canary Islands), EU (Galicia/Spain origin for the European subset), JP and KR (declared origin for the Asian-sourced subset). Geographic origin "Unknown" rows in Table 1 are not separately routed.
-- Reference-comparison reasoning for the nitrate ceiling: the paper itself cites EU Regulation 1258/2011 modifying 1881/2006 (rocket/arugula 6000–7000 mg/kg) as the only EU nitrate ceiling potentially comparable to seaweed. The wiki page reports the comparison as the authors describe it; it does not assert that the arugula ceiling applies to seaweed.
-- EDI values in Tables 4–6 are reproduced exactly as the paper reports them. Unit note: EDI is given in µg/day for metals and mg/day for nitrate, consistent with the source tables.
-- BMDL values: the paper cites the EFSA Pb BMDL01 of 0.63 µg/kg bw/day (nephrotoxicity) and 1.5 µg/kg bw/day (cardiovascular). The body table's "% BMDL Np" and "% BMDL Card" columns label these explicitly.
-- Audit editorial review (2026-06-04, verdict PROMOTE) ran all five audit-prompt checks and found all numerical fidelity (Tables 4–7 and §3.1 MoE narratives), speciation/methods, brand firewall, and wiki/HMTc firewall checks ✅ clean. One ⚠️ on Check 2 flagged `dry-weight` as a reporting basis rather than a matrix; verified against corpus convention — `dry-weight` is in active use as a matrices value across the existing seaweed source pages (e.g., `mosusu2023-edible-seaweeds-japan-metals.md`, `aziz2021-gracilaria-seaweed-bangladesh.md`). The basis-vs-matrix critique is structurally valid but reflects established Heavy Metal Index convention rather than a defect of this page. No correction applied; logged as false positive against current corpus convention.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

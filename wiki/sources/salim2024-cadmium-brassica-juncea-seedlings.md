@@ -54,19 +54,6 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: Not a focus of this source.
 
-## Wiki pages this source may touch
-
-- [[metals/cadmium]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
-
-## Verification notes
-
-- Evidence tier B: primary experimental study (germination-tray) in a peer-reviewed journal. Seedling-stage morpho-physiology rather than retail food occurrence; tier reflects design, not stakes.
-- Page grounded in the published abstract plus the PDF first pages (read on ingest); values preserved as printed.
-- `ingredients: []` / `products: []` correct: experimental uptake/tolerance context, not retail food occurrence; mustard is the test species, carried in `matrices`.
-- Part 2 direction-of-edit check: adds upstream mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

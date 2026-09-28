@@ -89,21 +89,11 @@ Chinese seaweeds were collected from Guangzhou, Fujian, Dalian, Qingdao, and Zhe
 
 This paper adds direct seaweed occurrence evidence for Chinese-market *Porphyra* with dry-weight total arsenic from `2.1 ± 0.1 mg/kg` to `21.6 ± 1.4 mg/kg` and extractable arsenosugar PO4/OH values reported separately. Its main routing use is the seaweed/kelp food row, but it should not be treated as an inorganic-arsenic source because the extractable species were organoarsenic arsenosugars and no Porphyra iAs concentration was reported. The volunteer data are useful exposure/metabolism context for arsenosugar conversion to urinary DMA, not a product occurrence row.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1021/jf026117j`, raw handle `MFK_wei2003`, title text, author/title text, or cite key `wei2003-porphyra-arsenosugars-china`.
-- Text was extracted to `/tmp/hmi-seaweed-066.txt` with `pdftotext -layout`; the title, abstract, Materials and Methods, Table 3, Table 4, heating section, urine-metabolism section, Figures 4-7 captions, and conclusion were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-066.txt`, especially Table 3 total/extractable arsenic values, Table 4 arsenosugar concentrations and HPLC peak percentages, the `100 °C`/`10 min` heating test, the `15 g (dry weight)` ingestion amount, `∼324 µg` ingested arsenic, `10-30 ng/mL` pre-ingestion urine range, `92.5 µg/L` peak-window urine value, and the `<30 ng/mL` final urine statement.
-- Units and bases are preserved as `mg/kg as arsenic dry weight`, `%`, `°C`, `min`, `g (dry weight)`, `µg`, `ng/mL`, and `µg/L`; no unit conversion was performed.
-- Speciation check: total arsenic, arsenosugar PO4, arsenosugar OH, DMA in urine, AsB, MMA, arsenite, and arsenate are kept distinct. The paper does not report a Porphyra inorganic-arsenic concentration, so source metadata uses `metals: [tAs]` only.
-- Brand firewall: samples were public-market Porphyra by location, not named brands.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact *Porphyra* and nori/zicai terminology remains in source text while source metadata routes broadly to seaweed/kelp foods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

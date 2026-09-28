@@ -51,7 +51,7 @@ The paper applies two tiered exposure-assessment frameworks. Tier 1 (determinist
 - Courses: Methodology teaching reference for tiered (deterministic vs probabilistic) aggregate exposure assessment; demonstrates how aggregate exposure can produce MoE values an order of magnitude tighter than single-source assessments, and how a few products (baby wipes) can dominate aggregate exposure for the highest-use children.
 - App: Not relevant to ingredient contamination_profile. The product-use defaults for shampoo, body lotion, sunscreen, baby wipes, etc. could seed an "expected daily product use by age" annex for a future dermal-route exposure feature.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/baby-wipes]]
 - [[products/baby-lotion-cream]]
@@ -60,14 +60,8 @@ The paper applies two tiered exposure-assessment frameworks. Tier 1 (determinist
 - [[products/baby-sunscreen-chemical]]
 - [[products/toothpaste]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- This is a parabens (preservative) paper, not a heavy-metals paper. No metals analyte data are reported. source metadata `metals: []` reflects this. Included in the batch as a methodological reference for aggregate dermal-exposure modeling of personal-care products.
-- The 0.27 body-surface scaling factor (1.5-yr child vs adult) and the per-product retention factors are reusable for heavy-metal exposure modeling on identical product categories.
-- "baby-salve" is not in the current product taxonomy; closest existing slug is [[products/baby-lotion-cream]] or [[products/diaper-cream-zno]] / [[products/diaper-cream-non-zno]] depending on intended use. Flagging for Part 10 review.
-- 2026-05-17 merge-enhance: corrected license to CC BY-NC-ND 3.0 (paper is open-access per the back-cover Creative Commons notice, not "All rights reserved"); fixed transposed body-surface-area attribution in the scaling-factor bullet (4800 cm² is the child application area, 17,500 cm² is the adult — the prior wording reversed them); replaced "plus a generic leave-on" placeholder with "two-in-one shampoo" (the actual 12th product type per the Methods description on p. 209).
-- 2026-05-17 audit pass (fresh-context editorial review, PROMOTE verdict with 2 ⚠️ minor concerns): narrowed butylparaben body-lotion contribution from "~15-25%" to "~10-20%" to match Figure 3d more accurately; corrected agency name in Methods from "NWWA" (a typo printed in the paper text on p. 209) to "NVWA" (Netherlands Food and Consumer Product Safety Authority, as credited in reference 8 of the paper), with an inline annotation preserving the source-text discrepancy.
+- [[products/diaper-cream-zno]]
+- [[products/diaper-cream-non-zno]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

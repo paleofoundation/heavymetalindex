@@ -29,7 +29,7 @@ Inorganic arsenic compounds are listed under California Proposition 65 as chemic
 | Category | Status |
 | --- | --- |
 | Cancer | Currently listed |
-| NSRL (cancer, oral) | Pending ingest of OEHHA NSRL document |
+| NSRL (cancer, oral) | Not catalogued on this page |
 
 ## Sources
 
@@ -38,7 +38,7 @@ Inorganic arsenic compounds are listed under California Proposition 65 as chemic
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/oehha-arsenic-prop65-listing|Arsenic (inorganic Arsenic Compounds) — Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/arsenic-inorganic-arsenic-compounds)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
