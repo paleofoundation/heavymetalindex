@@ -51,7 +51,7 @@ Courses: Useful for showing how river contamination can propagate into edible fi
 
 App: Supports fish and freshwater-fish contaminant context, not infant-formula or dairy rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/fish]]
 - [[ingredients/freshwater-fish]]
@@ -63,12 +63,6 @@ App: Supports fish and freshwater-fish contaminant context, not infant-formula o
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- The auto-fetched filename labels this as formula/cadmium, but the PDF is a freshwater-fish and river-water study.
-- Arsenic is total As; the paper does not provide inorganic arsenic speciation.
-- The source has an internal basis ambiguity: methods dry the fish tissue before digestion, while the risk equation labels fish concentration as mg/kg wet weight. This page preserves the source-reported units and flags the ambiguity for pooling.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

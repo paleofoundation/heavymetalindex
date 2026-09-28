@@ -61,7 +61,7 @@ App: Supports a provisional nickel signal for formula-powder evidence retrieval 
 
 Microbiome: No direct microbiome endpoint.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
 - [[products/infant-formula-powder]]
 

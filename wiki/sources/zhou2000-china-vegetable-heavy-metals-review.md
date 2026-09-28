@@ -127,7 +127,7 @@ This is a narrative review with reproduced data tables, not a new laboratory sur
 
 The source is useful as historical China vegetable-contamination context and as a pointer to older city-specific primary studies. Values from this page should remain C-tier secondary evidence unless the original cited studies are retrieved and ingested. Table 6 and Table 12 soil values are exposure-context and supply-chain data; they should not be pooled as product occurrence rows. Total As, total Hg, and total Cr labels should be preserved because the review does not report speciation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/non-root-vegetables]]
 - [[products/leafy-vegetables-other]]
@@ -147,17 +147,6 @@ The source is useful as historical China vegetable-contamination context and as 
 - [[metals/nickel]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1081/fri-100100288`, `MFK_zhou2000`, or `zhou2000-china-vegetable-heavy-metals-review`.
-- All Key numbers were rechecked against `/tmp/hmi-june9-zhou2000.txt`, extracted with `pdftotext -layout`, especially Tables 2-11.
-- Speciation check: the food tables report As, Hg, and Cr only; this page records them as tAs, tHg, and total Cr. No inorganic arsenic, methylmercury, or Cr(VI) food values are inferred.
-- Units are preserved as `mg/kg`; no unit conversions were performed.
-- Evidence tier C reflects secondary review status. The review reproduces city-study tables but does not expose the original laboratory methods or complete primary sampling frames.
-- Product-scope note: Table 5 includes mealie and paddy along with vegetables; source metadata therefore includes broad grain/rice routing in addition to vegetable routing.
-- Brand firewall: no brands are reported.
-- Missing slug note: the taxonomy snapshot has no exact product slugs for all vegetable commodity names in the review. source metadata uses broad vegetable, leafy-vegetable, root/tuber, rice, and other-grain rows while commodity names remain in table text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -54,20 +54,6 @@ App: No `contamination_profile` blocks are touched.
 
 Microbiome: Not a focus of this source.
 
-## Wiki pages this source may touch
-
-- [[metals/cadmium]]
-- [[metals/lead]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[mitigation/agronomic]]
-
-## Verification notes
-
-- Evidence tier B: primary screen-house experiment in a peer-reviewed journal.
-- Page grounded in the published abstract and bibliographic metadata; values preserved as printed. Full-text extraction can follow on synthesis.
-- `ingredients: []` / `products: []` correct: experimental soil-amendment context, not retail food occurrence; Indian mustard is the test species, carried in `matrices`.
-- Part 2 direction-of-edit check: adds upstream mitigation mechanism literature; neutral to HMT&C thresholds, moves toward the literature.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -78,15 +78,6 @@ Fish and seafood specimens were purchased from retailers in Galati, Romania, ide
 
 This source provides primary market-occurrence evidence for fish, freshwater fish, marine fish, shellfish, molluscs, and seafood sold in Romania, with all metal concentrations reported on a `mg/kg fresh weight` muscle-tissue basis. It is useful for HMTc seafood and fish category pooling as total/unspecified As and total/unspecified Hg evidence, not as inorganic arsenic or methylmercury evidence. The microplastics finding may support non-metal context for bivalve-mollusc and shellfish pages, but the metals route should remain anchored to Table 3.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; Table 3 was also rendered as a PNG to verify table alignment and the two standard-deviation cells where the PDF prints `0.00` or `0.1` without a visible plus/minus marker.
-- DOI `10.1016/j.etap.2023.104307`, raw handle `MFK_1-s2-0-s1382668923002491-main`, and cite-key checks found no existing source page before creation.
-- Table 1 sample counts and origins, Table 3 mean concentrations, Table 4 Hg biomagnification factors, methods LODs, exposure values, and microplastic FT-IR details were checked against extracted text. Units are preserved as the source reports them; no conversion was performed.
-- Speciation: arsenic is total/unspecified As (`tAs`) in Table 3, not inorganic arsenic. Mercury is total/unspecified Hg (`tHg`) in Table 3, not methylmercury, even though the discussion notes that fish-tissue Hg is commonly present as MeHg.
-- Brand firewall: specimens were purchased from retailers and reported by taxon/origin; no product brand contamination values were present.
-- source metadata slugs were checked against the editorial record; missing narrow closed-vocabulary slugs include the individual fish and shellfish species rows, crustaceans, cephalopods, mussels, clams, shrimp, squid, and gastropods, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

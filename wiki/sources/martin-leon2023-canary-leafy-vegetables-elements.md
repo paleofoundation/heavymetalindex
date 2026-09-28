@@ -50,7 +50,7 @@ Courses: Useful for showing how a broad edible-leafy-vegetable basket can identi
 
 App: Eligible for spinach and leafy-vegetable occurrence context after synthesis.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[products/leafy-vegetables-other]]
@@ -60,10 +60,6 @@ App: Eligible for spinach and leafy-vegetable occurrence context after synthesis
 - [[metals/lead]]
 - [[metals/aluminum]]
 - [[metals/nickel]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The queue title surfaced this through a spinach gap, but the source is broader than spinach and should remain visible at both the spinach and leafy-vegetable layers.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

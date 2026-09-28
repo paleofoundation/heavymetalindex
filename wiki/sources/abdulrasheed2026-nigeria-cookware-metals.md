@@ -49,7 +49,7 @@ Courses: Useful for supply-chain modules on recycled inputs, lead-acid battery c
 
 App: Can support product-context warnings that informally manufactured metal cookware may contain elevated Pb, Cd, Ni, and Cr even when short neutral-water boiling tests do not detect leaching.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cookware-metal-alloy]]
 - [[metals/lead]]
@@ -57,13 +57,6 @@ App: Can support product-context warnings that informally manufactured metal coo
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[testing/atomic-absorption-spectroscopy]]
-
-## Verification notes
-
-- DOI, title, authors, year, journal, and license were read from the PDF title page.
-- The auto-fetch row labelled this as nonstick-coated cookware, but the source describes informally manufactured iron cookware; routing uses the broader `cookware-metal-alloy` page.
-- Leachates were below detection only for distilled-water boiling. The authors explicitly note that acidic or salty foods could increase metal mobility, so the negative leachate result should not be generalized to all cooking conditions.
-- Chromium is total Cr by flame AAS; no Cr-VI value is inferred.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

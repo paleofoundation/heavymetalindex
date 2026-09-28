@@ -48,7 +48,7 @@ Samples were digested, Pb and Cd were measured by atomic absorption spectrometry
 
 The source supports Nigerian-market poultry and egg occurrence evidence for total arsenic, lead, and cadmium. It should be kept jurisdiction-specific and not pooled silently with US poultry data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/poultry]]
 - [[ingredients/chicken]]
@@ -58,10 +58,6 @@ The source supports Nigerian-market poultry and egg occurrence evidence for tota
 - [[metals/arsenic-total]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The title uses "potentially toxic ingredients" where the paper means potentially toxic elements. This page records the measured elements and avoids using the title phrase as a taxonomy term.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

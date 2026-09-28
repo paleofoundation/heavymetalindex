@@ -58,7 +58,7 @@ The authors sampled Forastero cocoa beans from four stated origins and selected 
 
 The paper contributes origin-stratified cocoa ingredient occurrence data for Pb, Cd, tAs, tHg, Al, Zn, and Se. For chocolate evidence use, the cocoa-origin basis and small number of origin lots should stay visible; the paper should not be treated as a finished-product chocolate survey.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/cocoa]]
 - [[products/chocolate]]
@@ -67,10 +67,6 @@ The paper contributes origin-stratified cocoa ingredient occurrence data for Pb,
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-The PDF filename suggested human milk, but the actual PDF is a cocoa/confectionery paper. The source reports arsenic and mercury without species separation, so this page uses tAs and tHg. The authors describe cocoa shells as possible confectionery additives, but the concentration tables are for cocoa beans, kernels, and shells rather than commercial branded chocolate products. Matrix source metadata is normalized to the existing cocoa/chocolate vocabulary while Key numbers preserve the source's bean, kernel, and shell fractions.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

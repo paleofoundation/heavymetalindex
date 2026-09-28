@@ -52,7 +52,7 @@ Courses: The paper is a strong example of why upstream source-attribution belong
 
 App: Context only for product thresholds. The aerosol concentrations are not product concentrations and should not enter bottled-water or mineral-water HMTc occurrence pools.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/atmospheric-deposition]]
 - [[supply-chain/source-attribution-environmental-burden-apportionment]]
@@ -70,12 +70,6 @@ App: Context only for product thresholds. The aerosol concentrations are not pro
 - [[metals/barium]]
 - [[metals/aluminum]]
 - [[metals/vanadium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason was too narrow because the paper measures heavy metals in atmospheric aerosols and apportions them to upstream source classes relevant to atmospheric deposition and environmental burden sharing.
-
-All key numbers were checked against the extracted PDF text, especially Table 1, Section 4.2.3, Section 4.2.5, the abstract, and the conclusion. Units are preserved as ng m−3 for elemental aerosol concentrations and percent mass contribution for PMF components. Arsenic is treated as total arsenic (`tAs`) because XRF elemental analysis did not speciate inorganic arsenic. Products and ingredients are intentionally empty; the filename's mineral-water query label is not the paper's matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

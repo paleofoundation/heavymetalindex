@@ -118,7 +118,7 @@ Courses: Demonstrates how regulatory frameworks (Eurasian Customs Union TR CU 02
 
 App: Contextual signal that Central Asian freshwater fish, on average, present low metal exposure relative to fish-consumption-dominant geographies (Maldives, Japan, coastal Europe). The exception is fish sourced from Lake Balkyldak, Issyk-Kul Lake (Kyrgyzstan), and the River Nura / Intumak Reservoir corridor, where Hg risk is elevated. Saltwater fish are largely absent from local supply (the region is landlocked).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
@@ -130,21 +130,6 @@ App: Contextual signal that Central Asian freshwater fish, on average, present l
 - [[ingredients/water]]
 - [[products/fresh-fish]]
 - [[products/fish-freshwater]]
-
-## Verification notes
-
-- Speciation: the review's tabulated fish-tissue values are all totals (As, Hg, Cd, Pb) with no inorganic/total or methyl/total separation in Table 2 or surrounding text. This page uses `tAs` and `tHg` accordingly. The introductory speciation discussion (organic As / arsenobetaine in fish; MeHg comprising up to 100% of total Hg in seafood) is conceptual context, not measured speciation.
-- Eurasian Customs Union limit values for Hg in freshwater non-predatory vs predatory fish (0.3 vs 0.6 mg/kg) preserved verbatim from Table 1; the "predatory fish 0.6" figure is the source's own designation and applies to species like pike perch, walleye, pikeperch in the Customs Union framework.
-- Folder placement (`03_Marine_Predatory`) is a mismatch for the actual paper scope. Central Asia is landlocked (the Aral and Caspian seas are inland salt seas, not connected to global oceans); the fish data in Table 2 is overwhelmingly freshwater (crucian carp, tench, perch, roach, common carp, silver carp, pike perch in freshwater, rainbow trout, goldfish). The paper's only "marine" references are the regulatory framework (Eurasian Customs Union categories include "saltwater fish" and "tuna, swordfish, and beluga") and brief introductory mentions of marine vs freshwater toxicology. source metadata products list `fresh-fish` and `fish-freshwater` accordingly, not the marine subcategories.
-- The Allen et al. Pb-in-Shardara-Reservoir value is reported in the source as "0.1 to 3.8 µg/g wet weight" (= mg/kg wet weight, since 1 µg/g = 1 mg/kg); preserved in source units throughout.
-- Lake Balkyldak Hg ranges (0.16 to 2.2 in 2001–2002 and 1 to 1.5 in 2006–2007) are reported per the source's exact figures from refs [55] and [56]; the source notes that "the Hg levels were slightly lower" in 2006–2007 but the range minimum (1) is actually higher than the 2001–2002 minimum (0.16), reflecting that the later sampling did not capture as much variability rather than a true narrowing of the distribution.
-- Tajikistan FAOSTAT consumption (0.63 kg/year/capita) is reported as among the lowest globally; the review's claim that it is surpassed downward only by Ethiopia and Afghanistan is the source's own framing, preserved verbatim.
-- The Hsiao et al. Kazakhstani fisherman cohort 27.4 / 14.6 / 37.6 / 17.9 kg/year/capita values in Table 3 are tagged "Temirtau district" — a district of North Central Kazakhstan flagged elsewhere in the review as a high-Hg-pollution zone — preserved with the district attribution.
-- The Brázdová et al. hair Pb range for Kyrgyzstan (2.71 to 50.10 µg/g) is the highest of the three Central Asian countries surveyed in that study; the source frames this as "particularly high," preserved as a paraphrase tied to the figures.
-- This is a B-tier narrative review with no PRISMA protocol; values are tabulated per cited primary study without pooling, meta-analysis, or quality scoring. The page is a literature entry point into the regional primary studies (refs [48], [54]–[62]) rather than an independent evidence source on its own.
-- Source-internal species-naming inconsistency in Table 2: the Issyk-Kul Lake row labels *Perca schrenkii* as "pike perch," but *Perca schrenkii* is Schrenk's perch (Balkhash perch); "pike perch" is the conventional common name for *Sander lucioperca*, which the same Table 2 uses correctly for the Lake Tuzkan and Kairakkum reservoir rows. The page preserves the source's labeling verbatim rather than silently relabeling, but the species attribution should be read as the source intends (the *Perca schrenkii* fish from Issyk-Kul, regardless of common-name disagreement).
-- Audit editorial review (2026-06-03) verdict PROMOTE, 5/5 checks clean. One ⚠️ polish suggestion (the species-naming inconsistency above) applied; the other ⚠️ flags (Lake Balkyldak "North Kazakhstan" loose geography, Temirtau "North Central Kazakhstan" descriptor, Erdinger 25 µg/L Hg threshold framing) were verified as faithful source-text reproduction and left as-is.
-- No brand names appear in the source pertaining to contamination values; the only named manufacturer is the Karbide chemical plant on the River Nura and the Pavlodar chlor-alkali plant, both named as point sources of industrial Hg release (regulatory-event subject context, not brand ranking).
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

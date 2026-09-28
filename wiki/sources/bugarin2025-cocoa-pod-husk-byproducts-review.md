@@ -85,28 +85,12 @@ Courses: Useful as background reading for the cocoa value chain and the agro-ind
 
 App: No ingredient `contamination_profile` impact. The review contributes no concentration values usable for the consumer-app pipeline.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[ingredients/cocoa]]
-
-## Verification notes
-
-- 2026-06-02 fresh ingest (automated editorial review, manual-fetch ingest from the archived source file): DOI 10.3390/pr13051264 verified against the article's first page; received 25 March 2025, revised 14 April 2025, accepted 17 April 2025, published 22 April 2025 in Processes 2025, 13, 1264. The article carries the MDPI Open Access banner and the Creative Commons Attribution (CC BY 4.0) licence statement; license recorded as CC BY 4.0.
-- Author affiliations: Universidad San Ignacio de Loyola, Lima, Peru (Bugarin, Iquise, Olivera-Montenegro) and Federal University of Santa Maria, Cachoeira do Sul, RS, Brazil (Motta Dolianitis, Vinícius Tres, Zabot). Academic Editors named on the masthead: Wilgince Apollon and Alejandro Isabel Luna Maldonado. Funding declared as none received.
-- The review is structured around six numbered sections covering CPH composition, conventional pretreatments, emerging technologies, and application sectors. Total heavy-metals-relevant body content is approximately one paragraph in Section 4.1 (HVED), one paragraph in Section 5.1 (CPH consumption safety), and one sentence at the end of Section 5.5 (biochar adsorption), plus framing sentences in Section 2 and the Concluding Remarks.
-- The HVED-cadmium-reduction figure ("30.33%") is reproduced verbatim from the review's body text in Section 4.1; the underlying primary source (ref 82) is not retrievable from this review's reference list as supplied on pages 17–25 without the complete reference detail being checked against the full bibliography. The 30.33 figure is treated here as a review-attributed number, not as a verified primary measurement.
-- The CPH-biochar adsorption efficiency (">99%") for Pb²⁺, Hg²⁺, and Cd²⁺ is reproduced verbatim from Section 5.5; the underlying primary source (ref 151) is similarly treated as a review-attributed number.
-- The review uses "HVDE" and "HVED" interchangeably for the same high-voltage electric discharge technology; "HVED" is the form used in section headings and is the form preserved in the body of this wiki page. The "HVDE" abbreviation appears in the body text of Section 4.1 in the review itself.
-- The review uses the abbreviation "CPH" throughout for cocoa pod husk; the wiki page preserves CPH on first use with definition and uses the abbreviation thereafter.
-- The review does not separate inorganic from total arsenic (no arsenic measurement is discussed at all), does not separate Cr-VI from total Cr, and does not separate MeHg from total Hg. The source metadata `metals:` array uses `Cd`, `Pb`, and `tHg` to reflect the review's actual coverage. iAs, tAs, MeHg, Ni, Al, Cr, Cr-VI, Sn, and U are not discussed in the heavy-metals-relevant content.
-- `jurisdictions:` is left empty: this is a global narrative review citing primary studies from multiple regions. The Peruvian and Brazilian institutional affiliations of the authors do not bound the scope of the review; the introductory production-volume framing uses Ivory Coast as illustrative but the technologies discussed are not Ivory-Coast-specific.
-- `matrices:` uses `cacao-pod-husk` (the in-vocabulary slug for the cocoa fruit by-product fraction, distinct from `cacao-bean` / `cocoa-bean`), `biochar` (for the Section 5.5 biochar-adsorption content), and `literature-survey` (to mark this as a narrative review without primary measurements).
-- `products:` is left empty. The review discusses CPH valorization end-products (pectin-as-food-ingredient, biofuels, biochar fertilizer, cosmetics excipients) but does not report occurrence values for any finished product, and CPH-derived ingredients are not currently in the HMI product taxonomy. The cocoa ingredient slug covers the upstream raw-material framing.
-- No brand names are reported in the review's heavy-metals body content. The review does name enzyme product lines (Cellic HTec 2®, Cellic CTec®, Xylanase-X2753 / Pentopan Mono BG®, Cellulase-C2730 / Celluclast®, Cellulase enzyme Viscozyme Cassava CL, Cellic Ctec2 — Novozymes Araucaria Brazil, Sigma-Aldrich Taiwan, Novozymes A/S Denmark) and microbial strains (*Aspergillus niger* Tiegh F359, *Candida boidinii* XM02G) in Tables 4 and Section 3.3.1. These are scientific-method reagent and reference-material names and fall under the Part 12 Exception 2 carve-out for instrument and reference-material vendor names. They are not reproduced as a list here.
-- `evidence_tier: B` reflects the narrative-review character of this source. `evidence_fitness: EF-4` (Context only) and `public_evidence_label: Context only` reflect that the source contributes no primary heavy-metal occurrence values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

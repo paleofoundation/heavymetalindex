@@ -117,7 +117,7 @@ This synthesis was established 2026-05-16 on ten anchor sources spanning six con
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -129,7 +129,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Hazardous effects of heavy metal pollution on Nile tilapia in the aquatic ecosystem of the Eastern Delta in Egypt]]<span class="hmi-ref-meta">Shaalan WM · BMC Veterinary Research · 2024 · [doi.org/10.1186/s12917-024-04367-3](https://doi.org/10.1186/s12917-024-04367-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Carnivorous Freshwater Fish from La Mojana, Sucre, Colombia: Assessing Fish Health and Potential Human Health Risks]]<span class="hmi-ref-meta">Fuentes-Lopez Katerin, Olivero-Verbel Jesus, and Caballero-Gallardo Karina · Archives of Environmental Contamination and Toxicology · 2025 · [doi.org/10.1007/s00244-025-01117-w](https://doi.org/10.1007/s00244-025-01117-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>

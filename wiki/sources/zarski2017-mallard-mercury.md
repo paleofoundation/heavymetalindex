@@ -46,16 +46,12 @@ Courses: It helps explain why organ tissue and muscle tissue should not be poole
 
 App: It can provide context for wild duck or game-bird entries where relevant.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
 - [[ingredients/organ-meats]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The source reports total Hg by tissue. Do not route it to methylmercury without a separate speciation source.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

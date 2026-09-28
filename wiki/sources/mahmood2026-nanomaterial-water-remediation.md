@@ -52,22 +52,13 @@ The review helps identify water-remediation topics that warrant primary-source r
 
 Evidence Fitness is limited secondary context. Only the fact that the review makes a stated claim is verified here; the underlying experiments have not been independently verified. The operating-pH and contact-time examples should not be transferred to a metal-removal process, because their paragraph concerns mixed contaminants and surfactants. The authors' broad assertions that nanomaterials are environmentally benign or superior to conventional treatment are not adopted as established conclusions.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[mitigation/remediation-evidence]]: secondary water-remediation context and primary-study retrieval gaps.
-- [[metals/lead]], [[metals/cadmium]], [[metals/arsenic-total]], [[metals/chromium]], and [[metals/mercury-total]]: qualitative treatment context only.
-
-## Verification notes
-
-Access identifier: https://doi.org/10.5281/zenodo.20225839. SHA-256: `0670fc90001f9e94bcf3e19be0e2168e3bbb1ca94538fe944031bd61adbd7c81`.
-
-The full 11-page PDF was read, and the byline, numerical passages, and Table 01 were checked visually. The first page identifies Shahid Mahmood, Razia Iqbal, Memona Rehman, Amna Nawaz, Minahil Azhar, and Areeba Arif; the journal is Spectrum of Engineering Sciences, volume 4, issue 5, pp. 1305–1315. The PDF records publication on 16 May 2026 and prints DOI 10.5281/zenodo.20225839. Receipt and acceptance dates do not independently establish the journal's peer-review process. The B-tier classification is retained for attributed secondary context, not as a claim of verified peer review or primary experimental evidence.
-
-This corrects the same-PDF record formerly filed under `authors2026-application-of-nanomaterials-for-the-removal-of-toxic`. The SHA-256 is unchanged. The byline replaces the unresolved author placeholder, the complete title and actual journal replace generic metadata, and the stable Ingredient Sweep symlink path replaces the drive-specific path. The old methylmercury-sweep handle did not match the file's actual location. Unsupported shellfish, sunscreen, and United States assignments have been removed: a Table 01 application example and an incidental mention of mussels do not constitute product-occurrence sampling.
-
-Reference traceability is incomplete. The references attached to the copper oxide size example and the author-year references in Table 01 have no matching entries in the bibliography. Several health-effect passages use incomplete journal/year citations. The contact-time paragraph cites Barton 2014, Ciurcanu 2023, and Popescu et al. 2018 collectively; it does not identify which source supports each figure. These gaps remain explicit retrieval tasks, not confirmed primary findings.
-
-The bibliography includes Raul et al. 2022, “Toward a feasible solution for removing toxic mercury and chromium from water using copper oxide nanoparticles,” Frontiers in Nanotechnology 4, article 805698. That is a candidate primary-study retrieval lead; its methods and results have not been verified during this review ingest. Bibliographic entries for further reviews likewise provide discovery leads without transferring their claims into this source's evidence record.
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic-total]]
+- [[metals/chromium]]
+- [[metals/mercury-total]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

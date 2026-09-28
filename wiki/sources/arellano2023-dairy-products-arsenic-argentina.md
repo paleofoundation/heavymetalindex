@@ -66,7 +66,7 @@ Courses: Useful for explaining dairy matrix differences, total-versus-inorganic 
 
 App: Can inform Argentina-specific dairy and infant-formula arsenic priors, with a speciation caveat.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula]]
 - [[products/infant-formula-powder-dairy]]
@@ -78,10 +78,6 @@ App: Can inform Argentina-specific dairy and infant-formula arsenic priors, with
 - [[ingredients/milk-based-infant-formula]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-This page was built from the PDF chapter title/byline, abstract, methods, Tables 1-3, Figure 2 caption/text, and conclusions. source metadata uses `tAs` because the chapter reports arsenic by ICP-MS and does not provide inorganic arsenic speciation. The raw handle follows the auto-fetched filename, although the filename year is `2024`; the chapter itself is in a 2023 edited volume.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -49,7 +49,7 @@ The paper describes digestion of homogenized samples and measurement by Shimadzu
 
 The source contributes low-tier occurrence context for Pb and Cd in baby foods, infant cereals, and milk powder. It should not dominate synthesis when higher-quality infant-food surveys are available.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/baby-food]]
 - [[ingredients/infant-formula-powder]]
@@ -59,10 +59,6 @@ The source contributes low-tier occurrence context for Pb and Cd in baby foods, 
 - [[products/infant-formula-powder]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-The article has unusual author affiliation metadata for a contaminant paper, so evidence tier is set to C despite the presence of extractable numbers. No brand names are present in the extracted table text used here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

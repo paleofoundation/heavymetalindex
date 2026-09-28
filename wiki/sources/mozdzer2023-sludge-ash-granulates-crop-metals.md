@@ -117,7 +117,7 @@ Courses: Useful for teaching why input-material testing matters before waste-der
 
 App: Route as fertilizer-input and soil-to-plant transfer context for Cd, Cr, Cu, Ni, Pb, and Zn. Do not translate rape seed values into rapeseed-oil values; most seed metals partition away from refined oil during oil extraction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/chromium]]
@@ -127,10 +127,6 @@ App: Route as fertilizer-input and soil-to-plant transfer context for Cd, Cr, Cu
 - [[metals/zinc]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/app13052863`; no DOI conflict was observed. Names in the source metadata are ASCII transliterations of the byline. The title says "winter rape," but the abstract and methods describe spring rape (`Larisa` cv.) and spring triticale (`Milikaro` cv.); this page preserves the title while describing the experiment according to the methods. Table 6 appears internally inconsistent for the Ni dose means: the printed dose-mean row does not match the visible treatment cells, so this page uses treatment-cell ranges and granulate means rather than relying on the printed Ni dose means. Uptake tables retain the paper's ambiguous unit label and are not treated as product concentration data.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

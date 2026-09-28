@@ -91,17 +91,11 @@ Courses: Useful example of why engineered adsorption capacity and removal effici
 
 App: Context only. The source can support remediation-pathway notes for cadmium wastewater control and bioadsorbent screening, not product scoring.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/cadmium]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip treated a coffee-ground adsorbent paper as out of scope because it was not coffee occurrence. On reading, it is in-scope lane a2 mitigation/remediation because it reports cadmium-removal values from industrial wastewater.
-
-Numbers were checked against the abstract, introduction, methods, Figure 3 prose, Tables 1-3, and conclusion in the extracted PDF text. Units are preserved as printed. The paper uses only cadmium as the primary measured heavy-metal removal target; other elements in SEM-EDX are adsorbent-characterization results and are not treated as occurrence values. Products and ingredients are intentionally empty.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

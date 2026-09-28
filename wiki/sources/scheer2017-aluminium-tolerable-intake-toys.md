@@ -86,6 +86,9 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 **App:** Confirms that herbs, spices, cocoa, and tea are highest-Al food categories per EFSA 2008. Soy-based infant formula is flagged as a high-exposure matrix for infants. Aluminium cookware contact with acidic or salty foods (vinegar, tomato, apple puree, salted herring, pickles) is named explicitly as elevating Al transfer.
 
 ## Related evidence
+
+- [[metals/aluminium]]
+- [[regulations/efsa-aluminium-twi-2008]]
 - [[metals/aluminum]]
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cocoa]]
@@ -94,30 +97,6 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 - [[products/infant-formula]]
 - [[regulations/efsa-aluminium-twi]]
 - [[regulations/jecfa-aluminium-ptwi-2011]] (missing-slug proposal — no regulation page yet exists for the JECFA 2011 PTWI revision)
-
-## Verification notes
-
-- 2026-05-28 (v2.0 manual-fetch merge-enhance of the 2026-05-14 batch-ingest page).
-- Legacy raw_handle `manual-fetch-source-retrieval` replaced with per-PDF MFK_ form (`MFK_efsa-opinion-on-tolerable-intake-of-aluminium-with`) per current convention.
-- Truncated `raw_path` (...`foo.pdf`) restored to full filename (...`food additives.pdf`).
-- Added `raw_sha256`, `access_url` (EU Publications Office), and `tier_rationale`.
-- `products: ["infant-formula"]` converted to wikilink form `["[[products/infant-formula]]"]`. Scope kept at the umbrella per the broad-not-narrow rule — the opinion cites combined infant-formula data (both ready-made liquid and powder, both soy and non-soy) rather than splitting subtypes.
-- `matrices` expanded to include `drinking-water` and `food-contact-materials`, which the opinion treats as explicit non-food contributors to total Al exposure.
-- Key numbers expanded to capture: (i) Poirier et al. 2011 study design detail; (ii) EFSA 2013 food-additives exposure estimates (E 523, E 541, E 541, E 554, E 556, E 559) under both scenarios; (iii) US FDA Total Diet Study figures; (iv) ATSDR 2008 dietary-source breakdown; (v) drinking-water, food-contact-material, and soil/dust contributions; (vi) Norwegian VKM 2013 children's intake by age band; (vii) parenthetical comparison to current TSD 2009/48/EC limits showing the SCHEER proposal is 2.5× tighter.
-- Methods section expanded to record literature-search dates and string count, opinions reviewed, and public-consultation outcome.
-- No primary brand-attributed contamination data in the source; no Part 12 brand-firewall edits required.
-- No synthesis claims; no HMTc threshold proposals (Part 2 firewall intact).
-- This is fundamentally a toys-and-dietary-exposure regulatory opinion, not a primary food-contamination measurement study. It enters the HMI corpus because (a) it is the operative EU summary of Al dietary-exposure data through 2017, including infant formula and the high-Al condiments (herbs/spices/cocoa/tea) that the containing folder targets, and (b) it documents the EU regulatory inconsistency between the EFSA TWI and the JECFA PTWI relevant to any Al threshold-setting work.
-
-### editorial review audit findings (2026-05-28) verified against source
-
-- Audit Check 1 ⚠️ "France 1.5–4.5 years" age-band attribution: verified against PDF p.19 — corrected. The 0.7–2.3 mg/kg bw/w range belongs to France 3–15 years; the 1.5–4.5 y attribution belongs only to the UK 2.3 value.
-- Audit Check 3 ⚠️ "fourteen" search strings: verified against PDF p.10 — corrected to thirteen. PDF lists exactly thirteen bulleted "aluminium OR aluminum AND <topic>" strings.
-- Audit Check 2 ⚠️ `[[metals/aluminium]]` → corrected to `[[metals/aluminum]]` (canonical page slug uses US spelling).
-- Audit Check 2 ⚠️ `[[regulations/efsa-aluminium-twi-2008]]` → corrected to `[[regulations/efsa-aluminium-twi]]` (the actual page slug carries no year suffix).
-- Audit Check 2 ⚠️ `[[regulations/jecfa-aluminium-ptwi-2011]]` → flagged as missing-slug proposal; no regulation page yet covers the JECFA 2011 PTWI revision. Per Part 10, regulations get pages on first encounter; this proposal is surfaced for next regulation-page-creation pass rather than silently invented here.
-- Audit Check 2 ❌ `products: ["[[products/infant-formula]]"]` flagged as missing-slug: **verified false positive**. the linked reference record exists in the current taxonomy and the routing audit fans this source to that page as `locked_hmtc_row direct_evidence` plus four broad-formula-context siblings. The editorial review's taxonomy snapshot appears to omit the umbrella `infant-formula` slug; not changed.
-- Audit Check 2 ⚠️ matrix vocabulary novelty: noted; matrices field uses descriptive functional categories (`dietary-intake`, `infant-formula`, `drinking-water`, `food-contact-materials`) that match patterns used by other Al-context sources in the corpus and pass the routing audit cleanly; not changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

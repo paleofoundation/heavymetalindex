@@ -99,7 +99,7 @@ Courses: The paper is useful for teaching how a staple-food exposure model can c
 
 App: The source can support dry-weight occurrence and risk-context displays for Iranian bread and wheat-flour routes, with clear labels for total arsenic, total chromium, total mercury, and single-city sampling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic]]
 - [[metals/arsenic-total]]
@@ -119,14 +119,6 @@ App: The source can support dry-weight occurrence and risk-context displays for 
 - [[ingredients/bread]]
 - [[products/bread-and-baked-goods]]
 - [[products/flour-non-rice]]
-
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata.
-- Preserved the DOI identity distinction from `asaditouranlou2025-bread-iran-montecarlo`: this page is the PLOS ONE Mashhad flour/dough/bread study (n=270, includes total arsenic), while the companion page is the Scientific Reports national Iranian bread study (n=248, no arsenic analyte).
-- Replaced certification-threshold language with source-only standards/app/course implications.
-- Replaced invalid `ingredients/wheat-flour` and product-empty routing with existing vocabulary routes.
-- Strict brand-firewall check: no consumer brands are named; reagent, instrument, filter, software, and certified-reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

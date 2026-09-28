@@ -60,21 +60,11 @@ Courses: The report is useful for teaching how UK REACH restriction decisions ca
 
 App: The source can support a Great Britain tattoo-ink regulatory-status card. It should not be used to present product concentration numbers, brand rankings, or HMTc threshold comparisons.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/tattoo-inks]]
 - [[metals/nickel]]
 - [[metals/chromium-hexavalent]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_uk_reach_tattoo_restriction.txt`. The title block, preliminary matters, Agency Recommendation, Conclusion, and divergence paragraphs 11-13 were checked against this page.
-- No DOI is printed in the extracted decision report. Title text, decision date, raw handle `MFK_uk-reach-restriction-report-substances-in-tattoo-i`, and candidate cite key `hardy2025-uk-reach-tattoo-pmu-decision` were searched before creation; no existing source page was found.
-- Numbers are copied exactly from the extracted report. The page does not import numeric RO3 concentration limits from outside the provided PDF because they are not printed in the extracted text.
-- Speciation: the report names nickel and chromium (VI) in the allergen-warning decision. This page does not treat chromium (VI) labelling as total chromium occurrence, and it does not infer arsenic, cadmium, lead, mercury, or other metal limits absent from the extracted report.
-- Brand firewall: no product brands or contamination values are reported in the decision report.
-- Evidence tier: `A` because this is a primary UK government regulatory decision under UK REACH, but it is regulatory context only and not a primary occurrence dataset.
-- Routing: `tattoo-inks` exists in the taxonomy snapshot. The current taxonomy has no separate permanent-make-up-ink product slug, so PMU specificity is retained in matrices and body text rather than inventing a product slug.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

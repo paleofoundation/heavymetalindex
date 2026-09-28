@@ -41,19 +41,13 @@ Supports bounded remediation-method context. Colorimetric bacterial growth canno
 
 Evidence Fitness: EF-3 for experimental design and qualitative observations; EF-X for quantitative efficacy claims until residual-concentration and control data are available.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[metals/nickel]]
 - [[metals/cobalt]]
 - [[microbiome/index]]
-
-## Verification notes
-
-Novel experimental-remediation-water and bacterial-culture matrices prevent food occurrence routing. Abstract and discussion differ in how effective bacteria are described; preserve that limitation. No plant-species-by-metal efficacy matrix is invented from ambiguous chart legends. DOI independently matched via Crossref because absent fromPDF text (https://api.crossref.org/works/10.36948/ijfmr.2025.v07i05.56267); PDF spells coauthor Shreshta, Crossref Shreshtha; retain PDF byline. Microbial remediation is routed as environmental context, not evidence of human gut effects.
-
-The preserved Library PDF is identified by `RPHMI_19`; SHA-256 `c0cae14b99e7f17e0a344fef1ac93e5fccef0e122028bd5dc54a55f8e65ed194`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://www.ijfmr.com/papers/2025/5/56267.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -58,7 +58,6 @@ Fifty-six talcum powders sold in southeast Nigeria were acid-digested and measur
 | Co | talcum powder, TPM II | 0.7 ± 0.41 | mg/kg | mean | 5 | Table 2 p.PDF p.6 (printed 1139) |
 | Co | talcum powder, TPM II | ND-1.1 | mg/kg | range | 5 | Table 2 p.PDF p.6 (printed 1139) |
 
-
 ## Methods (brief)
 
 Open digestion block, not microwave. No certified reference material or numeric detection limit is reported. Table 2 cells are mean ± standard error, with the range in parentheses and, for several manufacturers, a geometric mean on a third line.

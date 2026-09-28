@@ -167,7 +167,7 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 
 - App: oil-side Pb and Cu inputs from this paper are most relevant for ingredient-list-driven exposure estimators that disambiguate edible-oil subtype. Per-serving estimators for rice oil and seed-blend oils should incorporate the upper-range Pb (0.217 mg/kg) and Cu (0.672 mg/kg) values; for organic extra virgin olive, the upper-range Cu (0.312 mg/kg) and Pb (0.101 mg/kg) values. Cd values are uniformly low (≤0.010 mg/kg).
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
@@ -184,20 +184,6 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 - [[metals/cobalt]]
 - [[metals/manganese]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- 2026-06-01 Fresh ingest from the archived source file. Three identity checks (DOI 10.3390/app15116269 grep, raw_handle MFK_applsci-15-06269 grep, cite-key matei2025* grep) all returned no existing pages.
-- The paper labels its trace-metal method "Graphite Atomic Absorption Spectrometry" / "GTAAS" and uses an Analytik Jena ContraA 800D instrument. ContraA 800D is a high-resolution continuum-source AAS that supports graphite-furnace operation; the paper uses the GF mode. The methods section captures the paper's "GF-AAS" / "GTAAS" labels verbatim.
-- "Rice oil" is the paper's term throughout. Rice bran is the only commercial source of edible rice-derived oil, and the paper's own comparison literature ([Mohajer 2019, ref 61; Bakota et al. 2015, ref 68]) is explicitly about rice bran oil. The page uses [[ingredients/rice-bran-oil]] in the ingredients source metadata to route the rice-oil signal to the appropriate existing wiki page; matrices uses bare `rice-bran-oil` for consistency.
-- The blend oil is a flax + rapeseed + pumpkin-seed combination. Flaxseed-oil and pumpkin-seed-oil ingredient pages do not exist in the current taxonomy snapshot. Routing the blend-oil signal to [[ingredients/rapeseed-oil]] (the one shared component with an existing wiki page) and to [[ingredients/vegetable-oils]] preserves traceability without overspecifying. Flagged for Karen: a `flaxseed-oil` (alias `linseed-oil`) ingredient page may be worth creating once a second source measuring flax-derived oil is encountered.
-- "Grapeseed oil" and "walnut oil" do not have dedicated ingredient pages in the taxonomy snapshot. [[ingredients/walnuts]] is used to route walnut-oil contamination data to the existing walnuts ingredient page (the closest taxonomic anchor for the same plant). Grapeseed-oil signal is routed to [[ingredients/vegetable-oils]] only. Flagged for Karen: grapeseed-oil and walnut-oil ingredient pages may be worth creating once a second source measuring these specifically is encountered.
-- Matrices uses bare strings (`olive-oil`, `sunflower-oil`, `rapeseed-oil`, `walnut-oil`, `grapeseed-oil`, `rice-bran-oil`, `blend-oil`, `edible-oil`) following the convention established in [[sources/acar2012-vegetable-oils-olives-turkey-etaas]] and [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]. Per the audit note on those pages, bare-string matrices outside the system-prompt list are advisory only.
-- Authors measure total Pb, total Cd, and total Cr (no speciation). source metadata uses `Pb`, `Cd`, `Cr` accordingly (not iAs/tAs/MeHg-style speciation markers; Cr is not `Cr-VI`).
-- Reagent and instrument vendor names (Merck KGaA, Berghof, Analytik Jena, Atago, Jasco, Fluka, Redox, Millipore) are preserved per Part 12 Exception 2 (scientific-method vendor names). No sampled-product brand names appear in the paper; the eight oil categories are labeled by type and provenance only.
-- The paper cites several regulatory benchmarks (FAO/WHO 2002 limits at 0.1 mg/kg Cu and Pb; Codex CXS 210-1999 for physicochemical indices; WHO 0.2% moisture cap; EU 2023/915 for Cd in foods generally). Of these, only [[regulations/eu-2023-915-cadmium]] is in the current taxonomy snapshot; the other limits are preserved in prose without wikilinks rather than asserted as cross-page facts.
-- Author affiliation: Department of Chemistry and Chemical Engineering, Ovidius University Constanta, 124 Mamaia Blvd., 900527 Constanta, Romania. Correspondence: sbirghila@univ-ovidius.ro (S.B.); asoceanu@univ-ovidius.ro (A.S.).
-- Article metadata: Applied Sciences 2025, 15, 6269. Received 23 April 2025; revised 28 May 2025; accepted 2 June 2025; published 3 June 2025. DOI 10.3390/app15116269. CC BY 4.0 (MDPI standard, confirmed in copyright statement: "open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license").
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -149,7 +149,7 @@ Courses: useful case study for brand QA and regulatory-affairs courses on specia
 
 App: contributes Asi occurrence data (UK market) for the rice → baby-cereals-dry-rice-based and rice → teething-and-snacks-rice-based cells of the contamination-likelihood matrix. The 14% exceedance over the JECFA 0.200 mg/kg proposed maximum for baby rice is a notable upper-tail anchor.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
@@ -161,58 +161,7 @@ App: contributes Asi occurrence data (UK market) for the rice → baby-cereals-d
 - [[regulations/efsa-arsenic-contam-2009]]
 - [[regulations/jecfa-arsenic-bmdl]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
-
-## Verification notes
-
-Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fetch ingest workflow. Changes from the prior version:
-
-1. **Added `raw_handle: MFK_inorganic-arsenic-in-rice-based-products-for-infan` and corrected `raw_path`** to the actual PDF location under the archived source file. The prior path the archived source file did not exist on the filesystem.
-
-2. **source metadata slug fields converted to quoted-wikilink form** per current schema and the editorial record): `products` and `ingredients` are now `["[[products/...]]",...]` instead of bare strings.
-
-3. **Added `matrices: [rice, infant-cereal, baby-snack]`** (was absent). Values picked from the controlled vocabulary in the editorial record — `rice` for raw-ingredient context, `infant-cereal` for baby-rice and rice-cereal products, `baby-snack` for rice crackers.
-
-4. **`jurisdictions` corrected to `[GB, EU]`** (was `[EU, US]`). The paper's primary sampling is UK-only (36 UK retailers); the US data are a reanalysis of the published US FDA 2014 rice/rice-products survey, not independent sampling by this paper. Source-page jurisdictions should reflect where this paper sampled, not where comparison-context data originated. The GB code matches related Carey/Meharg-lab papers (e.g., `carey2018-rice-dilution-infant-food-eu-arsenic.md`).
-
-5. **Added `sample_n: 179` and a `sample_population` description** that explicitly notes the UK-vs-US distinction so downstream consumers do not double-count US FDA 2014 data already represented in the FDA source pages.
-
-6. **`product_metal_scope` widened** from `[iAs]` only to `[iAs, tAs]` for both routed product pages. The paper reports both Asi and ΣAs (total speciated As) for UK samples and additionally cites US FDA total As; tAs is in-scope as a routed metal alongside iAs.
-
-7. **Body restructured to current schema:**
- - Legacy `## Summary` heading replaced with un-headed opening paragraph per current the linked reference record template.
- - `## Key Numbers` (title-case) → `## Key numbers` (sentence-case per schema).
- - `## Evidence Fitness`, `## Routing Notes`, `## Limitations`, and `## Wiki Pages Updated On Ingest` sections replaced by `## Methods (brief)`, `## Implications`, `## Wiki pages this source may touch`, and `## Verification notes`. The "evidence fitness" content (medians/ranges only, not sample-level values) is preserved inside `## Implications` under Certification.
-
-8. **Key numbers expanded substantially** from the prior 6-row Table 3 summary. The prior version omitted: (a) the per-manufacturer baby-rice, rice-cereal, and rice-cracker breakdowns from Table 1; (b) the organic vs non-organic stratification (Table 2) — a major finding of the paper; (c) the full Table 3 comparison with DMA, MMA, ΣAs, total As, and Asi% columns; (d) the per-serving exposure estimates (Table 4) and the 0.31 / 0.47 / 0.38 µg Asi/kg b.w./day modelled exposures at median body weight; (e) the JECFA 0.200 mg/kg proposed-maximum exceedance percentages (14%, ~2%, ~1% for baby rice, rice cereals, rice crackers); (f) analytical performance figures (recoveries, LODs).
-
-9. **Methods section added** (was absent). Documents Retsch PM100 ball mill, CEM MARS 6 microwave digester, Thermo IC5000 + Thermo iCAP Q ICP-MS speciation chain, NIST 1568b rice-flour CRM, IBM SPSS 21.0. All instrument-vendor names are scientific-method exception per Part 12 Exception 2 (locked 2026-05-17), not Part 12 violations.
-
-10. **Brand-firewall pass clean.** The paper anonymises manufacturers using codes M001 – M021 — no brand names appear in the paper itself. The wiki page reports per-manufacturer ranges and the existence of significantly-higher-Asi single manufacturers without naming or numbering the codes, to avoid any wiki-side construction of a brand ranking. Aggregate / product-form descriptors used throughout.
-
-11. **Wiki/HMTc firewall pass clean.** No threshold proposals, consumer-audience advisories, or cross-source synthesis claims in the body. The Implications section names what this paper contributes to threshold work without proposing values. The JECFA 0.200 mg/kg figure is reported as a paper-stated reference value, not as a proposed HMTc threshold.
-
-12. **Speciation flagging clarified.** The paper directly speciates Asi, DMA, MMA via HPLC–ICP-MS. `metals:` correctly includes both `iAs` and `tAs`. Methods section explicitly notes that the UK rows report ΣAs (speciation sum) while the US FDA rows additionally have an acid-digested total-As column.
-
-Preserved from prior revision: `cite_key`, `doi`, `evidence_tier`, `license`, `access_url`, `pdf_url`, `raw_sha256`.
-
-### Audit application (2026-05-17)
-
-Fresh-context audit editorial review verdict: REVISE. Each ❌/⚠️ finding independently verified by re-reading Table 1, Table 2, Table 3, and the relevant prose against the source PDF. Applied:
-
-- **Manufacturer-code listing for rice crackers corrected.** Previously written as "spanning M001, M005–M021" which implied a contiguous range. Source Table 1 rice-cracker section lists 15 codes: M001, M005, M006, M009, M011, M012, M013, M014, M015, M016, M017, M018, M019, M020, M021 — non-contiguous. Replaced with the full list.
-- **"~2%" / "~1%" hedges removed.** Source §3.2 and §3.3 state "2% of the rice cereal samples" and "1% of the rice crackers samples" without hedging. Wiki now matches exact source wording.
-- **Table 3 baby-rice US ΣAs range corrected.** Wiki previously wrote "(0.111–0.262)" — this value does not appear in Table 3; it was a transposition from Table 2's baby-rice organic-milled ΣAs cell. Source Table 3 prints "0.215 (0.550–0.341)" — itself an apparent source typo where the range upper bound (0.341) is less than the lower (0.550). Page now matches the source typo and flags it inline with `[sic]` and a likely-intended-value note keyed to the total-As column bounds.
-- **Table 3 rice crackers UK Asi range corrected.** Source Table 3 prints "(0.018–0.201)"; wiki previously transcribed "(0.018–0.211)" — a one-digit transposition in the upper bound. Fixed.
-- **Methods microwave-heating program clarified.** Source §2.1 describes three ramp/hold pairs: 55 °C ramp 5 min + 10 min hold; 75 °C ramp 5 min + 10 min hold; 95 °C ramp 5 min + 30 min hold. Wiki's prior compressed notation incorrectly implied a 5-min hold at 55 °C. Rewritten as full ramp-and-hold sentence.
-
-Audit findings reviewed and not applied (false positives — disproved by direct source re-read):
-
-- **Table 2 baby-rice organic-milled n=9 Asi range.** Audit claimed the wiki's "(0.024–0.120)" should be "(0.087–0.141)" and that (0.024–0.120) was the DMA range for that row. Source verification: the Table 2 DMA column for organic-milled baby rice (n=9) shows a dash "—" (DMA not reported), and the Asi column directly reads "0.107 (0.024–0.120)". The audit's (0.087–0.141) value does not appear anywhere in Table 2; the audit appears to have hallucinated it. Wiki value is correct per the source table.
-- **Table 2 rice-crackers non-organic whole-grain n=2 Asi range.** Audit claimed "(0.018–0.211)" should be "(0.018–0.245)". Source Table 2 row for non-organic whole-grain rice crackers (n=2): Asi 0.081 (0.018–0.211), ΣAs 0.098 (0.018–0.245). The audit conflated the Asi and ΣAs column values. Wiki value matches the Asi column correctly.
-- **Table 2 rice-crackers organic whole-grain n=52 Asi median.** Audit claimed wiki's "0.121 (0.048–0.195)" should be "0.150 (0.06–0.328)" — same false-positive pattern. Source Table 2 row: Asi 0.121 (0.048–0.195), ΣAs 0.150 (0.06–0.328). Wiki value matches the Asi column correctly. (This is also the value the paper's §3.3 prose cites for the organic-vs-non-organic Asi comparison in rice crackers, providing internal corroboration.)
-- **Baby rice "highest-Asi manufacturer (single brand) median 0.190 mg/kg" framing.** Audit flagged this as an attribution concern but then confirmed both the 0.190 value and the source attribution. The wiki framing correctly distinguishes Asi-concentration ranking (where M005 alone is highest) from Asi-percentage ranking (where M001/M003/M005 are jointly elevated). Not a correction; kept as written.
-
-Audit Checks 2, 3, 4, 5 returned ✅ or only minor ⚠️ already addressed above. Page is post-audit consistent with the source for all transcribed numerical values; the one remaining `[sic]` annotation surfaces a source-internal typo that Karen / downstream reviewers should be aware of.
+- [[products/...]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

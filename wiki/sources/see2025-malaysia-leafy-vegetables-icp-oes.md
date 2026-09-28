@@ -102,7 +102,7 @@ Health-risk equations: EDI = (E_f × E_D × F_IR × C_M × C_f) / (BW × T_A) ×
 
 **App:** Pak choi, cabbage, mustard greens, and spinach from Malaysian Klang Valley wet-market sources: Cd, Cr, Cu, and Pb are data gaps under <0.004–0.01 mg/kg LODs in this single study; Al is a relevant analyte for spinach specifically. Geographic and market-channel context (urban wet-market sourcing from Selangor wholesale vs. near-farm sampling) is a key uncertainty flag — the app should not treat these non-detections as representative of all Malaysian or Southeast Asian leafy vegetables.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -114,31 +114,9 @@ Health-risk equations: EDI = (E_f × E_D × F_IR × C_M × C_f) / (BW × T_A) ×
 - [[ingredients/leafy-greens]]
 - [[ingredients/spinach]]
 - [[ingredients/cabbage]]
-
-Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is an alias on that page; no dedicated mustard-greens ingredient page in the current taxonomy). Pak choi (*B. rapa* var. *chinensis*) likewise routes via [[ingredients/leafy-greens]] / [[ingredients/leafy-vegetables]] in the absence of a dedicated pak-choi ingredient page; auto-stub at freq ≥ 2 will surface the slug if the corpus accumulates sufficient pak-choi-specific evidence.
-
-## Verification notes
-
-- 2026-05-20 — Merge-enhance pass against the source PDF (the archived source file). Prior page version (updated 2026-05-13) had several defects that have been corrected here:
-  - `metals:` previously listed `[Al, Cd, Cr, Pb, Fe]` — missing Cu, even though the paper measures six metals (Al, Cd, Cr, Cu, Fe, Pb) and Table 1 reports Cu as ND <0.01 mg/kg across all vegetables. Updated to `[Al, Cd, Cr, Cu, Fe, Pb]`.
-  - `raw_path:` was truncated to `…Malaysi.pdf`; corrected to the full filename `…Malaysian Wet Markets.pdf`.
-  - `raw_handle:` was the generic `manual-fetch-source-retrieval`; updated to the specific `MFK_heavy-metals-assessment-in-selected-leafy-vegetabl` form per current convention.
-  - `matrices:` previously listed `[leafy-vegetable, fresh-weight]`; `fresh-weight` is a basis, not a matrix, and has been removed. Native basis is documented narratively (fresh weight throughout).
-  - `ingredients:` previously contained broken wikilinks `[[ingredients/mustard-greens]]` (alias on `leafy-greens`, not a page) and `[[ingredients/pak-choi]]` (no page). Replaced with `[[ingredients/leafy-greens]]` (which already aliases mustard-greens) and noted both species' routing destination explicitly in the Wiki pages section.
-  - `products:` previously empty (`[]`), triggering the products-missing routing advisory in `routing_malformed.csv`. Populated with `[spinach, leafy-vegetables-other]` — the two existing HMTc-locked Row 4 / Row 5 product pages that this paper provides direct context for. No new product pages were created (Step 0 Lock remains Karen's call).
-  - Prior Key-numbers table cell for "Pb Malaysian limit" read `0.3 (Malaysian Food Reg. 1985)` — but Table 1 of the source explicitly prints `N/A` for the Pb Malaysian column. Corrected to `N/A`. The 0.3 figure shown in the prior version was a conflation with the FAO/WHO leafy-vegetable Pb limit; only the Cd row of the paper's Table 1 carries a Malaysian limit value (1.0 mg/kg, MFR 1985 14th Schedule).
-  - Replaced legacy `## Wiki pages updated on ingest` heading with `## Wiki pages this source may touch` per current schema.
-  - Added full Table 2 (EDI) and Table 3 (THQ/HI) transcriptions so downstream synthesis can read every value rather than the narrative summaries in the prior version.
-- Source-internal anomaly preserved (not a wiki defect): Table 2 of the source prints the Al "Total EDI via consumption of selected leafy vegetables" as 3.123 × 10⁻³, but the sum of the per-vegetable Al EDI values is 3.123 × 10⁻² (one decimal order higher). The latter value is independently confirmed by the source's reported Al GTHQ (0.03123, page 228), since RfD(Al) = 1 makes the Al GTHQ numerically equal to the Al total EDI. The 3.123 × 10⁻² figure has been reported above; the table-vs-sum discrepancy is a paper-internal typo, not a data-integrity stop condition.
-- Pb permissible limit text-vs-table: the source's prose ("the permissible limits of 0.3 and 2.0 mg/kg (FAO/WHO, 2014)") cites two values for Pb, while Table 1 prints only 0.3 for the FAO/WHO column. The 0.3 mg/kg figure is the Codex CXS 193 leafy-vegetable Pb maximum level (the row-specific limit relevant here); the 2.0 figure appears to be a non-leafy or legacy reference and is not the leafy-vegetable Codex limit. The 0.3 value is used in the wiki Key-numbers table, matching the source's Table 1.
-- Speciation discipline: the paper measures total Cr (ICP-OES, no Cr-VI separation) and does not measure As or Hg at all. `metals: [Cr ...]` is correct (not Cr-VI). No speciation flags required.
-- Brand firewall: no brand names appear in the source or this page; the paper samples market-level vendor lots without brand attribution.
-- Routing: `products: [spinach, leafy-vegetables-other]` routes this source as broad context to both Row 4 (clean benchmark) and Row 5 (higher-contamination sibling) of the HMTc fruits-and-vegetables category. `matrices: [leafy-vegetable]` retained; `fresh-weight` removed as it is a basis label, not a matrix.
-- 2026-05-20 — Fresh-context audit editorial review (verdict REVISE) flagged three findings; all three were verified against the source and corrected:
-  - ❌ Check 2: `[[metals/aluminium]]` (British spelling) — verified against the taxonomy snapshot (line 50) and the linked reference record: the canonical slug is `aluminum` (US spelling). Corrected to `[[metals/aluminum]]`.
-  - ⚠️ Check 5: "Al EDI from spinach alone contributing ~12% of the adult Al PTWI-derived MTDI" — verified against PDF p.227: this 12% (adult) / 4% (children) figure is explicitly attributed by See et al. to Martín-León et al. (2023), not to their own data. Reattributed in the Courses Implication so the cited authorship is preserved.
-  - ⚠️ Check 5: "due to sourcing from cleaner growing regions (Cameron Highlands suppliers)" — verified against PDF p.217: the paper mentions Cameron Highlands as a supply region but does not conclude that the wet-market non-detections are caused by Cameron Highlands sourcing. Softened to factual mention without the causal "due to" framing.
-  - The auditor's ⚠️ on the Al Total EDI typo handling (Check 1) was explicitly noted as acceptable disclosure; no further action required.
+- [[ingredients/mustard-greens]]
+- [[ingredients/pak-choi]]
+- [[metals/aluminium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

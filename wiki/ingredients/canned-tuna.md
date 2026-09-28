@@ -177,7 +177,7 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Total mercury exposure through canned tuna in water sold in Quito, Ecuador]]<span class="hmi-ref-meta">Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/delima2021-metals-canned-tuna-sardines-brazil|Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil]]<span class="hmi-ref-meta">de Lima NV, de Padua Melo ES, Arakaki DG, Tschinkel PFS, de Souza ID, Ulbrecht MOO, et al. · Data in Brief · 2021 · [doi.org/10.1016/j.dib.2021.106865](https://doi.org/10.1016/j.dib.2021.106865)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -191,7 +191,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

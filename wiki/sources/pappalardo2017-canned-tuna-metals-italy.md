@@ -63,7 +63,7 @@ App: The highest mean tHg value was 0.480 mg/kg in one brine product, and the au
 
 Microbiome (if applicable): Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/canned-fish]]
 - [[products/seafood]]
@@ -72,10 +72,6 @@ Microbiome (if applicable): Not addressed.
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury]]
-
-## Verification notes
-
-The PDF title, byline, DOI, journal, year, Table I species labels, Table II metal concentrations, methods, method detection limits, and risk-assessment summary were read from the auto-fetched PDF. The auto-fetched filename was an olive-oil cadmium gap hit, but the routeable food matrix is canned tuna in olive oil or brine; no olive-oil contaminant concentration was measured separately. Mercury is reported as Hg by ICP-MS, not methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

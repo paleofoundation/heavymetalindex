@@ -70,7 +70,7 @@ Ferguson et al. modeled ingestion, dermal contact and inhalation of arsenic from
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/attard2022-heavy-metals-cosmetics-review|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Attard T and Attard E · Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) · 2022 · [doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Peer-reviewed</span>

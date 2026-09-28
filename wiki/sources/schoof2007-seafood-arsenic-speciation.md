@@ -56,15 +56,6 @@ The review assembled total arsenic and arsenic-speciation data from `20` publish
 
 This source is useful for routing seafood arsenic evidence because it preserves total arsenic and inorganic arsenic in the same wet-weight table, with separate review summaries for DMA and MMA. The source-reported percentiles are review-summary descriptors from Schoof and Yager's assembled dataset; they are not HMTc aggregate percentiles and should not be treated as certification thresholds. Downstream extraction should keep fish, freshwater fish, marine fish, crustaceans, and molluscs separated where row fit matters.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/f3_resolve_texts/schoof2007.txt`; the abstract, seafood-consumption section, Tables 3-5, and discussion of the inorganic-arsenic adjustment were checked.
-- DOI `10.1080/10807030701506454`, raw handle `MFK_schoof2007`, and cite-key checks found no existing source page before creation.
-- Units are preserved as source-reported `ng/g, ww`, `ng/g ww, as As`, `g/day`, and percentages; no conversion was performed.
-- Speciation: total arsenic and inorganic arsenic remain separate. DMA and MMA are documented in Key numbers as organic arsenic species and are not counted as inorganic arsenic.
-- Brand firewall: the review reports category and literature-study summaries, not retail brand contamination values.
-- source metadata slugs were checked against the editorial record; narrow slugs for crustaceans as a standalone ingredient/product are absent, so the source is routed through broad seafood and shellfish slugs.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

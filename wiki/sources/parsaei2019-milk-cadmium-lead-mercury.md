@@ -49,23 +49,13 @@ Courses: Useful for teaching seasonal variance and animal-species differences in
 
 App: Can inform dairy ingredient priors with geography and raw-milk caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/category-5-beverages]]
 - [[ingredients/milk-and-dairy]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-Mercury is total mercury. The source should not be used as methylmercury evidence.
-
-The raw_handle was minted as "AUTO_ing-human-milk-thg-..." by the fetch pipeline, but this paper contains zero human milk data — all 1100 samples are livestock milk (bovine, ovine, caprine, buffalo, camel). The handle is a misnaming artifact of the upstream fetch query; the wiki page is correctly classified as a livestock raw-milk source. Flagged for handle re-mint at the next fetch-pipeline cleanup.
-
-The source reports detection limits in mg/L (0.11 mg/L Hg, 0.041 mg/L Cd, 0.039 mg/L Pb on p. 4312), but the reported sample minima (e.g., Cd 0.06 ppb, Pb 0.12 ppb, Hg 1.03 ppb) are several orders of magnitude below those LODs. Combined with the "values below detection limit set to half that level" sentence in Statistical Analysis, this strongly indicates the source intends µg/L (i.e., 0.11, 0.041, 0.039 ppb LODs), with mg/L printed in error. Downstream synthesis should treat the LODs as µg/L unless contradictory evidence appears.
-
-Source Table 4 ("Standard allowed limit concentrations") prints Pb 0.01 and Hg 0.5 with the column header "Standard allowed limit (ppb)." These figures are clearly unit-confused relative to actual regulatory limits (e.g., Codex/EU lead in raw milk is in the 0.02 mg/kg = 20 ppb range, not 0.01 ppb). Do NOT pull regulatory ceilings from this source's Table 4; consult primary regulatory texts on the regulation pages instead.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

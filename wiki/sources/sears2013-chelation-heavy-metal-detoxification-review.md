@@ -136,45 +136,6 @@ The review does not declare PRISMA-style inclusion/exclusion criteria, risk-of-b
 - Some claims about animal studies are reported without sample-size or dose detail (the Sun-Microbiology cadmium-DMSA mouse comparison, the DMSA-versus-DMPS animal-brain methylmercury comparisons). Downstream uses should trace to the named primary citations (e.g., Andersen & Nielsen 1988, ref 83) before propagation.
 - The TACT trial is described in terms of the primary composite endpoint but the source notes that urinary excretion of toxic elements was not assessed during the trial — i.e., the mechanism by which the EDTA arm achieved the cardiovascular benefit is not characterised in the paper. Subsequent commentary (ref 112) raised methodological concerns that the review does not adjudicate.
 
-## Wiki pages this source may touch
-
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/arsenic-inorganic]]
-- [[metals/arsenic-total]]
-- [[metals/mercury-methyl]]
-- [[metals/mercury-total]]
-- [[metals/tin]]
-- [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-**Existing-page check.** DOI grep (`10.1155/2013/219840`), raw_handle grep (`MFK_19-chelation-harnessing-and-enhancing-heavy-metal-`), and cite-key glob (`sears2013-*`) over the linked reference record on 2026-06-08 returned no hits. This is a NEW source page with no prior version to merge-enhance.
-
-**Evidence tier.** B (peer-reviewed narrative review). The paper reports no primary measurements, declares no systematic search strategy, and offers no risk-of-bias assessment. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither. The author is a credentialed researcher at a major paediatric research institute and the review is the canonical reference for North American clinical chelation practice circa 2013, which supports B over C.
-
-**Metals source metadata.** The review explicitly discusses Pb, Cd, As (with both speciated iAs in the context of DMSA's documented removal of "inorganic mercury" and "inorganic arsenic" exhaust mechanisms, and unspeciated As elsewhere), Hg (with both MeHg in the explicit methylmercury removal discussion and tHg elsewhere), Cr (mentioned only in the IARC carcinogen classification context, not as a chelator target), Sn (listed in the DMSA Table 1 elements-chelated column), Cu, Zn, Ag, Au, Se, Mg, and Ca (in the chelator/essential-mineral interaction discussion). From the HMTc 10-analyte priority list, Pb, Cd, iAs, tAs, MeHg, tHg, and Sn are recorded in `metals:`. Ni and Al are not discussed as primary review topics and are omitted. Cr-VI is not separately discussed (Cr appears only in carcinogen-classification context) and is omitted. Cu, Zn, Ag, Au, Se, Mg, Ca are out of the HMTc analyte vocabulary and are not added.
-
-**Ingredients, products, matrices source metadata.** All empty. The review measures nothing in any food, beverage, personal-care, or environmental matrix; it surveys clinical and dietary detoxification options without primary sampling. Garlic, broccoli, cilantro, bran, and modified citrus pectin + alginate are *discussed as candidate detoxification adjuncts* but no occurrence or exposure measurements appear; routing these to ingredient pages would misrepresent the source as occurrence-side evidence.
-
-**Jurisdictions.** US and CA. The review is funded by Canadian Institutes of Health Research; the author is Canadian; the clinical-toxicologist survey is Canadian. The review cites US regulatory agencies extensively (FDA, EPA, NIH, CDC, IARC, ATSDR) and the principal clinical trials discussed are US (TACT, Cincinnati cohort, Adams) or US-cited (Lin et al. Taiwan, reported in NEJM and *Kidney International*). Recording both US and CA as in-scope jurisdictions.
-
-**Sample size.** Null. This is a review with no sampling frame of its own.
-
-**Brand firewall (Part 12).** The pharmaceutical-chelator Table 1 retains trade names (Chemet, Succicaptal, Endrate, Cuprimine, Depen, etc.) because the table catalogues drug-label vocabulary for the chelating agents — agents-of-treatment, parallel to instrument vendor names in a Methods section under the 2026-05-17 Exception 2 reading. The trade names attach to the chelators (the "instruments" doing the detoxification) and not to any contamination value of a sampled consumer product, which is what Part 12 targets. No other brand names appear in the review body. No firewall action required.
-
-**HMTc firewall (Part 2).** The review contains no HMTc-threshold language and no claims of "consistent with the literature consensus that..." framing. It includes consumer-adjacent clinical practice recommendations ("Mineral status must be monitored during chelation therapy"; "Pharmaceutical chelating agents may also be considered, to assist with mobilization and excretion") but these are scoped to the clinical-management context of a patient already in chelation therapy, not consumer-audience risk advisories about contaminated foods. The review is upstream of any HMTc rationale tagging.
-
-**Speciation discipline.** The review consistently distinguishes inorganic arsenic from methylmercury in the toxicology framing (IARC classifications of "inorganic lead a probable carcinogen, and methylmercury a possible carcinogen"). It uses unspeciated "Hg" and "mercury" in the chelator-table elements-chelated column and in some clinical narrative. To avoid overspecification in the source metadata, both `iAs` and `tAs` are recorded (the review discusses both inorganic As as a target of DMSA/DMPS chelation and As broadly), and both `MeHg` and `tHg` are recorded (the review explicitly discusses methylmercury removal from animal brains and unspeciated mercury elsewhere).
-
-**Reviewer note on scope fit.** This paper is in scope per the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The folder context (`heavy_metals_peptides` under `Kimi_Agent_Black Market Peptide Metal Survey`) indicates the curation intent is peptide-mediated metal binding and detoxification; this review's emphasis on endogenous peptide chelators (glutathione, metallothionein) and the cysteine/sulfhydryl-coordination chemistry of DMSA/DMPS/BAL/penicillamine is the direct fit. It is not an occurrence study and contributes nothing to HMTc threshold-setting work, which is recorded accurately in the Implications section.
-
-**Date arithmetic.** Received 15 February 2013, accepted 14 March 2013, published 2013 — consistent with year source metadata. Article DOI 10.1155/2013/219840 resolves to *The Scientific World Journal* Volume 2013, Article ID 219840, 13 pages.
-
-**Open-access license.** The paper is published by Hindawi Publishing Corporation under the Creative Commons Attribution License (the source text states "open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited"). The license version is not numbered in the source masthead; recorded as CC-BY-3.0 because Hindawi's standard CC-BY policy in early 2013 was version 3.0. If a future audit determines the actual license was CC-BY-2.0 or unversioned, update accordingly.
-
-**Audit editorial review (2026-06-08) verdict: PROMOTE.** Five checks (numerical fidelity, slug vocabulary, speciation/methods, brand firewall, HMTc firewall) all returned ✅. One ⚠️ on the `[[mitigation/remediation-evidence]]` wikilink — the auditor noted this slug is outside the taxonomy snapshot's four-category vocabulary (Ingredients/Products/Metals/Regulations) and asked Karen to confirm the target page exists. Verified independently in the same ingest session: the linked reference record exists in the the linked reference record subtree, which is the same legitimate routing destination the sibling peptide-folder pages (luo2024, etc.) target under the 2026-06-02 commit `3f47f95 — scope: mitigation/remediation is in-scope, not a skip`. The taxonomy snapshot's closed list is automated editorial review's drafting vocabulary, not the wiki's exhaustive section index. No content corrections applied; the ⚠️ is a snapshot-scope artefact, not a defect in this page.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

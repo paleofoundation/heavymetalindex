@@ -114,7 +114,7 @@ Courses: Useful as a worked example of how waste-stream composition (specificall
 
 Certification: This paper does not contribute to food or personal-care occurrence data and should not influence HMTc threshold work. It supports environmental-exposure narrative for the ten measured metals when discussing pathways from waste streams into receiving waters and soils.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/mercury]]
@@ -126,22 +126,6 @@ Certification: This paper does not contribute to food or personal-care occurrenc
 - [[metals/cobalt]]
 - [[metals/aluminum]]
 - [[metals/iron]]
-
-## Verification notes
-
-The PDF is the published version-of-record from MDPI Toxics 2025, 13(5), 370, CC BY 4.0; DOI 10.3390/toxics13050370. Title, author roster, affiliations, publication metadata, received/revised/accepted/published dates (6 March / 9 April / 27 April / 2 May 2025), and academic-editor list match the title page. The 18-column experimental design is given in Table 1 and Figure 5 and was verified across §2.4, §3.1, and §3.3. Funding is acknowledged from the NSW Environmental Trust project G G1600460 and the University of Newcastle.
-
-Week-13 leachate concentrations transcribed in the Key numbers table above are taken verbatim from Table 2 of the paper. The Zn column header in Table 2 prints as "20,0" µg/L — this is a typographical artefact: the §3.2 narrative confirms the AU-NZ fresh-water guideline for Zn is 20 µg/L, and the recorded values (e.g., 186.4 µg/L at 5/0) substantially exceed that guideline. The "<RL" (below reporting limit) entries for Hg are reproduced as printed; reporting-limit numerical values are not stated in §2.6 beyond "ICP-MS … parts per trillion (ppt)" trace sensitivity. The single highest concentrations identified in §3.2 (102.4 mg/L Al at 20/15, 516.0 µg/L Zn at 15/15, 187.2 µg/L As at 20/10, 121.4 mg/L Fe at 15/15) match Table 2.
-
-Metals scope: the paper measures ten total metals only (Pb, Hg, As, Cr, Ni, Cu, Zn, Co, Al, Fe) and does not measure cadmium. The `metals:` source metadata lists Pb, tHg, tAs, Cr, Ni, Cu, Zn, Co, Al, Fe. tHg and tAs are used because §2.6 describes ICP-MS quantification without species-specific extraction or hydride-generation steps; §3.2 explicitly references arsenic forms only in the discussion ("arsenic forms calcium arsenate hydrates"), not in the measured-species reporting. Cr is used (not Cr-VI) because no hexavalent-chromium speciation is reported.
-
-Matrices: `landfill-leachate` and `construction-demolition-waste` are added as new bare-string matrices for this paper. Both are conceptually adjacent to existing `_no_route` matrices (`sediment`, `wastewater`, `soil`) and should be added to the `_no_route` list of the structured evidence record so the routing layer correctly skips them. They are environmental matrices not directly tied to food or consumer-product surfaces; no `products:` or `ingredients:` slugs apply.
-
-Brand firewall (Part 12, Exception 2 — scientific-method vendor names): PerkinElmer NexION 350X ICP-MS, PerkinElmer Avio 200 ICP-OES, Agilent MassHunter 4.3 software, Mettler Toledo SevenCompact Duo S213 pH/conductivity meter, CertiPUR (Merck) multi-element standards, and Thermo Fisher / Sigma-Aldrich reagents are retained as scientific-reproducibility identifiers. No branded consumer products are named in the source. The single Material Recovery Facility used as the source of C&DW residues is anonymised in the paper ("a Material Recovery Facility within the Hunter/Central Coast sub-region") and is not named here. The Conflicts of Interest statement notes co-author Dawit Nega Bekele is employed by Douglas Partners Pty Ltd; that affiliation is reproduced in the authors list and at the affiliation level only, not attached to any contamination value.
-
-No HMTc threshold proposals, consumer-audience translations, or cross-source synthesis claims are made on this page.
-
-Audit editorial review (2026-06-02) flagged a row-attribution slip on the highest-As callout: the narrative said "20% C&DW + 10% gypsum" but Table 2 places As 187.2 ± 4.84 µg/L at the 20% C&DW + 15% gypsum row (20/10 has As 174.7 ± 1.60). Verified against the Table 2 transcription above; corrected to 20/15. The paper §2.6.5 prints statistical significance as "p < 0.5" which is a paper-side typo for the conventional p < 0.05; the Methods section above uses p < 0.05 as Molla et al. clearly intended.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

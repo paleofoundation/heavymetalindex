@@ -88,41 +88,15 @@ Statistics: General Linear Modeling (GLM) using Minitab v.16; residuals tested f
 
 The source supports rice mitigation context for iAs reduction by cooking-water management. Findings should be reported with the cooking-water regime (water:rice ratio, percolating vs static, distilled vs tap) preserved, because both percentage-removal and final cooked iAs vary substantially with the regime. The paper measures rice as a raw grain commodity cooked in a laboratory or domestic setting; it does not measure or test commercially manufactured infant rice cereal or rice-based plant milk, so any application of these removal percentages to manufactured rice products is downstream extrapolation, not direct evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-Page rebuilt 2026-05-28 from the source PDF (raw_sha256 5529a95f… matches the file currently at the `raw_path` above; this is the same PDF that backed the 2026-05-12 page). Defects in the prior 2026-05-12 revision corrected in this pass, with the source citations that justified each correction:
-
-- **Title** was a fabricated descriptive line ("Evaluating the effectiveness of filters and cooking procedures for reducing inorganic arsenic (iAs) in rice in the context of providing healthy food for infants"). Source p. 1 gives the actual title "Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water." Corrected.
-- **Authors** list invented a fifth author ("Price AH") who does not appear on this paper and used initials ("Carey AM") that do not match the source. Source p. 1 byline: Manus Carey, Xiao Jiujin, Júlia Gomes Farias, Andrew A. Meharg (four authors). Corrected.
-- **Geographic origins** in the prior Key numbers listed "UK, US, India, Pakistan, Bangladesh" as sample origins. Source p. 2 Materials and Methods → Rice sourcing explicitly enumerates Spain (11), Italy (6), Thailand (5), USA (5), generic EU (2), France (2), Egypt (1), Japan (1), Australia (1), Lebanon (1), Pakistan (1), Turkey (1). India and Bangladesh are mentioned only as a literature comparison in the Introduction, not as sample origins. Corrected; `jurisdictions` now lists UK as market plus the actual country-of-origin codes.
-- **Method-effect attributions** in the prior Key numbers stated "Conventional absorption cooking: retains approximately 90% of raw grain iAs" and "High-volume water drain method: retains approximately 70% (~30% reduction)." This paper did not test a static-absorption protocol or a drain-the-water protocol; its three experiments were the controlled-ratio reflux experiment (3:1/6:1/12:1, no water discarded), the Soxhlet recycled-distillation experiment, and the coffee-percolator experiment, all percolating-water designs. The 30% and 45% reductions for traditional Asian "rinse-and-discard" cooking are cited from prior literature in the Introduction (refs 8 and 10), not measured here. Corrected; the prior absorption/drain claims removed and the actual three-experiment results substituted with their source-reported percentages and ranges.
-- **Analytical method** was given as "HPLC-ICP-MS." The paper uses ion-chromatography ICP-MS (Thermo IC5000 IC system + iCAP Q ICP-MS, AS7 column, ammonium-carbonate gradient), not reversed-phase HPLC. Corrected.
-- **source metadata `products`** was `[[products/baby-cereals-dry-rice-based]]`. This paper measures rice as a raw grain commodity prepared by various cooking methods; it does not measure commercially manufactured baby cereal. The Discussion section (p. 10) speculates that the percolating-cooking approach could be applied in baby-rice manufacture, but no baby-cereal product is tested. Changed to `[[products/rice-bulk-grain]]`, which matches what the paper actually measures and matches the routing used by [[sources/pogoson2020-rice-cooking-cadmium-arsenic]] (same Belfast retail-rice cohort, same lab).
-- **source metadata `metals`** now includes `DMA` because DMA was speciated alongside iAs and reported (cooking does not significantly remove DMA — a finding-bearing result for downstream synthesis). `tAs` retained for total arsenic.
-- **source metadata `raw_path`** was the archived source file (a path that does not exist). Updated to the verified location at the archived source file. SHA-256 unchanged and matches the file at the new path.
-- **source metadata `raw_handle`** was missing; added `auto-fetched` to match the discovery-pipeline convention used by sibling auto-fetched pages.
-- **source metadata field rename** `sha256` → `raw_sha256` to match the current v2 schema (e.g., `dehghani2020-food-lead-cadmium-mspe`).
-- **Legacy section** `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per v2 schema; the prior body of that section listed `[[mitigation/cooking-methods-arsenic]]`, which is not in the current taxonomy and was removed.
-- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
-
-Audit editorial review (2026-05-28) flagged the following; verified against source and applied or rejected:
-
-- **3:1 / 6:1 ratio attributions** were transposed in the initial 2026-05-28 ingest. Source p. 6 ¶1: "This figure for all rice was 29±5% and 29±4% at ratios of 3:1 and 6:1 respectively." Verified — corrected so 3:1 = 29±5% and 6:1 = 29±4%.
-- **Soxhlet thimble dimensions ("8 cm × 3.5 cm")** were fabricated in the initial 2026-05-28 ingest. Source p. 3 (Cooking… recycled through condensation) states "accurately weighed (2g) into a VWR Soxhlet thimble and was then placed into an 25cm long and 3.5cm diameter Quickfit Soxhlet" — only the Quickfit Soxhlet has stated dimensions, not the thimble. Verified — invented thimble dimensions removed; the 25 cm × 3.5 cm dimensions now correctly attached to the Quickfit Soxhlet body.
-- **Uncooked rice iAs range under-stated.** editorial review observed that Fig 3 (coffee-percolator subset) shows higher uncooked iAs than the Fig 1/Fig 2 subsets cited in the original ingest — polished reaches ~0.23 mg/kg and wholegrain ~0.46 mg/kg in Fig 3. Verified — ranges extended and Fig 3 added to the citation.
-- **AG7 guard column dimensions omitted.** Source p. 4 specifies "AG7, 2x50mm guard column"; verified and added.
-- **Source-internal sample count inconsistency.** The PDF p. 2 country-of-origin enumeration sums to 37 (2 EU + 11 ES + 6 IT + 5 TH + 2 FR + 1 EG + 1 JP + 1 AU + 1 LB + 1 PK + 1 TR + 5 US = 37), yet the paper repeatedly states the total is 41 (with 13 wholegrain / 28 polished). The discrepancy is internal to the source — the inline enumeration omits 4 packets — and is presumably reconciled in the S1 Table sample description. Flagged here; the wiki transcribes the paper's stated total of 41 and the paper's inline country list, without attempting to silently reconcile.
-- **`DMA` metals-vocabulary extension.** The system-prompt metal abbreviation list (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) does not include DMA. DMA is included here because the paper centrally speciates DMA and reports a finding-bearing result on it (cooking does not significantly remove DMA). Flagged for taxonomy-vocab review.
-- **`matrices` sub-variants (`polished-rice`, `wholegrain-rice`, `cooked-rice`)** flagged as possibly off-vocab by the audit editorial review; verified against [[sources/pogoson2020-rice-cooking-cadmium-arsenic]] which uses the same lab's `polished-rice`, `cooked-rice` and `pre-soaked-rice` matrices entries — finding is a false positive in light of established same-lab precedent. No correction applied.
-- **`jurisdictions` mixed market/origin semantics** flagged by the audit editorial review; the intent is already explained in the `sample_population` field and in the existing Verification-notes geographic-origins entry — finding is a false positive against existing documentation. No correction applied.
-- **`tAs` in metals source metadata** flagged as borderline by the audit editorial review; retained because total arsenic is implicitly available as the sum of iAs + DMA + minor species and is reportable to downstream routing as a derived total. No correction applied.
+- [[products/baby-cereals-dry-rice-based]]
+- [[sources/pogoson2020-rice-cooking-cadmium-arsenic]]
+- [[mitigation/cooking-methods-arsenic]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

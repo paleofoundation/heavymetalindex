@@ -107,7 +107,7 @@ Courses: The paper is useful for separating total metallic lead in tissue, bioac
 
 App: The source can support explanatory game-meat cards about lead-fragment dissolution, while warning that wound-channel samples are not the same as ordinary retail or served portions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[ingredients/meat]]
@@ -115,17 +115,6 @@ App: The source can support explanatory game-meat cards about lead-fragment diss
 - [[ingredients/organ-meats]]
 - [[products/game-meats]]
 - [[regulations/efsa-lead-contam-2010]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_583.txt`; the article identity block, Summary, CT/sample-collection methods, lead-analysis methods, in vitro simulation methods, Tables 1-5, Results and Discussion, Summing up, and references were checked against this page.
-- DOI `10.26502/jatr.47`, title text, raw handle `MFK_lead-in-game-meat-a-study-of-bioaccessibility`, and candidate cite-key `qvarfort2025-game-meat-lead-bioaccessibility` were searched before creation; no existing source page was found.
-- Numerical values are copied without unit conversion. Table 4 preserves the source's printed decimal comma in `0,19`; Table 5 preserves `<0.05`.
-- Source-internal inconsistencies are retained rather than reconciled: the identity block prints an impossible accepted/published sequence; the abstract/Summary say less than `2%` and mean `0.5%`, the Results prose says `0.13 to 2% (mean 0.98 %)`, while Table 4 includes `2.38`; Results prose says Object 2 total lead ranges `14` to `590 mg/kg ww`, while Table 4 includes `3.7`, `12`, and `13` plus the `0.097` neck-tissue control.
-- Table 1 literature-review rows are recorded only as transported context and are not treated as this source's own occurrence dataset.
-- Speciation: the source concerns metallic elemental lead fragments and dissolved/bioaccessible lead compounds from those fragments. No arsenic, mercury, chromium, or organotin speciation is involved.
-- Brand firewall: ammunition model names printed in table headings and methods were not attached to contamination values on this page. Instrument and laboratory details are scientific-method context.
-- source metadata slugs were checked against the editorial record. The taxonomy has `game-meats` as a product slug but lacks exact `wild-boar-meat` or `game-meat` ingredient slugs, so ingredients route through broad `meat`, `meat-and-poultry`, and `organ-meats`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

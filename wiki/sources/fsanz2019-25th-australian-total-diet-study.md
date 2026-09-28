@@ -107,7 +107,7 @@ Several risk-characterisation statements are FSANZ's own source-side conclusions
 - App: Supports broad exposure context for seafood-driven total arsenic and methylmercury, rice-driven inorganic arsenic, and root-vegetable/grain-driven cadmium. It does not provide an ingredient-level distribution for every food in the basket.
 - Microbiome: Not a primary microbiome source.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
@@ -126,15 +126,6 @@ Several risk-characterisation statements are FSANZ's own source-side conclusions
 - [[products/fresh-fish]]
 - [[products/canned-fish]]
 - [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]
-
-## Verification notes
-
-- Codex merge-enhanced this page on 2026-05-18 from manual-fetch PDF P0160. The P0160 PDF SHA-256 (`529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f`) is byte-identical to the earlier raw report path the archived source file; this is a provenance merge, not a true duplicate conflict.
-- Legacy wording said "half the LOR used" for all non-detects. Source methods instead use lower-bound nd=0 and upper-bound nd=LOR scenarios for metal dietary exposure, while international comparison tables may use source-specific middle-bound values for comparator datasets. Methods and Key numbers were corrected accordingly.
-- The cadmium dietary-exposure paragraph on p. 42 reports the upper-bound P90 range as "8.8-20 µg/kg bw/day" while the section, PTMI comparator, and adjacent values are monthly. This page records the printed range and flags the unit conflict rather than silently normalizing it.
-- The source's "acceptably low," "not of concern," and fish-consumption-benefit statements are source-side FSANZ risk characterisation. This source page frames them as FSANZ findings and avoids consumer advice or HMT&C threshold recommendations.
-- No sampled product brands are named in this page. Scientific-method laboratory/vendor names are retained only where needed for reproducibility and fall under the Part 12 methods exception.
-- Fresh-context audit (Codex, 2026-05-18) found the page numerically clean and firewall-clean, but flagged `iHg` as missing from the GPT metal vocabulary. The source page keeps `iHg` because FSANZ measured inorganic mercury separately (pp. 56-57); the vocabulary was updated to permit `iHg`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

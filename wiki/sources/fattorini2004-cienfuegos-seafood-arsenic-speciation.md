@@ -59,15 +59,6 @@ Samples were collected from Cienfuegos Bay `15 days` after the December `2001` a
 
 This source provides seafood arsenic occurrence context under an acute contamination scenario, especially for fish muscle in Bahia where total arsenic and inorganic arsenic percentages were both high. It should not be pooled silently with market-basket seafood benchmarks because the samples were collected immediately after a known industrial release. Downstream use should keep total arsenic and inorganic arsenic separate, and should treat algae rows as environmental monitoring context unless a later routing pass establishes edible-seaweed relevance.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; the abstract, methods, Results paragraphs, Table 1, and Figure 1 caption were checked in `/tmp/f3_texts/fattorini2004.txt`.
-- DOI `10.1016/j.marenvres.2004.03.103`, raw handle `MFK_fattorini2004`, and cite-key checks found no existing source page before creation.
-- Table 1 values were copied as source-reported dry-weight values; no conversion to wet weight, mg/kg, or edible-portion basis was performed.
-- Speciation: inorganic arsenic percentages are reported only for selected rows and are kept separate from total arsenic. Rows without speciation percentages are not treated as inorganic-arsenic values.
-- Brand firewall: no retail brands or commercial product labels are reported.
-- source metadata slugs were checked against the editorial record; narrow species slugs for snapper, jacks, bonefish, croaker, blue crab, and shrimp are not available, so broad seafood/fish/shellfish routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

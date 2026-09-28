@@ -49,7 +49,7 @@ Nickel was measured in muscle meat with ICP-MS, using certified reference materi
 
 The source supports nickel occurrence context for Italian poultry, beef, and pork. It is stronger for broad meat-category routing than for a specific infant-food row because the samples are general-market muscle meats, not prepared baby foods.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/poultry-product]]
 - [[products/processed-meats]]
@@ -57,11 +57,6 @@ The source supports nickel occurrence context for Italian poultry, beef, and por
 - [[ingredients/beef]]
 - [[ingredients/meat]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.4081/ijfs.2025.13840 and the downloaded PDF.
-- Table 1 is the concentration source; exposure estimates are kept as context and not substituted for occurrence values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

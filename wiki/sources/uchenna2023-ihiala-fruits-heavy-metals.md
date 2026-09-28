@@ -46,7 +46,7 @@ The authors used market sampling, questionnaires, and laboratory analysis. Stati
 
 The source supports fresh-fruit occurrence context for Nigerian market fruit. The source reports aggregate means rather than a clean pineapple-only table in extractable text, so fruit-specific routing should preserve that limitation.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fresh-fruit]]
 - [[ingredients/pineapple]]
@@ -54,11 +54,6 @@ The source supports fresh-fruit occurrence context for Nigerian market fruit. Th
 - [[metals/arsenic-total]]
 - [[metals/lead]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.3126/josem.v2i1.53113 and the downloaded PDF.
-- The extractable table gives aggregate fruit means; no brand/vendor identifiers were transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

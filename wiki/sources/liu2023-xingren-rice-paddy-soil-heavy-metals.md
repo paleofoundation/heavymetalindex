@@ -86,7 +86,7 @@ App: Useful for explaining that a soil's highest total contaminant is not always
 
 Courses: Useful for teaching rice-specific soil-plant transfer, Tessier fraction interpretation, total-versus-speciated analyte rules, and how health-risk outputs depend on exposure assumptions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/rice-bulk-grain]]
 - [[ingredients/rice]]
@@ -99,18 +99,6 @@ Courses: Useful for teaching rice-specific soil-plant transfer, Tessier fraction
 - [[metals/zinc]]
 - [[mitigation/agronomic]]
 - [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the sampling section, chemical analysis methods, exposure-parameter Table 1, Figure 2 soil summary values, Tessier extraction/speciation discussion, RSP/RAC values, accumulation and transfer-factor results, Table 2 non-carcinogenic risk values, Table 3 carcinogenic-risk values, discussion, conclusion, and data-availability statement. The PDF extraction duplicates and overprints some lines, so table values were cross-checked against repeated captions and raw-text passages.
-
-Speciation guardrails: the source reports total As and total Hg, not inorganic arsenic or methylmercury. The source explicitly says its Cr concentration is total Cr even though it uses Cr(VI) toxicity factors for risk assessment; this page routes chromium as total/broad Cr and does not treat the study as Cr(VI) occurrence evidence.
-
-Paper-internal caution: Figure 2/table text shows Pb soil SD as 38.20 mg/kg in the repeated caption, while one prose extraction line renders 36.57 mg/kg. The repeated Figure 2 caption value is used here and the discrepancy is flagged rather than silently harmonized. The abstract/conclusion also refer to risk caused by ingesting "rice husk," although the methods state that husks were removed before grain analysis; this page treats the concentration values as dehulled rice-grain data because that is the stated analytical matrix.
-
-Matrices vocabulary note (added 2026-06-02 post-audit): the matrix strings `paddy-soil`, `dehulled-rice-grain`, `rice-root`, `rice-stem`, and `rice-leaf` extend the common matrices vocabulary documented in the editorial record. `paddy-soil` has precedent in five other source pages; the four rice-tissue matrices are shared with `seyfferth2025-rice-water-management-as-hg-cd`. They are retained here for analytical precision (the paper reports tissue-level transfer factors that the canonical `rice` matrix would erase). Flagging per the system-prompt rule that vocabulary extensions be surfaced.
-
-Audit (2026-06-02 v2 skill editorial review): verdict REVISE with two ⚠️ concerns. Concern on `[[mitigation/agronomic]]` and `[[testing/index]]` as out-of-snapshot wiki targets verified as a false positive — both pages exist in the linked reference record and the linked reference record; the taxonomy snapshot only enumerates ingredient/product/metal/regulation slugs by design and is not a complete cross-namespace target list. Concern on non-canonical matrices verified as partially correct and documented in the matrices-vocabulary note above. Numerical fidelity, speciation, brand firewall, and HMTc firewall checks were all ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

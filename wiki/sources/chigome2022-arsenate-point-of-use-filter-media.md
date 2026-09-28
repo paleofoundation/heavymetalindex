@@ -52,17 +52,11 @@ Courses: Useful for mitigation training on point-of-use arsenic removal, adsorbe
 
 App: Context-only mitigation evidence for arsenic-removal strategies.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[metals/arsenic-inorganic]]
 - [[testing/index]]
-
-## Verification notes
-
-Recovered under the 2026-06-10 inclusion-by-default rule from an earlier `skip:review-only-no-primary-data` disposition. That earlier skip was too narrow because the paper includes original nanocomposite adsorption and prototype filter-performance results, not just background review prose.
-
-Products and ingredients are intentionally empty because the matrix is prepared arsenate solution and prototype treatment media rather than a market product. Arsenic is tagged as `iAs` because the experiments specifically target `As(V)` arsenate rather than total arsenic.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

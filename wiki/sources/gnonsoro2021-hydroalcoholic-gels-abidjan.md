@@ -121,30 +121,7 @@ App: No food-occurrence data; do not route into any `contamination_profile` ingr
 
 Microbiome: No microbiome data in this source.
 
-## Verification notes
-
-**Provisional product-slug gap:** The paper's primary product matrix is "hydroalcoholic gels" (alcohol-based hand sanitisers, WHO type-1 biocidal product). No matching slug exists in the current taxonomy snapshot (2026-05-18). Closest extant slugs are `products/hand-soap` (rinse-off, different category) and `products/body-hand-leave-on-skin-care` (leave-on but skin-care-framed, not disinfectant-framed). Per task-scope constraints for this ingest, products: [] was left empty and a new-product-slug proposal is surfaced here for Karen's Step 0 Lock workflow. Proposed slug: `hydroalcoholic-gel-hand-sanitizer` (or `hand-sanitizer-alcohol-based-leave-on`), HMTc category pending taxonomy review. Pre-COVID literature is thin; the 2020 Abidjan market study is one of the early systematic measurements of metals in this product class and may sit as an early occurrence anchor if/when the row is locked.
-
-**Year/citation styling:** DOI 10.1007/s12011-021-02822-y was issued in 2021 (received 24 May 2021; accepted 6 July 2021; published online 7 September 2021); the print volume (Biological Trace Element Research vol. 200) carries 2022. Cite-key uses 2021 to match the DOI-issue year, the publication online date, and the source-retrieval-folder filename; the print-volume year is preserved in the `publication` source metadata string.
-
-**Brand firewall (, locked 2026-05-17):** The source repeatedly references "high-consumption brands" of hydroalcoholic gels sold in Abidjan supermarkets but does not name individual brand identities for the 30 sampled units; the bar charts (Figures 1 and 2) display sample-number 1–30 without brand attribution. No brand-stripping was needed in writing this page. Methods-section vendor names that ARE preserved per the 2026-05-17 carve-out for scientific reproducibility: Spectra A100 Varian spectrophotometer (Australia); GTA-110 graphite furnace; Milestone Ethos microwave digester; SHIMADZU UW4200H balance (Philippines); Lovibond SensoDirect 150 pH meter (Dortmund, Germany); Merck HNO₃; Normex Pb/Cd standards; Statistica 7.1 (2006). These are not Part 12 violations.
-
-**Wiki/HMTc firewall:** The source itself draws comparative conclusions against Health Canada and US FDA cosmetic limits and against other countries' shower-gel literature (Nigeria Iwegbue et al. 2016, Korea Duck et al. 2018). Those source-internal comparisons are preserved as the paper's own framing; this page does not synthesise across other wiki sources or propose HMTc thresholds. The Implications section names Hg-speciation as a future-certification requirement but does not quantify it.
-
-**Audit-trail note:** This is a fresh ingest (NEW path) from the source-retrieval corruption-issue folder `household_papers/01_AP_Countertop_Tile_Floor/`. PDF content was first-pages-verified against the filename promise before source metadata was committed (PDF title and authors match the Gnonsoro 2021 Côte d'Ivoire hydroalcoholic-gels paper as named; this slot does NOT have the filename/content corruption flagged in two earlier Basketter slots in the same subfolder per the structured evidence record).
-
-**Source-internal inconsistencies preserved verbatim, not silently corrected:**
-- Spectrometer model: source narrative on p. 2511 says "Spectra A100 Varian spectrophotometer"; source Table 1 on p. 2512 prints "SAA Varian (Spectra A110, Australia)" — A100 vs A110. The wiki reproduces the narrative form "A100" for consistency with the body text; the discrepancy is the source's, not the wiki's.
-- Cd/Hg lower-bound reporting: Results narrative on p. 2513 says "between below the limit of quantification (<LOQ)" for Cd and Hg minima; Table 6 on p. 2514 prints "<LOD". The wiki reproduces Table 6's "<LOD" as the more conservative reporting.
-- Pb HQdermal range upper bound: source Table 8 prints "3.58×10⁻⁹ – 2.09×10⁻⁹" with the upper bound smaller than the lower — apparent typesetting error. Reproduced verbatim with "(sic)" annotation rather than silently corrected.
-- Cd ILCR mean SD: source Table 8 prints "4.78×10⁻⁹ ± 1.5610⁻⁹" (apparent compositor error — likely intended "1.56×10⁻⁹"). Wiki reproduces as "4.78×10⁻⁹ ± 1.56×10⁻⁹".
-
-**Audit editorial review application notes (2026-06-02 audit cycle, verdict REVISE):** Three findings applied after independent verification against the source PDF:
-- ❌ **Pb CDIdermal range upper exponent:** Audit flagged the wiki value `8.81×10⁻⁹` against source Table 8 value `8.81×10⁻⁶`. Verified against source p. 2515 Table 8 row "CDIdermal Range" Pb column — source prints `1.50×10⁻⁹ – 8.81×10⁻⁶`. Corrected. (Note: the source's own Pb CDI mean is `3.057×10⁻⁹`, which is several orders of magnitude below the corrected upper-bound exponent — the source itself may have a typesetting error in the upper bound, but the wiki's job is to reproduce what the source prints, not to silently correct.)
-- ⚠️ **Cold-vapor Hg framing:** Audit flagged the wiki's interpretive note that the 25 °C Hg "dosage temperature" was "consistent with cold-vapor sample introduction". Verified against source pp. 2511–2512 — source describes the analytical platform as GFAAS throughout and never names cold-vapor. The interpretive synthesis was reframed as a faithful description of what the source itself reports (number of readings, dosage temperature, absence of separate atomisation step) without inferring a cold-vapor accessory.
-- ⚠️ **">99% of HI from Hg" arithmetic:** Audit flagged the wiki's computed quantitative attribution against the source's qualitative ranking. Verified against source p. 2516 — source narrative says "the contribution of heavy metals analysed to the non-carcinogenic health risk was in the order of mercury > cadmium > lead" but does not quantify the per-analyte share. Re-anchored the lede to the source's qualitative ranking and the Kp comparison (which is directly source-stated in Table 2).
-
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]

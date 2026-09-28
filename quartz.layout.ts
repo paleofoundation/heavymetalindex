@@ -25,6 +25,8 @@ import * as Component from "./quartz/components";
 // nav was orphaned when v3 replaced the Explorer with TopNav/MegaMenu, so it was
 // removed to unblock CI (tsc noUnusedLocals). If those internal slugs are now
 // leaking into the public nav, re-apply an equivalent filter in TopNav/MegaMenu.
+// batch-reports/, lint/, and log.md are also excluded from the Quartz build in
+// quartz.config.ts, so they are not reachable by URL.
 
 // components shared across all pages
 //

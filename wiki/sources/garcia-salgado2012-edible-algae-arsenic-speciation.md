@@ -79,21 +79,12 @@ Samples were dried commercial algae. Spain and Japan samples were purchased at l
 
 This source is high-value seaweed arsenic-speciation evidence because it separates total arsenic from measured arsenate and arsenosugars in named edible algae. Brown algae had high total arsenic and many samples had measured As(V), while both Nori samples had no detected As(V). Downstream extraction should keep tAs, As(V), DMA, and arsenosugars as separate species and should not treat total arsenic as inorganic arsenic.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing DOI, raw-handle, or cite-key page for `10.1016/j.aca.2011.12.001`, `MFK_10-1016-j-aca-2011-12-001`, or `garcia-salgado2012-edible-algae-arsenic-speciation`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-002.txt`, extracted with `pdftotext -layout`, especially Tables 2, 3, and 4.
-- Speciation check: total As from Table 2 is recorded as tAs. Table 4 arsenate is recorded as measured As(V) / inorganic arsenic context only; As(III) was not detected and no total-As value is promoted to iAs.
-- Units and basis are preserved as `µg g−1` dry mass, `%`, and `µg g−1 As` for LODs; no conversions were performed.
-- Evidence tier A reflects peer-reviewed primary speciation data with named species, reported QA/QC CRM recovery, extraction efficiencies, column recoveries, and method LODs.
-- Brand firewall: no sampled brands are reported. Instrument and CRM names are retained only as scientific method details.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

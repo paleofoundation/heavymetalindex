@@ -76,7 +76,7 @@ App: Supports personal-care risk flags for skin-lightening creams and face/found
 
 Microbiome: No microbiome data.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/skin-lightening-cream]]
 - [[products/makeup-foundation-powders-blush]]
@@ -87,15 +87,6 @@ Microbiome: No microbiome data.
 - [[metals/arsenic-total]]
 - [[metals/copper]]
 - [[metals/tellurium]]
-
-## Verification notes
-
-- DOI and citation metadata were verified from the PDF first page: DOI `10.37871/jbres2072`, Journal of Biomedical Research & Environmental Sciences, volume 6 issue 2, February 2025, pages 197-203.
-- The source reports brand names for individual cosmetics. This page does not reproduce brand-level tables and instead preserves category-level findings and source-reported maxima, consistent with the brand firewall.
-- The PDF has internal wording errors and one likely abstract typo stating the highest Bi value was found in a cream while also naming a different product; the numerical maxima are retained as reported.
-- source metadata preserves source-reported Te, Bi, Nb, and Ta because the paper reports them in the product matrices. `[[metals/tellurium]]` exists as a source-map stub; Bi, Nb, and Ta do not yet have dedicated metal pages, so they are not listed under "Wiki pages this source may touch" until routing vocabulary expands.
-- `matrices: [cosmetic-personal-care]` follows the established cosmetic-source convention used by sibling personal-care source pages, even though that bare-string matrix is not represented in the public taxonomy snapshot.
-- Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished cosmetic products. Limitations: n=10, unclear sampling frame, no LOD/LOQ, XRF method only, and no mercury or arsenic speciation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

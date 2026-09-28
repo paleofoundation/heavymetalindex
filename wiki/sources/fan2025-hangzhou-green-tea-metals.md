@@ -91,32 +91,18 @@ Geographic scope limited to Hangzhou area — cannot be generalised to all Chine
 - Synthesis input: provides a 120-sample baseline for green tea at a recognised premium origin (Hangzhou/West Lake). Contributes occurrence data to [[ingredients/camellia-sinensis]] for tAs, Cd, Cr-total, Pb, tHg, Al, Ni, Cu, Mn, plus the longer-tail elements Ba, Li, Sb, Se, Sn, V.
 - App: dry-leaf basis values; conversion to as-consumed (infusion) requires leaching fractions from companion sources (e.g., Brzezicha-Cirocka 2016 reports ~30–45% leaching for Pb, ~10–44% for Cd in green tea infusions). Flag for synthesis pass on tea.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/arsenic]] (total As only)
+- [[metals/arsenic]]
 - [[metals/mercury-total]]
 - [[metals/aluminum]]
-- [[metals/chromium]] (total Cr only)
+- [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/manganese]]
 - [[metals/copper]]
-- [[ingredients/camellia-sinensis]]
 - [[products/tea]]
-
-## Verification notes
-
-2026-05-20 (automated editorial review merge-enhance from MFK ingest cycle):
-- License corrected from `cc-by` to `CC BY-NC-ND 4.0` per the article's explicit Open Access statement ("This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License", PDF page 7).
-- Added `raw_handle: MFK_occurrence-exposure-and-health-risk-assessment-of-` and re-pointed `raw_path` to the canonical MFK location in `07_Processed_Foods_Snacks_Beverages`; the raw/studies/ duplicate is recorded under `near_duplicates`. Both files have identical sha256 (eef5ee6c…dda1).
-- Metals source metadata corrected: removed `Zn` (not measured by this study; the analyte list per the abstract is Al, As, Ba, Cd, Cr, Cu, Hg, Li, Mn, Ni, Pb, Sb, Se, Sn, V), added `Ba`, `Li`, `Se`, `V`. Kept speciation flags `tAs` (paper measures total As only), `tHg` (paper measures total Hg only), and unspeciated `Cr` (paper reports total Cr).
-- Key numbers expanded to include Ba, Li, V (previously omitted) and EDI µg/kg-bw/day values per metal alongside HQs (Table 7). Per-metal detection rates added.
-- Methods section corrected: the prior version said samples came from "six Hangzhou districts (Xihu, Fuyang, Linan, Chunan, Jiande, Tonglu/Jiande)" — the source actually lists seven districts and Yuhang was the second-largest contributor (26 of 120 samples). Corrected to the full seven-district enumeration with sample counts. Added the SANCO/3103/2000 validation reference and the WHO ND-handling rule reported in the Statistical analysis section.
-- Regulatory citations disambiguated: NY659-2003 (agricultural industry standard for tea) covers As, Cd, Cr, Hg limits; GB2762-2022 (national food safety standard) covers Pb. Previously lumped together.
-- Section heading "Wiki pages updated on ingest" replaced with current convention "Wiki pages this source may touch" (the ingest does not edit downstream pages directly per Part 9 synthesis-workflow separation).
-- No brand-firewall (Part 12) issues found in the source: paper reports aggregate distributions across 120 samples with no brand attribution; values were not converted into a brand ranking on the wiki page.
-- No wiki/HMT&C firewall (Part 2) issues: Implications section names the literature contribution and does not propose HMT&C thresholds.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

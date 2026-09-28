@@ -57,7 +57,7 @@ Courses: The paper is useful for teaching source-fidelity discipline: several ta
 
 App: The source can populate international meat contamination context for Pb, Cd, tAs, Cr, Ni, Cu, Zn, Co, and Se, with an explicit dry-weight basis and C-tier status.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat]]
 - [[ingredients/beef]]
@@ -66,15 +66,6 @@ App: The source can populate international meat contamination context for Pb, Cd
 - [[products/lamb-mutton]]
 - [[products/poultry-product]]
 - [[products/game-meats]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1542.txt`; the abstract, Methods, Results prose, and Table 1 were re-read before writing.
-- Identity checks before creation: DOI `10.21203/rs.3.rs-407310/v1`, raw handle `MFK_determination-of-some-heavy-metals-concentration-in`, raw SHA-256 `58e07736e84c5a44566a602821c6b3064c194ac481c27e2d4aa6c0b234d203f4`, and cite key `raeeszadeh2021-animal-meat-metals-iran` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved as `mg/kg`; the dry-weight basis is taken from the Methods statement that concentrations were determined based on dry weight.
-- Speciation: arsenic is `tAs` and chromium is total `Cr`; no iAs or Cr(VI) values are reported.
-- Source inconsistencies are flagged in Key numbers for ostrich lead, beef arsenic range, and turkey chromium SD.
-- Closed-vocabulary note: no ostrich or sheep-meat ingredient slug exists, so routing uses broad `meat`, `meat-and-poultry`, `beef`, `turkey`, `lamb-mutton`, and `game-meats` slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -91,16 +91,12 @@ Significant methodological limitations relevant to downstream use:
 
 **Microbiome:** not addressed.
 
-## Verification notes
+## Related evidence
 
-- Merge-enhance ingest 2026-05-20 from the original 2026-05-13 page (pre-2026-05-14 schema): re-read the PDF end-to-end and reconciled all numerical values against Tables I, II, and III.
-- source metadata changes: added `Cu` to `metals:` (the paper measures four metals — the prior version omitted Cu); changed `[[ingredients/potato]]` to the correct slug `[[ingredients/potato-chips]]` (the prior slug is not in the taxonomy and the measured form is the fried chip, not the raw tuber); removed `[[products/root-tuber-vegetables]]` (the paper measures finished snack products, not whole root vegetables; root-tuber-vegetables is for raw produce); replaced `matrices: [snack, potato-chip, corn-chip]` with `matrices: [snacks, potato-chips, corn-chips, processed-foods]`; added `near_duplicates: []`.
-- Numerical reconciliation against Tables I/II/III: pooled means and SDs now use the exact table values (e.g., potato Pb mean 0.30406 with SD 0.128244, rather than the previous rounded 0.304/0.128); the prior version's non-branded Cu range "0.018–0.060" used the abstract value, which conflicts with Table III's location minimum 0.02114; this page now uses Table III as authoritative and notes the abstract/table mismatch explicitly under "Paper-internal discrepancies."
-- Documented three further paper-internal discrepancies (non-branded Pb abstract vs. Table III, transposed corn-Cr abstract range, two-locations-labeled-Town-1 ambiguity) so downstream synthesis is not blindsided by them.
-- Removed the legacy `## Wiki pages updated on ingest` heading per current source-page schema; relevant page targets are routed via source metadata and the routing audit.
-- Strict Part 12 brand firewall: the paper names 9 potato brands and 3 corn brands by trade name in Tables I and II. None of those brand names appear on this page; per-brand values are aggregated as ranges of brand means and pooled SDs only. Brand-by-brand attribution belongs in the private brand-intelligence build (Part 26), not here.
-- Chromium speciation: paper measures total Cr only; metals source metadata uses `Cr` (not `Cr-VI`) per Part 14, and the chromium-speciation caveat is surfaced in the lede, Key numbers, Methods, and Implications.
-- Cu added to `metals:` because the paper measures Pb/Cd/Cr/Cu, but Cu is reported as low across both branded and non-branded samples and does not bind any HMTc analyte (Cu is not in the HMTc 10-analyte vocabulary); it is included for fidelity to the source and routes to [[metals/copper]] only.
+- [[ingredients/potato]]
+- [[ingredients/potato-chips]]
+- [[products/root-tuber-vegetables]]
+- [[metals/copper]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

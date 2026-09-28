@@ -127,33 +127,6 @@ The authors compare values against ATSDR's per-day MRLs as if they were per-gram
 - [[metals/chromium]]
 - [[metals/nickel]]
 
-## Verification notes
-
-Enhanced on 2026-05-18 from a pre-2026-05-14 ingest that contained multiple critical defects:
-
-1. **Authors corrected.** Prior source metadata listed `[Garuba HA, Olarewaju OO, Srinivasan P, Ojwang LM]` — none of these are authors of this paper. Actual author list per the title page of the PDF: Omobolanle David Garuba, Judith C Anglin, Sonya Good, Shodimu-Emmanuel Olufemi, Olubukola Monisola Oyawoye, Sodipe Ayodotun (corresponding). Recorded in the canonical surname-initials form.
-2. **Title corrected.** Prior title was a fabrication ("Heavy Metals Analysis in Selected Commercial Baby Foods for Infant and Toddler: Health Risk Assessment of Baby Foods"); actual title per cover page is "Evaluation of Heavy Metals in Commercial Baby Foods".
-3. **`raw_handle` set to `PCMF_afns-aid1056`** to match the manual-fetch naming convention; prior value was the bare `papers-cube` placeholder.
-4. **Metals list corrected.** Prior source metadata declared `[Pb, Cd, tAs, Al, Zn, Mn, Fe, Cu]` — Mn, Fe, and Cu were invented (not measured in this study); Cr and Ni were measured and present in Table 3 but were missing from source metadata. Mercury was explicitly excluded by the authors. Corrected to `[Pb, Cd, tAs, Al, Zn, Cr, Ni]`.
-5. **Products list corrected.** Prior source metadata referenced `baby-food-purees` (not a wiki slug), a bare `baby-cereals` string (not a wikilink), and `infant-and-child-foods-master` (an internal scaffold, not the appropriate routing target). Replaced with the six current product slugs that this paper actually touches.
-6. **Ingredients list expanded.** Prior list contained only rice, sweet-potato, and banana; the paper also measures apple (S3, S8), oranges (S8), turkey (S1), chicken (S4), and beef (S7), all of which have existing wiki ingredient pages.
-7. **Key numbers fully rebuilt from Table 3.** Prior Key numbers table contained a serious sample-ID transposition: it labeled S7 as "rice cereal" (per Table 1, S5 is rice cereal and S7 is beef and gravy) and listed a malformed row "Beef/gravy (S7 alt.)". The corrected table reproduces all seven metal values for all ten samples directly from Table 3 of the source paper. The paper-internal labeling inconsistency between Table 1 and the Discussion narrative is now explicitly flagged in a dedicated note.
-8. **Methods section expanded.** Prior version said "no CRM validation mentioned" and "no replication within products stated"; the latter was wrong — the paper explicitly states triplicate analysis per product. Added correct digestion reagents (HNO₃ + HCl + H₂O₂), instrument-operating parameters from Table 2, and statistical methodology.
-9. **Arsenic / FDA action-level comparison rewritten.** Prior Implications text stated "the rice cereal tAs result (0.102 µg/g = 102 ppb) near FDA's iAs action level" — this propagated the paper's own labeling error. The 0.102 µg/g tAs value is from S7 (beef and gravy per Table 1), not from rice cereal. Corrected.
-10. **MRL comparison framing tightened.** Added the methodological observation that the paper conflates ATSDR's per-day intake-rate MRLs with concentration-in-food, which is a category error in the source's interpretation.
-
-Brand firewall: No action required. The source paper anonymizes brands as Brand 1-Brand 7; this page preserves that anonymization.
-
-Wiki/HMTc firewall: No threshold proposals, no consensus claims, no certification advocacy. The Implications section reports observation-level utility for the literature register and methodological learning, not synthesis.
-
-**Audit application (2026-05-18, fresh-context editorial review, verdict REVISE):**
-
-11. **As exceedance line corrected.** Audit editorial review (2026-05-18) flagged that the line "All except S4 (0.006) and S9 (0.008) fall above acute MRL" was internally contradictory because both 0.006 and 0.008 are above the cited 0.005 µg/g acute MRL. Verified against PDF Table 3 — every one of the ten As values (range 0.006 to 0.102 µg/g) does exceed 0.005 µg/g. Reworded to "All ten samples exceed the cited 0.005 µg/g acute MRL (range 0.006 to 0.102 µg/g); S6 (0.023) and S7 (0.102) substantially above."
-
-12. **Zn exceedance scope annotated.** Audit editorial review flagged that the wiki listed S6/S7/S8/S10 as exceeding the cited Zn MRL while the paper's Discussion enumerates only S6/S7/S8 explicitly. Verified — S10 Zn = 23.694 µg/g (Table 3) does exceed the cited 2-3 µg/g/day reference, but the paper's own Discussion narrative omits S10 from its Zn-exceedance list. The exceedance table now distinguishes the paper-enumerated S6/S7/S8 from the Table-3-derived S10 finding.
-
-Audit findings: 2 ⚠️ flagged, 2 applied, 0 false positives. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (brand firewall), and 5 (wiki/HMTc firewall) returned clean.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

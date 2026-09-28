@@ -68,7 +68,7 @@ The authors collected stem and leaf samples of ten medicinal plants from Jhunjhu
 
 The paper contributes stem- and leaf-specific occurrence data for herbal-botanical raw materials collected across urban, industrial, and less-industrial locations in northwestern India. The data should remain plant-part-specific in downstream evidence work because the reported Cr, Pb, Fe, Cd, Ni, Co, Zn, Mn, and Hg values differ substantially between stem and leaf rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -82,16 +82,6 @@ The paper contributes stem- and leaf-specific occurrence data for herbal-botanic
 - [[metals/cobalt]]
 - [[metals/zinc]]
 - [[metals/mercury]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09 found no existing source page for DOI `10.1186/2193-1801-2-676`, raw handle `MFK_kulhari2013`, or cite key `kulhari2013-medicinal-plants-metals-india`.
-- DOI check: the DOI is printed in the extracted PDF text near the reference/citation block as `doi:10.1186/2193-1801-2-676`.
-- All Key numbers were re-checked against Tables 2, 4, and 5 in `/tmp/hmi-june9-103.txt` extracted with `pdftotext -layout`. Values, `BDL` cells, plant parts, and collection districts are copied from the source tables without rounding, averaging, or conversion.
-- Units are preserved as `ppm` on the source's dry-weight basis. The page does not convert ppm to mg/kg or ppb.
-- Speciation check: chromium is total Cr by FAAS, not Cr-VI. Mercury is reported only as Hg below detectable level, not methylmercury.
-- Brand firewall check: no commercial brands or producers are reported; Merck and Shimadzu are methods/vendors only.
-- Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in the editorial record. Exact plant species such as *Acacia nilotica*, *Bacopa monnieri*, *Commiphora wightii*, *Ficus religiosa*, *Glycyrrhiza glabra*, *Hemidesmus indicus*, *Salvadora oleoides*, *Terminalia bellirica*, *Terminalia chebula*, and *Withania somnifera* do not all have closed ingredient slugs, so they remain in table text only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

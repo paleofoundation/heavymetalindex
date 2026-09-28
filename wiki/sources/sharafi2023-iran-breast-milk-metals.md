@@ -55,7 +55,7 @@ Courses: Useful for explaining maternal transfer of toxic elements and why speci
 
 App: Supports human-milk context and health/exposure pages; it should not be routed to powdered or ready-to-feed infant formula rows.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/human-milk]]
 - [[metals/lead]]
@@ -64,12 +64,6 @@ App: Supports human-milk context and health/exposure pages; it should not be rou
 - [[metals/mercury-total]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- The source reports total arsenic, total mercury, and total chromium. It does not support inorganic arsenic, methylmercury, or Cr(VI) routing.
-- The source is human breast milk, not infant formula.
-- The methods section also measured drinking water, but breast milk is the routeable food/exposure matrix for this page.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

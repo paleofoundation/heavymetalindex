@@ -79,10 +79,6 @@ Courses: useful as the canonical citation for "nickel is an IARC Group 1 carcino
 
 App: the Section 1.5.3 food-category concentration figures (cocoa beans 9.8 µg/g, soyabeans 5.2, walnuts 3.6, peanuts 2.8, oats 2.3) are useful order-of-magnitude priors for nickel contamination likelihood by ingredient, though they are coarse literature averages, not matrix-specific occurrence distributions.
 
-## Verification notes
-
-Fresh-context audit editorial review (2026-06-22) confirmed numerical fidelity across all Key-numbers figures (food-category concentrations, daily-intake estimates, Table 2.2 lung-cancer relative risks and CIs, environmental occurrence) against the PDF with no transposition, no invented taxonomy slug, and no brand- or HMTc-firewall violation. One finding applied: the "metallic nickel = Group 2B" designation was reattributed to the standing IARC classification / IARC 1990 evaluation because the 100C chapter prints only the Group 1 classification for nickel compounds and does not itself state a Group 2B figure for metallic nickel (verified against Section 5 Evaluation, printed pp. 210–211). Verdict: REVISE → corrected.
-
 ## Related evidence
 - [[metals/nickel]]
 

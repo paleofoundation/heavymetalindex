@@ -51,7 +51,7 @@ Courses: Useful for showing how game-meat risk assessments compare wild meat wit
 
 App: Can inform venison-specific game-meat context for Poland, with detection-limit caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/game-meats]]
 - [[ingredients/meat]]
@@ -59,10 +59,6 @@ App: Can inform venison-specific game-meat context for Poland, with detection-li
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The paper reports total As and total Hg only. Non-detects should be preserved as source-reported non-detects rather than converted into zeros.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -81,16 +81,6 @@ The authors searched PubMed in August 2006 using food, beverage, arsenic, and ar
 
 This review is useful as a broad arsenic-routing source across rice, seafood, seaweed, and other food families, especially because it preserves examples where total arsenic and inorganic arsenic differ sharply. Hijiki and *Sargassum* are separated from other seaweeds by the authors because their inorganic-arsenic ratios are much higher. Downstream extraction should treat this as review-level evidence and should not silently pool its global, multi-decade, mixed-basis rows without row-fit, market, and basis adjudication.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/f3_resolve_texts/uneyama2007.txt`; the abstract, methods, Table I rice rows, Table III fish rows, Table IV algae rows, Table VII, Table VIII, Table XIII, and the conclusion text around Hijiki were checked.
-- DOI `10.1080/02652030601053121`, raw handle `MFK_uneyama2007`, and cite-key checks found no existing source page before creation.
-- Table VII and total-diet table pages were rendered to `/tmp/uneyama_pages/` because the extracted text layer drops the Greek mu and renders `µg` as `mg`. The source page records the rendered unit `µg` for daily intake tables.
-- Units are otherwise preserved as source-reported `mg kg−1`, `ppm`, `ng g−1`, `mg dry weight`, percentages, and `µg`; no normalization was performed.
-- Speciation: total arsenic and inorganic arsenic remain separate. DMA, organic arsenic, arsenobetaine, arsenosugars, As(III), and As(V) examples are not collapsed into inorganic arsenic unless the source table itself labels the row inorganic arsenic.
-- Brand firewall: the review uses food categories, species, and health-food context but no retail brand contamination values are reported here.
-- source metadata slugs were checked against the editorial record; narrow seaweed species and a standalone Hijiki product slug are absent, so broad seaweed-kelp routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

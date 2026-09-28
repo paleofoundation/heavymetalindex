@@ -59,7 +59,7 @@ App: Route to turmeric and spices. Do not expose the packed-company identities b
 
 Microbiome (if applicable): The paper does not study microbiome outcomes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/turmeric]]
@@ -71,10 +71,6 @@ Microbiome (if applicable): The paper does not study microbiome outcomes.
 - [[metals/iron]]
 - [[metals/copper]]
 - [[metals/manganese]]
-
-## Verification notes
-
-The PDF title, byline, DOI, year, journal, sample frame, methods, and source-reported numeric maxima/minima were read from the auto-fetched PDF. Figures 1-3 contain additional plotted per-sample values, but the text layer does not preserve all plotted numbers cleanly; this page records exact values stated in prose and keeps the rest as qualitative comparator statements. The source reports arsenic and chromium without speciation, so these values must not substitute for inorganic arsenic or Cr(VI). Audit note: `turmeric-powder` is retained as an established matrix-map label used by sibling turmeric source pages and the structured evidence record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -61,17 +61,6 @@ The authors collected paired rice grains and 0-15 cm soils from Yifeng, Dingshu,
 
 This source supports rice-bulk-grain cadmium routing for a Chinese contaminated-soil supply-chain setting. It provides an unusually explicit bridge between soil phytoavailable Cd, total rice-grain Cd, and bioaccessible rice Cd, but the source page should keep those compartments separate: soil numbers describe the field environment, rice exceedance percentages describe the edible product, and RIVM outputs describe digestive bioaccessibility. Because the extracted text does not provide a clean sample-level or area-level numeric rice Cd table, downstream pooling should use this paper cautiously unless the formatted final article or figure data are retrieved.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the accepted-manuscript text, methods, soil Table 1, regression Tables 2-4, and Results prose were readable.
-- DOI verified from the accepted-manuscript cover and running headers as `10.1039/C6EM00631K`; DOI, raw handle `MFK_li2017`, and cite-key checks found no existing source page before creation.
-- All numbers above were checked against the extracted abstract, sampling/methods text, Results sections 3.1-3.5, and Tables 1-4.
-- Units are preserved as reported (`mg kg-1`, percentages, R2 values); no dry-weight to wet-weight or food-basis conversion was performed.
-- Speciation: cadmium is reported as Cd; no arsenic, mercury, or chromium speciation issue applies.
-- Rice occurrence vs soil context: soil Cd and CaCl2-extractable values are not product concentration values. This page routes to rice because the source reports rice-grain Cd exceedance percentages and rice-grain Cd models from paired soil/rice sampling.
-- Exact sample-level or area-mean rice Cd concentrations were not cleanly available in the extracted text; the page therefore does not invent or visually estimate them from figures.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

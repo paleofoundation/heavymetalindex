@@ -65,7 +65,7 @@ Courses: The paper is useful for teaching speciation discipline. It shows why a 
 
 App: The source supports a higher concern flag for wild mushrooms than cultivated mushrooms for total Hg, with a species-sensitive note for Lepista and Macrolepiota. For general cultivated mushroom exposure, the reported total Hg values are near or below 0.007 mg/kg.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mushrooms]]
 - [[ingredients/wild-mushrooms]]
@@ -75,10 +75,6 @@ App: The source supports a higher concern flag for wild mushrooms than cultivate
 - [[metals/lead]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-The DOI, title, author, year, publication, sample count, methods, and tables were taken from the PDF article text in the September 2023 Spectroscopy issue. The PDF SHA-256 at ingest was `411d4a46de9f89479989aa65ddbecef3b0d250c36f0e68e747a45dbd59c038aa`. The article byline gives the author as Javier Peinador Asensio; the cite key uses Asensio as the surname token. The article title says "Methyl-Mercury"; the body and method use methylmercury/MeHg. Table III is the source for Cd, Pb, and total Hg summary statistics; Table IV is the source for MeHg values. The source reports total mercury separately from methylmercury and does not support substituting total Hg values for MeHg occurrence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

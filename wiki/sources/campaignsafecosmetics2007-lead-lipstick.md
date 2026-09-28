@@ -58,20 +58,10 @@ Courses: The report is useful for teaching the difference between finished-produ
 
 App: If the app later includes adult leave-on cosmetics, this source can support a lipstick context card noting the 2007 U.S. nonprofit screen, the `<0.02` to `0.65 ppm` Pb range, and the laboratory/QC caveats.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lipstick]]
 - [[metals/lead]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_a_poison_kiss.txt`. The title page, overview, "How we tested for lead in lipstick" section, Appendix A, and references were checked against this page.
-- No DOI is printed in the extracted report. Title text, raw handle `MFK_a-poison-kiss-the-problem-of-lead-in-lipstick`, raw SHA-256 `dca80651bdcb7af1ad8a0d4f387464431ecbcf1466b8a2c606a4f6f2e1421fd0`, and candidate cite-key `campaignsafecosmetics2007-lead-lipstick` were searched before creation; no existing source page was found.
-- Units are copied exactly from the source as `parts per million (ppm)`. No conversion to mg/kg or ppb was performed.
-- Speciation: the source measures elemental lead only (`Pb`). It does not report cadmium, arsenic, mercury, chromium, or nickel for this lipstick screen.
-- Brand firewall: Appendix A names brands, shade names, parent companies, states, dates, and Pb values. This page intentionally reports only category-level counts, ranges, and de-identified value lists; no brand or shade name is attached to a contamination value.
-- Evidence tier: `B` because this is a nonprofit-commissioned third-party laboratory screen using an ISO 17025-accredited lab, but it is not peer-reviewed and the sample is a small convenience set. The source's own methods caveats are material: some samples did not completely dissolve and spike recovery averaged `53 percent`, so the reported values should be treated as lower-confidence occurrence evidence.
-- Routing note: `products/lipstick` exists in the closed taxonomy snapshot but the current wiki page is retired pending a future adult Cat 13 lip-cosmetics row. The exact source matrix is adult lipstick; this page keeps the closed-vocabulary `lipstick` product slug and records the Cat 13 gap here so a later taxonomy pass can reroute it if a non-retired adult lip-cosmetics page is added.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

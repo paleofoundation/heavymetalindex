@@ -93,25 +93,13 @@ Courses: The source is useful for teaching the difference between technical-avoi
 
 App: The source can support a Canada cosmetic-regulatory-context card for lead, arsenic, cadmium, mercury, and antimony impurities. It should not be used for brand ranking or product-category occurrence claims.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/antimony]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_paper18_unknown.txt`. The title page, definitions, heavy-metals background, German comparator limits, Health Canada policy statement, effective date, references, and mercury footnote were checked against this page.
-- No DOI is printed in the extracted guidance. Identity checks before creation found no existing source page for the exact title, URL slug `heavy_metals-metaux_lourds`, raw handle `MFK_paper-18-unknown`, or candidate cite key `healthcanada2012-cosmetics-heavy-metal-impurities`.
-- Numbers are copied in the source's own units (`ppm`, `ppb`, `µg/kg`, `µg/L`, `mg/kg`, `mg/L`) and were not converted.
-- Speciation: the guidance discusses inorganic arsenic and methylmercury in toxicological context, but the cosmetic impurity policy limits are stated for arsenic and mercury generally. This page uses `tAs` and `tHg` for routing context and does not treat the limits as iAs or MeHg occurrence.
-- Diaper-cream routing (2026-09-26): products now names both diaper-cream rows. A zinc oxide diaper cream sold in Canada as a cosmetic falls under this guidance. Licensed zinc oxide diaper-rash products are natural health products, whose topical limits in the NNHPD Quality Guide are numerically identical.
-- Brand firewall: no brand names or brand-linked contamination values are reported in the guidance.
-- Evidence tier: `A` because this is official Health Canada guidance; it is context-only because no primary occurrence table or analyte-by-product dataset is printed.
-- 2026-09-26 baby lotions, oils, and powders collection: a later copy (date modified 2017-10-02) was received and hashed. No limit differs. The source is now routed to the four baby lotion, oil, and powder product rows as regulatory context, because the guidance covers all cosmetics.
-- Routing: the taxonomy snapshot has metal slugs for lead, arsenic-total, cadmium, mercury-total, and antimony, but no broad all-cosmetics product slug. `products` is left empty rather than inventing a destination or over-specifying many cosmetic subcategories. `npm run evidence:source-routes` exited 0, generated no product routing rows for this context-only source, left the source absent from `routing_unresolved.csv`, and recorded only the expected nonblocking `products;ingredients` advisory in `routing_malformed.csv`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

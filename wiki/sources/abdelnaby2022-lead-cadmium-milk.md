@@ -69,17 +69,13 @@ App: Contributes geographically tagged dairy/milk context. Values should be reta
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[products/milk-and-dairy]]
 - [[regulations/egypt-food-standards]]
-
-## Verification notes
-
-An auto-fetched duplicate PDF at the archived source file was matched to this canonical DOI on 2026-06-04. The canonical page metadata was corrected from the PDF byline and journal page: title, authors, publication, and Table 1/Table 4 values were updated. The source reports total Pb and total Cd in milk; it does not report inorganic arsenic, methylmercury, or sample-level values.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

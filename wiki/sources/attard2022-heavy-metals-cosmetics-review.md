@@ -109,7 +109,7 @@ App: Cosmetics are outside the food-ingredient taxonomy; no `contamination_profi
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -126,19 +126,6 @@ Microbiome: Not addressed.
 - [[products/baby-lotion-cream]]
 - [[products/toothpaste]]
 - [[products/children-personal-care]]
-
-## Verification notes
-
-- 2026-05-18 merge-enhance from v0 (`autonomy_phase1_v0`, ingested 2026-05-14). The v0 page captured the four-jurisdiction regulatory comparison correctly but omitted Tables 1-3 (the chapter's headline occurrence aggregation) and the Section 5 multivariate analysis (Table 4 + PCA). Both have been added to Key numbers.
-- `matrices:` changed from `[cosmetic-personal-care]` (not in the matrices vocabulary; food-domain field) to `[]`. The routing audit's `advisory` flag on this row was the trigger.
-- Legacy heading `## Wiki pages updated on ingest` (with inline `(to be created)` regulation slugs) replaced with `## Wiki pages this source may touch`. The inline regulation slugs `eu-1223-2009-cosmetics`, `fda-cir-cosmetic-impurities`, `who-cosmetics-guidance`, `health-canada-cosmetic-impurities` do not exist in the current taxonomy and are not in this section; if Karen wants regulation pages for cosmetic limits, those are new-page proposals (each has a hard agency identifier and would benefit from its own page).
-- `products:` broadened to match the chapter's actual coverage. The v0 page listed five product slugs; the chapter discusses lipsticks, toothpaste, face creams, body lotions, sunscreens, and hair products in addition to those. Added `lipstick`, `baby-sunscreen-mineral`, `baby-sunscreen-chemical`, `baby-lotion-cream`, `toothpaste`. All slugs verified against the linked reference record.
-- `metals: [Pb, Cd, Ni, tHg, tAs]` unchanged. The chapter does not separate inorganic from organic mercury or inorganic from total arsenic in its tables; tHg/tAs are the correct abbreviations.
-- Speciation note: Section 4.4 (p. 9) discusses inorganic-Hg (ammoniated Hg) skin-lightening cream use versus organic-Hg (phenylmercuric/ethylmercuric) eye-preservative use, but the Tables 1-3 columns report total Hg.
-- Brand firewall (Part 12): the chapter does not name brands at the value level; cosmetic categories are the unit of reporting. No firewall edits required.
-- Part 2 firewall: Implications restated the chapter's PCA finding (lipsticks/eye-shadows/face-paints/foundation/skin-lightening creams as high-load) and noted its relevance to Cat 2 threshold work without proposing a threshold value.
-- `ingest_method`/`created_by` v0 fields removed during the merge-enhance; git history preserves the v0 origin.
-- Audit editorial review (2026-05-18) flagged an internal chapter inconsistency: Section 5 narrative on p. 11 states "Pearson correlation statistics (Table 4) reveal a relationship between all five metals (r > 0.466)," but Cd-Hg (0.334), Ni-Hg (0.446), and Hg-As (0.465) in Table 4 are all below 0.466 — verified by direct inspection of the table. The wiki preserves the chapter's narrative claim and matrix values as reported; the discrepancy is the authors', not the wiki's, but is recorded here so downstream synthesis does not rest the matrix-wide claim on this chapter alone. Also note Table 4 caption labels these as Spearman correlations while the narrative text calls them "Pearson correlation statistics" — same chapter-internal inconsistency.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

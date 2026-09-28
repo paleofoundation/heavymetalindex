@@ -90,7 +90,7 @@ Systematic literature review of edible vegetable oils for consumption, 2015–20
 
 - App: The compilation of literature ranges across 35 oil types and 24 countries is valuable for broad contextual framing but not for point-estimate ingredient contamination profiles; individual primary studies cited in the review are the appropriate source for specific values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/olive-oil]]
 - [[ingredients/sunflower-oil]]
@@ -105,13 +105,6 @@ Systematic literature review of edible vegetable oils for consumption, 2015–20
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- 2026-05-17 Codex merge-enhance: identity checked against DOI 10.3390/app13053020 and the manual-fetch PDF at the updated `raw_path`; corrected legacy `raw_handle`/truncated path, added product routes for olive oil and other cooking oils, replaced rounded study-frequency percentages with the source's exact values, and corrected the Pb country attribution so 8.546–18.783 mg/kg is Iran/Italy olive oil while Pakistan olive oil is 1.321–7.249 mg/kg (Table 4).
-- `edible-oil`, `olive-oil`, `sunflower-oil`, `corn-oil`, and `rapeseed-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
-- The source discusses Codex named-vegetable-oil limits, Commission Regulation (EU) 2021/1317 for lead, Commission Regulation (EU) 2021/1323 for cadmium, GB/T23347-2021, and Spain RD 308/1983, but no exact regulation pages exist for several of those identifiers in the current wiki taxonomy. Surface these as regulation-page candidates rather than inventing slugs.
-- 2026-05-18 Cross-vendor audit (Codex) corrected Methods wording: detection-limit reporting is the Table 1 sensitivity-comparison filter, not a whole-review inclusion criterion, per pp. 2 and 5–6 of the PDF. Added the missing `[[metals/nickel]]` touch-link to match the source metadata and source discussion of Ni among the reviewed metals.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

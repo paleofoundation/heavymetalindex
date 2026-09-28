@@ -55,18 +55,9 @@ Courses: The paper is useful for illustrating cosmetic risk-assessment limits: l
 
 App: The source can support lipstick contamination profiles for Malaysian-market products and production-country context without naming brands.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/lipstick]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/hmi_row_1590.txt`; Tables 1, 2, and 3 plus the Methods were re-read before writing.
-- Identity checks before creation: DOI `10.1016/j.yrtph.2015.07.005`, raw handle `MFK_zakaria2015`, raw SHA-256 `2cb9682a42d7e00501ea9ebf3dfa35eea80ceb92073f7b71f27645ac6f08a962`, and cite key `zakaria2015-lipstick-heavy-metals-malaysia` were searched in the linked reference record and evidence files; no existing source page was found.
-- Units are preserved as `mg kg-1`; no conversion to ppm was made.
-- Speciation: chromium is total Cr; no Cr(VI) speciation is reported.
-- Brand firewall: the survey collected brand information, but no brand names are reported in this page and values are summarized by coded samples, price category, country of production, and product category.
-- Source-internal range note: the abstract's Cr range (`0.48-2.50 mg kg-1`) differs from Table 2, which includes two `0.24 mg kg-1` means; both are recorded without correction.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -97,28 +97,16 @@ This source contributes urinary exposure and reproductive-health context to the 
 
 The source was located under a sunscreen query, but its actual participants and laboratory matrix govern routing. The prior fish and mineral-sunscreen routes were unsupported and should not contribute to product occurrence evidence. No regional concentration gradient, historical exposure trend or remediation effect was measured.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic]]: unspeciated urinary arsenic medians and observational association estimates.
-- [[metals/cadmium]]: urinary cadmium medians, detection frequencies and categorical association context.
-- [[metals/copper]]: urinary copper results and contrasting continuous/categorical associations.
-- [[metals/mercury]]: unspeciated urinary mercury results and the authors' chronic-exposure matrix limitation.
-- [[metals/manganese]]: low detection frequency and censored urinary medians.
-- [[metals/nickel]]: urinary nickel medians and adjusted association estimates.
-- [[metals/lead]]: urinary lead results and the authors' chronic-exposure matrix limitation.
-- [[metals/zinc]]: urinary zinc medians and individual/mixture reproductive-health associations.
-
-## Verification notes
-
-The complete 13-page PDF was read using `pdftotext -layout`. Tables 1–4 and Figures 1–2 were visually checked on rendered PDF pages 4–8. DOI, full title, publication, year and all 14 authors were taken from the PDF byline and bibliographic header; the CC BY 4.0 license appears on page 9. [Publisher record](https://doi.org/10.1007/s00431-026-06919-1).
-
-The stable source path is the `raw_path` above, through the repository's ingredient-sweep symlink. It resolves to `/Volumes/HMI-Library/research-pulls/ingredient-sweep/Baby sunscreen chemical UV filters/Baby sunscreen chemical UV filters Africa heavy metals/s00431-026-06919-1.pdf`. The file is 1,031,210 bytes and has SHA-256 `3d2a58257d6b952bd3877dbc6982687a831105072d7ece250d8d7fa939f33280`. The discovery manifest identifies the same DOI and an Europe PMC retrieval URL, `https://europepmc.org/api/getPdf?pmcid=PMC13106254`. Its query and folder name are discovery metadata, not study geography or product identity.
-
-This correction rolls up the same DOI and file hash previously recorded under the malformed legacy cite key `authors2026-association-of-exposure-to-synthetic-phenols-and-metal` and the mismatched raw handle `RPMEHG_10-1007-s00431-026-06919-1`. The author-based key and RPIS handle identify this same work; it must not remain as a second source record under the old key.
-
-Table 2 is retained over contradictory narrative: arsenic medians are 22.23 and 27.66 ng/mL in the table, versus 22.20 and 27.60 in the preceding prose. The prose also calls total phenols significantly different, whereas Table 2 gives p = 0.24; no significant total-phenol difference is asserted here. Table 1's unusually large printed BMI z-score values and malformed category inequalities are source-quality issues, not values corrected by this ingest.
-
-Methods calls the phenol-family sums molecular-weight-based molar sums while the Table 2 heading uses ng/mL. Those sums are retained in structured evidence with this unit ambiguity and are not converted or combined with individual mass concentrations. The full supplementary methods, exact categorical estimates shown only graphically, and participant-level data remain explicit extraction gaps. Source-native values were preserved without concentration conversion; arsenic species, mercury species, urinary and product matrices remain separate.
+- [[metals/arsenic]]
+- [[metals/cadmium]]
+- [[metals/copper]]
+- [[metals/mercury]]
+- [[metals/manganese]]
+- [[metals/nickel]]
+- [[metals/lead]]
+- [[metals/zinc]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

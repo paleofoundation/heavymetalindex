@@ -192,46 +192,26 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - Access date: 2026-06-03.
 - Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/06_Regulatory_EPA_GreenSeal/`, alongside other regulatory and voluntary-standards content (David Suzuki Foundation consumer-education article and other EPA / Green Seal references).
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/all-purpose-cleaners]] — household-cleaning-product within Safer Choice scope. Broad product context.
-- [[products/appliance-cleaners]] — household-cleaning-product within Safer Choice scope. Broad product context.
-- [[products/automatic-dishwasher-detergents]] — within scope. Broad product context.
-- [[products/bathroom-tub-tile-cleaners]] — within scope. Broad product context.
-- [[products/carpet-cleaners]] — within scope. Broad product context.
-- [[products/dish-soaps-manual]] — within scope. Broad product context.
-- [[products/drain-maintainers-cleaners]] — within scope. Broad product context.
-- [[products/floor-cleaners-hard-surface]] — within scope. Broad product context.
-- [[products/household-specialty-cleaners-other]] — catch-all for cleaning products not in a more specific category (e.g., graffiti removers, marine cleaners named in §1.3 as Direct Release products that must additionally pass §5.9 environmental criteria). Broad product context.
-- [[products/kitchen-countertop-cleaners]] — within scope. Broad product context.
-- [[products/laundry-detergents]] — within scope. Broad product context.
-- [[products/laundry-detergent-boosters-additives]] — within scope. Broad product context.
-- [[products/laundry-prewash-products]] — within scope. Broad product context.
-- [[products/oven-grill-bbq-cleaners]] — within scope. Broad product context.
-- [[products/pre-treaters-stain-removers]] — within scope. Broad product context.
-- [[products/toilet-bowl-cleaners]] — within scope. Broad product context.
-- [[products/window-glass-mirror-cleaners]] — within scope. Broad product context.
-
-## Verification notes
-
-- Identity-check results (DOI null / raw_handle KADC_epa-safer-choice-master-criteria-ingredients / cite-key epa2024-safer-choice-master-criteria-ingredients) on 2026-06-03 returned no matching wiki source page; ingested as NEW.
-- SHA-256 of the source PDF was computed from disk on 2026-06-03 (`134d7ebb67a941a6931469c58efe568152a130a8cfaf94209b9baccbcbe9bf26`).
-- The document has no DOI (federal-agency criteria document, not a journal article). `doi` is null.
-- Evidence tier set to A on the basis of: (i) authoritative federal-agency primary record from US EPA OPPT, the office that administers Safer Choice and DfE; (ii) versioned (V2.1) and dated (October 2024) criteria text; (iii) full references list (pp. 27-30; 109 numbered citations); (iv) document is the primary source of its own assertions (no secondary-source dependence for the criteria themselves); (v) published openly via the epa.gov/saferchoice programme web presence.
-- License set to "U.S. Government Work (public domain, 17 USC § 105)" because the document is authored by a federal agency in the course of official duties; per 17 USC § 105 such works are not subject to copyright in the United States.
-- Source type set to `gov-guidance` rather than `gov-regulation` because Safer Choice and DfE are voluntary certification programmes administered by EPA, not statutory regulations under TSCA or any other US law. A chemical failing the Master Criteria is excluded from Safer Choice / DfE-labelled products but is not, by that fact, prohibited in commerce.
-- `metals: []` is intentional: the document does not measure or enumerate any specific heavy metal. The HMI relevance is indirect (via Prop 65, IARC, NTP, EU CLP, NIOSH cross-references in §5) and is documented in the body prose, not via source metadata routing. Putting a metal list in the source metadata would mis-route this source onto metal pages where it has no quantitative content to contribute.
-- `ingredients: []` is intentional: the document is generic criteria, not specific to any one ingredient. The §3.21 inorganic-phosphate boundary and the §3.20 "an ingredient may be one chemical or a blend of multiple chemicals that are intentionally added" definitions are general framing, not specific-ingredient claims.
-- `products: [...]` lists every household-cleaning-product taxonomy slug currently in the linked reference record that is within Safer Choice / DfE scope per §1.3 (the programme covers cleaning and detergent products broadly; Direct Release products such as graffiti removers and marine cleaners — §1.3 examples — are caught by `household-specialty-cleaners-other`). Routing fan-out is `broad_product_context`, not `direct_evidence`, because no contamination values are reported.
-- `matrices: [household-cleaning-product]` matches the matrix already in use on [[sources/davidsuzuki2014-toxic-household-cleaners]] and [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]].
-- `jurisdictions: [US]` because the document is the federal-government criteria text from US EPA. The criteria cross-reference EU CLP and GHS (international) but the criteria document itself is the US-jurisdictional primary record.
-- Wiki/HMTc firewall (Part 2): the document is upstream of any HMTc threshold-setting work; no Part 2 drift risk in the body of this page. The Implications section does not propose HMTc thresholds.
-- Brand firewall (Part 12): the document does not name any brand of cleaning product. No brand-firewall action required.
-- The §5.10 eutrophication cap (0.5 weight % phosphorus; no inorganic-phosphate contribution) is documented as the closest the criteria come to a quantitative concentration limit; phosphorus is out of HMI heavy-metal scope and the cap is recorded here for regulatory-context completeness rather than as a heavy-metal threshold.
-- The document references CAS 13977-65-6 (monopotassium phosphonic acid) once, in §3.21. This is the only CAS number cited in the document. It is not a heavy-metal compound; no ingredient page is touched.
-- Quantitative content in this page (Tables 1a, 2, 3, 4, 5a, 5b, 6a, 6b, 7, 8, 12) is reproduced exactly from the source PDF (Version 2.1, October 2024) with page locators throughout.
-- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in source metadata draws only on existing the linked reference record slugs.
-- No new regulation page was created. If a `regulations/epa-safer-choice-master-criteria.md` page is ever needed (Step 0 Lock decision), it would inherit from this source and the broader Safer Choice / DfE Standard document referenced as [1] (USEPA, EPA's Safer Choice and Design for the Environment (DfE) Standard. 2024). That Standard document is not in the present KADC PDF set.
+- [[products/all-purpose-cleaners]]
+- [[products/appliance-cleaners]]
+- [[products/automatic-dishwasher-detergents]]
+- [[products/bathroom-tub-tile-cleaners]]
+- [[products/carpet-cleaners]]
+- [[products/dish-soaps-manual]]
+- [[products/drain-maintainers-cleaners]]
+- [[products/floor-cleaners-hard-surface]]
+- [[products/household-specialty-cleaners-other]]
+- [[products/kitchen-countertop-cleaners]]
+- [[products/laundry-detergents]]
+- [[products/laundry-detergent-boosters-additives]]
+- [[products/laundry-prewash-products]]
+- [[products/oven-grill-bbq-cleaners]]
+- [[products/pre-treaters-stain-removers]]
+- [[products/toilet-bowl-cleaners]]
+- [[products/window-glass-mirror-cleaners]]
+- [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

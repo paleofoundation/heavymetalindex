@@ -161,7 +161,7 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set ACV-specific m
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -173,7 +173,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

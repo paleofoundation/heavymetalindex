@@ -74,7 +74,7 @@ The authors collected the four medicinal plants and their surrounding root-zone 
 
 The paper contributes plant-part-specific occurrence data for medicinal-plant raw materials from Pakistan, including both essential trace elements and toxic metals. Downstream evidence work should keep plant rows separate from soil rows because the soil measurements describe collection context rather than product concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/supplements-botanicals-herbs]]
 - [[ingredients/herbal-botanicals]]
@@ -87,16 +87,6 @@ The paper contributes plant-part-specific occurrence data for medicinal-plant ra
 - [[metals/zinc]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-- Identity checks on 2026-06-09 found no existing source page for DOI `10.1155/2013/621265`, raw handle `MFK_shah2013`, or cite key `shah2013-medicinal-plants-metals-pakistan`.
-- All Key numbers were re-checked against Tables 1 and 2 in `/tmp/hmi-june9-117.txt` extracted with `pdftotext -layout`. Values, `BDL` cells, plant parts, and spot labels are copied from the source tables without rounding, averaging, or conversion.
-- Units are preserved as `mg/kg`, the unit printed in the table titles and results text. The page does not convert to ppb.
-- Speciation check: chromium is total Cr by FAAS, not Cr-VI. The source does not report arsenic or mercury species.
-- Soil values are included only as paired collection-site context and should not be pooled as plant/product occurrence.
-- Brand firewall check: no commercial product brands are reported; Sigma-Aldrich and Perkin Elmer are methods/vendor names only.
-- Closed vocabulary check: products, ingredients, metals, and wiki-page links use slugs present in the editorial record. Exact species names such as *Capparis spinosa*, *Peganum harmala*, *Rhazya stricta*, and *Tamarix articulata* do not all have closed ingredient slugs, so they remain in table text only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

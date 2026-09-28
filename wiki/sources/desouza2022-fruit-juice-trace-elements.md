@@ -78,7 +78,7 @@ App: Supports fruit-juice risk flags for Pb, Cd, Ni, Cr, Al, and matrix-specific
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[metals/arsenic-total]]
@@ -103,15 +103,6 @@ Microbiome: Not addressed.
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-apple-containing]]
 - [[products/fruit-juices-non-apple]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-19 from the gap-driven fruit-juice Co wishlist PDF.
-- Numerical values are preserved in the source units: µg/L for Table V and mg/L for Table VI. Because juice density is close to 1 kg/L, these are approximately ppb and ppm respectively, but no conversion is used in the primary table.
-- The paper reports total As, total Cr, and total Sb only; no arsenic, chromium, or antimony speciation was performed.
-- Strict brand firewall: the paper refers to fruit types and sample labels only; no commercial juice brands are named in this source page.
-- Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
-- Fresh-context audit (Claude editorial review, 2026-05-19): REVISE → applied. Three findings corrected: (1) Pb row leads with the precise 61.7 ± 7.2 µg/L text value with Table V rounding noted, plus explicit citation of the EU 2021/1317 and ANVISA IN 88/2021 comparators the paper invokes; (2) Co row notes the text-vs-Table-V discrepancy (37.8 vs 38 ± 2); (3) recovery range corrected from 89-103% to 89-108% to capture the Mg 108 ± 5 maximum. Slug vocabulary clean, speciation discipline correct (tAs/Cr-total/Sb explicitly labeled), brand firewall clean (sample labels anonymized as in source), HMTc firewall clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

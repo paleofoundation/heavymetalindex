@@ -76,26 +76,12 @@ Clean Label Project procured 160 protein powder products from 70 brands sourced 
 - Bisphenol contamination has effectively disappeared from this product category between Clean Label Project's 2018 cohort (55% of products with detectable BPA/BPS) and the 2024-25 cohort (3 of 160 products); this is one of the few categories in HMI where industry-wide packaging reformulation has produced a measurable, near-complete drop in a contaminant of concern.
 - Evidence fitness caveat: non-peer-reviewed industry/advocacy report, accredited-lab ICP-MS but no per-product values, no concentration distribution, no central-tendency statistics, no detection-rate denominators for sub-cohort splits, no QA/QC disclosure, no serving-size or exposure-conversion methodology disclosed. Treat as a B-tier exceedance-pattern anchor for the 2024-25 US protein-powder market. Do not synthesize per-product concentration claims from this source; the underlying per-product data is held by Clean Label Project and not published in the report.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/supplements-protein-collagen-powders]] — 2024-25 market-screen lead exceedance pattern for the US protein-powder category; bisphenol near-elimination signal vs the 2018 cohort.
-- [[metals/lead]] — 47% of US protein powders exceed Prop 65 Pb MADL per-serving in 2024-25, with plant-based and organic and chocolate-flavored sub-cohorts running 65–79% exceedance.
-- [[metals/cadmium]] — multiplicative cohort findings: organic 2× non-organic, plant-based 5× whey, chocolate 110× vanilla; no per-product values.
-- [[metals/arsenic]] — included in the ICP-MS panel; no quantitative findings reported.
-- [[metals/mercury]] — included in the ICP-MS panel; no quantitative findings reported.
-
-## Verification notes
-
-- All cohort percentages taken from pages 3 and 5 (graphical "Key Data and Findings" panels). Multiplicative cross-cohort statements taken from the page 2 Executive Summary and the page 6 "Aren't These Contaminants Regulated?" narrative. Bisphenol finding taken from page 6. Methods text taken from page 7.
-- **Part 12 brand firewall:** the source PDF names eight Clean Label Project Certified brands on page 8 (Genetic Nutrition, Ritual, Puori, Wicked Protein, Gorilla Formula 23, Oziva, Wellbeing Nutrition, NutraBox) as part of CLP's own certification program promotion. None of these brand names is reproduced on this wiki page. This is not a contamination-by-brand listing — the report itself does not attribute contamination values to individual brands in the published PDF — but Part 12 also bars naming of certified brands in the wiki, and the safer reading is to drop the entire certification-promotion block from the source page. The lab name (Ellipse Analytics) is retained under the Part 12 scientific-method vendor exception; it identifies the analytical service provider, not a sampled consumer product.
-- **Part 2 wiki/HMTc firewall:** the source is heavily framed around advocacy ("a wake-up call," "stricter safety standards," "the future for consumer trust and industry change") and around Clean Label Project's own Purity Award and Transparency Certification programs. Those framings are not reproduced here; only the analytical occurrence findings and exceedance percentages are recorded. No HMTc threshold proposal is drawn from this source, and no Clean Label Project program endorsement is reproduced.
-- **Speciation:** ICP-MS reports total elemental concentrations; tAs and tHg are correct labels, iAs and MeHg are not claimed. No speciation chemistry is described in the report.
-- **Units and bases:** all heavy-metal exceedances are framed against the California Prop 65 Safe Harbor reference for lead, which is a daily-exposure µg/day reference, not a concentration ppb reference. The source does not state the serving-size denominator or per-product concentration that produces each exceedance count, so the underlying ppb concentrations cannot be back-calculated from this report. The 0.5 µg/day Pb MADL numeric is imported here from OEHHA's published Safe Harbor list, not from the source's own text.
-- **Year selection:** report self-titles as "2024-25 Protein Powder Category Report" and also as "Protein Study 2.0." Cite-key year selected as 2025 to match the publication-distribution year and the source filename (`04_CleanLabel_2025_Protein_Powder_Heavy_Metals.pdf`); sampling year range recorded as 2024-2025 in source metadata.
-- **Cohort denominators:** the source discloses total cohort n=160 but does not disclose sub-cohort denominators (how many of the 160 were plant-based, whey, collagen, organic, chocolate, vanilla). Sub-cohort exceedance percentages are therefore on undisclosed denominators and should not be back-converted into product counts.
-- **Bisphenol comparison:** the 2018 reference figure ("55%") refers to Clean Label Project's prior 2018 protein-powder investigation, not to the 2020 collagen study at [[sources/cleanlabel2020-collagen-heavy-metals]]; the 2020 collagen white paper did not report bisphenols and is not the comparator.
-- **Scaffold-introducing slugs:** matrices labels `plant-based-protein`, `chocolate-flavor`, and `vanilla-flavor` are not yet in the editorial record. The existing `protein-powder`, `whey-protein`, and `collagen-supplement` labels follow the convention established by [[sources/bandara2020-protein-powder-heavy-metals]] and [[sources/cleanlabel2020-collagen-heavy-metals]]. New slugs surfaced for the next taxonomy-snapshot regeneration.
-- **Evidence tier B rationale:** non-peer-reviewed industry/advocacy report published as a downloadable PDF on cleanlabelproject.org; no DOI; no per-product data; no concentration distribution; no QA/QC reporting. Analytical chemistry performed by an accredited third-party lab (Ellipse Analytics) using standard methods (ICP-MS for metals, LC-MS/MS for bisphenols), which justifies B over C, but the absence of peer review, of per-product reporting, of statistical detail on the underlying distributions, and of serving-size/exposure-conversion methodology prevents A-tier classification.
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/mercury]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

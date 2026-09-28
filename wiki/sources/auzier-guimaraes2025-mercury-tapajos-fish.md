@@ -63,17 +63,13 @@ Courses: Core content for the mercury/fish dietary exposure module. Illustrates 
 
 App: The study does not provide product-level data for commercially packaged foods but is directly relevant to qualitative risk scoring for fresh or frozen Amazonian freshwater fish. tHg range 0.01–3.82 mg/kg and higher piscivorous values can inform fish-type-specific contamination context.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
 - [[products/fresh-fish]]
 - [[metals/mercury-total]]
 - [[metals/mercury-methyl]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected matrix vocabulary, replaced non-taxonomy wiki links with valid ingredient/product/metal links, reframed MSCQ/THQ wording to report the authors' modeled risk rather than issue consumer guidance, and removed a named GIS software package from Methods while preserving the spatial-analysis method.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

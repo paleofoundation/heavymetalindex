@@ -68,17 +68,13 @@ Courses: Useful remediation-method example for Cr(VI) reduction and for separati
 
 App: Route to testing/remediation context and Cr(VI) metal context. Do not route the 20 mg/L challenge solution as drinking-water occurrence, and do not treat catalyst Cd as a consumer-product cadmium concentration.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[metals/cadmium]]
 - [[testing/index]]
 - [[mitigation/index]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/catal13050826`; no DOI conflict was observed. The Cr(VI) values are from a synthetic laboratory challenge solution, not natural water, food, or product occurrence. Cadmium appears as a component of the CdIn2S4 photocatalyst and in catalyst characterization; the paper does not report cadmium contamination in the treated water or in consumer goods.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

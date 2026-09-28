@@ -985,11 +985,9 @@ This source is strong for screening, source discovery, gap analysis, and cross-r
 
 GEMS/Food source-scope p10, p50, p90, and p95 values are not final HMTc thresholds. Clean-row standards require an admitted exact-row aggregate P90 pool; contaminated-platform rows use the governance-selected lower-tail aggregate target, not dirty-category P90.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[sources/${SOURCE_ID}]]
 - [[sources/index]]
-- [[log]]
 `;
 }
 

@@ -48,15 +48,11 @@ Courses: Useful for showing that remediation can target aluminum toxicity and ag
 
 App: Context-only mitigation evidence.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[mitigation/remediation-evidence]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. Products and ingredients remain empty because the paper focuses on field-soil remediation and plant-performance outcomes, not a marketed peanut-product assay.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

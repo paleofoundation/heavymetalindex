@@ -78,9 +78,9 @@ Microbiome: No direct microbiome endpoint.
 
 This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC7065688 (CC BY-ND license per PMC OA bulk API). The JATS XML is preserved at the archived source file. PDF was not directly fetched (PMC HTML interstitial blocks direct download). Initial wishlist entry incorrectly labeled this as "Al-Saleh 2020"; the actual first author is Igweze ZN (Nigerian-market study, not Saudi). Wishlist updated.
 
-## Wiki Pages Updated On Ingest
+## Related evidence
 
-- [[products/infant-formula-powder-non-soy]] (Al cell upgrade pending master-summary refresh)
+- [[products/infant-formula-powder-non-soy]]
 - [[products/infant-and-child-foods-master]]
 
 <!-- BEGIN: hmi-page-history -->

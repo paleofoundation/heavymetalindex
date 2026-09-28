@@ -90,7 +90,7 @@ For arsenic speciation, the authors weighed `0.1 g` seaweed, `0.2 g` seafood, or
 
 This source provides direct Japanese-market occurrence evidence for inorganic arsenic in dried seaweed products, fish/shellfish products, seafood sauces, and seafood tissue parts. It reinforces that total arsenic and inorganic arsenic are not interchangeable: several fish and shellfish muscle samples had measurable total arsenic while iAs was below LOQ, whereas hijiki, akamoku, and mozuku had much higher measured iAs. Seafood organ measurements should remain part-specific context and should not be pooled with ordinary edible-muscle rows without preserving the tissue distinction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[products/seafood]]
@@ -106,16 +106,6 @@ This source provides direct Japanese-market occurrence evidence for inorganic ar
 - [[ingredients/shellfish]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.5740/jaoacint.18-0148`, raw handle `MFK_matsumoto-tanibuchi2019`, title text, or cite key `matsumoto-tanibuchi2019-seaweed-seafood-ias`.
-- Text was extracted to `/tmp/hmi-seaweed-047.txt` with `pdftotext -layout`; Tables 1-5, abstract, methods, results, conclusions, and references were readable.
-- All Key numbers were checked against `/tmp/hmi-seaweed-047.txt`. Table 4 and Table 5 values were transcribed row-by-row, preserving `ND`, `<0.042`, `<0.011`, `mg/kg`, and extraction-rate percentages.
-- Units and bases are preserved as `mg/kg`, `%`, `ng/g`, `μg`, `μL`, `mL`, `mol/L`, and `°C`. No conversion to ppb, dry-weight, or wet-weight was performed.
-- Speciation check: inorganic arsenic is recorded only where the source reports As(III)+As(V). Total arsenic, AB, MMA, DMA, AC, TMAO, and TeMA are not substituted for iAs.
-- Brand firewall: no consumer brands were attached to contamination values. Instrument and reagent vendor names in the methods are scientific reporting, not brand contamination ranking.
-- Missing-slug check: no missing product or ingredient slug blockers for broad routing. Exact product names such as nam pla and oyster sauce route through `condiments-general`; exact species and tissue parts remain in Key numbers and methods text.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

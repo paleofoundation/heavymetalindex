@@ -73,7 +73,7 @@ Bush-meat carcasses (cane rat *Thryonomys swinderianus* and giant rat) were purc
 
 The paper does not report: instrument make or model, digestion conditions (temperature/time/acid concentration beyond "nitric acid"), reference material results, recovery percentages, instrument detection or quantification limits, replicate counts per group, or whether the reported values are means of replicates or of pooled samples.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat-and-poultry]]
 - [[products/game-meats]]
@@ -83,16 +83,6 @@ The paper does not report: instrument make or model, digestion conditions (tempe
 - [[metals/manganese]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- Identity verified against the PDF at the archived source file (sha256 `271331a32c509b8b5a18c356ee1395156cfe443f5a1fad6da9f1764c7e895d55`). DOI 10.4172/2157-7110.1000617; J Food Process Technol Vol 7 Issue 9, article 617; received July 2016, accepted August 2016.
-- **Internal Pb-boiled discrepancy:** Table 1 records boiled Pb as 13.93 ppm. The Results narrative on page 2 reads "After boiling, it increased to 13.73 ppm and increased to 17.32 ppm after frying." The 13.93 vs 13.73 difference is a single-digit transcription error in the narrative; Table 1 is treated as the authoritative figure on this page. Flagged here because the table-vs-text inconsistency was not corrected at proof.
-- **Cd uniformity:** the paper reports Cd at exactly 0.10 ppm for all six cooking-state groups with p=1.00 and is silent on detection limits, replicate counts, and recoveries. A perfectly uniform mean across six groups with no variance is consistent with values sitting at the instrument's reporting floor (and being rounded or reported as the floor) rather than with genuine biological constancy. Page values are reported as the authors state them; the QA-gap caveat is what the C-tier evidence rating reflects.
-- **Evidence tier C** reflects the publishing venue (J Food Process Technol, OMICS open-access), the absence of any reported QA controls (no LOD/LOQ, no reference materials, no recoveries, no replicate structure), the small smoked-meat group (n=5), the unstated digestion details, and the Cd-uniformity reporting pattern. Findings are usable as occurrence data for cooked vs raw bush-meat Pb dynamics in Ghana but should not be pooled with A- or B-tier datasets.
-- No brand names appear in the source; no brand-firewall edits required.
-- Sampling year range left null: paper was received July 2016 but does not state the calendar year of sample collection.
-- License: paper carries an explicit CC BY notice on page 1.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

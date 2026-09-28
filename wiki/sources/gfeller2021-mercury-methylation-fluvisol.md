@@ -56,7 +56,7 @@ Courses: The source is useful for explaining why upstream evidence cannot be lim
 
 App: Context only for product thresholds. The HgT and MeHg values are soil, manure, and soil-microcosm values and should be used in supply-chain and mercury-mechanism context rather than product occurrence pooling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/irrigation-and-soil-amendments]]
 - [[supply-chain/soil-to-plant-transfer]]
@@ -76,12 +76,6 @@ App: Context only for product thresholds. The HgT and MeHg values are soil, manu
 - [[metals/vanadium]]
 - [[metals/barium]]
 - [[metals/uranium]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The old skip reason failed because the paper measures Hg and MeHg behavior in agricultural soil under manure and flooding conditions, an a3 supply-chain pathway and soil-amendment mechanism even without a finished-food concentration table.
-
-All key numbers were checked against the extracted PDF text, especially Table 1, Table 3, the Results section on net MeHg production, and the Discussion estimate of Hg evacuated during sampling. Speciation is preserved: HgT is total mercury, MeHg is methylmercury, and the page does not promote HgT to MeHg. Products and ingredients are intentionally empty because the paper reports soil, manure, and microcosm data only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

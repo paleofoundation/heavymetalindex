@@ -62,7 +62,7 @@ Courses: The source is useful for teaching the distinction between intentional-a
 
 App: The source can support a laundry-product regulatory context card where HMI exposes cleaning-product evidence. It should not be presented as evidence that any product category has measured heavy-metal concentrations below or above a benchmark.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/laundry-detergents]]
 - [[products/laundry-detergent-boosters-additives]]
@@ -83,17 +83,6 @@ App: The source can support a laundry-product regulatory context card where HMI 
 - [[metals/cobalt]]
 - [[metals/manganese]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_gs51_laundry_standard.txt`. The cover, foreword, table of contents, scope, product-specific sustainability clauses, colorants clause, packaging heavy-metal restriction, intentional-introduction definition, VOC limits, concentration/compaction table, and product exclusions were checked against this page.
-- No DOI is printed in the extracted standard. Identity checks before creation found no existing the linked reference record, no exact GS-51 source-page title hit, and no raw-handle hit for `MFK_laundry-care-products-standard-gs-51`.
-- Numbers and units are copied from the standard without conversion. The standard reports criteria (`%`, `ppm`, `mg/kg`, `ppmV`, `ml/kg`, `g/kg`), not product occurrence concentrations.
-- Speciation: `Cr-VI` is source-specific because the standard names hexavalent chromium. Arsenic and mercury are source-unspecified, so this page uses `tAs` and `tHg` context only.
-- Brand firewall: Green Seal is the standards publisher, not a product brand tied to contamination values. The page contains no commercial laundry-product brand names.
-- Evidence tier: `B` because this is a binding third-party voluntary certification standard with routeable regulatory context but no primary occurrence data.
-- Missing slug note: selenium is named in the product prohibited-components and colorants clauses, but no selenium metal page exists in the current taxonomy snapshot. It is preserved in Key numbers rather than linked through a non-existent slug.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `11` laundry/fabric-contact product routing rows, was absent from the structured evidence record, and had only the expected nonblocking `ingredients` advisory in the structured evidence record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

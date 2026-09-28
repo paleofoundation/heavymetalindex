@@ -108,7 +108,7 @@ App: The 356-food concentration table (supplementary Tables S3–S6) can inform 
 
 Microbiome: Not directly addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-total]]
 - [[metals/cadmium]]
@@ -128,12 +128,7 @@ Microbiome: Not directly addressed.
 - [[products/canned-fish]]
 - [[products/chocolate]]
 - [[products/snacks-crackers-biscuits]]
-
-## Verification notes
-
-- Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, fixed the Hg mg/kg-to-ppb conversion, removed instrument/software brand names from Methods, corrected closed-vocabulary ingredient/product/matrix links, and tightened HMT&C/app/microbiome implication language.
-- Merge-enhance 2026-05-26: canonicalised placeholder `raw_handle: manual-fetch-source-retrieval` → `MFK_results-of-the-bfr-meal-study-in-germany-mercury-i`; added missing `access_url` and `raw_sha256`; removed `MeHg` from `metals:` (this paper measures total Hg via direct-Hg analyzer only — MeHg is referenced from the companion paper Sarvan et al. 2021, not measured here); restructured the Cd-by-main-food-group block so cocoa powder is placed under its actual main food group (Coffee, cocoa, tea, infusions), per the paper's Section 3.1.2 attribution, and added the six-MEAL-food joint Cd+Pb high-level cluster from Section 3.1.2/Fig 1B-C with explicit caveat that those foods do not all share one main food group.
-- Audit editorial review (2026-05-26) flagged: (1) `[[metals/mercury-methyl]]` in the wiki-pages-touched list inconsistent with the corrected source metadata (paper does not measure MeHg) — verified against page Methods §"Speciation note" and source Section 2.5; removed the wikilink. (2) Implications opening framed relevance through "HMT&C-certified products" which tilts toward Part 2 HMT&C-convenience register — verified; reframed as "spanning the breadth of the HMI ingredient and product taxonomy" to keep audience-neutral. (3) Methods stripped instrument vendor names but Part 12 Exception 2 explicitly permits these for reproducibility — verified against source Section 2.4 (Grindomix GM300, Retsch GmbH; Milli-Q Integral 5, Merck) and Section 2.6 (Microsoft Excel 2016, IBM SPSS Statistics v26); restored. All three findings applied; 0 rejected.
+- [[metals/mercury-methyl]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

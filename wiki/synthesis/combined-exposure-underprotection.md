@@ -73,14 +73,13 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st meeting 2022]]. *Cadmium (Addendum) — 91st meeting of the Joint FAO/WHO Expert Committee on Food Additives*. Carried the 2010 PTMI (JECFA 73rd, WHO TRS 960) of 25 µg/kg b.w./month forward without revision; updated 2019 cocoa occurrence data pushed total dietary Cd exposure in children 0.5-12 years to up to 96 percent of PTMI in subpopulations.
 - [[sources/efsa2024-risk-assessment-iAs-update|EFSA CONTAM Panel 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal. 191-page Scientific Opinion adopted November 2023; iAs classified as genotoxic carcinogen requiring Margin of Exposure approach; BMDL05 of 0.06 µg iAs/kg bw/day from US skin cancer case-control study; adult MOEs from 2 to 0.4 (mean consumers) and 0.9 to 0.2 (95th percentile), all below threshold MOE of 1.
 
-## How this page was promoted
+A later reading should include the FDA Total Diet Study 2018-2020 multi-metal exposure analysis, a cumulative analysis outside the Suomi dataset, and any EFSA or JECFA revision of a single-metal reference value that responds to cumulative exposure.
 
-Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, with relevance to regulator (the cumulative-exposure framework gap) and educator (the architectural argument that single-metal floors under-protect) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
@@ -92,7 +91,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/suomi2023-finland-dietary-metals-cumulative|Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults]]<span class="hmi-ref-meta">Suomi J and Tuominen P · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s10661-023-11427-y](https://doi.org/10.1007/s10661-023-11427-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>

@@ -202,7 +202,7 @@ created_routed_sources: ${entry.count}
 
 # ${title}
 
-This page is an autonomy-created stub. The routing audit identified ${entry.count} source pages in the corpus declaring \`ingredients: [${slug}]\` in their frontmatter without a dedicated page existing, so the autonomy loop created this stub to give those sources a defined routing target. The synthesis pass fills in the contamination profile as sources accumulate.
+${entry.count} studies in the corpus report this topic. This page collects them. The concentration profile fills in as those studies are read.
 
 ## Heavy metal contamination profile
 
@@ -222,7 +222,7 @@ This page is an autonomy-created stub. The routing audit identified ${entry.coun
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as \`*[awaiting synthesis]*\`._
+_Sources catalogued for this page. The last column says how each source is used here._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -308,7 +308,7 @@ _Public-record regulatory events for this product category will be summarized he
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as \`*[awaiting synthesis]*\`._
+_Sources catalogued for this page. The last column says how each source is used here._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

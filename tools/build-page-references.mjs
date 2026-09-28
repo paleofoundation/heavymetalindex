@@ -149,8 +149,7 @@ function renderIntro(raw) {
   const inventory = sourceSection ? ` See ${sourceSection} for this page's source inventory.` : ""
   return (
     "Works cited in this page's text, in first-appearance order." + inventory +
-    " Each title links to its source record, which carries the ingest receipt, the extracted " +
-    "values, and the file hash of the document it was built from."
+    " Each title links to its source record."
   )
 }
 

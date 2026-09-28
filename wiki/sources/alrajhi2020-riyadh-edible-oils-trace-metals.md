@@ -60,7 +60,7 @@ App: Useful for showing that edible oil evidence can include both essential trac
 
 Courses: Useful for teaching non-detect notation, table-vs-text contradictions, and jurisdiction-aware product evidence routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cooking-oils-other]]
 - [[ingredients/vegetable-oils]]
@@ -75,16 +75,7 @@ Courses: Useful for teaching non-detect notation, table-vs-text contradictions, 
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[testing/icp-oes]]
-
-## Verification notes
-
-This page was built from the full PDF, including Table I sample rows and summary statistics, the digestion and ICP-OES method description, the discussion sections for each metal, Table II correlations, and the conclusion. Three internal inconsistencies were retained rather than silently corrected: Table I reports an average Cr concentration of 0.072 mg/kg while the discussion text gives 0.026 mg/kg; the Mn discussion text on page 981 reports an average of 0.002 mg/kg while Table I gives 0.006 mg/kg; and the Pb discussion says "16 of the 37 samples" although the study and Table I describe 54 samples. This page follows the Table I summary statistics for concentration values and flags all three conflicts for audit. A separate paper-side typo where the Cd discussion paragraph opens with "Ca was detected in 14 of the 54 samples" is also noted; the paper clearly intends Cd given the surrounding numbers and FAO/WHO Cd limit.
-
-Audit editorial review 2026-06-02 flagged Se / selenium as outside the current Metals taxonomy (no `metals/selenium.md` page; `selenium` not in the snapshot's Metals list). Verified — Se was dropped from `metals:` source metadata and the `[[metals/selenium]]` bullet was removed from "Wiki pages this source may touch". The selenium data in Table I (range 0.05-0.89 mg/kg, average 0.172 mg/kg, strong correlation with total As at 0.997) remains in the Key numbers table and is preserved here for the day a selenium metal page is added; flagging selenium as a proposed Metals slug addition for Karen.
-
-Audit editorial review 2026-06-02 flagged `matrices: [edible-oil, vegetable-oil, soybean-oil, palm-oil, olive-oil]` as over-specified because Table I sample rows are not labeled by oil type. Verified — the page's own Implications already states that values should not be split into soybean-oil/palm-oil/olive-oil benchmark pools. Collapsed matrices to `[edible-oil, vegetable-oil]` per the system-prompt broad-scope rule.
-
-`[[testing/icp-oes]]` is referenced in the "Wiki pages this source may touch" section but no the linked reference record exists yet. Retained because five other source pages use the same placeholder; flagging `testing/icp-oes` as a proposed testing-methods page (companion to the existing the linked reference record).
+- [[metals/selenium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

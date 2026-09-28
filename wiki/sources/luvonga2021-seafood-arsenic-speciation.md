@@ -58,15 +58,6 @@ Spirulina powder and Atlantic kelp powder were packaged as powder materials; geo
 
 This source supplies primary arsenic-speciation occurrence evidence for seafood, shellfish, fish, kelp powder, and spirulina powder. It reinforces that total arsenic is not a reliable proxy for inorganic arsenic: wild-caught shrimp had high total arsenic dominated by AsB, kelp had high total arsenic dominated by arsenosugars with iAs not detected, and spirulina had lower total arsenic but a high iAs fraction. Downstream pooling should keep spirulina supplement evidence separate from kelp/seaweed foods and from fish or shellfish occurrence rows, and should preserve the dry-mass versus as-received basis distinctions.
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; abstract, sample collection, extraction methods, Table 2, iAs Results, species Results, and Conclusions were checked in `/tmp/f3_texts/luvonga2021.txt`.
-- DOI `10.1016/j.jfca.2020.103729`, raw handle `MFK_luvonga2021`, and cite-key checks found no existing source page before creation. Existing `luvonga2020-organoarsenicals-marine-methods-review` is a different methods-review paper.
-- Table 2 values are preserved in `ng/g`; the Results text's `ug/g` summary is separately labeled. No unit conversion was performed.
-- Speciation: source metadata uses only total arsenic and inorganic arsenic. AsB, DMA, and arsenosugars are preserved in Key numbers as source-reported species but not collapsed into inorganic arsenic.
-- Brand firewall: supplier names for spirulina and kelp were not attached to contamination values in the page body; values are reported by material type only.
-- source metadata slugs were checked against the editorial record; no ingredient slugs exist for shrimp, geoduck clam, Coho salmon, spirulina, or kelp, so broad seafood/shellfish/fish/seaweed routing is used.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

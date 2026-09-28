@@ -831,7 +831,7 @@ function BackMatter(m) {
   const blocks = [
     ["Status and licence", `Editorially reviewed in-house; no external peer review has been completed on this ${finding}. Published as an institutional technical report with its review state tracked on the article page. ${m.licenceStatement}`],
     ["Competing interests", m.competingInterests],
-    ["Data availability", `Every source behind this ${finding} is listed with its own extraction record at ${m.url}#sources, each linking to the ingest receipt, the extracted values, and the file hash of the document it was built from.`],
+    ["Data availability", `Every source behind this ${finding} is listed with its own source record at ${m.url}#sources.`],
     ["Publication history", `${m.firstPublished ? "First published " + m.firstPublished + ". " : ""}${m.revision ? "This revision " + m.revision + ". " : ""}The full dated record is maintained at ${m.url}.`],
   ]
   return h(View, null, [

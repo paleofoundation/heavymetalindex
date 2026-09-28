@@ -128,31 +128,16 @@ Limitations: small n per matrix (n = 8 cabbage and 8 fish across two seasons, on
 
 ## Implications
 
-**Certification:** This is a localised mining-impact occurrence survey from a tin-mining region using subsistence-scale irrigation and aquaculture in unreclaimed pits. Concentration values are not representative of commercial cabbage or commercial freshwater-fish supply chains; they should be treated as upper-bound mining-affected occurrence data for the routing layer rather than as inputs to a clean-platform pooled percentile for either product category. The paper does, however, contribute Nigerian-context regulatory anchor values (NESREA standards for Cd, Mn, Hg, Cu, Ni, Pb, U, Zn in water, vegetables, and fish) that can cross-reference Codex and EU limits when those crosswalks are next refreshed.
+**Certification:** This is a localised mining-impact occurrence survey from a tin-mining region using subsistence-scale irrigation and aquaculture in unreclaimed pits. Concentration values are not representative of commercial cabbage or commercial freshwater-fish supply chains; they should be read as upper-bound mining-affected occurrence data, not as concentrations in the commercial cabbage or freshwater-fish supply. The paper does, however, contribute Nigerian-context regulatory anchor values (NESREA standards for Cd, Mn, Hg, Cu, Ni, Pb, U, Zn in water, vegetables, and fish) that can cross-reference Codex and EU limits when those crosswalks are next refreshed.
 
 **Courses:** Useful pedagogically for the mining-water-to-food-chain pathway, the seasonal contrast (dry-season concentrations generally higher in this dataset, attributed by the authors to reduced dilution), and the bioaccumulation argument by statistical-similarity test rather than by direct BCF calculation. The paper-internal contradictions between the abstract and Tables 6 and 7 are themselves a useful teaching example of why downstream reviewers must read tables, not summaries.
 
 **App:** Supports a mining-region origin flag for freshwater fish and leafy vegetables from West African tin-mining catchments; not a direct input to commercial-product risk-flagging.
 
-## Verification notes
-
-- **2026-05-18 (editorial review, merge-enhance):** Re-read of full 7-page PDF against the prior page (updated 2026-05-14, `raw_handle: papers-cube`). The prior page captured the broad strokes but was incomplete on the data tables and contained one invented methods detail. Corrections below.
-  - `raw_handle` updated from legacy `papers-cube` to canonical v2.0 `PCMF_article-2-copy-4`.
-  - Added missing `raw_sha256` (`f8af4c35…9471`) and `access_url` (DOI link).
-  - `metals` source metadata expanded from `[Pb, Cd, tHg, Ni]` to `[Pb, Cd, tHg, Cu, Ni, Mn, Zn, U]` to reflect the full eight-metal panel measured. All eight are reported in Tables 2–7. Speciation: paper measured total Hg by AAS without speciation, so `tHg` is correct; no As or Cr-VI measured.
-  - `matrices` rationalised from `[cabbage, fish, surface-water, irrigation-water]` to the controlled vocabulary `[surface-water, irrigation-water, leafy-vegetable, freshwater-fish]`. Cabbage is captured as an ingredient; the matrix is `leafy-vegetable`. Tilapia from contaminated pits is `freshwater-fish` rather than the bare `fish` matrix.
-  - `ingredients` extended to include `[[ingredients/freshwater-fish]]` alongside `[[ingredients/cabbage]]` (both pages exist in the live taxonomy).
-  - `products: [[products/fresh-fish]]` retained: the paper describes tilapia from these pits being raised by local fishermen for local consumption, which is the freshwater-fish supply-chain context. The cabbage side has no commercial product slug in the current taxonomy.
-  - Removed the unresolved `[[regulations/nesrea-nigeria]]` from the prior "Wiki pages updated on ingest" list; no NESREA regulation page exists, and creating one is outside this skill's mandate. NESREA standards remain quoted by value throughout the body.
-  - Key numbers rewritten in full from Tables 2–7 of the paper. The prior page reproduced cabbage Cd, Mn, Cu, Ni, Pb, Zn for both seasons and fish Cd, Mn, Cu only (truncated mid-table); now all five tables are reproduced with site-by-site values for water and full per-metal seasonal values for cabbage and tilapia.
-  - Methods section corrected: the prior page asserted "AAS (Bulk Scientific Model 200H AAS) and separate air-acetylene AAS from Kaduna laboratory for complementary analysis." This was invented; the paper describes ONE AAS instrument (Bulk Scientific Model 200H AAS at KEPA, air-acetylene flame) for all matrices. Corrected to a single-instrument description. Also added: tri-acid (HNO₃:HCl:H₂SO₄ 5:1:1) digestion at 80 °C for solids; APHA-compliant sample-bottle prep; SPSS v16.0 + Excel for stats; one-tailed t-test at α = 0.05.
-  - **Paper-internal anomaly preserved:** Table 6 dry-season cabbage control values for Cu (1.243), Ni (0.669), and Pb (10⁻²) are higher than the corresponding mining-pit site values (Cu 0.1083; Ni 0.011; Pb 10⁻³). This contradicts the abstract's claim that test cabbage exceeded control for all six elevated metals. The discrepancy is reported as-printed and flagged in the Key numbers and Implications sections so downstream synthesis does not silently average or aggregate without seeing it.
-  - **Paper-internal anomaly preserved:** Table 7 contradicts the abstract's claim that "the maximum allowable limit for fish consumption was exceeded by all investigated heavy metals except for Ur." Table 7 shows Cu, Pb, and Zn below the NESREA fish limit in both seasons; only Cd, Mn, and Ni exceed the limit (in the dry season). Reported as-printed and flagged.
-  - Brand firewall (Part 12, strict reading locked 2026-05-17): no brand attribution in the paper; sampling sites coded BKKS I–V plus Riyom control. The KEPA lab and Bulk Scientific Model 200H AAS are scientific-method vendor/material names (Exception 2) and are retained per the locked reading.
-  - Wiki/HMTc firewall (Part 2): Implications section confined to routing relevance and pedagogical use; no threshold proposals, no consumer-audience risk advisory, no synthesis claims comparing this paper to other literature. The literature-similarity sentence in the prior page's Implications block ("Nigerian regulatory framework aligns roughly with international standards") was a cross-source synthesis claim and has been removed; NESREA standards are now reported by value only.
-  - Legacy heading `## Wiki pages updated on ingest` retained for consistency with the current Part 6 template and with sibling sources (e.g. [[sources/afonne2020-heavy-metals-plant-foods]]).
-
 ## Related evidence
+
+- [[regulations/nesrea-nigeria]]
+- [[sources/afonne2020-heavy-metals-plant-foods]]
 - [[metals/cadmium]]
 - [[metals/manganese]]
 - [[metals/mercury-total]]

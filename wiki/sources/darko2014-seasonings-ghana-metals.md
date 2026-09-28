@@ -61,16 +61,6 @@ Twenty-two powdered seasonings were purchased from local shops and hawkers in Ku
 
 This source adds Ghana-market occurrence data for powdered spices, herbs, and seasoning blends, with direct relevance to the `spices` and `condiments-general` product routes. Its strongest HMI-target finding is that every one of the 22 sampled seasonings reported a Pb value above the FAO/WHO (2003) 0.3 mg/kg permissible limit for spices, with unmixed-seasoning Pb ranging 0.6-1.8 mg/kg and mixed-seasoning Pb ranging 0.63-1.39 mg/kg. Cd was detected in 23% of samples, with nutmeg (0.9 mg/kg) the single point above the FAO/WHO (2001) 0.20 mg/kg spice comparator. Hg should be routed as total mercury context only and specifically as non-detect at the reported 0.01 mg/kg detection limit. Fe, Zn, and Cu were measured on the same analytical panel and are retained in the page body for source context only; they are not HMI target analytes.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained a readable title page, abstract, methods, Tables 1-2, results, conclusion, and references.
-- DOI verified from the first page as `10.5897/AJFS2013.1107`; DOI, raw handle `MFK_10-5897-ajfs2013-1107`, and cite-key checks found no existing source page before creation.
-- All grouped ranges above were checked against the abstract and Tables 1-2 in the extracted text. The Pb and Cd comparator statements were checked against the Results/Discussion text.
-- Units are preserved as reported (`mg/kg`); no conversion to ppb or µg/kg was performed.
-- Speciation: mercury is recorded as tHg because the source measured Hg by cold-vapour AAS and did not report methylmercury or inorganic mercury separately.
-- Brand firewall: the paper reports seasoning type/source entries in tables. This page reports grouped mixed/unmixed seasoning ranges and does not attach sampled-product names to contamination values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

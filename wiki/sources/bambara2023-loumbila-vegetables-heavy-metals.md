@@ -48,7 +48,7 @@ The paper analyzes vegetable samples from an agricultural area influenced by Lou
 
 The source fills vegetable occurrence context for Burkina Faso, especially for carrot, onion, lettuce, green bean, and bell pepper. The site-specific dry-weight basis should be retained during routing.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[ingredients/onions]]
@@ -59,10 +59,6 @@ The source fills vegetable occurrence context for Burkina Faso, especially for c
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/chromium]]
-
-## Verification notes
-
-The source reports total chromium, not hexavalent chromium. No brand or vendor contamination identities were transcribed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -80,20 +80,13 @@ App: Supports coffee category context for Cd/Pb, with an explicit caveat that co
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[ingredients/coffee]]
 - [[ingredients/beverages]]
 - [[products/coffee]]
-
-## Verification notes
-
-- Fresh auto-fetch ingest 2026-05-18 from the gap-driven wishlist. The Cd-target and Pb-target PDF downloads have identical SHA-256 hashes, so the duplicate wishlist DOI is represented as a single source page with `near_duplicates`.
-- Product-scope gap: the paper measures chicory and cereal coffee substitutes in addition to instant coffee. No dedicated `coffee-substitutes` product slug exists, so this page routes only to [[products/coffee]] and surfaces a new-product proposal for Karen review.
-- Strict brand firewall: the paper's Table 2 uses anonymized product codes and product-form descriptors. This page reports category-level aggregates only and does not reproduce sample-code rows or any commercial brand names.
-- Methods vendor/reference-material names are retained under Part 12 Exception 2 for instrument, reagent, and certified-reference-material documentation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

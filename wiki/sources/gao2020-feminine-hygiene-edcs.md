@@ -79,7 +79,7 @@ App: The source can support non-metal context cards for feminine-care products, 
 
 Microbiome: The paper mentions bacterial vaginosis only as a possible EDC-related research area in the conclusion; it does not measure microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/menstrual-pads]]
 - [[products/menstrual-tampons]]
@@ -87,10 +87,6 @@ Microbiome: The paper mentions bacterial vaginosis only as a possible EDC-relate
 - [[products/intimate-washes-cleansers]]
 - [[products/feminine-deodorants]]
 - [[products/dusting-talc-powders-adult]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for DOI `10.1016/j.envint.2020.105465`, raw handle `MFK_paper-19-gao-2020-edcs-feminine-products`, cite key `gao2020-feminine-hygiene-edcs`, or the exact title. The DOI, title, byline, journal, year, and CC BY-NC-ND license were checked against the first page. Tables 1-4 and Sections 2.2-2.4 and 3.1-3.6 were re-opened from `/tmp/hmi-fem-011.txt`; all concentrations above preserve the source's `ng/g` and `ng/kg-bw/day` units without conversion. `metals: []` is intentional: the paper measures no heavy metals, no total arsenic, no inorganic arsenic, no mercury species, no chromium species, and no organotin/tin. The source states that products came from 47 popular brands, but this page reports only category-level values under the brand firewall. Product slugs were checked against the closed taxonomy; `menstrual-pads` covers both pads and panty liners because no narrower panty-liner slug exists, and `intimate-washes-cleansers` covers the bactericidal creams/solutions category because no narrower closed slug exists. `npm run evidence:source-routes` exited 0 and generated six product routes; `routing_malformed.csv` contains an advisory-only warning for intentionally empty `ingredients` and `metals`.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

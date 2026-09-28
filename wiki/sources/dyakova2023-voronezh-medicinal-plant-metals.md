@@ -68,7 +68,7 @@ Supports geographic and tissue-specific contamination evidence for botanical raw
 
 Evidence Fitness: EF-2 for species/tissue and disturbed/control ranges; background means are mixed-species context. Basis and sampling-detail gaps remain visible and do not erase reported summaries.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/herbal-botanicals]]
 - [[products/supplements-botanicals-herbs]]
@@ -83,14 +83,6 @@ Evidence Fitness: EF-2 for species/tissue and disturbed/control ranges; backgrou
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-English byline and citation on PDF p 8 establish Dyakova, publication year 2023 and DOI. The English title is used here; numerical extraction follows Russian Tables 1–2. Novel medicinal-plant-material matrix denotes raw pharmacopoeial herbs, not finished supplements. Zero-valued Hg flower cells are retained as source reporting/censoring evidence, not zero exposure. Total As/Hg/Cr are not inorganic As, methylmercury or Cr(VI). Source pharmacopoeial comparisons are secondary context, not new regulatory-register rows.
-
-Table 2 background means have an internal consistency problem: Cd 0.08 mg/kg exceeds every Table 1 control upper endpoint (maximum 0.04), and Zn 40.23 exceeds every control upper endpoint (maximum 38.1). They remain source-reported inconsistent context, not accepted background estimates.
-
-The preserved Library PDF is identified by `RPHMI_6`; SHA-256 `d2b59b3c7f8188c4963f40d2cfb9de8927b4b6deaa26082c15aece62a5b40fdb`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://journal.asu.ru/cw/article/download/11725/10993. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -287,7 +287,7 @@ The sources below are catalogued as product-context candidates for this row. The
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/fda2022-draft-lead-juice|Draft Guidance for Industry: Action Levels for Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Draft Guidance for Industry · 2022 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice)</span><span class="hmi-ref-tag">Guidance</span>
 2. [[sources/fda2004-juice-haccp-lead|Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Guidance for Industry · 2004 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first)</span><span class="hmi-ref-tag">Guidance</span>
@@ -304,7 +304,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

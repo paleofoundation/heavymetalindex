@@ -78,27 +78,9 @@ Simulated-use exposure assessment, conducted in 2010-2011 at Hoseo University To
 - Courses: Useful as a methods reference for designing simulated-use exposure studies for powder-applicator product forms. The asymmetric applicator-vs-target-subject concentration ratio (4.2× higher at the baby's breathing zone than at the applicator's) is a generalizable cautionary finding — the user of a personal-care powder may receive less dust exposure than the recipient, and risk assessments that sample only at the applicator's breathing zone will systematically under-estimate the infant dose.
 - App: Not directly applicable to the heavy-metals consumer app.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[products/baby-talcum-powder]] — methodology / inhalation-pathway reference (no metal occurrence data).
-
-## Verification notes
-
-- **No heavy-metal occurrence data.** `metals: []` is correct. The paper measures total-mass airborne particulate baby powder and references talc and asbestos (a fibrous magnesium-silicate mineral) as the dust constituents of concern. Asbestos is not a heavy metal and is not in the wiki's `metals/` taxonomy; talc is a magnesium-silicate matrix, not a metal page. The paper is ingested as out-of-core-scope methodology under the precedent set by `lai2025-infant-diaper-phthalate-dna-oxidation.md`.
-- **Paper-internal numerical typos that do not invalidate the data.**
-  - Abstract reports applicator range "0.00157~0.01579 mg/m³". Table 1 row 9 reports 0.00152 mg/m³. The lower bound is 0.00152, not 0.00157; the abstract carries forward Table-1 row 1 (0.00157) by mistake. Table 1 is authoritative.
-  - Results-section body text (p. 138) reports baby-doll range "0.04173 mg/m³ to 0.00078 mg/m³". Table 2 row 2 reports 0.00780 mg/m³ and the abstract reports 0.00780 correctly. The body-text "0.00078" is a missing-zero-after-decimal typo. Table 2 is authoritative.
-  - Table 5 footer reports "Mean ± SD 0.035308 ± 0.01255" for the 5-application consumption row. Individual rows in Table 5 range 0.33553-0.37185 g and would average ~0.35 g. The published footer is a decimal-place typo (off by 10×); the abstract's 353 mg is consistent with the row-level data and is the value the paper uses downstream.
-  - These three typos are internal-consistency drift, not a data-integrity issue: Table values match the figures used in the asbestos-projection arithmetic, and the abstract values match the published conclusions. Not a stop condition under the v2 skill's "obvious mirroring pattern" rule.
-- **Brand-firewall compliance.** The single commercial product tested is identified in the Methods section (p. 138) by manufacturer and lot ("baby powder purchased from Agabang & Company, 77C088017, Seoul"). This source page deliberately names the manufacturer **only** in the `sample_population` source metadata and in the Methods (brief) paragraph as part of the scientific-reproducibility provenance for the simulated-use protocol, in line with the Part 12 "scientific-method vendor/material names" exception locked 2026-05-17. The product is not attributed to any specific contamination value — there are no contamination values per se in this paper, only airborne dust mass — so the brand-firewall risk of "brand ranking on contamination" does not arise. No brand-by-brand listing appears in the main wiki page body.
-- **Asbestos arithmetic is hypothetical.** The paper did not measure asbestos in the tested powder. The asbestos lung-load calculations (438,000 / 18,250 / 3,040 fibers/g dry lung pre-deposition; 87,600 / 3,650 / 608 fibers/g dry lung post-deposition) are projections assuming the regulatory worst-case 0.1 % (w/w) asbestos contamination of talc. The paper's conclusion ("estimated lung asbestos content … was much lower than that of a normal Korean with no asbestos-related occupational history") is contingent on this 0.1 % assumption; powders contaminated above the regulatory ceiling would scale linearly. This is documented in Key numbers and Implications so downstream synthesis cannot misread the projection as a measurement.
-- **Population.** No human subjects. The "baby" is a 40-cm-long baby doll. Inhalation parameters (40 breaths/min, 123 mL tidal volume, 5 L/min minute ventilation, 300 g wet / 120 g dry lung mass) are reference-literature values for infant physiology, not measurements in this study.
-- **Funding.** "This work was funded by National Institute of Food and Drug Safety Evaluation, Korea Food and Drug Administration" (Acknowledgement, p. 140). Government-funded; no industry conflicts declared.
-- **License.** Toxicological Research is the official Open Access journal of the Korean Society of Toxicology (per the front-page banner). The PDF carries the "Open Access" marker but no specific Creative Commons license is printed; treated here as "Open Access (Toxicological Research / Korean Society of Toxicology)" pending a specific CC-license confirmation from the journal's current terms.
-
-## Ingest log
-
-- 2026-05-17 fresh ingest (automated editorial review, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against the linked reference record returned no hits: DOI `10.5487/TR.2011.27.3.137` not present; raw_handle `MFK_risk-assessment-of-baby-powder-exposure-through-in` not present; cite-key stem `moon2011` not present. PDF SHA-256 `5ad8486b14a5bd1855912983c1f12b53c1e02158f43ca6267f9f48a7fdbc85a7`. Paper measures total-mass airborne baby powder dust and projects an asbestos lung-load — zero heavy metals — ingested as methodology / inhalation-pathway reference per the lai2025 precedent. Routed to `[[products/baby-talcum-powder]]` (HMTc Cat 2 Row 4, locked 2026-05-16) for discoverability as an inhalation-route exposure-methodology paper but `metals: []` correctly reflects no metal occurrence data.
+- [[products/baby-talcum-powder]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

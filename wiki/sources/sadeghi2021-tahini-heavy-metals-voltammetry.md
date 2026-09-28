@@ -104,24 +104,6 @@ App: occurrence data for Pb (0.001–0.048 µg/100g across 37 brands), Cd (0.003
 - [[products/nut-seed-butters-other]]
 - [[regulations/codex-cxs-193-1995-tin-canned-foods]]
 
-## Verification notes
-
-Source written 2026-06-02 from the archived source file (SHA256 26c2cc6e27c2bfeb1ce1c5a804495ad34e122c67714081fc41ad1147d3106e0b). DOI 10.30502/jhhhm.2021.288521.1034 verified from the journal masthead on page 1. License is CC BY-NC 4.0 per the masthead statement.
-
-Paper-internal Cd/Cu abstract transposition: the abstract conclusion (p. 40) states "Concentration of Zn, Cd, Pb, and Cu was calculated as 3.79 ±2.43, 1.48 ±0.08, 0.015 ±0.01, and 0.012 ±0.007 µg/100 g, respectively." Cross-check against Table 1 (pp. 42–43) and Figure 1 (p. 43): Table 1 Cd values range from 0.003 to 0.028 µg/100g across all 37 brands, with a typical sample around 0.01 µg/100g, and Table 1 Cu values range from 0.16 to 2.79 µg/100g with most samples between 0.5 and 2.5 µg/100g. Figure 1's bar chart shows simple-Cu ~1.5, flavored-Cu ~0.6, with Pb and Cd both visually near zero. The mean values 1.48 ± 0.08 and 0.012 ± 0.007 therefore correspond to Cu and Cd respectively, not Cd and Cu as the abstract states. The Discussion text on p. 43 — "but higher amount of Cu in non-flavored samples was detected compared to flavored samples (P = 0.022)" — also confirms Cu is the ~1.5 µg/100g element. This wiki page reports the correct attribution (Cu mean 1.48, Cd mean 0.012) in the Key numbers and Implications sections, and notes the abstract transposition explicitly in the tier_rationale and here so downstream synthesis or app ingest does not propagate the abstract's mis-labelled values.
-
-Basis convention: the paper reports concentrations per 2 g of original (pre-drying) sample mass, so values are read as as-sold/wet weight here. Tahini's intrinsic moisture content is low (~1–2 %), so the wet/dry distinction is minor for this matrix. No certified reference material recovery, LOD, or LOQ figures are reported in Sections 2.5 or 2.6.
-
-Cross-paper comparison: Sadeghi 2021 Pb and Cd values are roughly two to three orders of magnitude below those reported by [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Potortì et al. 2026]] in seven Italian-market tahini brands. Both papers cite EU/Codex limits in the same mg/kg basis and both report Pb and Cd below those limits for the bulk of their samples (Potortì's T-1 exceeds both limits substantially; Sadeghi reports no exceedances). No paper-side methodological bridge resolves the order-of-magnitude gap; the wiki carries both as separate distributions and flags the discrepancy for any future synthesis pass.
-
-Audit editorial review (2026-06-02) flagged the Implications/Certification subsection's category-level inferences — specifically the phrases "favours treating tahini as a generally low-Pb/Cd commodity in well-sourced markets" and "the Potortì high outlier (T-1) confirms that origin/supplier screening matters" — as drifting from source-page reporting into Part 9 synthesis / Part 2 policy territory. Verified: the audit's reading is correct; those sentences extrapolate from a single survey + a cross-paper comparison to a category-level supplier-screening lesson, which is the synthesis workflow's job, not a source page's. Revised the paragraph to drop the generalising sentences and keep only the cross-paper offset observation and the no-HMT&C-tightening boundary statement.
-
-Brand firewall: per Part 12, no brand names are disclosed in the source — samples are coded 1–37 in Table 1. No Part 12 redaction was needed. The brand-by-brand range and extremes are reported here as code numbers only.
-
-Ingredient slug note: `[[ingredients/sesame]]` and `[[ingredients/tahini]]` are declared as routing destinations matching the precedent set by [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Potortì et al. 2026]]. Neither page currently exists in wiki/ingredients/; both are tolerated by the routing audit and will be auto-stubbed when ingredient frequency crosses the ≥freq-2 threshold (this is the second tahini-specific paper to declare them, so they should auto-stub on the next create-missing-pages.mjs run).
-
-Regulation slug note: the paper cites "Codex" maximum levels for Zn (4 mg/kg), Cu (2 mg/kg), and Pb/Cd (both 0.01 mg/kg) in tahini. The closest existing regulation page in the current taxonomy is [[regulations/codex-cxs-193-1995-tin-canned-foods]] (the Codex General Standard for Contaminants and Toxins in Food and Feed, CXS 193-1995, which contains the metal MLs across food categories). The taxonomy snapshot does not yet contain a tahini- or sesame-specific Codex MLs slug; the existing CXS 193 page is the correct routing target for these limits.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

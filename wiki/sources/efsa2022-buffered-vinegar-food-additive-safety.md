@@ -95,34 +95,9 @@ Courses: Illustrates EFSA's systematic approach to toxic-element impurity risk a
 
 App: Buffered vinegar as a food additive carries As, Pb, Cd and Hg at very low concentrations in current EU production (all <0.01 mg/kg in 5 batches each of liquid and powder), but EU specification headroom is 50–100× higher. This is a QC and supplier-verification consideration for products using buffered vinegar as an ingredient, not a typical-occurrence finding.
 
-## Verification notes
-
-Page was first ingested under the legacy `raw_handle: manual-fetch-source-retrieval` and last `updated: 2026-05-14`. Merge-enhanced on 2026-05-28 via the v2 autonomous manual-fetch ingest skill against the source PDF. Changes:
-
-- Replaced legacy `raw_handle: manual-fetch-source-retrieval` with the canonical `MFK_safety-evaluation-of-buffered-vinegar-as-a-food-ad` handle.
-- Corrected truncated `raw_path` from `...EFSA A.pdf` to the actual on-disk filename `...EFSA Assessment.pdf`.
-- Added `raw_sha256: 636194538e53818bea89faa7df3e0cca914b7bb5933ce31040666826bbc3c192` (was missing).
-- Added `access_url: https://doi.org/10.2903/j.efsa.2022.7351` (was missing).
-- Normalised `license` to `CC BY-ND 4.0` per the explicit licence statement on page 2 of the opinion ("Creative Commons Attribution-NoDerivs License").
-- Tightened `sample_population` to flag that Cd was measured on only 1 of 5 batches in each form (the existing field omitted this; the asymmetric Cd coverage is material to anyone using the dataset).
-- Expanded Key numbers to include the full Table 5 refined exposure ranges per population group (mean and p95), not only the across-age min/max envelope. Added Table 4 FAIM estimates for context. Added per-infant contributing food categories (FC 01.7.1 unripened cheese 67.6%; FC 07.2 fine bakery wares 41.7%) from page 14. Added the worst-case form-correction calculation (liquid form requires 42.37 mg/kg vs powder 11.33 mg/kg at 7,500 mg/kg AAE) and the modulation-factor-5 rationale from page 14.
-- Expanded Methods (brief) with: the dossier-submission dates (March 2021, November 2021, April 2022); the GC-MS and LC-HRMS fingerprinting techniques and what each detected; the explicit AAE adjustments for the form-correction calculation; and the upper-bound use level (30,000 mg/kg in FC 12.2 herbs, spices, seasonings).
-- Reframed Certification implication to remove "any product using buffered vinegar as an additive should verify toxic element content" advisory language; replaced with a Part 2-compliant statement that the opinion contributes occurrence data and reference points, and that the specification ceiling remains a risk-management decision. The original sentence was operational-recommendation phrasing that crossed toward the HMT&C-policy register.
-- Added Regulations cross-link to the EFSA mercury TWI page that supplies the 4 µg/kg bw/week reference value (was previously only linked to a generic `efsa-contam-mercury` slug).
-- Set `updated:` to 2026-05-28.
-- Preserved `cite_key`, `doi`, `metals`, `ingredients`, `products`, `matrices`, `jurisdictions`, `near_duplicates`, `sample_n` from the prior revision.
-
-Brand firewall (Part 12): The applicant companies Kemin Industries BV and Purac Biochem BV are named in the Methods (brief) section because they are the public-record subjects of the EFSA authorisation action — this falls under Part 12 Exception 1 (regulatory-event subject). The opinion's "Documentation as provided to EFSA" section (§6) names them explicitly as the dossier submitters; the EFSA opinion is itself the regulatory event. No brand-by-brand contamination ranking is performed; the batch data are aggregated across "5 batches" without naming which manufacturer supplied which batch.
-
-Speciation (Part 14): The opinion's ICP-MS data are total elements without speciation. `metals:` uses `tAs` and `tHg` accordingly. The Hg HBGV invoked (TWI 4 µg/kg bw/week) is the inorganic-mercury TWI; the EFSA CONTAM 2012 derivation is documented on page 15 of the opinion. The page text retains the "inorganic" qualifier where it refers to the HBGV basis.
-
-Wiki/HMT&C firewall (Part 2): No threshold proposals, consumer advisories, or cross-source synthesis claims are made. The Implications section reports what this opinion contributes (occurrence data, EFSA reference points, EU specification framework) without proposing HMT&C threshold values.
-
-Audit editorial review (2026-05-28) returned REVISE on Check 2 ⚠️ findings only; numerical fidelity (Check 1), speciation/methods (Check 3), brand firewall (Check 4) and wiki/HMT&C firewall (Check 5) all clean. Findings applied: rewrote four body cross-links to canonical taxonomy slugs (`efsa-contam-lead` → `efsa-lead-contam-2010`; `efsa-contam-arsenic` → `efsa-arsenic-contam-2009`; `efsa-contam-cadmium` → `efsa-cadmium-twi`; `efsa-contam-mercury` → `efsa-mercury-twi`); dropped `[[regulations/efsa-methylmercury-twi]]` because the opinion uses the inorganic-Hg TWI (EFSA CONTAM 2012) exclusively, not the methylmercury TWI, so that link was semantically wrong. No findings were rejected.
-
-Missing-slug proposal: `regulations/eu-1333-2008-food-additives` — the EU food additives authorisation regulation (EC No 1333/2008) is referenced repeatedly throughout this opinion and across the wiki, but no regulation page exists. Creating this page requires the rule's hard agency identifier and citation (Regulation (EC) No 1333/2008 of the European Parliament and of the Council of 16 December 2008 on food additives, OJ L 354, 31.12.2008, p. 16–33); flagged here for Karen's review per Part 10 (regulations are not auto-created by ingest sessions).
-
 ## Related evidence
+
+- [[regulations/efsa-methylmercury-twi]]
 - [[ingredients/vinegar]]
 - [[products/vinegar]]
 - [[metals/lead]]

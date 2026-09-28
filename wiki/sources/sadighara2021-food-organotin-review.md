@@ -61,15 +61,6 @@ The review followed the PRISMA checklist. Two authors independently searched and
 
 This source is useful as an organotin literature map for seafood and edible-oil occurrence, but most numeric values should be treated as secondary summaries until the underlying primary studies are inspected. It supports routing organotin tin-species context to seafood, fish, shellfish, and cooking-oil rows. The meta-analysis estimate is not a raw product dataset and should not be treated as a hand-built HMTc pooled percentile.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, PRISMA flow, Table 1, meta-analysis text, discussion, and conclusion were readable.
-- DOI `10.1016/j.fochx.2021.100154`, raw handle `MFK_main`, and cite-key checks found no existing source page before creation.
-- Search counts, Table 1 values, and the TBT meta-analysis estimate were checked against extracted text. Units are preserved as `µg/g`, `µg/Kg`, `ngSn/g`, `µg/kg`, and `ng/g`; no conversion was performed.
-- Speciation: values are organotin species, including TBT, TPhT, DBT, DOT, MBT, DPhT, MPhT, TMT, DMT, and MMT. source metadata uses `Sn` for tin routing following existing organotin-source convention, but these are not total tin or inorganic tin values.
-- Brand firewall: no sampled product brands are attached to contamination values.
-- source metadata slugs were checked against the editorial record; no new slug was invented. A lard-specific product/ingredient slug was not available, so the lard row is documented in Key numbers without a source metadata slug.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

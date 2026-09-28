@@ -57,21 +57,13 @@ Courses: Useful for explaining substrate-to-fruiting-body transfer.
 
 App: Can inform mushroom ingredient risk only with the experimental-cultivation caveat.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cultivated-mushrooms]]
 - [[ingredients/mushrooms]]
 - [[metals/cadmium]]
 - [[metals/zinc]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
-
-## Verification notes
-
-The source is relevant to cultivated mushroom occurrence (HMTc Category 4 Row 17, cultivated mushrooms) and not to fruit-mixed products despite the auto-fetched filename. Routing was corrected from `products/non-root-vegetables` (Row 16, above-ground non-leafy vegetables) to `products/cultivated-mushrooms` on 2026-06-09; the prior routing placed a cultivated-mushroom experimental study into the fresh-vegetable row alongside tomatoes, peppers, and squash, which misrepresents the matrix.
-
-The Results text reports a Cd range of 1.2–21.6 mg/kg d.m. "data not presented in the tables," wider than the per-cell range visible in Table 2 (2.6–17.9). The Key numbers section uses the table-cell range as the audit-defensible value and flags the discrepancy explicitly; downstream synthesis should not rely on the wider text-only range without a clarification from the authors.
-
-Values are d.m. across substrates and fruiting bodies. Pooling into any cultivated-mushroom-as-consumed distribution requires a dry-to-fresh conversion (the authors cite the EU 1 mg/kg fresh ≈ 10 mg/kg d.m. heuristic for mushrooms); pooling Cd from this paper alongside fresh-matter retail-market mushroom studies without converting basis would silently mix bases.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

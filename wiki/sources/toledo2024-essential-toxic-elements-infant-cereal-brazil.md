@@ -146,14 +146,6 @@ App: The Table 3 sample extraction can support jurisdiction-labeled Brazilian oc
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
 - [[regulations/fda-closer-to-zero]]
 
-## Verification notes
-
-- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in source metadata, while retaining the earlier JATS and sample-extraction paths.
-- Fresh-context audit (Codex, 2026-05-18) caught an ambiguous 52% iAs non-cancer-risk row; clarified that the unchanged HQ count refers to the source's iAs sensitivity scenario and the authors' 10-sample risk statement, not the overall 18-of-18 all-element count.
-- Removed the unsupported `Sn` source metadata metal from the older page; tin appears in the Brazilian infant-food regulation background but was not one of the paper's reported infant-cereal concentration analytes.
-- Replaced older cross-study HMTc comparison prose with source-only risk-assessment results to preserve the wiki/HMTc firewall.
-- Strict brand-firewall check: the source says the 18 samples came from eight brands, but this page does not name or rank any sampled brand.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

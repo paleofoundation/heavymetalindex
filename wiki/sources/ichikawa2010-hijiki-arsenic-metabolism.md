@@ -86,21 +86,12 @@ For hijiki arsenic, `0.1 g` of uniformly cooked hijiki powder was heated in `1 m
 
 This source adds a narrow hijiki occurrence record with paired cooked and dried arsenic values and a clear iAs/tAs distinction. Because most of the article is a mouse metabolism experiment, the urine, feces, and tissue numbers should be used only as exposure-context evidence and not routed as product occurrence. The source also contains an internal unit inconsistency between the Table 2 `µg As/g` header and one results sentence using `ng As/g`, so any downstream extraction should preserve the table unit and keep the inconsistency visible.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seaweed-kelp-foods]]
 - [[ingredients/seaweed]]
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for DOI `10.1016/j.fct.2009.09.037`, raw handle `MFK_ichikawa2010`, title text, or cite key `ichikawa2010-hijiki-arsenic-metabolism`.
-- All Key numbers were rechecked against `/tmp/hmi-seaweed-036.txt`, extracted with `pdftotext -layout`. Table 2, Table 3 day-1 values, Table 4 tissue values, and the results-text excretion summaries are transcribed in source order.
-- Units and bases are preserved as `µg As/g`, `ng As`, `ng As/day`, `ng As/g`, `mg`, `min`, and `°C`; no conversion was performed. The Table 2 versus results-text `µg As/g`/`ng As/g` inconsistency is recorded explicitly.
-- Speciation check: `iAs` remains distinct from total arsenic and from the source's `Other` arsenic category. Mouse tissue and excretion values are total arsenic context, not product iAs values.
-- Brand firewall: no consumer brand-linked contamination values are reported. The Hijiki Cooperative Society Japan is treated as a sample/material supplier.
-- Missing-slug check: no missing product or ingredient slug blockers. Exact hijiki/*Hijikia fusiforme* remains in source text while source metadata uses broad seaweed/kelp food slugs.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

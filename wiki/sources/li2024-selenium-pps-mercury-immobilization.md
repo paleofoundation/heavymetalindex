@@ -50,19 +50,13 @@ Courses: Strong example for mercury-remediation modules because it links materia
 
 App: Can support context notes that mercury removal technologies may be relevant upstream of consumer-product supply chains, but the paper does not rank any consumer product as contaminated or clean.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury]]
 - [[mitigation/remediation-evidence]]
 - [[mitigation/supply-chain-screening]]
 - [[testing/icp-ms]]
 - [[products/fabric-protectants]]
-
-## Verification notes
-
-- DOI, authors, year, and publication were taken from the Nature Communications PDF title page.
-- The auto-fetch row labelled this as a fabric-protectants target; the actual study is a mercury-removal sorbent/filter-fabric paper. `products` is therefore left empty so the source is not treated as fabric-protectant occurrence evidence.
-- The source reports Hg0 gas capture and HgSe immobilization; no methylmercury or consumer-product total-mercury concentration is inferred.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

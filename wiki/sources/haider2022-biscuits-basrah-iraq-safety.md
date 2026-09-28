@@ -86,18 +86,10 @@ Limitations relevant to downstream use:
 
 **Microbiome.** Not addressed.
 
-## Verification notes
+## Related evidence
 
-- Merge-enhance ingest 2026-05-20 from the original 2026-05-13 page (pre-2026-05-14 schema): re-read the PDF in full and reconciled every numerical claim on this page against Tables 1, 2, 3, 4, and 5 plus the §3.4 Heavy Metals discussion.
-- source metadata changes: replaced `[[ingredients/wheat-flour]]` with `[[ingredients/wheat]]` — `wheat-flour` is not a slug in the current ingredient taxonomy; `wheat` is the canonical page and lists "wheat flour" among its aliases. The two product slugs (`snacks-crackers-biscuits`, `bread-and-baked-goods`) are unchanged and remain valid. Added `near_duplicates: []`. Updated `updated:` to 2026-05-20.
-- Numerical reconciliation: all Pb means (8.11, 11.24, 11.27 µg/kg by category; 3.12, 15.35, 8.13, 14.34 µg/kg by country), the BSCr1-I maximum of 29.97 µg/kg, the AA category means (202.9, 372.3, 167.9 µg/kg), the AA country means (52.1, 371.6, 370.2, 198.7 µg/kg), and the BSC2-U cookie/UAE peak of 1421.7 µg/kg AA were re-verified against Tables 3 and 4. The previous version's "1,421.7" abstract note is reconciled with Table 3's value of 1421.7 ± 5.7 (the paper's abstract uses "1421.8" rounding; Table 3 is authoritative at 1421.7).
-- Numerical reconciliation continued: added standard deviations to the per-category and per-country Pb means (matching Table 4) so downstream synthesis has the dispersion, not just the central tendency.
-- Brand-firewall (Part 12): the paper identifies samples only by anonymized codes (BSC, BSD, BSCr × country letter × replicate). No trade names appear in the source body for the 36 samples, so no brand redaction is needed on this page. Supplementary Table S1 (not present in the main PDF) is referenced as containing the "Coding, net weight and list of ingredients" of all 36 samples; if any brand names appear in S1, they are not propagated here.
-- Removed the legacy `## Wiki pages updated on ingest` heading per the current source-page schema; routing to metals/Pb, metals/Cd, ingredients/wheat, products/snacks-crackers-biscuits, products/bread-and-baked-goods, and regulations/eu-1881-2006 is handled via source metadata and the routing-audit pipeline.
-- Limitation paragraph: rewritten to be explicit about which HMTc analytes are not addressed (As, Hg, Ni, Cr, Sn, Al, Sb), about the absence of LOD/LOQ, and about the single-market / single-window sampling design.
-- Acrylamide and HMF results are retained on the page even though they are outside the HMTc analyte vocabulary, because they are integral to the paper's safety conclusions and a future course or risk-communication asset on the snacks/biscuits category will want them traceable to a peer-reviewed source.
-- Audit editorial review (2026-05-20) flagged the 622% fat and 577% protein label-discrepancy extremes as misattributed to BSD1-U (UAE digestive); verified against Table 1 of the PDF — both extremes belong to BSCr1-U (UAE cracker; fat D=18.05, L=2.5, Δ%=622; protein D=13.54, L=2.1, Δ%=577). The source's page-7 body text contradicts its own Table 1 on the sample ID. The wiki page now follows Table 1 (authoritative) and adds an explicit footnote noting the source-internal inconsistency. Corrections applied in both the Key numbers paragraph and the Courses-Implications paragraph.
-- Audit editorial review (2026-05-20) flagged the Certification-Implications cross-source synthesis sentence ("consistent with the working expectation that wheat-flour-derived baked goods carry lower Pb and Cd burdens than rice-based, cocoa-based, or root-vegetable-based products") as belonging at the synthesis-pass layer rather than on a source page. Verified — the comparison imports knowledge the paper itself does not produce (the paper does not measure rice, cocoa, or root vegetables). Sentence trimmed; replaced with an explicit statement that cross-ingredient synthesis is the synthesis pass's responsibility.
+- [[ingredients/wheat-flour]]
+- [[ingredients/wheat]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

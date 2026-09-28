@@ -54,19 +54,13 @@ Courses: The study is a useful example of jurisdiction-specific herb and infusio
 
 App: The values can inform a Brazil-specific yerba mate or herbal-botanical flag after synthesis decides how to represent a commodity without a dedicated ingredient page.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/herbal-botanical-infusions]]
 - [[ingredients/herbal-botanicals]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/arsenic]]
-
-## Verification notes
-
-The wishlist filename misclassified this as mineral-water inorganic-arsenic evidence. The PDF is a yerba mate leaf occurrence study and reports total arsenic, not inorganic arsenic. State names and sample counts were taken from Table 2.
-
-Internal source inconsistency on Parana Pb exceedance: the abstract reports 5% of Parana samples above 0.6 mg/kg, but the Discussion's per-state count (three of sixteen samples) implies about 19%. The page reproduces both figures and does not attempt to reconcile them; synthesis should treat the Discussion count as the primary record.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

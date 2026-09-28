@@ -61,7 +61,7 @@ Participants prepared duplicate meals and beverages over 24-hour periods, exclud
 
 This source contributes historical Belgian duplicate-diet exposure context for multiple metals across whole daily meals. It can support dietary-intake and mixed-meal context pages, but because each sample is a 24-hour composite of all foods and beverages consumed, it should not be used as product-specific occurrence evidence for rice, beverages, meat, seafood, or any narrower row. The total arsenic and total mercury values should not be promoted to inorganic arsenic or methylmercury.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/mixed-meals]]
 - [[ingredients/beverages]]
@@ -74,16 +74,6 @@ This source contributes historical Belgian duplicate-diet exposure context for m
 - [[metals/mercury-total]]
 - [[metals/zinc]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained the title page, abstract, methods, Tables 1-3, and discussion.
-- DOI is not printed as a modern DOI string in the extracted text; it was derived from the printed PII `0278-6915(83)90263-6` as `10.1016/0278-6915(83)90263-6`. DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 2 values were checked against the extracted text. Units are preserved as printed (`mg` and `µg` per 24-hour diet); no conversion to concentration units was performed.
-- Speciation: arsenic is total As and mercury is total Hg. The source does not report iAs or MeHg.
-- Routeability: this is duplicate-meal exposure evidence, not product concentration evidence. It is routed only to the broad mixed-meal row and should remain context-only for product standards unless a later method explicitly handles duplicate-diet composites.
-- Calcium was measured and reported in the Key numbers table as printed in the source, but Ca is not a Part 14 canonical HMI metal abbreviation and the taxonomy snapshot does not list a `metals/calcium` page, so Ca is omitted from the `metals:` source metadata array and no calcium wiki-link is added.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

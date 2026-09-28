@@ -169,14 +169,6 @@ App: Values feed canned-fish and canned-tuna tHg occurrence cells with as-consum
 
 Microbiome: Not addressed.
 
-## Verification notes
-
-PDF read in full across pages 1-27 of the published Molecules 25:5884 article (DOI 10.3390/molecules25245884). All numerical tables (Table 1 CRM statistics; Table 2 study-wide statistics; Table 3 top-ten ranking; Table 4 canned-tuna statistics; Table 5 PTWI exposure; Table 6 subpopulation exposure; Table 7 sample-type characterisation) were transcribed against the PDF. The Table 2 Max = 35 versus Range = 351 internal disagreement is documented above; the wiki carries the Range-consistent reading of ~351 µg/kg.
-
-Brand-firewall handling: The paper uses two-letter anonymised producer codes (HH, OO, ZZ, GG, TT, MM, FF, AA, EE, NN) in place of brand names; these are explicitly the authors' anti-attribution device, not real brand identifiers. The wiki carries the per-product mercury values with product form, declared species, predatory classification, packaging matrix, and country of production, and omits the producer letter codes to keep this page firmly inside the brand-firewall posture. Country-of-production codes (POL, GER, UK, TH, MA, PH, NOR, IT, EC, LV) are origin-of-manufacture, not brand identifiers, and are retained.
-
-Speciation: The paper measured total mercury by CV-AAS and estimated methylmercury by dividing total Hg by 1.12 (the Burger 2004 correction factor). The metals source metadata carries `tHg` and `MeHg` so the source routes to both metal pages, but the wiki narrative explicitly distinguishes measured tHg from estimated MeHg-equivalent throughout to satisfy the iAs/tAs/MeHg/tHg speciation discipline.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

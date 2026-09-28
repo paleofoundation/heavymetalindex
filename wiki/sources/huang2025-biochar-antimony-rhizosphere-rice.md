@@ -120,19 +120,13 @@ Courses: Useful case study for the rhizosphere fraction-redistribution framework
 
 App: Route as rice Sb agronomic-intervention context for antimony. Flag contaminated-site basis, pot-experiment basis, China jurisdiction, total-Sb-only measurement, and biochar intervention before making any product-risk inference from the grain numbers.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[products/rice-bulk-grain]]
 - [[metals/antimony]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/agronomic]]
-
-## Verification notes
-
-DOI `10.3390/toxics13050389` matches the published PDF; Toxics 2025, 13, 389 with received 6 April 2025, accepted 12 May 2025, published 13 May 2025. License is CC BY 4.0 per the publisher copyright statement on page 1. The paper measures total antimony only and explicitly flags Sb(III)/Sb(V) speciation as a study limitation in the Conclusions, so `metals: [Sb]` (not iSb or any speciated form) is correct. No brand-name products were sampled; all instrument and reference-material vendor names retained in the Methods section fall under the Part 12 scientific-method exception (Mettler Toledo pH meters, PerkinElmer ICP-OES, Agilent 7800 ICP-MS, Vario Micro cube Elementar, Nicolet iS50 Thermo Fisher, Hitachi S-4800, HED-QX6550 Horde Electric, TOC-L Shimadzu, TMS-4 TOMST, Origin 2024 OriginLab, SXG18123 muffle furnace). Exact tissue Sb concentrations from Figure 4 are reported only where the Results text gives them numerically (TIL/MAT shoot endpoints and TIL/GRF/MAT root endpoints); other Figure 4 points are quoted as approximate reads. The same convention applies to Figure 1 (pH/Eh/SOM/DOC at intermediate growth stages) and Figure 2 (bioavailable Sb at intermediate stages). Percentage changes and absolute endpoints come directly from the Results text.
-
-Fresh-context audit editorial review (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) clean or near-clean. Findings applied: (a) Eh S1-BC Span-column cell mislabel — verified against PDF p.6 (S1-BC Eh "decreased from 379.28 mV to 114.85 mV" CK-to-MAT is -69.72%; the "2.73-27.46%" range is the per-stage reduction of S1-BC vs matched S1 stage); cell relabeled to disambiguate both quantities. (b) Methods detail — added the 0.22 microm filtration step for the plant Sb digest and corrected "Microsoft Excel 2010" to "Microsoft 2010" per the exact PDF p.5 wording. Findings rejected as false positives: (c) Check 2 ❌ on `[[supply-chain/soil-to-plant-transfer]]` and `[[mitigation/agronomic]]` — both wikilinks resolve to live wiki pages (the linked reference record and the linked reference record) and are precedented across many other source pages (sun2023, lu2025, wang2020, rusanescu2023, etc.); the taxonomy snapshot is intentionally scoped to Ingredients / Products / Metals / Regulations only and does not enumerate the supply-chain or mitigation namespaces. (d) Check 2 ⚠️ matrices vocabulary concern — the soil and plant-organ matrices entries (`rhizosphere-soil`, `contaminated-paddy-soil`, `biochar-amended-paddy-soil`, `rice-plant-organs`, `rice-grain`) are precedented in the comparable rice-and-biochar source `sun2023-biochar-rice-cadmium-field`; the matrices vocabulary covers study-design matrix descriptors, not just consumer-food matrices.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

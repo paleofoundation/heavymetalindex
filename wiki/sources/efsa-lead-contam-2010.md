@@ -145,7 +145,7 @@ Non-dietary exposure summary (Table 29):
 | Outdoor air | Inhalation | 0.001–0.003 µg/kg b.w./day |
 | Smoking (20 cig/day) | Inhalation | 0.003–0.018 µg/kg b.w./day (adults) |
 | Environmental tobacco smoke | Inhalation | 0.009–0.037 µg/kg b.w./day adults; 0.012–0.052 µg/kg b.w./day children |
-| Lead from ammunition / game | Oral via game meat | Game meat mean 3.15 mg/kg, max 867 mg/kg (wild pig near shot) |
+| Lead from ammunition / game | Oral via game meat | Game meat mean 3.15 mg/kg, max 867 mg/kg (wild pig near shot). EFSA set aside a 3090 mg/kg outlier from wild-pig muscle near a shot wound before reporting that maximum. |
 | Lead-glazed ceramics, acidic liquid | Migration | 4 to >500 µg/L B-Pb reported in BfR ten-year intoxication review |
 
 Headline regulatory conclusion (Sections 8.6.2 and 9.4): "The CONTAM Panel concluded that the present PTWI of 25 µg/kg b.w. is no longer appropriate and noted that there was no evidence for a threshold for a number of critical endpoints including developmental neurotoxicity and renal effects in adults. Therefore, a margin of exposure approach was applied to risk characterisation." For dietary intake the conversions used were B-Pb 36 µg/L ≈ 90.0 µg/60 kg = 1.50 µg/kg b.w./day (SBP) and B-Pb 15 µg/L ≈ 37.5 µg/60 kg = 0.63 µg/kg b.w./day (kidney), per the Carlisle and Wade (1992) equation in adults, and IEUBK-derived 0.50 µg/kg b.w./day for the 12 µg/L children's BMDL₀₁ (Table 37, p. 101).
@@ -163,31 +163,6 @@ Courses: Useful for the EU regulatory-history modules and for the dose-response 
 App: Provides population-anchored mean and high-consumer dietary lead exposure estimates by age band that the app can use as European baselines for adult, child, and infant scenarios. Per-category mean and P95 occurrence values supply default contamination values where no narrower source has populated the ingredient page. Breast-milk Pb of 0.0016 mg/L and ready-to-consume infant formula 0.0020–0.0047 mg/kg are usable defaults for infant-exposure modelling when no brand- or product-specific value is available.
 
 Microbiome: Not directly addressed by this opinion.
-
-## Verification notes
-
-- Merge-enhanced 2026-06-03 from the prior 2026-04-25 page by reading the full PDF (151 pp.) end-to-end. The prior page had a thin Key numbers table covering only the three BMDLs and the country-range exposures; this revision adds the EU-pooled occurrence statistics by food category, the margin-of-exposure table, the toxicokinetic anchors, the non-dietary pathway estimates, and the breast-milk / infant-formula concentration data, all keyed to the source tables and page numbers.
-- The pre-2026-05-14 page used legacy `## Summary` and `## Wiki pages updated on ingest` headings; replaced with the current opening-prose convention and removed the trailing wikilink stub (routing is handled by the audit layer per Part 5b).
-- The source-retrieval PDF copy (the archived source file, sha 61e2e32d…) is recorded as a near-duplicate of the existing curated raw file at the archived source file (sha 897e8bc3…). Both are the same EFSA opinion, DOI 10.2903/j.efsa.2010.1570, EFSA Journal 2010;8(4):1570; the second download came from the Wiley Online Library mirror and the bit-level mismatch is the Wiley re-publication wrapper, not a content difference.
-- Prior `products: []` was a Phase 1 defect; populated with the product-category slugs the opinion supplies measurement data for (infant formula powder, infant and child foods master, bottled and mineral water, breakfast cereals, fresh and canned fish, processed meats, game meats). No new product slugs were proposed.
-- source metadata scope deliberately kept broad: `infant-formula-powder` rather than soy/non-soy splits because the EFSA category "infant and follow-on formulae" does not separate them, and `wild-mushrooms` rather than narrower fungi sub-classes because Table 8 reports the broader category. Routing audit fans broad scopes to sibling pages.
-- Game-meat numbers retain the source's own attribution as "high consumer" exposures rather than category means — the 867 mg/kg maximum is for wild pig muscle near a shot wound (sample retained by EFSA after removal of a 3,090 mg/kg outlier). This is the cleanest defensible reading of Table 14 and the surrounding paragraph.
-- No brand names appear in this source (it is a pooled regulatory occurrence assessment), so the Part 12 firewall is not engaged.
-- No HMTc threshold proposals or consumer-translation language added; opinion's published conclusions on PTWI inappropriateness are quoted but not extended.
-
-### 2026-06-03 audit-editorial review corrections applied
-
-Fresh-context general-purpose audit editorial review (verdict REVISE) flagged six numerical / attribution defects; all six were independently re-verified against the source PDF and corrected:
-
-- BMDL₀₁ = 8.1 µg/g tibia bone moved from the developmental-neurotoxicity row to the SBP row. Verified against PDF p. 99 ("Effects on SBP in adults: BMDL₀₁ = 8.1 µg/g (TB-Pb)") and Table 34 p. 97 (TB-Pb BMDL₀₁ derived from Cheng 2001 = 6.5 and Glenn 2003 = 9.7, arithmetic mean 8.1, both for SBP not IQ). The 12 µg/L B-Pb is the only BMDL for developmental neurotoxicity.
-- Dry herbs mean corrected from 0.5500/0.5500 (LB/UB) to 0.8809/0.8896. The 0.5500 figures are the medians per Table 18 p. 44; the means are 0.8809 LB and 0.8896 UB.
-- Spices mean corrected from 0.1380/0.2000 to 0.3313/0.3644. The 0.1380/0.2000 figures are the medians per Table 18; the means are 0.3313 LB and 0.3644 UB.
-- Spices P95 corrected from 0.6036/0.9592 to 0.9592/0.9592. The 0.6036 value is the P95 LB for the Salt row in Table 18, not Spices.
-- Adult pooled exposure sample size corrected from "n = 41,628" to "n = 37,599". The latter is the actual sum of country N values in Table 22 (p. 51); 41,628 was not supported by the source.
-- Diet/water-Pb→B-Pb conversion row reworded from "Soil→B-Pb conversion (child) +1.6 µg/L per 1 µg/day from soil" to "Diet- or water-Pb→B-Pb conversion: +1.6 µg/L per 1 µg/day in children; +0.4 µg/L per 1 µg/day in adults (Carlisle and Wade, 1992, cited p. 68)." The original wording misattributed the pathway as soil; the source p. 68 specifies diet or water for the 1.6 / 0.4 µg/L coefficients.
-- Bone-burden row attribution reworded to cite Section 8.1.2 p. 66 (where the 70 % figure appears with no inline citation) and to clarify that Aufderheide and Wittmers (1992) is cited there only for the trabecular-vs-cortical distribution.
-
-editorial review's minor-stylistic concerns about children's survey-count attributions ("9 surveys" for 1–3 y, "9–13 surveys" for 4–7 y) and vegetarian "5 countries" were retained as-is after independent verification: Table 24 actually shows surveys per age 1=6, 2=8, 3=9 and 4=13, 5=13, 6=13, 7=9, so the wiki ranges reflect endpoint counts, which is conventional rather than incorrect; and Section 6.3 p. 48 confirms 65 lacto-ovo-vegetarians from 5 countries (DK was the sixth language-screened country and contributed zero). editorial review's audit did not flag any wiki/HMTc, brand-firewall, or speciation issues; verdict was REVISE only on numerical fidelity.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

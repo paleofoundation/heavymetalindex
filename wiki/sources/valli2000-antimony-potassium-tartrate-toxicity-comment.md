@@ -49,7 +49,6 @@ This is a comment, not a new bioassay. The authors restate their suggested NOAEL
 | Sb | erythrocyte enzyme assay | 0.05 | mM | IC50 |  | p.1 (printed 337) |
 | Sb | rat, intraperitoneal, NTP 1992 | 1.5 | mg/kg | cited lowest dose with increased organ weights |  | p.2 (printed 338) |
 
-
 ## Methods (brief)
 
 Received 26 January 2000. Journal volume 32, pages 337 to 338. They argue that mild reversible changes in liver, thyroid, and spleen should not be dismissed when setting a NOAEL, and they reject moving the NOAEL from 0.5 ppm to 50 ppm.

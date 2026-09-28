@@ -50,7 +50,7 @@ Courses: Useful for explaining pH-dependent metal migration from cookware, the d
 
 App: Can support consumer-context warnings that acidic foods and longer cooking times may increase Pb and Cd migration from some metal cookware.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/cookware-metal-alloy]]
 - [[metals/lead]]
@@ -60,13 +60,6 @@ App: Can support consumer-context warnings that acidic foods and longer cooking 
 - [[metals/aluminum]]
 - [[metals/tin]]
 - [[testing/x-ray-fluorescence]]
-
-## Verification notes
-
-- DOI, authors, journal, year, and license were read from the PDF title page.
-- The auto-fetch row identified the paper through a nonstick-coated cookware query, but the actual study covers aluminum, stainless-steel, and copper cookware. The route uses `cookware-metal-alloy`.
-- Chromium is total chromium from XRF/AAS methods; no Cr-VI value is inferred.
-- Blood-serum values are retained as exposure context only because the paper did not isolate cookware as the sole exposure route.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

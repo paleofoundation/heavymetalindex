@@ -120,47 +120,28 @@ Not applicable. This is an NGO consumer-education article, not an experimental s
 - Access date: 2026-06-03.
 - Acquisition path: included in source-retrieval Agent Download Corruption Issue (KADC) folder `household_papers/06_Regulatory_EPA_GreenSeal/`. The folder name reflects raw-asset grouping by topical neighbourhood (regulatory and standards-body content alongside US EPA and Green Seal references) rather than a precise content classification.
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic]] — qualitative NGO assertion that coal tar dyes used in household cleaning products may be contaminated with trace amounts of As. No quantitative data.
-- [[metals/cadmium]] — qualitative NGO assertion that coal tar dyes used in household cleaning products may be contaminated with trace amounts of Cd. No quantitative data.
-- [[metals/lead]] — qualitative NGO assertion that coal tar dyes used in household cleaning products may be contaminated with trace amounts of Pb. No quantitative data.
-- [[products/all-purpose-cleaners]] — listed in article as a category where coal tar dyes and other chemicals are found (broad product context).
-- [[products/window-glass-mirror-cleaners]] — listed (window cleaners, glass cleaners). Broad product context.
-- [[products/carpet-cleaners]] — listed. Broad product context.
-- [[products/pre-treaters-stain-removers]] — listed (laundry stain removers). Broad product context.
-- [[products/degreasers]] — listed. Broad product context.
-- [[products/oven-grill-bbq-cleaners]] — listed (oven cleaners). Broad product context.
-- [[products/drain-maintainers-cleaners]] — listed (drain cleaners, drain openers). Broad product context.
-- [[products/toilet-bowl-cleaners]] — listed (toilet cleaners, toilet bowl cleaners). Broad product context.
-- [[products/bathroom-tub-tile-cleaners]] — listed (bathroom cleaners). Broad product context.
-- [[products/automatic-dishwasher-detergents]] — listed (dishwasher detergents). Broad product context.
-- [[products/dish-soaps-manual]] — listed (dish soap, dish liquid). Broad product context.
-- [[products/laundry-detergents]] — listed (liquid laundry detergents). Broad product context.
-- [[products/floor-cleaners-hard-surface]] — listed (floor cleaners). Broad product context.
-- [[products/fabric-softeners]] — listed. Broad product context.
-- [[products/fabric-refresher-products]] — closest taxonomy slug for "air fresheners" / "deodorizers" as listed in the article. Broad product context.
-- [[products/household-specialty-cleaners-other]] — catch-all for abrasive cleaning powders, rust removers, automobile cleaners, windshield wiper fluid, car polish, car wash products, cleaning towelettes, disinfectants, surface cleaners that the article lists but which do not have a more specific taxonomy slug. Broad product context.
-
-## Verification notes
-
-- Identity-check results (DOI null / raw_handle KADC_david-suzuki-dirt-on-toxic-chemicals / cite-key davidsuzuki2014-toxic-household-cleaners) on 2026-06-03 returned no matching wiki source page; ingested as NEW.
-- SHA-256 of the source PDF was computed from disk on 2026-06-03 and recorded above (`d02ff0e45557761e3a90664f1409c761a4fb5e373d41854e5399afaab2160eec`).
-- The article has no DOI (NGO web content). `doi` field is set to null.
-- Evidence tier set to C on the basis of: (i) NGO consumer-education article, not peer-reviewed; (ii) no original measurements, no analytical methods, no sample sizes; (iii) the single heavy-metal claim is qualitative ("trace amounts ... like arsenic, cadmium and lead") with no operationalisation; (iv) the article cites credible secondary sources (ATSDR, Health Canada, Canada Gazette, peer-reviewed journals) but the coal-tar-dye → heavy-metal claim itself does not carry a specific citation in the article's reference list; (v) the article is retained on the wiki as a qualitative routing-context anchor for the coal-tar-dye → As/Cd/Pb pathway, not as a primary occurrence source.
-- Brand firewall (Part 12 strict reading, locked 2026-05-17): the article does not name any specific brand of cleaning product. No brand-firewall action required.
-- Wiki/HMTc firewall (Part 2): the article contains no HMTc threshold proposals or comparisons. The "Canadians spend more than $275 million on household cleaning products in a year" line is market-size context, not contamination synthesis. The article's editorial framing ("What a mess.") is paraphrased, not reproduced, on this wiki page. No firewall action required.
-- The article's twelve chemical-class headings include eleven that are out of HMI scope (2-butoxyethanol, ammonia, MEA/DEA/TEA, fragrance chemicals, NPEs, phosphates, quats, silica, sodium dichloroisocyanurate dihydrate, sodium hydroxide, SLS/SLES, triclosan, trisodium nitrilotriacetate). These are listed on this wiki page for completeness of the article's content but are not propagated as wiki-page routes; the wiki's source metadata `ingredients: []` is intentionally empty (no metals-relevant ingredient slugs are touched by this source).
-- The product list in source metadata is intentionally broad to capture every household-cleaning-product taxonomy slug that the article's "Found in" footers name (or that has an unambiguous mapping to a named category). The routing fan-out is `broad_product_context` rather than `direct_evidence` because the article does not measure metals in any specific product.
-- Matrices set to `[household-cleaning-product]` as the umbrella matrix. No food-contact matrix is involved; no personal-care matrix is involved (the article is explicitly about household cleaning products, not personal-care products).
-- Jurisdictions set to `[CA]` because the article frames its regulatory context against Canadian law (CEPA, Health Canada, Environment Canada, Canada Gazette). The article references US EPA on indoor air quality and IARC on silica/trisodium nitrilotriacetate carcinogen classification, but its regulatory narrative is Canada-centric.
-- The Steinemann et al. 2011 EIA Review study (133 VOCs from 6 consumer products) is cited in the article but is a separate primary source on VOC emissions, not heavy metals. It is not ingested via this source page; if it ever lands as a separate manual-fetch PDF, it would be a separate wiki source page.
-- The article's reference list includes a brief mention of the Renner 2002 "From Triclosan to Dioxin" piece (*Environmental Science & Technology* 36(11):230A); triclosan and dioxin are not heavy metals and this reference is out of HMI scope.
-- Existing-pages check (DOI-grep / handle-grep / cite-key-grep) confirmed no prior wiki source page covers the David Suzuki Foundation's "The dirt on toxic chemicals in household cleaning products" article. The two existing household-products source pages on the wiki ([[sources/iwegbue2019-household-hygienic-products-nigeria]] and [[sources/yamada1993-organotin-household-commodities]]) are unrelated primary studies.
-- Audit editorial review (2026-06-03) flagged the Steinemann 2011 figure as mis-stating the sampling structure (Check 1, ⚠️). Verified against PDF p. 2 — the source says "a small sample of consumer products, including six cleaning products," not "a small sample of six consumer products" (the six were a subset of cleaning products inside a larger consumer-product sample). Corrected the Key-numbers row to "a small sample of consumer products that included six cleaning products."
-- Audit editorial review (2026-06-03) flagged the article reference count as "twenty-three" when the PDF reference list (pp. 6-7) totals twenty-two distinct entries (Check 1, ⚠️). Verified by re-counting the references on pp. 6-7: ATSDR (3), B.C. MoE, Burrows et al. 2009, Canada 2006, Canada 2009, Env Canada 2010 P2 NPE, Env Canada/Health Canada 2001 NPE PSL, Env Canada 2010 NTA, EWG 2008 EPA roll-back, EWG Skin Deep SLS, EU Parliament/Council 2009, Foundation for Water Research, Gorman 2007, Hegstad et al. 2010, Labour Environmental Alliance Society, Renner 2002, Santa Cruz Biotech MSDS, Steinemann et al. 2011, Steinman & Epstein 1995, US EPA 2011 = 22. Corrected the Methods section count to "twenty-two."
-- Audit editorial review (2026-06-03) flagged the coal-tar-dye locator as "p. 2" when the section spans pp. 2-3 (Check 1, ⚠️ minor). Verified against the PDF — the heading "Coal tar dyes" and the full heavy-metal sentence ("Derived from petrochemicals, and may be contaminated with trace amounts of heavy metals like arsenic, cadmium and lead") sit wholly on p. 2; only the continuation prose ("through the skin or ingested in the case of soap residue on dishes") spills onto p. 3. The wiki cites the sentence locator, not the section locator. Finding rejected as a false positive; no change applied. The wiki's "(p. 2)" cite for the heavy-metal sentence stands; the separate "(p. 3)" cite for the "Found in: most types of cleaning products" footer is independently correct (that "Found in" line does sit on p. 3).
-- Audit verdict was PROMOTE. After this audit-application pass: two minor findings applied (Steinemann sampling-structure phrasing and reference count); one finding rejected as a false positive (coal-tar-dye locator). No heavy-metal data integrity issues. No firewall changes. Page is REVISE-grade per the audit on the strength of the two ⚠️ Check 1 fixes being applied; treated as audited-revised in the audit queue.
+- [[metals/arsenic]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[products/all-purpose-cleaners]]
+- [[products/window-glass-mirror-cleaners]]
+- [[products/carpet-cleaners]]
+- [[products/pre-treaters-stain-removers]]
+- [[products/degreasers]]
+- [[products/oven-grill-bbq-cleaners]]
+- [[products/drain-maintainers-cleaners]]
+- [[products/toilet-bowl-cleaners]]
+- [[products/bathroom-tub-tile-cleaners]]
+- [[products/automatic-dishwasher-detergents]]
+- [[products/dish-soaps-manual]]
+- [[products/laundry-detergents]]
+- [[products/floor-cleaners-hard-surface]]
+- [[products/fabric-softeners]]
+- [[products/fabric-refresher-products]]
+- [[products/household-specialty-cleaners-other]]
+- [[sources/yamada1993-organotin-household-commodities]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

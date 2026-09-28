@@ -84,15 +84,6 @@ Bean samples were purchased from local commercial markets in Hangzhou, Huzhou, J
 
 This source supplies Zhejiang-market dried-bean occurrence evidence for total arsenic, cadmium, total chromium, total mercury, and lead. It is especially useful for beans and soy routing because the sample set includes `104` soybean samples and several other legume categories. Downstream synthesis should keep measured total arsenic separate from the paper's modeled inorganic-arsenic assumption, and should not treat total chromium as Cr(VI).
 
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout`; abstract, sampling section, quality-control Table 1, Table 3, Table 4, and the results prose were checked in `/tmp/f3_texts/foods-12-03300.txt`.
-- DOI `10.3390/foods12173300`, raw handle `MFK_foods-12-03300`, and cite-key checks found no existing source page before creation.
-- Table 3 values are preserved as `mg/kg`; no conversion to dry-weight normalized or wet-weight units was performed.
-- Speciation: arsenic was measured as total/unspecified As and mercury as total/unspecified Hg. The source's health-risk model assumes `72%` inorganic arsenic, but the occurrence data are not measured iAs.
-- Brand firewall: samples were purchased from markets but no brand-level contamination values are reported.
-- source metadata slugs were checked against the editorial record; narrow slugs for black bean, broad bean, mung bean, red bean, kidney bean, and pea are not available, so broad beans/legumes routing is used with soy added for soybean rows.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

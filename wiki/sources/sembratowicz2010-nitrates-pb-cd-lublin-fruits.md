@@ -111,29 +111,12 @@ Fruit lots were washed in deionised water (Direct Q 5 deioniser; Millipore, Fran
 
 **App:** Occurrence data for self-harvested Polish allotment fruits, distinct from retail-market data; Pb tends higher in urban/roadside lots, Cd is the dominant exceedance signal for white grape regardless of site. Useful as an upper-bound prior for allotment- or garden-sourced fruit consumption scenarios but should not be used in place of retail-market data for general commodity profiling.
 
-## Verification notes
+## Related evidence
 
-Page rewritten 2026-05-19 from a 2026-05-14 revision against the source PDF. Corrections applied:
-
-- **Key numbers — Pb table site labels swapped.** The prior revision had every row's "Lublin centre" and "Lublin surroundings" labels transposed against the PDF Table 2 (p. 163). Verified row-by-row from the PDF and against the Discussion text on p. 164 ("0.06 mg kg⁻¹ FW in white grapes from the gardens in the city center to 0.31 mg kg⁻¹ FW in strawberries harvested from the city's suburbia") and the Conclusions on p. 165 ("Far higher levels of these metals were recorded in the fruits harvested in the city gardens" — raspberry Pb 0.27 a is city-centre, 0.09 b is surroundings). All ten Pb rows re-labelled to match the source.
-- **Cd table expanded from one fruit to all five.** The prior revision listed cadmium values only for white grape and described the other species in prose; the source Table 2 reports the full five-fruit × two-site cadmium matrix, including the significant strawberry city-centre-versus-surroundings difference (0.04 a vs 0.01 b). All ten Cd rows added from the source.
-- **Dry-mass table (Table 3) added.** The prior revision only mentioned that dry-weight values existed; the full ten-row dry-mass table is now reproduced.
-- **Nitrate (III) and (V) table added.** The prior revision did not report the nitrate data even though nitrates are half of what the paper measures. The paper's framing is that nitrates in these fruits are well below the levels seen in leafy vegetables and below the EU ADI; reproducing the table preserves that result without crossing the wiki/HMTc boundary (nitrates are not in the HMTc analyte list).
-- **`raw_handle:`** corrected from `manual-fetch-source-retrieval` (parent-folder placeholder, not a per-paper handle) to `MFK_contents-of-nitrates-iii-and-v-lead-and-cadmium` per the v2 manual-fetch handle convention.
-- **`raw_path:`** corrected from the truncated `…Cadmium in the Selec.pdf` to the actual PDF filename `…Cadmium in the Selected Domestic Fruits from Lublin Region.pdf`.
-- **`raw_sha256:`** added (`b7a71ffc9da2312225e0845723f8c7a74fc0001af85741c6238aa923b2443b65`).
-- **`ingredients:`** corrected `[[ingredients/apples]]` (no such slug; the linked reference record does not exist) to `[[ingredients/apple]]` (the actual slug, singular). All four other ingredient slugs (`plums`, `strawberries`, `raspberries`, `grapes`) were valid and were retained as-is.
-- **`sample_n:`** corrected from `108` to `54` per-site (with the 108 figure relocated into `sample_population` as the total across both sites × five species). The prior figure conflated per-site lot count with total determinations.
-- **`sample_population:`** rewritten to include the rural-allotment village names from the source (Niedrzwica Duża, Niedrzwica Kościelna, Krężnica Jara, Łuszczów, Biskupice), the harvest window (July–September 2007), and the duplicate-determination structure.
-- **Implications section rewritten** to reflect what the paper actually reports, with the corrected Pb-table site labels driving the species-specific conclusions about city versus surroundings effects.
-- **Legacy `## Wiki pages updated on ingest` section** replaced with `## Wiki pages this source may touch` per the current Part 6 source-page template.
-- Audit editorial review (2026-05-19, fresh-context QA) flagged the wording "non-flame (graphite-furnace) AAS" in the summary and Methods as an inference (the PDF says only "non-flame AAS technique" without naming graphite-furnace, though PN-EN 14082's non-flame pathway is graphite-furnace and the LODs are consistent). Softened both occurrences to make the inference explicit rather than implicit: the lead paragraph now says "non-flame AAS … per PN-EN 14082," and the Methods paragraph carries a parenthetical noting that the PDF specifies "non-flame AAS" while PN-EN 14082's non-flame pathway is graphite-furnace.
-
-## Wiki pages this source may touch
-
+- [[ingredients/apples]]
+- [[ingredients/apple]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[ingredients/apple]]
 - [[ingredients/plums]]
 - [[ingredients/strawberries]]
 - [[ingredients/raspberries]]

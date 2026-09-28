@@ -48,7 +48,7 @@ Vegetable samples were washed, oven-dried at 70 °C for three days, ground, and 
 
 Certification: India/Amravati spinach occurrence context for Pb and Cd. Courses: useful low-quality reporting example where source values must be preserved with caveats. App: context only until sample count and basis are verified.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spinach]]
 - [[products/non-root-vegetables]]
@@ -58,10 +58,6 @@ Certification: India/Amravati spinach occurrence context for Pb and Cd. Courses:
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/zinc]]
-
-## Verification notes
-
-The DOI is visible in the PDF footer. The source has weak wording and limited methods detail; values are captured because they are explicit, but route fitness is lower than better A-tier studies.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

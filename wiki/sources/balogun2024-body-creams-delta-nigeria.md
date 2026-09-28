@@ -106,7 +106,7 @@ App: Not directly applicable. The paper measures adult body-cream/lotion product
 
 Microbiome: Not addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -119,21 +119,6 @@ Microbiome: Not addressed.
 - [[metals/chromium]]
 - [[metals/mercury-total]]
 - [[products/body-hand-leave-on-skin-care]]
-
-## Verification notes
-
-- Filed in the archived source file but the paper's sampled population is the adult tertiary-institution populace (students, lecturers, staff, visitors), not children. Routed to `body-hand-leave-on-skin-care` (Cat 13 Row 4) rather than to baby/children's personal-care slugs. The folder-vs-content mismatch is noted for the manual-fetch tracker; this is a Karen-side filing decision, not a content defect.
-- DOI: not reported on the article; ISSN 2354-2918 (SEAHI Publications). Set to `null`; access_url points to the publisher's hosted PDF. Evidence tier B reflects: peer-reviewed but small-journal venue, no QC/recovery/LOD data reported, narrative-vs-table inconsistencies (below) that downgrade analytical confidence.
-- Paper-internal narrative-vs-table inconsistencies (recorded for downstream synthesis to handle correctly):
- - Abstract (p. 24) reports tAs pooled range "<0.001 – 0.063 ppm" but neither Table 1 nor Table 2 contains any tAs value >0.043 (CMBCC). The 0.063 figure is not traceable to either per-sample table. Tables are authoritative for the per-sample data; the abstract value is treated as an unreconciled author drift.
- - Abstract (p. 24) reports Ni pooled max 0.291 ppm; Table 1 contains 0.295 (CWBCH) which exceeds 0.291. Tables are authoritative.
- - Discussion (p. 29) gives COEW Pb range "0.103 – 0.135" — this contradicts Table 1, which shows Pb min 0.010 (CWBCD) and max 0.136 (CWBCE). The Discussion range is incorrect; Table 1 is authoritative.
- - Discussion (p. 29) gives COEM Ni range "0.043 – 0.83" — Table 2 shows Ni max 0.083 (CMBCF). The "0.83" figure is an unambiguous typographic error for 0.083; Table 2 is authoritative.
- - Conclusion (p. 30) cites samples "CWBCE, CWBCG, CWBCI and CMBCE that contains high concentration of Nickel and Lead". CWBCE has Ni = 0.016 mg/kg (the lowest Ni value in Table 1), so the Conclusion's grouping of CWBCE under "high Nickel" contradicts its own Table 1. The Pb assignment for CWBCE (0.136 mg/kg, the COEW maximum) is consistent.
- Per the audit-prompt convention, these are reported as the source's own inconsistencies. The wiki page uses the per-sample tables as the authoritative value source for all numeric claims.
-- The COEW Ag/tHg floor value `<0.001` and the abstract phrasing "Ag and Hg were less than 0.001 ppm" are consistent with one another; the page records these analytes as below the reporting limit in all 20 samples and does not impute a numeric mid-point.
-- No brand names appear in the source (the authors deliberately coded samples CWBCA–CWBCJ and CMBCA–CMBCJ). Part 12 brand firewall is intrinsically satisfied; no Part 12 redactions needed.
-- Product slug `body-hand-leave-on-skin-care` is the HMTc Taxonomy v2.0 Cat 13 Row 4 destination and is the only product routing target. `skin-lightening-cream` is not used because (a) it is retired and out of HMTc scope per the Cat 2 Step 0 lock and (b) the paper does not separate concentrations by cream type, so even the bleaching-cream subset cannot be isolated. The matrix `cosmetic-personal-care` matches the existing convention from prior cosmetics ingest pages.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -71,7 +71,7 @@ Courses: The source is a clean example of ingredient-versus-finished-product row
 
 App: If oral-care ingredient context is surfaced, this source can support an EU regulatory card noting the `10%` toothpaste and `0.465%` mouthwash safe-use envelope and the submitted ingredient's heavy-metal impurity table. It should not display those ingredient impurity values as finished-product contamination.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/toothpaste]]
 - [[products/mouthwash-oral-rinse]]
@@ -83,17 +83,6 @@ App: If oral-care ingredient context is surfaced, this source can support an EU 
 - [[metals/magnesium]]
 - [[metals/manganese]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_sccs_hydroxyapatite_nano.txt`. The title page, abstract, mandate, chemical/physical specifications, impurity section, solubility line, safe-use conclusion, and exclusions were checked against this page.
-- Tables 2 and 3 were present as image tables and not captured by `pdftotext`; PDF page 9 was rendered to `/tmp/mfk_pages/sccs_hap_page-09.png` and visually checked for the `< 20 ppm` heavy-metals-as-Pb specification and the Table 3 `mg/kg` impurity values.
-- DOI `10.2875/102239`, SCCS identifier `SCCS/1648/22`, raw handle `MFK_scientific-committee-on-consumer-safety-sccs-hydroxyapatite`, raw SHA-256 `ea78ac13ccfd31b03018c45721dd58f0dca4f8edba44356ad06dcedd1284c3bd`, and candidate cite key `sccs2023-hydroxyapatite-nano-opinion` were searched before creation; no existing source page was found.
-- Units are copied exactly as `ppm`, `mg/kg`, `%`, and `g/L`; no unit conversion was performed.
-- Speciation: arsenic is recorded as `tAs` because the source reports only `Arsenic (As)`. No Cr(VI), iAs, MeHg, or tHg values are reported.
-- Brand firewall: the source gives a trade name for the notified ingredient material. This page uses the generic phrase "notified hydroxyapatite nano paste ingredient" around impurity values and does not attach consumer-product brands to contamination values.
-- Evidence tier: `A` because this is an EU SCCS final regulatory opinion with DOI-backed publication metadata. The measured impurity values remain ingredient-context, not finished-product occurrence evidence.
-- Routing audit: `npm run evidence:source-routes` exited `0`; this source generated `2` oral-care product routing rows (`toothpaste` and `mouthwash-oral-rinse`), was absent from the structured evidence record, and had only the expected nonblocking `ingredients` advisory in the structured evidence record because no hydroxyapatite ingredient slug exists.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

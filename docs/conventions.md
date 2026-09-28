@@ -58,11 +58,9 @@ Flag contradictions explicitly. If a B-tier source conflicts with an A-tier sour
 
 ## `index.md` structure
 
-Organized by category. Each entry: `- [[path/page]] — one-line summary (N sources).`
+`wiki/index.md` is the public homepage, a designed HTML layout. It is not the ingest catalog. Do not append headings, batch logs, or source lists to it. Ledger counts and the other designed blocks are regenerated inside their marker comments by the homepage generators. `tools/audit-homepage-layout.mjs` fails the commit and the build if a markdown heading or any other prose appears outside those blocks.
 
-Sections: Overview and synthesis, Metals, Ingredients, Product categories, Regulations (by jurisdiction), Supply chain, Testing methods, Health and toxicology, Microbiome, Certification, Courses, App model, Queries, Sources (chronological), Batch reports (chronological).
-
-Update on every ingest (in bulk mode, once per batch). If the index exceeds 500 entries, split into `index.md` plus per-category index files.
+Family indexes (`wiki/metals/index.md`, `wiki/products/index.md`, `wiki/ingredients/index.md`, `wiki/regulations/index.md`, `wiki/sources/index.md`, and the other hub indexes) are where a new page is linked. `tools/autonomy/link-orphans.mjs` maintains the product, ingredient, metal, and regulation indexes. Batch narrative goes in `wiki/log.md` and, for a bulk batch, in `wiki/batch-reports/`.
 
 ## `log.md` format
 

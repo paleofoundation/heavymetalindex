@@ -59,25 +59,14 @@ The strongest source-page use is format and ingredient-platform differentiation.
 
 The paper provides product-level occurrence and feeding-direction intake estimates, but the wiki stores those as aggregated format descriptors rather than sampled-product names. It does not provide a regulatory maximum level or a safe exposure threshold for aluminium in infant formula.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
 - [[products/infant-formula-rtf-liquid-non-soy]]
-- [[ingredients/infant-formula-ingredients]]
-- [[ingredients/milk-and-dairy]]
-- [[ingredients/soy]]
 - [[ingredients/soy-based-infant-formula]]
 - [[ingredients/non-soy-infant-formula]]
 - [[metals/aluminum]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 powder row count from n=7 to n=8 and cow-milk-based powder count from n=6 to n=7; reassigned the 863.0 µg/L ready-made replicate maximum to the preterm product per Table 1; removed avoidable product-name-attributed values from Key numbers; and corrected `raw_path` to the matching SHA-256 PDF.
-- The current product taxonomy has no preterm-formula slug; the preterm-formula evidence is captured under `infant-formula-rtf-liquid-non-soy` for routing purposes but is a distinct subcategory in the literature. Flag for Karen per Part 10: consider `infant-formula-preterm-rtf` as a future product page if more preterm-formula evidence accumulates.
-- This page was enhanced 2026-05-17 from a Mode B (direct PDF) automated editorial review fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed product-name-specific values in Key numbers (Part 12 violation); aggregated to format/category level using product-form descriptors (preterm, soya-based, ready-made, powder) without naming sampled products. Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
-- Strict Part 12 recheck (Codex, 2026-05-17) removed sampled-product names from the page body. The method instrument vendor/model remains in Methods because the current Part 12 Exception 2 permits scientific-method vendor names for reproducibility.
-- Manual-fetch recheck (Codex, 2026-05-18) updated the provenance to the `MFK_` PDF path, which is byte-identical to the older the archived source file file (SHA-256 `3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279`), and rewrote the legacy Certification/Courses/App implications into source-evidence context only.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -57,7 +57,6 @@ An ICP-AES method after nitric, hydrochloric, and hydrofluoric acid digestion wa
 | Ti | sunscreen code NA, SPF 15, ICP-AES | 8.13 × 10^3 | μg/g | mean | 3 | Table 6 p.PDF p.6 (printed 347) |
 | Ti | sunscreen code CT, SPF 30, ICP-AES | 18.5 × 10^3 | μg/g | mean | 3 | Table 6 p.PDF p.6 (printed 347) |
 
-
 ## Methods (brief)
 
 About 100-150 mg in PTFE, heated to 125-130 °C for 2 h in a steel bomb, diluted with 0.5 M HNO3. RF power 1500 W, nebulizer 0.8 L/min, axial view. Recoveries from spikes (n=5) were 95.0% Ti, 98.2% Zn, and 101.3% Fe, with the full set in Table 5. RSD at 250 μg/L was 2.2-8.1%.

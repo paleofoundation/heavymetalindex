@@ -59,6 +59,7 @@ Vegetable oil–specific individual preparations (Figure 5, Table 3 — botanica
 - Camelina sativa oil (one of two preparations sampled): 0.203 µg/kg; the other: 0.173 µg/kg
 - Safflower oil: 0.173 µg/kg
 - Grape seed oil: 0.131 µg/kg (lowest vegetable oil)
+- Wheat germ oil: 0.00023 µg/g (0.23 µg/kg) in Table 3
 
 Cod liver oil preparations (Figure 4; values by within-study preparation number, no brand identification):
 - Highest: preparation No. 7 at 0.207 µg/kg; preparation No. 3 at 0.205 µg/kg
@@ -100,27 +101,6 @@ Courses: Useful teaching case for the distinction between expected contamination
 App: tHg medians for cod liver oil (0.106 µg/kg) and shark liver oil (0.065 µg/kg) provide reference data for fish-oil supplement ingredient profiles; vegetable oil median 0.218 µg/kg provides reference for vegetable-oil supplement category.
 
 Microbiome: Not applicable.
-
-## Verification notes
-
-2026-05-26: Page enhanced from earlier ingest. Defects corrected:
-- `raw_path` updated to the actual PDF filename (previous value was truncated to a non-existent file path).
-- `access_url` added (DOI URL).
-- `products` enhanced to include `[[products/supplements-oil-based]]` (HMTc Category 16 Row 21, the specific locked routing target) in addition to broader `[[products/dietary-supplements]]`.
-- Subgroup central-tendency values previously labeled "mean" were the medians per Table 2. Page now reports both arithmetic mean ± SD and median for each subgroup, matching Table 2 verbatim, and notes that the paper's prose uses medians when comparing groups because the data are non-normal.
-- Added per-preparation values for the highest/lowest cod liver and shark liver oils (Figures 3–4, Table 3) and additional annual-intake figures from Table 3.
-- Added EFSA TWI numerical anchors (1.3 µg/kg bw/week for MeHg; 4 µg/kg bw/week for inorganic) from page 10, and the maximum 0.030% TWI contribution.
-- Added Rucklidge & Shaw 2020 New Zealand reference comparison (page 10).
-
-2026-05-26 audit pass: Auto-audit editorial review verdict REVISE. Findings applied:
-- Stripped all commercial brand names from the Key numbers section (Part 12 brand firewall). The earlier draft listed Iskial, Iskial Plus, Rekinol, Life Shark Liver Oil, Tran Moller's, Life Tran z Wątroby Dorsza, and "Tran z Witaminami" attached to specific contamination values; these are now reported by within-study preparation number only. The same fix simultaneously resolved an audit-flagged transposition (prep No. 7 in the paper's Table 1 is "Tran Vitamex" / "Tran w Kapsułkach Vitamex", not "Tran z Witaminami" which is prep No. 11) — the brand label is no longer present in either spot.
-- Removed an eyeballed Figure-5 estimate ("wheat germ oil ~0.280 µg/kg") that was not a verbatim Table value; Table 3 lists wheat germ in-sample at 0.00023 µg/g (= 0.23 µg/kg), so the estimate was also numerically high.
-- Tightened Implications → Certification framing from "supports a low-priority risk classification" to occurrence-data reporting per Part 2.
-
-Slug-vocabulary gaps flagged but not corrected this session (hard constraint: do not create new ingredient pages):
-- `ingredients/cod-liver-oil` is referenced in this source's source metadata and Wiki-pages-touched section but does not exist as a wiki ingredient page (freq-1 across the corpus as of 2026-05-26). Below the freq≥2 auto-stub threshold; should be re-evaluated when additional cod-liver-oil sources land.
-- `ingredients/shark-liver-oil` same as above (freq-1).
-- The current routing audit does not surface either as unresolved, so routing passes; the gap is taxonomy-completeness, not routing-blocking.
 
 ## Related evidence
 - [[ingredients/cod-liver-oil]]

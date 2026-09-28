@@ -51,7 +51,7 @@ The page was created as a source-map stub during the re-ingest of [[sources/ufel
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>

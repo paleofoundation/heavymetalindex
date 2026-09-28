@@ -64,7 +64,7 @@ The existing Code of Practice for the Prevention and Reduction of Cadmium Contam
 
 ## Comparison to EU, US, and national MLs
 
-Pending ingest. EU cadmium MLs are established in Regulation (EU) 2023/915 (the consolidated EU contaminants regulation, successor to Regulation (EC) No. 1881/2006); US CTZ cadmium action levels are anticipated in FDA's forthcoming cadmium guidance under Closer to Zero; national MLs in China, Japan, and elsewhere vary. The cross-jurisdiction comparison table will populate as those documents are ingested.
+EU cadmium MLs are established in Regulation (EU) 2023/915 (the consolidated EU contaminants regulation, successor to Regulation (EC) No. 1881/2006); US CTZ cadmium action levels are anticipated in FDA's forthcoming cadmium guidance under Closer to Zero; national MLs in China, Japan, and elsewhere vary.
 
 ## Sources
 
@@ -75,7 +75,7 @@ Pending ingest. EU cadmium MLs are established in Regulation (EU) 2023/915 (the 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/jecfa-73rd-cadmium-2010|Cadmium (Addendum), 73rd Meeting of the Joint FAO/WHO Expert Committee on Food Additives — Safety Evaluation of Certain Food Additives and Contaminants]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series No. 64 (Cadmium addendum, pp. 305-380) · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241660648)</span><span class="hmi-ref-tag">Government</span>

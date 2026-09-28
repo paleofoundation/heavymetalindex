@@ -117,7 +117,7 @@ Courses: Strong example for teaching why soil-remediation interventions are not 
 
 App: Route as lettuce Cd context and as a soil-to-plant-transfer/mitigation source. Do not present the high dry-weight Cd values as representative of ordinary consumer lettuce without the contaminated-greenhouse caveat.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/lettuce]]
 - [[ingredients/leafy-vegetables]]
@@ -125,10 +125,6 @@ App: Route as lettuce Cd context and as a soil-to-plant-transfer/mitigation sour
 - [[metals/cadmium]]
 - [[supply-chain/soil-to-plant-transfer]]
 - [[mitigation/index]]
-
-## Verification notes
-
-The PDF has author attribution and DOI `10.3390/biology13050332`; no DOI conflict was observed. The article contains an internal contradiction for the physical-measure Cd results: the abstract reports 30 cm, 40 cm, 50 cm, and soil-covering values of 1.49 +/- 0.45, 1.26 +/- 0.02, 1.00 +/- 0.21, and 0.24 +/- 0.13 mg/kg, but Figure 1 and the Results text report 2.30, 1.84, 2.08, and 0.98 mg/kg against CK 2.57. This page follows the Results text and Figure 1 for the primary physical-measure values and preserves the contradiction here for audit. Brand/trade names for the cultivar and supplier companies are not used as routing targets under the brand firewall. The paper reports total Cd only; no Pb, As, Hg, Cr, Ni, or speciation data are reported for lettuce.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

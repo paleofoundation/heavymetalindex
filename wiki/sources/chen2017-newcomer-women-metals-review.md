@@ -62,20 +62,13 @@ App: Can support exposure-context flags for lead, mercury, and cadmium in biomon
 
 Microbiome: No microbiome findings.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/mercury-methyl]]
 - [[testing/index]]
-
-## Verification notes
-
-- DOI, title, authors, journal, license, search yield, inclusion count, metals covered, biomarker matrices, and all numerical values in Key numbers were transcribed from the extracted PDF text.
-- Units are preserved exactly by biomarker type: blood Pb in ug/dL, blood Hg and Cd in ug/L, cord-blood Hg in ug/L, and urinary Hg in ug/L where the source reports those units.
-- Mercury speciation is kept distinct: most review values are unqualified Hg and are tagged as tHg; Soon et al. is included under MeHg because the table labels the metal of interest as MeHg.
-- Products and ingredients are intentionally empty because the paper is a biomonitoring scoping review, not an occurrence survey of cookware, cosmetics, fish, shellfish, or any named consumer product.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

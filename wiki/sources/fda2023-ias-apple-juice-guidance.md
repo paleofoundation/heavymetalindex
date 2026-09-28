@@ -91,29 +91,6 @@ The guidance is non-binding: FDA states it will consider analytical confidence a
 - Courses: Anchor regulatory document for the US iAs-in-juice standard. Useful exemplar of FDA's use of achievability as a co-criterion with risk; the rationale chain (FY2011 surveillance → 2013 draft → 2023 final) is teachable as a Closer to Zero workflow.
 - App: Apple juice as an ingredient carries a 10 ppb iAs regulatory ceiling in the US, with market mean iAs around 4 ppb in routine surveillance. Apple cider falls under the same action level. Concentrate and ready-to-drink reconstituted juice are both in scope.
 
-## Verification notes
-
-Merge-enhanced 2026-05-19 from existing 2026-05-12 page during MFK ingest pass (MFK_arsenic-in-pear-juice-analytical-results-from-2005). The PDF filename in the Manual Fetch source-retrieval folder ("Arsenic in Pear Juice Analytical Results from 2005-2011.pdf") is mislabeled; the actual content is FDA's June 2023 Apple Juice action level guidance. The MFK PDF is byte-identical (SHA256 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454) to the previously-ingested the archived source file, so the existing cite-key and raw_path are preserved.
-
-Enhancements applied:
-
-- Added raw_handle to record the MFK manual-fetch identity.
-- Renamed legacy `sha256:` field to current `raw_sha256:` schema.
-- Added `audience` source metadata.
-- Added `tAs` to metals (the guidance reports total arsenic surveillance data alongside speciated iAs).
-- Dropped `products/fresh-fruit` from products: the guidance is exclusively apple juice and apple cider; fresh fruit is out of scope.
-- Removed legacy `## Wiki pages updated on ingest` heading.
-- Expanded Key numbers with the FY2013-2022 speciation subset (n=14, mean iAs 20.6 ppb), TDS data (n=47), achievability percentages from Tables 3-4, modeled disease rates, the 42% exposure-reduction figure, and the historical 2008 23 ppb level of concern.
-- Strengthened Methods to name ICP-MS (total) and HPLC-ICP-MS (speciation), LOQs, consumption inputs (NHANES, WWEIA), and the Taiwanese dose-response basis.
-- Tightened the opening prose and Limitations to reflect the cancer + neurodevelopmental dual basis and the conservative total-As substitution in disease-rate modeling.
-
-Audit editorial review (2026-05-19, fresh-context general-purpose) flagged two ⚠️ concerns; both verified against the source and applied:
-
-- Check 3 ⚠️: Methods section attributed the analytical methods to "FDA EAM 4.7 series" — the PDF footnote 9 only links to FDA lab method PDFs (UCM377005.pdf for total As; media/86499/download for HPLC-ICPMS speciation) and does not literally name "EAM 4.7." Corrected to "FDA in-house method (link cited in guidance footnote 9)" for both methods.
-- Check 5 ⚠️: Implications → Certification bullet proposed a "market-ratcheting target near 5 ppb iAs" derived from achievability data, which crosses the Part 2 boundary between describing occurrence data and proposing HMTc threshold values. Rewrote the bullet to surface the FY2011 and FY2013-2022 achievability percentages as occurrence inputs to the Standards Workbench, and to state explicitly that threshold selection is a workbench decision per Part 2 / Part 19.
-
-Checks 1, 2, 4 returned clean. No false-positive rejections this pass.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -43,7 +43,7 @@ The PDF presents crop-specific metal tables from an industrial-effluent exposure
 
 The source can support contamination-context entries for carrots, tomatoes, and wheat under polluted-irrigation conditions. It should not be pooled silently with ordinary market samples for HMTc benchmark distributions.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[ingredients/tomato]]
@@ -54,10 +54,6 @@ The source can support contamination-context entries for carrots, tomatoes, and 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
-
-## Verification notes
-
-The crop-table values above follow the source discussion/order for the vegetable table (Ni, Pb, Cu, Cd, Cr, Mn, Zn). The source uses inconsistent unit labels across methods, abstract, and discussion, so treat this as C-tier high-exposure context unless the table image is independently checked before quantitative pooling.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

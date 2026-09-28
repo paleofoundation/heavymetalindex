@@ -47,7 +47,7 @@ The paper reports vegetable-specific Cd and Pb values for Quito market samples. 
 
 The source supports Cd/Pb gap filling for carrots, tomatoes, and lettuce in an Ecuador market context. Its dry-weight basis and geography should remain explicit during routing and pooling.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/carrots]]
 - [[ingredients/tomato]]
@@ -57,10 +57,6 @@ The source supports Cd/Pb gap filling for carrots, tomatoes, and lettuce in an E
 - [[products/leafy-vegetables-other]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-
-## Verification notes
-
-All values in the Key numbers section are dry-weight values from Table II. The page avoids converting to fresh-weight equivalents.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

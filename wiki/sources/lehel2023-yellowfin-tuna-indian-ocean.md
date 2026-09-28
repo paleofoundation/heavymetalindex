@@ -95,7 +95,12 @@ EDI was calculated as the metal concentration × 65.7 g/day fish consumption (EU
 
 This page contributes a regulatory-grade ICP-OES dataset for fresh yellowfin tuna flesh sampled from a Hungarian retail-market chain whose product originated in the Bay of Bengal. The dataset is direct occurrence evidence for fresh marine predatory fish (specifically yellowfin tuna). The lead findings (40% of samples above the EU 2023/915 muscle-meat-of-fish maximum; 100% of EDI values above adult and child dietary reference values) are the most consequential signal from this study. The arsenic dataset (total As 0.98 mg/kg w.w. mean, with iAs estimated as 5% of total rather than speciated) is less directly comparable to speciated-iAs studies. The mercury dataset is left-censored at the LOD (0.50 mg/kg): 90% of yellowfin tuna samples were below 0.50 mg/kg total Hg. The cadmium dataset is similarly left-censored (80% of samples below the LOD of 0.05 mg/kg).
 
-## Wiki pages this source may touch
+## Sources
+
+- Lehel J, Papp Z, Bartha A, Palotás P, Szabó R, Budai P, Süth M. 2023. "Metal Load of Potentially Toxic Elements in Tuna (Thunnus albacares) - Food Safety Aspects." *Foods* 12(16):3038. DOI: 10.3390/foods12163038.
+- Manual-fetch PDF: the archived source file (SHA-256 `91f7d64f36f373c095f0049531679579e48682b17c26e81886320962e1425a24`).
+
+## Related evidence
 
 - [[ingredients/tuna]]
 - [[ingredients/fish]]
@@ -112,19 +117,6 @@ This page contributes a regulatory-grade ICP-OES dataset for fresh yellowfin tun
 - [[metals/lead]]
 - [[regulations/eu-2023-915-cadmium]]
 - [[regulations/eu-reg-2022-617-mercury-fish]]
-
-## Sources
-
-- Lehel J, Papp Z, Bartha A, Palotás P, Szabó R, Budai P, Süth M. 2023. "Metal Load of Potentially Toxic Elements in Tuna (Thunnus albacares) - Food Safety Aspects." *Foods* 12(16):3038. DOI: 10.3390/foods12163038.
-- Manual-fetch PDF: the archived source file (SHA-256 `91f7d64f36f373c095f0049531679579e48682b17c26e81886320962e1425a24`).
-
-## Verification notes
-
-- 2026-06-03 Claude fresh ingest from `manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/03_Marine_Predatory`. Numbers cross-checked against Abstract, Section 2.1 (Sampling), Section 2.2 (Analytical Method), Section 2.3 (Exposure Calculation), Table 1 (validation), Table 2 (QC), Table 3 (concentrations), Table 4 (EDI), Sections 3.1-3.4 (per-metal results and literature comparison), and Conclusions.
-- Brand firewall (Part 12): the source describes a generic "fishery market in Hungary" and identifies the original catch origin (FAO 57.1) but does not name brands or specific market operators; no brand attribution to redact.
-- Analyte speciation: Hg method is ICP-OES on total digest (no MeHg speciation), so `metals: [tHg]` rather than `[MeHg]` or `[tHg, MeHg]`. iAs is estimated at 5% of total As per the EFSA convention used by the authors, not directly speciated; the page lists both `tAs` and `arsenic-inorganic` in the metals array but flags the iAs estimation in the speciation notes.
-- The regulation cross-link list includes the available `eu-2023-915-cadmium` page and the `eu-reg-2022-617-mercury-fish` page. The paper itself cites only EU 2023/915 (reference 29); these wiki-link references are jurisdictional context for the regulatory framework, not a claim that the paper analyzes these specific sub-rules. There is no Pb-in-fish-muscle sub-page in the current taxonomy, so the EU 2023/915 lead context for muscle meat of fish (0.30 mg/kg) is described in prose only.
-- 2026-06-03 editorial review editorial review (fresh context) verdict: REVISE. Findings applied: (1) removed `arsenic-inorganic` from `metals` array (paper estimates iAs at 5% per EFSA convention rather than speciating, so only `tAs` belongs in the array; the iAs estimation discussion remains in this section); (2) removed the `eu-2023-915-lead-infant-young-child-foods` cross-link (paper's Pb comparator is the EU 2023/915 muscle-meat-of-fish limit at 0.30 mg/kg, not the infant-foods sub-rule); (3) trimmed the cross-source comparator paragraph in the speciation notes to a pointer-only list (the synthesis sentence "Pb in the Lehel dataset is at the upper end... while Cd and Hg are at the lower end" was a my-voice synthesis claim, removed); (4) trimmed routing-layer instruction in Implications ("Routing should treat this source as direct evidence...") (routing is the system's job, not the model's); (5) clarified the Hg EDI 0.23 µg/kg/day figure as the source's parenthetical for the 90% below-reference group computed via half-LOD substitution, since Table 4 omits Hg. Findings rejected as false positives: (a) audit flagged `[[ingredients/tuna]]` as missing from the taxonomy snapshot, but the routing audit's `routing_unresolved.csv` does NOT flag it and 5+ existing source pages (bae2023, bfr2024, blanco2023, chamorro2024, fsai2016) already use this slug, so it is accepted convention; (b) audit flagged the Hg EDI 0.23 µg/kg/day as a Claude-derived number not in the source, but the value appears verbatim in Section 3.3 of the PDF as the parenthetical "(0.23 µg/kg/day)" immediately following "(90%)".
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -110,32 +110,10 @@ App: Not directly informative for milk-and-dairy contamination_profile values. T
 
 Microbiome (Part 24): The paper documents L. acidophilus ATCC 4356 as a Hg(II)-binding probiotic in a milk matrix, with surface functional groups (carboxyl, hydroxyl, phosphate on teichoic acid and peptidoglycan) attributed as the binding moieties. This is relevant context for any future synthesis on probiotic-mediated luminal heavy-metal sequestration in dairy and dairy-derived foods.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/milk-and-dairy]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-The PDF filename `massoud2020-camel-milk-heavy-metals.pdf` is the `discover` skill's auto-fetch handle from a "camel milk heavy metals" topic sweep. The paper itself is not about camel milk — the title is "Mercury Biodecontamination from Milk by using L. acidophilus ATCC 4356" and the experimental matrix is unspecified-species sterile dairy milk (the Figure 1 schematic shows generic HTST pasteurisation at 75 °C/15 s and does not name a species). The cite-key drops "camel" and uses `mercury-biosorption-milk-lacidophilus` as the topic slug. The raw_handle preserves the discover-skill filename for the daemon's audit trail. This is the same misleading-filename pattern documented in the 2026-05-30 stops report for `hasan2021-camel-milk-heavy-metals.pdf` (which is a Bangladesh cow/buffalo dairy survey) and `afzal2024-camel-milk-heavy-metals.pdf` (which is a narrative livestock review), and is worth feeding back to the discover-skill scoring rules — the "camel-milk-heavy-metals" topic sweep is pulling generic-milk heavy-metals papers that happen to mention camel milk in their related-work sections.
-
-The metals field is `tHg` rather than `iHg`. The spiking agent is Hg(NO3)2 (inorganic Hg(II)), but the residual Hg measurement by ICP-MS is total Hg in the supernatant and the authors do not speciate Hg(II) from any Hg-organic complexes that might form during the 4-day milk-protein contact. Per Part 14 speciation discipline, the conservative report is tHg. The metals-page wikilink at the bottom uses `[[metals/mercury-total]]`.
-
-The Codex-Stan-193 Hg-in-milk limit of 0.05 µg/L cited by the authors (reference 8) is preserved verbatim from the paper but flagged as likely incorrect. The Codex General Standard for Contaminants and Toxins in Food and Feed (CXS 193) does not, in its 1995 adopted text or 2009 revision visible in the public CAC record, state a 0.05 µg/L milk-Hg maximum level. National Iranian standards have used 0.05 mg/kg (= 50 µg/kg ≈ 50 µg/L) for milk Hg, which is 1000× higher; the paper's 0.05 µg/L figure may be a unit-transcription error of the Iranian standard, a mis-citation of a different Codex document, or a value from a Codex working-document draft not in the adopted standard. The number is reproduced as the authors wrote it; any downstream use should confirm against the original Codex CXS 193 text rather than treating this paper as a primary source for the limit.
-
-The day-3 vs day-4 internal inconsistency on the maximum removal point (abstract and conclusion say day 4; Discussion paragraph on p.2317 says day 3 for the same 72% maximum) is reproduced verbatim. The most likely reading is that day 4 is correct (it appears in both abstract and Conclusion and is the upper bound of the central-composite design), and the day-3 mention is a typo, but the source disagreement is preserved.
-
-The Langmuir linear regression coefficient (y = −0.0774x + 2.7541) reported in Figure 4A is mathematically inconsistent with the Langmuir model. The Langmuir linear form Ce/Qe = 1/(K·Qmax) + Ce/Qmax requires a positive slope (= 1/Qmax) for any physically meaningful adsorption. A negative slope yields a negative Qmax, which is unphysical. The R² of 0.9121 is reported by the authors but the fit cannot represent a real Langmuir isotherm. The Freundlich fit (positive slope) is self-consistent. The conclusion "Mercury absorptions obey Langmuir isotherm model" in the abstract and Conclusion does not follow from the regression equation shown; this is a paper-internal contradiction. The Table 4 Ce values are also internally inconsistent with a 72%-removal maximum at 80 µg/L (Table 4 shows Ce = 24 µg/L at C0 = 80 µg/L, which is 70% removal, not 72%, and the 100 µg/L row shows 75% removal which exceeds the headline maximum). These are flagged for the audit editorial review's attention but reproduced verbatim.
-
-The Plackett-Burman ANOVA in Table 3 reports p-values of 0.0542, 0.0712, 0.0688, 0.4125, and 0.3202 for the five candidate factors. The authors describe the first three as "significant" despite all exceeding the conventional p < 0.05 cutoff stated in the Statistical Analysis section. This is reproduced verbatim and is internally inconsistent with the paper's own stated significance threshold.
-
-The product slug `category-5-beverages` is used per established convention for milk papers on HMI (chen2020-milk-types-elements-china, akhmetsadykova2013-camel-milk-lab-lead, etc.) — milk-and-dairy ingredient pages route to the category-5-beverages product page until a milk-and-dairy-specific HMTc Step 0 Lock exists.
-
-The matrices field uses `raw-milk`, which is established in the existing matrices vocabulary (chen2020, chirinos2023, ibrahim2024, parsaei2019, sarkis2025). The Figure 1 schematic shows raw milk as the input, before the pasteurization step where Hg is spiked.
-
-No brand names appear in the source as contamination-attribution targets. Method-vendor names (Merck, Liofilchem, HyClone, Prolabo, Labclinic, Tak Gen Zist, Stat-Ease/Design-Expert, Minitab) are reproduced under the methods-vendor exception per the strict reading of Part 12 locked 2026-05-17.
-
-Sample-year range is not stated; manuscript received 22 August 2020 and accepted 1 October 2020. Sampling is not applicable in the survey sense — this is a controlled-spike laboratory experiment, not a field measurement of milk contamination.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

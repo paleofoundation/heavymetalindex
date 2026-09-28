@@ -81,7 +81,7 @@ The ratio of inorganic to total arsenic varies systematically by matrix. In whit
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 2. [[sources/olivas-martinez2026-spanish-girls-urinary-metals|Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study]]<span class="hmi-ref-meta">Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, et al. · European Journal of Pediatrics 185:295 · 2026 · [doi.org/10.1007/s00431-026-06919-1](https://doi.org/10.1007/s00431-026-06919-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -93,7 +93,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

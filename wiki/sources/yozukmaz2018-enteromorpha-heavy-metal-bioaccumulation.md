@@ -50,7 +50,7 @@ Courses: Useful aquatic-pathway example for explaining how environmental reservo
 
 App: Context only.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[supply-chain/aquatic-bioaccumulation]]
 - [[metals/aluminum]]
@@ -63,10 +63,6 @@ App: Context only.
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/lead]]
-
-## Verification notes
-
-Recovered from `skip:not-food-occurrence` under the 2026-06-10 inclusion-by-default rule. The queue handle mislabeled this paper as mineral-water product evidence; on reading, it is in-scope lane a3 aquatic-bioaccumulation evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

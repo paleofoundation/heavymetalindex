@@ -57,7 +57,7 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 
 **App:** Qualitative geography/pathway context only. The tilapia arsenic datum (1.486 mg/kg) is a cited-study upper-end reference within this review, but primary-study extraction is needed before populating structured contamination_profile values.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/vegetables]]
@@ -74,13 +74,7 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 - [[metals/zinc]]
 - [[metals/copper]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) corrected the tilapia arsenic claim from "above safety limits" to the source-supported comparison, expanded metal and ingredient scope to match review tables, replaced nonstandard matrix terms, removed invalid supply-chain/regulation links, and reframed origin-risk language as source-level context.
-- The review reports arsenic and mercury without species separation; this page treats them as total arsenic (`tAs`) and total mercury (`tHg`).
-- Brand-firewall recheck under the stricter Part 12 reading locked 2026-05-17 (automated editorial review, 2026-05-18): zero brand names present in page content. Species names (rahu, tilapia, pangas — `Labeo rohita`, `Oreochromis mossambicus`, `Pangasius pangasius`) are scientific binomials, not brand attributions. The review itself names no brands; it summarises prior studies by river, agroecological zone, and market. `access_url` and `raw_sha256` were added in the same pass.
-- Audit editorial review (2026-05-18) flagged `[[regulations/codex-cxs-193-1995]]` as a non-existent regulation slug; verified against source — the review references WHO/FAO MTLs generically (and JECFA 2003 in Fig. 3) but never names Codex CXS 193-1995. Bullet removed from "Wiki pages this source may touch."
+- [[regulations/codex-cxs-193-1995]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

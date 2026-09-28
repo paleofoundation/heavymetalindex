@@ -48,7 +48,7 @@ Courses: This is a compact example of why edible wild fruits can contain measura
 
 App: The source can support a low-specificity fresh-fruit context flag for Ximenia americana and Sclerocarya birrea; it should not be generalized to all fresh fruit as a market distribution.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/fresh-fruit]]
 - [[ingredients/fruit]]
@@ -56,12 +56,6 @@ App: The source can support a low-specificity fresh-fruit context flag for Ximen
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- The auto-fetched filename targeted supplement enzymes, but the PDF itself is a food-occurrence paper on wild fruits. Routing follows the actual PDF content, not the filename.
-- The extracted table text contains OCR artifacts for some Sclerocarya birrea entries, including dropped decimals. The values above follow the abstract and the narrative result paragraphs, which agree on Fe 8.83 mg/g and Cr 0.19 mg/g rather than the malformed table text.
-- The source reports total chromium as Cr and does not identify Cr(VI); it must not be routed as hexavalent chromium evidence.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

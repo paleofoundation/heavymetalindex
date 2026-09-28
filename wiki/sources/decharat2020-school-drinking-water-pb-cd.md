@@ -46,17 +46,13 @@ Pb and Cd concentrations were determined by graphite furnace atomic absorption s
 
 Certification: bottled-water and water-filter context for Pb/Cd ranges. Courses: useful example of filter-state matrix separation. App: supports a Thailand school-water jurisdiction flag and filtered-vs-unfiltered distinction.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/bottled-drinking-water]]
 - [[products/water-filters]]
 - [[ingredients/water]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-All concentration ranges, sample count, dates, and matrix labels were taken from the PDF abstract/first page. Units are mg/L and must not be silently converted without logging.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

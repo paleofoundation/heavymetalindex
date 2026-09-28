@@ -44,7 +44,7 @@ Table 5 reports concentrations in ug/g.
 | Sheep/goat milk | <LOD | <LOD | <LOD | <LOD | <LOD | 0.002 +/- 0.002 | 2.77 +/- 1.18 |
 | Total seafood products | 7.06 +/- 6.17 | 0.002 +/- 0.002 | 0.019 +/- 0.011 | 0.99 +/- 1.02 | 0.010 +/- 0.014 | 0.09 +/- 0.18 | 6.36 +/- 5.27 |
 
-The authors report that all heavy metals were detected in seafood products, while most were below LOD in beef, pork, and milk. Seafood had the highest measured total arsenic, mercury, and lead means. Mercury drove the main non-cancer risk signal across consumption-weighted exposure: TTHQ-Hg exceeded 1 in every age class, with both cow milk and seafood contributing per the paper's narrative. Seafood-only THQ-Hg was greater than 1 for babies (2.38), children (2.23), and teenagers (1.68). Cow milk THQ-Hg also exceeded 1 in babies (10.19) and children (1.90), but that cow milk signal is an artifact of half-LOD substitution because every cow milk Hg measurement was below the 0.041 mg/kg LOD; the seafood THQ-Hg values rest on measured concentrations and are the more defensible reading of mercury risk in this dataset.
+One European barracuda (n = 1) contained 0.78 µg/g total mercury. Risk calculations treat inorganic arsenic as 2 percent of total arsenic in seafood and 70% in terrestrial foods, following EFSA. The authors report that all heavy metals were detected in seafood products, while most were below LOD in beef, pork, and milk. Seafood had the highest measured total arsenic, mercury, and lead means. Mercury drove the main non-cancer risk signal across consumption-weighted exposure: TTHQ-Hg exceeded 1 in every age class, with both cow milk and seafood contributing per the paper's narrative. Seafood-only THQ-Hg was greater than 1 for babies (2.38), children (2.23), and teenagers (1.68). Cow milk THQ-Hg also exceeded 1 in babies (10.19) and children (1.90), but that cow milk signal is an artifact of half-LOD substitution because every cow milk Hg measurement was below the 0.041 mg/kg LOD; the seafood THQ-Hg values rest on measured concentrations and are the more defensible reading of mercury risk in this dataset.
 
 ## Methods (brief)
 
@@ -54,7 +54,7 @@ Seafood edible tissues were digested and analyzed for As, Cd, Cr, Ni, Pb, and Zn
 
 This source contributes polluted-area occurrence evidence for seafood and terrestrial animal products. It should route to seafood, marine fish/shellfish, beef, pork, and milk/dairy contexts, with a clear jurisdiction and contamination-source caveat. It should not fill infant-formula rows, because no infant formula was sampled.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/seafood]]
 - [[products/fish-marine-non-predatory]]
@@ -72,15 +72,6 @@ This source contributes polluted-area occurrence evidence for seafood and terres
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-
-## Verification notes
-
-- Batch 2 auto-fetched ingest, 2026-05-25. The wishlist filename targeted cow-milk/infant-formula inorganic arsenic, but the actual paper reports meat, raw milk, and seafood occurrence data; it is not a formula source.
-- Speciation: As and Hg concentrations are total/unspecified measurements. Risk calculations estimate inorganic arsenic fractions (2 percent of total As in seafood, 70 percent in terrestrial foodstuffs per EFSA) and treat methylmercury as the relevant Hg form in fish, but the measured concentration table is not speciated iAs or MeHg.
-- Half-LOD substitution artifact: cow milk Hg was below the 0.041 mg/kg LOD in every sample, yet the paper's THQ and EWI calculations substitute ½ LOD and report a Hg THQ of 10.19 for babies and 1.90 for children from cow milk. Downstream syntheses should treat the milk Hg risk numbers as method artifacts, not as measured occurrence evidence, and weight the seafood Hg signal accordingly.
-- Pork sampling: 3 pork samples were collected from farm slaughterhouses as generic pork meat, not as a specific cut; the ingredient list maps to `meat` rather than `pork-chop`.
-- Predatory species: Sphyraena sphyrena (European barracuda, n=1, Hg 0.78 µg/g) is a predatory marine fish; routing therefore includes `fish-marine-predatory` in addition to `fish-marine-non-predatory` for the seabream and mullet samples.
-- Market/geography: this is a local polluted-area dataset from Southern Italy (Augusta-Melilli-Priolo Site of National Interest) and should not be pooled silently with general-market US or EU benchmark data.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -75,17 +75,6 @@ The study focused on imported spices traded in Libyan markets in 2011. Twenty-fo
 
 This source contributes Libyan-market spice occurrence data for Pb and Cd, separated by retail and wholesale channels. It is relevant to the spices product row and to ingredient context for black pepper, turmeric, and mixed spice blends. The source's own discussion points to market-chain variability in Libya; downstream extraction should retain the channel distinction and the source-table anomaly notes.
 
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; title page, abstract, methods, Tables 1-3, conclusion, and references were readable.
-- DOI verified from the first page as `10.5897/AJBR2014.0766`; DOI, raw handle `MFK_mohamed2014`, and cite-key checks found no existing source page before creation.
-- The cite key uses the first author's surname, Ziyaina, from the byline `Mohamed Ziyaina`; the raw handle preserves the input filename.
-- All Pb/Cd max, min, average, sample-count, analytical-wavelength, and comparator values above were checked against the extracted abstract, Methods, Tables 2-3, and conclusion.
-- Units are preserved as reported (`mg/kg`, `ppm`, `mg L-1`); no conversion was performed.
-- Speciation: Pb and Cd are elemental totals after acid digestion; no arsenic, mercury, or chromium speciation issue applies.
-- Source-table anomalies: the mixed-spices retailer Pb and Cd rows contain internally inconsistent max/min/average fields. This page reports them as printed and notes the inconsistency for audit.
-- source metadata product and ingredient slugs were checked against the editorial record; no new product or ingredient slug was invented.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

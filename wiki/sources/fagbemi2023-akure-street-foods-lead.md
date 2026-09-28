@@ -56,7 +56,7 @@ Courses: Useful for illustrating street-vending exposure pathways and why food c
 
 App: Supports broad food-route context for mixed meals, fruit, cucumber/non-root vegetables, and smoked fish rather than a single packaged-food product row.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[ingredients/cucumber]]
@@ -71,12 +71,6 @@ App: Supports broad food-route context for mixed meals, fruit, cucumber/non-root
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- The auto-fetched filename labels the file as a metal-utensil lead product hit, but the PDF is a street-hawked food study.
-- Table 1 labels units as mg/100 g, while the text discusses some element ranges as mg/kg. Values above follow the table label and should not be silently converted without a unit audit.
-- Product names are generic food categories, not consumer brands.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

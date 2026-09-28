@@ -50,7 +50,7 @@ Courses: Useful for teaching source investigations, field XRF screening with con
 
 App: Supports a market-context warning that some spices can be extreme Pb outliers, especially where adulteration or color enhancement is suspected.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/spices]]
 - [[ingredients/spices]]
@@ -60,13 +60,6 @@ App: Supports a market-context warning that some spices can be extreme Pb outlie
 - [[metals/lead]]
 - [[testing/x-ray-fluorescence]]
 - [[testing/icp-ms]]
-
-## Verification notes
-
-- DOI, title, authors, and publication were read from the Annals of Global Health PDF citation block and title page.
-- The PDF filename and auto-fetch row point to cookware, but the source's own conclusion identifies spices as the elevated Pb matrix. Cookware is retained only as a comparison matrix.
-- The paper reports total lead in spices by pXRF with ICP-MS subset adjustment. No brand-level values are reproduced.
-- Market scope is Georgia; benchmark pooling for another jurisdiction needs explicit stratification.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

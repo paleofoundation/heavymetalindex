@@ -82,7 +82,7 @@ Open-access article distributed under CC BY 4.0 (license declaration at the foot
 
 Evidence tier set to B rather than A. The journal is peer-reviewed (Asian Journal of Chemistry, indexed; ISSN-bearing) but the paper has multiple methodological transparency gaps (no LOD/LOQ, no CRM recovery, no replication structure, no instrument specification, an anomalous RfD for Pb that drives the THQ conclusion). A-tier on the HMI scale requires both peer review and methodological transparency sufficient for independent re-derivation of the headline values; this paper does not clear that bar.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -94,21 +94,6 @@ Evidence tier set to B rather than A. The journal is peer-reviewed (Asian Journa
 - [[metals/manganese]]
 - [[metals/zinc]]
 - [[ingredients/rice]]
-- [[products/fermented-beverages-non-tea-based]]
-
-## Verification notes
-
-The paper exhibits an internal framing tension between its abstract-level safety claim ("all the samples can be marked as safe as the metal concentrations are within the permissible limits of WHO") and its own Results-section statement that "Iron contamination is highest in Rangdani Rabha beer, which is above the WHO permissible limit," followed by a note that manganese also exceeds permissible limits "in all alcoholic beverages." This page reports both claims as the authors stated them and does not adjudicate which framing is correct, per (the wiki reports what the literature supports, not what is convenient).
-
-No brand names appear in the paper or on this page. The community and beer-style names recorded here (Pati Rabha, Koch Rabha, Rangdani Rabha, Sonowal Kachari, "Janga", "Rohi") are ethnographic identifiers of indigenous brewing traditions in named geographic districts, not commercial brand names; Part 12 brand-firewall does not apply. Method-vendor references (SPSS Inc., Chicago) are reproduced under the methods-vendor exception.
-
-Chromium is total Cr (no hexavalent speciation in the source); the source metadata uses `Cr`, not `Cr-VI`, accordingly. Arsenic and mercury were not measured, so iAs, tAs, MeHg, and tHg are absent from the metals list.
-
-The per-beer concentrations in this page are back-calculated from the EDI table (Table 2) using the authors' formula C = EDI × W / V with W = 60 kg and V = 250 mL, then cross-checked against the abstract ranges. The Average Daily Dose values printed in Table 3 are numerically identical to the EDI values in Table 2 and inherit the same back-calculation. Figure 1 ("% of metals in traditional rice beers") shows the same per-beer concentrations rendered as a stacked bar with axis values that match the back-calculated concentrations after unit scaling, providing a third independent check.
-
-Table 2 prints the cadmium EDI for Rangdani Rabha as "0.0083" while Table 3 prints the same row as "0.008"; the underlying concentration is the same (≈ 0.002 mg/L). Table 2 prints the cadmium EDI for Sonowal Kachari as "0.0125" and Table 3 prints it as "0.012". These are display-precision differences in the source, not data inconsistencies.
-
-The authors' choice of EPA oral RfD for Pb (1.5 mg/kg/day, Table 4) is not consistent with current US EPA IRIS practice for lead, which has withdrawn a single oral RfD in favor of BLL-based assessment. The low per-metal Pb THQ values (0.000–0.001) in Table 5 are driven by this divisor and should not be read as the principal HMI-relevant finding for Pb; the concentration data (0.09–0.19 mg/L) are the primary contribution and are reported above without reliance on the THQ framing.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -51,17 +51,12 @@ The study analyzed secondary BKIPM (Badan Karantina Ikan, Pengendalian Mutu dan 
 
 The source is strong context for ocean-origin and fish-weight stratification in tuna/swordfish mercury. Do not pool Indian and Pacific Ocean values silently.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/swordfish]]
 - [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
-
-## Verification notes
-
-- Source identity checked against DOI 10.15578/jpbkp.v14i1.572 and the downloaded PDF.
-- The study reports total mercury, not methylmercury.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

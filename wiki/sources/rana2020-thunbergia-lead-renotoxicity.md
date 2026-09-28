@@ -56,19 +56,11 @@ App: Supports lead toxicology and remediation-context notes on the metal and mit
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[mitigation/remediation-evidence]]
 - [[health/index]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect, with adjacent a2 co-treatment context. Prior skip was `skip:no-occurrence-data` because the paper had no consumer-product concentration table.
-- DOI, title, authors, journal, open-access license, treatment structure, n = 6 group size, PbAc drinking-water dose, Table 1 Pb and kidney-weight values, Table 2 kidney-function values, Table 3 histopathology grades, and method details were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed in the source, including `mg/dL`, `mg/g protein`, `mg/kgBW`, and `1% in DW`. The BUN and creatinine rows use the source's printed `+` notation for several Pb co-treatment cells.
-- Speciation: the source reports Pb and PbAc exposure; no lead speciation is reported.
-- Products and ingredients are intentionally empty because this is an animal toxicology/co-treatment paper, not a botanical supplement occurrence study.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

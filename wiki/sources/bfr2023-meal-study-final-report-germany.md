@@ -85,7 +85,7 @@ The report is distinct from the four MEAL-derived sources already in the corpus:
 
 **Microbiome.** Not directly addressed.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -99,11 +99,6 @@ The report is distinct from the four MEAL-derived sources already in the corpus:
 - [[metals/aluminum]]
 - [[metals/tin]]
 - [[metals/antimony]]
-
-## Verification notes
-
-- Fresh ingest 2026-06-02 from the archived source file via the v2.0 manual-fetch skill. Identity checks (DOI/raw_handle/cite-key) returned no matching wiki page; the four MEAL-derived sources already in the corpus (Fechner 2022, BfR 2022 Ni, BfR 2024 MeHg, Höpfner 2025 infant-formula) are downstream products of the data set this report documents, not duplicates of the report itself. Author field uses the institutional author (BfR) because the science report carries no individual author byline. DOI: null — the BfR Science Report does not carry a DOI; access_url points to the BfR MEAL Study homepage. License recorded as "BfR public report" (German federal agency publication, free public access). Sample structure figures captured verbatim from Tables 4–8 (core elements 869/13,552/356; arsenic species 73/1,411/55; methyl mercury 49/871/34; organotin 39/720/30); the bracketed nitrate-only counts (868/13,532/355) are footnoted in Table 4. source metadata `ingredients`/`products` are intentionally empty because the report's scope is the entire 356-food list, not a single ingredient or product; routing should flow through the companion publications that name specific foods. Methods preserves manufacturer/model names for analytical reproducibility per Part 12 Exception 2 (Retsch, Merck, MKN, Meiko, Tarrington House, EXTECH).
-- Audit editorial review (2026-06-02) flagged four Check-1 fidelity issues, all verified against the PDF: (1) "approximately 60,000 single food items" — verified against PDF page 1, which gives the methodology summary as "approx. 56,750 single food items"; the 60,000 figure is from section 4.2 (Purchasing) and represents gross purchasing volume; corrected to 56,750 with parenthetical note. (2) "Eight occurrence-data papers" — verified against Table 39 (page 64) which lists exactly seven entries in the occurrence-data block; corrected to seven. (3) "seven BfR opinions/communications" — verified against Table 39 (page 65) which lists exactly six entries; corrected to six. (4) Pistachio aflatoxin B1 framed as an "exceedance" — verified against Table 38 (page 63) which shows pistachios at 7.53 µg/kg against an 8 µg/kg ML (below the limit), parallel to the spiny-dogfish ndl-PCB notification-relevant near-miss; reframed to separate the actual buckwheat and chia-seeds exceedances from the pistachio near-miss. All four findings applied; zero false positives.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -135,7 +135,7 @@ Statement integrates four UK data streams and the international peer-reviewed an
 
 Statement is published under the UK Open Government Licence by the UK Committee on Toxicity of Chemicals in Food, Consumer Products and the Environment, an independent scientific advisory committee. Cite-key follows the institutional-author convention used elsewhere in the corpus (e.g., `efsa-aluminium-afc-2008`). The Statement number is COT 2013/01; published June 2013. Original retrieval through source-retrieval agent corruption-folder workflow (May 2026); raw_path reflects the source-retrieval-fetch folder structure. Currently published-canonical access URL maintained by the UK Food Standards Agency (`cot.food.gov.uk`); when retrieving for verification, the COT subdomain may redirect to the FSA archive. The original FSA cot.food.gov.uk footnote URLs in the Statement are now archived to the National Archives webarchive in places.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/aluminum]]
 - [[ingredients/breastmilk]]
@@ -157,15 +157,7 @@ Statement is published under the UK Open Government Licence by the UK Committee 
 - [[products/meat-and-poultry-purees]]
 - [[products/fish-containing-baby-foods]]
 - [[regulations/efsa-aluminium-twi]]
-- [[regulations/jecfa-aluminium-ptwi-2011]] (missing-slug proposal — no regulation page yet for the JECFA 2011 PTWI revision; see scheer2017 verification notes)
-
-## Verification notes
-
-- 2026-06-01: Fresh ingest via v2.0 manual-fetch autonomous skill (cot2013-uk-aluminium-infant-diet).
-- editorial review audit (2026-06-01) verdict REVISE; two findings handled:
-  - Check 2 ❌ flagged `[[products/biscuits]]` as missing from the 2026-05-18 taxonomy snapshot, suggesting retarget to `snacks-crackers-biscuits`. **Verified false positive**: the linked reference record exists in the current wiki as a provisional scaffold created 2026-05-19 (post-snapshot, via heal-gaps from `original2020-original-a` declaration). The routing audit routes this source to `products/biscuits` cleanly as `locked_hmtc_row direct_evidence`. No change applied to the wiki page; the taxonomy snapshot itself is stale and should be regenerated separately.
-  - Check 5 ⚠️ flagged "Drinking water rarely binds for infant Al exposure" in the Certification block as an HMTc-mechanics paraphrase that overreaches paragraph 50. **Verified concern correct**: paragraph 50 states "even unusually high concentrations of aluminium in public water are unlikely to take total intake above the PTWI." Implications/Certification paragraph revised to attribute the claim to paragraph 50 directly and to use the source's own wording.
-- Checks 1, 3, 4 returned ✅ clean; numerical fidelity verified across Tables 1–8 and conclusion paragraphs 49–51 / 58–61.
+- [[regulations/jecfa-aluminium-ptwi-2011]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

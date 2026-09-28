@@ -55,11 +55,6 @@ _Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` a
 - [[metals/nickel]]
 - [[regulations/efsa-nickel-tdi]]
 
-## Verification notes
-
-- Audit editorial review (2026-06-03) flagged the "~15%" nickel-sensitised-prevalence framing as not anchored on the pages it read (pp. 1, 3–6); verified false positive against the source — the paper itself states "Nickel allergic contact dermatitis has a prevalence of around 15% in the EU, Asia and the USA" (EFSA 2020;18(11):6268, p. 65 of the assessment body, sensitisation prevalence chapter). The wiki summary is faithful to the source.
-- Audit editorial review (2026-06-03) flagged `[[regulations/eu-2024-907-nickel-monitoring]]` as a forward reference not in the taxonomy snapshot; verified false positive — the page the linked reference record exists in the live repo (the snapshot was simply not regenerated when the regulation page was added). The wikilink resolves.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

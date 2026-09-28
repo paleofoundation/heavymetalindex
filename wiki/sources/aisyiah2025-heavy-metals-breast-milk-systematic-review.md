@@ -86,7 +86,7 @@ App: Breast milk is not in the app's ingredient-list model but the biomonitoring
 
 Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonization may be relevant to metal-microbiome teaching context, but this review does not directly study microbiome outcomes.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/breastmilk]]
 - [[metals/lead]]
@@ -97,13 +97,6 @@ Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonizati
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/nickel]]
-
-## Verification notes
-
-- 2026-05-19 (manual-fetch-source-retrieval merge-enhance, automated editorial review v2 skill): rebuilt the page from the source PDF. Fixes: (a) `raw_handle` replaced with the MFK_ form per current convention; (b) `jurisdictions` corrected from `[TW, ES, PL, CN, PS, SL]` to `[TW, ES, CN, PS, NG, EG, SI]` — the 9 included studies cover Taiwan, Spain, China, Palestine, Nigeria, Egypt, and Slovenia; the prior list misidentified Slovenia as Sierra Leone (SL) and added Poland (PL), which is only cited in the discussion via Szukalska 2021 as a non-included reference; (c) `sample_population` rewritten to reflect the actual 7 countries; (d) Pb attribution corrected — 13.22 ± 3.58 ng/mL colostrum is Chao 2014 (n=34), not n=228, while 6.49 ± 5.23 ng/mL mature-milk Pb is Lin 2023 (n=228); (e) Hg attribution corrected — GM 14 ng/mL (195/197) is Li 2014 China, while 0.76 ± 0.98 ng/mL in n=228 is Lin 2023 Taiwan; the prior page conflated these; (f) Cr / Zn transposition removed — the prior page wrote that Cr was "approximately 4× higher than Hg at 2.09 mg/L," but Castro 2021 actually reports Cr ≤ 0.5 ng/mL in all samples and the 2.09 mg/L value belongs to Zn; (g) Palestine aOR 4.96 (95% CI 1.10–22.38) re-attributed cleanly to Shawahna 2021 (the source paper has an ambiguous in-text citation but Table 2 confirms the attribution); (h) `metals` expanded to include Cu and Ni, both of which the review reports findings on; (i) added `access_url` from DOI; license normalized to `CC BY-SA 4.0`; `updated` advanced to 2026-05-19; (j) added unit-inconsistency flag for Castro 2021 Zn and Mg, where the review carries mixed mg/L and ng/mL labels — flagged here rather than silently corrected because the constituent studies are the authoritative source.
-- Brand firewall (Part 12): no sampled-product brand naming in this source; methods-section vendor naming not applicable to a narrative review.
-- Wiki/HMTc firewall (Part 2): no synthesis claims, threshold proposals, or consumer guidance in this page; biomonitoring detection numbers are reported as source-stated and not converted into wiki-side dietary or certification recommendations.
-- Prior verification note (2026-05-17 cross-vendor strict Part 12 recheck) is superseded by this 2026-05-19 pass.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

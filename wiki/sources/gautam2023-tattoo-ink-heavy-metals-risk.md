@@ -66,7 +66,7 @@ Courses: The report is useful for teaching cosmetic/personal-care exposure model
 
 App: For tattoo-ink pages, this source can support cards on NZ EPA impurity limits, selected NZ MoH maximum concentrations, EU recall counts, and ESR's conservative exposure assumptions. Product recall names are not needed for consumer-facing contamination summaries.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/tattoo-inks]]
 - [[metals/barium]]
@@ -77,18 +77,6 @@ App: For tattoo-ink pages, this source can support cards on NZ EPA impurity limi
 - [[metals/cadmium]]
 - [[metals/antimony]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- PDF text was extracted with `pdftotext -layout` to `/tmp/mfk_june8_tattoo_ink_risk.txt`. The title page, executive summary, scope section, tattoo-ink occurrence summaries, Table 1, Table 2, National Poisons Centre incident paragraph, Tables 11-15, conclusions, and references were checked against this page.
-- No DOI is printed in the extracted report. Title text, author, raw handle `MFK_health-risk-assessment-for-heavy-metals-in-tattoo`, raw SHA-256 `aa137029c788b0c46d4c2baea501b387b8f7204da740313a59f6a03987e8eec1`, and candidate cite-key `gautam2023-tattoo-ink-heavy-metals-risk` were searched before creation; no existing source page was found.
-- Units are copied exactly as source-reported: Table 1 uses `ppm`, Table 11 uses `mg/kg`, and Tables 13/15 use `µg/kg bw/d` exposure units. No conversion was performed.
-- Table 13 labels its concentration column as `µg/g` while listing values that correspond numerically to `mg/g` after scaling from Table 11; this page uses Table 11 `mg/kg` as the occurrence concentration basis and records Table 13 only for source-calculated exposure doses.
-- Speciation: the selected chromium concentration is Cr(VI) and was non-detect with no LOD reported. The report summarizes several studies that measured total Cr by ICP-MS and explicitly says those methods could not distinguish Cr(III) from Cr(VI); this page does not substitute total Cr for Cr(VI).
-- Arsenic and mercury are recorded as total arsenic (`tAs`) and total mercury (`tHg`) because the report does not present inorganic arsenic or methylmercury measurements for tattoo inks.
-- Brand firewall: Table 2 names recalled tattoo-ink products and attaches metal concentrations to those recall events. This page summarizes only aggregate recall counts and de-identified maxima; no product/brand name is attached to a contamination value.
-- Evidence tier: `A` because this is an agency risk-assessment report prepared by ESR for New Zealand health authorities, with clear scope, exposure assumptions, regulatory citations, and peer/management review. It remains regulatory/exposure context rather than a primary measurement source.
-- Routing: all source metadata product slugs appear in the editorial record; no new product or ingredient slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

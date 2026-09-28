@@ -69,17 +69,13 @@ EFSA's Environmental Scanning and Strategic Options Definition process runs two 
 - Microbiome: Not primary topic. The CLEFSA emerging-issues list does include marine biotoxins (ciguatoxins, BMAA, cyanotoxins, palytoxin, okadaic acid, pinnatoxins, tetrodotoxin), which are produced by microorganisms whose growth is sensitive to climate change; this is the closest microbiome-adjacent content and belongs on relevant WikiBiome pages rather than here.
 - Cross-source signal: this is the second EFSA horizon-scanning meta-document in the corpus alongside [[efsa-food-safety-research-needs-2030]]; together they bracket EFSA's research-prioritisation posture from 2019 (research-needs editorial) through 2024 (2020-2023 emerging-risks overview).
 
-## Wiki pages this source may touch
+## Related evidence
 
-- [[metals/arsenic]] — As listed in CLEFSA Issue 120 as climate-change-relevant emerging issue (regulatory/horizon-scanning context only).
-- [[metals/lead]] — Pb listed in CLEFSA Issue 120 (regulatory/horizon-scanning context only).
-- [[metals/cadmium]] — Cd listed in CLEFSA Issue 120, plus the circular-economy single-sentence flag on insect prepupae (regulatory/horizon-scanning context only).
-- [[metals/mercury]] — CLEFSA Issue 116 (regulatory/horizon-scanning context only).
-- [[metals/nickel]] — Circular-economy single-sentence flag on insect prepupae (regulatory/horizon-scanning context only).
-
-## Verification notes
-
-- 2026-06-02 — Fresh-context audit editorial review (verdict REVISE) flagged that the Figure 3 description omitted Hg from the heavy-metals dot label and placed the dot too centrally in the 33-66% band. Verified independently against p. 14 of the source PDF: the figure label is in fact "Heavy metals as As, Pb, Cd, Hg" (Mercury is bundled into the same dot) and the dot sits in the upper portion of the 33-66% band near the 66-90% boundary. Corrected the Figure 3 sentence accordingly.
+- [[metals/arsenic]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/mercury]]
+- [[metals/nickel]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

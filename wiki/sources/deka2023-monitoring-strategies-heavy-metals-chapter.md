@@ -99,24 +99,11 @@ Table 2 of the chapter compiles digestion methods and analytical techniques for 
 
 **App:** Not a source of concentration values. The analytical-method LOD descriptions inform minimum quantification thresholds used in app uncertainty estimates, but no direct ppb data are extractable.
 
-## Verification notes
+## Related evidence
 
-Enhancement run 2026-05-18 (cite-key existed before 2026-05-14; routing audit flagged as advisory-malformed for missing `ingredients`/`jurisdictions`). Defects corrected against the source PDF:
-
-- Removed invented `products: ["[[products/spices]]"]` slug. The chapter does not single out spices; Table 1 and Table 2 cover a broad sweep of food and beverage matrices with no specific product focus. `products: []` reflects the chapter's methodology-review scope. Source verification: full chapter read pages 1–14; "spice" or "spices" does not appear in the chapter body.
-- Corrected Co exponents in Key numbers — chapter Table 1 shows CalEPA 5×10⁻⁶ mg/m³ and ATSDR MRL 3×10⁻⁵ mg/m³ (both with negative exponents, both inhalation/airborne limits). The pre-existing page had transposed these as positive exponents and presented them alongside food MPLs without separating airborne from food limits.
-- Expanded `metals:` from `[Pb, Cd, tHg, Cr, Ni, Al, tAs]` to include Cr-VI (chapter explicitly cites IARC Cr-VI classification), Sb, Mn, Fe, Co, Ba, Be — all substantively present in Table 1 and the chapter's parameter discussions.
-- Added `jurisdictions: [IN]` (authors at Central Institute of Technology Kokrajhar, Assam).
-- Expanded `matrices:` to reflect chapter scope (added `non-alcoholic-beverages`, `soft-drinks`, `wine`, `drinking-water`).
-- Added oral reference doses (Figure 3), cancer slope factors (Pb and Cd from §2.2.5), and NYSDOH TCR interpretation thresholds that the prior page had omitted.
-- Flagged the chapter's internal contradiction (THQ described as carcinogenic indicator) so future synthesis does not propagate it.
-
-Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `access_url`, `source_type`, `evidence_tier`, sample-population framing, license (refined to CC BY 3.0 per the chapter's printed license stamp).
-
-Audit editorial review (2026-05-18) flagged three ⚠️ advisory items — all applied: (i) added OIV to the agency list in the introduction (chapter p. 2 cites OIV alongside WHO/USEPA/JECFA/SON, the prior draft omitted it); (ii) added `[[metals/chromium]]` alongside `[[metals/chromium-hexavalent]]` in the wiki-pages-touched section (Table 1 row 4 covers Cr generally as well as the Cr-VI carcinogenicity classification); (iii) noted that the `matrices:` entries (`alcoholic-beverages`, `non-alcoholic-beverages`, `herbal-drinks`, `soft-drinks`, `wine`, `drinking-water`) are routing-input descriptors rather than slugs from the closed taxonomy-snapshot vocabulary — they exist as free-form matrix labels that the routing layer fans out, and the routing audit accepts them without unresolved entries. No findings rejected.
-
-## Wiki pages this source may touch
-
+- [[products/spices]]
+- [[metals/chromium]]
+- [[metals/chromium-hexavalent]]
 - [[testing/icp-ms]]
 - [[testing/aas]]
 - [[testing/icp-oes]]
@@ -125,8 +112,6 @@ Audit editorial review (2026-05-18) flagged three ⚠️ advisory items — all 
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
-- [[metals/chromium]]
-- [[metals/chromium-hexavalent]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
 - [[metals/antimony]]

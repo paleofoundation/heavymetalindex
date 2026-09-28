@@ -91,7 +91,7 @@ App: Route as phytoremediation, plant metal transport, and stress-response conte
 
 Courses: Useful for teaching the difference between metal-exposure treatment doses, gene-expression response, and actual concentration occurrence in edible matrices.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/chromium]]
 - [[metals/mercury]]
@@ -102,10 +102,6 @@ Courses: Useful for teaching the difference between metal-exposure treatment dos
 - [[metals/manganese]]
 - [[testing/index]]
 - [[mitigation/index]]
-
-## Verification notes
-
-The PDF contains no measured crop or food concentration table. Metal values in this page are treatment concentrations used to provoke gene-expression responses and must not be interpreted as rapeseed occurrence values. The paper's group-count wording is internally awkward in the extracted text around group 7/AtMTP7; this page preserves the higher-confidence cluster counts from the Discussion and avoids using the inconsistent group-7 sentence as a routing fact.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

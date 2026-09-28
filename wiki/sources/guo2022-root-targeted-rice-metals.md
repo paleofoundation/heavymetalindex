@@ -54,22 +54,12 @@ Sterilized transgenic and wildtype rice seeds were germinated on Murashige and S
 
 The thesis supports a mitigation-context claim: in a controlled hydroponic seedling system, root-specific TaPCS1 or AtHMA3 overexpression shifted Cd and arsenic partitioning toward roots and away from shoots. It does not report rice grain concentrations, market samples, finished foods, consumer exposure, or regulatory compliance. Do not use these root/shoot values as rice-grain occurrence data or as a basis for HMTc thresholds.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/rice]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[mitigation/remediation-evidence]]
-
-## Verification notes
-
-- Identity checks: the thesis has no DOI in the extracted text. Greps for the raw handle `MFK_43-root-targeted-over-expression-of-heavy-metal`, the title phrase, the author/title phrase "Joy Guo" / "Root targeted over-expression", and candidate cite key `guo2022-root-targeted-rice-metals` returned no existing the linked reference record page or audit-queue row before creation.
-- Raw PDF SHA-256 verified as `887700432afd889535ece0059a305d65045ea35ee927f28167f0ef39a9fe39c6`.
-- Speciation: Cd is total cadmium in plant tissue. The exposure solution for the TaPCS1 experiment was As(III), but tissue As was measured by ICP-MS after digestion; the page therefore records arsenic as total arsenic context (`tAs`) and does not promote it to inorganic arsenic occurrence evidence.
-- Numerical fidelity: every number in the Key numbers and Methods sections was rechecked against `/tmp/hmi-june8-019.txt`. No plotted bar values were estimated because the extracted text does not table the concentration values behind Figures 2-4.
-- Slug vocabulary: source metadata uses only `rice` from the closed ingredient vocabulary and `Cd` / `tAs` from the metal abbreviation vocabulary. `products` and `matrices` are intentionally empty because rice roots and shoots from a hydroponic seedling experiment are not rice grain, rice bulk product, or any listed product/matrix slug in the taxonomy snapshot.
-- Brand firewall: the thesis uses hydroponic nutrient and lab-method context, but no commercial food, supplement, or personal-care brand is attached to a contamination value.
-- HMTc firewall: no HMTc thresholds, consumer certification claims, or wiki-side risk translations are introduced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

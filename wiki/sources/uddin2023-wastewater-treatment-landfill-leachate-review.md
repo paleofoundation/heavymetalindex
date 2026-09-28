@@ -87,7 +87,7 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 
 The chapter does not provide primary contamination data on any food matrix, ingredient, product, or regulation. No `contamination_profile` synthesis is triggered.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
@@ -96,13 +96,7 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - [[metals/copper]]
 - [[metals/manganese]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- source metadata `metals:` uses `[Pb, Cd, Cr, Ni, Cu, Mn, Zn]`. Cr-VI is not listed separately because the chapter discusses Cr3+ (the nanofiltration vignette) and unspeciated "chromium" (the GAC vignette) but does not measure Cr-VI specifically. The chapter does not raise Cr-VI in any of its heavy-metal vignettes. Cu, Mn, and Zn are off the canonical HMTc 10-analyte list but are explicitly named in the chapter's heavy-metal vignettes and are precedented in earlier source pages (e.g., [[sources/aishwarya2024-extremophiles-bioremediation-review]] which carries Cu and Zn). Fe is mentioned in the lime-precipitation vignette but is not listed in `metals:` because Fe is not within the HMI metals taxonomy; it appears in the body text only.
-- source metadata `matrices:` uses `[landfill-leachate, municipal-solid-waste]`. These are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`leachate`, `industrial-waste`, `e-waste` precedented elsewhere) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
-- `ingredients: []`, `products: []`, `jurisdictions: []` are intentionally empty: the chapter is a treatment-engineering review with no food-supply-chain, food-product, or jurisdiction-specific occurrence findings.
-- `sample_n: null`, `sample_population` is the review's authorship/affiliation framing rather than a sample-size claim (no primary measurement in the chapter).
+- [[sources/aishwarya2024-extremophiles-bioremediation-review]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

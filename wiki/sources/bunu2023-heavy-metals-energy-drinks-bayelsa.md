@@ -176,42 +176,13 @@ Evidence tier set to **C**. The source is primary research, peer-reviewed (Inter
 
 Open-access article distributed under CC BY 4.0 (license declaration on p. 1 of the PDF: "© 2023 The Authors. Published by Innovare Academic Sciences Pvt Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)"). Received 18 August 2023; revised and accepted 22 September 2023; published in International Journal of Chemistry Research, Volume 7, Issue 4, 2023, pp. 1–4. DOI: 10.22159/ijcr.2023v7i4.224. Online ISSN: 0976-5689. Journal homepage: https://ijcr.info/index.php/journal. Corresponding author: Samuel J. Bunu (pharmsamuelbunu@gmail.com). Affiliations: Department of Pharmaceutical and Medicinal Chemistry, Faculty of Pharmacy, Niger Delta University, Wilberforce Island, Bayelsa, Nigeria (Bunu, George, Ebeshi); Department of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Bayelsa Medical University P.M.B. 178 Imgbi Road, Yenagoa, Bayelsa, Nigeria (Alfred-Ugbenbo). Acknowledgement: the Head and staff of the Department of Pharmaceutical and Medicinal Chemistry, Faculty of Pharmacy, Niger Delta University, Wilberforce Island, Bayelsa State, Nigeria. Conflict of interest: none declared. Accessed via the Manual Fetch Discovery autopilot.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/iron]]
 - [[metals/zinc]]
 - [[products/sports-energy-drinks]]
-
-## Verification notes
-
-**Element-symbol convention.** The source uses "Pd" (the chemical symbol for palladium) throughout the abstract, the discussion, the conclusion, and all four tables to denote the analyte the source's introductory text identifies as "lead" and against which the source's tables compare to the WHO 0.01 mg L⁻¹ permissible limit and 3.5 × 10⁻³ EPA Reference Oral Dose — both of which are lead-specific values. This is a typographical error in the source; palladium is not a routine AAS-via-Bray-2004 analyte at the cited concentrations in beverages, and the introductory text explicitly identifies the four analytes as lead, cadmium, iron, and zinc. This wiki page records the analyte as lead (Pb) throughout and uses Pb in the source metadata `metals:` field. The source's "Pd" usage is preserved in direct quotes where applicable and noted explicitly in the Key numbers section.
-
-**Speciation handling.** This source measures total elemental Pb, Cd, Fe, and Zn by AAS without speciation. Pb, Cd, Fe, Zn are recorded as such in the `metals:` source metadata field (no iAs/tAs, MeHg/tHg, or Cr-VI/Cr distinctions applicable to this panel). Mercury, arsenic, chromium, aluminum, tin, antimony, nickel, and uranium were not in the source's analyte panel and are not recorded. Among the ten HMTc/HMI analytes, this source covers Pb and Cd only (two of ten).
-
-**Products source metadata.** The `products:` source metadata lists `sports-energy-drinks` only. The source's matrix is energy drinks, which the wiki taxonomy locates as HMTc Category 5 row 9 ("Sports/energy drinks") per the linked reference record. The eleven samples are commercially marketed energy drinks (specifically named brands in the methods inventory consistent with the energy-drinks product class); routing to `soft-drinks-carbonated-beverages` as a second product would over-route on a category basis. The conservative routing is to `sports-energy-drinks` only.
-
-**Ingredients source metadata.** The `ingredients:` field is empty. The energy drinks measured are finished beverages, not single-ingredient measurements. The source does not measure heavy-metal content at the ingredient level.
-
-**Matrices source metadata.** The `matrices:` field uses `energy-drinks` (established vocabulary, used in czarnek2024-heavy-metals-energy-drinks, alsayyed2024-heavy-metals-energy-drinks-jordan, babayo2026-heavy-metals-energy-drinks-nigeria).
-
-**Jurisdictions source metadata.** `NG` (Nigeria). The sample population is restricted to general-market supermarkets in Amassoma and Yenagoa, Bayelsa State, Nigeria.
-
-**Brand firewall (strict reading, locked 2026-05-17).** The source names eleven commercially marketed energy-drink brands in its Materials and Methods section as a collective inventory of the brands sampled (the eleven samples are labelled D1–D11 in all tables). The source does not attach specific brand identities to the D1–D11 sample labels, so no per-brand contamination value can be reported and no brand-by-brand ranking is implicit in the data. Nonetheless, the strict Part 12 reading prohibits reproducing the inventory list of brands in wiki page content, since doing so converts source-disclosed brand identities into a wiki-side disclosure that the named brands were sampled and quantified for heavy-metal content. The wiki page therefore describes the sample population as "eleven commercially marketed energy-drink brands purchased in no particular order from general-market supermarkets in Amassoma and Yenagoa, Bayelsa State, Nigeria" without naming the eleven brands. The methods section's scientific-method vendor identities (Atomic Absorption Spectrometer Model D1971/4691) are retained under the Part 12 scientific-method-vendor exception locked 2026-05-17. Brand-by-brand handling, where it would be desired by the wiki/HMTc certification process, belongs in the private brand-intelligence build described.
-
-**Wiki/HMTc firewall.** No HMTc threshold proposals, no consumer-audience risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in this wiki page body. The observation that every one of the eleven samples exceeds the WHO 0.01 mg L⁻¹ Pb permissible limit is reported as the source itself reports it — as a comparison against the regulatory comparator value the source itself cited — and is not framed as an HMTc threshold recommendation or as a consumer-safety claim. The Evidence Fitness section's flagging of the source's own conclusion language ("no carcinogenic health potential risks") is a methodological observation about the source's internal logic, not a wiki-side risk advisory.
-
-**Paper-internal inconsistencies recorded faithfully and flagged.**
-
-1. The element symbol "Pd" is used throughout the source for the analyte identified as lead in the introduction. Recorded as Pb in this wiki page; the source's "Pd" usage is preserved in direct mention.
-2. The Discussion reports Pb concentration range "0.018 to 0.276 mg L⁻¹" but Table 1 D11 reports 0.332 mg L⁻¹; Table 1 is recorded as the authoritative dataset.
-3. The Discussion reports Fe CDI range "0.001 to 0.050" but Table 3 D11 reports 0.056; Table 3 is recorded as the authoritative dataset.
-4. The EDI values in Table 2 are approximately 1,000× the value the Table 2 footnote's formula would yield; a unit-basis or scaling factor not stated in the footnote appears to have been applied. The Table 1 raw concentrations are the authoritative dataset; the Table 2/3/4 downstream computations are recorded as the source presents them but are flagged as not arithmetically reproducible from the stated formulas and not pool-eligible.
-5. The Cd EDI column reports a uniform 0.001 mg L⁻¹ for all eleven samples despite all Cd concentrations being censored at <0.002 mg L⁻¹; the source has propagated a single below-detection value through the EDI computation without flagging the censoring.
-6. The Conclusion characterizes the result as "no carcinogenic health potential risks" despite (a) every sample exceeding the WHO 0.01 mg L⁻¹ Pb permissible limit and (b) the THQ being a non-carcinogenic-hazard quotient, not a carcinogenic-risk metric. Recorded faithfully; not framed as a wiki-side risk advisory.
-
-**Audit application (2026-06-06).** Fresh-context Agent editorial review audit (verdict PROMOTE; all five checks ✅ clean with one ⚠️ minor on Check 1 Fe-THQ enumeration wording). Independent re-verification of the Fe THQ column against Table 4 confirmed eight of eleven samples (D1, D2, D4, D6, D7, D9, D10, D11) at Fe THQ ≥1; the original page text said "six of eleven" with a parenthetic self-correction to seven, and the audit editorial review independently arrived at seven. Both pre-correction wordings under-counted because D9 (Fe THQ = 1.143) was missed. Corrected to "eight of eleven" with the full enumeration. No other audit findings warranted page changes.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

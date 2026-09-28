@@ -61,7 +61,7 @@ The study area covered Binyang County of Nanning City and Xingbin District of La
 
 This source contributes supply-chain evidence for Cd, Cu, total Hg, Pb, and Zn in maize and peanut grain grown in Guangxi. It supports a soil-to-grain routing link, with direct relevance to maize/corn grain and peanut rows, but the most complete numeric concentration table is model-estimated and should not be treated as raw sample-level occurrence. Soil-only concentrations are context for the supply-chain pathway and should not be pooled as product concentrations.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/maize]]
 - [[ingredients/corn]]
@@ -74,15 +74,6 @@ This source contributes supply-chain evidence for Cd, Cu, total Hg, Pb, and Zn i
 - [[metals/mercury-total]]
 - [[metals/lead]]
 - [[metals/zinc]]
-
-## Verification notes
-
-- PDF text extracted with `pdftotext -layout`; the extracted text contained accepted-manuscript metadata, DOI, methods, narrative grain findings, Tables 1-6, figure captions, conclusion, and references.
-- DOI verified from the accepted-manuscript first page as `10.1016/j.etap.2019.103199`; DOI, raw-handle, and cite-key checks found no existing source page before creation.
-- Table 5 and Table 6 values were checked against the extracted text. Units are copied as `mg·kg−1` and `mg·kg−1·d−1`; no conversions were made.
-- Speciation: Hg is reported as total Hg. The source does not report methylmercury, inorganic arsenic, total arsenic, Cr, Cr(III), or Cr(VI).
-- Measured Figure 5 grain concentrations are shown graphically in the PDF but not exposed as exact numeric values in the extracted text; this page does not guess those values.
-- source metadata product and ingredient slugs were checked against the editorial record; no new slug was invented.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

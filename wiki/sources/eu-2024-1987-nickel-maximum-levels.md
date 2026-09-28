@@ -99,10 +99,6 @@ Compound and processed foods that are not themselves a listed category are handl
 
 This regulation establishes the EU finished-product nickel maximum levels recorded on [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2024-1987-nickel-maximum-levels]]. It is the regulatory counterpart to [[metals/nickel]] and the binding downstream uptake of [[sources/efsa-nickel-contam-2020|EFSA 2020]]. The companion monitoring instrument, [[sources/eu-2024-907-nickel-monitoring-recommendation|Recommendation (EU) 2024/907]], gathers occurrence data for the foods (fish and other seafood, ready-to-eat soups, coffee, tea, food supplements, and others) for which data were insufficient to set maximum levels in this regulation.
 
-## Verification notes
-
-Ingested 2026-06-22 from the Official Journal PDF (the archived source file, sha256 41242a9d…, 7 pages), read in full: recitals 1–12, Articles 1–2, and the complete Annex (entry 3.6.1–3.6.16). The maximum-level values and application dates above are transcribed verbatim from the Annex; the WebFetch small-model preview of this table was garbled and was discarded in favour of the primary PDF. ELI: http://data.europa.eu/eli/reg/2024/1987/oj. This ingest resolves the open provenance item flagged on [[sources/eu-2024-907-nickel-monitoring-recommendation]] (the exact amending instrument and its application dates are now primary-confirmed).
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

@@ -52,7 +52,7 @@ Courses: Useful case study on why upstream soil exceedances do not map one-to-on
 
 App: Can support a cautionary leafy-greens context note for urban foraging, with the rinsed-tissue and soil distinction kept explicit.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/leafy-vegetables-other]]
 - [[ingredients/leafy-greens]]
@@ -60,10 +60,6 @@ App: Can support a cautionary leafy-greens context note for urban foraging, with
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[supply-chain/soil-to-plant-transfer]]
-
-## Verification notes
-
-Recovered from the corpus-rescreen queue under the 2026-06-10 inclusion-by-default rule. The paper includes both routeable edible-tissue numbers and urban-soil pathway context. Product and ingredient routing is kept broad because the tested greens span multiple wild species rather than a single commercial crop row.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

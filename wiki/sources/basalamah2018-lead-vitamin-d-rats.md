@@ -56,19 +56,10 @@ App: Supports lead toxicology context on the metal page. It does not support an 
 
 Microbiome: No microbiome endpoints.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/lead]]
 - [[health/index]]
-
-## Verification notes
-
-- Recovered under the 2026-06-10 inclusion-by-default rule, lane a4 exposure and health effect. Prior skip was `skip:no-occurrence-data` because the paper had no finished-product table.
-- DOI, title, author list, journal, animal count, group size, Pb dose, vitamin D3 dose, kidney/testis Pb concentrations, serum Table 1, cytokine Table 2, oxidative-stress Table 3, and methods details were checked against the extracted PDF text on 2026-06-11.
-- Units are preserved exactly as printed in the source: `mg/L`, `IU/kg`, `µg/g`, `mg/dL`, `ng/mL`, `pg/mL`, `nmol/g`, `mg/g`, `µg/mg`, and `U/mg`.
-- Speciation: the source reports lead as Pb/lead acetate exposure and tissue Pb concentration; no lead speciation is reported.
-- Products and ingredients are intentionally empty because this is an animal toxicology paper, not a supplement occurrence study.
-- The vitamin D3 co-treatment improved multiple injury markers but did not significantly change tissue Pb concentrations; this distinction is preserved because it is load-bearing for remediation versus toxicity interpretation.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

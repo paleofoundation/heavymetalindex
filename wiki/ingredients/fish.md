@@ -130,7 +130,7 @@ Collado-Lopez et al. 2025 reports fish/fish-mix baby foods as a priority review-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/fda-epa-fish-consumption-advice|Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years]]<span class="hmi-ref-meta">U.S. Food and Drug Administration and U.S. Environmental Protection Agency · U.S. FDA and U.S. EPA · 2017 · [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/jecfa-61st-methylmercury|Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 922 · 2004 · [doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3)</span><span class="hmi-ref-tag">Government</span>
@@ -141,7 +141,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
+<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |

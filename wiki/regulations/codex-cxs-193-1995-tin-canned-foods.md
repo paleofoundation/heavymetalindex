@@ -44,11 +44,6 @@ This is an external Codex comparator, not an HMT&C certification threshold. It i
 
 - [[sources/codex-cxs-193-1995]] - General Standard for Contaminants and Toxins in Food and Feed, tin section.
 
-## Verification Notes
-
-- Created 2026-05-18 during the Mititelu et al. 2025 ingest after checking the current FAO-hosted Codex CXS 193 PDF.
-- The standard was adopted in 1995 and amended repeatedly. The effective_date field uses 1995-01-01 as a year-level placeholder for the adopted standard; legal users should check the current Codex PDF before relying on a live compliance value.
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

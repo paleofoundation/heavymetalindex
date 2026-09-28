@@ -300,7 +300,7 @@ _This table specifies a proposed research framework, not validated diagnostic cr
 
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Anchor sources](#anchor-sources) for the corpus records that carry the ingest receipt, the extracted values, and the file hash of the document they were built from. This is an authored critical narrative review; its bibliography is reproduced as authored, and the works also held as Heavy Metal Index source records link to that record.
+Works cited in this page's text, in first-appearance order. See [Anchor sources](#anchor-sources). This is an authored critical narrative review; its bibliography is reproduced as authored, and the works also held as Heavy Metal Index source records link to that record.
 
 1. [Dietary zinc alters the microbiota and decreases resistance to Clostridium difficile infection](https://doi.org/10.1038/nm.4174)<span class="hmi-ref-meta">Zackular JP, Moore JL, Jordan AT, et al. · Nature Medicine · 2016 · [doi.org/10.1038/nm.4174](https://doi.org/10.1038/nm.4174)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [Iron fortification adversely affects the gut microbiome, increases pathogen abundance and induces intestinal inflammation in Kenyan infants](https://doi.org/10.1136/gutjnl-2014-307720)<span class="hmi-ref-meta">Jaeggi T, et al. · Gut · 2015 · [doi.org/10.1136/gutjnl-2014-307720](https://doi.org/10.1136/gutjnl-2014-307720)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -355,7 +355,7 @@ Works cited in this page's text, in first-appearance order. See [Anchor sources]
 
 ## Anchor sources
 
-These are the Heavy Metal Index corpus records that carry the evidence this framework rests on for the metal-microbiome intersection. They are a subset of the full bibliography above: the works that also exist as source pages in this wiki, each with its ingest receipt and the file hash of the document it was built from.
+These are the Heavy Metal Index corpus records that carry the evidence this framework rests on for the metal-microbiome intersection. They are a subset of the full bibliography above: the works that also exist as source pages in this wiki.
 
 - [[sources/coryell2019-gut-microbiome-arsenic-toxicity]] — Review of the gut microbiome's influence on arsenic toxicity and biotransformation; supports the framework's claim that the microbiome can protect against, not only transmit, metal effects (sections 5 and 12).
 - [[sources/hoen2018-infant-arsenic-gut-microbiome]] — Sex-specific associations between infant arsenic exposure and gut community composition in a United States cohort; the human-association evidence discussed in section 5.
@@ -373,7 +373,7 @@ This is an authored critical narrative review, distinct in kind from the corpus-
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |

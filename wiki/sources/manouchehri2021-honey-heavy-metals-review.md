@@ -73,7 +73,7 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 
 **App:** Not a source of usable ppb values for contamination_profile. Storage container material is a relevant contamination lever for honey.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/honey]]
 - [[products/honey]]
@@ -90,16 +90,6 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 - [[metals/manganese]]
 - [[metals/cobalt]]
 - [[metals/tin-inorganic]]
-
-## Verification notes
-
-- Cross-vendor audit (Codex, 2026-05-17) expanded the metal and country scope to match the review table and discussion, removed the invalid `supply-chain/packaging` link, and replaced HMT&C category speculation with source-level language.
-- 2026-05-18 brand-firewall recheck (Part 12, stricter reading): re-read full PDF body, abstract, ÖZ, discussion, and references against the wiki page. No commercial honey brand names appear in the source or in the wiki page; the cited Akbari et al. 2012 study title references "Iranian Honey Brands" but the review body presents only country/region/market identifiers (Iran, Ardabil, Urmia, Saveh City, Markazi Province, Tadla-Azilal, etc.). Firewall passes.
-- 2026-05-18 merge-enhance: added Chile (CL) and China (CN) to `jurisdictions` to match the Fredes & Montenegro 2006 (Chile) and Tuzen et al. 2007 (China) studies discussed in the body text, and expanded Key numbers with quantitative Table 1 highlights so the page is usable as a directional gateway to the cited primary sources.
-- The review does not provide arsenic or mercury speciation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
-- Sn is included only for the storage-container leaching pathway discussed by the review, not as a pooled honey occurrence estimate.
-- Table 1 of the review contains internal anomalies (cross-unit inconsistencies, e.g., the "UT 2015" Turkey row reporting Pb 110 ± 1.277 mg/kg wet weight in the table, which is implausible and the review does not flag; and Magna et al. 2018 Ghana Pb 79.815 ± 16.796 mg/kg, a comparable-magnitude implausible value). The Key numbers section flags these magnitudes rather than treating them as usable occurrence points.
-- 2026-05-18 audit-editorial review finding (verified against Table 1 column order on PDF p.240): the prior Magna et al. 2018 Ghana bullet transposed Pb and Ni — the 79.815 ± 16.796 value sits in the Lead column, not the Nickle column. Corrected, and the false WHO/FAO Ni-exceedance synthesis statement that accompanied it (the actual WHO/FAO-exceedance statement in the review is for Toma et al. Nigeria Fe/Cu/Mn/Zn, not Magna Ghana Ni) was removed. The audit editorial review also flagged the Aljedani Saudi Arabia bullet for attribution ambiguity between Table 1 and the discussion text (the same "0.008 ± 0.008" value is attributed to Aljedani in Table 1 and to Saghaei in the p.242 discussion); the bullet was dropped because the review's internal inconsistency makes it unusable as a citation. Sajtos Hungary method label was reconciled by noting Table 1 (ICP-OES) and the cited paper title (MP-AES) disagree.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

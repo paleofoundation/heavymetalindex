@@ -97,23 +97,14 @@ App: For consumer-facing exposure estimation, infusion-basis Al concentrations a
 Microbiome: Not addressed in this paper.
 
 ## Related evidence
+
+- [[metals/aluminium]]
+- [[ingredients/green-tea]]
+- [[ingredients/black-tea]]
+- [[ingredients/white-tea]]
 - [[metals/aluminum]]
 - [[ingredients/tea]]
 - [[products/tea-infusions]]
-
-## Verification notes
-
-Merge-enhance pass 2026-05-20 (automated editorial review, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
-
-- **Corrected metal wikilink slug.** Prior revision linked `[[metals/aluminium]]` (British spelling); the canonical metal page is the linked reference record (US spelling, per the existing taxonomy). Changed the wikilink to `[[metals/aluminum]]`. The source metadata symbol `Al` was already correct.
-- **Stripped invented ingredient sub-slugs.** Prior `ingredients:` array included `[[ingredients/green-tea]]`, `[[ingredients/black-tea]]`, and `[[ingredients/white-tea]]` — none of those pages exist in the current taxonomy (only the linked reference record, which lists `green-tea`, `black-tea`, and `oolong-tea` as aliases). Per (5-paper threshold for sub-variant page creation) and the verification checklist taxonomy rule, the array now contains only the existing umbrella slug `[[ingredients/tea]]`. The tea-type granularity (black/green/white) is fully preserved in the Key numbers prose and Table 1 rendering. The "Wiki pages updated on ingest" list was correspondingly trimmed.
-- **Corrected truncated `raw_path`.** Prior revision ended at "Determination of aluminium concentrations in black, green, and wh.pdf"; the actual filename ends with "...white tea samples_ effects of different infusion times and teapot species on aluminium.pdf". Restored the full filename.
-- **Expanded Key numbers to a per-condition rendering.** Prior revision reported only overall, time-margin, and teapot-margin means. The merged page lays out all 43 tabulated condition-level means (Table 1), preserving the paper's full 3 × 5 × 3 design. This makes the per-cell numerical fidelity auditable and reproducible without back-reference to the PDF.
-- **Documented paper-internal precision discrepancy.** The body text on p. 3 reports the overall range as "38.46 ± 5.08 to 845.75 ± 11.14 µg/L"; Table 1 shows the green-tea/steel/15-min cell as "844.8 ± 10.9". This is a paper-internal precision difference, not a wiki-side error. The page now notes the discrepancy explicitly. The abstract reports "38.46 ± 5.08 to 844.75 ± 10.86 µg/L", consistent with the table at low precision. Following the precedent set by other autonomous-cycle merges, the page reports the body-text overall range and notes the discrepancy in line.
-- **Tightened Implications language for Part 2 firewall compliance.** Prior text included "HMT&C product assessment should account for cumulative Al from all ingredients" — directive language toward the certification program. The merged Certification block frames green tea as "a meaningful Al exposure vector that should be evaluated against the JECFA TDI" — occurrence data, not a threshold proposal, per the Part 2 boundary.
-- **Method note added on what HPLC-FD measures and what "nd" means.** Clarified that the assay quantifies total dissolved Al, that no dry-leaf concentrations were measured, and that "nd" in Table 1 (black-tea aluminium-teapot at 5 and 10 min) means below the calibration range, not confirmed absence.
-- **Updated `sample_population`** to surface the experimental design (5 teapot materials × 3 infusion times × 3 tea types, triplicate) more explicitly.
-- Preserved cite_key, raw_handle, license, evidence_tier, sample_n, jurisdictions, matrices, products array, and the overall page structure. No new ingredient, product, regulation, or metal pages proposed. No brand names appear in the source; no Part 12 brand-firewall actions were needed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

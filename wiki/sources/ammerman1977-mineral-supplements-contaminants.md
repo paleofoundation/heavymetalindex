@@ -70,7 +70,7 @@ This is a review paper with example composition tables. The authors state that T
 
 The paper documents a plausible livestock supply-chain pathway: feed-grade mineral supplements can carry substantial Pb, tAs, Cd, Al, tHg, or V impurities depending on mineral source and processing history. These supplement values should not be entered as finished-food occurrence concentrations. They can support source-pathway notes for meat-and-poultry and milk-and-dairy pages, especially where later livestock-product papers discuss feed or mineral supplements as exposure sources.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/meat-and-poultry]]
 - [[ingredients/milk-and-dairy]]
@@ -80,16 +80,6 @@ The paper documents a plausible livestock supply-chain pathway: feed-grade miner
 - [[metals/aluminum]]
 - [[metals/mercury-total]]
 - [[metals/vanadium]]
-
-## Verification notes
-
-- Identity checks before writing found no existing source page for the title, first author, raw handle `MFK_ammerman1977`, or cite key `ammerman1977-mineral-supplements-contaminants`.
-- Source scope: supply-chain context for domestic-animal feed mineral supplements. `products: []` is intentional because the current closed taxonomy has no livestock feed-grade mineral-supplement product row; the closest human and pet supplement rows would mis-route the matrix.
-- Slug note: no exact `animal-feed-mineral-supplements` product or ingredient slug exists in the taxonomy snapshot. source metadata uses downstream livestock ingredient pages (`meat-and-poultry`, `milk-and-dairy`) and descriptive matrix terms.
-- All Table 2 values above were rechecked against `/tmp/hmi-june9-077.txt` extracted with `pdftotext -layout`. The 9 ppb Hg statement is from the narrative immediately below Table 2, not a separate row in the rendered table.
-- Speciation check: As and Hg are not speciated in Table 2 or the summary text; they are recorded as tAs and tHg. The review discusses methylmercury in secondary toxicology examples, but no feed-grade supplement MeHg occurrence value is reported.
-- Units and basis are preserved as printed (`ppm`, `ppb`, dry matter, wet tissue, or wet tissue basis where stated). No values were converted or normalized.
-- Brand firewall: the table footnote names a data contributor, not sampled brands; no commercial source is tied to a contamination value.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

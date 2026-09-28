@@ -140,7 +140,7 @@ Arsenic speciation was targeted rather than universal. Rice-containing dry foods
 
 **Microbiome:** No direct microbiome endpoint.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/arsenic-total]]
 - [[metals/arsenic-inorganic]]
@@ -177,14 +177,6 @@ Arsenic speciation was targeted rather than universal. Rice-containing dry foods
 - [[regulations/fda-closer-to-zero]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
 - [[regulations/fda2025-lead-processed-baby-foods]]
-
-## Verification notes
-
-- Ad hoc RGSA manual-fetch ingest by Codex on 2026-05-18 from the archived source file.
-- Brand firewall: Table 1 reports product counts by named manufacturers/private labels. Those names are intentionally omitted here because they are sampled-product brand identifiers, not method vendors or regulatory-event subjects.
-- Thallium arithmetic caveat: the Results text reports "12 of 394 (24%)" puree/mixture products above LOQ. Since 12/394 is not 24%, this page preserves the numerator/denominator and flags the parenthetical percentage as a source-side arithmetic inconsistency.
-- Matrix vocabulary note: `fruit-juice` is used here for the source's liquids/drinks subset because the standard matrix list does not yet contain a better baby/young-child juice term.
-- Fresh-context audit (Codex/Meitner, 2026-05-18) returned REVISE only for the unflagged `fruit-juice` matrix term; this verification note resolves the vocabulary concern. Numerical fidelity, methods/speciation, brand firewall, and wiki/HMTc firewall were clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

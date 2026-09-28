@@ -63,7 +63,7 @@ Forty-eight dairy products purchased from local markets in regions of varying in
 - Courses: Demonstrates the value of AMA-254 direct-mercury analysis at sub-ppb detection limits for dairy QC and illustrates how product moisture content drives apparent concentration differences across dairy formats (butter > milk powder > cheese > fluid milk > fermented). Also serves as a regional reference for Polish dairy supply chains drawing from south-east Poland (Lublin, Podkarpackie).
 - App: Contributes Hg occurrence data to the milk-and-dairy ingredient page and the butter-and-ghee product page in a European context, with sub-category structure for butter, milk powder, cottage cheese, cream cheese, yogurt, kefir, and buttermilk. Values sit in the lower tail of the dairy total-Hg distribution and contribute occurrence weight rather than threshold-setting weight.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[metals/mercury-total]]
 - [[ingredients/milk-and-dairy]]
@@ -72,26 +72,8 @@ Forty-eight dairy products purchased from local markets in regions of varying in
 - [[ingredients/yogurt]]
 - [[products/butter-and-ghee]]
 - [[regulations/efsa-mercury-twi]]
-
-## Verification notes
-
-**2026-05-19 (automated editorial review, merge-enhance and duplicate consolidation).** Two source pages existed for this paper: this page (`pankiewicz2012-thg-dairy-products-poland.md`, last updated 2026-05-17) and a legacy duplicate (`pankiewicz2012-mercury-dairy-products-poland.md`, last updated 2026-05-14). Both shared the same DOI (10.2428/ecea.2012.19(01)014). The legacy duplicate had three defects that the routing audit and downstream synthesis would have propagated: (a) units reported as mg/kg throughout the body, when Table 1 of the source uses µg/kg (the source page-1 abstract has a "10 mg/kg" typo for what the source itself elsewhere clarifies as 10 µg/kg / 10 ppb — the Polish national limit); (b) source metadata slugs `ingredients/milk` and `ingredients/cheese` that do not exist in the current taxonomy; and (c) `evidence_tier: A` instead of `B` (single-author regional survey without speciation does not meet the A-tier bar). The legacy duplicate has been removed; this page is the canonical source-page for the paper.
-
-**source metadata defects corrected in this revision.** Previous source metadata listed `[[ingredients/cheddar-cheese]]` and `[[ingredients/half-and-half]]`. The source paper measures cottage cheese, cream cheese, and cream — not cheddar cheese and not half-and-half. Both invented slugs were removed; `[[ingredients/whole-milk]]`, `[[ingredients/yogurt]]`, `[[ingredients/butter]]`, and `[[ingredients/milk-and-dairy]]` are retained because they match real wiki ingredient pages and the source measures all four. Kefir, cottage cheese, cream cheese, buttermilk, and milk powder are carried in the `matrices:` field instead because no individual wiki ingredient pages exist for those sub-forms (they would fall under the milk-and-dairy umbrella per Part 10 unless and until promoted by the 5-paper rule).
-
-**Brand firewall (Part 12, strict 2026-05-17 reading).** The source paper uses anonymised producer codes (OSM A–F) for the six regional milk cooperatives; those letter codes are scientific anonymisation and are retained in the per-OSM table to preserve the within-producer / across-producer gradient that is one of the paper's findings. However, the paper also includes proper-noun product-line identifiers in Table 1 (six distinct trade-marked product-line names) and the Polish-language abstract names two specific producer locations and a specific kefir brand. All of those proper-noun brand identifiers have been scrubbed from this wiki page. Descriptive product attributes that are not proper nouns (e.g., "vanilla flavoured cream cheese", "cream cheese with horseradish", "tzatziki with cucumber and garlic", "strawberry flavoured yogurt") are retained because they describe the product format rather than identify a brand. Where Producer A or D produced two distinct natural-yogurt or vanilla-cream-cheese product lines that the paper reports separately, the two are distinguished here as "(second product line)" rather than by trade name.
-
-**Wiki/HMTc firewall (Part 2).** No HMTc threshold proposals or certification-aligned framing in `## Implications`; the section limits itself to what this single occurrence study contributes to the dairy total-Hg baseline. Direction of edit: toward the literature (correcting unit error and invented slugs makes the wiki more accurately reflect the source); no movement toward HMTc convenience.
-
-**Speciation.** Total mercury only (AMA-254 with thermal decomposition). Paper does not report MeHg, iHg, or any speciation fractionation. `metals:` therefore lists `tHg` only and not `MeHg` or `iHg`.
-
-**Source unit inconsistency preserved as a caveat.** The English-language abstract on page 1 of the source contains the line "the mercury content was lower than the permissible level of 10 mg/kg" with a unit typo: the rest of the paper (Table 1 column header, Results and Discussion, the Polish-language abstract, and the explicit "10 µg/kg (10 ppb)" statement on page 7) makes clear that the permissible level is 10 µg/kg and the data are in µg/kg. The wiki page uses µg/kg consistently because that is the unit the source's own data table and discussion are reported in.
-
-**Detection-limit reinterpretation flagged (audit editorial review 2026-05-19).** Source page 2 states the AMA-254 instrumental detection limit as "10⁻⁵ mg/g". Taken literally, 10⁻⁵ mg/g equals 10 µg/kg, which is inconsistent with the minimum reported product-basis values of 0.01 µg/kg in Table 1 (the reported floor is three orders of magnitude below the stated DL). The source's units are internally inconsistent (the same paper has the page-1 abstract "10 mg/kg" typo for what is elsewhere clarified as 10 µg/kg). This wiki page reinterprets the stated "10⁻⁵ mg/g" as "10⁻⁵ µg/g" (= 0.01 ng/g = 0.01 µg/kg), which is the only DL value consistent with both (a) the AMA-254 specification and (b) the lowest reported Table 1 value. The reinterpretation is documented here rather than silently presented as the source's literal text. Audit editorial review (2026-05-19) flagged this as a ⚠️ documentation issue; verified against source page 2 — finding correct, applied as a verification-notes flag rather than as a re-quoted value.
-
-**Audit editorial review (2026-05-19) ⚠️ on floor-value attribution.** Original opening paragraph attributed the 0.01 µg/kg floor to kefir only. Source page 3 explicitly names the floor as reached by "natural kefir (7D, 6C), cream (5D), buttermilk (5C) and strawberry flavoured yogurt (3D)" — four product formats from four cooperatives. Opening paragraph revised to enumerate all four; finding verified correct and applied.
-
-**Products field.** `[[products/butter-and-ghee]]` retained because the source measures butter extra (n=3 across OSMs A, C, F at 0.47–0.79 µg/kg) and the linked reference record is an HMTc-locked product page (Category 7, Row 3). No locked HMTc row exists yet for fluid milk, yogurt, kefir, cottage cheese, cream cheese, buttermilk, or milk powder; those formats route via the `matrices:` field rather than via `products:`.
+- [[ingredients/cheddar-cheese]]
+- [[ingredients/half-and-half]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

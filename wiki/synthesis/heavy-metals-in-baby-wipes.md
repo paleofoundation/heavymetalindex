@@ -244,7 +244,7 @@ What the record cannot yet support is a statement about dose. The datasets repor
 
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Anchor sources](#anchor-sources) for the corpus records that carry the ingest receipt, the extracted values, and the file hash of the document they were built from. Works held as Heavy Metal Index source or regulation records link to that record; other works link to the cited document.
+Works cited in this page's text, in first-appearance order. See [Anchor sources](#anchor-sources). Works held as Heavy Metal Index source or regulation records link to that record; other works link to the cited document.
 
 1. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Alex Stone · Washington State Department of Ecology, Publication 14-04-014 · 2014, contact revision 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Government report</span>
 2. [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Determination of heavy metals on the non-woven in wet wipes using ICP-MS]]<span class="hmi-ref-meta">Sung-Min Choi, Jin-Kun Song, and Sang-Jin Kim · Journal of the Korean Oil Chemists' Society · 2016 · [doi.org/10.12925/jkocs.2016.33.1.195](https://doi.org/10.12925/jkocs.2016.33.1.195)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -274,7 +274,7 @@ Works cited in this page's text, in first-appearance order. See [Anchor sources]
 
 ## Anchor sources
 
-These Heavy Metal Index source records carry the measurements this synthesis rests on. Each holds the ingest receipt, the values extracted from the document, and the file hash of the document it was built from.
+These Heavy Metal Index source records carry the measurements this synthesis rests on.
 
 - [[sources/stone2021-wa-metals-childrens-consumer-products]]: Washington State laboratory table of metals in three screened wipe components and two wipe packages, in ppm.
 - [[sources/choi2016-wet-wipes-nonwoven-heavy-metals]]: Metals in microwave digests of 24 wet-wipe nonwoven sheets, in µg/L of digest solution, with the authors' fiber labels.
@@ -291,7 +291,7 @@ This synthesis was established on 25 September 2026 from the Heavy Metal Index e
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 
-This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. Reviewer verdicts are recorded on this page.
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |

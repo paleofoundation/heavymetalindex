@@ -42,7 +42,7 @@ A diaper is a skin-contact childcare article, so the DOT restriction (0.1% Sn) a
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->

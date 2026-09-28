@@ -73,7 +73,7 @@ Independent commercial laboratory testing commissioned by Consumer Reports. Two 
 
 **App:** Reinforces dried herbs and spices as a category warranting per-product testing rather than category-level defaults. The Consumer Reports concern-level designations are not regulatory thresholds and should not be used as such by the app.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[ingredients/spices]]
 - [[ingredients/herbs-and-spices]]
@@ -84,14 +84,6 @@ Independent commercial laboratory testing commissioned by Consumer Reports. Two 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
-
-## Verification notes
-
-- Brand firewall: brand-by-brand values present in the source article are deliberately not transcribed; aggregation is to category and analyte level only per Part 12. The highest-concern turmeric product is described by product form rather than brand name; readers seeking the brand-identified outlier should consult the source article directly.
-- Arsenic speciation: source reports total arsenic only; iAs is not resolved.
-- No quantitative ppb values are pulled because the article does not publish a full per-product concentration table; the concern-level designations are Consumer Reports' editorial classifications, not raw laboratory values.
-- 2026-05-28 merge-enhance: corrected the seven-no-concern-categories list to replace "basil" with "black pepper" per the article's "Season Safely" summary on p.45 (verified against the PDF); removed black pepper from the mixed-categories list for the same reason; reframed the 31-products-lead-alone finding from "children" to "anyone" per the article's exact phrasing on p.40 ("the maximum amount anyone should have in a day"); added FDA / NY State / California Prop 65 / FDA import-alert regulatory context from pp.42-44; added the no-brand-consistency and no-organic-protection findings from p.45; added co-author Tanya A. Christian per the article's joint byline on the DIY section (pp.46-47).
-- 2026-05-28 audit-application: removed "allspice" from the baking-spice exclusion (article p.42 names only cinnamon and nutmeg); removed the "La Flor Ground Turmeric" brand attribution per Part 12 strict reading (category-defining outlier is not among the locked Part 12 exceptions); replaced with a product-form descriptor. Routing audit ⚠️ on matrices vocabulary documented as false positive — matrices is an open routing-input vocabulary, not a closed taxonomy-snapshot list.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -58,7 +58,7 @@ App: The source can support a deodorant/antiperspirant evidence card that distin
 
 Microbiome: Not applicable.
 
-## Wiki pages this source may touch
+## Related evidence
 
 - [[products/deodorants]]
 - [[metals/aluminum]]
@@ -72,10 +72,6 @@ Microbiome: Not applicable.
 - [[metals/copper]]
 - [[metals/iron]]
 - [[metals/manganese]]
-
-## Verification notes
-
-Identity checks before drafting found no existing the linked reference record hit for DOI `10.3390/molecules30204050`, raw handle `MFK_paper-07-mikolajczyk-2025-eu-deodorants-metals`, cite key `mackiewicz2025-eu-deodorants-elements`, or the exact title. The filename labels the paper as "Mikolajczyk," but the PDF byline and metadata identify Maćkiewicz et al.; the cite key follows the byline, not the filename. The DOI, authors, title, journal, year, and CC BY license were checked against the first page and PDF metadata. Key values were checked against the abstract, Section 2.1, Tables 1/3/6, and the conclusion in `/tmp/hmi-fem-005.txt`. The page preserves the source's mixed unit labels (`%`, `mg/L`, and Table 1 `[mg/kg]`) and flags the 35-versus-37 Pb count discrepancy. No speciation is reported for Cr, Pb, Cd, or any other element. The source sampled well-known and local brands, but this page reports only category/form/active-substance summaries under the brand firewall. `deodorants` is used as the product slug because the sample set is general deodorants/antiperspirants, not specifically feminine deodorants. `npm run evidence:source-routes` exited 0 and generated one `deodorants` product route; `routing_malformed.csv` contains an advisory-only missing-ingredients warning because no closed ingredient slug is appropriate for this general cosmetic product matrix.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

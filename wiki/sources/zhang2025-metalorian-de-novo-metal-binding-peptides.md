@@ -156,12 +156,6 @@ App: Not applicable. No contamination-profile data, no consumer-product matrices
 
 Microbiome: Not applicable. No microbiota or microbial-community measurements; bacterial work is limited to *E. coli* BL21(DE3) as an expression host.
 
-## Verification notes
-
-- 2026-06-08 audit editorial review flagged systematic mis-mapping of Figure 1A bar-top counts to metal labels in the original Key-numbers table and the corresponding "Why this matters" narrative bullet. The figure plots bars in ascending count order (V, Ag, W, Pt, Mo, Pb, Cd, Hg, Co, Ni, Cu, Mn, N/A, Fe, Zn = 6, 10, 10, 11, 14, 90, 131, 149, 197, 829, 913, 3,839, 5,230, 17,805, 21,423); the original draft had shifted ten of the fifteen counts onto the wrong metal label. Verified against PDF p. 3 Fig. 1A and corrected. Ag, Pb, Fe, Zn counts in the original draft were already correct.
-- 2026-06-08 audit editorial review noted that the preprint's MD-system PBS ionic-strength statement reads "Na⁺ and Cl⁻ ions at a concentration of 0.155 mM" (PDF p. 11) — almost certainly a typo for 155 mM, the conventional physiological PBS value. Retained the figure as the preprint reports it, with a `[sic]` flag.
-- 2026-06-08 audit editorial review noted the original draft omitted the "350 GB shared VRAM" detail of the A6000 DGX server (PDF p. 8). Added.
-
 ## Related evidence
 - [[metals/cadmium]]
 - [[metals/copper]]
