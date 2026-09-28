@@ -144,7 +144,7 @@ _Some metals not listed in this section because no ingested source yet covers th
 
 ## Regulatory limits that apply
 
-- [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for leafy vegetables.
+- [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for leafy vegetables (CXS 193-1995, which is not yet in the library).
 - [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]] — EU maximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and similar leaves, mustard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->

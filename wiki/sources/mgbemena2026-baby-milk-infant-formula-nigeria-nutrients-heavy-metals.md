@@ -48,7 +48,7 @@ Baby Milk (n=8) heavy metal ranges and per-sample values (Table 2, mg/kg):
 
 Infant Formula (n=12) heavy metal ranges and per-sample values (Table 2, mg/kg):
 - Pb: 0.000–0.015 (sample J highest 0.015). All samples below WHO limit (0.03 mg/kg).
-- Ni: 0.003–0.040 per abstract; Table 2 lists sample I = 0.26 mg/kg, an outlier inconsistent with the abstract-reported range and likely a typesetting error (0.026 vs 0.26) — see verification notes.
+- Ni: 0.003–0.040 per abstract; Table 2 lists sample I = 0.26 mg/kg, an outlier inconsistent with the abstract-reported range and likely a typesetting error (0.026 vs 0.26). This page uses the abstract range and treats 0.26 mg/kg as a likely typesetting of 0.026 mg/kg.
 - Cu: 0.010–0.830 (Table 2 minimum sample I 0.010; sample M highest 0.830). Sample M exceeded WHO limit (0.7 mg/kg).
 - Cd: 0.006–0.043 (sample I lowest 0.006; sample O highest 0.043). All below WHO limit (0.2 mg/kg).
 - Cr: 0.000–0.010 (Table 2 maximum sample T 0.010; abstract reports 0.000–0.006). All below WHO limit (0.3 mg/kg).
@@ -57,7 +57,7 @@ Infant Formula (n=12) heavy metal ranges and per-sample values (Table 2, mg/kg):
 Risk assessment (Target Hazard Quotient and Hazard Index; assumed infant body weight 5 kg, daily intake DIV = 0.1 kg/day; USEPA IRIS RfD values cited: Cd 0.001, Cr 0.003, Pb 0.0035 mg/kg/day; THQ = DIV × Cm / (RfD × B)):
 - THQ > 1 in Baby Milk for Cd: samples A (THQ 2.2), C (4.2), D (1.6) per Table 3 — these are the samples the authors flag as risk-bearing for cadmium.
 - THQ > 1 in Baby Milk for Cr: sample C only, per paper text page 11 ("that of chromium was only in sample C"). Table 3 does not include a Cr THQ column (columns shown: Pb, Ni, Cu, Cd, HI), so no per-sample Cr THQ numeric is tabulated. Computed from Table 2: Cr THQ for sample C = 0.1 × 0.210 / (0.003 × 5) = 1.4.
-- THQ > 1 in Baby Milk for Pb: Table 3 lists per-sample Pb THQ values of 457, 514, 57, 629, 514, 457, 4, 8 for samples A–H, but these are inconsistent with both the paper text ("only cadmium and chromium...posed health risk in some Baby Milk samples") and with the Pb Hazard Index of 4.277 reported in Table 4. The values are most plausibly the result of decimal-point typesetting errors (true values ~0.07–0.629); see verification notes.
+- THQ > 1 in Baby Milk for Pb: Table 3 lists per-sample Pb THQ values of 457, 514, 57, 629, 514, 457, 4, 8 for samples A–H, but these are inconsistent with both the paper text ("only cadmium and chromium...posed health risk in some Baby Milk samples") and with the Pb Hazard Index of 4.277 reported in Table 4. The values are most plausibly decimal-point typesetting errors. Read that way, the printed lead THQs correspond to about 0.07 to 0.629. The stated formula is THQ = 0.1 × Pb (mg/kg) / (0.0035 × 5), which is Pb × 5.71. At 0.08 mg/kg lead, that formula gives a THQ of 0.46, not 457.
 - All THQ values <1 across all metals in Infant Formula.
 
 Hazard Index (sum of per-metal THQ across all 20 BM + IF samples; Table 4):
@@ -71,7 +71,7 @@ Proximate composition (Table 1, % w/w):
 - Infant Formula: moisture 7.89–9.29, ash 1.35–2.99, fibre 0.19–6.49, fat 0.47–9.75, protein 2.92–20.88, carbohydrate 52.21–84.91.
 
 Macro-mineral composition (Figures 2 and 3, mg/kg):
-- Baby Milk: Ca 1391.40–1561.85 (sample A lowest, sample C highest); Mg 1200.00–1420.21; K 400.24–1340.26; P 889.90–1987.80; Na 250.00–699.33. Paper's abstract reports macro-mineral ranking as P > Ca > Mg > K > Na, which does not match the per-sample numerical values (Ca > Mg > P > K > Na is the rank that the table values support for most samples); see verification notes.
+- Baby Milk: Ca 1391.40–1561.85 (sample A lowest, sample C highest); Mg 1200.00–1420.21; K 400.24–1340.26; P 889.90–1987.80; Na 250.00–699.33. Paper's abstract reports macro-mineral ranking as P > Ca > Mg > K > Na, which does not match the per-sample numerical values. Ca > Mg > P > K > Na is the rank the table values support for most samples.
 - Infant Formula: Ca 165.67–699.33 (sample Q lowest, sample M highest); Mg 161.67–699.00; abstract reports ranking Mg > Ca > K > P > Na.
 
 Micro-mineral composition (Figures 4 and 5, mg/kg):

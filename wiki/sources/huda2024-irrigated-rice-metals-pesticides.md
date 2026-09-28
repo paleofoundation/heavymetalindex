@@ -44,6 +44,8 @@ Table 3 reports rice-grain concentrations in `µg/kg`. The plant-part basis is n
 
 The highest rice-grain values in Table 3 were Ni `5.53 x 10^4 µg/kg` in Field-III, Zn `7.51 x 10^3 µg/kg` in Field-III, Mn `4.20 x 10^3 µg/kg` in Field-II, Pb `3.16 x 10^3 µg/kg` in Field-I, Cr `7.88 x 10^2 µg/kg` in Field-III, Cu `5.92 x 10^2 µg/kg` in Field-I, Cd `2.49 x 10^1 µg/kg` in Field-III, tAs `2.16 x 10^1 µg/kg` in Field-I, and tHg `6.40 x 10^1 µg/kg` in Field-III.
 
+Table 3 places Field III husk lead near 5.96e3 µg/kg (5.96 x 10^3 µg/kg, 5966.54 µg/kg) and Field III stem lead near 4.97e2 µg/kg (4.97 x 10^2 µg/kg, 497.93 µg/kg). The narrative on page 7 swaps those two labels. This page follows Table 3.
+
 Supply-chain context from Table 2, not finished-grain occurrence: irrigation-water Pb was `1.03 x 10^3 µg/L` in Field-I, `7.68 x 10^2 µg/L` in Field-II, and `7.43 x 10^2 µg/L` in Field-III; irrigation-water Cd was `1.02 x 10^2`, `9.29 x 10^1`, and `5.85 x 10^1 µg/L`, respectively. Soil Pb was `5.91 x 10^4`, `6.95 x 10^4`, and `6.65 x 10^2 µg/kg` across Fields I-III, respectively.
 
 Table 4 reports pesticide co-contaminants in `µg/g`: diazinon in rice grain was `0.56 +/- 0.23` in Field-I, `0.94 +/- 0.20` in Field-II, and `1.68 +/- 0.089` in Field-III; fenitrothion in rice grain was `BDL` in Field-I, `0.45 +/- 0.079` in Field-II, and `BDL` in Field-III. These pesticide values are not metals and are not listed in source metadata metals.

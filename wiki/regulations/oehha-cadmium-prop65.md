@@ -22,7 +22,7 @@ audience: [regulator, educator, consumer]
 
 ## Overview
 
-Cadmium is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen (listing pre-dating this wiki's ingest corpus, with a separately derived No Significant Risk Level that is not catalogued on this page) and as a reproductive toxicant (listing effective May 1, 1997, following the Developmental and Reproductive Toxicant Identification Committee's December 4, 1996 determination) ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]]). This page covers the reproductive-toxicity listing and its implementing Maximum Allowable Daily Level of 4.1 µg/day oral ([[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]). The carcinogen listing and its NSRL are not catalogued on this page.
+Cadmium is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen (listing pre-dating this wiki's ingest corpus, with a separately derived No Significant Risk Level that is not yet in the library) and as a reproductive toxicant (listing effective May 1, 1997, following the Developmental and Reproductive Toxicant Identification Committee's December 4, 1996 determination) ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]]). This page covers the reproductive-toxicity listing and its implementing Maximum Allowable Daily Level of 4.1 µg/day oral ([[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]). The carcinogen listing and its NSRL are not yet in the library.
 
 ## Reproductive-toxicity listing
 

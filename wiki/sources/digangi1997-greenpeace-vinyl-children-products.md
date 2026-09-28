@@ -57,7 +57,7 @@ Table 1 lists 28 lead-positive vinyl items purchased in Chicago. Selected values
 
 ### California replication (Table 2; LA and SF, ppm)
 
-Seventeen items purchased in both Los Angeles and San Francisco (26 sample rows total) — selected values:
+Table 2 reports 17/26 California items (seventeen products, 26 sample rows) purchased in both Los Angeles and San Francisco. Selected values:
 
 - **Backpacks:** Minnie's Spring Fever (Disney; LA Pb 263 Cd 242.0; SF Pb 255 Cd 238.5); 101 Dalmations (Kmart; LA Pb 226 Cd 499.0; SF Pb 288 Cd 440.0); Barbie (Kmart SF) Pb 417 Cd 242.0.
 - **Cables:** Gemini 3' video coaxial (Kmart LA Pb 4,910 Cd 9.6; Kmart SF Pb 6,965 Cd 24.3); Gemini modular phone cord (Kmart LA Pb 679 Cd 6.8; Kmart SF Pb 5,290 Cd 36.7); Philco in-ear headphones (Kmart LA Pb 5,910 Cd 5.6; Kmart SF Pb 4,700 Cd 27.3).

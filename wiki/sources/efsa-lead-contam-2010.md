@@ -145,7 +145,7 @@ Non-dietary exposure summary (Table 29):
 | Outdoor air | Inhalation | 0.001–0.003 µg/kg b.w./day |
 | Smoking (20 cig/day) | Inhalation | 0.003–0.018 µg/kg b.w./day (adults) |
 | Environmental tobacco smoke | Inhalation | 0.009–0.037 µg/kg b.w./day adults; 0.012–0.052 µg/kg b.w./day children |
-| Lead from ammunition / game | Oral via game meat | Game meat mean 3.15 mg/kg, max 867 mg/kg (wild pig near shot) |
+| Lead from ammunition / game | Oral via game meat | Game meat mean 3.15 mg/kg, max 867 mg/kg (wild pig near shot). EFSA set aside a 3090 mg/kg outlier from wild-pig muscle near a shot wound before reporting that maximum. |
 | Lead-glazed ceramics, acidic liquid | Migration | 4 to >500 µg/L B-Pb reported in BfR ten-year intoxication review |
 
 Headline regulatory conclusion (Sections 8.6.2 and 9.4): "The CONTAM Panel concluded that the present PTWI of 25 µg/kg b.w. is no longer appropriate and noted that there was no evidence for a threshold for a number of critical endpoints including developmental neurotoxicity and renal effects in adults. Therefore, a margin of exposure approach was applied to risk characterisation." For dietary intake the conversions used were B-Pb 36 µg/L ≈ 90.0 µg/60 kg = 1.50 µg/kg b.w./day (SBP) and B-Pb 15 µg/L ≈ 37.5 µg/60 kg = 0.63 µg/kg b.w./day (kidney), per the Carlisle and Wade (1992) equation in adults, and IEUBK-derived 0.50 µg/kg b.w./day for the 12 µg/L children's BMDL₀₁ (Table 37, p. 101).

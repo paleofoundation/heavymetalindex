@@ -49,6 +49,7 @@ This Washington State Department of Ecology Hazardous Waste and Toxics Reduction
 - **Retail-store count:** 69 unique retail or online stores in the south Puget Sound area and online.
 - **Purchase date range:** 9 October 2014 to 19 January 2016.
 - **Screening instrument:** X-Ray Fluorescence (XRF) analyser.
+- Antimony above 100 ppm was found in 12 Easter components, 7 Christmas 2014 components, 23 Fourth of July components, 18 Back to School components, 13 Halloween components, and 14 Christmas 2015 components.
 - **Laboratory cryomilling:** 17 samples for metals analysis and 20 samples for phthalate analysis were cryomilled at MEL prior to digestion to handle hard or heterogeneous matrices (Laboratory Procedures p. 7).
 
 ### Target analytes (Table 2, p. 6)

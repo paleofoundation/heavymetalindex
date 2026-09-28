@@ -16,7 +16,7 @@ sources: 22
 
 ## Overview
 
-> Snacks Crackers Biscuits is covered on [[products/snacks-general|Snacks, general]].
+> This page is an alias of [[products/snacks-general|Snacks, general]] and does not have its own standards row.
 
 
 <!-- BEGIN: hmi-page-history -->

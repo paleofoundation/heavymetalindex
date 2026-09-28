@@ -67,6 +67,7 @@ The remaining eight foundations had Pb, Cd, and As all below the 1 ppm reporting
 - Pb detected above 1 ppm reporting limit in 3 of 20 products (1 lipstick at 1.08 ppm; 2 powder foundations at 1.52 and 5.55 ppm). Maximum observed: 5.55 ppm in a dark-shade powder foundation.
 - As detected above 1 ppm reporting limit in 1 of 20 products (1 powder foundation at 2.15 ppm). The same dark-shade product accounted for both the maximum Pb and the only As detection.
 - Cd detected: 0 of 20 products above the 1 ppm reporting limit.
+- In the ten powder foundations, lead was above the 1 ppm reporting limit in 2/10, arsenic in 1/10, and cadmium in 0/10. Across the twenty cosmetics, arsenic was above 1 ppm in 1/20 and cadmium in 0/20. Formaldehyde was detectable in 7/10 body lotions.
 - All 20 samples below the FDA 2016 recommended industry-maximum guidance of Pb ≤10 ppm in finished cosmetic lip products and externally-applied cosmetics (p. 27). The single Pb 5.55 ppm dark-shade powder foundation would exceed the Germany BVL technically-avoidable-impurity guidance value Pb ≤5.0 mg/kg for makeup powder/rouge/eye shadow/eye liner (BVL 2017; p. 27), and the same product's As 2.15 ppm would exceed BVL As ≤0.5 mg/kg for general cosmetics and BVL As ≤2.5 mg/kg for theatre/carnival make-up.
 
 ### Formaldehyde results — hair styling gels and creams (Table 9, p. 64; ppm total formaldehyde)

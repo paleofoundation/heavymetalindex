@@ -59,6 +59,7 @@ Vegetable oil–specific individual preparations (Figure 5, Table 3 — botanica
 - Camelina sativa oil (one of two preparations sampled): 0.203 µg/kg; the other: 0.173 µg/kg
 - Safflower oil: 0.173 µg/kg
 - Grape seed oil: 0.131 µg/kg (lowest vegetable oil)
+- Wheat germ oil: 0.00023 µg/g (0.23 µg/kg) in Table 3
 
 Cod liver oil preparations (Figure 4; values by within-study preparation number, no brand identification):
 - Highest: preparation No. 7 at 0.207 µg/kg; preparation No. 3 at 0.205 µg/kg

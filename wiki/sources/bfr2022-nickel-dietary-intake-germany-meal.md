@@ -69,7 +69,7 @@ The German Federal Institute for Risk Assessment (BfR) conducted a total diet st
 
 **Dietary exposure estimates (Tables 3 and 4):**
 - Adults and adolescents (N=13,926): mean UB 1.6 µg/kg BW/day; P50 1.4 µg/kg BW/day; P95 3.2 µg/kg BW/day. TDI exhaustion: mean 12%, P50 11%, P95 24%.
-- Children (N=732, ages 6 months–<5 years): mean UB 6.1 µg/kg BW/day; P50 5.5 µg/kg BW/day; P95 10.6 µg/kg BW/day. TDI exhaustion: mean 47%, P50 42%, P95 82%.
+- Children (N=732, ages 6 months–<5 years): mean UB 6.1 µg/kg BW/day; P50 5.5 µg/kg BW/day; P95 10.6 µg/kg BW/day. TDI exhaustion: mean 47%, P50 42%, P95 82%. Boys in that cohort (n = 368) had an upper-bound mean of 6.2 µg/kg body weight per day and a 95th percentile of 10.8 µg/kg body weight per day.
 - Children aged 1–<2 years exhibit the highest exposure: mean UB 6.3 µg/kg BW/day; P50 5.8 µg/kg BW/day; P95 11.0 µg/kg BW/day (TDI exhaustion mean 48%, P50 45%, P95 84%).
 - Children aged 6 months–<1 year (the lowest-exposure pediatric subgroup): mean UB 4.9 µg/kg BW/day; P50 4.4 µg/kg BW/day; P95 9.0 µg/kg BW/day (TDI exhaustion mean 38%, P50 34%, P95 69%).
 - Highly exposed children exceeding TDI: 2% of children ages 0.5–5 years overall (n=15 children exceeding the TDI out of N=732 in the cohort); 3% in the 1–<2 years subgroup; 1% in the 6 months–<1 year subgroup. EFSA 2020 framing: <5% of high-consumer children exceed the TDI in this MEAL assessment, vs typically exceeding the TDI in the EFSA estimate for the same age groups.

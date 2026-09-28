@@ -86,7 +86,7 @@ Outlier-excluded companion values in parentheses where the source reports them.
 | Mean | 0.33 | 0.020 (0.012) | 300 | 2.2 (1.8) | 2.1 | NF | 16 (5.5) |
 | Median | 0.21 | NF | 3.1 | 0.91 (0.91) | 0.85 | NF | 2.7 (2.7) |
 
-The maximum-cell entries in Table XXIX correspond to individual outlier samples whose attributes are described in the Discussion (pp. 141-143): the 22,000 mg/kg Cr in one eye shadow is attributed to chromium-pigment use ("chromium oxide greens" or "chromium hydroxide greens"); the 1,600 mg/kg Ni and 64 mg/kg Co in one eye shadow were identified by Grubbs test (p = 0.05) as outliers and were rejected from category-summary t-tests; a qualitative X-ray fluorescence scan of the eye-shadow holder did not detect Co or Ni, suggesting the cosmetic itself (and not the container) was the source of the metals.
+The maximum-cell entries in Table XXIX correspond to individual outlier samples whose attributes are described in the Discussion (pp. 141-143): one face-paint sample contained 15000 mg/kg chromium, and the 22,000 mg/kg Cr in one eye shadow is attributed to chromium-pigment use ("chromium oxide greens" or "chromium hydroxide greens"); the 1,600 mg/kg Ni and 64 mg/kg Co in one eye shadow were identified by Grubbs test (p = 0.05) as outliers and were rejected from category-summary t-tests; a qualitative X-ray fluorescence scan of the eye-shadow holder did not detect Co or Ni, suggesting the cosmetic itself (and not the container) was the source of the metals.
 
 ### Regulatory comparison points reported by the source
 

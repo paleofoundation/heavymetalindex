@@ -127,8 +127,6 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at the archived
 
 ## Related evidence
 
-- [[products/infant-formula-powder-soy-based]]
-- [[products/infant-formula-rtf-liquid-soy-based]]
 - [[products/infant-and-child-foods-master]]
 - [[sources/soares2000-chromium-vi-powdered-milk-formulas]]
 

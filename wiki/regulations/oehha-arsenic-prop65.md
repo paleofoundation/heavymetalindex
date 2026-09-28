@@ -29,7 +29,7 @@ Inorganic arsenic compounds are listed under California Proposition 65 as chemic
 | Category | Status |
 | --- | --- |
 | Cancer | Currently listed |
-| NSRL (cancer, oral) | Not catalogued on this page |
+| NSRL (cancer, oral) | Not yet in the library |
 
 ## Sources
 

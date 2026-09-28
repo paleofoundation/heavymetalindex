@@ -62,7 +62,7 @@ In **migration tests with whole and shredded whole diapers using a urine simulan
 - PAHs
 - Formaldehyde
 
-**Heavy metals: not listed among substances quantified or detected at least once.** Although INC's screening panel included heavy metals, no metal is named in the detected/quantified inventory on p. 4-5, no metal appears in the QHRA hazard-identification, dose-response, or risk-characterisation sections (p. 5-12), and no metal is the subject of any of the agency's recommendations (p. 12-14). See Verification notes for the implications.
+**Heavy metals: not listed among substances quantified or detected at least once.** Although INC's screening panel included heavy metals, no metal is named in the detected/quantified inventory on p. 4-5, no metal appears in the QHRA hazard-identification, dose-response, or risk-characterisation sections (p. 5-12), and no metal is the subject of any of the agency's recommendations (p. 12-14). For dioxins, furans, and DL-PCBs, the opinion proposes a maximum near the limit of quantification, and names the lowest LQ used in the appraisal as around 0.02 ng/kg. That figure is not a health threshold.
 
 ### Exposure parameters used in the QHRA (Table 1, p. 9)
 

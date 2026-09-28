@@ -66,7 +66,7 @@ The 2011 statement primary PDF is provenance-recorded but not yet primary-source
 
 ## Comparison to other reference values
 
-A tabular comparison of the EFSA TWI, the JECFA PTMI, the EPA IRIS RfD, and the ATSDR MRLs is not on this page yet.
+A tabular comparison of the EFSA TWI, the JECFA PTMI, the EPA IRIS RfD, and the ATSDR MRLs is not yet in the library.
 
 ## Sources
 

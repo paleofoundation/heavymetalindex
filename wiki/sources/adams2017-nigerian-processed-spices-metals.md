@@ -39,7 +39,7 @@ All heavy-metal values in Table 5 are reported in mg/kg spice.
 | Suya spice | ND | 0.256 | ND | 3.258 |
 | Pepper-soup spice | ND | 0.478 | 0.188 | 1.164 |
 
-The paper lists standard-limit comparator values of 5.0 mg/kg for Pb, 0.20 mg/kg for Cd, and 1.63 mg/kg for Ni. The authors state that all four spices had cadmium above the cited standard limit and that only suya spice had nickel above the cited standard limit. The reported p-value row in Table 5 is 0.222 for Cd and 0.199 for Ni.
+The paper lists standard-limit comparator values of 5.0 mg/kg for Pb, 0.20 mg/kg for Cd, and 1.63 mg/kg for Ni. The authors state that all four spices had cadmium above the cited standard limit and that only suya spice had nickel above the cited standard limit. The reported p-value row in Table 5 is 0.222 for Cd and 0.199 for Ni. The discussion states the cadmium and nickel limits as 0.02 mg/kg and 0.163 mg/kg, gives a cadmium mean of 0.426 mg/kg, and cites suya-spice nickel as 3.223 mg/kg. This page follows Table 5.
 
 ## Methods (brief)
 

@@ -16,7 +16,7 @@ sources: 13
 
 ## Overview
 
-> Canned Fruit is covered on [[products/canned-foods-general|Canned foods, general]].
+> This page is an alias of [[products/canned-foods-general|Canned foods, general]] and does not have its own standards row.
 
 
 <!-- BEGIN: hmi-page-history -->

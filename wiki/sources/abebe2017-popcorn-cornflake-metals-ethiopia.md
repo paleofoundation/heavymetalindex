@@ -42,6 +42,8 @@ Per-product mean ± SD concentrations (mg/kg, dry weight basis), from Table 1:
 | Metal | Popcorn (n=5 shops, pooled) | Cornflake (n=3 packs) |
 |---|---:|---:|
 | K | 1293 ± 233 | 616 ± 70 |
+
+Table 8 reports the 5 g cornflake serving as 3.08 ± 0.35 mg potassium and 0.98 ± 0.495 mg calcium. The cornflake potassium mean on this page is the Table 1 value, 616 ± 70 mg/kg.
 | Na | 148 ± 3 | 410 ± 5 |
 | Mg | 387 ± 11 | 323 ± 11 |
 | Ca | 97.9 ± 4.2 | 196 ± 99 |

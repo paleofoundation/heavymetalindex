@@ -76,7 +76,7 @@ The paper develops a relativized THg-estimation framework that accounts for fish
 
 ## Methods
 
-Database compilation: Original THg fish-tissue data assembled from USGS, state, federal, and Canadian monitoring databases. Tissue types standardized to skinless boneless fillet (76.8% of original data) using literature-derived conversion factors. Wet-weight basis (dry→wet conversion using moisture-content data where available, default 76% moisture).
+Database compilation: Original THg fish-tissue data assembled from USGS, state, federal, and Canadian monitoring databases. Tissue types standardized to skinless boneless fillet (76.8% of original data) using literature-derived conversion factors. The remaining records were whole body converted to fillet equivalents (19.9%) or skin-on fillet (3.3%). Wet-weight basis (dry→wet conversion using moisture-content data where available, default 76% moisture).
 
 Length standardization: THg concentrations within species standardized to the species' median length using linear mixed-effects models with fork length as a fixed effect and species × site as random effects (Eagles-Smith and Ackerman 2014 method). For species with sparse data, similar-species groupings used.
 
