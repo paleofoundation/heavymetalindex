@@ -433,7 +433,7 @@ function extractProductLinks(text) {
 
 function stripNonEvidenceProductLinkSections(text) {
   return text.replace(
-    /\n##\s+(?:Wiki pages updated on ingest|Wiki pages this source may touch|Related evidence|Caveated product pages referenced on ingest)[\s\S]*?(?=\n##\s+|$)/gi,
+    /\n##\s+(?:Wiki pages updated on ingest|Caveated product pages referenced on ingest)[\s\S]*?(?=\n##\s+|$)/gi,
     "\n",
   )
 }
