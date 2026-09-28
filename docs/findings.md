@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-268 open item(s): 93 auto, 175 awaiting a decision.
+269 open item(s): 94 auto, 175 awaiting a decision.
 
 ### OI-20260928-publisher-chrome-titles — Four source pages still use scraped publisher page chrome as the title
 
@@ -530,6 +530,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Published product scaffolds still open with HMTc Taxonomy language and name heavymetalcertified.com in How standards math uses this page. licensing.md still names a data/evidence path. This pass removed ingest bookkeeping only.
 - done when: A later pass removes certifier-process wording from public pages without changing measured values or inventing limits.
 - decision: _pending_
+
+### OI-20260928-m016-talc-baby-powder-regulatory — FDA Monograph M016 permits talc at 45 to 100 percent in an OTC skin protectant with no contaminant limit, and the baby-powder synthesis regulatory section does not cite it
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `wiki/synthesis/heavy-metals-in-baby-lotions-oils-and-powders.md`, `wiki/sources/fda2021-otc-monograph-m016-skin-protectant.md`
+- repro: While revising the diaper-cream synthesis for SYN-REV-1 I read fda2021-otc-monograph-m016-skin-protectant (Final Administrative Order OTC000005, effective 2020-03-27). Section M016.10(p) permits talc at 45 to 100 percent of an OTC skin-protectant drug product, and the order states no heavy-metal contaminant limit for any listed active. The regulatory section of wiki/synthesis/heavy-metals-in-baby-lotions-oils-and-powders.md (PR 179) discusses US instruments reaching a talc baby powder and cites 21 CFR 73.1550 talc colour-additive and the JECFA food-additive spec, but not M016. A US talc baby powder marketed as a skin protectant falls inside M016, so the page's statement that no US instrument sets a finished-product number for talc is correct but under-evidenced: M016 is the instrument that most directly governs the article and is silent on contaminants. Not retrofitted because PR 179 was already open and the SYN-REV-1 order scoped each PR to one page.
+- done when: The regulatory-landscape section of the baby-powder synthesis cites fda2021-otc-monograph-m016-skin-protectant with the talc 45 to 100 percent range and the absence of a contaminant limit; The reference list gains the M016 entry with correct numbering for that page's wikilink-cited scheme; No occurrence value or range on that page changes
+- evidence: wiki/sources/fda2021-otc-monograph-m016-skin-protectant.md key-numbers table, section M016.10(p), talc 45 to 100 percent · wiki/synthesis/heavy-metals-in-diaper-creams.md regulatory section, which records the same silence pattern across talc, kaolin, calamine and aluminium hydroxide gel
+- notes: Low risk and mechanical: it adds a citation and strengthens an existing negative finding rather than changing a number. Best done as a follow-up minor edit to the baby-powder page after PR 179 merges, since it would bump updated without minting a new DOI.
 
 ### OI-20260928-hansra-wipe-row-fit — Lifecycle of a Wipe page still declares fish and aluminum from the mechanical ingest
 
