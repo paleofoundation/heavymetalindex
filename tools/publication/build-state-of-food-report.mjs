@@ -57,6 +57,10 @@ const REPORT_EXCLUDE_SLUGS = new Set([
   "heavy-metals-in-diaper-creams",
   "heavy-metals-in-mineral-baby-sunscreens",
   "heavy-metals-in-baby-lotions-oils-and-powders",
+  // Non-food product synthesis (baby wipes, diapers, PET, polyester, toys).
+  // On the synthesis index for navigation; not a finding in the State of
+  // Heavy Metals in Food register.
+  "antimony-in-baby-products",
 ])
 
 const sourceTypeMap = new Map([
