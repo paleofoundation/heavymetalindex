@@ -23,7 +23,7 @@ This page lists inorganic arsenic and total arsenic in rice by the country and y
 
 ## What the ledger can support today
 
-The qualifying set has 223 rows. 166 are concentration rows. 57 are count-only rows. 60 are inorganic arsenic (iAs). 163 are total arsenic (tAs). 202 rows name a single sampling year. 21 rows name a year span and stay as one row. Sampling region is filled on 0 qualifying rows. Sampling country CN is filled on 0 qualifying rows.
+The qualifying set has 223 rows. 168 are concentration rows. 55 are count-only rows. 60 are inorganic arsenic (iAs). 163 are total arsenic (tAs). 202 rows name a single sampling year. 21 rows name a year span and stay as one row. Sampling region is filled on 0 qualifying rows. Sampling country CN is filled on 0 qualifying rows.
 
 Sum of stated n adds the sample counts printed on the rows in that country. It is a sum of stated sample counts. It is not a pooled concentration, and a sample that appears in more than one source can be counted more than once.
 
@@ -51,13 +51,13 @@ Sum of stated n adds the sample counts printed on the rows in that country. It i
 | ME | 0 | 1 | 0 | 1 | 1 |
 | MM | 1 | 3 | 3 | 1 | 229 |
 | NL | 1 | 1 | 0 | 2 | 10 |
-| NP | 0 | 1 | 0 | 1 | 170 |
+| NP | 0 | 1 | 1 | 0 | 170 |
 | PK | 1 | 2 | 0 | 3 | 17 |
 | PL | 0 | 1 | 0 | 1 | 2 |
 | PT | 1 | 1 | 0 | 2 | 8 |
 | TH | 2 | 4 | 0 | 6 | 46 |
 | US | 28 | 92 | 116 | 4 | 867 |
-| VN | 0 | 3 | 0 | 3 | 74 |
+| VN | 0 | 3 | 1 | 2 | 74 |
 
 | Matrix class | Rows | Inorganic arsenic | Total arsenic |
 | --- | ---: | ---: | ---: |

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-29] query | rice-arsenic-ground-truth — copy printed Nepal and Vietnam means
+
+Pages touched: [[sources/shao2023-nepal-rice-heavy-metals]], [[sources/chu2021-vietnam-rice-arsenic]], [[baselines/rice-arsenic]]
+Notes: Shao 2023 now carries the printed geometric mean total arsenic of 43.4 µg/kg (range 6.43 to 121 µg/kg, n=170, Nepal, September 2019). Chu 2021 now carries the printed mean total arsenic of 0.115 mg/kg dried weight (n=70, Vietnam, 2018 and 2019 kept as one span). Province rows stay out. Unknown origin, unextracted values, and China by province stay in the gap list. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-26] query | rice-arsenic-ground-truth — keep the recorded extract hashes
 
 Pages touched: [[sources/efsa2021-rice-arsenic-annex-a-origin-year]], [[sources/hc2018-canadian-tds-trace-elements-white-rice]]

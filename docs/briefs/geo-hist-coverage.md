@@ -1,6 +1,6 @@
 # GEO-HIST coverage
 
-Generated 2026-09-26 by `tools/evidence/geo-hist.mjs`. This file is a ledger coverage brief. It is not a public wiki page.
+Generated 2026-09-29 by `tools/evidence/geo-hist.mjs`. This file is a ledger coverage brief. It is not a public wiki page.
 
 ## What was counted
 

@@ -24,9 +24,11 @@ sampling_year_range: null
 wiki_doi: null
 evidence_fitness:
   supports:
-    - "A 2019 sample count of 170 for total arsenic in rice from Nepal."
+    - "The printed geometric mean, range, and n=170 for total arsenic in commercial rice collected in Nepal in September 2019."
   does_not_support:
-    - "A concentration on the country-year ledger. The value was not copied."
+    - "An arithmetic mean."
+    - "A separate row for each province."
+    - "An inorganic arsenic measurement."
 updated: 2026-09-26
 ---
 
@@ -36,19 +38,19 @@ Shao, Y., Xu, X., Wang, L., Han, J., Katuwal, H. B., Jiao, S., & Qiu, G. (2023).
 
 ## Key numbers
 
-The country-year ledger carries n=170 for total arsenic in 2019. No concentration is copied on that row.
+The results section prints a geometric mean total arsenic of 43.4 µg/kg, written as 43.4 plus or minus 19.6 µg/kg, with a range of 6.43 to 121 µg/kg, for 170 commercial rice samples collected in September 2019. That figure is the country row. Province means in Table 1 are not copied as separate rows.
 
 ## Methods (brief)
 
-The count is the sample size stated for the Nepal rice set. Province counts are not separate ledger rows.
+Samples were commercial rice from seven provinces. The ledger keeps one Nepal row for 2019. The analyte in this panel is total arsenic.
 
 ## Evidence fitness
 
-The row supports a sample count for Nepal in 2019. It does not support a mean.
+The row supports the printed geometric mean for Nepal in 2019. It does not support an arithmetic mean, and it does not support a province concentration.
 
 ## Limitations
 
-A concentration pass would need the printed statistics copied in a later extract.
+The plus-or-minus term is printed beside the geometric mean. It is not relabeled as a standard deviation on this row. Filling a province would leave the country-by-year cut.
 
 ## Related evidence
 
@@ -58,5 +60,9 @@ A concentration pass would need the printed statistics copied in a later extract
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4a5b9fbdd](https://github.com/paleofoundation/heavymetalindex/commit/4a5b9fbdd) | 2026-09-26 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

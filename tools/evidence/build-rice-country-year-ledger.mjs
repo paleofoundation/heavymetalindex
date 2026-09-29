@@ -403,37 +403,51 @@ function peerRows() {
       original_unit: "mg/kg",
       statistic_type: "mean",
       statistic_scope: "white rice from rainfed paddies",
-      field_value_summary: "Total arsenic mean 0.16 mg/kg. Samples collected in April 2018. A 30 percent inorganic share used in the risk section is an assumption, not a measured inorganic result.",
+      field_value_summary: "Total arsenic mean 0.16 mg/kg. Samples were collected in April 2018. The abstract also describes the grain as a 2017 or earlier crop, so 2018 is the collection year. A 30 percent inorganic share used in the risk section is an assumption, not a measured inorganic result.",
       page_table: "abstract and results",
       sha256: SHA.myatsoe,
       notes: "No inorganic arsenic measurement is copied.",
     }),
-    countRow({
+    concentrationRow({
       source_id: "shao2023-nepal-rice-heavy-metals",
       metal_species: "tAs",
       matrix: "rice-grain",
       food_name: "rice grain",
+      basis: "as_reported",
       n: "170",
       sampling_country: "NP",
       calendar_year: "2019",
-      statistic_scope: "country-year count",
-      page_table: "p3",
+      mean_ppb: "43.4",
+      min_ppb: "6.43",
+      max_ppb: "121",
+      original_value: "43.4",
+      original_unit: "µg/kg",
+      statistic_type: "geometric_mean",
+      statistic_scope: "commercial rice, all provinces together",
+      field_value_summary: "Geometric mean total arsenic 43.4 µg/kg, printed as 43.4 plus or minus 19.6 µg/kg, range 6.43 to 121 µg/kg. n=170 commercial rice samples collected in September 2019. Province means are not separate rows.",
+      page_table: "abstract and results",
       sha256: SHA.shao,
-      notes: "Sample count for 2019. No concentration is copied into this row.",
+      notes: "The printed figure is a geometric mean for the whole Nepal set. It is not an arithmetic mean of the province rows.",
     }),
-    countRow({
+    concentrationRow({
       source_id: "chu2021-vietnam-rice-arsenic",
       metal_species: "tAs",
       matrix: "rice-grain",
       food_name: "rice grain",
+      basis: "dry_weight",
       n: "70",
       sampling_country: "VN",
       year_min: "2018",
       year_max: "2019",
-      statistic_scope: "country-year count",
-      page_table: "p3",
+      mean_ppb: "115",
+      original_value: "0.115",
+      original_unit: "mg/kg",
+      statistic_type: "mean",
+      statistic_scope: "all rice samples, dried weight",
+      field_value_summary: "Mean total arsenic 0.115 mg/kg dried weight for 70 rice samples. Harvest seasons 2018 and 2019 stay one span. The Red River Delta and the mining-activity zone are not separate rows. Micrograms per kilogram equal the printed milligrams per kilogram times 1000. The panel is total arsenic, not inorganic arsenic.",
+      page_table: "abstract",
       sha256: SHA.chu,
-      notes: "2018 and 2019 stay one span. No concentration is copied into this row.",
+      notes: "One mean for the combined 2018 and 2019 harvests. The span is not split.",
     }),
   ]
 }
@@ -634,6 +648,12 @@ function writePage(file, data, body) {
   for (const item of data.doesNot) lines.push(`    - ${yamlQuote(item)}`)
   lines.push("updated: 2026-09-26")
   lines.push("---", "", body.trim(), "")
+  lines.push("<!-- BEGIN: hmi-page-history -->")
+  lines.push("## Update history")
+  lines.push("")
+  lines.push("No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).")
+  lines.push("<!-- END: hmi-page-history -->")
+  lines.push("")
   fs.writeFileSync(path.join(repoRoot, "wiki/sources", file), lines.join("\n"))
 }
 
@@ -1004,8 +1024,8 @@ Place names in the paper are not admin-1 rows in this pass.
     metals: ["tAs"],
     matrices: grain,
     jurisdictions: ["NP"],
-    supports: ["A 2019 sample count of 170 for total arsenic in rice from Nepal."],
-    doesNot: ["A concentration on the country-year ledger. The value was not copied."],
+    supports: ["The printed geometric mean, range, and n=170 for total arsenic in commercial rice collected in Nepal in September 2019."],
+    doesNot: ["An arithmetic mean.", "A separate row for each province.", "An inorganic arsenic measurement."],
   }, `
 # Shao et al. 2023, metals in Nepal rice
 
@@ -1013,19 +1033,19 @@ Shao, Y., Xu, X., Wang, L., Han, J., Katuwal, H. B., Jiao, S., & Qiu, G. (2023).
 
 ## Key numbers
 
-The country-year ledger carries n=170 for total arsenic in 2019. No concentration is copied on that row.
+The results section prints a geometric mean total arsenic of 43.4 µg/kg, written as 43.4 plus or minus 19.6 µg/kg, with a range of 6.43 to 121 µg/kg, for 170 commercial rice samples collected in September 2019. That figure is the country row. Province means in Table 1 are not copied as separate rows.
 
 ## Methods (brief)
 
-The count is the sample size stated for the Nepal rice set. Province counts are not separate ledger rows.
+Samples were commercial rice from seven provinces. The ledger keeps one Nepal row for 2019. The analyte in this panel is total arsenic.
 
 ## Evidence fitness
 
-The row supports a sample count for Nepal in 2019. It does not support a mean.
+The row supports the printed geometric mean for Nepal in 2019. It does not support an arithmetic mean, and it does not support a province concentration.
 
 ## Limitations
 
-A concentration pass would need the printed statistics copied in a later extract.
+The plus-or-minus term is printed beside the geometric mean. It is not relabeled as a standard deviation on this row. Filling a province would leave the country-by-year cut.
 
 ## Related evidence
 
@@ -1048,8 +1068,8 @@ A concentration pass would need the printed statistics copied in a later extract
     metals: ["tAs"],
     matrices: grain,
     jurisdictions: ["VN"],
-    supports: ["A sample count of 70 for total arsenic in Vietnamese rice collected in 2018 and 2019, kept as one span."],
-    doesNot: ["A concentration on the country-year ledger.", "A split of the span into two years."],
+    supports: ["The printed mean total arsenic of 0.115 mg/kg dried weight for 70 rice samples from the 2018 and 2019 harvests, kept as one span."],
+    doesNot: ["An inorganic arsenic measurement. The panel is total arsenic.", "A separate mean for 2018 and a separate mean for 2019.", "A separate mean for the Red River Delta and the mining-activity zone."],
   }, `
 # Chu et al. 2021, arsenic in Vietnamese rice
 
@@ -1057,19 +1077,19 @@ Chu, D. B., Duong, H. T., Luu, M. T. N., Vu-Thi, H.-A., Ly, B.-T., & Loi, V. D. 
 
 ## Key numbers
 
-The country-year ledger carries n=70 for total arsenic. Sampling years 2018 and 2019 stay one span. No concentration is copied.
+The abstract prints a mean total arsenic of 0.115 mg/kg dried weight for 70 rice samples. The methods place the harvests in 2018 and 2019. Those two seasons stay one span. The value in µg/kg is 115, the printed mg/kg times 1000. The Red River Delta and the mining-activity zone are not separate rows.
 
 ## Methods (brief)
 
-The count is the sample size for the rice set. The Red River Delta and a mining-activity zone are not separate rows in this pass.
+The mean is the abstract mean for the whole set. It is total arsenic from a multi-element panel, not inorganic arsenic.
 
 ## Evidence fitness
 
-The row supports a span count. It does not support a mean, and it does not support a single calendar year.
+The row supports one dried-weight mean for the combined harvests. It does not support a single calendar year, and it does not support an inorganic arsenic value.
 
 ## Limitations
 
-Filling 2018 or 2019 alone would invent a year.
+Filling 2018 or 2019 alone would invent a year. Splitting the two growing areas would invent a split the abstract does not print.
 
 ## Related evidence
 

@@ -24,10 +24,11 @@ sampling_year_range: null
 wiki_doi: null
 evidence_fitness:
   supports:
-    - "A sample count of 70 for total arsenic in Vietnamese rice collected in 2018 and 2019, kept as one span."
+    - "The printed mean total arsenic of 0.115 mg/kg dried weight for 70 rice samples from the 2018 and 2019 harvests, kept as one span."
   does_not_support:
-    - "A concentration on the country-year ledger."
-    - "A split of the span into two years."
+    - "An inorganic arsenic measurement. The panel is total arsenic."
+    - "A separate mean for 2018 and a separate mean for 2019."
+    - "A separate mean for the Red River Delta and the mining-activity zone."
 updated: 2026-09-26
 ---
 
@@ -37,19 +38,19 @@ Chu, D. B., Duong, H. T., Luu, M. T. N., Vu-Thi, H.-A., Ly, B.-T., & Loi, V. D. 
 
 ## Key numbers
 
-The country-year ledger carries n=70 for total arsenic. Sampling years 2018 and 2019 stay one span. No concentration is copied.
+The abstract prints a mean total arsenic of 0.115 mg/kg dried weight for 70 rice samples. The methods place the harvests in 2018 and 2019. Those two seasons stay one span. The value in µg/kg is 115, the printed mg/kg times 1000. The Red River Delta and the mining-activity zone are not separate rows.
 
 ## Methods (brief)
 
-The count is the sample size for the rice set. The Red River Delta and a mining-activity zone are not separate rows in this pass.
+The mean is the abstract mean for the whole set. It is total arsenic from a multi-element panel, not inorganic arsenic.
 
 ## Evidence fitness
 
-The row supports a span count. It does not support a mean, and it does not support a single calendar year.
+The row supports one dried-weight mean for the combined harvests. It does not support a single calendar year, and it does not support an inorganic arsenic value.
 
 ## Limitations
 
-Filling 2018 or 2019 alone would invent a year.
+Filling 2018 or 2019 alone would invent a year. Splitting the two growing areas would invent a split the abstract does not print.
 
 ## Related evidence
 
@@ -59,5 +60,9 @@ Filling 2018 or 2019 alone would invent a year.
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [4a5b9fbdd](https://github.com/paleofoundation/heavymetalindex/commit/4a5b9fbdd) | 2026-09-26 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

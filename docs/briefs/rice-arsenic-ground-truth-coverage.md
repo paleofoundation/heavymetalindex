@@ -36,8 +36,8 @@ A row qualifies when all of the following are already true:
 | geo_hist.jsonl rows | 42914 |
 | Rice-matrix iAs or tAs rows in geo_hist | 662 |
 | Qualifying rows (country and year, concentration or count-only) | 223 |
-| Concentration rows | 166 |
-| Count-only rows | 57 |
+| Concentration rows | 168 |
+| Count-only rows | 55 |
 | Qualifying iAs | 60 |
 | Qualifying tAs | 163 |
 | Single-year qualifying rows | 202 |

@@ -81,11 +81,11 @@
     "china_country_rows": 0,
     "china_province_rows": 0,
     "practice_rows": 0,
-    "concentration_rows": 166,
-    "count_only_rows": 57,
+    "concentration_rows": 168,
+    "count_only_rows": 55,
     "by_coverage_kind": {
-      "concentration": 166,
-      "count_only": 57
+      "concentration": 168,
+      "count_only": 55
     },
     "invalid_coverage_rows": 0,
     "organic_species_rows_excluded": 12,
@@ -4162,7 +4162,7 @@
         "mean_ppb": 160,
         "original_value": 0.16,
         "original_unit": "mg/kg",
-        "field_value_summary": "Total arsenic mean 0.16 mg/kg. Samples collected in April 2018. A 30 percent inorganic share used in the risk section is an assumption, not a measured inorganic result.",
+        "field_value_summary": "Total arsenic mean 0.16 mg/kg. Samples were collected in April 2018. The abstract also describes the grain as a 2017 or earlier crop, so 2018 is the collection year. A 30 percent inorganic share used in the risk section is an assumption, not a measured inorganic result.",
         "unit": "mg/kg"
       },
       "coverage_kind": "concentration",
@@ -4271,18 +4271,26 @@
       "matrix_class": "rice_grain",
       "food_group": "Rice",
       "food_label": "rice grain",
-      "basis": null,
+      "basis": "as_reported",
       "n": 170,
       "row_kind": "summary",
-      "statistic_type": "count",
-      "statistic_scope": "country-year count",
+      "statistic_type": "geometric_mean",
+      "statistic_scope": "commercial rice, all provinces together",
       "result_status": null,
       "censoring_status": null,
       "review_state": null,
       "evidence_fitness_verdict": null,
       "sample_id": null,
-      "reported": {},
-      "coverage_kind": "count_only",
+      "reported": {
+        "mean_ppb": 43.4,
+        "min_ppb": 6.43,
+        "max_ppb": 121,
+        "original_value": 43.4,
+        "original_unit": "µg/kg",
+        "field_value_summary": "Geometric mean total arsenic 43.4 µg/kg, printed as 43.4 plus or minus 19.6 µg/kg, range 6.43 to 121 µg/kg. n=170 commercial rice samples collected in September 2019. Province means are not separate rows.",
+        "unit": "µg/kg"
+      },
+      "coverage_kind": "concentration",
       "slug_flag": null
     },
     {
@@ -10464,18 +10472,24 @@
       "matrix_class": "rice_grain",
       "food_group": "Rice",
       "food_label": "rice grain",
-      "basis": null,
+      "basis": "dry_weight",
       "n": 70,
       "row_kind": "summary",
-      "statistic_type": "count",
-      "statistic_scope": "country-year count",
+      "statistic_type": "mean",
+      "statistic_scope": "all rice samples, dried weight",
       "result_status": null,
       "censoring_status": null,
       "review_state": null,
       "evidence_fitness_verdict": null,
       "sample_id": null,
-      "reported": {},
-      "coverage_kind": "count_only",
+      "reported": {
+        "mean_ppb": 115,
+        "original_value": 0.115,
+        "original_unit": "mg/kg",
+        "field_value_summary": "Mean total arsenic 0.115 mg/kg dried weight for 70 rice samples. Harvest seasons 2018 and 2019 stay one span. The Red River Delta and the mining-activity zone are not separate rows. Micrograms per kilogram equal the printed milligrams per kilogram times 1000. The panel is total arsenic, not inorganic arsenic.",
+        "unit": "mg/kg"
+      },
+      "coverage_kind": "concentration",
       "slug_flag": null
     }
   ]
