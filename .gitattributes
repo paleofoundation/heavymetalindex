@@ -1,1 +1,3 @@
 * text=auto eol=lf
+data/evidence/rice_as_efsa2021_origin_year.csv -text -eol
+data/evidence/ca_hc_tds_white_rice_arsenic.csv -text -eol

@@ -23,6 +23,31 @@ Each source cited in the Heavy Metal Index has its own page. Source pages record
 
 The folder list below is the public source catalog. For faster lookup, use search with an agency name, metal, product category, or author/year.
 
+## Rice arsenic country and year, September 2026
+
+Government surveys and peer-reviewed papers used for the rice arsenic country-year baseline. Count-only rows and gap records are included. China by province is not in this version.
+
+- [[sources/efsa2021-rice-arsenic-annex-a-origin-year]] - Origin-year result counts. No concentration.
+- [[sources/maff2014-japan-rice-arsenic-fy2012]] - 2012 crop, brown and polished, total and inorganic arsenic.
+- [[sources/maff2022-japan-rice-inorganic-arsenic-2017-2019]] - 2017 to 2019 inorganic arsenic.
+- [[sources/maff2025-japan-rice-cadmium-inorganic-arsenic-2022-2024]] - 2022 to 2024 inorganic arsenic. Means use half the quantitation limit below the limit.
+- [[sources/fsanz2011-23rd-atds-appendices-arsenic]] - 2008 white long-grain rice, total arsenic.
+- [[sources/fsanz2019-25th-atds-appendices-arsenic]] - May 2013 and February 2014 kept as one span.
+- [[sources/hc2018-canadian-tds-trace-elements-white-rice]] - One white-rice composite per listed year.
+- [[sources/alrashdi2024-myanmar-rice-arsenic]] - Abstract means for 50 samples, 2016 and 2018 as one span.
+- [[sources/shao2023-nepal-rice-heavy-metals]] - 2019 count only.
+- [[sources/chu2021-vietnam-rice-arsenic]] - 2018 to 2019 count only.
+- [[sources/yuliani2025-indonesia-rice-metals]] - Not extracted.
+- [[sources/murphy2018-cambodia-rice-arsenic]] - Year not stated.
+- [[sources/murphy2019-cambodia-rice-arsenic]] - Not extracted.
+- [[sources/murphy2020-cambodia-rice-arsenic-species]] - Species not separated.
+- [[sources/hasan2022-bangladesh-industrial-rice-metals]] - Not extracted.
+- [[sources/shaheen2024-dhaka-rice-cultivars]] - Not extracted.
+- [[sources/saini2025-india-rice-grain-arsenic]] - Not extracted.
+- [[sources/fernandezbaca2020-rice-ias-irrigation]] - Not extracted.
+- [[sources/norton2017-bangladesh-awd-rice]] - Not extracted.
+- [[sources/majumder2021-west-bengal-rice-water-regimes]] - Not extracted. Distinct from the Bangladesh lead review.
+
 ## Infant And Child Food Studies
 
 - [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] - Primary inorganic-arsenic occurrence source for rice-based infant cereals and rice crackers.
@@ -85,9 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
-| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
-| [bff8abb72e](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72e) | 2026-07-27 | correction | 1 section added |
-| [62866cb6b4](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b4) | 2026-07-04 | major | 7 sources removed; 2 sections added and 4 removed; narrative text revised |
-| [3114d3e7eb](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e7eb) | 2026-05-08 | major | 1 source added; narrative text revised |
+| [e1381cf01](https://github.com/paleofoundation/heavymetalindex/commit/e1381cf01) | 2026-09-26 | major | 9 sources added; 1 section added; narrative text revised |
+| [d6c50ecc4](https://github.com/paleofoundation/heavymetalindex/commit/d6c50ecc4) | 2026-09-11 | major | 17 sources added; 1 section added; narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 <!-- END: hmi-page-history -->

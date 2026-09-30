@@ -513,7 +513,25 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-249 open item(s): 84 auto, 165 awaiting a decision.
+251 open item(s): 84 auto, 167 awaiting a decision.
+
+### OI-20260926-rice-page-regen-hash-truncation — Rice product and metal pages were not refreshed after the country-year ingest
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `wiki/products/rice-bulk-grain.md`, `data/evidence/product_source_routing_audit.csv`, `tools/build-page-history.mjs`
+- repro: npm run build rewrote page-history footers with truncated commit hashes and resorted unrelated pages, including an extra link on wiki/sources/categories/europe.md. Those rewrites were restored. The routing audit still has the new rice-bulk-grain direct_evidence rows.
+- done when: A regen on a history that keeps full commit hashes updates rice-bulk-grain and the arsenic metal page from the routing audit; Page-history footers are not truncated; Unrelated category pages are not rewritten
+- decision: _pending_
+- notes: Routing CSV is the fan-out. Product tables were left at the pre-build text so truncated hashes would not ship.
+
+### OI-20260926-doi-collision-shared-opinion — DOI collision audit collapses a derived extract with its parent opinion
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `tools/dedup-doi-clusters.mjs`, `wiki/sources/efsa2021-rice-arsenic-annex-a-origin-year.md`, `wiki/sources/efsa2021-chronic-exposure-iAs.md`
+- repro: Putting doi 10.2903/j.efsa.2021.6380 on the rice origin-year count page made the collision audit mark efsa2021-chronic-exposure-iAs as drop and the count page as canonical. The count page now has doi null and no_doi_assigned true, with the opinion URL only in access_url.
+- done when: Two different documents that cite the same opinion DOI are not collapsed into one canonical page; The chronic dietary exposure opinion page is not marked drop because a derived count table cites it
+- decision: _pending_
+- notes: Discovered while loading the rice arsenic country-year baseline. Not fixed in that commit. The derived page stays doi null.
 
 ### OI-20260925-jensen-nickel-ci — Jensen 2025 nickel CI is 15.71 on the baby-wipes synthesis and 15.7 on the product page
 

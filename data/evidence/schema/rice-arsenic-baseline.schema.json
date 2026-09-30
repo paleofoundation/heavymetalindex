@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heavymetalindex.com/schema/evidence/rice-arsenic-baseline.schema.json",
+  "title": "Rice arsenic Ground Truth contract",
+  "description": "Qualifying ledger rows for inorganic arsenic and total arsenic in rice that already have a sampling country and a sampling year. Concentration rows copy a printed statistic. Count-only rows copy a sample count and no concentration. They are not pooled. No government limit is part of this contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_on", "filters", "counts", "rows"],
+  "properties": {
+    "schema_version": { "const": "1.1.0" },
+    "generated_on": { "type": "string" },
+    "generator": { "type": "string" },
+    "dependency": { "type": "string" },
+    "filters": { "type": "object" },
+    "counts": { "type": "object" },
+    "china_place_pages": { "type": "array" },
+    "value_gaps": { "type": "array" },
+    "baseline_gaps": { "type": "array" },
+    "paper_manifest": { "type": "array" },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "row_id",
+          "source_id",
+          "sampling_country",
+          "sampling_year_start",
+          "sampling_year_end",
+          "coverage_kind",
+          "slug_flag",
+          "metal_species",
+          "matrix",
+          "matrix_class",
+          "reported"
+        ],
+        "properties": {
+          "row_id": { "type": "string" },
+          "ledger": { "type": "string" },
+          "source_id": { "type": "string" },
+          "source_page": { "type": "string" },
+          "sampling_country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "sampling_region": { "type": ["string", "null"] },
+          "sampling_year_start": { "type": ["integer", "null"] },
+          "sampling_year_end": { "type": ["integer", "null"] },
+          "single_year": { "type": "boolean" },
+          "coverage_kind": { "enum": ["concentration", "count_only"] },
+          "slug_flag": { "type": ["string", "null"] },
+          "practice": { "type": ["string", "null"] },
+          "geo_precision": { "type": ["string", "null"] },
+          "geo_source": { "type": ["string", "null"] },
+          "geo_provenance": { "type": "object" },
+          "metal_species": { "enum": ["iAs", "tAs"] },
+          "source_analyte_label": { "type": ["string", "null"] },
+          "matrix": { "type": "string" },
+          "matrix_class": {
+            "enum": ["rice_grain", "rice_cereal", "rice_product", "rice_containing_mixture"]
+          },
+          "food_group": { "type": "string" },
+          "food_label": { "type": "string" },
+          "basis": { "type": ["string", "null"] },
+          "n": { "type": ["number", "string", "null"] },
+          "row_kind": { "enum": ["sample", "summary"] },
+          "statistic_type": { "type": ["string", "null"] },
+          "statistic_scope": { "type": ["string", "null"] },
+          "result_status": { "type": ["string", "null"] },
+          "censoring_status": { "type": ["string", "null"] },
+          "review_state": { "type": ["string", "null"] },
+          "evidence_fitness_verdict": { "type": ["string", "null"] },
+          "sample_id": { "type": ["string", "null"] },
+          "reported": { "type": "object" }
+        }
+      }
+    }
+  }
+}

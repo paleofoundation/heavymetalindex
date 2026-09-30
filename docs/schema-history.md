@@ -2,6 +2,10 @@
 
 This document tracks the migration history of the wiki's structured schemas. Rule-grade vocabulary and current schema specs live in CLAUDE.md and [[docs/page-templates]]; this file is the historical record for understanding legacy frontmatter.
 
+## Rice arsenic Ground Truth contract (2026-09-26)
+
+`data/evidence/schema/rice-arsenic-baseline.schema.json` describes the public download at `wiki/static/data/rice-arsenic-ground-truth.json`. Schema 1.1.0 adds `coverage_kind` (`concentration` or `count_only`) and `slug_flag`. Rows are copied from `data/evidence/geo_hist.jsonl` joined back to the ledger record in `row_id`. The contract admits inorganic arsenic and total arsenic on rice matrices that already have a sampling country and a sampling year. A concentration row copies a printed statistic. A count-only row copies a sample count and no concentration. It does not pool concentrations, split a year span, or carry a government limit. China by province is not in this version. The public page is `wiki/baselines/rice-arsenic.md`. See [[docs/schemas/rice-arsenic-baseline]].
+
 ## Evidence ledger geography, time, and practice (2026-09-26)
 
 `value.schema.json`, `claim.schema.json`, and extraction findings gained optional geography, time, and practice fields: `sampling_country`, `sampling_region`, `lat`, `lon`, `sampling_year_start`, `sampling_year_end`, `harvest_year`, `practice`, `geo_precision`, `geo_source`, `geo_provenance`. Existing rows that omit the fields stay valid. The field contract is [[docs/schemas/geo-hist]]. `data/evidence/geo_hist.jsonl` holds the filled copies, including CSV measurement rows whose headers were left unchanged. Backfill copies only values the repo already states. Affiliation and the source-page `jurisdictions` array are not sampling locations. WHO GEMS/Food `region_name` and `food_origins` are not sampling countries; `year_min` and `year_max` on rows that carry a lower-bound µg/kg percentile are copied.

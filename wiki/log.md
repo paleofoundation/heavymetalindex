@@ -3,6 +3,31 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-30] query | rice-arsenic-ground-truth — cite the qualifying rows and name the held-out means
+
+Pages touched: [[baselines/rice-arsenic]], [[sources/yuliani2025-indonesia-rice-metals]], [[sources/hasan2022-bangladesh-industrial-rice-metals]], [[sources/shaheen2024-dhaka-rice-cultivars]]
+Notes: The public baseline now cites each summary concentration that already has a country and a year. Indonesia total arsenic 106 µg/kg is printed and stays out because the sampling year is not stated. The Indonesia inorganic figure of 63 µg/kg is a regression on other countries and is not treated as a measurement. Hasan 2022 site means (0.075, 0.031, and 0.048 mg/kg) are printed and not averaged. The Dhaka average of 0.18 mg/kg stays out because the purchase year is not stated. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-29] query | rice-arsenic-ground-truth — copy printed Nepal and Vietnam means
+
+Pages touched: [[sources/shao2023-nepal-rice-heavy-metals]], [[sources/chu2021-vietnam-rice-arsenic]], [[baselines/rice-arsenic]]
+Notes: Shao 2023 now carries the printed geometric mean total arsenic of 43.4 µg/kg (range 6.43 to 121 µg/kg, n=170, Nepal, September 2019). Chu 2021 now carries the printed mean total arsenic of 0.115 mg/kg dried weight (n=70, Vietnam, 2018 and 2019 kept as one span). Province rows stay out. Unknown origin, unextracted values, and China by province stay in the gap list. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-26] query | rice-arsenic-ground-truth — keep the recorded extract hashes
+
+Pages touched: [[sources/efsa2021-rice-arsenic-annex-a-origin-year]], [[sources/hc2018-canadian-tds-trace-elements-white-rice]]
+Notes: The EFSA origin-year extract and the Canada white-rice extract stay byte-for-byte with the files whose sha256 is on the source pages. Line-ending conversion would change those hashes. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-26] query | rice-arsenic-ground-truth — load country-year counts and concentrations
+
+Pages touched: [[baselines/rice-arsenic]], [[baselines/index]], [[sources/index]]
+Notes: Country-year rice arsenic rows from the attached baseline now sit in the geography ledger with a sampling country and a sampling year. Concentration rows copy a printed statistic. Count-only rows copy n and no concentration. Unknown origin, unextracted values, and China by province stay in the gap list. Guo et al. (2025) is the province lead for a later pass. The Lu 2023 manifest lists Cd, Cr, and iAs only. The Noh 2023 matrix slug was not relabeled. A non-rice token is removed before the food-group rules run. Direction: toward the literature. No certification threshold is set. Not minted.
+
+## [2026-09-26] query | rice-arsenic-ground-truth — scaffold baseline from ledger rows
+
+Pages touched: [[baselines/rice-arsenic]], [[baselines/index]]
+Notes: Qualifying rows are copied from geo_hist.jsonl joined to the ledger record named by row_id. 133 rows have a sampling country, a sampling year, and iAs or tAs on a rice matrix (28 inorganic, 105 total). Sampling region and sampling country CN are 0 on that set, so the China-by-province section is not yet filled from the ledger. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-25] query | baby-wipes-citations — author list and two missing references
 
 Pages touched: [[synthesis/heavy-metals-in-baby-wipes]]

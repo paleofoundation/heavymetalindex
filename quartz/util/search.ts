@@ -35,6 +35,7 @@ const categories: Record<string, string> = {
   regulators: "Regulator",
   sources: "Source",
   synthesis: "Synthesis",
+  baselines: "Baseline",
   microbiome: "Microbiome",
   health: "Health",
   testing: "Testing",
