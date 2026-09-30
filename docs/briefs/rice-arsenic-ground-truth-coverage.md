@@ -1,12 +1,12 @@
 ---
 title: Rice arsenic Ground Truth coverage
 schema_version: 1.1.0
-generated_on: 2026-09-26
+generated_on: 2026-09-30
 ---
 
 # Rice arsenic Ground Truth coverage
 
-Generated 2026-09-26 by `tools/evidence/build-rice-arsenic-baseline.mjs`. This file is a coverage brief. It is not a public wiki page. It does not set a limit.
+Generated 2026-09-30 by `tools/evidence/build-rice-arsenic-baseline.mjs`. This file is a coverage brief. It is not a public wiki page. It does not set a limit.
 
 Operated by the Institute of Contaminant Standards.
 
@@ -88,13 +88,13 @@ Unknown origin, a label that is not a country, a year that was not stated, a con
 | efsa-XD-2018-tAs | unknown origin (EFSA XD) | 2018 | tAs | 8 | unknown_origin |
 | efsa-XD-2018-iAs | unknown origin (EFSA XD) | 2018 | iAs | 1 | unknown_origin |
 | efsa-EU-2018-tAs | EU (unspecified) | 2018 | tAs | 10 | not_a_country |
-| yuliani2025-tas | Indonesia | not stated | tAs | not extracted | not_extracted |
-| yuliani2025-ias | Indonesia | not stated | iAs | not extracted | not_extracted |
+| yuliani2025-tas | Indonesia | not stated | tAs | 30 provinces | year_not_stated |
+| yuliani2025-ias | Indonesia | not stated | iAs | modeled | modeled_not_measured |
 | murphy2018-tas | Cambodia | not stated | tAs | 105 | year_not_stated |
 | murphy2019-tas | Cambodia | 2016 | tAs | not extracted | not_extracted |
 | murphy2020-species | Cambodia | 2016 | tAs; iAs | 70 | species_not_separated |
-| hasan2022-tas | Bangladesh | 2021 | tAs | not extracted | not_extracted |
-| shaheen2024-tas | Bangladesh | not stated | tAs | not extracted | not_extracted |
+| hasan2022-tas | Bangladesh | 2021 | tAs | three sites | site_means_not_pooled |
+| shaheen2024-tas | Bangladesh | not stated | tAs | 10 cultivars | year_not_stated |
 | saini2025-tas | India | 2023 | tAs | not extracted | not_extracted |
 | tatahmentan2020-tas | United States | not stated | tAs | 39 | year_not_stated |
 | fernandezbaca2020-ias | United States | 2013; 2014 | iAs | not extracted | not_extracted |
@@ -181,4 +181,4 @@ Qualifying rows with a practice field: 0. Flooded, alternate wetting and drying,
 
 ### What would unblock the baseline
 
-A fully cited country-by-year grid needs sampling country and a single sampling year on the same rice-matrix row, with iAs and tAs kept apart, and with the basis left as reported. A China province grid needs `sampling_region` copied from a stated province, plus a concentration for that province. Pages that already name a province in `sample_population` need that statement copied into `sampling_locations` before it can enter this contract. Pages whose primary PDF is not in the repo still need the file fetched before a new row can be extracted. This pass did not fetch files and did not edit source pages.
+A fully cited country-by-year grid needs sampling country and a single sampling year on the same rice-matrix row, with iAs and tAs kept apart, and with the basis left as reported. A China province grid needs `sampling_region` copied from a stated province, plus a concentration for that province. Pages that already name a province in `sample_population` need that statement copied into `sampling_locations` before it can enter this contract. Indonesia total arsenic, the Dhaka cultivar average, and the United States retail medians in TatahMentan et al. (2020) are printed and still lack a stated sampling year. Hasan et al. (2022) print three 2021 site means and no Bangladesh mean. Yuliani et al. (2025) calculate inorganic arsenic from other countries' published pairs. Those figures stay in the gap list. A later pass still needs a stated sampling year, or a printed country mean, before a new country-year row can be added.

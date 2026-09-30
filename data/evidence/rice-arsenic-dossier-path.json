@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1.0",
+  "path_id": "rice-bulk-grain-shao-2023",
+  "status": "started",
+  "generated_on": "2026-09-30",
+  "what_this_is": "One literature trace from a qualifying rice-arsenic ledger row to the public baseline. It is not a certification threshold, not a pass or fail rule, and not a completed defense-dossier index.",
+  "operator": "Institute of Contaminant Standards",
+  "license": "© 2026 Paleo Certified, Inc. All rights reserved.",
+  "product_slug": "products/rice-bulk-grain",
+  "baseline_page": "wiki/baselines/rice-arsenic.md",
+  "baseline_url_after_deploy": "https://heavymetalindex.com/baselines/rice-arsenic",
+  "download": "wiki/static/data/rice-arsenic-ground-truth.json",
+  "worked_example": {
+    "source_id": "shao2023-nepal-rice-heavy-metals",
+    "source_page": "wiki/sources/shao2023-nepal-rice-heavy-metals.md",
+    "citation": "Shao, Y., Xu, X., Wang, L., Han, J., Katuwal, H. B., Jiao, S., & Qiu, G. (2023). Human dietary exposure to heavy metals via rice in Nepal. International Journal of Environmental Research and Public Health, 20(5), 4134. https://doi.org/10.3390/ijerph20054134",
+    "doi": "10.3390/ijerph20054134",
+    "sampling_country": "NP",
+    "sampling_year": 2019,
+    "metal_species": "tAs",
+    "statistic_type": "geometric_mean",
+    "mean_ug_kg": 43.4,
+    "min_ug_kg": 6.43,
+    "max_ug_kg": 121,
+    "n": 170,
+    "basis": "as_reported",
+    "not_copied": "Province means are not separate rows. The printed plus-or-minus figure is not relabeled as a standard deviation."
+  },
+  "join": [
+    "wiki/sources/shao2023-nepal-rice-heavy-metals.md",
+    "data/evidence/rice_arsenic_country_year.csv",
+    "data/evidence/geo_hist.jsonl",
+    "wiki/static/data/rice-arsenic-ground-truth.json",
+    "wiki/baselines/rice-arsenic.md"
+  ],
+  "next_step_after_merge": "Rebuild defense dossiers for every locked product row in one run. Do not pass a single slug. A single-slug run rewrites wiki/static/defense-dossier-index.json down to that one product.",
+  "blocks_live_page": [
+    "Draft pull request 167 is stacked on draft pull request 163.",
+    "A human merge of both drafts, in that order, and a human deploy are required before the baseline URL is live.",
+    "This file does not authorize a merge, a deploy, or a DataCite mint."
+  ]
+}

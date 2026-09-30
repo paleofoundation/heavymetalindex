@@ -24,10 +24,11 @@ sampling_year_range: null
 wiki_doi: null
 evidence_fitness:
   supports:
-    - "A bibliographic record for the Indonesian rice paper."
+    - "The printed Indonesia total-arsenic mean on Table 2, held out of the country-year rows because the sampling year is not stated."
   does_not_support:
-    - "A country-year concentration. The year was not stated and the values were not extracted."
-updated: 2026-09-26
+    - "A country-year row. The sampling year is not stated."
+    - "A measured inorganic-arsenic concentration. The inorganic figure is a regression on other countries."
+updated: 2026-09-30
 ---
 
 # The concentration of potentially toxic elements in Indonesian rice and their health risk assessment
@@ -36,11 +37,11 @@ Yuliani, F., Faridah, D. N., Andarwulan, N., & Srednicka-Tober, D. (2025). The c
 
 ## Key numbers
 
-Both the total arsenic row and the inorganic arsenic row stay in the gap list. The sampling year was not stated, and the concentrations were not extracted. Inorganic arsenic was measured on a subset of provinces.
+Table 2 prints an Indonesia total-arsenic mean of 106 µg/kg dry basis, with a printed standard deviation of 93. Table 3 repeats that mean and gives a range from below the limit of detection (30 µg/kg) to 609 µg/kg. The sampling year is not stated. Production statistics for 2022 are used to choose provinces. That year is not treated as the sampling year. Province means are not copied as separate rows. Inorganic arsenic is estimated from a linear regression on 13 published pairs from other countries. Table 3 prints a calculated mean of 63 µg/kg. That figure is not a measurement of these samples.
 
 ## Methods (brief)
 
-The paper was identified and the gap was recorded. Province production weights were not turned into a national mean.
+Total arsenic was measured by ICP-MS. Inorganic arsenic was not measured in these samples.
 
 ## Evidence fitness
 
@@ -48,7 +49,7 @@ The page records why this paper is not a country-year concentration row. It does
 
 ## Limitations
 
-A later extract can copy a printed statistic. This pass does not invent one.
+A stated sampling year would be required before the total-arsenic mean can enter a country-year row. The calculated inorganic figure does not become a measured inorganic result.
 
 ## Related evidence
 

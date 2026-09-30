@@ -13,7 +13,7 @@ import { fileURLToPath } from "node:url"
 import matter from "gray-matter"
 import { parseCsv } from "./geo-hist.mjs"
 
-const GENERATED_ON = "2026-09-26"
+const GENERATED_ON = "2026-09-30"
 const ARSENIC_SPECIES = new Set(["iAs", "tAs"])
 const ORGANIC_SPECIES = new Set(["oAs", "DMA", "MMA"])
 const GRAIN_SLUGS = new Set(["rice", "rice-bulk-grain", "brown-rice", "white-rice", "rice-grain"])
@@ -522,6 +522,70 @@ function matrixTable(rows) {
   return lines.join("\n")
 }
 
+function yearLabel(row) {
+  if (row.sampling_year_start == null) return String(row.sampling_year_end)
+  if (row.sampling_year_end == null || row.sampling_year_start === row.sampling_year_end) return String(row.sampling_year_start)
+  return `${row.sampling_year_start} to ${row.sampling_year_end}`
+}
+
+function sourceLink(row) {
+  const page = String(row.source_page || "").replace(/^wiki\//, "").replace(/\.md$/, "")
+  return page ? `[[${page}]]` : row.source_id
+}
+
+function plain(value) {
+  return String(value || "").replaceAll("\u2014", ", ").replaceAll("\u2013", " to ").replaceAll("|", "/")
+}
+
+function copiedStatistic(row) {
+  const reported = row.reported || {}
+  const bits = []
+  const label = row.statistic_type === "geometric_mean" ? "geometric mean" : row.statistic_type === "composite" ? "composite" : "mean"
+  if (typeof reported.mean_ppb === "number") bits.push(`${label} ${reported.mean_ppb} µg/kg`)
+  if (typeof reported.median_ppb === "number") bits.push(`median ${reported.median_ppb} µg/kg`)
+  if (typeof reported.min_ppb === "number" && typeof reported.max_ppb === "number") bits.push(`range ${reported.min_ppb} to ${reported.max_ppb} µg/kg`)
+  if (!bits.length && typeof reported.concentration_ppb_equivalent === "number") bits.push(`${reported.concentration_ppb_equivalent} µg/kg`)
+  if (!bits.length && reported.field_value_summary) bits.push(plain(reported.field_value_summary))
+  if (reported.original_unit) bits.push(`original unit ${plain(reported.original_unit)}`)
+  return bits.join("; ") || "copied statistic"
+}
+
+function citedConcentrationTable(rows) {
+  const summary = rows.filter((row) => row.coverage_kind === "concentration" && row.row_kind !== "sample")
+  const lines = [
+    "| Sampling country | Sampling year | Analyte | n | Copied statistic | Source |",
+    "| --- | --- | --- | ---: | --- | --- |",
+  ]
+  for (const row of summary) {
+    lines.push(`| ${row.sampling_country} | ${yearLabel(row)} | ${row.metal_species} | ${row.n ?? ""} | ${copiedStatistic(row)} | ${sourceLink(row)} |`)
+  }
+  return lines.join("\n")
+}
+
+function sampleSourceLines(rows) {
+  const counts = new Map()
+  for (const row of rows) {
+    if (row.row_kind !== "sample") continue
+    counts.set(row.source_id, (counts.get(row.source_id) || 0) + 1)
+  }
+  return [...counts.entries()].map(([source, count]) => {
+    const example = rows.find((row) => row.source_id === source)
+    return `${sourceLink(example)} contributes ${count} sample rows. Each concentration is the value stored for that sample. Those rows are not averaged into a country mean on this page.`
+  })
+}
+
+function gapTable(contract) {
+  const lines = [
+    "| Country or label | Years | Analyte | Why it is not a country-year row | Source |",
+    "| --- | --- | --- | --- | --- |",
+  ]
+  for (const gap of contract.baseline_gaps || []) {
+    const page = gap.source_id && gap.source_id !== "guo2025" ? `[[sources/${gap.source_id}]]` : "see the Guo et al. (2025) citation below"
+    lines.push(`| ${plain(gap.country_label)} | ${plain(gap.sampling_years)} | ${plain(gap.analyte)} | ${plain(gap.detail)} | ${page} |`)
+  }
+  return lines.join("\n")
+}
+
 function renderPage(contract) {
   const rows = contract.rows
   const c = contract.counts
@@ -529,7 +593,7 @@ function renderPage(contract) {
 title: "Rice arsenic by country and year"
 description: "Public baseline of inorganic arsenic and total arsenic in rice by sampling country and sampling year. Concentration rows and count-only rows are marked. China by province is not in this version."
 type: baseline
-status: partial
+status: populated
 license: "© 2026 Paleo Certified, Inc. All rights reserved."
 audience: [regulator, educator, consumer, researcher]
 updated: ${GENERATED_ON}
@@ -562,9 +626,29 @@ Matrix class keeps rice grain, rice cereal, other rice products, and mixed meals
 
 Downloads: [qualifying rows (JSON)](/static/data/rice-arsenic-ground-truth.json) · [qualifying rows (CSV)](/static/data/rice-arsenic-ground-truth.csv)
 
+The counts in the country table are counts of ledger rows, or the sum of the stated n on those rows. Each download row names its source page. A sum of stated n can count the same physical sample more than once when two sources report it.
+
+## Cited concentration rows
+
+The table below copies summary statistics that already have a sampling country and a sampling year. Sample-level composites are listed after the table and are not averaged here. A count-only row is in the download and is absent from this table because it has no concentration.
+
+${citedConcentrationTable(rows)}
+
+${sampleSourceLines(rows).join(" ")}
+
+Count-only rows, including the EFSA origin-year counts in [[sources/efsa2021-rice-arsenic-annex-a-origin-year]] and the 2013 United States sampling counts in [[sources/fda2013-ias-rice-products-sampling]], copy n and no concentration. United States state counts from that 2013 report are one national count per species. The state split stays in the row note.
+
+## What is not in this version
+
+A printed number stays out of the country-year rows when the sampling year is missing, the origin is not a country, the inorganic figure was calculated rather than measured, or the paper prints site means and no country mean. Those facts are listed here so the absence is visible.
+
+${gapTable(contract)}
+
+China by province is not in this version. Guo et al. (2025), Journal of Environmental Management, 388, 126024, https://doi.org/10.1016/j.jenvman.2025.126024, is the lead for a later province pass.
+
 ## Country by year
 
-Each download row is one ledger record with a sampling country and a sampling year. Concentration statistics stay in the form the ledger stored, on the basis the ledger stored. Count-only rows have an empty concentration. United States state counts from the 2013 rice sampling report are one national count per species, with the state split kept in the row note.
+Each download row is one ledger record with a sampling country and a sampling year. The copied statistic stays in the unit the source printed, on the basis the source printed. Count-only rows have an empty concentration.
 
 ## China by province
 
@@ -717,7 +801,7 @@ Qualifying rows with a practice field: ${c.practice_rows}. Flooded, alternate we
 
 ### What would unblock the baseline
 
-A fully cited country-by-year grid needs sampling country and a single sampling year on the same rice-matrix row, with iAs and tAs kept apart, and with the basis left as reported. A China province grid needs \`sampling_region\` copied from a stated province, plus a concentration for that province. Pages that already name a province in \`sample_population\` need that statement copied into \`sampling_locations\` before it can enter this contract. Pages whose primary PDF is not in the repo still need the file fetched before a new row can be extracted. This pass did not fetch files and did not edit source pages.
+A fully cited country-by-year grid needs sampling country and a single sampling year on the same rice-matrix row, with iAs and tAs kept apart, and with the basis left as reported. A China province grid needs \`sampling_region\` copied from a stated province, plus a concentration for that province. Pages that already name a province in \`sample_population\` need that statement copied into \`sampling_locations\` before it can enter this contract. Indonesia total arsenic, the Dhaka cultivar average, and the United States retail medians in TatahMentan et al. (2020) are printed and still lack a stated sampling year. Hasan et al. (2022) print three 2021 site means and no Bangladesh mean. Yuliani et al. (2025) calculate inorganic arsenic from other countries' published pairs. Those figures stay in the gap list. A later pass still needs a stated sampling year, or a printed country mean, before a new country-year row can be added.
 `
 }
 

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-30] query | rice-arsenic-ground-truth — cite the qualifying rows and name the held-out means
+
+Pages touched: [[baselines/rice-arsenic]], [[sources/yuliani2025-indonesia-rice-metals]], [[sources/hasan2022-bangladesh-industrial-rice-metals]], [[sources/shaheen2024-dhaka-rice-cultivars]]
+Notes: The public baseline now cites each summary concentration that already has a country and a year. Indonesia total arsenic 106 µg/kg is printed and stays out because the sampling year is not stated. The Indonesia inorganic figure of 63 µg/kg is a regression on other countries and is not treated as a measurement. Hasan 2022 site means (0.075, 0.031, and 0.048 mg/kg) are printed and not averaged. The Dhaka average of 0.18 mg/kg stays out because the purchase year is not stated. Direction: toward the literature. No certification threshold is set. Not minted.
+
 ## [2026-09-29] query | rice-arsenic-ground-truth — copy printed Nepal and Vietnam means
 
 Pages touched: [[sources/shao2023-nepal-rice-heavy-metals]], [[sources/chu2021-vietnam-rice-arsenic]], [[baselines/rice-arsenic]]

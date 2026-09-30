@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1.0",
-  "generated_on": "2026-09-26",
+  "generated_on": "2026-09-30",
   "generator": "tools/evidence/build-rice-arsenic-baseline.mjs",
   "dependency": "data/evidence/geo_hist.jsonl from the geography, time, and practice ledger. Draft pull request 163, branch cursor/geo-hist-evidence-fields-e169.",
   "filters": {
@@ -418,20 +418,20 @@
       "country_label": "Indonesia",
       "sampling_years": "not stated",
       "analyte": "tAs",
-      "n": "not extracted",
+      "n": "30 provinces",
       "source_id": "yuliani2025-indonesia-rice-metals",
-      "reason": "not_extracted",
-      "detail": "Year not stated and the concentration was not extracted. A second reason, year_not_stated, also applies."
+      "reason": "year_not_stated",
+      "detail": "Table 2 prints an Indonesia total-arsenic mean of 106 µg/kg dry basis, with a printed standard deviation of 93. Table 3 gives the same mean and a range from below the limit of detection (30 µg/kg) to 609 µg/kg. The sampling year is not stated. The 2022 production statistics choose the provinces. They are not a sampling year. Province rows are not copied."
     },
     {
       "gap_id": "yuliani2025-ias",
       "country_label": "Indonesia",
       "sampling_years": "not stated",
       "analyte": "iAs",
-      "n": "not extracted",
+      "n": "modeled",
       "source_id": "yuliani2025-indonesia-rice-metals",
-      "reason": "not_extracted",
-      "detail": "Inorganic arsenic on a subset of provinces. Year not stated and the concentration was not extracted."
+      "reason": "modeled_not_measured",
+      "detail": "Inorganic arsenic is estimated from a linear regression on 13 published pairs from other countries. Table 3 prints a calculated mean of 63 µg/kg. That figure is not a measurement of these samples and is not a country-year row."
     },
     {
       "gap_id": "murphy2018-tas",
@@ -468,20 +468,20 @@
       "country_label": "Bangladesh",
       "sampling_years": "2021",
       "analyte": "tAs",
-      "n": "not extracted",
+      "n": "three sites",
       "source_id": "hasan2022-bangladesh-industrial-rice-metals",
-      "reason": "not_extracted",
-      "detail": "Industrial-area rice. The concentration was not extracted."
+      "reason": "site_means_not_pooled",
+      "detail": "Table 2 prints rice arsenic means of 0.075 mg/kg at Savar, 0.031 mg/kg at Gazipur, and 0.048 mg/kg at Ashulia. Samples were collected from April to August 2021. The paper does not print one Bangladesh mean. The site means are not averaged."
     },
     {
       "gap_id": "shaheen2024-tas",
       "country_label": "Bangladesh",
       "sampling_years": "not stated",
       "analyte": "tAs",
-      "n": "not extracted",
+      "n": "10 cultivars",
       "source_id": "shaheen2024-dhaka-rice-cultivars",
-      "reason": "not_extracted",
-      "detail": "Purchase city is Dhaka. Growing region and year were not stated. The concentration was not extracted."
+      "reason": "year_not_stated",
+      "detail": "The results text prints an average arsenic of 0.18 mg/kg fresh weight, with a printed figure of 0.18 plus or minus 0.003, and a range of 0.04 to 0.35 mg/kg fresh weight. Ten cultivars were purchased in Dhaka markets. The purchase year is not stated."
     },
     {
       "gap_id": "saini2025-tas",
@@ -501,7 +501,7 @@
       "n": "39",
       "source_id": "tatahmentan2020-rice-grains-elements",
       "reason": "year_not_stated",
-      "detail": "n=39 rice samples. The sampling year was not stated, so the count is not a country-year row."
+      "detail": "The abstract prints median total arsenic of 131 µg/kg in United States white rice, 217 µg/kg in United States brown rice, and 155 µg/kg in white rice pooled across Thailand, India, and Italy. The pooled group is not split by country. n=39 rice samples were purchased in Louisiana. The sampling year is not stated, so the medians are not country-year rows."
     },
     {
       "gap_id": "fernandezbaca2020-ias",

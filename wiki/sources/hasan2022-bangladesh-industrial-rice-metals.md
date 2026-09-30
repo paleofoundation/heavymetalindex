@@ -24,10 +24,10 @@ sampling_year_range: null
 wiki_doi: null
 evidence_fitness:
   supports:
-    - "A bibliographic record for industrial-area rice sampled in 2021."
+    - "Three printed site means for arsenic in rice, with collection from April to August 2021."
   does_not_support:
-    - "An extracted total-arsenic concentration."
-updated: 2026-09-26
+    - "A Bangladesh mean. The paper does not print one, and the site means are not averaged."
+updated: 2026-09-30
 ---
 
 # Accumulation of heavy metals in rice grains cultivated in three major industrial areas of Bangladesh
@@ -36,11 +36,11 @@ Hasan, G. M. M. A., Das, A. K., & Satter, M. A. (2022). Accumulation of heavy me
 
 ## Key numbers
 
-Sampling is described as April to August 2021. The total-arsenic concentration was not extracted.
+Table 2 prints average arsenic in rice of 0.075 mg/kg at Savar, 0.031 mg/kg at Gazipur, and 0.048 mg/kg at Ashulia. Samples were collected from April to August 2021. The paper does not print one Bangladesh mean. The three site means stay out of the country-year rows.
 
 ## Methods (brief)
 
-The paper measures metals in rice grain from industrial areas. This pass records the gap only.
+Metals were measured by atomic absorption after microwave digestion. The table label is arsenic, not inorganic arsenic.
 
 ## Evidence fitness
 
@@ -48,7 +48,7 @@ The page records why this paper is not a country-year concentration row. It does
 
 ## Limitations
 
-No mean is invented from the unextracted table.
+A later pass can keep the sites as named places. This pass does not average them.
 
 ## Related evidence
 

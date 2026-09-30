@@ -24,10 +24,10 @@ sampling_year_range: null
 wiki_doi: null
 evidence_fitness:
   supports:
-    - "A bibliographic record for rice cultivars purchased in Dhaka."
+    - "The printed average arsenic for ten cultivars purchased in Dhaka, held out because the purchase year is not stated."
   does_not_support:
-    - "A country-year concentration. The growing region and the year were not stated, and the value was not extracted."
-updated: 2026-09-26
+    - "A country-year row. The purchase year is not stated."
+updated: 2026-09-30
 ---
 
 # Carcinogenic and non-carcinogenic health hazards of potentially toxic elements in commonly consumed rice cultivars in Dhaka city, Bangladesh
@@ -36,11 +36,11 @@ Shaheen, N., Hasan, T., Sultana, M., Akhter, K. T., Khan, I. N., Irfan, N. M., &
 
 ## Key numbers
 
-The purchase city is Dhaka. The growing region and the sampling year were not stated. The concentration was not extracted.
+The results text prints an average arsenic of 0.18 mg/kg fresh weight, with a printed figure of 0.18 plus or minus 0.003, and a range of 0.04 to 0.35 mg/kg fresh weight, across ten cultivars purchased in four Dhaka markets. The purchase year is not stated. Cultivar means in Table 1 are not copied as country-year rows.
 
 ## Methods (brief)
 
-Results are reported by cultivar. This pass does not copy a cultivar table.
+The panel is total elements. The arsenic result is not labeled inorganic arsenic.
 
 ## Evidence fitness
 
@@ -48,7 +48,7 @@ The page records why this paper is not a country-year concentration row. It does
 
 ## Limitations
 
-A purchase city is not a sampling year.
+A stated purchase year would be required before the average can enter a country-year row.
 
 ## Related evidence
 
