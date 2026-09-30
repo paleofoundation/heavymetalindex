@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-30] synthesis | antimony-baby-products — cite twelve open PET and clothing sources
+
+Pages touched: [[synthesis/antimony-in-baby-products]]
+Notes: The twelve antimony source pages left open on 2026-09-30 are now cited on [[synthesis/antimony-in-baby-products]] with the figures those source pages print: [[sources/chapa-martinez2016-pet-bottled-water-antimony]], [[sources/keresztes2009-pet-mineral-water-antimony]], [[sources/shotyk2006-bottled-water-antimony-pet]], [[sources/westerhoff2008-pet-bottled-water-antimony]], [[sources/tukur2012-pet-bottle-antimony-migration]], [[sources/shotyk2007-pet-antimony-storage]], [[sources/xu2021-antimony-pet-beverages]], [[sources/efsa2004-afc-antimony-trioxide-food-contact]], [[sources/chu2021-pet-fiber-antimony-china]], [[sources/rovira2015-clothing-skin-trace-elements]], [[sources/rovira2016-trace-elements-skin-contact-clothes]], [[sources/turner2017-antimony-plastic-products]]. Units stay as printed (µg/L, ng/mL, ng/L, ppb, mg/kg, µg/g). No conversion was added. [[synthesis/heavy-metals-in-baby-wipes]] is not edited: none of the twelve reports a wipe measurement. [[sources/hansra2026-lifecycle-of-a-wipe]] has no metal concentration in a wipe (mass loss and microfiber counts only; the aluminum-foil line is a weighing step) and stays on OI-20260928-hansra-wipe-row-fit. No brand names. No certification ceiling. Direction: toward the literature.
+
 ## [2026-09-30] synthesis | antimony-baby-products — status against the live 28 Sep pages
 
 Pages touched: [[synthesis/antimony-in-baby-products]], [[metals/antimony]], [[synthesis/index]]
