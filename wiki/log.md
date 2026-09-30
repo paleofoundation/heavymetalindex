@@ -3,6 +3,13 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-09-30] synthesis | antimony-baby-products — status against the live 28 Sep pages
+
+Pages touched: [[synthesis/antimony-in-baby-products]], [[metals/antimony]], [[synthesis/index]]
+Notes: STATUS against the live 28 September pages. [[synthesis/heavy-metals-in-baby-wipes]] (updated 2026-09-28, DOI 10.83376/hmi.heavy-metals-in-baby-wipes) is not edited. Its four wipe datasets, both Choi volume readings, the rayon-labeled maximum, the China annex preferred span 15.02 to 450.45 µg/L, and the Göçer fiber conflict stay as printed there. This pass adds [[synthesis/antimony-in-baby-products]] and replaces the short [[metals/antimony]] FAQ with a reference page. No brand names. No invented ppb. Choi milligrams per kilogram stay labeled as two unread final-volume calculations. The China annex stays an image read. No certification ceiling is set, and `data/workbench/standards/cat2-compiled/baby-wipes.json` is not edited. wiki_doi stays empty. Direction: toward the literature.
+
+No path, manifest, or commit named incoming-next and dated 2026-09-28 is in this repository. The fourteen no-metal wipe documents from the 2026-09-26 manual-resourcing batch are already cited on the live baby-wipes page (references 26 to 39). Related antimony occurrence pages from that batch are still open for a later synthesis pass and are not folded in here: [[sources/chapa-martinez2016-pet-bottled-water-antimony]], [[sources/chu2021-pet-fiber-antimony-china]], [[sources/keresztes2009-pet-mineral-water-antimony]], [[sources/shotyk2006-bottled-water-antimony-pet]], [[sources/shotyk2007-pet-antimony-storage]], [[sources/tukur2012-pet-bottle-antimony-migration]], [[sources/westerhoff2008-pet-bottled-water-antimony]], [[sources/xu2021-antimony-pet-beverages]], [[sources/turner2017-antimony-plastic-products]], [[sources/rovira2015-clothing-skin-trace-elements]], [[sources/rovira2016-trace-elements-skin-contact-clothes]], [[sources/efsa2004-afc-antimony-trioxide-food-contact]]. [[sources/hansra2026-lifecycle-of-a-wipe]] remains the open row-fit item OI-20260928-hansra-wipe-row-fit and is not a baby-wipe metal measurement.
+
 ## [2026-09-28] lint | hansra2026-lifecycle-of-a-wipe: replace publisher-chrome title
 
 Pages touched: [[sources/hansra2026-lifecycle-of-a-wipe]], [[metals/aluminum]], [[products/fish-marine-non-predatory]], [[sources/categories/north-america]]
