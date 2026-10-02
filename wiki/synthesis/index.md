@@ -1,7 +1,7 @@
 ---
 title: Synthesis
 type: synthesis-index
-updated: 2026-09-30
+updated: 2026-10-02
 audience: [regulator, educator, consumer, brand-legal]
 ---
 
@@ -17,6 +17,7 @@ Each row links to a self-contained synthesis page that carries the full anchor-s
 
 | Finding | Metals | Anchor sources | Added |
 | --- | --- | --- | --- |
+| [Contaminants in baby wipes beyond the metal panel](/synthesis/contaminants-in-baby-wipes-beyond-metals) | — | 0 | 2026-10-02 |
 | [Antimony in baby products](/synthesis/antimony-in-baby-products) | Sb | 5 | 2026-09-30 |
 | [Heavy metals in baby lotions, oils, and powders](/synthesis/heavy-metals-in-baby-lotions-oils-and-powders) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Al, Cu, Sn, Sb | 7 | 2026-09-26 |
 | [Heavy metals in mineral baby sunscreens](/synthesis/heavy-metals-in-mineral-baby-sunscreens) | Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb, Ti, Zn | 7 | 2026-09-26 |

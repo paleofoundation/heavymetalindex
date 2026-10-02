@@ -61,6 +61,10 @@ const REPORT_EXCLUDE_SLUGS = new Set([
   // On the synthesis index for navigation; not a finding in the State of
   // Heavy Metals in Food register.
   "antimony-in-baby-products",
+  // Non-metal Evidence Review companion (preservatives, fragrance allergens,
+  // phthalates, PFAS, microfibers in wipes). On the synthesis index for
+  // navigation; not a finding in the State of Heavy Metals in Food register.
+  "contaminants-in-baby-wipes-beyond-metals",
 ])
 
 const sourceTypeMap = new Map([
