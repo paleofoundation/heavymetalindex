@@ -14,7 +14,7 @@ primary_metals_of_concern: [Sb, Pb, tAs, iAs, tHg, Cd, Cr, Cr-VI, Ni, Sn, Al]
 applicable_regulations: [health-canada-cosmetic-heavy-metal-impurities, eu-cosmetics-1223-2009, germany-bvl-2017-technically-avoidable-heavy-metals-cosmetics, korea-mfds-2025-63-cosmetics-safety-standards]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-09-26
+updated: 2026-10-02
 sources: 8
 created_by: cat2_step0_scaffold_2026_05_16
 shareText: "One row per metal for baby wipes. Antimony is the measured one. Tin and aluminum: no wipe data found. Lead, arsenic, mercury, cadmium, and chromium are mostly zeros or untested species."
@@ -31,7 +31,7 @@ toc_labels:
 
 Direct measurements of heavy metals in baby wipes are scarce, and they are not on one analytical basis. A Washington State Department of Ecology laboratory table, first published in 2014, reports three wipe components at 40.6, 61.3, and 70.6 ppm antimony, with lead at 0.4, 0.8, and 1.4 ppm. Arsenic, cadmium, and mercury are printed as 0.0 in those three rows. [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Choi, Song, and Kim 2016]] finds antimony as the frequent detect, in micrograms per liter of digest solution. A labeled reconstruction of that digest is on the source page. It is not the printed result. Nickel appears in two of those wet-wipe sheets, in the same solution units. [[sources/cpqs2026-online-baby-wipes-quality-monitoring|A 2 April 2026 Chinese monitoring report]] read total antimony from an annex image in 20 of 21 online baby wipes, on a per-liter label, from 15.02 to 450.45 µg/L at the stable ends of the reads. One column was not detected. [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging|A 2025 Istanbul thesis]] measured ten coded baby wipes as squeezed liquid, digested fiber, and digested packaging, in ppb of the ICP-MS solution. Those three matrices are not pooled, and they are not milligrams per kilogram. Nothing opened for this page measures how much of any of those metals crosses infant skin.
 
-The full account, including toxicology and the limits of an exposure calculation, is [[synthesis/heavy-metals-in-baby-wipes|Heavy metals in baby wipes]]. A polyester polymerization catalyst is a supported explanation for antimony in polyester fiber. It is not, on the Choi table, a rule for wet-wipe sheets: the highest antimony result is labeled rayon. This page reports those measurements and the instruments that were opened. It does not rank products now on the shelf, and it does not set a certification limit.
+The full account, including toxicology and the limits of an exposure calculation, is [[synthesis/heavy-metals-in-baby-wipes|Heavy metals in baby wipes]]. Contaminants beyond the metal panel, among them preservatives, fragrance allergens, phthalates, PFAS, and microfibers, are reviewed in the companion [[synthesis/contaminants-in-baby-wipes-beyond-metals|Contaminants in baby wipes beyond the metal panel]]. A polyester polymerization catalyst is a supported explanation for antimony in polyester fiber. It is not, on the Choi table, a rule for wet-wipe sheets: the highest antimony result is labeled rayon. This page reports those measurements and the instruments that were opened. It does not rank products now on the shelf, and it does not set a certification limit.
 
 ## Who this page is for
 
