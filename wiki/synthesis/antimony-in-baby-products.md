@@ -16,7 +16,7 @@ date: 2026-09-25
 updated: 2026-09-30
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
 cite_title: "Antimony in baby products"
-wiki_doi: null
+wiki_doi: "10.83376/hmi.antimony-in-baby-products"
 ---
 
 # Antimony in baby products
@@ -334,6 +334,10 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 79. [Human exposure to trace elements through the skin by direct contact with clothing: Risk assessment](/sources/rovira2015-clothing-skin-trace-elements)<span class="hmi-ref-meta">Rovira J, Nadal M, Schuhmacher M, and Domingo JL · Environmental Research · 2015 · total antimony in 31 garments; sweat extraction not measured · [doi.org/10.1016/j.envres.2015.03.032](https://doi.org/10.1016/j.envres.2015.03.032)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 80. [Trace elements in skin-contact clothes and migration to artificial sweat: Risk assessment of human dermal exposure](/sources/rovira2016-trace-elements-skin-contact-clothes)<span class="hmi-ref-meta">Rovira J, Nadal M, Schuhmacher M, and Domingo JL · Textile Research Journal · 2016 · content and acidic-sweat migration; infant garments are part of the set of 37 · [doi.org/10.1177/0040517516639816](https://doi.org/10.1177/0040517516639816)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 81. [Field-portable XRF analysis reveals the ubiquity of antimony in plastic consumer products](/sources/turner2017-antimony-plastic-products)<span class="hmi-ref-meta">Turner A and Filella M · Science of the Total Environment · 2017 · total antimony in plastic by use category; migration not measured · [doi.org/10.1016/j.scitotenv.2017.01.149](https://doi.org/10.1016/j.scitotenv.2017.01.149)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+
+## How to cite
+
+Pendergrass, K. (2026). Antimony in baby products. Institute of Contaminant Standards. <https://doi.org/10.83376/hmi.antimony-in-baby-products>
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
