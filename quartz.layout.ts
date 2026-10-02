@@ -103,10 +103,8 @@ export const defaultContentPageLayout: PageLayout = {
   // breadcrumb <nav> and <h1> shipped to Google and screen readers on every
   // content page. Those are removed; the hero is the single source.
   //
-  // ProductEvidenceSummary is intentionally retained here (still hidden). Its
-  // provenance facts duplicate the hero, but its category shortcuts have no hero
-  // equivalent; surfacing only those unique parts is a content task tracked as a
-  // follow-up, not a mechanical slot move, so it is not rushed here.
+  // The visible article brief gives product pages their evidence status and
+  // shortcuts. The hero remains the sole title, byline and update-date surface.
   //
   // BrandPreScreenTool was ALSO in this hidden slot — which meant the interactive
   // lab-result comparator was invisible on its own page while the prose explained
@@ -126,7 +124,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.Snav(),
   ],
-  // Right rail = actions / provenance column.
+  // End matter = actions / provenance, below the wide reading column.
   //   - Rail: the provenance/connections card + the evidence-packet action and
   //     the Share popup. The full citation apparatus is CiteThisPage in the
   //     shared afterBody (the rail is too narrow for the masthead-style block);

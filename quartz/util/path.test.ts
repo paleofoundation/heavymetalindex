@@ -361,3 +361,10 @@ describe("resolveRelative", () => {
     assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "ghi/" as SimpleSlug), "../ghi/")
   })
 })
+test("internal tool links retain query parameters and fragments under every link strategy", () => {
+  for (const strategy of ["absolute", "relative", "shortest"] as const) {
+    const result = path.transformLink("products/formula" as FullSlug, "certification/lab-result-comparator?category=infant-formula-powder&basis=as%20sold#results", { strategy, allSlugs: [] })
+    assert.match(result, /lab-result-comparator\?category=infant-formula-powder&basis=as%20sold#results$/)
+  }
+  assert.equal(path.transformLink("products/formula" as FullSlug, "comparator?category=formula#results", { strategy: "shortest", allSlugs: ["certification/comparator" as FullSlug] }), "../certification/comparator?category=formula#results")
+})

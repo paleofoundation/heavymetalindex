@@ -173,7 +173,7 @@ test("result descriptions use the summary and remain compact even for legacy ind
   assert.deepEqual(result, {
     slug: "ingredients/olive-oil",
     title: "Olive Oil",
-    category: "Food",
+    category: "Ingredient",
     description: "Evidence on olive oil, processing, and packaging.",
   });
   const documents = prepareSearchEntries({
@@ -207,3 +207,14 @@ test("limit is at most eight, ordering is deterministic, and input documents are
   );
   assert.equal(JSON.stringify(data), before);
 });
+test("completed evidence outranks exact scaffold and structural matches without hiding them", () => {
+  const entries = prepareSearchEntries({
+    "ingredients/infant-formula": { title: "Infant formula", searchStatus: "developing" },
+    "products/infant-formula": { title: "Infant formula", searchStatus: "developing" },
+    "ingredients/infant-formula-powder": { title: "Infant formula powder", searchStatus: "structural" },
+    "products/infant-formula-powder-non-soy": { title: "Infant formula powder (non-soy)", searchStatus: "standard" },
+  })
+  const results = searchIndex(entries, "infant formula")
+  assert.equal(results[0].slug, "products/infant-formula-powder-non-soy")
+  assert.equal(results.length, 4)
+})

@@ -30,6 +30,7 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 import { renderReferenceEntry } from "./lib/citation-format.mjs"
+import { citationReviewIssue } from "./lib/source-publication.mjs"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -124,7 +125,7 @@ function citedKeysInOrder(raw) {
     while ((m = CITATION.exec(trimmed)) !== null) {
       const key = m[1].toLowerCase()
       const resolved = resolveSource(key)
-      if (!resolved) continue
+      if (!resolved || citationReviewIssue(resolved.fm)) continue
       const canonical = resolved.citeKey.toLowerCase()
       if (seen.has(canonical)) continue
       seen.add(canonical)
@@ -149,7 +150,7 @@ function renderIntro(raw) {
   const inventory = sourceSection ? ` See ${sourceSection} for this page's source inventory.` : ""
   return (
     "Works cited in this page's text, in first-appearance order." + inventory +
-    " Each title links to its source record."
+    " Each title links to a source record with bibliographic details, reported findings, and document provenance."
   )
 }
 

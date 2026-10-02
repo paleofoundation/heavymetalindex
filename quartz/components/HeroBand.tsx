@@ -185,7 +185,7 @@ function snapshotRows(
   const sources = num(fm.sources) ?? num(fm.n_sources)
   if (sources) {
     rows.push({
-      k: section === "metals" ? "Corpus sources on this metal" : "Corpus sources",
+      k: "Related source records",
       v: sources,
     })
   }
@@ -243,7 +243,6 @@ export default (() => {
 
     let dek =
       (typeof fm.dek === "string" && fm.dek) ||
-      (fileData as { description?: string }).description ||
       (typeof fm.description === "string" ? fm.description : "")
     const escaped = rawTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
     dek = dek
@@ -270,22 +269,6 @@ export default (() => {
         class={section === "synthesis" && !isIndex ? "hero-band hero-band--synthesis" : "hero-band"}
       >
         <div class="hero-grid">
-          <div class="hero-subject" aria-hidden="true">
-            <div class="hero-subject-art">
-              {symbol ? (
-                <span class="hero-element">{symbol}</span>
-              ) : (
-                <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M24 28h28a12 12 0 0 1 12 12v57a18 18 0 0 0-15-8H24V28Zm80 0H76a12 12 0 0 0-12 12v57a18 18 0 0 1 15-8h25V28Z" />
-                  <path d="M34 43h16M34 54h16M34 65h16M78 43h16M78 54h16M78 65h16" />
-                </svg>
-              )}
-            </div>
-            <div class="hero-subject-caption">
-              <span>Heavy Metal Index</span>
-              <span>{crumb || "Research & reference"}</span>
-            </div>
-          </div>
           <div class="hero-main">
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>

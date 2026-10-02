@@ -7,6 +7,7 @@ import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
+import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -21,6 +22,8 @@ export type ContentDetails = {
   date?: Date
   description?: string
   noindex?: boolean
+  searchStatus?: "standard" | "developing" | "structural"
+  citationPending?: boolean
   // Retired redirect stubs stay published (their URLs are preserved) but are
   // excluded from the interactive Graph so the relationship view is not polluted
   // by pages that only forward to a parent. See Graph.tsx / graph.inline.ts.
@@ -201,6 +204,11 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             date: date,
             description: file.data.description ?? "",
             noindex,
+            searchStatus: frontmatter?.category === "taxonomy-placeholder"
+              ? "structural"
+              : frontmatter?.provisional_scaffold === true || frontmatter?.provisional_scaffold === "true" || frontmatter?.review_state === "draft"
+                ? "developing" : "standard",
+            citationPending: isSourceRecord(frontmatter, slug) && Boolean(citationReviewIssue(frontmatter)),
             retired:
               (file.data.frontmatter as any)?.retired === true ||
               (file.data.frontmatter as any)?.retired === "true",
@@ -229,7 +237,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex)
-          .filter(([_, content]) => !content.noindex)
+          .filter(([_, content]) => !content.noindex && !content.citationPending)
           .map(([slug, content]) => {
             // Keep descriptions and aliases for concise inline suggestions.
             delete content.date
@@ -285,5 +293,6 @@ export function isAskEligible(slug: string, frontmatter: Record<string, unknown>
   return !internal.some((prefix) => slug === prefix || slug.startsWith(`${prefix}/`)) &&
     !isNoindex(frontmatter.noindex) && !isNoindex(frontmatter.draft) &&
     !isNoindex(frontmatter.retired) && frontmatter.status !== "tier1-stub" &&
-    frontmatter.evidence_tier !== "pending"
+    frontmatter.evidence_tier !== "pending" &&
+    !(isSourceRecord(frontmatter, slug) && citationReviewIssue(frontmatter))
 }
