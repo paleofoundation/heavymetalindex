@@ -115,7 +115,7 @@ export const seedPanels: SeedPanel[] = [
   },
   {
     key: "ingredients",
-    label: "Foods",
+    label: "Ingredients",
     panelLabel: "Foods & ingredients",
     slug: "ingredients",
     blurb: "Commodity-level contamination profiles: why an ingredient accumulates, and how much.",

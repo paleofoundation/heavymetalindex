@@ -8,6 +8,7 @@ export interface SearchIndexDocument {
   description?: string;
   noindex?: boolean | string;
   retired?: boolean | string;
+  searchStatus?: "standard" | "developing" | "structural";
 }
 
 export interface SearchResult {
@@ -25,10 +26,11 @@ export interface PreparedSearchEntry {
   prominent: string;
   content: string;
   priority: number;
+  readiness: number;
 }
 
 const categories: Record<string, string> = {
-  ingredients: "Food",
+  ingredients: "Ingredient",
   products: "Product category",
   metals: "Metal",
   regulations: "Regulation",
@@ -106,6 +108,7 @@ export function prepareSearchEntries(
       leaf: normalize(slug.split("/").at(-1) ?? ""),
       prominent: ` ${[normalizedTitle, ...aliases, path, tags].join(" ")} `,
       content: ` ${normalize(`${document.description ?? ""} ${content}`)} `,
+      readiness: document.searchStatus === "structural" ? 0.35 : document.searchStatus === "developing" ? 0.45 : 1,
       // Prefer the compiled topic page over an equally matching primary paper.
       // This is a tie-breaker within each relevance tier, never an exclusion.
       priority:
@@ -173,7 +176,7 @@ export function searchIndex(
       15,
       Math.max(0, entry.title.split(" ").length - 3),
     );
-    matches.push({ entry, score: score + entry.priority - verbosity });
+    matches.push({ entry, score: score * entry.readiness + entry.priority - verbosity });
   }
 
   return matches

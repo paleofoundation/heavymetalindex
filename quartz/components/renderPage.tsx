@@ -315,12 +315,17 @@ export function renderPage(
             {[<div key="proof-container" class="proof-container">
               <div class="proof-layout">
                 <aside class="snav">
-                  {left.map((BodyComponent) => (
-                    <BodyComponent {...componentData} />
-                  ))}
+                  <nav aria-label="On this page">
+                    <button class="snav-toggle" type="button" aria-expanded="false" aria-controls="article-contents" hidden>On this page <span aria-hidden="true">⌄</span></button>
+                    <div class="snav-content" id="article-contents">
+                      {left.map((BodyComponent) => (
+                        <BodyComponent {...componentData} />
+                      ))}
+                    </div>
+                  </nav>
                 </aside>
                 <main class="proof-main" id="main-content" tabindex={-1}>
-                  <div class="page-header popover-hint">
+                  <div class="article-brief popover-hint">
                     {beforeBody.map((BodyComponent) => (
                       <BodyComponent {...componentData} />
                     ))}

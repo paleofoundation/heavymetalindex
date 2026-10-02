@@ -278,36 +278,16 @@ for (const file of fs.readdirSync(productDir).sort()) {
 
 console.log(`Applied stakeholder guides to ${updated} product page(s); skipped ${skipped}.`)
 
-function buildBlock(slug, frontmatter, family) {
-  const family_config = FAMILIES[family]
-  const label = String(frontmatter.label || frontmatter.title || friendly(slug))
+function buildBlock(slug, _frontmatter, _family) {
   const sibling = SIBLINGS.get(slug)
   const siblingNote = sibling
-    ? ` Compare with <a href="/products/${sibling}">${friendly(sibling)}</a> for the within-pair sibling.`
+    ? ` Compare with <a href="/products/${sibling}">${friendly(sibling)}</a> for formulation-specific evidence.`
     : ""
-
   return `${beginMarker}
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>${family_config.legal}${siblingNote} The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=${slug}">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator ${family_config.qa}.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-  </dl>
+  <p>Legal, regulatory and retailer teams can use the measurements, applicable limits and study limitations to assess the evidence for this category.</p>
+  <p>Quality teams can examine product form, measurement basis and sources of variation.${siblingNote} The <a href="/certification/lab-result-comparator?category=${slug}">Lab Result Comparator</a> provides literature context for individual measurements.</p>
+  <p>Journalists and researchers can follow each reference to the reported findings and methods. Source counts describe coverage, not scientific confidence or regulatory compliance.</p>
 </div>
 ${endMarker}`
 }

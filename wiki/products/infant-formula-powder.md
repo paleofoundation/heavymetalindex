@@ -20,7 +20,7 @@ updated: 2026-05-08
 
 ## Overview
 
-This base product node exists for sources that report powdered infant formula without separating non-soy from soy-based formulas. The HMTc Category 1 row pages remain [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]].
+This page brings together evidence on powdered infant formula from sources that do not distinguish non-soy from soy-based products. For formulation-specific findings, see [[products/infant-formula-powder-non-soy|non-soy powdered formula]] and [[products/infant-formula-powder-soy-based|soy-based powdered formula]].
 ## Who this page is for
 
 <!-- BEGIN: hmi-stakeholder-guide -->
@@ -112,7 +112,7 @@ _Generator-managed section: will be populated when structured occurrence rows ar
 
 ## Row Mapping
 
-Use this page when a source supports powdered infant formula generally but does not provide enough information to map cleanly to non-soy or soy-based subrows. Do not compute public high-end distribution values on this base page; move row-fit values to the appropriate HMTc row only when soy status, matrix basis, and statistic type are clear.
+The evidence here applies to powdered formula broadly. It cannot establish a concentration distribution for either non-soy or soy-based formula without confirming the formulation, measurement basis, and statistic reported by each source.
 
 ## Broad Formula Context
 
@@ -131,7 +131,7 @@ These sources can inform retrieval priorities and source-scope context, but they
 
 ## Levers to reduce contamination
 
-Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. Levers are ordered by approximate impact magnitude based on what the cited literature supports.
+Infant formula is a manufactured product whose heavy-metal burden is determined by its ingredient inputs (dairy or soy protein base, vitamin and mineral premix, processing water, and processing equipment contact surfaces) rather than by whole-food agricultural contamination alone. The contamination profile of the finished product reflects the aggregate of all these inputs. The controls below describe potential points of intervention. The available citations do not establish a comparative ranking of their effects.
 
 | # | Category | Specific lever | Magnitude | Source |
 |---|---|---|---|---|

@@ -93,7 +93,10 @@ export function simplifySlug(fp: FullSlug): SimpleSlug {
 }
 
 export function transformInternalLink(link: string): RelativeURL {
-  let [fplike, anchor] = splitAnchor(decodeURI(link))
+  let [fplike, anchor] = splitAnchor(link)
+  const queryAt = fplike.indexOf("?")
+  const query = queryAt < 0 ? "" : fplike.slice(queryAt)
+  fplike = decodeURI(queryAt < 0 ? fplike : fplike.slice(0, queryAt))
 
   const folderPath = isFolderPath(fplike)
   let segments = fplike.split("/").filter((x) => x.length > 0)
@@ -104,7 +107,7 @@ export function transformInternalLink(link: string): RelativeURL {
   const simpleSlug = simplifySlug(slugifyFilePath(fp as FilePath))
   const joined = joinSegments(stripSlashes(prefix), stripSlashes(simpleSlug))
   const trail = folderPath ? "/" : ""
-  const res = (_addRelativeToStart(joined) + trail + anchor) as RelativeURL
+  const res = (_addRelativeToStart(joined) + trail + query + anchor) as RelativeURL
   return res
 }
 
@@ -112,7 +115,7 @@ export function transformInternalLink(link: string): RelativeURL {
 // https://github.com/natemoo-re/micromorph/blob/main/src/utils.ts#L5
 const _rebaseHtmlElement = (el: Element, attr: string, newBase: string | URL) => {
   const rebased = new URL(el.getAttribute(attr)!, newBase)
-  el.setAttribute(attr, rebased.pathname + rebased.hash)
+  el.setAttribute(attr, rebased.pathname + rebased.search + rebased.hash)
 }
 export function normalizeRelativeURLs(el: Element | Document, destination: string | URL) {
   el.querySelectorAll('[href=""], [href^="./"], [href^="../"]').forEach((item) =>
@@ -232,9 +235,13 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
   if (opts.strategy === "relative") {
     return targetSlug as RelativeURL
   } else {
-    const folderTail = isFolderPath(targetSlug) ? "/" : ""
-    const canonicalSlug = stripSlashes(targetSlug.slice(".".length))
-    let [targetCanonical, targetAnchor] = splitAnchor(canonicalSlug)
+    const [targetPath, targetAnchor] = splitAnchor(targetSlug)
+    const queryAt = targetPath.indexOf("?")
+    const query = queryAt < 0 ? "" : targetPath.slice(queryAt)
+    const pathname = queryAt < 0 ? targetPath : targetPath.slice(0, queryAt)
+    const folderTail = isFolderPath(pathname) ? "/" : ""
+    const targetCanonical = stripSlashes(pathname.slice(".".length))
+    const suffix = query + targetAnchor
 
     if (opts.strategy === "shortest") {
       // if the file name is unique, then it's just the filename
@@ -247,12 +254,12 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
       // only match, just use it
       if (matchingFileNames.length === 1) {
         const targetSlug = matchingFileNames[0]
-        return (resolveRelative(src, targetSlug) + targetAnchor) as RelativeURL
+        return (resolveRelative(src, targetSlug) + suffix) as RelativeURL
       }
     }
 
     // if it's not unique, then it's the absolute path from the vault root
-    return (joinSegments(pathToRoot(src), canonicalSlug) + folderTail) as RelativeURL
+    return (joinSegments(pathToRoot(src), targetCanonical) + folderTail + suffix) as RelativeURL
   }
 }
 
