@@ -28,7 +28,7 @@ This mechanism explains why canning, smoking, pickling, and other industrial pro
 
 ## The comparative evidence
 
-[2] (German Federal Institute for Risk Assessment MEAL study) measured tHg and MeHg in pool samples of ready-to-eat fish across 30+ species and preparation forms. The MeHg/tHg ratio across the entire dataset cluster between 76% and 113% (the >100% values reflect measurement uncertainty at LOQ, not real >100% fractions). Comparing across preparation forms for the same species:
+The German Federal Institute for Risk Assessment MEAL study measured tHg and MeHg in pool samples of ready-to-eat fish across 30+ species and preparation forms [2]. The MeHg/tHg ratio across the entire dataset cluster between 76% and 113% (the >100% values reflect measurement uncertainty at LOQ, not real >100% fractions). Comparing across preparation forms for the same species:
 
 - Cod, baked: 0.02 mg/kg tHg, 0.02 mg/kg MeHg (ratio 95-96%)
 - Cod, fish fingers: 0.01 mg/kg tHg, MeHg <LOQ (ratio 76%, below-LOQ noise)
@@ -44,7 +44,7 @@ This mechanism explains why canning, smoking, pickling, and other industrial pro
 
 The pattern is consistent: smoked vs fresh, pickled vs raw, fried vs baked, canned vs fresh — the MeHg content does not measurably shift with preparation. Where small variations appear (smoked halibut tHg slightly higher than fresh; herring-in-sauce slightly lower than fresh), they reflect lot-level sampling variability across different processing batches, not a process-driven reduction in MeHg per se.
 
-[3] documents canned-tuna tHg across 60 samples in three Ecuadorian brands (means 0.14, 0.25, 0.41 mg/kg). The literature range cited by [3] spans 0.005-1.4725 mg/kg across Latin American canned-tuna studies. Per the same source, ~89% of canned-tuna tHg is MeHg (citing Burger and Gochfeld 2004, Médieu et al. 2022). Canning — a rigorous thermal-and-pressure process — does not change this fraction.
+Aguilar-Miranda et al. document canned-tuna tHg across 60 samples in three Ecuadorian brands (means 0.14, 0.25, 0.41 mg/kg) [3]. The literature range cited by [3] spans 0.005-1.4725 mg/kg across Latin American canned-tuna studies. Per the same source, ~89% of canned-tuna tHg is MeHg (citing Burger and Gochfeld 2004, Médieu et al. 2022). Canning — a rigorous thermal-and-pressure process — does not change this fraction.
 
 Across the wiki's broader fish-and-seafood evidence base, the MeHg/tHg ratio in muscle of finfish consistently sits at 80-95% regardless of preparation form. Where preparation does shift the apparent MeHg content (e.g., a sauce that dilutes the per-gram concentration by adding non-MeHg matrix mass), the per-serving MeHg intake is similarly diluted because the consumer is eating a sauce-and-fish mixture, not pure fish.
 

@@ -16,7 +16,7 @@ updated: 2026-05-18
 
 ## Overview
 
-Farmed fish from controlled-feed aquaculture systems (US/EU-farmed salmon, US-farmed catfish, US/EU-farmed tilapia, farmed trout) carry systematically lower methylmercury concentrations than wild-caught counterparts of the same species. The differential is large and consistent: [1] documents freshwater wild fish carrying MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems. The mechanism is straightforward: farmed fish eat formulated feed manufactured to specifications that exclude high-MeHg fish-meal inputs; wild fish accumulate MeHg over their entire lifespan from prey already carrying MeHg through biomagnification.
+Farmed fish from controlled-feed aquaculture systems (US/EU-farmed salmon, US-farmed catfish, US/EU-farmed tilapia, farmed trout) carry systematically lower methylmercury concentrations than wild-caught counterparts of the same species. The differential is large and consistent: Wu et al. document freshwater wild fish carrying MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems [1]. The mechanism is straightforward: farmed fish eat formulated feed manufactured to specifications that exclude high-MeHg fish-meal inputs; wild fish accumulate MeHg over their entire lifespan from prey already carrying MeHg through biomagnification.
 
 Because the differential is driven by feed regime rather than species, distinguishing farmed-with-controlled-feed-documentation from wild-caught of the same species captures a substantial MeHg difference without any change in species mix or processing. "Farmed salmon" and "wild salmon," sold under the same species label, therefore carry materially different MeHg burdens and are not a single contamination population.
 
@@ -24,7 +24,7 @@ The differential applies primarily to MeHg (the metal whose burden depends on cu
 
 ## The MeHg differential evidence
 
-[1] (PNAS) analyzed ~13,000 fish mercury samples across 164 Chinese sampling sites spanning 2005-2020. Across multiple trophic classes:
+Wu et al. (PNAS) analyzed ~13,000 fish mercury samples across 164 Chinese sampling sites spanning 2005-2020 [1]. Across multiple trophic classes:
 
 - Freshwater wild fish (typical adult size, 40 ± 5 cm body length): mean MeHg 30.9 µg/kg wet weight.
 - Freshwater farmed fish (same trophic class): mean MeHg approximately 5-10 µg/kg wet weight (the 2.9-6.2× ratio [1] reports puts farmed at this range).
@@ -32,9 +32,9 @@ The differential applies primarily to MeHg (the metal whose burden depends on cu
 
 The ratio is largest at lower trophic levels and persists across all trophic classes the study sampled. This pattern holds because the feed regime is the dominant determinant of MeHg uptake — when feed is formulated to exclude high-MeHg fish-meal inputs (typical in controlled aquaculture), the lifetime MeHg accumulation is dramatically reduced regardless of trophic position.
 
-[2] (PNAS) models global fisheries to estimate catch-weighted MeHg concentrations for 1,774 marine species and demonstrates that global fishing patterns systematically expose human populations to high-MeHg apex predators because fisheries economics favor large, long-lived species. Aquaculture changes this exposure profile substantially by shifting consumption toward farmed species with controlled-feed MeHg suppression.
+Li et al. (PNAS) model global fisheries to estimate catch-weighted MeHg concentrations for 1,774 marine species and demonstrate that global fishing patterns systematically expose human populations to high-MeHg apex predators because fisheries economics favor large, long-lived species [2]. Aquaculture changes this exposure profile substantially by shifting consumption toward farmed species with controlled-feed MeHg suppression.
 
-[3] Latvian inland-lake survey (n=460, 7 wild freshwater species) shows MeHg as the dominant Hg form with some samples exceeding the EU 0.5 mg/kg cap. The comparison this study does not make — but the [1] framework supports — is that farmed equivalents of the same species fed controlled feed would carry materially lower MeHg.
+Rusko et al.'s Latvian inland-lake survey (n=460, 7 wild freshwater species) shows MeHg as the dominant Hg form with some samples exceeding the EU 0.5 mg/kg cap [3]. The comparison this study does not make — but the [1] framework supports — is that farmed equivalents of the same species fed controlled feed would carry materially lower MeHg.
 
 ## The mechanism
 
@@ -72,7 +72,7 @@ Wild-caught seafood is harder to bound under tighter MeHg expectations for the o
 
 ## What this synthesis does not yet rest on
 
-- **Non-Chinese aquaculture data is thinner.** [1]'s 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions.
+- **Non-Chinese aquaculture data is thinner.** Wu et al.'s 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems [1]. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions.
 - **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). This synthesis is scoped to heavy metals and does not address those other-contaminant differentials, but the corollary matters: a low-MeHg farmed salmon is not automatically lower-contaminant overall.
 - **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The [1] dataset does not separately characterize RAS; this is a research gap.
 - **Organic-certified vs conventional aquaculture.** Some farmed-fish certifications (organic, eco-label) impose additional feed-input restrictions. Whether these translate to measurable MeHg differences between organic-certified and conventional farmed fish is not well-characterized in the wiki's current corpus.

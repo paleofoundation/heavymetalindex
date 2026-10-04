@@ -8,7 +8,10 @@ import { Root, Element, Text, ElementContent } from "hast"
 //
 // An authored review reproduces its own numbered bibliography (References, items
 // 1..N) and cites it in prose with bracketed markers: "…an ecological
-// intervention. [1, 2]". This transformer turns each such marker into a
+// intervention [1, 2].". The marker sits INSIDE the sentence it supports, before
+// the terminal period, and never opens a sentence or list item — that placement
+// rule is build-enforced by tools/audit-citation-sentence-start.mjs. This
+// transformer turns each such marker into a
 // superscript link to the matching References entry, and stamps `id="ref-<n>"`
 // on each bibliography item so the link resolves. It reuses the existing
 // `sup.cite` CSS (proof-design.scss), which renders `<sup class="cite"><a>` as a
