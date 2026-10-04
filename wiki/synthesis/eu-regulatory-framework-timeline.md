@@ -52,17 +52,7 @@ The numerical limit cited may be identical across multiple framework versions (P
 
 The current operative EU framework is EU 2023/915 (with EU 2022/617 governing mercury in fishery products specifically). When a downstream synthesis compares a measured concentration against the current binding EU maximum level, the relevant value is the one in the current operative framework, regardless of when the contributing measurement was published. A pre-2023 source's reported value remains valid as evidence; the regulatory cap that source compared against is historical context, not the current binding limit.
 
-The historical EU caps from pre-recast frameworks (EC 1881/2006, EC 466/2001) are superseded. They are accurate as the regulatory context the source authors compared against at the time of publication, but they are not the current operative maximum levels. When synthesis work needs the current binding EU cap for a given matrix and analyte, it cites the current-framework regulation page ([[regulations/eu2023-contaminants-maximum-levels]], or [[regulations/eu-reg-2022-617-mercury-fishery]] for fish Hg); when it needs the value a particular pre-recast source compared against, it cites the historical regulation page active at that source's publication date.
-
-## What this synthesis does not yet rest on
-
-This synthesis page is structural (the timeline of regulatory instruments) rather than empirical (what the limits actually were at each point). The numerical limits for each instrument are documented on the individual regulation pages linked above; this synthesis page should NOT enumerate them (avoiding stale-data drift if the regulation pages get updated). When a wiki claim needs a specific EU cap value, cite the regulation page, not this synthesis.
-
-Future expansion candidates:
-
-- **Member-state-level enforcement variation under each framework.** EU regulations set maximum levels; member-state competent authorities enforce them, and enforcement intensity varies. RASFF (Rapid Alert System for Food and Feed) notifications give a window into where exceedances appear, but this is not currently integrated into the wiki.
-- **Comparison with US (FDA action levels) and Codex (CODEX STAN 193-1995) frameworks.** The EU framework is one of three major heavy-metal regulatory systems globally; cross-framework comparison synthesis would clarify how the same matrix and analyte are regulated across multi-jurisdictional markets but is out of scope for this single-EU-focused page.
-- **Pre-2001 member-state-specific frameworks** (German contaminant levels, French AFSSA limits, UK FSA guidance) that EC 466/2001 harmonized. Only relevant for very old sources (1990s and earlier).
+The historical EU caps from pre-recast frameworks (EC 1881/2006, EC 466/2001) are superseded. They are accurate as the regulatory context the source authors compared against at the time of publication, but they are not the current operative maximum levels. When synthesis work needs the current binding EU cap for a given matrix and analyte, it cites the current-framework regulation page (EU Regulation 2023/915, or EU Regulation 2022/617 for fish Hg); when it needs the value a particular pre-recast source compared against, it cites the historical regulation page active at that source's publication date.
 
 ## Related pages
 
