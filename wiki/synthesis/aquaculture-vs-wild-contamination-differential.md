@@ -16,7 +16,7 @@ updated: 2026-05-18
 
 ## Overview
 
-Farmed fish from controlled-feed aquaculture systems (US/EU-farmed salmon, US-farmed catfish, US/EU-farmed tilapia, farmed trout) carry systematically lower methylmercury concentrations than wild-caught counterparts of the same species. The differential is large and consistent: [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] documents freshwater wild fish carrying MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems. The mechanism is straightforward: farmed fish eat formulated feed manufactured to specifications that exclude high-MeHg fish-meal inputs; wild fish accumulate MeHg over their entire lifespan from prey already carrying MeHg through biomagnification.
+Farmed fish from controlled-feed aquaculture systems (US/EU-farmed salmon, US-farmed catfish, US/EU-farmed tilapia, farmed trout) carry systematically lower methylmercury concentrations than wild-caught counterparts of the same species. The differential is large and consistent: [1] documents freshwater wild fish carrying MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across multiple trophic classes in Chinese systems. The mechanism is straightforward: farmed fish eat formulated feed manufactured to specifications that exclude high-MeHg fish-meal inputs; wild fish accumulate MeHg over their entire lifespan from prey already carrying MeHg through biomagnification.
 
 Because the differential is driven by feed regime rather than species, distinguishing farmed-with-controlled-feed-documentation from wild-caught of the same species captures a substantial MeHg difference without any change in species mix or processing. "Farmed salmon" and "wild salmon," sold under the same species label, therefore carry materially different MeHg burdens and are not a single contamination population.
 
@@ -24,17 +24,17 @@ The differential applies primarily to MeHg (the metal whose burden depends on cu
 
 ## The MeHg differential evidence
 
-[[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS) analyzed ~13,000 fish mercury samples across 164 Chinese sampling sites spanning 2005-2020. Across multiple trophic classes:
+[1] (PNAS) analyzed ~13,000 fish mercury samples across 164 Chinese sampling sites spanning 2005-2020. Across multiple trophic classes:
 
 - Freshwater wild fish (typical adult size, 40 ± 5 cm body length): mean MeHg 30.9 µg/kg wet weight.
-- Freshwater farmed fish (same trophic class): mean MeHg approximately 5-10 µg/kg wet weight (the 2.9-6.2× ratio Wu reports puts farmed at this range).
-- Marine wild fish: roughly 18 µg/kg in same trophic class (1.7× lower than freshwater wild per the Wu dataset).
+- Freshwater farmed fish (same trophic class): mean MeHg approximately 5-10 µg/kg wet weight (the 2.9-6.2× ratio [1] reports puts farmed at this range).
+- Marine wild fish: roughly 18 µg/kg in same trophic class (1.7× lower than freshwater wild per the [1] dataset).
 
 The ratio is largest at lower trophic levels and persists across all trophic classes the study sampled. This pattern holds because the feed regime is the dominant determinant of MeHg uptake — when feed is formulated to exclude high-MeHg fish-meal inputs (typical in controlled aquaculture), the lifetime MeHg accumulation is dramatically reduced regardless of trophic position.
 
-[[sources/li2024-global-fisheries-mehg|Li et al. 2024]] (PNAS) models global fisheries to estimate catch-weighted MeHg concentrations for 1,774 marine species and demonstrates that global fishing patterns systematically expose human populations to high-MeHg apex predators because fisheries economics favor large, long-lived species. Aquaculture changes this exposure profile substantially by shifting consumption toward farmed species with controlled-feed MeHg suppression.
+[2] (PNAS) models global fisheries to estimate catch-weighted MeHg concentrations for 1,774 marine species and demonstrates that global fishing patterns systematically expose human populations to high-MeHg apex predators because fisheries economics favor large, long-lived species. Aquaculture changes this exposure profile substantially by shifting consumption toward farmed species with controlled-feed MeHg suppression.
 
-[[sources/rusko2026-mercury-fish-latvia-risk-benefit|Rusko 2026]] Latvian inland-lake survey (n=460, 7 wild freshwater species) shows MeHg as the dominant Hg form with some samples exceeding the EU 0.5 mg/kg cap. The comparison this study does not make — but the Wu 2025 framework supports — is that farmed equivalents of the same species fed controlled feed would carry materially lower MeHg.
+[3] Latvian inland-lake survey (n=460, 7 wild freshwater species) shows MeHg as the dominant Hg form with some samples exceeding the EU 0.5 mg/kg cap. The comparison this study does not make — but the [1] framework supports — is that farmed equivalents of the same species fed controlled feed would carry materially lower MeHg.
 
 ## The mechanism
 
@@ -72,9 +72,9 @@ Wild-caught seafood is harder to bound under tighter MeHg expectations for the o
 
 ## What this synthesis does not yet rest on
 
-- **Non-Chinese aquaculture data is thinner.** Wu 2025's 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions; verification with non-Chinese aquaculture datasets would strengthen the synthesis substantially.
+- **Non-Chinese aquaculture data is thinner.** [1]'s 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions.
 - **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). This synthesis is scoped to heavy metals and does not address those other-contaminant differentials, but the corollary matters: a low-MeHg farmed salmon is not automatically lower-contaminant overall.
-- **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The Wu 2025 dataset does not separately characterize RAS; this is a research gap.
+- **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The [1] dataset does not separately characterize RAS; this is a research gap.
 - **Organic-certified vs conventional aquaculture.** Some farmed-fish certifications (organic, eco-label) impose additional feed-input restrictions. Whether these translate to measurable MeHg differences between organic-certified and conventional farmed fish is not well-characterized in the wiki's current corpus.
 
 ## Two distinct MeHg populations within the seafood category
@@ -110,7 +110,6 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
-<!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
@@ -118,7 +117,6 @@ Works cited in this page's text, in first-appearance order. This is not the full
 1. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2421921122](https://doi.org/10.1073/pnas.2421921122)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes]]<span class="hmi-ref-meta">Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M · Foods · 2026 · [doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

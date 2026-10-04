@@ -18,13 +18,13 @@ updated: 2026-05-18
 
 A live methodological debate in seafood toxicology asks whether the selenium-to-mercury molar ratio (Se:Hg) in consumed fish should modulate the regulatory ceiling on methylmercury. The argument: Se and Hg share an extraordinarily high binding affinity (Hg-Se bond ~70 kcal/mol, among the strongest in biochemistry); when molar Se in the consumed fish exceeds molar Hg, the Hg is sequestered as inert HgSe particles in vivo, and net Se remains bioavailable to support selenoprotein synthesis. The toxicological cascade that drives MeHg neurotoxicity (oxidative stress from Se-depleted antioxidant defenses, thyroid disruption from disabled iodothyronine deiodinases) is therefore proposed to depend on Se:Hg balance, not absolute MeHg concentration alone.
 
-If accepted, this framework would justify relaxing the regulatory MeHg ceiling on Se-rich fish species — notably bluefin tuna, where per [[sources/chamorro2024-bluefin-tuna-mercury-review|Chamorro et al. 2024]] Se:Hg is typically >1 despite high absolute Hg. If rejected, the framework is theoretically supported but not yet quantitatively validated, and the absolute MeHg ceiling remains the binding constraint.
+If accepted, this framework would justify relaxing the regulatory MeHg ceiling on Se-rich fish species — notably bluefin tuna, where per [1] Se:Hg is typically >1 despite high absolute Hg. If rejected, the framework is theoretically supported but not yet quantitatively validated, and the absolute MeHg ceiling remains the binding constraint.
 
 This synthesis page lays out the evidence on both sides. The wiki does not take a position; it presents the case for and against. The page exists to provide a citable consolidation of the Se:Hg literature, including the question of whether the evidence currently supports modulating an absolute MeHg ceiling on a selenium basis.
 
 ## The mechanistic case FOR Se:Hg as a relaxation criterion
 
-[[sources/ralston2014-selenium-hbv-methylmercury-seafood|Ralston and Raymond 2014]] formalized the Selenium Health Benefit Value (HBV) framework. The reasoning:
+[2] formalized the Selenium Health Benefit Value (HBV) framework. The reasoning:
 
 1. Selenium is required for selenoprotein synthesis (glutathione peroxidase, thioredoxin reductase, iodothyronine deiodinases). Selenoproteins are core antioxidant and thyroid-hormone-metabolism enzymes.
 2. Hg-Se binding is extraordinarily strong; when Hg is present in molar excess of Se, dietary Se is sequestered as inert HgSe particles that do not enter the selenoprotein synthesis pool.
@@ -33,27 +33,27 @@ This synthesis page lays out the evidence on both sides. The wiki does not take 
 
 If this framework is correct, a fish with high MeHg AND high Se (Se:Hg >1) would deliver less neurotoxic risk than a fish with moderate MeHg AND low Se (Se:Hg <1). The Faroe Islands cohort (high MeHg from pilot whale, comparatively low Se from whale matrix) had clear developmental neurotoxicity at maternal-hair Hg ~10 µg/g; the Seychelles cohort (high MeHg from ocean fish, comparatively higher Se from ocean-fish matrix) did not, at similar exposure levels. The Ralston framework offers a mechanistic explanation for this otherwise-puzzling cohort divergence.
 
-Most commercially consumed fish have Se:Hg molar ratios above 1, including bluefin tuna per Chamorro 2024. The notable exceptions where Hg can exceed Se molar are pilot whale, large mako shark, and certain very-large old swordfish individuals. Under the Ralston framework, these are the species where the absolute MeHg ceiling is genuinely binding; for the rest, the Se:Hg ratio modulates risk and a single MeHg-only ceiling under-counts the protective Se co-presence.
+Most commercially consumed fish have Se:Hg molar ratios above 1, including bluefin tuna per [1]. The notable exceptions where Hg can exceed Se molar are pilot whale, large mako shark, and certain very-large old swordfish individuals. Under the Ralston framework, these are the species where the absolute MeHg ceiling is genuinely binding; for the rest, the Se:Hg ratio modulates risk and a single MeHg-only ceiling under-counts the protective Se co-presence.
 
 ## The case AGAINST relaxing MeHg ceilings on Se:Hg basis
 
 Three concerns counterweight applying the Ralston framework to threshold-setting:
 
 1. **The quantitative dose-response is not established.** The Ralston framework proposes that Se:Hg modulates MeHg neurotoxicity, but does not yet quantitatively specify HOW MUCH protection a given Se:Hg ratio confers. Without a dose-response curve calibrated against developmental neurotoxicity endpoints, there is no validated basis for translating Se:Hg into a concrete MeHg-ceiling adjustment. EFSA, EPA, JECFA, and FDA all continue to set MeHg PTWIs and RfDs in absolute concentration terms; none has incorporated Se:Hg modulation into the regulatory threshold. Until a regulatory body validates a quantitative Se:Hg-MeHg model, any threshold that relaxed an absolute MeHg ceiling on a selenium basis would be ahead of the regulatory consensus.
-2. **The Faroe-vs-Seychelles divergence has alternative explanations.** The Ralston framework is one possible explanation for the divergent neurotoxicity findings in the two cohorts; competing explanations include long-chain polyunsaturated fatty acid (PUFA) co-exposure differences (whale low in EPA/DHA, ocean fish high), genetic-population differences in MeHg metabolism, and exposure-window timing differences. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]] reviews the mechanistic neurotoxicity literature; the Se-Hg interaction is one of several mechanistic factors, not necessarily the dominant one. Picking Se:Hg as the modulator without ruling out the alternatives risks a confounded basis.
+2. **The Faroe-vs-Seychelles divergence has alternative explanations.** The Ralston framework is one possible explanation for the divergent neurotoxicity findings in the two cohorts; competing explanations include long-chain polyunsaturated fatty acid (PUFA) co-exposure differences (whale low in EPA/DHA, ocean fish high), genetic-population differences in MeHg metabolism, and exposure-window timing differences. [3] reviews the mechanistic neurotoxicity literature; the Se-Hg interaction is one of several mechanistic factors, not necessarily the dominant one. Picking Se:Hg as the modulator without ruling out the alternatives risks a confounded basis.
 3. **Operational complexity at scale.** Even if Se:Hg modulation is quantitatively correct, requiring per-lot Se AND Hg measurement roughly doubles analytical cost versus Hg-only testing. Any program that adopted Se:Hg modulation would have to weigh the additional analytical burden against the protection-margin gain.
 
 ## Where the evidence is strongest
 
 The Ralston framework is on firmest ground for the population-level observational explanation (why some high-Hg-fish populations show less neurotoxicity than others) and weakest for translating Se:Hg into a quantitative MeHg-ceiling adjustment. The evidence supports three distinct uses to differing degrees:
 
-- **As an explanatory factor for cohort divergence**, the framework is well-supported by Ralston 2014 plus mechanistic plausibility, and is on solid ground for explaining MeHg risk variation across populations.
+- **As an explanatory factor for cohort divergence**, the framework is well-supported by [2] plus mechanistic plausibility, and is on solid ground for explaining MeHg risk variation across populations.
 - **As a quantitative cap-adjustment factor**, the framework is not yet supported, because no validated dose-response translates Se:Hg into a defined MeHg-ceiling change.
 - **As a sub-categorization criterion that identifies low-Se species**, the framework is well-supported: it cleanly flags the species where the absolute MeHg ceiling genuinely binds (pilot whale, large mako shark, very-large swordfish) without requiring per-lot Se testing on every product.
 
 ## The mercury isotope tracer angle
 
-A separate line of evidence using stable Hg isotope fractionation ([[sources/dietz2025-arctic-mercury-isotopes-greenland|Dietz et al. 2025]], [[sources/li2022-mercury-isotope-biota-review|Li et al. 2022]], [[sources/motta2022-marine-hg-isotopes|Motta et al. 2022]]) can distinguish MeHg from different source pools (atmospheric vs riverine vs marine, photochemical vs microbial methylation). Isotope-based Hg source attribution is a separate technical capability from Se:Hg modulation but bears on the same question: is all "MeHg" the same toxicologically? Different source pools may have different bioavailability and may be associated with different co-nutrient profiles. This is an active research frontier.
+A separate line of evidence using stable Hg isotope fractionation [4], [5], [6] can distinguish MeHg from different source pools (atmospheric vs riverine vs marine, photochemical vs microbial methylation). Isotope-based Hg source attribution is a separate technical capability from Se:Hg modulation but bears on the same question: is all "MeHg" the same toxicologically? Different source pools may have different bioavailability and may be associated with different co-nutrient profiles. This is an active research frontier.
 
 Isotope-based source attribution is not yet a routine analytical methodology for routine compliance testing. It remains foundational research that may eventually inform sub-category-level distinctions but is not operational today.
 
@@ -75,15 +75,15 @@ Taken together, the available primary-literature evidence and the regulatory con
 
 ## Related pages
 
-These findings are also recorded on [[metals/mercury-methyl]], [[products/seafood]], [[products/canned-fish]], [[ingredients/canned-tuna]], and [[ingredients/shark]].
+These findings are also recorded on methylmercury, [[products/seafood]], [[products/canned-fish]], [[ingredients/canned-tuna]], and [[ingredients/shark]].
 
 
 ## Anchor sources
 
-- [[sources/ralston2014-selenium-hbv-methylmercury-seafood]] — Foundational Selenium Health Benefit Value framework.
-- [[sources/chamorro2024-bluefin-tuna-mercury-review]] — Bluefin tuna Se:Hg evidence supporting the relaxation argument for tuna specifically.
-- [[sources/farina-rocha-aschner-2011-mehg-mechanism]] — Mechanistic neurotoxicity review providing the alternative-explanations context.
-- [[sources/dietz2025-arctic-mercury-isotopes-greenland]], [[sources/li2022-mercury-isotope-biota-review]], [[sources/motta2022-marine-hg-isotopes]] — Mercury isotope tracer evidence relevant to the source-attribution sub-question.
+- [2] — Foundational Selenium Health Benefit Value framework.
+- [1] — Bluefin tuna Se:Hg evidence supporting the relaxation argument for tuna specifically.
+- [3] — Mechanistic neurotoxicity review providing the alternative-explanations context.
+- [4], [5], [6] — Mercury isotope tracer evidence relevant to the source-attribution sub-question.
 
 This page sets out the evidence for and against the selenium-to-mercury molar-ratio framework and does not choose between the two positions.
 
@@ -100,7 +100,6 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
-<!-- BEGIN: hmi-page-references -->
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
@@ -111,7 +110,6 @@ Works cited in this page's text, in first-appearance order. This is not the full
 4. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs]]<span class="hmi-ref-meta">Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60356-6](https://doi.org/10.1038/s41467-025-60356-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/li2022-mercury-isotope-biota-review|Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes]]<span class="hmi-ref-meta">Li M, Huang T, Cheng H, Obrist D, and Yu B · Environmental Science & Technology · 2022 · [doi.org/10.1021/acs.est.1c08631](https://doi.org/10.1021/acs.est.1c08631)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/motta2022-marine-hg-isotopes|Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms]]<span class="hmi-ref-meta">Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. · Proceedings of the National Academy of Sciences · 2022 · [doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
