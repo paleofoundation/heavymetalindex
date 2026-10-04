@@ -71,8 +71,8 @@ Within-brand standard deviations (3-5 replicate sub-samples per brand) ranged fr
 - The Pb concentration range was driven by a single exceptionally high powdered-detergent brand (47.0 µg g⁻¹). On average, the Pb level in detergents was reported as surpassing that in the other product categories.
 - Cr was detected in 11 of the 27 brands and below the LOD in the remaining 16. Where detected, the highest Cr was in a bar soap (43.7 µg g⁻¹), with three powdered detergents in the 31-32 µg g⁻¹ range.
 - Cu, Co and Ni were detected in most brands; the authors note that the levels of Cr in five brands, Co in fifteen brands and Ni in twenty-two brands of the twenty-seven examined surpassed the 5 µg g⁻¹ Basketter-et-al.-derived sensitization-safety threshold cited for pre-sensitized subjects.
-- The Pb levels in eight brands surpassed the Health Canada 10.0 µg g⁻¹ cosmetics limit (cited from ref. [13]).
-- The Pb levels in two brands of detergents exceeded the US FDA 20.0 µg g⁻¹ limit for Pb as an impurity in colour additives in cosmetics (cited from ref. [21]).
+- The Pb levels in eight brands surpassed the Health Canada 10.0 µg g⁻¹ cosmetics limit (cited from reference [13]).
+- The Pb levels in two brands of detergents exceeded the US FDA 20.0 µg g⁻¹ limit for Pb as an impurity in colour additives in cosmetics (cited from reference [21]).
 - Zn in a single bar soap was reported as 675 µg g⁻¹, the highest single-brand value across all metals and product categories.
 - Fe was the most prominent element overall, with the detergents and bar soaps containing higher Fe than the liquid soaps; the highest Fe value (434 µg g⁻¹) was in a bar soap.
 
