@@ -24,7 +24,7 @@ This synthesis page lays out the evidence on both sides. The wiki does not take 
 
 ## The mechanistic case FOR Se:Hg as a relaxation criterion
 
-[2] formalized the Selenium Health Benefit Value (HBV) framework. The reasoning:
+Ralston and Raymond formalized the Selenium Health Benefit Value (HBV) framework [2]. The reasoning:
 
 1. Selenium is required for selenoprotein synthesis (glutathione peroxidase, thioredoxin reductase, iodothyronine deiodinases). Selenoproteins are core antioxidant and thyroid-hormone-metabolism enzymes.
 2. Hg-Se binding is extraordinarily strong; when Hg is present in molar excess of Se, dietary Se is sequestered as inert HgSe particles that do not enter the selenoprotein synthesis pool.
@@ -40,7 +40,7 @@ Most commercially consumed fish have Se:Hg molar ratios above 1, including bluef
 Three concerns counterweight applying the Ralston framework to threshold-setting:
 
 1. **The quantitative dose-response is not established.** The Ralston framework proposes that Se:Hg modulates MeHg neurotoxicity, but does not yet quantitatively specify HOW MUCH protection a given Se:Hg ratio confers. Without a dose-response curve calibrated against developmental neurotoxicity endpoints, there is no validated basis for translating Se:Hg into a concrete MeHg-ceiling adjustment. EFSA, EPA, JECFA, and FDA all continue to set MeHg PTWIs and RfDs in absolute concentration terms; none has incorporated Se:Hg modulation into the regulatory threshold. Until a regulatory body validates a quantitative Se:Hg-MeHg model, any threshold that relaxed an absolute MeHg ceiling on a selenium basis would be ahead of the regulatory consensus.
-2. **The Faroe-vs-Seychelles divergence has alternative explanations.** The Ralston framework is one possible explanation for the divergent neurotoxicity findings in the two cohorts; competing explanations include long-chain polyunsaturated fatty acid (PUFA) co-exposure differences (whale low in EPA/DHA, ocean fish high), genetic-population differences in MeHg metabolism, and exposure-window timing differences. [3] reviews the mechanistic neurotoxicity literature; the Se-Hg interaction is one of several mechanistic factors, not necessarily the dominant one. Picking Se:Hg as the modulator without ruling out the alternatives risks a confounded basis.
+2. **The Faroe-vs-Seychelles divergence has alternative explanations.** The Ralston framework is one possible explanation for the divergent neurotoxicity findings in the two cohorts; competing explanations include long-chain polyunsaturated fatty acid (PUFA) co-exposure differences (whale low in EPA/DHA, ocean fish high), genetic-population differences in MeHg metabolism, and exposure-window timing differences. Farina et al. review the mechanistic neurotoxicity literature; the Se-Hg interaction is one of several mechanistic factors, not necessarily the dominant one [3]. Picking Se:Hg as the modulator without ruling out the alternatives risks a confounded basis.
 3. **Operational complexity at scale.** Even if Se:Hg modulation is quantitatively correct, requiring per-lot Se AND Hg measurement roughly doubles analytical cost versus Hg-only testing. Any program that adopted Se:Hg modulation would have to weigh the additional analytical burden against the protection-margin gain.
 
 ## Where the evidence is strongest
@@ -80,10 +80,10 @@ These findings are also recorded on methylmercury, [[products/seafood]], [[produ
 
 ## Anchor sources
 
-- [2] — Foundational Selenium Health Benefit Value framework.
-- [1] — Bluefin tuna Se:Hg evidence supporting the relaxation argument for tuna specifically.
-- [3] — Mechanistic neurotoxicity review providing the alternative-explanations context.
-- [4], [5], [6] — Mercury isotope tracer evidence relevant to the source-attribution sub-question.
+- Ralston and Raymond — Foundational Selenium Health Benefit Value framework [2].
+- Chamorro et al. — Bluefin tuna Se:Hg evidence supporting the relaxation argument for tuna specifically [1].
+- Farina et al. — Mechanistic neurotoxicity review providing the alternative-explanations context [3].
+- Dietz et al., Li et al., and Motta et al. — Mercury isotope tracer evidence relevant to the source-attribution sub-question [4], [5], [6].
 
 This page sets out the evidence for and against the selenium-to-mercury molar-ratio framework and does not choose between the two positions.
 

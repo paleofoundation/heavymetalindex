@@ -48,11 +48,11 @@ All values are reported by the authors from their own laboratory measurements. N
 | AC3 | Neem husks, 6 h conventional | 1117.6 | 7309.33 | 69.87 |
 | AC4 | Neem husks, 30 min microwave | 914.40 | 1232.92 | 50.83 |
 
-Authors report specific surface areas derived from the iodine index of 843.32, 1002.92, 1481.72, and 1162.52 m²/g for AC1-AC4 respectively (Section 3.1.2, p. 4). Per the Lua-Gu (cited as Ref. [25]) classification used by the authors, an AC is microporous when burn-off is below 50 % and macroporous when above 75 %; AC1-AC4 fall in the mixed-pore 50-75 % band (AC4 marginally below at 50.83 %).
+Authors report specific surface areas derived from the iodine index of 843.32, 1002.92, 1481.72, and 1162.52 m²/g for AC1-AC4 respectively (Section 3.1.2, p. 4). Per the Lua-Gu (cited as reference [25]) classification used by the authors, an AC is microporous when burn-off is below 50 % and macroporous when above 75 %; AC1-AC4 fall in the mixed-pore 50-75 % band (AC4 marginally below at 50.83 %).
 
 ### Table 2 — Surface functional groups of the four activated carbons (p. 5)
 
-Values are reported with the column headers "Carboxylic", "Lactone", "Phenolic", "Acid", and "Basic" without explicit units in the table; the cited prior method (Ref. [24], Chetima et al. 2018) reports these as mmol/g.
+Values are reported with the column headers "Carboxylic", "Lactone", "Phenolic", "Acid", and "Basic" without explicit units in the table; the cited prior method (reference [24], Chetima et al. 2018) reports these as mmol/g.
 
 | AC | Carboxylic | Lactone | Phenolic | Acid | Basic |
 | --- | --- | --- | --- | --- | --- |
@@ -99,7 +99,7 @@ The R² values for both isotherm models exceed 0.91 across the three temperature
 
 ## Evidence Fitness
 
-This is a primary laboratory adsorption study about decolorization performance, not a heavy-metal occurrence study. The paper measures pigment adsorption (UV-visible absorbance at 664 nm) and adsorbent physical-chemical properties (burn-off, iodine index, methylene blue index, surface functional groups by Boehm titration as cited from Ref. [24]). It does not measure any HMI analyte in any food matrix.
+This is a primary laboratory adsorption study about decolorization performance, not a heavy-metal occurrence study. The paper measures pigment adsorption (UV-visible absorbance at 664 nm) and adsorbent physical-chemical properties (burn-off, iodine index, methylene blue index, surface functional groups by Boehm titration as cited from reference [24]). It does not measure any HMI analyte in any food matrix.
 
 Public evidence label "Context only" is appropriate. The source contributes one corpus-level claim: activated carbons from neem and cotton husks are a viable alternative to bleaching earth for cottonseed-oil decolorization, achieving 30-80 % higher pigment uptake than bleaching earth under the reported conditions. This is heavy-metal-relevant only by adjacency: bleaching earth is the conventional vegetable-oil bleaching agent and is documented elsewhere in the corpus (see [[sources/sigauke2024-spent-bleaching-earth-review]], [[sources/abedi2025-edible-oils-bleaching-review]]) as a trace-metal vector through the refining unit operation. The Chetima et al. study does not quantify whether the husk-derived ACs themselves transfer or remove any heavy-metal load, and that question would need to be tested in a follow-on study with ICP or similar elemental analysis before any HMTc or threshold inference could be drawn.
 
@@ -109,13 +109,13 @@ The source does not support occurrence claims for Pb, Cd, As, Hg, Ni, Al, Cr, Sn
 
 Activated-carbon preparation. Neem husks (Mora locality, Cameroon) and cotton husks (SODECOTON, Maroua, Cameroon) were washed, dried, crushed, and sieved to particle size below 50 µm. Charring was performed in a Nabertherm GmbH (USA) muffle furnace at 600 °C for 3 h on 50 g batches. Charred samples were then treated with 14 N and 15 N phosphoric acid for 2, 6, 12, or 24 h at room temperature (conventional activation) or for 15, 30, 45, 60, 90, or 120 min in a microwave (microwave activation); the source does not state explicitly which acid normality was used with which feedstock. After activation, ACs were washed with distilled water and dried at 105 °C for 24 h. Preliminary bleaching screening at 80 °C for 20 min selected the four ACs reported (AC1-AC4) for the full kinetic and isotherm experiments.
 
-AC characterization. Burn-off, methylene blue index, iodine index, specific surface area, and surface-group concentrations were measured following the protocol described in the authors' prior publication (Ref. [24], Chetima et al. 2018, *Processes* 6(3), doi: 10.3390/pr6030022); the present paper does not re-state instrumental detail. Surface functional groups are reported under headings "Carboxylic", "Lactone", "Phenolic", "Acid", and "Basic", consistent with Boehm titration as described in the cited 2018 paper.
+AC characterization. Burn-off, methylene blue index, iodine index, specific surface area, and surface-group concentrations were measured following the protocol described in the authors' prior publication (reference [24], Chetima et al. 2018, *Processes* 6(3), doi: 10.3390/pr6030022); the present paper does not re-state instrumental detail. Surface functional groups are reported under headings "Carboxylic", "Lactone", "Phenolic", "Acid", and "Basic", consistent with Boehm titration as described in the cited 2018 paper.
 
 Decolorization experiments. Neutral cottonseed oil (27 mL, 15 mg AC mass interpretation per Section 2.4.1 phrasing — see Verification notes) was bleached at 70, 80, or 90 °C with continuous stirring for contact times of 5-40 min. Adsorbent-to-oil mass ratios of 1, 2, and 3 % were screened. After each run the oil was filtered through Whatman N°1 filter paper and absorbance measured at 664 nm with a UV-visible spectrophotometer. Decolorization efficiency E was computed as E = (A₀ − A)/A₀ × 100 (Eq. 1, p. 3). Replicate handling and replicate count are not stated in the paper.
 
 Kinetic and isotherm modelling. Intraparticle-diffusion (Eq. 4) and pseudo-second-order (Eq. 5) kinetic models, and Langmuir (Eq. 6) and Freundlich (Eq. 7) isotherm models were fit to the time- and concentration-resolved decolorization data. Statistical software, replicate counts, and error-propagation methods are not stated.
 
-Heavy-metal analysis. None. No elemental analysis (ICP-MS, ICP-OES, AAS, XRF) of oil, adsorbent, or residue is performed or referenced for this study; the only mention of heavy metals in the entire paper appears in the title of Ref. [4] (Hoang et al., *Chemosphere*) cited in the introduction's general statement that activated carbons are used for remediation of heavy-metal-polluted waters.
+Heavy-metal analysis. None. No elemental analysis (ICP-MS, ICP-OES, AAS, XRF) of oil, adsorbent, or residue is performed or referenced for this study; the only mention of heavy metals in the entire paper appears in the title of reference [4] (Hoang et al., *Chemosphere*) cited in the introduction's general statement that activated carbons are used for remediation of heavy-metal-polluted waters.
 
 ## Implications
 

@@ -94,7 +94,7 @@ The exposure model used a 70 kg adult, daily fish consumption of 32.14 g, exposu
 
 ### EU regulatory comparison
 
-EU Commission Regulation 1881/2006 (cited as ref. [22] in the paper) and successor Regulation 2023/915 set a maximum Hg of 1.0 mg/kg wet weight for the listed predatory species (including tuna) and 0.5 mg/kg for most other fishery products. The single highest individual sample in this study (827 µg/kg, a bluefin tuna) sits at roughly 83% of the 1.0 mg/kg predatory ceiling. None of the per-sample values exceeded the applicable ceiling.
+EU Commission Regulation 1881/2006 (cited as reference [22] in the paper) and successor Regulation 2023/915 set a maximum Hg of 1.0 mg/kg wet weight for the listed predatory species (including tuna) and 0.5 mg/kg for most other fishery products. The single highest individual sample in this study (827 µg/kg, a bluefin tuna) sits at roughly 83% of the 1.0 mg/kg predatory ceiling. None of the per-sample values exceeded the applicable ceiling.
 
 ## Methods (brief)
 
