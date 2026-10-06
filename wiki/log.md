@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-06] lint | HMI-META-RAJKOWSKA-1 — Rajkowska-Myśliwiec 2024 rice arsenic
+
+Pages touched: [[sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland]], [[metals/arsenic-total]], [[metals/arsenic-inorganic]], [[metals/cadmium]], [[metals/chromium]], [[metals/mercury-methyl]], [[metals/mercury-total]], [[products/rice-bulk-grain]], [[products/rice-snacks-crackers]], [[products/rice-noodles]], [[products/fish-marine-non-predatory]], [[ingredients/rice]]
+Notes: DOI 10.3390/foods13193153 is Rajkowska-Myśliwiec M, Ciemniak A, and Karp G, Foods 2024, 13(19):3153. The canonical key is rajkowska-mysliwiec2024-arsenic-rice-products-poland. The two placeholder keys redirect to it. The paper measured total arsenic only, by hydride generation ICP, in 120 rice products bought in Szczecin in 2023. Calculated inorganic arsenic shares are not measured inorganic arsenic. Methylmercury, total mercury, cadmium, chromium, baby cereal, fish, and the United States tag are removed. Direction: toward the literature.
+
 ## [2026-10-06] lint | library-key-fix-1 — sunflower cite keys and salt lead list
 
 Pages touched: [[sources/gul2021-sunflower-seeds-metals]], [[sources/shar2026-sunflower-seeds-heavy-metals]], [[products/sunflower-seeds]], [[ingredients/sunflower-seeds]], [[products/salt]]

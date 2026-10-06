@@ -6258,16 +6258,6 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with.md",
-      "cite_key": "authors2024-arsenic-in-rice-and-rice-based-products-with",
-      "metadata_complete": false,
-      "ingest_complete": false,
-      "gaps": [
-        "evidence_fitness"
-      ],
-      "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-    },
-    {
       "page": "wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury.md",
       "cite_key": "authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
       "metadata_complete": false,

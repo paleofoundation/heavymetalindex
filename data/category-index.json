@@ -761,7 +761,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1344,
+      "count": 1343,
       "samples": [
         "United States",
         "Canada",
@@ -783,7 +783,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 600,
+      "count": 601,
       "samples": [
         "European Union",
         "Poland",

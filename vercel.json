@@ -8,6 +8,18 @@
     "deploymentEnabled": false
   },
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
+      "destination": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+      "statusCode": 301
+    },
+    {
+      "source": "/sources/arsenic2024-arsenic-rice-rice-based-products",
+      "destination": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/google:file",
