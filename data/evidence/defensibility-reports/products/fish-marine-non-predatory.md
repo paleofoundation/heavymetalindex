@@ -6,8 +6,8 @@ source_page_sha256: 66b00ac71982a11b30b8dcc9b2bda9fc69d5fe8289a8be9d0a6fdf45bf41
 total_claims: 14
 cited_claims: 5
 uncited_claims: 9
-distinct_cited_targets: 969
-distinct_cited_sources: 969
+distinct_cited_targets: 968
+distinct_cited_sources: 968
 audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
 audit_log_total_rows: 10803
@@ -32,8 +32,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 14 |
 | cited claims | 5 |
 | uncited claims | 9 |
-| distinct cited targets | 969 |
-| distinct cited `sources/` pages | 969 |
+| distinct cited targets | 968 |
+| distinct cited `sources/` pages | 968 |
 | audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
 | audit log rows read | 10803 |
@@ -777,8 +777,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` (page missing)
     - audit rows: none
@@ -2720,8 +2718,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk\.md` (page missing)
@@ -4661,8 +4657,6 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` (page missing)
     - audit rows: none
@@ -6604,8 +6598,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk\.md` (page missing)
@@ -8546,8 +8538,6 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk\.md` (page missing)
@@ -10158,7 +10148,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/authors2024-against-arsenic-stress-in\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2024-arsenic-in-rice-and-rice-based-products-with\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616\.md` | sources | 0 | — | — |

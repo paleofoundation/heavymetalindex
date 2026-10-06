@@ -11532,6 +11532,7 @@
         "sources/qin2026-rice-cadmium-liver-cancer-guangxi",
         "sources/rahati2026-infant-formula-baby-food-iran-health-risk",
         "sources/rahman2007-rice-grain-arsenic-fractions",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
         "sources/redan2023-plant-milk-alternatives-elements",
         "sources/rittirong2018-cooked-rice-utensil-metals-thailand",
         "sources/roman-ochoa2021-arequipa-grains-health-risk",
@@ -16763,7 +16764,6 @@
         "sources/authors2023-regulatory-mechanisms-underlying-arsenic-uptake-transport",
         "sources/authors2023-toxicology-reports-11-2023-295-306",
         "sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk",
         "sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant",
         "sources/authors2024-electrochemical-sensors-for-heavy-metal-ion-detection-in",
@@ -18136,6 +18136,7 @@
         "sources/raeeszadeh2021-animal-meat-metals-iran",
         "sources/rahman2007-rice-grain-arsenic-fractions",
         "sources/rahman2021-dhaka-turmeric-heavy-metals",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
         "sources/rakib2021-macroalgae-bangladesh-metals",
         "sources/ramly2023-arsenic-drinking-water-malaysia",
         "sources/ramos-miras2023-pte-shrimp-ecuador",
@@ -18837,7 +18838,6 @@
         "sources/authors2024-against-arsenic-stress-in",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
         "sources/authors2024-allalgua-et-al-age-and-growth-of-the",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
         "sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant",
         "sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is",
@@ -20618,7 +20618,6 @@
         "sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and",
         "sources/authors2024-against-arsenic-stress-in",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616",
         "sources/authors2024-centre-hospitalier-universitaire-vaudois-emmanuel-obeng-gyasi-1",
         "sources/authors2024-comprehensive-analysis-of-heavy-metal-soil-contamination-in",
@@ -23774,7 +23773,6 @@
         "sources/authors2024-a-meta-analysis-of-mercury-biomagnification-in-freshwater",
         "sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
         "sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant",
         "sources/authors2024-citing-articles-3-view-citing-articles",
@@ -24409,7 +24407,6 @@
         "sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and",
         "sources/authors2024-acids-etc-many-cosmetic-formulations-use-algal-bioactive",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
         "sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616",
         "sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant",
@@ -34219,7 +34216,6 @@
         "sources/authors2024-against-arsenic-stress-in",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
         "sources/authors2024-allalgua-et-al-age-and-growth-of-the",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
         "sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk",
         "sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616",
@@ -42293,6 +42289,7 @@
         "sources/pirsaheb2015-iran-kermanshah-cereals-metals",
         "sources/pogoson2020-rice-cooking-cadmium-arsenic",
         "sources/rahman2007-rice-grain-arsenic-fractions",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
         "sources/rittirong2018-cooked-rice-utensil-metals-thailand",
         "sources/roya2016-iran-torbat-heidarieh-rice-metals",
         "sources/salehipour2015-iran-isfahan-cereals-vegetables-metals",
@@ -42380,7 +42377,8 @@
         "sources/guo2017-asian-rice-derived-products-metals",
         "sources/katyal2020-instant-noodles-canada-metals",
         "sources/kongta2023-noodle-products-aluminum-thailand",
-        "sources/noh2023-arsenic-rice-snacks-korea"
+        "sources/noh2023-arsenic-rice-snacks-korea",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland"
       ],
       "data_downloads": []
     },
@@ -42421,6 +42419,7 @@
         "sources/guo2017-asian-rice-derived-products-metals",
         "sources/meharg2008-rice-arsenic-literature-review",
         "sources/noh2023-arsenic-rice-snacks-korea",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
         "sources/shi2020-rice-based-infant-food-cadmium-arsenic",
         "sources/signes-pastor2017-infant-arsenic-rice-weaning",
         "sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals",
@@ -73381,38 +73380,6 @@
       }
     },
     {
-      "slug": "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
-      "title": "Arsenic in Rice and Rice-Based Products with Regard to",
-      "description": null,
-      "page_type": "source",
-      "audience": [],
-      "wiki_doi": null,
-      "canonical_url": "https://heavymetalindex.com/sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
-      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
-      "content_sha256": "1be3ec1fd17ccc0241cb7dc370661178eaa67005b6620097e195059e3ea1c34e",
-      "content_bytes": 7105,
-      "metadata_sha256": "fcd96dc1146b147793a537cb28ca7e9e53a0740c6c3c3bbe929d196c87a99ce2",
-      "published_body_sha256": "ae60bb7cfa2f28e4ecbc06c8b2ad7b1439ab37fd47da742edde0ccad20d8ccb5",
-      "published_body_bytes": 8034,
-      "markdown_sha256": "ba877c256e0e63a66af4724755e694a943922abac474f70b7041456fca3b2051",
-      "markdown_bytes": 9098,
-      "pin_status": "verified_git",
-      "pin_reason": null,
-      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
-      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
-      "last_commit_date": "2026-09-10",
-      "contributing_sources": [],
-      "data_downloads": [],
-      "ingest_contract": {
-        "metadata_complete": false,
-        "ingest_complete": false,
-        "gaps": [
-          "evidence_fitness"
-        ],
-        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-      }
-    },
-    {
       "slug": "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
       "title": "ASSESSING HUMAN RISKS AND BENEFITS ASSOCIATED WITH MERCURY CONTAMINATION",
       "description": null,
@@ -91212,6 +91179,7 @@
         "sources/pusz2024-carbon-soil-metal-stabilization",
         "sources/qvarfort2025-game-meat-lead-bioaccessibility",
         "sources/rahma2022-infant-skin-barrier-function-review",
+        "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
         "sources/ral2024-eu-ecolabel-factsheet-household-detergents",
         "sources/ramos-miras2023-pte-shrimp-ecuador",
         "sources/razanov2019-poultry-silicon-mineral-heavy-metals",
@@ -92606,7 +92574,6 @@
         "sources/authors2024-against-arsenic-stress-in",
         "sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3",
         "sources/authors2024-allalgua-et-al-age-and-growth-of-the",
-        "sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
         "sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
         "sources/authors2024-assessment-of-arsenic-concentration-in-rice-and-risk",
         "sources/authors2024-assessment-of-heavy-metal-conc-issnanzene-online-et2616",
@@ -106125,6 +106092,38 @@
       }
     },
     {
+      "slug": "sources/fda2020-iAs-rice-cereal-supporting-doc",
+      "title": "Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants",
+      "description": null,
+      "page_type": "source",
+      "audience": [],
+      "wiki_doi": null,
+      "canonical_url": "https://heavymetalindex.com/sources/fda2020-iAs-rice-cereal-supporting-doc",
+      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
+      "content_sha256": "5fd2e7b1aaf501092e90abb7a6455260f4a46481e3ee24e18f41f4efbf2b2894",
+      "content_bytes": 5685,
+      "metadata_sha256": "e72f586ab2da7da30942377ffda8b9f4cc8dbc09618667e0e82fe0f29b96be34",
+      "published_body_sha256": "693ebfb2cb67820f4c2d6f2fc46357e7e38eec75db38c85538bbbfffb5a092dd",
+      "published_body_bytes": 6999,
+      "markdown_sha256": "971d6892a3cf08add0a632051c4284a554d016da21961f846f10e5e2e4e5bcc7",
+      "markdown_bytes": 8321,
+      "pin_status": "verified_git",
+      "pin_reason": null,
+      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
+      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+      "last_commit_date": "2026-09-10",
+      "contributing_sources": [],
+      "data_downloads": [],
+      "ingest_contract": {
+        "metadata_complete": false,
+        "ingest_complete": false,
+        "gaps": [
+          "evidence_fitness"
+        ],
+        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+      }
+    },
+    {
       "slug": "sources/fda2020-ias-infant-rice-cereal-guidance",
       "title": "Inorganic Arsenic in Rice Cereals for Infants: Action Level, Guidance for Industry",
       "description": null,
@@ -106148,38 +106147,6 @@
       "contributing_sources": [
         "sources/fda2020-iAs-rice-cereal-supporting-doc"
       ],
-      "data_downloads": [],
-      "ingest_contract": {
-        "metadata_complete": false,
-        "ingest_complete": false,
-        "gaps": [
-          "evidence_fitness"
-        ],
-        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-      }
-    },
-    {
-      "slug": "sources/fda2020-iAs-rice-cereal-supporting-doc",
-      "title": "Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants",
-      "description": null,
-      "page_type": "source",
-      "audience": [],
-      "wiki_doi": null,
-      "canonical_url": "https://heavymetalindex.com/sources/fda2020-iAs-rice-cereal-supporting-doc",
-      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
-      "content_sha256": "5fd2e7b1aaf501092e90abb7a6455260f4a46481e3ee24e18f41f4efbf2b2894",
-      "content_bytes": 5685,
-      "metadata_sha256": "e72f586ab2da7da30942377ffda8b9f4cc8dbc09618667e0e82fe0f29b96be34",
-      "published_body_sha256": "693ebfb2cb67820f4c2d6f2fc46357e7e38eec75db38c85538bbbfffb5a092dd",
-      "published_body_bytes": 6999,
-      "markdown_sha256": "971d6892a3cf08add0a632051c4284a554d016da21961f846f10e5e2e4e5bcc7",
-      "markdown_bytes": 8321,
-      "pin_status": "verified_git",
-      "pin_reason": null,
-      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
-      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
-      "last_commit_date": "2026-09-10",
-      "contributing_sources": [],
       "data_downloads": [],
       "ingest_contract": {
         "metadata_complete": false,
@@ -110299,6 +110266,44 @@
         "ingest_complete": false,
         "gaps": [
           "evidence_fitness"
+        ],
+        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+      }
+    },
+    {
+      "slug": "sources/gul2021-sunflower-seeds-metals",
+      "title": "Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey",
+      "description": null,
+      "page_type": "source",
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "app"
+      ],
+      "wiki_doi": null,
+      "canonical_url": "https://heavymetalindex.com/sources/gul2021-sunflower-seeds-metals",
+      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
+      "content_sha256": "1dddb5a37020ab5327ba16518d83223fb4fb43704be5af3db30b3036564bfad9",
+      "content_bytes": 2914,
+      "metadata_sha256": "2da5c31e6bf36c7a585287e9c9f4a9d2a3db135ce85c79d1f9ff5376250b3dc7",
+      "published_body_sha256": "77bec07d0e1d8e50ec1b09eec532ce944a349ffe9cae3b2fcba07ef9105ec168",
+      "published_body_bytes": 4230,
+      "markdown_sha256": "e88325bcdd615a3254763b945081badece1c2a4f06e0d4e23a2e6aaa12379c00",
+      "markdown_bytes": 5163,
+      "pin_status": "verified_git",
+      "pin_reason": null,
+      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
+      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+      "last_commit_date": "2026-09-10",
+      "contributing_sources": [],
+      "data_downloads": [],
+      "ingest_contract": {
+        "metadata_complete": false,
+        "ingest_complete": false,
+        "gaps": [
+          "evidence_fitness",
+          "raw_sha256"
         ],
         "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
       }
@@ -135111,44 +135116,6 @@
       }
     },
     {
-      "slug": "sources/gul2021-sunflower-seeds-metals",
-      "title": "Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey",
-      "description": null,
-      "page_type": "source",
-      "audience": [
-        "regulator",
-        "educator",
-        "consumer",
-        "app"
-      ],
-      "wiki_doi": null,
-      "canonical_url": "https://heavymetalindex.com/sources/gul2021-sunflower-seeds-metals",
-      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
-      "content_sha256": "1dddb5a37020ab5327ba16518d83223fb4fb43704be5af3db30b3036564bfad9",
-      "content_bytes": 2914,
-      "metadata_sha256": "2da5c31e6bf36c7a585287e9c9f4a9d2a3db135ce85c79d1f9ff5376250b3dc7",
-      "published_body_sha256": "77bec07d0e1d8e50ec1b09eec532ce944a349ffe9cae3b2fcba07ef9105ec168",
-      "published_body_bytes": 4230,
-      "markdown_sha256": "e88325bcdd615a3254763b945081badece1c2a4f06e0d4e23a2e6aaa12379c00",
-      "markdown_bytes": 5163,
-      "pin_status": "verified_git",
-      "pin_reason": null,
-      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
-      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
-      "last_commit_date": "2026-09-10",
-      "contributing_sources": [],
-      "data_downloads": [],
-      "ingest_contract": {
-        "metadata_complete": false,
-        "ingest_complete": false,
-        "gaps": [
-          "evidence_fitness",
-          "raw_sha256"
-        ],
-        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-      }
-    },
-    {
       "slug": "sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc",
       "title": "Results of Double-Blind Placebo-Controlled Challenge with Nickel Salts in Patients Affected by Recurrent Aphthous Stomatitis",
       "description": null,
@@ -138423,6 +138390,41 @@
           "evidence_fitness",
           "raw_sha256"
         ],
+        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+      }
+    },
+    {
+      "slug": "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+      "title": "Arsenic in Rice and Rice-Based Products with Regard to Consumer Health",
+      "description": null,
+      "page_type": "source",
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "app"
+      ],
+      "wiki_doi": null,
+      "canonical_url": "https://heavymetalindex.com/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
+      "content_sha256": "45c51ff35e428d0c1ab5f648ed79514ffd9391566e18b550fb84839042562d58",
+      "content_bytes": 3946,
+      "metadata_sha256": "113899bd3d8927f0a61af708c846c70de23518e1dd57c215f72172e64071da05",
+      "published_body_sha256": "45c51ff35e428d0c1ab5f648ed79514ffd9391566e18b550fb84839042562d58",
+      "published_body_bytes": 3946,
+      "markdown_sha256": "822cff01afa462cd364fc7f1dd728a02933fc8ff27d603f44fffc889bec28978",
+      "markdown_bytes": 5880,
+      "pin_status": "unpinned",
+      "pin_reason": "Authored content or semantic metadata differs from the committed Git tree.",
+      "git_commit_sha": null,
+      "last_commit_sha": null,
+      "last_commit_date": null,
+      "contributing_sources": [],
+      "data_downloads": [],
+      "ingest_contract": {
+        "metadata_complete": true,
+        "ingest_complete": false,
+        "gaps": [],
         "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
       }
     },
@@ -143916,44 +143918,6 @@
       }
     },
     {
-      "slug": "sources/shar2026-sunflower-seeds-heavy-metals",
-      "title": "Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds",
-      "description": null,
-      "page_type": "source",
-      "audience": [
-        "regulator",
-        "educator",
-        "consumer",
-        "app"
-      ],
-      "wiki_doi": null,
-      "canonical_url": "https://heavymetalindex.com/sources/shar2026-sunflower-seeds-heavy-metals",
-      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
-      "content_sha256": "07ef737bfe1da694fd99ccce109dc17d963c9e022eeba96f744e6a67bc1bdcbf",
-      "content_bytes": 3974,
-      "metadata_sha256": "8551890ce76edd70a4e1c41e6770a732269e974ff0fd6514717aeb8e94d97f06",
-      "published_body_sha256": "da149bf66ab3208d687764162effaf5f7901d031cdceda67209f5414bf635883",
-      "published_body_bytes": 5290,
-      "markdown_sha256": "ba658a9254cfc297efb7d27fee7b37ba4157b023aa1635ce4b1458ebc6dd01b9",
-      "markdown_bytes": 6219,
-      "pin_status": "verified_git",
-      "pin_reason": null,
-      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
-      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
-      "last_commit_date": "2026-09-10",
-      "contributing_sources": [],
-      "data_downloads": [],
-      "ingest_contract": {
-        "metadata_complete": false,
-        "ingest_complete": false,
-        "gaps": [
-          "evidence_fitness",
-          "raw_sha256"
-        ],
-        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
-      }
-    },
-    {
       "slug": "sources/shalev2022-peptide-metal-nmr-review",
       "title": "Studying Peptide-Metal Ion Complex Structures by Solution-State NMR",
       "description": null,
@@ -144105,6 +144069,44 @@
       "pin_reason": null,
       "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
       "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
+      "last_commit_date": "2026-09-10",
+      "contributing_sources": [],
+      "data_downloads": [],
+      "ingest_contract": {
+        "metadata_complete": false,
+        "ingest_complete": false,
+        "gaps": [
+          "evidence_fitness",
+          "raw_sha256"
+        ],
+        "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
+      }
+    },
+    {
+      "slug": "sources/shar2026-sunflower-seeds-heavy-metals",
+      "title": "Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds",
+      "description": null,
+      "page_type": "source",
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "app"
+      ],
+      "wiki_doi": null,
+      "canonical_url": "https://heavymetalindex.com/sources/shar2026-sunflower-seeds-heavy-metals",
+      "content_hash_scheme": "sha256-utf8-authored-markdown-v2",
+      "content_sha256": "07ef737bfe1da694fd99ccce109dc17d963c9e022eeba96f744e6a67bc1bdcbf",
+      "content_bytes": 3974,
+      "metadata_sha256": "8551890ce76edd70a4e1c41e6770a732269e974ff0fd6514717aeb8e94d97f06",
+      "published_body_sha256": "da149bf66ab3208d687764162effaf5f7901d031cdceda67209f5414bf635883",
+      "published_body_bytes": 5290,
+      "markdown_sha256": "ba658a9254cfc297efb7d27fee7b37ba4157b023aa1635ce4b1458ebc6dd01b9",
+      "markdown_bytes": 6219,
+      "pin_status": "verified_git",
+      "pin_reason": null,
+      "git_commit_sha": "70e164c26892e9564cf209039385a2a03079e1e1",
+      "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
       "last_commit_date": "2026-09-10",
       "contributing_sources": [],
       "data_downloads": [],

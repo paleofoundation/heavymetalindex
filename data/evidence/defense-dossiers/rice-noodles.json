@@ -26,7 +26,7 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -117,6 +117,26 @@
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9882fa9f2:wiki/sources/noh2023-arsenic-rice-snacks-korea.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+        "title": "Arsenic in Rice and Rice-Based Products with Regard to Consumer Health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+        "content_pin": {
+          "content_sha256": "45c51ff35e428d0c1ab5f648ed79514ffd9391566e18b550fb84839042562d58",
+          "content_bytes": 3946,
+          "last_commit_sha": null,
+          "last_commit_date": null,
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": null
         }
       }
     ]

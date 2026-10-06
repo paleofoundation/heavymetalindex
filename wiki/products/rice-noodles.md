@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,10 +107,11 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/kongta2023-noodle-products-aluminum-thailand\|Kongta et al. 2023]]. *Assessment of Exposure to Aluminum through Consumption of Noodle Products*, Foods | 2023 | Peer-reviewed | TH Al occurrence in Twenty samples each of rice stick noodles, egg noodles, wide rice noodles, and Thai rice noodles collected from... (n=80) |
-| 2 | [[sources/noh2023-arsenic-rice-snacks-korea\|Noh et al. 2023]]. *Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment*, Food Science and Biotechnology 32(10):1361-1372 | 2023 | Peer-reviewed | KR iAs, tAs occurrence in 239 rice-based processed foods purchased from South Korean domestic markets February–August 2019 across ten categories: home-meal-replacement (HMR) rice... (n=239) |
-| 3 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | CA Pb, Cd, tAs occurrence in Thirty packets of instant noodles from six brands available in large grocery stores in the Canadian market; dry... (n=30) |
-| 4 | [[sources/guo2017-asian-rice-derived-products-metals\|Guo et al. 2017]]. *Trace Elements and Heavy Metals in Asian Rice-Derived Food Products*, Water, Air, & Soil Pollution | 2017 | Peer-reviewed | US/CN/VN Cr, Cu, Zn, tAs, Se, Cd, tHg, Pb occurrence in Six rice-noodle products, five rice vinegar/wine products, and five rice-snack products purchased from local oriental markets in Jackson,... (n=16) |
+| 1 | [[sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland\|Rajkowska-Myśliwiec et al. 2024]]. *Arsenic in Rice and Rice-Based Products with Regard to Consumer Health*, Foods 13(19):3153 | 2024 | Peer-reviewed | PL tAs occurrence in 120 rice and rice products bought in Szczecin, Poland, in 2023 (white rice, brown rice, rice cakes, and rice noodles). Inorganic arsenic figures in the paper are calculated shares of total arsenic, not measured inorganic arsenic. (n=120) |
+| 2 | [[sources/kongta2023-noodle-products-aluminum-thailand\|Kongta et al. 2023]]. *Assessment of Exposure to Aluminum through Consumption of Noodle Products*, Foods | 2023 | Peer-reviewed | TH Al occurrence in Twenty samples each of rice stick noodles, egg noodles, wide rice noodles, and Thai rice noodles collected from... (n=80) |
+| 3 | [[sources/noh2023-arsenic-rice-snacks-korea\|Noh et al. 2023]]. *Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment*, Food Science and Biotechnology 32(10):1361-1372 | 2023 | Peer-reviewed | KR iAs, tAs occurrence in 239 rice-based processed foods purchased from South Korean domestic markets February–August 2019 across ten categories: home-meal-replacement (HMR) rice... (n=239) |
+| 4 | [[sources/katyal2020-instant-noodles-canada-metals\|Katyal et al. 2020]]. *Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market*, BCIT Environmental Public Health Journal | 2020 | Peer-reviewed | CA Pb, Cd, tAs occurrence in Thirty packets of instant noodles from six brands available in large grocery stores in the Canadian market; dry... (n=30) |
+| 5 | [[sources/guo2017-asian-rice-derived-products-metals\|Guo et al. 2017]]. *Trace Elements and Heavy Metals in Asian Rice-Derived Food Products*, Water, Air, & Soil Pollution | 2017 | Peer-reviewed | US/CN/VN Cr, Cu, Zn, tAs, Se, Cd, tHg, Pb occurrence in Six rice-noodle products, five rice vinegar/wine products, and five rice-snack products purchased from local oriental markets in Jackson,... (n=16) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
