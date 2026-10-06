@@ -24609,8 +24609,8 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/ozyazici2021-sunflower-seeds-metals.md",
-      "cite_key": "ozyazici2021-sunflower-seeds-metals",
+      "page": "wiki/sources/gul2021-sunflower-seeds-metals.md",
+      "cite_key": "gul2021-sunflower-seeds-metals",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [
@@ -27463,8 +27463,8 @@
       "completion_note": "Metadata completeness alone does not prove extraction, routing, or primary-source coverage. Completed ingest requires its reconciliation and route audits."
     },
     {
-      "page": "wiki/sources/shaikh2026-sunflower-seeds-heavy-metals.md",
-      "cite_key": "shaikh2026-sunflower-seeds-heavy-metals",
+      "page": "wiki/sources/shar2026-sunflower-seeds-heavy-metals.md",
+      "cite_key": "shar2026-sunflower-seeds-heavy-metals",
       "metadata_complete": false,
       "ingest_complete": false,
       "gaps": [

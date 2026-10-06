@@ -122,7 +122,7 @@
         }
       },
       {
-        "slug": "sources/ozyazici2021-sunflower-seeds-metals",
+        "slug": "sources/gul2021-sunflower-seeds-metals",
         "title": "Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey",
         "route_kind": "direct_evidence",
         "route_status": "source_on_page_no_structured_value",
@@ -136,7 +136,7 @@
           "Cu",
           "Zn"
         ],
-        "canonical_url": "https://heavymetalindex.com/sources/ozyazici2021-sunflower-seeds-metals",
+        "canonical_url": "https://heavymetalindex.com/sources/gul2021-sunflower-seeds-metals",
         "content_pin": {
           "content_sha256": "ed0ca1ce5bb35dadad5f2397d458d29312021505c279d1dc7ecec0a504957051",
           "content_bytes": 4356,
@@ -167,7 +167,7 @@
         }
       },
       {
-        "slug": "sources/shaikh2026-sunflower-seeds-heavy-metals",
+        "slug": "sources/shar2026-sunflower-seeds-heavy-metals",
         "title": "Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds",
         "route_kind": "direct_evidence",
         "route_status": "source_on_page_no_structured_value",
@@ -181,7 +181,7 @@
           "Zn",
           "Fe"
         ],
-        "canonical_url": "https://heavymetalindex.com/sources/shaikh2026-sunflower-seeds-heavy-metals",
+        "canonical_url": "https://heavymetalindex.com/sources/shar2026-sunflower-seeds-heavy-metals",
         "content_pin": {
           "content_sha256": "a31a0ccc93c1e9ea90705971c7500c4281d03da97311caebee295071adb4e541",
           "content_bytes": 5420,

@@ -117,7 +117,7 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/akkaya2025-marmara-fishery-products-metals|Determination of Heavy Metal Levels and Assessment of L. monocytogenes and Salmonella spp. Presence in Fishery Products and Mussels from the Marmara Region, Türkiye (2025)]]
 - [[sources/suvarapu2016-atmospheric-heavy-metals-review|Determination of heavy metals in the ambient atmosphere: A review (2016)]]
 - [[sources/mohasin2023-determination-of-some-heavy-metals-and-potassium-bromate|Determination of some heavy metals and potassium bromate (2023)]]
-- [[sources/ozyazici2021-sunflower-seeds-metals|Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey (2021)]]
+- [[sources/gul2021-sunflower-seeds-metals|Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey (2021)]]
 - [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES) (2008)]]
 - [[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus|Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province (2024)]]
 - [[sources/bulduk2020-vicia-faba-elements|Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS (2020)]]

@@ -187,7 +187,7 @@ Source pages whose evidence comes from **South & Central Asia**, grouped by juri
 - [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan (2025)]]
 - [[sources/shamsher2022-aloe-zinc-adsorption|Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water (2022)]]
 - [[sources/afzal2024-livestock-heavy-metals-review|Emerging insights into the impacts of heavy metals exposure on health, reproductive and productive performance of livestock (2024)]]
-- [[sources/shaikh2026-sunflower-seeds-heavy-metals|Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds (2026)]]
+- [[sources/shar2026-sunflower-seeds-heavy-metals|Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds (2026)]]
 - [[sources/mahmud2011-crvi-chicken-pakistan|Estimation of Chromium (VI) in various body parts of Local Chicken (2011)]]
 - [[sources/iqbal2023-poultry-feed-pakistan|Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products (2023)]]
 - [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan|Evaluation of heavy metals in cosmetic products and their health risk assessment (2020)]]
