@@ -1,14 +1,61 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { eventsPath, readJsonl } from "./regulatory-watch-common.mjs"
+import { eventsPath, intakesPath, readJsonl } from "./regulatory-watch-common.mjs"
 
 const events = readJsonl(eventsPath)
+const intakes = readJsonl(intakesPath)
 const byId = new Map(events.map((event) => [event.event_id, event]))
+const roundupId = "rw-intake-2026-08-24-worldwide-roundup"
 
 test("roundup reconciles exactly 21 unique clusters", () => {
-  assert.equal(events.length, 21)
-  assert.equal(new Set(events.map((event) => event.event_id)).size, 21)
-  assert.equal(new Set(events.map((event) => event.cluster)).size, 21)
+  const roundup = events.filter((event) => event.intake_id === roundupId)
+  assert.equal(roundup.length, 21)
+  assert.equal(new Set(roundup.map((event) => event.event_id)).size, 21)
+  assert.equal(new Set(roundup.map((event) => event.cluster)).size, 21)
+  assert.deepEqual(roundup.map((event) => event.cluster), Array.from({ length: 21 }, (_, i) => i + 1))
+})
+
+test("2026-10-05 Viet Nam MOIT drafts are hub-only consultations with no limit rows", () => {
+  const intakeId = "rw-intake-2026-10-05-vn-moit-wto"
+  const intake = intakes.find((item) => item.intake_id === intakeId)
+  const owned = events.filter((event) => event.intake_id === intakeId)
+  assert.equal(events.length, 23)
+  assert.equal(intake.cluster_count, 2)
+  assert.equal(intake.sha256, "01c4e33b2e7c2688515462d6a45734a1a9e0fe7307b8d07058b3113085928fcd")
+  assert.equal(owned.length, 2)
+  assert.deepEqual(owned.map((event) => event.cluster), [1, 2])
+
+  const noodles = byId.get("rw-2026-10-05-vnm-451-fresh-rice-noodles")
+  const snacks = byId.get("rw-2026-10-05-vnm-452-snack-products")
+  for (const event of [noodles, snacks]) {
+    assert.equal(event.status, "consultation")
+    assert.equal(event.disposition, "hub-only")
+    assert.equal(event.verification.state, "verified-primary")
+    assert.equal(event.article_slugs.length, 0)
+    assert.deepEqual(event.hmi_routes.regulatory_limit_ids, [])
+    assert.equal(event.dates.consultation_close, "2026-11-30")
+    assert.equal(event.dates.next_review, "2026-12-01")
+    assert.equal(event.dates.adopted, null)
+    assert.equal(event.dates.effective, null)
+    assert.equal(event.dates.published, "2026-10-01")
+    const prose = `${event.title}\n${event.summary}\n${event.verification.notes}`.toLowerCase()
+    assert.equal(prose.includes("in force"), false, event.event_id)
+    assert.equal(prose.includes("effective"), false, event.event_id)
+    assert.equal(prose.includes("binding"), false, event.event_id)
+    assert.equal(prose.includes("ppb"), false, event.event_id)
+    assert.equal(prose.includes("µg/kg"), false, event.event_id)
+    assert.equal(prose.includes("hmtc"), false, event.event_id)
+    assert.equal(prose.includes("certification"), false, event.event_id)
+  }
+  assert.deepEqual(noodles.analytes, ["Pb", "As-species-not-stated", "Cd", "Hg-species-not-stated"])
+  assert.ok(!noodles.analytes.includes("iAs"))
+  assert.ok(!noodles.analytes.includes("tAs"))
+  assert.match(noodles.verification.notes, /Asen \(As\) 0,5/)
+  assert.match(noodles.verification.notes, /Chì \(Pb\) 0,2/)
+  assert.match(noodles.verification.notes, /Thủy ngân \(Hg\) 0,02/)
+  assert.deepEqual(snacks.analytes, ["Pb", "tAs", "Cd", "Hg-species-not-stated"])
+  assert.ok(!snacks.analytes.includes("iAs"))
+  assert.match(snacks.verification.notes, /Asen tổng số \(As\) 0,5/)
 })
 
 test("amendments and delayed application preserve legal status", () => {
