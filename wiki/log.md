@@ -2308,3 +2308,7 @@ Notes: Re-ran the unresolved Regulatory Watch leads against official primary rec
 ## [2026-10-06] ingest | rw-intake-2026-10-05-vn-moit-wto — Viet Nam draft QCVN notices
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from the WTO notifications, the MOIT draft PDFs, and the MOIT archive. Printed figures stay in the verification notes in the printed unit. Arsenic on VNM/451 is species-not-stated. Arsenic on VNM/452 is total arsenic as printed. Direction is toward the primary text.
+
+## [2026-10-06] ingest | rw-intake-2026-10-06-kr-motir-wto — Korea draft toy safety criteria
+Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
+Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
