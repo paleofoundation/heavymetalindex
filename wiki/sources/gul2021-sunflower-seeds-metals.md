@@ -1,11 +1,12 @@
 ---
 type: source
 raw_handle: AUTO_gap-sunflower-seeds-cd-2021-10-31590-ejosat-873311
-cite_key: ozyazici2021-sunflower-seeds-metals
+cite_key: gul2021-sunflower-seeds-metals
+aliases: ["sources/ozyazici2021-sunflower-seeds-metals"]
 title: "Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey"
 authors: [Gül V, Kul S]
 year: 2021
-publication: "European Journal of Science and Technology"
+publication: "European Journal of Science and Technology (EJOSAT) (23):725-729"
 doi: 10.31590/ejosat.873311
 source_type: peer-reviewed
 evidence_tier: A
@@ -19,7 +20,7 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: "18"
 sample_population: "18 sunflower seed samples from six Middle Black Sea Region sunflower-growing areas"
-updated: 2026-06-09
+updated: 2026-10-06
 sources: 1
 audience: [regulator, educator, consumer, app]
 ---

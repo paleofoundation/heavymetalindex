@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-06] lint | library-key-fix-1 — sunflower cite keys and salt lead list
+
+Pages touched: [[sources/gul2021-sunflower-seeds-metals]], [[sources/shar2026-sunflower-seeds-heavy-metals]], [[products/sunflower-seeds]], [[ingredients/sunflower-seeds]], [[products/salt]]
+Notes: The sunflower-seed records filed as Özyazıcı 2021 and Shaikh 2026 are Gül V and Kul S (2021), European Journal of Science and Technology (EJOSAT) (23):725-729, and Shar ZH, Channa MK, and Bajeer MA (2026), Planta Animalia 5(2):191-197. Cite keys are now gul2021-sunflower-seeds-metals and shar2026-sunflower-seeds-heavy-metals. DOIs are unchanged. The previous slugs remain aliases. samsiyah2019-indonesia-salt-lead is now on the salt lead papers-to-find list. Direction: toward the literature.
+
 ## [2026-09-30] synthesis | antimony-baby-products — cite twelve open PET and clothing sources
 
 Pages touched: [[synthesis/antimony-in-baby-products]]

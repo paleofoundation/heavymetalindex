@@ -1,11 +1,12 @@
 ---
 type: source
 raw_handle: AUTO_gap-sunflower-seeds-cd-2026-10-71454-pa-005-02-0383
-cite_key: shaikh2026-sunflower-seeds-heavy-metals
+cite_key: shar2026-sunflower-seeds-heavy-metals
+aliases: ["sources/shaikh2026-sunflower-seeds-heavy-metals"]
 title: "Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds"
 authors: [Shar ZH, Channa MK, Bajeer MA]
 year: 2026
-publication: "Planta Animalia"
+publication: "Planta Animalia 5(2):191-197"
 doi: 10.71454/PA.005.02.0383
 source_type: peer-reviewed
 evidence_tier: A
@@ -19,7 +20,7 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: "36"
 sample_population: "36 composite sunflower seed samples from different ecological zones of Sindh, Pakistan"
-updated: 2026-05-30
+updated: 2026-10-06
 sources: 1
 audience: [regulator, educator, consumer, app]
 ---
