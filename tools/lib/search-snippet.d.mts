@@ -2,11 +2,12 @@ export const HTML_TITLE_MAX: number
 export const META_DESCRIPTION_MIN: number
 export const META_DESCRIPTION_MAX: number
 
+export function normalizeTitle(title: string): string
 export function capHtmlTitle(title: string, max?: number): string
 export function extractOverview(markdown: string): string
 export function isMetalArticle(slug?: string, type?: unknown): boolean
 export function isRegulationArticle(slug?: string, type?: unknown): boolean
-export function metalMetaDescription(overview: string): string
+export function metalMetaDescription(overview: string, plainName?: string, label?: string): string
 export function metalSearchFields(input?: {
   title?: unknown
   symbol?: unknown

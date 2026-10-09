@@ -6,7 +6,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
-import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields } from "../../tools/lib/search-snippet.mjs"
+import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -105,7 +105,7 @@ function CitationMetadata({
   // record (author, journal, the paper's own DOI).
   const isSourcePage = frontmatter.type === "source" || slugStr.startsWith("sources/")
   if (isSourcePage) {
-    const citationTitle = frontmatterString(frontmatter.title) ?? title
+    const citationTitle = normalizeTitle(frontmatterString(frontmatter.title) ?? title)
     const authors = frontmatterStringArray(frontmatter.authors)
     const publicationDate =
       frontmatterString(frontmatter.year) ??
@@ -144,7 +144,7 @@ function CitationMetadata({
     slugStr.startsWith("synthesis/") ||
     slugStr.startsWith("metals/")
   if (isWikiScholarly) {
-    const citationTitle = frontmatterString(frontmatter.title) ?? title
+    const citationTitle = normalizeTitle(frontmatterString(frontmatter.title) ?? title)
     const pubDate =
       frontmatterString(frontmatter.established) ??
       frontmatterString(frontmatter.updated) ??

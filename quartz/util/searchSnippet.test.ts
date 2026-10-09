@@ -43,6 +43,13 @@ test("document titles cut on a word boundary at about 70 characters", () => {
   assert.equal(/[—–]/.test(capped), false)
 })
 
+test("spaced dashes in titles become a colon", () => {
+  const capped = capHtmlTitle("EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week")
+  assert.equal(capped, "EFSA: Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week")
+  assert.equal(/[—–]/.test(capped), false)
+  assert.ok(capped.length <= HTML_TITLE_MAX)
+})
+
 test("short titles are left unchanged", () => {
   assert.equal(capHtmlTitle("Lead"), "Lead")
   assert.equal(capHtmlTitle("Methylmercury"), "Methylmercury")
@@ -57,48 +64,50 @@ test("every metal page gets a descriptive title and a 120 to 160 character descr
     const fields = metalFields(slug)
     assert.ok(fields, slug)
     assert.ok(fields.title.length <= HTML_TITLE_MAX, `${slug} title ${fields.title.length}: ${fields.title}`)
-    assert.ok(fields.title.length > frontmatterLength(slug), `${slug} title stayed bare: ${fields.title}`)
+    assert.match(fields.title, / in Food: (?:Sources, Limits and Evidence|Form and Evidence|Measurement and Evidence)(?: \| Heavy Metal Index)?$/, fields.title)
     assert.ok(
       fields.description.length >= META_DESCRIPTION_MIN && fields.description.length <= META_DESCRIPTION_MAX,
       `${slug} description ${fields.description.length}: ${fields.description}`,
     )
+    for (const sentence of fields.description.split(/(?<=[.!?])\s+/)) {
+      assert.match(sentence, /^[A-Z].*[.!?]$/, `${slug} ${sentence}`)
+      assert.doesNotMatch(sentence, /^(?:It|This|These|Those|They|That)\b/, sentence)
+    }
     assert.equal(/[—–]/.test(fields.title + fields.description), false, slug)
-    assert.equal(/\([^)]*\b(?:19|20)\d{2}/.test(fields.title), false, fields.title)
+    assert.equal(/\b(?:19|20)\d{2}\b/.test(fields.title + fields.description), false, fields.description)
+    assert.equal(/\[\d/.test(fields.description), false, fields.description)
+    assert.equal(/\b(?:source-map|this node|this wiki|species pages)\b/i.test(fields.description), false, fields.description)
     assert.equal(/\b(?:comprehensive|essential guide|dangerous|alarming|shocking)\b/i.test(fields.title + fields.description), false, slug)
   }
 })
 
-function frontmatterLength(slug: string): number {
-  const markdown = fs.readFileSync(path.join(root, "metals", `${slug}.md`), "utf8")
-  return frontmatterValue(markdown, "title").length
-}
-
-test("named metal pages lead with the element and a clause from the overview", () => {
+test("named metal pages use a complete title phrase and a whole-sentence description", () => {
   const fields = (slug: string) => {
     const generated = metalFields(slug)
     if (!generated) throw new Error(`missing fields for ${slug}`)
     return generated
   }
   const arsenic = fields("arsenic")
-  assert.match(arsenic.title, /^Arsenic \(As\): /)
+  assert.equal(arsenic.title, "Arsenic (As) in Food: Sources, Limits and Evidence | Heavy Metal Index")
   assert.match(arsenic.description, /^Arsenic is a metalloid/)
   const nickel = fields("nickel")
-  assert.match(nickel.title, /^Nickel \(Ni\): /)
-  assert.match(nickel.description, /nickel/i)
+  assert.match(nickel.title, /^Nickel \(Ni\) in Food: Sources, Limits and Evidence/)
+  assert.match(nickel.description, /splits sharply by route\./)
   const tin = fields("tin")
-  assert.match(tin.title, /^Tin \(Sn\): /)
-  assert.match(tin.description, /tinplated steel cans/)
+  assert.match(tin.title, /^Tin \(Sn\) in Food: Sources, Limits and Evidence/)
+  assert.match(tin.description, /tinplated steel cans\./)
   const chromium = fields("chromium")
-  assert.match(chromium.title, /^Chromium \(Cr\): /)
+  assert.match(chromium.title, /^Chromium \(Cr\) in Food: Sources, Limits and Evidence/)
   const antimony = fields("antimony")
-  assert.match(antimony.title, /^Antimony \(Sb\): /)
+  assert.match(antimony.title, /^Antimony \(Sb\) in Food: Sources, Limits and Evidence/)
   assert.match(antimony.description, /oxidation states/)
   const methylmercury = fields("mercury-methyl")
-  assert.match(methylmercury.title, /^Methylmercury \(MeHg\): /)
-  assert.match(methylmercury.description, /fish/)
+  assert.match(methylmercury.title, /^Methylmercury \(MeHg\) in Food: Form and Evidence/)
+  assert.match(methylmercury.description, /fish\./)
   const tellurium = fields("tellurium")
-  assert.match(tellurium.title, /^Tellurium \(Te\): /)
-  assert.match(tellurium.description, /source-map context only/)
+  assert.match(tellurium.title, /^Tellurium \(Te\) in Food: Sources, Limits and Evidence/)
+  assert.match(tellurium.description, /minor toxic metals/)
+  assert.doesNotMatch(tellurium.description, /Ufelle|source-map/)
 })
 
 test("regulation pages are citation targets and a DOI is emitted only when one exists", () => {

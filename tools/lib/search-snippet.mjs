@@ -1,14 +1,23 @@
 // HTML titles and meta descriptions for search snippets.
 //
 // Metal pages store a one-word `title` (the on-page heading). The document
-// title and meta description are derived here from that heading plus the
-// Overview prose, so a rebuild picks up page edits without a hand-written
-// title for each metal. Every document title is then capped at a word
-// boundary so a long source title cannot ship as the <title>.
+// title is a complete phrase from a fixed template, and the meta description
+// is one or more whole Overview sentences. A shortfall is filled with a
+// sentence built from the page's name and whatever complete sentence the
+// Overview actually yielded. Every other document title is capped at a word
+// boundary. Em dashes and en dashes are rewritten before the cap.
 
 export const HTML_TITLE_MAX = 70
 export const META_DESCRIPTION_MIN = 120
 export const META_DESCRIPTION_MAX = 160
+
+const BRAND_SUFFIX = " | Heavy Metal Index"
+const ELEMENT_TAIL = " in Food: Sources, Limits and Evidence"
+const FORM_TAIL = " in Food: Form and Evidence"
+const TOTAL_TAIL = " in Food: Measurement and Evidence"
+
+const FORM_SYMBOLS = new Set(["iAs", "MeHg", "Cr-VI"])
+const TOTAL_SYMBOLS = new Set(["tAs", "tHg"])
 
 const TRAILING = new Set([
   "a", "an", "the", "of", "on", "in", "to", "for", "and", "or", "with", "from",
@@ -17,8 +26,6 @@ const TRAILING = new Set([
   "was", "were", "be", "been", "has", "have", "had", "where", "when", "while",
   "because", "although", "within", "under", "about", "across", "after",
   "before", "during", "without", "including", "particularly", "primarily",
-  "treat", "treats", "treated", "encountered", "overwhelmingly", "can", "could",
-  "produce", "produces",
 ])
 
 const MONTHS = new Set([
@@ -28,22 +35,33 @@ const MONTHS = new Set([
 
 const CHEMICAL_SYMBOL = /^(?:[A-Z][a-z]?|iAs|tAs|tHg|MeHg|Cr-VI)$/
 
+const PROCESS = /\b(?:this node|source-map|essentials chapter|this page draws|the index nevertheless|does not provide a (?:detailed|dedicated)|attaches?\b.{0,80}\bto the wiki|species pages|cross-metal context|not a food occurrence dataset)\b/i
+
+const VERB = /\b(?:is|are|was|were|has|have|had|denotes|splits|occurs|occur|enters|enter|produces|produce|covers|forms|form|dominates|treats|treat|includes|include|remains|carries|carry|means|binds|crosses|accumulates|describes|listed|named|found|sets|reports|classifies|established)\b/i
+
+const PRONOUN_START = /^(?:it|this|these|those|they|that|such|both|which|whose)\b/i
+
 function normalizeSpaces(value) {
   return String(value ?? "").replace(/\s+/g, " ").trim()
 }
 
-function scrubDashes(value) {
-  return String(value ?? "")
-    .replace(/\s*[—–]\s*/g, ", ")
-    .replace(/[—–]/g, ", ")
+// Spaced dashes become a colon. A numeric range becomes "to" so the endpoints
+// stay a range. No em dash or en dash remains.
+function replaceDashes(value) {
+  let text = String(value ?? "")
+  text = text.replace(/(\d)\s*[—–]\s*(\d)/g, "$1 to $2")
+  text = text.replace(/\s*[—–]\s*/g, ": ")
+  text = text.replace(/[—–]/g, ": ")
+  return text
 }
 
 function tidy(value) {
-  let text = scrubDashes(value)
-  text = text.replace(/\(\s*\)/g, "")
+  let text = replaceDashes(value)
+  text = text.replace(/\(\s*(?:,\s*)*\)/g, " ")
   text = text.replace(/\s+,/g, ",")
   text = text.replace(/(?:,\s*){2,}/g, ", ")
   text = text.replace(/\s+([,.;:])/g, "$1")
+  text = text.replace(/:\s{2,}/g, ": ")
   text = text.replace(/^\s*[,;:]+\s*/, "")
   text = normalizeSpaces(text)
   return text
@@ -52,6 +70,8 @@ function tidy(value) {
 function stripMarkup(value) {
   let text = String(value ?? "")
   text = text.replace(/<!--[\s\S]*?-->/g, " ")
+  text = text.replace(/\[\[(?:sources|regulations)\/[^\]|]*\|[^\]]+\]\]/g, " ")
+  text = text.replace(/\[\[(?:sources|regulations)\/[^\]]+\]\]/g, " ")
   text = text.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
   text = text.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
     const leaf = String(target).split("#")[0].split("/").filter(Boolean).pop() || target
@@ -60,20 +80,101 @@ function stripMarkup(value) {
   text = text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
   text = text.replace(/`([^`]*)`/g, "$1")
   text = text.replace(/[*_]+/g, "")
-  return tidy(text)
+  text = text.replace(/\[(?:\d+\s*(?:[,–—-]\s*\d+)*)\]/g, " ")
+  return text
 }
 
-// Author-year parentheticals and "Surname 2021" / "Surname & Surname 2021"
-// belong in the bibliography, not in a document title.
 function stripAuthorYear(value) {
   let text = String(value ?? "")
-  text = text.replace(/\s*\([^()]*\b(?:19|20)\d{2}\b[^()]*\)/g, " ")
+  text = text.replace(/\s*\((?:[^()]|\([^()]*\))*\b(?:19|20)\d{2}\b(?:[^()]|\([^()]*\))*\)/g, " ")
   text = text.replace(
-    /\b([A-Z][a-z'’.-]{1,})(?:\s+(?:&|and)\s+[A-Z][a-z'’.-]{1,})?(?:\s+et al\.)?\s+(?:19|20)\d{2}\b/g,
+    /\b([A-Z][a-z'’.-]{1,})(?:\s+(?:&|and)\s+[A-Z][a-z'’.-]{1,})?(?:\s+et al\.)?,?\s+(?:19|20)\d{2}[a-z]?\b/g,
     (match, name) => (MONTHS.has(String(name).toLowerCase()) ? match : " "),
   )
+  text = text.replace(/\b[A-Z]{2,}(?:\s*[/&]\s*[A-Z]{2,})?\s+(?:19|20)\d{2}[a-z]?\b/g, " ")
+  return text
+}
+
+function repairCitationGap(value) {
+  let text = String(value ?? "")
+  text = text.replace(/\bnamed\s+by\s+(?=in\b)/gi, "named ")
+  text = text.replace(/\b(?:listed|named|cited|described|reported|reviewed|supported)\s+by\b/gi, "")
   text = text.replace(/\b(?:by|from)\s+(?=among\b|in\b|as\b|for\b|through\b|on\b)/gi, "")
-  return tidy(text)
+  text = text.replace(/\bchapter-level\s+/gi, "")
+  text = text.replace(/\s+to this wiki\b/gi, "")
+  text = text.replace(/,?\s*so this node is source-map context only\.?/gi, "")
+  text = text.replace(/\.\s*This node is source-map context only\.?/gi, ".")
+  return text
+}
+
+function dropLongParentheticals(value) {
+  let text = String(value ?? "")
+  let out = ""
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] !== "(") {
+      out += text[i]
+      continue
+    }
+    let depth = 0
+    let j = i
+    for (; j < text.length; j++) {
+      if (text[j] === "(") depth++
+      else if (text[j] === ")") {
+        depth--
+        if (depth === 0) {
+          j++
+          break
+        }
+      }
+    }
+    const inner = text.slice(i, j)
+    if (inner.length >= 24) {
+      i = j - 1
+      continue
+    }
+    out += inner
+    i = j - 1
+  }
+  return tidy(out)
+}
+
+function indexAtDepth(text, marker) {
+  let depth = 0
+  for (let i = 0; i <= text.length - marker.length; i++) {
+    const ch = text[i]
+    if (ch === "(") depth++
+    else if (ch === ")") depth = Math.max(0, depth - 1)
+    else if (depth === 0 && text.startsWith(marker, i)) return i
+  }
+  return -1
+}
+
+// When a lead sentence is longer than the description budget, keep its main
+// clause (the part before a colon or a trailing relative clause) and finish
+// it as its own sentence. The elaboration after that boundary stays out.
+function clauseOk(clause) {
+  if (!clause || !VERB.test(clause) || PRONOUN_START.test(clause)) return false
+  if (TRAILING.has(lastWordKey(clause.replace(/[.!?]+$/, "")))) return false
+  return acceptableSentence(clause)
+}
+
+function leadClause(sentence) {
+  const stripped = withTerminalPeriod(dropLongParentheticals(sentence))
+  const body = sentence.replace(/[.!?]+$/g, "")
+  const cuts = []
+  for (const marker of [": ", "; ", ", where ", ", which ", ", in which ", ", whose ", ", but ", ", and ", " through "]) {
+    const at = indexAtDepth(body, marker)
+    if (at >= 40) cuts.push(at)
+  }
+  const comma = indexAtDepth(body, ", ")
+  if (comma >= 80) cuts.push(comma)
+  let best = clauseOk(stripped) ? stripped : ""
+  for (const at of cuts) {
+    const clause = withTerminalPeriod(body.slice(0, at))
+    if (!clauseOk(clause)) continue
+    if (clause.length > best.length) best = clause
+  }
+  return best
 }
 
 function lastWordKey(value) {
@@ -107,10 +208,16 @@ function unmatchedParenCut(value) {
   return value
 }
 
-export function capHtmlTitle(title, max = HTML_TITLE_MAX) {
-  let text = normalizeSpaces(title)
+export function normalizeTitle(title) {
+  const text = tidy(title)
   if (!text) return text
-  if (text.length <= max) return unmatchedParenCut(text)
+  return unmatchedParenCut(text)
+}
+
+export function capHtmlTitle(title, max = HTML_TITLE_MAX) {
+  let text = normalizeTitle(title)
+  if (!text) return text
+  if (text.length <= max) return text
   let cut = text.lastIndexOf(" ", max)
   if (cut < 40) {
     text = text.slice(0, max).replace(/[\s,;:]+$/g, "")
@@ -130,7 +237,7 @@ export function extractOverview(markdown) {
   if (start < 0) return ""
   const after = body.slice(start).replace(/^## Overview[^\n]*\n/, "")
   const next = after.search(/\n## |\n# /)
-  return stripMarkup(next < 0 ? after : after.slice(0, next))
+  return next < 0 ? after : after.slice(0, next)
 }
 
 export function isMetalArticle(slug, type) {
@@ -151,7 +258,7 @@ export function isRegulationArticle(slug, type) {
 
 function splitSentences(text) {
   const parts = []
-  const re = /([.!?])\s+(?=[A-Z])/g
+  const re = /([.!?])\s+(?=[A-Za-z])/g
   let last = 0
   let match
   while ((match = re.exec(text))) {
@@ -169,134 +276,37 @@ function splitSentences(text) {
   return parts
 }
 
-function usableSentences(overview) {
-  return splitSentences(stripMarkup(overview)).filter((sentence) => {
-    return !/^(?:this page draws|chapter-level)\b/i.test(sentence)
-  })
-}
-
-function nameVariants(title, name) {
-  const variants = []
-  const push = (value) => {
-    const text = tidy(value)
-    if (text && !variants.some((item) => item.toLowerCase() === text.toLowerCase())) variants.push(text)
-  }
-  push(title)
-  push(name)
-  const comma = String(title ?? "").match(/^([^,]+),\s*(.+)$/)
-  if (comma) push(`${comma[2]} ${comma[1]}`)
-  const nameComma = String(name ?? "").match(/^([^,]+),\s*(.+)$/)
-  if (nameComma) push(`${nameComma[2]} ${nameComma[1]}`)
-  return variants.sort((a, b) => b.length - a.length)
-}
-
-function escapeRegExp(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-}
-
-function stripLeadingParenthetical(value) {
-  let text = String(value ?? "").trim()
-  if (!text.startsWith("(")) return text
-  let depth = 0
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] === "(") depth++
-    else if (text[i] === ")") {
-      depth--
-      if (depth === 0) return text.slice(i + 1).trim()
-    }
-  }
-  return text
-}
-
-function stripLongParentheticals(value) {
-  let text = String(value ?? "")
-  let out = ""
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] !== "(") {
-      out += text[i]
-      continue
-    }
-    let depth = 0
-    let j = i
-    for (; j < text.length; j++) {
-      if (text[j] === "(") depth++
-      else if (text[j] === ")") {
-        depth--
-        if (depth === 0) {
-          j++
-          break
-        }
-      }
-    }
-    const inner = text.slice(i, j)
-    if (inner.length >= 28) {
-      i = j - 1
-      continue
-    }
-    out += inner
-    i = j - 1
-  }
-  return tidy(out)
-}
-function clauseFromSentence(sentence, title, name) {
-  let text = stripAuthorYear(sentence).replace(/[.!?]+$/g, "").trim()
-  const variants = nameVariants(title, name)
-  if (variants.length) {
-    const alt = variants.map(escapeRegExp).join("|")
-    const lead = new RegExp(`^(?:the toxicology of\\s+)?(?:${alt})(?:'s)?\\s+`, "i")
-    if (lead.test(text)) {
-      let stripped = stripLeadingParenthetical(text.replace(lead, ""))
-      if (!/^(?:and|or|but|,)\b/i.test(stripped)) {
-        text = stripped.replace(/^(?:is|are|was|were)\s+/i, "")
-      }
-    }
-  }
-  return tidy(text).replace(/[.!?]+$/g, "").trim()
+function displayName(title) {
+  const text = tidy(title)
+  const comma = text.match(/^([^,]+),\s*(.+)$/)
+  if (!comma) return text
+  const qualifier = comma[2].trim()
+  const pretty = qualifier.charAt(0).toUpperCase() + qualifier.slice(1)
+  return tidy(`${pretty} ${comma[1].trim()}`)
 }
 
 function metalLabel(title, symbol) {
-  const heading = tidy(title)
+  const heading = displayName(title)
   const sym = tidy(symbol)
   if (!heading) return sym
   if (!CHEMICAL_SYMBOL.test(sym)) return heading
   if (heading.includes(`(${sym})`)) return heading
-  const labeled = `${heading} (${sym})`
-  return labeled.length <= 40 ? labeled : heading
+  return `${heading} (${sym})`
 }
 
-function fitClause(clause, budget) {
-  const text = tidy(clause)
-  if (!text) return ""
-  if (text.length <= budget) return trimTrail(unmatchedParenCut(text), Math.min(18, Math.max(text.length - 8, 8)))
-  let cut = text.lastIndexOf(" ", budget + 1)
-  if (cut < 12) cut = Math.min(budget, text.length)
-  let slice = text.slice(0, cut)
-  const opens = (slice.match(/\(/g) || []).length
-  const closes = (slice.match(/\)/g) || []).length
-  if (opens > closes) {
-    const paren = slice.lastIndexOf("(")
-    if (paren >= 18) slice = slice.slice(0, paren)
-  }
-  return trimTrail(slice.replace(/[\s,;:]+$/g, ""), 12)
+function titleKind(title, symbol) {
+  const sym = tidy(symbol)
+  if (TOTAL_SYMBOLS.has(sym)) return "total"
+  if (FORM_SYMBOLS.has(sym)) return "form"
+  if (sym && !CHEMICAL_SYMBOL.test(sym)) return "form"
+  return "element"
 }
 
-function metalTitleFromOverview({ title, symbol, name, overview }) {
-  const label = metalLabel(title, symbol)
-  const sep = ": "
-  const budget = HTML_TITLE_MAX - label.length - sep.length
-  if (budget < 16) return capHtmlTitle(label)
-  const sentences = usableSentences(overview)
-  let chosen = ""
-  for (const sentence of sentences.slice(0, 2)) {
-    const clause = fitClause(clauseFromSentence(sentence, title, name), budget)
-    if (clause.length >= 18) {
-      chosen = clause
-      break
-    }
-    if (clause.length > chosen.length) chosen = clause
-  }
-  if (chosen.length < 12) return capHtmlTitle(`${label} in food and water`)
-  return capHtmlTitle(`${label}${sep}${chosen}`)
+function metalTitle(label, kind) {
+  const tail = kind === "total" ? TOTAL_TAIL : kind === "form" ? FORM_TAIL : ELEMENT_TAIL
+  const withBrand = `${label}${tail}${BRAND_SUFFIX}`
+  if (withBrand.length <= HTML_TITLE_MAX) return withBrand
+  return `${label}${tail}`
 }
 
 function withTerminalPeriod(value) {
@@ -306,78 +316,137 @@ function withTerminalPeriod(value) {
   return text
 }
 
-function fitWords(base, extra) {
-  const words = tidy(extra).replace(/[.!?]+$/g, "").split(" ").filter(Boolean)
-  let acc = base
-  let best = ""
-  for (const word of words) {
-    const trial = acc ? `${acc} ${word}` : word
-    const shown = withTerminalPeriod(unmatchedParenCut(trial))
-    if (shown.length > META_DESCRIPTION_MAX) break
-    acc = trial
-    if (shown.length < META_DESCRIPTION_MIN || TRAILING.has(lastWordKey(shown.replace(/[.!?]+$/g, "")))) continue
-    best = shown
-  }
-  return best
+function cleanProse(overview) {
+  let text = stripMarkup(overview)
+  text = stripAuthorYear(text)
+  text = repairCitationGap(text)
+  return tidy(text)
 }
 
-function extensionOptions(sentence) {
-  const body = tidy(sentence).replace(/[.!?]+$/g, "")
-  const parts = body.split(/[,;]\s+/).map((part) => part.trim()).filter(Boolean)
-  const options = [{ text: body, tail: false }]
-  if (parts.length > 1) {
-    options.push({ text: parts[0], tail: false })
-    const tail = parts[parts.length - 1].replace(/^(?:so|and|but)\s+/i, "")
-    if (tail.split(" ").length >= 4) options.push({ text: tail, tail: true })
-  }
-  return options
+function isTeaser(sentence) {
+  return /\b(?:one|two|three|four|five|several)\s+(?:pathways|routes|reasons|ways)\b/i.test(sentence) &&
+    !sentence.includes(":")
 }
 
-// Keep a complete sentence when it already fits. Otherwise extend with the
-// next sentence, preferring a whole clause that lands inside 120-160 characters.
-function clipToDescription(text) {
-  const sentences = splitSentences(stripLongParentheticals(text)).filter(Boolean)
-  if (!sentences.length) return ""
-  let out = ""
-  for (const sentence of sentences) {
-    const next = withTerminalPeriod(out ? `${out} ${tidy(sentence)}` : sentence)
-    if (next.length <= META_DESCRIPTION_MAX) {
-      out = next
-      if (out.length >= META_DESCRIPTION_MIN) return out
+function acceptableSentence(sentence) {
+  const text = tidy(sentence)
+  if (!text || text.length > META_DESCRIPTION_MAX || text.length < 40) return false
+  if (!/^[A-Z0-9]/.test(text)) return false
+  if (!/[.!?]$/.test(text)) return false
+  if (PRONOUN_START.test(text)) return false
+  if (PROCESS.test(text)) return false
+  if (isTeaser(text)) return false
+  if (/\b(?:by|from)\s+(?:among|in|as|for|through|on)\b/i.test(text)) return false
+  if (/[—–]/.test(text)) return false
+  if (/\[\d/.test(text)) return false
+  return true
+}
+
+function openingSentences(overview) {
+  const cleaned = cleanProse(overview)
+  const usable = []
+  for (const sentence of splitSentences(cleaned)) {
+    let repaired = withTerminalPeriod(repairCitationGap(sentence))
+    if (!repaired) continue
+    if (/^[a-z]/.test(repaired)) repaired = repaired.charAt(0).toUpperCase() + repaired.slice(1)
+    if (PROCESS.test(repaired)) continue
+    if (PRONOUN_START.test(repaired) || isTeaser(repaired)) {
+      if (usable.length) break
       continue
     }
-    if (out.length >= META_DESCRIPTION_MIN) return out
-    let best = ""
-    let bestScore = -1
-    for (const option of extensionOptions(sentence)) {
-      if (option.tail && out === "") continue
-      const text = option.tail ? option.text.replace(/^[a-z]/, (letter) => letter.toUpperCase()) : option.text
-      const fitted = fitWords(out, text)
-      if (!fitted) continue
-      const whole = withTerminalPeriod(`${out ? out + " " : ""}${text}`)
-      const complete = whole.length <= META_DESCRIPTION_MAX && whole.length >= META_DESCRIPTION_MIN
-      const score = (complete ? 1000 : 0) + fitted.length + (option.tail ? 0 : 50)
+    if (acceptableSentence(repaired)) {
+      const next = usable.concat(repaired).join(" ")
+      if (usable.length && next.length > META_DESCRIPTION_MAX) break
+      usable.push(repaired)
+      if (next.length >= META_DESCRIPTION_MIN) return usable
+      continue
+    }
+    if (repaired.length > META_DESCRIPTION_MAX) {
+      const clause = leadClause(repaired)
+      if (clause) usable.push(clause)
+      break
+    }
+  }
+  return usable
+}
+
+function packSentences(sentences) {
+  return sentences.join(" ").trim()
+}
+
+function copula(label) {
+  const name = String(label).replace(/\s*\([^)]*\)\s*$/, "")
+  if (/s$/i.test(name) && !/(?:ss|us|is|as)$/i.test(name)) return "are"
+  return "is"
+}
+
+function inRange(value) {
+  const text = tidy(value)
+  return text.length >= META_DESCRIPTION_MIN &&
+    text.length <= META_DESCRIPTION_MAX &&
+    !/[—–]/.test(text) &&
+    /[.!?]$/.test(text)
+}
+
+function genericOptions(label, plain) {
+  const name = plain.toLowerCase()
+  const be = copula(label)
+  return [
+    `${label} ${be} covered by the Heavy Metal Index as a reference on ${name} in food, including the evidence reviewed in the literature.`,
+    `${label} ${be} the Heavy Metal Index reference on ${name} in food, including occurrence and the evidence reviewed.`,
+    `The Heavy Metal Index reference on ${name} in food covers occurrence and the evidence reviewed in the literature.`,
+    `${label} in food ${be} summarized from the literature, including occurrence and the evidence reviewed for ${name}.`,
+  ]
+}
+
+function templateDescription(fact, label, plain) {
+  const name = plain.toLowerCase()
+  const core = tidy(fact).replace(/[.!?]+$/g, "")
+  const pads = [
+    `The reference covers ${name} in food.`,
+    `The food literature on ${name} is reviewed.`,
+    `Occurrence in food is reviewed.`,
+    `The Heavy Metal Index covers ${name}.`,
+    `The Heavy Metal Index reference covers ${name} in food.`,
+    `The literature reviewed here covers ${name} in food.`,
+    `Occurrence and the evidence for ${name} in food are reviewed.`,
+    `Occurrence and the evidence for ${name} in food are reviewed in the literature.`,
+  ]
+  let best = ""
+  let bestScore = -1
+  if (core) {
+    for (const pad of pads) {
+      const joined = `${withTerminalPeriod(core)} ${pad}`
+      if (!inRange(joined)) continue
+      const score = (pad.toLowerCase().includes(name) ? 1000 : 0) + joined.length
       if (score > bestScore) {
-        best = fitted
+        best = joined
         bestScore = score
       }
     }
     if (best) return best
-    return ""
   }
-  return out.length >= META_DESCRIPTION_MIN ? out : ""
+  return genericOptions(label, plain).find((option) => inRange(option)) || ""
 }
 
-export function metalMetaDescription(overview) {
-  return clipToDescription(usableSentences(overview).join(" "))
+export function metalMetaDescription(overview, plainName = "", label = "") {
+  const plain = tidy(plainName) || "this metal"
+  const heading = tidy(label) || plain
+  const packed = packSentences(openingSentences(overview))
+  if (packed && inRange(packed)) return packed
+  return templateDescription(packed, heading, plain)
 }
 
 export function metalSearchFields({ title, symbol, name, overview } = {}) {
-  const prose = stripMarkup(overview)
-  if (!prose) return null
+  const heading = tidy(title) || tidy(name)
+  if (!heading) return null
+  const label = metalLabel(heading, symbol)
+  const kind = titleKind(heading, symbol)
+  const plain = displayName(heading)
+  const prose = overview ? cleanProse(overview) : ""
   return {
-    title: metalTitleFromOverview({ title, symbol, name, overview: prose }),
-    description: metalMetaDescription(prose),
+    title: metalTitle(label, kind),
+    description: metalMetaDescription(prose, plain, label),
   }
 }
 
