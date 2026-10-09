@@ -39,6 +39,7 @@ import {
   karenEntity,
   organizationEntity,
 } from "./lib/entity-graph.mjs"
+import { capHtmlTitle, extractOverview, metalSearchFields } from "./lib/search-snippet.mjs"
 
 const repoRoot = process.cwd()
 const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
@@ -210,7 +211,8 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
     const slug = file.replace(/\.md$/, "")
     const mdPath = path.join(wikiCatDir, file)
     const raw = fs.readFileSync(mdPath, "utf8")
-    const fm = matter(raw).data
+    const parsed = matter(raw)
+    const fm = parsed.data
 
     // Skip auto-generated cross-cut pages (regulations/by-jurisdiction, etc.)
     if (fm.auto_generated === true) continue
@@ -221,7 +223,7 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
     let html = fs.readFileSync(htmlPath, "utf8")
     if (html.includes("HMI-JSONLD-START")) { alreadyHasBlock += 1; continue }
 
-    const ld = buildJsonLd(category, slug, fm, meta, html)
+    const ld = buildJsonLd(category, slug, fm, meta, html, parsed.content)
 
     // The page-level JSON-LD plus, when the rendered page carries a
     // Key-questions accordion, a sibling FAQPage object. Each is emitted as its
@@ -271,15 +273,24 @@ function findHtmlOutput(category, slug) {
   return null
 }
 
-function buildJsonLd(category, slug, fm, meta, html) {
+function buildJsonLd(category, slug, fm, meta, html, body = "") {
   const url = `https://heavymetalindex.com/${category}/${slug}`
   const identifier = fm.wiki_doi || url
+  const metalFields = category === "metals"
+    ? metalSearchFields({
+        title: fm.title,
+        symbol: fm.symbol,
+        name: fm.name,
+        overview: extractOverview(body),
+      })
+    : null
+  const headline = metalFields?.title || capHtmlTitle(fm.title || slug)
 
   const ld = {
     "@context": "https://schema.org",
     "@type": meta.type,
-    headline: fm.title || slug,
-    name: fm.title || slug,
+    headline,
+    name: headline,
     url,
     identifier,
     isPartOf: REFERENCE_WORK,
@@ -296,7 +307,8 @@ function buildJsonLd(category, slug, fm, meta, html) {
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
   if (fm.published) ld.datePublished = toIso(fm.published)
-  if (fm.description) ld.description = String(fm.description).slice(0, 500)
+  if (metalFields?.description) ld.description = metalFields.description
+  else if (fm.description) ld.description = String(fm.description).slice(0, 500)
 
   // Reports are citable CreativeWork entities in their own right. Expose the
   // reproducible data products from the same canonical report identifier so

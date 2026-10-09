@@ -6,6 +6,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
+import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields } from "../../tools/lib/search-snippet.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -128,15 +129,18 @@ function CitationMetadata({
     )
   }
 
-  // The wiki's own analytical work — synthesis pages and the comprehensive
-  // metal reviews — emitted as Highwire / Google Scholar citation metadata so
-  // Scholar can index them as original technical reports from the Index. Framed
-  // honestly as an institutional report (not a journal article); the
-  // page-level DOI flows in automatically once wiki_doi is minted. Category
-  // pages and stubs are intentionally excluded to avoid overclaiming.
+  // The wiki's own analytical work — synthesis pages, metal reviews, and
+  // regulation pages — emitted as Highwire / Google Scholar citation metadata
+  // so Scholar can index them as original technical reports from the Index.
+  // Framed honestly as an institutional report (not a journal article); the
+  // page-level DOI flows in automatically once wiki_doi (or an instrument DOI)
+  // is present. Category pages and stubs are intentionally excluded to avoid
+  // overclaiming. citation_title stays the full page title; the HTML <title>
+  // is capped separately for search snippets.
   const isWikiScholarly =
     frontmatter.type === "synthesis" ||
     frontmatter.type === "metal" ||
+    isRegulationArticle(slugStr, frontmatter.type) ||
     slugStr.startsWith("synthesis/") ||
     slugStr.startsWith("metals/")
   if (isWikiScholarly) {
@@ -145,7 +149,7 @@ function CitationMetadata({
       frontmatterString(frontmatter.established) ??
       frontmatterString(frontmatter.updated) ??
       frontmatterString(frontmatter.created)
-    const wikiDoi = frontmatterString(frontmatter.wiki_doi)
+    const wikiDoi = citationDoi(frontmatter)
     // hasPdf is computed by the caller via hasScholarlyPdf(fileData) — the same
     // rule the generator applies — so citation_pdf_url, the Download PDF button
     // and the rendered file can never disagree.
@@ -186,11 +190,23 @@ export default (() => {
     ctx,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
-    const title =
+    const pageTitle =
       (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+    const metalFields = isMetalArticle(fileData.slug, fileData.frontmatter?.type)
+      ? metalSearchFields({
+          title: fileData.frontmatter?.title,
+          symbol: fileData.frontmatter?.symbol,
+          name: fileData.frontmatter?.name,
+          overview: fileData.overviewProse,
+        })
+      : null
+    // Document titles are capped at a word boundary. Metal pages replace the
+    // one-word heading with a description drawn from the Overview before the cap.
+    const title = capHtmlTitle(metalFields?.title || pageTitle)
     const description =
-      fileData.frontmatter?.socialDescription ??
-      fileData.frontmatter?.description ??
+      metalFields?.description ||
+      fileData.frontmatter?.socialDescription ||
+      fileData.frontmatter?.description ||
       unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
 
     const { css, js, additionalHead } = externalResources

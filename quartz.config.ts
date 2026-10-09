@@ -156,6 +156,10 @@ const config: QuartzConfig = {
       // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.
       Plugin.CollapsibleQuestions(),
       Plugin.Description(),
+      // Metal document titles and meta descriptions are derived from Overview
+      // prose. Must run after Description so the search-index blurb matches
+      // the <meta name="description"> Head emits. See searchSnippet.ts.
+      Plugin.SearchSnippet(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
