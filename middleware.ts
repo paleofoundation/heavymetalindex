@@ -1,4 +1,8 @@
 import { next } from "@vercel/functions";
+import goneList from "./data/redirects/gone-410.json";
+import { isIntentionallyGone } from "./lib/gone-410";
+
+const GONE = new Set(goneList.paths);
 
 const PROTECTED_PREFIXES = [
   "/staff",
@@ -29,11 +33,27 @@ export const config = {
     "/workbench/:path*",
     "/standards-workbench",
     "/standards-workbench/:path*",
+    "/sources/:path*",
+    "/dossiers",
+    "/dossiers/:path*",
+    "/ingredients/:path*",
+    "/products/categories/:path*",
+    "/audits/2026-06-03-baseline",
+    "/completeness-gaps",
+    "/completeness-gaps/:path*",
+    "/for-brands",
+    "/for-brands/:path*",
+    "/lint/2026-04-28-raw-studies-category-1-candidate-ingest",
+    "/__test_barrier__",
   ],
 };
 
 export default async function middleware(request: Request) {
   const url = new URL(request.url);
+
+  if (isIntentionallyGone(url.pathname, GONE)) {
+    return renderGone();
+  }
 
   if (!isProtectedPath(url.pathname)) {
     return next();
@@ -80,6 +100,33 @@ export default async function middleware(request: Request) {
       "Set-Cookie": sessionCookie,
     },
   });
+}
+
+function renderGone(): Response {
+  return new Response(
+    `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Gone</title>
+</head>
+<body>
+<h1>Gone</h1>
+<p>This page has been removed.</p>
+<p><a href="/">Heavy Metal Index</a></p>
+</body>
+</html>`,
+    {
+      status: 410,
+      headers: {
+        "Cache-Control": "public, max-age=3600",
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+      },
+    },
+  );
 }
 
 function isProtectedPath(pathname: string): boolean {

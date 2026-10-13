@@ -227,7 +227,7 @@ function buildDashboard(audits) {
   out.push("- Slug-alias match (frontmatter needs backfill): " + tax.by_alias)
   out.push("- Missing destination pages: " + tax.missing)
   out.push("")
-  out.push("Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-coverage-audit.md]].  Full PRISMA-equivalent: [[coverage]].")
+  out.push("Detail report: `data/evidence/taxonomy-coverage-audit.md`.  Full PRISMA-equivalent: [[coverage]].")
   out.push("")
 
   out.push("## Routing audit")
@@ -238,7 +238,7 @@ function buildDashboard(audits) {
     out.push(`- Unresolved targets (source frontmatter declares a slug that doesn't exist): **${audits.routing.unresolved}**`)
     out.push(`- Malformed sources (missing required frontmatter fields): **${audits.routing.malformed}** (non-blocking)`)
     out.push("")
-    out.push("Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].")
+    out.push("Detail: `data/evidence/product_source_routing_audit.csv`, `data/evidence/routing_unresolved.csv`, `data/evidence/routing_malformed.csv`.")
     out.push("")
   }
 
@@ -259,7 +259,7 @@ function buildDashboard(audits) {
     out.push("")
     out.push(`Check 2 is informational, not a failure: the scaffolded universe (277 taxonomy rows) is larger than the current ingested universe (897 source pages); rows without sources are the priority queue for the next ingest pass, not defects.`)
     out.push("")
-    out.push("Detail: [[data/evidence/routing-discipline-audit|data/evidence/routing-discipline-audit.csv]].")
+    out.push("Detail: `data/evidence/routing-discipline-audit.csv`.")
     out.push("")
   }
 
@@ -275,7 +275,7 @@ function buildDashboard(audits) {
     out.push(`- Non-stub failing: **${a.failing}**`)
     if (a.stubs) out.push(`- Stubs (exempt): ${a.stubs}`)
     out.push("")
-    out.push("Detail: [[data/evidence/ingredient-mandatory-sections-audit|data/evidence/ingredient-mandatory-sections-audit.csv]].")
+    out.push("Detail: `data/evidence/ingredient-mandatory-sections-audit.csv`.")
     out.push("")
   }
 
@@ -291,7 +291,7 @@ function buildDashboard(audits) {
     out.push(`- Non-stub failing: **${a.failing}**`)
     if (a.stubs) out.push(`- Stubs (exempt): ${a.stubs}`)
     out.push("")
-    out.push("Detail: [[data/evidence/product-mandatory-sections-audit|data/evidence/product-mandatory-sections-audit.csv]].")
+    out.push("Detail: `data/evidence/product-mandatory-sections-audit.csv`.")
     out.push("")
   }
 
@@ -334,7 +334,7 @@ function buildDashboard(audits) {
     out.push("")
     out.push(`Cochrane target: **>95%** supported. Current baseline reports the gap to that target as a follow-up queue. The v1 audit does not yet verify that the cited source actually contains the claimed value (that requires PDF reading per claim) — only that a citation exists. v2 will add PDF-side verification.`)
     out.push("")
-    out.push("Detail: [[data/evidence/claim-provenance-audit|data/evidence/claim-provenance-audit.csv]] (per-claim records with section context).")
+    out.push("Detail: `data/evidence/claim-provenance-audit.csv` (per-claim records with section context).")
     out.push("")
   }
 
@@ -345,7 +345,7 @@ function buildDashboard(audits) {
   out.push("- **PDF-side verification.** Trace-every-claim audit v2 should follow each `[[sources/...]]` link to the cited source page, then to the raw PDF in `raw/markdown/<FM_id>/` or `raw/manual-fetch/...`, and verify the claimed value appears in the source. Today's v1 audit only verifies a citation exists; not that the citation is correct.")
   out.push("- **Synthesis reproducibility audit.** Pick 5 populated `contamination_profile` cells. Re-derive the values from contributing sources from scratch (without consulting the existing page). Compare. Target: 100% reconstructible. Not yet automated; requires deep reading of contributing sources.")
   out.push("- **Inter-rater reliability.** Re-ingest 20 source pages with a second extractor blind to the existing pages. Compare values + metadata. Compute κ. Target: κ > 0.7 extraction, > 0.8 inclusion. Not yet operationalized.")
-  out.push("- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. The commissioning brief is drafted at [[docs/external-review-brief|docs/external-review-brief]] and is ready for Karen to send; reviewers not yet engaged.")
+  out.push("- **External peer review.** Three independent reviewers (toxicology academic, brand RA veteran, plaintiff's-side class-action attorney) read the wiki and report defects. The commissioning brief is drafted at `docs/external-review-brief` and is ready for Karen to send; reviewers not yet engaged.")
   out.push("")
   out.push("These four audits are the Cochrane-level qualifying audits. They are documented here as gaps in the harness so the audit dashboard does not present a falsely complete picture.")
   out.push("")

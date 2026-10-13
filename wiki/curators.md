@@ -115,4 +115,4 @@ Updates flow through the [[errata|errata process]]. A reader who notices an undi
 
 ## Schema
 
-The frontmatter shape on this page is the contract; downstream consumers (the Trust Center page, the editorial-standards page rendering, any external accreditation submission) read these structured slots. See [[../docs/schemas/index.md|schema docs]] for the cross-cutting fields. A per-page-type schema doc for `wiki/curators.md` will be added when the page graduates from scaffold to production.
+The frontmatter shape on this page is the contract; downstream consumers (the Trust Center page, the editorial-standards page rendering, any external accreditation submission) read these structured slots.

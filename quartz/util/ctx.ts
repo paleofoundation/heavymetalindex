@@ -26,6 +26,8 @@ export interface BuildCtx {
   argv: Argv
   cfg: QuartzConfig
   allSlugs: FullSlug[]
+  /** Alias and permalink slugs. Kept separate from allSlugs so shortest-link matching stays file-based. */
+  aliasSlugs?: FullSlug[]
   allFiles: FilePath[]
   trie?: FileTrieNode<BuildTimeTrieData>
   incremental: boolean

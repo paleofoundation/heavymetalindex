@@ -10,6 +10,7 @@ import { filterContent } from "./processors/filter"
 import { emitContent } from "./processors/emit"
 import cfg from "../quartz.config"
 import { FilePath, joinSegments, slugifyFilePath } from "./util/path"
+import { collectAliasSlugs } from "./util/aliasSlugs"
 import chokidar from "chokidar"
 import { ProcessedContent } from "./plugins/vfile"
 import { Argv, BuildCtx } from "./util/ctx"
@@ -80,6 +81,7 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   const filePaths = markdownPaths.map((fp) => joinSegments(argv.directory, fp) as FilePath)
   ctx.allFiles = allFiles
   ctx.allSlugs = allFiles.map((fp) => slugifyFilePath(fp as FilePath))
+  ctx.aliasSlugs = collectAliasSlugs(argv.directory, markdownPaths)
 
   const parsedFiles = await parseMarkdown(ctx, filePaths)
   const filteredContent = filterContent(ctx, parsedFiles)
@@ -208,6 +210,15 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     pathsToParse.push(fullPath)
   }
 
+  const aliasPaths = new Set<string>()
+  for (const fp of ctx.allFiles) {
+    if (fp.endsWith(".md") && changesSinceLastBuild[fp] !== "delete") aliasPaths.add(fp)
+  }
+  for (const change of changes) {
+    if (change.type !== "delete" && change.path.endsWith(".md")) aliasPaths.add(change.path)
+  }
+  ctx.aliasSlugs = collectAliasSlugs(argv.directory, [...aliasPaths])
+
   const parsed = await parseMarkdown(ctx, pathsToParse)
   for (const content of parsed) {
     contentMap.set(content[1].data.relativePath!, {
@@ -255,6 +266,10 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
   // update allFiles and then allSlugs with the consistent view of content map
   ctx.allFiles = Array.from(contentMap.keys())
   ctx.allSlugs = ctx.allFiles.map((fp) => slugifyFilePath(fp as FilePath))
+  ctx.aliasSlugs = collectAliasSlugs(
+    argv.directory,
+    ctx.allFiles.filter((fp) => fp.endsWith(".md")),
+  )
   let processedFiles = filterContent(
     ctx,
     Array.from(contentMap.values())

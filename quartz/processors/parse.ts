@@ -180,6 +180,7 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
       buildId: ctx.buildId,
       argv: ctx.argv,
       allSlugs: ctx.allSlugs,
+      aliasSlugs: ctx.aliasSlugs ?? [],
       allFiles: ctx.allFiles,
       incremental: ctx.incremental,
     }
