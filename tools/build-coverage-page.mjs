@@ -187,7 +187,7 @@ function main() {
   out.push("")
   out.push("This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparency surface showing how many papers were identified in the literature search, how many became source pages, how the HMTc Taxonomy v2.0 universe is covered, and where the gaps are. Brand legal teams, regulatory affairs leads, FDA reviewers, and plaintiff/defense experts auditing the wiki's defensibility should land here.")
   out.push("")
-  out.push("The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.")
+  out.push("The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is the locked category list this coverage report is counted against.")
   out.push("")
   out.push(`This page was regenerated on **${today}** from the current state of the corpus.`)
   out.push("")

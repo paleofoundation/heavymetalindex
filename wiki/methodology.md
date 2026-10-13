@@ -87,7 +87,7 @@ After launch, ongoing quality assurance comprises: periodic re-sampling of publi
 
 ## Corrections and versioning
 
-When an error is identified, the affected pages are corrected and the correction is logged in the [log](/log). The correction appears in the page history (visible in the git commit log for the repository); material corrections are also summarized on the page itself at the foot of the affected section. Published regulatory values are never rounded, harmonized, or silently substituted; the exact value from the cited agency source is preserved, with conversions to comparable units shown explicitly where needed.
+When an error is identified, the affected pages are corrected. The correction appears in the page history (visible in the git commit log for the repository); material corrections are also summarized on the page itself at the foot of the affected section. Published regulatory values are never rounded, harmonized, or silently substituted; the exact value from the cited agency source is preserved, with conversions to comparable units shown explicitly where needed.
 
 ## Human review
 

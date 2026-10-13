@@ -2,9 +2,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import style from "./styles/footer.scss"
 
 // Columns and labels from "Heavy Metal Index v3.dc.html" footerCols (line 2389).
-// Every href is checked to resolve: v3 lists a few surfaces that have no page in
-// this build ("Structured exports", "Regulatory diff alerts", "Governance"), and
-// those are pointed at the nearest real page rather than shipped as 404s.
+// Surfaces with no published page are omitted. The change log is internal
+// and is not linked. "Structured exports" is the licensing page.
 //
 // Two corrections to the artifact, both per the settled naming rule: v3's
 // "Institute of Contamination Standards" is the wrong form, and its bottom bar
@@ -30,14 +29,12 @@ const footerSections = [
       ["Data and downloads", "/data"],
       ["Methodology", "/methodology"],
       ["Editorial standards", "/editorial-standards"],
-      ["Update history", "/log"],
     ],
   },
   {
     title: "Professional",
     links: [
       ["Structured exports", "/licensing"],
-      ["Regulatory diff alerts", "/log"],
       ["Licensing and reuse", "/licensing"],
       ["Contact", "/contact"],
     ],

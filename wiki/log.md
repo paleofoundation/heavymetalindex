@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-13] lint | HMI-404 — remove dead public links
+
+Pages touched: [[methodology]], [[methodology/search-strategy]], [[curators]], [[coverage]], [[audits/index]]
+Notes: Footer links to the internal change log are removed. Wikilinks to pages that do not exist render as plain text. Links to renamed pages point at the current page. 186 old URLs redirect. Removed pages without a successor return 410. No literature claim was changed. No certification threshold was set.
+
 ## [2026-10-06] lint | HMI-META-RAJKOWSKA-1 — Rajkowska-Myśliwiec 2024 rice arsenic
 
 Pages touched: [[sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland]], [[metals/arsenic-total]], [[metals/arsenic-inorganic]], [[metals/cadmium]], [[metals/chromium]], [[metals/mercury-methyl]], [[metals/mercury-total]], [[products/rice-bulk-grain]], [[products/rice-snacks-crackers]], [[products/rice-noodles]], [[products/fish-marine-non-predatory]], [[ingredients/rice]]

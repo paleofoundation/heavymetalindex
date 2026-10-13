@@ -50,14 +50,12 @@ const DEFAULT_SECTIONS: FooterSection[] = [
       { label: "Audit dashboard", href: "#/audits" },
       { label: "Methodology", href: "#/methodology" },
       { label: "Editorial standards", href: "#/editorial-standards" },
-      { label: "Update history", href: "#/log" },
     ],
   },
   {
     title: "Professional",
     links: [
       { label: "Structured exports", href: "#/licensing" },
-      { label: "Regulatory diff alerts", href: "#/log" },
       { label: "Licensing and reuse", href: "#/licensing" },
       { label: "Contact", href: "#/contact" },
     ],

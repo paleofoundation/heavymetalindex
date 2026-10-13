@@ -36,8 +36,11 @@ const config: QuartzConfig = {
       // Operational records stay in git and stay off the public site.
       // batch-reports/ is the ingest log (identity checks, routing notes,
       // audit verdicts). lint/ is the QA record. log.md is the change log.
-      // None of them are literature. Public pages must not link them; the
-      // sitewide batch-prose lint fails if a published page does.
+      // None of them are literature. The batch-prose lint scans published
+      // markdown for ingest-log wording and does not read layout components,
+      // which is why a footer link to log.md was outside that check.
+      // tools/audit-dead-internal-hrefs.mjs fails the build when a published
+      // page links to a path that is neither built nor redirected.
       "briefings",
       "briefings/**",
       "queries",
