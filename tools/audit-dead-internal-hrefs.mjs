@@ -27,9 +27,20 @@ export function normalizePublicPath(pathname) {
   return value
 }
 
-function loadRedirectSources(repoRoot) {
-  const vercel = JSON.parse(fs.readFileSync(path.join(repoRoot, "vercel.json"), "utf8"))
+function loadVercel(repoRoot) {
+  return JSON.parse(fs.readFileSync(path.join(repoRoot, "vercel.json"), "utf8"))
+}
+
+function loadRedirectSources(vercel) {
   return new Set(vercel.redirects.map((entry) => normalizePublicPath(entry.source)))
+}
+
+function loadFunctionPaths(vercel) {
+  const paths = new Set()
+  for (const key of Object.keys(vercel.functions ?? {})) {
+    paths.add(`/${key.replace(/\.(mjs|js|ts)$/u, "")}`)
+  }
+  return paths
 }
 
 function loadGonePaths(repoRoot) {
@@ -63,10 +74,19 @@ function stripNonContent(html) {
     .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "")
 }
 
+function decodeEntities(value) {
+  return value
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+}
+
 function hrefsIn(html) {
   const found = []
   const re = /\shref\s*=\s*(?:"([^"]*)"|'([^']*)')/gi
-  for (const match of html.matchAll(re)) found.push(match[1] ?? match[2] ?? "")
+  for (const match of html.matchAll(re)) found.push(decodeEntities(match[1] ?? match[2] ?? ""))
   return found
 }
 
@@ -90,9 +110,9 @@ function fileInside(publicDir, rel) {
   return fs.existsSync(abs) && fs.statSync(abs).isFile()
 }
 
-export function pathIsServed(publicDir, publicPath, redirectSources) {
+export function pathIsServed(publicDir, publicPath, redirectSources, functionPaths = new Set()) {
   const normalized = normalizePublicPath(publicPath)
-  if (redirectSources.has(normalized)) return true
+  if (redirectSources.has(normalized) || functionPaths.has(normalized)) return true
   const rel = normalized === "/" ? "" : normalized.slice(1)
   const candidates = rel === "" ? ["index.html"] : [`${rel}.html`, `${rel}/index.html`, rel]
   return candidates.some((candidate) => fileInside(publicDir, candidate))
@@ -131,7 +151,9 @@ export function auditDeadInternalHrefs({
   repoRoot,
   requireSitemap = true,
 }) {
-  const redirectSources = loadRedirectSources(repoRoot)
+  const vercel = loadVercel(repoRoot)
+  const redirectSources = loadRedirectSources(vercel)
+  const functionPaths = loadFunctionPaths(vercel)
   const gonePaths = loadGonePaths(repoRoot)
   const dead = []
   for (const file of walkHtml(publicDir)) {
@@ -140,7 +162,7 @@ export function auditDeadInternalHrefs({
     for (const href of hrefsIn(html)) {
       const target = internalPath(href, pagePath)
       if (!target) continue
-      if (!pathIsServed(publicDir, target, redirectSources)) {
+      if (!pathIsServed(publicDir, target, redirectSources, functionPaths)) {
         dead.push({ page: pagePath, href, target })
       }
     }

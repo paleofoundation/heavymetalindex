@@ -19,7 +19,7 @@ function fixture(files) {
 
 test("a redirect source is served and a missing page is not", () => {
   const publicDir = fixture({
-    "index.html": `<a href="/ingredients/almonds">old</a><a href="/no-such-page">missing</a><a href="/ingredients/almond">live</a>`,
+    "index.html": `<a href="/ingredients/almonds">old</a><a href="/no-such-page">missing</a><a href="/ingredients/almond">live</a><a href="/api/evidence-packet?slug=about&amp;format=json">packet</a>`,
     "ingredients/almond.html": `<a href="../index">home</a>`,
     "sitemap.xml": "<urlset><url><loc>https://heavymetalindex.com/ingredients/almond</loc></url></urlset>",
   })
