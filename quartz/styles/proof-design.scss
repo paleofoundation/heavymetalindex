@@ -15,7 +15,7 @@
   // #3f3a3f x92, #2b1f24 x88, #736b6e x58, #f2ece7 x55, #a9a1a2 x44.
   --burg: #7b153b; --burg-dark: #5b0d2a; --burg-tint: #f6ecf0; --burg-tint2: #fbf5f7;
   // October 14 color-only refresh; geometry and evidence-status colors stay fixed.
-  --marigold: #ffc329; --marigold-hover: #ffd569; --marigold-tint: #fff4d4; --marigold-edge: #9b6700;
+  --marigold: #ffc329; --marigold-hover: #ffd569; --marigold-edge: #9b6700;
   --ink: #2b1f24; --body: #3f3a3f; --muted: #736b6e; --faint: #a9a1a2;
   --line: #e8e1db; --line2: #f2ece7; --shade: #fbf8f5;
   --a: #2e9e6b; --b: #d39000; --c: #9aa0a8; --d: #c0392b;
@@ -237,7 +237,7 @@ a.internal.tag-link:hover {
    grid, so the whole conversion is CSS. No page content is edited, and it
    applies to every page carrying the block rather than to the one that was
    looked at. */
-.hmi-quick-read { background: var(--marigold-tint); border: 1px solid #eddfe4; border-left: 1px solid #eddfe4; border-radius: 0; padding: 22px 24px; margin: 0 0 44px; }
+.hmi-quick-read { background: var(--burg-tint); border: 1px solid #eddfe4; border-left: 1px solid #eddfe4; border-radius: 0; padding: 22px 24px; margin: 0 0 44px; }
 .hmi-quick-read-label { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.14em; color: #7b153b; margin-bottom: 12px; }
 .hmi-quick-read > p { margin: 0 0 18px; font-size: 16px; line-height: 1.65; color: #2b1f24; }
 
