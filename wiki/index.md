@@ -24,10 +24,6 @@ updated: 2026-09-11
           </div>
         </div>
       </div>
-      <nav class="hmi-v3-hero-links" aria-label="Explore the library">
-        <a class="hmi-v3-hero-action hmi-v3-hero-action--primary" href="synthesis/">Explore syntheses <span aria-hidden="true">&rarr;</span></a>
-        <a class="hmi-v3-hero-action hmi-v3-hero-action--secondary" href="methodology/">Our methods <span aria-hidden="true">&rarr;</span></a>
-      </nav>
     </div>
 
 <!-- BEGIN: hmi-corpus-counter -->
