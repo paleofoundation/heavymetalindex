@@ -100,3 +100,7 @@ headings, and selected search suggestions. Match the ledger borders to the
 existing purple border (`#eddfe4`) and use a deeper purple tint on its link hover.
 Retain saturated marigold actions, accent rules, headline accents, and decoration.
 This is a color-only follow-up with no layout, markup, content, or data changes.
+
+Karen also requested that the two offset layers behind the “Library at a glance”
+card use the same light purple. Use `--burg-tint` for both backing layers,
+preserving their existing positions, opacity, borders, and the card’s accent rule.
