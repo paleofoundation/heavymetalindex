@@ -15,13 +15,17 @@ products_status: scaffold
 splits_locked: false
 sources: 80
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-14
 ---
 # Rice (white, brown, wild — bulk grain)
 
+## Direct answer
+
+For the question of how much arsenic is in rice, and how cooking or rinsing changes it, Meharg et al. 2009 reported dry-weight median total arsenic in polished white rice of 0.04 mg/kg (40 µg/kg) in Egypt (n=110), 0.23 mg/kg (230 µg/kg) in France (n=33), and 0.25 mg/kg (250 µg/kg) in the United States (n=163) among 901 samples, with inorganic arsenic measured on a 63-sample subset (United States median 0.10 mg/kg, or 100 µg/kg, n=10; [[sources/meharg2009-geographic-variation-arsenic-white-rice]], DOI 10.1021/es802612a), while Yan et al. 2025 reported an inorganic arsenic median of 0.110 mg/kg (110 µg/kg) in 6,632 Henan samples ([[sources/yan2025-rice-heavy-metals-henan-china]], DOI 10.3389/fpubh.2025.1499653). The published typical inorganic arsenic range for dry polished white rice on [[ingredients/rice]] is 40 to 150 µg/kg across 8 studies. Carey et al. 2015 measured 57 ± 5 percent inorganic arsenic removal at a 12:1 water-to-rice ratio and up to 85 percent in the best coffee-percolator sample ([[sources/carey2015-rice-arsenic-percolating-cooking]], DOI 10.1371/journal.pone.0131608); TatahMentan et al. 2020 rinsed white rice and reported lead and cadmium loss, but arsenic was not in that rinse-loss table ([[sources/tatahmentan2020-rice-grains-elements]], DOI 10.3390/ijerph17218128).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 7: **Rice (white, brown, wild — bulk grain)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for bulk rice grain, including white, brown, and wild rice. The direct answer uses polished white-rice figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Who this page is for
 

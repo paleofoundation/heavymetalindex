@@ -82,11 +82,15 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-10-14
 sources: 4
 ---
 
 # Rice cakes
+
+## Direct answer
+
+For the question of arsenic in rice cakes for babies, the measured finished products in the primary source are rice crackers. Signes-Pastor et al. 2016 reported dry-weight inorganic arsenic medians of 0.111 mg/kg (111 µg/kg; range 0.018 to 0.201 mg/kg; n=97) in UK retail rice crackers and 0.079 mg/kg (79 µg/kg; range 0.008 to 0.273 mg/kg; n=199) in the US FDA 2014 rice-cracker subset ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078). Commission Regulation (EU) 2023/915 sets the inorganic arsenic maximum for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice at 0.30 mg/kg (300 µg/kg) as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]).
 
 ## Overview
 
@@ -123,7 +127,7 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 ## Ranges by source, region, and variety
 
-The iAs concentration in rice cakes is primarily determined by the iAs content of the rice grain used as the input, which is strongly influenced by rice production region and variety. California-grown medium-grain rice consistently produces lower iAs concentrations than US-grown long-grain varieties, particularly those from Arkansas, Louisiana, and Texas, owing to differences in soil arsenic availability and water management practices in these regions. Indian and Pakistani basmati varieties grown in low-arsenic subcontinent soils have some of the lowest iAs values documented among commonly traded rice types. Asian jasmine and short-grain varieties span a wide range depending on production location. Whole-grain (brown rice) inputs carry higher iAs than white rice inputs because the bran, where arsenic preferentially accumulates, is retained in brown rice. A rice cake made from whole-grain or brown rice therefore carries higher iAs than one made from white milled rice, all else being equal. The study by Signes-Pastor et al. (2016), the primary source on this page, documents iAs in rice cakes sold in UK and Spain, representing a European retail market basket including products made from various rice origins [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]]. Quantitative regional breakdown by input rice origin for rice cakes specifically requires additional source ingestion.
+The iAs concentration in rice cakes is primarily determined by the iAs content of the rice grain used as the input, which is strongly influenced by rice production region and variety. California-grown medium-grain rice consistently produces lower iAs concentrations than US-grown long-grain varieties, particularly those from Arkansas, Louisiana, and Texas, owing to differences in soil arsenic availability and water management practices in these regions. Indian and Pakistani basmati varieties grown in low-arsenic subcontinent soils have some of the lowest iAs values documented among commonly traded rice types. Asian jasmine and short-grain varieties span a wide range depending on production location. Whole-grain (brown rice) inputs carry higher iAs than white rice inputs because the bran, where arsenic preferentially accumulates, is retained in brown rice. A rice cake made from whole-grain or brown rice therefore carries higher iAs than one made from white milled rice, all else being equal. The primary source on this page, Signes-Pastor et al. 2016, measured inorganic arsenic in rice crackers bought from UK retailers and compared them with a US FDA 2014 rice-cracker survey. It does not report a Spain rice-cake market basket [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]]. The measured cracker figures are in the direct answer above. A quantitative breakdown by the origin of the rice inside those crackers is not in that source.
 
 ## Processing effects
 

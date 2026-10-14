@@ -513,7 +513,23 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-274 open item(s): 94 auto, 180 awaiting a decision.
+276 open item(s): 94 auto, 182 awaiting a decision.
+
+### OI-20261014-rice-cakes-ias-band — Rice-cakes inorganic arsenic typical band 46.5 to 132.5 ug/kg is not the Signes-Pastor cracker table
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/rice-cakes.md`
+- repro: contamination_profile.iAs.typical_ppb is [46.5, 132.5], n_studies 1, key source signes-pastor2016. That source page Table 3 reports UK rice-cracker Asi median 0.111 mg/kg (range 0.018 to 0.201) and US median 0.079 mg/kg (range 0.008 to 0.273). The 46.5 to 132.5 band is not printed there.
+- done when: Either the band is traced to a quoted statistic on the source page, or the profile is corrected to the printed cracker figures and the change is logged as toward the literature.
+- decision: _pending_
+
+### OI-20261014-meharg-france-median — Meharg 2009 overview calls France total-arsenic 0.28 mg/kg a median; the table median is 0.23 and the mean is 0.28
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/meharg2009-geographic-variation-arsenic-white-rice.md`
+- repro: Overview says median tAs France 0.28 mg/kg. Country table: France mean 0.28, median 0.23, n=33. Egypt median 0.04 and USA median 0.25 match the table.
+- done when: Overview median sentence matches the country table, with mean and median labeled separately.
+- decision: _pending_
 
 ### OI-20260928-publisher-chrome-titles — Four source pages still use scraped publisher page chrome as the title
 

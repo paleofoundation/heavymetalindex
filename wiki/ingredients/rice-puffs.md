@@ -82,15 +82,19 @@ higher_risk_variants: []
 used_in_products: [teething-and-snacks-rice-based]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-14
 sources: 0
 ---
 
 # Rice Puffs
 
+## Direct answer
+
+For the question of arsenic in rice puffs for babies, this ingredient has no promoted inorganic arsenic distribution (n_studies 0 on the contamination profile). [[products/teething-and-snacks-rice-based]] states that current sources do not resolve puff processing, and Signes-Pastor et al. 2016 measured baby rice, rice cereals, and rice crackers rather than puffs ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078). The nearest named crisped-rice measurements are FDA Total Diet Study food 75, crisped rice cereal, at 85.8, 90.4, and 103 µg/kg inorganic arsenic (n=3), which is a breakfast cereal and not an infant puff ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI).
+
 ## Overview
 
-This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+This node exists so product pages can link to rice puffs. No routed source reports a rice-puff concentration, so the direct answer does not invent one. Neighboring cereal and cracker figures are named there and are not puff results.
 
 ## Heavy metal contamination profile
 
@@ -122,17 +126,17 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-Rice puffs are puffed-rice products (popped or extruded rice kernels, similar to puffed rice breakfast cereal but typically with finer texture for infant feeding) used as a teething-and-snacks product for infants and toddlers. They inherit the source [[ingredients/rice|rice]] heavy-metal profile, particularly [[metals/arsenic-inorganic|inorganic arsenic]], without dilution because the puffing process is purely physical (high-temperature, low-moisture expansion) and does not introduce other ingredients or remove metals. Per-mass iAs in rice puffs typically matches the per-mass iAs in the source white rice or brown rice used; the moisture removal during puffing concentrates per-mass metals modestly (≈5-10%) versus the source rice. The HMTc panel concerns for rice puffs are dominantly iAs (the rice-pathway inheritance), with secondary Pb and Cd at the source-rice baseline.
+Rice puffs are puffed or extruded rice kernels used as infant and toddler snacks. Puffing is a physical expansion. It does not add a second ingredient that would dilute [[metals/arsenic-inorganic|inorganic arsenic]] inherited from [[ingredients/rice|rice]]. This page does not publish a puff-specific concentration, because no routed source reports one.
 
-The data gap status across all ten analytes in the body table reflects that no source in the current source routing reports rice-puff-specific values; the synthesis is inferred from the broader rice-cereal and rice-flour evidence base.
+The data gap across the profile reflects that no source in the current routing reports rice-puff-specific values.
 
 ## Ranges by source, region, and variety
 
-Variance within rice puffs tracks source-rice origin and milling fraction, identical to the variance drivers documented on [[ingredients/rice]] and [[ingredients/rice-flour]]. White-rice puffs carry lower iAs than brown-rice puffs because the bran fraction concentrates iAs. Organic-certified rice puffs do not differ appreciably from conventional on iAs because organic certification does not address soil arsenic. Per [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] (EU and US rice-based infant product survey), rice-based snack products including puffs sit at iAs levels comparable to rice cereal on a per-mass basis.
+Variance within rice puffs tracks source-rice origin and milling fraction, identical to the variance drivers documented on [[ingredients/rice]] and [[ingredients/rice-flour]]. White-rice puffs carry lower iAs than brown-rice puffs because the bran fraction concentrates iAs. Organic-certified rice puffs do not differ appreciably from conventional on iAs because organic certification does not address soil arsenic. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] reports baby rice, rice cereals, and rice crackers. It does not report rice puffs, so this page does not treat its cereal or cracker figures as puff results.
 
 ## Processing effects
 
-Rice-puff manufacturing is a thermal expansion process: rice kernels (whole or pre-treated) are heated at high temperature with reduced ambient pressure to vaporize the kernel's internal moisture and expand the starch matrix. Some processes use direct-heat puffing (puffing guns, fluidized-bed puffing); others use extrusion-puffing where pre-formed rice paste is extruded under pressure into a low-pressure environment. None of these processes remove or transform iAs, Pb, Cd, or other metals; the source-rice load passes through to the puffed product. Modest per-mass concentration occurs from the residual moisture removal (≈5-10%).
+Rice-puff manufacturing is a thermal expansion process: rice kernels (whole or pre-treated) are heated at high temperature with reduced ambient pressure to vaporize the kernel's internal moisture and expand the starch matrix. Some processes use direct-heat puffing (puffing guns, fluidized-bed puffing); others use extrusion-puffing where pre-formed rice paste is extruded under pressure into a low-pressure environment. None of these processes are described in the routed sources as removing inorganic arsenic, lead, or cadmium. This page does not assign a numeric concentration factor to moisture loss during puffing, because no routed source measures that factor for rice puffs.
 
 ## Ingredient-derivative risk
 

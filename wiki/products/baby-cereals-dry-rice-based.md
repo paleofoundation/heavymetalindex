@@ -40,11 +40,15 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-03
+updated: 2026-10-14
 sources: 77
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
+
+## Direct answer
+
+For the question of arsenic in rice cereal for babies, FDA's action level for inorganic arsenic in infant rice cereal as sold is 100 µg/kg ([[sources/fda2020-ias-infant-rice-cereal-guidance]], no DOI; also listed in the limits table on this page). FDA Total Diet Study dry infant rice cereal (food 765) measured 62.2 to 85.8 µg/kg inorganic arsenic in all 9 composites, calculated mean 72.8 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). A UK survey of rice cereals reported a dry-weight inorganic arsenic median of 75 µg/kg (0.075 mg/kg) and a range of 8 to 323 µg/kg (0.008 to 0.323 mg/kg) in 53 samples, so that survey includes samples above the FDA action level ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078).
 
 ## Overview
 

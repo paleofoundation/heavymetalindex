@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-14] query | SEO-FIX-1: rice thin-page direct answers
+
+Pages touched: [[ingredients/rice]], [[products/rice-bulk-grain]], [[ingredients/rice-cereal]], [[products/baby-cereals-dry-rice-based]], [[ingredients/rice-cakes]], [[ingredients/rice-puffs]], [[products/infant-rice-cereal]], [[ingredients/infant-rice-cereal]]
+Notes: One rice cluster answers two questions from the metallopathy bank: how much arsenic is in rice and how cooking or rinsing changes it, and whether rice cereal, rice cakes, or rice puffs are low-arsenic foods for babies. Every new figure is taken from an existing source page, regulation page, ingredient frontmatter, or the FDA Total Diet Study summary. Provisional near-duplicates [[products/infant-rice-cereal]] and [[ingredients/infant-rice-cereal]] are noindexed. No brand is named. Direction: toward the literature.
+
 ## [2026-10-13] lint | HMI-404 — remove dead public links
 
 Pages touched: [[methodology]], [[methodology/search-strategy]], [[curators]], [[coverage]], [[audits/index]]
