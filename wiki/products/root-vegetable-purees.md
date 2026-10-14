@@ -47,7 +47,7 @@ audience:
   - consumer
   - app
 wiki_doi: null
-updated: 2026-05-03T00:00:00.000Z
+updated: 2026-10-14T00:00:00.000Z
 sources: 182
 kind: Subcategory
 dek: >-
@@ -66,6 +66,10 @@ snapshot:
 ---
 
 # Root-Vegetable Purees
+
+## Direct answer
+
+For the question of heavy metals in store-bought root-vegetable baby food, FDA's January 2025 guidance sets the lead action level for single-ingredient carrots or sweet potatoes at 20 µg/kg (20 ppb); a mixture such as sweet potato with fruit is not that category. In the as-sold survey set behind the guidance, single-ingredient root lead was a mean of 8.2 µg/kg, a 90th percentile of 20.9 µg/kg, and a 95th percentile of 23.9 µg/kg (n=90), and FDA Total Diet Study baby-food sweet potatoes (food 221) measured 7.1 to 38 µg/kg lead in all 8 prepared composites ([[sources/fda-ctz-Pb-babyfood-2025]], no DOI; [[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). Parker et al. 2022 reported lead in 9 US retail root-vegetable baby foods at a mean of 15.8 µg/kg, a median of 5.0 µg/kg, and a maximum of 48.0 µg/kg (8 of 9 detected) ([[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], DOI 10.1016/j.toxrep.2022.02.001).
 
 <!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview

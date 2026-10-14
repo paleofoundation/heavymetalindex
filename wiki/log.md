@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-14] query | SEO-FIX-1: baby-food puree thin-page direct answers
+
+Pages touched: [[products/baby-food]], [[products/fruit-purees]], [[products/root-vegetable-purees]], [[products/non-root-vegetable-purees]], [[products/infant-food-puree]], [[products/infant-food-puree-fruit]], [[products/infant-food-puree-vegetable]], [[ingredients/baby-food]]
+Notes: One baby-food cluster answers which store-bought baby foods are lowest in heavy metals, and whether a pouch is a separate result. Every new figure is taken from FDA's January 2025 lead guidance, the Parker et al. 2022 category table, or the FDA Total Diet Study sweet-potato composite row. Provisional puree near-duplicates are noindexed. No brand is named. Direction: toward the literature.
+
 ## [2026-10-14] query | SEO-FIX-1: rice thin-page direct answers
 
 Pages touched: [[ingredients/rice]], [[products/rice-bulk-grain]], [[ingredients/rice-cereal]], [[products/baby-cereals-dry-rice-based]], [[ingredients/rice-cakes]], [[ingredients/rice-puffs]], [[products/infant-rice-cereal]], [[ingredients/infant-rice-cereal]]

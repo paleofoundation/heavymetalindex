@@ -46,7 +46,7 @@ audience:
   - consumer
   - app
 wiki_doi: null
-updated: 2026-05-03T00:00:00.000Z
+updated: 2026-10-14T00:00:00.000Z
 sources: 23
 kind: Subcategory
 dek: >-
@@ -65,6 +65,10 @@ snapshot:
 ---
 
 # Non-Root Vegetable Purees
+
+## Direct answer
+
+For the question of heavy metals in store-bought vegetable baby food other than single-ingredient roots, FDA's January 2025 guidance sets the lead action level at 10 µg/kg (10 ppb), and the as-sold survey set behind that guidance measured vegetables excluding single-ingredient roots at a lead mean of 2.1 µg/kg, a 90th percentile of 4.2 µg/kg, and a 95th percentile of 7.0 µg/kg (n=130) ([[sources/fda-ctz-Pb-babyfood-2025]], no DOI). Parker et al. 2022 measured a narrower set, leguminous-vegetable baby foods, and Table 4 lists lead at a maximum of 5.0 µg/kg (mean 2.3 µg/kg, 2 of 9 detected) and cadmium as 0 of 9 detected; non-detects were assigned 1.5 µg/kg, so that value is the lead median and the figure printed in every cadmium summary column ([[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], DOI 10.1016/j.toxrep.2022.02.001).
 
 <!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview

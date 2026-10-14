@@ -22,7 +22,8 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-14
+noindex: true
 sources: 19
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -31,9 +32,13 @@ created_routed_sources: 2
 
 # Baby Food
 
+## Direct answer
+
+This provisional ingredient repeats the broad baby-food topic on [[products/baby-food]] and is excluded from the search index. The FDA Total Diet Study rows below stay here because they are routed observations for food 721 (fruit yogurt dessert) and food 763 (yogurt, peach pear). The direct answer for store-bought fruit, root-vegetable, and other vegetable baby foods is on [[products/baby-food]].
+
 ## Overview
 
-2 studies in the corpus report this topic. This page collects them. The concentration profile fills in as those studies are read.
+The source list on this page is already populated. The concentration profile above is still pending. That pending state is not a claim that only two studies exist.
 
 ## Heavy metal contamination profile
 
